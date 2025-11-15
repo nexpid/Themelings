@@ -261,8 +261,8 @@ case 29:
                                     var8 = var3.type;
                                     var9 = _closure1_slot8;
                                     var9 = var9.APPLICATION;
-                                    if(!(var9 !== var8)) { _fun0004_ip = 30; continue _fun0004 }
-case 6:
+                                    if(!(var9 !== var8)) { _fun0004_ip = 9; continue _fun0004 }
+case 30:
                                     var5 = _closure1_slot8;
                                     var5 = var5.GUILD;
                                     if(!(var5 === var8)) { _fun0004_ip = 28; continue _fun0004 }
@@ -271,7 +271,7 @@ case 31:
                                     var5 = var3.guild;
                                     var5 = var8.bind(var7)(var5);
                                     _fun0004_ip = 28; continue _fun0004;
-case 30:
+case 9:
                                     var5 = _closure2_slot6;
                                     var3 = var3.application;
                                     var3 = var5.bind(var7)(var3);
@@ -283,7 +283,7 @@ case 28:
                                     var5 = _closure2_slot7;
                                     var5 = var5.current;
                                     if(!(var6 != var5)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+case 13:
                                     var5 = _closure2_slot7;
                                     var4 = var5.current;
                                     var4 = var4.bind(var5)();
@@ -314,19 +314,19 @@ case 21:
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var4 = _closure2_slot2;
-                    if(var4) { _fun0003_ip = 34; continue _fun0003 }
-case 35:
+                    if(var4) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
                     var4 = _closure2_slot7;
                     var4 = var4.current;
-                    if(!(var5 != var4)) { _fun0003_ip = 36; continue _fun0003 }
+                    if(!(var5 != var4)) { _fun0003_ip = 35; continue _fun0003 }
 case 29:
                     var4 = _closure2_slot7;
                     var3 = var4.current;
                     var3 = var3.bind(var4)();
-                    _fun0003_ip = 36; continue _fun0003;
-case 34:
+                    _fun0003_ip = 35; continue _fun0003;
+case 33:
                     var2 = var2.bind(var1)();
-case 36:
+case 35:
                     return var1;
                 }
             };

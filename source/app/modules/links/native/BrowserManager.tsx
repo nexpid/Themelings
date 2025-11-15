@@ -290,8 +290,8 @@ case 28:
             var3 = var4.bind(var1)(var3);
             var3 = var3.WebBrowserType;
             var3 = var3.IN_APP;
-            if(!(var3 !== var5)) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+            if(!(var3 !== var5)) { _fun0003_ip = 16; continue _fun0003 }
+case 29:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var6];
@@ -299,7 +299,7 @@ case 30:
             var3 = var3.WebBrowserType;
             var3 = var3.CHROME;
             if(!(var3 === var5)) { _fun0003_ip = 26; continue _fun0003 }
-case 31:
+case 30:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -313,7 +313,7 @@ case 31:
             var3 = var3.CHROME;
             var3 = var4.bind(var6)(var3);
             _fun0003_ip = 26; continue _fun0003;
-case 29:
+case 16:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -361,13 +361,13 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(var3) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
             var2 = _closure1_slot3;
             var3 = var2.BrowserManager;
             var2 = var3.closeBrowser;
             var2 = var2.bind(var3)();
-case 32:
+case 31:
             return var1;
         }
     };

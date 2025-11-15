@@ -616,17 +616,17 @@ case 0:
                 var7 = var5 == var6;
                 var4 = undefined;
                 if(var7) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+case 7:
                 var4 = var6.id;
 case 61:
                 var1['emoji_id'] = var4;
                 var6 = var2.emoji;
                 var7 = var5 == var6;
                 var4 = undefined;
-                if(var7) { _fun0008_ip = 59; continue _fun0008 }
+                if(var7) { _fun0008_ip = 62; continue _fun0008 }
 case 63:
                 var4 = var6.name;
-case 59:
+case 62:
                 var1['emoji_name'] = var4;
                 var4 = var2.emoji;
                 var5 = var5 == var4;
@@ -756,14 +756,14 @@ case 66:
 case 75:
             var6 = 'provider';
             var1 = null;
-            if(!(var6 === var7)) { _fun0011_ip = 64; continue _fun0011 }
-case 77:
-            var1 = null;
-            if(!(var2 !== var3)) { _fun0011_ip = 64; continue _fun0011 }
+            if(!(var6 === var7)) { _fun0011_ip = 77; continue _fun0011 }
 case 78:
+            var1 = null;
+            if(!(var2 !== var3)) { _fun0011_ip = 77; continue _fun0011 }
+case 79:
             var2 = '';
             var1 = null;
-            if(!(var2 !== var3)) { _fun0011_ip = 64; continue _fun0011 }
+            if(!(var2 !== var3)) { _fun0011_ip = 77; continue _fun0011 }
 case 59:
             var2 = {};
             var5 = _closure1_slot8;
@@ -771,8 +771,8 @@ case 59:
             var2['type'] = var5;
             var2['providerId'] = var3;
             var1 = var2;
-case 64:
-            _fun0011_ip = 79; continue _fun0011;
+case 77:
+            _fun0011_ip = 80; continue _fun0011;
 case 76:
             var2 = {};
             var4 = _closure1_slot8;
@@ -780,7 +780,7 @@ case 76:
             var2['type'] = var4;
             var2['applicationId'] = var3;
             var1 = var2;
-case 79:
+case 80:
             return var1;
         }
     };
@@ -840,13 +840,13 @@ case 0:
                     var5 = _closure2_slot1;
                     var3 = var5.has;
                     var3 = var3.bind(var5)(var4);
-                    if(!var3) { _fun0013_ip = 80; continue _fun0013 }
+                    if(!var3) { _fun0013_ip = 81; continue _fun0013 }
 case 13:
                     var6 = _closure2_slot0;
                     var5 = var6.push;
                     var3 = 'Duplicate connection configuration';
                     var3 = var5.bind(var6)(var3);
-case 80:
+case 81:
                     var3 = _closure2_slot1;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var4);

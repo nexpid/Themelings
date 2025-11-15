@@ -159,17 +159,17 @@ case 8:
 case 10:
                 var5['style'] = var16;
                 var16 = 'interactive-muted';
-                if(!var17) { _fun0002_ip = 5; continue _fun0002 }
-case 11:
+                if(!var17) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var16 = 'interactive-normal';
-case 5:
+case 11:
                 var5['color'] = var16;
                 var8 = var10.bind(var4)(var8, var5);
                 var5 = new Array(3);
                 var5[0] = var8;
                 var10 = _closure1_slot4;
-                if(var6) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                if(var6) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var8 = _closure1_slot1;
                 var16 = _closure1_slot2;
                 var6 = 10;
@@ -183,8 +183,8 @@ case 13:
                 var9 = false;
                 var6['animate'] = var9;
                 var6 = var10.bind(var4)(var8, var6);
-                _fun0002_ip = 14; continue _fun0002;
-case 12:
+                _fun0002_ip = 15; continue _fun0002;
+case 13:
                 var9 = _closure1_slot0;
                 var16 = _closure1_slot2;
                 var8 = 9;
@@ -197,12 +197,12 @@ case 12:
                 var8['color'] = var13;
                 var8['children'] = var11;
                 var6 = var10.bind(var4)(var9, var8);
-case 14:
+case 15:
                 var5[1] = var6;
                 var6 = null;
                 var6 = var6 != var14;
-                if(!var6) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                if(!var6) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var9 = _closure1_slot5;
                 var11 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -230,7 +230,7 @@ case 16:
                 var10[2] = var11;
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 15:
+case 16:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

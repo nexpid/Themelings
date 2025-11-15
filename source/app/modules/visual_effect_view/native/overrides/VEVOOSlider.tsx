@@ -91,10 +91,10 @@ case 6:
                 var8 = null;
                 var10 = var8 != var9;
                 var8 = undefined;
-                if(!var10) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                var8 = var9;
+                if(!var10) { _fun0002_ip = 3; continue _fun0002 }
 case 8:
+                var8 = var9;
+case 3:
                 var1['value'] = var8;
                 var8 = 0;
                 var1['minimumValue'] = var8;
@@ -120,13 +120,13 @@ case 8:
                 var5 = var6.isAndroid;
                 var6 = var5.bind(var6)();
                 var5 = undefined;
-                if(!var6) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var5 = function() {
                     var1 = true;
                     return var1;
                 };
-case 10:
+case 9:
                 var1['onResponderGrant'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

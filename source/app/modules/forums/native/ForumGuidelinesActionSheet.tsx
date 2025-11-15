@@ -370,12 +370,12 @@ case 0:
 case 19:
                     var5 = null;
                     if(!(var5 != var4)) { _fun0006_ip = 18; continue _fun0006 }
-case 4:
+case 20:
                     var5 = var4.channelId;
                     var4 = _closure2_slot0;
                     var4 = var4.id;
                     if(!(var5 !== var4)) { _fun0006_ip = 18; continue _fun0006 }
-case 20:
+case 21:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 12;
@@ -384,12 +384,12 @@ case 20:
                     var4 = var5.hideActionSheet;
                     var3 = _closure1_slot6;
                     var3 = var4.bind(var5)(var3);
-                    _fun0006_ip = 21; continue _fun0006;
+                    _fun0006_ip = 22; continue _fun0006;
 case 18:
                     var3 = _closure2_slot7;
                     var2 = false;
                     var3['current'] = var2;
-case 21:
+case 22:
                     return var1;
                 }
             };
@@ -449,8 +449,8 @@ case 21:
             var14 = {};
             var19 = var13.header;
             var14['style'] = var19;
-            if(!var15) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!var15) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var21 = _closure1_slot8;
             var24 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -510,7 +510,7 @@ case 23:
             var22[1] = var23;
             var19['children'] = var22;
             var15 = var21.bind(var4)(var20, var19);
-case 22:
+case 23:
             var19 = new Array(3);
             var19[0] = var15;
             var20 = _closure1_slot7;
@@ -580,8 +580,8 @@ case 22:
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!var6) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var9 = _closure1_slot7;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -610,7 +610,7 @@ case 25:
             var7['text'] = var11;
             var7['onPress'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 24:
+case 25:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

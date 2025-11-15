@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['ClipsExperiment'] = var5;
     var3['ClipsPremiumEarlyAccessExperiment'] = var4;
-    var4 = function areClipsEnabled() {
+    var4 = function areClipsAvailable() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot0;
@@ -130,8 +130,8 @@ case 6:
             return var1;
         }
     };
-    var3['areClipsEnabled'] = var4;
-    var4 = function useEnableClips() {
+    var3['areClipsAvailable'] = var4;
+    var4 = function useIsClipsAvailable() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = _closure1_slot0;
@@ -178,14 +178,14 @@ case 8:
 case 11:
             var1 = var3;
 case 10:
-            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var1 = var2;
+            if(!var1) { _fun0002_ip = 5; continue _fun0002 }
 case 12:
+            var1 = var2;
+case 5:
             return var1;
         }
     };
-    var3['useEnableClips'] = var4;
+    var3['useIsClipsAvailable'] = var4;
     var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -205,19 +205,19 @@ case 0:
             var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             var3['location'] = var2;
             var2 = {};
-            if(!var6) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var6 = var1;
+            if(!var6) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
+            var6 = var1;
+case 13:
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var2 = var2.enablePremiumEarlyAccessGoLiveRoadblock;
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var1 = var2;
+            if(var3) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
+            var1 = var2;
+case 15:
             return var1;
         }
     };
@@ -241,19 +241,19 @@ case 0:
             var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             var3['location'] = var2;
             var2 = {};
-            if(!var6) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-            var6 = var1;
+            if(!var6) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
+            var6 = var1;
+case 13:
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var2 = var2.enablePremiumEarlyAccessAnnouncementCoachmark;
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-            var1 = var2;
+            if(var3) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
+            var1 = var2;
+case 15:
             return var1;
         }
     };

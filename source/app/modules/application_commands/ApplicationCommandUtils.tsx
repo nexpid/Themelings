@@ -1545,37 +1545,42 @@ case 170:
         }
     };
     var3['getCommandTriggerSection'] = var4;
-    var4 = function getApplicationCommandSection(arg1, arg2) {
+    var4 = function getApplicationCommandSection(arg1, arg2, arg3) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var4 = arg1;
             var3 = arg2;
+            var5 = arg3;
             var1 = {};
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
             var2 = 7;
-            var2 = var6[var2];
-            var8 = undefined;
-            var2 = var5.bind(var8)(var2);
+            var2 = var7[var2];
+            var9 = undefined;
+            var2 = var6.bind(var9)(var2);
             var2 = var2.ApplicationCommandSectionType;
             var2 = var2.APPLICATION;
             var1['type'] = var2;
             var2 = var4.id;
             var1['id'] = var2;
             var2 = null;
-            var6 = var2 == var4;
-            var5 = undefined;
-            if(var6) { _fun0018_ip = 171; continue _fun0018 }
+            if(!(var2 == var5)) { _fun0018_ip = 171; continue _fun0018 }
+case 30:
+            var7 = var2 == var4;
+            var6 = undefined;
+            if(var7) { _fun0018_ip = 11; continue _fun0018 }
 case 172:
-            var6 = var4.bot;
-            var7 = var2 == var6;
-            var5 = undefined;
-            if(var7) { _fun0018_ip = 171; continue _fun0018 }
+            var7 = var4.bot;
+            var8 = var2 == var7;
+            var6 = undefined;
+            if(var8) { _fun0018_ip = 11; continue _fun0018 }
 case 173:
-            var5 = var6.username;
+            var6 = var7.username;
+case 11:
+            var5 = var6;
 case 171:
             if(!(var2 == var5)) { _fun0018_ip = 174; continue _fun0018 }
-case 139:
+case 175:
             var5 = var4.name;
 case 174:
             var1['name'] = var5;
@@ -1583,10 +1588,10 @@ case 174:
             var1['icon'] = var5;
             var1['application'] = var4;
             var2 = var2 != var3;
-            if(!var2) { _fun0018_ip = 175; continue _fun0018 }
+            if(!var2) { _fun0018_ip = 62; continue _fun0018 }
 case 176:
             var2 = var3;
-case 175:
+case 62:
             var1['isUserApp'] = var2;
             return var1;
         }
@@ -1656,7 +1661,7 @@ case 180:
 case 179:
             var3 = var5;
             if(!(var4 != var1)) { _fun0019_ip = 17; continue _fun0019 }
-case 175:
+case 181:
             var8 = _closure1_slot7;
             var7 = var1.name;
             var4 = global;
@@ -1700,10 +1705,10 @@ case 0:
             var15 = null;
             var17 = var15 == var16;
             var14 = undefined;
-            if(var17) { _fun0020_ip = 181; continue _fun0020 }
+            if(var17) { _fun0020_ip = 182; continue _fun0020 }
 case 39:
             var14 = var16.id;
-case 181:
+case 182:
             if(!(var15 == var14)) { _fun0020_ip = 103; continue _fun0020 }
 case 179:
             var14 = var10.id;
@@ -1733,7 +1738,7 @@ case 0:
             var3 = var1.interactionMetadata;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0021_ip = 182; continue _fun0021 }
+            if(var2) { _fun0021_ip = 183; continue _fun0021 }
 case 114:
             var2 = 'triggering_interaction_metadata';
             var4 = var2 in var3;
@@ -1743,7 +1748,7 @@ case 56:
             var2 = var3.triggering_interaction_metadata;
 case 177:
             var1 = var2;
-case 182:
+case 183:
             return var1;
         }
     };

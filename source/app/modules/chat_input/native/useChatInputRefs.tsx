@@ -472,7 +472,7 @@ case 15:
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
                     if(var3) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+case 7:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var3 = 13;
@@ -509,7 +509,7 @@ case 0:
                     var3 = var2.current;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0004_ip = 16; continue _fun0004 }
-case 19:
+case 18:
                     var2 = var3.closeCustomKeyboard;
                     var2 = var2.bind(var3)();
 case 16:
@@ -540,7 +540,7 @@ case 0:
                     var2 = var1 == var3;
                     var1 = undefined;
                     if(var2) { _fun0005_ip = 13; continue _fun0005 }
-case 20:
+case 19:
                     var2 = var3.getApplicationCommandManager;
                     var1 = var2.bind(var3)();
 case 13:
@@ -569,8 +569,8 @@ case 0:
                     var3 = var1.id;
                     var8 = var4.bind(var5)(var3);
                     var9 = null;
-                    if(!(var9 != var8)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+                    if(!(var9 != var8)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                     var5 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var3 = 24;
@@ -602,10 +602,10 @@ case 22:
                     var10 = var10.bind(var11)();
                     var11 = var9 == var10;
                     var9 = undefined;
-                    if(var11) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-                    var9 = var10.id;
+                    if(var11) { _fun0006_ip = 22; continue _fun0006 }
 case 23:
+                    var9 = var10.id;
+case 22:
                     var8 = var8.author;
                     var8 = var8.id;
                     var8 = var9 === var8;
@@ -619,7 +619,7 @@ case 23:
                     var2 = var3.endEditMessage;
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
-case 21:
+case 20:
                     var1 = undefined;
                     return var1;
                 }
@@ -638,16 +638,16 @@ case 0:
                     var1 = var3.isChannelOnCooldown;
                     var3 = var1.bind(var3)(var5);
                     var1 = '\r';
-                    if(!(var1 !== var8)) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                    if(!(var1 !== var8)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                     var1 = 'UIKeyInputEscape';
-                    if(!(var1 === var8)) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+                    if(!(var1 === var8)) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                     var1 = null;
-                    if(!(var1 == var4)) { _fun0007_ip = 29; continue _fun0007 }
+                    if(!(var1 == var4)) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
+                    if(!(var1 != var7)) { _fun0007_ip = 26; continue _fun0007 }
 case 30:
-                    if(!(var1 != var7)) { _fun0007_ip = 27; continue _fun0007 }
-case 31:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var6 = 27;
@@ -657,32 +657,32 @@ case 31:
                     var6 = var7.deletePendingReply;
                     var5 = var5.id;
                     var5 = var6.bind(var7)(var5);
-                    _fun0007_ip = 27; continue _fun0007;
-case 29:
+                    _fun0007_ip = 26; continue _fun0007;
+case 28:
                     var5 = _closure2_slot15;
                     var5 = var5.current;
-                    if(!(var1 != var5)) { _fun0007_ip = 27; continue _fun0007 }
-case 32:
+                    if(!(var1 != var5)) { _fun0007_ip = 26; continue _fun0007 }
+case 31:
                     var1 = var5.handleCancelEditing;
                     var1 = var1.bind(var5)();
-                    _fun0007_ip = 27; continue _fun0007;
-case 25:
+                    _fun0007_ip = 26; continue _fun0007;
+case 24:
                     var1 = _closure2_slot15;
                     var7 = var1.current;
                     var1 = null;
                     var6 = var1 == var7;
                     var5 = undefined;
-                    if(var6) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                    if(var6) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var6 = var7.getText;
                     var5 = var6.bind(var7)();
-case 33:
+case 32:
                     var7 = var1 != var5;
                     var6 = '';
-                    if(!var7) { _fun0007_ip = 35; continue _fun0007 }
-case 17:
-                    var6 = var5;
+                    if(!var7) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
+                    var6 = var5;
+case 34:
                     var5 = var6.trim;
                     var5 = var5.bind(var6)();
                     var6 = var5.length;
@@ -691,23 +691,23 @@ case 35:
 case 37:
                     if(!(var1 == var4)) { _fun0007_ip = 38; continue _fun0007 }
 case 36:
-                    if(var3) { _fun0007_ip = 27; continue _fun0007 }
+                    if(var3) { _fun0007_ip = 26; continue _fun0007 }
 case 39:
                     var3 = _closure2_slot15;
                     var4 = var3.current;
-                    if(!(var1 != var4)) { _fun0007_ip = 27; continue _fun0007 }
+                    if(!(var1 != var4)) { _fun0007_ip = 26; continue _fun0007 }
 case 40:
                     var3 = var4.handleSend;
                     var3 = var3.bind(var4)();
-                    _fun0007_ip = 27; continue _fun0007;
+                    _fun0007_ip = 26; continue _fun0007;
 case 38:
                     var2 = _closure2_slot15;
                     var2 = var2.current;
-                    if(!(var1 != var2)) { _fun0007_ip = 27; continue _fun0007 }
+                    if(!(var1 != var2)) { _fun0007_ip = 26; continue _fun0007 }
 case 41:
                     var1 = var2.handleSaveEditing;
                     var1 = var1.bind(var2)();
-case 27:
+case 26:
                     var1 = undefined;
                     return var1;
                 }
@@ -1053,7 +1053,7 @@ case 0:
                     var6 = var7.isChannelOnCooldown;
                     var6 = var6.bind(var7)(var2);
                     if(var6) { _fun0013_ip = 43; continue _fun0013 }
-case 26:
+case 25:
                     var8 = var4.length;
                     var7 = 0;
                     var6 = var7 === var8;
@@ -1062,7 +1062,7 @@ case 43:
 case 67:
                     var6 = null;
                     if(!(var6 == var3)) { _fun0013_ip = 68; continue _fun0013 }
-case 31:
+case 30:
                     var14 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var6 = 26;
@@ -1128,7 +1128,7 @@ case 0:
                     var6 = var7.isChannelOnCooldown;
                     var6 = var6.bind(var7)(var3);
                     if(var6) { _fun0014_ip = 70; continue _fun0014 }
-case 19:
+case 18:
                     var7 = null;
                     var6 = var7 == var2;
 case 70:
@@ -1157,7 +1157,7 @@ case 71:
 case 75:
                     var6 = null;
                     if(!(var6 == var5)) { _fun0014_ip = 76; continue _fun0014 }
-case 32:
+case 31:
                     var14 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var6 = 26;
@@ -1275,10 +1275,10 @@ case 81:
                     var7 = var1 != var6;
                     var1 = undefined;
                     var5 = undefined;
-                    if(!var7) { _fun0016_ip = 29; continue _fun0016 }
+                    if(!var7) { _fun0016_ip = 28; continue _fun0016 }
 case 60:
                     var5 = var6;
-case 29:
+case 28:
                     var2['editId'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;

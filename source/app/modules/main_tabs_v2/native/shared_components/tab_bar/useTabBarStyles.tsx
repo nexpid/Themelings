@@ -460,19 +460,19 @@ case 26:
                         var1 = copyDataProperties(var15, var14);
                         var1 = _closure2_slot11;
                         var9 = undefined;
-                        if(!var1) { _fun0004_ip = 8; continue _fun0004 }
-case 28:
+                        if(!var1) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                         var1 = {};
                         var12 = _closure2_slot1;
                         var4 = null;
-                        if(!(var4 == var12)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+                        if(!(var4 == var12)) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                         var4 = _closure2_slot0;
                         var4 = var4.tabBarTablet;
-                        _fun0004_ip = 31; continue _fun0004;
-case 29:
+                        _fun0004_ip = 32; continue _fun0004;
+case 30:
                         var4 = {};
-case 31:
+case 32:
                         var15 = var1;
                         var14 = var4;
                         var4 = copyDataProperties(var15, var14);
@@ -484,7 +484,7 @@ case 31:
                         var4 = 'height';
                         var1[var4] = var12;
                         var9 = var1;
-case 8:
+case 28:
                         var1 = {};
                         var4 = {};
                         var12 = new Array(2);
@@ -514,15 +514,15 @@ case 8:
                         var4 = {};
                         var10 = _closure2_slot3;
                         var8 = null;
-                        if(!(var8 != var10)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+                        if(!(var8 != var10)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                         var8 = _closure2_slot0;
                         var10 = var8.tabBarYou;
-                        _fun0004_ip = 34; continue _fun0004;
-case 32:
+                        _fun0004_ip = 35; continue _fun0004;
+case 33:
                         var8 = _closure2_slot0;
                         var10 = var8.tabBar;
-case 34:
+case 35:
                         var8 = new Array(2);
                         var8[0] = var10;
                         var8[1] = var9;

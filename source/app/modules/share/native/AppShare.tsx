@@ -237,7 +237,7 @@ case 5:
                         var2 = var3.isAndroid;
                         var2 = var2.bind(var3)();
                         if(!var2) { _fun0005_ip = 12; continue _fun0005 }
-case 3:
+case 13:
                         var1 = _closure1_slot6;
                         var2 = var1.NativePermissionManager;
                         var1 = var2.requestNotificationAuthorization;
@@ -276,14 +276,14 @@ case 0:
                     var8 = var7.text;
                     var7 = null;
                     var7 = var7 != var8;
-                    if(!var7) { _fun0006_ip = 13; continue _fun0006 }
-case 14:
+                    if(!var7) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
                     var8 = _closure2_slot0;
                     var8 = var8.text;
                     var9 = var8.length;
                     var8 = 0;
                     var7 = var9 > var8;
-case 13:
+case 14:
                     var2['has_content'] = var7;
                     var6 = _closure2_slot0;
                     var6 = var6.attachments;
@@ -317,10 +317,10 @@ case 0:
                         var1 = null;
                         var3 = var1 != var2;
                         var1 = 'unknown';
-                        if(!var3) { _fun0007_ip = 15; continue _fun0007 }
-case 16:
+                        if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
                         var1 = var2;
-case 15:
+case 16:
                         return var1;
                     }
                 };
@@ -351,8 +351,8 @@ case 15:
             var7 = 'share';
             var1['appEntryKey'] = var7;
             var9 = _closure1_slot9;
-            if(var5) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(var5) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 18;
@@ -361,8 +361,8 @@ case 18:
             var7 = var5.SceneLoadingIndicator;
             var5 = {};
             var7 = var9.bind(var4)(var7, var5);
-            _fun0001_ip = 19; continue _fun0001;
-case 17:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var5 = 17;
@@ -374,7 +374,7 @@ case 17:
             var10 = var10.exitApp;
             var5['onClose'] = var10;
             var7 = var9.bind(var4)(var8, var5);
-case 19:
+case 20:
             var5 = new Array(4);
             var5[0] = var7;
             var8 = _closure1_slot9;

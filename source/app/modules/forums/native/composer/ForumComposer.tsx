@@ -2351,13 +2351,13 @@ case 0:
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0018_ip = 194; continue _fun0018 }
-case 195:
+case 38:
                     var3 = _closure2_slot21;
                     var4 = var3.current;
                     _closure3_slot2 = var4;
                     var3 = null;
                     if(!(var3 != var4)) { _fun0018_ip = 194; continue _fun0018 }
-case 9:
+case 195:
                     var3 = global;
                     var3 = var3.setTimeout;
                     var2 = function() {
@@ -3122,7 +3122,7 @@ case 0:
                     var3 = var1.MEDIA_CHANNEL_MULTIPLE_THUMBNAIL_NOTICE;
                     var1 = null;
                     if(!(var4 === var3)) { _fun0024_ip = 226; continue _fun0024 }
-case 195:
+case 227:
                     var4 = _closure1_slot27;
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;

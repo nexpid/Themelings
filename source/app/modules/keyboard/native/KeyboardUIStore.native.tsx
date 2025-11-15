@@ -82,11 +82,11 @@ case 0:
                 if(var1) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                 var1 = 0;
-                if(!(var1 !== var6)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                if(!(var1 !== var6)) { _fun0003_ip = 5; continue _fun0003 }
+case 11:
                 var3 = 0;
-                if(!var4) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                if(!var4) { _fun0003_ip = 12; continue _fun0003 }
+case 2:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var7 = 8;
@@ -95,10 +95,10 @@ case 14:
                 var7 = var8.getSafeAreaInsets;
                 var7 = var7.bind(var8)();
                 var3 = var7.bottom;
-case 13:
+case 12:
                 var1 = var6 - var3;
-case 11:
-                _fun0003_ip = 8; continue _fun0003;
+case 5:
+                _fun0003_ip = 13; continue _fun0003;
 case 9:
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -107,7 +107,7 @@ case 9:
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.getImeInsets;
                 var1 = var2.bind(var3)(var4);
-case 8:
+case 13:
                 return var1;
             }
         };
@@ -132,18 +132,18 @@ case 0:
                         var2 = _closure2_slot0;
                         var9 = var2.keyboardDuration;
                         var11 = null;
-                        if(!(var11 == var9)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                        var9 = var1.keyboardDuration;
+                        if(!(var11 == var9)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
+                        var9 = var1.keyboardDuration;
+case 14:
                         var4 = _closure1_slot11;
                         var3 = {};
                         var5 = _closure2_slot0;
                         var5 = var5.keyboardHeight;
-                        if(!(var11 == var5)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                        var5 = var1.keyboardHeight;
+                        if(!(var11 == var5)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
+                        var5 = var1.keyboardHeight;
+case 16:
                         var3['keyboardHeight'] = var5;
                         var16 = false;
                         var3['excludeSafeAreaInsets'] = var16;
@@ -153,10 +153,10 @@ case 17:
                         var3 = {};
                         var5 = _closure2_slot0;
                         var5 = var5.keyboardHeight;
-                        if(!(var11 == var5)) { _fun0004_ip = 11; continue _fun0004 }
+                        if(!(var11 == var5)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
                         var5 = var1.keyboardHeight;
-case 11:
+case 18:
                         var3['keyboardHeight'] = var5;
                         var5 = true;
                         var3['excludeSafeAreaInsets'] = var5;

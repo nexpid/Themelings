@@ -780,7 +780,7 @@ case 0:
             var1 = null;
             var3 = var1 == var9;
             if(var3) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+case 5:
             var4 = _closure1_slot11;
             var3 = _closure1_slot15;
             var2 = {};

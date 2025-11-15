@@ -2328,12 +2328,12 @@ case 90:
             var5[1] = var6;
             var7 = var10 != var20;
             var6 = null;
-            if(!var7) { _fun0023_ip = 95; continue _fun0023 }
-case 96:
+            if(!var7) { _fun0023_ip = 32; continue _fun0023 }
+case 95:
             var7 = {};
             var7['backgroundColor'] = var20;
             var6 = var7;
-case 95:
+case 32:
             var5[2] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot20;
@@ -2354,10 +2354,10 @@ case 0:
                     var2 = null;
                     var2 = var2 == var1;
                     var3 = undefined;
-                    if(var2) { _fun0027_ip = 97; continue _fun0027 }
+                    if(var2) { _fun0027_ip = 96; continue _fun0027 }
 case 30:
                     var3 = var1.src;
-case 97:
+case 96:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var2 = var1.concat;
@@ -2399,14 +2399,14 @@ case 97:
             var13 = var13.youRowRight;
             var6['style'] = var13;
             var13 = null;
-            if(!var9) { _fun0023_ip = 98; continue _fun0023 }
-case 99:
+            if(!var9) { _fun0023_ip = 97; continue _fun0023 }
+case 98:
             var16 = _closure1_slot20;
             var15 = _closure1_slot33;
             var9 = {};
             var9['hasNameplate'] = var14;
             var13 = var16.bind(var4)(var15, var9);
-case 98:
+case 97:
             var9 = new Array(3);
             var9[0] = var13;
             var16 = _closure1_slot20;
@@ -2416,14 +2416,14 @@ case 98:
             var13 = var16.bind(var4)(var15, var13);
             var9[1] = var13;
             var10 = null;
-            if(!var12) { _fun0023_ip = 100; continue _fun0023 }
-case 101:
+            if(!var12) { _fun0023_ip = 99; continue _fun0023 }
+case 100:
             var13 = _closure1_slot20;
             var12 = _closure1_slot36;
             var11 = {};
             var11['hasNameplate'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 100:
+case 99:
             var9[2] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -2518,23 +2518,23 @@ case 0:
             var2 = var2.BG_BASE_TERTIARY;
             var5 = var5.bind(var7)(var2);
             var2 = null;
-            if(!(var2 != var1)) { _fun0028_ip = 102; continue _fun0028 }
-case 103:
+            if(!(var2 != var1)) { _fun0028_ip = 101; continue _fun0028 }
+case 102:
             var8 = _closure1_slot19;
             var7 = var1.id;
             var7 = var8[var7];
-            if(!(var2 == var7)) { _fun0028_ip = 104; continue _fun0028 }
-case 102:
+            if(!(var2 == var7)) { _fun0028_ip = 103; continue _fun0028 }
+case 101:
             var8 = var5;
-            if(!(var2 != var3)) { _fun0028_ip = 105; continue _fun0028 }
-case 106:
+            if(!(var2 != var3)) { _fun0028_ip = 104; continue _fun0028 }
+case 105:
             var8 = var3;
-            _fun0028_ip = 105; continue _fun0028;
-case 104:
+            _fun0028_ip = 104; continue _fun0028;
+case 103:
             var3 = _closure1_slot19;
             var1 = var1.id;
             var8 = var3[var1];
-case 105:
+case 104:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var7 = 53;
@@ -2546,10 +2546,10 @@ case 105:
             var5 = var2 != var1;
             var11 = 'transparent';
             var3 = var11;
-            if(!var5) { _fun0028_ip = 107; continue _fun0028 }
-case 108:
-            var3 = var1;
+            if(!var5) { _fun0028_ip = 106; continue _fun0028 }
 case 107:
+            var3 = var1;
+case 106:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var7];
@@ -2559,10 +2559,10 @@ case 107:
             var1 = var1.bind(var5)(var3, var15);
             var2 = var2 != var1;
             var10 = var3;
-            if(!var2) { _fun0028_ip = 109; continue _fun0028 }
-case 110:
-            var11 = var1;
+            if(!var2) { _fun0028_ip = 108; continue _fun0028 }
 case 109:
+            var11 = var1;
+case 108:
             var3 = _closure1_slot21;
             var2 = _closure1_slot22;
             var1 = {};

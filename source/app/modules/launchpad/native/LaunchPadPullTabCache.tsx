@@ -217,7 +217,7 @@ case 24:
             var3 = var4 != var5;
 case 23:
             if(!var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+case 3:
             _closure1_slot8 = var1;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;

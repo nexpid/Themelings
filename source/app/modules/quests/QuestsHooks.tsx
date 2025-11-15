@@ -5192,50 +5192,52 @@ case 312:
     };
     var3['useClaimedCollectibleRewardMessage'] = var5;
     var5 = function useLaunchInGameActivityQuest(arg1) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
-        var4 = _closure1_slot2;
+        var6 = _closure1_slot2;
         var1 = 12;
-        var4 = var4[var1];
-        var1 = undefined;
-        var7 = var5.bind(var1)(var4);
-        var5 = var7.useStateFromStores;
+        var1 = var6[var1];
+        var4 = undefined;
+        var9 = var5.bind(var4)(var1);
+        var8 = var9.useStateFromStores;
         var1 = _closure1_slot6;
-        var4 = new Array(1);
-        var4[0] = var1;
+        var7 = new Array(1);
+        var7[0] = var1;
         var1 = function() {
             var2 = _closure1_slot6;
             var1 = var2.getCurrentEmbeddedActivity;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var7 = var5.bind(var7)(var4, var1);
-        var _closure2_slot1 = var7;
+        var7 = var8.bind(var9)(var7, var1);
+        var _closure2_slot0 = var7;
+        var1 = 18;
+        var1 = var6[var1];
+        var5 = var5.bind(var4)(var1);
+        var4 = var5.getPlayActivityApplicationId;
+        var1 = arg1;
+        var6 = var4.bind(var5)(var1);
+        var _closure2_slot1 = var6;
         var1 = {};
         var5 = _closure1_slot5;
         var4 = var5.useCallback;
         var3 = new Array(2);
         var3[0] = var7;
-        var6 = var6.config;
-        var6 = var6.application;
-        var6 = var6.id;
         var3[1] = var6;
         var2 = function() {
             _fun0055: for(var _fun0055_ip = 0; ; ) switch(_fun0055_ip) {
 case 0:
                 var2 = _closure2_slot1;
                 var4 = null;
-                if(!(var4 != var2)) { _fun0055_ip = 157; continue _fun0055 }
-case 282:
-                var2 = _closure2_slot1;
-                var3 = var2.applicationId;
+                if(!(var4 != var2)) { _fun0055_ip = 110; continue _fun0055 }
+case 136:
                 var2 = _closure2_slot0;
-                var2 = var2.config;
-                var2 = var2.application;
-                var2 = var2.id;
-                if(!(var3 !== var2)) { _fun0055_ip = 98; continue _fun0055 }
-case 157:
+                if(!(var4 != var2)) { _fun0055_ip = 138; continue _fun0055 }
+case 122:
+                var2 = _closure2_slot0;
+                var3 = var2.applicationId;
+                var2 = _closure2_slot1;
+                if(!(var3 !== var2)) { _fun0055_ip = 129; continue _fun0055 }
+case 138:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var3 = 40;
@@ -5245,35 +5247,32 @@ case 157:
                 var3 = var5.transitionTo;
                 var7 = _closure1_slot20;
                 var6 = var7.ACTIVITY_DETAILS;
-                var2 = _closure2_slot0;
-                var2 = var2.config;
-                var2 = var2.application;
-                var2 = var2.id;
+                var2 = _closure2_slot1;
                 var2 = var6.bind(var7)(var2);
                 var2 = var3.bind(var5)(var2);
-                _fun0055_ip = 263; continue _fun0055;
-case 98:
+                _fun0055_ip = 110; continue _fun0055;
+case 129:
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 39;
                 var2 = var3[var2];
                 var3 = undefined;
                 var2 = var5.bind(var3)(var2);
-                var5 = _closure2_slot1;
+                var5 = _closure2_slot0;
                 var6 = var5.location;
                 var5 = 'guild_id';
                 var5 = var5 in var6;
                 var4 = null;
-                if(!var5) { _fun0055_ip = 319; continue _fun0055 }
-case 186:
-                var5 = _closure2_slot1;
+                if(!var5) { _fun0055_ip = 191; continue _fun0055 }
+case 319:
+                var5 = _closure2_slot0;
                 var5 = var5.location;
                 var4 = var5.guild_id;
-case 319:
-                var1 = _closure2_slot1;
+case 191:
+                var1 = _closure2_slot0;
                 var1 = var1.location;
                 var1 = var2.bind(var3)(var4, var1);
-case 263:
+case 110:
                 var1 = undefined;
                 return var1;
             }

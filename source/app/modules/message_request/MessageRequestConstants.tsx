@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['LIST_ROW_HEIGHT'] = var4;
     var4 = 26;
     var3['LIST_SECTION_HEIGHT'] = var4;
-    var4 = 100;
+    var4 = 50;
     var3['BATCH_REJECT_LIMIT'] = var4;
     var4 = 'MESSAGE_REQUESTS';
     var3['MOBILE_MESSAGE_REQUESTS_MODAL_KEY'] = var4;

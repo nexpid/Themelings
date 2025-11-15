@@ -2184,10 +2184,10 @@ case 0:
                         var2 = null;
                         var6 = var2 != var6;
                         var2 = 0;
-                        if(!var6) { _fun0023_ip = 148; continue _fun0023 }
-case 163:
+                        if(!var6) { _fun0023_ip = 163; continue _fun0023 }
+case 164:
                         var2 = _closure2_slot28;
-case 148:
+case 163:
                         var2 = var4.bind(var1)(var3, var2);
                         return var1;
                     }
@@ -2202,8 +2202,8 @@ case 161:
                 var22 = _closure1_slot22;
                 var22 = var22.SLASHES;
                 var22 = var23 === var22;
-                if(!var22) { _fun0004_ip = 164; continue _fun0004 }
-case 165:
+                if(!var22) { _fun0004_ip = 165; continue _fun0004 }
+case 166:
                 var30 = _closure1_slot24;
                 var29 = _closure1_slot1;
                 var34 = _closure1_slot2;
@@ -2214,10 +2214,10 @@ case 165:
                 var24['channel'] = var33;
                 var34 = var8 != var41;
                 var33 = var42;
-                if(!var34) { _fun0004_ip = 166; continue _fun0004 }
-case 167:
+                if(!var34) { _fun0004_ip = 167; continue _fun0004 }
+case 168:
                 var33 = var41;
-case 166:
+case 167:
                 var24['query'] = var33;
                 var33 = function onPressCommandItem(arg1, arg2) {
                     _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
@@ -2246,10 +2246,10 @@ case 0:
                         var2 = null;
                         var6 = var2 != var6;
                         var2 = 0;
-                        if(!var6) { _fun0024_ip = 168; continue _fun0024 }
-case 71:
+                        if(!var6) { _fun0024_ip = 148; continue _fun0024 }
+case 169:
                         var2 = _closure2_slot28;
-case 168:
+case 148:
                         var2 = var4.bind(var1)(var3, var2);
                         return var1;
                     }
@@ -2280,19 +2280,19 @@ case 168:
                 };
                 var24['onCommandsChange'] = var33;
                 var22 = var30.bind(var4)(var29, var24);
-case 164:
+case 165:
                 var21[1] = var22;
                 var22 = _closure1_slot22;
                 var22 = var22.EMOJIS_AND_STICKERS;
                 var22 = var23 === var22;
-                if(!var22) { _fun0004_ip = 169; continue _fun0004 }
-case 170:
+                if(!var22) { _fun0004_ip = 170; continue _fun0004 }
+case 171:
                 var29 = _closure1_slot26;
                 var24 = _closure1_slot25;
                 var23 = {};
                 var33 = var32;
-                if(!var32) { _fun0004_ip = 171; continue _fun0004 }
-case 172:
+                if(!var32) { _fun0004_ip = 172; continue _fun0004 }
+case 173:
                 var35 = _closure1_slot26;
                 var34 = _closure1_slot25;
                 var30 = {};
@@ -2355,15 +2355,15 @@ case 172:
                 var36[1] = var37;
                 var30['children'] = var36;
                 var33 = var35.bind(var4)(var34, var30);
-case 171:
+case 172:
                 var30 = new Array(3);
                 var30[0] = var33;
-                if(!var32) { _fun0004_ip = 173; continue _fun0004 }
-case 174:
+                if(!var32) { _fun0004_ip = 174; continue _fun0004 }
+case 175:
                 var32 = var31;
-case 173:
-                if(!var32) { _fun0004_ip = 175; continue _fun0004 }
-case 176:
+case 174:
+                if(!var32) { _fun0004_ip = 176; continue _fun0004 }
+case 177:
                 var35 = _closure1_slot24;
                 var34 = _closure1_slot1;
                 var36 = _closure1_slot2;
@@ -2374,10 +2374,10 @@ case 176:
                 var36 = var6.sectionDivider;
                 var33['style'] = var36;
                 var32 = var35.bind(var4)(var34, var33);
-case 175:
+case 176:
                 var30[1] = var32;
-                if(!var31) { _fun0004_ip = 177; continue _fun0004 }
-case 178:
+                if(!var31) { _fun0004_ip = 178; continue _fun0004 }
+case 179:
                 var34 = _closure1_slot24;
                 var36 = _closure1_slot0;
                 var39 = _closure1_slot2;
@@ -2409,11 +2409,11 @@ case 178:
                 var35 = var37.bind(var38)(var36, var35);
                 var32['children'] = var35;
                 var31 = var34.bind(var4)(var33, var32);
-case 177:
+case 178:
                 var30[2] = var31;
                 var23['children'] = var30;
                 var22 = var29.bind(var4)(var24, var23);
-case 169:
+case 170:
                 var21[2] = var22;
                 var24 = _closure1_slot24;
                 var23 = _closure1_slot6;
@@ -2451,12 +2451,12 @@ case 159:
                 var7 = new Array(2);
                 var7[0] = var10;
                 var8 = var8 != var16;
-                if(!var8) { _fun0004_ip = 179; continue _fun0004 }
-case 180:
+                if(!var8) { _fun0004_ip = 180; continue _fun0004 }
+case 181:
                 var8 = !var9;
-case 179:
-                if(!var8) { _fun0004_ip = 181; continue _fun0004 }
-case 182:
+case 180:
+                if(!var8) { _fun0004_ip = 182; continue _fun0004 }
+case 183:
                 var11 = _closure1_slot24;
                 var10 = _closure1_slot1;
                 var17 = _closure1_slot2;
@@ -2470,7 +2470,7 @@ case 182:
                 var9['currentOption'] = var13;
                 var9['optionStates'] = var12;
                 var8 = var11.bind(var4)(var10, var9);
-case 181:
+case 182:
                 var7[1] = var8;
                 var2['children'] = var7;
                 var5 = var5.bind(var4)(var3, var2);

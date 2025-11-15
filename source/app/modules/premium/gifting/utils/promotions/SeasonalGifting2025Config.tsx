@@ -308,13 +308,135 @@ case 4:
     };
     var6['cta'] = var11;
     var11 = 9;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.GIFTING_PROMOTION_COACHMARK;
+    var6['analyticsLocation'] = var13;
+    var13 = var10.PREMUIM_UPSELL_GIFTING_PROMOTION;
+    var6['analyticsPage'] = var13;
+    var2['firstTimeNotice'] = var6;
+    var6 = {};
+    var13 = function description() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.veQg0t;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['description'] = var13;
+    var13 = function cta() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.RzWDqY;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['cta'] = var13;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.SEASONAL_GIFTING_REMINDER_NAGBAR;
+    var6['analyticsLocation'] = var13;
+    var13 = var10.PREMUIM_UPSELL_GIFTING_PROMOTION;
+    var6['analyticsPage'] = var13;
+    var2['reminderNagbar'] = var6;
+    var6 = {};
+    var13 = function getImageUrl(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = arg2;
+            if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+            var1 = 8;
+            var2 = var4[var1];
+            _fun0002_ip = 4; continue _fun0002;
+case 2:
+            var1 = 7;
+            var2 = var4[var1];
+case 4:
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
+        }
+    };
+    var6['getImageUrl'] = var13;
+    var13 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.bLOiLM;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['title'] = var13;
+    var13 = function description() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.cE/UX7;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['description'] = var13;
+    var13 = function cta() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.RzWDqY;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['cta'] = var13;
     var11 = var8[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.GIFTING_PROMOTION_COACHMARK;
     var6['analyticsLocation'] = var11;
     var10 = var10.PREMUIM_UPSELL_GIFTING_PROMOTION;
     var6['analyticsPage'] = var10;
-    var2['firstTimeNotice'] = var6;
+    var2['reminderNotice'] = var6;
     var6 = {};
     var10 = function heading() {
         var5 = _closure1_slot0;
@@ -334,11 +456,11 @@ case 4:
     };
     var6['heading'] = var10;
     var10 = function subheading() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arguments[0];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0002_ip = 5; continue _fun0002 }
+            if(!(var5 === var6)) { _fun0003_ip = 5; continue _fun0003 }
 case 6:
             var5 = 0;
 case 5:
@@ -382,16 +504,16 @@ case 5:
     var6['mobileSubheading'] = var10;
     var6['gradientConfig'] = var5;
     var10 = function getImageUrl(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = arg2;
-            if(var1) { _fun0003_ip = 2; continue _fun0003 }
+            if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
             var1 = 11;
             var2 = var4[var1];
-            _fun0003_ip = 4; continue _fun0003;
+            _fun0004_ip = 4; continue _fun0004;
 case 2:
             var1 = 10;
             var2 = var4[var1];
@@ -403,14 +525,19 @@ case 4:
     };
     var6['getImageUrl'] = var10;
     var10 = function getBannerImageUrl() {
-        var1 = '';
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 12;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var6['getBannerImageUrl'] = var10;
     var10 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -469,23 +596,28 @@ case 4:
     };
     var6['gradientConfig'] = var10;
     var10 = function getBackgroundImageUrl() {
-        var1 = '';
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 14;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var6['getBackgroundImageUrl'] = var10;
     var2['planSelectionBanner'] = var6;
     var6 = {};
     var10 = function getImageUrl(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = arg1;
-            if(var1) { _fun0004_ip = 2; continue _fun0004 }
+            if(var1) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
             var1 = 11;
             var2 = var4[var1];
-            _fun0004_ip = 4; continue _fun0004;
+            _fun0005_ip = 4; continue _fun0005;
 case 2:
             var1 = 10;
             var2 = var4[var1];
@@ -533,7 +665,7 @@ case 4:
     var10 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 13;
+        var1 = 15;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -566,7 +698,7 @@ case 4:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.3d0Nmb;
+        var1 = var1.kMYVwv;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -589,7 +721,7 @@ case 4:
     };
     var6['rewardCollectedText'] = var9;
     var2['giftPurchaseConfirmation'] = var6;
-    var6 = 14;
+    var6 = 16;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

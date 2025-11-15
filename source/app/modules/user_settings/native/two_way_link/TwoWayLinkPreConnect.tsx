@@ -205,14 +205,14 @@ case 0:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 11; continue _fun0003 }
+                        if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 3:
                         var3 = undefined;
                         var6 = undefined;
                         var5 = _closure2_slot3;
                         var4 = true;
                         var4 = var5.bind(var3)(var4);
-case 12: // try_start_0
+case 11: // try_start_0
                         var5 = _closure2_slot0;
                         var4 = function authorizeLink() {
                             var1 = undefined;
@@ -226,14 +226,14 @@ case 12: // try_start_0
                         };
                         var4 = var4.bind(var3)(var5);
                         SaveGenerator(address=48);
-case 13:
+case 12:
                         return var4;
-case 14:
+case 13:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                        if(var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var6 = var4;
-case 17: // try_end0
+case 16: // try_end0
                         var7 = _closure2_slot3;
                         var5 = false;
                         var5 = var7.bind(var3)(var5);
@@ -256,15 +256,15 @@ case 17: // try_end0
                         var5 = _closure2_slot4;
                         var5['current'] = var6;
                         return var3;
-case 15:
+case 14:
                         return var4;
-case 18: // catch_target0
+case 17: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var2 = _closure2_slot1;
                         var2 = var2.bind(var3)();
                         var2 = undefined;
                         return var2;
-case 11:
+case 8:
                         return var1;
                     }
                 };
@@ -287,8 +287,8 @@ case 0:
                     var1 = var1.callbackState;
                     var3 = _closure2_slot4;
                     var3 = var3.current;
-                    if(!(var1 !== var3)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(!(var1 !== var3)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var6 = _closure1_slot11;
                     var5 = var6.warn;
                     var9 = _closure2_slot0;
@@ -299,15 +299,15 @@ case 20:
                     var3 = ' link: received mismatching callback state!';
                     var3 = var8.bind(var7)(var9, var3);
                     var3 = var5.bind(var6)(var3);
-                    _fun0004_ip = 21; continue _fun0004;
-case 19:
+                    _fun0004_ip = 20; continue _fun0004;
+case 18:
                     var3 = _closure2_slot2;
                     var2 = {};
                     var2['callbackCode'] = var4;
                     var2['callbackState'] = var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 21:
+case 20:
                     var1 = undefined;
                     return var1;
                 }
@@ -361,10 +361,10 @@ case 21:
             var12[0] = var7;
             var7 = null;
             var16 = var7 != var18;
-            if(!var16) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var16 = var18;
+            if(!var16) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
+            var16 = var18;
+case 21:
             var12[1] = var16;
             var6['style'] = var12;
             var8 = var10.bind(var4)(var8, var6);
@@ -393,8 +393,8 @@ case 22:
             var10 = var16.bind(var4)(var12, var10);
             var6[2] = var10;
             var7 = var7 != var19;
-            if(!var7) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(!var7) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var12 = _closure1_slot9;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -418,7 +418,7 @@ case 25:
             var15 = var17.bind(var18)(var16, var15);
             var8['children'] = var15;
             var7 = var12.bind(var4)(var10, var8);
-case 24:
+case 23:
             var6[3] = var7;
             var5['children'] = var6;
             var6 = var3.bind(var4)(var2, var5);

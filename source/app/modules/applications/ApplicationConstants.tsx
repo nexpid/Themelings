@@ -55,10 +55,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['AI'] = var4;
     var2 = 'AI';
     var8[var4] = var2;
-    var4 = 8;
-    var8['REMIX'] = var4;
-    var2 = 'REMIX';
-    var8[var4] = var2;
     var4 = ['1102741339122188349'];
     var7 = '1211781489931452447';
     var4[1] = var7;

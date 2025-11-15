@@ -466,7 +466,7 @@ case 23:
 case 25:
                     var3 = _closure2_slot7;
                     var6 = var3.current;
-                    _fun0007_ip = 14; continue _fun0007;
+                    _fun0007_ip = 26; continue _fun0007;
 case 24:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -475,8 +475,8 @@ case 24:
                     var3 = var4.bind(var2)(var3);
                     var3 = var3.AppLauncherBottomSheetExpandReason;
                     var6 = var3.OTHER;
-case 14:
-                    _fun0007_ip = 26; continue _fun0007;
+case 26:
+                    _fun0007_ip = 27; continue _fun0007;
 case 22:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -485,8 +485,8 @@ case 22:
                     var3 = var4.bind(var2)(var3);
                     var3 = var3.AppLauncherBottomSheetExpandReason;
                     var6 = var3.GESTURE;
-case 26:
-                    _fun0007_ip = 27; continue _fun0007;
+case 27:
+                    _fun0007_ip = 28; continue _fun0007;
 case 20:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -495,7 +495,7 @@ case 20:
                     var3 = var4.bind(var2)(var3);
                     var3 = var3.AppLauncherBottomSheetExpandReason;
                     var6 = var3.KEYBOARD;
-case 27:
+case 28:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 20;
@@ -526,8 +526,8 @@ case 18:
 case 0:
                     var1 = _closure2_slot12;
                     var1 = var1.current;
-                    if(var1) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+                    if(var1) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 20;
@@ -550,7 +550,7 @@ case 29:
                     var6 = var6.current;
                     var1['reason'] = var6;
                     var1 = var4.bind(var5)(var3, var1);
-case 28:
+case 29:
                     var3 = _closure2_slot12;
                     var1 = true;
                     var3['current'] = var1;
@@ -565,11 +565,11 @@ case 28:
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot2;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0008_ip = 30; continue _fun0008 }
+                    if(!(var3 != var4)) { _fun0008_ip = 14; continue _fun0008 }
 case 31:
                     var3 = _closure2_slot2;
                     var3 = var3.bind(var1)();
-case 30:
+case 14:
                     var3 = _closure2_slot13;
                     if(!var3) { _fun0008_ip = 32; continue _fun0008 }
 case 33:

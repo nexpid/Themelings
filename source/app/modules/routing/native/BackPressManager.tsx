@@ -277,7 +277,7 @@ case 19:
                         var5 = var5 == var2;
                         var2 = undefined;
                         if(var5) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+case 11:
                         var5 = _closure3_slot1;
                         var4 = var5.getCurrentRoute;
                         var2 = var4.bind(var5)();
@@ -306,17 +306,17 @@ case 0:
                 var3 = this;
                 var4 = var3._backPressEventSubscription;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+                if(!(var1 != var4)) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
                 var2 = var4.remove;
                 var2 = var2.bind(var4)();
-case 22:
+case 21:
                 var2 = var3._navigationRouteChangeSubscription;
-                if(!(var1 != var2)) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
+                if(!(var1 != var2)) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
                 var1 = var2.call;
                 var1 = var1.bind(var2)(var3);
-case 24:
+case 23:
                 var1 = undefined;
                 return var1;
             }

@@ -3022,7 +3022,7 @@ case 242:
             if(var1) { _fun0020_ip = 90; continue _fun0020 }
 case 241:
             var1 = {};
-            _fun0020_ip = 188; continue _fun0020;
+            _fun0020_ip = 238; continue _fun0020;
 case 90:
             var2 = {};
             var3 = {};
@@ -3037,7 +3037,7 @@ case 90:
             var3['callback'] = var4;
             var2['confettiPotionData'] = var3;
             var1 = var2;
-case 188:
+case 238:
             return var1;
         }
     };

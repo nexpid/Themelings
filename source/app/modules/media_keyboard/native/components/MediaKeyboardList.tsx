@@ -103,13 +103,13 @@ case 0:
             var _closure2_slot1 = var30;
             var14 = var2.onPressCamera;
             var _closure2_slot2 = var14;
-            var28 = var2.onSelectItem;
+            var28 = var2.onPressItem;
             var _closure2_slot3 = var28;
+            var27 = var2.onLongPressItem;
+            var _closure2_slot4 = var27;
             var18 = var2.onViewAll;
-            var _closure2_slot4 = var18;
-            var27 = var2.includedUploadIds;
-            var _closure2_slot5 = var27;
-            var26 = var2.showRemixButton;
+            var _closure2_slot5 = var18;
+            var26 = var2.includedUploadIds;
             var _closure2_slot6 = var26;
             var1 = var2.uploadDisabled;
             var5 = undefined;
@@ -342,7 +342,7 @@ case 11:
             var4 = var17[var38];
             var32 = var13.bind(var5)(var4);
             var24 = var32.useAnimatedReaction;
-            var16 = function B() {
+            var16 = function z() {
                 var2 = _closure2_slot19;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -610,8 +610,8 @@ case 34:
             var14[2] = var29;
             var14[3] = var7;
             var14[4] = var28;
-            var14[5] = var13;
-            var14[6] = var27;
+            var14[5] = var27;
+            var14[6] = var13;
             var14[7] = var26;
             var14[8] = var1;
             var14[9] = var25;
@@ -640,11 +640,11 @@ case 34:
                 var7 = var7[var6];
                 var2['items'] = var7;
                 var7 = _closure2_slot3;
-                var2['onSelectItem'] = var7;
-                var7 = _closure2_slot5;
-                var2['includedUploadIds'] = var7;
+                var2['onPressItem'] = var7;
+                var7 = _closure2_slot4;
+                var2['onLongPressItem'] = var7;
                 var7 = _closure2_slot6;
-                var2['showRemixButton'] = var7;
+                var2['includedUploadIds'] = var7;
                 var7 = _closure2_slot8;
                 var2['uploadLimit'] = var7;
                 var7 = _closure2_slot9;
@@ -757,7 +757,7 @@ case 36:
                 var1 = {};
                 var6 = _closure2_slot7;
                 var1['disabled'] = var6;
-                var5 = _closure2_slot4;
+                var5 = _closure2_slot5;
                 var1['onViewAll'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;

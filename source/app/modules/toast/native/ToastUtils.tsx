@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.VerificationCriteria;
     var _closure1_slot3 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -330,38 +330,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var3.bind(var1)(var2);
         var3 = var4.open;
         var2 = {};
-        var6 = 'TOAST_REMIX_LANGUAGE_SUPPORT_WARNING';
-        var2['key'] = var6;
-        var6 = _closure1_slot0;
-        var5 = 2;
-        var8 = var7[var5];
-        var8 = var6.bind(var1)(var8);
-        var9 = var8.intl;
-        var8 = var9.string;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-        var5 = var5.t;
-        var5 = var5.wk1Ay3;
-        var5 = var8.bind(var9)(var5);
-        var2['content'] = var5;
-        var5 = 11;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-        var5 = var5.TextIcon;
-        var2['IconComponent'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['presentRemixLanguageSupportWarning'] = var4;
-    var4 = function() {
-        var3 = _closure1_slot1;
-        var7 = _closure1_slot2;
-        var1 = 1;
-        var2 = var7[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.open;
-        var2 = {};
         var6 = 'TOAST_VIDEO_SAVED';
         var2['key'] = var6;
         var6 = _closure1_slot0;
@@ -568,7 +536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5.xpiDtu;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -583,7 +551,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = arg1;
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var1 = 13;
+        var1 = 12;
         var2 = var4[var1];
         var1 = undefined;
         var6 = var3.bind(var1)(var2);
@@ -659,13 +627,13 @@ case 4:
             var9 = _closure1_slot2;
             if(var6) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var5 = 14;
+            var5 = 13;
             var5 = var9[var5];
             var5 = var8.bind(var1)(var5);
             var5 = var5.XLargeIcon;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var7 = 12;
+            var7 = 11;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
             var5 = var7.CheckmarkLargeIcon;
@@ -705,7 +673,7 @@ case 8:
         var5 = var5.DnmX2G;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -730,7 +698,7 @@ case 8:
         var6 = arg1;
         var2['content'] = var6;
         var6 = _closure1_slot0;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -764,7 +732,7 @@ case 8:
         var5 = var5.zz1Tft;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -837,7 +805,7 @@ case 8:
         var5 = var5.PHjrpp;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -871,7 +839,7 @@ case 8:
         var5 = var5.pjG+T3;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 15;
+        var5 = 14;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CircleInformationIcon;
@@ -997,7 +965,7 @@ case 21:
             var1['key'] = var8;
             var1['content'] = var5;
             var5 = _closure1_slot0;
-            var4 = 15;
+            var4 = 14;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.CircleInformationIcon;
@@ -1032,7 +1000,7 @@ case 20:
         var5 = var5.wDkfrN;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 15;
+        var5 = 14;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CircleInformationIcon;
@@ -1067,7 +1035,7 @@ case 20:
         var5['name'] = var11;
         var5 = var9.bind(var10)(var8, var5);
         var2['content'] = var5;
-        var5 = 16;
+        var5 = 15;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.TrashIcon;
@@ -1155,7 +1123,7 @@ case 30:
             var1['key'] = var8;
             var1['content'] = var5;
             var5 = _closure1_slot0;
-            var4 = 12;
+            var4 = 11;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.CheckmarkLargeIcon;
@@ -1192,7 +1160,7 @@ case 29:
         var5 = var5.e6xHUV;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -1226,7 +1194,7 @@ case 29:
         var5 = var5.kubT4R;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -1260,7 +1228,7 @@ case 29:
         var5 = var5.hbr6Uj;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -1285,7 +1253,7 @@ case 29:
         var6 = arg1;
         var2['content'] = var6;
         var6 = _closure1_slot0;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -1439,7 +1407,7 @@ case 29:
         var3 = var4.open;
         var2 = {};
         var6 = _closure1_slot0;
-        var5 = 17;
+        var5 = 16;
         var5 = var7[var5];
         var8 = var6.bind(var1)(var5);
         var5 = var8.v4;
@@ -1493,7 +1461,7 @@ case 29:
         var5 = var5./q6fpa;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 15;
+        var5 = 14;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CircleInformationIcon;
@@ -1525,7 +1493,7 @@ case 29:
         var5 = var5.H03AqF;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -1559,7 +1527,7 @@ case 29:
         var5 = var5.OtTQDz;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 14;
+        var5 = 13;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
@@ -1593,7 +1561,7 @@ case 29:
         var5 = var5.2Eyydu;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -1618,7 +1586,7 @@ case 29:
         var6 = arg2;
         var2['content'] = var6;
         var6 = _closure1_slot0;
-        var5 = 18;
+        var5 = 17;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CircleCheckIcon;
@@ -1652,7 +1620,7 @@ case 29:
         var5 = var5.gI8IST;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
-        var5 = 12;
+        var5 = 11;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.CheckmarkLargeIcon;
@@ -1677,7 +1645,7 @@ case 29:
         var6 = arg1;
         var2['content'] = var6;
         var6 = _closure1_slot0;
-        var5 = 19;
+        var5 = 18;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.ClockIcon;

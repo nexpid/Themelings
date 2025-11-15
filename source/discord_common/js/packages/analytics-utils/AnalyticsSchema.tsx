@@ -463,6 +463,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['USER_REGISTER_IDENTITY'] = var2;
     var2 = 'impression_user_registration';
     var4['USER_REGISTRATION'] = var2;
+    var2 = 'impression_user_returned_happening_now';
+    var4['USER_RETURNED_HAPPENING_NOW'] = var2;
     var2 = 'impression_user_settings_connections';
     var4['USER_SETTINGS_CONNECTIONS'] = var2;
     var2 = 'impression_user_settings_sessions';

@@ -275,10 +275,9 @@ case 11:
                     var2['headerStyle'] = var10;
                     var10 = function render(arg1) {
                         var1 = arg1;
-                        var9 = var1.defaultHighlightedReward;
-                        var8 = var1.defaultCategory;
-                        var7 = var1.claimableRewards;
-                        var6 = var1.claimableVariants;
+                        var8 = var1.defaultHighlightedReward;
+                        var7 = var1.allRewards;
+                        var6 = var1.claimableRewards;
                         var5 = var1.onSelect;
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
@@ -288,10 +287,9 @@ case 11:
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
                         var1 = {};
-                        var1['defaultHighlightedReward'] = var9;
-                        var1['defaultCategory'] = var8;
-                        var1['claimableRewards'] = var7;
-                        var1['claimableVariants'] = var6;
+                        var1['defaultHighlightedReward'] = var8;
+                        var1['allRewards'] = var7;
+                        var1['claimableRewards'] = var6;
                         var1['onSelect'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;

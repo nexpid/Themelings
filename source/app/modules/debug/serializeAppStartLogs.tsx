@@ -433,7 +433,7 @@ case 0:
                                     var5 = var4 == var3;
                                     var7 = '';
                                     var3 = var7;
-                                    if(var5) { _fun0007_ip = 48; continue _fun0007 }
+                                    if(var5) { _fun0007_ip = 54; continue _fun0007 }
 case 20:
                                     var6 = var2.timestamp;
                                     var5 = _closure4_slot0;
@@ -443,13 +443,13 @@ case 20:
                                     var6 = var8.toFixed;
                                     var5 = 3;
                                     var3 = var6.bind(var8)(var5);
-case 48:
+case 54:
                                     var1['totalTime'] = var3;
                                     var3 = var2.delta;
                                     var4 = var4 == var3;
                                     var3 = var7;
-                                    if(var4) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                                    if(var4) { _fun0007_ip = 55; continue _fun0007 }
+case 46:
                                     var4 = global;
                                     var6 = var4.String;
                                     var8 = var4.Math;
@@ -458,7 +458,7 @@ case 55:
                                     var5 = var5.bind(var8)(var4);
                                     var4 = undefined;
                                     var3 = var6.bind(var4)(var5);
-case 54:
+case 55:
                                     var1['deltaTime'] = var3;
                                     var3 = var2.emoji;
                                     var4 = var3.length;

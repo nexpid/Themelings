@@ -154,15 +154,6 @@ case 27:
             var7 = _closure1_slot2;
             var1 = 5;
             var1 = var7[var1];
-            var4 = var4.bind(var6)(var1);
-            var1 = var4.isRemix;
-            var1 = var1.bind(var4)(var3);
-            if(var1) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 6;
-            var1 = var7[var1];
             var1 = var4.bind(var6)(var1);
             var7 = var1.ConfettiPotionExperiment;
             var6 = var7.getCurrentConfig;
@@ -177,20 +168,17 @@ case 34:
             var4 = var3.hasPotions;
             var4 = var4.bind(var3)();
             var4 = !var4;
-            if(var4) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(var4) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var4 = !var1;
-case 35:
+case 33:
             var1 = !var4;
-            if(!var4) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+            if(!var4) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var6 = var3.applicationId;
             var4 = var5.applicationId;
             var1 = var6 !== var4;
-case 37:
-            return var1;
-case 33:
-            var1 = true;
+case 35:
             return var1;
 case 19:
             var1 = true;
@@ -216,13 +204,13 @@ case 5:
             var1 = var6.bind(var4)(var1);
             var1 = var1.bind(var4)(var5);
             var1 = !var1;
-            if(var1) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+            if(var1) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var3 = var3.type;
             var2 = _closure1_slot3;
             var2 = var2.REPLY;
             var1 = var3 === var2;
-case 39:
+case 37:
             return var1;
 case 2:
             var1 = true;
@@ -254,8 +242,9 @@ case 2:
     var5 = var5.Millis;
     var8 = var5.MINUTE;
     var5 = 7;
-    var8 = var5 * var8;
-    var _closure1_slot6 = var8;
+    var5 = var5 * var8;
+    var _closure1_slot6 = var5;
+    var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -268,46 +257,46 @@ case 0:
             var4 = arg2;
             var1 = null;
             var1 = var1 == var4;
-            if(var1) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(var1) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var3 = var4.type;
             var2 = _closure1_slot4;
             var2 = var2.MESSAGE;
             var2 = var3 === var2;
-            if(!var2) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
+            if(!var2) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var3 = var4.content;
             var6 = var3.id;
             var3 = var4.content;
             var3 = var3.channel_id;
             var2 = var6 === var3;
-case 43:
-            if(var2) { _fun0002_ip = 45; continue _fun0002 }
-case 46:
+case 41:
+            if(var2) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
             var6 = var4.type;
             var3 = _closure1_slot4;
             var3 = var3.MESSAGE;
             var3 = var6 !== var3;
-            if(!var3) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
+            if(!var3) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var7 = var4.type;
             var6 = _closure1_slot4;
             var6 = var6.THREAD_STARTER_MESSAGE;
             var3 = var7 !== var6;
-case 47:
-            if(var3) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
+case 45:
+            if(var3) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
             var8 = _closure1_slot7;
             var7 = var4.content;
             var6 = undefined;
             var5 = arg1;
             var4 = arg3;
             var3 = var8.bind(var6)(var5, var7, var4);
-case 49:
+case 47:
             var2 = var3;
-case 45:
+case 43:
             var1 = var2;
-case 41:
+case 39:
             return var1;
         }
     };

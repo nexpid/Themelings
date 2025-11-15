@@ -417,16 +417,16 @@ case 0:
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isAndroid;
                         var3 = var3.bind(var4)();
-                        if(var3) { _fun0007_ip = 38; continue _fun0007 }
-case 52:
+                        if(var3) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                         var3 = _closure1_slot8;
                         var6 = var3.DCDAccessibilityManager;
                         var5 = var6.enableFocusLock;
                         var4 = _closure3_slot1;
                         var3 = _closure3_slot0;
                         var3 = var5.bind(var6)(var4, var3);
-                        _fun0007_ip = 53; continue _fun0007;
-case 38:
+                        _fun0007_ip = 54; continue _fun0007;
+case 52:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var2 = 8;
@@ -436,7 +436,7 @@ case 38:
                         var3 = _closure3_slot1;
                         var2 = _closure3_slot0;
                         var2 = var4.bind(var5)(var3, var2);
-case 53:
+case 54:
                         return var1;
                     }
                 };
@@ -488,11 +488,11 @@ case 0:
                 var2 = this;
                 var3 = var2._screenReaderEnabledListener;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+                if(!(var1 != var3)) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
                 var1 = var3.call;
                 var1 = var1.bind(var3)(var2);
-case 54:
+case 55:
                 var3 = var2._focusLockedNativeIDGroups;
                 var1 = var3.clear;
                 var1 = var1.bind(var3)();
@@ -514,13 +514,13 @@ case 0:
                 var4 = this;
                 var1 = var6.length;
                 var2 = 0;
-                if(!(var2 === var1)) { _fun0009_ip = 56; continue _fun0009 }
-case 57:
+                if(!(var2 === var1)) { _fun0009_ip = 57; continue _fun0009 }
+case 58:
                 var5 = _closure1_slot9;
                 var3 = var5.error;
                 var1 = 'No target view nativeIDs to add.';
                 var1 = var3.bind(var5)(var1);
-case 56:
+case 57:
                 var5 = _closure1_slot10;
                 var3 = var4._focusLockedNativeIDGroups;
                 var1 = var3.values;
@@ -534,38 +534,38 @@ case 56:
                 var8 = ' already accessibility focus locked.';
                 var7 = var5;
                 var5 = undefined;
-                if(var3) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
+                if(var3) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
                 var13 = _closure1_slot10;
                 var3 = var7.value;
                 var14 = var13.bind(var1)(var3);
                 var13 = var14.bind(var1)();
                 var3 = var13.done;
-                if(var3) { _fun0009_ip = 60; continue _fun0009 }
-case 61:
+                if(var3) { _fun0009_ip = 61; continue _fun0009 }
+case 62:
                 var15 = var13.value;
                 var3 = var6.includes;
                 var3 = var3.bind(var6)(var15);
-                if(!var3) { _fun0009_ip = 62; continue _fun0009 }
-case 63:
+                if(!var3) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
                 var17 = _closure1_slot9;
                 var16 = var17.error;
                 var3 = var10.HermesInternal;
                 var3 = var3.concat;
                 var3 = var3.bind(var9)(var15, var8);
                 var3 = var16.bind(var17)(var3);
-case 62:
+case 63:
                 var16 = var14.bind(var1)();
                 var3 = var16.done;
                 var13 = var16;
                 var5 = var15;
-                if(!var3) { _fun0009_ip = 61; continue _fun0009 }
-case 60:
+                if(!var3) { _fun0009_ip = 62; continue _fun0009 }
+case 61:
                 var13 = var11.bind(var1)();
                 var3 = var13.done;
                 var7 = var13;
-                if(!var3) { _fun0009_ip = 59; continue _fun0009 }
-case 58:
+                if(!var3) { _fun0009_ip = 60; continue _fun0009 }
+case 59:
                 var5 = var4._focusLockedNativeIDGroups;
                 var3 = var5.set;
                 var2 = var6[var2];
@@ -588,19 +588,19 @@ case 0:
                 var2 = this;
                 var3 = var5.length;
                 var1 = 0;
-                if(!(var1 === var3)) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
+                if(!(var1 === var3)) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
                 var6 = _closure1_slot9;
                 var4 = var6.error;
                 var3 = 'No target view nativeIDs to remove.';
                 var3 = var4.bind(var6)(var3);
-case 56:
+case 57:
                 var6 = var2._focusLockedNativeIDGroups;
                 var4 = var6.has;
                 var3 = var5[var1];
                 var3 = var4.bind(var6)(var3);
-                if(var3) { _fun0010_ip = 53; continue _fun0010 }
-case 64:
+                if(var3) { _fun0010_ip = 65; continue _fun0010 }
+case 66:
                 var6 = _closure1_slot9;
                 var4 = var6.error;
                 var9 = var5[var1];
@@ -611,7 +611,7 @@ case 64:
                 var3 = ' accessibility focus locked.';
                 var3 = var8.bind(var7)(var9, var3);
                 var3 = var4.bind(var6)(var3);
-case 53:
+case 65:
                 var4 = var2._focusLockedNativeIDGroups;
                 var3 = var4.delete;
                 var1 = var5[var1];

@@ -209,8 +209,6 @@ case 14:
                 var1['durationSecs'] = var5;
                 var5 = var3.waveform;
                 var1['waveform'] = var5;
-                var5 = var3.isRemix;
-                var1['isRemix'] = var5;
 case 13:
                 var5 = var3.isThumbnail;
                 var1['isThumbnail'] = var5;

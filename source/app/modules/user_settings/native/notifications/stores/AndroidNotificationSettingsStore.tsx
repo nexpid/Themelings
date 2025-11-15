@@ -40,7 +40,7 @@ case 5: // try_start_0
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.getLightsEnabled;
                     var3 = var3.bind(var4)();
-                    SaveGenerator(address=102);
+                    SaveGenerator(address=103);
 case 6:
                     return var3;
 case 7:
@@ -54,7 +54,7 @@ case 9:
                     var5 = var5.bind(var2)(var4);
                     var4 = var5.getVibrationsEnabled;
                     var4 = var4.bind(var5)();
-                    SaveGenerator(address=146);
+                    SaveGenerator(address=147);
 case 10:
                     return var4;
 case 11:
@@ -68,7 +68,7 @@ case 13:
                     var6 = var6.bind(var2)(var5);
                     var5 = var6.getSoundsEnabled;
                     var5 = var5.bind(var6)();
-                    SaveGenerator(address=190);
+                    SaveGenerator(address=191);
 case 14:
                     return var5;
 case 15:
@@ -82,7 +82,7 @@ case 17:
                     var9 = var9.bind(var2)(var6);
                     var6 = var9.shouldAndroidNotifyEveryTime;
                     var6 = var6.bind(var9)();
-                    SaveGenerator(address=231);
+                    SaveGenerator(address=232);
 case 18:
                     return var6;
 case 19:

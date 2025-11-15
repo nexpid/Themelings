@@ -540,7 +540,7 @@ case 33:
             var2 = var2.OK;
             var2 = var3 === var2;
             if(!var2) { _fun0014_ip = 34; continue _fun0014 }
-case 6:
+case 3:
             var5 = _closure1_slot12;
             var3 = null;
             var3 = var3 != var5;

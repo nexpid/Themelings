@@ -214,14 +214,14 @@ case 20:
 case 19:
                         var3 = var4;
 case 21: // try_end0
-                        _fun0006_ip = 22; continue _fun0006;
-case 23: // catch_target0
+                        _fun0006_ip = 14; continue _fun0006;
+case 22: // catch_target0
                         CatchBlockStart(arg_register=3);
-case 22: // try_end1
+case 14: // try_end1
                         var6 = var3;
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0006_ip = 24; continue _fun0006 }
-case 8:
+                        if(!(var4 != var6)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
                         var6 = var2.layoutStart;
                         var5 = var6;
                         var2 = var2.layoutSize;
@@ -246,7 +246,7 @@ case 28:
                         var2 = var4.bind(var5)(var2);
 case 27:
                         return var1;
-case 24:
+case 23:
                         return var1;
 case 29: // catch_target1
                         CatchBlockStart(arg_register=1);

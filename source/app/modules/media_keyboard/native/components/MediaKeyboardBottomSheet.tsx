@@ -60,32 +60,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function MediaKeyboardBottomSheet(arg1) {
         var2 = arg1;
-        var6 = var2.accessoriesComponent;
-        var10 = var2.children;
+        var7 = var2.accessoriesComponent;
+        var11 = var2.children;
         var16 = var2.handleComponent;
-        var11 = var2.onClose;
-        var _closure2_slot0 = var11;
-        var7 = var2.transitionState;
-        var _closure2_slot1 = var7;
+        var10 = var2.onClose;
+        var _closure2_slot0 = var10;
+        var8 = var2.transitionState;
+        var _closure2_slot1 = var8;
         var20 = var2.animationConfigs;
         var5 = _closure1_slot3;
         var9 = var5.useContext;
         var3 = _closure1_slot0;
         var24 = _closure1_slot2;
-        var8 = 6;
-        var2 = var24[var8];
+        var6 = 6;
+        var2 = var24[var6];
         var4 = undefined;
         var2 = var3.bind(var4)(var2);
         var2 = var2.PortalKeyboardContext;
         var2 = var9.bind(var5)(var2);
         var2 = var2.bottomSheetRefs;
-        var8 = var24[var8];
-        var13 = var3.bind(var4)(var8);
+        var6 = var24[var6];
+        var13 = var3.bind(var4)(var6);
         var9 = var13.usePortalKeyboardContextAnimatedValues;
-        var8 = 'media';
-        var8 = var9.bind(var13)(var8);
-        var19 = var8.animatedIndex;
-        var18 = var8.animatedPosition;
+        var6 = 'media';
+        var6 = var9.bind(var13)(var6);
+        var19 = var6.animatedIndex;
+        var18 = var6.animatedPosition;
         var21 = var2.media;
         var _closure2_slot2 = var21;
         var2 = _closure1_slot10;
@@ -93,13 +93,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var23 = _closure1_slot1;
         var2 = 7;
         var2 = var24[var2];
-        var8 = var23.bind(var4)(var2);
+        var6 = var23.bind(var4)(var2);
         var2 = {};
         var9 = false;
         var2['forceMaxHeight'] = var9;
-        var9 = var8.bind(var4)(var2);
+        var6 = var6.bind(var4)(var2);
         var13 = var5.useCallback;
-        var8 = function(arg1) {
+        var9 = function(arg1) {
             var4 = _closure1_slot7;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -125,9 +125,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = new Array(0);
-        var14 = var13.bind(var5)(var8, var2);
+        var14 = var13.bind(var5)(var9, var2);
         var13 = var5.useCallback;
-        var8 = function(arg1, arg2) {
+        var9 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = arg1;
@@ -170,7 +170,7 @@ case 4:
             }
         };
         var2 = new Array(0);
-        var13 = var13.bind(var5)(var8, var2);
+        var13 = var13.bind(var5)(var9, var2);
         var2 = 13;
         var2 = var24[var2];
         var3 = var3.bind(var4)(var2);
@@ -201,8 +201,8 @@ case 6:
         var3 = var5.useEffect;
         var2 = new Array(3);
         var2[0] = var21;
-        var2[1] = var11;
-        var2[2] = var7;
+        var2[1] = var10;
+        var2[2] = var8;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -241,10 +241,10 @@ case 7:
         var3 = _closure1_slot9;
         var2 = _closure1_slot8;
         var1 = {};
-        var8 = _closure1_slot7;
+        var9 = _closure1_slot7;
         var5 = 8;
         var5 = var24[var5];
-        var7 = var23.bind(var4)(var5);
+        var8 = var23.bind(var4)(var5);
         var5 = {};
         var22 = 9;
         var22 = var24[var22];
@@ -265,15 +265,16 @@ case 7:
         var5['onAnimate'] = var13;
         var12 = _closure1_slot4;
         var5['handleHeight'] = var12;
-        var5['onClose'] = var11;
+        var5['onClose'] = var10;
         var26 = var5;
-        var25 = var9;
-        var9 = copyDataProperties(var26, var25);
-        var9 = 'children';
-        var5[var9] = var10;
-        var7 = var8.bind(var4)(var7, var5);
+        var25 = var6;
+        var10 = copyDataProperties(var26, var25);
+        var10 = 'children';
+        var5[var10] = var11;
+        var8 = var9.bind(var4)(var8, var5);
         var5 = new Array(2);
-        var5[0] = var7;
+        var5[0] = var8;
+        var6 = var7.bind(var4)(var6);
         var5[1] = var6;
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

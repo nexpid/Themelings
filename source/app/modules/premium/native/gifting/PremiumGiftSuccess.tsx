@@ -115,59 +115,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var1 = 7;
-            var1 = var8[var1];
+            var1 = var9[var1];
             var4 = undefined;
             var1 = var6.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var2 = var1.bottom;
             var1 = _closure1_slot10;
             var10 = var1.bind(var4)(var2);
-            var7 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var1 = 8;
-            var1 = var8[var1];
-            var2 = var7.bind(var4)(var1);
+            var1 = var9[var1];
+            var2 = var8.bind(var4)(var1);
             var1 = var2.useNativeGiftContext;
             var1 = var1.bind(var2)();
             var2 = var1.recipientUser;
-            var11 = var1.giftCodeRecord;
-            var9 = var1.selectedGiftingPromotionReward;
+            var12 = var1.giftCodeRecord;
+            var7 = var1.selectedGiftingPromotionReward;
             var1 = 9;
-            var1 = var8[var1];
+            var1 = var9[var1];
             var13 = var6.bind(var4)(var1);
             var1 = null;
-            var12 = var1 != var11;
+            var11 = var1 != var12;
             var6 = 'Gift code record cannot be null on success screen';
-            var6 = var13.bind(var4)(var12, var6);
+            var6 = var13.bind(var4)(var11, var6);
             var6 = 10;
-            var6 = var8[var6];
-            var8 = var7.bind(var4)(var6);
-            var7 = var8.useGiftingPromotionRewardCollectiblePurchase;
-            var12 = var1 == var9;
+            var6 = var9[var6];
+            var9 = var8.bind(var4)(var6);
+            var8 = var9.useGiftingPromotionRewardCollectiblePurchase;
+            var11 = var1 == var7;
             var6 = undefined;
-            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+            if(var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var9.skuId;
+            var6 = var7.skuId;
 case 2:
-            var8 = var7.bind(var8)(var6);
+            var11 = var8.bind(var9)(var6);
             var9 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var6 = 11;
-            var6 = var12[var6];
+            var6 = var13[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.bind(var4)();
             var _closure2_slot0 = var6;
-            var7 = 12;
-            var7 = var12[var7];
-            var7 = var9.bind(var4)(var7);
-            var13 = var7.bind(var4)();
-            var _closure2_slot1 = var13;
-            var12 = _closure1_slot4;
-            var9 = var12.useEffect;
-            var7 = new Array(2);
-            var7[0] = var13;
-            var7[1] = var6;
+            var8 = 12;
+            var8 = var13[var8];
+            var8 = var9.bind(var4)(var8);
+            var14 = var8.bind(var4)();
+            var _closure2_slot1 = var14;
+            var13 = _closure1_slot4;
+            var9 = var13.useEffect;
+            var8 = new Array(2);
+            var8[0] = var14;
+            var8[1] = var6;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -213,56 +213,56 @@ case 8:
                     return var1;
                 }
             };
-            var3 = var9.bind(var12)(var3, var7);
-            var3 = var1 != var8;
-            var7 = undefined;
+            var3 = var9.bind(var13)(var3, var8);
+            var3 = var1 != var11;
+            var8 = undefined;
             if(!var3) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var3 = var1 != var6;
-            var7 = undefined;
+            var8 = undefined;
             if(!var3) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
             var3 = var6.rewardAssetIdMap;
             var3 = var1 != var3;
-            var7 = undefined;
+            var8 = undefined;
             if(!var3) { _fun0001_ip = 10; continue _fun0001 }
 case 13:
-            var12 = _closure1_slot3;
-            var9 = var8.items;
+            var13 = _closure1_slot3;
+            var9 = var11.items;
             var3 = 1;
-            var9 = var12.bind(var4)(var9, var3);
+            var9 = var13.bind(var4)(var9, var3);
             var3 = 0;
             var3 = var9[var3];
             var9 = var6.rewardAssetIdMap;
             var6 = var9.get;
             var3 = var3.skuId;
-            var7 = var6.bind(var9)(var3);
+            var8 = var6.bind(var9)(var3);
 case 10:
             if(!(var1 != var2)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var9 = _closure1_slot7;
             var6 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var3 = 17;
-            var3 = var12[var3];
+            var3 = var13[var3];
             var6 = var6.bind(var4)(var3);
             var3 = {};
             var6 = var9.bind(var4)(var6, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 14:
-            var12 = _closure1_slot7;
+            var13 = _closure1_slot7;
             var9 = _closure1_slot1;
-            var13 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var3 = 16;
-            var3 = var13[var3];
+            var3 = var14[var3];
             var9 = var9.bind(var4)(var3);
             var3 = {};
-            var3['giftCodeRecord'] = var11;
-            var6 = var12.bind(var4)(var9, var3);
+            var3['giftCodeRecord'] = var12;
+            var6 = var13.bind(var4)(var9, var3);
 case 16:
-            if(!(var1 != var8)) { _fun0001_ip = 17; continue _fun0001 }
+            if(!(var1 != var11)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            if(!(var1 == var7)) { _fun0001_ip = 19; continue _fun0001 }
+            if(!(var1 == var8)) { _fun0001_ip = 19; continue _fun0001 }
 case 17:
             if(!(var1 != var2)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
@@ -279,26 +279,27 @@ case 21:
 case 20:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var1 = 16;
-            var1 = var12[var1];
+            var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PremiumGiftSuccessActions;
             var1 = {};
-            var1['giftCodeRecord'] = var11;
+            var1['giftCodeRecord'] = var12;
             var9 = var3.bind(var4)(var2, var1);
 case 22:
             _fun0001_ip = 23; continue _fun0001;
 case 19:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 18;
-            var1 = var11[var1];
+            var1 = var12[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['purchase'] = var8;
-            var1['asset'] = var7;
+            var1['purchase'] = var11;
+            var1['asset'] = var8;
+            var1['reward'] = var7;
             var9 = var3.bind(var4)(var2, var1);
 case 23:
             var3 = _closure1_slot9;

@@ -1666,7 +1666,7 @@ case 148:
                     var4 = var6.isAndroid;
                     var4 = var4.bind(var6)();
                     if(var4) { _fun0014_ip = 153; continue _fun0014 }
-case 47:
+case 154:
                     var4 = _closure1_slot6;
                     var10 = var4.DCDClipboardManager;
                     var9 = var10.setItem;
@@ -1680,15 +1680,15 @@ case 47:
                     var6 = var6.bind(var8)(var4);
                     var4 = 'application/x-discord-interaction-data';
                     var4 = var9.bind(var10)(var7, var4, var6);
-                    _fun0014_ip = 154; continue _fun0014;
+                    _fun0014_ip = 155; continue _fun0014;
 case 153:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var6 = 27;
                     var4 = var4[var6];
                     var4 = var7.bind(var1)(var4);
-                    if(!(var5 != var4)) { _fun0014_ip = 154; continue _fun0014 }
-case 155:
+                    if(!(var5 != var4)) { _fun0014_ip = 155; continue _fun0014 }
+case 156:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var4 = var4[var6];
@@ -1704,7 +1704,7 @@ case 155:
                     var4 = var4.bind(var8)(var3);
                     var3 = 'application/x-discord-interaction-data';
                     var3 = var6.bind(var7)(var5, var3, var4);
-case 154:
+case 155:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
                     var2 = 28;
@@ -1719,7 +1719,7 @@ case 154:
             _closure2_slot5 = var4;
             var12 = new Array(0);
             if(!var3) { _fun0012_ip = 26; continue _fun0012 }
-case 156:
+case 157:
             var4 = var12.push;
             var8 = _closure1_slot19;
             var14 = _closure1_slot0;
@@ -1757,8 +1757,8 @@ case 156:
             var3 = var8.bind(var5)(var7, var3);
             var3 = var4.bind(var12)(var3);
 case 26:
-            if(!(var1 != var2)) { _fun0012_ip = 157; continue _fun0012 }
-case 158:
+            if(!(var1 != var2)) { _fun0012_ip = 158; continue _fun0012 }
+case 159:
             var3 = var12.push;
             var7 = _closure1_slot19;
             var13 = _closure1_slot0;
@@ -1793,14 +1793,14 @@ case 0:
                     var2 = _closure2_slot2;
                     var2 = var2.options;
                     var5 = null;
-                    if(!(var5 != var2)) { _fun0015_ip = 159; continue _fun0015 }
-case 160:
+                    if(!(var5 != var2)) { _fun0015_ip = 160; continue _fun0015 }
+case 161:
                     var2 = _closure2_slot2;
                     var2 = var2.options;
                     var2 = var2.length;
                     var3 = 0;
-                    if(!(var2 > var3)) { _fun0015_ip = 159; continue _fun0015 }
-case 161:
+                    if(!(var2 > var3)) { _fun0015_ip = 160; continue _fun0015 }
+case 162:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot3;
                     var12 = 14;
@@ -1821,20 +1821,20 @@ case 161:
                     var2 = var2[var3];
                     var2 = var2.type;
                     var2 = var4.bind(var6)(var2);
-                    if(var2) { _fun0015_ip = 162; continue _fun0015 }
-case 159:
+                    if(var2) { _fun0015_ip = 163; continue _fun0015 }
+case 160:
                     var2 = _closure2_slot1;
                     var2 = var5 == var2;
                     var6 = undefined;
-                    if(var2) { _fun0015_ip = 163; continue _fun0015 }
-case 164:
+                    if(var2) { _fun0015_ip = 164; continue _fun0015 }
+case 165:
                     var4 = _closure2_slot1;
                     var4 = var4.current;
                     var2 = var5 == var4;
                     var6 = var4;
-case 163:
-                    if(var2) { _fun0015_ip = 165; continue _fun0015 }
-case 166:
+case 164:
+                    if(var2) { _fun0015_ip = 166; continue _fun0015 }
+case 167:
                     var4 = var6.openCustomKeyboard;
                     var2 = {};
                     var11 = _closure1_slot0;
@@ -1864,8 +1864,8 @@ case 166:
                     var7['preSelectedCommand'] = var10;
                     var2['context'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    _fun0015_ip = 165; continue _fun0015;
-case 162:
+                    _fun0015_ip = 166; continue _fun0015;
+case 163:
                     var2 = _closure2_slot2;
                     var4 = var2.options;
                     var4 = var4[var3];
@@ -1876,13 +1876,13 @@ case 162:
                     var2 = var2[var3];
                     var2 = var2.options;
                     var4 = var5 != var2;
-                    if(!var4) { _fun0015_ip = 167; continue _fun0015 }
+                    if(!var4) { _fun0015_ip = 168; continue _fun0015 }
 case 106:
                     var6 = var2.length;
                     var4 = var6 > var3;
-case 167:
-                    if(!var4) { _fun0015_ip = 168; continue _fun0015 }
-case 169:
+case 168:
+                    if(!var4) { _fun0015_ip = 169; continue _fun0015 }
+case 170:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot3;
                     var10 = var6[var12];
@@ -1900,29 +1900,29 @@ case 169:
                     var6 = var2[var3];
                     var6 = var6.type;
                     var4 = var7.bind(var10)(var6);
-case 168:
+case 169:
                     var7 = var2;
-                    if(!var4) { _fun0015_ip = 170; continue _fun0015 }
-case 171:
+                    if(!var4) { _fun0015_ip = 171; continue _fun0015 }
+case 172:
                     var6 = var11.push;
                     var4 = var2[var3];
                     var4 = var4.name;
                     var4 = var6.bind(var11)(var4);
                     var2 = var2[var3];
                     var7 = var2.options;
-case 170:
+case 171:
                     var2 = _closure2_slot1;
                     var2 = var5 == var2;
                     var4 = undefined;
-                    if(var2) { _fun0015_ip = 172; continue _fun0015 }
-case 173:
+                    if(var2) { _fun0015_ip = 173; continue _fun0015 }
+case 174:
                     var3 = _closure2_slot1;
                     var3 = var3.current;
                     var2 = var5 == var3;
                     var4 = var3;
-case 172:
-                    if(var2) { _fun0015_ip = 165; continue _fun0015 }
-case 174:
+case 173:
+                    if(var2) { _fun0015_ip = 166; continue _fun0015 }
+case 175:
                     var3 = var4.openCustomKeyboard;
                     var2 = {};
                     var10 = _closure1_slot0;
@@ -1956,19 +1956,19 @@ case 174:
                     var5['preSelectedCommand'] = var6;
                     var2['context'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 165:
+case 166:
                     return var1;
                 }
             };
             var2['onPress'] = var8;
             var2 = var7.bind(var5)(var4, var2);
             var2 = var3.bind(var12)(var2);
-case 157:
+case 158:
             var3 = var12.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0012_ip = 175; continue _fun0012 }
-case 176:
+            if(!(var2 !== var3)) { _fun0012_ip = 176; continue _fun0012 }
+case 177:
             var4 = _closure1_slot20;
             var8 = _closure1_slot0;
             var11 = _closure1_slot3;
@@ -2023,7 +2023,7 @@ case 176:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 175:
+case 176:
             return var1;
         }
     };
@@ -2088,10 +2088,10 @@ case 0:
             var15 = null;
             var9 = var15 == var16;
             var8 = undefined;
-            if(var9) { _fun0016_ip = 166; continue _fun0016 }
-case 163:
+            if(var9) { _fun0016_ip = 167; continue _fun0016 }
+case 164:
             var8 = var16.interactionData;
-case 166:
+case 167:
             var3[2] = var8;
             var2 = function() {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -2107,8 +2107,8 @@ case 29:
                     var3 = var4.interactionData;
 case 3:
                     var3 = var6 == var3;
-                    if(var3) { _fun0017_ip = 177; continue _fun0017 }
-case 178:
+                    if(var3) { _fun0017_ip = 178; continue _fun0017 }
+case 179:
                     var4 = _closure2_slot2;
                     var4 = var6 == var4;
                     var5 = undefined;
@@ -2127,22 +2127,22 @@ case 137:
                     var4 = var4.CHAT;
                     var4 = var5 === var4;
                     if(!var4) { _fun0017_ip = 39; continue _fun0017 }
-case 179:
+case 180:
                     var5 = _closure2_slot2;
                     var6 = var6 == var5;
                     var5 = undefined;
-                    if(var6) { _fun0017_ip = 180; continue _fun0017 }
+                    if(var6) { _fun0017_ip = 181; continue _fun0017 }
 case 40:
                     var6 = _closure2_slot2;
                     var6 = var6.interactionData;
                     var5 = var6.application_command;
-case 180:
+case 181:
                     var4 = var1 === var5;
 case 39:
                     var3 = var4;
-case 177:
+case 178:
                     if(!var3) { _fun0017_ip = 152; continue _fun0017 }
-case 181:
+case 182:
                     var4 = _closure1_slot2;
                     var5 = _closure1_slot3;
                     var3 = 35;
@@ -2176,12 +2176,12 @@ case 152:
             var5['bodyStyles'] = var7;
             var8 = var15 == var16;
             var7 = undefined;
-            if(var8) { _fun0016_ip = 182; continue _fun0016 }
-case 183:
+            if(var8) { _fun0016_ip = 183; continue _fun0016 }
+case 184:
             var7 = var16.interactionData;
-case 182:
-            if(!(var15 == var7)) { _fun0016_ip = 184; continue _fun0016 }
-case 185:
+case 183:
+            if(!(var15 == var7)) { _fun0016_ip = 185; continue _fun0016 }
+case 186:
             var9 = _closure1_slot19;
             var8 = _closure1_slot5;
             var7 = {};
@@ -2190,8 +2190,8 @@ case 185:
             var10 = 'large';
             var7['size'] = var10;
             var7 = var9.bind(var4)(var8, var7);
-            _fun0016_ip = 186; continue _fun0016;
-case 184:
+            _fun0016_ip = 187; continue _fun0016;
+case 185:
             var10 = _closure1_slot20;
             var9 = _closure1_slot21;
             var8 = {};
@@ -2206,10 +2206,10 @@ case 184:
             var11['applicationUser'] = var20;
             var21 = var15 == var16;
             var20 = undefined;
-            if(var21) { _fun0016_ip = 187; continue _fun0016 }
-case 188:
+            if(var21) { _fun0016_ip = 188; continue _fun0016 }
+case 189:
             var20 = var16.interactionData;
-case 187:
+case 188:
             var11['data'] = var20;
             var11['messageType'] = var19;
             var13 = var14.bind(var4)(var13, var11);
@@ -2222,16 +2222,16 @@ case 187:
             var12['chatInputRef'] = var17;
             var17 = var15 == var16;
             var15 = undefined;
-            if(var17) { _fun0016_ip = 189; continue _fun0016 }
-case 190:
+            if(var17) { _fun0016_ip = 190; continue _fun0016 }
+case 191:
             var15 = var16.interactionData;
-case 189:
+case 190:
             var12['data'] = var15;
             var12 = var14.bind(var4)(var13, var12);
             var11[1] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 186:
+case 187:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

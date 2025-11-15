@@ -1016,16 +1016,16 @@ case 0:
                 var6 = var6.bind(var1)(var4);
                 var4 = var6.isAndroid;
                 var4 = var4.bind(var6)();
-                if(var5) { _fun0013_ip = 22; continue _fun0013 }
-case 79:
+                if(var5) { _fun0013_ip = 79; continue _fun0013 }
+case 11:
                 if(var4) { _fun0013_ip = 80; continue _fun0013 }
-case 77:
+case 81:
                 var5 = _closure1_slot8;
                 var7 = var5.DCDCompressionManager;
                 var6 = var7.enableZlibStreamSupport;
                 var5 = var2._socketId;
                 var5 = var6.bind(var7)(var5);
-                _fun0013_ip = 81; continue _fun0013;
+                _fun0013_ip = 82; continue _fun0013;
 case 80:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -1034,8 +1034,8 @@ case 80:
                 var5 = var6.bind(var1)(var5);
                 var6 = var5.default;
                 var5 = null;
-                if(!(var5 != var6)) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
+                if(!(var5 != var6)) { _fun0013_ip = 82; continue _fun0013 }
+case 83:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var7];
@@ -1044,18 +1044,18 @@ case 82:
                 var6 = var7.enableZlibStreamSupport;
                 var5 = var2._socketId;
                 var5 = var6.bind(var7)(var5);
-                _fun0013_ip = 81; continue _fun0013;
-case 22:
-                if(var4) { _fun0013_ip = 83; continue _fun0013 }
-case 84:
+                _fun0013_ip = 82; continue _fun0013;
+case 79:
+                if(var4) { _fun0013_ip = 84; continue _fun0013 }
+case 85:
                 var4 = _closure1_slot8;
                 var7 = var4.DCDCompressionManager;
                 var6 = var7.enableZstdStreamSupport;
                 var5 = var2._socketId;
                 var4 = 0;
                 var4 = var6.bind(var7)(var5, var4);
-                _fun0013_ip = 81; continue _fun0013;
-case 83:
+                _fun0013_ip = 82; continue _fun0013;
+case 84:
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var5 = 10;
@@ -1063,8 +1063,8 @@ case 83:
                 var4 = var6.bind(var1)(var4);
                 var6 = var4.default;
                 var4 = null;
-                if(!(var4 != var6)) { _fun0013_ip = 81; continue _fun0013 }
-case 85:
+                if(!(var4 != var6)) { _fun0013_ip = 82; continue _fun0013 }
+case 86:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var5];
@@ -1073,7 +1073,7 @@ case 85:
                 var3 = var4.enableZstdStreamSupport;
                 var2 = var2._socketId;
                 var2 = var3.bind(var4)(var2);
-case 81:
+case 82:
                 return var1;
             }
         };
@@ -1095,10 +1095,10 @@ case 0:
                 var1 = var2.supportsZstd;
                 var2 = var1.bind(var2)();
                 var1 = 'zlib-stream';
-                if(!var2) { _fun0014_ip = 86; continue _fun0014 }
-case 87:
+                if(!var2) { _fun0014_ip = 87; continue _fun0014 }
+case 88:
                 var1 = 'zstd-stream';
-case 86:
+case 87:
                 return var1;
             }
         };
@@ -1123,16 +1123,16 @@ case 0:
                 var2 = this;
                 var4 = var2._onDataReady;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0015_ip = 88; continue _fun0015 }
-case 89:
-                if(!(var1 !== var3)) { _fun0015_ip = 33; continue _fun0015 }
+                if(!(var1 != var4)) { _fun0015_ip = 89; continue _fun0015 }
 case 90:
+                if(!(var1 !== var3)) { _fun0015_ip = 33; continue _fun0015 }
+case 91:
                 var1 = var2._onDataReady;
                 var1 = var1.bind(var2)(var3);
 case 33:
                 var1 = undefined;
                 return var1;
-case 88:
+case 89:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -1156,7 +1156,7 @@ case 0:
                 var3 = var1._socketId;
                 var6 = null;
                 var1['_socketId'] = var6;
-                if(!(var6 !== var3)) { _fun0016_ip = 91; continue _fun0016 }
+                if(!(var6 !== var3)) { _fun0016_ip = 92; continue _fun0016 }
 case 63:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -1166,22 +1166,22 @@ case 63:
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.isAndroid;
                 var2 = var2.bind(var5)();
-                if(var2) { _fun0016_ip = 92; continue _fun0016 }
-case 7:
+                if(var2) { _fun0016_ip = 93; continue _fun0016 }
+case 94:
                 var2 = _closure1_slot8;
                 var5 = var2.DCDCompressionManager;
                 var2 = var5.disableZlibStreamSupport;
                 var2 = var2.bind(var5)(var3);
-                _fun0016_ip = 91; continue _fun0016;
-case 92:
+                _fun0016_ip = 92; continue _fun0016;
+case 93:
                 var7 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var5 = 10;
                 var2 = var2[var5];
                 var2 = var7.bind(var4)(var2);
                 var2 = var2.default;
-                if(!(var6 != var2)) { _fun0016_ip = 91; continue _fun0016 }
-case 93:
+                if(!(var6 != var2)) { _fun0016_ip = 92; continue _fun0016 }
+case 95:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -1189,7 +1189,7 @@ case 93:
                 var2 = var1.default;
                 var1 = var2.disableZlibStreamSupport;
                 var1 = var1.bind(var2)(var3);
-case 91:
+case 92:
                 var1 = undefined;
                 return var1;
             }
@@ -1210,14 +1210,14 @@ case 0:
                 var3 = var3.bind(var4)(var1);
                 var1 = var3.isAndroid;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0017_ip = 4; continue _fun0017 }
-case 88:
+                if(var1) { _fun0017_ip = 28; continue _fun0017 }
+case 37:
                 var1 = _closure1_slot8;
                 var3 = var1.DCDCompressionManager;
                 var1 = null;
                 var1 = var1 != var3;
-                _fun0017_ip = 9; continue _fun0017;
-case 4:
+                _fun0017_ip = 96; continue _fun0017;
+case 28:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 10;
@@ -1226,7 +1226,7 @@ case 4:
                 var3 = var2.default;
                 var2 = null;
                 var1 = var2 != var3;
-case 9:
+case 96:
                 return var1;
             }
         };
@@ -1351,28 +1351,28 @@ case 0:
             var4 = var2.ProcessArgs;
             var2 = var4.isDiscordGatewayPlaintextSet;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0019_ip = 94; continue _fun0019 }
-case 95:
+            if(var2) { _fun0019_ip = 97; continue _fun0019 }
+case 98:
             var4 = _closure1_slot11;
             var2 = _closure1_slot9;
             var6 = var4.bind(var7)(var2);
             var4 = var6.bind(var7)();
             var2 = var4.done;
             var5 = var4;
-            if(var2) { _fun0019_ip = 96; continue _fun0019 }
-case 97:
+            if(var2) { _fun0019_ip = 99; continue _fun0019 }
+case 100:
             var2 = var5.value;
             var4 = var2.canUse;
             var4 = var4.bind(var2)();
-            if(var4) { _fun0019_ip = 98; continue _fun0019 }
-case 79:
+            if(var4) { _fun0019_ip = 101; continue _fun0019 }
+case 102:
             var8 = var6.bind(var7)();
             var4 = var8.done;
             var5 = var8;
-            if(var4) { _fun0019_ip = 96; continue _fun0019 }
+            if(var4) { _fun0019_ip = 99; continue _fun0019 }
 case 13:
-            _fun0019_ip = 97; continue _fun0019;
-case 98:
+            _fun0019_ip = 100; continue _fun0019;
+case 101:
             var4 = var2.prototype;
             var4 = Object.create(var4, {constructor: {value: var2}});
             var10 = var4;
@@ -1380,7 +1380,7 @@ case 98:
             var2 = new var10[var2](var9, var8);
             var2 = var2 instanceof Object ? var2 : var4;
             return var2;
-case 96:
+case 99:
             var2 = _closure1_slot10;
             var4 = var2.prototype;
             var4 = Object.create(var4, {constructor: {value: var2}});
@@ -1389,7 +1389,7 @@ case 96:
             var2 = new var10[var2](var9, var8);
             var2 = var2 instanceof Object ? var2 : var4;
             return var2;
-case 94:
+case 97:
             var1 = _closure1_slot10;
             var2 = var1.prototype;
             var2 = Object.create(var2, {constructor: {value: var1}});

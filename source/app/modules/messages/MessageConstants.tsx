@@ -44,8 +44,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['BOT_TAG_SERVER_TYPE'] = var2;
     var2 = 'd';
     var6['BOT_TAG_BOT_TYPE'] = var2;
-    var2 = 'e';
-    var6['REMIXING_TYPE'] = var2;
     var2 = 'g';
     var6['POLL_TYPE'] = var2;
     var2 = 'h';
@@ -130,8 +128,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIF_REPLY'] = var8;
     var8 = 'sticker_reply';
     var2['STICKER_REPLY'] = var8;
-    var8 = 'remixing';
-    var2['REMIXING'] = var8;
     var8 = 'send_wave';
     var2['SEND_WAVE'] = var8;
     var8 = 'gifting';

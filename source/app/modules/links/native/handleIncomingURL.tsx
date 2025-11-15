@@ -16,327 +16,453 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
-                    var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+                    var3 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var4 = var2.url;
-                    var7 = var2.source;
-                    var6 = _closure1_slot8;
-                    var5 = var6.log;
-                    var2 = global;
-                    var3 = var2.HermesInternal;
-                    var11 = var3.concat;
-                    var27 = 'Opening url: ';
-                    var25 = ' [';
-                    var23 = ']';
-                    var26 = var4;
-                    var24 = var7;
-                    var3 = var27[var11](var26, var25, var24, var23, var22);
-                    var3 = var5.bind(var6)(var3);
-                    var5 = _closure1_slot4;
-                    var3 = var5.getState;
-                    var5 = var3.bind(var5)();
-                    var3 = _closure1_slot5;
-                    var3 = var3.ACTIVE;
-                    if(!(var5 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+                    var9 = var3;
+                    var4 = undefined;
+                    var2 = undefined;
+                    var14 = undefined;
+                    var8 = undefined;
+                    var _closure4_slot0 = var4;
+                    var _closure4_slot1 = var4;
+                    var17 = var3.url;
+                    var2 = var17;
+                    var16 = var3.source;
+                    var14 = var16;
+                    var11 = _closure1_slot8;
+                    var10 = var11.log;
+                    var5 = global;
+                    var7 = var5.HermesInternal;
+                    var15 = var7.concat;
+                    var28 = 'Opening url: ';
+                    var26 = ' [';
+                    var24 = ']';
+                    var27 = var17;
+                    var25 = var16;
+                    var7 = var28[var15](var27, var26, var25, var24, var23);
+                    var7 = var10.bind(var11)(var7);
+                    var10 = _closure1_slot4;
+                    var7 = var10.getState;
+                    var10 = var7.bind(var10)();
+                    var7 = _closure1_slot5;
+                    var7 = var7.ACTIVE;
+                    if(!(var10 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 4;
-                    var5 = var5[var3];
-                    var3 = undefined;
-                    var6 = var6.bind(var3)(var5);
-                    var5 = var6.trackAppOpened;
-                    var3 = null;
-                    var9 = var3 == var4;
-                    var3 = 'deeplink';
-                    if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var7 = 4;
+                    var7 = var11[var7];
+                    var11 = var10.bind(var4)(var7);
+                    var10 = var11.trackAppOpened;
+                    var12 = var2;
+                    var7 = null;
+                    var12 = var7 == var12;
+                    var7 = 'deeplink';
+                    if(!var12) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var3 = 'launcher';
+                    var7 = 'launcher';
 case 6:
-                    var3 = var5.bind(var6)(var3);
+                    var7 = var10.bind(var11)(var7);
 case 4:
-                    var12 = null;
-                    if(!(var12 != var4)) { _fun0001_ip = 8; continue _fun0001 }
+                    var7 = var2;
+                    var13 = null;
+                    if(!(var13 != var7)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var5 = var4.startsWith;
-                    var3 = 'discordwidget:///';
-                    var3 = var5.bind(var4)(var3);
-                    if(var3) { _fun0001_ip = 10; continue _fun0001 }
+                    var11 = var2;
+                    var10 = var11.startsWith;
+                    var7 = 'discord://app/open';
+                    var7 = var10.bind(var11)(var7);
+                    if(!var7) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                    var3 = var2.URL;
-                    var5 = var3.prototype;
-                    var5 = Object.create(var5, {constructor: {value: var3}});
-                    var27 = var5;
-                    var26 = var4;
-                    var3 = new var27[var3](var26, var25);
-                    var3 = var3 instanceof Object ? var3 : var5;
-                    var6 = var3.hostname;
-                    var3 = 'l.discord.com';
-                    var5 = var4;
-                    var13 = var7;
-                    if(!(var3 === var6)) { _fun0001_ip = 12; continue _fun0001 }
+                    var11 = var2;
+                    var10 = var11.indexOf;
+                    var7 = '#';
+                    var12 = var10.bind(var11)(var7);
+                    var7 = -1;
+                    if(!(var7 === var12)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var3 = var2.fetch;
-                    var9 = undefined;
-                    var2 = {'method': 'HEAD', 'redirect': 'follow'};
-                    var2 = var3.bind(var9)(var4, var2);
-                    SaveGenerator(address=275);
-case 14:
-                    return var2;
+                    var15 = _closure1_slot8;
+                    var11 = var15.warn;
+                    var10 = {};
+                    var7 = var2;
+                    var10['originalUrl'] = var7;
+                    var7 = 'No hash mark found in AppsFlyer legacy URL';
+                    var7 = var11.bind(var15)(var7, var10);
+                    _fun0001_ip = 10; continue _fun0001;
+case 12:
+                    var11 = var2;
+                    var10 = var11.substring;
+                    var7 = 1;
+                    var7 = var12 + var7;
+                    var7 = var10.bind(var11)(var7);
+                    var8 = var7;
+                    var10 = '';
+                    if(!(var10 !== var7)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 16; continue _fun0001 }
+                    var11 = var8;
+                    var7 = var11.trim;
+                    var7 = var7.bind(var11)();
+                    if(!(var10 !== var7)) { _fun0001_ip = 14; continue _fun0001 }
+case 16: // try_start_0
+                    var11 = var5.URL;
+                    var27 = var8;
+                    var10 = var11.prototype;
+                    var10 = Object.create(var10, {constructor: {value: var11}});
+                    var28 = var10;
+                    var7 = new var28[var11](var27, var26);
+                    var7 = var7 instanceof Object ? var7 : var10;
+                    _closure4_slot0 = var7;
+                    var10 = ['campaign', 'deep_link_value', 'media_source'];
+                    _closure4_slot1 = var10;
+                    var11 = var7.searchParams;
+                    var10 = var11.keys;
+                    var26 = var10.bind(var11)();
+                    var12 = new Array(0);
+                    var25 = 0;
+                    var27 = var12;
+                    var10 = arraySpread(var27, var26, var25);
+                    var11 = var12.filter;
+                    var10 = function(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                            var4 = arg1;
+                            var2 = var4.startsWith;
+                            var1 = 'af_';
+                            var1 = var2.bind(var4)(var1);
+                            if(var1) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                            var3 = _closure4_slot1;
+                            var2 = var3.includes;
+                            var1 = var2.bind(var3)(var4);
 case 17:
-                    var5 = var2.url;
+                            return var1;
+                        }
+                    };
+                    var11 = var11.bind(var12)(var10);
+                    var10 = var11.forEach;
+                    var6 = function(arg1) {
+                        var1 = _closure4_slot0;
+                        var3 = var1.searchParams;
+                        var2 = var3.delete;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var6 = var10.bind(var11)(var6);
+                    var6 = var7.toString;
+                    var12 = var6.bind(var7)();
+                    var2 = var12;
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var3 = 6;
-                    var3 = var10[var3];
-                    var3 = var7.bind(var9)(var3);
-                    var3 = var3.DeeplinkSource;
-                    var13 = var3.Iterable;
-case 12:
-                    var7 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = 7;
-                    var3 = var6[var3];
-                    var6 = undefined;
-                    var7 = var7.bind(var6)(var3);
-                    var3 = true;
-                    var11 = var7.bind(var6)(var5, var3);
-                    var16 = var11.fingerprint;
-                    var14 = var11.attemptId;
-                    var7 = var11.payload;
+                    var6 = 5;
+                    var6 = var10[var6];
+                    var6 = var7.bind(var4)(var6);
+                    var6 = var6.DeeplinkSource;
+                    var14 = var6.AppsFlyer;
                     var10 = _closure1_slot8;
-                    var9 = var10.log;
-                    var3 = 'Parsed url as: ';
-                    var3 = var9.bind(var10)(var3, var11);
-                    var21 = var7.inviteCode;
-                    var15 = var7.guildTemplateCode;
-                    var17 = var7.authToken;
-                    var3 = var12 == var16;
-                    var10 = var5;
-                    if(!var3) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-                    var3 = var12 == var14;
-case 18:
-                    if(!var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-                    var3 = var12 == var21;
+                    var7 = var10.log;
+                    var6 = var5.HermesInternal;
+                    var11 = var6.concat;
+                    var6 = 'Extracted clean URL from AppsFlyer legacy URL: ';
+                    var6 = var11.bind(var6)(var12);
+                    var6 = var7.bind(var10)(var6);
+case 10: // try_end0
+                    var10 = var2;
+                    var7 = var10.startsWith;
+                    var6 = 'discordwidget:///';
+                    var6 = var7.bind(var10)(var6);
+                    if(var6) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-                    if(!var3) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-                    var3 = var12 == var15;
+                    var10 = var5.URL;
+                    var27 = var2;
+                    var7 = var10.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var10}});
+                    var28 = var7;
+                    var6 = new var28[var10](var27, var26);
+                    var6 = var6 instanceof Object ? var6 : var7;
+                    var7 = var6.hostname;
+                    var6 = 'l.discord.com';
+                    if(!(var6 === var7)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-                    if(!var3) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-                    var3 = var12 == var17;
-case 24:
-                    if(!var3) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
-                    var3 = var12 == var13;
-case 26:
-                    if(var3) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
-                    var5 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var3 = 8;
-                    var3 = var9[var3];
-                    var11 = var5.bind(var6)(var3);
-                    var9 = var11.track;
-                    var3 = _closure1_slot6;
-                    var5 = var3.EXTERNAL_DYNAMIC_LINK_RECEIVED;
-                    var3 = {};
-                    var19 = var12 != var21;
-                    var18 = null;
-                    if(!var19) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-                    var20 = _closure1_slot0;
-                    var22 = _closure1_slot2;
-                    var19 = 9;
-                    var19 = var22[var19];
-                    var20 = var20.bind(var6)(var19);
-                    var19 = var20.parseInviteCodeFromInviteKey;
-                    var18 = var19.bind(var20)(var21);
-case 30:
-                    var3['invite_code'] = var18;
-                    var3['guild_template_code'] = var15;
-                    var15 = var12 != var17;
-                    if(!var15) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
-                    var18 = var17.length;
-                    var17 = 0;
-                    var15 = var17 === var18;
-case 32:
-                    var3['has_auth_token'] = var15;
-                    var17 = _closure1_slot4;
-                    var15 = var17.getState;
-                    var17 = var15.bind(var17)();
-                    var15 = _closure1_slot5;
-                    var15 = var15.BACKGROUND;
-                    var15 = var17 === var15;
-                    var3['is_backgrounded'] = var15;
-                    var3['attempt_id'] = var14;
-                    var3['deeplink_source'] = var13;
-                    var13 = var7.type;
-                    var3['link_type'] = var13;
-                    var13 = arg2;
-                    var3['is_cold_start'] = var13;
-                    var13 = var12 != var16;
-                    var12 = null;
-                    if(!var13) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
-                    var13 = {};
-                    var15 = _closure1_slot0;
-                    var17 = _closure1_slot2;
-                    var14 = 10;
-                    var14 = var17[var14];
-                    var15 = var15.bind(var6)(var14);
-                    var14 = var15.extractId;
-                    var14 = var14.bind(var15)(var16);
-                    var13['fingerprint'] = var14;
-                    var12 = var13;
-case 34:
-                    var26 = var3;
-                    var25 = var12;
-                    var12 = copyDataProperties(var26, var25);
-                    var3 = var9.bind(var11)(var5, var3);
-case 28:
-                    var5 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var3 = 11;
-                    var3 = var9[var3];
-                    var3 = var5.bind(var6)(var3);
-                    var3 = var3.bind(var6)(var10);
-                    var3 = 5;
-                    var3 = var9[var3];
-                    var5 = var5.bind(var6)(var3);
-                    var3 = {};
-                    var3['payload'] = var7;
-                    var3 = var5.bind(var6)(var3);
-                    _fun0001_ip = 8; continue _fun0001;
-case 16:
-                    return var2;
-case 10:
-                    var3 = var4.split;
-                    var2 = 'voice/';
-                    var2 = var3.bind(var4)(var2);
-                    var4 = var2.length;
-                    var3 = 2;
-                    if(!(var3 === var4)) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
-                    var4 = 1;
-                    var6 = var2[var4];
-                    var5 = var6.split;
-                    var2 = '/';
-                    var2 = var5.bind(var6)(var2);
-                    var6 = var2.length;
-                    var5 = 0;
-                    if(!(var5 !== var6)) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
-                    var7 = var2[var5];
-                    var6 = 'user';
-                    if(!(var6 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
-case 40:
-                    var7 = var2[var5];
-                    var6 = 'invite';
-                    if(!(var6 !== var7)) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
-                    var7 = var2[var5];
-                    var6 = 'wave';
-                    if(!(var6 !== var7)) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-                    var7 = var2[var5];
-                    var6 = 'join';
-                    if(!(var6 !== var7)) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
-                    var6 = var2.length;
-                    if(!(var3 === var6)) { _fun0001_ip = 8; continue _fun0001 }
-case 47:
-                    var11 = var2[var5];
-                    var10 = var2[var4];
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var7[var5];
-                    var7 = undefined;
-                    var6 = var6.bind(var7)(var5);
-                    var5 = {};
-                    var9 = {};
-                    var12 = _closure1_slot7;
-                    var12 = var12.CHANNEL;
-                    var9['type'] = var12;
-                    var9['guildId'] = var11;
-                    var9['channelId'] = var10;
-                    var5['payload'] = var9;
-                    var5 = var6.bind(var7)(var5);
-                    var5 = undefined;
+                    var7 = var5.fetch;
+                    var6 = var2;
+                    var5 = {'method': 'HEAD', 'redirect': 'follow'};
+                    var5 = var7.bind(var4)(var6, var5);
+                    SaveGenerator(address=639);
+case 23:
                     return var5;
-case 45:
-                    var11 = var2[var4];
-                    var10 = var2[var3];
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var7[var5];
-                    var7 = undefined;
-                    var6 = var6.bind(var7)(var5);
-                    var5 = {};
-                    var9 = {};
-                    var12 = _closure1_slot7;
-                    var12 = var12.CHANNEL;
-                    var9['type'] = var12;
-                    var9['guildId'] = var11;
-                    var9['channelId'] = var10;
-                    var5['payload'] = var9;
-                    var5 = var6.bind(var7)(var5);
-                    _fun0001_ip = 8; continue _fun0001;
-case 43:
-                    var11 = var2[var4];
-                    var10 = var2[var3];
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var7[var5];
-                    var7 = undefined;
-                    var6 = var6.bind(var7)(var5);
-                    var5 = {};
-                    var9 = {};
-                    var12 = _closure1_slot7;
-                    var12 = var12.SEND_VOICE_HANGOUT_WAVE;
-                    var9['type'] = var12;
-                    var9['guildId'] = var11;
-                    var9['channelId'] = var10;
-                    var5['payload'] = var9;
-                    var5 = var6.bind(var7)(var5);
-                    _fun0001_ip = 8; continue _fun0001;
-case 41:
-                    var7 = var2[var4];
-                    var6 = var2[var3];
-                    var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var4[var2];
-                    var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
-                    var2 = {};
-                    var5 = {};
-                    var8 = _closure1_slot7;
-                    var8 = var8.CREATE_VOICE_INVITE;
-                    var5['type'] = var8;
-                    var5['guildId'] = var7;
-                    var5['channelId'] = var6;
-                    var2['payload'] = var5;
-                    var2 = var3.bind(var4)(var2);
-case 8:
-                    var2 = undefined;
-                    return var2;
-case 38:
-                    var2 = undefined;
-                    return var2;
+case 24:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                    if(var6) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+                    var2 = var5.url;
+                    var7 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var6 = 5;
+                    var6 = var10[var6];
+                    var6 = var7.bind(var4)(var6);
+                    var6 = var6.DeeplinkSource;
+                    var14 = var6.Iterable;
+case 21:
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var6 = 7;
+                    var6 = var10[var6];
+                    var10 = var7.bind(var4)(var6);
+                    var7 = var2;
+                    var6 = true;
+                    var12 = var10.bind(var4)(var7, var6);
+                    var17 = var12.fingerprint;
+                    var15 = var12.attemptId;
+                    var10 = var12.payload;
+                    var11 = _closure1_slot8;
+                    var7 = var11.log;
+                    var6 = 'Parsed url as: ';
+                    var6 = var7.bind(var11)(var6, var12);
+                    var22 = var10.inviteCode;
+                    var16 = var10.guildTemplateCode;
+                    var18 = var10.authToken;
+                    var6 = var13 == var17;
+                    if(!var6) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+                    var6 = var13 == var15;
+case 27:
+                    if(!var6) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+                    var6 = var13 == var22;
+case 29:
+                    if(!var6) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+                    var6 = var13 == var16;
+case 31:
+                    if(!var6) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
+                    var6 = var13 == var18;
+case 33:
+                    if(!var6) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
+                    var7 = var14;
+                    var6 = var13 == var7;
+case 35:
+                    if(var6) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
+                    var7 = _closure1_slot1;
+                    var11 = _closure1_slot2;
+                    var6 = 8;
+                    var6 = var11[var6];
+                    var12 = var7.bind(var4)(var6);
+                    var11 = var12.track;
+                    var6 = _closure1_slot6;
+                    var7 = var6.EXTERNAL_DYNAMIC_LINK_RECEIVED;
+                    var6 = {};
+                    var20 = var13 != var22;
+                    var19 = null;
+                    if(!var20) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
+                    var21 = _closure1_slot0;
+                    var23 = _closure1_slot2;
+                    var20 = 9;
+                    var20 = var23[var20];
+                    var21 = var21.bind(var4)(var20);
+                    var20 = var21.parseInviteCodeFromInviteKey;
+                    var19 = var20.bind(var21)(var22);
+case 39:
+                    var6['invite_code'] = var19;
+                    var6['guild_template_code'] = var16;
+                    var16 = var13 != var18;
+                    if(!var16) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
+                    var19 = var18.length;
+                    var18 = 0;
+                    var16 = var18 === var19;
+case 41:
+                    var6['has_auth_token'] = var16;
+                    var18 = _closure1_slot4;
+                    var16 = var18.getState;
+                    var18 = var16.bind(var18)();
+                    var16 = _closure1_slot5;
+                    var16 = var16.BACKGROUND;
+                    var16 = var18 === var16;
+                    var6['is_backgrounded'] = var16;
+                    var6['attempt_id'] = var15;
+                    var6['deeplink_source'] = var14;
+                    var14 = var10.type;
+                    var6['link_type'] = var14;
+                    var14 = arg2;
+                    var6['is_cold_start'] = var14;
+                    var14 = var13 != var17;
+                    var13 = null;
+                    if(!var14) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
+                    var14 = {};
+                    var16 = _closure1_slot0;
+                    var18 = _closure1_slot2;
+                    var15 = 10;
+                    var15 = var18[var15];
+                    var16 = var16.bind(var4)(var15);
+                    var15 = var16.extractId;
+                    var15 = var15.bind(var16)(var17);
+                    var14['fingerprint'] = var15;
+                    var13 = var14;
+case 43:
+                    var27 = var6;
+                    var26 = var13;
+                    var13 = copyDataProperties(var27, var26);
+                    var6 = var11.bind(var12)(var7, var6);
+case 37:
+                    var7 = _closure1_slot1;
+                    var11 = _closure1_slot2;
+                    var6 = 11;
+                    var6 = var11[var6];
+                    var12 = var7.bind(var4)(var6);
+                    var6 = var2;
+                    var6 = var12.bind(var4)(var6);
+                    var6 = 6;
+                    var6 = var11[var6];
+                    var7 = var7.bind(var4)(var6);
+                    var6 = {};
+                    var6['payload'] = var10;
+                    var6 = var7.bind(var4)(var6);
+                    _fun0001_ip = 8; continue _fun0001;
+case 25:
+                    return var5;
+case 19:
+                    var7 = var2;
+                    var6 = var7.split;
+                    var5 = 'voice/';
+                    var5 = var6.bind(var7)(var5);
+                    var7 = var5.length;
+                    var6 = 2;
+                    if(!(var6 === var7)) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
+                    var7 = 1;
+                    var11 = var5[var7];
+                    var10 = var11.split;
+                    var5 = '/';
+                    var5 = var10.bind(var11)(var5);
+                    var11 = var5.length;
+                    var10 = 0;
+                    if(!(var10 !== var11)) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
+                    var12 = var5[var10];
+                    var11 = 'user';
+                    if(!(var11 !== var12)) { _fun0001_ip = 8; continue _fun0001 }
+case 49:
+                    var12 = var5[var10];
+                    var11 = 'invite';
+                    if(!(var11 !== var12)) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
+                    var12 = var5[var10];
+                    var11 = 'wave';
+                    if(!(var11 !== var12)) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
+                    var12 = var5[var10];
+                    var11 = 'join';
+                    if(!(var11 !== var12)) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
+                    var11 = var5.length;
+                    if(!(var6 === var11)) { _fun0001_ip = 8; continue _fun0001 }
+case 56:
+                    var14 = var5[var10];
+                    var13 = var5[var7];
+                    var11 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var10 = 6;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var4)(var10);
+                    var10 = {};
+                    var12 = {};
+                    var15 = _closure1_slot7;
+                    var15 = var15.CHANNEL;
+                    var12['type'] = var15;
+                    var12['guildId'] = var14;
+                    var12['channelId'] = var13;
+                    var10['payload'] = var12;
+                    var10 = var11.bind(var4)(var10);
+                    var10 = undefined;
+                    return var10;
+case 54:
+                    var14 = var5[var7];
+                    var13 = var5[var6];
+                    var11 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var10 = 6;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var4)(var10);
+                    var10 = {};
+                    var12 = {};
+                    var15 = _closure1_slot7;
+                    var15 = var15.CHANNEL;
+                    var12['type'] = var15;
+                    var12['guildId'] = var14;
+                    var12['channelId'] = var13;
+                    var10['payload'] = var12;
+                    var10 = var11.bind(var4)(var10);
+                    _fun0001_ip = 8; continue _fun0001;
+case 52:
+                    var14 = var5[var7];
+                    var13 = var5[var6];
+                    var11 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var10 = 6;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var4)(var10);
+                    var10 = {};
+                    var12 = {};
+                    var15 = _closure1_slot7;
+                    var15 = var15.SEND_VOICE_HANGOUT_WAVE;
+                    var12['type'] = var15;
+                    var12['guildId'] = var14;
+                    var12['channelId'] = var13;
+                    var10['payload'] = var12;
+                    var10 = var11.bind(var4)(var10);
+                    _fun0001_ip = 8; continue _fun0001;
+case 50:
+                    var11 = var5[var7];
+                    var10 = var5[var6];
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 6;
+                    var5 = var7[var5];
+                    var6 = var6.bind(var4)(var5);
+                    var5 = {};
+                    var7 = {};
+                    var12 = _closure1_slot7;
+                    var12 = var12.CREATE_VOICE_INVITE;
+                    var7['type'] = var12;
+                    var7['guildId'] = var11;
+                    var7['channelId'] = var10;
+                    var5['payload'] = var7;
+                    var5 = var6.bind(var4)(var5);
+case 8:
+                    return var4;
+case 47:
+                    return var4;
+case 45:
+                    return var4;
+case 57: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var7 = _closure1_slot8;
+                    var6 = var7.warn;
+                    var5 = {};
+                    var9 = var9.url;
+                    var5['originalUrl'] = var9;
+                    var5['extractedUrlString'] = var8;
+                    var4 = var4.message;
+                    var5['error'] = var4;
+                    var4 = 'Failed to parse URL from AppsFlyer legacy URL';
+                    var4 = var6.bind(var7)(var4, var5);
+                    var4 = undefined;
+                    return var4;
+case 14:
+                    var5 = _closure1_slot8;
+                    var4 = var5.warn;
+                    var3 = {};
+                    var3['originalUrl'] = var2;
+                    var2 = 'Empty or whitespace-only URL fragment in AppsFlyer legacy URL';
+                    var2 = var4.bind(var5)(var2, var3);
                     var2 = undefined;
                     return var2;
 case 2:

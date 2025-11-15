@@ -1500,15 +1500,15 @@ case 0:
 case 129:
             var3 = var8.guild_id;
 case 128:
-            if(!(var6 == var3)) { _fun0019_ip = 130; continue _fun0019 }
-case 131:
+            if(!(var6 == var3)) { _fun0019_ip = 57; continue _fun0019 }
+case 14:
             var3 = _closure1_slot15;
             var3 = var3.DM_CHANNEL;
-            _fun0019_ip = 132; continue _fun0019;
-case 130:
+            _fun0019_ip = 130; continue _fun0019;
+case 57:
             var4 = _closure1_slot15;
             var3 = var4.GUILD_CHANNEL;
-case 132:
+case 130:
             var5['page'] = var3;
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -1524,17 +1524,17 @@ case 132:
             var3['type'] = var10;
             var11 = var6 == var8;
             var10 = undefined;
-            if(var11) { _fun0019_ip = 133; continue _fun0019 }
-case 59:
+            if(var11) { _fun0019_ip = 131; continue _fun0019 }
+case 132:
             var10 = var8.id;
-case 133:
+case 131:
             var3['channel_id'] = var10;
             var11 = var6 == var8;
             var10 = undefined;
-            if(var11) { _fun0019_ip = 134; continue _fun0019 }
-case 135:
+            if(var11) { _fun0019_ip = 113; continue _fun0019 }
+case 133:
             var10 = var8.guild_id;
-case 134:
+case 113:
             var3['guild_id'] = var10;
             var3 = var7.bind(var9)(var4, var3);
             var3 = _closure1_slot0;
@@ -1546,16 +1546,16 @@ case 134:
             var2 = {};
             var7 = var6 != var8;
             var6 = undefined;
-            if(!var7) { _fun0019_ip = 136; continue _fun0019 }
-case 137:
+            if(!var7) { _fun0019_ip = 6; continue _fun0019 }
+case 134:
             var7 = var8.isDM;
             var7 = var7.bind(var8)();
             var6 = undefined;
-            if(!var7) { _fun0019_ip = 136; continue _fun0019 }
-case 138:
+            if(!var7) { _fun0019_ip = 6; continue _fun0019 }
+case 135:
             var7 = var8.getRecipientId;
             var6 = var7.bind(var8)();
-case 136:
+case 6:
             var2['recipientUserId'] = var6;
             var2['analyticsLocation'] = var5;
             var5 = arg1;
@@ -1593,13 +1593,13 @@ case 0:
             var11 = var4 == var5;
             var10 = undefined;
             if(var11) { _fun0020_ip = 107; continue _fun0020 }
-case 139:
+case 136:
             var10 = var5.guild_id;
 case 107:
             var6['guild_id'] = var10;
             var6 = var8.bind(var9)(var7, var6);
-            if(!(var4 != var5)) { _fun0020_ip = 140; continue _fun0020 }
-case 141:
+            if(!(var4 != var5)) { _fun0020_ip = 137; continue _fun0020 }
+case 138:
             var6 = var3.current;
             var4 = var6.openSystemKeyboard;
             var4 = var4.bind(var6)();
@@ -1610,12 +1610,12 @@ case 141:
             var6 = var6.bind(var1)(var4);
             var4 = var6.isIOS;
             var4 = var4.bind(var6)();
-            if(!var4) { _fun0020_ip = 131; continue _fun0020 }
-case 142:
+            if(!var4) { _fun0020_ip = 139; continue _fun0020 }
+case 140:
             var4 = var3.current;
             var3 = var4.blur;
             var3 = var3.bind(var4)();
-case 131:
+case 139:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 21;
@@ -1624,7 +1624,7 @@ case 131:
             var3 = var4.navigateToThreadCreation;
             var2 = 'Plus Button';
             var2 = var3.bind(var4)(var5, var2);
-case 140:
+case 137:
             return var1;
         }
     };
@@ -1699,7 +1699,6 @@ case 140:
         var2['uploadLimit'] = var9;
         var9 = true;
         var2['disableWhenReachedLimit'] = var9;
-        var2['showRemixButton'] = var9;
         var9 = function onAttachPress() {
             var3 = _closure1_slot27;
             var2 = {};
@@ -1741,25 +1740,24 @@ case 140:
             return var1;
         };
         var2['onPressCamera'] = var9;
-        var9 = function onSelectItem(arg1, arg2, arg3, arg4) {
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
+        var9 = function onPressItem(arg1) {
+            var1 = arg1;
+            var5 = var1.channelId;
+            var4 = var1.item;
+            var3 = var1.isIncluded;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var1 = 24;
-            var3 = var3[var1];
+            var6 = var6[var1];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.hideMediaKeyboardActionSheet;
-            var3 = var3.bind(var4)();
-            var6 = _closure1_slot30;
-            var10 = arg1;
-            var9 = arg2;
-            var8 = arg3;
-            var7 = arg4;
-            var11 = undefined;
-            var2 = var11[var6](var10, var9, var8, var7, var6);
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.hideMediaKeyboardActionSheet;
+            var6 = var6.bind(var7)();
+            var2 = _closure1_slot30;
+            var2 = var2.bind(var1)(var5, var4, var3);
             return var1;
         };
-        var2['onSelectItem'] = var9;
+        var2['onPressItem'] = var9;
         var8 = function onViewAll() {
             var3 = _closure1_slot26;
             var2 = {};

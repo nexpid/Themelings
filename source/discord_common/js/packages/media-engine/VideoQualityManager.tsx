@@ -697,13 +697,13 @@ case 0:
                 var1 = var6.budgetPortion;
                 var7 = var3 * var1;
                 var1 = var4.isMuted;
-                if(var1) { _fun0009_ip = 48; continue _fun0009 }
-case 19:
+                if(var1) { _fun0009_ip = 5; continue _fun0009 }
+case 33:
                 var8 = var6.framerate;
-                _fun0009_ip = 85; continue _fun0009;
-case 48:
+                _fun0009_ip = 34; continue _fun0009;
+case 5:
                 var8 = var6.mutedFramerate;
-case 85:
+case 34:
                 var3 = _closure1_slot13;
                 var1 = {};
                 var5 = {};
@@ -760,13 +760,13 @@ case 85:
 case 0:
                 var3 = arg2;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0010_ip = 86; continue _fun0010 }
-case 87:
+                if(!(var1 !== var3)) { _fun0010_ip = 85; continue _fun0010 }
+case 86:
                 var4 = arg1;
                 var2 = arg3;
                 var2 = var4 * var2;
                 var1 = var2 / var3;
-case 86:
+case 85:
                 return var1;
             }
         };
@@ -782,31 +782,31 @@ case 0:
                 var11 = arg2;
                 var2 = this;
                 var1 = var2.goliveSimulcastEnabled;
-                if(!var1) { _fun0011_ip = 88; continue _fun0011 }
-case 89:
-                var1 = 100;
-                if(!(!(var3 < var1))) { _fun0011_ip = 90; continue _fun0011 }
+                if(!var1) { _fun0011_ip = 87; continue _fun0011 }
 case 88:
+                var1 = 100;
+                if(!(!(var3 < var1))) { _fun0011_ip = 89; continue _fun0011 }
+case 87:
                 var1 = var2.goliveMaxQuality;
                 var4 = var1.encode;
                 var7 = null;
                 var6 = var7 == var4;
                 var5 = undefined;
                 var1 = undefined;
-                if(var6) { _fun0011_ip = 91; continue _fun0011 }
+                if(var6) { _fun0011_ip = 90; continue _fun0011 }
 case 18:
                 var1 = var4.pixelCount;
-case 91:
-                if(!(var5 !== var1)) { _fun0011_ip = 92; continue _fun0011 }
+case 90:
+                if(!(var5 !== var1)) { _fun0011_ip = 91; continue _fun0011 }
 case 29:
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.encode;
                 var1 = var1.pixelCount;
-                if(!(!(var11 >= var1))) { _fun0011_ip = 92; continue _fun0011 }
-case 93:
+                if(!(!(var11 >= var1))) { _fun0011_ip = 91; continue _fun0011 }
+case 92:
                 var1 = 0;
-                if(!(!(var11 <= var1))) { _fun0011_ip = 92; continue _fun0011 }
-case 85:
+                if(!(!(var11 <= var1))) { _fun0011_ip = 91; continue _fun0011 }
+case 93:
                 var6 = global;
                 var10 = var6.Math;
                 var9 = var10.min;
@@ -896,10 +896,10 @@ case 96:
                 var1 = new var19[var4](var18, var17);
                 var1 = var1 instanceof Object ? var1 : var3;
                 return var1;
-case 92:
+case 91:
                 var1 = var2.goliveMaxQuality;
                 return var1;
-case 90:
+case 89:
                 var1 = var2.getGoliveLQQuality;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -960,13 +960,13 @@ case 0:
                 var10 = var12 == var8;
                 var3 = undefined;
                 if(var10) { _fun0012_ip = 98; continue _fun0012 }
-case 99:
+case 84:
                 var3 = var8.width;
 case 98:
-                if(!(var12 == var3)) { _fun0012_ip = 91; continue _fun0012 }
+                if(!(var12 == var3)) { _fun0012_ip = 99; continue _fun0012 }
 case 100:
                 var3 = _closure1_slot10;
-case 91:
+case 99:
                 var7 = var6.bind(var7)(var5, var3);
                 var8 = var1.Math;
                 var6 = var8.min;
@@ -976,13 +976,13 @@ case 91:
                 var11 = var12 == var10;
                 var3 = undefined;
                 if(var11) { _fun0012_ip = 101; continue _fun0012 }
-case 34:
+case 102:
                 var3 = var10.height;
 case 101:
-                if(!(var12 == var3)) { _fun0012_ip = 102; continue _fun0012 }
-case 63:
+                if(!(var12 == var3)) { _fun0012_ip = 8; continue _fun0012 }
+case 103:
                 var3 = _closure1_slot11;
-case 102:
+case 8:
                 var6 = var6.bind(var8)(var5, var3);
                 var10 = var1.Math;
                 var8 = var10.min;
@@ -991,14 +991,14 @@ case 102:
                 var11 = var3.encode;
                 var13 = var12 == var11;
                 var3 = undefined;
-                if(var13) { _fun0012_ip = 103; continue _fun0012 }
-case 65:
+                if(var13) { _fun0012_ip = 104; continue _fun0012 }
+case 79:
                 var3 = var11.framerate;
-case 103:
-                if(!(var12 == var3)) { _fun0012_ip = 104; continue _fun0012 }
-case 68:
-                var3 = _closure1_slot12;
 case 104:
+                if(!(var12 == var3)) { _fun0012_ip = 105; continue _fun0012 }
+case 106:
+                var3 = _closure1_slot12;
+case 105:
                 var8 = var8.bind(var10)(var5, var3);
                 var11 = var1.Math;
                 var10 = var11.min;
@@ -1007,14 +1007,14 @@ case 104:
                 var13 = var3.capture;
                 var14 = var12 == var13;
                 var3 = undefined;
-                if(var14) { _fun0012_ip = 105; continue _fun0012 }
-case 106:
-                var3 = var13.width;
-case 105:
-                if(!(var12 == var3)) { _fun0012_ip = 107; continue _fun0012 }
+                if(var14) { _fun0012_ip = 107; continue _fun0012 }
 case 108:
-                var3 = _closure1_slot10;
+                var3 = var13.width;
 case 107:
+                if(!(var12 == var3)) { _fun0012_ip = 71; continue _fun0012 }
+case 109:
+                var3 = _closure1_slot10;
+case 71:
                 var11 = var10.bind(var11)(var5, var3);
                 var13 = var1.Math;
                 var10 = var13.min;
@@ -1023,14 +1023,14 @@ case 107:
                 var14 = var3.capture;
                 var15 = var12 == var14;
                 var3 = undefined;
-                if(var15) { _fun0012_ip = 109; continue _fun0012 }
-case 110:
-                var3 = var14.height;
-case 109:
-                if(!(var12 == var3)) { _fun0012_ip = 111; continue _fun0012 }
-case 112:
-                var3 = _closure1_slot11;
+                if(var15) { _fun0012_ip = 110; continue _fun0012 }
 case 111:
+                var3 = var14.height;
+case 110:
+                if(!(var12 == var3)) { _fun0012_ip = 112; continue _fun0012 }
+case 113:
+                var3 = _closure1_slot11;
+case 112:
                 var10 = var10.bind(var13)(var5, var3);
                 var5 = var1.Math;
                 var3 = var5.min;
@@ -1039,14 +1039,14 @@ case 111:
                 var13 = var13.capture;
                 var14 = var12 == var13;
                 var9 = undefined;
-                if(var14) { _fun0012_ip = 113; continue _fun0012 }
-case 114:
-                var9 = var13.framerate;
-case 113:
-                if(!(var12 == var9)) { _fun0012_ip = 115; continue _fun0012 }
-case 94:
-                var9 = _closure1_slot12;
+                if(var14) { _fun0012_ip = 114; continue _fun0012 }
 case 115:
+                var9 = var13.framerate;
+case 114:
+                if(!(var12 == var9)) { _fun0012_ip = 116; continue _fun0012 }
+case 117:
+                var9 = _closure1_slot12;
+case 116:
                 var9 = var3.bind(var5)(var1, var9);
                 var3 = _closure1_slot13;
                 var1 = {};

@@ -1424,7 +1424,7 @@ case 86:
                 var11 = var3.bind(var4)();
                 var3 = 0;
                 if(!var11) { _fun0013_ip = 87; continue _fun0013 }
-case 35:
+case 88:
                 var3 = -2;
 case 87:
                 var5 = var5 + var3;
@@ -1438,8 +1438,8 @@ case 87:
                 var3 = var3 * var9;
                 var5 = var5 + var3;
                 var4 = 0;
-                if(!var2) { _fun0013_ip = 88; continue _fun0013 }
-case 89:
+                if(!var2) { _fun0013_ip = 89; continue _fun0013 }
+case 55:
                 var3 = _closure1_slot21;
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot3;
@@ -1448,7 +1448,7 @@ case 89:
                 var2 = var9.bind(var10)(var2);
                 var2 = var2.SMALL_BUTTON_HEIGHT;
                 var4 = var3 + var2;
-case 88:
+case 89:
                 var2 = _closure1_slot16;
                 var3 = _closure1_slot20;
                 var2 = var2 + var3;

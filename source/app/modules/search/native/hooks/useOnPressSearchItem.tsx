@@ -605,8 +605,6 @@ case 32:
                     var3['onEndReachedThreshold'] = var1;
                     var1 = 'Search';
                     var3['analyticsSource'] = var1;
-                    var1 = true;
-                    var3['disableRemix'] = var1;
                     var2 = _closure3_slot1;
                     var1 = undefined;
                     var2 = var4.bind(var1)(var3, var2);

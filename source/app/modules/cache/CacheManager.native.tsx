@@ -242,21 +242,21 @@ case 0:
                 var5 = var6.bind(var3)(var5);
                 var5 = var5.AppStates;
                 if(var2) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+case 3:
                 var2 = var5.INACTIVE;
-                _fun0004_ip = 13; continue _fun0004;
+                _fun0004_ip = 6; continue _fun0004;
 case 11:
                 var2 = var5.BACKGROUND;
-case 13:
+case 6:
                 var2 = var2 === var4;
-                if(!var2) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                if(!var2) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var5 = _closure1_slot8;
                 var4 = var5.isConnected;
                 var2 = var4.bind(var5)();
-case 14:
-                if(!var2) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+case 12:
+                if(!var2) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                 var2 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 10;
@@ -264,7 +264,7 @@ case 17:
                 var2 = var2.bind(var3)(var1);
                 var1 = var2.writeCaches;
                 var1 = var1.bind(var2)();
-case 16:
+case 14:
                 var1 = false;
                 return var1;
             }
@@ -279,8 +279,8 @@ case 16:
 case 0:
                 var1 = arg1;
                 var1 = var1.focused;
-                if(var1) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+                if(var1) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var1 = global;
                 var2 = var1.Date;
                 var1 = var2.now;
@@ -289,14 +289,14 @@ case 19:
                 var2 = var2.lastWriteTime;
                 var3 = var3 - var2;
                 var2 = _closure1_slot11;
-                if(!(!(var3 > var2))) { _fun0005_ip = 11; continue _fun0005 }
-case 20:
+                if(!(!(var3 > var2))) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                 var4 = _closure1_slot10;
                 var3 = var4.verbose;
                 var2 = 'Not writing cache from window unfocus';
                 var2 = var3.bind(var4)(var2);
-                _fun0005_ip = 18; continue _fun0005;
-case 11:
+                _fun0005_ip = 16; continue _fun0005;
+case 18:
                 var4 = _closure1_slot10;
                 var3 = var4.verbose;
                 var2 = 'Writing cache from window unfocus';
@@ -309,7 +309,7 @@ case 11:
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.writeCaches;
                 var1 = var1.bind(var2)();
-case 18:
+case 16:
                 var1 = false;
                 return var1;
             }

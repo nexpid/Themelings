@@ -515,7 +515,7 @@ case 14:
     var8 = {'dismissedAt': null, 'numberOfGamesLaunchedSinceDismissal': 0, 'numberOfTimesDismissed': 0};
     var2['clipsEducationState'] = var8;
     var _closure1_slot31 = var2;
-    var2 = 19;
+    var2 = 18;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.DeviceSettingsStore;
@@ -593,7 +593,7 @@ case 63:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(26);
+        var1 = new Array(25);
         var1[0] = var5;
         var5 = {};
         var7 = 'getClips';
@@ -831,22 +831,6 @@ case 68:
         var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'isDecoupledGameClippingEnabled';
-        var5['key'] = var7;
-        var7 = function value() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 18;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var1 = var2.isWindows;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[18] = var5;
-        var5 = {};
         var7 = 'hasClips';
         var5['key'] = var7;
         var7 = function value() {
@@ -855,7 +839,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'hasTakenDecoupledClip';
         var5['key'] = var7;
@@ -865,7 +849,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getNewClipIds';
         var5['key'] = var7;
@@ -875,7 +859,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'isClipExporting';
         var5['key'] = var7;
@@ -887,7 +871,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getExportingClipIds';
         var5['key'] = var7;
@@ -896,7 +880,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getMatchingGroupClip';
         var5['key'] = var7;
@@ -993,7 +977,7 @@ case 70:
             }
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'wasClipSharedInChannel';
         var5['key'] = var7;
@@ -1022,7 +1006,7 @@ case 49:
             }
         };
         var5['value'] = var6;
-        var1[25] = var5;
+        var1[24] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1184,7 +1168,7 @@ case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var4[var1];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
@@ -1420,7 +1404,7 @@ case 105:
     };
     var2[13] = var8;
     var9['migrations'] = var2;
-    var2 = 21;
+    var2 = 20;
     var2 = var6[var2];
     var17 = var7.bind(var1)(var2);
     var2 = {};
@@ -2235,7 +2219,7 @@ case 108:
     var2 = new var18[var9](var17, var16, var15);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot32 = var2;
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

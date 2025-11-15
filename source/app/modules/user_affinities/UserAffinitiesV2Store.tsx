@@ -131,6 +131,8 @@ case 4:
     var2 = {};
     var11 = new Array(0);
     var2['userAffinities'] = var11;
+    var11 = {};
+    var2['userFlags'] = var11;
     var2['lastFetched'] = var10;
     var8 = var8.bind(var9)(var2);
     var _closure1_slot9 = var8;
@@ -196,19 +198,26 @@ case 0:
                 var5 = var4.waitFor;
                 var3 = _closure1_slot5;
                 var3 = var5.bind(var4)(var3);
-                var3 = null;
-                if(!(var3 != var2)) { _fun0003_ip = 5; continue _fun0003 }
-case 9:
+                var6 = null;
+                if(!(var6 != var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var5 = _closure1_slot10;
                 var3 = var2.userAffinities;
                 var5['userAffinities'] = var3;
+                var5 = _closure1_slot10;
+                var3 = var2.userFlags;
+                if(!(var6 == var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                var3 = {};
+case 11:
+                var5['userFlags'] = var3;
                 var3 = _closure1_slot10;
                 var2 = var2.lastFetched;
                 var3['lastFetched'] = var2;
                 var3 = _closure1_slot12;
                 var2 = undefined;
                 var2 = var3.bind(var2)();
-case 5:
+case 9:
                 var3 = var4.syncWith;
                 var5 = _closure1_slot5;
                 var2 = new Array(1);
@@ -220,7 +229,7 @@ case 5:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(10);
         var1[0] = var5;
         var5 = {};
         var7 = 'shouldFetch';
@@ -230,7 +239,7 @@ case 5:
 case 0:
                 var2 = _closure1_slot8;
                 if(var2) { _fun0004_ip = 7; continue _fun0004 }
-case 10:
+case 13:
                 var2 = global;
                 var3 = var2.Date;
                 var2 = var3.now;
@@ -277,6 +286,16 @@ case 7:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
+        var7 = 'getUserFlags';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot10;
+            var1 = var1.userFlags;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
         var7 = 'compare';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
@@ -289,38 +308,38 @@ case 0:
                 var4 = null;
                 var2 = var4 == var1;
                 var6 = undefined;
-                if(var2) { _fun0005_ip = 11; continue _fun0005 }
-case 12:
+                if(var2) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var6 = var1.communicationProbability;
-case 11:
+case 14:
                 var7 = var4 != var6;
                 var1 = 0;
-                if(!var7) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                if(!var7) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var1 = var6;
-case 13:
+case 16:
                 var7 = _closure1_slot7;
                 var6 = var7.get;
                 var5 = arg1;
                 var5 = var6.bind(var7)(var5);
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                if(var6) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                 var3 = var5.communicationProbability;
-case 15:
+case 18:
                 var4 = var4 != var3;
                 var2 = 0;
-                if(!var4) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                if(!var4) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                 var2 = var3;
-case 17:
+case 20:
                 var1 = var1 - var2;
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getUserAffinity';
         var5['key'] = var7;
@@ -332,7 +351,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
@@ -341,7 +360,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'isHighlyAffinedVCUser';
         var5['key'] = var7;
@@ -355,23 +374,23 @@ case 0:
                 var2 = null;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0006_ip = 11; continue _fun0006 }
-case 12:
+                if(var4) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
                 var1 = var3.vcProbability;
-case 11:
+case 14:
                 var3 = var2 != var1;
                 var2 = 0;
-                if(!var3) { _fun0006_ip = 13; continue _fun0006 }
-case 14:
+                if(!var3) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var2 = var1;
-case 13:
+case 16:
                 var1 = 0.5;
                 var1 = var2 > var1;
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[8] = var5;
+        var1[9] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -393,17 +412,20 @@ case 13:
     var2['LOAD_USER_AFFINITIES_V2'] = var9;
     var9 = function handleLoadUserAffinitiesSuccess(arg1) {
         var1 = arg1;
-        var3 = var1.affineUsers;
-        var4 = _closure1_slot10;
+        var4 = var1.affineUsers;
+        var3 = var1.userFlags;
+        var5 = _closure1_slot10;
         var2 = global;
-        var5 = var2.Date;
-        var2 = var5.now;
-        var2 = var2.bind(var5)();
-        var4['lastFetched'] = var2;
+        var6 = var2.Date;
+        var2 = var6.now;
+        var2 = var2.bind(var6)();
+        var5['lastFetched'] = var2;
         var2 = false;
         _closure1_slot8 = var2;
         var2 = _closure1_slot10;
-        var2['userAffinities'] = var3;
+        var2['userAffinities'] = var4;
+        var2 = _closure1_slot10;
+        var2['userFlags'] = var3;
         var2 = _closure1_slot12;
         var1 = undefined;
         var2 = var2.bind(var1)();

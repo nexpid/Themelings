@@ -129,8 +129,6 @@ case 12:
                 var3 = var5;
 case 11:
                 var1['includedUploadIds'] = var3;
-                var3 = false;
-                var1['showRemixButton'] = var3;
                 var3 = _closure2_slot1;
                 var1['canPostPolls'] = var3;
                 var3 = _closure2_slot2;

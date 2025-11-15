@@ -2008,7 +2008,7 @@ case 178:
             var3 = typeof var3;
             var1 = null;
             if(!(var4 === var3)) { _fun0017_ip = 205; continue _fun0017 }
-case 207:
+case 166:
             var1 = var2;
 case 205: // try_end0
             return var1;

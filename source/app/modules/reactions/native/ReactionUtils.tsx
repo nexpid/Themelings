@@ -347,40 +347,40 @@ case 30:
             var5 = _closure1_slot8;
             var16 = var5.DM_CHANNEL;
 case 31:
-            if(!(var3 != var6)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(!(var3 != var6)) { _fun0004_ip = 4; continue _fun0004 }
+case 32:
             var5 = var6.isForumLikeChannel;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 34; continue _fun0004 }
-case 32:
-            if(!(var3 != var6)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+            if(var5) { _fun0004_ip = 33; continue _fun0004 }
+case 4:
+            if(!(var3 != var6)) { _fun0004_ip = 14; continue _fun0004 }
+case 34:
             var5 = var6.isForumPost;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(var5) { _fun0004_ip = 33; continue _fun0004 }
+case 14:
             var5 = _closure1_slot9;
             var15 = var5.CHANNEL;
-            _fun0004_ip = 37; continue _fun0004;
-case 34:
+            _fun0004_ip = 35; continue _fun0004;
+case 33:
             var5 = _closure1_slot9;
             var15 = var5.FORUM_CHANNEL_POST;
+case 35:
+            if(!(var3 == var13)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            if(!(var3 == var13)) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
             var6 = _closure1_slot4;
             var5 = var6.getMessage;
             var6 = var5.bind(var6)(var8, var9);
             var3 = var3 == var6;
             var5 = undefined;
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(var3) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var3 = var6.isPoll;
             var5 = var3.bind(var6)();
-case 40:
+case 38:
             var3 = true;
             var13 = var3 === var5;
-case 38:
+case 36:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var5 = 18;

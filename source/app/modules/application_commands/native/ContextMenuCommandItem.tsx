@@ -117,28 +117,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.item;
-            var _closure2_slot0 = var9;
-            var10 = var2.onPress;
-            var13 = var2.section;
-            var _closure2_slot1 = var13;
+            var10 = var2.item;
+            var _closure2_slot0 = var10;
+            var11 = var2.onPress;
+            var14 = var2.section;
+            var _closure2_slot1 = var14;
             var6 = var2.start;
             var5 = var2.end;
+            var7 = var2.newUI;
             var2 = _closure1_slot6;
             var4 = undefined;
-            var14 = var2.bind(var4)();
-            var11 = _closure1_slot3;
-            var3 = var11.useMemo;
+            var15 = var2.bind(var4)();
+            var12 = _closure1_slot3;
+            var3 = var12.useMemo;
             var2 = new Array(2);
-            var2[0] = var9;
-            var8 = null;
-            var15 = var8 == var13;
-            var12 = undefined;
-            if(var15) { _fun0001_ip = 2; continue _fun0001 }
+            var2[0] = var10;
+            var9 = null;
+            var16 = var9 == var14;
+            var13 = undefined;
+            if(var16) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var12 = var13.name;
+            var13 = var14.name;
 case 2:
-            var2[1] = var12;
+            var2[1] = var13;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -146,7 +147,7 @@ case 0:
                     var3 = var1.type;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var7 = 10;
+                    var7 = 12;
                     var2 = var2[var7];
                     var6 = undefined;
                     var2 = var4.bind(var6)(var2);
@@ -193,45 +194,58 @@ case 7:
                     return var1;
                 }
             };
-            var11 = var3.bind(var11)(var1, var2);
+            var12 = var3.bind(var12)(var1, var2);
             var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 11;
-            var1 = var12[var1];
+            var13 = _closure1_slot2;
+            var1 = 10;
+            var1 = var13[var1];
             var3 = var2.bind(var4)(var1);
             var1 = var3.getApplicationCommandsIconSource;
-            var13 = var1.bind(var3)(var13);
+            var14 = var1.bind(var3)(var14);
             var3 = _closure1_slot5;
             var1 = 8;
-            var1 = var12[var1];
+            var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
-            var1['accessibilityLabel'] = var11;
-            var1['onPress'] = var10;
-            var9 = var9.displayName;
-            var1['label'] = var9;
-            var8 = var8 != var13;
-            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
+            var1['accessibilityLabel'] = var12;
+            var1['onPress'] = var11;
+            var10 = var10.displayName;
+            var1['label'] = var10;
+            var9 = var9 != var14;
+            if(!var9) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var12 = _closure1_slot5;
-            var11 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var9 = 12;
-            var9 = var15[var9];
-            var11 = var11.bind(var4)(var9);
-            var9 = {};
-            var14 = var14.commandIcon;
-            var9['style'] = var14;
-            var9['source'] = var13;
-            var8 = var12.bind(var4)(var11, var9);
+            var13 = _closure1_slot5;
+            var12 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var10 = 11;
+            var10 = var16[var10];
+            var12 = var12.bind(var4)(var10);
+            var10 = {};
+            var15 = var15.commandIcon;
+            var10['style'] = var15;
+            var10['source'] = var14;
+            var9 = var13.bind(var4)(var12, var10);
 case 9:
-            var1['icon'] = var8;
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot7;
+            var1['icon'] = var9;
+            var10 = _closure1_slot5;
+            if(var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var9 = _closure1_slot7;
             var7 = {};
-            var7['onPress'] = var10;
-            var7 = var9.bind(var4)(var8, var7);
+            var7['onPress'] = var11;
+            var7 = var10.bind(var4)(var9, var7);
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var8 = 7;
+            var8 = var11[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.SendMessageIcon;
+            var8 = {};
+            var7 = var10.bind(var4)(var9, var8);
+case 13:
             var1['trailing'] = var7;
             var1['start'] = var6;
             var1['end'] = var5;
@@ -297,7 +311,7 @@ case 9:
         return var1;
     };
     var3['ContextMenuCommandLoadingItem'] = var4;
-    var2 = function ContextMenuCommandEmptyItem(arg1) {
+    var4 = function ContextMenuCommandEmptyItem(arg1) {
         var1 = arg1;
         var6 = var1.start;
         var5 = var1.end;
@@ -339,6 +353,59 @@ case 9:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['ContextMenuCommandEmptyItem'] = var2;
+    var3['ContextMenuCommandEmptyItem'] = var4;
+    var2 = function ContextMenuCommandAppItem(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.section;
+            var9 = var1.onPress;
+            var6 = var1.start;
+            var5 = var1.end;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var12 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 10;
+            var1 = var10[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.getApplicationCommandsIconSource;
+            var11 = var1.bind(var3)(var7);
+            var3 = _closure1_slot5;
+            var1 = 8;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.TableRow;
+            var1 = {};
+            var1['onPress'] = var9;
+            var7 = var7.name;
+            var1['label'] = var7;
+            var7 = null;
+            var7 = var7 != var11;
+            if(!var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var10 = _closure1_slot5;
+            var9 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var8 = 11;
+            var8 = var13[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var12 = var12.commandIcon;
+            var8['style'] = var12;
+            var8['source'] = var11;
+            var7 = var10.bind(var4)(var9, var8);
+case 14:
+            var1['icon'] = var7;
+            var1['start'] = var6;
+            var1['end'] = var5;
+            var5 = true;
+            var1['arrow'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['ContextMenuCommandAppItem'] = var2;
     return var1;
 })();

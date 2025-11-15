@@ -222,7 +222,7 @@ case 9:
 case 8:
             var2['borderRadius'] = var3;
             var1['promotionalAvatarSecondary'] = var2;
-            var2 = {'position': 'absolute', 'top': 4294967276, 'right': 5, 'height': 150, 'width': 175, 'zIndex': 2};
+            var2 = {'position': 'absolute', 'top': 4294967276, 'right': 10, 'height': 95, 'width': 95, 'zIndex': 2};
             var1['rotatingAvatars'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
             var1['promotionalCardImage'] = var2;

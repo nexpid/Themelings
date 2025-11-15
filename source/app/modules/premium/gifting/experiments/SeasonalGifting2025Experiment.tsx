@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7[var2];
     var8 = var6.bind(var1)(var2);
     var5 = var8.createExperiment;
-    var2 = {'id': '2024-11_seasonal_gifting_reminder', 'label': 'Seasonal Gifting Reminder 2024', 'kind': 'user'};
+    var2 = {'id': '2025-11_seasonal_gifting_2025_reminder', 'label': 'Seasonal Gifting 2025 Reminder', 'kind': 'user'};
     var10 = {};
     var10['enabled'] = var12;
     var2['defaultConfig'] = var10;

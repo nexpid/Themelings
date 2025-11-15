@@ -3873,14 +3873,6 @@ case 199:
                         return var1;
                     };
                     var1['handleTapTag'] = var3;
-                    var3 = function handleTapRemix(arg1) {
-                        var3 = _closure2_slot126;
-                        var2 = var3.handleTapRemix;
-                        var1 = arg1;
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-                    var1['handleTapRemix'] = var3;
                     var3 = function handleMediaAttachmentPlaybackStarted(arg1) {
                         var3 = _closure2_slot126;
                         var2 = var3.handleMediaAttachmentPlaybackStarted;
@@ -8303,8 +8295,6 @@ case 376:
             var5['onTapOpTag'] = var19;
             var19 = var17.handleTapTag;
             var5['onTapTag'] = var19;
-            var19 = var17.handleTapRemix;
-            var5['onTapRemix'] = var19;
             var19 = var17.handleMediaAttachmentPlaybackEnded;
             var5['onMediaAttachmentPlaybackEnded'] = var19;
             var19 = var17.handleMediaAttachmentPlaybackStarted;

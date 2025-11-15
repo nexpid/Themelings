@@ -77,6 +77,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['COMBINED_VC'] = var4;
     var2 = 'COMBINED_VC';
     var5[var4] = var2;
+    var4 = 16;
+    var5['USER_RETURNED'] = var4;
+    var2 = 'USER_RETURNED';
+    var5[var4] = var2;
     var4 = {};
     var2 = 'VOICE_CARD';
     var4['VOICE_CARD'] = var2;
@@ -106,6 +110,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_ACTION_STUDENT_HUB_ADD_SERVER'] = var2;
     var2 = 'EMBEDDED_ACTIVITY_CARD';
     var4['EMBEDDED_ACTIVITY_CARD'] = var2;
+    var2 = 'USER_RETURNED_CARD';
+    var4['USER_RETURNED_CARD'] = var2;
     var2 = {};
     var11 = var11 - var7;
     var2['padding'] = var11;
@@ -154,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 96;
     var3['HAPPENING_NOW_CARD_WIDTH_XSMALL_WITH_MARGIN'] = var6;
     var3['HappeningNowItem'] = var5;
-    var5 = {'placeholder': 4294967295, 'live-guild-stage': 0, 'guild-event': 1, 'active-channel': 2, 'user': 3, 'voice': 5, 'activity': 6, 'invite': 7, 'create-channel': 8, 'customize-guild': 9, 'student-hub-add-channel': 10, 'embedded-activity': 11, 'unified-vc': 12};
+    var5 = {'placeholder': 4294967295, 'live-guild-stage': 0, 'guild-event': 1, 'active-channel': 2, 'user': 3, 'voice': 5, 'activity': 6, 'invite': 7, 'create-channel': 8, 'customize-guild': 9, 'student-hub-add-channel': 10, 'embedded-activity': 11, 'unified-vc': 12, 'user-returned': 13};
     var3['HappeningNowKindIds'] = var5;
     var3['HappeningNowCardTrackingType'] = var4;
     var3['STATUS_CUTOUT_SMALL'] = var2;

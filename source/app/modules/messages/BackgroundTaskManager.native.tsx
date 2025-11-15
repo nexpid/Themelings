@@ -112,7 +112,7 @@ case 0:
                 var2 = var3.isAndroid;
                 var2 = var2.bind(var3)();
                 if(var2) { _fun0003_ip = 13; continue _fun0003 }
-case 5:
+case 14:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDBackgroundTaskManager;
                 var2 = var3.startBackgroundTask;
@@ -120,8 +120,8 @@ case 5:
                 return var2;
 case 13:
                 var2 = null;
-                if(!(var2 != var1)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                if(!(var2 != var1)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var8 = var1.title;
                 var5 = var1.content;
                 var2 = _closure1_slot1;
@@ -149,7 +149,7 @@ case 15:
                 var1['usesGateway'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
-case 14:
+case 15:
                 var1 = global;
                 var3 = var1.Promise;
                 var1 = var3.prototype;
@@ -173,8 +173,8 @@ case 14:
 case 0:
                 var3 = arg1;
                 var2 = _closure1_slot5;
-                if(!(var3 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 2;
@@ -183,14 +183,14 @@ case 17:
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.isAndroid;
                 var2 = var2.bind(var5)();
-                if(var2) { _fun0004_ip = 18; continue _fun0004 }
-case 8:
+                if(var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                 var2 = _closure1_slot4;
                 var5 = var2.DCDBackgroundTaskManager;
                 var2 = var5.endBackgroundTask;
                 var2 = var2.bind(var5)(var3);
-                _fun0004_ip = 16; continue _fun0004;
-case 18:
+                _fun0004_ip = 17; continue _fun0004;
+case 19:
                 var2 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var1 = 3;
@@ -198,7 +198,7 @@ case 18:
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.removeServiceHandler;
                 var1 = var1.bind(var2)(var3);
-case 16:
+case 17:
                 var1 = undefined;
                 return var1;
             }

@@ -386,12 +386,12 @@ case 23:
                                 var5 = 0;
                                 var2 = var3 > var5;
 case 22:
-                                if(!var2) { _fun0008_ip = 24; continue _fun0008 }
+                                if(!var2) { _fun0008_ip = 13; continue _fun0008 }
 case 18:
                                 var2 = _closure4_slot1;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)(var4, var3);
-case 24:
+case 13:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -410,17 +410,17 @@ case 0:
                                 var5 = var1.totalDurationSeconds;
                                 var2 = _closure4_slot0;
                                 var2 = var4 === var2;
-                                if(!var2) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
+                                if(!var2) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
                                 var4 = 0;
                                 var2 = var5 > var4;
-case 25:
-                                if(!var2) { _fun0009_ip = 13; continue _fun0009 }
+case 24:
+                                if(!var2) { _fun0009_ip = 26; continue _fun0009 }
 case 27:
                                 var5 = _closure4_slot3;
                                 var4 = null;
                                 var2 = var4 != var5;
-case 13:
+case 26:
                                 if(!var2) { _fun0009_ip = 28; continue _fun0009 }
 case 29:
                                 var2 = _closure4_slot3;

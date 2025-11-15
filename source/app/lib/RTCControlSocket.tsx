@@ -1646,8 +1646,8 @@ case 13:
 case 147:
                 var3['serverVersion'] = var2;
                 var2 = var3.serverVersion;
-                if(!(!(var2 <= var4))) { _fun0014_ip = 141; continue _fun0014 }
-case 148:
+                if(!(!(var2 <= var4))) { _fun0014_ip = 148; continue _fun0014 }
+case 149:
                 var4 = var1.heartbeat_interval;
                 var2 = var3.heartbeatIntervalModifier;
                 var2 = var4 * var2;
@@ -1659,21 +1659,21 @@ case 148:
                 var4 = undefined;
                 var4 = var7.bind(var4)(var5);
                 var4 = var4.isPlatformEmbedded;
-                if(var4) { _fun0014_ip = 149; continue _fun0014 }
-case 150:
+                if(var4) { _fun0014_ip = 150; continue _fun0014 }
+case 151:
                 var8 = global;
                 var7 = var8.Math;
                 var5 = var7.min;
                 var4 = _closure1_slot17;
                 var2 = var3.heartbeatInterval;
-                if(!(var6 == var2)) { _fun0014_ip = 151; continue _fun0014 }
-case 152:
+                if(!(var6 == var2)) { _fun0014_ip = 152; continue _fun0014 }
+case 153:
                 var2 = var8.NaN;
-case 151:
+case 152:
                 var2 = var5.bind(var7)(var4, var2);
                 var3['heartbeatInterval'] = var2;
-                _fun0014_ip = 149; continue _fun0014;
-case 141:
+                _fun0014_ip = 150; continue _fun0014;
+case 148:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 11;
@@ -1682,14 +1682,14 @@ case 141:
                 var2 = var5.bind(var2)(var4);
                 var4 = var2.isPlatformEmbedded;
                 var2 = 0.1;
-                if(!var4) { _fun0014_ip = 153; continue _fun0014 }
+                if(!var4) { _fun0014_ip = 126; continue _fun0014 }
 case 154:
                 var2 = 0.25;
-case 153:
+case 126:
                 var1 = var1.heartbeat_interval;
                 var1 = var1 * var2;
                 var3['heartbeatInterval'] = var1;
-case 149:
+case 150:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 10;
@@ -2721,30 +2721,30 @@ case 201:
                 var8 = '';
                 var1 = var8 !== var10;
 case 200:
-                if(!var1) { _fun0030_ip = 152; continue _fun0030 }
-case 202:
+                if(!var1) { _fun0030_ip = 202; continue _fun0030 }
+case 203:
                 var8 = global;
                 var11 = var8.Boolean;
                 var10 = var3.port;
                 var8 = undefined;
                 var1 = var11.bind(var8)(var10);
-case 152:
-                if(!var1) { _fun0030_ip = 203; continue _fun0030 }
+case 202:
+                if(!var1) { _fun0030_ip = 204; continue _fun0030 }
 case 177:
                 var8 = var3.mode;
                 var1 = var9 != var8;
-case 203:
-                if(!var1) { _fun0030_ip = 204; continue _fun0030 }
-case 205:
+case 204:
+                if(!var1) { _fun0030_ip = 205; continue _fun0030 }
+case 206:
                 var9 = var3.mode;
                 var8 = '';
                 var1 = var8 !== var9;
-case 204:
+case 205:
                 var10 = undefined;
                 var6 = undefined;
                 var5 = var2;
                 if(!var1) { _fun0030_ip = 196; continue _fun0030 }
-case 206:
+case 207:
                 var2 = {};
                 var1 = var3.address;
                 var2['address'] = var1;
@@ -2849,7 +2849,7 @@ case 13:
                 var9 = 3;
                 var8 = var10;
                 if(!(var11 <= var9)) { _fun0031_ip = 4; continue _fun0031 }
-case 207:
+case 208:
                 var9 = global;
                 var9 = var9.Boolean;
                 var8 = var9.bind(var1)(var10);

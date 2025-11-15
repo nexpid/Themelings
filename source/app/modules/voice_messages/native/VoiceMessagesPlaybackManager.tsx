@@ -308,7 +308,7 @@ case 18:
 case 21:
                         var2 = _closure1_slot17;
                         if(!(var4 != var2)) { _fun0007_ip = 20; continue _fun0007 }
-case 22:
+case 9:
                         var2 = _closure1_slot17;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
@@ -350,13 +350,13 @@ case 0:
                         var3 = _closure1_slot10;
                         var4 = var3.DCDBackgroundPlaybackBridge;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+                        if(!(var3 != var4)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                         var3 = var4.setBackgroundPlaybackEnabled;
                         var2 = _closure3_slot0;
                         var2 = var2.isBackgroundPlaybackEnabled;
                         var2 = var3.bind(var4)(var2);
-case 23:
+case 22:
                         return var1;
                     }
                 };
@@ -384,33 +384,33 @@ case 0:
                         var1 = var1.state;
                         var3 = _closure3_slot0;
                         var3 = var3.isBackgroundPlaybackEnabled;
-                        if(var3) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
+                        if(var3) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
                         var2 = _closure3_slot0;
                         var3 = var2.appState;
                         var2['appState'] = var1;
                         var2 = 'active';
-                        if(!(var2 === var1)) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
-                        if(!(var2 === var3)) { _fun0009_ip = 29; continue _fun0009 }
+                        if(!(var2 === var1)) { _fun0009_ip = 26; continue _fun0009 }
 case 27:
+                        if(!(var2 === var3)) { _fun0009_ip = 28; continue _fun0009 }
+case 26:
                         var1 = var2 !== var1;
-                        if(!var1) { _fun0009_ip = 30; continue _fun0009 }
-case 31:
-                        var1 = var2 === var3;
+                        if(!var1) { _fun0009_ip = 29; continue _fun0009 }
 case 30:
-                        if(!var1) { _fun0009_ip = 25; continue _fun0009 }
-case 32:
+                        var1 = var2 === var3;
+case 29:
+                        if(!var1) { _fun0009_ip = 24; continue _fun0009 }
+case 10:
                         var3 = _closure1_slot15;
                         var2 = undefined;
                         var1 = true;
                         var1 = var3.bind(var2)(var1);
-                        _fun0009_ip = 25; continue _fun0009;
-case 29:
+                        _fun0009_ip = 24; continue _fun0009;
+case 28:
                         var2 = _closure1_slot16;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
-case 25:
+case 24:
                         var1 = undefined;
                         return var1;
                     }

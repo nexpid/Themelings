@@ -1164,7 +1164,7 @@ case 0:
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
-                    if(!var3) { _fun0012_ip = 63; continue _fun0012 }
+                    if(!var3) { _fun0012_ip = 6; continue _fun0012 }
 case 68:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -1173,9 +1173,9 @@ case 68:
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.getIsScreenReaderEnabled;
                     var3 = var4.bind(var5)();
-case 63:
+case 6:
                     if(!var3) { _fun0012_ip = 69; continue _fun0012 }
-case 18:
+case 70:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -1211,19 +1211,19 @@ case 69:
             var6['ref'] = var12;
             var6['onPress'] = var9;
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 70; continue _fun0001 }
-case 71:
-            var9 = undefined;
-            if(!var1) { _fun0001_ip = 70; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 71; continue _fun0001 }
 case 72:
+            var9 = undefined;
+            if(!var1) { _fun0001_ip = 71; continue _fun0001 }
+case 73:
             var9 = var10;
-case 70:
+case 71:
             var6['onLongPress'] = var9;
             var6['accessibilityActions'] = var4;
             var6['onAccessibilityAction'] = var3;
             var4 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 73; continue _fun0001 }
-case 74:
+            if(var1) { _fun0001_ip = 74; continue _fun0001 }
+case 75:
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 12;
@@ -1235,14 +1235,14 @@ case 74:
             var8 = var7.bind(var5)(var6);
             var1['children'] = var8;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 75; continue _fun0001;
-case 73:
+            _fun0001_ip = 76; continue _fun0001;
+case 74:
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var7.bind(var5)(var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 75:
+case 76:
             return var1;
         }
     };

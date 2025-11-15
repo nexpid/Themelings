@@ -3336,29 +3336,29 @@ case 0:
                         var3 = var1.bind(var3)();
                         var4 = _closure1_slot15;
                         var4 = var4.PIP;
-                        if(!(var4 !== var3)) { _fun0023_ip = 159; continue _fun0023 }
+                        if(!(var4 !== var3)) { _fun0023_ip = 122; continue _fun0023 }
 case 61:
                         var1 = _closure1_slot15;
                         var1 = var1.DISMISSED;
-                        if(!(var1 !== var3)) { _fun0023_ip = 159; continue _fun0023 }
+                        if(!(var1 !== var3)) { _fun0023_ip = 122; continue _fun0023 }
 case 155:
                         var3 = _closure3_slot6;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
-                        if(!var1) { _fun0023_ip = 160; continue _fun0023 }
-case 161:
+                        if(!var1) { _fun0023_ip = 159; continue _fun0023 }
+case 160:
                         var3 = _closure3_slot28;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
                         var1 = var1.active;
-                        if(!var1) { _fun0023_ip = 160; continue _fun0023 }
-case 162:
+                        if(!var1) { _fun0023_ip = 159; continue _fun0023 }
+case 161:
                         var3 = _closure3_slot28;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
                         var1 = var1.requiresPop;
-                        if(var1) { _fun0023_ip = 76; continue _fun0023 }
-case 160:
+                        if(var1) { _fun0023_ip = 162; continue _fun0023 }
+case 159:
                         var3 = _closure3_slot18;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
@@ -3392,10 +3392,10 @@ case 163:
                         var1 = 1;
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
-case 76:
+case 162:
                         var1 = 1;
                         return var1;
-case 159:
+case 122:
                         var1 = 0;
                         return var1;
                     }

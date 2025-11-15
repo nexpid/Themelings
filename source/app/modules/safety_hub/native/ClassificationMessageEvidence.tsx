@@ -460,7 +460,7 @@ case 27:
                 var2 = function(arg1) {
                     var1 = arg1;
                     var3 = var1.openMediaModal;
-                    var2 = {'initialIndex': null, 'initialSources': null, 'disableDownload': true, 'disableRemix': true, 'disableMediaOverlayButton': true, 'shareable': false};
+                    var2 = {'initialIndex': null, 'initialSources': null, 'disableDownload': true, 'disableMediaOverlayButton': true, 'shareable': false};
                     var1 = _closure3_slot0;
                     var2['initialIndex'] = var1;
                     var1 = _closure3_slot5;

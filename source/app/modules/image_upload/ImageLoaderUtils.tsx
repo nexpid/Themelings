@@ -760,13 +760,13 @@ case 85:
             var10 = var2.bind(var9)(var15, var16);
 case 84:
             var9 = var8;
-            if(!(var1 != var14)) { _fun0013_ip = 31; continue _fun0013 }
-case 86:
+            if(!(var1 != var14)) { _fun0013_ip = 86; continue _fun0013 }
+case 87:
             var1 = global;
             var2 = var1.Math;
             var1 = var2.min;
             var9 = var1.bind(var2)(var8, var14);
-case 31:
+case 86:
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
             var2 = 10;

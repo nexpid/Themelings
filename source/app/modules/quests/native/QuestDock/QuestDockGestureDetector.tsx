@@ -825,50 +825,50 @@ case 71:
                     if(!(var8 === var3)) { _fun0003_ip = 72; continue _fun0003 }
 case 70:
                     var3 = 0;
-                    if(!(var5 < var3)) { _fun0003_ip = 47; continue _fun0003 }
-case 73:
-                    var3 = _closure1_slot12;
-                    if(!(var4 > var3)) { _fun0003_ip = 47; continue _fun0003 }
+                    if(!(var5 < var3)) { _fun0003_ip = 73; continue _fun0003 }
 case 74:
+                    var3 = _closure1_slot12;
+                    if(!(var4 > var3)) { _fun0003_ip = 73; continue _fun0003 }
+case 75:
                     var4 = _closure2_slot5;
                     var3 = var4.get;
                     var4 = var3.bind(var4)();
                     var3 = _closure1_slot4;
                     var3 = var3.CLOSED;
                     if(!(var4 !== var3)) { _fun0003_ip = 72; continue _fun0003 }
-case 47:
+case 73:
                     var4 = _closure2_slot5;
                     var3 = var4.get;
                     var4 = var3.bind(var4)();
                     var3 = _closure1_slot4;
                     var3 = var3.COLLAPSED;
-                    if(!(var4 !== var3)) { _fun0003_ip = 75; continue _fun0003 }
-case 76:
+                    if(!(var4 !== var3)) { _fun0003_ip = 76; continue _fun0003 }
+case 77:
                     var3 = _closure2_slot5;
                     var2 = var3.get;
                     var3 = var2.bind(var3)();
                     var2 = _closure1_slot4;
                     var2 = var2.CLOSED;
-                    if(!(var3 !== var2)) { _fun0003_ip = 75; continue _fun0003 }
-case 77:
+                    if(!(var3 !== var2)) { _fun0003_ip = 76; continue _fun0003 }
+case 78:
                     var2 = _closure1_slot4;
                     var3 = var2.COLLAPSED;
                     _fun0003_ip = 15; continue _fun0003;
-case 75:
+case 76:
                     var2 = _closure1_slot4;
                     var3 = var2.RESET_TO_PREVIOUS;
 case 15:
-                    _fun0003_ip = 78; continue _fun0003;
+                    _fun0003_ip = 79; continue _fun0003;
 case 72:
                     var2 = _closure1_slot4;
                     var3 = var2.COLLAPSED;
-case 78:
-                    _fun0003_ip = 79; continue _fun0003;
+case 79:
+                    _fun0003_ip = 80; continue _fun0003;
 case 17:
                     var2 = _closure1_slot4;
                     var3 = var2.SOFT_DISMISSED;
-case 79:
-                    _fun0003_ip = 80; continue _fun0003;
+case 80:
+                    _fun0003_ip = 81; continue _fun0003;
 case 64:
                     var4 = _closure2_slot5;
                     var2 = var4.get;
@@ -876,43 +876,43 @@ case 64:
                     var2 = _closure1_slot4;
                     var2 = var2.EXPANDED;
                     if(!(var4 !== var2)) { _fun0003_ip = 23; continue _fun0003 }
-case 81:
+case 82:
                     var2 = _closure1_slot4;
                     var2 = var2.EXPANDED;
-                    _fun0003_ip = 82; continue _fun0003;
+                    _fun0003_ip = 83; continue _fun0003;
 case 23:
                     var4 = _closure1_slot4;
                     var2 = var4.RESET_TO_PREVIOUS;
-case 82:
+case 83:
                     var3 = var2;
-case 80:
+case 81:
                     var5 = _closure2_slot5;
                     var4 = var5.get;
                     var5 = var4.bind(var5)();
                     var4 = _closure1_slot4;
                     var4 = var4.CLOSED;
                     var4 = var5 === var4;
-                    if(!var4) { _fun0003_ip = 83; continue _fun0003 }
-case 84:
+                    if(!var4) { _fun0003_ip = 84; continue _fun0003 }
+case 85:
                     var5 = _closure1_slot4;
                     var5 = var5.EXPANDED;
                     var4 = var3 !== var5;
-case 83:
-                    if(!var4) { _fun0003_ip = 85; continue _fun0003 }
-case 86:
+case 84:
+                    if(!var4) { _fun0003_ip = 86; continue _fun0003 }
+case 87:
                     var5 = 0;
                     var4 = var7 < var5;
-case 85:
-                    if(!var4) { _fun0003_ip = 87; continue _fun0003 }
-case 88:
+case 86:
+                    if(!var4) { _fun0003_ip = 88; continue _fun0003 }
+case 89:
                     var5 = _closure1_slot11;
                     var4 = var6 > var5;
-case 87:
-                    if(!var4) { _fun0003_ip = 89; continue _fun0003 }
-case 90:
+case 88:
+                    if(!var4) { _fun0003_ip = 90; continue _fun0003 }
+case 52:
                     var4 = _closure1_slot4;
                     var3 = var4.COLLAPSED;
-case 89:
+case 90:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 8;

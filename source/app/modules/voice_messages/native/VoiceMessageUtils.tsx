@@ -606,10 +606,10 @@ case 0:
             if(var2) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
             var2 = var5.IMPACT_MEDIUM;
-            _fun0008_ip = 40; continue _fun0008;
+            _fun0008_ip = 25; continue _fun0008;
 case 38:
             var2 = var5.IMPACT_LIGHT;
-case 40:
+case 25:
             var2 = var3.bind(var4)(var2);
             return var1;
         }

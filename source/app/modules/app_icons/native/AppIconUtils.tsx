@@ -384,28 +384,28 @@ case 29:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+                            if(var2) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                             var2 = undefined;
                             var _closure5_slot0 = var2;
-case 32: // try_start_0
+case 31: // try_start_0
                             var5 = _closure1_slot13;
                             var3 = null;
                             var5 = var3 == var5;
                             var3 = undefined;
-                            if(var5) { _fun0004_ip = 33; continue _fun0004 }
+                            if(var5) { _fun0004_ip = 32; continue _fun0004 }
 case 17:
                             var7 = _closure1_slot13;
                             var5 = var7.getAvailableIcons;
                             var3 = var5.bind(var7)();
-case 33:
+case 32:
                             SaveGenerator(address=56);
 case 16:
                             return var3;
 case 18:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(var5) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                            if(var5) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                             var7 = var3.map;
                             var5 = function(arg1) {
                                 var1 = arg1;
@@ -450,11 +450,11 @@ case 35:
                             var15 = var4;
                             var6 = arraySpread(var15, var14, var13);
                             var4 = var5.bind(var2)(var4);
-case 36: // try_end0
-                            _fun0004_ip = 37; continue _fun0004;
-case 34:
+case 35: // try_end0
+                            _fun0004_ip = 36; continue _fun0004;
+case 33:
                             return var3;
-case 38: // catch_target0
+case 37: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var5 = _closure1_slot1;
                             var12 = _closure1_slot2;
@@ -486,9 +486,9 @@ case 38: // catch_target0
                             var3 = 'Error fetching available app icons: ';
                             var3 = var6.bind(var3)(var7);
                             var3 = var4.bind(var5)(var3);
-case 37:
+case 36:
                             return var2;
-case 30:
+case 29:
                             return var1;
                         }
                     };

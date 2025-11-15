@@ -107,19 +107,11 @@ case 4:
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var4 = _closure2_slot0;
+                var3 = _closure2_slot0;
                 var2 = _closure1_slot6;
-                var2 = var2.FETCHING;
-                var2 = var4 !== var2;
-                if(!var2) { _fun0002_ip = 5; continue _fun0002 }
+                var2 = var2.INIT;
+                if(!(var3 === var2)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                var4 = _closure2_slot0;
-                var3 = _closure1_slot6;
-                var3 = var3.SUCCESS;
-                var2 = var4 !== var3;
-case 5:
-                if(!var2) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -128,7 +120,7 @@ case 8:
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.fetchCheckpointData;
                 var1 = var1.bind(var2)();
-case 7:
+case 5:
                 var1 = undefined;
                 return var1;
             }

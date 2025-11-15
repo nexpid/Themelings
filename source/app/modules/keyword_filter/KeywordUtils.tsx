@@ -123,7 +123,7 @@ case 8: // try_start_0
             var10 = var6.bind(var7)();
             var6 = '';
             if(!(var6 !== var8)) { _fun0003_ip = 9; continue _fun0003 }
-case 4:
+case 10:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 2;
@@ -136,28 +136,28 @@ case 4:
             var6 = null;
             var7 = var6 == var10;
             var8 = undefined;
-            if(var7) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var7) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var7 = var10.search;
             var8 = var7.bind(var10)(var9);
-case 10:
-            if(!(var6 == var8)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+case 11:
+            if(!(var6 == var8)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var8 = {};
-case 12:
+case 13:
             var6 = global;
             var7 = var6.Object;
             var6 = var7.values;
             var6 = var6.bind(var7)(var8);
-            _fun0003_ip = 14; continue _fun0003;
+            _fun0003_ip = 15; continue _fun0003;
 case 9:
             var6 = new Array(0);
-case 14:
+case 15:
             var5 = var6;
             var7 = var6.length;
             var6 = 0;
-            if(!(var6 !== var7)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!(var6 !== var7)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var7 = var5;
             var6 = var7.forEach;
             var5 = function(arg1) {
@@ -177,29 +177,29 @@ case 0:
                     var8 = null;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                    if(var9) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var9 = _closure2_slot0;
                     var6 = var9.messageId;
-case 17:
+case 18:
                     var2['message_id'] = var6;
                     var6 = _closure2_slot0;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(var9) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var9 = _closure2_slot0;
                     var6 = var9.channelId;
-case 19:
+case 20:
                     var2['channel_id'] = var6;
                     var6 = _closure2_slot0;
                     var8 = var8 == var6;
                     var6 = undefined;
-                    if(var8) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                    if(var8) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var7 = _closure2_slot0;
                     var6 = var7.authorId;
-case 21:
+case 22:
                     var2['author_id'] = var6;
                     var6 = arg1;
                     var6 = var6.keyword;
@@ -232,11 +232,11 @@ case 0:
                     var2 = null;
                     var7 = var2 == var3;
                     var2 = undefined;
-                    if(var7) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                    if(var7) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                     var1 = _closure2_slot0;
                     var2 = var1.escapeReplacement;
-case 23:
+case 24:
                     var11 = arg1;
                     var12 = undefined;
                     var10 = var5;
@@ -247,12 +247,12 @@ case 23:
                 }
             };
             var3 = var6.bind(var7)(var3, var5);
-            _fun0003_ip = 25; continue _fun0003;
-case 15:
+            _fun0003_ip = 26; continue _fun0003;
+case 16:
             var3 = var1;
-case 25: // try_end0
+case 26: // try_end0
             return var3;
-case 26: // catch_target0
+case 27: // catch_target0
             CatchBlockStart(arg_register=4);
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;

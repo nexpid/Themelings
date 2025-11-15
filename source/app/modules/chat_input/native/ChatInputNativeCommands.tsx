@@ -546,10 +546,10 @@ case 32:
             var12 = new Array(0);
 case 31:
             var6 = var2.keepCursorPosition;
-            if(!(var6 === var1)) { _fun0012_ip = 20; continue _fun0012 }
-case 33:
+            if(!(var6 === var1)) { _fun0012_ip = 33; continue _fun0012 }
+case 5:
             var6 = false;
-case 20:
+case 33:
             var5 = var2.editId;
             var2 = null;
             if(!(var2 != var10)) { _fun0012_ip = 34; continue _fun0012 }

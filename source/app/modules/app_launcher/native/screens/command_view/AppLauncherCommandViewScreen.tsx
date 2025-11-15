@@ -1823,24 +1823,24 @@ case 92:
             var25[2] = var37;
             var25[3] = var24;
             var24 = function(arg1) {
-                var7 = arg1;
-                var _closure3_slot0 = var7;
+                var6 = arg1;
+                var _closure3_slot0 = var6;
                 var2 = {};
                 var3 = _closure1_slot19;
                 var3 = var3.APP_LAUNCHER;
                 var2['target'] = var3;
-                var2['option'] = var7;
+                var2['option'] = var6;
                 var _closure3_slot1 = var2;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot3;
                 var1 = 42;
-                var6 = var4[var1];
+                var7 = var4[var1];
                 var1 = undefined;
-                var8 = var3.bind(var1)(var6);
-                var6 = var8.getMediaKeyboardDraftType;
+                var8 = var3.bind(var1)(var7);
+                var7 = var8.getMediaKeyboardDraftType;
                 var2 = var2.target;
-                var6 = var6.bind(var8)(var2);
-                var _closure3_slot2 = var6;
+                var7 = var7.bind(var8)(var2);
+                var _closure3_slot2 = var7;
                 var2 = function onAttachFileParams(arg1) {
                     var1 = arg1;
                     var _closure4_slot0 = var1;
@@ -1890,7 +1890,7 @@ case 92:
                 };
                 var _closure3_slot3 = var2;
                 var2 = _closure2_slot55;
-                var2 = var2.bind(var1)(var7);
+                var2 = var2.bind(var1)(var6);
                 var2 = 44;
                 var2 = var4[var2];
                 var9 = var3.bind(var1)(var2);
@@ -1901,23 +1901,22 @@ case 92:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showMediaKeyboardActionSheet;
                 var2 = {};
-                var9 = var7.displayName;
+                var9 = var6.displayName;
                 var2['title'] = var9;
-                var9 = var7.displayDescription;
+                var9 = var6.displayDescription;
                 var2['subtitle'] = var9;
                 var8 = _closure2_slot1;
                 var8 = var8.channel;
                 var2['channel'] = var8;
-                var2['draftType'] = var6;
-                var6 = 1;
-                var2['uploadLimit'] = var6;
-                var6 = false;
-                var2['disableWhenReachedLimit'] = var6;
-                var8 = var7.name;
-                var7 = new Array(1);
-                var7[0] = var8;
-                var2['includedUploadIds'] = var7;
-                var2['showRemixButton'] = var6;
+                var2['draftType'] = var7;
+                var7 = 1;
+                var2['uploadLimit'] = var7;
+                var7 = false;
+                var2['disableWhenReachedLimit'] = var7;
+                var7 = var6.name;
+                var6 = new Array(1);
+                var6[0] = var7;
+                var2['includedUploadIds'] = var6;
                 var6 = function onAttachPress() {
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot3;
@@ -1965,37 +1964,39 @@ case 92:
                     return var1;
                 };
                 var2['onPressCamera'] = var6;
-                var6 = function onSelectItem(arg1, arg2) {
-                    var3 = _closure1_slot0;
-                    var9 = _closure1_slot3;
+                var6 = function onPressItem(arg1) {
+                    var1 = arg1;
+                    var8 = var1.channelId;
+                    var5 = var1.item;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot3;
                     var1 = 43;
-                    var2 = var9[var1];
+                    var2 = var10[var1];
                     var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var2 = var4.hideMediaKeyboardActionSheet;
-                    var2 = var2.bind(var4)();
+                    var3 = var9.bind(var1)(var2);
+                    var2 = var3.hideMediaKeyboardActionSheet;
+                    var2 = var2.bind(var3)();
                     var2 = 42;
-                    var4 = var9[var2];
-                    var6 = var3.bind(var1)(var4);
-                    var5 = var6.mediaNodeToUploadItem;
-                    var4 = arg2;
-                    var12 = var5.bind(var6)(var4);
-                    var2 = var9[var2];
-                    var7 = var3.bind(var1)(var2);
-                    var6 = var7.addAttachmentForCommand;
-                    var13 = _closure2_slot10;
-                    var11 = _closure3_slot1;
+                    var3 = var10[var2];
+                    var4 = var9.bind(var1)(var3);
+                    var3 = var4.mediaNodeToUploadItem;
+                    var13 = var3.bind(var4)(var5);
+                    var2 = var10[var2];
+                    var6 = var9.bind(var1)(var2);
+                    var5 = var6.addAttachmentForCommand;
+                    var14 = _closure2_slot10;
+                    var12 = _closure3_slot1;
                     var2 = 45;
-                    var2 = var9[var2];
-                    var2 = var3.bind(var1)(var2);
+                    var2 = var10[var2];
+                    var2 = var9.bind(var1)(var2);
                     var2 = var2.UploadOrigin;
-                    var10 = var2.IMAGE_PICKER;
-                    var14 = arg1;
-                    var15 = var7;
-                    var2 = var15[var6](var14, var13, var12, var11, var10, var9);
+                    var11 = var2.IMAGE_PICKER;
+                    var16 = var6;
+                    var15 = var8;
+                    var2 = var16[var5](var15, var14, var13, var12, var11, var10);
                     return var1;
                 };
-                var2['onSelectItem'] = var6;
+                var2['onPressItem'] = var6;
                 var6 = function onViewAll() {
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot3;
@@ -3126,14 +3127,14 @@ case 168:
                     var17 = var13.isImpersonating;
                     var6 = var15 == var12;
                     var4 = undefined;
-                    if(var6) { _fun0022_ip = 169; continue _fun0022 }
-case 170:
-                    var4 = var12.guild_id;
+                    if(var6) { _fun0022_ip = 15; continue _fun0022 }
 case 169:
+                    var4 = var12.guild_id;
+case 15:
                     var4 = var15 != var4;
                     var16 = null;
-                    if(!var4) { _fun0022_ip = 171; continue _fun0022 }
-case 172:
+                    if(!var4) { _fun0022_ip = 170; continue _fun0022 }
+case 171:
                     var6 = _closure1_slot2;
                     var7 = _closure1_slot3;
                     var4 = 59;
@@ -3147,17 +3148,17 @@ case 172:
                     var21 = var18;
                     var20 = var17;
                     var16 = var25[var7](var24, var23, var22, var21, var20, var19);
-case 171:
+case 170:
                     var6 = var15 == var12;
                     var4 = undefined;
-                    if(var6) { _fun0022_ip = 173; continue _fun0022 }
-case 174:
-                    var4 = var12.guild_id;
+                    if(var6) { _fun0022_ip = 172; continue _fun0022 }
 case 173:
+                    var4 = var12.guild_id;
+case 172:
                     var4 = var15 != var4;
                     var15 = null;
-                    if(!var4) { _fun0022_ip = 175; continue _fun0022 }
-case 176:
+                    if(!var4) { _fun0022_ip = 174; continue _fun0022 }
+case 175:
                     var6 = _closure1_slot2;
                     var7 = _closure1_slot3;
                     var4 = 59;
@@ -3167,7 +3168,7 @@ case 176:
                     var6 = var10.permissions;
                     var4 = var12.guild_id;
                     var15 = var7.bind(var9)(var6, var12, var4);
-case 175:
+case 174:
                     var7 = _closure1_slot2;
                     var9 = _closure1_slot3;
                     var4 = 59;
@@ -3189,29 +3190,29 @@ case 175:
                     var4 = var4.HasAccessResult;
                     var4 = var4.ALLOWED;
                     var4 = var6 === var4;
-                    if(!var4) { _fun0022_ip = 177; continue _fun0022 }
-case 178:
-                    var4 = var5;
+                    if(!var4) { _fun0022_ip = 176; continue _fun0022 }
 case 177:
+                    var4 = var5;
+case 176:
                     var1['hasPermission'] = var4;
                     var4 = var2.fetchState;
                     var4 = var4.fetching;
-                    if(var4) { _fun0022_ip = 179; continue _fun0022 }
-case 180:
+                    if(var4) { _fun0022_ip = 178; continue _fun0022 }
+case 179:
                     var5 = var3.fetchState;
                     var4 = var5.fetching;
-case 179:
+case 178:
                     var1['loading'] = var4;
                     return var1;
 case 167:
                     var1 = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     var2 = var2.fetchState;
                     var2 = var2.fetching;
-                    if(var2) { _fun0022_ip = 181; continue _fun0022 }
-case 182:
+                    if(var2) { _fun0022_ip = 180; continue _fun0022 }
+case 181:
                     var3 = var3.fetchState;
                     var2 = var3.fetching;
-case 181:
+case 180:
                     var1['loading'] = var2;
                     return var1;
                 }
@@ -3226,14 +3227,14 @@ case 181:
             var10 = var12.hasPermission;
             var12 = var12.loading;
             var _closure2_slot3 = var12;
-            if(!(var9 != var11)) { _fun0021_ip = 183; continue _fun0021 }
-case 184:
+            if(!(var9 != var11)) { _fun0021_ip = 4; continue _fun0021 }
+case 182:
             var17 = var11;
+case 4:
+            if(!(var9 != var3)) { _fun0021_ip = 75; continue _fun0021 }
 case 183:
-            if(!(var9 != var3)) { _fun0021_ip = 161; continue _fun0021 }
-case 35:
             var15 = var3;
-case 161:
+case 75:
             var16 = _closure1_slot0;
             var18 = _closure1_slot3;
             var3 = 25;
@@ -3244,7 +3245,7 @@ case 161:
             var20 = var3.bottomSheetExpandReasonRef;
             _closure2_slot4 = var20;
             var22 = var9 != var17;
-            if(!var22) { _fun0021_ip = 113; continue _fun0021 }
+            if(!var22) { _fun0021_ip = 184; continue _fun0021 }
 case 185:
             var3 = var17.options;
             if(!(var9 == var3)) { _fun0021_ip = 186; continue _fun0021 }
@@ -3254,7 +3255,7 @@ case 186:
             var16 = var3.length;
             var3 = 0;
             var22 = var16 > var3;
-case 113:
+case 184:
             _closure2_slot5 = var22;
             var18 = _closure1_slot6;
             var16 = var18.useEffect;
@@ -3315,32 +3316,32 @@ case 192:
             var1 = {};
             var18 = var9 != var17;
             var16 = undefined;
-            if(!var18) { _fun0021_ip = 117; continue _fun0021 }
-case 195:
+            if(!var18) { _fun0021_ip = 195; continue _fun0021 }
+case 196:
             var16 = var17;
-case 117:
+case 195:
             var1['command'] = var16;
             var1['context'] = var13;
             var16 = var9 != var15;
             var13 = undefined;
-            if(!var16) { _fun0021_ip = 196; continue _fun0021 }
-case 120:
+            if(!var16) { _fun0021_ip = 197; continue _fun0021 }
+case 198:
             var13 = var15;
-case 196:
+case 197:
             var1['section'] = var13;
             var15 = var9 != var14;
             var13 = null;
-            if(!var15) { _fun0021_ip = 197; continue _fun0021 }
-case 37:
+            if(!var15) { _fun0021_ip = 199; continue _fun0021 }
+case 200:
             var13 = var14;
-case 197:
+case 199:
             var1['preSelectedCommand'] = var13;
             var1['loading'] = var12;
             var9 = var9 != var11;
-            if(var9) { _fun0021_ip = 72; continue _fun0021 }
-case 198:
+            if(var9) { _fun0021_ip = 201; continue _fun0021 }
+case 202:
             var9 = var10;
-case 72:
+case 201:
             var1['hasPermissions'] = var9;
             var1['installOnDemand'] = var8;
             var1['sectionName'] = var7;
@@ -3832,8 +3833,8 @@ case 0:
             var4 = var12.type;
             var3 = 'channel';
             var1 = null;
-            if(!(var3 === var4)) { _fun0025_ip = 199; continue _fun0025 }
-case 70:
+            if(!(var3 === var4)) { _fun0025_ip = 9; continue _fun0025 }
+case 34:
             var5 = _closure1_slot20;
             var4 = _closure1_slot29;
             var3 = {};
@@ -3848,7 +3849,7 @@ case 70:
             var3['onCommandExecuted'] = var2;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
-case 199:
+case 9:
             return var1;
         }
     };

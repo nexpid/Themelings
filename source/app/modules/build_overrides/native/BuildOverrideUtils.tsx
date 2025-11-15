@@ -467,7 +467,7 @@ case 38:
         var8 = var7.bind(var8)();
         var7 = 'discord_ios';
         if(!var8) { _fun0001_ip = 48; continue _fun0001 }
-case 6:
+case 49:
         var7 = 'discord_android';
 case 48:
         var _closure1_slot5 = var7;

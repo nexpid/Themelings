@@ -399,10 +399,10 @@ case 0:
                     var7 = var5.emoji;
                     var8 = null;
                     var8 = var8 == var7;
-                    if(var8) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-                    var6 = var7.name;
+                    if(var8) { _fun0006_ip = 13; continue _fun0006 }
 case 21:
+                    var6 = var7.name;
+case 13:
                     var1['emojiName'] = var6;
                     var6 = var5.label;
                     var1['optionName'] = var6;

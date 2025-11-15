@@ -231,13 +231,13 @@ case 15:
 case 18:
         var4 = 'DCDChatInput';
         var4 = var8.bind(var1)(var4);
-        _fun0001_ip = 19; continue _fun0001;
+        _fun0001_ip = 5; continue _fun0001;
 case 17:
         var8 = 12;
         var8 = var6[var8];
         var8 = var5.bind(var1)(var8);
         var4 = var8.default;
-case 19:
+case 5:
         var _closure1_slot6 = var4;
         var4 = 'ChatInputNativeComponent';
         var2['displayName'] = var4;

@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var7 = {};
-    var4 = {'dipslay': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'padding': 20};
+    var4 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'paddingVertical': 12, 'paddingHorizontal': 20};
     var12 = 'center';
     var10 = 8;
     var13 = var6[var10];
@@ -71,11 +71,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.radii;
     var13 = var13.lg;
     var4['borderRadius'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_24;
-    var4['marginBottom'] = var13;
     var7['container'] = var4;
     var4 = {'marginTop': null, 'width': 335, 'height': 48};
     var13 = var6[var10];

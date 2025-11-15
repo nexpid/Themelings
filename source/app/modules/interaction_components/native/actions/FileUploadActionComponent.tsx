@@ -929,8 +929,6 @@ case 49:
                 var2['disableWhenReachedLimit'] = var10;
                 var9 = _closure2_slot5;
                 var2['includedUploadIds'] = var9;
-                var9 = false;
-                var2['showRemixButton'] = var9;
                 var9 = function onAttachPress() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -966,20 +964,21 @@ case 49:
                     return var1;
                 };
                 var2['onPressCamera'] = var9;
-                var9 = function onSelectItem(arg1, arg2, arg3) {
+                var9 = function onPressItem(arg1) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                        var5 = arg2;
+                        var1 = arg1;
+                        var5 = var1.item;
                         var _closure4_slot0 = var5;
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot2;
+                        var4 = var1.isIncluded;
+                        var7 = _closure1_slot0;
+                        var6 = _closure1_slot2;
                         var1 = 27;
-                        var4 = var4[var1];
+                        var6 = var6[var1];
                         var1 = undefined;
-                        var6 = var6.bind(var1)(var4);
-                        var4 = var6.hideMediaKeyboardActionSheet;
-                        var4 = var4.bind(var6)();
-                        var4 = arg3;
+                        var7 = var7.bind(var1)(var6);
+                        var6 = var7.hideMediaKeyboardActionSheet;
+                        var6 = var6.bind(var7)();
                         if(var4) { _fun0008_ip = 63; continue _fun0008 }
 case 64:
                         var4 = _closure1_slot0;
@@ -1023,7 +1022,7 @@ case 65:
                         return var1;
                     }
                 };
-                var2['onSelectItem'] = var9;
+                var2['onPressItem'] = var9;
                 var8 = function onViewAll() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;

@@ -301,16 +301,16 @@ case 18:
             var6 = var2.length;
             var5 = 0;
             var2 = false;
-            if(!(var5 === var6)) { _fun0006_ip = 4; continue _fun0006 }
-case 19:
+            if(!(var5 === var6)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var3 = _closure1_slot8;
             var3 = delete var3[var4];
             var2 = true;
-case 4:
-            if(var1) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+case 19:
+            if(var1) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var1 = var2;
-case 20:
+case 21:
             return var1;
 case 17:
             var1 = false;
@@ -327,11 +327,11 @@ case 0:
             var4 = var1[var3];
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0007_ip = 22; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 23; continue _fun0007 }
 case 11:
             var2 = _closure1_slot8;
             var1 = delete var2[var3];
-case 22:
+case 23:
             return var1;
         }
     };

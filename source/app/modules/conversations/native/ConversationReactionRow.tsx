@@ -1679,10 +1679,10 @@ case 0:
             var3 = var4.isAndroid;
             var4 = var3.bind(var4)();
             var3 = 16;
-            if(var4) { _fun0016_ip = 117; continue _fun0016 }
-case 118:
-            var3 = _closure1_slot16;
+            if(var4) { _fun0016_ip = 22; continue _fun0016 }
 case 117:
+            var3 = _closure1_slot16;
+case 22:
             var2['lineHeight'] = var3;
             var1['emojiText'] = var2;
             var2 = {};
@@ -1763,7 +1763,7 @@ case 0:
             var2 = var9.conversationProps;
             var1 = null;
             if(!(var1 == var2)) { _fun0017_ip = 34; continue _fun0017 }
-case 119:
+case 118:
             var4 = _closure1_slot13;
             var3 = _closure1_slot23;
             var2 = {};
@@ -1772,7 +1772,7 @@ case 119:
             var1 = copyDataProperties(var11, var10);
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
-            _fun0017_ip = 120; continue _fun0017;
+            _fun0017_ip = 119; continue _fun0017;
 case 34:
             var5 = _closure1_slot13;
             var3 = _closure1_slot0;
@@ -1794,7 +1794,7 @@ case 34:
             var6 = var8.bind(var4)(var7, var6);
             var2['children'] = var6;
             var1 = var5.bind(var4)(var3, var2);
-case 120:
+case 119:
             return var1;
         }
     };

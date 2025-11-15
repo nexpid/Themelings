@@ -747,7 +747,7 @@ case 14:
 case 24:
                     var _closure3_slot1 = var7;
                     if(var2) { _fun0009_ip = 38; continue _fun0009 }
-case 18:
+case 39:
                     var1.return();
 case 38:
                     var3 = _closure1_slot10;
@@ -778,7 +778,7 @@ case 0:
                             var4 = _closure2_slot4;
                             var4 = !var4;
                             if(!var4) { _fun0010_ip = 23; continue _fun0010 }
-case 39:
+case 40:
                             var4 = undefined;
 case 23:
                             var1['headerBackVisible'] = var4;
@@ -793,15 +793,15 @@ case 23:
                             var2 = null;
                             var5 = var2 == var4;
                             var3 = undefined;
-                            if(var5) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
-                            var3 = var4.headerShadowVisible;
-case 40:
-                            var2 = var2 == var3;
-                            if(var2) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
-                            var2 = var3;
+                            if(var5) { _fun0010_ip = 41; continue _fun0010 }
 case 42:
+                            var3 = var4.headerShadowVisible;
+case 41:
+                            var2 = var2 == var3;
+                            if(var2) { _fun0010_ip = 43; continue _fun0010 }
+case 44:
+                            var2 = var3;
+case 43:
                             var1['headerShadowVisible'] = var2;
                             return var1;
                         }
@@ -833,7 +833,7 @@ case 42:
                     var8 = var7.route;
                     var7 = undefined;
                     if(!(var9 === var8)) { _fun0009_ip = 10; continue _fun0009 }
-case 44:
+case 45:
                     var7 = _closure2_slot2;
 case 10:
                     var1['initialParams'] = var7;

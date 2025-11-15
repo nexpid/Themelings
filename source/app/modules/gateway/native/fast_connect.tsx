@@ -385,16 +385,16 @@ case 24:
                     var7 = var3.bind(var4)(var2);
                     var10 = null;
                     if(!(var10 != var7)) { _fun0005_ip = 27; continue _fun0005 }
-case 22:
+case 28:
                     var2 = '';
-                    if(!(var2 === var7)) { _fun0005_ip = 28; continue _fun0005 }
+                    if(!(var2 === var7)) { _fun0005_ip = 29; continue _fun0005 }
 case 27:
                     var4 = _closure1_slot7;
                     var3 = var4.log;
                     var2 = 'Skipping fast_connect because we could not find a token to connect with.';
                     var2 = var3.bind(var4)(var2);
-                    _fun0005_ip = 29; continue _fun0005;
-case 28:
+                    _fun0005_ip = 30; continue _fun0005;
+case 29:
                     var5 = global;
                     var2 = var5.window;
                     var3 = var2._ws;
@@ -408,13 +408,13 @@ case 28:
                     var4 = var4.bind(var1)(var2);
                     var2 = var4.isAndroid;
                     var2 = var2.bind(var4)();
-                    if(var2) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                    if(var2) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                     var2 = _closure1_slot4;
                     var2 = var2.DCDFastConnectManager;
                     var2 = var2.userId;
-                    _fun0005_ip = 32; continue _fun0005;
-case 30:
+                    _fun0005_ip = 33; continue _fun0005;
+case 31:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
                     var4 = 5;
@@ -423,13 +423,13 @@ case 30:
                     var4 = var8.getConstants;
                     var4 = var4.bind(var8)();
                     var2 = var4.userId;
-case 32:
+case 33:
                     var4 = var10 != var2;
                     var12 = null;
-                    if(!var4) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                    if(!var4) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                     var12 = var2;
-case 33:
+case 34:
                     var14 = _closure1_slot7;
                     var9 = var14.info;
                     var4 = _closure1_slot5;
@@ -484,8 +484,8 @@ case 33:
                     var8 = var8.bind(var1)(var7);
                     var7 = var8.isAndroid;
                     var7 = var7.bind(var8)();
-                    if(var7) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                    if(var7) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                     var7 = _closure1_slot4;
                     var13 = var7.DCDFastConnectManager;
                     var8 = var13.prepareIdentify;
@@ -497,31 +497,31 @@ case 36:
                     var7 = var14.isCacheEnabled;
                     var14 = var7.bind(var14)();
                     var7 = null;
-                    if(!var14) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(!var14) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                     var7 = _closure1_slot6;
-case 37:
+case 38:
                     var21 = var13;
                     var20 = var12;
                     var19 = var9;
                     var18 = var6;
                     var17 = var7;
                     var7 = var21[var8](var20, var19, var18, var17, var16);
-                    _fun0005_ip = 39; continue _fun0005;
-case 35:
+                    _fun0005_ip = 40; continue _fun0005;
+case 36:
                     var8 = var10 == var12;
                     var7 = undefined;
-                    if(var8) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                    if(var8) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                     var8 = var12.toString;
                     var7 = var8.bind(var12)();
-case 40:
+case 41:
                     var8 = var10 != var7;
                     var10 = null;
-                    if(!var8) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                    if(!var8) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                     var10 = var7;
-case 42:
+case 43:
                     var8 = _closure1_slot1;
                     var13 = _closure1_slot3;
                     var7 = 5;
@@ -537,21 +537,21 @@ case 42:
                     var5 = var12.isCacheEnabled;
                     var12 = var5.bind(var12)();
                     var5 = undefined;
-                    if(!var12) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                    if(!var12) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                     var5 = _closure1_slot6;
-case 44:
+case 45:
                     var21 = var8;
                     var20 = var10;
                     var19 = var9;
                     var18 = var6;
                     var17 = var5;
                     var5 = var21[var7](var20, var19, var18, var17, var16);
-case 39:
+case 40:
                     var2 = var2.client_state;
                     var3['identify'] = var4;
                     var3['clientState'] = var2;
-case 29:
+case 30:
                     return var1;
                 }
             };

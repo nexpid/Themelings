@@ -127,7 +127,7 @@ case 13:
             var3 = var2.AppStoreManager;
             var2 = var3.requestReview;
             var2 = var2.bind(var3)();
-            _fun0002_ip = 14; continue _fun0002;
+            _fun0002_ip = 4; continue _fun0002;
 case 12:
             var2 = function showAndroidRatingRequest() {
                 var1 = undefined;
@@ -140,7 +140,7 @@ case 12:
                 return var1;
             };
             var2 = var2.bind(var1)();
-case 14:
+case 4:
             return var1;
         }
     };

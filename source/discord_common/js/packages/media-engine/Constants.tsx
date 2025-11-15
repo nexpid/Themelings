@@ -299,8 +299,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['SIGNAL_AV1_DECODE'] = var2;
     var2 = 'signal_av1_hardware_decode';
     var5['SIGNAL_AV1_HARDWARE_DECODE'] = var2;
-    var2 = 'streamer_clip';
-    var5['STREAMER_CLIP'] = var2;
     var2 = 'viewer_clip';
     var5['VIEWER_CLIP'] = var2;
     var2 = 'mute_before_processing';

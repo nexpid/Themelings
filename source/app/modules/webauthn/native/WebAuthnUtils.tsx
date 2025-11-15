@@ -249,21 +249,21 @@ case 0:
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
             if(!var1) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+case 4:
             var2 = _closure1_slot4;
             var3 = null;
             var5 = var3 == var2;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+            if(var5) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var4 = _closure1_slot4;
             var4 = var4.DCDSecurityKeyManager;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 25; continue _fun0004 }
-case 21:
+            if(var5) { _fun0004_ip = 24; continue _fun0004 }
+case 26:
             var2 = var4.registerPasskey;
-case 25:
+case 24:
             var1 = var3 != var2;
 case 23:
             return var1;
@@ -507,14 +507,14 @@ case 0:
             var1 = var5.isAndroid;
             var1 = var1.bind(var5)();
             if(var1) { _fun0006_ip = 31; continue _fun0006 }
-case 6:
+case 32:
             var1 = _closure1_slot8;
             var1 = var1.bind(var3)(var4);
-            _fun0006_ip = 32; continue _fun0006;
+            _fun0006_ip = 33; continue _fun0006;
 case 31:
             var2 = _closure1_slot10;
             var1 = var2.bind(var3)(var4);
-case 32:
+case 33:
             return var1;
         }
     };

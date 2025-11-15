@@ -1597,10 +1597,10 @@ case 100:
                     var6 = var12.bind(var13)(var6);
                     var6 = _closure2_slot4;
                     if(var6) { _fun0010_ip = 105; continue _fun0010 }
-case 106:
+case 12:
                     var6 = _closure2_slot5;
 case 105:
-                    if(var6) { _fun0010_ip = 34; continue _fun0010 }
+                    if(var6) { _fun0010_ip = 106; continue _fun0010 }
 case 107:
                     var12 = var11.push;
                     var13 = _closure1_slot0;
@@ -1612,7 +1612,7 @@ case 107:
                     var6 = var6.id;
                     var6 = var13.bind(var14)(var6, var5);
                     var6 = var12.bind(var11)(var6);
-case 34:
+case 106:
                     var6 = {};
                     var6['overwrites'] = var11;
                     var6['guildId'] = var8;
@@ -1623,7 +1623,7 @@ case 34:
                     var4 = _closure1_slot15;
                     var4 = var4.GUILD_STAGE_VOICE;
                     if(!(var5 !== var4)) { _fun0010_ip = 108; continue _fun0010 }
-case 24:
+case 44:
                     var4 = _closure2_slot8;
                     var4 = var4.bind(var1)(var6);
                     _fun0010_ip = 109; continue _fun0010;
@@ -1773,7 +1773,7 @@ case 118:
             var5 = '';
             var7 = null;
             if(!(var5 !== var8)) { _fun0009_ip = 117; continue _fun0009 }
-case 119:
+case 27:
             var13 = _closure1_slot21;
             var8 = _closure1_slot6;
             var5 = {};
@@ -1826,38 +1826,38 @@ case 0:
             var5 = arg1;
             var1 = null;
             var2 = arg2;
-            if(!(var1 == var2)) { _fun0013_ip = 120; continue _fun0013 }
+            if(!(var1 == var2)) { _fun0013_ip = 119; continue _fun0013 }
 case 38:
-            if(!(var1 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 122:
+            if(!(var1 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 121:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_TEXT;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
 case 101:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 123:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 122:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 124:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 123:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 125:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 124:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 126:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 125:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var5)) { _fun0013_ip = 121; continue _fun0013 }
-case 127:
+            if(!(var2 !== var5)) { _fun0013_ip = 120; continue _fun0013 }
+case 126:
             var2 = _closure1_slot15;
             var2 = var2.GUILD_CATEGORY;
-            if(!(var2 !== var5)) { _fun0013_ip = 128; continue _fun0013 }
-case 129:
+            if(!(var2 !== var5)) { _fun0013_ip = 127; continue _fun0013 }
+case 128:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -1870,7 +1870,7 @@ case 129:
             var2 = new var8[var4](var7, var6);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
-case 128:
+case 127:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;
@@ -1885,7 +1885,7 @@ case 128:
             var1 = var1.ISN+NM;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 121:
+case 120:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;
@@ -1900,7 +1900,7 @@ case 121:
             var1 = var1.fUYU+j;
             var1 = var2.bind(var3)(var1);
             return var1;
-case 120:
+case 119:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 26;

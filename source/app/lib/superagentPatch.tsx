@@ -727,7 +727,7 @@ case 69:
             var3 = var3.bind(var5)(var4);
             var1 = true;
 case 84:
-            _fun0005_ip = 33; continue _fun0005;
+            _fun0005_ip = 85; continue _fun0005;
 case 62:
             var3 = global;
             var6 = var3.Promise;
@@ -766,32 +766,32 @@ case 0:
                     var10 = var2;
                     var10 = var10 === var8;
                     var3 = var10;
-                    if(var10) { _fun0007_ip = 85; continue _fun0007 }
-case 86:
+                    if(var10) { _fun0007_ip = 86; continue _fun0007 }
+case 87:
                     var6 = var9;
-case 85: // try_start_0
+case 86: // try_start_0
                     var9 = var6;
                     var5 = var9.default;
-case 87: // try_end0
+case 88: // try_end0
                     var6 = undefined;
                     var9 = var3;
-                    if(var9) { _fun0007_ip = 88; continue _fun0007 }
-case 89:
+                    if(var9) { _fun0007_ip = 89; continue _fun0007 }
+case 90:
                     var7 = var7().value;
                     var9 = var2;
                     var9 = var9 === var8;
                     var3 = var9;
-                    if(var9) { _fun0007_ip = 88; continue _fun0007 }
-case 90:
+                    if(var9) { _fun0007_ip = 89; continue _fun0007 }
+case 91:
                     var6 = var7;
-case 88: // try_start_1
+case 89: // try_start_1
                     var4 = var6.extractCaptchaPropsFromResponse;
 case 45: // try_end1
                     var6 = var3;
-                    if(var6) { _fun0007_ip = 91; continue _fun0007 }
+                    if(var6) { _fun0007_ip = 92; continue _fun0007 }
 case 51:
                     var2.return();
-case 91:
+case 92:
                     var6 = var5;
                     var5 = var6.showCaptchaAsync;
                     var7 = var4;
@@ -800,19 +800,19 @@ case 91:
                     var4 = var7.bind(var8)(var4);
                     var4 = var5.bind(var6)(var4);
                     return var4;
-case 92: // catch_target1
+case 93: // catch_target1
                     CatchBlockStart(arg_register=0);
-                    _fun0007_ip = 93; continue _fun0007;
-case 94: // catch_target0
+                    _fun0007_ip = 94; continue _fun0007;
+case 95: // catch_target0
                     CatchBlockStart(arg_register=0);
-                    _fun0007_ip = 93; continue _fun0007;
+                    _fun0007_ip = 94; continue _fun0007;
 case 68:
                     CatchBlockStart(arg_register=0);
-case 93:
-                    if(var3) { _fun0007_ip = 95; continue _fun0007 }
+case 94:
+                    if(var3) { _fun0007_ip = 96; continue _fun0007 }
 case 48:
                     var2.return();
-case 95:
+case 96:
                     throw var1;
                 }
             };
@@ -828,14 +828,14 @@ case 0:
                     var3 = {};
                     var3['X-Captcha-Key'] = var2;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0008_ip = 96; continue _fun0008 }
-case 97:
-                    var3['X-Captcha-Rqtoken'] = var4;
-case 96:
-                    if(!(var2 != var1)) { _fun0008_ip = 98; continue _fun0008 }
-case 89:
-                    var3['X-Captcha-Session-Id'] = var1;
+                    if(!(var2 != var4)) { _fun0008_ip = 97; continue _fun0008 }
 case 98:
+                    var3['X-Captcha-Rqtoken'] = var4;
+case 97:
+                    if(!(var2 != var1)) { _fun0008_ip = 99; continue _fun0008 }
+case 90:
+                    var3['X-Captcha-Session-Id'] = var1;
+case 99:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var2 = var2.bind(var1)(var3);
@@ -846,7 +846,7 @@ case 98:
             var2 = var3.catch;
             var2 = var2.bind(var3)(var4);
             var1 = true;
-case 33:
+case 85:
             return var1;
         }
     };
@@ -865,8 +865,8 @@ case 0:
                     StartGenerator();
                     var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 99; continue _fun0009 }
-case 100:
+                    if(var2) { _fun0009_ip = 100; continue _fun0009 }
+case 101:
                     var6 = _closure1_slot2;
                     var3 = _closure1_slot3;
                     var8 = 16;
@@ -888,8 +888,8 @@ case 100:
                     var6 = var6.bind(var2)(var3);
                     var3 = var6.isOnline;
                     var3 = var3.bind(var6)();
-                    if(var3) { _fun0009_ip = 101; continue _fun0009 }
-case 102:
+                    if(var3) { _fun0009_ip = 102; continue _fun0009 }
+case 103:
                     var6 = _closure1_slot1;
                     var3 = _closure1_slot3;
                     var3 = var3[var10];
@@ -897,12 +897,12 @@ case 102:
                     var3 = var6.awaitOnline;
                     var3 = var3.bind(var6)();
                     SaveGenerator(address=147);
-case 103:
-                    return var3;
 case 104:
+                    return var3;
+case 105:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 105; continue _fun0009 }
-case 106:
+                    if(var6) { _fun0009_ip = 106; continue _fun0009 }
+case 107:
                     var6 = _closure1_slot2;
                     var5 = _closure1_slot3;
                     var5 = var5[var8];
@@ -913,12 +913,12 @@ case 106:
                     var4 = 'Network detected online, retrying ';
                     var4 = var8.bind(var4)(var9);
                     var4 = var5.bind(var6)(var7, var4);
-                    _fun0009_ip = 101; continue _fun0009;
-case 105:
+                    _fun0009_ip = 102; continue _fun0009;
+case 106:
                     return var3;
-case 101:
+case 102:
                     return var2;
-case 99:
+case 100:
                     return var1;
                 }
             };
