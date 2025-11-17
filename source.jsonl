@@ -2019,7 +2019,7 @@
 { "file": "app/modules/collectibles/experiments/ListProfileEffectsSunsetExperiment.tsx", "size": 1748 }
 { "file": "app/modules/collectibles/experiments/ShopCollectionAssetMigrationExperiment.tsx", "size": 1556 }
 { "file": "app/modules/collectibles/experiments/ShopPairedDecoUpsellExperiment.tsx", "size": 1840 }
-{ "file": "app/modules/collectibles/hooks/useBadBundleFilter.tsx", "size": 8378 }
+{ "file": "app/modules/collectibles/hooks/useBadBundleFilter.tsx", "size": 9510 }
 { "file": "app/modules/collectibles/hooks/useCollectiblesData.tsx", "size": 2667 }
 { "file": "app/modules/collectibles/hooks/useCurrentUser.tsx", "size": 2345 }
 { "file": "app/modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx", "size": 2139 }

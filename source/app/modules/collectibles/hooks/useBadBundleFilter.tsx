@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -89,48 +89,38 @@ case 6:
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             var4 = arg1;
-                            var8 = _closure1_slot0;
-                            var7 = _closure1_slot2;
-                            var1 = 5;
-                            var1 = var7[var1];
-                            var6 = undefined;
-                            var9 = var8.bind(var6)(var1);
-                            var5 = var9.getProductPurchaseState;
-                            var1 = _closure1_slot5;
-                            var1 = var5.bind(var9)(var1, var4);
-                            var5 = var1.isPurchased;
-                            var1 = 6;
-                            var7 = var7[var1];
-                            var8 = var8.bind(var6)(var7);
-                            var7 = var8.isBundleProduct;
-                            var7 = var7.bind(var8)(var4);
-                            if(!var7) { _fun0003_ip = 7; continue _fun0003 }
+                            var7 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var2 = 5;
+                            var2 = var5[var2];
+                            var3 = undefined;
+                            var9 = var7.bind(var3)(var2);
+                            var6 = var9.getProductPurchaseState;
+                            var2 = _closure1_slot5;
+                            var2 = var6.bind(var9)(var2, var4);
+                            var2 = var2.isPurchased;
+                            var6 = 6;
+                            var5 = var5[var6];
+                            var7 = var7.bind(var3)(var5);
+                            var5 = var7.isBundleProduct;
+                            var5 = var5.bind(var7)(var4);
+                            if(!var5) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
-                            var8 = _closure1_slot0;
-                            var7 = _closure1_slot2;
-                            var7 = var7[var1];
-                            var8 = var8.bind(var6)(var7);
-                            var7 = var8.isFreeCollectiblesProduct;
-                            var7 = var7.bind(var8)(var4);
-                            if(var7) { _fun0003_ip = 7; continue _fun0003 }
-case 9:
+                            var7 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var5 = var5[var6];
+                            var7 = var7.bind(var3)(var5);
+                            var5 = var7.isFreeCollectiblesProduct;
+                            var5 = var5.bind(var7)(var4);
                             if(var5) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
+                            if(var2) { _fun0003_ip = 7; continue _fun0003 }
 case 10:
                             var5 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var2 = var7[var1];
-                            var9 = var5.bind(var6)(var2);
-                            var8 = var9.getDefaultPriceSetAssignmentPurchaseType;
-                            var2 = _closure2_slot0;
-                            var8 = var8.bind(var9)(var2);
-                            var _closure4_slot0 = var8;
-                            var1 = var7[var1];
-                            var2 = var5.bind(var6)(var1);
-                            var1 = var2.extractPriceByPurchaseTypes;
-                            var1 = var1.bind(var2)(var4, var8);
                             var2 = 7;
                             var2 = var7[var2];
-                            var5 = var5.bind(var6)(var2);
+                            var5 = var5.bind(var3)(var2);
                             var2 = var5.isValidCollectiblesBundle;
                             var2 = var2.bind(var5)(var4);
                             if(var2) { _fun0003_ip = 11; continue _fun0003 }
@@ -138,21 +128,42 @@ case 12:
                             var2 = false;
                             return var2;
 case 11:
-                            var5 = null;
-                            if(!(var5 != var1)) { _fun0003_ip = 13; continue _fun0003 }
+                            var7 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var5 = 8;
+                            var2 = var2[var5];
+                            var7 = var7.bind(var3)(var2);
+                            var2 = var7.isOrbsExclusiveProduct;
+                            var7 = var2.bind(var7)(var4);
+                            var2 = _closure1_slot0;
+                            var1 = _closure1_slot2;
+                            if(var7) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-                            var2 = var1.amount;
-                            var6 = 0;
-                            if(!(var6 !== var2)) { _fun0003_ip = 13; continue _fun0003 }
-case 15:
-                            var2 = var4.bundledProducts;
-                            var5 = var5 != var2;
-                            var2 = 0;
-                            if(!var5) { _fun0003_ip = 16; continue _fun0003 }
+                            var7 = var1[var6];
+                            var10 = var2.bind(var3)(var7);
+                            var9 = var10.getDefaultPriceSetAssignmentPurchaseType;
+                            var7 = _closure2_slot0;
+                            var9 = var9.bind(var10)(var7);
+                            var _closure4_slot0 = var9;
+                            var6 = var1[var6];
+                            var7 = var2.bind(var3)(var6);
+                            var6 = var7.extractPriceByPurchaseTypes;
+                            var6 = var6.bind(var7)(var4, var9);
+                            var9 = null;
+                            if(!(var9 != var6)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+                            var7 = var6.amount;
+                            var11 = 0;
+                            if(!(var11 !== var7)) { _fun0003_ip = 15; continue _fun0003 }
 case 17:
-                            var5 = var4.bundledProducts;
-                            var4 = var5.reduce;
-                            var3 = function(arg1, arg2) {
+                            var7 = var4.bundledProducts;
+                            var9 = var9 != var7;
+                            var7 = 0;
+                            if(!var9) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                            var10 = var4.bundledProducts;
+                            var9 = var10.reduce;
+                            var8 = function(arg1, arg2) {
                                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                                     var3 = _closure1_slot0;
@@ -167,28 +178,40 @@ case 0:
                                     var3 = var4.bind(var5)(var2, var3);
                                     var2 = null;
                                     var4 = var2 == var3;
-                                    if(var4) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                                    if(var4) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                                     var1 = var3.amount;
-case 18:
+case 20:
                                     var3 = var2 != var1;
                                     var2 = 0;
-                                    if(!var3) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                                    if(!var3) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                                     var2 = var1;
-case 20:
+case 22:
                                     var1 = arg1;
                                     var1 = var1 + var2;
                                     return var1;
                                 }
                             };
-                            var2 = var4.bind(var5)(var3, var6);
-case 16:
-                            var1 = var1.amount;
-                            var1 = var1 < var2;
-                            return var1;
+                            var7 = var9.bind(var10)(var8, var11);
+case 18:
+                            var6 = var6.amount;
+                            var6 = var6 < var7;
+                            return var6;
+case 15:
+                            var6 = true;
+                            return var6;
 case 13:
-                            var1 = true;
+                            var1 = var1[var5];
+                            var3 = var2.bind(var3)(var1);
+                            var2 = var3.getProductOrbPrice;
+                            var1 = {};
+                            var1['product'] = var4;
+                            var4 = _closure2_slot0;
+                            var1['isPremiumUser'] = var4;
+                            var2 = var2.bind(var3)(var1);
+                            var1 = null;
+                            var1 = var1 != var2;
                             return var1;
 case 7:
                             var1 = true;
