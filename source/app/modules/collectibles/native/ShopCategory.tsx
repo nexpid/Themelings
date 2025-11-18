@@ -177,8 +177,7 @@ case 0:
             var5['products'] = var6;
             var11 = var9.isOrbsExclusive;
             var5['bypassAndroidUnsyncedFilter'] = var11;
-            var5 = var8.bind(var10)(var5);
-            var20 = var5.sortedProducts;
+            var20 = var8.bind(var10)(var5);
             var5 = 11;
             var5 = var2[var5];
             var5 = var7.bind(var4)(var5);

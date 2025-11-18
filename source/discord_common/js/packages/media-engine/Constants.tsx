@@ -152,10 +152,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['ELEVATED_HOOK'] = var1;
     var1 = 'HYBRID_VIDEO';
     var14['HYBRID_VIDEO'] = var1;
-    var1 = 'OPEN_H264';
-    var14['OPEN_H264'] = var1;
-    var1 = 'EXPERIMENTAL_ENCODERS';
-    var14['EXPERIMENTAL_ENCODERS'] = var1;
     var1 = 'REMOTE_LOCUS_NETWORK_CONTROL';
     var14['REMOTE_LOCUS_NETWORK_CONTROL'] = var1;
     var1 = 'SCREEN_PREVIEWS';

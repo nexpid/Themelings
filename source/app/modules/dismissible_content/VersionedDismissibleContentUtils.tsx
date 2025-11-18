@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -92,8 +92,16 @@ case 10:
             if(!(var3 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var5];
+            var3 = var4.bind(var2)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.COLLECTIBLES_SHOP_WIDE_BANNER;
+            if(!(var3 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 7;
+            var3 = 8;
             var3 = var5[var3];
             var5 = var4.bind(var2)(var3);
             var4 = var5.assertUnreachable;
@@ -102,6 +110,15 @@ case 12:
             var3['andFail'] = var7;
             var3 = var4.bind(var5)(var6, var3);
             var3 = 0;
+            return var3;
+case 13:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 7;
+            var3 = var5[var3];
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.getWideBannerDismissibleContentVersion;
+            var3 = var3.bind(var4)();
             return var3;
 case 11:
             var3 = 0;
@@ -149,16 +166,16 @@ case 2:
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var3.version;
-case 13:
+case 15:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var3) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var1 = var2;
-case 15:
+case 17:
             return var1;
         }
     };

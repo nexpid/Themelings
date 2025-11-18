@@ -1854,6 +1854,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DISPLAY_NAME_STYLES_MOBILE_NEW_BADGE'] = var2;
     var1 = 'DISPLAY_NAME_STYLES_MOBILE_NEW_BADGE';
     var4[var2] = var1;
+    var2 = 650;
+    var4['COLLECTIBLES_SHOP_WIDE_BANNER'] = var2;
+    var1 = 'COLLECTIBLES_SHOP_WIDE_BANNER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

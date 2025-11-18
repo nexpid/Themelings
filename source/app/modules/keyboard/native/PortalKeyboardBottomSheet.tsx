@@ -235,9 +235,10 @@ case 6:
             var1 = var5.bind(var15)(var1);
             var1 = var1.bottomSheetRefs;
             var5 = var41[var22];
-            var7 = var42.bind(var4)(var5);
-            var5 = var7.usePortalKeyboardContextAnimatedValues;
-            var5 = var5.bind(var7)(var3);
+            var8 = var42.bind(var4)(var5);
+            var7 = var8.usePortalKeyboardContextAnimatedValues;
+            var5 = {};
+            var5 = var7.bind(var8)(var5);
             var11 = var5.animatedIndex;
             _closure2_slot7 = var11;
             var31 = var5.animatedPosition;

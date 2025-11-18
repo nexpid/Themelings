@@ -40,9 +40,8 @@ case 0:
             var1 = 2;
             var1 = var7[var1];
             var5 = undefined;
-            var1 = var6.bind(var5)(var1);
-            var4 = var1.DisplayNameStylesViewerExperiment;
-            var2 = var4.useExperiment;
+            var4 = var6.bind(var5)(var1);
+            var2 = var4.useDisplayNameStylesViewerEnabled;
             var1 = {};
             var1['location'] = var8;
             var1 = var2.bind(var4)(var1);
@@ -65,7 +64,6 @@ case 0:
             var3 = var6.bind(var5)(var3);
             var3 = var3.DisplayNameStylesContext;
             var3 = var4.bind(var5)(var3);
-            var1 = var1.enabled;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             if(var2) { _fun0001_ip = 4; continue _fun0001 }

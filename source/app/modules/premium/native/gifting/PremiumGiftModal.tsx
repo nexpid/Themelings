@@ -195,7 +195,7 @@ case 0:
                     var1 = {};
                     var10 = _closure1_slot6;
                     var3 = var10.PLAN_SELECT;
-                    var2 = {'title': '', 'headerLeft': null, 'headerTransparent': true};
+                    var2 = {'title': '', 'headerLeft': null, 'headerMode': 'float', 'headerTransparent': true};
                     var7 = '';
                     var12 = var10.PLAN_SELECT;
                     var10 = undefined;

@@ -415,8 +415,7 @@ case 9:
 case 8:
             var3['products'] = var9;
             var3['bypassAndroidUnsyncedFilter'] = var16;
-            var3 = var7.bind(var8)(var3);
-            var22 = var3.sortedProducts;
+            var22 = var7.bind(var8)(var3);
             if(!(var5 !== var12)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var3 = var2.mobileTitle;

@@ -909,7 +909,7 @@ case 0:
             var2 = var1.mediaKeyboardActionsType;
             var1 = 'legacy';
             if(!(var1 === var2)) { _fun0009_ip = 48; continue _fun0009 }
-case 49:
+case 6:
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
@@ -973,7 +973,7 @@ case 49:
             var4[2] = var8;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0009_ip = 50; continue _fun0009;
+            _fun0009_ip = 49; continue _fun0009;
 case 48:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
@@ -990,7 +990,7 @@ case 48:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 50:
+case 49:
             return var1;
         }
     };

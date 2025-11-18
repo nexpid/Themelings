@@ -86,7 +86,7 @@ case 4:
     var13 = var19.bind(var1)(var13);
     var13 = var13.DismissibleContent;
     var13 = var13.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    var17 = new Array(7);
+    var17 = new Array(8);
     var17[0] = var13;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
@@ -118,6 +118,11 @@ case 4:
     var13 = var13.DismissibleContent;
     var13 = var13.GUILD_POWERUP_NEW_PERK_AVAILABLE_COACHMARK;
     var17[6] = var13;
+    var13 = var20[var2];
+    var13 = var19.bind(var1)(var13);
+    var13 = var13.DismissibleContent;
+    var13 = var13.COLLECTIBLES_SHOP_WIDE_BANNER;
+    var17[7] = var13;
     var _closure1_slot0 = var17;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);

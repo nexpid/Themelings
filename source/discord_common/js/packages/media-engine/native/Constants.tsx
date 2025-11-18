@@ -137,8 +137,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['WUMPUS_VIDEO'] = var2;
     var2 = 'hybrid_video';
     var5['HYBRID_VIDEO'] = var2;
-    var2 = 'experimental_encoders';
-    var5['EXPERIMENTAL_ENCODERS'] = var2;
     var2 = 'experiment_config';
     var5['EXPERIMENT_CONFIG'] = var2;
     var2 = 'remote_locus_network_control';

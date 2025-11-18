@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
     var4 = {};
-    var7 = 'function MediaKeyboardAccessoriesContainerTsx1(){const{animateOnMount,initialLayout,animatedSheetIndex,initialPosition,animatedSheetPosition,interpolate,IS_ANDROID}=this.__closure;const animatedMountDisabledAndNotInitialLayout=!animateOnMount&&!initialLayout.get();const animatedSheetIndexOrDefault=animatedMountDisabledAndNotInitialLayout?0:Math.min(animatedSheetIndex.get(),0);const animatedSheetPositionOrDefault=animatedMountDisabledAndNotInitialLayout?initialPosition:animatedSheetPosition.get();const transform=[{translateY:interpolate(animatedSheetIndexOrDefault,[-1,0],[100,0])}];if(IS_ANDROID){return{marginTop:animatedSheetPositionOrDefault,transform:transform};}return{top:animatedSheetPositionOrDefault,transform:transform};}';
+    var7 = 'function MediaKeyboardAccessoriesContainerTsx1(){const{animateOnMount,initialLayout,animatedIndex,initialPosition,animatedPosition,interpolate,IS_ANDROID}=this.__closure;const animatedMountDisabledAndNotInitialLayout=!animateOnMount&&!initialLayout.get();const animatedSheetIndexOrDefault=animatedMountDisabledAndNotInitialLayout?0:Math.min(animatedIndex.get(),0);const animatedSheetPositionOrDefault=animatedMountDisabledAndNotInitialLayout?initialPosition:animatedPosition.get();const transform=[{translateY:interpolate(animatedSheetIndexOrDefault,[-1,0],[100,0])}];if(IS_ANDROID){return{marginTop:animatedSheetPositionOrDefault,transform:transform};}return{top:animatedSheetPositionOrDefault,transform:transform};}';
     var4['code'] = var7;
     var _closure1_slot8 = var4;
     var4 = 8;
@@ -68,10 +68,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var14 = var1.animatedSheetPosition;
-            var _closure2_slot0 = var14;
-            var16 = var1.animatedSheetIndex;
-            var _closure2_slot1 = var16;
+            var16 = var1.animatedIndex;
+            var _closure2_slot0 = var16;
+            var14 = var1.animatedPosition;
+            var _closure2_slot1 = var14;
             var18 = var1.animateOnMount;
             var _closure2_slot2 = var18;
             var5 = var1.children;
@@ -145,7 +145,7 @@ case 5:
             var8 = var7[var1];
             var12 = var11.bind(var4)(var8);
             var10 = var12.useAnimatedStyle;
-            var8 = function I() {
+            var8 = function _() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot2;
@@ -164,14 +164,14 @@ case 10:
                     var4 = global;
                     var6 = var4.Math;
                     var5 = var6.min;
-                    var7 = _closure2_slot1;
+                    var7 = _closure2_slot0;
                     var4 = var7.get;
                     var4 = var4.bind(var7)();
                     var8 = var5.bind(var6)(var4, var3);
 case 9:
                     if(var2) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-                    var4 = _closure2_slot0;
+                    var4 = _closure2_slot1;
                     var2 = var4.get;
                     var4 = var2.bind(var4)();
                     _fun0004_ip = 13; continue _fun0004;
@@ -214,9 +214,9 @@ case 16:
             var13 = {};
             var13['animateOnMount'] = var18;
             var13['initialLayout'] = var17;
-            var13['animatedSheetIndex'] = var16;
+            var13['animatedIndex'] = var16;
             var13['initialPosition'] = var15;
-            var13['animatedSheetPosition'] = var14;
+            var13['animatedPosition'] = var14;
             var14 = var7[var1];
             var14 = var11.bind(var4)(var14);
             var14 = var14.interpolate;
@@ -224,7 +224,7 @@ case 16:
             var14 = _closure1_slot6;
             var13['IS_ANDROID'] = var14;
             var8['__closure'] = var13;
-            var13 = 5049213631404.0;
+            var13 = 10575537164844.0;
             var8['__workletHash'] = var13;
             var13 = _closure1_slot8;
             var8['__initData'] = var13;

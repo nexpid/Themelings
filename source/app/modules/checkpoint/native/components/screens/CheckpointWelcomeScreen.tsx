@@ -313,7 +313,7 @@ case 2:
             var18 = var19.string;
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
-            var17 = var17.muz5q1;
+            var17 = var17.mDxM7m;
             var17 = var18.bind(var19)(var17);
             var15['children'] = var17;
             var15 = var14.bind(var4)(var16, var15);

@@ -723,7 +723,7 @@ case 41:
             var19 = var11 != var16;
             var18 = 0;
             if(!var19) { _fun0011_ip = 68; continue _fun0011 }
-case 49:
+case 69:
             var18 = var16;
 case 68:
             var _closure2_slot1 = var18;
@@ -760,12 +760,12 @@ case 0:
                     var2 = var3.bind(var4)(var2);
                     var3 = 0;
                     if(!(!(var2 > var3))) { _fun0012_ip = 9; continue _fun0012 }
-case 69:
+case 70:
                     var3 = var2 >>> var3;
-                    _fun0012_ip = 70; continue _fun0012;
+                    _fun0012_ip = 71; continue _fun0012;
 case 9:
                     var3 = var2 + var2;
-case 70:
+case 71:
                     var2 = 10000;
                     var2 = var3 % var2;
                     var1 = _closure2_slot1;

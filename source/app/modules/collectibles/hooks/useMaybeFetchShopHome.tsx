@@ -319,11 +319,11 @@ case 18:
                     var2 = !var3;
 case 17:
                     if(var2) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+case 7:
                     var2 = _closure2_slot10;
 case 19:
                     if(!var2) { _fun0004_ip = 12; continue _fun0004 }
-case 21:
+case 20:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 7;

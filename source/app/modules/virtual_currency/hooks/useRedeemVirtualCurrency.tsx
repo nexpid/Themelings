@@ -201,65 +201,74 @@ case 4:
         var1['isSubmitting'] = var4;
         var1['responseMessage'] = var3;
         var2 = function redeemVirtualCurrency(arg1, arg2, arg3) {
-            var1 = arg3;
-            var _closure3_slot0 = var1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.redeemVirtualCurrencyForSKU;
-            var1 = {};
-            var5 = arg1;
-            var1['skuId'] = var5;
-            var5 = arg2;
-            var1['loadId'] = var5;
-            var5 = function onRedeemStart() {
-                var4 = _closure2_slot5;
-                var1 = undefined;
-                var3 = true;
-                var3 = var4.bind(var1)(var3);
-                var3 = _closure2_slot4;
-                var2 = null;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var1['onRedeemStart'] = var5;
-            var5 = function onRedeemSucceed(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = arg1;
-                    var4 = _closure2_slot2;
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var4 = _closure2_slot5;
-                    var2 = false;
-                    var2 = var4.bind(var1)(var2);
-                    var5 = _closure3_slot0;
-                    var4 = null;
-                    if(!(var4 != var5)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    var2 = _closure3_slot0;
-                    var2 = var2.bind(var1)(var3);
+                var4 = arguments[3];
+                var1 = arg3;
+                var _closure3_slot0 = var1;
+                var3 = undefined;
+                if(!(var4 === var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 14:
+                var4 = false;
+case 9:
+                var2 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 3;
+                var1 = var6[var1];
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.redeemVirtualCurrencyForSKU;
+                var1 = {};
+                var6 = arg1;
+                var1['skuId'] = var6;
+                var6 = arg2;
+                var1['loadId'] = var6;
+                var6 = function onRedeemStart() {
+                    var4 = _closure2_slot5;
+                    var1 = undefined;
+                    var3 = true;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot4;
+                    var2 = null;
+                    var2 = var3.bind(var1)(var2);
                     return var1;
-                }
-            };
-            var1['onRedeemSucceed'] = var5;
-            var4 = function onRedeemFail(arg1) {
-                var4 = _closure2_slot4;
-                var1 = undefined;
-                var3 = arg1;
-                var3 = var4.bind(var1)(var3);
-                var3 = _closure2_slot5;
-                var2 = false;
-                var2 = var3.bind(var1)(var2);
+                };
+                var1['onRedeemStart'] = var6;
+                var6 = function onRedeemSucceed(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                        var3 = arg1;
+                        var4 = _closure2_slot2;
+                        var1 = undefined;
+                        var4 = var4.bind(var1)(var3);
+                        var4 = _closure2_slot5;
+                        var2 = false;
+                        var2 = var4.bind(var1)(var2);
+                        var5 = _closure3_slot0;
+                        var4 = null;
+                        if(!(var4 != var5)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+                        var2 = _closure3_slot0;
+                        var2 = var2.bind(var1)(var3);
+case 15:
+                        return var1;
+                    }
+                };
+                var1['onRedeemSucceed'] = var6;
+                var5 = function onRedeemFail(arg1) {
+                    var4 = _closure2_slot4;
+                    var1 = undefined;
+                    var3 = arg1;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot5;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var1['onRedeemFail'] = var5;
+                var1['isRental'] = var4;
+                var1 = var2.bind(var3)(var1);
                 return var1;
-            };
-            var1['onRedeemFail'] = var4;
-            var1 = var2.bind(var3)(var1);
-            return var1;
+            }
         };
         var1['redeemVirtualCurrency'] = var2;
         return var1;

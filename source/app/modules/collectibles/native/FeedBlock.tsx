@@ -162,8 +162,7 @@ case 0:
             var13 = 36;
             var3['maxProducts'] = var13;
             var3['screen'] = var5;
-            var3 = var6.bind(var7)(var3);
-            var14 = var3.sortedProducts;
+            var14 = var6.bind(var7)(var3);
             var19 = function shopAll() {
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;

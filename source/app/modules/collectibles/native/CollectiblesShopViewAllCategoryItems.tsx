@@ -134,8 +134,7 @@ case 0:
             var7 = {};
             var11 = var17.products;
             var7['products'] = var11;
-            var7 = var9.bind(var10)(var7);
-            var16 = var7.filteredProducts;
+            var16 = var9.bind(var10)(var7);
             var11 = 14;
             var7 = var3[var11];
             var10 = var6.bind(var4)(var7);

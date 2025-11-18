@@ -61,43 +61,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function MediaKeyboardBottomSheet(arg1) {
         var2 = arg1;
         var7 = var2.accessoriesComponent;
+        var13 = var2.animatedIndex;
+        var9 = var2.animatedPosition;
+        var21 = var2.bottomSheetRef;
+        var _closure2_slot0 = var21;
         var11 = var2.children;
         var16 = var2.handleComponent;
         var10 = var2.onClose;
-        var _closure2_slot0 = var10;
+        var _closure2_slot1 = var10;
         var8 = var2.transitionState;
-        var _closure2_slot1 = var8;
+        var _closure2_slot2 = var8;
         var20 = var2.animationConfigs;
-        var5 = _closure1_slot3;
-        var9 = var5.useContext;
         var3 = _closure1_slot0;
         var24 = _closure1_slot2;
-        var6 = 6;
-        var2 = var24[var6];
+        var2 = 6;
+        var2 = var24[var2];
         var4 = undefined;
-        var2 = var3.bind(var4)(var2);
-        var2 = var2.PortalKeyboardContext;
-        var2 = var9.bind(var5)(var2);
-        var2 = var2.bottomSheetRefs;
-        var6 = var24[var6];
-        var13 = var3.bind(var4)(var6);
-        var9 = var13.usePortalKeyboardContextAnimatedValues;
-        var6 = 'media';
-        var6 = var9.bind(var13)(var6);
-        var19 = var6.animatedIndex;
-        var18 = var6.animatedPosition;
-        var21 = var2.media;
-        var _closure2_slot2 = var21;
+        var6 = var3.bind(var4)(var2);
+        var5 = var6.usePortalKeyboardContextAnimatedValues;
+        var2 = {};
+        var2['animatedIndex'] = var13;
+        var2['animatedPosition'] = var9;
+        var2 = var5.bind(var6)(var2);
+        var19 = var2.animatedIndex;
+        var18 = var2.animatedPosition;
         var2 = _closure1_slot10;
         var15 = var2.bind(var4)();
         var23 = _closure1_slot1;
         var2 = 7;
         var2 = var24[var2];
-        var6 = var23.bind(var4)(var2);
+        var5 = var23.bind(var4)(var2);
         var2 = {};
-        var9 = false;
-        var2['forceMaxHeight'] = var9;
-        var6 = var6.bind(var4)(var2);
+        var6 = false;
+        var2['forceMaxHeight'] = var6;
+        var6 = var5.bind(var4)(var2);
+        var5 = _closure1_slot3;
         var13 = var5.useCallback;
         var9 = function(arg1) {
             var4 = _closure1_slot7;
@@ -183,11 +181,11 @@ case 4:
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot0;
+                    var3 = _closure2_slot1;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 3:
-                    var2 = _closure2_slot0;
+                    var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
 case 6:
@@ -206,7 +204,7 @@ case 6:
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var4 = _closure2_slot1;
+                var4 = _closure2_slot2;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 15;
@@ -217,21 +215,21 @@ case 0:
                 var3 = var3.YEETED;
                 if(!(var4 === var3)) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot0;
                 var3 = var3.current;
                 var4 = null;
                 if(!(var4 != var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot0;
                 var5 = var3.current;
                 var3 = var5.forceClose;
                 var3 = var3.bind(var5)();
                 _fun0003_ip = 7; continue _fun0003;
 case 9:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 if(!(var4 != var3)) { _fun0003_ip = 7; continue _fun0003 }
 case 11:
-                var2 = _closure2_slot0;
+                var2 = _closure2_slot1;
                 var2 = var2.bind(var1)();
 case 7:
                 return var1;

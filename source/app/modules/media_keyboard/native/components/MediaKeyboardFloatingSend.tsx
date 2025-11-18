@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
     var4 = {};
-    var8 = 'function MediaKeyboardFloatingSendTsx1(){const{animatedSheetIndex,INDEX_HEADER_CHANGE_THRESHOLD,isLandscape,hasUploads}=this.__closure;const isSheetOpenOrLandscape=animatedSheetIndex.get()>INDEX_HEADER_CHANGE_THRESHOLD||isLandscape;return isSheetOpenOrLandscape&&hasUploads;}';
+    var8 = 'function MediaKeyboardFloatingSendTsx1(){const{animatedIndex,INDEX_HEADER_CHANGE_THRESHOLD,isLandscape,hasUploads}=this.__closure;const isSheetOpenOrLandscape=animatedIndex.get()>INDEX_HEADER_CHANGE_THRESHOLD||isLandscape;return isSheetOpenOrLandscape&&hasUploads;}';
     var4['code'] = var8;
     var _closure1_slot9 = var4;
     var4 = {};
@@ -92,79 +92,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function MediaKeyboardFloatingSendInner(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var8 = var1.channelId;
-            var2 = var1.draftType;
-            var10 = var1.onSend;
+            var2 = arg1;
+            var11 = var2.animatedIndex;
+            var8 = var2.channelId;
+            var1 = var2.draftType;
+            var10 = var2.onSend;
             var4 = undefined;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var1 = _closure1_slot8;
-            var13 = var1.bind(var4)();
+            var2 = _closure1_slot8;
+            var13 = var2.bind(var4)();
             var _closure2_slot0 = var13;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 11;
-            var1 = var7[var1];
-            var5 = var5.bind(var4)(var1);
-            var1 = var5.useMediaKeyboardActionsExperiment;
-            var1 = var1.bind(var5)();
-            var11 = var1.mediaKeyboardActionsType;
+            var2 = 10;
+            var2 = var7[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.useMediaKeyboardActionsExperiment;
+            var2 = var2.bind(var5)();
+            var12 = var2.mediaKeyboardActionsType;
             var5 = _closure1_slot1;
-            var1 = 12;
-            var1 = var7[var1];
-            var1 = var5.bind(var4)(var1);
-            var5 = var1.bind(var4)();
+            var2 = 11;
+            var2 = var7[var2];
+            var2 = var5.bind(var4)(var2);
+            var5 = var2.bind(var4)();
             var9 = _closure1_slot4;
-            var1 = var9.useState;
+            var2 = var9.useState;
             var7 = null;
-            var12 = var1.bind(var9)(var7);
+            var14 = var2.bind(var9)(var7);
             var9 = _closure1_slot3;
-            var1 = 2;
-            var14 = var9.bind(var4)(var12, var1);
+            var2 = 2;
+            var15 = var9.bind(var4)(var14, var2);
             var9 = 0;
-            var1 = var14[var9];
-            var12 = 1;
-            var12 = var14[var12];
-            var _closure2_slot1 = var12;
-            if(!(var7 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var15[var9];
+            var14 = 1;
+            var14 = var15[var14];
+            var _closure2_slot1 = var14;
+            if(!(var7 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var5.bottom;
+            var2 = var5.bottom;
 case 2:
             var5 = 'floating';
-            var5 = var5 === var11;
+            var5 = var5 === var12;
             var9 = 0;
             if(var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var12 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var11 = 6;
-            var11 = var14[var11];
-            var11 = var12.bind(var4)(var11);
-            var11 = var11.spacing;
-            var9 = var11.PX_16;
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var12 = 6;
+            var12 = var15[var12];
+            var12 = var14.bind(var4)(var12);
+            var12 = var12.spacing;
+            var9 = var12.PX_16;
 case 4:
-            var9 = var1 + var9;
+            var9 = var2 + var9;
             _closure2_slot2 = var9;
-            var1 = function useSendVisibleSharedValue(arg1, arg2) {
-                var12 = arg1;
-                var1 = arg2;
-                var _closure3_slot0 = var12;
-                var _closure3_slot1 = var1;
-                var9 = _closure1_slot4;
-                var8 = var9.useContext;
+            var2 = {};
+            var2['animatedIndex'] = var11;
+            var2['channelId'] = var8;
+            var2['draftType'] = var1;
+            var1 = function useSendVisibleSharedValue(arg1) {
+                var1 = arg1;
+                var10 = var1.animatedIndex;
+                var _closure3_slot0 = var10;
+                var12 = var1.channelId;
+                var _closure3_slot1 = var12;
+                var1 = var1.draftType;
+                var _closure3_slot2 = var1;
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var3 = 7;
                 var3 = var7[var3];
                 var4 = undefined;
-                var3 = var5.bind(var4)(var3);
-                var3 = var3.PortalKeyboardContext;
-                var3 = var8.bind(var9)(var3);
-                var10 = var3.animatedSheetIndex;
-                var _closure3_slot2 = var10;
-                var3 = 8;
-                var3 = var7[var3];
                 var11 = var5.bind(var4)(var3);
                 var9 = var11.useStateFromStores;
                 var3 = _closure1_slot5;
@@ -176,8 +175,8 @@ case 4:
                 var1 = function() {
                     var4 = _closure1_slot5;
                     var3 = var4.getUploadCount;
-                    var2 = _closure3_slot0;
-                    var1 = _closure3_slot1;
+                    var2 = _closure3_slot1;
+                    var1 = _closure3_slot2;
                     var2 = var3.bind(var4)(var2, var1);
                     var1 = 0;
                     var1 = var2 > var1;
@@ -185,14 +184,14 @@ case 4:
                 };
                 var8 = var9.bind(var11)(var8, var1, var3);
                 var _closure3_slot3 = var8;
-                var3 = 9;
+                var3 = 8;
                 var1 = var7[var3];
                 var11 = var5.bind(var4)(var1);
                 var9 = var11.useSharedValue;
                 var1 = false;
                 var1 = var9.bind(var11)(var1);
                 var _closure3_slot4 = var1;
-                var9 = 10;
+                var9 = 9;
                 var11 = var7[var9];
                 var12 = var5.bind(var4)(var11);
                 var11 = var12.useOrientation;
@@ -209,7 +208,7 @@ case 4:
                 var3 = function c() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                        var3 = _closure3_slot2;
+                        var3 = _closure3_slot0;
                         var1 = var3.get;
                         var3 = var1.bind(var3)();
                         var1 = 0.7;
@@ -226,13 +225,13 @@ case 8:
                     }
                 };
                 var7 = {};
-                var7['animatedSheetIndex'] = var10;
+                var7['animatedIndex'] = var10;
                 var10 = 0.7;
                 var7['INDEX_HEADER_CHANGE_THRESHOLD'] = var10;
                 var7['isLandscape'] = var9;
                 var7['hasUploads'] = var8;
                 var3['__closure'] = var7;
-                var7 = 16820822469932.0;
+                var7 = 15911908244940.0;
                 var3['__workletHash'] = var7;
                 var7 = _closure1_slot9;
                 var3['__initData'] = var7;
@@ -254,15 +253,15 @@ case 8:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var17 = var1.bind(var4)(var8, var2);
+            var17 = var1.bind(var4)(var2);
             _closure2_slot3 = var17;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var2 = var11[var1];
             var15 = var12.bind(var4)(var2);
             var14 = var15.useAnimatedStyle;
-            var8 = function V() {
+            var8 = function f() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -283,7 +282,7 @@ case 0:
                     var4 = var7 + var4;
                     var1['height'] = var4;
                     var4 = _closure1_slot0;
-                    var3 = 13;
+                    var3 = 12;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.withSpring;
@@ -307,7 +306,7 @@ case 10:
             var18 = var11[var18];
             var18 = var2.bind(var4)(var18);
             var16['tokens'] = var18;
-            var18 = 13;
+            var18 = 12;
             var18 = var11[var18];
             var18 = var12.bind(var4)(var18);
             var18 = var18.withSpring;
@@ -361,7 +360,7 @@ case 12:
                 var1['end'] = var2;
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 14;
+                var4 = 13;
                 var2 = var7[var4];
                 var5 = undefined;
                 var8 = var6.bind(var5)(var2);
@@ -413,7 +412,7 @@ case 15:
             var11 = _closure1_slot6;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var5 = var14[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
@@ -432,12 +431,12 @@ case 14:
             var8 = _closure1_slot6;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 16;
+            var6 = 15;
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.FloatingActionButton;
             var6 = {};
-            var11 = 17;
+            var11 = 16;
             var14 = var13[var11];
             var14 = var12.bind(var4)(var14);
             var15 = var14.intl;
@@ -448,7 +447,7 @@ case 14:
             var11 = var11.TXNS7S;
             var11 = var14.bind(var15)(var11);
             var6['accessibilityLabel'] = var11;
-            var11 = 18;
+            var11 = 17;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.SendMessageIcon;
@@ -467,7 +466,7 @@ case 14:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 19;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

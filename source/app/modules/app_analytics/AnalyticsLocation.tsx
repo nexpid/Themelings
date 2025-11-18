@@ -1003,6 +1003,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOW_PLAYING_ITEM_GAME_SECTION'] = var1;
     var1 = 'frequent friends row';
     var2['FREQUENT_FRIENDS_ROW'] = var1;
+    var1 = 'billing settings billing';
+    var2['BILLING_SETTINGS_BILLING'] = var1;
     var1 = 'slayer storefront payment modal';
     var2['SLAYER_STOREFRONT_PAYMENT_MODAL'] = var1;
     var1 = 'slayer storefront card purchase button';
@@ -1021,6 +1023,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_WISHLIST_ITEM_CARD_GIFT_BUTTON'] = var1;
     var1 = 'slayer storefront breadcrumb wishlist item card gift button';
     var2['SLAYER_STOREFRONT_BREADCRUMB_WISHLIST_ITEM_CARD_GIFT_BUTTON'] = var1;
+    var1 = 'social layer claim purchased item modal';
+    var2['SOCIAL_LAYER_CLAIM_PURCHASED_ITEM_MODAL'] = var1;
+    var1 = 'social layer gift code claim modal';
+    var2['SOCIAL_LAYER_GIFT_CODE_CLAIM_MODAL'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

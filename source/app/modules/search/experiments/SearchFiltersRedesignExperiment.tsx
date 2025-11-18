@@ -145,7 +145,7 @@ case 2:
         }
     };
     var3['useIsSearchFiltersRedesignEnabled'] = var4;
-    var2 = function useIsHasSearchFilterElevated(arg1) {
+    var4 = function getIsHasSearchFilterElevated(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -153,6 +153,40 @@ case 0:
             var6 = var2.autoTrackExposure;
             var5 = undefined;
             if(!(var6 === var5)) { _fun0004_ip = 2; continue _fun0004 }
+case 3:
+            var6 = true;
+case 2:
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 1;
+            var3 = var7[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.getIsInSearchImprovementsHoldout;
+            var3 = {};
+            var3['location'] = var1;
+            var3['autoTrackExposure'] = var6;
+            var5 = var4.bind(var5)(var3);
+            var4 = _closure1_slot2;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var6;
+            var1['disable'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.isHasFilterElevated;
+            return var1;
+        }
+    };
+    var3['getIsHasSearchFilterElevated'] = var4;
+    var2 = function useIsHasSearchFilterElevated(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var1 = var2.location;
+            var6 = var2.autoTrackExposure;
+            var5 = undefined;
+            if(!(var6 === var5)) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
             var6 = true;
 case 2:

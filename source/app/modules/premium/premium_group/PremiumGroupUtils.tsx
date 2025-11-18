@@ -18,10 +18,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/premium/premium_group/PremiumGroupUtils.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = 5;
-    var3['TOTAL_PREMIUM_GROUP_SEATS'] = var2;
-    var2 = 'https://discord.com';
-    var3['HELP_CENTER_LINK'] = var2;
     var2 = function() {
         var1 = 'John Doe';
         return var1;
