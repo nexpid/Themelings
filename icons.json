@@ -8250,6 +8250,33 @@
         "width": 250,
         "height": 175
     },
+    "img_meta_quest_dark": {
+        "file": "app/images/platforms/img_meta_quest_dark.png",
+        "hash": "1301559e28a24a2331fbb1cb62dbbbc5",
+        "scales": [
+            1
+        ],
+        "width": 128,
+        "height": 128
+    },
+    "img_meta_quest_light": {
+        "file": "app/images/platforms/img_meta_quest_light.png",
+        "hash": "43cb25124fca194b4a6cf3676f39faf2",
+        "scales": [
+            1
+        ],
+        "width": 128,
+        "height": 128
+    },
+    "img_meta_quest_white": {
+        "file": "app/images/platforms/img_meta_quest_white.png",
+        "hash": "665fb7ab43f458f1e2e4d5c788dac4b4",
+        "scales": [
+            1
+        ],
+        "width": 128,
+        "height": 128
+    },
     "img_nitro_animated_avatar": {
         "file": "app/images/native/premium/upsell/img_nitro_animated_avatar.png",
         "hash": "0e96bcd2b2f1118c31b249938bd6d191",
