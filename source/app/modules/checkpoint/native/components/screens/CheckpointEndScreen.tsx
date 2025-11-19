@@ -27,15 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.CheckpointSlides;
+    var _closure1_slot5 = var7;
     var4 = var4.CheckpointSteps;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -110,7 +112,7 @@ case 2:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -122,7 +124,7 @@ case 2:
 case 0:
             var1 = arg1;
             var7 = var1.step;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 6;
@@ -131,11 +133,14 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var1 = {};
             var5 = _closure1_slot5;
+            var5 = var5.END;
+            var1['slide'] = var5;
+            var5 = _closure1_slot6;
             var5 = var5.END_REWARD;
             var6 = var7 === var5;
             if(!var6) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
             var5 = 7;
@@ -146,12 +151,12 @@ case 13:
 case 12:
             var5 = new Array(3);
             var5[0] = var6;
-            var6 = _closure1_slot5;
+            var6 = _closure1_slot6;
             var6 = var6.END_CLAIM;
             var6 = var7 === var6;
             if(!var6) { _fun0002_ip = 14; continue _fun0002 }
-case 2:
-            var10 = _closure1_slot6;
+case 15:
+            var10 = _closure1_slot7;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
             var8 = 7;
@@ -161,12 +166,12 @@ case 2:
             var6 = var10.bind(var3)(var9, var8);
 case 14:
             var5[1] = var6;
-            var6 = _closure1_slot5;
+            var6 = _closure1_slot6;
             var6 = var6.END_SUMMARY;
             var6 = var7 === var6;
-            if(!var6) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            var9 = _closure1_slot6;
+            if(!var6) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var9 = _closure1_slot7;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
             var7 = 8;
@@ -201,7 +206,7 @@ case 16:
                 var2['message'] = var6;
                 var6 = 'checkpoint';
                 var2['source'] = var6;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot9;
                 var2['customSendHandler'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -228,7 +233,7 @@ case 16:
             var10 = var9.bind(var3)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var3)(var8, var7);
-case 15:
+case 16:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);

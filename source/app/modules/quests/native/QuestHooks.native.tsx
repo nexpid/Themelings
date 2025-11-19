@@ -397,7 +397,7 @@ case 0:
                 var3 = var3[var9];
                 var3 = var7.bind(var8)(var3);
                 var3 = var3.QuestAssetType;
-                var3 = var3.HERO;
+                var3 = var3.QUEST_BAR_HERO;
                 var5 = var5.bind(var6)(var2, var3);
                 var2 = var2.config;
                 var2 = var2.assets;

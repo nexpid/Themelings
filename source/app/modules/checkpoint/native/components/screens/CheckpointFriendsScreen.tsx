@@ -45,8 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.CheckpointSlides;
+    var _closure1_slot10 = var7;
     var4 = var4.CheckpointSteps;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -55,9 +57,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot11 = var7;
+    var _closure1_slot12 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -86,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 2};
     var4['stat'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -391,7 +393,7 @@ case 23:
                 }
             };
             var9 = var3.bind(var4)(var1, var2);
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             var21 = var1.bind(var4)();
             var2 = _closure1_slot6;
             var1 = 14;
@@ -405,13 +407,16 @@ case 23:
             var2 = var3.useToken;
             var1 = var1.primaryColor;
             var27 = var2.bind(var3)(var1);
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var15 = _closure1_slot1;
             var1 = 16;
             var1 = var13[var1];
             var2 = var15.bind(var4)(var1);
             var1 = {};
-            var8 = _closure1_slot11;
+            var5 = _closure1_slot10;
+            var5 = var5.FRIENDS;
+            var1['slide'] = var5;
+            var8 = _closure1_slot12;
             var5 = var13[var10];
             var6 = var15.bind(var4)(var5);
             var5 = {};
@@ -441,12 +446,12 @@ case 23:
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(4);
             var5[0] = var6;
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot11;
             var6 = var6.FRIENDS_INTRO;
             var6 = var7 === var6;
             if(!var6) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
-            var10 = _closure1_slot12;
+            var10 = _closure1_slot13;
             var9 = _closure1_slot7;
             var8 = {};
             var11 = var21.intro;
@@ -454,7 +459,7 @@ case 26:
             var11 = {};
             var13 = var21.title;
             var11['style'] = var13;
-            var15 = _closure1_slot11;
+            var15 = _closure1_slot12;
             var18 = _closure1_slot0;
             var23 = _closure1_slot2;
             var13 = 18;
@@ -534,12 +539,12 @@ case 26:
             var6 = var10.bind(var4)(var9, var8);
 case 25:
             var5[1] = var6;
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot11;
             var6 = var6.FRIENDS_TRANSITION;
             var6 = var7 === var6;
             if(!var6) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot12;
             var9 = _closure1_slot7;
             var8 = {};
             var11 = var21.transition;
@@ -569,12 +574,12 @@ case 28:
             var6 = var10.bind(var4)(var9, var8);
 case 27:
             var5[2] = var6;
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot11;
             var6 = var6.FRIENDS_BEST;
             var6 = var7 === var6;
             if(!var6) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot13;
             var8 = _closure1_slot7;
             var7 = {};
             var10 = var21.intro;
@@ -582,7 +587,7 @@ case 30:
             var10 = {};
             var11 = var21.title;
             var10['style'] = var11;
-            var19 = _closure1_slot11;
+            var19 = _closure1_slot12;
             var25 = _closure1_slot0;
             var24 = _closure1_slot2;
             var11 = 18;

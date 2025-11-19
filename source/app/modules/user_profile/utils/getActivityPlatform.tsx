@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot3 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -87,13 +87,21 @@ case 9:
             var12 = var11[var12];
             var12 = var10.bind(var4)(var12);
             var12 = var12.bind(var4)(var13);
-            var14 = _closure1_slot0;
-            var15 = _closure1_slot1;
-            var13 = 2;
-            var13 = var15[var13];
-            var13 = var14.bind(var4)(var13);
             if(var12) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var12 = 7;
+            var12 = var15[var12];
+            var12 = var14.bind(var4)(var12);
+            var12 = var12.bind(var4)(var13);
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var12 = 2;
+            var12 = var14[var12];
+            var13 = var13.bind(var4)(var12);
             var12 = var13.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -104,25 +112,30 @@ case 11:
                 return var1;
             };
             var12 = var12.bind(var13)(var2);
-            var15 = null;
-            var14 = var15 != var12;
+            var14 = null;
+            var13 = var14 != var12;
             var2 = null;
-            if(!var14) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var17 = _closure1_slot3;
-            var16 = var17.has;
-            var14 = var12.type;
-            var14 = var16.bind(var17)(var14);
-            var2 = null;
-            if(!var14) { _fun0001_ip = 12; continue _fun0001 }
+            if(!var13) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
+            var16 = _closure1_slot3;
+            var15 = var16.has;
+            var13 = var12.type;
+            var13 = var15.bind(var16)(var13);
+            var2 = null;
+            if(!var13) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var2 = var12;
-case 12:
+case 13:
             return var2;
 case 10:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var2 = 2;
+            var2 = var13[var2];
+            var13 = var12.bind(var4)(var2);
             var12 = var13.get;
             var2 = _closure1_slot2;
-            var2 = var2.META_QUEST;
+            var2 = var2.META_QUEST_OR_HORIZON;
             var2 = var12.bind(var13)(var2);
             return var2;
 case 8:

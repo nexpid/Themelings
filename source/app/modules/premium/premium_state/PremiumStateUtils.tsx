@@ -29,8 +29,10 @@ case 3:
             var2 = {};
             var4 = var3.premium_subscription_type;
             var2['premiumSubscriptionType'] = var4;
-            var3 = var3.premium_source;
-            var2['premiumSource'] = var3;
+            var4 = var3.premium_source;
+            var2['premiumSource'] = var4;
+            var3 = var3.premium_subscription_group_role;
+            var2['premiumSubscriptionGroupRole'] = var3;
             var1 = var2;
 case 2:
             return var1;

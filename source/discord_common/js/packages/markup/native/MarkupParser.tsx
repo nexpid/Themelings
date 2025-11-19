@@ -160,50 +160,85 @@ case 20:
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var8 = arguments[0];
-                var2 = arguments[1];
-                var1 = arguments[2];
-                var7 = arguments[3];
+                var9 = arguments[0];
+                var1 = arguments[1];
+                var2 = arguments[2];
+                var6 = arguments[3];
                 var4 = undefined;
-                if(!(var8 === var4)) { _fun0003_ip = 16; continue _fun0003 }
+                if(!(var9 === var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                var8 = '';
+                var9 = '';
 case 16:
-                if(!(var2 === var4)) { _fun0003_ip = 18; continue _fun0003 }
+                if(!(var1 === var4)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                var2 = true;
+                var1 = true;
 case 18:
-                if(!(var1 === var4)) { _fun0003_ip = 20; continue _fun0003 }
+                if(!(var2 === var4)) { _fun0003_ip = 20; continue _fun0003 }
 case 4:
-                var1 = {};
+                var2 = {};
 case 20:
-                if(!(var7 === var4)) { _fun0003_ip = 21; continue _fun0003 }
+                if(!(var6 === var4)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                var7 = null;
+                var6 = null;
 case 21:
-                var3 = var8.trim;
-                var3 = var3.bind(var8)();
+                var3 = var9.trim;
+                var3 = var3.bind(var9)();
                 if(var3) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
                 var3 = null;
                 return var3;
 case 23:
-                var3 = {};
-                var3['inline'] = var2;
-                var13 = var3;
-                var12 = var1;
-                var1 = copyDataProperties(var13, var12);
-                var6 = _closure1_slot3;
-                var13 = _closure2_slot0;
-                var9 = !var2;
-                var14 = undefined;
+                var8 = {};
+                var8['inline'] = var1;
+                var14 = var8;
+                var13 = var2;
+                var2 = copyDataProperties(var14, var13);
+                var5 = _closure1_slot3;
+                var14 = _closure2_slot0;
+                var10 = !var1;
+                var15 = undefined;
+                var13 = var9;
                 var12 = var8;
-                var11 = var3;
-                var10 = var7;
-                var2 = var14[var6](var13, var12, var11, var10, var9, var8);
-                var1 = _closure2_slot1;
-                var1 = var1.bind(var4)(var2, var3);
-                return var1;
+                var11 = var6;
+                var9 = var15[var5](var14, var13, var12, var11, var10, var9);
+                var1 = var9;
+                var6 = var8;
+                var5 = undefined;
+case 25: // try_start_0
+                var8 = _closure2_slot1;
+                var7 = var1;
+                var6 = var8.bind(var4)(var7, var6);
+case 26: // try_end0
+                return var6;
+case 27: // catch_target0
+                CatchBlockStart(arg_register=5);
+                var3 = var6;
+                var7 = var6.message;
+                var5 = var7;
+                var6 = null;
+                if(!(var6 != var7)) { _fun0003_ip = 28; continue _fun0003 }
+case 12:
+                var7 = var5;
+                var6 = var7.includes;
+                var5 = 'Cannot convert undefined';
+                var5 = var6.bind(var7)(var5);
+                if(var5) { _fun0003_ip = 29; continue _fun0003 }
+case 28:
+                throw var3;
+case 29:
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 0;
+                var2 = var5[var2];
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.MarkupParserNodeTypeError;
+                var14 = var1;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var15 = var2;
+                var1 = new var15[var3](var14, var13);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
         return var1;

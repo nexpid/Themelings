@@ -895,7 +895,7 @@ case 112:
     var4 = new var17[var12](var16, var15);
     var4 = var4 instanceof Object ? var4 : var9;
     var _closure1_slot26 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
     var9 = var4.PersistedStore;
@@ -1087,7 +1087,7 @@ case 124:
     };
     var4[2] = var12;
     var9['migrations'] = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var7[var4];
     var16 = var8.bind(var1)(var4);
     var4 = {};
@@ -1171,7 +1171,7 @@ case 50:
         return var1;
     };
     var4['LOGOUT'] = var10;
-    var5 = function handleSurveySeen() {
+    var10 = function handleSurveySeen() {
         var2 = _closure1_slot18;
         var1 = global;
         var3 = var1.Date;
@@ -1181,14 +1181,53 @@ case 50:
         var1 = undefined;
         return var1;
     };
-    var4['SURVEY_SEEN'] = var5;
+    var4['SURVEY_SEEN'] = var10;
+    var5 = function handleEmbeddedSurveyTrigger(arg1) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.trigger;
+            var1 = 'nitro_unsub';
+            if(!(var1 === var2)) { _fun0017_ip = 125; continue _fun0017 }
+case 126:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
+            var1 = 15;
+            var3 = var3[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var5 = var3.EmbeddedSurveyExperiment;
+            var4 = var5.getConfig;
+            var3 = {};
+            var6 = 'surveystore';
+            var3['location'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.enableNitroUnsubSurvey;
+            if(!var3) { _fun0017_ip = 125; continue _fun0017 }
+case 127:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot3;
+            var2 = 11;
+            var2 = var4[var2];
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.surveyFetch;
+            var3 = '1439042286574112799';
+            var2 = true;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+case 125:
+            var1 = false;
+            return var1;
+        }
+    };
+    var4['EMBEDDED_SURVEY_TRIGGER'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
     var17 = var5;
     var15 = var4;
     var4 = new var17[var9](var16, var15, var14);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 17;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

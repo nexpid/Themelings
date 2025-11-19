@@ -1,4 +1,4 @@
-// app/modules/vpn/intl/VPN.messages.js
+// app/modules/private_browsing_perk/intl/PrivateBrowsingPerk.messages.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -742,7 +742,7 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/vpn/intl/VPN.messages.js';
+    var5 = 'modules/private_browsing_perk/intl/PrivateBrowsingPerk.messages.js';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var3['messagesLoader'] = var2;

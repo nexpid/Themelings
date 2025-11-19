@@ -71,47 +71,74 @@ case 4:
         var4 = 'modules/checkpoint/native/components/CheckpointEmphasis.tsx';
         var4 = var5.bind(var6)(var4);
         var2 = function CheckpointEmphasis(arg1) {
-            var1 = arg1;
-            var7 = var1.children;
-            var2 = _closure1_slot5;
-            var4 = undefined;
-            var8 = var2.bind(var4)();
-            var3 = _closure1_slot2;
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var2 = 5;
-            var2 = var9[var2];
-            var2 = var6.bind(var4)(var2);
-            var2 = var2.CheckpointColorContext;
-            var2 = var3.bind(var4)(var2);
-            var3 = 6;
-            var3 = var9[var3];
-            var5 = var6.bind(var4)(var3);
-            var3 = var5.useToken;
-            var2 = var2.primaryColor;
-            var11 = var3.bind(var5)(var2);
-            var3 = _closure1_slot4;
-            var2 = _closure1_slot3;
-            var1 = {};
-            var10 = var8.emphasis;
-            var5 = new Array(2);
-            var5[0] = var10;
-            var10 = {};
-            var10['backgroundColor'] = var11;
-            var5[1] = var10;
-            var1['style'] = var5;
-            var5 = 7;
-            var5 = var9[var5];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-lg/medium', 'color': 'black'};
-            var8 = var8.emphasisText;
-            var5['style'] = var8;
-            var5['children'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var1 = arg1;
+                var8 = var1.children;
+                var11 = var1.forcePosition;
+                var1 = _closure1_slot5;
+                var4 = undefined;
+                var9 = var1.bind(var4)();
+                var2 = _closure1_slot2;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 5;
+                var1 = var6[var1];
+                var1 = var3.bind(var4)(var1);
+                var1 = var1.CheckpointColorContext;
+                var1 = var2.bind(var4)(var1);
+                var2 = 6;
+                var2 = var6[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.useToken;
+                var1 = var1.primaryColor;
+                var10 = var2.bind(var3)(var1);
+                var3 = _closure1_slot4;
+                var2 = _closure1_slot3;
+                var1 = {};
+                var7 = var9.emphasis;
+                var6 = new Array(3);
+                var6[0] = var7;
+                var7 = {};
+                var7['backgroundColor'] = var10;
+                var6[1] = var7;
+                var7 = undefined;
+                if(var11) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var10 = {};
+                var12 = 'none';
+                var10['transform'] = var12;
+                var7 = var10;
+case 6:
+                var6[2] = var7;
+                var1['style'] = var6;
+                var7 = _closure1_slot4;
+                var6 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var5 = 7;
+                var5 = var10[var5];
+                var5 = var6.bind(var4)(var5);
+                var6 = var5.Text;
+                var5 = {'style': null, 'variant': 'heading-lg/medium', 'color': 'black'};
+                var10 = var9.emphasisText;
+                var9 = new Array(2);
+                var9[0] = var10;
+                var10 = undefined;
+                if(var11) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                var11 = {};
+                var12 = 'none';
+                var11['transform'] = var12;
+                var10 = var11;
+case 8:
+                var9[1] = var10;
+                var5['style'] = var9;
+                var5['children'] = var8;
+                var5 = var7.bind(var4)(var6, var5);
+                var1['children'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            }
         };
         var3['default'] = var2;
         return var1;

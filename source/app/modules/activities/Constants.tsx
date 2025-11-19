@@ -210,6 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['validStreamURL'] = var36;
     var36 = '438122941302046720';
     var3['XBOX_ACTIVITY_APPLICATION_ID'] = var36;
+    var36 = '1417273808645259344';
+    var3['META_PRESENCE_APPLICATION_ID'] = var36;
     var36 = '773336526917861400';
     var3['END_GAME_APPLICATION_ID'] = var36;
     var36 = '814288819477020702';

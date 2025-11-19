@@ -368,7 +368,7 @@ case 59:
         }
     };
     var2['trackExposureToFirstEligibleUserExperiment'] = var7;
-    var4 = function getExperimentBucketName(arg1) {
+    var7 = function getExperimentBucketName(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg1;
@@ -393,7 +393,115 @@ case 60:
             return var1;
         }
     };
-    var2['getExperimentBucketName'] = var4;
+    var2['getExperimentBucketName'] = var7;
+    var4 = function getRecentExperimentBuckets(arg1, arg2) {
+        var2 = arg2;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var4 = var2.Object;
+        var3 = var4.entries;
+        var2 = arg1;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.reduce;
+        var2 = function(arg1, arg2) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var1 = arg1;
+                var6 = arg2;
+                var4 = var6[Symbol.iterator];
+                var6 = var4().next;
+                var2 = var6().value;
+                var3 = var4;
+                var10 = undefined;
+                var5 = var3 === var10;
+                var3 = undefined;
+                if(var5) { _fun0008_ip = 3; continue _fun0008 }
+case 64:
+                var3 = var2;
+case 3:
+                var2 = undefined;
+                if(var5) { _fun0008_ip = 65; continue _fun0008 }
+case 66:
+                var7 = var6().value;
+                var6 = var4;
+                var6 = var6 === var10;
+                var2 = undefined;
+                var5 = var6;
+                if(var6) { _fun0008_ip = 65; continue _fun0008 }
+case 67:
+                var2 = var7;
+                var5 = var6;
+case 65:
+                if(var5) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
+                var4.return();
+case 68:
+                var8 = _closure2_slot0;
+                var7 = var3;
+                var4 = var8;
+                var6 = undefined;
+                var5 = undefined;
+case 70: // try_start_0
+                var8 = var7;
+                var7 = var8.split;
+                var11 = '-';
+                var8 = var7.bind(var8)(var11);
+                var7 = _closure1_slot3;
+                var9 = 2;
+                var10 = var7.bind(var10)(var8, var9);
+                var8 = 0;
+                var6 = var10[var8];
+                var7 = 1;
+                var10 = var10[var7];
+                var5 = var10;
+                var7 = null;
+                if(!(var7 != var10)) { _fun0008_ip = 71; continue _fun0008 }
+case 72:
+                var7 = var5;
+                var5 = var7.slice;
+                var13 = var5.bind(var7)(var8, var9);
+                var5 = global;
+                var7 = var5.Date;
+                var15 = var6;
+                var5 = var5.HermesInternal;
+                var8 = var5.concat;
+                var16 = '';
+                var12 = '-01';
+                var14 = var11;
+                var15 = var16[var8](var15, var14, var13, var12, var11);
+                var6 = var7.prototype;
+                var6 = Object.create(var6, {constructor: {value: var7}});
+                var16 = var6;
+                var5 = new var16[var7](var15, var14);
+                var5 = var5 instanceof Object ? var5 : var6;
+                var4 = var5 > var4;
+case 73: // try_end0
+                _fun0008_ip = 74; continue _fun0008;
+case 71:
+                var4 = false;
+                _fun0008_ip = 74; continue _fun0008;
+case 75: // catch_target0
+                CatchBlockStart(arg_register=4);
+                var4 = false;
+case 74:
+                if(!var4) { _fun0008_ip = 76; continue _fun0008 }
+case 77:
+                var5 = _closure1_slot6;
+                var5 = var5.CONTROL;
+                var4 = var2 > var5;
+case 76:
+                if(!var4) { _fun0008_ip = 78; continue _fun0008 }
+case 79:
+                var1[var3] = var2;
+case 78:
+                return var1;
+            }
+        };
+        var1 = {};
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var2['getRecentExperimentBuckets'] = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

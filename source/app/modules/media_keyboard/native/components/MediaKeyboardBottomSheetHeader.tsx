@@ -952,14 +952,8 @@ case 6:
             var8 = {};
             var12 = var9.animatedIndex;
             var8['animatedIndex'] = var12;
-            var12 = var9.disablePolls;
-            var8['disablePolls'] = var12;
-            var12 = var9.disableAttach;
-            var8['disableAttach'] = var12;
-            var12 = var9.onAttachPress;
-            var8['onAttachPress'] = var12;
-            var12 = var9.onPollsPress;
-            var8['onPollsPress'] = var12;
+            var12 = var9.overflowButtons;
+            var8['overflowButtons'] = var12;
             var8 = var11.bind(var5)(var10, var8);
             var4[1] = var8;
             var11 = _closure1_slot12;

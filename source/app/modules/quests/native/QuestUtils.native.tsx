@@ -339,35 +339,31 @@ case 42:
                     var13 = var13.QUEST_HOME_MOBILE;
                     var8['location'] = var13;
                     var2 = var11.bind(var12)(var8);
-                    var8 = 12;
+                    var8 = 8;
                     var8 = var10[var8];
-                    var8 = var9.bind(var7)(var8);
-                    var9 = var8.SharedQuestFields;
-                    var8 = var9.build;
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.getDefaultPlatform;
                     var6 = var6.config;
-                    var6 = var8.bind(var9)(var6);
-                    var8 = var6.rewardPlatforms;
-                    var6 = 0;
-                    var3 = var8[var6];
+                    var3 = var8.bind(var9)(var6);
 case 43: // try_start_0
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var6 = 13;
+                    var6 = 12;
                     var6 = var11[var6];
                     var9 = var10.bind(var7)(var6);
                     var8 = var9.claimQuestReward;
                     var6 = var4.id;
                     var4 = var3;
-                    var3 = 14;
+                    var3 = 13;
                     var3 = var11[var3];
                     var3 = var10.bind(var7)(var3);
                     var3 = var3.QuestContent;
                     var3 = var3.QUEST_HOME_MOBILE;
                     var3 = var8.bind(var9)(var6, var4, var3);
-                    SaveGenerator(address=187);
+                    SaveGenerator(address=169);
 case 44:
                     return var3;
-case 19:
+case 17:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(var4) { _fun0005_ip = 45; continue _fun0005 }
 case 46: // try_end0
@@ -383,7 +379,7 @@ case 47: // catch_target0
                     var2 = var3.bind(var4)(var2, var6);
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var8[var2];
                     var4 = var6.bind(var7)(var2);
                     var3 = var4.open;
@@ -391,7 +387,7 @@ case 47: // catch_target0
                     var9 = 'CLAIM_QUEST_REWARD_ERROR';
                     var2['key'] = var9;
                     var11 = _closure1_slot0;
-                    var5 = 16;
+                    var5 = 15;
                     var9 = var8[var5];
                     var9 = var11.bind(var7)(var9);
                     var10 = var9.intl;
@@ -402,7 +398,7 @@ case 47: // catch_target0
                     var5 = var5.CKsXk3;
                     var5 = var9.bind(var10)(var5);
                     var2['content'] = var5;
-                    var5 = 17;
+                    var5 = 16;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
                     var2['icon'] = var5;
@@ -474,7 +470,7 @@ case 52:
 case 55:
                     var16 = _closure1_slot1;
                     var17 = _closure1_slot2;
-                    var5 = 15;
+                    var5 = 14;
                     var5 = var17[var5];
                     var12 = var16.bind(var6)(var5);
                     var11 = var12.open;
@@ -482,7 +478,7 @@ case 55:
                     var13 = 'CLAIM_QUEST_REWARD_ERROR';
                     var5['key'] = var13;
                     var20 = _closure1_slot0;
-                    var13 = 16;
+                    var13 = 15;
                     var18 = var17[var13];
                     var18 = var20.bind(var6)(var18);
                     var19 = var18.intl;
@@ -493,7 +489,7 @@ case 55:
                     var13 = var13.HZlu0+;
                     var13 = var18.bind(var19)(var13);
                     var5['content'] = var13;
-                    var13 = 17;
+                    var13 = 16;
                     var13 = var17[var13];
                     var13 = var16.bind(var6)(var13);
                     var5['icon'] = var13;
@@ -571,7 +567,7 @@ case 48:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var6 = 22;
+    var6 = 21;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -635,7 +631,7 @@ case 65:
             var _closure2_slot3 = var3;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 18;
+            var3 = 17;
             var3 = var5[var3];
             var3 = var4.bind(var1)(var3);
             var3 = var3.bind(var1)();
@@ -646,7 +642,7 @@ case 65:
 case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 18;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -781,17 +777,17 @@ case 86:
                     var7 = _closure2_slot1;
                     if(!var7) { _fun0008_ip = 88; continue _fun0008 }
 case 89:
-                    if(!(var3 == var6)) { _fun0008_ip = 46; continue _fun0008 }
+                    if(!(var3 == var6)) { _fun0008_ip = 90; continue _fun0008 }
 case 88:
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 20;
+                    var2 = 19;
                     var2 = var7[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.openUserSettings;
                     var2 = var2.bind(var3)(var5);
                     _fun0008_ip = 67; continue _fun0008;
-case 46:
+case 90:
                     var3 = var4.navigate;
                     var2 = {};
                     var7 = 'settings';
@@ -816,7 +812,7 @@ case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 20;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -825,17 +821,17 @@ case 0:
             var4 = var3.mimetype;
             var2 = 'video/mp4';
             var2 = var2 === var4;
-            if(var1) { _fun0012_ip = 90; continue _fun0012 }
-case 91:
+            if(var1) { _fun0012_ip = 91; continue _fun0012 }
+case 92:
             var1 = var2;
-            if(var2) { _fun0012_ip = 92; continue _fun0012 }
+            if(var2) { _fun0012_ip = 93; continue _fun0012 }
 case 72:
             var4 = var3.mimetype;
             var3 = 'video/webm';
             var1 = var3 === var4;
-case 92:
+case 93:
             _fun0012_ip = 70; continue _fun0012;
-case 90:
+case 91:
             var1 = var2;
 case 70:
             return var1;

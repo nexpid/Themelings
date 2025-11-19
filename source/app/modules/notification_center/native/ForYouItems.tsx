@@ -2033,7 +2033,7 @@ case 136:
 case 0:
                     var1 = arg1;
                     var5 = var1.item;
-                    var7 = var1.index;
+                    var10 = var1.index;
                     var2 = var5.kind;
                     var1 = 'read-section-header';
                     if(!(var1 !== var2)) { _fun0015_ip = 138; continue _fun0015 }
@@ -2070,7 +2070,7 @@ case 156:
 case 157:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 64;
+                    var1 = 65;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -2081,7 +2081,7 @@ case 15:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 63;
+                    var1 = 64;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2095,7 +2095,7 @@ case 155:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 62;
+                    var1 = 63;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2116,37 +2116,47 @@ case 153:
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 151:
-                    var6 = _closure1_slot20;
-                    var4 = _closure1_slot30;
-                    var3 = {};
-                    var3['item'] = var5;
-                    var2 = _closure2_slot10;
-                    var3['ackedBeforeId'] = var2;
-                    var9 = _closure2_slot2;
-                    var8 = var5.id;
-                    var2 = undefined;
-                    var8 = var9.bind(var2)(var8);
-                    var3['isSoftAcked'] = var8;
-                    var8 = _closure2_slot3;
-                    var3['onSoftAckItem'] = var8;
-                    var8 = _closure2_slot4;
-                    var3['forceHoistItem'] = var8;
-                    var8 = _closure2_slot5;
-                    var3['isForceHoisted'] = var8;
-                    var3['rowIndex'] = var7;
-                    var7 = _closure2_slot13;
-                    var3['compactMode'] = var7;
-                    var7 = _closure2_slot11;
-                    var3['roleStyle'] = var7;
-                    var10 = var5.id;
-                    var9 = _closure2_slot11;
-                    var1 = global;
-                    var1 = var1.HermesInternal;
-                    var8 = var1.concat;
-                    var7 = '';
-                    var1 = '-';
-                    var1 = var8.bind(var7)(var10, var1, var9);
-                    var1 = var6.bind(var2)(var4, var3, var1);
+                    var4 = _closure1_slot20;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot3;
+                    var1 = 62;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.ErrorBoundary;
+                    var1 = {};
+                    var9 = _closure1_slot20;
+                    var8 = _closure1_slot30;
+                    var7 = {};
+                    var7['item'] = var5;
+                    var11 = _closure2_slot10;
+                    var7['ackedBeforeId'] = var11;
+                    var12 = _closure2_slot2;
+                    var11 = var5.id;
+                    var11 = var12.bind(var3)(var11);
+                    var7['isSoftAcked'] = var11;
+                    var11 = _closure2_slot3;
+                    var7['onSoftAckItem'] = var11;
+                    var11 = _closure2_slot4;
+                    var7['forceHoistItem'] = var11;
+                    var11 = _closure2_slot5;
+                    var7['isForceHoisted'] = var11;
+                    var7['rowIndex'] = var10;
+                    var10 = _closure2_slot13;
+                    var7['compactMode'] = var10;
+                    var10 = _closure2_slot11;
+                    var7['roleStyle'] = var10;
+                    var13 = var5.id;
+                    var12 = _closure2_slot11;
+                    var6 = global;
+                    var6 = var6.HermesInternal;
+                    var11 = var6.concat;
+                    var10 = '';
+                    var6 = '-';
+                    var6 = var11.bind(var10)(var13, var6, var12);
+                    var6 = var9.bind(var3)(var8, var7, var6);
+                    var1['children'] = var6;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 149:
                     var4 = _closure1_slot20;
@@ -2283,7 +2293,7 @@ case 0:
 case 88:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 65;
+                    var1 = 66;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -2322,20 +2332,20 @@ case 159:
             };
             var1['onLayout'] = var6;
             var6 = !var5;
-            if(!var6) { _fun0014_ip = 160; continue _fun0014 }
-case 161:
+            if(!var6) { _fun0014_ip = 145; continue _fun0014 }
+case 160:
             var8 = _closure1_slot20;
             var7 = _closure1_slot37;
             var5 = {};
             var5['scrollRef'] = var20;
             var6 = var8.bind(var4)(var7, var5);
-case 160:
+case 145:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot20;
             var16 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var6 = 66;
+            var6 = 67;
             var6 = var22[var6];
             var6 = var16.bind(var4)(var6);
             var7 = var6.FlashList;
@@ -2343,7 +2353,7 @@ case 160:
             var6['ref'] = var20;
             var6['data'] = var15;
             var20 = _closure1_slot20;
-            var15 = 67;
+            var15 = 68;
             var15 = var22[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.ForYouEmptyState;
@@ -2387,7 +2397,7 @@ case 160:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 68;
+    var4 = 69;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -132,6 +132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['OVERLAY_CRASHED'] = var1;
     var1 = 'overlay_crashed_disabled';
     var2['OVERLAY_CRASHED_DISABLED'] = var1;
+    var1 = 'game_untracked';
+    var2['GAME_UNTRACKED'] = var1;
     var1 = dependencyMap;
     var12 = var1[var11];
     var11 = require;

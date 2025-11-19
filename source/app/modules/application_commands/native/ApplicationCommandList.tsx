@@ -49,81 +49,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var11 = var1.style;
-            var8 = var1.channel;
+            var14 = var1.channel;
+            var _closure2_slot0 = var14;
             var5 = var1.onPressCommandItem;
-            var _closure2_slot0 = var5;
+            var _closure2_slot1 = var5;
             var2 = var1.query;
             var7 = var1.ItemSeparatorComponent;
             var6 = var1.getItemLayout;
             var3 = var1.onCommandsChange;
-            var _closure2_slot1 = var3;
-            var12 = _closure1_slot2;
-            var16 = _closure1_slot3;
+            var _closure2_slot2 = var3;
+            var9 = _closure1_slot2;
+            var17 = _closure1_slot3;
             var4 = 4;
-            var9 = var16[var4];
+            var8 = var17[var4];
             var4 = undefined;
-            var13 = var12.bind(var4)(var9);
+            var13 = var9.bind(var4)(var8);
             var12 = var13.useQuery;
             var9 = {};
-            var9['channel'] = var8;
+            var9['channel'] = var14;
             var8 = 'channel';
             var9['type'] = var8;
             var8 = {};
             var8['text'] = var2;
-            var15 = _closure1_slot0;
+            var16 = _closure1_slot0;
             var2 = 5;
-            var2 = var16[var2];
-            var2 = var15.bind(var4)(var2);
+            var2 = var17[var2];
+            var2 = var16.bind(var4)(var2);
             var2 = var2.ApplicationCommandType;
-            var14 = var2.CHAT;
+            var15 = var2.CHAT;
             var2 = new Array(1);
-            var2[0] = var14;
+            var2[0] = var15;
             var8['commandTypes'] = var2;
             var2 = {'placeholderCount': 3, 'limit': 7};
-            var14 = 6;
-            var14 = var16[var14];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.ScoreMethod;
-            var14 = var14.COMMAND_OR_APPLICATION;
-            var2['scoreMethod'] = var14;
+            var15 = 6;
+            var15 = var17[var15];
+            var15 = var16.bind(var4)(var15);
+            var15 = var15.ScoreMethod;
+            var15 = var15.COMMAND_OR_APPLICATION;
+            var2['scoreMethod'] = var15;
             var2 = var12.bind(var13)(var9, var8, var2);
             var9 = var2.commands;
-            var _closure2_slot2 = var9;
-            var14 = var2.sections;
-            var _closure2_slot3 = var14;
+            var _closure2_slot3 = var9;
+            var15 = var2.sections;
+            var _closure2_slot4 = var15;
             var2 = var2.scrollDown;
-            var _closure2_slot4 = var2;
+            var _closure2_slot5 = var2;
             var13 = _closure1_slot4;
             var12 = var13.useCallback;
-            var8 = new Array(2);
-            var8[0] = var14;
-            var8[1] = var5;
+            var8 = new Array(3);
+            var8[0] = var15;
+            var14 = var14.guild_id;
+            var8[1] = var14;
+            var8[2] = var5;
             var5 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
-                    var9 = var1.item;
-                    var _closure3_slot0 = var9;
+                    var10 = var1.item;
+                    var _closure3_slot0 = var10;
                     var7 = var1.index;
                     var4 = undefined;
                     var _closure3_slot1 = var4;
-                    var3 = var9.inputType;
+                    var3 = var10.inputType;
                     var5 = _closure1_slot0;
-                    var8 = _closure1_slot3;
+                    var6 = _closure1_slot3;
                     var2 = 7;
-                    var2 = var8[var2];
+                    var2 = var6[var2];
                     var2 = var5.bind(var4)(var2);
                     var2 = var2.ApplicationCommandInputType;
                     var2 = var2.PLACEHOLDER;
                     if(!(var3 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var5 = _closure2_slot3;
-                    var3 = null;
-                    var3 = var3 == var5;
-                    var8 = undefined;
-                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+                    var3 = _closure2_slot4;
+                    var2 = null;
+                    var2 = var2 == var3;
+                    var9 = undefined;
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var5 = _closure2_slot3;
+                    var5 = _closure2_slot4;
                     var3 = var5.find;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -133,27 +136,30 @@ case 5:
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var8 = var3.bind(var5)(var2);
+                    var9 = var3.bind(var5)(var2);
 case 4:
-                    _closure3_slot1 = var8;
+                    _closure3_slot1 = var9;
                     var5 = _closure1_slot6;
                     var3 = _closure1_slot1;
-                    var10 = _closure1_slot3;
+                    var11 = _closure1_slot3;
                     var2 = 9;
-                    var2 = var10[var2];
+                    var2 = var11[var2];
                     var3 = var3.bind(var4)(var2);
                     var2 = {};
-                    var2['command'] = var9;
-                    var2['section'] = var8;
-                    var6 = function onPress() {
-                        var4 = _closure2_slot0;
+                    var2['command'] = var10;
+                    var2['section'] = var9;
+                    var8 = function onPress() {
+                        var4 = _closure2_slot1;
                         var3 = _closure3_slot0;
                         var2 = _closure3_slot1;
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;
                     };
-                    var2['onPress'] = var6;
+                    var2['onPress'] = var8;
+                    var6 = _closure2_slot0;
+                    var6 = var6.guild_id;
+                    var2['guildId'] = var6;
                     var6 = 0;
                     var6 = var6 === var7;
                     var2['highlighted'] = var6;
@@ -186,18 +192,18 @@ case 6:
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var2 = _closure2_slot1;
+                    var2 = _closure2_slot2;
                     var1 = null;
                     if(!(var1 != var2)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var3 = _closure2_slot1;
-                    var2 = _closure2_slot2;
+                    var3 = _closure2_slot2;
+                    var2 = _closure2_slot3;
                     var6 = var1 == var2;
                     var2 = undefined;
                     var4 = undefined;
                     if(var6) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-                    var5 = _closure2_slot2;
+                    var5 = _closure2_slot3;
                     var4 = var5.length;
 case 10:
                     var5 = var1 != var4;
@@ -233,7 +239,7 @@ case 0:
                     var1 = var3 - var1;
                     if(!(var2 >= var1)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
 case 14:

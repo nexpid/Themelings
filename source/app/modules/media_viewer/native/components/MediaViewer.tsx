@@ -1831,7 +1831,7 @@ case 0:
                         var3 = _closure4_slot1;
                         var4 = var3[var2];
                         var3 = null;
-                        if(!(var3 == var4)) { _fun0017_ip = 53; continue _fun0017 }
+                        if(!(var3 == var4)) { _fun0017_ip = 52; continue _fun0017 }
 case 80:
                         var4 = _closure3_slot7;
                         var3 = undefined;
@@ -1843,7 +1843,7 @@ case 80:
                         var3[var2] = var4;
                         var3 = var3[var2];
                         return var3;
-case 53:
+case 52:
                         var1 = _closure4_slot1;
                         var1 = var1[var2];
                         return var1;

@@ -1258,7 +1258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['enabled'] = var11;
     var8[28] = var2;
     var2 = {};
-    var10 = var10.META_QUEST;
+    var10 = var10.META_QUEST_OR_HORIZON;
     var2['type'] = var10;
     var10 = 'Meta Quest';
     var2['name'] = var10;

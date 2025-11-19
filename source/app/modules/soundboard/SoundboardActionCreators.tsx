@@ -499,7 +499,7 @@ case 40: // try_start_0
                     var3 = var6.bind(var2)(var3);
                     var9 = var3.HTTP;
                     var6 = var9.get;
-                    var3 = {'url': null, 'rejectWithError': false, 'timeout': 500};
+                    var3 = {'url': null, 'rejectWithError': false, 'timeout': 1000};
                     var10 = _closure1_slot6;
                     var10 = var10.TOP_SOUNDS_FOR_GUILDS;
                     var3['url'] = var10;

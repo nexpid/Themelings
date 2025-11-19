@@ -142,30 +142,29 @@ case 0:
             var1 = 10;
             var1 = var4[var1];
             var5 = undefined;
-            var1 = var8.bind(var5)(var1);
-            var7 = var1.SharedQuestFields;
-            var6 = var7.build;
-            var1 = var2.config;
-            var6 = var6.bind(var7)(var1);
-            var1 = 11;
-            var1 = var4[var1];
-            var9 = var8.bind(var5)(var1);
-            var7 = var9.getOrRefreshAdSession;
+            var7 = var8.bind(var5)(var1);
+            var6 = var7.getOrRefreshAdSession;
             var1 = arg3;
-            var1 = var7.bind(var9)(var1);
+            var1 = var6.bind(var7)(var1);
             var7 = var1.uuid;
             var1 = {};
-            var9 = var2.id;
-            var1['quest_id'] = var9;
-            var9 = var6.questType;
+            var6 = var2.id;
+            var1['quest_id'] = var6;
+            var6 = 11;
+            var9 = var4[var6];
+            var11 = var8.bind(var5)(var9);
+            var10 = var11.getQuestType;
+            var9 = var2.config;
+            var9 = var10.bind(var11)(var9);
             var1['quest_type'] = var9;
-            var9 = var6.application;
+            var9 = var2.config;
+            var9 = var9.application;
             var9 = var9.id;
             var1['game_id'] = var9;
-            var6 = var6.application;
-            var6 = var6.name;
-            var1['game_name'] = var6;
-            var6 = 12;
+            var9 = var2.config;
+            var9 = var9.application;
+            var9 = var9.name;
+            var1['game_name'] = var9;
             var4 = var4[var6];
             var8 = var8.bind(var5)(var4);
             var4 = var8.getAllApplicationIds;
@@ -187,9 +186,9 @@ case 22:
             var4 = var5.getAdDecisionData;
             var3 = var2.id;
             var2 = arg2;
-            var10 = var4.bind(var5)(var3, var2);
-            var11 = var1;
-            var2 = copyDataProperties(var11, var10);
+            var12 = var4.bind(var5)(var3, var2);
+            var13 = var1;
+            var2 = copyDataProperties(var13, var12);
             return var1;
         }
     };
@@ -233,7 +232,7 @@ case 24:
 case 26:
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var5 = 13;
+            var5 = 12;
             var5 = var11[var5];
             var11 = var8.bind(var1)(var5);
             var8 = var11.isQuestPreviewToolEnabled;
@@ -273,7 +272,7 @@ case 29:
             var7 = _closure1_slot2;
             if(var2) { _fun0005_ip = 30; continue _fun0005 }
 case 31:
-            var2 = 15;
+            var2 = 14;
             var2 = var7[var2];
             var9 = var3.bind(var1)(var2);
             var8 = var9.track;
@@ -282,7 +281,7 @@ case 31:
             var2 = var8.bind(var9)(var6, var5, var2);
             _fun0005_ip = 25; continue _fun0005;
 case 30:
-            var2 = 14;
+            var2 = 13;
             var2 = var7[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.trackWithMetadata;
@@ -331,7 +330,7 @@ case 38:
                     var18 = var3.bind(var5)(var12);
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 16;
+                    var3 = 15;
                     var3 = var6[var3];
                     var6 = var5.bind(var4)(var3);
                     var5 = var6.getAdUser;
@@ -347,7 +346,7 @@ case 40:
 case 42:
                     var6 = _closure1_slot0;
                     var19 = _closure1_slot2;
-                    var11 = 12;
+                    var11 = 11;
                     var5 = var19[var11];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.getAdMetadataRaw;
@@ -364,7 +363,7 @@ case 42:
                     var23 = var12;
                     var14 = copyDataProperties(var23, var22);
                     var17 = _closure1_slot1;
-                    var14 = 17;
+                    var14 = 16;
                     var14 = var19[var14];
                     var14 = var17.bind(var4)(var14);
                     var22 = var14.bind(var4)();
@@ -390,7 +389,7 @@ case 43:
 case 46:
                     var17 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var15 = 18;
+                    var15 = 17;
                     var15 = var18[var15];
                     var17 = var17.bind(var4)(var15);
                     var15 = var17.isIOS;
@@ -408,7 +407,7 @@ case 45:
 case 49:
                     var17 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var15 = 18;
+                    var15 = 17;
                     var15 = var18[var15];
                     var17 = var17.bind(var4)(var15);
                     var15 = var17.isAndroid;
@@ -422,7 +421,7 @@ case 48:
                     var12[var15] = var16;
                     var16 = _closure1_slot0;
                     var17 = _closure1_slot2;
-                    var15 = 19;
+                    var15 = 18;
                     var15 = var17[var15];
                     var16 = var16.bind(var4)(var15);
                     var15 = var16.v4;
@@ -474,7 +473,7 @@ case 32:
     var5 = function useTrackQuestEventWithImpression() {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var3 = 20;
+        var3 = 19;
         var4 = var4[var3];
         var3 = undefined;
         var4 = var5.bind(var3)(var4);
@@ -524,7 +523,7 @@ case 11:
     var2 = function trackQuestEmbedFallbackViewed(arg1, arg2) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 14;
+        var1 = 13;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
@@ -712,7 +711,7 @@ case 11:
     var6['GAME_STORE_OPEN_GAME_LINK'] = var11;
     var11 = 'MOBILE_ORBS_ONBOARDING_DC';
     var6['MOBILE_ORBS_ONBOARDING_DC'] = var11;
-    var11 = 21;
+    var11 = 20;
     var11 = var13[var11];
     var13 = var12.bind(var1)(var11);
     var12 = var13.fileFinishedImporting;
@@ -804,13 +803,13 @@ case 54:
                 _closure3_slot7 = var4;
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var4 = 12;
+                var4 = 11;
                 var4 = var7[var4];
                 var8 = var5.bind(var1)(var4);
                 var4 = var8.getAdMetadataRaw;
                 var4 = var4.bind(var8)(var6);
                 _closure3_slot8 = var4;
-                var4 = 16;
+                var4 = 15;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.getAdUser;
@@ -840,7 +839,7 @@ case 0:
                         var8 = copyDataProperties(var15, var14);
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var8 = 17;
+                        var8 = 16;
                         var8 = var10[var8];
                         var8 = var9.bind(var1)(var8);
                         var14 = var8.bind(var1)();
@@ -863,7 +862,7 @@ case 56:
                         var6[var9] = var10;
                         var10 = _closure1_slot0;
                         var11 = _closure1_slot2;
-                        var9 = 19;
+                        var9 = 18;
                         var9 = var11[var9];
                         var10 = var10.bind(var1)(var9);
                         var9 = var10.v4;
@@ -876,7 +875,7 @@ case 56:
 case 59:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
-                        var9 = 18;
+                        var9 = 17;
                         var9 = var12[var9];
                         var11 = var11.bind(var1)(var9);
                         var9 = var11.isIOS;
@@ -894,7 +893,7 @@ case 58:
 case 62:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
-                        var10 = 18;
+                        var10 = 17;
                         var10 = var12[var10];
                         var11 = var11.bind(var1)(var10);
                         var10 = var11.isAndroid;
@@ -920,7 +919,7 @@ case 64:
                         var2['trackGuildAndChannelMetadata'] = var6;
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var5 = 12;
+                        var5 = 11;
                         var5 = var7[var5];
                         var7 = var6.bind(var1)(var5);
                         var6 = var7.isBillableQuestContent;
