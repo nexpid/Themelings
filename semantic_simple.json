@@ -1344,100 +1344,100 @@
     "darker": "#a056f24d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_END": {
-    "dark": "#571b003d",
-    "light": "#571b002e",
-    "midnight": "#571b002e",
-    "darker": "#571b002e"
+    "dark": "#d93d094d",
+    "light": "#d93d094d",
+    "midnight": "#d93d094d",
+    "darker": "#d93d094d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_START": {
-    "dark": "#fe6e0d3d",
-    "light": "#fe6e0d2e",
-    "midnight": "#fe6e0d2e",
-    "darker": "#fe6e0d2e"
+    "dark": "#fe92424d",
+    "light": "#fe92424d",
+    "midnight": "#fe92424d",
+    "darker": "#fe92424d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_END": {
-    "dark": "#612caf3d",
-    "light": "#612caf2e",
-    "midnight": "#612caf2e",
-    "darker": "#612caf2e"
+    "dark": "#612caf4d",
+    "light": "#612caf4d",
+    "midnight": "#612caf4d",
+    "darker": "#612caf4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_START": {
-    "dark": "#a056f23d",
-    "light": "#a056f22e",
-    "midnight": "#a056f22e",
-    "darker": "#a056f22e"
+    "dark": "#a056f24d",
+    "light": "#a056f24d",
+    "midnight": "#a056f24d",
+    "darker": "#a056f24d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_END": {
-    "dark": "#0066383d",
-    "light": "#0066382e",
-    "midnight": "#0066382e",
-    "darker": "#0066382e"
+    "dark": "#108e4d4d",
+    "light": "#108e4d4d",
+    "midnight": "#108e4d4d",
+    "darker": "#108e4d4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_START": {
-    "dark": "#35ed7e3d",
-    "light": "#35ed7e2e",
-    "midnight": "#35ed7e2e",
-    "darker": "#35ed7e2e"
+    "dark": "#35ed7e4d",
+    "light": "#35ed7e4d",
+    "midnight": "#35ed7e4d",
+    "darker": "#35ed7e4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_END": {
-    "dark": "#b2782a3d",
-    "light": "#b2782a2e",
-    "midnight": "#b2782a2e",
-    "darker": "#b2782a2e"
+    "dark": "#b2782a4d",
+    "light": "#b2782a4d",
+    "midnight": "#b2782a4d",
+    "darker": "#b2782a4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_START": {
-    "dark": "#f3ba2f3d",
-    "light": "#f3ba2f2e",
-    "midnight": "#f3ba2f2e",
-    "darker": "#f3ba2f2e"
+    "dark": "#f3ba2f4d",
+    "light": "#f3ba2f4d",
+    "midnight": "#f3ba2f4d",
+    "darker": "#f3ba2f4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_END": {
-    "dark": "#0074e33d",
-    "light": "#0074e32e",
-    "midnight": "#0074e32e",
-    "darker": "#0074e32e"
+    "dark": "#0074e34d",
+    "light": "#0074e34d",
+    "midnight": "#0074e34d",
+    "darker": "#0074e34d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_START": {
-    "dark": "#73bdc43d",
-    "light": "#73bdc42e",
-    "midnight": "#73bdc42e",
-    "darker": "#73bdc42e"
+    "dark": "#61b0b84d",
+    "light": "#61b0b84d",
+    "midnight": "#61b0b84d",
+    "darker": "#61b0b84d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_END": {
-    "dark": "#00454d3d",
-    "light": "#00454d2e",
-    "midnight": "#00454d2e",
-    "darker": "#00454d2e"
+    "dark": "#03676f4d",
+    "light": "#03676f4d",
+    "midnight": "#03676f4d",
+    "darker": "#03676f4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_START": {
-    "dark": "#84cad13d",
-    "light": "#84cad12e",
-    "midnight": "#84cad12e",
-    "darker": "#84cad12e"
+    "dark": "#84cad14d",
+    "light": "#84cad14d",
+    "midnight": "#84cad14d",
+    "darker": "#84cad14d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_END": {
-    "dark": "#5e0b133d",
-    "light": "#5e0b132e",
-    "midnight": "#5e0b132e",
-    "darker": "#5e0b132e"
+    "dark": "#5e0b134d",
+    "light": "#5e0b134d",
+    "midnight": "#5e0b134d",
+    "darker": "#5e0b134d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_START": {
-    "dark": "#dc43473d",
-    "light": "#dc43472e",
-    "midnight": "#dc43472e",
-    "darker": "#dc43472e"
+    "dark": "#dc43474d",
+    "light": "#dc43474d",
+    "midnight": "#dc43474d",
+    "darker": "#dc43474d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_END": {
-    "dark": "#43434c3d",
-    "light": "#43434c2e",
-    "midnight": "#43434c2e",
-    "darker": "#43434c2e"
+    "dark": "#43434c4d",
+    "light": "#43434c4d",
+    "midnight": "#43434c4d",
+    "darker": "#43434c4d"
   },
   "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_START": {
-    "dark": "#d3d4d73d",
-    "light": "#d3d4d72e",
-    "midnight": "#d3d4d72e",
-    "darker": "#d3d4d72e"
+    "dark": "#d3d4d74d",
+    "light": "#d3d4d74d",
+    "midnight": "#d3d4d74d",
+    "darker": "#d3d4d74d"
   },
   "FOCUS_PRIMARY": {
     "dark": "#00aafc",
