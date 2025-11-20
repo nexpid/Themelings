@@ -75,6 +75,8 @@ case 4:
         var1['title'] = var3;
         var3 = var2.logo_asset_id;
         var1['logoAssetId'] = var3;
+        var3 = var2.light_theme_logo_asset_id;
+        var1['lightThemeLogoAssetId'] = var3;
         var5 = var2.pages;
         var4 = var5.map;
         var3 = function(arg1) {

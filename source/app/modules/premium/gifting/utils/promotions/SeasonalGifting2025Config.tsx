@@ -703,7 +703,7 @@ case 4:
         return var1;
     };
     var6['collectRewardButtonText'] = var10;
-    var9 = function rewardCollectedText() {
+    var10 = function rewardCollectedText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -719,8 +719,61 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var6['rewardCollectedText'] = var9;
+    var6['rewardCollectedText'] = var10;
     var2['giftPurchaseConfirmation'] = var6;
+    var6 = {};
+    var10 = function heading() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.3JCuX1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['heading'] = var10;
+    var10 = function primarySubtitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.h2nMp0;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['primarySubtitle'] = var10;
+    var9 = function secondarySubtitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.y5wftM;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var6['secondarySubtitle'] = var9;
+    var2['rewardSelection'] = var6;
     var6 = 16;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

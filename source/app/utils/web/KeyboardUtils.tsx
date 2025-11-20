@@ -1145,7 +1145,7 @@ case 140:
             }
         };
         var3['toString'] = var4;
-        var2 = function areKeyCombosEqual(arg1, arg2) {
+        var4 = function areKeyCombosEqual(arg1, arg2) {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var4 = arg1;
@@ -1244,7 +1244,42 @@ case 27:
                 return var1;
             }
         };
-        var3['areKeyCombosEqual'] = var2;
+        var3['areKeyCombosEqual'] = var4;
+        var2 = function isKeyboardActivatedMouseEvent(arg1) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var2 = arg1;
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0018_ip = 105; continue _fun0018 }
+case 106:
+                var4 = 'object';
+                var3 = typeof var2;
+                var1 = var4 === var3;
+case 105:
+                if(!var1) { _fun0018_ip = 104; continue _fun0018 }
+case 55:
+                var3 = 'nativeEvent';
+                var1 = var3 in var2;
+case 104:
+                if(!var1) { _fun0018_ip = 155; continue _fun0018 }
+case 156:
+                var3 = var2.nativeEvent;
+                var4 = var3.clientX;
+                var3 = 0;
+                var1 = var3 === var4;
+case 155:
+                if(!var1) { _fun0018_ip = 124; continue _fun0018 }
+case 58:
+                var2 = var2.nativeEvent;
+                var3 = var2.clientY;
+                var2 = 0;
+                var1 = var2 === var3;
+case 124:
+                return var1;
+            }
+        };
+        var3['isKeyboardActivatedMouseEvent'] = var2;
         return var1;
     }
 })();

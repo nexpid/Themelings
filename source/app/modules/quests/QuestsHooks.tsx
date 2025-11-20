@@ -2013,6 +2013,10 @@ case 100:
     var21['TAB'] = var4;
     var4 = 'quest_id';
     var21['QUEST_ID'] = var4;
+    var4 = 'sort';
+    var21['SORT'] = var4;
+    var4 = 'filter';
+    var21['FILTER'] = var4;
     var13 = function useQuestTaskDetails(arg1) {
         var8 = arg1;
         var _closure2_slot0 = var8;

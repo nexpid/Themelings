@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 16};
     var4['perkInfoContainer'] = var9;
     var10 = 4;
-    var9 = {'flexDirection': 'column', 'gap': 4};
+    var9 = {'flexDirection': 'column', 'gap': 4, 'maxWidth': 279};
     var4['perkInfoTextContainer'] = var9;
     var9 = {'width': '100%', 'paddingVertical': 24, 'flexDirection': 'column', 'gap': 24};
     var4['perkListContainer'] = var9;

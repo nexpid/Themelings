@@ -83,7 +83,7 @@ case 3:
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var3 = var3.bind(var4)(var2);
-                    var2 = 0;
+                    var2 = 1;
                     var1 = var3 > var2;
 case 2:
                     return var1;

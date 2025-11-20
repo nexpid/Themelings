@@ -808,8 +808,8 @@ case 0:
             var _closure2_slot2 = var29;
             var28 = var2.controlsSpecs;
             var _closure2_slot3 = var28;
-            var17 = var2.mode;
-            var _closure2_slot4 = var17;
+            var18 = var2.mode;
+            var _closure2_slot4 = var18;
             var7 = var2.setControlsMode;
             var _closure2_slot5 = var7;
             var24 = var2.useReducedMotion;
@@ -823,8 +823,8 @@ case 0:
             var9 = 2;
             var2 = var10.bind(var4)(var2, var9);
             var8 = 0;
-            var19 = var2[var8];
-            var _closure2_slot7 = var19;
+            var20 = var2[var8];
+            var _closure2_slot7 = var20;
             var3 = 1;
             var2 = var2[var3];
             var _closure2_slot8 = var2;
@@ -832,8 +832,8 @@ case 0:
             var2 = var23[var31];
             var5 = var16.bind(var4)(var2);
             var2 = var5.useSharedValue;
-            var18 = var2.bind(var5)(var19);
-            var _closure2_slot9 = var18;
+            var19 = var2.bind(var5)(var20);
+            var _closure2_slot9 = var19;
             var5 = var6.useLayoutEffect;
             var2 = function() {
                 var3 = _closure2_slot9;
@@ -847,13 +847,13 @@ case 0:
             var2 = 36;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
-            var21 = var2.bind(var4)(var29);
+            var22 = var2.bind(var4)(var29);
             var2 = 37;
             var2 = var23[var2];
             var11 = var16.bind(var4)(var2);
             var5 = var11.useMaybeFetchSoundboardSounds;
             var2 = {};
-            var2['shouldFetch'] = var21;
+            var2['shouldFetch'] = var22;
             var2 = var5.bind(var11)(var2);
             var11 = var6.useCallback;
             var5 = new Array(3);
@@ -942,8 +942,8 @@ case 39:
                     return var1;
                 }
             };
-            var22 = var11.bind(var6)(var2, var5);
-            var _closure2_slot10 = var22;
+            var17 = var11.bind(var6)(var2, var5);
+            var _closure2_slot10 = var17;
             var2 = 39;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
@@ -953,8 +953,8 @@ case 39:
             var5 = new Array(4);
             var5[0] = var29;
             var5[1] = var28;
-            var5[2] = var22;
-            var5[3] = var19;
+            var5[2] = var17;
+            var5[3] = var20;
             var2 = function() {
                 var4 = function handleStoreChange() {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
@@ -1018,23 +1018,23 @@ case 41:
             var11 = var16.bind(var4)(var2);
             var5 = var11.useSharedValue;
             var2 = {'width': null, 'height': 0, 'x': 0, 'y': 0, 'drawerMode': false, 'hidden': false};
-            var20 = 23;
-            var20 = var23[var20];
-            var33 = var16.bind(var4)(var20);
+            var21 = 23;
+            var21 = var23[var21];
+            var33 = var16.bind(var4)(var21);
             var30 = var33.getControlsDefaultWidth;
-            var20 = 41;
-            var20 = var23[var20];
-            var25 = var16.bind(var4)(var20);
-            var20 = var25.getWindowDimensions;
-            var20 = var20.bind(var25)();
-            var25 = var20.width;
-            var20 = var13.left;
+            var21 = 41;
+            var21 = var23[var21];
+            var25 = var16.bind(var4)(var21);
+            var21 = var25.getWindowDimensions;
+            var21 = var21.bind(var25)();
+            var25 = var21.width;
+            var21 = var13.left;
             var13 = var13.right;
-            var13 = var30.bind(var33)(var25, var20, var13);
+            var13 = var30.bind(var33)(var25, var21, var13);
             var2['width'] = var13;
             var25 = false;
-            var20 = var5.bind(var11)(var2);
-            var _closure2_slot12 = var20;
+            var21 = var5.bind(var11)(var2);
+            var _closure2_slot12 = var21;
             var2 = 9;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
@@ -1209,7 +1209,7 @@ case 53:
             var33 = var16.bind(var4)(var33);
             var33 = var33.withSpring;
             var13['withSpring'] = var33;
-            var13['wrapperSpecs'] = var20;
+            var13['wrapperSpecs'] = var21;
             var13['borderRadius'] = var30;
             var30 = _closure1_slot8;
             var13['BORDER_RADIUS_PHYSICS'] = var30;
@@ -1262,10 +1262,10 @@ case 56:
                 }
             };
             var13 = {};
-            var13['mode'] = var17;
-            var17 = _closure1_slot10;
-            var13['VoicePanelModes'] = var17;
-            var13['wrapperSpecs'] = var20;
+            var13['mode'] = var18;
+            var18 = _closure1_slot10;
+            var13['VoicePanelModes'] = var18;
+            var13['wrapperSpecs'] = var21;
             var2['__closure'] = var13;
             var13 = 16047219756423.0;
             var2['__workletHash'] = var13;
@@ -2314,14 +2314,14 @@ case 105:
                 return var1;
             };
             var38 = undefined;
-            var37 = var19;
-            var36 = var18;
-            var35 = var20;
-            var34 = var22;
+            var37 = var20;
+            var36 = var19;
+            var35 = var21;
+            var34 = var17;
             var2 = var38[var2](var37, var36, var35, var34, var33);
             var11 = var2.gesture;
             var5 = var2.useScrollLock;
-            var17 = var2.gestureSpecs;
+            var18 = var2.gestureSpecs;
             var2 = function useWrapperSpecs(arg1) {
                 var13 = arg1;
                 var _closure3_slot0 = var13;
@@ -2682,7 +2682,7 @@ case 108:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var2 = var2.bind(var4)(var20);
+            var2 = var2.bind(var4)(var21);
             var2 = var6.useState;
             var2 = var2.bind(var6)(var25);
             var2 = var10.bind(var4)(var2, var9);
@@ -2810,14 +2810,14 @@ case 132:
             var5 = var23[var5];
             var6 = var12.bind(var4)(var5);
             var5 = {};
-            var5['wrapperSpecs'] = var20;
+            var5['wrapperSpecs'] = var21;
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
             var7 = _closure1_slot34;
             var6 = {};
             var6['channelId'] = var29;
-            var6['wrapperSpecs'] = var20;
+            var6['wrapperSpecs'] = var21;
             var6['controlsSpecs'] = var28;
             var6['accessoryHeights'] = var27;
             var6['gestureState'] = var26;
@@ -2852,8 +2852,8 @@ case 132:
             var11['animatedProps'] = var13;
             var15 = _closure1_slot22;
             var13 = {};
-            var13['wrapperSpecs'] = var20;
-            var13['openTab'] = var22;
+            var13['wrapperSpecs'] = var21;
+            var13['openTab'] = var17;
             var15 = var8.bind(var4)(var15, var13);
             var13 = new Array(4);
             var13[0] = var15;
@@ -2862,8 +2862,8 @@ case 132:
             var15 = var16.bind(var4)(var15);
             var16 = var15.VoicePanelVisualEffectView;
             var15 = {};
-            var21 = !var21;
-            if(!var21) { _fun0007_ip = 137; continue _fun0007 }
+            var22 = !var22;
+            if(!var22) { _fun0007_ip = 137; continue _fun0007 }
 case 138:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -2871,29 +2871,30 @@ case 138:
             var23 = var25[var23];
             var24 = var24.bind(var4)(var23);
             var23 = var24.isAndroid;
-            var21 = var23.bind(var24)();
+            var22 = var23.bind(var24)();
 case 137:
-            var15['matchAppTheme'] = var21;
+            var15['matchAppTheme'] = var22;
             var15 = var8.bind(var4)(var16, var15);
             var13[1] = var15;
             var16 = _closure1_slot15;
-            var21 = _closure1_slot36;
+            var22 = _closure1_slot36;
             var15 = {};
-            var15['openTab'] = var22;
-            var15['wrapperSpecs'] = var20;
-            var15['sharedTab'] = var18;
-            var15 = var16.bind(var4)(var21, var15);
+            var15['openTab'] = var17;
+            var15['wrapperSpecs'] = var21;
+            var15['sharedTab'] = var19;
+            var15 = var16.bind(var4)(var22, var15);
             var13[2] = var15;
             var15 = _closure1_slot1;
-            var21 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var14 = 47;
-            var14 = var21[var14];
+            var14 = var22[var14];
             var15 = var15.bind(var4)(var14);
             var14 = {};
-            var14['wrapperSpecs'] = var20;
-            var14['tab'] = var19;
-            var14['sharedTab'] = var18;
-            var14['gestureSpecs'] = var17;
+            var14['wrapperSpecs'] = var21;
+            var14['tab'] = var20;
+            var14['sharedTab'] = var19;
+            var14['gestureSpecs'] = var18;
+            var14['openTab'] = var17;
             var14 = var16.bind(var4)(var15, var14);
             var13[3] = var14;
             var11['children'] = var13;

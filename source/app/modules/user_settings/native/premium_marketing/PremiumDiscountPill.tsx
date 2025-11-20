@@ -63,7 +63,11 @@ case 4:
             var3 = var3.radii;
             var3 = var3.round;
             var2['borderRadius'] = var3;
+            var3 = 'center';
             var1['pillContainer'] = var2;
+            var2 = {};
+            var2['textAlign'] = var3;
+            var1['discountPillText'] = var2;
             return var1;
         }
     };
@@ -105,31 +109,33 @@ case 10:
             var1 = 'light';
             var2 = var1 === var3;
 case 9:
-            var9 = 'black';
+            var10 = 'black';
             if(!var2) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var9 = 'white';
+            var10 = 'white';
 case 11:
             var1 = _closure1_slot5;
-            var5 = var1.bind(var4)(var2);
+            var9 = var1.bind(var4)(var2);
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
-            var10 = var5.pillContainer;
+            var11 = var9.pillContainer;
             var5 = new Array(2);
-            var5[0] = var10;
+            var5[0] = var11;
             var5[1] = var6;
             var1['style'] = var5;
             var6 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var5 = 6;
-            var5 = var10[var5];
+            var5 = var11[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {};
-            var10 = 'text-xs/bold';
-            var5['variant'] = var10;
-            var5['color'] = var9;
+            var11 = 'text-xs/bold';
+            var5['variant'] = var11;
+            var5['color'] = var10;
+            var9 = var9.discountPillText;
+            var5['style'] = var9;
             if(var7) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
             var7 = null;

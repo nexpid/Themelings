@@ -28,6 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var5 = 'call control drawer';
     var2['VOICE_CONTROLS'] = var5;
+    var5 = 'voice panel controls';
+    var2['VOICE_PANEL_CONTROLS'] = var5;
     var5 = 'call floating button';
     var2['FLOATING_BUTTON'] = var5;
     var5 = 'call header';
@@ -87,33 +89,39 @@ case 3:
             var8 = var4 === var8;
             if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = var9;
-            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+            var11 = _closure1_slot5;
+            var11 = var11.VOICE_PANEL_CONTROLS;
+            var8 = var4 === var11;
+case 4:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var11 = !var10;
-case 6:
-            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+            var11 = var9;
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var11 = !var10;
+case 8:
+            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot5;
             var12 = var12.FLOATING_BUTTON;
             var11 = var4 === var12;
-case 8:
+case 10:
             var8 = var11;
-case 4:
-            if(var8) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 6:
+            if(var8) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var9 = var10;
-case 12:
             if(!var9) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
+            var9 = var10;
+case 14:
+            if(!var9) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = _closure1_slot5;
             var10 = var10.HEADER;
             var9 = var4 === var10;
-case 14:
+case 16:
             var8 = var9;
-case 10:
+case 12:
             var6 = var8;
 case 2:
             var1['visible'] = var6;
@@ -130,8 +138,8 @@ case 0:
                     var2 = _closure2_slot0;
                     var5 = var3.bind(var5)(var2);
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                    if(!(var2 != var5)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -144,7 +152,7 @@ case 17:
                     var4 = _closure2_slot1;
                     var1['analyticsSource'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 16:
+case 18:
                     var1 = undefined;
                     return var1;
                 }

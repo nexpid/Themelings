@@ -22,6 +22,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IsOverride'] = var6;
     var1 = 'IsOverride';
     var2[var6] = var1;
+    var6 = 2;
+    var2['ExposureTrackingEnabled'] = var6;
+    var1 = 'ExposureTrackingEnabled';
+    var2[var6] = var1;
+    var6 = 4;
+    var2['DependentExperiment'] = var6;
+    var1 = 'DependentExperiment';
+    var2[var6] = var1;
     var6 = dependencyMap;
     var1 = 0;
     var7 = var6[var1];

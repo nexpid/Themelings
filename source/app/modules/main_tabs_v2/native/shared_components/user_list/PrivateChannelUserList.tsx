@@ -297,35 +297,35 @@ case 21:
             var2 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var5 = arg2;
-                    var _closure3_slot0 = var5;
+                    var3 = arg2;
+                    var _closure3_slot0 = var3;
                     var1 = 0;
-                    var4 = var1 === var5;
+                    var5 = var1 === var3;
                     var2 = _closure2_slot6;
-                    var3 = var2.length;
+                    var4 = var2.length;
                     var2 = 1;
-                    var2 = var3 - var2;
-                    var3 = var5 === var2;
+                    var2 = var4 - var2;
+                    var4 = var3 === var2;
                     var2 = _closure2_slot6;
-                    var7 = var2[var5];
+                    var3 = var2[var3];
                     var2 = null;
-                    if(!(var2 == var7)) { _fun0004_ip = 26; continue _fun0004 }
+                    if(!(var2 == var3)) { _fun0004_ip = 26; continue _fun0004 }
 case 2:
                     var2 = {};
-                    var5 = 'placeholder';
-                    var2['type'] = var5;
-                    var5 = {};
-                    var5['start'] = var4;
-                    var5['end'] = var3;
-                    var2['props'] = var5;
+                    var6 = 'placeholder';
+                    var2['type'] = var6;
+                    var6 = {};
+                    var6['start'] = var5;
+                    var6['end'] = var4;
+                    var2['props'] = var6;
                     return var2;
 case 26:
-                    var5 = _closure2_slot7;
-                    if(!var5) { _fun0004_ip = 27; continue _fun0004 }
+                    var6 = _closure2_slot7;
+                    if(!var6) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
-                    var2 = var7.id;
+                    var2 = var3.id;
                     var1 = _closure2_slot8;
-                    var5 = var2 === var1;
+                    var6 = var2 === var1;
 case 27:
                     var1 = {};
                     var2 = 'user';
@@ -334,15 +334,15 @@ case 27:
                     var9 = _closure1_slot7;
                     var9 = var9.NONE;
                     var2['type'] = var9;
-                    var2['user'] = var7;
+                    var2['user'] = var3;
                     var9 = _closure1_slot5;
                     var8 = var9.getNickname;
-                    var7 = var7.id;
-                    var7 = var8.bind(var9)(var7);
-                    var2['nickname'] = var7;
-                    var7 = true;
-                    var2['isNameplatedRow'] = var7;
-                    var6 = function onPress(arg1) {
+                    var3 = var3.id;
+                    var3 = var8.bind(var9)(var3);
+                    var2['nickname'] = var3;
+                    var3 = true;
+                    var2['isNameplatedRow'] = var3;
+                    var7 = function onPress(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             var5 = arg1;
@@ -380,10 +380,11 @@ case 31:
                             return var1;
                         }
                     };
-                    var2['onPress'] = var6;
-                    var2['isOwner'] = var5;
-                    var2['start'] = var4;
-                    var2['end'] = var3;
+                    var2['onPress'] = var7;
+                    var2['isOwner'] = var6;
+                    var2['start'] = var5;
+                    var2['end'] = var4;
+                    var2['canShowDisplayNameStyles'] = var3;
                     var1['props'] = var2;
                     return var1;
                 }

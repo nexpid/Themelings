@@ -61,6 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['STAGE_CHANNEL_RAISE_HAND'] = var4;
     var4 = 'start_stage_prompt';
     var10['START_STAGE_PROMPT'] = var4;
+    var4 = 'age_restricted_dm_commands_settings';
+    var10['AGE_RESTRICTED_DM_COMMANDS_SETTINGS'] = var4;
+    var4 = 'age_restricted_servers_access_settings';
+    var10['AGE_RESTRICTED_SERVERS_ACCESS_SETTINGS'] = var4;
     var9 = {};
     var5 = 1;
     var9['PRIMARY'] = var5;

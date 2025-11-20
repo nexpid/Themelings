@@ -340,15 +340,15 @@ case 0:
                     var2 = function(arg1, arg2) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                            var9 = arg1;
-                            var7 = arg2;
-                            var _closure4_slot0 = var7;
+                            var10 = arg1;
+                            var8 = arg2;
+                            var _closure4_slot0 = var8;
                             var5 = _closure1_slot8;
                             var4 = var5.getMember;
                             var3 = _closure2_slot1;
-                            var2 = var9.record;
+                            var2 = var10.record;
                             var2 = var2.id;
-                            var12 = var4.bind(var5)(var3, var2);
+                            var13 = var4.bind(var5)(var3, var2);
                             var4 = _closure3_slot0;
                             var3 = var4.push;
                             var2 = {};
@@ -359,54 +359,54 @@ case 0:
                             var1 = _closure1_slot17;
                             var1 = var1.NONE;
                             var5['type'] = var1;
-                            var1 = var9.record;
+                            var1 = var10.record;
                             var5['user'] = var1;
-                            var10 = null;
-                            var13 = var10 == var12;
+                            var11 = null;
+                            var12 = var11 == var13;
                             var1 = undefined;
-                            var11 = undefined;
-                            if(var13) { _fun0007_ip = 17; continue _fun0007 }
+                            var6 = undefined;
+                            if(var12) { _fun0007_ip = 17; continue _fun0007 }
 case 18:
-                            var11 = var12.nick;
+                            var6 = var13.nick;
 case 17:
-                            var5['nickname'] = var11;
-                            var13 = var10 == var12;
-                            var11 = undefined;
-                            if(var13) { _fun0007_ip = 19; continue _fun0007 }
+                            var5['nickname'] = var6;
+                            var12 = var11 == var13;
+                            var6 = undefined;
+                            if(var12) { _fun0007_ip = 19; continue _fun0007 }
 case 20:
-                            var11 = var12.colorString;
+                            var6 = var13.colorString;
 case 19:
-                            var5['usernameColor'] = var11;
-                            var13 = var10 == var12;
-                            var11 = undefined;
-                            if(var13) { _fun0007_ip = 21; continue _fun0007 }
+                            var5['usernameColor'] = var6;
+                            var12 = var11 == var13;
+                            var6 = undefined;
+                            if(var12) { _fun0007_ip = 21; continue _fun0007 }
 case 22:
-                            var11 = var12.colorStrings;
+                            var6 = var13.colorStrings;
 case 21:
-                            var5['roleColors'] = var11;
-                            var11 = true;
-                            var5['isNameplatedRow'] = var11;
-                            var13 = var10 == var12;
-                            var11 = undefined;
-                            if(var13) { _fun0007_ip = 23; continue _fun0007 }
+                            var5['roleColors'] = var6;
+                            var6 = true;
+                            var5['isNameplatedRow'] = var6;
+                            var14 = var11 == var13;
+                            var12 = undefined;
+                            if(var14) { _fun0007_ip = 23; continue _fun0007 }
 case 24:
-                            var11 = var12.premiumSince;
+                            var12 = var13.premiumSince;
 case 23:
-                            var12 = var10 != var11;
-                            var10 = undefined;
-                            if(!var12) { _fun0007_ip = 25; continue _fun0007 }
+                            var13 = var11 != var12;
+                            var11 = undefined;
+                            if(!var13) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
-                            var10 = var11;
+                            var11 = var12;
 case 25:
-                            var5['premiumSince'] = var10;
-                            var10 = _closure2_slot8;
-                            var9 = var9.record;
-                            var9 = var9.id;
-                            var9 = var10 === var9;
-                            var5['isOwner'] = var9;
-                            var9 = _closure2_slot1;
-                            var5['guildId'] = var9;
-                            var9 = function onLongPress(arg1) {
+                            var5['premiumSince'] = var11;
+                            var11 = _closure2_slot8;
+                            var10 = var10.record;
+                            var10 = var10.id;
+                            var10 = var11 === var10;
+                            var5['isOwner'] = var10;
+                            var10 = _closure2_slot1;
+                            var5['guildId'] = var10;
+                            var10 = function onLongPress(arg1) {
                                 var4 = _closure2_slot9;
                                 var3 = _closure4_slot0;
                                 var2 = undefined;
@@ -414,8 +414,8 @@ case 25:
                                 var1 = var4.bind(var2)(var1, var3);
                                 return var1;
                             };
-                            var5['onLongPress'] = var9;
-                            var8 = function onPress(arg1) {
+                            var5['onLongPress'] = var10;
+                            var9 = function onPress(arg1) {
                                 var4 = _closure2_slot9;
                                 var3 = _closure4_slot0;
                                 var2 = undefined;
@@ -423,16 +423,17 @@ case 25:
                                 var1 = var4.bind(var2)(var1, var3);
                                 return var1;
                             };
-                            var5['onPress'] = var8;
-                            var8 = 0;
-                            var8 = var8 === var7;
-                            var5['start'] = var8;
-                            var6 = _closure2_slot4;
-                            var8 = var6.length;
-                            var6 = 1;
-                            var6 = var8 - var6;
-                            var6 = var7 === var6;
-                            var5['end'] = var6;
+                            var5['onPress'] = var9;
+                            var9 = 0;
+                            var9 = var9 === var8;
+                            var5['start'] = var9;
+                            var7 = _closure2_slot4;
+                            var9 = var7.length;
+                            var7 = 1;
+                            var7 = var9 - var7;
+                            var7 = var8 === var7;
+                            var5['end'] = var7;
+                            var5['canShowDisplayNameStylesFont'] = var6;
                             var2['props'] = var5;
                             var2 = var3.bind(var4)(var2);
                             return var1;
@@ -524,6 +525,7 @@ case 34:
             var9 = var9.userList;
             var3['listStyleOverride'] = var9;
             var3['isNameplatedList'] = var8;
+            var3['canShowDisplayNameStylesFont'] = var8;
             var1 = var7.bind(var5)(var4, var3);
 case 35:
             _fun0001_ip = 36; continue _fun0001;

@@ -352,6 +352,7 @@ case 21:
                 var3['roleColors'] = var6;
                 var6 = true;
                 var3['isNameplatedRow'] = var6;
+                var3['canShowDisplayNameStylesFont'] = var6;
                 var6 = function onPress(arg1) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;

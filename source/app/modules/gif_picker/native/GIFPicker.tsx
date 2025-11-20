@@ -191,6 +191,10 @@ case 6:
             var2 = var6.bind(var17)(var2, var3);
             var16 = var2.columns;
             var15 = var2.columnWidth;
+            var3 = var17.useRef;
+            var2 = null;
+            var21 = var3.bind(var17)(var2);
+            _closure2_slot5 = var21;
             var3 = var17.useContext;
             var10 = _closure1_slot0;
             var2 = 12;
@@ -198,8 +202,6 @@ case 6:
             var2 = var10.bind(var4)(var2);
             var2 = var2.PortalKeyboardContext;
             var2 = var3.bind(var17)(var2);
-            var21 = var2.searchInputRef;
-            _closure2_slot5 = var21;
             var2 = var2.bottomSheetRefs;
             var19 = var2.expression;
             _closure2_slot6 = var19;
@@ -608,7 +610,7 @@ case 32:
                     var1 = null;
                     if(!(var1 != var2)) { _fun0008_ip = 22; continue _fun0008 }
 case 33:
-                    var1 = var2.expand;
+                    var1 = var2.expandActionSheet;
                     var1 = var1.bind(var2)();
 case 22:
                     var1 = undefined;

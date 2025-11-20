@@ -425,7 +425,7 @@ case 31:
 case 30:
                     if(var3) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
-                    var3 = var4.expand;
+                    var3 = var4.expandActionSheet;
                     var3 = var3.bind(var4)();
 case 32:
                     var3 = _closure2_slot12;

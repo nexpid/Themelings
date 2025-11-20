@@ -75,17 +75,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var7 = var1.props;
-            var10 = var1.onPress;
-            var9 = var1.onLongPress;
-            var15 = var1.onPressIn;
-            var _closure2_slot0 = var15;
+            var11 = var1.onPress;
+            var10 = var1.onLongPress;
+            var16 = var1.onPressIn;
+            var _closure2_slot0 = var16;
             var5 = var1.onPressOut;
             var _closure2_slot1 = var5;
             var8 = var1.accessibilityLabel;
-            var17 = var1.style;
-            var _closure2_slot2 = var17;
+            var18 = var1.style;
+            var _closure2_slot2 = var18;
             var6 = var1.children;
             var3 = var1.pressed;
+            var9 = var1.disabled;
             var4 = undefined;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
@@ -93,37 +94,37 @@ case 0:
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var11 = 6;
-            var12 = var12[var11];
-            var14 = var13.bind(var4)(var12);
-            var13 = var14.useSharedValue;
-            var12 = false;
-            var19 = var13.bind(var14)(var12);
-            var12 = null;
-            if(!(var12 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var12 = 6;
+            var13 = var13[var12];
+            var15 = var14.bind(var4)(var13);
+            var14 = var15.useSharedValue;
+            var13 = false;
+            var20 = var14.bind(var15)(var13);
+            var13 = null;
+            if(!(var13 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var19 = var3;
+            var20 = var3;
 case 2:
-            _closure2_slot3 = var19;
-            var13 = _closure1_slot1;
+            _closure2_slot3 = var20;
+            var14 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var12 = 7;
-            var12 = var3[var12];
-            var12 = var13.bind(var4)(var12);
-            var18 = var12.bind(var4)();
-            _closure2_slot4 = var18;
-            var12 = _closure1_slot6;
-            var16 = var12.bind(var4)();
-            _closure2_slot5 = var16;
-            var13 = _closure1_slot3;
-            var14 = var13.useMemo;
-            var12 = new Array(4);
-            var12[0] = var19;
-            var12[1] = var18;
-            var12[2] = var15;
-            var12[3] = var5;
+            var13 = 7;
+            var13 = var3[var13];
+            var13 = var14.bind(var4)(var13);
+            var19 = var13.bind(var4)();
+            _closure2_slot4 = var19;
+            var13 = _closure1_slot6;
+            var17 = var13.bind(var4)();
+            _closure2_slot5 = var17;
+            var14 = _closure1_slot3;
+            var15 = var14.useMemo;
+            var13 = new Array(4);
+            var13[0] = var20;
+            var13[1] = var19;
+            var13[2] = var16;
+            var13[3] = var5;
             var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -170,21 +171,21 @@ case 9:
                     return var1;
                 }
             };
-            var5 = var14.bind(var13)(var5, var12);
-            var15 = var7.width;
-            _closure2_slot6 = var15;
-            var14 = var7.height;
-            _closure2_slot7 = var14;
+            var5 = var15.bind(var14)(var5, var13);
+            var16 = var7.width;
+            _closure2_slot6 = var16;
+            var15 = var7.height;
+            _closure2_slot7 = var15;
             var7 = _closure1_slot0;
-            var3 = var3[var11];
-            var11 = var7.bind(var4)(var3);
-            var7 = var11.useSharedValue;
+            var3 = var3[var12];
+            var12 = var7.bind(var4)(var3);
+            var7 = var12.useSharedValue;
             var3 = 0;
-            var3 = var7.bind(var11)(var3);
+            var3 = var7.bind(var12)(var3);
             _closure2_slot8 = var3;
-            var12 = var13.useMemo;
-            var11 = new Array(1);
-            var11[0] = var3;
+            var13 = var14.useMemo;
+            var12 = new Array(1);
+            var12[0] = var3;
             var7 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -289,8 +290,8 @@ case 10:
                     return var1;
                 }
             };
-            var12 = var12.bind(var13)(var7, var11);
-            var11 = var13.useMemo;
+            var13 = var13.bind(var14)(var7, var12);
+            var12 = var14.useMemo;
             var7 = new Array(1);
             var7[0] = var3;
             var3 = function() {
@@ -386,14 +387,14 @@ case 10:
                     return var1;
                 }
             };
-            var11 = var11.bind(var13)(var3, var7);
-            var7 = var13.useMemo;
+            var12 = var12.bind(var14)(var3, var7);
+            var7 = var14.useMemo;
             var3 = new Array(4);
-            var3[0] = var17;
-            var16 = var16.pressableWrapper;
-            var3[1] = var16;
-            var3[2] = var15;
-            var3[3] = var14;
+            var3[0] = var18;
+            var17 = var17.pressableWrapper;
+            var3[1] = var17;
+            var3[2] = var16;
+            var3[3] = var15;
             var2 = function() {
                 var1 = _closure2_slot5;
                 var3 = var1.pressableWrapper;
@@ -409,17 +410,18 @@ case 10:
                 var1[2] = var2;
                 return var1;
             };
-            var7 = var7.bind(var13)(var2, var3);
+            var7 = var7.bind(var14)(var2, var3);
             var3 = _closure1_slot5;
             var2 = _closure1_slot7;
             var1 = {};
-            var1['entering'] = var12;
-            var1['exiting'] = var11;
-            var1['onPress'] = var10;
-            var1['onLongPress'] = var9;
-            var21 = var1;
-            var20 = var5;
-            var5 = copyDataProperties(var21, var20);
+            var1['entering'] = var13;
+            var1['exiting'] = var12;
+            var1['onPress'] = var11;
+            var1['onLongPress'] = var10;
+            var1['disabled'] = var9;
+            var22 = var1;
+            var21 = var5;
+            var5 = copyDataProperties(var22, var21);
             var9 = 'button';
             var5 = 'accessibilityRole';
             var1[var5] = var9;

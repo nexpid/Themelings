@@ -252,16 +252,12 @@ case 8:
         }
     };
     var3['getCardAssetUrl'] = var4;
-    var2 = function useCheckpointPercentileAltData(arg1, arg2, arg3) {
-        var6 = arg2;
-        var3 = arg3;
+    var2 = function useCheckpointPercentileAltData(arg1, arg2) {
+        var6 = arg1;
+        var3 = arg2;
         var _closure2_slot0 = var6;
         var _closure2_slot1 = var3;
         var1 = {};
-        var5 = arg1;
-        var4 = 50;
-        var4 = var5 > var4;
-        var1['showPercentile'] = var4;
         var5 = _closure1_slot3;
         var4 = new Array(2);
         var4[0] = var6;

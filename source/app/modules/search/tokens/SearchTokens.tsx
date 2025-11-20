@@ -1953,208 +1953,6 @@ case 120:
         }
     };
     var _closure1_slot45 = var1;
-    var1 = function getHasOptions() {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 21;
-            var1 = var4[var1];
-            var7 = undefined;
-            var4 = var3.bind(var7)(var1);
-            var3 = var4.getIsHasSearchFilterElevated;
-            var1 = {};
-            var5 = 'getHasOptions';
-            var1['location'] = var5;
-            var1 = var3.bind(var4)(var1);
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 13;
-            var2 = var8[var3];
-            var2 = var6.bind(var7)(var2);
-            var5 = var2.intl;
-            var4 = var5.string;
-            var2 = var8[var3];
-            var2 = var6.bind(var7)(var2);
-            var2 = var2.t;
-            if(var1) { _fun0024_ip = 127; continue _fun0024 }
-case 128:
-            var1 = var2.ZNR2fi;
-            var9 = var4.bind(var5)(var1);
-            var1 = new Array(9);
-            var1[0] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.20uQR3;
-            var9 = var10.bind(var11)(var9);
-            var1[1] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.L4lxyE;
-            var9 = var10.bind(var11)(var9);
-            var1[2] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.AV/v6i;
-            var9 = var10.bind(var11)(var9);
-            var1[3] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.XM9XGP;
-            var9 = var10.bind(var11)(var9);
-            var1[4] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.TNLcpx;
-            var9 = var10.bind(var11)(var9);
-            var1[5] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.F8Wf0e;
-            var9 = var10.bind(var11)(var9);
-            var1[6] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.PJgX2h;
-            var9 = var10.bind(var11)(var9);
-            var1[7] = var9;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var11 = var9.intl;
-            var10 = var11.string;
-            var9 = var8[var3];
-            var9 = var6.bind(var7)(var9);
-            var9 = var9.t;
-            var9 = var9.nrpA5E;
-            var9 = var10.bind(var11)(var9);
-            var1[8] = var9;
-            _fun0024_ip = 129; continue _fun0024;
-case 127:
-            var2 = var2.TNLcpx;
-            var4 = var4.bind(var5)(var2);
-            var2 = new Array(9);
-            var2[0] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.XM9XGP;
-            var4 = var5.bind(var9)(var4);
-            var2[1] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.ZNR2fi;
-            var4 = var5.bind(var9)(var4);
-            var2[2] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.AV/v6i;
-            var4 = var5.bind(var9)(var4);
-            var2[3] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.20uQR3;
-            var4 = var5.bind(var9)(var4);
-            var2[4] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.F8Wf0e;
-            var4 = var5.bind(var9)(var4);
-            var2[5] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.L4lxyE;
-            var4 = var5.bind(var9)(var4);
-            var2[6] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var9 = var4.intl;
-            var5 = var9.string;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.t;
-            var4 = var4.PJgX2h;
-            var4 = var5.bind(var9)(var4);
-            var2[7] = var4;
-            var4 = var8[var3];
-            var4 = var6.bind(var7)(var4);
-            var5 = var4.intl;
-            var4 = var5.string;
-            var3 = var8[var3];
-            var3 = var6.bind(var7)(var3);
-            var3 = var3.t;
-            var3 = var3.nrpA5E;
-            var3 = var4.bind(var5)(var3);
-            var2[8] = var3;
-            var1 = var2;
-case 129:
-            return var1;
-        }
-    };
-    var _closure1_slot46 = var1;
     var1 = function makeSearchTokenConfigs(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -2194,6 +1992,97 @@ case 129:
         var1 = var2.bind(var3)(var1);
         var13[2] = var1;
         var _closure2_slot1 = var13;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.ZNR2fi;
+        var1 = var2.bind(var3)(var1);
+        var10 = new Array(9);
+        var10[0] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.20uQR3;
+        var1 = var2.bind(var3)(var1);
+        var10[1] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.L4lxyE;
+        var1 = var2.bind(var3)(var1);
+        var10[2] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.AV/v6i;
+        var1 = var2.bind(var3)(var1);
+        var10[3] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.XM9XGP;
+        var1 = var2.bind(var3)(var1);
+        var10[4] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.TNLcpx;
+        var1 = var2.bind(var3)(var1);
+        var10[5] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.F8Wf0e;
+        var1 = var2.bind(var3)(var1);
+        var10[6] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.PJgX2h;
+        var1 = var2.bind(var3)(var1);
+        var10[7] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.nrpA5E;
+        var1 = var2.bind(var3)(var1);
+        var10[8] = var1;
         var1 = {};
         var2 = _closure1_slot16;
         var3 = var2.FILTER_FROM;
@@ -2244,9 +2133,9 @@ case 129:
         var3 = var2.ANSWER_USERNAME_FROM;
         var2 = {};
         var5 = _closure1_slot16;
-        var10 = var5.FILTER_FROM;
+        var11 = var5.FILTER_FROM;
         var5 = new Array(1);
-        var5[0] = var10;
+        var5[0] = var11;
         var2['follows'] = var5;
         var5 = _closure1_slot23;
         var2['regex'] = var5;
@@ -2254,50 +2143,50 @@ case 129:
         var2['validator'] = var5;
         var11 = true;
         var2['mutable'] = var11;
-        var10 = _closure1_slot24;
-        var10 = var10.ANSWER;
-        var2['componentType'] = var10;
-        var10 = 'author_id';
-        var2['queryKey'] = var10;
+        var12 = _closure1_slot24;
+        var12 = var12.ANSWER;
+        var2['componentType'] = var12;
+        var12 = 'author_id';
+        var2['queryKey'] = var12;
         var1[var3] = var2;
         var2 = _closure1_slot16;
         var3 = var2.FILTER_MENTIONS;
         var2 = {};
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var19 = var10.intl;
-        var12 = var19.string;
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var10 = var10.t;
-        var10 = var10.i96lO+;
-        var10 = var12.bind(var19)(var10);
-        var10 = var18.bind(var15)(var10);
-        var2['regex'] = var10;
-        var10 = _closure1_slot24;
-        var10 = var10.FILTER;
-        var2['componentType'] = var10;
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var19 = var10.intl;
-        var12 = var19.string;
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var10 = var10.t;
-        var10 = var10.i96lO+;
-        var10 = var12.bind(var19)(var10);
-        var10 = var14.bind(var15)(var10);
-        var2['key'] = var10;
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var19 = var10.intl;
-        var12 = var19.string;
-        var10 = var17[var7];
-        var10 = var16.bind(var15)(var10);
-        var10 = var10.t;
-        var10 = var10.i96lO+;
-        var10 = var12.bind(var19)(var10);
-        var2['plainText'] = var10;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var12 = var18.bind(var15)(var12);
+        var2['regex'] = var12;
+        var12 = _closure1_slot24;
+        var12 = var12.FILTER;
+        var2['componentType'] = var12;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var12 = var14.bind(var15)(var12);
+        var2['key'] = var12;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var2['plainText'] = var12;
         var2['validator'] = var9;
         var2['getAutocompletions'] = var8;
         var1[var3] = var2;
@@ -2358,15 +2247,210 @@ case 129:
         var5 = var8.bind(var9)(var5);
         var2['plainText'] = var5;
         var5 = function getAutocompletions(arg1) {
-            var1 = arg1;
-            var5 = var1.query;
-            var4 = var1.maxResults;
-            var3 = _closure1_slot42;
-            var1 = _closure1_slot46;
-            var2 = undefined;
-            var1 = var1.bind(var2)();
-            var1 = var3.bind(var2)(var5, var4, var1);
-            return var1;
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+case 0:
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.maxResults;
+                var3 = _closure1_slot42;
+                var7 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 21;
+                var1 = var2[var1];
+                var2 = undefined;
+                var8 = var7.bind(var2)(var1);
+                var7 = var8.getIsHasSearchFilterElevated;
+                var1 = {};
+                var9 = 'getHasOptions';
+                var1['location'] = var9;
+                var1 = var7.bind(var8)(var1);
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var7 = 13;
+                var6 = var11[var7];
+                var6 = var10.bind(var2)(var6);
+                var9 = var6.intl;
+                var8 = var9.string;
+                var6 = var11[var7];
+                var6 = var10.bind(var2)(var6);
+                var6 = var6.t;
+                if(var1) { _fun0024_ip = 64; continue _fun0024 }
+case 127:
+                var1 = var6.ZNR2fi;
+                var12 = var8.bind(var9)(var1);
+                var1 = new Array(9);
+                var1[0] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.20uQR3;
+                var12 = var13.bind(var14)(var12);
+                var1[1] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.L4lxyE;
+                var12 = var13.bind(var14)(var12);
+                var1[2] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.AV/v6i;
+                var12 = var13.bind(var14)(var12);
+                var1[3] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.XM9XGP;
+                var12 = var13.bind(var14)(var12);
+                var1[4] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.TNLcpx;
+                var12 = var13.bind(var14)(var12);
+                var1[5] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.F8Wf0e;
+                var12 = var13.bind(var14)(var12);
+                var1[6] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.PJgX2h;
+                var12 = var13.bind(var14)(var12);
+                var1[7] = var12;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var14 = var12.intl;
+                var13 = var14.string;
+                var12 = var11[var7];
+                var12 = var10.bind(var2)(var12);
+                var12 = var12.t;
+                var12 = var12.nrpA5E;
+                var12 = var13.bind(var14)(var12);
+                var1[8] = var12;
+                _fun0024_ip = 128; continue _fun0024;
+case 64:
+                var6 = var6.TNLcpx;
+                var8 = var8.bind(var9)(var6);
+                var6 = new Array(9);
+                var6[0] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.XM9XGP;
+                var8 = var9.bind(var12)(var8);
+                var6[1] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.ZNR2fi;
+                var8 = var9.bind(var12)(var8);
+                var6[2] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.AV/v6i;
+                var8 = var9.bind(var12)(var8);
+                var6[3] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.20uQR3;
+                var8 = var9.bind(var12)(var8);
+                var6[4] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.F8Wf0e;
+                var8 = var9.bind(var12)(var8);
+                var6[5] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.L4lxyE;
+                var8 = var9.bind(var12)(var8);
+                var6[6] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var12 = var8.intl;
+                var9 = var12.string;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var8 = var8.t;
+                var8 = var8.PJgX2h;
+                var8 = var9.bind(var12)(var8);
+                var6[7] = var8;
+                var8 = var11[var7];
+                var8 = var10.bind(var2)(var8);
+                var9 = var8.intl;
+                var8 = var9.string;
+                var7 = var11[var7];
+                var7 = var10.bind(var2)(var7);
+                var7 = var7.t;
+                var7 = var7.nrpA5E;
+                var7 = var8.bind(var9)(var7);
+                var6[8] = var7;
+                var1 = var6;
+case 128:
+                var1 = var3.bind(var2)(var5, var4, var1);
+                return var1;
+            }
         };
         var2['getAutocompletions'] = var5;
         var1[var3] = var2;
@@ -2375,8 +2459,6 @@ case 129:
         var2 = {};
         var5 = global;
         var21 = var5.RegExp;
-        var8 = _closure1_slot46;
-        var10 = var8.bind(var15)();
         var9 = var10.map;
         var8 = function(arg1) {
             var3 = _closure1_slot1;
@@ -2817,7 +2899,7 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 if(!(var1 == var3)) { _fun0025_ip = 70; continue _fun0025 }
-case 130:
+case 129:
                 var4 = _closure1_slot12;
                 var3 = var4.getSelectedSearchContext;
                 var4 = var3.bind(var4)();
@@ -2864,7 +2946,7 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 if(!(var1 == var3)) { _fun0026_ip = 70; continue _fun0026 }
-case 130:
+case 129:
                 var4 = _closure1_slot12;
                 var3 = var4.getSelectedSearchContext;
                 var5 = var3.bind(var4)();
@@ -2873,13 +2955,13 @@ case 70:
                 var5 = _closure2_slot0;
 case 116:
                 var1 = var1 != var5;
-                if(!var1) { _fun0026_ip = 131; continue _fun0026 }
+                if(!var1) { _fun0026_ip = 130; continue _fun0026 }
 case 57:
                 var4 = _closure1_slot37;
                 var3 = undefined;
                 var2 = arg1;
                 var1 = var4.bind(var3)(var2, var5);
-case 131:
+case 130:
                 return var1;
             }
         };
@@ -2962,20 +3044,20 @@ case 0:
                 var1 = 1;
                 var2 = var2.bind(var5)(var1);
                 var1 = 'true';
-                if(!(var1 !== var2)) { _fun0027_ip = 132; continue _fun0027 }
-case 133:
+                if(!(var1 !== var2)) { _fun0027_ip = 131; continue _fun0027 }
+case 132:
                 var1 = 'false';
                 var1 = var1 === var2;
-                if(!var1) { _fun0027_ip = 134; continue _fun0027 }
+                if(!var1) { _fun0027_ip = 133; continue _fun0027 }
 case 116:
                 var4 = var5.setData;
                 var3 = 'pinned';
                 var2 = false;
                 var2 = var4.bind(var5)(var3, var2);
                 var1 = true;
-case 134:
+case 133:
                 _fun0027_ip = 101; continue _fun0027;
-case 132:
+case 131:
                 var4 = var5.setData;
                 var3 = 'pinned';
                 var2 = true;
@@ -3097,7 +3179,7 @@ case 101:
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot46 = var1;
     var4 = function isSearchFilterTokenType(arg1) {
         var3 = _closure1_slot19;
         var2 = var3.test;
@@ -3105,7 +3187,7 @@ case 101:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot48 = var4;
+    var _closure1_slot47 = var4;
     var5 = global;
     var14 = var5.Object;
     var13 = var14.defineProperty;
@@ -3231,7 +3313,7 @@ case 101:
     var3['getUserAutocompletions'] = var6;
     var3['ComponentTypes'] = var5;
     var5 = function buildCrossDMSearchTokensConfig() {
-        var3 = _closure1_slot47;
+        var3 = _closure1_slot46;
         var2 = {};
         var1 = _closure1_slot18;
         var1 = var1.DMS;
@@ -3246,7 +3328,7 @@ case 101:
         var5 = var1.Object;
         var4 = var5.assign;
         var3 = _closure1_slot25;
-        var2 = _closure1_slot47;
+        var2 = _closure1_slot46;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var2 = var4.bind(var5)(var3, var2);
@@ -3260,7 +3342,7 @@ case 0:
             var10 = arg1;
             var9 = arguments[1];
             var8 = undefined;
-            if(!(var9 === var8)) { _fun0028_ip = 135; continue _fun0028 }
+            if(!(var9 === var8)) { _fun0028_ip = 134; continue _fun0028 }
 case 3:
             var1 = global;
             var3 = var1.Object;
@@ -3268,7 +3350,7 @@ case 3:
             var1 = _closure1_slot25;
             var1 = var2.bind(var3)(var1);
             var9 = var1.length;
-case 135:
+case 134:
             var1 = new Array(0);
             var2 = global;
             var4 = var2.Object;
@@ -3280,23 +3362,23 @@ case 135:
             var2 = var5 < var2;
             var4 = 18;
             var3 = null;
-            if(!var2) { _fun0028_ip = 136; continue _fun0028 }
-case 137:
+            if(!var2) { _fun0028_ip = 135; continue _fun0028 }
+case 136:
             var13 = var6[var5];
             var2 = var1.length;
-            if(!(!(var2 >= var9))) { _fun0028_ip = 136; continue _fun0028 }
-case 138:
+            if(!(!(var2 >= var9))) { _fun0028_ip = 135; continue _fun0028 }
+case 137:
             var2 = _closure1_slot25;
             var2 = var2[var13];
             var12 = var2.key;
-            var2 = _closure1_slot48;
+            var2 = _closure1_slot47;
             var2 = var2.bind(var8)(var13);
             if(!var2) { _fun0028_ip = 24; continue _fun0028 }
-case 139:
+case 138:
             var2 = var3 != var12;
 case 24:
             if(!var2) { _fun0028_ip = 9; continue _fun0028 }
-case 140:
+case 139:
             var14 = _closure1_slot1;
             var11 = _closure1_slot2;
             var11 = var11[var4];
@@ -3306,7 +3388,7 @@ case 140:
             var2 = var14.bind(var8)(var11, var12);
 case 9:
             if(!var2) { _fun0028_ip = 41; continue _fun0028 }
-case 141:
+case 140:
             var11 = var1.push;
             var2 = {};
             var2['token'] = var13;
@@ -3315,8 +3397,8 @@ case 141:
 case 41:
             var5 = var5 + 1;
             var2 = var6.length;
-            if(var5 < var2) { _fun0028_ip = 137; continue _fun0028 }
-case 136:
+            if(var5 < var2) { _fun0028_ip = 136; continue _fun0028 }
+case 135:
             return var1;
         }
     };
@@ -3327,7 +3409,7 @@ case 0:
             var2 = arg1;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0029_ip = 142; continue _fun0029 }
+            if(!(var1 !== var3)) { _fun0029_ip = 141; continue _fun0029 }
 case 117:
             var1 = var2.toLowerCase;
             var4 = var1.bind(var2)();
@@ -3350,17 +3432,17 @@ case 117:
             var3 = var3.bind(var5)(var1);
             var1 = var3.startsWith;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0029_ip = 143; continue _fun0029 }
-case 144:
+            if(var1) { _fun0029_ip = 142; continue _fun0029 }
+case 143:
             var5 = _closure1_slot15;
             var3 = var5.substring;
             var2 = 1;
             var3 = var3.bind(var5)(var2);
             var2 = var3.startsWith;
             var1 = var2.bind(var3)(var4);
-case 143:
-            return var1;
 case 142:
+            return var1;
+case 141:
             var1 = false;
             return var1;
         }

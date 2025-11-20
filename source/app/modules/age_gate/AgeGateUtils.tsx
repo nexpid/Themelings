@@ -407,7 +407,7 @@ case 29:
         }
     };
     var _closure1_slot26 = var5;
-    var2 = function isCurrentUserMissingDateOfBirth() {
+    var4 = function isCurrentUserMissingDateOfBirth() {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = _closure1_slot7;
@@ -423,7 +423,7 @@ case 51:
             return var1;
         }
     };
-    var _closure1_slot27 = var2;
+    var _closure1_slot27 = var4;
     var6 = global;
     var10 = var6.Object;
     var9 = var10.defineProperty;
@@ -618,7 +618,7 @@ case 63:
         }
     };
     var _closure1_slot18 = var6;
-    var16 = 17;
+    var16 = 18;
     var16 = var18[var16];
     var18 = var17.bind(var1)(var16);
     var17 = var18.fileFinishedImporting;
@@ -1532,7 +1532,7 @@ case 30:
     };
     var3['userCannotSeeNSFWContent'] = var6;
     var3['isChannelContentGated'] = var5;
-    var4 = function useIsChannelContentGated(arg1) {
+    var5 = function useIsChannelContentGated(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var10 = arg1;
@@ -1702,7 +1702,57 @@ case 164:
             return var1;
         }
     };
-    var3['useIsChannelContentGated'] = var4;
-    var3['isCurrentUserMissingDateOfBirth'] = var2;
+    var3['useIsChannelContentGated'] = var5;
+    var3['isCurrentUserMissingDateOfBirth'] = var4;
+    var4 = function shouldAgeVerifyForSettingsToggles() {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 17;
+            var1 = var5[var1];
+            var3 = undefined;
+            var6 = var4.bind(var3)(var1);
+            var2 = var6.isAgeVerificationCommandsTogglesEnabled;
+            var1 = 'age-gate-utils';
+            var1 = var2.bind(var6)(var1);
+            var2 = 10;
+            var2 = var5[var2];
+            var3 = var4.bind(var3)(var2);
+            var2 = var3.shouldShowTiggerPawtect;
+            var2 = var2.bind(var3)();
+            if(!var1) { _fun0028_ip = 2; continue _fun0028 }
+case 67:
+            var1 = var2;
+case 2:
+            return var1;
+        }
+    };
+    var3['shouldAgeVerifyForSettingsToggles'] = var4;
+    var2 = function useShouldAgeVerifyForSettingsToggles() {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 17;
+            var1 = var5[var1];
+            var3 = undefined;
+            var6 = var4.bind(var3)(var1);
+            var2 = var6.useIsAgeVerificationCommandsTogglesEnabled;
+            var1 = 'age-gate-utils';
+            var1 = var2.bind(var6)(var1);
+            var2 = 10;
+            var2 = var5[var2];
+            var3 = var4.bind(var3)(var2);
+            var2 = var3.useShouldShowTiggerPawtect;
+            var2 = var2.bind(var3)();
+            if(!var1) { _fun0029_ip = 2; continue _fun0029 }
+case 67:
+            var1 = var2;
+case 2:
+            return var1;
+        }
+    };
+    var3['useShouldAgeVerifyForSettingsToggles'] = var2;
     return var1;
 })();

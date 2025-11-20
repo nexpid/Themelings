@@ -195,21 +195,19 @@ case 13:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.updateMFALevel;
                     var1 = {};
-                    var5 = _closure2_slot1;
-                    var5 = var5.id;
-                    var1['guildId'] = var5;
-                    var5 = _closure2_slot2;
-                    var6 = _closure1_slot11;
-                    if(var5) { _fun0002_ip = 14; continue _fun0002 }
+                    var6 = _closure2_slot1;
+                    var6 = var6.id;
+                    var1['guildId'] = var6;
+                    var4 = _closure2_slot2;
+                    var5 = _closure1_slot11;
+                    if(var4) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                    var5 = var6.ELEVATED;
+                    var4 = var5.ELEVATED;
                     _fun0002_ip = 16; continue _fun0002;
 case 14:
-                    var5 = var6.NONE;
+                    var4 = var5.NONE;
 case 16:
-                    var1['level'] = var5;
-                    var4 = _closure2_slot2;
-                    var1['isEnabled'] = var4;
+                    var1['level'] = var4;
                     var1 = var2.bind(var3)(var1);
 case 12:
                     var1 = undefined;

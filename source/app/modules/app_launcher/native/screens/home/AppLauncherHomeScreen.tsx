@@ -2375,7 +2375,7 @@ case 0:
                             var2 = _closure3_slot2;
                             var2 = var2.length;
                             var8 = 0;
-                            if(!(var8 !== var2)) { _fun0031_ip = 75; continue _fun0031 }
+                            if(!(var8 !== var2)) { _fun0031_ip = 77; continue _fun0031 }
 case 121:
                             var3 = _closure3_slot1;
                             var4 = _closure1_slot0;
@@ -2386,7 +2386,7 @@ case 121:
                             var2 = var4.bind(var9)(var2);
                             var2 = var2.AppLauncherEntrypoint;
                             var2 = var2.VOICE;
-                            if(!(var3 === var2)) { _fun0031_ip = 75; continue _fun0031 }
+                            if(!(var3 === var2)) { _fun0031_ip = 77; continue _fun0031 }
 case 97:
                             var3 = new Array(0);
                             var2 = _closure3_slot2;
@@ -2477,7 +2477,7 @@ case 124:
                             var12 = var2;
                             var2 = arraySpread(var14, var13, var12);
                             return var1;
-case 75:
+case 77:
                             var1 = new Array(0);
                             return var1;
                         }

@@ -1125,13 +1125,14 @@ case 40:
             var27 = 'Launch Clicker Game';
             var12['label'] = var27;
             var27 = function onPress() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
                 var1 = 58;
-                var1 = var2[var1];
-                var2 = undefined;
-                var1 = var3.bind(var2)(var1);
-                var1 = var1.bind(var2)();
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = 'devtools';
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var12['onPress'] = var27;

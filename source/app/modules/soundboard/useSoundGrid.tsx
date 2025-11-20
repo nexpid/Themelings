@@ -712,275 +712,275 @@ case 41:
             var1 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                    var18 = 0;
-                    var _closure3_slot0 = var18;
-                    var _closure3_slot1 = var18;
+                    var19 = 0;
+                    var _closure3_slot0 = var19;
+                    var _closure3_slot1 = var19;
                     var4 = new Array(0);
                     var1 = _closure2_slot2;
                     if(var1) { _fun0011_ip = 60; continue _fun0011 }
 case 61:
-                    var5 = _closure1_slot16;
+                    var7 = _closure1_slot16;
                     var1 = {};
                     var1['sections'] = var4;
-                    var7 = _closure2_slot8;
-                    var1['guildIds'] = var7;
-                    var7 = _closure2_slot4;
-                    var1['allSounds'] = var7;
-                    var7 = global;
-                    var9 = var7.Array;
-                    var8 = var9.from;
-                    var7 = _closure2_slot5;
-                    var7 = var8.bind(var9)(var7);
-                    var1['potentialSoundIdsForSection'] = var7;
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var17 = 9;
-                    var8 = var10[var17];
-                    var7 = undefined;
-                    var8 = var9.bind(var7)(var8);
-                    var8 = var8.SoundboardSoundGridSectionType;
-                    var8 = var8.FAVORITES;
-                    var1['sectionType'] = var8;
-                    var8 = 11;
-                    var8 = var10[var8];
-                    var8 = var9.bind(var7)(var8);
-                    var8 = var8.sortSoundsOldestToNewestCreationDate;
-                    var1['sortSoundsFn'] = var8;
-                    var1 = var5.bind(var7)(var1);
+                    var2 = _closure2_slot8;
+                    var1['guildIds'] = var2;
+                    var2 = _closure2_slot4;
+                    var1['allSounds'] = var2;
+                    var2 = global;
+                    var10 = var2.Array;
+                    var9 = var10.from;
+                    var8 = _closure2_slot5;
+                    var8 = var9.bind(var10)(var8);
+                    var1['potentialSoundIdsForSection'] = var8;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var18 = 9;
+                    var9 = var11[var18];
+                    var8 = undefined;
+                    var9 = var10.bind(var8)(var9);
+                    var9 = var9.SoundboardSoundGridSectionType;
+                    var9 = var9.FAVORITES;
+                    var1['sectionType'] = var9;
+                    var9 = 11;
+                    var9 = var11[var9];
+                    var9 = var10.bind(var8)(var9);
+                    var9 = var9.sortSoundsOldestToNewestCreationDate;
+                    var1['sortSoundsFn'] = var9;
+                    var1 = var7.bind(var8)(var1);
                     var1 = _closure2_slot13;
                     if(!var1) { _fun0011_ip = 62; continue _fun0011 }
 case 63:
-                    var5 = _closure1_slot16;
+                    var7 = _closure1_slot16;
                     var1 = {};
                     var1['sections'] = var4;
-                    var8 = _closure2_slot8;
-                    var1['guildIds'] = var8;
-                    var8 = _closure2_slot4;
-                    var1['allSounds'] = var8;
-                    var8 = _closure2_slot16;
-                    var1['potentialSoundIdsForSection'] = var8;
-                    var9 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var8 = var8[var17];
-                    var8 = var9.bind(var7)(var8);
-                    var8 = var8.SoundboardSoundGridSectionType;
-                    var8 = var8.RECENTLY_HEARD;
-                    var1['sectionType'] = var8;
-                    var1 = var5.bind(var7)(var1);
+                    var9 = _closure2_slot8;
+                    var1['guildIds'] = var9;
+                    var9 = _closure2_slot4;
+                    var1['allSounds'] = var9;
+                    var9 = _closure2_slot16;
+                    var1['potentialSoundIdsForSection'] = var9;
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var18];
+                    var9 = var10.bind(var8)(var9);
+                    var9 = var9.SoundboardSoundGridSectionType;
+                    var9 = var9.RECENTLY_HEARD;
+                    var1['sectionType'] = var9;
+                    var1 = var7.bind(var8)(var1);
 case 62:
                     var1 = _closure2_slot14;
                     if(!var1) { _fun0011_ip = 64; continue _fun0011 }
 case 65:
-                    var5 = _closure1_slot16;
+                    var7 = _closure1_slot16;
                     var1 = {};
                     var1['sections'] = var4;
-                    var8 = _closure2_slot8;
-                    var1['guildIds'] = var8;
-                    var8 = _closure2_slot4;
-                    var1['allSounds'] = var8;
-                    var10 = _closure2_slot15;
-                    var9 = var10.map;
-                    var8 = function(arg1) {
+                    var9 = _closure2_slot8;
+                    var1['guildIds'] = var9;
+                    var9 = _closure2_slot4;
+                    var1['allSounds'] = var9;
+                    var11 = _closure2_slot15;
+                    var10 = var11.map;
+                    var9 = function(arg1) {
                         var1 = arg1;
                         var1 = var1.soundId;
                         return var1;
                     };
-                    var8 = var9.bind(var10)(var8);
-                    var1['potentialSoundIdsForSection'] = var8;
-                    var9 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var8 = var8[var17];
-                    var8 = var9.bind(var7)(var8);
-                    var8 = var8.SoundboardSoundGridSectionType;
-                    var8 = var8.FREQUENTLY_USED;
-                    var1['sectionType'] = var8;
-                    var1 = var5.bind(var7)(var1);
+                    var9 = var10.bind(var11)(var9);
+                    var1['potentialSoundIdsForSection'] = var9;
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var18];
+                    var9 = var10.bind(var8)(var9);
+                    var9 = var9.SoundboardSoundGridSectionType;
+                    var9 = var9.FREQUENTLY_USED;
+                    var1['sectionType'] = var9;
+                    var1 = var7.bind(var8)(var1);
 case 64:
                     var1 = _closure2_slot11;
-                    if(!(var7 !== var1)) { _fun0011_ip = 66; continue _fun0011 }
+                    if(!(var8 !== var1)) { _fun0011_ip = 66; continue _fun0011 }
 case 67:
-                    var9 = _closure2_slot11;
-                    var8 = {};
+                    var10 = _closure2_slot11;
+                    var9 = {};
                     var1 = _closure2_slot12;
-                    var8['currentGuildHasAddPermissions'] = var1;
+                    var9['currentGuildHasAddPermissions'] = var1;
                     var1 = _closure2_slot4;
-                    var8['allSounds'] = var1;
+                    var9['allSounds'] = var1;
                     var1 = _closure2_slot1;
-                    var8['filterOutEmptyCurrentGuild'] = var1;
+                    var9['filterOutEmptyCurrentGuild'] = var1;
                     var1 = _closure2_slot7;
-                    var8['sortSoundsFn'] = var1;
-                    var5 = var8.currentGuildHasAddPermissions;
-                    var12 = var8.allSounds;
-                    var1 = var8.filterOutEmptyCurrentGuild;
-                    var11 = var8.sortSoundsFn;
-                    var10 = var12.get;
-                    var8 = var9.id;
-                    var10 = var10.bind(var12)(var8);
-                    var8 = null;
-                    if(!(var8 == var10)) { _fun0011_ip = 68; continue _fun0011 }
+                    var9['sortSoundsFn'] = var1;
+                    var7 = var9.currentGuildHasAddPermissions;
+                    var13 = var9.allSounds;
+                    var1 = var9.filterOutEmptyCurrentGuild;
+                    var12 = var9.sortSoundsFn;
+                    var11 = var13.get;
+                    var9 = var10.id;
+                    var11 = var11.bind(var13)(var9);
+                    var9 = null;
+                    if(!(var9 == var11)) { _fun0011_ip = 68; continue _fun0011 }
 case 69:
-                    var10 = new Array(0);
+                    var11 = new Array(0);
 case 68:
-                    var8 = _closure1_slot15;
-                    var8 = var8.bind(var7)(var10, var11);
-                    var11 = var10.length;
-                    var12 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var10 = 10;
-                    var10 = var13[var10];
-                    var12 = var12.bind(var7)(var10);
-                    var10 = var12.getMaxSoundboardSlots;
-                    var10 = var10.bind(var12)(var9);
-                    var10 = var11 < var10;
-                    if(!var10) { _fun0011_ip = 70; continue _fun0011 }
-case 71:
-                    var10 = var5;
-case 70:
-                    var5 = var8.length;
-                    var5 = var18 === var5;
-                    var10 = !var10;
-                    if(!var10) { _fun0011_ip = 72; continue _fun0011 }
-case 73:
-                    var10 = !var5;
-case 72:
-                    if(var10) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
-                    var10 = var1;
-case 74:
-                    if(var10) { _fun0011_ip = 76; continue _fun0011 }
-case 77:
-                    var11 = var8.push;
-                    var10 = {};
+                    var9 = _closure1_slot15;
+                    var9 = var9.bind(var8)(var11, var12);
+                    var12 = var11.length;
                     var13 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var12 = var12[var17];
-                    var12 = var13.bind(var7)(var12);
-                    var12 = var12.SoundboardSoundItemType;
-                    var12 = var12.ADD_SOUND;
-                    var10['type'] = var12;
-                    var10['guild'] = var9;
-                    var10 = var11.bind(var8)(var10);
+                    var14 = _closure1_slot2;
+                    var11 = 10;
+                    var11 = var14[var11];
+                    var13 = var13.bind(var8)(var11);
+                    var11 = var13.getMaxSoundboardSlots;
+                    var11 = var11.bind(var13)(var10);
+                    var11 = var12 < var11;
+                    if(!var11) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
+                    var11 = var7;
+case 70:
+                    var7 = var9.length;
+                    var7 = var19 === var7;
+                    var11 = !var11;
+                    if(!var11) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
+                    var11 = !var7;
+case 72:
+                    if(var11) { _fun0011_ip = 74; continue _fun0011 }
+case 75:
+                    var11 = var1;
+case 74:
+                    if(var11) { _fun0011_ip = 76; continue _fun0011 }
+case 77:
+                    var12 = var9.push;
+                    var11 = {};
+                    var14 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var13 = var13[var18];
+                    var13 = var14.bind(var8)(var13);
+                    var13 = var13.SoundboardSoundItemType;
+                    var13 = var13.ADD_SOUND;
+                    var11['type'] = var13;
+                    var11['guild'] = var10;
+                    var11 = var12.bind(var9)(var11);
 case 76:
                     if(!var1) { _fun0011_ip = 78; continue _fun0011 }
 case 79:
-                    var1 = var5;
+                    var1 = var7;
 case 78:
                     if(var1) { _fun0011_ip = 66; continue _fun0011 }
 case 80:
-                    var5 = var4.push;
+                    var7 = var4.push;
                     var1 = {};
-                    var10 = {};
-                    var12 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var11 = var11[var17];
-                    var11 = var12.bind(var7)(var11);
-                    var11 = var11.SoundboardSoundGridSectionType;
-                    var11 = var11.GUILD;
-                    var10['type'] = var11;
-                    var10['guild'] = var9;
-                    var11 = false;
-                    var10['isNitroLocked'] = var11;
-                    var1['categoryInfo'] = var10;
-                    var9 = var9.id;
-                    var1['key'] = var9;
-                    var1['items'] = var8;
-                    var1 = var5.bind(var4)(var1);
+                    var11 = {};
+                    var13 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var12 = var12[var18];
+                    var12 = var13.bind(var8)(var12);
+                    var12 = var12.SoundboardSoundGridSectionType;
+                    var12 = var12.GUILD;
+                    var11['type'] = var12;
+                    var11['guild'] = var10;
+                    var12 = false;
+                    var11['isNitroLocked'] = var12;
+                    var1['categoryInfo'] = var11;
+                    var10 = var10.id;
+                    var1['key'] = var10;
+                    var1['items'] = var9;
+                    var1 = var7.bind(var4)(var1);
 case 66:
                     var1 = _closure2_slot10;
                     if(var1) { _fun0011_ip = 81; continue _fun0011 }
 case 82:
-                    var5 = _closure1_slot17;
+                    var7 = _closure1_slot17;
                     var1 = _closure2_slot4;
-                    var1 = var5.bind(var7)(var4, var1);
+                    var1 = var7.bind(var8)(var4, var1);
 case 81:
                     var1 = {};
                     var1['sections'] = var4;
-                    var5 = _closure2_slot9;
-                    var1['guilds'] = var5;
-                    var5 = _closure2_slot11;
-                    var16 = null;
-                    var8 = var16 == var5;
-                    var5 = undefined;
-                    if(var8) { _fun0011_ip = 83; continue _fun0011 }
+                    var7 = _closure2_slot9;
+                    var1['guilds'] = var7;
+                    var7 = _closure2_slot11;
+                    var17 = null;
+                    var9 = var17 == var7;
+                    var7 = undefined;
+                    if(var9) { _fun0011_ip = 83; continue _fun0011 }
 case 84:
-                    var8 = _closure2_slot11;
-                    var5 = var8.id;
+                    var9 = _closure2_slot11;
+                    var7 = var9.id;
 case 83:
-                    var1['currentGuildId'] = var5;
-                    var5 = _closure2_slot4;
-                    var1['allSounds'] = var5;
-                    var5 = _closure2_slot3;
-                    var1['hasNitro'] = var5;
-                    var5 = _closure2_slot7;
-                    var1['sortSoundsFn'] = var5;
-                    var15 = var1.sections;
-                    var5 = var1.guilds;
-                    var14 = var1.currentGuildId;
-                    var13 = var1.allSounds;
-                    var12 = var1.hasNitro;
-                    var11 = var1.sortSoundsFn;
+                    var1['currentGuildId'] = var7;
+                    var7 = _closure2_slot4;
+                    var1['allSounds'] = var7;
+                    var7 = _closure2_slot3;
+                    var1['hasNitro'] = var7;
+                    var7 = _closure2_slot7;
+                    var1['sortSoundsFn'] = var7;
+                    var16 = var1.sections;
+                    var7 = var1.guilds;
+                    var15 = var1.currentGuildId;
+                    var14 = var1.allSounds;
+                    var13 = var1.hasNitro;
+                    var12 = var1.sortSoundsFn;
                     var1 = _closure1_slot13;
-                    var10 = var1.bind(var7)(var5);
-                    var5 = var10.bind(var7)();
-                    var1 = var5.done;
-                    var9 = var5;
-                    var8 = undefined;
-                    var5 = undefined;
+                    var11 = var1.bind(var8)(var7);
+                    var7 = var11.bind(var8)();
+                    var1 = var7.done;
+                    var10 = var7;
+                    var9 = undefined;
+                    var7 = undefined;
                     if(var1) { _fun0011_ip = 85; continue _fun0011 }
 case 86:
-                    var22 = var9.value;
-                    var1 = var22.id;
-                    if(!(var1 !== var14)) { _fun0011_ip = 87; continue _fun0011 }
+                    var23 = var10.value;
+                    var1 = var23.id;
+                    if(!(var1 !== var15)) { _fun0011_ip = 87; continue _fun0011 }
 case 88:
-                    var20 = _closure1_slot15;
-                    var19 = var13.get;
-                    var1 = var22.id;
-                    var19 = var19.bind(var13)(var1);
-                    var1 = var19;
-                    if(!(var16 == var19)) { _fun0011_ip = 89; continue _fun0011 }
+                    var21 = _closure1_slot15;
+                    var20 = var14.get;
+                    var1 = var23.id;
+                    var20 = var20.bind(var14)(var1);
+                    var1 = var20;
+                    if(!(var17 == var20)) { _fun0011_ip = 89; continue _fun0011 }
 case 90:
                     var1 = new Array(0);
 case 89:
-                    var1 = var20.bind(var7)(var1, var11);
-                    var20 = var1.length;
-                    var8 = var19;
-                    var5 = var1;
-                    if(!(var20 > var18)) { _fun0011_ip = 87; continue _fun0011 }
+                    var1 = var21.bind(var8)(var1, var12);
+                    var21 = var1.length;
+                    var9 = var20;
+                    var7 = var1;
+                    if(!(var21 > var19)) { _fun0011_ip = 87; continue _fun0011 }
 case 91:
-                    var21 = var15.push;
-                    var20 = {};
-                    var23 = {};
-                    var25 = _closure1_slot0;
-                    var24 = _closure1_slot2;
-                    var24 = var24[var17];
-                    var24 = var25.bind(var7)(var24);
-                    var24 = var24.SoundboardSoundGridSectionType;
-                    var24 = var24.GUILD;
-                    var23['type'] = var24;
-                    var23['guild'] = var22;
-                    var24 = !var12;
-                    var23['isNitroLocked'] = var24;
-                    var20['categoryInfo'] = var23;
-                    var22 = var22.id;
-                    var20['key'] = var22;
-                    var20['items'] = var1;
-                    var20 = var21.bind(var15)(var20);
-                    var8 = var19;
-                    var5 = var1;
+                    var22 = var16.push;
+                    var21 = {};
+                    var24 = {};
+                    var26 = _closure1_slot0;
+                    var25 = _closure1_slot2;
+                    var25 = var25[var18];
+                    var25 = var26.bind(var8)(var25);
+                    var25 = var25.SoundboardSoundGridSectionType;
+                    var25 = var25.GUILD;
+                    var24['type'] = var25;
+                    var24['guild'] = var23;
+                    var25 = !var13;
+                    var24['isNitroLocked'] = var25;
+                    var21['categoryInfo'] = var24;
+                    var23 = var23.id;
+                    var21['key'] = var23;
+                    var21['items'] = var1;
+                    var21 = var22.bind(var16)(var21);
+                    var9 = var20;
+                    var7 = var1;
 case 87:
-                    var19 = var10.bind(var7)();
-                    var1 = var19.done;
-                    var9 = var19;
+                    var20 = var11.bind(var8)();
+                    var1 = var20.done;
+                    var10 = var20;
                     if(!var1) { _fun0011_ip = 86; continue _fun0011 }
 case 85:
                     var1 = _closure2_slot10;
                     if(!var1) { _fun0011_ip = 92; continue _fun0011 }
 case 93:
-                    var5 = _closure1_slot17;
+                    var7 = _closure1_slot17;
                     var1 = _closure2_slot4;
-                    var1 = var5.bind(var7)(var4, var1);
+                    var1 = var7.bind(var8)(var4, var1);
 case 92:
-                    var5 = var4.forEach;
+                    var7 = var4.forEach;
                     var1 = function(arg1) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1017,32 +1017,47 @@ case 94:
                             return var1;
                         }
                     };
-                    var1 = var5.bind(var4)(var1);
+                    var1 = var7.bind(var4)(var1);
                     var1 = {};
                     var1['categories'] = var4;
-                    var5 = _closure2_slot4;
-                    var1['allSounds'] = var5;
-                    var5 = _closure2_slot6;
-                    var1['isFetching'] = var5;
-                    var5 = {};
+                    var8 = var2.Array;
+                    var7 = var8.from;
+                    var9 = _closure2_slot4;
+                    var2 = var9.values;
+                    var2 = var2.bind(var9)();
+                    var7 = var7.bind(var8)(var2);
+                    var2 = var7.flat;
+                    var2 = var2.bind(var7)();
+                    var1['availableSounds'] = var2;
+                    var2 = _closure2_slot6;
+                    var1['isFetching'] = var2;
+                    var2 = {};
                     var7 = _closure2_slot5;
                     var7 = var7.size;
-                    var5['favoriteSoundCount'] = var7;
+                    var2['favoriteSoundCount'] = var7;
                     var7 = _closure3_slot0;
-                    var5['unlockedCustomSoundCount'] = var7;
+                    var2['unlockedCustomSoundCount'] = var7;
                     var6 = _closure3_slot1;
-                    var5['lockedCustomSoundCount'] = var6;
-                    var1['soundCounts'] = var5;
+                    var2['lockedCustomSoundCount'] = var6;
+                    var1['soundCounts'] = var2;
                     _fun0011_ip = 97; continue _fun0011;
 case 60:
-                    var6 = _closure1_slot17;
-                    var5 = _closure2_slot4;
+                    var7 = _closure1_slot17;
+                    var6 = _closure2_slot4;
                     var2 = undefined;
-                    var2 = var6.bind(var2)(var4, var5);
+                    var2 = var7.bind(var2)(var4, var6);
                     var2 = {};
                     var2['categories'] = var4;
-                    var4 = _closure2_slot4;
-                    var2['allSounds'] = var4;
+                    var7 = _closure2_slot4;
+                    var6 = var7.get;
+                    var4 = _closure1_slot10;
+                    var4 = var6.bind(var7)(var4);
+                    var6 = null;
+                    if(!(var6 == var4)) { _fun0011_ip = 98; continue _fun0011 }
+case 99:
+                    var4 = _closure1_slot11;
+case 98:
+                    var2['availableSounds'] = var4;
                     var3 = _closure2_slot6;
                     var2['isFetching'] = var3;
                     var3 = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
@@ -1077,11 +1092,11 @@ case 0:
                 var1 = _closure2_slot2;
                 var3 = var1.length;
                 var1 = 0;
-                if(!(!(var3 > var1))) { _fun0013_ip = 98; continue _fun0013 }
-case 99:
+                if(!(!(var3 > var1))) { _fun0013_ip = 100; continue _fun0013 }
+case 101:
                 var1 = _closure2_slot0;
-                _fun0013_ip = 100; continue _fun0013;
-case 98:
+                _fun0013_ip = 102; continue _fun0013;
+case 100:
                 var3 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -1106,7 +1121,7 @@ case 98:
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
-case 100:
+case 102:
                 return var1;
             }
         };

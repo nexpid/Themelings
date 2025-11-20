@@ -74,7 +74,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot5;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -86,7 +86,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -145,7 +145,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot3 = var1;
+    var _closure1_slot4 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -178,7 +178,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot5 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -191,10 +191,15 @@ case 35:
     var4 = var7[var1];
     var1 = undefined;
     var4 = var6.bind(var1)(var4);
+    var4 = var4.ORB_RENTAL_PRICE;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
     var5 = var4.CurrencyCodes;
-    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var5;
     var4 = var4.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot1 = var4;
+    var _closure1_slot2 = var4;
     var4 = function getAllProductPrices(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -202,7 +207,7 @@ case 0:
             var2 = var1.product;
             var1 = var1.isPremiumUser;
             var2 = var2.prices;
-            var3 = _closure1_slot1;
+            var3 = _closure1_slot2;
             if(var1) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
             var1 = var3.DEFAULT;
@@ -238,8 +243,8 @@ case 43:
             return var1;
         }
     };
-    var _closure1_slot2 = var4;
-    var5 = 1;
+    var _closure1_slot3 = var4;
+    var5 = 2;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -249,31 +254,38 @@ case 43:
     var4 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var1 = arg1;
-            var4 = var1.product;
-            var1 = var1.isPremiumUser;
-            var3 = _closure1_slot2;
-            var2 = {};
-            var2['product'] = var4;
-            var2['isPremiumUser'] = var1;
+            var2 = arg1;
+            var5 = var2.product;
+            var1 = var2.isPremiumUser;
+            var3 = var2.isRental;
+            if(var3) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
+            var4 = _closure1_slot3;
+            var3 = {};
+            var3['product'] = var5;
+            var3['isPremiumUser'] = var1;
             var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.find;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.find;
             var1 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.currency;
-                var1 = _closure1_slot0;
+                var1 = _closure1_slot1;
                 var1 = var1.DISCORD_ORB;
                 var1 = var2 === var1;
                 return var1;
             };
-            var2 = var2.bind(var3)(var1);
+            var3 = var3.bind(var4)(var1);
             var1 = null;
-            var3 = var1 != var2;
-            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-            var1 = var2;
+            var4 = var1 != var3;
+            if(!var4) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
+            var1 = var3;
+case 46:
+            _fun0005_ip = 9; continue _fun0005;
 case 44:
+            var1 = _closure1_slot0;
+case 9:
             return var1;
         }
     };
@@ -284,8 +296,8 @@ case 0:
             var3 = arg1;
             var1 = null;
             if(!(var1 != var3)) { _fun0006_ip = 41; continue _fun0006 }
-case 46:
-            var2 = _closure1_slot2;
+case 48:
+            var2 = _closure1_slot3;
             var1 = {};
             var1['product'] = var3;
             var3 = false;
@@ -295,20 +307,20 @@ case 46:
             var2 = var5.length;
             var1 = 0;
             var1 = var2 > var1;
-            if(!var1) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(!var1) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var4 = var5.find;
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.currency;
-                var1 = _closure1_slot0;
+                var1 = _closure1_slot1;
                 var1 = var1.DISCORD_ORB;
                 var1 = var2 !== var1;
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
             var1 = var3 === var2;
-case 47:
+case 49:
             return var1;
 case 41:
             var1 = false;
@@ -322,8 +334,8 @@ case 41:
         var1 = function(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var3 = _closure1_slot3;
-                var4 = _closure1_slot2;
+                var3 = _closure1_slot4;
+                var4 = _closure1_slot3;
                 var1 = {};
                 var2 = arg1;
                 var1['product'] = var2;
@@ -338,25 +350,25 @@ case 0:
                 var5 = false;
                 var4 = false;
                 var1 = false;
-                if(var3) { _fun0007_ip = 49; continue _fun0007 }
+                if(var3) { _fun0007_ip = 51; continue _fun0007 }
 case 7:
                 var3 = var6.value;
                 var12 = var3.currency;
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var3 = var3.DISCORD_ORB;
                 var11 = true;
-                if(!(var12 === var3)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+                if(!(var12 === var3)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                 var5 = true;
                 var11 = var4;
-case 50:
+case 52:
                 var12 = var5;
-                if(!var12) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+                if(!var12) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
                 var1 = var12;
                 var2 = var11;
-                if(var2) { _fun0007_ip = 49; continue _fun0007 }
-case 52:
+                if(var2) { _fun0007_ip = 51; continue _fun0007 }
+case 54:
                 var13 = var8.bind(var9)();
                 var3 = var13.done;
                 var6 = var13;
@@ -365,11 +377,11 @@ case 52:
                 var1 = var5;
                 var2 = var4;
                 if(!var3) { _fun0007_ip = 7; continue _fun0007 }
-case 49:
-                if(!var1) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+case 51:
+                if(!var1) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
                 var1 = var2;
-case 54:
+case 56:
                 return var1;
             }
         };
