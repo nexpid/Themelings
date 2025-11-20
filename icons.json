@@ -10586,6 +10586,15 @@
         "width": 301,
         "height": 128
     },
+    "NoReactionIcon": {
+        "file": "app/modules/checkpoint/native/components/screens/emoji/NoReactionIcon.png",
+        "hash": "ea5e51a1d7b2dadca791173af452a219",
+        "scales": [
+            1
+        ],
+        "width": 32,
+        "height": 32
+    },
     "notification_nudge": {
         "file": "app/modules/nuf/native/components/notification/notification_nudge.png",
         "hash": "5c22e366542d98ef13d7a04fa7ca2713",
@@ -12995,7 +13004,7 @@
     },
     "UserPlatformIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserPlatformIcon.png",
-        "hash": "41352513734e3fac4d0369c2fdf2f8cf",
+        "hash": "2a337ae45cbb0831e40b0c1ff7312794",
         "scales": [
             2,
             3
