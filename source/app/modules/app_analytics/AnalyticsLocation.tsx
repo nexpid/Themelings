@@ -10,6 +10,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
     var2 = {};
+    var1 = 'quick switcher';
+    var2['QUICK_SWITCHER'] = var1;
     var1 = 'popout window';
     var2['POPOUT_WINDOW'] = var1;
     var1 = 'overlay';
@@ -1019,6 +1021,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED_PURCHASE_BUTTON'] = var1;
     var1 = 'slayer storefront product details embed gift button';
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED_GIFT_BUTTON'] = var1;
+    var1 = 'slayer storefront wishlist item card';
+    var2['SLAYER_STOREFRONT_WISHLIST_ITEM_CARD'] = var1;
     var1 = 'slayer storefront wishlist item card gift button';
     var2['SLAYER_STOREFRONT_WISHLIST_ITEM_CARD_GIFT_BUTTON'] = var1;
     var1 = 'slayer storefront breadcrumb wishlist item card gift button';
@@ -1027,6 +1031,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOCIAL_LAYER_CLAIM_PURCHASED_ITEM_MODAL'] = var1;
     var1 = 'social layer gift code claim modal';
     var2['SOCIAL_LAYER_GIFT_CODE_CLAIM_MODAL'] = var1;
+    var1 = 'social layer storefront';
+    var2['SOCIAL_LAYER_STOREFRONT'] = var1;
+    var1 = 'gift code embed';
+    var2['GIFT_CODE_EMBED'] = var1;
+    var1 = 'slayer storefront product details embed';
+    var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -65,9 +65,6 @@ case 2:
         var4 = var2.application;
         var4 = var4.name;
         var3['name'] = var4;
-        var4 = var2.application;
-        var4 = var4.link;
-        var3['link'] = var4;
         var1['application'] = var3;
         var3 = {};
         var4 = var2.assets;

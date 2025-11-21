@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot40 = var2;
+            _closure1_slot43 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot43 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot42;
+            var9 = _closure1_slot45;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot42;
+            var7 = _closure1_slot45;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot44 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,7 +221,7 @@ case 3:
             return var1;
         }
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot45 = var1;
     var2 = function initializeState() {
         var1 = false;
         var _closure1_slot10 = var1;
@@ -352,7 +352,7 @@ case 3:
         var1 = new var6[var1](var5);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot31 = var1;
-        var5 = _closure1_slot52;
+        var5 = _closure1_slot55;
         var1 = undefined;
         var5 = var5.bind(var1)();
         var _closure1_slot32 = var4;
@@ -369,7 +369,7 @@ case 3:
         var6 = var5;
         var4 = new var6[var4](var5);
         var4 = var4 instanceof Object ? var4 : var5;
-        _closure1_slot38 = var4;
+        _closure1_slot41 = var4;
         var2 = var2.Map;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});
@@ -379,7 +379,7 @@ case 3:
         var _closure1_slot33 = var2;
         return var1;
     };
-    var _closure1_slot43 = var2;
+    var _closure1_slot46 = var2;
     var1 = function updateQuestData(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -533,7 +533,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot47 = var1;
     var1 = function _addRewardCode(arg1, arg2) {
         var1 = global;
         var4 = var1.Map;
@@ -551,7 +551,7 @@ case 39:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot48 = var1;
     var1 = function updateQuestRewardData(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -619,10 +619,10 @@ case 71:
 case 70:
             if(!(var7 != var8)) { _fun0006_ip = 72; continue _fun0006 }
 case 73:
-            var3 = _closure1_slot45;
+            var3 = _closure1_slot48;
             var3 = var3.bind(var1)(var4, var8);
 case 72:
-            var3 = _closure1_slot44;
+            var3 = _closure1_slot47;
             var2 = {};
             var5 = {};
             var13 = var5;
@@ -651,7 +651,7 @@ case 59:
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot49 = var1;
     var1 = function maybeDeleteQuestHeartbeatFailure(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -678,7 +678,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot50 = var1;
     var1 = function removeQuestIdFromIsEnrolling(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -695,7 +695,7 @@ case 5:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot48 = var1;
+    var _closure1_slot51 = var1;
     var1 = function removeQuestIdFromIsDismissing(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -712,7 +712,7 @@ case 5:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot49 = var1;
+    var _closure1_slot52 = var1;
     var1 = function resolveResponseTtl(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -736,7 +736,7 @@ case 77:
             return var1;
         }
     };
-    var _closure1_slot50 = var1;
+    var _closure1_slot53 = var1;
     var1 = function _runExpirationCheck() {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -801,7 +801,7 @@ case 81:
                     if(!var3) { _fun0010_ip = 84; continue _fun0010 }
 case 85:
                     _closure1_slot31 = var2;
-                    var2 = _closure1_slot39;
+                    var2 = _closure1_slot42;
                     var1 = var2.emitChange;
                     var1 = var1.bind(var2)();
 case 84:
@@ -843,7 +843,7 @@ case 86:
 case 87:
             var4 = var4.setTimeout;
             var2 = function() {
-                var2 = _closure1_slot51;
+                var2 = _closure1_slot54;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;
@@ -854,7 +854,7 @@ case 66:
             return var1;
         }
     };
-    var _closure1_slot51 = var1;
+    var _closure1_slot54 = var1;
     var1 = function _stopExpirationChecker() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -873,7 +873,7 @@ case 79:
             return var1;
         }
     };
-    var _closure1_slot52 = var1;
+    var _closure1_slot55 = var1;
     var8 = global;
     var11 = var8.Object;
     var10 = var11.defineProperty;
@@ -928,13 +928,17 @@ case 79:
     var _closure1_slot36 = var9;
     var9 = null;
     var _closure1_slot37 = var9;
+    var _closure1_slot38 = var9;
+    var10 = false;
+    var _closure1_slot39 = var10;
+    var _closure1_slot40 = var9;
     var8 = var8.Map;
     var9 = var8.prototype;
     var9 = Object.create(var9, {constructor: {value: var8}});
     var15 = var9;
     var8 = new var15[var8](var14);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot38 = var8;
+    var _closure1_slot41 = var8;
     var2 = var2.bind(var1)();
     var2 = 15;
     var2 = var6[var2];
@@ -953,7 +957,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot40;
+                var1 = _closure1_slot43;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0013_ip = 89; continue _fun0013 }
 case 90:
@@ -990,7 +994,7 @@ case 91:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(32);
         var1[0] = var5;
         var5 = {};
         var7 = 'excludedQuests';
@@ -1146,7 +1150,7 @@ case 37:
         var7 = 'getFetchQuestPreviewError';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot41;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -1340,15 +1344,42 @@ case 97:
         var5 = {};
         var7 = 'getQuestLoadedViaPreview';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var3 = _closure1_slot34;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[28] = var5;
+        var5 = {};
+        var7 = 'isFetchingQuestHomeTakeover';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot39;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[29] = var5;
+        var5 = {};
+        var7 = 'getQuestHomeTakeoverConfig';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot40;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[30] = var5;
+        var5 = {};
+        var7 = 'getLastFetchedQuestHomeTakeover';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot38;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[31] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1360,10 +1391,10 @@ case 97:
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var7 = function handleLogout() {
-        var3 = _closure1_slot52;
+        var3 = _closure1_slot55;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot43;
+        var2 = _closure1_slot46;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -1402,7 +1433,7 @@ case 0:
             var26 = var2;
             var1 = new var26[var1](var25);
             var5 = var1 instanceof Object ? var1 : var2;
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot44;
             var1 = undefined;
             var15 = var2.bind(var1)(var8);
             var8 = var15.bind(var1)();
@@ -1473,7 +1504,7 @@ case 99:
             var2 = new var26[var2](var25);
             var2 = var2 instanceof Object ? var2 : var8;
             _closure1_slot15 = var2;
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot44;
             var8 = var2.bind(var1)(var7);
             var7 = var8.bind(var1)();
             var2 = var7.done;
@@ -1489,7 +1520,7 @@ case 103:
             var7 = var9;
             if(!var2) { _fun0019_ip = 103; continue _fun0019 }
 case 102:
-            var8 = _closure1_slot41;
+            var8 = _closure1_slot44;
             var11 = _closure1_slot34;
             var2 = null;
             var9 = var2 == var11;
@@ -1531,9 +1562,9 @@ case 107:
             if(!var7) { _fun0019_ip = 106; continue _fun0019 }
 case 105:
             _closure1_slot31 = var5;
-            var5 = _closure1_slot52;
+            var5 = _closure1_slot55;
             var5 = var5.bind(var1)();
-            var5 = _closure1_slot51;
+            var5 = _closure1_slot54;
             var5 = var5.bind(var1)();
             var5 = var2 != var6;
             var2 = null;
@@ -1583,7 +1614,7 @@ case 0:
             var1 = new var11[var1](var10);
             var1 = var1 instanceof Object ? var1 : var2;
             _closure1_slot16 = var1;
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot44;
             var1 = undefined;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
@@ -1706,7 +1737,7 @@ case 51:
 case 118:
             var4['questId'] = var10;
             var4['fetchedAt'] = var7;
-            var7 = _closure1_slot50;
+            var7 = _closure1_slot53;
             var7 = var7.bind(var1)(var9);
             var4['ttlMillis'] = var7;
             var7 = var6 == var8;
@@ -1792,13 +1823,13 @@ case 115:
         var4 = var5.add;
         var4 = var4.bind(var5)(var3);
         var5 = var2.Map;
-        var7 = _closure1_slot38;
+        var7 = _closure1_slot41;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
         var8 = var4;
         var2 = new var8[var5](var7, var6);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot38 = var2;
+        _closure1_slot41 = var2;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
@@ -1841,13 +1872,13 @@ case 115:
         var4 = var5.set;
         var4 = var4.bind(var5)(var3, var6);
         var5 = var2.Map;
-        var9 = _closure1_slot38;
+        var9 = _closure1_slot41;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
         var10 = var4;
         var2 = new var10[var5](var9, var8);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot38 = var2;
+        _closure1_slot41 = var2;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
@@ -1870,13 +1901,13 @@ case 115:
         var5 = var6.delete;
         var5 = var5.bind(var6)(var4);
         var6 = var2.Map;
-        var9 = _closure1_slot38;
+        var9 = _closure1_slot41;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var10 = var5;
         var2 = new var10[var6](var9, var8);
         var2 = var2 instanceof Object ? var2 : var5;
-        _closure1_slot38 = var2;
+        _closure1_slot41 = var2;
         var1 = var2.set;
         var1 = var1.bind(var2)(var4, var3);
         var1 = undefined;
@@ -1893,7 +1924,7 @@ case 0:
             var5 = _closure1_slot24;
             var4 = var5.add;
             var4 = var4.bind(var5)(var6);
-            var5 = _closure1_slot44;
+            var5 = _closure1_slot47;
             var4 = {};
             var4['userStatus'] = var1;
             var1 = undefined;
@@ -1901,7 +1932,7 @@ case 0:
             var4 = null;
             if(!(var4 != var3)) { _fun0022_ip = 5; continue _fun0022 }
 case 127:
-            var2 = _closure1_slot47;
+            var2 = _closure1_slot50;
             var2 = var2.bind(var1)(var3);
 case 5:
             return var1;
@@ -1970,13 +2001,13 @@ case 130:
     var7 = function handleEnrollSuccess(arg1) {
         var1 = arg1;
         var2 = var1.enrolledQuestUserStatus;
-        var6 = _closure1_slot44;
+        var6 = _closure1_slot47;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot48;
+        var3 = _closure1_slot51;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -1985,7 +2016,7 @@ case 130:
     var7 = function handleEnrollFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot48;
+        var2 = _closure1_slot51;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2026,7 +2057,7 @@ case 0:
             var3 = var1.delete;
             var3 = var3.bind(var1)(var4);
             _closure1_slot21 = var1;
-            var3 = _closure1_slot45;
+            var3 = _closure1_slot48;
             var1 = undefined;
             var3 = var3.bind(var1)(var4, var6);
             var5 = _closure1_slot14;
@@ -2047,7 +2078,7 @@ case 135:
 case 134:
             if(!var3) { _fun0024_ip = 47; continue _fun0024 }
 case 44:
-            var3 = _closure1_slot44;
+            var3 = _closure1_slot47;
             var2 = {};
             var5 = {};
             var10 = var5;
@@ -2114,7 +2145,7 @@ case 47:
         var5 = var2.delete;
         var5 = var5.bind(var2)(var4);
         _closure1_slot20 = var2;
-        var2 = _closure1_slot46;
+        var2 = _closure1_slot49;
         var1 = undefined;
         var2 = var2.bind(var1)(var4, var3);
         return var1;
@@ -2159,13 +2190,13 @@ case 47:
     var7 = function handleDismissContentSuccess(arg1) {
         var1 = arg1;
         var2 = var1.dismissedQuestUserStatus;
-        var6 = _closure1_slot44;
+        var6 = _closure1_slot47;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot49;
+        var3 = _closure1_slot52;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -2174,7 +2205,7 @@ case 47:
     var7 = function handleDismissContentFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot49;
+        var2 = _closure1_slot52;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2210,7 +2241,7 @@ case 0:
             var7 = var7.bind(var1)(var2);
             var2 = var7.questUserStatusFromServer;
             var2 = var2.bind(var7)(var5);
-            var9 = _closure1_slot44;
+            var9 = _closure1_slot47;
             var8 = var5.quest_id;
             var7 = {};
             var7['userStatus'] = var2;
@@ -2281,7 +2312,7 @@ case 140:
     var7 = function handleStreamClose(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot47;
+        var2 = _closure1_slot50;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2290,7 +2321,7 @@ case 140:
     var7 = function handleDismissProgressTrackingFailureNotice(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot47;
+        var2 = _closure1_slot50;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2301,7 +2332,7 @@ case 140:
 case 0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
-            var6 = _closure1_slot44;
+            var6 = _closure1_slot47;
             var5 = var2.questId;
             var4 = {};
             var4['userStatus'] = var2;
@@ -2510,13 +2541,42 @@ case 9:
         }
     };
     var2['QUESTS_USER_COMPLETION_UPDATE'] = var7;
+    var7 = function handleFetchQuestHomeTakeoverBegin() {
+        var1 = true;
+        _closure1_slot39 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_BEGIN'] = var7;
+    var7 = function handleFetchQuestHomeTakeoverSuccess(arg1) {
+        var1 = false;
+        _closure1_slot39 = var1;
+        var1 = global;
+        var3 = var1.Date;
+        var1 = var3.now;
+        var1 = var1.bind(var3)();
+        _closure1_slot38 = var1;
+        var1 = arg1;
+        var1 = var1.takeover;
+        _closure1_slot40 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_SUCCESS'] = var7;
+    var7 = function handleFetchQuestHomeTakeoverFailure() {
+        var1 = false;
+        _closure1_slot39 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_FAILURE'] = var7;
     var7 = var9.prototype;
     var7 = Object.create(var7, {constructor: {value: var9}});
     var15 = var7;
     var13 = var2;
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot39 = var2;
+    var _closure1_slot42 = var2;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

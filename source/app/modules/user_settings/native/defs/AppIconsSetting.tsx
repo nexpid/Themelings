@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot6 = var2;
-    var2 = 9;
+    var2 = 8;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -63,120 +63,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var8;
     var8 = null;
     var2['parent'] = var8;
-    var8 = 11;
+    var8 = 10;
     var8 = var6[var8];
     var8 = var11.bind(var1)(var8);
     var2['IconComponent'] = var8;
     var8 = function useAppIconSettingTrailing() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 5;
-            var2 = var4[var2];
-            var4 = undefined;
-            var2 = var3.bind(var4)(var2);
-            var5 = var2.HalloweenAppIconsExperiment;
-            var3 = var5.getConfig;
-            var2 = {};
-            var6 = 'AppIconsSetting';
-            var2['location'] = var6;
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.enabled;
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 6;
-            var2 = var6[var2];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.DismissibleContent;
-            if(var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var5 = var2.CUSTOM_APP_ICONS_NEW_BADGE;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var5 = var2.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_MOBILE_BADGE;
-case 4:
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var1 = 7;
-            var1 = var6[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['dismissibleContent'] = var5;
-            var5 = true;
-            var1['newPremiumStyle'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var4 = _closure1_slot6;
+        var2 = _closure1_slot1;
+        var7 = _closure1_slot2;
+        var1 = 5;
+        var1 = var7[var1];
+        var3 = undefined;
+        var2 = var2.bind(var3)(var1);
+        var1 = {};
+        var6 = _closure1_slot0;
+        var5 = 6;
+        var5 = var7[var5];
+        var5 = var6.bind(var3)(var5);
+        var5 = var5.DismissibleContent;
+        var5 = var5.CUSTOM_APP_ICONS_NEW_BADGE;
+        var1['dismissibleContent'] = var5;
+        var5 = true;
+        var1['newPremiumStyle'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
     };
     var2['useTrailing'] = var8;
     var8 = function useAppIconSettingPreNavigationAction() {
-        var5 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var13 = 8;
-        var3 = var10[var13];
-        var4 = undefined;
-        var8 = var5.bind(var4)(var3);
-        var7 = var8.useSelectedDismissibleContent;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var3 = 7;
+        var3 = var8[var3];
+        var6 = undefined;
+        var5 = var7.bind(var6)(var3);
+        var4 = var5.useSelectedDismissibleContent;
         var3 = 6;
-        var6 = var10[var3];
-        var6 = var5.bind(var4)(var6);
-        var6 = var6.DismissibleContent;
-        var9 = var6.CUSTOM_APP_ICONS_NEW_BADGE;
-        var6 = new Array(1);
-        var6[0] = var9;
-        var6 = var7.bind(var8)(var6);
-        var12 = _closure1_slot3;
-        var11 = 2;
-        var8 = var12.bind(var4)(var6, var11);
-        var7 = 0;
-        var9 = var8[var7];
-        var _closure2_slot0 = var9;
-        var6 = 1;
-        var8 = var8[var6];
-        var _closure2_slot1 = var8;
-        var13 = var10[var13];
-        var14 = var5.bind(var4)(var13);
-        var13 = var14.useSelectedDismissibleContent;
-        var3 = var10[var3];
-        var3 = var5.bind(var4)(var3);
+        var3 = var8[var3];
+        var3 = var7.bind(var6)(var3);
         var3 = var3.DismissibleContent;
-        var15 = var3.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_MOBILE_BADGE;
+        var7 = var3.CUSTOM_APP_ICONS_NEW_BADGE;
         var3 = new Array(1);
-        var3[0] = var15;
-        var3 = var13.bind(var14)(var3);
-        var3 = var12.bind(var4)(var3, var11);
-        var7 = var3[var7];
-        var _closure2_slot2 = var7;
-        var6 = var3[var6];
-        var _closure2_slot3 = var6;
-        var3 = 5;
-        var3 = var10[var3];
-        var3 = var5.bind(var4)(var3);
-        var5 = var3.HalloweenAppIconsExperiment;
-        var4 = var5.getConfig;
-        var3 = {};
-        var10 = 'AppIconsSetting';
-        var3['location'] = var10;
-        var3 = var4.bind(var5)(var3);
-        var5 = var3.enabled;
-        var _closure2_slot4 = var5;
+        var3[0] = var7;
+        var5 = var4.bind(var5)(var3);
+        var4 = _closure1_slot3;
+        var3 = 2;
+        var4 = var4.bind(var6)(var5, var3);
+        var3 = 0;
+        var6 = var4[var3];
+        var _closure2_slot0 = var6;
+        var3 = 1;
+        var5 = var4[var3];
+        var _closure2_slot1 = var5;
         var4 = _closure1_slot4;
         var3 = var4.useCallback;
-        var2 = new Array(5);
-        var2[0] = var9;
-        var2[1] = var8;
-        var2[2] = var7;
-        var2[3] = var6;
-        var2[4] = var5;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
         var1 = function() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = _closure2_slot4;
-                if(!var1) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-                var5 = _closure2_slot2;
+                var5 = _closure2_slot0;
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var3 = 6;
@@ -184,31 +130,14 @@ case 6:
                 var3 = undefined;
                 var4 = var6.bind(var3)(var4);
                 var4 = var4.DismissibleContent;
-                var4 = var4.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_MOBILE_BADGE;
-                if(!(var5 !== var4)) { _fun0002_ip = 7; continue _fun0002 }
-case 5:
-                var7 = _closure2_slot0;
-                var8 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var5 = 6;
-                var5 = var6[var5];
-                var6 = undefined;
-                var5 = var8.bind(var6)(var5);
-                var5 = var5.DismissibleContent;
-                var5 = var5.CUSTOM_APP_ICONS_NEW_BADGE;
-                if(!(var7 === var5)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                var5 = _closure2_slot1;
-                var4 = _closure1_slot5;
-                var4 = var4.TAKE_ACTION;
-                var4 = var5.bind(var6)(var4);
-                _fun0002_ip = 8; continue _fun0002;
-case 7:
-                var2 = _closure2_slot3;
+                var4 = var4.CUSTOM_APP_ICONS_NEW_BADGE;
+                if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = _closure2_slot1;
                 var1 = _closure1_slot5;
                 var1 = var1.TAKE_ACTION;
                 var1 = var2.bind(var3)(var1);
-case 8:
+case 2:
                 var1 = true;
                 return var1;
             }
@@ -223,7 +152,7 @@ case 8:
     var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 12;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -233,7 +162,7 @@ case 8:
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -24,18 +24,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8[var9];
     var2 = metroImportAll;
     var2 = var2.bind(var1)(var4);
+    var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
     var2 = var2.View;
-    var _closure1_slot4 = var2;
+    var _closure1_slot5 = var2;
     var2 = 3;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
     var4 = var2.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var2 = var2.jsxs;
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 4;
     var2 = var8[var2];
     var6 = var7.bind(var1)(var2);
@@ -68,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['marginRight'] = var12;
     var2['gifPicker'] = var11;
     var2 = var4.bind(var6)(var2);
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var4 = {};
     var4['AVATAR'] = var10;
     var2 = 'AVATAR';
@@ -76,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BANNER'] = var9;
     var2 = 'BANNER';
     var4[var9] = var2;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var2 = {};
     var2['PROFILE_EDIT'] = var10;
     var6 = 'PROFILE_EDIT';
@@ -84,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PROFILE_TRY_IT_OUT'] = var9;
     var6 = 'PROFILE_TRY_IT_OUT';
     var2[var9] = var6;
-    var _closure1_slot9 = var2;
+    var _closure1_slot10 = var2;
     var6 = 15;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -196,16 +197,16 @@ case 17:
                         if(var6) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
                         var8 = _closure2_slot1;
-                        var7 = _closure1_slot8;
+                        var7 = _closure1_slot9;
                         var7 = var7.AVATAR;
                         if(!(var7 !== var8)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-                        var7 = _closure1_slot8;
+                        var7 = _closure1_slot9;
                         var7 = var7.BANNER;
                         if(!(var7 === var8)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
                         var8 = _closure2_slot2;
-                        var7 = _closure1_slot9;
+                        var7 = _closure1_slot10;
                         var7 = var7.PROFILE_TRY_IT_OUT;
                         if(!(var8 !== var7)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
@@ -242,7 +243,7 @@ case 20:
                         var7['description'] = var10;
                         var9 = var8.bind(var9)(var7);
                         var8 = _closure2_slot2;
-                        var7 = _closure1_slot9;
+                        var7 = _closure1_slot10;
                         var7 = var7.PROFILE_TRY_IT_OUT;
                         if(!(var8 !== var7)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
@@ -302,19 +303,23 @@ case 2:
             return var1;
         };
         var _closure2_slot3 = var1;
-        var1 = _closure1_slot7;
+        var1 = _closure1_slot8;
         var4 = undefined;
         var10 = var1.bind(var4)();
-        var3 = _closure1_slot6;
+        var3 = _closure1_slot4;
+        var2 = var3.useRef;
+        var1 = null;
+        var12 = var2.bind(var3)(var1);
+        var3 = _closure1_slot7;
         var14 = _closure1_slot0;
         var13 = _closure1_slot2;
         var1 = 10;
         var1 = var13[var1];
         var1 = var14.bind(var4)(var1);
         var2 = var1.BottomSheet;
-        var1 = {'scrollable': true, 'startExpanded': true};
-        var11 = true;
-        var8 = _closure1_slot5;
+        var1 = {'ref': null, 'scrollable': true, 'startExpanded': true};
+        var1['ref'] = var12;
+        var8 = _closure1_slot6;
         var5 = 11;
         var5 = var13[var5];
         var5 = var14.bind(var4)(var5);
@@ -345,7 +350,7 @@ case 2:
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot5;
         var6 = {};
         var10 = var10.gifPicker;
         var6['style'] = var10;
@@ -354,7 +359,8 @@ case 2:
         var9 = var13[var9];
         var10 = var10.bind(var4)(var9);
         var9 = {};
-        var12 = function onPressGIF(arg1) {
+        var9['bottomSheetRef'] = var12;
+        var11 = function onPressGIF(arg1) {
             var1 = undefined;
             var4 = _closure2_slot3;
             var3 = var4.apply;
@@ -364,8 +370,7 @@ case 2:
             var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var9['onPressGIF'] = var12;
-        var9['inActionSheet'] = var11;
+        var9['onPressGIF'] = var11;
         var9 = var8.bind(var4)(var10, var9);
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);

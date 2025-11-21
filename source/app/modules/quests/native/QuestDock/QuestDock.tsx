@@ -1698,17 +1698,19 @@ case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 35;
-            var1 = var3[var1];
+            var4 = var3[var1];
             var5 = undefined;
+            var7 = var2.bind(var5)(var4);
+            var4 = var7.useMobileQuestDock;
+            var8 = var4.bind(var7)();
+            var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
-            var1 = var2.useIsMobileQuestDockVisible;
-            var1 = var1.bind(var2)();
-            var9 = var1.isVisible;
-            var8 = var1.quest;
+            var1 = var2.useIsMobileQuestDockVisibleBase;
+            var9 = var1.bind(var2)(var8);
             var1 = null;
             var2 = var1 == var8;
             if(var2) { _fun0013_ip = 76; continue _fun0013 }
-case 77:
+case 11:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;

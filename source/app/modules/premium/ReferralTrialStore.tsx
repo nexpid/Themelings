@@ -253,7 +253,7 @@ case 0:
             var8 = var6.type;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
@@ -283,14 +283,14 @@ case 45:
             var4 = var4.bind(var1)(var5);
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 9;
+            var3 = 8;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.wait;
             var2 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 8;
+                var2 = 7;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -402,7 +402,7 @@ case 40:
         return var1;
     };
     var _closure1_slot25 = var2;
-    var2 = 11;
+    var2 = 10;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -506,7 +506,7 @@ case 52:
 case 56:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -666,7 +666,7 @@ case 55:
     var8 = var2.bind(var1)(var8);
     var2 = 'ReferralTrialStore';
     var8['displayName'] = var2;
-    var2 = 9;
+    var2 = 8;
     var2 = var6[var2];
     var16 = var7.bind(var1)(var2);
     var2 = {};
@@ -681,7 +681,7 @@ case 0:
 case 58:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var6.bind(var3)(var4);
@@ -698,14 +698,14 @@ case 4:
             var3 = var3.bind(var4)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.wait;
             var1 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 8;
+                var2 = 7;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -746,64 +746,38 @@ case 51:
     };
     var2['BILLING_REFERRALS_REMAINING_FETCH_START'] = var10;
     var10 = function handleReferralsRemainingFetchSuccess(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-            var1 = arg1;
-            var5 = var1.referrals_remaining;
-            var7 = var1.sent_user_ids;
-            var4 = var1.refresh_at;
-            var3 = var1.recipient_status;
-            var6 = var1.has_eligible_friends;
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var1 = 7;
-            var8 = var8[var1];
-            var1 = undefined;
-            var10 = var9.bind(var1)(var8);
-            var9 = var10.getCurrentConfig;
-            var8 = {};
-            var11 = 'handleReferralsRemainingFetchSuccess';
-            var8['location'] = var11;
-            var8 = var9.bind(var10)(var8);
-            var9 = var8.enabled;
-            var8 = true;
-            var8 = var8 === var9;
-            if(var8) { _fun0010_ip = 17; continue _fun0010 }
-case 61:
-            var9 = null;
-            var9 = var9 == var4;
-            if(!var9) { _fun0010_ip = 62; continue _fun0010 }
-case 63:
-            var9 = var6;
-case 62:
-            var8 = var9;
-case 17:
-            _closure1_slot22 = var8;
-            _closure1_slot23 = var6;
-            var6 = false;
-            _closure1_slot13 = var6;
-            _closure1_slot10 = var5;
-            var5 = global;
-            var5 = var5.Set;
-            var6 = var5.prototype;
-            var6 = Object.create(var6, {constructor: {value: var5}});
-            var13 = var6;
-            var12 = var7;
-            var5 = new var13[var5](var12, var11);
-            var5 = var5 instanceof Object ? var5 : var6;
-            _closure1_slot11 = var5;
-            _closure1_slot24 = var4;
-            _closure1_slot12 = var3;
-            return var1;
-        }
+        var1 = arg1;
+        var4 = var1.referrals_remaining;
+        var8 = var1.sent_user_ids;
+        var3 = var1.refresh_at;
+        var2 = var1.recipient_status;
+        var5 = var1.has_eligible_friends;
+        var7 = true;
+        _closure1_slot22 = var7;
+        _closure1_slot23 = var5;
+        var5 = false;
+        _closure1_slot13 = var5;
+        _closure1_slot10 = var4;
+        var4 = global;
+        var4 = var4.Set;
+        var5 = var4.prototype;
+        var5 = Object.create(var5, {constructor: {value: var4}});
+        var9 = var5;
+        var4 = new var9[var4](var8, var7);
+        var4 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot11 = var4;
+        _closure1_slot24 = var3;
+        _closure1_slot12 = var2;
+        var1 = undefined;
+        return var1;
     };
     var2['BILLING_REFERRALS_REMAINING_FETCH_SUCCESS'] = var10;
     var10 = function handleReferralsRemainingFetchFail(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var4 = null;
-            if(!(var2 != var4)) { _fun0011_ip = 64; continue _fun0011 }
+            if(!(var2 != var4)) { _fun0010_ip = 61; continue _fun0010 }
 case 60:
             var1 = false;
             _closure1_slot22 = var1;
@@ -829,7 +803,7 @@ case 60:
             _closure1_slot18 = var1;
             var1 = undefined;
             return var1;
-case 64:
+case 61:
             var8 = "Cannot destructure 'undefined' or 'null'.";
             var9 = var2;
             var1 = throwTypeError(var9, var8);
@@ -843,7 +817,7 @@ case 64:
         var2 = var1.userTrialOffer;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var4 = var4[var1];
         var1 = undefined;
         var5 = var5.bind(var1)(var4);
@@ -861,13 +835,13 @@ case 64:
     };
     var2['BILLING_CREATE_REFERRAL_SUCCESS'] = var10;
     var10 = function handleCreateReferralsSuccess(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userTrialOffers;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var2);
@@ -877,8 +851,8 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
+            if(var2) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
             var2 = var3.value;
             var8 = _closure1_slot16;
             var7 = var8.set;
@@ -891,20 +865,20 @@ case 66:
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0012_ip = 66; continue _fun0012 }
-case 65:
+            if(!var2) { _fun0011_ip = 63; continue _fun0011 }
+case 62:
             return var1;
         }
     };
     var2['CREATE_REFERRALS_SUCCESS'] = var10;
     var10 = function handleReferralTrialResolveSuccess(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.userTrialOffer;
             var1 = null;
-            if(!(var1 != var4)) { _fun0013_ip = 54; continue _fun0013 }
-case 67:
+            if(!(var1 != var4)) { _fun0012_ip = 54; continue _fun0012 }
+case 64:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var2 = var4.id;
@@ -1034,7 +1008,7 @@ case 54:
     var15 = var2;
     var2 = new var17[var8](var16, var15, var14);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

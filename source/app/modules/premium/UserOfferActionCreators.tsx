@@ -640,10 +640,10 @@ case 0:
                     var5 = null;
                     var9 = var5 != var8;
                     var7 = null;
-                    if(!var9) { _fun0005_ip = 76; continue _fun0005 }
-case 82:
+                    if(!var9) { _fun0005_ip = 82; continue _fun0005 }
+case 78:
                     var7 = var8;
-case 76:
+case 82:
                     var2['userTrialOffer'] = var7;
                     var7 = var6.body;
                     var8 = var7.user_discount;
@@ -658,10 +658,10 @@ case 83:
                     var6 = var6.user_discount_offer;
                     var7 = var5 != var6;
                     var5 = null;
-                    if(!var7) { _fun0005_ip = 56; continue _fun0005 }
-case 85:
+                    if(!var7) { _fun0005_ip = 85; continue _fun0005 }
+case 86:
                     var5 = var6;
-case 56:
+case 85:
                     var2['userDiscountOffer'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -675,7 +675,7 @@ case 0:
                     var1 = arg1;
                     var2 = var1.status;
                     var1 = 404;
-                    if(!(var1 === var2)) { _fun0006_ip = 82; continue _fun0006 }
+                    if(!(var1 === var2)) { _fun0006_ip = 87; continue _fun0006 }
 case 62:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -686,7 +686,7 @@ case 62:
                     var2 = var3.dispatch;
                     var1 = {'type': 'BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS', 'userTrialOffer': null, 'userDiscount': null, 'userDiscountOffer': null};
                     var1 = var2.bind(var3)(var1);
-case 82:
+case 87:
                     var1 = undefined;
                     return var1;
                 }

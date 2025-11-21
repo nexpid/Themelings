@@ -1787,8 +1787,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'QUEST_HOME_ENTRYPOINT_ONBOARDING';
     var4[var2] = var1;
     var2 = 633;
-    var4['PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET'] = var2;
-    var1 = 'PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET';
+    var4['PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL'] = var2;
+    var1 = 'PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL';
     var4[var2] = var1;
     var2 = 634;
     var4['NITRO_TAB_BADGE_OFFER_REMINDER'] = var2;

@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Object;
     var7 = var8.defineProperty;
     var4 = {};
-    var11 = true;
-    var4['value'] = var11;
+    var1 = true;
+    var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
@@ -17,17 +17,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
     var4 = {'name': '2025-12-social-layer-storefront-user-experiment', 'kind': 'user'};
-    var9 = {};
-    var12 = false;
-    var9['enabled'] = var12;
+    var9 = {'enabled': false, 'wishlistRetargetingEnabled': false};
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {};
-    var10['enabled'] = var12;
+    var10 = {'enabled': false, 'wishlistRetargetingEnabled': false};
     var9[0] = var10;
-    var10 = {};
-    var10['enabled'] = var11;
+    var10 = {'enabled': true, 'wishlistRetargetingEnabled': false};
     var9[1] = var10;
+    var10 = {'enabled': true, 'wishlistRetargetingEnabled': true};
+    var9[2] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -49,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useIsEligibleForSocialLayerStorefrontUserExperiment'] = var4;
-    var2 = function getIsEligibleForSocialLayerStorefrontUserExperiment(arg1) {
+    var4 = function getIsEligibleForSocialLayerStorefrontUserExperiment(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -60,6 +58,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['getIsEligibleForSocialLayerStorefrontUserExperiment'] = var2;
+    var3['getIsEligibleForSocialLayerStorefrontUserExperiment'] = var4;
+    var2 = function useIsEligibleForSocialLayerStorefrontWishlistRetargeting(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
+        var3 = _closure1_slot0;
+        var2 = var3.useConfig;
+        var1 = {};
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.wishlistRetargetingEnabled;
+        return var1;
+    };
+    var3['useIsEligibleForSocialLayerStorefrontWishlistRetargeting'] = var2;
     return var1;
 })();

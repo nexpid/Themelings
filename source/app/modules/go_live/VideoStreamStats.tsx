@@ -70,6 +70,7 @@ case 4:
             var3['_streamSettingsChanged'] = var6;
             var3['_lastLayoutChanged'] = var5;
             var3['_layoutChanges'] = var5;
+            var3['_automaticQualityChanges'] = var5;
             var5 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -169,7 +170,7 @@ case 8:
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(6);
         var2[0] = var1;
         var1 = {};
         var6 = 'stop';
@@ -200,6 +201,20 @@ case 8:
         };
         var1['value'] = var6;
         var2[1] = var1;
+        var1 = {};
+        var6 = 'autoQualityChange';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var3 = var2._automaticQualityChanges;
+            var1 = 1;
+            var1 = var3 + var1;
+            var2['_automaticQualityChanges'] = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[2] = var1;
         var1 = {};
         var6 = 'layoutChange';
         var1['key'] = var6;
@@ -241,7 +256,7 @@ case 10:
             }
         };
         var1['value'] = var6;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = {};
         var6 = 'getLayout';
         var1['key'] = var6;
@@ -251,7 +266,7 @@ case 10:
             return var1;
         };
         var1['value'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'getStats';
         var1['key'] = var6;
@@ -314,8 +329,11 @@ case 14:
                 var5 = var3._targetResolution;
                 var4 = 'target_resolution_height';
                 var2[var4] = var5;
-                var4 = var3._streamSettingsChanged;
-                var3 = 'stream_settings_changed';
+                var5 = var3._streamSettingsChanged;
+                var4 = 'stream_settings_changed';
+                var2[var4] = var5;
+                var4 = var3._automaticQualityChanges;
+                var3 = 'num_auto_quality_changes';
                 var2[var3] = var4;
                 var1 = var2;
 case 13:
@@ -323,7 +341,7 @@ case 13:
             }
         };
         var1['value'] = var5;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

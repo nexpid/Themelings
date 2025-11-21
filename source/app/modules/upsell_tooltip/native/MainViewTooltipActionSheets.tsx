@@ -957,7 +957,7 @@ case 52:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.DismissibleContent;
-            var14 = var14.PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET;
+            var14 = var14.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
             var1['contentType'] = var14;
             var13 = var13.id;
             var1['newSnowflakeId'] = var13;
@@ -977,7 +977,7 @@ case 0:
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET;
+                    var1 = var1.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
                     if(!(var2 !== var1)) { _fun0004_ip = 82; continue _fun0004 }
 case 83:
                     return var4;

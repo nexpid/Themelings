@@ -213,7 +213,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -221,7 +221,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _manualStopConsoleQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -268,7 +268,7 @@ case 28:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -276,7 +276,7 @@ case 28:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function _resetRecentQuestCompletions() {
         var5 = undefined;
         var1 = undefined;
@@ -321,7 +321,7 @@ case 34:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot14 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -329,7 +329,7 @@ case 34:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _fetchCurrentQuests() {
         var5 = undefined;
         var1 = undefined;
@@ -501,7 +501,7 @@ case 38:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot14 = var4;
+        _closure1_slot15 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -509,7 +509,7 @@ case 38:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _sendHeartbeat() {
         var5 = undefined;
         var1 = undefined;
@@ -665,7 +665,7 @@ case 52:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot15 = var4;
+        _closure1_slot16 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -673,7 +673,7 @@ case 52:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _enrollInQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -941,7 +941,7 @@ case 67:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -949,7 +949,7 @@ case 67:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _claimQuestReward() {
         var5 = undefined;
         var1 = undefined;
@@ -1113,7 +1113,7 @@ case 105:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1121,7 +1121,7 @@ case 105:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _fetchQuestRewardCode() {
         var5 = undefined;
         var1 = undefined;
@@ -1234,7 +1234,7 @@ case 119:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot19 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1242,7 +1242,7 @@ case 119:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function _dismissQuestContent() {
         var5 = undefined;
         var1 = undefined;
@@ -1371,7 +1371,7 @@ case 129:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot19 = var4;
+        _closure1_slot20 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1379,7 +1379,7 @@ case 129:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function _completeQuestPreview() {
         var5 = undefined;
         var1 = undefined;
@@ -1491,7 +1491,7 @@ case 140:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot20 = var4;
+        _closure1_slot21 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1499,7 +1499,7 @@ case 140:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _resetQuestPreviewStatus() {
         var5 = undefined;
         var1 = undefined;
@@ -1596,7 +1596,7 @@ case 153:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot21 = var4;
+        _closure1_slot22 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1604,7 +1604,7 @@ case 153:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _resetQuestDismissibilityStatus() {
         var5 = undefined;
         var1 = undefined;
@@ -1709,7 +1709,7 @@ case 159:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot22 = var4;
+        _closure1_slot23 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1717,7 +1717,7 @@ case 159:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function _fetchClaimedQuests() {
         var5 = undefined;
         var1 = undefined;
@@ -1828,7 +1828,7 @@ case 164:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot23 = var4;
+        _closure1_slot24 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1836,7 +1836,7 @@ case 164:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function _fetchQuestToDeliver() {
         var5 = undefined;
         var1 = undefined;
@@ -2234,7 +2234,7 @@ case 168:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot24 = var4;
+        _closure1_slot25 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2242,7 +2242,7 @@ case 168:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function _updateVideoProgress() {
         var5 = undefined;
         var1 = undefined;
@@ -2323,7 +2323,7 @@ case 209:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot25 = var4;
+        _closure1_slot26 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2331,7 +2331,7 @@ case 209:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function _fetchVideoTranscript() {
         var5 = undefined;
         var1 = undefined;
@@ -2460,7 +2460,7 @@ case 213:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot26 = var4;
+        _closure1_slot27 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2468,7 +2468,7 @@ case 213:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function _fetchQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -2523,7 +2523,7 @@ case 42:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot27 = var4;
+        _closure1_slot28 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2531,7 +2531,7 @@ case 42:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function _fetchQuestPreview() {
         var5 = undefined;
         var1 = undefined;
@@ -2644,7 +2644,7 @@ case 119:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot28 = var4;
+        _closure1_slot29 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2652,7 +2652,148 @@ case 119:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
+    var1 = function _fetchQuestHomeTakeover() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0020_ip = 226; continue _fun0020 }
+case 154:
+                    var3 = _closure1_slot4;
+                    var2 = var3.isFetchingQuestHomeTakeover;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0020_ip = 227; continue _fun0020 }
+case 49:
+                    var3 = _closure1_slot4;
+                    var2 = var3.getLastFetchedQuestHomeTakeover;
+                    var3 = var2.bind(var3)();
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0020_ip = 133; continue _fun0020 }
+case 228:
+                    var2 = global;
+                    var5 = var2.Date;
+                    var2 = var5.now;
+                    var2 = var2.bind(var5)();
+                    var3 = var2 - var3;
+                    var2 = _closure1_slot11;
+                    if(!(!(var3 <= var2))) { _fun0020_ip = 227; continue _fun0020 }
+case 133:
+                    var5 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var3 = 6;
+                    var2 = var2[var3];
+                    var8 = undefined;
+                    var6 = var5.bind(var8)(var2);
+                    var5 = var6.dispatch;
+                    var2 = {};
+                    var7 = 'QUESTS_FETCH_QUEST_HOME_TAKEOVER_BEGIN';
+                    var2['type'] = var7;
+                    var2 = var5.bind(var6)(var2);
+case 149: // try_start_0
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var9 = 8;
+                    var2 = var11[var9];
+                    var2 = var10.bind(var8)(var2);
+                    var2 = var2.QuestPlacementType;
+                    var2 = var2.QUEST_HOME_BANNER;
+                    var12 = new Array(1);
+                    var12[0] = var2;
+                    var2 = 5;
+                    var2 = var11[var2];
+                    var2 = var10.bind(var8)(var2);
+                    var6 = var2.HTTP;
+                    var5 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot9;
+                    var7 = var7.QUEST_PLACEMENT;
+                    var2['url'] = var7;
+                    var7 = {};
+                    var7['placements'] = var12;
+                    var9 = var11[var9];
+                    var9 = var10.bind(var8)(var9);
+                    var9 = var9.QuestPlacementPlatform;
+                    var9 = var9.WEB;
+                    var7['platform'] = var9;
+                    var2['query'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var5.bind(var6)(var2);
+                    SaveGenerator(address=262);
+case 229:
+                    return var2;
+case 230:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0020_ip = 231; continue _fun0020 }
+case 74:
+                    var6 = _closure1_slot1;
+                    var11 = _closure1_slot2;
+                    var5 = var11[var3];
+                    var7 = var6.bind(var8)(var5);
+                    var6 = var7.dispatch;
+                    var5 = {};
+                    var9 = 'QUESTS_FETCH_QUEST_HOME_TAKEOVER_SUCCESS';
+                    var5['type'] = var9;
+                    var10 = _closure1_slot0;
+                    var9 = 10;
+                    var9 = var11[var9];
+                    var11 = var10.bind(var8)(var9);
+                    var10 = var11.questHomeTakeoverConfigFromServer;
+                    var9 = var2.body;
+                    var9 = var10.bind(var11)(var9);
+                    var5['takeover'] = var9;
+                    var5 = var6.bind(var7)(var5);
+case 232: // try_end0
+                    _fun0020_ip = 227; continue _fun0020;
+case 231:
+                    return var2;
+case 233: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var7 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = var9[var3];
+                    var5 = var7.bind(var8)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var6 = 'QUESTS_FETCH_QUEST_HOME_TAKEOVER_FAILURE';
+                    var3['type'] = var6;
+                    var6 = 7;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var7 = var6.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var6}});
+                    var14 = var7;
+                    var13 = var2;
+                    var6 = new var14[var6](var13, var12);
+                    var6 = var6 instanceof Object ? var6 : var7;
+                    var3['error'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
+case 227:
+                    var2 = undefined;
+                    return var2;
+case 226:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot30 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot30 = var1;
     var1 = global;
     var9 = var1.Object;
     var5 = var9.defineProperty;
@@ -2702,13 +2843,21 @@ case 119:
     var _closure1_slot10 = var4;
     var5 = 24;
     var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.Millis;
+    var8 = var5.MINUTE;
+    var5 = 5;
+    var5 = var5 * var8;
+    var _closure1_slot11 = var5;
+    var5 = 25;
+    var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/quests/QuestActionCreators.tsx';
     var5 = var6.bind(var7)(var5);
     var5 = function manuallyStartConsoleQuest() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2719,7 +2868,7 @@ case 119:
     var3['manuallyStartConsoleQuest'] = var5;
     var5 = function manualStopConsoleQuest() {
         var1 = undefined;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2730,7 +2879,7 @@ case 119:
     var3['manualStopConsoleQuest'] = var5;
     var5 = function resetRecentQuestCompletions() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot14;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2741,7 +2890,7 @@ case 119:
     var3['resetRecentQuestCompletions'] = var5;
     var5 = function fetchCurrentQuests() {
         var1 = undefined;
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot15;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2752,7 +2901,7 @@ case 119:
     var3['fetchCurrentQuests'] = var5;
     var5 = function sendHeartbeat() {
         var1 = undefined;
-        var4 = _closure1_slot15;
+        var4 = _closure1_slot16;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2764,7 +2913,7 @@ case 119:
     var3['QuestEnrollmentResultType'] = var4;
     var4 = function enrollInQuest() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2775,7 +2924,7 @@ case 119:
     var3['enrollInQuest'] = var4;
     var4 = function claimQuestReward() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2786,7 +2935,7 @@ case 119:
     var3['claimQuestReward'] = var4;
     var4 = function fetchQuestRewardCode() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot19;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2797,7 +2946,7 @@ case 119:
     var3['fetchQuestRewardCode'] = var4;
     var4 = function dismissQuestContent() {
         var1 = undefined;
-        var4 = _closure1_slot19;
+        var4 = _closure1_slot20;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2825,7 +2974,7 @@ case 119:
     var3['dismissProgressTrackingFailureNotice'] = var4;
     var4 = function completeQuestPreview() {
         var1 = undefined;
-        var4 = _closure1_slot20;
+        var4 = _closure1_slot21;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2836,7 +2985,7 @@ case 119:
     var3['completeQuestPreview'] = var4;
     var4 = function resetQuestPreviewStatus() {
         var1 = undefined;
-        var4 = _closure1_slot21;
+        var4 = _closure1_slot22;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2847,7 +2996,7 @@ case 119:
     var3['resetQuestPreviewStatus'] = var4;
     var4 = function resetQuestDismissibilityStatus() {
         var1 = undefined;
-        var4 = _closure1_slot22;
+        var4 = _closure1_slot23;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2911,7 +3060,7 @@ case 119:
     var3['questsVisibleMobileMessagesChanged'] = var4;
     var4 = function fetchClaimedQuests() {
         var1 = undefined;
-        var4 = _closure1_slot23;
+        var4 = _closure1_slot24;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2960,7 +3109,7 @@ case 119:
     var3['resetOptimisticProgress'] = var4;
     var4 = function fetchQuestToDeliver() {
         var1 = undefined;
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2988,7 +3137,7 @@ case 119:
     var3['updatePrevRestingQuestDockMode'] = var4;
     var4 = function updateVideoProgress() {
         var1 = undefined;
-        var4 = _closure1_slot25;
+        var4 = _closure1_slot26;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2999,7 +3148,7 @@ case 119:
     var3['updateVideoProgress'] = var4;
     var4 = function fetchVideoTranscript() {
         var1 = undefined;
-        var4 = _closure1_slot26;
+        var4 = _closure1_slot27;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -3028,17 +3177,6 @@ case 119:
     var3['updateQuestDockVisibilityOverride'] = var4;
     var4 = function fetchQuest() {
         var1 = undefined;
-        var4 = _closure1_slot27;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['fetchQuest'] = var4;
-    var2 = function fetchQuestPreview() {
-        var1 = undefined;
         var4 = _closure1_slot28;
         var3 = var4.apply;
         var1 = arguments;
@@ -3047,6 +3185,28 @@ case 119:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchQuestPreview'] = var2;
+    var3['fetchQuest'] = var4;
+    var4 = function fetchQuestPreview() {
+        var1 = undefined;
+        var4 = _closure1_slot29;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchQuestPreview'] = var4;
+    var2 = function fetchQuestHomeTakeover() {
+        var1 = undefined;
+        var4 = _closure1_slot30;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchQuestHomeTakeover'] = var2;
     return var1;
 })();

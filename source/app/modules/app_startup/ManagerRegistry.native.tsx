@@ -937,7 +937,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['PomeloManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'EXPERIMENTS_FETCH_SUCCESS'];
+    var8 = ['POST_CONNECTION_OPEN', 'EXPERIMENTS_FETCH_SUCCESS', 'BILLING_SUBSCRIPTION_UPDATE_SUCCESS', 'BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS', 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'VIRTUAL_CURRENCY_REDEEM_SUCCESS'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

@@ -25,6 +25,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['enableNewRequestBehavior'] = var10;
     var8[1] = var9;
+    var9 = {};
+    var9['enableNewRequestBehavior'] = var10;
+    var8[2] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 1;

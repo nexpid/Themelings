@@ -178,6 +178,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VIDEO_MODAL_PRIMARY_CTA'] = var6;
     var2 = 'VIDEO_MODAL_PRIMARY_CTA';
     var4[var6] = var2;
+    var6 = 42;
+    var4['QUEST_HOME_TAKEOVER'] = var6;
+    var2 = 'QUEST_HOME_TAKEOVER';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

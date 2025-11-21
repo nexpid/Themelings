@@ -48,7 +48,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var10.bind(var9)(var3);
         var3 = var4.useIsMobileQuestDockVisible;
         var3 = var3.bind(var4)();
-        var3 = var3.isVisible;
         var _closure2_slot7 = var3;
         var8 = 8;
         var4 = var11[var8];

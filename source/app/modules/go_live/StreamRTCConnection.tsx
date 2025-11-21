@@ -493,7 +493,7 @@ case 14:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(16);
+        var1 = new Array(17);
         var1[0] = var5;
         var5 = {};
         var7 = 'destroy';
@@ -616,6 +616,19 @@ case 20:
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
+        var7 = 'autoQualityChange';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var2 = var1.videoStreamStats;
+            var1 = var2.autoQualityChange;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
         var7 = 'getVideoStats';
         var5['key'] = var7;
         var7 = function value() {
@@ -666,7 +679,7 @@ case 28:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getRegion';
         var5['key'] = var7;
@@ -677,7 +690,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getMaxViewers';
         var5['key'] = var7;
@@ -688,7 +701,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getVoiceParticipantType';
         var5['key'] = var7;
@@ -706,7 +719,7 @@ case 30:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'updateStats';
         var5['key'] = var7;
@@ -960,7 +973,7 @@ case 66:
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'initializeEvents';
         var5['key'] = var7;
@@ -2080,7 +2093,7 @@ case 187:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'reportSoundshareFailure';
         var5['key'] = var7;
@@ -2171,7 +2184,7 @@ case 150:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getStreamAnalyticsProperties';
         var5['key'] = var7;
@@ -2252,7 +2265,7 @@ case 195:
             }
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getSoundshareAnalyticsProperties';
         var5['key'] = var7;
@@ -2269,7 +2282,7 @@ case 195:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'trackVideoStartStats';
         var5['key'] = var7;
@@ -2332,7 +2345,7 @@ case 20:
             }
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'trackVideoEndStats';
         var5['key'] = var7;
@@ -2661,7 +2674,7 @@ case 199:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getExtraConnectionOptions';
         var5['key'] = var7;
@@ -2682,7 +2695,7 @@ case 199:
             return var1;
         };
         var5['value'] = var6;
-        var1[15] = var5;
+        var1[16] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

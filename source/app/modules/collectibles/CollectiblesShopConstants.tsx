@@ -318,5 +318,9 @@ case 4:
     var3['ORB_RENTAL_CATEGORY_STORE_LISTING_ID'] = var5;
     var3['ORB_RENTAL_FEED_ITEMS'] = var4;
     var3['ORB_RENTAL_HERO_BLOCK_RECORD'] = var2;
+    var2 = new Array(1);
+    var4 = {'categorySkuId': '1440063059895779408', 'rewardSkuId': '1440063059862487193'};
+    var2[0] = var4;
+    var3['REWARD_CATEGORY_AND_REWARD_SKU_IDS'] = var2;
     return var1;
 })();

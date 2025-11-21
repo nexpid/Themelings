@@ -949,11 +949,13 @@ case 81:
     var8 = var9.bind(var10)(var8);
     var3['default'] = var7;
     var3['convertToUUID'] = var6;
-    var6 = function makeIAPRequest(arg1, arg2) {
+    var6 = function makeIAPRequest(arg1, arg2, arg3) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = arg2;
         var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
         var2 = global;
         var3 = var2.Promise;
         var2 = function() {
@@ -970,23 +972,23 @@ case 39:
                         var6 = arg1;
                         var3 = arg2;
                         var2 = undefined;
-                        var10 = undefined;
+                        var11 = undefined;
                         var9 = undefined;
                         var7 = _closure1_slot5;
                         var4 = var7.getCurrentUser;
                         var7 = var4.bind(var7)();
-                        var10 = var7;
+                        var11 = var7;
                         var4 = null;
                         if(!(var4 == var7)) { _fun0014_ip = 84; continue _fun0014 }
 case 85:
                         var7 = var3;
                         var4 = global;
-                        var11 = var4.Error;
-                        var4 = var11.prototype;
-                        var8 = Object.create(var4, {constructor: {value: var11}});
+                        var10 = var4.Error;
+                        var4 = var10.prototype;
+                        var8 = Object.create(var4, {constructor: {value: var10}});
                         var13 = 'purchaseProduct: no valid user';
                         var14 = var8;
-                        var4 = new var14[var11](var13, var12);
+                        var4 = new var14[var10](var13, var12);
                         var4 = var4 instanceof Object ? var4 : var8;
                         var4 = var7.bind(var2)(var4);
                         _fun0014_ip = 86; continue _fun0014;
@@ -1000,28 +1002,30 @@ case 84: // try_start_0
                         var4 = {};
                         var12 = _closure2_slot0;
                         var4['requestJSONString'] = var12;
-                        var11 = _closure2_slot1;
-                        var4['sku'] = var11;
-                        var11 = _closure1_slot11;
-                        var10 = var10.id;
-                        var10 = var11.bind(var2)(var10);
-                        var4['appAccountToken'] = var10;
-                        var10 = false;
-                        var4['andDangerouslyFinishTransactionAutomaticallyIOS'] = var10;
+                        var12 = _closure2_slot1;
+                        var4['sku'] = var12;
+                        var12 = _closure1_slot11;
+                        var11 = var11.id;
+                        var11 = var12.bind(var2)(var11);
+                        var4['appAccountToken'] = var11;
+                        var11 = false;
+                        var4['andDangerouslyFinishTransactionAutomaticallyIOS'] = var11;
+                        var10 = _closure2_slot2;
+                        var4['useACOM'] = var10;
                         var4 = var7.bind(var8)(var4);
-                        SaveGenerator(address=180);
+                        SaveGenerator(address=191);
 case 87:
                         return var4;
 case 88:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                        if(var7) { _fun0014_ip = 89; continue _fun0014 }
-case 90:
+                        if(var7) { _fun0014_ip = 16; continue _fun0014 }
+case 23:
                         var9 = var4;
                         var8 = global;
                         var7 = var8.Object;
                         var7 = var4 instanceof var7;
-                        if(var7) { _fun0014_ip = 91; continue _fun0014 }
-case 71:
+                        if(var7) { _fun0014_ip = 89; continue _fun0014 }
+case 25:
                         var11 = var8.Error;
                         var7 = var11.prototype;
                         var10 = Object.create(var7, {constructor: {value: var11}});
@@ -1030,7 +1034,7 @@ case 71:
                         var7 = new var14[var11](var13, var12);
                         var7 = var7 instanceof Object ? var7 : var10;
                         throw var7;
-case 91:
+case 89:
                         var7 = var6;
                         var6 = {};
                         var10 = _closure1_slot10;
@@ -1041,21 +1045,21 @@ case 91:
                         var8 = var10.isArray;
                         var8 = var8.bind(var10)(var11);
                         var10 = var9;
-                        if(var8) { _fun0014_ip = 92; continue _fun0014 }
-case 93:
+                        if(var8) { _fun0014_ip = 90; continue _fun0014 }
+case 91:
                         var8 = var10;
-                        _fun0014_ip = 94; continue _fun0014;
-case 92:
+                        _fun0014_ip = 92; continue _fun0014;
+case 90:
                         var9 = 0;
                         var8 = var10[var9];
-case 94:
+case 92:
                         var6['originalPurchase'] = var8;
                         var6 = var7.bind(var2)(var6);
-case 95: // try_end0
+case 93: // try_end0
                         _fun0014_ip = 86; continue _fun0014;
-case 89:
+case 16:
                         return var4;
-case 96: // catch_target0
+case 30: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -1119,15 +1123,15 @@ case 0:
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0015_ip = 97; continue _fun0015 }
+                if(var4) { _fun0015_ip = 94; continue _fun0015 }
 case 77:
                 var2 = var3.verified;
-case 97:
+case 94:
                 var1 = var1 != var2;
-                if(!var1) { _fun0015_ip = 98; continue _fun0015 }
+                if(!var1) { _fun0015_ip = 95; continue _fun0015 }
 case 9:
                 var1 = var2;
-case 98:
+case 95:
                 return var1;
             }
         };
@@ -1147,33 +1151,33 @@ case 0:
                 var1 = var2.isReady;
                 var1 = var1.bind(var2)();
                 var1 = !var1;
-                if(var1) { _fun0016_ip = 99; continue _fun0016 }
-case 100:
+                if(var1) { _fun0016_ip = 96; continue _fun0016 }
+case 97:
                 var3 = _closure1_slot6;
                 var2 = var3.isBusy;
                 var2 = var2.bind(var3)();
-                if(!var2) { _fun0016_ip = 101; continue _fun0016 }
+                if(!var2) { _fun0016_ip = 98; continue _fun0016 }
 case 9:
                 var6 = _closure2_slot0;
                 var3 = null;
                 var3 = var3 == var6;
-                if(var3) { _fun0016_ip = 102; continue _fun0016 }
-case 103:
+                if(var3) { _fun0016_ip = 99; continue _fun0016 }
+case 100:
                 var6 = _closure1_slot6;
                 var5 = var6.isPurchasingProduct;
                 var4 = _closure2_slot0;
                 var4 = var5.bind(var6)(var4);
                 var3 = !var4;
-case 102:
-                var2 = var3;
-case 101:
-                var1 = var2;
 case 99:
-                if(var1) { _fun0016_ip = 104; continue _fun0016 }
-case 105:
+                var2 = var3;
+case 98:
+                var1 = var2;
+case 96:
+                if(var1) { _fun0016_ip = 101; continue _fun0016 }
+case 102:
                 var2 = _closure2_slot1;
                 var1 = !var2;
-case 104:
+case 101:
                 return var1;
             }
         };

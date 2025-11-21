@@ -425,7 +425,7 @@ case 25:
         var2 = var10[var2];
         var4 = undefined;
         var2 = var6.bind(var4)(var2);
-        var2 = var2.PortalKeyboardContext;
+        var2 = var2.AppLauncherContext;
         var3 = var3.bind(var12)(var2);
         var2 = null;
         var2 = var2 != var3;

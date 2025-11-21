@@ -1640,16 +1640,25 @@ case 0:
                     var5 = var3.length;
                     var3 = 0;
                     if(!(var3 !== var5)) { _fun0028_ip = 110; continue _fun0028 }
-case 105:
+case 73:
                     var8 = var7.questId;
                     _closure4_slot0 = var8;
                     var6 = _closure1_slot6;
                     var5 = var6.getQuest;
-                    var5 = var5.bind(var6)(var8);
-                    _closure4_slot1 = var5;
+                    var10 = var5.bind(var6)(var8);
                     var9 = null;
-                    if(!(var9 != var5)) { _fun0028_ip = 110; continue _fun0028 }
+                    if(!(var9 != var10)) { _fun0028_ip = 110; continue _fun0028 }
 case 111:
+                    var6 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var5 = 23;
+                    var5 = var11[var5];
+                    var6 = var6.bind(var1)(var5);
+                    var5 = var6.getActivityApplicationId;
+                    var5 = var5.bind(var6)(var10);
+                    _closure4_slot1 = var5;
+                    if(!(var9 != var5)) { _fun0028_ip = 110; continue _fun0028 }
+case 76:
                     var4 = _closure3_slot0;
                     var6 = var4.rpcServer;
                     var5 = var6.dispatchToSubscriptions;
@@ -1670,23 +1679,20 @@ case 0:
                             var1 = var1.application;
                             var4 = var1.id;
                             var1 = _closure4_slot1;
-                            var1 = var1.config;
-                            var1 = var1.application;
-                            var1 = var1.id;
                             var1 = var4 === var1;
-                            if(!var1) { _fun0029_ip = 112; continue _fun0029 }
-case 113:
+                            if(!var1) { _fun0029_ip = 38; continue _fun0029 }
+case 33:
                             var4 = var3.args;
                             var3 = null;
                             var5 = var3 == var4;
                             var3 = undefined;
-                            if(var5) { _fun0029_ip = 114; continue _fun0029 }
-case 115:
+                            if(var5) { _fun0029_ip = 28; continue _fun0029 }
+case 65:
                             var3 = var4.quest_id;
-case 114:
+case 28:
                             var2 = _closure4_slot0;
                             var1 = var3 === var2;
-case 112:
+case 38:
                             return var1;
                         }
                     };
@@ -1720,13 +1726,13 @@ case 0:
                 var9 = this;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 23;
+                var1 = 24;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.isPlatformEmbedded;
                 if(!var2) { _fun0030_ip = 96; continue _fun0030 }
-case 116:
+case 112:
                 var2 = var9.registerTransportsForEmbeddedPlatform;
                 var2 = var2.bind(var9)();
 case 96:
@@ -1735,7 +1741,7 @@ case 96:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0030_ip = 117; continue _fun0030 }
+                if(var2) { _fun0030_ip = 113; continue _fun0030 }
 case 50:
                 var6 = var3.value;
                 var5 = var9.rpcServer;
@@ -1745,7 +1751,7 @@ case 50:
                 var2 = var5.done;
                 var3 = var5;
                 if(!var2) { _fun0030_ip = 50; continue _fun0030 }
-case 117:
+case 113:
                 var5 = var9.rpcCommandHandlers;
                 var2 = global;
                 var4 = var2.Object;
@@ -1757,7 +1763,7 @@ case 117:
                 var6 = 2;
                 var5 = 1;
                 var4 = 0;
-                if(!var3) { _fun0030_ip = 118; continue _fun0030 }
+                if(!var3) { _fun0030_ip = 114; continue _fun0030 }
 case 95:
                 var11 = var10[var4];
                 var3 = _closure1_slot3;
@@ -1770,7 +1776,7 @@ case 95:
                 var4 = var4 + 1;
                 var3 = var10.length;
                 if(var4 < var3) { _fun0030_ip = 95; continue _fun0030 }
-case 118:
+case 114:
                 var4 = var9.rpcEventHandlers;
                 var3 = var2.Object;
                 var2 = var3.entries;
@@ -1778,8 +1784,8 @@ case 118:
                 var2 = var4.length;
                 var2 = var7 < var2;
                 var3 = 0;
-                if(!var2) { _fun0030_ip = 119; continue _fun0030 }
-case 120:
+                if(!var2) { _fun0030_ip = 115; continue _fun0030 }
+case 116:
                 var10 = var4[var3];
                 var2 = _closure1_slot3;
                 var2 = var2.bind(var1)(var10, var6);
@@ -1790,8 +1796,8 @@ case 120:
                 var2 = var2.bind(var10)(var12, var11);
                 var3 = var3 + 1;
                 var2 = var4.length;
-                if(var3 < var2) { _fun0030_ip = 120; continue _fun0030 }
-case 119:
+                if(var3 < var2) { _fun0030_ip = 116; continue _fun0030 }
+case 115:
                 return var1;
             }
         };
@@ -1817,7 +1823,7 @@ case 119:
                 var6 = arg1;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 24;
+                var1 = 25;
                 var3 = var5[var1];
                 var1 = undefined;
                 var8 = var4.bind(var1)(var3);
@@ -1830,7 +1836,7 @@ case 119:
                 var9 = var6.application;
                 var3['application'] = var9;
                 var3 = var7.bind(var8)(var3);
-                var3 = 25;
+                var3 = 26;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.track;
@@ -1851,7 +1857,7 @@ case 119:
                 var5 = arg1;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 24;
+                var1 = 25;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -1884,7 +1890,7 @@ case 119:
             var9[5] = var1;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 26;
+            var1 = 27;
             var6 = var5[var1];
             var1 = undefined;
             var6 = var7.bind(var1)(var6);
@@ -1908,7 +1914,7 @@ case 119:
             var4 = 'RPCServerManager';
             var4 = var6.bind(var7)(var4);
             var4 = _closure1_slot1;
-            var3 = 24;
+            var3 = 25;
             var6 = var5[var3];
             var9 = var4.bind(var1)(var6);
             var8 = var9.subscribe;
@@ -2070,7 +2076,7 @@ case 119:
             var2 = this;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 24;
+            var3 = 25;
             var6 = var5[var3];
             var1 = undefined;
             var9 = var4.bind(var1)(var6);
@@ -2231,7 +2237,7 @@ case 119:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 27;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

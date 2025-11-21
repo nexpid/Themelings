@@ -210,7 +210,7 @@ case 4:
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
     var13 = var13.DismissibleContent;
-    var13 = var13.PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET;
+    var13 = var13.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
     var15[2] = var13;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);

@@ -51,15 +51,6 @@ case 2:
             var4 = var3.messages;
             var4 = var4.video_title;
             var2['videoTitle'] = var4;
-            var4 = var3.messages;
-            var4 = var4.video_end_cta_title;
-            var2['videoEndCtaTitle'] = var4;
-            var4 = var3.messages;
-            var4 = var4.video_end_cta_subtitle;
-            var2['videoEndCtaSubtitle'] = var4;
-            var4 = var3.messages;
-            var4 = var4.video_end_cta_button_label;
-            var2['videoEndCtaButtonLabel'] = var4;
             var1['messages'] = var2;
             var2 = {};
             var4 = var3.assets;
@@ -127,16 +118,10 @@ case 6:
     };
     var3['desktopVideoAssetsFromServer'] = var4;
     var4 = function desktopVideoMessagesFromServer(arg1) {
-        var2 = arg1;
         var1 = {};
-        var3 = var2.video_title;
-        var1['videoTitle'] = var3;
-        var3 = var2.video_end_cta_title;
-        var1['videoEndCtaTitle'] = var3;
-        var3 = var2.video_end_cta_subtitle;
-        var1['videoEndCtaSubtitle'] = var3;
-        var2 = var2.video_end_cta_button_label;
-        var1['videoEndCtaButtonLabel'] = var2;
+        var2 = arg1;
+        var2 = var2.video_title;
+        var1['videoTitle'] = var2;
         return var1;
     };
     var3['desktopVideoMessagesFromServer'] = var4;
@@ -172,16 +157,10 @@ case 6:
     };
     var3['mobileVideoAssetsFromServer'] = var4;
     var2 = function mobileVideoMessagesFromServer(arg1) {
-        var2 = arg1;
         var1 = {};
-        var3 = var2.video_title;
-        var1['videoTitle'] = var3;
-        var3 = var2.video_end_cta_title;
-        var1['videoEndCtaTitle'] = var3;
-        var3 = var2.video_end_cta_subtitle;
-        var1['videoEndCtaSubtitle'] = var3;
-        var2 = var2.video_end_cta_button_label;
-        var1['videoEndCtaButtonLabel'] = var2;
+        var2 = arg1;
+        var2 = var2.video_title;
+        var1['videoTitle'] = var2;
         return var1;
     };
     var3['mobileVideoMessagesFromServer'] = var2;

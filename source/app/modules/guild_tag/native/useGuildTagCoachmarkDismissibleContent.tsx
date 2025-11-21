@@ -36,8 +36,7 @@ case 0:
             var2 = var4[var2];
             var5 = var3.bind(var6)(var2);
             var2 = var5.useIsMobileQuestDockVisible;
-            var2 = var2.bind(var5)();
-            var5 = var2.isVisible;
+            var5 = var2.bind(var5)();
             var2 = 2;
             var2 = var4[var2];
             var4 = var3.bind(var6)(var2);
