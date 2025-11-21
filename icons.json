@@ -12822,16 +12822,6 @@
         "width": 24,
         "height": 24
     },
-    "TreatIcon": {
-        "file": "app/images/native/custom_app_icons/TreatIcon/TreatIcon.png",
-        "hash": "5722af1699b8cbf8487f2ee137aa43de",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 60,
-        "height": 60
-    },
     "TreehouseIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TreehouseIcon.png",
         "hash": "b1797542a5108ce22eadaf8f097c0177",
@@ -12841,16 +12831,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "TrickIcon": {
-        "file": "app/images/native/custom_app_icons/TrickIcon/TrickIcon.png",
-        "hash": "058e3859f5939b354e417c840c5064ef",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 60,
-        "height": 60
     },
     "TrophyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TrophyIcon.png",
