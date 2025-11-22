@@ -1072,26 +1072,24 @@ case 45:
             var20 = var20[var13];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.bnVRrg;
+            var21 = var20.GE7QzY;
             var20 = {};
             var25 = var11.emoji;
-            var26 = var9 == var25;
-            var27 = undefined;
-            if(var26) { _fun0008_ip = 46; continue _fun0008 }
+            var27 = var9 == var25;
+            var26 = undefined;
+            if(var27) { _fun0008_ip = 46; continue _fun0008 }
 case 47:
-            var27 = var25.name;
+            var26 = var25.name;
 case 46:
-            var28 = var9 != var27;
+            var27 = var9 != var26;
             var25 = '';
-            var26 = var25;
-            if(!var28) { _fun0008_ip = 48; continue _fun0008 }
+            if(!var27) { _fun0008_ip = 48; continue _fun0008 }
 case 49:
-            var26 = var27;
+            var25 = var26;
 case 48:
-            var20['emoji'] = var26;
-            var26 = var11.state;
-            var20['status'] = var26;
-            var20['label'] = var25;
+            var20['emoji'] = var25;
+            var25 = var11.state;
+            var20['status'] = var25;
             var19 = var22.bind(var24)(var21, var20);
 case 44:
             var8['accessibilityHint'] = var19;

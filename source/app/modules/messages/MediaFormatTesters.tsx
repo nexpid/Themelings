@@ -106,6 +106,8 @@ case 11:
         var _closure1_slot8 = var5;
         var5 = /\.(webm)$/i;
         var _closure1_slot9 = var5;
+        var5 = /\.(riv)$/i;
+        var _closure1_slot10 = var5;
         var5 = var9[var4];
         var7 = var8.bind(var1)(var5);
         var5 = var7.isIOS;
@@ -121,7 +123,7 @@ case 13:
 case 12:
         var4 = /\.(mp4|mov)$/i;
 case 14:
-        var _closure1_slot10 = var4;
+        var _closure1_slot11 = var4;
         var5 = function isWebPlayerVideoUrl(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -157,7 +159,7 @@ case 17:
                 return var1;
             }
         };
-        var _closure1_slot11 = var5;
+        var _closure1_slot12 = var5;
         var4 = function isWebPlayerVideoFile(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -199,7 +201,7 @@ case 22:
                 return var1;
             }
         };
-        var _closure1_slot12 = var4;
+        var _closure1_slot13 = var4;
         var7 = 4;
         var7 = var9[var7];
         var9 = var8.bind(var1)(var7);
@@ -272,12 +274,12 @@ case 23:
 case 0:
                 var4 = arg1;
                 var5 = _closure1_slot4;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var3 = undefined;
                 var1 = var5.bind(var3)(var4, var1);
                 if(var1) { _fun0008_ip = 24; continue _fun0008 }
 case 25:
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var1 = var2.bind(var3)(var4);
 case 24:
                 return var1;
@@ -293,12 +295,12 @@ case 0:
                 var1 = var1 != var5;
                 if(!var1) { _fun0009_ip = 26; continue _fun0009 }
 case 3:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot11;
                 var2 = var4.test;
                 var2 = var2.bind(var4)(var5);
                 if(var2) { _fun0009_ip = 27; continue _fun0009 }
 case 28:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot13;
                 var3 = undefined;
                 var2 = var4.bind(var3)(var5);
 case 27:
@@ -308,6 +310,22 @@ case 26:
             }
         };
         var3['isVideoFile'] = var4;
+        var4 = function(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                var4 = arg1;
+                var1 = null;
+                var1 = var1 != var4;
+                if(!var1) { _fun0010_ip = 23; continue _fun0010 }
+case 3:
+                var3 = _closure1_slot10;
+                var2 = var3.test;
+                var1 = var2.bind(var3)(var4);
+case 23:
+                return var1;
+            }
+        };
+        var3['isRiveFile'] = var4;
         var2 = function(arg1) {
             var4 = _closure1_slot5;
             var3 = undefined;

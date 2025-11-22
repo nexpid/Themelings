@@ -1796,11 +1796,11 @@ case 33:
                     var1 = _closure2_slot0;
                     var2 = var1.content;
                     var1 = '';
-                    if(!(var1 === var2)) { _fun0030_ip = 108; continue _fun0030 }
+                    if(!(var1 === var2)) { _fun0030_ip = 31; continue _fun0030 }
 case 116:
                     var1 = {'hasSpoilerEmbeds': false, 'content': null};
                     _fun0030_ip = 117; continue _fun0030;
-case 108:
+case 31:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 34;
@@ -2281,13 +2281,13 @@ case 124:
                     var4 = _closure2_slot7;
                     var5 = var4.current;
                     var4 = _closure2_slot5;
-                    if(!(var5 === var4)) { _fun0037_ip = 117; continue _fun0037 }
-case 126:
+                    if(!(var5 === var4)) { _fun0037_ip = 126; continue _fun0037 }
+case 127:
                     var4 = _closure2_slot8;
                     var5 = var4.current;
                     var4 = _closure2_slot1;
                     if(!(var5 !== var4)) { _fun0037_ip = 89; continue _fun0037 }
-case 117:
+case 126:
                     var4 = _closure2_slot4;
                     if(var4) { _fun0037_ip = 89; continue _fun0037 }
 case 68:
@@ -2302,7 +2302,7 @@ case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                                 if(var2) { _fun0038_ip = 124; continue _fun0038 }
-case 127:
+case 128:
                                 var4 = _closure2_slot7;
                                 var3 = _closure2_slot5;
                                 var4['current'] = var3;
@@ -2330,14 +2330,14 @@ case 8:
                                 return var2;
 case 119:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(var3) { _fun0038_ip = 128; continue _fun0038 }
-case 129: // try_end0
-                                _fun0038_ip = 130; continue _fun0038;
-case 128:
+                                if(var3) { _fun0038_ip = 129; continue _fun0038 }
+case 130: // try_end0
+                                _fun0038_ip = 131; continue _fun0038;
+case 129:
                                 return var2;
 case 25: // catch_target0
                                 CatchBlockStart(arg_register=1);
-case 130:
+case 131:
                                 var2 = undefined;
                                 return var2;
 case 124:

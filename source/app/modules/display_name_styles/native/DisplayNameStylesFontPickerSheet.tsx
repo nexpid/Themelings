@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.CONTROL_BRAND_FOREGROUND;
     var9['borderColor'] = var13;
     var4['fontCardSelected'] = var9;
-    var9 = {'fontSize': 24, 'textAlign': 'center', 'textAlignVertical': 'center'};
+    var9 = {'fontSize': 24, 'lineHeight': 34, 'textAlign': 'center', 'textAlignVertical': 'center'};
     var4['fontText'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center'};
     var13 = var6[var11];
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['disclaimerText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -330,18 +330,18 @@ case 0:
                     var5 = arg1;
                     var _closure3_slot0 = var5;
                     var1 = _closure2_slot2;
-                    var13 = var5 === var1;
+                    var14 = var5 === var1;
                     var2 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var1 = 14;
-                    var1 = var9[var1];
+                    var1 = var8[var1];
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.intl;
                     var2 = var3.string;
                     var6 = _closure1_slot1;
                     var1 = 18;
-                    var1 = var9[var1];
+                    var1 = var8[var1];
                     var1 = var6.bind(var4)(var1);
                     var1 = var1.bind(var4)(var5);
                     var6 = var2.bind(var3)(var1);
@@ -360,22 +360,22 @@ case 0:
                     var1['accessibilityRole'] = var7;
                     var1['accessibilityLabel'] = var6;
                     var6 = {};
-                    var6['selected'] = var13;
+                    var6['selected'] = var14;
                     var1['accessibilityState'] = var6;
                     var7 = _closure1_slot5;
                     var6 = {};
-                    var9 = _closure2_slot1;
-                    var10 = var9.fontCard;
-                    var9 = new Array(2);
-                    var9[0] = var10;
-                    var10 = var13;
-                    if(!var10) { _fun0003_ip = 4; continue _fun0003 }
+                    var8 = _closure2_slot1;
+                    var9 = var8.fontCard;
+                    var8 = new Array(2);
+                    var8[0] = var9;
+                    var9 = var14;
+                    if(!var9) { _fun0003_ip = 4; continue _fun0003 }
 case 5:
-                    var12 = _closure2_slot1;
-                    var10 = var12.fontCardSelected;
+                    var10 = _closure2_slot1;
+                    var9 = var10.fontCardSelected;
 case 4:
-                    var9[1] = var10;
-                    var6['style'] = var9;
+                    var8[1] = var9;
+                    var6['style'] = var8;
                     var10 = _closure1_slot8;
                     var9 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -387,13 +387,25 @@ case 4:
                     var12 = 'text-lg/semibold';
                     var8['variant'] = var12;
                     var12 = 'text-normal';
-                    if(!var13) { _fun0003_ip = 6; continue _fun0003 }
+                    if(!var14) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
                     var12 = 'header-primary';
 case 6:
                     var8['color'] = var12;
                     var11 = _closure2_slot1;
-                    var11 = var11.fontText;
+                    var12 = var11.fontText;
+                    var11 = new Array(2);
+                    var11[0] = var12;
+                    var12 = {};
+                    var14 = _closure1_slot0;
+                    var15 = _closure1_slot2;
+                    var13 = 20;
+                    var13 = var15[var13];
+                    var13 = var14.bind(var4)(var13);
+                    var13 = var13.DISPLAY_NAME_STYLES_FONT_FAMILY_MAP;
+                    var13 = var13[var5];
+                    var12['fontFamily'] = var13;
+                    var11[1] = var12;
                     var8['style'] = var11;
                     var11 = 'Gg';
                     var8['children'] = var11;
@@ -424,7 +436,7 @@ case 11:
             var17 = _closure1_slot8;
             var20 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var14 = 20;
+            var14 = 21;
             var14 = var18[var14];
             var14 = var20.bind(var4)(var14);
             var15 = var14.CircleInformationIcon;

@@ -1195,6 +1195,7 @@ case 0:
             var2 = {};
             var2['analyticsLocations'] = var6;
             var2['isTryItOut'] = var17;
+            var2['guildId'] = var29;
             var2 = var9.bind(var4)(var2);
             var18 = var2.pendingAvatar;
             var16 = var2.setPendingAvatarDecoration;
@@ -1227,7 +1228,7 @@ case 0:
             var3 = var3[var5];
             var3 = var7.bind(var4)(var3);
             if(!(var2 == var6)) { _fun0011_ip = 82; continue _fun0011 }
-case 55:
+case 83:
             var6 = new Array(0);
 case 82:
             var7 = _closure1_slot1;
@@ -1266,11 +1267,11 @@ case 0:
                     var6 = null;
                     var9 = var6 == var9;
                     var6 = undefined;
-                    if(var9) { _fun0012_ip = 83; continue _fun0012 }
-case 84:
+                    if(var9) { _fun0012_ip = 84; continue _fun0012 }
+case 85:
                     var8 = _closure2_slot0;
                     var6 = var8.avatarDecoration;
-case 83:
+case 84:
                     var6 = var7.bind(var1)(var6);
                     var2['has_avatar_decoration'] = var6;
                     var6 = true;
@@ -1319,8 +1320,8 @@ case 83:
             var22 = var3.bind(var4)(var22, var13);
             var13 = new Array(2);
             var13[0] = var22;
-            if(var15) { _fun0011_ip = 85; continue _fun0011 }
-case 86:
+            if(var15) { _fun0011_ip = 86; continue _fun0011 }
+case 87:
             var23 = _closure1_slot17;
             var22 = _closure1_slot6;
             var15 = {};
@@ -1368,8 +1369,8 @@ case 86:
             var24[1] = var25;
             var15['children'] = var24;
             var15 = var23.bind(var4)(var22, var15);
-            _fun0011_ip = 87; continue _fun0011;
-case 85:
+            _fun0011_ip = 88; continue _fun0011;
+case 86:
             var24 = _closure1_slot16;
             var23 = _closure1_slot6;
             var22 = {};
@@ -1382,7 +1383,7 @@ case 85:
             var25 = var24.bind(var4)(var26, var25);
             var22['children'] = var25;
             var15 = var24.bind(var4)(var23, var22);
-case 87:
+case 88:
             var13[1] = var15;
             var10['children'] = var13;
             var12 = var9.bind(var4)(var12, var10);

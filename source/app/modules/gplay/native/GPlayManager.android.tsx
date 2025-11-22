@@ -42,7 +42,8 @@ case 2:
     var _closure1_slot25 = var1;
     var1 = function handlePurchaseStateUpdated(arg1) {
         var1 = arg1;
-        var5 = var1.billingResult;
+        var6 = var1.billingResult;
+        var5 = var1.isActivePurchase;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 14;
@@ -51,9 +52,10 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'GPLAY_UPDATE_PURCHASE_STATE';
-        var2['type'] = var6;
-        var2['billingResult'] = var5;
+        var7 = 'GPLAY_UPDATE_PURCHASE_STATE';
+        var2['type'] = var7;
+        var2['billingResult'] = var6;
+        var2['isActivePurchase'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

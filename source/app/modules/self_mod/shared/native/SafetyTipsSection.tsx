@@ -102,7 +102,7 @@ case 0:
             var17 = 6;
             var17 = var13[var17];
             var17 = var12.bind(var4)(var17);
-            var18 = var17.CheckpointBookletSpotIllustration;
+            var18 = var17.SafetyBookletSpotIllustration;
             var17 = {};
             var17 = var15.bind(var4)(var18, var17);
             var5['children'] = var17;

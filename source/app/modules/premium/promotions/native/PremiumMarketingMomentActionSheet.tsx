@@ -164,7 +164,7 @@ case 0:
                 var2 = {};
                 var6 = {};
                 var7 = _closure1_slot9;
-                var7 = var7.BOGO_PROMOTION_ACTION_SHEET;
+                var7 = var7.PREMIUM_MARKETING_MOMENT_ACTION_SHEET;
                 var6['page'] = var7;
                 var7 = _closure1_slot7;
                 var7 = var7.FOOTER;

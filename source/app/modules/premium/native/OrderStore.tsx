@@ -524,6 +524,7 @@ case 31:
 case 0:
             var1 = arg1;
             var3 = var1.billingResult;
+            var1 = var1.isActivePurchase;
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 8;
@@ -540,12 +541,12 @@ case 33:
             var2 = var2.OK;
             var2 = var3 === var2;
             if(!var2) { _fun0014_ip = 34; continue _fun0014 }
-case 3:
+case 35:
             var5 = _closure1_slot12;
             var3 = null;
             var3 = var3 != var5;
-            if(!var3) { _fun0014_ip = 35; continue _fun0014 }
-case 36:
+            if(!var3) { _fun0014_ip = 36; continue _fun0014 }
+case 37:
             var6 = _closure1_slot14;
             var5 = var6.startOrderSigningSafely;
             var4 = _closure1_slot12;
@@ -557,7 +558,7 @@ case 36:
             };
             var4 = var5.bind(var6)(var4);
             var3 = true;
-case 35:
+case 36:
             var2 = var3;
 case 34:
             var1 = var2;

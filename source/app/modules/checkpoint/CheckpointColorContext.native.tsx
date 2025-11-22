@@ -19,13 +19,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.CheckpointSlides;
+    var2 = var2.CheckpointPersonas;
     var4 = var7.createContext;
     var8 = 2;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.CHECKPOINT_SLIDE_COLORS;
-    var2 = var2.WELCOME;
+    var8 = var8.CHECKPOINT_PERSONA_COLORS;
+    var2 = var2.ONE;
     var2 = var8[var2];
     var2 = var4.bind(var7)(var2);
     var4 = 3;

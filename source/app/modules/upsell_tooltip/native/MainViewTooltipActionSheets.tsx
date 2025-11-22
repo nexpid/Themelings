@@ -210,7 +210,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot21 = var4;
-    var4 = 41;
+    var4 = function DisplayNameStylesMobileActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 10;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 21;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot22 = var4;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -221,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var7 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var9 = 21;
+            var9 = 22;
             var2 = var1[var9];
             var4 = undefined;
             var10 = var7.bind(var4)(var2);
@@ -239,7 +253,7 @@ case 0:
             };
             var19 = var8.bind(var10)(var3, var2);
             var8 = _closure1_slot1;
-            var2 = 22;
+            var2 = 23;
             var2 = var1[var2];
             var11 = var8.bind(var4)(var2);
             var10 = var11.getCurrentConfig;
@@ -274,7 +288,7 @@ case 5:
 case 4:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 23;
+            var1 = 24;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.bind(var4)();
@@ -295,34 +309,41 @@ case 8:
             var11 = var18 != var1;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 24;
+            var1 = 25;
             var1 = var7[var1];
             var3 = var8.bind(var4)(var1);
             var2 = var3.useVirtualCurrencyOnboardingEnabled;
             var1 = {};
             var1['location'] = var12;
             var1 = var2.bind(var3)(var1);
-            var1 = var1.enabled;
-            var2 = 25;
-            var2 = var7[var2];
-            var3 = var8.bind(var4)(var2);
-            var2 = var3.useIsEligibleForBogoPromotion;
-            var2 = var2.bind(var3)();
-            var3 = 26;
-            var3 = var7[var3];
-            var13 = var8.bind(var4)(var3);
-            var3 = var13.useShouldShowRobloxConnectionCoachmark;
-            var3 = var3.bind(var13)();
+            var2 = var1.enabled;
+            var1 = 26;
+            var1 = var7[var1];
+            var3 = var8.bind(var4)(var1);
+            var1 = var3.useIsEligibleForBogoPromotion;
+            var3 = var1.bind(var3)();
+            var1 = 27;
+            var1 = var7[var1];
+            var13 = var8.bind(var4)(var1);
+            var1 = var13.useShouldShowRobloxConnectionCoachmark;
+            var20 = var1.bind(var13)();
+            var1 = 28;
+            var1 = var7[var1];
+            var14 = var8.bind(var4)(var1);
+            var13 = var14.useIsDisplayNameStylesMobileEnabled;
+            var1 = {};
+            var1['location'] = var12;
+            var1 = var13.bind(var14)(var1);
             var14 = _closure1_slot1;
-            var13 = 27;
+            var13 = 29;
             var13 = var7[var13];
             var15 = var14.bind(var4)(var13);
             var14 = var15.useConfig;
             var13 = {};
             var13['location'] = var12;
             var13 = var14.bind(var15)(var13);
-            var20 = var13.showMarketing;
-            var13 = 28;
+            var23 = var13.showMarketing;
+            var13 = 30;
             var13 = var7[var13];
             var13 = var8.bind(var4)(var13);
             var15 = var13.CheckpointExperiment;
@@ -330,7 +351,7 @@ case 8:
             var13 = {};
             var13['location'] = var12;
             var13 = var14.bind(var15)(var13);
-            var23 = var13.enabled;
+            var24 = var13.enabled;
             var7 = var7[var9];
             var13 = var8.bind(var4)(var7);
             var9 = var13.useStateFromStoresArray;
@@ -348,22 +369,22 @@ case 8:
             };
             var8 = var9.bind(var13)(var8, var7);
             var7 = _closure1_slot3;
-            var27 = 2;
-            var7 = var7.bind(var4)(var8, var27);
+            var28 = 2;
+            var7 = var7.bind(var4)(var8, var28);
             var17 = 0;
             var13 = var7[var17];
-            var25 = 1;
-            var7 = var7[var25];
+            var26 = 1;
+            var7 = var7[var26];
             var9 = var18 != var7;
             if(!var9) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var14 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var8 = 29;
+            var8 = 31;
             var8 = var22[var8];
             var21 = var14.bind(var4)(var8);
             var15 = var21.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-            var8 = 30;
+            var8 = 32;
             var8 = var22[var8];
             var8 = var14.bind(var4)(var8);
             var8 = var8.DismissibleContent;
@@ -394,7 +415,7 @@ case 19:
 case 21:
             var14 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var13 = 30;
+            var13 = 32;
             var13 = var21[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.DismissibleContent;
@@ -408,11 +429,11 @@ case 22:
 case 25:
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var11 = 31;
+            var11 = 33;
             var11 = var22[var11];
             var14 = var21.bind(var4)(var11);
             var13 = var14.isVersionedDismissibleContentDismissed;
-            var11 = 30;
+            var11 = 32;
             var11 = var22[var11];
             var11 = var21.bind(var4)(var11);
             var11 = var11.DismissibleContent;
@@ -424,7 +445,7 @@ case 24:
 case 27:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var11 = 32;
+            var11 = 34;
             var11 = var14[var11];
             var11 = var13.bind(var4)(var11);
             var21 = var11.SeasonalGiftingReminderExperiment;
@@ -440,7 +461,7 @@ case 26:
 case 29:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 30;
+            var10 = 32;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);
             var10 = var10.DismissibleContent;
@@ -450,7 +471,7 @@ case 28:
 case 18:
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var9 = 33;
+            var9 = 35;
             var10 = var10[var9];
             var14 = var11.bind(var4)(var10);
             var13 = var14.useSelectedVersionedDismissibleContent;
@@ -460,7 +481,7 @@ case 18:
 case 31:
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var10 = 34;
+            var10 = 36;
             var10 = var22[var10];
             var21 = var21.bind(var4)(var10);
             var10 = var21.getVersionedDismissibleContentCurrentVersion;
@@ -470,7 +491,7 @@ case 30:
             var10 = var10.MAIN_VIEW_TOOLTIPS;
             var11 = var13.bind(var14)(var15, var11, var10);
             var10 = _closure1_slot3;
-            var10 = var10.bind(var4)(var11, var25);
+            var10 = var10.bind(var4)(var11, var26);
             var15 = var10[var17];
             var _closure2_slot0 = var15;
             var11 = _closure1_slot0;
@@ -483,7 +504,7 @@ case 30:
 case 33:
             var10 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var8 = 30;
+            var8 = 32;
             var8 = var21[var8];
             var8 = var10.bind(var4)(var8);
             var8 = var8.DismissibleContent;
@@ -505,77 +526,77 @@ case 36:
             var8 = var8.MAIN_VIEW_TOOLTIPS;
             var10 = var13.bind(var14)(var11, var10, var8);
             var8 = _closure1_slot3;
-            var8 = var8.bind(var4)(var10, var25);
+            var8 = var8.bind(var4)(var10, var26);
             var8 = var8[var17];
-            var28 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var10 = 35;
-            var10 = var26[var10];
-            var11 = var28.bind(var4)(var10);
+            var29 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var10 = 37;
+            var10 = var27[var10];
+            var11 = var29.bind(var4)(var10);
             var10 = var11.useSelectedDiscountOfferActionSheet;
             var11 = var10.bind(var11)();
             var10 = var11.discountOffer;
             var14 = var11.discountOfferDismissibleContent;
             var11 = var11.markDismissed;
-            var13 = 36;
-            var13 = var26[var13];
-            var22 = var28.bind(var4)(var13);
+            var13 = 38;
+            var13 = var27[var13];
+            var22 = var29.bind(var4)(var13);
             var21 = var22.usePromotionMarketingComponent;
-            var13 = 37;
-            var13 = var26[var13];
-            var13 = var28.bind(var4)(var13);
+            var13 = 39;
+            var13 = var27[var13];
+            var13 = var29.bind(var4)(var13);
             var13 = var13.MarketingComponentType;
             var13 = var13.MOBILE_BOTTOM_SHEET;
             var13 = var21.bind(var22)(var13);
             var _closure2_slot1 = var13;
-            var22 = 38;
-            var21 = var26[var22];
-            var30 = var28.bind(var4)(var21);
-            var29 = var30.useShouldSeePushNotificationNudge;
+            var22 = 40;
+            var21 = var27[var22];
+            var31 = var29.bind(var4)(var21);
+            var30 = var31.useShouldSeePushNotificationNudge;
             var21 = _closure1_slot7;
-            var24 = var21.APP_LOAD_PROMPT;
-            var24 = var29.bind(var30)(var24);
-            var22 = var26[var22];
-            var29 = var28.bind(var4)(var22);
-            var22 = var29.useNudgeExperimentConfigWithoutExposure;
+            var25 = var21.APP_LOAD_PROMPT;
+            var25 = var30.bind(var31)(var25);
+            var22 = var27[var22];
+            var30 = var29.bind(var4)(var22);
+            var22 = var30.useNudgeExperimentConfigWithoutExposure;
             var21 = var21.APP_LOAD_PROMPT;
-            var21 = var22.bind(var29)(var21);
-            var30 = {};
-            var22 = 39;
-            var26 = var26[var22];
-            var29 = var28.bind(var4)(var26);
-            var28 = var29.getNotificationNudgeCooldownMs;
-            var31 = var18 == var21;
-            var26 = undefined;
-            if(var31) { _fun0001_ip = 38; continue _fun0001 }
+            var21 = var22.bind(var30)(var21);
+            var31 = {};
+            var22 = 41;
+            var27 = var27[var22];
+            var30 = var29.bind(var4)(var27);
+            var29 = var30.getNotificationNudgeCooldownMs;
+            var32 = var18 == var21;
+            var27 = undefined;
+            if(var32) { _fun0001_ip = 38; continue _fun0001 }
 case 39:
-            var26 = var21.timing;
+            var27 = var21.timing;
 case 38:
-            var26 = var28.bind(var29)(var26);
-            var30['cooldownDurationMs'] = var26;
-            var28 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var26 = var26[var9];
-            var29 = var28.bind(var4)(var26);
-            var28 = var29.useSelectedTimeRecurringDismissibleContent;
-            var26 = null;
-            if(!var24) { _fun0001_ip = 40; continue _fun0001 }
+            var27 = var29.bind(var30)(var27);
+            var31['cooldownDurationMs'] = var27;
+            var29 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var9];
+            var30 = var29.bind(var4)(var27);
+            var29 = var30.useSelectedTimeRecurringDismissibleContent;
+            var27 = null;
+            if(!var25) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
-            var31 = _closure1_slot0;
-            var32 = _closure1_slot2;
-            var24 = 30;
-            var24 = var32[var24];
-            var24 = var31.bind(var4)(var24);
-            var24 = var24.DismissibleContent;
-            var26 = var24.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
+            var32 = _closure1_slot0;
+            var33 = _closure1_slot2;
+            var25 = 32;
+            var25 = var33[var25];
+            var25 = var32.bind(var4)(var25);
+            var25 = var25.DismissibleContent;
+            var27 = var25.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
 case 40:
-            var24 = _closure1_slot8;
-            var24 = var24.MAIN_VIEW_TOOLTIPS;
-            var26 = var28.bind(var29)(var26, var30, var24);
-            var24 = _closure1_slot3;
-            var24 = var24.bind(var4)(var26, var27);
-            var17 = var24[var17];
-            var24 = var24[var25];
+            var25 = _closure1_slot8;
+            var25 = var25.MAIN_VIEW_TOOLTIPS;
+            var27 = var29.bind(var30)(var27, var31, var25);
+            var25 = _closure1_slot3;
+            var25 = var25.bind(var4)(var27, var28);
+            var17 = var25[var17];
+            var25 = var25[var26];
             if(var19) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
             return var18;
@@ -596,74 +617,85 @@ case 51:
             var14 = 'mobileBottomSheet';
             if(!(var14 !== var19)) { _fun0001_ip = 52; continue _fun0001 }
 case 50:
-            var24 = _closure1_slot0;
+            var25 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var19 = 30;
+            var19 = 32;
             var14 = var14[var19];
-            var14 = var24.bind(var4)(var14);
+            var14 = var25.bind(var4)(var14);
             var14 = var14.DismissibleContent;
-            var24 = var14.CUSTOM_APP_ICONS_COACHMARK;
+            var25 = var14.CUSTOM_APP_ICONS_COACHMARK;
             var14 = new Array(1);
-            var14[0] = var24;
-            if(!var23) { _fun0001_ip = 53; continue _fun0001 }
+            var14[0] = var25;
+            if(!var24) { _fun0001_ip = 53; continue _fun0001 }
 case 54:
+            var25 = var14.push;
+            var26 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var24 = var24[var19];
+            var24 = var26.bind(var4)(var24);
+            var24 = var24.DismissibleContent;
+            var24 = var24.CHECKPOINT_2025_BOTTOM_SHEET;
+            var24 = var25.bind(var14)(var24);
+case 53:
+            if(!var23) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
             var24 = var14.push;
             var25 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var19];
             var23 = var25.bind(var4)(var23);
             var23 = var23.DismissibleContent;
-            var23 = var23.CHECKPOINT_2025_BOTTOM_SHEET;
+            var23 = var23.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
             var23 = var24.bind(var14)(var23);
-case 53:
-            if(!var20) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
+case 55:
+            if(!var20) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
             var23 = var14.push;
             var24 = _closure1_slot0;
             var20 = _closure1_slot2;
             var20 = var20[var19];
             var20 = var24.bind(var4)(var20);
             var20 = var20.DismissibleContent;
-            var20 = var20.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
+            var20 = var20.ROBLOX_CONNECTION_COACHMARK;
             var20 = var23.bind(var14)(var20);
-case 55:
-            if(!var3) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
+case 57:
+            if(!var3) { _fun0001_ip = 59; continue _fun0001 }
+case 60:
             var20 = var14.push;
             var23 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var19];
             var3 = var23.bind(var4)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.ROBLOX_CONNECTION_COACHMARK;
+            var3 = var3.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
             var3 = var20.bind(var14)(var3);
-case 57:
-            if(!var2) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+case 59:
+            if(!var2) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
             var3 = var14.push;
             var20 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var19];
             var2 = var20.bind(var4)(var2);
             var2 = var2.DismissibleContent;
-            var2 = var2.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var2 = var2.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
             var2 = var3.bind(var14)(var2);
-case 59:
-            if(!var1) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
+case 61:
+            if(!var1) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
             var2 = var14.push;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var19];
             var1 = var3.bind(var4)(var1);
             var1 = var1.DismissibleContent;
-            var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
+            var1 = var1.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
             var1 = var2.bind(var14)(var1);
-case 61:
-            if(!(var18 == var15)) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
-            if(!(var18 == var17)) { _fun0001_ip = 65; continue _fun0001 }
+case 63:
+            if(!(var18 == var15)) { _fun0001_ip = 65; continue _fun0001 }
 case 66:
+            if(!(var18 == var17)) { _fun0001_ip = 67; continue _fun0001 }
+case 68:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -682,20 +714,12 @@ case 0:
                     var6 = var1.markAsDismissed;
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var7 = 30;
+                    var7 = 32;
                     var1 = var1[var7];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.CHECKPOINT_2025_BOTTOM_SHEET;
-                    if(!(var1 !== var2)) { _fun0002_ip = 67; continue _fun0002 }
-case 68:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var1 = var1[var7];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.DismissibleContent;
-                    var1 = var1.CUSTOM_APP_ICONS_COACHMARK;
                     if(!(var1 !== var2)) { _fun0002_ip = 69; continue _fun0002 }
 case 70:
                     var3 = _closure1_slot0;
@@ -703,7 +727,7 @@ case 70:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
+                    var1 = var1.CUSTOM_APP_ICONS_COACHMARK;
                     if(!(var1 !== var2)) { _fun0002_ip = 71; continue _fun0002 }
 case 72:
                     var3 = _closure1_slot0;
@@ -711,7 +735,7 @@ case 72:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.ROBLOX_CONNECTION_COACHMARK;
+                    var1 = var1.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
                     if(!(var1 !== var2)) { _fun0002_ip = 73; continue _fun0002 }
 case 74:
                     var3 = _closure1_slot0;
@@ -719,7 +743,7 @@ case 74:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+                    var1 = var1.ROBLOX_CONNECTION_COACHMARK;
                     if(!(var1 !== var2)) { _fun0002_ip = 75; continue _fun0002 }
 case 76:
                     var3 = _closure1_slot0;
@@ -727,15 +751,47 @@ case 76:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
+                    var1 = var1.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
                     if(!(var1 !== var2)) { _fun0002_ip = 77; continue _fun0002 }
 case 78:
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var1 = var1[var7];
+                    var1 = var3.bind(var4)(var1);
+                    var1 = var1.DismissibleContent;
+                    var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
+                    if(!(var1 !== var2)) { _fun0002_ip = 79; continue _fun0002 }
+case 80:
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var1 = var1[var7];
+                    var1 = var3.bind(var4)(var1);
+                    var1 = var1.DismissibleContent;
+                    var1 = var1.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
+                    if(!(var1 !== var2)) { _fun0002_ip = 81; continue _fun0002 }
+case 82:
                     return var4;
-case 77:
+case 81:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
+                    var1 = var7[var1];
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.DismissibleActionSheet;
+                    var1 = {};
+                    var7 = 'MainViewTooltipActionSheets';
+                    var1['actionSheetKey'] = var7;
+                    var7 = _closure1_slot22;
+                    var1['importer'] = var7;
+                    var1['markAsDismissed'] = var6;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+case 79:
+                    var3 = _closure1_slot10;
+                    var2 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -747,11 +803,11 @@ case 77:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 75:
+case 77:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -763,11 +819,11 @@ case 75:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 73:
+case 75:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -779,11 +835,11 @@ case 73:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 71:
+case 73:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -795,11 +851,11 @@ case 71:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 69:
+case 71:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -811,11 +867,11 @@ case 69:
                     var1['actionSheetKey'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 67:
+case 69:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -831,8 +887,8 @@ case 67:
             };
             var1['children'] = var14;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 79; continue _fun0001;
-case 65:
+            _fun0001_ip = 83; continue _fun0001;
+case 67:
             var14 = _closure1_slot10;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -847,10 +903,10 @@ case 65:
             var19 = var20.getNotificationNudgeCooldownMs;
             var22 = var18 == var21;
             var18 = undefined;
-            if(var22) { _fun0001_ip = 80; continue _fun0001 }
-case 81:
+            if(var22) { _fun0001_ip = 84; continue _fun0001 }
+case 85:
             var18 = var21.timing;
-case 80:
+case 84:
             var18 = var19.bind(var20)(var18);
             var17['cooldownDurationMs'] = var18;
             var2['timeRecurringConfig'] = var17;
@@ -866,20 +922,20 @@ case 0:
                     var2 = var1.visibleContent;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 30;
+                    var1 = 32;
                     var1 = var4[var1];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
-                    if(!(var2 !== var1)) { _fun0003_ip = 82; continue _fun0003 }
-case 83:
+                    if(!(var2 !== var1)) { _fun0003_ip = 86; continue _fun0003 }
+case 87:
                     return var4;
-case 82:
+case 86:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -895,9 +951,9 @@ case 82:
             };
             var2['children'] = var16;
             var1 = var14.bind(var4)(var3, var2);
-case 79:
-            _fun0001_ip = 84; continue _fun0001;
-case 63:
+case 83:
+            _fun0001_ip = 88; continue _fun0001;
+case 65:
             var14 = _closure1_slot10;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -905,7 +961,7 @@ case 63:
             var2 = var17.bind(var4)(var2);
             var3 = var2.SelectedVersionedDismissibleContent;
             var2 = {};
-            var16 = 34;
+            var16 = 36;
             var16 = var18[var16];
             var17 = var17.bind(var4)(var16);
             var16 = var17.getVersionedDismissibleContentCurrentVersion;
@@ -921,7 +977,7 @@ case 63:
                 var4 = _closure1_slot10;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 40;
+                var1 = 42;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -939,7 +995,7 @@ case 63:
             };
             var2['children'] = var15;
             var1 = var14.bind(var4)(var3, var2);
-case 84:
+case 88:
             return var1;
 case 52:
             var1 = var13.properties;
@@ -953,13 +1009,13 @@ case 52:
             var1 = var15.bind(var4)(var1);
             var2 = var1.SelectedSnowflakeBoundDismissibleContent;
             var1 = {};
-            var14 = 30;
+            var14 = 32;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.DismissibleContent;
             var14 = var14.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
             var1['contentType'] = var14;
-            var13 = var13.id;
+            var13 = var13.promotionId;
             var1['newSnowflakeId'] = var13;
             var13 = _closure1_slot8;
             var13 = var13.MAIN_VIEW_TOOLTIPS;
@@ -972,20 +1028,20 @@ case 0:
                     var2 = var1.visibleContent;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 30;
+                    var1 = 32;
                     var1 = var4[var1];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
-                    if(!(var2 !== var1)) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
+                    if(!(var2 !== var1)) { _fun0004_ip = 86; continue _fun0004 }
+case 87:
                     return var4;
-case 82:
+case 86:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 42;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -1011,7 +1067,7 @@ case 49:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 40;
+            var1 = 42;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.DismissibleActionSheet;
@@ -1043,7 +1099,7 @@ case 46:
                 var4 = _closure1_slot10;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 40;
+                var1 = 42;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);

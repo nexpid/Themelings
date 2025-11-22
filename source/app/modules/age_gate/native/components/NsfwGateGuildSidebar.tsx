@@ -166,9 +166,8 @@ case 7:
                     var10 = _closure1_slot2;
                     var7 = 12;
                     var7 = var10[var7];
-                    var7 = var8.bind(var9)(var7);
-                    var8 = var7.ViewNsfwGuilds;
-                    var7 = var8.getSetting;
+                    var8 = var8.bind(var9)(var7);
+                    var7 = var8.getViewNsfwGuildsOrDefault;
                     var6 = var7.bind(var8)();
 case 6:
                     var1['is_user_opted_in_to_age_restricted_servers'] = var6;

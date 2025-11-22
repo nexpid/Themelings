@@ -39,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var14 = var1.userId;
-            var13 = var1.guildId;
+            var16 = var1.userId;
+            var14 = var1.guildId;
             var5 = var1.userName;
             var12 = var1.effectDisplayType;
             var4 = undefined;
@@ -62,6 +62,7 @@ case 4:
             var9 = var1.style;
             var8 = var1.lineClamp;
             var7 = var1.ellipsizeMode;
+            var13 = var1.pendingDisplayNameStyles;
             var6 = var1.defaultColor;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -69,8 +70,9 @@ case 4:
             var2 = var15[var2];
             var11 = var11.bind(var4)(var2);
             var2 = {};
-            var2['userId'] = var14;
-            var2['guildId'] = var13;
+            var2['userId'] = var16;
+            var2['guildId'] = var14;
+            var2['pendingDisplayNameStyles'] = var13;
             var2 = var11.bind(var4)(var2);
             var14 = _closure1_slot0;
             var11 = 5;

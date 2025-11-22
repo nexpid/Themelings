@@ -231,9 +231,8 @@ case 29:
             var8 = _closure1_slot2;
             var2 = 8;
             var2 = var8[var2];
-            var2 = var6.bind(var7)(var2);
-            var6 = var2.ViewNsfwGuilds;
-            var2 = var6.getSetting;
+            var6 = var6.bind(var7)(var2);
+            var2 = var6.getViewNsfwGuildsOrDefault;
             var4 = var2.bind(var6)();
 case 28:
             var1 = !var1;

@@ -150,7 +150,7 @@ case 0:
             var3 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var4 = 14;
+            var4 = 13;
             var1 = var1[var4];
             var7 = undefined;
             var1 = var2.bind(var7)(var1);
@@ -225,25 +225,31 @@ case 0:
             var1 = _closure1_slot11;
             var5 = undefined;
             var15 = var1.bind(var5)();
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var7 = 13;
+            var1 = var4[var7];
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.PremiumSubscriptionGroupRole;
+            var1 = var1.MEMBER;
+            var2 = var14 === var1;
+            var3 = _closure1_slot1;
+            var1 = 14;
+            var1 = var4[var1];
+            var1 = var3.bind(var5)(var1);
+            var9 = var1.bind(var5)(var2);
             var1 = null;
             if(!(var1 != var14)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var4 = 14;
-            var2 = var2[var4];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.PremiumSubscriptionGroupRole;
-            var2 = var2.UNSPECIFIED;
-            if(!(var14 !== var2)) { _fun0002_ip = 7; continue _fun0002 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var7];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.PremiumSubscriptionGroupRole;
+            var3 = var3.UNSPECIFIED;
+            if(!(var14 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
 case 9:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var4];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.PremiumSubscriptionGroupRole;
-            var2 = var2.MEMBER;
-            if(!(var14 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var3 = _closure1_slot5;
             var2 = var3.getPremiumTypeSubscription;
@@ -265,52 +271,53 @@ case 14:
             if(var2) { _fun0002_ip = 12; continue _fun0002 }
 case 15:
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var2 = 10;
-            var2 = var9[var2];
+            var2 = var10[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.getPrice;
             var7 = var2.bind(var3)(var7);
             var3 = _closure1_slot0;
             var2 = 11;
-            var8 = var9[var2];
-            var11 = var3.bind(var5)(var8);
-            var10 = var11.formatPrice;
+            var8 = var10[var2];
+            var12 = var3.bind(var5)(var8);
+            var11 = var12.formatPrice;
             var8 = var7.amount;
             var7 = var7.currency;
-            var8 = var10.bind(var11)(var8, var7);
+            var8 = var11.bind(var12)(var8, var7);
             var7 = var4.interval;
             var4 = var4.intervalCount;
-            var2 = var9[var2];
+            var2 = var10[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.formatRate;
             var20 = var2.bind(var3)(var8, var7, var4);
 case 12:
             _fun0002_ip = 16; continue _fun0002;
 case 10:
-            var9 = _closure1_slot0;
+            var3 = var1 == var9;
+            var2 = '...';
+            if(var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            var4 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 9;
-            var2 = var10[var2];
-            var2 = var9.bind(var5)(var2);
-            var7 = var2.intl;
-            var4 = var7.format;
-            var3 = _closure1_slot1;
-            var2 = 12;
-            var2 = var10[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.Nu9LNm;
-            var2 = {};
-            var8 = 13;
-            var8 = var10[var8];
-            var9 = var9.bind(var5)(var8);
-            var8 = var9.getPremiumGroupPrimaryUserName;
-            var8 = var8.bind(var9)();
-            var2['primaryName'] = var8;
-            var8 = _closure1_slot6;
-            var8 = var8.bind(var5)();
-            var2['premiumGroupProductName'] = var8;
-            var20 = var4.bind(var7)(var3, var2);
+            var3 = 9;
+            var3 = var10[var3];
+            var3 = var4.bind(var5)(var3);
+            var8 = var3.intl;
+            var7 = var8.format;
+            var4 = _closure1_slot1;
+            var3 = 12;
+            var3 = var10[var3];
+            var3 = var4.bind(var5)(var3);
+            var4 = var3.Nu9LNm;
+            var3 = {};
+            var3['primaryName'] = var9;
+            var9 = _closure1_slot6;
+            var9 = var9.bind(var5)();
+            var3['premiumGroupProductName'] = var9;
+            var2 = var7.bind(var8)(var4, var3);
+case 17:
+            var20 = var2;
 case 16:
             var4 = _closure1_slot9;
             var16 = _closure1_slot1;

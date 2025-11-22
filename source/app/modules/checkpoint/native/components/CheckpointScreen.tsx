@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'height': '100%', 'backgroundColor': 'rgba(0,0,0,0.8)'};
+    var9 = {'height': '100%', 'backgroundColor': 'rgba(0,0,0,0.8)', 'width': '100%'};
     var4['container'] = var9;
     var9 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
     var4['background'] = var9;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.children;
+            var12 = var1.children;
             var3 = var1.slide;
             var1 = _closure1_slot14;
             var4 = undefined;
@@ -147,8 +147,8 @@ case 0:
             var2 = var2.bind(var4)();
             var14 = var2.insets;
             var2 = _closure1_slot0;
-            var16 = 8;
-            var1 = var1[var16];
+            var18 = 8;
+            var1 = var1[var18];
             var6 = var2.bind(var4)(var1);
             var5 = var6.useStateFromStores;
             var1 = _closure1_slot5;
@@ -174,7 +174,8 @@ case 2:
             var1 = var2[var1];
             var2 = _closure1_slot7;
             var2 = var2.END;
-            if(!(var3 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+            var13 = var3 === var2;
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var7 = var1;
 case 4:
@@ -182,16 +183,16 @@ case 4:
             var2 = _closure1_slot10;
             var1 = {};
             var8 = _closure1_slot9;
-            var17 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var16 = _closure1_slot1;
+            var17 = _closure1_slot2;
             var5 = 9;
-            var5 = var12[var5];
-            var6 = var17.bind(var4)(var5);
+            var5 = var17[var5];
+            var6 = var16.bind(var4)(var5);
             var5 = {};
             var5['colors'] = var7;
             var7 = _closure1_slot8;
-            var13 = var7.START;
-            var5['start'] = var13;
+            var11 = var7.START;
+            var5['start'] = var11;
             var7 = var7.END;
             var5['end'] = var7;
             var7 = var10.background;
@@ -201,44 +202,59 @@ case 4:
             var5[0] = var6;
             var7 = _closure1_slot4;
             var6 = {};
-            var13 = {};
+            var11 = {};
             var15 = 10;
-            var15 = var12[var15];
-            var15 = var17.bind(var4)(var15);
-            var13['uri'] = var15;
-            var6['source'] = var13;
-            var13 = var10.background;
-            var6['style'] = var13;
-            var13 = 'cover';
-            var6['resizeMode'] = var13;
+            var15 = var17[var15];
+            var15 = var16.bind(var4)(var15);
+            var11['uri'] = var15;
+            var6['source'] = var11;
+            var11 = var10.background;
+            var6['style'] = var11;
+            var11 = 'cover';
+            var6['resizeMode'] = var11;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var7 = _closure1_slot3;
             var6 = {};
-            var13 = var10.container;
+            var11 = var10.container;
             var10 = new Array(2);
-            var10[0] = var13;
-            var13 = {};
-            var15 = var14.left;
-            var15 = var15 + var16;
-            var13['paddingLeft'] = var15;
-            var15 = var14.right;
-            var15 = var15 + var16;
-            var13['paddingRight'] = var15;
+            var10[0] = var11;
+            var11 = {};
+            var16 = 0;
+            if(var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var17 = var14.left;
+            var16 = var17 + var18;
+case 6:
+            var11['paddingLeft'] = var16;
+            var16 = 0;
+            if(var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var17 = var14.right;
+            var16 = var17 + var18;
+case 8:
+            var11['paddingRight'] = var16;
+            var15 = 0;
+            if(var13) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var15 = var14.bottom;
-            var13['paddingBottom'] = var15;
+case 10:
+            var11['paddingBottom'] = var15;
             var14 = var14.top;
-            var13['paddingTop'] = var14;
-            var10[1] = var13;
+            var11['paddingTop'] = var14;
+            var10[1] = var11;
             var6['style'] = var10;
+            var11 = _closure1_slot9;
             var10 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var9 = 11;
-            var9 = var12[var9];
+            var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
-            var10 = var9.ModalContent;
+            var10 = var9.CheckpointModalContent;
             var9 = {};
-            var9['children'] = var11;
-            var9 = var8.bind(var4)(var10, var9);
+            var9['allowFullscreen'] = var13;
+            var9['children'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;

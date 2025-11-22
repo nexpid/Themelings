@@ -292,7 +292,7 @@ case 38:
             var3 = 9;
             var3 = var9[var3];
             var9 = var8.bind(var1)(var3);
-            var8 = var9.openQuestsOrbsRewardModal;
+            var8 = var9.openQuestOrbsRewardModal;
             var3 = {};
             var3['quest'] = var7;
             var3['orbBalancePriorToReward'] = var10;

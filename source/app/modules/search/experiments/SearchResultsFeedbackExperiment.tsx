@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Object;
     var7 = var8.defineProperty;
     var4 = {};
-    var1 = true;
-    var4['value'] = var1;
+    var12 = true;
+    var4['value'] = var12;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
@@ -17,18 +17,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createExperiment;
     var7 = {'kind': 'user', 'id': '2025-05_search_results_feedback', 'label': 'Search Results Feedback'};
-    var4 = {'enabled': false, 'force': false};
+    var4 = {};
+    var10 = false;
+    var4['enabled'] = var10;
     var7['defaultConfig'] = var4;
     var11 = {'id': 1, 'label': 'Eligible to see search results feedback'};
     var4 = 1;
-    var10 = {'enabled': true, 'force': false};
+    var10 = {};
+    var10['enabled'] = var12;
     var11['config'] = var10;
-    var10 = new Array(2);
+    var10 = new Array(1);
     var10[0] = var11;
-    var11 = {'id': 2, 'label': 'Force user to always see search results feedback'};
-    var12 = {'enabled': true, 'force': true};
-    var11['config'] = var12;
-    var10[1] = var11;
     var7['treatments'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot0 = var7;
@@ -49,17 +48,13 @@ case 3:
             var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var3 = var4.getCurrentConfig;
+            var3 = var4.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
             var1['autoTrackExposure'] = var5;
-            var2 = var3.bind(var4)(var2, var1);
-            var1 = {};
-            var3 = var2.enabled;
-            var1['enabled'] = var3;
-            var2 = var2.force;
-            var1['force'] = var2;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
             return var1;
         }
     };

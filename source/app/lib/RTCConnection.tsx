@@ -4239,6 +4239,9 @@ case 237:
                     var10 = var4.outputVolume;
                     var8 = 'voice_output_volume';
                     var3[var8] = var10;
+                    var10 = var4.inputVolume;
+                    var8 = 'voice_input_volume';
+                    var3[var8] = var10;
                     var10 = var5._encryptionMode;
                     var8 = 'encryption_mode';
                     var3[var8] = var10;

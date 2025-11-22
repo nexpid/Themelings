@@ -425,6 +425,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VIEWERSIDE_CLIP_KFI_MS'] = var15;
     var15 = '>=22.0.0';
     var3['DARWIN_H265_VERSION'] = var15;
+    var15 = 900000;
+    var3['QUEUE_METRICS_INTERVAL_MS'] = var15;
     var3['Features'] = var14;
     var3['MediaEngineImplementations'] = var13;
     var3['AudioSubsystems'] = var12;

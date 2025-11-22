@@ -57,11 +57,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.PropertyType;
     var8 = var8.Boolean;
     var4['boolean'] = var8;
+    var8 = var6[var7];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.PropertyType;
+    var8 = var8.Trigger;
+    var4['trigger'] = var8;
+    var8 = var6[var7];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.PropertyType;
+    var8 = var8.Image;
+    var4['image'] = var8;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.PropertyType;
-    var7 = var7.Trigger;
-    var4['trigger'] = var7;
+    var7 = var7.Artboard;
+    var4['artboard'] = var7;
     var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
@@ -176,7 +186,7 @@ case 0:
                 var6 = var3.enabled;
                 var _closure3_slot5 = var6;
                 var4 = var5.useRef;
-                var3 = null;
+                var3 = {};
                 var3 = var4.bind(var5)(var3);
                 var _closure3_slot6 = var3;
                 var4 = var5.useEffect;
@@ -247,91 +257,113 @@ case 9:
                                 var3 = _closure3_slot1;
                                 var3 = var6[var3];
                                 var6 = var3[var5];
-                                var3 = 'string';
-                                if(!(var3 !== var6)) { _fun0003_ip = 11; continue _fun0003 }
+                                var3 = _closure3_slot6;
+                                var3 = var3.current;
+                                var3 = var3[var5];
+                                if(!(var3 !== var4)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                                var3 = 'color';
+                                var3 = 'string';
                                 if(!(var3 !== var6)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-                                var3 = 'number';
+                                var3 = 'color';
                                 if(!(var3 !== var6)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-                                var8 = 'boolean';
-                                if(!(var8 !== var6)) { _fun0003_ip = 17; continue _fun0003 }
+                                var3 = 'number';
+                                if(!(var3 !== var6)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-                                var3 = 'trigger';
-                                if(!(var3 === var6)) { _fun0003_ip = 19; continue _fun0003 }
+                                var7 = 'boolean';
+                                if(!(var7 !== var6)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-                                var6 = null;
-                                if(!(var6 != var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 21:
-                                var7 = typeof var4;
-                                var3 = var4;
-                                if(!(var8 !== var7)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                                var7 = 0;
-                                var3 = var7 !== var4;
+                                var3 = 'trigger';
+                                if(!(var3 !== var6)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                                if(!var3) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-                                var7 = _closure3_slot6;
-                                var7 = var7.current;
-                                var8 = var6 == var7;
-                                var6 = undefined;
-                                if(var8) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-                                var6 = var7[var5];
-case 26:
-                                var3 = var6 !== var4;
+                                var3 = 'image';
+                                if(!(var3 !== var6)) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-                                if(!var3) { _fun0003_ip = 19; continue _fun0003 }
+                                var3 = 'artboard';
+                                if(!(var3 === var6)) { _fun0003_ip = 11; continue _fun0003 }
+case 25:
+                                var3 = null;
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 26:
+                                var6 = _closure3_slot0;
+                                var3 = var6.setArtboard;
+                                var3 = var3.bind(var6)(var5, var4);
+                                _fun0003_ip = 11; continue _fun0003;
+case 23:
+                                var3 = null;
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 27:
+                                var6 = _closure3_slot0;
+                                var3 = var6.setImage;
+                                var3 = var3.bind(var6)(var5, var4);
+                                _fun0003_ip = 11; continue _fun0003;
+case 21:
+                                var3 = null;
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
 case 28:
+                                var6 = typeof var4;
+                                var3 = var4;
+                                if(!(var7 !== var6)) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+                                var6 = 0;
+                                var3 = var6 !== var4;
+case 29:
+                                if(!var3) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+                                var6 = _closure3_slot6;
+                                var6 = var6.current;
+                                var6 = var6[var5];
+                                var3 = var6 !== var4;
+case 31:
+                                if(!var3) { _fun0003_ip = 11; continue _fun0003 }
+case 33:
                                 var6 = _closure3_slot0;
                                 var3 = var6.trigger;
                                 var3 = var3.bind(var6)(var5);
-                                _fun0003_ip = 19; continue _fun0003;
-case 17:
+                                _fun0003_ip = 11; continue _fun0003;
+case 19:
                                 var3 = null;
-                                if(!(var3 != var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 29:
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 34:
                                 var6 = _closure3_slot0;
                                 var3 = var6.setBoolean;
                                 var3 = var3.bind(var6)(var5, var4);
-                                _fun0003_ip = 19; continue _fun0003;
-case 15:
+                                _fun0003_ip = 11; continue _fun0003;
+case 17:
                                 var3 = null;
-                                if(!(var3 != var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 30:
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 35:
                                 var6 = _closure3_slot0;
                                 var3 = var6.setNumber;
                                 var3 = var3.bind(var6)(var5, var4);
-                                _fun0003_ip = 19; continue _fun0003;
-case 13:
+                                _fun0003_ip = 11; continue _fun0003;
+case 15:
                                 var3 = null;
-                                if(!(var3 != var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 31:
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 36:
                                 var6 = _closure3_slot0;
                                 var3 = var6.setColor;
                                 var3 = var3.bind(var6)(var5, var4);
-                                _fun0003_ip = 19; continue _fun0003;
-case 11:
+                                _fun0003_ip = 11; continue _fun0003;
+case 13:
                                 var3 = null;
-                                if(!(var3 != var4)) { _fun0003_ip = 19; continue _fun0003 }
-case 32:
+                                if(!(var3 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 37:
                                 var3 = _closure3_slot0;
                                 var2 = var3.setString;
                                 var2 = var2.bind(var3)(var5, var4);
-case 19:
+case 11:
                                 return var1;
                             }
                         };
                         var4 = var5.bind(var6)(var4);
-                        if(!(var3 != var2)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+                        if(!(var3 != var2)) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
                         var3 = _closure3_slot0;
                         var2 = var3.play;
                         var2 = var2.bind(var3)();
-case 33:
+case 38:
                         var2 = _closure3_slot6;
                         var1 = _closure3_slot3;
                         var2['current'] = var1;
@@ -372,41 +404,41 @@ case 4:
 case 0:
                         var3 = _closure3_slot0;
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+                        if(!(var4 != var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 40:
                         var3 = _closure3_slot3;
-                        if(!(var4 != var3)) { _fun0004_ip = 35; continue _fun0004 }
-case 37:
+                        if(!(var4 != var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 41:
                         var3 = _closure3_slot0;
                         var5 = var4 == var3;
                         var6 = undefined;
                         var3 = undefined;
-                        if(var5) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                        if(var5) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
                         var5 = _closure3_slot0;
                         var5 = var5.internalNativeEmitter;
                         var5 = var4 == var5;
                         var3 = undefined;
-                        if(var5) { _fun0004_ip = 38; continue _fun0004 }
+                        if(var5) { _fun0004_ip = 42; continue _fun0004 }
 case 6:
                         var7 = _closure3_slot0;
                         var5 = var7.internalNativeEmitter;
                         var3 = var5.bind(var7)();
-case 38:
+case 42:
                         var _closure4_slot0 = var3;
-                        if(!(var4 != var3)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+                        if(!(var4 != var3)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                         var5 = _closure1_slot5;
                         var7 = _closure3_slot0;
                         var3 = var7.viewTag;
                         var3 = var3.bind(var7)();
                         var3 = var5.bind(var6)(var3);
                         var _closure4_slot1 = var3;
-                        if(!(var4 == var3)) { _fun0004_ip = 42; continue _fun0004 }
-case 35:
+                        if(!(var4 == var3)) { _fun0004_ip = 46; continue _fun0004 }
+case 14:
                         var3 = undefined;
                         return var3;
-case 42:
+case 46:
                         var3 = new Array(0);
                         var _closure4_slot2 = var3;
                         var3 = global;
@@ -452,10 +484,10 @@ case 9:
                                 var4 = var5[var4];
                                 var4 = var4[var2];
                                 var5 = null;
-                                if(!(var5 != var4)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
-                                if(!(var5 != var3)) { _fun0005_ip = 43; continue _fun0005 }
-case 45:
+                                if(!(var5 != var4)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
+                                if(!(var5 != var3)) { _fun0005_ip = 47; continue _fun0005 }
+case 49:
                                 var6 = new Array(4);
                                 var6[0] = var2;
                                 var2 = _closure1_slot7;
@@ -478,7 +510,7 @@ case 45:
                                 var10 = var2;
                                 var9 = var4;
                                 var2 = apply(var11, var10, var9);
-case 43:
+case 47:
                                 return var1;
                             }
                         };
@@ -505,7 +537,7 @@ case 43:
                             return var1;
                         };
                         return var2;
-case 40:
+case 44:
                         var1 = function() {
                             var1 = undefined;
                             return var1;
@@ -532,11 +564,15 @@ case 40:
             var1['ref'] = var11;
             var1['onStateChanged'] = var10;
             var1['artboardName'] = var8;
+            var8 = null;
+            if(!(var8 == var5)) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
+            var5 = {};
+case 50:
             var1['referencedAssets'] = var5;
-            var8 = var6.current;
-            var5 = null;
-            if(!(var5 == var8)) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            var5 = var6.current;
+            if(!(var8 == var5)) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var9];
@@ -544,8 +580,8 @@ case 47:
             var8 = var10.AutoBind;
             var5 = true;
             var5 = var8.bind(var10)(var5);
-            _fun0001_ip = 48; continue _fun0001;
-case 46:
+            _fun0001_ip = 54; continue _fun0001;
+case 52:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var9];
@@ -553,7 +589,7 @@ case 46:
             var7 = var8.BindByName;
             var6 = var6.current;
             var5 = var7.bind(var8)(var6);
-case 48:
+case 54:
             var1['dataBinding'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

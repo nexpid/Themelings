@@ -1815,9 +1815,9 @@ case 182:
             var1 = arg2;
             var4 = var1.length;
             var1 = 0;
-            if(!(var1 !== var4)) { _fun0022_ip = 161; continue _fun0022 }
+            if(!(var1 !== var4)) { _fun0022_ip = 184; continue _fun0022 }
 case 2:
-            if(!(var7 != var3)) { _fun0022_ip = 184; continue _fun0022 }
+            if(!(var7 != var3)) { _fun0022_ip = 185; continue _fun0022 }
 case 40:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -1828,10 +1828,10 @@ case 40:
             var8 = var10.isSearchFilterTokenType;
             var1 = var3.type;
             var1 = var8.bind(var10)(var1);
-            if(!var1) { _fun0022_ip = 185; continue _fun0022 }
-case 186:
-            if(!(var7 != var2)) { _fun0022_ip = 106; continue _fun0022 }
+            if(!var1) { _fun0022_ip = 186; continue _fun0022 }
 case 187:
+            if(!(var7 != var2)) { _fun0022_ip = 106; continue _fun0022 }
+case 188:
             var8 = var2.type;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -1841,14 +1841,14 @@ case 187:
             var1 = var1.NON_TOKEN_TYPE;
             if(!(var8 !== var1)) { _fun0022_ip = 106; continue _fun0022 }
 case 87:
-            if(!(var7 != var2)) { _fun0022_ip = 185; continue _fun0022 }
-case 188:
+            if(!(var7 != var2)) { _fun0022_ip = 186; continue _fun0022 }
+case 189:
             var10 = _closure1_slot14;
             var8 = var10.test;
             var1 = var2.type;
             var1 = var8.bind(var10)(var1);
-            if(var1) { _fun0022_ip = 185; continue _fun0022 }
-case 189:
+            if(var1) { _fun0022_ip = 186; continue _fun0022 }
+case 190:
             var1 = {};
             var8 = _closure1_slot13;
             var8 = var8.FILTER;
@@ -1857,7 +1857,7 @@ case 189:
             var1['filter'] = var8;
             var1['token'] = var7;
             return var1;
-case 185:
+case 186:
             var8 = var3.type;
             var11 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -1866,9 +1866,9 @@ case 185:
             var1 = var11.bind(var5)(var1);
             var1 = var1.NON_TOKEN_TYPE;
             if(!(var8 === var1)) { _fun0022_ip = 155; continue _fun0022 }
-case 190:
-            if(!(var7 != var6)) { _fun0022_ip = 155; continue _fun0022 }
 case 191:
+            if(!(var7 != var6)) { _fun0022_ip = 155; continue _fun0022 }
+case 192:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var9];
@@ -1876,7 +1876,7 @@ case 191:
             var8 = var9.isSearchFilterTokenType;
             var1 = var6.type;
             var1 = var8.bind(var9)(var1);
-            if(var1) { _fun0022_ip = 192; continue _fun0022 }
+            if(var1) { _fun0022_ip = 193; continue _fun0022 }
 case 155:
             var8 = var3.type;
             var9 = _closure1_slot1;
@@ -1885,18 +1885,18 @@ case 155:
             var1 = var9.bind(var5)(var1);
             var1 = var1.NON_TOKEN_TYPE;
             var5 = undefined;
-            if(!(var8 === var1)) { _fun0022_ip = 193; continue _fun0022 }
-case 194:
+            if(!(var8 === var1)) { _fun0022_ip = 194; continue _fun0022 }
+case 195:
             var5 = var3;
-case 193:
+case 194:
             var1 = {};
             var8 = _closure1_slot13;
             var8 = var8.FILTER_ALL;
             var1['type'] = var8;
             var1['filter'] = var7;
             var1['token'] = var5;
-            _fun0022_ip = 195; continue _fun0022;
-case 192:
+            _fun0022_ip = 196; continue _fun0022;
+case 193:
             var5 = {};
             var7 = _closure1_slot13;
             var7 = var7.FILTER;
@@ -1905,7 +1905,7 @@ case 192:
             var5['filter'] = var6;
             var5['token'] = var3;
             var1 = var5;
-case 195:
+case 196:
             return var1;
 case 106:
             var1 = {};
@@ -1916,13 +1916,13 @@ case 106:
             var1['filter'] = var3;
             var1['token'] = var2;
             return var1;
-case 184:
+case 185:
             var1 = {'type': null, 'filter': null, 'token': null};
             var2 = _closure1_slot13;
             var2 = var2.FILTER_ALL;
             var1['type'] = var2;
             return var1;
-case 161:
+case 184:
             var1 = {'type': null, 'filter': null, 'token': null};
             var2 = _closure1_slot13;
             var2 = var2.EMPTY;
@@ -1958,7 +1958,7 @@ case 96:
                 var3 = var2.length;
                 var2 = 0;
                 if(!(var2 !== var3)) { _fun0023_ip = 9; continue _fun0023 }
-case 196:
+case 197:
                 var2 = var5.group;
                 var _closure3_slot1 = var2;
                 var4 = _closure2_slot1;
@@ -1973,18 +1973,18 @@ case 0:
                         var1 = var3.channel;
                         var5 = null;
                         var7 = var4;
-                        if(!(var5 != var1)) { _fun0024_ip = 197; continue _fun0024 }
+                        if(!(var5 != var1)) { _fun0024_ip = 198; continue _fun0024 }
 case 178:
                         var2 = _closure1_slot25;
                         var1 = undefined;
                         var7 = var2.bind(var1)(var4);
-case 197:
+case 198:
                         var1 = _closure2_slot0;
                         var6 = var1.type;
                         var1 = _closure1_slot13;
                         var1 = var1.FILTER_ALL;
                         var2 = var7;
-                        if(!(var6 === var1)) { _fun0024_ip = 198; continue _fun0024 }
+                        if(!(var6 === var1)) { _fun0024_ip = 199; continue _fun0024 }
 case 112:
                         var6 = var3.group;
                         if(!(var5 == var6)) { _fun0024_ip = 52; continue _fun0024 }
@@ -2002,24 +2002,24 @@ case 52:
                         var1 = var4[var1];
                         var8 = var5 == var1;
                         var4 = undefined;
-                        if(var8) { _fun0024_ip = 199; continue _fun0024 }
+                        if(var8) { _fun0024_ip = 200; continue _fun0024 }
 case 60:
                         var4 = var1.key;
-case 199:
+case 200:
                         var4 = var5 != var4;
-                        if(!var4) { _fun0024_ip = 189; continue _fun0024 }
-case 188:
+                        if(!var4) { _fun0024_ip = 190; continue _fun0024 }
+case 189:
                         var5 = var5 == var1;
                         var6 = undefined;
-                        if(var5) { _fun0024_ip = 200; continue _fun0024 }
-case 201:
+                        if(var5) { _fun0024_ip = 201; continue _fun0024 }
+case 202:
                         var6 = var1.key;
-case 200:
+case 201:
                         var5 = '';
                         var4 = var5 !== var6;
-case 189:
+case 190:
                         var2 = var7;
-                        if(!var4) { _fun0024_ip = 198; continue _fun0024 }
+                        if(!var4) { _fun0024_ip = 199; continue _fun0024 }
 case 90:
                         var6 = var1.key;
                         var1 = global;
@@ -2028,7 +2028,7 @@ case 90:
                         var4 = '';
                         var1 = ' ';
                         var2 = var5.bind(var4)(var6, var1, var7);
-case 198:
+case 199:
                         var1 = {};
                         var1['result'] = var3;
                         var3 = _closure3_slot0;
@@ -2091,7 +2091,7 @@ case 0:
             var4 = '';
             var1 = var4;
             if(var2) { _fun0026_ip = 119; continue _fun0026 }
-case 202:
+case 203:
             var3 = var5.map;
             var2 = function(arg1) {
                 var2 = arg1;
@@ -2145,7 +2145,7 @@ case 0:
             var1 = null;
             var2 = var1 != var3;
             if(!var2) { _fun0027_ip = 31; continue _fun0027 }
-case 203:
+case 204:
             var2 = _closure1_slot18;
             var1 = var2[var3];
 case 31:
@@ -2175,14 +2175,14 @@ case 114:
 case 47:
             var2 = var5;
 case 40:
-            if(!var2) { _fun0028_ip = 204; continue _fun0028 }
+            if(!var2) { _fun0028_ip = 205; continue _fun0028 }
 case 28:
             var5 = _closure1_slot14;
             var4 = var5.test;
             var3 = var3.type;
             var3 = var4.bind(var5)(var3);
             var2 = !var3;
-case 204:
+case 205:
             var1 = var2;
 case 42:
             var1 = !var1;
@@ -2264,8 +2264,8 @@ case 0:
             var4 = var4.bind(var1)(var2);
             var1 = !var4;
             var1 = !var1;
-            if(var4) { _fun0029_ip = 205; continue _fun0029 }
-case 206:
+            if(var4) { _fun0029_ip = 206; continue _fun0029 }
+case 207:
             var4 = var2.type;
             var2 = _closure1_slot11;
             var2 = var2.DMS;
@@ -2277,7 +2277,7 @@ case 119:
             var2 = !var3;
 case 7:
             var1 = var2;
-case 205:
+case 206:
             return var1;
         }
     };
@@ -2289,7 +2289,7 @@ case 0:
             var4 = var7.name;
             var1 = var7.isGroupDM;
             var1 = var1.bind(var7)();
-            if(var1) { _fun0030_ip = 207; continue _fun0030 }
+            if(var1) { _fun0030_ip = 208; continue _fun0030 }
 case 113:
             var1 = var7.isDM;
             var1 = var1.bind(var7)();
@@ -2308,16 +2308,16 @@ case 48:
             var6 = null;
             var2 = var6 == var3;
             var5 = undefined;
-            if(var2) { _fun0030_ip = 208; continue _fun0030 }
-case 209:
+            if(var2) { _fun0030_ip = 209; continue _fun0030 }
+case 210:
             var5 = var3.name;
-case 208:
+case 209:
             var2 = var1;
-            if(!(var6 != var5)) { _fun0030_ip = 210; continue _fun0030 }
+            if(!(var6 != var5)) { _fun0030_ip = 211; continue _fun0030 }
 case 180:
             var4 = var3.name;
             var2 = var1;
-            _fun0030_ip = 210; continue _fun0030;
+            _fun0030_ip = 211; continue _fun0030;
 case 70:
             var1 = var7.getRecipientId;
             var6 = var1.bind(var7)();
@@ -2336,10 +2336,10 @@ case 70:
             var3 = var1 == var6;
             var2 = false;
             var4 = var6;
-            if(!var3) { _fun0030_ip = 210; continue _fun0030 }
-case 211:
+            if(!var3) { _fun0030_ip = 211; continue _fun0030 }
+case 212:
             return var1;
-case 207:
+case 208:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 19;
@@ -2351,19 +2351,19 @@ case 207:
             var1 = _closure1_slot7;
             var4 = var5.bind(var6)(var7, var3, var1);
             var2 = false;
-case 210:
+case 211:
             var3 = _closure1_slot25;
             var1 = undefined;
             var4 = var3.bind(var1)(var4);
             var1 = var4;
-            if(!var2) { _fun0030_ip = 212; continue _fun0030 }
-case 213:
+            if(!var2) { _fun0030_ip = 213; continue _fun0030 }
+case 214:
             var2 = global;
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = '#';
             var1 = var3.bind(var2)(var4);
-case 212:
+case 213:
             return var1;
         }
     };
@@ -2391,13 +2391,13 @@ case 179:
             var6 = var3 == var4;
             var2 = undefined;
             if(var6) { _fun0031_ip = 69; continue _fun0031 }
-case 214:
+case 215:
             var2 = var4.name;
 case 69:
-            if(!(var3 == var2)) { _fun0031_ip = 215; continue _fun0031 }
-case 216:
+            if(!(var3 == var2)) { _fun0031_ip = 216; continue _fun0031 }
+case 217:
             var2 = var5.name;
-case 215:
+case 216:
             return var2;
 case 11:
             var2 = var5.getRecipientId;
@@ -2439,13 +2439,13 @@ case 0:
             var3 = var1 == var4;
             var2 = undefined;
             if(var3) { _fun0032_ip = 48; continue _fun0032 }
-case 217:
+case 218:
             var3 = var4.isStaff;
             var2 = var3.bind(var4)();
 case 48:
             var1 = var1 != var2;
             if(!var1) { _fun0032_ip = 45; continue _fun0032 }
-case 218:
+case 219:
             var1 = var2;
 case 45:
             return var1;

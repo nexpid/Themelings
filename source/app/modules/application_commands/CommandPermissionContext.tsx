@@ -246,9 +246,8 @@ case 27:
             var7 = _closure1_slot2;
             var3 = 9;
             var3 = var7[var3];
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.ViewNsfwCommands;
-            var3 = var4.getSetting;
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.getViewNsfwCommandsOrDefault;
             var4 = var3.bind(var4)();
             var7 = _closure1_slot6;
             var3 = var7.getId;
@@ -263,36 +262,36 @@ case 30:
             var7 = var3.nsfwAllowed;
 case 29:
             var3 = var1 != var7;
-            if(!var3) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
-            var3 = var7;
+            if(!var3) { _fun0004_ip = 17; continue _fun0004 }
 case 31:
-            if(!(var1 != var8)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+            var3 = var7;
+case 17:
+            if(!(var1 != var8)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var9 = _closure1_slot8;
             var7 = var9.getMember;
             var7 = var7.bind(var9)(var8, var10);
             var11 = var1 == var7;
             var9 = undefined;
-            if(var11) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-            var9 = var7.roles;
+            if(var11) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
-            if(!(var1 == var9)) { _fun0004_ip = 37; continue _fun0004 }
-case 33:
+            var9 = var7.roles;
+case 34:
+            if(!(var1 == var9)) { _fun0004_ip = 36; continue _fun0004 }
+case 32:
             var9 = new Array(0);
-case 37:
+case 36:
             var7 = _closure1_slot4;
             var1 = var7.isViewingRoles;
             var8 = var1.bind(var7)(var8);
             var7 = _closure1_slot14;
             var1 = _closure1_slot5;
             var1 = var12 instanceof var1;
-            if(!var1) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+            if(!var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var11 = var12.isThread;
             var1 = var11.bind(var12)();
-case 38:
+case 37:
             var7 = var7.bind(var5)(var6, var1);
             var1 = {};
             var1['context'] = var6;
@@ -332,22 +331,22 @@ case 0:
                     var3 = _closure1_slot5;
                     var3 = var4 instanceof var3;
                     if(!var3) { _fun0006_ip = 23; continue _fun0006 }
-case 40:
+case 39:
                     var4 = _closure2_slot0;
                     var3 = var4.isThread;
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0006_ip = 23; continue _fun0006 }
-case 41:
+case 40:
                     var4 = _closure1_slot7;
                     var3 = var4.getChannel;
                     var1 = _closure2_slot0;
                     var1 = var1.parent_id;
                     var1 = var3.bind(var4)(var1);
                     var3 = null;
-                    if(!(var3 == var1)) { _fun0006_ip = 42; continue _fun0006 }
+                    if(!(var3 == var1)) { _fun0006_ip = 41; continue _fun0006 }
 case 23:
                     var1 = _closure2_slot0;
-case 42:
+case 41:
                     return var1;
                 }
             };
@@ -357,19 +356,18 @@ case 42:
             var4 = var3 != var11;
             var10 = undefined;
             var3 = undefined;
-            if(!var4) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+            if(!var4) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var4 = _closure1_slot15;
             var3 = var4.bind(var10)(var11);
-case 43:
+case 42:
             var _closure2_slot3 = var3;
             var4 = _closure1_slot0;
             var13 = _closure1_slot2;
             var3 = 9;
             var3 = var13[var3];
-            var3 = var4.bind(var10)(var3);
-            var6 = var3.ViewNsfwCommands;
-            var3 = var6.useSetting;
+            var6 = var4.bind(var10)(var3);
+            var3 = var6.useViewNsfwCommandsOrDefault;
             var6 = var3.bind(var6)();
             var _closure2_slot4 = var6;
             var3 = 10;
@@ -403,14 +401,14 @@ case 0:
                     var4 = var1 == var3;
                     var2 = undefined;
                     if(var4) { _fun0007_ip = 8; continue _fun0007 }
-case 45:
+case 44:
                     var2 = var3.nsfwAllowed;
 case 8:
                     var1 = var1 != var2;
-                    if(!var1) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
-                    var1 = var2;
+                    if(!var1) { _fun0007_ip = 45; continue _fun0007 }
 case 46:
+                    var1 = var2;
+case 45:
                     return var1;
                 }
             };
@@ -427,8 +425,8 @@ case 46:
 case 0:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
+                    if(!(var2 != var3)) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
                     var5 = _closure1_slot8;
                     var4 = var5.getMember;
                     var3 = _closure2_slot3;
@@ -437,13 +435,13 @@ case 49:
                     var4 = var2 == var3;
                     var1 = undefined;
                     if(var4) { _fun0008_ip = 4; continue _fun0008 }
-case 50:
+case 49:
                     var1 = var3.roles;
 case 4:
-                    if(!(var2 == var1)) { _fun0008_ip = 51; continue _fun0008 }
-case 48:
+                    if(!(var2 == var1)) { _fun0008_ip = 50; continue _fun0008 }
+case 47:
                     var1 = new Array(0);
-case 51:
+case 50:
                     return var1;
                 }
             };
@@ -483,12 +481,12 @@ case 0:
                     var6 = _closure2_slot0;
                     var1 = _closure1_slot5;
                     var1 = var6 instanceof var1;
-                    if(!var1) { _fun0009_ip = 46; continue _fun0009 }
+                    if(!var1) { _fun0009_ip = 45; continue _fun0009 }
 case 22:
                     var7 = _closure2_slot0;
                     var6 = var7.isThread;
                     var1 = var6.bind(var7)();
-case 46:
+case 45:
                     var6 = undefined;
                     var1 = var5.bind(var6)(var4, var1);
                     var8 = var1.computedPermissions;
@@ -527,18 +525,18 @@ case 0:
             var6 = arg1;
             var1 = _closure1_slot5;
             var1 = var6 instanceof var1;
-            if(!var1) { _fun0010_ip = 52; continue _fun0010 }
+            if(!var1) { _fun0010_ip = 51; continue _fun0010 }
 case 9:
             var2 = null;
             var4 = var2 == var6;
             var5 = undefined;
             var1 = undefined;
             if(var4) { _fun0010_ip = 5; continue _fun0010 }
-case 53:
+case 52:
             var1 = var6.guild_id;
 case 5:
-            if(!(var2 != var1)) { _fun0010_ip = 54; continue _fun0010 }
-case 52:
+            if(!(var2 != var1)) { _fun0010_ip = 53; continue _fun0010 }
+case 51:
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 12;
@@ -547,28 +545,28 @@ case 52:
             var1 = var7.bind(var1)(var4);
             var1 = var1.InteractionContextType;
             var1 = var1.GUILD;
-            _fun0010_ip = 55; continue _fun0010;
-case 54:
+            _fun0010_ip = 35; continue _fun0010;
+case 53:
             var4 = var2 == var6;
             var7 = undefined;
-            if(var4) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
+            if(var4) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
             var7 = var6.type;
-case 56:
+case 54:
             var4 = _closure1_slot11;
             var4 = var4.DM;
-            if(!(var7 === var4)) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
+            if(!(var7 === var4)) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
             var2 = var2 == var6;
             var4 = undefined;
-            if(var2) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+            if(var2) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
             var2 = var6.getRecipientId;
             var4 = var2.bind(var6)();
-case 60:
+case 58:
             var2 = arg2;
             if(!(var4 !== var2)) { _fun0010_ip = 14; continue _fun0010 }
-case 58:
+case 56:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 12;
@@ -576,7 +574,7 @@ case 58:
             var2 = var4.bind(var5)(var2);
             var2 = var2.InteractionContextType;
             var2 = var2.PRIVATE_CHANNEL;
-            _fun0010_ip = 62; continue _fun0010;
+            _fun0010_ip = 60; continue _fun0010;
 case 14:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -585,9 +583,9 @@ case 14:
             var3 = var4.bind(var5)(var3);
             var3 = var3.InteractionContextType;
             var2 = var3.BOT_DM;
-case 62:
+case 60:
             var1 = var2;
-case 55:
+case 35:
             return var1;
         }
     };

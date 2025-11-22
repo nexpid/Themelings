@@ -40,66 +40,70 @@ case 7:
                     if(!(var4 == var10)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
                     var8 = _closure1_slot10;
-                    if(!(var6 === var8)) { _fun0001_ip = 10; continue _fun0001 }
-case 8:
-                    if(!(var4 != var13)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-                    var8 = _closure1_slot11;
-                    var8 = var8.bind(var7)(var13);
-                    if(!var8) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-                    var8 = _closure1_slot12;
-                    var8 = var8.ROLE_SUBSCRIPTIONS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-                    var8 = _closure1_slot12;
-                    var8 = var8.SERVER_MONETIZATION_ONBOARDING;
-                    if(!(var8 !== var13)) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+                    if(!(var6 !== var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
                     var8 = _closure1_slot12;
                     var8 = var8.GAME_SHOP;
-                    if(!(var8 !== var13)) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+                    if(!(var13 === var8)) { _fun0001_ip = 11; continue _fun0001 }
+case 8:
+                    if(!(var4 != var13)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+                    var8 = _closure1_slot11;
+                    var8 = var8.bind(var7)(var13);
+                    if(!var8) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+                    var8 = _closure1_slot12;
+                    var8 = var8.ROLE_SUBSCRIPTIONS;
+                    if(!(var8 !== var13)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+                    var8 = _closure1_slot12;
+                    var8 = var8.SERVER_MONETIZATION_ONBOARDING;
+                    if(!(var8 !== var13)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+                    var8 = _closure1_slot12;
+                    var8 = var8.GAME_SHOP;
+                    if(!(var8 !== var13)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                     var8 = _closure1_slot12;
                     var8 = var8.GUILD_SHOP;
-                    if(!(var8 !== var13)) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+                    if(!(var8 !== var13)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                     var8 = _closure1_slot12;
                     var8 = var8.MEMBER_APPLICATIONS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
+                    if(!(var8 !== var13)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                     var8 = _closure1_slot12;
                     var8 = var8.GUILD_HOME;
-                    if(!(var8 !== var13)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+                    if(!(var8 !== var13)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
                     var8 = _closure1_slot12;
                     var8 = var8.CHANNEL_BROWSER;
-                    if(!(var8 !== var13)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+                    if(!(var8 !== var13)) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
                     var8 = _closure1_slot12;
                     var8 = var8.GUILD_ONBOARDING;
-                    if(!(var8 !== var13)) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+                    if(!(var8 !== var13)) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
                     var8 = _closure1_slot12;
                     var8 = var8.CUSTOMIZE_COMMUNITY;
-                    if(!(var8 !== var13)) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+                    if(!(var8 !== var13)) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
                     var8 = _closure1_slot12;
                     var8 = var8.MEMBER_SAFETY;
-                    if(!(var8 !== var13)) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+                    if(!(var8 !== var13)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
                     var8 = _closure1_slot12;
                     var8 = var8.GUILD_BOOSTS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+                    if(!(var8 !== var13)) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
                     var8 = _closure1_slot12;
                     var8 = var8.REPORT_TO_MOD;
-                    if(!(var8 !== var13)) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+                    if(!(var8 !== var13)) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
                     var8 = _closure1_slot12;
                     var8 = var8.GAME_SERVERS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+                    if(!(var8 !== var13)) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 17;
@@ -107,14 +111,14 @@ case 40:
                     var9 = var9.bind(var7)(var8);
                     var8 = var9.assertNever;
                     var8 = var8.bind(var9)(var13);
-case 13:
+case 14:
                     var9 = _closure1_slot6;
                     var8 = var9.getChannel;
                     var9 = var8.bind(var9)(var13);
                     var8 = var4 != var9;
                     var12 = var9;
-                    if(var8) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+                    if(var8) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
                     var11 = _closure1_slot1;
                     var14 = _closure1_slot2;
                     var9 = 18;
@@ -122,24 +126,24 @@ case 42:
                     var11 = var11.bind(var7)(var9);
                     var9 = var11.loadThread;
                     var9 = var9.bind(var11)(var13);
-                    SaveGenerator(address=421);
-case 43:
-                    return var9;
+                    SaveGenerator(address=435);
 case 44:
+                    return var9;
+case 45:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 45; continue _fun0001 }
-case 46:
+                    if(var11) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
                     var14 = _closure1_slot6;
                     var11 = var14.getChannel;
                     var11 = var11.bind(var14)(var13);
                     var8 = var4 != var11;
                     var12 = var11;
-                    _fun0001_ip = 41; continue _fun0001;
-case 45:
+                    _fun0001_ip = 42; continue _fun0001;
+case 46:
                     return var9;
-case 41:
-                    if(!var8) { _fun0001_ip = 47; continue _fun0001 }
-case 48:
+case 42:
+                    if(!var8) { _fun0001_ip = 48; continue _fun0001 }
+case 49:
                     var11 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var9 = 19;
@@ -147,16 +151,16 @@ case 48:
                     var11 = var11.bind(var7)(var9);
                     var9 = var11.canViewChannel;
                     var9 = var9.bind(var11)(var12);
-                    if(var9) { _fun0001_ip = 49; continue _fun0001 }
-case 50:
+                    if(var9) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
                     var12 = _closure1_slot4;
                     var11 = var12.isChannelGatedAndVisible;
                     var9 = var11.bind(var12)(var6, var13);
-case 49:
+case 50:
                     var8 = var9;
-case 47:
+case 48:
                     return var8;
-case 39:
+case 40:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 16;
@@ -165,35 +169,35 @@ case 39:
                     var9 = var11.getGameServerEnabled;
                     var8 = 'isAccessibleChannelOrThreadPath';
                     var8 = var9.bind(var11)(var6, var8);
-                    if(!var8) { _fun0001_ip = 51; continue _fun0001 }
-case 52:
+                    if(!var8) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
                     var8 = var4 != var10;
-case 51:
-                    if(!var8) { _fun0001_ip = 53; continue _fun0001 }
-case 54:
+case 52:
+                    if(!var8) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
                     var12 = var10.features;
                     var11 = var12.has;
                     var9 = _closure1_slot9;
                     var9 = var9.GAME_SERVERS;
                     var8 = var11.bind(var12)(var9);
-case 53:
+case 54:
                     return var8;
-case 37:
+case 38:
                     var8 = var4 != var10;
-                    if(!var8) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
+                    if(!var8) { _fun0001_ip = 56; continue _fun0001 }
+case 57:
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var9 = 15;
                     var9 = var12[var9];
                     var9 = var11.bind(var7)(var9);
                     var8 = var9.bind(var7)(var10);
-case 55:
+case 56:
                     return var8;
-case 35:
+case 36:
                     var8 = true;
                     return var8;
-case 33:
+case 34:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 14;
@@ -202,34 +206,34 @@ case 33:
                     var8 = var9.canAccessMemberSafetyPage;
                     var8 = var8.bind(var9)(var6);
                     return var8;
-case 31:
+case 32:
                     var8 = var4 != var10;
-                    if(!var8) { _fun0001_ip = 57; continue _fun0001 }
-case 58:
+                    if(!var8) { _fun0001_ip = 58; continue _fun0001 }
+case 59:
                     var12 = var10.features;
                     var11 = var12.has;
                     var9 = _closure1_slot9;
                     var9 = var9.COMMUNITY;
                     var8 = var11.bind(var12)(var9);
-case 57:
+case 58:
                     return var8;
-case 29:
+case 30:
                     var9 = _closure1_slot5;
                     var8 = var9.shouldShowOnboarding;
                     var8 = var8.bind(var9)(var6);
                     return var8;
-case 27:
+case 28:
                     var8 = var4 != var10;
-                    if(!var8) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+                    if(!var8) { _fun0001_ip = 60; continue _fun0001 }
+case 61:
                     var12 = var10.features;
                     var11 = var12.has;
                     var9 = _closure1_slot9;
                     var9 = var9.COMMUNITY;
                     var8 = var11.bind(var12)(var9);
-case 59:
+case 60:
                     return var8;
-case 25:
+case 26:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 13;
@@ -238,7 +242,7 @@ case 25:
                     var8 = var9.canSeeOnboardingHome;
                     var8 = var8.bind(var9)(var6);
                     return var8;
-case 23:
+case 24:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 12;
@@ -247,7 +251,7 @@ case 23:
                     var8 = var9.canReviewGuildMemberApplications;
                     var8 = var8.bind(var9)(var6);
                     return var8;
-case 21:
+case 22:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 11;
@@ -256,19 +260,26 @@ case 21:
                     var8 = var9.isGuildShopVisibleInGuild;
                     var8 = var8.bind(var9)(var10, var5);
                     return var8;
-case 19:
+case 20:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 10;
                     var8 = var11[var8];
-                    var9 = var9.bind(var7)(var8);
-                    var8 = var9.hasSocialLayerStorefront;
-                    var8 = var8.bind(var9)(var10);
-                    return var8;
-case 17:
-                    var4 = var4 != var10;
-                    if(!var4) { _fun0001_ip = 61; continue _fun0001 }
+                    var11 = var9.bind(var7)(var8);
+                    var9 = var11.hasSocialLayerStorefront;
+                    var8 = var10;
+                    if(!(var4 == var8)) { _fun0001_ip = 62; continue _fun0001 }
+case 63:
+                    var12 = {};
+                    var12['id'] = var6;
+                    var8 = var12;
 case 62:
+                    var8 = var9.bind(var11)(var8);
+                    return var8;
+case 18:
+                    var4 = var4 != var10;
+                    if(!var4) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 9;
@@ -276,9 +287,9 @@ case 62:
                     var9 = var9.bind(var7)(var8);
                     var8 = var9.canUserSeeMonetizationOnboarding;
                     var4 = var8.bind(var9)(var10);
-case 61:
+case 64:
                     return var4;
-case 15:
+case 16:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 8;
@@ -287,10 +298,10 @@ case 15:
                     var3 = var4.areRoleSubscriptionsVisibleInGuild;
                     var3 = var3.bind(var4)(var6, var5);
                     return var3;
-case 11:
+case 12:
                     var3 = true;
                     return var3;
-case 10:
+case 11:
                     var3 = false;
                     return var3;
 case 6:
