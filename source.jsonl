@@ -36,7 +36,7 @@
 { "file": "app/actions/GamesActionCreators.native.tsx", "size": 9990 }
 { "file": "app/actions/GIFPickerActionCreators.tsx", "size": 30482 }
 { "file": "app/actions/GiftCodeActionCreators.tsx", "size": 21998 }
-{ "file": "app/actions/GuildActionCreators.tsx", "size": 96144 }
+{ "file": "app/actions/GuildActionCreators.tsx", "size": 96140 }
 { "file": "app/actions/GuildAffinitiesActionCreators.tsx", "size": 2506 }
 { "file": "app/actions/GuildSubscriptionsActionCreators.tsx", "size": 7715 }
 { "file": "app/actions/HubActionCreators.tsx", "size": 15665 }
@@ -2728,7 +2728,7 @@
 { "file": "app/modules/forums/ForumChannelTypes.tsx", "size": 788 }
 { "file": "app/modules/forums/ForumConstants.tsx", "size": 1579 }
 { "file": "app/modules/forums/ForumGuidelinesManager.tsx", "size": 7886 }
-{ "file": "app/modules/forums/ForumHooks.tsx", "size": 86048 }
+{ "file": "app/modules/forums/ForumHooks.tsx", "size": 86050 }
 { "file": "app/modules/forums/ForumManager.tsx", "size": 6215 }
 { "file": "app/modules/forums/ForumPlatformHooks.native.tsx", "size": 6345 }
 { "file": "app/modules/forums/ForumPlatformUtils.native.tsx", "size": 1235 }
@@ -3572,7 +3572,7 @@
 { "file": "app/modules/guild_settings/roles/native/action_sheet/SelectConnectionActionSheet.tsx", "size": 20097 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModal.tsx", "size": 63724 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModalActionCreators.tsx", "size": 1826 }
-{ "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEdit.tsx", "size": 72183 }
+{ "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEdit.tsx", "size": 72185 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditConnectionConfiguration.tsx", "size": 80127 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditConnectionsControls.tsx", "size": 54399 }
 { "file": "app/modules/guild_settings/roles/native/GuildSettingsRoleEditDisplay.tsx", "size": 37118 }
@@ -4148,7 +4148,7 @@
 { "file": "app/modules/low_performance_mode/LowPerformanceAndroidDevices.tsx", "size": 2253 }
 { "file": "app/modules/low_performance_mode/LowPerformanceModeActionCreators.tsx", "size": 1713 }
 { "file": "app/modules/low_performance_mode/LowPerformanceModeExperiment.tsx", "size": 1110 }
-{ "file": "app/modules/low_performance_mode/LowPerformanceModeLifecycleManager.android.tsx", "size": 18677 }
+{ "file": "app/modules/low_performance_mode/LowPerformanceModeLifecycleManager.android.tsx", "size": 19177 }
 { "file": "app/modules/low_performance_mode/LowPerformanceModeStore.tsx", "size": 8686 }
 { "file": "app/modules/lurker_mode/LurkerActionCreators.tsx", "size": 11906 }
 { "file": "app/modules/lurker_mode/LurkingStore.tsx", "size": 19035 }
@@ -4523,7 +4523,7 @@
 { "file": "app/modules/media_viewer/native/components/MediaModalFooter.tsx", "size": 64394 }
 { "file": "app/modules/media_viewer/native/components/MediaModalHeader.tsx", "size": 13057 }
 { "file": "app/modules/media_viewer/native/components/MediaModalLoader.tsx", "size": 15097 }
-{ "file": "app/modules/media_viewer/native/components/MediaModalOverlay.tsx", "size": 22180 }
+{ "file": "app/modules/media_viewer/native/components/MediaModalOverlay.tsx", "size": 22178 }
 { "file": "app/modules/media_viewer/native/components/MediaModalSpoilerOverlay.tsx", "size": 10088 }
 { "file": "app/modules/media_viewer/native/components/MediaModalTiktok.tsx", "size": 28377 }
 { "file": "app/modules/media_viewer/native/components/MediaModalWebVideoFile.tsx", "size": 32997 }
@@ -7162,7 +7162,7 @@
 { "file": "app/modules/video_calls/native/components/UserTile.tsx", "size": 32808 }
 { "file": "app/modules/video_calls/native/components/UserVideoFailed.tsx", "size": 9510 }
 { "file": "app/modules/video_calls/native/components/useShouldForcePipOrientation.tsx", "size": 8976 }
-{ "file": "app/modules/video_calls/native/components/VideoRenderer.tsx", "size": 27647 }
+{ "file": "app/modules/video_calls/native/components/VideoRenderer.tsx", "size": 27652 }
 { "file": "app/modules/video_calls/native/useActionBarHeight.tsx", "size": 3339 }
 { "file": "app/modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx", "size": 1492 }
 { "file": "app/modules/video_calls/native/useChannelFloatingCTAContent.tsx", "size": 7115 }
@@ -7639,7 +7639,7 @@
 { "file": "app/uikit-native/Autocomplete.tsx", "size": 23589 }
 { "file": "app/uikit-native/AutocompleteOptions.tsx", "size": 30842 }
 { "file": "app/uikit-native/AutocompleteUtils.tsx", "size": 12203 }
-{ "file": "app/uikit-native/AutocompleteWrapper.tsx", "size": 104998 }
+{ "file": "app/uikit-native/AutocompleteWrapper.tsx", "size": 105001 }
 { "file": "app/uikit-native/Avatar.tsx", "size": 31312 }
 { "file": "app/uikit-native/Badge.tsx", "size": 16982 }
 { "file": "app/uikit-native/badge/BadgeConstants.tsx", "size": 1121 }
@@ -8319,7 +8319,7 @@
 { "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 252713 }
 { "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 9393 }
 { "file": "discord_common/js/packages/media-engine/native/Devices.tsx", "size": 9933 }
-{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 200664 }
+{ "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 199573 }
 { "file": "discord_common/js/packages/media-engine/native/inject.tsx", "size": 3885 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngine.tsx", "size": 40792 }
 { "file": "discord_common/js/packages/media-engine/native/ios/VoiceEngineModule.android.tsx", "size": 6441 }
@@ -8348,7 +8348,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/payment_modal_banner.tsx", "size": 14061 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_marketing_component_properties.tsx", "size": 27430 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab.tsx", "size": 12985 }
-{ "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx", "size": 314553 }
+{ "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx", "size": 314557 }
 { "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 27271 }
 { "file": "discord_common/js/packages/protos/google/protobuf/wrappers.tsx", "size": 92900 }
 { "file": "discord_common/js/packages/rpc-schema/definitions.tsx", "size": 28571 }
