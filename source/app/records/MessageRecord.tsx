@@ -960,7 +960,7 @@ case 147:
                 };
                 var3 = var10.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var8 === var1)) { _fun0008_ip = 68; continue _fun0008 }
+                if(!(var8 === var1)) { _fun0008_ip = 67; continue _fun0008 }
 case 156:
                 var11 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -988,7 +988,7 @@ case 159:
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 68; continue _fun0008;
+                _fun0008_ip = 67; continue _fun0008;
 case 29:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
@@ -999,7 +999,7 @@ case 29:
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 68; continue _fun0008;
+                _fun0008_ip = 67; continue _fun0008;
 case 157:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
@@ -1009,7 +1009,7 @@ case 157:
                 var1['count_details'] = var6;
                 var1['burst_colors'] = var5;
                 var1 = var2.bind(var3)(var1);
-case 68:
+case 67:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);

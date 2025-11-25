@@ -104,18 +104,17 @@ case 0:
             var13 = var2.bind(var4)();
             var _closure2_slot0 = var13;
             var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 10;
-            var2 = var7[var2];
+            var2 = var9[var2];
             var5 = var5.bind(var4)(var2);
-            var2 = var5.useMediaKeyboardActionsExperiment;
-            var2 = var2.bind(var5)();
-            var12 = var2.mediaKeyboardActionsType;
-            var5 = _closure1_slot1;
+            var2 = var5.useIsMediaKeyboardActionsFloatingBarEnabled;
+            var5 = var2.bind(var5)();
+            var7 = _closure1_slot1;
             var2 = 11;
-            var2 = var7[var2];
-            var2 = var5.bind(var4)(var2);
-            var5 = var2.bind(var4)();
+            var2 = var9[var2];
+            var2 = var7.bind(var4)(var2);
+            var12 = var2.bind(var4)();
             var9 = _closure1_slot4;
             var2 = var9.useState;
             var7 = null;
@@ -130,10 +129,8 @@ case 0:
             var _closure2_slot1 = var14;
             if(!(var7 == var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var5.bottom;
+            var2 = var12.bottom;
 case 2:
-            var5 = 'floating';
-            var5 = var5 === var12;
             var9 = 0;
             if(var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -261,7 +258,7 @@ case 8:
             var2 = var11[var1];
             var15 = var12.bind(var4)(var2);
             var14 = var15.useAnimatedStyle;
-            var8 = function f() {
+            var8 = function E() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -321,7 +318,7 @@ case 10:
             var8 = var11[var1];
             var15 = var12.bind(var4)(var8);
             var12 = var15.useAnimatedProps;
-            var8 = function E() {
+            var8 = function H() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};

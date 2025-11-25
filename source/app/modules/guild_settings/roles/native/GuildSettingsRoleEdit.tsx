@@ -1771,8 +1771,8 @@ case 49:
             var2 = var4.bind(var7)(var2, var3);
             var2 = var1 != var14;
             var1 = null;
-            if(!var2) { _fun0009_ip = 102; continue _fun0009 }
-case 103:
+            if(!var2) { _fun0009_ip = 34; continue _fun0009 }
+case 102:
             var4 = _closure1_slot28;
             var8 = _closure1_slot0;
             var10 = _closure1_slot3;
@@ -1805,7 +1805,7 @@ case 103:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 102:
+case 34:
             return var1;
         }
     };

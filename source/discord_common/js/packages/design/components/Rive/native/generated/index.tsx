@@ -50,6 +50,66 @@ case 6:
             _fun0001_ip = 5; continue _fun0001;
         }
 case 7:
+        var3 = 3;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 8:
+        {
+case 9:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 8; continue _fun0001;
+        }
+case 10:
+        var3 = 4;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 11:
+        {
+case 12:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 11; continue _fun0001;
+        }
+case 13:
+        var3 = 5;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 14:
+        {
+case 15:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 14; continue _fun0001;
+        }
+case 16:
+        var3 = 6;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 17:
+        {
+case 18:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 17; continue _fun0001;
+        }
+case 19:
         return var1;
     }
 })();

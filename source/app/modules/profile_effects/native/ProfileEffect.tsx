@@ -240,7 +240,7 @@ case 5:
             var3 = 7;
             var3 = var11[var3];
             var3 = var10.bind(var4)(var3);
-            var3 = var3.ENTRY_DELAY;
+            var3 = var3.PROFILE_EFFECT_INTRO_DELAY;
             var3 = -var3;
             var14 = var12.bind(var13)(var3);
             var12 = _closure1_slot3;
@@ -310,7 +310,7 @@ case 10:
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
-                    var3 = var3.ENTRY_DELAY;
+                    var3 = var3.PROFILE_EFFECT_INTRO_DELAY;
                     var3 = -var3;
                     var3 = var4.bind(var2)(var3);
                     var1 = _closure2_slot9;

@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['appsIconImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 12;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -77,43 +77,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function GlobalSearchCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var4 = var1.markAsDismissed;
-            var _closure2_slot0 = var4;
-            var3 = var1.visible;
+            var2 = arg1;
+            var1 = var2.markAsDismissed;
+            var _closure2_slot0 = var1;
+            var3 = var2.visible;
             var _closure2_slot1 = var3;
-            var7 = var1.windowDimensions;
+            var7 = var2.windowDimensions;
+            var4 = _closure1_slot8;
             var5 = undefined;
-            var _closure2_slot3 = var5;
-            var1 = _closure1_slot8;
-            var1 = var1.bind(var5)();
-            var _closure2_slot2 = var1;
+            var4 = var4.bind(var5)();
+            var _closure2_slot2 = var4;
             var8 = var7.width;
             var9 = _closure1_slot5;
-            var1 = 2;
-            var1 = var1 * var9;
-            var8 = var8 - var1;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var1 = 7;
-            var1 = var10[var1];
-            var1 = var9.bind(var5)(var1);
-            var11 = var1.ActivitiesControllerIconExperiment;
-            var10 = var11.useExperiment;
-            var9 = {};
-            var1 = 'AppLauncherGlobalSearchOnboardingBanner';
-            var9['location'] = var1;
-            var1 = {};
-            var12 = true;
-            var1['autoTrackExposure'] = var12;
-            var1 = var10.bind(var11)(var9, var1);
-            var1 = var1.enabled;
-            var11 = _closure1_slot3;
-            var10 = var11.useEffect;
-            var9 = new Array(2);
-            var9[0] = var4;
-            var9[1] = var3;
-            var4 = function() {
+            var4 = 2;
+            var4 = var4 * var9;
+            var8 = var8 - var4;
+            var10 = _closure1_slot3;
+            var9 = var10.useEffect;
+            var4 = new Array(2);
+            var4[0] = var1;
+            var4[1] = var3;
+            var1 = function() {
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -134,30 +118,14 @@ case 2:
                 };
                 return var1;
             };
-            var4 = var10.bind(var11)(var4, var9);
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = 9;
-            var1 = var10[var1];
-            var1 = var9.bind(var5)(var1);
-            var1 = var1.AppsIcon;
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var4 = 8;
-            var4 = var10[var4];
-            var4 = var9.bind(var5)(var4);
-            var1 = var4.GameControllerIcon;
-case 6:
-            _closure2_slot3 = var1;
+            var1 = var9.bind(var10)(var1, var4);
             var1 = null;
-            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot7;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 10;
+            var2 = 8;
             var2 = var13[var2];
             var2 = var12.bind(var5)(var2);
             var3 = var2.Coachmark;
@@ -166,18 +134,22 @@ case 8:
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot4;
                 var2 = {};
-                var7 = _closure2_slot2;
-                var6 = var7.appsIcon;
-                var2['style'] = var6;
-                var6 = _closure2_slot3;
-                var5 = {};
-                var7 = var7.appsIconImage;
-                var5['style'] = var7;
-                var8 = _closure1_slot1;
-                var7 = _closure1_slot2;
-                var1 = 6;
-                var7 = var7[var1];
+                var8 = _closure2_slot2;
+                var1 = var8.appsIcon;
+                var2['style'] = var1;
+                var6 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var1 = 7;
+                var5 = var9[var1];
                 var1 = undefined;
+                var5 = var6.bind(var1)(var5);
+                var6 = var5.AppsIcon;
+                var5 = {};
+                var8 = var8.appsIconImage;
+                var5['style'] = var8;
+                var8 = _closure1_slot1;
+                var7 = 6;
+                var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.colors;
                 var7 = var7.INTERACTIVE_ACTIVE;
@@ -188,7 +160,7 @@ case 8:
                 return var1;
             };
             var2['renderImgComponent'] = var9;
-            var9 = 11;
+            var9 = 9;
             var10 = var13[var9];
             var10 = var12.bind(var5)(var10);
             var14 = var10.intl;
@@ -231,7 +203,7 @@ case 8:
             var6 = 'bottom';
             var2['position'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 7:
+case 4:
             return var1;
         }
     };

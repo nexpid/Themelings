@@ -1,12 +1,12 @@
 // app/utils/AvatarUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var28 = require;
+    var29 = require;
     var3 = exports;
-    var29 = dependencyMap;
-    var _closure1_slot0 = var28;
+    var30 = dependencyMap;
+    var _closure1_slot0 = var29;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var29;
+    var _closure1_slot2 = var30;
     var1 = function getAvatarURL(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -56,7 +56,7 @@ case 16:
             var2 = var11;
             if(!var8) { _fun0001_ip = 15; continue _fun0001 }
 case 17:
-            var5 = _closure1_slot29;
+            var5 = _closure1_slot30;
             var2 = var5.bind(var6)(var12);
 case 15:
             var13 = var2;
@@ -178,7 +178,7 @@ case 29:
         }
     };
     var _closure1_slot10 = var1;
-    var20 = function getEmojiURL(arg1) {
+    var21 = function getEmojiURL(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
@@ -326,7 +326,7 @@ case 62:
             return var1;
         }
     };
-    var19 = function getDefaultAvatarURL(arg1, arg2) {
+    var20 = function getDefaultAvatarURL(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
@@ -393,7 +393,7 @@ case 73:
             return var1;
         }
     };
-    var _closure1_slot11 = var19;
+    var _closure1_slot11 = var20;
     var1 = function getUserAvatarURLWithoutFallback(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -466,7 +466,7 @@ case 87:
         }
     };
     var _closure1_slot12 = var1;
-    var18 = function getUserAvatarURL(arg1) {
+    var19 = function getUserAvatarURL(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
@@ -511,8 +511,8 @@ case 96:
             return var1;
         }
     };
-    var _closure1_slot13 = var18;
-    var17 = function getGuildMemberAvatarURLSimple(arg1) {
+    var _closure1_slot13 = var19;
+    var18 = function getGuildMemberAvatarURLSimple(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -544,7 +544,7 @@ case 102:
             var4 = var14;
             if(!var2) { _fun0006_ip = 101; continue _fun0006 }
 case 11:
-            var1 = _closure1_slot29;
+            var1 = _closure1_slot30;
             var4 = var1.bind(var6)(var5);
 case 101:
             var1 = global;
@@ -641,8 +641,8 @@ case 113:
             return var1;
         }
     };
-    var _closure1_slot14 = var17;
-    var16 = function getGuildMemberAvatarURL(arg1) {
+    var _closure1_slot14 = var18;
+    var17 = function getGuildMemberAvatarURL(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -670,8 +670,8 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot15 = var16;
-    var15 = function getGuildMemberAvatarSource(arg1, arg2) {
+    var _closure1_slot15 = var17;
+    var16 = function getGuildMemberAvatarSource(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
@@ -698,7 +698,7 @@ case 118:
             return var1;
         }
     };
-    var14 = function getUserBannerURL(arg1) {
+    var15 = function getUserBannerURL(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
@@ -726,7 +726,7 @@ case 48:
             var9 = var6;
             if(!var4) { _fun0009_ip = 120; continue _fun0009 }
 case 97:
-            var4 = _closure1_slot29;
+            var4 = _closure1_slot30;
             var3 = _closure1_slot8;
             var9 = var4.bind(var5)(var3);
 case 120:
@@ -802,7 +802,7 @@ case 126:
             return var1;
         }
     };
-    var13 = function getAvatarDecorationURL(arg1) {
+    var14 = function getAvatarDecorationURL(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
@@ -912,7 +912,7 @@ case 37:
             return var1;
         }
     };
-    var12 = function getGuildMemberBannerURL(arg1) {
+    var13 = function getGuildMemberBannerURL(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
@@ -943,7 +943,7 @@ case 49:
             var4 = var13;
             if(!var5) { _fun0011_ip = 137; continue _fun0011 }
 case 76:
-            var5 = _closure1_slot29;
+            var5 = _closure1_slot30;
             var3 = _closure1_slot8;
             var4 = var5.bind(var6)(var3);
 case 137:
@@ -1018,7 +1018,7 @@ case 142:
             return var1;
         }
     };
-    var35 = function getGuildSplashURL(arg1) {
+    var36 = function getGuildSplashURL(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -1091,8 +1091,8 @@ case 60:
             return var1;
         }
     };
-    var _closure1_slot16 = var35;
-    var33 = function getGuildBannerURL(arg1) {
+    var _closure1_slot16 = var36;
+    var34 = function getGuildBannerURL(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
@@ -1135,7 +1135,7 @@ case 150:
             var10 = var3;
             if(!var2) { _fun0013_ip = 149; continue _fun0013 }
 case 151:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot30;
             var2 = _closure1_slot8;
             var10 = var3.bind(var7)(var2);
 case 149:
@@ -1209,8 +1209,8 @@ case 147:
             return var1;
         }
     };
-    var _closure1_slot17 = var33;
-    var32 = function getGuildHomeHeaderURL(arg1) {
+    var _closure1_slot17 = var34;
+    var33 = function getGuildHomeHeaderURL(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
@@ -1272,8 +1272,8 @@ case 163:
             return var1;
         }
     };
-    var _closure1_slot18 = var32;
-    var11 = function getResourceChannelIconURL(arg1) {
+    var _closure1_slot18 = var33;
+    var12 = function getResourceChannelIconURL(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
@@ -1304,7 +1304,7 @@ case 76:
             return var1;
         }
     };
-    var10 = function getNewMemberActionIconURL(arg1) {
+    var11 = function getNewMemberActionIconURL(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
@@ -1335,7 +1335,7 @@ case 76:
             return var1;
         }
     };
-    var34 = function getGuildDiscoverySplashURL(arg1) {
+    var35 = function getGuildDiscoverySplashURL(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
@@ -1408,8 +1408,8 @@ case 60:
             return var1;
         }
     };
-    var _closure1_slot19 = var34;
-    var36 = function getGuildIconURL(arg1) {
+    var _closure1_slot19 = var35;
+    var37 = function getGuildIconURL(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
@@ -1445,8 +1445,8 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot20 = var36;
-    var9 = function getGuildTemplateIconURL(arg1) {
+    var _closure1_slot20 = var37;
+    var10 = function getGuildTemplateIconURL(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
@@ -1480,27 +1480,27 @@ case 169:
             return var1;
         }
     };
-    var _closure1_slot21 = var9;
-    var30 = function getApplicationIconURL(arg1) {
+    var _closure1_slot21 = var10;
+    var31 = function getApplicationIconURL(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.id;
-            var8 = var1.icon;
-            var7 = var1.size;
-            var5 = undefined;
-            if(!(var7 === var5)) { _fun0020_ip = 44; continue _fun0020 }
+            var10 = var1.id;
+            var9 = var1.icon;
+            var8 = var1.size;
+            var6 = undefined;
+            if(!(var8 === var6)) { _fun0020_ip = 44; continue _fun0020 }
 case 168:
-            var7 = _closure1_slot4;
+            var8 = _closure1_slot4;
 case 44:
             var12 = var1.bot;
             var2 = var1.botIconFirst;
-            var10 = var1.fallbackAvatar;
-            if(!(var10 === var5)) { _fun0020_ip = 46; continue _fun0020 }
+            var5 = var1.fallbackAvatar;
+            if(!(var5 === var6)) { _fun0020_ip = 46; continue _fun0020 }
 case 171:
-            var10 = true;
+            var5 = true;
 case 46:
-            var6 = var1.keepAspectRatio;
+            var7 = var1.keepAspectRatio;
             var11 = var1.guildMember;
             var4 = null;
             var3 = var4 == var12;
@@ -1526,65 +1526,71 @@ case 174:
             var1['avatar'] = var11;
             var11 = false;
             var1['canAnimate'] = var11;
-            var1['size'] = var7;
-            var1 = var3.bind(var5)(var1);
-            if(!(var4 == var1)) { _fun0020_ip = 175; continue _fun0020 }
+            var1['size'] = var8;
+            var1 = var3.bind(var6)(var1);
+            if(!(var4 == var1)) { _fun0020_ip = 161; continue _fun0020 }
 case 121:
-            if(!(var4 != var12)) { _fun0020_ip = 176; continue _fun0020 }
+            if(!(var4 != var12)) { _fun0020_ip = 175; continue _fun0020 }
 case 18:
-            if(!var2) { _fun0020_ip = 176; continue _fun0020 }
+            if(!var2) { _fun0020_ip = 175; continue _fun0020 }
 case 21:
             var3 = _closure1_slot12;
             var2 = false;
-            var2 = var3.bind(var5)(var12, var2, var7);
-            if(!(var4 == var2)) { _fun0020_ip = 177; continue _fun0020 }
-case 176:
-            if(!(var4 == var8)) { _fun0020_ip = 145; continue _fun0020 }
-case 178:
+            var2 = var3.bind(var6)(var12, var2, var8);
+            if(!(var4 == var2)) { _fun0020_ip = 176; continue _fun0020 }
+case 175:
+            if(!(var4 == var9)) { _fun0020_ip = 145; continue _fun0020 }
+case 177:
             if(!(var4 != var12)) { _fun0020_ip = 109; continue _fun0020 }
 case 89:
             var11 = _closure1_slot12;
             var3 = false;
-            var3 = var11.bind(var5)(var12, var3, var7);
-            if(!(var4 == var3)) { _fun0020_ip = 179; continue _fun0020 }
+            var3 = var11.bind(var6)(var12, var3, var8);
+            if(!(var4 == var3)) { _fun0020_ip = 178; continue _fun0020 }
 case 109:
             var4 = undefined;
-            if(!var10) { _fun0020_ip = 180; continue _fun0020 }
-case 181:
+            if(!var5) { _fun0020_ip = 179; continue _fun0020 }
+case 180:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var10 = 9;
-            var10 = var12[var10];
-            var4 = var11.bind(var5)(var10);
-case 180:
-            return var4;
+            var5 = 9;
+            var5 = var12[var5];
+            var4 = var11.bind(var6)(var5);
 case 179:
+            return var4;
+case 178:
             return var3;
 case 145:
-            var4 = _closure1_slot10;
-            var3 = {};
-            var10 = _closure1_slot3;
-            var10 = var10.APPLICATION_ICON;
-            var3['endpoint'] = var10;
-            var10 = 'app-icons';
-            var3['path'] = var10;
-            var3['id'] = var9;
-            var3['hash'] = var8;
-            var3['size'] = var7;
-            var7 = false;
-            var3['canAnimate'] = var7;
-            var3['canWebP'] = var7;
-            var3['keepAspectRatio'] = var6;
-            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot29;
+            var4 = var3.bind(var6)(var9);
+            var3 = var9;
+            if(var4) { _fun0020_ip = 181; continue _fun0020 }
+case 182:
+            var5 = _closure1_slot10;
+            var4 = {};
+            var11 = _closure1_slot3;
+            var11 = var11.APPLICATION_ICON;
+            var4['endpoint'] = var11;
+            var11 = 'app-icons';
+            var4['path'] = var11;
+            var4['id'] = var10;
+            var4['hash'] = var9;
+            var4['size'] = var8;
+            var8 = false;
+            var4['canAnimate'] = var8;
+            var4['canWebP'] = var8;
+            var4['keepAspectRatio'] = var7;
+            var3 = var5.bind(var6)(var4);
+case 181:
             return var3;
-case 177:
+case 176:
             return var2;
-case 175:
+case 161:
             return var1;
         }
     };
-    var _closure1_slot22 = var30;
-    var27 = function getGameAssetURL(arg1) {
+    var _closure1_slot22 = var31;
+    var28 = function getGameAssetURL(arg1) {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
@@ -1621,8 +1627,8 @@ case 169:
             return var1;
         }
     };
-    var _closure1_slot23 = var27;
-    var8 = function getVideoFilterAssetURL(arg1) {
+    var _closure1_slot23 = var28;
+    var9 = function getVideoFilterAssetURL(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
@@ -1669,7 +1675,7 @@ case 171:
             return var1;
         }
     };
-    var31 = function getChannelIconURL(arg1) {
+    var32 = function getChannelIconURL(arg1) {
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
@@ -1695,7 +1701,7 @@ case 143:
             var1['canWebP'] = var3;
             var10 = undefined;
             var1 = var2.bind(var10)(var1);
-            if(!(var4 == var1)) { _fun0023_ip = 182; continue _fun0023 }
+            if(!(var4 == var1)) { _fun0023_ip = 183; continue _fun0023 }
 case 12:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -1717,7 +1723,7 @@ case 12:
             var2 = var2.length;
             var2 = var6 % var2;
             var1 = var3[var2];
-case 182:
+case 183:
             _fun0023_ip = 57; continue _fun0023;
 case 135:
             var6 = _closure1_slot22;
@@ -1727,8 +1733,8 @@ case 135:
             var2['size'] = var5;
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
-            if(!(var4 == var2)) { _fun0023_ip = 183; continue _fun0023 }
-case 184:
+            if(!(var4 == var2)) { _fun0023_ip = 184; continue _fun0023 }
+case 185:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 1;
@@ -1736,14 +1742,14 @@ case 184:
             var3 = var4.bind(var5)(var3);
             var3 = var3.default;
             var2 = var3.DEFAULT_CHANNEL_ICON;
-case 183:
+case 184:
             var1 = var2;
 case 57:
             return var1;
         }
     };
-    var _closure1_slot24 = var31;
-    var7 = function hasAnimatedGuildIcon(arg1) {
+    var _closure1_slot24 = var32;
+    var8 = function hasAnimatedGuildIcon(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var4 = arg1;
@@ -1760,14 +1766,14 @@ case 116:
             return var1;
         }
     };
-    var6 = function isAnimatedIconHash(arg1) {
+    var7 = function isAnimatedIconHash(arg1) {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0025_ip = 69; continue _fun0025 }
-case 185:
+case 186:
             var3 = var4.startsWith;
             var2 = 'a_';
             var1 = var3.bind(var4)(var2);
@@ -1775,15 +1781,15 @@ case 69:
             return var1;
         }
     };
-    var _closure1_slot25 = var6;
-    var5 = function isVideoAssetHash(arg1) {
+    var _closure1_slot25 = var7;
+    var6 = function isVideoAssetHash(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0026_ip = 69; continue _fun0026 }
-case 185:
+case 186:
             var3 = var4.startsWith;
             var2 = 'v_';
             var1 = var3.bind(var4)(var2);
@@ -1791,12 +1797,12 @@ case 69:
             return var1;
         }
     };
-    var _closure1_slot26 = var5;
+    var _closure1_slot26 = var6;
     var1 = function _getAssetHash(arg1) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var1 = arg1;
-case 186: // try_start_0
+case 187: // try_start_0
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 11;
@@ -1811,7 +1817,7 @@ case 186: // try_start_0
             var2 = var2.bind(var3)(var1);
             var1 = var2.pop;
             var1 = var1.bind(var2)();
-case 187: // try_end0
+case 188: // try_end0
             return var1;
 case 7: // catch_target0
             CatchBlockStart(arg_register=0);
@@ -1844,76 +1850,92 @@ case 93:
         }
     };
     var _closure1_slot28 = var4;
-    var1 = function getAnimatedFormat(arg1) {
+    var2 = function isDataUri(arg1) {
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
-            var1 = 'gif';
-            var2 = arg1;
-            if(!var2) { _fun0029_ip = 188; continue _fun0029 }
-case 189:
-            var1 = 'webp';
-case 188:
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0029_ip = 69; continue _fun0029 }
+case 186:
+            var3 = _closure1_slot5;
+            var2 = var3.test;
+            var1 = var2.bind(var3)(var4);
+case 69:
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot29 = var2;
+    var1 = function getAnimatedFormat(arg1) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+case 0:
+            var1 = 'gif';
+            var2 = arg1;
+            if(!var2) { _fun0030_ip = 189; continue _fun0030 }
+case 190:
+            var1 = 'webp';
+case 189:
+            return var1;
+        }
+    };
+    var _closure1_slot30 = var1;
     var1 = global;
-    var23 = var1.Object;
-    var22 = var23.defineProperty;
-    var21 = {};
+    var24 = var1.Object;
+    var23 = var24.defineProperty;
+    var22 = {};
     var1 = true;
-    var21['value'] = var1;
+    var22['value'] = var1;
     var1 = '__esModule';
-    var1 = var22.bind(var23)(var3, var1, var21);
+    var1 = var23.bind(var24)(var3, var1, var22);
     var1 = 0;
-    var21 = var29[var1];
+    var22 = var30[var1];
     var1 = undefined;
-    var21 = var28.bind(var1)(var21);
-    var22 = var21.Endpoints;
-    var _closure1_slot3 = var22;
-    var21 = var21.AVATAR_SIZE;
-    var _closure1_slot4 = var21;
-    var25 = /^data:/;
-    var _closure1_slot5 = var25;
-    var21 = 1;
-    var22 = var29[var21];
-    var22 = var28.bind(var1)(var22);
-    var22 = var22.default;
-    var24 = var22.DEFAULT_AVATARS;
-    var _closure1_slot6 = var24;
-    var22 = var29[var21];
-    var22 = var28.bind(var1)(var22);
-    var22 = var22.default;
-    var23 = var22.DEFAULT_PROVISIONAL_AVATARS;
-    var _closure1_slot7 = var23;
-    var22 = var29[var21];
-    var22 = var28.bind(var1)(var22);
-    var22 = var22.default;
-    var22 = var22.DEFAULT_GROUP_DM_AVATARS;
-    var21 = var29[var21];
-    var21 = var28.bind(var1)(var21);
-    var26 = var21.default;
-    var21 = var26.canUseWebp;
-    var21 = var21.bind(var26)();
-    var _closure1_slot8 = var21;
-    var26 = 2;
-    var26 = var29[var26];
-    var37 = var28.bind(var1)(var26);
-    var26 = var37.isAndroid;
-    var26 = var26.bind(var37)();
-    var _closure1_slot9 = var26;
-    var26 = {};
-    var26['getUserAvatarURL'] = var18;
-    var26['getDefaultAvatarURL'] = var19;
-    var26['getGuildMemberAvatarURL'] = var16;
-    var26['getGuildMemberAvatarURLSimple'] = var17;
-    var26['getGuildMemberAvatarSource'] = var15;
-    var26['getGuildMemberBannerURL'] = var12;
-    var26['getUserBannerURL'] = var14;
-    var26['getAvatarDecorationURL'] = var13;
-    var26['hasAnimatedGuildIcon'] = var7;
-    var26['isAnimatedIconHash'] = var6;
-    var37 = function getUserAvatarSource(arg1, arg2, arg3) {
+    var22 = var29.bind(var1)(var22);
+    var23 = var22.Endpoints;
+    var _closure1_slot3 = var23;
+    var22 = var22.AVATAR_SIZE;
+    var _closure1_slot4 = var22;
+    var26 = /^data:/;
+    var _closure1_slot5 = var26;
+    var22 = 1;
+    var23 = var30[var22];
+    var23 = var29.bind(var1)(var23);
+    var23 = var23.default;
+    var25 = var23.DEFAULT_AVATARS;
+    var _closure1_slot6 = var25;
+    var23 = var30[var22];
+    var23 = var29.bind(var1)(var23);
+    var23 = var23.default;
+    var24 = var23.DEFAULT_PROVISIONAL_AVATARS;
+    var _closure1_slot7 = var24;
+    var23 = var30[var22];
+    var23 = var29.bind(var1)(var23);
+    var23 = var23.default;
+    var23 = var23.DEFAULT_GROUP_DM_AVATARS;
+    var22 = var30[var22];
+    var22 = var29.bind(var1)(var22);
+    var27 = var22.default;
+    var22 = var27.canUseWebp;
+    var22 = var22.bind(var27)();
+    var _closure1_slot8 = var22;
+    var27 = 2;
+    var27 = var30[var27];
+    var38 = var29.bind(var1)(var27);
+    var27 = var38.isAndroid;
+    var27 = var27.bind(var38)();
+    var _closure1_slot9 = var27;
+    var27 = {};
+    var27['getUserAvatarURL'] = var19;
+    var27['getDefaultAvatarURL'] = var20;
+    var27['getGuildMemberAvatarURL'] = var17;
+    var27['getGuildMemberAvatarURLSimple'] = var18;
+    var27['getGuildMemberAvatarSource'] = var16;
+    var27['getGuildMemberBannerURL'] = var13;
+    var27['getUserBannerURL'] = var15;
+    var27['getAvatarDecorationURL'] = var14;
+    var27['hasAnimatedGuildIcon'] = var8;
+    var27['isAnimatedIconHash'] = var7;
+    var38 = function getUserAvatarSource(arg1, arg2, arg3) {
         var3 = _closure1_slot28;
         var6 = _closure1_slot13;
         var2 = undefined;
@@ -1924,10 +1946,10 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getUserAvatarSource'] = var37;
-    var26['getGuildIconURL'] = var36;
-    var26['getGuildSplashURL'] = var35;
-    var35 = function getGuildSplashSource(arg1) {
+    var27['getUserAvatarSource'] = var38;
+    var27['getGuildIconURL'] = var37;
+    var27['getGuildSplashURL'] = var36;
+    var36 = function getGuildSplashSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot16;
         var2 = undefined;
@@ -1936,9 +1958,9 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGuildSplashSource'] = var35;
-    var26['getGuildDiscoverySplashURL'] = var34;
-    var34 = function getGuildDiscoverySplashSource(arg1) {
+    var27['getGuildSplashSource'] = var36;
+    var27['getGuildDiscoverySplashURL'] = var35;
+    var35 = function getGuildDiscoverySplashSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot19;
         var2 = undefined;
@@ -1947,18 +1969,18 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGuildDiscoverySplashSource'] = var34;
-    var26['getGuildBannerURL'] = var33;
-    var26['getGuildHomeHeaderURL'] = var32;
-    var26['getResourceChannelIconURL'] = var11;
-    var26['getNewMemberActionIconURL'] = var10;
-    var26['getGuildTemplateIconURL'] = var9;
-    var26['getChannelIconURL'] = var31;
-    var26['getEmojiURL'] = var20;
-    var26['getApplicationIconURL'] = var30;
-    var26['getGameAssetURL'] = var27;
-    var26['getVideoFilterAssetURL'] = var8;
-    var27 = function getGameAssetSource(arg1) {
+    var27['getGuildDiscoverySplashSource'] = var35;
+    var27['getGuildBannerURL'] = var34;
+    var27['getGuildHomeHeaderURL'] = var33;
+    var27['getResourceChannelIconURL'] = var12;
+    var27['getNewMemberActionIconURL'] = var11;
+    var27['getGuildTemplateIconURL'] = var10;
+    var27['getChannelIconURL'] = var32;
+    var27['getEmojiURL'] = var21;
+    var27['getApplicationIconURL'] = var31;
+    var27['getGameAssetURL'] = var28;
+    var27['getVideoFilterAssetURL'] = var9;
+    var28 = function getGameAssetSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot23;
         var2 = undefined;
@@ -1967,8 +1989,8 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGameAssetSource'] = var27;
-    var27 = function getGuildIconSource(arg1) {
+    var27['getGameAssetSource'] = var28;
+    var28 = function getGuildIconSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot20;
         var2 = undefined;
@@ -1977,8 +1999,8 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGuildIconSource'] = var27;
-    var27 = function getGuildTemplateIconSource(arg1) {
+    var27['getGuildIconSource'] = var28;
+    var28 = function getGuildTemplateIconSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot21;
         var2 = undefined;
@@ -1987,16 +2009,16 @@ case 188:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGuildTemplateIconSource'] = var27;
-    var27 = function getGuildBannerSource(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+    var27['getGuildTemplateIconSource'] = var28;
+    var28 = function getGuildBannerSource(arg1) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var5 = arguments[1];
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0030_ip = 190; continue _fun0030 }
-case 191:
+            if(!(var5 === var3)) { _fun0031_ip = 191; continue _fun0031 }
+case 192:
             var5 = false;
-case 190:
+case 191:
             var2 = _closure1_slot28;
             var4 = _closure1_slot17;
             var1 = arg1;
@@ -2005,8 +2027,8 @@ case 190:
             return var1;
         }
     };
-    var26['getGuildBannerSource'] = var27;
-    var27 = function getGuildHomeHeaderSource(arg1) {
+    var27['getGuildBannerSource'] = var28;
+    var28 = function getGuildHomeHeaderSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot18;
         var2 = undefined;
@@ -2015,8 +2037,8 @@ case 190:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getGuildHomeHeaderSource'] = var27;
-    var27 = function getChannelIconSource(arg1) {
+    var27['getGuildHomeHeaderSource'] = var28;
+    var28 = function getChannelIconSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot24;
         var2 = undefined;
@@ -2025,8 +2047,8 @@ case 190:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getChannelIconSource'] = var27;
-    var27 = function getApplicationIconSource(arg1) {
+    var27['getChannelIconSource'] = var28;
+    var28 = function getApplicationIconSource(arg1) {
         var3 = _closure1_slot28;
         var4 = _closure1_slot22;
         var2 = undefined;
@@ -2035,10 +2057,10 @@ case 190:
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var26['getApplicationIconSource'] = var27;
-    var26['makeSource'] = var4;
-    var27 = function getAnimatableSourceWithFallback(arg1, arg2) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+    var27['getApplicationIconSource'] = var28;
+    var27['makeSource'] = var4;
+    var28 = function getAnimatableSourceWithFallback(arg1, arg2) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var5 = arg2;
@@ -2051,25 +2073,25 @@ case 0:
             var6 = var6.bind(var4)(var2);
             var2 = var6.isAndroid;
             var2 = var2.bind(var6)();
-            if(!var2) { _fun0031_ip = 82; continue _fun0031 }
+            if(!var2) { _fun0032_ip = 82; continue _fun0032 }
 case 98:
-            if(!var1) { _fun0031_ip = 82; continue _fun0031 }
-case 192:
+            if(!var1) { _fun0032_ip = 82; continue _fun0032 }
+case 193:
             var2 = 'number';
             var1 = typeof var3;
-            if(!(var2 === var1)) { _fun0031_ip = 48; continue _fun0031 }
+            if(!(var2 === var1)) { _fun0032_ip = 48; continue _fun0032 }
 case 82:
             return var3;
 case 48:
             var1 = false;
             var4 = var5.bind(var4)(var1);
             var1 = typeof var4;
-            if(!(var2 !== var1)) { _fun0031_ip = 11; continue _fun0031 }
-case 193:
+            if(!(var2 !== var1)) { _fun0032_ip = 11; continue _fun0032 }
+case 194:
             var5 = var4.uri;
             var2 = var3.uri;
             var1 = var4;
-            if(!(var5 !== var2)) { _fun0031_ip = 17; continue _fun0031 }
+            if(!(var5 !== var2)) { _fun0032_ip = 17; continue _fun0032 }
 case 11:
             var2 = new Array(2);
             var2[0] = var3;
@@ -2086,47 +2108,47 @@ case 17:
             return var1;
         }
     };
-    var26['getAnimatableSourceWithFallback'] = var27;
-    var27 = 12;
-    var27 = var29[var27];
-    var29 = var28.bind(var1)(var27);
-    var28 = var29.fileFinishedImporting;
-    var27 = 'utils/AvatarUtils.tsx';
-    var27 = var28.bind(var29)(var27);
-    var3['default'] = var26;
-    var3['DATA_IMAGE_PREFIX'] = var25;
-    var3['DEFAULT_AVATARS'] = var24;
-    var3['DEFAULT_PROVISIONAL_AVATARS'] = var23;
-    var3['DEFAULT_GROUP_DM_AVATARS'] = var22;
-    var3['SUPPORTS_WEBP'] = var21;
-    var21 = 5;
-    var3['LEGACY_DEFAULT_AVATAR_COUNT'] = var21;
-    var21 = 6;
-    var3['DEFAULT_AVATAR_COUNT'] = var21;
-    var3['getEmojiURL'] = var20;
-    var3['getDefaultAvatarURL'] = var19;
-    var3['getUserAvatarURL'] = var18;
-    var3['getGuildMemberAvatarURLSimple'] = var17;
-    var3['getGuildMemberAvatarURL'] = var16;
-    var3['getGuildMemberAvatarSource'] = var15;
-    var3['getUserBannerURL'] = var14;
-    var3['getAvatarDecorationURL'] = var13;
-    var3['getGuildMemberBannerURL'] = var12;
-    var3['getResourceChannelIconURL'] = var11;
-    var3['getNewMemberActionIconURL'] = var10;
-    var3['getGuildTemplateIconURL'] = var9;
-    var3['getVideoFilterAssetURL'] = var8;
-    var3['hasAnimatedGuildIcon'] = var7;
-    var3['isAnimatedIconHash'] = var6;
-    var3['isVideoAssetHash'] = var5;
-    var5 = function isAnimatedImageURL(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+    var27['getAnimatableSourceWithFallback'] = var28;
+    var28 = 12;
+    var28 = var30[var28];
+    var30 = var29.bind(var1)(var28);
+    var29 = var30.fileFinishedImporting;
+    var28 = 'utils/AvatarUtils.tsx';
+    var28 = var29.bind(var30)(var28);
+    var3['default'] = var27;
+    var3['DATA_IMAGE_PREFIX'] = var26;
+    var3['DEFAULT_AVATARS'] = var25;
+    var3['DEFAULT_PROVISIONAL_AVATARS'] = var24;
+    var3['DEFAULT_GROUP_DM_AVATARS'] = var23;
+    var3['SUPPORTS_WEBP'] = var22;
+    var22 = 5;
+    var3['LEGACY_DEFAULT_AVATAR_COUNT'] = var22;
+    var22 = 6;
+    var3['DEFAULT_AVATAR_COUNT'] = var22;
+    var3['getEmojiURL'] = var21;
+    var3['getDefaultAvatarURL'] = var20;
+    var3['getUserAvatarURL'] = var19;
+    var3['getGuildMemberAvatarURLSimple'] = var18;
+    var3['getGuildMemberAvatarURL'] = var17;
+    var3['getGuildMemberAvatarSource'] = var16;
+    var3['getUserBannerURL'] = var15;
+    var3['getAvatarDecorationURL'] = var14;
+    var3['getGuildMemberBannerURL'] = var13;
+    var3['getResourceChannelIconURL'] = var12;
+    var3['getNewMemberActionIconURL'] = var11;
+    var3['getGuildTemplateIconURL'] = var10;
+    var3['getVideoFilterAssetURL'] = var9;
+    var3['hasAnimatedGuildIcon'] = var8;
+    var3['isAnimatedIconHash'] = var7;
+    var3['isVideoAssetHash'] = var6;
+    var6 = function isAnimatedImageURL(arg1) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0032_ip = 119; continue _fun0032 }
-case 185:
+            if(!var1) { _fun0033_ip = 119; continue _fun0033 }
+case 186:
             var4 = _closure1_slot25;
             var2 = _closure1_slot27;
             var3 = undefined;
@@ -2136,15 +2158,15 @@ case 119:
             return var1;
         }
     };
-    var3['isAnimatedImageURL'] = var5;
+    var3['isAnimatedImageURL'] = var6;
     var5 = function isVideoURL(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0033_ip = 119; continue _fun0033 }
-case 185:
+            if(!var1) { _fun0034_ip = 119; continue _fun0034 }
+case 186:
             var4 = _closure1_slot26;
             var2 = _closure1_slot27;
             var3 = undefined;
@@ -2156,21 +2178,6 @@ case 119:
     };
     var3['isVideoURL'] = var5;
     var3['makeSource'] = var4;
-    var2 = function isDataUri(arg1) {
-        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
-case 0:
-            var4 = arg1;
-            var1 = null;
-            var1 = var1 != var4;
-            if(!var1) { _fun0034_ip = 69; continue _fun0034 }
-case 185:
-            var3 = _closure1_slot5;
-            var2 = var3.test;
-            var1 = var2.bind(var3)(var4);
-case 69:
-            return var1;
-        }
-    };
     var3['isDataUri'] = var2;
     return var1;
 })();

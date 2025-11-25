@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.VanillaExperiment;
-    var8 = new Array(7);
+    var8 = new Array(8);
     var8[0] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
@@ -52,6 +52,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.HangStatusExperiment;
     var8[6] = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VoiceInviteSuggestionsExperiment;
+    var8[7] = var4;
     var11 = var2.VOICE_CALL;
     var2 = {};
     var4 = 'voice call initiated';
@@ -63,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var9](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

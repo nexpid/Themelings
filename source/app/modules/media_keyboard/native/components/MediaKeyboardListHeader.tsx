@@ -379,6 +379,8 @@ case 17:
                 var2['disabled'] = var7;
                 var7 = 'secondary';
                 var2['variant'] = var7;
+                var7 = true;
+                var2['grow'] = var7;
                 var1 = var5.bind(var4)(var3, var2, var6);
 case 19:
                 return var1;

@@ -5553,7 +5553,7 @@ case 0:
             var1 = arg1;
             var3 = var1.version;
             var2 = 1;
-            if(!(var2 === var3)) { _fun0091_ip = 6; continue _fun0091 }
+            if(!(var2 === var3)) { _fun0091_ip = 210; continue _fun0091 }
 case 242:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -5590,8 +5590,8 @@ case 156:
             var5 = var5.QuestPlacementType;
             var5 = var5.QUEST_HOME_BANNER;
             var2['placementType'] = var5;
-            var5 = var3.id;
-            var2['id'] = var5;
+            var5 = var3.campaign_id;
+            var2['campaignId'] = var5;
             var5 = var3.label_title;
             var2['labelTitle'] = var5;
             var5 = var3.label_subtitle;
@@ -5624,7 +5624,7 @@ case 156:
             var1 = var2;
 case 249:
             return var1;
-case 6:
+case 210:
             var1 = null;
             return var1;
         }

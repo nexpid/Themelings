@@ -1084,7 +1084,7 @@ case 58:
         var14 = var10[var11];
         var14 = var9.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.t/IjXY;
+        var14 = var14.Zmm6dN;
         var7['text'] = var14;
         var7['onPress'] = var13;
         var12 = var10[var12];
@@ -1194,14 +1194,19 @@ case 61:
                 var12 = var12.colors;
                 var12 = var12.ICON_SECONDARY;
                 var6['color'] = var12;
+                var13 = _closure2_slot11;
                 var12 = 'lg';
+                if(!var13) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
+                var12 = 'md';
+case 63:
                 var6['size'] = var12;
                 var9 = var10.bind(var4)(var9, var6);
                 var6 = new Array(2);
                 var6[0] = var9;
                 var7 = _closure2_slot11;
-                if(!var7) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
+                if(!var7) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                 var10 = _closure1_slot10;
                 var13 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -1209,7 +1214,7 @@ case 64:
                 var8 = var12[var8];
                 var8 = var13.bind(var4)(var8);
                 var9 = var8.Text;
-                var8 = {'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                var8 = {'variant': 'text-xs/medium', 'color': 'interactive-normal'};
                 var12 = var12[var14];
                 var12 = var13.bind(var4)(var12);
                 var13 = var12.intl;
@@ -1218,7 +1223,7 @@ case 64:
                 var11 = var12.bind(var13)(var11);
                 var8['children'] = var11;
                 var7 = var10.bind(var4)(var9, var8);
-case 63:
+case 65:
                 var6[1] = var7;
                 var1['children'] = var6;
                 var1 = var3.bind(var4)(var2, var1, var5);
@@ -1264,12 +1269,12 @@ case 0:
             var2 = arg1;
             var1 = 'type';
             var1 = var1 in var2;
-            if(!var1) { _fun0010_ip = 65; continue _fun0010 }
+            if(!var1) { _fun0010_ip = 67; continue _fun0010 }
 case 3:
             var3 = var2.type;
             var2 = 'camera';
             var1 = var2 === var3;
-case 65:
+case 67:
             return var1;
         }
     };
@@ -1280,12 +1285,12 @@ case 0:
             var2 = arg1;
             var1 = 'type';
             var1 = var1 in var2;
-            if(!var1) { _fun0011_ip = 65; continue _fun0011 }
+            if(!var1) { _fun0011_ip = 67; continue _fun0011 }
 case 3:
             var3 = var2.type;
             var2 = 'attach';
             var1 = var2 === var3;
-case 65:
+case 67:
             return var1;
         }
     };
@@ -1296,12 +1301,12 @@ case 0:
             var2 = arg1;
             var1 = 'type';
             var1 = var1 in var2;
-            if(!var1) { _fun0012_ip = 66; continue _fun0012 }
+            if(!var1) { _fun0012_ip = 67; continue _fun0012 }
 case 3:
             var3 = var2.type;
             var2 = 'allphotos';
             var1 = var2 === var3;
-case 66:
+case 67:
             return var1;
         }
     };

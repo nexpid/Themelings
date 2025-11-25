@@ -135,9 +135,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var12 = var1.children;
+            var13 = var1.allowFullScreen;
+            var4 = undefined;
+            if(!(var13 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var13 = false;
+case 2:
             var3 = var1.slide;
             var1 = _closure1_slot14;
-            var4 = undefined;
             var10 = var1.bind(var4)();
             var5 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -166,19 +171,18 @@ case 0:
             var2 = _closure1_slot13;
             var1 = var1.cardId;
             var5 = null;
-            if(!(var5 == var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var5 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot6;
             var1 = var5.ONE;
-case 2:
+case 4:
             var1 = var2[var1];
             var2 = _closure1_slot7;
             var2 = var2.END;
-            var13 = var3 === var2;
-            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!(var3 === var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var1;
-case 4:
+case 6:
             var3 = _closure1_slot11;
             var2 = _closure1_slot10;
             var1 = {};
@@ -221,24 +225,24 @@ case 4:
             var10[0] = var11;
             var11 = {};
             var16 = 0;
-            if(var13) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var17 = var14.left;
-            var16 = var17 + var18;
-case 6:
-            var11['paddingLeft'] = var16;
-            var16 = 0;
             if(var13) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var17 = var14.right;
+            var17 = var14.left;
             var16 = var17 + var18;
 case 8:
-            var11['paddingRight'] = var16;
-            var15 = 0;
+            var11['paddingLeft'] = var16;
+            var16 = 0;
             if(var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var15 = var14.bottom;
+            var17 = var14.right;
+            var16 = var17 + var18;
 case 10:
+            var11['paddingRight'] = var16;
+            var15 = 0;
+            if(var13) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var15 = var14.bottom;
+case 12:
             var11['paddingBottom'] = var15;
             var14 = var14.top;
             var11['paddingTop'] = var14;

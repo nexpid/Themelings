@@ -30,6 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['ALL_EXCEPT_DM'] = var4;
     var6 = 'ALL_EXCEPT_DM';
     var7[var4] = var6;
+    var _closure1_slot2 = var7;
     var6 = var10[var5];
     var11 = var9.bind(var1)(var6);
     var8 = var11.createExperiment;
@@ -71,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12[0] = var15;
     var5['treatments'] = var12;
     var5 = var8.bind(var11)(var5);
-    var _closure1_slot2 = var5;
+    var _closure1_slot3 = var5;
     var4 = var10[var4];
     var11 = var9.bind(var1)(var4);
     var8 = var11.createApexExperiment;
@@ -92,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12[2] = var13;
     var4['variations'] = var12;
     var4 = var8.bind(var11)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var8 = 4;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
@@ -103,18 +104,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DisplayNameStylesViewerExperiment'] = var6;
     var3['DisplayNameStylesSetterExperiment'] = var5;
     var3['DisplayNameStylesMobileExperiment'] = var4;
-    var2 = function useIsDisplayNameStylesMobileEnabled(arg1) {
+    var4 = function useIsDisplayNameStylesMobileEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.location;
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot4;
             var3 = var4.useConfig;
             var1 = {};
             var1['location'] = var6;
             var1 = var3.bind(var4)(var1);
             var1 = var1.enabled;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var4 = var5.useExperiment;
             var3 = {};
             var3['location'] = var6;
@@ -138,6 +139,49 @@ case 4:
             return var1;
         }
     };
-    var3['useIsDisplayNameStylesMobileEnabled'] = var2;
+    var3['useIsDisplayNameStylesMobileEnabled'] = var4;
+    var2 = function isDisplayNameStylesMobileChatEnabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var6 = var1.location;
+            var4 = _closure1_slot4;
+            var3 = var4.getConfig;
+            var1 = {};
+            var1['location'] = var6;
+            var4 = var3.bind(var4)(var1);
+            var5 = _closure1_slot3;
+            var3 = var5.getCurrentConfig;
+            var1 = {};
+            var1['location'] = var6;
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.enabled;
+            var1 = var4.enabled;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
+            var5 = var4.surfaces;
+            var4 = _closure1_slot2;
+            var4 = var4.ALL_SURFACES;
+            var1 = var5 === var4;
+case 6:
+            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            var1 = var3;
+case 7:
+            if(!var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.getUserIsStaff;
+            var1 = var2.bind(var3)();
+case 9:
+            return var1;
+        }
+    };
+    var3['isDisplayNameStylesMobileChatEnabled'] = var2;
     return var1;
 })();

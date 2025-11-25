@@ -454,7 +454,7 @@ case 4:
             }
         };
         var1['value'] = var2;
-        var3 = new Array(11);
+        var3 = new Array(12);
         var3[0] = var1;
         var1 = {};
         var2 = 'putAll';
@@ -500,6 +500,23 @@ case 6:
         var1['value'] = var2;
         var3[1] = var1;
         var1 = {};
+        var2 = 'replaceChannel';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2, arg3) {
+            var5 = arg1;
+            var4 = arg2;
+            var3 = this;
+            var1 = var3.deleteChannel;
+            var1 = var1.bind(var3)(var5, var4);
+            var2 = var3.putAll;
+            var1 = arg3;
+            var1 = var2.bind(var3)(var5, var4, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var2;
+        var3[2] = var1;
+        var1 = {};
         var2 = 'replaceAll';
         var1['key'] = var2;
         var2 = function value(arg1, arg2, arg3) {
@@ -527,7 +544,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[2] = var1;
+        var3[3] = var1;
         var1 = {};
         var2 = 'deleteAll';
         var1['key'] = var2;
@@ -540,7 +557,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[3] = var1;
+        var3[4] = var1;
         var1 = {};
         var2 = 'deleteGuild';
         var1['key'] = var2;
@@ -556,7 +573,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[4] = var1;
+        var3[5] = var1;
         var1 = {};
         var2 = 'deleteChannel';
         var1['key'] = var2;
@@ -574,7 +591,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[5] = var1;
+        var3[6] = var1;
         var1 = {};
         var2 = 'deleteMessage';
         var1['key'] = var2;
@@ -596,7 +613,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[6] = var1;
+        var3[7] = var1;
         var1 = {};
         var2 = 'trimOrphans';
         var1['key'] = var2;
@@ -611,7 +628,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[7] = var1;
+        var3[8] = var1;
         var1 = {};
         var2 = 'trimChannel';
         var1['key'] = var2;
@@ -631,7 +648,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[8] = var1;
+        var3[9] = var1;
         var1 = {};
         var2 = 'trimChannelsIn';
         var1['key'] = var2;
@@ -647,7 +664,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[9] = var1;
+        var3[10] = var1;
         var1 = {};
         var2 = 'trimChannelsNotIn';
         var1['key'] = var2;
@@ -663,7 +680,7 @@ case 6:
             return var1;
         };
         var1['value'] = var2;
-        var3[10] = var1;
+        var3[11] = var1;
         var1 = {};
         var2 = 'fromTableTransaction';
         var1['key'] = var2;

@@ -1495,42 +1495,40 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0013_ip = 70; continue _fun0013 }
-case 3:
-                    var4 = new Array(0);
-                    var3 = _closure2_slot1;
-                    if(!var3) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
-                    var5 = var4.push;
-                    var7 = _closure1_slot16;
-                    var6 = var7.migratePinPermission;
-                    var3 = _closure2_slot0;
-                    var3 = var6.bind(var7)(var3);
-                    var3 = var5.bind(var4)(var3);
-case 71:
-                    var3 = _closure2_slot2;
-                    if(!var3) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
-                    var3 = var4.push;
-                    var6 = _closure1_slot16;
-                    var5 = var6.migrateSlowmodePermission;
+case 66:
+                    var2 = _closure2_slot1;
+                    if(!var2) { _fun0013_ip = 71; continue _fun0013 }
+case 39:
+                    var5 = _closure1_slot16;
+                    var4 = var5.migratePinPermission;
                     var2 = _closure2_slot0;
-                    var2 = var5.bind(var6)(var2);
-                    var2 = var3.bind(var4)(var2);
-case 73:
-                    var2 = global;
-                    var3 = var2.Promise;
-                    var2 = var3.all;
-                    var2 = var2.bind(var3)(var4);
-                    SaveGenerator(address=118);
-case 48:
+                    var2 = var4.bind(var5)(var2);
+                    SaveGenerator(address=43);
+case 72:
                     return var2;
-case 75:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0013_ip = 76; continue _fun0013 }
-case 77:
-                    var3 = undefined;
-                    return var3;
+case 73:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0013_ip = 74; continue _fun0013 }
+case 71:
+                    var4 = _closure2_slot2;
+                    if(!var4) { _fun0013_ip = 75; continue _fun0013 }
 case 76:
+                    var5 = _closure1_slot16;
+                    var4 = var5.migrateSlowmodePermission;
+                    var3 = _closure2_slot0;
+                    var3 = var4.bind(var5)(var3);
+                    SaveGenerator(address=82);
+case 15:
+                    return var3;
+case 77:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0013_ip = 78; continue _fun0013 }
+case 75:
+                    var4 = undefined;
+                    return var4;
+case 78:
+                    return var3;
+case 74:
                     return var2;
 case 70:
                     return var1;

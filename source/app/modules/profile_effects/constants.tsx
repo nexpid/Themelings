@@ -18,8 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/profile_effects/constants.tsx';
     var2 = var4.bind(var5)(var2);
+    var2 = 0.1;
+    var3['PROFILE_EFFECT_INTRO_MINIMUM_DELAY'] = var2;
     var2 = 500;
-    var3['ENTRY_DELAY'] = var2;
+    var3['PROFILE_EFFECT_INTRO_DELAY'] = var2;
     var2 = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==';
     var3['RESET'] = var2;
     var2 = 100;

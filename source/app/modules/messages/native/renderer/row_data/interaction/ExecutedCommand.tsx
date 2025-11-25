@@ -129,7 +129,7 @@ case 15:
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageTypes;
     var _closure1_slot7 = var4;
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -138,23 +138,23 @@ case 15:
     var2 = function createExecutedCommand(arg1, arg2, arg3, arg4, arg5) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var14 = arg1;
-            var19 = arg2;
-            var13 = arg3;
-            var4 = arg5;
-            var1 = var14.activityInstance;
-            var12 = null;
-            var1 = var12 != var1;
+            var12 = arg1;
+            var18 = arg2;
+            var11 = arg3;
+            var13 = arg5;
+            var1 = var12.activityInstance;
+            var10 = null;
+            var1 = var10 != var1;
             if(!var1) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-            var3 = var14.activityInstance;
+            var3 = var12.activityInstance;
             var2 = undefined;
             var1 = var2 !== var3;
 case 16:
-            var2 = var14.interaction;
-            if(!(var12 != var2)) { _fun0002_ip = 18; continue _fun0002 }
+            var2 = var12.interaction;
+            if(!(var10 != var2)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var2 = var14.interaction;
+            var2 = var12.interaction;
             var3 = var2.displayName;
             var2 = '';
             if(!(var2 === var3)) { _fun0002_ip = 9; continue _fun0002 }
@@ -164,354 +164,330 @@ case 18:
             var2 = undefined;
             return var2;
 case 9:
-            var2 = _closure1_slot8;
-            var7 = undefined;
-            var9 = var2.bind(var7)(var14, var19);
-            var3 = var14.type;
-            var2 = _closure1_slot7;
-            var2 = var2.CHAT_INPUT_COMMAND;
-            var23 = var3 === var2;
-            if(var23) { _fun0002_ip = 20; continue _fun0002 }
+            var3 = _closure1_slot8;
+            var5 = undefined;
+            var7 = var3.bind(var5)(var12, var18);
+            var4 = var12.type;
+            var3 = _closure1_slot7;
+            var3 = var3.CHAT_INPUT_COMMAND;
+            var22 = var4 === var3;
+            if(var22) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var3 = var14.type;
-            var2 = _closure1_slot7;
-            var2 = var2.INTERACTION_PREMIUM_UPSELL;
-            var23 = var3 === var2;
+            var4 = var12.type;
+            var3 = _closure1_slot7;
+            var3 = var3.INTERACTION_PREMIUM_UPSELL;
+            var22 = var4 === var3;
 case 20:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var16 = 8;
-            var2 = var10[var16];
-            var3 = var8.bind(var7)(var2);
-            var2 = var3.isPrimaryEntryPointCommandMessage;
-            var18 = var2.bind(var3)(var14);
-            var21 = 7;
-            var2 = var10[var21];
-            var6 = var8.bind(var7)(var2);
-            var3 = var6.getUserAuthor;
-            var2 = var14.interaction;
-            var2 = var2.user;
-            var2 = var3.bind(var6)(var2, var19);
-            var11 = var2.colorString;
-            var2 = var14.interaction;
-            var3 = var2.displayName;
-            var6 = _closure1_slot1;
-            var2 = 9;
-            var15 = var10[var2];
-            var15 = var6.bind(var7)(var15);
-            var17 = var15.internal;
-            var15 = var17.resolveSemanticColor;
-            var2 = var10[var2];
-            var2 = var6.bind(var7)(var2);
-            var2 = var2.colors;
-            var6 = var2.MENTION_BACKGROUND;
-            var2 = arg4;
-            var6 = var15.bind(var17)(var2, var6);
-            var2 = 10;
-            var2 = var10[var2];
-            var8 = var8.bind(var7)(var2);
-            var2 = var8.getInitialInteractionMetadata;
-            var2 = var2.bind(var8)(var14);
-            var8 = var12 == var2;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 8;
+            var3 = var8[var3];
+            var4 = var6.bind(var5)(var3);
+            var3 = var4.isPrimaryEntryPointCommandMessage;
+            var17 = var3.bind(var4)(var12);
+            var20 = 7;
+            var3 = var8[var20];
+            var9 = var6.bind(var5)(var3);
+            var4 = var9.getUserAuthor;
+            var3 = var12.interaction;
+            var3 = var3.user;
+            var3 = var4.bind(var9)(var3, var18);
+            var9 = var3.colorString;
+            var3 = var12.interaction;
+            var14 = var3.displayName;
+            var4 = _closure1_slot1;
+            var3 = 9;
+            var15 = var8[var3];
+            var15 = var4.bind(var5)(var15);
+            var16 = var15.internal;
+            var15 = var16.resolveSemanticColor;
+            var3 = var8[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.colors;
+            var4 = var3.MENTION_BACKGROUND;
+            var3 = arg4;
+            var4 = var15.bind(var16)(var3, var4);
+            var3 = 10;
+            var3 = var8[var3];
+            var6 = var6.bind(var5)(var3);
+            var3 = var6.getInitialInteractionMetadata;
+            var3 = var3.bind(var6)(var12);
+            var6 = var10 == var3;
             var15 = undefined;
-            if(var8) { _fun0002_ip = 22; continue _fun0002 }
+            if(var6) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-            var15 = var2.type;
+            var15 = var3.type;
 case 22:
-            var10 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var8 = 11;
-            var8 = var17[var8];
-            var8 = var10.bind(var7)(var8);
-            var8 = var8.InteractionTypes;
-            var10 = var8.APPLICATION_COMMAND;
-            var8 = null;
-            if(!(var15 === var10)) { _fun0002_ip = 24; continue _fun0002 }
+            var8 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var6 = 11;
+            var6 = var16[var6];
+            var6 = var8.bind(var5)(var6);
+            var6 = var6.InteractionTypes;
+            var8 = var6.APPLICATION_COMMAND;
+            var6 = null;
+            if(!(var15 === var8)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-            var10 = var2.target_user;
-            var10 = var12 != var10;
-            var8 = null;
-            if(!var10) { _fun0002_ip = 24; continue _fun0002 }
+            var8 = var3.target_user;
+            var8 = var10 != var8;
+            var6 = null;
+            if(!var8) { _fun0002_ip = 24; continue _fun0002 }
 case 26:
             var15 = _closure1_slot4;
-            var28 = var2.target_user;
-            var10 = var15.prototype;
-            var10 = Object.create(var10, {constructor: {value: var15}});
-            var29 = var10;
-            var2 = new var29[var15](var28, var27);
-            var8 = var2 instanceof Object ? var2 : var10;
+            var27 = var3.target_user;
+            var8 = var15.prototype;
+            var8 = Object.create(var8, {constructor: {value: var15}});
+            var28 = var8;
+            var3 = new var28[var15](var27, var26);
+            var6 = var3 instanceof Object ? var3 : var8;
 case 24:
-            var10 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var21];
-            var10 = var10.bind(var7)(var2);
-            var2 = var10.getUserAuthor;
-            var2 = var2.bind(var10)(var8, var19);
-            var17 = var2.colorString;
-            var2 = 'username';
-            var2 = var2 === var13;
-            var20 = var8;
-            var8 = var4;
-            if(!var2) { _fun0002_ip = 27; continue _fun0002 }
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var20];
+            var8 = var8.bind(var5)(var3);
+            var3 = var8.getUserAuthor;
+            var3 = var3.bind(var8)(var6, var18);
+            var16 = var3.colorString;
+            var3 = 'username';
+            var3 = var3 === var11;
+            var19 = var6;
+            var6 = var13;
+            if(!var3) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
             var15 = _closure1_slot3;
-            var22 = var12 != var17;
-            var10 = undefined;
-            if(!var22) { _fun0002_ip = 29; continue _fun0002 }
+            var21 = var10 != var16;
+            var8 = undefined;
+            if(!var21) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
-            var10 = var17;
+            var8 = var16;
 case 29:
-            var10 = var15.bind(var7)(var10);
-            var8 = var4;
-            if(!(var12 != var10)) { _fun0002_ip = 27; continue _fun0002 }
+            var8 = var15.bind(var5)(var8);
+            var6 = var13;
+            if(!(var10 != var8)) { _fun0002_ip = 27; continue _fun0002 }
 case 31:
-            var8 = var10;
+            var6 = var8;
 case 27:
-            var10 = var4;
-            if(!var2) { _fun0002_ip = 32; continue _fun0002 }
+            var8 = var13;
+            if(!var3) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
             var15 = _closure1_slot3;
-            var17 = var12 != var11;
-            var2 = undefined;
-            if(!var17) { _fun0002_ip = 34; continue _fun0002 }
+            var16 = var10 != var9;
+            var3 = undefined;
+            if(!var16) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-            var2 = var11;
+            var3 = var9;
 case 34:
-            var2 = var15.bind(var7)(var2);
-            var10 = var4;
-            if(!(var12 != var2)) { _fun0002_ip = 32; continue _fun0002 }
+            var3 = var15.bind(var5)(var3);
+            var8 = var13;
+            if(!(var10 != var3)) { _fun0002_ip = 32; continue _fun0002 }
 case 36:
-            var10 = var2;
+            var8 = var3;
 case 32:
-            var25 = {};
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var21];
-            var15 = var4.bind(var7)(var2);
-            var4 = var15.getUserAuthor;
-            var2 = var14.interaction;
-            var2 = var2.user;
-            var2 = var4.bind(var15)(var2, var19);
-            var2 = var2.nick;
-            var25['username'] = var2;
-            var2 = {'name': 'usernameOnClick', 'action': 'bindUserMenu'};
-            var4 = var14.interaction;
-            var4 = var4.user;
-            var4 = var4.id;
-            var2['userId'] = var4;
-            var4 = var14.channel_id;
-            var2['messageChannelId'] = var4;
-            var2['linkColor'] = var10;
-            var25['usernameOnClick'] = var2;
+            var24 = {};
+            var13 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var20];
+            var15 = var13.bind(var5)(var3);
+            var13 = var15.getUserAuthor;
+            var3 = var12.interaction;
+            var3 = var3.user;
+            var3 = var13.bind(var15)(var3, var18);
+            var3 = var3.nick;
+            var24['username'] = var3;
+            var3 = {'name': 'usernameOnClick', 'action': 'bindUserMenu'};
+            var13 = var12.interaction;
+            var13 = var13.user;
+            var13 = var13.id;
+            var3['userId'] = var13;
+            var13 = var12.channel_id;
+            var3['messageChannelId'] = var13;
+            var3['linkColor'] = var8;
+            var24['usernameOnClick'] = var3;
             if(!var1) { _fun0002_ip = 37; continue _fun0002 }
 case 38:
-            if(var18) { _fun0002_ip = 37; continue _fun0002 }
+            if(var17) { _fun0002_ip = 37; continue _fun0002 }
 case 39:
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var1 = 12;
-            var1 = var4[var1];
-            var2 = var2.bind(var7)(var1);
-            var1 = var2.isActivitiesInTextEnabled;
-            var2 = var1.bind(var2)(var19);
-            var4 = _closure1_slot0;
-            var22 = _closure1_slot2;
+            var1 = var13[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.isActivitiesInTextEnabled;
+            var3 = var1.bind(var3)(var18);
+            var13 = _closure1_slot0;
+            var21 = _closure1_slot2;
             var1 = 13;
-            var15 = var22[var1];
-            var15 = var4.bind(var7)(var15);
-            var17 = var15.intl;
-            var15 = var17.formatToParts;
-            var1 = var22[var1];
-            var1 = var4.bind(var7)(var1);
+            var15 = var21[var1];
+            var15 = var13.bind(var5)(var15);
+            var16 = var15.intl;
+            var15 = var16.formatToParts;
+            var1 = var21[var1];
+            var1 = var13.bind(var5)(var1);
             var1 = var1.t;
-            if(var2) { _fun0002_ip = 40; continue _fun0002 }
+            if(var3) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
-            var4 = var1.k964Wm;
-            var2 = {};
-            var28 = var2;
-            var27 = var25;
-            var22 = copyDataProperties(var28, var27);
-            var4 = var15.bind(var17)(var4, var2);
+            var13 = var1.k964Wm;
+            var3 = {};
+            var27 = var3;
+            var26 = var24;
+            var21 = copyDataProperties(var27, var26);
+            var3 = var15.bind(var16)(var13, var3);
             _fun0002_ip = 42; continue _fun0002;
 case 40:
-            var2 = var1.R/mrBi;
+            var13 = var1.R/mrBi;
             var1 = {};
-            var28 = var1;
-            var27 = var25;
-            var22 = copyDataProperties(var28, var27);
-            var24 = {};
-            var22 = 'bindTapActivityText';
-            var24['action'] = var22;
-            var22 = var14.author;
-            var22 = var22.id;
-            var24['applicationUserId'] = var22;
-            var22 = var14.channel_id;
-            var24['messageChannelId'] = var22;
-            var22 = 'activityTextOnClick';
-            var1[var22] = var24;
-            var4 = var15.bind(var17)(var2, var1);
+            var27 = var1;
+            var26 = var24;
+            var21 = copyDataProperties(var27, var26);
+            var23 = {};
+            var21 = 'bindTapActivityText';
+            var23['action'] = var21;
+            var21 = var12.author;
+            var21 = var21.id;
+            var23['applicationUserId'] = var21;
+            var21 = var12.channel_id;
+            var23['messageChannelId'] = var21;
+            var21 = 'activityTextOnClick';
+            var1[var21] = var23;
+            var3 = var15.bind(var16)(var13, var1);
 case 42:
             _fun0002_ip = 43; continue _fun0002;
 case 37:
-            var24 = var3;
-            if(!var18) { _fun0002_ip = 44; continue _fun0002 }
+            var23 = var14;
+            if(!var17) { _fun0002_ip = 44; continue _fun0002 }
 case 45:
-            var2 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var15 = _closure1_slot2;
             var1 = 14;
             var1 = var15[var1];
-            var2 = var2.bind(var7)(var1);
-            var1 = var2.formatPrimaryEntryPointCommandName;
-            var24 = var1.bind(var2)(var3);
+            var13 = var13.bind(var5)(var1);
+            var1 = var13.formatPrimaryEntryPointCommandName;
+            var23 = var1.bind(var13)(var14);
 case 44:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var1 = 13;
-            var15 = var2[var1];
-            var15 = var3.bind(var7)(var15);
-            var17 = var15.intl;
-            var15 = var17.formatToParts;
-            var2 = var2[var1];
-            var2 = var3.bind(var7)(var2);
-            var2 = var2.t;
-            var3 = var2.SSrolr;
-            var2 = {};
-            var28 = var2;
-            var27 = var25;
-            var22 = copyDataProperties(var28, var27);
-            var22 = 'commandName';
-            var2[var22] = var24;
-            if(!(var12 != var19)) { _fun0002_ip = 46; continue _fun0002 }
+            var15 = var13[var1];
+            var15 = var14.bind(var5)(var15);
+            var16 = var15.intl;
+            var15 = var16.formatToParts;
+            var13 = var13[var1];
+            var13 = var14.bind(var5)(var13);
+            var13 = var13.t;
+            var14 = var13.SSrolr;
+            var13 = {};
+            var27 = var13;
+            var26 = var24;
+            var21 = copyDataProperties(var27, var26);
+            var21 = 'commandName';
+            var13[var21] = var23;
+            if(!(var10 != var18)) { _fun0002_ip = 46; continue _fun0002 }
 case 47:
-            if(var23) { _fun0002_ip = 48; continue _fun0002 }
+            if(var22) { _fun0002_ip = 48; continue _fun0002 }
 case 49:
-            if(var18) { _fun0002_ip = 48; continue _fun0002 }
+            if(var17) { _fun0002_ip = 48; continue _fun0002 }
 case 46:
-            var18 = {};
+            var17 = {};
             _fun0002_ip = 50; continue _fun0002;
 case 48:
-            var23 = {'name': 'commandNameOnClick', 'action': 'bindTapCommandName'};
-            var26 = var14.interaction;
-            var26 = var26.user;
-            var26 = var26.id;
-            var23['userId'] = var26;
-            var26 = var14.id;
-            var23['messageId'] = var26;
-            var26 = var14.author;
-            var26 = var26.id;
-            var23['applicationUserId'] = var26;
-            var26 = var14.type;
-            var23['messageType'] = var26;
-            var26 = var14.channel_id;
-            var23['messageChannelId'] = var26;
-            var18 = var23;
+            var22 = {'name': 'commandNameOnClick', 'action': 'bindTapCommandName'};
+            var25 = var12.interaction;
+            var25 = var25.user;
+            var25 = var25.id;
+            var22['userId'] = var25;
+            var25 = var12.id;
+            var22['messageId'] = var25;
+            var25 = var12.author;
+            var25 = var25.id;
+            var22['applicationUserId'] = var25;
+            var25 = var12.type;
+            var22['messageType'] = var25;
+            var25 = var12.channel_id;
+            var22['messageChannelId'] = var25;
+            var17 = var22;
 case 50:
-            var23 = 'commandNameOnClick';
-            var2[var23] = var18;
-            var4 = var15.bind(var17)(var3, var2);
-            if(!(var12 != var20)) { _fun0002_ip = 43; continue _fun0002 }
+            var22 = 'commandNameOnClick';
+            var13[var22] = var17;
+            var3 = var15.bind(var16)(var14, var13);
+            if(!(var10 != var19)) { _fun0002_ip = 43; continue _fun0002 }
 case 51:
-            var18 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var2 = var17[var1];
-            var2 = var18.bind(var7)(var2);
-            var15 = var2.intl;
-            var3 = var15.formatToParts;
-            var1 = var17[var1];
-            var1 = var18.bind(var7)(var1);
+            var17 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var13 = var16[var1];
+            var13 = var17.bind(var5)(var13);
+            var15 = var13.intl;
+            var14 = var15.formatToParts;
+            var1 = var16[var1];
+            var1 = var17.bind(var5)(var1);
             var1 = var1.t;
-            var2 = var1.mqKdCM;
+            var13 = var1.mqKdCM;
             var1 = {};
-            var28 = var1;
-            var27 = var25;
-            var25 = copyDataProperties(var28, var27);
-            var1[var22] = var24;
-            var22 = {};
-            var1[var23] = var22;
-            var17 = var17[var21];
-            var18 = var18.bind(var7)(var17);
-            var17 = var18.getUserAuthor;
-            var17 = var17.bind(var18)(var20, var19);
-            var18 = var17.nick;
-            var17 = 'targetUsername';
-            var1[var17] = var18;
-            var18 = {'name': 'targetUsernameOnClick', 'action': 'bindUserMenu'};
-            var17 = 'targetUsernameOnClick';
-            var21 = var12 == var20;
-            var19 = undefined;
-            if(var21) { _fun0002_ip = 52; continue _fun0002 }
+            var27 = var1;
+            var26 = var24;
+            var24 = copyDataProperties(var27, var26);
+            var1[var21] = var23;
+            var21 = {};
+            var1[var22] = var21;
+            var16 = var16[var20];
+            var17 = var17.bind(var5)(var16);
+            var16 = var17.getUserAuthor;
+            var16 = var16.bind(var17)(var19, var18);
+            var17 = var16.nick;
+            var16 = 'targetUsername';
+            var1[var16] = var17;
+            var17 = {'name': 'targetUsernameOnClick', 'action': 'bindUserMenu'};
+            var16 = 'targetUsernameOnClick';
+            var20 = var10 == var19;
+            var18 = undefined;
+            if(var20) { _fun0002_ip = 52; continue _fun0002 }
 case 53:
-            var19 = var20.id;
+            var18 = var19.id;
 case 52:
-            var18['userId'] = var19;
-            var19 = var14.channel_id;
-            var18['messageChannelId'] = var19;
-            var18['linkColor'] = var8;
-            var1[var17] = var18;
-            var4 = var3.bind(var15)(var2, var1);
+            var17['userId'] = var18;
+            var18 = var12.channel_id;
+            var17['messageChannelId'] = var18;
+            var17['linkColor'] = var6;
+            var1[var16] = var17;
+            var3 = var14.bind(var15)(var13, var1);
 case 43:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 15;
-            var1 = var3[var1];
-            var1 = var2.bind(var7)(var1);
-            var17 = var1.ActivitiesControllerIconMobileExperiment;
-            var15 = var17.getCurrentConfig;
-            var2 = {};
-            var1 = 'ExecutedCommandNative';
-            var2['location'] = var1;
             var1 = {};
-            var3 = true;
-            var1['autoTrackExposure'] = var3;
-            var1 = var15.bind(var17)(var2, var1);
-            var2 = var1.enabled;
-            if(!var2) { _fun0002_ip = 54; continue _fun0002 }
+            var12 = var12.interaction;
+            var12 = var12.user;
+            var12 = var12.id;
+            var1['userId'] = var12;
+            var1['usernameColor'] = var8;
+            var12 = _closure1_slot3;
+            var13 = var10 != var9;
+            var8 = undefined;
+            if(!var13) { _fun0002_ip = 54; continue _fun0002 }
 case 55:
-            var15 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var16];
-            var15 = var15.bind(var7)(var1);
-            var1 = var15.isPrimaryEntryPointCommandMessage;
-            var2 = var1.bind(var15)(var14);
+            var8 = var9;
 case 54:
-            var1 = {};
-            var14 = var14.interaction;
-            var14 = var14.user;
-            var14 = var14.id;
-            var1['userId'] = var14;
-            var1['usernameColor'] = var10;
-            var14 = _closure1_slot3;
-            var15 = var12 != var11;
-            var10 = undefined;
-            if(!var15) { _fun0002_ip = 56; continue _fun0002 }
+            var12 = var12.bind(var5)(var8);
+            var13 = var10 != var12;
+            var8 = null;
+            if(!var13) { _fun0002_ip = 56; continue _fun0002 }
 case 57:
-            var10 = var11;
+            var8 = var12;
 case 56:
-            var14 = var14.bind(var7)(var10);
-            var15 = var12 != var14;
-            var10 = null;
-            if(!var15) { _fun0002_ip = 58; continue _fun0002 }
+            var1['roleColor'] = var8;
+            var8 = 'dot';
+            var8 = var8 === var11;
+            if(!var8) { _fun0002_ip = 58; continue _fun0002 }
 case 59:
-            var10 = var14;
+            var8 = var10 != var9;
 case 58:
-            var1['roleColor'] = var10;
-            var10 = 'dot';
-            var10 = var10 === var13;
-            if(!var10) { _fun0002_ip = 60; continue _fun0002 }
-case 61:
-            var10 = var12 != var11;
-case 60:
-            var1['shouldShowRoleDot'] = var10;
-            var1['avatarURL'] = var9;
-            var1['targetUsernameColor'] = var8;
-            var1['content'] = var4;
-            var4 = {'color': null, 'borderRadius': 4, 'spaceAround': true};
-            var5 = _closure1_slot3;
-            var5 = var5.bind(var7)(var6);
-            var4['color'] = var5;
-            var1['commandNameBackgroundStyles'] = var4;
-            var1['showAppsIcon'] = var3;
-            var1['showControllerIcon'] = var2;
+            var1['shouldShowRoleDot'] = var8;
+            var1['avatarURL'] = var7;
+            var1['targetUsernameColor'] = var6;
+            var1['content'] = var3;
+            var3 = {'color': null, 'borderRadius': 4, 'spaceAround': true};
+            var2 = _closure1_slot3;
+            var2 = var2.bind(var5)(var4);
+            var3['color'] = var2;
+            var2 = true;
+            var1['commandNameBackgroundStyles'] = var3;
+            var1['showAppsIcon'] = var2;
             return var1;
         }
     };

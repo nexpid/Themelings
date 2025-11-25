@@ -7678,31 +7678,6 @@ case 114:
                     }
                 };
                 var1['scrollToTop'] = var4;
-                var4 = function scrollToRelativeOffset(arg1) {
-                    _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
-case 0:
-                        var6 = arguments[1];
-                        var3 = undefined;
-                        if(!(var6 === var3)) { _fun0038_ip = 114; continue _fun0038 }
-case 115:
-                        var6 = true;
-case 114:
-                        var2 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var1 = 83;
-                        var1 = var4[var1];
-                        var5 = var2.bind(var3)(var1);
-                        var4 = var5.scrollToRelativeOffset;
-                        var10 = _closure2_slot102;
-                        var9 = _closure2_slot57;
-                        var8 = arg1;
-                        var11 = var5;
-                        var7 = var6;
-                        var1 = var11[var4](var10, var9, var8, var7, var6);
-                        return var1;
-                    }
-                };
-                var1['scrollToRelativeOffset'] = var4;
                 var4 = function scrollToTopMessage() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -7748,7 +7723,7 @@ case 114:
                 };
                 var1['jumpToPresent'] = var4;
                 var4 = function scrollToNewMessages() {
-                    _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+                    _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
 case 0:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -7771,7 +7746,7 @@ case 0:
                         var6 = _closure2_slot45;
                         var5 = null;
                         var6 = var5 != var6;
-                        if(!var6) { _fun0039_ip = 11; continue _fun0039 }
+                        if(!var6) { _fun0038_ip = 11; continue _fun0038 }
 case 166:
                         var5 = _closure2_slot45;
 case 11:
@@ -7838,11 +7813,11 @@ case 11:
             var15 = _closure1_slot3;
             var13 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
+                    _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0040_ip = 123; continue _fun0040 }
+                        if(var2) { _fun0039_ip = 123; continue _fun0039 }
 case 921:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -7864,11 +7839,11 @@ case 921:
                         var7 = _closure2_slot119;
                         var2['findMessageIndex'] = var7;
                         var7 = function scrollToTop() {
-                            _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
+                            _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
 case 0:
                                 var5 = arguments[0];
                                 var3 = undefined;
-                                if(!(var5 === var3)) { _fun0041_ip = 114; continue _fun0041 }
+                                if(!(var5 === var3)) { _fun0040_ip = 114; continue _fun0040 }
 case 115:
                                 var5 = true;
 case 114:
@@ -7893,7 +7868,7 @@ case 922:
                         return var2;
 case 923:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0040_ip = 924; continue _fun0040 }
+                        if(var4) { _fun0039_ip = 924; continue _fun0039 }
 case 925:
                         return var3;
 case 924:
@@ -7986,7 +7961,7 @@ case 123:
             var3[4] = var8;
             var3[5] = var7;
             var2 = function(arg1) {
-                _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
+                _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
@@ -7996,19 +7971,19 @@ case 0:
                     var4 = var1.lastVisibleMessagePercentVisible;
                     var2 = null;
                     var1 = var2 != var7;
-                    if(!var1) { _fun0042_ip = 2; continue _fun0042 }
+                    if(!var1) { _fun0041_ip = 2; continue _fun0041 }
 case 56:
                     var1 = var2 != var6;
 case 2:
-                    if(!var1) { _fun0042_ip = 90; continue _fun0042 }
+                    if(!var1) { _fun0041_ip = 90; continue _fun0041 }
 case 5:
                     var1 = var2 != var5;
 case 90:
-                    if(!var1) { _fun0042_ip = 83; continue _fun0042 }
+                    if(!var1) { _fun0041_ip = 83; continue _fun0041 }
 case 28:
                     var1 = var2 != var4;
 case 83:
-                    if(!var1) { _fun0042_ip = 376; continue _fun0042 }
+                    if(!var1) { _fun0041_ip = 376; continue _fun0041 }
 case 86:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -8087,7 +8062,7 @@ case 376:
             var2[4] = var8;
             var2[5] = var7;
             var1 = function(arg1) {
-                _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
+                _fun0042: for(var _fun0042_ip = 0; ; ) switch(_fun0042_ip) {
 case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
@@ -8097,19 +8072,19 @@ case 0:
                     var4 = var1.lastVisibleMessagePercentVisible;
                     var2 = null;
                     var1 = var2 != var7;
-                    if(!var1) { _fun0043_ip = 2; continue _fun0043 }
+                    if(!var1) { _fun0042_ip = 2; continue _fun0042 }
 case 56:
                     var1 = var2 != var6;
 case 2:
-                    if(!var1) { _fun0043_ip = 90; continue _fun0043 }
+                    if(!var1) { _fun0042_ip = 90; continue _fun0042 }
 case 5:
                     var1 = var2 != var5;
 case 90:
-                    if(!var1) { _fun0043_ip = 83; continue _fun0043 }
+                    if(!var1) { _fun0042_ip = 83; continue _fun0042 }
 case 28:
                     var1 = var2 != var4;
 case 83:
-                    if(!var1) { _fun0043_ip = 376; continue _fun0043 }
+                    if(!var1) { _fun0042_ip = 376; continue _fun0042 }
 case 86:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
