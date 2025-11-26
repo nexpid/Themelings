@@ -252,7 +252,7 @@ case 9:
             if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var3 = _closure1_slot5;
-            var2 = var3.getPremiumTypeSubscription;
+            var2 = var3.getPremiumGroupSubscription;
             var2 = var2.bind(var3)();
             var3 = var1 == var2;
             var20 = null;

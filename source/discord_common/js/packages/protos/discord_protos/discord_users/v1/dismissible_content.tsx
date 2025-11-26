@@ -1870,6 +1870,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DISPLAY_NAME_STYLES_MOBILE_PROFILE_TOOLTIP'] = var2;
     var1 = 'DISPLAY_NAME_STYLES_MOBILE_PROFILE_TOOLTIP';
     var4[var2] = var1;
+    var2 = 654;
+    var4['CHECKPOINT_2025_DESKTOP_UPSELL'] = var2;
+    var1 = 'CHECKPOINT_2025_DESKTOP_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -121,7 +121,7 @@ case 20:
 case 23:
             var4 = var2.push;
             var3 = _closure1_slot2;
-            var3 = var3.MOBILE;
+            var3 = var3.VR;
             var3 = var4.bind(var2)(var3);
             var1 = var2;
             _fun0001_ip = 22; continue _fun0001;
@@ -164,6 +164,8 @@ case 22:
     var6['PLAYSTATION'] = var5;
     var5 = 'xbox';
     var6['XBOX'] = var5;
+    var5 = 'vr';
+    var6['VR'] = var5;
     var _closure1_slot2 = var6;
     var5 = {};
     var11 = var7.DESKTOP;
@@ -190,7 +192,7 @@ case 22:
     var10 = var7.EMBEDDED;
     var5[var10] = var11;
     var10 = var7.META_QUEST;
-    var7 = var6.MOBILE;
+    var7 = var6.VR;
     var5[var10] = var7;
     var7 = new Array(0);
     var _closure1_slot3 = var7;

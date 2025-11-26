@@ -133,39 +133,55 @@ case 0:
             var2 = var3.bind(var5)(var2);
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var11 = 10;
-            var2 = var2[var11];
-            var8 = var3.bind(var1)(var2);
-            var5 = var8.disambiguatedEmojiFromProtoValue;
             var2 = _closure1_slot3;
             var2 = var2.settings;
-            var12 = var2.textAndImages;
-            var2 = null;
-            var13 = var2 == var12;
-            var3 = undefined;
-            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+            var2 = var2.textAndImages;
+            var3 = null;
+            var5 = var3 == var2;
+            var12 = undefined;
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = var12.defaultReactionEmoji;
+            var12 = var2.defaultReactionEmoji;
 case 4:
-            if(!(var2 == var3)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var3 == var12)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var3 = {};
+            var12 = {};
 case 6:
-            var8 = var5.bind(var8)(var3);
-            var2 = var2 != var8;
-            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+            var2 = var12.disableDoubleTap;
+            var8 = var3 == var2;
+            var5 = undefined;
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var5 = var2.value;
+case 8:
+            var2 = var3 != var5;
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var2 = var5;
+case 10:
+            var8 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var11 = 10;
+            var5 = var5[var11];
+            var8 = var8.bind(var1)(var5);
+            var5 = var8.disambiguatedEmojiFromProtoValue;
+            var8 = var5.bind(var8)(var12);
+            var2 = !var2;
+            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var2 = var3 != var8;
+case 12:
+            if(!var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var11];
             var5 = var5.bind(var1)(var3);
             var3 = var5.areEmojisEqual;
             var2 = var3.bind(var5)(var8, var10);
-case 8:
+case 14:
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 10:
+case 16:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var3 = 11;

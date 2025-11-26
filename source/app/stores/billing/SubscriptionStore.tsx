@@ -303,7 +303,7 @@ case 28:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(18);
+        var1 = new Array(19);
         var1[0] = var5;
         var5 = {};
         var7 = 'hasFetchedSubscriptions';
@@ -608,12 +608,31 @@ case 43:
         var5 = {};
         var7 = 'getLastLazyPerkSync';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot22;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[17] = var5;
+        var5 = {};
+        var7 = 'getPremiumGroupSubscription';
+        var5['key'] = var7;
+        var6 = function value() {
+            var5 = _closure1_slot26;
+            var1 = _closure1_slot9;
+            var4 = var1.PREMIUM;
+            var3 = undefined;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.hasAnyPremiumGroup;
+                return var1;
+            };
+            var1 = true;
+            var1 = var5.bind(var3)(var4, var2, var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[18] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

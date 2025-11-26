@@ -346,7 +346,7 @@ case 20:
             }
         };
         var6['value'] = var2;
-        var2 = new Array(25);
+        var2 = new Array(26);
         var2[0] = var6;
         var6 = {};
         var7 = 'isPremium';
@@ -851,6 +851,26 @@ case 44:
         var6['get'] = var7;
         var2[23] = var6;
         var6 = {};
+        var7 = 'hasAnyPremiumGroup';
+        var6['key'] = var7;
+        var7 = function get() {
+            var1 = this;
+            var3 = var1.items;
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.planId;
+                var1 = _closure1_slot19;
+                var1 = var1.PREMIUM_GROUP_MONTH;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var6['get'] = var7;
+        var2[24] = var6;
+        var6 = {};
         var7 = 'hasPremiumAtLeast';
         var6['key'] = var7;
         var7 = function value(arg1) {
@@ -889,7 +909,7 @@ case 32:
             }
         };
         var6['value'] = var7;
-        var2[24] = var6;
+        var2[25] = var6;
         var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;

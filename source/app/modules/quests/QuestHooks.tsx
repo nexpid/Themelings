@@ -5193,7 +5193,7 @@ case 316:
         var1 = 19;
         var1 = var6[var1];
         var5 = var5.bind(var4)(var1);
-        var4 = var5.getPlayActivityApplicationId;
+        var4 = var5.getActivityApplicationId;
         var1 = arg1;
         var6 = var4.bind(var5)(var1);
         var _closure2_slot1 = var6;

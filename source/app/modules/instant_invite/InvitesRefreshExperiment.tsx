@@ -88,23 +88,38 @@ case 6:
     };
     var3['getInvitesRefresh'] = var4;
     var2 = function useInvitesRefresh(arg1) {
-        var1 = arg1;
-        var4 = var1.location;
-        var3 = _closure1_slot0;
-        var2 = var3.useExperiment;
-        var1 = {};
-        var1['location'] = var4;
-        var2 = var2.bind(var3)(var1);
-        var1 = {};
-        var3 = var2.isVoiceChannelEntrypointEnabled;
-        var1['isVoiceChannelEntrypointEnabled'] = var3;
-        var3 = var2.isInCallEntrypointEnabled;
-        var1['isInCallEntrypointEnabled'] = var3;
-        var3 = var2.isGuildEntrypointEnabled;
-        var1['isGuildEntrypointEnabled'] = var3;
-        var2 = var2.isTextChannelEntrypointEnabled;
-        var1['isTextChannelEntrypointEnabled'] = var2;
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.location;
+            var3 = _closure1_slot0;
+            var2 = var3.useExperiment;
+            var1 = {};
+            var1['location'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.isVoiceChannelEntrypointEnabled;
+            var4 = var1.isInCallEntrypointEnabled;
+            var3 = var1.isGuildEntrypointEnabled;
+            var1 = var1.isTextChannelEntrypointEnabled;
+            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+            var2 = var4;
+case 2:
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var2 = var3;
+case 4:
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var2 = var1;
+case 6:
+            var1 = {};
+            var1['isVoiceChannelEntrypointEnabled'] = var2;
+            var1['isInCallEntrypointEnabled'] = var2;
+            var1['isGuildEntrypointEnabled'] = var2;
+            var1['isTextChannelEntrypointEnabled'] = var2;
+            return var1;
+        }
     };
     var3['useInvitesRefresh'] = var2;
     return var1;

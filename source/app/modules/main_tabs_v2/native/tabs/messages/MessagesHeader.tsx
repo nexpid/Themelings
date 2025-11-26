@@ -248,7 +248,7 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0004_ip = 7; continue _fun0004 }
+                if(!(var2 != var5)) { _fun0004_ip = 6; continue _fun0004 }
 case 5:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -261,7 +261,7 @@ case 5:
                 var6 = var6.DMS;
                 var2['type'] = var6;
                 var2 = var3.bind(var4)(var5, var2);
-case 7:
+case 6:
                 return var1;
             }
         };
@@ -279,8 +279,8 @@ case 0:
                 var5 = _closure1_slot6;
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                if(var1) { _fun0005_ip = 8; continue _fun0005 }
-case 9:
+                if(var1) { _fun0005_ip = 7; continue _fun0005 }
+case 8:
                 var1 = 16;
                 var1 = var10[var1];
                 var3 = undefined;
@@ -310,8 +310,8 @@ case 9:
                 var4 = var7.bind(var8)(var4);
                 var1['accessibilityLabel'] = var4;
                 var1 = var5.bind(var3)(var2, var1);
-                _fun0005_ip = 10; continue _fun0005;
-case 8:
+                _fun0005_ip = 9; continue _fun0005;
+case 7:
                 var2 = 13;
                 var2 = var10[var2];
                 var4 = undefined;
@@ -341,7 +341,7 @@ case 8:
                 var6 = var7.bind(var8)(var6);
                 var2['text'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
-case 10:
+case 9:
                 return var1;
             }
         };
@@ -357,8 +357,8 @@ case 0:
                 var5 = _closure1_slot6;
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                if(var1) { _fun0006_ip = 11; continue _fun0006 }
-case 9:
+                if(var1) { _fun0006_ip = 10; continue _fun0006 }
+case 8:
                 var1 = 13;
                 var1 = var10[var1];
                 var3 = undefined;
@@ -388,8 +388,8 @@ case 9:
                 var4 = var7.bind(var8)(var4);
                 var1['text'] = var4;
                 var1 = var5.bind(var3)(var2, var1);
-                _fun0006_ip = 12; continue _fun0006;
-case 11:
+                _fun0006_ip = 11; continue _fun0006;
+case 10:
                 var2 = 16;
                 var2 = var10[var2];
                 var4 = undefined;
@@ -419,7 +419,7 @@ case 11:
                 var6 = var7.bind(var8)(var6);
                 var2['accessibilityLabel'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
-case 12:
+case 11:
                 return var1;
             }
         };

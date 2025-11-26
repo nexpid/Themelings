@@ -48,6 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SpeakingWhileMuted'] = var1;
     var1 = 'mute';
     var2['Mute'] = var1;
+    var1 = 'deafen';
+    var2['Deafen'] = var1;
     var1 = 'toggle-mute';
     var2['ToggleMuteFromNative'] = var1;
     var1 = 'native-mute-changed';

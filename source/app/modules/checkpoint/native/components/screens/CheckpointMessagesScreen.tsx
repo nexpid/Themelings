@@ -84,11 +84,11 @@ case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var13 = var1.bind(var4)();
-            var24 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 7;
-            var1 = var11[var1];
-            var5 = var24.bind(var4)(var1);
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
             var3 = var5.useStateFromStores;
             var1 = _closure1_slot5;
             var2 = new Array(1);
@@ -101,12 +101,23 @@ case 0:
             };
             var1 = var3.bind(var5)(var2, var1);
             var1 = var1.messages;
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = {'numMessagesSent': 0, 'numMessagesSentPercentile': 0};
+            var5 = 0;
+            var3 = {};
+            var3['month'] = var5;
+            var2['topMonth'] = var3;
+            var1 = var2;
+case 2:
             var17 = var1.numMessagesSent;
             var20 = var1.numMessagesSentPercentile;
             var1 = var1.topMonth;
             var5 = var1.month;
             var3 = _closure1_slot3;
             var2 = var3.useContext;
+            var24 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var1 = 8;
             var1 = var11[var1];
             var1 = var24.bind(var4)(var1);
@@ -210,8 +221,8 @@ case 0:
             var11 = 'heading-lg/medium';
             var9['variant'] = var11;
             var11 = null;
-            if(!(var11 == var20)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var11 == var20)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = _closure1_slot0;
             var11 = _closure1_slot2;
             var14 = var11[var15];
@@ -241,8 +252,8 @@ case 3:
             };
             var11['monthHook'] = var21;
             var11 = var16.bind(var17)(var14, var11);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var16 = _closure1_slot0;
             var14 = _closure1_slot2;
             var15 = var14[var15];
@@ -276,7 +287,7 @@ case 2:
             };
             var14['percentHook'] = var18;
             var11 = var16.bind(var17)(var15, var14);
-case 4:
+case 6:
             var9['children'] = var11;
             var9 = var3.bind(var4)(var10, var9);
             var8[3] = var9;

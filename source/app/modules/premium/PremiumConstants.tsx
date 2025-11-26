@@ -174,6 +174,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var83['PREMIUM_MONTH_LEGACY'] = var2;
     var2 = '511651860671627264';
     var83['PREMIUM_YEAR_LEGACY'] = var2;
+    var2 = '1432523012455792640';
+    var83['PREMIUM_GROUP_MONTH'] = var2;
     var6 = var4.Set;
     var5 = var83.PREMIUM_MONTH_TIER_0;
     var2 = new Array(10);
@@ -576,6 +578,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var88.LEGACY;
     var9['skuId'] = var12;
     var12 = var74.YEAR;
+    var9['interval'] = var12;
+    var9['intervalCount'] = var10;
+    var5[var11] = var9;
+    var11 = var83.PREMIUM_GROUP_MONTH;
+    var9 = {};
+    var12 = var83.PREMIUM_GROUP_MONTH;
+    var9['id'] = var12;
+    var12 = 'Nitro Squad Monthly';
+    var9['name'] = var12;
+    var12 = var88.TIER_2;
+    var9['skuId'] = var12;
+    var12 = var74.MONTH;
     var9['interval'] = var12;
     var9['intervalCount'] = var10;
     var5[var11] = var9;

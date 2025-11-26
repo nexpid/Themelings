@@ -125,42 +125,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function DoubleTapEmojiEditNudge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var6 = var2.location;
-            var _closure2_slot0 = var6;
+            var1 = arg1;
+            var7 = var1.location;
+            var _closure2_slot0 = var7;
             var3 = _closure1_slot7;
             var5 = undefined;
-            var2 = function(arg1) {
+            var1 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.fontScale;
                 return var1;
             };
-            var9 = var3.bind(var5)(var2);
+            var9 = var3.bind(var5)(var1);
             var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 11;
-            var2 = var7[var3];
-            var11 = var4.bind(var5)(var2);
+            var6 = _closure1_slot2;
+            var1 = 11;
+            var3 = var6[var1];
+            var11 = var4.bind(var5)(var3);
             var10 = var11.useStateFromStores;
-            var2 = _closure1_slot6;
+            var3 = _closure1_slot6;
             var8 = new Array(1);
-            var8[0] = var2;
-            var2 = function() {
+            var8[0] = var3;
+            var3 = function() {
                 var1 = _closure1_slot6;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var2 = var10.bind(var11)(var8, var2);
-            var _closure2_slot1 = var2;
+            var3 = var10.bind(var11)(var8, var3);
+            var _closure2_slot1 = var3;
             var8 = _closure1_slot15;
             var11 = var8.bind(var5)(var9);
-            var3 = var7[var3];
-            var8 = var4.bind(var5)(var3);
-            var7 = var8.useStateFromStoresObject;
-            var3 = _closure1_slot8;
+            var1 = var6[var1];
+            var8 = var4.bind(var5)(var1);
+            var6 = var8.useStateFromStoresObject;
+            var1 = _closure1_slot8;
             var4 = new Array(1);
-            var4[0] = var3;
-            var3 = function() {
+            var4[0] = var1;
+            var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure1_slot8;
@@ -180,13 +180,13 @@ case 4:
                     return var1;
                 }
             };
-            var3 = var7.bind(var8)(var4, var3);
-            var _closure2_slot2 = var3;
-            var4 = _closure1_slot4;
-            var8 = var4.useMemo;
-            var7 = new Array(1);
-            var7[0] = var3;
-            var3 = function() {
+            var1 = var6.bind(var8)(var4, var1);
+            var _closure2_slot2 = var1;
+            var6 = _closure1_slot4;
+            var9 = var6.useMemo;
+            var8 = new Array(1);
+            var8[0] = var1;
+            var4 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 12;
@@ -198,13 +198,13 @@ case 4:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var8.bind(var4)(var3, var7);
+            var15 = var9.bind(var6)(var4, var8);
             var _closure2_slot3 = var15;
-            var7 = var4.useMemo;
-            var3 = new Array(2);
-            var3[0] = var15;
-            var3[1] = var2;
-            var2 = function() {
+            var8 = var6.useMemo;
+            var4 = new Array(2);
+            var4[0] = var15;
+            var4[1] = var3;
+            var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -248,11 +248,11 @@ case 9:
                     return var1;
                 }
             };
-            var12 = var7.bind(var4)(var2, var3);
-            var3 = var4.useCallback;
-            var2 = new Array(1);
-            var2[0] = var6;
-            var1 = function() {
+            var12 = var8.bind(var6)(var3, var4);
+            var4 = var6.useCallback;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var2 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 14;
@@ -279,22 +279,22 @@ case 7:
                             var2 = 15;
                             var2 = var6[var2];
                             var3 = undefined;
-                            var9 = var5.bind(var3)(var2);
-                            var8 = var9.track;
+                            var10 = var5.bind(var3)(var2);
+                            var9 = var10.track;
                             var2 = _closure1_slot9;
                             var5 = var2.DOUBLE_TAP_REACT_EMOJI_UPDATED;
                             var2 = {};
-                            var10 = var7.id;
-                            var2['emoji_id'] = var10;
-                            var10 = var7.name;
-                            var2['emoji_name'] = var10;
-                            var10 = var7.animated;
-                            var2['emoji_animated'] = var10;
-                            var10 = false;
-                            var2['recommended'] = var10;
-                            var10 = _closure2_slot0;
-                            var2['location'] = var10;
-                            var2 = var8.bind(var9)(var5, var2);
+                            var8 = var7.id;
+                            var2['emoji_id'] = var8;
+                            var8 = var7.name;
+                            var2['emoji_name'] = var8;
+                            var8 = var7.animated;
+                            var2['emoji_animated'] = var8;
+                            var8 = false;
+                            var2['recommended'] = var8;
+                            var11 = _closure2_slot0;
+                            var2['location'] = var11;
+                            var2 = var9.bind(var10)(var5, var2);
                             var5 = _closure1_slot0;
                             var2 = 16;
                             var2 = var6[var2];
@@ -302,14 +302,15 @@ case 7:
                             var6 = var2.DoubleTapReactionEmoji;
                             var5 = var6.updateSetting;
                             var2 = {};
-                            var8 = var7.id;
-                            var2['emojiId'] = var8;
-                            var8 = var7.name;
-                            var2['emojiName'] = var8;
-                            var8 = var7.animated;
-                            var2['animated'] = var8;
+                            var9 = var7.id;
+                            var2['emojiId'] = var9;
+                            var9 = var7.name;
+                            var2['emojiName'] = var9;
+                            var9 = var7.animated;
+                            var2['animated'] = var9;
+                            var2['disableDoubleTap'] = var8;
                             var2 = var5.bind(var6)(var2);
-                            SaveGenerator(address=180);
+                            SaveGenerator(address=185);
 case 13:
                             return var2;
 case 14:
@@ -353,12 +354,23 @@ case 12:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var14 = var3.bind(var4)(var1, var2);
+            var14 = var4.bind(var6)(var2, var3);
+            var1 = var1.disableDoubleTap;
             var17 = null;
-            var2 = var17 == var15;
-            var1 = null;
+            var2 = var17 == var1;
+            var3 = undefined;
             if(var2) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
+            var3 = var1.value;
+case 17:
+            var2 = true;
+            var1 = null;
+            if(!(var2 !== var3)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var2 = var17 == var15;
+            var1 = null;
+            if(var2) { _fun0001_ip = 19; continue _fun0001 }
+case 21:
             var4 = _closure1_slot13;
             var3 = _closure1_slot5;
             var2 = {};
@@ -401,10 +413,10 @@ case 18:
             var12 = var15.id;
             var17 = var17 == var12;
             var12 = '';
-            if(!var17) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!var17) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var12 = var15.surrogates;
-case 19:
+case 22:
             var7['name'] = var12;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
@@ -441,7 +453,7 @@ case 19:
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 17:
+case 19:
             return var1;
         }
     };

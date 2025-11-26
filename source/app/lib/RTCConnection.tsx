@@ -4313,16 +4313,19 @@ case 239:
                     var9 = var5._secureFramesTransitionExecuteCount;
                     var8 = 'secure_frames_transition_execute_count';
                     var3[var8] = var9;
-                    var4 = var4.modeOptions;
-                    var8 = var4.vadUseKrisp;
-                    var4 = 'vad_use_advanced_voice_activity';
-                    var3[var4] = var8;
-                    var4 = var10.getExperimentalSoundshare;
-                    var8 = var4.bind(var10)();
-                    var4 = 'soundshare_experimental';
-                    var3[var4] = var8;
-                    var8 = var5.joinVoiceId;
-                    var4 = 'join_voice_id';
+                    var8 = var4.modeOptions;
+                    var9 = var8.vadUseKrisp;
+                    var8 = 'vad_use_advanced_voice_activity';
+                    var3[var8] = var9;
+                    var8 = var10.getExperimentalSoundshare;
+                    var9 = var8.bind(var10)();
+                    var8 = 'soundshare_experimental';
+                    var3[var8] = var9;
+                    var9 = var5.joinVoiceId;
+                    var8 = 'join_voice_id';
+                    var3[var8] = var9;
+                    var8 = var4.bypassSystemInputProcessing;
+                    var4 = 'bypass_system_input_processing';
                     var3[var4] = var8;
                     var _closure3_slot5 = var3;
                     var3 = function() {
@@ -5269,15 +5272,18 @@ case 292:
                             var5 = new var19[var11](var18, var17, var16);
                             var5 = var5 instanceof Object ? var5 : var8;
                             var2['_voiceDuration'] = var5;
-                            var11 = var2._voiceDuration;
-                            var9 = var11.start;
+                            var12 = var2._voiceDuration;
+                            var11 = var12.start;
                             var8 = _closure3_slot4;
                             var5 = var8.getSelfMute;
+                            var9 = var5.bind(var8)();
+                            var8 = _closure3_slot4;
+                            var5 = var8.getSelfDeaf;
                             var8 = var5.bind(var8)();
-                            var12 = _closure3_slot4;
-                            var5 = var12.getVoiceFilterId;
-                            var5 = var5.bind(var12)();
-                            var5 = var9.bind(var11)(var8, var5);
+                            var13 = _closure3_slot4;
+                            var5 = var13.getVoiceFilterId;
+                            var5 = var5.bind(var13)();
+                            var5 = var11.bind(var12)(var9, var8, var5);
                             var2['protocol'] = var7;
                             var2 = 'udp';
                             if(!(var2 !== var7)) { _fun0068_ip = 294; continue _fun0068 }
@@ -5621,33 +5627,33 @@ case 310:
                             var6 = var3.state;
                             var3 = _closure1_slot22;
                             var3 = var3.RTC_CONNECTED;
-                            if(!(var6 !== var3)) { _fun0071_ip = 314; continue _fun0071 }
+                            if(!(var6 !== var3)) { _fun0071_ip = 296; continue _fun0071 }
 case 129:
                             var3 = _closure1_slot22;
                             var3 = var3.RTC_CONNECTED;
                             if(!(var5 === var3)) { _fun0071_ip = 300; continue _fun0071 }
-case 315:
+case 314:
                             var3 = _closure3_slot0;
                             var6 = var3.stateHistory;
                             var5 = var6.reset;
                             var3 = var3.state;
                             var3 = var5.bind(var6)(var3);
                             _fun0071_ip = 300; continue _fun0071;
-case 314:
+case 296:
                             var5 = _closure1_slot18;
                             var3 = var5.shouldIncludePreferredRegion;
                             var5 = var3.bind(var5)();
                             var3 = null;
                             var15 = null;
-                            if(!var5) { _fun0071_ip = 316; continue _fun0071 }
-case 317:
+                            if(!var5) { _fun0071_ip = 315; continue _fun0071 }
+case 316:
                             var6 = _closure1_slot18;
                             var5 = var6.getPreferredRegion;
                             var15 = var5.bind(var6)();
-case 316:
+case 315:
                             var5 = _closure3_slot0;
                             var5 = var5._connecting;
-                            if(!var5) { _fun0071_ip = 318; continue _fun0071 }
+                            if(!var5) { _fun0071_ip = 317; continue _fun0071 }
 case 54:
                             var6 = _closure1_slot15;
                             var5 = var6.getSettings;
@@ -5687,11 +5693,11 @@ case 54:
                             var13 = var13.bind(var15)();
                             var8 = var8._connected;
                             var15 = _closure3_slot0;
-                            if(var8) { _fun0071_ip = 319; continue _fun0071 }
-case 298:
+                            if(var8) { _fun0071_ip = 318; continue _fun0071 }
+case 319:
                             var8 = var15._createdTime;
                             _fun0071_ip = 320; continue _fun0071;
-case 319:
+case 318:
                             var8 = var15._connectStartTime;
 case 320:
                             var13 = var13 - var8;
@@ -5897,7 +5903,7 @@ case 344:
                             var8 = var10.bind(var11)(var9, var8);
                             var4['rtc_connecting_native_crypto_modes'] = var8;
                             var4 = var6.bind(var7)(var5, var4);
-case 318:
+case 317:
                             var4 = _closure3_slot0;
                             var6 = var4._localMediaSinkWantsManager;
                             if(!(var3 != var6)) { _fun0071_ip = 345; continue _fun0071 }

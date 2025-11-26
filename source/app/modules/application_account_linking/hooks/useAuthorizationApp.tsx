@@ -1,4 +1,4 @@
-// app/modules/application_account_linking/hooks/useSlayerApp.tsx
+// app/modules/application_account_linking/hooks/useAuthorizationApp.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -181,117 +181,59 @@ case 35:
         }
     };
     var _closure1_slot6 = var1;
-    var4 = function getSlayerApp(arg1) {
+    var4 = function getAuthorizationApp(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
             var1 = null;
             if(!(var1 != var2)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var11 = 3;
-            var3 = var3[var11];
-            var10 = undefined;
-            var6 = var4.bind(var10)(var3);
-            var5 = var6.hasFlag;
-            var3 = var2.flags;
-            var7 = var1 != var3;
-            var4 = 0;
-            if(!var7) { _fun0004_ip = 38; continue _fun0004 }
+            var4 = var2.type;
+            var3 = _closure1_slot4;
+            var3 = var3.GAME;
+            if(!(var4 === var3)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var4 = var3;
-case 38:
-            var3 = _closure1_slot4;
-            var3 = var3.SOCIAL_LAYER_INTEGRATION;
-            var3 = var5.bind(var6)(var4, var3);
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var11];
-            var6 = var4.bind(var10)(var3);
-            var5 = var6.hasFlag;
-            var3 = var2.flags;
-            var7 = var1 != var3;
-            var4 = 0;
-            if(!var7) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var4 = var3;
-case 42:
-            var3 = _closure1_slot4;
-            var3 = var3.SOCIAL_LAYER_INTEGRATION_LIMITED;
-            var3 = var5.bind(var6)(var4, var3);
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 44:
             var4 = _closure1_slot5;
             var3 = var2.linkedGames;
-            if(!(var1 == var3)) { _fun0004_ip = 45; continue _fun0004 }
-case 15:
-            var3 = new Array(0);
-case 45:
-            var8 = var4.bind(var10)(var3);
-            var4 = var8.bind(var10)();
-            var3 = var4.done;
-            var7 = var4;
-            var6 = undefined;
-            var5 = undefined;
-            if(var3) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
-            var3 = var7.value;
-            var13 = _closure1_slot3;
-            var4 = var13.getApplication;
-            var3 = var3.id;
-            var3 = var4.bind(var13)(var3);
-            if(!(var1 != var3)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-            var13 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var4 = var4[var11];
-            var16 = var13.bind(var10)(var4);
-            var15 = var16.hasFlag;
-            var14 = var3.flags;
-            var4 = var1 != var14;
-            var13 = 0;
-            if(!var4) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
-            var13 = var14;
-case 50:
-            var4 = _closure1_slot4;
-            var4 = var4.SOCIAL_LAYER_INTEGRATION;
-            var4 = var15.bind(var16)(var13, var4);
-            if(var4) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
-            var13 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var4 = var4[var11];
-            var17 = var13.bind(var10)(var4);
-            var16 = var17.hasFlag;
-            var13 = var3.flags;
-            var4 = var1 != var13;
-            var15 = 0;
-            if(!var4) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
-            var15 = var13;
-case 54:
-            var4 = _closure1_slot4;
-            var4 = var4.SOCIAL_LAYER_INTEGRATION_LIMITED;
-            var4 = var16.bind(var17)(var15, var4);
-            var6 = var14;
-            var5 = var13;
-            if(var4) { _fun0004_ip = 52; continue _fun0004 }
-case 48:
-            var13 = var8.bind(var10)();
-            var4 = var13.done;
-            var7 = var13;
-            if(var4) { _fun0004_ip = 46; continue _fun0004 }
-case 56:
-            _fun0004_ip = 47; continue _fun0004;
-case 52:
-            return var3;
-case 46:
-            return var1;
+            if(!(var1 == var3)) { _fun0004_ip = 4; continue _fun0004 }
 case 40:
+            var3 = new Array(0);
+case 4:
+            var8 = undefined;
+            var7 = var4.bind(var8)(var3);
+            var4 = var7.bind(var8)();
+            var3 = var4.done;
+            var6 = 3;
+            var5 = var4;
+            if(var3) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
+            var4 = var5.value;
+            var11 = _closure1_slot3;
+            var10 = var11.getApplication;
+            var3 = var4.id;
+            var3 = var10.bind(var11)(var3);
+            if(!(var1 != var3)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var10 = var4.type;
+            var11 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var11.bind(var8)(var4);
+            var4 = var4.GameLinkTypes;
+            var4 = var4.OFFICIAL;
+            if(!(var10 !== var4)) { _fun0004_ip = 45; continue _fun0004 }
+case 43:
+            var10 = var7.bind(var8)();
+            var4 = var10.done;
+            var5 = var10;
+            if(var4) { _fun0004_ip = 41; continue _fun0004 }
+case 46:
+            _fun0004_ip = 42; continue _fun0004;
+case 45:
+            return var3;
+case 41:
+            return var1;
+case 38:
             return var2;
 case 36:
             return var1;
@@ -320,16 +262,16 @@ case 36:
     var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var5 = var5.ApplicationFlags;
+    var5 = var5.ApplicationTypes;
     var _closure1_slot4 = var5;
     var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/application_account_linking/hooks/useSlayerApp.tsx';
+    var5 = 'modules/application_account_linking/hooks/useAuthorizationApp.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['getSlayerApp'] = var4;
-    var2 = function useSlayerApp(arg1) {
+    var3['getAuthorizationApp'] = var4;
+    var2 = function useAuthorizationApp(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot2;
@@ -346,6 +288,6 @@ case 36:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['useSlayerApp'] = var2;
+    var3['useAuthorizationApp'] = var2;
     return var1;
 })();

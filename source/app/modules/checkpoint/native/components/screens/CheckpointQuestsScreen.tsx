@@ -103,12 +103,12 @@ case 0:
             var4 = undefined;
             var13 = var1.bind(var4)();
             var _closure2_slot0 = var13;
-            var3 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 8;
-            var1 = var16[var1];
-            var6 = var3.bind(var4)(var1);
-            var5 = var6.useStateFromStores;
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var3 = var5.useStateFromStores;
             var1 = _closure1_slot6;
             var2 = new Array(1);
             var2[0] = var1;
@@ -118,11 +118,17 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var1 = var5.bind(var6)(var2, var1);
+            var1 = var3.bind(var5)(var2, var1);
             var1 = var1.quests;
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = {'numCompleted': 0, 'numOrbs': 0};
+case 2:
             var19 = var1.numCompleted;
             var21 = var1.numOrbs;
             var2 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var16 = _closure1_slot2;
             var1 = 9;
             var1 = var16[var1];
             var1 = var3.bind(var4)(var1);
@@ -187,10 +193,10 @@ case 0:
             var11 = new Array(2);
             var11[0] = var14;
             var14 = undefined;
-            if(!var15) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!var15) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var13.titleSpacing;
-case 2:
+case 4:
             var11[1] = var14;
             var10['style'] = var11;
             var23 = _closure1_slot9;
@@ -229,15 +235,15 @@ case 2:
             var22 = 19;
             var24 = var24[var22];
             var25 = var25.bind(var4)(var24);
-            if(var15) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var24 = var25.qsFkSO;
             var24 = var26.bind(var27)(var24);
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var25 = var25.QkdNzt;
             var24 = var26.bind(var27)(var25);
-case 6:
+case 8:
             var14['children'] = var24;
             var14 = var23.bind(var4)(var18, var14);
             var11[1] = var14;
@@ -245,8 +251,8 @@ case 6:
             var10 = var7.bind(var4)(var6, var10);
             var8[1] = var10;
             var10 = !var15;
-            if(var15) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(var15) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var18 = _closure1_slot9;
             var14 = _closure1_slot1;
             var23 = _closure1_slot2;
@@ -256,15 +262,15 @@ case 8:
             var11 = {};
             var11['end'] = var19;
             var10 = var18.bind(var4)(var14, var11);
-case 7:
+case 9:
             var8[2] = var10;
             var9 = var21 > var9;
-            if(var9) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var9 = var15;
-case 9:
-            if(!var9) { _fun0001_ip = 11; continue _fun0001 }
+            if(var9) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
+            var9 = var15;
+case 11:
+            if(!var9) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var14 = _closure1_slot9;
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -282,8 +288,8 @@ case 12:
             var17 = _closure1_slot1;
             var16 = var16[var22];
             var16 = var17.bind(var4)(var16);
-            if(var15) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var15) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var17 = var16.gd+Olh;
             var15 = {};
             var15['numOrbs'] = var21;
@@ -320,8 +326,8 @@ case 14:
             };
             var15['orbsHook'] = var21;
             var15 = var18.bind(var19)(var17, var15);
-            _fun0001_ip = 15; continue _fun0001;
-case 13:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var17 = var16.UYTBoT;
             var16 = {};
             var20 = function learnMoreHook(arg1, arg2) {
@@ -352,10 +358,10 @@ case 13:
             };
             var16['learnMoreHook'] = var20;
             var15 = var18.bind(var19)(var17, var16);
-case 15:
+case 17:
             var10['children'] = var15;
             var9 = var14.bind(var4)(var11, var10);
-case 11:
+case 13:
             var8[3] = var9;
             var11 = _closure1_slot9;
             var10 = _closure1_slot1;

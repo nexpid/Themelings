@@ -29,43 +29,66 @@ case 7:
 case 6:
             var1 = 'en-US';
             var1 = var1 === var5;
+            var2 = var1;
             if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var8 = _closure1_slot4;
-            var4 = var8.includes;
-            var2 = _closure1_slot2;
-            var2 = var2.systemLocale;
-            var1 = var4.bind(var8)(var2);
+            var9 = _closure1_slot4;
+            var8 = var9.includes;
+            var4 = _closure1_slot2;
+            var4 = var4.systemLocale;
+            var2 = var8.bind(var9)(var4);
 case 8:
-            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+            var2 = 'code';
+            var6['currencyDisplay'] = var2;
+case 10:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 2;
+            var2 = var8[var2];
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.isWindows;
+            var1 = var2.bind(var4)();
+case 12:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var2 = _closure1_slot2;
+            var4 = var2.systemLocale;
+            var2 = 'en-GB';
+            var1 = var2 === var4;
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = 'code';
             var6['currencyDisplay'] = var1;
-case 10:
+case 16:
             var2 = var6.maximumFractionDigits;
             var4 = var6.minimumFractionDigits;
             var1 = 0;
             var2 = var1 === var2;
-            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var2) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = var7 == var4;
-case 12:
-            if(!var2) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+case 18:
+            if(!var2) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var6['minimumFractionDigits'] = var1;
-case 14:
+case 20:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 2;
+            var1 = 3;
             var1 = var4[var1];
             var4 = var2.bind(var3)(var1);
             var3 = var4.formatPrice;
-            var12 = arg1;
-            var11 = arg2;
-            var13 = var4;
-            var10 = var5;
-            var9 = var6;
-            var1 = var13[var3](var12, var11, var10, var9, var8);
+            var13 = arg1;
+            var12 = arg2;
+            var14 = var4;
+            var11 = var5;
+            var10 = var6;
+            var1 = var14[var3](var13, var12, var11, var10, var9);
             return var1;
         }
     };
@@ -78,22 +101,22 @@ case 0:
             var7 = arg3;
             var2 = _closure1_slot3;
             var2 = var2.YEAR;
-            if(!(var8 !== var2)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!(var8 !== var2)) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var2 = _closure1_slot3;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!(var8 === var2)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var2 = 1;
-            if(!(var2 !== var7)) { _fun0002_ip = 20; continue _fun0002 }
-case 18:
+            if(!(var2 !== var7)) { _fun0002_ip = 26; continue _fun0002 }
+case 24:
             var2 = _closure1_slot3;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(!(var8 === var2)) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var2 = 1;
-            if(!(!(var7 > var2))) { _fun0002_ip = 23; continue _fun0002 }
-case 21:
+            if(!(!(var7 > var2))) { _fun0002_ip = 29; continue _fun0002 }
+case 27:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -107,10 +130,10 @@ case 21:
             var2 = new var13[var4](var12, var11);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
-case 23:
+case 29:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var2 = 3;
+            var2 = 4;
             var4 = var9[var2];
             var3 = undefined;
             var4 = var8.bind(var3)(var4);
@@ -125,10 +148,10 @@ case 23:
             var2['intervalCount'] = var7;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
-case 20:
+case 26:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var2 = 3;
+            var2 = 4;
             var4 = var8[var2];
             var3 = undefined;
             var4 = var7.bind(var3)(var4);
@@ -142,10 +165,10 @@ case 20:
             var2['price'] = var5;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
-case 16:
+case 22:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var7[var1];
             var2 = undefined;
             var3 = var6.bind(var2)(var3);
@@ -169,13 +192,13 @@ case 0:
             var3 = var5.length;
             var2 = 5;
             var1 = var5;
-            if(!(var3 > var2)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!(var3 > var2)) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var4 = var5.replace;
             var3 = /\.00$/;
             var2 = '';
             var1 = var4.bind(var5)(var3, var2);
-case 24:
+case 30:
             return var1;
         }
     };
@@ -204,7 +227,7 @@ case 24:
     var7 = ['en-CA', 'en-AU', 'en-NZ'];
     var7 = var10.bind(var11)(var7);
     var _closure1_slot4 = var7;
-    var7 = 5;
+    var7 = 6;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -231,16 +254,16 @@ case 0:
             var1 = arg1;
             var2 = 'interval_count';
             var2 = var2 in var1;
-            if(var2) { _fun0004_ip = 26; continue _fun0004 }
+            if(var2) { _fun0004_ip = 32; continue _fun0004 }
 case 2:
             var5 = var1.intervalCount;
-            _fun0004_ip = 27; continue _fun0004;
-case 26:
+            _fun0004_ip = 33; continue _fun0004;
+case 32:
             var5 = var1.interval_count;
-case 27:
+case 33:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 4;
+            var2 = 5;
             var2 = var4[var2];
             var4 = undefined;
             var7 = var3.bind(var4)(var2);

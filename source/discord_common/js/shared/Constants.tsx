@@ -72,6 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var57['WEB'] = var4;
     var4 = 'mobile';
     var57['MOBILE'] = var4;
+    var4 = 'vr';
+    var57['VR'] = var4;
     var57['UNKNOWN'] = var1;
     var56 = {};
     var28 = 1;

@@ -40,7 +40,7 @@ case 0:
             var1 = var5[var1];
             var7 = undefined;
             var5 = var2.bind(var7)(var1);
-            var2 = var5.useSlayerApp;
+            var2 = var5.useAuthorizationApp;
             var1 = arg1;
             var2 = var2.bind(var5)(var1);
             var _closure2_slot0 = var2;

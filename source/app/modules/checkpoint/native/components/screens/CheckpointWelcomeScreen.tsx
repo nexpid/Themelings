@@ -164,13 +164,25 @@ case 0:
             var5 = new Array(1);
             var5[0] = var1;
             var1 = function() {
-                var3 = _closure1_slot8;
-                var2 = var3.getFetchState;
-                var2 = var2.bind(var3)();
-                var1 = _closure1_slot9;
-                var1 = var1.ERROR;
-                var1 = var2 === var1;
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var3 = _closure1_slot8;
+                    var1 = var3.getFetchState;
+                    var3 = var1.bind(var3)();
+                    var1 = _closure1_slot9;
+                    var1 = var1.ERROR;
+                    var1 = var3 === var1;
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var3 = _closure1_slot8;
+                    var2 = var3.getCheckpointData;
+                    var2 = var2.bind(var3)();
+                    var3 = var2.messages;
+                    var2 = null;
+                    var1 = var2 == var3;
+case 2:
+                    return var1;
+                }
             };
             var1 = var7.bind(var8)(var5, var1);
             var5 = var6[var2];
@@ -230,8 +242,8 @@ case 0:
             var8 = _closure1_slot13;
             var7 = _closure1_slot4;
             var6 = {};
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var22.container;
             var6['style'] = var1;
             var14 = _closure1_slot12;
@@ -366,8 +378,8 @@ case 3:
             var1 = var8.bind(var4)(var7, var6);
             var5['children'] = var1;
             var1 = var5;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var9 = var22.unavailableContainer;
             var6['style'] = var9;
             var14 = _closure1_slot12;
@@ -481,12 +493,12 @@ case 2:
             var23 = var22.button;
             var12['style'] = var23;
             var16 = function onPress() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                    if(!(var1 != var2)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 12;
@@ -498,7 +510,7 @@ case 6:
                     var4 = _closure2_slot1;
                     var1['user'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 5:
+case 7:
                     var1 = undefined;
                     return var1;
                 }
@@ -531,7 +543,7 @@ case 5:
             var6 = var8.bind(var4)(var7, var6);
             var5['children'] = var6;
             var1 = var5;
-case 4:
+case 6:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

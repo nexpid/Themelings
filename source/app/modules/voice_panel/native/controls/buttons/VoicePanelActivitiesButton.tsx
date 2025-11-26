@@ -36,9 +36,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
     var _closure1_slot6 = var7;
-    var7 = var4.jsxs;
+    var7 = var4.Fragment;
     var _closure1_slot7 = var7;
-    var4 = var4.Fragment;
+    var4 = var4.jsxs;
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.iconContainer;
         var3[1] = var2;
         var2 = function() {
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
             var5 = _closure2_slot2;
@@ -154,7 +154,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['style'] = var5;
             var5 = _closure2_slot4;
             var2['ref'] = var5;
-            var7 = _closure1_slot6;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 10;
@@ -163,15 +162,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var1)(var5);
             var6 = var5.AppsIcon;
             var5 = {};
-            var8 = _closure2_slot3;
-            var8 = var8.iconFill;
-            var8 = var8.color;
-            var5['color'] = var8;
-            var6 = var7.bind(var1)(var6, var5);
-            var5 = new Array(2);
-            var5[0] = var6;
-            var6 = ';';
-            var5[1] = var6;
+            var7 = _closure2_slot3;
+            var7 = var7.iconFill;
+            var7 = var7.color;
+            var5['color'] = var7;
+            var5 = var4.bind(var1)(var6, var5);
             var2['children'] = var5;
             var1 = var4.bind(var1)(var3, var2);
             return var1;
@@ -253,8 +248,8 @@ case 5:
                 var5 = _closure2_slot7;
                 _fun0001_ip = 6; continue _fun0001;
 case 4:
-                var8 = _closure1_slot7;
-                var7 = _closure1_slot8;
+                var8 = _closure1_slot8;
+                var7 = _closure1_slot7;
                 var6 = {};
                 var13 = _closure1_slot6;
                 var12 = _closure1_slot1;

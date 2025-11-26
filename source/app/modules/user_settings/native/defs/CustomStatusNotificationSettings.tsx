@@ -4,26 +4,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
     var2 = function onChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 1;
-            var3 = var3[var1];
+            var6 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
             var1 = undefined;
-            var3 = var4.bind(var1)(var3);
-            var4 = var3.CustomStatusPushNotifications;
+            var2 = var3.bind(var1)(var2);
+            var4 = var2.CustomStatusPushNotifications;
             var3 = var4.updateSetting;
             var5 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 2;
-            var2 = var6[var2];
+            var8 = _closure1_slot2;
+            var2 = 4;
+            var2 = var8[var2];
             var2 = var5.bind(var1)(var2);
             var5 = var2.CustomStatusPushNotificationType;
-            var2 = arg1;
-            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = var5.STATUS_PUSH_DISABLED;
             _fun0001_ip = 4; continue _fun0001;
@@ -31,6 +33,20 @@ case 2:
             var2 = var5.STATUS_PUSH_ENABLED;
 case 4:
             var2 = var3.bind(var4)(var2);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 5;
+            var2 = var4[var2];
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot3;
+            var3 = var2.NOTIFICATION_SETTINGS_UPDATED;
+            var2 = {};
+            var7 = _closure1_slot4;
+            var7 = var7.ACCOUNT;
+            var2['update_type'] = var7;
+            var2['custom_status_push_notifications'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
     };
@@ -47,15 +63,25 @@ case 4:
     var1 = undefined;
     var4 = var6.bind(var1)(var4);
     var10 = var4.MobileSetting;
-    var4 = 3;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.NotificationSettingsUpdateType;
+    var _closure1_slot4 = var4;
+    var4 = 6;
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
     var5 = var8.createToggle;
     var4 = {};
     var11 = function title() {
         var5 = _closure1_slot0;
-        var6 = _closure1_slot1;
-        var1 = 4;
+        var6 = _closure1_slot2;
+        var1 = 7;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -73,15 +99,15 @@ case 4:
     var4['parent'] = var10;
     var9 = function useValue() {
         var4 = _closure1_slot0;
-        var5 = _closure1_slot1;
-        var1 = 1;
+        var5 = _closure1_slot2;
+        var1 = 3;
         var1 = var5[var1];
         var3 = undefined;
         var1 = var4.bind(var3)(var1);
         var2 = var1.CustomStatusPushNotifications;
         var1 = var2.useSetting;
         var2 = var1.bind(var2)();
-        var1 = 2;
+        var1 = 4;
         var1 = var5[var1];
         var1 = var4.bind(var3)(var1);
         var1 = var1.CustomStatusPushNotificationType;
@@ -91,13 +117,13 @@ case 4:
     };
     var4['useValue'] = var9;
     var4['onValueChange'] = var2;
-    var9 = 5;
+    var9 = 8;
     var9 = var7[var9];
     var9 = var6.bind(var1)(var9);
     var9 = var9.useCustomStatusPushExperiment;
     var4['usePredicate'] = var9;
     var4 = var5.bind(var8)(var4);
-    var5 = 6;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

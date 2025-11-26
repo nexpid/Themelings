@@ -1413,33 +1413,33 @@ case 60:
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.id;
-            var7 = var1.icon;
-            var6 = var1.size;
-            var5 = var1.canAnimate;
+            var9 = var1.id;
+            var8 = var1.icon;
+            var7 = var1.size;
+            var6 = var1.canAnimate;
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0018_ip = 143; continue _fun0018 }
+            if(!(var6 === var3)) { _fun0018_ip = 143; continue _fun0018 }
 case 115:
-            var5 = false;
+            var6 = false;
 case 143:
-            var4 = var1.lossless;
-            if(!(var4 === var3)) { _fun0018_ip = 2; continue _fun0018 }
+            var5 = var1.lossless;
+            if(!(var5 === var3)) { _fun0018_ip = 2; continue _fun0018 }
 case 3:
-            var4 = false;
+            var5 = false;
 case 2:
             var2 = _closure1_slot10;
             var1 = {};
-            var9 = _closure1_slot3;
-            var9 = var9.GUILD_ICON;
-            var1['endpoint'] = var9;
-            var9 = 'icons';
-            var1['path'] = var9;
-            var1['id'] = var8;
-            var1['hash'] = var7;
-            var1['size'] = var6;
-            var1['canAnimate'] = var5;
-            var1['lossless'] = var4;
-            var4 = false;
+            var10 = _closure1_slot3;
+            var10 = var10.GUILD_ICON;
+            var1['endpoint'] = var10;
+            var10 = 'icons';
+            var1['path'] = var10;
+            var1['id'] = var9;
+            var1['hash'] = var8;
+            var1['size'] = var7;
+            var1['canAnimate'] = var6;
+            var1['lossless'] = var5;
+            var4 = _closure1_slot8;
             var1['canWebP'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

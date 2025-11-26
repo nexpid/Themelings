@@ -240,7 +240,7 @@ case 40:
             var3 = var3.INSTANT_INVITES;
             var2 = var4 === var3;
 case 39:
-            if(!var2) { _fun0005_ip = 21; continue _fun0005 }
+            if(!var2) { _fun0005_ip = 41; continue _fun0005 }
 case 11:
             var2 = true;
             _closure1_slot24 = var2;
@@ -286,7 +286,7 @@ case 11:
                 return var1;
             };
             var1 = var3.bind(var4)(var2, var1);
-case 21:
+case 41:
             var1 = undefined;
             return var1;
         }
@@ -325,8 +325,8 @@ case 0:
             var5 = null;
             var7 = var5 != var6;
             var6 = null;
-            if(!var7) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+            if(!var7) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var9 = _closure1_slot10;
             var10 = var2.inviter;
             var8 = var9.prototype;
@@ -334,7 +334,7 @@ case 42:
             var11 = var8;
             var7 = new var11[var9](var10, var9);
             var6 = var7 instanceof Object ? var7 : var8;
-case 41:
+case 42:
             var1['inviter'] = var6;
             var8 = _closure1_slot8;
             var7 = var2.channel;
@@ -344,7 +344,7 @@ case 41:
             var7 = var2.guild;
             var7 = var5 != var7;
             var5 = null;
-            if(!var7) { _fun0006_ip = 43; continue _fun0006 }
+            if(!var7) { _fun0006_ip = 41; continue _fun0006 }
 case 44:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -354,7 +354,7 @@ case 44:
             var8 = var9.fromInviteGuild;
             var7 = var2.guild;
             var5 = var8.bind(var9)(var7);
-case 43:
+case 41:
             var1['guild'] = var5;
             var5 = var2.uses;
             var1['uses'] = var5;
@@ -399,7 +399,7 @@ case 46:
 case 47:
             var3 = _closure1_slot17;
             var2 = _closure1_slot18;
-            if(!(var3 !== var2)) { _fun0007_ip = 43; continue _fun0007 }
+            if(!(var3 !== var2)) { _fun0007_ip = 41; continue _fun0007 }
 case 48:
             var3 = _closure1_slot11;
             var2 = var3.getChannel;
@@ -429,7 +429,7 @@ case 50:
             _closure1_slot19 = var3;
             var1 = true;
             _fun0007_ip = 45; continue _fun0007;
-case 43:
+case 41:
             var3 = _closure1_slot11;
             var2 = var3.getChannel;
             var2 = var2.bind(var3)(var7);

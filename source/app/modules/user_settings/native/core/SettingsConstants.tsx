@@ -240,6 +240,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['TIMESTAMP_HOUR_CYCLE'] = var1;
     var1 = 'CHAT_GESTURES';
     var2['CHAT_GESTURES'] = var1;
+    var1 = 'SWIPE_RIGHT_TO_LEFT';
+    var2['SWIPE_RIGHT_TO_LEFT'] = var1;
     var1 = 'WEB_BROWSER';
     var2['WEB_BROWSER'] = var1;
     var1 = 'SELECT_WEB_BROWSER';
@@ -418,6 +420,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CUSTOM_STATUS_NOTIFICATIONS'] = var1;
     var1 = 'DOUBLE_TAP_EMOJI';
     var2['DOUBLE_TAP_EMOJI'] = var1;
+    var1 = 'DOUBLE_TAP_TO_REACT_ENABLED';
+    var2['DOUBLE_TAP_TO_REACT_ENABLED'] = var1;
     var1 = 'PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS';
     var2['PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS'] = var1;
     var1 = 'PARENTAL_CONTROLS_DIRECT_MESSAGES';
