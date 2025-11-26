@@ -11071,6 +11071,16 @@
         "width": 311,
         "height": 205.5
     },
+    "PremiumGroupEmbedImage": {
+        "file": "app/modules/premium/premium_group/images/PremiumGroupEmbedImage.png",
+        "hash": "a5d02f8d3612a7fc7609c190b11244f3",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 107.5,
+        "height": 107
+    },
     "profile-placeholder-dark": {
         "file": "app/images/native/profile-placeholder-dark.png",
         "hash": "909e86433c8d32cae528a66dd6b87738",
