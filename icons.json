@@ -1366,26 +1366,6 @@
         "width": 1125,
         "height": 96
     },
-    "chat-bubble-tail": {
-        "file": "app/modules/urgent_system_dm/native/images/chat-bubble-tail.png",
-        "hash": "f56d39bd65ee5f398ad027099e2abd77",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 46,
-        "height": 33.5
-    },
-    "chat-bubble-tail-light": {
-        "file": "app/modules/urgent_system_dm/native/images/chat-bubble-tail-light.png",
-        "hash": "8b78257b85497ff53d9eefbe818c21fd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 46,
-        "height": 33.5
-    },
     "ChatArrowRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatArrowRightIcon.png",
         "hash": "6e7d7908ac53681c9fd9e11fac9a42fe",
@@ -12447,16 +12427,6 @@
         ],
         "width": 70,
         "height": 47
-    },
-    "system-dm-wumpus": {
-        "file": "app/modules/urgent_system_dm/native/images/system-dm-wumpus.png",
-        "hash": "a303042d1162fe6a1636c67ec701de9c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 60,
-        "height": 60
     },
     "system-user-avatar": {
         "file": "app/images/public_guilds/system-user-avatar.png",
