@@ -1741,7 +1741,7 @@ case 76:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BASE_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var2['backgroundColor'] = var15;
     var15 = '100%';
     var2['height'] = var15;
@@ -1918,7 +1918,7 @@ case 76:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var15;
     var5['fpRowStart'] = var10;
     var10 = {};
@@ -1930,7 +1930,7 @@ case 76:
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var12;
     var5['fpRowEnd'] = var10;
     var10 = {};

@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var14.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var16 = 'center';
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var15;
     var4['formRow'] = var9;
     var9 = {};

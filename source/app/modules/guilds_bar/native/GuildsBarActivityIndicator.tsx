@@ -249,7 +249,7 @@ case 27:
     var15 = var9[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_TERTIARY;
+    var15 = var15.BACKGROUND_BASE_LOWEST;
     var12['backgroundColor'] = var15;
     var5['activityWrapper'] = var12;
     var12 = {'justifyContent': 'center', 'width': 16, 'height': 16, 'padding': 2};

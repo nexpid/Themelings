@@ -68,7 +68,7 @@ case 0:
             var13 = var12[var4];
             var13 = var10.bind(var9)(var13);
             var13 = var13.colors;
-            var13 = var13.BG_BASE_SECONDARY;
+            var13 = var13.BACKGROUND_BASE_LOWER;
             var13 = var14.bind(var16)(var13, var8);
             var1['gradientFallbackBackground'] = var13;
             var13 = var12[var5];
@@ -77,7 +77,7 @@ case 0:
             var13 = var12[var4];
             var13 = var10.bind(var9)(var13);
             var13 = var13.colors;
-            var13 = var13.BG_BASE_SECONDARY;
+            var13 = var13.BACKGROUND_BASE_LOWER;
             var13 = var14.bind(var16)(var13, var8);
             var1['gradientSecondaryBackground'] = var13;
             var13 = var12[var5];
@@ -95,7 +95,7 @@ case 0:
             var13 = var12[var4];
             var13 = var10.bind(var9)(var13);
             var13 = var13.colors;
-            var13 = var13.BG_BASE_SECONDARY;
+            var13 = var13.BACKGROUND_BASE_LOWER;
             var13 = var14.bind(var16)(var13, var8);
             var1['avatarBackground'] = var13;
             var5 = var12[var5];

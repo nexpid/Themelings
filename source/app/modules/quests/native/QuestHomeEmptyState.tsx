@@ -132,7 +132,7 @@ case 4:
             var1 = var15[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BG_BASE_SECONDARY;
+            var1 = var1.BACKGROUND_BASE_LOWER;
             var19 = var3.bind(var5)(var1);
             var1 = 8;
             var1 = var15[var1];

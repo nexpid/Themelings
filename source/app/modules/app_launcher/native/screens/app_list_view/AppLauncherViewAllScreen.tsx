@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'height': 24, 'backgroundColor': null, 'paddingHorizontal': null, 'marginBottom': 12};
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BASE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var9['paddingHorizontal'] = var13;
     var4['header'] = var9;

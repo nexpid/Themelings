@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_PRIMARY;
+    var10 = var10.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {'flexGrow': 1, 'justifyContent': 'space-between'};
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);

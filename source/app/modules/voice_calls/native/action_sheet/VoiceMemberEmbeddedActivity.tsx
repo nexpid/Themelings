@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_TERTIARY;
+    var11 = var11.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var11;
     var5['overflowBackgroundColorActionSheet'] = var10;
     var5 = var8.bind(var9)(var5);

@@ -172,7 +172,7 @@ case 9:
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
         var10 = var10.colors;
-        var10 = var10.BG_BASE_SECONDARY;
+        var10 = var10.BACKGROUND_BASE_LOWER;
         var9['backgroundColor'] = var10;
         var4['headerContainer'] = var9;
         var9 = {'borderBottomWidth': 0, 'shadowColor': 'transparent', 'backgroundColor': 'transparent'};

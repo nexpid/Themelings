@@ -855,7 +855,7 @@ case 33:
     var18 = var6[var10];
     var18 = var11.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_TERTIARY;
+    var18 = var18.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var18;
     var4['subscriptionBody'] = var9;
     var9 = {'backgroundColor': null, 'width': '100%', 'height': 112, 'overflow': 'hidden', 'alignItems': 'center', 'justifyContent': 'center'};
@@ -910,7 +910,7 @@ case 33:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var15;
     var9['paddingLeft'] = var13;
     var4['subscriptionSlot'] = var9;

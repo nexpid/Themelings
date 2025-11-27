@@ -476,7 +476,7 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['instantInviteView'] = var9;
     var9 = {};
@@ -485,14 +485,14 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var4['nameInputContainer'] = var9;
     var9 = {'backgroundColor': null, 'marginBottom': 8, 'height': 40, 'width': '100%'};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var11;
     var4['nameInput'] = var9;
     var9 = {};

@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BASE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var12;
     var18 = var10;
     var17 = var11;
@@ -322,7 +322,7 @@ case 4:
             var5 = var18[var22];
             var11 = var17.bind(var13)(var5);
             var8 = var11.useAnimatedStyle;
-            var5 = function W() {
+            var5 = function J() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot8;

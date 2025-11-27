@@ -511,7 +511,7 @@ case 56:
             var1 = var9[var1];
             var1 = var8.bind(var5)(var1);
             var1 = var1.colors;
-            var1 = var1.BG_BASE_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOW;
             var7 = var3.bind(var6)(var7, var1);
             var1 = {};
             var3 = var4.theme;
@@ -749,7 +749,7 @@ case 30:
             var3 = var9[var3];
             var3 = var7.bind(var8)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BASE_PRIMARY;
+            var3 = var3.BACKGROUND_BASE_LOW;
             var5 = var4.bind(var5)(var3, var6);
             var _closure2_slot0 = var5;
             var4 = _closure1_slot3;

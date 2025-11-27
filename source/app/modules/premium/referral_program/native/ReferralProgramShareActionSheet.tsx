@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BASE_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['searchBarContainer'] = var9;
     var9 = {};

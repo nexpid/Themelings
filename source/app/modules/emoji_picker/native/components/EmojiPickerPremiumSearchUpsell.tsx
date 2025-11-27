@@ -246,7 +246,7 @@ case 12:
     var14 = var9[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var13['backgroundColor'] = var14;
     var7['premiumSearchUpsell'] = var13;
     var13 = {'flex': 0.8, 'flexDirection': 'row'};
@@ -327,7 +327,7 @@ case 17:
             var20 = 9;
             var20 = var22[var20];
             var22 = var21.bind(var4)(var20);
-            var21 = var22.getTierDisplayName;
+            var21 = var22.getTierDisplayNameByPlanId;
             var20 = _closure1_slot11;
             var20 = var20.PREMIUM_MONTH_TIER_0;
             var20 = var21.bind(var22)(var20);

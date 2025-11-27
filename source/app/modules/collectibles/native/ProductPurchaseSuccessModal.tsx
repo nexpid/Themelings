@@ -96,7 +96,7 @@ case 2:
             var7 = var11[var6];
             var7 = var13.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.BACKGROUND_PRIMARY;
+            var7 = var7.BACKGROUND_BASE_LOW;
             var2['backgroundColor'] = var7;
             var1['root'] = var2;
             var2 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center'};
@@ -399,7 +399,7 @@ case 16:
             var10 = var12[var3];
             var10 = var9.bind(var4)(var10);
             var10 = var10.colors;
-            var10 = var10.BACKGROUND_PRIMARY;
+            var10 = var10.BACKGROUND_BASE_LOW;
             var10 = var13.bind(var14)(var10);
             _closure2_slot2 = var10;
             var5 = var12[var5];
@@ -408,7 +408,7 @@ case 16:
             var3 = var12[var3];
             var3 = var9.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BACKGROUND_SECONDARY;
+            var3 = var3.BACKGROUND_BASE_LOWER;
             var9 = var5.bind(var6)(var3);
             _closure2_slot3 = var9;
             var6 = _closure1_slot5;

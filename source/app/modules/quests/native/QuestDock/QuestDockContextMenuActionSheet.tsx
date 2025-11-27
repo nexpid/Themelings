@@ -24,27 +24,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.QuestsExperimentLocations;
-    var _closure1_slot5 = var7;
-    var4 = var4.QuestVariants;
-    var _closure1_slot6 = var4;
+    var4 = var4.QuestsExperimentLocations;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.UserSettingsSections;
-    var _closure1_slot7 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot8 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = 32;
+    var _closure1_slot7 = var4;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -59,115 +56,43 @@ case 0:
             var17 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 5;
-            var1 = var13[var1];
+            var2 = var13[var1];
             var4 = undefined;
-            var3 = var17.bind(var4)(var1);
-            var2 = var3.useHasWatchVideoOnMobileTasks;
-            var1 = var6.config;
-            var1 = var2.bind(var3)(var1);
-            var _closure2_slot1 = var1;
-            var2 = 6;
-            var2 = var13[var2];
             var5 = var17.bind(var4)(var2);
             var3 = var5.isShareableQuest;
             var2 = var6.config;
             var9 = var3.bind(var5)(var2);
-            var2 = 7;
+            var2 = 6;
             var2 = var13[var2];
             var5 = var17.bind(var4)(var2);
             var3 = var5.useQuestPreviewActions;
             var2 = var6.id;
             var2 = var3.bind(var5)(var2);
             var3 = var2.handleComplete;
-            var _closure2_slot2 = var3;
+            var _closure2_slot1 = var3;
             var3 = var2.handleProgress;
-            var _closure2_slot3 = var3;
+            var _closure2_slot2 = var3;
             var3 = var2.handleResetDismissibilityClick;
-            var _closure2_slot4 = var3;
+            var _closure2_slot3 = var3;
             var2 = var2.handleResetStatusClick;
-            var _closure2_slot5 = var2;
-            var5 = _closure1_slot4;
-            var3 = var5.useMemo;
-            var7 = var6.config;
-            var2 = new Array(2);
-            var2[0] = var7;
-            var2[1] = var1;
-            var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var1 = _closure2_slot0;
-                    var1 = var1.config;
-                    var4 = var1.ctaConfig;
-                    var2 = null;
-                    var5 = var2 == var4;
-                    var6 = undefined;
-                    var1 = undefined;
-                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var1 = var4.buttonLabel;
-case 2:
-                    if(!(var2 == var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var2 = _closure2_slot1;
-                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                    var2 = _closure2_slot0;
-                    var2 = var2.config;
-                    var7 = var2.features;
-                    var5 = var7.includes;
-                    var2 = _closure1_slot6;
-                    var2 = var2.NON_GAMING_PLAY_QUEST;
-                    var2 = var5.bind(var7)(var2);
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var4 = 8;
-                    var5 = var9[var4];
-                    var5 = var8.bind(var6)(var5);
-                    var7 = var5.intl;
-                    var5 = var7.string;
-                    var4 = var9[var4];
-                    var4 = var8.bind(var6)(var4);
-                    var4 = var4.t;
-                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var2 = var4.lwQdjB;
-                    var2 = var5.bind(var7)(var2);
-                    _fun0002_ip = 10; continue _fun0002;
-case 8:
-                    var4 = var4.LLLLPD;
-                    var2 = var5.bind(var7)(var4);
-case 10:
-                    _fun0002_ip = 11; continue _fun0002;
-case 6:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var7[var4];
-                    var5 = var5.bind(var6)(var4);
-                    var4 = var5.getVideoQuestEndCardCtaText;
-                    var3 = _closure2_slot0;
-                    var3 = var3.config;
-                    var2 = var4.bind(var5)(var3);
-case 11:
-                    var1 = var2;
-case 4:
-                    return var1;
-                }
-            };
-            var18 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot9;
-            var1 = 9;
+            var _closure2_slot4 = var2;
+            var1 = var13[var1];
+            var2 = var17.bind(var4)(var1);
+            var1 = var2.getExternalCtaLabel;
+            var18 = var1.bind(var2)(var6);
+            var3 = _closure1_slot7;
+            var1 = 7;
             var1 = var13[var1];
             var1 = var17.bind(var4)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
-            var16 = 10;
+            var16 = 8;
             var5 = var13[var16];
             var5 = var17.bind(var4)(var5);
             var5 = var5.ActionSheetRow;
             var7 = var5.Group;
             var5 = {};
-            var12 = _closure1_slot8;
+            var12 = _closure1_slot6;
             var8 = var13[var16];
             var8 = var17.bind(var4)(var8);
             var10 = var8.ActionSheetRow;
@@ -177,14 +102,14 @@ case 4:
             var15 = var15.ActionSheetRow;
             var19 = var15.Icon;
             var15 = {};
-            var20 = 11;
+            var20 = 9;
             var20 = var13[var20];
             var20 = var17.bind(var4)(var20);
             var20 = var20.LinkExternalMediumIcon;
             var15['IconComponent'] = var20;
             var15 = var12.bind(var4)(var19, var15);
             var8['icon'] = var15;
-            var15 = 12;
+            var15 = 10;
             var13 = var13[var15];
             var13 = var17.bind(var4)(var13);
             var17 = var13.FormLabel;
@@ -195,20 +120,20 @@ case 4:
             var13 = function onPress() {
                 var9 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 6;
+                var1 = 5;
                 var3 = var4[var1];
                 var1 = undefined;
                 var7 = var9.bind(var1)(var3);
                 var6 = var7.openGameLinkDirectly;
                 var5 = _closure2_slot0;
                 var3 = {};
-                var8 = 13;
+                var8 = 11;
                 var10 = var4[var8];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContent;
                 var10 = var10.QUEST_BAR_MOBILE;
                 var3['content'] = var10;
-                var10 = 14;
+                var10 = 12;
                 var10 = var4[var10];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContentCTA;
@@ -221,7 +146,7 @@ case 4:
                 var3['sourceQuestContent'] = var8;
                 var3 = var6.bind(var7)(var5, var3);
                 var3 = _closure1_slot1;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -232,9 +157,9 @@ case 4:
             var10 = var12.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var13 = _closure1_slot8;
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var13 = _closure1_slot6;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
             var10 = var23[var16];
@@ -246,7 +171,7 @@ case 13:
             var17 = var17.ActionSheetRow;
             var18 = var17.Icon;
             var17 = {};
-            var19 = 16;
+            var19 = 14;
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.CopyIcon;
@@ -257,7 +182,7 @@ case 13:
             var17 = var22.bind(var4)(var17);
             var18 = var17.FormLabel;
             var17 = {};
-            var19 = 8;
+            var19 = 15;
             var20 = var23[var19];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -273,7 +198,7 @@ case 13:
             var17 = function onPress() {
                 var9 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 6;
+                var1 = 5;
                 var3 = var4[var1];
                 var1 = undefined;
                 var7 = var9.bind(var1)(var3);
@@ -281,13 +206,13 @@ case 13:
                 var3 = _closure2_slot0;
                 var5 = var3.id;
                 var3 = {};
-                var8 = 13;
+                var8 = 11;
                 var10 = var4[var8];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContent;
                 var10 = var10.QUEST_BAR_MOBILE;
                 var3['content'] = var10;
-                var10 = 14;
+                var10 = 12;
                 var10 = var4[var10];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContentCTA;
@@ -300,7 +225,7 @@ case 13:
                 var3['sourceQuestContent'] = var8;
                 var3 = var6.bind(var7)(var5, var3);
                 var3 = _closure1_slot1;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -309,13 +234,13 @@ case 13:
             };
             var10['onPress'] = var17;
             var9 = var13.bind(var4)(var12, var10);
-case 12:
+case 2:
             var8[1] = var9;
             var5['children'] = var8;
             var7 = var3.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot7;
             var22 = _closure1_slot0;
             var18 = _closure1_slot2;
             var7 = var18[var16];
@@ -323,7 +248,7 @@ case 12:
             var7 = var7.ActionSheetRow;
             var8 = var7.Group;
             var7 = {};
-            var17 = _closure1_slot8;
+            var17 = _closure1_slot6;
             var10 = var18[var16];
             var10 = var22.bind(var4)(var10);
             var12 = var10.ActionSheetRow;
@@ -334,7 +259,7 @@ case 12:
             var19 = var13.Icon;
             var13 = {};
             var21 = _closure1_slot1;
-            var20 = 17;
+            var20 = 16;
             var20 = var18[var20];
             var20 = var21.bind(var4)(var20);
             var13['IconComponent'] = var20;
@@ -344,7 +269,7 @@ case 12:
             var13 = var22.bind(var4)(var13);
             var19 = var13.FormLabel;
             var13 = {};
-            var21 = 8;
+            var21 = 15;
             var20 = var18[var21];
             var20 = var22.bind(var4)(var20);
             var24 = var20.intl;
@@ -360,7 +285,7 @@ case 12:
             var13 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var10 = 14;
+                var10 = 12;
                 var3 = var4[var10];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var3);
@@ -369,7 +294,7 @@ case 12:
                 var7 = _closure2_slot0;
                 var9 = var7.id;
                 var3['questId'] = var9;
-                var9 = 13;
+                var9 = 11;
                 var11 = var4[var9];
                 var11 = var5.bind(var1)(var11);
                 var11 = var11.QuestContent;
@@ -386,7 +311,7 @@ case 12:
                 var9 = var9.QUEST_BAR_MOBILE;
                 var3['sourceQuestContent'] = var9;
                 var3 = var6.bind(var8)(var3);
-                var3 = 18;
+                var3 = 17;
                 var3 = var4[var3];
                 var6 = var5.bind(var1)(var3);
                 var5 = var6.openQuestHome;
@@ -395,7 +320,7 @@ case 12:
                 var3['scrollToQuestId'] = var7;
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot1;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -415,7 +340,7 @@ case 12:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 19;
+            var23 = 18;
             var23 = var18[var23];
             var23 = var22.bind(var4)(var23);
             var23 = var23.CircleQuestionIcon;
@@ -441,7 +366,7 @@ case 12:
             var19 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 20;
+                var1 = 19;
                 var2 = var4[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -453,13 +378,13 @@ case 12:
                 var2['isTargetedDisclosure'] = var7;
                 var7 = {};
                 var9 = _closure1_slot0;
-                var8 = 13;
+                var8 = 11;
                 var10 = var4[var8];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContent;
                 var10 = var10.QUEST_BAR_MOBILE;
                 var7['content'] = var10;
-                var10 = 14;
+                var10 = 12;
                 var10 = var4[var10];
                 var10 = var9.bind(var1)(var10);
                 var10 = var10.QuestContentCTA;
@@ -472,7 +397,7 @@ case 12:
                 var7['sourceQuestContent'] = var8;
                 var2['trackingCtx'] = var7;
                 var2 = var5.bind(var6)(var2);
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -491,7 +416,7 @@ case 12:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 21;
+            var23 = 20;
             var23 = var18[var23];
             var23 = var22.bind(var4)(var23);
             var23 = var23.XSmallIcon;
@@ -527,34 +452,34 @@ case 12:
             var19 = _closure1_slot3;
             var18 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var2 = 22;
+                        var2 = 21;
                         var2 = var10[var2];
                         var3 = undefined;
                         var7 = var9.bind(var3)(var2);
                         var6 = var7.dismissQuestContent;
                         var12 = _closure2_slot0;
                         var5 = var12.id;
-                        var8 = 13;
+                        var8 = 11;
                         var2 = var10[var8];
                         var2 = var9.bind(var3)(var2);
                         var2 = var2.QuestContent;
                         var2 = var2.QUEST_BAR_MOBILE;
                         var2 = var6.bind(var7)(var5, var2);
                         var6 = _closure1_slot1;
-                        var5 = 15;
+                        var5 = 13;
                         var5 = var10[var5];
                         var6 = var6.bind(var3)(var5);
                         var5 = var6.hideActionSheet;
                         var5 = var5.bind(var6)();
-                        var11 = 14;
+                        var11 = 12;
                         var5 = var10[var11];
                         var7 = var9.bind(var3)(var5);
                         var6 = var7.trackQuestContentClicked;
@@ -578,23 +503,23 @@ case 15:
                         var5['sourceQuestContent'] = var8;
                         var5 = var6.bind(var7)(var5);
                         SaveGenerator(address=226);
-case 16:
+case 6:
                         return var2;
-case 17:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                        if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 23;
+                        var4 = 22;
                         var4 = var6[var4];
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.displayQuestDismissalToast;
                         var4 = var4.bind(var5)();
                         return var3;
-case 18:
+case 8:
                         return var2;
-case 14:
+case 4:
                         return var1;
                     }
                 };
@@ -608,9 +533,9 @@ case 14:
             var7 = var9.bind(var4)(var8, var7);
             var5[1] = var7;
             var6 = var6.preview;
-            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var9 = _closure1_slot9;
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var9 = _closure1_slot7;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
             var7 = var17[var16];
@@ -628,7 +553,7 @@ case 21:
             var10 = var10.Ape+mm;
             var10 = var12.bind(var18)(var10);
             var7['title'] = var10;
-            var19 = _closure1_slot8;
+            var19 = _closure1_slot6;
             var10 = var17[var16];
             var10 = var13.bind(var4)(var10);
             var12 = var10.ActionSheetRow;
@@ -638,7 +563,7 @@ case 21:
             var18 = var18.ActionSheetRow;
             var20 = var18.Icon;
             var18 = {};
-            var22 = 24;
+            var22 = 23;
             var22 = var17[var22];
             var22 = var13.bind(var4)(var22);
             var22 = var22.TrophyIcon;
@@ -662,12 +587,12 @@ case 21:
             var18 = var19.bind(var4)(var20, var18);
             var10['label'] = var18;
             var18 = function onPress() {
-                var2 = _closure2_slot2;
+                var2 = _closure2_slot1;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -687,7 +612,7 @@ case 21:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 25;
+            var23 = 24;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.RedoIcon;
@@ -711,7 +636,7 @@ case 21:
             var20 = var19.bind(var4)(var22, var20);
             var12['label'] = var20;
             var20 = function onPress() {
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot2;
                 var1 = global;
                 var2 = var1.Math;
                 var1 = var2.random;
@@ -724,7 +649,7 @@ case 21:
                 var2 = var3.bind(var1)(var2);
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -743,7 +668,7 @@ case 21:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 26;
+            var23 = 25;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.UndoIcon;
@@ -767,12 +692,12 @@ case 21:
             var20 = var19.bind(var4)(var22, var20);
             var12['label'] = var20;
             var20 = function onPress() {
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot4;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -791,7 +716,7 @@ case 21:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 27;
+            var23 = 26;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.UnsendIcon;
@@ -815,12 +740,12 @@ case 21:
             var20 = var19.bind(var4)(var22, var20);
             var12['label'] = var20;
             var20 = function onPress() {
-                var2 = _closure2_slot4;
+                var2 = _closure2_slot3;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -830,18 +755,18 @@ case 21:
             var12['onPress'] = var20;
             var12 = var19.bind(var4)(var18, var12);
             var10[3] = var12;
-            var12 = 28;
+            var12 = 27;
             var12 = var17[var12];
             var17 = var13.bind(var4)(var12);
             var13 = var17.isQuestPreviewTool2Enabled;
             var12 = {};
-            var18 = _closure1_slot5;
+            var18 = _closure1_slot4;
             var18 = var18.QUEST_PREVIEW_TOOL_2;
             var12['location'] = var18;
             var12 = var13.bind(var17)(var12);
-            if(!var12) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var18 = _closure1_slot8;
+            if(!var12) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var18 = _closure1_slot6;
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
             var13 = var22[var16];
@@ -853,7 +778,7 @@ case 23:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 29;
+            var23 = 28;
             var23 = var22[var23];
             var23 = var25.bind(var4)(var23);
             var23 = var23.EyeIcon;
@@ -879,13 +804,13 @@ case 23:
             var19 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 30;
+                var1 = 29;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
                 var5 = var6.openUserSettings;
                 var3 = {};
-                var7 = _closure1_slot7;
+                var7 = _closure1_slot5;
                 var7 = var7.QUEST_PREVIEW_TOOL_2;
                 var3['screen'] = var7;
                 var7 = {};
@@ -895,7 +820,7 @@ case 23:
                 var3['params'] = var7;
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot1;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -904,9 +829,9 @@ case 23:
             };
             var13['onPress'] = var19;
             var12 = var18.bind(var4)(var17, var13);
-case 22:
+case 12:
             var10[4] = var12;
-            var13 = _closure1_slot8;
+            var13 = _closure1_slot6;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var11 = var17[var16];
@@ -918,7 +843,7 @@ case 22:
             var16 = var16.ActionSheetRow;
             var18 = var16.Icon;
             var16 = {};
-            var19 = 16;
+            var19 = 14;
             var19 = var17[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.CopyIcon;
@@ -944,7 +869,7 @@ case 22:
             var14 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -953,7 +878,7 @@ case 22:
                 var3 = var3.id;
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot1;
-                var2 = 15;
+                var2 = 13;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
@@ -965,7 +890,7 @@ case 22:
             var10[5] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 20:
+case 10:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

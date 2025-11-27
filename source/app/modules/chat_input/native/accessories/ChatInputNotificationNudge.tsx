@@ -343,7 +343,7 @@ case 2:
         var3 = var7[var4];
         var3 = var6.bind(var5)(var3);
         var3 = var3.colors;
-        var3 = var3.BACKGROUND_SECONDARY;
+        var3 = var3.BACKGROUND_BASE_LOWER;
         var2['backgroundColor'] = var3;
         var1['container'] = var2;
         var2 = {};

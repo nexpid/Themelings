@@ -174,6 +174,7 @@ case 9:
             var4 = var3.MkcdX8;
             var2 = {};
             var2['senderName'] = var8;
+            var2['premiumGroupProductName'] = var7;
             var2 = var5.bind(var6)(var4, var2);
             _fun0002_ip = 10; continue _fun0002;
 case 8:

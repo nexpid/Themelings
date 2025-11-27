@@ -367,7 +367,7 @@ case 35:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_TERTIARY;
+    var15 = var15.BACKGROUND_BASE_LOWEST;
     var12['backgroundColor'] = var15;
     var4['imageContainerEmpty'] = var12;
     var12 = {'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'top': 0, 'height': 24, 'justifyContent': 'center', 'right': 0, 'padding': 4, 'position': 'absolute', 'width': 24};

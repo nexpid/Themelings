@@ -544,7 +544,7 @@ case 16:
             var2 = 21;
             var7 = var8[var2];
             var10 = var9.bind(var4)(var7);
-            var9 = var10.getDisplayPremiumType;
+            var9 = var10.getTierDisplayNameByPlanId;
             var7 = var26.basePlanId;
             var36 = var9.bind(var10)(var7);
             var7 = _closure1_slot1;

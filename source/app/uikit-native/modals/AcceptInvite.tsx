@@ -195,7 +195,7 @@ case 4:
     var15 = var6[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var12['backgroundColor'] = var15;
     var4['parentContainer'] = var12;
     var12 = {'marginVertical': 0, 'resizeMode': 'cover'};
@@ -217,7 +217,7 @@ case 4:
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var12['backgroundColor'] = var13;
     var4['expirationNotice'] = var12;
     var4 = var7.bind(var11)(var4);

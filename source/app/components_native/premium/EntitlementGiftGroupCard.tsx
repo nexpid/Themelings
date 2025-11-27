@@ -160,7 +160,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BACKGROUND_SECONDARY;
+    var21 = var21.BACKGROUND_BASE_LOWER;
     var16['backgroundColor'] = var21;
     var7['groupCardHeader'] = var16;
     var16 = {'height': 8, 'width': 12, 'marginRight': 8};
@@ -176,7 +176,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BACKGROUND_SECONDARY;
+    var21 = var21.BACKGROUND_BASE_LOWER;
     var16['backgroundColor'] = var21;
     var7['generateGiftRow'] = var16;
     var16 = {};
@@ -193,7 +193,7 @@ case 4:
     var18 = var6[var18];
     var18 = var8.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_TERTIARY;
+    var18 = var18.BACKGROUND_BASE_LOWEST;
     var16['backgroundColor'] = var18;
     var7['groupCardHeaderOpen'] = var16;
     var16 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};

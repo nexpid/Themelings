@@ -1174,7 +1174,7 @@ case 76:
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_SECONDARY;
+    var16 = var16.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var16;
     var4['activityContainerBackground'] = var10;
     var10 = {};

@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var14;
     var4['headerBulletIconContainer'] = var9;
     var9 = {};

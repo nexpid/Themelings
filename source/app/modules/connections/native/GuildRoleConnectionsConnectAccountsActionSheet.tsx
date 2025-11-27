@@ -1624,12 +1624,12 @@ case 119:
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BACKGROUND_TERTIARY;
+    var19 = var19.BACKGROUND_BASE_LOWEST;
     var12['borderColor'] = var19;
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BACKGROUND_TERTIARY;
+    var19 = var19.BACKGROUND_BASE_LOWEST;
     var12['backgroundColor'] = var19;
     var2['connectionsChecksGroupPassed'] = var12;
     var12 = {};
@@ -1742,7 +1742,7 @@ case 119:
     var17 = var6[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var12['backgroundColor'] = var17;
     var2['roleGranted'] = var12;
     var12 = {'overflow': 'hidden', 'marginRight': 24};

@@ -178,7 +178,7 @@ case 4:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var10['borderColor'] = var14;
     var10['borderWidth'] = var13;
     var5['customAppIconUpsellLightImage'] = var10;

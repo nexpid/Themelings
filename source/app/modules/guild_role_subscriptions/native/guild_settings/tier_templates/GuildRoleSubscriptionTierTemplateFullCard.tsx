@@ -180,7 +180,7 @@ case 2:
     var10 = var6[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {};

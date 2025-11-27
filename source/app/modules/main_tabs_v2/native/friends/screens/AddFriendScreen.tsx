@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BASE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['input'] = var9;
     var9 = {'marginTop': 16, 'paddingHorizontal': 16};
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var11;
     var4['background'] = var9;
     var9 = {};

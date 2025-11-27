@@ -130,7 +130,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var12;
     var4['iconContainer'] = var9;
     var9 = {'tintColor': null, 'height': 32, 'width': 32};

@@ -129,7 +129,7 @@ case 4:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BASE_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var15;
     var9['flex'] = var10;
     var4['noResultsContainer'] = var9;
@@ -137,7 +137,7 @@ case 4:
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
@@ -190,7 +190,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -212,7 +212,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

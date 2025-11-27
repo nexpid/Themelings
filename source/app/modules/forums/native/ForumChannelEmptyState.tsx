@@ -48,14 +48,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var13;
     var4['outerCircle'] = var10;
     var10 = {'height': 400, 'width': 400, 'borderRadius': 200, 'position': 'absolute', 'backgroundColor': null, 'zIndex': 1};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var11;
     var4['innerCircle'] = var10;
     var10 = {'flex': 1, 'alignSelf': 'stretch', 'justifyContent': 'center', 'alignItems': 'center', 'zIndex': 2, 'position': 'relative'};

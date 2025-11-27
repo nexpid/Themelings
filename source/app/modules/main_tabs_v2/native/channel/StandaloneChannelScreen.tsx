@@ -430,7 +430,7 @@ case 21:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_BASE_PRIMARY;
+    var18 = var18.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var18;
     var4['contentContainer'] = var10;
     var10 = {};
@@ -445,14 +445,14 @@ case 21:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_BASE_PRIMARY;
+    var18 = var18.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var18;
     var4['containerEmpty'] = var10;
     var10 = {'zIndex': 1, 'backgroundColor': null, 'flexDirection': 'row', 'alignItems': 'center', 'flexShrink': 0};
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_BASE_PRIMARY;
+    var18 = var18.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var18;
     var4['headerWrapper'] = var10;
     var10 = {};
@@ -491,7 +491,7 @@ case 21:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BASE_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var15;
     var15 = 'absolute';
     var10['position'] = var15;

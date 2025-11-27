@@ -1244,7 +1244,7 @@ case 67:
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     var2 = var2.colors;
-                    var2 = var2.BG_BASE_PRIMARY;
+                    var2 = var2.BACKGROUND_BASE_LOW;
                     return var2;
 case 91:
                     var2 = _closure2_slot11;

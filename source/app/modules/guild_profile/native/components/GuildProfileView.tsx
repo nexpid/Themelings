@@ -163,7 +163,7 @@ case 9:
         var1 = var9[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.colors;
-        var1 = var1.BG_BASE_TERTIARY;
+        var1 = var1.BACKGROUND_BASE_LOWEST;
         var6 = var6.bind(var11)(var1);
         var1 = 17;
         var1 = var9[var1];
@@ -237,7 +237,7 @@ case 9:
     var14 = var9[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BASE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var14;
     var4['container'] = var11;
     var11 = {'height': 140, 'width': '100%'};
@@ -258,7 +258,7 @@ case 9:
     var12 = var9[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BASE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var12;
     var4['avatarBackground'] = var11;
     var11 = {};

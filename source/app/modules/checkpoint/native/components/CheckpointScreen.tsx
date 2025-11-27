@@ -1,35 +1,35 @@
 // app/modules/checkpoint/native/components/CheckpointScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
+    var7 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
+    var4 = var4.bind(var1)(var7);
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.View;
-    var _closure1_slot3 = var8;
+    var7 = var4.View;
+    var _closure1_slot3 = var7;
     var4 = var4.Image;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -46,12 +46,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot9 = var9;
-    var9 = var4.Fragment;
-    var _closure1_slot10 = var9;
+    var10 = var4.jsx;
+    var _closure1_slot9 = var10;
+    var10 = var4.Fragment;
+    var _closure1_slot10 = var10;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var9.bind(var1)(var4);
+    var4 = var4.spacing;
+    var4 = var4.PX_8;
+    var _closure1_slot12 = var4;
     var4 = {};
     var10 = var8.WELCOME;
     var9 = ['#25724B', '#103924'];
@@ -80,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var8.END;
     var8 = ['#25724B', '#103924'];
     var4[var9] = var8;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = {};
     var9 = var7.ZERO;
     var8 = ['#25724B', '#103924'];
@@ -112,8 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var7.NINE;
     var7 = ['#8E8E8E', '#414141'];
     var4[var8] = var7;
-    var _closure1_slot13 = var4;
-    var4 = 6;
+    var _closure1_slot14 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -123,8 +129,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
     var4['background'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 12;
+    var _closure1_slot15 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -142,18 +148,18 @@ case 3:
             var13 = false;
 case 2:
             var3 = var1.slide;
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             var10 = var1.bind(var4)();
-            var5 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var2 = 7;
-            var2 = var1[var2];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var14 = var2.insets;
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var14 = var1.insets;
             var2 = _closure1_slot0;
-            var18 = 8;
-            var1 = var1[var18];
+            var1 = 9;
+            var1 = var5[var1];
             var6 = var2.bind(var4)(var1);
             var5 = var6.useStateFromStores;
             var1 = _closure1_slot5;
@@ -166,9 +172,9 @@ case 2:
                 return var1;
             };
             var1 = var5.bind(var6)(var2, var1);
-            var2 = _closure1_slot12;
-            var7 = var2[var3];
             var2 = _closure1_slot13;
+            var7 = var2[var3];
+            var2 = _closure1_slot14;
             var1 = var1.cardId;
             var5 = null;
             if(!(var5 == var1)) { _fun0001_ip = 4; continue _fun0001 }
@@ -189,7 +195,7 @@ case 6:
             var8 = _closure1_slot9;
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var5 = 9;
+            var5 = 10;
             var5 = var17[var5];
             var6 = var16.bind(var4)(var5);
             var5 = {};
@@ -207,7 +213,7 @@ case 6:
             var7 = _closure1_slot4;
             var6 = {};
             var11 = {};
-            var15 = 10;
+            var15 = 11;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var11['uri'] = var15;
@@ -227,31 +233,48 @@ case 6:
             var16 = 0;
             if(var13) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var17 = var14.left;
-            var16 = var17 + var18;
+            var18 = var14.left;
+            var17 = _closure1_slot12;
+            var16 = var18 + var17;
 case 8:
             var11['paddingLeft'] = var16;
             var16 = 0;
             if(var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var17 = var14.right;
-            var16 = var17 + var18;
+            var18 = var14.right;
+            var17 = _closure1_slot12;
+            var16 = var18 + var17;
 case 10:
             var11['paddingRight'] = var16;
             var15 = 0;
             if(var13) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var15 = var14.bottom;
+            var17 = var14.bottom;
+            var18 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            var16 = 6;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var16 = var16.spacing;
+            var16 = var16.PX_96;
+            var15 = var17 + var16;
 case 12:
             var11['paddingBottom'] = var15;
-            var14 = var14.top;
-            var11['paddingTop'] = var14;
+            var16 = var14.top;
+            var17 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var15 = 6;
+            var15 = var14[var15];
+            var15 = var17.bind(var4)(var15);
+            var15 = var15.spacing;
+            var15 = var15.PX_64;
+            var15 = var16 + var15;
+            var11['paddingTop'] = var15;
             var10[1] = var11;
             var6['style'] = var10;
             var11 = _closure1_slot9;
             var10 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var9 = 11;
+            var9 = 12;
             var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.CheckpointModalContent;

@@ -31,7 +31,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.FetchStates;
     var _closure1_slot6 = var4;
-    var4 = 5;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.EntitlementTypes;
+    var _closure1_slot7 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -40,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useMaybeFetchCheckpointData() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var6 = 2;
+        var6 = 3;
         var3 = var8[var6];
         var1 = undefined;
         var11 = var7.bind(var1)(var3);
@@ -107,19 +112,28 @@ case 4:
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var3 = _closure2_slot0;
-                var2 = _closure1_slot6;
-                var2 = var2.INIT;
-                if(!(var3 === var2)) { _fun0002_ip = 5; continue _fun0002 }
+                var2 = _closure2_slot0;
+                var1 = _closure1_slot6;
+                var1 = var1.INIT;
+                if(!(var2 === var1)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
                 var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 3;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.fetchCheckpointData;
-                var1 = var1.bind(var2)();
+                var5 = _closure1_slot2;
+                var1 = 4;
+                var1 = var5[var1];
+                var2 = undefined;
+                var6 = var3.bind(var2)(var1);
+                var1 = var6.fetchCheckpointData;
+                var1 = var1.bind(var6)();
+                var1 = 5;
+                var1 = var5[var1];
+                var3 = var3.bind(var2)(var1);
+                var2 = var3.fetchUserEntitlements;
+                var1 = {};
+                var4 = _closure1_slot7;
+                var4 = var4.FREE_PURCHASE;
+                var1['entitlementType'] = var4;
+                var1 = var2.bind(var3)(var1);
 case 5:
                 var1 = undefined;
                 return var1;
@@ -131,7 +145,7 @@ case 5:
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 4;
+            var1 = 6;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

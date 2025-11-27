@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BASE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var14;
     var4['statusBarSpacer'] = var10;
     var10 = {};
@@ -359,7 +359,7 @@ case 12:
             var3 = var23[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BASE_SECONDARY;
+            var3 = var3.BACKGROUND_BASE_LOWER;
             var3 = var7.bind(var13)(var3);
             var _closure2_slot8 = var3;
             var7 = var8.useCallback;

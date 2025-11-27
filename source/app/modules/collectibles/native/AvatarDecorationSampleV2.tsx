@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var4 = var6.bind(var4)(var5);
         var4 = var4.colors;
-        var4 = var4.BG_BASE_SECONDARY;
+        var4 = var4.BACKGROUND_BASE_LOWER;
         var2['backgroundColor'] = var4;
         var1['avatar'] = var2;
         var2 = {};

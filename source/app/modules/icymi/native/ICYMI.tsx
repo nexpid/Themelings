@@ -1233,7 +1233,7 @@ case 40:
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_TERTIARY;
+        var7 = var7.BACKGROUND_BASE_LOWEST;
         var2['backgroundColor'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
@@ -1279,14 +1279,14 @@ case 40:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_PRIMARY;
+        var7 = var7.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var7;
         var1['containerBackground'] = var2;
         var2 = {'backgroundColor': null, 'minHeight': 2, 'flex': 1};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_PRIMARY;
+        var7 = var7.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var7;
         var1['flashListWrapper'] = var2;
         var2 = {};
@@ -1300,7 +1300,7 @@ case 40:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_PRIMARY;
+        var7 = var7.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var7;
         var1['header'] = var2;
         var7 = 'center';

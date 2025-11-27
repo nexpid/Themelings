@@ -375,12 +375,12 @@ case 19:
     var17 = var7[var5];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var11['backgroundColor'] = var17;
     var17 = var7[var5];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var11['borderColor'] = var17;
     var8['inputWrapper'] = var11;
     var11 = {};

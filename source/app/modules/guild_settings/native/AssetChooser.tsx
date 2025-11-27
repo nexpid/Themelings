@@ -128,7 +128,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var13;
     var7['asset'] = var10;
     var10 = {'position': 'absolute', 'bottom': 10, 'right': 10, 'shadowColor': null, 'shadowRadius': 10, 'shadowOffset': null, 'shadowOpacity': 0.2};

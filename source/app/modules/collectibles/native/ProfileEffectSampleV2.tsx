@@ -90,7 +90,7 @@ case 0:
             var1 = var8[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOW;
             var18 = var2.bind(var3)(var1);
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;

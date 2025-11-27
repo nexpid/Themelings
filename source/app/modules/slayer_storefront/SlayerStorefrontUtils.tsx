@@ -1,13 +1,13 @@
 // app/modules/slayer_storefront/SlayerStorefrontUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var7 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
-    var4 = function getMarketingGuildId() {
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
+    var5 = function getMarketingGuildId() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot4;
@@ -32,66 +32,9 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
-    var1 = 0;
-    var5 = var7[var1];
-    var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.STOREFRONT_MARKETING_GUILD_ID;
-    var _closure1_slot5 = var8;
-    var5 = var5.STOREFRONT_MARKETING_GUILD_ID_TEST;
-    var _closure1_slot6 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.GuildFeatures;
-    var _closure1_slot7 = var8;
-    var8 = var5.Routes;
-    var _closure1_slot8 = var8;
-    var5 = var5.SKUProductLines;
-    var _closure1_slot9 = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/slayer_storefront/SlayerStorefrontUtils.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = function isGameItemSKU(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var2 = arg1;
-            var1 = null;
-            var1 = var1 != var2;
-            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var3 = var2.productLine;
-            var2 = _closure1_slot9;
-            var2 = var2.SOCIAL_LAYER_GAME_ITEM;
-            var1 = var3 === var2;
-case 6:
-            return var1;
-        }
-    };
-    var3['isGameItemSKU'] = var5;
-    var3['getMarketingGuildId'] = var4;
+    var _closure1_slot10 = var5;
     var4 = function hasSocialLayerStorefront(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.id;
@@ -99,29 +42,87 @@ case 0:
             var3 = undefined;
             var1 = var1.bind(var3)();
             var1 = var5 === var1;
-            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 3:
             var6 = var2.features;
             var2 = null;
             var5 = var2 == var6;
             var3 = undefined;
-            if(var5) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+            if(var5) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = var6.has;
             var4 = _closure1_slot7;
             var4 = var4.SOCIAL_LAYER_STOREFRONT;
             var3 = var5.bind(var6)(var4);
-case 9:
+case 7:
             var2 = var2 != var3;
-            if(!var2) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = var3;
-case 11:
+case 9:
             var1 = var2;
-case 8:
+case 6:
             return var1;
         }
     };
+    var _closure1_slot11 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.STOREFRONT_MARKETING_GUILD_ID;
+    var _closure1_slot5 = var9;
+    var6 = var6.STOREFRONT_MARKETING_GUILD_ID_TEST;
+    var _closure1_slot6 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.GuildFeatures;
+    var _closure1_slot7 = var9;
+    var9 = var6.Routes;
+    var _closure1_slot8 = var9;
+    var6 = var6.SKUProductLines;
+    var _closure1_slot9 = var6;
+    var6 = 8;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/slayer_storefront/SlayerStorefrontUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function isGameItemSKU(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var3 = var2.productLine;
+            var2 = _closure1_slot9;
+            var2 = var2.SOCIAL_LAYER_GAME_ITEM;
+            var1 = var3 === var2;
+case 11:
+            return var1;
+        }
+    };
+    var3['isGameItemSKU'] = var6;
+    var3['getMarketingGuildId'] = var5;
     var3['hasSocialLayerStorefront'] = var4;
     var4 = function transformSlayerApplicationStorefrontServer(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -415,7 +416,7 @@ case 40:
             var4 = var1 == var2;
             var7 = undefined;
             if(var4) { _fun0009_ip = 39; continue _fun0009 }
-case 10:
+case 8:
             var2 = var2.socialLayer;
             var4 = var1 == var2;
             var7 = undefined;
@@ -488,7 +489,7 @@ case 28:
             var4 = var3 == var1;
             var2 = undefined;
             if(var4) { _fun0010_ip = 43; continue _fun0010 }
-case 9:
+case 7:
             var2 = var1.applicationId;
 case 43:
             if(!(var3 == var2)) { _fun0010_ip = 52; continue _fun0010 }
@@ -519,7 +520,7 @@ case 52:
         }
     };
     var3['getCardBackgroundImageURL'] = var4;
-    var2 = function getSKUShareURL(arg1, arg2) {
+    var4 = function getSKUShareURL(arg1, arg2) {
         var2 = arg2;
         var1 = global;
         var3 = var1.location;
@@ -539,6 +540,39 @@ case 52:
         var1 = var2.bind(var1)(var5, var4, var3);
         return var1;
     };
-    var3['getSKUShareURL'] = var2;
+    var3['getSKUShareURL'] = var4;
+    var2 = function canSeeGameShop(arg1, arg2) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+            var4 = _closure1_slot4;
+            var3 = var4.getGuild;
+            var1 = arg1;
+            var5 = var3.bind(var4)(var1);
+            var1 = null;
+            var1 = var1 != var5;
+            if(!var1) { _fun0011_ip = 27; continue _fun0011 }
+case 40:
+            var4 = _closure1_slot11;
+            var3 = undefined;
+            var1 = var4.bind(var3)(var5);
+case 27:
+            if(!var1) { _fun0011_ip = 53; continue _fun0011 }
+case 54:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 7;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.getIsEligibleForSocialLayerStorefrontUserExperiment;
+            var2 = {};
+            var5 = arg2;
+            var2['location'] = var5;
+            var1 = var3.bind(var4)(var2);
+case 53:
+            return var1;
+        }
+    };
+    var3['canSeeGameShop'] = var2;
     return var1;
 })();

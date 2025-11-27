@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var6[var10];
     var18 = var11.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_BASE_SECONDARY;
+    var18 = var18.BACKGROUND_BASE_LOWER;
     var9['borderColor'] = var18;
     var9['height'] = var14;
     var9['width'] = var14;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var10];
     var16 = var11.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BASE_SECONDARY;
+    var16 = var16.BACKGROUND_BASE_LOWER;
     var9['borderColor'] = var16;
     var16 = var15 * var13;
     var16 = var14 + var16;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['avatarContainer'] = var9;
     var9 = {'position': 'absolute', 'top': 56, 'right': 4294967288};
@@ -273,7 +273,7 @@ case 4:
             var2 = var8[var7];
             var3 = var9.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function b() {
+            var1 = function O() {
                 var1 = {};
                 var3 = {};
                 var8 = _closure1_slot0;

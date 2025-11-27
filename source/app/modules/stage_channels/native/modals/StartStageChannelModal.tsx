@@ -325,7 +325,7 @@ case 7:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var16;
     var5['container'] = var11;
     var11 = {};
@@ -352,7 +352,7 @@ case 7:
     var19 = var7[var14];
     var19 = var15.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BACKGROUND_TERTIARY;
+    var19 = var19.BACKGROUND_BASE_LOWEST;
     var11['backgroundColor'] = var19;
     var5['textInput'] = var11;
     var11 = {};
@@ -380,7 +380,7 @@ case 7:
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_SECONDARY;
+    var18 = var18.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var18;
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
@@ -401,7 +401,7 @@ case 7:
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_TERTIARY;
+    var18 = var18.BACKGROUND_BASE_LOWEST;
     var11['borderBottomColor'] = var18;
     var11['borderBottomWidth'] = var17;
     var5['bottomDivider'] = var11;
@@ -437,7 +437,7 @@ case 7:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_SECONDARY;
+    var16 = var16.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var16;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);

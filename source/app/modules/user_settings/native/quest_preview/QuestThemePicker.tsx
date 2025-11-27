@@ -150,7 +150,7 @@ case 6:
         var7 = var20[var2];
         var7 = var3.bind(var4)(var7);
         var7 = var7.colors;
-        var9 = var7.BG_BASE_PRIMARY;
+        var9 = var7.BACKGROUND_BASE_LOW;
         var7 = _closure1_slot9;
         var7 = var7.LIGHT;
         var10 = var10.bind(var12)(var9, var7);
@@ -161,7 +161,7 @@ case 6:
         var7 = var20[var2];
         var7 = var3.bind(var4)(var7);
         var7 = var7.colors;
-        var9 = var7.BG_BASE_PRIMARY;
+        var9 = var7.BACKGROUND_BASE_LOW;
         var7 = _closure1_slot9;
         var7 = var7.DARKER;
         var9 = var12.bind(var14)(var9, var7);
@@ -172,7 +172,7 @@ case 6:
         var2 = var20[var2];
         var2 = var3.bind(var4)(var2);
         var2 = var2.colors;
-        var3 = var2.BG_BASE_PRIMARY;
+        var3 = var2.BACKGROUND_BASE_LOW;
         var2 = _closure1_slot9;
         var2 = var2.MIDNIGHT;
         var2 = var5.bind(var7)(var3, var2);

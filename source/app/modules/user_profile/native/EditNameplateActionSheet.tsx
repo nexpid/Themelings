@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var15;
     var5['container'] = var11;
     var11 = {'flexDirection': 'column', 'alignItems': 'center', 'paddingBottom': 88};
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var11['color'] = var15;
     var5['nameplatePreviewGradient'] = var11;
     var15 = {'textAlign': 'center', 'marginTop': 16};
@@ -861,7 +861,7 @@ case 45:
             var6 = var15[var5];
             var14 = var23.bind(var4)(var6);
             var7 = var14.useAnimatedProps;
-            var6 = function v() {
+            var6 = function B() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -888,7 +888,7 @@ case 47:
             var7 = var15[var5];
             var18 = var23.bind(var4)(var7);
             var14 = var18.useAnimatedStyle;
-            var7 = function B() {
+            var7 = function v() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var3 = _closure2_slot6;

@@ -1523,7 +1523,7 @@ case 75:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_SECONDARY;
+        var7 = var7.BACKGROUND_BASE_LOWER;
         var2['backgroundColor'] = var7;
         var1['iconBg'] = var2;
         var2 = {};

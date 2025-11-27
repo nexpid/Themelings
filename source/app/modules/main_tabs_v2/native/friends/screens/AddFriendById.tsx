@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var14['borderColor'] = var17;
     var4['textInputWrapper'] = var14;
     var14 = {'flex': 1, 'alignSelf': 'stretch', 'fontSize': 16, 'lineHeight': 20, 'paddingTop': 0, 'paddingBottom': 2, 'paddingStart': 0, 'paddingEnd': 0};

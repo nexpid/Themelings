@@ -46,7 +46,7 @@ case 0:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOW;
             var1 = var2.bind(var3)(var1);
             var2 = null;
             var2 = var2 != var1;

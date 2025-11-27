@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var15[var1];
         var1 = var11.bind(var4)(var1);
         var1 = var1.colors;
-        var1 = var1.BG_BASE_TERTIARY;
+        var1 = var1.BACKGROUND_BASE_LOWEST;
         var12 = var2.bind(var3)(var1);
         var3 = _closure1_slot5;
         var2 = _closure1_slot3;

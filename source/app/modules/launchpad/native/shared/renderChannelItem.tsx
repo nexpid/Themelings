@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = undefined;
         var3 = var5.bind(var3)(var4);
         var3 = var3.colors;
-        var3 = var3.BG_BASE_PRIMARY;
+        var3 = var3.BACKGROUND_BASE_LOW;
         var2['borderColor'] = var3;
         var1['guildBadgeIcon'] = var2;
         return var1;

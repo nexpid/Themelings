@@ -38,53 +38,63 @@ case 0:
             var2 = arg1;
             var7 = var2.applicationId;
             var _closure2_slot0 = var7;
-            var10 = var2.size;
+            var11 = var2.size;
             var5 = var2.names;
-            var11 = undefined;
-            if(!(var5 === var11)) { _fun0001_ip = 2; continue _fun0001 }
+            var12 = undefined;
+            if(!(var5 === var12)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var5 = _closure1_slot4;
 case 2:
             var _closure2_slot1 = var5;
-            var _closure2_slot2 = var11;
-            var _closure2_slot3 = var11;
-            var _closure2_slot4 = var11;
-            var15 = _closure1_slot3;
-            var2 = var15.useState;
+            var10 = var2.format;
+            if(!(var10 === var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var10 = 'png';
+case 4:
+            var _closure2_slot2 = var12;
+            var _closure2_slot3 = var12;
+            var _closure2_slot4 = var12;
+            var16 = _closure1_slot3;
+            var2 = var16.useState;
             var6 = null;
-            var2 = var2.bind(var15)(var6);
-            var13 = _closure1_slot2;
-            var12 = 2;
-            var2 = var13.bind(var11)(var2, var12);
+            var2 = var2.bind(var16)(var6);
+            var14 = _closure1_slot2;
+            var13 = 2;
+            var2 = var14.bind(var12)(var2, var13);
             var8 = 0;
             var9 = var2[var8];
             var3 = 1;
             var2 = var2[var3];
             _closure2_slot2 = var2;
-            var14 = var15.useState;
+            var15 = var16.useState;
             var2 = true;
-            var2 = var14.bind(var15)(var2);
-            var2 = var13.bind(var11)(var2, var12);
+            var2 = var15.bind(var16)(var2);
+            var2 = var14.bind(var12)(var2, var13);
             var8 = var2[var8];
             var2 = var2[var3];
             _closure2_slot3 = var2;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var12];
-            var3 = var3.bind(var11)(var2);
+            var2 = var2[var13];
+            var3 = var3.bind(var12)(var2);
             var2 = var3.getAssetImage;
-            var3 = var2.bind(var3)(var7, var9, var10);
+            var21 = var3;
+            var20 = var7;
+            var19 = var9;
+            var18 = var11;
+            var17 = var10;
+            var3 = var21[var2](var20, var19, var18, var17, var16);
             var2 = 'loading';
-            if(var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var6 != var3;
             var6 = 'not-found';
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = 'fetched';
-case 6:
+case 8:
             var2 = var6;
-case 4:
+case 6:
             var6 = _closure1_slot3;
             var4 = var6.useRef;
             var4 = var4.bind(var6)(var5);
@@ -109,8 +119,8 @@ case 0:
                     var _closure3_slot0 = var3;
                     var4 = _closure2_slot0;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!(var3 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var3 = 2;
@@ -141,30 +151,30 @@ case 0:
                             var7 = 1;
                             var6 = null;
                             var5 = 0;
-                            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                             var4 = var13[var5];
                             var1 = _closure1_slot2;
                             var1 = var1.bind(var3)(var4, var8);
                             var4 = var1[var12];
                             var1 = var1[var7];
-                            if(!(var6 != var1)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                            if(!(var6 != var1)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                             var4 = var1.id;
-                            if(!(var10 !== var4)) { _fun0003_ip = 12; continue _fun0003 }
-case 14:
+                            if(!(var10 !== var4)) { _fun0003_ip = 14; continue _fun0003 }
+case 16:
                             var15 = _closure3_slot0;
                             var14 = var15.includes;
                             var4 = var1.name;
                             var4 = var14.bind(var15)(var4);
-                            if(var4) { _fun0003_ip = 15; continue _fun0003 }
-case 12:
+                            if(var4) { _fun0003_ip = 17; continue _fun0003 }
+case 14:
                             var5 = var5 + 1;
                             var4 = var13.length;
-                            if(var5 < var4) { _fun0003_ip = 11; continue _fun0003 }
-case 10:
+                            if(var5 < var4) { _fun0003_ip = 13; continue _fun0003 }
+case 12:
                             return var3;
-case 15:
+case 17:
                             var2 = _closure2_slot2;
                             var1 = var1.id;
                             var1 = var2.bind(var3)(var1);
@@ -173,7 +183,7 @@ case 15:
                         }
                     };
                     var1 = var2.bind(var3)(var1);
-case 8:
+case 10:
                     var1 = undefined;
                     return var1;
                 }

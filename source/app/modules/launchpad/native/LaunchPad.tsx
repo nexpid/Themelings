@@ -1118,7 +1118,7 @@ case 96:
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BACKGROUND_PRIMARY;
+    var19 = var19.BACKGROUND_BASE_LOW;
     var14['backgroundColor'] = var19;
     var4['wrapper'] = var14;
     var14 = {'flex': 4294967295, 'overflow': 'hidden', 'borderBottomLeftRadius': 24, 'borderBottomRightRadius': 24};
@@ -1148,7 +1148,7 @@ case 96:
     var15 = var6[var15];
     var15 = var16.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var14['backgroundColor'] = var15;
     var4['tabSelected'] = var14;
     var4 = var8.bind(var13)(var4);

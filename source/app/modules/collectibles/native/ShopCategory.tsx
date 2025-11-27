@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_TERTIARY;
+    var15 = var15.BACKGROUND_BASE_LOWEST;
     var11['borderColor'] = var15;
     var8['categoryHeaderBorderLight'] = var11;
     var11 = {'resizeMode': 'cover', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'position': 'absolute'};

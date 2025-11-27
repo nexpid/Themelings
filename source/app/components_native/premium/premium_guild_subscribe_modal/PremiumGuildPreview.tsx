@@ -159,7 +159,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['guild'] = var9;
     var9 = {};
@@ -176,7 +176,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var11;
     var4['tierPill'] = var9;
     var9 = {'width': 16, 'height': 16};

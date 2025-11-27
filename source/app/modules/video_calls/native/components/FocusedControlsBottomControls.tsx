@@ -1043,19 +1043,19 @@ case 54:
                     var1['bottom'] = var4;
                     var5 = _closure2_slot3;
                     var4 = 0;
-                    if(!var5) { _fun0014_ip = 5; continue _fun0014 }
-case 56:
+                    if(!var5) { _fun0014_ip = 56; continue _fun0014 }
+case 57:
                     var7 = _closure2_slot2;
                     var5 = 16;
                     var4 = var5 + var7;
-case 5:
+case 56:
                     var1['right'] = var4;
                     var4 = _closure2_slot3;
                     var3 = 0;
-                    if(!var4) { _fun0014_ip = 57; continue _fun0014 }
-case 58:
+                    if(!var4) { _fun0014_ip = 58; continue _fun0014 }
+case 59:
                     var3 = 8;
-case 57:
+case 58:
                     var1['borderRadius'] = var3;
                     var2 = _closure2_slot4;
                     var1['width'] = var2;
@@ -1127,13 +1127,13 @@ case 57:
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var2 = _closure2_slot0;
-                    if(!var2) { _fun0015_ip = 59; continue _fun0015 }
+                    if(!var2) { _fun0015_ip = 60; continue _fun0015 }
 case 20:
                     var3 = _closure2_slot8;
                     var2 = var3.set;
                     var1 = 0;
                     var1 = var2.bind(var3)(var1);
-case 59:
+case 60:
                     var1 = undefined;
                     return var1;
                 }
@@ -1301,10 +1301,10 @@ case 59:
             var24 = var26.isThemeLight;
             var26 = var24.bind(var26)(var27);
             var24 = null;
-            if(!var26) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+            if(!var26) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
             var24 = var25.visualEffectViewBackground;
-case 60:
+case 61:
             var19[1] = var24;
             var11['style'] = var19;
             var14 = var18.bind(var4)(var14, var11);
@@ -1413,10 +1413,10 @@ case 0:
             var1 = var3.isIOS;
             var3 = var1.bind(var3)();
             var1 = 16;
-            if(!var3) { _fun0016_ip = 62; continue _fun0016 }
+            if(!var3) { _fun0016_ip = 63; continue _fun0016 }
 case 22:
             var1 = 48;
-case 62:
+case 63:
             var1 = var2 + var1;
             return var1;
         }
@@ -1568,10 +1568,10 @@ case 0:
             var6 = var2.onDrawerClose;
             var10 = var2.omitPTT;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0017_ip = 63; continue _fun0017 }
+            if(!(var10 === var4)) { _fun0017_ip = 64; continue _fun0017 }
 case 22:
             var10 = false;
-case 63:
+case 64:
             var5 = var2.onDrawerOpen;
             var _closure2_slot0 = var4;
             var2 = _closure1_slot19;
@@ -1618,8 +1618,8 @@ case 63:
             var8[0] = var11;
             var8[1] = var9;
             var9 = null;
-            if(var10) { _fun0017_ip = 64; continue _fun0017 }
-case 65:
+            if(var10) { _fun0017_ip = 65; continue _fun0017 }
+case 66:
             var12 = _closure1_slot14;
             var11 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -1640,7 +1640,7 @@ case 65:
             var13 = _closure1_slot10;
             var10['stopCallback'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 64:
+case 65:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

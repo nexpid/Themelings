@@ -78,12 +78,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var9['borderColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['smsNumberContainer'] = var9;
     var9 = {};

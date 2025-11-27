@@ -36,8 +36,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['TOTAL_PREMIUM_GROUP_MEMBER_SEATS'] = var5;
     var5 = 6;
     var3['TOTAL_PREMIUM_GROUP_USERS'] = var5;
+    var5 = 12;
+    var3['PREMIUM_GROUP_COOLDOWN_MONTHS'] = var5;
     var3['HELP_CENTER_LINK'] = var4;
-    var2 = function() {
+    var4 = function() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -54,6 +56,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['getPremiumGroupProductName'] = var2;
+    var3['getPremiumGroupProductName'] = var4;
+    var2 = function() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.jI66M4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['getPremiumGroupCountryName'] = var2;
     return var1;
 })();

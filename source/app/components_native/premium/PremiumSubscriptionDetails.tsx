@@ -912,7 +912,7 @@ case 57:
     var29 = var10[var26];
     var29 = var19.bind(var1)(var29);
     var29 = var29.colors;
-    var29 = var29.BACKGROUND_TERTIARY;
+    var29 = var29.BACKGROUND_BASE_LOWEST;
     var16['backgroundColor'] = var29;
     var8['container'] = var16;
     var16 = {'marginTop': 8, 'flexDirection': 'row'};

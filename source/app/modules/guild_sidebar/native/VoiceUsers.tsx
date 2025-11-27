@@ -142,7 +142,7 @@ case 0:
             var5 = arg1;
             if(var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var8 = var3.BG_BASE_TERTIARY;
+            var8 = var3.BACKGROUND_BASE_LOWEST;
             _fun0002_ip = 8; continue _fun0002;
 case 6:
             var8 = var3.EXPRESSION_PICKER_BG;

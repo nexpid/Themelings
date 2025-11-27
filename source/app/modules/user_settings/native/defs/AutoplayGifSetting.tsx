@@ -14,24 +14,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
-    var2 = metroImportDefault;
+    var2 = var6[var1];
     var1 = undefined;
-    var2 = var2.bind(var1)(var4);
-    var _closure1_slot2 = var2;
-    var2 = 1;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
-    var2 = 2;
+    var8 = var2.MobileSetting;
+    var2 = 1;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
     var2 = {};
-    var10 = function title() {
+    var9 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -44,82 +39,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
-    var9 = var9.ACCESSIBILITY;
-    var2['parent'] = var9;
-    var9 = 4;
-    var10 = var6[var9];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.GifAutoPlay;
-    var10 = var10.useSetting;
-    var2['useValue'] = var10;
-    var9 = var6[var9];
+    var2['title'] = var9;
+    var8 = var8.ACCESSIBILITY;
+    var2['parent'] = var8;
+    var8 = 3;
+    var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.GifAutoPlay;
-    var9 = var9.updateSetting;
-    var2['onValueChange'] = var9;
-    var9 = function useDescription() {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var2 = 5;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStores;
-        var1 = _closure1_slot2;
-        var2 = new Array(1);
-        var2[0] = var1;
-        var1 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var1 = _closure1_slot2;
-                var3 = var1.active;
-                var6 = undefined;
-                var1 = undefined;
-                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var5 = _closure1_slot0;
-                var7 = _closure1_slot1;
-                var2 = 3;
-                var3 = var7[var2];
-                var3 = var5.bind(var6)(var3);
-                var4 = var3.intl;
-                var3 = var4.string;
-                var2 = var7[var2];
-                var2 = var5.bind(var6)(var2);
-                var2 = var2.t;
-                var2 = var2.1y+WEi;
-                var1 = var3.bind(var4)(var2);
-case 2:
-                return var1;
-            }
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var2['useDescription'] = var9;
-    var8 = function useIsDisabled() {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var2 = 5;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStores;
-        var1 = _closure1_slot2;
-        var2 = new Array(1);
-        var2[0] = var1;
-        var1 = function() {
-            var1 = _closure1_slot2;
-            var1 = var1.active;
-            return var1;
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var2['useIsDisabled'] = var8;
+    var9 = var9.useSetting;
+    var2['useValue'] = var9;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.GifAutoPlay;
+    var8 = var8.updateSetting;
+    var2['onValueChange'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

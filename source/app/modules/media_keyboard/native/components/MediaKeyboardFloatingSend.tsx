@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var12 = var11.BACKGROUND_SECONDARY;
+    var12 = var11.BACKGROUND_BASE_LOWER;
     var11 = 'color';
     var10[var11] = var12;
     var4['gradient'] = var10;
@@ -258,7 +258,7 @@ case 8:
             var2 = var11[var1];
             var15 = var12.bind(var4)(var2);
             var14 = var15.useAnimatedStyle;
-            var8 = function E() {
+            var8 = function V() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};

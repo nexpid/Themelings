@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var11['backgroundColor'] = var17;
     var17 = 'hidden';
     var11['overflow'] = var17;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var17;
     var4['avatarBorder'] = var10;
     var10 = {'position': 'absolute', 'width': '100%', 'height': 64, 'overflow': 'hidden'};

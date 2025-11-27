@@ -349,10 +349,10 @@ case 0:
 case 39:
                     var12 = var2.questId;
                     var10 = var2.questContent;
-                    var15 = var2.questContentCTA;
-                    var20 = var2.questContentPosition;
-                    var17 = var2.questContentRowIndex;
-                    var16 = var2.impressionId;
+                    var16 = var2.questContentCTA;
+                    var21 = var2.questContentPosition;
+                    var18 = var2.questContentRowIndex;
+                    var17 = var2.impressionId;
                     var9 = var2.trackGuildAndChannelMetadata;
                     var4 = undefined;
                     if(!(var9 === var4)) { _fun0006_ip = 40; continue _fun0006 }
@@ -369,7 +369,7 @@ case 42:
 case 44:
                     var5 = _closure1_slot7;
                     var3 = var5.getQuest;
-                    var18 = var3.bind(var5)(var12);
+                    var19 = var3.bind(var5)(var12);
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 16;
@@ -387,11 +387,15 @@ case 46:
                     if(var5) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
                     var6 = _closure1_slot0;
-                    var19 = _closure1_slot2;
+                    var20 = _closure1_slot2;
                     var11 = 12;
-                    var5 = var19[var11];
+                    var5 = var20[var11];
+                    var13 = var6.bind(var4)(var5);
+                    var5 = var13.getAdMetadataRaw;
+                    var15 = var5.bind(var13)(var10);
+                    var5 = var20[var11];
                     var6 = var6.bind(var4)(var5);
-                    var5 = var6.getAdMetadataRaw;
+                    var5 = var6.getAdMetadataSealed;
                     var13 = var5.bind(var6)(var10);
                     var6 = _closure1_slot18;
                     var5 = {};
@@ -401,82 +405,90 @@ case 48:
                     var5['event'] = var12;
                     var12 = {};
                     var14 = _closure1_slot17;
-                    var22 = var14.bind(var4)(var10, var20, var17);
-                    var23 = var12;
-                    var14 = copyDataProperties(var23, var22);
-                    var17 = _closure1_slot1;
+                    var23 = var14.bind(var4)(var10, var21, var18);
+                    var24 = var12;
+                    var14 = copyDataProperties(var24, var23);
+                    var18 = _closure1_slot1;
                     var14 = 17;
-                    var14 = var19[var14];
-                    var14 = var17.bind(var4)(var14);
-                    var22 = var14.bind(var4)();
-                    var23 = var12;
-                    var14 = copyDataProperties(var23, var22);
+                    var14 = var20[var14];
+                    var14 = var18.bind(var4)(var14);
+                    var23 = var14.bind(var4)();
+                    var24 = var12;
+                    var14 = copyDataProperties(var24, var23);
                     var14 = 'cta_name';
-                    var12[var14] = var15;
+                    var12[var14] = var16;
                     var14 = null;
-                    var15 = var14 != var18;
-                    var17 = null;
-                    if(!var15) { _fun0006_ip = 49; continue _fun0006 }
+                    var16 = var14 != var19;
+                    var18 = null;
+                    if(!var16) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-                    var15 = _closure1_slot14;
-                    var17 = var15.bind(var4)(var18);
+                    var16 = _closure1_slot14;
+                    var18 = var16.bind(var4)(var19);
 case 49:
-                    var15 = 'quest_status';
-                    var12[var15] = var17;
-                    var15 = 'impression_id';
-                    var12[var15] = var16;
-                    var15 = var14 != var3;
-                    var16 = null;
-                    if(!var15) { _fun0006_ip = 51; continue _fun0006 }
+                    var16 = 'quest_status';
+                    var12[var16] = var18;
+                    var16 = 'impression_id';
+                    var12[var16] = var17;
+                    var16 = var14 != var3;
+                    var17 = null;
+                    if(!var16) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
-                    var17 = _closure1_slot0;
-                    var18 = _closure1_slot2;
-                    var15 = 18;
-                    var15 = var18[var15];
-                    var17 = var17.bind(var4)(var15);
-                    var15 = var17.isIOS;
-                    var15 = var15.bind(var17)();
-                    var16 = null;
-                    if(!var15) { _fun0006_ip = 51; continue _fun0006 }
+                    var18 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var16 = 18;
+                    var16 = var19[var16];
+                    var18 = var18.bind(var4)(var16);
+                    var16 = var18.isIOS;
+                    var16 = var16.bind(var18)();
+                    var17 = null;
+                    if(!var16) { _fun0006_ip = 51; continue _fun0006 }
 case 53:
-                    var16 = var3.advertisingId;
+                    var17 = var3.advertisingId;
 case 51:
-                    var15 = 'apple_advertising_id';
-                    var12[var15] = var16;
-                    var15 = var14 != var3;
-                    var16 = null;
-                    if(!var15) { _fun0006_ip = 54; continue _fun0006 }
+                    var16 = 'apple_advertising_id';
+                    var12[var16] = var17;
+                    var16 = var14 != var3;
+                    var17 = null;
+                    if(!var16) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
+                    var18 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var16 = 18;
+                    var16 = var19[var16];
+                    var18 = var18.bind(var4)(var16);
+                    var16 = var18.isAndroid;
+                    var16 = var16.bind(var18)();
+                    var17 = null;
+                    if(!var16) { _fun0006_ip = 54; continue _fun0006 }
+case 56:
+                    var17 = var3.advertisingId;
+case 54:
+                    var16 = 'android_advertising_id';
+                    var12[var16] = var17;
                     var17 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var15 = 18;
-                    var15 = var18[var15];
-                    var17 = var17.bind(var4)(var15);
-                    var15 = var17.isAndroid;
-                    var15 = var15.bind(var17)();
+                    var16 = 19;
+                    var16 = var18[var16];
+                    var17 = var17.bind(var4)(var16);
+                    var16 = var17.v4;
+                    var17 = var16.bind(var17)();
+                    var16 = 'click_id';
+                    var12[var16] = var17;
+                    var17 = var14 != var15;
                     var16 = null;
-                    if(!var15) { _fun0006_ip = 54; continue _fun0006 }
-case 56:
-                    var16 = var3.advertisingId;
-case 54:
-                    var15 = 'android_advertising_id';
-                    var12[var15] = var16;
-                    var16 = _closure1_slot0;
-                    var17 = _closure1_slot2;
-                    var15 = 19;
-                    var15 = var17[var15];
-                    var16 = var16.bind(var4)(var15);
-                    var15 = var16.v4;
-                    var16 = var15.bind(var16)();
-                    var15 = 'click_id';
+                    if(!var17) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
+                    var16 = var15;
+case 57:
+                    var15 = 'metadata_raw';
                     var12[var15] = var16;
                     var15 = var14 != var13;
                     var14 = null;
-                    if(!var15) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
+                    if(!var15) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
                     var14 = var13;
-case 57:
-                    var13 = 'metadata_raw';
+case 59:
+                    var13 = 'metadata_sealed';
                     var12[var13] = var14;
                     var5['properties'] = var12;
                     var5['trackGuildAndChannelMetadata'] = var9;
@@ -545,7 +557,7 @@ case 0:
                 var1 = undefined;
                 var6 = undefined;
                 if(var7) { _fun0007_ip = 11; continue _fun0007 }
-case 59:
+case 61:
                 var7 = _closure2_slot0;
                 var4 = var7.getId;
                 var6 = var4.bind(var7)();
@@ -830,15 +842,16 @@ case 0:
                 var _closure3_slot4 = var1;
                 var4 = var3.trackGuildAndChannelMetadata;
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0008_ip = 60; continue _fun0008 }
-case 61:
+                if(!(var4 === var1)) { _fun0008_ip = 62; continue _fun0008 }
+case 63:
                 var4 = false;
-case 60:
+case 62:
                 var _closure3_slot5 = var4;
                 var3 = var3.sourceQuestContent;
                 var _closure3_slot6 = var3;
                 var _closure3_slot7 = var1;
                 var _closure3_slot8 = var1;
+                var _closure3_slot9 = var1;
                 var5 = _closure1_slot7;
                 var4 = var5.getQuest;
                 var4 = var4.bind(var5)(var7);
@@ -846,11 +859,16 @@ case 60:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var4 = 12;
+                var8 = var7[var4];
+                var9 = var5.bind(var1)(var8);
+                var8 = var9.getAdMetadataRaw;
+                var8 = var8.bind(var9)(var6);
+                _closure3_slot8 = var8;
                 var4 = var7[var4];
                 var8 = var5.bind(var1)(var4);
-                var4 = var8.getAdMetadataRaw;
+                var4 = var8.getAdMetadataSealed;
                 var4 = var4.bind(var8)(var6);
-                _closure3_slot8 = var4;
+                _closure3_slot9 = var4;
                 var4 = 16;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
@@ -895,7 +913,7 @@ case 0:
                         var9 = var8 != var9;
                         var10 = null;
                         if(!var9) { _fun0009_ip = 20; continue _fun0009 }
-case 62:
+case 64:
                         var11 = _closure1_slot14;
                         var9 = _closure3_slot7;
                         var10 = var11.bind(var1)(var9);
@@ -913,8 +931,8 @@ case 20:
                         var6[var9] = var10;
                         var9 = var8 != var7;
                         var10 = null;
-                        if(!var9) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
+                        if(!var9) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
                         var9 = 18;
@@ -923,16 +941,16 @@ case 64:
                         var9 = var11.isIOS;
                         var9 = var9.bind(var11)();
                         var10 = null;
-                        if(!var9) { _fun0009_ip = 63; continue _fun0009 }
-case 65:
+                        if(!var9) { _fun0009_ip = 65; continue _fun0009 }
+case 67:
                         var10 = var7.advertisingId;
-case 63:
+case 65:
                         var9 = 'apple_advertising_id';
                         var6[var9] = var10;
                         var10 = var8 != var7;
                         var9 = null;
-                        if(!var10) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
+                        if(!var10) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
                         var10 = 18;
@@ -941,20 +959,29 @@ case 67:
                         var10 = var11.isAndroid;
                         var10 = var10.bind(var11)();
                         var9 = null;
-                        if(!var10) { _fun0009_ip = 66; continue _fun0009 }
-case 68:
+                        if(!var10) { _fun0009_ip = 68; continue _fun0009 }
+case 70:
                         var9 = var7.advertisingId;
-case 66:
+case 68:
                         var7 = 'android_advertising_id';
                         var6[var7] = var9;
                         var7 = _closure3_slot8;
                         var7 = var8 != var7;
-                        var8 = null;
-                        if(!var7) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
-                        var8 = _closure3_slot8;
-case 69:
+                        var9 = null;
+                        if(!var7) { _fun0009_ip = 71; continue _fun0009 }
+case 72:
+                        var9 = _closure3_slot8;
+case 71:
                         var7 = 'metadata_raw';
+                        var6[var7] = var9;
+                        var7 = _closure3_slot9;
+                        var7 = var8 != var7;
+                        var8 = null;
+                        if(!var7) { _fun0009_ip = 73; continue _fun0009 }
+case 74:
+                        var8 = _closure3_slot9;
+case 73:
+                        var7 = 'metadata_sealed';
                         var6[var7] = var8;
                         var2['properties'] = var6;
                         var6 = _closure3_slot5;

@@ -807,7 +807,7 @@ case 45:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BASE_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var16;
     var10['flex'] = var11;
     var4['container'] = var10;

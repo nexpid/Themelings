@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7[var4];
         var4 = var5.bind(var6)(var4);
         var4 = var4.colors;
-        var4 = var4.BG_BASE_PRIMARY;
+        var4 = var4.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var4;
         var2['marginLeft'] = var3;
         var1['glowMask'] = var2;

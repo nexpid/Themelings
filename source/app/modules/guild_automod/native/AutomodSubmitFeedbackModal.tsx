@@ -321,14 +321,14 @@ case 2:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['container'] = var9;
     var9 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'paddingVertical': 8};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['header'] = var9;
     var9 = {'fontSize': 24, 'fontFamily': null, 'textAlign': 'center', 'color': null, 'lineHeight': 30};
@@ -357,7 +357,7 @@ case 2:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['formBody'] = var9;
     var9 = {};
@@ -370,7 +370,7 @@ case 2:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_PRIMARY;
+    var10 = var10.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var10;
     var4['submitButtonContainer'] = var9;
     var4 = var7.bind(var8)(var4);

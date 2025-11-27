@@ -203,7 +203,7 @@ case 4:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_SECONDARY;
+    var17 = var17.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var17;
     var7['connectedAccountItem'] = var10;
     var10 = {};
@@ -281,7 +281,7 @@ case 4:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_TERTIARY;
+    var15 = var15.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var15;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);

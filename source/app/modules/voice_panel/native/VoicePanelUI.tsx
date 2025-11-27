@@ -1061,7 +1061,7 @@ case 57:
     var19 = var7[var16];
     var19 = var9.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BG_BASE_SECONDARY;
+    var19 = var19.BACKGROUND_BASE_LOWER;
     var13['backgroundColor'] = var19;
     var5['maskDefaultBackground'] = var13;
     var13 = {};
@@ -3336,29 +3336,29 @@ case 0:
                         var3 = var1.bind(var3)();
                         var4 = _closure1_slot15;
                         var4 = var4.PIP;
-                        if(!(var4 !== var3)) { _fun0023_ip = 122; continue _fun0023 }
+                        if(!(var4 !== var3)) { _fun0023_ip = 156; continue _fun0023 }
 case 61:
                         var1 = _closure1_slot15;
                         var1 = var1.DISMISSED;
-                        if(!(var1 !== var3)) { _fun0023_ip = 122; continue _fun0023 }
+                        if(!(var1 !== var3)) { _fun0023_ip = 156; continue _fun0023 }
 case 152:
                         var3 = _closure3_slot6;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
-                        if(!var1) { _fun0023_ip = 156; continue _fun0023 }
-case 157:
-                        var3 = _closure3_slot28;
-                        var1 = var3.get;
-                        var1 = var1.bind(var3)();
-                        var1 = var1.active;
-                        if(!var1) { _fun0023_ip = 156; continue _fun0023 }
+                        if(!var1) { _fun0023_ip = 157; continue _fun0023 }
 case 158:
                         var3 = _closure3_slot28;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
+                        var1 = var1.active;
+                        if(!var1) { _fun0023_ip = 157; continue _fun0023 }
+case 159:
+                        var3 = _closure3_slot28;
+                        var1 = var3.get;
+                        var1 = var1.bind(var3)();
                         var1 = var1.requiresPop;
-                        if(var1) { _fun0023_ip = 159; continue _fun0023 }
-case 156:
+                        if(var1) { _fun0023_ip = 76; continue _fun0023 }
+case 157:
                         var3 = _closure3_slot18;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
@@ -3392,10 +3392,10 @@ case 160:
                         var1 = 1;
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
-case 159:
+case 76:
                         var1 = 1;
                         return var1;
-case 122:
+case 156:
                         var1 = 0;
                         return var1;
                     }

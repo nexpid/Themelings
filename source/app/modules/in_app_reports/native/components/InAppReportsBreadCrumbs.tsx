@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_TERTIARY;
+    var11 = var11.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var11;
     var7['breadCrumbBar'] = var10;
     var10 = {'marginStart': 8, 'lineHeight': 20};

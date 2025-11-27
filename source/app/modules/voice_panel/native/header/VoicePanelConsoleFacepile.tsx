@@ -144,7 +144,7 @@ case 2:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var10['borderColor'] = var13;
     var5['consoleIconContainer'] = var10;
     var10 = {};

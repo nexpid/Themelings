@@ -459,7 +459,7 @@ case 8:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -489,14 +489,14 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var12;
     var4['emojiTruncatedContainer'] = var9;
     var9 = {'paddingVertical': 16, 'paddingHorizontal': 20, 'justifyContent': 'center', 'alignItems': 'center'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

@@ -487,7 +487,7 @@ case 18:
     var23 = var6[var14];
     var23 = var16.bind(var1)(var23);
     var23 = var23.colors;
-    var23 = var23.BACKGROUND_SECONDARY;
+    var23 = var23.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var23;
     var23 = var6[var14];
     var23 = var16.bind(var1)(var23);
@@ -533,7 +533,7 @@ case 18:
     var17 = var6[var14];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var10[var19] = var17;
     var17 = var6[var14];
     var17 = var16.bind(var1)(var17);

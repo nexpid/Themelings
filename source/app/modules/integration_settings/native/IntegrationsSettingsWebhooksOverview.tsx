@@ -393,7 +393,7 @@ case 9:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var11;
     var11 = 16;
     var10['paddingTop'] = var11;

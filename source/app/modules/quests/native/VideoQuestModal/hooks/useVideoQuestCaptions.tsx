@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'error';
     var4['ERROR'] = var7;
     var _closure1_slot4 = var4;
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,24 +48,17 @@ case 0:
             var10 = 2;
             var5 = var2[var10];
             var9 = undefined;
-            var8 = var4.bind(var9)(var5);
-            var7 = var8.resolveVideoQuestAsset;
-            var5 = 3;
-            var5 = var2[var5];
-            var5 = var4.bind(var9)(var5);
-            var5 = var5.FirstPartyQuestTaskTypes;
-            var14 = var5.WATCH_VIDEO_ON_MOBILE;
-            var5 = var2[var10];
-            var5 = var4.bind(var9)(var5);
-            var5 = var5.VideoVariant;
-            var13 = var5.VIDEO;
+            var7 = var4.bind(var9)(var5);
+            var6 = var7.getQuestAsset;
             var2 = var2[var10];
             var2 = var4.bind(var9)(var2);
-            var2 = var2.VideoAssetProperty;
-            var12 = var2.CAPTION;
+            var2 = var2.QuestAssetType;
+            var14 = var2.VIDEO_PLAYER_CAPTION;
             var15 = arg1;
-            var16 = var8;
-            var2 = var16[var7](var15, var14, var13, var12, var11);
+            var12 = true;
+            var16 = var7;
+            var13 = undefined;
+            var2 = var16[var6](var15, var14, var13, var12, var11);
             var11 = null;
             var4 = var11 == var2;
             var7 = undefined;
@@ -111,7 +104,7 @@ case 5:
 case 4:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
-                    var2 = 4;
+                    var2 = 3;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -131,7 +124,7 @@ case 0:
 case 7: // try_start_0
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot1;
-                            var3 = 5;
+                            var3 = 4;
                             var4 = var4[var3];
                             var3 = undefined;
                             var5 = var5.bind(var3)(var4);

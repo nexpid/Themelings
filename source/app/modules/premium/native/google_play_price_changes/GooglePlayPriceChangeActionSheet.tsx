@@ -150,7 +150,7 @@ case 4:
             var1 = 10;
             var2 = var16[var1];
             var3 = var15.bind(var4)(var2);
-            var2 = var3.getDisplayPremiumType;
+            var2 = var3.getTierDisplayNameByPlanId;
             var25 = var2.bind(var3)(var5);
             var2 = var16[var1];
             var3 = var15.bind(var4)(var2);

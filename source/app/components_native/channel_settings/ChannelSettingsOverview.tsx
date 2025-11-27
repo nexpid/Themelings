@@ -307,7 +307,7 @@ case 6:
     var22 = var7[var13];
     var22 = var14.bind(var1)(var22);
     var22 = var22.colors;
-    var22 = var22.BACKGROUND_SECONDARY;
+    var22 = var22.BACKGROUND_BASE_LOWER;
     var21['backgroundColor'] = var22;
     var9['outer'] = var21;
     var21 = {'backgroundColor': null, 'width': 8, 'height': 8};
@@ -333,7 +333,7 @@ case 6:
     var20 = var7[var13];
     var20 = var14.bind(var1)(var20);
     var20 = var20.colors;
-    var20 = var20.BG_BASE_SECONDARY;
+    var20 = var20.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var20;
     var8['screenContainer'] = var11;
     var11 = {};

@@ -96,7 +96,7 @@ case 2:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.BACKGROUND_TERTIARY;
+            var7 = var7.BACKGROUND_BASE_LOWEST;
             var2['backgroundColor'] = var7;
             var7 = var6[var3];
             var7 = var5.bind(var4)(var7);

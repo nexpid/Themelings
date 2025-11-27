@@ -320,7 +320,7 @@ case 11:
     var17 = var9[var14];
     var17 = var15.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_BASE_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var13['backgroundColor'] = var17;
     var17 = var9[var14];
     var17 = var15.bind(var1)(var17);
@@ -333,7 +333,7 @@ case 11:
     var17 = var9[var14];
     var17 = var15.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_BASE_PRIMARY;
+    var17 = var17.BACKGROUND_BASE_LOW;
     var13['backgroundColor'] = var17;
     var13['flexGrow'] = var16;
     var7['container'] = var13;

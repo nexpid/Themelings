@@ -152,7 +152,7 @@ case 0:
             var5 = undefined;
             var4 = var7.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BG_BASE_PRIMARY;
+            var4 = var4.BACKGROUND_BASE_LOW;
             var2['borderColor'] = var4;
             var4 = _closure1_slot0;
             var3 = 8;

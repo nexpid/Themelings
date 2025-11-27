@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_TERTIARY;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
@@ -869,7 +869,7 @@ case 37:
                         var16 = var3 == var15;
                         var14 = undefined;
                         if(var16) { _fun0006_ip = 38; continue _fun0006 }
-case 2:
+case 39:
                         var14 = var15.channel;
 case 38:
                         var1['channel'] = var14;

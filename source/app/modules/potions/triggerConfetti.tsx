@@ -376,8 +376,8 @@ case 39:
 case 38:
             var3 = _closure1_slot6;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0004_ip = 12; continue _fun0004 }
-case 40:
+            if(!var3) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var7 = var6.id;
             var3 = null;
             var11 = var3 == var7;
@@ -400,21 +400,21 @@ case 40:
             var12 = var14[var12];
             var12 = var13.bind(var1)(var12);
             var12 = var12.ConfettiTriggerEmojiType;
-            if(var11) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
-            var11 = var12.UserCreated;
-            _fun0004_ip = 43; continue _fun0004;
-case 41:
-            var11 = var12.Unicode;
+            if(var11) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
+            var11 = var12.UserCreated;
+            _fun0004_ip = 44; continue _fun0004;
+case 42:
+            var11 = var12.Unicode;
+case 44:
             var4['emoji_type'] = var11;
             var4['will_play'] = var3;
             var4['failure_reason'] = var10;
             var10 = arguments[3];
             var4['location'] = var10;
             var4 = var8.bind(var9)(var7, var4);
-            if(!var3) { _fun0004_ip = 12; continue _fun0004 }
-case 44:
+            if(!var3) { _fun0004_ip = 40; continue _fun0004 }
+case 45:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 7;
@@ -427,7 +427,7 @@ case 44:
             var2['emoji'] = var6;
             var2['boundingRect'] = var5;
             var2 = var3.bind(var4)(var2);
-case 12:
+case 40:
             return var1;
         }
     };

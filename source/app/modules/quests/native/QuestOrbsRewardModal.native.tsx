@@ -310,7 +310,7 @@ case 21:
         var4 = undefined;
         var8 = var5.bind(var4)(var8);
         var8 = var8.colors;
-        var8 = var8.BG_BASE_PRIMARY;
+        var8 = var8.BACKGROUND_BASE_LOW;
         var7['backgroundColor'] = var8;
         var1['root'] = var7;
         var8 = _closure1_slot7;
@@ -321,7 +321,7 @@ case 21:
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
         var9 = var9.colors;
-        var9 = var9.BACKGROUND_PRIMARY;
+        var9 = var9.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var9;
         var10 = var8.absoluteFillObject;
         var11 = var2;

@@ -57,7 +57,7 @@ case 0:
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.BG_BASE_SECONDARY;
+        var15 = var15.BACKGROUND_BASE_LOWER;
         var10['backgroundColor'] = var15;
         var4['searchBarContainer'] = var10;
         var10 = {};

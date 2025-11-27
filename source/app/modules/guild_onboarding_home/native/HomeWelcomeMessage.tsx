@@ -155,7 +155,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var4['welcomeContent'] = var9;
     var9 = {'position': 'absolute', 'zIndex': 2, 'top': 0, 'left': 28, 'width': 40, 'height': 40};
@@ -167,7 +167,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var4['avatarBackground'] = var9;
     var9 = {'position': 'absolute', 'top': 4294967294, 'zIndex': 4294967295, 'left': 26, 'width': 44, 'height': 44};

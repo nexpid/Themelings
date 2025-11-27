@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var7[var12];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var19 = var18.BG_BASE_TERTIARY;
+    var19 = var18.BACKGROUND_BASE_LOWEST;
     var18 = 'backgroundColor';
     var11[var18] = var19;
     var5['contentBackground'] = var11;
@@ -406,7 +406,7 @@ case 19:
             var2 = var11[var9];
             var5 = var10.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function x() {
+            var2 = function U() {
                 var1 = {};
                 var9 = {};
                 var6 = _closure1_slot0;

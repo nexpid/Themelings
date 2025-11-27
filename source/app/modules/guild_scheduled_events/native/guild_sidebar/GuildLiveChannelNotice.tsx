@@ -945,7 +945,7 @@ case 45:
             var9 = var6[var3];
             var9 = var5.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.BG_BASE_PRIMARY;
+            var9 = var9.BACKGROUND_BASE_LOW;
             var2['backgroundColor'] = var9;
             var8 = _closure1_slot19;
             var2['height'] = var8;
@@ -969,7 +969,7 @@ case 45:
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BASE_SECONDARY;
+            var3 = var3.BACKGROUND_BASE_LOWER;
             var2['backgroundColor'] = var3;
             var1['audienceBadge'] = var2;
             return var1;

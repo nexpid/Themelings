@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_PRIMARY;
+    var10 = var10.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var10;
     var4['scrollView'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -153,7 +153,7 @@ case 0:
             var8 = var18[var8];
             var8 = var15.bind(var4)(var8);
             var8 = var8.colors;
-            var8 = var8.BG_BASE_PRIMARY;
+            var8 = var8.BACKGROUND_BASE_LOW;
             var8 = var12.bind(var14)(var8);
             var _closure2_slot3 = var8;
             var15 = _closure1_slot3;

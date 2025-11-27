@@ -129,7 +129,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var11;
     var7['form'] = var10;
     var10 = {'height': 16, 'width': 16, 'opacity': 0.6};

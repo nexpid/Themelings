@@ -405,7 +405,7 @@ case 8:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['container'] = var9;
     var9 = {'flex': 1, 'alignItems': 'center', 'justifyContent': 'center', 'paddingTop': 28, 'paddingBottom': 12};
@@ -422,7 +422,7 @@ case 8:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_TERTIARY;
+    var13 = var13.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var13;
     var4['profileEffect'] = var9;
     var13 = '100%';

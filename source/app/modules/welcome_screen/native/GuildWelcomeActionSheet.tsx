@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var16;
     var2['container'] = var10;
     var10 = {'borderRadius': null, 'width': 64, 'height': 64, 'marginBottom': 16};
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var15;
     var10['marginTop'] = var14;
     var14 = var7[var11];
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_TERTIARY;
+    var13 = var13.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var13;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);

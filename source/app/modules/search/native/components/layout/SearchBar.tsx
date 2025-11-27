@@ -919,7 +919,7 @@ case 45:
         var2 = var17[var2];
         var2 = var15.bind(var4)(var2);
         var2 = var2.colors;
-        var2 = var2.BG_BASE_TERTIARY;
+        var2 = var2.BACKGROUND_BASE_LOWEST;
         var2 = var3.bind(var12)(var2);
         var _closure2_slot6 = var2;
         var12 = var14.useMemo;

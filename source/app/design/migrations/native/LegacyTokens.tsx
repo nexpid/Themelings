@@ -950,7 +950,7 @@ case 8:
             var1 = var4[var1];
             var1 = var3.bind(var6)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOW;
             _fun0028_ip = 9; continue _fun0028;
 case 2:
             var4 = _closure1_slot0;

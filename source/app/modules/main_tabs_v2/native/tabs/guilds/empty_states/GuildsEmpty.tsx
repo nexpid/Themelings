@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var13];
     var12 = var15.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BASE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var12;
     var5['header'] = var11;
     var12 = 'center';
@@ -276,7 +276,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var13];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BASE_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var16;
     var5['scrollViewContentContainer'] = var11;
     var11 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
@@ -311,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var13];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BASE_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var16;
     var5['buttonContainer'] = var11;
     var11 = {};

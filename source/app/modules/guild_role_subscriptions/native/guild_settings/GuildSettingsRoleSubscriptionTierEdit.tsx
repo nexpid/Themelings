@@ -316,7 +316,7 @@ case 6:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_SECONDARY;
+    var17 = var17.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var17;
     var11['padding'] = var16;
     var8['tabsContainer'] = var11;
@@ -332,7 +332,7 @@ case 6:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var12;
     var8['tabContent'] = var11;
     var11 = {'marginTop': 24, 'paddingStart': 16};

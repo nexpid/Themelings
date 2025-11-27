@@ -1168,7 +1168,7 @@ case 80:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var15;
     var11['flex'] = var14;
     var4['container'] = var11;

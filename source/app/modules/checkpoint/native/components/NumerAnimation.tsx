@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = {};
     var10 = 100;
-    var9['maxHeight'] = var10;
+    var9['height'] = var10;
     var4['animation'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
@@ -300,7 +300,7 @@ case 10:
             var8 = var7[var5];
             var8 = var6.bind(var4)(var8);
             var8 = var8.Fit;
-            var8 = var8.ScaleDown;
+            var8 = var8.Contain;
             var1['fit'] = var8;
             var8 = var7[var5];
             var8 = var6.bind(var4)(var8);

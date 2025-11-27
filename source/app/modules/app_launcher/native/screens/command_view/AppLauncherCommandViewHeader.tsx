@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var10[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_TERTIARY;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
     var12['backgroundColor'] = var17;
     var4['loadingHeaderContainer'] = var12;
     var12 = {'position': 'absolute', 'padding': 4, 'bottom': 4294967260, 'left': '50%'};
@@ -173,7 +173,7 @@ case 2:
             var7 = var3[var12];
             var9 = var2.bind(var4)(var7);
             var8 = var9.useAnimatedStyle;
-            var7 = function O() {
+            var7 = function A() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -357,7 +357,7 @@ case 2:
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BG_BASE_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOW;
             var8 = var8.bind(var9)(var1);
             var1 = 10;
             var1 = var3[var1];

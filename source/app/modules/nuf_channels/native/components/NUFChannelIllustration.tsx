@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BASE_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var12;
     var4['cardBackground'] = var9;
     var9 = {'paddingVertical': 12, 'paddingHorizontal': 16, 'display': 'flex', 'alignItems': 'center', 'flexDirection': 'row', 'borderBottomColor': null, 'borderBottomWidth': 1};
@@ -319,7 +319,7 @@ case 2:
         var1 = var16[var11];
         var3 = var23.bind(var4)(var1);
         var2 = var3.useAnimatedStyle;
-        var1 = function b() {
+        var1 = function w() {
             var1 = {};
             var3 = {};
             var5 = _closure1_slot0;

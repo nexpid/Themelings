@@ -33,7 +33,7 @@ case 0:
             var9 = var9.bind(var10)(var3);
             var1 = var1[var6];
             var2 = var2.bind(var4)(var1);
-            var1 = var2.getDisplayPremiumType;
+            var1 = var2.getTierDisplayNameByPlanId;
             var23 = var1.bind(var2)(var20);
             var24 = null;
             var1 = var24 != var19;
@@ -277,7 +277,7 @@ case 12:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['creditList'] = var9;
     var13 = 16;

@@ -728,6 +728,8 @@ case 83:
             var8['applicationId'] = var21;
             var8['size'] = var20;
             var8['names'] = var11;
+            var11 = 'webp';
+            var8['format'] = var11;
             var11 = var9.bind(var6)(var8);
             var8 = var7.activity_preview_video_asset_id;
             var8 = var10 != var8;

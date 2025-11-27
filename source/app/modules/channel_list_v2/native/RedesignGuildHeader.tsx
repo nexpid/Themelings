@@ -643,7 +643,7 @@ case 17:
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var2 = var2.colors;
-            var1 = var2.BG_BASE_PRIMARY;
+            var1 = var2.BACKGROUND_BASE_LOW;
 case 19:
             return var1;
         }

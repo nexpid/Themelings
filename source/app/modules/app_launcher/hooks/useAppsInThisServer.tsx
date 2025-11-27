@@ -122,12 +122,12 @@ case 0:
                         var3 = var3.data;
                         var4 = var3.length;
                         var3 = 0;
-                        if(!(var4 > var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                        if(!(var4 > var3)) { _fun0002_ip = 3; continue _fun0002 }
+case 6:
                         var3 = var1.add;
                         var2 = var2.id;
                         var2 = var3.bind(var1)(var2);
-case 6:
+case 3:
                         return var1;
                     }
                 };
@@ -140,10 +140,10 @@ case 6:
             var6 = var2.result;
             var11 = var10 == var6;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var10 = var6.sections;
+            if(var11) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var10 = var6.sections;
+case 7:
             var6 = new Array(2);
             var6[0] = var10;
             var6[1] = var1;
@@ -158,14 +158,14 @@ case 0:
                     var5 = null;
                     var7 = var5 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                    var2 = var6.sections;
+                    if(var7) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                    if(!(var5 == var2)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                    var2 = {};
+                    var2 = var6.sections;
+case 9:
+                    if(!(var5 == var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
+                    var2 = {};
+case 11:
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.map;
                     var2 = function(arg1) {
@@ -190,7 +190,7 @@ case 0:
                             var3 = var3 in var1;
                             var1 = !var3;
                             if(var3) { _fun0004_ip = 4; continue _fun0004 }
-case 13:
+case 12:
                             var4 = _closure2_slot2;
                             var3 = var4.has;
                             var2 = var2.id;
@@ -248,10 +248,10 @@ case 4:
             var1['appsInThisServer'] = var4;
             var2 = var2.fetchState;
             var2 = var2.fetching;
-            if(var2) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var2 = var3;
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
+            var2 = var3;
+case 13:
             var1['isLoading'] = var2;
             return var1;
         }

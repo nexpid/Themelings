@@ -366,7 +366,7 @@ case 22:
     var11 = var6[var13];
     var11 = var14.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var11;
     var11 = 'center';
     var4['barContainer'] = var9;

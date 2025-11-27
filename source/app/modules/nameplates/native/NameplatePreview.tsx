@@ -76,7 +76,7 @@ case 2:
             var8 = var8[var6];
             var8 = var9.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.BACKGROUND_TERTIARY;
+            var8 = var8.BACKGROUND_BASE_LOWEST;
             var2['backgroundColor'] = var8;
             var1['container'] = var2;
             var2 = {};

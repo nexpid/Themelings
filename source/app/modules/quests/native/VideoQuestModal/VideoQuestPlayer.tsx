@@ -178,7 +178,7 @@ case 2:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_TERTIARY;
+    var13 = var13.BACKGROUND_BASE_LOWEST;
     var17 = 'backgroundColor';
     var10[var17] = var13;
     var14 = 'center';
@@ -420,30 +420,23 @@ case 12:
             var6 = new Array(1);
             var6[0] = var39;
             var4 = function() {
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
+                var2 = _closure1_slot0;
+                var7 = _closure1_slot2;
                 var1 = 14;
-                var2 = var9[var1];
-                var7 = undefined;
-                var6 = var8.bind(var7)(var2);
-                var5 = var6.resolveVideoQuestAsset;
-                var4 = _closure2_slot6;
-                var2 = 15;
-                var2 = var9[var2];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.FirstPartyQuestTaskTypes;
-                var12 = var2.WATCH_VIDEO_ON_MOBILE;
-                var2 = var9[var1];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.VideoVariant;
-                var11 = var2.VIDEO;
-                var1 = var9[var1];
-                var1 = var8.bind(var7)(var1);
-                var1 = var1.VideoAssetProperty;
-                var10 = var1.VIDEO;
-                var14 = var6;
-                var13 = var4;
-                var1 = var14[var5](var13, var12, var11, var10, var9);
+                var3 = var7[var1];
+                var6 = undefined;
+                var5 = var2.bind(var6)(var3);
+                var4 = var5.getQuestAsset;
+                var3 = _closure2_slot6;
+                var1 = var7[var1];
+                var1 = var2.bind(var6)(var1);
+                var1 = var1.QuestAssetType;
+                var10 = var1.VIDEO_PLAYER_VIDEO;
+                var8 = true;
+                var12 = var5;
+                var11 = var3;
+                var9 = undefined;
+                var1 = var12[var4](var11, var10, var9, var8, var7);
                 return var1;
             };
             var6 = var8.bind(var10)(var4, var6);
@@ -452,30 +445,23 @@ case 12:
             var8 = new Array(1);
             var8[0] = var39;
             var4 = function() {
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
+                var2 = _closure1_slot0;
+                var7 = _closure1_slot2;
                 var1 = 14;
-                var2 = var9[var1];
-                var7 = undefined;
-                var6 = var8.bind(var7)(var2);
-                var5 = var6.resolveVideoQuestAsset;
-                var4 = _closure2_slot6;
-                var2 = 15;
-                var2 = var9[var2];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.FirstPartyQuestTaskTypes;
-                var12 = var2.WATCH_VIDEO_ON_MOBILE;
-                var2 = var9[var1];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.VideoVariant;
-                var11 = var2.VIDEO_HLS;
-                var1 = var9[var1];
-                var1 = var8.bind(var7)(var1);
-                var1 = var1.VideoAssetProperty;
-                var10 = var1.VIDEO;
-                var14 = var6;
-                var13 = var4;
-                var1 = var14[var5](var13, var12, var11, var10, var9);
+                var3 = var7[var1];
+                var6 = undefined;
+                var5 = var2.bind(var6)(var3);
+                var4 = var5.getQuestAsset;
+                var3 = _closure2_slot6;
+                var1 = var7[var1];
+                var1 = var2.bind(var6)(var1);
+                var1 = var1.QuestAssetType;
+                var10 = var1.VIDEO_PLAYER_VIDEO_HLS;
+                var8 = true;
+                var12 = var5;
+                var11 = var3;
+                var9 = undefined;
+                var1 = var12[var4](var11, var10, var9, var8, var7);
                 return var1;
             };
             var28 = var9.bind(var10)(var4, var8);
@@ -493,7 +479,7 @@ case 17:
             var4 = 14;
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
-            var4 = var4.VideoQuestAssetId;
+            var4 = var4.QuestAssetType;
             var12 = var4.VIDEO_PLAYER_VIDEO;
             _fun0002_ip = 18; continue _fun0002;
 case 16:
@@ -502,7 +488,7 @@ case 16:
             var4 = 14;
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
-            var4 = var4.VideoQuestAssetId;
+            var4 = var4.QuestAssetType;
             var12 = var4.VIDEO_PLAYER_VIDEO_HLS;
 case 18:
             var17 = _closure1_slot4;
@@ -530,7 +516,7 @@ case 18:
             _closure2_slot14 = var47;
             var10 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var8 = 16;
+            var8 = 15;
             var8 = var20[var8];
             var8 = var10.bind(var5)(var8);
             var10 = var8.shallow;
@@ -592,7 +578,7 @@ case 23:
             _closure2_slot20 = var34;
             var36 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var18 = 17;
+            var18 = 16;
             var8 = var24[var18];
             var9 = var36.bind(var5)(var8);
             var8 = var9.useSharedValue;
@@ -601,7 +587,7 @@ case 23:
             var8 = var24[var18];
             var17 = var36.bind(var5)(var8);
             var9 = var17.useAnimatedStyle;
-            var8 = function z() {
+            var8 = function W() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure2_slot18;
@@ -644,7 +630,7 @@ case 25:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 18;
+                    var4 = 17;
                     var4 = var6[var4];
                     var8 = undefined;
                     var6 = var5.bind(var8)(var4);
@@ -656,7 +642,7 @@ case 35:
 case 34:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var9[var2];
                     var2 = var7.bind(var8)(var2);
                     var2 = var2.SUBTLE_SPRING;
@@ -679,12 +665,12 @@ case 36:
             var20['PlayerState'] = var27;
             var20['isVideoEnded'] = var34;
             var20['externallyPaused'] = var3;
-            var27 = 18;
+            var27 = 17;
             var27 = var24[var27];
             var27 = var36.bind(var5)(var27);
             var27 = var27.withSpring;
             var20['withSpring'] = var27;
-            var27 = 19;
+            var27 = 18;
             var27 = var24[var27];
             var27 = var36.bind(var5)(var27);
             var27 = var27.SUBTLE_SPRING;
@@ -707,7 +693,7 @@ case 36:
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 20;
+                var2 = 19;
                 var2 = var8[var2];
                 var4 = undefined;
                 var6 = var7.bind(var4)(var2);
@@ -717,7 +703,7 @@ case 36:
                 var3 = var2.bind(var3)();
                 var2 = 100;
                 var3 = var2 * var3;
-                var2 = 21;
+                var2 = 20;
                 var2 = var8[var2];
                 var2 = var7.bind(var4)(var2);
                 var4 = var2.timingFast;
@@ -729,13 +715,13 @@ case 36:
                 return var1;
             };
             var27 = {};
-            var32 = 20;
+            var32 = 19;
             var32 = var24[var32];
             var32 = var36.bind(var5)(var32);
             var32 = var32.withTiming;
             var27['withTiming'] = var32;
             var27['progress'] = var54;
-            var32 = 21;
+            var32 = 20;
             var32 = var24[var32];
             var32 = var36.bind(var5)(var32);
             var32 = var32.timingFast;
@@ -808,7 +794,7 @@ case 38:
             };
             var42 = var27.bind(var44)(var8, var9);
             var9 = _closure1_slot1;
-            var8 = 22;
+            var8 = 21;
             var8 = var24[var8];
             var9 = var9.bind(var5)(var8);
             var8 = {};
@@ -872,7 +858,7 @@ case 42:
             var44 = var11.tasks;
             var46 = _closure1_slot0;
             var49 = _closure1_slot2;
-            var11 = 15;
+            var11 = 22;
             var11 = var49[var11];
             var11 = var46.bind(var5)(var11);
             var11 = var11.FirstPartyQuestTaskTypes;
@@ -1413,13 +1399,13 @@ case 79:
                     var4 = var6.bind(var2)(var4);
                     var2 = var4.isAndroid;
                     var2 = var2.bind(var4)();
-                    if(!var2) { _fun0014_ip = 34; continue _fun0014 }
-case 98:
+                    if(!var2) { _fun0014_ip = 98; continue _fun0014 }
+case 61:
                     var2 = _closure2_slot5;
                     var4 = var2.current;
                     var2 = var4.seek;
                     var2 = var2.bind(var4)(var5);
-case 34:
+case 98:
                     var1 = _closure2_slot5;
                     var2 = var1.current;
                     var1 = var2.seek;

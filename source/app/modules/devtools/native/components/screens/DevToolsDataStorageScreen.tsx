@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var13['backgroundColor'] = var16;
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var13['backgroundColor'] = var14;
     var4['sectionHeader'] = var13;
     var4 = var7.bind(var12)(var4);

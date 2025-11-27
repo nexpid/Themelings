@@ -68,12 +68,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
         var8 = var8.colors;
-        var8 = var8.BG_BASE_PRIMARY;
+        var8 = var8.BACKGROUND_BASE_LOW;
         var2['borderColor'] = var8;
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
         var8 = var8.colors;
-        var8 = var8.BG_BASE_PRIMARY;
+        var8 = var8.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var8;
         var8 = 2;
         var2['borderWidth'] = var8;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.BG_BASE_SECONDARY;
+        var3 = var3.BACKGROUND_BASE_LOWER;
         var2['backgroundColor'] = var3;
         var1['audienceBadge'] = var2;
         return var1;

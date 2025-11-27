@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var9];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var15 = var10.BACKGROUND_TERTIARY;
+    var15 = var10.BACKGROUND_BASE_LOWEST;
     var10 = 'backgroundColor';
     var8[var10] = var15;
     var2['textInput'] = var8;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var9];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var8['backgroundColor'] = var15;
     var2['disabledTextInput'] = var8;
     var8 = {};
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var9];
     var9 = var11.bind(var1)(var9);
     var9 = var9.colors;
-    var9 = var9.BACKGROUND_SECONDARY;
+    var9 = var9.BACKGROUND_BASE_LOWER;
     var8[var10] = var9;
     var2['dropdownInput'] = var8;
     var2 = var4.bind(var7)(var2);

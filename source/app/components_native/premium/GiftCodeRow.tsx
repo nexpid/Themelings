@@ -111,7 +111,7 @@ case 4:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var15;
     var7['giftCodeRow'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'marginVertical': 8, 'padding': 8};

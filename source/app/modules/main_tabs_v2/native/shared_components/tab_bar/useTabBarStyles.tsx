@@ -131,7 +131,7 @@ case 6:
         var16 = var8[var12];
         var16 = var13.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BG_BASE_SECONDARY;
+        var16 = var16.BACKGROUND_BASE_LOWER;
         var10['backgroundColor'] = var16;
         var4['tabBarTablet'] = var10;
         var10 = {};
@@ -187,7 +187,7 @@ case 7:
         var17 = var8[var12];
         var17 = var13.bind(var1)(var17);
         var17 = var17.colors;
-        var17 = var17.BG_BASE_TERTIARY;
+        var17 = var17.BACKGROUND_BASE_LOWEST;
         var10['backgroundColor'] = var17;
         var4['tabBarNuxBackground'] = var10;
         var10 = {};

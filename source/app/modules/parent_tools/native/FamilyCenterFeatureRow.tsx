@@ -143,7 +143,7 @@ case 4:
     var16 = var7[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var16;
     var11['elevation'] = var15;
     var8['container'] = var11;

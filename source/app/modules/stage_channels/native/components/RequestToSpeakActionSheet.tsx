@@ -411,14 +411,14 @@ case 13:
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'padding': 12};
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var12;
     var4['header'] = var9;
     var9 = {};
@@ -435,7 +435,7 @@ case 13:
     var10 = var6[var11];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_TERTIARY;
+    var10 = var10.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var10;
     var4['textInput'] = var9;
     var9 = {};
@@ -455,7 +455,7 @@ case 13:
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var12;
     var9['padding'] = var11;
     var9['marginEnd'] = var10;

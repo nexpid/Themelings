@@ -468,7 +468,7 @@ case 0:
             var7 = var7[var6];
             var7 = var10.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.BG_BASE_PRIMARY;
+            var7 = var7.BACKGROUND_BASE_LOW;
             var2['backgroundColor'] = var7;
             var10 = arg1;
             var7 = var9;

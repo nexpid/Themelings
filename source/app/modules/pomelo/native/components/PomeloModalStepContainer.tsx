@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var4['backgroundColor'] = var11;
     var7['container'] = var4;
     var4 = {'width': '100%', 'flexDirection': 'column', 'marginTop': 16, 'marginBottom': 16};
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var11['shadowColor'] = var12;
     var12 = {'height': 4294967272, 'width': 0};
     var11['shadowOffset'] = var12;

@@ -492,7 +492,7 @@ case 17:
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_TERTIARY;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
     var11['backgroundColor'] = var12;
     var2['remainingUsersIconContainer'] = var11;
     var2 = var8.bind(var10)(var2);

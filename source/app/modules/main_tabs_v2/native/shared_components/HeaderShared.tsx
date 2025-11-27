@@ -250,7 +250,7 @@ case 10:
     var15 = var11[var16];
     var15 = var17.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BASE_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var15;
     var18 = 'center';
     var15 = var11[var16];

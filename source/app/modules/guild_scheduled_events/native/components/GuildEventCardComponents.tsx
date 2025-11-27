@@ -739,7 +739,7 @@ case 51:
     var31 = var16[var26];
     var31 = var27.bind(var1)(var31);
     var31 = var31.colors;
-    var31 = var31.BACKGROUND_TERTIARY;
+    var31 = var31.BACKGROUND_BASE_LOWEST;
     var25['backgroundColor'] = var31;
     var7['imageHeaderContainer'] = var25;
     var25 = {'flexDirection': 'row', 'alignItems': 'center'};

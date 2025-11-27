@@ -76,6 +76,19 @@ case 2:
         return var1;
     };
     var4['getArticleURL'] = var8;
+    var8 = function getEnglishArticleURL(arg1) {
+        var3 = _closure1_slot7;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var2 = '/hc/en-us/articles/';
+        var1 = arg1;
+        var2 = var4.bind(var2)(var1);
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4['getEnglishArticleURL'] = var8;
     var8 = function getDevArticleURL(arg1) {
         var4 = _closure1_slot7;
         var2 = _closure1_slot8;

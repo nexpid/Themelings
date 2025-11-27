@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['keyboardStickyFooter'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -93,7 +93,7 @@ case 2:
             var9 = var8[var1];
             var11 = var6.bind(var4)(var9);
             var10 = var11.useAnimatedStyle;
-            var9 = function _() {
+            var9 = function S() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure1_slot0;

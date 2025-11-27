@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_TERTIARY;
+    var15 = var15.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var15;
     var4['containerWithoutSplash'] = var9;
     var9 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
@@ -451,7 +451,7 @@ case 6:
             var2 = var8[var18];
             var4 = var9.bind(var5)(var2);
             var3 = var4.useAnimatedStyle;
-            var2 = function L() {
+            var2 = function q() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var10 = _closure1_slot0;

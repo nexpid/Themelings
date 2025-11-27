@@ -442,7 +442,7 @@ case 9:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var9['flex'] = var13;
     var4['analyticsContainer'] = var9;
@@ -457,14 +457,14 @@ case 9:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['detailsContainer'] = var9;
     var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_TERTIARY;
+    var11 = var11.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var11;
     var11 = 10;
     var9['paddingHorizontal'] = var11;

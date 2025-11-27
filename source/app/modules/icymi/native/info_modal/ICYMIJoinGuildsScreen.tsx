@@ -767,7 +767,7 @@ case 42:
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_BASE_SECONDARY;
+        var7 = var7.BACKGROUND_BASE_LOWER;
         var2['backgroundColor'] = var7;
         var7 = 1;
         var9 = var10.margin;

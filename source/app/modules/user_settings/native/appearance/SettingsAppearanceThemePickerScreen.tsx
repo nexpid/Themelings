@@ -190,7 +190,7 @@ case 6:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BG_BASE_PRIMARY;
+        var13 = var13.BACKGROUND_BASE_LOW;
         var8['backgroundColor'] = var13;
         var8 = var9.bind(var12)(var8);
         var _closure1_slot17 = var8;
@@ -732,7 +732,7 @@ case 17:
                 var18 = var11[var5];
                 var27 = var8.bind(var4)(var18);
                 var26 = var27.useAnimatedStyle;
-                var21 = function Ce() {
+                var21 = function Ae() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var2 = _closure2_slot0;

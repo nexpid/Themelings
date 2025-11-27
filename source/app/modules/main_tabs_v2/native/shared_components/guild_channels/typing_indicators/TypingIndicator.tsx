@@ -47,7 +47,7 @@ case 0:
             var6 = undefined;
             var5 = var8.bind(var6)(var5);
             var5 = var5.colors;
-            var5 = var5.BG_BASE_PRIMARY;
+            var5 = var5.BACKGROUND_BASE_LOW;
             var2['borderColor'] = var5;
             var1['ellipsisWrapper'] = var2;
             var2 = {'borderRadius': 13, 'paddingVertical': 4, 'paddingStart': 4, 'paddingEnd': 2, 'marginRight': 0};

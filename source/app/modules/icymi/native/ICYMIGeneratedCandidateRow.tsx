@@ -383,12 +383,12 @@ case 36:
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
         var9 = var9.colors;
-        var9 = var9.BG_BASE_PRIMARY;
+        var9 = var9.BACKGROUND_BASE_LOW;
         var2['borderColor'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
         var9 = var9.colors;
-        var9 = var9.BG_BASE_PRIMARY;
+        var9 = var9.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);

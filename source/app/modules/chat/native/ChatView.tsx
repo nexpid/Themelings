@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var11;
     var4['chat'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -719,7 +719,7 @@ case 33:
             var9 = var18.bind(var4)(var17, var12);
 case 32:
             var5[1] = var9;
-            var9 = function W(arg1, arg2) {
+            var9 = function V(arg1, arg2) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 38;

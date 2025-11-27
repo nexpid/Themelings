@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 'radioBackground';
         var1[var3] = var4;
         var2 = var2.colors;
-        var3 = var2.BACKGROUND_PRIMARY;
+        var3 = var2.BACKGROUND_BASE_LOW;
         var2 = 'radioForeground';
         var1[var2] = var3;
         return var1;

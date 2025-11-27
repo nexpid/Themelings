@@ -648,7 +648,7 @@ case 26:
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
             var4 = var4.colors;
-            var3 = var4.BACKGROUND_SECONDARY;
+            var3 = var4.BACKGROUND_BASE_LOWER;
 case 25:
             var2['backgroundColor'] = var3;
             var1['contextBar'] = var2;
@@ -666,7 +666,7 @@ case 25:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var13;
     var4['contextBar'] = var10;
     var10 = {'overflow': 'hidden', 'flexDirection': 'row', 'alignItems': 'center'};

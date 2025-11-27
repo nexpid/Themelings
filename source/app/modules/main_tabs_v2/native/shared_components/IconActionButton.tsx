@@ -96,7 +96,7 @@ case 6:
         var17 = var8[var13];
         var17 = var14.bind(var1)(var17);
         var17 = var17.colors;
-        var17 = var17.BG_BASE_PRIMARY;
+        var17 = var17.BACKGROUND_BASE_LOW;
         var12['backgroundColor'] = var17;
         var12['borderWidth'] = var16;
         var16 = var8[var13];
@@ -141,7 +141,7 @@ case 7:
         var15 = var8[var13];
         var15 = var14.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.BG_BASE_PRIMARY;
+        var15 = var15.BACKGROUND_BASE_LOW;
         var12['color'] = var15;
         var6['unreadBadgeMask'] = var12;
         var12 = {};

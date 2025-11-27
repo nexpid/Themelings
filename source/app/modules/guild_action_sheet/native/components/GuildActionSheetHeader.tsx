@@ -192,14 +192,14 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var13;
     var7['headerContainer'] = var10;
     var10 = {'height': 68, 'width': 68, 'marginBottom': 12, 'marginLeft': 4294967292, 'padding': 4, 'borderRadius': 16, 'alignContent': 'center', 'justifyContent': 'center'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var13;
     var7['avatarBackground'] = var10;
     var10 = {'position': 'absolute', 'top': 2};

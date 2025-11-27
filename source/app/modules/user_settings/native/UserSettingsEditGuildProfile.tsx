@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_TERTIARY;
+    var10 = var10.BACKGROUND_BASE_LOWEST;
     var9['borderColor'] = var10;
     var10 = 'hidden';
     var9['overflow'] = var10;

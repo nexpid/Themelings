@@ -908,7 +908,7 @@ case 31:
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_PRIMARY;
+    var17 = var17.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var17;
     var4['container'] = var9;
     var9 = {};
@@ -1012,7 +1012,7 @@ case 31:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var15 = var14.BACKGROUND_PRIMARY;
+    var15 = var14.BACKGROUND_BASE_LOW;
     var14 = 'backgroundColor';
     var9[var14] = var15;
     var9[var13] = var1;
@@ -1038,7 +1038,7 @@ case 31:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var11;
     var4['horizontalAutocomplete'] = var9;
     var9 = {'marginBottom': 16, 'marginLeft': 16, 'marginRight': 16};
@@ -1486,7 +1486,7 @@ case 34:
             var13 = var13[var10];
             var18 = var15.bind(var5)(var13);
             var15 = var18.useAnimatedScrollHandler;
-            var13 = function Y(arg1) {
+            var13 = function G(arg1) {
                 var1 = arg1;
                 var1 = var1.contentOffset;
                 var3 = var1.y;

@@ -578,7 +578,7 @@ case 5:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_TERTIARY;
+    var13 = var13.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var13;
     var4['perkCard'] = var9;
     var9 = {'position': 'absolute', 'bottom': 0};

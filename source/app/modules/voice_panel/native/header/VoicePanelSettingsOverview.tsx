@@ -722,7 +722,7 @@ case 41:
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var15;
     var5['settingsIconContainer'] = var11;
     var11 = {'textAlign': 'center', 'fontSize': 16};

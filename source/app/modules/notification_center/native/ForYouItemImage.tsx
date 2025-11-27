@@ -101,7 +101,7 @@ case 4:
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BACKGROUND_PRIMARY;
+            var3 = var3.BACKGROUND_BASE_LOW;
             var2['backgroundColor'] = var3;
             var1['maskContainer'] = var2;
             var2 = {'height': 16, 'width': 16, 'borderRadius': 8, 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
@@ -166,7 +166,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var11;
     var4['guildGridBackground'] = var10;
     var4 = var8.bind(var9)(var4);

@@ -224,7 +224,7 @@ case 4:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BASE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var14;
     var10['flexGrow'] = var13;
     var2['container'] = var10;

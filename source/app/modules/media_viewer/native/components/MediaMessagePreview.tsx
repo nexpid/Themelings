@@ -824,15 +824,15 @@ case 34:
                     var7 = var1 == var6;
                     var5 = undefined;
                     if(var7) { _fun0011_ip = 35; continue _fun0011 }
-case 3:
+case 36:
                     var5 = var6.y;
 case 35:
                     var6 = var1 != var5;
                     var1 = 0;
-                    if(!var6) { _fun0011_ip = 36; continue _fun0011 }
-case 37:
+                    if(!var6) { _fun0011_ip = 37; continue _fun0011 }
+case 38:
                     var1 = var5;
-case 36:
+case 37:
                     var2 = var4 === var1;
 case 33:
                     var1 = undefined;
@@ -862,16 +862,16 @@ case 33:
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     var1 = _closure2_slot5;
-                    if(!var1) { _fun0012_ip = 38; continue _fun0012 }
-case 39:
-                    var1 = _closure2_slot4;
-                    if(var1) { _fun0012_ip = 38; continue _fun0012 }
+                    if(!var1) { _fun0012_ip = 39; continue _fun0012 }
 case 40:
+                    var1 = _closure2_slot4;
+                    if(var1) { _fun0012_ip = 39; continue _fun0012 }
+case 41:
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-                    _fun0012_ip = 41; continue _fun0012;
-case 38:
+                    _fun0012_ip = 42; continue _fun0012;
+case 39:
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 27;
@@ -891,8 +891,8 @@ case 0:
                             var2 = arg2;
                             var4 = var3.bind(var4)(var2);
                             var2 = null;
-                            if(!(var2 != var4)) { _fun0013_ip = 4; continue _fun0013 }
-case 42:
+                            if(!(var2 != var4)) { _fun0013_ip = 43; continue _fun0013 }
+case 44:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var1 = 28;
@@ -906,7 +906,7 @@ case 42:
                             var5 = false;
                             var1['navigationReplace'] = var5;
                             var1 = var2.bind(var3)(var4, var1);
-case 4:
+case 43:
                             var1 = undefined;
                             return var1;
                         }
@@ -922,7 +922,7 @@ case 4:
                     var4 = var4.nativeEvent;
                     var1['tapLinkData'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 41:
+case 42:
                     var1 = undefined;
                     return var1;
                 }
@@ -950,8 +950,8 @@ case 41:
             var6 = new Array(2);
             var6[0] = var10;
             var7 = null;
-            if(!var9) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!var9) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var10 = _closure1_slot13;
             var9 = _closure1_slot21;
             var8 = {};
@@ -960,7 +960,7 @@ case 44:
             var8['onMeasure'] = var12;
             var8['onMeasureTruncated'] = var11;
             var7 = var10.bind(var5)(var9, var8);
-case 43:
+case 45:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

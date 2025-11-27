@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var14 = var13.BACKGROUND_PRIMARY;
+    var14 = var13.BACKGROUND_BASE_LOW;
     var13 = 'backgroundColor';
     var7[var13] = var14;
     var4['container'] = var7;

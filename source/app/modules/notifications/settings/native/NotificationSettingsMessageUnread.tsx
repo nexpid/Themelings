@@ -216,7 +216,7 @@ case 4:
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BASE_TERTIARY;
+    var11 = var11.BACKGROUND_BASE_LOWEST;
     var9['backgroundColor'] = var11;
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);

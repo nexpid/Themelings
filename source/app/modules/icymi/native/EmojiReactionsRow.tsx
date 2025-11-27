@@ -1021,7 +1021,7 @@ case 59:
             var3 = var25[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BASE_PRIMARY;
+            var3 = var3.BACKGROUND_BASE_LOW;
             var36 = var5.bind(var6)(var3);
             var5 = _closure1_slot4;
             var3 = var5.useState;

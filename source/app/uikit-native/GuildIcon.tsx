@@ -299,7 +299,7 @@ case 17:
     var13 = var8[var12];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var16['backgroundColor'] = var13;
     var13 = 'guildTextContainerInactive';
     var6[var13] = var16;
@@ -307,7 +307,7 @@ case 17:
     var13 = var8[var12];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BASE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var16['backgroundColor'] = var13;
     var13 = 'guildTextContainerInactiveNested';
     var6[var13] = var16;

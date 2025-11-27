@@ -128,7 +128,7 @@ case 0:
                     var4 = var6[var1];
                     var4 = var8.bind(var10)(var4);
                     var4 = var4.colors;
-                    var4 = var4.BACKGROUND_TERTIARY;
+                    var4 = var4.BACKGROUND_BASE_LOWEST;
                     var4 = var7.bind(var11)(var4);
                     var7 = var6[var1];
                     var7 = var8.bind(var10)(var7);

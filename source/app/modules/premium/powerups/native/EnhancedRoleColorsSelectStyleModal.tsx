@@ -92,7 +92,7 @@ case 0:
             var8 = var4[var6];
             var8 = var10.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.BACKGROUND_TERTIARY;
+            var8 = var8.BACKGROUND_BASE_LOWEST;
             var2['backgroundColor'] = var8;
             var8 = 'center';
             var1['button'] = var2;
@@ -118,7 +118,7 @@ case 3:
             var4 = var4[var6];
             var4 = var10.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_SECONDARY;
+            var4 = var4.BACKGROUND_BASE_LOWER;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var11 = _closure1_slot1;
@@ -126,7 +126,7 @@ case 2:
             var10 = var10[var6];
             var10 = var11.bind(var5)(var10);
             var10 = var10.colors;
-            var4 = var10.BACKGROUND_PRIMARY;
+            var4 = var10.BACKGROUND_BASE_LOW;
 case 4:
             var2['backgroundColor'] = var4;
             var10 = _closure1_slot1;
@@ -147,7 +147,7 @@ case 6:
             var4 = var4[var6];
             var4 = var9.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_SECONDARY;
+            var4 = var4.BACKGROUND_BASE_LOWER;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var10 = _closure1_slot1;
@@ -155,7 +155,7 @@ case 5:
             var9 = var9[var6];
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
-            var4 = var9.BACKGROUND_PRIMARY;
+            var4 = var9.BACKGROUND_BASE_LOW;
 case 7:
             var2['backgroundColor'] = var4;
             var4 = _closure1_slot1;

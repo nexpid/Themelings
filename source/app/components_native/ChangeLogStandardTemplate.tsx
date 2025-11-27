@@ -367,7 +367,7 @@ case 21:
     var19 = var10[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BG_BASE_PRIMARY;
+    var19 = var19.BACKGROUND_BASE_LOW;
     var17['backgroundColor'] = var19;
     var6['container'] = var17;
     var17 = {'marginBottom': 18, 'alignSelf': 'stretch'};

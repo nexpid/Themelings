@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var10];
     var16 = var11.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var16;
     var2['footerSafeAreaContainer'] = var9;
     var9 = {'paddingHorizontal': 16, 'height': 110, 'justifyContent': 'center', 'alignItems': 'center'};
