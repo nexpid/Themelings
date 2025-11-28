@@ -4238,7 +4238,7 @@
 { "file": "app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx", "size": 65871 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/GroupAvatar.tsx", "size": 28061 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelAnimationConstants.tsx", "size": 4283 }
-{ "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelContent.tsx", "size": 16511 }
+{ "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelContent.tsx", "size": 16508 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelItem.tsx", "size": 13710 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx", "size": 2679 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelSubtitle.tsx", "size": 6106 }
