@@ -118,7 +118,7 @@ case 2:
     var5 = var7[var5];
     var5 = var14.bind(var1)(var5);
     var5 = var5.colors;
-    var5 = var5.BACKGROUND_BASE_LOWER;
+    var5 = var5.BG_SURFACE_RAISED;
     var11['backgroundColor'] = var5;
     var5 = 16;
     var8['billingContainer'] = var11;

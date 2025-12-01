@@ -338,14 +338,14 @@ case 23:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOWER;
+    var14 = var14.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var14;
     var4['searchContainer'] = var9;
     var9 = {'alignItems': 'center', 'backgroundColor': null, 'flexDirection': 'row', 'padding': 16};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOWER;
+    var14 = var14.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var14;
     var4['createChannelButton'] = var9;
     var9 = {};
@@ -367,7 +367,7 @@ case 23:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOWER;
+    var10 = var10.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var10;
     var4['bodyContainer'] = var9;
     var9 = {'paddingHorizontal': 8, 'paddingVertical': 4};

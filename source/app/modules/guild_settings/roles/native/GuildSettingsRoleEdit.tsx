@@ -169,7 +169,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var11;
     var7['innerContainer'] = var10;
     var10 = {'marginVertical': 8, 'marginHorizontal': 16};

@@ -62,7 +62,7 @@ case 0:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BACKGROUND_BASE_LOWER;
+        var14 = var14.BG_SURFACE_RAISED;
         var10['backgroundColor'] = var14;
         var4['bottomSheetListContainer'] = var10;
         var14 = 16;

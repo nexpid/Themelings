@@ -572,7 +572,7 @@ case 50:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.BG_SURFACE_RAISED;
     var12['backgroundColor'] = var13;
     var4['collapsibleBackground'] = var12;
     var12 = {'paddingVertical': 4, 'paddingHorizontal': 12};

@@ -307,7 +307,7 @@ case 6:
     var22 = var7[var13];
     var22 = var14.bind(var1)(var22);
     var22 = var22.colors;
-    var22 = var22.BACKGROUND_BASE_LOWER;
+    var22 = var22.BG_SURFACE_RAISED;
     var21['backgroundColor'] = var22;
     var9['outer'] = var21;
     var21 = {'backgroundColor': null, 'width': 8, 'height': 8};

@@ -671,7 +671,7 @@ case 16:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_BASE_LOWER;
+    var18 = var18.BG_SURFACE_RAISED;
     var15['backgroundColor'] = var18;
     var5['avatar'] = var15;
     var15 = {};

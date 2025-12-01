@@ -760,7 +760,7 @@ case 40:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

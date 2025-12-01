@@ -179,7 +179,7 @@ case 6:
                     var4 = undefined;
                     var2 = var5.bind(var4)(var2);
                     var2 = var2.colors;
-                    var7 = var2.BACKGROUND_BASE_LOWER;
+                    var7 = var2.BG_SURFACE_RAISED;
                     var2 = new Array(2);
                     var2[0] = var7;
                     var3 = var6[var3];

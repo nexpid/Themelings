@@ -910,7 +910,7 @@ case 33:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOWER;
+    var15 = var15.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var15;
     var9['paddingLeft'] = var13;
     var4['subscriptionSlot'] = var9;

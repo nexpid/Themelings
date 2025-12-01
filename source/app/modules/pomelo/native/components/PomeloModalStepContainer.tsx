@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWER;
+    var12 = var12.BG_SURFACE_RAISED;
     var11['shadowColor'] = var12;
     var12 = {'height': 4294967272, 'width': 0};
     var11['shadowOffset'] = var12;

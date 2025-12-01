@@ -1918,7 +1918,7 @@ case 76:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOWER;
+    var15 = var15.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var15;
     var5['fpRowStart'] = var10;
     var10 = {};

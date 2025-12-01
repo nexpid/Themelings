@@ -160,7 +160,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BACKGROUND_BASE_LOWER;
+    var21 = var21.BG_SURFACE_RAISED;
     var16['backgroundColor'] = var21;
     var7['groupCardHeader'] = var16;
     var16 = {'height': 8, 'width': 12, 'marginRight': 8};
@@ -176,7 +176,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BACKGROUND_BASE_LOWER;
+    var21 = var21.BG_SURFACE_RAISED;
     var16['backgroundColor'] = var21;
     var7['generateGiftRow'] = var16;
     var16 = {};

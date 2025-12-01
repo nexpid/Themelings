@@ -411,7 +411,7 @@ case 13:
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWER;
+    var12 = var12.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'padding': 12};

@@ -1038,7 +1038,7 @@ case 31:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.BG_SURFACE_RAISED;
     var9['backgroundColor'] = var11;
     var4['horizontalAutocomplete'] = var9;
     var9 = {'marginBottom': 16, 'marginLeft': 16, 'marginRight': 16};

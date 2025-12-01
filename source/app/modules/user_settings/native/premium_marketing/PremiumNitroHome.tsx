@@ -703,7 +703,7 @@ case 17:
     var11 = var7[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var11;
     var2['androidSegmentedControlBackground'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'height': '100%', 'width': '10%'};

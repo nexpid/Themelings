@@ -979,7 +979,7 @@ case 82:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_BASE_LOWER;
+    var18 = var18.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var18;
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);

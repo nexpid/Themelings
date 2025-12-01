@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var12 = var11.BACKGROUND_BASE_LOWER;
+    var12 = var11.BG_SURFACE_RAISED;
     var11 = 'color';
     var10[var11] = var12;
     var4['gradient'] = var10;

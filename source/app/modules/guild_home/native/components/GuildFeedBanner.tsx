@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOWER;
+    var15 = var15.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var15;
     var4['container'] = var10;
     var10 = {};
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var13;
     var4['headerContainer'] = var10;
     var10 = {};
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
+    var13 = var13.BG_SURFACE_RAISED;
     var10['backgroundColor'] = var13;
     var4['guildIconContainer'] = var10;
     var10 = {'width': 4, 'height': 4, 'borderRadius': null, 'marginRight': 4};

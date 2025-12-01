@@ -195,7 +195,7 @@ case 16:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWER;
+    var12 = var12.BG_SURFACE_RAISED;
     var8['backgroundColor'] = var12;
     var4['actionImageOverlay'] = var8;
     var8 = 22;

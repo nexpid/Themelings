@@ -316,7 +316,7 @@ case 6:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_BASE_LOWER;
+    var17 = var17.BG_SURFACE_RAISED;
     var11['backgroundColor'] = var17;
     var11['padding'] = var16;
     var8['tabsContainer'] = var11;

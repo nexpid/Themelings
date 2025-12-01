@@ -118,7 +118,7 @@ case 3:
             var4 = var4[var6];
             var4 = var10.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_BASE_LOWER;
+            var4 = var4.BG_SURFACE_RAISED;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var11 = _closure1_slot1;
@@ -147,7 +147,7 @@ case 6:
             var4 = var4[var6];
             var4 = var9.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_BASE_LOWER;
+            var4 = var4.BG_SURFACE_RAISED;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var10 = _closure1_slot1;

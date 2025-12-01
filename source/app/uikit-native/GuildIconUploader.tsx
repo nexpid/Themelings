@@ -109,7 +109,7 @@ case 4:
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWER;
+    var11 = var11.BG_SURFACE_RAISED;
     var4['backgroundColor'] = var11;
     var8['guildPlaceholder'] = var4;
     var4 = {'width': 82, 'height': 82, 'borderRadius': 41};
