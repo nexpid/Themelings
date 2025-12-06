@@ -180,7 +180,7 @@ export async function webhook(diffs: OutDiffs) {
 							{
 								title: "Raw colors",
 								body: formatDiff(diffs.raw),
-								image: await draw(convertDiffs(diffs.raw, true)),
+								image: await draw(await convertDiffs(diffs.raw, true)),
 								footer: makeFooter(diffs.raw, "raw color"),
 							},
 						]
@@ -190,7 +190,7 @@ export async function webhook(diffs: OutDiffs) {
 							{
 								title: "Semantic colors",
 								body: formatDiff(diffs.semantic),
-								image: await draw(convertDiffs(diffs.semantic, true)),
+								image: await draw(await convertDiffs(diffs.semantic, true)),
 								footer: makeFooter(diffs.semantic, "semantic color"),
 							},
 						]
@@ -205,7 +205,7 @@ export async function webhook(diffs: OutDiffs) {
 				{
 					title: "Icons",
 					body: formatDiff(diffs.icons),
-					image: await draw(convertDiffs(diffs.icons)),
+					image: await draw(await convertDiffs(diffs.icons)),
 					footer: makeFooter(diffs.icons, "icon"),
 				},
 			],

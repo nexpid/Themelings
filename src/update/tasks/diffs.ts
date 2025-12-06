@@ -4,7 +4,7 @@ import { diffAnyway, prevFiles } from "../shared";
 import { formatBytes, join, log, type Progress } from "../util";
 
 type RawColors = Record<string, string>;
-const diffRaw = async (progress: Progress) => {
+async function diffRaw(progress: Progress) {
 	progress.start("diff_raw");
 	if (!prevFiles.has("raw.json")) {
 		progress.update("diff_raw", false);
@@ -40,11 +40,11 @@ const diffRaw = async (progress: Progress) => {
 
 	progress.update("diff_raw", true);
 	return changes;
-};
+}
 
 type PreviousSemanticColors = Record<string, Record<string, string>>;
 
-const diffSemantic = async (progress: Progress) => {
+async function diffSemantic(progress: Progress) {
 	progress.start("diff_semantic");
 	if (!prevFiles.has("semantic.json")) {
 		progress.update("diff_semantic", false);
@@ -129,9 +129,9 @@ const diffSemantic = async (progress: Progress) => {
 
 	progress.update("diff_semantic", true);
 	return changes;
-};
+}
 
-const diffIcons = async (progress: Progress) => {
+async function diffIcons(progress: Progress) {
 	progress.start("diff_icons");
 	if (!prevFiles.has("icons.json")) {
 		progress.update("diff_icons", false);
@@ -145,13 +145,6 @@ const diffIcons = async (progress: Progress) => {
 		old: join("../data", "oldicons"),
 		new: join("../data", "icons"),
 	};
-
-	const matchDir = (iconDir: string, file: string) =>
-		file.endsWith(".svg")
-			? join("src", "svgplaceholder.png")
-			: file.endsWith(".lottie")
-				? join("src", "lottieplaceholder.png")
-				: join(iconDir, file);
 
 	const renamed = new Set<string>();
 
@@ -168,33 +161,33 @@ const diffIcons = async (progress: Progress) => {
 						change: DiffEnum.Renamed,
 						old: renamedIcon,
 						cur: newIcons[icon].hash,
-						curFile: matchDir(iconDir.new, newIcons[icon].file),
+						curFile: join(iconDir.new, newIcons[icon].file),
 					});
 			else
 				changes.set(icon, {
 					change: DiffEnum.Added,
 					cur: newIcons[icon].hash,
-					curFile: matchDir(iconDir.new, newIcons[icon].file),
+					curFile: join(iconDir.new, newIcons[icon].file),
 				});
 		} else if (newIcons[icon].hash !== oldIcons[icon].hash)
 			changes.set(icon, {
 				change: DiffEnum.Changed,
 				old: oldIcons[icon].hash,
-				oldFile: matchDir(iconDir.old, oldIcons[icon].file),
+				oldFile: join(iconDir.old, oldIcons[icon].file),
 				cur: newIcons[icon].hash,
-				curFile: matchDir(iconDir.new, newIcons[icon].file),
+				curFile: join(iconDir.new, newIcons[icon].file),
 			});
 	for (const icon of Object.keys(oldIcons))
 		if (!newIcons[icon] && !renamed.has(icon))
 			changes.set(icon, {
 				change: DiffEnum.Removed,
 				old: oldIcons[icon].hash,
-				oldFile: matchDir(iconDir.old, oldIcons[icon].file),
+				oldFile: join(iconDir.old, oldIcons[icon].file),
 			});
 
 	progress.update("diff_icons", true);
 	return changes;
-};
+}
 const diffCode = async (progress: Progress) => {
 	progress.start("diff_code");
 	if (!prevFiles.has("source.jsonl")) {
@@ -241,16 +234,6 @@ const diffCode = async (progress: Progress) => {
 					change: DiffEnum.Added,
 					size: formatBytes(newCode.get(code)!.s, 1),
 				});
-		} else if (newCode.get(code)!.s !== oldCode.get(code)!.s) {
-			const numDiff = newCode.get(code)!.de - oldCode.get(code)!.de;
-			if (Math.abs(numDiff) <= 25) continue;
-
-			const diff = formatBytes(Math.abs(numDiff), 1);
-			changes.set(code, {
-				change: DiffEnum.Changed,
-				sizeDiff: numDiff < 0 ? `-${diff}` : `+${diff}`,
-				sizeDiffNum: numDiff,
-			});
 		}
 	for (const code of oldCode.keys())
 		if (!newCode.has(code) && !renamed.has(code))
