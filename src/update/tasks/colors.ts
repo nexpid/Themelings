@@ -31,11 +31,13 @@ export function evalModule(code: string[], hookLine: number): (...args: any[]) =
 }
 
 export function getInternalRawColors(code: string[]) {
-	const moduleLine = code.findIndex((l) => l.includes("colors/generated/Colors.tsx'"));
-	if (moduleLine === -1) throw new Error("Cannot find semanticColorsHookLine!");
+	const moduleLine = code.findIndex((l) => l.includes("/tokens/colors/generated/raw-color-definitions.tsx'"));
+	if (moduleLine === -1) throw new Error("Cannot find rawColorsModuleLine!");
 
 	const internalModule: {
-		default: Record<string, string>;
+		_private: {
+			RawColors: Record<string, string>;
+		};
 	} = {} as any;
 
 	evalModule(code, moduleLine)(
@@ -50,15 +52,15 @@ export function getInternalRawColors(code: string[]) {
 		{},
 	);
 
-	const raw = internalModule.default;
+	const raw = internalModule._private.RawColors;
 	for (const key of Object.keys(raw)) raw[key] = Color(raw[key]).hex().toLowerCase();
 
 	return raw;
 }
 
 export function getInternalSemanticColors(code: string[], raw: Record<string, string>): SemanticColors {
-	const moduleLine = code.findIndex((l) => l.includes("colors/generated/native/generated-definitions.tsx'"));
-	if (moduleLine === -1) throw new Error("Cannot find semanticColorsHookLine!");
+	const moduleLine = code.findIndex((l) => l.includes("/tokens/colors/generated/native/generated-definitions.tsx'"));
+	if (moduleLine === -1) throw new Error("Cannot find semanticColorsModuleLine!");
 
 	const internalModule: {
 		_private: {
