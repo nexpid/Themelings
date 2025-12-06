@@ -298,15 +298,15 @@
         "width": 60,
         "height": 60
     },
-    "AppLauncherLearnMore": {
-        "file": "app/modules/app_launcher/native/images/AppLauncherLearnMore.png",
-        "hash": "078d09740d6686d7c414125df62b21ef",
+    "AppleNeutralIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/AppleNeutralIcon.png",
+        "hash": "096e51148a1b1793667be6e469147696",
         "scales": [
             2,
             3
         ],
-        "width": 80.5,
-        "height": 80
+        "width": 24,
+        "height": 24
     },
     "AppsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AppsIcon.png",
@@ -4442,14 +4442,15 @@
         "height": 40
     },
     "ic_clock": {
-        "file": "app/images/native/icons/user_profile/ic_clock.png",
-        "hash": "50a11b05117d31e1ad224516819cbd87",
+        "file": "app/modules/guild_scheduled_events/native/images/ic_clock.png",
+        "hash": "e955954d3b070442dffa061da0dc1d1a",
         "scales": [
+            1,
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 20,
+        "height": 20
     },
     "ic_close": {
         "file": "app/images/native/icons/ic_close.png",
@@ -9933,15 +9934,13 @@
         "height": 52
     },
     "mallow": {
-        "file": "app/modules/contact_sync/native/images/mallow.png",
-        "hash": "22ff64f3c42212e7404d5af41f019eda",
+        "file": "app/modules/nuf_channels/native/images/mallow.png",
+        "hash": "94bb0fdcfba6a856a1567cdd4f281049",
         "scales": [
-            1,
-            2,
-            3
+            1
         ],
-        "width": 102,
-        "height": 106
+        "width": 120,
+        "height": 120
     },
     "mallow_1": {
         "file": "app/images/native/avatars/mallow_1.png",
