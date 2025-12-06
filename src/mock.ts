@@ -57,17 +57,33 @@ export default {
 			"FirstMockIcon",
 			{
 				change: DiffEnum.Added,
-				cur: "f5c8d004a4aceda10702085d42ca9bfb",
+				cur: "c6f6357fb999cba134e6b35b08500c30",
 				curFile: "src/canvas/mock/FirstMockIcon.png",
+			},
+		],
+		[
+			"SvgMockIcon",
+			{
+				change: DiffEnum.Added,
+				cur: "5d534560e865f1f5b8d7258f9c262bc3",
+				curFile: "src/canvas/mock/SvgMockIcon.svg",
+			},
+		],
+		[
+			"LottieMockIcon",
+			{
+				change: DiffEnum.Added,
+				cur: "340efc5291ffb230a20a2b8be8bc444f",
+				curFile: "src/canvas/mock/LottieMockIcon.lottie",
 			},
 		],
 		[
 			"SecondMockIcon",
 			{
 				change: DiffEnum.Changed,
-				old: "fd01bc455648ec9d7cc7b70c716cb853",
+				old: "6e23574440797ff3e6abd5754795fd4c",
 				oldFile: "src/canvas/mock/SecondMockIcon.png",
-				cur: "0157c625a59e6f088574e7d151fccb0a",
+				cur: "76ffeecde2194d0448f1c1e942eb4595",
 				curFile: "src/canvas/mock/SecondMockIconNew.png",
 			},
 		],
@@ -76,7 +92,7 @@ export default {
 			{
 				change: DiffEnum.Renamed,
 				old: "thirdmkocicon",
-				cur: "5da7992ea9001c68e29f87246473f76d",
+				cur: "5bff32bf603e438af5f02350b6d0527e",
 				curFile: "src/canvas/mock/ThirdMockIcon.png",
 			},
 		],
@@ -84,37 +100,29 @@ export default {
 			"FourthMockIcon",
 			{
 				change: DiffEnum.Removed,
-				old: "9bb11d106f9c2568b482caa74c43baed",
+				old: "cf4e13406bca0989d46c0f07ced94850",
 				oldFile: "src/canvas/mock/FourthMockIcon.png",
 			},
 		],
 	]),
 	code: new Map([
 		[
-			"app/skibidimodule.tsx",
+			"app/foomodule.tsx",
 			{
 				change: DiffEnum.Added,
 				size: "5 KB",
 			},
 		],
 		[
-			"app/hawktuah.js",
-			{
-				change: DiffEnum.Changed,
-				sizeDiff: "-2 KB",
-				sizeDiffNum: -2000,
-			},
-		],
-		[
-			"app/ui/TypoedFile.ts",
+			"app/ui/barmodule.ts",
 			{
 				change: DiffEnum.Renamed,
-				oldFile: "app/ui/TypodeFile.ts",
+				oldFile: "app/ui/barmodule.ts",
 				size: "8 KB",
 			},
 		],
 		[
-			"app/ui/ReallyBigCoolComponent.tsx",
+			"app/intl/ReallyBigCoolComponent.tsx",
 			{
 				change: DiffEnum.Removed,
 				size: "12 MB",

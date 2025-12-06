@@ -1,3 +1,4 @@
+import sharp from "sharp";
 import { Canvas, FontLibrary, loadImage } from "skia-canvas";
 import { type Diff, DiffEnum } from "../types";
 import { maxChangesThreshold } from "../update/util";
@@ -28,7 +29,7 @@ const colors = {
 	importantBg: "#EEEEEE05", // custom, something like BG_MOD_**********
 };
 
-export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<string, DataEntry[][]> {
+export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Promise<Record<string, DataEntry[][]>> {
 	const obj = {
 		Added: [[]],
 		Changed: [[], []],
@@ -42,6 +43,16 @@ export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<
 		Renamed: 0,
 		Removed: 0,
 	};
+
+	async function convertFile(file: string) {
+		if (file.endsWith(".svg")) {
+			const data = await sharp(file).png().toBuffer();
+			return `data:image/png;base64,${data.toString("base64")}`;
+		} else if (file.endsWith(".lottie")) {
+			// TODO lottie support... maybe one day...
+			return "src/placeholders/lottie.png";
+		} else return file;
+	}
 
 	const entries = [...diffs.entries()];
 	for (const [label, change] of entries) {
@@ -58,7 +69,7 @@ export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<
 			} else {
 				obj.Added[0].push({
 					label: [{ txt: label }],
-					file: !color ? change.curFile : undefined,
+					file: !color ? await convertFile(change.curFile!) : undefined,
 					color: color ? change.cur : undefined,
 				});
 			}
@@ -78,12 +89,12 @@ export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<
 			} else {
 				obj.Changed[0].push({
 					label: [{ txt: label, tint: "muted" }],
-					file: !color ? change.oldFile : undefined,
+					file: !color && change.oldFile ? await convertFile(change.oldFile) : undefined,
 					color: color ? change.old : undefined,
 				});
 				obj.Changed[1].push({
 					label: [{ txt: label }],
-					file: !color ? change.curFile : undefined,
+					file: !color && change.curFile ? await convertFile(change.curFile) : undefined,
 					color: color ? change.cur : undefined,
 				});
 			}
@@ -101,7 +112,7 @@ export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<
 			} else {
 				obj.Renamed[0].push({
 					label: [{ txt: change.old, tint: "muted" }, { txt: label }],
-					file: !color ? change.curFile : undefined,
+					file: !color ? await convertFile(change.curFile!) : undefined,
 					color: color ? change.cur : undefined,
 				});
 			}
@@ -119,7 +130,7 @@ export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<
 			} else {
 				obj.Removed[0].push({
 					label: [{ txt: label }],
-					file: !color ? change.oldFile : undefined,
+					file: !color ? await convertFile(change.oldFile!) : undefined,
 					color: color ? change.old : undefined,
 				});
 			}
