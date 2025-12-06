@@ -48,7 +48,7 @@ jobs:
               id: check
               working-directory: main
               run: |
-                  version=$(bun run check ${{ github.event.inputs.force && '--force' || '' }})
+                  version=$(bun run check ${{ github.event.inputs.force == 'true' && '--force' || '' }})
                   echo "[DEBUG]: Check result: $version"
                   echo "version=$version" >> $GITHUB_OUTPUT
 
@@ -60,7 +60,7 @@ jobs:
                   icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
                   bot_token: ${{ secrets.BOT_TOKEN }}
               working-directory: main
-              run: bun run update:prod ${{ github.event.inputs.quiet && '--quiet' || '' }}
+              run: bun run update:prod ${{ github.event.inputs.quiet == 'true' && '--quiet' || '' }}
               
             - name: Publish changes
               if: ${{ steps.check.outputs.version != 'false' }}
