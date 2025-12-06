@@ -50,7 +50,7 @@ export async function convertDiffs(diffs: Map<string, Diff>, color?: boolean): P
 			return `data:image/png;base64,${data.toString("base64")}`;
 		} else if (file.endsWith(".lottie")) {
 			// TODO lottie support... maybe one day...
-			return "src/placeholders/lottie.png";
+			return "src/canvas/placeholders/lottie.png";
 		} else return file;
 	}
 
