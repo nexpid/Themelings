@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_SECONDARY;
+    var11 = var11.TEXT_SUBTLE;
     var9['color'] = var11;
     var4['dismissButtonText'] = var9;
     var9 = {};
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var18.bind(var4)(var10);
         var12 = var10.Text;
-        var10 = {'style': null, 'accessibilityRole': 'text', 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var10 = {'style': null, 'accessibilityRole': 'text', 'variant': 'text-sm/medium', 'color': 'text-default'};
         var13 = var11.description;
         var10['style'] = var13;
         var13 = var14[var15];

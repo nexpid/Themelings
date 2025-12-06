@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+        var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var4];
     var12 = var7.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var11['tintColor'] = var12;
     var8['overflowMenu'] = var11;
     var8 = var9.bind(var10)(var8);
@@ -334,7 +334,7 @@ case 13:
             var9 = var18[var9];
             var9 = var22.bind(var5)(var9);
             var13 = var9.Text;
-            var9 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var9 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var14 = 8;
             var19 = var18[var14];
             var19 = var22.bind(var5)(var19);

@@ -258,10 +258,10 @@ case 38:
                 var3 = _closure1_slot10;
                 var1 = var1.userAgent;
                 var1 = var3.bind(var4)(var1);
-                if(!var1) { _fun0004_ip = 37; continue _fun0004 }
-case 34:
+                if(!var1) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                 var1 = var2;
-case 37:
+case 40:
                 return var1;
             }
         };

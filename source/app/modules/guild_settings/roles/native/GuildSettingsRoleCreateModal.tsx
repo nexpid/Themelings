@@ -1386,7 +1386,7 @@ case 21:
             var13 = var18[var13];
             var13 = var15.bind(var5)(var13);
             var15 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var18 = var11.sceneSubtitle;
             var13['style'] = var18;
             var13['children'] = var17;

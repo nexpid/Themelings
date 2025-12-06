@@ -184,7 +184,7 @@ case 5:
             var18 = var21[var18];
             var18 = var19.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var18 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var18['children'] = var15;
             var17 = var20.bind(var5)(var19, var18);
 case 4:
@@ -203,7 +203,7 @@ case 9:
             var13 = var17[var13];
             var13 = var14.bind(var5)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var13 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var16 = var16.username;
             var13['children'] = var16;
             var12 = var15.bind(var5)(var14, var13);
@@ -290,7 +290,7 @@ case 8:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_SECONDARY;
+    var13 = var13.TEXT_SUBTLE;
     var10['color'] = var13;
     var5['activityStatusText'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};

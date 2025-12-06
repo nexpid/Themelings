@@ -757,30 +757,30 @@ case 76:
                 var8 = var7.bind(var8)(var4);
                 var7 = null;
                 if(!(var7 == var8)) { _fun0012_ip = 78; continue _fun0012 }
-case 79:
+case 13:
                 var4 = _closure1_slot12;
                 var4 = var4.NewGuild;
                 var9 = true;
-                _fun0012_ip = 19; continue _fun0012;
+                _fun0012_ip = 79; continue _fun0012;
 case 78:
                 var12 = var5.userBecameGuildOwner;
                 var11 = var8.ownerId;
                 var14 = var1.properties;
                 var15 = var7 == var14;
                 var8 = undefined;
-                if(var15) { _fun0012_ip = 15; continue _fun0012 }
-case 80:
+                if(var15) { _fun0012_ip = 80; continue _fun0012 }
+case 81:
                 var8 = var14.owner_id;
-case 15:
+case 80:
                 var8 = var12.bind(var5)(var11, var8, var13);
                 var9 = var8;
                 var4 = var2;
-                if(!var8) { _fun0012_ip = 19; continue _fun0012 }
-case 81:
+                if(!var8) { _fun0012_ip = 79; continue _fun0012 }
+case 46:
                 var2 = _closure1_slot12;
                 var4 = var2.OwnershipChange;
                 var9 = var8;
-case 19:
+case 79:
                 var8 = var4;
                 var11 = null;
                 if(var9) { _fun0012_ip = 82; continue _fun0012 }
@@ -821,36 +821,36 @@ case 88:
 case 90:
                 var2 = var13.roles;
 case 89:
-                if(!(var7 == var2)) { _fun0012_ip = 91; continue _fun0012 }
-case 92:
-                var2 = new Array(0);
+                if(!(var7 == var2)) { _fun0012_ip = 63; continue _fun0012 }
 case 91:
+                var2 = new Array(0);
+case 63:
                 var2 = var12.bind(var5)(var10, var2);
                 var10 = var2.rolesAreDifferent;
                 var2 = var2.allRoleIds;
-                if(!var10) { _fun0012_ip = 93; continue _fun0012 }
-case 94:
+                if(!var10) { _fun0012_ip = 92; continue _fun0012 }
+case 26:
                 var12 = _closure1_slot12;
                 var4 = var12.MemberRoles;
-case 93:
+case 92:
                 var12 = var7 != var2;
                 var9 = var10;
                 var8 = var4;
                 var11 = null;
                 if(!var12) { _fun0012_ip = 82; continue _fun0012 }
-case 95:
+case 93:
                 var9 = var10;
                 var8 = var4;
                 var11 = var2;
 case 82:
                 var4 = var8;
                 var2 = var9;
-                if(var2) { _fun0012_ip = 96; continue _fun0012 }
-case 97:
+                if(var2) { _fun0012_ip = 94; continue _fun0012 }
+case 95:
                 var2 = var9;
                 var4 = var8;
-                if(!(var7 != var11)) { _fun0012_ip = 96; continue _fun0012 }
-case 98:
+                if(!(var7 != var11)) { _fun0012_ip = 94; continue _fun0012 }
+case 96:
                 var10 = _closure1_slot8;
                 var9 = var10.getUnsafeMutableRoles;
                 var7 = var1.id;
@@ -859,11 +859,11 @@ case 98:
                 var7 = global;
                 var7 = var7.Array;
                 var7 = var9 instanceof var7;
-                if(var7) { _fun0012_ip = 99; continue _fun0012 }
-case 100:
+                if(var7) { _fun0012_ip = 97; continue _fun0012 }
+case 98:
                 var9 = var1.roles;
-                _fun0012_ip = 101; continue _fun0012;
-case 99:
+                _fun0012_ip = 99; continue _fun0012;
+case 97:
                 var13 = _closure1_slot2;
                 var12 = _closure1_slot3;
                 var7 = 10;
@@ -874,19 +874,19 @@ case 99:
                 var12 = var1.id;
                 var7 = var1.roles;
                 var9 = var13.bind(var14)(var12, var7);
-case 101:
+case 99:
                 var7 = var5.rolesHaveVisibilityChanges;
                 var7 = var7.bind(var5)(var10, var9, var11);
                 var4 = var8;
                 var2 = var7;
-                if(!var2) { _fun0012_ip = 96; continue _fun0012 }
-case 58:
+                if(!var2) { _fun0012_ip = 94; continue _fun0012 }
+case 100:
                 var3 = _closure1_slot12;
                 var4 = var3.RolePermissions;
                 var2 = var7;
-case 96:
+case 94:
                 if(!var2) { _fun0012_ip = 77; continue _fun0012 }
-case 102:
+case 101:
                 var3 = var5.markGuildForResync;
                 var19 = var1.id;
                 var17 = arg3;
@@ -911,12 +911,12 @@ case 0:
                 var4 = this;
                 var3 = var1.guild_id;
                 var1 = var1.integrity_check;
-                if(var1) { _fun0013_ip = 103; continue _fun0013 }
+                if(var1) { _fun0013_ip = 102; continue _fun0013 }
 case 29:
                 var2 = var4.unmarkGuildForResync;
                 var1 = arg2;
                 var1 = var2.bind(var4)(var3, var1);
-case 103:
+case 102:
                 var1 = undefined;
                 return var1;
             }

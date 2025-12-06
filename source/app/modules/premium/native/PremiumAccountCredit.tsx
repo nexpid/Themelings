@@ -145,7 +145,7 @@ case 10:
             var16 = var16[var6];
             var16 = var17.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var16 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var21 = var11.subText;
             var16['style'] = var21;
             if(!(var24 != var19)) { _fun0001_ip = 13; continue _fun0001 }
@@ -201,7 +201,7 @@ case 12:
             var6 = var9[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var11 = var11.timeText;
             var6['style'] = var11;
             var11 = var9[var14];
@@ -277,7 +277,7 @@ case 12:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var4['creditList'] = var9;
     var13 = 16;
@@ -299,7 +299,7 @@ case 12:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MODIFIER_ACCENT;
+    var10 = var10.BORDER_SUBTLE;
     var9['borderBottomColor'] = var10;
     var4['divider'] = var9;
     var9 = {};
@@ -408,7 +408,7 @@ case 24:
             var6 = var16[var8];
             var6 = var19.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'text-default'};
             var12 = var13.title;
             var6['style'] = var12;
             var15 = 10;

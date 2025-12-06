@@ -40,7 +40,7 @@ case 3:
             var16 = var20[var17];
             var16 = var18.bind(var4)(var16);
             var19 = var16.Text;
-            var16 = {'variant': 'heading-deprecated-12/extrabold', 'color': 'header-secondary'};
+            var16 = {'variant': 'heading-deprecated-12/extrabold', 'color': 'text-default'};
             var16['children'] = var22;
             var19 = var21.bind(var4)(var19, var16);
             var16 = new Array(2);

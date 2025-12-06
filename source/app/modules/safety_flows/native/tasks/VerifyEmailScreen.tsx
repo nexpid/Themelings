@@ -266,7 +266,7 @@ case 15:
             var8 = var16[var8];
             var8 = var21.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+            var8 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
             var12 = var16[var20];
             var12 = var21.bind(var4)(var12);
             var23 = var12.intl;

@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var15;
     var4['container'] = var10;
     var10 = {};
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var4['headerContainer'] = var10;
     var10 = {};
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var4['guildIconContainer'] = var10;
     var10 = {'width': 4, 'height': 4, 'borderRadius': null, 'marginRight': 4};
@@ -193,7 +193,7 @@ case 0:
             var1 = var6[var1];
             var5 = var3.bind(var4)(var1);
             var3 = var5.useAnimatedStyle;
-            var1 = function R() {
+            var1 = function x() {
                 var1 = {};
                 var3 = _closure2_slot1;
                 var2 = var3.get;
@@ -581,7 +581,7 @@ case 24:
             var14 = var14[var22];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var18 = var26.description;
             var14['style'] = var18;
             var14['children'] = var17;
@@ -665,7 +665,7 @@ case 30:
             var24 = var33[var22];
             var24 = var32.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var24 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var28 = 29;
             var30 = var33[var28];
             var30 = var32.bind(var4)(var30);
@@ -711,7 +711,7 @@ case 33:
             var22 = var30[var22];
             var22 = var26.bind(var4)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var22 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var25 = 29;
             var27 = var30[var25];
             var27 = var26.bind(var4)(var27);

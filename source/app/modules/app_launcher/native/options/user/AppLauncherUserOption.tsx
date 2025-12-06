@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_SUBTLE;
+    var10 = var10.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['iconWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -279,7 +279,7 @@ case 18:
             var8 = var14[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var8 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var8['children'] = var13;
             var6 = var12.bind(var4)(var9, var8);
 case 17:

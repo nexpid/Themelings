@@ -712,7 +712,7 @@ case 50:
     var16 = var6[var10];
     var16 = var11.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var16;
     var4['pressableOpacity'] = var9;
     var9 = {'flex': 1, 'opacity': 0.6};
@@ -729,14 +729,14 @@ case 50:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var15;
     var4['activityViewContainer'] = var9;
     var9 = {'fontSize': 16, 'lineHeight': 24, 'color': null, 'fontFamily': null, 'textAlign': 'center', 'marginLeft': 16, 'marginRight': 16};
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var9['color'] = var15;
     var15 = var14.DISPLAY_EXTRABOLD;
     var9['fontFamily'] = var15;
@@ -745,7 +745,7 @@ case 50:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var9['color'] = var15;
     var14 = var14.PRIMARY_NORMAL;
     var9['fontFamily'] = var14;

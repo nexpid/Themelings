@@ -69,7 +69,7 @@ case 2:
         var14 = var6[var14];
         var14 = var15.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BG_MOD_STRONG;
+        var14 = var14.BACKGROUND_MOD_STRONG;
         var9['backgroundColor'] = var14;
         var14 = var6[var11];
         var15 = var5.bind(var1)(var14);
@@ -127,7 +127,7 @@ case 10:
                 var19 = var2.textColor;
                 if(!(var19 === var5)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var19 = 'text-normal';
+                var19 = 'text-default';
 case 12:
                 var18 = var2.textStyle;
                 var12 = var2.containerStyles;

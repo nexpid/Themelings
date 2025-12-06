@@ -909,7 +909,7 @@ case 63:
                         var1 = {};
                         var1['title'] = var6;
                         var1['subtitle'] = var5;
-                        var5 = 'text-warning';
+                        var5 = 'text-feedback-warning';
                         var1['subtitleColor'] = var5;
                         var5 = 'redesign/heading-18/bold';
                         var1['variant'] = var5;

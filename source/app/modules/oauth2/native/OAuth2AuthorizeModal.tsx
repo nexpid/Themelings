@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['backgroundColor'] = var13;
     var7['titleContainerBorder'] = var10;
     var10 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': null, 'marginEnd': 40};
@@ -110,7 +110,7 @@ case 0:
             var2 = var15[var12];
             var5 = var7.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function _() {
+            var2 = function h() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};

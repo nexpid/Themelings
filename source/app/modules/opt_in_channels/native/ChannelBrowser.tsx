@@ -869,7 +869,7 @@ case 37:
                         var16 = var3 == var15;
                         var14 = undefined;
                         if(var16) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+case 2:
                         var14 = var15.channel;
 case 38:
                         var1['channel'] = var14;
@@ -1109,7 +1109,7 @@ case 44:
             var21 = var27[var20];
             var21 = var24.bind(var4)(var21);
             var26 = var21.Text;
-            var21 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var21 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var28 = var25.nuxBody;
             var21['style'] = var28;
             var28 = var27[var23];
@@ -1127,7 +1127,7 @@ case 44:
             var20 = var27[var20];
             var20 = var24.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var20 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var25 = var25.nuxBody;
             var20['style'] = var25;
             var25 = var27[var23];

@@ -146,7 +146,7 @@ case 5:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MODIFIER_ACCENT;
+    var15 = var15.BORDER_SUBTLE;
     var12['borderTopColor'] = var15;
     var12['borderTopWidth'] = var14;
     var7['container'] = var12;

@@ -1046,7 +1046,7 @@ case 74:
             var18 = var28[var18];
             var18 = var33.bind(var4)(var18);
             var23 = var18.Text;
-            var18 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var18 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var21 = 14;
             var29 = var28[var21];
             var29 = var33.bind(var4)(var29);

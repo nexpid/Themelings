@@ -306,7 +306,7 @@ case 4:
     var15 = var8[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_MOD_SUBTLE;
+    var15 = var15.BACKGROUND_MOD_SUBTLE;
     var11['backgroundColor'] = var15;
     var11['borderBottomWidth'] = var14;
     var14 = var8[var12];
@@ -427,7 +427,7 @@ case 8:
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-sm/normal', 'color': 'header-secondary', 'lineClamp': 1};
+            var7 = {'variant': 'text-sm/normal', 'color': 'text-default', 'lineClamp': 1};
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 7:

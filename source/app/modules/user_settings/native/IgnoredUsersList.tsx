@@ -115,7 +115,7 @@ case 3:
             var11 = var18[var11];
             var11 = var17.bind(var5)(var11);
             var13 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
             var12 = var12.sectionLabelStyle;
             var11['style'] = var12;
             var12 = 10;

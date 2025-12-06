@@ -104,7 +104,7 @@ case 2:
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
         var11 = var11.colors;
-        var11 = var11.DIVIDER_STRONG;
+        var11 = var11.BORDER_STRONG;
         var10['borderColor'] = var11;
         var7['joinGuildButton'] = var10;
         var7 = var8.bind(var9)(var7);
@@ -189,7 +189,7 @@ case 7:
                 var5 = var13[var18];
                 var5 = var14.bind(var4)(var5);
                 var6 = var5.Text;
-                var5 = {'variant': 'eyebrow', 'color': 'header-secondary'};
+                var5 = {'variant': 'eyebrow', 'color': 'text-default'};
                 var5['children'] = var7;
                 var6 = var11.bind(var4)(var6, var5);
                 var5 = new Array(2);
@@ -251,7 +251,7 @@ case 8:
                 var12 = var25[var18];
                 var12 = var24.bind(var4)(var12);
                 var13 = var12.Text;
-                var12 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+                var12 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var15 = 11;
                 var16 = var25[var15];
                 var16 = var24.bind(var4)(var16);
@@ -275,7 +275,7 @@ case 10:
                 var16 = var24[var18];
                 var16 = var27.bind(var4)(var16);
                 var21 = var16.Text;
-                var16 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+                var16 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var25 = 11;
                 var28 = var24[var25];
                 var28 = var27.bind(var4)(var28);
@@ -330,7 +330,7 @@ case 14:
                 var22 = var24[var18];
                 var22 = var28.bind(var4)(var22);
                 var23 = var22.Text;
-                var22 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+                var22 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var26 = var24[var25];
                 var26 = var28.bind(var4)(var26);
                 var27 = var26.intl;
@@ -352,7 +352,7 @@ case 12:
                 var18 = var21[var18];
                 var18 = var24.bind(var4)(var18);
                 var19 = var18.Text;
-                var18 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+                var18 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var22 = var21[var25];
                 var22 = var24.bind(var4)(var22);
                 var23 = var22.intl;

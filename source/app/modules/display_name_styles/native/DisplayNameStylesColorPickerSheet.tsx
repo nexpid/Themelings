@@ -61,14 +61,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['headerTrailing'] = var9;
     var9 = {};
     var9['flex'] = var10;
-    var11 = 7;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var13;
     var4['container'] = var9;
     var9 = {};
+    var11 = 7;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.spacing;
@@ -276,6 +271,8 @@ case 0:
                     return var1;
                 };
                 var2['onSelect'] = var4;
+                var4 = 'primary';
+                var2['actionButtonVariant'] = var4;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };

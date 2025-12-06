@@ -402,7 +402,7 @@ case 2:
     var _closure1_slot14 = var2;
     var2 = function PremiumFeaturesCarousel(arg1) {
         var2 = arg1;
-        var15 = var2.width;
+        var16 = var2.width;
         var1 = var2.onEndReached;
         var _closure2_slot0 = var1;
         var10 = var2.children;
@@ -468,23 +468,28 @@ case 4:
         var17[1] = var18;
         var5['style'] = var17;
         var5['data'] = var10;
-        var16 = function renderItem(arg1) {
+        var17 = function renderItem(arg1) {
             var1 = arg1;
             var1 = var1.item;
             return var1;
         };
-        var5['renderItem'] = var16;
-        var5['width'] = var15;
-        var15 = false;
-        var5['loop'] = var15;
-        var15 = {};
-        var16 = new Array(2);
-        var17 = -10;
-        var16[0] = var17;
-        var17 = 10;
-        var16[1] = var17;
-        var15['activeOffsetX'] = var16;
-        var5['panGestureHandlerProps'] = var15;
+        var5['renderItem'] = var17;
+        var5['width'] = var16;
+        var16 = false;
+        var5['loop'] = var16;
+        var15 = function onConfigurePanGesture(arg1) {
+            var3 = arg1;
+            var2 = var3.activeOffsetX;
+            var1 = new Array(2);
+            var4 = -10;
+            var1[0] = var4;
+            var4 = 10;
+            var1[1] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['onConfigurePanGesture'] = var15;
         var15 = 200;
         var5['scrollAnimationDuration'] = var15;
         var15 = 'parallax';

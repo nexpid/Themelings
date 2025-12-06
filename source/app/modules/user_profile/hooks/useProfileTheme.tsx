@@ -27,10 +27,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.Color;
-    var _closure1_slot5 = var7;
     var4 = var4.ThemeTypes;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -41,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.user;
+            var13 = var1.user;
             var14 = var1.displayProfile;
             var12 = var1.pendingThemeColors;
-            var13 = var1.pendingAvatarSrc;
+            var15 = var1.pendingAvatarSrc;
             var3 = var1.isPreview;
             var4 = var1.forceUserTheme;
             var5 = _closure1_slot1;
@@ -69,13 +67,13 @@ case 0:
             };
             var5 = var6.bind(var7)(var5, var2);
             var7 = null;
-            if(!(var7 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var7 == var15)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = var7 == var15;
+            var6 = var7 == var13;
             var2 = undefined;
             if(var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = var15.getAvatarURL;
+            var11 = var13.getAvatarURL;
             var6 = var7 == var14;
             var8 = undefined;
             if(var6) { _fun0001_ip = 6; continue _fun0001 }
@@ -83,32 +81,32 @@ case 7:
             var8 = var14.guildId;
 case 6:
             var6 = 80;
-            var2 = var11.bind(var15)(var8, var6);
+            var2 = var11.bind(var13)(var8, var6);
 case 4:
-            var13 = var2;
+            var15 = var2;
 case 2:
             var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var2 = 5;
-            var2 = var8[var2];
-            var15 = var6.bind(var10)(var2);
-            var11 = var15.useColorValue;
-            var2 = _closure1_slot5;
-            var2 = var2.PRIMARY_530;
-            var2 = var11.bind(var15)(var2);
-            var11 = var2.hex;
+            var2 = var11[var2];
+            var17 = var6.bind(var10)(var2);
+            var16 = var17.unsafe_getResolvedRawColor;
+            var13 = {};
+            var8 = 1;
+            var13['saturation'] = var8;
+            var2 = 'PRIMARY_530';
+            var13 = var16.bind(var17)(var2, var13);
             var2 = 6;
-            var2 = var8[var2];
-            var8 = var6.bind(var10)(var2);
-            var6 = var8.useAvatarColors;
+            var2 = var11[var2];
+            var11 = var6.bind(var10)(var2);
+            var6 = var11.useAvatarColors;
             var2 = false;
-            var8 = var6.bind(var8)(var13, var11, var2);
+            var11 = var6.bind(var11)(var15, var13, var2);
             var6 = _closure1_slot3;
             var2 = 2;
-            var6 = var6.bind(var10)(var8, var2);
+            var6 = var6.bind(var10)(var11, var2);
             var2 = 0;
             var13 = var6[var2];
-            var8 = 1;
             var11 = var6[var8];
             if(!(var7 != var14)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -180,7 +178,7 @@ case 26:
 case 25:
             var6 = var4;
 case 22:
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot5;
             var4 = var4.DARK;
             if(!(var6 === var4)) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
@@ -194,7 +192,7 @@ case 28:
             var4 = var9;
             if(var5) { _fun0001_ip = 29; continue _fun0001 }
 case 27:
-            var5 = _closure1_slot6;
+            var5 = _closure1_slot5;
             var5 = var5.DARK;
             var5 = var6 === var5;
             if(!var5) { _fun0001_ip = 30; continue _fun0001 }
@@ -210,7 +208,7 @@ case 30:
             var4 = var6;
             if(!var5) { _fun0001_ip = 29; continue _fun0001 }
 case 32:
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var4 = var1.DARKER;
 case 29:
             var1 = {};

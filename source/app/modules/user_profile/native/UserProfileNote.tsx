@@ -208,7 +208,7 @@ case 15:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-md/normal', 'color': 'text-normal'};
+            var9 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
 case 14:

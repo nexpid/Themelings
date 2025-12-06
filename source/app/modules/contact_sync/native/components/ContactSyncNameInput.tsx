@@ -207,7 +207,7 @@ case 9:
             var12 = var12[var13];
             var12 = var19.bind(var4)(var12);
             var19 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var23 = var10.subtitle;
             var12['style'] = var23;
             var24 = _closure1_slot0;
@@ -279,7 +279,7 @@ case 14:
             var13 = var21[var13];
             var13 = var24.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var13 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var22 = var10.formSubtitle;
             var13['style'] = var22;
             var22 = var21[var20];

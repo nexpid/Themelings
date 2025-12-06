@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['borderColor'] = var10;
     var4['emojiWrapper'] = var9;
     var9 = {'width': 16, 'height': 16};

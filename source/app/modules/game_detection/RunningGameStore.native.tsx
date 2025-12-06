@@ -136,7 +136,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'getVisibleGame';
@@ -175,7 +175,7 @@ case 8:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
-        var7 = 'getRunningDiscordApplicationIds';
+        var7 = 'getRunningNonGames';
         var5['key'] = var7;
         var7 = function value() {
             var1 = new Array(0);
@@ -184,7 +184,7 @@ case 8:
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
-        var7 = 'getRunningVerifiedApplicationIds';
+        var7 = 'getRunningDiscordApplicationIds';
         var5['key'] = var7;
         var7 = function value() {
             var1 = new Array(0);
@@ -193,16 +193,16 @@ case 8:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
-        var7 = 'getGameForPID';
+        var7 = 'getRunningVerifiedApplicationIds';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = null;
+            var1 = new Array(0);
             return var1;
         };
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
-        var7 = 'getGameForName';
+        var7 = 'getGameForPID';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -211,7 +211,7 @@ case 8:
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
-        var7 = 'getGameOrTransformedSubgameForPID';
+        var7 = 'getGameForName';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -220,7 +220,7 @@ case 8:
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
-        var7 = 'getLauncherForPID';
+        var7 = 'getGameOrTransformedSubgameForPID';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -229,7 +229,7 @@ case 8:
         var5['value'] = var7;
         var1[10] = var5;
         var5 = {};
-        var7 = 'getOverlayOptionsForPID';
+        var7 = 'getLauncherForPID';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -238,16 +238,16 @@ case 8:
         var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
-        var7 = 'shouldElevateProcessForPID';
+        var7 = 'getOverlayOptionsForPID';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = false;
+            var1 = null;
             return var1;
         };
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
-        var7 = 'shouldContinueWithoutElevatedProcessForPID';
+        var7 = 'shouldElevateProcessForPID';
         var5['key'] = var7;
         var7 = function value() {
             var1 = false;
@@ -256,6 +256,15 @@ case 8:
         var5['value'] = var7;
         var1[13] = var5;
         var5 = {};
+        var7 = 'shouldContinueWithoutElevatedProcessForPID';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = false;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
+        var5 = {};
         var7 = 'getCandidateGames';
         var5['key'] = var7;
         var7 = function value() {
@@ -263,7 +272,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'isGamesSeenLoaded';
         var5['key'] = var7;
@@ -272,7 +281,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getGamesSeen';
         var5['key'] = var7;
@@ -281,7 +290,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getSeenGameByName';
         var5['key'] = var7;
@@ -290,7 +299,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'isObservedAppRunning';
         var5['key'] = var7;
@@ -299,7 +308,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getOverlayEnabledForGame';
         var5['key'] = var7;
@@ -308,7 +317,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getOverrides';
         var5['key'] = var7;
@@ -317,7 +326,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getOverrideForGame';
         var5['key'] = var7;
@@ -326,7 +335,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getGameOverlayStatus';
         var5['key'] = var7;
@@ -335,7 +344,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'getObservedAppNameForWindow';
         var5['key'] = var7;
@@ -344,7 +353,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'canShowAdminWarning';
         var5['key'] = var7;
@@ -353,7 +362,7 @@ case 8:
             return var1;
         };
         var5['get'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'isDetectionEnabled';
         var5['key'] = var7;
@@ -362,7 +371,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'addExecutableTrackedByAnalytics';
         var5['key'] = var7;
@@ -371,7 +380,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'getSystemServiceStatus';
         var5['key'] = var7;
@@ -382,7 +391,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'isSystemServiceInitialized';
         var5['key'] = var7;
@@ -391,7 +400,7 @@ case 8:
             return var1;
         };
         var5['value'] = var6;
-        var1[28] = var5;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

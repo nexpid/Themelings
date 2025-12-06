@@ -272,7 +272,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var10['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

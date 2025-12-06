@@ -178,7 +178,7 @@ case 4:
             var10 = var15[var10];
             var10 = var13.bind(var4)(var10);
             var13 = var10.Text;
-            var10 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var15 = var20.emptyStateContentDescription;
             var10['style'] = var15;
             var10['children'] = var14;

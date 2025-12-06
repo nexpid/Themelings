@@ -65,7 +65,7 @@ case 0:
             var10 = var15[var10];
             var10 = var13.bind(var4)(var10);
             var13 = var10.Text;
-            var10 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
             var17 = var15[var19];
@@ -327,7 +327,7 @@ case 13:
             var6 = var9[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'text-default'};
             var11 = var11.participantTitle;
             var6['style'] = var11;
             var11 = var9[var13];
@@ -411,7 +411,7 @@ case 13:
     var12 = var6[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'padding': 12};

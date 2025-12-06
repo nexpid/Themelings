@@ -333,7 +333,7 @@ case 18:
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
                     var3 = var2.Text;
-                    var2 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+                    var2 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
                     var7 = _closure2_slot2;
                     var7 = var7.selectionOptionItemDescription;
                     var2['style'] = var7;
@@ -399,10 +399,10 @@ case 0:
                     var7 = var5.emoji;
                     var8 = null;
                     var8 = var8 == var7;
-                    if(var8) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-                    var6 = var7.name;
+                    if(var8) { _fun0006_ip = 13; continue _fun0006 }
 case 21:
+                    var6 = var7.name;
+case 13:
                     var1['emojiName'] = var6;
                     var6 = var5.label;
                     var1['optionName'] = var6;

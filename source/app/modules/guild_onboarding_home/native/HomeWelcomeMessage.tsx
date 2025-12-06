@@ -194,7 +194,7 @@ case 2:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var9['color'] = var11;
     var4['message'] = var9;
     var9 = {};

@@ -219,29 +219,29 @@ case 27:
                 var2 = var1.bind(var2)(var9);
                 var7 = var4 == var2;
                 var1 = undefined;
-                if(var7) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                if(var7) { _fun0003_ip = 11; continue _fun0003 }
+case 7:
                 var8 = var2.features;
                 var7 = var8.has;
                 var2 = _closure1_slot6;
                 var2 = var2.FORWARDING_DISABLED;
                 var1 = var7.bind(var8)(var2);
-case 28:
-                if(var1) { _fun0003_ip = 30; continue _fun0003 }
+case 11:
+                if(var1) { _fun0003_ip = 28; continue _fun0003 }
 case 26:
                 var1 = var4 != var9;
-                if(!var1) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                if(!var1) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                 var8 = _closure1_slot3;
                 var7 = var8.isChannelOrThreadParentGated;
                 var2 = _closure2_slot0;
                 var2 = var2.channel_id;
                 var1 = var7.bind(var8)(var9, var2);
-case 31:
+case 29:
                 var2 = _closure2_slot0;
                 var2 = var4 != var2;
-                if(!var2) { _fun0003_ip = 2; continue _fun0003 }
-case 33:
+                if(!var2) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                 var7 = _closure1_slot4;
                 var6 = var7.getChannel;
                 var5 = _closure2_slot0;
@@ -249,19 +249,19 @@ case 33:
                 var5 = var6.bind(var7)(var5);
                 var4 = var4 == var5;
                 var3 = undefined;
-                if(var4) { _fun0003_ip = 4; continue _fun0003 }
+                if(var4) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
                 var4 = var5.isModeratorReportChannel;
                 var3 = var4.bind(var5)();
-case 4:
+case 33:
                 var2 = var3;
-case 2:
+case 31:
                 if(var1) { _fun0003_ip = 35; continue _fun0003 }
 case 36:
                 var1 = var2;
 case 35:
                 return var1;
-case 30:
+case 28:
                 var1 = true;
                 return var1;
 case 22:

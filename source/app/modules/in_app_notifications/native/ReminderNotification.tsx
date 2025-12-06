@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var5['channel'] = var13;
         var5['message'] = var12;
-        var12 = 'text-secondary';
+        var12 = 'text-subtle';
         var5['color'] = var12;
         var12 = 14;
         var12 = var11[var12];

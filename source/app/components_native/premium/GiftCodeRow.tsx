@@ -111,7 +111,7 @@ case 4:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var15;
     var7['giftCodeRow'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'marginVertical': 8, 'padding': 8};
@@ -362,7 +362,7 @@ case 16:
                 var10 = var22[var10];
                 var10 = var14.bind(var4)(var10);
                 var11 = var10.Text;
-                var10 = {'variant': 'text-xs/normal', 'color': 'text-secondary'};
+                var10 = {'variant': 'text-xs/normal', 'color': 'text-subtle'};
                 var15 = var22[var13];
                 var15 = var14.bind(var4)(var15);
                 var16 = var15.intl;

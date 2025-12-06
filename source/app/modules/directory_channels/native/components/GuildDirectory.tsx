@@ -354,7 +354,7 @@ case 0:
             var20 = var16[var20];
             var20 = var14.bind(var4)(var20);
             var21 = var20.MagnifyingGlassIcon;
-            var20 = {'size': 'sm', 'color': 'text-primary'};
+            var20 = {'size': 'sm', 'color': 'text-strong'};
             var20 = var22.bind(var4)(var21, var20);
             var13['icon'] = var20;
             var20 = var16[var19];

@@ -169,7 +169,7 @@ case 12:
             var7 = var7[var12];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var11 = var11.sectionFooter;
             var7['style'] = var11;
             var7['children'] = var10;
@@ -301,7 +301,7 @@ case 13:
             var5 = var5[var22];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var5 = {'variant': 'text-xs/normal', 'color': 'text-default'};
             var5['children'] = var12;
             var5 = var8.bind(var4)(var7, var5);
             var1['label'] = var5;
@@ -1116,7 +1116,7 @@ case 56:
             var27 = var37[var27];
             var27 = var36.bind(var5)(var27);
             var28 = var27.Text;
-            var27 = {'style': null, 'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var27 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var34 = var18.subtitle;
             var27['style'] = var34;
             var34 = var37[var32];

@@ -345,7 +345,7 @@ case 5:
             var10 = var19[var15];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var10 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var12 = var20.formHeader;
             var10['style'] = var12;
             var12 = var19[var22];
@@ -410,7 +410,7 @@ case 5:
             var11 = var19[var15];
             var11 = var16.bind(var4)(var11);
             var13 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var11 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var24 = var20.formHeader;
             var11['style'] = var24;
             var24 = var19[var22];

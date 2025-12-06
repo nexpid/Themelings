@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var14;
     var5['premiumGroupCard'] = var10;
     var10 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 8, 'marginBottom': 4};
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_NORMAL;
+    var14 = var14.TEXT_DEFAULT;
     var10['color'] = var14;
     var10['marginBottom'] = var13;
     var5['title'] = var10;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var10['color'] = var11;
     var5['description'] = var10;
     var5 = var8.bind(var9)(var5);

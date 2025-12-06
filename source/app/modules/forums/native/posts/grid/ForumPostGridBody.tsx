@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'header-secondary'};
+        var6 = {'style': null, 'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'text-default'};
         var9 = var9.extraMediaCount;
         var6['style'] = var9;
         var9 = global;
@@ -297,7 +297,7 @@ case 2:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_SECONDARY;
+    var10 = var10.TEXT_SUBTLE;
     var9['color'] = var10;
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);

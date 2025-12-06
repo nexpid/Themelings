@@ -560,7 +560,7 @@ case 52:
             var5 = var6.bind(var7)();
             var1 = var5.done;
             if(var1) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+case 21:
             var10 = var5.value;
             var11 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -568,15 +568,15 @@ case 55:
             var1 = var11.bind(var7)(var1);
             var1 = var1.PauseDuration;
             var1 = var1[var10];
-            if(!(var1 > var3)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+            if(!(var1 > var3)) { _fun0008_ip = 55; continue _fun0008 }
+case 12:
             var1 = var4.push;
             var1 = var1.bind(var4)(var10);
-case 56:
+case 55:
             var10 = var6.bind(var7)();
             var1 = var10.done;
             var5 = var10;
-            if(!var1) { _fun0008_ip = 55; continue _fun0008 }
+            if(!var1) { _fun0008_ip = 21; continue _fun0008 }
 case 54:
             var1 = {};
             var1['durations'] = var4;
@@ -597,8 +597,8 @@ case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
+            if(!var1) { _fun0009_ip = 56; continue _fun0009 }
+case 57:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 10;
@@ -607,8 +607,8 @@ case 59:
             var3 = var5.bind(var2)(var3);
             var2 = var3.isMoment;
             var1 = var2.bind(var3)(var4);
-case 58:
-            if(!var1) { _fun0009_ip = 60; continue _fun0009 }
+case 56:
+            if(!var1) { _fun0009_ip = 51; continue _fun0009 }
 case 36:
             var3 = var4.isSameOrAfter;
             var6 = _closure1_slot1;
@@ -619,7 +619,7 @@ case 36:
             var2 = var6.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var1 = var3.bind(var4)(var2);
-case 60:
+case 51:
             return var1;
         }
     };

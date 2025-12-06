@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var17[var5];
         var5 = var16.bind(var4)(var5);
         var6 = var5.TextWithIOSLinkWorkaround;
-        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var8 = var10.headerSubtitle;
         var5['style'] = var8;
         var13 = 12;

@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var6];
         var5 = var7.bind(var4)(var5);
         var12 = var5.Text;
-        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var14 = var10.headerPrivacyLevel;
         var5['style'] = var14;
         var14 = 14;
@@ -232,12 +232,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var10['borderColor'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_FLOATING;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var14;
     var14 = {'height': 8, 'width': 0};
     var10['shadowOffset'] = var14;

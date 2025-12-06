@@ -282,18 +282,29 @@ case 11:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var2 = 15;
+                        var7 = var6[var2];
+                        var12 = var5.bind(var3)(var7);
+                        var11 = var12.itemInteracted;
+                        var7 = _closure2_slot0;
+                        var10 = var7.id;
+                        var9 = _closure2_slot6;
+                        var8 = 'press_reply_send';
+                        var8 = var11.bind(var12)(var10, var9, var8);
                         var2 = var6[var2];
-                        var8 = var5.bind(var3)(var2);
-                        var7 = var8.itemInteracted;
-                        var2 = _closure2_slot0;
-                        var6 = var2.id;
-                        var5 = _closure2_slot6;
-                        var2 = 'press_reply_send';
-                        var2 = var7.bind(var8)(var6, var5, var2);
+                        var6 = var5.bind(var3)(var2);
+                        var5 = var6.feedItemActioned;
+                        var2 = {};
+                        var7 = var7.id;
+                        var2['itemId'] = var7;
+                        var7 = _closure2_slot6;
+                        var2['itemType'] = var7;
+                        var7 = {'actionGestureType': 'press', 'actionTargetElement': 'reply_button', 'actionIntentType': 'reply', 'actionDestinationType': null};
+                        var2['actionParameters'] = var7;
+                        var2 = var5.bind(var6)(var2);
                         var5 = _closure2_slot2;
                         var2 = _closure2_slot7;
                         var2 = var5.bind(var3)(var2);
-                        SaveGenerator(address=98);
+                        SaveGenerator(address=158);
 case 12:
                         return var2;
 case 13:
@@ -335,7 +346,7 @@ case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+case 11:
                             var5 = _closure2_slot5;
                             var3 = undefined;
                             var2 = true;
@@ -343,29 +354,40 @@ case 17:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var2 = 15;
+                            var7 = var6[var2];
+                            var12 = var5.bind(var3)(var7);
+                            var11 = var12.itemInteracted;
+                            var7 = _closure2_slot0;
+                            var10 = var7.id;
+                            var9 = _closure2_slot6;
+                            var8 = 'press_emoji_send';
+                            var8 = var11.bind(var12)(var10, var9, var8);
                             var2 = var6[var2];
-                            var8 = var5.bind(var3)(var2);
-                            var7 = var8.itemInteracted;
-                            var2 = _closure2_slot0;
-                            var6 = var2.id;
-                            var5 = _closure2_slot6;
-                            var2 = 'press_emoji_send';
-                            var2 = var7.bind(var8)(var6, var5, var2);
+                            var6 = var5.bind(var3)(var2);
+                            var5 = var6.feedItemActioned;
+                            var2 = {};
+                            var7 = var7.id;
+                            var2['itemId'] = var7;
+                            var7 = _closure2_slot6;
+                            var2['itemType'] = var7;
+                            var7 = {'actionGestureType': 'press', 'actionTargetElement': 'reaction_picker_button', 'actionIntentType': 'open', 'actionDestinationType': null};
+                            var2['actionParameters'] = var7;
+                            var2 = var5.bind(var6)(var2);
                             var5 = _closure2_slot1;
                             var2 = arg1;
                             var2 = var5.bind(var3)(var2);
-                            SaveGenerator(address=94);
-case 18:
+                            SaveGenerator(address=157);
+case 17:
                             return var2;
-case 19:
+case 18:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                            if(var5) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                             var5 = _closure2_slot5;
                             var4 = false;
                             var4 = var5.bind(var3)(var4);
                             return var3;
-case 20:
+case 19:
                             return var2;
 case 16:
                             return var1;
@@ -472,10 +494,10 @@ case 16:
             var12[0] = var13;
             var14 = var30 == var9;
             var13 = null;
-            if(!var14) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var13 = var27.loading;
+            if(!var14) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var13 = var27.loading;
+case 21:
             var12[1] = var13;
             var8['style'] = var12;
             var14 = _closure1_slot9;
@@ -552,8 +574,8 @@ case 22:
             var10 = var11.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            if(!(var30 == var9)) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!(var30 == var9)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var11 = _closure1_slot9;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -562,8 +584,8 @@ case 25:
             var10 = var10.bind(var4)(var9);
             var9 = {};
             var9 = var11.bind(var4)(var10, var9);
-            _fun0001_ip = 26; continue _fun0001;
-case 24:
+            _fun0001_ip = 25; continue _fun0001;
+case 23:
             var12 = _closure1_slot10;
             var11 = _closure1_slot11;
             var10 = {};
@@ -573,10 +595,10 @@ case 24:
             var16 = new Array(2);
             var16[0] = var31;
             var30 = null;
-            if(!var21) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
-            var30 = var27.submitting;
+            if(!var21) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
+            var30 = var27.submitting;
+case 26:
             var16[1] = var30;
             var13['style'] = var16;
             var16 = var17.slice;
@@ -590,7 +612,7 @@ case 0:
                     var _closure3_slot0 = var6;
                     var2 = var6.id;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0005_ip = 29; continue _fun0005 }
+                    if(!(var1 == var2)) { _fun0005_ip = 28; continue _fun0005 }
 case 8:
                     var4 = _closure1_slot9;
                     var7 = _closure1_slot0;
@@ -631,8 +653,8 @@ case 8:
                     var5 = var9.bind(var3)(var7, var5);
                     var1['children'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
-                    _fun0005_ip = 30; continue _fun0005;
-case 29:
+                    _fun0005_ip = 29; continue _fun0005;
+case 28:
                     var5 = _closure1_slot9;
                     var3 = _closure1_slot0;
                     var13 = _closure1_slot2;
@@ -686,7 +708,7 @@ case 29:
                     var6 = var9.bind(var4)(var8, var7, var6);
                     var2['children'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 30:
+case 29:
                     return var1;
                 }
             };
@@ -698,17 +720,28 @@ case 30:
             var16 = {};
             var28 = function onOpenPicker() {
                 var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
+                var4 = _closure1_slot2;
+                var2 = 15;
+                var5 = var4[var2];
                 var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.itemInteracted;
-                var2 = _closure2_slot0;
-                var3 = var2.id;
-                var2 = _closure2_slot6;
-                var1 = 'press_reply_reaction_picker';
-                var1 = var4.bind(var5)(var3, var2, var1);
+                var11 = var3.bind(var1)(var5);
+                var10 = var11.itemInteracted;
+                var6 = _closure2_slot0;
+                var9 = var6.id;
+                var8 = _closure2_slot6;
+                var7 = 'press_reply_reaction_picker';
+                var7 = var10.bind(var11)(var9, var8, var7);
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.feedItemActioned;
+                var2 = {};
+                var6 = var6.id;
+                var2['itemId'] = var6;
+                var5 = _closure2_slot6;
+                var2['itemType'] = var5;
+                var5 = {'actionGestureType': 'press', 'actionTargetElement': 'reaction_picker_button', 'actionIntentType': 'open', 'actionDestinationType': null};
+                var2['actionParameters'] = var5;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var16['onOpenPicker'] = var28;
@@ -805,7 +838,7 @@ case 30:
             var13[1] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 26:
+case 25:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -948,7 +981,7 @@ case 26:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0006_ip = 18; continue _fun0006 }
+            if(!(var2 != var1)) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
             var12 = {};
             var5 = undefined;
@@ -972,7 +1005,7 @@ case 31:
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
-case 18:
+case 30:
             var11 = "Cannot destructure 'undefined' or 'null'.";
             var12 = var2;
             var1 = throwTypeError(var12, var11);

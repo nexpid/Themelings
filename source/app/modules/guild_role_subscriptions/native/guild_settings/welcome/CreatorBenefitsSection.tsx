@@ -180,7 +180,7 @@ case 0:
             var5 = var16[var5];
             var5 = var14.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-md/medium', 'color': 'header-secondary'};
+            var5 = {'style': null, 'variant': 'heading-md/medium', 'color': 'text-default'};
             var8 = var11.benefitCardTitle;
             var5['style'] = var8;
             var8 = 9;
@@ -280,7 +280,7 @@ case 12:
         var5 = var11[var5];
         var5 = var14.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'variant': 'heading-md/medium', 'color': 'header-secondary'};
+        var5 = {'style': null, 'variant': 'heading-md/medium', 'color': 'text-default'};
         var10 = var9.benefitCardTitle;
         var5['style'] = var10;
         var10 = 9;
@@ -372,7 +372,7 @@ case 12:
         var7 = var11[var7];
         var7 = var16.bind(var4)(var7);
         var8 = var7.Text;
-        var7 = {'style': null, 'variant': 'heading-md/medium', 'color': 'header-secondary'};
+        var7 = {'style': null, 'variant': 'heading-md/medium', 'color': 'text-default'};
         var13 = var9.revenueShareDescription;
         var7['style'] = var13;
         var13 = 9;
@@ -493,7 +493,7 @@ case 12:
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);

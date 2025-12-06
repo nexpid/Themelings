@@ -245,7 +245,7 @@ case 20:
             var1 = var6 != var5;
             var13 = undefined;
             if(!var1) { _fun0002_ip = 22; continue _fun0002 }
-case 7:
+case 23:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 7;
@@ -270,16 +270,16 @@ case 22:
             var1 = 'large';
             var14 = var1 === var2;
             var17 = 140;
-            if(var14) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(var14) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var2 = var6 != var13;
             var1 = 80;
-            if(!var2) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+            if(!var2) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var1 = 60;
-case 25:
+case 26:
             var17 = var1;
-case 23:
+case 24:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};
@@ -306,13 +306,13 @@ case 23:
             var5 = new Array(3);
             var5[0] = var7;
             var7 = {};
-            if(!(var6 == var13)) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
-            var10 = var12.avatar;
-            _fun0002_ip = 29; continue _fun0002;
-case 27:
-            var10 = var12.avatarWithNameplate;
+            if(!(var6 == var13)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
+            var10 = var12.avatar;
+            _fun0002_ip = 30; continue _fun0002;
+case 28:
+            var10 = var12.avatarWithNameplate;
+case 30:
             var9 = new Array(1);
             var9[0] = var10;
             var7['style'] = var9;
@@ -334,18 +334,18 @@ case 29:
             var5[1] = var7;
             var7 = var6 != var13;
             var6 = null;
-            if(!var7) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(!var7) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var9 = _closure1_slot5;
             var8 = _closure1_slot3;
             var7 = {};
             var16 = var12.nameplate;
             var10 = new Array(2);
             var10[0] = var16;
-            if(!var11) { _fun0002_ip = 19; continue _fun0002 }
-case 32:
+            if(!var11) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var11 = var12.nameplatePreviewPurchased;
-case 19:
+case 33:
             var10[1] = var11;
             var7['style'] = var10;
             var12 = _closure1_slot5;
@@ -357,10 +357,10 @@ case 19:
             var11 = var10.NameplateDummyUserPreview;
             var10 = {};
             var16 = 80;
-            if(!var14) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!var14) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var16 = 130;
-case 33:
+case 35:
             var10['width'] = var16;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -368,19 +368,19 @@ case 33:
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.AvatarSizes;
-            if(var14) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(var14) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
             var14 = var15.XSMALL_20;
-            _fun0002_ip = 37; continue _fun0002;
-case 35:
-            var14 = var15.NORMAL;
+            _fun0002_ip = 39; continue _fun0002;
 case 37:
+            var14 = var15.NORMAL;
+case 39:
             var10['avatarSize'] = var14;
             var10['nameplate'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 30:
+case 31:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

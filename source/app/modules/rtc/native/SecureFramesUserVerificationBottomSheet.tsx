@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_STRONG;
+    var10 = var10.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var10;
     var10 = 16;
     var4['iconContainer'] = var9;
@@ -403,7 +403,7 @@ case 4:
                     var7 = var9[var7];
                     var7 = var8.bind(var3)(var7);
                     var7 = var7.colors;
-                    var7 = var7.TEXT_DANGER;
+                    var7 = var7.TEXT_FEEDBACK_CRITICAL;
                     var1['color'] = var7;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -425,7 +425,7 @@ case 23:
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.colors;
-                    var5 = var5.TEXT_POSITIVE;
+                    var5 = var5.TEXT_FEEDBACK_POSITIVE;
                     var1['color'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -494,7 +494,7 @@ case 26:
                     var1 = {};
                     var4 = _closure1_slot11;
                     var1['key'] = var4;
-                    var4 = 'text-positive';
+                    var4 = 'text-feedback-positive';
                     var1['iconColor'] = var4;
                     var4 = 24;
                     var4 = var10[var4];
@@ -584,7 +584,7 @@ case 30:
             var9 = var19[var9];
             var9 = var24.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var23 = var12.subtitle;
             var9['style'] = var23;
             var9['children'] = var22;

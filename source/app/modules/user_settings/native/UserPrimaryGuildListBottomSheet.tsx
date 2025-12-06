@@ -62,7 +62,7 @@ case 0:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BG_SURFACE_RAISED;
+        var14 = var14.BACKGROUND_SURFACE_HIGH;
         var10['backgroundColor'] = var14;
         var4['bottomSheetListContainer'] = var10;
         var14 = 16;
@@ -91,7 +91,7 @@ case 2:
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
         var11 = var11.colors;
-        var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+        var11 = var11.BORDER_SUBTLE;
         var10['backgroundColor'] = var11;
         var4['divider'] = var10;
         var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8, 'height': 20};
@@ -275,7 +275,7 @@ case 27:
                 var8['badgeSize'] = var14;
                 var14 = 'heading-md/semibold';
                 var8['textVariant'] = var14;
-                var14 = 'text-primary';
+                var14 = 'text-strong';
                 var8['textColor'] = var14;
                 var10 = var13.bind(var4)(var11, var8);
 case 25:

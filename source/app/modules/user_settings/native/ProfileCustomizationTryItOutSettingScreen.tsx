@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['activityIndicator'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 17;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -199,13 +199,32 @@ case 4:
                 }
             };
             var10 = var16.bind(var14)(var10, var11);
+            var16 = var14.useEffect;
+            var11 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 15;
+                var2 = var6[var1];
+                var1 = undefined;
+                var4 = var5.bind(var1)(var2);
+                var3 = var4.setTryItOutDisplayNameStyles;
+                var2 = 16;
+                var2 = var6[var2];
+                var5 = var5.bind(var1)(var2);
+                var2 = var5.generateRandomDisplayNameStyles;
+                var2 = var2.bind(var5)();
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var10 = new Array(0);
+            var10 = var16.bind(var14)(var11, var10);
             var11 = var14.useEffect;
             var10 = new Array(1);
             var10[0] = var15;
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 15;
+                var1 = 17;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -252,7 +271,7 @@ case 9:
             var10 = var8.container;
             var5['style'] = var10;
             var11 = _closure1_slot1;
-            var10 = 16;
+            var10 = 18;
             var10 = var14[var10];
             var11 = var11.bind(var6)(var10);
             var10 = {};

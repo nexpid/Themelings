@@ -306,7 +306,7 @@ case 14:
         var4['rightFace'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot8 = var4;
-        var4 = 14;
+        var4 = 15;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -368,25 +368,36 @@ case 16:
                 var6 = var2.bind(var4)();
                 _closure2_slot2 = var6;
                 var10 = _closure1_slot3;
-                var3 = var10.useContext;
-                var7 = _closure1_slot0;
-                var9 = _closure1_slot2;
+                var9 = var10.useContext;
+                var3 = _closure1_slot0;
+                var7 = _closure1_slot2;
                 var2 = 11;
-                var2 = var9[var2];
-                var2 = var7.bind(var4)(var2);
+                var2 = var7[var2];
+                var2 = var3.bind(var4)(var2);
                 var2 = var2.CheckpointColorContext;
-                var2 = var3.bind(var10)(var2);
-                var3 = 12;
-                var3 = var9[var3];
-                var7 = var7.bind(var4)(var3);
-                var3 = var7.useToken;
+                var2 = var9.bind(var10)(var2);
+                var9 = 12;
+                var9 = var7[var9];
+                var10 = var3.bind(var4)(var9);
+                var9 = var10.useToken;
                 var2 = var2.primaryColor;
-                var2 = var3.bind(var7)(var2);
+                var2 = var9.bind(var10)(var2);
                 _closure2_slot3 = var2;
+                var2 = 13;
+                var2 = var7[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.useIsScreenLandscape;
+                var3 = var2.bind(var3)();
                 var2 = _closure1_slot6;
                 var2 = var2.bind(var4)();
                 var2 = var2.windowDimensions;
+                if(var3) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var3 = var2.width;
+                _fun0003_ip = 22; continue _fun0003;
+case 20:
+                var3 = var2.height;
+case 22:
                 var2 = 392;
                 var10 = var3 / var2;
                 var3 = _closure1_slot7;
@@ -418,7 +429,7 @@ case 0:
                         var5 = _closure1_slot7;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var1 = var3[var1];
                         var4 = undefined;
                         var3 = var2.bind(var4)(var1);
@@ -445,11 +456,11 @@ case 0:
                         var6 = null;
                         var7 = var6 == var7;
                         var6 = '';
-                        if(!var7) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                        if(!var7) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                         var7 = _closure2_slot0;
                         var6 = var7.name;
-case 20:
+case 23:
                         var2['name'] = var6;
                         var1 = _closure2_slot1;
                         var2['src'] = var1;

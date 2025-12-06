@@ -209,7 +209,7 @@ case 2:
             var6 = var13[var6];
             var6 = var12.bind(var3)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var6['children'] = var5;
             var7 = var8.bind(var3)(var7, var6);
             var6 = new Array(2);
@@ -285,7 +285,7 @@ case 2:
             var6 = var13[var6];
             var6 = var12.bind(var3)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var6['children'] = var5;
             var7 = var8.bind(var3)(var7, var6);
             var6 = new Array(2);
@@ -357,7 +357,7 @@ case 2:
             var6 = var15[var6];
             var6 = var12.bind(var3)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var6['children'] = var5;
             var7 = var8.bind(var3)(var7, var6);
             var6 = new Array(2);
@@ -432,7 +432,7 @@ case 2:
             var6 = var16[var6];
             var6 = var15.bind(var3)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var6['children'] = var5;
             var7 = var8.bind(var3)(var7, var6);
             var6 = new Array(2);
@@ -524,7 +524,7 @@ case 2:
             var6 = var12[var6];
             var6 = var8.bind(var3)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var13 = var5.toLowerCase;
             var13 = var13.bind(var5)();
             var6['children'] = var13;
@@ -581,7 +581,7 @@ case 2:
         var12 = var16[var12];
         var12 = var14.bind(var4)(var12);
         var14 = var12.Text;
-        var12 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+        var12 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
         var16 = ['These examples explore the edge cases of the underlying ', '<Pile>', " component and aren't recommended uses."];
         var12['children'] = var16;
         var14 = var15.bind(var4)(var14, var12);
@@ -648,7 +648,7 @@ case 9:
                 var1 = var10[var1];
                 var1 = var6.bind(var5)(var1);
                 var6 = var1.Text;
-                var1 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+                var1 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
                 var14 = null;
                 var10 = var14 != var9;
                 var12 = 'null';

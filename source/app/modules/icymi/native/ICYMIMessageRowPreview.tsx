@@ -61,7 +61,7 @@ case 4:
             var16 = var11[var16];
             var16 = var2.bind(var4)(var16);
             var16 = var16.colors;
-            var16 = var16.TEXT_NORMAL;
+            var16 = var16.TEXT_DEFAULT;
             var7['seeMoreLabelColor'] = var16;
             var7 = var14.bind(var15)(var7);
             var7 = var7.bind(var4)(var13);

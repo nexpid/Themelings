@@ -424,7 +424,7 @@ case 27:
                     var10 = var7[var10];
                     var10 = var11.bind(var5)(var10);
                     var10 = var10.colors;
-                    var10 = var10.TEXT_SECONDARY;
+                    var10 = var10.TEXT_SUBTLE;
                     var6['color'] = var10;
                     var10 = _closure2_slot7;
                     var10 = var10.subLabelIcon;
@@ -437,7 +437,7 @@ case 27:
                     var7 = var7[var12];
                     var7 = var8.bind(var5)(var7);
                     var8 = var7.Text;
-                    var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-secondary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+                    var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-subtle', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
                     var10 = _closure2_slot7;
                     var10 = var10.threadName;
                     var7['style'] = var10;
@@ -459,7 +459,7 @@ case 29:
                     var11 = var19[var12];
                     var11 = var17.bind(var5)(var11);
                     var13 = var11.Text;
-                    var11 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-secondary', 'children': '•'};
+                    var11 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-subtle', 'children': '•'};
                     var16 = _closure2_slot7;
                     var16 = var16.subLabelSeparator;
                     var11['style'] = var16;
@@ -469,7 +469,7 @@ case 29:
                     var12 = var19[var12];
                     var12 = var17.bind(var5)(var12);
                     var13 = var12.Text;
-                    var12 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+                    var12 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
                     var16 = 19;
                     var16 = var19[var16];
                     var17 = var17.bind(var5)(var16);

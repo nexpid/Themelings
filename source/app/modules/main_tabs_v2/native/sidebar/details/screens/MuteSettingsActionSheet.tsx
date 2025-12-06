@@ -407,7 +407,7 @@ case 22:
             var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var7 = _closure1_slot8;
             var7 = var7.ALL_MESSAGES;
             if(!(var8 !== var7)) { _fun0002_ip = 23; continue _fun0002 }
@@ -435,7 +435,7 @@ case 15:
             var2 = var11[var2];
             var2 = var7.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var6 = 8;
             var8 = var11[var6];
             var8 = var7.bind(var4)(var8);
@@ -455,7 +455,7 @@ case 15:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/medium', 'color': 'text-warning'};
+                var2 = {'variant': 'text-sm/medium', 'color': 'text-feedback-warning'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;
@@ -475,7 +475,7 @@ case 13:
             var2 = var11[var2];
             var2 = var7.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var6 = 8;
             var8 = var11[var6];
             var8 = var7.bind(var4)(var8);
@@ -495,7 +495,7 @@ case 13:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/medium', 'color': 'text-danger'};
+                var2 = {'variant': 'text-sm/medium', 'color': 'text-feedback-critical'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;
@@ -515,7 +515,7 @@ case 11:
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var1 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var5 = 8;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);

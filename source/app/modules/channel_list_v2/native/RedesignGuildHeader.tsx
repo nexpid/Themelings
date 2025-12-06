@@ -827,28 +827,29 @@ case 0:
             var2 = var6[var2];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
-            var8 = var2.bind(var3)();
+            var2 = var2.bind(var3)();
             var4 = 8;
             var4 = var6[var4];
             var4 = var5.bind(var3)(var4);
-            var5 = var4.bind(var3)();
-            if(var8) { _fun0007_ip = 32; continue _fun0007 }
+            var6 = var4.bind(var3)();
+            var5 = var2;
+            if(var5) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
             var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 9;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var4 = var4.bind(var3)(var2);
             var2 = var4.isThemeDark;
-            var8 = var2.bind(var4)(var5);
+            var5 = var2.bind(var4)(var6);
 case 32:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 10;
             var2 = var4[var2];
-            var5 = var6.bind(var3)(var2);
-            var2 = var5.useFontScale;
-            var5 = var2.bind(var5)();
+            var7 = var6.bind(var3)(var2);
+            var2 = var7.useFontScale;
+            var9 = var2.bind(var7)();
             var7 = _closure1_slot1;
             var2 = 11;
             var2 = var4[var2];
@@ -857,30 +858,28 @@ case 32:
             var7 = var7.bind(var3)(var2);
             var2 = null;
             var2 = var2 != var7;
-            var9 = 12;
-            var4 = var4[var9];
-            var4 = var6.bind(var3)(var4);
-            var4 = var4.TextStyleSheet;
-            var4 = var4.redesign/heading-18/bold;
-            var4 = var4.lineHeight;
-            var6 = var4 * var5;
+            var8 = 12;
+            var4 = var4[var8];
+            var7 = var6.bind(var3)(var4);
+            var6 = var7.scaleTextLineHeight;
+            var4 = 'redesign/heading-18/bold';
+            var6 = var6.bind(var7)(var4, var9);
             var4 = 0;
-            if(!var8) { _fun0007_ip = 34; continue _fun0007 }
+            if(!var5) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
             var4 = 1;
 case 34:
             var7 = 0;
-            if(!var2) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
-            var8 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var9];
-            var2 = var8.bind(var3)(var2);
-            var2 = var2.TextStyleSheet;
-            var2 = var2.text-xs/medium;
-            var2 = var2.lineHeight;
-            var7 = var2 * var5;
+            if(!var2) { _fun0007_ip = 8; continue _fun0007 }
 case 36:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var8 = var5.bind(var3)(var2);
+            var5 = var8.scaleTextLineHeight;
+            var2 = 'text-xs/medium';
+            var7 = var5.bind(var8)(var2, var9);
+case 8:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
             var2 = 13;

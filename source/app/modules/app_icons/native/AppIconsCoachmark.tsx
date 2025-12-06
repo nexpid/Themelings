@@ -238,7 +238,7 @@ case 2:
             var8 = var16[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'variant': 'text-md/normal', 'color': 'text-normal'};
+            var8 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var16 = var10.subtitle;
             var8['style'] = var16;
             var20 = _closure1_slot0;

@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var4['divider'] = var9;
     var9 = {'position': 'absolute', 'width': '100%', 'bottom': 0, 'minHeight': 136};
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['borderTopColor'] = var12;
     var4['buttonWrapper'] = var9;
     var9 = {};
@@ -572,7 +572,7 @@ case 9:
                 var10 = var13[var10];
                 var10 = var12.bind(var1)(var10);
                 var11 = var10.Text;
-                var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                 var15 = var15.subtitle;
                 var10['style'] = var15;
                 var15 = var13[var9];

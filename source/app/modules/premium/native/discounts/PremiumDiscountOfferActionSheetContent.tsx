@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_SECONDARY;
+    var11 = var11.TEXT_SUBTLE;
     var10['color'] = var11;
     var4['learnMoreText'] = var10;
     var10 = {'width': '100%', 'textAlign': 'center'};

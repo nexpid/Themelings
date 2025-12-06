@@ -1058,28 +1058,28 @@ case 0:
             var1 = null;
             var3 = var1 == var9;
             var2 = undefined;
-            if(var3) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
+            if(var3) { _fun0008_ip = 27; continue _fun0008 }
+case 46:
             var3 = var9.summary;
             var2 = var3.channelId;
-case 46:
+case 27:
             var3 = new Array(3);
             var3[0] = var2;
             var10 = var1 == var9;
             var2 = undefined;
-            if(var10) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
+            if(var10) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
             var10 = var9.summary;
             var2 = var10.guildId;
-case 48:
+case 47:
             var3[1] = var2;
             var10 = var1 == var9;
             var2 = undefined;
-            if(var10) { _fun0008_ip = 50; continue _fun0008 }
-case 51:
+            if(var10) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
             var10 = var9.summary;
             var2 = var10.startId;
-case 50:
+case 49:
             var3[2] = var2;
             var2 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -1095,30 +1095,30 @@ case 0:
                     var8 = null;
                     var2 = var8 == var2;
                     var3 = undefined;
-                    if(var2) { _fun0009_ip = 52; continue _fun0009 }
-case 53:
+                    if(var2) { _fun0009_ip = 51; continue _fun0009 }
+case 52:
                     var2 = _closure2_slot1;
                     var2 = var2.summary;
                     var3 = var2.guildId;
-case 52:
+case 51:
                     var2 = _closure2_slot1;
                     var7 = var8 == var2;
                     var2 = undefined;
-                    if(var7) { _fun0009_ip = 54; continue _fun0009 }
-case 55:
+                    if(var7) { _fun0009_ip = 53; continue _fun0009 }
+case 54:
                     var7 = _closure2_slot1;
                     var7 = var7.summary;
                     var2 = var7.channelId;
-case 54:
+case 53:
                     var7 = _closure2_slot1;
                     var7 = var8 == var7;
                     var1 = undefined;
-                    if(var7) { _fun0009_ip = 56; continue _fun0009 }
-case 46:
+                    if(var7) { _fun0009_ip = 55; continue _fun0009 }
+case 56:
                     var6 = _closure2_slot1;
                     var6 = var6.summary;
                     var1 = var6.startId;
-case 56:
+case 55:
                     var1 = var4.bind(var5)(var3, var2, var1);
                     return var1;
                 }
@@ -1368,8 +1368,8 @@ case 71:
             var8 = var12.bind(var1)(var8);
             var8 = var8.GeneratedCandidateType;
             var8 = var8.TRENDING_TOPIC;
-            if(!(var11 !== var8)) { _fun0011_ip = 73; continue _fun0011 }
-case 74:
+            if(!(var11 !== var8)) { _fun0011_ip = 58; continue _fun0011 }
+case 73:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var8 = 15;
@@ -1382,8 +1382,8 @@ case 74:
             var8 = var8.t;
             var8 = var8.NPVawp;
             var8 = var11.bind(var12)(var8);
-            _fun0011_ip = 75; continue _fun0011;
-case 73:
+            _fun0011_ip = 74; continue _fun0011;
+case 58:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = 15;
@@ -1396,7 +1396,7 @@ case 73:
             var10 = var10.t;
             var10 = var10.F2Smni;
             var8 = var11.bind(var12)(var10);
-case 75:
+case 74:
             var2['title'] = var8;
             var8 = {};
             var10 = 'channel';

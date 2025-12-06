@@ -204,7 +204,7 @@ case 2:
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
     var4 = var4.colors;
-    var11 = var4.HEADER_SECONDARY;
+    var11 = var4.TEXT_SUBTLE;
     var4 = 16;
     var19 = var14.bind(var1)(var13, var11, var4);
     var20 = var10;

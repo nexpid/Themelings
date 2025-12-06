@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -164,7 +164,7 @@ case 2:
             var16 = var21[var18];
             var16 = var19.bind(var4)(var16);
             var22 = var16.Text;
-            var16 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'text-normal'};
+            var16 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'text-default'};
             var27 = var10.alertTitle;
             var16['style'] = var27;
             var16['children'] = var26;
@@ -174,7 +174,7 @@ case 2:
             var18 = var21[var18];
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var18 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var21 = var10.alertSubtitle;
             var18['style'] = var21;
             var18['children'] = var20;

@@ -1069,7 +1069,7 @@ case 36:
             var12 = var19[var12];
             var12 = var18.bind(var5)(var12);
             var12 = var12.colors;
-            var12 = var12.BG_SURFACE_RAISED;
+            var12 = var12.BACKGROUND_SURFACE_HIGH;
             var12 = var14.bind(var17)(var12);
             var17 = var1 == var15;
             var14 = undefined;

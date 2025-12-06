@@ -406,7 +406,7 @@ case 6:
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_MOD_SUBTLE;
+    var16 = var16.BACKGROUND_MOD_SUBTLE;
     var14['backgroundColor'] = var16;
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
@@ -419,7 +419,7 @@ case 6:
     var20 = var7[var17];
     var20 = var18.bind(var1)(var20);
     var20 = var20.colors;
-    var20 = var20.BG_MOD_SUBTLE;
+    var20 = var20.BACKGROUND_MOD_SUBTLE;
     var14['backgroundColor'] = var20;
     var14['height'] = var19;
     var17 = var7[var17];
@@ -940,7 +940,7 @@ case 44:
                     var12 = var19[var12];
                     var12 = var18.bind(var5)(var12);
                     var13 = var12.Text;
-                    var12 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-secondary', 'lineClamp': 1};
+                    var12 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-subtle', 'lineClamp': 1};
                     var15 = var15.monetizationDisclosureTextStyle;
                     var12['style'] = var15;
                     var15 = 30;
@@ -984,7 +984,7 @@ case 46:
                     var13 = var20[var13];
                     var13 = var19.bind(var5)(var13);
                     var14 = var13.Text;
-                    var13 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-secondary', 'lineClamp': 1};
+                    var13 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-subtle', 'lineClamp': 1};
                     var16 = var16.monetizationDisclosureTextStyle;
                     var13['style'] = var16;
                     var16 = 30;
@@ -1203,7 +1203,7 @@ case 63:
             var35 = var42[var35];
             var35 = var41.bind(var4)(var35);
             var36 = var35.Text;
-            var35 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var35 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var38 = 30;
             var39 = var42[var38];
             var39 = var41.bind(var4)(var39);
@@ -1245,7 +1245,7 @@ case 66:
             var33 = var41[var33];
             var33 = var40.bind(var4)(var33);
             var35 = var33.Text;
-            var33 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var33 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var37 = 30;
             var38 = var41[var37];
             var38 = var40.bind(var4)(var38);

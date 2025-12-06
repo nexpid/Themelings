@@ -380,7 +380,7 @@ case 7:
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_RAISED;
+    var18 = var18.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var18;
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
@@ -437,7 +437,7 @@ case 7:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var16;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
@@ -998,7 +998,7 @@ case 54:
             var7 = var7[var28];
             var7 = var10.bind(var5)(var7);
             var10 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var23 = var11.headerSubtitle;
             var7['style'] = var23;
             if(!(var2 != var18)) { _fun0004_ip = 55; continue _fun0004 }
@@ -1115,7 +1115,7 @@ case 61:
             var10 = var10[var28];
             var10 = var19.bind(var5)(var10);
             var19 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var28 = var11.optionExplanation;
             var10['style'] = var28;
             var10['children'] = var27;

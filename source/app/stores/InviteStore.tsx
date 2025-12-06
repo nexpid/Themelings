@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function updateInvite(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -122,11 +122,11 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var9 = function handleInviteResolveFailure(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var1.code;
         var1 = undefined;
         var2 = function(arg1) {
@@ -198,15 +198,22 @@ case 18:
     var8 = new var15[var8](var14);
     var8 = var8 instanceof Object ? var8 : var10;
     var _closure1_slot8 = var8;
+    var8 = var2.Map;
+    var10 = var8.prototype;
+    var10 = Object.create(var10, {constructor: {value: var8}});
+    var15 = var10;
+    var8 = new var15[var8](var14);
+    var8 = var8 instanceof Object ? var8 : var10;
+    var _closure1_slot9 = var8;
+    var8 = {};
+    var _closure1_slot10 = var8;
     var2 = var2.Map;
     var8 = var2.prototype;
     var8 = Object.create(var8, {constructor: {value: var2}});
     var15 = var8;
     var2 = new var15[var2](var14);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot9 = var2;
-    var2 = {};
-    var _closure1_slot10 = var2;
+    var _closure1_slot11 = var2;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -224,7 +231,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
@@ -264,7 +271,7 @@ case 21:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getInviteError';
@@ -290,14 +297,26 @@ case 21:
         var5 = {};
         var7 = 'getInviteKeyForGuildId';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var2 = _closure1_slot10;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'getFriendMemberIds';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot11;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -342,7 +361,7 @@ case 21:
     var10 = function handleInviteResolveSuccess(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var1.code;
         var1 = undefined;
         var2 = function(arg1) {
@@ -432,7 +451,7 @@ case 23:
     var9 = function handleFriendInviteCreate(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var1 = var1.invite;
         var3 = var1.code;
         var1 = undefined;
@@ -457,7 +476,7 @@ case 23:
         var3 = var1.invites;
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var1 = arg1;
             var3 = var1.code;
             var1 = undefined;
@@ -480,7 +499,7 @@ case 23:
     var9 = function handleInstantInviteCreate(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var1 = var1.invite;
         var3 = var1.code;
         var1 = undefined;
@@ -555,7 +574,7 @@ case 23:
     };
     var2['INSTANT_INVITE_CREATE_SUCCESS'] = var9;
     var9 = function handleAcceptInvite(arg1) {
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var1 = arg1;
         var3 = var1.code;
         var1 = undefined;
@@ -574,7 +593,7 @@ case 23:
     var9 = function handleAcceptInviteSuccess(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var1.code;
         var1 = undefined;
         var2 = function(arg1) {
@@ -612,7 +631,7 @@ case 23:
         var4 = var1.code;
         var3 = var1.error;
         var3 = var5.bind(var6)(var4, var3);
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var1.code;
         var1 = undefined;
         var2 = function(arg1) {
@@ -628,7 +647,7 @@ case 23:
     };
     var2['INVITE_ACCEPT_FAILURE'] = var9;
     var9 = function handleInviteAppOpening(arg1) {
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var1 = arg1;
         var3 = var1.code;
         var1 = undefined;
@@ -645,7 +664,7 @@ case 23:
     };
     var2['INVITE_APP_OPENING'] = var9;
     var9 = function handleInviteAppOpened(arg1) {
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var1 = arg1;
         var3 = var1.code;
         var1 = undefined;
@@ -661,8 +680,8 @@ case 23:
         return var1;
     };
     var2['INVITE_APP_OPENED'] = var9;
-    var4 = function handleInviteAppNotOpened(arg1) {
-        var4 = _closure1_slot12;
+    var9 = function handleInviteAppNotOpened(arg1) {
+        var4 = _closure1_slot13;
         var1 = arg1;
         var3 = var1.code;
         var1 = undefined;
@@ -677,7 +696,56 @@ case 23:
         var2 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var2['INVITE_APP_NOT_OPENED'] = var4;
+    var2['INVITE_APP_NOT_OPENED'] = var9;
+    var9 = function handleInviteFriendMembersFetchSuccess(arg1) {
+        var1 = arg1;
+        var2 = global;
+        var5 = var2.Map;
+        var7 = _closure1_slot11;
+        var4 = var5.prototype;
+        var4 = Object.create(var4, {constructor: {value: var5}});
+        var8 = var4;
+        var3 = new var8[var5](var7, var6);
+        var4 = var3 instanceof Object ? var3 : var4;
+        _closure1_slot11 = var4;
+        var3 = var4.set;
+        var2 = var1.code;
+        var1 = var1.friendMemberIds;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = undefined;
+        return var1;
+    };
+    var2['INVITE_FRIEND_MEMBERS_FETCH_SUCCESS'] = var9;
+    var4 = function handleInviteFriendMembersFetchFailure(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var5 = _closure1_slot11;
+            var4 = var5.has;
+            var3 = var1.code;
+            var3 = var4.bind(var5)(var3);
+            if(var3) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
+            var3 = false;
+            return var3;
+case 25:
+            var3 = global;
+            var5 = var3.Map;
+            var6 = _closure1_slot11;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var7 = var4;
+            var3 = new var7[var5](var6, var5);
+            var3 = var3 instanceof Object ? var3 : var4;
+            _closure1_slot11 = var3;
+            var2 = var3.delete;
+            var1 = var1.code;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['INVITE_FRIEND_MEMBERS_FETCH_FAILURE'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var15 = var4;

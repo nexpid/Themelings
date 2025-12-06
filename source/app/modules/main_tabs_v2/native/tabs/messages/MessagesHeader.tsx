@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var13 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var11.BORDER_SUBTLE;
     var11 = 'backgroundColor';
     var10[var11] = var13;
     var11 = 'top';
@@ -429,7 +429,7 @@ case 11:
         var1 = {};
         var1['style'] = var5;
         var8 = _closure1_slot6;
-        var5 = 5;
+        var5 = 18;
         var5 = var11[var5];
         var5 = var19.bind(var4)(var5);
         var12 = var5.Text;
@@ -456,7 +456,7 @@ case 11:
         var13 = new Array(3);
         var13[0] = var15;
         var7 = _closure1_slot1;
-        var15 = 18;
+        var15 = 19;
         var15 = var11[var15];
         var16 = var7.bind(var4)(var15);
         var15 = {'noMargin': true, 'onPress': null, 'alternateVariant': true};
@@ -483,7 +483,7 @@ case 11:
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 19;
+    var5 = 20;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -496,17 +496,16 @@ case 11:
         var3 = var4.min;
         var2 = arg1;
         var1 = 1.75;
-        var3 = var3.bind(var4)(var2, var1);
+        var8 = var3.bind(var4)(var2, var1);
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 5;
         var2 = var6[var2];
         var4 = undefined;
-        var2 = var5.bind(var4)(var2);
-        var2 = var2.TextStyleSheet;
-        var2 = var2.redesign/heading-18/bold;
-        var2 = var2.lineHeight;
-        var3 = var2 * var3;
+        var7 = var5.bind(var4)(var2);
+        var3 = var7.scaleTextLineHeight;
+        var2 = 'redesign/heading-18/bold';
+        var3 = var3.bind(var7)(var2, var8);
         var2 = _closure1_slot9;
         var3 = var3 + var2;
         var2 = 6;

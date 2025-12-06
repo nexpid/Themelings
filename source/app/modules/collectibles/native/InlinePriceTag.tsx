@@ -319,7 +319,7 @@ case 22:
             var6 = var9[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/normal', 'color': 'text-positive'};
+            var6 = {'variant': 'text-md/normal', 'color': 'text-feedback-positive'};
             var9 = ['-'];
             var9[1] = var10;
             var10 = '%';

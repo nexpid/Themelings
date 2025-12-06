@@ -445,6 +445,8 @@ case 5:
         var3['QuestEmbedFallbackReason'] = var12;
         var12 = '1333839522189938740';
         var3['ORBS_INTRO_QUEST_ID'] = var12;
+        var12 = '1410358070831480904';
+        var3['MOBILE_ORBS_INTRO_QUEST_ID'] = var12;
         var12 = '1420556874629251124';
         var3['PLAY_ACTIVITY_CLOUD_GAMING_QUEST_ID'] = var12;
         var12 = '1402418703554842694';

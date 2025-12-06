@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = metroImportDefault;
     var12 = var12.bind(var1)(var13);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var10['backgroundColor'] = var12;
     var12 = var11.hairlineWidth;
     var11 = -1;

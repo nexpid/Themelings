@@ -46,39 +46,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
         var6 = 3;
-        var3 = var8[var6];
-        var1 = undefined;
-        var11 = var7.bind(var1)(var3);
+        var1 = var8[var6];
+        var5 = undefined;
+        var11 = var7.bind(var5)(var1);
         var10 = var11.useStateFromStores;
-        var5 = _closure1_slot5;
+        var4 = _closure1_slot5;
         var9 = new Array(1);
-        var9[0] = var5;
-        var3 = function() {
+        var9[0] = var4;
+        var1 = function() {
             var2 = _closure1_slot5;
             var1 = var2.getFetchState;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var3 = var10.bind(var11)(var9, var3);
-        var _closure2_slot0 = var3;
+        var1 = var10.bind(var11)(var9, var1);
+        var _closure2_slot0 = var1;
         var6 = var8[var6];
-        var8 = var7.bind(var1)(var6);
+        var8 = var7.bind(var5)(var6);
         var7 = var8.useStateFromStores;
         var6 = new Array(1);
-        var6[0] = var5;
-        var5 = function() {
+        var6[0] = var4;
+        var4 = function() {
             var2 = _closure1_slot5;
             var1 = var2.getCheckpointData;
             var1 = var1.bind(var2)();
             return var1;
         };
-        var5 = var7.bind(var8)(var6, var5);
-        var _closure2_slot1 = var5;
+        var4 = var7.bind(var8)(var6, var4);
+        var _closure2_slot1 = var4;
         var7 = _closure1_slot4;
-        var5 = var5.applications;
+        var4 = var4.applications;
         var6 = new Array(1);
-        var6[0] = var5;
-        var5 = function() {
+        var6[0] = var4;
+        var4 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = _closure2_slot1;
@@ -104,11 +104,11 @@ case 4:
                 return var1;
             }
         };
-        var5 = var7.bind(var1)(var5, var6);
-        var _closure2_slot2 = var5;
+        var6 = var7.bind(var5)(var4, var6);
+        var _closure2_slot2 = var6;
         var4 = _closure1_slot3;
-        var6 = new Array(1);
-        var6[0] = var3;
+        var7 = new Array(1);
+        var7[0] = var1;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -139,9 +139,9 @@ case 5:
                 return var1;
             }
         };
-        var3 = var4.bind(var1)(var3, var6);
+        var3 = var4.bind(var5)(var3, var7);
         var3 = new Array(1);
-        var3[0] = var5;
+        var3[0] = var6;
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -154,7 +154,7 @@ case 5:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var2 = var4.bind(var1)(var2, var3);
+        var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
     var3['useMaybeFetchCheckpointData'] = var2;

@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_MOD_STRONG;
+    var11 = var11.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var11;
     var11 = 80;
     var9['height'] = var11;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var19[var21];
         var22 = var18.bind(var4)(var22);
         var23 = var22.Text;
-        var22 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'By default, stacks are vertical and have a spacing of 8.'};
+        var22 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'By default, stacks are vertical and have a spacing of 8.'};
         var22 = var24.bind(var4)(var23, var22);
         var16[1] = var22;
         var22 = var19[var17];
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var24 = var19[var21];
         var24 = var18.bind(var4)(var24);
         var25 = var24.Text;
-        var24 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'You can control the spacing with the spacing prop. The spacing prop uses our 4px-based spacing scale. By default, stacks are vertical and have a spacing of 8.'};
+        var24 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'You can control the spacing with the spacing prop. The spacing prop uses our 4px-based spacing scale. By default, stacks are vertical and have a spacing of 8.'};
         var24 = var26.bind(var4)(var25, var24);
         var23[1] = var24;
         var24 = var19[var17];
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var21 = var19[var21];
         var21 = var18.bind(var4)(var21);
         var23 = var21.Text;
-        var21 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'You can control the direction with the direction prop. The direction prop can be either horizontal or vertical.'};
+        var21 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'You can control the direction with the direction prop. The direction prop can be either horizontal or vertical.'};
         var21 = var24.bind(var4)(var23, var21);
         var16[1] = var21;
         var17 = var19[var17];

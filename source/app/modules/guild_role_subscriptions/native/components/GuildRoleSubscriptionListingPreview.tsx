@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var16[var6];
         var6 = var14.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
         var9 = var9.priceInterval;
         var6['style'] = var9;
         var9 = 8;
@@ -249,7 +249,7 @@ case 4:
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+        var5 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
         var9 = var9.sectionLabel;
         var5['style'] = var9;
         var5['children'] = var8;
@@ -502,14 +502,14 @@ case 8:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var13['backgroundColor'] = var16;
     var8['contentWithBackground'] = var13;
     var13 = {'width': '100%', 'height': 1, 'marginTop': 16};
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MODIFIER_ACCENT;
+    var16 = var16.BORDER_SUBTLE;
     var13['backgroundColor'] = var16;
     var8['separator'] = var13;
     var13 = {};
@@ -522,7 +522,7 @@ case 8:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var13['backgroundColor'] = var16;
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);

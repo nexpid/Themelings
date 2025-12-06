@@ -103,12 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var8 = var2.isChangeEmail;
-            var _closure2_slot0 = var8;
-            var7 = var2.changeEmailReason;
-            var _closure2_slot1 = var7;
-            var6 = var2.freeTextResponse;
-            var _closure2_slot2 = var6;
+            var7 = var2.isChangeEmail;
+            var _closure2_slot0 = var7;
+            var6 = var2.changeEmailReason;
+            var _closure2_slot1 = var6;
             var2 = _closure1_slot16;
             var5 = undefined;
             var18 = var2.bind(var5)();
@@ -116,14 +114,14 @@ case 0:
             var4 = _closure1_slot3;
             var2 = 10;
             var2 = var4[var2];
-            var9 = var3.bind(var5)(var2);
-            var2 = var9.useNavigation;
-            var12 = var2.bind(var9)();
-            var _closure2_slot3 = var12;
+            var8 = var3.bind(var5)(var2);
+            var2 = var8.useNavigation;
+            var11 = var2.bind(var8)();
+            var _closure2_slot2 = var11;
             var2 = 11;
             var2 = var4[var2];
-            var9 = var3.bind(var5)(var2);
-            var4 = var9.useStateFromStores;
+            var8 = var3.bind(var5)(var2);
+            var4 = var8.useStateFromStores;
             var2 = _closure1_slot9;
             var3 = new Array(1);
             var3[0] = var2;
@@ -133,39 +131,39 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var14 = var4.bind(var9)(var3, var2);
-            var _closure2_slot4 = var14;
+            var14 = var4.bind(var8)(var3, var2);
+            var _closure2_slot3 = var14;
             var4 = _closure1_slot6;
             var2 = var4.useState;
             var13 = '';
             var2 = var2.bind(var4)(var13);
-            var11 = _closure1_slot5;
-            var10 = 2;
-            var2 = var11.bind(var5)(var2, var10);
-            var9 = 0;
-            var15 = var2[var9];
-            var _closure2_slot5 = var15;
+            var10 = _closure1_slot5;
+            var9 = 2;
+            var2 = var10.bind(var5)(var2, var9);
+            var8 = 0;
+            var15 = var2[var8];
+            var _closure2_slot4 = var15;
             var3 = 1;
             var23 = var2[var3];
-            var16 = _closure1_slot10;
+            var12 = _closure1_slot10;
             var2 = _closure1_slot12;
             var2 = var2.EMAIL;
-            var2 = var16.bind(var5)(var2);
-            var2 = var11.bind(var5)(var2, var10);
-            var19 = var2[var9];
-            var11 = var2[var3];
-            var _closure2_slot6 = var11;
+            var2 = var12.bind(var5)(var2);
+            var2 = var10.bind(var5)(var2, var9);
+            var19 = var2[var8];
+            var10 = var2[var3];
+            var _closure2_slot5 = var10;
             var2 = _closure1_slot11;
             var2 = var2.bind(var5)();
-            var10 = var2.emailToken;
-            var _closure2_slot7 = var10;
-            var9 = var4.useCallback;
+            var9 = var2.emailToken;
+            var _closure2_slot6 = var9;
+            var8 = var4.useCallback;
             var3 = new Array(1);
-            var3[0] = var12;
+            var3[0] = var11;
             var2 = function(arg1) {
                 var2 = arg1;
                 var _closure3_slot0 = var2;
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot2;
                 var2 = var3.getState;
                 var2 = var2.bind(var3)();
                 var3 = var2.routes;
@@ -180,21 +178,20 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var9 = var9.bind(var4)(var2, var3);
-            var _closure2_slot8 = var9;
+            var8 = var8.bind(var4)(var2, var3);
+            var _closure2_slot7 = var8;
             var3 = var4.useCallback;
-            var2 = new Array(9);
-            var2[0] = var12;
+            var2 = new Array(8);
+            var2[0] = var11;
             var2[1] = var14;
-            var2[2] = var11;
+            var2[2] = var10;
             var2[3] = var15;
-            var2[4] = var10;
-            var2[5] = var9;
-            var2[6] = var8;
-            var2[7] = var7;
-            var2[8] = var6;
+            var2[4] = var9;
+            var2[5] = var8;
+            var2[6] = var7;
+            var2[7] = var6;
             var1 = function() {
-                var5 = _closure2_slot3;
+                var5 = _closure2_slot2;
                 var4 = var5.push;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
@@ -214,13 +211,13 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                            var2 = _closure2_slot4;
+                            var2 = _closure2_slot3;
                             var5 = null;
                             var4 = var5 == var2;
                             var2 = null;
                             if(var4) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                            var4 = _closure2_slot6;
+                            var4 = _closure2_slot5;
                             var6 = undefined;
                             var4 = var4.bind(var6)(var5);
                             var5 = _closure1_slot2;
@@ -230,14 +227,14 @@ case 5:
                             var7 = var5.bind(var6)(var4);
                             var6 = var7.saveEmail;
                             var5 = {};
-                            var4 = _closure2_slot5;
+                            var4 = _closure2_slot4;
                             var5['email'] = var4;
                             var4 = arg1;
                             var5['password'] = var4;
-                            var4 = _closure2_slot7;
+                            var4 = _closure2_slot6;
                             var5['emailToken'] = var4;
-                            var4 = _closure2_slot3;
-                            var3 = _closure2_slot8;
+                            var4 = _closure2_slot2;
+                            var3 = _closure2_slot7;
                             var3 = var6.bind(var7)(var5, var4, var3);
                             SaveGenerator(address=112);
 case 6:
@@ -282,8 +279,8 @@ case 10:
                         var3 = undefined;
                         var6 = var5.bind(var3)(var4);
                         var5 = var6.finishVerifyEmailFlow;
-                        var4 = _closure2_slot3;
-                        var3 = _closure2_slot8;
+                        var4 = _closure2_slot2;
+                        var3 = _closure2_slot7;
                         var3 = var5.bind(var6)(var4, var3);
                         _fun0003_ip = 11; continue _fun0003;
 case 9:
@@ -299,16 +296,14 @@ case 9:
                         var3 = {};
                         var9 = _closure2_slot1;
                         var3['change_email_reason_enum'] = var9;
-                        var9 = _closure2_slot2;
-                        var3['free_text_response'] = var9;
                         var3 = var7.bind(var8)(var6, var3);
                         var3 = _closure1_slot2;
                         var2 = 13;
                         var2 = var5[var2];
                         var4 = var3.bind(var4)(var2);
                         var3 = var4.finishChangeEmailFlow;
-                        var2 = _closure2_slot3;
-                        var1 = _closure2_slot5;
+                        var2 = _closure2_slot2;
+                        var1 = _closure2_slot4;
                         var1 = var3.bind(var4)(var2, var1);
 case 11:
                         var1 = undefined;
@@ -386,7 +381,7 @@ case 16:
             var10 = var10[var20];
             var10 = var11.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var20 = var18.prompt;
             var10['style'] = var20;
             var20 = var14.email;

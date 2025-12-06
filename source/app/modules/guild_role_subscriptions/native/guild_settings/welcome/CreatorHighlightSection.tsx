@@ -223,7 +223,7 @@ case 9:
             var8 = var11[var23];
             var8 = var12.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-normal'};
+            var8 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-default'};
             var15 = var6.ownerQuote;
             var8['style'] = var15;
             var8['children'] = var13;
@@ -233,7 +233,7 @@ case 9:
             var8 = var11[var23];
             var8 = var12.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-normal', 'lineClamp': 1, 'lineBreakMode': 'tail'};
+            var8 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default', 'lineClamp': 1, 'lineBreakMode': 'tail'};
             var13 = var6.ownerUsername;
             var8['style'] = var13;
             var19 = 8;
@@ -286,7 +286,7 @@ case 16:
             var12 = var16[var23];
             var12 = var24.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-normal'};
+            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-default'};
             var20 = var6.premiumEmojisTitle;
             var12['style'] = var20;
             var20 = var16[var19];
@@ -351,7 +351,7 @@ case 18:
             var20 = var20[var23];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-normal'};
+            var20 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
             var23 = var6.emojiListItem;
             var20['style'] = var23;
             var23 = global;
@@ -496,7 +496,7 @@ case 5:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);

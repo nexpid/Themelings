@@ -312,7 +312,7 @@ case 8:
             _fun0004_ip = 16; continue _fun0004;
 case 15:
             var3 = _closure1_slot11;
-            var2 = {'size': 'md', 'color': 'text-primary'};
+            var2 = {'size': 'md', 'color': 'text-strong'};
             var1 = var3.bind(var4)(var5, var2);
 case 16:
             return var1;
@@ -461,7 +461,7 @@ case 16:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_PRIMARY;
+    var13 = var13.TEXT_STRONG;
     var10['tintColor'] = var13;
     var5['guildChannelIcon'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'marginBottom': 4};
@@ -653,7 +653,7 @@ case 33:
             var8 = var11[var8];
             var8 = var9.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-xs/medium', 'color': 'divider-subtle', 'children': '•'};
+            var8 = {'variant': 'text-xs/medium', 'color': 'border-subtle', 'children': '•'};
             var7 = var10.bind(var5)(var9, var8);
 case 32:
             var6[1] = var7;

@@ -911,8 +911,8 @@ case 0:
             var1 = null;
             var2 = var1 == var5;
             var1 = '';
-            if(var2) { _fun0017_ip = 61; continue _fun0017 }
-case 86:
+            if(var2) { _fun0017_ip = 86; continue _fun0017 }
+case 87:
             var3 = var5.charAt;
             var2 = 0;
             var3 = var3.bind(var5)(var2);
@@ -926,7 +926,7 @@ case 86:
             var3 = '_';
             var2 = ' ';
             var1 = var4.bind(var5)(var3, var2);
-case 61:
+case 86:
             return var1;
         }
     };
@@ -943,8 +943,8 @@ case 0:
             var2 = var3.done;
             var5 = 'application_directory_collection_items';
             var4 = 0;
-            if(var2) { _fun0018_ip = 87; continue _fun0018 }
-case 88:
+            if(var2) { _fun0018_ip = 88; continue _fun0018 }
+case 89:
             var11 = var3.value;
             var10 = var11.application_directory_collection_items;
             var9 = var10.filter;
@@ -962,18 +962,18 @@ case 0:
                     var1 = var1.ApplicationDirectoryCollectionItemType;
                     var1 = var1.APPLICATION;
                     var1 = var5 === var1;
-                    if(!var1) { _fun0019_ip = 89; continue _fun0019 }
-case 90:
+                    if(!var1) { _fun0019_ip = 90; continue _fun0019 }
+case 91:
                     var3 = _closure1_slot15;
                     var2 = var2.application;
                     var1 = var3.bind(var4)(var2);
-case 89:
+case 90:
                     return var1;
                 }
             };
             var10 = var9.bind(var10)(var2);
             var2 = var10.length;
-            if(!(var4 !== var2)) { _fun0018_ip = 91; continue _fun0018 }
+            if(!(var4 !== var2)) { _fun0018_ip = 92; continue _fun0018 }
 case 61:
             var9 = var1.push;
             var2 = {};
@@ -982,12 +982,12 @@ case 61:
             var11 = copyDataProperties(var13, var12);
             var2[var5] = var10;
             var2 = var9.bind(var1)(var2);
-case 91:
+case 92:
             var9 = var6.bind(var7)();
             var2 = var9.done;
             var3 = var9;
-            if(!var2) { _fun0018_ip = 88; continue _fun0018 }
-case 87:
+            if(!var2) { _fun0018_ip = 89; continue _fun0018 }
+case 88:
             return var1;
         }
     };
@@ -1015,7 +1015,7 @@ case 0:
             var2 = {};
             var4 = var3.id;
             var2['applicationId'] = var4;
-            if(var1) { _fun0020_ip = 89; continue _fun0020 }
+            if(var1) { _fun0020_ip = 90; continue _fun0020 }
 case 34:
             var1 = var3.custom_install_url;
             var2['customInstallUrl'] = var1;
@@ -1024,8 +1024,8 @@ case 34:
             var1 = var3.integration_types_config;
             var2['integrationTypesConfig'] = var1;
             var1 = var2;
-            _fun0020_ip = 92; continue _fun0020;
-case 89:
+            _fun0020_ip = 93; continue _fun0020;
+case 90:
             var4 = var3.customInstallUrl;
             var2['customInstallUrl'] = var4;
             var4 = var3.installParams;
@@ -1033,7 +1033,7 @@ case 89:
             var3 = var3.integrationTypesConfig;
             var2['integrationTypesConfig'] = var3;
             var1 = var2;
-case 92:
+case 93:
             return var1;
         }
     };
@@ -1047,14 +1047,14 @@ case 0:
             var2 = var1 != var5;
             var6 = null;
             if(!var2) { _fun0021_ip = 83; continue _fun0021 }
-case 93:
+case 94:
             var3 = _closure1_slot6;
             var2 = var3.getGuildState;
             var6 = var2.bind(var3)(var5);
 case 83:
             var2 = var1 != var6;
             if(!var2) { _fun0021_ip = 9; continue _fun0021 }
-case 94:
+case 95:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 21;
@@ -1073,10 +1073,10 @@ case 9:
             var3 = var5.bind(var1)(var3);
             var1 = var3.isAppUserInstallable;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0021_ip = 95; continue _fun0021 }
+            if(var1) { _fun0021_ip = 96; continue _fun0021 }
 case 43:
             var1 = var2;
-case 95:
+case 96:
             return var1;
         }
     };

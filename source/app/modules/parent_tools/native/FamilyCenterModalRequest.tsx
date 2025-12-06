@@ -759,7 +759,7 @@ case 15:
     var18 = var10[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_RAISED;
+    var18 = var18.BACKGROUND_SURFACE_HIGH;
     var17['backgroundColor'] = var18;
     var18 = var10[var14];
     var18 = var15.bind(var1)(var18);
@@ -803,7 +803,7 @@ case 15:
     var16 = var10[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var13['backgroundColor'] = var16;
     var8['ring'] = var13;
     var13 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'height': 48, 'width': 48};

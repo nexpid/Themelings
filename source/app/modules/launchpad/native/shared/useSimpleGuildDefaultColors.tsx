@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_MOD_STRONG;
+    var11 = var11.BACKGROUND_MOD_STRONG;
     var8['color'] = var11;
     var2['iconBackground'] = var8;
     var8 = {};

@@ -46,7 +46,7 @@ case 0:
             var1 = arg1;
             var13 = var1.darkOverride;
             var6 = var1.promoRotatingStyle;
-            var18 = var1.isVisible;
+            var18 = var1.shouldAnimate;
             var5 = undefined;
             if(!(var18 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

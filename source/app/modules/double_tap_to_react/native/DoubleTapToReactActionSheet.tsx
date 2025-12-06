@@ -1294,7 +1294,7 @@ case 48:
                 var10 = var20[var9];
                 var10 = var16.bind(var4)(var10);
                 var19 = var10.Text;
-                var10 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+                var10 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
                 var22 = var21.emojiName;
                 var10['style'] = var22;
                 var24 = var17.name;
@@ -1344,7 +1344,7 @@ case 48:
                 var9 = var20[var9];
                 var9 = var16.bind(var4)(var9);
                 var10 = var9.Text;
-                var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-normal'};
+                var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
                 var22 = var21.alignCenter;
                 var9['style'] = var22;
                 var22 = var20[var19];

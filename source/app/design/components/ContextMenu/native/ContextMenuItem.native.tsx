@@ -92,14 +92,14 @@ case 0:
             var9 = var4[var8];
             var9 = var6.bind(var7)(var9);
             var9 = var9.colors;
-            var9 = var9.DIVIDER_SUBTLE;
+            var9 = var9.BORDER_SUBTLE;
             var2['borderBottomColor'] = var9;
             var1['border'] = var2;
             var2 = {};
             var4 = var4[var8];
             var4 = var6.bind(var7)(var4);
             var4 = var4.colors;
-            var4 = var4.BG_MOD_SUBTLE;
+            var4 = var4.BACKGROUND_MOD_SUBTLE;
             var2['backgroundColor'] = var4;
             var1['pressed'] = var2;
             var2 = {'width': 20, 'height': 20};
@@ -112,7 +112,7 @@ case 3:
             var4 = var4[var8];
             var4 = var6.bind(var7)(var4);
             var4 = var4.colors;
-            var4 = var4.TEXT_PRIMARY;
+            var4 = var4.TEXT_STRONG;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var6 = _closure1_slot1;
@@ -120,7 +120,7 @@ case 2:
             var5 = var5[var8];
             var5 = var6.bind(var7)(var5);
             var5 = var5.colors;
-            var4 = var5.TEXT_DANGER;
+            var4 = var5.TEXT_FEEDBACK_CRITICAL;
 case 4:
             var2['tintColor'] = var4;
             var1['icon'] = var2;
@@ -201,7 +201,7 @@ case 5:
             var8 = var24[var10];
             var16 = var23.bind(var4)(var8);
             var14 = var16.useAnimatedReaction;
-            var9 = function h() {
+            var9 = function p() {
                 var2 = _closure2_slot2;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -214,7 +214,7 @@ case 5:
             var9['__workletHash'] = var8;
             var8 = _closure1_slot8;
             var9['__initData'] = var8;
-            var8 = function p(arg1, arg2) {
+            var8 = function h(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = arg2;
@@ -537,11 +537,11 @@ case 29:
             var5 = {'animated': true, 'variant': 'text-md/medium'};
             var12 = var12.label;
             var5['style'] = var12;
-            var12 = 'text-primary';
+            var12 = 'text-strong';
             var13 = 'destructive';
             if(!(var13 === var14)) { _fun0002_ip = 31; continue _fun0002 }
 case 32:
-            var12 = 'text-danger';
+            var12 = 'text-feedback-critical';
 case 31:
             var5['color'] = var12;
             var5['children'] = var11;

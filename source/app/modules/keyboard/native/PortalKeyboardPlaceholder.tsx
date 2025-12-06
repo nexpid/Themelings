@@ -197,7 +197,7 @@ case 10:
             var9 = var9[var13];
             var9 = var11.bind(var4)(var9);
             var9 = var9.colors;
-            var11 = var9.BACKGROUND_MODIFIER_ACCENT;
+            var11 = var9.BORDER_SUBTLE;
             var9 = 'borderTopColor';
             var2[var9] = var11;
             var11 = undefined;
@@ -208,7 +208,7 @@ case 13:
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.colors;
-            var11 = var9.BACKGROUND_MODIFIER_ACCENT;
+            var11 = var9.BORDER_SUBTLE;
 case 12:
             var9 = 'borderRightColor';
             var2[var9] = var11;
@@ -228,7 +228,7 @@ case 17:
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.colors;
-            var11 = var9.BACKGROUND_MODIFIER_ACCENT;
+            var11 = var9.BORDER_SUBTLE;
 case 16:
             var9 = 'borderLeftColor';
             var2[var9] = var11;

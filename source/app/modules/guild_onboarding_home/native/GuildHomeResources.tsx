@@ -252,7 +252,7 @@ case 26:
             var24 = var30[var22];
             var24 = var25.bind(var5)(var24);
             var25 = var24.Text;
-            var24 = {'variant': 'text-sm/normal', 'color': 'header-secondary', 'style': null, 'lineClamp': 3, 'ellipsizeMode': 'tail'};
+            var24 = {'variant': 'text-sm/normal', 'color': 'text-default', 'style': null, 'lineClamp': 3, 'ellipsizeMode': 'tail'};
             var27 = var11.messageContent;
             var24['style'] = var27;
             var28 = _closure1_slot1;
@@ -280,7 +280,7 @@ case 28:
             var22 = var27[var22];
             var22 = var23.bind(var5)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-sm/normal', 'color': 'header-secondary', 'style': null, 'lineClamp': 3, 'ellipsizeMode': 'tail'};
+            var22 = {'variant': 'text-sm/normal', 'color': 'text-default', 'style': null, 'lineClamp': 3, 'ellipsizeMode': 'tail'};
             var25 = var11.messageContent;
             var22['style'] = var25;
             var26 = _closure1_slot1;

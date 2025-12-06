@@ -256,7 +256,7 @@ case 11:
             var3 = var1 != var6;
             var7 = null;
             if(!var3) { _fun0003_ip = 12; continue _fun0003 }
-case 6:
+case 13:
             var3 = global;
             var5 = var3.JSON;
             var3 = var5.stringify;
@@ -270,8 +270,8 @@ case 12:
             var9 = var5.bind(var6)(var3);
             var3 = var1 != var9;
             var6 = null;
-            if(!var3) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(!var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var3 = global;
             var8 = var3.JSON;
             var5 = var8.stringify;
@@ -281,10 +281,10 @@ case 14:
             var15 = var3;
             var10 = copyDataProperties(var15, var14);
             var11 = var9.recipients;
-            if(!(var1 == var11)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!(var1 == var11)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var11 = new Array(0);
-case 15:
+case 16:
             var10 = var11.map;
             var9 = _closure1_slot17;
             var9 = var9.getUser;
@@ -301,7 +301,7 @@ case 15:
             var9 = 'recipients';
             var3[var9] = var10;
             var6 = var5.bind(var8)(var3);
-case 13:
+case 14:
             var3 = _closure1_slot11;
             var5 = var3.ShareManager;
             var3 = var5.setSelectedChannel;
@@ -311,8 +311,8 @@ case 13:
 case 9:
             var3 = _closure1_slot5;
             var1 = null;
-            if(!(var1 != var3)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!(var1 != var3)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var5 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 14;
@@ -336,10 +336,10 @@ case 18:
             var3 = var6.bind(var7)(var5, var3);
             var3 = _closure1_slot18;
             var3 = var3.INACTIVE;
-            if(!(var4 === var3)) { _fun0003_ip = 17; continue _fun0003 }
-case 19:
+            if(!(var4 === var3)) { _fun0003_ip = 18; continue _fun0003 }
+case 20:
             _closure1_slot5 = var1;
-case 17:
+case 18:
             var1 = false;
             return var1;
         }

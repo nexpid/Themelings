@@ -77,7 +77,7 @@ case 0:
             var4 = var4[var3];
             var3 = undefined;
             var6 = var5.bind(var3)(var4);
-            var5 = var6.useDisplayNameStylesViewerEnabled;
+            var5 = var6.useDisplayNameStylesEnabled;
             var4 = {};
             var7 = 'useDisplayNameStylesFont-native';
             var4['location'] = var7;

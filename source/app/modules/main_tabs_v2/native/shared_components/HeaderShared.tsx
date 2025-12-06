@@ -24,7 +24,7 @@ case 2:
             var12 = var2.subtitleColor;
             if(!(var12 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var12 = 'header-secondary';
+            var12 = 'text-default';
 case 4:
             var3 = var2.icon;
             var _closure2_slot2 = var3;
@@ -256,7 +256,7 @@ case 10:
     var15 = var11[var16];
     var15 = var17.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MODIFIER_ACCENT;
+    var15 = var15.BORDER_SUBTLE;
     var9['borderColor'] = var15;
     var4['headerWrapper'] = var9;
     var9 = 20;
@@ -641,8 +641,8 @@ case 0:
             var6 = 'none';
             var3 = 'channel';
             var1 = var6;
-            if(!(var3 === var4)) { _fun0006_ip = 6; continue _fun0006 }
-case 39:
+            if(!(var3 === var4)) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
             var3 = var5.getState;
             var3 = var3.bind(var5)();
             var7 = var3.routes;
@@ -659,10 +659,10 @@ case 39:
             var4 = null;
             var4 = var4 != var3;
             var1 = var6;
-            if(!var4) { _fun0006_ip = 6; continue _fun0006 }
-case 40:
+            if(!var4) { _fun0006_ip = 39; continue _fun0006 }
+case 41:
             var1 = var3;
-case 6:
+case 39:
             var _closure2_slot1 = var1;
             var1 = {};
             var4 = _closure1_slot13;
@@ -744,11 +744,11 @@ case 0:
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var12 = null;
-            if(!(var12 == var10)) { _fun0007_ip = 41; continue _fun0007 }
-case 42:
+            if(!(var12 == var10)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
             var11 = var11.actionButtonIcon;
             var10 = var11.tintColor;
-case 41:
+case 42:
             var5['color'] = var10;
             var5['source'] = var9;
             var5['resizeMode'] = var8;

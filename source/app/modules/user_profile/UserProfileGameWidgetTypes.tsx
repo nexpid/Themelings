@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(3);
+        var2 = new Array(5);
         var2[0] = var1;
         var1 = {};
         var6 = 'isSaveable';
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = 'isEqual';
         var1['key'] = var6;
-        var5 = function value(arg1) {
+        var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var4 = arg1;
@@ -143,8 +143,32 @@ case 2:
                 return var1;
             }
         };
-        var1['value'] = var5;
+        var1['value'] = var6;
         var2[2] = var1;
+        var1 = {};
+        var6 = 'getProfileAnalyticsOptions';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = {};
+            var2 = this;
+            var2 = var2.type;
+            var1['widgetType'] = var2;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'getProfileEditAnalyticsOptions';
+        var1['key'] = var6;
+        var5 = function value() {
+            var1 = {};
+            var2 = this;
+            var2 = var2.type;
+            var1['widgetEdited'] = var2;
+            return var1;
+        };
+        var1['value'] = var5;
+        var2[4] = var1;
         var1 = undefined;
         var1 = var3.bind(var1)(var4, var2);
         return var1;

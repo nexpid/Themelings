@@ -169,7 +169,7 @@ case 2:
         var14 = var16.bind(var3)(var14);
         var15 = var14.FileWarningIcon;
         var14 = {};
-        var19 = 'text-danger';
+        var19 = 'text-feedback-critical';
         var14['color'] = var19;
         var14 = var18.bind(var3)(var15, var14);
         var9['icon'] = var14;

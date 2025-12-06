@@ -338,8 +338,8 @@ case 0:
             var4 = var2.bind(var11)(var1);
             var2 = 'background';
             var1 = arg2;
-            if(!(var2 !== var1)) { _fun0004_ip = 12; continue _fun0004 }
-case 43:
+            if(!(var2 !== var1)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var3 = var4.set;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -351,7 +351,7 @@ case 43:
             var1 = var2.hex;
             var1 = var1.bind(var2)();
             return var1;
-case 12:
+case 43:
             var7 = [0, 1];
             var1 = var7[Symbol.iterator];
             var7 = var1().next;
@@ -359,27 +359,27 @@ case 12:
             var2 = var1;
             var2 = var2 === var11;
             var6 = undefined;
-            if(var2) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(var2) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var6 = var3;
-case 44:
+case 45:
             var3 = undefined;
-            if(var2) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(var2) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var8 = var7().value;
             var7 = var1;
             var7 = var7 === var11;
             var3 = undefined;
             var2 = var7;
-            if(var7) { _fun0004_ip = 46; continue _fun0004 }
-case 48:
+            if(var7) { _fun0004_ip = 47; continue _fun0004 }
+case 49:
             var3 = var8;
             var2 = var7;
-case 46:
-            if(var2) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+case 47:
+            if(var2) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var1.return();
-case 49:
+case 50:
             var9 = [0.25, 1];
             var7 = var9[Symbol.iterator];
             var9 = var7().next;
@@ -387,23 +387,23 @@ case 49:
             var2 = var7;
             var8 = var2 === var11;
             var2 = undefined;
-            if(var8) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
+            if(var8) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
             var2 = var1;
-case 51:
+case 52:
             var1 = undefined;
-            if(var8) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+            if(var8) { _fun0004_ip = 54; continue _fun0004 }
+case 16:
             var10 = var9().value;
             var9 = var7;
             var9 = var9 === var11;
             var1 = undefined;
             var8 = var9;
-            if(var9) { _fun0004_ip = 53; continue _fun0004 }
+            if(var9) { _fun0004_ip = 54; continue _fun0004 }
 case 55:
             var1 = var10;
             var8 = var9;
-case 53:
+case 54:
             if(var8) { _fun0004_ip = 56; continue _fun0004 }
 case 57:
             var7.return();

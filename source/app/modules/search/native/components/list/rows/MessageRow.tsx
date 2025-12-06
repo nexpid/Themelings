@@ -532,7 +532,7 @@ case 30:
             var6 = var6[var14];
             var6 = var8.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'header-secondary', 'lineClamp': 1};
+            var6 = {'variant': 'text-xs/medium', 'color': 'text-default', 'lineClamp': 1};
             var14 = var10.timestamp;
             var6['style'] = var14;
             var6['accessibilityLabel'] = var13;
@@ -813,13 +813,13 @@ case 43:
                     var3 = _closure2_slot2;
                     var1 = var3.guild_id;
 case 42:
-                    if(!(var2 != var1)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-                    var1 = _closure1_slot17;
-                    _fun0008_ip = 2; continue _fun0008;
+                    if(!(var2 != var1)) { _fun0008_ip = 3; continue _fun0008 }
 case 44:
+                    var1 = _closure1_slot17;
+                    _fun0008_ip = 45; continue _fun0008;
+case 3:
                     var1 = _closure1_slot16;
-case 2:
+case 45:
                     return var1;
                 }
             };

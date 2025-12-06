@@ -224,7 +224,7 @@ case 3:
             var18 = var26[var21];
             var18 = var23.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var18 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var24 = _closure1_slot6;
             var21 = var26[var21];
             var21 = var23.bind(var4)(var21);
@@ -335,7 +335,7 @@ case 2:
                     var9 = var16[var10];
                     var9 = var11.bind(var4)(var9);
                     var17 = var9.Text;
-                    var9 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+                    var9 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
                     var15 = _closure2_slot1;
                     var13 = var15.monospace;
                     var9['style'] = var13;
@@ -353,7 +353,7 @@ case 2:
                     var10 = var16[var10];
                     var10 = var11.bind(var4)(var10);
                     var11 = var10.Text;
-                    var10 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+                    var10 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
                     var15 = var15.monospace;
                     var10['style'] = var15;
                     var15 = var14.mean;

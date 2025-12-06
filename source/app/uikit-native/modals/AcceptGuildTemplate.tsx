@@ -142,7 +142,7 @@ case 0:
             var7 = var13[var12];
             var7 = var23.bind(var4)(var7);
             var9 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-lg/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-lg/medium', 'color': 'text-default'};
             var25 = var17.description;
             var7['style'] = var25;
             var25 = var10.name;
@@ -276,7 +276,7 @@ case 2:
             var7 = var13[var12];
             var7 = var18.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var7 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var15 = var13[var20];
             var15 = var18.bind(var4)(var15);
             var19 = var15.intl;
@@ -377,7 +377,7 @@ case 5:
             var12 = var16[var12];
             var12 = var19.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var17 = var16[var20];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -770,7 +770,7 @@ case 19:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);

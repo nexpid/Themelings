@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var9['color'] = var11;
     var4['disclaimer'] = var9;
     var9 = {};

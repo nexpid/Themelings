@@ -160,7 +160,7 @@ case 9:
             var19 = var1;
             if(var16) { _fun0001_ip = 8; continue _fun0001 }
 case 10:
-            var19 = 'text-normal';
+            var19 = 'text-default';
 case 8:
             var4 = _closure1_slot0;
             var18 = _closure1_slot2;

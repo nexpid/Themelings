@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_NORMAL;
+    var12 = var12.TEXT_DEFAULT;
     var9['textDecorationColor'] = var12;
     var4['link'] = var9;
     var9 = {'width': 64, 'height': 64, 'alignItems': 'center', 'justifyContent': 'center', 'borderRadius': null, 'backgroundColor': null, 'alignSelf': 'center'};
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['raisedIcon'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -727,7 +727,7 @@ case 8:
         var10 = var19[var10];
         var10 = var18.bind(var4)(var10);
         var11 = var10.LinkButton;
-        var10 = {'textColor': 'text-normal', 'text': null, 'variant': 'text-sm/medium'};
+        var10 = {'textColor': 'text-default', 'text': null, 'variant': 'text-sm/medium'};
         var16 = var19[var15];
         var16 = var18.bind(var4)(var16);
         var17 = var16.intl;

@@ -171,7 +171,7 @@ case 3:
             var16 = var14[var9];
             var16 = var10.bind(var5)(var16);
             var17 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var16 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var19 = var13.guildName;
             var16['style'] = var19;
             var18 = var18.name;

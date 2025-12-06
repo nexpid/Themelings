@@ -1036,7 +1036,7 @@ case 101:
             var9 = var11[var30];
             var9 = var12.bind(var4)(var9);
             var25 = var9.Text;
-            var9 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var9 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var19 = var18.stickerPreviewLabel;
             var9['style'] = var19;
             var19 = 20;
@@ -1119,7 +1119,7 @@ case 111:
             var15 = var11[var30];
             var15 = var12.bind(var4)(var15);
             var26 = var15.Text;
-            var15 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var15 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var31 = var18.stickerPreviewLabel;
             var15['style'] = var31;
             var31 = var11[var19];
@@ -1170,7 +1170,7 @@ case 113:
             var18 = var27[var18];
             var18 = var25.bind(var4)(var18);
             var25 = var18.ReactionIcon;
-            var18 = {'size': 'md', 'color': 'text-secondary'};
+            var18 = {'size': 'md', 'color': 'text-subtle'};
             var25 = var26.bind(var4)(var25, var18);
             _fun0001_ip = 114; continue _fun0001;
 case 112:

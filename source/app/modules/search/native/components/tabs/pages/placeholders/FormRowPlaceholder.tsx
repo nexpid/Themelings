@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MODIFIER_ACCENT;
+    var10 = var10.BORDER_SUBTLE;
     var4['backgroundColor'] = var10;
     var7['avatar'] = var4;
     var4 = {'justifyContent': 'center', 'flex': 1};
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['backgroundColor'] = var13;
     var7['upperText'] = var10;
     var10 = {'justifyContent': 'center', 'width': '100%', 'borderRadius': null, 'height': 16};
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
     var7['lowerText'] = var10;
     var7 = var8.bind(var9)(var7);

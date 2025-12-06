@@ -61,7 +61,7 @@ case 6:
 case 4:
             var4 = _closure1_slot6;
             var3 = undefined;
-            var2 = {'size': 'xs', 'color': 'text-normal'};
+            var2 = {'size': 'xs', 'color': 'text-default'};
             var1 = var4.bind(var3)(var5, var2);
 case 8:
             return var1;

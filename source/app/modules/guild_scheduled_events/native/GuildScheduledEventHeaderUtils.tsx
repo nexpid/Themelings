@@ -241,7 +241,7 @@ case 28:
             var1 = var1[var14];
             var1 = var12.bind(var13)(var1);
             var1 = var1.colors;
-            var1 = var1.TEXT_DANGER;
+            var1 = var1.TEXT_FEEDBACK_CRITICAL;
             var6 = var9.bind(var10)(var11, var1);
 case 27:
             var1 = {};

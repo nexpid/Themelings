@@ -1,12 +1,12 @@
 // app/modules/explicit_media_redaction/ExplicitMediaStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -55,58 +55,58 @@ case 4:
         return var1;
     };
     var _closure1_slot14 = var1;
-    var4 = global;
-    var10 = var4.Object;
+    var2 = global;
+    var10 = var2.Object;
     var9 = var10.defineProperty;
-    var2 = {};
+    var8 = {};
     var1 = true;
-    var2['value'] = var1;
+    var8['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var9.bind(var10)(var3, var1, var8);
     var1 = 0;
-    var2 = var7[var1];
+    var8 = var6[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var9 = var7[var2];
-    var9 = var8.bind(var1)(var9);
-    var _closure1_slot5 = var9;
-    var9 = 3;
-    var9 = var7[var9];
-    var9 = var8.bind(var1)(var9);
-    var _closure1_slot6 = var9;
-    var9 = 4;
-    var9 = var7[var9];
-    var9 = var8.bind(var1)(var9);
-    var _closure1_slot7 = var9;
-    var9 = 5;
-    var9 = var7[var9];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.Millis;
-    var10 = var9.DAY;
-    var9 = 14;
-    var9 = var9 * var10;
-    var _closure1_slot8 = var9;
-    var10 = var4.Object;
-    var9 = var10.freeze;
-    var4 = new Array(0);
-    var4 = var9.bind(var10)(var4);
-    var _closure1_slot9 = var4;
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var8 = var8.Millis;
+    var9 = var8.DAY;
+    var8 = 14;
+    var8 = var8 * var9;
+    var _closure1_slot8 = var8;
+    var9 = var2.Object;
+    var8 = var9.freeze;
+    var2 = new Array(0);
+    var2 = var8.bind(var9)(var2);
+    var _closure1_slot9 = var2;
     var _closure1_slot10 = var1;
-    var4 = {};
-    var _closure1_slot11 = var4;
-    var4 = {};
-    var _closure1_slot12 = var4;
-    var4 = 8;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var9 = var4.Store;
-    var4 = function(arg1) {
+    var2 = {};
+    var _closure1_slot11 = var2;
+    var2 = {};
+    var _closure1_slot12 = var2;
+    var2 = 8;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.Store;
+    var2 = function(arg1) {
         var4 = function ExplicitMediaStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -247,7 +247,7 @@ case 17:
                 var1 = var1.bind(var4)(var5, var6);
                 return var1;
 case 15:
-                var1 = 3;
+                var1 = 4;
                 if(!var3) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
                 var1 = _closure1_slot10;
@@ -260,21 +260,21 @@ case 19:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var9 = var4.bind(var1)(var9);
-    var4 = 'FalsePositiveStore';
-    var9['displayName'] = var4;
-    var4 = 9;
-    var4 = var7[var4];
-    var13 = var8.bind(var1)(var4);
-    var4 = {};
-    var10 = function handleLogout() {
+    var8 = var2.bind(var1)(var8);
+    var2 = 'FalsePositiveStore';
+    var8['displayName'] = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var13 = var7.bind(var1)(var2);
+    var2 = {};
+    var9 = function handleLogout() {
         var2 = _closure1_slot14;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var4['LOGOUT'] = var10;
-    var10 = function handleConnectionOpen(arg1) {
+    var2['LOGOUT'] = var9;
+    var9 = function handleConnectionOpen(arg1) {
         var1 = arg1;
         var2 = var1.explicitContentScanVersion;
         _closure1_slot10 = var2;
@@ -283,8 +283,8 @@ case 19:
         var2 = var2.bind(var1)();
         return var1;
     };
-    var4['CONNECTION_OPEN'] = var10;
-    var10 = function handleFalsePositiveCreate(arg1) {
+    var2['CONNECTION_OPEN'] = var9;
+    var9 = function handleFalsePositiveCreate(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -320,8 +320,8 @@ case 21:
             return var1;
         }
     };
-    var4['MESSAGE_EXPLICIT_CONTENT_FP_CREATE'] = var10;
-    var5 = function handleFalsePositiveSubmit(arg1) {
+    var2['MESSAGE_EXPLICIT_CONTENT_FP_CREATE'] = var9;
+    var4 = function handleFalsePositiveSubmit(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -372,20 +372,19 @@ case 23:
             return var1;
         }
     };
-    var4['MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT'] = var5;
-    var5 = var9.prototype;
-    var5 = Object.create(var5, {constructor: {value: var9}});
-    var14 = var5;
-    var12 = var4;
-    var4 = new var14[var9](var13, var12, var11);
-    var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 10;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/explicit_media_redaction/ExplicitMediaStore.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['default'] = var4;
-    var3['CONTENT_SCAN_VERSION_FALLBACK_GORE'] = var2;
+    var2['MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var14 = var4;
+    var12 = var2;
+    var2 = new var14[var8](var13, var12, var11);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/explicit_media_redaction/ExplicitMediaStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
     return var1;
 })();

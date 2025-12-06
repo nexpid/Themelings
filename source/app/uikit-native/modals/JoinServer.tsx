@@ -271,7 +271,7 @@ case 3:
             var17 = var29[var17];
             var17 = var28.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var17 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var26 = var15.description;
             var17['style'] = var26;
             var26 = var29[var25];
@@ -374,7 +374,7 @@ case 2:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+                var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;

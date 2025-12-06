@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+        var1 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
         var6 = var6.section;
         var1['style'] = var6;
         var1['children'] = var5;
@@ -228,7 +228,7 @@ case 6:
         var8 = var13[var6];
         var8 = var12.bind(var3)(var8);
         var10 = var8.Text;
-        var8 = {'variant': 'text-md/semibold', 'color': 'text-danger'};
+        var8 = {'variant': 'text-md/semibold', 'color': 'text-feedback-critical'};
         var9 = 8;
         var14 = var13[var9];
         var14 = var12.bind(var3)(var14);
@@ -246,7 +246,7 @@ case 6:
         var6 = var13[var6];
         var6 = var12.bind(var3)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+        var6 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
         var10 = var13[var9];
         var10 = var12.bind(var3)(var10);
         var11 = var10.intl;

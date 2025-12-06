@@ -47,31 +47,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function ChatInputImageCarousel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var10 = var1.canUpload;
+            var2 = arg1;
+            var10 = var2.canUpload;
             var _closure2_slot0 = var10;
-            var7 = var1.channelId;
-            var _closure2_slot1 = var7;
-            var3 = var1.screenIndex;
-            var1 = _closure1_slot6;
+            var6 = var2.channelId;
+            var _closure2_slot1 = var6;
+            var4 = var2.screenIndex;
+            var3 = _closure1_slot6;
             var5 = undefined;
-            var1 = var1.bind(var5)(var3);
-            var _closure2_slot2 = var1;
+            var9 = var3.bind(var5)(var4);
+            var _closure2_slot2 = var9;
             var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 6;
-            var3 = var8[var3];
-            var9 = var4.bind(var5)(var3);
-            var8 = var9.useStateFromStores;
+            var3 = var7[var3];
+            var8 = var4.bind(var5)(var3);
+            var7 = var8.useStateFromStores;
             var3 = _closure1_slot5;
             var4 = new Array(2);
             var4[0] = var3;
             var3 = _closure1_slot3;
             var4[1] = var3;
             var3 = new Array(3);
-            var3[0] = var7;
+            var3[0] = var6;
             var3[1] = var10;
-            var3[2] = var1;
+            var3[2] = var9;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -104,43 +104,27 @@ case 2:
                     return var1;
                 }
             };
-            var8 = var8.bind(var9)(var4, var1, var3);
+            var7 = var7.bind(var8)(var4, var1, var3);
             var1 = null;
-            var3 = var1 != var8;
+            var3 = var1 != var7;
             if(!var3) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 7;
-            var2 = var9[var2];
+            var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var2['attachments'] = var8;
-            var2['channelId'] = var7;
-            var6 = function onRemove(arg1) {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 8;
-                var3 = var3[var1];
-                var1 = undefined;
-                var6 = var4.bind(var1)(var3);
-                var5 = var6.remove;
-                var4 = _closure2_slot1;
-                var2 = _closure1_slot4;
-                var3 = var2.ChannelMessage;
-                var2 = arg1;
-                var2 = var5.bind(var6)(var4, var2, var3);
-                return var1;
-            };
-            var2['onRemove'] = var6;
+            var2['attachments'] = var7;
+            var2['channelId'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 7:
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+        var1 = {'variant': 'text-sm/medium', 'color': 'text-default'};
         var5 = arg1;
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);
@@ -181,7 +181,7 @@ case 0:
             var9 = var16[var9];
             var9 = var18.bind(var4)(var9);
             var12 = var9.Text;
-            var9 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var15 = var16[var22];
             var15 = var18.bind(var4)(var15);
             var24 = var15.intl;

@@ -227,6 +227,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['BOOST_SETTINGS'] = var4;
     var4 = 'quest-preview-tool';
     var15['QUEST_PREVIEW_TOOL'] = var4;
+    var4 = 'subscription-settings';
+    var15['SUBSCRIPTION_SETTINGS'] = var4;
+    var4 = 'game-update';
+    var15['GAME_UPDATE'] = var4;
     var7 = var1.Set;
     var4 = var7.prototype;
     var5 = Object.create(var4, {constructor: {value: var7}});

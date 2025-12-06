@@ -1055,7 +1055,7 @@ case 26:
                 var29 = var29.oMBfeS;
                 var29 = var30.bind(var31)(var29);
                 var23['text'] = var29;
-                var29 = 'text-secondary';
+                var29 = 'text-subtle';
                 var23['color'] = var29;
                 var29 = var12.label;
                 var23['style'] = var29;

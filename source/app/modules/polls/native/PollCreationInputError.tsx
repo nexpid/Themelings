@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_DANGER;
+    var10 = var10.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var10;
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -119,7 +119,7 @@ case 4:
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+        var6 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;

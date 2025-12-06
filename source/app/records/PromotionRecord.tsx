@@ -397,25 +397,25 @@ case 29:
                 var7 = var2.outbound_terms_and_conditions;
                 var8 = var4 != var7;
                 var6 = var5;
-                if(!var8) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
-                var6 = var7;
+                if(!var8) { _fun0004_ip = 14; continue _fun0004 }
 case 31:
+                var6 = var7;
+case 14:
                 var1['outboundTermsAndConditions'] = var6;
                 var7 = var2.outbound_redemption_page_link;
                 var8 = var4 != var7;
                 var6 = var5;
-                if(!var8) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-                var6 = var7;
+                if(!var8) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
+                var6 = var7;
+case 32:
                 var1['outboundRedemptionPageLink'] = var6;
                 var6 = var2.outbound_redemption_url_format;
                 var7 = var4 != var6;
-                if(!var7) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                var5 = var6;
+                if(!var7) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
+                var5 = var6;
+case 34:
                 var1['outboundRedemptionUrlFormat'] = var5;
                 var5 = var2.flags;
                 var1['flags'] = var5;
@@ -428,16 +428,16 @@ case 35:
                 var6 = var2.partner_id;
                 var7 = var4 != var6;
                 var5 = null;
-                if(!var7) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-                var5 = var6;
+                if(!var7) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+                var5 = var6;
+case 36:
                 var1['partnerId'] = var5;
                 var2 = var2.marketing_components;
-                if(!(var4 == var2)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-                var2 = new Array(0);
+                if(!(var4 == var2)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+                var2 = new Array(0);
+case 38:
                 var1['marketingComponents'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

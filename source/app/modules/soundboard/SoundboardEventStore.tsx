@@ -656,8 +656,8 @@ case 0:
                     var2 = var4.bind(var5)();
                     var1 = var2.done;
                     var3 = null;
-                    if(var1) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                    if(var1) { _fun0010_ip = 54; continue _fun0010 }
+case 65:
                     var8 = var2.value;
                     var7 = var8.find;
                     var1 = function(arg1) {
@@ -670,18 +670,18 @@ case 66:
                         return var1;
                     };
                     var1 = var7.bind(var8)(var1);
-                    if(!(var3 == var1)) { _fun0010_ip = 67; continue _fun0010 }
-case 53:
+                    if(!(var3 == var1)) { _fun0010_ip = 66; continue _fun0010 }
+case 13:
                     var7 = var4.bind(var5)();
                     var1 = var7.done;
                     var2 = var7;
-                    if(var1) { _fun0010_ip = 65; continue _fun0010 }
-case 68:
-                    _fun0010_ip = 66; continue _fun0010;
+                    if(var1) { _fun0010_ip = 54; continue _fun0010 }
 case 67:
+                    _fun0010_ip = 65; continue _fun0010;
+case 66:
                     var1 = true;
                     return var1;
-case 65:
+case 54:
                     var1 = false;
                     return var1;
                 }
@@ -689,7 +689,7 @@ case 65:
             var3 = var5.bind(var1)(var4);
 case 63:
             if(!var3) { _fun0009_ip = 59; continue _fun0009 }
-case 69:
+case 68:
             var3 = _closure1_slot13;
             var2 = var3.set;
             var2 = var2.bind(var3)(var4, var4);
@@ -708,18 +708,18 @@ case 0:
             var2 = _closure1_slot19;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0011_ip = 70; continue _fun0011 }
-case 71:
+            if(!var2) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
             var5 = _closure1_slot11;
             var5 = var5.FRECENCY_AND_FAVORITES_SETTINGS;
             var2 = var6 === var5;
-case 70:
+case 69:
             if(!var2) { _fun0011_ip = 32; continue _fun0011 }
 case 48:
             var2 = var4;
 case 32:
             if(!var2) { _fun0011_ip = 34; continue _fun0011 }
-case 72:
+case 71:
             var2 = new Array(0);
             _closure1_slot12 = var2;
 case 34:

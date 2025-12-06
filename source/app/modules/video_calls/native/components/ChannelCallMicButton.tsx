@@ -29,13 +29,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Colors;
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -60,7 +55,7 @@ case 2:
             var _closure2_slot3 = var4;
             var15 = _closure1_slot0;
             var16 = _closure1_slot3;
-            var1 = 4;
+            var1 = 3;
             var1 = var16[var1];
             var5 = var15.bind(var4)(var1);
             var2 = var5.useManaRiveMobileExperiment;
@@ -68,11 +63,11 @@ case 2:
             var1 = var2.bind(var5)(var1);
             _closure2_slot0 = var1;
             var11 = _closure1_slot1;
-            var2 = 5;
+            var2 = 4;
             var2 = var16[var2];
             var2 = var11.bind(var4)(var2);
             var5 = var2.bind(var4)(var3);
-            var2 = 6;
+            var2 = 5;
             var2 = var16[var2];
             var12 = var15.bind(var4)(var2);
             var7 = var12.useStateFromStores;
@@ -88,7 +83,7 @@ case 2:
                 return var1;
             };
             var12 = var7.bind(var12)(var3, var2);
-            var2 = 7;
+            var2 = 6;
             var2 = var16[var2];
             var3 = var15.bind(var4)(var2);
             var2 = var3.createMuteHandler;
@@ -111,12 +106,12 @@ case 2:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure2_slot0;
-                    var5 = _closure1_slot7;
+                    var5 = _closure1_slot6;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
                     if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var1 = 9;
+                    var1 = 8;
                     var1 = var4[var1];
                     var7 = undefined;
                     var1 = var3.bind(var7)(var1);
@@ -136,7 +131,7 @@ case 6:
                     var1 = var5.bind(var7)(var2, var1);
                     _fun0002_ip = 8; continue _fun0002;
 case 4:
-                    var2 = 8;
+                    var2 = 7;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -150,15 +145,15 @@ case 8:
                 }
             };
             var5 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var16[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ToggledActionButton;
             var1 = {};
             var1['appearsDisabled'] = var12;
-            var12 = 11;
+            var12 = 10;
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;
@@ -198,11 +193,11 @@ case 10:
             var13 = _closure1_slot3;
             if(var7) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var10 = 13;
+            var10 = 12;
             var10 = var13[var10];
             _fun0001_ip = 14; continue _fun0001;
 case 12:
-            var12 = 12;
+            var12 = 11;
             var10 = var13[var12];
 case 14:
             var10 = var11.bind(var4)(var10);
@@ -217,7 +212,12 @@ case 15:
             var5 = undefined;
             if(!var7) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var6 = _closure1_slot6;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot3;
+            var6 = 13;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.unsafe_rawColors;
             var5 = var6.RED_400;
 case 17:
             var1['tintColor'] = var5;

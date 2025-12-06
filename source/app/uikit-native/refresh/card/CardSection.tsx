@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var10];
     var9 = var11.bind(var1)(var9);
     var9 = var9.colors;
-    var18 = var9.HEADER_SECONDARY;
+    var18 = var9.TEXT_SUBTLE;
     var17 = 12;
     var16 = {'uppercase': true, 'marginBottom': 6};
     var20 = undefined;

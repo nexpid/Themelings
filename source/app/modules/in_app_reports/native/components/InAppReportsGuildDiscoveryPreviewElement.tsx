@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var11.bind(var4)(var10);
         var11 = var10.Text;
-        var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var13 = var13.guildName;
         var10['style'] = var13;
         var12 = var12.name;

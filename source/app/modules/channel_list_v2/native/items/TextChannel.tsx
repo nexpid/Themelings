@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_FAINT;
+    var13 = var13.BACKGROUND_MOD_FAINT;
     var10['backgroundColor'] = var13;
     var4['selected'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};

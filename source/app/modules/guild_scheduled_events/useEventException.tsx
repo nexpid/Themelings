@@ -104,13 +104,13 @@ case 0:
             var3 = undefined;
             var2 = undefined;
             if(var6) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+case 2:
             var2 = var5.guild_scheduled_event_exceptions;
 case 8:
-            if(!(var1 == var2)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var2 = new Array(0);
+            if(!(var1 == var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
+            var2 = new Array(0);
+case 9:
             var1 = arg1;
             var1 = var4.bind(var3)(var2, var1);
             return var1;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['linkCalloutContainer'] = var9;
     var9 = {'padding': 10, 'paddingTop': 16, 'paddingBottom': 16};
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var11[var17];
         var18 = var15.bind(var4)(var18);
         var20 = var18.Text;
-        var18 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+        var18 = {'variant': 'text-md/semibold', 'color': 'text-default'};
         var18['children'] = var21;
         var18 = var8.bind(var4)(var20, var18);
         var16[1] = var18;

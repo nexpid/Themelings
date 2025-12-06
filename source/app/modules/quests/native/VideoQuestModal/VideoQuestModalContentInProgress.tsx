@@ -236,7 +236,7 @@ case 2:
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.BG_MOD_STRONG;
+            var8 = var8.BACKGROUND_MOD_STRONG;
             var2['borderColor'] = var8;
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
@@ -915,7 +915,7 @@ case 26:
             var37 = var40[var37];
             var37 = var41.bind(var4)(var37);
             var41 = var37.Text;
-            var37 = {'variant': 'heading-sm/semibold', 'color': 'text-secondary'};
+            var37 = {'variant': 'heading-sm/semibold', 'color': 'text-subtle'};
             var42 = var31.config;
             var42 = var42.messages;
             var42 = var42.gamePublisher;
@@ -1613,7 +1613,7 @@ case 49:
             var20 = var20[var22];
             var20 = var21.bind(var4)(var20);
             var20 = var20.colors;
-            var20 = var20.TEXT_NORMAL;
+            var20 = var20.TEXT_DEFAULT;
             var18['color'] = var20;
             var18 = var17.bind(var4)(var19, var18);
             var11['children'] = var18;
@@ -1673,7 +1673,7 @@ case 48:
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.colors;
-                var7 = var7.TEXT_NORMAL;
+                var7 = var7.TEXT_DEFAULT;
                 var5['color'] = var7;
                 var6 = var4.bind(var1)(var6, var5);
                 var5 = 'children';
@@ -1875,8 +1875,8 @@ case 0:
             var24 = var5[var17];
             var5 = var5[var10];
             var _closure2_slot4 = var5;
-            var25 = 29;
-            var5 = var23[var25];
+            var5 = 49;
+            var5 = var23[var5];
             var17 = var6.bind(var4)(var5);
             var10 = var17.isShareableQuest;
             var5 = var22.config;
@@ -1897,7 +1897,7 @@ case 0:
 case 51:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var10 = 49;
+                    var10 = 50;
                     var2 = var9[var10];
                     var7 = undefined;
                     var6 = var8.bind(var7)(var2);
@@ -1906,7 +1906,7 @@ case 51:
                     var2 = _closure2_slot1;
                     var11 = var2.id;
                     var4['questId'] = var11;
-                    var11 = 50;
+                    var11 = 51;
                     var11 = var9[var11];
                     var11 = var8.bind(var7)(var11);
                     var11 = var11.QuestContent;
@@ -1925,7 +1925,7 @@ case 51:
                     var4 = _closure2_slot4;
                     var3 = true;
                     var3 = var4.bind(var7)(var3);
-                    var3 = 51;
+                    var3 = 52;
                     var3 = var9[var3];
                     var6 = var8.bind(var7)(var3);
                     var5 = var6.showShareActionSheet;
@@ -1975,20 +1975,20 @@ case 50:
             var3 = function() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 29;
+                var1 = 53;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var2);
                 var4 = var5.openGameLinkDirectly;
                 var3 = _closure2_slot1;
                 var2 = {};
-                var7 = 50;
+                var7 = 51;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContent;
                 var7 = var7.VIDEO_MODAL_MOBILE;
                 var2['content'] = var7;
-                var7 = 49;
+                var7 = 50;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -2003,13 +2003,13 @@ case 50:
             };
             var19 = var19.bind(var18)(var3, var10);
             var10 = var18.useCallback;
-            var26 = var22.id;
+            var25 = var22.id;
             var3 = new Array(1);
-            var3[0] = var26;
+            var3[0] = var25;
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 52;
+                var1 = 54;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -2022,7 +2022,7 @@ case 50:
                 return var1;
             };
             var18 = var10.bind(var18)(var2, var3);
-            var2 = 53;
+            var2 = 55;
             var2 = var23[var2];
             var10 = var6.bind(var4)(var2);
             var3 = var10.useVideoExternallyPaused;
@@ -2031,7 +2031,7 @@ case 50:
             var2 = var22.config;
             var2 = var2.taskConfigV2;
             var3 = var2.tasks;
-            var2 = 54;
+            var2 = 56;
             var2 = var23[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.FirstPartyQuestTaskTypes;
@@ -2042,8 +2042,9 @@ case 50:
             if(var2) { _fun0006_ip = 52; continue _fun0006 }
 case 53:
             var23 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var25];
+            var25 = _closure1_slot2;
+            var3 = 57;
+            var3 = var25[var3];
             var23 = var23.bind(var4)(var3);
             var3 = var23.getVideoOrientation;
             var23 = var3.bind(var23)(var24);
@@ -2083,7 +2084,7 @@ case 56:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 55;
+    var4 = 58;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

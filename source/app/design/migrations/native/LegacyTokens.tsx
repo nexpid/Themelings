@@ -445,7 +445,7 @@ case 5:
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var2 = var2.colors;
-            var1 = var2.DIVIDER_SUBTLE;
+            var1 = var2.BORDER_SUBTLE;
 case 7:
             return var1;
         }

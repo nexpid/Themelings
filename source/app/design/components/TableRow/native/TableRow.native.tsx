@@ -269,7 +269,7 @@ case 28:
             var27 = 'danger';
             if(!(var27 === var28)) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
-            var26 = 'text-danger';
+            var26 = 'text-feedback-critical';
 case 29:
             var18['color'] = var26;
             var18['lineClamp'] = var23;
@@ -297,11 +297,11 @@ case 34:
             var21 = {};
             var26 = 'text-xs/medium';
             var21['variant'] = var26;
-            var26 = 'text-secondary';
+            var26 = 'text-subtle';
             var27 = 'danger';
             if(!(var27 === var28)) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
-            var26 = 'text-danger';
+            var26 = 'text-feedback-critical';
 case 35:
             var21['color'] = var26;
             var21['lineClamp'] = var25;

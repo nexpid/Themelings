@@ -258,7 +258,7 @@ case 5:
                     var1 = {};
                     var4 = _closure1_slot12;
                     var1['key'] = var4;
-                    var4 = 'text-positive';
+                    var4 = 'text-feedback-positive';
                     var1['iconColor'] = var4;
                     var4 = 20;
                     var4 = var10[var4];
@@ -684,7 +684,7 @@ case 18:
             var11 = var24[var9];
             var11 = var29.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var30 = var23.subtitle;
             var11['style'] = var30;
             var30 = var24[var18];
@@ -774,7 +774,7 @@ case 22:
             var9 = var21[var9];
             var9 = var11.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-xs/normal', 'color': 'text-default'};
             var23 = var23.footerText;
             var9['style'] = var23;
             var9['children'] = var22;

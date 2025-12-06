@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_PRIMARY;
+    var13 = var13.TEXT_STRONG;
     var9['color'] = var13;
     var4['status'] = var9;
     var9 = {'minHeight': 80, 'fontSize': 16, 'lineHeight': 20, 'fontFamily': null, 'color': null, 'flexGrow': 1, 'height': 'auto'};
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_PRIMARY;
+    var12 = var12.TEXT_STRONG;
     var9['color'] = var12;
     var4['statusText'] = var9;
     var9 = {};
@@ -641,7 +641,7 @@ case 30:
             var21 = var16[var21];
             var21 = var22.bind(var4)(var21);
             var21 = var21.colors;
-            var21 = var21.TEXT_DANGER;
+            var21 = var21.TEXT_FEEDBACK_CRITICAL;
             var17['color'] = var21;
             var17 = var12.bind(var4)(var18, var17);
             var13['icon'] = var17;

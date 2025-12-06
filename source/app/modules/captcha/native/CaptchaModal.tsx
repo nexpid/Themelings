@@ -205,7 +205,7 @@ case 7:
             var10 = var10[var18];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             if(!(var17 == var15)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var20 = _closure1_slot0;

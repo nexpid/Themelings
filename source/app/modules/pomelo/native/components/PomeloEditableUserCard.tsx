@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_DANGER;
+    var13 = var13.TEXT_FEEDBACK_CRITICAL;
     var10['color'] = var13;
     var4['error'] = var10;
     var10 = {};
@@ -747,7 +747,7 @@ case 48:
             var31 = var35[var31];
             var31 = var32.bind(var4)(var31);
             var32 = var31.Text;
-            var31 = {'variant': 'heading-lg/medium', 'color': 'text-normal'};
+            var31 = {'variant': 'heading-lg/medium', 'color': 'text-default'};
             var31['children'] = var34;
             var31 = var33.bind(var4)(var32, var31);
             var30[1] = var31;

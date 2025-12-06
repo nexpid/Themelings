@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var9['color'] = var10;
     var4['inputText'] = var9;
     var9 = {};

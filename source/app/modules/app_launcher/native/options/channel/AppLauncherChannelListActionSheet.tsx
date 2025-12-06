@@ -124,7 +124,7 @@ case 6:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_MOD_SUBTLE;
+    var11 = var11.BACKGROUND_MOD_SUBTLE;
     var10['backgroundColor'] = var11;
     var5['channelIconWrapper'] = var10;
     var5 = var8.bind(var9)(var5);

@@ -118,7 +118,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_SECONDARY;
+    var13 = var13.TEXT_SUBTLE;
     var10['color'] = var13;
     var7['label'] = var10;
     var10 = {'alignSelf': 'stretch', 'alignItems': 'center'};
@@ -127,7 +127,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var10['color'] = var11;
     var7['text'] = var10;
     var7 = var8.bind(var9)(var7);

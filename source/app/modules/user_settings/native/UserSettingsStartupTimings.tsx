@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_NORMAL;
+    var14 = var14.TEXT_DEFAULT;
     var9['color'] = var14;
     var13 = var13.CODE_BOLD;
     var9['fontFamily'] = var13;

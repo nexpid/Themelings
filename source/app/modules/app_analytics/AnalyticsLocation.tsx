@@ -304,6 +304,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INVITE_MODAL'] = var1;
     var1 = 'invite embed';
     var2['INVITE_EMBED'] = var1;
+    var1 = 'voice invite suggestions';
+    var2['VOICE_INVITE_SUGGESTIONS'] = var1;
+    var1 = 'voice invite suggestions popover';
+    var2['VOICE_INVITE_SUGGESTIONS_POPOVER'] = var1;
     var1 = 'new guild button';
     var2['NEW_GUILD_BUTTON'] = var1;
     var1 = 'character count';
@@ -860,6 +864,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GO_LIVE_MODAL_V2'] = var1;
     var1 = 'go live modal settings selection';
     var2['GO_LIVE_MODAL_SETTINGS_SELECTION'] = var1;
+    var1 = 'checkpoint';
+    var2['CHECKPOINT'] = var1;
     var1 = 'app_dms_quick_launcher';
     var2['APP_DMS_QUICK_LAUNCHER'] = var1;
     var1 = 'app_dms_quick_launcher_frecency';
@@ -1037,6 +1043,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_CODE_EMBED'] = var1;
     var1 = 'slayer storefront product details embed';
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
+    var1 = 'cloudflare warp settings';
+    var2['CF_WARP_SETTINGS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

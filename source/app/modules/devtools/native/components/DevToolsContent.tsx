@@ -255,7 +255,7 @@ case 4:
         var3 = undefined;
         var1 = var7.bind(var3)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+        var1 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
         var5 = new Array(2);
         var5[0] = var11;
         var8 = _closure1_slot10;

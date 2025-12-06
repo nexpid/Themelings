@@ -286,7 +286,7 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var9['color'] = var13;
     var4['sublabel'] = var9;
     var9 = {};
@@ -327,7 +327,7 @@ case 12:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_DANGER;
+    var11 = var11.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var11;
     var4['remove'] = var9;
     var9 = {};

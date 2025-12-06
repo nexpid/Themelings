@@ -119,7 +119,7 @@ case 4:
             var7 = var10[var7];
             var7 = var13.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'text-default'};
             var15 = var15.emailPhoneNote;
             var7['style'] = var15;
             var10 = var10[var14];

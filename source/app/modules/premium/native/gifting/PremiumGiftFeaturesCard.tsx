@@ -242,28 +242,28 @@ case 0:
             var16 = var5.onPress;
             var11 = var5.style;
             var22 = var5.claimableRewards;
-            var25 = var5.isVisible;
+            var25 = var5.isSelected;
             var4 = undefined;
             if(!(var25 === var4)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var25 = true;
 case 10:
-            var3 = {'premiumType': 0, 'onPress': 0, 'style': 0, 'claimableRewards': 0, 'isVisible': 0};
+            var3 = {'premiumType': 0, 'onPress': 0, 'style': 0, 'claimableRewards': 0, 'isSelected': 0};
             var23 = null;
-            var34 = var3;
-            var33 = null;
-            var1 = silentSetPrototypeOf(var34, var33);
+            var33 = var3;
+            var32 = null;
+            var1 = silentSetPrototypeOf(var33, var32);
             var2 = 0;
-            var34 = {};
-            var33 = var5;
-            var32 = var3;
-            var9 = copyDataProperties(var34, var33, var32);
+            var33 = {};
+            var32 = var5;
+            var31 = var3;
+            var9 = copyDataProperties(var33, var32, var31);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 8;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
-            var30 = var1.bind(var4)();
+            var27 = var1.bind(var4)();
             var3 = var23 != var22;
             if(!var3) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
@@ -305,11 +305,11 @@ case 16:
             var12 = var14;
             if(!var14) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var2 = var23 == var30;
+            var2 = var23 == var27;
             var1 = undefined;
             if(var2) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var2 = var30.planSelection;
+            var2 = var27.planSelection;
             var3 = var23 == var2;
             var1 = undefined;
             if(var3) { _fun0002_ip = 20; continue _fun0002 }
@@ -335,11 +335,11 @@ case 23:
             var6 = var14;
             if(!var14) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-            var7 = var23 == var30;
+            var7 = var23 == var27;
             var5 = undefined;
             if(var7) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
-            var7 = var30.planSelection;
+            var7 = var27.planSelection;
             var8 = var23 == var7;
             var5 = undefined;
             if(var8) { _fun0002_ip = 27; continue _fun0002 }
@@ -362,7 +362,7 @@ case 31:
             var10 = 'cover';
             var5['resizeMode'] = var10;
             var10 = {};
-            var20 = var30.planSelection;
+            var20 = var27.planSelection;
             var17 = var20.getCardImageUrl;
             var17 = var17.bind(var20)();
             var10['uri'] = var17;
@@ -397,15 +397,15 @@ case 35:
 case 34:
             var10[2] = var11;
             var6['style'] = var10;
-            var34 = var6;
-            var33 = var9;
-            var9 = copyDataProperties(var34, var33);
+            var33 = var6;
+            var32 = var9;
+            var9 = copyDataProperties(var33, var32);
             if(var14) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 16;
+            var9 = 15;
             var9 = var12[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -424,57 +424,44 @@ case 36:
             var21 = var21.bind(var4)(var20);
             var20 = {};
             var20['claimableRewards'] = var22;
+            var20['isSelected'] = var25;
             var21 = var24.bind(var4)(var21, var20);
-            var20 = new Array(3);
+            var20 = new Array(2);
             var20[0] = var21;
-            var24 = var23 == var30;
+            var24 = var23 == var27;
             var21 = undefined;
             if(var24) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
-            var24 = var30.planSelection;
-            var26 = var23 == var24;
+            var24 = var27.planSelection;
+            var25 = var23 == var24;
             var21 = undefined;
-            if(var26) { _fun0002_ip = 39; continue _fun0002 }
+            if(var25) { _fun0002_ip = 39; continue _fun0002 }
 case 41:
             var21 = var24.getBackgroundImageUrl;
 case 39:
             var21 = var23 != var21;
             if(!var21) { _fun0002_ip = 42; continue _fun0002 }
 case 43:
-            var26 = _closure1_slot7;
+            var25 = _closure1_slot7;
             var24 = _closure1_slot1;
-            var27 = _closure1_slot2;
+            var26 = _closure1_slot2;
             var23 = 12;
-            var23 = var27[var23];
+            var23 = var26[var23];
             var24 = var24.bind(var4)(var23);
             var23 = {};
-            var27 = var15.promotionalBackground;
-            var23['style'] = var27;
-            var27 = 'cover';
-            var23['resizeMode'] = var27;
-            var27 = {};
-            var31 = var30.planSelection;
-            var30 = var31.getBackgroundImageUrl;
-            var30 = var30.bind(var31)();
-            var27['uri'] = var30;
-            var23['source'] = var27;
-            var21 = var26.bind(var4)(var24, var23);
+            var26 = var15.promotionalBackground;
+            var23['style'] = var26;
+            var26 = 'cover';
+            var23['resizeMode'] = var26;
+            var26 = {};
+            var30 = var27.planSelection;
+            var27 = var30.getBackgroundImageUrl;
+            var27 = var27.bind(var30)();
+            var26['uri'] = var27;
+            var23['source'] = var26;
+            var21 = var25.bind(var4)(var24, var23);
 case 42:
             var20[1] = var21;
-            var24 = _closure1_slot7;
-            var23 = _closure1_slot1;
-            var26 = _closure1_slot2;
-            var21 = 15;
-            var21 = var26[var21];
-            var23 = var23.bind(var4)(var21);
-            var21 = {};
-            var26 = true;
-            var21['darkOverride'] = var26;
-            var26 = var15.rotatingAvatars;
-            var21['promoRotatingStyle'] = var26;
-            var21['isVisible'] = var25;
-            var21 = var24.bind(var4)(var23, var21);
-            var20[2] = var21;
             var10['children'] = var20;
             var9 = var12.bind(var4)(var11, var10);
 case 38:
@@ -483,7 +470,7 @@ case 38:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var9 = 17;
+            var9 = 16;
             var9 = var20[var9];
             var11 = var11.bind(var4)(var9);
             var9 = {};
@@ -511,14 +498,14 @@ case 44:
             var12 = _closure1_slot7;
             var25 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var9 = 18;
+            var9 = 17;
             var11 = var20[var9];
             var11 = var25.bind(var4)(var11);
             var21 = var11.Text;
             var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'always-white'};
             var22 = var15.pricing;
             var11['style'] = var22;
-            var22 = 19;
+            var22 = 18;
             var23 = var20[var22];
             var23 = var25.bind(var4)(var23);
             var27 = var23.intl;
@@ -553,7 +540,7 @@ case 44:
             var9 = var12.bind(var4)(var11, var9);
             var10[3] = var9;
             var11 = _closure1_slot1;
-            var9 = 20;
+            var9 = 19;
             var9 = var20[var9];
             var11 = var11.bind(var4)(var9);
             var9 = {};
@@ -586,7 +573,7 @@ case 49:
             var15 = _closure1_slot7;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 21;
+            var13 = 20;
             var13 = var17[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.Button;
@@ -638,7 +625,7 @@ case 53:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

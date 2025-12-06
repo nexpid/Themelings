@@ -41,7 +41,7 @@ case 0:
             var4 = undefined;
             if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = 'text-secondary';
+            var9 = 'text-subtle';
 case 2:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;

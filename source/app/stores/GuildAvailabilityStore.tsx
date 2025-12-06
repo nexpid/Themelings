@@ -304,16 +304,16 @@ case 16:
             var3 = var4.bind(var5)(var3);
             var6 = null;
             var4 = var6 != var3;
-            if(!var4) { _fun0006_ip = 10; continue _fun0006 }
-case 17:
+            if(!var4) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var5 = var3.name;
             var4 = var6 != var5;
-case 10:
+case 17:
             var10 = '???';
-            if(!var4) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+            if(!var4) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var10 = var3.name;
-case 18:
+case 19:
             var5 = _closure1_slot6;
             var4 = var5.warn;
             var14 = var1.guildId;
@@ -345,14 +345,14 @@ case 0:
             var2 = var1.guild;
             var3 = var2.unavailable;
             var2 = true;
-            if(!(var2 !== var3)) { _fun0007_ip = 20; continue _fun0007 }
-case 21:
+            if(!(var2 !== var3)) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
             var3 = _closure1_slot7;
             var2 = var3.delete;
             var1 = var1.guild;
             var1 = var1.id;
             var1 = var2.bind(var3)(var1);
-case 20:
+case 21:
             var1 = undefined;
             return var1;
         }
@@ -368,11 +368,11 @@ case 0:
             var4 = var5.has;
             var3 = var1.guildId;
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+            if(var3) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
             var3 = false;
             return var3;
-case 22:
+case 23:
             var3 = _closure1_slot7;
             var2 = var3.delete;
             var1 = var1.guildId;

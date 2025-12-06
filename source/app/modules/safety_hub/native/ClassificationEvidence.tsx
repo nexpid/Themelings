@@ -109,7 +109,7 @@ case 3:
             var6 = var12[var6];
             var6 = var16.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'eyebrow', 'color': 'header-secondary'};
+            var6 = {'variant': 'eyebrow', 'color': 'text-default'};
             var10 = 7;
             var14 = var12[var10];
             var14 = var16.bind(var5)(var14);

@@ -385,7 +385,7 @@ case 5:
         var5 = var9[var5];
         var5 = var7.bind(var4)(var5);
         var10 = var5.Text;
-        var5 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+        var5 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'text-default'};
         var12 = var12.label;
         var5['style'] = var12;
         var12 = var9[var11];

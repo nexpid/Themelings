@@ -315,6 +315,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['BROWSER_HEVC'] = var2;
     var2 = 'low_latency_rate_control';
     var5['LOW_LATENCY_RATE_CONTROL'] = var2;
+    var2 = 'h265_hardware_only';
+    var5['H265_HARDWARE_ONLY'] = var2;
+    var2 = 'h265_hardware_decode_available';
+    var5['H265_HARDWARE_DECODE_AVAILABLE'] = var2;
     var4 = {};
     var4['AUTO'] = var30;
     var2 = 'AUTO';

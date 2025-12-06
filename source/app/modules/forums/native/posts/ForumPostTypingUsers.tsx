@@ -175,7 +175,7 @@ case 4:
             var12 = 'text-muted';
             if(!var1) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var12 = 'text-normal';
+            var12 = 'text-default';
 case 5:
             var1 = var2.getGuildId;
             var1 = var1.bind(var2)();

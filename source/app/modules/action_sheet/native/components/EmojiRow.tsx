@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var10];
     var4 = var11.bind(var1)(var4);
     var4 = var4.colors;
-    var12 = var4.BG_MOD_STRONG;
+    var12 = var4.BACKGROUND_MOD_STRONG;
     var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -351,10 +351,10 @@ case 0:
             var12 = null;
             var17 = var12 == var16;
             var14 = undefined;
-            if(var17) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var14 = var16.name;
+            if(var17) { _fun0003_ip = 2; continue _fun0003 }
 case 14:
+            var14 = var16.name;
+case 2:
             var8['emojiName'] = var14;
             var8 = var10.bind(var13)(var9, var8);
             var5['accessibilityLabel'] = var8;
@@ -374,8 +374,8 @@ case 0:
                     var4 = var6.hideActionSheet;
                     var4 = var4.bind(var6)();
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(!(var4 != var5)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var7 = 9;
@@ -416,7 +416,7 @@ case 17:
                     var3 = var4.initializeDoubleTapEmojiAndUpsell;
                     var2 = var2.channel_id;
                     var2 = var3.bind(var4)(var5, var2);
-case 16:
+case 15:
                     return var1;
                 }
             };
@@ -425,8 +425,8 @@ case 16:
             var5['style'] = var7;
             var8 = var12 != var16;
             var7 = null;
-            if(!var8) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(!var8) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var10 = _closure1_slot9;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -441,17 +441,17 @@ case 19:
             var11 = var16.id;
             var13 = var12 == var11;
             var11 = '';
-            if(!var13) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var11 = var16.surrogates;
+            if(!var13) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
+            var11 = var16.surrogates;
+case 19:
             var8['name'] = var11;
             var11 = var16.id;
-            if(!(var12 == var11)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            var11 = var16.url;
-            _fun0003_ip = 5; continue _fun0003;
+            if(!(var12 == var11)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
+            var11 = var16.url;
+            _fun0003_ip = 23; continue _fun0003;
+case 21:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 23;
@@ -466,10 +466,10 @@ case 22:
             var15 = _closure1_slot7;
             var12['size'] = var15;
             var11 = var13.bind(var14)(var12);
-case 5:
+case 23:
             var8['src'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 18:
+case 17:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
@@ -598,13 +598,13 @@ case 27:
                     var1 = var9.bind(var1)(var8);
                     var1 = var1.EmojiTypes;
                     var1 = var1.UNICODE;
-                    if(!(var7 !== var1)) { _fun0006_ip = 11; continue _fun0006 }
-case 28:
-                    var1 = var6.id;
-                    _fun0006_ip = 29; continue _fun0006;
-case 11:
-                    var1 = var6.surrogates;
+                    if(!(var7 !== var1)) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
+                    var1 = var6.id;
+                    _fun0006_ip = 30; continue _fun0006;
+case 28:
+                    var1 = var6.surrogates;
+case 30:
                     var5 = var1;
 case 26:
                     var1 = undefined;
@@ -635,8 +635,8 @@ case 26:
             var5 = new Array(2);
             var5[0] = var8;
             var6 = null;
-            if(!var7) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+            if(!var7) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var9 = _closure1_slot9;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -652,7 +652,7 @@ case 31:
             var10 = var10.MESSAGE_LONG_PRESS_MENU;
             var7['location'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 30:
+case 31:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

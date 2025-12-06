@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var4['section'] = var10;
     var10 = {};
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['backgroundColor'] = var13;
     var4['iconContainer'] = var10;
     var10 = {};
@@ -247,7 +247,7 @@ case 10:
             var8 = var19[var8];
             var8 = var16.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var8 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var15 = 11;
             var17 = var19[var15];
             var17 = var16.bind(var4)(var17);

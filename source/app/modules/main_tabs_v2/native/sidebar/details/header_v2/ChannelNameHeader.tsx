@@ -282,7 +282,7 @@ case 22:
                 var2 = var3.isGroupDM;
                 var2 = var2.bind(var3)();
                 if(var2) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+case 15:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 21;
@@ -297,8 +297,8 @@ case 24:
                 var10 = var4.bind(var6)(var3, var2);
                 var2 = null;
                 var3 = var2 == var10;
-                if(var3) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                if(var3) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var6 = _closure1_slot12;
                 var4 = _closure1_slot4;
                 var3 = {};
@@ -314,7 +314,7 @@ case 26:
                 var8 = var9.bind(var7)(var10, var8);
                 var3['children'] = var8;
                 var2 = var6.bind(var7)(var4, var3);
-case 25:
+case 24:
                 return var2;
 case 23:
                 var6 = _closure1_slot12;
@@ -421,8 +421,8 @@ case 0:
                 var1 = var2.getRecipientId;
                 var5 = var1.bind(var2)();
                 var1 = null;
-                if(!(var1 != var5)) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
+                if(!(var1 != var5)) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 23;
@@ -437,7 +437,7 @@ case 28:
                 var4 = _closure2_slot1;
                 var1['sourceAnalyticsLocations'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 27:
+case 26:
                 var1 = undefined;
                 return var1;
             }
@@ -576,7 +576,7 @@ case 27:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_FAINT;
     var10['backgroundColor'] = var14;
     var4['channelTypeBox'] = var10;
     var10 = {};
@@ -730,8 +730,8 @@ case 4:
             var6 = var7.bind(var8)(var6, var1, var3);
             var1 = var4.isPrivate;
             var1 = var1.bind(var4)();
-            if(var1) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
+            if(var1) { _fun0009_ip = 28; continue _fun0009 }
+case 29:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 19;
@@ -739,16 +739,16 @@ case 30:
             var3 = var3.bind(var5)(var1);
             var1 = var3.channelTypeString;
             var6 = var1.bind(var3)(var4);
-case 29:
+case 28:
             var4 = null;
             var3 = var4 == var6;
             var1 = null;
-            if(var3) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+            if(var3) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
             var3 = '';
             var1 = null;
-            if(!(var3 !== var6)) { _fun0009_ip = 31; continue _fun0009 }
-case 33:
+            if(!(var3 !== var6)) { _fun0009_ip = 30; continue _fun0009 }
+case 32:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -759,7 +759,7 @@ case 33:
             var2 = {'variant': 'text-sm/medium', 'color': 'header-muted', 'lineClamp': 1};
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 31:
+case 30:
             return var1;
         }
     };
@@ -774,23 +774,23 @@ case 0:
             var1 = var6.isDM;
             var1 = var1.bind(var6)();
             var5 = _closure1_slot12;
-            if(var1) { _fun0011_ip = 34; continue _fun0011 }
-case 35:
+            if(var1) { _fun0011_ip = 33; continue _fun0011 }
+case 34:
             var7 = _closure1_slot21;
             var4 = {};
             var4['channel'] = var6;
             var4['containerStyle'] = var2;
             var1 = undefined;
             var1 = var5.bind(var1)(var7, var4);
-            _fun0011_ip = 36; continue _fun0011;
-case 34:
+            _fun0011_ip = 35; continue _fun0011;
+case 33:
             var4 = _closure1_slot20;
             var3 = {};
             var3['channel'] = var6;
             var3['containerStyle'] = var2;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
-case 36:
+case 35:
             return var1;
         }
     };

@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['StreamMediaSessionId'] = var4;
     var1 = 'StreamMediaSessionId';
     var5[var4] = var1;
+    var4 = 7;
+    var5['IntentionalCrashReason'] = var4;
+    var1 = 'IntentionalCrashReason';
+    var5[var4] = var1;
     var4 = {};
     var4['RendererProcessDelayed'] = var6;
     var1 = 'RendererProcessDelayed';

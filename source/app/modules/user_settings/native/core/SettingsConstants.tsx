@@ -64,8 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GORE_MEDIA_FILTERS_GUILDS'] = var1;
     var1 = 'DIRECT_MESSAGE_SPAM_FILTER';
     var2['DIRECT_MESSAGE_SPAM_FILTER'] = var1;
-    var1 = 'KEYWORD_FILTER';
-    var2['KEYWORD_FILTER'] = var1;
     var1 = 'ANDROID_VIEW_NSFW_DM_COMMANDS_V2';
     var2['ANDROID_VIEW_NSFW_DM_COMMANDS_V2'] = var1;
     var1 = 'STAFF_ONLY_FIND_YOUR_FRIENDS_DELETION';
@@ -274,6 +272,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COMMUNITY_ACTIVITY_ALERTS'] = var1;
     var1 = 'USER_RESURRECTION_NOTIFICATIONS';
     var2['USER_RESURRECTION_NOTIFICATIONS'] = var1;
+    var1 = 'GAME_UPDATE_NOTIFICATIONS';
+    var2['GAME_UPDATE_NOTIFICATIONS'] = var1;
+    var1 = 'PROFILE_UPDATES_NOTIFICATIONS';
+    var2['PROFILE_UPDATES_NOTIFICATIONS'] = var1;
     var1 = 'APP_ICONS';
     var2['APP_ICONS'] = var1;
     var1 = 'ADVANCED';

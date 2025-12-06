@@ -261,7 +261,7 @@ case 35:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['commandsList'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -1202,8 +1202,8 @@ case 0:
                     var7 = var6.length;
                     var6 = 0;
                     var6 = var6 === var7;
-                    if(!var6) { _fun0017_ip = 92; continue _fun0017 }
-case 93:
+                    if(!var6) { _fun0017_ip = 64; continue _fun0017 }
+case 92:
                     var9 = _closure1_slot14;
                     var12 = _closure1_slot0;
                     var16 = _closure1_slot3;
@@ -1241,7 +1241,7 @@ case 93:
                     var10 = var10.noCommandsImage;
                     var7['imageStyle'] = var10;
                     var6 = var9.bind(var1)(var8, var7);
-case 92:
+case 64:
                     var5[1] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);

@@ -164,7 +164,18 @@ case 0:
             var1 = var2.onSelect;
             var _closure2_slot0 = var1;
             var6 = var2.suggestedColors;
+            var26 = var2.actionButtonVariant;
             var4 = undefined;
+            if(!(var26 === var4)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+            var26 = 'secondary';
+case 7:
+            var _closure2_slot1 = var4;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var2 = _closure1_slot8;
@@ -191,10 +202,10 @@ case 0:
             var11 = var11.bind(var4)(var13, var2);
             var2 = 0;
             var19 = var11[var2];
-            var _closure2_slot1 = var19;
+            _closure2_slot1 = var19;
             var2 = 1;
             var2 = var11[var2];
-            var _closure2_slot2 = var2;
+            _closure2_slot2 = var2;
             var13 = var16.useMemo;
             var11 = new Array(1);
             var11[0] = var19;
@@ -203,7 +214,7 @@ case 0:
 case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 7; continue _fun0004 }
+                    if(!(var2 != var3)) { _fun0004_ip = 9; continue _fun0004 }
 case 6: // try_start_0
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -214,9 +225,9 @@ case 6: // try_start_0
                     var2 = var3.hex2int;
                     var1 = _closure2_slot1;
                     var1 = var2.bind(var3)(var1);
-case 8: // try_end0
+case 10: // try_end0
                     return var1;
-case 9: // catch_target0
+case 11: // catch_target0
                     CatchBlockStart(arg_register=0);
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -228,7 +239,7 @@ case 9: // catch_target0
                     var1 = '#000000';
                     var1 = var2.bind(var3)(var1);
                     return var1;
-case 7:
+case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 7;
@@ -242,28 +253,28 @@ case 7:
                 }
             };
             var17 = var13.bind(var16)(var2, var11);
-            var _closure2_slot3 = var17;
+            _closure2_slot3 = var17;
             var2 = 8;
             var11 = var10[var2];
             var13 = var3.bind(var4)(var11);
             var11 = var13.useSharedValue;
             var15 = var11.bind(var13)(var15);
-            var _closure2_slot4 = var15;
+            _closure2_slot4 = var15;
             var11 = var10[var2];
             var13 = var3.bind(var4)(var11);
             var11 = var13.useSharedValue;
             var14 = var11.bind(var13)(var14);
-            var _closure2_slot5 = var14;
+            _closure2_slot5 = var14;
             var2 = var10[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useSharedValue;
             var13 = var2.bind(var3)(var7);
-            var _closure2_slot6 = var13;
+            _closure2_slot6 = var13;
             var18 = null;
             var2 = var18 == var6;
             var23 = undefined;
-            if(var2) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var3 = var6.map;
             var2 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -280,7 +291,7 @@ case 11:
             var3 = var3.bind(var6)(var2);
             var2 = var3.concat;
             var23 = var2.bind(var3)(var5);
-case 10:
+case 12:
             var2 = function updateInputHexValueFromHsv(arg1) {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -321,7 +332,7 @@ case 10:
 case 0:
                     var2 = _closure2_slot1;
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0005_ip = 12; continue _fun0005 }
+                    if(!(var4 != var2)) { _fun0005_ip = 14; continue _fun0005 }
 case 6:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -332,8 +343,8 @@ case 6:
                     var5 = var6.hex2rgb2hsv;
                     var2 = _closure2_slot1;
                     var2 = var5.bind(var6)(var2);
-                    if(!(var4 == var2)) { _fun0005_ip = 13; continue _fun0005 }
-case 12:
+                    if(!(var4 == var2)) { _fun0005_ip = 15; continue _fun0005 }
+case 14:
                     var5 = _closure2_slot0;
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -355,12 +366,12 @@ case 12:
                     var2 = var6.num;
                     var2 = var2.bind(var6)();
                     var2 = var5.bind(var4)(var2);
-                    _fun0005_ip = 14; continue _fun0005;
-case 13:
+                    _fun0005_ip = 16; continue _fun0005;
+case 15:
                     var2 = _closure2_slot0;
                     var1 = _closure2_slot3;
                     var1 = var2.bind(var3)(var1);
-case 14:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
@@ -417,7 +428,10 @@ case 14:
             var10 = var24[var10];
             var10 = var25.bind(var4)(var10);
             var11 = var10.Button;
-            var10 = {'variant': 'secondary', 'size': 'sm'};
+            var10 = {};
+            var10['variant'] = var26;
+            var26 = 'sm';
+            var10['size'] = var26;
             var26 = var24[var16];
             var26 = var25.bind(var4)(var26);
             var28 = var26.intl;
@@ -462,19 +476,19 @@ case 0:
                     var1 = var2.length;
                     var4 = 0;
                     var1 = var1 > var4;
-                    if(!var1) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                    if(!var1) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                     var3 = var2.charAt;
                     var4 = var3.bind(var2)(var4);
                     var3 = '#';
                     var1 = var3 !== var4;
-case 15:
+case 17:
                     var5 = var2;
-                    if(!var1) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+                    if(!var1) { _fun0006_ip = 19; continue _fun0006 }
+case 7:
                     var1 = '#';
                     var5 = var1 + var2;
-case 17:
+case 19:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 10;
@@ -486,8 +500,8 @@ case 17:
                     var4 = _closure2_slot2;
                     var4 = var4.bind(var1)(var5);
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+                    if(!(var4 != var2)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                     var6 = _closure2_slot4;
                     var5 = var6.set;
                     var4 = var2.h;
@@ -503,7 +517,7 @@ case 20:
                     var2 = var2.v;
                     var2 = var2 / var5;
                     var2 = var3.bind(var4)(var2);
-case 19:
+case 20:
                     return var1;
                 }
             };
@@ -553,8 +567,8 @@ case 19:
                 return var1;
             };
             var10['onSelect'] = var21;
-            if(!(var18 == var19)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(!(var18 == var19)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var19 = _closure1_slot0;
             var18 = _closure1_slot2;
             var18 = var18[var20];
@@ -567,7 +581,7 @@ case 22:
             var18 = var13.get;
             var18 = var18.bind(var13)();
             var17 = var21.bind(var22)(var20, var19, var18);
-case 21:
+case 22:
             var10['color'] = var17;
             var10 = var16.bind(var4)(var11, var10);
             var8[1] = var10;

@@ -75,9 +75,7 @@ case 0:
             var5 = 5;
             var5 = var14[var5];
             var7 = var7.bind(var4)(var5);
-            var5 = {};
-            var9 = true;
-            var5['accessible'] = var9;
+            var5 = {'accessible': true, 'accessibilityLabel': null, 'accessibilityRole': 'header'};
             var11 = _closure1_slot0;
             var13 = 6;
             var9 = var14[var13];

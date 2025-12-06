@@ -81,7 +81,7 @@ case 4:
         var14 = var8[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.HEADER_SECONDARY;
+        var14 = var14.TEXT_SUBTLE;
         var11['color'] = var14;
         var6['titleText'] = var11;
         var11 = {};

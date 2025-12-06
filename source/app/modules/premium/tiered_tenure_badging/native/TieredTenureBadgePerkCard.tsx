@@ -349,7 +349,7 @@ case 21:
             var9 = var23[var20];
             var9 = var22.bind(var5)(var9);
             var13 = var9.Text;
-            var11 = {'variant': 'heading-md/medium', 'color': 'text-normal'};
+            var11 = {'variant': 'heading-md/medium', 'color': 'text-default'};
             var9 = 14;
             var16 = var23[var9];
             var16 = var22.bind(var5)(var16);

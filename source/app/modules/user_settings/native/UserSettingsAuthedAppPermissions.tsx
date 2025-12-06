@@ -342,7 +342,7 @@ case 24:
                 var6 = var12[var6];
                 var6 = var15.bind(var4)(var6);
                 var9 = var6.Text;
-                var6 = {'variant': 'heading-sm/semibold', 'color': 'header-secondary'};
+                var6 = {'variant': 'heading-sm/semibold', 'color': 'text-default'};
                 var13 = var12[var16];
                 var13 = var15.bind(var4)(var13);
                 var14 = var13.intl;
@@ -390,7 +390,7 @@ case 24:
                     var6 = var10[var6];
                     var6 = var7.bind(var2)(var6);
                     var7 = var6.Text;
-                    var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-normal'};
+                    var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
                     var9 = var9.permissionText;
                     var6['style'] = var9;
                     var9 = arg1;

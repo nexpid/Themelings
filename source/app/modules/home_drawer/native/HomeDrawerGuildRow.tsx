@@ -269,7 +269,7 @@ case 39:
             var11 = var14[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-xs/medium', 'color': 'text-primary'};
+            var11 = {'variant': 'text-xs/medium', 'color': 'text-strong'};
             var14 = ['+'];
             var14[1] = var15;
             var11['children'] = var14;
@@ -366,7 +366,7 @@ case 41:
             var11 = var14[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-xs/medium', 'color': 'text-primary'};
+            var11 = {'variant': 'text-xs/medium', 'color': 'text-strong'};
             var14 = ['+'];
             var14[1] = var15;
             var11['children'] = var14;
@@ -500,7 +500,7 @@ case 49:
             var11 = var14[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-xs/medium', 'color': 'text-primary'};
+            var11 = {'variant': 'text-xs/medium', 'color': 'text-strong'};
             var14 = ['+'];
             var14[1] = var15;
             var11['children'] = var14;

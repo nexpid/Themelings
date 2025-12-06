@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var8['color'] = var12;
     var11 = var11.PRIMARY_MEDIUM;
     var8['fontFamily'] = var11;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);
     var9 = var9.colors;
-    var9 = var9.HEADER_SECONDARY;
+    var9 = var9.TEXT_SUBTLE;
     var8['color'] = var9;
     var2['formHint'] = var8;
     var8 = {'position': 'relative', 'paddingTop': 4, 'paddingBottom': 4};

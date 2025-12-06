@@ -321,7 +321,7 @@ case 25:
                     var2 = var7[var2];
                     var2 = var3.bind(var5)(var2);
                     var3 = var2.Text;
-                    var2 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+                    var2 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
                     var7 = {};
                     var8 = 1;
                     var7['marginVertical'] = var8;

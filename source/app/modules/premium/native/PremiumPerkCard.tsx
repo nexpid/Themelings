@@ -114,7 +114,7 @@ case 0:
             var5 = undefined;
             var9 = var8.bind(var5)(var9);
             var9 = var9.colors;
-            var9 = var9.BG_SURFACE_RAISED;
+            var9 = var9.BACKGROUND_SURFACE_HIGH;
             var2['backgroundColor'] = var9;
             var4 = var4[var6];
             var4 = var8.bind(var5)(var4);
@@ -410,14 +410,12 @@ case 22:
             var7 = var16[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {};
+            var7 = {'style': null, 'variant': 'heading-lg/extrabold', 'accessibilityRole': 'header'};
             var18 = var11.title;
             var16 = new Array(2);
             var16[0] = var18;
             var16[1] = var17;
             var7['style'] = var16;
-            var16 = 'heading-lg/extrabold';
-            var7['variant'] = var16;
             var7['children'] = var15;
             var7 = var9.bind(var4)(var8, var7);
             var5[2] = var7;
@@ -883,7 +881,7 @@ case 30:
         var9 = var8[var3];
         var9 = var7.bind(var6)(var9);
         var9 = var9.t;
-        var9 = var9.FXlU24;
+        var9 = var9.hJG8ZN;
         var9 = var10.bind(var11)(var9);
         var2['description'] = var9;
         var9 = 17;

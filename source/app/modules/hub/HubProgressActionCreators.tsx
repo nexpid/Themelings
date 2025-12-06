@@ -280,21 +280,21 @@ case 36:
 case 0:
             var4 = arg1;
             var2 = null;
-            if(!(var2 != var4)) { _fun0005_ip = 9; continue _fun0005 }
-case 39:
+            if(!(var2 != var4)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var5 = _closure1_slot2;
             var3 = var5.getGuild;
             var3 = var3.bind(var5)(var4);
             var2 = var2 != var3;
-            if(!var2) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!var2) { _fun0005_ip = 41; continue _fun0005 }
+case 33:
             var6 = var3.features;
             var5 = var6.has;
             var3 = _closure1_slot4;
             var3 = var3.HUB;
             var2 = var5.bind(var6)(var3);
-case 40:
-            if(!var2) { _fun0005_ip = 9; continue _fun0005 }
+case 41:
+            if(!var2) { _fun0005_ip = 39; continue _fun0005 }
 case 42:
             var3 = _closure1_slot7;
             var2 = new Array(1);
@@ -302,7 +302,7 @@ case 42:
             var2[0] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var4, var2);
-case 9:
+case 39:
             var1 = undefined;
             return var1;
         }

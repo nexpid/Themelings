@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var14;
     var5['marker'] = var10;
     var10 = {'display': 'flex', 'borderRadius': null, 'backgroundColor': null, 'width': '100%', 'height': '100%'};
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var12;
     var5['icon'] = var10;
     var10 = {};

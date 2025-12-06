@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/rive/native/CheckpointFriends.riv.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/aedf328e7e37bccb21bcf4a240045ecd4ac4e7b343d343656bc7f0ec910fc194.riv';
+    var2 = 'https://cdn.discordapp.com/assets/content/954efaa61076f0455bdcb033ad6b06abe7b30d052eb006df9f8bcbae98ad74f9.riv';
     var3['default'] = var2;
     var2 = {};
-    var4 = 5436664;
+    var4 = 5436678;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -17,24 +17,24 @@ case 0:
             var _closure2_slot0 = var2;
             var12 = var3.cleanUp;
             var _closure2_slot1 = var12;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var4 = undefined;
             var10 = var3.bind(var4)();
             var8 = _closure1_slot3;
             var6 = var8.useContext;
-            var22 = _closure1_slot1;
+            var27 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var19[var3];
-            var3 = var22.bind(var4)(var3);
+            var3 = var27.bind(var4)(var3);
             var3 = var6.bind(var8)(var3);
             var11 = var3.channelId;
             var8 = var3.windowDimensions;
             var _closure2_slot2 = var8;
             var3 = var3.mode;
-            var6 = 9;
+            var6 = 8;
             var6 = var19[var6];
-            var6 = var22.bind(var4)(var6);
+            var6 = var27.bind(var4)(var6);
             var6 = var6.bind(var4)(var11);
             var26 = var6.icon;
             var24 = var6.text;
@@ -42,7 +42,7 @@ case 0:
             var _closure2_slot3 = var14;
             var20 = var6.displayCancel;
             var21 = _closure1_slot0;
-            var6 = 10;
+            var6 = 9;
             var11 = var19[var6];
             var15 = var21.bind(var4)(var11);
             var13 = var15.useSharedValue;
@@ -60,7 +60,7 @@ case 0:
                 var5 = _closure2_slot0;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var6.bind(var1)(var2);
@@ -71,14 +71,14 @@ case 0:
                 return var1;
             };
             var2 = var15.bind(var16)(var2, var11);
-            var2 = 12;
+            var2 = 11;
             var2 = var19[var2];
-            var2 = var22.bind(var4)(var2);
+            var2 = var27.bind(var4)(var2);
             var7 = var2.bind(var4)(var3, var7, var5);
             var2 = var19[var6];
             var5 = var21.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function V() {
+            var2 = function R() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -102,7 +102,7 @@ case 0:
                     var3 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 13;
+                    var4 = 12;
                     var4 = var6[var4];
                     var13 = undefined;
                     var8 = var5.bind(var13)(var4);
@@ -115,7 +115,7 @@ case 0:
 case 3:
                     var6 = 0;
 case 2:
-                    var17 = _closure1_slot10;
+                    var17 = _closure1_slot9;
                     var4 = function n(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -131,7 +131,7 @@ case 4:
 case 7:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 10;
+                            var1 = 9;
                             var1 = var2[var1];
                             var2 = undefined;
                             var4 = var3.bind(var2)(var1);
@@ -149,7 +149,7 @@ case 6:
                     var9['shouldShow'] = var11;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var11 = 10;
+                    var11 = 9;
                     var11 = var14[var11];
                     var11 = var12.bind(var13)(var11);
                     var11 = var11.runOnJS;
@@ -159,7 +159,7 @@ case 6:
                     var4['__closure'] = var9;
                     var9 = 9820708059867.0;
                     var4['__workletHash'] = var9;
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot11;
                     var4['__initData'] = var2;
                     var16 = 'respect-motion-settings';
                     var19 = var8;
@@ -182,13 +182,13 @@ case 6:
             var11['CONTROLS_HEIGHT'] = var14;
             var14 = 36;
             var11['CONSOLE_STATUS_HEIGHT'] = var14;
-            var14 = 13;
+            var14 = 12;
             var14 = var19[var14];
             var14 = var21.bind(var4)(var14);
             var14 = var14.withSpring;
             var11['withSpring'] = var14;
             var11['shouldShow'] = var13;
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot9;
             var11['FADE_IN_MODE_PHYSICS'] = var13;
             var13 = var19[var6];
             var13 = var21.bind(var4)(var13);
@@ -198,13 +198,13 @@ case 6:
             var2['__closure'] = var11;
             var11 = 14156265059426.0;
             var2['__workletHash'] = var11;
-            var11 = _closure1_slot11;
+            var11 = _closure1_slot10;
             var2['__initData'] = var11;
             var16 = var3.bind(var5)(var2);
             var2 = var19[var6];
             var3 = var21.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function y() {
+            var1 = function V() {
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
@@ -224,12 +224,12 @@ case 6:
             var1['__closure'] = var5;
             var5 = 2418678233810.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot12;
             var1['__initData'] = var5;
             var11 = var2.bind(var3)(var1);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var1 = var19[var6];
-            var1 = var22.bind(var4)(var1);
+            var1 = var27.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
             var8 = var10.consoleParentContainer;
@@ -237,34 +237,37 @@ case 6:
             var5[0] = var8;
             var5[1] = var7;
             var1['style'] = var5;
-            var8 = _closure1_slot7;
-            var15 = 14;
+            var8 = _closure1_slot6;
+            var15 = 13;
             var5 = var19[var15];
-            var7 = var22.bind(var4)(var5);
+            var7 = var27.bind(var4)(var5);
             var5 = {};
             var13 = var10.consoleContainer;
             var12 = new Array(1);
             var12[0] = var13;
             var5['style'] = var12;
-            var14 = _closure1_slot7;
+            var14 = _closure1_slot6;
             var12 = var19[var6];
-            var12 = var22.bind(var4)(var12);
+            var12 = var27.bind(var4)(var12);
             var13 = var12.View;
             var12 = {};
             var12['style'] = var16;
-            var17 = _closure1_slot8;
+            var17 = _closure1_slot7;
             var15 = var19[var15];
-            var16 = var22.bind(var4)(var15);
+            var16 = var27.bind(var4)(var15);
             var15 = {};
             var18 = var10.consoleItemContainer;
             var15['style'] = var18;
-            var23 = _closure1_slot7;
-            var25 = 15;
+            var23 = _closure1_slot6;
+            var25 = 14;
             var18 = var19[var25];
-            var22 = var22.bind(var4)(var18);
+            var22 = var27.bind(var4)(var18);
             var18 = {};
             var18['source'] = var26;
-            var26 = _closure1_slot6;
+            var26 = 6;
+            var26 = var19[var26];
+            var26 = var27.bind(var4)(var26);
+            var26 = var26.unsafe_rawColors;
             var26 = var26.WHITE;
             var18['color'] = var26;
             var25 = var19[var25];
@@ -275,8 +278,8 @@ case 6:
             var22 = var23.bind(var4)(var22, var18);
             var18 = new Array(3);
             var18[0] = var22;
-            var22 = _closure1_slot7;
-            var23 = 16;
+            var22 = _closure1_slot6;
+            var23 = 15;
             var19 = var19[var23];
             var19 = var21.bind(var4)(var19);
             var21 = var19.Text;
@@ -289,27 +292,27 @@ case 6:
             var19 = null;
             if(!var20) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var22 = _closure1_slot7;
+            var22 = _closure1_slot6;
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var20 = 17;
+            var20 = 16;
             var20 = var30[var20];
             var20 = var29.bind(var4)(var20);
             var21 = var20.PressableOpacity;
             var20 = {};
             var24 = 4;
             var20['hitSlop'] = var24;
-            var24 = 18;
+            var24 = 17;
             var24 = var30[var24];
             var24 = var29.bind(var4)(var24);
             var24 = var24.disconnectRemote;
             var20['onPress'] = var24;
-            var25 = _closure1_slot7;
+            var25 = _closure1_slot6;
             var23 = var30[var23];
             var23 = var29.bind(var4)(var23);
             var24 = var23.Text;
             var23 = {'variant': 'text-sm/medium', 'color': 'always-white'};
-            var26 = 19;
+            var26 = 18;
             var27 = var30[var26];
             var27 = var29.bind(var4)(var27);
             var28 = var27.intl;
@@ -333,7 +336,7 @@ case 8:
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
             var6 = var12[var6];
@@ -345,9 +348,9 @@ case 8:
             var10[0] = var13;
             var10[1] = var11;
             var6['style'] = var10;
-            var11 = _closure1_slot7;
+            var11 = _closure1_slot6;
             var10 = _closure1_slot0;
-            var9 = 20;
+            var9 = 19;
             var9 = var12[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.VoicePanelVisualEffectView;
@@ -361,7 +364,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot14 = var5;
+    var _closure1_slot13 = var5;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -393,16 +396,11 @@ case 8:
     var4 = 4;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.Colors;
-    var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
     var6 = var4.jsx;
-    var _closure1_slot7 = var6;
+    var _closure1_slot6 = var6;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var4 = 6;
+    var _closure1_slot7 = var4;
+    var4 = 5;
     var4 = var8[var4];
     var12 = var7.bind(var1)(var4);
     var11 = var12.createStyles;
@@ -411,7 +409,7 @@ case 8:
     var4 = {'zIndex': 1, 'position': 'absolute', 'bottom': 0, 'overflow': 'hidden', 'left': -0.5, 'right': 0, 'alignItems': 'center'};
     var6['consoleParentContainer'] = var4;
     var4 = {};
-    var15 = 7;
+    var15 = 6;
     var17 = var8[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.radii;
@@ -433,26 +431,26 @@ case 8:
     var13['height'] = var14;
     var6['blockingControlCover'] = var13;
     var6 = var11.bind(var12)(var6);
-    var _closure1_slot9 = var6;
+    var _closure1_slot8 = var6;
     var6 = {};
     var20 = var6;
     var9 = copyDataProperties(var20, var19);
     var9 = 'overshootClamping';
     var6[var9] = var10;
-    var _closure1_slot10 = var6;
+    var _closure1_slot9 = var6;
     var6 = {};
     var9 = "function VoicePanelConsoleStatusTsx1(){const{color,windowDimensions,EDGE_GUTTER,CONTROLS_HEIGHT,CONSOLE_STATUS_HEIGHT,withSpring,shouldShow,FADE_IN_MODE_PHYSICS,runOnJS,cleanUp}=this.__closure;return{backgroundColor:color,width:windowDimensions.get().width-EDGE_GUTTER*2,height:CONTROLS_HEIGHT+CONSOLE_STATUS_HEIGHT,borderRadius:32,transform:[{translateY:withSpring(shouldShow.get()?0:100,FADE_IN_MODE_PHYSICS,'respect-motion-settings',function(finished){if(finished&&!shouldShow.get()){runOnJS(cleanUp)();}})}]};}";
     var6['code'] = var9;
-    var _closure1_slot11 = var6;
+    var _closure1_slot10 = var6;
     var6 = {};
     var9 = 'function VoicePanelConsoleStatusTsx2(finished){const{shouldShow,runOnJS,cleanUp}=this.__closure;if(finished&&!shouldShow.get()){runOnJS(cleanUp)();}}';
     var6['code'] = var9;
-    var _closure1_slot12 = var6;
+    var _closure1_slot11 = var6;
     var6 = {};
     var9 = 'function VoicePanelConsoleStatusTsx3(){const{windowDimensions,EDGE_GUTTER}=this.__closure;return{width:windowDimensions.get().width-EDGE_GUTTER*2};}';
     var6['code'] = var9;
-    var _closure1_slot13 = var6;
-    var6 = 21;
+    var _closure1_slot12 = var6;
+    var6 = 20;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -461,8 +459,8 @@ case 8:
     var3['default'] = var5;
     var3['CONSOLE_STATUS_HEIGHT'] = var4;
     var2 = function renderVoicePanelConsoleStatus(arg1, arg2, arg3, arg4) {
-        var5 = _closure1_slot7;
-        var4 = _closure1_slot14;
+        var5 = _closure1_slot6;
+        var4 = _closure1_slot13;
         var3 = {};
         var7 = arg2;
         var8 = var3;

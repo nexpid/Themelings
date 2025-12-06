@@ -355,7 +355,7 @@ case 22:
             var20 = var16[var20];
             var20 = var11.bind(var5)(var20);
             var21 = var20.Text;
-            var20 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-normal'};
+            var20 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-default'};
             var22 = var22.text;
             var20['style'] = var22;
             var22 = var15.description;

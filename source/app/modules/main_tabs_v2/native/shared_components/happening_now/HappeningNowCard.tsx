@@ -187,7 +187,7 @@ case 10:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.BG_MOD_SUBTLE;
+            var7 = var7.BACKGROUND_MOD_SUBTLE;
             var2['backgroundColor'] = var7;
             var7 = var6[var3];
             var7 = var5.bind(var4)(var7);
@@ -322,35 +322,48 @@ case 28:
 case 0:
             var3 = arg1;
             var6 = var3.children;
-            var9 = var3.noMargin;
-            var7 = null;
-            var2 = Object.create(var7);
-            var1 = 0;
-            var2['children'] = var1;
-            var2['noMargin'] = var1;
-            var13 = {};
-            var12 = var3;
-            var11 = var2;
-            var5 = copyDataProperties(var13, var12, var11);
+            var11 = var3.noMargin;
+            var10 = var3.displayNameFont;
+            var2 = {'children': 0, 'noMargin': 0, 'displayNameFont': 0};
+            var8 = null;
+            var14 = var2;
+            var13 = null;
+            var1 = silentSetPrototypeOf(var14, var13);
+            var14 = {};
+            var13 = var3;
+            var12 = var2;
+            var5 = copyDataProperties(var14, var13, var12);
             var2 = _closure1_slot22;
             var4 = undefined;
-            var8 = var2.bind(var4)();
+            var7 = var2.bind(var4)();
             var3 = _closure1_slot18;
             var2 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var1 = 9;
-            var1 = var10[var1];
+            var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
             var1 = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(var9) { _fun0003_ip = 16; continue _fun0003 }
+            var9 = null;
+            if(var11) { _fun0003_ip = 17; continue _fun0003 }
 case 30:
-            var7 = var8.cardHeaderMargin;
-case 16:
+            var9 = var7.cardHeaderMargin;
+case 17:
+            var7 = new Array(2);
+            var7[0] = var9;
+            var9 = var8 != var10;
+            var8 = null;
+            if(!var9) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+            var9 = {};
+            var9['fontFamily'] = var10;
+            var8 = var9;
+case 31:
+            var7[1] = var8;
             var1['style'] = var7;
-            var13 = var1;
-            var12 = var5;
-            var5 = copyDataProperties(var13, var12);
+            var14 = var1;
+            var13 = var5;
+            var5 = copyDataProperties(var14, var13);
             var5 = 'children';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
@@ -381,13 +394,13 @@ case 0:
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': null, 'color': 'header-secondary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+            var1 = {'variant': null, 'color': 'text-default', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
             var9 = var7 != var8;
             var7 = 'text-xs/medium';
-            if(!var9) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(!var9) { _fun0004_ip = 12; continue _fun0004 }
+case 33:
             var7 = var8;
-case 31:
+case 12:
             var1['variant'] = var7;
             var12 = var1;
             var11 = var5;

@@ -615,7 +615,7 @@ case 53:
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var6['style'] = var14;
             var6['lineClamp'] = var10;
             var10 = 55;
@@ -794,7 +794,7 @@ case 51:
     var31 = var16[var26];
     var31 = var27.bind(var1)(var31);
     var31 = var31.colors;
-    var31 = var31.HEADER_SECONDARY;
+    var31 = var31.TEXT_SUBTLE;
     var25['color'] = var31;
     var25['fontSize'] = var30;
     var30 = 18;
@@ -831,7 +831,7 @@ case 51:
     var29 = var16[var26];
     var29 = var27.bind(var1)(var29);
     var29 = var29.colors;
-    var29 = var29.HEADER_SECONDARY;
+    var29 = var29.TEXT_SUBTLE;
     var25['color'] = var29;
     var25['fontSize'] = var28;
     var25['lineHeight'] = var26;
@@ -1872,7 +1872,7 @@ case 0:
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.Text;
-                    var1 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+                    var1 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
                     var5 = _closure2_slot4;
                     if(!var5) { _fun0016_ip = 95; continue _fun0016 }
 case 116:
@@ -1946,7 +1946,7 @@ case 119:
             var17 = var17.Text;
             if(var14) { _fun0015_ip = 120; continue _fun0015 }
 case 121:
-            var14 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var14 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             if(!var19) { _fun0015_ip = 122; continue _fun0015 }
 case 123:
             var21 = {};
@@ -1957,7 +1957,7 @@ case 122:
             var14['children'] = var20;
             _fun0015_ip = 124; continue _fun0015;
 case 120:
-            var19 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var19 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var19['children'] = var20;
             var14 = var19;
 case 124:
@@ -2132,15 +2132,15 @@ case 131:
 case 130:
             var7 = var1 == var16;
             var2 = undefined;
-            if(var7) { _fun0017_ip = 133; continue _fun0017 }
-case 134:
+            if(var7) { _fun0017_ip = 2; continue _fun0017 }
+case 45:
             var2 = var16.name;
-case 133:
+case 2:
             var15 = var3;
-            if(!(var1 != var2)) { _fun0017_ip = 135; continue _fun0017 }
-case 136:
+            if(!(var1 != var2)) { _fun0017_ip = 34; continue _fun0017 }
+case 133:
             var15 = var2;
-case 135:
+case 34:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 57;
@@ -2154,8 +2154,8 @@ case 135:
             var6 = var10.channelContainer;
             var2['style'] = var6;
             var7 = var1 != var9;
-            if(!var7) { _fun0017_ip = 137; continue _fun0017 }
-case 138:
+            if(!var7) { _fun0017_ip = 134; continue _fun0017 }
+case 135:
             var8 = _closure1_slot23;
             var6 = {};
             var13 = 'sm';
@@ -2163,7 +2163,7 @@ case 138:
             var13 = var10.channelIcon;
             var6['style'] = var13;
             var7 = var8.bind(var5)(var9, var6);
-case 137:
+case 134:
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot23;
@@ -2178,8 +2178,8 @@ case 137:
             var7['style'] = var10;
             var13 = var1 != var16;
             var10 = undefined;
-            if(!var13) { _fun0017_ip = 139; continue _fun0017 }
-case 140:
+            if(!var13) { _fun0017_ip = 136; continue _fun0017 }
+case 137:
             var14 = _closure1_slot1;
             var17 = _closure1_slot2;
             var13 = 58;
@@ -2188,16 +2188,16 @@ case 140:
             var13 = {};
             var13['channel'] = var16;
             var10 = var14.bind(var5)(var13);
-case 139:
+case 136:
             var7['accessibilityLabel'] = var10;
             var10 = 'text-sm/medium';
             var7['variant'] = var10;
-            var10 = 'header-secondary';
+            var10 = 'text-default';
             var7['color'] = var10;
             var13 = var1 != var15;
             var10 = null;
-            if(!var13) { _fun0017_ip = 141; continue _fun0017 }
-case 142:
+            if(!var13) { _fun0017_ip = 138; continue _fun0017 }
+case 139:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var12 = 55;
@@ -2208,7 +2208,7 @@ case 142:
             var12['guildId'] = var11;
             var11 = true;
             var10 = var13.bind(var14)(var15, var11, var12);
-case 141:
+case 138:
             var7['children'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
@@ -2253,8 +2253,8 @@ case 0:
             var13 = var4.bind(var6)(var3, var1, var2);
             var1 = null;
             var2 = var1 == var13;
-            if(var2) { _fun0019_ip = 143; continue _fun0019 }
-case 144:
+            if(var2) { _fun0019_ip = 140; continue _fun0019 }
+case 141:
             var4 = _closure1_slot24;
             var3 = _closure1_slot6;
             var2 = {};
@@ -2304,7 +2304,7 @@ case 144:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 143:
+case 140:
             return var1;
         }
     };
@@ -2390,8 +2390,8 @@ case 129:
             };
             var4 = var4.bind(var7)(var3, var1, var2);
             var1 = null;
-            if(!(var1 != var14)) { _fun0020_ip = 145; continue _fun0020 }
-case 146:
+            if(!(var1 != var14)) { _fun0020_ip = 142; continue _fun0020 }
+case 143:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 56;
@@ -2401,15 +2401,15 @@ case 146:
             var11 = var2.bind(var3)(var6);
             var3 = var1 == var10;
             var2 = undefined;
-            if(var3) { _fun0020_ip = 147; continue _fun0020 }
-case 148:
+            if(var3) { _fun0020_ip = 144; continue _fun0020 }
+case 101:
             var2 = var10.name;
-case 147:
+case 144:
             var18 = var11;
-            if(!(var1 != var2)) { _fun0020_ip = 149; continue _fun0020 }
-case 106:
+            if(!(var1 != var2)) { _fun0020_ip = 5; continue _fun0020 }
+case 145:
             var18 = var2;
-case 149:
+case 5:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 57;
@@ -2455,20 +2455,20 @@ case 149:
             var9 = new Array(2);
             var9[0] = var12;
             var10 = var1 != var10;
-            if(var10) { _fun0020_ip = 150; continue _fun0020 }
-case 151:
+            if(var10) { _fun0020_ip = 146; continue _fun0020 }
+case 147:
             var10 = var1 != var11;
-case 150:
-            if(!var10) { _fun0020_ip = 152; continue _fun0020 }
-case 153:
+case 146:
+            if(!var10) { _fun0020_ip = 148; continue _fun0020 }
+case 149:
             var13 = _closure1_slot24;
             var12 = _closure1_slot6;
             var11 = {};
             var14 = var19.guildInfoChannelContainer;
             var11['style'] = var14;
             var16 = var1 != var25;
-            if(!var16) { _fun0020_ip = 154; continue _fun0020 }
-case 155:
+            if(!var16) { _fun0020_ip = 150; continue _fun0020 }
+case 151:
             var21 = _closure1_slot23;
             var23 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -2487,7 +2487,7 @@ case 155:
             var22 = true;
             var14['disableColor'] = var22;
             var16 = var21.bind(var5)(var17, var14);
-case 154:
+case 150:
             var14 = new Array(2);
             var14[0] = var16;
             var17 = _closure1_slot23;
@@ -2496,7 +2496,7 @@ case 154:
             var15 = var15[var20];
             var15 = var16.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var15 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var19 = var19.guildInfoChannelText;
             var15['style'] = var19;
             var15['children'] = var18;
@@ -2504,7 +2504,7 @@ case 154:
             var14[1] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
-case 152:
+case 148:
             var9[1] = var10;
             var7['children'] = var9;
             var7 = var4.bind(var5)(var8, var7);
@@ -2512,7 +2512,7 @@ case 152:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 145:
+case 142:
             return var1;
         }
     };

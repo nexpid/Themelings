@@ -92,7 +92,7 @@ case 3:
             var9 = var9[var13];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
 case 2:

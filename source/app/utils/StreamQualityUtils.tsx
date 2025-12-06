@@ -455,39 +455,39 @@ case 30:
             var2 = {};
             var15 = var9 == var14;
             var11 = undefined;
-            if(var15) { _fun0010_ip = 26; continue _fun0010 }
-case 32:
+            if(var15) { _fun0010_ip = 32; continue _fun0010 }
+case 33:
             var11 = var14.premiumType;
-case 26:
+case 32:
             var2['user_premium_tier'] = var11;
             var14 = var9 == var13;
             var11 = undefined;
-            if(var14) { _fun0010_ip = 33; continue _fun0010 }
-case 34:
+            if(var14) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
             var11 = var13.premiumTier;
-case 33:
+case 34:
             var2['guild_premium_tier'] = var11;
             var13 = var9 == var10;
             var11 = undefined;
-            if(var13) { _fun0010_ip = 35; continue _fun0010 }
-case 36:
+            if(var13) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
             var11 = var10.quality;
-case 35:
+case 36:
             var13 = var9 != var11;
             var11 = null;
-            if(!var13) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+            if(!var13) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
             var13 = _closure1_slot15;
             var12 = var10.quality;
             var11 = var13[var12];
-case 37:
+case 38:
             var2['stream_quality_user_premium_tier'] = var11;
             var11 = var9 == var10;
             var9 = undefined;
-            if(var11) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
+            if(var11) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
             var9 = var10.guildPremiumTier;
-case 39:
+case 40:
             var2['stream_quality_guild_premium_tier'] = var9;
             var2['stream_quality_preset'] = var8;
             var2['stream_quality_resolution'] = var7;

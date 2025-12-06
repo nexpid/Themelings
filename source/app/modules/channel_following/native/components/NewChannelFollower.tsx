@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var13 = 32;
     var10['height'] = var13;
@@ -413,7 +413,7 @@ case 10:
             var12 = var28[var12];
             var12 = var29.bind(var4)(var12);
             var16 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var20 = var34.ctaSubhead;
             var12['style'] = var20;
             var20 = var28[var23];
@@ -718,14 +718,14 @@ case 0:
                             var1 = _closure1_slot14;
                             var1 = var1.GUILD_TEXT;
                             var1 = var3 === var1;
-                            if(!var1) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
+                            if(!var1) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
                             var4 = _closure1_slot11;
                             var3 = var4.can;
                             var2 = _closure1_slot15;
                             var2 = var2.MANAGE_WEBHOOKS;
                             var1 = var3.bind(var4)(var2, var5);
-case 17:
+case 33:
                             return var1;
                         }
                     };
@@ -786,8 +786,8 @@ case 29:
             var15[3] = var12;
             var12 = var11 != var18;
             var11 = null;
-            if(!var12) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
+            if(!var12) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var17 = _closure1_slot16;
             var16 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -798,7 +798,7 @@ case 34:
             var12['inset'] = var19;
             var12['children'] = var18;
             var11 = var17.bind(var4)(var16, var12);
-case 33:
+case 35:
             var15[4] = var11;
             var18 = _closure1_slot17;
             var11 = _closure1_slot0;
@@ -832,8 +832,8 @@ case 33:
 case 0:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+                    if(!(var2 != var3)) { _fun0008_ip = 37; continue _fun0008 }
+case 38:
                     var3 = _closure2_slot6;
                     var4 = undefined;
                     var2 = true;
@@ -863,7 +863,7 @@ case 0:
                             var5 = var2.code;
                             var4 = _closure1_slot13;
                             var4 = var4.TOO_MANY_WEBHOOKS;
-                            if(!(var5 !== var4)) { _fun0009_ip = 37; continue _fun0009 }
+                            if(!(var5 !== var4)) { _fun0009_ip = 39; continue _fun0009 }
 case 23:
                             var5 = _closure2_slot7;
                             var8 = _closure1_slot0;
@@ -879,8 +879,8 @@ case 23:
                             var4 = var4.LgwhuN;
                             var4 = var6.bind(var7)(var4);
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 38; continue _fun0009;
-case 37:
+                            _fun0009_ip = 40; continue _fun0009;
+case 39:
                             var3 = _closure2_slot7;
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
@@ -895,12 +895,12 @@ case 37:
                             var2 = var2.1eZ4aB;
                             var2 = var4.bind(var5)(var2);
                             var2 = var3.bind(var1)(var2);
-case 38:
+case 40:
                             return var1;
                         }
                     };
                     var1 = var2.bind(var3)(var1);
-case 35:
+case 37:
                     var1 = undefined;
                     return var1;
                 }

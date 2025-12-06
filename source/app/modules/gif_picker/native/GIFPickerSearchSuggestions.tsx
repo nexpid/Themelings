@@ -112,7 +112,7 @@ case 3:
             var6 = var16[var6];
             var6 = var15.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var12 = var10.footerSuggestionsTitle;
             var6['style'] = var12;
             var12 = 8;

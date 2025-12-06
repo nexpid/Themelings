@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10[var1];
         var3 = var6.bind(var4)(var3);
         var3 = var3.colors;
-        var5 = var3.TEXT_NORMAL;
+        var5 = var3.TEXT_DEFAULT;
         var3 = var10[var1];
         var3 = var6.bind(var4)(var3);
         var3 = var3.themes;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var10[var1];
         var2 = var6.bind(var4)(var2);
         var2 = var2.colors;
-        var2 = var2.TEXT_NORMAL;
+        var2 = var2.TEXT_DEFAULT;
         var1 = var10[var1];
         var1 = var6.bind(var4)(var1);
         var1 = var1.themes;

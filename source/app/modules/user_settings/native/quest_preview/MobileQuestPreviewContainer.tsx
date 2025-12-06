@@ -85,7 +85,7 @@ case 3:
             var5 = var12[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'variant': 'text-lg/semibold', 'color': 'text-normal'};
+            var5 = {'variant': 'text-lg/semibold', 'color': 'text-default'};
             var11 = var11.title;
             var5['style'] = var11;
             var5['children'] = var10;

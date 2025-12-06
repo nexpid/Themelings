@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_MOD_STRONG;
+    var16 = var16.BACKGROUND_MOD_STRONG;
     var10['backgroundColor'] = var16;
     var4['iconBackground'] = var10;
     var10 = {};
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var4['icon'] = var10;
     var10 = {};

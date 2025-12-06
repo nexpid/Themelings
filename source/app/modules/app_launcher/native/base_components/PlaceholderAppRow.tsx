@@ -44,14 +44,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_SUBTLE;
+    var10 = var10.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['loadingAppIcon'] = var9;
     var9 = {'backgroundColor': null, 'height': 16, 'marginBottom': 4, 'borderRadius': null, 'alignSelf': 'flex-start'};
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_SUBTLE;
+    var10 = var10.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var10;
     var13 = 16;
     var10 = var6[var11];
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_SUBTLE;
+    var14 = var14.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var14;
     var9['height'] = var13;
     var11 = var6[var11];

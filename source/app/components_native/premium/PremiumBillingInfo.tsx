@@ -118,7 +118,7 @@ case 2:
     var5 = var7[var5];
     var5 = var14.bind(var1)(var5);
     var5 = var5.colors;
-    var5 = var5.BG_SURFACE_RAISED;
+    var5 = var5.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var5;
     var5 = 16;
     var8['billingContainer'] = var11;
@@ -204,7 +204,7 @@ case 6:
             var6 = var22[var14];
             var6 = var19.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'text-default'};
             var10 = var13.title;
             var6['style'] = var10;
             var15 = 9;

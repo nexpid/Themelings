@@ -233,7 +233,7 @@ case 10:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.STATUS_DANGER_BACKGROUND;
+    var14 = var14.BACKGROUND_FEEDBACK_CRITICAL;
     var13['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -259,7 +259,7 @@ case 10:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var11 = var10.TEXT_NORMAL;
+    var11 = var10.TEXT_DEFAULT;
     var10 = 16;
     var16 = var13.bind(var1)(var12, var11, var10);
     var17 = var9;

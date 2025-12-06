@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var10['tintColor'] = var11;
     var4['lock'] = var10;
     var4 = var8.bind(var9)(var4);

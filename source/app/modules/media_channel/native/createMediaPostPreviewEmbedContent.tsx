@@ -51,11 +51,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.FetchState;
     var _closure1_slot11 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Colors;
-    var _closure1_slot12 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -73,7 +68,7 @@ case 3:
 case 2:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var5 = 8;
+            var5 = 7;
             var1 = var1[var5];
             var4 = var2.bind(var9)(var1);
             var2 = var4.getMediaPostEmbedChannelId;
@@ -123,7 +118,7 @@ case 11:
 case 13:
             var4 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var15[var2];
             var4 = var4.bind(var9)(var2);
             var2 = var4.canViewChannel;
@@ -155,7 +150,7 @@ case 18:
 case 19:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var5[var2];
             var5 = var4.bind(var9)(var2);
             var4 = var5.getUserAuthor;
@@ -182,7 +177,7 @@ case 24:
 case 22:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var5 = var10[var2];
             var5 = var4.bind(var9)(var5);
             var8 = var5.intl;
@@ -211,7 +206,7 @@ case 22:
 case 16:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var8 = var11[var2];
             var8 = var4.bind(var9)(var8);
             var10 = var8.intl;
@@ -230,13 +225,23 @@ case 26:
             if(!(var2 !== var4)) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
             var4 = _closure1_slot4;
-            var2 = _closure1_slot12;
+            var8 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var2 = 11;
+            var2 = var10[var2];
+            var2 = var8.bind(var9)(var2);
+            var2 = var2.unsafe_rawColors;
             var2 = var2.BRAND_500;
             var4 = var4.bind(var9)(var2);
             _fun0001_ip = 29; continue _fun0001;
 case 27:
             var8 = _closure1_slot4;
-            var2 = _closure1_slot12;
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 11;
+            var2 = var11[var2];
+            var2 = var10.bind(var9)(var2);
+            var2 = var2.unsafe_rawColors;
             var2 = var2.TEAL_430;
             var4 = var8.bind(var9)(var2);
 case 29:
@@ -349,7 +354,7 @@ case 50:
 case 54:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var7 = 10;
+            var7 = 9;
             var15 = var18[var7];
             var15 = var17.bind(var9)(var15);
             var16 = var15.intl;
@@ -368,7 +373,7 @@ case 53:
 case 56:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var7 = 10;
+            var7 = 9;
             var14 = var17[var7];
             var14 = var16.bind(var9)(var14);
             var15 = var14.intl;
@@ -412,7 +417,7 @@ case 52:
 case 61:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var14 = 10;
+            var14 = 9;
             var16 = var19[var14];
             var16 = var18.bind(var9)(var16);
             var17 = var16.intl;
@@ -431,7 +436,7 @@ case 60:
 case 63:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var11 = 10;
+            var11 = 9;
             var14 = var17[var11];
             var14 = var16.bind(var9)(var14);
             var15 = var14.intl;

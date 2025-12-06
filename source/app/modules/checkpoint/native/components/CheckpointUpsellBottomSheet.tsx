@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['image'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -105,6 +105,8 @@ case 0:
             var1 = var14.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
+            var5 = true;
+            var1['handleDisabled'] = var5;
             var5 = function onDismiss() {
                 var3 = _closure2_slot0;
                 var1 = _closure1_slot4;
@@ -193,11 +195,18 @@ case 0:
                     var4 = null;
                     if(!(var4 != var5)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                    var3 = _closure2_slot0;
-                    var2 = _closure1_slot4;
-                    var2 = var2.PRIMARY;
-                    var2 = var3.bind(var1)(var2);
+                    var4 = _closure2_slot0;
+                    var3 = _closure1_slot4;
+                    var3 = var3.PRIMARY;
+                    var3 = var4.bind(var1)(var3);
 case 2:
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 15;
+                    var2 = var4[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = 'upsell-sheet';
+                    var2 = var3.bind(var1)(var2);
                     return var1;
                 }
             };

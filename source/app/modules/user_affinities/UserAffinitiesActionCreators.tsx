@@ -173,33 +173,33 @@ case 16:
                             var7 = var4 != var6;
                             var5 = 0;
                             if(!var7) { _fun0003_ip = 18; continue _fun0003 }
-case 8:
+case 19:
                             var5 = var6;
 case 18:
                             var1['serverMessageProbability'] = var5;
                             var6 = var3.server_message_rank;
                             var7 = var4 != var6;
                             var5 = 0;
-                            if(!var7) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                            if(!var7) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                             var5 = var6;
-case 19:
+case 20:
                             var1['serverMessageRank'] = var5;
                             var6 = var3.communication_probability;
                             var7 = var4 != var6;
                             var5 = 0;
-                            if(!var7) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                            if(!var7) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                             var5 = var6;
-case 21:
+case 22:
                             var1['communicationProbability'] = var5;
                             var3 = var3.communication_rank;
                             var4 = var4 != var3;
                             var2 = 0;
-                            if(!var4) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+                            if(!var4) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                             var2 = var3;
-case 23:
+case 24:
                             var1['communicationRank'] = var2;
                             return var1;
                         }
@@ -208,10 +208,10 @@ case 23:
                     var2['affineUsers'] = var6;
                     var5 = var5.user_flags;
                     var6 = null;
-                    if(!(var6 == var5)) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+                    if(!(var6 == var5)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
                     var5 = {};
-case 25:
+case 26:
                     var2['userFlags'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;

@@ -385,7 +385,7 @@ case 8:
             var12 = var10[var12];
             var12 = var11.bind(var4)(var12);
             var20 = var12.Text;
-            var18 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var18 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var13.subText;
             var18['style'] = var12;
             var12 = 'text-sm/medium';

@@ -322,8 +322,12 @@ case 9:
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = {};
-                    var6 = new Array(2);
+                    var6 = new Array(3);
                     var6[0] = var8;
+                    var8 = {};
+                    var9 = 'contain';
+                    var8['resizeMode'] = var9;
+                    var6[1] = var8;
                     var8 = var1.muted;
                     if(!var8) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
@@ -332,7 +336,7 @@ case 12:
                     var9['opacity'] = var10;
                     var8 = var9;
 case 11:
-                    var6[1] = var8;
+                    var6[2] = var8;
                     var2['style'] = var6;
                     var6 = {};
                     var7 = var7.src;

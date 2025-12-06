@@ -206,7 +206,7 @@ case 17:
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.LinkIcon;
-                    var1 = {'size': 'lg', 'color': 'text-secondary'};
+                    var1 = {'size': 'lg', 'color': 'text-subtle'};
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 16:

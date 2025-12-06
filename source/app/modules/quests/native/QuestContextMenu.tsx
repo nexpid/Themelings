@@ -126,9 +126,9 @@ case 6:
             var _closure2_slot21 = var4;
             var _closure2_slot22 = var4;
             var14 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var13 = 7;
-            var7 = var12[var13];
+            var7 = var15[var13];
             var10 = var14.bind(var4)(var7);
             var8 = var10.useQuestPreviewActions;
             var7 = var3.id;
@@ -144,34 +144,34 @@ case 6:
             var7 = var7.handleOverrideDeliveryClick;
             _closure2_slot7 = var7;
             var10 = 8;
-            var10 = var12[var10];
+            var10 = var15[var10];
             var20 = var14.bind(var4)(var10);
             var16 = var20.useStateFromStores;
             var10 = _closure1_slot6;
-            var15 = new Array(1);
-            var15[0] = var10;
+            var12 = new Array(1);
+            var12[0] = var10;
             var11 = function() {
                 var1 = _closure1_slot6;
                 var1 = var1.questDeliveryOverride;
                 return var1;
             };
             var10 = new Array(0);
-            var16 = var16.bind(var20)(var15, var11, var10);
+            var16 = var16.bind(var20)(var12, var11, var10);
             _closure2_slot8 = var16;
             var10 = 9;
-            var10 = var12[var10];
+            var10 = var15[var10];
             var11 = var14.bind(var4)(var10);
             var10 = var11.useTrackQuestContentClickedWithImpression;
             var10 = var10.bind(var11)();
             _closure2_slot9 = var10;
             var11 = 10;
-            var11 = var12[var11];
-            var15 = var14.bind(var4)(var11);
-            var11 = var15.useQuestImpressionId;
-            var11 = var11.bind(var15)();
+            var11 = var15[var11];
+            var12 = var14.bind(var4)(var11);
+            var11 = var12.useQuestImpressionId;
+            var11 = var11.bind(var12)();
             _closure2_slot10 = var11;
-            var15 = 11;
-            var12 = var12[var15];
+            var12 = 11;
+            var12 = var15[var12];
             var14 = var14.bind(var4)(var12);
             var12 = var14.getExternalCtaLabel;
             var25 = var12.bind(var14)(var3);
@@ -179,8 +179,9 @@ case 6:
             if(!var22) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var14 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var12 = var12[var15];
+            var15 = _closure1_slot2;
+            var12 = 12;
+            var12 = var15[var12];
             var15 = var14.bind(var4)(var12);
             var14 = var15.isShareableQuest;
             var12 = var3.config;
@@ -196,14 +197,14 @@ case 8:
             var14 = function() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 11;
+                var1 = 13;
                 var2 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var2);
                 var4 = var5.openGameLinkDirectly;
                 var3 = _closure2_slot0;
                 var2 = {};
-                var7 = 12;
+                var7 = 14;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContent;
@@ -247,7 +248,7 @@ case 11:
                     var1 = _closure2_slot0;
                     var2 = var1.id;
                     var1 = {};
-                    var6 = 12;
+                    var6 = 14;
                     var6 = var9[var6];
                     var6 = var8.bind(var7)(var6);
                     var6 = var6.QuestContent;
@@ -278,7 +279,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 13;
+                var1 = 15;
                 var2 = var9[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -290,7 +291,7 @@ case 10:
                 var2['isTargetedDisclosure'] = var5;
                 var5 = {};
                 var8 = _closure1_slot0;
-                var7 = 12;
+                var7 = 14;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContent;
@@ -317,7 +318,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -337,7 +338,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -364,7 +365,7 @@ case 0:
                     var3['label'] = var1;
                     var11 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 17;
                     var1 = var9[var1];
                     var7 = undefined;
                     var1 = var11.bind(var7)(var1);
@@ -389,7 +390,7 @@ case 0:
                     var4 = _closure2_slot15;
                     var3['action'] = var4;
                     var6 = _closure1_slot1;
-                    var4 = 16;
+                    var4 = 18;
                     var4 = var9[var4];
                     var4 = var6.bind(var7)(var4);
                     var3['iconSource'] = var4;
@@ -413,7 +414,7 @@ case 12:
                     var5 = var5.WqhZss;
                     var5 = var9.bind(var10)(var5);
                     var4['label'] = var5;
-                    var5 = 17;
+                    var5 = 19;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.CopyIcon;
@@ -443,7 +444,7 @@ case 14:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 20;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -533,7 +534,7 @@ case 17:
                 var4 = function action() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 21;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -596,7 +597,7 @@ case 20:
 case 23:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 19;
+                    var3 = 22;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var2 = var3.CheckmarkLargeIcon;
@@ -679,7 +680,7 @@ case 27:
                 var2['questId'] = var1;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 12;
+                var1 = 14;
                 var5 = var7[var1];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);
@@ -701,7 +702,7 @@ case 27:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 20;
+            var1 = 23;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ContextMenu;
@@ -714,7 +715,7 @@ case 27:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

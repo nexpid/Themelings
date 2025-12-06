@@ -173,111 +173,154 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0003_ip = 5; continue _fun0003 }
 case 6:
-                        var4 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var2 = 17;
-                        var2 = var3[var2];
-                        var3 = undefined;
-                        var4 = var4.bind(var3)(var2);
-                        var2 = _closure2_slot0;
-                        var2 = var2.message;
-                        var2 = var4.bind(var3)(var2);
-                        if(!var2) { _fun0003_ip = 7; continue _fun0003 }
+                        var2 = function() {
+                            var4 = _closure1_slot3;
+                            var3 = undefined;
+                            var2 = function* () {
+                                var1 = function* anon_0_() {
+                                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                                        StartGenerator();
+                                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                                        if(var2) { _fun0004_ip = 7; continue _fun0004 }
 case 8:
-                        var4 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var2 = 16;
-                        var2 = var5[var2];
-                        var6 = var4.bind(var3)(var2);
-                        var5 = var6.savedMessageJumpToMessage;
-                        var4 = _closure2_slot0;
-                        var2 = _closure2_slot1;
-                        var2 = var5.bind(var6)(var4, var2);
-                        SaveGenerator(address=102);
+                                        var4 = _closure1_slot0;
+                                        var3 = _closure1_slot2;
+                                        var2 = 16;
+                                        var2 = var3[var2];
+                                        var3 = undefined;
+                                        var6 = var4.bind(var3)(var2);
+                                        var5 = var6.savedMessageJumpToMessage;
+                                        var4 = _closure2_slot0;
+                                        var2 = _closure2_slot1;
+                                        var2 = var5.bind(var6)(var4, var2);
+                                        SaveGenerator(address=62);
 case 9:
-                        return var2;
+                                        return var2;
 case 10:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0003_ip = 11; continue _fun0003 }
+                                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                                        if(var4) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
+                                        var5 = _closure1_slot1;
+                                        var6 = _closure1_slot2;
+                                        var4 = 17;
+                                        var4 = var6[var4];
+                                        var7 = var5.bind(var3)(var4);
+                                        var4 = var7.pop;
+                                        var4 = var4.bind(var7)();
+                                        var4 = 18;
+                                        var4 = var6[var4];
+                                        var7 = var5.bind(var3)(var4);
+                                        var6 = var7.track;
+                                        var4 = _closure1_slot8;
+                                        var5 = var4.FOR_LATER_SAVED_MESSAGE_JUMP;
+                                        var4 = {};
+                                        var8 = _closure2_slot0;
+                                        var11 = var8.saveData;
+                                        var11 = var11.channelId;
+                                        var4['channel_id'] = var11;
+                                        var11 = var8.saveData;
+                                        var11 = var11.messageId;
+                                        var4['message_id'] = var11;
+                                        var12 = var8.message;
+                                        var11 = null;
+                                        var13 = var11 == var12;
+                                        var8 = undefined;
+                                        if(var13) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                                        var12 = var12.author;
+                                        var8 = var12.id;
+case 13:
+                                        var4['message_author_id'] = var8;
+                                        var8 = _closure2_slot0;
+                                        var8 = var8.saveData;
+                                        var8 = var8.dueAt;
+                                        if(!(var11 == var8)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+                                        var12 = _closure1_slot0;
+                                        var13 = _closure1_slot2;
+                                        var8 = 19;
+                                        var8 = var13[var8];
+                                        var8 = var12.bind(var3)(var8);
+                                        var8 = var8.SavedMessageSortTypes;
+                                        var8 = var8.BOOKMARK;
+                                        _fun0004_ip = 17; continue _fun0004;
+case 15:
+                                        var13 = _closure1_slot0;
+                                        var14 = _closure1_slot2;
+                                        var12 = 19;
+                                        var12 = var14[var12];
+                                        var12 = var13.bind(var3)(var12);
+                                        var12 = var12.SavedMessageSortTypes;
+                                        var8 = var12.REMINDER;
+case 17:
+                                        var4['type'] = var8;
+                                        var8 = _closure2_slot0;
+                                        var8 = var8.saveData;
+                                        var8 = var8.dueAt;
+                                        var11 = var11 != var8;
+                                        var8 = undefined;
+                                        if(!var11) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+                                        var11 = _closure1_slot1;
+                                        var12 = _closure1_slot2;
+                                        var10 = 20;
+                                        var10 = var12[var10];
+                                        var10 = var11.bind(var3)(var10);
+                                        var11 = var10.bind(var3)();
+                                        var10 = var11.diff;
+                                        var9 = _closure2_slot0;
+                                        var9 = var9.saveData;
+                                        var9 = var9.dueAt;
+                                        var8 = var10.bind(var11)(var9);
+case 18:
+                                        var4['due_duration'] = var8;
+                                        var4 = var6.bind(var7)(var5, var4);
+                                        return var3;
+case 11:
+                                        return var2;
+case 7:
+                                        return var1;
+                                    }
+                                };
+                                return var1;
+                            };
+                            var2 = var4.bind(var3)(var2);
+                            var _closure5_slot0 = var2;
+                            var1 = function() {
+                                var1 = undefined;
+                                var4 = _closure5_slot0;
+                                var3 = var4.apply;
+                                var1 = arguments;
+                                var2 = var1;
+                                var1 = this;
+                                var1 = var3.bind(var4)(var1, var2);
+                                return var1;
+                            };
+                            return var1;
+                        };
+                        var3 = undefined;
+                        var2 = var2.bind(var3)();
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var4 = 18;
+                        var4 = 21;
                         var4 = var6[var4];
-                        var7 = var5.bind(var3)(var4);
-                        var4 = var7.pop;
-                        var4 = var4.bind(var7)();
-                        var4 = 19;
-                        var4 = var6[var4];
-                        var7 = var5.bind(var3)(var4);
-                        var6 = var7.track;
-                        var4 = _closure1_slot8;
-                        var5 = var4.FOR_LATER_SAVED_MESSAGE_JUMP;
-                        var4 = {};
-                        var8 = _closure2_slot0;
-                        var11 = var8.saveData;
-                        var11 = var11.channelId;
-                        var4['channel_id'] = var11;
-                        var11 = var8.saveData;
-                        var11 = var11.messageId;
-                        var4['message_id'] = var11;
-                        var12 = var8.message;
-                        var11 = null;
-                        var13 = var11 == var12;
-                        var8 = undefined;
-                        if(var13) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                        var12 = var12.author;
-                        var8 = var12.id;
-case 13:
-                        var4['message_author_id'] = var8;
-                        var8 = _closure2_slot0;
-                        var8 = var8.saveData;
-                        var8 = var8.dueAt;
-                        if(!(var11 == var8)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-                        var12 = _closure1_slot0;
-                        var13 = _closure1_slot2;
-                        var8 = 20;
-                        var8 = var13[var8];
-                        var8 = var12.bind(var3)(var8);
-                        var8 = var8.SavedMessageSortTypes;
-                        var8 = var8.BOOKMARK;
-                        _fun0003_ip = 17; continue _fun0003;
-case 15:
-                        var13 = _closure1_slot0;
-                        var14 = _closure1_slot2;
-                        var12 = 20;
-                        var12 = var14[var12];
-                        var12 = var13.bind(var3)(var12);
-                        var12 = var12.SavedMessageSortTypes;
-                        var8 = var12.REMINDER;
-case 17:
-                        var4['type'] = var8;
-                        var8 = _closure2_slot0;
-                        var8 = var8.saveData;
-                        var8 = var8.dueAt;
-                        var11 = var11 != var8;
-                        var8 = undefined;
-                        if(!var11) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-                        var11 = _closure1_slot1;
-                        var12 = _closure1_slot2;
-                        var10 = 21;
-                        var10 = var12[var10];
-                        var10 = var11.bind(var3)(var10);
-                        var11 = var10.bind(var3)();
-                        var10 = var11.diff;
-                        var9 = _closure2_slot0;
-                        var9 = var9.saveData;
-                        var9 = var9.dueAt;
-                        var8 = var10.bind(var11)(var9);
-case 18:
-                        var4['due_duration'] = var8;
-                        var4 = var6.bind(var7)(var5, var4);
-case 7:
+                        var5 = var5.bind(var3)(var4);
+                        var4 = _closure2_slot0;
+                        var4 = var4.message;
+                        var4 = var5.bind(var3)(var4, var2);
+                        if(!var4) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+                        var2 = var2.bind(var3)();
+                        SaveGenerator(address=74);
+case 22:
+                        return var2;
+case 23:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0003_ip = 24; continue _fun0003 }
+case 20:
                         return var3;
-case 11:
+case 24:
                         return var2;
 case 5:
                         return var1;
@@ -298,55 +341,55 @@ case 5:
             var3 = new Array(1);
             var3[0] = var9;
             var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot1;
                     var5 = null;
                     var1 = var5 == var1;
                     var2 = undefined;
-                    if(var1) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                    if(var1) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                     var1 = _closure2_slot1;
                     var2 = var1.type;
-case 20:
+case 25:
                     var1 = _closure1_slot9;
                     var1 = var1.UNKNOWN;
                     var1 = var2 === var1;
-                    if(var1) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                    if(var1) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                     var2 = _closure2_slot1;
                     var5 = var5 == var2;
-                    if(var5) { _fun0004_ip = 24; continue _fun0004 }
-case 8:
+                    if(var5) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                     var6 = _closure2_slot1;
                     var2 = var6.isPrivate;
                     var2 = var2.bind(var6)();
                     var5 = !var2;
-case 24:
+case 29:
                     var2 = !var5;
-                    if(!var5) { _fun0004_ip = 12; continue _fun0004 }
-case 25:
+                    if(!var5) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                     var6 = _closure1_slot6;
                     var5 = var6.can;
                     var4 = _closure1_slot10;
                     var4 = var4.VIEW_CHANNEL;
                     var3 = _closure2_slot1;
                     var2 = var5.bind(var6)(var4, var3);
-case 12:
+case 31:
                     var1 = var2;
-case 22:
+case 27:
                     return var1;
                 }
             };
             var2 = var6.bind(var8)(var3, var2);
             var3 = var5.message;
             var12 = null;
-            if(!(var12 != var3)) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
-            if(!(var12 != var15)) { _fun0002_ip = 26; continue _fun0002 }
-case 28:
-            if(!var2) { _fun0002_ip = 26; continue _fun0002 }
-case 29:
+            if(!(var12 != var3)) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
+            if(!(var12 != var15)) { _fun0002_ip = 33; continue _fun0002 }
+case 35:
+            if(!var2) { _fun0002_ip = 33; continue _fun0002 }
+case 14:
             var6 = _closure1_slot11;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -371,8 +414,8 @@ case 29:
             var2['style'] = var8;
             var2['onPress'] = var7;
             var8 = null;
-            if(!var14) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(!var14) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var10 = _closure1_slot11;
             var9 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -385,7 +428,7 @@ case 31:
             var7['throttledNow'] = var16;
             var7['actions'] = var13;
             var8 = var10.bind(var4)(var9, var7);
-case 30:
+case 36:
             var7 = new Array(4);
             var7[0] = var8;
             var10 = _closure1_slot11;
@@ -398,10 +441,10 @@ case 30:
             var8 = {};
             var8['channel'] = var15;
             var12 = null;
-            if(var14) { _fun0002_ip = 18; continue _fun0002 }
-case 32:
+            if(var14) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var12 = var13;
-case 18:
+case 38:
             var8['actions'] = var12;
             var8 = var10.bind(var4)(var9, var8);
             var7[1] = var8;
@@ -434,7 +477,7 @@ case 18:
             var2['children'] = var7;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
-case 26:
+case 33:
             var3 = _closure1_slot11;
             var2 = _closure1_slot14;
             var1 = {};
@@ -503,7 +546,7 @@ case 26:
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_FAINT;
+    var13 = var13.BACKGROUND_MOD_FAINT;
     var11['backgroundColor'] = var13;
     var5['cardDivider'] = var11;
     var11 = {'position': 'absolute', 'right': 16, 'zIndex': 10};
@@ -523,7 +566,7 @@ case 26:
     var _closure1_slot13 = var5;
     var5 = var8.memo;
     var4 = function ForLaterMessageCardGuard(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.savedMessageKey;
@@ -551,15 +594,15 @@ case 0:
             var7 = var4.bind(var7)(var3, var1);
             var1 = null;
             var3 = var1 == var7;
-            if(var3) { _fun0005_ip = 12; continue _fun0005 }
-case 33:
+            if(var3) { _fun0006_ip = 31; continue _fun0006 }
+case 40:
             var4 = _closure1_slot11;
             var3 = _closure1_slot15;
             var2 = {};
             var2['savedMessage'] = var7;
             var2['throttledNow'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 12:
+case 31:
             return var1;
         }
     };

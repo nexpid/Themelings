@@ -573,7 +573,7 @@ case 23:
                 var20 = var30[var20];
                 var20 = var29.bind(var4)(var20);
                 var22 = var20.Text;
-                var20 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                var20 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                 var27 = var25.requiredActionsSubtitle;
                 var20['style'] = var27;
                 var27 = var30[var26];
@@ -627,7 +627,7 @@ case 39:
                 var15 = var28[var15];
                 var15 = var27.bind(var4)(var15);
                 var20 = var15.Text;
-                var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                 var25 = var25.requiredActionsSubtitle;
                 var15['style'] = var25;
                 var25 = var28[var24];

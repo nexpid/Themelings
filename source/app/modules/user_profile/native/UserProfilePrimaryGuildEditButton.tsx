@@ -426,7 +426,7 @@ case 36:
             var8['badgeSize'] = var11;
             var11 = 'text-md/semibold';
             var8['textVariant'] = var11;
-            var11 = 'header-secondary';
+            var11 = 'text-default';
             var8['textColor'] = var11;
             var7 = var10.bind(var5)(var9, var8);
 case 34:

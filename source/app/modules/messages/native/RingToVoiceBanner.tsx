@@ -155,7 +155,7 @@ case 21:
             var6 = var20[var22];
             var6 = var12.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var11.ringUserBannerText;
             var6['style'] = var9;
             var9 = 16;

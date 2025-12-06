@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_DANGER_BACKGROUND;
+    var13 = var13.BACKGROUND_FEEDBACK_CRITICAL;
     var12['backgroundColor'] = var13;
     var5['danger'] = var12;
     var12 = {};

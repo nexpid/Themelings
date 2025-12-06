@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.DIVIDER_SUBTLE;
+    var10 = var10.BORDER_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['divider'] = var9;
     var9 = {'flexDirection': 'row', 'justifyContent': 'space-evenly', 'marginBottom': 16};
@@ -514,7 +514,7 @@ case 25:
             var12 = var24[var12];
             var12 = var26.bind(var4)(var12);
             var17 = var12.Text;
-            var12 = {'style': null, 'variant': 'heading-md/medium', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'heading-md/medium', 'color': 'text-default'};
             var23 = var11.summaryContent;
             var21 = new Array(1);
             var21[0] = var23;

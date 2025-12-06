@@ -724,6 +724,27 @@ case 41:
         return var1;
     };
     var3['setTryItOutThemeColors'] = var6;
+    var6 = function setTryItOutDisplayNameStyles(arg1) {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 8;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.dispatch;
+        var3 = {};
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES';
+        var3['type'] = var6;
+        var6 = arg1;
+        var3['displayNameStyles'] = var6;
+        var3 = var4.bind(var5)(var3);
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
+        var2 = var2.DISPLAY_NAME_STYLES;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var3['setTryItOutDisplayNameStyles'] = var6;
     var5 = function setTryItOutPreset(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;

@@ -251,10 +251,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0006_ip = 11; continue _fun0006 }
-case 12:
-                var1 = var2.premiumSubscriberCount;
+                if(var3) { _fun0006_ip = 8; continue _fun0006 }
 case 11:
+                var1 = var2.premiumSubscriberCount;
+case 8:
                 return var1;
             }
         };
@@ -272,8 +272,8 @@ case 0:
                 var3 = _closure2_slot5;
                 var2 = _closure2_slot2;
                 var2 = var2.length;
-                if(!(var3 !== var2)) { _fun0007_ip = 13; continue _fun0007 }
-case 14:
+                if(!(var3 !== var2)) { _fun0007_ip = 12; continue _fun0007 }
+case 13:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 8;
@@ -283,7 +283,7 @@ case 14:
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
-case 13:
+case 12:
                 var1 = undefined;
                 return var1;
             }
@@ -336,44 +336,44 @@ case 0:
                 var2 = var2.userId;
                 var3 = var6.bind(var7)(var3, var2);
                 var2 = null;
-                if(!(var2 == var3)) { _fun0008_ip = 15; continue _fun0008 }
-case 16:
+                if(!(var2 == var3)) { _fun0008_ip = 14; continue _fun0008 }
+case 15:
                 var5 = _closure2_slot0;
                 var6 = var5.user;
                 var7 = var2 == var6;
                 var5 = undefined;
-                if(var7) { _fun0008_ip = 17; continue _fun0008 }
-case 18:
-                var5 = var6.username;
+                if(var7) { _fun0008_ip = 16; continue _fun0008 }
 case 17:
+                var5 = var6.username;
+case 16:
                 var3 = var5;
-case 15:
+case 14:
                 var1['username'] = var3;
                 var5 = var2 == var4;
                 var6 = undefined;
-                if(var5) { _fun0008_ip = 19; continue _fun0008 }
-case 20:
-                var6 = var4.colorString;
+                if(var5) { _fun0008_ip = 18; continue _fun0008 }
 case 19:
+                var6 = var4.colorString;
+case 18:
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
-                var5 = var6;
+                if(!var7) { _fun0008_ip = 20; continue _fun0008 }
 case 21:
+                var5 = var6;
+case 20:
                 var1['roleColor'] = var5;
                 var5 = var2 == var4;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
-                var3 = var4.colorStrings;
+                if(var5) { _fun0008_ip = 22; continue _fun0008 }
 case 23:
+                var3 = var4.colorStrings;
+case 22:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-                var2 = var3;
+                if(!var4) { _fun0008_ip = 24; continue _fun0008 }
 case 25:
+                var2 = var3;
+case 24:
                 var1['roleColorStrings'] = var2;
                 return var1;
             }

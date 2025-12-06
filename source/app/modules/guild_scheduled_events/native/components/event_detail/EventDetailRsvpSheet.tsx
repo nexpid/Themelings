@@ -446,7 +446,7 @@ case 17:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.TEXT_NORMAL;
+    var17 = var17.TEXT_DEFAULT;
     var11['color'] = var17;
     var17 = var16.PRIMARY_SEMIBOLD;
     var11['fontFamily'] = var17;

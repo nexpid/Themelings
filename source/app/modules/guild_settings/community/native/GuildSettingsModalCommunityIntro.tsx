@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var9['color'] = var12;
     var4['formHint'] = var9;
     var12 = '100%';
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_STRONG;
+    var10 = var10.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var10;
     var4['featureIcon'] = var9;
     var9 = {'overflow': 'hidden', 'flex': 1};
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var9.bind(var4)(var8);
         var9 = var8.Text;
-        var8 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var8 = {'variant': 'text-sm/medium', 'color': 'text-default'};
         var8['children'] = var11;
         var8 = var10.bind(var4)(var9, var8);
         var7[1] = var8;
@@ -342,7 +342,7 @@ case 4:
         var15 = var9[var15];
         var15 = var7.bind(var4)(var15);
         var17 = var15.TextWithIOSLinkWorkaround;
-        var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
         var19 = var14.body;
         var15['style'] = var19;
         var19 = var9[var16];
@@ -425,7 +425,7 @@ case 8:
         var12 = var9[var12];
         var12 = var7.bind(var4)(var12);
         var15 = var12.Text;
-        var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var17 = var14.details;
         var12['style'] = var17;
         var17 = var9[var16];

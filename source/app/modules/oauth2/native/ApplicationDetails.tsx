@@ -38,8 +38,8 @@ case 2:
             var6 = 18;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
-            var7 = var6.Text;
-            var6 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var7 = var6.TextWithIOSLinkWorkaround;
+            var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var10 = var10.entryText;
             var6['style'] = var10;
             var6['children'] = var9;

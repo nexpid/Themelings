@@ -245,7 +245,7 @@ case 10:
             var5 = var12[var10];
             var5 = var20.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var19 = var15.channelTypeText;
             var5['style'] = var19;
             var5['children'] = var18;

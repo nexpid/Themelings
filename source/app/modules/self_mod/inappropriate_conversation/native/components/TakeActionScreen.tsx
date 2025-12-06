@@ -547,7 +547,7 @@ case 21:
             var23 = var18[var23];
             var23 = var21.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var23 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var25 = var19.textCenter;
             var23['style'] = var25;
             var25 = var18[var15];
@@ -597,7 +597,7 @@ case 20:
             var14 = var18[var14];
             var14 = var21.bind(var4)(var14);
             var16 = var14.Text;
-            var14 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var14 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var19 = var19.textCenter;
             var14['style'] = var19;
             var19 = var18[var15];

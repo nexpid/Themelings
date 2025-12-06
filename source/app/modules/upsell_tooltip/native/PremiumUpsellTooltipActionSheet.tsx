@@ -235,7 +235,7 @@ case 8:
             var9 = var12[var9];
             var9 = var15.bind(var4)(var9);
             var22 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var26 = var20.description;
             var24 = new Array(2);
             var24[0] = var26;

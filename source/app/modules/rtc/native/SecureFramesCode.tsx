@@ -92,7 +92,7 @@ case 0:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-normal'};
+                    var2 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-default'};
                     var1 = _closure2_slot2;
                     var1 = var1.codeText;
                     var2['style'] = var1;
@@ -200,7 +200,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.DIVIDER_SUBTLE;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var4['divider'] = var9;
     var9 = {'backgroundColor': null, 'borderTopRightRadius': null, 'borderTopLeftRadius': null, 'paddingVertical': 10, 'paddingHorizontal': 16, 'justifyContent': 'space-between', 'alignItems': 'center', 'flexDirection': 'row'};
@@ -224,7 +224,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/checkpoint/voice-soundwave.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/c9a49676196e5330141bf5a3d83301b08a31c5a58c5a782d353dfce27fc3d976.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/17c17b1d4a64760b916b78a49c1a7391576bad93db547e3e22fce86dbcd854d7.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 1687382;
+    var4 = 600546;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -944,7 +944,7 @@ case 69:
                             var7 = 'header-primary';
                             if(!var6) { _fun0009_ip = 90; continue _fun0009 }
 case 77:
-                            var7 = 'text-danger';
+                            var7 = 'text-feedback-critical';
 case 90:
                             var6 = 'color';
                             var1[var6] = var7;

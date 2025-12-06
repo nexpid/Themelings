@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MODIFIER_ACCENT;
+    var10 = var10.BORDER_SUBTLE;
     var8['backgroundColor'] = var10;
     var2['divider'] = var8;
     var8 = {};

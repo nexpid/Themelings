@@ -240,11 +240,11 @@ case 0:
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0007_ip = 5; continue _fun0007 }
-case 12:
+                    if(var5) { _fun0007_ip = 17; continue _fun0007 }
+case 8:
                     var4 = _closure2_slot0;
                     var1 = var4.id;
-case 5:
+case 17:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -252,15 +252,15 @@ case 5:
             var4 = var5.bind(var6)(var4, var3);
             var3 = null;
             var5 = var3 == var4;
-            if(var5) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
-            var1 = var4.icon;
-case 17:
-            var1 = var3 != var1;
-            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
-            var1 = !var2;
+            if(var5) { _fun0006_ip = 18; continue _fun0006 }
 case 19:
+            var1 = var4.icon;
+case 18:
+            var1 = var3 != var1;
+            if(!var1) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
+            var1 = !var2;
+case 20:
             return var1;
         }
     };
@@ -324,8 +324,8 @@ case 0:
                         var2 = var1.id;
                         var1 = _closure2_slot1;
                         var1 = var2 === var1;
-                        if(!var1) { _fun0008_ip = 21; continue _fun0008 }
-case 22:
+                        if(!var1) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 14;
@@ -334,7 +334,7 @@ case 22:
                         var2 = var5.bind(var3)(var2);
                         var2 = var2.bind(var3)(var4);
                         var1 = !var2;
-case 21:
+case 22:
                         return var1;
                     }
                 };
@@ -367,14 +367,14 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var3 = var1 != var3;
-                if(!var3) { _fun0009_ip = 23; continue _fun0009 }
+                if(!var3) { _fun0009_ip = 24; continue _fun0009 }
 case 3:
                 var4 = _closure1_slot5;
                 var3 = var4.getMutableBasicGuildChannelsForGuild;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
-case 23:
+case 24:
                 return var1;
             }
         };
@@ -401,10 +401,10 @@ case 10:
                 var2 = var3.values;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
-                _fun0010_ip = 24; continue _fun0010;
+                _fun0010_ip = 25; continue _fun0010;
 case 14:
                 var1 = new Array(0);
-case 24:
+case 25:
                 return var1;
             }
         };
@@ -514,39 +514,39 @@ case 0:
                 var1['canInvite'] = var5;
                 var5 = null;
                 var2 = var5 != var2;
-                if(!var2) { _fun0011_ip = 25; continue _fun0011 }
-case 26:
+                if(!var2) { _fun0011_ip = 26; continue _fun0011 }
+case 27:
                 var9 = _closure1_slot13;
                 var8 = var9.can;
                 var6 = _closure1_slot14;
                 var7 = var6.MANAGE_GUILD;
                 var6 = _closure2_slot1;
                 var2 = var8.bind(var9)(var7, var6);
-case 25:
+case 26:
                 var1['canManageGuild'] = var2;
                 var2 = _closure2_slot0;
                 var2 = var5 != var2;
-                if(!var2) { _fun0011_ip = 27; continue _fun0011 }
-case 28:
+                if(!var2) { _fun0011_ip = 28; continue _fun0011 }
+case 29:
                 var9 = _closure1_slot13;
                 var8 = var9.can;
                 var6 = _closure1_slot14;
                 var7 = var6.SEND_MESSAGES;
                 var6 = _closure2_slot0;
                 var2 = var8.bind(var9)(var7, var6);
-case 27:
+case 28:
                 var1['canMessage'] = var2;
                 var2 = _closure2_slot1;
                 var2 = var5 != var2;
-                if(!var2) { _fun0011_ip = 29; continue _fun0011 }
-case 30:
+                if(!var2) { _fun0011_ip = 30; continue _fun0011 }
+case 31:
                 var6 = _closure1_slot13;
                 var5 = var6.can;
                 var4 = _closure1_slot14;
                 var4 = var4.MANAGE_CHANNELS;
                 var3 = _closure2_slot1;
                 var2 = var5.bind(var6)(var4, var3);
-case 29:
+case 30:
                 var1['canCreateChannel'] = var2;
                 return var1;
             }

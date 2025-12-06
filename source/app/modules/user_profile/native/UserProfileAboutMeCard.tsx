@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var8[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'accessibilityRole': 'header', 'variant': null, 'color': 'header-secondary'};
+        var1 = {'accessibilityRole': 'header', 'variant': null, 'color': 'text-default'};
         var1['variant'] = var6;
         var6 = {};
         var6['marginBottom'] = var7;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6.Text;
         var6 = {};
         var6['variant'] = var10;
-        var10 = 'text-normal';
+        var10 = 'text-default';
         var6['color'] = var10;
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
@@ -335,7 +335,7 @@ case 15:
             var15 = var14.Text;
             var14 = {};
             var14['variant'] = var17;
-            var17 = 'text-normal';
+            var17 = 'text-default';
             var14['color'] = var17;
             var17 = _closure1_slot9;
             var14['children'] = var17;

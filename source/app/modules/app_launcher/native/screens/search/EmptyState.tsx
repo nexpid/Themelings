@@ -122,7 +122,7 @@ case 6:
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var12.text;
             var8['style'] = var12;
             var14 = _closure1_slot0;

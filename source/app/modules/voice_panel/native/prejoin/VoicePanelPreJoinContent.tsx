@@ -287,7 +287,7 @@ case 0:
             var5 = var19[var5];
             var5 = var16.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'text-sm/semibold', 'style': null, 'color': 'header-secondary'};
+            var5 = {'variant': 'text-sm/semibold', 'style': null, 'color': 'text-default'};
             var11 = var10.activityInfoHeader;
             var5['style'] = var11;
             var11 = 30;
@@ -628,7 +628,7 @@ case 48:
             var6 = var21[var6];
             var6 = var19.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'style': null, 'color': 'header-secondary'};
+            var6 = {'variant': 'text-sm/semibold', 'style': null, 'color': 'text-default'};
             var9 = var14.activityInfoHeader;
             var6['style'] = var9;
             var23 = 30;
@@ -1644,7 +1644,7 @@ case 3:
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var9.subheading;
             var6['style'] = var9;
             var9 = 30;
@@ -1789,7 +1789,7 @@ case 95:
             var5 = var7.bind(var4)(var5);
             var8 = var5.CircleErrorIcon;
             var5 = {};
-            var12 = 'text-warning';
+            var12 = 'text-feedback-warning';
             var5['color'] = var12;
             var8 = var9.bind(var4)(var8, var5);
             var5 = new Array(2);

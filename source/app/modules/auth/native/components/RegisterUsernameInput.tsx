@@ -209,7 +209,7 @@ case 10:
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'text-positive'};
+            var6 = {'variant': 'text-xs/medium', 'color': 'text-feedback-positive'};
             var8 = var10.message;
             var6['children'] = var8;
             var7 = var4.bind(var5)(var7, var6);
@@ -240,7 +240,7 @@ case 4:
             var14 = var13[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.colors;
-            var14 = var14.TEXT_DANGER;
+            var14 = var14.TEXT_FEEDBACK_CRITICAL;
             var6['color'] = var14;
             var7 = var9.bind(var5)(var7, var6);
             var6 = new Array(2);
@@ -249,7 +249,7 @@ case 4:
             var7 = var13[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+            var7 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
             var12 = var12.status;
             var7['style'] = var12;
             var16 = _closure1_slot13;

@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -559,7 +559,7 @@ case 23:
             var21 = var25[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var21 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var23 = 26;
             var23 = var25[var23];
             var26 = var24.bind(var4)(var23);

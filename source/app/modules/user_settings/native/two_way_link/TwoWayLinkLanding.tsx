@@ -171,7 +171,7 @@ case 6:
             var12 = var12[var21];
             var12 = var14.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var21 = var11.body;
             var12['style'] = var21;
             var12['children'] = var20;
@@ -245,7 +245,7 @@ case 10:
             var10 = var20[var10];
             var10 = var16.bind(var4)(var10);
             var12 = var10.TextWithIOSLinkWorkaround;
-            var10 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var15 = var11.body;
             var10['style'] = var15;
             var15 = 10;

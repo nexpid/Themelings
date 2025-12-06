@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_FAINT;
+    var10 = var10.BACKGROUND_MOD_FAINT;
     var9['backgroundColor'] = var10;
     var4['nameplate'] = var9;
     var9 = {};
@@ -80,9 +80,14 @@ case 0:
             var1 = arg1;
             var3 = var1.item;
             var6 = var1.isPurchased;
-            var1 = _closure1_slot6;
+            var17 = var1.animate;
             var4 = undefined;
-            var17 = var1.bind(var4)();
+            if(!(var17 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var17 = false;
+case 2:
+            var1 = _closure1_slot6;
+            var18 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 4;
@@ -102,17 +107,17 @@ case 0:
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getNameplateDataFromRecord;
-            var18 = var1.bind(var2)(var3);
+            var19 = var1.bind(var2)(var3);
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            var8 = var17.nameplatePreviewContainer;
+            var8 = var18.nameplatePreviewContainer;
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var6 = var17.purchased;
-case 2:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var6 = var18.purchased;
+case 4:
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot4;
@@ -147,32 +152,33 @@ case 2:
             var14 = var14.AvatarSizes;
             var14 = var14.XSMALL_20;
             var13['avatarSize'] = var14;
-            var19 = {};
+            var20 = {};
             var14 = 0.6;
-            var19['opacity'] = var14;
+            var20['opacity'] = var14;
             var16 = new Array(1);
-            var16[0] = var19;
+            var16[0] = var20;
             var13['style'] = var16;
             var13 = var8.bind(var4)(var15, var13);
             var5[1] = var13;
             var13 = _closure1_slot3;
             var7 = {};
-            var15 = var17.nameplateContainer;
+            var15 = var18.nameplateContainer;
             var7['style'] = var15;
             var15 = var12[var6];
             var15 = var11.bind(var4)(var15);
             var16 = var15.NameplateDummyUserPreview;
             var15 = {};
-            var19 = 54;
-            var15['width'] = var19;
-            var19 = var12[var10];
-            var19 = var11.bind(var4)(var19);
-            var19 = var19.AvatarSizes;
-            var19 = var19.XSMALL_20;
-            var15['avatarSize'] = var19;
-            var15['nameplate'] = var18;
-            var17 = var17.nameplate;
-            var15['style'] = var17;
+            var20 = 54;
+            var15['width'] = var20;
+            var20 = var12[var10];
+            var20 = var11.bind(var4)(var20);
+            var20 = var20.AvatarSizes;
+            var20 = var20.XSMALL_20;
+            var15['avatarSize'] = var20;
+            var15['nameplate'] = var19;
+            var18 = var18.nameplate;
+            var15['style'] = var18;
+            var15['animate'] = var17;
             var15 = var8.bind(var4)(var16, var15);
             var7['children'] = var15;
             var7 = var8.bind(var4)(var13, var7);

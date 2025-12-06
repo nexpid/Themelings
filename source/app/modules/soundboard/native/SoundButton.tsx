@@ -123,7 +123,7 @@ case 2:
         var17 = var6[var14];
         var17 = var9.bind(var1)(var17);
         var17 = var17.colors;
-        var17 = var17.BG_MOD_FAINT;
+        var17 = var17.BACKGROUND_MOD_FAINT;
         var13['backgroundColor'] = var17;
         var17 = var6[var14];
         var17 = var9.bind(var1)(var17);

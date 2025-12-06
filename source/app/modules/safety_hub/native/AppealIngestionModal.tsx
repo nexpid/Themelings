@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var11 = var11.BORDER_SUBTLE;
     var9['backgroundColor'] = var11;
     var4['separator'] = var9;
     var9 = {};
@@ -515,7 +515,7 @@ case 16:
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var11 = var11.subheader;
             var7['style'] = var11;
             var7['children'] = var10;
@@ -944,7 +944,7 @@ case 53:
             var16 = var21[var23];
             var16 = var30.bind(var4)(var16);
             var18 = var16.Text;
-            var16 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var16 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var24 = var26.footerText;
             var16['style'] = var24;
             var24 = 19;
@@ -970,7 +970,7 @@ case 61:
             var18 = var18[var23];
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+            var18 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
             var23 = var26.footerText;
             var18['style'] = var23;
             var18['children'] = var22;

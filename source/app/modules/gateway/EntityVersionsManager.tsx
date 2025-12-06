@@ -427,10 +427,10 @@ case 0:
                     var4 = var9 == var3;
                     var1 = undefined;
                     var13 = undefined;
-                    if(var4) { _fun0009_ip = 26; continue _fun0009 }
-case 22:
-                    var13 = var3.name;
+                    if(var4) { _fun0009_ip = 21; continue _fun0009 }
 case 26:
+                    var13 = var3.name;
+case 21:
                     var6 = _closure1_slot13;
                     var5 = var6.fileOnly;
                     var3 = global;

@@ -152,7 +152,7 @@ case 6:
                 var16 = var12[var16];
                 var16 = var10.bind(var4)(var16);
                 var17 = var16.Text;
-                var16 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+                var16 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
                 var19 = var12[var14];
                 var19 = var10.bind(var4)(var19);
                 var22 = var19.intl;
@@ -173,7 +173,7 @@ case 6:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'variant': 'text-xs/bold', 'color': 'text-primary'};
+                    var2 = {'variant': 'text-xs/bold', 'color': 'text-strong'};
                     var1 = arg1;
                     var2['children'] = var1;
                     var1 = arg2;
@@ -301,12 +301,12 @@ case 6:
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+        var12 = var12.BORDER_SUBTLE;
         var9['borderColor'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.BG_SURFACE_RAISED;
+        var12 = var12.BACKGROUND_SURFACE_HIGH;
         var9['backgroundColor'] = var12;
         var4['animatedContainer'] = var9;
         var9 = {'opacity': 0, 'position': 'absolute'};
@@ -318,7 +318,7 @@ case 6:
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.BG_SURFACE_RAISED;
+        var12 = var12.BACKGROUND_SURFACE_HIGH;
         var9['backgroundColor'] = var12;
         var4['highlight'] = var9;
         var9 = {'marginHorizontal': 12, 'flex': 1};
@@ -496,7 +496,7 @@ case 15:
                 var2 = var12[var7];
                 var8 = var11.bind(var5)(var2);
                 var3 = var8.useAnimatedStyle;
-                var2 = function y() {
+                var2 = function x() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = _closure2_slot3;

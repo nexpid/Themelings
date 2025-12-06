@@ -910,7 +910,7 @@ case 33:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var15;
     var9['paddingLeft'] = var13;
     var4['subscriptionSlot'] = var9;
@@ -920,7 +920,7 @@ case 33:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MODIFIER_ACCENT;
+    var15 = var15.BORDER_SUBTLE;
     var9['backgroundColor'] = var15;
     var9['height'] = var14;
     var4['subscriptionSlotBorder'] = var9;
@@ -1101,7 +1101,7 @@ case 45:
             var11 = var20[var11];
             var11 = var19.bind(var5)(var11);
             var13 = var11.Text;
-            var11 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var16 = var16.header;
             var11['style'] = var16;
             var16 = 13;

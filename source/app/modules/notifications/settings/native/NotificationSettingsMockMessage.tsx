@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var4['card'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row'};
@@ -137,7 +137,7 @@ case 4:
             var3 = var14[var9];
             var8 = var13.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function y() {
+            var3 = function _() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -190,7 +190,7 @@ case 7:
             var8 = var20[var14];
             var8 = var19.bind(var4)(var8);
             var12 = var8.Text;
-            var8 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var14 = var20[var14];
             var14 = var19.bind(var4)(var14);
             var15 = var14.Text;
@@ -227,7 +227,7 @@ case 6:
             var2 = var17[var2];
             var2 = var14.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var8 = 13;
             var12 = var17[var8];
             var12 = var14.bind(var4)(var12);

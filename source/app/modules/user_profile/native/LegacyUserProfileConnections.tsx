@@ -840,7 +840,7 @@ case 71:
                     var1 = undefined;
                     var6 = var7.bind(var1)(var6);
                     var7 = var6.Text;
-                    var6 = {'variant': 'text-xs/normal', 'color': 'text-normal'};
+                    var6 = {'variant': 'text-xs/normal', 'color': 'text-default'};
                     var9 = _closure2_slot0;
                     var9 = var9.application;
                     var9 = var9.name;
@@ -1119,7 +1119,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.HEADER_SECONDARY;
+    var18 = var18.TEXT_SUBTLE;
     var14['color'] = var18;
     var8['connectedAccountNameCreatedAtText'] = var14;
     var14 = {'height': 24, 'width': 24};
@@ -1160,7 +1160,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.HEADER_SECONDARY;
+    var18 = var18.TEXT_SUBTLE;
     var14['color'] = var18;
     var8['discordMemberCreatedAtLabel'] = var14;
     var14 = {'fontSize': 12, 'fontWeight': '500'};
@@ -1203,7 +1203,7 @@ case 73:
     var16 = var10[var16];
     var16 = var17.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MODIFIER_ACCENT;
+    var16 = var16.BORDER_SUBTLE;
     var14['borderColor'] = var16;
     var8['connectedAccountPoweredByContainer'] = var14;
     var14 = {};

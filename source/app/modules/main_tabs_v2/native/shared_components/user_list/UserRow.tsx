@@ -312,7 +312,7 @@ case 20:
                 var10 = var14[var10];
                 var10 = var11.bind(var7)(var10);
                 var11 = var10.Text;
-                var10 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'text-secondary'};
+                var10 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'text-subtle'};
                 var13 = var13.name;
                 var10['children'] = var13;
                 var10 = var12.bind(var7)(var11, var10);
@@ -457,6 +457,8 @@ case 14:
         var13 = {'display': 'flex', 'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
         var8['usernameLabelContainer'] = var13;
         var13 = {'display': 'flex', 'flexShrink': 1};
+        var8['usernameLabel'] = var13;
+        var13 = {};
         var14 = 13;
         var14 = var6[var14];
         var15 = var5.bind(var1)(var14);
@@ -468,7 +470,7 @@ case 24:
         var14 = 22;
 case 23:
         var13['lineHeight'] = var14;
-        var8['usernameLabel'] = var13;
+        var8['usernameLabelWithLineHeight'] = var13;
         var8 = var9.bind(var10)(var8);
         var _closure1_slot18 = var8;
         var4 = var6[var4];
@@ -479,7 +481,7 @@ case 23:
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.TEXT_SECONDARY;
+        var13 = var13.TEXT_SUBTLE;
         var10['color'] = var13;
         var4['activityText'] = var10;
         var10 = {'flexDirection': 'row', 'gap': 4};
@@ -1625,7 +1627,7 @@ case 87:
                         var16 = var18[var16];
                         var16 = var17.bind(var4)(var16);
                         var16 = var16.colors;
-                        var16 = var16.TEXT_WARNING;
+                        var16 = var16.TEXT_FEEDBACK_WARNING;
                         var12['color'] = var16;
                         var14 = var15.bind(var4)(var14, var12);
                         var12 = [' '];
@@ -1819,9 +1821,11 @@ case 100:
                 var31 = 'header-primary';
                 var23['color'] = var31;
                 var36 = var27.usernameLabel;
-                var31 = new Array(3);
+                var31 = new Array(4);
                 var31[0] = var36;
-                var31[1] = var34;
+                var36 = var27.usernameLabelWithLineHeight;
+                var31[1] = var36;
+                var31[2] = var34;
                 if(!var35) { _fun0006_ip = 102; continue _fun0006 }
 case 103:
                 var35 = var3 != var37;
@@ -1832,7 +1836,7 @@ case 105:
                 var36['fontFamily'] = var37;
                 var35 = var36;
 case 104:
-                var31[2] = var35;
+                var31[3] = var35;
                 var23['style'] = var31;
                 var48 = var23;
                 var47 = var32;
@@ -1961,11 +1965,11 @@ case 119:
                 var4 = _closure1_slot11;
                 var4 = var4.TOGGLE;
                 if(!(var8 !== var4)) { _fun0006_ip = 121; continue _fun0006 }
-case 53:
-                if(!(var3 != var10)) { _fun0006_ip = 122; continue _fun0006 }
-case 123:
-                if(var1) { _fun0006_ip = 124; continue _fun0006 }
 case 122:
+                if(!(var3 != var10)) { _fun0006_ip = 123; continue _fun0006 }
+case 44:
+                if(var1) { _fun0006_ip = 124; continue _fun0006 }
+case 123:
                 var4 = _closure1_slot14;
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;

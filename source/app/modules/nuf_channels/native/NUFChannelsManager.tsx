@@ -203,39 +203,39 @@ case 12:
                         var5 = var4.bind(var5)(var3);
                         var6 = null;
                         var3 = var6 != var3;
-                        if(!var3) { _fun0004_ip = 10; continue _fun0004 }
-case 13:
+                        if(!var3) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var4 = var6 != var5;
-                        if(!var4) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                        if(!var4) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                         var9 = var5.features;
                         var8 = var9.has;
                         var7 = _closure1_slot12;
                         var7 = var7.HUB;
                         var4 = var8.bind(var9)(var7);
-case 14:
+case 15:
                         var3 = !var4;
-case 10:
+case 13:
                         var4 = var6 != var5;
                         var9 = null;
-                        if(!var4) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                        if(!var4) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                         var8 = _closure1_slot8;
                         var7 = var8.getSelfMember;
                         var4 = var5.id;
                         var9 = var7.bind(var8)(var4);
-case 16:
+case 17:
                         var4 = var6 != var5;
-                        if(!var4) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                        if(!var4) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                         var8 = var5.features;
                         var7 = var8.has;
                         var5 = _closure1_slot12;
                         var5 = var5.GUILD_ONBOARDING;
                         var4 = var7.bind(var8)(var5);
-case 18:
-                        if(!var4) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+case 19:
+                        if(!var4) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 14;
@@ -244,22 +244,22 @@ case 21:
                         var8 = var10.hasFlag;
                         var7 = var6 == var9;
                         var5 = undefined;
-                        if(var7) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                        if(var7) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                         var5 = var9.flags;
-case 22:
+case 23:
                         var11 = var6 != var5;
                         var7 = 0;
-                        if(!var11) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+                        if(!var11) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                         var7 = var5;
-case 24:
+case 25:
                         var5 = _closure1_slot13;
                         var5 = var5.STARTED_ONBOARDING;
                         var4 = var8.bind(var10)(var7, var5);
-case 20:
-                        if(!var4) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+case 21:
+                        if(!var4) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 14;
@@ -268,31 +268,31 @@ case 27:
                         var7 = var8.hasFlag;
                         var10 = var6 == var9;
                         var5 = undefined;
-                        if(var10) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                        if(var10) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                         var5 = var9.flags;
-case 28:
+case 29:
                         var9 = var6 != var5;
                         var6 = 0;
-                        if(!var9) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+                        if(!var9) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                         var6 = var5;
-case 30:
+case 31:
                         var5 = _closure1_slot13;
                         var5 = var5.COMPLETED_ONBOARDING;
                         var5 = var7.bind(var8)(var6, var5);
                         var4 = !var5;
-case 26:
-                        if(!var3) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-                        var3 = !var4;
-case 32:
-                        if(!var3) { _fun0004_ip = 11; continue _fun0004 }
+case 27:
+                        if(!var3) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
+                        var3 = !var4;
+case 33:
+                        if(!var3) { _fun0004_ip = 11; continue _fun0004 }
+case 35:
                         var3 = _closure1_slot14;
                         var3 = var3.bind(var1)();
-                        if(!var3) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+                        if(!var3) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                         var5 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var3 = 15;
@@ -317,7 +317,7 @@ case 36:
                         var3 = '2020_02_nuf_channels';
                         var2 = true;
                         var2 = var4.bind(var5)(var3, var2);
-case 35:
+case 36:
                         var3 = _closure3_slot0;
                         var2 = var3.terminate;
                         var2 = var2.bind(var3)();
@@ -410,8 +410,8 @@ case 0:
                 var3 = _closure1_slot14;
                 var1 = undefined;
                 var3 = var3.bind(var1)();
-                if(!var3) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+                if(!var3) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 18;
@@ -420,14 +420,14 @@ case 38:
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0006_ip = 37; continue _fun0006 }
-case 39:
+                if(!(var2 != var5)) { _fun0006_ip = 38; continue _fun0006 }
+case 40:
                 var4 = var5.addListener;
                 var2 = this;
                 var3 = var2.handleNavigationStateChanged;
                 var2 = 'state';
                 var2 = var4.bind(var5)(var2, var3);
-case 37:
+case 38:
                 return var1;
             }
         };
@@ -449,14 +449,14 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+                if(!(var2 != var5)) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
                 var4 = var5.removeListener;
                 var2 = this;
                 var3 = var2.handleNavigationStateChanged;
                 var2 = 'state';
                 var2 = var4.bind(var5)(var2, var3);
-case 40:
+case 41:
                 return var1;
             }
         };

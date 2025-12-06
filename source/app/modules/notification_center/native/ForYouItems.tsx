@@ -421,21 +421,16 @@ case 60:
             var5 = !var5;
             var2['isSystemMessage'] = var5;
             var2['iconType'] = var3;
-            var21 = var2.content;
-            var23 = var2.isSystemMessage;
+            var20 = var2.content;
+            var21 = var2.isSystemMessage;
             var22 = var2.iconType;
-            var20 = var9.guild_id;
-            var _closure2_slot1 = var20;
-            var18 = var9.message_channel_id;
-            var _closure2_slot2 = var18;
-            var16 = var9.message_id;
+            var18 = var9.guild_id;
+            var _closure2_slot1 = var18;
+            var16 = var9.message_channel_id;
+            var _closure2_slot2 = var16;
+            var15 = var9.message_id;
             var7 = _closure1_slot0;
             var2 = 25;
-            var2 = var13[var2];
-            var3 = var7.bind(var4)(var2);
-            var2 = var3.useShouldFilterKeywords;
-            var15 = var2.bind(var3)();
-            var2 = 26;
             var3 = var13[var2];
             var8 = var7.bind(var4)(var3);
             var6 = var8.useStateFromStores;
@@ -531,8 +526,8 @@ case 67:
             var8 = _closure1_slot20;
             var6 = _closure1_slot7;
             var5 = {};
-            var24 = var17.messagePreviewBarV2;
-            var5['style'] = var24;
+            var23 = var17.messagePreviewBarV2;
+            var5['style'] = var23;
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
@@ -552,7 +547,7 @@ case 71:
             var11 = new Array(2);
             var11[0] = var13;
             var13 = undefined;
-            if(!var23) { _fun0004_ip = 72; continue _fun0004 }
+            if(!var21) { _fun0004_ip = 72; continue _fun0004 }
 case 73:
             var13 = var17.messagePreviewSystemTextV2;
 case 72:
@@ -568,26 +563,25 @@ case 74:
             var6['lineClamp'] = var11;
             var12 = _closure1_slot0;
             var13 = _closure1_slot3;
-            var11 = 27;
+            var11 = 26;
             var11 = var13[var11];
             var13 = var12.bind(var4)(var11);
             var12 = var13.renderMessageContentMarkup;
             var11 = {};
-            var11['content'] = var21;
-            var11['guildId'] = var20;
-            var11['channelId'] = var18;
-            var11['messageId'] = var16;
-            var16 = var9.message;
-            var18 = var10 == var16;
+            var11['content'] = var20;
+            var11['guildId'] = var18;
+            var11['channelId'] = var16;
+            var11['messageId'] = var15;
+            var15 = var9.message;
+            var16 = var10 == var15;
             var9 = undefined;
-            if(var18) { _fun0004_ip = 76; continue _fun0004 }
+            if(var16) { _fun0004_ip = 76; continue _fun0004 }
 case 77:
-            var16 = var16.author;
-            var9 = var16.id;
+            var15 = var15.author;
+            var9 = var15.id;
 case 76:
             var11['authorId'] = var9;
             var9 = {};
-            var9['shouldFilterKeywords'] = var15;
             var11 = var12.bind(var13)(var14, var11, var9);
             var9 = new Array(2);
             var9[0] = var11;
@@ -602,7 +596,7 @@ case 79:
             var16 = _closure1_slot20;
             var15 = _closure1_slot1;
             var20 = _closure1_slot3;
-            var18 = 28;
+            var18 = 27;
             var14 = var20[var18];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -640,7 +634,7 @@ case 0:
             var7 = var2.textVariant;
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 26;
+            var3 = 25;
             var3 = var5[var3];
             var5 = undefined;
             var6 = var4.bind(var5)(var3);
@@ -662,7 +656,7 @@ case 81:
             var6 = _closure1_slot20;
             var4 = _closure1_slot1;
             var8 = _closure1_slot3;
-            var3 = 29;
+            var3 = 28;
             var3 = var8[var3];
             var4 = var4.bind(var5)(var3);
             var3 = {};
@@ -688,7 +682,7 @@ case 82:
         var3 = var1.scrollRef;
         var4 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 53;
+        var1 = 52;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -880,7 +874,7 @@ case 82:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_FAINT;
     var10['backgroundColor'] = var14;
     var4['rowActive'] = var10;
     var10 = {'flexDirection': 'column', 'flex': 1};
@@ -958,7 +952,7 @@ case 82:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_MODIFIER_ACCENT;
+    var18 = var18.BORDER_SUBTLE;
     var10['borderLeftColor'] = var18;
     var4['calloutBar'] = var10;
     var10 = {};
@@ -972,14 +966,14 @@ case 82:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.TEXT_NORMAL;
+    var18 = var18.TEXT_DEFAULT;
     var10['color'] = var18;
     var4['calloutTextNotAcked'] = var10;
     var10 = {'marginTop': 4, 'padding': 8, 'backgroundColor': null, 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center'};
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_RAISED;
+    var18 = var18.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var18;
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
@@ -993,7 +987,7 @@ case 82:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_MODIFIER_ACCENT;
+    var18 = var18.BORDER_SUBTLE;
     var10['borderLeftColor'] = var18;
     var4['messagePreviewBarV2'] = var10;
     var10 = {};
@@ -1004,7 +998,7 @@ case 82:
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.HEADER_SECONDARY;
+    var17 = var17.TEXT_SUBTLE;
     var10['tintColor'] = var17;
     var4['messagePreviewIconV2'] = var10;
     var10 = {};
@@ -1024,7 +1018,7 @@ case 82:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var10['color'] = var15;
     var4['messagePreviewTextV2NotAcked'] = var10;
     var10 = {'fontStyle': 'italic', 'fontWeight': 'normal'};
@@ -1045,7 +1039,7 @@ case 82:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.DIVIDER_SUBTLE;
+    var13 = var13.BORDER_SUBTLE;
     var10['borderTopColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -1093,7 +1087,7 @@ case 0:
             var29 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var1 = 30;
+            var1 = 29;
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useNotificationCenterItemAcked;
@@ -1105,7 +1099,7 @@ case 84:
 case 83:
             var7 = _closure1_slot0;
             var14 = _closure1_slot3;
-            var2 = 31;
+            var2 = 30;
             var2 = var14[var2];
             var5 = var7.bind(var4)(var2);
             var2 = var5.useNavigation;
@@ -1125,7 +1119,7 @@ case 0:
 case 86:
                     var2 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var3 = 32;
+                    var3 = 31;
                     var4 = var5[var3];
                     var3 = undefined;
                     var4 = var2.bind(var3)(var4);
@@ -1133,7 +1127,7 @@ case 86:
                     var1 = var1.deeplink;
                     var1 = var4.bind(var3)(var1);
                     var4 = var1.payload;
-                    var1 = 33;
+                    var1 = 32;
                     var1 = var5[var1];
                     var2 = var2.bind(var3)(var1);
                     var1 = {'payload': null, 'safe': true, 'navigationReplace': false};
@@ -1169,7 +1163,7 @@ case 87:
                     var3 = var1.type;
                     var4 = _closure1_slot0;
                     var1 = _closure1_slot3;
-                    var9 = 34;
+                    var9 = 33;
                     var2 = var1[var9];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
@@ -1193,7 +1187,7 @@ case 68:
                     var2 = var2.bind(var1)();
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var2 = 35;
+                    var2 = 34;
                     var2 = var6[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.track;
@@ -1233,7 +1227,7 @@ case 0:
                     var7 = var1.type;
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var1 = 34;
+                    var1 = 33;
                     var4 = var4[var1];
                     var1 = undefined;
                     var4 = var8.bind(var1)(var4);
@@ -1257,11 +1251,11 @@ case 91:
                     var8 = var11.bind(var12)(var8);
                     var4['label'] = var8;
                     var11 = _closure1_slot1;
-                    var8 = 36;
+                    var8 = 35;
                     var8 = var10[var8];
                     var8 = var11.bind(var1)(var8);
                     var4['icon'] = var8;
-                    var8 = 37;
+                    var8 = 36;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.LightbulbIcon;
@@ -1271,16 +1265,16 @@ case 91:
 case 0: // try_start_0
                             var3 = _closure1_slot0;
                             var6 = _closure1_slot3;
-                            var2 = 41;
+                            var2 = 40;
                             var2 = var6[var2];
                             var4 = undefined;
                             var5 = var3.bind(var4)(var2);
-                            var2 = 40;
+                            var2 = 39;
                             var3 = var6[var2];
                             var2 = var6.paths;
                             var5 = var5.bind(var4)(var3, var2);
                             var3 = _closure1_slot1;
-                            var2 = 42;
+                            var2 = 41;
                             var2 = var6[var2];
                             var4 = var3.bind(var4)(var2);
                             var3 = var4.openLazy;
@@ -1299,7 +1293,7 @@ case 94: // catch_target0
                             CatchBlockStart(arg_register=0);
                             var2 = _closure1_slot1;
                             var9 = _closure1_slot3;
-                            var1 = 39;
+                            var1 = 38;
                             var1 = var9[var1];
                             var8 = undefined;
                             var3 = var2.bind(var8)(var1);
@@ -1345,11 +1339,11 @@ case 15:
                     var8 = var11.bind(var12)(var8);
                     var4['label'] = var8;
                     var11 = _closure1_slot1;
-                    var8 = 36;
+                    var8 = 35;
                     var8 = var10[var8];
                     var8 = var11.bind(var1)(var8);
                     var4['icon'] = var8;
-                    var8 = 37;
+                    var8 = 36;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.LightbulbIcon;
@@ -1393,7 +1387,7 @@ case 99:
                             var10 = var7[var6];
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot3;
-                            var6 = 38;
+                            var6 = 37;
                             var6 = var8[var6];
                             var8 = var7.bind(var1)(var6);
                             var7 = var8.openGuildHighlightNotificationForPush;
@@ -1432,7 +1426,7 @@ case 20: // try_end1 // catch_target0 // catch_target1
                             CatchBlockStart(arg_register=1);
                             var3 = _closure1_slot1;
                             var9 = _closure1_slot3;
-                            var2 = 39;
+                            var2 = 38;
                             var2 = var9[var2];
                             var4 = var3.bind(var1)(var2);
                             var3 = var4.open;
@@ -1480,11 +1474,11 @@ case 28:
                     var7 = var10.bind(var11)(var7);
                     var3['label'] = var7;
                     var10 = _closure1_slot1;
-                    var7 = 43;
+                    var7 = 42;
                     var7 = var9[var7];
                     var7 = var10.bind(var1)(var7);
                     var3['icon'] = var7;
-                    var7 = 44;
+                    var7 = 43;
                     var7 = var9[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.TrashIcon;
@@ -1500,7 +1494,7 @@ case 0:
 case 88: // try_start_0
                                 var4 = _closure1_slot0;
                                 var3 = _closure1_slot3;
-                                var2 = 45;
+                                var2 = 44;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var4 = var4.bind(var2)(var3);
@@ -1521,7 +1515,7 @@ case 107: // catch_target0
                                 CatchBlockStart(arg_register=1);
                                 var3 = _closure1_slot1;
                                 var10 = _closure1_slot3;
-                                var2 = 39;
+                                var2 = 38;
                                 var2 = var10[var2];
                                 var9 = undefined;
                                 var4 = var3.bind(var9)(var2);
@@ -1568,7 +1562,7 @@ case 102:
 case 48:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 46;
+                    var2 = 45;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.showSimpleActionSheet;
@@ -1590,7 +1584,7 @@ case 48:
             var31 = var8[var2];
             var2 = 1;
             var35 = var8[var2];
-            var17 = 47;
+            var17 = 46;
             var2 = var14[var17];
             var7 = var7.bind(var4)(var2);
             var2 = var7.useItemActionButtonPropsV2;
@@ -1650,7 +1644,7 @@ case 110:
 case 113:
             var2 = _closure1_slot1;
             var9 = _closure1_slot3;
-            var1 = 48;
+            var1 = 47;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -1672,7 +1666,7 @@ case 113:
 case 112:
             var2 = _closure1_slot1;
             var9 = _closure1_slot3;
-            var1 = 49;
+            var1 = 48;
             var1 = var9[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.extractTimestamp;
@@ -1680,7 +1674,7 @@ case 112:
             var28 = var2.bind(var3)(var1);
             var3 = _closure1_slot21;
             var2 = _closure1_slot0;
-            var1 = 50;
+            var1 = 49;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableHighlight;
@@ -1739,7 +1733,7 @@ case 116:
             var11 = _closure1_slot20;
             var22 = _closure1_slot0;
             var18 = _closure1_slot3;
-            var9 = 51;
+            var9 = 50;
             var9 = var18[var9];
             var9 = var22.bind(var4)(var9);
             var10 = var9.ForYouItemImage;
@@ -1789,7 +1783,7 @@ case 122:
 case 121:
             var25[2] = var32;
             var18['style'] = var25;
-            var25 = 'text-normal';
+            var25 = 'text-default';
             var18['color'] = var25;
             var33 = 'string';
             var32 = typeof var31;
@@ -1815,7 +1809,7 @@ case 123:
             var22 = var22[var26];
             var22 = var24.bind(var4)(var22);
             var24 = var22.Text;
-            var22 = {'variant': 'text-xs/medium', 'style': null, 'color': 'header-secondary'};
+            var22 = {'variant': 'text-xs/medium', 'style': null, 'color': 'text-default'};
             var27 = var29.rowTime;
             var26 = new Array(3);
             var26[0] = var27;
@@ -1831,7 +1825,7 @@ case 128:
             var22['style'] = var26;
             var27 = _closure1_slot0;
             var29 = _closure1_slot3;
-            var26 = 52;
+            var26 = 51;
             var30 = var29[var26];
             var32 = var27.bind(var4)(var30);
             var31 = var32.getRelativeTimestamp;
@@ -1953,14 +1947,14 @@ case 136:
             _closure2_slot9 = var17;
             var8 = _closure1_slot0;
             var12 = _closure1_slot3;
-            var3 = 54;
+            var3 = 53;
             var7 = var12[var3];
             var7 = var8.bind(var4)(var7);
             var11 = var7.NotificationCenterAckedBeforeId;
             var7 = var11.useSetting;
             var11 = var7.bind(var11)();
             _closure2_slot10 = var11;
-            var7 = 26;
+            var7 = 25;
             var16 = var12[var7];
             var26 = var8.bind(var4)(var16);
             var23 = var26.useStateFromStores;
@@ -1993,7 +1987,7 @@ case 136:
             var7 = var3.ChannelListLayoutSetting;
             var3 = var7.useSetting;
             var7 = var3.bind(var7)();
-            var3 = 55;
+            var3 = 54;
             var3 = var12[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.ChannelListLayoutTypes;
@@ -2070,7 +2064,7 @@ case 156:
 case 157:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 65;
+                    var1 = 64;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -2081,7 +2075,7 @@ case 15:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 64;
+                    var1 = 63;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2095,7 +2089,7 @@ case 155:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 63;
+                    var1 = 62;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2119,7 +2113,7 @@ case 151:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 62;
+                    var1 = 61;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2172,7 +2166,7 @@ case 147:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 61;
+                    var1 = 60;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2188,7 +2182,7 @@ case 145:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var1 = 60;
+                    var1 = 59;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -2207,7 +2201,7 @@ case 143:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var1 = 59;
+                    var1 = 58;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -2220,7 +2214,7 @@ case 142:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 58;
+                    var1 = 57;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2232,7 +2226,7 @@ case 140:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 57;
+                    var1 = 56;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2244,7 +2238,7 @@ case 138:
                     var4 = _closure1_slot20;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 56;
+                    var1 = 55;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -2293,7 +2287,7 @@ case 0:
 case 88:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 66;
+                    var1 = 65;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -2345,7 +2339,7 @@ case 145:
             var8 = _closure1_slot20;
             var16 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var6 = 67;
+            var6 = 66;
             var6 = var22[var6];
             var6 = var16.bind(var4)(var6);
             var7 = var6.FlashList;
@@ -2353,7 +2347,7 @@ case 145:
             var6['ref'] = var20;
             var6['data'] = var15;
             var20 = _closure1_slot20;
-            var15 = 68;
+            var15 = 67;
             var15 = var22[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.ForYouEmptyState;
@@ -2397,7 +2391,7 @@ case 145:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 69;
+    var4 = 68;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

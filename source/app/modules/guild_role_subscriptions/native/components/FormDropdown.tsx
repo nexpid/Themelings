@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var10];
     var10 = var14.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var19 = var12.bind(var1)(var11, var10, var13);
     var20 = var9;
     var10 = copyDataProperties(var20, var19);

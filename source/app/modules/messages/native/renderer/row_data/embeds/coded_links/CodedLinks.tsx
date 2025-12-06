@@ -452,10 +452,10 @@ case 62:
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0002_ip = 4; continue _fun0002;
+            _fun0002_ip = 63; continue _fun0002;
 case 12:
             var1 = new Array(0);
-case 4:
+case 63:
             return var1;
         }
     };

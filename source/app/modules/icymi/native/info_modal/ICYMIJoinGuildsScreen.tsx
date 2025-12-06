@@ -584,7 +584,7 @@ case 0:
             var10 = var21[var10];
             var10 = var14.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'maxFontSizeMultiplier': 1, 'lineClamp': 2, 'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var10 = {'maxFontSizeMultiplier': 1, 'lineClamp': 2, 'variant': 'text-xs/normal', 'color': 'text-default'};
             var15 = var15.description;
             var10['children'] = var15;
             var10 = var12.bind(var4)(var11, var10);
@@ -756,7 +756,7 @@ case 42:
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createICYMIStyles;
-    var4 = function(arg1, arg2) {
+    var4 = function(arg1) {
         var10 = arg1;
         var1 = {};
         var2 = {'backgroundColor': null, 'position': 'relative', 'flex': 1};
@@ -839,7 +839,10 @@ case 42:
         var11 = var11.radii;
         var11 = var11.lg;
         var2['borderRadius'] = var11;
-        var11 = arg2;
+        var11 = var6[var3];
+        var11 = var5.bind(var4)(var11);
+        var11 = var11.colors;
+        var11 = var11.CARD_PRIMARY_BG;
         var2['backgroundColor'] = var11;
         var11 = 'hidden';
         var2['overflow'] = var11;
@@ -887,7 +890,7 @@ case 42:
         var10 = var6[var3];
         var10 = var5.bind(var4)(var10);
         var10 = var10.colors;
-        var10 = var10.BG_MOD_SUBTLE;
+        var10 = var10.BACKGROUND_MOD_SUBTLE;
         var2['backgroundColor'] = var10;
         var1['emptyBanner'] = var2;
         var2 = {};
@@ -936,7 +939,7 @@ case 42:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_MOD_FAINT;
+        var7 = var7.BACKGROUND_MOD_FAINT;
         var2['backgroundColor'] = var7;
         var7 = 'dashed';
         var2['borderStyle'] = var7;
@@ -967,7 +970,7 @@ case 42:
     var7 = 'function ICYMIJoinGuildsScreenTsx1(){const{withTiming,selectedGuilds,SELECTED_SERVER_SIZE_WITH_BORDER,tokens}=this.__closure;return{opacity:withTiming(selectedGuilds.length>0?1:0),height:withTiming(selectedGuilds.length>0?SELECTED_SERVER_SIZE_WITH_BORDER:0),marginTop:withTiming(selectedGuilds.length>0?tokens.spacing.PX_24:0)};}';
     var4['code'] = var7;
     var _closure1_slot17 = var4;
-    var4 = 33;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -976,23 +979,17 @@ case 42:
     var2 = function ICYMIJoinGuildsScreen() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var17 = _closure1_slot0;
+            var2 = _closure1_slot16;
+            var4 = undefined;
+            var12 = var2.bind(var4)();
+            var26 = _closure1_slot1;
             var27 = _closure1_slot2;
             var2 = 25;
-            var2 = var27[var2];
-            var4 = undefined;
-            var3 = var17.bind(var4)(var2);
-            var2 = var3.useConversationBackgroundColors;
-            var2 = var2.bind(var3)();
-            var3 = var2.primaryBackground;
-            var2 = _closure1_slot16;
-            var12 = var2.bind(var4)(var3);
-            var26 = _closure1_slot1;
-            var2 = 26;
             var2 = var27[var2];
             var2 = var26.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var11 = var2.bottom;
+            var17 = _closure1_slot0;
             var3 = 16;
             var2 = var27[var3];
             var8 = var17.bind(var4)(var2);
@@ -1082,7 +1079,7 @@ case 0:
                     var _closure3_slot0 = var4;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 26;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var5.bind(var1)(var3);
@@ -1203,7 +1200,7 @@ case 47:
                         var3 = var4.bind(var5)(var3);
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var7 = 28;
+                        var7 = 27;
                         var3 = var3[var7];
                         var8 = var4.bind(var5)(var3);
                         var4 = var8.gravityJoinGuild;
@@ -1225,7 +1222,7 @@ case 51:
                         var3 = _closure1_slot2;
                         if(var2) { _fun0010_ip = 52; continue _fun0010 }
 case 53:
-                        var8 = 29;
+                        var8 = 28;
                         var8 = var3[var8];
                         var10 = var4.bind(var5)(var8);
                         var9 = var10.open;
@@ -1257,11 +1254,11 @@ case 53:
                         var9 = var4.bind(var5)(var8);
                         var8 = var9.getRecommendedGuilds;
                         var8 = var8.bind(var9)();
-                        var8 = 30;
+                        var8 = 29;
                         var8 = var3[var8];
                         var10 = var4.bind(var5)(var8);
                         var9 = var10.popWithKey;
-                        var8 = 31;
+                        var8 = 30;
                         var8 = var3[var8];
                         var8 = var11.bind(var5)(var8);
                         var8 = var8.ICYMI_INFO_MODAL_KEY;
@@ -1304,12 +1301,12 @@ case 61:
                         var9 = var8.bind(var5)(var7);
                         var7 = var9.getRecommendedGuilds;
                         var7 = var7.bind(var9)();
-                        var7 = 30;
+                        var7 = 29;
                         var7 = var10[var7];
                         var8 = var8.bind(var5)(var7);
                         var7 = var8.popWithKey;
                         var9 = _closure1_slot0;
-                        var6 = 31;
+                        var6 = 30;
                         var6 = var10[var6];
                         var6 = var9.bind(var5)(var6);
                         var6 = var6.ICYMI_INFO_MODAL_KEY;
@@ -1354,7 +1351,7 @@ case 63:
                     var4 = _closure2_slot2;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 31;
+                    var3 = 30;
                     var3 = var6[var3];
                     var5 = undefined;
                     var3 = var7.bind(var5)(var3);
@@ -1363,7 +1360,7 @@ case 63:
                     var3 = _closure2_slot7;
                     var3 = var3.bind(var5)(var4);
                     var3 = _closure1_slot1;
-                    var2 = 28;
+                    var2 = 27;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.fetchPopularGuildsFromCategories;
@@ -1466,7 +1463,7 @@ case 22:
             var16 = var12.guildsScrollContainer;
             var8['style'] = var16;
             var19 = _closure1_slot12;
-            var16 = 32;
+            var16 = 31;
             var16 = var27[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.MasonryFlashList;

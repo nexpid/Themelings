@@ -40,7 +40,7 @@ case 0:
             var2 = var3.useHasWatchVideoOnMobileTasks;
             var1 = var19.config;
             var9 = var2.bind(var3)(var1);
-            var1 = 14;
+            var1 = 19;
             var2 = var26[var1];
             var3 = var6.bind(var4)(var2);
             var2 = var3.hasWatchVideoTasks;
@@ -75,14 +75,14 @@ case 0:
             var1 = {};
             var1['value'] = var5;
             var7 = _closure1_slot10;
-            var5 = 19;
+            var5 = 20;
             var5 = var26[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheet;
             var5 = {};
             var25 = _closure1_slot10;
             var10 = _closure1_slot1;
-            var8 = 20;
+            var8 = 21;
             var8 = var26[var8];
             var10 = var10.bind(var4)(var8);
             var8 = {};
@@ -104,7 +104,7 @@ case 4:
             var12 = _closure1_slot10;
             var10 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var9 = 21;
+            var9 = 22;
             var9 = var24[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -197,7 +197,7 @@ case 0:
             var3 = var7.useNonNullableQuest;
             var7 = var3.bind(var7)(var9);
             var _closure2_slot1 = var7;
-            var3 = 22;
+            var3 = 23;
             var3 = var6[var3];
             var9 = var5.bind(var11)(var3);
             var3 = var9.useTrackQuestContentClickedWithImpression;
@@ -219,7 +219,7 @@ case 9:
             var3 = var5.bind(var6)(var3);
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 23;
+            var3 = 24;
             var3 = var6[var3];
             var5 = var5.bind(var11)(var3);
             var3 = var5.hideActionSheet;
@@ -868,39 +868,39 @@ case 0:
                     var4['questContent'] = var6;
                     var6 = _closure1_slot9;
                     var6 = var6.CONSOLE;
-                    if(!(var3 !== var6)) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
+                    if(!(var3 !== var6)) { _fun0007_ip = 45; continue _fun0007 }
+case 58:
                     var6 = _closure1_slot9;
                     var6 = var6.DESKTOP;
-                    if(!(var3 !== var6)) { _fun0007_ip = 60; continue _fun0007 }
+                    if(!(var3 !== var6)) { _fun0007_ip = 59; continue _fun0007 }
 case 11:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 22;
+                    var6 = 23;
                     var6 = var9[var6];
                     var6 = var8.bind(var1)(var6);
                     var6 = var6.QuestContentCTA;
                     var6 = var6.DESELECT_PLATFORM;
-                    _fun0007_ip = 61; continue _fun0007;
-case 60:
+                    _fun0007_ip = 60; continue _fun0007;
+case 59:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 22;
+                    var8 = 23;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.QuestContentCTA;
                     var6 = var8.SELECT_DESKTOP_PLATFORM;
-case 61:
-                    _fun0007_ip = 62; continue _fun0007;
-case 58:
+case 60:
+                    _fun0007_ip = 61; continue _fun0007;
+case 45:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 22;
+                    var7 = 23;
                     var7 = var9[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.QuestContentCTA;
                     var6 = var7.SELECT_CONSOLE_PLATFORM;
-case 62:
+case 61:
                     var4['questContentCTA'] = var6;
                     var6 = _closure2_slot0;
                     var4['sourceQuestContent'] = var6;
@@ -925,10 +925,10 @@ case 0:
             var10 = var2.handleTaskSelect;
             var11 = var2.showMicrophone;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0008_ip = 63; continue _fun0008 }
-case 64:
-            var11 = false;
+            if(!(var11 === var4)) { _fun0008_ip = 62; continue _fun0008 }
 case 63:
+            var11 = false;
+case 62:
             var17 = var2.sourceQuestContent;
             var _closure2_slot1 = var17;
             var7 = var2.step;
@@ -952,11 +952,11 @@ case 63:
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = _closure2_slot2;
-                    if(var1) { _fun0009_ip = 46; continue _fun0009 }
+                    if(var1) { _fun0009_ip = 64; continue _fun0009 }
 case 65:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 19;
                     var1 = var4[var1];
                     var7 = undefined;
                     var4 = var3.bind(var7)(var1);
@@ -966,7 +966,7 @@ case 65:
                     var5 = _closure1_slot10;
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 24;
+                    var3 = 25;
                     var3 = var8[var3];
                     var3 = var4.bind(var7)(var3);
                     if(var1) { _fun0009_ip = 66; continue _fun0009 }
@@ -989,11 +989,11 @@ case 66:
                     var1 = var5.bind(var7)(var4, var3);
 case 67:
                     _fun0009_ip = 68; continue _fun0009;
-case 46:
+case 64:
                     var5 = _closure1_slot10;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -1020,7 +1020,7 @@ case 69:
             var9 = _closure1_slot10;
             var8 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var5 = 25;
+            var5 = 26;
             var5 = var18[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
@@ -1037,7 +1037,7 @@ case 33:
             var10 = _closure1_slot10;
             var9 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var8 = 26;
+            var8 = 27;
             var8 = var18[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -1126,7 +1126,7 @@ case 10:
 case 44:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 14;
+            var1 = 28;
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.isSponsoredPlayQuest;
@@ -1192,15 +1192,15 @@ case 84:
             var12 = _closure1_slot10;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 27;
+            var10 = 29;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.WarningIcon;
             var10 = {};
-            var13 = 'text-warning';
+            var13 = 'text-feedback-warning';
             if(!var14) { _fun0010_ip = 85; continue _fun0010 }
 case 86:
-            var13 = 'text-danger';
+            var13 = 'text-feedback-critical';
 case 85:
             var10['color'] = var13;
             var11 = var12.bind(var4)(var11, var10);
@@ -1209,7 +1209,7 @@ case 85:
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 28;
+            var11 = 30;
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
@@ -1254,7 +1254,7 @@ case 89:
                 var5 = _closure1_slot10;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 28;
+                var1 = 30;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -1416,7 +1416,7 @@ case 89:
     var2['isInQuestBottomSheet'] = var12;
     var2 = var8.bind(var11)(var2);
     var _closure1_slot15 = var2;
-    var8 = 29;
+    var8 = 31;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

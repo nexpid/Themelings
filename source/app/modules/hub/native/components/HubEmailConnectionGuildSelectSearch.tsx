@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_SECONDARY;
+    var14 = var14.TEXT_SUBTLE;
     var9['color'] = var14;
     var9['textAlign'] = var13;
     var4['emptyStateText'] = var9;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var4['divider'] = var9;
     var9 = {'color': null, 'alignSelf': 'center', 'fontSize': 14, 'marginBottom': 8};

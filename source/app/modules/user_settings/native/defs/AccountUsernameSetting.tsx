@@ -307,7 +307,7 @@ case 18:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-xs/medium', 'color': 'text-warning'};
+            var2 = {'variant': 'text-xs/medium', 'color': 'text-feedback-warning'};
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 17:

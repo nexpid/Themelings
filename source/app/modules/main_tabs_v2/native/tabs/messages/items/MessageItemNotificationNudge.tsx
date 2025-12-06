@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['content'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -237,12 +237,12 @@ case 2:
             var9 = var9.content;
             var8['style'] = var9;
             var9 = {};
-            var16 = 10;
+            var16 = 18;
             var15 = var14[var16];
             var15 = var11.bind(var4)(var15);
             var17 = var15.Text;
             var15 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
-            var18 = 18;
+            var18 = 19;
             var19 = var14[var18];
             var19 = var11.bind(var4)(var19);
             var21 = var19.intl;
@@ -276,7 +276,7 @@ case 2:
             var15 = var6.bind(var4)(var2, var9);
             var9 = new Array(2);
             var9[0] = var15;
-            var15 = 19;
+            var15 = 20;
             var15 = var14[var15];
             var15 = var11.bind(var4)(var15);
             var17 = var15.Button;
@@ -337,7 +337,7 @@ case 2:
             var8['children'] = var9;
             var8 = var6.bind(var4)(var2, var8);
             var7[1] = var8;
-            var8 = 20;
+            var8 = 21;
             var8 = var14[var8];
             var8 = var11.bind(var4)(var8);
             var9 = var8.PressableHighlight;
@@ -347,7 +347,7 @@ case 2:
 case 0:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var3 = var9[var1];
                     var1 = undefined;
                     var5 = var8.bind(var1)(var3);
@@ -393,7 +393,7 @@ case 4:
                 }
             };
             var8['onPress'] = var10;
-            var10 = 22;
+            var10 = 23;
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.XSmallIcon;
@@ -417,25 +417,23 @@ case 4:
     };
     var3['default'] = var4;
     var2 = function getMessageItemNotificationNudgeHeight(arg1) {
-        var3 = arg1;
+        var8 = arg1;
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 10;
-        var7 = var6[var2];
+        var3 = var6[var2];
         var4 = undefined;
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.TextStyleSheet;
-        var7 = var7.text-md/semibold;
-        var7 = var7.lineHeight;
-        var9 = var7 * var3;
+        var9 = var5.bind(var4)(var3);
+        var7 = var9.scaleTextLineHeight;
+        var3 = 'text-md/semibold';
+        var9 = var7.bind(var9)(var3, var8);
         var2 = var6[var2];
-        var2 = var5.bind(var4)(var2);
-        var2 = var2.TextStyleSheet;
-        var2 = var2.text-xs/medium;
-        var2 = var2.lineHeight;
-        var3 = var2 * var3;
+        var7 = var5.bind(var4)(var2);
+        var3 = var7.scaleTextLineHeight;
+        var2 = 'text-xs/medium';
+        var3 = var3.bind(var7)(var2, var8);
         var2 = 2;
-        var8 = var3 * var2;
+        var8 = var2 * var3;
         var7 = _closure1_slot1;
         var1 = 9;
         var2 = var6[var1];

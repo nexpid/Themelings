@@ -47,7 +47,7 @@ case 0:
             var8 = var14[var16];
             var8 = var15.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var11 = var20.headerTitle;
             var8['style'] = var11;
             var23 = 7;
@@ -68,7 +68,7 @@ case 0:
             var9 = var14[var16];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
             var12 = var14[var23];
             var12 = var15.bind(var4)(var12);
             var19 = var12.intl;
@@ -221,7 +221,7 @@ case 4:
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_MOD_SUBTLE;
+    var11 = var11.BACKGROUND_MOD_SUBTLE;
     var9['borderColor'] = var11;
     var4['card'] = var9;
     var11 = 8;

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -224,38 +224,21 @@ case 60:
             var22 = _closure1_slot2;
             var19 = 3;
             var19 = var22[var19];
-            var22 = var21.bind(var5)(var19);
-            var21 = var22.isListProfileEffectsSunsetEnabled;
-            var19 = 'maybeFetchUserProfile';
-            var19 = var21.bind(var22)(var19);
-            var21 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            if(var19) { _fun0001_ip = 61; continue _fun0001 }
-case 62:
-            var19 = 5;
-            var19 = var22[var19];
-            var23 = var21.bind(var5)(var19);
-            var19 = var23.maybeFetchAllProfileEffects;
-            var19 = var19.bind(var23)();
-            _fun0001_ip = 59; continue _fun0001;
-case 61:
-            var19 = 4;
-            var19 = var22[var19];
             var21 = var21.bind(var5)(var19);
             var19 = var21.maybeFetchCollectiblesProduct;
             var10 = var10.skuId;
             var10 = var19.bind(var21)(var10);
 case 59:
-            if(!(var12 != var20)) { _fun0001_ip = 63; continue _fun0001 }
-case 64:
+            if(!(var12 != var20)) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
             var19 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var10 = 6;
+            var10 = 4;
             var10 = var21[var10];
             var19 = var19.bind(var5)(var10);
             var10 = var19.maybeFetchColors;
             var10 = var10.bind(var19)(var20);
-case 63:
+case 61:
             var10 = {};
             var10['type'] = var16;
             var10['withMutualGuilds'] = var15;
@@ -266,11 +249,11 @@ case 63:
             var10['abortSignal'] = var7;
             var9 = var12 == var18;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 65; continue _fun0001 }
-case 66:
+            if(var9) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var9 = 7;
+            var9 = 5;
             var9 = var14[var9];
             var14 = var13.bind(var5)(var9);
             var13 = var14.getVisibleConnectionsRole;
@@ -286,47 +269,47 @@ case 66:
             var9 = var13.bind(var14)(var9);
             var12 = var12 == var9;
             var7 = undefined;
-            if(var12) { _fun0001_ip = 65; continue _fun0001 }
-case 67:
-            var7 = var9.id;
+            if(var12) { _fun0001_ip = 63; continue _fun0001 }
 case 65:
+            var7 = var9.id;
+case 63:
             var10['connectionsRoleId'] = var7;
             _closure2_slot1 = var10;
-            if(var4) { _fun0001_ip = 68; continue _fun0001 }
-case 69:
+            if(var4) { _fun0001_ip = 66; continue _fun0001 }
+case 67:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var4 = 9;
+            var4 = 7;
             var4 = var13[var4];
             var9 = var7.bind(var5)(var4);
             var7 = var9.fetchProfile;
             var12 = _closure1_slot1;
-            var4 = 10;
+            var4 = 8;
             var4 = var13[var4];
             var4 = var12.bind(var5)(var4);
             var7 = var7.bind(var9)(var11, var10, var4);
             var4 = var7;
-            if(!var8) { _fun0001_ip = 70; continue _fun0001 }
-case 71:
+            if(!var8) { _fun0001_ip = 68; continue _fun0001 }
+case 69:
             var4 = var7;
-            if(var6) { _fun0001_ip = 70; continue _fun0001 }
-case 72:
+            if(var6) { _fun0001_ip = 68; continue _fun0001 }
+case 70:
             var7 = var1.Promise;
             var6 = var7.resolve;
             var4 = var6.bind(var7)();
-case 70:
-            return var4;
 case 68:
+            return var4;
+case 66:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 8;
+            var3 = 6;
             var3 = var6[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.wait;
             var2 = function() {
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 9;
+                var2 = 7;
                 var2 = var8[var2];
                 var7 = undefined;
                 var5 = var3.bind(var7)(var2);
@@ -334,7 +317,7 @@ case 68:
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
                 var6 = _closure1_slot1;
-                var1 = 10;
+                var1 = 8;
                 var1 = var8[var1];
                 var1 = var6.bind(var7)(var1);
                 var1 = var4.bind(var5)(var3, var2, var1);

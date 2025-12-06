@@ -346,7 +346,7 @@ case 8:
             var9 = var18[var20];
             var9 = var14.bind(var5)(var9);
             var19 = var9.Text;
-            var9 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var22 = var6.previewHeader;
             var9['style'] = var22;
             var22 = var18[var13];
@@ -379,7 +379,7 @@ case 8:
             var20 = var18[var20];
             var20 = var14.bind(var5)(var20);
             var21 = var20.Text;
-            var20 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var20 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var24 = var6.previewHeader;
             var20['style'] = var24;
             var24 = var18[var13];
@@ -640,8 +640,8 @@ case 0:
             var2 = arg1;
             var3 = var2.guildId;
             var _closure2_slot0 = var3;
-            var10 = var2.previousGuildSubscriptionSlot;
-            var _closure2_slot1 = var10;
+            var11 = var2.previousGuildSubscriptionSlot;
+            var _closure2_slot1 = var11;
             var3 = var2.location;
             var _closure2_slot2 = var3;
             var4 = _closure1_slot20;
@@ -695,7 +695,7 @@ case 0:
             var3 = 12;
             var8 = var7[var3];
             var12 = var4.bind(var5)(var8);
-            var11 = var12.useStateFromStores;
+            var10 = var12.useStateFromStores;
             var8 = _closure1_slot10;
             var9 = new Array(1);
             var9[0] = var8;
@@ -706,11 +706,11 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var16 = var11.bind(var12)(var9, var8);
+            var16 = var10.bind(var12)(var9, var8);
             var _closure2_slot4 = var16;
             var8 = var7[var3];
             var12 = var4.bind(var5)(var8);
-            var11 = var12.useStateFromStores;
+            var10 = var12.useStateFromStores;
             var8 = _closure1_slot9;
             var9 = new Array(1);
             var9[0] = var8;
@@ -719,7 +719,7 @@ case 0:
                 var1 = var1.isModifyingAppliedBoost;
                 return var1;
             };
-            var13 = var11.bind(var12)(var9, var8);
+            var13 = var10.bind(var12)(var9, var8);
             var3 = var7[var3];
             var8 = var4.bind(var5)(var3);
             var7 = var8.useStateFromStores;
@@ -1020,20 +1020,26 @@ case 20:
                 return var1;
             };
             var15 = var1.bind(var5)();
-            var9 = null;
-            if(!(var9 != var14)) { _fun0004_ip = 32; continue _fun0004 }
-case 40:
+            var10 = null;
+            if(!(var10 != var14)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var4 = _closure1_slot17;
             var3 = _closure1_slot7;
             var1 = {};
             var8 = _closure1_slot8;
             var7 = {};
-            var11 = var6.scrollableContent;
-            var7['contentContainerStyle'] = var11;
-            var11 = var6.content;
-            var7['style'] = var11;
-            if(!(var9 == var10)) { _fun0004_ip = 41; continue _fun0004 }
+            var9 = var6.scrollableContent;
+            var7['contentContainerStyle'] = var9;
+            var9 = var6.content;
+            var7['style'] = var9;
+            var12 = var10 == var11;
+            var9 = undefined;
+            if(var12) { _fun0004_ip = 2; continue _fun0004 }
 case 42:
+            var9 = var11.premiumGuildSubscription;
+case 2:
+            if(!(var10 == var9)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var11 = _closure1_slot17;
             var10 = _closure1_slot22;
             var9 = {};
@@ -1042,8 +1048,8 @@ case 42:
             var9['isModifyingSubscription'] = var13;
             var9['onPremiumGuildSubscribe'] = var15;
             var9 = var11.bind(var5)(var10, var9);
-            _fun0004_ip = 43; continue _fun0004;
-case 41:
+            _fun0004_ip = 45; continue _fun0004;
+case 43:
             var12 = _closure1_slot17;
             var11 = _closure1_slot23;
             var10 = {};
@@ -1052,20 +1058,20 @@ case 41:
             var10['previousGuildSubscriptionSlot'] = var14;
             var10['isModifyingSubscription'] = var13;
             var9 = var12.bind(var5)(var11, var10);
-case 43:
+case 45:
             var7['children'] = var9;
             var7 = var4.bind(var5)(var8, var7);
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0004_ip = 44; continue _fun0004;
-case 32:
+            _fun0004_ip = 46; continue _fun0004;
+case 40:
             var4 = _closure1_slot17;
             var3 = _closure1_slot5;
             var2 = {};
             var6 = var6.loading;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 44:
+case 46:
             return var1;
         }
     };

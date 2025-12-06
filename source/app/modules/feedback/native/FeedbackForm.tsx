@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['doNotShowAgainContainer'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -308,7 +308,7 @@ case 10:
             var5 = var19[var5];
             var5 = var9.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var5 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var21 = var17.reasonsHeader;
             var5['style'] = var21;
             var5['children'] = var20;
@@ -345,7 +345,7 @@ case 12:
             var5 = var18[var5];
             var5 = var9.bind(var4)(var5);
             var9 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-secondary'};
+            var5 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'text-default'};
             var18 = var17.ratingsLabel;
             var5['style'] = var18;
             var5['children'] = var14;

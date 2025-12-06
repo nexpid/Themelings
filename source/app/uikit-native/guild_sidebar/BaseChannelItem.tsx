@@ -176,7 +176,7 @@ case 20:
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_MOD_FAINT;
+    var15 = var15.BACKGROUND_MOD_FAINT;
     var12['backgroundColor'] = var15;
     var7['rowSelected'] = var12;
     var12 = {};

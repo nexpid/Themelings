@@ -526,7 +526,7 @@ case 28:
             var18 = var32[var18];
             var18 = var30.bind(var4)(var18);
             var30 = var18.Text;
-            var18 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'text-normal', 'lineClamp': 1};
+            var18 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'text-default', 'lineClamp': 1};
             var32 = var19.nameText;
             var18['style'] = var32;
             var18['children'] = var17;
@@ -548,7 +548,7 @@ case 30:
             var32 = var40[var32];
             var32 = var39.bind(var4)(var32);
             var33 = var32.Text;
-            var32 = {'variant': 'text-xs/medium', 'color': 'text-normal'};
+            var32 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var34 = 16;
             var37 = var40[var34];
             var37 = var39.bind(var4)(var37);
@@ -589,7 +589,7 @@ case 33:
             var31 = var31[var34];
             var31 = var32.bind(var4)(var31);
             var32 = var31.Text;
-            var31 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var31 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             if(var36) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
             var36 = var28 == var35;
@@ -802,7 +802,7 @@ case 56:
             var10 = var18[var10];
             var10 = var13.bind(var4)(var10);
             var13 = var10.Text;
-            var10 = {'variant': 'heading-lg/bold', 'color': 'text-normal'};
+            var10 = {'variant': 'heading-lg/bold', 'color': 'text-default'};
             var10['children'] = var17;
             var12 = var14.bind(var4)(var13, var10);
 case 55:
@@ -826,7 +826,7 @@ case 59:
             var15 = var23[var16];
             var15 = var22.bind(var4)(var15);
             var17 = var15.Text;
-            var15 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var15 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var21 = function onTextLayout(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:

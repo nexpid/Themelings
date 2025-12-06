@@ -387,10 +387,10 @@ case 0:
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0007_ip = 6; continue _fun0007 }
-case 49:
+                if(!var3) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                 var1 = var2;
-case 6:
+case 49:
                 return var1;
             }
         };
@@ -445,13 +445,13 @@ case 0:
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var1 = var1 == var2;
-                if(var1) { _fun0008_ip = 50; continue _fun0008 }
+                if(var1) { _fun0008_ip = 49; continue _fun0008 }
 case 38:
                 var2 = var2.userIds;
                 var3 = var2.length;
                 var2 = 0;
                 var1 = var2 === var3;
-case 50:
+case 49:
                 return var1;
             }
         };

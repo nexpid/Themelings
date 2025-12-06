@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var16[var9];
         var9 = var15.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
         var13 = var17.subtitle;
         var9['style'] = var13;
         var13 = var16[var12];

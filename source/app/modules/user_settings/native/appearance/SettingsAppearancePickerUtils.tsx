@@ -376,8 +376,8 @@ case 45:
             if(!var7) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
             var7 = var6.length;
-            if(!(!(var4 < var7))) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(!(!(var4 < var7))) { _fun0006_ip = 9; continue _fun0006 }
+case 49:
             var7 = var6.length;
             var7 = var7 - var3;
             var9 = var6[var7];
@@ -387,12 +387,12 @@ case 50:
             var7['hex'] = var9;
             var7['stop'] = var2;
             var7 = var8.bind(var1)(var7);
-            _fun0006_ip = 51; continue _fun0006;
-case 49:
+            _fun0006_ip = 50; continue _fun0006;
+case 9:
             var8 = var1.push;
             var7 = var6[var4];
             var7 = var8.bind(var1)(var7);
-case 51:
+case 50:
             var4 = var4 + 1;
             if(var4 < var5) { _fun0006_ip = 48; continue _fun0006 }
 case 47:
@@ -419,18 +419,18 @@ case 0:
             var2 = null;
             var7 = var2 != var6;
             var5 = 50;
-            if(!var7) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
-            var5 = var6;
+            if(!var7) { _fun0007_ip = 51; continue _fun0007 }
 case 52:
+            var5 = var6;
+case 51:
             var1['midpointPercentage'] = var5;
             var5 = var4.angle;
             var6 = var2 != var5;
             var2 = 0;
-            if(!var6) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
-            var2 = var5;
+            if(!var6) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
+            var2 = var5;
+case 53:
             var1['angle'] = var2;
             var5 = _closure1_slot7;
             var6 = var4.colors;
@@ -441,16 +441,15 @@ case 54:
                 var8 = _closure1_slot6;
                 var5 = _closure2_slot0;
                 var7 = var5.theme;
-                var5 = _closure1_slot0;
+                var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var4 = 6;
                 var4 = var6[var4];
                 var6 = undefined;
                 var4 = var5.bind(var6)(var4);
-                var5 = var4.ColorDetails;
+                var5 = var4.unsafe_rawColors;
                 var4 = var2.token;
-                var4 = var5[var4];
-                var11 = var4.hex;
+                var11 = var5[var4];
                 var10 = _closure2_slot1;
                 var9 = _closure2_slot2;
                 var13 = undefined;
@@ -480,29 +479,29 @@ case 0:
             var3 = var1.LIGHT;
             var1 = 'light';
             var7 = var1;
-            if(!(var3 !== var5)) { _fun0008_ip = 56; continue _fun0008 }
+            if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
 case 33:
             var3 = _closure1_slot4;
             var3 = var3.DARK;
             var6 = 'darker';
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+            if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
             var3 = _closure1_slot4;
             var3 = var3.DARKER;
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 56; continue _fun0008 }
-case 52:
+            if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
+case 51:
             var3 = _closure1_slot4;
             var3 = var3.MIDNIGHT;
             var7 = 'midnight';
-            if(!(var3 !== var5)) { _fun0008_ip = 56; continue _fun0008 }
-case 58:
+            if(!(var3 !== var5)) { _fun0008_ip = 55; continue _fun0008 }
+case 57:
             var7 = var1;
-case 56:
+case 55:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var3 = var9[var1];
             var5 = undefined;
             var3 = var8.bind(var5)(var3);
@@ -580,10 +579,10 @@ case 0:
             var2 = null;
             var6 = var2 != var5;
             var2 = 0;
-            if(!var6) { _fun0009_ip = 49; continue _fun0009 }
+            if(!var6) { _fun0009_ip = 58; continue _fun0009 }
 case 59:
             var2 = var5;
-case 49:
+case 58:
             var1['angle'] = var2;
             var5 = _closure1_slot7;
             var4 = var4.customThemeSettings;
@@ -608,8 +607,8 @@ case 0:
                     var4 = 1;
                     var5 = var2 > var4;
                     var2 = 0;
-                    if(!var5) { _fun0010_ip = 60; continue _fun0010 }
-case 52:
+                    if(!var5) { _fun0010_ip = 13; continue _fun0010 }
+case 60:
                     var3 = _closure2_slot0;
                     var3 = var3.customThemeSettings;
                     var3 = var3.colors;
@@ -619,7 +618,7 @@ case 52:
                     var3 = 100;
                     var3 = var3 / var5;
                     var2 = var4 * var3;
-case 60:
+case 13:
                     var1['stop'] = var2;
                     return var1;
                 }
@@ -634,7 +633,7 @@ case 60:
         }
     };
     var _closure1_slot10 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -722,7 +721,7 @@ case 64:
 case 0:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var5[var3];
             var8 = undefined;
             var3 = var4.bind(var8)(var3);
@@ -740,12 +739,12 @@ case 71:
 case 30:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 9;
+            var3 = 8;
             var3 = var9[var3];
             var5 = var4.bind(var8)(var3);
             var4 = var5.useToken;
             var7 = _closure1_slot1;
-            var3 = 7;
+            var3 = 6;
             var3 = var9[var3];
             var3 = var7.bind(var8)(var3);
             var3 = var3.colors;
@@ -760,7 +759,7 @@ case 30:
                 var1 = {'theme': 'system', 'name': null, 'midpointPercentage': 50, 'angle': 0};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 10;
+                var3 = 9;
                 var4 = var8[var3];
                 var5 = undefined;
                 var4 = var7.bind(var5)(var4);

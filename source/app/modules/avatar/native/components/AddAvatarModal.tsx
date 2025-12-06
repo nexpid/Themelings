@@ -251,7 +251,7 @@ case 20:
             var22 = var24[var22];
             var22 = var21.bind(var4)(var22);
             var25 = var22.Text;
-            var22 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'header-secondary'};
+            var22 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'text-default'};
             var27 = var17.subtitle;
             var22['style'] = var27;
             var27 = var24[var16];

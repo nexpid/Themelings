@@ -938,7 +938,7 @@ case 33:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_STRONG;
+    var14 = var14.BACKGROUND_MOD_STRONG;
     var10['backgroundColor'] = var14;
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
@@ -1074,7 +1074,7 @@ case 33:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['backgroundColor'] = var13;
     var5['separator'] = var10;
     var10 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};

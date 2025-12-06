@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_STRONG;
+    var12 = var12.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -229,7 +229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -690,7 +690,7 @@ case 16:
             var10 = var18[var11];
             var10 = var15.bind(var4)(var10);
             var20 = var10.Text;
-            var10 = {'variant': 'heading-lg/medium', 'color': 'text-normal'};
+            var10 = {'variant': 'heading-lg/medium', 'color': 'text-default'};
             var21 = {};
             var19 = 'center';
             var21['textAlign'] = var19;

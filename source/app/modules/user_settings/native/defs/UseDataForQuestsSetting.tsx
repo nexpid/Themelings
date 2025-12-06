@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
     var9 = var2.MobileSetting;
-    var2 = 5;
+    var2 = 3;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
@@ -40,38 +40,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['title'] = var10;
-    var10 = function useDataForQuestsSettingTitle() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var1 = var2[var1];
-            var6 = undefined;
-            var7 = var3.bind(var6)(var1);
-            var5 = var7.useIsDataUsage3PToggleEnabled;
-            var1 = 'UseDataForQuestsSetting';
-            var1 = var5.bind(var7)(var1);
-            var7 = 4;
-            var2 = var2[var7];
-            var2 = var3.bind(var6)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.t;
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var4.VkS7Yd;
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var1 = var4.sJYh5t;
-case 4:
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        }
+    var10 = function useTitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.sJYh5t;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
     var2['useTitle'] = var10;
     var9 = var9.DATA_AND_PRIVACY;
@@ -118,7 +101,7 @@ case 4:
     };
     var2['useIsDisabled'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

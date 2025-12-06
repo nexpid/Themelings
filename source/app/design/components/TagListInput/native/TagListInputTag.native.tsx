@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var9['marginHorizontal'] = var13;
     var13 = var6[var10];
@@ -215,7 +215,7 @@ case 12:
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
             var6 = {'lineClamp': 1, 'variant': 'text-sm/medium'};
-            var10 = 'text-normal';
+            var10 = 'text-default';
             if(!var11) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var10 = 'always-white';

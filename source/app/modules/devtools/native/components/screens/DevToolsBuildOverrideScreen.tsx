@@ -283,7 +283,7 @@ case 7:
             var27 = var25.bind(var4)(var27);
             var28 = var27.TrashIcon;
             var27 = {};
-            var29 = 'text-danger';
+            var29 = 'text-feedback-critical';
             var27['color'] = var29;
             var27 = var23.bind(var4)(var28, var27);
             var20['icon'] = var27;

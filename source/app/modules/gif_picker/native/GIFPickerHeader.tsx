@@ -154,7 +154,7 @@ case 3:
             var13 = var16[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'text-sm/semibold', 'color': 'text-normal', 'maxFontSizeMultiplier': 2};
+            var13 = {'variant': 'text-sm/semibold', 'color': 'text-default', 'maxFontSizeMultiplier': 2};
             var16 = _closure1_slot4;
             var16 = var16.TRENDING_GIFS;
             if(!(var17 !== var16)) { _fun0001_ip = 4; continue _fun0001 }

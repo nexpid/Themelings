@@ -469,7 +469,7 @@ case 22:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_SUBTLE;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var13;
     var4['gradientDimOverlay'] = var9;
     var9 = {'width': 72, 'height': 72, 'borderRadius': null, 'borderWidth': 1, 'borderColor': null, 'position': 'absolute'};

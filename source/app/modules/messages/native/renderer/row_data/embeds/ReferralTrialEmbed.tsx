@@ -91,7 +91,7 @@ case 4:
             var10 = var9[var6];
             var10 = var8.bind(var7)(var10);
             var10 = var10.colors;
-            var10 = var10.TEXT_NORMAL;
+            var10 = var10.TEXT_DEFAULT;
             var1['bodyTextColor'] = var10;
             var10 = var9[var6];
             var10 = var8.bind(var7)(var10);

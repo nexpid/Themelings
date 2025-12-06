@@ -1164,11 +1164,11 @@ case 0:
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0014_ip = 42; continue _fun0014 }
-case 44:
+                    if(var5) { _fun0014_ip = 44; continue _fun0014 }
+case 43:
                     var4 = _closure2_slot2;
                     var1 = var4.guild_id;
-case 42:
+case 44:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }

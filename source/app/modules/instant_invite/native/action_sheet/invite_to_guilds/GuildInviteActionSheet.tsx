@@ -165,7 +165,7 @@ case 13:
                     var5 = undefined;
                     var3 = var4.bind(var5)(var3);
                     var4 = var3.Text;
-                    var3 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+                    var3 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
                     var8 = _closure2_slot2;
                     var8 = var8.sectionTitle;
                     var3['style'] = var8;
@@ -398,7 +398,7 @@ case 10:
         var12 = var21[var12];
         var12 = var16.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+        var12 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
         var17 = var21[var15];
         var17 = var16.bind(var4)(var17);
         var18 = var17.intl;

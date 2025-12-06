@@ -82,14 +82,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_PRIMARY;
+    var14 = var14.TEXT_STRONG;
     var9['color'] = var14;
     var4['successBody'] = var9;
     var9 = {'height': 2, 'width': 48, 'margin': 32};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.DIVIDER_STRONG;
+    var14 = var14.BORDER_STRONG;
     var9['backgroundColor'] = var14;
     var4['divider'] = var9;
     var9 = {'alignSelf': 'stretch', 'margin': 16, 'marginTop': 0};
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_PRIMARY;
+    var14 = var14.TEXT_STRONG;
     var9['color'] = var14;
     var4['ctaDescription'] = var9;
     var9 = {};
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_DANGER;
+    var10 = var10.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var10;
     var4['errorText'] = var9;
     var4 = var7.bind(var8)(var4);

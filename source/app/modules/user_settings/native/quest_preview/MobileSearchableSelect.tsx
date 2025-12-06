@@ -433,7 +433,7 @@ case 29:
                     var2 = undefined;
                     var6 = var7.bind(var2)(var6);
                     var7 = var6.Text;
-                    var6 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+                    var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                     var10 = _closure2_slot5;
                     var10 = var10.dropdownItemText;
                     var6['style'] = var10;

@@ -250,7 +250,7 @@ case 0:
             var4 = var11[var6];
             var4 = var13.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BG_MOD_FAINT;
+            var4 = var4.BACKGROUND_MOD_FAINT;
             var2['backgroundColor'] = var4;
             var1['rowActive'] = var2;
             var2 = {};

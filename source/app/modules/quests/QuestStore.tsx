@@ -947,7 +947,7 @@ case 79:
     var8 = var8 instanceof Object ? var8 : var9;
     var _closure1_slot42 = var8;
     var2 = var2.bind(var1)();
-    var2 = 15;
+    var2 = 16;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -1414,7 +1414,7 @@ case 97:
     var9 = var2.bind(var1)(var8);
     var2 = 'QuestStore';
     var9['displayName'] = var2;
-    var2 = 16;
+    var2 = 17;
     var2 = var6[var2];
     var14 = var7.bind(var1)(var2);
     var2 = {};
@@ -1738,7 +1738,7 @@ case 0:
             var1 = var1.bind(var4)(var5, var6);
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var4 = var4[var1];
             var1 = undefined;
             var11 = var6.bind(var1)(var4);
@@ -2275,27 +2275,27 @@ case 0:
             var1 = arg1;
             var5 = var1.user_status;
             var7 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 13;
-            var4 = var2[var1];
+            var2 = var8[var1];
             var1 = undefined;
-            var8 = var7.bind(var1)(var4);
-            var6 = var8.getQuestLogger;
-            var4 = {};
+            var6 = var7.bind(var1)(var2);
+            var4 = var6.getQuestLogger;
+            var2 = {};
             var9 = _closure1_slot9;
             var9 = var9.QUESTS_STORE;
-            var4['location'] = var9;
-            var6 = var6.bind(var8)(var4);
+            var2['location'] = var9;
+            var6 = var4.bind(var6)(var2);
             var9 = var6.log;
             var11 = var5.quest_id;
             var4 = global;
-            var8 = var4.HermesInternal;
-            var10 = var8.concat;
-            var8 = 'Received user status update for ';
-            var8 = var10.bind(var8)(var11);
-            var8 = var9.bind(var6)(var8, var5);
-            var10 = 11;
-            var2 = var2[var10];
+            var2 = var4.HermesInternal;
+            var10 = var2.concat;
+            var2 = 'Received user status update for ';
+            var2 = var10.bind(var2)(var11);
+            var2 = var9.bind(var6)(var2, var5);
+            var2 = 14;
+            var2 = var8[var2];
             var7 = var7.bind(var1)(var2);
             var2 = var7.questUserStatusFromServer;
             var2 = var2.bind(var7)(var5);
@@ -2309,11 +2309,12 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0025_ip = 139; continue _fun0025 }
-case 140:
+            if(!(var7 != var9)) { _fun0025_ip = 53; continue _fun0025 }
+case 139:
             var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var10];
+            var10 = _closure1_slot2;
+            var7 = 11;
+            var7 = var10[var7];
             var8 = var8.bind(var1)(var7);
             var7 = var8.isQuestExpired;
             var9 = var7.bind(var8)(var9);
@@ -2321,8 +2322,8 @@ case 140:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0025_ip = 139; continue _fun0025 }
-case 141:
+            if(!(var7 !== var9)) { _fun0025_ip = 53; continue _fun0025 }
+case 140:
             var10 = var4.Map;
             var13 = _closure1_slot32;
             var8 = var10.prototype;
@@ -2334,7 +2335,7 @@ case 141:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot32 = var5;
-case 139:
+case 53:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;
@@ -2342,15 +2343,15 @@ case 139:
             var7 = var5.length;
             var5 = 0;
             var5 = var5 === var7;
-            if(!var5) { _fun0025_ip = 142; continue _fun0025 }
-case 143:
+            if(!var5) { _fun0025_ip = 141; continue _fun0025 }
+case 142:
             var9 = _closure1_slot37;
             var8 = var9.has;
             var7 = var2.questId;
             var5 = var8.bind(var9)(var7);
-case 142:
-            if(!var5) { _fun0025_ip = 144; continue _fun0025 }
-case 145:
+case 141:
+            if(!var5) { _fun0025_ip = 143; continue _fun0025 }
+case 144:
             var5 = var6.log;
             var8 = var2.questId;
             var4 = var4.HermesInternal;
@@ -2362,7 +2363,7 @@ case 145:
             var3 = var4.delete;
             var2 = var2.questId;
             var2 = var3.bind(var4)(var2);
-case 144:
+case 143:
             return var1;
         }
     };
@@ -2414,8 +2415,8 @@ case 9:
             var5 = var6.bind(var7)(var5);
 case 136:
             var5 = var2.enrolledAt;
-            if(!(var4 == var5)) { _fun0026_ip = 146; continue _fun0026 }
-case 147:
+            if(!(var4 == var5)) { _fun0026_ip = 145; continue _fun0026 }
+case 146:
             var5 = global;
             var7 = var5.Map;
             var9 = _closure1_slot30;
@@ -2434,13 +2435,13 @@ case 147:
             var6 = var7.resetQuest;
             var5 = var2.questId;
             var5 = var6.bind(var7)(var5);
-case 146:
+case 145:
             var7 = _closure1_slot15;
             var6 = var7.get;
             var5 = var2.questId;
             var6 = var6.bind(var7)(var5);
             if(!(var4 != var6)) { _fun0026_ip = 31; continue _fun0026 }
-case 148:
+case 147:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 11;
@@ -2453,7 +2454,7 @@ case 148:
             var4 = var2.questId;
             var4 = var5.bind(var7)(var4);
             if(!(var4 !== var6)) { _fun0026_ip = 31; continue _fun0026 }
-case 149:
+case 148:
             var4 = global;
             var7 = var4.Map;
             var9 = _closure1_slot32;
@@ -2478,10 +2479,10 @@ case 0:
             var3 = var1.questId;
             var4 = _closure1_slot29;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0027_ip = 150; continue _fun0027 }
-case 151:
-            var1 = var3;
+            if(!(var4 !== var3)) { _fun0027_ip = 149; continue _fun0027 }
 case 150:
+            var1 = var3;
+case 149:
             _closure1_slot29 = var1;
             var1 = undefined;
             return var1;
@@ -2504,13 +2505,13 @@ case 0:
             var2 = var2 instanceof Object ? var2 : var4;
             _closure1_slot30 = var2;
             var2 = null;
-            if(!(var2 != var5)) { _fun0028_ip = 152; continue _fun0028 }
-case 153:
+            if(!(var2 != var5)) { _fun0028_ip = 151; continue _fun0028 }
+case 152:
             var4 = _closure1_slot30;
             var2 = var4.set;
             var2 = var2.bind(var4)(var3, var5);
             _fun0028_ip = 84; continue _fun0028;
-case 152:
+case 151:
             var2 = _closure1_slot30;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
@@ -2559,12 +2560,12 @@ case 0:
             var4 = _closure1_slot37;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(!var2) { _fun0030_ip = 154; continue _fun0030 }
+            if(!var2) { _fun0030_ip = 153; continue _fun0030 }
 case 96:
             var4 = _closure1_slot37;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
-case 154:
+case 153:
             var2 = _closure1_slot8;
             var1 = var2.getState;
             var2 = var1.bind(var2)();
@@ -2635,7 +2636,7 @@ case 9:
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot43 = var2;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

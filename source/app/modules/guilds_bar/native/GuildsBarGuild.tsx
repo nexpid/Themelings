@@ -521,14 +521,14 @@ case 0:
                     var2 = _closure2_slot7;
                     var1 = var2.get;
                     var4 = var1.bind(var2)();
-                    if(!var4) { _fun0006_ip = 23; continue _fun0006 }
+                    if(!var4) { _fun0006_ip = 13; continue _fun0006 }
 case 26:
                     var2 = _closure2_slot8;
                     var1 = var2.get;
                     var2 = var1.bind(var2)();
                     var1 = _closure2_slot0;
                     var4 = var2 === var1;
-case 23:
+case 13:
                     if(!var4) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
                     var1 = _closure2_slot6;
@@ -546,11 +546,11 @@ case 29:
                     var1 = var2.bind(var5)(var1);
                     var1 = {};
                     var2 = {};
-                    if(var4) { _fun0006_ip = 31; continue _fun0006 }
-case 9:
+                    if(var4) { _fun0006_ip = 10; continue _fun0006 }
+case 31:
                     var5 = var3.targetOriginY;
                     _fun0006_ip = 32; continue _fun0006;
-case 31:
+case 10:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var7 = 24;

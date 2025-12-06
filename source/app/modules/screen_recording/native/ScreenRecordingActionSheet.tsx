@@ -280,7 +280,7 @@ case 20:
             var22 = var17[var22];
             var22 = var13.bind(var5)(var22);
             var24 = var22.XSmallIcon;
-            var22 = {'size': 'md', 'color': 'header-secondary'};
+            var22 = {'size': 'md', 'color': 'text-default'};
             var22 = var11.bind(var5)(var24, var22);
             var9['children'] = var22;
             var19 = var11.bind(var5)(var19, var9);

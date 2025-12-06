@@ -55,7 +55,7 @@ case 2:
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-md/semibold', 'color': 'header-secondary'};
+            var1 = {'variant': 'text-md/semibold', 'color': 'text-default'};
             var1['style'] = var5;
             var5 = ['Uses: '];
             var5[1] = var6;

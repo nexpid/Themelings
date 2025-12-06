@@ -1880,7 +1880,7 @@ case 117:
             var20 = var25[var20];
             var20 = var22.bind(var7)(var20);
             var21 = var20.Text;
-            var20 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var20 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var26 = var18.premiumHeaderLabel;
             var20['style'] = var26;
             var26 = 15;

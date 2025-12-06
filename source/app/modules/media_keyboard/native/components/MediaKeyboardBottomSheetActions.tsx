@@ -273,7 +273,7 @@ case 23:
             var3 = var3.bind(var8)(var2);
             var8 = var3;
             if(!var5) { _fun0002_ip = 25; continue _fun0002 }
-case 13:
+case 26:
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
             var2 = 9;
@@ -368,8 +368,8 @@ case 25:
             var1['pointerEvents'] = var9;
             var1['onLayout'] = var8;
             var7 = null;
-            if(!var5) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var5) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var9 = _closure1_slot6;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -386,7 +386,7 @@ case 27:
             var13 = 'pointerEvents';
             var5[var13] = var14;
             var7 = var9.bind(var4)(var8, var5);
-case 26:
+case 27:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot6;
@@ -423,18 +423,18 @@ case 0:
                     var1 = {};
                     var11 = _closure2_slot1;
                     var10 = 'sm';
-                    if(!var11) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                    if(!var11) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                     var10 = 'md';
-case 28:
+case 29:
                     var1['size'] = var10;
                     var12 = var9.disabled;
-                    var10 = 'text-normal';
+                    var10 = 'text-default';
                     var11 = var10;
-                    if(!var12) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                    if(!var12) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var11 = 'text-muted';
-case 30:
+case 31:
                     var1['color'] = var11;
                     var7 = var8.bind(var4)(var7, var1);
                     var1 = new Array(2);
@@ -448,10 +448,10 @@ case 30:
                     var7 = var6.Text;
                     var6 = {'lineClamp': 1, 'variant': 'text-xs/semibold'};
                     var11 = var9.disabled;
-                    if(!var11) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
+                    if(!var11) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
                     var10 = 'text-muted';
-case 32:
+case 33:
                     var6['color'] = var10;
                     var9 = var9.text;
                     var6['children'] = var9;

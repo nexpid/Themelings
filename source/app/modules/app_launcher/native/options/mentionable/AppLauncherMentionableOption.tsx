@@ -166,7 +166,7 @@ case 2:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_SUBTLE;
+    var10 = var10.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['iconWrapper'] = var9;
     var4 = var7.bind(var8)(var4);

@@ -232,7 +232,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
     var2['headerBorder'] = var10;
     var10 = {'paddingHorizontal': 16, 'paddingVertical': 8};

@@ -387,28 +387,29 @@ case 37:
                 var7 = var3.Map;
                 var8 = var7.prototype;
                 var8 = Object.create(var8, {constructor: {value: var7}});
-                var15 = var8;
-                var7 = new var15[var7](var14);
+                var16 = var8;
+                var7 = new var16[var7](var15);
                 var7 = var7 instanceof Object ? var7 : var8;
                 var4['_dwelledItemIdMap'] = var7;
                 var7 = var3.Map;
                 var8 = var7.prototype;
                 var8 = Object.create(var8, {constructor: {value: var7}});
-                var15 = var8;
-                var7 = new var15[var7](var14);
+                var16 = var8;
+                var7 = new var16[var7](var15);
                 var7 = var7 instanceof Object ? var7 : var8;
                 var4['_impressionItemIdMap'] = var7;
                 var7 = var3.Set;
                 var8 = var7.prototype;
                 var8 = Object.create(var8, {constructor: {value: var7}});
-                var15 = var8;
-                var7 = new var15[var7](var14);
+                var16 = var8;
+                var7 = new var16[var7](var15);
                 var7 = var7 instanceof Object ? var7 : var8;
                 var4['_impressionItemTypes'] = var7;
                 var4['_reloadCount'] = var5;
                 var4['_feedFetchCount'] = var5;
                 var4['_dwelledItemsChangedCount'] = var5;
                 var4['_interactionCount'] = var5;
+                var4['_actionCount'] = var5;
                 var4['_latestDwellStartTimeMs'] = var5;
                 var8 = var3.setTimeout;
                 var7 = function() {
@@ -420,27 +421,21 @@ case 37:
                 var3 = 300000;
                 var3 = var8.bind(var1)(var7, var3);
                 var4['_timeout'] = var3;
-                var3 = 11;
-                var3 = var11[var3];
+                var9 = 11;
+                var3 = var11[var9];
                 var3 = var10.bind(var1)(var3);
                 var8 = var3.ICYMIAnalytics;
                 var7 = var8.trackFeedSessionStarted;
                 var3 = {};
-                var12 = var4._sessionId;
-                var3['icymiSessionId'] = var12;
-                var12 = var4._startTimestamp;
-                var3['sessionStartTimeMs'] = var12;
-                var9 = _closure1_slot14;
-                var3['previousIcymiSessionCount'] = var9;
-                var9 = 12;
+                var13 = var4._sessionId;
+                var3['icymiSessionId'] = var13;
+                var13 = var4._startTimestamp;
+                var3['sessionStartTimeMs'] = var13;
+                var12 = _closure1_slot14;
+                var3['previousIcymiSessionCount'] = var12;
                 var9 = var11[var9];
-                var11 = var10.bind(var1)(var9);
-                var10 = var11.getDestinationICYMIExperiment;
-                var9 = {};
-                var12 = 'ICYMISessionStore.constructor';
-                var9['location'] = var12;
-                var9 = var10.bind(var11)(var9);
-                var9 = var9.uxVariation;
+                var9 = var10.bind(var1)(var9);
+                var9 = var9.DEFAULT_UX_VARIATION;
                 var3['uxVariation'] = var9;
                 var3 = var7.bind(var8)(var3);
                 var3 = var6.length;
@@ -477,7 +472,7 @@ case 46:
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(24);
+        var2 = new Array(27);
         var2[0] = var1;
         var1 = {};
         var6 = 'startTimestamp';
@@ -726,9 +721,9 @@ case 0:
                 var8 = var3.bind(var1)(var2);
                 var3 = var8.bind(var1)();
                 var2 = var3.done;
-                var7 = null;
-                var6 = 1;
-                var5 = 11;
+                var7 = 11;
+                var6 = null;
+                var5 = 1;
                 if(var2) { _fun0010_ip = 55; continue _fun0010 }
 case 56:
                 var2 = var3.value;
@@ -736,7 +731,7 @@ case 56:
                 var11 = var2.itemId;
                 var14 = var12.bind(var10)(var11);
                 var13 = var14;
-                if(!(var7 == var13)) { _fun0010_ip = 57; continue _fun0010 }
+                if(!(var6 == var13)) { _fun0010_ip = 57; continue _fun0010 }
 case 3:
                 var11 = var10._constructImpressionFromInput;
                 var13 = var11.bind(var10)(var2);
@@ -752,17 +747,17 @@ case 57:
                 var16 = var17.get;
                 var2 = var2.itemId;
                 var16 = var16.bind(var17)(var2);
-                var17 = var7 != var16;
+                var17 = var6 != var16;
                 var2 = 0;
                 if(!var17) { _fun0010_ip = 58; continue _fun0010 }
 case 59:
                 var2 = var16;
 case 58:
-                var2 = var2 + var6;
+                var2 = var2 + var5;
                 var2 = var12.bind(var15)(var11, var2);
                 var11 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var2 = var2[var5];
+                var2 = var2[var7];
                 var2 = var11.bind(var1)(var2);
                 var12 = var2.ICYMIAnalytics;
                 var11 = var12.trackFeedItemDwell1s;
@@ -783,7 +778,7 @@ case 58:
                 var16 = var17.get;
                 var15 = var13.itemId;
                 var16 = var16.bind(var17)(var15);
-                var17 = var7 != var16;
+                var17 = var6 != var16;
                 var15 = 0;
                 if(!var17) { _fun0010_ip = 60; continue _fun0010 }
 case 61:
@@ -802,24 +797,32 @@ case 60:
                 var16 = var17.get;
                 var15 = var13.itemId;
                 var16 = var16.bind(var17)(var15);
-                if(!(var7 == var16)) { _fun0010_ip = 62; continue _fun0010 }
+                if(!(var6 == var16)) { _fun0010_ip = 62; continue _fun0010 }
 case 63:
                 var16 = var13.itemCardHeight;
 case 62:
-                var17 = var7 != var16;
+                var17 = var6 != var16;
                 var15 = null;
                 if(!var17) { _fun0010_ip = 64; continue _fun0010 }
 case 65:
                 var15 = var16;
 case 64:
                 var2['itemCardHeight'] = var15;
-                var14 = var7 != var14;
+                var14 = var6 != var14;
                 var2['isDwelling'] = var14;
                 var14 = var13.interactionActionTypes;
                 var2['interactionActionTypes'] = var14;
                 var14 = var13.interactionCount;
                 var2['interactionCount'] = var14;
                 var14 = var13.uxVariation;
+                if(!(var6 == var14)) { _fun0010_ip = 66; continue _fun0010 }
+case 67:
+                var16 = _closure1_slot0;
+                var15 = _closure1_slot1;
+                var15 = var15[var7];
+                var15 = var16.bind(var1)(var15);
+                var14 = var15.DEFAULT_UX_VARIATION;
+case 66:
                 var2['uxVariation'] = var14;
                 var13 = var13.sessionImpressionIndex;
                 var2['sessionImpressionIndex'] = var13;
@@ -846,9 +849,9 @@ case 0:
                 var1 = var8.getImpression;
                 var3 = var1.bind(var8)(var2);
                 var6 = _closure1_slot0;
-                var4 = _closure1_slot1;
-                var1 = 11;
-                var4 = var4[var1];
+                var1 = _closure1_slot1;
+                var12 = 11;
+                var4 = var1[var12];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var4);
                 var7 = var4.ICYMIAnalytics;
@@ -861,31 +864,25 @@ case 0:
                 var2 = null;
                 var11 = var2 == var3;
                 var9 = undefined;
-                if(var11) { _fun0011_ip = 66; continue _fun0011 }
+                if(var11) { _fun0011_ip = 68; continue _fun0011 }
 case 13:
                 var9 = var3.impressionId;
-case 66:
+case 68:
                 var4['impressionId'] = var9;
                 var11 = var2 == var3;
                 var9 = undefined;
-                if(var11) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
-                var9 = var3.uxVariation;
-case 67:
-                if(!(var2 == var9)) { _fun0011_ip = 69; continue _fun0011 }
+                if(var11) { _fun0011_ip = 69; continue _fun0011 }
 case 70:
-                var11 = _closure1_slot0;
-                var12 = _closure1_slot1;
-                var10 = 12;
-                var10 = var12[var10];
-                var12 = var11.bind(var1)(var10);
-                var11 = var12.getDestinationICYMIExperiment;
-                var10 = {};
-                var13 = 'ICYMISessionStore.trackItemInteraction';
-                var10['location'] = var13;
-                var10 = var11.bind(var12)(var10);
-                var9 = var10.uxVariation;
+                var9 = var3.uxVariation;
 case 69:
+                if(!(var2 == var9)) { _fun0011_ip = 71; continue _fun0011 }
+case 72:
+                var11 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var10 = var10[var12];
+                var10 = var11.bind(var1)(var10);
+                var9 = var10.DEFAULT_UX_VARIATION;
+case 71:
                 var4['uxVariation'] = var9;
                 var9 = var8._interactionCount;
                 var9 = var9 + 1;
@@ -894,20 +891,192 @@ case 69:
                 var8 = var8._sessionId;
                 var4['icymiSessionId'] = var8;
                 var4 = var6.bind(var7)(var4);
-                if(!(var2 != var3)) { _fun0011_ip = 71; continue _fun0011 }
-case 72:
+                if(!(var2 != var3)) { _fun0011_ip = 73; continue _fun0011 }
+case 74:
                 var4 = var3.interactionActionTypes;
                 var2 = var4.push;
                 var2 = var2.bind(var4)(var5);
                 var2 = var3.interactionCount;
                 var2 = var2 + 1;
                 var3['interactionCount'] = var2;
-case 71:
+case 73:
                 return var1;
             }
         };
         var1['value'] = var6;
         var2[15] = var1;
+        var1 = {};
+        var6 = 'trackFeedItemActioned';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                var5 = arg1;
+                var9 = this;
+                var2 = var9.getImpression;
+                var1 = var5.itemId;
+                var8 = var2.bind(var9)(var1);
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var12 = 11;
+                var2 = var1[var12];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.ICYMIAnalytics;
+                var3 = var4.trackFeedItemActioned;
+                var2 = {};
+                var6 = var9._sessionId;
+                var2['icymiSessionId'] = var6;
+                var6 = null;
+                var11 = var6 == var8;
+                var7 = undefined;
+                if(var11) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
+                var7 = var8.uxVariation;
+case 75:
+                if(!(var6 == var7)) { _fun0012_ip = 77; continue _fun0012 }
+case 78:
+                var11 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var10 = var10[var12];
+                var10 = var11.bind(var1)(var10);
+                var7 = var10.DEFAULT_UX_VARIATION;
+case 77:
+                var2['uxVariation'] = var7;
+                var7 = var9._actionCount;
+                var7 = var7 + 1;
+                var9['_actionCount'] = var7;
+                var2['sessionActionIndex'] = var7;
+                var7 = var5.itemId;
+                var2['itemId'] = var7;
+                var7 = var5.itemType;
+                var2['itemType'] = var7;
+                var9 = var6 == var8;
+                var7 = undefined;
+                if(var9) { _fun0012_ip = 20; continue _fun0012 }
+case 79:
+                var7 = var8.impressionId;
+case 20:
+                var8 = var6 != var7;
+                var6 = null;
+                if(!var8) { _fun0012_ip = 80; continue _fun0012 }
+case 81:
+                var6 = var7;
+case 80:
+                var2['impressionId'] = var6;
+                var5 = var5.actionParameters;
+                var2['actionParameters'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[16] = var1;
+        var1 = {};
+        var6 = 'trackFeedFilterActioned';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                var6 = arg1;
+                var9 = this;
+                var1 = var6.itemId;
+                var5 = null;
+                var1 = var5 != var1;
+                var7 = null;
+                if(!var1) { _fun0013_ip = 82; continue _fun0013 }
+case 35:
+                var2 = var9.getImpression;
+                var1 = var6.itemId;
+                var7 = var2.bind(var9)(var1);
+case 82:
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var12 = 11;
+                var2 = var1[var12];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.ICYMIAnalytics;
+                var3 = var4.trackFeedFilterActioned;
+                var2 = {};
+                var8 = var9._sessionId;
+                var2['icymiSessionId'] = var8;
+                var11 = var5 == var7;
+                var8 = undefined;
+                if(var11) { _fun0013_ip = 83; continue _fun0013 }
+case 84:
+                var8 = var7.uxVariation;
+case 83:
+                if(!(var5 == var8)) { _fun0013_ip = 85; continue _fun0013 }
+case 86:
+                var11 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var10 = var10[var12];
+                var10 = var11.bind(var1)(var10);
+                var8 = var10.DEFAULT_UX_VARIATION;
+case 85:
+                var2['uxVariation'] = var8;
+                var8 = var9._actionCount;
+                var8 = var8 + 1;
+                var9['_actionCount'] = var8;
+                var2['sessionActionIndex'] = var8;
+                var8 = var6.filterParameters;
+                var2['filterParameters'] = var8;
+                var8 = var6.itemId;
+                var2['itemId'] = var8;
+                var6 = var6.itemType;
+                var2['itemType'] = var6;
+                var8 = var5 == var7;
+                var6 = undefined;
+                if(var8) { _fun0013_ip = 26; continue _fun0013 }
+case 87:
+                var6 = var7.impressionId;
+case 26:
+                var7 = var5 != var6;
+                var5 = null;
+                if(!var7) { _fun0013_ip = 88; continue _fun0013 }
+case 89:
+                var5 = var6;
+case 88:
+                var2['impressionId'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[17] = var1;
+        var1 = {};
+        var6 = 'trackFeedPageActioned';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var6 = this;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 11;
+            var2 = var8[var5];
+            var1 = undefined;
+            var2 = var7.bind(var1)(var2);
+            var4 = var2.ICYMIAnalytics;
+            var3 = var4.trackFeedPageActioned;
+            var2 = {};
+            var9 = var6._sessionId;
+            var2['icymiSessionId'] = var9;
+            var5 = var8[var5];
+            var5 = var7.bind(var1)(var5);
+            var5 = var5.DEFAULT_UX_VARIATION;
+            var2['uxVariation'] = var5;
+            var5 = var6._actionCount;
+            var5 = var5 + 1;
+            var6['_actionCount'] = var5;
+            var2['sessionActionIndex'] = var5;
+            var10 = arg1;
+            var11 = var2;
+            var5 = copyDataProperties(var11, var10);
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[18] = var1;
         var1 = {};
         var6 = 'incrementReloadCount';
         var1['key'] = var6;
@@ -922,7 +1091,7 @@ case 71:
             return var1;
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[19] = var1;
         var1 = {};
         var6 = 'incrementFeedFetchCount';
         var1['key'] = var6;
@@ -935,7 +1104,7 @@ case 71:
             return var1;
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[20] = var1;
         var1 = {};
         var6 = 'endAllImpressions';
         var1['key'] = var6;
@@ -961,7 +1130,7 @@ case 71:
             return var1;
         };
         var1['value'] = var6;
-        var2[18] = var1;
+        var2[21] = var1;
         var1 = {};
         var6 = 'endSession';
         var1['key'] = var6;
@@ -976,60 +1145,54 @@ case 71:
             var1['_endTimestamp'] = var2;
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var4 = 11;
-            var4 = var10[var4];
+            var8 = 11;
+            var4 = var10[var8];
             var5 = undefined;
             var4 = var9.bind(var5)(var4);
             var7 = var4.ICYMIAnalytics;
             var6 = var7.trackFeedSessionCompleted;
             var4 = {};
-            var8 = var1._sessionId;
-            var4['icymiSessionId'] = var8;
+            var11 = var1._sessionId;
+            var4['icymiSessionId'] = var11;
+            var12 = var1._endTimestamp;
+            var11 = var1._startTimestamp;
+            var11 = var12 - var11;
+            var4['sessionDurationMs'] = var11;
+            var11 = var1._startTimestamp;
+            var4['sessionStartTimeMs'] = var11;
             var11 = var1._endTimestamp;
-            var8 = var1._startTimestamp;
-            var8 = var11 - var8;
-            var4['sessionDurationMs'] = var8;
-            var8 = var1._startTimestamp;
-            var4['sessionStartTimeMs'] = var8;
-            var8 = var1._endTimestamp;
-            var4['sessionEndTimeMs'] = var8;
-            var8 = var1._impressionCount;
-            var4['impressionCount'] = var8;
-            var8 = var1._impressionItemIdMap;
-            var8 = var8.size;
-            var4['uniqueImpressionCount'] = var8;
-            var12 = var3.Array;
-            var11 = var12.from;
-            var8 = var1._impressionItemTypes;
-            var8 = var11.bind(var12)(var8);
-            var4['impressionItemTypes'] = var8;
-            var8 = var1._reloadCount;
-            var4['feedReloadCount'] = var8;
-            var8 = var1._dwelledItemsChangedCount;
-            var4['feedDwelledItemsChangedCount'] = var8;
-            var8 = var1._feedFetchCount;
-            var4['feedFetchCount'] = var8;
-            var8 = var1._latestDwellStartTimeMs;
-            var4['latestDwellStartTimeMs'] = var8;
-            var8 = _closure1_slot14;
-            var4['previousIcyMiSessionCount'] = var8;
-            var8 = 12;
+            var4['sessionEndTimeMs'] = var11;
+            var11 = var1._impressionCount;
+            var4['impressionCount'] = var11;
+            var11 = var1._impressionItemIdMap;
+            var11 = var11.size;
+            var4['uniqueImpressionCount'] = var11;
+            var13 = var3.Array;
+            var12 = var13.from;
+            var11 = var1._impressionItemTypes;
+            var11 = var12.bind(var13)(var11);
+            var4['impressionItemTypes'] = var11;
+            var11 = var1._reloadCount;
+            var4['feedReloadCount'] = var11;
+            var11 = var1._dwelledItemsChangedCount;
+            var4['feedDwelledItemsChangedCount'] = var11;
+            var11 = var1._feedFetchCount;
+            var4['feedFetchCount'] = var11;
+            var11 = var1._latestDwellStartTimeMs;
+            var4['latestDwellStartTimeMs'] = var11;
+            var11 = _closure1_slot14;
+            var4['previousIcyMiSessionCount'] = var11;
+            var11 = var1._interactionCount;
+            var4['interactionCount'] = var11;
+            var11 = var1._dwellCount;
+            var4['dwelledCount'] = var11;
+            var11 = var1._dwelledItemIdMap;
+            var11 = var11.size;
+            var4['uniqueDwelledCount'] = var11;
             var8 = var10[var8];
-            var10 = var9.bind(var5)(var8);
-            var9 = var10.getDestinationICYMIExperiment;
-            var8 = {};
-            var11 = 'ICYMISessionStore.endSession';
-            var8['location'] = var11;
-            var8 = var9.bind(var10)(var8);
-            var8 = var8.uxVariation;
+            var8 = var9.bind(var5)(var8);
+            var8 = var8.DEFAULT_UX_VARIATION;
             var4['uxVariation'] = var8;
-            var8 = var1._interactionCount;
-            var4['interactionCount'] = var8;
-            var8 = var1._dwellCount;
-            var4['dwelledCount'] = var8;
-            var8 = var1._dwelledItemIdMap;
-            var8 = var8.size;
-            var4['uniqueDwelledCount'] = var8;
             var4 = var6.bind(var7)(var4);
             var4 = var3.clearTimeout;
             var3 = var1._timeout;
@@ -1045,7 +1208,7 @@ case 71:
             return var1;
         };
         var1['value'] = var6;
-        var2[19] = var1;
+        var2[22] = var1;
         var1 = {};
         var6 = '_resetTimeout';
         var1['key'] = var6;
@@ -1070,12 +1233,12 @@ case 71:
             return var1;
         };
         var1['value'] = var6;
-        var2[20] = var1;
+        var2[23] = var1;
         var1 = {};
         var6 = '_createImpression';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var2 = arg1;
                 var3 = this;
@@ -1094,10 +1257,10 @@ case 0:
                 var8 = null;
                 var9 = var8 != var4;
                 var8 = 0;
-                if(!var9) { _fun0012_ip = 73; continue _fun0012 }
-case 74:
+                if(!var9) { _fun0014_ip = 90; continue _fun0014 }
+case 91:
                 var8 = var4;
-case 73:
+case 90:
                 var4 = 1;
                 var4 = var8 + var4;
                 var4 = var6.bind(var7)(var5, var4);
@@ -1111,66 +1274,63 @@ case 73:
             }
         };
         var1['value'] = var6;
-        var2[21] = var1;
+        var2[24] = var1;
         var1 = {};
         var6 = '_constructImpressionFromInput';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var2 = arg1;
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot1;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
                 var1 = 10;
-                var1 = var7[var1];
-                var3 = undefined;
-                var5 = var6.bind(var3)(var1);
-                var1 = var5.v4;
-                var5 = var1.bind(var5)();
-                var1 = 12;
-                var1 = var7[var1];
-                var6 = var6.bind(var3)(var1);
-                var3 = var6.getDestinationICYMIExperiment;
-                var1 = {};
-                var7 = 'ICYMISessionStore._constructImpressionFromInput';
-                var1['location'] = var7;
-                var1 = var3.bind(var6)(var1);
-                var3 = var1.uxVariation;
+                var1 = var5[var1];
+                var5 = undefined;
+                var4 = var4.bind(var5)(var1);
+                var1 = var4.v4;
+                var4 = var1.bind(var4)();
                 var1 = {};
                 var6 = var2.itemId;
                 var1['itemId'] = var6;
                 var6 = var2.itemType;
                 var1['itemType'] = var6;
-                var1['impressionId'] = var5;
-                var5 = global;
-                var6 = var5.Date;
-                var5 = var6.now;
-                var5 = var5.bind(var6)();
-                var1['impressionStartTimestamp'] = var5;
-                var5 = false;
-                var1['impressionComplete'] = var5;
-                var5 = var2.triggerType;
-                var1['triggerType'] = var5;
-                var5 = var2.itemFeedIndex;
-                var1['itemFeedIndex'] = var5;
-                var5 = var2.itemScore;
-                var1['itemScore'] = var5;
-                var5 = var2.isInitiallyVisible;
-                var1['isInitiallyVisible'] = var5;
-                var5 = var2.itemChannelType;
-                var1['itemChannelType'] = var5;
-                var5 = _closure1_slot15;
-                var4 = var5.get;
+                var1['impressionId'] = var4;
+                var4 = global;
+                var6 = var4.Date;
+                var4 = var6.now;
+                var4 = var4.bind(var6)();
+                var1['impressionStartTimestamp'] = var4;
+                var4 = false;
+                var1['impressionComplete'] = var4;
+                var4 = var2.triggerType;
+                var1['triggerType'] = var4;
+                var4 = var2.itemFeedIndex;
+                var1['itemFeedIndex'] = var4;
+                var4 = var2.itemScore;
+                var1['itemScore'] = var4;
+                var4 = var2.isInitiallyVisible;
+                var1['isInitiallyVisible'] = var4;
+                var4 = var2.itemChannelType;
+                var1['itemChannelType'] = var4;
+                var6 = _closure1_slot15;
+                var4 = var6.get;
                 var2 = var2.itemId;
-                var5 = var4.bind(var5)(var2);
+                var6 = var4.bind(var6)(var2);
                 var2 = null;
-                var6 = var2 != var5;
+                var7 = var2 != var6;
                 var4 = null;
-                if(!var6) { _fun0013_ip = 75; continue _fun0013 }
-case 76:
-                var4 = var5;
-case 75:
+                if(!var7) { _fun0015_ip = 92; continue _fun0015 }
+case 93:
+                var4 = var6;
+case 92:
                 var1['itemCardHeight'] = var4;
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 11;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.DEFAULT_UX_VARIATION;
                 var1['uxVariation'] = var3;
                 var3 = new Array(0);
                 var1['interactionActionTypes'] = var3;
@@ -1181,12 +1341,12 @@ case 75:
             }
         };
         var1['value'] = var6;
-        var2[22] = var1;
+        var2[25] = var1;
         var1 = {};
         var6 = '_endImpression';
         var1['key'] = var6;
         var5 = function value(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var3 = this;
                 var2 = arg1;
@@ -1203,11 +1363,11 @@ case 0:
                 var6 = var2.bind(var4)(var1);
                 var1 = var3._activeItems;
                 var2 = var1[var6];
-                var8 = null;
-                var4 = var8 != var2;
+                var10 = null;
+                var4 = var10 != var2;
                 var1 = null;
-                if(!var4) { _fun0014_ip = 77; continue _fun0014 }
-case 78:
+                if(!var4) { _fun0016_ip = 94; continue _fun0016 }
+case 95:
                 var4 = global;
                 var5 = var4.Date;
                 var4 = var5.now;
@@ -1215,68 +1375,76 @@ case 78:
                 var2['impressionEndTimestamp'] = var4;
                 var4 = true;
                 var2['impressionComplete'] = var4;
-                var7 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var4 = 11;
-                var5 = var5[var4];
-                var4 = undefined;
-                var4 = var7.bind(var4)(var5);
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var12 = 11;
+                var4 = var4[var12];
+                var11 = undefined;
+                var4 = var5.bind(var11)(var4);
                 var7 = var4.ICYMIAnalytics;
                 var5 = var7.trackFeedItemDwelled;
                 var4 = {};
-                var10 = var3._sessionId;
-                var4['icymiSessionId'] = var10;
-                var10 = var2.impressionId;
-                var4['impressionId'] = var10;
-                var11 = var2.impressionEndTimestamp;
-                var10 = var2.impressionStartTimestamp;
-                var10 = var11 - var10;
-                var4['dwellTimeMs'] = var10;
-                var10 = var2.itemId;
-                var4['itemId'] = var10;
-                var10 = var2.itemType;
-                var4['itemType'] = var10;
-                var10 = var2.impressionStartTimestamp;
-                var4['dwellStartTimeMs'] = var10;
-                var10 = var2.impressionEndTimestamp;
-                var4['dwellEndTimeMs'] = var10;
-                var10 = var2.triggerType;
-                var4['triggerType'] = var10;
-                var12 = var3._dwelledItemIdMap;
-                var11 = var12.get;
-                var10 = var2.itemId;
-                var11 = var11.bind(var12)(var10);
-                var12 = var8 != var11;
-                var10 = 0;
-                if(!var12) { _fun0014_ip = 79; continue _fun0014 }
-case 80:
-                var10 = var11;
-case 79:
-                var4['itemOccurenceCountInSession'] = var10;
-                var10 = var2.itemFeedIndex;
-                var4['itemFeedIndex'] = var10;
-                var10 = var2.itemScore;
-                var4['itemScore'] = var10;
-                var10 = var2.isInitiallyVisible;
-                var4['isInitiallyVisible'] = var10;
-                var10 = var2.itemChannelType;
-                var4['itemChannelType'] = var10;
-                var11 = _closure1_slot15;
-                var10 = var11.get;
-                var9 = var2.itemId;
-                var9 = var10.bind(var11)(var9);
-                if(!(var8 == var9)) { _fun0014_ip = 81; continue _fun0014 }
-case 82:
-                var9 = var2.itemCardHeight;
-case 81:
-                var10 = var8 != var9;
+                var8 = var3._sessionId;
+                var4['icymiSessionId'] = var8;
+                var8 = var2.impressionId;
+                var4['impressionId'] = var8;
+                var13 = var2.impressionEndTimestamp;
+                var8 = var2.impressionStartTimestamp;
+                var8 = var13 - var8;
+                var4['dwellTimeMs'] = var8;
+                var8 = var2.itemId;
+                var4['itemId'] = var8;
+                var8 = var2.itemType;
+                var4['itemType'] = var8;
+                var8 = var2.impressionStartTimestamp;
+                var4['dwellStartTimeMs'] = var8;
+                var8 = var2.impressionEndTimestamp;
+                var4['dwellEndTimeMs'] = var8;
+                var8 = var2.triggerType;
+                var4['triggerType'] = var8;
+                var14 = var3._dwelledItemIdMap;
+                var13 = var14.get;
+                var8 = var2.itemId;
+                var13 = var13.bind(var14)(var8);
+                var14 = var10 != var13;
+                var8 = 0;
+                if(!var14) { _fun0016_ip = 96; continue _fun0016 }
+case 97:
+                var8 = var13;
+case 96:
+                var4['itemOccurenceCountInSession'] = var8;
+                var8 = var2.itemFeedIndex;
+                var4['itemFeedIndex'] = var8;
+                var8 = var2.itemScore;
+                var4['itemScore'] = var8;
+                var8 = var2.isInitiallyVisible;
+                var4['isInitiallyVisible'] = var8;
+                var8 = var2.itemChannelType;
+                var4['itemChannelType'] = var8;
+                var14 = _closure1_slot15;
+                var13 = var14.get;
+                var8 = var2.itemId;
+                var13 = var13.bind(var14)(var8);
+                if(!(var10 == var13)) { _fun0016_ip = 98; continue _fun0016 }
+case 99:
+                var13 = var2.itemCardHeight;
+case 98:
+                var14 = var10 != var13;
                 var8 = null;
-                if(!var10) { _fun0014_ip = 83; continue _fun0014 }
-case 84:
-                var8 = var9;
-case 83:
+                if(!var14) { _fun0016_ip = 100; continue _fun0016 }
+case 101:
+                var8 = var13;
+case 100:
                 var4['itemCardHeight'] = var8;
                 var8 = var2.uxVariation;
+                if(!(var10 == var8)) { _fun0016_ip = 102; continue _fun0016 }
+case 103:
+                var10 = _closure1_slot0;
+                var9 = _closure1_slot1;
+                var9 = var9[var12];
+                var9 = var10.bind(var11)(var9);
+                var8 = var9.DEFAULT_UX_VARIATION;
+case 102:
                 var4['uxVariation'] = var8;
                 var8 = var2.interactionActionTypes;
                 var4['interactionActionTypes'] = var8;
@@ -1290,25 +1458,25 @@ case 83:
                 var3 = 1;
                 var3 = var4.bind(var5)(var6, var3);
                 var1 = var2;
-case 77:
+case 94:
                 return var1;
             }
         };
         var1['value'] = var5;
-        var2[23] = var1;
+        var2[26] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var2 = var2.bind(var1)();
     var _closure1_slot16 = var2;
-    var5 = 13;
+    var5 = 12;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
     var10 = var5.Store;
     var5 = function(arg1) {
         var4 = function ICYMISessionStore() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
@@ -1321,14 +1489,14 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot17;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0015_ip = 85; continue _fun0015 }
-case 86:
+                if(var1) { _fun0017_ip = 104; continue _fun0017 }
+case 105:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0015_ip = 87; continue _fun0015;
-case 85:
+                _fun0017_ip = 83; continue _fun0017;
+case 104:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -1337,7 +1505,7 @@ case 85:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 87:
+case 83:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -1389,7 +1557,7 @@ case 87:
         return var1;
     };
     var10 = var5.bind(var1)(var10);
-    var5 = 14;
+    var5 = 13;
     var5 = var8[var5];
     var14 = var9.bind(var1)(var5);
     var5 = {};
@@ -1402,21 +1570,21 @@ case 87:
     };
     var5['ICYMI_TAB_CLOSED'] = var6;
     var6 = function handleIcymiTabFocussed(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.focused;
-            if(var2) { _fun0016_ip = 88; continue _fun0016 }
-case 89:
+            if(var2) { _fun0018_ip = 106; continue _fun0018 }
+case 107:
             var3 = _closure1_slot21;
             var2 = undefined;
             var2 = var3.bind(var2)();
             return var2;
-case 88:
+case 106:
             var3 = _closure1_slot12;
             var2 = null;
-            if(!(var2 == var3)) { _fun0016_ip = 9; continue _fun0016 }
-case 90:
+            if(!(var2 == var3)) { _fun0018_ip = 9; continue _fun0018 }
+case 108:
             var3 = _closure1_slot22;
             var2 = undefined;
             var2 = var3.bind(var2)();
@@ -1425,11 +1593,11 @@ case 9:
             var2 = _closure1_slot13;
             var3 = var2.length;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0016_ip = 91; continue _fun0016 }
-case 92:
+            if(!(!(var3 > var2))) { _fun0018_ip = 109; continue _fun0018 }
+case 110:
             var2 = false;
             return var2;
-case 91:
+case 109:
             var4 = _closure1_slot13;
             var3 = var4.map;
             var2 = function(arg1) {
@@ -1455,19 +1623,19 @@ case 91:
     };
     var5['ICYMI_SET_FOCUSED_TAB'] = var6;
     var6 = function handleItemsDwellStart(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot12;
             var3 = null;
-            if(!(var3 != var4)) { _fun0017_ip = 93; continue _fun0017 }
+            if(!(var3 != var4)) { _fun0019_ip = 111; continue _fun0019 }
 case 41:
             var5 = _closure1_slot12;
             var4 = var5.startItemsDwell;
             var3 = var1.items;
             var3 = var4.bind(var5)(var3);
-            _fun0017_ip = 94; continue _fun0017;
-case 93:
+            _fun0019_ip = 112; continue _fun0019;
+case 111:
             var5 = _closure1_slot16;
             var7 = var1.items;
             var1 = var5.prototype;
@@ -1477,19 +1645,19 @@ case 93:
             var1 = new var8[var5](var7, var6, var5);
             var1 = var1 instanceof Object ? var1 : var3;
             _closure1_slot12 = var1;
-case 94:
+case 112:
             var1 = true;
             return var1;
         }
     };
     var5['ICYMI_ITEMS_DWELL_START'] = var6;
     var6 = function handleItemsLongImpression(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot12;
             var3 = null;
-            if(!(var3 == var4)) { _fun0018_ip = 95; continue _fun0018 }
+            if(!(var3 == var4)) { _fun0020_ip = 113; continue _fun0020 }
 case 41:
             var6 = _closure1_slot16;
             var8 = var1.items;
@@ -1500,7 +1668,7 @@ case 41:
             var3 = new var9[var6](var8, var7, var6);
             var3 = var3 instanceof Object ? var3 : var4;
             _closure1_slot12 = var3;
-case 95:
+case 113:
             var3 = _closure1_slot12;
             var2 = var3.trackItemsLongImpression;
             var1 = var1.items;
@@ -1511,29 +1679,29 @@ case 95:
     };
     var5['ICYMI_ITEMS_LONG_IMPRESSION'] = var6;
     var6 = function handleReloadICYMI() {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var3 = _closure1_slot12;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0019_ip = 96; continue _fun0019 }
+            if(!var1) { _fun0021_ip = 114; continue _fun0021 }
 case 41:
             var3 = _closure1_slot12;
             var2 = var3.incrementReloadCount;
             var2 = var2.bind(var3)();
             var1 = true;
-case 96:
+case 114:
             return var1;
         }
     };
     var5['RELOAD_ICYMI'] = var6;
     var6 = function handleLoadICYMIDehydrated() {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var3 = _closure1_slot12;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0020_ip = 97; continue _fun0020 }
+            if(!var1) { _fun0022_ip = 115; continue _fun0022 }
 case 41:
             var4 = _closure1_slot12;
             var3 = var4.incrementFeedFetchCount;
@@ -1542,57 +1710,57 @@ case 41:
             var2 = undefined;
             var2 = var3.bind(var2)();
             var1 = true;
-case 97:
+case 115:
             return var1;
         }
     };
     var5['LOAD_ICYMI_DEHYDRATED'] = var6;
     var6 = function handleAppStateUpdate(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.state;
             var1 = 'active';
             var1 = var1 !== var2;
-            if(!var1) { _fun0021_ip = 40; continue _fun0021 }
-case 98:
+            if(!var1) { _fun0023_ip = 40; continue _fun0023 }
+case 116:
             var3 = _closure1_slot12;
             var2 = null;
             var1 = var2 != var3;
 case 40:
-            if(!var1) { _fun0021_ip = 99; continue _fun0021 }
-case 100:
+            if(!var1) { _fun0023_ip = 117; continue _fun0023 }
+case 118:
             var3 = _closure1_slot20;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 99:
+case 117:
             return var1;
         }
     };
     var5['APP_STATE_UPDATE'] = var6;
     var6 = function handleChannelSelected(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var3 = arg1;
             var4 = _closure1_slot12;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0022_ip = 38; continue _fun0022 }
-case 98:
+            if(!var1) { _fun0024_ip = 38; continue _fun0024 }
+case 116:
             var4 = var3.isInitialSetup;
             var1 = !var4;
 case 38:
-            if(!var1) { _fun0022_ip = 101; continue _fun0022 }
-case 102:
+            if(!var1) { _fun0024_ip = 82; continue _fun0024 }
+case 119:
             var3 = var3.preserveDrawerState;
             var1 = !var3;
-case 101:
-            if(!var1) { _fun0022_ip = 103; continue _fun0022 }
+case 82:
+            if(!var1) { _fun0024_ip = 120; continue _fun0024 }
 case 56:
             var3 = _closure1_slot21;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 103:
+case 120:
             return var1;
         }
     };
@@ -1609,12 +1777,12 @@ case 103:
     };
     var5['ICYMI_SET_CARD_HEIGHT'] = var6;
     var6 = function handleItemInteracted(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot12;
             var3 = null;
-            if(!(var3 == var4)) { _fun0023_ip = 104; continue _fun0023 }
+            if(!(var3 == var4)) { _fun0025_ip = 121; continue _fun0025 }
 case 41:
             var6 = _closure1_slot16;
             var9 = _closure1_slot13;
@@ -1625,7 +1793,7 @@ case 41:
             var3 = new var10[var6](var9, var8, var7);
             var3 = var3 instanceof Object ? var3 : var4;
             _closure1_slot12 = var3;
-case 104:
+case 121:
             var5 = _closure1_slot12;
             var4 = var5.trackItemInteraction;
             var3 = var1.itemId;
@@ -1637,13 +1805,91 @@ case 104:
         }
     };
     var5['ICYMI_ITEM_INTERACTED'] = var6;
+    var6 = function handleFeedItemActioned(arg1) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+case 0:
+            var3 = _closure1_slot12;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0026_ip = 9; continue _fun0026 }
+case 122:
+            var5 = _closure1_slot16;
+            var7 = _closure1_slot13;
+            var2 = var5.prototype;
+            var3 = Object.create(var2, {constructor: {value: var5}});
+            var6 = 'focus';
+            var8 = var3;
+            var2 = new var8[var5](var7, var6, var5);
+            var2 = var2 instanceof Object ? var2 : var3;
+            _closure1_slot12 = var2;
+case 9:
+            var3 = _closure1_slot12;
+            var2 = var3.trackFeedItemActioned;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
+        }
+    };
+    var5['ICYMI_FEED_ITEM_ACTIONED'] = var6;
+    var6 = function handleFeedFilterActioned(arg1) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+            var3 = _closure1_slot12;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0027_ip = 9; continue _fun0027 }
+case 122:
+            var5 = _closure1_slot16;
+            var7 = _closure1_slot13;
+            var2 = var5.prototype;
+            var3 = Object.create(var2, {constructor: {value: var5}});
+            var6 = 'focus';
+            var8 = var3;
+            var2 = new var8[var5](var7, var6, var5);
+            var2 = var2 instanceof Object ? var2 : var3;
+            _closure1_slot12 = var2;
+case 9:
+            var3 = _closure1_slot12;
+            var2 = var3.trackFeedFilterActioned;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
+        }
+    };
+    var5['ICYMI_FEED_FILTER_ACTIONED'] = var6;
+    var6 = function handleFeedPageActioned(arg1) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+case 0:
+            var3 = _closure1_slot12;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0028_ip = 9; continue _fun0028 }
+case 122:
+            var5 = _closure1_slot16;
+            var7 = _closure1_slot13;
+            var2 = var5.prototype;
+            var3 = Object.create(var2, {constructor: {value: var5}});
+            var6 = 'focus';
+            var8 = var3;
+            var2 = new var8[var5](var7, var6, var5);
+            var2 = var2 instanceof Object ? var2 : var3;
+            _closure1_slot12 = var2;
+case 9:
+            var3 = _closure1_slot12;
+            var2 = var3.trackFeedPageActioned;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
+        }
+    };
+    var5['ICYMI_FEED_PAGE_ACTIONED'] = var6;
     var6 = var10.prototype;
     var6 = Object.create(var6, {constructor: {value: var10}});
     var15 = var6;
     var13 = var5;
     var5 = new var15[var10](var14, var13, var12);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 15;
+    var6 = 14;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1651,19 +1897,19 @@ case 104:
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
     var4 = function resetGlobalState() {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var3 = _closure1_slot12;
             var2 = null;
-            if(!(var2 != var3)) { _fun0024_ip = 105; continue _fun0024 }
-case 106:
+            if(!(var2 != var3)) { _fun0029_ip = 123; continue _fun0029 }
+case 122:
             var3 = global;
             var5 = var3.clearTimeout;
             var3 = _closure1_slot12;
             var4 = var3._timeout;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-case 105:
+case 123:
             _closure1_slot12 = var2;
             var2 = new Array(0);
             _closure1_slot13 = var2;

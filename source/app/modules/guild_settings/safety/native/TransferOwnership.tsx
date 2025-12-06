@@ -423,7 +423,7 @@ case 14:
             var18 = var14[var10];
             var18 = var11.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var18 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var21 = var21.name;
             var18['children'] = var21;
             var18 = var13.bind(var4)(var19, var18);
@@ -431,7 +431,7 @@ case 14:
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var14 = null;
             if(!(var14 == var17)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
@@ -495,7 +495,7 @@ case 0:
                     var5 = var5[var9];
                     var5 = var7.bind(var4)(var5);
                     var7 = var5.Text;
-                    var5 = {'style': null, 'variant': 'text-sm/bold', 'color': 'header-secondary'};
+                    var5 = {'style': null, 'variant': 'text-sm/bold', 'color': 'text-default'};
                     var8 = var15.aka;
                     var5['style'] = var8;
                     var8 = ['AKA', ' '];

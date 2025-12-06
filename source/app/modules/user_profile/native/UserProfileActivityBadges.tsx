@@ -152,7 +152,7 @@ case 17:
             var13 = var11[var13];
             var13 = var14.bind(var5)(var13);
             var13 = var13.colors;
-            var13 = var13.TEXT_POSITIVE;
+            var13 = var13.TEXT_FEEDBACK_POSITIVE;
             var6['color'] = var13;
             var8 = var9.bind(var5)(var8, var6);
             var6 = new Array(2);

@@ -200,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var10.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var14;
     var14 = var6[var12];
     var14 = var10.bind(var1)(var14);
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_DANGER;
+    var12 = var12.TEXT_FEEDBACK_CRITICAL;
     var11['color'] = var12;
     var4['destructiveIcon'] = var11;
     var4 = var8.bind(var9)(var4);
@@ -624,10 +624,10 @@ case 8:
             var18 = var25[var34];
             var18 = var21.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'style': null, 'variant': 'heading-md/medium', 'color': 'header-secondary'};
+            var18 = {'style': null, 'variant': 'heading-md/medium', 'color': 'text-default'};
             var22 = var16.subTitle;
             var18['style'] = var22;
-            var22 = 'header-secondary';
+            var22 = 'text-default';
             var30 = var25[var20];
             var30 = var21.bind(var5)(var30);
             var32 = var30.intl;
@@ -715,7 +715,7 @@ case 8:
             var34 = var25[var34];
             var34 = var21.bind(var5)(var34);
             var35 = var34.Text;
-            var34 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+            var34 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
             var37 = var25[var20];
             var37 = var21.bind(var5)(var37);
             var39 = var37.intl;

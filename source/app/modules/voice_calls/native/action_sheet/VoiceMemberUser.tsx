@@ -698,7 +698,7 @@ case 58:
             var10 = var17[var10];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var13 = var13.autoDisabledVideoLabel;
             var10['style'] = var13;
             var13 = 27;

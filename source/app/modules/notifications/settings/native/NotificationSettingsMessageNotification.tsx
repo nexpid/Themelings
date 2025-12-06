@@ -47,7 +47,7 @@ case 0:
             var8 = var9[var16];
             var8 = var10.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var13 = var20.headerTitle;
             var8['style'] = var13;
             var23 = 7;
@@ -68,7 +68,7 @@ case 0:
             var9 = var9[var16];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
             var13 = var18.context;
             var12 = 'guild';
             if(!(var12 !== var13)) { _fun0001_ip = 2; continue _fun0001 }
@@ -239,7 +239,7 @@ case 7:
     var12 = var7[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_SUBTLE;
+    var12 = var12.BACKGROUND_MOD_SUBTLE;
     var10['borderColor'] = var12;
     var5['card'] = var10;
     var12 = 8;

@@ -460,7 +460,7 @@ case 2:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var9['borderColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -838,7 +838,7 @@ case 45:
             var10 = var16[var10];
             var10 = var20.bind(var4)(var10);
             var14 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var15 = var13.description;
             var10['style'] = var15;
             var15 = var16[var17];

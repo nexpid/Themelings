@@ -277,7 +277,7 @@ case 13:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.DIVIDER_SUBTLE;
+    var10 = var10.BORDER_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['divider'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -322,7 +322,7 @@ case 13:
         var14 = var17[var13];
         var14 = var15.bind(var4)(var14);
         var18 = var14.Text;
-        var14 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'You press the button to open the menu and then select an action, or tap and pan down in a single gesture.'};
+        var14 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'You press the button to open the menu and then select an action, or tap and pan down in a single gesture.'};
         var14 = var19.bind(var4)(var18, var14);
         var16[1] = var14;
         var19 = _closure1_slot5;
@@ -354,7 +354,7 @@ case 13:
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'You can also have the menu open on long press instead.'};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'You can also have the menu open on long press instead.'};
         var19 = var21.bind(var4)(var20, var19);
         var18[1] = var19;
         var20 = _closure1_slot5;
@@ -382,7 +382,7 @@ case 13:
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'You can pass an array of arrays of items to create sections in the menu.'};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'You can pass an array of arrays of items to create sections in the menu.'};
         var19 = var21.bind(var4)(var20, var19);
         var18[1] = var19;
         var20 = _closure1_slot5;
@@ -410,7 +410,7 @@ case 13:
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': "The menu will automatically align itself so that it doesn't overflow offscreen horizontally."};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': "The menu will automatically align itself so that it doesn't overflow offscreen horizontally."};
         var19 = var21.bind(var4)(var20, var19);
         var18[1] = var19;
         var20 = _closure1_slot5;
@@ -428,7 +428,7 @@ case 13:
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': "It will also position itself vertically, so that it doesn't overflow offscreen vertically."};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': "It will also position itself vertically, so that it doesn't overflow offscreen vertically."};
         var19 = var21.bind(var4)(var20, var19);
         var18[4] = var19;
         var20 = _closure1_slot5;
@@ -456,14 +456,14 @@ case 13:
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'Menus can take an align prop to intentionally align the menu, instead of using the automatic menu positioning.'};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'Menus can take an align prop to intentionally align the menu, instead of using the automatic menu positioning.'};
         var19 = var21.bind(var4)(var20, var19);
         var18[1] = var19;
         var21 = _closure1_slot5;
         var19 = var17[var13];
         var19 = var15.bind(var4)(var19);
         var20 = var19.Text;
-        var19 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'The align prop can be set to above, below, left, or right of the menu trigger. How the menu positions relative to the start or end of the trigger is then automatically determined based on the available space.'};
+        var19 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'The align prop can be set to above, below, left, or right of the menu trigger. How the menu positions relative to the start or end of the trigger is then automatically determined based on the available space.'};
         var19 = var21.bind(var4)(var20, var19);
         var18[2] = var19;
         var21 = _closure1_slot5;
@@ -531,7 +531,7 @@ case 13:
         var13 = var17[var13];
         var13 = var15.bind(var4)(var13);
         var15 = var13.Text;
-        var13 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'Menus should not typically have enough items to require scrolling, but with font scaling and smaller devices its possible. In this case, the menu will allow the user to scroll.'};
+        var13 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'Menus should not typically have enough items to require scrolling, but with font scaling and smaller devices its possible. In this case, the menu will allow the user to scroll.'};
         var13 = var16.bind(var4)(var15, var13);
         var11[1] = var13;
         var13 = _closure1_slot5;

@@ -393,7 +393,7 @@ case 6:
         var16 = var20[var18];
         var16 = var17.bind(var4)(var16);
         var22 = var16.Text;
-        var16 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'An action sheet with a centered title and subtitle, with optional leading and Trailing elements.'};
+        var16 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'An action sheet with a centered title and subtitle, with optional leading and Trailing elements.'};
         var16 = var23.bind(var4)(var22, var16);
         var21[1] = var16;
         var24 = _closure1_slot7;
@@ -455,7 +455,7 @@ case 6:
         var18 = var20[var18];
         var18 = var17.bind(var4)(var18);
         var21 = var18.Text;
-        var18 = {'variant': 'text-md/medium', 'color': 'text-secondary', 'children': 'A sheet with an illustration, title, description, and actions.'};
+        var18 = {'variant': 'text-md/medium', 'color': 'text-subtle', 'children': 'A sheet with an illustration, title, description, and actions.'};
         var18 = var22.bind(var4)(var21, var18);
         var15[1] = var18;
         var18 = _closure1_slot7;

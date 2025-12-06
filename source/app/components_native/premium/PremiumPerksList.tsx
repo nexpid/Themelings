@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var12[var8];
             var7 = var9.bind(var2)(var7);
             var13 = var7.Text;
-            var7 = {'variant': 'text-md/bold', 'color': 'text-primary'};
+            var7 = {'variant': 'text-md/bold', 'color': 'text-strong'};
             var14 = var11.label;
             var7['children'] = var14;
             var13 = var10.bind(var2)(var13, var7);
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var12[var8];
             var8 = var9.bind(var2)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var11 = var11.description;
             var8['children'] = var11;
             var8 = var10.bind(var2)(var9, var8);

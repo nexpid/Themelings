@@ -142,7 +142,7 @@ case 0:
                 var6 = var8[var6];
                 var6 = var7.bind(var4)(var6);
                 var7 = var6.Text;
-                var6 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                var6 = {'variant': 'text-md/medium', 'color': 'text-default'};
                 var8 = var1.title;
                 var6['children'] = var8;
                 var6 = var5.bind(var4)(var7, var6);
@@ -195,7 +195,7 @@ case 3:
             var10 = var18[var10];
             var10 = var13.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var12 = 13;
             var14 = var18[var12];
             var14 = var13.bind(var4)(var14);

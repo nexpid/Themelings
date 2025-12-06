@@ -157,7 +157,7 @@ case 3:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var9['borderColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

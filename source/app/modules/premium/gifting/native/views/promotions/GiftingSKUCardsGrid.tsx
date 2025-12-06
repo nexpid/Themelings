@@ -92,8 +92,8 @@ case 0:
             var13 = var1.claimed;
             var2 = var1.onSelect;
             var _closure2_slot1 = var2;
-            var7 = var1.isSelected;
-            var _closure2_slot2 = var7;
+            var15 = var1.isSelected;
+            var _closure2_slot2 = var15;
             var1 = _closure1_slot7;
             var4 = undefined;
             var9 = var1.bind(var4)();
@@ -105,19 +105,19 @@ case 0:
             var1 = var3.useCurrentUser;
             var1 = var1.bind(var3)();
             var _closure2_slot3 = var1;
-            var8 = var17.type;
+            var7 = var17.type;
             var3 = 6;
             var3 = var6[var3];
             var3 = var2.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.NAMEPLATE;
-            var8 = var8 === var3;
+            var8 = var7 === var3;
             var _closure2_slot4 = var8;
-            var11 = _closure1_slot3;
-            var12 = var11.useMemo;
-            var10 = new Array(2);
-            var10[0] = var17;
-            var10[1] = var8;
+            var10 = _closure1_slot3;
+            var11 = var10.useMemo;
+            var7 = new Array(2);
+            var7[0] = var17;
+            var7[1] = var8;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -201,10 +201,10 @@ case 6:
                     return var1;
                 }
             };
-            var15 = var12.bind(var11)(var3, var10);
-            var10 = var11.useMemo;
+            var16 = var11.bind(var10)(var3, var7);
+            var7 = var10.useMemo;
             var3 = new Array(2);
-            var3[0] = var7;
+            var3[0] = var15;
             var3[1] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -223,16 +223,17 @@ case 13:
                     return var1;
                 }
             };
-            var18 = var10.bind(var11)(var1, var3);
+            var19 = var7.bind(var10)(var1, var3);
             var3 = _closure1_slot6;
             var1 = 8;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var10 = var9.card;
+            var7 = var9.card;
             var6 = new Array(2);
-            var6[0] = var10;
+            var6[0] = var7;
+            var7 = var15;
             if(!var7) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var7 = var9.selected;
@@ -260,24 +261,28 @@ case 15:
             var5['style'] = var10;
             var12 = _closure1_slot5;
             var11 = _closure1_slot1;
-            var16 = _closure1_slot2;
+            var18 = _closure1_slot2;
             if(var8) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             var8 = 10;
-            var8 = var16[var8];
+            var8 = var18[var8];
             var10 = var11.bind(var4)(var8);
-            var8 = {'item': null, 'size': 100, 'animate': true};
-            var8['item'] = var15;
-            var8['avatarSource'] = var18;
+            var8 = {};
+            var8['item'] = var16;
+            var20 = 100;
+            var8['size'] = var20;
+            var8['animate'] = var15;
+            var8['avatarSource'] = var19;
             var8 = var12.bind(var4)(var10, var8);
             _fun0001_ip = 19; continue _fun0001;
 case 17:
             var10 = 9;
-            var10 = var16[var10];
+            var10 = var18[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
-            var10['item'] = var15;
+            var10['item'] = var16;
             var10['isPurchased'] = var13;
+            var10['animate'] = var15;
             var8 = var12.bind(var4)(var11, var10);
 case 19:
             var5['children'] = var8;

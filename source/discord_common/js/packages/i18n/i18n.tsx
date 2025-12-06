@@ -978,7 +978,7 @@ case 59:
 case 60:
                     var7 = var7[var2];
                     var2 = 'Hant';
-                    if(!(var2 !== var7)) { _fun0015_ip = 61; continue _fun0015 }
+                    if(!(var2 !== var7)) { _fun0015_ip = 27; continue _fun0015 }
 case 58:
                     var7 = var8.find;
                     var2 = function(arg1) {
@@ -994,12 +994,12 @@ case 58:
                         return var1;
                     };
                     var2 = var7.bind(var8)(var2);
-                    if(!(var6 == var2)) { _fun0015_ip = 62; continue _fun0015 }
-case 63:
-                    var2 = _closure1_slot7;
+                    if(!(var6 == var2)) { _fun0015_ip = 61; continue _fun0015 }
 case 62:
-                    _fun0015_ip = 64; continue _fun0015;
+                    var2 = _closure1_slot7;
 case 61:
+                    _fun0015_ip = 63; continue _fun0015;
+case 27:
                     var7 = var8.find;
                     var4 = function(arg1) {
                         var2 = 'zh-TW';
@@ -1008,16 +1008,16 @@ case 61:
                         return var1;
                     };
                     var4 = var7.bind(var8)(var4);
-                    if(!(var6 == var4)) { _fun0015_ip = 65; continue _fun0015 }
-case 66:
-                    var4 = _closure1_slot7;
+                    if(!(var6 == var4)) { _fun0015_ip = 64; continue _fun0015 }
 case 65:
-                    var2 = var4;
+                    var4 = _closure1_slot7;
 case 64:
-                    _fun0015_ip = 67; continue _fun0015;
+                    var2 = var4;
+case 63:
+                    _fun0015_ip = 66; continue _fun0015;
 case 56:
                     var2 = var3;
-case 67:
+case 66:
                     return var2;
 case 54:
                     return var1;
@@ -1041,13 +1041,13 @@ case 0:
                     var3 = var1.Promise;
                     var3 = var4 instanceof var3;
                     if(var3) { _fun0016_ip = 10; continue _fun0016 }
-case 68:
+case 67:
                     var3 = var5._applyMessagesForLocale;
                     var3 = var3.bind(var5)(var4, var6);
                     var3 = var1.Promise;
                     var1 = var3.resolve;
                     var1 = var1.bind(var3)();
-                    _fun0016_ip = 69; continue _fun0016;
+                    _fun0016_ip = 68; continue _fun0016;
 case 10:
                     var3 = var4.then;
                     var2 = function(arg1) {
@@ -1059,7 +1059,7 @@ case 10:
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
-case 69:
+case 68:
                     return var1;
                 }
             };
@@ -1075,15 +1075,15 @@ case 0:
                     var7 = arguments[2];
                     var3 = this;
                     var1 = undefined;
-                    if(!(var7 === var1)) { _fun0017_ip = 70; continue _fun0017 }
-case 71:
+                    if(!(var7 === var1)) { _fun0017_ip = 69; continue _fun0017 }
+case 70:
                     var4 = var3._findMessages;
                     var2 = _closure1_slot7;
                     var7 = var4.bind(var3)(var2);
-case 70:
+case 69:
                     var2 = var3._requestedLocale;
-                    if(!(var2 === var6)) { _fun0017_ip = 72; continue _fun0017 }
-case 73:
+                    if(!(var2 === var6)) { _fun0017_ip = 71; continue _fun0017 }
+case 72:
                     var5 = var3._provider;
                     var4 = var5.refresh;
                     var2 = {};
@@ -1094,7 +1094,7 @@ case 73:
                     var2 = var4.bind(var5)(var2);
                     var2 = var3.resolveLanguageLoaded;
                     var2 = var2.bind(var3)();
-case 72:
+case 71:
                     return var1;
                 }
             };
@@ -1113,10 +1113,10 @@ case 0:
                     var1 = global;
                     var3 = var1.Promise;
                     var3 = var2 instanceof var3;
-                    if(var3) { _fun0018_ip = 74; continue _fun0018 }
-case 75:
-                    return var2;
+                    if(var3) { _fun0018_ip = 73; continue _fun0018 }
 case 74:
+                    return var2;
+case 73:
                     var3 = var1.Error;
                     var1 = var3.prototype;
                     var2 = Object.create(var1, {constructor: {value: var3}});
@@ -1144,7 +1144,7 @@ case 0:
                     var1 = undefined;
                     var4 = undefined;
                     var5 = _closure1_slot7;
-                    if(!(var8 !== var5)) { _fun0019_ip = 73; continue _fun0019 }
+                    if(!(var8 !== var5)) { _fun0019_ip = 72; continue _fun0019 }
 case 33:
                     var5 = function() {
                         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
@@ -1154,8 +1154,8 @@ case 0:
                             var6 = '-';
                             var3 = var1.bind(var3)(var6);
                             var1 = -1;
-                            if(!(var1 !== var3)) { _fun0020_ip = 76; continue _fun0020 }
-case 75:
+                            if(!(var1 !== var3)) { _fun0020_ip = 75; continue _fun0020 }
+case 74:
                             var4 = _closure3_slot0;
                             var3 = var4._fetchMessages;
                             var5 = _closure3_slot1;
@@ -1164,18 +1164,18 @@ case 75:
                             var1 = 0;
                             var1 = var5[var1];
                             var1 = var3.bind(var4)(var1);
-                            _fun0020_ip = 77; continue _fun0020;
-case 76:
+                            _fun0020_ip = 76; continue _fun0020;
+case 75:
                             var4 = _closure3_slot0;
                             var3 = var4._fetchMessages;
                             var2 = _closure1_slot7;
                             var1 = var3.bind(var4)(var2);
-case 77:
+case 76:
                             return var1;
                         }
                     };
                     _fun0019_ip = 26; continue _fun0019;
-case 73:
+case 72:
                     var5 = function() {
                         var1 = global;
                         var3 = var1.Error;
@@ -1201,17 +1201,17 @@ case 2: // try_start_0
                     var3 = var3.Promise;
                     var3 = var5 instanceof var3;
                     var6 = var4;
-                    if(var3) { _fun0019_ip = 78; continue _fun0019 }
-case 79:
-                    var3 = var6;
-                    _fun0019_ip = 80; continue _fun0019;
+                    if(var3) { _fun0019_ip = 77; continue _fun0019 }
 case 78:
+                    var3 = var6;
+                    _fun0019_ip = 79; continue _fun0019;
+case 77:
                     var5 = var6.catch;
                     var4 = var1;
                     var3 = var5.bind(var6)(var4);
-case 80: // try_end0
+case 79: // try_end0
                     return var3;
-case 81: // catch_target0
+case 80: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var1 = var1.bind(var2)();
                     return var1;

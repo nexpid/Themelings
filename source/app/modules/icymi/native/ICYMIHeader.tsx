@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BACKGROUND_MODIFIER_ACCENT;
+        var7 = var7.BORDER_SUBTLE;
         var2['backgroundColor'] = var7;
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);

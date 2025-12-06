@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+            var1 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
             var5 = arg1;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-xs/medium', 'color': 'text-positive'};
+            var1 = {'variant': 'text-xs/medium', 'color': 'text-feedback-positive'};
             var5 = arg1;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);
@@ -205,7 +205,7 @@ case 3:
                 var4 = undefined;
                 var2 = var9.bind(var4)(var2);
                 var3 = var2.Text;
-                var2 = {'variant': 'text-xs/medium', 'color': 'text-normal'};
+                var2 = {'variant': 'text-xs/medium', 'color': 'text-default'};
                 var6 = 12;
                 var7 = var10[var6];
                 var7 = var9.bind(var4)(var7);

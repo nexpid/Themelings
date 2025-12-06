@@ -94,7 +94,7 @@ case 5:
             var14 = var19[var14];
             var14 = var17.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'display-sm', 'color': 'always-white'};
+            var14 = {'variant': 'display-sm', 'color': 'always-white', 'style': null, 'accessibilityRole': 'header'};
             var20 = var11.headerText;
             var14['style'] = var20;
             var20 = 16;
@@ -703,7 +703,7 @@ case 17:
     var11 = var7[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var11;
     var2['androidSegmentedControlBackground'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'height': '100%', 'width': '10%'};

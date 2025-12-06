@@ -71,7 +71,7 @@ case 6:
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var9 = 13;
             var10 = var15[var9];
             var10 = var14.bind(var4)(var10);
@@ -164,7 +164,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = 24;
     var9['padding'] = var12;
@@ -183,7 +183,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -200,7 +200,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var4['containerSelected'] = var9;
     var9 = {'height': 20, 'width': 20, 'marginRight': 12};
@@ -316,7 +316,7 @@ case 6:
         var14 = var22[var15];
         var14 = var21.bind(var4)(var14);
         var20 = var14.Text;
-        var14 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+        var14 = {'variant': 'text-sm/normal', 'color': 'text-default'};
         var25 = var22[var18];
         var25 = var21.bind(var4)(var25);
         var28 = var25.intl;

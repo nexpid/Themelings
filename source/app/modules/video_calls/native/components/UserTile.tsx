@@ -344,7 +344,7 @@ case 15:
                     var9 = var15[var9];
                     var9 = var14.bind(var2)(var9);
                     var10 = var9.Text;
-                    var9 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+                    var9 = {'variant': 'text-sm/normal', 'color': 'text-default'};
                     var11 = var11.labelText;
                     var9['style'] = var11;
                     var11 = 19;

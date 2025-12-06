@@ -32,7 +32,7 @@ case 3:
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.colors;
-            var12 = var5.TEXT_SECONDARY;
+            var12 = var5.TEXT_SUBTLE;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var7 = _closure1_slot1;
@@ -41,7 +41,7 @@ case 2:
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.colors;
-            var12 = var5.TEXT_NORMAL;
+            var12 = var5.TEXT_DEFAULT;
 case 4:
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -210,7 +210,7 @@ case 5:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_STRONG;
+    var12 = var12.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
@@ -636,7 +636,7 @@ case 45:
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-normal'};
+            var7 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-default'};
             var12 = var10.overflowCount;
             var7['style'] = var12;
             var12 = var9 - var11;

@@ -653,7 +653,7 @@ case 36:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_SUBTLE;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var12['backgroundColor'] = var13;
     var7['productPreviewContainer'] = var12;
     var12 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
@@ -686,7 +686,7 @@ case 36:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var12['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

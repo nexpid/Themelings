@@ -197,7 +197,7 @@ case 0:
             var1 = var7[var1];
             var1 = var11.bind(var5)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_FLOATING;
+            var1 = var1.BACKGROUND_SURFACE_HIGH;
             var21 = var8.bind(var9)(var1);
             var1 = 13;
             var1 = var7[var1];
@@ -430,7 +430,7 @@ case 22:
             var10 = var10[var14];
             var10 = var11.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-xs/medium', 'color': 'text-secondary', 'lineClamp': 1};
+            var10 = {'variant': 'text-xs/medium', 'color': 'text-subtle', 'lineClamp': 1};
             var10['children'] = var13;
             var9 = var12.bind(var5)(var11, var10);
 case 21:

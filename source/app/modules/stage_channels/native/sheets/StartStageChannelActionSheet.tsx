@@ -413,7 +413,7 @@ case 26:
             var6 = var6[var10];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var14.headerSubtitle;
             var6['style'] = var9;
             if(!(var12 != var22)) { _fun0001_ip = 27; continue _fun0001 }
@@ -623,7 +623,7 @@ case 38:
             var10 = var13[var10];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'accessible': false, 'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var10 = {'accessible': false, 'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var14 = var14.buttonSubtitle;
             var10['style'] = var14;
             var14 = var13[var17];

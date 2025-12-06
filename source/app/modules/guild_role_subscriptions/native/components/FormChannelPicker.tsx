@@ -192,7 +192,7 @@ case 6:
             var10 = 'text-muted';
             if(!var13) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var10 = 'text-normal';
+            var10 = 'text-default';
 case 10:
             var7['color'] = var10;
             var13 = var11 == var12;

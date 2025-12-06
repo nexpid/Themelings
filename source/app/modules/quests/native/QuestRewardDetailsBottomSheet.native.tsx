@@ -240,7 +240,7 @@ case 8:
             var13 = var23[var18];
             var13 = var22.bind(var4)(var13);
             var15 = var13.Text;
-            var13 = {'variant': 'eyebrow', 'color': 'text-secondary'};
+            var13 = {'variant': 'eyebrow', 'color': 'text-subtle'};
             var16 = 8;
             var21 = var23[var16];
             var21 = var22.bind(var4)(var21);
@@ -258,7 +258,7 @@ case 8:
             var15 = var23[var18];
             var15 = var22.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'heading-lg/semibold', 'color': 'text-primary'};
+            var15 = {'variant': 'heading-lg/semibold', 'color': 'text-strong'};
             var21 = 6;
             var21 = var23[var21];
             var22 = var22.bind(var4)(var21);
@@ -295,7 +295,7 @@ case 10:
             var14 = var14[var18];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-md/normal', 'color': 'text-secondary'};
+            var14 = {'variant': 'text-md/normal', 'color': 'text-subtle'};
             var14['children'] = var17;
             var14 = var16.bind(var4)(var15, var14);
             var13[1] = var14;

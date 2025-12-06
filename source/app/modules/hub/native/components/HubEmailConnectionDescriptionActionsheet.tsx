@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var13[var6];
         var7 = var12.bind(var4)(var7);
         var11 = var7.Text;
-        var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var14 = var10.description;
         var7['style'] = var14;
         var14 = var13[var9];
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var10 = var10.description;
         var6['style'] = var10;
         var10 = var13[var9];

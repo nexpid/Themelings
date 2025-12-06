@@ -151,7 +151,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_FLOATING;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var4['avatarStatusStyle'] = var9;
     var9 = {'width': 108, 'height': 108, 'justifyContent': 'space-around', 'marginLeft': 28};
@@ -160,7 +160,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_FLOATING;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

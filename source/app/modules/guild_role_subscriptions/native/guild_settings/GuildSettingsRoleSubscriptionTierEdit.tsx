@@ -68,7 +68,7 @@ case 0:
             var7 = var18[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var20 = var15.actionDescription;
             var7['style'] = var20;
             var7['children'] = var19;
@@ -316,7 +316,7 @@ case 6:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_SURFACE_RAISED;
+    var17 = var17.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var17;
     var11['padding'] = var16;
     var8['tabsContainer'] = var11;

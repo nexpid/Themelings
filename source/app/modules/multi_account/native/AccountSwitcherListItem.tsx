@@ -247,7 +247,7 @@ case 17:
             var3 = var22[var3];
             var3 = var19.bind(var5)(var3);
             var4 = var3.Text;
-            var3 = {'variant': 'text-sm/semibold', 'color': 'text-danger'};
+            var3 = {'variant': 'text-sm/semibold', 'color': 'text-feedback-critical'};
             var14 = 13;
             var16 = var22[var14];
             var16 = var19.bind(var5)(var16);
@@ -357,7 +357,7 @@ case 21:
             var16 = var24[var22];
             var16 = var18.bind(var5)(var16);
             var18 = var16.Text;
-            var16 = {'variant': 'text-md/semibold', 'color': 'text-normal', 'style': null, 'lineClamp': 1};
+            var16 = {'variant': 'text-md/semibold', 'color': 'text-default', 'style': null, 'lineClamp': 1};
             var20 = var20.username;
             var16['style'] = var20;
             var20 = 16;

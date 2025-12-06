@@ -134,14 +134,9 @@ case 2:
     var4['headerTrailing'] = var9;
     var9 = {};
     var9['flex'] = var10;
-    var10 = 6;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var13;
     var4['container'] = var9;
     var9 = {};
+    var10 = 6;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
@@ -160,7 +155,7 @@ case 2:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_FAINT;
+    var12 = var12.BACKGROUND_MOD_FAINT;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -170,7 +165,7 @@ case 2:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_SUBTLE;
+    var12 = var12.BACKGROUND_MOD_SUBTLE;
     var9['borderColor'] = var12;
     var4['effectCard'] = var9;
     var9 = {};

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_STRONG;
+    var13 = var13.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var13;
     var4['iconContainer'] = var9;
     var9 = {'height': 48, 'width': 48};
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -279,7 +279,7 @@ case 2:
             var25 = var21[var25];
             var25 = var11.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.HEADER_SECONDARY;
+            var25 = var25.TEXT_SUBTLE;
             var19['color'] = var25;
             var19 = var3.bind(var4)(var22, var19);
             var18['children'] = var19;
@@ -296,7 +296,7 @@ case 2:
             var19 = var21[var14];
             var19 = var20.bind(var4)(var19);
             var22 = var19.Text;
-            var19 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var19 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var24 = var13.subtitle;
             var19['style'] = var24;
             var19['children'] = var23;

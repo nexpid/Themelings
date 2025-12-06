@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MODIFIER_ACCENT;
+    var10 = var10.BORDER_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['separator'] = var9;
     var9 = {'alignSelf': 'flex-end', 'flexDirection': 'row', 'marginBottom': 4294967270};
@@ -236,7 +236,7 @@ case 4:
             var10 = var15[var10];
             var10 = var14.bind(var4)(var10);
             var16 = var10.Text;
-            var10 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var17 = var12.footerText;
             var10['style'] = var17;
             var17 = var15[var11];

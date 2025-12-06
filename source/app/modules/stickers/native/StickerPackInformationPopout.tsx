@@ -252,7 +252,7 @@ case 2:
             var1 = undefined;
             var5 = var7.bind(var1)(var5);
             var12 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary', 'children': '•'};
+            var5 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default', 'children': '•'};
             var13 = var11.informationContent;
             var5['style'] = var13;
             var12 = var8.bind(var1)(var12, var5);
@@ -261,7 +261,7 @@ case 2:
             var6 = var10[var6];
             var6 = var7.bind(var1)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var12 = var11.informationContent;
             var10 = new Array(2);
             var10[0] = var12;

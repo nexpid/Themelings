@@ -51,7 +51,7 @@ case 0:
                 var18 = var16[var18];
                 var18 = var19.bind(var3)(var18);
                 var18 = var18.colors;
-                var18 = var18.TEXT_DANGER;
+                var18 = var18.TEXT_FEEDBACK_CRITICAL;
                 var11['color'] = var18;
                 var11 = var17.bind(var3)(var12, var11);
                 var5['icon'] = var11;
@@ -395,7 +395,7 @@ case 2:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_SECONDARY;
+    var13 = var13.TEXT_SUBTLE;
     var9['color'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

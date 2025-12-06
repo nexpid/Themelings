@@ -1275,10 +1275,10 @@ case 81:
                     var7 = var1 != var6;
                     var1 = undefined;
                     var5 = undefined;
-                    if(!var7) { _fun0016_ip = 28; continue _fun0016 }
-case 60:
+                    if(!var7) { _fun0016_ip = 82; continue _fun0016 }
+case 83:
                     var5 = var6;
-case 28:
+case 82:
                     var2['editId'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -1331,8 +1331,8 @@ case 0:
                     var6 = false;
                     var3['includeCustomKeyboard'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0017_ip = 82; continue _fun0017 }
-case 83:
+                    if(var3) { _fun0017_ip = 84; continue _fun0017 }
+case 85:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 20;
@@ -1359,7 +1359,7 @@ case 83:
                     var2 = _closure2_slot7;
                     var2 = var2.current;
                     var2 = var3.bind(var4)(var2);
-case 82:
+case 84:
                     return var1;
                 }
             };

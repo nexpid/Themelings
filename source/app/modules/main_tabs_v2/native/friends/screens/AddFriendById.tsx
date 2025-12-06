@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+        var1 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
         var8 = var7.inputAccessoryText;
         var6 = new Array(2);
         var6[0] = var8;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.HEADER_SECONDARY;
+    var17 = var17.TEXT_SUBTLE;
     var14['color'] = var17;
     var4['inputAccessoryText'] = var14;
     var14 = {};
@@ -442,7 +442,7 @@ case 0:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-normal'};
+                    var2 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-default'};
                     var1 = _closure2_slot2;
                     var6 = var1.redesignFooterText;
                     var1 = new Array(1);

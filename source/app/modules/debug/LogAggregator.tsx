@@ -298,12 +298,12 @@ case 47:
             var2 = var2.length;
             var3 = 5000;
             if(!(var2 > var3)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+case 8:
             var2 = _closure1_slot0;
             var5 = var2.shift;
             var5 = var5.bind(var2)();
             var2 = var2.length;
-            if(var2 > var3) { _fun0004_ip = 49; continue _fun0004 }
+            if(var2 > var3) { _fun0004_ip = 8; continue _fun0004 }
 case 48:
             return var1;
         }
@@ -330,14 +330,14 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(var1) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var4 = _closure2_slot0;
                 var3 = var4.includes;
                 var2 = arg1;
                 var2 = var2.category;
                 var1 = var3.bind(var4)(var2);
-case 50:
+case 49:
                 return var1;
             }
         };
@@ -362,12 +362,12 @@ case 0:
                 var2 = var4.bind(var3)(var2);
                 var4 = var1.timing;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                if(!(var2 != var4)) { _fun0006_ip = 40; continue _fun0006 }
+case 37:
                 var4 = var3.push;
                 var2 = var1.timing;
                 var2 = var4.bind(var3)(var2);
-case 52:
+case 40:
                 var4 = var3.push;
                 var2 = var1.category;
                 var1 = var1.message;
@@ -390,18 +390,18 @@ case 52:
 case 0:
             var1 = arguments[0];
             var2 = undefined;
-            if(!(var1 === var2)) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(!(var1 === var2)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var1 = false;
-case 54:
+case 51:
             var3 = _closure1_slot0;
             var2 = var3.toArray;
             var3 = var2.bind(var3)();
-            if(var1) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(var1) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var1 = var3;
             _fun0007_ip = 2; continue _fun0007;
-case 56:
+case 53:
             var2 = var3.reverse;
             var1 = var2.bind(var3)();
 case 2:

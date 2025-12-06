@@ -974,7 +974,7 @@ case 46:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -1004,7 +1004,7 @@ case 46:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var9['borderColor'] = var14;
     var4['buttonDivider'] = var9;
     var9 = {};

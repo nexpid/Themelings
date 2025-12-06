@@ -193,7 +193,7 @@ case 2:
             var19 = var27[var19];
             var19 = var26.bind(var4)(var19);
             var20 = var19.Text;
-            var19 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+            var19 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
             var21 = var23.noMethodsText;
             var19['style'] = var21;
             var21 = var27[var11];

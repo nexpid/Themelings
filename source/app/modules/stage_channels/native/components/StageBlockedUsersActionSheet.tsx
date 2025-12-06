@@ -58,7 +58,7 @@ case 6:
             var6 = var17[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var13 = var11.description;
             var6['style'] = var13;
             var13 = var17[var10];
@@ -111,7 +111,7 @@ case 5:
             var7 = var17[var7];
             var7 = var13.bind(var4)(var7);
             var9 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var14 = var11.description;
             var7['style'] = var14;
             var14 = var17[var12];
@@ -164,7 +164,7 @@ case 4:
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var11 = var11.description;
             var7['style'] = var11;
             var11 = var14[var10];
@@ -292,7 +292,7 @@ case 8:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var9['color'] = var10;
     var4['ignored'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -486,7 +486,7 @@ case 16:
             var12 = var12[var17];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var16 = var16.user;
             var20 = var16.discriminator;
             var16 = ['#'];

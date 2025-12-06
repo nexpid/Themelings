@@ -162,7 +162,7 @@ case 5:
                     var2 = var2.ApplicationCommandType;
                     var2 = var2.USER;
                     if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+case 6:
                     return var6;
 case 4:
                     var2 = _closure1_slot0;
@@ -181,11 +181,11 @@ case 4:
                     var7 = null;
                     var7 = var7 == var8;
                     var6 = undefined;
-                    if(var7) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var7 = _closure2_slot1;
                     var6 = var7.name;
-case 6:
+case 7:
                     var1['applicationName'] = var6;
                     var5 = _closure2_slot0;
                     var5 = var5.displayName;
@@ -213,8 +213,8 @@ case 6:
             var10 = var10.displayName;
             var1['label'] = var10;
             var9 = var9 != var14;
-            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var9) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var13 = _closure1_slot5;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -226,17 +226,17 @@ case 9:
             var10['style'] = var15;
             var10['source'] = var14;
             var9 = var13.bind(var4)(var12, var10);
-case 8:
+case 9:
             var1['icon'] = var9;
             var10 = _closure1_slot5;
-            if(var7) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var9 = _closure1_slot7;
             var7 = {};
             var7['onPress'] = var11;
             var7 = var10.bind(var4)(var9, var7);
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 7;
@@ -245,7 +245,7 @@ case 10:
             var9 = var8.SendMessageIcon;
             var8 = {};
             var7 = var10.bind(var4)(var9, var8);
-case 12:
+case 13:
             var1['trailing'] = var7;
             var1['start'] = var6;
             var1['end'] = var5;
@@ -383,8 +383,8 @@ case 0:
             var1['label'] = var7;
             var7 = null;
             var7 = var7 != var11;
-            if(!var7) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(!var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -396,7 +396,7 @@ case 14:
             var8['style'] = var12;
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 13:
+case 14:
             var1['icon'] = var7;
             var1['start'] = var6;
             var1['end'] = var5;

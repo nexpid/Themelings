@@ -670,7 +670,7 @@ case 23:
             var8 = var2.textColor;
             if(!(var8 === var5)) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
-            var8 = 'text-normal';
+            var8 = 'text-default';
 case 25:
             var7 = var2.textVariant;
             if(!(var7 === var5)) { _fun0007_ip = 27; continue _fun0007 }

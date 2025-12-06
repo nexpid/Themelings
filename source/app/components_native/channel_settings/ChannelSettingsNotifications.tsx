@@ -1253,7 +1253,7 @@ case 74:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'variant': 'text-sm/medium', 'color': 'text-warning'};
+                    var2 = {'variant': 'text-sm/medium', 'color': 'text-feedback-warning'};
                     var1 = arg1;
                     var2['children'] = var1;
                     var1 = arg2;
@@ -1293,7 +1293,7 @@ case 71:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'variant': 'text-sm/medium', 'color': 'text-danger'};
+                    var2 = {'variant': 'text-sm/medium', 'color': 'text-feedback-critical'};
                     var1 = arg1;
                     var2['children'] = var1;
                     var1 = arg2;

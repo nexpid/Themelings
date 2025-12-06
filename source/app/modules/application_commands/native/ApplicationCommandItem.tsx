@@ -264,7 +264,7 @@ case 23:
             var16 = var11[var6];
             var16 = var7.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var16 = {'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var18 = var18.displayDescription;
             var16['children'] = var18;
             var16 = var8.bind(var4)(var17, var16);

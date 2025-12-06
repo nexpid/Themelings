@@ -229,20 +229,19 @@ case 14:
             var5 = var7.bind(var4)(var5);
             var7 = var5.bind(var4)();
             var5 = _closure1_slot12;
-            var10 = var5.bind(var4)(var11, var7);
+            var12 = var5.bind(var4)(var11, var7);
             var19 = _closure1_slot0;
             var7 = 12;
             var5 = var20[var7];
             var8 = var19.bind(var4)(var5);
             var5 = var8.useFontScale;
             var27 = var5.bind(var8)();
-            var12 = 13;
-            var5 = var20[var12];
-            var5 = var19.bind(var4)(var5);
-            var5 = var5.TextStyleSheet;
-            var5 = var5.text-xs/bold;
-            var5 = var5.lineHeight;
-            var8 = var5 * var27;
+            var5 = 13;
+            var5 = var20[var5];
+            var8 = var19.bind(var4)(var5);
+            var5 = var8.scaleTextLineHeight;
+            var10 = 'text-xs/bold';
+            var8 = var5.bind(var8)(var10, var27);
             var5 = 8;
             var13 = var8 + var5;
             var22 = 7;
@@ -718,7 +717,7 @@ case 54:
             var3 = _closure1_slot10;
             var2 = _closure1_slot11;
             var1 = {};
-            var19 = var10.unreadBar;
+            var19 = var12.unreadBar;
             var15 = new Array(3);
             var15[0] = var19;
             var15[1] = var18;
@@ -741,14 +740,14 @@ case 55:
             var5[0] = var6;
             var8 = _closure1_slot9;
             var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var6 = var6[var12];
+            var13 = _closure1_slot2;
+            var6 = 20;
+            var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
             var6 = {};
-            var10 = var10.text;
-            var6['style'] = var10;
-            var10 = 'text-xs/bold';
+            var12 = var12.text;
+            var6['style'] = var12;
             var6['variant'] = var10;
             var10 = 'text-brand';
             if(!var11) { _fun0002_ip = 57; continue _fun0002 }
@@ -760,7 +759,7 @@ case 57:
             var6['maxFontSizeMultiplier'] = var10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var9 = 20;
+            var9 = 21;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
             var11 = var10.intl;
@@ -779,7 +778,7 @@ case 57:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

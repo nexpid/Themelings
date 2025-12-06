@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var13];
     var10 = var14.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var4['backgroundColor'] = var10;
     var2['row'] = var4;
     var17 = 11;
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.TEXT_NORMAL;
+    var16 = var16.TEXT_DEFAULT;
     var21 = var18.bind(var1)(var17, var16, var19);
     var22 = var10;
     var16 = copyDataProperties(var22, var21);
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['borderRightColor'] = var13;
     var2['horizontalAutocompleteOption'] = var10;
     var10 = {};

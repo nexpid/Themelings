@@ -80,7 +80,7 @@ case 0:
             var6 = var11[var8];
             var6 = var13.bind(var7)(var6);
             var6 = var6.colors;
-            var6 = var6.BG_MOD_FAINT;
+            var6 = var6.BACKGROUND_MOD_FAINT;
             var2['backgroundColor'] = var6;
             var1['rowActive'] = var2;
             var2 = {};
@@ -424,7 +424,7 @@ case 16:
             var26 = var29[var26];
             var26 = var30.bind(var8)(var26);
             var27 = var26.Text;
-            var26 = {'lineClamp': 1, 'variant': null, 'color': 'text-normal'};
+            var26 = {'lineClamp': 1, 'variant': null, 'color': 'text-default'};
             var34 = var21.channelName;
             var34 = var34.text;
             var34 = var34.variant;

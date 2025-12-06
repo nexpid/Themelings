@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var3];
         var6 = var11.bind(var12)(var6);
         var6 = var6.colors;
-        var6 = var6.TEXT_PRIMARY;
+        var6 = var6.TEXT_STRONG;
         var7 = var7.bind(var9)(var6, var5);
         var _closure2_slot1 = var7;
         var6 = var13[var4];

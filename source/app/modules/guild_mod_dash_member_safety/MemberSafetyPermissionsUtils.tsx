@@ -310,7 +310,7 @@ case 0:
             if(!var1) { _fun0007_ip = 11; continue _fun0007 }
 case 12:
             if(!var2) { _fun0007_ip = 13; continue _fun0007 }
-case 14:
+case 2:
             var6 = _closure1_slot5;
             var5 = var6.canManageUser;
             var3 = _closure1_slot8;

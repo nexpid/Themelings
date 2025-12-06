@@ -283,7 +283,7 @@ case 15:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                 var1 = _closure2_slot0;
                 var1 = var1.body;
                 var2['style'] = var1;

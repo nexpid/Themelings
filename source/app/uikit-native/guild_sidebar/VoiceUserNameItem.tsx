@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['measuringTag'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -63,12 +63,31 @@ case 0:
             var2 = arg1;
             var21 = var2.member;
             var13 = var2.user;
+            var6 = var2.guildId;
             var18 = var2.isGuest;
             var22 = var2.color;
-            var23 = var2.variant;
+            var24 = var2.variant;
             var2 = _closure1_slot8;
             var4 = undefined;
             var12 = var2.bind(var4)();
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 5;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var7 = var13.id;
+            var2['userId'] = var7;
+            var2['guildId'] = var6;
+            var6 = var3.bind(var4)(var2);
+            var3 = _closure1_slot0;
+            var2 = 6;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.useDisplayNameStylesFont;
+            var2 = {};
+            var2['displayNameStyles'] = var6;
+            var23 = var3.bind(var5)(var2);
             var7 = _closure1_slot4;
             var2 = var7.useState;
             var15 = 0;
@@ -158,36 +177,44 @@ case 2:
             var16 = _closure1_slot6;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var19 = 5;
+            var19 = 7;
             var5 = var5[var19];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
             var5 = {};
-            var5['variant'] = var23;
+            var5['variant'] = var24;
             var5['color'] = var22;
             var5['lineClamp'] = var20;
             var5['onLayout'] = var17;
             var17 = null;
+            var20 = var17 != var23;
+            if(!var20) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var22 = {};
+            var22['fontFamily'] = var23;
+            var20 = var22;
+case 4:
+            var5['style'] = var20;
             var22 = var17 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var20 = var21.nick;
-case 4:
-            if(!(var17 == var20)) { _fun0001_ip = 6; continue _fun0001 }
+            if(var22) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var20 = var21.nick;
+case 6:
+            if(!(var17 == var20)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var21 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var17 = 6;
+            var17 = 8;
             var17 = var22[var17];
             var21 = var21.bind(var4)(var17);
             var17 = var21.getName;
             var20 = var17.bind(var21)(var13);
-case 6:
+case 8:
             var17 = new Array(2);
             var17[0] = var20;
-            if(!var18) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var18) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var21 = _closure1_slot6;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -195,7 +222,7 @@ case 9:
             var19 = var25.bind(var4)(var19);
             var20 = var19.Text;
             var19 = {'variant': 'text-sm/normal', 'lineClamp': 1, 'color': 'status-positive'};
-            var22 = 7;
+            var22 = 9;
             var23 = var26[var22];
             var23 = var25.bind(var4)(var23);
             var24 = var23.intl;
@@ -209,32 +236,32 @@ case 9:
             var22[1] = var23;
             var19['children'] = var22;
             var18 = var21.bind(var4)(var20, var19);
-case 8:
+case 10:
             var17[1] = var18;
             var5['children'] = var17;
             var7 = var16.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(var6) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var7 = var15 !== var9;
-            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var7 = var15 !== var14;
-case 12:
+            var7 = var15 !== var9;
             if(!var7) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var7 = var15 !== var8;
+            var7 = var15 !== var14;
 case 14:
             if(!var7) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
+            var7 = var15 !== var8;
+case 16:
+            if(!var7) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = var14 + var8;
             var7 = var9 >= var8;
-case 16:
+case 18:
             var6 = var7;
-case 10:
-            if(!var6) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+case 12:
+            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var9 = _closure1_slot7;
             var8 = _closure1_slot5;
             var7 = {};
@@ -243,7 +270,7 @@ case 19:
             var7['style'] = var11;
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var10 = 8;
+            var10 = 10;
             var10 = var14[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -254,7 +281,7 @@ case 19:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 18:
+case 20:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

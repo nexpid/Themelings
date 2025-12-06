@@ -155,7 +155,7 @@ case 3:
             var10 = var16[var10];
             var10 = var12.bind(var4)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary', 'lineClamp': 1};
+            var10 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'text-default', 'lineClamp': 1};
             var15 = var15.text;
             var10['style'] = var15;
             var10['children'] = var14;
@@ -199,12 +199,12 @@ case 4:
             var17 = undefined;
             if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var17 = 'text-danger';
+            var17 = 'text-feedback-critical';
 case 6:
             var19 = 'header-primary';
             if(!var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var19 = 'text-danger';
+            var19 = 'text-feedback-critical';
 case 8:
             var3 = _closure1_slot7;
             var13 = _closure1_slot0;

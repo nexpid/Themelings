@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.DIVIDER_STRONG;
+    var10 = var10.BORDER_STRONG;
     var9['backgroundColor'] = var10;
     var4['divider'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -295,7 +295,7 @@ case 16:
                         var4 = undefined;
                         var1 = var2.bind(var4)(var1);
                         var3 = var1.Text;
-                        var2 = {'onPress': null, 'variant': 'text-sm/semibold', 'color': 'text-primary'};
+                        var2 = {'onPress': null, 'variant': 'text-sm/semibold', 'color': 'text-strong'};
                         var1 = _closure2_slot6;
                         var2['onPress'] = var1;
                         var1 = arg1;
@@ -390,7 +390,7 @@ case 22:
             var23 = var23[var10];
             var23 = var24.bind(var5)(var23);
             var24 = var23.Text;
-            var23 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+            var23 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
             var23['children'] = var26;
             var23 = var25.bind(var5)(var24, var23);
             var21[1] = var23;
@@ -408,7 +408,7 @@ case 21:
             var10 = var20[var10];
             var10 = var19.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var14 = var14.currentlySyncingText;
             var10['style'] = var14;
             var16 = 14;

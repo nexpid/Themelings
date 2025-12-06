@@ -601,7 +601,7 @@ case 24:
                 var13 = 'always-white';
                 if(!var14) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-                var13 = 'text-danger';
+                var13 = 'text-feedback-critical';
 case 26:
                 var9['color'] = var13;
                 var13 = true;

@@ -64,23 +64,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = arg1;
-            var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 3;
-            var3 = var3[var1];
+            var5 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var3 = 3;
+            var4 = var1[var3];
             var1 = undefined;
-            var8 = var4.bind(var1)(var3);
-            var7 = var8.itemInteracted;
-            var5 = 'show';
+            var9 = var5.bind(var1)(var4);
+            var8 = var9.itemInteracted;
+            var7 = 'show';
             if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = 'hide';
+            var7 = 'hide';
 case 2:
-            var4 = 'icymi_tab_toggle';
-            var3 = 'press';
-            var3 = var7.bind(var8)(var5, var4, var3);
-            var3 = _closure1_slot0;
+            var5 = 'icymi_tab_toggle';
+            var4 = 'press';
+            var4 = var8.bind(var9)(var7, var5, var4);
+            var4 = _closure1_slot1;
             var7 = _closure1_slot2;
+            var3 = var7[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.feedPageActioned;
+            var3 = {};
+            var8 = {'actionGestureType': 'press', 'actionTargetElement': 'icymi_tab_toggle', 'actionIntentType': 'configure', 'actionDestinationType': null};
+            var3['actionParameters'] = var8;
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot0;
             var2 = 4;
             var2 = var7[var2];
             var5 = var3.bind(var1)(var2);

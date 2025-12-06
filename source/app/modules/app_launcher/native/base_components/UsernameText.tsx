@@ -48,7 +48,7 @@ case 2:
             var1 = var1.color;
             if(!(var1 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = 'text-normal';
+            var1 = 'text-default';
 case 4:
             var13 = {};
             var13['variant'] = var3;

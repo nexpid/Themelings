@@ -191,7 +191,7 @@ case 17:
         var5 = var14[var5];
         var5 = var13.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+        var5 = {'variant': 'text-md/normal', 'color': 'text-default'};
         var10 = var19.description;
         var5['style'] = var10;
         var10 = 11;
@@ -446,7 +446,7 @@ case 19:
             var7 = var7[var14];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-md/normal', 'color': 'text-danger'};
+            var7 = {'variant': 'text-md/normal', 'color': 'text-feedback-critical'};
             var14 = var11.error;
             var7['style'] = var14;
             var7['children'] = var13;
@@ -784,7 +784,7 @@ case 33:
             var7 = var7[var14];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-md/normal', 'color': 'text-danger'};
+            var7 = {'variant': 'text-md/normal', 'color': 'text-feedback-critical'};
             var14 = var11.error;
             var7['style'] = var14;
             var7['children'] = var13;

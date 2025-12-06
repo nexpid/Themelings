@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -144,7 +144,7 @@ case 0:
             var15 = var15[var11];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-md/medium', 'color': 'text-primary'};
+            var15 = {'variant': 'text-md/medium', 'color': 'text-strong'};
             var15['children'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
@@ -165,7 +165,7 @@ case 5:
             var17 = var17[var11];
             var17 = var18.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+            var17 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var17['children'] = var20;
             var16 = var19.bind(var4)(var18, var17);
 case 4:
@@ -217,7 +217,7 @@ case 8:
             var11 = var15[var11];
             var11 = var13.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-sm/medium', 'color': 'text-positive'};
+            var11 = {'variant': 'text-sm/medium', 'color': 'text-feedback-positive'};
             var16 = 6;
             var17 = var15[var16];
             var17 = var13.bind(var4)(var17);

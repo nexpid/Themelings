@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/checkpoint/quests.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/93983a3a8b83bbb4283252a36d8105e57931a93dada2e395f2a515d75404a548.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/1682d0ed121759161edaecba8b2399bdb264d9432c81235600cc2583042baa96.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 5373761;
+    var4 = 2323002;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

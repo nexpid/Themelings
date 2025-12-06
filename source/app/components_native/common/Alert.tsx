@@ -136,7 +136,7 @@ case 4:
     var16 = var6[var14];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.DIVIDER_SUBTLE;
+    var16 = var16.BORDER_SUBTLE;
     var4['backgroundColor'] = var16;
     var7['divider'] = var4;
     var4 = {};
@@ -144,7 +144,7 @@ case 4:
     var12 = var6[var14];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_PRIMARY;
+    var12 = var12.TEXT_STRONG;
     var4['color'] = var12;
     var7['body'] = var4;
     var12 = {};
@@ -428,7 +428,7 @@ case 22:
                 var6 = var11[var6];
                 var6 = var8.bind(var5)(var6);
                 var8 = var6.Text;
-                var6 = {'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'text-normal'};
+                var6 = {'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'text-default'};
                 var11 = var10.titleText;
                 var6['style'] = var11;
                 var15 = 'string';

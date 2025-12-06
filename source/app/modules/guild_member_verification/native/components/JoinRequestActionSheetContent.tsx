@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.DIVIDER_SUBTLE;
+    var13 = var13.BORDER_SUBTLE;
     var10['borderTopColor'] = var13;
     var4['responsesContainer'] = var10;
     var10 = {};
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var10['backgroundColor'] = var13;
     var4['dot'] = var10;
     var10 = {'marginHorizontal': 16, 'marginBottom': 8};
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.DIVIDER_SUBTLE;
+    var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
     var4['divider'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -403,7 +403,7 @@ case 10:
             var13 = var18[var14];
             var13 = var19.bind(var4)(var13);
             var15 = var13.Text;
-            var13 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var13 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var20 = var18[var23];
             var20 = var19.bind(var4)(var20);
             var22 = var20.intl;
@@ -436,7 +436,7 @@ case 11:
             var14 = var22[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var14 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var20 = _closure1_slot1;
             var18 = 22;
             var18 = var22[var18];
@@ -534,7 +534,7 @@ case 15:
             var15 = var20[var9];
             var15 = var22.bind(var4)(var15);
             var18 = var15.Text;
-            var15 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var15 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var23 = var20[var17];
             var23 = var22.bind(var4)(var23);
             var25 = var23.intl;
@@ -567,7 +567,7 @@ case 16:
             var18 = var25[var9];
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var18 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var23 = _closure1_slot1;
             var21 = 22;
             var21 = var25[var21];
@@ -597,7 +597,7 @@ case 19:
             var9 = var12[var9];
             var9 = var13.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var9 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var14 = var12[var17];
             var14 = var13.bind(var4)(var14);
             var15 = var14.intl;
@@ -812,7 +812,7 @@ case 23:
             var5 = var13[var11];
             var5 = var12.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var14 = var6.formQuestion;
             var5['style'] = var14;
             var14 = var10.label;
@@ -826,7 +826,7 @@ case 23:
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var11 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var13 = var10.response;
             var11['children'] = var13;
             var11 = var8.bind(var4)(var12, var11);
@@ -847,7 +847,7 @@ case 22:
             var5 = var13[var11];
             var5 = var12.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var5 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var14 = var6.formQuestion;
             var5['style'] = var14;
             var14 = var10.label;
@@ -861,7 +861,7 @@ case 22:
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var11 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var14 = var10.response;
             var13 = null;
             var14 = var13 != var14;
@@ -896,7 +896,7 @@ case 20:
             var5 = var11[var5];
             var5 = var7.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var5 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var10 = var10.label;
             var5['children'] = var10;
             var6 = var8.bind(var4)(var6, var5);
@@ -948,7 +948,7 @@ case 20:
         var5 = var18[var11];
         var5 = var12.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+        var5 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
         var7 = var10.accountInfoLabel;
         var5['style'] = var7;
         var20 = 21;
@@ -975,7 +975,7 @@ case 20:
         var9 = var18[var11];
         var9 = var12.bind(var4)(var9);
         var17 = var9.Text;
-        var9 = {'variant': 'text-sm/semibold', 'color': 'text-primary'};
+        var9 = {'variant': 'text-sm/semibold', 'color': 'text-strong'};
         var19 = var18[var20];
         var19 = var12.bind(var4)(var19);
         var22 = var19.intl;
@@ -992,7 +992,7 @@ case 20:
         var17 = var18[var11];
         var17 = var12.bind(var4)(var17);
         var21 = var17.Text;
-        var19 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+        var19 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
         var17 = _closure1_slot1;
         var15 = 22;
         var22 = var18[var15];
@@ -1025,7 +1025,7 @@ case 20:
         var10 = var18[var11];
         var10 = var12.bind(var4)(var10);
         var19 = var10.Text;
-        var10 = {'variant': 'text-sm/semibold', 'color': 'text-primary'};
+        var10 = {'variant': 'text-sm/semibold', 'color': 'text-strong'};
         var21 = var18[var20];
         var21 = var12.bind(var4)(var21);
         var22 = var21.intl;
@@ -1042,7 +1042,7 @@ case 20:
         var11 = var18[var11];
         var11 = var12.bind(var4)(var11);
         var12 = var11.Text;
-        var11 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+        var11 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
         var15 = var18[var15];
         var15 = var17.bind(var4)(var15);
         var14 = var14.createdAt;

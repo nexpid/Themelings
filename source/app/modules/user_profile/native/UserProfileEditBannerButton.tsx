@@ -104,7 +104,7 @@ case 5:
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'color': 'text-normal'};
+            var6 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var10 = var13[var9];
             var10 = var12.bind(var5)(var10);
             var11 = var10.intl;
@@ -207,7 +207,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_FLOATING;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -226,7 +226,7 @@ case 6:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_FLOATING;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['previewButton'] = var9;
     var4 = var7.bind(var8)(var4);

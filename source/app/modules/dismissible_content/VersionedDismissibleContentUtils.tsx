@@ -23,7 +23,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 9;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GAME_SHOP_ANNOUNCEMENT_MODAL_VERSION;
+    var _closure1_slot4 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -35,7 +40,7 @@ case 0:
             var6 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var5 = 2;
+            var5 = 3;
             var3 = var2[var5];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
@@ -100,8 +105,16 @@ case 12:
             if(!(var3 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var5];
+            var3 = var4.bind(var2)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.GAME_SHOP_ANNOUNCEMENT_MODAL;
+            if(!(var3 !== var6)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 8;
+            var3 = 9;
             var3 = var5[var3];
             var5 = var4.bind(var2)(var3);
             var4 = var5.assertUnreachable;
@@ -111,10 +124,13 @@ case 14:
             var3 = var4.bind(var5)(var6, var3);
             var3 = 0;
             return var3;
+case 15:
+            var3 = _closure1_slot4;
+            return var3;
 case 13:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 7;
+            var3 = 8;
             var3 = var5[var3];
             var4 = var4.bind(var2)(var3);
             var3 = var4.getWideBannerDismissibleContentVersion;
@@ -126,7 +142,7 @@ case 11:
 case 9:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var3 = 5;
+            var3 = 6;
             var3 = var8[var3];
             var5 = var7.bind(var2)(var3);
             var4 = var5.getNewestBadgeableVersion;
@@ -135,7 +151,7 @@ case 9:
             var6 = var9.getState;
             var6 = var6.bind(var9)();
             var3['storeState'] = var6;
-            var6 = 6;
+            var6 = 7;
             var6 = var8[var6];
             var6 = var7.bind(var2)(var6);
             var6 = var6.EmbeddedActivitySurfaces;
@@ -146,7 +162,7 @@ case 9:
 case 4:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 4;
+            var3 = 5;
             var3 = var5[var3];
             var4 = var4.bind(var2)(var3);
             var3 = var4.getGiftingPromotionDismissibleContentVersion;
@@ -157,7 +173,7 @@ case 2:
             var3 = var4.getMarketingBySurface;
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var1 = var6[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.CollectiblesMarketingSurface;
@@ -166,16 +182,16 @@ case 2:
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(var4) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var2 = var3.version;
-case 15:
+case 17:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var3) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var1 = var2;
-case 17:
+case 19:
             return var1;
         }
     };

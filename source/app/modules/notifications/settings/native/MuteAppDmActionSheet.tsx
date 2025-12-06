@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var17[var9];
         var9 = var16.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+        var9 = {'variant': 'text-md/normal', 'color': 'text-default'};
         var14 = var11.infoText;
         var9['style'] = var14;
         var14 = var17[var13];

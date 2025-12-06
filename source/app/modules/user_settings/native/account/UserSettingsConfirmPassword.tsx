@@ -425,7 +425,7 @@ case 30:
             var11 = var19[var11];
             var11 = var27.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var22 = var15.prompt;
             var11['style'] = var22;
             var22 = var19[var23];

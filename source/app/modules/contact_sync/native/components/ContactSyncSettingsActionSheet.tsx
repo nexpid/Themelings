@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var4['formRow'] = var9;
     var9 = {};
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_SECONDARY;
+    var10 = var10.TEXT_SUBTLE;
     var9['color'] = var10;
     var4['info'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -297,7 +297,7 @@ case 2:
             var16 = var7[var15];
             var16 = var2.bind(var4)(var16);
             var18 = var16.Text;
-            var16 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var16 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var21 = var7[var17];
             var21 = var2.bind(var4)(var21);
             var23 = var21.intl;
@@ -357,7 +357,7 @@ case 2:
             var15 = var7[var15];
             var15 = var2.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var15 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var18 = var7[var17];
             var18 = var2.bind(var4)(var18);
             var19 = var18.intl;

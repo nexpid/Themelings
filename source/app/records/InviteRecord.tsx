@@ -189,12 +189,18 @@ case 32:
                 var3 = null;
 case 31:
                 var1['type'] = var3;
-                var2 = var2.flags;
-                if(var2) { _fun0002_ip = 33; continue _fun0002 }
+                var3 = var2.flags;
+                if(var3) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
-                var2 = 0;
+                var3 = 0;
 case 33:
-                var1['flags'] = var2;
+                var1['flags'] = var3;
+                var2 = var2.roles;
+                if(var2) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
+                var2 = new Array(0);
+case 35:
+                var1['roles'] = var2;
                 return var1;
             }
         };
@@ -213,8 +219,8 @@ case 0:
                 var1 = this;
                 var4 = var1.maxAge;
                 var2 = 0;
-                if(!(var4 > var2)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                if(!(var4 > var2)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -232,11 +238,11 @@ case 36:
                 var1 = var4.now;
                 var1 = var1.bind(var4)();
                 var1 = var2.bind(var3)(var1);
-                if(var1) { _fun0003_ip = 37; continue _fun0003 }
-case 35:
+                if(var1) { _fun0003_ip = 39; continue _fun0003 }
+case 37:
                 var1 = false;
                 return var1;
-case 37:
+case 39:
                 var1 = true;
                 return var1;
             }
@@ -255,8 +261,8 @@ case 0:
                 var1 = 0;
                 var3 = var3 > var1;
                 var1 = inf;
-                if(!var3) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                if(!var3) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var3 = 6;
@@ -271,7 +277,7 @@ case 39:
                 var3 = var4.bind(var5)(var3, var2);
                 var2 = var3.toDate;
                 var1 = var2.bind(var3)();
-case 38:
+case 40:
                 return var1;
             }
         };
@@ -315,10 +321,10 @@ case 0:
                 var4 = null;
                 var8 = var4 != var7;
                 var4 = undefined;
-                if(!var8) { _fun0005_ip = 35; continue _fun0005 }
-case 40:
+                if(!var8) { _fun0005_ip = 37; continue _fun0005 }
+case 42:
                 var4 = var7;
-case 35:
+case 37:
                 var5 = var5.bind(var6)(var4);
                 var4 = 'createdAt';
                 var1[var4] = var5;

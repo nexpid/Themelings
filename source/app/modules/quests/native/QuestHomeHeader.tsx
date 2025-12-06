@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var14[var8];
         var8 = var11.bind(var4)(var8);
         var9 = var8.Text;
-        var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-primary', 'accessibilityRole': 'header'};
+        var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-strong', 'accessibilityRole': 'header'};
         var15 = {};
         var17 = 2;
         var15['paddingTop'] = var17;

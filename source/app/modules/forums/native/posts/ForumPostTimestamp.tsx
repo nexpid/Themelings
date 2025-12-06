@@ -68,7 +68,7 @@ case 0:
             var6 = 'text-muted';
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = 'header-secondary';
+            var6 = 'text-default';
 case 2:
             var3 = _closure1_slot3;
             var2 = _closure1_slot0;

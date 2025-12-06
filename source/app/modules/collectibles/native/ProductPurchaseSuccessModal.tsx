@@ -408,7 +408,7 @@ case 16:
             var3 = var12[var3];
             var3 = var9.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_SURFACE_RAISED;
+            var3 = var3.BACKGROUND_SURFACE_HIGH;
             var9 = var5.bind(var6)(var3);
             _closure2_slot3 = var9;
             var6 = _closure1_slot5;

@@ -303,7 +303,7 @@ case 21:
             var8 = var8.colors;
             if(var12) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var12 = var8.TEXT_NORMAL;
+            var12 = var8.TEXT_DEFAULT;
             _fun0002_ip = 25; continue _fun0002;
 case 23:
             var12 = var8.TEXT_MUTED;
@@ -363,7 +363,7 @@ case 25:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var4 = var3.DIVIDER_STRONG;
+            var4 = var3.BORDER_STRONG;
             var3 = 'borderRightColor';
             var2[var3] = var4;
             var1['splitBorder'] = var2;

@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.DIVIDER_SUBTLE;
+    var13 = var13.BORDER_SUBTLE;
     var9['borderBottomColor'] = var13;
     var4['actionBarContainer'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};

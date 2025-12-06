@@ -210,7 +210,7 @@ case 8:
             var25 = var31[var25];
             var25 = var27.bind(var4)(var25);
             var27 = var25.Text;
-            var25 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var25 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var31 = var17.text;
             var25['style'] = var31;
             var25['children'] = var30;

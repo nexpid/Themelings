@@ -1421,21 +1421,21 @@ case 60:
             var12 = var14.bind(var4)(var12);
             var14 = var12.t;
             if(var9) { _fun0009_ip = 62; continue _fun0009 }
-case 18:
-            if(var13) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
+case 63:
+            if(var13) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
             var12 = var14.qP/i6k;
             var12 = var15.bind(var16)(var12);
-            _fun0009_ip = 65; continue _fun0009;
-case 63:
+            _fun0009_ip = 66; continue _fun0009;
+case 64:
             var17 = var14.ldCE/p;
             var12 = var15.bind(var16)(var17);
-case 65:
-            _fun0009_ip = 66; continue _fun0009;
+case 66:
+            _fun0009_ip = 67; continue _fun0009;
 case 62:
             var14 = var14.3Uj+2p;
             var12 = var15.bind(var16)(var14);
-case 66:
+case 67:
             var5['title'] = var12;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;
@@ -1452,13 +1452,13 @@ case 66:
             var12 = 24;
             var5['spacing'] = var12;
             var12 = var8;
-            if(!var12) { _fun0009_ip = 67; continue _fun0009 }
-case 68:
+            if(!var12) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
             var15 = _closure1_slot18;
             var14 = _closure1_slot22;
             var8 = {};
             var12 = var15.bind(var4)(var14, var8);
-case 67:
+case 68:
             var8 = new Array(6);
             var8[0] = var12;
             var15 = _closure1_slot18;
@@ -1477,25 +1477,25 @@ case 67:
             var12 = var15.bind(var4)(var14, var12);
             var8[3] = var12;
             var12 = !var9;
-            if(!var12) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+            if(!var12) { _fun0009_ip = 70; continue _fun0009 }
+case 71:
             var12 = var13;
-case 69:
-            if(!var12) { _fun0009_ip = 71; continue _fun0009 }
-case 72:
+case 70:
+            if(!var12) { _fun0009_ip = 72; continue _fun0009 }
+case 73:
             var15 = _closure1_slot18;
             var14 = _closure1_slot23;
             var13 = {};
             var12 = var15.bind(var4)(var14, var13);
-case 71:
+case 72:
             var8[4] = var12;
             var9 = !var9;
-            if(!var9) { _fun0009_ip = 73; continue _fun0009 }
-case 74:
+            if(!var9) { _fun0009_ip = 74; continue _fun0009 }
+case 75:
             var9 = var11;
-case 73:
-            if(!var9) { _fun0009_ip = 75; continue _fun0009 }
-case 76:
+case 74:
+            if(!var9) { _fun0009_ip = 76; continue _fun0009 }
+case 77:
             var12 = _closure1_slot18;
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
@@ -1504,7 +1504,7 @@ case 76:
             var11 = var11.bind(var4)(var10);
             var10 = {'title': 'Developer Tools', 'embedded': true};
             var9 = var12.bind(var4)(var11, var10);
-case 75:
+case 76:
             var8[5] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

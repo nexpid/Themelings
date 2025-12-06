@@ -183,7 +183,7 @@ case 14:
         var12 = var7[var12];
         var12 = var13.bind(var1)(var12);
         var12 = var12.colors;
-        var11 = var12.BG_MOD_FAINT;
+        var11 = var12.BACKGROUND_MOD_FAINT;
 case 13:
         var10['backgroundColor'] = var11;
         var4['pressedHighlight'] = var10;

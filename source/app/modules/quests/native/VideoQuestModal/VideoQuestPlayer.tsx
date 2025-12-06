@@ -264,14 +264,14 @@ case 2:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var10['color'] = var13;
     var4['icon'] = var10;
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_SECONDARY;
+    var13 = var13.TEXT_SUBTLE;
     var10['color'] = var13;
     var4['iconDisabled'] = var10;
     var10 = {};

@@ -383,13 +383,9 @@ case 61:
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.ReactNavigationInstrumentation;
-    var5 = var4.prototype;
-    var5 = Object.create(var5, {constructor: {value: var4}});
-    var20 = var5;
-    var4 = new var20[var4](var19);
-    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = var6.bind(var1)(var4);
+    var4 = var5.reactNavigationIntegration;
+    var4 = var4.bind(var5)();
     var _closure1_slot7 = var4;
     var13 = var9.RegExp;
     var5 = var9.window;
@@ -463,7 +459,7 @@ case 61:
     var5 = {'maxBudgetMinute': 1, 'maxBudgetHour': 15};
     var5 = var8.bind(var9)(var5);
     var _closure1_slot13 = var5;
-    var5 = 17;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -493,92 +489,92 @@ case 0:
                     var2 = var3.getConstants;
                     var2 = var2.bind(var3)();
                     var3 = var2.ReleaseChannel;
-                    var6 = var3.indexOf;
+                    var7 = var3.indexOf;
                     var5 = 'debug';
-                    var5 = var6.bind(var3)(var5);
-                    var7 = -1;
-                    if(!(var7 === var5)) { _fun0005_ip = 65; continue _fun0005 }
-case 66:
-                    var6 = var3.indexOf;
+                    var5 = var7.bind(var3)(var5);
+                    var8 = -1;
+                    if(!(var8 === var5)) { _fun0005_ip = 65; continue _fun0005 }
+case 63:
+                    var7 = var3.indexOf;
                     var5 = 'developer';
-                    var5 = var6.bind(var3)(var5);
-                    if(!(var7 === var5)) { _fun0005_ip = 65; continue _fun0005 }
-case 67:
-                    var8 = _closure1_slot0;
-                    var6 = _closure1_slot3;
+                    var5 = var7.bind(var3)(var5);
+                    if(!(var8 === var5)) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
+                    var9 = _closure1_slot0;
+                    var7 = _closure1_slot3;
                     var5 = 12;
-                    var5 = var6[var5];
-                    var5 = var8.bind(var1)(var5);
+                    var5 = var7[var5];
+                    var5 = var9.bind(var1)(var5);
                     var5 = var5.isStable;
-                    var13 = _closure1_slot9;
-                    var12 = var13.verbose;
-                    var10 = {};
-                    var10['releaseChannel'] = var3;
-                    var10['isProductionChannel'] = var5;
-                    var9 = 'Initialize';
-                    var9 = var12.bind(var13)(var9, var10);
-                    var12 = 13;
-                    var6 = var6[var12];
-                    var8 = var8.bind(var1)(var6);
-                    var6 = var8.isAndroid;
-                    var6 = var6.bind(var8)();
-                    if(!var6) { _fun0005_ip = 68; continue _fun0005 }
-case 69:
-                    if(!var5) { _fun0005_ip = 68; continue _fun0005 }
-case 70:
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot3;
-                    var6 = 14;
-                    var6 = var9[var6];
-                    var8 = var8.bind(var1)(var6);
-                    var6 = var8.getDevice;
-                    var9 = var6.bind(var8)();
-                    var8 = var9.indexOf;
-                    var6 = 'vivo';
-                    var6 = var8.bind(var9)(var6);
-                    if(!(var7 === var6)) { _fun0005_ip = 65; continue _fun0005 }
+                    var14 = _closure1_slot9;
+                    var13 = var14.verbose;
+                    var12 = {};
+                    var12['releaseChannel'] = var3;
+                    var12['isProductionChannel'] = var5;
+                    var11 = 'Initialize';
+                    var11 = var13.bind(var14)(var11, var12);
+                    var13 = 13;
+                    var7 = var7[var13];
+                    var9 = var9.bind(var1)(var7);
+                    var7 = var9.isAndroid;
+                    var7 = var7.bind(var9)();
+                    if(!var7) { _fun0005_ip = 67; continue _fun0005 }
 case 68:
-                    var6 = 0.05;
-                    _closure1_slot11 = var6;
-                    var6 = var2.SentryDsn;
-                    if(var5) { _fun0005_ip = 71; continue _fun0005 }
-case 72:
-                    var5 = 1;
-                    _closure1_slot11 = var5;
-                    var6 = var2.SentryAlphaBetaDsn;
+                    if(!var5) { _fun0005_ip = 67; continue _fun0005 }
+case 69:
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot3;
+                    var7 = 14;
+                    var7 = var11[var7];
+                    var9 = var9.bind(var1)(var7);
+                    var7 = var9.getDevice;
+                    var11 = var7.bind(var9)();
+                    var9 = var11.indexOf;
+                    var7 = 'vivo';
+                    var7 = var9.bind(var11)(var7);
+                    if(!(var8 === var7)) { _fun0005_ip = 65; continue _fun0005 }
+case 67:
+                    var7 = 0.05;
+                    _closure1_slot11 = var7;
+                    var11 = var2.SentryDsn;
+                    if(var5) { _fun0005_ip = 70; continue _fun0005 }
 case 71:
-                    if(!var4) { _fun0005_ip = 73; continue _fun0005 }
-case 74:
-                    var6 = var2.SentryStaffDsn;
                     var5 = 1;
                     _closure1_slot11 = var5;
+                    var11 = var2.SentryAlphaBetaDsn;
+case 70:
+                    if(!var4) { _fun0005_ip = 72; continue _fun0005 }
 case 73:
-                    var10 = _closure1_slot0;
+                    var11 = var2.SentryStaffDsn;
+                    var5 = 1;
+                    _closure1_slot11 = var5;
+case 72:
+                    var12 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var4 = 3;
                     var5 = var9[var4];
-                    var8 = var10.bind(var1)(var5);
+                    var8 = var12.bind(var1)(var5);
                     var7 = var8.init;
                     var5 = {};
-                    var9 = var9[var12];
-                    var10 = var10.bind(var1)(var9);
-                    var9 = var10.isAndroid;
-                    var9 = var9.bind(var10)();
-                    var10 = 'ios';
-                    if(!var9) { _fun0005_ip = 75; continue _fun0005 }
-case 76:
-                    var10 = 'android';
+                    var9 = var9[var13];
+                    var12 = var12.bind(var1)(var9);
+                    var9 = var12.isAndroid;
+                    var9 = var9.bind(var12)();
+                    var12 = 'ios';
+                    if(!var9) { _fun0005_ip = 74; continue _fun0005 }
 case 75:
+                    var12 = 'android';
+case 74:
                     var9 = '/error-reporting-proxy/';
-                    var9 = var9 + var10;
+                    var9 = var9 + var12;
                     var5['tunnel'] = var9;
                     var9 = false;
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4911';
+                    var9 = '4937';
                     var5['dist'] = var9;
-                    var5['dsn'] = var6;
+                    var5['dsn'] = var11;
                     var5['environment'] = var3;
                     var3 = 0;
                     var5['tracesSampleRate'] = var3;
@@ -586,21 +582,22 @@ case 75:
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@309.0.0-2+309200';
+                    var3 = 'discord_android@309.5.0-2+309205';
                     var5['release'] = var3;
+                    var11 = _closure1_slot6;
+                    var3 = new Array(1);
+                    var3[0] = var11;
+                    var5['tracePropagationTargets'] = var3;
+                    var3 = _closure1_slot7;
+                    var11 = new Array(2);
+                    var11[0] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var10 = var6[var4];
-                    var10 = var3.bind(var1)(var10);
-                    var12 = var10.ReactNativeTracing;
-                    var10 = {};
-                    var13 = _closure1_slot7;
-                    var10['routingInstrumentation'] = var13;
-                    var13 = _closure1_slot6;
-                    var11 = new Array(1);
-                    var11[0] = var13;
-                    var10['tracePropagationTargets'] = var11;
-                    var11 = function shouldCreateSpanForRequest(arg1) {
+                    var12 = var6[var4];
+                    var14 = var3.bind(var1)(var12);
+                    var13 = var14.reactNativeTracingIntegration;
+                    var12 = {};
+                    var15 = function shouldCreateSpanForRequest(arg1) {
                         var3 = _closure1_slot8;
                         var2 = var3.some;
                         var1 = arg1;
@@ -609,16 +606,49 @@ case 75:
                         var1 = !var1;
                         return var1;
                     };
-                    var10['shouldCreateSpanForRequest'] = var11;
-                    var11 = var12.prototype;
-                    var11 = Object.create(var11, {constructor: {value: var12}});
-                    var16 = var11;
-                    var15 = var10;
-                    var10 = new var16[var12](var15, var14);
-                    var11 = var10 instanceof Object ? var10 : var11;
-                    var10 = new Array(1);
-                    var10[0] = var11;
-                    var5['integrations'] = var10;
+                    var12['shouldCreateSpanForRequest'] = var15;
+                    var12 = var13.bind(var14)(var12);
+                    var11[1] = var12;
+                    var5['integrations'] = var11;
+                    var10 = function beforeBreadcrumb(arg1) {
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                            var1 = arg1;
+                            var3 = var1.data;
+                            var2 = null;
+                            if(!(var2 == var3)) { _fun0006_ip = 57; continue _fun0006 }
+case 76:
+                            var3 = {};
+                            var1['data'] = var3;
+case 57:
+                            var7 = _closure1_slot1;
+                            var4 = _closure1_slot3;
+                            var6 = 15;
+                            var4 = var4[var6];
+                            var5 = undefined;
+                            var7 = var7.bind(var5)(var4);
+                            var4 = var7.getCurrentMemoryUsageKB;
+                            var7 = var4.bind(var7)();
+                            if(!(var2 != var7)) { _fun0006_ip = 9; continue _fun0006 }
+case 77:
+                            var4 = var1.data;
+                            var4['client_performance_memory'] = var7;
+case 9:
+                            var4 = _closure1_slot1;
+                            var3 = _closure1_slot3;
+                            var3 = var3[var6];
+                            var4 = var4.bind(var5)(var3);
+                            var3 = var4.getCurrentCPUUsagePercent;
+                            var3 = var3.bind(var4)();
+                            if(!(var2 != var3)) { _fun0006_ip = 16; continue _fun0006 }
+case 15:
+                            var2 = var1.data;
+                            var2['client_performance_cpu'] = var3;
+case 16:
+                            return var1;
+                        }
+                    };
+                    var5['beforeBreadcrumb'] = var10;
                     var5 = var7.bind(var8)(var5);
                     var5 = var6[var4];
                     var8 = var3.bind(var1)(var5);
@@ -634,7 +664,7 @@ case 75:
                     var2 = var6[var4];
                     var8 = var3.bind(var1)(var2);
                     var7 = var8.setTag;
-                    var2 = 15;
+                    var2 = 16;
                     var2 = var6[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.DesignIds;
@@ -649,7 +679,7 @@ case 75:
                     var2 = var6[var4];
                     var9 = var3.bind(var1)(var2);
                     var8 = var9.setTag;
-                    var2 = 16;
+                    var2 = 17;
                     var5 = var6[var2];
                     var7 = var3.bind(var1)(var5);
                     var5 = var7.isFabric;

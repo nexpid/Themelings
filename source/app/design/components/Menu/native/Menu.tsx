@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_FLOATING;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var14;
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
@@ -601,7 +601,7 @@ case 56:
             var1 = var5[var17];
             var3 = var22.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function V() {
+            var1 = function N() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.CheckpointSteps;
     var _closure1_slot4 = var4;
-    var4 = 4;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -156,36 +156,6 @@ case 22:
 case 20:
             if(!var7) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var9 = var6.users;
-            var10 = var3 == var9;
-            var8 = undefined;
-            if(var10) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
-            var8 = var9.length;
-case 26:
-            var10 = var3 != var8;
-            var9 = 0;
-            if(!var10) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
-            var9 = var8;
-case 28:
-            var8 = 1;
-            var8 = var9 > var8;
-            if(var8) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot1;
-            var9 = 3;
-            var9 = var11[var9];
-            var10 = var10.bind(var5)(var9);
-            var9 = var10.isAndroid;
-            var9 = var9.bind(var10)();
-            var8 = !var9;
-case 30:
-            var7 = var8;
-case 24:
-            if(!var7) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
             var9 = var1.push;
             var7 = _closure1_slot4;
             var8 = var7.FRIENDS_INTRO;
@@ -193,17 +163,17 @@ case 33:
             var8 = var1.push;
             var7 = var7.FRIENDS_TRANSITION;
             var7 = var8.bind(var1)(var7);
-case 32:
+case 24:
             var7 = var6.sidekick;
             var7 = var3 != var7;
-            if(!var7) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var7) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var8 = var6.sidekick;
             var8 = var8.user;
             var7 = var3 != var8;
-case 34:
-            if(!var7) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+case 26:
+            if(!var7) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var9 = var1.push;
             var7 = _closure1_slot4;
             var8 = var7.FRIENDS_BEST;
@@ -211,28 +181,28 @@ case 37:
             var8 = var1.push;
             var7 = var7.FRIENDS_LEAVE;
             var7 = var8.bind(var1)(var7);
-case 36:
+case 28:
             var6 = var6.applications;
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+            if(var7) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var6 = var6.applications;
             var5 = var6.length;
-case 38:
+case 30:
             var6 = var3 != var5;
             var3 = 0;
-            if(!var6) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(!var6) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var3 = var5;
-case 40:
-            if(!(var3 > var4)) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
+case 32:
+            if(!(var3 > var4)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var4 = var1.push;
             var3 = _closure1_slot4;
             var3 = var3.GAMING;
             var3 = var4.bind(var1)(var3);
-case 42:
+case 34:
             var4 = var1.push;
             var2 = _closure1_slot4;
             var3 = var2.QUESTS;

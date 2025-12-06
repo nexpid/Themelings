@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_SECONDARY;
+    var11 = var11.TEXT_SUBTLE;
     var9['color'] = var11;
     var4['dismissButtonText'] = var9;
     var9 = {};
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var12[var6];
         var6 = var16.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var10 = var9.description;
         var6['style'] = var10;
         var10 = var12[var13];

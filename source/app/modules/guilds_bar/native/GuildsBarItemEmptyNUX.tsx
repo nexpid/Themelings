@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var13[var2];
         var14 = var16.bind(var4)(var14);
         var14 = var14.colors;
-        var14 = var14.BG_SURFACE_RAISED;
+        var14 = var14.BACKGROUND_SURFACE_HIGH;
         var15 = var15.bind(var17)(var14);
         var _closure2_slot2 = var15;
         var3 = var13[var3];

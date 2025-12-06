@@ -56,7 +56,7 @@ case 2:
             var13 = var20[var12];
             var13 = var19.bind(var4)(var13);
             var16 = var13.Text;
-            var13 = {'variant': 'text-md/semibold', 'color': 'text-secondary', 'style': null, 'lineClamp': 1};
+            var13 = {'variant': 'text-md/semibold', 'color': 'text-subtle', 'style': null, 'lineClamp': 1};
             var18 = var15.channel;
             var13['style'] = var18;
             var18 = 11;
@@ -99,7 +99,7 @@ case 5:
             var12 = var16[var12];
             var12 = var21.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/semibold', 'color': 'text-secondary'};
+            var12 = {'variant': 'text-md/semibold', 'color': 'text-subtle'};
             var18 = 13;
             var19 = var16[var18];
             var19 = var21.bind(var4)(var19);
@@ -194,7 +194,7 @@ case 4:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_POSITIVE;
+    var11 = var11.TEXT_FEEDBACK_POSITIVE;
     var10['color'] = var11;
     var5['time'] = var10;
     var5 = var8.bind(var9)(var5);

@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var7;
     var4 = var4.LoadingType;
     var _closure1_slot8 = var4;
-    var4 = {'constrainedWidth': 0, 'animatingStickerMessageId': null, 'forcedTheme': null, 'shouldObscureSpoiler': true, 'shouldDisableInteractiveComponents': true, 'shouldFilterKeywords': false};
+    var4 = {'constrainedWidth': 0, 'animatingStickerMessageId': null, 'forcedTheme': null, 'shouldObscureSpoiler': true, 'shouldDisableInteractiveComponents': true};
     var7 = 4;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);

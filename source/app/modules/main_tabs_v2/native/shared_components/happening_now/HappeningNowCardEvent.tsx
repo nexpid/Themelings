@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var9];
     var17 = var15.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_MOD_FAINT;
+    var17 = var17.BACKGROUND_MOD_FAINT;
     var13['backgroundColor'] = var17;
     var13['height'] = var4;
     var17 = var6[var9];
@@ -106,14 +106,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var9];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_STRONG;
+    var14 = var14.BACKGROUND_MOD_STRONG;
     var13['backgroundColor'] = var14;
     var8['shortDottedLineSegment'] = var13;
     var13 = {'width': 2, 'height': 4, 'backgroundColor': null, 'opacity': 0.8};
     var14 = var6[var9];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_STRONG;
+    var14 = var14.BACKGROUND_MOD_STRONG;
     var13['backgroundColor'] = var14;
     var8['dottedLineSegment'] = var13;
     var13 = {'justifyContent': 'center', 'alignItems': 'center'};
@@ -122,14 +122,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var9];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_SECONDARY;
+    var14 = var14.TEXT_SUBTLE;
     var13['tintColor'] = var14;
     var8['interestedUsersIcon'] = var13;
     var13 = {'backgroundColor': null, 'flexDirection': 'column', 'justifyContent': 'space-between', 'alignItems': 'center', 'height': null, 'padding': 6};
     var14 = var6[var9];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_SUBTLE;
+    var14 = var14.BACKGROUND_MOD_SUBTLE;
     var13['backgroundColor'] = var14;
     var13['height'] = var4;
     var14 = var6[var9];
@@ -582,7 +582,7 @@ case 34:
             var16 = undefined;
             if(!var15) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
-            var16 = 'text-positive';
+            var16 = 'text-feedback-positive';
 case 35:
             var10['color'] = var16;
             var16 = undefined;

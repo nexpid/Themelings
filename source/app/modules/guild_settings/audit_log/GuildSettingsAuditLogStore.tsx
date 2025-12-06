@@ -683,8 +683,8 @@ case 0:
             var _closure2_slot1 = var1;
             var4 = _closure1_slot19;
             var4 = var4.AUDIT_LOG;
-            if(!(var5 === var4)) { _fun0006_ip = 24; continue _fun0006 }
-case 118:
+            if(!(var5 === var4)) { _fun0006_ip = 118; continue _fun0006 }
+case 119:
             var6 = _closure1_slot11;
             var5 = var6.getMembers;
             var4 = _closure1_slot21;
@@ -698,13 +698,13 @@ case 118:
             var4 = null;
             var6 = var4 != var6;
             var4 = undefined;
-            if(!var6) { _fun0006_ip = 119; continue _fun0006 }
-case 120:
+            if(!var6) { _fun0006_ip = 120; continue _fun0006 }
+case 15:
             var8 = _closure1_slot12;
             var7 = var8.getUnsafeMutableRoles;
             var6 = _closure1_slot21;
             var4 = var7.bind(var8)(var6);
-case 119:
+case 120:
             _closure2_slot1 = var4;
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -772,7 +772,7 @@ case 123:
             var2 = var2.bind(var4)();
             _closure1_slot24 = var2;
             return var1;
-case 24:
+case 118:
             var1 = false;
             return var1;
         }

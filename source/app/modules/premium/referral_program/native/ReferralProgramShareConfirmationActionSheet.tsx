@@ -81,7 +81,7 @@ case 4:
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-md/medium', 'color': 'text-secondary'};
+            var1 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
             var5 = var8.username;
             var1['children'] = var5;
             var10 = var3.bind(var4)(var2, var1);
@@ -426,7 +426,7 @@ case 15:
             var10 = var19[var10];
             var10 = var18.bind(var4)(var10);
             var11 = var10.TextWithIOSLinkWorkaround;
-            var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var17 = var14.subheader;
             var10['style'] = var17;
             var17 = 9;

@@ -380,12 +380,12 @@ case 21:
     var19 = var10[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BG_SURFACE_RAISED;
+    var19 = var19.BACKGROUND_SURFACE_HIGH;
     var17['backgroundColor'] = var19;
     var19 = var10[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.DIVIDER_STRONG;
+    var19 = var19.BORDER_STRONG;
     var17['borderTopColor'] = var19;
     var6['footerContainer'] = var17;
     var17 = {'flex': 1, 'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingHorizontal': 18};
@@ -579,7 +579,7 @@ case 29:
     var17 = var10[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_MOD_STRONG;
+    var17 = var17.BACKGROUND_MOD_STRONG;
     var14['backgroundColor'] = var17;
     var5['bulletPoint'] = var14;
     var14 = {'flexDirection': 'row', 'marginLeft': 4, 'marginBottom': 8};
@@ -588,7 +588,7 @@ case 29:
     var15 = var10[var15];
     var15 = var16.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var14['color'] = var15;
     var5['listText'] = var14;
     var14 = {'flexDirection': 'column', 'flex': 1};

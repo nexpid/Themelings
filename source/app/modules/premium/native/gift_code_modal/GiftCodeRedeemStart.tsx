@@ -1096,7 +1096,7 @@ case 51:
             var22 = var23[var27];
             var22 = var24.bind(var4)(var22);
             var28 = var22.Text;
-            var22 = {'variant': 'eyebrow', 'color': 'text-normal'};
+            var22 = {'variant': 'eyebrow', 'color': 'text-default'};
             var29 = var18.text;
             var22['style'] = var29;
             var29 = 9;

@@ -120,7 +120,7 @@ case 2:
             var2 = var18[var2];
             var2 = var14.bind(var4)(var2);
             var8 = var2.Text;
-            var2 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var13 = 9;
             var15 = var18[var13];
             var15 = var14.bind(var4)(var15);

@@ -727,7 +727,7 @@ case 82:
                 if(!(var5 !== var1)) { _fun0015_ip = 83; continue _fun0015 }
 case 84:
                 if(!(var8 !== var1)) { _fun0015_ip = 83; continue _fun0015 }
-case 15:
+case 85:
                 var4 = var1;
                 if(!(var9 === var4)) { _fun0015_ip = 81; continue _fun0015 }
 case 83:
@@ -740,12 +740,12 @@ case 81:
                 var5 = _closure1_slot10;
                 var1 = var5.get;
                 var1 = var1.bind(var5)(var4);
-                if(!(var3 == var1)) { _fun0015_ip = 85; continue _fun0015 }
+                if(!(var3 == var1)) { _fun0015_ip = 54; continue _fun0015 }
 case 86:
                 var3 = {'name': null, 'execCount': 0, 'execTime': 0, 'warned': false};
                 var3['name'] = var4;
                 var1 = var3;
-case 85:
+case 54:
                 var3 = _closure1_slot10;
                 var2 = var3.set;
                 var2 = var2.bind(var3)(var4, var1);

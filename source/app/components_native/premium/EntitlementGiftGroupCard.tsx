@@ -160,7 +160,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BG_SURFACE_RAISED;
+    var21 = var21.BACKGROUND_SURFACE_HIGH;
     var16['backgroundColor'] = var21;
     var7['groupCardHeader'] = var16;
     var16 = {'height': 8, 'width': 12, 'marginRight': 8};
@@ -176,7 +176,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.BG_SURFACE_RAISED;
+    var21 = var21.BACKGROUND_SURFACE_HIGH;
     var16['backgroundColor'] = var21;
     var7['generateGiftRow'] = var16;
     var16 = {};
@@ -354,7 +354,7 @@ case 12:
             var5 = var14[var5];
             var5 = var18.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var5 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var9 = var10.generateGiftRowText;
             var5['style'] = var9;
             var15 = 19;
@@ -571,7 +571,7 @@ case 24:
                 var18 = var18[var22];
                 var18 = var19.bind(var4)(var18);
                 var19 = var18.Text;
-                var18 = {'variant': 'text-md/normal', 'color': 'text-secondary'};
+                var18 = {'variant': 'text-md/normal', 'color': 'text-subtle'};
                 var22 = var12.subtitle;
                 var18['style'] = var22;
                 var23 = _closure1_slot0;

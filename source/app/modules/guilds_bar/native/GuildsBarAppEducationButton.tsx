@@ -131,7 +131,7 @@ case 2:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_STRONG;
+    var12 = var12.BACKGROUND_MOD_STRONG;
     var10['backgroundColor'] = var12;
     var4['separator'] = var10;
     var10 = {};

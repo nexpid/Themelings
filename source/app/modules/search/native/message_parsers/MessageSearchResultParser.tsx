@@ -279,7 +279,7 @@ case 24:
                         var4 = var6.value;
                         var4 = var4.bind(var6)();
                         if(!(var5 == var4)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+case 14:
                         return var1;
 case 26:
                         var2 = _closure1_slot7;
@@ -325,17 +325,17 @@ case 19:
                 var2 = null;
                 var4 = var2 == var5;
                 var3 = undefined;
-                if(var4) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+                if(var4) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
                 var4 = var5.trim;
                 var3 = var4.bind(var5)();
-case 28:
+case 27:
                 var4 = var2 != var3;
                 var2 = '';
-                if(!var4) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-                var2 = var3;
+                if(!var4) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
+                var2 = var3;
+case 29:
                 var1['tokenizedQueryContent'] = var2;
                 var2 = arg2;
                 var1['lineClamp'] = var2;

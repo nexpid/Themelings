@@ -44,17 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/potions/experiments/ConfettiPotionExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['ConfettiPotionExperiment'] = var4;
-    var4 = function(arg1) {
-        var4 = _closure1_slot0;
-        var3 = var4.useExperiment;
-        var2 = {};
-        var1 = arg1;
-        var2['location'] = var1;
-        var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.canSeeConfetti;
+    var4 = function() {
+        var1 = false;
         return var1;
     };
     var3['useShouldMountConfettiCanvas'] = var4;

@@ -305,7 +305,7 @@ case 17:
             var11 = var1.textColor;
             if(!(var11 === var4)) { _fun0003_ip = 19; continue _fun0003 }
 case 5:
-            var11 = 'text-normal';
+            var11 = 'text-default';
 case 19:
             var1 = _closure1_slot6;
             var12 = var1.bind(var4)();

@@ -1341,26 +1341,26 @@ case 36:
                     var8 = var1 != var4;
                     var3 = undefined;
                     if(!var8) { _fun0016_ip = 68; continue _fun0016 }
-case 38:
+case 69:
                     var7 = var7[var4];
                     var8 = var1 == var7;
                     var4 = undefined;
-                    if(var8) { _fun0016_ip = 69; continue _fun0016 }
-case 70:
+                    if(var8) { _fun0016_ip = 70; continue _fun0016 }
+case 71:
                     var4 = var7.facing;
-case 69:
+case 70:
                     var3 = var4;
 case 68:
-                    if(!(var1 != var5)) { _fun0016_ip = 71; continue _fun0016 }
-case 72:
-                    if(!(var1 != var3)) { _fun0016_ip = 71; continue _fun0016 }
+                    if(!(var1 != var5)) { _fun0016_ip = 72; continue _fun0016 }
 case 73:
-                    var1 = 'back';
-                    if(!(var1 === var5)) { _fun0016_ip = 74; continue _fun0016 }
-case 75:
-                    var4 = 'front';
-                    if(!(var4 !== var3)) { _fun0016_ip = 76; continue _fun0016 }
+                    if(!(var1 != var3)) { _fun0016_ip = 72; continue _fun0016 }
 case 74:
+                    var1 = 'back';
+                    if(!(var1 === var5)) { _fun0016_ip = 75; continue _fun0016 }
+case 76:
+                    var4 = 'front';
+                    if(!(var4 !== var3)) { _fun0016_ip = 46; continue _fun0016 }
+case 75:
                     var4 = 'front';
                     if(!(var4 === var5)) { _fun0016_ip = 77; continue _fun0016 }
 case 78:
@@ -1394,7 +1394,7 @@ case 79:
                     var1 = var4.bind(var5)(var3);
 case 80:
                     _fun0016_ip = 81; continue _fun0016;
-case 76:
+case 46:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 28;
@@ -1409,7 +1409,7 @@ case 76:
                     var1 = var4.bind(var5)(var3);
 case 81:
                     _fun0016_ip = 82; continue _fun0016;
-case 71:
+case 72:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 28;
@@ -1693,7 +1693,7 @@ case 103:
             var36 = var38[var36];
             var36 = var37.bind(var4)(var36);
             var36 = var36.colors;
-            var36 = var36.HEADER_SECONDARY;
+            var36 = var36.TEXT_SUBTLE;
             var33['color'] = var36;
             var36 = var24.shieldIconMargin;
             var33['style'] = var36;

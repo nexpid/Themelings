@@ -228,7 +228,7 @@ case 7:
             var6 = var7.bind(var5)(var6);
             var7 = var6.DenyIcon;
             var6 = {};
-            var8 = 'text-danger';
+            var8 = 'text-feedback-critical';
             var6['color'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['icon'] = var6;

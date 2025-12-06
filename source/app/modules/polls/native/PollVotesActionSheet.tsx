@@ -401,7 +401,7 @@ case 29:
             var7 = var19[var7];
             var7 = var18.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var12 = var16.subheaderText;
             var7['style'] = var12;
             var15 = 15;
@@ -896,7 +896,7 @@ case 34:
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
             var10 = var10.noResultsSubtitle;
             var6['style'] = var10;
             var10 = var13[var9];
@@ -1008,7 +1008,7 @@ case 34:
     var14 = var6[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var10['backgroundColor'] = var14;
     var4['answerSelected'] = var10;
     var10 = {};
@@ -1082,7 +1082,7 @@ case 53:
                 return var1;
             };
             var8 = var3.bind(var5)(var1, var2);
-            var9 = 'text-normal';
+            var9 = 'text-default';
             if(!var11) { _fun0009_ip = 55; continue _fun0009 }
 case 56:
             var9 = 'interactive-active';
@@ -1151,8 +1151,8 @@ case 59:
             var8 = var8.text;
             var8 = var7 != var8;
             var7 = null;
-            if(!var8) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+            if(!var8) { _fun0009_ip = 10; continue _fun0009 }
+case 61:
             var12 = _closure1_slot14;
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -1172,7 +1172,7 @@ case 62:
             var13 = var13.text;
             var8['children'] = var13;
             var7 = var12.bind(var4)(var11, var8);
-case 61:
+case 10:
             var5[1] = var7;
             var8 = _closure1_slot15;
             var7 = _closure1_slot0;
@@ -1264,11 +1264,11 @@ case 0:
             var _closure2_slot3 = var24;
             var12 = null;
             var3 = var12 != var24;
-            if(!var3) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+            if(!var3) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
             var6 = var24.poll;
             var3 = var12 != var6;
-case 63:
+case 62:
             _closure2_slot4 = var3;
             var9 = _closure1_slot5;
             var8 = var9.useEffect;
@@ -1278,8 +1278,8 @@ case 63:
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = _closure2_slot4;
-                    if(var1) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                    if(var1) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 39;
@@ -1289,7 +1289,7 @@ case 66:
                     var2 = var3.hideActionSheet;
                     var1 = 'PollVotesActionSheet';
                     var1 = var2.bind(var3)(var1);
-case 65:
+case 64:
                     var1 = undefined;
                     return var1;
                 }
@@ -1299,10 +1299,10 @@ case 65:
             var8 = var9.useMemo;
             var7 = var12 == var24;
             var6 = undefined;
-            if(var7) { _fun0010_ip = 67; continue _fun0010 }
-case 68:
-            var6 = var24.reactions;
+            if(var7) { _fun0010_ip = 66; continue _fun0010 }
 case 67:
+            var6 = var24.reactions;
+case 66:
             var7 = new Array(2);
             var7[0] = var6;
             var7[1] = var23;
@@ -1314,15 +1314,15 @@ case 0:
                     var5 = var3 == var2;
                     var4 = undefined;
                     var2 = undefined;
-                    if(var5) { _fun0012_ip = 69; continue _fun0012 }
-case 70:
+                    if(var5) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
                     var5 = _closure2_slot3;
                     var2 = var5.reactions;
-case 69:
-                    if(!(var3 == var2)) { _fun0012_ip = 71; continue _fun0012 }
+case 68:
+                    if(!(var3 == var2)) { _fun0012_ip = 70; continue _fun0012 }
 case 46:
                     return var4;
-case 71:
+case 70:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 20;
@@ -1337,19 +1337,19 @@ case 71:
                 }
             };
             var13 = var8.bind(var9)(var6, var7);
-            if(var3) { _fun0010_ip = 72; continue _fun0010 }
+            if(var3) { _fun0010_ip = 71; continue _fun0010 }
 case 36:
             return var12;
-case 72:
+case 71:
             var3 = var12 == var24;
             var18 = undefined;
-            if(var3) { _fun0010_ip = 73; continue _fun0010 }
+            if(var3) { _fun0010_ip = 72; continue _fun0010 }
 case 39:
             var3 = var24.poll;
             var6 = var12 == var3;
             var18 = undefined;
-            if(var6) { _fun0010_ip = 73; continue _fun0010 }
-case 74:
+            if(var6) { _fun0010_ip = 72; continue _fun0010 }
+case 73:
             var6 = var3.answers;
             var3 = var6.find;
             var2 = function(arg1) {
@@ -1364,24 +1364,24 @@ case 74:
                 return var1;
             };
             var18 = var3.bind(var6)(var2);
-case 73:
+case 72:
             var3 = var12 == var13;
             var2 = undefined;
-            if(var3) { _fun0010_ip = 75; continue _fun0010 }
-case 76:
+            if(var3) { _fun0010_ip = 19; continue _fun0010 }
+case 74:
             var3 = var13.count_details;
             var6 = var12 == var3;
             var2 = undefined;
-            if(var6) { _fun0010_ip = 75; continue _fun0010 }
-case 77:
-            var2 = var3.vote;
+            if(var6) { _fun0010_ip = 19; continue _fun0010 }
 case 75:
+            var2 = var3.vote;
+case 19:
             var3 = var12 != var2;
             var9 = 0;
-            if(!var3) { _fun0010_ip = 78; continue _fun0010 }
-case 79:
+            if(!var3) { _fun0010_ip = 59; continue _fun0010 }
+case 76:
             var9 = var2;
-case 78:
+case 59:
             var3 = _closure1_slot14;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -1411,16 +1411,16 @@ case 78:
             var8 = var20[var8];
             var8 = var16.bind(var4)(var8);
             var16 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
             var19 = var19.answerName;
             var8['style'] = var19;
             var20 = var12 == var18;
             var19 = undefined;
-            if(var20) { _fun0010_ip = 80; continue _fun0010 }
-case 81:
+            if(var20) { _fun0010_ip = 77; continue _fun0010 }
+case 78:
             var18 = var18.poll_media;
             var19 = var18.text;
-case 80:
+case 77:
             var18 = new Array(3);
             var18[0] = var19;
             var19 = ' - ';
@@ -1444,16 +1444,16 @@ case 80:
             var16 = var17.bind(var4)(var16, var8);
             var8 = new Array(2);
             var8[0] = var16;
-            if(!(var12 != var13)) { _fun0010_ip = 82; continue _fun0010 }
-case 83:
-            if(!(!(var9 > var11))) { _fun0010_ip = 84; continue _fun0010 }
-case 82:
+            if(!(var12 != var13)) { _fun0010_ip = 79; continue _fun0010 }
+case 80:
+            if(!(!(var9 > var11))) { _fun0010_ip = 81; continue _fun0010 }
+case 79:
             var12 = _closure1_slot14;
             var11 = _closure1_slot22;
             var9 = {};
             var9 = var12.bind(var4)(var11, var9);
-            _fun0010_ip = 85; continue _fun0010;
-case 84:
+            _fun0010_ip = 82; continue _fun0010;
+case 81:
             var12 = _closure1_slot14;
             var11 = _closure1_slot21;
             var10 = {};
@@ -1461,7 +1461,7 @@ case 84:
             var10['messageId'] = var14;
             var10['reaction'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 85:
+case 82:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

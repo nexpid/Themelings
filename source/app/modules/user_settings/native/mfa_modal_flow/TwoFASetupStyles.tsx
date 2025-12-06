@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);
     var9 = var9.colors;
-    var9 = var9.HEADER_SECONDARY;
+    var9 = var9.TEXT_SUBTLE;
     var8['color'] = var9;
     var9 = 8;
     var8['marginTop'] = var9;

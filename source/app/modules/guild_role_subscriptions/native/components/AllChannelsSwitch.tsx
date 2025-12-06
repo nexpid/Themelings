@@ -144,7 +144,7 @@ case 6:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -163,7 +163,7 @@ case 6:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_SECONDARY;
+    var14 = var14.TEXT_SUBTLE;
     var20 = var18.bind(var1)(var17, var14, var15);
     var21 = var9;
     var14 = copyDataProperties(var21, var20);
@@ -192,7 +192,7 @@ case 6:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MODIFIER_ACCENT;
+    var10 = var10.BORDER_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['separator'] = var9;
     var4 = var7.bind(var8)(var4);

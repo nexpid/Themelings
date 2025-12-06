@@ -112,7 +112,7 @@ case 0:
             var9 = var9[var13];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'heading-lg/extrabold', 'color': 'header-secondary'};
+            var9 = {'variant': 'heading-lg/extrabold', 'color': 'text-default'};
             var17 = var12.joinCtaTitle;
             var15 = new Array(2);
             var15[0] = var17;
@@ -131,7 +131,7 @@ case 2:
             var8 = var8[var13];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var12.unavailableDescription;
             var8['style'] = var12;
             var8['children'] = var11;

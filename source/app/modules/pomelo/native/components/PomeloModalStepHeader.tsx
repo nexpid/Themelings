@@ -97,7 +97,7 @@ case 3:
             var9 = var9[var12];
             var9 = var13.bind(var4)(var9);
             var13 = var9.Text;
-            var9 = {'variant': 'heading-sm/medium', 'color': 'header-secondary'};
+            var9 = {'variant': 'heading-sm/medium', 'color': 'text-default'};
             var16 = var11.subtitle;
             var9['style'] = var16;
             var9['children'] = var15;
@@ -114,7 +114,7 @@ case 5:
             var7 = var7[var12];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'heading-sm/medium', 'color': 'header-secondary'};
+            var7 = {'variant': 'heading-sm/medium', 'color': 'text-default'};
             var11 = var11.link;
             var7['style'] = var11;
             var7['children'] = var10;

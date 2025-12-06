@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'header-secondary'};
+        var1 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'text-default'};
         var5 = var5.section;
         var1['style'] = var5;
         var5 = var6.toUpperCase;

@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var10['color'] = var13;
     var2['description'] = var10;
     var10 = {'width': '100%', 'minHeight': 38, 'marginBottom': 24};
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var10['color'] = var11;
     var2['purchasedAt'] = var10;
     var2 = var5.bind(var9)(var2);
@@ -263,7 +263,7 @@ case 6:
             var3 = var21[var5];
             var7 = var20.bind(var4)(var3);
             var6 = var7.useAnimatedStyle;
-            var3 = function O() {
+            var3 = function B() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot6;
@@ -341,7 +341,7 @@ case 14:
             var3 = var21[var5];
             var7 = var20.bind(var4)(var3);
             var6 = var7.useAnimatedProps;
-            var3 = function B() {
+            var3 = function O() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -368,7 +368,7 @@ case 16:
             var3 = var21[var5];
             var18 = var20.bind(var4)(var3);
             var7 = var18.useAnimatedStyle;
-            var3 = function R() {
+            var3 = function x() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure2_slot6;
@@ -929,7 +929,7 @@ case 66:
             var9 = var20[var9];
             var9 = var13.bind(var4)(var9);
             var13 = var9.Text;
-            var9 = {'variant': 'heading-md/bold', 'color': 'text-normal'};
+            var9 = {'variant': 'heading-md/bold', 'color': 'text-default'};
             var20 = var17.description;
             var9['style'] = var20;
             var19 = var19.name;

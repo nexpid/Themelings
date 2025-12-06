@@ -104,10 +104,10 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 2; continue _fun0003 }
-case 3:
+                    if(var3) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var1 = var2.appliedBoosts;
-case 2:
+case 6:
                     return var1;
                 }
             };
@@ -129,10 +129,10 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0004_ip = 2; continue _fun0004 }
-case 3:
+                    if(var3) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                     var1 = var2.appliedBoosts;
-case 2:
+case 6:
                     return var1;
                 }
             };
@@ -150,23 +150,23 @@ case 2:
 case 0:
                     var1 = _closure2_slot3;
                     var4 = null;
-                    if(!(var4 != var1)) { _fun0005_ip = 6; continue _fun0005 }
-case 7:
-                    var1 = _closure2_slot2;
-                    if(!var1) { _fun0005_ip = 8; continue _fun0005 }
+                    if(!(var4 != var1)) { _fun0005_ip = 8; continue _fun0005 }
 case 9:
+                    var1 = _closure2_slot2;
+                    if(!var1) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                     var1 = _closure2_slot4;
-                    if(!(var4 != var1)) { _fun0005_ip = 6; continue _fun0005 }
-case 8:
+                    if(!(var4 != var1)) { _fun0005_ip = 8; continue _fun0005 }
+case 10:
                     var3 = _closure2_slot3;
                     var1 = _closure2_slot4;
                     var4 = var4 != var1;
                     var7 = 0;
                     var1 = 0;
-                    if(!var4) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
+                    if(!var4) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                     var1 = _closure2_slot4;
-case 10:
+case 12:
                     var3 = var3 + var1;
                     var1 = {};
                     var4 = global;
@@ -180,7 +180,7 @@ case 10:
                     var3 = _closure2_slot1;
                     var1['total'] = var3;
                     return var1;
-case 6:
+case 8:
                     var1 = {'available': 0, 'spent': 0};
                     var2 = _closure2_slot1;
                     var1['total'] = var2;
@@ -203,17 +203,17 @@ case 0:
             var5 = var1 == var2;
             var4 = undefined;
             var3 = undefined;
-            if(var5) { _fun0006_ip = 12; continue _fun0006 }
-case 13:
+            if(var5) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
             var3 = var2.premiumSubscriberCount;
-case 12:
+case 14:
             var5 = var1 != var3;
             var7 = 0;
             var2 = 0;
-            if(!var5) { _fun0006_ip = 14; continue _fun0006 }
-case 10:
+            if(!var5) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
             var2 = var3;
-case 14:
+case 16:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 4;
@@ -227,31 +227,31 @@ case 14:
             var8 = var3.bind(var8)(var9);
             var10 = var1 == var8;
             var3 = undefined;
-            if(var10) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+            if(var10) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
             var3 = var8.appliedBoosts;
-case 15:
+case 18:
             var8 = _closure1_slot4;
             var6 = var8.getStateForGuild;
             var6 = var6.bind(var8)(var9);
             var8 = var1 == var6;
             var4 = undefined;
-            if(var8) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
-            var4 = var6.appliedBoosts;
-case 17:
-            if(!(var1 != var3)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
-            if(!var5) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-            if(!(var1 != var4)) { _fun0006_ip = 19; continue _fun0006 }
+            if(var8) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
+            var4 = var6.appliedBoosts;
+case 20:
+            if(!(var1 != var3)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
+            if(!var5) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
+            if(!(var1 != var4)) { _fun0006_ip = 22; continue _fun0006 }
+case 24:
             var5 = var1 != var4;
             var1 = 0;
-            if(!var5) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!var5) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var1 = var4;
-case 23:
+case 26:
             var3 = var3 + var1;
             var1 = {};
             var4 = global;
@@ -263,7 +263,7 @@ case 23:
             var1['spent'] = var3;
             var1['total'] = var2;
             return var1;
-case 19:
+case 22:
             var1 = {'available': 0, 'spent': 0};
             var1['total'] = var2;
             return var1;

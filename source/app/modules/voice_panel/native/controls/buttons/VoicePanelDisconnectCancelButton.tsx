@@ -15,8 +15,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var12 = 0;
-    var4 = var6[var12];
+    var10 = 0;
+    var4 = var6[var10];
     var1 = undefined;
     var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
@@ -45,16 +45,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.Colors;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
     var4 = {};
-    var4['USER'] = var12;
+    var4['USER'] = var10;
     var7 = 'USER';
-    var4[var12] = var7;
+    var4[var10] = var7;
     var4['STREAM'] = var9;
     var7 = 'STREAM';
     var4[var9] = var7;
@@ -62,17 +58,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'ACTIVITY';
     var4[var8] = var7;
     var _closure1_slot10 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = var10.RED_400;
-    var9['backgroundColor'] = var10;
+    var10 = 8;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.unsafe_rawColors;
+    var12 = var12.RED_400;
+    var9['backgroundColor'] = var12;
     var4['disconnectCancelBG'] = var9;
     var9 = {};
-    var10 = 9;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -89,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function VoicePanelDisconnectCancelButtonTsx2(focusId,lastFocusId){const{runOnJS,handleFocusChange}=this.__closure;if(focusId!==lastFocusId){runOnJS(handleFocusChange)(focusId);}}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -109,7 +108,7 @@ case 0:
             var2 = var10.useContext;
             var3 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var18[var1];
             var1 = var3.bind(var4)(var1);
             var2 = var2.bind(var10)(var1);
@@ -158,7 +157,7 @@ case 5:
 case 8:
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 10;
                     var1 = var7[var1];
                     var7 = var2.bind(var3)(var1);
                     var2 = var7.getEmbeddedActivityParticipantId;
@@ -199,7 +198,7 @@ case 4:
             var15 = var12.bind(var10)(var3, var2);
             var _closure2_slot6 = var15;
             var17 = _closure1_slot0;
-            var16 = 12;
+            var16 = 11;
             var2 = var18[var16];
             var13 = var17.bind(var4)(var2);
             var12 = var13.useAnimatedReaction;
@@ -254,7 +253,7 @@ case 0:
 case 20:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 12;
+                    var1 = 11;
                     var1 = var2[var1];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var1);
@@ -308,13 +307,13 @@ case 24:
                     var11 = var6.bind(var7)();
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 11;
+                    var6 = 10;
                     var6 = var8[var6];
                     var7 = var7.bind(var5)(var6);
                     var6 = var7.activityParticipantIdToApplicationId;
                     var9 = var6.bind(var7)(var4);
                     var7 = _closure1_slot1;
-                    var6 = 13;
+                    var6 = 12;
                     var6 = var8[var6];
                     var8 = var7.bind(var5)(var6);
                     var7 = var8.leaveActivity;
@@ -337,7 +336,7 @@ case 23:
 case 29:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 16;
+                    var6 = 15;
                     var6 = var8[var6];
                     var7 = var7.bind(var5)(var6);
                     var6 = var7.disconnect;
@@ -353,7 +352,7 @@ case 27:
 case 28:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 14;
+                    var6 = 13;
                     var6 = var8[var6];
                     var7 = var7.bind(var5)(var6);
                     var6 = var7.selectParticipant;
@@ -364,7 +363,7 @@ case 28:
 case 31:
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.stopStream;
@@ -385,7 +384,7 @@ case 33:
 case 35:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var10 = var1.PhoneHangUpIcon;
@@ -393,7 +392,7 @@ case 35:
 case 34:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 18;
+            var1 = 17;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var10 = var1.ScreenXIcon;
@@ -402,7 +401,7 @@ case 36:
 case 32:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var10 = var1.DoorExitIcon;
@@ -411,7 +410,7 @@ case 37:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var12[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -429,7 +428,7 @@ case 39:
 case 41:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var7 = 21;
+            var7 = 20;
             var8 = var13[var7];
             var8 = var12.bind(var4)(var8);
             var11 = var8.intl;
@@ -443,7 +442,7 @@ case 41:
 case 40:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var8 = 21;
+            var8 = 20;
             var11 = var14[var8];
             var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
@@ -458,7 +457,7 @@ case 42:
 case 38:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var8 = 21;
+            var8 = 20;
             var11 = var14[var8];
             var11 = var13.bind(var4)(var11);
             var12 = var11.intl;

@@ -329,7 +329,7 @@ case 8:
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-xs/medium', 'color': 'header-secondary', 'lineClamp': 1};
+        var1 = {'variant': 'text-xs/medium', 'color': 'text-default', 'lineClamp': 1};
         var6 = var6.subtitle;
         var1['style'] = var6;
         var1['children'] = var5;

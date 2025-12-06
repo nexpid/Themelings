@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_STRONG;
+    var12 = var12.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var12;
     var4['item'] = var9;
     var9 = {};
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var20[var14];
         var13 = var19.bind(var4)(var13);
         var15 = var13.Text;
-        var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var18 = var17.text;
         var13['style'] = var18;
         var18 = var20[var16];
@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var20[var14];
         var14 = var19.bind(var4)(var14);
         var15 = var14.Text;
-        var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var17 = var17.text;
         var14['style'] = var17;
         var17 = var20[var16];

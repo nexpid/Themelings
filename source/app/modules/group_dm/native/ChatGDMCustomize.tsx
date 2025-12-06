@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_DANGER;
+    var11 = var11.TEXT_FEEDBACK_CRITICAL;
     var10['color'] = var11;
     var4['rateLimitedText'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -745,7 +745,7 @@ case 72:
             var12 = var16[var12];
             var12 = var20.bind(var5)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-sm/semibold', 'color': 'text-danger'};
+            var12 = {'variant': 'text-sm/semibold', 'color': 'text-feedback-critical'};
             var17 = var16[var14];
             var17 = var20.bind(var5)(var17);
             var19 = var17.intl;

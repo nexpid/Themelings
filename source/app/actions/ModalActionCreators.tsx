@@ -261,6 +261,19 @@ case 11:
         return var1;
     };
     var2['popWithKey'] = var7;
+    var7 = function popAboveKey(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.popModalsAboveKey;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['popAboveKey'] = var7;
     var4 = function popAll() {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;

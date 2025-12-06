@@ -86,7 +86,7 @@ case 0:
             var13 = var12[var4];
             var13 = var10.bind(var9)(var13);
             var13 = var13.colors;
-            var13 = var13.BG_SURFACE_RAISED;
+            var13 = var13.BACKGROUND_SURFACE_HIGH;
             var13 = var14.bind(var16)(var13, var8);
             var1['containerBackground'] = var13;
             var13 = var12[var5];
@@ -104,7 +104,7 @@ case 0:
             var4 = var12[var4];
             var4 = var10.bind(var9)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_FLOATING;
+            var4 = var4.BACKGROUND_SURFACE_HIGH;
             var4 = var5.bind(var7)(var4, var8);
             var1['statusBackground'] = var4;
             var4 = null;

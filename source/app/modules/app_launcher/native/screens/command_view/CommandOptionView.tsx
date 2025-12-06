@@ -322,7 +322,7 @@ case 16:
             var12 = var23[var12];
             var12 = var16.bind(var4)(var12);
             var16 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var12 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var23 = var26.labelText;
             var12['style'] = var23;
             var23 = var21.displayName;
@@ -423,7 +423,7 @@ case 18:
             var18 = var18[var23];
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+            var18 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
             var21 = var21.name;
             var21 = var22[var21];
             var21 = var21.error;

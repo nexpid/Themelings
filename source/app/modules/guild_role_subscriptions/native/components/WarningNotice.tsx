@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_FLOATING;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['color'] = var12;
     var4['actionButtonText'] = var9;
     var9 = {};

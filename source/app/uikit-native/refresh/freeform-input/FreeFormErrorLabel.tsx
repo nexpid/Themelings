@@ -82,7 +82,7 @@ case 4:
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-danger'};
+        var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
         var1['style'] = var6;
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

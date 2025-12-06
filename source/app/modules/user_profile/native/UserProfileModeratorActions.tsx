@@ -766,7 +766,7 @@ case 71:
             var4 = var35[var4];
             var4 = var34.bind(var6)(var4);
             var36 = var4.Text;
-            var4 = {'variant': 'text-xs/normal', 'color': 'text-secondary'};
+            var4 = {'variant': 'text-xs/normal', 'color': 'text-subtle'};
             var37 = var37.name;
             var4['children'] = var37;
             var4 = var33.bind(var6)(var36, var4);

@@ -555,7 +555,7 @@ case 28:
             var2 = var7[var1];
             var2 = var5.bind(var6)(var2);
             var2 = var2.colors;
-            var3 = var2.BG_MOD_SUBTLE;
+            var3 = var2.BACKGROUND_MOD_SUBTLE;
             var1 = var7[var1];
             var1 = var5.bind(var6)(var1);
             var1 = var1.colors;

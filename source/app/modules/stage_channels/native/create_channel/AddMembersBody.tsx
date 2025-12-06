@@ -189,7 +189,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_NORMAL;
+    var12 = var12.TEXT_DEFAULT;
     var9['color'] = var12;
     var4['emptyStateText'] = var9;
     var9 = {};
@@ -608,7 +608,7 @@ case 33:
             var21 = var24[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var21 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var24 = var14.inputDescText;
             var21['style'] = var24;
             var21['children'] = var23;

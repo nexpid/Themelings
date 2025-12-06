@@ -460,25 +460,36 @@ case 15:
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var4 = arg1;
-                    var2 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var1 = 21;
-                    var1 = var3[var1];
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 21;
+                    var1 = var7[var2];
                     var3 = undefined;
-                    var8 = var2.bind(var3)(var1);
-                    var7 = var8.itemInteracted;
-                    var2 = _closure2_slot0;
-                    var6 = var2.id;
+                    var12 = var6.bind(var3)(var1);
+                    var11 = var12.itemInteracted;
+                    var5 = _closure2_slot0;
+                    var10 = var5.id;
+                    var9 = _closure2_slot2;
+                    var8 = 'press_emoji_send';
+                    var8 = var11.bind(var12)(var10, var9, var8);
+                    var2 = var7[var2];
+                    var7 = var6.bind(var3)(var2);
+                    var6 = var7.feedItemActioned;
+                    var2 = {};
+                    var5 = var5.id;
+                    var2['itemId'] = var5;
                     var5 = _closure2_slot2;
-                    var2 = 'press_emoji_send';
-                    var2 = var7.bind(var8)(var6, var5, var2);
+                    var2['itemType'] = var5;
+                    var5 = null;
+                    var8 = {'actionGestureType': 'press', 'actionTargetElement': 'reaction_reply_button', 'actionIntentType': 'react', 'actionDestinationType': null};
+                    var2['actionParameters'] = var8;
+                    var2 = var6.bind(var7)(var2);
                     var2 = _closure2_slot5;
-                    var5 = var4.id;
-                    var1 = null;
-                    if(!(var1 == var5)) { _fun0006_ip = 38; continue _fun0006 }
-case 19:
+                    var1 = var4.id;
+                    if(!(var5 == var1)) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
                     var1 = var4.surrogates;
-                    _fun0006_ip = 39; continue _fun0006;
+                    _fun0006_ip = 40; continue _fun0006;
 case 38:
                     var6 = var4.name;
                     var4 = global;
@@ -486,7 +497,7 @@ case 38:
                     var5 = var4.concat;
                     var4 = ':';
                     var1 = var5.bind(var4)(var6, var4);
-case 39:
+case 40:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -517,10 +528,10 @@ case 0:
                     var6 = null;
                     var8 = var6 != var8;
                     var6 = undefined;
-                    if(!var8) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+                    if(!var8) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
                     var6 = _closure2_slot3;
-case 40:
+case 41:
                     var2['channel'] = var6;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -547,8 +558,8 @@ case 40:
 case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 42; continue _fun0008 }
-case 43:
+                    if(!(var2 != var3)) { _fun0008_ip = 43; continue _fun0008 }
+case 44:
                     var2 = _closure2_slot0;
                     var4 = var2.content_type;
                     var5 = _closure1_slot0;
@@ -559,38 +570,48 @@ case 43:
                     var2 = var5.bind(var8)(var2);
                     var2 = var2.ContentInventoryEntryType;
                     var2 = var2.CUSTOM_STATUS;
-                    var11 = 'hotwheels_custom_status';
-                    if(!(var2 !== var4)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
+                    var10 = 'hotwheels_custom_status';
+                    if(!(var2 !== var4)) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var6];
                     var2 = var5.bind(var8)(var2);
                     var2 = var2.ContentInventoryEntryType;
                     var2 = var2.TOP_GAME;
-                    if(!(var2 !== var4)) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
+                    if(!(var2 !== var4)) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var6];
                     var2 = var5.bind(var8)(var2);
                     var2 = var2.ContentInventoryEntryType;
                     var2 = var2.PLAYED_GAME;
-                    var11 = 'unknown';
-                    if(!(var2 === var4)) { _fun0008_ip = 44; continue _fun0008 }
-case 46:
-                    var11 = 'hotwheels_gaming_activity';
-case 44:
+                    var10 = 'unknown';
+                    if(!(var2 === var4)) { _fun0008_ip = 45; continue _fun0008 }
+case 47:
+                    var10 = 'hotwheels_gaming_activity';
+case 45:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var4 = 21;
-                    var4 = var2[var4];
-                    var10 = var5.bind(var8)(var4);
-                    var9 = var10.itemInteracted;
+                    var6 = var2[var4];
+                    var12 = var5.bind(var8)(var6);
+                    var11 = var12.itemInteracted;
                     var6 = _closure2_slot0;
-                    var7 = var6.id;
-                    var4 = 'press_reply_react';
-                    var4 = var9.bind(var10)(var7, var11, var4);
+                    var9 = var6.id;
+                    var7 = 'press_reply_react';
+                    var7 = var11.bind(var12)(var9, var10, var7);
+                    var4 = var2[var4];
+                    var9 = var5.bind(var8)(var4);
+                    var7 = var9.feedItemActioned;
+                    var4 = {};
+                    var11 = var6.id;
+                    var4['itemId'] = var11;
+                    var4['itemType'] = var10;
+                    var10 = {'actionGestureType': 'press', 'actionTargetElement': 'item_container', 'actionIntentType': 'open', 'actionDestinationType': null};
+                    var4['actionParameters'] = var10;
+                    var4 = var7.bind(var9)(var4);
                     var4 = 17;
                     var4 = var2[var4];
                     var5 = var5.bind(var8)(var4);
@@ -613,7 +634,7 @@ case 44:
                     var2['onPressEmoji'] = var1;
                     var1 = 'ReactActionSheet';
                     var1 = var4.bind(var5)(var3, var1, var2);
-case 42:
+case 43:
                     var1 = undefined;
                     return var1;
                 }

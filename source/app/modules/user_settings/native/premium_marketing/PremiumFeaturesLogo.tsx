@@ -68,9 +68,7 @@ case 4:
             var1 = var10[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var8 = true;
-            var1['accessible'] = var8;
+            var1 = {'accessible': true, 'accessibilityLabel': null, 'accessibilityRole': 'header', 'style': null, 'resizeMode': 'contain'};
             var8 = _closure1_slot0;
             var7 = 6;
             var7 = var10[var7];
@@ -79,8 +77,6 @@ case 4:
             var7 = var7.bind(var8)(var9);
             var1['accessibilityLabel'] = var7;
             var1['style'] = var6;
-            var6 = 'contain';
-            var1['resizeMode'] = var6;
             var1['source'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;

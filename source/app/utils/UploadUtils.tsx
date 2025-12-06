@@ -662,8 +662,8 @@ case 53:
 case 56:
             var10 = var4 != var15;
 case 55:
-            if(!var10) { _fun0004_ip = 16; continue _fun0004 }
-case 57:
+            if(!var10) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
             var10 = _closure1_slot3;
             var3 = var10.find;
             var1 = function(arg1) {
@@ -675,26 +675,26 @@ case 57:
                 return var1;
             };
             var8 = var3.bind(var10)(var1);
-case 16:
-            if(!(var4 != var8)) { _fun0004_ip = 58; continue _fun0004 }
+case 57:
+            if(!(var4 != var8)) { _fun0004_ip = 59; continue _fun0004 }
+case 60:
+            if(!(var4 == var15)) { _fun0004_ip = 61; continue _fun0004 }
 case 59:
-            if(!(var4 == var15)) { _fun0004_ip = 60; continue _fun0004 }
-case 58:
-            if(!(var4 == var8)) { _fun0004_ip = 61; continue _fun0004 }
-case 62:
+            if(!(var4 == var8)) { _fun0004_ip = 62; continue _fun0004 }
+case 63:
             var1 = var4 != var15;
             var3 = 'unknown';
-            if(!var1) { _fun0004_ip = 63; continue _fun0004 }
-case 64:
+            if(!var1) { _fun0004_ip = 21; continue _fun0004 }
+case 18:
             var3 = var15;
-case 63:
-            _fun0004_ip = 65; continue _fun0004;
-case 61:
+case 21:
+            _fun0004_ip = 20; continue _fun0004;
+case 62:
             var1 = var8.name;
             var3 = var1.bind(var8)(var9);
-case 65:
-            _fun0004_ip = 66; continue _fun0004;
-case 60:
+case 20:
+            _fun0004_ip = 64; continue _fun0004;
+case 61:
             var1 = var8.name;
             var10 = var1.bind(var8)(var9);
             var1 = var10.split;
@@ -705,14 +705,14 @@ case 60:
             var1 = var15.lastIndexOf;
             var14 = var1.bind(var15)(var13);
             var1 = -1;
-            if(!(var1 === var14)) { _fun0004_ip = 67; continue _fun0004 }
-case 68:
+            if(!(var1 === var14)) { _fun0004_ip = 65; continue _fun0004 }
+case 66:
             var1 = global;
             var1 = var1.HermesInternal;
             var1 = var1.concat;
             var1 = var1.bind(var5)(var15, var13, var12);
-            _fun0004_ip = 69; continue _fun0004;
-case 67:
+            _fun0004_ip = 67; continue _fun0004;
+case 65:
             var11 = var15.substr;
             var10 = 0;
             var11 = var11.bind(var15)(var10, var14);
@@ -720,70 +720,70 @@ case 67:
             var10 = var10.HermesInternal;
             var10 = var10.concat;
             var1 = var10.bind(var5)(var11, var13, var12);
-case 69:
+case 67:
             var3 = var1;
-case 66:
+case 64:
             var1 = {};
             var1['uri'] = var7;
             var1['filename'] = var3;
             var7 = var2;
-            if(!(var4 == var2)) { _fun0004_ip = 70; continue _fun0004 }
-case 71:
+            if(!(var4 == var2)) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
             var10 = var4 == var8;
             var3 = undefined;
-            if(var10) { _fun0004_ip = 72; continue _fun0004 }
-case 73:
+            if(var10) { _fun0004_ip = 70; continue _fun0004 }
+case 71:
             var3 = var8.type;
-case 72:
-            var7 = var3;
 case 70:
+            var7 = var3;
+case 68:
             var10 = var4 != var7;
             var3 = 'unknown';
-            if(!var10) { _fun0004_ip = 74; continue _fun0004 }
-case 75:
+            if(!var10) { _fun0004_ip = 72; continue _fun0004 }
+case 73:
             var3 = var7;
-case 74:
+case 72:
             var1['type'] = var3;
             var3 = var2;
-            if(!(var4 == var2)) { _fun0004_ip = 76; continue _fun0004 }
-case 77:
+            if(!(var4 == var2)) { _fun0004_ip = 74; continue _fun0004 }
+case 75:
             var10 = var4 == var8;
             var7 = undefined;
-            if(var10) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
+            if(var10) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
             var10 = var8.name;
             var7 = var10.bind(var8)(var9);
-case 78:
-            var3 = var7;
 case 76:
+            var3 = var7;
+case 74:
             var7 = var4 != var3;
             var10 = var5;
-            if(!var7) { _fun0004_ip = 80; continue _fun0004 }
-case 81:
+            if(!var7) { _fun0004_ip = 78; continue _fun0004 }
+case 79:
             var10 = var3;
-case 80:
+case 78:
             var7 = var10.indexOf;
             var3 = 'video';
             var7 = var7.bind(var10)(var3);
             var3 = -1;
             var7 = var3 !== var7;
             var1['isVideo'] = var7;
-            if(!(var4 == var2)) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
+            if(!(var4 == var2)) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
             var7 = var4 == var8;
             var6 = undefined;
-            if(var7) { _fun0004_ip = 84; continue _fun0004 }
-case 85:
+            if(var7) { _fun0004_ip = 82; continue _fun0004 }
+case 83:
             var7 = var8.name;
             var6 = var7.bind(var8)(var9);
-case 84:
-            var2 = var6;
 case 82:
+            var2 = var6;
+case 80:
             var4 = var4 != var2;
-            if(!var4) { _fun0004_ip = 86; continue _fun0004 }
-case 87:
+            if(!var4) { _fun0004_ip = 32; continue _fun0004 }
+case 84:
             var5 = var2;
-case 86:
+case 32:
             var4 = var5.indexOf;
             var2 = 'image';
             var2 = var4.bind(var5)(var2);
@@ -800,18 +800,18 @@ case 0:
             var7 = arguments[2];
             var6 = arguments[3];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0005_ip = 88; continue _fun0005 }
+            if(!(var4 === var1)) { _fun0005_ip = 85; continue _fun0005 }
 case 3:
             var4 = 4096;
-case 88:
-            if(!(var7 === var1)) { _fun0005_ip = 89; continue _fun0005 }
-case 90:
+case 85:
+            if(!(var7 === var1)) { _fun0005_ip = 86; continue _fun0005 }
+case 87:
             var7 = 8388608;
+case 86:
+            if(!(var6 === var1)) { _fun0005_ip = 88; continue _fun0005 }
 case 89:
-            if(!(var6 === var1)) { _fun0005_ip = 91; continue _fun0005 }
-case 92:
             var6 = 0.01;
-case 91:
+case 88:
             var1 = global;
             var5 = var1.Math;
             var3 = var5.ceil;

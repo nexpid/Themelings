@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var4['borderColor'] = var14;
     var14 = var6[var11];
     var14 = var13.bind(var1)(var14);
@@ -592,18 +592,18 @@ case 0:
                             var1[0] = var2;
                             var6 = _closure3_slot1;
                             var5 = null;
-                            if(!var6) { _fun0007_ip = 7; continue _fun0007 }
-case 25:
+                            if(!var6) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
                             var6 = _closure2_slot2;
                             var5 = var6.verifiedRoleHasRole;
-case 7:
+case 25:
                             var1[1] = var5;
                             var2 = null;
-                            if(!var4) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+                            if(!var4) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                             var3 = _closure2_slot2;
                             var2 = var3.verifiedRolePressed;
-case 26:
+case 27:
                             var1[2] = var2;
                             return var1;
                         }
@@ -615,8 +615,8 @@ case 0:
                             var1 = _closure3_slot1;
                             var4 = _closure3_slot0;
                             var3 = _closure2_slot0;
-                            if(var1) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+                            if(var1) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
                             var6 = _closure1_slot1;
                             var1 = _closure1_slot2;
                             var5 = 17;
@@ -644,8 +644,8 @@ case 29:
                             var8 = _closure2_slot1;
                             var1['onCloseModal'] = var8;
                             var1 = var6.bind(var7)(var5, var2, var1);
-                            _fun0008_ip = 30; continue _fun0008;
-case 28:
+                            _fun0008_ip = 31; continue _fun0008;
+case 29:
                             var2 = function renderLeaveRoleActionSheet(arg1, arg2) {
                                 var2 = arg1;
                                 var _closure5_slot0 = var2;
@@ -698,15 +698,15 @@ case 28:
                             };
                             var1 = undefined;
                             var1 = var2.bind(var1)(var4, var3);
-case 30:
+case 31:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var2['onPress'] = var8;
                     var8 = null;
-                    if(!var6) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                    if(!var6) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
                     var11 = _closure1_slot14;
                     var9 = _closure1_slot5;
                     var6 = {};
@@ -737,7 +737,7 @@ case 32:
                     var12 = var11.bind(var5)(var13, var12);
                     var6['children'] = var12;
                     var8 = var11.bind(var5)(var9, var6);
-case 31:
+case 32:
                     var6 = new Array(4);
                     var6[0] = var8;
                     var9 = _closure1_slot14;

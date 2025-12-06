@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var7[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.HEADER_SECONDARY;
+    var17 = var17.TEXT_SUBTLE;
     var18 = 24;
     var23 = var21.bind(var1)(var20, var17, var18);
     var24 = var10;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var15;
     var10['marginTop'] = var14;
     var14 = var7[var11];
@@ -428,7 +428,7 @@ case 19:
             var10 = var10[var14];
             var10 = var11.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var10['children'] = var13;
             var8 = var12.bind(var5)(var11, var10);
 case 18:
@@ -805,7 +805,7 @@ case 31:
             var13 = var18[var12];
             var13 = var17.bind(var5)(var13);
             var16 = var13.Text;
-            var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-secondary'};
+            var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'text-default'};
             var14 = var15.header;
             var13['style'] = var14;
             var14 = 31;
@@ -847,7 +847,7 @@ case 31:
             var13 = var18[var12];
             var13 = var17.bind(var5)(var13);
             var16 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var19 = var15.guildDescription;
             var13['style'] = var19;
             var19 = var11.description;
@@ -857,7 +857,7 @@ case 31:
             var12 = var18[var12];
             var12 = var17.bind(var5)(var12);
             var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var15 = var15.channelsTitle;
             var12['style'] = var15;
             var15 = var18[var14];

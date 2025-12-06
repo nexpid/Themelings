@@ -466,7 +466,7 @@ case 37:
                 var10 = var15[var10];
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.Text;
-                var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-danger'};
+                var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-feedback-critical'};
                 var15 = var18.errorText;
                 var10['style'] = var15;
                 var10['children'] = var14;

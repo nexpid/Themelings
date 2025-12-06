@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var14 = var13.TEXT_NORMAL;
+    var14 = var13.TEXT_DEFAULT;
     var13 = 14;
     var18 = var16.bind(var1)(var15, var14, var13);
     var19 = var10;

@@ -368,13 +368,13 @@ case 39:
             if(!(var3 != var14)) { _fun0009_ip = 40; continue _fun0009 }
 case 15:
             if(!(var3 != var7)) { _fun0009_ip = 36; continue _fun0009 }
-case 41:
+case 12:
             var9 = _closure1_slot12;
             var8 = var9.getUser;
             var7 = var7.id;
             var12 = var8.bind(var9)(var7);
             if(!(var3 != var12)) { _fun0009_ip = 36; continue _fun0009 }
-case 42:
+case 41:
             var8 = _closure1_slot14;
             var17 = var8.notifCenterLocalItems;
             var7 = new Array(1);
@@ -400,18 +400,18 @@ case 36:
             var3 = _closure1_slot13;
             var3 = var3.FRIEND;
             var3 = var5 !== var3;
-            if(var3) { _fun0009_ip = 43; continue _fun0009 }
-case 44:
+            if(var3) { _fun0009_ip = 42; continue _fun0009 }
+case 43:
             var7 = var6.user;
             var6 = null;
             var3 = var6 == var7;
-case 43:
-            if(var3) { _fun0009_ip = 45; continue _fun0009 }
-case 46:
-            var3 = var4;
+case 42:
+            if(var3) { _fun0009_ip = 44; continue _fun0009 }
 case 45:
-            if(var3) { _fun0009_ip = 47; continue _fun0009 }
-case 48:
+            var3 = var4;
+case 44:
+            if(var3) { _fun0009_ip = 46; continue _fun0009 }
+case 47:
             var6 = _closure1_slot14;
             var8 = var6.notifCenterLocalItems;
             var7 = var8.map;
@@ -433,8 +433,8 @@ case 0:
                     var1 = var1.id;
                     var2 = var8.bind(var5)(var4, var2, var1);
                     var1 = var4;
-                    if(!var2) { _fun0010_ip = 49; continue _fun0010 }
-case 50:
+                    if(!var2) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                     var2 = {};
                     var13 = var2;
                     var12 = var4;
@@ -465,22 +465,22 @@ case 50:
                     var3 = 'type';
                     var2[var3] = var4;
                     var1 = var2;
-case 49:
+case 48:
                     return var1;
                 }
             };
             var3 = var7.bind(var8)(var3);
             var6['notifCenterLocalItems'] = var3;
-case 47:
+case 46:
             var3 = _closure1_slot13;
             var3 = var3.BLOCKED;
             var3 = var5 === var3;
-            if(var3) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
-            var3 = var4;
+            if(var3) { _fun0009_ip = 50; continue _fun0009 }
 case 51:
-            if(!var3) { _fun0009_ip = 53; continue _fun0009 }
-case 54:
+            var3 = var4;
+case 50:
+            if(!var3) { _fun0009_ip = 52; continue _fun0009 }
+case 53:
             var2 = _closure1_slot14;
             var4 = var2.notifCenterLocalItems;
             var3 = var4.filter;
@@ -499,7 +499,7 @@ case 0:
                     var4 = var1.INCOMING_FRIEND_REQUESTS;
                     var1 = _closure2_slot1;
                     var1 = var7.bind(var5)(var6, var4, var1);
-                    if(var1) { _fun0011_ip = 55; continue _fun0011 }
+                    if(var1) { _fun0011_ip = 54; continue _fun0011 }
 case 26:
                     var9 = _closure1_slot21;
                     var7 = _closure1_slot0;
@@ -510,9 +510,9 @@ case 26:
                     var7 = var4.INCOMING_FRIEND_REQUESTS_ACCEPTED;
                     var4 = _closure2_slot1;
                     var1 = var9.bind(var5)(var6, var7, var4);
-case 55:
-                    if(var1) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
+case 54:
+                    if(var1) { _fun0011_ip = 55; continue _fun0011 }
+case 14:
                     var9 = _closure1_slot21;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -522,9 +522,9 @@ case 57:
                     var7 = var4.INCOMING_GAME_FRIEND_REQUESTS;
                     var4 = _closure2_slot1;
                     var1 = var9.bind(var5)(var6, var7, var4);
-case 56:
+case 55:
                     if(var1) { _fun0011_ip = 36; continue _fun0011 }
-case 58:
+case 56:
                     var4 = _closure1_slot21;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -541,7 +541,7 @@ case 36:
             };
             var1 = var3.bind(var4)(var1);
             var2['notifCenterLocalItems'] = var1;
-case 53:
+case 52:
             var1 = undefined;
             return var1;
         }
@@ -554,7 +554,7 @@ case 0:
             var4 = _closure1_slot9;
             var1 = undefined;
             var4 = var4.bind(var1)(var5);
-            if(!var4) { _fun0012_ip = 59; continue _fun0012 }
+            if(!var4) { _fun0012_ip = 57; continue _fun0012 }
 case 6:
             var3 = _closure1_slot14;
             var5 = var3.notifCenterItems;
@@ -573,14 +573,14 @@ case 0:
                     var1 = var1.NotificationCenterItems;
                     var2 = var1.GUILD_SCHEDULED_EVENT_STARTED;
                     var1 = var3;
-                    if(!(var4 === var2)) { _fun0013_ip = 55; continue _fun0013 }
-case 60:
+                    if(!(var4 === var2)) { _fun0013_ip = 54; continue _fun0013 }
+case 58:
                     var4 = var3.guild_scheduled_event_id;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3;
-                    if(!(var4 === var2)) { _fun0013_ip = 55; continue _fun0013 }
-case 50:
+                    if(!(var4 === var2)) { _fun0013_ip = 54; continue _fun0013 }
+case 49:
                     var2 = {};
                     var7 = var2;
                     var6 = var3;
@@ -589,13 +589,13 @@ case 50:
                     var3 = 'disable_action';
                     var2[var3] = var4;
                     var1 = var2;
-case 55:
+case 54:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             var3['notifCenterItems'] = var2;
-case 59:
+case 57:
             return var1;
         }
     };
@@ -694,14 +694,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0014_ip = 61; continue _fun0014 }
-case 62:
+                if(var1) { _fun0014_ip = 59; continue _fun0014 }
+case 60:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0014_ip = 55; continue _fun0014;
-case 61:
+                _fun0014_ip = 54; continue _fun0014;
+case 59:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -710,7 +710,7 @@ case 61:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 55:
+case 54:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -735,7 +735,7 @@ case 0:
                 var3 = _closure1_slot8;
                 var3 = var6.bind(var7)(var5, var4, var3);
                 var3 = null;
-                if(!(var3 != var1)) { _fun0015_ip = 63; continue _fun0015 }
+                if(!(var3 != var1)) { _fun0015_ip = 61; continue _fun0015 }
 case 33:
                 var4 = var1.notifCenterItems;
                 var3 = var4.map;
@@ -751,7 +751,7 @@ case 0:
                         var3 = null;
                         var4 = var3 != var4;
                         var3 = undefined;
-                        if(!var4) { _fun0016_ip = 64; continue _fun0016 }
+                        if(!var4) { _fun0016_ip = 62; continue _fun0016 }
 case 30:
                         var5 = _closure1_slot10;
                         var7 = var2.message;
@@ -760,7 +760,7 @@ case 30:
                         var8 = var4;
                         var2 = new var8[var5](var7, var6);
                         var3 = var2 instanceof Object ? var2 : var4;
-case 64:
+case 62:
                         var2 = 'message';
                         var1[var2] = var3;
                         return var1;
@@ -769,7 +769,7 @@ case 64:
                 var4 = var3.bind(var4)(var1);
                 var3 = var4.length;
                 var1 = 0;
-                if(!(var3 > var1)) { _fun0015_ip = 63; continue _fun0015 }
+                if(!(var3 > var1)) { _fun0015_ip = 61; continue _fun0015 }
 case 4:
                 var1 = {};
                 var9 = _closure1_slot14;
@@ -786,7 +786,7 @@ case 4:
                 var3 = 'staleNotifCenterItems';
                 var1[var3] = var4;
                 _closure1_slot14 = var1;
-case 63:
+case 61:
                 var1 = undefined;
                 return var1;
             }
@@ -810,12 +810,12 @@ case 0:
                     var3 = null;
                     var4 = var3 != var4;
                     var3 = undefined;
-                    if(!var4) { _fun0017_ip = 65; continue _fun0017 }
+                    if(!var4) { _fun0017_ip = 63; continue _fun0017 }
 case 30:
                     var4 = var2.message;
                     var2 = var4.toJS;
                     var3 = var2.bind(var4)();
-case 65:
+case 63:
                     var2 = 'message';
                     var1[var2] = var3;
                     return var1;
@@ -871,12 +871,12 @@ case 0:
                 var1 = var1.isDataStale;
                 var2 = _closure1_slot14;
                 if(var1) { _fun0018_ip = 35; continue _fun0018 }
-case 66:
+case 64:
                 var1 = var2.notifCenterItems;
-                _fun0018_ip = 67; continue _fun0018;
+                _fun0018_ip = 65; continue _fun0018;
 case 35:
                 var1 = var2.staleNotifCenterItems;
-case 67:
+case 65:
                 return var1;
             }
         };
@@ -979,31 +979,31 @@ case 0:
                 var4 = var1.user_ignored;
                 var8 = var1.origin_application_id;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0019_ip = 68; continue _fun0019 }
-case 65:
-                if(!var4) { _fun0019_ip = 69; continue _fun0019 }
-case 70:
+                if(!(var1 != var3)) { _fun0019_ip = 66; continue _fun0019 }
+case 63:
+                if(!var4) { _fun0019_ip = 67; continue _fun0019 }
+case 68:
                 var10 = _closure2_slot1;
                 var6 = var10.add;
                 var2 = var3.id;
                 var2 = var6.bind(var10)(var2);
-case 69:
+case 67:
                 var6 = _closure1_slot13;
                 var6 = var6.PENDING_INCOMING;
-                if(!(var7 === var6)) { _fun0019_ip = 71; continue _fun0019 }
-case 72:
-                if(var5) { _fun0019_ip = 71; continue _fun0019 }
+                if(!(var7 === var6)) { _fun0019_ip = 69; continue _fun0019 }
+case 70:
+                if(var5) { _fun0019_ip = 69; continue _fun0019 }
 case 15:
-                if(var4) { _fun0019_ip = 71; continue _fun0019 }
+                if(var4) { _fun0019_ip = 69; continue _fun0019 }
 case 18:
-                if(!(var1 != var9)) { _fun0019_ip = 71; continue _fun0019 }
-case 73:
+                if(!(var1 != var9)) { _fun0019_ip = 69; continue _fun0019 }
+case 71:
                 var5 = _closure1_slot12;
                 var4 = var5.getUser;
                 var3 = var3.id;
                 var7 = var4.bind(var5)(var3);
-                if(!(var1 != var7)) { _fun0019_ip = 74; continue _fun0019 }
-case 75:
+                if(!(var1 != var7)) { _fun0019_ip = 72; continue _fun0019 }
+case 73:
                 var5 = _closure2_slot0;
                 var4 = var5.push;
                 var6 = _closure1_slot0;
@@ -1016,11 +1016,11 @@ case 75:
                 var3 = var3.bind(var6)(var7, var9, var8);
                 var3 = var4.bind(var5)(var3);
                 return var2;
-case 74:
+case 72:
                 return var1;
-case 71:
+case 69:
                 return var1;
-case 68:
+case 66:
                 return var1;
             }
         };
@@ -1037,19 +1037,19 @@ case 0:
                 var6 = var1.since;
                 var2 = _closure1_slot13;
                 var2 = var2.PENDING_INCOMING;
-                if(!(var3 === var2)) { _fun0020_ip = 76; continue _fun0020 }
+                if(!(var3 === var2)) { _fun0020_ip = 74; continue _fun0020 }
 case 24:
                 var4 = _closure2_slot1;
                 var3 = var4.has;
                 var3 = var3.bind(var4)(var5);
-                if(var3) { _fun0020_ip = 76; continue _fun0020 }
-case 77:
+                if(var3) { _fun0020_ip = 74; continue _fun0020 }
+case 75:
                 var4 = _closure1_slot12;
                 var3 = var4.getUser;
                 var5 = var3.bind(var4)(var5);
                 var3 = null;
-                if(!(var3 != var5)) { _fun0020_ip = 76; continue _fun0020 }
-case 78:
+                if(!(var3 != var5)) { _fun0020_ip = 74; continue _fun0020 }
+case 76:
                 var3 = _closure2_slot0;
                 var2 = var3.push;
                 var8 = _closure1_slot0;
@@ -1061,7 +1061,7 @@ case 78:
                 var1 = var4.incomingGameFriendRequestLocalItem;
                 var1 = var1.bind(var4)(var5, var6, var7);
                 var1 = var2.bind(var3)(var1);
-case 76:
+case 74:
                 var1 = undefined;
                 return var1;
             }
@@ -1138,11 +1138,11 @@ case 0:
             var4 = var3.notifCenterIds;
             var3 = var4.has;
             var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0021_ip = 79; continue _fun0021 }
+            if(var3) { _fun0021_ip = 77; continue _fun0021 }
 case 33:
             var3 = false;
             return var3;
-case 79:
+case 77:
             var3 = _closure1_slot14;
             var4 = var3.notifCenterIds;
             var3 = var4.delete;
@@ -1195,8 +1195,8 @@ case 0:
             var6 = var2.cursor;
             var4 = _closure1_slot14;
             var4 = var4.loading;
-            if(!var4) { _fun0022_ip = 80; continue _fun0022 }
-case 81:
+            if(!var4) { _fun0022_ip = 78; continue _fun0022 }
+case 79:
             var4 = _closure1_slot14;
             var5 = false;
             var4['loading'] = var5;
@@ -1209,34 +1209,34 @@ case 81:
             var4['isDataStale'] = var5;
             var4 = null;
             var4 = var4 != var6;
-            if(!var4) { _fun0022_ip = 82; continue _fun0022 }
+            if(!var4) { _fun0022_ip = 80; continue _fun0022 }
 case 18:
             var5 = _closure1_slot14;
             var7 = var5.notifCenterIds;
             var5 = var7.has;
             var4 = var5.bind(var7)(var6);
+case 80:
+            if(var4) { _fun0022_ip = 81; continue _fun0022 }
 case 82:
-            if(var4) { _fun0022_ip = 83; continue _fun0022 }
-case 84:
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = 0;
             var4 = var4 > var7;
-            if(!var4) { _fun0022_ip = 85; continue _fun0022 }
-case 86:
+            if(!var4) { _fun0022_ip = 83; continue _fun0022 }
+case 84:
             var4 = var8;
-case 85:
+case 83:
             var5['paginationHasMore'] = var4;
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = var4 > var7;
             var4 = undefined;
-            if(!var7) { _fun0022_ip = 87; continue _fun0022 }
-case 88:
+            if(!var7) { _fun0022_ip = 85; continue _fun0022 }
+case 86:
             var4 = var6;
-case 87:
+case 85:
             var5['paginationCursor'] = var4;
-case 83:
+case 81:
             var5 = _closure1_slot14;
             var11 = var5.notifCenterItems;
             var4 = new Array(0);
@@ -1291,7 +1291,7 @@ case 83:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 80:
+case 78:
             var1 = undefined;
             return var1;
         }
@@ -1348,7 +1348,7 @@ case 0:
                 var1 = var1.id;
                 var4 = var7.bind(var5)(var6, var4, var1);
                 var1 = !var4;
-                if(var4) { _fun0023_ip = 63; continue _fun0023 }
+                if(var4) { _fun0023_ip = 61; continue _fun0023 }
 case 27:
                 var4 = _closure1_slot21;
                 var7 = _closure1_slot0;
@@ -1362,7 +1362,7 @@ case 27:
                 var2 = var2.id;
                 var2 = var4.bind(var5)(var6, var3, var2);
                 var1 = !var2;
-case 63:
+case 61:
                 return var1;
             }
         };
@@ -1386,16 +1386,16 @@ case 0:
             var6 = _closure1_slot11;
             var2 = var6.isBlockedOrIgnored;
             var2 = var2.bind(var6)(var4);
-            if(var2) { _fun0024_ip = 89; continue _fun0024 }
-case 90:
+            if(var2) { _fun0024_ip = 87; continue _fun0024 }
+case 88:
             var2 = _closure1_slot13;
             var2 = var2.PENDING_INCOMING;
-            if(!(var5 !== var2)) { _fun0024_ip = 91; continue _fun0024 }
-case 92:
+            if(!(var5 !== var2)) { _fun0024_ip = 89; continue _fun0024 }
+case 90:
             var2 = _closure1_slot13;
             var2 = var2.FRIEND;
-            if(!(var5 === var2)) { _fun0024_ip = 93; continue _fun0024 }
-case 94:
+            if(!(var5 === var2)) { _fun0024_ip = 91; continue _fun0024 }
+case 92:
             var2 = _closure1_slot14;
             var6 = var2.notifCenterLocalItems;
             var5 = var6.map;
@@ -1419,7 +1419,7 @@ case 0:
                     var2 = var15[var9](var14, var13, var12, var11, var10);
                     var1 = var4;
                     if(!var2) { _fun0025_ip = 25; continue _fun0025 }
-case 95:
+case 93:
                     var2 = {};
                     var14 = var2;
                     var13 = var4;
@@ -1455,22 +1455,22 @@ case 25:
             };
             var1 = var5.bind(var6)(var1);
             var2['notifCenterLocalItems'] = var1;
-            _fun0024_ip = 48; continue _fun0024;
-case 93:
+            _fun0024_ip = 47; continue _fun0024;
+case 91:
             var1 = false;
             return var1;
-case 91:
+case 89:
             var2 = _closure1_slot12;
             var1 = var2.getUser;
             var6 = var1.bind(var2)(var4);
             var2 = null;
             var1 = var2 != var8;
-            if(!var1) { _fun0024_ip = 96; continue _fun0024 }
-case 97:
+            if(!var1) { _fun0024_ip = 94; continue _fun0024 }
+case 95:
             var1 = var2 != var6;
+case 94:
+            if(!var1) { _fun0024_ip = 47; continue _fun0024 }
 case 96:
-            if(!var1) { _fun0024_ip = 48; continue _fun0024 }
-case 98:
             var2 = _closure1_slot14;
             var11 = var2.notifCenterLocalItems;
             var1 = new Array(1);
@@ -1489,10 +1489,10 @@ case 98:
             var3 = 1;
             var3 = var4 + var3;
             var2['notifCenterLocalItems'] = var1;
-case 48:
+case 47:
             var1 = undefined;
             return var1;
-case 89:
+case 87:
             var1 = false;
             return var1;
         }
@@ -1526,7 +1526,7 @@ case 0:
                 var13 = var7;
                 var4 = var14[var9](var13, var12, var11, var10, var9);
                 var1 = !var4;
-                if(var4) { _fun0026_ip = 99; continue _fun0026 }
+                if(var4) { _fun0026_ip = 97; continue _fun0026 }
 case 3:
                 var5 = _closure1_slot22;
                 var4 = _closure1_slot0;
@@ -1541,7 +1541,7 @@ case 3:
                 var13 = var7;
                 var2 = var14[var5](var13, var12, var11, var10, var9);
                 var1 = !var2;
-case 99:
+case 97:
                 return var1;
             }
         };
@@ -1565,7 +1565,7 @@ case 0:
                 var4 = var3.item_enum;
                 var2 = _closure2_slot0;
                 var1 = var3;
-                if(!(var4 === var2)) { _fun0027_ip = 100; continue _fun0027 }
+                if(!(var4 === var2)) { _fun0027_ip = 98; continue _fun0027 }
 case 10:
                 var2 = {};
                 var6 = var2;
@@ -1577,7 +1577,7 @@ case 10:
                 var3 = 'acked';
                 var2[var3] = var4;
                 var1 = var2;
-case 100:
+case 98:
                 return var1;
             }
         };
@@ -1605,7 +1605,7 @@ case 0:
             var1 = undefined;
             var _closure2_slot0 = var1;
             var3 = null;
-            if(!(var3 !== var6)) { _fun0028_ip = 101; continue _fun0028 }
+            if(!(var3 !== var6)) { _fun0028_ip = 20; continue _fun0028 }
 case 6:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1627,8 +1627,8 @@ case 6:
                 return var1;
             };
             var5 = var6.bind(var7)(var5);
-            if(!(var1 === var5)) { _fun0028_ip = 101; continue _fun0028 }
-case 18:
+            if(!(var1 === var5)) { _fun0028_ip = 20; continue _fun0028 }
+case 99:
             var3 = _closure1_slot14;
             var6 = var3.notifCenterLocalItems;
             var5 = var6.filter;
@@ -1649,7 +1649,7 @@ case 18:
             var4 = 1;
             var4 = var5 + var4;
             var3['notifCenterLocalItems'] = var2;
-case 101:
+case 20:
             return var1;
         }
     };
@@ -1662,7 +1662,7 @@ case 0:
             var1 = undefined;
             var _closure2_slot0 = var1;
             var3 = null;
-            if(!(var3 != var5)) { _fun0029_ip = 94; continue _fun0029 }
+            if(!(var3 != var5)) { _fun0029_ip = 92; continue _fun0029 }
 case 10:
             var3 = global;
             var3 = var3.Set;
@@ -1696,7 +1696,7 @@ case 24:
             };
             var2 = var4.bind(var5)(var2);
             var3['notifCenterLocalItems'] = var2;
-case 94:
+case 92:
             return var1;
         }
     };

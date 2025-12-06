@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var4];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var12;
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
@@ -244,7 +244,7 @@ case 12:
             var15 = 'interactive-normal';
             if(!var16) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var15 = 'text-normal';
+            var15 = 'text-default';
 case 14:
             var8['color'] = var15;
             var8['lineClamp'] = var14;
@@ -262,7 +262,7 @@ case 17:
             var8 = var8[var13];
             var8 = var10.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'variant': 'text-md/medium', 'color': 'text-normal', 'lineClamp': 1};
+            var8 = {'variant': 'text-md/medium', 'color': 'text-default', 'lineClamp': 1};
             var12 = var12.choice;
             var12 = var12.displayName;
             var8['children'] = var12;

@@ -94,14 +94,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var18 = var1.recipientUserId;
-            var15 = var1.premiumType;
-            var8 = var1.planInterval;
+            var19 = var1.recipientUserId;
+            var16 = var1.premiumType;
+            var15 = var1.planInterval;
             var10 = var1.analyticsLocation;
             var _closure2_slot0 = var10;
             var2 = var1.analyticsLocations;
             var _closure2_slot1 = var2;
             var13 = var1.initialRoute;
+            var8 = var1.order;
             var4 = undefined;
             var _closure2_slot3 = var4;
             var6 = _closure1_slot1;
@@ -153,11 +154,11 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var19 = var6.bind(var9)(var2, var3);
+            var20 = var6.bind(var9)(var2, var3);
             var2 = null;
             if(!(var2 == var13)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!(var2 == var15)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var2 == var16)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var2 = _closure1_slot6;
             var2 = var2.PLAN_SELECT;
@@ -182,7 +183,7 @@ case 2:
                 return var1;
             };
             var2 = new Array(0);
-            var17 = var9.bind(var6)(var3, var2);
+            var18 = var9.bind(var6)(var3, var2);
             var2 = function useGetScreens(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -368,7 +369,7 @@ case 14:
                     return var1;
                 }
             };
-            var12 = var2.bind(var4)(var13, var17);
+            var12 = var2.bind(var4)(var13, var18);
             var3 = var6.useState;
             var2 = _closure1_slot7;
             var2 = var2[var13];
@@ -379,8 +380,8 @@ case 14:
             var2 = 0;
             var9 = var3[var2];
             var2 = 1;
-            var16 = var3[var2];
-            _closure2_slot3 = var16;
+            var17 = var3[var2];
+            _closure2_slot3 = var17;
             var3 = _closure1_slot5;
             var10 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -394,12 +395,13 @@ case 14:
             var5 = var10.bind(var4)(var5);
             var6 = var5.NativeGiftContextProvider;
             var5 = {};
-            var5['basePurchaseAnalytics'] = var19;
-            var5['recipientUserId'] = var18;
-            var5['onClose'] = var17;
-            var5['setCurrentAnalyticsStep'] = var16;
-            var5['premiumType'] = var15;
-            var5['planInterval'] = var8;
+            var5['basePurchaseAnalytics'] = var20;
+            var5['recipientUserId'] = var19;
+            var5['onClose'] = var18;
+            var5['setCurrentAnalyticsStep'] = var17;
+            var5['premiumType'] = var16;
+            var5['planInterval'] = var15;
+            var5['initialOrder'] = var8;
             var8 = _closure1_slot1;
             var7 = 16;
             var7 = var14[var7];

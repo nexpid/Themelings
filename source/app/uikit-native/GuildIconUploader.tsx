@@ -109,7 +109,7 @@ case 4:
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var4['backgroundColor'] = var11;
     var8['guildPlaceholder'] = var4;
     var4 = {'width': 82, 'height': 82, 'borderRadius': 41};
@@ -258,7 +258,7 @@ case 13:
                 var9 = var16[var9];
                 var9 = var15.bind(var5)(var9);
                 var10 = var9.Text;
-                var9 = {'style': null, 'variant': 'text-xs/bold', 'color': 'header-secondary'};
+                var9 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-default'};
                 var12 = var8.emptyGuildIconText;
                 var9['style'] = var12;
                 var12 = 15;

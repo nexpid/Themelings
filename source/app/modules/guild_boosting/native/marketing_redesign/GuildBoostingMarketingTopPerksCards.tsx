@@ -360,7 +360,7 @@ case 2:
                 var7 = var12[var7];
                 var7 = var8.bind(var1)(var7);
                 var8 = var7.Text;
-                var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'header-secondary'};
+                var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
                 var10 = var10.cardBody;
                 var7['style'] = var10;
                 var10 = var11.getBodyCopy;

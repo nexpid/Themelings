@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+        var5 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
         var5['children'] = var9;
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
@@ -457,7 +457,7 @@ case 9:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var4['detailsContainer'] = var9;
     var9 = {};
@@ -592,7 +592,7 @@ case 0:
             var30 = var20.bind(var4)(var30);
             var31 = var30.TrashIcon;
             var30 = {};
-            var33 = 'text-danger';
+            var33 = 'text-feedback-critical';
             var30['color'] = var33;
             var30 = var32.bind(var4)(var31, var30);
             var27['icon'] = var30;

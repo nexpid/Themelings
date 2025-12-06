@@ -36,58 +36,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/quests/types/v2/Video.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function questVideoMetadataFromServer(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = arg1;
-            var1 = null;
-            if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = undefined;
-            return var1;
-case 2:
-            var1 = {};
-            var2 = {};
-            var4 = var3.messages;
-            var4 = var4.video_title;
-            var2['videoTitle'] = var4;
-            var1['messages'] = var2;
-            var2 = {};
-            var4 = var3.assets;
-            var4 = var4.video_player_video;
-            var2['videoPlayerVideo'] = var4;
-            var4 = var3.assets;
-            var4 = var4.video_player_video_hls;
-            var2['videoPlayerVideoHls'] = var4;
-            var4 = var3.assets;
-            var4 = var4.video_player_thumbnail;
-            var2['videoPlayerThumbnail'] = var4;
-            var4 = var3.assets;
-            var4 = var4.video_player_video_low_res;
-            var2['videoPlayerVideoLowRes'] = var4;
-            var4 = var3.assets;
-            var4 = var4.video_player_caption;
-            var2['videoPlayerCaption'] = var4;
-            var4 = var3.assets;
-            var4 = var4.video_player_transcript;
-            var2['videoPlayerTranscript'] = var4;
-            var4 = var3.assets;
-            var4 = var4.quest_bar_preview_video;
-            var2['questBarPreviewVideo'] = var4;
-            var4 = var3.assets;
-            var4 = var4.quest_bar_preview_thumbnail;
-            var2['questBarPreviewThumbnail'] = var4;
-            var3 = var3.assets;
-            var3 = var3.quest_home_video;
-            var2['questHomeVideo'] = var3;
-            var1['assets'] = var2;
-            return var1;
-        }
-    };
-    var3['questVideoMetadataFromServer'] = var5;
     var3['videoAssetFromServer'] = var4;
     var4 = function desktopVideoAssetsFromServer(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
             var1 = {};
@@ -98,21 +49,21 @@ case 0:
             var1['video'] = var5;
             var5 = var2.video_low_res;
             var6 = null;
-            if(!(var6 != var5)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!(var6 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var5 = var2.video_low_res;
             var5 = var7.bind(var4)(var5);
             var1['videoLowRes'] = var5;
-case 4:
+case 2:
             var5 = var2.video_hls;
-            if(!(var6 != var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var6 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var2 = var2.video_hls;
             var2 = var3.bind(var4)(var2);
             var1['videoHls'] = var2;
-case 6:
+case 4:
             return var1;
         }
     };
@@ -126,7 +77,7 @@ case 6:
     };
     var3['desktopVideoMessagesFromServer'] = var4;
     var4 = function mobileVideoAssetsFromServer(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
             var1 = {};
@@ -137,21 +88,21 @@ case 0:
             var1['video'] = var5;
             var5 = var2.video_low_res;
             var6 = null;
-            if(!(var6 != var5)) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+            if(!(var6 != var5)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var7 = _closure1_slot0;
             var5 = var2.video_low_res;
             var5 = var7.bind(var4)(var5);
             var1['videoLowRes'] = var5;
-case 4:
+case 2:
             var5 = var2.video_hls;
-            if(!(var6 != var5)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+            if(!(var6 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot0;
             var2 = var2.video_hls;
             var2 = var3.bind(var4)(var2);
             var1['videoHls'] = var2;
-case 6:
+case 4:
             return var1;
         }
     };

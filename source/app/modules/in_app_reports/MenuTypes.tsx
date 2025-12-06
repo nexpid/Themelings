@@ -70,8 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_SC_FILTERS_SEXUAL_MEDIA'] = var1;
     var1 = 'safety_sc_filters_graphic_media';
     var2['SAFETY_SC_FILTERS_GRAPHIC_MEDIA'] = var1;
-    var1 = 'safety_language_filter';
-    var2['SAFETY_LANGUAGE_FILTER'] = var1;
     var8 = dependencyMap;
     var1 = 0;
     var9 = var8[var1];

@@ -182,14 +182,14 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var4['loadingActivity'] = var10;
     var10 = {'width': '100%', 'height': '100%'};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var11;
     var4['disabledActivity'] = var10;
     var4 = var8.bind(var9)(var4);

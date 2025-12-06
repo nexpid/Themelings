@@ -205,7 +205,7 @@ case 15:
             var12 = var12[var17];
             var12 = var14.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var17 = var13.subtext;
             var12['style'] = var17;
             var18 = _closure1_slot0;

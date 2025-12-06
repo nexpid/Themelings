@@ -27,6 +27,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['STORE_LISTING'] = var1;
     var1 = 'CHANNEL';
     var7['CHANNEL'] = var1;
+    var1 = 'GAME_SHOP';
+    var7['GAME_SHOP'] = var1;
     var1 = 'PICK_GUILD_SETTINGS';
     var7['PICK_GUILD_SETTINGS'] = var1;
     var1 = 'QUEST_HOME';

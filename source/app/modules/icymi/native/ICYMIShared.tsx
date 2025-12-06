@@ -858,15 +858,24 @@ case 35:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 33;
-                var2 = var5[var1];
+                var2 = 33;
+                var4 = var5[var2];
                 var1 = undefined;
-                var9 = var3.bind(var1)(var2);
-                var8 = var9.itemInteracted;
-                var7 = _closure2_slot3;
-                var6 = 'announcement';
-                var2 = 'open_profile';
-                var2 = var8.bind(var9)(var7, var6, var2);
+                var10 = var3.bind(var1)(var4);
+                var7 = var10.itemInteracted;
+                var9 = _closure2_slot3;
+                var8 = 'announcement';
+                var6 = 'open_profile';
+                var6 = var7.bind(var10)(var9, var8, var6);
+                var2 = var5[var2];
+                var7 = var3.bind(var1)(var2);
+                var6 = var7.feedItemActioned;
+                var2 = {};
+                var2['itemId'] = var9;
+                var2['itemType'] = var8;
+                var8 = {'actionGestureType': 'press', 'actionTargetElement': 'item_header', 'actionIntentType': 'open', 'actionDestinationType': 'user'};
+                var2['actionParameters'] = var8;
+                var2 = var6.bind(var7)(var2);
                 var2 = 34;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
@@ -913,7 +922,7 @@ case 35:
             var9 = var19[var12];
             var9 = var18.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var9 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'text-default'};
             var13 = var13.subtitle;
             var9['style'] = var13;
             var15 = _closure1_slot18;
@@ -948,7 +957,7 @@ case 35:
             var20 = var19[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.colors;
-            var20 = var20.HEADER_SECONDARY;
+            var20 = var20.TEXT_SUBTLE;
             var13['color'] = var20;
             var13 = var16.bind(var4)(var15, var13);
             var12[1] = var13;
@@ -1092,20 +1101,31 @@ case 45:
 case 0:
                     var1 = _closure2_slot5;
                     var6 = null;
-                    if(!(var6 != var1)) { _fun0010_ip = 35; continue _fun0010 }
+                    if(!(var6 != var1)) { _fun0010_ip = 47; continue _fun0010 }
 case 42:
                     var2 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var1 = 33;
-                    var1 = var4[var1];
+                    var7 = var4[var1];
                     var3 = undefined;
-                    var10 = var2.bind(var3)(var1);
-                    var9 = var10.itemInteracted;
-                    var1 = _closure2_slot2;
-                    var8 = var1.id;
-                    var7 = _closure2_slot3;
-                    var1 = 'open_profile';
-                    var1 = var9.bind(var10)(var8, var7, var1);
+                    var12 = var2.bind(var3)(var7);
+                    var11 = var12.itemInteracted;
+                    var9 = _closure2_slot2;
+                    var10 = var9.id;
+                    var8 = _closure2_slot3;
+                    var7 = 'open_profile';
+                    var7 = var11.bind(var12)(var10, var8, var7);
+                    var1 = var4[var1];
+                    var8 = var2.bind(var3)(var1);
+                    var7 = var8.feedItemActioned;
+                    var1 = {};
+                    var9 = var9.id;
+                    var1['itemId'] = var9;
+                    var9 = 'guild_event';
+                    var1['itemType'] = var9;
+                    var9 = {'actionGestureType': 'press', 'actionTargetElement': 'item_header', 'actionIntentType': 'open', 'actionDestinationType': 'user'};
+                    var1['actionParameters'] = var9;
+                    var1 = var7.bind(var8)(var1);
                     var1 = 34;
                     var1 = var4[var1];
                     var2 = var2.bind(var3)(var1);
@@ -1116,23 +1136,23 @@ case 42:
                     var4 = _closure2_slot6;
                     var7 = var6 == var4;
                     var4 = undefined;
-                    if(var7) { _fun0010_ip = 47; continue _fun0010 }
+                    if(var7) { _fun0010_ip = 11; continue _fun0010 }
 case 48:
                     var7 = _closure2_slot6;
                     var4 = var7.highestRoleId;
-case 47:
+case 11:
                     var1['roleId'] = var4;
                     var4 = _closure2_slot1;
                     var6 = var6 == var4;
                     var4 = undefined;
-                    if(var6) { _fun0010_ip = 49; continue _fun0010 }
-case 39:
+                    if(var6) { _fun0010_ip = 21; continue _fun0010 }
+case 49:
                     var5 = _closure2_slot1;
                     var4 = var5.id;
-case 49:
+case 21:
                     var1['channelId'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 35:
+case 47:
                     var1 = undefined;
                     return var1;
                 }
@@ -1207,7 +1227,7 @@ case 56:
             var9 = var9[var16];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var9 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'text-default'};
             var13 = var13.subtitle;
             var9['style'] = var13;
             var14 = _closure1_slot19;
@@ -1230,7 +1250,7 @@ case 58:
             var22 = var26[var22];
             var22 = var27.bind(var4)(var22);
             var22 = var22.colors;
-            var22 = var22.HEADER_SECONDARY;
+            var22 = var22.TEXT_SUBTLE;
             var15['color'] = var22;
             var20 = var21.bind(var4)(var20, var15);
             var15 = new Array(2);
@@ -1287,7 +1307,7 @@ case 57:
             var23 = var25[var23];
             var23 = var24.bind(var4)(var23);
             var23 = var23.colors;
-            var23 = var23.HEADER_SECONDARY;
+            var23 = var23.TEXT_SUBTLE;
             var20['color'] = var23;
             var20 = var22.bind(var4)(var21, var20);
             var16[1] = var20;
@@ -1361,15 +1381,25 @@ case 59:
         var1 = function() {
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 33;
-            var2 = var5[var1];
+            var2 = 33;
+            var4 = var5[var2];
             var1 = undefined;
-            var9 = var3.bind(var1)(var2);
-            var8 = var9.itemInteracted;
-            var7 = _closure2_slot2;
-            var6 = _closure2_slot3;
-            var2 = 'open_profile';
-            var2 = var8.bind(var9)(var7, var6, var2);
+            var10 = var3.bind(var1)(var4);
+            var9 = var10.itemInteracted;
+            var8 = _closure2_slot2;
+            var7 = _closure2_slot3;
+            var6 = 'open_profile';
+            var6 = var9.bind(var10)(var8, var7, var6);
+            var2 = var5[var2];
+            var7 = var3.bind(var1)(var2);
+            var6 = var7.feedItemActioned;
+            var2 = {};
+            var2['itemId'] = var8;
+            var8 = 'summary';
+            var2['itemType'] = var8;
+            var8 = {'actionGestureType': 'press', 'actionTargetElement': 'item_header', 'actionIntentType': 'open', 'actionDestinationType': 'user'};
+            var2['actionParameters'] = var8;
+            var2 = var6.bind(var7)(var2);
             var2 = 34;
             var2 = var5[var2];
             var3 = var3.bind(var1)(var2);
@@ -1584,15 +1614,25 @@ case 65:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 33;
-                var2 = var5[var1];
+                var2 = 33;
+                var4 = var5[var2];
                 var1 = undefined;
-                var9 = var3.bind(var1)(var2);
-                var8 = var9.itemInteracted;
-                var7 = _closure2_slot4;
-                var6 = _closure2_slot5;
-                var2 = 'open_profile';
-                var2 = var8.bind(var9)(var7, var6, var2);
+                var10 = var3.bind(var1)(var4);
+                var9 = var10.itemInteracted;
+                var8 = _closure2_slot4;
+                var7 = _closure2_slot5;
+                var6 = 'open_profile';
+                var6 = var9.bind(var10)(var8, var7, var6);
+                var2 = var5[var2];
+                var7 = var3.bind(var1)(var2);
+                var6 = var7.feedItemActioned;
+                var2 = {};
+                var2['itemId'] = var8;
+                var8 = 'message';
+                var2['itemType'] = var8;
+                var8 = {'actionGestureType': 'press', 'actionTargetElement': 'item_header', 'actionIntentType': 'open', 'actionDestinationType': 'user'};
+                var2['actionParameters'] = var8;
+                var2 = var6.bind(var7)(var2);
                 var2 = 34;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
@@ -1632,7 +1672,7 @@ case 65:
             var11 = var18[var13];
             var11 = var16.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var11 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var25 = {};
             var26 = 225;
             var25['maxWidth'] = var26;
@@ -1646,7 +1686,7 @@ case 65:
             var10 = var18[var13];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var10 = {'lineClamp': 2, 'variant': 'text-md/normal', 'color': 'text-default'};
             var14 = {};
             var14['marginRight'] = var19;
             var10['style'] = var14;
@@ -1678,7 +1718,7 @@ case 65:
             var21 = var18[var21];
             var21 = var22.bind(var4)(var21);
             var21 = var21.colors;
-            var21 = var21.HEADER_SECONDARY;
+            var21 = var21.TEXT_SUBTLE;
             var14['color'] = var21;
             var14 = var19.bind(var4)(var20, var14);
             var13[1] = var14;
@@ -1764,26 +1804,35 @@ case 68:
         var2[1] = var12;
         var2[2] = var6;
         var1 = function() {
-            var4 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 33;
-            var2 = var2[var1];
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 33;
+            var2 = var6[var4];
             var1 = undefined;
-            var8 = var4.bind(var1)(var2);
-            var7 = var8.itemInteracted;
-            var6 = _closure2_slot2;
-            var5 = 'generated_candidate';
-            var4 = 'open_channel';
-            var4 = var7.bind(var8)(var6, var5, var4);
+            var11 = var5.bind(var1)(var2);
+            var10 = var11.itemInteracted;
+            var8 = _closure2_slot2;
+            var7 = 'generated_candidate';
+            var9 = 'open_channel';
+            var9 = var10.bind(var11)(var8, var7, var9);
+            var4 = var6[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.feedItemActioned;
+            var4 = {};
+            var4['itemId'] = var8;
+            var4['itemType'] = var7;
+            var7 = {'actionGestureType': 'press', 'actionTargetElement': 'item_header', 'actionIntentType': 'navigate', 'actionDestinationType': 'channel'};
+            var4['actionParameters'] = var7;
+            var4 = var5.bind(var6)(var4);
             var5 = _closure1_slot24;
             var3 = _closure2_slot1;
-            var12 = var3.id;
+            var15 = var3.id;
             var2 = _closure2_slot0;
-            var11 = var2.id;
-            var9 = false;
+            var14 = var2.id;
+            var12 = false;
+            var16 = undefined;
             var13 = undefined;
-            var10 = undefined;
-            var2 = var13[var5](var12, var11, var10, var9, var8);
+            var2 = var16[var5](var15, var14, var13, var12, var11);
             return var1;
         };
         var21 = var3.bind(var11)(var1, var2);
@@ -1853,7 +1902,7 @@ case 68:
         var13 = var23[var17];
         var13 = var18.bind(var4)(var13);
         var14 = var13.Text;
-        var13 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var13 = {'variant': 'text-md/medium', 'color': 'text-default'};
         var24 = 39;
         var25 = var23[var24];
         var25 = var18.bind(var4)(var25);

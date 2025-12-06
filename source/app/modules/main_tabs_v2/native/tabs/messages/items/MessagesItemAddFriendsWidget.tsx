@@ -429,7 +429,7 @@ case 24:
         var7 = var15[var7];
         var7 = var14.bind(var4)(var7);
         var8 = var7.Text;
-        var7 = {'variant': 'text-md/semibold', 'color': 'header-secondary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+        var7 = {'variant': 'text-md/semibold', 'color': 'text-default', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
         var9 = var15[var11];
         var9 = var14.bind(var4)(var9);
         var16 = var9.intl;

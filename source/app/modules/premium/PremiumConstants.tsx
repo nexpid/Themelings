@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var84['PREMIUM_GROUP_MONTH'] = var2;
     var6 = var4.Set;
     var5 = var84.PREMIUM_MONTH_TIER_0;
-    var2 = new Array(10);
+    var2 = new Array(11);
     var2[0] = var5;
     var5 = var84.PREMIUM_YEAR_TIER_0;
     var2[1] = var5;
@@ -194,10 +194,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[6] = var5;
     var5 = var84.PREMIUM_YEAR_TIER_2;
     var2[7] = var5;
-    var5 = var84.PREMIUM_MONTH_LEGACY;
+    var5 = var84.PREMIUM_GROUP_MONTH;
     var2[8] = var5;
-    var5 = var84.PREMIUM_YEAR_LEGACY;
+    var5 = var84.PREMIUM_MONTH_LEGACY;
     var2[9] = var5;
+    var5 = var84.PREMIUM_YEAR_LEGACY;
+    var2[10] = var5;
     var5 = var6.prototype;
     var5 = Object.create(var5, {constructor: {value: var6}});
     r102 = var5;
@@ -609,6 +611,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['id'] = var12;
     var12 = 'Nitro Squad Monthly';
     var9['name'] = var12;
+    var12 = var92.TIER_2;
+    var9['premiumType'] = var12;
     var12 = var89.TIER_2;
     var9['skuId'] = var12;
     var12 = var75.MONTH;
@@ -930,6 +934,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var45['CUSTOM_THEMES_UPSELL'] = var5;
     var5 = 'app_icons_inline_upsell';
     var45['APP_ICON_INLINE_UPSELL'] = var5;
+    var5 = 'privacy_perk_settings_upsell';
+    var45['PRIVACY_PERK_SETTINGS'] = var5;
+    var5 = 'privacy_perk_exit_modal';
+    var45['PRIVACY_PERK_EXIT_MODAL'] = var5;
     var44 = {};
     var44['PREMIUM_TIER_1'] = var10;
     var5 = 'PREMIUM_TIER_1';
@@ -1118,7 +1126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5[var13] = var12;
     var35 = var8.bind(var11)(var5);
     var5 = var84.PREMIUM_MONTH_TIER_0;
-    var34 = new Array(8);
+    var34 = new Array(9);
     var34[0] = var5;
     var5 = var84.PREMIUM_YEAR_TIER_0;
     var34[1] = var5;
@@ -1134,6 +1142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var34[6] = var5;
     var5 = var84.PREMIUM_YEAR_TIER_2;
     var34[7] = var5;
+    var5 = var84.PREMIUM_GROUP_MONTH;
+    var34[8] = var5;
     var33 = {};
     var5 = 'soundboard play';
     var33['SOUNDBOARD_PLAY'] = var5;
@@ -1151,6 +1161,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var33['SHARED_CANVAS'] = var5;
     var5 = 'profile_effect';
     var33['PROFILE_EFFECT'] = var5;
+    var5 = 'display_name_styles';
+    var33['DISPLAY_NAME_STYLES'] = var5;
     var5 = 'preset';
     var33['PRESET'] = var5;
     var32 = {};

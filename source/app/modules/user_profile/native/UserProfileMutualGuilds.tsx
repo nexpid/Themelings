@@ -234,7 +234,7 @@ case 5:
             var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var13 = _closure1_slot1;
             var12 = 16;
             var12 = var14[var12];

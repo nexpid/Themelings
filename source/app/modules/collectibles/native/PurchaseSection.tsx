@@ -188,7 +188,7 @@ case 5:
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.TEXT_PRIMARY;
+            var9 = var9.TEXT_STRONG;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
             var11 = _closure1_slot1;

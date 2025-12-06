@@ -102,7 +102,7 @@ case 2:
             var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var13 = var13.description;
             var9['style'] = var13;
             var9['children'] = var12;
@@ -404,7 +404,7 @@ case 11:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_DANGER;
+    var11 = var11.TEXT_FEEDBACK_CRITICAL;
     var9['tintColor'] = var11;
     var4['mainIcon'] = var9;
     var9 = {'marginBottom': 16, 'textAlign': 'center'};

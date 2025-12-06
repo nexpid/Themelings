@@ -317,7 +317,7 @@ case 11:
                     var6 = var12[var6];
                     var6 = var7.bind(var3)(var6);
                     var7 = var6.Text;
-                    var6 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                    var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                     var11 = _closure1_slot1;
                     var10 = 19;
                     var10 = var12[var10];
@@ -348,7 +348,7 @@ case 16:
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-sm/medium', 'color': 'header-secondary', 'accessible': false, 'accessibilityRole': 'none'};
+            var8 = {'variant': 'text-sm/medium', 'color': 'text-default', 'accessible': false, 'accessibilityRole': 'none'};
             var11 = _closure1_slot5;
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
@@ -461,7 +461,7 @@ case 17:
                     var6 = var12[var6];
                     var6 = var7.bind(var3)(var6);
                     var7 = var6.Text;
-                    var6 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                    var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                     var11 = _closure1_slot1;
                     var10 = 22;
                     var10 = var12[var10];

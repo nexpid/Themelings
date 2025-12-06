@@ -120,7 +120,7 @@ case 9:
             var20 = var20[var25];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'variant': 'text-md/medium', 'color': 'text-primary'};
+            var20 = {'variant': 'text-md/medium', 'color': 'text-strong'};
             var24 = var24.header;
             var20['style'] = var24;
             var20['children'] = var23;

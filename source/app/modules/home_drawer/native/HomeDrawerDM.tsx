@@ -278,7 +278,7 @@ case 22:
                 var8 = 'text-muted';
                 if(!var9) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-                var8 = 'text-primary';
+                var8 = 'text-strong';
 case 23:
                 var2['color'] = var8;
                 var8 = _closure1_slot0;
@@ -390,10 +390,10 @@ case 0:
             var3 = var1.isChatBesideChannelList;
             var1 = null;
             if(!var7) { _fun0005_ip = 25; continue _fun0005 }
-case 23:
+case 26:
             var1 = null;
             if(var3) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+case 27:
             var4 = _closure1_slot10;
             var3 = _closure1_slot12;
             var2 = {};

@@ -88,7 +88,7 @@ case 4:
     var12 = var6[var8];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_PRIMARY;
+    var12 = var12.TEXT_STRONG;
     var7['textColor'] = var12;
     var12 = var6[var8];
     var12 = var9.bind(var1)(var12);
@@ -119,7 +119,7 @@ case 4:
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var7['embedBodyTextColor'] = var11;
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
@@ -145,7 +145,7 @@ case 4:
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_POSITIVE;
+    var10 = var10.TEXT_FEEDBACK_POSITIVE;
     var7['aiBotTagColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
@@ -160,7 +160,7 @@ case 4:
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_FAINT;
+    var10 = var10.BACKGROUND_MOD_FAINT;
     var7['feedbackColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);

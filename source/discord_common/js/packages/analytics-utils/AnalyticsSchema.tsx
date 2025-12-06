@@ -487,6 +487,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VOICE_FEEDBACK_MODAL'] = var2;
     var2 = 'impression_voice_filter_feedback_modal';
     var4['VOICE_FILTER_FEEDBACK_MODAL'] = var2;
+    var2 = 'impression_voice_invite_suggestions_entrypoint';
+    var4['VOICE_INVITE_SUGGESTIONS_ENTRYPOINT'] = var2;
+    var2 = 'impression_voice_invite_suggestions_popover';
+    var4['VOICE_INVITE_SUGGESTIONS_POPOVER'] = var2;
     var2 = 'impression_voice_user_activity_popout';
     var4['VOICE_USER_ACTIVITY_POPOUT'] = var2;
     var2 = {};
@@ -534,6 +538,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HUB_EMAIL_VERIFY_SEND'] = var5;
     var5 = 'network_action_hub_waitlist_signup';
     var2['HUB_WAITLIST_SIGNUP'] = var5;
+    var5 = 'network_action_invite_friend_members_fetch';
+    var2['INVITE_FRIEND_MEMBERS_FETCH'] = var5;
     var5 = 'network_action_invite_resolve';
     var2['INVITE_RESOLVE'] = var5;
     var5 = 'network_action_invite_revoke';
@@ -544,6 +550,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NCMEC_REPORT_CLOSE'] = var5;
     var5 = 'network_action_ncmec_reportable_content_create';
     var2['NCMEC_REPORTABLE_CONTENT_CREATE'] = var5;
+    var5 = 'network_action_nitro_warp_create_license';
+    var2['NITRO_WARP_CREATE_LICENSE'] = var5;
     var5 = 'network_action_notification_center_item_delete';
     var2['NOTIFICATION_CENTER_ITEM_DELETE'] = var5;
     var5 = 'network_action_notification_center_page_fetch';

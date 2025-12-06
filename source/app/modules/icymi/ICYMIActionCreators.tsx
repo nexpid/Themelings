@@ -1240,7 +1240,7 @@ case 86:
         }
     };
     var2['takeSurvey'] = var7;
-    var4 = function itemInteracted(arg1, arg2, arg3) {
+    var7 = function itemInteracted(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -1260,7 +1260,61 @@ case 86:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['itemInteracted'] = var4;
+    var2['itemInteracted'] = var7;
+    var7 = function feedItemActioned(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_FEED_ITEM_ACTIONED';
+        var2['type'] = var5;
+        var6 = arg1;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['feedItemActioned'] = var7;
+    var7 = function feedFilterActioned(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_FEED_FILTER_ACTIONED';
+        var2['type'] = var5;
+        var6 = arg1;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['feedFilterActioned'] = var7;
+    var4 = function feedPageActioned(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_FEED_PAGE_ACTIONED';
+        var2['type'] = var5;
+        var6 = arg1;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['feedPageActioned'] = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

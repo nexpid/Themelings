@@ -91,7 +91,7 @@ case 4:
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var6 = var5.CircleErrorIcon;
-        var5 = {'size': 'xs', 'color': 'text-danger'};
+        var5 = {'size': 'xs', 'color': 'text-feedback-critical'};
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
@@ -99,7 +99,7 @@ case 4:
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-xs/medium', 'color': 'text-danger'};
+        var6 = {'variant': 'text-xs/medium', 'color': 'text-feedback-critical'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;

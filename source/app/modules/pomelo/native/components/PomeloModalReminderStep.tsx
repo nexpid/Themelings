@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
         var15 = var11.centerAlign;
         var12 = new Array(2);
         var12[0] = var15;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.TextWithIOSLinkWorkaround;
-        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
         var11 = var11.centerAlign;
         var6['style'] = var11;
         var11 = var14[var9];

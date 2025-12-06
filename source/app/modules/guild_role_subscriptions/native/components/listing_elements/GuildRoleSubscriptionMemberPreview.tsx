@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['borderColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
@@ -277,7 +277,7 @@ case 10:
             var9 = var9[var14];
             var9 = var10.bind(var5)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-md/normal', 'color': 'text-normal'};
+            var9 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var9['style'] = var13;
             var9['children'] = var12;
             var9 = var11.bind(var5)(var10, var9);

@@ -275,7 +275,7 @@ case 7:
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.open;
-                        var2 = {'key': 'PERM_MIGRATION_SUCCESS_TOAST', 'iconColor': 'text-positive'};
+                        var2 = {'key': 'PERM_MIGRATION_SUCCESS_TOAST', 'iconColor': 'text-feedback-positive'};
                         var8 = _closure1_slot0;
                         var5 = 19;
                         var5 = var9[var5];
@@ -487,7 +487,7 @@ case 16:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.DIVIDER_STRONG;
+    var12 = var12.BORDER_STRONG;
     var9['borderBottomColor'] = var12;
     var4['divider'] = var9;
     var9 = {};
@@ -635,7 +635,7 @@ case 16:
         var12 = var22[var13];
         var12 = var18.bind(var4)(var12);
         var14 = var12.Text;
-        var12 = {'variant': 'text-md/semibold', 'color': 'text-primary'};
+        var12 = {'variant': 'text-md/semibold', 'color': 'text-strong'};
         var19 = var22[var17];
         var19 = var18.bind(var4)(var19);
         var23 = var19.intl;

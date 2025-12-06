@@ -198,7 +198,7 @@ case 0:
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+                var1 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
                 var5 = {};
                 var5['marginBottom'] = var6;
                 var1['style'] = var5;

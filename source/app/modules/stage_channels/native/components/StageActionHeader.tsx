@@ -503,7 +503,7 @@ case 16:
     var18 = var13[var15];
     var18 = var16.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.HEADER_SECONDARY;
+    var18 = var18.TEXT_SUBTLE;
     var11['color'] = var18;
     var7['stageInfo'] = var11;
     var11 = {};
@@ -513,7 +513,7 @@ case 16:
     var15 = var13[var15];
     var15 = var16.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_SECONDARY;
+    var15 = var15.TEXT_SUBTLE;
     var11['tintColor'] = var15;
     var7['icon'] = var11;
     var7 = var8.bind(var10)(var7);

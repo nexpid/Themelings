@@ -235,7 +235,7 @@ case 4:
             var6 = var6[var11];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
+            var6 = {'variant': 'heading-md/normal', 'color': 'text-default'};
             var11 = var9.length;
             var9 = 0;
             if(!(!(var11 > var9))) { _fun0001_ip = 8; continue _fun0001 }

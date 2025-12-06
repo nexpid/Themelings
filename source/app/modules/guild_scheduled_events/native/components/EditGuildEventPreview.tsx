@@ -131,7 +131,7 @@ case 6:
                 var6['accessibilityLabel'] = var12;
                 var12 = 'text-sm/medium';
                 var6['variant'] = var12;
-                var12 = 'header-secondary';
+                var12 = 'text-default';
                 var6['color'] = var12;
                 if(!(var9 == var11)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -210,7 +210,7 @@ case 11:
                         var8 = var11[var8];
                         var8 = var9.bind(var2)(var8);
                         var9 = var8.Text;
-                        var8 = {'accessibilityElementsHidden': true, 'importantForAccessibility': 'no', 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                        var8 = {'accessibilityElementsHidden': true, 'importantForAccessibility': 'no', 'variant': 'text-sm/medium', 'color': 'text-default'};
                         var15 = true;
                         var11 = _closure2_slot2;
                         var13 = var7 != var11;
@@ -326,12 +326,12 @@ case 10:
         var16 = var6[var10];
         var16 = var11.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BACKGROUND_FLOATING;
+        var16 = var16.BACKGROUND_SURFACE_HIGH;
         var9['backgroundColor'] = var16;
         var16 = var6[var10];
         var16 = var11.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BACKGROUND_MODIFIER_ACCENT;
+        var16 = var16.BORDER_SUBTLE;
         var9['borderColor'] = var16;
         var16 = var6[var10];
         var16 = var11.bind(var1)(var16);
@@ -348,7 +348,7 @@ case 10:
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.HEADER_SECONDARY;
+        var14 = var14.TEXT_SUBTLE;
         var9['tintColor'] = var14;
         var14 = {};
         var16 = 7;

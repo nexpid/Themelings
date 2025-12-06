@@ -34,7 +34,7 @@ case 5:
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.colors;
-            var12 = var2.BG_MOD_STRONG;
+            var12 = var2.BACKGROUND_MOD_STRONG;
 case 4:
             var10 = var1.inactiveOpacity;
             if(!(var10 === var4)) { _fun0001_ip = 6; continue _fun0001 }

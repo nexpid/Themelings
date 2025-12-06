@@ -48,14 +48,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_STRONG;
+    var13 = var13.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var13;
     var4['placeholderImage'] = var9;
     var9 = {'backgroundColor': null, 'height': 15, 'borderRadius': null, 'marginRight': 12, 'marginBottom': 4};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_STRONG;
+    var13 = var13.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_STRONG;
+    var13 = var13.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var13;
     var13 = 40;
     var9['height'] = var13;

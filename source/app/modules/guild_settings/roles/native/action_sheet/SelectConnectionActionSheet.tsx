@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_FLOATING;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var11;
     var4['header'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'padding': 12};
@@ -365,7 +365,7 @@ case 19:
                     var15 = var15[var18];
                     var15 = var16.bind(var2)(var15);
                     var16 = var15.Text;
-                    var15 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+                    var15 = {'variant': 'text-xs/normal', 'color': 'text-default'};
                     var18 = var11.description;
                     var15['children'] = var18;
                     var7 = var17.bind(var2)(var16, var15);

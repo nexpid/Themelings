@@ -382,7 +382,7 @@ case 10:
             var6 = var21[var9];
             var6 = var20.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var15 = var17.subheaderText;
             var6['style'] = var15;
             var15 = var21[var16];
@@ -417,7 +417,7 @@ case 10:
             var9 = var21[var9];
             var9 = var20.bind(var4)(var9);
             var12 = var9.Text;
-            var9 = {'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var9 = {'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'text-default'};
             var18 = var21[var16];
             var18 = var20.bind(var4)(var18);
             var19 = var18.intl;
@@ -578,7 +578,7 @@ case 14:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.HEADER_SECONDARY;
+    var16 = var16.TEXT_SUBTLE;
     var10['color'] = var16;
     var7['friendInviteSubtext'] = var10;
     var10 = {};
@@ -595,7 +595,7 @@ case 14:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MODIFIER_ACCENT;
+    var15 = var15.BORDER_SUBTLE;
     var10['backgroundColor'] = var15;
     var7['divider'] = var10;
     var10 = {};
@@ -607,7 +607,7 @@ case 14:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var12;
     var10['marginTop'] = var11;
     var7['rowContainer'] = var10;

@@ -177,7 +177,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var4['settings'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -622,7 +622,7 @@ case 49:
             var18 = var32[var12];
             var18 = var27.bind(var4)(var18);
             var21 = var18.TextWithIOSLinkWorkaround;
-            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var25 = var17.centerText;
             var18['style'] = var25;
             var25 = var32[var20];
@@ -754,7 +754,7 @@ case 53:
             var12 = var15[var12];
             var12 = var16.bind(var4)(var12);
             var13 = var12.TextWithIOSLinkWorkaround;
-            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var17 = var17.centerText;
             var12['style'] = var17;
             var17 = var15[var20];

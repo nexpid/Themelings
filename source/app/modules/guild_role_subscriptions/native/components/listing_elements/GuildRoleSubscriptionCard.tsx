@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-xs/bold', 'color': 'header-secondary'};
+        var1 = {'variant': 'text-xs/bold', 'color': 'text-default'};
         var6 = var6.sectionTitle;
         var1['style'] = var6;
         var1['children'] = var5;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var11['backgroundColor'] = var12;
     var6['separator'] = var11;
     var6 = var9.bind(var10)(var6);

@@ -197,7 +197,7 @@ case 8:
             var3 = var2.Text;
             var2 = {};
             var2['variant'] = var17;
-            var9 = 'text-normal';
+            var9 = 'text-default';
             if(!var16) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var9 = 'text-muted';
@@ -226,7 +226,7 @@ case 6:
             var19 = var6.Text;
             var10 = {};
             var10['variant'] = var17;
-            var13 = 'text-normal';
+            var13 = 'text-default';
             var6 = var13;
             if(!var16) { _fun0001_ip = 16; continue _fun0001 }
 case 17:

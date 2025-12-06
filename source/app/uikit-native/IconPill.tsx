@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
     var4 = var4.colors;
-    var4 = var4.BG_SURFACE_RAISED;
+    var4 = var4.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var4;
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_SECONDARY;
+    var15 = var15.TEXT_SUBTLE;
     var10['tintColor'] = var15;
     var10['marginRight'] = var14;
     var7['pillIcon'] = var10;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_SECONDARY;
+    var11 = var11.TEXT_SUBTLE;
     var10['color'] = var11;
     var11 = 14;
     var10['fontSize'] = var11;

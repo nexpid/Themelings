@@ -270,7 +270,7 @@ case 6:
             var5 = var6.bind(var4)(var5);
             var6 = var5.DoorExitIcon;
             var5 = {};
-            var8 = 'text-danger';
+            var8 = 'text-feedback-critical';
             var5['color'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['icon'] = var5;

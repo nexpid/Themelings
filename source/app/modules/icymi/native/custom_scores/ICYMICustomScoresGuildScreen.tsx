@@ -1168,7 +1168,7 @@ case 90:
                     var13 = var11[var13];
                     var13 = var14.bind(var2)(var13);
                     var13 = var13.colors;
-                    var13 = var13.HEADER_SECONDARY;
+                    var13 = var13.TEXT_SUBTLE;
                     var6['color'] = var13;
                     var9 = var12.bind(var2)(var9, var6);
                     var6 = new Array(2);
@@ -1178,7 +1178,7 @@ case 90:
                     var7 = var11[var7];
                     var7 = var8.bind(var2)(var7);
                     var8 = var7.Text;
-                    var7 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+                    var7 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
                     var10 = var10.title;
                     var7['children'] = var10;
                     var7 = var9.bind(var2)(var8, var7);
@@ -1223,7 +1223,7 @@ case 96:
                     var9 = var15[var8];
                     var9 = var14.bind(var3)(var9);
                     var10 = var9.Text;
-                    var9 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+                    var9 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
                     var11 = 13;
                     var16 = var15[var11];
                     var16 = var14.bind(var3)(var16);
@@ -1241,7 +1241,7 @@ case 96:
                     var8 = var15[var8];
                     var8 = var14.bind(var3)(var8);
                     var9 = var8.Text;
-                    var8 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+                    var8 = {'variant': 'text-xs/normal', 'color': 'text-default'};
                     var12 = {};
                     var16 = _closure1_slot1;
                     var13 = 10;

@@ -214,7 +214,7 @@ case 2:
         var1['nativePaymentsConnected'] = var2;
         return var1;
     };
-    var4 = function useCancelSubscription(arg1) {
+    var4 = function useCancelSubscription(arg1, arg2) {
         var1 = {};
         var3 = _closure1_slot9;
         var1['cancelSubscription'] = var3;

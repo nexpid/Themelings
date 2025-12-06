@@ -151,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_PRIMARY;
+    var15 = var15.TEXT_STRONG;
     var9['color'] = var15;
     var4['status'] = var9;
     var9 = {'fontSize': 16, 'lineHeight': 20, 'fontFamily': null, 'color': null, 'flexGrow': 1, 'height': 'auto', 'textAlignVertical': 'center'};
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_PRIMARY;
+    var14 = var14.TEXT_STRONG;
     var9['color'] = var14;
     var4['statusText'] = var9;
     var9 = {};
@@ -813,7 +813,7 @@ case 34:
             var15 = var15[var21];
             var15 = var16.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var15 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'text-default'};
             var38 = _closure1_slot0;
             var20 = _closure1_slot2;
             var22 = 11;
@@ -1074,7 +1074,7 @@ case 48:
             var24 = var18[var24];
             var24 = var25.bind(var5)(var24);
             var24 = var24.colors;
-            var24 = var24.TEXT_DANGER;
+            var24 = var24.TEXT_FEEDBACK_CRITICAL;
             var19['color'] = var24;
             var19 = var23.bind(var5)(var20, var19);
             var14['icon'] = var19;

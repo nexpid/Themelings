@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot4 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -34,30 +34,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useDisplayNameStylesHandleApply(arg1) {
         var2 = arg1;
-        var11 = var2.hasChanges;
-        var _closure2_slot0 = var11;
-        var10 = var2.selectedFontId;
-        var _closure2_slot1 = var10;
-        var9 = var2.selectedEffectId;
-        var _closure2_slot2 = var9;
-        var8 = var2.selectedColors;
-        var _closure2_slot3 = var8;
-        var7 = var2.defaultColor;
-        var _closure2_slot4 = var7;
-        var5 = var2.guildId;
-        var _closure2_slot5 = var5;
-        var6 = var2.onClose;
-        var _closure2_slot6 = var6;
+        var12 = var2.hasChanges;
+        var _closure2_slot0 = var12;
+        var11 = var2.selectedFontId;
+        var _closure2_slot1 = var11;
+        var10 = var2.selectedEffectId;
+        var _closure2_slot2 = var10;
+        var9 = var2.selectedColors;
+        var _closure2_slot3 = var9;
+        var8 = var2.defaultColor;
+        var _closure2_slot4 = var8;
+        var6 = var2.guildId;
+        var _closure2_slot5 = var6;
+        var5 = var2.isTryItOut;
+        var _closure2_slot6 = var5;
+        var7 = var2.onClose;
+        var _closure2_slot7 = var7;
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
-        var2 = new Array(7);
-        var2[0] = var11;
-        var2[1] = var10;
-        var2[2] = var9;
-        var2[3] = var8;
-        var2[4] = var7;
-        var2[5] = var6;
-        var2[6] = var5;
+        var2 = new Array(8);
+        var2[0] = var12;
+        var2[1] = var11;
+        var2[2] = var10;
+        var2[3] = var9;
+        var2[4] = var8;
+        var2[5] = var7;
+        var2[6] = var6;
+        var2[7] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -104,14 +107,24 @@ case 8:
                 var4 = null;
                 if(!(var4 == var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+                var3 = _closure2_slot6;
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
+                if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+                var3 = 5;
+                var3 = var7[var3];
+                var8 = var5.bind(var2)(var3);
+                var3 = var8.setPendingDisplayNameStyles;
+                var3 = var3.bind(var8)(var6);
+                _fun0001_ip = 14; continue _fun0001;
+case 12:
                 var3 = 4;
                 var3 = var7[var3];
                 var5 = var5.bind(var2)(var3);
-                var3 = var5.setPendingDisplayNameStyles;
+                var3 = var5.setTryItOutDisplayNameStyles;
                 var3 = var3.bind(var5)(var6);
-                _fun0001_ip = 12; continue _fun0001;
+                _fun0001_ip = 14; continue _fun0001;
 case 10:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -120,10 +133,10 @@ case 10:
                 var5 = var5.bind(var2)(var3);
                 var3 = var5.setGuildMemberPendingDisplayNameStyles;
                 var3 = var3.bind(var5)(var6);
-case 12:
+case 14:
                 var5 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var3 = 5;
+                var3 = 6;
                 var3 = var8[var3];
                 var7 = var5.bind(var2)(var3);
                 var6 = var7.track;
@@ -131,7 +144,7 @@ case 12:
                 var5 = var3.DISPLAY_NAME_STYLES_APPLIED;
                 var3 = {};
                 var9 = _closure1_slot0;
-                var11 = 6;
+                var11 = 7;
                 var11 = var8[var11];
                 var11 = var9.bind(var2)(var11);
                 var12 = var11.DisplayNameFont;
@@ -147,10 +160,10 @@ case 12:
                 var8 = _closure2_slot3;
                 var3['colors'] = var8;
                 var3 = var6.bind(var7)(var5, var3);
-                var3 = _closure2_slot6;
+                var3 = _closure2_slot7;
                 if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
-case 13:
-                var1 = _closure2_slot6;
+case 15:
+                var1 = _closure2_slot7;
                 var1 = var1.bind(var2)();
 case 2:
                 var1 = undefined;

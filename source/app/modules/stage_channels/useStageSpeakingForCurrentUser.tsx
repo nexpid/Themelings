@@ -34,7 +34,7 @@ case 0:
             var1 = 1;
             var1 = var5[var1];
             var4 = var4.bind(var3)(var1);
-            var3 = var4.useIsGidgetPawtectEnabled;
+            var3 = var4.useIsStagePawtectEnabled;
             var1 = 'useIsStageSpeakingDisabledForCurrentUser';
             var1 = var3.bind(var4)(var1);
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
@@ -59,7 +59,7 @@ case 0:
             var1 = 1;
             var1 = var5[var1];
             var4 = var4.bind(var3)(var1);
-            var3 = var4.getIsGidgetPawtectEnabled;
+            var3 = var4.getIsStagePawtectEnabled;
             var1 = 'isStageSpeakingDisabledForCurrentUser';
             var1 = var3.bind(var4)(var1);
             if(!var1) { _fun0002_ip = 2; continue _fun0002 }
@@ -84,7 +84,7 @@ case 0:
             var1 = 1;
             var1 = var5[var1];
             var4 = var4.bind(var3)(var1);
-            var3 = var4.getIsGidgetPawtectEnabled;
+            var3 = var4.getIsStagePawtectEnabled;
             var1 = 'shouldAgeVerifyToSpeakForCurrentUser';
             var1 = var3.bind(var4)(var1);
             if(!var1) { _fun0003_ip = 2; continue _fun0003 }
@@ -109,7 +109,7 @@ case 0:
             var1 = 1;
             var1 = var5[var1];
             var4 = var4.bind(var3)(var1);
-            var3 = var4.useIsGidgetPawtectEnabled;
+            var3 = var4.useIsStagePawtectEnabled;
             var1 = 'useShouldAgeVerifyToSpeakForCurrentUser';
             var1 = var3.bind(var4)(var1);
             if(!var1) { _fun0004_ip = 4; continue _fun0004 }

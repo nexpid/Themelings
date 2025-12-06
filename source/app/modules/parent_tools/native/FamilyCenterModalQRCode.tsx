@@ -287,7 +287,7 @@ case 7:
             var23 = var14[var23];
             var23 = var21.bind(var4)(var23);
             var25 = var23.TextWithIOSLinkWorkaround;
-            var23 = {'style': null, 'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var23 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var27 = var13.description;
             var23['style'] = var27;
             var27 = var14[var17];
@@ -353,7 +353,7 @@ case 12:
             var9 = var12[var9];
             var9 = var14.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-default'};
             var13 = var13.reminder;
             var9['style'] = var13;
             var13 = var12[var17];

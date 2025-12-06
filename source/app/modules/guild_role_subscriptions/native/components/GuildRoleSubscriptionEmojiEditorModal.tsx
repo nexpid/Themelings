@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var11;
     var4['emojiList'] = var9;
     var9 = {'alignItems': 'flex-start', 'paddingTop': 16, 'paddingBottom': 14};
@@ -493,7 +493,7 @@ case 21:
                     var11 = var18[var11];
                     var11 = var17.bind(var1)(var11);
                     var12 = var11.Text;
-                    var11 = {'variant': 'text-sm/normal', 'color': 'text-danger'};
+                    var11 = {'variant': 'text-sm/normal', 'color': 'text-feedback-critical'};
                     var15 = var18[var14];
                     var15 = var17.bind(var1)(var15);
                     var16 = var15.intl;

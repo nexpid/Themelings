@@ -56,12 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var8[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var11;
     var11 = var8[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var10['borderBottomColor'] = var11;
     var4['forumChannelStyles'] = var10;
     var10 = {};
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var12;
     var2['mentionBadgeAlternate'] = var11;
     var2 = var9.bind(var10)(var2);

@@ -409,8 +409,8 @@ case 0:
                 var2 = var6.get;
                 var2 = var2.bind(var6)(var5);
                 var5 = null;
-                if(!(var5 == var2)) { _fun0006_ip = 16; continue _fun0006 }
-case 19:
+                if(!(var5 == var2)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                 var6 = _closure1_slot6;
                 var8 = _closure2_slot0;
                 var5 = var6.prototype;
@@ -418,7 +418,7 @@ case 19:
                 var9 = var5;
                 var4 = new var9[var6](var8, var7);
                 var2 = var4 instanceof Object ? var4 : var5;
-case 16:
+case 19:
                 var1 = _closure2_slot1;
                 var1 = var1.bind(var3)(var2);
                 return var1;
@@ -455,8 +455,8 @@ case 0:
             var2 = var4.get;
             var2 = var2.bind(var4)(var6);
             var4 = null;
-            if(!(var4 == var2)) { _fun0007_ip = 20; continue _fun0007 }
-case 21:
+            if(!(var4 == var2)) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
             var1 = _closure1_slot6;
             var4 = var1.prototype;
             var4 = Object.create(var4, {constructor: {value: var1}});
@@ -464,7 +464,7 @@ case 21:
             var8 = var5;
             var1 = new var9[var1](var8, var7);
             var2 = var1 instanceof Object ? var1 : var4;
-case 20:
+case 21:
             var1 = arg2;
             var1 = var1.bind(var3)(var2);
             return var1;
@@ -494,8 +494,8 @@ case 0:
             var3 = var7.get;
             var4 = var3.bind(var7)(var6);
             var3 = null;
-            if(!(var3 == var4)) { _fun0008_ip = 20; continue _fun0008 }
-case 21:
+            if(!(var3 == var4)) { _fun0008_ip = 21; continue _fun0008 }
+case 22:
             var3 = _closure1_slot6;
             var5 = var3.prototype;
             var5 = Object.create(var5, {constructor: {value: var3}});
@@ -503,7 +503,7 @@ case 21:
             var10 = var8;
             var3 = new var11[var3](var10, var9);
             var4 = var3 instanceof Object ? var3 : var5;
-case 20:
+case 21:
             var3 = arg2;
             var3 = var3.bind(var1)(var4);
             var3 = global;
@@ -547,8 +547,8 @@ case 0:
             var4 = var4.bind(var5)(var3);
             var3 = var6.has;
             var3 = var3.bind(var6)(var4);
-            if(!var3) { _fun0009_ip = 22; continue _fun0009 }
-case 23:
+            if(!var3) { _fun0009_ip = 23; continue _fun0009 }
+case 24:
             var3 = global;
             var3 = var3.Map;
             var5 = var3.prototype;
@@ -564,7 +564,7 @@ case 23:
             var2 = {};
             var2['states'] = var5;
             var2 = var3.bind(var4)(var2);
-case 22:
+case 23:
             return var1;
         }
     };
@@ -593,20 +593,20 @@ case 0:
                 var1 = arg1;
                 var6 = arg2;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0010_ip = 24; continue _fun0010 }
-case 25:
+                if(!(var2 != var1)) { _fun0010_ip = 25; continue _fun0010 }
+case 26:
                 var5 = _closure2_slot0;
                 var4 = var1.textInputValue;
                 var7 = var2 == var6;
                 var3 = undefined;
                 var2 = undefined;
-                if(var7) { _fun0010_ip = 26; continue _fun0010 }
-case 27:
+                if(var7) { _fun0010_ip = 27; continue _fun0010 }
+case 28:
                 var2 = var6.textInputValue;
-case 26:
+case 27:
                 var1 = var1.textInputChangedFromInput;
                 var1 = var5.bind(var3)(var4, var2, var1);
-case 24:
+case 25:
                 var1 = undefined;
                 return var1;
             }

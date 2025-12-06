@@ -1957,7 +1957,7 @@ case 75:
             var11 = var13[var11];
             var11 = var14.bind(var4)(var11);
             var12 = var11.TextWithIOSLinkWorkaround;
-            var11 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'text-default'};
             var15 = var15.onboardingPolicyText;
             var11['style'] = var15;
             var15 = var13[var18];

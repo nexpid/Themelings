@@ -282,7 +282,7 @@ case 11:
                 var8 = var12[var8];
                 var8 = var9.bind(var4)(var8);
                 var9 = var8.ChevronSmallRightIcon;
-                var8 = {'size': 'xxs', 'color': 'text-normal'};
+                var8 = {'size': 'xxs', 'color': 'text-default'};
                 var8 = var10.bind(var4)(var9, var8);
                 var5[1] = var8;
                 var10 = _closure1_slot7;
@@ -293,7 +293,7 @@ case 13:
                 var9 = var18.channelButton;
                 var7['style'] = var9;
                 var15 = _closure1_slot6;
-                var9 = {'size': 'xxs', 'color': 'text-normal'};
+                var9 = {'size': 'xxs', 'color': 'text-default'};
                 var12 = var15.bind(var4)(var13, var9);
                 var9 = new Array(2);
                 var9[0] = var12;
@@ -369,7 +369,7 @@ case 12:
                 };
                 var8['onPress'] = var12;
                 var15 = _closure1_slot6;
-                var12 = {'size': 'xxs', 'color': 'text-normal'};
+                var12 = {'size': 'xxs', 'color': 'text-default'};
                 var13 = var15.bind(var4)(var13, var12);
                 var12 = new Array(2);
                 var12[0] = var13;

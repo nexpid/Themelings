@@ -291,7 +291,7 @@ case 13:
             var16 = var20[var16];
             var16 = var23.bind(var4)(var16);
             var18 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var16 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var24 = var21.buildOverrideExpiration;
             var16['style'] = var24;
             var24 = var20[var22];

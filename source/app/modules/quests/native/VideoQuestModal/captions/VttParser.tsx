@@ -376,45 +376,45 @@ case 44:
 case 43:
                         var11 = '';
                         var10 = var11;
-                        if(!var3) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                        if(!var3) { _fun0005_ip = 28; continue _fun0005 }
+case 45:
                         var3 = var7.shift;
                         var10 = var3.bind(var7)();
-case 45:
+case 28:
                         var9 = var7[var8];
                         var4 = var9.split;
                         var3 = ' --> ';
                         var4 = var4.bind(var9)(var3);
                         var9 = var4.length;
                         var3 = 2;
-                        if(!(var3 === var9)) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                        if(!(var3 === var9)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                         var14 = _closure1_slot8;
                         var9 = var4[var8];
                         var15 = undefined;
                         var9 = var14.bind(var15)(var9);
-                        if(!var9) { _fun0005_ip = 47; continue _fun0005 }
-case 49:
+                        if(!var9) { _fun0005_ip = 46; continue _fun0005 }
+case 48:
                         var14 = _closure1_slot8;
                         var9 = var4[var5];
                         var9 = var14.bind(var15)(var9);
-                        if(!var9) { _fun0005_ip = 47; continue _fun0005 }
-case 50:
+                        if(!var9) { _fun0005_ip = 46; continue _fun0005 }
+case 49:
                         var14 = _closure1_slot9;
                         var8 = var4[var8];
                         var9 = var14.bind(var15)(var8);
                         var8 = var4[var5];
                         var8 = var14.bind(var15)(var8);
-                        if(!var13) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
-                        if(!(!(var9 > var8))) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
-                        if(!(!(var8 <= var9))) { _fun0005_ip = 55; continue _fun0005 }
+                        if(!var13) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
-                        if(var13) { _fun0005_ip = 56; continue _fun0005 }
+                        if(!(!(var9 > var8))) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+                        if(!(!(var8 <= var9))) { _fun0005_ip = 54; continue _fun0005 }
+case 50:
+                        if(var13) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
+                        if(!(var8 < var9)) { _fun0005_ip = 55; continue _fun0005 }
 case 57:
-                        if(!(var8 < var9)) { _fun0005_ip = 56; continue _fun0005 }
-case 58:
                         var15 = _closure1_slot5;
                         var13 = var2.HermesInternal;
                         var16 = var13.concat;
@@ -427,7 +427,7 @@ case 58:
                         var13 = new var19[var15](var18, var17);
                         var13 = var13 instanceof Object ? var13 : var14;
                         throw var13;
-case 56:
+case 55:
                         var13 = var4[var5];
                         var5 = var13.replace;
                         var4 = _closure1_slot6;
@@ -442,7 +442,7 @@ case 56:
                         var4 = var4.bind(var7)();
                         var1 = false;
                         if(!(var11 !== var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 59:
+case 58:
                         var4 = {};
                         var4['identifier'] = var10;
                         var4['start'] = var9;
@@ -451,7 +451,7 @@ case 59:
                         var4['styles'] = var5;
                         var1 = var4;
                         _fun0005_ip = 35; continue _fun0005;
-case 55:
+case 54:
                         var7 = _closure1_slot5;
                         var4 = var2.HermesInternal;
                         var8 = var4.concat;
@@ -464,7 +464,7 @@ case 55:
                         var4 = new var19[var7](var18, var17);
                         var4 = var4 instanceof Object ? var4 : var5;
                         throw var4;
-case 53:
+case 52:
                         var5 = _closure1_slot5;
                         var3 = var2.HermesInternal;
                         var7 = var3.concat;
@@ -477,7 +477,7 @@ case 53:
                         var3 = new var19[var5](var18, var17);
                         var3 = var3 instanceof Object ? var3 : var4;
                         throw var3;
-case 47:
+case 46:
                         var4 = _closure1_slot5;
                         var2 = var2.HermesInternal;
                         var5 = var2.concat;
@@ -492,7 +492,7 @@ case 47:
                         throw var2;
 case 35: // try_end0
                         return var1;
-case 60: // catch_target0
+case 59: // catch_target0
                         CatchBlockStart(arg_register=2);
                         var2 = _closure3_slot1;
                         var1 = var2.push;
@@ -509,11 +509,11 @@ case 0:
                         var3 = arg1;
                         var1 = null;
                         var1 = var1 !== var3;
-                        if(!var1) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
+                        if(!var1) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
                         var2 = false;
                         var1 = var2 !== var3;
-case 61:
+case 60:
                         return var1;
                     }
                 };
@@ -526,14 +526,14 @@ case 61:
             var1 = var1.bind(var9)(var6, var2);
             var6 = var1.cues;
             var1 = var1.errors;
-            if(!var2) { _fun0004_ip = 48; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 62; continue _fun0004 }
 case 63:
             var7 = var1.length;
-            if(!(!(var7 > var3))) { _fun0004_ip = 64; continue _fun0004 }
-case 48:
+            if(!(!(var7 > var3))) { _fun0004_ip = 53; continue _fun0004 }
+case 62:
             var7 = null;
-            if(!var5) { _fun0004_ip = 65; continue _fun0004 }
-case 66:
+            if(!var5) { _fun0004_ip = 64; continue _fun0004 }
+case 65:
             var4 = function parseMeta(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -574,15 +574,15 @@ case 0:
                     var1 = 0;
                     var3 = var3 > var1;
                     var1 = null;
-                    if(!var3) { _fun0007_ip = 67; continue _fun0007 }
-case 68:
-                    var1 = var2;
+                    if(!var3) { _fun0007_ip = 66; continue _fun0007 }
 case 67:
+                    var1 = var2;
+case 66:
                     return var1;
                 }
             };
             var7 = var4.bind(var9)(var8);
-case 65:
+case 64:
             var4 = {};
             var8 = var1.length;
             var8 = var3 === var8;
@@ -590,17 +590,17 @@ case 65:
             var4['strict'] = var2;
             var4['cues'] = var6;
             var4['errors'] = var1;
-            if(!var5) { _fun0004_ip = 69; continue _fun0004 }
-case 70:
+            if(!var5) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
             var6 = {};
             var6['meta'] = var7;
             var5 = var6;
-case 69:
+case 68:
             var13 = var4;
             var12 = var5;
             var5 = copyDataProperties(var13, var12);
             return var4;
-case 64:
+case 53:
             var1 = var1[var3];
             throw var1;
 case 27:

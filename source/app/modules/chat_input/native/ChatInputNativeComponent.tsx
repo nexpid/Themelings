@@ -48,7 +48,7 @@ case 0:
         var14 = var6[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.TEXT_NORMAL;
+        var14 = var14.TEXT_DEFAULT;
         var11['color'] = var14;
         var2['textColor'] = var11;
         var11 = {};

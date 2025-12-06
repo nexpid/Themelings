@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-default'};
         var9 = var9.textContainer;
         var6['style'] = var9;
         var9 = 9;

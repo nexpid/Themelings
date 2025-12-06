@@ -938,7 +938,7 @@ case 50:
         }
     };
     var2['trackFeedItemDwell1s'] = var7;
-    var4 = function trackFeedItemDwelled(arg1) {
+    var7 = function trackFeedItemDwelled(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
@@ -1005,13 +1005,229 @@ case 44:
             return var1;
         }
     };
-    var2['trackFeedItemDwelled'] = var4;
+    var2['trackFeedItemDwelled'] = var7;
+    var7 = function trackFeedItemActioned(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var6 = arg1;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot5;
+            var3 = var2.FEED_ITEM_ACTIONED;
+            var2 = {};
+            var8 = _closure1_slot3;
+            var7 = var8.getLoadId;
+            var7 = var7.bind(var8)();
+            var2['load_id'] = var7;
+            var7 = var6.icymiSessionId;
+            var2['icymi_session_id'] = var7;
+            var7 = var6.uxVariation;
+            var2['ux_variation'] = var7;
+            var7 = var8.getVersion;
+            var7 = var7.bind(var8)();
+            var2['version'] = var7;
+            var7 = var6.sessionActionIndex;
+            var2['session_action_index'] = var7;
+            var7 = var6.itemId;
+            var2['item_id'] = var7;
+            var7 = var6.itemType;
+            var2['item_type'] = var7;
+            var8 = var6.impressionId;
+            var7 = null;
+            var9 = var7 != var8;
+            if(!var9) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
+            var7 = var8;
+case 52:
+            var2['impression_id'] = var7;
+            var7 = var6.actionParameters;
+            var7 = var7.actionGestureType;
+            var2['action_gesture_type'] = var7;
+            var7 = var6.actionParameters;
+            var7 = var7.actionTargetElement;
+            var2['action_target_element'] = var7;
+            var7 = var6.actionParameters;
+            var7 = var7.actionIntentType;
+            var2['action_intent_type'] = var7;
+            var6 = var6.actionParameters;
+            var6 = var6.actionDestinationType;
+            var2['action_destination_type'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
+    };
+    var2['trackFeedItemActioned'] = var7;
+    var7 = function trackFeedFilterActioned(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var7 = arg1;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot5;
+            var3 = var2.FEED_FILTER_ACTIONED;
+            var2 = {};
+            var8 = _closure1_slot3;
+            var6 = var8.getLoadId;
+            var6 = var6.bind(var8)();
+            var2['load_id'] = var6;
+            var6 = var7.icymiSessionId;
+            var2['icymi_session_id'] = var6;
+            var6 = var7.uxVariation;
+            var2['ux_variation'] = var6;
+            var6 = var8.getVersion;
+            var6 = var6.bind(var8)();
+            var2['version'] = var6;
+            var6 = var7.sessionActionIndex;
+            var2['session_action_index'] = var6;
+            var6 = var7.filterParameters;
+            var6 = var6.filterSettingContext;
+            var2['filter_setting_context'] = var6;
+            var6 = var7.filterParameters;
+            var6 = var6.filterTargetType;
+            var2['filter_target_type'] = var6;
+            var6 = var7.filterParameters;
+            var9 = var6.targetGuildId;
+            var6 = null;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
+            var8 = var9;
+case 54:
+            var2['target_guild_id'] = var8;
+            var8 = var7.filterParameters;
+            var9 = var8.targetChannelId;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
+            var8 = var9;
+case 56:
+            var2['target_channel_id'] = var8;
+            var8 = var7.filterParameters;
+            var9 = var8.previousTuneSetting;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
+            var8 = var9;
+case 58:
+            var2['previous_tune_setting'] = var8;
+            var8 = var7.filterParameters;
+            var9 = var8.newTuneSetting;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 34; continue _fun0007 }
+case 2:
+            var8 = var9;
+case 34:
+            var2['new_tune_setting'] = var8;
+            var8 = var7.filterParameters;
+            var9 = var8.previousOutSetting;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 60; continue _fun0007 }
+case 26:
+            var8 = var9;
+case 60:
+            var2['previous_out_setting'] = var8;
+            var8 = var7.filterParameters;
+            var9 = var8.newOutSetting;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 61; continue _fun0007 }
+case 40:
+            var8 = var9;
+case 61:
+            var2['new_out_setting'] = var8;
+            var9 = var7.itemId;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
+            var8 = var9;
+case 62:
+            var2['item_id'] = var8;
+            var9 = var7.itemType;
+            var10 = var6 != var9;
+            var8 = null;
+            if(!var10) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
+            var8 = var9;
+case 64:
+            var2['item_type'] = var8;
+            var7 = var7.impressionId;
+            var8 = var6 != var7;
+            var6 = null;
+            if(!var8) { _fun0007_ip = 66; continue _fun0007 }
+case 67:
+            var6 = var7;
+case 66:
+            var2['impression_id'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
+    };
+    var2['trackFeedFilterActioned'] = var7;
+    var4 = function trackFeedPageActioned(arg1) {
+        var6 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot5;
+        var3 = var2.FEED_PAGE_ACTIONED;
+        var2 = {};
+        var8 = _closure1_slot3;
+        var7 = var8.getLoadId;
+        var7 = var7.bind(var8)();
+        var2['load_id'] = var7;
+        var7 = var6.icymiSessionId;
+        var2['icymi_session_id'] = var7;
+        var7 = var6.uxVariation;
+        var2['ux_variation'] = var7;
+        var7 = var8.getVersion;
+        var7 = var7.bind(var8)();
+        var2['version'] = var7;
+        var7 = var6.sessionActionIndex;
+        var2['session_action_index'] = var7;
+        var7 = var6.actionParameters;
+        var7 = var7.actionGestureType;
+        var2['action_gesture_type'] = var7;
+        var7 = var6.actionParameters;
+        var7 = var7.actionTargetElement;
+        var2['action_target_element'] = var7;
+        var7 = var6.actionParameters;
+        var7 = var7.actionIntentType;
+        var2['action_intent_type'] = var7;
+        var6 = var6.actionParameters;
+        var6 = var6.actionDestinationType;
+        var2['action_destination_type'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var2['trackFeedPageActioned'] = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/icymi/ICYMIAnalytics.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = 'default';
+    var3['DEFAULT_UX_VARIATION'] = var4;
     var3['ICYMIAnalytics'] = var2;
     return var1;
 })();

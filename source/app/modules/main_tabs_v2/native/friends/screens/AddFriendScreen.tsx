@@ -364,7 +364,7 @@ case 6:
             var9 = var23[var11];
             var9 = var22.bind(var4)(var9);
             var19 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var21 = var20.subheaderText;
             var9['style'] = var21;
             var21 = var23[var18];
@@ -397,7 +397,7 @@ case 6:
             var11 = var23[var11];
             var11 = var22.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var11 = {'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'text-default'};
             var19 = var23[var18];
             var19 = var22.bind(var4)(var19);
             var21 = var19.intl;

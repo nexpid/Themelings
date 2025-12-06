@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var11['shadowColor'] = var12;
     var12 = {'height': 4294967272, 'width': 0};
     var11['shadowOffset'] = var12;
@@ -114,7 +114,7 @@ case 9:
             var1 = var15[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-normal'};
+            var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var15 = var12.infoText;
             var1['style'] = var15;
             var1['children'] = var5;

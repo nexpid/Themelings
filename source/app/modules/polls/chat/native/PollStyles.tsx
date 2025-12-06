@@ -50,17 +50,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function() {
             var1 = _closure2_slot0;
             var1 = var1.colors;
-            var1 = var1.TEXT_NORMAL;
+            var1 = var1.TEXT_DEFAULT;
             return var1;
         };
         var7 = var8.bind(var9)(var7);
         var1['label'] = var7;
         var1['opacity'] = var3;
         var3 = var2.colors;
-        var3 = var3.BG_MOD_FAINT;
+        var3 = var3.BACKGROUND_MOD_FAINT;
         var1['answerBackground'] = var3;
         var3 = var2.colors;
-        var3 = var3.BG_MOD_SUBTLE;
+        var3 = var3.BACKGROUND_MOD_SUBTLE;
         var1['answerFill'] = var3;
         var3 = 2;
         var3 = var6[var3];

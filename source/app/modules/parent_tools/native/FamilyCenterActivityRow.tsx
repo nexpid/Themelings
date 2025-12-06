@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var14['backgroundColor'] = var15;
     var7['avatar'] = var14;
     var14 = {'marginRight': 12, 'alignItems': 'flex-start'};
@@ -253,7 +253,7 @@ case 2:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TEXT_NORMAL;
+    var12 = var12.TEXT_DEFAULT;
     var10['color'] = var12;
     var4['avatarText'] = var10;
     var10 = {'display': 'flex', 'flexDirection': 'column', 'flexShrink': 1};

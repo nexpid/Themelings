@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['actionSheetButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 16;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -95,7 +95,7 @@ case 2:
             var10 = var2.bind(var4)();
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 12;
+            var2 = 14;
             var2 = var8[var2];
             var7 = var7.bind(var4)(var2);
             var2 = var7.useActionSheetPressHandler;
@@ -139,39 +139,39 @@ case 4:
                     _closure3_slot3 = var11;
                     var3 = _closure1_slot0;
                     var17 = _closure1_slot2;
-                    var9 = 6;
-                    var2 = var17[var9];
-                    var7 = var3.bind(var6)(var2);
-                    var2 = var7.useQuestTaskDetails;
-                    var8 = var2.bind(var7)(var5);
-                    var2 = 7;
-                    var7 = var17[var2];
-                    var10 = var3.bind(var6)(var7);
-                    var7 = var10.hasWatchVideoTasks;
-                    var15 = var7.bind(var10)(var5);
-                    _closure3_slot4 = var15;
-                    var7 = var17[var2];
-                    var10 = var3.bind(var6)(var7);
-                    var7 = var10.isInGameQuest;
-                    var7 = var7.bind(var10)(var5);
-                    _closure3_slot5 = var7;
-                    var9 = var17[var9];
+                    var8 = 6;
+                    var4 = var17[var8];
+                    var7 = var3.bind(var6)(var4);
+                    var4 = var7.useQuestTaskDetails;
+                    var4 = var4.bind(var7)(var5);
+                    var7 = 7;
+                    var9 = var17[var7];
                     var10 = var3.bind(var6)(var9);
-                    var9 = var10.useTaskPlatformScreen;
-                    var12 = var9.bind(var10)(var5, var8);
-                    var10 = _closure1_slot3;
-                    var9 = 1;
-                    var10 = var10.bind(var6)(var12, var9);
-                    var9 = 0;
-                    var13 = var10[var9];
+                    var9 = var10.hasWatchVideoTasks;
+                    var15 = var9.bind(var10)(var5);
+                    _closure3_slot4 = var15;
+                    var7 = var17[var7];
+                    var9 = var3.bind(var6)(var7);
+                    var7 = var9.isInGameQuest;
+                    var7 = var7.bind(var9)(var5);
+                    _closure3_slot5 = var7;
+                    var8 = var17[var8];
+                    var9 = var3.bind(var6)(var8);
+                    var8 = var9.useTaskPlatformScreen;
+                    var10 = var8.bind(var9)(var5, var4);
+                    var9 = _closure1_slot3;
+                    var8 = 1;
+                    var9 = var9.bind(var6)(var10, var8);
+                    var8 = 0;
+                    var13 = var9[var8];
                     _closure3_slot6 = var13;
-                    var9 = var8.targetMinutes;
+                    var9 = var4.targetMinutes;
                     _closure3_slot7 = var9;
                     var4 = _closure1_slot4;
-                    var12 = var4.useMemo;
-                    var10 = new Array(1);
-                    var10[0] = var5;
-                    var8 = function() {
+                    var10 = var4.useMemo;
+                    var8 = new Array(1);
+                    var8[0] = var5;
+                    var2 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 7;
@@ -185,21 +185,23 @@ case 4:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var12 = var12.bind(var4)(var8, var10);
+                    var12 = var10.bind(var4)(var2, var8);
                     _closure3_slot8 = var12;
-                    var8 = 8;
-                    var8 = var17[var8];
-                    var18 = var3.bind(var6)(var8);
-                    var10 = var18.useHasWatchVideoOnMobileTasks;
-                    var8 = var5.config;
-                    var8 = var10.bind(var18)(var8);
+                    var2 = 8;
+                    var2 = var17[var2];
+                    var10 = var3.bind(var6)(var2);
+                    var8 = var10.useHasWatchVideoOnMobileTasks;
+                    var2 = var5.config;
+                    var8 = var8.bind(var10)(var2);
                     _closure3_slot9 = var8;
-                    var10 = var17[var2];
-                    var19 = var3.bind(var6)(var10);
-                    var18 = var19.getDefaultRewardNameWithArticle;
-                    var10 = var5.config;
-                    var10 = var18.bind(var19)(var10);
+                    var2 = 9;
+                    var2 = var17[var2];
+                    var18 = var3.bind(var6)(var2);
+                    var10 = var18.getDefaultRewardNameWithArticle;
+                    var2 = var5.config;
+                    var10 = var10.bind(var18)(var2);
                     _closure3_slot10 = var10;
+                    var2 = 10;
                     var2 = var17[var2];
                     var3 = var3.bind(var6)(var2);
                     var2 = var3.isSponsoredPlayQuest;
@@ -248,7 +250,7 @@ case 5:
                             var4 = _closure3_slot1;
                             var5 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var7 = 10;
+                            var7 = 12;
                             var2 = var2[var7];
                             var8 = undefined;
                             var2 = var5.bind(var8)(var2);
@@ -271,7 +273,7 @@ case 17:
                             var4 = _closure3_slot6;
                             var5 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var2 = 11;
+                            var2 = 13;
                             var2 = var7[var2];
                             var2 = var5.bind(var8)(var2);
                             var2 = var2.TaskPlatformScreen;
@@ -283,7 +285,7 @@ case 19:
 case 18:
                             var4 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var2 = 9;
+                            var2 = 11;
                             var5 = var9[var2];
                             var5 = var4.bind(var8)(var5);
                             var7 = var5.intl;
@@ -304,7 +306,7 @@ case 18:
 case 20:
                             var5 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var4 = 9;
+                            var4 = 11;
                             var7 = var10[var4];
                             var7 = var5.bind(var8)(var7);
                             var9 = var7.intl;
@@ -326,7 +328,7 @@ case 21:
 case 16:
                             var5 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var4 = 9;
+                            var4 = 11;
                             var7 = var10[var4];
                             var7 = var5.bind(var8)(var7);
                             var9 = var7.intl;
@@ -346,7 +348,7 @@ case 22:
 case 14:
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var4 = 9;
+                            var4 = 11;
                             var5 = var10[var4];
                             var5 = var9.bind(var8)(var5);
                             var7 = var5.intl;
@@ -361,7 +363,7 @@ case 23:
 case 12:
                             var7 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var3 = 9;
+                            var3 = 11;
                             var4 = var9[var3];
                             var4 = var7.bind(var8)(var4);
                             var5 = var4.intl;
@@ -381,7 +383,7 @@ case 8:
                             var1 = _closure3_slot9;
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var2 = 9;
+                            var2 = 11;
                             var4 = var8[var2];
                             var3 = undefined;
                             var4 = var7.bind(var3)(var4);
@@ -409,7 +411,7 @@ case 27:
 case 6:
                             var5 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var1 = 9;
+                            var1 = 11;
                             var2 = var6[var1];
                             var4 = undefined;
                             var2 = var5.bind(var4)(var2);
@@ -448,7 +450,7 @@ case 31:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var5 = 13;
+            var5 = 15;
             var5 = var14[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
@@ -473,7 +475,7 @@ case 35:
             var9 = _closure1_slot6;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 14;
+            var7 = 16;
             var7 = var14[var7];
             var7 = var11.bind(var4)(var7);
             var8 = var7.PressableOpacity;
@@ -483,7 +485,7 @@ case 35:
             var7['onPress'] = var13;
             var10 = var10.actionSheetButton;
             var7['style'] = var10;
-            var10 = 15;
+            var10 = 17;
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.MoreHorizontalIcon;

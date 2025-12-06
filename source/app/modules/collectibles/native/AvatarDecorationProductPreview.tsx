@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var4['borderColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -257,7 +257,7 @@ case 4:
             var20 = var18[var19];
             var20 = var12.bind(var4)(var20);
             var22 = var20.Text;
-            var20 = {'variant': 'text-xxs/normal', 'color': 'text-normal'};
+            var20 = {'variant': 'text-xxs/normal', 'color': 'text-default'};
             var20['children'] = var23;
             var20 = var14.bind(var4)(var22, var20);
             var16[1] = var20;
@@ -271,7 +271,7 @@ case 4:
             var19 = var18[var19];
             var19 = var12.bind(var4)(var19);
             var20 = var19.Text;
-            var19 = {'variant': 'text-sm/normal', 'color': 'text-normal', 'lineClamp': 2};
+            var19 = {'variant': 'text-sm/normal', 'color': 'text-default', 'lineClamp': 2};
             var22 = var18[var21];
             var22 = var12.bind(var4)(var22);
             var23 = var22.intl;

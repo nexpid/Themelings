@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var11[var1];
         var1 = var6.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-xs/bold', 'color': 'header-secondary'};
+        var1 = {'variant': 'text-xs/bold', 'color': 'text-default'};
         var5 = var5.stepHeader;
         var1['style'] = var5;
         var5 = 4;

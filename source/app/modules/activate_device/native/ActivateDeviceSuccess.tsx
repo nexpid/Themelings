@@ -182,7 +182,7 @@ case 9:
             var13 = var18[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.Text;
-            var13 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var13 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var19 = _closure1_slot1;
             var18 = var18[var20];
             var18 = var19.bind(var4)(var18);

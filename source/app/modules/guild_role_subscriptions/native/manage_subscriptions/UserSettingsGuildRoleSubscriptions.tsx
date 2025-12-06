@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var6];
         var5 = var12.bind(var4)(var5);
         var8 = var5.Text;
-        var5 = {'variant': 'eyebrow', 'color': 'header-secondary'};
+        var5 = {'variant': 'eyebrow', 'color': 'text-default'};
         var9 = 5;
         var14 = var13[var9];
         var14 = var12.bind(var4)(var14);
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var10 = var10.sectionSubtitle;
         var6['style'] = var10;
         var10 = var13[var9];

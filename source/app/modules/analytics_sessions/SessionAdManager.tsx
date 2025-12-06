@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -77,11 +77,18 @@ case 4:
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.AnalyticEvents;
+    var8 = var7.bind(var1)(var4);
     var _closure1_slot8 = var8;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.AnalyticEvents;
+    var _closure1_slot9 = var9;
     var4 = var4.AppStates;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
+    var4 = var8.getToken;
+    var4 = var4.bind(var8)();
+    var _closure1_slot11 = var4;
     var4 = {};
     var8 = 'DEFAULT';
     var4['DEFAULT'] = var8;
@@ -91,8 +98,8 @@ case 4:
     var4['WINDOW_FOCUS'] = var8;
     var8 = 'APP_STATE_UPDATE';
     var4['APP_STATE_UPDATE'] = var8;
-    var _closure1_slot10 = var4;
-    var4 = 13;
+    var _closure1_slot12 = var4;
+    var4 = 14;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -115,7 +122,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var11 = var1.bind(var6)(var5);
                 var5 = _closure1_slot5;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var6)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -135,13 +142,13 @@ case 8:
                 var _closure3_slot0 = var1;
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var4 = 6;
+                var4 = 7;
                 var4 = var7[var4];
                 var8 = var5.bind(var6)(var4);
                 var4 = var8.isForegrounded;
                 var4 = var4.bind(var8)();
                 var1['focusedOrForegrounded'] = var4;
-                var4 = 7;
+                var4 = 8;
                 var4 = var7[var4];
                 var4 = var5.bind(var6)(var4);
                 var4 = var4.Interval;
@@ -170,7 +177,7 @@ case 10:
                         var3 = var4.start;
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 8;
+                        var2 = 9;
                         var5 = var5[var2];
                         var2 = undefined;
                         var2 = var6.bind(var2)(var5);
@@ -198,7 +205,7 @@ case 11:
                         var2['schedulerStarted'] = var1;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -230,7 +237,7 @@ case 15:
 case 16:
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var3 = 9;
+                        var3 = 10;
                         var3 = var5[var3];
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.addBreadcrumb;
@@ -252,7 +259,7 @@ case 14:
                         var6 = var3 - var4;
                         var8 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var5 = 8;
+                        var5 = 9;
                         var5 = var9[var5];
                         var5 = var8.bind(var1)(var5);
                         var5 = var5.Millis;
@@ -270,24 +277,24 @@ case 19:
 case 17:
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var5 = 10;
+                        var5 = 11;
                         var5 = var7[var5];
                         var6 = var6.bind(var1)(var5);
                         var5 = var6.getOrRefreshAdSession;
                         var8 = var5.bind(var6)();
                         var6 = _closure1_slot1;
-                        var5 = 11;
+                        var5 = 12;
                         var5 = var7[var5];
                         var7 = var6.bind(var1)(var5);
                         var6 = var7.track;
-                        var4 = _closure1_slot8;
+                        var4 = _closure1_slot9;
                         var5 = var4.CLIENT_AD_HEARTBEAT;
                         var4 = {};
                         var9 = var8.uuid;
                         var4['client_ad_session_id'] = var9;
                         var8 = var8.createdAtTimestamp;
                         var4['client_heartbeat_initialization_timestamp'] = var8;
-                        var8 = 2;
+                        var8 = 3;
                         var4['client_heartbeat_version'] = var8;
                         var4 = var6.bind(var7)(var5, var4);
                         var2 = _closure3_slot0;
@@ -304,7 +311,7 @@ case 0:
                         var1 = undefined;
                         if(!(var8 === var1)) { _fun0006_ip = 21; continue _fun0006 }
 case 13:
-                        var2 = _closure1_slot10;
+                        var2 = _closure1_slot12;
                         var8 = var2.DEFAULT;
 case 21:
                         var3 = _closure3_slot0;
@@ -318,7 +325,7 @@ case 23:
                         var2['lastHeartbeatTimestamp'] = var3;
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var3 = 9;
+                        var3 = 10;
                         var3 = var5[var3];
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.addBreadcrumb;
@@ -343,37 +350,41 @@ case 22:
                 var3 = function() {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                        var5 = arguments[0];
+                        var6 = arguments[0];
                         var1 = undefined;
-                        if(!(var5 === var1)) { _fun0007_ip = 21; continue _fun0007 }
+                        if(!(var6 === var1)) { _fun0007_ip = 21; continue _fun0007 }
 case 13:
-                        var2 = _closure1_slot10;
-                        var5 = var2.DEFAULT;
+                        var2 = _closure1_slot12;
+                        var6 = var2.DEFAULT;
 case 21:
-                        var3 = _closure3_slot0;
-                        var3 = var3.focusedOrForegrounded;
-                        if(var3) { _fun0007_ip = 24; continue _fun0007 }
+                        var2 = _closure3_slot0;
+                        var2 = var2.focusedOrForegrounded;
+                        if(!var2) { _fun0007_ip = 24; continue _fun0007 }
 case 23:
+                        var5 = _closure1_slot11;
+                        var4 = null;
+                        if(!(var4 == var5)) { _fun0007_ip = 25; continue _fun0007 }
+case 24:
+                        var5 = _closure3_slot0;
+                        var4 = var5.stopAnalyticHeartbeat;
+                        var4 = var4.bind(var5)(var6);
+                        _fun0007_ip = 26; continue _fun0007;
+case 25: // try_start_0
                         var4 = _closure3_slot0;
-                        var3 = var4.stopAnalyticHeartbeat;
-                        var3 = var3.bind(var4)(var5);
-                        _fun0007_ip = 9; continue _fun0007;
-case 24: // try_start_0
-                        var3 = _closure3_slot0;
-                        var2 = var3.startAnalyticHeartbeat;
-                        var2 = var2.bind(var3)();
-case 25: // try_end0
-                        _fun0007_ip = 9; continue _fun0007;
-case 26: // catch_target0
+                        var3 = var4.startAnalyticHeartbeat;
+                        var3 = var3.bind(var4)();
+case 27: // try_end0
+                        _fun0007_ip = 26; continue _fun0007;
+case 28: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var3 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 9;
+                        var2 = 10;
                         var2 = var5[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.captureException;
                         var2 = var2.bind(var3)(var4);
-case 9:
+case 26:
                         return var1;
                     }
                 };
@@ -392,12 +403,12 @@ case 9:
                 var3 = function() {
                     var4 = _closure3_slot0;
                     var3 = var4.stopAnalyticHeartbeat;
-                    var2 = _closure1_slot10;
+                    var2 = _closure1_slot12;
                     var2 = var2.USER_LOGOUT;
                     var2 = var3.bind(var4)(var2);
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -409,7 +420,7 @@ case 9:
                 var3 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -425,29 +436,59 @@ case 9:
                     var3 = _closure3_slot0;
                     var3['focusedOrForegrounded'] = var1;
                     var2 = var3.scheduleHeartbeatTracking;
-                    var1 = _closure1_slot10;
+                    var1 = _closure1_slot12;
                     var1 = var1.WINDOW_FOCUS;
                     var1 = var2.bind(var3)(var1);
                     var1 = undefined;
                     return var1;
                 };
                 var1['handleWindowFocus'] = var3;
-                var2 = function(arg1) {
+                var3 = function(arg1) {
                     var1 = arg1;
                     var4 = var1.state;
                     var3 = _closure3_slot0;
-                    var2 = _closure1_slot9;
+                    var2 = _closure1_slot10;
                     var2 = var2.ACTIVE;
                     var2 = var4 === var2;
                     var3['focusedOrForegrounded'] = var2;
                     var2 = var3.scheduleHeartbeatTracking;
-                    var1 = _closure1_slot10;
+                    var1 = _closure1_slot12;
                     var1 = var1.APP_STATE_UPDATE;
                     var1 = var2.bind(var3)(var1);
                     var1 = undefined;
                     return var1;
                 };
-                var1['handleAppStateUpdate'] = var2;
+                var1['handleAppStateUpdate'] = var3;
+                var2 = function() {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                        var3 = _closure1_slot8;
+                        var2 = var3.getToken;
+                        var2 = var2.bind(var3)();
+                        var3 = _closure1_slot11;
+                        if(!(var3 !== var2)) { _fun0008_ip = 29; continue _fun0008 }
+case 30:
+                        _closure1_slot11 = var2;
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 11;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var1 = var2.clearAdSession;
+                        var1 = var1.bind(var2)();
+                        var2 = _closure3_slot0;
+                        var1 = var2.stopAnalyticHeartbeat;
+                        var1 = var1.bind(var2)();
+case 29:
+                        var2 = _closure3_slot0;
+                        var1 = var2.scheduleHeartbeatTracking;
+                        var1 = var1.bind(var2)();
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1['handleAuthenticationChange'] = var2;
                 return var1;
             }
         };
@@ -464,15 +505,19 @@ case 9:
             var3 = this;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var4 = var5[var1];
             var1 = undefined;
             var6 = var6.bind(var1)(var4);
             var4 = var6.isForegrounded;
             var4 = var4.bind(var6)();
             var3['focusedOrForegrounded'] = var4;
+            var7 = _closure1_slot8;
+            var6 = var7.addChangeListener;
+            var4 = var3.handleAuthenticationChange;
+            var4 = var6.bind(var7)(var4);
             var4 = _closure1_slot1;
-            var2 = 12;
+            var2 = 13;
             var6 = var5[var2];
             var9 = var4.bind(var1)(var6);
             var8 = var9.subscribe;
@@ -517,9 +562,13 @@ case 9:
             var2 = this;
             var1 = var2.stopAnalyticHeartbeat;
             var1 = var1.bind(var2)();
+            var5 = _closure1_slot8;
+            var4 = var5.removeChangeListener;
+            var3 = var2.handleAuthenticationChange;
+            var3 = var4.bind(var5)(var3);
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var6 = var5[var3];
             var1 = undefined;
             var9 = var4.bind(var1)(var6);
@@ -564,7 +613,7 @@ case 9:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

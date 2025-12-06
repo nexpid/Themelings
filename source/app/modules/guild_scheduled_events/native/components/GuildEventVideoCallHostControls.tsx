@@ -193,7 +193,7 @@ case 2:
         var8 = var16[var9];
         var8 = var12.bind(var4)(var8);
         var10 = var8.Text;
-        var8 = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
+        var8 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
         var8['children'] = var13;
         var10 = var3.bind(var4)(var10, var8);
         var8 = new Array(3);
@@ -206,7 +206,7 @@ case 2:
         var9 = var16[var9];
         var9 = var12.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
+        var9 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
         var11 = 16;
         var13 = var16[var11];
         var13 = var12.bind(var4)(var13);

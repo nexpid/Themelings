@@ -248,7 +248,7 @@ case 2:
             var24 = var28[var21];
             var24 = var31.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var24 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var29 = var12.headerBullet;
             var24['style'] = var29;
             var29 = var28[var20];
@@ -283,7 +283,7 @@ case 2:
             var25 = var28[var21];
             var25 = var31.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var25 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var32 = var12.headerBullet;
             var25['style'] = var32;
             var32 = var28[var20];
@@ -317,7 +317,7 @@ case 2:
             var25 = var28[var21];
             var25 = var31.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var25 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var29 = var12.headerBullet;
             var25['style'] = var29;
             var29 = var28[var20];
@@ -358,7 +358,7 @@ case 5:
             var21 = var24[var21];
             var21 = var27.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var21 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var25 = var12.headerBullet;
             var21['style'] = var25;
             var25 = var24[var20];

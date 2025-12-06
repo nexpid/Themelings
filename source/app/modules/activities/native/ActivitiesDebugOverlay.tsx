@@ -87,7 +87,7 @@ case 3:
             var1 = var1.ThermalStates;
             var1 = var1.NOMINAL;
             var10 = 'nominal';
-            var11 = 'text-positive';
+            var11 = 'text-feedback-positive';
             if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
             var2 = _closure1_slot0;
@@ -97,7 +97,7 @@ case 4:
             var1 = var1.ThermalStates;
             var1 = var1.FAIR;
             var10 = 'fair';
-            var11 = 'text-warning';
+            var11 = 'text-feedback-warning';
             if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 5:
             var2 = _closure1_slot0;
@@ -107,7 +107,7 @@ case 5:
             var1 = var1.ThermalStates;
             var2 = var1.SERIOUS;
             var10 = 'serious';
-            var1 = 'text-danger';
+            var1 = 'text-feedback-critical';
             var11 = var1;
             if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 6:

@@ -296,7 +296,7 @@ case 9:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var12['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -404,7 +404,7 @@ case 9:
         var10 = var14[var10];
         var10 = var11.bind(var4)(var10);
         var11 = var10.Text;
-        var10 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+        var10 = {'variant': 'text-xs/medium', 'color': 'text-default'};
         var10['children'] = var13;
         var10 = var12.bind(var4)(var11, var10);
         var9[1] = var10;

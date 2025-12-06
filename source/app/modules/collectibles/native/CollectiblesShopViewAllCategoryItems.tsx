@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var11 = var11.BORDER_SUBTLE;
     var10['backgroundColor'] = var11;
     var4['border'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -178,7 +178,7 @@ case 2:
             var3 = var3[var11];
             var9 = var6.bind(var4)(var3);
             var6 = var9.useAnimatedStyle;
-            var3 = function S() {
+            var3 = function _() {
                 var1 = {};
                 var3 = _closure2_slot3;
                 var2 = var3.get;

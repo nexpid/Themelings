@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['openApplyBoostModal'] = var4;
-    var4 = function openTransferModal(arg1) {
+    var4 = function openTransferModal(arg1, arg2) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 0;
@@ -63,6 +63,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
         var3 = {};
+        var2 = arg2;
+        var3['guildId'] = var2;
         var2 = arg1;
         var3['previousGuildSubscriptionSlot'] = var2;
         var2 = 'PREMIUM_GUILD_SUBSCRIBE_MODAL_KEY';

@@ -424,7 +424,7 @@ case 13:
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.colors;
-            var5 = var6.BG_SURFACE_RAISED;
+            var5 = var6.BACKGROUND_SURFACE_HIGH;
 case 12:
             var1['backgroundColor'] = var5;
             var6 = _closure1_slot1;
@@ -432,7 +432,7 @@ case 12:
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var9 = var9.colors;
-            var9 = var9.TEXT_NORMAL;
+            var9 = var9.TEXT_DEFAULT;
             var1['bodyTextColor'] = var9;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
@@ -447,12 +447,12 @@ case 12:
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var9 = var9.colors;
-            var9 = var9.HEADER_SECONDARY;
+            var9 = var9.TEXT_SUBTLE;
             var1['headerColor'] = var9;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var9 = var9.colors;
-            var9 = var9.HEADER_SECONDARY;
+            var9 = var9.TEXT_SUBTLE;
             var1['subtitleColor'] = var9;
             var5 = var5[var8];
             var5 = var6.bind(var7)(var5);

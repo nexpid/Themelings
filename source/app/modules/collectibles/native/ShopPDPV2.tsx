@@ -84,7 +84,7 @@ case 0:
             var6 = undefined;
             var9 = var8.bind(var6)(var9);
             var9 = var9.colors;
-            var9 = var9.BG_MOD_SUBTLE;
+            var9 = var9.BACKGROUND_MOD_SUBTLE;
             var2['borderBottomColor'] = var9;
             var9 = 1;
             var2['borderBottomWidth'] = var9;
@@ -432,7 +432,7 @@ case 0:
             var13 = var13[var7];
             var13 = var14.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var13 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var13['children'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var11[1] = var13;

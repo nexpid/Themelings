@@ -616,12 +616,11 @@ case 51:
             var2 = 5;
             var2 = var6[var2];
             var3 = undefined;
-            var2 = var5.bind(var3)(var2);
-            var2 = var2.TextStyleSheet;
-            var2 = var2.text-sm/medium;
-            var4 = var2.lineHeight;
+            var8 = var5.bind(var3)(var2);
+            var7 = var8.scaleTextLineHeight;
+            var4 = 'text-sm/medium';
             var2 = arg1;
-            var4 = var4 * var2;
+            var4 = var7.bind(var8)(var4, var2);
             var2 = 6;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);

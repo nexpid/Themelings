@@ -794,7 +794,7 @@ case 12:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_SURFACE_RAISED;
+    var11 = var11.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var11;
     var4['emojiContainer'] = var9;
     var9 = {'fontSize': 48, 'lineHeight': 80};

@@ -178,7 +178,7 @@ case 24:
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/semibold', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-md/semibold', 'color': 'text-default'};
             var12['children'] = var5;
             var12 = var14.bind(var4)(var13, var12);
             var11[1] = var12;
@@ -218,7 +218,7 @@ case 28:
             var1['style'] = var6;
             var6 = 'text-md/semibold';
             var1['variant'] = var6;
-            var6 = 'header-secondary';
+            var6 = 'text-default';
             var1['color'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -1308,7 +1308,7 @@ case 72:
             var7['style'] = var11;
             var11 = 'text-md/medium';
             var7['variant'] = var11;
-            var11 = 'header-secondary';
+            var11 = 'text-default';
             var7['color'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
@@ -1636,7 +1636,7 @@ case 84:
             var13 = var21[var13];
             var13 = var17.bind(var5)(var13);
             var14 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var13 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var16 = var11.threadDetails;
             var13['style'] = var16;
             var16 = 28;
@@ -1685,7 +1685,7 @@ case 87:
             var8 = var15[var8];
             var8 = var14.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var11 = var11.threadDetails;
             var8['style'] = var11;
             var11 = 28;
@@ -2898,7 +2898,7 @@ case 158:
             var21 = var21[var19];
             var21 = var22.bind(var5)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'heading-lg/medium', 'color': 'header-secondary'};
+            var21 = {'variant': 'heading-lg/medium', 'color': 'text-default'};
             var21['children'] = var24;
             var21 = var23.bind(var5)(var22, var21);
             var15['children'] = var21;
@@ -2911,7 +2911,7 @@ case 157:
             var11 = var11[var19];
             var11 = var15.bind(var5)(var11);
             var15 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var19 = var18.dmBeginningMessage;
             var11['style'] = var19;
             var11['children'] = var17;
@@ -3032,7 +3032,7 @@ case 163:
                     var6 = var14[var6];
                     var6 = var10.bind(var3)(var6);
                     var7 = var6.Text;
-                    var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                    var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                     var9 = var9.mutualGuildsLabel;
                     var6['style'] = var9;
                     var9 = 28;
@@ -3694,7 +3694,7 @@ case 189:
             var6 = var6[var10];
             var6 = var8.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-default'};
             var10 = var21.gdmText;
             var6['style'] = var10;
             var14 = _closure1_slot0;

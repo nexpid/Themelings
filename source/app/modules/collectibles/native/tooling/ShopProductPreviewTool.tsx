@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var9['color'] = var15;
     var4['sectionTitle'] = var9;
     var9 = {};
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_NORMAL;
+    var14 = var14.TEXT_DEFAULT;
     var9['color'] = var14;
     var14 = '600';
     var9['fontWeight'] = var14;
@@ -179,14 +179,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_POSITIVE;
+    var14 = var14.TEXT_FEEDBACK_POSITIVE;
     var9['color'] = var14;
     var4['statusSuccess'] = var9;
     var9 = {};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TEXT_DANGER;
+    var14 = var14.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var14;
     var4['statusError'] = var9;
     var9 = {};

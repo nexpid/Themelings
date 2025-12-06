@@ -274,7 +274,7 @@ case 26:
             var21 = var21[var24];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'heading-xl/medium', 'color': 'header-secondary'};
+            var21 = {'variant': 'heading-xl/medium', 'color': 'text-default'};
             var24 = new Array(2);
             var24[0] = var26;
             if(!var25) { _fun0002_ip = 27; continue _fun0002 }

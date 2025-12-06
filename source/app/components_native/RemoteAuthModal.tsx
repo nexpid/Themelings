@@ -812,7 +812,7 @@ case 14:
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var13['backgroundColor'] = var14;
     var14 = 'none';
     var13['display'] = var14;

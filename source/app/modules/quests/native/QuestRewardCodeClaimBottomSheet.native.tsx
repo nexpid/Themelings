@@ -484,7 +484,8 @@ case 39:
                 }
             };
             var42 = var6.bind(var7)(var3, var5);
-            var1 = var1[var36];
+            var30 = 24;
+            var1 = var1[var30];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getRewardCodeRedemptionInstructions;
             var1 = {};
@@ -527,13 +528,13 @@ case 48:
             var3 = _closure1_slot9;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var30 = 24;
-            var1 = var8[var30];
+            var1 = 25;
+            var1 = var8[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.BottomSheet;
             var1 = {};
             var7 = _closure1_slot9;
-            var5 = 25;
+            var5 = 26;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
@@ -582,15 +583,15 @@ case 62:
             var23 = _closure1_slot9;
             var14 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var10 = 26;
+            var10 = 27;
             var10 = var28[var10];
             var10 = var14.bind(var4)(var10);
             var14 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-normal'};
+            var10 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-default'};
             var24 = var12.redemptionInstructions;
             var10['style'] = var24;
             var25 = _closure1_slot1;
-            var24 = 29;
+            var24 = 30;
             var24 = var28[var24];
             var28 = var25.bind(var4)(var24);
             var25 = var28.parse;
@@ -622,13 +623,13 @@ case 65:
             var32 = _closure1_slot9;
             var39 = _closure1_slot0;
             var38 = _closure1_slot2;
-            var28 = 30;
+            var28 = 31;
             var28 = var38[var28];
             var28 = var39.bind(var4)(var28);
             var31 = var28.TableRowGroup;
             var28 = {};
             var40 = _closure1_slot9;
-            var43 = 31;
+            var43 = 32;
             var38 = var38[var43];
             var38 = var39.bind(var4)(var38);
             var39 = var38.TableRow;
@@ -715,7 +716,7 @@ case 57:
             var23 = _closure1_slot9;
             var32 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var13 = 26;
+            var13 = 27;
             var13 = var31[var13];
             var13 = var32.bind(var4)(var13);
             var14 = var13.Text;
@@ -759,7 +760,7 @@ case 82:
             var32 = _closure1_slot9;
             var39 = _closure1_slot0;
             var36 = _closure1_slot2;
-            var29 = 27;
+            var29 = 28;
             var29 = var36[var29];
             var29 = var39.bind(var4)(var29);
             var31 = var29.TableRadioGroup;
@@ -783,7 +784,7 @@ case 82:
                 var4 = _closure1_slot9;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 28;
+                var1 = 29;
                 var1 = var8[var1];
                 var3 = undefined;
                 var1 = var7.bind(var3)(var1);
@@ -836,7 +837,7 @@ case 81:
             var14 = _closure1_slot9;
             var13 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var12 = 32;
+            var12 = 33;
             var12 = var23[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Button;
@@ -996,7 +997,7 @@ case 92:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 34;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1039,7 +1040,7 @@ case 94:
             var6 = _closure1_slot9;
             var4 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 33;
+            var1 = 34;
             var1 = var12[var1];
             var1 = var4.bind(var5)(var1);
             var4 = var1.QuestContentImpressionTrackerNative;

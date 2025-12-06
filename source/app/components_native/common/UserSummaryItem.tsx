@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var9['color'] = var12;
     var4['namesLegacy'] = var9;
     var9 = {'backgroundColor': null, 'marginStart': 2, 'alignItems': 'center'};

@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var14[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var9 = var9.emptyStateText;
         var6['style'] = var9;
         var9 = 11;
@@ -291,7 +291,7 @@ case 4:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var10 = var10.emptyStateText;
             var6['style'] = var10;
             var6['children'] = var9;
@@ -585,13 +585,13 @@ case 20:
                     var2['directory_guild_id'] = var8;
                     var2 = var6.bind(var7)(var5, var2);
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+                    if(!(var2 == var3)) { _fun0006_ip = 2; continue _fun0006 }
+case 21:
                     var2 = _closure2_slot1;
                     var1 = true;
                     var1 = var2.bind(var4)(var1);
                     _fun0006_ip = 19; continue _fun0006;
-case 21:
+case 2:
                     var2 = var3.then;
                     var1 = function() {
                         var3 = _closure2_slot1;

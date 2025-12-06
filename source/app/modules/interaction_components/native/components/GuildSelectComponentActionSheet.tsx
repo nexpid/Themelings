@@ -394,7 +394,7 @@ case 12:
                     var6 = var11[var6];
                     var6 = var7.bind(var4)(var6);
                     var7 = var6.Text;
-                    var6 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                    var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                     var11 = null;
                     if(!(var11 == var9)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:

@@ -637,7 +637,7 @@ case 0:
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+                var1 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-default'};
                 var5 = _closure2_slot0;
                 var5 = var5.sectionHeader;
                 var1['style'] = var5;

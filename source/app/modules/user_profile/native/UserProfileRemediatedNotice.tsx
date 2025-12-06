@@ -149,7 +149,7 @@ case 7:
             var6 = var17[var6];
             var6 = var15.bind(var5)(var6);
             var9 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'color': 'header-secondary', 'lineClamp': 1};
+            var6 = {'variant': 'text-sm/semibold', 'color': 'text-default', 'lineClamp': 1};
             var12 = 10;
             var13 = var17[var12];
             var13 = var15.bind(var5)(var13);
@@ -177,7 +177,7 @@ case 9:
             var11 = var17[var14];
             var11 = var13.bind(var5)(var11);
             var15 = var11.Text;
-            var11 = {'variant': 'text-sm/semibold', 'color': 'header-secondary', 'lineClamp': 1};
+            var11 = {'variant': 'text-sm/semibold', 'color': 'text-default', 'lineClamp': 1};
             var12 = 10;
             var19 = var17[var12];
             var19 = var13.bind(var5)(var19);
@@ -195,7 +195,7 @@ case 9:
             var14 = var17[var14];
             var14 = var13.bind(var5)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-sm/semibold', 'color': 'header-secondary', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no', 'children': '•'};
+            var14 = {'variant': 'text-sm/semibold', 'color': 'text-default', 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no', 'children': '•'};
             var14 = var18.bind(var5)(var15, var14);
             var11[1] = var14;
             var14 = var17[var12];

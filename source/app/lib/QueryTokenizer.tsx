@@ -670,8 +670,8 @@ case 0:
                 var1 = this;
                 var3 = var1._data;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0013_ip = 63; continue _fun0013 }
-case 64:
+                if(!(var2 == var3)) { _fun0013_ip = 47; continue _fun0013 }
+case 63:
                 var2 = global;
                 var2 = var2.Map;
                 var3 = var2.prototype;
@@ -680,7 +680,7 @@ case 64:
                 var2 = new var7[var2](var6);
                 var2 = var2 instanceof Object ? var2 : var3;
                 var1['_data'] = var2;
-case 63:
+case 47:
                 var4 = var1._data;
                 var3 = var4.set;
                 var2 = arg1;
@@ -701,11 +701,11 @@ case 0:
                 var1 = this;
                 var3 = var1._data;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0014_ip = 65; continue _fun0014 }
-case 64:
+                if(!(var2 == var3)) { _fun0014_ip = 64; continue _fun0014 }
+case 63:
                 var2 = undefined;
                 return var2;
-case 65:
+case 64:
                 var3 = var1._data;
                 var2 = var3.get;
                 var1 = arg1;

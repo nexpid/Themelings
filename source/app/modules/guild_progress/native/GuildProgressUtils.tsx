@@ -402,7 +402,7 @@ case 29:
             var3 = var6.bind(var7)(var3, var5);
             var1['percentComplete'] = var3;
             if(!(!(var11 < var9))) { _fun0004_ip = 31; continue _fun0004 }
-case 13:
+case 16:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var12];

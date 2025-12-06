@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var9['color'] = var12;
     var12 = '500';
     var9['fontWeight'] = var12;
@@ -216,7 +216,7 @@ case 2:
             var5 = var10[var5];
             var5 = var18.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'variant': 'eyebrow', 'color': 'header-secondary'};
+            var5 = {'variant': 'eyebrow', 'color': 'text-default'};
             var13 = 9;
             var12 = var10[var13];
             var12 = var18.bind(var4)(var12);

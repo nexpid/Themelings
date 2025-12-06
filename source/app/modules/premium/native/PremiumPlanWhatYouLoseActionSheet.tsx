@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_SECONDARY;
+    var14 = var14.TEXT_SUBTLE;
     var13['color'] = var14;
     var10['keepText'] = var13;
     var10 = var11.bind(var12)(var10);

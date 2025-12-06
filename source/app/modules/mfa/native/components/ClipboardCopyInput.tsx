@@ -137,7 +137,7 @@ case 3:
                                     var4 = var1.setTimeout;
                                     var3 = undefined;
                                     var2 = arg1;
-                                    var1 = 50;
+                                    var1 = 500;
                                     var1 = var4.bind(var3)(var2, var1);
                                     return var1;
                                 };

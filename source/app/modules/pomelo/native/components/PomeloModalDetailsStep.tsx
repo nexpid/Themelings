@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var4['backgroundColor'] = var10;
     var7['infoItemIconContainer'] = var4;
     var4 = {'width': 20, 'height': 20};
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
         var10 = var10.infoItemText;
         var6['style'] = var10;
         var6['children'] = var9;
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var14[var7];
         var7 = var10.bind(var4)(var7);
         var11 = var7.Text;
-        var7 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var7 = {'variant': 'text-md/medium', 'color': 'text-default'};
         var17 = var16.centerAlign;
         var15 = new Array(2);
         var15[0] = var17;
@@ -319,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var14[var7];
         var7 = var10.bind(var4)(var7);
         var11 = var7.TextWithIOSLinkWorkaround;
-        var7 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+        var7 = {'variant': 'text-md/medium', 'color': 'text-default'};
         var17 = var16.centerAlign;
         var15 = new Array(2);
         var15[0] = var17;

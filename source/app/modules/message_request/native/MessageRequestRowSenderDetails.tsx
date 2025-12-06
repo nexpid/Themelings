@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var15;
     var4['avatar'] = var9;
     var9 = {'marginRight': 16, 'alignItems': 'flex-start', 'height': '100%'};

@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -222,7 +222,7 @@ case 3:
             var10 = var17[var19];
             var10 = var13.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var15 = var14.body;
             var10['style'] = var15;
             var15 = var17[var12];
@@ -246,7 +246,7 @@ case 3:
             var11 = var17[var19];
             var11 = var13.bind(var5)(var11);
             var15 = var11.Text;
-            var11 = {'variant': 'eyebrow', 'color': 'header-secondary'};
+            var11 = {'variant': 'eyebrow', 'color': 'text-default'};
             var18 = var17[var12];
             var18 = var13.bind(var5)(var18);
             var23 = var18.intl;

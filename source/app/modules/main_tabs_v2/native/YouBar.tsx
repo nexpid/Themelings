@@ -170,7 +170,7 @@ case 7:
             var6 = var9[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ChevronSmallRightIcon;
-            var6 = {'size': 'xs', 'color': 'header-secondary'};
+            var6 = {'size': 'xs', 'color': 'text-default'};
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
@@ -733,7 +733,7 @@ case 5:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_FAINT;
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -1138,7 +1138,7 @@ case 40:
             var17 = var20[var17];
             var17 = var26.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'accessibilityHint': null, 'maxFontSizeMultiplier': 1.75};
+            var17 = {'variant': 'text-xs/medium', 'color': 'text-default', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'accessibilityHint': null, 'maxFontSizeMultiplier': 1.75};
             var20 = var20[var24];
             var26 = var26.bind(var4)(var20);
             var20 = var26.humanizeStatus;
@@ -1189,7 +1189,7 @@ case 32:
             var9['width'] = var11;
             var9['height'] = var11;
             var6['style'] = var9;
-            var9 = 'bg-mod-strong';
+            var9 = 'background-mod-strong';
             var6['color'] = var9;
             var7 = var8.bind(var4)(var7, var6);
             var6 = new Array(2);

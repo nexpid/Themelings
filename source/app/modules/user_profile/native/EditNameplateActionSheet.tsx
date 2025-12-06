@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.TEXT_NORMAL;
+    var16 = var16.TEXT_DEFAULT;
     var15['color'] = var16;
     var5['description'] = var15;
     var15 = {'width': '100%', 'minHeight': 38, 'marginBottom': 24};
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.TEXT_NORMAL;
+    var16 = var16.TEXT_DEFAULT;
     var15['color'] = var16;
     var5['purchasedAt'] = var15;
     var5 = var8.bind(var10)(var5);
@@ -440,7 +440,7 @@ case 15:
             var14 = var14[var21];
             var14 = var15.bind(var5)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'heading-md/bold', 'color': 'text-normal'};
+            var14 = {'variant': 'heading-md/bold', 'color': 'text-default'};
             var22 = var11.description;
             var14['style'] = var22;
             var24 = var26 == var23;

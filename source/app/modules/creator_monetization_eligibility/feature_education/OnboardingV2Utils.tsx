@@ -138,13 +138,13 @@ case 0:
             var7 = var3.bind(var5)(var1);
             var _closure2_slot0 = var7;
             var1 = null;
-            if(!(var1 != var7)) { _fun0002_ip = 3; continue _fun0002 }
-case 8:
+            if(!(var1 != var7)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot4;
             var3 = var5.getCurrentUser;
             var6 = var3.bind(var5)();
-            if(!(var1 != var6)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+            if(!(var1 != var6)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 5;
@@ -172,19 +172,19 @@ case 10:
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!var1) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var1 = var3;
-case 11:
-            if(!var1) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            var1 = var2;
+            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
+            var1 = var3;
+case 12:
+            if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var1 = var2;
+case 14:
             return var1;
-case 9:
+case 10:
             var1 = false;
             return var1;
-case 3:
+case 8:
             var1 = false;
             return var1;
         }

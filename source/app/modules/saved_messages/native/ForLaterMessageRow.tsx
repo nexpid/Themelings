@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var9[var13];
         var13 = var2.bind(var4)(var13);
         var13 = var13.colors;
-        var13 = var13.TEXT_NORMAL;
+        var13 = var13.TEXT_DEFAULT;
         var3['seeMoreLabelColor'] = var13;
         var3 = var11.bind(var12)(var3);
         var3 = var3.bind(var4)(var10);

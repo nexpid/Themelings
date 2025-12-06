@@ -1085,18 +1085,18 @@ case 0:
                 var1 = var1.bind(var5)();
                 var1 = var3.bind(var6)(var1);
                 var3 = null;
-                if(!(var3 == var1)) { _fun0013_ip = 95; continue _fun0013 }
-case 96:
+                if(!(var3 == var1)) { _fun0013_ip = 7; continue _fun0013 }
+case 57:
                 var3 = var5.getApplicationId;
                 var3 = var3.bind(var5)();
-                _fun0013_ip = 97; continue _fun0013;
-case 95:
+                _fun0013_ip = 95; continue _fun0013;
+case 7:
                 var3 = var1.application_id;
-case 97:
+case 95:
                 var1 = arg2;
                 var1 = var3 === var1;
-                if(var1) { _fun0013_ip = 79; continue _fun0013 }
-case 98:
+                if(var1) { _fun0013_ip = 96; continue _fun0013 }
+case 97:
                 var3 = var4.indexOf;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -1109,7 +1109,7 @@ case 98:
                 var3 = var3.bind(var4)(var2);
                 var2 = -1;
                 var1 = var3 > var2;
-case 79:
+case 96:
                 return var1;
             }
         };
@@ -1120,18 +1120,18 @@ case 0:
                 var4 = arg1;
                 var2 = _closure1_slot23;
                 var2 = var2.RTC_CONNECTED;
-                if(!(var2 !== var4)) { _fun0014_ip = 99; continue _fun0014 }
+                if(!(var2 !== var4)) { _fun0014_ip = 98; continue _fun0014 }
 case 74:
                 var2 = _closure1_slot23;
                 var2 = var2.RTC_CONNECTING;
-                if(!(var2 !== var4)) { _fun0014_ip = 99; continue _fun0014 }
-case 100:
+                if(!(var2 !== var4)) { _fun0014_ip = 98; continue _fun0014 }
+case 99:
                 var1 = _closure1_slot23;
                 var1 = var1.RTC_DISCONNECTED;
-                if(!(var1 !== var4)) { _fun0014_ip = 99; continue _fun0014 }
+                if(!(var1 !== var4)) { _fun0014_ip = 98; continue _fun0014 }
 case 4:
                 return var4;
-case 99:
+case 98:
                 var3 = var4.replace;
                 var2 = /^RTC_/;
                 var1 = 'VOICE_';
@@ -1148,15 +1148,15 @@ case 0:
                 var2 = var1.JOIN;
                 var1 = arg1;
                 var1 = var1 === var2;
-                if(!var1) { _fun0015_ip = 101; continue _fun0015 }
+                if(!var1) { _fun0015_ip = 100; continue _fun0015 }
 case 2:
                 var4 = null;
                 var2 = var4 != var3;
-                if(!var2) { _fun0015_ip = 102; continue _fun0015 }
-case 103:
+                if(!var2) { _fun0015_ip = 101; continue _fun0015 }
+case 102:
                 var3 = var3.id;
                 var2 = var4 != var3;
-case 102:
+case 101:
                 if(!var2) { _fun0015_ip = 73; continue _fun0015 }
 case 76:
                 var3 = arg3;
@@ -1164,7 +1164,7 @@ case 76:
                 var2 = var4 != var3;
 case 73:
                 var1 = var2;
-case 101:
+case 100:
                 return var1;
             }
         };
@@ -1335,11 +1335,11 @@ case 0:
                 var6 = arg1;
                 var2 = _closure1_slot16;
                 var2 = var2.POST_MESSAGE;
-                if(!(var6 === var2)) { _fun0017_ip = 104; continue _fun0017 }
+                if(!(var6 === var2)) { _fun0017_ip = 103; continue _fun0017 }
 case 74:
                 var2 = undefined;
                 return var2;
-case 104:
+case 103:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 26;
@@ -1373,7 +1373,7 @@ case 0:
                 var3 = var1.id;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0018_ip = 84; continue _fun0018 }
-case 105:
+case 104:
                 var1 = var1.id;
                 return var1;
 case 84:

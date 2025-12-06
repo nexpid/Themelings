@@ -65,14 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var9['color'] = var13;
     var4['nuxTitle'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var9['color'] = var13;
     var13 = 0.5;
     var9['opacity'] = var13;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var9['backgroundColor'] = var10;
     var4['line'] = var9;
     var9 = {'flex': 1, 'justifyContent': 'flex-end'};
@@ -277,7 +277,7 @@ case 5:
             var2 = var19[var16];
             var6 = var18.bind(var4)(var2);
             var3 = var6.useAnimatedStyle;
-            var2 = function P() {
+            var2 = function D() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -300,7 +300,7 @@ case 5:
             var2 = var19[var16];
             var6 = var18.bind(var4)(var2);
             var3 = var6.useAnimatedProps;
-            var2 = function D() {
+            var2 = function P() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};

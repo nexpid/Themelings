@@ -12,13 +12,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 6;
             var2 = var5[var2];
             var3 = undefined;
             var6 = var4.bind(var3)(var2);
             var2 = var6.getRootNavigationRef;
             var6 = var2.bind(var6)();
-            var2 = 5;
+            var2 = 7;
             var2 = var5[var2];
             var4 = var4.bind(var3)(var2);
             var2 = var4.getChatLayout;
@@ -35,7 +35,7 @@ case 4:
             var8 = var2.bind(var6)();
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 3;
+            var9 = 5;
             var2 = var2[var9];
             var6 = var6.bind(var3)(var2);
             var2 = var6.coerceChannelRoute;
@@ -67,17 +67,17 @@ case 5:
             var2 = var2.channelId;
             return var2;
 case 2:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot7;
             if(!(var5 === var2)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var7 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var6 = 2;
+            var6 = 4;
             var6 = var2[var6];
             var6 = var7.bind(var3)(var6);
             var9 = var6.bind(var3)();
             var6 = _closure1_slot0;
-            var7 = 3;
+            var7 = 5;
             var2 = var2[var7];
             var8 = var6.bind(var3)(var2);
             var6 = var8.coerceMainRoute;
@@ -231,22 +231,22 @@ case 52:
 case 51:
             var2 = var3;
 case 21:
-            _closure1_slot5 = var2;
+            _closure1_slot7 = var2;
 case 12:
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot7;
             return var1;
         }
     };
-    var _closure1_slot6 = var5;
+    var _closure1_slot8 = var5;
     var4 = function isChannelFocused() {
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot8;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var1 = null;
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot9 = var4;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -261,13 +261,21 @@ case 12:
     var6 = var9.bind(var1)(var6);
     var _closure1_slot3 = var6;
     var6 = 1;
-    var9 = var8[var6];
+    var10 = var8[var6];
     var6 = metroImportAll;
-    var6 = var6.bind(var1)(var9);
+    var6 = var6.bind(var1)(var10);
     var _closure1_slot4 = var6;
-    var6 = null;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
     var _closure1_slot5 = var6;
-    var6 = 6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = null;
+    var _closure1_slot7 = var6;
+    var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -275,11 +283,11 @@ case 12:
     var6 = var7.bind(var8)(var6);
     var3['getFocusedChannelId'] = var5;
     var3['isChannelFocused'] = var4;
-    var2 = function useIsChannelFocused() {
+    var4 = function useIsChannelFocused() {
         var5 = _closure1_slot4;
         var4 = var5.useState;
         var1 = function() {
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot9;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
@@ -296,7 +304,7 @@ case 12:
         var _closure2_slot0 = var6;
         var6 = _closure1_slot1;
         var7 = _closure1_slot2;
-        var3 = 5;
+        var3 = 7;
         var3 = var7[var3];
         var3 = var6.bind(var4)(var3);
         var3 = var3.bind(var4)();
@@ -305,7 +313,7 @@ case 12:
         var4[0] = var3;
         var3 = function() {
             var3 = _closure2_slot0;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot9;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var2 = var3.bind(var1)(var2);
@@ -318,7 +326,7 @@ case 12:
 case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 4;
+                var2 = 6;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -332,7 +340,7 @@ case 54:
 case 53:
                 var4 = function handleStateChange() {
                     var3 = _closure2_slot0;
-                    var2 = _closure1_slot7;
+                    var2 = _closure1_slot9;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var2 = var3.bind(var1)(var2);
@@ -358,6 +366,36 @@ case 53:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['useIsChannelFocused'] = var2;
+    var3['useIsChannelFocused'] = var4;
+    var2 = function isChannelFocusedForReadStateAck(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var4 = arg1;
+            var2 = _closure1_slot5;
+            var1 = var2.getChatOpen;
+            var1 = var1.bind(var2)(var4);
+            var2 = !var1;
+            var1 = !var2;
+            if(!var2) { _fun0003_ip = 55; continue _fun0003 }
+case 56:
+            var5 = _closure1_slot8;
+            var2 = undefined;
+            var2 = var5.bind(var2)();
+            var2 = var2 === var4;
+            if(!var2) { _fun0003_ip = 57; continue _fun0003 }
+case 54:
+            var4 = _closure1_slot6;
+            var3 = var4.getState;
+            var4 = var3.bind(var4)();
+            var3 = var4.isVoicePanelFullscreen;
+            var3 = var3.bind(var4)();
+            var2 = !var3;
+case 57:
+            var1 = var2;
+case 55:
+            return var1;
+        }
+    };
+    var3['isChannelFocusedForReadStateAck'] = var2;
     return var1;
 })();

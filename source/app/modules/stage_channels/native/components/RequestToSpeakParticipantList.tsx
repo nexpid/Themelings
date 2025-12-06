@@ -151,7 +151,7 @@ case 4:
             var17 = var16[var17];
             var17 = var20.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var17 = {'variant': 'text-xs/medium', 'color': 'text-default'};
             var23 = var16[var23];
             var24 = var20.bind(var4)(var23);
             var23 = var24.participantMemberInfo;
@@ -492,7 +492,7 @@ case 6:
             var10 = var17[var10];
             var10 = var16.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var14 = var14.emptyBody;
             var10['style'] = var14;
             var14 = var17[var13];

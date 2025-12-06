@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_FLOATING;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['emphasis'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -241,7 +241,7 @@ case 8:
             var13 = var31;
             if(!var14) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var13 = 'text-normal';
+            var13 = 'text-default';
 case 10:
             var11['color'] = var13;
             var13 = new Array(2);
@@ -264,7 +264,7 @@ case 13:
             var30 = var33;
 case 12:
             var11['variant'] = var30;
-            var30 = 'text-normal';
+            var30 = 'text-default';
             if(!var14) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var30 = var31;

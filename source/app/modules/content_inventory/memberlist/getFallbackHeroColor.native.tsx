@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var3.bind(var2)(var1);
         var1 = var1.colors;
-        var3 = var1.BACKGROUND_FLOATING;
+        var3 = var1.BACKGROUND_SURFACE_HIGH;
         var2 = {};
         var1 = arg2;
         var2['saturation'] = var1;

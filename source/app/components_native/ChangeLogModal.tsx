@@ -454,7 +454,7 @@ case 29:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_FLOATING;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var12['backgroundColor'] = var15;
     var6['playButton'] = var12;
     var12 = {'width': 21, 'height': 21};
@@ -472,7 +472,7 @@ case 29:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_MOD_STRONG;
+    var15 = var15.BACKGROUND_MOD_STRONG;
     var12['backgroundColor'] = var15;
     var4['bulletPoint'] = var12;
     var12 = {'flexDirection': 'row', 'marginLeft': 4, 'marginBottom': 8};
@@ -481,7 +481,7 @@ case 29:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var12['color'] = var13;
     var4['listText'] = var12;
     var12 = {'flexDirection': 'column', 'flex': 1};

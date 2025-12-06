@@ -316,7 +316,7 @@ case 0:
             var11 = var14[var19];
             var11 = var15.bind(var4)(var11);
             var13 = var11.Text;
-            var11 = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
+            var11 = {'variant': 'heading-md/normal', 'color': 'text-default'};
             var23 = var12.headerText;
             var11['style'] = var23;
             var28 = 18;
@@ -369,7 +369,7 @@ case 4:
             var15 = var25[var19];
             var15 = var26.bind(var4)(var15);
             var23 = var15.Text;
-            var15 = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
+            var15 = {'variant': 'heading-md/normal', 'color': 'text-default'};
             var29 = var12.text;
             var15['style'] = var29;
             var29 = var25[var22];
@@ -400,7 +400,7 @@ case 4:
             var19 = var25[var19];
             var19 = var26.bind(var4)(var19);
             var23 = var19.Text;
-            var19 = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
+            var19 = {'variant': 'heading-md/normal', 'color': 'text-default'};
             var29 = var12.text;
             var19['style'] = var29;
             var25 = var25[var28];

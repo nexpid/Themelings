@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var14 = var13.HEADER_SECONDARY;
+    var14 = var13.TEXT_SUBTLE;
     var13 = 14;
     var20 = var16.bind(var1)(var15, var14, var13);
     var21 = var10;
@@ -410,7 +410,7 @@ case 6:
             var9 = var16[var18];
             var9 = var22.bind(var4)(var9);
             var14 = var9.Text;
-            var9 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var9 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var28 = 21;
             var23 = var16[var28];
             var23 = var22.bind(var4)(var23);
@@ -466,7 +466,7 @@ case 10:
             var18 = var24[var18];
             var18 = var25.bind(var4)(var18);
             var22 = var18.Text;
-            var18 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var18 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var26 = var24[var28];
             var26 = var25.bind(var4)(var26);
             var27 = var26.intl;

@@ -219,19 +219,26 @@ case 3:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var4 = 9;
+                    var7 = var5[var4];
+                    var10 = var6.bind(var3)(var7);
+                    var9 = var10.itemInteracted;
+                    var8 = 'caught_up';
+                    var7 = 'press_explore';
+                    var7 = var9.bind(var10)(var8, var8, var7);
                     var4 = var5[var4];
-                    var8 = var6.bind(var3)(var4);
-                    var7 = var8.itemInteracted;
-                    var6 = 'caught_up';
-                    var4 = 'press_explore';
-                    var4 = var7.bind(var8)(var6, var6, var4);
+                    var7 = var6.bind(var3)(var4);
+                    var6 = var7.feedItemActioned;
+                    var4 = {'itemId': 'caught_up', 'itemType': 'caught_up'};
+                    var8 = {'actionGestureType': 'press', 'actionTargetElement': 'browse_servers_button', 'actionIntentType': 'open', 'actionDestinationType': null};
+                    var4['actionParameters'] = var8;
+                    var4 = var6.bind(var7)(var4);
                     var4 = _closure1_slot0;
                     var2 = 10;
                     var2 = var5[var2];
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.maybeFetchGuildDiscoveryCategories;
                     var2 = var2.bind(var4)();
-                    SaveGenerator(address=104);
+                    SaveGenerator(address=157);
 case 7:
                     return var2;
 case 8:
@@ -283,14 +290,21 @@ case 6:
 case 0:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 9;
-                var3 = var4[var1];
+                var3 = 9;
+                var6 = var4[var3];
                 var1 = undefined;
-                var7 = var5.bind(var1)(var3);
-                var6 = var7.itemInteracted;
-                var5 = 'caught_up';
-                var3 = 'press_home';
-                var3 = var6.bind(var7)(var5, var5, var3);
+                var9 = var5.bind(var1)(var6);
+                var8 = var9.itemInteracted;
+                var7 = 'caught_up';
+                var6 = 'press_home';
+                var6 = var8.bind(var9)(var7, var7, var6);
+                var3 = var4[var3];
+                var6 = var5.bind(var1)(var3);
+                var5 = var6.feedItemActioned;
+                var3 = {'itemId': 'caught_up', 'itemType': 'caught_up'};
+                var7 = {'actionGestureType': 'press', 'actionTargetElement': 'back_to_home_button', 'actionIntentType': 'navigate', 'actionDestinationType': 'guild_home'};
+                var3['actionParameters'] = var7;
+                var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot0;
                 var2 = 12;
                 var2 = var4[var2];
@@ -315,7 +329,7 @@ case 11:
         var2 = var14[var7];
         var5 = var10.bind(var4)(var2);
         var3 = var5.useAnimatedStyle;
-        var2 = function f() {
+        var2 = function E() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = {};
@@ -667,7 +681,7 @@ case 17:
         var15['children'] = var17;
         var15 = var8.bind(var4)(var16, var15);
         var7[1] = var15;
-        var15 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+        var15 = {'variant': 'text-md/normal', 'color': 'text-default'};
         var23 = var9.subtitleText;
         var17 = new Array(2);
         var17[0] = var23;

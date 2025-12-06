@@ -112,7 +112,7 @@ case 2:
             var6 = var15[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-secondary'};
+            var6 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'text-subtle'};
             var15 = var12.text;
             var6['style'] = var15;
             var16 = var10.length;
@@ -671,7 +671,7 @@ case 16:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_RAISED;
+    var18 = var18.BACKGROUND_SURFACE_HIGH;
     var15['backgroundColor'] = var18;
     var5['avatar'] = var15;
     var15 = {};
@@ -873,7 +873,7 @@ case 24:
     var16 = var9[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_SURFACE_RAISED;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var12['backgroundColor'] = var16;
     var16 = var9[var13];
     var16 = var14.bind(var1)(var16);

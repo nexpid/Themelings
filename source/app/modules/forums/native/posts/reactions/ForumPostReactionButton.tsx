@@ -285,12 +285,12 @@ case 27:
     var15 = var8[var12];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_MOD_SUBTLE;
+    var15 = var15.BACKGROUND_MOD_SUBTLE;
     var11['borderColor'] = var15;
     var15 = var8[var12];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_MOD_SUBTLE;
+    var15 = var15.BACKGROUND_MOD_SUBTLE;
     var11['backgroundColor'] = var15;
     var6['container'] = var11;
     var11 = {};

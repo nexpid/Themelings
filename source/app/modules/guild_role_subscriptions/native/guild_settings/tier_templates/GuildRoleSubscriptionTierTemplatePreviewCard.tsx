@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'variant': 'text-xs/bold', 'color': 'text-normal'};
+        var5 = {'variant': 'text-xs/bold', 'color': 'text-default'};
         var10 = var10.contentHeader;
         var5['style'] = var10;
         var5['children'] = var9;
@@ -80,7 +80,7 @@ case 3:
             var8 = undefined;
             var5 = var7.bind(var8)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var5 = {'variant': 'text-md/semibold', 'color': 'text-default'};
             var5['children'] = var11;
             var1 = var10.bind(var8)(var7, var5);
 case 2:
@@ -155,7 +155,7 @@ case 2:
         var8 = var12[var8];
         var8 = var9.bind(var4)(var8);
         var9 = var8.Text;
-        var8 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+        var8 = {'variant': 'text-md/semibold', 'color': 'text-default'};
         var8['children'] = var11;
         var8 = var10.bind(var4)(var9, var8);
         var7[2] = var8;
@@ -322,7 +322,7 @@ case 2:
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_SECONDARY;
+    var15 = var15.TEXT_SUBTLE;
     var10['color'] = var15;
     var5['subscriptionPlanTextStyle'] = var10;
     var10 = {'color': null, 'paddingTop': 8, 'paddingBottom': 16};
@@ -343,7 +343,7 @@ case 2:
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var15;
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);

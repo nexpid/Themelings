@@ -127,7 +127,7 @@ case 5:
             var5 = var5[var18];
             var5 = var9.bind(var4)(var5);
             var9 = var5.Text;
-            var5 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var5 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var15 = var11.label;
             var5['style'] = var15;
             var5['nativeID'] = var21;
@@ -142,7 +142,7 @@ case 7:
             var18 = var27[var18];
             var18 = var26.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-sm/bold', 'color': 'text-danger'};
+            var18 = {'variant': 'text-sm/bold', 'color': 'text-feedback-critical'};
             var23 = 6;
             var24 = var27[var23];
             var24 = var26.bind(var4)(var24);
@@ -175,7 +175,7 @@ case 4:
             var16 = var22[var16];
             var16 = var18.bind(var4)(var16);
             var18 = var16.Text;
-            var16 = {'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            var16 = {'variant': 'text-sm/semibold', 'color': 'text-subtle'};
             var16['nativeID'] = var21;
             var16['children'] = var20;
             var18 = var19.bind(var4)(var18, var16);

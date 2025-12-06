@@ -45,13 +45,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = new Array(0);
     var4['analyticsLocations'] = var8;
     var4['analyticsSourceLocation'] = var1;
-    var8 = false;
-    var9 = function onRedeemVirtualCurrency() {
+    var8 = function onRedeemVirtualCurrency() {
         var1 = undefined;
         return var1;
     };
-    var4['onRedeemVirtualCurrency'] = var9;
-    var4['isRental'] = var8;
+    var4['onRedeemVirtualCurrency'] = var8;
+    var4['rentalDuration'] = var1;
     var4 = var5.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = function useOrbCheckoutModalContextProvider(arg1) {
@@ -65,20 +64,13 @@ case 0:
             var8 = var2.analyticsLocations;
             var13 = var2.onCheckoutSuccess;
             var _closure2_slot2 = var13;
-            var2 = var2.isRental;
-            var12 = undefined;
-            if(!(var2 === var12)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var2 = false;
-case 2:
+            var2 = var2.rentalDuration;
             var _closure2_slot3 = var2;
-            var _closure2_slot4 = var12;
-            var _closure2_slot5 = var12;
-            var _closure2_slot6 = var12;
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 4;
             var3 = var11[var3];
+            var12 = undefined;
             var14 = var4.bind(var12)(var3);
             var7 = var14.useStateFromStores;
             var3 = _closure1_slot6;
@@ -99,14 +91,14 @@ case 2:
                 return var1;
             };
             var3 = var7.bind(var14)(var6, var3);
-            _closure2_slot4 = var3;
+            var _closure2_slot4 = var3;
             var6 = 6;
             var6 = var11[var6];
             var7 = var4.bind(var12)(var6);
             var6 = var7.useFetchCollectiblesProduct;
             var6 = var6.bind(var7)(var10);
             var7 = var6.product;
-            _closure2_slot5 = var7;
+            var _closure2_slot5 = var7;
             var14 = _closure1_slot5;
             var6 = new Array(3);
             var6[0] = var7;
@@ -117,8 +109,8 @@ case 2:
 case 0:
                     var2 = _closure2_slot5;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 7;
@@ -132,20 +124,21 @@ case 5:
                     var6 = _closure2_slot4;
                     var2['isPremiumUser'] = var6;
                     var6 = _closure2_slot3;
+                    var6 = var1 != var6;
                     var2['isRental'] = var6;
                     var5 = var4.bind(var5)(var2);
                     var2 = {};
                     var2['orbPrice'] = var5;
                     var4 = null;
-                    if(!(var4 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!(var4 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = var5.amount;
-case 6:
+case 4:
                     var2['orbPriceAmount'] = var4;
                     var3 = _closure2_slot5;
                     var2['product'] = var3;
                     return var2;
-case 4:
+case 2:
                     return var1;
                 }
             };
@@ -156,7 +149,7 @@ case 4:
             var3 = var4.useRedeemVirtualCurrency;
             var3 = var3.bind(var4)();
             var14 = var3.redeemVirtualCurrency;
-            _closure2_slot6 = var14;
+            var _closure2_slot6 = var14;
             var4 = var3.isSubmitting;
             var3 = var3.error;
             var11 = _closure1_slot4;
@@ -172,7 +165,9 @@ case 4:
                 var6 = _closure2_slot6;
                 var10 = _closure2_slot0;
                 var9 = _closure2_slot1;
-                var7 = _closure2_slot3;
+                var3 = _closure2_slot3;
+                var1 = null;
+                var7 = var1 != var3;
                 var1 = undefined;
                 var8 = function(arg1) {
                     var3 = _closure2_slot2;
@@ -196,17 +191,17 @@ case 4:
             var1['skuId'] = var10;
             var1['loadId'] = var9;
             var9 = null;
-            if(!(var9 == var8)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!(var9 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = new Array(0);
-case 8:
+case 6:
             var1['analyticsLocations'] = var8;
             var1['product'] = var7;
             var1['orbProductContext'] = var6;
             var1['onRedeemVirtualCurrency'] = var5;
             var1['isRedeeming'] = var4;
             var1['orbRedemptionError'] = var3;
-            var1['isRental'] = var2;
+            var1['rentalDuration'] = var2;
             return var1;
         }
     };
@@ -226,22 +221,17 @@ case 0:
             var14 = var1.loadId;
             var12 = var1.analyticsSourceLocation;
             var13 = var1.analyticsLocations;
-            var6 = var1.onCheckoutSuccess;
-            var7 = var1.isRental;
-            var4 = undefined;
-            if(!(var7 === var4)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-            var7 = false;
-case 10:
+            var4 = var1.onCheckoutSuccess;
+            var7 = var1.rentalDuration;
             var5 = var1.children;
             var3 = _closure1_slot9;
             var2 = {};
             var2['skuId'] = var15;
             var2['loadId'] = var14;
             var2['analyticsLocations'] = var13;
-            var2['analyticsSourceLocation'] = var12;
-            var2['onCheckoutSuccess'] = var6;
-            var2['isRental'] = var7;
+            var2['onCheckoutSuccess'] = var4;
+            var2['rentalDuration'] = var7;
+            var4 = undefined;
             var2 = var3.bind(var4)(var2);
             var11 = var2.orbProductContext;
             var10 = var2.onRedeemVirtualCurrency;
@@ -255,17 +245,17 @@ case 10:
             var6['skuId'] = var15;
             var6['loadId'] = var14;
             var14 = null;
-            if(!(var14 == var13)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!(var14 == var13)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var13 = new Array(0);
-case 12:
+case 8:
             var6['analyticsLocations'] = var13;
             var6['analyticsSourceLocation'] = var12;
             var6['orbProductContext'] = var11;
             var6['onRedeemVirtualCurrency'] = var10;
             var6['isRedeeming'] = var9;
             var6['orbRedemptionError'] = var8;
-            var6['isRental'] = var7;
+            var6['rentalDuration'] = var7;
             var1['value'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

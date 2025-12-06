@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_FLOATING;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var16;
     var4['card'] = var9;
     var9 = {};
@@ -114,14 +114,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var9['borderColor'] = var13;
     var4['roleOverflow'] = var9;
     var9 = {'marginTop': 24, 'borderColor': null, 'borderWidth': 2, 'borderRadius': null, 'padding': 12, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var9['borderColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
@@ -451,7 +451,7 @@ case 6:
             var2 = var8[var18];
             var4 = var9.bind(var5)(var2);
             var3 = var4.useAnimatedStyle;
-            var2 = function q() {
+            var2 = function B() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var10 = _closure1_slot0;

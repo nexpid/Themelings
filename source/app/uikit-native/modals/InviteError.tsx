@@ -148,7 +148,7 @@ case 16:
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var12.expiredBody;
             var7['style'] = var12;
             var7['children'] = var11;
@@ -262,7 +262,7 @@ case 19:
             var8 = var15[var8];
             var8 = var14.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/semibold', 'color': 'text-danger'};
+            var8 = {'style': null, 'variant': 'heading-xl/semibold', 'color': 'text-feedback-critical'};
             var11 = var13.disabledTitle;
             var8['style'] = var11;
             var11 = 11;
@@ -283,7 +283,7 @@ case 19:
             var8 = var15[var8];
             var8 = var14.bind(var5)(var8);
             var9 = var8.TextWithIOSLinkWorkaround;
-            var8 = {'style': null, 'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-md/normal', 'color': 'text-default'};
             var13 = var13.disabledBody;
             var8['style'] = var13;
             var13 = var15[var11];

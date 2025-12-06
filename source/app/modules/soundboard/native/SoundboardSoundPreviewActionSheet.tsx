@@ -112,7 +112,7 @@ case 2:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.TEXT_NORMAL;
+        var13 = var13.TEXT_DEFAULT;
         var9['tintColor'] = var13;
         var4['star'] = var9;
         var9 = {'borderColor': 'transparent', 'borderWidth': 1, 'borderRadius': null, 'pointerEvents': 'none'};
@@ -129,7 +129,7 @@ case 2:
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
         var10 = var10.colors;
-        var10 = var10.TEXT_POSITIVE;
+        var10 = var10.TEXT_FEEDBACK_POSITIVE;
         var9['borderColor'] = var10;
         var4['borderPlaying'] = var9;
         var4 = var7.bind(var8)(var4);

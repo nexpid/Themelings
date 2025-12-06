@@ -371,7 +371,7 @@ case 2:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -461,7 +461,7 @@ case 16:
             var6 = var13[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'eyebrow', 'color': 'header-secondary'};
+            var6 = {'style': null, 'variant': 'eyebrow', 'color': 'text-default'};
             var13 = var9.header;
             var6['style'] = var13;
             var6['children'] = var12;

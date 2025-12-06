@@ -817,7 +817,7 @@ case 39:
             var12 = var13[var12];
             var12 = var16.bind(var4)(var12);
             var15 = var12.Text;
-            var12 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var20 = var10.description;
             var12['style'] = var20;
             var20 = _closure1_slot17;

@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.TextWithIOSLinkWorkaround;
-        var6 = {'color': 'text-normal', 'variant': 'text-sm/medium'};
+        var6 = {'color': 'text-default', 'variant': 'text-sm/medium'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
@@ -766,7 +766,7 @@ case 26:
             var16 = var16[var23];
             var16 = var17.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-normal'};
+            var16 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var23 = var15.appAboutDescription;
             var16['style'] = var23;
             var16['children'] = var22;

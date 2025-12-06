@@ -336,7 +336,7 @@ case 18:
     var19 = var6[var11];
     var19 = var12.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.BG_SURFACE_RAISED;
+    var19 = var19.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var19;
     var19 = var6[var11];
     var19 = var12.bind(var1)(var19);
@@ -391,7 +391,7 @@ case 18:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var10['tintColor'] = var11;
     var4['lock'] = var10;
     var4 = var8.bind(var9)(var4);

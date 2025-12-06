@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_FAINT;
+    var12 = var12.BACKGROUND_MOD_FAINT;
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
@@ -137,7 +137,7 @@ case 5:
             var8 = var8[var14];
             var8 = var11.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var14 = var10.subtitle;
             var8['style'] = var14;
             var8['children'] = var13;

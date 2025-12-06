@@ -265,7 +265,7 @@ case 0:
             var10 = var15[var9];
             var10 = var11.bind(var4)(var10);
             var18 = var10.Text;
-            var10 = {'style': null, 'color': 'text-normal', 'variant': 'text-sm/normal'};
+            var10 = {'style': null, 'color': 'text-default', 'variant': 'text-sm/normal'};
             var20 = var17.body;
             var19 = new Array(1);
             var19[0] = var20;
@@ -277,7 +277,7 @@ case 0:
             var9 = var15[var9];
             var9 = var11.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'color': 'text-normal', 'variant': 'text-sm/normal'};
+            var9 = {'style': null, 'color': 'text-default', 'variant': 'text-sm/normal'};
             var19 = var17.body;
             var18 = new Array(1);
             var18[0] = var19;

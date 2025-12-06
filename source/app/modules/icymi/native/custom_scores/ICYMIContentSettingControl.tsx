@@ -499,7 +499,7 @@ case 23:
             var5 = var12[var6];
             var5 = var14.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var5 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var13 = 9;
             var11 = var12[var13];
             var11 = var14.bind(var4)(var11);
@@ -518,7 +518,7 @@ case 23:
             var8 = var12[var6];
             var8 = var14.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-xs/normal', 'color': 'text-default'};
             var15 = var12[var13];
             var15 = var14.bind(var4)(var15);
             var16 = var15.intl;
@@ -814,7 +814,7 @@ case 36:
             var5 = var12[var6];
             var5 = var14.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var5 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var13 = 9;
             var11 = var12[var13];
             var11 = var14.bind(var4)(var11);
@@ -833,7 +833,7 @@ case 36:
             var8 = var12[var6];
             var8 = var14.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var8 = {'variant': 'text-xs/normal', 'color': 'text-default'};
             var15 = var12[var13];
             var15 = var14.bind(var4)(var15);
             var16 = var15.intl;

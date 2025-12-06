@@ -267,7 +267,7 @@ case 28:
     var17 = var7[var12];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.TEXT_DANGER;
+    var17 = var17.TEXT_FEEDBACK_CRITICAL;
     var21 = var19.bind(var1)(var18, var17, var15);
     var22 = var10;
     var17 = copyDataProperties(var22, var21);

@@ -1062,19 +1062,19 @@ case 0:
                     var9 = _closure1_slot5;
                     var1 = _closure1_slot14;
                     var1 = var1.bind(var10)();
-                    if(var1) { _fun0014_ip = 101; continue _fun0014 }
-case 118:
+                    if(var1) { _fun0014_ip = 118; continue _fun0014 }
+case 119:
                     var1 = var15.apply;
                     var1 = var1.bind(var15)(var11, var16);
-                    _fun0014_ip = 119; continue _fun0014;
-case 101:
+                    _fun0014_ip = 120; continue _fun0014;
+case 118:
                     var14 = var13.Reflect;
                     var13 = var14.construct;
                     var12 = _closure1_slot6;
                     var12 = var12.bind(var10)(var11);
                     var12 = var12.constructor;
                     var1 = var13.bind(var14)(var15, var16, var12);
-case 119:
+case 120:
                     var1 = var9.bind(var10)(var11, var1);
                     var9 = 'HTTPResponseError';
                     var1['name'] = var9;
@@ -1130,7 +1130,7 @@ case 119:
         var5['del'] = var6;
         var15 = global;
         var15 = var15.isServerRendering;
-        if(!var15) { _fun0001_ip = 120; continue _fun0001 }
+        if(!var15) { _fun0001_ip = 121; continue _fun0001 }
 case 29:
         var10 = function noop() {
             var1 = global;
@@ -1146,7 +1146,7 @@ case 29:
         var8 = var9;
         var7 = var8;
         var6 = var7;
-case 120:
+case 121:
         var _closure1_slot12 = var12;
         var12 = function awaitOnline() {
             var1 = global;
@@ -1198,10 +1198,10 @@ case 120:
 case 0:
                 var4 = arguments[0];
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0015_ip = 121; continue _fun0015 }
-case 122:
+                if(!(var4 === var1)) { _fun0015_ip = 122; continue _fun0015 }
+case 123:
                 var4 = true;
-case 121:
+case 122:
                 var3 = global;
                 var1 = var3.window;
                 var1 = var1.GLOBAL_ENV;
@@ -1209,8 +1209,8 @@ case 121:
                 var1 = 'https:';
                 var2 = var1 + var2;
                 var1 = '';
-                if(!var4) { _fun0015_ip = 123; continue _fun0015 }
-case 124:
+                if(!var4) { _fun0015_ip = 124; continue _fun0015 }
+case 125:
                 var4 = var3.window;
                 var4 = var4.GLOBAL_ENV;
                 var5 = var4.API_VERSION;
@@ -1218,7 +1218,7 @@ case 124:
                 var4 = var3.concat;
                 var3 = '/v';
                 var1 = var4.bind(var3)(var5);
-case 123:
+case 124:
                 var1 = var2 + var1;
                 return var1;
             }

@@ -87,7 +87,7 @@ case 4:
             var6 = var6[var11];
             var6 = var7.bind(var10)(var6);
             var6 = var6.colors;
-            var6 = var6.BG_MOD_STRONG;
+            var6 = var6.BACKGROUND_MOD_STRONG;
             var2['backgroundColor'] = var6;
             var6 = _closure1_slot10;
             var6 = var6.FLOATING;

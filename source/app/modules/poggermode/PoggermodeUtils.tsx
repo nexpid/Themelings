@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -16,16 +18,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var7 = var4.ShakeLevel;
-    var _closure1_slot0 = var7;
+    var _closure1_slot2 = var7;
     var7 = var4.SHAKE_STEPS;
-    var _closure1_slot1 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.SHAKE_STEP_DIVIDER;
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Color;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = function getStepwiseValue(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -130,7 +127,7 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var8 = new Array(7);
     var4 = [1, 0.001];
     var8[0] = var4;
@@ -169,7 +166,7 @@ case 21:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var7 = var8.map;
     var4 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -202,7 +199,7 @@ case 5:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -216,15 +213,15 @@ case 0:
             var5 = undefined;
             if(!(var2 === var5)) { _fun0005_ip = 20; continue _fun0005 }
 case 25:
-            var1 = _closure1_slot0;
+            var1 = _closure1_slot2;
             var2 = var1.LEVEL_3;
 case 20:
-            var4 = _closure1_slot4;
-            var3 = _closure1_slot1;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot3;
             var6 = var3[var2];
             var3 = new Array(2);
             var3[0] = var6;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot4;
             var1 = var1[var2];
             var3[1] = var1;
             var2 = arg1;
@@ -235,11 +232,11 @@ case 20:
     };
     var3['getComboShakeIntensity'] = var4;
     var4 = function(arg1) {
-        var5 = _closure1_slot4;
-        var2 = _closure1_slot5;
+        var5 = _closure1_slot5;
+        var2 = _closure1_slot6;
         var4 = new Array(2);
         var4[0] = var2;
-        var1 = _closure1_slot6;
+        var1 = _closure1_slot7;
         var4[1] = var1;
         var3 = undefined;
         var2 = arg1;
@@ -252,45 +249,63 @@ case 20:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = arg1;
-            var1 = 1;
-            if(!(var1 !== var2)) { _fun0006_ip = 26; continue _fun0006 }
+            var4 = 1;
+            if(!(var4 !== var2)) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
             var1 = 2;
             if(!(var1 !== var2)) { _fun0006_ip = 28; continue _fun0006 }
-case 14:
+case 29:
             var1 = 3;
             if(!(var1 !== var2)) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+case 30:
             var1 = 4;
-            if(!(var1 !== var2)) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
+            if(!(var1 !== var2)) { _fun0006_ip = 31; continue _fun0006 }
+case 3:
             var1 = 5;
-            if(!(var1 !== var2)) { _fun0006_ip = 30; continue _fun0006 }
+            if(!(var1 !== var2)) { _fun0006_ip = 31; continue _fun0006 }
 case 32:
             var1 = 6;
             if(!(var1 !== var2)) { _fun0006_ip = 33; continue _fun0006 }
 case 34:
             var1 = {};
-            var2 = _closure1_slot3;
-            var2 = var2.ORANGE_345;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var4];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var3);
+            var3 = var5.unsafe_getRawColor;
+            var2 = 'ORANGE_345';
+            var2 = var3.bind(var5)(var2);
             var1['color'] = var2;
             var2 = true;
             var1['flair'] = var2;
             _fun0006_ip = 35; continue _fun0006;
 case 33:
             var2 = {};
-            var3 = _closure1_slot3;
-            var3 = var3.RED_400;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var5 = var3[var4];
+            var3 = undefined;
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.unsafe_getRawColor;
+            var3 = 'RED_400';
+            var3 = var5.bind(var6)(var3);
             var2['color'] = var3;
             var3 = true;
             var2['square'] = var3;
             var1 = var2;
 case 35:
             _fun0006_ip = 36; continue _fun0006;
-case 30:
+case 31:
             var2 = {};
-            var3 = _closure1_slot3;
-            var3 = var3.YELLOW_300;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var5 = var3[var4];
+            var3 = undefined;
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.unsafe_getRawColor;
+            var3 = 'YELLOW_300';
+            var3 = var5.bind(var6)(var3);
             var2['color'] = var3;
             var3 = true;
             var2['square'] = var3;
@@ -299,16 +314,28 @@ case 36:
             _fun0006_ip = 37; continue _fun0006;
 case 28:
             var2 = {};
-            var3 = _closure1_slot3;
-            var3 = var3.GREEN_360;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var5 = var3[var4];
+            var3 = undefined;
+            var6 = var6.bind(var3)(var5);
+            var5 = var6.unsafe_getRawColor;
+            var3 = 'GREEN_360';
+            var3 = var5.bind(var6)(var3);
             var2['color'] = var3;
             var1 = var2;
 case 37:
             _fun0006_ip = 38; continue _fun0006;
 case 26:
             var2 = {};
-            var3 = _closure1_slot3;
-            var3 = var3.BRAND_500;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var4 = var3[var4];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.unsafe_getRawColor;
+            var3 = 'BRAND_500';
+            var3 = var4.bind(var5)(var3);
             var2['color'] = var3;
             var1 = var2;
 case 38:

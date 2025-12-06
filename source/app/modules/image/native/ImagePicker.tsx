@@ -1,13 +1,13 @@
 // app/modules/image/native/ImagePicker.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var4 = dependencyMap;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var2 = metroImportDefault;
-    var _closure1_slot1 = var2;
-    var _closure1_slot2 = var4;
-    var7 = function launchImageLibrary(arg1, arg2) {
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var6;
+    var8 = function launchImageLibrary(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -17,7 +17,7 @@ case 0:
 case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 0;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -38,7 +38,7 @@ case 5:
             var6 = !var1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 0;
+            var1 = 2;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
@@ -51,7 +51,7 @@ case 8:
 case 7:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 1;
+            var3 = 3;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.launchImageLibrary;
@@ -72,11 +72,11 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot3 = var7;
-    var6 = function launchCamera(arg1, arg2) {
+    var _closure1_slot5 = var8;
+    var7 = function launchCamera(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -86,18 +86,28 @@ case 7:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot4 = var6;
-    var2 = global;
-    var10 = var2.Object;
-    var9 = var10.defineProperty;
-    var8 = {};
-    var2 = true;
-    var8['value'] = var2;
-    var2 = '__esModule';
-    var2 = var9.bind(var10)(var3, var2, var8);
+    var _closure1_slot6 = var7;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
     var2 = {};
-    var2['launchImageLibrary'] = var7;
-    var7 = function launchImageLibraryAsync(arg1) {
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var9.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.ThemeTypes;
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var2['launchImageLibrary'] = var8;
+    var8 = function launchImageLibraryAsync(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = global;
@@ -107,7 +117,7 @@ case 7:
         var4 = function(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot5;
             var3 = _closure2_slot0;
             var1 = undefined;
             var2 = function(arg1) {
@@ -125,9 +135,9 @@ case 7:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var2['launchImageLibraryAsync'] = var7;
-    var2['launchCamera'] = var6;
-    var6 = function launchCameraAsync(arg1) {
+    var2['launchImageLibraryAsync'] = var8;
+    var2['launchCamera'] = var7;
+    var7 = function launchCameraAsync(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var2 = global;
@@ -137,7 +147,7 @@ case 7:
         var4 = function(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot6;
             var3 = _closure2_slot0;
             var1 = undefined;
             var2 = function(arg1) {
@@ -155,36 +165,101 @@ case 7:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var2['launchCameraAsync'] = var6;
-    var1 = function launchCropper(arg1) {
+    var2['launchCameraAsync'] = var7;
+    var4 = function launchCropper(arg1) {
         var1 = arg1;
-        var8 = var1.uri;
-        var7 = var1.width;
-        var6 = var1.height;
-        var5 = var1.includeBase64;
-        var4 = var1.mimeType;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
+        var17 = var1.uri;
+        var16 = var1.width;
+        var15 = var1.height;
+        var14 = var1.includeBase64;
+        var13 = var1.mimeType;
+        var11 = var1.freeStyleCropEnabled;
+        var1 = _closure1_slot3;
+        var12 = var1.theme;
+        var2 = _closure1_slot1;
+        var9 = _closure1_slot2;
+        var1 = 4;
+        var3 = var9[var1];
+        var8 = undefined;
+        var3 = var2.bind(var8)(var3);
+        var6 = var3.internal;
+        var5 = var6.resolveSemanticColor;
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var3 = var3.colors;
+        var3 = var3.BACKGROUND_BASE_LOW;
+        var6 = var5.bind(var6)(var12, var3);
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var7 = var3.internal;
+        var5 = var7.resolveSemanticColor;
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var3 = var3.colors;
+        var3 = var3.BACKGROUND_SURFACE_HIGH;
+        var7 = var5.bind(var7)(var12, var3);
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var10 = var3.internal;
+        var5 = var10.resolveSemanticColor;
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var3 = var3.colors;
+        var3 = var3.HEADER_PRIMARY;
+        var5 = var5.bind(var10)(var12, var3);
+        var3 = var9[var1];
+        var3 = var2.bind(var8)(var3);
+        var10 = var3.internal;
+        var3 = var10.resolveSemanticColor;
+        var1 = var9[var1];
+        var1 = var2.bind(var8)(var1);
+        var1 = var1.colors;
+        var1 = var1.TEXT_MUTED;
+        var10 = var3.bind(var10)(var12, var1);
+        var1 = 5;
+        var1 = var9[var1];
+        var3 = var2.bind(var8)(var1);
         var2 = var3.openCropper;
         var1 = {};
-        var9 = 'photo';
-        var1['mediaType'] = var9;
-        var1['path'] = var8;
-        var1['width'] = var7;
-        var1['height'] = var6;
-        var1['includeBase64'] = var5;
-        var1['mimeType'] = var4;
+        var18 = 'photo';
+        var1['mediaType'] = var18;
+        var1['path'] = var17;
+        var1['width'] = var16;
+        var1['height'] = var15;
+        var1['includeBase64'] = var14;
+        var1['mimeType'] = var13;
+        var1['freeStyleCropEnabled'] = var11;
+        var11 = _closure1_slot4;
+        var13 = var11.LIGHT;
+        var13 = var12 === var13;
+        var1['cropperStatusBarLight'] = var13;
+        var11 = var11.LIGHT;
+        var11 = var12 === var11;
+        var1['cropperNavigationBarLight'] = var11;
+        var1['cropperActiveWidgetColor'] = var5;
+        var1['cropperInactiveWidgetColor'] = var10;
+        var1['cropperControlsColor'] = var7;
+        var1['cropperControlsBarColor'] = var6;
+        var1['cropperToolbarColor'] = var6;
+        var1['cropperToolbarWidgetColor'] = var5;
+        var7 = _closure1_slot0;
+        var4 = 6;
+        var5 = var9[var4];
+        var5 = var7.bind(var8)(var5);
+        var6 = var5.intl;
+        var5 = var6.string;
+        var4 = var9[var4];
+        var4 = var7.bind(var8)(var4);
+        var4 = var4.t;
+        var4 = var4.b0y3DL;
+        var4 = var5.bind(var6)(var4);
+        var1['cropperToolbarTitle'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['launchCropper'] = var1;
-    var1 = 3;
-    var4 = var4[var1];
-    var1 = undefined;
+    var2['launchCropper'] = var4;
+    var4 = 7;
+    var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/image/native/ImagePicker.tsx';

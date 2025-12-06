@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var12[var8];
         var13 = var10.bind(var4)(var13);
         var15 = var13.Text;
-        var13 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+        var13 = {'variant': 'text-sm/normal', 'color': 'text-default'};
         var17 = new Array(2);
         var17[0] = var18;
         var18 = '\n';
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var10.bind(var4)(var8);
         var10 = var8.Text;
-        var8 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+        var8 = {'variant': 'text-sm/medium', 'color': 'text-default'};
         var8['children'] = var14;
         var8 = var13.bind(var4)(var10, var8);
         var5[5] = var8;
@@ -264,10 +264,11 @@ case 0:
             var _closure2_slot4 = var7;
             var3 = 20;
             var3 = var15[var3];
-            var8 = var14.bind(var4)(var3);
-            var6 = var8.useCancelSubscription;
-            var3 = var16.id;
-            var3 = var6.bind(var8)(var3);
+            var11 = var14.bind(var4)(var3);
+            var8 = var11.useCancelSubscription;
+            var6 = var16.id;
+            var3 = var16.isACOM;
+            var3 = var8.bind(var11)(var6, var3);
             var8 = var3.cancelSubscription;
             var _closure2_slot5 = var8;
             var12 = var3.nativePaymentsConnected;
@@ -492,10 +493,10 @@ case 2:
             var5['color'] = var13;
             if(var10) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
-            if(!var11) { _fun0001_ip = 14; continue _fun0001 }
-case 33:
+            if(!var11) { _fun0001_ip = 33; continue _fun0001 }
+case 16:
             var11 = !var12;
-case 14:
+case 33:
             var10 = var11;
 case 31:
             var5['loading'] = var10;
@@ -621,7 +622,7 @@ case 42:
             var20 = var22[var20];
             var20 = var28.bind(var5)(var20);
             var23 = var20.Text;
-            var20 = {'variant': 'text-sm/bold', 'color': 'text-normal'};
+            var20 = {'variant': 'text-sm/bold', 'color': 'text-default'};
             var25 = {};
             var26 = 'uppercase';
             var25['textTransform'] = var26;
@@ -760,7 +761,7 @@ case 40:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

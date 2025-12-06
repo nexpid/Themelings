@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var4['backgroundColor'] = var13;
     var4['flex'] = var10;
     var7['container'] = var4;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_RAISED;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var13;
     var7['content'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var16[var10];
         var10 = var13.bind(var4)(var10);
         var18 = var10.TruncatedText;
-        var10 = {'variant': 'text-sm/normal', 'color': 'text-normal', 'lineClamp': 2};
+        var10 = {'variant': 'text-sm/normal', 'color': 'text-default', 'lineClamp': 2};
         var10['children'] = var22;
         var10 = var3.bind(var4)(var18, var10);
         var9[2] = var10;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var16[var11];
         var11 = var13.bind(var4)(var11);
         var19 = var11.Text;
-        var11 = {'variant': 'text-sm/bold', 'color': 'text-normal'};
+        var11 = {'variant': 'text-sm/bold', 'color': 'text-default'};
         var20 = {};
         var21 = 'uppercase';
         var20['textTransform'] = var21;

@@ -134,14 +134,48 @@ case 0:
             var _closure2_slot1 = var9;
             var5 = 17;
             var5 = var10[var5];
+            var12 = var8.bind(var4)(var5);
+            var5 = var12.getName;
+            var13 = var5.bind(var12)(var11);
+            var5 = 18;
+            var5 = var10[var5];
             var8 = var8.bind(var4)(var5);
-            var5 = var8.getName;
-            var5 = var5.bind(var8)(var11);
-            var10 = var6;
-            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = {};
+            var10 = var11.id;
+            var5['userId'] = var10;
+            var10 = var8.bind(var4)(var5);
+            var8 = null;
+            var5 = var13;
+            if(!(var8 != var10)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = var3;
+            var12 = _closure1_slot7;
+            var10 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var8 = 19;
+            var8 = var15[var8];
+            var10 = var10.bind(var4)(var8);
+            var8 = {};
+            var14 = var11.id;
+            var8['userId'] = var14;
+            var8['userName'] = var13;
+            var14 = _closure1_slot0;
+            var13 = 20;
+            var13 = var15[var13];
+            var13 = var14.bind(var4)(var13);
+            var13 = var13.EffectDisplayType;
+            var13 = var13.STATIC;
+            var8['effectDisplayType'] = var13;
+            var13 = 1;
+            var8['lineClamp'] = var13;
+            var13 = 'text-md/semibold';
+            var8['variant'] = var13;
+            var5 = var12.bind(var4)(var10, var8);
 case 2:
+            var10 = var6;
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var10 = var3;
+case 4:
             _closure2_slot2 = var10;
             var8 = _closure1_slot3;
             var6 = var8.useMemo;
@@ -153,7 +187,7 @@ case 2:
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var6 = 18;
+                var6 = 21;
                 var1 = var8[var6];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -182,7 +216,7 @@ case 2:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 19;
+            var1 = 22;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.UserNameplateRow;
@@ -204,25 +238,25 @@ case 0:
             var7 = var1.user;
             var6 = var1.start;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var6 = false;
-case 4:
-            var5 = var1.end;
-            if(!(var5 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+            if(!(var6 === var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var5 = false;
+            var6 = false;
 case 6:
+            var5 = var1.end;
+            if(!(var5 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var5 = false;
+case 8:
             var3 = _closure1_slot7;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 20;
+            var1 = 23;
             var1 = var12[var1];
             var1 = var11.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
             var9 = _closure1_slot1;
-            var10 = 18;
+            var10 = 21;
             var8 = var12[var10];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -248,7 +282,7 @@ case 6:
         }
     };
     var _closure1_slot11 = var4;
-    var4 = 21;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -283,16 +317,16 @@ case 0:
             var11 = null;
             var4 = var11 == var3;
             var1 = undefined;
-            if(var4) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var1 = var3.skuId;
-case 8:
+case 10:
             var1 = var2.bind(var5)(var1);
             var12 = var1.product;
             var1 = var11 != var3;
             var21 = undefined;
-            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(!var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 9;
@@ -300,7 +334,7 @@ case 11:
             var2 = var2.bind(var5)(var1);
             var1 = var2.getNameplateDataFromRecord;
             var21 = var1.bind(var2)(var3);
-case 10:
+case 12:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -310,8 +344,8 @@ case 10:
             var17 = var1.bind(var2)();
             var2 = var11 == var21;
             var1 = null;
-            if(var2) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -333,10 +367,10 @@ case 13:
             var6 = {};
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(var13) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var11 = var12.name;
-case 14:
+case 16:
             var6['nameplate'] = var11;
             var6 = var8.bind(var9)(var7, var6);
             var2['accessibilityLabel'] = var6;
@@ -480,7 +514,7 @@ case 14:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 12:
+case 14:
             return var1;
         }
     };

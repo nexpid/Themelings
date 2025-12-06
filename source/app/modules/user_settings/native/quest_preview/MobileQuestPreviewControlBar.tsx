@@ -656,7 +656,7 @@ case 48:
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-sm/medium', 'color': 'text-danger'};
+            var7 = {'variant': 'text-sm/medium', 'color': 'text-feedback-critical'};
             var11 = var11.errorText;
             var7['style'] = var11;
             var10 = var10.message;

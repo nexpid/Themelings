@@ -190,7 +190,7 @@ case 12:
             var9 = var7[var4];
             var9 = var5.bind(var6)(var9);
             var9 = var9.colors;
-            var9 = var9.BG_MOD_STRONG;
+            var9 = var9.BACKGROUND_MOD_STRONG;
             var2['backgroundColor'] = var9;
             var1['handleIndicator'] = var2;
             var2 = {};

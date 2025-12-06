@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var14 = var14.BORDER_SUBTLE;
     var12['backgroundColor'] = var14;
     var4['container'] = var12;
     var12 = {'flex': 1, 'resizeMode': 'cover'};
@@ -205,7 +205,7 @@ case 8:
             var6 = var1[var5];
             var12 = var20.bind(var4)(var6);
             var10 = var12.useAnimatedStyle;
-            var6 = function E() {
+            var6 = function T() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;

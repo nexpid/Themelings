@@ -253,7 +253,7 @@ case 0:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var13.threadBannerTitle;
             var5['style'] = var9;
             var9 = var11.isForumPost;
@@ -426,7 +426,7 @@ case 0:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var5 = {'lineClamp': 2, 'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var9 = var13.threadBannerTitle;
             var5['style'] = var9;
             var9 = var11.isForumPost;

@@ -48,20 +48,7 @@ case 2:
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.tryOpenUrlAsUniversalLink;
-            var2 = var2.bind(var3)(var4);
-            var3 = global;
-            var5 = var3.Promise;
-            if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var2 = var5.reject;
-            var2 = var2.bind(var5)();
-            _fun0001_ip = 7; continue _fun0001;
-case 5:
-            var4 = var5.resolve;
-            var3 = true;
-            var2 = var4.bind(var5)(var3);
-case 7:
-            var1 = var2;
+            var1 = var2.bind(var3)(var4);
 case 4:
             return var1;
         }
@@ -93,20 +80,7 @@ case 2:
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.tryOpenScheme;
-            var2 = var2.bind(var3)(var4);
-            var3 = global;
-            var5 = var3.Promise;
-            if(var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var2 = var5.reject;
-            var2 = var2.bind(var5)();
-            _fun0002_ip = 7; continue _fun0002;
-case 5:
-            var4 = var5.resolve;
-            var3 = true;
-            var2 = var4.bind(var5)(var3);
-case 7:
-            var1 = var2;
+            var1 = var2.bind(var3)(var4);
 case 4:
             return var1;
         }

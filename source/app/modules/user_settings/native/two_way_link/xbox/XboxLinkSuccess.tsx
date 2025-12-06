@@ -253,7 +253,7 @@ case 2:
             var7 = var20[var15];
             var7 = var16.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var7 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var21 = var11.body;
             var7['style'] = var21;
             var21 = var20[var18];

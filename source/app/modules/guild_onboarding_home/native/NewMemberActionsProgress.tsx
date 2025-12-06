@@ -371,7 +371,7 @@ case 18:
             var17 = var20[var15];
             var17 = var16.bind(var5)(var17);
             var18 = var17.Text;
-            var17 = {'variant': 'text-xs/medium', 'color': 'header-secondary', 'children': '/'};
+            var17 = {'variant': 'text-xs/medium', 'color': 'text-default', 'children': '/'};
             var17 = var19.bind(var5)(var18, var17);
             var14[1] = var17;
             var17 = _closure1_slot10;

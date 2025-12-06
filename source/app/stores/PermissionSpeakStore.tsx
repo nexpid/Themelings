@@ -175,22 +175,22 @@ case 0:
                 var1 = _closure1_slot10;
                 var3 = var3.bind(var4)(var1);
                 var1 = null;
-                if(!(var1 != var3)) { _fun0004_ip = 4; continue _fun0004 }
-case 11:
+                if(!(var1 != var3)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var5 = _closure1_slot8;
                 var4 = var5.getGuild;
                 var2 = var3.getGuildId;
                 var2 = var2.bind(var3)();
                 var2 = var4.bind(var5)(var2);
                 var1 = var1 != var2;
-                if(!var1) { _fun0004_ip = 5; continue _fun0004 }
-case 12:
+                if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 13:
                 var3 = var3.id;
                 var2 = var2.afkChannelId;
                 var1 = var3 === var2;
-case 5:
+case 10:
                 return var1;
-case 4:
+case 11:
                 var1 = false;
                 return var1;
             }
@@ -209,15 +209,15 @@ case 0:
                 var4 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                if(!var1) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var3 = var4.isGuildStageVoice;
                 var1 = var3.bind(var4)();
-case 13:
-                if(var1) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+case 14:
+                if(var1) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var1 = _closure1_slot12;
-case 15:
+case 16:
                 var1 = !var1;
                 return var1;
             }
@@ -265,41 +265,41 @@ case 0:
                 var2 = arg2;
                 var5 = _closure1_slot9;
                 var4 = var2.sessionId;
-                if(!(var5 === var4)) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+                if(!(var5 === var4)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                 var5 = _closure1_slot11;
                 var4 = var2.suppress;
-                if(!(var5 !== var4)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+                if(!(var5 !== var4)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                 var4 = var2.suppress;
                 _closure1_slot11 = var4;
                 var4 = !var4;
                 _closure1_slot12 = var4;
-case 19:
+case 20:
                 var5 = _closure1_slot10;
                 var4 = var2.channelId;
-                if(!(var5 !== var4)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+                if(!(var5 !== var4)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                 var4 = var2.channelId;
                 _closure1_slot10 = var4;
                 var4 = _closure1_slot11;
                 var4 = !var4;
                 _closure1_slot12 = var4;
-case 21:
+case 22:
                 var4 = _closure1_slot13;
                 if(var4) { _fun0006_ip = 8; continue _fun0006 }
-case 23:
+case 24:
                 var5 = var2.channelId;
                 var2 = null;
                 var4 = var2 == var5;
 case 8:
                 var2 = true;
                 var1 = true;
-                if(!var4) { _fun0006_ip = 17; continue _fun0006 }
-case 24:
+                if(!var4) { _fun0006_ip = 18; continue _fun0006 }
+case 25:
                 _closure1_slot12 = var2;
                 var1 = true;
-case 17:
+case 18:
                 return var1;
             }
         };
@@ -316,7 +316,7 @@ case 0:
             var2 = true;
             _closure1_slot12 = var2;
             if(!var3) { _fun0007_ip = 5; continue _fun0007 }
-case 25:
+case 26:
             _closure1_slot13 = var2;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;

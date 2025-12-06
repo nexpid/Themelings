@@ -117,7 +117,7 @@ case 0:
                 var13 = 'text-muted';
                 if(!var17) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                var13 = 'text-normal';
+                var13 = 'text-default';
 case 6:
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot3;

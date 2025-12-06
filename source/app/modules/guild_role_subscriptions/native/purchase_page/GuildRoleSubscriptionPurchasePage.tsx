@@ -101,7 +101,7 @@ case 2:
             var9 = var14[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var9 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var9['children'] = var13;
             var9 = var12.bind(var4)(var11, var9);
             var5[1] = var9;
@@ -192,7 +192,7 @@ case 4:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'aspectRatio': 4, 'width': '100%'};
@@ -220,7 +220,7 @@ case 4:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -275,7 +275,7 @@ case 4:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var9['tintColor'] = var10;
     var4['gatedChannelIcon'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -539,7 +539,7 @@ case 23:
                 var6 = var10[var6];
                 var6 = var7.bind(var1)(var6);
                 var7 = var6.Text;
-                var6 = {'variant': 'text-xs/semibold', 'color': 'text-normal'};
+                var6 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
                 var9 = _closure2_slot3;
                 var9 = var9.name;
                 var6['children'] = var9;
@@ -639,7 +639,7 @@ case 24:
             var8 = var23[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.TruncatedText;
-            var8 = {'variant': 'text-sm/normal', 'color': 'text-normal', 'lineClamp': 3};
+            var8 = {'variant': 'text-sm/normal', 'color': 'text-default', 'lineClamp': 3};
             var8['children'] = var22;
             var8 = var17.bind(var4)(var9, var8);
             var15[3] = var8;

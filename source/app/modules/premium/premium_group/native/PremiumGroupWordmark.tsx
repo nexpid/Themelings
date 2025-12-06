@@ -58,7 +58,7 @@ case 0:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.TEXT_PRIMARY;
+            var1 = var1.TEXT_STRONG;
             var1 = var3.bind(var5)(var1);
             var7 = 'white';
             if(var2) { _fun0001_ip = 2; continue _fun0001 }

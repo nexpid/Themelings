@@ -386,7 +386,7 @@ case 21:
             var10 = var10[var8];
             var10 = var12.bind(var4)(var10);
             var12 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+            var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var18 = var11.body;
             var10['style'] = var18;
             var10['children'] = var17;
@@ -401,7 +401,7 @@ case 24:
             var8 = var20[var8];
             var8 = var16.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var15 = var15.redirect;
             var8['style'] = var15;
             var15 = 17;

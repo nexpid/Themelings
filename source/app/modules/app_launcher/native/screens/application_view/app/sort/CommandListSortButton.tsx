@@ -179,7 +179,7 @@ case 4:
             var8 = var13[var8];
             var8 = var10.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var8 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var8['children'] = var12;
             var9 = var3.bind(var4)(var9, var8);
             var8 = new Array(2);
@@ -196,7 +196,7 @@ case 4:
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.colors;
-            var11 = var11.TEXT_NORMAL;
+            var11 = var11.TEXT_DEFAULT;
             var9['color'] = var11;
             var9 = var3.bind(var4)(var10, var9);
             var8[1] = var9;

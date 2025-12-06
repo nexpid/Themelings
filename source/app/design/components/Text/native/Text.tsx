@@ -262,7 +262,7 @@ case 20:
             var5 = copyDataProperties(var18, var17, var16);
             var11 = _closure1_slot11;
             var15 = var6 != var14;
-            var3 = 'text-normal';
+            var3 = 'text-default';
             if(!var15) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
             var3 = var14;

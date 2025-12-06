@@ -117,7 +117,7 @@ case 5:
             var13 = 'header-primary';
             if(!var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var13 = 'text-danger';
+            var13 = 'text-feedback-critical';
 case 6:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -130,7 +130,7 @@ case 9:
             var16 = var2.INTERACTIVE_NORMAL;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var16 = var2.TEXT_DANGER;
+            var16 = var2.TEXT_FEEDBACK_CRITICAL;
 case 10:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;

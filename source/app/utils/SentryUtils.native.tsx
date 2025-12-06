@@ -405,46 +405,29 @@ case 25:
     var7 = function profiledRootComponent(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var4 = arg1;
-            var5 = _closure1_slot2;
-            var3 = _closure1_slot3;
-            var2 = 6;
-            var2 = var3[var2];
-            var3 = undefined;
-            var5 = var5.bind(var3)(var2);
-            var2 = var5.getConstants;
-            var2 = var2.bind(var5)();
-            var5 = var2.ReleaseChannel;
-            var2 = 'canaryRelease';
-            if(!(var2 !== var5)) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
-            return var4;
+            var5 = arg1;
+            var3 = _closure1_slot2;
+            var4 = _closure1_slot3;
+            var1 = 6;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getConstants;
+            var1 = var1.bind(var3)();
+            var6 = var1.ReleaseChannel;
+            var3 = 'canaryRelease';
+            var1 = var5;
+            if(!(var3 === var6)) { _fun0007_ip = 27; continue _fun0007 }
+case 16:
+            var3 = _closure1_slot2;
+            var6 = _closure1_slot3;
+            var2 = 3;
+            var2 = var6[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.withProfiler;
+            var2 = {'includeRender': true, 'includeUpdates': true};
+            var1 = var3.bind(var4)(var5, var2);
 case 27:
-            var8 = _closure1_slot2;
-            var2 = _closure1_slot3;
-            var5 = 3;
-            var6 = var2[var5];
-            var7 = var8.bind(var3)(var6);
-            var6 = var7.getCurrentHub;
-            var7 = var6.bind(var7)();
-            var6 = var7.getIntegration;
-            var2 = var2[var5];
-            var2 = var8.bind(var3)(var2);
-            var2 = var2.ReactNativeTracing;
-            var6 = var6.bind(var7)(var2);
-            var2 = null;
-            if(!(var2 != var6)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
-            var2 = true;
-            var6['useAppStartWithProfiler'] = var2;
-case 29:
-            var2 = _closure1_slot2;
-            var1 = _closure1_slot3;
-            var1 = var1[var5];
-            var3 = var2.bind(var3)(var1);
-            var2 = var3.withProfiler;
-            var1 = {'includeRender': true, 'includeUpdates': true};
-            var1 = var2.bind(var3)(var4, var1);
             return var1;
         }
     };

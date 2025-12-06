@@ -314,8 +314,8 @@ case 34:
                     return var2;
 case 35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(!var5) { _fun0003_ip = 12; continue _fun0003 }
-case 36:
+                    if(!var5) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
                     return var2;
 case 32:
                     var5 = _closure1_slot1;
@@ -331,12 +331,12 @@ case 32:
                     var2['name'] = var11;
                     var2 = var6.bind(var7)(var5, var8, var2);
                     SaveGenerator(address=197);
-case 37:
-                    return var2;
 case 38:
+                    return var2;
+case 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+                    if(var5) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 5;
@@ -348,24 +348,24 @@ case 40:
                     var5 = {};
                     var13 = var9 != var11;
                     var12 = 1;
-                    if(!var13) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+                    if(!var13) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
                     var14 = var11.split;
                     var13 = ' ';
                     var13 = var14.bind(var11)(var13);
                     var12 = var13.length;
-case 41:
+case 42:
                     var5['num_words'] = var12;
                     var13 = var9 != var11;
                     var12 = 0;
-                    if(!var13) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+                    if(!var13) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                     var12 = var11.length;
-case 43:
+case 44:
                     var5['num_chars'] = var12;
                     var5 = var7.bind(var8)(var6, var5);
-                    _fun0003_ip = 12; continue _fun0003;
-case 39:
+                    _fun0003_ip = 36; continue _fun0003;
+case 40:
                     return var2;
 case 30:
                     var5 = _closure1_slot1;
@@ -384,15 +384,15 @@ case 30:
                     var17 = var11;
                     var15 = var6;
                     var2 = var20[var8](var19, var18, var17, var16, var15, var14);
-                    SaveGenerator(address=376);
-case 45:
-                    return var2;
+                    SaveGenerator(address=378);
 case 46:
+                    return var2;
+case 47:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
-                    if(!(var3 !== var11)) { _fun0003_ip = 12; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 48; continue _fun0003 }
 case 49:
+                    if(!(var3 !== var11)) { _fun0003_ip = 36; continue _fun0003 }
+case 50:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 5;
@@ -404,23 +404,23 @@ case 49:
                     var5 = {};
                     var13 = var9 != var11;
                     var12 = 1;
-                    if(!var13) { _fun0003_ip = 50; continue _fun0003 }
-case 51:
+                    if(!var13) { _fun0003_ip = 51; continue _fun0003 }
+case 52:
                     var14 = var11.split;
                     var13 = ' ';
                     var13 = var14.bind(var11)(var13);
                     var12 = var13.length;
-case 50:
+case 51:
                     var5['num_words'] = var12;
                     var12 = var9 != var11;
                     var9 = 0;
-                    if(!var12) { _fun0003_ip = 52; continue _fun0003 }
-case 53:
+                    if(!var12) { _fun0003_ip = 53; continue _fun0003 }
+case 54:
                     var9 = var11.length;
-case 52:
+case 53:
                     var5['num_chars'] = var9;
                     var5 = var7.bind(var8)(var6, var5);
-case 12:
+case 36:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var5 = 3;
@@ -454,7 +454,7 @@ case 12:
                     var4['am_discoverable_email'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     return var3;
-case 47:
+case 48:
                     return var2;
 case 27:
                     return var1;

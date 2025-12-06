@@ -49,7 +49,7 @@ case 2:
             var2 = var9[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var2 = {'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var6 = 12;
             var6 = var9[var6];
             var7 = var7.bind(var5)(var6);
@@ -133,7 +133,7 @@ case 4:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_SECONDARY;
+    var12 = var12.TEXT_SUBTLE;
     var10['color'] = var12;
     var4['activityStatusText'] = var10;
     var10 = {};

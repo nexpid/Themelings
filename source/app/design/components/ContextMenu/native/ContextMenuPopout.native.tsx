@@ -333,7 +333,7 @@ case 14:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.DIVIDER_SUBTLE;
+    var14 = var14.BORDER_SUBTLE;
     var13['borderBottomColor'] = var14;
     var7['divider'] = var13;
     var7 = var8.bind(var9)(var7);

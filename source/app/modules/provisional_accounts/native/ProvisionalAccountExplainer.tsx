@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_MOD_FAINT;
+        var7 = var7.BACKGROUND_MOD_FAINT;
         var2['backgroundColor'] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var10[var6];
         var12 = var7.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+        var12 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
         var15 = 9;
         var16 = var10[var15];
         var16 = var7.bind(var4)(var16);
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var10[var13];
         var13 = var7.bind(var4)(var13);
         var14 = var13.CircleErrorIcon;
-        var13 = {'size': 'xs', 'color': 'header-secondary'};
+        var13 = {'size': 'xs', 'color': 'text-default'};
         var13 = var15.bind(var4)(var14, var13);
         var12[1] = var13;
         var5['children'] = var12;
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'text-sm/normal', 'color': 'text-normal'};
+        var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9[var7];
         var7 = var6.bind(var4)(var7);
         var10 = var7.CircleErrorIcon;
-        var7 = {'size': 'xs', 'color': 'header-secondary'};
+        var7 = {'size': 'xs', 'color': 'text-default'};
         var7 = var11.bind(var4)(var10, var7);
         var1['titleIcon'] = var7;
         var7 = _closure1_slot5;
@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-md/normal', 'color': 'text-normal'};
+        var5 = {'variant': 'text-md/normal', 'color': 'text-default'};
         var5['children'] = var8;
         var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;

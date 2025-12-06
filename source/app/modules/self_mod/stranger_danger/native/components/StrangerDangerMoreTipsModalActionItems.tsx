@@ -364,7 +364,7 @@ case 16:
                 var4 = var5.bind(var7)(var4);
                 var5 = var4.DenyIcon;
                 var4 = {};
-                var8 = 'text-danger';
+                var8 = 'text-feedback-critical';
                 var4['color'] = var8;
                 var4 = var6.bind(var7)(var5, var4);
                 var2['icon'] = var4;

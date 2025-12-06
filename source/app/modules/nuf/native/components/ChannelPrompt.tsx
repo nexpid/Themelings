@@ -443,7 +443,7 @@ case 22:
             var10 = var24[var10];
             var10 = var27.bind(var5)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var25 = var15.subTitle;
             var10['style'] = var25;
             var25 = var24[var20];

@@ -500,7 +500,7 @@ case 21:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -520,13 +520,46 @@ case 0:
             var3 = var2.bind(var4)(var1);
             var1 = var3.useShouldAgeVerifyForAgeGate;
             var6 = var1.bind(var3)();
-            var3 = _closure1_slot9;
+            var10 = _closure1_slot3;
+            var1 = var10.useRef;
+            var1 = var1.bind(var10)(var6);
+            var _closure2_slot1 = var1;
             var1 = 22;
+            var1 = var8[var1];
+            var9 = var2.bind(var4)(var1);
+            var3 = var9.useWatchAgeVerificationStatusChange;
+            var13 = var10.useCallback;
+            var12 = new Array(1);
+            var12[0] = var11;
+            var1 = function() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var2 = _closure2_slot1;
+                    var2 = var2.current;
+                    if(!var2) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 10;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.closeAgeGateModal;
+                    var1 = _closure2_slot0;
+                    var1 = var2.bind(var3)(var1);
+case 22:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var13.bind(var10)(var1, var12);
+            var1 = var3.bind(var9)(var1);
+            var3 = _closure1_slot9;
+            var1 = 23;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Navigator;
             var1 = {};
-            var10 = _closure1_slot3;
             var9 = var10.useMemo;
             var8 = new Array(1);
             var8[0] = var11;
@@ -540,13 +573,13 @@ case 0:
             var7 = var9.bind(var10)(var7, var8);
             var1['screens'] = var7;
             var7 = _closure1_slot7;
-            if(var6) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+            if(var6) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var6 = var7.AgeGate;
-            _fun0006_ip = 24; continue _fun0006;
-case 22:
-            var6 = var7.Pawtect;
+            _fun0006_ip = 26; continue _fun0006;
 case 24:
+            var6 = var7.Pawtect;
+case 26:
             var1['initialRouteName'] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

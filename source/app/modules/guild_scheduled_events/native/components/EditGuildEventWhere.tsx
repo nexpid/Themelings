@@ -281,7 +281,7 @@ case 11:
             var9 = var18[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-danger'};
+            var9 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-feedback-critical'};
             var18 = var12.error;
             var9['style'] = var18;
             var9['children'] = var21;
@@ -552,7 +552,7 @@ case 29:
             var7 = var10[var7];
             var7 = var11.bind(var4)(var7);
             var8 = var7.TextWithIOSLinkWorkaround;
-            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var12 = var12.text;
             var7['style'] = var12;
             var12 = var10[var15];

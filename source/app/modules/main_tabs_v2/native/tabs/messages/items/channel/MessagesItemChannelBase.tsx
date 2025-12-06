@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_MOD_FAINT;
+    var12 = var12.BACKGROUND_MOD_FAINT;
     var11['backgroundColor'] = var12;
     var5['rowSelected'] = var11;
     var5 = var9.bind(var10)(var5);

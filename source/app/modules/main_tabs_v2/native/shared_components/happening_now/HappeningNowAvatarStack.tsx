@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_MOD_SUBTLE;
+        var7 = var7.BACKGROUND_MOD_SUBTLE;
         var2['backgroundColor'] = var7;
         var7 = 4;
         var1['stageAvatarStack'] = var2;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var6[var3];
         var11 = var5.bind(var4)(var11);
         var11 = var11.colors;
-        var11 = var11.BG_MOD_STRONG;
+        var11 = var11.BACKGROUND_MOD_STRONG;
         var2['backgroundColor'] = var11;
         var11 = -var8;
         var2['marginLeft'] = var11;
@@ -596,7 +596,7 @@ case 35:
             var24 = var30[var24];
             var24 = var28.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'color': 'text-normal', 'variant': 'text-xxs/semibold', 'allowFontScaling': false};
+            var24 = {'color': 'text-default', 'variant': 'text-xxs/semibold', 'allowFontScaling': false};
             var27 = 15;
             var27 = var30[var27];
             var28 = var28.bind(var4)(var27);
@@ -675,7 +675,7 @@ case 32:
             var7 = var14[var7];
             var7 = var11.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'color': 'text-normal', 'variant': 'text-xs/semibold'};
+            var7 = {'color': 'text-default', 'variant': 'text-xs/semibold'};
             var10 = 15;
             var10 = var14[var10];
             var11 = var11.bind(var4)(var10);

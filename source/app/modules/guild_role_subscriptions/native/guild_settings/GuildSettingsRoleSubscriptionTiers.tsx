@@ -938,7 +938,7 @@ case 52:
             var10 = var20[var13];
             var10 = var19.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var21 = var17.tierManagementDescription;
             var10['style'] = var21;
             var21 = var20[var16];
@@ -1099,7 +1099,7 @@ case 52:
     var10 = var6[var12];
     var10 = var16.bind(var1)(var10);
     var10 = var10.colors;
-    var18 = var10.HEADER_SECONDARY;
+    var18 = var10.TEXT_SUBTLE;
     var10 = 14;
     var22 = var20.bind(var1)(var19, var18, var10);
     var23 = var4;
@@ -1113,7 +1113,7 @@ case 52:
     var10 = var6[var12];
     var10 = var16.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var4['backgroundColor'] = var10;
     var10 = var6[var12];
     var10 = var16.bind(var1)(var10);
@@ -1127,7 +1127,7 @@ case 52:
     var4 = var6[var12];
     var4 = var16.bind(var1)(var4);
     var4 = var4.colors;
-    var4 = var4.BG_SURFACE_RAISED;
+    var4 = var4.BACKGROUND_SURFACE_HIGH;
     var10['backgroundColor'] = var4;
     var11 = 12;
     var4 = 40;

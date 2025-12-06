@@ -71,7 +71,7 @@ case 7:
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            var4 = var4.TEXT_NORMAL;
+            var4 = var4.TEXT_DEFAULT;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
             var5 = _closure1_slot1;
@@ -80,7 +80,7 @@ case 6:
             var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
             var3 = var3.colors;
-            var4 = var3.TEXT_DANGER;
+            var4 = var3.TEXT_FEEDBACK_CRITICAL;
 case 8:
             var3 = 'color';
             var2[var3] = var4;

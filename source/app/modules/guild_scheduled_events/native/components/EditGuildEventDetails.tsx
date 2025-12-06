@@ -288,7 +288,7 @@ case 6:
             var7 = var21[var7];
             var7 = var13.bind(var4)(var7);
             var13 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-danger'};
+            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-feedback-critical'};
             var17 = var17.error;
             var7['style'] = var17;
             var7['children'] = var27;

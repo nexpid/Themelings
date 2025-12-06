@@ -1541,13 +1541,13 @@ case 0:
             var1 = var1.storefront;
             var3 = var1.application;
             var1 = null;
-            if(!(var1 != var3)) { _fun0033_ip = 104; continue _fun0033 }
-case 105:
+            if(!(var1 != var3)) { _fun0033_ip = 79; continue _fun0033 }
+case 33:
             var2 = _closure1_slot17;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             return var1;
-case 104:
+case 79:
             var1 = false;
             return var1;
         }

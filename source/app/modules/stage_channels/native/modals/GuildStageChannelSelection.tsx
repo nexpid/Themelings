@@ -216,7 +216,7 @@ case 6:
             var2 = var8[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.Text;
-            var5 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var5 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var7 = var7.channelText;
             var5['style'] = var7;
             var7 = _closure1_slot0;

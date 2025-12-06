@@ -301,7 +301,7 @@ case 9:
             var6 = var16[var6];
             var6 = var15.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+            var6 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var10 = 16;
             var11 = var16[var10];
             var11 = var15.bind(var5)(var11);
@@ -349,7 +349,7 @@ case 9:
             var7 = var16[var7];
             var7 = var15.bind(var5)(var7);
             var8 = var7.TextWithIOSLinkWorkaround;
-            var7 = {'variant': 'text-xs/normal', 'color': 'header-secondary'};
+            var7 = {'variant': 'text-xs/normal', 'color': 'text-default'};
             var11 = var16[var10];
             var11 = var15.bind(var5)(var11);
             var13 = var11.intl;
@@ -508,7 +508,7 @@ case 8:
         var10 = var19[var10];
         var10 = var18.bind(var4)(var10);
         var11 = var10.TextWithIOSLinkWorkaround;
-        var10 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+        var10 = {'variant': 'text-sm/normal', 'color': 'text-default'};
         var14 = var19[var13];
         var14 = var18.bind(var4)(var14);
         var16 = var14.intl;

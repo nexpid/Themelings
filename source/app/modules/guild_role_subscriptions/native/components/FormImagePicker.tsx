@@ -473,7 +473,7 @@ case 41:
             var14 = var20[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var18 = var18.imageDescription;
             var14['style'] = var18;
             var14['children'] = var17;

@@ -573,7 +573,7 @@ case 30:
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var10['tintColor'] = var15;
     var5['icon'] = var10;
     var10 = {};
@@ -604,7 +604,7 @@ case 30:
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var10['color'] = var15;
     var15 = 14;
     var10['fontSize'] = var15;
@@ -615,7 +615,7 @@ case 30:
     var16 = var7[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.TEXT_NORMAL;
+    var16 = var16.TEXT_DEFAULT;
     var10['color'] = var16;
     var10['fontSize'] = var15;
     var16 = var14.PRIMARY_MEDIUM;

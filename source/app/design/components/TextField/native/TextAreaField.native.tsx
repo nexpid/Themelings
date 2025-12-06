@@ -23,7 +23,7 @@ case 3:
 case 4:
             var2 = 0;
             var4 = var5 <= var2;
-            var2 = 'text-danger';
+            var2 = 'text-feedback-critical';
             if(var4) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var4 = 9;
@@ -31,7 +31,7 @@ case 6:
             var4 = var5 < var4;
             if(!var4) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var3 = 'text-warning';
+            var3 = 'text-feedback-warning';
 case 7:
             var2 = var3;
 case 5:

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.DIVIDER_STRONG;
+    var10 = var10.BORDER_STRONG;
     var9['backgroundColor'] = var10;
     var4['divider'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -108,7 +108,7 @@ case 5:
             var6 = var11[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.TextWithIOSLinkWorkaround;
-            var6 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
+            var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var12 = _closure1_slot5;
             var11 = {};
             if(!(var13 == var18)) { _fun0001_ip = 6; continue _fun0001 }

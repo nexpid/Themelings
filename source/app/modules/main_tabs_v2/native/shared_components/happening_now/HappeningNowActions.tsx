@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACCENT;
+    var13 = var13.BORDER_SUBTLE;
     var10['borderColor'] = var13;
     var4['actionCard'] = var10;
     var10 = {'backgroundColor': null, 'height': 44, 'width': '100%', 'alignItems': 'center', 'justifyContent': 'center', 'marginBottom': 4};

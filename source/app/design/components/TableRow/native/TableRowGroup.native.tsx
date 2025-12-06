@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
+        var1 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'text-default'};
         var6 = var6.title;
         var1['style'] = var6;
         var1['children'] = var5;
@@ -238,7 +238,7 @@ case 19:
             var11 = var21[var11];
             var11 = var15.bind(var4)(var11);
             var15 = var11.Text;
-            var11 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+            var11 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var21 = var17.description;
             var11['style'] = var21;
             var11['children'] = var20;

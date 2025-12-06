@@ -211,7 +211,7 @@ case 2:
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_SECONDARY;
+    var14 = var14.TEXT_SUBTLE;
     var10['color'] = var14;
     var5['headerSubtitle'] = var10;
     var10 = {};
@@ -738,7 +738,7 @@ case 23:
             var12 = var17[var12];
             var12 = var21.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var12 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var19 = var17[var18];
             var19 = var21.bind(var4)(var19);
             var20 = var19.intl;

@@ -664,7 +664,7 @@ case 45:
             var15 = var15[var19];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var15 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var22 = var18.detailsText;
             var15['style'] = var22;
             var15['children'] = var21;
@@ -688,7 +688,7 @@ case 47:
             var14 = var14[var19];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
+            var14 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
             var18 = var18.detailsText;
             var14['style'] = var18;
             var14['children'] = var17;
@@ -845,7 +845,7 @@ case 46:
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.TEXT_NORMAL;
+    var11 = var11.TEXT_DEFAULT;
     var23 = 12;
     var25 = var16.bind(var1)(var15, var11, var23);
     var26 = var9;
@@ -878,7 +878,7 @@ case 46:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.TEXT_NORMAL;
+    var15 = var15.TEXT_DEFAULT;
     var20 = 14;
     var25 = var21.bind(var1)(var19, var15, var20);
     var26 = var9;
@@ -965,7 +965,7 @@ case 46:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var9['backgroundColor'] = var12;
     var4['divider'] = var9;
     var9 = {};

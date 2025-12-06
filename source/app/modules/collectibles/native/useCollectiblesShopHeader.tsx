@@ -365,7 +365,7 @@ case 8:
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-primary', 'accessibilityRole': 'header'};
+            var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-strong', 'accessibilityRole': 'header'};
             var10 = {};
             var11 = 2;
             var10['paddingTop'] = var11;

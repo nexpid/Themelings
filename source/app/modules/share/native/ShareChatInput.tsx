@@ -95,7 +95,7 @@ case 2:
         var15 = var6[var13];
         var15 = var14.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.TEXT_PRIMARY;
+        var15 = var15.TEXT_STRONG;
         var9['color'] = var15;
         var4['chatText'] = var9;
         var9 = {};

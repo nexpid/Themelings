@@ -352,6 +352,8 @@ case 21:
                 var2['POST_CONNECTION_OPEN'] = var3;
                 var3 = var1.handleRunningGamesChange;
                 var2['RUNNING_GAMES_CHANGE'] = var3;
+                var3 = var1.handleRunningGamesChange;
+                var2['RUNNING_NON_GAMES_CHANGE'] = var3;
                 var3 = var1.handleUserSettingsProtoUpdate;
                 var2['USER_SETTINGS_PROTO_UPDATE'] = var3;
                 var3 = var1.handleLogout;

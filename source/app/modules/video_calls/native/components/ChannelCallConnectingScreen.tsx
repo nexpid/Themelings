@@ -550,7 +550,7 @@ case 43:
     var10 = var6[var13];
     var10 = var14.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_FLOATING;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {'flex': 1, 'alignSelf': 'stretch', 'alignItems': 'center', 'justifyContent': 'center', 'marginHorizontal': 16};
@@ -573,7 +573,7 @@ case 43:
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_SECONDARY;
+    var13 = var13.TEXT_SUBTLE;
     var9['color'] = var13;
     var12 = var12.DISPLAY_MEDIUM;
     var9['fontFamily'] = var12;

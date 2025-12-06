@@ -645,7 +645,7 @@ case 30:
                             var12 = var12[var18];
                             var12 = var13.bind(var6)(var12);
                             var13 = var12.Text;
-                            var12 = {'variant': 'heading-sm/semibold', 'color': 'text-primary'};
+                            var12 = {'variant': 'heading-sm/semibold', 'color': 'text-strong'};
                             var15 = var15.label;
                             var12['style'] = var15;
                             var14 = var14.name;
@@ -685,7 +685,7 @@ case 32:
                             var18 = var24[var18];
                             var18 = var19.bind(var6)(var18);
                             var19 = var18.Text;
-                            var18 = {'variant': 'text-sm/medium', 'color': 'text-secondary'};
+                            var18 = {'variant': 'text-sm/medium', 'color': 'text-subtle'};
                             var21 = 31;
                             var21 = var24[var21];
                             var22 = var22.bind(var6)(var21);

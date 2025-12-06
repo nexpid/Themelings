@@ -246,7 +246,7 @@ case 31:
             var9 = var15[var9];
             var9 = var16.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'color': 'text-positive', 'variant': 'text-xs/semibold', 'lineClamp': 1};
+            var9 = {'style': null, 'color': 'text-feedback-positive', 'variant': 'text-xs/semibold', 'lineClamp': 1};
             var19 = var6.discountPercentage;
             var14 = new Array(2);
             var14[0] = var19;

@@ -204,7 +204,7 @@ case 7:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-md/normal', 'color': 'header-secondary'};
+            var2 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var6 = var6.name;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
@@ -353,7 +353,7 @@ case 22:
     var16 = var6[var14];
     var16 = var8.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_MOD_FAINT;
+    var16 = var16.BACKGROUND_MOD_FAINT;
     var12['backgroundColor'] = var16;
     var7['changesContainer'] = var12;
     var12 = {'flexDirection': 'row', 'flex': 1, 'alignItems': 'flex-start'};
@@ -613,7 +613,7 @@ case 42:
                         var3 = var7[var3];
                         var3 = var4.bind(var6)(var3);
                         var4 = var3.Text;
-                        var3 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                        var3 = {'variant': 'text-md/medium', 'color': 'text-default'};
                         var3['children'] = var2;
                         var2 = _closure3_slot4;
                         var7 = var2.integration_type;
@@ -630,7 +630,7 @@ case 36:
                         var4 = undefined;
                         var2 = var3.bind(var4)(var2);
                         var3 = var2.Text;
-                        var2 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                        var2 = {'variant': 'text-md/medium', 'color': 'text-default'};
                         var7 = _closure1_slot1;
                         var6 = 23;
                         var6 = var9[var6];
@@ -721,7 +721,7 @@ case 33:
                         var5 = undefined;
                         var1 = var3.bind(var5)(var1);
                         var4 = var1.Text;
-                        var3 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                        var3 = {'variant': 'text-md/medium', 'color': 'text-default'};
                         var1 = arg1;
                         var3['children'] = var1;
                         var1 = arg2;
@@ -735,7 +735,7 @@ case 49:
                         var3 = var5[var3];
                         var3 = var4.bind(var7)(var3);
                         var5 = var3.Text;
-                        var4 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                        var4 = {'variant': 'text-md/medium', 'color': 'text-default'};
                         var3 = _closure3_slot3;
                         var8 = var3.name;
                         var4['children'] = var8;
@@ -754,7 +754,7 @@ case 47:
                         var5 = undefined;
                         var3 = var4.bind(var5)(var3);
                         var4 = var3.Text;
-                        var3 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                        var3 = {'variant': 'text-md/medium', 'color': 'text-default'};
                         var8 = _closure1_slot1;
                         var7 = 23;
                         var7 = var10[var7];
@@ -844,7 +844,7 @@ case 59:
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
-                    var2 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
+                    var2 = {'variant': 'text-md/medium', 'color': 'text-default'};
                     var1 = arg1;
                     var2['children'] = var1;
                     var1 = arg2;

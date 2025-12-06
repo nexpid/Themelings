@@ -180,7 +180,7 @@ case 2:
     var10 = var6[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_SURFACE_RAISED;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {};
@@ -194,7 +194,7 @@ case 2:
     var10 = var6[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.TEXT_NORMAL;
+    var10 = var10.TEXT_DEFAULT;
     var9['color'] = var10;
     var10 = 24;
     var4['descriptionPlanTextStyle'] = var9;
@@ -318,7 +318,7 @@ case 2:
         var12 = var22[var15];
         var12 = var17.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'variant': 'text-sm/bold', 'color': 'text-normal'};
+        var12 = {'variant': 'text-sm/bold', 'color': 'text-default'};
         var23 = {};
         var29 = 'uppercase';
         var23['textTransform'] = var29;
@@ -375,7 +375,7 @@ case 2:
         var15 = var22[var15];
         var15 = var17.bind(var4)(var15);
         var20 = var15.Text;
-        var15 = {'variant': 'text-xs/bold', 'color': 'header-secondary'};
+        var15 = {'variant': 'text-xs/bold', 'color': 'text-default'};
         var28 = {};
         var28['textTransform'] = var29;
         var15['style'] = var28;

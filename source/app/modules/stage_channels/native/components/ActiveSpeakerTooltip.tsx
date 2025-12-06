@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_SECONDARY;
+    var11 = var11.TEXT_SUBTLE;
     var10['color'] = var11;
     var4['participantNameplateSpeakingText'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -218,7 +218,7 @@ case 4:
             var11 = var18[var11];
             var11 = var14.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            var11 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-default'};
             var13 = var13.participantNameplateSpeakingText;
             var11['style'] = var13;
             var13 = 14;

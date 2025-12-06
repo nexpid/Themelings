@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var17[var10];
         var10 = var14.bind(var4)(var10);
         var11 = var10.Text;
-        var10 = {'variant': 'text-md/normal', 'color': 'text-normal'};
+        var10 = {'variant': 'text-md/normal', 'color': 'text-default'};
         var13 = var13.chatMessageText;
         var10['style'] = var13;
         var13 = 14;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_SUBTLE;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var9['borderColor'] = var13;
     var4['chatPreviewWrapper'] = var9;
     var9 = {'marginTop': 4294967290, 'width': 260};
@@ -307,6 +307,7 @@ case 2:
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var5['user'] = var19;
+            var5['displayName'] = var12;
             var5['guildId'] = var14;
             var5['pendingDisplayNameStyles'] = var13;
             var8 = true;

@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_MOD_SUBTLE;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var10['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
@@ -122,7 +122,7 @@ case 0:
             var6 = var10[var6];
             var6 = var15.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var6 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var12 = var12.subtext;
             var6['style'] = var12;
             var12 = var10[var14];

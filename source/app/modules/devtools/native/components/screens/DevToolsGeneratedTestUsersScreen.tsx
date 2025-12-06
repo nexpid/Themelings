@@ -311,7 +311,7 @@ case 18:
                 var9 = var12[var9];
                 var9 = var10.bind(var4)(var9);
                 var10 = var9.CheckmarkLargeIcon;
-                var9 = {'size': 'md', 'color': 'text-positive'};
+                var9 = {'size': 'md', 'color': 'text-feedback-positive'};
                 var8 = var11.bind(var4)(var10, var9);
 case 17:
                 var2['trailing'] = var8;
@@ -566,7 +566,7 @@ case 17:
     var7 = var7.SettingsIcon;
     var4[18] = var7;
     var _closure1_slot12 = var4;
-    var4 = ['text-normal', 'text-positive', 'text-warning', 'text-danger', 'text-link', 'text-brand'];
+    var4 = ['text-default', 'text-feedback-positive', 'text-feedback-warning', 'text-feedback-critical', 'text-link', 'text-brand'];
     var _closure1_slot13 = var4;
     var4 = 26;
     var4 = var6[var4];

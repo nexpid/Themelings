@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var17 = var15.HEADER_SECONDARY;
+    var17 = var15.TEXT_SUBTLE;
     var15 = 14;
     var21 = var19.bind(var1)(var18, var17, var15);
     var22 = var9;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_SURFACE_RAISED;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var15;
     var4['formRow'] = var9;
     var9 = {};
@@ -308,7 +308,7 @@ case 2:
             var10 = var13[var10];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'header-secondary'};
+            var10 = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'text-default'};
             var15 = var18.info;
             var10['style'] = var15;
             var15 = var13[var17];

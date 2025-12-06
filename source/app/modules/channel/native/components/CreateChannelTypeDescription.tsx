@@ -116,7 +116,7 @@ case 9:
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
+            var6 = {'variant': 'text-sm/normal', 'color': 'text-subtle'};
             var8 = 8;
             var9 = var12[var8];
             var9 = var11.bind(var5)(var9);

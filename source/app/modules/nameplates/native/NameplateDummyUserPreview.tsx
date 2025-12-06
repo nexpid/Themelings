@@ -173,6 +173,11 @@ case 17:
 case 16:
             var13 = var1.nameplate;
             var7 = var1.style;
+            var17 = var1.animate;
+            if(!(var17 === var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var17 = false;
+case 18:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var10 = 6;
@@ -221,8 +226,9 @@ case 16:
             var5['nameplate'] = var13;
             var13 = true;
             var5['fullOpacity'] = var13;
-            var17 = var9.nameplate;
-            var5['style'] = var17;
+            var18 = var9.nameplate;
+            var5['style'] = var18;
+            var5['animate'] = var17;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
@@ -233,15 +239,15 @@ case 16:
             var12 = var16.bind(var4)(var10);
             var10 = {};
             var18 = _closure1_slot2;
-            if(var15) { _fun0002_ip = 18; continue _fun0002 }
-case 13:
+            if(var15) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var15 = 11;
             var15 = var18[var15];
-            _fun0002_ip = 19; continue _fun0002;
-case 18:
+            _fun0002_ip = 22; continue _fun0002;
+case 20:
             var17 = 10;
             var15 = var18[var17];
-case 19:
+case 22:
             var15 = var16.bind(var4)(var15);
             var10['source'] = var15;
             var10['size'] = var14;

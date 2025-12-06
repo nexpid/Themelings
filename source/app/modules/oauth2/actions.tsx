@@ -165,7 +165,7 @@ case 26:
                     var6 = false;
                     var3['rejectWithError'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=363);
+                    SaveGenerator(address=365);
 case 28:
                     return var3;
 case 29:
@@ -254,7 +254,7 @@ case 6:
                     var3['query'] = var7;
                     var3['signal'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=231);
+                    SaveGenerator(address=233);
 case 35:
                     return var3;
 case 36:
@@ -329,7 +329,7 @@ case 15:
                     var6 = false;
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=145);
+                    SaveGenerator(address=147);
 case 39:
                     return var2;
 case 40:

@@ -129,7 +129,7 @@ case 8:
                         var8 = var7[var5];
                         var8 = var6.bind(var3)(var8);
                         var8 = var8.colors;
-                        var8 = var8.STATUS_DANGER_BACKGROUND;
+                        var8 = var8.BACKGROUND_FEEDBACK_CRITICAL;
                         var1['color'] = var8;
                         var5 = var7[var5];
                         var5 = var6.bind(var3)(var5);

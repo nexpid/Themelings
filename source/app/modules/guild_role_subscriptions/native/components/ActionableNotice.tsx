@@ -83,7 +83,7 @@ case 2:
             var5 = var15[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var14 = var16.message;
             var5['style'] = var14;
             var5['children'] = var13;

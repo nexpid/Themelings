@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var9['borderColor'] = var13;
     var4['toggleTruncateButton'] = var9;
     var9 = {};
@@ -149,7 +149,7 @@ case 5:
             var8 = var15[var8];
             var8 = var14.bind(var4)(var8);
             var14 = var8.Text;
-            var8 = {'variant': 'text-sm/medium', 'color': 'text-normal'};
+            var8 = {'variant': 'text-sm/medium', 'color': 'text-default'};
             var16 = _closure1_slot0;
             var19 = _closure1_slot3;
             var15 = 8;

@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_SECONDARY;
+    var15 = var15.TEXT_SUBTLE;
     var10['color'] = var15;
     var4['subtitle'] = var10;
     var10 = {'paddingTop': 28, 'paddingBottom': 8};
@@ -490,7 +490,7 @@ case 19:
                     var1 = undefined;
                     var18 = var23.bind(var1)(var18);
                     var19 = var18.Text;
-                    var18 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'header-secondary'};
+                    var18 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'text-default'};
                     var20 = _closure2_slot0;
                     var20 = var20.title;
                     var18['style'] = var20;
@@ -585,7 +585,7 @@ case 21:
                     var6 = undefined;
                     var16 = var21.bind(var6)(var16);
                     var17 = var16.Text;
-                    var16 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'header-secondary'};
+                    var16 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'text-default'};
                     var18 = _closure2_slot0;
                     var18 = var18.title;
                     var16['style'] = var18;
@@ -699,7 +699,7 @@ case 17:
                     var9 = var16[var9];
                     var9 = var15.bind(var2)(var9);
                     var10 = var9.Text;
-                    var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+                    var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
                     var13 = _closure2_slot0;
                     var13 = var13.emptyGiftInformation;
                     var9['style'] = var13;
@@ -745,7 +745,7 @@ case 24:
             var17 = var24[var17];
             var17 = var30.bind(var5)(var17);
             var18 = var17.Text;
-            var17 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'header-secondary'};
+            var17 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-xs/bold', 'color': 'text-default'};
             var19 = var6.title;
             var17['style'] = var19;
             var28 = 26;
@@ -776,7 +776,7 @@ case 24:
             var21 = var24[var26];
             var21 = var30.bind(var5)(var21);
             var25 = var21.TextWithIOSLinkWorkaround;
-            var21 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var21 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var29 = var6.cardText;
             var21['style'] = var29;
             var29 = var24[var28];
@@ -859,7 +859,7 @@ case 24:
             var26 = var24[var26];
             var26 = var30.bind(var5)(var26);
             var27 = var26.TextWithIOSLinkWorkaround;
-            var26 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            var26 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var35 = var6.cardText;
             var26['style'] = var35;
             var35 = var24[var28];

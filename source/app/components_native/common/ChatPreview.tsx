@@ -151,7 +151,7 @@ case 4:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_FLOATING;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var15;
     var7['jumpToChatButtonContainer'] = var11;
     var11 = {};
@@ -162,7 +162,7 @@ case 4:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACCENT;
+    var12 = var12.BORDER_SUBTLE;
     var11['borderTopColor'] = var12;
     var7['jumpToChatButton'] = var11;
     var11 = {'textAlign': 'center', 'flex': 1, 'lineHeight': 44};
@@ -255,10 +255,9 @@ case 9:
                         var6 = var2.roleStyle;
                         _closure4_slot2 = var6;
                         var7 = var2.jumpTargetId;
-                        var13 = var2.inlineAttachmentMedia;
-                        var14 = var2.inlineEmbedMedia;
-                        var15 = var2.renderEmbeds;
-                        var12 = var2.shouldFilterKeywords;
+                        var12 = var2.inlineAttachmentMedia;
+                        var13 = var2.inlineEmbedMedia;
+                        var14 = var2.renderEmbeds;
                         var6 = null;
                         if(!(var6 != var10)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
@@ -266,13 +265,12 @@ case 12:
                         var11 = var2.rowGenerator;
                         var9 = var11.setOptions;
                         var8 = {};
-                        var8['renderEmbeds'] = var15;
-                        var8['inlineEmbedMedia'] = var14;
-                        var8['inlineAttachmentMedia'] = var13;
-                        var13 = var2.props;
-                        var13 = var13.width;
-                        var8['constrainedWidth'] = var13;
-                        var8['shouldFilterKeywords'] = var12;
+                        var8['renderEmbeds'] = var14;
+                        var8['inlineEmbedMedia'] = var13;
+                        var8['inlineAttachmentMedia'] = var12;
+                        var12 = var2.props;
+                        var12 = var12.width;
+                        var8['constrainedWidth'] = var12;
                         var8 = var9.bind(var11)(var8);
                         var8 = var2.chatManager;
                         var2 = var8.setup;
@@ -914,10 +912,10 @@ case 64:
                         var2['message'] = var8;
                         var8 = var6 != var7;
                         var6 = undefined;
-                        if(!var8) { _fun0012_ip = 46; continue _fun0012 }
-case 65:
+                        if(!var8) { _fun0012_ip = 65; continue _fun0012 }
+case 66:
                         var6 = var7;
-case 46:
+case 65:
                         var2['selectedMedia'] = var6;
                         var2['user'] = var5;
                         var2 = var3.bind(var4)(var2);
@@ -944,7 +942,7 @@ case 0:
                         var3 = _closure3_slot0;
                         var3 = var3.props;
                         var3 = var3.hasActionSheetOpen;
-                        if(var3) { _fun0013_ip = 66; continue _fun0013 }
+                        if(var3) { _fun0013_ip = 67; continue _fun0013 }
 case 4:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot3;
@@ -955,12 +953,12 @@ case 4:
                         var2 = null;
                         var8 = var2 != var7;
                         var2 = undefined;
-                        if(!var8) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
+                        if(!var8) { _fun0013_ip = 68; continue _fun0013 }
+case 69:
                         var2 = var7.emoji;
-case 67:
+case 68:
                         var2 = var3.bind(var4)(var6, var5, var2);
-case 66:
+case 67:
                         return var1;
                     }
                 };
@@ -975,15 +973,15 @@ case 0:
                         var1 = var4.id;
                         var7 = var2.bind(var3)(var1);
                         var2 = null;
-                        if(!(var2 != var7)) { _fun0014_ip = 69; continue _fun0014 }
-case 70:
+                        if(!(var2 != var7)) { _fun0014_ip = 70; continue _fun0014 }
+case 71:
                         var6 = _closure1_slot13;
                         var5 = var6.getChannel;
                         var3 = var7.getChannelId;
                         var3 = var3.bind(var7)();
                         var6 = var5.bind(var6)(var3);
-                        if(!(var2 != var6)) { _fun0014_ip = 69; continue _fun0014 }
-case 71:
+                        if(!(var2 != var6)) { _fun0014_ip = 70; continue _fun0014 }
+case 72:
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot3;
                         var1 = 34;
@@ -1000,7 +998,7 @@ case 71:
                         var1['selectedChannelId'] = var5;
                         var1['showContextName'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 69:
+case 70:
                         var1 = undefined;
                         return var1;
                     }
@@ -1026,18 +1024,18 @@ case 0:
                 var3 = var1.messages;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0015_ip = 72; continue _fun0015 }
-case 73:
+                if(!var1) { _fun0015_ip = 73; continue _fun0015 }
+case 74:
                 var3 = var2.props;
                 var4 = var3.canAccessChannel;
                 var3 = false;
                 var1 = var3 !== var4;
-case 72:
-                if(!var1) { _fun0015_ip = 74; continue _fun0015 }
-case 75:
+case 73:
+                if(!var1) { _fun0015_ip = 75; continue _fun0015 }
+case 76:
                 var1 = var2.setup;
                 var1 = var1.bind(var2)();
-case 74:
+case 75:
                 var1 = undefined;
                 return var1;
             }
@@ -1055,8 +1053,8 @@ case 0:
                 var2 = var1.chatRef;
                 var3 = var2.current;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0016_ip = 76; continue _fun0016 }
-case 77:
+                if(!(var2 != var3)) { _fun0016_ip = 77; continue _fun0016 }
+case 78:
                 var2 = var1.chatManager;
                 var1 = var2.clear;
                 var1 = var1.bind(var2)();
@@ -1068,7 +1066,7 @@ case 77:
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.clearMessages;
                 var1 = var1.bind(var2)();
-case 76:
+case 77:
                 var1 = undefined;
                 return var1;
             }
@@ -1087,14 +1085,14 @@ case 0:
                 var2 = var3.props;
                 var2 = var2.messages;
                 var2 = var4 === var2;
-                if(!var2) { _fun0017_ip = 78; continue _fun0017 }
-case 79:
+                if(!var2) { _fun0017_ip = 79; continue _fun0017 }
+case 80:
                 var5 = var1.width;
                 var4 = var3.props;
                 var4 = var4.width;
                 var2 = var5 === var4;
-case 78:
-                if(var2) { _fun0017_ip = 80; continue _fun0017 }
+case 79:
+                if(var2) { _fun0017_ip = 81; continue _fun0017 }
 case 59:
                 var4 = var3.setup;
                 var5 = var1.width;
@@ -1102,20 +1100,20 @@ case 59:
                 var2 = var2.width;
                 var2 = var5 !== var2;
                 var2 = var4.bind(var3)(var2);
-case 80:
+case 81:
                 var2 = var1.canAccessChannel;
                 var1 = var3.props;
                 var1 = var1.canAccessChannel;
                 var1 = var2 !== var1;
-                if(!var1) { _fun0017_ip = 81; continue _fun0017 }
-case 82:
+                if(!var1) { _fun0017_ip = 82; continue _fun0017 }
+case 83:
                 var2 = var3.props;
                 var4 = var2.messages;
                 var2 = null;
                 var1 = var2 != var4;
-case 81:
+case 82:
                 if(!var1) { _fun0017_ip = 64; continue _fun0017 }
-case 66:
+case 84:
                 var2 = var3.setup;
                 var1 = var3.props;
                 var1 = var1.canAccessChannel;
@@ -1144,11 +1142,11 @@ case 0:
                 var3 = var2.canAccessChannel;
                 var9 = var2.channel;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0018_ip = 74; continue _fun0018 }
+                if(!(var2 != var3)) { _fun0018_ip = 75; continue _fun0018 }
 case 57:
                 var2 = false;
-                if(!(var2 !== var3)) { _fun0018_ip = 83; continue _fun0018 }
-case 74:
+                if(!(var2 !== var3)) { _fun0018_ip = 85; continue _fun0018 }
+case 75:
                 var7 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var17 = _closure1_slot3;
@@ -1217,8 +1215,8 @@ case 74:
                 var2['children'] = var8;
                 var6 = var7.bind(var4)(var6, var2);
                 var7 = var3;
-                _fun0018_ip = 84; continue _fun0018;
-case 83:
+                _fun0018_ip = 86; continue _fun0018;
+case 85:
                 var8 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot3;
@@ -1233,7 +1231,7 @@ case 83:
                 var2['channelId'] = var9;
                 var7 = var8.bind(var4)(var3, var2);
                 var6 = undefined;
-case 84:
+case 86:
                 var3 = _closure1_slot22;
                 var2 = _closure1_slot10;
                 var1 = {};
@@ -1262,7 +1260,7 @@ case 84:
     var4 = {};
     var4['withSafeArea'] = var8;
     var7['defaultProps'] = var4;
-    var4 = 47;
+    var4 = 46;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1272,33 +1270,33 @@ case 84:
         var5 = arg1;
         var1 = var5.channelId;
         var _closure2_slot0 = var1;
-        var3 = _closure1_slot0;
-        var6 = _closure1_slot3;
-        var7 = 42;
-        var8 = var6[var7];
+        var6 = _closure1_slot0;
+        var16 = _closure1_slot3;
+        var3 = 42;
+        var7 = var16[var3];
         var4 = undefined;
-        var8 = var3.bind(var4)(var8);
-        var9 = var8.InlineAttachmentMedia;
-        var8 = var9.useSetting;
-        var16 = var8.bind(var9)();
-        var8 = var6[var7];
-        var8 = var3.bind(var4)(var8);
-        var9 = var8.InlineEmbedMedia;
-        var8 = var9.useSetting;
-        var15 = var8.bind(var9)();
-        var7 = var6[var7];
-        var7 = var3.bind(var4)(var7);
-        var8 = var7.RenderEmbeds;
+        var7 = var6.bind(var4)(var7);
+        var8 = var7.InlineAttachmentMedia;
+        var7 = var8.useSetting;
+        var15 = var7.bind(var8)();
+        var7 = var16[var3];
+        var7 = var6.bind(var4)(var7);
+        var8 = var7.InlineEmbedMedia;
         var7 = var8.useSetting;
         var14 = var7.bind(var8)();
-        var7 = 43;
-        var8 = var6[var7];
-        var11 = var3.bind(var4)(var8);
-        var10 = var11.useStateFromStoresObject;
-        var8 = _closure1_slot15;
-        var9 = new Array(1);
-        var9[0] = var8;
-        var8 = function() {
+        var3 = var16[var3];
+        var3 = var6.bind(var4)(var3);
+        var7 = var3.RenderEmbeds;
+        var3 = var7.useSetting;
+        var13 = var3.bind(var7)();
+        var3 = 43;
+        var7 = var16[var3];
+        var10 = var6.bind(var4)(var7);
+        var9 = var10.useStateFromStoresObject;
+        var7 = _closure1_slot15;
+        var8 = new Array(1);
+        var8[0] = var7;
+        var7 = function() {
             var1 = {};
             var2 = _closure1_slot15;
             var3 = var2.messages;
@@ -1307,53 +1305,53 @@ case 84:
             var1['jumpTargetId'] = var2;
             return var1;
         };
-        var8 = var10.bind(var11)(var9, var8);
-        var12 = var8.messages;
-        var11 = var8.jumpTargetId;
-        var8 = var6[var7];
-        var13 = var3.bind(var4)(var8);
-        var10 = var13.useStateFromStores;
-        var8 = _closure1_slot11;
-        var9 = new Array(1);
-        var9[0] = var8;
-        var8 = function() {
+        var7 = var9.bind(var10)(var8, var7);
+        var11 = var7.messages;
+        var10 = var7.jumpTargetId;
+        var7 = var16[var3];
+        var12 = var6.bind(var4)(var7);
+        var9 = var12.useStateFromStores;
+        var7 = _closure1_slot11;
+        var8 = new Array(1);
+        var8[0] = var7;
+        var7 = function() {
             var1 = _closure1_slot11;
             var1 = var1.roleStyle;
             return var1;
         };
-        var13 = var10.bind(var13)(var9, var8);
-        var8 = var6[var7];
-        var17 = var3.bind(var4)(var8);
-        var10 = var17.useStateFromStores;
-        var8 = _closure1_slot13;
-        var9 = new Array(1);
-        var9[0] = var8;
-        var8 = function() {
+        var12 = var9.bind(var12)(var8, var7);
+        var7 = var16[var3];
+        var17 = var6.bind(var4)(var7);
+        var9 = var17.useStateFromStores;
+        var7 = _closure1_slot13;
+        var8 = new Array(1);
+        var8[0] = var7;
+        var7 = function() {
             var3 = _closure1_slot13;
             var2 = var3.getChannel;
             var1 = _closure2_slot0;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10 = var10.bind(var17)(var9, var8);
-        var9 = _closure1_slot1;
-        var8 = 44;
-        var8 = var6[var8];
-        var8 = var9.bind(var4)(var8);
-        var8 = var8.bind(var4)();
-        var9 = var8.width;
-        var8 = 45;
-        var8 = var6[var8];
-        var17 = var3.bind(var4)(var8);
-        var8 = var17.useIsChannelContentGated;
-        var8 = var8.bind(var17)(var10);
-        var8 = !var8;
-        var7 = var6[var7];
-        var18 = var3.bind(var4)(var7);
-        var17 = var18.useStateFromStores;
-        var19 = _closure1_slot12;
-        var7 = new Array(1);
-        var7[0] = var19;
+        var9 = var9.bind(var17)(var8, var7);
+        var8 = _closure1_slot1;
+        var7 = 44;
+        var7 = var16[var7];
+        var7 = var8.bind(var4)(var7);
+        var7 = var7.bind(var4)();
+        var8 = var7.width;
+        var7 = 45;
+        var7 = var16[var7];
+        var17 = var6.bind(var4)(var7);
+        var7 = var17.useIsChannelContentGated;
+        var7 = var7.bind(var17)(var9);
+        var7 = !var7;
+        var3 = var16[var3];
+        var16 = var6.bind(var4)(var3);
+        var6 = var16.useStateFromStores;
+        var17 = _closure1_slot12;
+        var3 = new Array(1);
+        var3[0] = var17;
         var2 = function() {
             var2 = _closure1_slot12;
             var1 = var2.getContent;
@@ -1362,39 +1360,32 @@ case 84:
             var1 = var1 != var2;
             return var1;
         };
-        var7 = var17.bind(var18)(var7, var2);
-        var2 = 46;
-        var2 = var6[var2];
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useShouldFilterKeywords;
-        var6 = var2.bind(var3)();
+        var6 = var6.bind(var16)(var3, var2);
         var3 = _closure1_slot21;
         var2 = _closure1_slot24;
         var1 = {};
-        var21 = var1;
-        var20 = var5;
-        var5 = copyDataProperties(var21, var20);
+        var19 = var1;
+        var18 = var5;
+        var5 = copyDataProperties(var19, var18);
         var5 = 'inlineAttachmentMedia';
-        var1[var5] = var16;
-        var5 = 'inlineEmbedMedia';
         var1[var5] = var15;
-        var5 = 'renderEmbeds';
+        var5 = 'inlineEmbedMedia';
         var1[var5] = var14;
-        var5 = 'roleStyle';
+        var5 = 'renderEmbeds';
         var1[var5] = var13;
-        var5 = 'messages';
+        var5 = 'roleStyle';
         var1[var5] = var12;
-        var5 = 'jumpTargetId';
+        var5 = 'messages';
         var1[var5] = var11;
-        var5 = 'channel';
+        var5 = 'jumpTargetId';
         var1[var5] = var10;
-        var5 = 'width';
+        var5 = 'channel';
         var1[var5] = var9;
-        var5 = 'canAccessChannel';
+        var5 = 'width';
         var1[var5] = var8;
-        var5 = 'hasActionSheetOpen';
+        var5 = 'canAccessChannel';
         var1[var5] = var7;
-        var5 = 'shouldFilterKeywords';
+        var5 = 'hasActionSheetOpen';
         var1[var5] = var6;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

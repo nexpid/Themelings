@@ -162,7 +162,7 @@ case 15:
             var24 = var1;
             if(var18) { _fun0001_ip = 14; continue _fun0001 }
 case 16:
-            var24 = 'text-normal';
+            var24 = 'text-default';
 case 14:
             var13 = _closure1_slot1;
             var33 = _closure1_slot2;

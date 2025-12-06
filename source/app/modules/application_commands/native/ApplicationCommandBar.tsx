@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_NORMAL;
+    var13 = var13.TEXT_DEFAULT;
     var9['color'] = var13;
     var4['applicationCommandOptionText'] = var9;
     var9 = {};
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.TEXT_DANGER;
+    var13 = var13.TEXT_FEEDBACK_CRITICAL;
     var9['color'] = var13;
     var4['errorCommandOptionText'] = var9;
     var9 = {'overflow': 'hidden', 'paddingHorizontal': 16, 'paddingVertical': 8, 'flexDirection': 'row'};
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_FLOATING;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var13;
     var4['descriptionEllipsis'] = var9;
     var9 = {};
@@ -544,7 +544,7 @@ case 48:
             var15['onLayout'] = var19;
             var19 = 'text-sm/medium';
             var15['variant'] = var19;
-            var19 = 'text-danger';
+            var19 = 'text-feedback-critical';
             var15['color'] = var19;
             var18 = var18.lastValidationResult;
             var18 = var18.error;
@@ -837,13 +837,13 @@ case 68:
             var1 = var18 != var1;
             var13 = undefined;
             if(!var1) { _fun0006_ip = 70; continue _fun0006 }
-case 71:
+case 28:
             var3 = var18 == var14;
             var1 = undefined;
-            if(var3) { _fun0006_ip = 30; continue _fun0006 }
+            if(var3) { _fun0006_ip = 71; continue _fun0006 }
 case 72:
             var1 = var14.name;
-case 30:
+case 71:
             var13 = var2[var1];
 case 70:
             var3 = _closure1_slot10;

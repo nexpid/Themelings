@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_MOD_SUBTLE;
+    var10 = var10.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var10;
     var4['number'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -393,7 +393,7 @@ case 4:
         var12 = var20[var12];
         var12 = var16.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'variant': 'heading-md/medium', 'color': 'header-secondary'};
+        var12 = {'variant': 'heading-md/medium', 'color': 'text-default'};
         var21 = var20[var15];
         var21 = var16.bind(var4)(var21);
         var23 = var21.intl;
@@ -562,7 +562,7 @@ case 4:
         var13 = var20[var13];
         var13 = var16.bind(var4)(var13);
         var14 = var13.TextWithIOSLinkWorkaround;
-        var13 = {'variant': 'heading-sm/medium', 'color': 'text-secondary'};
+        var13 = {'variant': 'heading-sm/medium', 'color': 'text-subtle'};
         var17 = var17.learnMore;
         var13['style'] = var17;
         var17 = var20[var15];

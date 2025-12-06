@@ -89,6 +89,8 @@ case 8:
         var4 = 'Social Layer Storefront Product Details Modal';
         var3['SOCIAL_LAYER_STOREFRONT_PRODUCT_DETAILS_MODAL_TYPE'] = var4;
         var3['STOREFRONT_ENABLED_MARKETING_GAME_IDS'] = var2;
+        var2 = 2;
+        var3['GAME_SHOP_ANNOUNCEMENT_MODAL_VERSION'] = var2;
         return var1;
     }
 })();

@@ -245,7 +245,7 @@ case 17:
             var35 = var12[var20];
             var35 = var39.bind(var9)(var35);
             var35 = var35.colors;
-            var35 = var35.HEADER_SECONDARY;
+            var35 = var35.TEXT_SUBTLE;
             var35 = var40.bind(var41)(var38, var35);
             var35 = var36.bind(var37)(var35);
             var1['headerColor'] = var35;
@@ -272,7 +272,7 @@ case 17:
             var20 = var12[var20];
             var20 = var39.bind(var9)(var20);
             var20 = var20.colors;
-            var20 = var20.HEADER_SECONDARY;
+            var20 = var20.TEXT_SUBTLE;
             var20 = var36.bind(var37)(var38, var20);
             var20 = var30.bind(var35)(var20);
             var1['headerIconColor'] = var20;
@@ -398,7 +398,7 @@ case 32:
             var40 = var32[var35];
             var40 = var36.bind(var9)(var40);
             var40 = var40.colors;
-            var40 = var40.TEXT_POSITIVE;
+            var40 = var40.TEXT_FEEDBACK_POSITIVE;
             var40 = var43.bind(var44)(var38, var40);
             var40 = var41.bind(var42)(var40);
             var1['headerColor'] = var40;
@@ -425,7 +425,7 @@ case 32:
             var35 = var32[var35];
             var35 = var36.bind(var9)(var35);
             var35 = var35.colors;
-            var35 = var35.TEXT_POSITIVE;
+            var35 = var35.TEXT_FEEDBACK_POSITIVE;
             var35 = var41.bind(var42)(var38, var35);
             var35 = var39.bind(var40)(var35);
             var1['headerIconColor'] = var35;
@@ -524,7 +524,7 @@ case 39:
             var35 = var12[var20];
             var35 = var39.bind(var9)(var35);
             var35 = var35.colors;
-            var35 = var35.TEXT_DANGER;
+            var35 = var35.TEXT_FEEDBACK_CRITICAL;
             var35 = var40.bind(var41)(var38, var35);
             var35 = var36.bind(var37)(var35);
             var1['headerColor'] = var35;
@@ -551,7 +551,7 @@ case 39:
             var20 = var12[var20];
             var20 = var39.bind(var9)(var20);
             var20 = var20.colors;
-            var20 = var20.TEXT_DANGER;
+            var20 = var20.TEXT_FEEDBACK_CRITICAL;
             var20 = var36.bind(var37)(var38, var20);
             var20 = var30.bind(var35)(var20);
             var1['headerIconColor'] = var20;
@@ -685,7 +685,7 @@ case 50:
             var20 = var40[var8];
             var20 = var39.bind(var9)(var20);
             var20 = var20.colors;
-            var20 = var20.TEXT_DANGER;
+            var20 = var20.TEXT_FEEDBACK_CRITICAL;
             var20 = var41.bind(var42)(var38, var20);
             var20 = var32.bind(var35)(var20);
             var1['headerColor'] = var20;
@@ -723,7 +723,7 @@ case 53:
             var8 = var12[var8];
             var8 = var39.bind(var9)(var8);
             var8 = var8.colors;
-            var8 = var8.TEXT_DANGER;
+            var8 = var8.TEXT_FEEDBACK_CRITICAL;
             var8 = var35.bind(var37)(var38, var8);
             var8 = var30.bind(var32)(var8);
             var1['headerIconColor'] = var8;

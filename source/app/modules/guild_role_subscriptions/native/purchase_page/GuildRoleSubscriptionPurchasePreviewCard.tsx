@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'variant': 'text-xs/bold', 'color': 'text-normal'};
+        var5 = {'variant': 'text-xs/bold', 'color': 'text-default'};
         var10 = var10.contentHeader;
         var5['style'] = var10;
         var5['children'] = var9;
@@ -126,7 +126,7 @@ case 3:
             var11 = var17[var11];
             var11 = var15.bind(var4)(var11);
             var15 = var11.Text;
-            var11 = {'variant': 'text-sm/bold', 'color': 'text-normal'};
+            var11 = {'variant': 'text-sm/bold', 'color': 'text-default'};
             var17 = ['+'];
             var17[1] = var18;
             var11['children'] = var17;
@@ -168,7 +168,7 @@ case 5:
             var7 = undefined;
             var1 = var6.bind(var7)(var1);
             var6 = var1.Text;
-            var1 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var1 = {'variant': 'text-md/semibold', 'color': 'text-default'};
             var1['children'] = var9;
             var5 = var8.bind(var7)(var6, var1);
 case 4:
@@ -296,7 +296,7 @@ case 9:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var9 = {'variant': 'text-md/semibold', 'color': 'text-default'};
             var12 = var12.name;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
@@ -459,7 +459,7 @@ case 8:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_RAISED;
+    var14 = var14.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -650,7 +650,7 @@ case 10:
             var21 = var10[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'heading-md/medium', 'color': 'header-secondary'};
+            var21 = {'variant': 'heading-md/medium', 'color': 'text-default'};
             var21['children'] = var24;
             var21 = var23.bind(var4)(var22, var21);
             var19[2] = var21;

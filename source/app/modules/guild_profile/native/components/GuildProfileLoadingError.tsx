@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var18[var15];
         var14 = var16.bind(var4)(var14);
         var14 = var14.colors;
-        var14 = var14.TEXT_WARNING;
+        var14 = var14.TEXT_FEEDBACK_WARNING;
         var9['color'] = var14;
         var9 = var13.bind(var4)(var11, var9);
         var8['children'] = var9;
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var18[var15];
         var15 = var16.bind(var4)(var15);
         var15 = var15.colors;
-        var15 = var15.TEXT_WARNING;
+        var15 = var15.TEXT_FEEDBACK_WARNING;
         var10['color'] = var15;
         var12 = var13.bind(var4)(var12, var10);
         var10 = new Array(2);
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var18[var11];
         var11 = var17.bind(var4)(var11);
         var12 = var11.Text;
-        var11 = {'variant': 'text-sm/normal', 'color': 'text-warning'};
+        var11 = {'variant': 'text-sm/normal', 'color': 'text-feedback-warning'};
         var15 = var18[var14];
         var15 = var17.bind(var4)(var15);
         var16 = var15.intl;

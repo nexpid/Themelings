@@ -83,7 +83,7 @@ case 11:
                 var14['experimental_useNativeText'] = var18;
                 var18 = _closure1_slot10;
                 var14['variant'] = var18;
-                var18 = 'header-secondary';
+                var18 = 'text-default';
                 if(!var19) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
                 var18 = 'interactive-muted';
@@ -159,7 +159,7 @@ case 0:
                 var1 = var1.colors;
                 if(var2) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                var9 = var1.HEADER_SECONDARY;
+                var9 = var1.TEXT_SUBTLE;
                 _fun0003_ip = 20; continue _fun0003;
 case 18:
                 var9 = var1.INTERACTIVE_MUTED;
