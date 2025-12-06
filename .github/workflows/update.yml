@@ -31,12 +31,12 @@ jobs:
 
             - uses: actions/setup-python@v5
               with:
-                  python-version: "3.12.4"
+                  python-version: "3.14.2"
 
-            - uses: oven-sh/setup-bun@v1
+            - uses: oven-sh/setup-bun@v2
 
             - working-directory: main
-              run: bun install
+              run: bun install --frozen-lockfile
 
             - name: Setup Git
               working-directory: data
@@ -45,7 +45,7 @@ jobs:
                   git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
             - name: Check for version
-              id: versioner
+              id: check
               working-directory: main
               run: |
                   version=$(bun run check ${{ github.event.inputs.force && '--force' || '' }})
@@ -53,7 +53,7 @@ jobs:
                   echo "version=$version" >> $GITHUB_OUTPUT
 
             - name: Update
-              if: ${{ steps.versioner.outputs.version != 'false' }}
+              if: ${{ steps.check.outputs.version != 'false' }}
               env:
                   code_webhook: ${{ secrets.CODE_WEBHOOK }}
                   color_webhook: ${{ secrets.COLOR_WEBHOOK }}
@@ -63,13 +63,13 @@ jobs:
               run: bun run update:prod ${{ github.event.inputs.quiet && '--quiet' || '' }}
               
             - name: Publish changes
-              if: ${{ steps.versioner.outputs.version != 'false' }}
+              if: ${{ steps.check.outputs.version != 'false' }}
               working-directory: data
               run: git push
 
             - name: Tag changes
-              if: ${{ steps.versioner.outputs.version != 'false' }}
+              if: ${{ steps.check.outputs.version != 'false' }}
               working-directory: data
               run: |
-                git tag ${{ steps.versioner.outputs.version }}
+                git tag ${{ steps.check.outputs.version }}
                 git push --tags
