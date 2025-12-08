@@ -7591,7 +7591,7 @@
 { "file": "app/stores/DeveloperExperimentStore.tsx", "size": 9447 }
 { "file": "app/stores/DeveloperOptionsStore.tsx", "size": 23226 }
 { "file": "app/stores/DimensionStore.tsx", "size": 11923 }
-{ "file": "app/stores/DraftStore.tsx", "size": 40043 }
+{ "file": "app/stores/DraftStore.tsx", "size": 39980 }
 { "file": "app/stores/EditMessageStore.tsx", "size": 13402 }
 { "file": "app/stores/ExpandedGuildFolderStore.tsx", "size": 18465 }
 { "file": "app/stores/ExternalStreamingStore.tsx", "size": 43057 }
