@@ -1,6 +1,6 @@
 import { exists } from "node:fs/promises";
 import { commit } from "../commit";
-import { cuteVersion } from "../shared";
+import { commitAnyway, cuteVersion } from "../shared";
 import { handleShellErr, join, type Progress } from "../util";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
@@ -32,18 +32,22 @@ export default async function decompile(progress: Progress, pathToBundle: string
 	} else progress.update("decompile_decompiling", null);
 
 	// "optional" step
-	const gzFile = "code.js.gz";
+	if (process.env.NODE_ENV !== "test" && !commitAnyway) {
+		const gzFile = "code.js.gz";
 
-	const gzipper = new Worker(gzipWorkerURL);
-	progress.start("decompile_gzip");
-	gzipper.addEventListener("message", async ({ data }) => {
-		if (data === true) {
-			await commit([gzFile], `chore: update decompiled code for ${cuteVersion}`);
-			progress.update("decompile_gzip", true);
-		}
-		gzipper.terminate();
-	});
-	gzipper.postMessage({ path: pathToJs, target: join("../data", gzFile) });
+		const gzipper = new Worker(gzipWorkerURL);
+		progress.start("decompile_gzip");
+		gzipper.addEventListener("message", async ({ data }) => {
+			if (data === true) {
+				await commit([gzFile], `chore: update decompiled code for ${cuteVersion}`);
+				progress.update("decompile_gzip", true);
+			}
+			gzipper.terminate();
+		});
+		gzipper.postMessage({ path: pathToJs, target: join("../data", gzFile) });
+	} else {
+		progress.update("decompile_gzip", null);
+	}
 
 	return pathToJs;
 }

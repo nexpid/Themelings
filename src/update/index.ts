@@ -1,7 +1,7 @@
 import { exists, mkdir, rm } from "node:fs/promises";
 import { runTasks } from "./runtasks";
 import { apksToDownload, isMock, version } from "./shared";
-import { handleShellErr, join, makeProgress, wrapPromise } from "./util";
+import { handleShellErr, join, log, makeProgress, wrapPromise } from "./util";
 
 const api = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
 const mediaFiles = ["res/**/*.{png,jpg,lottie}"] as string[];
@@ -41,7 +41,7 @@ if (!(await exists(tempFolder))) await mkdir(tempFolder, { recursive: true });
 
 if (!canReuseFolder) {
 	// Download the APKs
-	console.log("Downloading APKs...");
+	log("Downloading APKs...");
 
 	const downloadProgress = makeProgress({
 		...Object.fromEntries(apksToDownload.map((apk) => [apk, `Downloading ${apk}.apk`])),
@@ -69,7 +69,7 @@ if (!canReuseFolder) {
 		await Bun.write(join(tempFolder, `${apksToDownload[i]}.zip`), apks[i].value);
 
 	downloadProgress.update("writing", true);
-	console.log("\nUnzipping APKs...");
+	log("\nUnzipping APKs...");
 
 	const unzipProgress = makeProgress(Object.fromEntries(apksToDownload.map((apk) => [apk, `Unzipping ${apk}.apk`])));
 	await Promise.allSettled(
@@ -87,10 +87,10 @@ if (!canReuseFolder) {
 		),
 	);
 	if (unzipProgress.anyFailed()) throw new Error(`Failed to unzip all APKs!\n${unzipProgress.prettyErrors()}`);
-} else console.log("Reusing folder!");
+} else log("Reusing folder!");
 
 // Run tasks
 
 await runTasks(tempFolder);
 
-console.log("✅ Done");
+log("✅ Done");

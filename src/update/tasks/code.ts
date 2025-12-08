@@ -2,8 +2,8 @@ import { rm } from "node:fs/promises";
 import { dirname } from "node:path";
 import { commit } from "../commit";
 import { deminify } from "../deminify";
-import { cuteVersion } from "../shared";
-import { discordPath, mkdirSuppressed, join, type Progress, sortByHierarchy } from "../util";
+import { commitAnyway, cuteVersion } from "../shared";
+import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy } from "../util";
 
 const moduleStartIndentation = " ".repeat(4);
 
@@ -66,23 +66,29 @@ export default async function code(progress: Progress, code: string[]) {
 	);
 
 	progress.update("code_getting", true);
-	progress.start("code_remaking");
 
-	const filePrefix = "../data/source";
+	if (process.env.NODE_ENV !== "test" && !commitAnyway) {
+		progress.start("code_remaking");
 
-	await rm(filePrefix, { recursive: true, force: true });
+		const filePrefix = "../data/source";
 
-	const dirs = new Set([...files.keys()].map((x) => dirname(x)).sort(sortByHierarchy));
-	await Promise.all(dirs.values().map((dir) => mkdirSuppressed(join(filePrefix, dir), { recursive: true })));
+		await rm(filePrefix, { recursive: true, force: true });
 
-	for (const [file, text] of files.entries()) await Bun.write(join(filePrefix, file), text.res);
+		const dirs = new Set([...files.keys()].map((x) => dirname(x)).sort(sortByHierarchy));
+		await Promise.all(dirs.values().map((dir) => mkdirSuppressed(join(filePrefix, dir), { recursive: true })));
 
-	progress.update("code_remaking", true);
-	progress.start("code_pushing");
+		for (const [file, text] of files.entries()) await Bun.write(join(filePrefix, file), text.res);
 
-	// hope the files get written in this time idk :P blehhh
-	await Bun.sleep(1500);
+		progress.update("code_remaking", true);
+		progress.start("code_pushing");
 
-	await commit(["source.jsonl", "source/*"], `chore: update source for ${cuteVersion}`);
-	progress.update("code_pushing", true);
+		// hope the files get written in this time idk :P blehhh
+		await Bun.sleep(1500);
+
+		await commit(["source.jsonl", "source/*"], `chore: update source for ${cuteVersion}`);
+		progress.update("code_pushing", true);
+	} else {
+		progress.update("code_remaking", null);
+		progress.update("code_pushing", null);
+	}
 }

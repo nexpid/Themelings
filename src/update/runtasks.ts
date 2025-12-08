@@ -9,10 +9,10 @@ import decompile from "./tasks/decompile";
 import diffs from "./tasks/diffs";
 import icons from "./tasks/icons";
 import { webhook } from "./tasks/webhook";
-import { cuteError, handleShellErr, join, makeProgress, wrapPromise } from "./util";
+import { cuteError, handleShellErr, join, log, makeProgress, wrapPromise } from "./util";
 
 export async function runTasks(tempFolder: string) {
-	console.log("\nRunning tasks...");
+	log("\nRunning tasks...");
 	const taskProgress = makeProgress(
 		{
 			preinit: "Preinit",
