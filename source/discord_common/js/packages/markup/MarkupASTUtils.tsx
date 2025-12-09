@@ -321,6 +321,8 @@ case 31:
     var6 = var7.fileFinishedImporting;
     var4 = '../discord_common/js/packages/markup/MarkupASTUtils.tsx';
     var4 = var6.bind(var7)(var4);
+    var4 = 200;
+    var3['NUM_MAX_AST_NODES'] = var4;
     var4 = function astToString(arg1) {
         var3 = _closure1_slot7;
         var2 = undefined;

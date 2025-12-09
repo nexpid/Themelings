@@ -315,7 +315,7 @@ case 29:
             var6 = var6.bind(var7)(var5, var2);
             return var2;
 case 26:
-            var2 = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false};
+            var2 = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false, 'hasBailedAst': false};
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
             var6 = 3;

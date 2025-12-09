@@ -2121,6 +2121,9 @@ case 108:
                 var5 = var3.bind(var2)();
                 var6 = var1;
                 var3 = copyDataProperties(var6, var5);
+                var4 = var2.wasAuthenticated;
+                var3 = 'was_authenticated';
+                var1[var3] = var4;
                 var4 = var2.firstRenderAfterReadyPayload;
                 var3 = var4.serialize;
                 var2 = arg1;

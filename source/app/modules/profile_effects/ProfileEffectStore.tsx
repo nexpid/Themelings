@@ -291,15 +291,6 @@ case 15:
     var2['COLLECTIBLES_PRODUCT_FETCH_SUCCESS'] = var9;
     var9 = function COLLECTIBLES_CATEGORIES_FETCH_SUCCESS(arg1) {
         var1 = arg1;
-        var3 = var1.categories;
-        var2 = _closure1_slot10;
-        var1 = undefined;
-        var1 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var2['COLLECTIBLES_CATEGORIES_FETCH_SUCCESS'] = var9;
-    var9 = function COLLECTIBLES_CATEGORIES_V2_FETCH_SUCCESS(arg1) {
-        var1 = arg1;
         var1 = var1.categories;
         var3 = _closure1_slot10;
         var2 = var1.categories;
@@ -307,7 +298,7 @@ case 15:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var2['COLLECTIBLES_CATEGORIES_V2_FETCH_SUCCESS'] = var9;
+    var2['COLLECTIBLES_CATEGORIES_FETCH_SUCCESS'] = var9;
     var9 = function COLLECTIBLES_SHOP_HOME_FETCH_SUCCESS(arg1) {
         var1 = arg1;
         var1 = var1.shopHome;

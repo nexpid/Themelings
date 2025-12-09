@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var5 = function fetchSurveyDetails() {
         var1 = undefined;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot11;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -33,14 +33,14 @@ case 3:
 case 4: // try_start_0
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 7;
                     var2 = var5[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.get;
                     var2 = {};
-                    var10 = _closure1_slot9;
+                    var10 = _closure1_slot10;
                     var9 = var10.EMBEDDED_SURVEY;
                     var8 = var7;
                     var8 = var9.bind(var10)(var8);
@@ -58,7 +58,7 @@ case 8:
                     var3 = var2.body;
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var4 = 7;
+                    var4 = 8;
                     var4 = var8[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
@@ -76,7 +76,7 @@ case 10: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -91,7 +91,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -99,10 +99,10 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var4 = function submitSurveyResponse() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -126,7 +126,7 @@ case 4:
                     var8 = var10;
                     var5 = undefined;
                     var9 = undefined;
-                    var4 = _closure1_slot5;
+                    var4 = _closure1_slot6;
                     var3 = var4.getState;
                     var4 = var3.bind(var4)();
                     var3 = var4.getDisplayedQuestions;
@@ -141,7 +141,7 @@ case 12:
 case 0:
                             var7 = arg2;
                             var5 = arg3;
-                            var4 = _closure1_slot6;
+                            var4 = _closure1_slot7;
                             var2 = var4.getSurvey;
                             var1 = arg1;
                             var20 = var2.bind(var4)(var1);
@@ -180,27 +180,27 @@ case 17:
                             if(!(var1 != var6)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
                             var25 = var6.QuestionType;
-                            var22 = _closure1_slot8;
+                            var22 = _closure1_slot9;
                             var22 = var22.MULTIPLE_CHOICE;
                             if(!(var25 === var22)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
                             var25 = var6.Selector;
-                            var22 = _closure1_slot7;
+                            var22 = _closure1_slot8;
                             var22 = var22.MULTIPLE_ANSWER;
                             if(!(var25 !== var22)) { _fun0003_ip = 22; continue _fun0003 }
 case 20:
                             var25 = var6.QuestionType;
-                            var22 = _closure1_slot8;
+                            var22 = _closure1_slot9;
                             var22 = var22.MULTIPLE_CHOICE;
                             if(!(var25 === var22)) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
                             var25 = var6.Selector;
-                            var22 = _closure1_slot7;
+                            var22 = _closure1_slot8;
                             var22 = var22.SINGLE_ANSWER;
                             if(!(var25 !== var22)) { _fun0003_ip = 25; continue _fun0003 }
 case 23:
                             var25 = var6.QuestionType;
-                            var22 = _closure1_slot8;
+                            var22 = _closure1_slot9;
                             var22 = var22.TEXT_ENTRY;
                             if(!(var25 !== var22)) { _fun0003_ip = 11; continue _fun0003 }
 case 26:
@@ -292,14 +292,14 @@ case 34:
                                     if(!var3) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
                                     var5 = var1.QuestionType;
-                                    var4 = _closure1_slot8;
+                                    var4 = _closure1_slot9;
                                     var4 = var4.MULTIPLE_CHOICE;
                                     var3 = var5 === var4;
 case 35:
                                     if(!var3) { _fun0004_ip = 32; continue _fun0004 }
 case 5:
                                     var4 = var1.Selector;
-                                    var3 = _closure1_slot7;
+                                    var3 = _closure1_slot8;
                                     var3 = var3.MULTIPLE_ANSWER;
                                     if(!(var4 === var3)) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
@@ -339,13 +339,13 @@ case 6: // try_start_0
                     var4 = {};
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 6;
+                    var3 = 7;
                     var3 = var7[var3];
                     var3 = var6.bind(var5)(var3);
                     var7 = var3.HTTP;
                     var6 = var7.post;
                     var3 = {};
-                    var11 = _closure1_slot9;
+                    var11 = _closure1_slot10;
                     var10 = var11.EMBEDDED_SURVEY_RESPONSE;
                     var8 = var10.bind(var11)(var8);
                     var3['url'] = var8;
@@ -377,7 +377,7 @@ case 45: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.captureException;
@@ -398,7 +398,7 @@ case 11:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -406,10 +406,10 @@ case 11:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var2 = function fireSurveyAction() {
         var1 = undefined;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -426,43 +426,56 @@ case 11:
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     StartGenerator();
-                    var5 = arg1;
+                    var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 46; continue _fun0005 }
 case 4:
-                    var10 = var5;
+                    var10 = var7;
                     var2 = undefined;
                     var8 = undefined;
                     var9 = undefined;
-                    var4 = var5.startsWith;
-                    var3 = 'quest_completed_';
-                    var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0005_ip = 47; continue _fun0005 }
+                    var5 = _closure1_slot5;
+                    var3 = var5.shouldAllowSurveyAction;
+                    var3 = var3.bind(var5)();
+                    var5 = !var3;
+                    var3 = !var5;
+                    if(var5) { _fun0005_ip = 47; continue _fun0005 }
 case 48:
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var4 = 9;
-                    var4 = var6[var4];
-                    var4 = var5.bind(var2)(var4);
-                    var6 = var4.EmbeddedSurveyExperiment;
-                    var5 = var6.getConfig;
-                    var4 = {};
-                    var7 = 'qualtrics action creator';
-                    var4['location'] = var7;
-                    var4 = var5.bind(var6)(var4);
-                    var3 = var4.enableNitroUnsubSurvey;
+                    var6 = var7.startsWith;
+                    var5 = 'quest_completed_';
+                    var5 = var6.bind(var7)(var5);
+                    var6 = !var5;
+                    var5 = !var6;
+                    if(!var6) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var6 = 10;
+                    var6 = var12[var6];
+                    var6 = var11.bind(var2)(var6);
+                    var6 = var6.SURVEY_ACTION_SAMPLE_PERCENTS;
+                    var7 = var6[var7];
+                    var6 = global;
+                    var11 = var6.Math;
+                    var6 = var11.random;
+                    var11 = var6.bind(var11)();
+                    var6 = 100;
+                    var6 = var6 * var11;
+                    var5 = var7 >= var6;
+case 49:
+                    var3 = var5;
 case 47:
-                    if(!var3) { _fun0005_ip = 49; continue _fun0005 }
-case 50: // try_start_0
+                    if(!var3) { _fun0005_ip = 51; continue _fun0005 }
+case 52: // try_start_0
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 6;
+                    var3 = 7;
                     var3 = var6[var3];
                     var3 = var5.bind(var2)(var3);
                     var6 = var3.HTTP;
                     var5 = var6.post;
                     var3 = {};
-                    var7 = _closure1_slot9;
+                    var7 = _closure1_slot10;
                     var7 = var7.EMBEDDED_SURVEY_ACTION;
                     var3['url'] = var7;
                     var7 = {};
@@ -471,45 +484,43 @@ case 50: // try_start_0
                     var7 = true;
                     var3['rejectWithError'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=182);
-case 51:
+                    SaveGenerator(address=217);
+case 53:
                     return var3;
-case 52:
+case 54:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 53; continue _fun0005 }
-case 41:
+                    if(var5) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
                     var9 = var3;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 7;
+                    var4 = 8;
                     var4 = var6[var4];
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.dispatch;
-                    var4 = {};
-                    var7 = 'SURVEY_FETCHED';
-                    var4['type'] = var7;
+                    var4 = {'type': 'SURVEY_FETCHED', 'survey': null, 'isActionTriggered': true};
                     var10 = null;
                     var11 = var10 == var3;
                     var7 = undefined;
-                    if(var11) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+                    if(var11) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                     var9 = var9.body;
                     var8 = var9;
                     var9 = var10 == var9;
                     var7 = undefined;
-                    if(var9) { _fun0005_ip = 54; continue _fun0005 }
-case 56:
+                    if(var9) { _fun0005_ip = 57; continue _fun0005 }
+case 59:
                     var7 = var8.survey;
-case 54:
+case 57:
                     var4['survey'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 57: // try_end0
-                    _fun0005_ip = 49; continue _fun0005;
-case 53:
+case 60: // try_end0
+                    _fun0005_ip = 51; continue _fun0005;
+case 55:
                     return var3;
-case 11: // catch_target0
+case 61: // catch_target0
                     CatchBlockStart(arg_register=2);
-case 49:
+case 51:
                     return var2;
 case 46:
                     return var1;
@@ -518,7 +529,7 @@ case 46:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -526,7 +537,7 @@ case 46:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -546,30 +557,34 @@ case 46:
     var _closure1_slot4 = var6;
     var6 = 2;
     var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var6 = var6.useQualtricsResponseStore;
+    var6 = var10.bind(var1)(var6);
     var _closure1_slot5 = var6;
     var6 = 3;
     var6 = var9[var6];
-    var6 = var10.bind(var1)(var6);
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.useQualtricsResponseStore;
     var _closure1_slot6 = var6;
     var6 = 4;
     var6 = var9[var6];
-    var6 = var8.bind(var1)(var6);
-    var10 = var6.QuestionSelectorEnum;
-    var _closure1_slot7 = var10;
-    var6 = var6.QuestionTypeEnum;
-    var _closure1_slot8 = var6;
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot7 = var6;
     var6 = 5;
     var6 = var9[var6];
     var6 = var8.bind(var1)(var6);
-    var6 = var6.Endpoints;
+    var10 = var6.QuestionSelectorEnum;
+    var _closure1_slot8 = var10;
+    var6 = var6.QuestionTypeEnum;
     var _closure1_slot9 = var6;
+    var6 = 6;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.Endpoints;
+    var _closure1_slot10 = var6;
     var6 = {};
     var6['fetchSurveyDetails'] = var5;
     var6['submitSurveyResponse'] = var4;
     var6['fireSurveyAction'] = var2;
-    var7 = 10;
+    var7 = 11;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

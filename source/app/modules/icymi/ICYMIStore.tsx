@@ -3764,10 +3764,10 @@ case 236:
             };
             var2 = var3.bind(var4)(var2);
             var2 = _closure1_slot53;
-            if(!(var7 === var2)) { _fun0041_ip = 186; continue _fun0041 }
+            if(!(var7 === var2)) { _fun0041_ip = 28; continue _fun0041 }
 case 237:
             _closure1_slot53 = var6;
-case 186:
+case 28:
             var4 = _closure1_slot58;
             var3 = var4.delete;
             var5 = _closure1_slot0;
@@ -3910,7 +3910,7 @@ case 212:
             var6 = copyDataProperties(var10, var9);
             _closure1_slot42 = var4;
 case 5:
-            if(!(var2 != var3)) { _fun0047_ip = 92; continue _fun0047 }
+            if(!(var2 != var3)) { _fun0047_ip = 208; continue _fun0047 }
 case 91:
             var2 = var3.forEach;
             var1 = function(arg1) {
@@ -3946,7 +3946,7 @@ case 55:
                 }
             };
             var1 = var2.bind(var3)(var1);
-case 92:
+case 208:
             var1 = undefined;
             return var1;
         }
@@ -4227,7 +4227,7 @@ case 251:
 case 24:
             var3 = var5.length;
             var7 = 0;
-            if(!(var7 !== var3)) { _fun0054_ip = 98; continue _fun0054 }
+            if(!(var7 !== var3)) { _fun0054_ip = 254; continue _fun0054 }
 case 185:
             var4 = var5.filter;
             var3 = function(arg1) {
@@ -4255,13 +4255,13 @@ case 143:
                     var2 = _closure1_slot28;
                     var2 = var2.DEFAULT;
                     var2 = var5 === var2;
-                    if(var2) { _fun0055_ip = 254; continue _fun0055 }
+                    if(var2) { _fun0055_ip = 255; continue _fun0055 }
 case 95:
                     var4 = var4.type;
                     var3 = _closure1_slot28;
                     var3 = var3.REPLY;
                     var2 = var4 === var3;
-case 254:
+case 255:
                     var1 = var2;
 case 79:
                     return var1;
@@ -4274,8 +4274,8 @@ case 79:
             var3 = var5.reverse;
             var5 = var3.bind(var5)();
             var3 = var5.length;
-            if(!(!(var3 < var4))) { _fun0054_ip = 255; continue _fun0054 }
-case 256:
+            if(!(!(var3 < var4))) { _fun0054_ip = 256; continue _fun0054 }
+case 257:
             var4 = var5.filter;
             var3 = function(arg1) {
                 _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
@@ -4297,8 +4297,8 @@ case 200:
             var3 = var5.length;
             var4 = var4 / var3;
             var3 = 0.5;
-            if(!(!(var4 > var3))) { _fun0054_ip = 257; continue _fun0054 }
-case 64:
+            if(!(!(var4 > var3))) { _fun0054_ip = 258; continue _fun0054 }
+case 259:
             var4 = global;
             var11 = var4.Math;
             var6 = var11.floor;
@@ -4426,13 +4426,13 @@ case 203:
             var2 = _closure1_slot40;
             var2[var4] = var3;
             return var1;
-case 257:
+case 258:
             var1 = false;
             return var1;
-case 255:
+case 256:
             var1 = false;
             return var1;
-case 98:
+case 254:
             var1 = false;
             return var1;
 case 253:

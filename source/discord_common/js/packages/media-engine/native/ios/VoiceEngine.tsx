@@ -324,11 +324,13 @@ case 10:
                 var6 = 'user-speaking';
                 var4 = function(arg1) {
                     var1 = arg1;
-                    var3 = var1.userId;
-                    var2 = var1.isSpeaking;
-                    var1 = new Array(2);
-                    var1[0] = var3;
-                    var1[1] = var2;
+                    var4 = var1.userId;
+                    var3 = var1.isSpeaking;
+                    var2 = var1.voiceDb;
+                    var1 = new Array(3);
+                    var1[0] = var4;
+                    var1[1] = var3;
+                    var1[2] = var2;
                     return var1;
                 };
                 var4 = var7.bind(var5)(var6, var4);

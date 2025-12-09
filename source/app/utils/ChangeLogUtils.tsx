@@ -577,9 +577,8 @@ case 34:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var8 = arg3;
-            var1 = {};
+            var1 = {'hasSpoilerEmbeds': false, 'hasBailedAst': false};
             var6 = false;
-            var1['hasSpoilerEmbeds'] = var6;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 5;
@@ -594,15 +593,15 @@ case 0:
             var2 = arg1;
             var3 = var2.content;
             var2 = null;
-            if(!(var2 == var8)) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+            if(!(var2 == var8)) { _fun0006_ip = 6; continue _fun0006 }
+case 7:
             var2 = {};
-            _fun0006_ip = 37; continue _fun0006;
-case 35:
+            _fun0006_ip = 35; continue _fun0006;
+case 6:
             var7 = {};
             var7['changeLog'] = var8;
             var2 = var7;
-case 37:
+case 35:
             var2 = var4.bind(var5)(var3, var6, var2);
             var1['content'] = var2;
             return var1;

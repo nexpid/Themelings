@@ -267,6 +267,9 @@ case 9:
     var31['GUILD_VOICE_CHANNEL_CREATE'] = var15;
     var10 = 'GUILD_VOICE_CHANNEL_CREATE';
     var31[var15] = var10;
+    var31['USER_PROFILE_EDIT'] = var14;
+    var10 = 'USER_PROFILE_EDIT';
+    var31[var14] = var10;
     var30 = {};
     var30['SAFETY_FLAG_TYPE_UNSPECIFIED'] = var7;
     var10 = 'SAFETY_FLAG_TYPE_UNSPECIFIED';

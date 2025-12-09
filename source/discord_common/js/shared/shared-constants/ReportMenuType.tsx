@@ -36,6 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['message_urf'] = var2;
     var2 = 'guild_urf';
     var4['guild_urf'] = var2;
+    var2 = 'media_takedown';
+    var4['media_takedown'] = var2;
     var2 = 'xbox_console_voice';
     var4['xbox_console_voice'] = var2;
     var2 = 'playstation_console_voice';
@@ -62,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var10 = ['guild_urf', 'message_urf', 'user_urf'];
+    var10 = ['guild_urf', 'media_takedown', 'message_urf', 'user_urf'];
     var11 = var6;
     var5 = new var11[var7](var10, var9);
     var5 = var5 instanceof Object ? var5 : var6;

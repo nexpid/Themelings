@@ -3189,12 +3189,12 @@ case 237:
                 var1 = {'ready': true, 'loadingMore': false};
                 var19 = var12 == var11;
                 var16 = undefined;
-                if(var19) { _fun0037_ip = 239; continue _fun0037 }
-case 240:
+                if(var19) { _fun0037_ip = 100; continue _fun0037 }
+case 98:
                 var16 = var11.jumpType;
-case 239:
-                if(!(var12 == var16)) { _fun0037_ip = 241; continue _fun0037 }
-case 242:
+case 100:
+                if(!(var12 == var16)) { _fun0037_ip = 239; continue _fun0037 }
+case 240:
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot3;
                 var17 = 7;
@@ -3202,14 +3202,14 @@ case 242:
                 var17 = var19.bind(var15)(var17);
                 var17 = var17.JumpTypes;
                 var16 = var17.ANIMATED;
-case 241:
+case 239:
                 var1['jumpType'] = var16;
                 var16 = var12 == var11;
                 var17 = undefined;
-                if(var16) { _fun0037_ip = 106; continue _fun0037 }
-case 104:
+                if(var16) { _fun0037_ip = 241; continue _fun0037 }
+case 242:
                 var17 = var11.flash;
-case 106:
+case 241:
                 var16 = var12 != var17;
                 if(!var16) { _fun0037_ip = 243; continue _fun0037 }
 case 244:
@@ -3232,90 +3232,90 @@ case 247:
                 var1['jumpedToPresent'] = var16;
                 var16 = var12 == var11;
                 var17 = undefined;
-                if(var16) { _fun0037_ip = 54; continue _fun0037 }
-case 249:
+                if(var16) { _fun0037_ip = 249; continue _fun0037 }
+case 250:
                 var17 = var11.messageId;
-case 54:
+case 249:
                 var19 = var12 != var17;
                 var16 = null;
-                if(!var19) { _fun0037_ip = 250; continue _fun0037 }
-case 251:
+                if(!var19) { _fun0037_ip = 251; continue _fun0037 }
+case 252:
                 var16 = var17;
-case 250:
+case 251:
                 var1['jumpTargetId'] = var16;
                 var17 = var12 != var11;
                 var16 = 0;
-                if(!var17) { _fun0037_ip = 252; continue _fun0037 }
-case 253:
+                if(!var17) { _fun0037_ip = 253; continue _fun0037 }
+case 254:
                 var17 = var11.messageId;
                 var17 = var12 != var17;
                 var16 = 0;
-                if(!var17) { _fun0037_ip = 252; continue _fun0037 }
-case 254:
+                if(!var17) { _fun0037_ip = 253; continue _fun0037 }
+case 255:
                 var17 = var11.offset;
                 var17 = var12 != var17;
                 var16 = 0;
-                if(!var17) { _fun0037_ip = 252; continue _fun0037 }
-case 255:
+                if(!var17) { _fun0037_ip = 253; continue _fun0037 }
+case 256:
                 var16 = var11.offset;
-case 252:
+case 253:
                 var1['jumpTargetOffset'] = var16;
-                if(!(var12 != var11)) { _fun0037_ip = 256; continue _fun0037 }
-case 257:
-                if(var8) { _fun0037_ip = 256; continue _fun0037 }
+                if(!(var12 != var11)) { _fun0037_ip = 257; continue _fun0037 }
 case 258:
+                if(var8) { _fun0037_ip = 257; continue _fun0037 }
+case 259:
                 var16 = var3.jumpSequenceId;
                 var8 = 1;
                 var8 = var16 + var8;
-                _fun0037_ip = 259; continue _fun0037;
-case 256:
+                _fun0037_ip = 260; continue _fun0037;
+case 257:
                 var8 = var3.jumpSequenceId;
-case 259:
+case 260:
                 var1['jumpSequenceId'] = var8;
                 var8 = var12 == var11;
                 var15 = undefined;
-                if(var8) { _fun0037_ip = 260; continue _fun0037 }
-case 261:
+                if(var8) { _fun0037_ip = 261; continue _fun0037 }
+case 262:
                 var15 = var11.returnMessageId;
-case 260:
+case 261:
                 var16 = var12 != var15;
                 var8 = null;
-                if(!var16) { _fun0037_ip = 262; continue _fun0037 }
-case 263:
+                if(!var16) { _fun0037_ip = 263; continue _fun0037 }
+case 264:
                 var8 = var15;
-case 262:
+case 263:
                 var1['jumpReturnTargetId'] = var8;
                 var8 = var14;
-                if(!(var12 == var11)) { _fun0037_ip = 264; continue _fun0037 }
-case 265:
-                var8 = var14;
-                if(!var13) { _fun0037_ip = 264; continue _fun0037 }
+                if(!(var12 == var11)) { _fun0037_ip = 265; continue _fun0037 }
 case 266:
+                var8 = var14;
+                if(!var13) { _fun0037_ip = 265; continue _fun0037 }
+case 267:
                 var8 = var3.hasMoreBefore;
-case 264:
+case 265:
                 var1['hasMoreBefore'] = var8;
                 var8 = var10;
-                if(!(var12 == var11)) { _fun0037_ip = 267; continue _fun0037 }
-case 268:
-                var8 = var10;
-                if(!var9) { _fun0037_ip = 267; continue _fun0037 }
+                if(!(var12 == var11)) { _fun0037_ip = 268; continue _fun0037 }
 case 269:
+                var8 = var10;
+                if(!var9) { _fun0037_ip = 268; continue _fun0037 }
+case 270:
                 var8 = var3.hasMoreAfter;
-case 267:
+case 268:
                 var1['hasMoreAfter'] = var8;
                 var1['cached'] = var7;
                 var6 = var6.hasFetched;
                 var1['hasFetched'] = var6;
                 var1['error'] = var5;
                 var6 = var3.initialScrollSequenceId;
-                if(var4) { _fun0037_ip = 270; continue _fun0037 }
-case 271:
+                if(var4) { _fun0037_ip = 271; continue _fun0037 }
+case 272:
                 var4 = var6;
-                _fun0037_ip = 272; continue _fun0037;
-case 270:
+                _fun0037_ip = 273; continue _fun0037;
+case 271:
                 var5 = 1;
                 var4 = var6 + var5;
-case 272:
+case 273:
                 var1['initialScrollSequenceId'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -3415,14 +3415,14 @@ case 31:
                 var1 = {'ready': true, 'cached': null, 'error': false};
                 var1['cached'] = var6;
                 var6 = var5.initialScrollSequenceId;
-                if(var4) { _fun0038_ip = 273; continue _fun0038 }
+                if(var4) { _fun0038_ip = 274; continue _fun0038 }
 case 141:
                 var4 = var6;
-                _fun0038_ip = 274; continue _fun0038;
-case 273:
+                _fun0038_ip = 275; continue _fun0038;
+case 274:
                 var5 = 1;
                 var4 = var6 + var5;
-case 274:
+case 275:
                 var1['initialScrollSequenceId'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -3492,7 +3492,7 @@ case 0:
                 var1 = var1._channelMessages;
                 var1 = var1[var4];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0040_ip = 275; continue _fun0040 }
+                if(!(var3 == var1)) { _fun0040_ip = 276; continue _fun0040 }
 case 175:
                 var3 = _closure2_slot0;
                 var2 = var3.prototype;
@@ -3504,7 +3504,7 @@ case 175:
                 var3 = var3._channelMessages;
                 var3[var4] = var2;
                 var1 = var2;
-case 275:
+case 276:
                 return var1;
             }
         };
