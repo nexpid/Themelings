@@ -2311,16 +2311,6 @@
         "width": 70,
         "height": 47
     },
-    "danger-dave": {
-        "file": "app/modules/blocked_domains/components/native/images/danger-dave.png",
-        "hash": "cb122305d26897f6b87ca3d0251d60a0",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 240,
-        "height": 105
-    },
     "dark_home_header_placeholder": {
         "file": "app/modules/guild_home/native/images/dark_home_header_placeholder.png",
         "hash": "ba87a4f1a3775c9189bf0599d24fcb24",
