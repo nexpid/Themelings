@@ -225,7 +225,7 @@ case 13:
             var6 = var12[var6];
             var6 = var8.bind(var4)(var6);
             var8 = var6.TextWithIOSLinkWorkaround;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
             var12 = var15.body;
             var6['style'] = var12;
             var17 = _closure1_slot0;
@@ -293,7 +293,7 @@ case 20:
             var10 = var14[var10];
             var10 = var17.bind(var4)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
             var19 = var15.body;
             var10['style'] = var19;
             var19 = var14[var18];

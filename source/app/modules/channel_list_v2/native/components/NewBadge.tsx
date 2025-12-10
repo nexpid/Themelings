@@ -80,7 +80,7 @@ case 6:
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BRAND;
+            var3 = var3.BACKGROUND_BRAND;
             _fun0001_ip = 7; continue _fun0001;
 case 4:
             var5 = _closure1_slot1;

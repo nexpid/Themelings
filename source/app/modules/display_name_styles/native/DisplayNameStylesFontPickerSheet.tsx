@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOD_FAINT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -190,19 +190,8 @@ case 0:
             var _closure2_slot4 = var8;
             var9 = var6.useCallback;
             var3 = function(arg1) {
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var2 = 11;
-                var3 = var6[var2];
-                var1 = undefined;
-                var4 = var5.bind(var1)(var3);
-                var3 = var4.triggerHapticFeedback;
-                var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
-                var2 = var2.HapticFeedbackTypes;
-                var2 = var2.IMPACT_LIGHT;
-                var2 = var3.bind(var4)(var2);
                 var3 = _closure2_slot3;
+                var1 = undefined;
                 var2 = arg1;
                 var2 = var3.bind(var1)(var2);
                 return var1;
@@ -218,30 +207,29 @@ case 0:
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot4;
-                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 11;
-                    var4 = var7[var2];
-                    var3 = undefined;
-                    var5 = var6.bind(var3)(var4);
+                    var3 = 11;
+                    var4 = var7[var3];
+                    var1 = undefined;
+                    var5 = var6.bind(var1)(var4);
                     var4 = var5.triggerHapticFeedback;
-                    var2 = var7[var2];
-                    var2 = var6.bind(var3)(var2);
-                    var2 = var2.HapticFeedbackTypes;
-                    var2 = var2.IMPACT_MEDIUM;
-                    var2 = var4.bind(var5)(var2);
-                    var2 = _closure2_slot0;
-                    var1 = _closure2_slot2;
-                    var1 = var2.bind(var3)(var1);
+                    var3 = var7[var3];
+                    var3 = var6.bind(var1)(var3);
+                    var3 = var3.HapticFeedbackTypes;
+                    var3 = var3.IMPACT_MEDIUM;
+                    var3 = var4.bind(var5)(var3);
+                    var4 = _closure2_slot4;
+                    if(!var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot2;
+                    var3 = var4.bind(var1)(var3);
 case 2:
                     var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 12;
-                    var2 = var2[var1];
-                    var1 = undefined;
+                    var4 = _closure1_slot2;
+                    var2 = 12;
+                    var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideActionSheet;
                     var2 = var2.bind(var3)();

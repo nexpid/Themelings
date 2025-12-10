@@ -100,14 +100,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_ACTIVE;
+    var14 = var14.INTERACTIVE_BACKGROUND_ACTIVE;
     var11['backgroundColor'] = var14;
     var5['rowActive'] = var11;
     var11 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BORDER_FAINT;
+    var14 = var14.BORDER_MUTED;
     var11['borderColor'] = var14;
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_FAINT;
+    var12 = var12.BACKGROUND_MOD_MUTED;
     var11['backgroundColor'] = var12;
     var5['rowSelected'] = var11;
     var5 = var9.bind(var10)(var5);

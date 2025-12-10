@@ -441,7 +441,7 @@ case 12:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.CARD_PRIMARY_BG;
+    var17 = var17.CARD_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var17;
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
@@ -459,7 +459,7 @@ case 12:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.CARD_PRIMARY_BG;
+    var17 = var17.CARD_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var17;
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
@@ -479,7 +479,7 @@ case 12:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.CARD_PRIMARY_BG;
+    var17 = var17.CARD_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var17;
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
@@ -1439,7 +1439,7 @@ case 81:
                     var10 = var11.bind(var1)(var10);
                     var11 = var10.ChevronSmallDownIcon;
                     var10 = {};
-                    var14 = 'interactive-normal';
+                    var14 = 'interactive-text-default';
                     var10['color'] = var14;
                     var13 = _closure2_slot8;
                     var13 = var13.contextMenuIcon;

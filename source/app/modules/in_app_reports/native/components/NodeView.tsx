@@ -579,7 +579,7 @@ case 46:
             var7 = var13[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-active'};
+            var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-text-active'};
             var12 = var12.infoBoxText;
             var7['style'] = var12;
             var10 = var10.bind(var5)(var11);

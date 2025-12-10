@@ -47,7 +47,7 @@ case 2:
             var8 = var5.Stack;
             var5 = {'direction': 'horizontal', 'align': 'center'};
             var12 = _closure1_slot6;
-            var10 = {'color': 'icon-secondary', 'size': 'xs'};
+            var10 = {'color': 'icon-subtle', 'size': 'xs'};
             var12 = var12.bind(var4)(var13, var10);
             var10 = new Array(2);
             var10[0] = var12;
@@ -91,7 +91,7 @@ case 5:
             var10 = var16[var10];
             var10 = var21.bind(var4)(var10);
             var13 = var10.ClockIcon;
-            var10 = {'size': 'xs', 'color': 'icon-secondary'};
+            var10 = {'size': 'xs', 'color': 'icon-subtle'};
             var13 = var17.bind(var4)(var13, var10);
             var10 = new Array(3);
             var10[0] = var13;

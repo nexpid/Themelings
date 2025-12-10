@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INPUT_PLACEHOLDER_TEXT;
+    var13 = var13.INPUT_PLACEHOLDER_TEXT_DEFAULT;
     var10['color'] = var13;
     var4['placeholderText'] = var10;
     var10 = {};

@@ -255,7 +255,7 @@ case 11:
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERS_FETCH'] = var8;
+    var2['PREMIUM_GROUP_MEMBERS_FETCH_START'] = var8;
     var8 = function handleMembersFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.members;
@@ -283,7 +283,7 @@ case 11:
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH'] = var8;
+    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_START'] = var8;
     var8 = function handleMembershipFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.membership;

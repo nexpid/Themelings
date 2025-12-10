@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+        var5 = {'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
         var5['children'] = var9;
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);

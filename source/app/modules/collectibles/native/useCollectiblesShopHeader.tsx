@@ -358,7 +358,7 @@ case 8:
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);
             var11 = var8.ShopIcon;
-            var8 = {'size': 'md', 'color': 'icon-primary'};
+            var8 = {'size': 'md', 'color': 'icon-strong'};
             var8 = var3.bind(var4)(var11, var8);
             var7[1] = var8;
             var8 = 17;

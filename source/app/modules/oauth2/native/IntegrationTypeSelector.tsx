@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.CARD_PRIMARY_BG;
+    var14 = var14.CARD_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var10['width'] = var13;
     var13 = var7[var11];
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CARD_PRIMARY_BG;
+    var13 = var13.CARD_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var13;
     var2['expandDescriptionCTA'] = var10;
     var10 = {'height': 82, 'width': 82};
@@ -379,7 +379,7 @@ case 0:
                     var2 = {};
                     var10 = var1.icon;
                     var9 = {};
-                    var11 = 'interactive-normal';
+                    var11 = 'interactive-text-default';
                     var9['color'] = var11;
                     var9 = var5.bind(var4)(var10, var9);
                     var2['icon'] = var9;

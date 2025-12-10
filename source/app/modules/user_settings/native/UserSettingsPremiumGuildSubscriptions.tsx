@@ -348,7 +348,7 @@ case 20:
                 var8 = var10[var8];
                 var8 = var14.bind(var5)(var8);
                 var12 = var8.Text;
-                var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                 var13 = var15.blurb;
                 var8 = new Array(2);
                 var8[0] = var13;
@@ -373,7 +373,7 @@ case 20:
                 var12 = var10[var12];
                 var12 = var14.bind(var5)(var12);
                 var13 = var12.TextWithIOSLinkWorkaround;
-                var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                var12 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                 var15 = var15.blurb;
                 var12['style'] = var15;
                 var15 = var10[var8];

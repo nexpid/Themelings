@@ -300,7 +300,7 @@ case 12:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.ICON_PRIMARY;
+    var13 = var13.ICON_STRONG;
     var10['tintColor'] = var13;
     var5['formTintColor'] = var10;
     var10 = {};
@@ -323,7 +323,7 @@ case 12:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BUTTON_OUTLINE_BRAND_BORDER;
+    var11 = var11.CONTROL_SECONDARY_BORDER_DEFAULT;
     var10['backgroundColor'] = var11;
     var5['newBadge'] = var10;
     var10 = {};

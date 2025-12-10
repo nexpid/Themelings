@@ -496,7 +496,7 @@ case 23:
             var13 = var17[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.colors;
-            var13 = var13.INFO_DANGER_FOREGROUND;
+            var13 = var13.ICON_FEEDBACK_CRITICAL;
             var10['color'] = var13;
             var13 = 15;
             var14 = var17[var13];
@@ -718,7 +718,7 @@ case 34:
             var9 = var13[var9];
             var9 = var10.bind(var3)(var9);
             var9 = var9.colors;
-            var9 = var9.INFO_DANGER_FOREGROUND;
+            var9 = var9.ICON_FEEDBACK_CRITICAL;
             var6['color'] = var9;
             var9 = 15;
             var10 = var13[var9];

@@ -47,7 +47,7 @@ case 0:
             var1 = var10[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_MODIFIER_ACTIVE;
+            var1 = var1.INTERACTIVE_BACKGROUND_ACTIVE;
             var8 = var3.bind(var5)(var1);
             var3 = null;
             var1 = var3 == var6;

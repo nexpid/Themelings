@@ -246,7 +246,7 @@ case 2:
             var3 = var15[var8];
             var6 = var12.bind(var4)(var3);
             var5 = var6.useAnimatedStyle;
-            var3 = function y() {
+            var3 = function T() {
                 var1 = {};
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
@@ -678,7 +678,7 @@ case 16:
             var31 = var31[var22];
             var31 = var32.bind(var4)(var31);
             var31 = var31.colors;
-            var31 = var31.INTERACTIVE_NORMAL;
+            var31 = var31.INTERACTIVE_TEXT_DEFAULT;
             var29['color'] = var31;
             var29 = var20.bind(var4)(var30, var29);
             var16['children'] = var29;
@@ -777,7 +777,7 @@ case 21:
             var20 = var20[var22];
             var20 = var21.bind(var4)(var20);
             var20 = var20.colors;
-            var20 = var20.INTERACTIVE_NORMAL;
+            var20 = var20.INTERACTIVE_TEXT_DEFAULT;
             var18['color'] = var20;
             var18 = var17.bind(var4)(var19, var18);
             var15['children'] = var18;

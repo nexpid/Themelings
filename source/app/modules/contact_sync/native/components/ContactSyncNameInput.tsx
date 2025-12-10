@@ -237,7 +237,7 @@ case 12:
             var12 = var25[var13];
             var12 = var24.bind(var4)(var12);
             var19 = var12.Text;
-            var12 = {'variant': 'eyebrow', 'color': 'interactive-normal'};
+            var12 = {'variant': 'eyebrow', 'color': 'interactive-text-default'};
             var23 = var25[var20];
             var23 = var24.bind(var4)(var23);
             var28 = var23.intl;

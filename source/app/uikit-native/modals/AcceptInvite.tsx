@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var8[var1];
         var1 = var7.bind(var4)(var1);
         var1 = var1.colors;
-        var1 = var1.INTERACTIVE_NORMAL;
+        var1 = var1.INTERACTIVE_TEXT_DEFAULT;
         var8 = var2.bind(var3)(var1);
         var3 = _closure1_slot10;
         var2 = _closure1_slot7;

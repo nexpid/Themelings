@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var13;
     var4['label'] = var9;
     var9 = {};

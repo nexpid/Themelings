@@ -100,7 +100,7 @@ case 6:
                 var14 = var12[var16];
                 var14 = var10.bind(var4)(var14);
                 var15 = var14.Text;
-                var14 = {'variant': 'heading-xl/semibold', 'color': 'interactive-normal', 'children': '1'};
+                var14 = {'variant': 'heading-xl/semibold', 'color': 'interactive-text-default', 'children': '1'};
                 var14 = var17.bind(var4)(var15, var14);
                 var8[1] = var14;
                 var5['children'] = var8;
@@ -332,7 +332,7 @@ case 6:
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.CARD_PRIMARY_BG;
+        var12 = var12.CARD_BACKGROUND_DEFAULT;
         var9['backgroundColor'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
@@ -369,7 +369,7 @@ case 11:
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.INTERACTIVE_NORMAL;
+        var12 = var12.INTERACTIVE_TEXT_DEFAULT;
         var9['color'] = var12;
         var4['textEmoji'] = var9;
         var9 = {};

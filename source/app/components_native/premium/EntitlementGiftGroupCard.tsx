@@ -149,7 +149,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.ICON_SECONDARY;
+    var21 = var21.ICON_SUBTLE;
     var16['color'] = var21;
     var7['arrow'] = var16;
     var16 = {'fontSize': 14, 'lineHeight': 18};

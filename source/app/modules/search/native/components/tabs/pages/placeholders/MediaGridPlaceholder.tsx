@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var18[var12];
         var10 = var17.bind(var4)(var10);
         var13 = var10.Text;
-        var10 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+        var10 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
         var14 = var15.sectionText;
         var10['style'] = var14;
         var14 = 11;

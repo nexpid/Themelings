@@ -534,7 +534,7 @@ case 24:
                     var5 = var6.WHITE;
                     _fun0004_ip = 25; continue _fun0004;
 case 23:
-                    var5 = var6.INTERACTIVE_ACTIVE;
+                    var5 = var6.INTERACTIVE_TEXT_ACTIVE;
 case 25:
                     var1['color'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
@@ -556,7 +556,7 @@ case 25:
             var7 = 'white';
             if(!var9) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var7 = 'interactive-active';
+            var7 = 'interactive-text-active';
 case 26:
             var3['color'] = var7;
             var7 = _closure1_slot0;
@@ -833,7 +833,7 @@ case 36:
             var3 = var10[var1];
             var11 = var7.bind(var4)(var3);
             var7 = var11.useAnimatedStyle;
-            var3 = function C() {
+            var3 = function T() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};
@@ -1102,7 +1102,7 @@ case 60:
                     var9 = 'text-xxs/normal';
 case 59:
                     var5['variant'] = var9;
-                    var9 = 'interactive-active';
+                    var9 = 'interactive-text-active';
                     var5['color'] = var9;
                     var9 = _closure2_slot0;
                     var10 = var9.type;

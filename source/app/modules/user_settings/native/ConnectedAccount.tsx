@@ -185,7 +185,7 @@ case 4:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.INTERACTIVE_NORMAL;
+    var17 = var17.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var17;
     var7['deleteConnectionIcon'] = var10;
     var10 = {};
@@ -210,7 +210,7 @@ case 4:
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_SURFACE_OVERLAY;
+    var17 = var17.BACKGROUND_SURFACE_HIGHEST;
     var10['backgroundColor'] = var17;
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
@@ -1527,7 +1527,7 @@ case 73:
                 var3 = var17[var3];
                 var3 = var12.bind(var5)(var3);
                 var8 = var3.Text;
-                var6 = {'variant': 'text-xs/normal', 'color': 'interactive-normal'};
+                var6 = {'variant': 'text-xs/normal', 'color': 'interactive-text-default'};
                 var3 = 20;
                 var14 = var17[var3];
                 var14 = var12.bind(var5)(var14);

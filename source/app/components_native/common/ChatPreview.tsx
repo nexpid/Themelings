@@ -1195,7 +1195,7 @@ case 75:
                 var11 = var17[var11];
                 var11 = var16.bind(var4)(var11);
                 var12 = var11.Text;
-                var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+                var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
                 var13 = var5.jumpToChatText;
                 var11['style'] = var13;
                 var13 = 21;

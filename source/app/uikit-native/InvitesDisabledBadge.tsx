@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var10[var8];
         var8 = var9.bind(var4)(var8);
         var8 = var8.colors;
-        var8 = var8.INTERACTIVE_ACTIVE;
+        var8 = var8.INTERACTIVE_TEXT_ACTIVE;
         var6['themedColor'] = var8;
         var8 = 7;
         var8 = var10[var8];

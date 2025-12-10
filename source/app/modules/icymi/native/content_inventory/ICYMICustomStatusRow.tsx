@@ -827,7 +827,7 @@ case 45:
             var26 = var40[var24];
             var26 = var36.bind(var5)(var26);
             var31 = var26.Text;
-            var26 = {'lineClamp': 1, 'variant': 'text-sm/normal', 'color': 'header-muted'};
+            var26 = {'lineClamp': 1, 'variant': 'text-sm/normal', 'color': 'text-muted'};
             var35 = 29;
             var35 = var40[var35];
             var37 = var36.bind(var5)(var35);

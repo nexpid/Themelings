@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var13];
     var4 = var14.bind(var1)(var4);
     var4 = var4.colors;
-    var10 = var4.INTERACTIVE_ACTIVE;
+    var10 = var4.INTERACTIVE_TEXT_ACTIVE;
     var4 = 16;
     var4 = var19.bind(var1)(var18, var10, var4);
     var2['leading'] = var4;

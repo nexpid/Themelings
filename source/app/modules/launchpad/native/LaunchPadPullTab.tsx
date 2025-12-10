@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var17 = var16.BG_BACKDROP;
+    var17 = var16.BACKGROUND_SCRIM;
     var16 = 'backgroundColor';
     var10[var16] = var17;
     var4['nuxBackdrop'] = var10;

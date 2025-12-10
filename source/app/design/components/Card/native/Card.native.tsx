@@ -259,7 +259,7 @@ case 23:
                 var3 = var14[var17];
                 var5 = var13.bind(var4)(var3);
                 var3 = var5.useAnimatedStyle;
-                var2 = function f() {
+                var2 = function N() {
                     var1 = {};
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -536,7 +536,7 @@ case 38:
             var7 = var12[var7];
             var7 = var11.bind(var10)(var7);
             var7 = var7.colors;
-            var1 = var7.BORDER_FAINT;
+            var1 = var7.BORDER_MUTED;
             _fun0008_ip = 34; continue _fun0008;
 case 36:
             var11 = _closure1_slot1;

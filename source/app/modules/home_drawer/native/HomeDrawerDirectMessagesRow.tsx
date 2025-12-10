@@ -45,11 +45,11 @@ case 0:
             var5['variant'] = var8;
             var12 = 0;
             var9 = var14 > var12;
-            var11 = 'interactive-normal';
+            var11 = 'interactive-text-default';
             var8 = var11;
             if(!var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = 'interactive-active';
+            var8 = 'interactive-text-active';
 case 2:
             var5['color'] = var8;
             var17 = _closure1_slot0;
@@ -84,7 +84,7 @@ case 5:
             var12 = var14 > var12;
             if(!var12) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var11 = 'interactive-active';
+            var11 = 'interactive-text-active';
 case 6:
             var7['color'] = var11;
             var11 = _closure1_slot0;

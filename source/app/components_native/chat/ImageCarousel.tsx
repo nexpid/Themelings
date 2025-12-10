@@ -817,7 +817,7 @@ case 38:
     var16 = var7[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_ACTIVE;
+    var16 = var16.INTERACTIVE_TEXT_ACTIVE;
     var11['borderColor'] = var16;
     var5['highlightedTileContainer'] = var11;
     var11 = {'position': 'absolute', 'top': null, 'right': 2};
@@ -833,7 +833,7 @@ case 38:
     var16 = var7[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BACKDROP_IMMERSIVE;
+    var16 = var16.BACKGROUND_SCRIM_LIGHTBOX;
     var11['backgroundColor'] = var16;
     var5['closeContainer'] = var11;
     var11 = {};
@@ -850,7 +850,7 @@ case 38:
     var16 = var7[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var11['tintColor'] = var16;
     var5['closeButtonIcon'] = var11;
     var11 = {};
@@ -863,7 +863,7 @@ case 38:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BACKDROP_IMMERSIVE;
+    var15 = var15.BACKGROUND_SCRIM_LIGHTBOX;
     var11['backgroundColor'] = var15;
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
@@ -877,7 +877,7 @@ case 38:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BACKDROP_IMMERSIVE;
+    var15 = var15.BACKGROUND_SCRIM_LIGHTBOX;
     var11['backgroundColor'] = var15;
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);

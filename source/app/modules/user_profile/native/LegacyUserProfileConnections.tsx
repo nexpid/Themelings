@@ -281,7 +281,7 @@ case 37:
             var11 = var11[var8];
             var11 = var16.bind(var4)(var11);
             var11 = var11.colors;
-            var11 = var11.INTERACTIVE_ACTIVE;
+            var11 = var11.INTERACTIVE_TEXT_ACTIVE;
             if(!(var20 != var5)) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
             var16 = _closure1_slot12;
@@ -703,7 +703,7 @@ case 65:
             var5 = var12[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'eyebrow', 'color': 'interactive-normal'};
+            var5 = {'variant': 'eyebrow', 'color': 'interactive-text-default'};
             var12 = var17.platform_name;
             var5['children'] = var12;
             var6 = var9.bind(var4)(var7, var5);
@@ -727,7 +727,7 @@ case 67:
             var14 = var18[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var14 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var17 = var17.platform_username;
             var14['children'] = var17;
             var12 = var16.bind(var4)(var15, var14);
@@ -1112,7 +1112,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_ACTIVE;
+    var18 = var18.INTERACTIVE_TEXT_ACTIVE;
     var14['color'] = var18;
     var8['connectedAccountNameText'] = var14;
     var14 = {};
@@ -1132,14 +1132,14 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_ACTIVE;
+    var18 = var18.INTERACTIVE_TEXT_ACTIVE;
     var14['tintColor'] = var18;
     var8['connectedAccountOpenLink'] = var14;
     var14 = {'alignSelf': 'flex-start', 'margin': 4, 'height': 16, 'width': 16};
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_NORMAL;
+    var18 = var18.INTERACTIVE_TEXT_DEFAULT;
     var14['tintColor'] = var18;
     var8['connectedAccountOpenHide'] = var14;
     var14 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
@@ -1148,7 +1148,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_MODIFIER_HOVER;
+    var18 = var18.INTERACTIVE_BACKGROUND_HOVER;
     var14['backgroundColor'] = var18;
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
@@ -1180,7 +1180,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_ACTIVE;
+    var18 = var18.INTERACTIVE_TEXT_ACTIVE;
     var14['color'] = var18;
     var8['metadataItem'] = var14;
     var14 = {};

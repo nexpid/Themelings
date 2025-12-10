@@ -28,7 +28,7 @@ case 3:
                     var8 = var7.bind(var4)(var3);
                     var7 = var8.dispatch;
                     var3 = {};
-                    var9 = 'PREMIUM_GROUP_MEMBERSHIP_FETCH';
+                    var9 = 'PREMIUM_GROUP_MEMBERSHIP_FETCH_START';
                     var3['type'] = var9;
                     var3 = var7.bind(var8)(var3);
 case 4: // try_start_0
@@ -360,7 +360,7 @@ case 36:
                     var7 = var6.bind(var4)(var3);
                     var6 = var7.dispatch;
                     var3 = {};
-                    var9 = 'PREMIUM_GROUP_MEMBERS_FETCH';
+                    var9 = 'PREMIUM_GROUP_MEMBERS_FETCH_START';
                     var3['type'] = var9;
                     var3 = var6.bind(var7)(var3);
 case 37: // try_start_0

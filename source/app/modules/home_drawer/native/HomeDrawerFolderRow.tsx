@@ -79,7 +79,7 @@ case 5:
                 var6 = {};
                 var11 = 'text-md/semibold';
                 var6['variant'] = var11;
-                var11 = 'header-muted';
+                var11 = 'text-muted';
                 if(!var12) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
                 var11 = 'header-primary';

@@ -158,12 +158,12 @@ case 4:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INPUT_BACKGROUND;
+    var15 = var15.INPUT_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var15;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INPUT_BACKGROUND;
+    var15 = var15.INPUT_BACKGROUND_DEFAULT;
     var9['borderColor'] = var15;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);

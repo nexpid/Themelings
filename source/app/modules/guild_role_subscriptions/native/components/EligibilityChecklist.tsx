@@ -91,7 +91,7 @@ case 9:
             var15 = var15[var18];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-sm/normal', 'color': 'interactive-normal'};
+            var15 = {'variant': 'text-sm/normal', 'color': 'interactive-text-default'};
             var18 = var20.description;
             var15['children'] = var18;
             var15 = var17.bind(var4)(var16, var15);
@@ -229,7 +229,7 @@ case 16:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_ACTIVE;
+    var14 = var14.INTERACTIVE_TEXT_ACTIVE;
     var10['borderColor'] = var14;
     var7['actionButton'] = var10;
     var10 = {};

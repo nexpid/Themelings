@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.CARD_PRIMARY_BG;
+    var15 = var15.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var15;
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
@@ -494,7 +494,7 @@ case 13:
             var29 = var15[var29];
             var29 = var10.bind(var4)(var29);
             var30 = var29.ServerIcon;
-            var29 = {'size': 'sm', 'color': 'interactive-active'};
+            var29 = {'size': 'sm', 'color': 'interactive-text-active'};
             var29 = var8.bind(var4)(var30, var29);
             var28['children'] = var29;
             var29 = var8.bind(var4)(var7, var28);
@@ -537,7 +537,7 @@ case 13:
             var30 = var15[var30];
             var30 = var10.bind(var4)(var30);
             var31 = var30.NewUserIcon;
-            var30 = {'size': 'sm', 'color': 'interactive-active'};
+            var30 = {'size': 'sm', 'color': 'interactive-text-active'};
             var30 = var8.bind(var4)(var31, var30);
             var29['children'] = var30;
             var30 = var8.bind(var4)(var7, var29);
@@ -579,7 +579,7 @@ case 13:
             var30 = var15[var30];
             var30 = var10.bind(var4)(var30);
             var31 = var30.CircleCheckIcon;
-            var30 = {'size': 'sm', 'color': 'interactive-active'};
+            var30 = {'size': 'sm', 'color': 'interactive-text-active'};
             var30 = var8.bind(var4)(var31, var30);
             var29['children'] = var30;
             var30 = var8.bind(var4)(var7, var29);

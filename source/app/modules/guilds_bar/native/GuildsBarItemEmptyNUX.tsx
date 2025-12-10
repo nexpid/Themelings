@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var13[var2];
         var2 = var16.bind(var4)(var2);
         var2 = var2.colors;
-        var2 = var2.BG_BRAND;
+        var2 = var2.BACKGROUND_BRAND;
         var17 = var3.bind(var14)(var2);
         var _closure2_slot3 = var17;
         var2 = var13[var5];

@@ -85,14 +85,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_DANGER_BACKGROUND;
+    var13 = var13.BACKGROUND_FEEDBACK_CRITICAL;
     var10['backgroundColor'] = var13;
     var4['denyActive'] = var10;
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_DANGER_FOREGROUND;
+    var13 = var13.ICON_FEEDBACK_CRITICAL;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -105,28 +105,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_POSITIVE_BACKGROUND;
+    var13 = var13.BACKGROUND_FEEDBACK_POSITIVE;
     var10['backgroundColor'] = var13;
     var4['allowActive'] = var10;
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_POSITIVE_FOREGROUND;
+    var13 = var13.ICON_FEEDBACK_POSITIVE;
     var10['backgroundColor'] = var13;
     var4['allowSelected'] = var10;
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_SELECTED;
+    var13 = var13.INTERACTIVE_BACKGROUND_SELECTED;
     var10['backgroundColor'] = var13;
     var4['passthroughSelected'] = var10;
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_HOVER;
+    var11 = var11.INTERACTIVE_BACKGROUND_HOVER;
     var10['backgroundColor'] = var11;
     var4['passthroughActive'] = var10;
     var10 = {};
@@ -425,7 +425,7 @@ case 45:
                     var12 = var14[var12];
                     var12 = var13.bind(var2)(var12);
                     var12 = var12.colors;
-                    var12 = var12.INTERACTIVE_NORMAL;
+                    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
                     _fun0002_ip = 46; continue _fun0002;
 case 44:
                     var14 = _closure1_slot1;
@@ -463,7 +463,7 @@ case 49:
                     var12 = var14[var12];
                     var12 = var13.bind(var2)(var12);
                     var12 = var12.colors;
-                    var12 = var12.INFO_POSITIVE_FOREGROUND;
+                    var12 = var12.ICON_FEEDBACK_POSITIVE;
                     _fun0002_ip = 50; continue _fun0002;
 case 48:
                     var14 = _closure1_slot1;
@@ -501,7 +501,7 @@ case 53:
                     var9 = var12[var9];
                     var9 = var11.bind(var2)(var9);
                     var9 = var9.colors;
-                    var9 = var9.INFO_DANGER_FOREGROUND;
+                    var9 = var9.ICON_FEEDBACK_CRITICAL;
                     _fun0002_ip = 54; continue _fun0002;
 case 52:
                     var11 = _closure1_slot1;

@@ -262,7 +262,7 @@ case 2:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_ACTIVE;
+    var11 = var11.INTERACTIVE_BACKGROUND_ACTIVE;
     var10['backgroundColor'] = var11;
     var4['pressableUnderlayColor'] = var10;
     var4 = var5.bind(var9)(var4);

@@ -75,14 +75,14 @@ case 2:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BACKDROP;
+    var12 = var12.BACKGROUND_SCRIM;
     var9['backgroundColor'] = var12;
     var4['backdrop'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BACKDROP_NO_OPACITY;
+    var10 = var10.MOBILE_BACKGROUND_SCRIM_OPAQUE;
     var9['backgroundColor'] = var10;
     var4['backdropOpaque'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'height': 16};

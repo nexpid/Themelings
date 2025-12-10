@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'variant': 'heading-lg/extrabold', 'color': 'interactive-active'};
+        var6 = {'variant': 'heading-lg/extrabold', 'color': 'interactive-text-active'};
         var9 = 8;
         var10 = var13[var9];
         var10 = var12.bind(var4)(var10);

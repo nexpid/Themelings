@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var9];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_NESTED_FLOATING;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
     var8['backgroundColor'] = var13;
     var2['bounceOffset'] = var8;
     var8 = {};

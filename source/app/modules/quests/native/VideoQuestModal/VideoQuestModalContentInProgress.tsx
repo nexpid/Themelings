@@ -286,14 +286,14 @@ case 2:
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.INTERACTIVE_ACTIVE;
+            var8 = var8.INTERACTIVE_TEXT_ACTIVE;
             var2['color'] = var8;
             var1['icon'] = var2;
             var2 = {};
             var8 = var3[var6];
             var8 = var4.bind(var5)(var8);
             var8 = var8.colors;
-            var8 = var8.INTERACTIVE_NORMAL;
+            var8 = var8.INTERACTIVE_TEXT_DEFAULT;
             var2['color'] = var8;
             var1['iconDisabled'] = var2;
             var2 = {};
@@ -488,7 +488,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useDerivedValue;
-            var6 = function G() {
+            var6 = function F() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -536,7 +536,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function q() {
+            var6 = function G() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -555,7 +555,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function F() {
+            var6 = function q() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;

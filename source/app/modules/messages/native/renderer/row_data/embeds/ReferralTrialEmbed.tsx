@@ -101,7 +101,7 @@ case 4:
             var10 = var9[var6];
             var10 = var8.bind(var7)(var10);
             var10 = var10.colors;
-            var10 = var10.INTERACTIVE_NORMAL;
+            var10 = var10.INTERACTIVE_TEXT_DEFAULT;
             var1['subTextColor'] = var10;
             var10 = var9[var6];
             var10 = var8.bind(var7)(var10);

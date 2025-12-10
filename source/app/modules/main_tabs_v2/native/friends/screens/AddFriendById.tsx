@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var15];
     var15 = var16.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_ACTIVE;
+    var15 = var15.INTERACTIVE_TEXT_ACTIVE;
     var14['color'] = var15;
     var4['activityIndicator'] = var14;
     var14 = {'marginTop': 8, 'flexGrow': 0};

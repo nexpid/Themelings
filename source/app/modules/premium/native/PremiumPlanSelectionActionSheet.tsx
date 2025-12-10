@@ -375,7 +375,7 @@ case 9:
             var9 = var16[var9];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-default'};
+            var9 = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-default', 'accessibilityRole': 'header'};
             var12 = var12.headerText;
             var9['style'] = var12;
             var12 = 16;
@@ -815,11 +815,11 @@ case 66:
             var8 = 'text-lg/medium';
 case 65:
             var5['variant'] = var8;
-            var19 = 'interactive-normal';
+            var19 = 'interactive-text-default';
             var8 = var19;
             if(!var20) { _fun0005_ip = 67; continue _fun0005 }
 case 68:
-            var8 = 'interactive-active';
+            var8 = 'interactive-text-active';
 case 67:
             var5['color'] = var8;
             var8 = var36;
@@ -865,7 +865,7 @@ case 69:
             var29 = var19;
             if(!var20) { _fun0005_ip = 71; continue _fun0005 }
 case 72:
-            var29 = 'interactive-active';
+            var29 = 'interactive-text-active';
 case 71:
             var12['color'] = var29;
             var12['children'] = var28;
@@ -1388,7 +1388,7 @@ case 125:
             var8 = var1.initialSelectedCriteria;
             if(!(var8 === var4)) { _fun0009_ip = 129; continue _fun0009 }
 case 130:
-            var8 = function A(arg1) {
+            var8 = function b(arg1) {
                 var1 = arg1;
                 var2 = var1.interval;
                 var1 = _closure1_slot18;
@@ -1400,7 +1400,7 @@ case 129:
             var12 = var1.sortFn;
             if(!(var12 === var4)) { _fun0009_ip = 131; continue _fun0009 }
 case 132:
-            var12 = function b(arg1, arg2) {
+            var12 = function A(arg1, arg2) {
                 var1 = arg2;
                 var2 = var1.interval;
                 var1 = arg1;

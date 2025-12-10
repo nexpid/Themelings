@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var12[var16];
         var16 = var17.bind(var4)(var16);
         var16 = var16.colors;
-        var16 = var16.ICON_PRIMARY;
+        var16 = var16.ICON_STRONG;
         var8['color'] = var16;
         var8 = var13.bind(var4)(var11, var8);
         var5['children'] = var8;
@@ -254,7 +254,7 @@ case 2:
         var9 = var12[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.XSmallBoldIcon;
-        var9 = {'size': 'sm', 'color': 'icon-secondary'};
+        var9 = {'size': 'sm', 'color': 'icon-subtle'};
         var9 = var11.bind(var4)(var10, var9);
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);

@@ -497,7 +497,7 @@ case 29:
             var10 = var14[var10];
             var10 = var12.bind(var4)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-active'};
+            var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-active'};
             var15 = var15.channelNameText;
             var10['style'] = var15;
             var10['children'] = var13;

@@ -242,7 +242,7 @@ case 22:
             }
         };
         var5['value'] = var2;
-        var2 = new Array(10);
+        var2 = new Array(11);
         var2[0] = var5;
         var5 = {};
         var7 = 'parse';
@@ -662,6 +662,42 @@ case 46:
         var5['value'] = var7;
         var2[5] = var5;
         var5 = {};
+        var7 = 'getRaw';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                var3 = arg1;
+                var1 = this;
+                var4 = var1.storage;
+                var2 = var4.hasOwnProperty;
+                var4 = var2.bind(var4)(var3);
+                var2 = null;
+                if(var4) { _fun0012_ip = 59; continue _fun0012 }
+case 38:
+                return var2;
+case 59:
+                var1 = var1.storage;
+                var3 = var1[var3];
+                var4 = var3.parsed;
+                var1 = null;
+                if(var4) { _fun0012_ip = 26; continue _fun0012 }
+case 16:
+                var3 = var3.rawData;
+                var4 = var2 != var3;
+                var2 = null;
+                if(!var4) { _fun0012_ip = 27; continue _fun0012 }
+case 24:
+                var2 = var3;
+case 27:
+                var1 = var2;
+case 26:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var2[6] = var5;
+        var5 = {};
         var7 = 'set';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
@@ -684,68 +720,74 @@ case 46:
             return var1;
         };
         var5['value'] = var7;
-        var2[6] = var5;
+        var2[7] = var5;
         var5 = {};
         var7 = 'setRaw';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var4 = arg1;
                 var3 = arg2;
-                var2 = 'string';
-                var1 = typeof var4;
-                if(!(var2 === var1)) { _fun0012_ip = 45; continue _fun0012 }
-case 59:
-                var1 = typeof var3;
-                if(!(var2 === var1)) { _fun0012_ip = 60; continue _fun0012 }
-case 13:
                 var1 = this;
+                var5 = 'string';
+                var2 = typeof var4;
+                if(!(var5 === var2)) { _fun0013_ip = 60; continue _fun0013 }
+case 61:
+                var2 = typeof var3;
+                if(!(var5 === var2)) { _fun0013_ip = 62; continue _fun0013 }
+case 59:
+                var5 = var1.storage;
+                var2 = {};
+                var6 = false;
+                var2['parsed'] = var6;
+                var2['rawData'] = var3;
+                var5[var4] = var2;
                 var2 = var1.secureKeys;
                 var1 = var2.has;
                 var2 = var1.bind(var2)(var4);
-                if(var2) { _fun0012_ip = 61; continue _fun0012 }
-case 62:
+                if(var2) { _fun0013_ip = 63; continue _fun0013 }
+case 64:
                 var5 = _closure1_slot5;
                 var2 = var5.setItem;
                 var2 = var2.bind(var5)(var4, var3);
-                _fun0012_ip = 63; continue _fun0012;
-case 61:
+                _fun0013_ip = 65; continue _fun0013;
+case 63:
                 var2 = _closure1_slot6;
                 var1 = var2.setItem;
                 var1 = var1.bind(var2)(var4, var3);
-case 63:
+case 65:
                 var1 = undefined;
                 return var1;
+case 62:
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var8 = 'value must be a string';
+                var9 = var2;
+                var1 = new var9[var3](var8, var7);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
 case 60:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
                 var2 = Object.create(var1, {constructor: {value: var3}});
-                var7 = 'value must be a string';
-                var8 = var2;
-                var1 = new var8[var3](var7, var6);
-                var1 = var1 instanceof Object ? var1 : var2;
-                throw var1;
-case 45:
-                var1 = global;
-                var3 = var1.Error;
-                var1 = var3.prototype;
-                var2 = Object.create(var1, {constructor: {value: var3}});
-                var7 = 'Key must be a string';
-                var8 = var2;
-                var1 = new var8[var3](var7, var6);
+                var8 = 'Key must be a string';
+                var9 = var2;
+                var1 = new var9[var3](var8, var7);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
             }
         };
         var5['value'] = var7;
-        var2[7] = var5;
+        var2[8] = var5;
         var5 = {};
         var7 = 'remove';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var3 = arg1;
                 var1 = this;
@@ -754,28 +796,28 @@ case 0:
                 var2 = var1.secureKeys;
                 var1 = var2.has;
                 var2 = var1.bind(var2)(var3);
-                if(var2) { _fun0013_ip = 64; continue _fun0013 }
+                if(var2) { _fun0014_ip = 66; continue _fun0014 }
 case 2:
                 var4 = _closure1_slot5;
                 var2 = var4.removeItem;
                 var2 = var2.bind(var4)(var3);
-                _fun0013_ip = 65; continue _fun0013;
-case 64:
+                _fun0014_ip = 67; continue _fun0014;
+case 66:
                 var2 = _closure1_slot6;
                 var1 = var2.removeItem;
                 var1 = var1.bind(var2)(var3);
-case 65:
+case 67:
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var7;
-        var2[8] = var5;
+        var2[9] = var5;
         var5 = {};
         var7 = 'clear';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var1 = this;
                 var2 = {};
@@ -785,7 +827,7 @@ case 0:
                 var3 = var3.bind(var4)();
                 var4 = _closure1_slot6;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0014_ip = 26; continue _fun0014 }
+                if(!(var3 != var4)) { _fun0015_ip = 26; continue _fun0015 }
 case 2:
                 var3 = _closure1_slot6;
                 var2 = var3.clear;
@@ -801,7 +843,7 @@ case 26:
             }
         };
         var5['value'] = var6;
-        var2[9] = var5;
+        var2[10] = var5;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };

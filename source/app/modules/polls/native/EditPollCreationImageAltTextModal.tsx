@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_HOVER;
+    var12 = var12.INTERACTIVE_BACKGROUND_HOVER;
     var9['borderColor'] = var12;
     var4['separator'] = var9;
     var9 = {'flex': 1, 'justifyContent': 'center'};

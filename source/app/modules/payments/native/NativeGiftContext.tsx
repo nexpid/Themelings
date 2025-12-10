@@ -292,7 +292,7 @@ case 7:
             _closure2_slot30 = var13;
             var11 = var29[var8];
             var12 = var14.bind(var5)(var11);
-            var11 = var12.useClaimableGiftingPromotionRewards;
+            var11 = var12.useFetchClaimableGiftingPromotionRewards;
             var12 = var11.bind(var12)();
             _closure2_slot31 = var12;
             var8 = var29[var8];

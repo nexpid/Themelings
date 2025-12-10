@@ -88,7 +88,7 @@ case 9:
             var5 = var8.BACKGROUND_SURFACE_HIGH;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var5 = var8.BORDER_FAINT;
+            var5 = var8.BORDER_MUTED;
 case 10:
             var2['borderColor'] = var5;
             var5 = _closure1_slot1;

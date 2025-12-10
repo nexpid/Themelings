@@ -321,7 +321,7 @@ case 13:
                 var2 = var2.colors;
                 if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 15:
-                var13 = var2.INTERACTIVE_NORMAL;
+                var13 = var2.INTERACTIVE_TEXT_DEFAULT;
                 _fun0003_ip = 7; continue _fun0003;
 case 6:
                 var13 = var2.WHITE;

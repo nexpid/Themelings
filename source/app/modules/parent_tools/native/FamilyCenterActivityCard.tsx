@@ -584,7 +584,7 @@ case 16:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.ICON_SECONDARY;
+    var18 = var18.ICON_SUBTLE;
     var15['color'] = var18;
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
@@ -642,7 +642,7 @@ case 16:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_OVERLAY;
+    var18 = var18.BACKGROUND_SURFACE_HIGHEST;
     var15['backgroundColor'] = var18;
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
@@ -811,7 +811,7 @@ case 24:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_OVERLAY;
+    var18 = var18.BACKGROUND_SURFACE_HIGHEST;
     var17['backgroundColor'] = var18;
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
@@ -824,7 +824,7 @@ case 24:
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_NORMAL;
+    var18 = var18.INTERACTIVE_TEXT_DEFAULT;
     var17['color'] = var18;
     var18 = var9[var13];
     var18 = var14.bind(var1)(var18);

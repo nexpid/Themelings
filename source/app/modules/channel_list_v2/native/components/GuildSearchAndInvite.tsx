@@ -617,7 +617,7 @@ case 34:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BRAND;
+            var3 = var3.BACKGROUND_BRAND;
             var2['backgroundColor'] = var3;
             var1['badge'] = var2;
             return var1;

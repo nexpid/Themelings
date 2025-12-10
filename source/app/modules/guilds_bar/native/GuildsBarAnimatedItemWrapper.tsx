@@ -417,7 +417,7 @@ case 18:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var11['backgroundColor'] = var13;
     var6['unreadIndicator'] = var11;
     var11 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 16, 'height': null, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
@@ -497,7 +497,7 @@ case 29:
             var3 = var9[var3];
             var3 = var8.bind(var7)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BRAND;
+            var3 = var3.BACKGROUND_BRAND;
             _fun0005_ip = 30; continue _fun0005;
 case 28:
             if(var6) { _fun0005_ip = 31; continue _fun0005 }

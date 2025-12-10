@@ -304,7 +304,7 @@ case 0:
                         var6 = var8[var6];
                         var6 = var7.bind(var4)(var6);
                         var7 = var6.Text;
-                        var6 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+                        var6 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
                         var8 = var1.bind(var4)();
                         var6['children'] = var8;
                         var6 = var5.bind(var4)(var7, var6);
@@ -387,7 +387,7 @@ case 0:
                     var3 = var16[var2];
                     var3 = var19.bind(var7)(var3);
                     var15 = var3.Text;
-                    var3 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+                    var3 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
                     var17 = var16[var13];
                     var17 = var19.bind(var7)(var17);
                     var18 = var17.intl;

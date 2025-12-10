@@ -82,14 +82,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INFO_WARNING_FOREGROUND;
+    var12 = var12.ICON_FEEDBACK_WARNING;
     var9['tintColor'] = var12;
     var4['starIconSelected'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var12;
     var4['starIconUnselected'] = var9;
     var9 = {};

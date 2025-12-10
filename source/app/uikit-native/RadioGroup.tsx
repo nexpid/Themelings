@@ -490,7 +490,7 @@ case 50:
     var16 = var8[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_ACTIVE;
+    var16 = var16.INTERACTIVE_TEXT_ACTIVE;
     var12['borderColor'] = var16;
     var4['radioIconSelected'] = var12;
     var12 = {};
@@ -515,7 +515,7 @@ case 50:
     var17 = var8[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.colors;
-    var18 = var17.INTERACTIVE_NORMAL;
+    var18 = var17.INTERACTIVE_TEXT_DEFAULT;
     var17 = 16;
     var22 = var20.bind(var1)(var19, var18, var17);
     var23 = var12;
@@ -525,7 +525,7 @@ case 50:
     var17 = var8[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.INTERACTIVE_ACTIVE;
+    var17 = var17.INTERACTIVE_TEXT_ACTIVE;
     var12['color'] = var17;
     var4['radioOptionSelected'] = var12;
     var12 = {};
@@ -535,7 +535,7 @@ case 50:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var16 = var15.INTERACTIVE_NORMAL;
+    var16 = var15.INTERACTIVE_TEXT_DEFAULT;
     var15 = 14;
     var22 = var18.bind(var1)(var17, var16, var15);
     var23 = var12;

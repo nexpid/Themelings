@@ -641,7 +641,7 @@ case 8:
                     var5 = var10[var5];
                     var5 = var7.bind(var3)(var5);
                     var7 = var5.Text;
-                    var5 = {'variant': 'text-md/medium', 'color': 'interactive-normal', 'style': null, 'allowFontScaling': false};
+                    var5 = {'variant': 'text-md/medium', 'color': 'interactive-text-default', 'style': null, 'allowFontScaling': false};
                     var12 = var11.defaultEmoji;
                     var10 = new Array(2);
                     var10[0] = var12;

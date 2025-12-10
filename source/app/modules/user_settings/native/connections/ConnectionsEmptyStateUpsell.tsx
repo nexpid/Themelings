@@ -219,7 +219,7 @@ case 8:
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-md/medium', 'color': 'interactive-normal'};
+        var5 = {'variant': 'text-md/medium', 'color': 'interactive-text-default'};
         var8 = global;
         var8 = var8.HermesInternal;
         var9 = var8.concat;

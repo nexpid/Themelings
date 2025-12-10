@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var13;
     var4['emojiText'] = var9;
     var9 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_NORMAL;
+    var10 = var10.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var10;
     var4['icon'] = var9;
     var9 = {'marginLeft': 6, 'marginTop': 6};

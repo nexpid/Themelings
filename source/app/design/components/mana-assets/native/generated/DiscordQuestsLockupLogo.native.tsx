@@ -49,7 +49,7 @@ case 3:
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.colors;
-            var3 = var2.ICON_PRIMARY;
+            var3 = var2.ICON_STRONG;
 case 2:
             var11 = var1.width;
             if(!(var11 === var4)) { _fun0001_ip = 4; continue _fun0001 }

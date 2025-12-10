@@ -118,7 +118,7 @@ case 0:
             var15 = var20[var15];
             var15 = var17.bind(var4)(var15);
             var17 = var15.Text;
-            var15 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var15 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var20 = var10.subscriptionSlotInfoTitle;
             var15['style'] = var20;
             var15['children'] = var19;
@@ -545,7 +545,7 @@ case 25:
             var10 = var23[var15];
             var10 = var19.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'interactive-active'};
+            var10 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'interactive-text-active'};
             var14 = var18.guildInfoName;
             var10['style'] = var14;
             var13 = var13.name;
@@ -574,7 +574,7 @@ case 25:
             var15 = var23[var15];
             var15 = var19.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'interactive-active'};
+            var15 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'interactive-text-active'};
             var18 = var18.guildInfoSubscriptionCount;
             var15['style'] = var18;
             var18 = 13;
@@ -891,7 +891,7 @@ case 33:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var17 = var15.INTERACTIVE_ACTIVE;
+    var17 = var15.INTERACTIVE_TEXT_ACTIVE;
     var15 = 20;
     var21 = var19.bind(var1)(var18, var17, var15);
     var22 = var9;

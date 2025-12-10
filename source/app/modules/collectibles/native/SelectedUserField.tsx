@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INPUT_BACKGROUND;
+    var10 = var10.INPUT_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
@@ -126,7 +126,7 @@ case 0:
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.MagnifyingGlassIcon;
-            var5 = {'style': null, 'size': 'xs', 'color': 'interactive-normal'};
+            var5 = {'style': null, 'size': 'xs', 'color': 'interactive-text-default'};
             var8 = var20.searchIcon;
             var5['style'] = var8;
             var16 = 'xs';

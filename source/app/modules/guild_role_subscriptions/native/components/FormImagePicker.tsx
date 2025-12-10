@@ -374,7 +374,7 @@ case 35:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_NORMAL;
+    var15 = var15.INTERACTIVE_TEXT_DEFAULT;
     var12['backgroundColor'] = var15;
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);

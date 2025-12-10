@@ -39,15 +39,15 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot16 = var1;
     var9 = function handleConnectionClosedOrResumed() {
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot17;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
@@ -107,7 +107,7 @@ case 6:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = function resetEditInfo_(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -131,7 +131,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot18 = var1;
     var10 = function handleUserSettingsProtoUpdate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -148,7 +148,7 @@ case 0:
             var1 = var1[var5];
             if(!var4) { _fun0004_ip = 3; continue _fun0004 }
 case 14:
-            var5 = _closure1_slot16;
+            var5 = _closure1_slot18;
             var4 = undefined;
             var4 = var5.bind(var4)(var1);
 case 3:
@@ -157,7 +157,7 @@ case 16:
             var1['proto'] = var9;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 8;
+            var3 = 10;
             var3 = var5[var3];
             var6 = undefined;
             var5 = var4.bind(var6)(var3);
@@ -177,7 +177,7 @@ case 16:
 case 15:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 9;
+            var3 = 11;
             var3 = var5[var3];
             var4 = undefined;
             var8 = var6.bind(var4)(var3);
@@ -187,7 +187,7 @@ case 15:
             var3 = var7.bind(var8)(var6, var3, var9);
             var1['proto'] = var3;
             var3 = _closure1_slot1;
-            var2 = 8;
+            var2 = 10;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var1 = var1.proto;
@@ -211,7 +211,7 @@ case 0:
 case 19:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var3 = 11;
+            var3 = 13;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var5.bind(var3)(var4);
@@ -220,83 +220,146 @@ case 19:
             var1 = function(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var3 = arg1;
-                    var4 = _closure2_slot0;
+                    var2 = arg1;
                     var1 = global;
-                    var5 = var1.Number;
+                    var4 = var1.Number;
                     var1 = undefined;
-                    var2 = arg2;
-                    var2 = var5.bind(var1)(var2);
-                    var2 = var4[var2];
-                    var4 = null;
-                    if(!(var4 != var2)) { _fun0006_ip = 20; continue _fun0006 }
+                    var3 = arg2;
+                    var9 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot0;
+                    var3 = var3[var9];
+                    var7 = null;
+                    var4 = var7 != var3;
+                    if(!var4) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
-                    var6 = var4 == var2;
+                    var6 = var7 == var3;
                     var5 = undefined;
-                    if(var6) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
-                    var5 = var2.proto;
+                    if(var6) { _fun0006_ip = 14; continue _fun0006 }
 case 22:
-                    var6 = var4 != var5;
-                    var10 = '';
-                    if(!var6) { _fun0006_ip = 3; continue _fun0006 }
-case 24:
+                    var5 = var3.proto;
+case 14:
+                    var6 = var7 != var5;
+                    var8 = '';
+                    var10 = var8;
+                    if(!var6) { _fun0006_ip = 23; continue _fun0006 }
+case 16:
                     var10 = var5;
-case 3:
-                    var8 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var7 = 9;
-                    var6 = var6[var7];
-                    var9 = var8.bind(var1)(var6);
-                    var8 = var9.b64ToProto;
-                    var6 = var3.ProtoClass;
-                    var6 = var8.bind(var9)(var6, var10);
-                    if(!(var4 != var6)) { _fun0006_ip = 20; continue _fun0006 }
+case 23:
+                    var5 = true;
+                    if(!(var8 !== var10)) { _fun0006_ip = 24; continue _fun0006 }
 case 25:
-                    var3['proto'] = var6;
-                    var8 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var6 = 8;
-                    var6 = var9[var6];
-                    var9 = var8.bind(var1)(var6);
-                    var6 = var3.proto;
-                    var8 = 'string';
-                    var6 = typeof var6;
-                    var8 = var8 !== var6;
-                    var6 = 'UserSettingsProto cannot be a string';
-                    var6 = var9.bind(var1)(var8, var6);
-                    var8 = var4 == var2;
-                    var6 = undefined;
-                    if(var8) { _fun0006_ip = 26; continue _fun0006 }
+                    var12 = _closure1_slot15;
+                    var8 = var12.readParsedProto;
+                    var8 = var8.bind(var12)(var9, var10);
+                    if(!(var7 == var8)) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
-                    var6 = var2.protoToSave;
-case 26:
-                    var9 = var4 != var6;
-                    var8 = null;
-                    if(!var9) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
-                    var8 = var6;
+                    var13 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var12 = 11;
+                    var12 = var14[var12];
+                    var14 = var13.bind(var1)(var12);
+                    var13 = var14.b64ToProto;
+                    var12 = var2.ProtoClass;
+                    var12 = var13.bind(var14)(var12, var10);
+                    if(!(var7 != var12)) { _fun0006_ip = 28; continue _fun0006 }
+case 6:
+                    var2['proto'] = var12;
+                    var14 = _closure1_slot15;
+                    var13 = var14.writeParsedProto;
+                    var12 = var2.proto;
+                    var12 = var13.bind(var14)(var9, var10, var12);
+                    var5 = true;
+                    _fun0006_ip = 24; continue _fun0006;
 case 28:
-                    if(!(var4 != var8)) { _fun0006_ip = 20; continue _fun0006 }
-case 30:
-                    var6 = var2.offlineEditDataVersion;
-                    if(!(var4 != var6)) { _fun0006_ip = 20; continue _fun0006 }
-case 31:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var7];
-                    var7 = var6.bind(var1)(var5);
-                    var6 = var7.b64ToProto;
-                    var5 = var3.ProtoClass;
-                    var5 = var6.bind(var7)(var5, var8);
-                    if(!(var4 != var5)) { _fun0006_ip = 20; continue _fun0006 }
-case 32:
-                    var4 = var3.editInfo;
-                    var4['protoToSave'] = var5;
-                    var3 = var3.editInfo;
-                    var2 = var2.offlineEditDataVersion;
-                    var3['offlineEditDataVersion'] = var2;
+                    var13 = _closure1_slot14;
+                    var12 = var13.warn;
+                    var11 = {};
+                    var11['type'] = var9;
+                    var11['b64'] = var10;
+                    var10 = 'b64ToProto returned null';
+                    var10 = var12.bind(var13)(var10, var11);
+                    var5 = false;
+                    _fun0006_ip = 24; continue _fun0006;
+case 26:
+                    var2['proto'] = var8;
+                    var5 = true;
+case 24:
+                    var4 = var5;
 case 20:
+                    if(!var4) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 10;
+                    var4 = var8[var4];
+                    var8 = var5.bind(var1)(var4);
+                    var4 = var2.proto;
+                    var5 = 'string';
+                    var4 = typeof var4;
+                    var5 = var5 !== var4;
+                    var4 = 'UserSettingsProto cannot be a string';
+                    var4 = var8.bind(var1)(var5, var4);
+                    var4 = var7 == var3;
+                    var5 = undefined;
+                    if(var4) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
+                    var5 = var3.protoToSave;
+case 31:
+                    var8 = var7 != var5;
+                    var4 = null;
+                    if(!var8) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
+                    var4 = var5;
+case 33:
+                    var3 = var3.offlineEditDataVersion;
+                    if(!(var7 != var4)) { _fun0006_ip = 29; continue _fun0006 }
+case 35:
+                    if(!(var7 != var3)) { _fun0006_ip = 29; continue _fun0006 }
+case 36:
+                    var8 = _closure1_slot15;
+                    var5 = var8.readProtoToSave;
+                    var5 = var5.bind(var8)(var9, var4, var3);
+                    if(!(var7 == var5)) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 11;
+                    var8 = var11[var8];
+                    var11 = var10.bind(var1)(var8);
+                    var10 = var11.b64ToProto;
+                    var8 = var2.ProtoClass;
+                    var8 = var10.bind(var11)(var8, var4);
+                    if(!(var7 != var8)) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
+                    var7 = var2.editInfo;
+                    var7['protoToSave'] = var8;
+                    var7 = var2.editInfo;
+                    var7['offlineEditDataVersion'] = var3;
+                    var10 = _closure1_slot15;
+                    var8 = var10.writeProtoToSave;
+                    var7 = var2.editInfo;
+                    var15 = var7.protoToSave;
+                    var19 = var10;
+                    var18 = var9;
+                    var17 = var4;
+                    var16 = var3;
+                    var7 = var19[var8](var18, var17, var16, var15, var14);
+                    _fun0006_ip = 29; continue _fun0006;
+case 39:
+                    var8 = _closure1_slot14;
+                    var7 = var8.warn;
+                    var6 = {};
+                    var6['type'] = var9;
+                    var6['protoToSaveB64'] = var4;
+                    var4 = 'b64ToProto returned null for protoToSave';
+                    var4 = var7.bind(var8)(var4, var6);
+                    _fun0006_ip = 29; continue _fun0006;
+case 37:
+                    var4 = var2.editInfo;
+                    var4['protoToSave'] = var5;
+                    var2 = var2.editInfo;
+                    var2['offlineEditDataVersion'] = var3;
+case 29:
                     return var1;
                 }
             };
@@ -306,7 +369,7 @@ case 18:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var11 = var1.Object;
     var8 = var11.defineProperty;
@@ -383,11 +446,32 @@ case 18:
     var8[var11] = var12;
     var _closure1_slot12 = var8;
     var _closure1_slot13 = var2;
-    var2 = 13;
+    var2 = 8;
     var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var8 = var2.PersistedStore;
-    var2 = function(arg1) {
+    var8 = var7.bind(var1)(var2);
+    var2 = var8.prototype;
+    var11 = Object.create(var2, {constructor: {value: var8}});
+    var2 = 'UserSettingsProtoStore';
+    var20 = var11;
+    var19 = var2;
+    var8 = new var20[var8](var19, var18);
+    var8 = var8 instanceof Object ? var8 : var11;
+    var _closure1_slot14 = var8;
+    var8 = 9;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var11 = var8.prototype;
+    var11 = Object.create(var11, {constructor: {value: var8}});
+    var20 = var11;
+    var19 = var2;
+    var8 = new var20[var8](var19, var18);
+    var8 = var8 instanceof Object ? var8 : var11;
+    var _closure1_slot15 = var8;
+    var8 = 15;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var11 = var8.PersistedStore;
+    var8 = function(arg1) {
         var4 = function UserSettingsProtoStore() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -400,16 +484,16 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                if(var1) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0007_ip = 35; continue _fun0007;
-case 33:
+                _fun0007_ip = 43; continue _fun0007;
+case 41:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -418,7 +502,7 @@ case 33:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 35:
+case 43:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -433,7 +517,7 @@ case 35:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot19;
             var1 = undefined;
             var2 = arg1;
             var2 = var3.bind(var1)(var2);
@@ -457,54 +541,78 @@ case 35:
         var7 = function value() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 11;
+            var2 = 13;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
             var3 = var4.mapValues;
             var2 = _closure1_slot12;
-            var1 = function(arg1) {
+            var1 = function(arg1, arg2) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var2 = arg1;
+                    var1 = global;
+                    var3 = var1.Number;
+                    var6 = undefined;
+                    var1 = arg2;
+                    var7 = var3.bind(var6)(var1);
                     var1 = {};
-                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var6 = 9;
-                    var4 = var4[var6];
-                    var5 = undefined;
-                    var9 = var7.bind(var5)(var4);
-                    var8 = var9.protoToB64;
-                    var7 = var2.ProtoClass;
+                    var8 = 11;
+                    var4 = var4[var8];
+                    var10 = var5.bind(var6)(var4);
+                    var9 = var10.protoToB64;
+                    var5 = var2.ProtoClass;
                     var4 = var2.proto;
-                    var4 = var8.bind(var9)(var7, var4);
+                    var4 = var9.bind(var10)(var5, var4);
                     var1['proto'] = var4;
+                    var11 = _closure1_slot15;
+                    var10 = var11.writeParsedProto;
+                    var4 = var1.proto;
+                    var9 = null;
+                    var12 = var9 != var4;
+                    var5 = '';
+                    if(!var12) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+                    var5 = var4;
+case 44:
+                    var4 = var2.proto;
+                    var4 = var10.bind(var11)(var7, var5, var4);
                     var4 = var2.editInfo;
                     var4 = var4.offlineEditDataVersion;
-                    var8 = null;
-                    var4 = var8 != var4;
-                    if(!var4) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
-                    var7 = var2.editInfo;
-                    var7 = var7.protoToSave;
-                    var4 = var8 != var7;
-case 36:
-                    if(!var4) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var6];
-                    var6 = var4.bind(var5)(var3);
-                    var5 = var6.protoToB64;
-                    var4 = var2.ProtoClass;
-                    var3 = var2.editInfo;
-                    var3 = var3.protoToSave;
-                    var3 = var5.bind(var6)(var4, var3);
-                    var1['protoToSave'] = var3;
+                    var4 = var9 != var4;
+                    if(!var4) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
+                    var5 = var2.editInfo;
+                    var5 = var5.protoToSave;
+                    var4 = var9 != var5;
+case 46:
+                    if(!var4) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var8 = var5.bind(var6)(var4);
+                    var6 = var8.protoToB64;
+                    var5 = var2.ProtoClass;
+                    var4 = var2.editInfo;
+                    var4 = var4.protoToSave;
+                    var4 = var6.bind(var8)(var5, var4);
+                    var1['protoToSave'] = var4;
+                    var4 = var2.editInfo;
+                    var4 = var4.offlineEditDataVersion;
+                    var1['offlineEditDataVersion'] = var4;
+                    var6 = _closure1_slot15;
+                    var5 = var6.writeProtoToSave;
+                    var15 = var1.protoToSave;
+                    var14 = var1.offlineEditDataVersion;
                     var2 = var2.editInfo;
-                    var2 = var2.offlineEditDataVersion;
-                    var1['offlineEditDataVersion'] = var2;
-case 38:
+                    var13 = var2.protoToSave;
+                    var17 = var6;
+                    var16 = var7;
+                    var2 = var17[var5](var16, var15, var14, var13, var12);
+case 48:
                     return var1;
                 }
             };
@@ -576,14 +684,14 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var4 = undefined;
-                if(var3) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+                if(var3) { _fun0009_ip = 50; continue _fun0009 }
+case 51:
                 var4 = var2.folders;
-case 40:
+case 50:
                 var2 = var1 == var4;
                 var1 = null;
-                if(var2) { _fun0009_ip = 42; continue _fun0009 }
-case 43:
+                if(var2) { _fun0009_ip = 52; continue _fun0009 }
+case 53:
                 var3 = var4.map;
                 var2 = function(arg1) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
@@ -594,51 +702,51 @@ case 0:
                         var4 = var2 == var1;
                         var5 = undefined;
                         var8 = undefined;
-                        if(var4) { _fun0010_ip = 44; continue _fun0010 }
+                        if(var4) { _fun0010_ip = 54; continue _fun0010 }
 case 13:
                         var8 = var1.value;
-case 44:
+case 54:
                         var1 = var3.color;
                         var6 = var2 == var1;
                         var4 = undefined;
-                        if(var6) { _fun0010_ip = 43; continue _fun0010 }
-case 45:
+                        if(var6) { _fun0010_ip = 53; continue _fun0010 }
+case 55:
                         var4 = var1.value;
-case 43:
+case 53:
                         var1 = {};
                         var6 = var3.guildIds;
                         var1['guildIds'] = var6;
                         var7 = var2 == var8;
                         var6 = undefined;
-                        if(var7) { _fun0010_ip = 37; continue _fun0010 }
-case 24:
+                        if(var7) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                         var7 = global;
                         var7 = var7.Number;
                         var6 = var7.bind(var5)(var8);
-case 37:
+case 56:
                         var1['folderId'] = var6;
                         var6 = var3.name;
                         var7 = var2 == var6;
                         var3 = undefined;
-                        if(var7) { _fun0010_ip = 46; continue _fun0010 }
-case 39:
+                        if(var7) { _fun0010_ip = 45; continue _fun0010 }
+case 58:
                         var3 = var6.value;
-case 46:
+case 45:
                         var1['folderName'] = var3;
                         var3 = var2 == var4;
                         var2 = undefined;
-                        if(var3) { _fun0010_ip = 47; continue _fun0010 }
-case 25:
+                        if(var3) { _fun0010_ip = 59; continue _fun0010 }
+case 60:
                         var3 = global;
                         var3 = var3.Number;
                         var2 = var3.bind(var5)(var4);
-case 47:
+case 59:
                         var1['folderColor'] = var2;
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var2);
-case 42:
+case 52:
                 return var1;
             }
         };
@@ -652,8 +760,8 @@ case 42:
 case 0:
                 var3 = arg1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0011_ip = 48; continue _fun0011 }
-case 49:
+                if(!(var1 != var3)) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
                 var2 = this;
                 var2 = var2.settings;
                 var2 = var2.guilds;
@@ -661,22 +769,22 @@ case 49:
                 var5 = undefined;
                 var4 = undefined;
                 if(var6) { _fun0011_ip = 18; continue _fun0011 }
-case 50:
+case 63:
                 var2 = var2.guilds;
                 var2 = var2[var3];
                 var3 = var1 == var2;
                 var4 = undefined;
                 if(var3) { _fun0011_ip = 18; continue _fun0011 }
-case 51:
+case 64:
                 var4 = var2.guildRecentsDismissedAt;
 case 18:
                 var2 = var1 == var4;
                 var1 = 0;
-                if(var2) { _fun0011_ip = 52; continue _fun0011 }
-case 33:
+                if(var2) { _fun0011_ip = 65; continue _fun0011 }
+case 41:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 12;
+                var2 = 14;
                 var2 = var6[var2];
                 var2 = var3.bind(var5)(var2);
                 var3 = var2.Timestamp;
@@ -684,9 +792,9 @@ case 33:
                 var3 = var2.bind(var3)(var4);
                 var2 = var3.getTime;
                 var1 = var2.bind(var3)();
-case 52:
+case 65:
                 return var1;
-case 48:
+case 61:
                 var1 = 0;
                 return var1;
             }
@@ -703,29 +811,29 @@ case 0:
                 var4 = null;
                 var2 = var4 == var6;
                 var1 = null;
-                if(var2) { _fun0012_ip = 53; continue _fun0012 }
-case 54:
+                if(var2) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
                 var2 = this;
                 var2 = var2.settings;
                 var3 = var2.guilds;
                 var7 = var4 == var3;
                 var2 = undefined;
                 if(var7) { _fun0012_ip = 5; continue _fun0012 }
-case 55:
+case 68:
                 var3 = var3.guilds;
                 var7 = var4 == var3;
                 var2 = undefined;
                 if(var7) { _fun0012_ip = 5; continue _fun0012 }
-case 56:
+case 22:
                 var3 = var3[var6];
                 var4 = var4 == var3;
                 var2 = undefined;
                 if(var4) { _fun0012_ip = 5; continue _fun0012 }
-case 57:
+case 69:
                 var2 = var3.dismissedGuildContent;
 case 5:
                 var1 = var2;
-case 53:
+case 66:
                 return var1;
             }
         };
@@ -743,21 +851,21 @@ case 0:
                 var3 = null;
                 var5 = var3 == var2;
                 var1 = undefined;
-                if(var5) { _fun0013_ip = 58; continue _fun0013 }
-case 44:
+                if(var5) { _fun0013_ip = 70; continue _fun0013 }
+case 54:
                 var5 = var2.guilds;
                 var2 = var3 == var5;
                 var1 = undefined;
-                if(var2) { _fun0013_ip = 58; continue _fun0013 }
-case 21:
+                if(var2) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
                 var2 = arg1;
                 var2 = var5[var2];
                 var3 = var3 == var2;
                 var1 = undefined;
-                if(var3) { _fun0013_ip = 58; continue _fun0013 }
-case 59:
+                if(var3) { _fun0013_ip = 70; continue _fun0013 }
+case 72:
                 var1 = var2.guildDismissibleContentStates;
-case 58:
+case 70:
                 return var1;
             }
         };
@@ -775,16 +883,16 @@ case 0:
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0014_ip = 60; continue _fun0014 }
-case 44:
+                if(var4) { _fun0014_ip = 73; continue _fun0014 }
+case 54:
                 var2 = var3.guilds;
-case 60:
+case 73:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0014_ip = 61; continue _fun0014 }
-case 21:
+                if(!var3) { _fun0014_ip = 21; continue _fun0014 }
+case 71:
                 var1 = var2;
-case 61:
+case 21:
                 return var1;
             }
         };
@@ -793,19 +901,18 @@ case 61:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var2.bind(var1)(var8);
-    var2 = 'UserSettingsProtoStore';
+    var8 = var8.bind(var1)(var11);
     var8['displayName'] = var2;
     var2 = 'UserSettingsProtoStore-Cache';
     var8['persistKey'] = var2;
-    var2 = 14;
+    var2 = 16;
     var2 = var6[var2];
     var19 = var7.bind(var1)(var2);
     var2 = {};
     var11 = function handleCacheLoaded(arg1) {
         var1 = arg1;
         var3 = var1.userSettings;
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot19;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -820,7 +927,7 @@ case 61:
         var3 = var1.changes;
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var4 = 8;
+        var4 = 10;
         var4 = var6[var4];
         var7 = undefined;
         var6 = var5.bind(var7)(var4);
@@ -847,13 +954,13 @@ case 0:
             var1 = arg1;
             var3 = var1.userSettingsProto;
             var1 = null;
-            if(!(var1 != var3)) { _fun0015_ip = 62; continue _fun0015 }
+            if(!(var1 != var3)) { _fun0015_ip = 74; continue _fun0015 }
 case 19:
             var1 = _closure1_slot10;
             var1['proto'] = var3;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 8;
+            var2 = 10;
             var2 = var4[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
@@ -863,10 +970,10 @@ case 19:
             var2 = var2 !== var1;
             var1 = 'UserSettingsProto cannot be a string';
             var1 = var3.bind(var4)(var2, var1);
-case 62:
+case 74:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 9;
+            var1 = 11;
             var3 = var8[var1];
             var1 = undefined;
             var6 = var4.bind(var1)(var3);
@@ -874,7 +981,7 @@ case 62:
             var3 = _closure1_slot10;
             var4 = var3.proto;
             var7 = _closure1_slot1;
-            var3 = 10;
+            var3 = 12;
             var3 = var8[var3];
             var7 = var7.bind(var1)(var3);
             var3 = _closure1_slot8;
@@ -884,17 +991,17 @@ case 62:
             var4 = var3.proto;
             var6 = var3.isDirty;
             var5 = var3.cleanupFuncs;
-            if(!var6) { _fun0015_ip = 63; continue _fun0015 }
-case 64:
-            var7 = _closure1_slot16;
+            if(!var6) { _fun0015_ip = 75; continue _fun0015 }
+case 76:
+            var7 = _closure1_slot18;
             var3 = _closure1_slot10;
             var3 = var7.bind(var1)(var3);
-case 63:
+case 75:
             var3 = _closure1_slot10;
             var3['proto'] = var4;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 8;
+            var4 = 10;
             var4 = var8[var4];
             var8 = var7.bind(var1)(var4);
             var4 = var3.proto;
@@ -921,20 +1028,20 @@ case 63:
 case 0:
                     var1 = arg1;
                     var2 = var1.lazyLoaded;
-                    if(!var2) { _fun0016_ip = 55; continue _fun0016 }
-case 65:
+                    if(!var2) { _fun0016_ip = 68; continue _fun0016 }
+case 77:
                     var3 = var1.editInfo;
                     var2 = false;
                     var3['loaded'] = var2;
                     var1 = var1.editInfo;
                     var1['loading'] = var2;
-case 55:
+case 68:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var4.bind(var5)(var3);
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot17;
             var2 = var2.bind(var1)();
             return var1;
         }
@@ -948,7 +1055,7 @@ case 55:
         var2 = _closure1_slot10;
         var6 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 9;
+        var1 = 11;
         var4 = var5[var1];
         var1 = undefined;
         var6 = var6.bind(var1)(var4);
@@ -956,7 +1063,7 @@ case 55:
         var4 = var4.bind(var6)(var7);
         var2['proto'] = var4;
         var4 = _closure1_slot1;
-        var3 = 8;
+        var3 = 10;
         var3 = var5[var3];
         var4 = var4.bind(var1)(var3);
         var2 = var2.proto;
@@ -969,7 +1076,7 @@ case 55:
     };
     var2['OVERLAY_INITIALIZE'] = var9;
     var4 = function handleLogout() {
-        var3 = _closure1_slot15;
+        var3 = _closure1_slot17;
         var1 = undefined;
         var3 = var3.bind(var1)();
         var3 = global;
@@ -1000,7 +1107,7 @@ case 55:
     var18 = var2;
     var2 = new var20[var8](var19, var18, var17);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

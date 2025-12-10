@@ -130,7 +130,7 @@ case 9:
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BRAND;
+    var15 = var15.BACKGROUND_BRAND;
     var11['backgroundColor'] = var15;
     var8['tagNormal'] = var11;
     var11 = {};
@@ -162,7 +162,7 @@ case 9:
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var11['color'] = var12;
     var8['tagTextInverted'] = var11;
     var8 = var9.bind(var10)(var8);

@@ -236,7 +236,7 @@ case 4:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BRAND;
+    var11 = var11.BACKGROUND_BRAND;
     var9['backgroundColor'] = var11;
     var9['height'] = var10;
     var4['progress'] = var9;

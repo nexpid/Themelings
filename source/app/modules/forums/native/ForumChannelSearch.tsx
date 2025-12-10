@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var11 = var10.INTERACTIVE_ACTIVE;
+    var11 = var10.INTERACTIVE_TEXT_ACTIVE;
     var10 = 14;
     var10 = var13.bind(var1)(var12, var11, var10);
     var4['cancelButtonText'] = var10;

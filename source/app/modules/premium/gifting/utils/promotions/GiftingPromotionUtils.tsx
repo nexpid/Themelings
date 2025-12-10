@@ -60,7 +60,7 @@ case 2:
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/premium/gifting/utils/promotions/GiftingPromotionUtils.tsx';
     var5 = var6.bind(var7)(var5);
-    var5 = function useClaimableGiftingPromotionRewards() {
+    var5 = function useFetchClaimableGiftingPromotionRewards() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = _closure1_slot4;
@@ -186,7 +186,7 @@ case 17:
             return var1;
         }
     };
-    var3['useClaimableGiftingPromotionRewards'] = var5;
+    var3['useFetchClaimableGiftingPromotionRewards'] = var5;
     var5 = function useClaimableGiftingPromotionVariantsRewards() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:

@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var14[var8];
         var8 = var13.bind(var4)(var8);
         var9 = var8.Text;
-        var8 = {'variant': 'text-md/normal', 'color': 'interactive-active'};
+        var8 = {'variant': 'text-md/normal', 'color': 'interactive-text-active'};
         var10 = var10.pgUnavailableText;
         var8['style'] = var10;
         var10 = 8;

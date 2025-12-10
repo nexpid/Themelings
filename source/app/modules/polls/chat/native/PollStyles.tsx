@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['label'] = var7;
         var1['opacity'] = var3;
         var3 = var2.colors;
-        var3 = var3.BACKGROUND_MOD_FAINT;
+        var3 = var3.BACKGROUND_MOD_MUTED;
         var1['answerBackground'] = var3;
         var3 = var2.colors;
         var3 = var3.BACKGROUND_MOD_SUBTLE;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3.HOLLOW;
         var1['radioStyle'] = var3;
         var3 = var2.colors;
-        var3 = var3.INTERACTIVE_ACTIVE;
+        var3 = var3.INTERACTIVE_TEXT_ACTIVE;
         var1['radioBackground'] = var3;
         var2 = var2.colors;
         var2 = var2.WHITE;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var1;
         var5 = copyDataProperties(var8, var7);
         var3 = var3.colors;
-        var5 = var3.BACKGROUND_MODIFIER_ACTIVE;
+        var5 = var3.INTERACTIVE_BACKGROUND_ACTIVE;
         var3 = 'answerFill';
         var1[var3] = var5;
         var3 = _closure1_slot0;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 'radioStyle';
         var1[var3] = var4;
         var3 = var2.colors;
-        var4 = var3.INTERACTIVE_ACTIVE;
+        var4 = var3.INTERACTIVE_TEXT_ACTIVE;
         var3 = 'radioBackground';
         var1[var3] = var4;
         var2 = var2.colors;
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var1;
         var4 = copyDataProperties(var8, var7);
         var4 = var2.colors;
-        var6 = var4.BG_BRAND;
+        var6 = var4.BACKGROUND_BRAND;
         var4 = 'border';
         var1[var4] = var6;
         var6 = 1;
@@ -257,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var1;
         var4 = copyDataProperties(var8, var7);
         var4 = var2.colors;
-        var6 = var4.BG_BRAND;
+        var6 = var4.BACKGROUND_BRAND;
         var4 = 'border';
         var1[var4] = var6;
         var6 = 1;

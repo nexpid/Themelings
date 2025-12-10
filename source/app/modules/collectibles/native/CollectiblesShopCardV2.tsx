@@ -71,7 +71,7 @@ case 2:
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BORDER_FAINT;
+        var13 = var13.BORDER_MUTED;
         var12['borderColor'] = var13;
         var6['cardProfileEffectBorder'] = var12;
         var12 = {'position': 'absolute', 'top': 6, 'right': 6, 'zIndex': 2};

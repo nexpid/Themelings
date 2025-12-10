@@ -154,7 +154,7 @@ case 0:
             var8 = var8.colors;
             if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = var8.INTERACTIVE_NORMAL;
+            var7 = var8.INTERACTIVE_TEXT_DEFAULT;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var7 = var8.WHITE;

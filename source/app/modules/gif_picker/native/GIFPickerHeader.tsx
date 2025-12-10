@@ -143,7 +143,7 @@ case 3:
             var18 = var16[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.colors;
-            var18 = var18.INTERACTIVE_ACTIVE;
+            var18 = var18.INTERACTIVE_TEXT_ACTIVE;
             var12['color'] = var18;
             var18 = 'sm';
             var12['size'] = var18;

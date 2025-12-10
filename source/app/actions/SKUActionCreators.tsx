@@ -795,23 +795,24 @@ case 81:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
                     if(var6) { _fun0006_ip = 82; continue _fun0006 }
 case 83:
-                    var6 = var5.body;
-                    var6 = var6.id;
+                    var10 = var5.body;
+                    var6 = var10.id;
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var3];
                     var9 = var8.bind(var4)(var7);
                     var8 = var9.dispatch;
                     var7 = {};
-                    var10 = 'ORDER_CREATE_SUCCESS';
-                    var7['type'] = var10;
+                    var11 = 'ORDER_CREATE_SUCCESS';
+                    var7['type'] = var11;
                     var7['orderId'] = var6;
+                    var7['order'] = var10;
                     var7 = var8.bind(var9)(var7);
 case 84: // try_end0
                     return var6;
 case 82:
                     return var5;
-case 30: // catch_target0
+case 85: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -866,8 +867,8 @@ case 0:
                     var26 = arg1;
                     var6 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=7);
-                    if(var8) { _fun0007_ip = 85; continue _fun0007 }
-case 86:
+                    if(var8) { _fun0007_ip = 86; continue _fun0007 }
+case 87:
                     var13 = var26;
                     var _closure4_slot0 = var26;
                     var7 = var6;
@@ -934,15 +935,15 @@ case 86:
                     var24 = var25.inTestModeForApplication;
                     var24 = var24.bind(var25)(var26);
                     var19 = var24;
-                    if(var24) { _fun0007_ip = 87; continue _fun0007 }
-case 88:
+                    if(var24) { _fun0007_ip = 88; continue _fun0007 }
+case 89:
                     var26 = _closure1_slot4;
                     var25 = var26.inDevModeForApplication;
                     var24 = var13;
                     var19 = var25.bind(var26)(var24);
-case 87:
+case 88:
                     var18 = var19;
-case 89: // try_start_0
+case 90: // try_start_0
                     var19 = {};
                     var24 = var14;
                     var19['gift'] = var24;
@@ -956,21 +957,21 @@ case 89: // try_start_0
                     var5 = var3;
                     var5 = var24.bind(var25)(var5);
                     SaveGenerator(address=281);
-case 90:
-                    return var5;
 case 91:
+                    return var5;
+case 92:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=23);
-                    if(var24) { _fun0007_ip = 92; continue _fun0007 }
-case 93:
+                    if(var24) { _fun0007_ip = 93; continue _fun0007 }
+case 94:
                     var19['gateway_checkout_context'] = var5;
                     var19['load_id'] = var23;
                     var19['gift_info_options'] = var22;
                     var15 = var19;
-                    if(var18) { _fun0007_ip = 94; continue _fun0007 }
-case 95:
+                    if(var18) { _fun0007_ip = 95; continue _fun0007 }
+case 96:
                     var18 = var3;
                     var22 = null;
-                    if(!(var22 != var18)) { _fun0007_ip = 96; continue _fun0007 }
+                    if(!(var22 != var18)) { _fun0007_ip = 97; continue _fun0007 }
 case 2:
                     var19 = var15;
                     var25 = var3;
@@ -984,7 +985,7 @@ case 2:
                     var18 = var23.createPaymentSourceToken;
                     var18 = var18.bind(var23)(var25);
                     SaveGenerator(address=378);
-case 97:
+case 84:
                     return var18;
 case 98:
                     ResumeGenerator(result_out_reg=17, return_bool_out_reg=22);
@@ -996,7 +997,7 @@ case 100:
                     var19 = var3;
                     var19 = var19.type;
                     var19 = var23.bind(var25)(var19);
-                    if(!var19) { _fun0007_ip = 96; continue _fun0007 }
+                    if(!var19) { _fun0007_ip = 97; continue _fun0007 }
 case 101:
                     var23 = _closure1_slot0;
                     var19 = _closure1_slot2;
@@ -1036,7 +1037,7 @@ case 66:
                     var21 = var27.bind(var28)(var26, var25, var21);
                     var21 = var24 + var21;
                     var23['return_url'] = var21;
-case 96:
+case 97:
                     var21 = var20;
                     if(!(var22 != var21)) { _fun0007_ip = 107; continue _fun0007 }
 case 108:
@@ -1047,7 +1048,7 @@ case 104: // try_end0
                     return var19;
 case 99:
                     return var18;
-case 94: // try_start_1
+case 95: // try_start_1
                     var19 = var15;
                     var18 = true;
                     var19['test_mode'] = var18;
@@ -1164,7 +1165,7 @@ case 122: // try_end1
                     return var11;
 case 117:
                     return var10;
-case 92:
+case 93:
                     return var5;
 case 123: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
@@ -1273,7 +1274,7 @@ case 133:
                     return var3;
 case 131:
                     throw var2;
-case 85:
+case 86:
                     return var1;
                 }
             };

@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BRAND;
+    var11 = var11.BACKGROUND_BRAND;
     var10['backgroundColor'] = var11;
     var7['card'] = var10;
     var7 = var8.bind(var9)(var7);

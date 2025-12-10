@@ -150,7 +150,7 @@ case 2:
         var3 = var6[var3];
         var3 = var4.bind(var5)(var3);
         var3 = var3.colors;
-        var3 = var3.INTERACTIVE_NORMAL;
+        var3 = var3.INTERACTIVE_TEXT_DEFAULT;
         var2['tintColor'] = var3;
         var1['iconColor'] = var2;
         return var1;

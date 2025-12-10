@@ -510,7 +510,7 @@ case 15:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MENTIONED;
+    var14 = var14.MESSAGE_MENTIONED_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var14;
     var4['noticeContainer'] = var9;
     var9 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center', 'backgroundColor': null, 'marginRight': 8, 'width': 18, 'height': 18};

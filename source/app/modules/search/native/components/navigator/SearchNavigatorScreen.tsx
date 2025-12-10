@@ -204,7 +204,7 @@ case 2:
             var9 = var11[var9];
             var9 = var10.bind(var1)(var9);
             var9 = var9.colors;
-            var9 = var9.INTERACTIVE_NORMAL;
+            var9 = var9.INTERACTIVE_TEXT_DEFAULT;
             var7['color'] = var9;
             var7 = var4.bind(var1)(var8, var7);
             var5['children'] = var7;

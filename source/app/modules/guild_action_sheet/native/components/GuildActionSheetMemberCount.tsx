@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_ONLINE;
+    var13 = var13.TEXT_STATUS_ONLINE;
     var10['backgroundColor'] = var13;
     var4['online'] = var10;
     var10 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4};
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.STATUS_OFFLINE;
+    var11 = var11.TEXT_STATUS_OFFLINE;
     var10['backgroundColor'] = var11;
     var4['total'] = var10;
     var4 = var8.bind(var9)(var4);

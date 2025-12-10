@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BACKDROP;
+    var10 = var10.BACKGROUND_SCRIM;
     var4['backgroundColor'] = var10;
     var10 = 'center';
     var7['container'] = var4;

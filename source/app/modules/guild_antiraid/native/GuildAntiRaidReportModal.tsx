@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var1 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var6 = _closure2_slot2;
             var6 = var6.formRow;
             var1['style'] = var6;

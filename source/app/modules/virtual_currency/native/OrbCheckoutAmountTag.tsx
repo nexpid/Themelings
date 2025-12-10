@@ -70,7 +70,7 @@ case 0:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var6 = var5.OrbsIcon;
-            var5 = {'size': 'custom', 'color': 'icon-primary'};
+            var5 = {'size': 'custom', 'color': 'icon-strong'};
             var11 = var11.orbsIcon;
             var5['style'] = var11;
             var6 = var8.bind(var4)(var6, var5);

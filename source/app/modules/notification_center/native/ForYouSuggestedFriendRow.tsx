@@ -80,7 +80,7 @@ case 0:
             var6 = var11[var8];
             var6 = var13.bind(var7)(var6);
             var6 = var6.colors;
-            var6 = var6.BACKGROUND_MOD_FAINT;
+            var6 = var6.BACKGROUND_MOD_MUTED;
             var2['backgroundColor'] = var6;
             var1['rowActive'] = var2;
             var2 = {};

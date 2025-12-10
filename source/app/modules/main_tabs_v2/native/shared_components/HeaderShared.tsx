@@ -266,7 +266,7 @@ case 10:
     var19 = var11[var16];
     var19 = var17.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.INTERACTIVE_NORMAL;
+    var19 = var19.INTERACTIVE_TEXT_DEFAULT;
     var15['tintColor'] = var19;
     var4['actionButtonIcon'] = var15;
     var15 = {'textAlign': 'center', 'fontSize': 18};

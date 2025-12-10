@@ -1500,7 +1500,7 @@ case 37:
                     var11['flexShrink'] = var12;
                     var5['style'] = var11;
                     var12 = _closure2_slot1;
-                    var11 = 'header-muted';
+                    var11 = 'text-muted';
                     if(!var12) { _fun0019_ip = 99; continue _fun0019 }
 case 100:
                     var11 = 'header-primary';
@@ -1636,7 +1636,7 @@ case 101:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_SURFACE_OVERLAY;
+    var12 = var12.BACKGROUND_SURFACE_HIGHEST;
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

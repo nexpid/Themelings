@@ -726,7 +726,7 @@ case 35:
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.CARD_PRIMARY_BG;
+        var3 = var3.CARD_BACKGROUND_DEFAULT;
         var2['backgroundColor'] = var3;
         var1['featuredServerContainer'] = var2;
         return var1;
@@ -801,7 +801,7 @@ case 38:
             var12 = var10[var12];
             var12 = var8.bind(var5)(var12);
             var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'header-muted'};
+            var12 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'text-muted'};
             var17 = var17.subtitle;
             var12['style'] = var17;
             var17 = var10[var16];

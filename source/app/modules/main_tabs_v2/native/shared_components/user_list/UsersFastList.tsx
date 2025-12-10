@@ -388,7 +388,7 @@ case 15:
             var9 = var9[var21];
             var9 = var14.bind(var4)(var9);
             var14 = var9.Text;
-            var9 = {'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+            var9 = {'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
             var9['style'] = var15;
             var15 = new Array(2);
             var15[0] = var16;

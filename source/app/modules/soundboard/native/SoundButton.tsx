@@ -62,7 +62,7 @@ case 0:
         var13 = var6[var14];
         var13 = var9.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.CARD_PRIMARY_BG;
+        var13 = var13.CARD_BACKGROUND_DEFAULT;
         var4['backgroundColor'] = var13;
         var13 = var6[var14];
         var13 = var9.bind(var1)(var13);
@@ -72,7 +72,7 @@ case 0:
         var13 = var6[var14];
         var13 = var9.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BORDER_FAINT;
+        var13 = var13.BORDER_MUTED;
         var4['borderColor'] = var13;
         var13 = var6[var14];
         var13 = var9.bind(var1)(var13);
@@ -123,7 +123,7 @@ case 2:
         var17 = var6[var14];
         var17 = var9.bind(var1)(var17);
         var17 = var17.colors;
-        var17 = var17.BACKGROUND_MOD_FAINT;
+        var17 = var17.BACKGROUND_MOD_MUTED;
         var13['backgroundColor'] = var17;
         var17 = var6[var14];
         var17 = var9.bind(var1)(var17);

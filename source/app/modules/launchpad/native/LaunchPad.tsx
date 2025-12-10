@@ -229,10 +229,10 @@ case 36:
             var7 = var7.colors;
             if(var5) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var5 = var7.INTERACTIVE_NORMAL;
+            var5 = var7.INTERACTIVE_TEXT_DEFAULT;
             _fun0004_ip = 40; continue _fun0004;
 case 38:
-            var5 = var7.INTERACTIVE_ACTIVE;
+            var5 = var7.INTERACTIVE_TEXT_ACTIVE;
 case 40:
             var5 = var6.bind(var4)(var5);
             var1['children'] = var5;
@@ -1131,13 +1131,13 @@ case 96:
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.INPUT_BACKGROUND;
+    var19 = var19.INPUT_BACKGROUND_DEFAULT;
     var14['backgroundColor'] = var19;
     var14['borderRadius'] = var17;
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.INPUT_BORDER;
+    var19 = var19.INPUT_BORDER_DEFAULT;
     var14['borderColor'] = var19;
     var4['tabs'] = var14;
     var14 = {'width': 32, 'height': 32, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};

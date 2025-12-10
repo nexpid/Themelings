@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BG_SURFACE_OVERLAY;
+        var7 = var7.BACKGROUND_SURFACE_HIGHEST;
         var2['backgroundColor'] = var7;
         var1['container'] = var2;
         var2 = {'flex': 1, 'gap': 2};
@@ -335,7 +335,7 @@ case 8:
             var25 = var23[var25];
             var25 = var26.bind(var5)(var25);
             var25 = var25.colors;
-            var25 = var25.INTERACTIVE_NORMAL;
+            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
             var20['color'] = var25;
             var20 = var24.bind(var5)(var21, var20);
             var16['icon'] = var20;

@@ -675,7 +675,7 @@ case 25:
             var14 = var20[var18];
             var14 = var17.bind(var4)(var14);
             var24 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-active'};
+            var14 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-active'};
             var25 = var16.questDockHeaderTertiaryContent;
             var14['style'] = var25;
             var26 = 26;
@@ -722,7 +722,7 @@ case 25:
             var18 = var20[var18];
             var18 = var17.bind(var4)(var18);
             var25 = var18.Text;
-            var18 = {'color': 'interactive-active', 'variant': 'text-sm/medium'};
+            var18 = {'color': 'interactive-text-active', 'variant': 'text-sm/medium'};
             var27 = var20[var26];
             var27 = var17.bind(var4)(var27);
             var28 = var27.intl;
@@ -745,7 +745,7 @@ case 25:
             var28 = var20[var18];
             var28 = var19.bind(var4)(var28);
             var28 = var28.colors;
-            var28 = var28.INTERACTIVE_ACTIVE;
+            var28 = var28.INTERACTIVE_TEXT_ACTIVE;
             var26['color'] = var28;
             var28 = var16.questDockHeaderActionDisclosuresIcon;
             var26['style'] = var28;
@@ -778,7 +778,7 @@ case 25:
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var18 = var18.colors;
-            var18 = var18.INTERACTIVE_ACTIVE;
+            var18 = var18.INTERACTIVE_TEXT_ACTIVE;
             var16['color'] = var18;
             var16 = var15.bind(var4)(var17, var16);
             var13['children'] = var16;

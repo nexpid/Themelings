@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_ACTIVE;
+    var12 = var12.INTERACTIVE_BACKGROUND_ACTIVE;
     var10['backgroundColor'] = var12;
     var4['rowActive'] = var10;
     var10 = {'marginRight': null, 'flexDirection': 'column', 'alignSelf': 'center', 'overflow': 'hidden', 'flexGrow': 1, 'flexShrink': 1};

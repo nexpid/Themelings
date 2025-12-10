@@ -343,7 +343,7 @@ case 15:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.ACTIVITY_CARD_ICON_OVERLAY;
+    var12 = var12.BACKGROUND_MOD_STRONG;
     var9['backgroundColor'] = var12;
     var4['developerIconContainer'] = var9;
     var9 = {};

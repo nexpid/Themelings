@@ -91,7 +91,7 @@ case 3:
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-normal'};
+            var11 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-text-default'};
             var15 = var15.benefitDescription;
             var11['style'] = var15;
             var11['children'] = var14;
@@ -207,7 +207,7 @@ case 2:
     var10 = var6[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_NORMAL;
+    var10 = var10.INTERACTIVE_TEXT_DEFAULT;
     var9['backgroundColor'] = var10;
     var10 = 8;
     var4['headerDot'] = var9;
@@ -215,7 +215,7 @@ case 2:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_HOVER;
+    var12 = var12.INTERACTIVE_BACKGROUND_HOVER;
     var9['borderColor'] = var12;
     var4['separator'] = var9;
     var9 = {'flexDirection': 'row', 'justifyContent': 'flex-start'};

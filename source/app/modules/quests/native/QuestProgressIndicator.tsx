@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.CARD_PRIMARY_BG;
+        var3 = var3.CARD_BACKGROUND_DEFAULT;
         var2['backgroundColor'] = var3;
         var1['opacityMask'] = var2;
         return var1;
@@ -250,7 +250,7 @@ case 10:
             var14 = var3[var8];
             var24 = var10.bind(var4)(var14);
             var22 = var24.useAnimatedStyle;
-            var14 = function b() {
+            var14 = function I() {
                 var1 = {};
                 var3 = _closure2_slot6;
                 var4 = var3.completionGlow;
@@ -275,7 +275,7 @@ case 10:
             var22 = var3[var8];
             var25 = var10.bind(var4)(var22);
             var24 = var25.useAnimatedProps;
-            var22 = function D() {
+            var22 = function b() {
                 var1 = {};
                 var3 = _closure2_slot5;
                 var4 = _closure2_slot7;

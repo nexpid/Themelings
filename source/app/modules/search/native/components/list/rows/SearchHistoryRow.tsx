@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var8[var5];
         var5 = var6.bind(var3)(var5);
         var6 = var5.XSmallIcon;
-        var5 = {'size': 'sm', 'color': 'interactive-normal'};
+        var5 = {'size': 'sm', 'color': 'interactive-text-default'};
         var5 = var7.bind(var3)(var6, var5);
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);
@@ -201,7 +201,7 @@ case 2:
             var8 = var11[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.MagnifyingGlassIcon;
-            var8 = {'size': 'sm', 'color': 'interactive-normal'};
+            var8 = {'size': 'sm', 'color': 'interactive-text-default'};
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -908,7 +908,7 @@ case 21:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INPUT_BACKGROUND;
+    var14 = var14.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var4['iconContainer'] = var10;
     var10 = {};

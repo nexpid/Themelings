@@ -293,7 +293,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_SURFACE_OVERLAY;
+    var13 = var13.BACKGROUND_SURFACE_HIGHEST;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -358,7 +358,7 @@ case 4:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var14;
     var4['closeButtonIcon'] = var10;
     var10 = {};

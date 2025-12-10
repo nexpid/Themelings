@@ -263,7 +263,7 @@ case 16:
             var12 = var20[var12];
             var12 = var17.bind(var4)(var12);
             var17 = var12.Text;
-            var12 = {'style': null, 'lineClamp': 1, 'maxFontSizeMultiplier': 2, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'ellipsizeMode': 'tail'};
+            var12 = {'style': null, 'lineClamp': 1, 'maxFontSizeMultiplier': 2, 'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'ellipsizeMode': 'tail'};
             var19 = var19.text;
             var12['style'] = var19;
             var12['children'] = var15;

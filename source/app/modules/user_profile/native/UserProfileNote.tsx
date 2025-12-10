@@ -196,7 +196,7 @@ case 12:
             var10[1] = var11;
             var5['titleStyle'] = var10;
             var11 = _closure1_slot3;
-            var10 = {'size': 'xs', 'color': 'interactive-normal'};
+            var10 = {'size': 'xs', 'color': 'interactive-text-default'};
             var10 = var11.bind(var4)(var13, var10);
             var5['titleIcon'] = var10;
             if(!var8) { _fun0001_ip = 14; continue _fun0001 }

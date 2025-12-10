@@ -221,7 +221,7 @@ case 14:
                 var11 = 'text-md/semibold';
                 var5['variant'] = var11;
                 var12 = _closure2_slot3;
-                var11 = 'header-muted';
+                var11 = 'text-muted';
                 if(!var12) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
                 var11 = 'header-primary';

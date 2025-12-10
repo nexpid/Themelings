@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var11['tintColor'] = var13;
     var11['marginRight'] = var12;
     var5['headerIcon'] = var11;

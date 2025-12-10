@@ -180,17 +180,10 @@ case 49:
 case 48:
         if(var3) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
-        var4 = var2.window;
-        var4 = var4.GLOBAL_ENV;
-        var4 = var4.SPRIG_API_KEY;
-        var3 = var5 != var4;
-case 50:
-        if(var3) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
         var3 = var2.window;
         var3 = var3.GLOBAL_ENV;
         var3 = var3.MUX_ENV_KEY;
-case 52:
+case 50:
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//discord.com/api';
@@ -294,7 +287,7 @@ case 52:
         var4['ACTIVITY_APPLICATION_HOST'] = var3;
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
-        var3 = '/';
+        var3 = '/assets/';
         var4['PUBLIC_PATH'] = var3;
         var3 = var1.window;
         var3 = var3.GLOBAL_ENV;
@@ -302,10 +295,6 @@ case 52:
         var2 = var2.env;
         var2 = var2.DEV_SESSION_KEY;
         var3['DEV_SESSION_KEY'] = var2;
-        var2 = var1.window;
-        var3 = var2.GLOBAL_ENV;
-        var2 = 'ZaQ2JuStvc';
-        var3['SPRIG_API_KEY'] = var2;
         var1 = var1.window;
         var2 = var1.GLOBAL_ENV;
         var1 = '1qd16mdmdjasipqg3irobln4u';

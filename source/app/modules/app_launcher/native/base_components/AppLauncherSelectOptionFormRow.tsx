@@ -105,7 +105,7 @@ case 2:
             var13 = 'text-default';
             if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var13 = 'interactive-normal';
+            var13 = 'interactive-text-default';
 case 4:
             var9['color'] = var13;
             var13 = 1;

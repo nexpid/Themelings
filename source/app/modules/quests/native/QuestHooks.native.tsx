@@ -387,7 +387,7 @@ case 45:
     var6 = var7.bind(var1)(var6);
     var6 = var6.ThemeTypes;
     var _closure1_slot9 = var6;
-    var6 = 22;
+    var6 = 20;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -494,56 +494,30 @@ case 49:
     var3['useIsMobileQuestDockVisibleBase'] = var5;
     var3['useIsMobileQuestDockVisible'] = var4;
     var4 = function useQuestGameLogotypeAssetUrl(arg1) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
-        var5 = _closure1_slot1;
-        var4 = _closure1_slot2;
-        var3 = 18;
-        var3 = var4[var3];
-        var4 = undefined;
-        var3 = var5.bind(var4)(var3);
-        var5 = var3.bind(var4)();
-        var _closure2_slot1 = var5;
+        var5 = arg1;
+        var _closure2_slot0 = var5;
         var4 = _closure1_slot3;
         var3 = var4.useMemo;
-        var2 = new Array(2);
-        var2[0] = var6;
-        var2[1] = var5;
+        var2 = new Array(1);
+        var2[0] = var5;
         var1 = function() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 19;
-                var2 = var4[var2];
-                var7 = undefined;
-                var5 = var3.bind(var7)(var2);
-                var4 = var5.isThemeDark;
-                var3 = _closure2_slot1;
-                var4 = var4.bind(var5)(var3);
-                var3 = _closure1_slot9;
-                if(var4) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
-                var5 = var3.LIGHT;
-                _fun0011_ip = 53; continue _fun0011;
-case 51:
-                var5 = var3.DARK;
-case 53:
-                var6 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var1 = 20;
-                var3 = var8[var1];
-                var4 = var6.bind(var7)(var3);
-                var3 = var4.getQuestAsset;
-                var2 = _closure2_slot0;
-                var1 = var8[var1];
-                var1 = var6.bind(var7)(var1);
-                var1 = var1.QuestAssetType;
-                var1 = var1.LOGO_TYPE;
-                var1 = var3.bind(var4)(var2, var1, var5);
-                var1 = var1.url;
-                return var1;
-            }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 18;
+            var3 = var8[var2];
+            var6 = undefined;
+            var5 = var7.bind(var6)(var3);
+            var4 = var5.getQuestAsset;
+            var3 = _closure2_slot0;
+            var2 = var8[var2];
+            var2 = var7.bind(var6)(var2);
+            var2 = var2.QuestAssetType;
+            var2 = var2.LOGO_TYPE;
+            var1 = _closure1_slot9;
+            var1 = var1.DARK;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = var1.url;
+            return var1;
         };
         var1 = var3.bind(var4)(var1, var2);
         return var1;
@@ -557,11 +531,11 @@ case 53:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var9 = 20;
+                var9 = 18;
                 var1 = var3[var9];
                 var8 = undefined;
                 var6 = var7.bind(var8)(var1);
@@ -577,8 +551,8 @@ case 0:
                 var3 = var2.questBarHeroVideo;
                 var2 = null;
                 var3 = var2 != var3;
-                if(!var3) { _fun0012_ip = 54; continue _fun0012 }
-case 55:
+                if(!var3) { _fun0011_ip = 51; continue _fun0011 }
+case 52:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
@@ -590,15 +564,15 @@ case 55:
                 var1 = var1.assets;
                 var1 = var1.questBarHeroVideo;
                 var2 = var6.bind(var7)(var3, var1);
-case 54:
+case 51:
                 var1 = {};
                 var3 = var5.isAnimated;
                 var7 = var5.url;
-                if(var3) { _fun0012_ip = 56; continue _fun0012 }
-case 57:
+                if(var3) { _fun0011_ip = 53; continue _fun0011 }
+case 54:
                 var3 = var7;
-                _fun0012_ip = 58; continue _fun0012;
-case 56:
+                _fun0011_ip = 55; continue _fun0011;
+case 53:
                 var6 = var7.replace;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -607,7 +581,7 @@ case 56:
                 var5 = var4.EXTENSION_RE;
                 var4 = '.png';
                 var3 = var6.bind(var7)(var5, var4);
-case 58:
+case 55:
                 var1['staticUrl'] = var3;
                 var1['videoAsset'] = var2;
                 return var1;
@@ -627,7 +601,7 @@ case 58:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 19;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);

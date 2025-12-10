@@ -201,7 +201,7 @@ case 12:
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'lineClamp': 1, 'allowFontScaling': false, 'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+        var5 = {'lineClamp': 1, 'allowFontScaling': false, 'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
         var5['children'] = var11;
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);

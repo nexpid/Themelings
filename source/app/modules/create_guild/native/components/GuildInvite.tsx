@@ -289,7 +289,7 @@ case 2:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_NORMAL;
+    var15 = var15.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var15;
     var4['linkButtonIcon'] = var9;
     var9 = {};

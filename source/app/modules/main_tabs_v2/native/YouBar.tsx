@@ -671,7 +671,7 @@ case 5:
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BG_SURFACE_OVERLAY;
+    var18 = var18.BACKGROUND_SURFACE_HIGHEST;
     var10['backgroundColor'] = var18;
     var18 = var6[var11];
     var18 = var12.bind(var1)(var18);
@@ -686,7 +686,7 @@ case 5:
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BORDER_FAINT;
+    var17 = var17.BORDER_MUTED;
     var10['borderColor'] = var17;
     var17 = var14 / var15;
     var10['borderRadius'] = var17;
@@ -733,7 +733,7 @@ case 5:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -771,7 +771,7 @@ case 5:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BRAND;
+    var11 = var11.BACKGROUND_BRAND;
     var10['backgroundColor'] = var11;
     var4['icymiBadge'] = var10;
     var10 = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0};
@@ -2054,7 +2054,7 @@ case 77:
             var3 = var17[var3];
             var3 = var16.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_SURFACE_OVERLAY;
+            var3 = var3.BACKGROUND_SURFACE_HIGHEST;
             var3 = var6.bind(var8)(var15, var3);
             var16 = _closure1_slot0;
             var1 = var17[var1];

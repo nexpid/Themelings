@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var9['borderColor'] = var13;
     var4['containerSelected'] = var9;
     var9 = {'position': 'absolute', 'right': 18, 'top': 18};
@@ -204,7 +204,7 @@ case 10:
             var11 = var10[var6];
             var11 = var7.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'interactive-normal'};
+            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'interactive-text-default'};
             var14 = var14.title;
             var11['style'] = var14;
             var11['children'] = var13;
@@ -213,7 +213,7 @@ case 10:
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+            var6 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[3] = var6;

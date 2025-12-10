@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = {};
-    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,keyboardTypeSharedValue,KeyboardTypes,insets,customKeyboardHeight}=this.__closure;const height=keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()?keyboardOpenedHeight.get():keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM?insets.get().bottom:insets.get().bottom+customKeyboardHeight;return height;}';
+    var6 = 'function useChannelSafeAreaHeightSharedValueAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,keyboardTypeSharedValue,KeyboardTypes,insets,customKeyboardHeight}=this.__closure;const height=keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()?keyboardOpenedHeight.get():keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM?insets.get().bottom:customKeyboardHeight;return height;}';
     var1['code'] = var6;
     var _closure1_slot3 = var1;
     var1 = 6;
@@ -90,12 +90,7 @@ case 4:
                 var1 = var1.SYSTEM;
                 if(!(var3 !== var1)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-                var3 = _closure2_slot0;
-                var1 = var3.get;
-                var1 = var1.bind(var3)();
-                var3 = var1.bottom;
                 var1 = _closure2_slot5;
-                var1 = var3 + var1;
                 _fun0001_ip = 7; continue _fun0001;
 case 5:
                 var4 = _closure2_slot0;
@@ -125,7 +120,7 @@ case 8:
         var5['insets'] = var7;
         var5['customKeyboardHeight'] = var6;
         var1['__closure'] = var5;
-        var5 = 1427470078601.0;
+        var5 = 8921359167404.0;
         var1['__workletHash'] = var5;
         var4 = _closure1_slot3;
         var1['__initData'] = var4;

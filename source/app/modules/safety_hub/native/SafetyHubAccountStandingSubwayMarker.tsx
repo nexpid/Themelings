@@ -231,7 +231,7 @@ case 0:
                     var1 = _closure2_slot1;
                     if(var1) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                    var2 = {'color': 'interactive-normal', 'variant': 'text-xxs/normal'};
+                    var2 = {'color': 'interactive-text-default', 'variant': 'text-xxs/normal'};
                     var1 = _closure2_slot2;
                     var1 = var1.label;
                     var2['style'] = var1;

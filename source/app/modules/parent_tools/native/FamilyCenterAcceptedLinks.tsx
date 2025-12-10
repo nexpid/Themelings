@@ -186,7 +186,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

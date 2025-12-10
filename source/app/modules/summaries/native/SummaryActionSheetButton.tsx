@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var11;
     var7['icon'] = var10;
     var10 = {'textAlign': 'center', 'marginTop': 8};
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'lineClamp': 1};
+        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'lineClamp': 1};
         var10 = var10.name;
         var6['style'] = var10;
         var6['children'] = var9;

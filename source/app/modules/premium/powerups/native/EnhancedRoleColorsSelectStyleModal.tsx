@@ -184,7 +184,7 @@ case 7:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BRAND;
+            var3 = var3.BACKGROUND_BRAND;
             var2['borderColor'] = var3;
             var1['selected'] = var2;
             var2 = {};

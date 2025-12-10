@@ -182,7 +182,7 @@ case 4:
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/normal', 'color': 'interactive-active'};
+            var12 = {'variant': 'text-md/normal', 'color': 'interactive-text-active'};
             var15 = undefined;
             if(!var17) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

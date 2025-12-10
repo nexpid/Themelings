@@ -397,7 +397,7 @@ case 16:
             var18 = var15[var11];
             var18 = var22.bind(var5)(var18);
             var20 = var18.Text;
-            var18 = {'maxFontSizeMultiplier': 2, 'variant': 'text-sm/semibold', 'accessibilityRole': 'header', 'color': 'interactive-normal'};
+            var18 = {'maxFontSizeMultiplier': 2, 'variant': 'text-sm/semibold', 'accessibilityRole': 'header', 'color': 'interactive-text-default'};
             var23 = var14.memberListTitle;
             var18['style'] = var23;
             var23 = var15[var19];
@@ -436,7 +436,7 @@ case 16:
             var11 = var15[var11];
             var11 = var22.bind(var5)(var11);
             var18 = var11.Text;
-            var11 = {'maxFontSizeMultiplier': 2, 'variant': 'text-sm/semibold', 'accessibilityRole': 'header', 'color': 'interactive-normal'};
+            var11 = {'maxFontSizeMultiplier': 2, 'variant': 'text-sm/semibold', 'accessibilityRole': 'header', 'color': 'interactive-text-default'};
             var20 = var14.memberListTitle;
             var11['style'] = var20;
             var20 = var15[var19];

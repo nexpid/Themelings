@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.INTERACTIVE_ACTIVE;
+    var17 = var17.INTERACTIVE_TEXT_ACTIVE;
     var10['tintColor'] = var17;
     var4['channelIcon'] = var10;
     var10 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0};
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var14;
     var4['nuxCloseContainer'] = var10;
     var10 = {'width': '100%', 'backgroundColor': null, 'alignItems': 'center', 'padding': 16};
@@ -337,7 +337,7 @@ case 7:
             var14 = var21[var14];
             var14 = var20.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-xs/semibold', 'color': 'interactive-normal'};
+            var14 = {'variant': 'text-xs/semibold', 'color': 'interactive-text-default'};
             var17 = 29;
             var18 = var21[var17];
             var18 = var20.bind(var4)(var18);
@@ -584,7 +584,7 @@ case 23:
             var20 = var20[var15];
             var20 = var21.bind(var5)(var20);
             var21 = var20.Text;
-            var20 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var20 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var28 = undefined;
             if(!var16) { _fun0002_ip = 24; continue _fun0002 }
 case 25:

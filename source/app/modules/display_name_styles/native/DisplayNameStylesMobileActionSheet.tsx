@@ -130,7 +130,7 @@ case 0:
             var8 = var5.colors;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var8.BG_BRAND;
+            var5 = var8.BACKGROUND_BRAND;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var5 = var8.WHITE;

@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var7[var4];
         var3 = var5.bind(var6)(var3);
         var3 = var3.colors;
-        var3 = var3.BG_BRAND;
+        var3 = var3.BACKGROUND_BRAND;
         var2['borderColor'] = var3;
         var3 = var7[var4];
         var3 = var5.bind(var6)(var3);

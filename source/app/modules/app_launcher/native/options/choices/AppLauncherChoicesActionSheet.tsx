@@ -110,7 +110,7 @@ case 4:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.CARD_PRIMARY_BG;
+    var12 = var12.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var12;
     var4['listItem'] = var9;
     var9 = {};

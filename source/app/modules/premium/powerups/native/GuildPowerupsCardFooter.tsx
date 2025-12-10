@@ -1,13 +1,13 @@
 // app/modules/premium/powerups/native/GuildPowerupsCardFooter.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
+    var10 = require;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var9;
-    var6 = function GuildPowerupCardFooterActive(arg1) {
+    var _closure1_slot2 = var11;
+    var8 = function GuildPowerupCardFooterActive(arg1) {
         var1 = arg1;
         var9 = var1.text;
         var1 = _closure1_slot6;
@@ -51,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot7 = var6;
-    var5 = function GuildPowerupCardFooterExpiring(arg1) {
+    var _closure1_slot7 = var8;
+    var7 = function GuildPowerupCardFooterExpiring(arg1) {
         var1 = arg1;
         var14 = var1.dateString;
         var1 = _closure1_slot6;
@@ -112,8 +112,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot8 = var5;
-    var4 = function GuildPowerupCardFooterRemoving(arg1) {
+    var _closure1_slot8 = var7;
+    var6 = function GuildPowerupCardFooterRemoving(arg1) {
         var1 = arg1;
         var14 = var1.removingAt;
         var1 = _closure1_slot6;
@@ -173,192 +173,214 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot9 = var4;
-    var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var7 = {};
-    var1 = true;
-    var7['value'] = var1;
-    var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var7);
-    var1 = 0;
-    var7 = var9[var1];
-    var1 = undefined;
-    var7 = var8.bind(var1)(var7);
-    var7 = var7.View;
-    var _closure1_slot3 = var7;
-    var7 = 1;
-    var7 = var9[var7];
-    var7 = var8.bind(var1)(var7);
-    var10 = var7.jsx;
-    var _closure1_slot4 = var10;
-    var7 = var7.jsxs;
-    var _closure1_slot5 = var7;
-    var7 = 2;
-    var7 = var9[var7];
-    var11 = var8.bind(var1)(var7);
-    var10 = var11.createStyles;
-    var7 = {};
-    var12 = {};
-    var13 = 'space-between';
-    var12['justifyContent'] = var13;
-    var7['container'] = var12;
-    var12 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 2};
-    var7['inline'] = var12;
-    var7 = var10.bind(var11)(var7);
-    var _closure1_slot6 = var7;
-    var7 = 12;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/premium/powerups/native/GuildPowerupsCardFooter.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['GuildPowerupCardFooterActive'] = var6;
-    var3['GuildPowerupCardFooterExpiring'] = var5;
-    var3['GuildPowerupCardFooterRemoving'] = var4;
-    var2 = function GuildPowerupsCardFooter(arg1) {
+    var _closure1_slot9 = var6;
+    var5 = function GuildPowerupCardFooterStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var2 = _closure1_slot6;
-            var4 = undefined;
-            var11 = var2.bind(var4)();
-            var19 = var1.cost;
-            var20 = var1.costDecorator;
-            var10 = var1.status;
-            var6 = var1.style;
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot3;
-            var1 = {};
-            var8 = var11.inline;
-            var5 = new Array(3);
-            var5[0] = var8;
-            var8 = var11.container;
-            var5[1] = var8;
-            var5[2] = var6;
-            var1['style'] = var5;
-            var6 = var4 !== var19;
-            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var1.status;
+            var1 = null;
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = _closure1_slot5;
-            var8 = _closure1_slot3;
-            var5 = {};
-            var11 = var11.inline;
-            var5['style'] = var11;
-            var13 = _closure1_slot4;
-            var16 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var11 = 11;
-            var11 = var21[var11];
-            var11 = var16.bind(var4)(var11);
-            var12 = var11.BoostGemIcon;
-            var11 = {};
-            var14 = 'sm';
-            var11['size'] = var14;
-            var15 = _closure1_slot1;
-            var14 = 4;
-            var14 = var21[var14];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.unsafe_rawColors;
-            var14 = var14.GUILD_BOOSTING_PINK;
-            var11['color'] = var14;
-            var12 = var13.bind(var4)(var12, var11);
-            var11 = new Array(2);
-            var11[0] = var12;
-            var14 = _closure1_slot4;
-            var12 = 5;
-            var12 = var21[var12];
-            var12 = var16.bind(var4)(var12);
-            var13 = var12.Text;
-            var12 = {'variant': 'heading-md/semibold', 'color': 'text-subtle'};
-            var15 = 7;
-            var17 = var21[var15];
-            var17 = var16.bind(var4)(var17);
-            var18 = var17.intl;
-            var17 = var18.formatToPlainString;
-            var15 = var21[var15];
-            var15 = var16.bind(var4)(var15);
-            var15 = var15.t;
-            var16 = var15.t2Wbo1;
-            var15 = {};
-            var15['required'] = var19;
-            var19 = null;
-            var21 = var19 != var20;
-            var19 = '';
-            if(!var21) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = var2.type;
+            var3 = 'expiring';
+            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var19 = var20;
-case 4:
-            var15['decorator'] = var19;
-            var15 = var17.bind(var18)(var16, var15);
-            var12['children'] = var15;
-            var12 = var14.bind(var4)(var13, var12);
-            var11[1] = var12;
-            var5['children'] = var11;
-            var6 = var9.bind(var4)(var8, var5);
-case 2:
-            var5 = new Array(4);
-            var5[0] = var6;
-            var6 = null;
-            var8 = var6 == var10;
-            var9 = undefined;
-            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+            var3 = 'removing';
+            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var9 = var10.type;
-case 6:
-            var8 = 'expiring';
-            var8 = var8 === var9;
-            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+            var3 = 'active';
+            if(!(var3 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var12 = _closure1_slot4;
-            var11 = _closure1_slot8;
-            var9 = {};
-            var13 = var10.expiringAt;
-            var9['dateString'] = var13;
-            var8 = var12.bind(var4)(var11, var9);
+            var3 = undefined;
+            return var3;
 case 8:
-            var5[1] = var8;
-            var8 = var6 == var10;
-            var9 = undefined;
-            if(var8) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var9 = var10.type;
-case 10:
-            var8 = 'removing';
-            var8 = var8 === var9;
-            if(!var8) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var12 = _closure1_slot4;
-            var11 = _closure1_slot9;
-            var9 = {};
-            var13 = var10.removingAt;
-            var9['removingAt'] = var13;
-            var8 = var12.bind(var4)(var11, var9);
-case 12:
-            var5[2] = var8;
-            var6 = var6 == var10;
-            var8 = undefined;
-            if(var6) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var8 = var10.type;
-case 14:
-            var6 = 'active';
-            var6 = var6 === var8;
-            if(!var6) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var9 = _closure1_slot4;
-            var8 = _closure1_slot7;
-            var7 = {};
-            var10 = var10.statusText;
-            var7['text'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
-case 16:
-            var5[3] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var6 = _closure1_slot4;
+            var5 = _closure1_slot7;
+            var4 = {};
+            var3 = var2.statusText;
+            var4['text'] = var3;
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5, var4);
+            return var3;
+case 6:
+            var6 = _closure1_slot4;
+            var5 = _closure1_slot9;
+            var4 = {};
+            var3 = var2.removingAt;
+            var4['removingAt'] = var3;
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5, var4);
+            return var3;
+case 4:
+            var5 = _closure1_slot4;
+            var4 = _closure1_slot8;
+            var3 = {};
+            var2 = var2.expiringAt;
+            var3['dateString'] = var2;
+            var2 = undefined;
+            var2 = var5.bind(var2)(var4, var3);
+            return var2;
+case 2:
             return var1;
         }
+    };
+    var _closure1_slot10 = var5;
+    var4 = function GuildPowerupCardFooterCost(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var1 = arg1;
+            var16 = var1.cost;
+            var15 = var1.costDecorator;
+            var1 = _closure1_slot6;
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var14 = null;
+            var2 = var14 == var16;
+            var1 = null;
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 7:
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var6 = var6.inline;
+            var2['style'] = var6;
+            var9 = _closure1_slot4;
+            var11 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var6 = 11;
+            var6 = var17[var6];
+            var6 = var11.bind(var5)(var6);
+            var8 = var6.BoostGemIcon;
+            var6 = {};
+            var10 = 'sm';
+            var6['size'] = var10;
+            var12 = _closure1_slot1;
+            var10 = 4;
+            var10 = var17[var10];
+            var10 = var12.bind(var5)(var10);
+            var10 = var10.unsafe_rawColors;
+            var10 = var10.GUILD_BOOSTING_PINK;
+            var6['color'] = var10;
+            var8 = var9.bind(var5)(var8, var6);
+            var6 = new Array(2);
+            var6[0] = var8;
+            var9 = _closure1_slot4;
+            var7 = 5;
+            var7 = var17[var7];
+            var7 = var11.bind(var5)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'heading-md/semibold', 'color': 'text-subtle'};
+            var10 = 7;
+            var12 = var17[var10];
+            var12 = var11.bind(var5)(var12);
+            var13 = var12.intl;
+            var12 = var13.formatToPlainString;
+            var10 = var17[var10];
+            var10 = var11.bind(var5)(var10);
+            var10 = var10.t;
+            var11 = var10.t2Wbo1;
+            var10 = {};
+            var10['required'] = var16;
+            var16 = var14 != var15;
+            var14 = '';
+            if(!var16) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var14 = var15;
+case 11:
+            var10['decorator'] = var14;
+            var10 = var12.bind(var13)(var11, var10);
+            var7['children'] = var10;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 10:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var4;
+    var1 = global;
+    var13 = var1.Object;
+    var12 = var13.defineProperty;
+    var9 = {};
+    var1 = true;
+    var9['value'] = var1;
+    var1 = '__esModule';
+    var1 = var12.bind(var13)(var3, var1, var9);
+    var1 = 0;
+    var9 = var11[var1];
+    var1 = undefined;
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.View;
+    var _closure1_slot3 = var9;
+    var9 = 1;
+    var9 = var11[var9];
+    var9 = var10.bind(var1)(var9);
+    var12 = var9.jsx;
+    var _closure1_slot4 = var12;
+    var9 = var9.jsxs;
+    var _closure1_slot5 = var9;
+    var9 = 2;
+    var9 = var11[var9];
+    var13 = var10.bind(var1)(var9);
+    var12 = var13.createStyles;
+    var9 = {};
+    var14 = {};
+    var15 = 'space-between';
+    var14['justifyContent'] = var15;
+    var9['container'] = var14;
+    var14 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 2};
+    var9['inline'] = var14;
+    var9 = var12.bind(var13)(var9);
+    var _closure1_slot6 = var9;
+    var9 = 12;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'modules/premium/powerups/native/GuildPowerupsCardFooter.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['GuildPowerupCardFooterActive'] = var8;
+    var3['GuildPowerupCardFooterExpiring'] = var7;
+    var3['GuildPowerupCardFooterRemoving'] = var6;
+    var3['GuildPowerupCardFooterStatus'] = var5;
+    var3['GuildPowerupCardFooterCost'] = var4;
+    var2 = function GuildPowerupsCardFooter(arg1) {
+        var1 = arg1;
+        var2 = _closure1_slot6;
+        var4 = undefined;
+        var8 = var2.bind(var4)();
+        var11 = var1.cost;
+        var10 = var1.costDecorator;
+        var9 = var1.status;
+        var7 = var1.style;
+        var3 = _closure1_slot5;
+        var2 = _closure1_slot3;
+        var1 = {};
+        var12 = var8.inline;
+        var5 = new Array(3);
+        var5[0] = var12;
+        var8 = var8.container;
+        var5[1] = var8;
+        var5[2] = var7;
+        var1['style'] = var5;
+        var8 = _closure1_slot4;
+        var7 = _closure1_slot11;
+        var5 = {};
+        var5['cost'] = var11;
+        var5['costDecorator'] = var10;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var8 = _closure1_slot4;
+        var7 = _closure1_slot10;
+        var6 = {};
+        var6['status'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['GuildPowerupsCardFooter'] = var2;
     return var1;

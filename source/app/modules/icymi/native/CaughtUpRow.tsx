@@ -628,7 +628,7 @@ case 17:
         var1 = var14[var1];
         var1 = var13.bind(var4)(var1);
         var1 = var1.colors;
-        var1 = var1.BG_BRAND;
+        var1 = var1.BACKGROUND_BRAND;
         var11 = var2.bind(var3)(var1);
         var3 = _closure1_slot8;
         var2 = _closure1_slot6;
@@ -653,7 +653,7 @@ case 17:
         var17 = var14[var17];
         var17 = var10.bind(var4)(var17);
         var23 = var17.FlashIcon;
-        var17 = {'size': 'custom', 'style': null, 'color': 'bg-brand'};
+        var17 = {'size': 'custom', 'style': null, 'color': 'background-brand'};
         var24 = var9.icon;
         var17['style'] = var24;
         var17 = var8.bind(var4)(var23, var17);

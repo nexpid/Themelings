@@ -696,7 +696,7 @@ case 49:
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.CirclePlayIcon;
-        var5 = {'size': 'lg', 'color': 'interactive-normal'};
+        var5 = {'size': 'lg', 'color': 'interactive-text-default'};
         var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

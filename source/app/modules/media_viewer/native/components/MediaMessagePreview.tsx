@@ -279,12 +279,12 @@ case 8:
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var7['reactionTextColor'] = var12;
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_FAINT;
+    var12 = var12.BACKGROUND_MOD_MUTED;
     var7['activeReactionBackgroundColor'] = var12;
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);

@@ -362,7 +362,7 @@ case 6:
     var11 = var8[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var11;
     var5['submittingIndicator'] = var10;
     var5 = var6.bind(var9)(var5);

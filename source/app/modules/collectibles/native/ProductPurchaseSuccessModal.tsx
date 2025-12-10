@@ -582,7 +582,7 @@ case 33:
             var1 = var3[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.INTERACTIVE_ACTIVE;
+            var1 = var1.INTERACTIVE_TEXT_ACTIVE;
             var29 = var5.bind(var7)(var1);
             var8 = _closure1_slot5;
             var5 = var8.useRef;

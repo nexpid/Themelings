@@ -421,7 +421,7 @@ case 24:
             var34 = var40[var34];
             var34 = var38.bind(var4)(var34);
             var35 = var34.Text;
-            var34 = {'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'header-muted'};
+            var34 = {'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'text-muted'};
             var37 = 28;
             var37 = var40[var37];
             var38 = var38.bind(var4)(var37);
@@ -673,7 +673,7 @@ case 31:
             var9 = var6[var3];
             var9 = var4.bind(var5)(var9);
             var9 = var9.colors;
-            var9 = var9.HEADER_MUTED;
+            var9 = var9.TEXT_MUTED;
             var2['tintColor'] = var9;
             var1['moreDetailsIcon'] = var2;
             var2 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center'};
@@ -757,7 +757,7 @@ case 31:
             var7 = var6[var3];
             var7 = var4.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.INTERACTIVE_NORMAL;
+            var7 = var7.INTERACTIVE_TEXT_DEFAULT;
             var2['tintColor'] = var7;
             var1['commentsIcon'] = var2;
             var2 = {};
@@ -908,7 +908,7 @@ case 35:
             var10 = var19[var12];
             var10 = var18.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-muted'};
+            var10 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-muted'};
             var23 = {};
             var24 = 225;
             var23['maxWidth'] = var24;
@@ -1213,7 +1213,7 @@ case 56:
             var14 = var9[var16];
             var14 = var10.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-muted'};
+            var14 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-muted'};
             var21 = {};
             var22 = 225;
             var21['maxWidth'] = var22;
@@ -1448,7 +1448,7 @@ case 59:
         var12 = var22[var15];
         var12 = var21.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-muted'};
+        var12 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-muted'};
         var18 = {};
         var20 = 225;
         var18['maxWidth'] = var20;
@@ -1868,7 +1868,7 @@ case 68:
         var10 = var23[var17];
         var10 = var18.bind(var4)(var10);
         var11 = var10.Text;
-        var10 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'header-muted'};
+        var10 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'text-muted'};
         var13 = {};
         var14 = 225;
         var13['maxWidth'] = var14;
@@ -1992,7 +1992,7 @@ case 69:
             var6 = var16[var3];
             var6 = var5.bind(var4)(var6);
             var6 = var6.colors;
-            var6 = var6.BACKGROUND_MESSAGE_HIGHLIGHT;
+            var6 = var6.MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT;
             var15 = var7.bind(var10)(var6, var13);
             _closure2_slot1 = var15;
             var6 = 45;
@@ -2438,7 +2438,7 @@ case 98:
             var14 = var17[var14];
             var14 = var15.bind(var4)(var14);
             var16 = var14.Text;
-            var14 = {'variant': 'text-sm/bold', 'color': 'interactive-normal'};
+            var14 = {'variant': 'text-sm/bold', 'color': 'interactive-text-default'};
             var14['children'] = var19;
             var14 = var18.bind(var4)(var16, var14);
             var12[1] = var14;

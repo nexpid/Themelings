@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_ACTIVE;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
     var9['backgroundColor'] = var12;
     var4['actionButton'] = var9;
     var9 = {};
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INFO_WARNING_BACKGROUND;
+    var12 = var12.BACKGROUND_FEEDBACK_WARNING;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INFO_WARNING_TEXT;
+    var10 = var10.TEXT_FEEDBACK_WARNING;
     var9['color'] = var10;
     var4['textYellow'] = var9;
     var9 = {'alignSelf': 'flex-start', 'width': 20, 'height': 20};
@@ -144,7 +144,7 @@ case 0:
             var8 = var17[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-active'};
+            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-active'};
             var18 = var14.message;
             var17 = new Array(2);
             var17[0] = var18;

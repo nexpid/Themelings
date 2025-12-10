@@ -47,7 +47,7 @@ case 2:
         var7 = var11[var6];
         var7 = var15.bind(var1)(var7);
         var7 = var7.colors;
-        var7 = var7.ANDROID_RIPPLE;
+        var7 = var7.MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE;
         var7 = var12.bind(var14)(var9, var7);
         var _closure1_slot3 = var7;
         var9 = var11[var6];
@@ -61,7 +61,7 @@ case 2:
         var6 = var11[var6];
         var6 = var15.bind(var1)(var6);
         var6 = var6.colors;
-        var6 = var6.ANDROID_RIPPLE;
+        var6 = var6.MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE;
         var6 = var12.bind(var14)(var9, var6);
         var _closure1_slot4 = var6;
         var12 = var4.parseInt;

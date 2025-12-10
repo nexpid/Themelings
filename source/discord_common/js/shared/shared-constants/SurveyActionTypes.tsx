@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
     var2 = {};
-    var1 = 'nitro_unsub';
+    var1 = 'nitro_unsubbed';
     var2['NITRO_UNSUBBED'] = var1;
     var1 = 'checkpoint_completed';
     var2['CHECKPOINT_COMPLETED'] = var1;

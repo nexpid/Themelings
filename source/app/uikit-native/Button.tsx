@@ -877,7 +877,7 @@ case 83:
     var14 = var13[var16];
     var14 = var17.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BRAND;
+    var14 = var14.BACKGROUND_BRAND;
     var8['backgroundColor'] = var14;
     var5['buttonBrandDefault'] = var8;
     var8 = {};
@@ -905,7 +905,7 @@ case 83:
     var14 = var13[var16];
     var14 = var17.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BUTTON_POSITIVE_BACKGROUND;
+    var14 = var14.CONTROL_CONNECT_BACKGROUND_DEFAULT;
     var8['backgroundColor'] = var14;
     var5['buttonGreenDefault'] = var8;
     var8 = {};

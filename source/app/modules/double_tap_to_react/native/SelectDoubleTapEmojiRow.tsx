@@ -93,7 +93,7 @@ case 4:
         var17 = var6[var12];
         var17 = var13.bind(var1)(var17);
         var17 = var17.colors;
-        var17 = var17.INTERACTIVE_NORMAL;
+        var17 = var17.INTERACTIVE_TEXT_DEFAULT;
         var11['color'] = var17;
         var7['textEmoji'] = var11;
         var11 = {};
@@ -119,7 +119,7 @@ case 4:
         var16 = var6[var12];
         var16 = var13.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BG_BRAND;
+        var16 = var16.BACKGROUND_BRAND;
         var11['borderColor'] = var16;
         var7['selectedEmojiPressable'] = var11;
         var11 = {};
@@ -153,7 +153,7 @@ case 4:
         var15 = var6[var12];
         var15 = var13.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.BG_BRAND;
+        var15 = var15.BACKGROUND_BRAND;
         var11['backgroundColor'] = var15;
         var15 = var6[var12];
         var15 = var13.bind(var1)(var15);

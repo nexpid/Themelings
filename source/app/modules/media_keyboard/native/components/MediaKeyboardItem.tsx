@@ -282,7 +282,7 @@ case 20:
     var16 = var10[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BRAND;
+    var16 = var16.BACKGROUND_BRAND;
     var6['color'] = var16;
     var8['checkIcon'] = var6;
     var16 = {'width': 24, 'height': 24, 'position': 'absolute', 'justifyContent': 'center', 'alignItems': 'center', 'right': 6, 'top': 6, 'borderRadius': null, 'backgroundColor': null, 'borderWidth': 1};
@@ -1192,7 +1192,7 @@ case 61:
                 var12 = var15[var12];
                 var12 = var13.bind(var4)(var12);
                 var12 = var12.colors;
-                var12 = var12.ICON_SECONDARY;
+                var12 = var12.ICON_SUBTLE;
                 var6['color'] = var12;
                 var13 = _closure2_slot11;
                 var12 = 'lg';
@@ -1214,7 +1214,7 @@ case 66:
                 var8 = var12[var8];
                 var8 = var13.bind(var4)(var8);
                 var9 = var8.Text;
-                var8 = {'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+                var8 = {'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
                 var12 = var12[var14];
                 var12 = var13.bind(var4)(var12);
                 var13 = var12.intl;

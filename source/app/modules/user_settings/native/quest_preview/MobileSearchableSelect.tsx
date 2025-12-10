@@ -556,7 +556,7 @@ case 27:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BORDER_FAINT;
+    var12 = var12.BORDER_MUTED;
     var10['borderBottomColor'] = var12;
     var4['dropdownItem'] = var10;
     var10 = {};

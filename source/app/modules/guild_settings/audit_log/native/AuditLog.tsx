@@ -323,7 +323,7 @@ case 22:
     var16 = var6[var14];
     var16 = var8.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var12['tintColor'] = var16;
     var7['arrow'] = var12;
     var12 = {};
@@ -353,7 +353,7 @@ case 22:
     var16 = var6[var14];
     var16 = var8.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOD_FAINT;
+    var16 = var16.BACKGROUND_MOD_MUTED;
     var12['backgroundColor'] = var16;
     var7['changesContainer'] = var12;
     var12 = {'flexDirection': 'row', 'flex': 1, 'alignItems': 'flex-start'};

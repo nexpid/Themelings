@@ -136,7 +136,7 @@ case 8:
             var6 = var6[var10];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/medium', 'color': 'interactive-active', 'lineClamp': 1};
+            var6 = {'variant': 'text-md/medium', 'color': 'interactive-text-active', 'lineClamp': 1};
             var6['style'] = var17;
             var17 = undefined;
             if(!var19) { _fun0001_ip = 10; continue _fun0001 }
@@ -153,7 +153,7 @@ case 10:
             var15 = var6[var10];
             var15 = var7.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-md/medium', 'color': 'interactive-active', 'lineClamp': 1, 'children': ' '};
+            var15 = {'variant': 'text-md/medium', 'color': 'interactive-text-active', 'lineClamp': 1, 'children': ' '};
             var15 = var17.bind(var4)(var16, var15);
             var14[2] = var15;
             var17 = _closure1_slot5;

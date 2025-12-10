@@ -375,7 +375,7 @@ case 12:
             var17 = var23[var11];
             var17 = var26.bind(var5)(var17);
             var28 = var17.Text;
-            var17 = {'variant': 'text-lg/bold', 'color': 'info-warning-text'};
+            var17 = {'variant': 'text-lg/bold', 'color': 'text-feedback-warning'};
             var29 = var29.name;
             var17['children'] = var29;
             var17 = var4.bind(var5)(var28, var17);
@@ -387,7 +387,7 @@ case 12:
             var13 = var23[var11];
             var13 = var26.bind(var5)(var13);
             var17 = var13.Text;
-            var13 = {'style': null, 'variant': 'heading-md/normal', 'color': 'info-warning-text'};
+            var13 = {'style': null, 'variant': 'heading-md/normal', 'color': 'text-feedback-warning'};
             var28 = var16.blurb;
             var13['style'] = var28;
             var28 = var23[var14];
@@ -485,7 +485,7 @@ case 14:
             var11 = var18[var11];
             var11 = var15.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/semibold', 'color': 'input-error-text'};
+            var11 = {'style': null, 'variant': 'text-md/semibold', 'color': 'input-text-error-default'};
             var16 = var16.errorText;
             var11['style'] = var16;
             var16 = var18[var14];

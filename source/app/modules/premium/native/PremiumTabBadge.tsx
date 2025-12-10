@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var13;
     var9['marginRight'] = var12;
     var4['icon'] = var9;
@@ -378,7 +378,7 @@ case 30:
             var12 = var16[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'eyebrow', 'color': 'interactive-normal'};
+            var12 = {'variant': 'eyebrow', 'color': 'interactive-text-default'};
             var16 = var9.text;
             var12['style'] = var16;
             var18 = _closure1_slot0;
@@ -614,7 +614,7 @@ case 46:
             var8 = var13[var8];
             var8 = var10.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'variant': 'eyebrow', 'color': 'interactive-normal'};
+            var8 = {'variant': 'eyebrow', 'color': 'interactive-text-default'};
             var13 = var9.text;
             var8['style'] = var13;
             var8['children'] = var12;

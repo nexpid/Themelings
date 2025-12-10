@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BUTTON_OUTLINE_BRAND_BORDER;
+    var13 = var13.CONTROL_SECONDARY_BORDER_DEFAULT;
     var9['borderColor'] = var13;
     var9['backgroundColor'] = var12;
     var4['buttonsBackgroundActive'] = var9;
@@ -115,14 +115,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var12;
     var4['buttonIconInactive'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_ACTIVE;
+    var10 = var10.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var10;
     var4['buttonIconActive'] = var9;
     var9 = {'paddingHorizontal': 8, 'paddingVertical': 12};

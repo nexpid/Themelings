@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var10['backgroundColor'] = var13;
     var7['checkIcon'] = var10;
     var10 = {'position': 'absolute', 'top': 4294967290, 'right': 4294967290};
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BRAND;
+    var11 = var11.BACKGROUND_BRAND;
     var10['backgroundColor'] = var11;
     var7['roleCount'] = var10;
     var7 = var8.bind(var9)(var7);

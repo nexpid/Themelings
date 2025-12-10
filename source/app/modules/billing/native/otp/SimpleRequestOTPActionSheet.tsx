@@ -793,14 +793,14 @@ case 61:
             var6 = var15[var12];
             var6 = var13.bind(var4)(var6);
             var16 = var6.Text;
-            var6 = {'variant': 'text-lg/bold', 'color': 'info-warning-text', 'children': 'Gift purchasing is the only supported feature on Android in this version.'};
+            var6 = {'variant': 'text-lg/bold', 'color': 'text-feedback-warning', 'children': 'Gift purchasing is the only supported feature on Android in this version.'};
             var16 = var17.bind(var4)(var16, var6);
             var6 = new Array(2);
             var6[0] = var16;
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/normal', 'color': 'info-warning-text'};
+            var12 = {'variant': 'text-md/normal', 'color': 'text-feedback-warning'};
             var15 = null;
             var16 = var15 != var14;
             var15 = 'none';

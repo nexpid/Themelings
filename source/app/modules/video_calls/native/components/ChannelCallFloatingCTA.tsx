@@ -645,7 +645,7 @@ case 17:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var11['color'] = var13;
     var6['consoleCTAClose'] = var11;
     var11 = {};

@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACTIVE;
+    var13 = var13.INTERACTIVE_BACKGROUND_ACTIVE;
     var9['borderColor'] = var13;
     var9['borderWidth'] = var12;
     var12 = var6[var10];

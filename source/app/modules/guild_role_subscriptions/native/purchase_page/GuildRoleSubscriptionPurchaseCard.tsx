@@ -67,14 +67,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var10['backgroundColor'] = var13;
     var7['headerDot'] = var10;
     var10 = {'borderBottomWidth': 1, 'marginLeft': 4294967280, 'marginRight': 4294967280};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MODIFIER_HOVER;
+    var11 = var11.INTERACTIVE_BACKGROUND_HOVER;
     var10['borderColor'] = var11;
     var7['seperator'] = var10;
     var7 = var8.bind(var9)(var7);

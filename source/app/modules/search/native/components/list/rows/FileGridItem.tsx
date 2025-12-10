@@ -36,7 +36,7 @@ case 5:
             var1 = var7[var1];
             var1 = var4.bind(var5)(var1);
             var3 = var1.FileIcon;
-            var1 = {'size': 'lg', 'color': 'interactive-normal'};
+            var1 = {'size': 'lg', 'color': 'interactive-text-default'};
             var1 = var6.bind(var5)(var3, var1);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
@@ -44,7 +44,7 @@ case 4:
             var3 = var7[var3];
             var3 = var4.bind(var5)(var3);
             var4 = var3.VideoIcon;
-            var3 = {'size': 'lg', 'color': 'interactive-normal'};
+            var3 = {'size': 'lg', 'color': 'interactive-text-default'};
             var1 = var6.bind(var5)(var4, var3);
 case 6:
             _fun0001_ip = 7; continue _fun0001;
@@ -56,7 +56,7 @@ case 2:
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.ImageIcon;
-            var2 = {'size': 'lg', 'color': 'interactive-normal'};
+            var2 = {'size': 'lg', 'color': 'interactive-text-default'};
             var1 = var4.bind(var5)(var3, var2);
 case 7:
             return var1;

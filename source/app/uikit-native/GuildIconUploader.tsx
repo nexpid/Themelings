@@ -126,7 +126,7 @@ case 4:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_ACTIVE;
+    var14 = var14.INTERACTIVE_TEXT_ACTIVE;
     var11['backgroundColor'] = var14;
     var8['filledIconWrapper'] = var11;
     var11 = {'position': 'absolute', 'top': 4294967292, 'right': 4294967292, 'width': 32, 'height': 32, 'borderRadius': null, 'backgroundColor': null, 'justifyContent': 'center', 'alignItems': 'center'};
@@ -145,7 +145,7 @@ case 4:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var11['borderColor'] = var12;
     var8['emptyGuildIcon'] = var11;
     var11 = {'textAlign': 'center', 'lineHeight': 16, 'paddingTop': 4};

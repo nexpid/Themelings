@@ -437,7 +437,7 @@ case 31:
             var20 = var12[var20];
             var20 = var10.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+            var20 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
             var24 = var24.tierPrice;
             var20['style'] = var24;
             var20['children'] = var23;
@@ -1200,7 +1200,7 @@ case 52:
     var12 = var6[var12];
     var12 = var16.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var22 = var15.bind(var1)(var14, var12, var11);
     var23 = var10;
     var12 = copyDataProperties(var23, var22);

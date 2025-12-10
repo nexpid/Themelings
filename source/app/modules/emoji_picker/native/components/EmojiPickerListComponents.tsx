@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var13[var6];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-active'};
+        var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-text-active'};
         var9 = var9.nsfwText;
         var6['style'] = var9;
         var9 = 9;
@@ -165,7 +165,7 @@ case 5:
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'lineClamp': 1, 'color': 'interactive-normal', 'variant': 'heading-sm/semibold'};
+            var7 = {'lineClamp': 1, 'color': 'interactive-text-default', 'variant': 'heading-sm/semibold'};
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 4:

@@ -318,7 +318,7 @@ case 7:
                 var10 = var16[var10];
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.Text;
-                var10 = {'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                var10 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                 var15 = var15.sortOptionsText;
                 var10['style'] = var15;
                 var18 = _closure1_slot0;
@@ -459,7 +459,7 @@ case 11:
                 var11 = var12[var11];
                 var11 = var10.bind(var4)(var11);
                 var13 = var11.Text;
-                var11 = {'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                var11 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                 var16 = var16.sortOptionsText;
                 var11['style'] = var16;
                 var16 = var12[var15];
@@ -749,7 +749,7 @@ case 6:
         var16 = var6[var11];
         var16 = var13.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.INTERACTIVE_NORMAL;
+        var16 = var16.INTERACTIVE_TEXT_DEFAULT;
         var10['color'] = var16;
         var10['marginLeft'] = var15;
         var4['sortOptionsIcon'] = var10;
@@ -768,7 +768,7 @@ case 6:
         var11 = var6[var11];
         var11 = var13.bind(var1)(var11);
         var11 = var11.colors;
-        var11 = var11.BG_BRAND;
+        var11 = var11.BACKGROUND_BRAND;
         var10['backgroundColor'] = var11;
         var4['countContainer'] = var10;
         var10 = {};

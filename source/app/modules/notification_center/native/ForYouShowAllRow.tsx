@@ -250,7 +250,7 @@ case 0:
             var4 = var11[var6];
             var4 = var13.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.BACKGROUND_MOD_FAINT;
+            var4 = var4.BACKGROUND_MOD_MUTED;
             var2['backgroundColor'] = var4;
             var1['rowActive'] = var2;
             var2 = {};
@@ -309,7 +309,7 @@ case 7:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.INTERACTIVE_NORMAL;
+            var3 = var3.INTERACTIVE_TEXT_DEFAULT;
             var2['color'] = var3;
             var1['iconColor'] = var2;
             return var1;

@@ -218,7 +218,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_ONLINE;
+    var13 = var13.TEXT_STATUS_ONLINE;
     var10['backgroundColor'] = var13;
     var7['dotOnline'] = var10;
     var10 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4, 'marginLeft': 16};
@@ -230,7 +230,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_OFFLINE;
+    var13 = var13.TEXT_STATUS_OFFLINE;
     var10['backgroundColor'] = var13;
     var7['dotOffline'] = var10;
     var10 = {'marginLeft': 16, 'marginRight': 4, 'width': 14, 'height': 14};
@@ -243,7 +243,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_HOVER;
+    var13 = var13.INTERACTIVE_BACKGROUND_HOVER;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -257,7 +257,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var10['backgroundColor'] = var13;
     var7['toastContainer'] = var10;
     var10 = {};

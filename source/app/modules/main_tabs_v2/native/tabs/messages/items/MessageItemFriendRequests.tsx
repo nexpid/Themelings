@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACTIVE;
+    var13 = var13.INTERACTIVE_BACKGROUND_ACTIVE;
     var9['backgroundColor'] = var13;
     var4['rowActive'] = var9;
     var9 = {'marginHorizontal': null, 'flexGrow': 1, 'flexShrink': 1};
@@ -466,7 +466,7 @@ case 9:
             var12 = 'interactive-muted';
             if(!var14) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var12 = 'interactive-active';
+            var12 = 'interactive-text-active';
 case 17:
             var9['color'] = var12;
             var12 = var13.icon;

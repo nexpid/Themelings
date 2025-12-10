@@ -375,7 +375,7 @@ case 6:
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.CARD_PRIMARY_BG;
+    var16 = var16.CARD_BACKGROUND_DEFAULT;
     var14['backgroundColor'] = var16;
     var19 = 16;
     var8['mainContainerStyle'] = var14;

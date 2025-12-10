@@ -138,7 +138,7 @@ case 3:
             var17 = var15[var17];
             var17 = var8.bind(var5)(var17);
             var17 = var17.colors;
-            var17 = var17.BUTTON_DANGER_BACKGROUND;
+            var17 = var17.CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT;
             var12['color'] = var17;
             var17 = var16.redesignErrorIcon;
             var16 = new Array(1);

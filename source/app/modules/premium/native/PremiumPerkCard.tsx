@@ -226,7 +226,7 @@ case 6:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.ACTIVITY_CARD_ICON_OVERLAY;
+            var3 = var3.BACKGROUND_MOD_STRONG;
             var2['backgroundColor'] = var3;
             var1['imageOverlayTextContainer'] = var2;
             var2 = {'position': 'absolute', 'width': 'auto', 'top': 4294967288, 'left': 10};

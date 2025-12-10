@@ -24,10 +24,10 @@ case 0:
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
             var1 = {'variant': 'text-xxs/semibold', 'lineClamp': 1, 'color': null, 'style': null, 'maxFontSizeMultiplier': 2};
-            var7 = 'interactive-normal';
+            var7 = 'interactive-text-default';
             if(!var10) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = 'interactive-active';
+            var7 = 'interactive-text-active';
 case 2:
             var1['color'] = var7;
             var7 = 'beside-icon';

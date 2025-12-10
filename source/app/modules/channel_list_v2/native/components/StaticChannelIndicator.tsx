@@ -100,7 +100,7 @@ case 2:
             var9 = var11[var9];
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
-            var1 = var9.INTERACTIVE_ACTIVE;
+            var1 = var9.INTERACTIVE_TEXT_ACTIVE;
 case 4:
             var10 = var4.bind(var6)(var1);
             var1 = null;

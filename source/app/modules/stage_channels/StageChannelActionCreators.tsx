@@ -29,19 +29,37 @@ case 5:
             var10 = var1.bind(var5)();
 case 4:
             var2 = _closure1_slot1;
-            var11 = _closure1_slot3;
+            var9 = _closure1_slot3;
             var1 = 5;
-            var1 = var11[var1];
+            var1 = var9[var1];
             var9 = var2.bind(var3)(var1);
             var2 = var6 != var10;
             var1 = 'This channel cannot be guildless.';
             var1 = var9.bind(var3)(var2, var1);
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot3;
+            var1 = 10;
+            var1 = var9[var1];
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.shouldAgeVerifyToSpeakForCurrentUser;
+            var1 = var1.bind(var2)();
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            var1 = global;
+            var2 = var1.Promise;
+            var1 = var2.resolve;
+            var1 = var1.bind(var2)();
+            return var1;
+case 6:
             var9 = _closure1_slot6;
             var2 = var9.getVoiceStateForChannel;
             var1 = var5.id;
             var13 = var2.bind(var9)(var1);
             var9 = _closure1_slot0;
-            var1 = 10;
+            var11 = _closure1_slot3;
+            var1 = 11;
             var2 = var11[var1];
             var12 = var9.bind(var3)(var2);
             var2 = var12.getAudienceRequestToSpeakState;
@@ -51,12 +69,12 @@ case 4:
             var1 = var1.RequestToSpeakStates;
             var1 = var1.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
             var1 = var2 !== var1;
-            if(var1) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(var1) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = var8;
-case 6:
-            if(var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            if(var1) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var13 = _closure1_slot0;
             var14 = _closure1_slot3;
             var1 = 6;
@@ -74,7 +92,7 @@ case 9:
             var16 = var1;
             var12 = copyDataProperties(var16, var15);
             var1 = var9.bind(var11)(var2, var1);
-case 8:
+case 11:
             var2 = _closure1_slot0;
             var9 = _closure1_slot3;
             var1 = 8;
@@ -92,15 +110,15 @@ case 8:
             var4['request_to_speak_timestamp'] = var6;
             var5 = var5.id;
             var4['channel_id'] = var5;
-            if(var7) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = {};
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var6 = {};
             var6['silent'] = var7;
             var5 = var6;
-case 12:
+case 15:
             var16 = var4;
             var15 = var5;
             var5 = copyDataProperties(var16, var15);
@@ -155,8 +173,8 @@ case 0:
                 var4 = var1.code;
                 var3 = _closure1_slot7;
                 var3 = var3.STAGE_CHANNEL_USER_NOT_ALLOWED_TO_SPEAK;
-                if(!(var4 === var3)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                if(!(var4 === var3)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot3;
                 var3 = 9;
@@ -167,7 +185,7 @@ case 14:
                 var2 = _closure1_slot10;
                 var2 = var2.GENERIC_ERROR;
                 var2 = var3.bind(var4)(var2);
-case 13:
+case 16:
                 return var1;
             }
         };
@@ -187,32 +205,32 @@ case 0:
                     var7 = arg1;
                     var10 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                    if(var2) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var2 = '';
-                    if(!(var2 === var10)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                    if(!(var2 === var10)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                     var2 = undefined;
                     return var2;
-case 17:
+case 20:
                     var4 = _closure1_slot5;
                     var2 = var4.getVoiceChannelId;
                     var4 = var2.bind(var4)();
                     var2 = var7.id;
-                    if(!(var4 !== var2)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(!(var4 !== var2)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 16;
+                    var2 = 17;
                     var4 = var4[var2];
                     var2 = undefined;
                     var4 = var5.bind(var2)(var4);
                     var2 = var4.connectToStage;
                     var2 = var2.bind(var4)(var7);
-case 19:
+case 22:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var5[var2];
                     var6 = undefined;
                     var9 = var4.bind(var6)(var2);
@@ -224,20 +242,20 @@ case 19:
                     var13 = var10;
                     var2 = var15[var8](var14, var13, var12, var11, var10);
                     SaveGenerator(address=141);
-case 21:
-                    return var2;
-case 22:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
+                    return var2;
+case 25:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                     var5 = _closure1_slot11;
                     var4 = false;
                     var3 = true;
                     var3 = var5.bind(var6)(var7, var4, var3);
                     return var2;
-case 23:
+case 26:
                     return var2;
-case 15:
+case 18:
                     return var1;
                 }
             };
@@ -264,17 +282,17 @@ case 0:
                     StartGenerator();
                     var6 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 19; continue _fun0004 }
-case 25:
+                    if(var2) { _fun0004_ip = 22; continue _fun0004 }
+case 28:
                     var2 = '';
-                    if(!(var2 === var6)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+                    if(!(var2 === var6)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                     var2 = undefined;
                     return var2;
-case 26:
+case 29:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 17;
+                    var2 = 18;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -284,16 +302,16 @@ case 26:
                     var2 = arg3;
                     var2 = var4.bind(var5)(var3, var6, var2);
                     SaveGenerator(address=76);
-case 28:
-                    return var2;
-case 29:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
                     return var2;
-case 30:
+case 32:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                     return var2;
-case 19:
+case 33:
+                    return var2;
+case 22:
                     return var1;
                 }
             };
@@ -319,11 +337,11 @@ case 19:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                    if(var2) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var3[var2];
                     var3 = undefined;
                     var5 = var4.bind(var3)(var2);
@@ -332,16 +350,16 @@ case 33:
                     var2 = var2.id;
                     var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=55);
-case 34:
+case 37:
                     return var2;
-case 20:
+case 23:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                    if(var4) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                     return var3;
-case 35:
+case 38:
                     return var2;
-case 32:
+case 35:
                     return var1;
                 }
             };
@@ -392,7 +410,7 @@ case 32:
     var6 = var7.bind(var1)(var6);
     var6 = var6.SafetyToastType;
     var _closure1_slot10 = var6;
-    var6 = 18;
+    var6 = 19;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -415,8 +433,8 @@ case 0:
             var2 = var6 != var9;
             var1 = 'This channel cannot be guildless.';
             var1 = var8.bind(var3)(var2, var1);
-            if(!var7) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+            if(!var7) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var12 = _closure1_slot0;
             var13 = _closure1_slot3;
             var1 = 6;
@@ -434,7 +452,7 @@ case 38:
             var15 = var1;
             var11 = copyDataProperties(var15, var14);
             var1 = var8.bind(var10)(var2, var1);
-case 37:
+case 40:
             var2 = _closure1_slot0;
             var8 = _closure1_slot3;
             var1 = 8;
@@ -449,8 +467,8 @@ case 37:
             var1['url'] = var4;
             var4 = {};
             var6 = null;
-            if(!var7) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+            if(!var7) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var7 = global;
             var7 = var7.Date;
             var8 = var7.prototype;
@@ -460,7 +478,7 @@ case 40:
             var8 = var7 instanceof Object ? var7 : var8;
             var7 = var8.toISOString;
             var6 = var7.bind(var8)();
-case 39:
+case 42:
             var4['request_to_speak_timestamp'] = var6;
             var5 = var5.id;
             var4['channel_id'] = var5;
@@ -524,8 +542,8 @@ case 0:
                 var4 = var1.code;
                 var3 = _closure1_slot7;
                 var3 = var3.STAGE_CHANNEL_USER_NOT_ALLOWED_TO_SPEAK;
-                if(!(var4 === var3)) { _fun0007_ip = 13; continue _fun0007 }
-case 14:
+                if(!(var4 === var3)) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot3;
                 var3 = 9;
@@ -536,7 +554,7 @@ case 14:
                 var2 = _closure1_slot10;
                 var2 = var2.GENERIC_ERROR;
                 var2 = var3.bind(var4)(var2);
-case 13:
+case 16:
                 return var1;
             }
         };
@@ -553,11 +571,11 @@ case 0:
             var2 = var1 == var4;
             var3 = undefined;
             var7 = undefined;
-            if(var2) { _fun0008_ip = 41; continue _fun0008 }
-case 16:
+            if(var2) { _fun0008_ip = 44; continue _fun0008 }
+case 19:
             var2 = var4.getGuildId;
             var7 = var2.bind(var4)();
-case 41:
+case 44:
             var8 = _closure1_slot1;
             var6 = _closure1_slot3;
             var2 = 5;
@@ -595,13 +613,13 @@ case 0:
             var5 = arg1;
             var4 = arg2;
             var1 = null;
-            if(!(var1 != var4)) { _fun0009_ip = 16; continue _fun0009 }
-case 42:
-            if(!(var1 == var5)) { _fun0009_ip = 43; continue _fun0009 }
-case 16:
+            if(!(var1 != var4)) { _fun0009_ip = 19; continue _fun0009 }
+case 45:
+            if(!(var1 == var5)) { _fun0009_ip = 46; continue _fun0009 }
+case 19:
             var2 = undefined;
             return var2;
-case 43:
+case 46:
             var2 = var4.getGuildId;
             var8 = var2.bind(var4)();
             var9 = _closure1_slot1;
@@ -649,27 +667,27 @@ case 0:
             var3 = var6 == var4;
             var1 = undefined;
             var5 = undefined;
-            if(var3) { _fun0010_ip = 17; continue _fun0010 }
-case 44:
+            if(var3) { _fun0010_ip = 20; continue _fun0010 }
+case 47:
             var3 = var4.getGuildId;
             var5 = var3.bind(var4)();
-case 17:
+case 20:
             var3 = var6 != var5;
-            if(!var3) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+            if(!var3) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
             var3 = var6 != var2;
-case 45:
-            if(!var3) { _fun0010_ip = 47; continue _fun0010 }
 case 48:
+            if(!var3) { _fun0010_ip = 50; continue _fun0010 }
+case 51:
             var4 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var3 = 11;
+            var3 = 12;
             var3 = var7[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.setChannel;
             var2 = var2.id;
             var2 = var3.bind(var4)(var5, var2, var6);
-case 47:
+case 50:
             return var1;
         }
     };
@@ -696,14 +714,14 @@ case 0:
             var5 = {};
             var5['id'] = var6;
             var7 = _closure1_slot0;
-            var6 = 12;
+            var6 = 13;
             var6 = var9[var6];
             var6 = var7.bind(var1)(var6);
             var6 = var6.PermissionOverwriteType;
             var6 = var6.ROLE;
             var5['type'] = var6;
             var7 = _closure1_slot2;
-            var6 = 13;
+            var6 = 14;
             var10 = var9[var6];
             var10 = var7.bind(var1)(var10);
             var10 = var10.NONE;
@@ -716,12 +734,12 @@ case 0:
             var4 = copyDataProperties(var14, var13);
             var6 = _closure1_slot2;
             var7 = _closure1_slot3;
-            var4 = 14;
+            var4 = 15;
             var9 = var7[var4];
             var11 = var6.bind(var1)(var9);
             var9 = arg3;
-            if(var9) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+            if(var9) { _fun0011_ip = 52; continue _fun0011 }
+case 53:
             var10 = var11.remove;
             var9 = var5.allow;
             var9 = var10.bind(var11)(var9, var8);
@@ -732,8 +750,8 @@ case 50:
             var9 = var5.deny;
             var9 = var10.bind(var12)(var9, var8);
             var5['deny'] = var9;
-            _fun0011_ip = 51; continue _fun0011;
-case 49:
+            _fun0011_ip = 54; continue _fun0011;
+case 52:
             var10 = var11.add;
             var9 = var5.allow;
             var9 = var10.bind(var11)(var9, var8);
@@ -744,10 +762,10 @@ case 49:
             var4 = var5.deny;
             var4 = var6.bind(var7)(var4, var8);
             var5['deny'] = var4;
-case 51:
+case 54:
             var4 = _closure1_slot1;
             var6 = _closure1_slot3;
-            var3 = 15;
+            var3 = 16;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.updatePermissionOverwrite;

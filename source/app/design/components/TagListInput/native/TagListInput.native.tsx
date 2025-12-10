@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.INPUT_BACKGROUND;
+    var17 = var17.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var17;
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var11];
     var17 = var12.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.INPUT_PLACEHOLDER_TEXT;
+    var17 = var17.INPUT_PLACEHOLDER_TEXT_DEFAULT;
     var10['color'] = var17;
     var4['placeholder'] = var10;
     var10 = {};
@@ -730,7 +730,7 @@ case 44:
             var5 = var19[var5];
             var5 = var10.bind(var4)(var5);
             var10 = var5.MagnifyingGlassIcon;
-            var5 = {'style': null, 'size': 'xs', 'color': 'interactive-normal'};
+            var5 = {'style': null, 'size': 'xs', 'color': 'interactive-text-default'};
             var19 = var12.iconLeft;
             var5['style'] = var19;
             var9 = var18.bind(var4)(var10, var5);

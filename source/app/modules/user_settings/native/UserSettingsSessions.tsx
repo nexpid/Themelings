@@ -917,7 +917,7 @@ case 46:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var9['backgroundColor'] = var16;
     var4['sessionIcon'] = var9;
     var9 = {};
@@ -931,7 +931,7 @@ case 46:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_NESTED_FLOATING;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
     var9['color'] = var16;
     var4['sessionIconColor'] = var9;
     var9 = {};
@@ -951,7 +951,7 @@ case 46:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var14;
     var4['logoutButton'] = var9;
     var9 = {};

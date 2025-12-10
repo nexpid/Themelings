@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.STATUS_IDLE;
+    var11 = var11.TEXT_STATUS_IDLE;
     var10['color'] = var11;
     var7['largeCountdownPillText'] = var10;
     var10 = {'width': 16, 'height': 16};
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13[var11];
         var11 = var12.bind(var4)(var11);
         var11 = var11.colors;
-        var11 = var11.STATUS_IDLE;
+        var11 = var11.TEXT_STATUS_IDLE;
         var9['color'] = var11;
         var9 = var3.bind(var4)(var10, var9);
         var8[1] = var9;

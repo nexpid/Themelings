@@ -1314,7 +1314,7 @@ case 40:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.INTERACTIVE_NORMAL;
+        var7 = var7.INTERACTIVE_TEXT_DEFAULT;
         var2['color'] = var7;
         var1['refreshing'] = var2;
         var2 = {'backgroundColor': null, 'position': 'relative', 'overflow': 'hidden', 'width': '100%'};
@@ -1495,7 +1495,7 @@ case 46:
             var18 = var20.bind(var4)(var18);
             var20 = var18.XSmallIcon;
             var18 = {};
-            var21 = 'interactive-normal';
+            var21 = 'interactive-text-default';
             var18['color'] = var21;
             var18 = var22.bind(var4)(var20, var18);
             _fun0010_ip = 47; continue _fun0010;
@@ -1509,7 +1509,7 @@ case 49:
             var19 = var20.bind(var4)(var19);
             var20 = var19.ArrowLargeLeftIcon;
             var19 = {};
-            var21 = 'interactive-normal';
+            var21 = 'interactive-text-default';
             var19['color'] = var21;
             var19 = var22.bind(var4)(var20, var19);
             _fun0010_ip = 50; continue _fun0010;

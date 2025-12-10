@@ -217,7 +217,7 @@ case 11:
         var13 = var7[var11];
         var13 = var12.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.INTERACTIVE_NORMAL;
+        var13 = var13.INTERACTIVE_TEXT_DEFAULT;
         var10['color'] = var13;
         var5['toastEmojiText'] = var10;
         var10 = {};

@@ -75,14 +75,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOD_FAINT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var13;
     var4['selected'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BORDER_FAINT;
+    var13 = var13.BORDER_MUTED;
     var10['borderColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

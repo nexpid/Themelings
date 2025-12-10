@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var9['backgroundColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_ACTIVE;
+    var10 = var10.INTERACTIVE_TEXT_ACTIVE;
     var9['tintColor'] = var10;
     var4['lockIcon'] = var9;
     var4 = var7.bind(var8)(var4);

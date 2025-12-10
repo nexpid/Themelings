@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.VanillaExperiment;
-    var8 = new Array(6);
+    var8 = new Array(5);
     var8[0] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
@@ -42,11 +42,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.UnevenBucketsExperiment;
     var8[4] = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.Experiment;
-    var8[5] = var4;
     var11 = var2.COLLECTIBLES_SHOP_OPEN;
     var2 = {};
     var4 = 'collectibles shop open';
@@ -58,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var9](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 4;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

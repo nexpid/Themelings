@@ -1890,7 +1890,7 @@ case 79:
     var20 = var7[var12];
     var20 = var13.bind(var1)(var20);
     var20 = var20.colors;
-    var20 = var20.ACTIVITY_CARD_ICON_OVERLAY;
+    var20 = var20.BACKGROUND_MOD_STRONG;
     var10['backgroundColor'] = var20;
     var10['paddingVertical'] = var19;
     var10['paddingHorizontal'] = var18;

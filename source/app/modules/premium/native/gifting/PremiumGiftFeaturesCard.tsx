@@ -198,7 +198,7 @@ case 4:
             var3 = var3[var8];
             var3 = var6.bind(var7)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BRAND;
+            var3 = var3.BACKGROUND_BRAND;
             var2['backgroundColor'] = var3;
             var3 = 33;
             var6 = var3;
@@ -214,7 +214,7 @@ case 6:
             var5 = var5[var8];
             var5 = var6.bind(var7)(var5);
             var5 = var5.colors;
-            var5 = var5.BUTTON_OUTLINE_POSITIVE_BORDER;
+            var5 = var5.CONTROL_CONNECT_BORDER_DEFAULT;
             var2['backgroundColor'] = var5;
             if(!var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:

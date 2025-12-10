@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var11;
     var4['icon'] = var10;
     var10 = {'position': 'relative', 'left': 1};

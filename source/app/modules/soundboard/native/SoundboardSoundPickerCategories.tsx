@@ -362,7 +362,7 @@ case 18:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MODIFIER_ACTIVE;
+    var15 = var15.INTERACTIVE_BACKGROUND_ACTIVE;
     var10['backgroundColor'] = var15;
     var4['activeItem'] = var10;
     var10 = {};

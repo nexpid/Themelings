@@ -192,7 +192,7 @@ case 2:
         var6 = var14[var6];
         var6 = var13.bind(var4)(var6);
         var15 = var6.TextWithIOSLinkWorkaround;
-        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+        var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
         var7 = var11.body;
         var6['style'] = var7;
         var7 = var14[var10];

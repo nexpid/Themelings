@@ -83,7 +83,7 @@ case 11:
                 var14['experimental_useNativeText'] = var18;
                 var18 = _closure1_slot10;
                 var14['variant'] = var18;
-                var18 = 'text-default';
+                var18 = 'text-subtle';
                 if(!var19) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
                 var18 = 'interactive-muted';

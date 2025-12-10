@@ -1068,7 +1068,7 @@ case 40:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var13;
     var4['forumPostIconColor'] = var9;
     var9 = {'borderRadius': null, 'backgroundColor': null, 'height': 24, 'width': 24, 'padding': 4, 'alignContent': 'center'};

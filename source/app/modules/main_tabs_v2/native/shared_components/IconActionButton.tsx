@@ -102,7 +102,7 @@ case 6:
         var16 = var8[var13];
         var16 = var14.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.INPUT_BACKGROUND;
+        var16 = var16.INPUT_BACKGROUND_DEFAULT;
         var12['borderColor'] = var16;
         var16 = var8[var13];
         var16 = var14.bind(var1)(var16);
@@ -117,7 +117,7 @@ case 6:
         var16 = var8[var13];
         var16 = var14.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.INTERACTIVE_NORMAL;
+        var16 = var16.INTERACTIVE_TEXT_DEFAULT;
         var12['tintColor'] = var16;
         var6['actionIcon'] = var12;
         var12 = {};

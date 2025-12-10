@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_SELECTED;
+    var13 = var13.INTERACTIVE_BACKGROUND_SELECTED;
     var10['backgroundColor'] = var13;
     var7['headerChannel'] = var10;
     var10 = {'height': 20, 'width': 20, 'marginRight': 8, 'opacity': 0.6};

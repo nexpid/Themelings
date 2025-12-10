@@ -215,7 +215,7 @@ case 9:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_ACTIVE;
+    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
     var10['color'] = var11;
     var4['metadataItem'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 6};

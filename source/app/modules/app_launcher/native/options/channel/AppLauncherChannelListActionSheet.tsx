@@ -66,7 +66,7 @@ case 6:
             var8 = _closure1_slot6;
             var7 = {};
             var7['size'] = var10;
-            var10 = 'interactive-normal';
+            var10 = 'interactive-text-default';
             var7['color'] = var10;
             var7 = var8.bind(var4)(var9, var7);
             var1['icon'] = var7;
@@ -117,7 +117,7 @@ case 6:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var13;
     var5['channelIcon'] = var10;
     var10 = {};

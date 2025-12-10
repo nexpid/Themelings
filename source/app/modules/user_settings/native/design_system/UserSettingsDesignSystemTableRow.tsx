@@ -840,7 +840,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var26 = var23.bind(var4)(var26);
         var27 = var26.TableRowIcon;
         var26 = {};
-        var30 = 'status-online';
+        var30 = 'text-status-online';
         var26['variant'] = var30;
         var30 = 21;
         var30 = var24[var30];
@@ -861,7 +861,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var27 = var23.bind(var4)(var27);
         var29 = var27.TableRowIcon;
         var27 = {};
-        var31 = 'status-idle';
+        var31 = 'text-status-idle';
         var27['variant'] = var31;
         var31 = 22;
         var31 = var24[var31];
@@ -881,7 +881,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var27 = var23.bind(var4)(var27);
         var29 = var27.TableRowIcon;
         var27 = {};
-        var31 = 'status-dnd';
+        var31 = 'text-status-dnd';
         var27['variant'] = var31;
         var31 = 23;
         var31 = var24[var31];
@@ -901,7 +901,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var21 = var23.bind(var4)(var21);
         var26 = var21.TableRowIcon;
         var21 = {};
-        var29 = 'status-offline';
+        var29 = 'text-status-offline';
         var21['variant'] = var29;
         var28 = var24[var28];
         var28 = var13.bind(var4)(var28);

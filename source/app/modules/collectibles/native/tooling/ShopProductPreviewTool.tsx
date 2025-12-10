@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BORDER_FAINT;
+    var12 = var12.BORDER_MUTED;
     var9['borderColor'] = var12;
     var4['section'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center'};
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BORDER_FAINT;
+    var14 = var14.BORDER_MUTED;
     var9['borderColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BORDER_FAINT;
+    var13 = var13.BORDER_MUTED;
     var9['borderColor'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

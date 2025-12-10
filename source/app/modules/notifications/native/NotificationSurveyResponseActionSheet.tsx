@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var11];
     var4 = var12.bind(var1)(var4);
     var4 = var4.colors;
-    var13 = var4.INTERACTIVE_ACTIVE;
+    var13 = var4.INTERACTIVE_TEXT_ACTIVE;
     var4 = 16;
     var17 = var15.bind(var1)(var14, var13, var4);
     var18 = var10;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_ACTIVE;
+    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
     var10['color'] = var11;
     var7['subtitle'] = var10;
     var10 = {'paddingTop': 50, 'paddingBottom': 100, 'alignItems': 'center'};

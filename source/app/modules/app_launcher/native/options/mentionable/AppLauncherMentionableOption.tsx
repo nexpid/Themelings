@@ -42,7 +42,7 @@ case 0:
             var8 = var13[var8];
             var8 = var11.bind(var5)(var8);
             var11 = var8.UserCircleIcon;
-            var8 = {'size': 'sm', 'color': 'interactive-normal'};
+            var8 = {'size': 'sm', 'color': 'interactive-text-default'};
             var8 = var12.bind(var5)(var11, var8);
             var1['icon'] = var8;
             var6 = var6.iconWrapper;

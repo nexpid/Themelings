@@ -115,7 +115,7 @@ case 4:
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.BORDER_FAINT;
+            var7 = var7.BORDER_MUTED;
             var2['borderColor'] = var7;
             var7 = var3[var6];
             var7 = var4.bind(var5)(var7);
@@ -164,7 +164,7 @@ case 4:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -202,7 +202,7 @@ case 7:
             var9 = _closure1_slot7;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var27 = 15;
+            var27 = 16;
             var2 = var7[var27];
             var2 = var8.bind(var4)(var2);
             var3 = var2.Button;
@@ -220,7 +220,7 @@ case 7:
             var2 = {};
             var11 = var18.wrapper;
             var2['style'] = var11;
-            var15 = 14;
+            var15 = 15;
             var7 = var7[var15];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
@@ -265,7 +265,7 @@ case 8:
             var11 = _closure1_slot7;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var9 = 16;
+            var9 = 17;
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.ButtonGroup;
@@ -279,7 +279,7 @@ case 14:
             var16 = _closure1_slot8;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var14 = 17;
+            var14 = 18;
             var14 = var19[var14];
             var14 = var20.bind(var4)(var14);
             var15 = var14.TwinButtons;
@@ -313,7 +313,7 @@ case 16:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var9 = 13;
+            var9 = 14;
             var9 = var13[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -341,7 +341,7 @@ case 6:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
@@ -360,7 +360,7 @@ case 21:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var8 = 13;
+            var8 = 14;
             var8 = var17[var8];
             var10 = var10.bind(var4)(var8);
             var8 = {};
@@ -378,7 +378,7 @@ case 19:
             var11 = _closure1_slot7;
             var10 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 11;
+            var8 = 12;
             var8 = var16[var8];
             var8 = var10.bind(var4)(var8);
             var10 = var8.IconButton;
@@ -389,7 +389,7 @@ case 24:
             var16 = _closure1_slot7;
             var15 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var14 = 12;
+            var14 = 13;
             var14 = var19[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.ArrowSmallRightIcon;
@@ -413,7 +413,7 @@ case 22:
             var8 = _closure1_slot7;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 14;
+            var6 = 15;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
@@ -436,12 +436,12 @@ case 0:
             var6 = var2.screenIndex;
             var _closure2_slot0 = var6;
             var10 = var2.children;
-            var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var8 = _closure1_slot1;
+            var11 = _closure1_slot2;
             var2 = 8;
-            var2 = var4[var2];
+            var2 = var11[var2];
             var4 = undefined;
-            var2 = var3.bind(var4)(var2);
+            var2 = var8.bind(var4)(var2);
             var12 = var2.bind(var4)();
             var2 = _closure1_slot9;
             var13 = var2.bind(var4)(var12);
@@ -464,14 +464,21 @@ case 0:
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
-            var6 = var13.container;
+            var7 = var13.container;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = 9;
+            var7 = var11[var7];
+            var7 = var8.bind(var4)(var7);
+            var7 = var7.bind(var4)();
+            var6[1] = var7;
             var1['style'] = var6;
             var1['onLayout'] = var5;
             var5 = false;
             var1['collapsable'] = var5;
             var6 = null;
             if(var12) { _fun0003_ip = 25; continue _fun0003 }
-case 4:
+case 26:
             var8 = _closure1_slot7;
             var7 = _closure1_slot5;
             var5 = {};
@@ -487,17 +494,17 @@ case 25:
             var13 = var13.content;
             var6['style'] = var13;
             var11 = null;
-            if(!var12) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+            if(!var12) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var9 = 9;
+            var9 = 10;
             var9 = var14[var9];
             var12 = var12.bind(var4)(var9);
             var9 = {'absolute': true, 'wide': true, 'tall': true, 'mix': true};
             var11 = var13.bind(var4)(var12, var9);
-case 26:
+case 27:
             var9 = new Array(2);
             var9[0] = var11;
             var9[1] = var10;

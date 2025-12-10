@@ -128,7 +128,7 @@ case 0:
             var5 = var18[var8];
             var5 = var15.bind(var4)(var5);
             var5 = var5.colors;
-            var5 = var5.INTERACTIVE_HOVER;
+            var5 = var5.INTERACTIVE_TEXT_HOVER;
             var11 = var6.bind(var9)(var5, var11);
             var5 = 12;
             var5 = var18[var5];

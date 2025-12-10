@@ -502,7 +502,7 @@ case 16:
                 var3 = undefined;
                 var1 = var6.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+                var1 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
                 var5 = _closure2_slot2;
                 var5 = var5.sectionRowWrapper;
                 var1['style'] = var5;

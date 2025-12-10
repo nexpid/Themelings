@@ -161,7 +161,7 @@ case 2:
             var14 = var13[var8];
             var14 = var9.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var14 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var19 = {};
             var23 = _closure1_slot2;
             var22 = 11;

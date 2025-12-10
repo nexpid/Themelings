@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.CARD_PRIMARY_BG;
+    var11 = var11.CARD_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var11;
     var7['formCTA'] = var10;
     var10 = {};

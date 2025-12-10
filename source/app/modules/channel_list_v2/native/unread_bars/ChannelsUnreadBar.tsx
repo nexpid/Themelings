@@ -96,10 +96,10 @@ case 5:
             var7 = arg2;
             if(var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var7 = var11.BG_SURFACE_OVERLAY;
+            var7 = var11.BACKGROUND_SURFACE_HIGHEST;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var7 = var11.ACTION_SHEET_GRADIENT_BG;
+            var7 = var11.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
 case 8:
             _fun0001_ip = 9; continue _fun0001;
 case 4:

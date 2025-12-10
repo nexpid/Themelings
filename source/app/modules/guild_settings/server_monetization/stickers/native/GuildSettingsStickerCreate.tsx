@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INPUT_BACKGROUND;
+    var13 = var13.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INPUT_BACKGROUND;
+    var14 = var14.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -1223,7 +1223,7 @@ case 114:
             var25 = var25[var30];
             var25 = var26.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'variant': 'text-md/semibold', 'color': 'input-placeholder-text'};
+            var25 = {'variant': 'text-md/semibold', 'color': 'input-placeholder-text-default'};
             if(!(var28 == var29)) { _fun0001_ip = 120; continue _fun0001 }
 case 121:
             var32 = _closure1_slot0;

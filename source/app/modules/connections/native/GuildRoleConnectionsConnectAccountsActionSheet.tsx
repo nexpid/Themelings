@@ -1679,7 +1679,7 @@ case 117:
     var19 = var6[var15];
     var19 = var16.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.INTERACTIVE_NORMAL;
+    var19 = var19.INTERACTIVE_TEXT_DEFAULT;
     var12['tintColor'] = var19;
     var2['connectionsChecksGroupCaret'] = var12;
     var12 = {};

@@ -237,7 +237,7 @@ case 15:
             var5 = var9[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.ArrowLargeLeftIcon;
-            var5 = {'size': 'sm', 'style': null, 'color': 'interactive-active'};
+            var5 = {'size': 'sm', 'style': null, 'color': 'interactive-text-active'};
             var9 = var11.backIcon;
             var5['style'] = var9;
             var7 = var8.bind(var4)(var7, var5);
@@ -256,7 +256,7 @@ case 14:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.ArrowLargeLeftIcon;
-            var14 = {'size': 'sm', 'style': null, 'color': 'interactive-active'};
+            var14 = {'size': 'sm', 'style': null, 'color': 'interactive-text-active'};
             var16 = var11.backIcon;
             var14['style'] = var16;
             var14 = var9.bind(var4)(var15, var14);

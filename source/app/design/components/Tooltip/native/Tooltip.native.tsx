@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var9['backgroundColor'] = var13;
     var4['textContainer'] = var9;
     var9 = {};
@@ -87,12 +87,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var9['borderTopColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BRAND;
+    var10 = var10.BACKGROUND_BRAND;
     var9['borderBottomColor'] = var10;
     var4['arrow'] = var9;
     var9 = {'borderLeftWidth': 6, 'borderRightWidth': 6, 'borderTopWidth': 6};
@@ -187,7 +187,7 @@ case 0:
             var1 = var27[var10];
             var3 = var28.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function N() {
+            var1 = function b() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -242,7 +242,7 @@ case 0:
             var1 = var27[var10];
             var3 = var28.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function P() {
+            var1 = function D() {
                 var1 = {};
                 var10 = _closure1_slot0;
                 var12 = _closure1_slot2;

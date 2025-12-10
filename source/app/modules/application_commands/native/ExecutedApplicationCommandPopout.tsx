@@ -290,7 +290,7 @@ case 35:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var9['color'] = var13;
     var4['commandOptionMentionText'] = var9;
     var9 = {};

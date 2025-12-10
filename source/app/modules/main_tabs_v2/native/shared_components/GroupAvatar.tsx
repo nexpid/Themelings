@@ -432,7 +432,7 @@ case 22:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CARD_PRIMARY_BG;
+    var13 = var13.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var13;
     var4['shadowContainerBackground'] = var9;
     var9 = {};
@@ -462,7 +462,7 @@ case 22:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CARD_PRIMARY_BG;
+    var13 = var13.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var13;
     var4['gradientContainer'] = var9;
     var9 = {'position': 'absolute', 'left': 0, 'top': 0, 'right': 0, 'bottom': 0};

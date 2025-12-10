@@ -582,10 +582,10 @@ case 4:
                 var10 = var14.bind(var1)(var10);
                 var14 = var10.Text;
                 var10 = {};
-                var16 = 'interactive-normal';
+                var16 = 'interactive-text-default';
                 if(!var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                var16 = 'interactive-active';
+                var16 = 'interactive-text-active';
 case 6:
                 var10['color'] = var16;
                 var17 = _closure2_slot0;
@@ -635,7 +635,7 @@ case 11:
                 var8 = var8[var13];
                 var8 = var9.bind(var1)(var8);
                 var9 = var8.Text;
-                var8 = {'style': null, 'color': 'interactive-active', 'variant': 'text-sm/normal'};
+                var8 = {'style': null, 'color': 'interactive-text-active', 'variant': 'text-sm/normal'};
                 var11 = _closure2_slot0;
                 var11 = var11.answer;
                 var8['style'] = var11;

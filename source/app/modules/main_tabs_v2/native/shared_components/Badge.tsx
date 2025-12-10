@@ -37,14 +37,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var2];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var11['backgroundColor'] = var12;
     var5['badge'] = var11;
     var11 = {};
     var12 = var7[var2];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_ACTIVE;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
     var11['backgroundColor'] = var12;
     var5['badgeClassic'] = var11;
     var11 = {'alignItems': 'center', 'justifyContent': 'center'};

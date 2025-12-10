@@ -361,7 +361,7 @@ case 2:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BACKGROUND_MESSAGE_HOVER;
+        var14 = var14.MESSAGE_BACKGROUND_HOVER;
         var10['backgroundColor'] = var14;
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
@@ -381,7 +381,7 @@ case 2:
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
         var11 = var11.colors;
-        var11 = var11.BACKGROUND_MODIFIER_HOVER;
+        var11 = var11.INTERACTIVE_BACKGROUND_HOVER;
         var10['borderColor'] = var11;
         var4['pollConfigSection'] = var10;
         var4 = var7.bind(var9)(var4);

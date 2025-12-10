@@ -99,7 +99,7 @@ case 0:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.INPUT_BACKGROUND;
+        var13 = var13.INPUT_BACKGROUND_DEFAULT;
         var9['backgroundColor'] = var13;
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
@@ -178,7 +178,7 @@ case 8:
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.INPUT_BACKGROUND;
+        var12 = var12.INPUT_BACKGROUND_DEFAULT;
         var9['backgroundColor'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
@@ -1446,7 +1446,7 @@ case 126:
                 var24 = var13[var24];
                 var24 = var25.bind(var4)(var24);
                 var24 = var24.colors;
-                var24 = var24.ICON_PRIMARY;
+                var24 = var24.ICON_STRONG;
                 var22['color'] = var24;
                 var22 = var21.bind(var4)(var23, var22);
                 var17['children'] = var22;

@@ -101,7 +101,7 @@ case 0:
             var4 = undefined;
             if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var11 = 'interactive-active';
+            var11 = 'interactive-text-active';
 case 2:
             var7 = var1.icon;
             var14 = var1.variant;
@@ -201,7 +201,7 @@ case 13:
             var9 = var15[var9];
             var9 = var10.bind(var5)(var9);
             var11 = var9.OrbsIcon;
-            var9 = {'color': 'interactive-active', 'size': 'sm'};
+            var9 = {'color': 'interactive-text-active', 'size': 'sm'};
             var16 = var16.orbsIcon;
             var9['style'] = var16;
             var9 = var12.bind(var5)(var11, var9);
@@ -443,7 +443,7 @@ case 30:
             var12 = var17.strikedPrice;
 case 32:
             var11['style'] = var12;
-            var25 = 'interactive-active';
+            var25 = 'interactive-text-active';
             var11['color'] = var25;
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -492,7 +492,7 @@ case 36:
 case 39:
             var15 = _closure1_slot7;
             var14 = _closure1_slot11;
-            var13 = {'priceFormatted': null, 'variant': 'text-md/medium', 'color': 'interactive-active'};
+            var13 = {'priceFormatted': null, 'variant': 'text-md/medium', 'color': 'interactive-text-active'};
             var13['priceFormatted'] = var31;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -527,7 +527,7 @@ case 40:
             var18 = var22.bind(var4)(var18);
             var22 = var18.NitroWheelIcon;
             var18 = {};
-            var24 = 'interactive-normal';
+            var24 = 'interactive-text-default';
             if(!var20) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
             var24 = var25;
@@ -569,7 +569,7 @@ case 47:
             var16 = var22.bind(var4)(var16);
             var22 = var16.NitroWheelIcon;
             var16 = {};
-            var24 = 'interactive-normal';
+            var24 = 'interactive-text-default';
             if(!var20) { _fun0005_ip = 48; continue _fun0005 }
 case 49:
             var24 = var25;
@@ -591,7 +591,7 @@ case 48:
             var16 = var28[var16];
             var16 = var27.bind(var4)(var16);
             var24 = var16.Text;
-            var23 = {'variant': 'text-md/normal', 'color': 'interactive-normal'};
+            var23 = {'variant': 'text-md/normal', 'color': 'interactive-text-default'};
             var16 = 19;
             var16 = var28[var16];
             var27 = var27.bind(var4)(var16);

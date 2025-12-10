@@ -452,7 +452,7 @@ case 6:
         var15 = var22[var15];
         var15 = var21.bind(var4)(var15);
         var16 = var15.Text;
-        var15 = {'variant': 'text-sm/semibold', 'color': 'interactive-active'};
+        var15 = {'variant': 'text-sm/semibold', 'color': 'interactive-text-active'};
         var19 = var22[var18];
         var19 = var21.bind(var4)(var19);
         var20 = var19.intl;

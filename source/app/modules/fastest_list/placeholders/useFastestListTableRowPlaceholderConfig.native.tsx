@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.CARD_PRIMARY_BG;
+    var12 = var12.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var12;
     var2['placeholder'] = var9;
     var9 = {};

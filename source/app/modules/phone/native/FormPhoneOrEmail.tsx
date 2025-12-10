@@ -164,7 +164,7 @@ case 4:
     var4 = var6[var4];
     var4 = var12.bind(var1)(var4);
     var4 = var4.colors;
-    var4 = var4.BACKGROUND_MODIFIER_SELECTED;
+    var4 = var4.INTERACTIVE_BACKGROUND_SELECTED;
     var11['borderLeftColor'] = var4;
     var4 = 12;
     var7['separator'] = var11;

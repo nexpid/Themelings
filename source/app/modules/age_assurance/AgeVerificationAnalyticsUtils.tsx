@@ -59,8 +59,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['EXPRESSIVE_GET_STARTED'] = var4;
     var4 = 'stage_channel_raise_hand';
     var10['STAGE_CHANNEL_RAISE_HAND'] = var4;
-    var4 = 'start_stage_prompt';
-    var10['START_STAGE_PROMPT'] = var4;
+    var4 = 'start_stage_guild_scheduled_event';
+    var10['START_STAGE_GUILD_SCHEDULED_EVENT'] = var4;
+    var4 = 'start_stage';
+    var10['START_STAGE'] = var4;
     var4 = 'age_restricted_dm_commands_settings';
     var10['AGE_RESTRICTED_DM_COMMANDS_SETTINGS'] = var4;
     var4 = 'age_restricted_servers_access_settings';

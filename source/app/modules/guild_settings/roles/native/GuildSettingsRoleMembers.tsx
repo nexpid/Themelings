@@ -108,12 +108,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_HELP_FOREGROUND;
+    var13 = var13.ICON_FEEDBACK_INFO;
     var9['borderColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_HELP_BACKGROUND;
+    var13 = var13.BACKGROUND_FEEDBACK_INFO;
     var9['backgroundColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

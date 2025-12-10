@@ -122,7 +122,7 @@ case 0:
                 var3 = var11[var3];
                 var3 = var10.bind(var4)(var3);
                 var3 = var3.colors;
-                var3 = var3.ANDROID_RIPPLE;
+                var3 = var3.MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE;
                 var10 = var7.bind(var8)(var3);
                 var _closure2_slot1 = var10;
                 var8 = _closure1_slot3;

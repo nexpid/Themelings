@@ -226,7 +226,7 @@ case 20:
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var7 = var6.StarOutlineIcon;
-            var6 = {'color': 'interactive-normal', 'size': 'md'};
+            var6 = {'color': 'interactive-text-default', 'size': 'md'};
             var6 = var9.bind(var5)(var7, var6);
             _fun0001_ip = 21; continue _fun0001;
 case 19:

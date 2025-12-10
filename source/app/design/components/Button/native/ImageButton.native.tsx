@@ -410,7 +410,7 @@ case 16:
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
             var6['maxFontSizeMultiplier'] = var11;
             var6['children'] = var10;
             var6 = var9.bind(var5)(var8, var6);

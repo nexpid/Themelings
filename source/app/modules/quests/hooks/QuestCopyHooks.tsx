@@ -2243,30 +2243,35 @@ case 0:
             var1 = arg1;
             var2 = var1.quest;
             var11 = var1.rewardCode;
-            var3 = var1.selectedPlatformType;
-            var6 = _closure1_slot0;
+            var4 = _closure1_slot0;
             var1 = _closure1_slot2;
             var9 = 12;
-            var4 = var1[var9];
+            var3 = var1[var9];
             var1 = undefined;
-            var7 = var6.bind(var1)(var4);
-            var6 = var7.isTieredRewardCodeQuest;
-            var4 = {};
-            var4['quest'] = var2;
-            var7 = var6.bind(var7)(var4);
+            var6 = var4.bind(var1)(var3);
+            var4 = var6.isTieredRewardCodeQuest;
+            var3 = {};
+            var3['quest'] = var2;
+            var7 = var4.bind(var6)(var3);
             var4 = null;
-            if(!(var4 == var3)) { _fun0014_ip = 233; continue _fun0014 }
-case 254:
-            var8 = var4 == var11;
-            var6 = undefined;
-            if(var8) { _fun0014_ip = 255; continue _fun0014 }
-case 256:
-            var6 = var11.platform;
+            var6 = var4 == var11;
+            var3 = undefined;
+            if(var6) { _fun0014_ip = 254; continue _fun0014 }
 case 255:
-            var3 = var6;
-case 233:
+            var3 = var11.platform;
+case 254:
+            if(!(var4 == var3)) { _fun0014_ip = 256; continue _fun0014 }
+case 257:
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var6 = 13;
+            var6 = var10[var6];
+            var6 = var8.bind(var1)(var6);
+            var6 = var6.QuestRewardCodePlatforms;
+            var3 = var6.CROSS_PLATFORM;
+case 256:
             var6 = null;
-            if(!var7) { _fun0014_ip = 257; continue _fun0014 }
+            if(!var7) { _fun0014_ip = 137; continue _fun0014 }
 case 258:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -2277,24 +2282,24 @@ case 258:
             var7['quest'] = var2;
             var12 = var4 == var11;
             var10 = undefined;
-            if(var12) { _fun0014_ip = 259; continue _fun0014 }
-case 260:
+            if(var12) { _fun0014_ip = 189; continue _fun0014 }
+case 190:
             var10 = var11.tier;
-case 259:
-            if(!(var4 == var10)) { _fun0014_ip = 7; continue _fun0014 }
-case 261:
+case 189:
+            if(!(var4 == var10)) { _fun0014_ip = 259; continue _fun0014 }
+case 180:
             var12 = var2.userStatus;
             var13 = var4 == var12;
             var11 = undefined;
-            if(var13) { _fun0014_ip = 262; continue _fun0014 }
-case 249:
+            if(var13) { _fun0014_ip = 191; continue _fun0014 }
+case 192:
             var11 = var12.claimedTier;
-case 262:
+case 191:
             var10 = var11;
-case 7:
+case 259:
             var7['idx'] = var10;
             var6 = var8.bind(var9)(var7);
-case 257:
+case 137:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 18;
@@ -2305,26 +2310,26 @@ case 257:
             var5 = var5.bind(var7)(var2);
             var7 = var4 == var6;
             var2 = undefined;
-            if(var7) { _fun0014_ip = 263; continue _fun0014 }
-case 184:
+            if(var7) { _fun0014_ip = 260; continue _fun0014 }
+case 187:
             var6 = var6.messages;
             var7 = var4 == var6;
             var2 = undefined;
-            if(var7) { _fun0014_ip = 263; continue _fun0014 }
-case 264:
+            if(var7) { _fun0014_ip = 260; continue _fun0014 }
+case 261:
             var2 = var6.redemptionInstructionsByPlatform;
-case 263:
-            if(!(var4 == var2)) { _fun0014_ip = 265; continue _fun0014 }
-case 183:
+case 260:
+            if(!(var4 == var2)) { _fun0014_ip = 262; continue _fun0014 }
+case 21:
             var5 = var5.messages;
             var2 = var5.redemptionInstructionsByPlatform;
-case 265:
+case 262:
             var4 = var4 != var3;
             var1 = undefined;
-            if(!var4) { _fun0014_ip = 266; continue _fun0014 }
-case 267:
+            if(!var4) { _fun0014_ip = 263; continue _fun0014 }
+case 264:
             var1 = var2[var3];
-case 266:
+case 263:
             return var1;
         }
     };

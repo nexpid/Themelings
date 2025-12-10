@@ -110,7 +110,7 @@ case 0:
             var2 = var15[var12];
             var5 = var7.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function h() {
+            var2 = function p() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -246,7 +246,7 @@ case 12:
             var19 = var22[var19];
             var19 = var21.bind(var4)(var19);
             var19 = var19.colors;
-            var19 = var19.INTERACTIVE_NORMAL;
+            var19 = var19.INTERACTIVE_TEXT_DEFAULT;
             var14['color'] = var19;
             var14 = var18.bind(var4)(var15, var14);
             _fun0001_ip = 13; continue _fun0001;
@@ -261,7 +261,7 @@ case 11:
             var19 = var22[var19];
             var19 = var21.bind(var4)(var19);
             var19 = var19.colors;
-            var19 = var19.INTERACTIVE_NORMAL;
+            var19 = var19.INTERACTIVE_TEXT_DEFAULT;
             var15['color'] = var19;
             var14 = var18.bind(var4)(var16, var15);
 case 13:

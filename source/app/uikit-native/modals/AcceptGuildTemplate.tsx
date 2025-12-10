@@ -301,7 +301,7 @@ case 2:
             var7 = var13[var12];
             var7 = var18.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
             var10 = var17.sectionTip;
             var7['style'] = var10;
             var16 = _closure1_slot13;

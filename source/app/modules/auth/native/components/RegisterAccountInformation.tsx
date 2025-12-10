@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var14;
     var4['trailingButton'] = var9;
     var9 = {'marginTop': 24, 'marginBottom': 50};

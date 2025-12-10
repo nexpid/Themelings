@@ -532,7 +532,7 @@ case 0:
                 var6 = var6.TableRow;
                 var7 = var6.Icon;
                 var6 = {};
-                var9 = 'status-online';
+                var9 = 'text-status-online';
                 var6['variant'] = var9;
                 var6['IconComponent'] = var8;
                 var6 = var4.bind(var3)(var7, var6);
@@ -567,7 +567,7 @@ case 3:
                 var6 = var6.TableRow;
                 var7 = var6.Icon;
                 var6 = {};
-                var9 = 'status-online';
+                var9 = 'text-status-online';
                 var6['variant'] = var9;
                 var6['IconComponent'] = var8;
                 var6 = var4.bind(var3)(var7, var6);
@@ -632,7 +632,7 @@ case 0:
                     var10 = true;
                     if(!(var10 === var11)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var9 = 'status-dnd';
+                    var9 = 'text-status-dnd';
 case 4:
                     var6['variant'] = var9;
                     var6['IconComponent'] = var8;

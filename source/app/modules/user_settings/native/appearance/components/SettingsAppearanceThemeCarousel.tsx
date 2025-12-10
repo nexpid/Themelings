@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BUTTON_OUTLINE_BRAND_BORDER;
+    var16 = var16.CONTROL_SECONDARY_BORDER_DEFAULT;
     var10['borderColor'] = var16;
     var10['borderWidth'] = var15;
     var7['selectionBorder'] = var10;

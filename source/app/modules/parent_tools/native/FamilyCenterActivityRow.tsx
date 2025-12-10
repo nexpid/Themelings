@@ -172,7 +172,7 @@ case 3:
             var8 = var15[var9];
             var8 = var14.bind(var5)(var8);
             var10 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
+            var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var13 = var13.text;
             var8['style'] = var13;
             var13 = 15;
@@ -246,7 +246,7 @@ case 2:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_OVERLAY;
+    var14 = var14.BACKGROUND_SURFACE_HIGHEST;
     var10['backgroundColor'] = var14;
     var4['avatar'] = var10;
     var10 = {};
@@ -392,7 +392,7 @@ case 8:
             var14 = var14[var9];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
+            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var19 = var19.header;
             var14['style'] = var19;
             var14['children'] = var18;

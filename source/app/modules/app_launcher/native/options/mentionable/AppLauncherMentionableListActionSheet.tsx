@@ -314,7 +314,7 @@ case 13:
                     var10 = var12[var10];
                     var10 = var11.bind(var9)(var10);
                     var11 = var10.UserCircleIcon;
-                    var10 = {'size': 'sm', 'color': 'interactive-normal'};
+                    var10 = {'size': 'sm', 'color': 'interactive-text-default'};
                     var10 = var5.bind(var9)(var11, var10);
                     var3['icon'] = var10;
                     var10 = var5.bind(var9)(var4, var3);

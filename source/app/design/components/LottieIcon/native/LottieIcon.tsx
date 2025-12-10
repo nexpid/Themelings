@@ -54,7 +54,7 @@ case 5:
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var11 = var3.INTERACTIVE_NORMAL;
+            var11 = var3.INTERACTIVE_TEXT_DEFAULT;
 case 4:
             var9 = var2.opacity;
             if(!(var9 === var4)) { _fun0001_ip = 6; continue _fun0001 }

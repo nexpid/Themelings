@@ -112,7 +112,7 @@ case 0:
             var6 = var13[var6];
             var6 = var8.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
             var13 = var11.body;
             var6['style'] = var13;
             var6['children'] = var12;

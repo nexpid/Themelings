@@ -343,7 +343,7 @@ case 6:
     var19 = var7[var13];
     var19 = var14.bind(var1)(var19);
     var19 = var19.colors;
-    var19 = var19.CARD_PRIMARY_BG;
+    var19 = var19.CARD_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var19;
     var8['sliderWrapper'] = var11;
     var11 = {};

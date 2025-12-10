@@ -26,13 +26,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var4 = var4.ACKED_RECENTLY_WINDOW_DAYS;
     var _closure1_slot5 = var4;
-    var4 = 3;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AGE_VERIFIABLE_STAGE_EVENT_ENTITY_TYPES;
+    var _closure1_slot6 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_scheduled_events/GuildScheduledEventUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function getNextShownUpcomingEventNoticeType(arg1, arg2, arg3, arg4) {
+    var4 = function getNextShownUpcomingEventNoticeType(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var9 = arg1;
@@ -41,7 +46,7 @@ case 0:
             var3 = arg4;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var10 = 1;
+            var10 = 2;
             var1 = var1[var10];
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
@@ -69,7 +74,7 @@ case 0:
 case 3:
             var13 = _closure1_slot0;
             var14 = _closure1_slot1;
-            var11 = 2;
+            var11 = 3;
             var11 = var14[var11];
             var13 = var13.bind(var4)(var11);
             var11 = var13.extractTimestamp;
@@ -139,6 +144,29 @@ case 12:
             return var1;
         }
     };
-    var3['getNextShownUpcomingEventNoticeType'] = var2;
+    var3['getNextShownUpcomingEventNoticeType'] = var4;
+    var2 = function shouldAgeVerifyForGuildEvent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var3 = null;
+            var4 = var3 == var2;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var1 = var2.entity_type;
+case 16:
+            var1 = var3 != var1;
+            if(!var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var4 = _closure1_slot6;
+            var3 = var4.has;
+            var2 = var2.entity_type;
+            var1 = var3.bind(var4)(var2);
+case 18:
+            return var1;
+        }
+    };
+    var3['shouldAgeVerifyForGuildEvent'] = var2;
     return var1;
 })();

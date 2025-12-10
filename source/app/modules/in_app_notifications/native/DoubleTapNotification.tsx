@@ -91,7 +91,7 @@ case 0:
         var16 = var6[var11];
         var16 = var12.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.CARD_PRIMARY_BG;
+        var16 = var16.CARD_BACKGROUND_DEFAULT;
         var10['backgroundColor'] = var16;
         var16 = var6[var11];
         var16 = var12.bind(var1)(var16);
@@ -148,7 +148,7 @@ case 4:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.INTERACTIVE_NORMAL;
+        var14 = var14.INTERACTIVE_TEXT_DEFAULT;
         var10['color'] = var14;
         var4['textEmoji'] = var10;
         var10 = {};
@@ -272,7 +272,7 @@ case 10:
                 var13 = var11[var15];
                 var13 = var9.bind(var4)(var13);
                 var14 = var13.Text;
-                var13 = {'variant': 'text-lg/semibold', 'color': 'interactive-normal', 'children': '1'};
+                var13 = {'variant': 'text-lg/semibold', 'color': 'interactive-text-default', 'children': '1'};
                 var13 = var10.bind(var4)(var14, var13);
                 var12[1] = var13;
                 var7['children'] = var12;

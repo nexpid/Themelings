@@ -153,7 +153,7 @@ case 4:
         var5 = var12[var5];
         var5 = var8.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'heading-sm/normal', 'color': 'interactive-normal'};
+        var5 = {'variant': 'heading-sm/normal', 'color': 'interactive-text-default'};
         var7 = 8;
         var9 = var12[var7];
         var9 = var8.bind(var4)(var9);

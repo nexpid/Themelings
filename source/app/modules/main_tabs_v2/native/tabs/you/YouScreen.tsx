@@ -111,7 +111,7 @@ case 0:
             var9 = var20[var9];
             var9 = var18.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.ACTION_SHEET_GRADIENT_BG;
+            var9 = var9.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
             var38 = var14.bind(var17)(var9, var8);
             var40 = null;
             if(!(var40 != var10)) { _fun0001_ip = 2; continue _fun0001 }

@@ -43,6 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BANNER'] = var5;
     var5 = 'stream';
     var4['STREAM'] = var5;
+    var5 = 'connect_account';
+    var4['CONNECT_ACCOUNT'] = var5;
     var5 = 2;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

@@ -149,7 +149,7 @@ case 6:
             var15 = var15[var26];
             var15 = var22.bind(var5)(var15);
             var15 = var15.colors;
-            var15 = var15.INTERACTIVE_HOVER;
+            var15 = var15.INTERACTIVE_TEXT_HOVER;
             var15 = var18.bind(var19)(var15, var8);
             var18 = var1 == var11;
             if(var10) { _fun0001_ip = 8; continue _fun0001 }
@@ -177,7 +177,7 @@ case 12:
             var10 = var10[var26];
             var10 = var22.bind(var5)(var10);
             var10 = var10.colors;
-            var10 = var10.ACTION_SHEET_GRADIENT_BG;
+            var10 = var10.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
             var10 = var16.bind(var18)(var10, var21);
             var21 = var10;
             if(!(var1 != var4)) { _fun0001_ip = 15; continue _fun0001 }

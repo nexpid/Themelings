@@ -1129,14 +1129,14 @@ case 71:
     var16 = var8[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var11['color'] = var16;
     var6['reactionCountText'] = var11;
     var11 = {};
     var16 = var8[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_ACTIVE;
+    var16 = var16.INTERACTIVE_TEXT_ACTIVE;
     var11['color'] = var16;
     var6['reactionCountTextSelected'] = var11;
     var11 = {};
@@ -1146,7 +1146,7 @@ case 71:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var11['color'] = var13;
     var6['emojiText'] = var11;
     var11 = {'resizeMode': 'contain', 'width': 24, 'height': 24};
@@ -1237,7 +1237,7 @@ case 0:
             var1 = var17[var6];
             var8 = var16.bind(var5)(var1);
             var3 = var8.useAnimatedStyle;
-            var1 = function b() {
+            var1 = function T() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = {};
@@ -1290,7 +1290,7 @@ case 5:
             var3 = var17[var6];
             var8 = var16.bind(var5)(var3);
             var4 = var8.useAnimatedStyle;
-            var3 = function T() {
+            var3 = function b() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = {'opacity': null, 'color': 'white', 'fontSize': 14, 'marginLeft': 8, 'textAlignVertical': 'center'};

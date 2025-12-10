@@ -158,7 +158,7 @@ case 10:
     var14 = var6[var10];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BRAND;
+    var14 = var14.BACKGROUND_BRAND;
     var11['backgroundColor'] = var14;
     var7['buttonSelected'] = var11;
     var11 = {};

@@ -202,7 +202,7 @@ case 17:
             var3 = var14[var1];
             var7 = var11.bind(var4)(var3);
             var3 = var7.useAnimatedStyle;
-            var2 = function C() {
+            var2 = function _() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -842,7 +842,7 @@ case 42:
         var11 = var6[var3];
         var11 = var5.bind(var4)(var11);
         var11 = var11.colors;
-        var11 = var11.CARD_PRIMARY_BG;
+        var11 = var11.CARD_BACKGROUND_DEFAULT;
         var2['backgroundColor'] = var11;
         var11 = 'hidden';
         var2['overflow'] = var11;
@@ -939,7 +939,7 @@ case 42:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BACKGROUND_MOD_FAINT;
+        var7 = var7.BACKGROUND_MOD_MUTED;
         var2['backgroundColor'] = var7;
         var7 = 'dashed';
         var2['borderStyle'] = var7;
@@ -952,7 +952,7 @@ case 42:
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BACKGROUND_MODIFIER_ACTIVE;
+        var7 = var7.INTERACTIVE_BACKGROUND_ACTIVE;
         var2['backgroundColor'] = var7;
         var1['pressableUnderlayColor'] = var2;
         var2 = {};
@@ -1429,7 +1429,7 @@ case 22:
             var8 = var27[var8];
             var8 = var17.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-sm/normal', 'color': 'header-muted'};
+            var8 = {'variant': 'text-sm/normal', 'color': 'text-muted'};
             var19 = var12.subtitle;
             var8['style'] = var19;
             var19 = var27[var18];

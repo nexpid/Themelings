@@ -216,7 +216,7 @@ case 4:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var13 = var12.BG_BACKDROP;
+    var13 = var12.BACKGROUND_SCRIM;
     var12 = 'backgroundColor';
     var11[var12] = var13;
     var13 = 'center';

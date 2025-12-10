@@ -260,7 +260,7 @@ case 10:
         var16 = var6[var16];
         var16 = var17.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.INTERACTIVE_NORMAL;
+        var16 = var16.INTERACTIVE_TEXT_DEFAULT;
         var9['color'] = var16;
         var4['textEmoji'] = var9;
         var9 = {};

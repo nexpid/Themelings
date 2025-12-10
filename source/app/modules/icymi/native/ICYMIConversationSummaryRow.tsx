@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var7[var3];
         var3 = var2.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.ACTION_SHEET_GRADIENT_BG;
+        var3 = var3.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
         var10 = var5.bind(var9)(var3);
         var3 = 10;
         var5 = var7[var3];

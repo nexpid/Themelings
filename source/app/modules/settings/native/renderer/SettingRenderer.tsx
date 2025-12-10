@@ -598,14 +598,14 @@ case 19:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var10['backgroundColor'] = var13;
     var4['defaultIcon'] = var10;
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CARD_PRIMARY_BG;
+    var13 = var13.CARD_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var13;
     var4['placeholder'] = var10;
     var10 = {};

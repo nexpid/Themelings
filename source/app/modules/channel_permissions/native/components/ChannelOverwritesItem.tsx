@@ -288,7 +288,7 @@ case 0:
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var15 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var19 = var21.name;
             var18 = new Array(2);
             var18[0] = var19;

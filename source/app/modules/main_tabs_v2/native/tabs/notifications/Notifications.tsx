@@ -499,7 +499,7 @@ case 22:
             var25 = var28[var25];
             var25 = var27.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.INTERACTIVE_NORMAL;
+            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
             var20['color'] = var25;
             var20 = var26.bind(var4)(var24, var20);
             _fun0005_ip = 23; continue _fun0005;
@@ -518,7 +518,7 @@ case 25:
             var25 = var28[var25];
             var25 = var27.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.INTERACTIVE_NORMAL;
+            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
             var21['color'] = var25;
             var21 = var26.bind(var4)(var24, var21);
             _fun0005_ip = 26; continue _fun0005;

@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = undefined;
         var3 = var5.bind(var3)(var4);
         var3 = var3.colors;
-        var3 = var3.INTERACTIVE_ACTIVE;
+        var3 = var3.INTERACTIVE_TEXT_ACTIVE;
         var2['tintColor'] = var3;
         var4 = {};
         var3 = -10;

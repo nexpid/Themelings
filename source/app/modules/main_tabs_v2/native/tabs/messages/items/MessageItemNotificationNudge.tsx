@@ -226,7 +226,7 @@ case 2:
             var16 = var14[var12];
             var16 = var13.bind(var4)(var16);
             var16 = var16.colors;
-            var16 = var16.ICON_PRIMARY;
+            var16 = var16.ICON_STRONG;
             var8['color'] = var16;
             var8 = var3.bind(var4)(var15, var8);
             var7['children'] = var8;
@@ -259,7 +259,7 @@ case 2:
             var16 = var14[var16];
             var16 = var11.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'variant': 'text-xs/medium', 'color': 'header-muted'};
+            var16 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
             var19 = var14[var18];
             var19 = var11.bind(var4)(var19);
             var21 = var19.intl;
@@ -402,7 +402,7 @@ case 4:
             var12 = var14[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.colors;
-            var12 = var12.INTERACTIVE_NORMAL;
+            var12 = var12.INTERACTIVE_TEXT_DEFAULT;
             var10['color'] = var12;
             var10 = var3.bind(var4)(var11, var10);
             var8['children'] = var10;

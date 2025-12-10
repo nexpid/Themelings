@@ -170,7 +170,7 @@ case 8:
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.AgeVerificationModalEntryPoint;
-                var5 = var5.START_STAGE_PROMPT;
+                var5 = var5.START_STAGE;
                 var2['entryPoint'] = var5;
                 var2 = var3.bind(var4)(var2);
 case 10:

@@ -101,7 +101,7 @@ case 0:
             var1 = var1.colors;
             if(var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = var1.INTERACTIVE_NORMAL;
+            var10 = var1.INTERACTIVE_TEXT_DEFAULT;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var10 = var1.WHITE;
@@ -150,10 +150,10 @@ case 0:
                     var8 = var4.colors;
                     if(var2) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                    var4 = var8.INPUT_BACKGROUND;
+                    var4 = var8.INPUT_BACKGROUND_DEFAULT;
                     _fun0002_ip = 7; continue _fun0002;
 case 5:
-                    var4 = var8.BG_BRAND;
+                    var4 = var8.BACKGROUND_BRAND;
 case 7:
                     var4 = var6.bind(var7)(var4);
                     var6 = null;

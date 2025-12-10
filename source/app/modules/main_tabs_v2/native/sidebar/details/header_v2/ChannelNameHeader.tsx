@@ -576,7 +576,7 @@ case 26:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var14;
     var4['channelTypeBox'] = var10;
     var10 = {};
@@ -756,7 +756,7 @@ case 32:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-sm/medium', 'color': 'header-muted', 'lineClamp': 1};
+            var2 = {'variant': 'text-sm/medium', 'color': 'text-muted', 'lineClamp': 1};
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 30:

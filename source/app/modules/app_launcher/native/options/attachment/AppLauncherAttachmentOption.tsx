@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var12;
     var4['imageIcon'] = var9;
     var9 = {'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': null, 'width': 32, 'height': 32};
@@ -283,7 +283,7 @@ case 11:
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.ImageFileIcon;
-            var12 = {'size': 'sm', 'color': 'interactive-normal'};
+            var12 = {'size': 'sm', 'color': 'interactive-text-default'};
             var12 = var14.bind(var4)(var13, var12);
             var7['children'] = var12;
             var7 = var10.bind(var4)(var9, var7);

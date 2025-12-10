@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = metroImportDefault;
     var2 = var2.bind(var1)(var11);
     var2 = var2.colors;
-    var2 = var2.BORDER_FAINT;
+    var2 = var2.BORDER_MUTED;
     var10['backgroundColor'] = var2;
     var2 = 12;
     var5['divider'] = var10;

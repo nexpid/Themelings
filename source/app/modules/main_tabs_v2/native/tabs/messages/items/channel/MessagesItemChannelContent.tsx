@@ -207,7 +207,7 @@ case 13:
             var5 = var8.INTERACTIVE_MUTED;
             _fun0002_ip = 14; continue _fun0002;
 case 12:
-            var5 = var8.ICON_SECONDARY;
+            var5 = var8.ICON_SUBTLE;
 case 14:
             var2['tintColor'] = var5;
             var1['channelMutedIcon'] = var2;
@@ -222,7 +222,7 @@ case 16:
             var5 = var8.ICON_MUTED;
             _fun0002_ip = 17; continue _fun0002;
 case 15:
-            var5 = var8.ICON_SECONDARY;
+            var5 = var8.ICON_SUBTLE;
 case 17:
             var2['tintColor'] = var5;
             var1['channelFavoriteIcon'] = var2;
@@ -237,7 +237,7 @@ case 19:
             var3 = var4.INTERACTIVE_MUTED;
             _fun0002_ip = 20; continue _fun0002;
 case 18:
-            var3 = var4.ICON_SECONDARY;
+            var3 = var4.ICON_SUBTLE;
 case 20:
             var2['tintColor'] = var3;
             var1['channelIgnoredIcon'] = var2;

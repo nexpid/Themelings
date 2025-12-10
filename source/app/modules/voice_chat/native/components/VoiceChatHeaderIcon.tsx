@@ -125,7 +125,7 @@ case 2:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.ICON_PRIMARY;
+    var10 = var10.ICON_STRONG;
     var9['backgroundColor'] = var10;
     var4['badge'] = var9;
     var4 = var7.bind(var8)(var4);

@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var14[var8];
         var8 = var11.bind(var4)(var8);
         var9 = var8.QuestsIcon;
-        var8 = {'size': 'md', 'color': 'icon-primary'};
+        var8 = {'size': 'md', 'color': 'icon-strong'};
         var8 = var3.bind(var4)(var9, var8);
         var7[1] = var8;
         var8 = 11;

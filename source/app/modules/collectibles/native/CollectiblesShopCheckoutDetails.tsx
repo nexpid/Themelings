@@ -729,7 +729,7 @@ case 40:
             var5 = var7.STATUS_DANGER;
             _fun0008_ip = 41; continue _fun0008;
 case 39:
-            var5 = var7.BG_BRAND;
+            var5 = var7.BACKGROUND_BRAND;
 case 41:
             var2['borderColor'] = var5;
             var5 = _closure1_slot1;

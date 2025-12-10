@@ -1711,7 +1711,7 @@ case 89:
     var16 = var7[var15];
     var16 = var9.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND;
+    var16 = var16.BACKGROUND_SCRIM;
     var14['backgroundColor'] = var16;
     var10['submittingOverlay'] = var14;
     var14 = {};

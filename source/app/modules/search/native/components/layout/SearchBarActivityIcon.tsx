@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var12['color'] = var13;
     var4['spinnerColor'] = var12;
     var12 = {'width': 18, 'height': 18, 'alignItems': 'center', 'justifyContent': 'center', 'position': 'absolute'};
@@ -206,7 +206,7 @@ case 8:
             var2 = var13[var6];
             var5 = var12.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function M() {
+            var2 = function x() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -241,7 +241,7 @@ case 8:
             var2 = var13[var6];
             var3 = var12.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function R() {
+            var1 = function M() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -321,7 +321,7 @@ case 10:
             var11 = 'sm';
 case 9:
             var9['size'] = var11;
-            var11 = 'interactive-normal';
+            var11 = 'interactive-text-default';
             var9['color'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;

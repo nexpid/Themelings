@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INFO_WARNING_TEXT;
+    var10 = var10.TEXT_FEEDBACK_WARNING;
     var9['tintColor'] = var10;
     var4['image'] = var9;
     var4 = var7.bind(var8)(var4);

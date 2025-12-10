@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var12;
     var4['icon'] = var9;
     var9 = {};
@@ -331,7 +331,7 @@ case 13:
                     var6 = var8[var6];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.AgeVerificationModalEntryPoint;
-                    var6 = var6.START_STAGE_PROMPT;
+                    var6 = var6.START_STAGE;
                     var3['entryPoint'] = var6;
                     var3 = var4.bind(var5)(var3);
                     var2 = _closure1_slot15;

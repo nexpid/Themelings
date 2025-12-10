@@ -86,7 +86,7 @@ case 2:
             var10 = var16[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+            var10 = {'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
             var16 = var12.channelName;
             var10['style'] = var16;
             var10['children'] = var14;
@@ -287,7 +287,7 @@ case 12:
             var11 = var11[var14];
             var11 = var17.bind(var4)(var11);
             var17 = var11.Text;
-            var11 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var11 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var20 = var10.channelName;
             var11['style'] = var20;
             var11['children'] = var19;
@@ -348,7 +348,7 @@ case 16:
             var6 = var6[var14];
             var6 = var8.bind(var4)(var6);
             var8 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-active', 'lineClamp': 1};
+            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-text-active', 'lineClamp': 1};
             var14 = var10.timestamp;
             var6['style'] = var14;
             var6['accessibilityLabel'] = var13;
@@ -511,7 +511,7 @@ case 28:
             var15 = var15[var14];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-sm/semibold', 'color': 'interactive-active', 'lineClamp': 1};
+            var15 = {'variant': 'text-sm/semibold', 'color': 'interactive-text-active', 'lineClamp': 1};
             var15['style'] = var19;
             var19 = undefined;
             if(!var21) { _fun0005_ip = 30; continue _fun0005 }
@@ -648,7 +648,7 @@ case 34:
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var13;
     var4['channelStatus'] = var10;
     var13 = 'row';
@@ -906,7 +906,7 @@ case 49:
             var13 = var13.ChannelListLayoutTypes;
             var13 = var13.COZY;
             var8['layout'] = var13;
-            var13 = 'interactive-normal';
+            var13 = 'interactive-text-default';
             var8['color'] = var13;
             var8['lineClamp'] = var12;
             var8['messageSizeCacheRef'] = var11;

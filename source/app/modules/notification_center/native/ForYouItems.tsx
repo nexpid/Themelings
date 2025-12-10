@@ -874,7 +874,7 @@ case 82:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_FAINT;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var14;
     var4['rowActive'] = var10;
     var10 = {'flexDirection': 'column', 'flex': 1};
@@ -885,7 +885,7 @@ case 82:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_ACTIVE;
+    var14 = var14.INTERACTIVE_TEXT_ACTIVE;
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -897,7 +897,7 @@ case 82:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BRAND;
+    var14 = var14.BACKGROUND_BRAND;
     var10['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -1030,7 +1030,7 @@ case 82:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var14;
     var4['refreshSpinner'] = var10;
     var10 = {};

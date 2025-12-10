@@ -58,7 +58,7 @@ case 5:
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
-            var11 = var1.INTERACTIVE_NORMAL;
+            var11 = var1.INTERACTIVE_ICON_DEFAULT;
 case 4:
             var2 = {'style': 0, 'secondaryColor': 0, 'color': 0};
             var18 = null;

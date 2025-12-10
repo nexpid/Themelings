@@ -98,7 +98,7 @@ case 8:
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-normal'};
+            var11 = {'style': null, 'variant': 'text-sm/normal', 'color': 'interactive-text-default'};
             var15 = var15.description;
             var11['style'] = var15;
             var11['children'] = var14;

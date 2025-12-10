@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = require;
     var3 = exports;
     var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -16,14 +18,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var9.bind(var1)(var4);
     var4 = var4.ORB_RENTAL_PRICE;
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var10[var4];
     var4 = var9.bind(var1)(var4);
     var5 = var4.CurrencyCodes;
-    var _closure1_slot1 = var5;
+    var _closure1_slot3 = var5;
     var4 = var4.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot2 = var4;
+    var _closure1_slot4 = var4;
     var7 = function getProductOrbPrice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -34,7 +36,7 @@ case 0:
             if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var3.prices;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot4;
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = var4.DEFAULT;
@@ -71,7 +73,7 @@ case 11:
             var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.currency;
-                var1 = _closure1_slot1;
+                var1 = _closure1_slot3;
                 var1 = var1.DISCORD_ORB;
                 var1 = var2 === var1;
                 return var1;
@@ -85,12 +87,12 @@ case 14:
 case 13:
             _fun0001_ip = 15; continue _fun0001;
 case 2:
-            var1 = _closure1_slot0;
+            var1 = _closure1_slot2;
 case 15:
             return var1;
         }
     };
-    var _closure1_slot3 = var7;
+    var _closure1_slot5 = var7;
     var6 = function getProductFiatPrice(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -98,7 +100,7 @@ case 0:
             var2 = var1.product;
             var1 = var1.isPremiumUser;
             var2 = var2.prices;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot4;
             if(var1) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
             var1 = var3.MOBILE;
@@ -135,7 +137,7 @@ case 23:
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.currency;
-                var1 = _closure1_slot1;
+                var1 = _closure1_slot3;
                 var1 = var1.DISCORD_ORB;
                 var1 = var2 !== var1;
                 return var1;
@@ -150,9 +152,9 @@ case 25:
             return var1;
         }
     };
-    var _closure1_slot4 = var6;
+    var _closure1_slot6 = var6;
     var5 = function getHasOrbPrice(arg1) {
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot5;
         var2 = {'product': null, 'isPremiumUser': false, 'isRental': false};
         var1 = arg1;
         var2['product'] = var1;
@@ -162,9 +164,9 @@ case 25:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot5 = var5;
+    var _closure1_slot7 = var5;
     var4 = function getHasNonOrbPrice(arg1) {
-        var3 = _closure1_slot4;
+        var3 = _closure1_slot6;
         var2 = {};
         var1 = arg1;
         var2['product'] = var1;
@@ -176,74 +178,30 @@ case 25:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot6 = var4;
-    var8 = 2;
+    var _closure1_slot8 = var4;
+    var8 = 3;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/collectibles/utils/CollectiblesProductUtils.tsx';
     var8 = var9.bind(var10)(var8);
-    var8 = function(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.product;
-            var1 = var1.isPremiumUser;
-            var2 = var2.prices;
-            var3 = _closure1_slot2;
-            if(var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-            var1 = var3.DEFAULT;
-            _fun0003_ip = 18; continue _fun0003;
-case 16:
-            var1 = var3.PREMIUM_TIER_2;
-case 18:
-            var3 = var2[var1];
-            var2 = null;
-            var5 = var2 == var3;
-            var1 = undefined;
-            if(var5) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-            var3 = var3.countryPrices;
-            var5 = var2 == var3;
-            var1 = undefined;
-            if(var5) { _fun0003_ip = 19; continue _fun0003 }
-case 21:
-            var6 = var3.prices;
-            var3 = var2 == var6;
-            var1 = undefined;
-            if(var3) { _fun0003_ip = 19; continue _fun0003 }
-case 22:
-            var5 = var6.slice;
-            var4 = 0;
-            var3 = 2;
-            var1 = var5.bind(var6)(var4, var3);
-case 19:
-            if(!(var2 == var1)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var1 = new Array(0);
-case 23:
-            return var1;
-        }
-    };
-    var3['getAllProductPrices'] = var8;
     var3['getProductOrbPrice'] = var7;
     var3['getProductFiatPrice'] = var6;
     var3['getHasOrbPrice'] = var5;
     var3['getHasNonOrbPrice'] = var4;
     var4 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0004_ip = 27; continue _fun0004 }
+            if(!(var1 != var4)) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot7;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot8;
             var2 = var2.bind(var3)(var4);
-            if(!var1) { _fun0004_ip = 29; continue _fun0004 }
+            if(!var1) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
             var1 = !var2;
 case 29:
@@ -254,19 +212,19 @@ case 27:
         }
     };
     var3['isOrbsExclusiveProduct'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var4 = arg1;
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot7;
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4);
-                var2 = _closure1_slot6;
+                var2 = _closure1_slot8;
                 var2 = var2.bind(var3)(var4);
-                if(!var1) { _fun0005_ip = 31; continue _fun0005 }
+                if(!var1) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
                 var1 = var2;
 case 31:
@@ -276,6 +234,37 @@ case 31:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['getProductsWithOrbsPrice'] = var2;
+    var3['getProductsWithOrbsPrice'] = var4;
+    var2 = function(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var3 = var2.type;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.VARIANTS_GROUP;
+            var1 = var3 === var1;
+            if(!var1) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+            var4 = var2.variants;
+            var3 = null;
+            var1 = var3 != var4;
+case 33:
+            if(!var1) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var2 = var2.variants;
+            var3 = var2.length;
+            var2 = 0;
+            var1 = var2 !== var3;
+case 35:
+            return var1;
+        }
+    };
+    var3['getIsVariantProduct'] = var2;
     return var1;
 })();

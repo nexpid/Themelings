@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_ACTIVE;
+    var14 = var14.INTERACTIVE_TEXT_ACTIVE;
     var9['tintColor'] = var14;
     var14 = 8;
     var9['marginRight'] = var14;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_ACTIVE;
+    var10 = var10.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var10;
     var4['backTitle'] = var9;
     var4 = var7.bind(var8)(var4);

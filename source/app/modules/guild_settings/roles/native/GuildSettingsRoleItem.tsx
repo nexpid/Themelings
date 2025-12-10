@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var6[var12];
     var18 = var13.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_NORMAL;
+    var18 = var18.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var18;
     var18 = var6[var12];
     var18 = var13.bind(var1)(var18);
@@ -596,7 +596,7 @@ case 40:
             var14 = var20[var14];
             var14 = var18.bind(var5)(var14);
             var18 = var14.Text;
-            var14 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var14 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
             var20 = var21.label;
             var14['style'] = var20;
             var20 = var15.name;
@@ -657,7 +657,7 @@ case 46:
             var16 = var20[var16];
             var16 = var18.bind(var5)(var16);
             var18 = var16.LockIcon;
-            var16 = {'size': 'xxs', 'color': 'icon-secondary'};
+            var16 = {'size': 'xxs', 'color': 'icon-subtle'};
             var15 = var19.bind(var5)(var18, var16);
 case 45:
             var14[2] = var15;

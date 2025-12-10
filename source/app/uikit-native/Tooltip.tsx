@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var8[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BG_BRAND;
+    var15 = var15.BACKGROUND_BRAND;
     var11['backgroundColor'] = var15;
     var6['container'] = var11;
     var11 = {};
@@ -92,12 +92,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var8[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_BRAND;
+    var14 = var14.BACKGROUND_BRAND;
     var11['borderTopColor'] = var14;
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var11['borderBottomColor'] = var12;
     var6['arrow'] = var11;
     var6 = var9.bind(var10)(var6);

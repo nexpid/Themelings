@@ -125,7 +125,7 @@ case 4:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INPUT_BACKGROUND;
+    var14 = var14.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var7['giftCodeShare'] = var10;
     var10 = {'marginLeft': 12, 'paddingHorizontal': 16, 'fontSize': 12};

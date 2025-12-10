@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -152,7 +152,7 @@ case 5:
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.colors;
-                var7 = var7.INTERACTIVE_ACTIVE;
+                var7 = var7.INTERACTIVE_TEXT_ACTIVE;
                 var5['color'] = var7;
                 var5 = var4.bind(var1)(var6, var5);
                 var2['children'] = var5;

@@ -183,7 +183,7 @@ case 14:
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'eyebrow', 'color': 'interactive-normal'};
+            var6 = {'variant': 'eyebrow', 'color': 'interactive-text-default'};
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

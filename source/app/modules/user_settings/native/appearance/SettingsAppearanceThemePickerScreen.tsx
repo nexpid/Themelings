@@ -223,7 +223,7 @@ case 6:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BG_SURFACE_OVERLAY;
+        var13 = var13.BACKGROUND_SURFACE_HIGHEST;
         var8['backgroundColor'] = var13;
         var8 = var9.bind(var12)(var8);
         var _closure1_slot20 = var8;
@@ -278,7 +278,7 @@ case 6:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BORDER_FAINT;
+        var13 = var13.BORDER_MUTED;
         var8['borderColor'] = var13;
         var8 = var9.bind(var12)(var8);
         var _closure1_slot25 = var8;
@@ -322,7 +322,7 @@ case 6:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.INTERACTIVE_NORMAL;
+        var13 = var13.INTERACTIVE_TEXT_DEFAULT;
         var8['tintColor'] = var13;
         var8 = var9.bind(var12)(var8);
         var _closure1_slot29 = var8;
@@ -642,7 +642,7 @@ case 14:
                 var21 = var2[var5];
                 var27 = var8.bind(var4)(var21);
                 var26 = var27.useAnimatedReaction;
-                var25 = function Y() {
+                var25 = function j() {
                     var2 = _closure2_slot16;
                     var1 = var2.get;
                     var1 = var1.bind(var2)();

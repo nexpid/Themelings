@@ -198,7 +198,7 @@ case 2:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BRAND;
+    var16 = var16.BACKGROUND_BRAND;
     var10['backgroundColor'] = var16;
     var5['progressCenterCompleted'] = var10;
     var10 = {'position': 'absolute', 'width': 56, 'height': 46};

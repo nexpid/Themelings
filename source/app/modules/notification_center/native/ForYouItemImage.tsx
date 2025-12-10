@@ -94,7 +94,7 @@ case 4:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.INTERACTIVE_NORMAL;
+            var7 = var7.INTERACTIVE_TEXT_DEFAULT;
             var2['color'] = var7;
             var1['guildFallbackImage'] = var2;
             var2 = {'position': 'absolute', 'bottom': 4294967289, 'right': 4294967289, 'width': 22, 'height': 22, 'padding': 3, 'borderRadius': 11};
@@ -129,7 +129,7 @@ case 4:
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var16;
     var4['fallbackImageV2'] = var10;
     var10 = {};
@@ -150,7 +150,7 @@ case 4:
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BRAND;
+    var16 = var16.BACKGROUND_BRAND;
     var10['backgroundColor'] = var16;
     var4['brandBackground'] = var10;
     var10 = {};

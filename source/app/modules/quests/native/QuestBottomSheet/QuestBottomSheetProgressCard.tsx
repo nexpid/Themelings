@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOD_FAINT;
+    var15 = var15.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var15;
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BORDER_FAINT;
+    var14 = var14.BORDER_MUTED;
     var9['borderColor'] = var14;
     var4['footer'] = var9;
     var9 = {};

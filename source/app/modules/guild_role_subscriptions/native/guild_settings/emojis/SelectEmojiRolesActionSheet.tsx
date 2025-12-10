@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var16 = var13.INTERACTIVE_ACTIVE;
+    var16 = var13.INTERACTIVE_TEXT_ACTIVE;
     var13 = 16;
     var22 = var18.bind(var1)(var17, var16, var13);
     var23 = var9;
@@ -361,7 +361,7 @@ case 0:
                     var16 = var16[var21];
                     var16 = var17.bind(var1)(var16);
                     var17 = var16.Text;
-                    var16 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/medium', 'color': 'interactive-active'};
+                    var16 = {'style': null, 'lineClamp': 1, 'variant': 'text-md/medium', 'color': 'interactive-text-active'};
                     var18 = var18.roleName;
                     var16['style'] = var18;
                     var18 = var15.name;

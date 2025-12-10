@@ -160,7 +160,7 @@ case 6:
             var7 = var9[var6];
             var7 = var8.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.INTERACTIVE_NORMAL;
+            var7 = var7.INTERACTIVE_TEXT_DEFAULT;
             var2['tintColor'] = var7;
             var1['joinButtonIconInactive'] = var2;
             var2 = {'marginTop': null, 'alignSelf': 'center', 'maxWidth': 64};
@@ -506,7 +506,7 @@ case 32:
             var9 = var15[var9];
             var9 = var10.bind(var6)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'color': 'interactive-normal', 'variant': 'text-xs/semibold', 'lineClamp': 1};
+            var9 = {'style': null, 'color': 'interactive-text-default', 'variant': 'text-xs/semibold', 'lineClamp': 1};
             var14 = var14.joinButtonText;
             var9['style'] = var14;
             if(!(var13 == var11)) { _fun0002_ip = 56; continue _fun0002 }

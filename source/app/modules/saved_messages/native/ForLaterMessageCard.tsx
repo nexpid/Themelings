@@ -546,7 +546,7 @@ case 33:
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOD_FAINT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var11['backgroundColor'] = var13;
     var5['cardDivider'] = var11;
     var11 = {'position': 'absolute', 'right': 16, 'zIndex': 10};

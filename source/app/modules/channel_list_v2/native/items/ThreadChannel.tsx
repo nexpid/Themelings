@@ -637,7 +637,7 @@ case 35:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var10['backgroundColor'] = var13;
     var4['unreadIcon'] = var10;
     var10 = {'backgroundColor': null, 'width': 2, 'position': 'absolute', 'left': 23};

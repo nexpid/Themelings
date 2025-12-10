@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACTIVE;
+    var13 = var13.INTERACTIVE_BACKGROUND_ACTIVE;
     var2['ephemeralBackgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MENTIONED;
+    var13 = var13.MESSAGE_MENTIONED_BACKGROUND_DEFAULT;
     var2['mentionedBackgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MESSAGE_AUTOMOD;
+    var13 = var13.MESSAGE_AUTOMOD_BACKGROUND_DEFAULT;
     var2['automodBlockedBackgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MESSAGE_HIGHLIGHT;
+    var11 = var11.MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT;
     var2['editingColor'] = var11;
     var2 = var9.bind(var10)(var2);
     var _closure1_slot4 = var2;

@@ -190,7 +190,7 @@ case 13:
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'heading-deprecated-12/extrabold', 'color': 'interactive-active'};
+            var6 = {'variant': 'heading-deprecated-12/extrabold', 'color': 'interactive-text-active'};
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
 case 12:
@@ -243,7 +243,7 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BG_BRAND;
+    var13 = var13.BACKGROUND_BRAND;
     var10['backgroundColor'] = var13;
     var7['filledNode'] = var10;
     var10 = {};

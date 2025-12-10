@@ -1597,7 +1597,7 @@ case 64:
                     var7 = var10[var7];
                     var7 = var13.bind(var1)(var7);
                     var8 = var7.Text;
-                    var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                    var7 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                     var11 = _closure2_slot1;
                     var11 = var11.rolesBody;
                     var7['style'] = var11;
@@ -1821,7 +1821,7 @@ case 73:
                     var9 = var18[var9];
                     var9 = var17.bind(var5)(var9);
                     var11 = var9.Text;
-                    var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                    var9 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                     var13 = var13.subheaderDescription;
                     var9['style'] = var13;
                     var13 = 27;
@@ -2423,7 +2423,7 @@ case 107:
             var33 = var40[var33];
             var33 = var39.bind(var4)(var33);
             var34 = var33.Text;
-            var33 = {'variant': 'text-md/semibold', 'color': 'interactive-normal'};
+            var33 = {'variant': 'text-md/semibold', 'color': 'interactive-text-default'};
             var36 = 27;
             var37 = var40[var36];
             var37 = var39.bind(var4)(var37);

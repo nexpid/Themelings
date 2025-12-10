@@ -106,7 +106,7 @@ case 7:
             var2 = var13[var2];
             var2 = var9.bind(var4)(var2);
             var9 = var2.Text;
-            var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+            var2 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
             var12 = var12.benefitDescription;
             var2['style'] = var12;
             var12 = var3.description;

@@ -174,7 +174,7 @@ case 12:
             var11 = var15[var11];
             var11 = var18.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+            var11 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-default'};
             var20 = var16.selectedColorHex;
             var11['style'] = var20;
             var17 = var15[var17];
@@ -279,7 +279,7 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var13;
     var4['label'] = var9;
     var9 = {};
@@ -300,7 +300,7 @@ case 12:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var9['borderColor'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var7.bind(var4)(var5);
         var7 = var5.Text;
-        var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-active'};
+        var5 = {'style': null, 'variant': 'text-md/semibold', 'color': 'interactive-text-active'};
         var10 = var10.text;
         var5['style'] = var10;
         var5['children'] = var9;

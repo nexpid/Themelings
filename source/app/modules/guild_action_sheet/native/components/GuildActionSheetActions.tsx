@@ -244,7 +244,7 @@ case 5:
     var12 = var9[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var7['color'] = var12;
     var11 = var11.PRIMARY_MEDIUM;
     var7['fontFamily'] = var11;

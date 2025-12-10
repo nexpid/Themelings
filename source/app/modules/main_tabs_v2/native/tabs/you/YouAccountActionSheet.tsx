@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var10[var11];
                 var11 = var9.bind(var7)(var11);
                 var1['source'] = var11;
-                var11 = 'status-online';
+                var11 = 'text-status-online';
                 var1['variant'] = var11;
                 var1 = var8.bind(var7)(var6, var1);
                 var2['icon'] = var1;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10[var12];
                 var12 = var9.bind(var7)(var12);
                 var6['source'] = var12;
-                var12 = 'status-idle';
+                var12 = 'text-status-idle';
                 var6['variant'] = var12;
                 var6 = var11.bind(var7)(var8, var6);
                 var2['icon'] = var6;
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10[var12];
                 var12 = var9.bind(var7)(var12);
                 var6['source'] = var12;
-                var12 = 'status-dnd';
+                var12 = 'text-status-dnd';
                 var6['variant'] = var12;
                 var6 = var11.bind(var7)(var8, var6);
                 var2['icon'] = var6;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var10[var8];
                 var8 = var9.bind(var7)(var8);
                 var4['source'] = var8;
-                var8 = 'status-offline';
+                var8 = 'text-status-offline';
                 var4['variant'] = var8;
                 var4 = var6.bind(var7)(var5, var4);
                 var2['icon'] = var4;
@@ -1340,7 +1340,7 @@ case 58:
     var11 = var6[var11];
     var11 = var14.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var11;
     var4['trailingIcon'] = var10;
     var10 = {'padding': 0, 'flexDirection': 'row', 'alignItems': 'center'};

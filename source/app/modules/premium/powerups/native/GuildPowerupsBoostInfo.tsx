@@ -93,7 +93,7 @@ case 3:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.colors;
-            var10 = var10.HEADER_MUTED;
+            var10 = var10.TEXT_MUTED;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var14 = _closure1_slot1;

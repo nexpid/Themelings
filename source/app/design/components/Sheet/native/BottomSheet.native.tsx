@@ -201,7 +201,7 @@ case 12:
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            var5 = var4.ACTION_SHEET_GRADIENT_BG;
+            var5 = var4.MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT;
             var4 = 'backgroundColor';
             var2[var4] = var5;
             var1['backgroundOverlay'] = var2;

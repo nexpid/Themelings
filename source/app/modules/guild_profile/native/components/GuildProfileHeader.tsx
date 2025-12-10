@@ -74,14 +74,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.STATUS_OFFLINE;
+    var14 = var14.TEXT_STATUS_OFFLINE;
     var9['backgroundColor'] = var14;
     var2['dot'] = var9;
     var9 = {'width': 8, 'height': 8, 'borderRadius': 4};
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_ONLINE;
+    var12 = var12.TEXT_STATUS_ONLINE;
     var9['backgroundColor'] = var12;
     var2['dotOnline'] = var9;
     var9 = {};

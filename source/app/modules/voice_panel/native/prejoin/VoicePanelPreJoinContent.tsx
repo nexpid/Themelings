@@ -1597,13 +1597,13 @@ case 88:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INFO_WARNING_FOREGROUND;
+    var14 = var14.ICON_FEEDBACK_WARNING;
     var10['borderColor'] = var14;
     var10['borderWidth'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INFO_WARNING_BACKGROUND;
+    var13 = var13.BACKGROUND_FEEDBACK_WARNING;
     var10['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
@@ -1799,7 +1799,7 @@ case 95:
             var6 = var6[var15];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-sm/bold', 'color': 'interactive-active'};
+            var6 = {'variant': 'text-sm/bold', 'color': 'interactive-text-active'};
             var9 = {};
             var12 = 1;
             var9['flexShrink'] = var12;

@@ -114,7 +114,7 @@ case 0:
             var17 = 7;
             var8 = var15[var17];
             var9 = var9.bind(var4)(var8);
-            var8 = {'messageType': null, 'textColor': 'info-help-text', 'textVariant': 'text-sm/medium'};
+            var8 = {'messageType': null, 'textColor': 'text-feedback-info', 'textVariant': 'text-sm/medium'};
             var17 = var15[var17];
             var17 = var12.bind(var4)(var17);
             var17 = var17.HelpMessageTypes;

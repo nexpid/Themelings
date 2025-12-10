@@ -173,7 +173,7 @@ case 2:
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INFO_DANGER_BACKGROUND;
+    var14 = var14.BACKGROUND_FEEDBACK_CRITICAL;
     var9['backgroundColor'] = var14;
     var2['errorContainer'] = var9;
     var9 = {'textDecorationLine': 'underline', 'textDecorationColor': null, 'flexShrink': 1};
@@ -262,7 +262,7 @@ case 6:
         var5 = var15[var5];
         var5 = var14.bind(var4)(var5);
         var6 = var5.CircleErrorIcon;
-        var5 = {'color': 'info-danger-foreground', 'size': 'sm'};
+        var5 = {'color': 'icon-feedback-critical', 'size': 'sm'};
         var6 = var10.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;

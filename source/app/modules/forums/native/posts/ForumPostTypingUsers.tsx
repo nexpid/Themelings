@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.CARD_PRIMARY_BG;
+    var12 = var12.CARD_BACKGROUND_DEFAULT;
     var9['color'] = var12;
     var4['borderColor'] = var9;
     var9 = {};
@@ -144,7 +144,7 @@ case 0:
             var3 = var3[var8];
             var9 = var4.bind(var5)(var3);
             var4 = var9.useAnimatedStyle;
-            var3 = function P() {
+            var3 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};

@@ -373,7 +373,7 @@ case 7:
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_NORMAL;
+    var18 = var18.INTERACTIVE_TEXT_DEFAULT;
     var11['tintColor'] = var18;
     var5['privacyIcon'] = var11;
     var11 = {};
@@ -420,7 +420,7 @@ case 7:
     var17 = var7[var14];
     var17 = var15.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_BRAND;
+    var17 = var17.BACKGROUND_BRAND;
     var11['backgroundColor'] = var17;
     var17 = var7[var14];
     var17 = var15.bind(var1)(var17);
@@ -449,7 +449,7 @@ case 7:
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BRAND;
+    var16 = var16.BACKGROUND_BRAND;
     var11['backgroundColor'] = var16;
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);

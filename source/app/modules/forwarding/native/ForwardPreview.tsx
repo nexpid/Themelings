@@ -752,7 +752,7 @@ case 61:
             var25 = 'text-sm/medium';
 case 60:
             var21['variant'] = var25;
-            var25 = 'header-muted';
+            var25 = 'text-muted';
             var21['color'] = var25;
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);

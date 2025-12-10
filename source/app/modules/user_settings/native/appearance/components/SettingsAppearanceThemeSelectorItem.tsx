@@ -112,7 +112,7 @@ case 3:
             var3 = var10[var4];
             var3 = var9.bind(var8)(var3);
             var3 = var3.colors;
-            var3 = var3.INTERACTIVE_NORMAL;
+            var3 = var3.INTERACTIVE_TEXT_DEFAULT;
             var3 = var6.bind(var7)(var11, var3);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -120,7 +120,7 @@ case 2:
             var4 = var10[var4];
             var4 = var9.bind(var8)(var4);
             var4 = var4.colors;
-            var4 = var4.INTERACTIVE_NORMAL;
+            var4 = var4.INTERACTIVE_TEXT_DEFAULT;
             var3 = var6.bind(var7)(var5, var4);
 case 4:
             var2['tintColor'] = var3;
@@ -301,7 +301,7 @@ case 14:
             var1 = var12[var8];
             var1 = var10.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.ICON_PRIMARY;
+            var1 = var1.ICON_STRONG;
             var11 = var2.bind(var3)(var1, var6);
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;

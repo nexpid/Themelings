@@ -940,6 +940,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_PROFILE_ACTIVITY_CLOUD_PLAY_SECTION'] = var1;
     var1 = 'user profile wishlist';
     var2['USER_PROFILE_WISHLIST'] = var1;
+    var1 = 'wishlist banner';
+    var2['WISHLIST_BANNER'] = var1;
     var1 = 'blocked profile modal';
     var2['BLOCKED_PROFILE_MODAL'] = var1;
     var1 = 'ignored profile modal';
@@ -1013,6 +1015,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FREQUENT_FRIENDS_ROW'] = var1;
     var1 = 'billing settings billing';
     var2['BILLING_SETTINGS_BILLING'] = var1;
+    var1 = 'sdk debug tools';
+    var2['SDK_DEBUG_TOOLS'] = var1;
+    var1 = 'channels and roles';
+    var2['CHANNELS_AND_ROLES'] = var1;
+    var1 = 'guild onboarding';
+    var2['GUILD_ONBOARDING'] = var1;
+    var1 = 'user profile application widget';
+    var2['USER_PROFILE_APPLICATION_WIDGET'] = var1;
     var1 = 'slayer storefront payment modal';
     var2['SLAYER_STOREFRONT_PAYMENT_MODAL'] = var1;
     var1 = 'slayer storefront card purchase button';

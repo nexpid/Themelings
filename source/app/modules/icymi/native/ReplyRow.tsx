@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var11.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'variant': 'text-md/medium', 'color': 'input-placeholder-text', 'lineClamp': 1};
+        var9 = {'variant': 'text-md/medium', 'color': 'input-placeholder-text-default', 'lineClamp': 1};
         var15 = var12.contentInventoryText;
         var9['style'] = var15;
         var9['children'] = var14;

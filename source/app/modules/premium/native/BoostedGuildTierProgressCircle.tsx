@@ -223,7 +223,7 @@ case 16:
             var12 = var15[var12];
             var12 = var16.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'interactive-active'};
+            var12 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'interactive-text-active'};
             var18 = var7.guildTierName;
             var12['style'] = var18;
             var15 = var15[var17];

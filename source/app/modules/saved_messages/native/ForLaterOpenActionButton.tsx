@@ -28,7 +28,7 @@ case 0:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.INTERACTIVE_NORMAL;
+            var1 = var1.INTERACTIVE_TEXT_DEFAULT;
             var17 = var2.bind(var3)(var1, var6);
             var1 = _closure1_slot10;
             var13 = var1.bind(var4)();

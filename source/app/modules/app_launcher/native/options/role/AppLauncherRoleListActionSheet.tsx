@@ -60,7 +60,7 @@ case 5:
             var11 = 'sm';
             var6['size'] = var11;
             var10 = var9 != var10;
-            var9 = 'interactive-normal';
+            var9 = 'interactive-text-default';
             if(!var10) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
             var9 = 'white';

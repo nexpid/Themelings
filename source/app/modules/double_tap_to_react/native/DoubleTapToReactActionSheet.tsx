@@ -104,7 +104,7 @@ case 4:
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.INTERACTIVE_NORMAL;
+        var15 = var15.INTERACTIVE_TEXT_DEFAULT;
         var9['color'] = var15;
         var4['selectedTextEmoji'] = var9;
         var9 = {};
@@ -149,7 +149,7 @@ case 6:
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.CARD_PRIMARY_BG;
+        var14 = var14.CARD_BACKGROUND_DEFAULT;
         var9['backgroundColor'] = var14;
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
@@ -651,7 +651,7 @@ case 0:
                 var3 = var10[var11];
                 var9 = var6.bind(var4)(var3);
                 var5 = var9.useAnimatedStyle;
-                var3 = function C() {
+                var3 = function w() {
                     var1 = {};
                     var3 = {};
                     var7 = _closure1_slot0;
@@ -711,7 +711,7 @@ case 0:
                 var5 = var10[var11];
                 var13 = var6.bind(var4)(var5);
                 var6 = var13.useAnimatedStyle;
-                var5 = function E() {
+                var5 = function y() {
                     var1 = {};
                     var4 = {};
                     var5 = _closure2_slot10;
@@ -1282,7 +1282,7 @@ case 48:
                 var19 = var20[var9];
                 var19 = var16.bind(var4)(var19);
                 var22 = var19.Text;
-                var19 = {'variant': 'text-lg/semibold', 'style': null, 'color': 'interactive-normal', 'children': '1'};
+                var19 = {'variant': 'text-lg/semibold', 'style': null, 'color': 'interactive-text-default', 'children': '1'};
                 var23 = var21.selectedEmojiText;
                 var19['style'] = var23;
                 var19 = var11.bind(var4)(var22, var19);

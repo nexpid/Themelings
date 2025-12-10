@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var17 = var16.INTERACTIVE_NORMAL;
+    var17 = var16.INTERACTIVE_TEXT_DEFAULT;
     var16 = 'tintColor';
     var10[var16] = var17;
     var5['appIconPlaceholder'] = var10;

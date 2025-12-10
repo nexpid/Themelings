@@ -705,7 +705,7 @@ case 52:
     var16 = var7[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOD_FAINT;
+    var16 = var16.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var16;
     var16 = var7[var13];
     var16 = var14.bind(var1)(var16);

@@ -305,7 +305,7 @@ case 4:
             var13 = var18[var13];
             var13 = var17.bind(var4)(var13);
             var13 = var13.colors;
-            var13 = var13.INTERACTIVE_NORMAL;
+            var13 = var13.INTERACTIVE_TEXT_DEFAULT;
             var11['color'] = var13;
             var13 = var15.chatIcon;
             var11['style'] = var13;

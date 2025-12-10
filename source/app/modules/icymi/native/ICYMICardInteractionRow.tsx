@@ -626,7 +626,7 @@ case 56:
             var10 = var21[var10];
             var10 = var18.bind(var4)(var10);
             var18 = var10.Text;
-            var10 = {'variant': 'text-md/medium', 'color': 'interactive-normal', 'style': null, 'allowFontScaling': false};
+            var10 = {'variant': 'text-md/medium', 'color': 'interactive-text-default', 'style': null, 'allowFontScaling': false};
             var22 = var17.defaultEmoji;
             var21 = new Array(2);
             var21[0] = var22;
@@ -1179,7 +1179,7 @@ case 45:
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.INTERACTIVE_NORMAL;
+            var3 = var3.INTERACTIVE_TEXT_DEFAULT;
             var2['tintColor'] = var3;
             var1['commentsIcon'] = var2;
             return var1;
@@ -1598,7 +1598,7 @@ case 94:
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     var1 = var1.colors;
-                    var1 = var1.CARD_PRIMARY_BG;
+                    var1 = var1.CARD_BACKGROUND_DEFAULT;
                     return var1;
 case 93:
                     var3 = _closure1_slot1;
@@ -1608,7 +1608,7 @@ case 93:
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     var1 = var1.colors;
-                    var1 = var1.BACKGROUND_MESSAGE_HIGHLIGHT;
+                    var1 = var1.MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT;
                     return var1;
                 }
             };

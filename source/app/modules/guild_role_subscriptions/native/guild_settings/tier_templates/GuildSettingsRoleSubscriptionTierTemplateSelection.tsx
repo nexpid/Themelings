@@ -403,7 +403,7 @@ case 17:
                     var9 = var15[var9];
                     var9 = var14.bind(var1)(var9);
                     var10 = var9.Text;
-                    var9 = {'variant': 'text-md/medium', 'color': 'interactive-active'};
+                    var9 = {'variant': 'text-md/medium', 'color': 'interactive-text-active'};
                     var11 = 23;
                     var12 = var15[var11];
                     var12 = var14.bind(var1)(var12);
@@ -684,14 +684,14 @@ case 21:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var13;
     var4['activityIndicator'] = var9;
     var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_ACTIVE;
+    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var11;
     var9['marginRight'] = var10;
     var4['editIcon'] = var9;

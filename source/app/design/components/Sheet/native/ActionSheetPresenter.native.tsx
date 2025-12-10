@@ -30,26 +30,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var9 = var4.Modal;
     var _closure1_slot5 = var9;
-    var9 = var4.StyleSheet;
-    var _closure1_slot6 = var9;
-    var4 = var4.View;
-    var _closure1_slot7 = var4;
+    var4 = var4.StyleSheet;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.NOOP;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var7 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -75,7 +73,7 @@ case 0:
             var2 = var3[var2];
             var _closure2_slot2 = var2;
             var2 = var10.useRef;
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot8;
             var2 = var2.bind(var10)(var5);
             var _closure2_slot3 = var2;
             var6 = var10.useCallback;
@@ -148,7 +146,7 @@ case 0:
                     var3 = 'exited';
                     var3 = var4.bind(var1)(var3);
                     var3 = _closure2_slot5;
-                    var2 = _closure1_slot9;
+                    var2 = _closure1_slot8;
                     var3['current'] = var2;
                     return var1;
                 };
@@ -193,7 +191,7 @@ case 0:
                 return var1;
             };
             var5 = var8.bind(var10)(var3, var5);
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var8 = 9;
             var8 = var7[var8];
             var8 = var6.bind(var4)(var8);
@@ -239,21 +237,24 @@ case 2:
             var5 = var15;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = _closure1_slot10;
-            var7 = _closure1_slot7;
+            var8 = _closure1_slot9;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var6 = 12;
+            var6 = var17[var6];
+            var6 = var16.bind(var4)(var6);
+            var7 = var6.SafeAreaProvider;
             var6 = {};
             var18 = _closure1_slot6;
             var9 = var18.absoluteFill;
             var6['style'] = var9;
             var10 = _closure1_slot5;
-            var9 = {'transparent': true, 'statusBarTranslucent': true, 'animationType': 'none'};
+            var9 = {'transparent': true, 'statusBarTranslucent': true, 'navigationBarTranslucent': true, 'animationType': 'none'};
             var13 = var18.absoluteFill;
             var9['style'] = var13;
             var9['onRequestClose'] = var12;
-            var13 = _closure1_slot11;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var11 = 12;
+            var13 = _closure1_slot10;
+            var11 = 13;
             var11 = var17[var11];
             var11 = var16.bind(var4)(var11);
             var12 = var11.GestureHandlerRootView;
@@ -263,7 +264,7 @@ case 5:
             var11['onAccessibilityEscape'] = var14;
             var14 = new Array(2);
             var14[0] = var15;
-            var15 = 13;
+            var15 = 14;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
@@ -281,8 +282,8 @@ case 4:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
-    var4 = 17;
+    var _closure1_slot11 = var4;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -291,16 +292,16 @@ case 4:
     var2 = function ActionSheetPresenter() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var2 = 14;
+        var2 = 15;
         var2 = var8[var2];
         var4 = undefined;
         var10 = var7.bind(var4)(var2);
         var9 = var10.useStateFromStoresArray;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot7;
         var5 = new Array(1);
         var5[0] = var2;
         var3 = function() {
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var1 = var2.getStack;
             var1 = var1.bind(var2)();
             return var1;
@@ -314,8 +315,8 @@ case 4:
             var5 = var1.key;
             var6 = var1.impressionName;
             var1 = var1.impressionProperties;
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot12;
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot11;
             var2 = {};
             var2['sheetKey'] = var5;
             var2['content'] = var7;
@@ -326,8 +327,8 @@ case 4:
             return var1;
         };
         var5 = var2.bind(var3)(var1);
-        var3 = _closure1_slot10;
-        var1 = 15;
+        var3 = _closure1_slot9;
+        var1 = 16;
         var1 = var8[var1];
         var1 = var7.bind(var4)(var1);
         var2 = var1.TransitionGroup;
@@ -335,7 +336,7 @@ case 4:
         var6 = _closure1_slot6;
         var6 = var6.absoluteFill;
         var1['style'] = var6;
-        var6 = 16;
+        var6 = 17;
         var6 = var8[var6];
         var6 = var7.bind(var4)(var6);
         var6 = var6.TransitionGroupOverlayView;

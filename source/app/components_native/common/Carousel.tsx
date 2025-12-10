@@ -147,14 +147,14 @@ case 9:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.ICON_PRIMARY;
+    var13 = var13.ICON_STRONG;
     var10['color'] = var13;
     var4['activeIndicator'] = var10;
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.ICON_SECONDARY;
+    var11 = var11.ICON_SUBTLE;
     var10['color'] = var11;
     var4['inactiveIndicator'] = var10;
     var4 = var8.bind(var9)(var4);

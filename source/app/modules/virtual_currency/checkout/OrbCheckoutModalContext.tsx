@@ -145,9 +145,12 @@ case 2:
             var6 = var14.bind(var12)(var3, var6);
             var3 = 8;
             var3 = var11[var3];
-            var4 = var4.bind(var12)(var3);
-            var3 = var4.useRedeemVirtualCurrency;
-            var3 = var3.bind(var4)();
+            var11 = var4.bind(var12)(var3);
+            var4 = var11.useRedeemVirtualCurrency;
+            var3 = {};
+            var3['skuId'] = var10;
+            var3['loadId'] = var9;
+            var3 = var4.bind(var11)(var3);
             var14 = var3.redeemVirtualCurrency;
             var _closure2_slot6 = var14;
             var4 = var3.isSubmitting;

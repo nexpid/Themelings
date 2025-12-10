@@ -295,7 +295,7 @@ case 11:
                 var8 = var13[var3];
                 var8 = var5.bind(var4)(var8);
                 var8 = var8.colors;
-                var8 = var8.INTERACTIVE_NORMAL;
+                var8 = var8.INTERACTIVE_TEXT_DEFAULT;
                 var11 = var10.bind(var11)(var8);
                 var _closure2_slot5 = var11;
                 var8 = var13[var7];
@@ -304,7 +304,7 @@ case 11:
                 var8 = var13[var3];
                 var8 = var5.bind(var4)(var8);
                 var8 = var8.colors;
-                var8 = var8.INTERACTIVE_ACTIVE;
+                var8 = var8.INTERACTIVE_TEXT_ACTIVE;
                 var10 = var10.bind(var17)(var8);
                 var _closure2_slot6 = var10;
                 var8 = var13[var7];
@@ -313,7 +313,7 @@ case 11:
                 var8 = var13[var3];
                 var8 = var5.bind(var4)(var8);
                 var8 = var8.colors;
-                var8 = var8.INTERACTIVE_NORMAL;
+                var8 = var8.INTERACTIVE_TEXT_DEFAULT;
                 var8 = var17.bind(var19)(var8, var18);
                 var _closure2_slot7 = var8;
                 var7 = var13[var7];
@@ -322,7 +322,7 @@ case 11:
                 var3 = var13[var3];
                 var3 = var5.bind(var4)(var3);
                 var3 = var3.colors;
-                var3 = var3.INTERACTIVE_ACTIVE;
+                var3 = var3.INTERACTIVE_TEXT_ACTIVE;
                 var7 = var7.bind(var17)(var3, var18);
                 var _closure2_slot8 = var7;
                 var3 = 12;

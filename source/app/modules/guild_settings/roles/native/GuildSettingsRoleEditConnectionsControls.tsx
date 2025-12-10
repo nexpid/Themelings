@@ -1061,7 +1061,7 @@ case 73:
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INFO_WARNING_BACKGROUND;
+    var11 = var11.BACKGROUND_FEEDBACK_WARNING;
     var9['backgroundColor'] = var11;
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
@@ -1108,14 +1108,14 @@ case 73:
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var11;
     var4['andOrRowLabelUnselected'] = var9;
     var9 = {};
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_ACTIVE;
+    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
     var9['color'] = var11;
     var4['andOrRowLabelSelected'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'padding': 16, 'borderRadius': null, 'borderColor': null, 'borderWidth': 2, 'borderStyle': 'dashed', 'marginHorizontal': 8, 'marginTop': 16};

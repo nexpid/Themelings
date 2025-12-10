@@ -265,7 +265,7 @@ case 18:
                     var4 = undefined;
                     var2 = var10.bind(var4)(var2);
                     var3 = var2.Text;
-                    var2 = {'variant': 'text-xs/normal', 'color': 'interactive-normal', 'lineClamp': 1};
+                    var2 = {'variant': 'text-xs/normal', 'color': 'interactive-text-default', 'lineClamp': 1};
                     var7 = _closure2_slot6;
                     var7 = var7.tapToSee;
                     var2['style'] = var7;

@@ -63,7 +63,7 @@ case 2:
         var14 = var6[var10];
         var14 = var15.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.INTERACTIVE_NORMAL;
+        var14 = var14.INTERACTIVE_TEXT_DEFAULT;
         var9['tintColor'] = var14;
         var9['marginEnd'] = var10;
         var13 = var6[var13];
@@ -161,7 +161,7 @@ case 10:
                 var16 = 'interactive-muted';
                 if(!var17) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                var16 = 'interactive-normal';
+                var16 = 'interactive-text-default';
 case 11:
                 var5['color'] = var16;
                 var8 = var10.bind(var4)(var8, var5);

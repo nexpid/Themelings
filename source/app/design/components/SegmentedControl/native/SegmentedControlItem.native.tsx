@@ -87,12 +87,12 @@ case 2:
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_ACTIVE;
+    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
     var4['active'] = var11;
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);
     var9 = var9.colors;
-    var9 = var9.INTERACTIVE_ACTIVE;
+    var9 = var9.INTERACTIVE_TEXT_ACTIVE;
     var4['pressed'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
@@ -149,7 +149,7 @@ case 0:
             var2 = var13[var2];
             var3 = var10.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function T() {
+            var1 = function y() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot3;

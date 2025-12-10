@@ -326,7 +326,7 @@ case 16:
             var1 = var16[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.INFO_HELP_TEXT;
+            var1 = var1.TEXT_FEEDBACK_INFO;
             var13 = var2.bind(var3)(var1);
             var3 = _closure1_slot11;
             var2 = _closure1_slot12;

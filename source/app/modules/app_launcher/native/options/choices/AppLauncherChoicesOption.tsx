@@ -241,7 +241,7 @@ case 13:
 case 12:
             var8['variant'] = var15;
             var16 = var7 == var12;
-            var15 = 'interactive-normal';
+            var15 = 'interactive-text-default';
             if(!var16) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
             var15 = 'text-default';

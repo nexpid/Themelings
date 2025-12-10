@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var12;
     var4['headerBulletIconComponent'] = var9;
     var9 = {'flexDirection': 'column', 'alignItems': 'flex-start'};

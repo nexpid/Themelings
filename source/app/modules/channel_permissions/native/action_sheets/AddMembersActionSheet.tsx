@@ -809,7 +809,7 @@ case 44:
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
                     var3 = var2.Text;
-                    var2 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-normal'};
+                    var2 = {'style': null, 'maxFontSizeMultiplier': 2, 'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'interactive-text-default'};
                     var7 = _closure2_slot3;
                     var7 = var7.sectionRowWrapper;
                     var2['style'] = var7;

@@ -517,7 +517,7 @@ case 38:
             var9 = var11[var6];
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
-            var9 = var9.INTERACTIVE_NORMAL;
+            var9 = var9.INTERACTIVE_TEXT_DEFAULT;
             var2['tintColor'] = var9;
             var1['joinButtonIconInactive'] = var2;
             var2 = {};

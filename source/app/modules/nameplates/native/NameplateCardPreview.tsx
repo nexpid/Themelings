@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOD_FAINT;
+    var10 = var10.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var10;
     var4['nameplate'] = var9;
     var9 = {};

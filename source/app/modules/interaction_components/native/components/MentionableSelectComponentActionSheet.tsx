@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var13];
     var11 = var14.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_NORMAL;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var11;
     var11 = var12.PRIMARY_MEDIUM;
     var9['fontFamily'] = var11;
@@ -453,7 +453,7 @@ case 37:
                     var5 = var9[var5];
                     var5 = var7.bind(var1)(var5);
                     var6 = var5.Text;
-                    var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+                    var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
                     var11 = var11.roleCountText;
                     var5['style'] = var11;
                     var5['children'] = var10;

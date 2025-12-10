@@ -160,7 +160,7 @@ case 11:
             var15 = var15[var20];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            var15 = {'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
             var19 = var19.text;
             var15['style'] = var19;
             var15['children'] = var18;

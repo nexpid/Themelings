@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var10[var6];
         var11 = var7.bind(var4)(var11);
         var12 = var11.Text;
-        var11 = {'lineClamp': 1, 'variant': 'text-md/bold', 'color': 'interactive-active'};
+        var11 = {'lineClamp': 1, 'variant': 'text-md/bold', 'color': 'interactive-text-active'};
         var11['children'] = var13;
         var11 = var8.bind(var4)(var12, var11);
         var5[1] = var11;

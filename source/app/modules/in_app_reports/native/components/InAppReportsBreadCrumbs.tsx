@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BRAND;
+    var10 = var10.BACKGROUND_BRAND;
     var4['backgroundColor'] = var10;
     var7['breadCrumbDot'] = var4;
     var10 = {'position': 'absolute', 'width': 2, 'top': 10, 'bottom': 4294967284, 'left': 3};

@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var3 = var1.Text;
-            var2 = {'variant': 'text-sm/bold', 'color': 'info-help-foreground'};
+            var2 = {'variant': 'text-sm/bold', 'color': 'icon-feedback-info'};
             var1 = arg1;
             var2['children'] = var1;
             var1 = 'doubleTapReminder';

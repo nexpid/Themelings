@@ -471,7 +471,7 @@ case 54:
         }
     };
     var3['isStreamingAndCanWatch'] = var4;
-    var2 = function getQuestType(arg1) {
+    var4 = function getQuestType(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -501,6 +501,23 @@ case 58:
             return var1;
         }
     };
-    var3['getQuestType'] = var2;
+    var3['getQuestType'] = var4;
+    var2 = function isQuestFeaturedByTakeover(arg1, arg2) {
+        var2 = arg2;
+        var _closure2_slot0 = var2;
+        var2 = arg1;
+        var3 = var2.ctaQuests;
+        var2 = var3.some;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.questId;
+            var1 = _closure2_slot0;
+            var1 = var2 === var1;
+            return var1;
+        };
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['isQuestFeaturedByTakeover'] = var2;
     return var1;
 })();

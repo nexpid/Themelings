@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var12[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'lineClamp': 1};
+        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'lineClamp': 1};
         var9 = var9.authorName;
         var6['style'] = var9;
         var9 = 7;
@@ -91,7 +91,7 @@ case 3:
             var1 = var17[var1];
             var1 = var16.bind(var5)(var1);
             var6 = var1.ForumIcon;
-            var1 = {'style': null, 'size': 'xs', 'color': 'interactive-normal'};
+            var1 = {'style': null, 'size': 'xs', 'color': 'interactive-text-default'};
             var12 = var11.icon;
             var1['style'] = var12;
             var6 = var9.bind(var5)(var6, var1);
@@ -102,7 +102,7 @@ case 3:
             var6 = var17[var6];
             var6 = var16.bind(var5)(var6);
             var9 = var6.Text;
-            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-normal', 'lineClamp': 1};
+            var6 = {'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'lineClamp': 1};
             var13 = 11;
             var14 = var17[var13];
             var14 = var16.bind(var5)(var14);
@@ -152,7 +152,7 @@ case 2:
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'lineClamp': 1};
+            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'lineClamp': 1};
             var11 = var11.channelName;
             var7['style'] = var11;
             var7['children'] = var10;
@@ -213,7 +213,7 @@ case 4:
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal', 'lineClamp': 1};
+        var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default', 'lineClamp': 1};
         var10 = var10.channelName;
         var6['style'] = var10;
         var6['children'] = var9;
@@ -262,7 +262,7 @@ case 4:
     var16 = var8[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var11['color'] = var16;
     var6['channelIcon'] = var11;
     var11 = {};
@@ -324,7 +324,7 @@ case 4:
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.ICON_SECONDARY;
+    var12 = var12.ICON_SUBTLE;
     var11['tintColor'] = var12;
     var6['fallbackIcon'] = var11;
     var11 = {};

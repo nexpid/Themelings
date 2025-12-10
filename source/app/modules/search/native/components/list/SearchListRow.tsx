@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var4 = var6.bind(var4)(var5);
         var4 = var4.colors;
-        var4 = var4.BACKGROUND_MODIFIER_ACTIVE;
+        var4 = var4.INTERACTIVE_BACKGROUND_ACTIVE;
         var2['backgroundColor'] = var4;
         var1['underlayColor'] = var2;
         var2 = {};

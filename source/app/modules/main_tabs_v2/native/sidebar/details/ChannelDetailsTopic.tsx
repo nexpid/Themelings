@@ -485,7 +485,7 @@ case 24:
             var24 = var24[var33];
             var24 = var25.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'color': 'interactive-normal', 'variant': 'heading-sm/normal'};
+            var24 = {'color': 'interactive-text-default', 'variant': 'heading-sm/normal'};
             var24['onLayout'] = var31;
             var31 = undefined;
             if(var29) { _fun0001_ip = 25; continue _fun0001 }
@@ -620,7 +620,7 @@ case 37:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'heading-sm/normal', 'color': 'interactive-normal'};
+            var2 = {'variant': 'heading-sm/normal', 'color': 'interactive-text-default'};
             var7 = {};
             var7['textAlign'] = var8;
             var2['style'] = var7;
@@ -674,7 +674,7 @@ case 37:
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'heading-sm/normal', 'color': 'interactive-normal'};
+            var2 = {'variant': 'heading-sm/normal', 'color': 'interactive-text-default'};
             var7 = {};
             var7['textAlign'] = var8;
             var2['style'] = var7;

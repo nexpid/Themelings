@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_NORMAL;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
     var10['color'] = var14;
     var5['icon'] = var10;
     var10 = {'borderColor': null, 'backgroundColor': null, 'shadowColor': '#000', 'shadowOpacity': 0.2, 'shadowRadius': 16};

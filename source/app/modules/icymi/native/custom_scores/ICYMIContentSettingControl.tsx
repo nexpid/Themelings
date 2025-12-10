@@ -357,7 +357,7 @@ case 18:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_ACTIVE;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
     var9['tintColor'] = var12;
     var4['iconSelected'] = var9;
     var9 = {};

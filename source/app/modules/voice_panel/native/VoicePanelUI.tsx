@@ -1079,7 +1079,7 @@ case 57:
     var16 = var7[var16];
     var16 = var9.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BG_BACKDROP_NO_OPACITY;
+    var16 = var16.MOBILE_BACKGROUND_SCRIM_OPAQUE;
     var13['backgroundColor'] = var16;
     var13['zIndex'] = var15;
     var5['shade'] = var13;

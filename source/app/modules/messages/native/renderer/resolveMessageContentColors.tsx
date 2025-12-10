@@ -103,7 +103,7 @@ case 4:
     var12 = var6[var8];
     var12 = var9.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MESSAGE_HIGHLIGHT;
+    var12 = var12.MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT;
     var7['highlightColor'] = var12;
     var12 = var6[var8];
     var12 = var9.bind(var1)(var12);
@@ -155,12 +155,12 @@ case 4:
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_ACTIVE;
+    var10 = var10.INTERACTIVE_TEXT_ACTIVE;
     var7['defaultUsernameColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOD_FAINT;
+    var10 = var10.BACKGROUND_MOD_MUTED;
     var7['feedbackColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
@@ -180,7 +180,7 @@ case 4:
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BG_BRAND;
+    var10 = var10.BACKGROUND_BRAND;
     var7['retryBackgroundColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);

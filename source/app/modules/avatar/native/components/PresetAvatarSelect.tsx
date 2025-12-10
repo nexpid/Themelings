@@ -333,7 +333,7 @@ case 2:
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_ACTIVE;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
     var11['borderColor'] = var12;
     var6['defaultAvatarSelected'] = var11;
     var6 = var9.bind(var10)(var6);

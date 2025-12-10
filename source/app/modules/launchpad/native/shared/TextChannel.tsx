@@ -87,7 +87,7 @@ case 0:
             var10 = var6[var9];
             var10 = var7.bind(var8)(var10);
             var10 = var10.colors;
-            var10 = var10.BORDER_FAINT;
+            var10 = var10.BORDER_MUTED;
             var2['borderColor'] = var10;
             var10 = var6[var9];
             var10 = var7.bind(var8)(var10);
@@ -104,7 +104,7 @@ case 0:
             var10 = var6[var9];
             var10 = var7.bind(var8)(var10);
             var10 = var10.colors;
-            var10 = var10.BACKGROUND_MOD_FAINT;
+            var10 = var10.BACKGROUND_MOD_MUTED;
             var2['backgroundColor'] = var10;
             var1['rowSelected'] = var2;
             var2 = {};

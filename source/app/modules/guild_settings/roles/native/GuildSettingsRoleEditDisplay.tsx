@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INFO_HELP_BACKGROUND;
+    var15 = var15.BACKGROUND_FEEDBACK_INFO;
     var9['backgroundColor'] = var15;
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INFO_HELP_FOREGROUND;
+    var10 = var10.ICON_FEEDBACK_INFO;
     var9['borderColor'] = var10;
     var4['holographicInfo'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -806,7 +806,7 @@ case 53:
             var23 = var31[var23];
             var23 = var30.bind(var4)(var23);
             var23 = var23.colors;
-            var23 = var23.INFO_HELP_FOREGROUND;
+            var23 = var23.ICON_FEEDBACK_INFO;
             var12['color'] = var23;
             var20 = var24.bind(var4)(var20, var12);
             var12 = new Array(2);

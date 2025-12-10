@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var8[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var4['tintColor'] = var16;
     var4['marginLeft'] = var15;
     var6['voiceStatusIcon'] = var4;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var8[var12];
     var18 = var13.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.INTERACTIVE_ACTIVE;
+    var18 = var18.INTERACTIVE_TEXT_ACTIVE;
     var16['color'] = var18;
     var6['ringingButtonLabel'] = var16;
     var16 = {'flexDirection': 'row', 'alignItems': 'center'};
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var8[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_NORMAL;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
     var11['tintColor'] = var16;
     var11['marginLeft'] = var15;
     var2['voiceStatusIcon'] = var11;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var8[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_ACTIVE;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
     var11['color'] = var12;
     var2['ringingButtonLabel'] = var11;
     var2 = var6.bind(var10)(var2);

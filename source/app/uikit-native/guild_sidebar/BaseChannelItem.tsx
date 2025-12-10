@@ -176,7 +176,7 @@ case 20:
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOD_FAINT;
+    var15 = var15.BACKGROUND_MOD_MUTED;
     var12['backgroundColor'] = var15;
     var7['rowSelected'] = var12;
     var12 = {};
@@ -190,7 +190,7 @@ case 20:
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BORDER_FAINT;
+    var15 = var15.BORDER_MUTED;
     var12['borderColor'] = var15;
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
@@ -223,7 +223,7 @@ case 20:
     var15 = var10[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_ACTIVE;
+    var15 = var15.INTERACTIVE_TEXT_ACTIVE;
     var12['tintColor'] = var15;
     var7['channelIconUnread'] = var12;
     var12 = {};
@@ -510,7 +510,7 @@ case 55:
             var8 = 'channel-icon';
             if(!var9) { _fun0006_ip = 56; continue _fun0006 }
 case 54:
-            var8 = 'interactive-active';
+            var8 = 'interactive-text-active';
 case 56:
             var7 = var8;
 case 52:

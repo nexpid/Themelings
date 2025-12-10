@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BG_BRAND;
+    var11 = var11.BACKGROUND_BRAND;
     var9['borderColor'] = var11;
     var4['selected'] = var9;
     var9 = {};
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['option'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -173,13 +173,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var22;
         var2[1] = var1;
         var1 = function() {
-            var2 = _closure2_slot0;
-            var8 = _closure2_slot2;
-            var1 = undefined;
-            var2 = var2.bind(var1)(var8);
-            var3 = _closure1_slot1;
+            var7 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var5 = 8;
+            var3 = 8;
+            var5 = var4[var3];
+            var1 = undefined;
+            var6 = var7.bind(var1)(var5);
+            var5 = var6.triggerHapticFeedback;
+            var3 = var4[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.HapticFeedbackTypes;
+            var3 = var3.IMPACT_MEDIUM;
+            var3 = var5.bind(var6)(var3);
+            var3 = _closure2_slot0;
+            var8 = _closure2_slot2;
+            var3 = var3.bind(var1)(var8);
+            var3 = _closure1_slot1;
+            var5 = 9;
             var5 = var4[var5];
             var7 = var3.bind(var1)(var5);
             var6 = var7.track;
@@ -190,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['default'] = var9;
             var2['colors'] = var8;
             var2 = var6.bind(var7)(var5, var2);
-            var2 = 9;
+            var2 = 10;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.hideActionSheet;
@@ -223,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -241,23 +251,34 @@ case 2:
                 var2 = function onSelect(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var2 = 8;
+                        var3 = var6[var2];
+                        var1 = undefined;
+                        var4 = var5.bind(var1)(var3);
+                        var3 = var4.triggerHapticFeedback;
+                        var2 = var6[var2];
+                        var2 = var5.bind(var1)(var2);
+                        var2 = var2.HapticFeedbackTypes;
+                        var2 = var2.IMPACT_MEDIUM;
+                        var2 = var3.bind(var4)(var2);
                         var3 = _closure2_slot3;
                         var2 = new Array(2);
-                        var4 = arg1;
-                        var2[0] = var4;
-                        var4 = _closure2_slot2;
-                        var1 = 1;
-                        var4 = var4[var1];
-                        var1 = null;
-                        var5 = var1 != var4;
-                        var1 = 0;
-                        if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+                        var5 = arg1;
+                        var2[0] = var5;
+                        var5 = _closure2_slot2;
+                        var4 = 1;
+                        var5 = var5[var4];
+                        var4 = null;
+                        var6 = var4 != var5;
+                        var4 = 0;
+                        if(!var6) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                        var1 = var4;
+                        var4 = var5;
 case 4:
-                        var2[1] = var1;
-                        var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
+                        var2[1] = var4;
+                        var2 = var3.bind(var1)(var2);
                         return var1;
                     }
                 };
@@ -278,7 +299,7 @@ case 4:
 case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -297,22 +318,33 @@ case 6:
                 var2 = function onSelect(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var2 = 8;
+                        var3 = var6[var2];
+                        var1 = undefined;
+                        var4 = var5.bind(var1)(var3);
+                        var3 = var4.triggerHapticFeedback;
+                        var2 = var6[var2];
+                        var2 = var5.bind(var1)(var2);
+                        var2 = var2.HapticFeedbackTypes;
+                        var2 = var2.IMPACT_MEDIUM;
+                        var2 = var3.bind(var4)(var2);
                         var3 = _closure2_slot3;
                         var2 = _closure2_slot2;
-                        var1 = 0;
-                        var2 = var2[var1];
-                        var4 = null;
-                        var4 = var4 != var2;
-                        if(!var4) { _fun0004_ip = 7; continue _fun0004 }
+                        var4 = 0;
+                        var2 = var2[var4];
+                        var5 = null;
+                        var5 = var5 != var2;
+                        if(!var5) { _fun0004_ip = 7; continue _fun0004 }
 case 8:
-                        var1 = var2;
+                        var4 = var2;
 case 7:
                         var2 = new Array(2);
-                        var2[0] = var1;
-                        var1 = arg1;
-                        var2[1] = var1;
-                        var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
+                        var2[0] = var4;
+                        var4 = arg1;
+                        var2[1] = var4;
+                        var2 = var3.bind(var1)(var2);
                         return var1;
                     }
                 };
@@ -325,32 +357,47 @@ case 7:
             }
         };
         var23 = var3.bind(var5)(var1, var2);
+        var3 = var5.useCallback;
+        var2 = function(arg1, arg2) {
+            var3 = _closure2_slot3;
+            var2 = new Array(2);
+            var1 = arg1;
+            var2[0] = var1;
+            var1 = arg2;
+            var2[1] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var1 = new Array(0);
+        var1 = var3.bind(var5)(var2, var1);
+        var _closure2_slot4 = var1;
         var3 = _closure1_slot9;
         var15 = _closure1_slot0;
         var16 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var1 = var16[var1];
         var1 = var15.bind(var4)(var1);
         var2 = var1.BottomSheet;
         var1 = {};
-        var5 = 12;
+        var5 = 13;
         var5 = var16[var5];
         var5 = var15.bind(var4)(var5);
         var6 = var5.BottomSheetTitleHeader;
         var5 = {};
-        var12 = 13;
+        var12 = 14;
         var7 = var16[var12];
         var7 = var15.bind(var4)(var7);
         var9 = var7.intl;
         var8 = var9.string;
         var18 = _closure1_slot1;
-        var7 = 14;
+        var7 = 15;
         var7 = var16[var7];
         var7 = var18.bind(var4)(var7);
         var7 = var7.i9e/u1;
         var7 = var8.bind(var9)(var7);
         var5['title'] = var7;
-        var9 = 15;
+        var9 = 16;
         var7 = var16[var9];
         var7 = var15.bind(var4)(var7);
         var8 = var7.Button;
@@ -378,7 +425,7 @@ case 7:
         var8 = {};
         var10 = var17.gradientContainer;
         var8['style'] = var10;
-        var10 = 16;
+        var10 = 17;
         var10 = var16[var10];
         var18 = var18.bind(var4)(var10);
         var10 = {};
@@ -388,7 +435,7 @@ case 7:
         var19 = function(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -414,7 +461,7 @@ case 7:
         var22 = var17.dropper;
         var19['style'] = var22;
         var19['onPress'] = var20;
-        var22 = 18;
+        var22 = 19;
         var20 = var16[var22];
         var20 = var15.bind(var4)(var20);
         var24 = var20.EyeDropperIcon;
@@ -474,7 +521,7 @@ case 9:
                 var3['style'] = var1;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 19;
+                var1 = 20;
                 var1 = var2[var1];
                 var2 = undefined;
                 var1 = var6.bind(var2)(var1);
@@ -491,22 +538,19 @@ case 11:
                 var8[1] = var9;
                 var1['style'] = var8;
                 var7 = function onPress() {
-                    var3 = _closure2_slot3;
+                    var4 = _closure2_slot4;
                     var1 = _closure3_slot0;
-                    var4 = var1.start;
-                    var2 = new Array(2);
-                    var2[0] = var4;
-                    var1 = var1.end;
-                    var2[1] = var1;
+                    var3 = var1.start;
+                    var2 = var1.end;
                     var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
+                    var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
                 var1['onPress'] = var7;
                 var9 = _closure1_slot9;
                 var8 = _closure1_slot1;
                 var14 = _closure1_slot2;
-                var7 = 16;
+                var7 = 17;
                 var7 = var14[var7];
                 var8 = var8.bind(var2)(var7);
                 var7 = {};
@@ -514,7 +558,7 @@ case 11:
                 var12 = var12.option;
                 var7['style'] = var12;
                 var13 = _closure1_slot0;
-                var12 = 17;
+                var12 = 18;
                 var10 = var14[var12];
                 var16 = var13.bind(var2)(var10);
                 var15 = var16.int2hex;

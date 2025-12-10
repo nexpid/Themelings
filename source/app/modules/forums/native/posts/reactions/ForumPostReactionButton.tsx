@@ -379,7 +379,7 @@ case 27:
         var5 = var8[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'heading-sm/medium', 'color': 'interactive-normal'};
+        var5 = {'variant': 'heading-sm/medium', 'color': 'interactive-text-default'};
         var8 = ['+'];
         var8[1] = var9;
         var5['children'] = var8;

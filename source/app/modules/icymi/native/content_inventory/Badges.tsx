@@ -742,7 +742,7 @@ case 24:
         var10 = var12[var10];
         var10 = var11.bind(var4)(var10);
         var10 = var10.colors;
-        var10 = var10.INTERACTIVE_NORMAL;
+        var10 = var10.INTERACTIVE_TEXT_DEFAULT;
         var5['color'] = var10;
         var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);

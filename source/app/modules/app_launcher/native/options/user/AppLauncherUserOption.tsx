@@ -238,7 +238,7 @@ case 13:
             var15 = var18[var15];
             var15 = var17.bind(var4)(var15);
             var17 = var15.UserCircleIcon;
-            var15 = {'size': 'sm', 'color': 'interactive-normal'};
+            var15 = {'size': 'sm', 'color': 'interactive-text-default'};
             var15 = var12.bind(var4)(var17, var15);
             var8['icon'] = var15;
             var14 = var14.iconWrapper;

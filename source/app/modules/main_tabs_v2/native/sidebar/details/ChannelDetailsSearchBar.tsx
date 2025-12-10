@@ -213,7 +213,7 @@ case 8:
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.ChevronLargeLeftIcon;
-            var9 = {'size': 'sm', 'color': 'interactive-normal'};
+            var9 = {'size': 'sm', 'color': 'interactive-text-default'};
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);

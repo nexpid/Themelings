@@ -524,7 +524,7 @@ case 30:
             var10 = var15[var11];
             var10 = var12.bind(var5)(var10);
             var16 = var10.Text;
-            var10 = {'variant': 'text-md/semibold', 'color': 'interactive-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
+            var10 = {'variant': 'text-md/semibold', 'color': 'interactive-text-active', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var10['children'] = var17;
             var16 = var13.bind(var5)(var16, var10);
             var10 = new Array(2);

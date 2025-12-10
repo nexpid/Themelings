@@ -323,7 +323,7 @@ case 38:
         var14 = var7[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BUTTON_OUTLINE_BRAND_BORDER;
+        var14 = var14.CONTROL_SECONDARY_BORDER_DEFAULT;
         var11['backgroundColor'] = var14;
         var8['unread'] = var11;
         var11 = {};

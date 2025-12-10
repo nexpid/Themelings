@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.CARD_PRIMARY_BG;
+    var14 = var14.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var14;
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.CARD_PRIMARY_BG;
+    var14 = var14.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var14;
     var4['bannerContainer'] = var9;
     var9 = {};
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CARD_PRIMARY_BG;
+    var13 = var13.CARD_BACKGROUND_DEFAULT;
     var9['borderColor'] = var13;
     var4['guildIcon'] = var9;
     var9 = {'flexDirection': 'column', 'alignItems': 'flex-start', 'gap': 12, 'alignSelf': 'stretch'};

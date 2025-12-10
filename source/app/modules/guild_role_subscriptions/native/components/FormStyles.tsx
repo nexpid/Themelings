@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var9];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_ACTIVE;
+    var10 = var10.INTERACTIVE_TEXT_ACTIVE;
     var19 = var17.bind(var1)(var15, var10, var16);
     var20 = var8;
     var10 = copyDataProperties(var20, var19);
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var9];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_ACTIVE;
+    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
     var19 = var15.bind(var1)(var14, var13, var16);
     var20 = var8;
     var13 = copyDataProperties(var20, var19);

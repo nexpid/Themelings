@@ -498,7 +498,7 @@ case 30:
             var1 = var13[var2];
             var1 = var12.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BG_BRAND;
+            var1 = var1.BACKGROUND_BRAND;
             var15 = var15.bind(var4)(var1);
             var1 = new Array(2);
             var1[0] = var15;
@@ -506,7 +506,7 @@ case 30:
             var2 = var13[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var2.colors;
-            var2 = var2.BG_BRAND;
+            var2 = var2.BACKGROUND_BRAND;
             var2 = var3.bind(var4)(var2);
             var1[1] = var2;
             var26 = var1;

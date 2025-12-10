@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INFO_POSITIVE_FOREGROUND;
+    var12 = var12.ICON_FEEDBACK_POSITIVE;
     var10['borderColor'] = var12;
     var7['copyInputCopied'] = var10;
     var10 = {};
@@ -348,7 +348,7 @@ case 9:
             var25 = var23[var18];
             var25 = var26.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'interactive-active'};
+            var25 = {'lineClamp': 1, 'variant': 'text-sm/medium', 'color': 'interactive-text-active'};
             var25['children'] = var27;
             var25 = var22.bind(var4)(var26, var25);
             var24['children'] = var25;

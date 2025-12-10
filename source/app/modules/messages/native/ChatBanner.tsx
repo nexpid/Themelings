@@ -762,7 +762,7 @@ case 9:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BG_BRAND;
+    var17 = var17.BACKGROUND_BRAND;
     var10['backgroundColor'] = var17;
     var5['newMessageBar'] = var10;
     var10 = {'flex': 1, 'paddingLeft': 16, 'paddingVertical': 10};

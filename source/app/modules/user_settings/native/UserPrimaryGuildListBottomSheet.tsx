@@ -55,7 +55,7 @@ case 0:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BACKGROUND_MODIFIER_ACTIVE;
+        var14 = var14.INTERACTIVE_BACKGROUND_ACTIVE;
         var10['backgroundColor'] = var14;
         var4['containerPressed'] = var10;
         var10 = {};

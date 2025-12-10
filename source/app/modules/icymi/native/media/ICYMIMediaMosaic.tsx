@@ -570,7 +570,7 @@ case 37:
             var25 = var27[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.INTERACTIVE_NORMAL;
+            var25 = var25.INTERACTIVE_TEXT_DEFAULT;
             var22['color'] = var25;
             var25 = 'sm';
             var22['size'] = var25;
@@ -1458,7 +1458,7 @@ case 75:
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
         var9 = var9.colors;
-        var9 = var9.INTERACTIVE_ACTIVE;
+        var9 = var9.INTERACTIVE_TEXT_ACTIVE;
         var2['backgroundColor'] = var9;
         var1['muteIconActive'] = var2;
         var2 = {};

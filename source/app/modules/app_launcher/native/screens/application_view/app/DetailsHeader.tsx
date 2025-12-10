@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.CARD_PRIMARY_BG;
+    var15 = var15.CARD_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var15;
     var4['expandDescriptionCTA'] = var10;
     var10 = {};
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MODIFIER_ACTIVE;
+    var13 = var13.INTERACTIVE_BACKGROUND_ACTIVE;
     var10['backgroundColor'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_ACTIVE;
+    var15 = var15.INTERACTIVE_TEXT_ACTIVE;
     var20 = var17.bind(var1)(var16, var15, var18);
     var21 = var9;
     var15 = copyDataProperties(var21, var20);
@@ -173,7 +173,7 @@ case 0:
             var15 = var12[var21];
             var15 = var10.bind(var4)(var15);
             var19 = var15.Text;
-            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-active'};
+            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-active'};
             var15 = var14.headerButton;
             var18['style'] = var15;
             var15 = 12;

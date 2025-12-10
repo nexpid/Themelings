@@ -156,7 +156,7 @@ case 4:
             var6 = var13[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-text-default'};
             var12 = var12.label;
             var6['style'] = var12;
             var6['maxFontSizeMultiplier'] = var11;

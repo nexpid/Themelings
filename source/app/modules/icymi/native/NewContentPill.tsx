@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {};
@@ -519,7 +519,7 @@ case 27:
             var14 = var17[var14];
             var14 = var16.bind(var5)(var14);
             var16 = var14.ArrowSmallUpIcon;
-            var14 = {'size': 'md', 'color': 'interactive-active'};
+            var14 = {'size': 'md', 'color': 'interactive-text-active'};
             var16 = var19.bind(var5)(var16, var14);
             _fun0001_ip = 28; continue _fun0001;
 case 26:
@@ -657,7 +657,7 @@ case 24:
             var9 = var17[var9];
             var9 = var16.bind(var5)(var9);
             var11 = var9.ArrowSmallUpIcon;
-            var9 = {'size': 'md', 'color': 'interactive-active'};
+            var9 = {'size': 'md', 'color': 'interactive-text-active'};
             var11 = var12.bind(var5)(var11, var9);
             var9 = new Array(2);
             var9[0] = var11;
@@ -666,7 +666,7 @@ case 24:
             var10 = var17[var10];
             var10 = var16.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'style': null, 'variant': 'heading-md/bold', 'color': 'interactive-active'};
+            var10 = {'style': null, 'variant': 'heading-md/bold', 'color': 'interactive-text-active'};
             var13 = {};
             var14 = 4;
             var13['marginLeft'] = var14;

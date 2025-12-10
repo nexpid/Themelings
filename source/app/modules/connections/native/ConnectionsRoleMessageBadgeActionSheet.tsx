@@ -428,7 +428,7 @@ case 33:
                 var13 = var16[var13];
                 var13 = var14.bind(var4)(var13);
                 var14 = var13.Text;
-                var13 = {'variant': 'text-sm/medium', 'color': 'interactive-active'};
+                var13 = {'variant': 'text-sm/medium', 'color': 'interactive-text-active'};
                 var20 = var17 == var19;
                 var16 = undefined;
                 if(var20) { _fun0003_ip = 35; continue _fun0003 }

@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BACKGROUND_MOD_FAINT;
+        var7 = var7.BACKGROUND_MOD_MUTED;
         var2['backgroundColor'] = var7;
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);

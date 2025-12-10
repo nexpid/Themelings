@@ -498,7 +498,7 @@ case 14:
             var30 = var37[var30];
             var30 = var39.bind(var4)(var30);
             var32 = var30.Text;
-            var30 = {'style': null, 'variant': 'text-xs/bold', 'color': 'interactive-normal'};
+            var30 = {'style': null, 'variant': 'text-xs/bold', 'color': 'interactive-text-default'};
             var40 = var16.title;
             var30['style'] = var40;
             var43 = 19;

@@ -569,7 +569,7 @@ case 24:
             var30 = var10[var28];
             var30 = var12.bind(var5)(var30);
             var31 = var30.Text;
-            var30 = {'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'header-muted'};
+            var30 = {'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'text-muted'};
             var32 = 24;
             var32 = var10[var32];
             var34 = var12.bind(var5)(var32);

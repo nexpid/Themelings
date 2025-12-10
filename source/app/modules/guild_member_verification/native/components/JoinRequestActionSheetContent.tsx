@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INPUT_BACKGROUND;
+    var13 = var13.INPUT_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var13;
     var4['formResponse'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};

@@ -249,7 +249,7 @@ case 2:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-active'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-text-active'};
             var9 = var9.perkText;
             var6['style'] = var9;
             var9 = var10.description;

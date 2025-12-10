@@ -264,14 +264,14 @@ case 19:
             var18 = var16[var6];
             var18 = var17.bind(var5)(var18);
             var18 = var18.colors;
-            var18 = var18.INPUT_BACKGROUND;
+            var18 = var18.INPUT_BACKGROUND_DEFAULT;
             var2['backgroundColor'] = var18;
             var1['background'] = var2;
             var2 = {};
             var16 = var16[var6];
             var16 = var17.bind(var5)(var16);
             var16 = var16.colors;
-            var16 = var16.INPUT_PLACEHOLDER_TEXT;
+            var16 = var16.INPUT_PLACEHOLDER_TEXT_DEFAULT;
             var2['color'] = var16;
             var1['placeholderText'] = var2;
             var2 = {};
@@ -387,7 +387,7 @@ case 25:
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INPUT_FOCUSED_BORDER;
+    var10 = var10.BORDER_STRONG;
     var5['focused'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot9 = var5;

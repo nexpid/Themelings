@@ -54,7 +54,7 @@ case 3:
             var5 = var8.WHITE;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var5 = var8.INTERACTIVE_NORMAL;
+            var5 = var8.INTERACTIVE_TEXT_DEFAULT;
 case 4:
             var2['color'] = var5;
             var1['iconFill'] = var2;

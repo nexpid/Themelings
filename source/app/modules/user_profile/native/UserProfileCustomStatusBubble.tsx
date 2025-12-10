@@ -380,7 +380,7 @@ case 37:
             var3 = var5.REDESIGN_BUTTON_SECONDARY_BORDER;
             _fun0004_ip = 38; continue _fun0004;
 case 36:
-            var3 = var5.BORDER_FAINT;
+            var3 = var5.BORDER_MUTED;
 case 38:
             var2['borderColor'] = var3;
             var3 = 1;

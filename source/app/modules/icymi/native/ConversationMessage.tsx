@@ -298,7 +298,7 @@ case 17:
             var21 = var28[var17];
             var21 = var25.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'text-xs/normal', 'color': 'header-muted'};
+            var21 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
             var24 = 15;
             var24 = var28[var24];
             var26 = var25.bind(var4)(var24);

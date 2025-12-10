@@ -300,7 +300,7 @@ case 0:
             var9 = var9[var12];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'lineClamp': 2, 'variant': 'text-sm/medium', 'color': 'interactive-active'};
+            var9 = {'lineClamp': 2, 'variant': 'text-sm/medium', 'color': 'interactive-text-active'};
             var14 = var11.useTier0UpsellContent;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;

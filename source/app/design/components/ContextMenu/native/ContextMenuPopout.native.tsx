@@ -293,7 +293,7 @@ case 14:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BG_SURFACE_OVERLAY;
+    var14 = var14.BACKGROUND_SURFACE_HIGHEST;
     var13['backgroundColor'] = var14;
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -561,7 +561,7 @@ case 25:
             var3 = var9[var22];
             var8 = var7.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function R() {
+            var3 = function H() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = global;

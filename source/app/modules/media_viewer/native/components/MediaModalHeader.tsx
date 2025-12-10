@@ -152,7 +152,7 @@ case 0:
             var15 = var19[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.XSmallIcon;
-            var15 = {'size': 'md', 'color': 'interactive-active'};
+            var15 = {'size': 'md', 'color': 'interactive-text-active'};
             var15 = var3.bind(var4)(var16, var15);
             var12['icon'] = var15;
             var12['onPress'] = var14;
@@ -309,7 +309,7 @@ case 11:
                     var7 = var11[var7];
                     var7 = var9.bind(var3)(var7);
                     var8 = var7.MoreHorizontalIcon;
-                    var7 = {'size': 'md', 'color': 'interactive-active'};
+                    var7 = {'size': 'md', 'color': 'interactive-text-active'};
                     var7 = var10.bind(var3)(var8, var7);
                     _fun0002_ip = 12; continue _fun0002;
 case 10:
@@ -317,7 +317,7 @@ case 10:
                     var8 = var11[var8];
                     var8 = var9.bind(var3)(var8);
                     var9 = var8.MoreVerticalIcon;
-                    var8 = {'size': 'md', 'color': 'interactive-active'};
+                    var8 = {'size': 'md', 'color': 'interactive-text-active'};
                     var7 = var10.bind(var3)(var9, var8);
 case 12:
                     var1['icon'] = var7;

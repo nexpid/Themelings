@@ -471,10 +471,11 @@ case 70:
                     var8 = {};
                     var13 = 'ORDER_CREATE_SUCCESS';
                     var8['type'] = var13;
-                    var12 = var12.id;
-                    var8['orderId'] = var12;
+                    var13 = var12.id;
+                    var8['orderId'] = var13;
+                    var8['order'] = var12;
                     var8 = var10.bind(var11)(var8);
-                    SaveGenerator(address=682);
+                    SaveGenerator(address=687);
 case 71:
                     return var8;
 case 72:
@@ -504,7 +505,7 @@ case 75: // catch_target0
                     var7 = 'ORDER_CREATE_FAIL';
                     var3['type'] = var7;
                     var3 = var4.bind(var6)(var3);
-                    SaveGenerator(address=773);
+                    SaveGenerator(address=778);
 case 76:
                     return var3;
 case 77:
@@ -828,7 +829,7 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 108; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 71; continue _fun0006 }
 case 4:
                     var8 = var2.orderId;
                     var14 = var2.giftInfo;
@@ -838,9 +839,9 @@ case 4:
                     SaveGenerator(address=35);
 case 15:
                     return var6;
-case 109:
+case 108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 72; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 109; continue _fun0006 }
 case 110:
                     var10 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -1028,9 +1029,9 @@ case 136:
                     throw var4;
 case 135:
                     return var3;
-case 72:
+case 109:
                     return var2;
-case 108:
+case 71:
                     return var1;
                 }
             };

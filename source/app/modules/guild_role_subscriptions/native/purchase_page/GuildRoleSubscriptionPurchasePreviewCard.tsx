@@ -200,7 +200,7 @@ case 7:
             var11 = var15[var11];
             var11 = var12.bind(var6)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-sm/medium', 'color': 'interactive-normal'};
+            var11 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
             var11['children'] = var14;
             var11 = var13.bind(var6)(var12, var11);
             var10[1] = var11;
@@ -338,7 +338,7 @@ case 8:
         var8 = var14[var8];
         var8 = var17.bind(var4)(var8);
         var10 = var8.Text;
-        var8 = {'variant': 'text-sm/semibold', 'color': 'interactive-hover'};
+        var8 = {'variant': 'text-sm/semibold', 'color': 'interactive-text-hover'};
         var13 = {};
         var15 = -1;
         var13['marginTop'] = var15;
@@ -452,7 +452,7 @@ case 8:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MODIFIER_HOVER;
+    var14 = var14.INTERACTIVE_BACKGROUND_HOVER;
     var9['backgroundColor'] = var14;
     var4['separator'] = var9;
     var9 = {};

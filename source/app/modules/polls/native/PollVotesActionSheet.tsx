@@ -1085,7 +1085,7 @@ case 53:
             var9 = 'text-default';
             if(!var11) { _fun0009_ip = 55; continue _fun0009 }
 case 56:
-            var9 = 'interactive-active';
+            var9 = 'interactive-text-active';
 case 55:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;

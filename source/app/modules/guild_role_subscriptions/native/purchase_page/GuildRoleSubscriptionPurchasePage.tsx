@@ -257,14 +257,14 @@ case 4:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['tintColor'] = var12;
     var4['socialBadgeArrow'] = var9;
     var9 = {'width': '100%', 'height': 1, 'backgroundColor': null, 'marginVertical': 24};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MODIFIER_HOVER;
+    var12 = var12.INTERACTIVE_BACKGROUND_HOVER;
     var9['backgroundColor'] = var12;
     var4['separator'] = var9;
     var9 = {'marginVertical': 64, 'alignSelf': 'center', 'backgroundColor': 'transparent'};

@@ -172,7 +172,7 @@ case 4:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_NORMAL;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
     var10['tintColor'] = var13;
     var2['closeIcon'] = var10;
     var10 = {'position': 'absolute', 'right': 6};

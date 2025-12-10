@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.CARD_PRIMARY_BG;
+    var10 = var10.CARD_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
     var4['icon'] = var9;
     var9 = {'marginVertical': 4294967292, 'marginLeft': 'auto'};
@@ -127,7 +127,7 @@ case 6:
             var2 = var2.colors;
             if(var3) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var16 = var2.INTERACTIVE_NORMAL;
+            var16 = var2.INTERACTIVE_TEXT_DEFAULT;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var16 = var2.TEXT_FEEDBACK_CRITICAL;

@@ -30,7 +30,7 @@ case 4:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.INFO_WARNING_BACKGROUND;
+            var7 = var7.BACKGROUND_FEEDBACK_WARNING;
             var1['backgroundColor'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
@@ -47,7 +47,7 @@ case 2:
             var3 = undefined;
             var6 = var4.bind(var3)(var6);
             var6 = var6.colors;
-            var6 = var6.INFO_DANGER_BACKGROUND;
+            var6 = var6.BACKGROUND_FEEDBACK_CRITICAL;
             var1['backgroundColor'] = var6;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
@@ -80,7 +80,7 @@ case 4:
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var2 = var2.colors;
-            var2 = var2.INFO_WARNING_TEXT;
+            var2 = var2.TEXT_FEEDBACK_WARNING;
             return var2;
 case 6:
             var3 = _closure1_slot1;
@@ -90,7 +90,7 @@ case 6:
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = var1.colors;
-            var1 = var1.INFO_DANGER_TEXT;
+            var1 = var1.TEXT_FEEDBACK_CRITICAL;
             return var1;
         }
     };

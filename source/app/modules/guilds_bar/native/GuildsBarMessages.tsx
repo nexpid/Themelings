@@ -170,7 +170,7 @@ case 6:
             var9 = var9.colors;
             if(var8) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var8 = var9.INTERACTIVE_NORMAL;
+            var8 = var9.INTERACTIVE_TEXT_DEFAULT;
             _fun0001_ip = 9; continue _fun0001;
 case 7:
             var8 = var9.WHITE;

@@ -66,14 +66,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var12;
     var4['default'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BG_BRAND;
+    var12 = var12.BACKGROUND_BRAND;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -97,28 +97,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_ONLINE;
+    var12 = var12.TEXT_STATUS_ONLINE;
     var9['color'] = var12;
     var4['statusOnline'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_IDLE;
+    var12 = var12.TEXT_STATUS_IDLE;
     var9['color'] = var12;
     var4['statusIdle'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_DND;
+    var12 = var12.TEXT_STATUS_DND;
     var9['color'] = var12;
     var4['statusDND'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_OFFLINE;
+    var12 = var12.TEXT_STATUS_OFFLINE;
     var9['color'] = var12;
     var4['statusOffline'] = var9;
     var9 = {};
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_NORMAL;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
     var9['color'] = var12;
     var4['secondary'] = var9;
     var9 = {};
@@ -212,16 +212,16 @@ case 7:
             var3 = 'boosting-pink';
             if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = 'status-online';
+            var3 = 'text-status-online';
             if(!(var3 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var3 = 'status-idle';
+            var3 = 'text-status-idle';
             if(!(var3 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var3 = 'status-dnd';
+            var3 = 'text-status-dnd';
             if(!(var3 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var3 = 'status-offline';
+            var3 = 'text-status-offline';
             if(!(var3 !== var2)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var3 = 'xbox';
