@@ -347,6 +347,7 @@ case 13:
             var1['onDismiss'] = var5;
             var23 = true;
             var1['startExpanded'] = var23;
+            var1['handleDisabled'] = var23;
             var6 = _closure1_slot5;
             var5 = {};
             var5['source'] = var7;

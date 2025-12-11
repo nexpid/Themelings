@@ -379,10 +379,10 @@ case 0:
                             var1 = null;
                             var5 = var1 != var4;
                             var1 = '';
-                            if(!var5) { _fun0006_ip = 18; continue _fun0006 }
-case 6:
-                            var1 = var4;
+                            if(!var5) { _fun0006_ip = 2; continue _fun0006 }
 case 18:
+                            var1 = var4;
+case 2:
                             var2['feedback'] = var1;
                             var1 = undefined;
                             var2 = var3.bind(var1)(var2);

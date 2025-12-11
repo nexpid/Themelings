@@ -5561,16 +5561,16 @@ case 0:
                 var5 = var3.category;
                 var1 = var3.channel;
                 var10 = var3.canManageParent;
-                if(!var2) { _fun0044_ip = 208; continue _fun0044 }
-case 78:
+                if(!var2) { _fun0044_ip = 264; continue _fun0044 }
+case 36:
                 var2 = var1.type;
                 var1 = _closure1_slot31;
                 var1 = var1.GUILD_CATEGORY;
-                if(!(var2 !== var1)) { _fun0044_ip = 208; continue _fun0044 }
-case 29:
-                var1 = null;
-                if(!(var1 != var5)) { _fun0044_ip = 264; continue _fun0044 }
+                if(!(var2 !== var1)) { _fun0044_ip = 264; continue _fun0044 }
 case 265:
+                var1 = null;
+                if(!(var1 != var5)) { _fun0044_ip = 266; continue _fun0044 }
+case 5:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 47;
@@ -5581,8 +5581,8 @@ case 265:
                 var2 = _closure1_slot25;
                 var1 = _closure1_slot24;
                 var13 = var3.bind(var4)(var5, var2, var1);
-                _fun0044_ip = 266; continue _fun0044;
-case 264:
+                _fun0044_ip = 267; continue _fun0044;
+case 266:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 37;
@@ -5596,7 +5596,7 @@ case 264:
                 var1 = var1.t;
                 var1 = var1.GSfOoo;
                 var13 = var2.bind(var3)(var1);
-case 266:
+case 267:
                 var4 = _closure1_slot51;
                 var11 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -5642,8 +5642,8 @@ case 266:
                 var5['trailing'] = var8;
                 var5['arrow'] = var10;
                 var8 = undefined;
-                if(!var10) { _fun0044_ip = 105; continue _fun0044 }
-case 267:
+                if(!var10) { _fun0044_ip = 268; continue _fun0044 }
+case 269:
                 var8 = function() {
                     var3 = _closure3_slot0;
                     var2 = var3.pushScreen;
@@ -5652,13 +5652,13 @@ case 267:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-case 105:
+case 268:
                 var5['onPress'] = var8;
                 var5 = var7.bind(var3)(var6, var5);
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
-case 208:
+case 264:
                 var1 = null;
                 return var1;
             }
@@ -5900,14 +5900,14 @@ case 0:
                     var5 = null;
                     var6 = var5 != var2;
                     var4 = undefined;
-                    if(!var6) { _fun0047_ip = 268; continue _fun0047 }
-case 269:
+                    if(!var6) { _fun0047_ip = 270; continue _fun0047 }
+case 271:
                     var8 = _closure1_slot11;
                     var7 = var8.isMuted;
                     var6 = _closure2_slot3;
                     var6 = var6.id;
                     var4 = var7.bind(var8)(var6);
-case 268:
+case 270:
                     var1['isMutedThread'] = var4;
                     var4 = _closure2_slot3;
                     var4 = var5 != var4;
@@ -5966,7 +5966,7 @@ case 0:
                     var2 = var1.errors;
                     var1 = _closure2_slot3;
                     var6 = null;
-                    if(!(var6 != var1)) { _fun0048_ip = 270; continue _fun0048 }
+                    if(!(var6 != var1)) { _fun0048_ip = 204; continue _fun0048 }
 case 148:
                     var8 = _closure1_slot20;
                     var7 = var8.getGuild;
@@ -6008,29 +6008,29 @@ case 148:
                     var7 = var11.bind(var12)(var7, var14);
                     var1['canManageChannels'] = var7;
                     var7 = var6 != var10;
-                    if(!var7) { _fun0048_ip = 271; continue _fun0048 }
-case 248:
+                    if(!var7) { _fun0048_ip = 272; continue _fun0048 }
+case 273:
                     var11 = _closure2_slot3;
                     var11 = var11.ownerId;
                     var10 = var10.id;
                     var7 = var11 === var10;
-case 271:
+case 272:
                     var1['isChannelOwner'] = var7;
-                    if(!(var6 == var13)) { _fun0048_ip = 272; continue _fun0048 }
-case 96:
+                    if(!(var6 == var13)) { _fun0048_ip = 158; continue _fun0048 }
+case 89:
                     var11 = _closure1_slot21;
                     var10 = var11.can;
                     var7 = _closure1_slot39;
                     var7 = var7.MANAGE_CHANNELS;
                     var7 = var10.bind(var11)(var7, var8);
-                    _fun0048_ip = 273; continue _fun0048;
-case 272:
+                    _fun0048_ip = 106; continue _fun0048;
+case 158:
                     var12 = _closure1_slot21;
                     var11 = var12.can;
                     var10 = _closure1_slot39;
                     var10 = var10.MANAGE_CHANNELS;
                     var7 = var11.bind(var12)(var10, var13);
-case 273:
+case 106:
                     var1['canManageParent'] = var7;
                     var12 = _closure1_slot21;
                     var13 = var12.can;
@@ -6048,7 +6048,7 @@ case 273:
                     var7 = undefined;
                     var10 = var11.bind(var7)(var10);
                     if(!var10) { _fun0048_ip = 274; continue _fun0048 }
-case 124:
+case 275:
                     var14 = _closure1_slot21;
                     var13 = var14.can;
                     var11 = _closure1_slot39;
@@ -6071,15 +6071,15 @@ case 274:
                     var1['errors'] = var2;
                     var4 = _closure1_slot16;
                     var4 = var4.bind(var7)(var8);
-                    if(var4) { _fun0048_ip = 275; continue _fun0048 }
-case 199:
+                    if(var4) { _fun0048_ip = 276; continue _fun0048 }
+case 277:
                     var5 = _closure2_slot3;
                     var5 = var5.linkedLobby;
                     var4 = var6 != var5;
-case 275:
+case 276:
                     var1['isNSFWDisabled'] = var4;
                     return var1;
-case 270:
+case 204:
                     var1 = {};
                     var4 = false;
                     var1['isThread'] = var4;
@@ -6108,12 +6108,12 @@ case 0:
                         var1 = arg1;
                         var1 = var1.data;
                         var1 = var1.closing;
-                        if(var1) { _fun0049_ip = 265; continue _fun0049 }
-case 276:
+                        if(var1) { _fun0049_ip = 278; continue _fun0049 }
+case 279:
                         var3 = _closure2_slot1;
                         var2 = _closure1_slot26;
                         var2 = var2.CHANNEL_NAME;
-                        if(!(var3 === var2)) { _fun0049_ip = 265; continue _fun0049 }
+                        if(!(var3 === var2)) { _fun0049_ip = 278; continue _fun0049 }
 case 146:
                         var1 = _closure2_slot5;
                         var3 = var1.current;
@@ -6121,12 +6121,12 @@ case 146:
                         var2 = var1 == var3;
                         var1 = undefined;
                         if(var2) { _fun0049_ip = 104; continue _fun0049 }
-case 277:
+case 280:
                         var2 = var3.focus;
                         var1 = var2.bind(var3)();
 case 104:
                         return var1;
-case 265:
+case 278:
                         var1 = undefined;
                         return var1;
                     }
@@ -6137,8 +6137,8 @@ case 265:
             var1 = var3.bind(var4)(var1, var2);
             var2 = var9 != var19;
             var1 = null;
-            if(!var2) { _fun0046_ip = 278; continue _fun0046 }
-case 279:
+            if(!var2) { _fun0046_ip = 281; continue _fun0046 }
+case 282:
             var4 = _closure1_slot51;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -6170,11 +6170,11 @@ case 279:
             var6[var11] = var13;
             var9 = var9 == var12;
             var11 = undefined;
-            if(var9) { _fun0046_ip = 280; continue _fun0046 }
-case 281:
+            if(var9) { _fun0046_ip = 283; continue _fun0046 }
+case 284:
             var9 = var12.isForumPost;
             var11 = var9.bind(var12)();
-case 280:
+case 283:
             var9 = 'isForumPost';
             var6[var9] = var11;
             var9 = 'channelNameRef';
@@ -6182,7 +6182,7 @@ case 280:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 278:
+case 281:
             return var1;
         }
     };

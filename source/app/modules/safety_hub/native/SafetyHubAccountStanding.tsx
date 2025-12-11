@@ -568,7 +568,7 @@ case 0:
                                 var4 = var2.height;
                                 var3 = _closure2_slot1;
                                 if(!(var4 > var3)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+case 2:
                                 var3 = _closure2_slot2;
                                 var1 = var1.nativeEvent;
                                 var1 = var1.layout;
@@ -610,15 +610,15 @@ case 9:
             };
             var13 = var6.bind(var7)(var5, var3);
             var9 = null;
-            if(!(var9 == var13)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!(var9 == var13)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 19;
             var3 = var6[var3];
             var15 = var5.bind(var4)(var3);
-            _fun0001_ip = 13; continue _fun0001;
-case 11:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 18;
@@ -626,7 +626,7 @@ case 11:
             var5 = var5.bind(var4)(var3);
             var3 = var5.getUserAvatarSource;
             var15 = var3.bind(var5)(var13);
-case 13:
+case 12:
             var1 = var1.state;
             var1 = var2[var1];
             var24 = var1.title;
@@ -659,16 +659,16 @@ case 13:
             var7['size'] = var11;
             var15 = var9 == var13;
             var11 = undefined;
-            if(var15) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var11 = var13.username;
+            if(var15) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
+            var11 = var13.username;
+case 13:
             var13 = var9 != var11;
             var9 = '';
-            if(!var13) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var9 = var11;
+            if(!var13) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
+            var9 = var11;
+case 15:
             var7['aria-label'] = var9;
             var7 = var6.bind(var4)(var8, var7);
             var5['children'] = var7;

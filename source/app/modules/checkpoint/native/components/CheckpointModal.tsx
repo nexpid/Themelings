@@ -704,12 +704,7 @@ case 20:
             var2 = _closure1_slot27;
             var1 = var1.cardId;
             var5 = var2.bind(var4)(var39, var1);
-            var1 = 38;
-            var1 = var18[var1];
-            var3 = var15.bind(var4)(var1);
-            var2 = var3.useToken;
-            var1 = var5.primaryColor;
-            var31 = var2.bind(var3)(var1);
+            var31 = var5.primaryColor;
             var6 = _closure1_slot5;
             var3 = var6.useCallback;
             var2 = new Array(1);
@@ -717,7 +712,7 @@ case 20:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 39;
+                var1 = 38;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -741,7 +736,7 @@ case 20:
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 39;
+                var1 = 38;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var3);
@@ -773,13 +768,13 @@ case 0:
 case 24:
                         var2 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var1 = 40;
+                        var1 = 39;
                         var1 = var8[var1];
                         var5 = undefined;
                         var3 = var2.bind(var5)(var1);
                         var2 = var3.fireSurveyAction;
                         var4 = _closure1_slot0;
-                        var1 = 41;
+                        var1 = 40;
                         var1 = var8[var1];
                         var1 = var4.bind(var5)(var1);
                         var1 = var1.SurveyActionTypes;
@@ -788,7 +783,7 @@ case 24:
 case 23:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 39;
+                        var1 = 38;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -849,7 +844,7 @@ case 25:
             var1 = function() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 42;
+                var1 = 41;
                 var1 = var9[var1];
                 var7 = undefined;
                 var1 = var8.bind(var7)(var1);
@@ -871,7 +866,7 @@ case 28:
 case 30:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 43;
+                        var1 = 42;
                         var1 = var2[var1];
                         var2 = undefined;
                         var4 = var3.bind(var2)(var1);
@@ -883,7 +878,7 @@ case 30:
 case 27:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 43;
+                        var1 = 42;
                         var1 = var2[var1];
                         var2 = undefined;
                         var4 = var3.bind(var2)(var1);
@@ -899,7 +894,7 @@ case 29:
                 var5 = {};
                 var6 = 50;
                 var5['SWIPE_DISTANCE'] = var6;
-                var6 = 43;
+                var6 = 42;
                 var6 = var9[var6];
                 var6 = var8.bind(var7)(var6);
                 var6 = var6.runOnJS;
@@ -926,7 +921,7 @@ case 29:
             var1 = {};
             var1['value'] = var5;
             var7 = _closure1_slot18;
-            var5 = 44;
+            var5 = 43;
             var5 = var18[var5];
             var5 = var15.bind(var4)(var5);
             var6 = var5.ThemeContextProvider;
@@ -935,7 +930,7 @@ case 29:
             var8 = var8.DARK;
             var5['theme'] = var8;
             var10 = _closure1_slot18;
-            var8 = 42;
+            var8 = 41;
             var8 = var18[var8];
             var8 = var15.bind(var4)(var8);
             var9 = var8.GestureDetector;
@@ -947,7 +942,7 @@ case 29:
             var14 = var26.container;
             var11['style'] = var14;
             var16 = _closure1_slot18;
-            var14 = 45;
+            var14 = 44;
             var14 = var18[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Modal;
@@ -980,7 +975,7 @@ case 32:
             var32 = {};
             var42 = _closure1_slot1;
             var43 = _closure1_slot2;
-            var35 = 46;
+            var35 = 45;
             var35 = var43[var35];
             var35 = var42.bind(var4)(var35);
             var32['source'] = var35;
@@ -991,7 +986,7 @@ case 32:
             var32 = new Array(2);
             var32[0] = var33;
             var35 = _closure1_slot18;
-            var33 = 47;
+            var33 = 46;
             var33 = var43[var33];
             var34 = var42.bind(var4)(var33);
             var33 = {};
@@ -1002,12 +997,12 @@ case 32:
             var38[0] = var40;
             var33['style'] = var38;
             var40 = _closure1_slot0;
-            var38 = 48;
+            var38 = 47;
             var38 = var43[var38];
             var38 = var40.bind(var4)(var38);
             var41 = var38.intl;
             var40 = var41.string;
-            var38 = 49;
+            var38 = 48;
             var38 = var43[var38];
             var38 = var42.bind(var4)(var38);
             var38 = var38.CdU/PF;
@@ -1035,7 +1030,7 @@ case 31:
             var33 = _closure1_slot18;
             var40 = _closure1_slot1;
             var38 = _closure1_slot2;
-            var18 = 50;
+            var18 = 49;
             var18 = var38[var18];
             var32 = var40.bind(var4)(var18);
             var18 = {};
@@ -1044,12 +1039,12 @@ case 31:
             var18[0] = var32;
             var35 = _closure1_slot18;
             var42 = _closure1_slot0;
-            var32 = 51;
+            var32 = 50;
             var32 = var38[var32];
             var32 = var42.bind(var4)(var32);
             var34 = var32.HeaderActionButton;
             var32 = {};
-            var33 = 52;
+            var33 = 51;
             var33 = var38[var33];
             var33 = var40.bind(var4)(var33);
             var32['source'] = var33;
@@ -1058,7 +1053,7 @@ case 31:
             var33 = var40.bind(var4)(var33);
             var33 = var33.pop;
             var32['onPress'] = var33;
-            var33 = 48;
+            var33 = 47;
             var40 = var38[var33];
             var40 = var42.bind(var4)(var40);
             var41 = var40.intl;
@@ -1090,7 +1085,7 @@ case 34:
             var35 = _closure1_slot18;
             var38 = _closure1_slot0;
             var41 = _closure1_slot2;
-            var18 = 53;
+            var18 = 52;
             var18 = var41[var18];
             var18 = var38.bind(var4)(var18);
             var34 = var18.PressableOpacity;
@@ -1117,7 +1112,7 @@ case 34:
             var18['style'] = var40;
             var18['onPress'] = var36;
             var40 = _closure1_slot18;
-            var36 = 54;
+            var36 = 53;
             var36 = var41[var36];
             var36 = var38.bind(var4)(var36);
             var38 = var36.ArrowLargeLeftIcon;
@@ -1151,7 +1146,7 @@ case 38:
             var36 = _closure1_slot18;
             var35 = _closure1_slot0;
             var38 = _closure1_slot2;
-            var34 = 55;
+            var34 = 54;
             var34 = var38[var34];
             var34 = var35.bind(var4)(var34);
             var35 = var34.ModalStepIndicator;
@@ -1186,7 +1181,7 @@ case 40:
             var35 = _closure1_slot18;
             var37 = _closure1_slot1;
             var40 = _closure1_slot2;
-            var32 = 47;
+            var32 = 46;
             var32 = var40[var32];
             var34 = var37.bind(var4)(var32);
             var32 = {};
@@ -1197,7 +1192,7 @@ case 40:
             var36 = var38.bind(var4)(var36);
             var39 = var36.intl;
             var38 = var39.format;
-            var36 = 49;
+            var36 = 48;
             var36 = var40[var36];
             var36 = var37.bind(var4)(var36);
             var37 = var36.g476ZL;
@@ -1216,7 +1211,7 @@ case 42:
             var24 = _closure1_slot18;
             var22 = _closure1_slot1;
             var32 = _closure1_slot2;
-            var21 = 56;
+            var21 = 55;
             var21 = var32[var21];
             var22 = var22.bind(var4)(var21);
             var21 = {};
@@ -1244,7 +1239,7 @@ case 42:
             var21['style'] = var30;
             var21['onPress'] = var28;
             var30 = _closure1_slot18;
-            var28 = 57;
+            var28 = 56;
             var28 = var32[var28];
             var28 = var29.bind(var4)(var28);
             var29 = var28.ArrowLargeRightIcon;
@@ -1265,7 +1260,7 @@ case 44:
             var22 = _closure1_slot18;
             var28 = _closure1_slot1;
             var30 = _closure1_slot2;
-            var20 = 56;
+            var20 = 55;
             var20 = var30[var20];
             var21 = var28.bind(var4)(var20);
             var20 = {};
@@ -1324,7 +1319,7 @@ case 44:
             var26 = var26.shareButton;
             var23['style'] = var26;
             var32 = _closure1_slot18;
-            var26 = 47;
+            var26 = 46;
             var26 = var30[var26];
             var29 = var28.bind(var4)(var26);
             var26 = {};
@@ -1345,7 +1340,7 @@ case 44:
             var26 = new Array(2);
             var26[0] = var29;
             var29 = _closure1_slot18;
-            var27 = 58;
+            var27 = 57;
             var27 = var30[var27];
             var27 = var28.bind(var4)(var27);
             var28 = var27.LinkExternalSmallIcon;
@@ -1681,7 +1676,7 @@ case 29:
     var7 = 'function CheckpointModalTsx1(event){const{SWIPE_DISTANCE,runOnJS,handlePrevious,handleNext}=this.__closure;if(event.translationX>SWIPE_DISTANCE){runOnJS(handlePrevious)();}else if(event.translationX<-SWIPE_DISTANCE){runOnJS(handleNext)();}}';
     var4['code'] = var7;
     var _closure1_slot23 = var4;
-    var4 = 60;
+    var4 = 59;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1692,7 +1687,7 @@ case 29:
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 59;
+            var1 = 58;
             var1 = var4[var1];
             var5 = undefined;
             var1 = var3.bind(var5)(var1);

@@ -1,8 +1,12 @@
 // app/modules/premium/premium_group/PremiumGroupStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = metroImportDefault;
+    var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
-    var5 = dependencyMap;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -35,52 +39,61 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot7 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var2 = var5[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot0 = var2;
-    var2 = 1;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot1 = var2;
-    var2 = 2;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
-    var _closure1_slot2 = var2;
-    var2 = 3;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot3 = var2;
-    var2 = 4;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var2 = 5;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot5 = var2;
-    var2 = {'premiumGroupMembers': null, 'isFetchingMembers': false, 'premiumGroupMembership': null, 'isFetchingMembership': false, '_hasFetchedMembership': false};
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot8 = var2;
     var2 = 6;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
-    var7 = var2.Store;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.NOOP_NULL;
+    var _closure1_slot9 = var2;
+    var2 = {};
+    var8 = {'data': null, 'isFetching': false};
+    var2['membersData'] = var8;
+    var8 = {'data': null, 'isFetching': false, 'hasFetched': false};
+    var2['membershipData'] = var8;
+    var _closure1_slot10 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.Store;
     var2 = function(arg1) {
         var4 = function PremiumGroupStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -88,13 +101,13 @@ case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot0;
+                var1 = _closure1_slot3;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot2;
-                var1 = _closure1_slot7;
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -107,7 +120,7 @@ case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot3;
+                var6 = _closure1_slot6;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -118,18 +131,18 @@ case 8:
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot7;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot1;
+        var2 = _closure1_slot4;
         var5 = {};
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
             var3 = this;
             var2 = var3.waitFor;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot8;
             var1 = var2.bind(var3)(var1);
             var1 = undefined;
             return var1;
@@ -141,8 +154,9 @@ case 8:
         var7 = 'getMembers';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var1 = var1.premiumGroupMembers;
+            var1 = _closure1_slot10;
+            var1 = var1.membersData;
+            var1 = var1.data;
             return var1;
         };
         var5['value'] = var7;
@@ -151,8 +165,9 @@ case 8:
         var7 = 'isFetchingMembers';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var1 = var1.isFetchingMembers;
+            var1 = _closure1_slot10;
+            var1 = var1.membersData;
+            var1 = var1.isFetching;
             return var1;
         };
         var5['value'] = var7;
@@ -161,8 +176,9 @@ case 8:
         var7 = 'hasFetchedMembers';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var2 = var1.premiumGroupMembers;
+            var1 = _closure1_slot10;
+            var1 = var1.membersData;
+            var2 = var1.data;
             var1 = null;
             var1 = var1 !== var2;
             return var1;
@@ -173,8 +189,9 @@ case 8:
         var7 = 'getMembership';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var1 = var1.premiumGroupMembership;
+            var1 = _closure1_slot10;
+            var1 = var1.membershipData;
+            var1 = var1.data;
             return var1;
         };
         var5['value'] = var7;
@@ -183,8 +200,9 @@ case 8:
         var7 = 'isFetchingMembership';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var1 = var1.isFetchingMembership;
+            var1 = _closure1_slot10;
+            var1 = var1.membershipData;
+            var1 = var1.isFetching;
             return var1;
         };
         var5['value'] = var7;
@@ -193,19 +211,20 @@ case 8:
         var7 = 'hasFetchedMembership';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot6;
-            var1 = var1._hasFetchedMembership;
+            var1 = _closure1_slot10;
+            var1 = var1.membershipData;
+            var1 = var1.hasFetched;
             return var1;
         };
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
-        var7 = 'getSubscriptionId';
+        var7 = 'getPremiumGroupSubscriptionId';
         var5['key'] = var7;
         var6 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot8;
                 var1 = var2.getPremiumGroupSubscription;
                 var5 = var1.bind(var2)();
                 var2 = null;
@@ -217,8 +236,9 @@ case 10:
 case 9:
                 if(!(var2 == var1)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                var4 = _closure1_slot6;
-                var4 = var4.premiumGroupMembership;
+                var4 = _closure1_slot10;
+                var4 = var4.membershipData;
+                var4 = var4.data;
                 var5 = var2 == var4;
                 var3 = undefined;
                 if(var5) { _fun0003_ip = 13; continue _fun0003 }
@@ -227,10 +247,10 @@ case 14:
 case 13:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0003_ip = 4; continue _fun0003 }
-case 15:
+                if(!var4) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var2 = var3;
-case 4:
+case 15:
                 var1 = var2;
 case 11:
                 return var1;
@@ -241,103 +261,208 @@ case 11:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var7);
+    var8 = var2.bind(var1)(var8);
     var2 = 'PremiumGroupStore';
-    var7['displayName'] = var2;
+    var8['displayName'] = var2;
     var2 = 7;
-    var2 = var5[var2];
-    var11 = var6.bind(var1)(var2);
+    var2 = var6[var2];
+    var12 = var7.bind(var1)(var2);
     var2 = {};
-    var8 = function handleMembersFetchStart() {
-        var2 = _closure1_slot6;
+    var9 = function handleMembersRequest(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.subscriptionId;
+            var _closure2_slot0 = var3;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+            var3 = _closure1_slot10;
+            var3 = var3.membersData;
+            var3 = var3.isFetching;
+            var1 = !var3;
+case 17:
+            if(!var1) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 7;
+            var4 = var4[var3];
+            var3 = undefined;
+            var4 = var5.bind(var3)(var4);
+            var3 = var4.wait;
+            var2 = function() {
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 8;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.fetchSubscriptionGroupMembers;
+                var2 = _closure2_slot0;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.catch;
+                var1 = _closure1_slot9;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
+            var1 = true;
+case 19:
+            return var1;
+        }
+    };
+    var2['PREMIUM_GROUP_MEMBERS_REQUEST'] = var9;
+    var9 = function handleMembersFetchStart() {
+        var1 = _closure1_slot10;
+        var2 = var1.membersData;
         var1 = true;
-        var2['isFetchingMembers'] = var1;
+        var2['isFetching'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERS_FETCH_START'] = var8;
-    var8 = function handleMembersFetchSuccess(arg1) {
+    var2['PREMIUM_GROUP_MEMBERS_FETCH_START'] = var9;
+    var9 = function handleMembersFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.members;
-        var2 = _closure1_slot6;
-        var2['premiumGroupMembers'] = var3;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot10;
+        var2 = var2.membersData;
+        var2['data'] = var3;
+        var1 = _closure1_slot10;
+        var2 = var1.membersData;
         var1 = false;
-        var2['isFetchingMembers'] = var1;
+        var2['isFetching'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERS_FETCH_SUCCESS'] = var8;
-    var8 = function handleMembersFetchFailure() {
-        var2 = _closure1_slot6;
+    var2['PREMIUM_GROUP_MEMBERS_FETCH_SUCCESS'] = var9;
+    var9 = function handleMembersFetchFailure() {
+        var1 = _closure1_slot10;
+        var2 = var1.membersData;
         var1 = false;
-        var2['isFetchingMembers'] = var1;
+        var2['isFetching'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERS_FETCH_FAILURE'] = var8;
-    var8 = function handleMembershipFetchStart() {
-        var2 = _closure1_slot6;
+    var2['PREMIUM_GROUP_MEMBERS_FETCH_FAILURE'] = var9;
+    var9 = function handleMembershipRequest() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var1 = _closure1_slot10;
+            var1 = var1.membershipData;
+            var1 = var1.isFetching;
+            var1 = !var1;
+            if(!var1) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
+            var3 = _closure1_slot10;
+            var3 = var3.membershipData;
+            var3 = var3.hasFetched;
+            var1 = !var3;
+case 21:
+            if(!var1) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 7;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.wait;
+            var2 = function() {
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 8;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.fetchPremiumGroupMembership;
+                var3 = var2.bind(var3)();
+                var2 = var3.catch;
+                var1 = _closure1_slot9;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
+            var1 = true;
+case 23:
+            return var1;
+        }
+    };
+    var2['PREMIUM_GROUP_MEMBERSHIP_REQUEST'] = var9;
+    var9 = function handleMembershipFetchStart() {
+        var1 = _closure1_slot10;
+        var2 = var1.membershipData;
         var1 = true;
-        var2['isFetchingMembership'] = var1;
+        var2['isFetching'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_START'] = var8;
-    var8 = function handleMembershipFetchSuccess(arg1) {
+    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_START'] = var9;
+    var9 = function handleMembershipFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.membership;
-        var2 = _closure1_slot6;
-        var2['premiumGroupMembership'] = var3;
-        var3 = _closure1_slot6;
+        var2 = _closure1_slot10;
+        var2 = var2.membershipData;
+        var2['data'] = var3;
+        var2 = _closure1_slot10;
+        var3 = var2.membershipData;
         var2 = false;
-        var3['isFetchingMembership'] = var2;
-        var2 = _closure1_slot6;
+        var3['isFetching'] = var2;
+        var1 = _closure1_slot10;
+        var2 = var1.membershipData;
         var1 = true;
-        var2['_hasFetchedMembership'] = var1;
+        var2['hasFetched'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_SUCCESS'] = var8;
-    var8 = function handleMembershipNotFound() {
-        var3 = _closure1_slot6;
+    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_SUCCESS'] = var9;
+    var9 = function handleMembershipNotFound() {
+        var2 = _closure1_slot10;
+        var3 = var2.membershipData;
         var2 = false;
-        var3['isFetchingMembership'] = var2;
-        var2 = _closure1_slot6;
+        var3['isFetching'] = var2;
+        var1 = _closure1_slot10;
+        var2 = var1.membershipData;
         var1 = true;
-        var2['_hasFetchedMembership'] = var1;
+        var2['hasFetched'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERSHIP_NOT_FOUND'] = var8;
-    var8 = function handleMembershipFetchFailure() {
-        var3 = _closure1_slot6;
+    var2['PREMIUM_GROUP_MEMBERSHIP_NOT_FOUND'] = var9;
+    var9 = function handleMembershipFetchFailure() {
+        var2 = _closure1_slot10;
+        var3 = var2.membershipData;
         var2 = false;
-        var3['isFetchingMembership'] = var2;
-        var2 = _closure1_slot6;
+        var3['isFetching'] = var2;
+        var1 = _closure1_slot10;
+        var2 = var1.membershipData;
         var1 = true;
-        var2['_hasFetchedMembership'] = var1;
+        var2['hasFetched'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_FAILURE'] = var8;
+    var2['PREMIUM_GROUP_MEMBERSHIP_FETCH_FAILURE'] = var9;
     var4 = function reset() {
-        var1 = {'premiumGroupMembers': null, 'isFetchingMembers': false, 'premiumGroupMembership': null, 'isFetchingMembership': false, '_hasFetchedMembership': false};
-        _closure1_slot6 = var1;
+        var2 = {};
+        var1 = {'data': null, 'isFetching': false};
+        var2['membersData'] = var1;
+        var1 = {'data': null, 'isFetching': false, 'hasFetched': false};
+        var2['membershipData'] = var1;
+        _closure1_slot10 = var2;
         var1 = undefined;
         return var1;
     };
     var2['LOGOUT'] = var4;
-    var4 = var7.prototype;
-    var4 = Object.create(var4, {constructor: {value: var7}});
-    var12 = var4;
-    var10 = var2;
-    var2 = new var12[var7](var11, var10, var9);
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
-    var5 = var5[var4];
-    var4 = require;
-    var6 = var4.bind(var1)(var5);
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/premium_group/PremiumGroupStore.tsx';
     var4 = var5.bind(var6)(var4);

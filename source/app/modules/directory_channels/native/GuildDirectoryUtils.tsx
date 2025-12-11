@@ -51,7 +51,7 @@ case 3:
                     var10 = var2.category;
                     var6 = var2.onClose;
                     var4 = undefined;
-                    SaveGenerator(address=62);
+                    SaveGenerator(address=63);
 case 4:
                     return var4;
 case 5:
@@ -70,7 +70,7 @@ case 7:
                     var15 = var11;
                     var14 = var10;
                     var3 = var18[var7](var17, var16, var15, var14, var13);
-                    SaveGenerator(address=122);
+                    SaveGenerator(address=123);
 case 8:
                     return var3;
 case 9:

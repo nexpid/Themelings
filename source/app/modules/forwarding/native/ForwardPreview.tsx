@@ -224,7 +224,7 @@ case 5:
     var4['largeIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -280,38 +280,31 @@ case 9:
             var1 = var1[var16];
             var17 = var1.checkpointData;
 case 7:
-            var1 = var18 != var17;
-            var5 = null;
-            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+            var2 = var18 != var17;
+            var1 = null;
+            if(!var2) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 11;
-            var1 = var3[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.CHECKPOINT_PERSONA_COLORS;
-            var3 = var17.cardId;
-            var6 = var18 != var3;
-            var1 = 0;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 11;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.CHECKPOINT_PERSONA_COLORS;
+            var5 = var17.cardId;
+            var6 = var18 != var5;
+            var2 = 0;
             if(!var6) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-            var1 = var3;
+            var2 = var5;
 case 12:
-            var5 = var2[var1];
+            var1 = var3[var2];
 case 10:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 12;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useToken;
-            var6 = var18 == var5;
-            var1 = undefined;
-            if(var6) { _fun0003_ip = 14; continue _fun0003 }
+            var2 = var18 == var1;
+            var15 = undefined;
+            if(var2) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var1 = var5.primaryColor;
+            var15 = var1.primaryColor;
 case 14:
-            var15 = var2.bind(var3)(var1);
             var9 = var12.length;
             if(!(!(var9 > var16))) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
@@ -324,14 +317,14 @@ case 17:
 case 16:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.countBy;
             var1 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -366,7 +359,7 @@ case 27:
 case 29:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var3 = var6[var2];
             var3 = var5.bind(var4)(var3);
             var8 = var3.intl;
@@ -378,7 +371,7 @@ case 29:
             var2 = {};
             var2['count'] = var9;
             var3 = var7.bind(var8)(var3, var2);
-            var2 = 19;
+            var2 = 18;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.AttachmentIcon;
@@ -386,7 +379,7 @@ case 29:
 case 28:
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var7 = var11[var5];
             var7 = var6.bind(var4)(var7);
             var8 = var7.intl;
@@ -403,7 +396,7 @@ case 28:
 case 32:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 16;
+            var5 = 15;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.ImagesIcon;
@@ -411,7 +404,7 @@ case 32:
 case 31:
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 18;
+            var7 = 17;
             var7 = var11[var7];
             var7 = var8.bind(var4)(var7);
             var5 = var7.ImageIcon;
@@ -422,7 +415,7 @@ case 33:
 case 26:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var6 = var8[var5];
             var6 = var7.bind(var4)(var6);
             var13 = var6.intl;
@@ -434,7 +427,7 @@ case 26:
             var5 = {};
             var5['count'] = var1;
             var3 = var11.bind(var13)(var6, var5);
-            var5 = 17;
+            var5 = 16;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var2 = var5.CirclePlayIcon;
@@ -442,7 +435,7 @@ case 26:
 case 25:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var6 = var8[var5];
             var6 = var7.bind(var4)(var6);
             var13 = var6.intl;
@@ -455,7 +448,7 @@ case 25:
             var5['image_count'] = var25;
             var5['video_count'] = var1;
             var3 = var11.bind(var13)(var6, var5);
-            var5 = 16;
+            var5 = 15;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var2 = var5.ImagesIcon;
@@ -492,12 +485,12 @@ case 42:
             var11 = _closure1_slot5;
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var7 = 20;
+            var7 = 19;
             var7 = var28[var7];
             var8 = var27.bind(var4)(var7);
             var7 = {'source': null, 'width': 56, 'height': 56};
             var13 = {};
-            var25 = 21;
+            var25 = 20;
             var25 = var28[var25];
             var28 = var27.bind(var4)(var25);
             var27 = var28.getMobileOptimizedSrc;
@@ -523,12 +516,12 @@ case 37:
             var11 = _closure1_slot5;
             var25 = _closure1_slot1;
             var27 = _closure1_slot2;
-            var7 = 20;
+            var7 = 19;
             var7 = var27[var7];
             var8 = var25.bind(var4)(var7);
             var7 = {'source': null, 'width': 56, 'height': 56};
             var13 = {};
-            var23 = 21;
+            var23 = 20;
             var23 = var27[var23];
             var28 = var25.bind(var4)(var23);
             var27 = var28.getMobileOptimizedSrc;
@@ -557,14 +550,14 @@ case 36:
             var11 = _closure1_slot5;
             var27 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var7 = 20;
+            var7 = 19;
             var7 = var13[var7];
             var8 = var27.bind(var4)(var7);
             var7 = {};
             var23 = var10.videoThumbnail;
             var7['style'] = var23;
             var23 = {};
-            var25 = 21;
+            var25 = 20;
             var25 = var13[var25];
             var29 = var27.bind(var4)(var25);
             var28 = var29.getMobileOptimizedSrc;
@@ -585,7 +578,7 @@ case 36:
             var7[0] = var8;
             var12 = _closure1_slot5;
             var11 = _closure1_slot0;
-            var8 = 17;
+            var8 = 16;
             var8 = var13[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.CirclePlayIcon;
@@ -609,7 +602,7 @@ case 45:
             var25 = {'shape': null, 'x': 28, 'y': 28, 'width': 32, 'height': 32, 'cornerRadius': 12};
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 22;
+            var5 = 21;
             var1 = var12[var5];
             var1 = var8.bind(var4)(var1);
             var1 = var1.CutoutShape;
@@ -632,7 +625,7 @@ case 45:
             var7 = var13.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var7 = 23;
+            var7 = 22;
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
@@ -669,20 +662,20 @@ case 47:
             var13 = _closure1_slot5;
             var23 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var8 = 23;
+            var8 = 22;
             var8 = var28[var8];
             var8 = var23.bind(var4)(var8);
             var12 = var8.Text;
             var8 = {};
             var19 = 'text-md/medium';
             var8['variant'] = var19;
-            var19 = 15;
+            var19 = 14;
             var19 = var28[var19];
             var19 = var23.bind(var4)(var19);
             var25 = var19.intl;
             var23 = var25.string;
             var27 = _closure1_slot1;
-            var19 = 24;
+            var19 = 23;
             var19 = var28[var19];
             var19 = var27.bind(var4)(var19);
             var19 = var19.goiR2u;
@@ -741,7 +734,7 @@ case 59:
             var23 = _closure1_slot5;
             var22 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var21 = 23;
+            var21 = 22;
             var21 = var25[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
@@ -777,7 +770,7 @@ case 63:
             var12 = _closure1_slot5;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var10 = 20;
+            var10 = 19;
             var10 = var19[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {'style': null, 'width': 56, 'height': 56};
@@ -786,7 +779,7 @@ case 63:
             var10['style'] = var13;
             var13 = {};
             var15 = _closure1_slot0;
-            var14 = 25;
+            var14 = 24;
             var14 = var19[var14];
             var15 = var15.bind(var4)(var14);
             var14 = var15.getCardAssetUrl;

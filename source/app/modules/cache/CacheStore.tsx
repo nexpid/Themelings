@@ -2078,9 +2078,9 @@ case 68: // try_start_1
                     };
                     var1 = 100;
                     var1 = var3.bind(var4)(var2, var1);
-case 149: // try_end1
-                    _fun0019_ip = 150; continue _fun0019;
-case 78: // catch_target0 // catch_target1
+case 78: // try_end1
+                    _fun0019_ip = 87; continue _fun0019;
+case 79: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot18;
                     var3 = var4.warn;
@@ -2102,15 +2102,15 @@ case 78: // catch_target0 // catch_target1
                     var4['action'] = var5;
                     var1['args'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 150:
+case 87:
                     var1 = undefined;
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
             var3 = _closure2_slot2;
-            if(var3) { _fun0018_ip = 151; continue _fun0018 }
-case 152:
+            if(var3) { _fun0018_ip = 149; continue _fun0018 }
+case 150:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 16;
@@ -2119,7 +2119,7 @@ case 152:
             var3 = var2.loadLazyCache;
             var2 = var3.recordEnd;
             var2 = var2.bind(var3)();
-case 151:
+case 149:
             return var1;
         }
     };
@@ -2227,14 +2227,14 @@ case 0:
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot26;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0020_ip = 153; continue _fun0020 }
-case 154:
+                if(var1) { _fun0020_ip = 151; continue _fun0020 }
+case 152:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0020_ip = 155; continue _fun0020;
-case 153:
+                _fun0020_ip = 153; continue _fun0020;
+case 151:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -2243,7 +2243,7 @@ case 153:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 155:
+case 153:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -2314,43 +2314,43 @@ case 0:
                 var1 = var2.isAuthenticated;
                 var1 = var1.bind(var2)();
                 if(var1) { _fun0021_ip = 65; continue _fun0021 }
-case 156:
+case 154:
                 var4 = _closure1_slot18;
                 var2 = var4.log;
                 var1 = 'Not writing cache because not authenticated';
                 var1 = var2.bind(var4)(var1);
                 var1 = false;
-                _fun0021_ip = 157; continue _fun0021;
+                _fun0021_ip = 155; continue _fun0021;
 case 65:
                 var2 = _closure1_slot19;
-                if(var2) { _fun0021_ip = 158; continue _fun0021 }
+                if(var2) { _fun0021_ip = 156; continue _fun0021 }
 case 3:
                 var2 = arg1;
                 var4 = !var2;
                 if(!var4) { _fun0021_ip = 68; continue _fun0021 }
-case 159:
+case 157:
                 var2 = _closure1_slot24;
                 var4 = !var2;
 case 68:
                 var2 = !var4;
                 if(!var4) { _fun0021_ip = 97; continue _fun0021 }
-case 160:
+case 158:
                 var6 = _closure1_slot18;
                 var5 = var6.log;
                 var4 = 'Not writing cache because never connected';
                 var4 = var5.bind(var6)(var4);
                 var2 = false;
 case 97:
-                _fun0021_ip = 161; continue _fun0021;
-case 158:
+                _fun0021_ip = 159; continue _fun0021;
+case 156:
                 var5 = _closure1_slot18;
                 var4 = var5.log;
                 var3 = 'Not writing cache because caches cleared';
                 var3 = var4.bind(var5)(var3);
                 var2 = false;
-case 161:
+case 159:
                 var1 = var2;
-case 157:
+case 155:
                 return var1;
             }
         };
@@ -2366,7 +2366,7 @@ case 157:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0022_ip = 162; continue _fun0022 }
+                    if(var4) { _fun0022_ip = 160; continue _fun0022 }
 case 104:
                     var4 = arg1;
                     var _closure4_slot0 = var4;
@@ -2388,8 +2388,8 @@ case 104:
                     var3 = var11.bind(var12)(var6);
                     var11 = _closure1_slot20;
                     var6 = 'initializing';
-                    if(!(var6 === var11)) { _fun0022_ip = 163; continue _fun0022 }
-case 164: // try_start_0
+                    if(!(var6 === var11)) { _fun0022_ip = 161; continue _fun0022 }
+case 162: // try_start_0
                     var11 = _closure1_slot11;
                     var6 = var11.getId;
                     var14 = var6.bind(var11)();
@@ -2429,12 +2429,12 @@ case 164: // try_start_0
                     };
                     var6 = var11.bind(var12)(var6);
                     SaveGenerator(address=190);
-case 165:
+case 163:
                     return var6;
-case 166:
+case 164:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
-                    if(var11) { _fun0022_ip = 167; continue _fun0022 }
-case 168:
+                    if(var11) { _fun0022_ip = 165; continue _fun0022 }
+case 166:
                     var12 = _closure1_slot3;
                     var11 = 3;
                     var13 = var12.bind(var5)(var6, var11);
@@ -2446,8 +2446,8 @@ case 168:
                     var7 = var13[var12];
                     var12 = var3;
                     var12 = var12.bind(var5)();
-                    if(var11) { _fun0022_ip = 169; continue _fun0022 }
-case 170:
+                    if(var11) { _fun0022_ip = 167; continue _fun0022 }
+case 168:
                     var11 = function dontLoadLateLazyCache() {
                         var3 = _closure1_slot32;
                         var2 = undefined;
@@ -2474,14 +2474,14 @@ case 170:
                     };
                     var11 = var11.bind(var5)();
                     SaveGenerator(address=252);
-case 171:
+case 169:
                     return var11;
-case 172:
+case 170:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 173; continue _fun0022 }
-case 174: // try_end0
+                    if(!var12) { _fun0022_ip = 171; continue _fun0022 }
+case 172: // try_end0
                     return var11;
-case 169: // try_start_1
+case 167: // try_start_1
                     var18 = var10;
                     var17 = var9;
                     var16 = var8;
@@ -2501,16 +2501,16 @@ case 169: // try_start_1
                     SaveGenerator(address=288);
 case 91:
                     return var7;
-case 175:
+case 173:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 176; continue _fun0022 }
-case 173: // try_end1
-                    _fun0022_ip = 177; continue _fun0022;
-case 176:
+                    if(var8) { _fun0022_ip = 174; continue _fun0022 }
+case 171: // try_end1
+                    _fun0022_ip = 175; continue _fun0022;
+case 174:
                     return var7;
-case 167:
+case 165:
                     return var6;
-case 178: // catch_target0 // catch_target1
+case 176: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot18;
                     var8 = var9.error;
@@ -2539,9 +2539,9 @@ case 178: // catch_target0 // catch_target1
                     var9['action'] = var10;
                     var6['args'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 177:
+case 175:
                     return var5;
-case 163:
+case 161:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 27;
@@ -2562,7 +2562,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 64; continue _fun0023 }
-case 179:
+case 177:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;
@@ -2578,7 +2578,7 @@ case 64:
                     var2 = var4.bind(var5)(var3, var2);
                     var2 = undefined;
                     return var2;
-case 162:
+case 160:
                     return var1;
                 }
             };

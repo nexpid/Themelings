@@ -3,8 +3,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = require;
     var3 = exports;
     var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -21,19 +19,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {'kind': 'user', 'id': '2025-08_create_dm_cta_mobile', 'label': 'Create DM CTA (Mobile)'};
     var5 = {'enabled': false, 'animated': false};
     var4['defaultConfig'] = var5;
-    var5 = {'id': 1, 'label': 'Enabled'};
+    var11 = {'id': 1, 'label': 'Enabled'};
+    var5 = 1;
     var10 = {'enabled': true, 'animated': false};
-    var5['config'] = var10;
+    var11['config'] = var10;
     var10 = new Array(2);
-    var10[0] = var5;
+    var10[0] = var11;
     var11 = {'id': 2, 'label': 'Animated button'};
-    var5 = 2;
     var12 = {'enabled': true, 'animated': true};
     var11['config'] = var12;
     var10[1] = var11;
     var4['treatments'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot2 = var4;
+    var _closure1_slot0 = var4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -41,46 +39,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['CreateDMCTAExperiment'] = var4;
     var2 = function useCreateDMCTAExperiment(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var5 = arg2;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 1;
-            var4 = var4[var3];
-            var3 = undefined;
-            var4 = var6.bind(var3)(var4);
-            var3 = var4.useIsInCPFCHoldout;
-            var6 = var3.bind(var4)(var1);
-            var4 = _closure1_slot2;
-            var3 = var4.useExperiment;
-            var2 = {};
-            var2['location'] = var1;
-            var1 = {};
-            var11 = var1;
-            var10 = var5;
-            var7 = copyDataProperties(var11, var10);
-            var7 = var6;
-            if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var8 = var5.disable;
-            var6 = null;
-            var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var6 = var8;
-case 4:
-            var7 = var6;
-case 2:
-            var6 = 'disable';
-            var1[var6] = var7;
-            var6 = var5.autoTrackExposure;
-            var5 = 'autoTrackExposure';
-            var1[var5] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var4 = _closure1_slot0;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['useCreateDMCTAExperiment'] = var2;
     return var1;

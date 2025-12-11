@@ -1191,7 +1191,7 @@ case 40:
                 var8 = var3.IGNORE_ANALYTICS_BREADCRUMB_EVENTS;
                 var3 = var8.includes;
                 var3 = var3.bind(var8)(var9);
-                if(var3) { _fun0010_ip = 35; continue _fun0010 }
+                if(var3) { _fun0010_ip = 42; continue _fun0010 }
 case 5:
                 var8 = _closure1_slot1;
                 var10 = _closure1_slot3;
@@ -1208,40 +1208,40 @@ case 5:
                 var11 = var12.bind(var11)(var9);
                 var3['message'] = var11;
                 var3 = var8.bind(var10)(var3);
-case 35:
+case 42:
                 var3 = _closure1_slot21;
-                if(!var3) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
-                var3 = null;
-                if(!(var3 != var4)) { _fun0010_ip = 42; continue _fun0010 }
+                if(!var3) { _fun0010_ip = 43; continue _fun0010 }
 case 44:
+                var3 = null;
+                if(!(var3 != var4)) { _fun0010_ip = 43; continue _fun0010 }
+case 45:
                 var10 = var1.Array;
                 var8 = var10.isArray;
                 var3 = _closure1_slot22;
                 var3 = var3[var6];
                 var8 = var8.bind(var10)(var3);
                 var3 = _closure1_slot22;
-                if(var8) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+                if(var8) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
                 var8 = new Array(1);
                 var8[0] = var4;
                 var3[var6] = var8;
-                _fun0010_ip = 42; continue _fun0010;
-case 45:
+                _fun0010_ip = 43; continue _fun0010;
+case 46:
                 var8 = var3[var6];
                 var3 = var8.push;
                 var3 = var3.bind(var8)(var4);
-case 42:
+case 43:
                 var8 = var7.throttlePercent;
                 var3 = null;
-                if(!(var3 != var8)) { _fun0010_ip = 47; continue _fun0010 }
-case 48:
+                if(!(var3 != var8)) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                 var8 = var1.Math;
                 var3 = var8.random;
                 var8 = var3.bind(var8)();
                 var3 = var7.throttlePercent;
-                if(!(!(var8 > var3))) { _fun0010_ip = 49; continue _fun0010 }
-case 47:
+                if(!(!(var8 > var3))) { _fun0010_ip = 50; continue _fun0010 }
+case 48:
                 var3 = _closure1_slot26;
                 var4 = var3.bind(var5)(var4);
                 var8 = _closure1_slot27;
@@ -1255,7 +1255,7 @@ case 47:
                 var2['fingerprint'] = var7;
                 var2 = var3.bind(var5)(var6, var4, var2);
                 return var2;
-case 49:
+case 50:
                 var2 = var1.Promise;
                 var1 = var2.resolve;
                 var1 = var1.bind(var2)();
@@ -1337,12 +1337,12 @@ case 0:
                 var1 = _closure1_slot13;
                 var1 = var1.GAME;
                 var1 = var3 === var1;
-                if(var1) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+                if(var1) { _fun0011_ip = 51; continue _fun0011 }
+case 52:
                 var2 = _closure1_slot13;
                 var2 = var2.DEPRECATED_GAME;
                 var1 = var3 === var2;
-case 50:
+case 51:
                 return var1;
             }
         };

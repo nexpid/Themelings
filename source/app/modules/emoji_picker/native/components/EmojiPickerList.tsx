@@ -796,11 +796,11 @@ case 80:
 case 82:
             var2 = 36;
             var2 = var8[var2];
-            _fun0001_ip = 55; continue _fun0001;
+            _fun0001_ip = 83; continue _fun0001;
 case 81:
             var7 = 35;
             var2 = var8[var7];
-case 55:
+case 83:
             var10 = var3.bind(var4)(var2);
             var7 = _closure1_slot15;
             var3 = _closure1_slot14;
@@ -812,16 +812,16 @@ case 55:
             var8['bottomSheetIndex'] = var14;
             var8['categoryIndexActive'] = var24;
             var8['data'] = var23;
-            if(!(var21 == var20)) { _fun0001_ip = 83; continue _fun0001 }
-case 84:
+            if(!(var21 == var20)) { _fun0001_ip = 84; continue _fun0001 }
+case 85:
             var23 = var21 == var22;
             var21 = undefined;
-            if(var23) { _fun0001_ip = 85; continue _fun0001 }
-case 86:
+            if(var23) { _fun0001_ip = 86; continue _fun0001 }
+case 50:
             var21 = var22.guild_id;
-case 85:
+case 86:
             var20 = var21;
-case 83:
+case 84:
             var8['guildId'] = var20;
             var8['inPortalKeyboard'] = var13;
             var8['onPressEmoji'] = var19;

@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var1 = function getOrRefreshPushSyncToken() {
         var1 = undefined;
-        var4 = _closure1_slot15;
+        var4 = _closure1_slot16;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _getOrRefreshPushSyncToken() {
         var5 = undefined;
         var1 = undefined;
@@ -114,7 +114,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot15 = var4;
+        _closure1_slot16 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -122,7 +122,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -160,8 +160,10 @@ case 2:
     var _closure1_slot10 = var8;
     var8 = var4.DEVICE_PUSH_VOIP_PROVIDER;
     var _closure1_slot11 = var8;
-    var4 = var4.getDevicePushProvider;
-    var _closure1_slot12 = var4;
+    var8 = var4.getDevicePushProvider;
+    var _closure1_slot12 = var8;
+    var4 = var4.IS_QUEST_RELEASE;
+    var _closure1_slot13 = var4;
     var4 = 5;
     var4 = var7[var4];
     var8 = var5.bind(var1)(var4);
@@ -171,7 +173,7 @@ case 2:
     var13 = var5;
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var5;
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = {};
     var5 = function registerDevice(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -184,7 +186,7 @@ case 0:
 case 15:
             var1 = false;
 case 14:
-            var6 = _closure1_slot13;
+            var6 = _closure1_slot14;
             var3 = var6.log;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -234,20 +236,27 @@ case 21:
 case 23:
             var7['provider'] = var9;
             var7['token'] = var5;
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot3;
-            var12 = 12;
-            var12 = var11[var12];
-            var13 = var9.bind(var10)(var12);
-            var12 = var13.isAndroid;
-            var12 = var12.bind(var13)();
-            var7['bypass_server_throttling_supported'] = var12;
-            var8 = _closure1_slot10;
-            var7['bundle_id'] = var8;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot3;
+            var9 = 12;
+            var9 = var12[var9];
+            var11 = var11.bind(var10)(var9);
+            var9 = var11.isAndroid;
+            var9 = var9.bind(var11)();
+            if(!var9) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var11 = _closure1_slot13;
+            var9 = !var11;
+case 24:
+            var7['bypass_server_throttling_supported'] = var9;
+            var9 = _closure1_slot10;
+            var7['bundle_id'] = var9;
             var1['body'] = var7;
             var7 = true;
             var1['oldFormErrors'] = var7;
             var7 = {};
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot3;
             var8 = 13;
             var8 = var11[var8];
             var8 = var9.bind(var10)(var8);
@@ -258,11 +267,11 @@ case 23:
             var7 = false;
             var1['rejectWithError'] = var7;
             var1 = var2.bind(var6)(var1);
-            _fun0002_ip = 24; continue _fun0002;
+            _fun0002_ip = 26; continue _fun0002;
 case 19:
             var2 = var4.syncDevice;
             var1 = var2.bind(var4)(var5, var3);
-case 24:
+case 26:
             return var1;
         }
     };
@@ -274,10 +283,10 @@ case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(!(var3 === var2)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var3 = false;
-case 25:
+case 27:
             var _closure2_slot1 = var3;
             var3 = _closure1_slot4;
             var1 = function* () {
@@ -286,8 +295,8 @@ case 25:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(var3) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                        if(var3) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                         var3 = undefined;
                         var _closure4_slot0 = var3;
                         var6 = _closure1_slot6;
@@ -308,42 +317,42 @@ case 0:
                                 var4 = var1.id;
                                 var3 = _closure4_slot0;
                                 var1 = -1;
-                                if(!(var4 !== var3)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                                if(!(var4 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                                 var3 = arg2;
                                 var4 = var3.id;
                                 var3 = _closure4_slot0;
                                 var2 = 0;
                                 if(!(var4 === var3)) { _fun0005_ip = 4; continue _fun0005 }
-case 31:
+case 33:
                                 var2 = 1;
 case 4:
                                 var1 = var2;
-case 29:
+case 31:
                                 return var1;
                             }
                         };
                         var8 = var7.bind(var8)(var2);
                         var7 = var8.map;
-                        var2 = _closure1_slot14;
+                        var2 = _closure1_slot15;
                         var2 = var7.bind(var8)(var2);
                         var2 = var4.bind(var6)(var2);
                         SaveGenerator(address=110);
-case 32:
+case 34:
                         return var2;
 case 16:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                        if(var4) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
                         var6 = var2.length;
                         var4 = 1;
-                        if(!(!(var6 < var4))) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+                        if(!(!(var6 < var4))) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                         var7 = 0;
                         var6 = var2[var7];
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0004_ip = 35; continue _fun0004 }
-case 37:
+                        if(!(var4 != var6)) { _fun0004_ip = 37; continue _fun0004 }
+case 39:
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot3;
                         var4 = 7;
@@ -357,14 +366,14 @@ case 37:
                         var4['url'] = var9;
                         var9 = {};
                         var11 = _closure2_slot1;
-                        if(var11) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                        if(var11) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                         var11 = _closure1_slot12;
                         var11 = var11.bind(var3)();
-                        _fun0004_ip = 40; continue _fun0004;
-case 38:
-                        var11 = _closure1_slot11;
+                        _fun0004_ip = 42; continue _fun0004;
 case 40:
+                        var11 = _closure1_slot11;
+case 42:
                         var9['provider'] = var11;
                         var10 = _closure2_slot0;
                         var9['token'] = var10;
@@ -382,6 +391,11 @@ case 40:
                         var11 = var11.bind(var3)(var10);
                         var10 = var11.isAndroid;
                         var10 = var10.bind(var11)();
+                        if(!var10) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+                        var11 = _closure1_slot13;
+                        var10 = !var11;
+case 43:
                         var9['bypass_server_throttling_supported'] = var10;
                         var10 = _closure1_slot10;
                         var9['bundle_id'] = var10;
@@ -389,18 +403,18 @@ case 40:
                         var9 = false;
                         var4['rejectWithError'] = var9;
                         var4 = var6.bind(var8)(var4);
-                        SaveGenerator(address=334);
-case 41:
+                        SaveGenerator(address=344);
+case 45:
                         return var4;
-case 42:
+case 46:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                        if(var6) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+                        if(var6) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
                         var6 = var4.body;
                         var6 = var6.invalid_push_sync_tokens;
                         var6 = var6.length;
-                        if(!(var6 > var7)) { _fun0004_ip = 35; continue _fun0004 }
-case 45:
+                        if(!(var6 > var7)) { _fun0004_ip = 37; continue _fun0004 }
+case 49:
                         var6 = _closure1_slot2;
                         var7 = _closure1_slot3;
                         var5 = 9;
@@ -410,14 +424,14 @@ case 45:
                         var5 = var4.body;
                         var5 = var5.invalid_push_sync_tokens;
                         var5 = var6.bind(var7)(var5);
-                        _fun0004_ip = 35; continue _fun0004;
-case 43:
+                        _fun0004_ip = 37; continue _fun0004;
+case 47:
                         return var4;
-case 35:
+case 37:
                         return var3;
-case 33:
+case 35:
                         return var2;
-case 27:
+case 29:
                         return var1;
                     }
                 };
@@ -431,7 +445,7 @@ case 27:
     var4['syncDevice'] = var5;
     var5 = function unregisterDevice(arg1) {
         var6 = arg1;
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot14;
         var2 = var3.log;
         var1 = global;
         var1 = var1.HermesInternal;

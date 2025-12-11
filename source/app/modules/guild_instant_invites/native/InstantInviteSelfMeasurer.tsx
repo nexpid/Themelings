@@ -68,13 +68,13 @@ case 0:
                     var3 = _closure2_slot0;
                     var4 = _closure2_slot1;
                     var2 = 'height';
-                    if(!(var2 !== var4)) { _fun0002_ip = 2; continue _fun0002 }
-case 4:
-                    var2 = var1.width;
-                    _fun0002_ip = 5; continue _fun0002;
-case 2:
-                    var2 = var1.height;
+                    if(!(var2 !== var4)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+                    var2 = var1.width;
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
+                    var2 = var1.height;
+case 6:
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     return var1;
@@ -93,8 +93,8 @@ case 5:
             var1['onLayout'] = var5;
             var7 = var9.type;
             var5 = 'invite';
-            if(!(var5 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!(var5 !== var7)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -106,8 +106,8 @@ case 7:
             var10 = var9.data;
             var5['channel'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -118,7 +118,7 @@ case 6:
             var9 = var9.data;
             var6['invite'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 8:
+case 9:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

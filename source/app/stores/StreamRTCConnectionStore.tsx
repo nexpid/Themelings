@@ -929,13 +929,22 @@ case 66:
                 var6[var3] = var7;
                 var6 = _closure1_slot18;
                 var6[var3] = var8;
-                if(!(var5 != var8)) { _fun0019_ip = 68; continue _fun0019 }
+                if(!(var5 == var8)) { _fun0019_ip = 68; continue _fun0019 }
 case 69:
+                var6 = _closure1_slot23;
+                var6 = var6[var3];
+                if(!(var5 != var6)) { _fun0019_ip = 70; continue _fun0019 }
+case 58:
+                var7 = var6.analyticsContext;
+                var6 = var7.updateStreamApplication;
+                var6 = var6.bind(var7)(var5);
+                _fun0019_ip = 70; continue _fun0019;
+case 68:
                 var7 = _closure1_slot9;
                 var6 = var7.getGameForPID;
                 var8 = var6.bind(var7)(var8);
-                if(!(var5 != var8)) { _fun0019_ip = 68; continue _fun0019 }
-case 70:
+                if(!(var5 != var8)) { _fun0019_ip = 71; continue _fun0019 }
+case 72:
                 var7 = _closure1_slot17;
                 var6 = {};
                 var9 = var8.name;
@@ -951,16 +960,26 @@ case 70:
                 var8 = var8.gameMetadata;
                 var6['gameMetadata'] = var8;
                 var7[var3] = var6;
-case 68:
-                if(!(var5 == var4)) { _fun0019_ip = 71; continue _fun0019 }
-case 72:
+case 71:
+                var6 = _closure1_slot23;
+                var6 = var6[var3];
+                if(!(var5 != var6)) { _fun0019_ip = 70; continue _fun0019 }
+case 73:
+                var8 = var6.analyticsContext;
+                var7 = var8.updateStreamApplication;
+                var6 = _closure1_slot17;
+                var6 = var6[var3];
+                var6 = var7.bind(var8)(var6);
+case 70:
+                if(!(var5 == var4)) { _fun0019_ip = 74; continue _fun0019 }
+case 75:
                 var5 = _closure1_slot20;
                 var5 = delete var5[var3];
-                _fun0019_ip = 73; continue _fun0019;
-case 71:
+                _fun0019_ip = 76; continue _fun0019;
+case 74:
                 var2 = _closure1_slot20;
                 var2[var3] = var4;
-case 73:
+case 76:
                 return var1;
             }
         };
@@ -993,7 +1012,7 @@ case 0:
                     var3 = _closure2_slot0;
                     var3 = var4.bind(var2)(var3);
                     if(!var1) { _fun0021_ip = 39; continue _fun0021 }
-case 74:
+case 77:
                     var1 = var2.trackEnd;
                     var1 = var1.bind(var2)();
 case 39:
@@ -1017,10 +1036,10 @@ case 39:
 case 0:
                 var1 = arg1;
                 var4 = var1.streamKey;
-                var10 = var1.rtcServerId;
-                var9 = var1.rtcChannelId;
+                var9 = var1.rtcServerId;
+                var8 = var1.rtcChannelId;
                 var5 = var1.region;
-                var12 = var1.viewerIds;
+                var11 = var1.viewerIds;
                 var1 = _closure1_slot23;
                 var6 = var1[var4];
                 var7 = _closure1_slot0;
@@ -1031,47 +1050,47 @@ case 0:
                 var7 = var7.bind(var1)(var3);
                 var3 = var7.decodeStreamKey;
                 var14 = var3.bind(var7)(var4);
-                var8 = null;
-                var3 = var8 == var6;
+                var12 = null;
+                var3 = var12 == var6;
                 if(!var3) { _fun0022_ip = 55; continue _fun0022 }
-case 75:
-                var3 = var8 != var10;
-case 55:
-                if(!var3) { _fun0022_ip = 76; continue _fun0022 }
-case 77:
-                var3 = _closure1_slot18;
-                var3 = var3[var4];
-                if(!(var8 == var3)) { _fun0022_ip = 78; continue _fun0022 }
-case 18:
-                var3 = _closure1_slot17;
-                var3[var4] = var8;
 case 78:
-                var3 = _closure1_slot17;
-                var3 = var3[var4];
-                var3 = var8 == var3;
+                var3 = var12 != var9;
+case 55:
                 if(!var3) { _fun0022_ip = 79; continue _fun0022 }
 case 80:
+                var3 = _closure1_slot18;
+                var3 = var3[var4];
+                if(!(var12 == var3)) { _fun0022_ip = 81; continue _fun0022 }
+case 18:
+                var3 = _closure1_slot17;
+                var3[var4] = var12;
+case 81:
+                var3 = _closure1_slot17;
+                var3 = var3[var4];
+                var3 = var12 == var3;
+                if(!var3) { _fun0022_ip = 82; continue _fun0022 }
+case 83:
                 var7 = _closure1_slot19;
                 var7 = var7[var4];
-                var3 = var8 == var7;
-case 79:
-                if(!var3) { _fun0022_ip = 81; continue _fun0022 }
+                var3 = var12 == var7;
 case 82:
+                if(!var3) { _fun0022_ip = 84; continue _fun0022 }
+case 85:
                 var7 = _closure1_slot17;
-                var11 = _closure1_slot0;
+                var10 = _closure1_slot0;
                 var13 = _closure1_slot2;
                 var3 = 16;
                 var3 = var13[var3];
-                var13 = var11.bind(var1)(var3);
-                var11 = var13.getStreamerApplication;
+                var13 = var10.bind(var1)(var3);
+                var10 = var13.getStreamerApplication;
                 var3 = _closure1_slot12;
-                var3 = var11.bind(var13)(var14, var3);
+                var3 = var10.bind(var13)(var14, var3);
                 var7[var4] = var3;
-case 81:
+case 84:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var11 = 13;
-                var3 = var3[var11];
+                var10 = 13;
+                var3 = var3[var10];
                 var3 = var7.bind(var1)(var3);
                 var7 = var3.StreamRTCAnalyticsContext;
                 var3 = {};
@@ -1086,31 +1105,31 @@ case 81:
                 var3['streamSourceType'] = var5;
                 var5 = _closure1_slot16;
                 var13 = var5[var4];
-                var14 = var8 == var13;
+                var14 = var12 == var13;
                 var5 = undefined;
-                if(var14) { _fun0022_ip = 83; continue _fun0022 }
-case 84:
+                if(var14) { _fun0022_ip = 86; continue _fun0022 }
+case 87:
                 var5 = var13.appContext;
-case 83:
-                var3['actionContext'] = var5;
-                var13 = var8 != var12;
-                var5 = 0;
-                if(!var13) { _fun0022_ip = 85; continue _fun0022 }
 case 86:
-                var5 = var12.length;
-case 85:
+                var3['actionContext'] = var5;
+                var13 = var12 != var11;
+                var5 = 0;
+                if(!var13) { _fun0022_ip = 88; continue _fun0022 }
+case 89:
+                var5 = var11.length;
+case 88:
                 var3['numViewers'] = var5;
                 var5 = _closure1_slot20;
                 var5 = var5[var4];
                 var3['goLiveModalDurationMs'] = var5;
                 var5 = _closure1_slot16;
-                var12 = var5[var4];
-                var13 = var8 == var12;
+                var11 = var5[var4];
+                var13 = var12 == var11;
                 var5 = undefined;
-                if(var13) { _fun0022_ip = 87; continue _fun0022 }
-case 88:
-                var5 = var12.analyticsLocations;
-case 87:
+                if(var13) { _fun0022_ip = 90; continue _fun0022 }
+case 91:
+                var5 = var11.analyticsLocations;
+case 90:
                 var3['analyticsLocations'] = var5;
                 var5 = var7.prototype;
                 var5 = Object.create(var5, {constructor: {value: var7}});
@@ -1120,28 +1139,24 @@ case 87:
                 var5 = var3 instanceof Object ? var3 : var5;
                 var7 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var12 = 12;
-                var12 = var3[var12];
-                var14 = var7.bind(var1)(var12);
-                var12 = _closure1_slot3;
-                var13 = var8 != var12;
-                var12 = 'Creating RTCConnection without session.';
-                var12 = var14.bind(var1)(var13, var12);
-                var3 = var3[var11];
+                var11 = 12;
+                var11 = var3[var11];
+                var13 = var7.bind(var1)(var11);
+                var11 = _closure1_slot3;
+                var12 = var12 != var11;
+                var11 = 'Creating RTCConnection without session.';
+                var11 = var13.bind(var1)(var12, var11);
+                var3 = var3[var10];
                 var7 = var7.bind(var1)(var3);
                 var3 = {};
-                var11 = _closure1_slot3;
-                var3['sessionId'] = var11;
+                var10 = _closure1_slot3;
+                var3['sessionId'] = var10;
                 var3['streamKey'] = var4;
-                var3['serverId'] = var10;
-                var3['channelId'] = var9;
-                var9 = _closure1_slot22;
-                var3['initialLayout'] = var9;
+                var3['serverId'] = var9;
+                var3['channelId'] = var8;
+                var8 = _closure1_slot22;
+                var3['initialLayout'] = var8;
                 var3['analyticsContext'] = var5;
-                var5 = _closure1_slot17;
-                var5 = var5[var4];
-                var5 = var8 != var5;
-                var3['isStreamer'] = var5;
                 var8 = _closure1_slot13;
                 var5 = var8.getMediaSessionId;
                 var5 = var5.bind(var8)();
@@ -1155,7 +1170,7 @@ case 87:
                 var5 = _closure1_slot23;
                 var5[var4] = var3;
                 var6 = var3;
-case 76:
+case 79:
                 var3 = _closure1_slot21;
                 var3 = delete var3[var4];
                 var3 = _closure1_slot1;
@@ -1183,15 +1198,15 @@ case 0:
                 var2 = var1.streamKey;
                 var4 = var3[var2];
                 var2 = null;
-                if(!(var2 != var4)) { _fun0023_ip = 89; continue _fun0023 }
-case 90:
+                if(!(var2 != var4)) { _fun0023_ip = 92; continue _fun0023 }
+case 93:
                 var3 = var4.connect;
                 var2 = var1.endpoint;
                 var1 = var1.token;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;
                 return var1;
-case 89:
+case 92:
                 var1 = false;
                 return var1;
             }
@@ -1209,13 +1224,13 @@ case 0:
                 var4 = null;
                 if(!(var4 != var2)) { _fun0024_ip = 35; continue _fun0024 }
 case 40:
-                if(!(var4 != var1)) { _fun0024_ip = 91; continue _fun0024 }
-case 92:
+                if(!(var4 != var1)) { _fun0024_ip = 94; continue _fun0024 }
+case 95:
                 var5 = var2.analyticsContext;
                 var4 = var5.trackViewerCount;
                 var1 = var1.length;
                 var1 = var4.bind(var5)(var1);
-case 91:
+case 94:
                 var1 = var2.streamUpdate;
                 var1 = var1.bind(var2)(var3);
                 var1 = undefined;
@@ -1234,8 +1249,8 @@ case 0:
                 var1 = _closure1_slot23;
                 var6 = var1[var3];
                 var1 = null;
-                if(!(var1 != var6)) { _fun0025_ip = 93; continue _fun0025 }
-case 90:
+                if(!(var1 != var6)) { _fun0025_ip = 96; continue _fun0025 }
+case 93:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 17;
@@ -1256,7 +1271,7 @@ case 90:
                 var2 = _closure1_slot23;
                 var2 = delete var2[var3];
                 return var1;
-case 93:
+case 96:
                 var1 = false;
                 return var1;
             }
@@ -1360,14 +1375,14 @@ case 93:
 case 0:
                     var5 = arg1;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0026_ip = 94; continue _fun0026 }
+                    if(!(var1 != var5)) { _fun0026_ip = 97; continue _fun0026 }
 case 37:
                     var4 = var5.setVideoSize;
                     var3 = _closure2_slot0;
                     var2 = _closure2_slot1;
                     var1 = _closure2_slot2;
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 94:
+case 97:
                     var1 = undefined;
                     return var1;
                 }

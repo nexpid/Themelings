@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NITRO_UNSUBBED'] = var1;
     var1 = 'checkpoint_completed';
     var2['CHECKPOINT_COMPLETED'] = var1;
+    var1 = 'quest_completed';
+    var2['QUEST_COMPLETED'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

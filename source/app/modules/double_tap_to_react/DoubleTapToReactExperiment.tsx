@@ -3,8 +3,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = require;
     var3 = exports;
     var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -28,16 +26,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {'kind': 'user', 'id': '2025-08_double_tap_to_react', 'label': 'Double Tap To React'};
     var5 = {'enabled': false, 'upsellType': null};
     var8['defaultConfig'] = var5;
-    var5 = {'id': 1, 'label': 'Enabled - Show Half Sheet Upsell'};
+    var12 = {'id': 1, 'label': 'Enabled - Show Half Sheet Upsell'};
+    var5 = 1;
     var11 = {};
     var11['enabled'] = var14;
-    var12 = var4.HALF_SHEET;
-    var11['upsellType'] = var12;
-    var5['config'] = var11;
+    var13 = var4.HALF_SHEET;
+    var11['upsellType'] = var13;
+    var12['config'] = var11;
     var11 = new Array(3);
-    var11[0] = var5;
+    var11[0] = var12;
     var12 = {'id': 2, 'label': 'Enabled - Show Toast Upsell'};
-    var5 = 2;
     var13 = {};
     var13['enabled'] = var14;
     var15 = var4.TOAST;
@@ -53,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11[2] = var12;
     var8['treatments'] = var11;
     var8 = var9.bind(var10)(var8);
-    var _closure1_slot2 = var8;
+    var _closure1_slot0 = var8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -61,81 +59,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['DoubleTapToReactUpsellType'] = var4;
     var4 = function useDoubleTapToReactExperiment(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var5 = arg2;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 1;
-            var4 = var4[var3];
-            var3 = undefined;
-            var4 = var6.bind(var3)(var4);
-            var3 = var4.useIsInCPFCHoldout;
-            var6 = var3.bind(var4)(var1);
-            var4 = _closure1_slot2;
-            var3 = var4.useExperiment;
-            var2 = {};
-            var2['location'] = var1;
-            var1 = {};
-            var10 = var1;
-            var9 = var5;
-            var7 = copyDataProperties(var10, var9);
-            if(var6) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var7 = var5.disable;
-            var5 = null;
-            var5 = var5 != var7;
-            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var5 = var7;
-case 4:
-            var6 = var5;
-case 2:
-            var5 = 'disable';
-            var1[var5] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var4 = _closure1_slot0;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['useDoubleTapToReactExperiment'] = var4;
     var2 = function getDoubleTapToReactExperiment(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg1;
-            var5 = arg2;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 1;
-            var4 = var4[var3];
-            var3 = undefined;
-            var4 = var6.bind(var3)(var4);
-            var3 = var4.isInCPFCHoldout;
-            var6 = var3.bind(var4)(var1);
-            var4 = _closure1_slot2;
-            var3 = var4.getCurrentConfig;
-            var2 = {};
-            var2['location'] = var1;
-            var1 = {};
-            var10 = var1;
-            var9 = var5;
-            var7 = copyDataProperties(var10, var9);
-            if(var6) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-            var7 = var5.disable;
-            var5 = null;
-            var5 = var5 != var7;
-            if(!var5) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var5 = var7;
-case 4:
-            var6 = var5;
-case 2:
-            var5 = 'disable';
-            var1[var5] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+        var4 = _closure1_slot0;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['getDoubleTapToReactExperiment'] = var2;
     return var1;

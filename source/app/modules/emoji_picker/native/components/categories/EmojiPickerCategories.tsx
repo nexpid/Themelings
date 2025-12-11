@@ -584,28 +584,28 @@ case 0:
                     var1 = undefined;
                     var10 = undefined;
                     if(var6) { _fun0010_ip = 37; continue _fun0010 }
-case 6:
+case 38:
                     var10 = var9.start;
 case 37:
                     var11 = var8 != var10;
                     var7 = 0;
-                    if(!var11) { _fun0010_ip = 38; continue _fun0010 }
-case 2:
+                    if(!var11) { _fun0010_ip = 39; continue _fun0010 }
+case 40:
                     var7 = var10;
-case 38:
+case 39:
                     var2['start'] = var7;
                     var10 = var8 == var9;
                     var7 = undefined;
-                    if(var10) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
+                    if(var10) { _fun0010_ip = 33; continue _fun0010 }
+case 41:
                     var7 = var9.start;
-case 39:
+case 33:
                     var8 = var8 != var7;
                     var6 = 0;
-                    if(!var8) { _fun0010_ip = 41; continue _fun0010 }
-case 32:
+                    if(!var8) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
                     var6 = var7;
-case 41:
+case 42:
                     var5 = _closure2_slot8;
                     var5 = var5.current;
                     var5 = var6 + var5;
@@ -718,8 +718,8 @@ case 41:
             var8[0] = var11;
             var12 = var9 != var19;
             var11 = null;
-            if(!var12) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
+            if(!var12) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var16 = _closure1_slot9;
             var15 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -734,12 +734,12 @@ case 43:
             var17 = var14.item;
             var12['style'] = var17;
             var11 = var16.bind(var4)(var15, var12);
-case 42:
+case 44:
             var8[1] = var11;
             var11 = var9 != var13;
             var9 = null;
-            if(!var11) { _fun0001_ip = 44; continue _fun0001 }
-case 45:
+            if(!var11) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -753,7 +753,7 @@ case 45:
             var10['iconStyle'] = var14;
             var10['onBackspace'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 44:
+case 46:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

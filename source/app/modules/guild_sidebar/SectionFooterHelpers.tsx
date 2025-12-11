@@ -168,8 +168,8 @@ case 0:
             var2 = var2.id;
             var4 = var4.bind(var5)(var2);
             var2 = true;
-            if(!(var2 === var4)) { _fun0003_ip = 25; continue _fun0003 }
-case 28:
+            if(!(var2 === var4)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var2 = var3.getChannelRecords;
             var3 = var2.bind(var3)();
             var2 = var3.filter;
@@ -182,42 +182,42 @@ case 0:
                     var1 = _closure1_slot5;
                     var1 = var1.VIEW_CHANNEL;
                     var1 = var2.bind(var3)(var1, var4);
-                    if(var1) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+                    if(var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                     var1 = false;
                     return var1;
-case 29:
+case 30:
                     var2 = _closure2_slot0;
                     var1 = var4.id;
                     var2 = var2[var1];
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                    if(!(var1 == var2)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var2 = new Array(0);
-case 31:
+case 32:
                     var5 = var4.id;
                     var1 = _closure2_slot2;
                     var1 = var5 !== var1;
-                    if(!var1) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                    if(!var1) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
                     var4 = var4.id;
                     var3 = _closure2_slot1;
                     var1 = var4 !== var3;
-case 33:
-                    if(!var1) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+case 34:
+                    if(!var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var3 = var2.length;
                     var2 = 0;
                     var1 = var3 > var2;
-case 35:
+case 36:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0003_ip = 35; continue _fun0003;
-case 25:
+            _fun0003_ip = 38; continue _fun0003;
+case 28:
             var1 = new Array(0);
-case 35:
+case 38:
             return var1;
         }
     };

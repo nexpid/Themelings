@@ -419,7 +419,7 @@ case 41:
         var _closure1_slot33 = var4;
         var4 = new Array(0);
         var _closure1_slot34 = var4;
-        var4 = 64;
+        var4 = 63;
         var4 = var6[var4];
         var4 = var7.bind(var1)(var4);
         var2 = function(arg1) {
@@ -1348,15 +1348,6 @@ case 77:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot3;
                     var5 = 30;
-                    var5 = var8[var5];
-                    var5 = var6.bind(var7)(var5);
-                    var9 = var5.prototype;
-                    var9 = Object.create(var9, {constructor: {value: var5}});
-                    var27 = var9;
-                    var5 = new var27[var5](var26);
-                    var5 = var5 instanceof Object ? var5 : var9;
-                    var1['_soundshareStats'] = var5;
-                    var5 = 31;
                     var9 = var8[var5];
                     var11 = var6.bind(var7)(var9);
                     var10 = var11.addOnlineCallback;
@@ -1368,7 +1359,7 @@ case 77:
                     var5 = var1._handleNetworkOffline;
                     var5 = var6.bind(var9)(var5);
                     var6 = _closure1_slot0;
-                    var5 = 32;
+                    var5 = 31;
                     var5 = var8[var5];
                     var6 = var6.bind(var7)(var5);
                     var5 = var6.isDesktop;
@@ -1377,7 +1368,7 @@ case 77:
 case 79:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot3;
-                    var5 = 33;
+                    var5 = 32;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
                     var8 = var5.remotePowerMonitor;
@@ -1454,7 +1445,7 @@ case 80:
                 }
             };
             var5['value'] = var1;
-            var1 = new Array(108);
+            var1 = new Array(106);
             var1[0] = var5;
             var5 = {};
             var7 = 'quality';
@@ -1550,7 +1541,7 @@ case 43:
                     var5 = var3.bind(var8)(var5, var7, var9);
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var3 = 34;
+                    var3 = 33;
                     var3 = var10[var3];
                     var11 = undefined;
                     var9 = var9.bind(var11)(var3);
@@ -1657,7 +1648,7 @@ case 107:
                     var2 = var2.bind(var5)();
                     var3['_rtcConnectionId'] = var2;
                     var5 = _closure1_slot1;
-                    var2 = 35;
+                    var2 = 34;
                     var2 = var7[var2];
                     var6 = var5.bind(var6)(var2);
                     var5 = var6.dispatch;
@@ -1692,7 +1683,7 @@ case 113:
 case 112:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var8 = 36;
+                    var8 = 35;
                     var2 = var7[var8];
                     var6 = undefined;
                     var10 = var5.bind(var6)(var2);
@@ -2033,7 +2024,7 @@ case 0:
                     var1 = var2.bind(var4)(var1);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 31;
+                    var4 = 30;
                     var7 = var6[var4];
                     var1 = undefined;
                     var9 = var5.bind(var1)(var7);
@@ -2046,7 +2037,7 @@ case 0:
                     var4 = var3._handleNetworkOffline;
                     var4 = var5.bind(var7)(var4);
                     var5 = _closure1_slot0;
-                    var4 = 32;
+                    var4 = 31;
                     var4 = var6[var4];
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.isDesktop;
@@ -2173,7 +2164,7 @@ case 0:
                     var4 = this;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 32;
+                    var1 = 31;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -2183,7 +2174,7 @@ case 0:
 case 134:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
-                    var2 = 37;
+                    var2 = 36;
                     var1 = var10[var2];
                     var12 = var9.bind(var3)(var1);
                     var11 = var12.hasFlag;
@@ -2816,7 +2807,7 @@ case 158:
                     var4 = var5.emit;
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var2 = 38;
+                    var2 = 37;
                     var2 = var8[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.RTCConnectionEvent;
@@ -3218,7 +3209,7 @@ case 159:
 case 160:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var1 = 39;
+                    var1 = 38;
                     var1 = var4[var1];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var1);
@@ -3297,7 +3288,7 @@ case 156:
 case 11:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var1 = 40;
+                    var1 = 39;
                     var4 = var4[var1];
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
@@ -3317,7 +3308,7 @@ case 117:
 case 174:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var4 = 41;
+                    var4 = 40;
                     var5 = var5[var4];
                     var4 = undefined;
                     var6 = var6.bind(var4)(var5);
@@ -3334,7 +3325,7 @@ case 176:
 case 175:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var1 = 42;
+                    var1 = 41;
                     var4 = var4[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var4);
@@ -3355,7 +3346,7 @@ case 177:
                     var5 = var6.bind(var2)(var5);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var5 = 43;
+                    var5 = 42;
                     var5 = var7[var5];
                     var10 = var6.bind(var1)(var5);
                     var7 = var10.getCurrentConfig;
@@ -3374,7 +3365,7 @@ case 180:
 case 179:
                     var6 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var5 = 44;
+                    var5 = 43;
                     var5 = var11[var5];
                     var7 = var6.bind(var1)(var5);
                     var6 = var7.getCurrentConfig;
@@ -3382,7 +3373,7 @@ case 179:
                     var5['location'] = var4;
                     var4 = {};
                     var10 = _closure1_slot0;
-                    var9 = 32;
+                    var9 = 31;
                     var9 = var11[var9];
                     var10 = var10.bind(var1)(var9);
                     var9 = var10.isWindows;
@@ -3689,30 +3680,30 @@ case 144:
                             var2 = var1.VIDEO_STREAM_ENDED;
                             var1 = {};
                             var5 = _closure3_slot0;
-                            var12 = var5._getAnalyticsProperties;
-                            var16 = var12.bind(var5)();
+                            var11 = var5._getAnalyticsProperties;
+                            var16 = var11.bind(var5)();
                             var17 = var1;
-                            var12 = copyDataProperties(var17, var16);
-                            var12 = 45;
-                            var12 = var8[var12];
-                            var13 = var7.bind(var6)(var12);
-                            var12 = var13.getAppHardwareAccelerationEnabled;
-                            var13 = var12.bind(var13)();
-                            var12 = 'app_hardware_acceleration_enabled';
-                            var1[var12] = var13;
-                            var12 = var5.getMediaSessionId;
-                            var13 = var12.bind(var5)();
-                            var12 = 'media_session_id';
-                            var1[var12] = var13;
+                            var11 = copyDataProperties(var17, var16);
+                            var11 = 44;
+                            var11 = var8[var11];
+                            var13 = var7.bind(var6)(var11);
+                            var11 = var13.getAppHardwareAccelerationEnabled;
+                            var13 = var11.bind(var13)();
+                            var11 = 'app_hardware_acceleration_enabled';
+                            var1[var11] = var13;
+                            var11 = var5.getMediaSessionId;
+                            var13 = var11.bind(var5)();
+                            var11 = 'media_session_id';
+                            var1[var11] = var13;
                             var13 = var5.userId;
-                            var12 = 'sender_user_id';
-                            var1[var12] = var13;
+                            var11 = 'sender_user_id';
+                            var1[var11] = var13;
                             var13 = _closure3_slot1;
-                            var12 = 'reason';
-                            var1[var12] = var13;
-                            var12 = 'sender';
+                            var11 = 'reason';
+                            var1[var11] = var13;
+                            var11 = 'sender';
                             var13 = 'participant_type';
-                            var1[var13] = var12;
+                            var1[var13] = var11;
                             var15 = _closure1_slot18;
                             var14 = var15.getRegion;
                             var13 = var5.hostname;
@@ -3723,30 +3714,25 @@ case 144:
                             var13 = 'hostname';
                             var1[var13] = var14;
                             var13 = _closure1_slot15;
-                            var11 = var13.getHardwareEncoding;
-                            var13 = var11.bind(var13)();
-                            var11 = 'hardware_enabled';
-                            var1[var11] = var13;
+                            var12 = var13.getHardwareEncoding;
+                            var13 = var12.bind(var13)();
+                            var12 = 'hardware_enabled';
+                            var1[var12] = var13;
                             var17 = var1;
                             var16 = var10;
                             var10 = copyDataProperties(var17, var16);
-                            var11 = _closure3_slot3;
-                            var10 = var11.getNetworkStats;
-                            var16 = var10.bind(var11)();
+                            var12 = _closure3_slot3;
+                            var10 = var12.getNetworkStats;
+                            var16 = var10.bind(var12)();
                             var17 = var1;
                             var10 = copyDataProperties(var17, var16);
-                            var11 = _closure3_slot3;
-                            var10 = var11.getCodecUsageStats;
-                            var9 = var5.userId;
-                            var16 = var10.bind(var11)(var12, var9);
-                            var17 = var1;
-                            var9 = copyDataProperties(var17, var16);
-                            var9 = var5._soundshareStats;
-                            var5 = var9.getStats;
-                            var16 = var5.bind(var9)();
+                            var10 = _closure3_slot3;
+                            var9 = var10.getCodecUsageStats;
+                            var5 = var5.userId;
+                            var16 = var9.bind(var10)(var11, var5);
                             var17 = var1;
                             var5 = copyDataProperties(var17, var16);
-                            var5 = 46;
+                            var5 = 45;
                             var5 = var8[var5];
                             var5 = var7.bind(var6)(var5);
                             var6 = var5.bind(var6)();
@@ -3830,7 +3816,7 @@ case 7:
                             var15 = var8.bind(var11)();
                             var16 = var2;
                             var8 = copyDataProperties(var16, var15);
-                            var8 = 45;
+                            var8 = 44;
                             var8 = var13[var8];
                             var12 = var12.bind(var1)(var8);
                             var8 = var12.getAppHardwareAccelerationEnabled;
@@ -4280,7 +4266,7 @@ case 238:
                     var3[var8] = var10;
                     var10 = _closure1_slot1;
                     var12 = _closure1_slot3;
-                    var8 = 46;
+                    var8 = 45;
                     var8 = var12[var8];
                     var8 = var10.bind(var13)(var8);
                     var10 = var8.bind(var13)();
@@ -4423,7 +4409,7 @@ case 83:
                     var3[0] = var9;
                     var12 = _closure1_slot1;
                     var14 = _closure1_slot3;
-                    var9 = 47;
+                    var9 = 46;
                     var9 = var14[var9];
                     var12 = var12.bind(var13)(var9);
                     var9 = var12.getKrispModel;
@@ -4877,7 +4863,7 @@ case 279:
 case 282:
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot3;
-                    var5 = 48;
+                    var5 = 47;
                     var5 = var10[var5];
                     var10 = var7.bind(var1)(var5);
                     var7 = var10.getVideoCaptureDeviceForEncodeConfig;
@@ -4899,7 +4885,7 @@ case 283:
                     var11 = var2.on;
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var4 = 49;
+                    var4 = 48;
                     var9 = var7[var4];
                     var9 = var5.bind(var1)(var9);
                     var9 = var9.BaseConnectionEvent;
@@ -4922,7 +4908,7 @@ case 204:
                             var3 = var4.emit;
                             var7 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 38;
+                            var1 = 37;
                             var2 = var2[var1];
                             var1 = undefined;
                             var2 = var7.bind(var1)(var2);
@@ -4949,7 +4935,7 @@ case 0:
 case 165:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 50;
+                            var1 = 49;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -4980,7 +4966,7 @@ case 0:
 case 165:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 51;
+                            var1 = 50;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -5070,7 +5056,7 @@ case 163:
                                     var8 = var9.emit;
                                     var4 = _closure1_slot0;
                                     var3 = _closure1_slot3;
-                                    var2 = 38;
+                                    var2 = 37;
                                     var3 = var3[var2];
                                     var2 = undefined;
                                     var2 = var4.bind(var2)(var3);
@@ -5119,7 +5105,7 @@ case 34:
                             var10 = var11.emit;
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot3;
-                            var2 = 38;
+                            var2 = 37;
                             var5 = var5[var2];
                             var2 = undefined;
                             var2 = var6.bind(var2)(var5);
@@ -5144,7 +5130,7 @@ case 292:
                             var5 = var6.emit;
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 38;
+                            var1 = 37;
                             var2 = var2[var1];
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
@@ -5220,7 +5206,7 @@ case 293:
                             var2 = _closure3_slot0;
                             var8 = _closure1_slot1;
                             var9 = _closure1_slot3;
-                            var5 = 52;
+                            var5 = 51;
                             var12 = var9[var5];
                             var10 = undefined;
                             var14 = var8.bind(var10)(var12);
@@ -5244,7 +5230,7 @@ case 293:
                             var5 = function(arg1) {
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot3;
-                                var1 = 35;
+                                var1 = 34;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var4 = var3.bind(var1)(var2);
@@ -5265,7 +5251,7 @@ case 293:
                             var11 = 300000;
                             var11 = var13.bind(var10)(var12, var11);
                             var2['_voiceQualityPeriodicStatsInterval'] = var11;
-                            var11 = 53;
+                            var11 = 52;
                             var11 = var9[var11];
                             var13 = var8.bind(var10)(var11);
                             var18 = _closure3_slot4;
@@ -5278,7 +5264,7 @@ case 293:
                             var12 = var2._systemResponsiveness;
                             var11 = var12.start;
                             var11 = var11.bind(var12)();
-                            var11 = 54;
+                            var11 = 53;
                             var11 = var9[var11];
                             var11 = var8.bind(var10)(var11);
                             var12 = var11.prototype;
@@ -5291,7 +5277,7 @@ case 293:
                             var11 = var12.setLastBattery;
                             var11 = var11.bind(var12)();
                             var2['_noiseCancellationError'] = var5;
-                            var5 = 55;
+                            var5 = 54;
                             var5 = var9[var5];
                             var11 = var8.bind(var10)(var5);
                             var18 = var2.userId;
@@ -5338,7 +5324,7 @@ case 297:
                             var11 = var8.once;
                             var5 = _closure1_slot0;
                             var12 = _closure1_slot3;
-                            var2 = 36;
+                            var2 = 35;
                             var2 = var12[var2];
                             var2 = var5.bind(var10)(var2);
                             var2 = var2.SocketEvent;
@@ -5363,7 +5349,7 @@ case 295:
                             var8 = var5.once;
                             var9 = _closure1_slot0;
                             var11 = _closure1_slot3;
-                            var4 = 36;
+                            var4 = 35;
                             var4 = var11[var4];
                             var4 = var9.bind(var10)(var4);
                             var4 = var4.SocketEvent;
@@ -5982,7 +5968,7 @@ case 301:
                         var3 = var4.emit;
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 38;
+                        var1 = 37;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var5.bind(var1)(var2);
@@ -6023,15 +6009,6 @@ case 301:
                     var9 = var7[var4];
                     var9 = var5.bind(var1)(var9);
                     var9 = var9.BaseConnectionEvent;
-                    var10 = var9.SoundshareTrace;
-                    var12 = var3._handleSoundshareTrace;
-                    var9 = var12.bind;
-                    var9 = var9.bind(var12)(var3);
-                    var9 = var11.bind(var2)(var10, var9);
-                    var11 = var2.on;
-                    var9 = var7[var4];
-                    var9 = var5.bind(var1)(var9);
-                    var9 = var9.BaseConnectionEvent;
                     var10 = var9.LocalVideoDisabled;
                     var12 = var3._handleLocalVideoDisabled;
                     var9 = var12.bind;
@@ -6043,7 +6020,7 @@ case 301:
                     var9 = var9.BaseConnectionEvent;
                     var9 = var9.Stats;
                     var11 = _closure1_slot1;
-                    var8 = 56;
+                    var8 = 55;
                     var8 = var7[var8];
                     var11 = var11.bind(var1)(var8);
                     var8 = var11.create;
@@ -6147,7 +6124,7 @@ case 169:
                 var5 = var6.emit;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var1 = 38;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -6168,7 +6145,7 @@ case 169:
                 var6 = var7.emit;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var1 = 38;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -6192,7 +6169,7 @@ case 169:
                 var5 = var6.emit;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var1 = 38;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -6228,7 +6205,7 @@ case 145:
 case 352:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var8 = 57;
+                    var8 = 56;
                     var9 = var4[var8];
                     var7 = undefined;
                     var9 = var6.bind(var7)(var9);
@@ -6248,7 +6225,7 @@ case 352:
                     var10 = var1._videoQuality;
                     var9 = var10.start;
                     var9 = var9.bind(var10)();
-                    var13 = 58;
+                    var13 = 57;
                     var4 = var4[var13];
                     var4 = var6.bind(var7)(var4);
                     var4 = var4.VideoHealthManager;
@@ -6342,7 +6319,7 @@ case 0:
                     var12 = var2.emit;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 38;
+                    var1 = 37;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var7.bind(var1)(var3);
@@ -6698,7 +6675,7 @@ case 163:
                             var8 = var9.emit;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot3;
-                            var3 = 38;
+                            var3 = 37;
                             var4 = var4[var3];
                             var3 = undefined;
                             var3 = var5.bind(var3)(var4);
@@ -6792,7 +6769,7 @@ case 357:
                     var5 = var6.emit;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var2 = 38;
+                    var2 = 37;
                     var2 = var4[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.RTCConnectionEvent;
@@ -6869,7 +6846,7 @@ case 383:
                 var3 = var4.emit;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var1 = 38;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var6.bind(var1)(var2);
@@ -6880,20 +6857,6 @@ case 383:
             };
             var5['value'] = var7;
             var1[69] = var5;
-            var5 = {};
-            var7 = '_handleSoundshareTrace';
-            var5['key'] = var7;
-            var7 = function value(arg1) {
-                var1 = this;
-                var4 = var1._soundshareStats;
-                var3 = var4.traceEvent;
-                var1 = undefined;
-                var2 = arg1;
-                var2 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
-            var5['value'] = var7;
-            var1[70] = var5;
             var5 = {};
             var7 = '_getAnalyticsProperties';
             var5['key'] = var7;
@@ -6931,7 +6894,7 @@ case 69:
                 }
             };
             var5['value'] = var7;
-            var1[71] = var5;
+            var1[70] = var5;
             var5 = {};
             var7 = '_handleClientConnect';
             var5['key'] = var7;
@@ -6966,7 +6929,7 @@ case 372:
                     var4 = var2.emit;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 38;
+                    var1 = 37;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var6.bind(var1)(var3);
@@ -7000,7 +6963,7 @@ case 385:
                 }
             };
             var5['value'] = var7;
-            var1[72] = var5;
+            var1[71] = var5;
             var5 = {};
             var7 = '_handleClientDisconnect';
             var5['key'] = var7;
@@ -7051,7 +7014,7 @@ case 387:
                     var15 = var10.bind(var3)();
                     var16 = var1;
                     var10 = copyDataProperties(var16, var15);
-                    var10 = 45;
+                    var10 = 44;
                     var10 = var14[var10];
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getAppHardwareAccelerationEnabled;
@@ -7122,7 +7085,7 @@ case 390:
                     var6 = var3.emit;
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var1 = 38;
+                    var1 = 37;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var8.bind(var1)(var5);
@@ -7169,7 +7132,7 @@ case 397:
                 }
             };
             var5['value'] = var7;
-            var1[73] = var5;
+            var1[72] = var5;
             var5 = {};
             var7 = '_handleCodecs';
             var5['key'] = var7;
@@ -7218,7 +7181,7 @@ case 106:
                 }
             };
             var5['value'] = var7;
-            var1[74] = var5;
+            var1[73] = var5;
             var5 = {};
             var7 = '_handleSDP';
             var5['key'] = var7;
@@ -7249,7 +7212,7 @@ case 285:
                 }
             };
             var5['value'] = var7;
-            var1[75] = var5;
+            var1[74] = var5;
             var5 = {};
             var7 = '_handleMediaSessionId';
             var5['key'] = var7;
@@ -7270,7 +7233,7 @@ case 285:
                 var1 = var2.bind(var3)(var1);
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var1 = 59;
+                var1 = 58;
                 var6 = var4[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var6);
@@ -7297,7 +7260,7 @@ case 285:
                 var9 = 'raw_thermal_state';
                 var2[var9] = var10;
                 var2 = var7.bind(var8)(var6, var2);
-                var2 = 35;
+                var2 = 34;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.dispatch;
@@ -7313,7 +7276,7 @@ case 285:
                 return var1;
             };
             var5['value'] = var7;
-            var1[76] = var5;
+            var1[75] = var5;
             var5 = {};
             var7 = '_handleMediaSinkWants';
             var5['key'] = var7;
@@ -7337,7 +7300,7 @@ case 0:
                     var7['_remoteVideoSinkWants'] = var4;
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 35;
+                    var1 = 34;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var5.bind(var1)(var2);
@@ -7365,7 +7328,7 @@ case 98:
                 }
             };
             var5['value'] = var7;
-            var1[77] = var5;
+            var1[76] = var5;
             var5 = {};
             var7 = '_handleCodeVersion';
             var5['key'] = var7;
@@ -7379,7 +7342,7 @@ case 98:
                 return var1;
             };
             var5['value'] = var7;
-            var1[78] = var5;
+            var1[77] = var5;
             var5 = {};
             var7 = '_handleKeyframeInterval';
             var5['key'] = var7;
@@ -7410,7 +7373,7 @@ case 285:
                 }
             };
             var5['value'] = var7;
-            var1[79] = var5;
+            var1[78] = var5;
             var5 = {};
             var7 = '_handleBandwidthEstimationExperiment';
             var5['key'] = var7;
@@ -7422,7 +7385,7 @@ case 0:
                     var3['_bandwidthEstimationExperiment'] = var5;
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 60;
+                    var1 = 59;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var2);
@@ -7448,7 +7411,7 @@ case 400:
                 }
             };
             var5['value'] = var7;
-            var1[80] = var5;
+            var1[79] = var5;
             var5 = {};
             var7 = '_trackSecureFrameTransition';
             var5['key'] = var7;
@@ -7643,7 +7606,7 @@ case 402:
                 }
             };
             var5['value'] = var7;
-            var1[81] = var5;
+            var1[80] = var5;
             var5 = {};
             var7 = '_trackRemainingSecureFrameTransitions';
             var5['key'] = var7;
@@ -7668,7 +7631,7 @@ case 402:
                 return var1;
             };
             var5['value'] = var7;
-            var1[82] = var5;
+            var1[81] = var5;
             var5 = {};
             var7 = '_storeSecureFrameNextTransitionData';
             var5['key'] = var7;
@@ -7704,7 +7667,7 @@ case 61:
                 }
             };
             var5['value'] = var7;
-            var1[83] = var5;
+            var1[82] = var5;
             var5 = {};
             var7 = '_storeSecureFrameTransitionData';
             var5['key'] = var7;
@@ -7748,7 +7711,7 @@ case 5:
                 }
             };
             var5['value'] = var7;
-            var1[84] = var5;
+            var1[83] = var5;
             var5 = {};
             var7 = '_handleSecureFramesInit';
             var5['key'] = var7;
@@ -7882,7 +7845,7 @@ case 405:
                 }
             };
             var5['value'] = var7;
-            var1[85] = var5;
+            var1[84] = var5;
             var5 = {};
             var7 = '_handleSecureFramesRosterChange';
             var5['key'] = var7;
@@ -7977,7 +7940,7 @@ case 14:
                 var3 = var5.emit;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot3;
-                var1 = 38;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var6.bind(var1)(var2);
@@ -7987,7 +7950,7 @@ case 14:
                 return var1;
             };
             var5['value'] = var7;
-            var1[86] = var5;
+            var1[85] = var5;
             var5 = {};
             var7 = '_handleSecureFramesPrepareTransition';
             var5['key'] = var7;
@@ -8062,7 +8025,7 @@ case 411:
                 }
             };
             var5['value'] = var7;
-            var1[87] = var5;
+            var1[86] = var5;
             var5 = {};
             var7 = '_handleSecureFramesPrepareEpoch';
             var5['key'] = var7;
@@ -8117,7 +8080,7 @@ case 412:
                 }
             };
             var5['value'] = var7;
-            var1[88] = var5;
+            var1[87] = var5;
             var5 = {};
             var7 = '_sendMLSKeyPackage';
             var5['key'] = var7;
@@ -8158,7 +8121,7 @@ case 352:
                 }
             };
             var5['value'] = var7;
-            var1[89] = var5;
+            var1[88] = var5;
             var5 = {};
             var7 = '_maybeSendSecureFramesTransitionReady';
             var5['key'] = var7;
@@ -8203,7 +8166,7 @@ case 80:
                 }
             };
             var5['value'] = var7;
-            var1[90] = var5;
+            var1[89] = var5;
             var5 = {};
             var7 = '_handleSecureFramesExecuteTransition';
             var5['key'] = var7;
@@ -8278,7 +8241,7 @@ case 139:
                 }
             };
             var5['value'] = var7;
-            var1[91] = var5;
+            var1[90] = var5;
             var5 = {};
             var7 = '_handleMLSExternalSenderPackage';
             var5['key'] = var7;
@@ -8303,7 +8266,7 @@ case 70:
                 }
             };
             var5['value'] = var7;
-            var1[92] = var5;
+            var1[91] = var5;
             var5 = {};
             var7 = '_handleMLSProposals';
             var5['key'] = var7;
@@ -8399,7 +8362,7 @@ case 39:
                 }
             };
             var5['value'] = var7;
-            var1[93] = var5;
+            var1[92] = var5;
             var5 = {};
             var7 = '_handleMLSPrepareCommitTransition';
             var5['key'] = var7;
@@ -8509,7 +8472,7 @@ case 250:
                 }
             };
             var5['value'] = var7;
-            var1[94] = var5;
+            var1[93] = var5;
             var5 = {};
             var7 = '_handleMLSWelcome';
             var5['key'] = var7;
@@ -8611,7 +8574,7 @@ case 250:
                 }
             };
             var5['value'] = var7;
-            var1[95] = var5;
+            var1[94] = var5;
             var5 = {};
             var7 = 'getMLSPairwiseFingerprint';
             var5['key'] = var7;
@@ -8634,7 +8597,7 @@ case 352:
                 }
             };
             var5['value'] = var7;
-            var1[96] = var5;
+            var1[95] = var5;
             var5 = {};
             var7 = '_flagMLSInvalidCommitWelcome';
             var5['key'] = var7;
@@ -8663,7 +8626,7 @@ case 285:
                 }
             };
             var5['value'] = var7;
-            var1[97] = var5;
+            var1[96] = var5;
             var5 = {};
             var7 = '_handleMLSFailure';
             var5['key'] = var7;
@@ -8734,13 +8697,13 @@ case 421:
 case 420:
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var2 = 61;
+                    var2 = 60;
                     var2 = var9[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.show;
                     var2 = {};
                     var8 = _closure1_slot0;
-                    var5 = 62;
+                    var5 = 61;
                     var6 = var9[var5];
                     var6 = var8.bind(var1)(var6);
                     var10 = var6.intl;
@@ -8767,7 +8730,7 @@ case 422:
                 }
             };
             var5['value'] = var7;
-            var1[98] = var5;
+            var1[97] = var5;
             var5 = {};
             var7 = '_trackMLSFailures';
             var5['key'] = var7;
@@ -8873,7 +8836,7 @@ case 314:
                 }
             };
             var5['value'] = var7;
-            var1[99] = var5;
+            var1[98] = var5;
             var5 = {};
             var7 = '_alertMLSFailure';
             var5['key'] = var7;
@@ -8904,7 +8867,7 @@ case 417:
 case 7:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 61;
+                    var1 = 60;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -8931,7 +8894,7 @@ case 14:
                 }
             };
             var5['value'] = var7;
-            var1[100] = var5;
+            var1[99] = var5;
             var5 = {};
             var7 = 'getExtraConnectionOptions';
             var5['key'] = var7;
@@ -8940,7 +8903,7 @@ case 14:
                 return var1;
             };
             var5['value'] = var7;
-            var1[101] = var5;
+            var1[100] = var5;
             var5 = {};
             var7 = 'shouldReportPeriodicStats';
             var5['key'] = var7;
@@ -8961,7 +8924,7 @@ case 143:
 case 352:
                     var5 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var2 = 63;
+                    var2 = 62;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -8979,7 +8942,7 @@ case 423:
                 }
             };
             var5['value'] = var7;
-            var1[102] = var5;
+            var1[101] = var5;
             var5 = {};
             var7 = 'getInputDeviceName';
             var5['key'] = var7;
@@ -9003,7 +8966,7 @@ case 58:
                 }
             };
             var5['value'] = var7;
-            var1[103] = var5;
+            var1[102] = var5;
             var5 = {};
             var7 = 'getOutputDeviceName';
             var5['key'] = var7;
@@ -9027,7 +8990,7 @@ case 58:
                 }
             };
             var5['value'] = var7;
-            var1[104] = var5;
+            var1[103] = var5;
             var5 = {};
             var7 = 'getVideoDeviceName';
             var5['key'] = var7;
@@ -9051,11 +9014,11 @@ case 58:
                 }
             };
             var5['value'] = var7;
-            var1[105] = var5;
+            var1[104] = var5;
             var5 = {};
             var7 = 'getInputDeviceSampleRate';
             var5['key'] = var7;
-            var7 = function value() {
+            var6 = function value() {
                 _fun0122: for(var _fun0122_ip = 0; ; ) switch(_fun0122_ip) {
 case 0:
                     var1 = this;
@@ -9078,24 +9041,13 @@ case 371:
                     return var1;
                 }
             };
-            var5['value'] = var7;
-            var1[106] = var5;
-            var5 = {};
-            var7 = 'getGoLiveSource';
-            var5['key'] = var7;
-            var6 = function value() {
-                var2 = _closure1_slot15;
-                var1 = var2.getGoLiveSource;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
             var5['value'] = var6;
-            var1[107] = var5;
+            var1[105] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
         var2 = var2.bind(var1)(var4);
-        var4 = 65;
+        var4 = 64;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

@@ -690,284 +690,285 @@ case 70:
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = arg1;
-                    var16 = var1.channel;
-                    var12 = var1.parentChannel;
-                    var11 = var1.guildId;
-                    var _closure3_slot0 = var11;
+                    var17 = var1.channel;
+                    var13 = var1.parentChannel;
+                    var5 = var1.guildId;
+                    var _closure3_slot0 = var5;
                     var6 = var1.disableArrow;
-                    var3 = var1.disableGuildMemberCount;
+                    var7 = var1.disableGuildMemberCount;
                     var2 = var1.showCreateThread;
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var14 = 15;
-                    var4 = var4[var14];
-                    var7 = undefined;
-                    var10 = var5.bind(var7)(var4);
-                    var9 = var10.useStateFromStores;
+                    var8 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var15 = 15;
+                    var4 = var3[var15];
+                    var3 = undefined;
+                    var11 = var8.bind(var3)(var4);
+                    var10 = var11.useStateFromStores;
                     var4 = _closure1_slot7;
-                    var5 = new Array(1);
-                    var5[0] = var4;
+                    var8 = new Array(1);
+                    var8[0] = var4;
                     var4 = function() {
                         var2 = _closure1_slot7;
                         var1 = var2.isConnected;
                         var1 = var1.bind(var2)();
                         return var1;
                     };
-                    var13 = var9.bind(var10)(var5, var4);
-                    var10 = null;
-                    if(!(var10 == var16)) { _fun0009_ip = 72; continue _fun0009 }
+                    var14 = var10.bind(var11)(var8, var4);
+                    var11 = null;
+                    if(!(var11 == var17)) { _fun0009_ip = 72; continue _fun0009 }
 case 73:
-                    var15 = _closure1_slot0;
-                    var17 = _closure1_slot2;
+                    var12 = _closure1_slot0;
+                    var16 = _closure1_slot2;
                     var4 = 18;
-                    var5 = var17[var4];
-                    var5 = var15.bind(var7)(var5);
-                    var9 = var5.intl;
-                    var5 = var9.string;
-                    var4 = var17[var4];
-                    var4 = var15.bind(var7)(var4);
+                    var8 = var16[var4];
+                    var8 = var12.bind(var3)(var8);
+                    var10 = var8.intl;
+                    var8 = var10.string;
+                    var4 = var16[var4];
+                    var4 = var12.bind(var3)(var4);
                     var4 = var4.t;
                     var4 = var4.ai6Lbr;
-                    var17 = var5.bind(var9)(var4);
+                    var18 = var8.bind(var10)(var4);
                     _fun0009_ip = 57; continue _fun0009;
 case 72:
-                    var5 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot2;
                     var4 = 17;
-                    var4 = var9[var4];
-                    var15 = var5.bind(var7)(var4);
-                    var9 = var15.computeChannelName;
-                    var5 = _closure1_slot14;
+                    var4 = var10[var4];
+                    var12 = var8.bind(var3)(var4);
+                    var10 = var12.computeChannelName;
+                    var8 = _closure1_slot14;
                     var4 = _closure1_slot13;
-                    var17 = var9.bind(var15)(var16, var5, var4);
+                    var18 = var10.bind(var12)(var17, var8, var4);
 case 57:
-                    var5 = _closure1_slot0;
-                    var15 = _closure1_slot2;
-                    var19 = 18;
-                    var4 = var15[var19];
-                    var4 = var5.bind(var7)(var4);
-                    var20 = var4.intl;
-                    var18 = var20.formatToPlainString;
-                    var4 = var15[var19];
-                    var4 = var5.bind(var7)(var4);
+                    var8 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var20 = 18;
+                    var4 = var12[var20];
+                    var4 = var8.bind(var3)(var4);
+                    var19 = var4.intl;
+                    var16 = var19.formatToPlainString;
+                    var4 = var12[var20];
+                    var4 = var8.bind(var3)(var4);
                     var4 = var4.t;
-                    var9 = var4.UbNmGc;
+                    var10 = var4.UbNmGc;
                     var4 = {};
-                    var4['channelName'] = var17;
-                    var9 = var18.bind(var20)(var9, var4);
+                    var4['channelName'] = var18;
+                    var10 = var16.bind(var19)(var10, var4);
                     var4 = 19;
-                    var4 = var15[var4];
-                    var5 = var5.bind(var7)(var4);
-                    var4 = var5.shouldNSFWGateGuild;
-                    var4 = var4.bind(var5)(var11);
+                    var4 = var12[var4];
+                    var8 = var8.bind(var3)(var4);
+                    var4 = var8.shouldNSFWGateGuild;
+                    var4 = var4.bind(var8)(var5);
                     if(var4) { _fun0009_ip = 74; continue _fun0009 }
 case 75:
                     if(var2) { _fun0009_ip = 76; continue _fun0009 }
 case 77:
-                    if(!(var10 != var16)) { _fun0009_ip = 78; continue _fun0009 }
+                    if(!(var11 != var17)) { _fun0009_ip = 78; continue _fun0009 }
 case 79:
-                    var4 = var16.isThread;
-                    var15 = var4.bind(var16)();
-                    var11 = undefined;
-                    var5 = var17;
-                    var4 = var9;
-                    if(!var15) { _fun0009_ip = 80; continue _fun0009 }
+                    var4 = var17.isThread;
+                    var16 = var4.bind(var17)();
+                    var12 = undefined;
+                    var4 = var18;
+                    var8 = var10;
+                    if(!var16) { _fun0009_ip = 80; continue _fun0009 }
 case 81:
-                    var18 = _closure1_slot0;
-                    var15 = _closure1_slot2;
-                    var20 = var15[var19];
-                    var20 = var18.bind(var7)(var20);
-                    var21 = var20.intl;
-                    var20 = var21.formatToPlainString;
-                    var15 = var15[var19];
-                    var15 = var18.bind(var7)(var15);
-                    var15 = var15.t;
-                    var18 = var15.OkzL+Q;
-                    var15 = {};
-                    var15['channelName'] = var17;
-                    var15 = var20.bind(var21)(var18, var15);
-                    var20 = var10 != var12;
-                    var18 = undefined;
-                    if(!var20) { _fun0009_ip = 82; continue _fun0009 }
+                    var19 = _closure1_slot0;
+                    var16 = _closure1_slot2;
+                    var21 = var16[var20];
+                    var21 = var19.bind(var3)(var21);
+                    var22 = var21.intl;
+                    var21 = var22.formatToPlainString;
+                    var16 = var16[var20];
+                    var16 = var19.bind(var3)(var16);
+                    var16 = var16.t;
+                    var19 = var16.OkzL+Q;
+                    var16 = {};
+                    var16['channelName'] = var18;
+                    var16 = var21.bind(var22)(var19, var16);
+                    var21 = var11 != var13;
+                    var19 = undefined;
+                    if(!var21) { _fun0009_ip = 82; continue _fun0009 }
 case 83:
-                    var21 = _closure1_slot0;
-                    var22 = _closure1_slot2;
-                    var20 = 16;
-                    var20 = var22[var20];
-                    var21 = var21.bind(var7)(var20);
-                    var20 = var21.renderParentChannelSubTitle;
-                    var18 = var20.bind(var21)(var12);
+                    var22 = _closure1_slot0;
+                    var23 = _closure1_slot2;
+                    var21 = 16;
+                    var21 = var23[var21];
+                    var22 = var22.bind(var3)(var21);
+                    var21 = var22.renderParentChannelSubTitle;
+                    var19 = var21.bind(var22)(var13);
 case 82:
-                    var11 = var18;
-                    var5 = var17;
-                    var4 = var15;
+                    var12 = var19;
+                    var4 = var18;
+                    var8 = var16;
                     _fun0009_ip = 80; continue _fun0009;
 case 78:
-                    var20 = _closure1_slot0;
-                    var15 = _closure1_slot2;
-                    var17 = var15[var19];
-                    var17 = var20.bind(var7)(var17);
-                    var18 = var17.intl;
-                    var17 = var18.string;
-                    var15 = var15[var19];
-                    var15 = var20.bind(var7)(var15);
-                    var15 = var15.t;
-                    if(var13) { _fun0009_ip = 84; continue _fun0009 }
+                    var21 = _closure1_slot0;
+                    var16 = _closure1_slot2;
+                    var18 = var16[var20];
+                    var18 = var21.bind(var3)(var18);
+                    var19 = var18.intl;
+                    var18 = var19.string;
+                    var16 = var16[var20];
+                    var16 = var21.bind(var3)(var16);
+                    var16 = var16.t;
+                    if(var14) { _fun0009_ip = 84; continue _fun0009 }
 case 85:
-                    var13 = var15.ZTNur7;
-                    var13 = var17.bind(var18)(var13);
+                    var14 = var16.ZTNur7;
+                    var14 = var18.bind(var19)(var14);
                     _fun0009_ip = 86; continue _fun0009;
 case 84:
-                    var15 = var15.ai6Lbr;
-                    var13 = var17.bind(var18)(var15);
+                    var16 = var16.ai6Lbr;
+                    var14 = var18.bind(var19)(var16);
 case 86:
-                    var5 = var13;
-                    var11 = undefined;
-                    var4 = var9;
+                    var4 = var14;
+                    var12 = undefined;
+                    var8 = var10;
                     _fun0009_ip = 80; continue _fun0009;
 case 76:
-                    var17 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var15 = var13[var19];
-                    var15 = var17.bind(var7)(var15);
-                    var20 = var15.intl;
-                    var18 = var20.string;
-                    var15 = var13[var19];
-                    var15 = var17.bind(var7)(var15);
-                    var15 = var15.t;
-                    var15 = var15.4WNcpu;
-                    var15 = var18.bind(var20)(var15);
-                    var18 = var13[var19];
-                    var18 = var17.bind(var7)(var18);
-                    var20 = var18.intl;
-                    var18 = var20.formatToPlainString;
-                    var13 = var13[var19];
-                    var13 = var17.bind(var7)(var13);
-                    var13 = var13.t;
-                    var17 = var13.OkzL+Q;
-                    var13 = {};
-                    var13['channelName'] = var15;
-                    var13 = var18.bind(var20)(var17, var13);
-                    var17 = var10 != var12;
-                    var11 = undefined;
-                    var5 = var15;
-                    var4 = var13;
-                    if(!var17) { _fun0009_ip = 80; continue _fun0009 }
-case 87:
                     var18 = _closure1_slot0;
-                    var20 = _closure1_slot2;
-                    var17 = 16;
-                    var17 = var20[var17];
-                    var18 = var18.bind(var7)(var17);
-                    var17 = var18.renderParentChannelSubTitle;
-                    var11 = var17.bind(var18)(var12);
-                    var5 = var15;
-                    var4 = var13;
+                    var14 = _closure1_slot2;
+                    var16 = var14[var20];
+                    var16 = var18.bind(var3)(var16);
+                    var21 = var16.intl;
+                    var19 = var21.string;
+                    var16 = var14[var20];
+                    var16 = var18.bind(var3)(var16);
+                    var16 = var16.t;
+                    var16 = var16.4WNcpu;
+                    var16 = var19.bind(var21)(var16);
+                    var19 = var14[var20];
+                    var19 = var18.bind(var3)(var19);
+                    var21 = var19.intl;
+                    var19 = var21.formatToPlainString;
+                    var14 = var14[var20];
+                    var14 = var18.bind(var3)(var14);
+                    var14 = var14.t;
+                    var18 = var14.OkzL+Q;
+                    var14 = {};
+                    var14['channelName'] = var16;
+                    var14 = var19.bind(var21)(var18, var14);
+                    var18 = var11 != var13;
+                    var12 = undefined;
+                    var4 = var16;
+                    var8 = var14;
+                    if(!var18) { _fun0009_ip = 80; continue _fun0009 }
+case 87:
+                    var19 = _closure1_slot0;
+                    var21 = _closure1_slot2;
+                    var18 = 16;
+                    var18 = var21[var18];
+                    var19 = var19.bind(var3)(var18);
+                    var18 = var19.renderParentChannelSubTitle;
+                    var12 = var18.bind(var19)(var13);
+                    var4 = var16;
+                    var8 = var14;
                     _fun0009_ip = 80; continue _fun0009;
 case 74:
-                    var18 = _closure1_slot0;
-                    var13 = _closure1_slot2;
-                    var15 = var13[var19];
-                    var15 = var18.bind(var7)(var15);
-                    var17 = var15.intl;
-                    var15 = var17.string;
-                    var13 = var13[var19];
-                    var13 = var18.bind(var7)(var13);
-                    var13 = var13.t;
-                    var13 = var13.HbPHt1;
-                    var5 = var15.bind(var17)(var13);
-                    var11 = undefined;
-                    var4 = var9;
+                    var19 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var16 = var14[var20];
+                    var16 = var19.bind(var3)(var16);
+                    var18 = var16.intl;
+                    var16 = var18.string;
+                    var14 = var14[var20];
+                    var14 = var19.bind(var3)(var14);
+                    var14 = var14.t;
+                    var14 = var14.HbPHt1;
+                    var4 = var16.bind(var18)(var14);
+                    var12 = undefined;
+                    var8 = var10;
 case 80:
-                    var13 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var9 = var9[var14];
-                    var14 = var13.bind(var7)(var9);
-                    var13 = var14.useStateFromStores;
-                    var15 = _closure1_slot11;
-                    var9 = new Array(1);
-                    var9[0] = var15;
-                    var8 = function() {
+                    var14 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var15];
+                    var15 = var14.bind(var3)(var10);
+                    var14 = var15.useStateFromStores;
+                    var16 = _closure1_slot11;
+                    var10 = new Array(1);
+                    var10[0] = var16;
+                    var9 = function() {
                         var3 = _closure1_slot11;
                         var2 = var3.getMemberCount;
                         var1 = _closure3_slot0;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var9 = var13.bind(var14)(var9, var8);
-                    var13 = var10 != var9;
-                    var8 = 0;
-                    if(!var13) { _fun0009_ip = 88; continue _fun0009 }
+                    var10 = var14.bind(var15)(var10, var9);
+                    var14 = var11 != var10;
+                    var9 = 0;
+                    if(!var14) { _fun0009_ip = 88; continue _fun0009 }
 case 89:
-                    var8 = var9;
+                    var9 = var10;
 case 88:
-                    var13 = !var3;
-                    if(!var13) { _fun0009_ip = 90; continue _fun0009 }
+                    var14 = !var7;
+                    if(!var14) { _fun0009_ip = 90; continue _fun0009 }
 case 91:
-                    var3 = 500;
-                    var13 = var8 < var3;
+                    var7 = 500;
+                    var14 = var9 < var7;
 case 90:
-                    if(!var13) { _fun0009_ip = 92; continue _fun0009 }
+                    if(!var14) { _fun0009_ip = 92; continue _fun0009 }
 case 93:
-                    var13 = var10 != var16;
+                    var14 = var11 != var17;
 case 92:
-                    if(!var13) { _fun0009_ip = 94; continue _fun0009 }
+                    if(!var14) { _fun0009_ip = 94; continue _fun0009 }
 case 95:
-                    var3 = var16.isThread;
-                    var3 = var3.bind(var16)();
-                    var13 = !var3;
+                    var7 = var17.isThread;
+                    var7 = var7.bind(var17)();
+                    var14 = !var7;
 case 94:
-                    if(!var13) { _fun0009_ip = 96; continue _fun0009 }
+                    if(!var14) { _fun0009_ip = 96; continue _fun0009 }
 case 97:
-                    var3 = _closure1_slot15;
-                    var8 = var3.GUILD_DIRECTORY;
-                    var9 = new Array(2);
-                    var9[0] = var8;
-                    var3 = var3.GUILD_FORUM;
-                    var9[1] = var3;
-                    var8 = var9.includes;
-                    var3 = var16.type;
-                    var3 = var8.bind(var9)(var3);
-                    var13 = !var3;
+                    var7 = _closure1_slot15;
+                    var9 = var7.GUILD_DIRECTORY;
+                    var10 = new Array(2);
+                    var10[0] = var9;
+                    var7 = var7.GUILD_FORUM;
+                    var10[1] = var7;
+                    var9 = var10.includes;
+                    var7 = var17.type;
+                    var7 = var9.bind(var10)(var7);
+                    var14 = !var7;
 case 96:
-                    if(!var13) { _fun0009_ip = 98; continue _fun0009 }
+                    if(!var14) { _fun0009_ip = 98; continue _fun0009 }
 case 99:
-                    var13 = !var2;
+                    var14 = !var2;
 case 98:
-                    var8 = _closure1_slot21;
-                    var3 = _closure1_slot20;
+                    var9 = _closure1_slot21;
+                    var7 = _closure1_slot20;
                     var2 = {};
-                    if(!var13) { _fun0009_ip = 100; continue _fun0009 }
+                    if(!var14) { _fun0009_ip = 100; continue _fun0009 }
 case 101:
-                    var15 = _closure1_slot19;
-                    var14 = _closure1_slot24;
-                    var9 = {};
-                    var9['channel'] = var16;
-                    var16 = var10 != var11;
-                    var9['withSeparator'] = var16;
-                    var13 = var15.bind(var7)(var14, var9);
+                    var16 = _closure1_slot19;
+                    var15 = _closure1_slot24;
+                    var10 = {};
+                    var10['channel'] = var17;
+                    var17 = var11 != var12;
+                    var10['withSeparator'] = var17;
+                    var14 = var16.bind(var3)(var15, var10);
 case 100:
-                    var9 = new Array(2);
-                    var9[0] = var13;
-                    var10 = var10 != var12;
-                    if(!var10) { _fun0009_ip = 102; continue _fun0009 }
+                    var10 = new Array(2);
+                    var10[0] = var14;
+                    var11 = var11 != var13;
+                    if(!var11) { _fun0009_ip = 102; continue _fun0009 }
 case 103:
-                    var10 = var11;
+                    var11 = var12;
 case 102:
-                    var9[1] = var10;
-                    var2['children'] = var9;
-                    var24 = var8.bind(var7)(var3, var2);
+                    var10[1] = var11;
+                    var2['children'] = var10;
+                    var7 = var9.bind(var3)(var7, var2);
                     var2 = _closure1_slot0;
-                    var8 = _closure1_slot2;
+                    var9 = _closure1_slot2;
                     var1 = 16;
-                    var1 = var8[var1];
-                    var2 = var2.bind(var7)(var1);
-                    var1 = var2.renderChannelTitle;
-                    var27 = var2;
-                    var26 = var5;
-                    var25 = var4;
-                    var23 = var6;
-                    var1 = var27[var1](var26, var25, var24, var23, var22);
+                    var1 = var9[var1];
+                    var3 = var2.bind(var3)(var1);
+                    var2 = var3.renderChannelTitle;
+                    var1 = {};
+                    var1['accessibleTitle'] = var8;
+                    var1['subtitle'] = var7;
+                    var1['disableArrow'] = var6;
+                    var1['guildId'] = var5;
+                    var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 }
             };

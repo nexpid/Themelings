@@ -163,21 +163,21 @@ case 0:
 case 0:
                     var2 = _closure2_slot1;
                     var2 = var2.current;
-                    if(var2) { _fun0003_ip = 2; continue _fun0003 }
-case 15:
+                    if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var2 = _closure2_slot0;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 16; continue _fun0003 }
+                    if(!(var2 != var3)) { _fun0003_ip = 17; continue _fun0003 }
 case 3:
                     var2 = var3.play;
                     var2 = var2.bind(var3)();
-                    _fun0003_ip = 16; continue _fun0003;
-case 2:
+                    _fun0003_ip = 17; continue _fun0003;
+case 15:
                     var2 = _closure2_slot1;
                     var1 = false;
                     var2['current'] = var1;
-case 16:
+case 17:
                     var1 = undefined;
                     return var1;
                 }
@@ -198,12 +198,12 @@ case 16:
             var2 = var1.MicrophoneLottie;
             var1 = {};
             var1['ref'] = var6;
-            if(var5) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(var5) { _fun0002_ip = 18; continue _fun0002 }
+case 5:
             var6 = var8.iconFill;
             var6 = var6.color;
             _fun0002_ip = 19; continue _fun0002;
-case 17:
+case 18:
             var8 = var8.iconFillRed;
             var6 = var8.color;
 case 19:
@@ -392,11 +392,11 @@ case 0:
                         var2 = _closure3_slot0;
                         var8 = var3.bind(var4)(var2);
                         var2 = null;
-                        if(!(var2 == var8)) { _fun0005_ip = 24; continue _fun0005 }
+                        if(!(var2 == var8)) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
                         var3 = {'selfDeaf': false, 'deaf': false};
-                        _fun0005_ip = 25; continue _fun0005;
-case 24:
+                        _fun0005_ip = 24; continue _fun0005;
+case 2:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var2 = 16;
@@ -410,7 +410,7 @@ case 24:
                         var13 = var7;
                         var12 = var8;
                         var3 = var13[var6](var12, var11, var10, var9, var8);
-case 25:
+case 24:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 15;
@@ -428,15 +428,15 @@ case 25:
             var5 = var2.bind(var4)(var5);
             var2 = var5.deaf;
             var5 = var5.onPress;
-            if(var2) { _fun0004_ip = 9; continue _fun0004 }
+            if(var2) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
             var2 = undefined;
             if(!var9) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+case 10:
             var2 = var7;
 case 27:
             var5 = var2;
-case 9:
+case 25:
             _closure2_slot1 = var5;
             var19 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -469,16 +469,16 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.active;
-                    if(var2) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+                    if(var2) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                    if(!(var2 != var3)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                     var3 = _closure2_slot1;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-case 31:
+case 30:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var3 = true;
@@ -508,7 +508,7 @@ case 31:
                     var4 = var4.bind(var5)(var3);
                     var1 = _closure2_slot0;
                     var1 = var1.bind(var2)(var3);
-case 29:
+case 28:
                     var1 = undefined;
                     return var1;
                 }
@@ -526,7 +526,7 @@ case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
                     var2 = var2.active;
-                    if(!var2) { _fun0007_ip = 4; continue _fun0007 }
+                    if(!var2) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
@@ -551,7 +551,7 @@ case 33:
                     var4 = var4.bind(var5)(var3);
                     var1 = _closure2_slot0;
                     var1 = var1.bind(var2)(var3);
-case 4:
+case 32:
                     var1 = undefined;
                     return var1;
                 }
@@ -877,7 +877,7 @@ case 0:
                     var1 = var4.bind(var5)(var1);
                     var1 = var1.DominantMuteState;
                     var1 = var1.SERVER_MUTE;
-                    if(!(var3 !== var1)) { _fun0012_ip = 29; continue _fun0012 }
+                    if(!(var3 !== var1)) { _fun0012_ip = 28; continue _fun0012 }
 case 44:
                     var1 = _closure2_slot3;
                     var7 = _closure1_slot13;
@@ -901,22 +901,22 @@ case 45:
                     var3 = {};
                     var8 = _closure2_slot0;
                     var9 = _closure2_slot2;
-                    if(var8) { _fun0012_ip = 6; continue _fun0012 }
-case 48:
+                    if(var8) { _fun0012_ip = 48; continue _fun0012 }
+case 49:
                     var8 = var9.iconFill;
                     var8 = var8.color;
-                    _fun0012_ip = 49; continue _fun0012;
-case 6:
+                    _fun0012_ip = 50; continue _fun0012;
+case 48:
                     var9 = var9.iconFillRed;
                     var8 = var9.color;
-case 49:
+case 50:
                     var3['color'] = var8;
                     var8 = _closure2_slot0;
                     var3['muted'] = var8;
                     var1 = var7.bind(var5)(var4, var3);
 case 47:
-                    _fun0012_ip = 50; continue _fun0012;
-case 29:
+                    _fun0012_ip = 14; continue _fun0012;
+case 28:
                     var4 = _closure1_slot13;
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -930,7 +930,7 @@ case 29:
                     var6 = var6.color;
                     var2['color'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 50:
+case 14:
                     return var1;
                 }
             };

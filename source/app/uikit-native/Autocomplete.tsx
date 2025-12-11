@@ -421,14 +421,14 @@ case 13:
             var2 = var2.bind(var4)(var1);
             var1 = var2.getChannelIconWithGuild;
             var6 = var1.bind(var2)(var13, var3);
-            _fun0004_ip = 14; continue _fun0004;
+            _fun0004_ip = 9; continue _fun0004;
 case 12:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 18;
             var1 = var3[var1];
             var6 = var2.bind(var4)(var1);
-case 14:
+case 9:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -472,10 +472,10 @@ case 14:
             var5['style'] = var8;
             var8 = null;
             var8 = var8 != var9;
-            if(!var8) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-            var8 = var9.name;
+            if(!var8) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
+            var8 = var9.name;
+case 14:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['trailing'] = var5;
@@ -496,8 +496,8 @@ case 0:
             var4 = undefined;
             var11 = var1.bind(var4)();
             var1 = '';
-            if(!(var1 === var9)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(!(var1 === var9)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -516,8 +516,8 @@ case 18:
             var1['allowFontScaling'] = var8;
             var1['children'] = var6;
             var6 = var3.bind(var4)(var2, var1);
-            _fun0005_ip = 19; continue _fun0005;
-case 17:
+            _fun0005_ip = 18; continue _fun0005;
+case 16:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -535,7 +535,7 @@ case 17:
             var8['uri'] = var9;
             var1['source'] = var8;
             var6 = var3.bind(var4)(var2, var1);
-case 19:
+case 18:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;

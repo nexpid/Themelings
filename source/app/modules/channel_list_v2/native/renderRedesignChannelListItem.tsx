@@ -1841,8 +1841,8 @@ case 210:
 case 67:
             var3 = var10.getNamedCategoryFromSection;
             var8 = var3.bind(var10)(var8);
-            if(!(var1 != var8)) { _fun0012_ip = 162; continue _fun0012 }
-case 211:
+            if(!(var1 != var8)) { _fun0012_ip = 211; continue _fun0012 }
+case 212:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var9];
@@ -1857,12 +1857,12 @@ case 211:
             var5 = var3.length;
             var4 = 0;
             var2 = null;
-            if(!(var4 !== var5)) { _fun0012_ip = 212; continue _fun0012 }
-case 213:
+            if(!(var4 !== var5)) { _fun0012_ip = 102; continue _fun0012 }
+case 36:
             var2 = var3;
-case 212:
+case 102:
             return var2;
-case 162:
+case 211:
             return var1;
         }
     };

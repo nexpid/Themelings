@@ -110,8 +110,6 @@ case 3:
             var10 = _closure1_slot4;
             var10 = var10.UNKNOWN;
             var1['inviteState'] = var10;
-            var10 = true;
-            var1['isMobile'] = var10;
             var1 = var4.bind(var7)(var1);
             if(!(var2 == var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
