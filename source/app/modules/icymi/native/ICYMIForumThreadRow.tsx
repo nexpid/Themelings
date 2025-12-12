@@ -323,7 +323,7 @@ case 23:
             var12 = var20[var21];
             var12 = var22.bind(var5)(var12);
             var23 = var12.Text;
-            var12 = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
+            var12 = {'variant': 'text-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var12['children'] = var27;
             var23 = var26.bind(var5)(var23, var12);
             var12 = new Array(3);

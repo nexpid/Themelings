@@ -407,7 +407,7 @@ case 22:
             var23 = var23[var20];
             var23 = var25.bind(var4)(var23);
             var25 = var23.Text;
-            var23 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var23 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var28 = var17.guildName;
             var23['style'] = var28;
             var23['children'] = var27;

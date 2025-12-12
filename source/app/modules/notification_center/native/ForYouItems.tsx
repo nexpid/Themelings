@@ -787,7 +787,7 @@ case 82:
     var20 = var6[var11];
     var20 = var12.bind(var1)(var20);
     var20 = var20.colors;
-    var21 = var20.HEADER_PRIMARY;
+    var21 = var20.MOBILE_TEXT_HEADING_PRIMARY;
     var20 = 'color';
     var18[var20] = var21;
     var8['strong'] = var18;

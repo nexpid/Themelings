@@ -256,7 +256,7 @@ case 20:
     var8 = 'editor_close';
     var7['EDITOR_CLOSE'] = var8;
     var _closure1_slot12 = var7;
-    var8 = 15;
+    var8 = 14;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -415,7 +415,7 @@ case 40:
         }
     };
     var3['setInitialCustomTheme'] = var4;
-    var4 = function useIsResetButtonDisabled() {
+    var2 = function useIsResetButtonDisabled() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = _closure1_slot6;
@@ -483,39 +483,6 @@ case 44:
             return var1;
         }
     };
-    var3['useIsResetButtonDisabled'] = var4;
-    var2 = function useShouldShowCustomThemesMarketing(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var5 = arg1;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var1 = 14;
-            var1 = var6[var1];
-            var3 = undefined;
-            var1 = var4.bind(var3)(var1);
-            var7 = var1.CustomThemesNitroHomeTileExperiment;
-            var2 = var7.useExperiment;
-            var1 = {};
-            var1['location'] = var5;
-            var1 = var2.bind(var7)(var1);
-            var1 = var1.enabled;
-            var2 = 8;
-            var2 = var6[var2];
-            var2 = var4.bind(var3)(var2);
-            var4 = var2.ClientThemeColorPickerExperiment;
-            var3 = var4.useExperiment;
-            var2 = {};
-            var2['location'] = var5;
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.v2EditorEnabled;
-            if(!var1) { _fun0009_ip = 46; continue _fun0009 }
-case 7:
-            var1 = var2;
-case 46:
-            return var1;
-        }
-    };
-    var3['useShouldShowCustomThemesMarketing'] = var2;
+    var3['useIsResetButtonDisabled'] = var2;
     return var1;
 })();

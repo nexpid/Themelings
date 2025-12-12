@@ -298,7 +298,7 @@ case 35:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var10;
     var4['commandText'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -480,7 +480,7 @@ case 46:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+                var2 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = _closure2_slot0;
@@ -1461,7 +1461,7 @@ case 140:
             var6 = var13[var7];
             var6 = var8.bind(var4)(var6);
             var15 = var6.Text;
-            var14 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var6 = var12.commandText;
             var14['style'] = var6;
             var14['children'] = var5;

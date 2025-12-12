@@ -325,7 +325,7 @@ case 20:
             var9 = var9[var15];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'heading-sm/bold', 'color': 'header-primary', 'lineClamp': 1, 'accessibilityRole': 'header'};
+            var9 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'accessibilityRole': 'header'};
             var16 = var17.name;
             var12 = null;
             var16 = var12 == var16;
@@ -345,7 +345,7 @@ case 22:
             var10 = var10[var15];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var10 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var14 = 13;

@@ -207,7 +207,7 @@ case 27:
             var7 = var11[var7];
             var7 = var9.bind(var4)(var7);
             var9 = var7.NitroWheelIcon;
-            var7 = {'size': 'xs', 'color': 'header-primary'};
+            var7 = {'size': 'xs', 'color': 'mobile-text-heading-primary'};
             var11 = var6.wheelIcon;
             var7['style'] = var11;
             var8 = var10.bind(var4)(var9, var7);
@@ -221,7 +221,7 @@ case 26:
             var8 = var15[var9];
             var8 = var16.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var8 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var18 = 16;
             var15 = var15[var18];
             var16 = var16.bind(var4)(var15);
@@ -295,7 +295,7 @@ case 35:
             var8 = var15[var8];
             var8 = var14.bind(var4)(var8);
             var9 = var8.OrbsIcon;
-            var8 = {'size': 'xxs', 'color': 'header-primary'};
+            var8 = {'size': 'xxs', 'color': 'mobile-text-heading-primary'};
             var10 = var6.wheelIcon;
             var8['style'] = var10;
             var9 = var11.bind(var4)(var9, var8);
@@ -305,7 +305,7 @@ case 35:
             var9 = var15[var9];
             var9 = var14.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var9 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var13 = 14;
             var16 = var15[var13];
             var16 = var14.bind(var4)(var16);
@@ -352,7 +352,7 @@ case 17:
             var8 = var14[var8];
             var8 = var13.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var8 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var10 = 14;
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
@@ -381,7 +381,7 @@ case 15:
             var7 = var13[var7];
             var7 = var12.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var7 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var9 = 14;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
@@ -409,7 +409,7 @@ case 13:
             var7 = var13[var7];
             var7 = var12.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var7 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var9 = 14;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
@@ -437,7 +437,7 @@ case 11:
             var7 = var13[var7];
             var7 = var12.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var7 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var9 = 14;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
@@ -465,7 +465,7 @@ case 9:
             var6 = var12[var6];
             var6 = var11.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var6 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var8 = 14;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
@@ -585,7 +585,7 @@ case 0:
                 var1 = undefined;
                 var5 = var7.bind(var1)(var5);
                 var7 = var5.Text;
-                var5 = {'style': null, 'variant': 'heading-sm/bold', 'color': 'header-primary', 'lineClamp': 1, 'accessibilityRole': 'header'};
+                var5 = {'style': null, 'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'accessibilityRole': 'header'};
                 var10 = _closure2_slot4;
                 var11 = var10.assetName;
                 var5['style'] = var11;

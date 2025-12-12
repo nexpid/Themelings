@@ -106,7 +106,7 @@ case 2:
             var6 = var6[var11];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var10 = var10.title;
             var6['style'] = var10;
             var9 = var9.title;
@@ -326,7 +326,7 @@ case 24:
             var5 = var15[var1];
             var5 = var6.bind(var4)(var5);
             var5 = var5.colors;
-            var5 = var5.BACKGROUND_MOBILE_PRIMARY;
+            var5 = var5.BACKGROUND_BASE_LOWER;
             var5 = var9.bind(var20)(var5);
             var7 = var7.bind(var4)(var5);
             var5 = var7.alpha;
@@ -343,7 +343,7 @@ case 24:
             var1 = var15[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.BACKGROUND_MOBILE_PRIMARY;
+            var1 = var1.BACKGROUND_BASE_LOWER;
             var1 = var3.bind(var5)(var1);
             var3 = var2.bind(var4)(var1);
             var2 = var3.alpha;
@@ -471,7 +471,7 @@ case 34:
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
         var3 = var1.Text;
-        var2 = {'variant': 'text-xs/medium', 'color': 'header-primary'};
+        var2 = {'variant': 'text-xs/medium', 'color': 'mobile-text-heading-primary'};
         var1 = arg1;
         var2['children'] = var1;
         var1 = arg2;
@@ -696,14 +696,14 @@ case 46:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['container'] = var9;
     var9 = {'display': 'flex', 'flexGrow': 1, 'justifyContent': 'center', 'paddingHorizontal': 16, 'paddingTop': 0};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['scrollContainer'] = var9;
     var9 = {'position': 'absolute', 'height': 48, 'width': '100%', 'left': 0, 'top': 4294967248};
@@ -739,7 +739,7 @@ case 46:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['footer'] = var9;
     var9 = {};

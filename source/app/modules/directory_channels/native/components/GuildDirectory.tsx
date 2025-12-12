@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var1 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var6 = var6.categorySectionText;
         var1['style'] = var6;
         var1['children'] = var5;
@@ -501,7 +501,7 @@ case 19:
             var10 = var17[var10];
             var10 = var16.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var10 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var14 = var17[var13];
             var14 = var16.bind(var5)(var14);
             var15 = var14.intl;

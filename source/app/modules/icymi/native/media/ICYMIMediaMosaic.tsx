@@ -407,7 +407,7 @@ case 22:
             var20 = var30[var20];
             var20 = var29.bind(var4)(var20);
             var23 = var20.Text;
-            var20 = {'maxFontSizeMultiplier': 1, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var20 = {'maxFontSizeMultiplier': 1, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var26 = 19;
             var27 = var30[var26];
             var27 = var29.bind(var4)(var27);
@@ -1432,7 +1432,7 @@ case 75:
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);
         var9 = var9.colors;
-        var9 = var9.BACKGROUND_MOBILE_SECONDARY;
+        var9 = var9.BACKGROUND_BASE_LOW;
         var2['backgroundColor'] = var9;
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);

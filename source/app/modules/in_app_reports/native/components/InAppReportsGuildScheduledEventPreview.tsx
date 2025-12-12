@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_PRIMARY;
+    var12 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var12;
     var4['borderColor'] = var9;
     var9 = {'lineHeight': 16, 'marginBottom': 8};
@@ -185,7 +185,7 @@ case 3:
             var9 = var14[var9];
             var9 = var10.bind(var5)(var9);
             var10 = var9.Text;
-            var9 = {'style': null, 'variant': 'text-md/bold', 'color': 'header-primary'};
+            var9 = {'style': null, 'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             var13 = var13.eventName;
             var9['style'] = var13;
             var12 = var12.name;

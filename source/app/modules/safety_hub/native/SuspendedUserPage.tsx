@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {};
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13['onPress'] = var15;
         var15 = 'text-xs/medium';
         var13['variant'] = var15;
-        var15 = 'status-danger-text';
+        var15 = 'control-critical-primary-text-default';
         var13['color'] = var15;
         var15 = var12[var18];
         var15 = var21.bind(var4)(var15);
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var12[var16];
         var16 = var21.bind(var4)(var16);
         var17 = var16.Text;
-        var16 = {'style': null, 'variant': 'text-xs/medium', 'color': 'status-danger-text'};
+        var16 = {'style': null, 'variant': 'text-xs/medium', 'color': 'control-critical-primary-text-default'};
         var19 = var19.link;
         var16['style'] = var19;
         var19 = var12[var18];

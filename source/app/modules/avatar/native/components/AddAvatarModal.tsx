@@ -230,7 +230,7 @@ case 20:
             var16 = var24[var22];
             var16 = var21.bind(var4)(var16);
             var25 = var16.Text;
-            var19 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var19 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var16 = var17.title;
             var19['style'] = var16;
             var16 = 19;
@@ -565,7 +565,7 @@ case 22:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var11['color'] = var15;
     var4['skipButton'] = var11;
     var11 = {'alignSelf': 'center', 'paddingTop': 24};

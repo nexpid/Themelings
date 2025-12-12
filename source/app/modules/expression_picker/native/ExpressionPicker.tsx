@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var15];
     var15 = var16.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.EXPRESSION_PICKER_BG;
+    var15 = var15.MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var15;
     var10['paddingHorizontal'] = var12;
     var4['expressionPickerContainer'] = var10;

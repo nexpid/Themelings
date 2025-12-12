@@ -1094,7 +1094,7 @@ case 67:
             var28 = var37[var39];
             var28 = var35.bind(var5)(var28);
             var42 = var28.Text;
-            var41 = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var41 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var28 = var37[var30];
             var28 = var35.bind(var5)(var28);
             var50 = var28.intl;
@@ -1147,7 +1147,7 @@ case 67:
             var42 = var37[var39];
             var42 = var35.bind(var5)(var42);
             var43 = var42.Text;
-            var42 = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var42 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var48 = var37[var30];
             var48 = var35.bind(var5)(var48);
             var51 = var48.intl;
@@ -1197,7 +1197,7 @@ case 67:
             var38 = var37[var39];
             var38 = var35.bind(var5)(var38);
             var42 = var38.Text;
-            var38 = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var38 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var47 = var37[var30];
             var47 = var35.bind(var5)(var47);
             var49 = var47.intl;

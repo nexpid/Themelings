@@ -662,7 +662,7 @@ case 17:
         var7 = new Array(3);
         var7[0] = var16;
         var16 = _closure1_slot9;
-        var15 = {'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+        var15 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
         var23 = var9.headerText;
         var17 = new Array(2);
         var17[0] = var23;

@@ -208,7 +208,7 @@ case 0:
             var5 = var12[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var5 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var11 = var11.optionCellText;
             var5['style'] = var11;
             var9 = var9.asDefault;
@@ -328,7 +328,7 @@ case 8:
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var11 = var5.Text;
-        var5 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+        var5 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
         var12 = var9.optionCellText;
         var5['style'] = var12;
         var12 = 13;

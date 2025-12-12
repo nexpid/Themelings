@@ -181,7 +181,7 @@ case 4:
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var15;
     var5['code'] = var10;
     var10 = {};

@@ -743,7 +743,7 @@ case 39:
             var31 = var37[var31];
             var31 = var33.bind(var5)(var31);
             var33 = var31.Text;
-            var31 = {'variant': 'display-md', 'color': 'header-primary'};
+            var31 = {'variant': 'display-md', 'color': 'mobile-text-heading-primary'};
             var37 = var18.heroTitle;
             var31['style'] = var37;
             var31['children'] = var35;

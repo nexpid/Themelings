@@ -914,14 +914,14 @@ case 31:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['titleInputText'] = var9;
     var9 = {'width': '100%', 'height': '100%', 'padding': 0, 'lineHeight': 20, 'color': null, 'textAlignVertical': 'top'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var13 = 'top';
     var4['contentInput'] = var9;

@@ -1056,7 +1056,7 @@ case 99:
                     var16 = var23[var16];
                     var16 = var20.bind(var4)(var16);
                     var20 = var16.Text;
-                    var16 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+                    var16 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
                     var27 = var17 == var25;
                     var23 = undefined;
                     if(var27) { _fun0008_ip = 101; continue _fun0008 }
@@ -2658,7 +2658,7 @@ case 134:
                     var13 = var17[var13];
                     var13 = var14.bind(var4)(var13);
                     var14 = var13.Text;
-                    var13 = {'variant': 'text-lg/semibold', 'color': 'header-primary', 'lineClamp': 1};
+                    var13 = {'variant': 'text-lg/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
                     var17 = var12.roleGrantedName;
                     var13['style'] = var17;
                     var16 = var16.name;

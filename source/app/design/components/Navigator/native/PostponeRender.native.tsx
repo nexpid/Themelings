@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var11 = var10.BACKGROUND_MOBILE_PRIMARY;
+    var11 = var10.BACKGROUND_BASE_LOWER;
     var10 = 'backgroundColor';
     var9[var10] = var11;
     var4['view'] = var9;

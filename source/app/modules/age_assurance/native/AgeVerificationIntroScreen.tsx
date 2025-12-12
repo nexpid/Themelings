@@ -225,7 +225,7 @@ case 0:
             var18 = var22[var13];
             var18 = var23.bind(var4)(var18);
             var21 = var18.Text;
-            var20 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var20 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var18 = var12.getStartedHeaderText;
             var20['style'] = var18;
             var18 = 18;
@@ -292,7 +292,7 @@ case 0:
                 var10 = var9[var6];
                 var10 = var7.bind(var3)(var10);
                 var11 = var10.Text;
-                var10 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+                var10 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
                 var10['children'] = var12;
                 var10 = var4.bind(var3)(var11, var10);
                 var1['tip'] = var10;

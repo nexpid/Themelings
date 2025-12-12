@@ -502,7 +502,7 @@ case 27:
             var24 = var31[var24];
             var24 = var28.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {'color': 'header-primary', 'variant': 'text-xs/semibold'};
+            var24 = {'color': 'mobile-text-heading-primary', 'variant': 'text-xs/semibold'};
             var27 = 23;
             var27 = var31[var27];
             var28 = var28.bind(var4)(var27);

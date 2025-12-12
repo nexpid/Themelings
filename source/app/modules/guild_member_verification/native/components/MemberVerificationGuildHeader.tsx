@@ -273,7 +273,7 @@ case 4:
             var2 = var8[var7];
             var3 = var9.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function O() {
+            var1 = function b() {
                 var1 = {};
                 var3 = {};
                 var8 = _closure1_slot0;
@@ -429,7 +429,7 @@ case 4:
             var8 = var8[var14];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var15 = var13.headerTitle;
             var8['style'] = var15;
             var17 = _closure1_slot0;

@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'header-primary'};
+        var6 = {'style': null, 'variant': 'text-sm/normal', 'color': 'mobile-text-heading-primary'};
         var10 = var10.howItWorksCardDescription;
         var6['style'] = var10;
         var6['children'] = var9;

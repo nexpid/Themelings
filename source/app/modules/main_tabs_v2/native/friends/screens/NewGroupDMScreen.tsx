@@ -941,7 +941,7 @@ case 69:
                             var6 = 'subtitle';
                             var1[var6] = var7;
                             var6 = _closure2_slot13;
-                            var7 = 'header-primary';
+                            var7 = 'mobile-text-heading-primary';
                             if(!var6) { _fun0009_ip = 90; continue _fun0009 }
 case 77:
                             var7 = 'text-feedback-critical';

@@ -112,7 +112,7 @@ case 2:
             var12 = var10[var12];
             var12 = var2.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'lineClamp': 1, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var12 = {'lineClamp': 1, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var16 = var16.container;
             var12['style'] = var16;
             var12['children'] = var15;
@@ -129,7 +129,7 @@ case 2:
             if(!var10) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var12 = _closure1_slot5;
-            var11 = {'size': 'sm', 'color': 'header-primary'};
+            var11 = {'size': 'sm', 'color': 'mobile-text-heading-primary'};
             var10 = var12.bind(var4)(var13, var11);
 case 8:
             var1['icon'] = var10;

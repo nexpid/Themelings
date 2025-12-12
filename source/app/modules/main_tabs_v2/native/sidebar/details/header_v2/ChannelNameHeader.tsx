@@ -312,7 +312,7 @@ case 25:
                     var8[1] = var9;
                     var3['style'] = var8;
                     var9 = _closure1_slot12;
-                    var8 = {'size': 'md', 'color': 'header-primary'};
+                    var8 = {'size': 'md', 'color': 'mobile-text-heading-primary'};
                     var8 = var9.bind(var7)(var10, var8);
                     var3['children'] = var8;
                     var2 = var6.bind(var7)(var4, var3);
@@ -387,7 +387,7 @@ case 27:
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+            var11 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             _fun0003_ip = 28; continue _fun0003;
@@ -397,7 +397,7 @@ case 26:
             var9 = 22;
             var9 = var16[var9];
             var12 = var12.bind(var4)(var9);
-            var9 = {'userId': null, 'guildId': null, 'userName': null, 'variant': 'redesign/heading-18/bold', 'defaultColor': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+            var9 = {'userId': null, 'guildId': null, 'userName': null, 'variant': 'redesign/heading-18/bold', 'defaultColor': 'mobile-text-heading-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
             var16 = var15.getRecipientId;
             var16 = var16.bind(var15)();
             var9['userId'] = var16;
@@ -674,7 +674,7 @@ case 29:
         var5 = var14[var5];
         var5 = var9.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-sm/medium', 'color': 'header-primary', 'lineClamp': 1};
+        var5 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
         var8 = 18;
         var10 = var14[var8];
         var10 = var9.bind(var4)(var10);

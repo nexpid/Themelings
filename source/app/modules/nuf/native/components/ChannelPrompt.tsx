@@ -414,7 +414,7 @@ case 22:
             var12 = var24[var10];
             var12 = var27.bind(var5)(var12);
             var20 = var12.Text;
-            var12 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var12 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var26 = var15.guildName;
             var12['style'] = var26;
             var25 = var25.name;
@@ -424,7 +424,7 @@ case 22:
             var12 = var24[var10];
             var12 = var27.bind(var5)(var12);
             var25 = var12.Text;
-            var12 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var12 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var20 = var15.title;
             var12['style'] = var20;
             var20 = 13;

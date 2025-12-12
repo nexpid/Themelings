@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOBILE_PRIMARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['contentContainer'] = var9;
     var10 = 8;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['hubInput'] = var9;
     var9 = {'marginTop': 16, 'marginBottom': 8};
@@ -166,7 +166,7 @@ case 4:
             var5 = var5[var24];
             var5 = var13.bind(var4)(var5);
             var13 = var5.Text;
-            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var26 = var12.header;
             var5['style'] = var26;
             if(!(var10 == var18)) { _fun0001_ip = 6; continue _fun0001 }

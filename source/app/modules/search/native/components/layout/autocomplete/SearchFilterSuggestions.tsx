@@ -99,7 +99,7 @@ case 2:
         var7 = var11[var7];
         var7 = var8.bind(var3)(var7);
         var8 = var7.Text;
-        var7 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var7 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var7['children'] = var10;
         var7 = var9.bind(var3)(var8, var7);
         var1['label'] = var7;
@@ -582,7 +582,7 @@ case 12:
         var9 = var8[var16];
         var13 = var2.bind(var4)(var9);
         var11 = var13.useAnimatedReaction;
-        var10 = function O() {
+        var10 = function x() {
             var2 = _closure2_slot3;
             var1 = var2.get;
             var1 = var1.bind(var2)();

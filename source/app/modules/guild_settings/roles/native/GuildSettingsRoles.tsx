@@ -644,7 +644,7 @@ case 18:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var13 = '100%';
     var4['emptyIlloContainer'] = var9;
@@ -663,7 +663,7 @@ case 18:
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var21 = var18.bind(var1)(var17, var15, var19);
     var22 = var9;
     var15 = copyDataProperties(var22, var21);
@@ -1732,7 +1732,7 @@ case 75:
                     var12 = var23[var13];
                     var12 = var22.bind(var5)(var12);
                     var15 = var12.Text;
-                    var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+                    var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                     var17 = var11.subheader;
                     var12['style'] = var17;
                     var19 = 27;

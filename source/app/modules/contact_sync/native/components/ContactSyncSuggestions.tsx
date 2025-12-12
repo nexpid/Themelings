@@ -551,7 +551,7 @@ case 9:
                 var1 = undefined;
                 var8 = var12.bind(var1)(var8);
                 var11 = var8.Text;
-                var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+                var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                 var9 = var15.title;
                 var8['style'] = var9;
                 var9 = 15;

@@ -224,7 +224,7 @@ case 0:
             var23 = var12[var13];
             var23 = var15.bind(var4)(var23);
             var25 = var23.Text;
-            var23 = {'style': null, 'variant': 'eyebrow', 'color': 'header-primary'};
+            var23 = {'style': null, 'variant': 'eyebrow', 'color': 'mobile-text-heading-primary'};
             var27 = var27.noticeHeader;
             var23['style'] = var27;
             var27 = var12[var16];

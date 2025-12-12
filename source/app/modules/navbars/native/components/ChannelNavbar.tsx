@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var16 = var15.HEADER_PRIMARY;
+    var16 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var15 = 18;
     var20 = var18.bind(var1)(var17, var16, var15);
     var21 = var10;
@@ -869,7 +869,7 @@ case 61:
             var7 = var15[var7];
             var7 = var12.bind(var4)(var7);
             var12 = var7.Text;
-            var7 = {'style': null, 'lineClamp': 1, 'variant': 'heading-md/bold', 'color': 'header-primary', 'accessibilityLabel': null, 'maxFontSizeMultiplier': 1, 'accessibilityRole': 'header'};
+            var7 = {'style': null, 'lineClamp': 1, 'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary', 'accessibilityLabel': null, 'maxFontSizeMultiplier': 1, 'accessibilityRole': 'header'};
             var15 = var9.channelName;
             var7['style'] = var15;
             var7['accessibilityLabel'] = var14;

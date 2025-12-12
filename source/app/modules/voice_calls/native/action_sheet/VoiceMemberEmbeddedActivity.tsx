@@ -462,7 +462,7 @@ case 19:
             var16 = var11[var16];
             var16 = var22.bind(var5)(var16);
             var22 = var16.Text;
-            var16 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var16 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var28 = var25.applicationName;
             var16['style'] = var28;
             var16['children'] = var27;

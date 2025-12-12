@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['scrollContainer'] = var9;
     var9 = {'alignItems': 'center', 'paddingTop': 20, 'paddingBottom': 20, 'paddingHorizontal': 16};
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var6];
         var5 = var12.bind(var4)(var5);
         var8 = var5.Text;
-        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var9 = var10.headerTitle;
         var5['style'] = var9;
         var9 = 11;
@@ -299,7 +299,7 @@ case 4:
             var7 = var14[var7];
             var7 = var18.bind(var4)(var7);
             var9 = var7.Text;
-            var7 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var7 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var15 = var13.footerTitle;
             var7['style'] = var15;
             var15 = 11;

@@ -153,7 +153,7 @@ case 0:
             var8 = var16[var9];
             var8 = var18.bind(var4)(var8);
             var12 = var8.Text;
-            var8 = {'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var8 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var22 = 12;
             var20 = var16[var22];
             var20 = var18.bind(var4)(var20);

@@ -764,7 +764,7 @@ case 31:
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.colors;
-            var3 = var3.TEXT_LOW_CONTRAST;
+            var3 = var3.TEXT_MUTED;
             var2['tintColor'] = var3;
             var1['chevron'] = var2;
             return var1;
@@ -1436,7 +1436,7 @@ case 59:
         var24 = var22[var24];
         var24 = var21.bind(var4)(var24);
         var25 = var24.TextIcon;
-        var24 = {'size': 'xs', 'color': 'header-primary'};
+        var24 = {'size': 'xs', 'color': 'mobile-text-heading-primary'};
         var24 = var26.bind(var4)(var25, var24);
         var17['children'] = var24;
         var17 = var20.bind(var4)(var18, var17);
@@ -1926,7 +1926,7 @@ case 68:
         var16 = var23[var16];
         var16 = var18.bind(var4)(var16);
         var24 = var16.TextIcon;
-        var16 = {'size': 'xs', 'color': 'header-primary'};
+        var16 = {'size': 'xs', 'color': 'mobile-text-heading-primary'};
         var24 = var25.bind(var4)(var24, var16);
         var16 = new Array(2);
         var16[0] = var24;

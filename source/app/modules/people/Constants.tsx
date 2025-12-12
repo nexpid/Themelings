@@ -22,6 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['RELATIONSHIP_COUNT_ANIMATION_THRESHOLD'] = var2;
     var2 = 62;
     var3['PEOPLE_LIST_ITEM_HEIGHT'] = var2;
+    var2 = 72;
+    var3['PEOPLE_LIST_ITEM_HEIGHT_TALL'] = var2;
     var2 = 50;
     var3['PEOPLE_LIST_SECTION_HEIGHT'] = var2;
     var2 = 5;

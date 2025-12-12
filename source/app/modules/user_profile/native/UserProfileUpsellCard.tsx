@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var9['tintColor'] = var14;
     var4['premiumWheelHeader'] = var9;
     var9 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
@@ -167,7 +167,7 @@ case 3:
             var25 = var24[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.HEADER_PRIMARY;
+            var25 = var25.MOBILE_TEXT_HEADING_PRIMARY;
             var19['color'] = var25;
             var25 = 'xs';
             var19['size'] = var25;

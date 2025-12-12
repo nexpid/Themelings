@@ -82,7 +82,7 @@ case 5:
                 var11 = 'text-muted';
                 if(!var12) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-                var11 = 'header-primary';
+                var11 = 'mobile-text-heading-primary';
 case 7:
                 var6['color'] = var11;
                 var9 = _closure2_slot0;

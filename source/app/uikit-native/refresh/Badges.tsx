@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_DANGER_TEXT;
+    var12 = var12.WHITE;
     var9['color'] = var12;
     var4['dangerText'] = var9;
     var9 = {};

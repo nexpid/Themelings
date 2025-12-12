@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var15[var11];
         var10 = var16.bind(var4)(var10);
         var19 = var10.Text;
-        var10 = {'accessibilityRole': 'header', 'variant': 'heading-xl/medium', 'color': 'header-primary'};
+        var10 = {'accessibilityRole': 'header', 'variant': 'heading-xl/medium', 'color': 'mobile-text-heading-primary'};
         var10['children'] = var20;
         var19 = var3.bind(var4)(var19, var10);
         var10 = new Array(4);

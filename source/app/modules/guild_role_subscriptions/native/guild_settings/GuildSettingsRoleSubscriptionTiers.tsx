@@ -396,7 +396,7 @@ case 25:
             var15 = var15[var20];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var15 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var15['children'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
@@ -977,7 +977,7 @@ case 52:
             var13 = var20[var13];
             var13 = var19.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var13 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var17 = var17.createTierLabel;
             var13['style'] = var17;
             var17 = var20[var16];

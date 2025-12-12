@@ -343,7 +343,7 @@ case 0:
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+            var1 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
             var9 = null;
             if(var11) { _fun0003_ip = 17; continue _fun0003 }
 case 30:

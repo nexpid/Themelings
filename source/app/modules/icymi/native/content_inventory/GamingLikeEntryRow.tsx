@@ -542,7 +542,7 @@ case 23:
             var8 = var8[var28];
             var8 = var10.bind(var5)(var8);
             var12 = var8.Text;
-            var8 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var8 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var25 = 'text-md/semibold';
             var23 = var1 != var29;
             var10 = undefined;

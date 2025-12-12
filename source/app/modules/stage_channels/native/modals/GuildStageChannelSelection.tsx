@@ -186,7 +186,7 @@ case 6:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/bold', 'color': 'header-primary'};
+                var2 = {'variant': 'text-sm/bold', 'color': 'mobile-text-heading-primary'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;

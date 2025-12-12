@@ -50,7 +50,7 @@ case 3:
             var9 = var7[var8];
             var9 = var14.bind(var11)(var9);
             var9 = var9.colors;
-            var9 = var9.HEADER_PRIMARY;
+            var9 = var9.MOBILE_TEXT_HEADING_PRIMARY;
             var3['headerTextColor'] = var9;
             var9 = var7[var8];
             var9 = var14.bind(var11)(var9);

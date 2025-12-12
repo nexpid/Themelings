@@ -725,7 +725,7 @@ case 0:
             var5 = var14[var5];
             var5 = var13.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var10 = var10.title;
             var5['style'] = var10;
             var10 = 22;

@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var9];
     var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
-    var14 = var12.HEADER_PRIMARY;
+    var14 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var12 = 24;
     var18 = var16.bind(var1)(var15, var14, var12);
     var19 = var8;
@@ -65,8 +65,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.TEXT_SUBTLE;
     var8['color'] = var9;
     var2['formHint'] = var8;
-    var8 = {'position': 'relative', 'paddingTop': 4, 'paddingBottom': 4};
-    var2['formSwitchWrapper'] = var8;
+    var8 = {};
+    var9 = 'relative';
+    var8['position'] = var9;
+    var2['communityRequirementSatisfiedFormWrapper'] = var8;
+    var8 = {'position': 'absolute', 'width': 80, 'top': 0, 'right': 0, 'height': '100%'};
+    var2['communityRequirementSatisfiedFormPressable'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 5;
     var4 = var6[var4];

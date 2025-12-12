@@ -215,7 +215,7 @@ case 15:
             var9['style'] = var25;
             var9['lineClamp'] = var23;
             var9['variant'] = var17;
-            var17 = 'header-primary';
+            var17 = 'mobile-text-heading-primary';
             var9['color'] = var17;
             var17 = new Array(2);
             var17[0] = var21;
@@ -323,7 +323,7 @@ case 25:
             var20 = var26[var20];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'lineClamp': null, 'variant': 'text-xs/normal', 'color': 'header-primary'};
+            var20 = {'lineClamp': null, 'variant': 'text-xs/normal', 'color': 'mobile-text-heading-primary'};
             var20['lineClamp'] = var23;
             var23 = new Array(2);
             var23[0] = var24;

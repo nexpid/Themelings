@@ -273,7 +273,7 @@ case 4:
             var12 = var11[var6];
             var12 = var7.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var12 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var15 = var10.emptyStateTitle;
             var12['style'] = var15;
             var15 = var11[var14];

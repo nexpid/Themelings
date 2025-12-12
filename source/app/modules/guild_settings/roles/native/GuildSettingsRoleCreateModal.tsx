@@ -1377,7 +1377,7 @@ case 21:
             var10 = var18[var13];
             var10 = var15.bind(var5)(var10);
             var16 = var10.Text;
-            var10 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var10 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var10['children'] = var20;
             var16 = var19.bind(var5)(var16, var10);
             var10 = new Array(2);
@@ -1595,7 +1595,7 @@ case 42:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var12;
     var4['nextButtonFloating'] = var11;
     var4 = var7.bind(var8)(var4);
@@ -1656,7 +1656,7 @@ case 42:
         var1 = undefined;
         var5 = var9.bind(var1)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
         var8 = var8.title;
         var5['style'] = var8;
         var8 = 17;

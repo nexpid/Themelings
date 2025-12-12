@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'height': 50, 'width': 50, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'paddingBottom': 4};
+    var9 = {'height': 50, 'width': 50, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'paddingBottom': 4};
     var10 = 7;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -67,10 +67,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var13;
     var4['ggContainer'] = var9;
-    var9 = {};
-    var13 = 46;
-    var9['lineHeight'] = var13;
-    var4['ggText'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -287,12 +283,12 @@ case 0:
                     var2 = _closure2_slot6;
                     var1 = null;
                     if(!(var1 != var2)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+case 9:
                     var4 = _closure1_slot10;
                     var3 = _closure1_slot6;
                     var2 = {};
-                    var8 = _closure2_slot3;
-                    var5 = var8.ggContainer;
+                    var5 = _closure2_slot3;
+                    var5 = var5.ggContainer;
                     var2['style'] = var5;
                     var7 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -301,23 +297,21 @@ case 12:
                     var1 = undefined;
                     var7 = var7.bind(var1)(var5);
                     var5 = {};
-                    var9 = _closure2_slot0;
-                    var9 = var9.id;
-                    var5['userId'] = var9;
-                    var9 = _closure2_slot1;
-                    var5['guildId'] = var9;
-                    var9 = 'Gg';
-                    var5['userName'] = var9;
-                    var9 = _closure2_slot6;
-                    var5['pendingDisplayNameStyles'] = var9;
-                    var9 = 'heading-xl/semibold';
-                    var5['variant'] = var9;
-                    var8 = var8.ggText;
-                    var5['style'] = var8;
+                    var8 = _closure2_slot0;
+                    var8 = var8.id;
+                    var5['userId'] = var8;
+                    var8 = _closure2_slot1;
+                    var5['guildId'] = var8;
+                    var8 = 'Gg';
+                    var5['userName'] = var8;
+                    var8 = _closure2_slot6;
+                    var5['pendingDisplayNameStyles'] = var8;
+                    var8 = 'heading-xl/semibold';
+                    var5['variant'] = var8;
                     var5 = var4.bind(var1)(var7, var5);
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
-                    _fun0003_ip = 13; continue _fun0003;
+                    _fun0003_ip = 12; continue _fun0003;
 case 11:
                     var5 = _closure1_slot10;
                     var8 = _closure1_slot1;
@@ -335,7 +329,7 @@ case 11:
                     var6 = var6.noneIcon;
                     var2['style'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 13:
+case 12:
                     return var1;
                 }
             };
@@ -349,8 +343,8 @@ case 0:
                     var7 = null;
                     var2 = var7 == var1;
                     var1 = null;
-                    if(var2) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var5 = _closure1_slot10;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -362,18 +356,18 @@ case 15:
                     var6 = _closure2_slot6;
                     var9 = var7 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(var9) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var8 = _closure2_slot6;
                     var6 = var8.colors;
-case 16:
-                    if(!(var7 == var6)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
-                    var6 = new Array(0);
+case 15:
+                    if(!(var7 == var6)) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
+                    var6 = new Array(0);
+case 17:
                     var2['colors'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 14:
+case 13:
                     return var1;
                 }
             };
@@ -403,8 +397,8 @@ case 14:
             var10 = var10.DismissibleContent;
             var13 = var10.DISPLAY_NAME_STYLES_MOBILE_NEW_BADGE;
             var10 = undefined;
-            if(!(var14 === var13)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!(var14 === var13)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var15 = _closure1_slot10;
             var14 = _closure1_slot6;
             var13 = {};
@@ -431,7 +425,7 @@ case 21:
             var16 = var15.bind(var4)(var17, var16);
             var13['children'] = var16;
             var10 = var15.bind(var4)(var14, var13);
-case 20:
+case 19:
             var1['labelTrailing'] = var10;
             var1['buttonText'] = var8;
             var1['accessibilityLabel'] = var8;

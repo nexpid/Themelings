@@ -224,7 +224,7 @@ case 14:
                 var11 = 'text-muted';
                 if(!var12) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-                var11 = 'header-primary';
+                var11 = 'mobile-text-heading-primary';
 case 19:
                 var5['color'] = var11;
                 var10 = _closure2_slot2;

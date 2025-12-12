@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var17 = var10.HEADER_PRIMARY;
+    var17 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var10 = {};
     var11 = false;
     var10['uppercase'] = var11;
@@ -136,7 +136,7 @@ case 2:
             var14 = var12[var14];
             var14 = var10.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var16 = var16.checkboxText;
             var14['style'] = var16;
             var16 = 10;

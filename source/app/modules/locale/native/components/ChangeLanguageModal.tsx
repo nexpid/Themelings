@@ -133,7 +133,7 @@ case 7:
                     var14 = var7[var15];
                     var14 = var10.bind(var3)(var14);
                     var16 = var14.Text;
-                    var14 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+                    var14 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
                     var19 = _closure2_slot0;
                     var20 = var19.header;
                     var14['style'] = var20;
@@ -257,7 +257,7 @@ case 2:
         var6 = var13[var5];
         var6 = var12.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+        var6 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
         var11 = var10.header;
         var6['style'] = var11;
         var11 = var13[var9];

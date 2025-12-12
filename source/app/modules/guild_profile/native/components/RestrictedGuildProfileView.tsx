@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var15[var8];
         var7 = var14.bind(var4)(var7);
         var9 = var7.Text;
-        var7 = {'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+        var7 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
         var11 = 10;
         var12 = var15[var11];
         var12 = var14.bind(var4)(var12);

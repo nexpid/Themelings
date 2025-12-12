@@ -314,7 +314,7 @@ case 6:
     var14 = var8[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var14;
     var14 = 'hidden';
     var10['overflow'] = var14;
@@ -330,7 +330,7 @@ case 6:
     var14 = var8[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var15 = var14.HEADER_PRIMARY;
+    var15 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var14 = 'color';
     var10[var14] = var15;
     var5['headerTitle'] = var10;
@@ -340,7 +340,7 @@ case 6:
     var13 = var8[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var13;
     var5['headerBackTitleStyle'] = var10;
     var10 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
@@ -355,7 +355,7 @@ case 6:
     var13 = var8[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var10['tintColor'] = var13;
     var5['headerButtonIcon'] = var10;
     var10 = {'width': 22, 'height': 22};
@@ -401,7 +401,7 @@ case 0:
             var8 = var8[var12];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'accessibilityRole': 'header', 'aria-level': '1', 'lineClamp': 1, 'variant': 'redesign/heading-18/bold', 'color': 'header-primary'};
+            var8 = {'accessibilityRole': 'header', 'aria-level': '1', 'lineClamp': 1, 'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary'};
             var8['children'] = var14;
             var8 = var13.bind(var4)(var9, var8);
             var6[1] = var8;

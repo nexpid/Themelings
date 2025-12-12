@@ -423,7 +423,7 @@ case 13:
     var17 = var8[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.ALERT_BG;
+    var17 = var17.MOBILE_ALERT_BACKGROUND_DEFAULT;
     var13['backgroundColor'] = var17;
     var17 = var8[var15];
     var17 = var16.bind(var1)(var17);
@@ -1145,7 +1145,7 @@ case 37:
             var20 = var26[var21];
             var20 = var22.bind(var4)(var20);
             var23 = var20.Text;
-            var20 = {'variant': 'heading-lg/bold', 'accessibilityRole': 'header', 'color': 'header-primary'};
+            var20 = {'variant': 'heading-lg/bold', 'accessibilityRole': 'header', 'color': 'mobile-text-heading-primary'};
             var20['children'] = var28;
             var23 = var27.bind(var4)(var23, var20);
             var20 = new Array(2);

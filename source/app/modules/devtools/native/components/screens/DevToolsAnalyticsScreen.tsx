@@ -155,7 +155,7 @@ case 10:
             var20 = var28[var25];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var20 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var26 = _closure1_slot1;
             var23 = 12;
             var23 = var28[var23];
@@ -246,7 +246,7 @@ case 16:
             var25 = var29[var25];
             var25 = var27.bind(var4)(var25);
             var26 = var25.Text;
-            var25 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var25 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var32 = var15.monospace;
             var31 = new Array(2);
             var31[0] = var32;
@@ -358,7 +358,7 @@ case 26:
                     var7['style'] = var10;
                     _fun0003_ip = 27; continue _fun0003;
 case 25:
-                    var10 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+                    var10 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
                     var11 = _closure2_slot1;
                     var11 = var11.monospace;
                     var10['style'] = var11;

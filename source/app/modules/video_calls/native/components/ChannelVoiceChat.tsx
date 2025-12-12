@@ -61,14 +61,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var14;
     var4['chatHeaderSpacer'] = var10;
     var10 = {'flexDirection': 'row', 'alignSelf': 'stretch', 'height': 44, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'flex-start', 'position': 'absolute', 'left': 0, 'right': 0, 'paddingHorizontal': 16};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var14;
     var4['chatHeader'] = var10;
     var10 = {'width': 32, 'height': 32, 'alignItems': 'flex-start', 'justifyContent': 'center'};
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var14;
     var4['safeAreaTop'] = var10;
     var10 = {};

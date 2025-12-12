@@ -35,7 +35,7 @@ case 6:
             var5 = var17[var6];
             var5 = var12.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+            var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
             var10 = var11.title;
             var5['style'] = var10;
             var10 = 10;
@@ -88,7 +88,7 @@ case 5:
             var6 = var17[var7];
             var6 = var13.bind(var4)(var6);
             var9 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
             var12 = var11.title;
             var6['style'] = var12;
             var12 = 10;
@@ -143,7 +143,7 @@ case 4:
             var6 = var14[var7];
             var6 = var13.bind(var4)(var6);
             var9 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
             var10 = var11.title;
             var6['style'] = var10;
             var10 = 10;
@@ -254,7 +254,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['buttons'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'flex-start', 'marginVertical': 8, 'width': '100%'};
@@ -269,7 +269,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['borderColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -466,7 +466,7 @@ case 13:
             var10 = var10[var17];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var10 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var15 = var16.user;
             var13 = var15.toString;
             var13 = var13.bind(var15)();

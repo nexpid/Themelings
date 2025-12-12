@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var10.bind(var4)(var8);
         var9 = var8.CircleErrorIcon;
-        var8 = {'size': 'sm', 'color': 'header-primary'};
+        var8 = {'size': 'sm', 'color': 'mobile-text-heading-primary'};
         var9 = var3.bind(var4)(var9, var8);
         var8 = new Array(2);
         var8[0] = var9;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.Text;
-        var9 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+        var9 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
         var9['children'] = var11;
         var9 = var3.bind(var4)(var10, var9);
         var8[1] = var9;
@@ -204,7 +204,7 @@ case 4:
             var5 = var13[var5];
             var5 = var12.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'heading-sm/bold', 'color': 'header-primary'};
+            var5 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary'};
             var9 = var9.sectionTitle;
             var5['style'] = var9;
             var9 = 9;
@@ -246,7 +246,7 @@ case 4:
         var5 = var12[var7];
         var5 = var16.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'heading-sm/bold', 'color': 'header-primary'};
+        var5 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary'};
         var9 = var14.sectionTitle;
         var5['style'] = var9;
         var13 = 9;
@@ -273,7 +273,7 @@ case 4:
         var7 = var12[var7];
         var7 = var16.bind(var4)(var7);
         var9 = var7.Text;
-        var7 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+        var7 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
         var14 = var12[var13];
         var14 = var16.bind(var4)(var14);
         var15 = var14.intl;

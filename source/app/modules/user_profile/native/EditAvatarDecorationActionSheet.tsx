@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var14;
     var14 = 25;
     var10['margin'] = var14;
@@ -954,7 +954,7 @@ case 70:
             var20 = var31[var20];
             var20 = var26.bind(var4)(var20);
             var22 = var20.Text;
-            var20 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var20 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var25 = var17.purchasedAt;
             var20['style'] = var25;
             var25 = 22;
@@ -984,7 +984,7 @@ case 69:
             var21 = var26[var22];
             var21 = var27.bind(var4)(var21);
             var24 = var21.Text;
-            var21 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var21 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var28 = var17.purchasedAt;
             var21['style'] = var28;
             var30 = 22;
@@ -1016,7 +1016,7 @@ case 72:
             var22 = var25[var22];
             var22 = var26.bind(var4)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var22 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var27 = var17.purchasedAt;
             var22['style'] = var27;
             var27 = var25[var30];
@@ -1056,7 +1056,7 @@ case 76:
             var11 = var18[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var11 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var17 = var17.purchasedAt;
             var11['style'] = var17;
             if(!var16) { _fun0008_ip = 77; continue _fun0008 }

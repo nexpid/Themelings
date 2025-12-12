@@ -382,7 +382,7 @@ case 12:
                 var6 = var11[var6];
                 var6 = var10.bind(var1)(var6);
                 var9 = var6.Text;
-                var6 = {'lineClamp': 1, 'variant': 'heading-lg/bold', 'color': 'header-primary'};
+                var6 = {'lineClamp': 1, 'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
                 var12 = _closure2_slot6;
                 var6['children'] = var12;
                 var6 = var8.bind(var1)(var9, var6);

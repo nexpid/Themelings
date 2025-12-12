@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var13[var7];
         var7 = var12.bind(var4)(var7);
         var8 = var7.Text;
-        var7 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var7 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var9 = var11.emptyStateTitle;
         var7['style'] = var9;
         var10 = 2;

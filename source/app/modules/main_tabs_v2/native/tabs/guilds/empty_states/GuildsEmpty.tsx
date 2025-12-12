@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var21[var18];
         var15 = var20.bind(var4)(var15);
         var19 = var15.Text;
-        var15 = {'color': 'header-primary', 'variant': 'heading-md/bold'};
+        var15 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-md/bold'};
         var23 = var13.text;
         var17 = new Array(2);
         var17[0] = var23;
@@ -538,7 +538,7 @@ case 17:
             var15 = var22[var15];
             var15 = var21.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'color': 'header-primary', 'variant': 'heading-lg/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
+            var15 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-lg/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
             var18 = 13;
             var19 = var22[var18];
             var19 = var21.bind(var5)(var19);

@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var9['backgroundColor'] = var15;
     var4['closeIconColor'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'width': '100%', 'aspectRatio': 1.2515923566878981, 'overflow': 'visible'};
@@ -443,7 +443,7 @@ case 13:
             var23 = var15[var26];
             var23 = var10.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var23 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var25 = var15[var17];
             var25 = var10.bind(var4)(var25);
             var28 = var25.intl;
@@ -503,7 +503,7 @@ case 13:
             var29 = var15[var26];
             var29 = var10.bind(var4)(var29);
             var30 = var29.Text;
-            var29 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var29 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var31 = var16.infoText;
             var29['style'] = var31;
             var31 = var15[var17];
@@ -546,7 +546,7 @@ case 13:
             var30 = var15[var26];
             var30 = var10.bind(var4)(var30);
             var31 = var30.Text;
-            var30 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var30 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var33 = var16.infoText;
             var30['style'] = var33;
             var33 = var15[var17];
@@ -588,7 +588,7 @@ case 13:
             var30 = var15[var26];
             var30 = var10.bind(var4)(var30);
             var31 = var30.Text;
-            var30 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var30 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var33 = var16.infoText;
             var30['style'] = var33;
             var33 = var15[var17];

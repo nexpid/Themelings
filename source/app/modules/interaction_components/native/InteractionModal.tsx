@@ -88,7 +88,7 @@ case 0:
             var19 = var26[var19];
             var19 = var22.bind(var4)(var19);
             var23 = var19.Text;
-            var19 = {'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var19 = {'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var19['children'] = var27;
             var19 = var25.bind(var4)(var23, var19);
             var9['children'] = var19;

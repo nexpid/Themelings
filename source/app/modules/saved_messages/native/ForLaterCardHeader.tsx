@@ -192,7 +192,7 @@ case 13:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var10 = var10.channelName;
             var6['style'] = var10;
             var6['children'] = var9;

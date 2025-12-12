@@ -2013,7 +2013,7 @@ case 85:
                 var12 = var20[var12];
                 var12 = var19.bind(var5)(var12);
                 var14 = var12.Text;
-                var12 = {'style': null, 'variant': 'eyebrow', 'color': 'header-primary'};
+                var12 = {'style': null, 'variant': 'eyebrow', 'color': 'mobile-text-heading-primary'};
                 var16 = var16.integrationCategoryLabel;
                 var12['style'] = var16;
                 var16 = 20;

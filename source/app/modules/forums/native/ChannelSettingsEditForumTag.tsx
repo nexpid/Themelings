@@ -273,7 +273,7 @@ case 0:
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
                         var2 = var1.Text;
-                        var1 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+                        var1 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
                         var5 = _closure2_slot3;
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;

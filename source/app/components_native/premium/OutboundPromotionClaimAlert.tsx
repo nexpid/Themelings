@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var4['color'] = var14;
     var10 = var10.PRIMARY_BOLD;
     var4['fontFamily'] = var10;
@@ -297,7 +297,7 @@ case 4:
             var14 = var20[var18];
             var14 = var24.bind(var4)(var14);
             var16 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var21 = var19.copyInputLabel;
             var14['style'] = var21;
             var21 = var20[var30];
@@ -452,7 +452,7 @@ case 6:
             var15 = var13[var17];
             var15 = var22.bind(var4)(var15);
             var20 = var15.Text;
-            var18 = {'style': null, 'variant': 'text-lg/bold', 'color': 'header-primary'};
+            var18 = {'style': null, 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
             var15 = var19.errorTitle;
             var18['style'] = var15;
             var15 = 13;

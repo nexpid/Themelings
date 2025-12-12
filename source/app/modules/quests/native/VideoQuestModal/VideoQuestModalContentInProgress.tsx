@@ -904,7 +904,7 @@ case 26:
             var34 = var40[var37];
             var34 = var41.bind(var4)(var34);
             var42 = var34.Text;
-            var34 = {'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var34 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var43 = var31.config;
             var43 = var43.messages;
             var43 = var43.gameTitle;

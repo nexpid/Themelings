@@ -192,7 +192,7 @@ case 7:
             var18 = var18[var23];
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'heading-md/extrabold', 'color': 'header-primary', 'lineClamp': 1, 'lineBreakMode': 'tail'};
+            var18 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'lineBreakMode': 'tail'};
             var18['children'] = var24;
             var18 = var22.bind(var4)(var19, var18);
             var19 = new Array(2);

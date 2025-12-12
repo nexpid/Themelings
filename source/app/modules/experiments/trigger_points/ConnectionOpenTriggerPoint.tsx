@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.VanillaExperiment;
-    var9 = new Array(60);
+    var9 = new Array(59);
     var9[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -300,14 +300,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 51;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.CustomThemesNitroHomeTileExperiment;
+    var4 = var4.YouBarExperiment;
     var9[58] = var4;
     var4 = 52;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.YouBarExperiment;
-    var9[59] = var4;
-    var4 = 53;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.CommonTriggerPointConfiguration;
@@ -322,7 +317,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var8](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 54;
+    var4 = 53;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

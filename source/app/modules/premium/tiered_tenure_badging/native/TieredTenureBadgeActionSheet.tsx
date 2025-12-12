@@ -85,7 +85,7 @@ case 8:
             var14 = var11[var8];
             var14 = var12.bind(var5)(var14);
             var18 = var14.Text;
-            var14 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var15 = var13.badgeName;
             var14['style'] = var15;
             var15 = 13;
@@ -102,7 +102,7 @@ case 8:
             var11 = var11[var8];
             var11 = var12.bind(var5)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'variant': 'text-xs/normal', 'color': 'header-primary'};
+            var11 = {'style': null, 'variant': 'text-xs/normal', 'color': 'mobile-text-heading-primary'};
             var18 = var13.badgeRequirement;
             var11['style'] = var18;
             var11['children'] = var16;
@@ -468,7 +468,7 @@ case 24:
             var10 = var17[var10];
             var10 = var13.bind(var4)(var10);
             var13 = var10.Text;
-            var10 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var10 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var17 = var8.title;
             var10['style'] = var17;
             var20 = _closure1_slot0;

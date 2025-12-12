@@ -519,7 +519,7 @@ case 51:
             var14['onLayout'] = var19;
             var22 = 'text-sm/medium';
             var14['variant'] = var22;
-            var22 = 'header-primary';
+            var22 = 'mobile-text-heading-primary';
             var14['color'] = var22;
             if(!(var9 == var21)) { _fun0002_ip = 52; continue _fun0002 }
 case 53:
@@ -880,7 +880,7 @@ case 75:
             var8 = var8[var20];
             var8 = var12.bind(var4)(var8);
             var12 = var8.Text;
-            var8 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var8 = {'style': null, 'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var9.applicationName;
             var8['style'] = var17;
             var21 = var15.displayName;

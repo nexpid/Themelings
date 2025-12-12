@@ -1213,7 +1213,7 @@ case 85:
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var11 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
             var15 = 11;

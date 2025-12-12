@@ -554,7 +554,7 @@ case 23:
                 var22 = var30[var20];
                 var22 = var29.bind(var4)(var22);
                 var27 = var22.Text;
-                var22 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+                var22 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                 var26 = var25.requiredActionsTitle;
                 var22['style'] = var26;
                 var26 = 21;
@@ -607,7 +607,7 @@ case 39:
                 var13 = var28[var15];
                 var13 = var27.bind(var4)(var13);
                 var20 = var13.Text;
-                var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+                var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                 var24 = var25.requiredActionsTitle;
                 var13['style'] = var24;
                 var24 = 21;

@@ -265,7 +265,7 @@ case 28:
             var18 = {};
             var26 = 'text-md/semibold';
             var18['variant'] = var26;
-            var26 = 'header-primary';
+            var26 = 'mobile-text-heading-primary';
             var27 = 'danger';
             if(!(var27 === var28)) { _fun0002_ip = 29; continue _fun0002 }
 case 30:

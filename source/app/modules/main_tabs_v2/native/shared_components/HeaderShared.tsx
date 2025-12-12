@@ -18,7 +18,7 @@ case 0:
             var4 = undefined;
             if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = 'header-primary';
+            var3 = 'mobile-text-heading-primary';
 case 2:
             var _closure2_slot1 = var3;
             var12 = var2.subtitleColor;

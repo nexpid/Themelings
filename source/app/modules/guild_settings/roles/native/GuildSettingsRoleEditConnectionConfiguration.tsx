@@ -1961,7 +1961,7 @@ case 85:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.HEADER_PRIMARY;
+    var11 = var11.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var11;
     var4['headerText'] = var9;
     var9 = {'marginTop': 4, 'marginBottom': 4};

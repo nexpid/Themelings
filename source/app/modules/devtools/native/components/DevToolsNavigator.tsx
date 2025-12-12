@@ -153,7 +153,7 @@ case 2:
                     var6 = var12[var6];
                     var6 = var7.bind(var1)(var6);
                     var7 = var6.Text;
-                    var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary', 'children': 'DevTools'};
+                    var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary', 'children': 'DevTools'};
                     var9 = {};
                     var11 = _closure1_slot1;
                     var10 = 9;

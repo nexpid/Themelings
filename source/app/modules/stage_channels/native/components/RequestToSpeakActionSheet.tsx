@@ -44,7 +44,7 @@ case 0:
             var8 = var15[var10];
             var8 = var13.bind(var4)(var8);
             var14 = var8.Text;
-            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var17.headerTitle;
             var8['style'] = var17;
             var19 = 11;
@@ -299,7 +299,7 @@ case 13:
             var18 = var9[var6];
             var18 = var10.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var18 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var18['children'] = var21;
             var18 = var20.bind(var4)(var19, var18);
             var17[1] = var18;

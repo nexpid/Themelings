@@ -65,7 +65,7 @@ case 0:
         var11 = var7[var12];
         var11 = var13.bind(var1)(var11);
         var11 = var11.colors;
-        var11 = var11.BACKGROUND_MOBILE_SECONDARY;
+        var11 = var11.BACKGROUND_BASE_LOW;
         var10['borderColor'] = var11;
         var4['voiceStateCollapsed'] = var10;
         var10 = {};

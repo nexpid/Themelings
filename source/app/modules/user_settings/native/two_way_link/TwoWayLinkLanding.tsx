@@ -151,7 +151,7 @@ case 4:
             var12 = var12[var21];
             var12 = var14.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var12 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var22 = var11.title;
             var12['style'] = var22;
             var22 = var24;
@@ -211,7 +211,7 @@ case 6:
                 var10 = var9[var10];
                 var10 = var7.bind(var3)(var10);
                 var11 = var10.Text;
-                var10 = {'variant': 'text-sm/normal', 'color': 'header-primary'};
+                var10 = {'variant': 'text-sm/normal', 'color': 'mobile-text-heading-primary'};
                 var10['children'] = var5;
                 var10 = var4.bind(var3)(var11, var10);
                 var1['label'] = var10;

@@ -739,7 +739,7 @@ case 48:
             var30 = var35[var31];
             var30 = var32.bind(var4)(var30);
             var36 = var30.Text;
-            var30 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var30 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var30['children'] = var37;
             var36 = var33.bind(var4)(var36, var30);
             var30 = new Array(2);

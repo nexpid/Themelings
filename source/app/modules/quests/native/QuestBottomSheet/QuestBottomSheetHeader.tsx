@@ -454,7 +454,7 @@ case 31:
             var5 = var14[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var5 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var15 = var10.title;
             var14 = new Array(2);
             var14[0] = var15;

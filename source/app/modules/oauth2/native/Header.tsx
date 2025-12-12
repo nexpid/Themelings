@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['backgroundColor'] = var10;
     var4['ellipse'] = var9;
     var9 = {'marginTop': 4, 'marginLeft': 8};
@@ -188,7 +188,7 @@ case 2:
             var7 = var7[var11];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-lg/bold', 'color': 'header-primary'};
+            var7 = {'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
             var13 = var13.name;
             var7['children'] = var13;
             var8 = var12.bind(var4)(var8, var7);

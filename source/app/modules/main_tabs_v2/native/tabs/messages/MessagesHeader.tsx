@@ -266,7 +266,7 @@ case 6:
         var5 = var11[var5];
         var5 = var19.bind(var4)(var5);
         var12 = var5.Text;
-        var5 = {'style': null, 'color': 'header-primary', 'variant': 'redesign/heading-18/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
+        var5 = {'style': null, 'color': 'mobile-text-heading-primary', 'variant': 'redesign/heading-18/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
         var13 = var9.headerPanelTitle;
         var5['style'] = var13;
         var16 = 13;

@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var19[var7];
         var9 = var18.bind(var4)(var9);
         var12 = var9.Text;
-        var9 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var9 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var15 = var11.title;
         var9['style'] = var15;
         var9['children'] = var13;

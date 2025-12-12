@@ -1602,10 +1602,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WIDGETS_USER_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = var2;
     var1 = 'WIDGETS_USER_SETTINGS_PROFILE_PAGE_NEW_BADGE';
     var4[var2] = var1;
-    var2 = 590;
-    var4['CUSTOM_THEMES_PREMIUM_TAB_BADGE'] = var2;
-    var1 = 'CUSTOM_THEMES_PREMIUM_TAB_BADGE';
-    var4[var2] = var1;
     var2 = 591;
     var4['CHURN_DISCOUNT_PREMIUM_TAB_COACHMARK'] = var2;
     var1 = 'CHURN_DISCOUNT_PREMIUM_TAB_COACHMARK';

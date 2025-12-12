@@ -215,7 +215,7 @@ case 0:
             var17 = var12[var15];
             var17 = var7.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'variant': 'text-md/bold', 'color': 'header-primary'};
+            var17 = {'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             var17['children'] = var20;
             var18 = var19.bind(var4)(var18, var17);
             var17 = new Array(2);

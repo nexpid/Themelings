@@ -166,7 +166,7 @@ case 7:
             var11 = var19[var11];
             var11 = var16.bind(var4)(var11);
             var16 = var11.Text;
-            var11 = {'variant': 'text-md/bold', 'color': 'header-primary'};
+            var11 = {'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             var18 = var18.image;
             var19 = var10 == var18;
             var20 = undefined;

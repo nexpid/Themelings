@@ -80,7 +80,7 @@ case 3:
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
             var4 = var4.colors;
-            var3 = var4.BACKGROUND_MOBILE_PRIMARY;
+            var3 = var4.BACKGROUND_BASE_LOWER;
 case 2:
             var2['backgroundColor'] = var3;
             var3 = 16;
@@ -514,7 +514,7 @@ case 10:
             var9 = var7[var2];
             var11 = var4.bind(var5)(var9);
             var9 = var11.useAnimatedStyle;
-            var8 = function w() {
+            var8 = function x() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot2;
@@ -625,7 +625,7 @@ case 33:
             var12 = var17[var12];
             var12 = var13.bind(var5)(var12);
             var12 = var12.colors;
-            var1 = var12.BACKGROUND_MOBILE_PRIMARY;
+            var1 = var12.BACKGROUND_BASE_LOWER;
 case 32:
             var1 = var8.bind(var11)(var1);
             var11 = _closure1_slot0;

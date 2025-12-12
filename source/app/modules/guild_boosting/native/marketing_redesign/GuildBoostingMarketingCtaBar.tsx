@@ -140,7 +140,7 @@ case 2:
     var15 = var6[var11];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var15;
     var4['guildIconText'] = var9;
     var9 = {'alignSelf': 'center', 'maxWidth': '50%', 'textAlign': 'center'};

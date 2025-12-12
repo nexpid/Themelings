@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'center'};

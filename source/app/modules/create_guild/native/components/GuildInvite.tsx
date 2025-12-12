@@ -253,7 +253,7 @@ case 2:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var13 = 'center';
     var9['alignItems'] = var13;
@@ -773,7 +773,7 @@ case 37:
             var6 = var12[var13];
             var6 = var19.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var11 = var16.header;
             var6['style'] = var11;
             var23 = 17;
@@ -878,7 +878,7 @@ case 39:
             var13 = var19[var13];
             var13 = var22.bind(var5)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var13 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var13['children'] = var20;
             var14 = var17.bind(var5)(var14, var13);
             var13 = new Array(2);

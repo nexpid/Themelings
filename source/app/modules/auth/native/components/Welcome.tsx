@@ -524,7 +524,7 @@ case 18:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var14;
     var13 = var13.PRIMARY_SEMIBOLD;
     var9['fontFamily'] = var13;

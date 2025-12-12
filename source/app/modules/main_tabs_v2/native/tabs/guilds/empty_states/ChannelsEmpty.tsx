@@ -252,7 +252,7 @@ case 2:
             var12 = var14[var11];
             var12 = var19.bind(var4)(var12);
             var15 = var12.Text;
-            var12 = {'color': 'header-primary', 'variant': 'heading-md/bold'};
+            var12 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-md/bold'};
             var20 = var22.text;
             var17 = new Array(2);
             var17[0] = var20;

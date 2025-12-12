@@ -108,7 +108,7 @@ case 4:
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.HEADER_PRIMARY;
+        var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
         var9['color'] = var14;
         var4['emojiText'] = var9;
         var9 = {};
@@ -129,7 +129,7 @@ case 4:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BACKGROUND_MOBILE_SECONDARY;
+        var13 = var13.BACKGROUND_BASE_LOW;
         var9['backgroundColor'] = var13;
         var4['rowBg'] = var9;
         var9 = {};
@@ -139,7 +139,7 @@ case 4:
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
         var10 = var10.colors;
-        var10 = var10.BACKGROUND_MOBILE_SECONDARY;
+        var10 = var10.BACKGROUND_BASE_LOW;
         var9['backgroundColor'] = var10;
         var4['container'] = var9;
         var4 = var7.bind(var8)(var4);
@@ -492,7 +492,7 @@ case 15:
                 var25 = var24[var17];
                 var25 = var18.bind(var4)(var25);
                 var26 = var25.Text;
-                var25 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+                var25 = {'lineClamp': 1, 'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
                 var27 = var22.emojiText;
                 var25['style'] = var27;
                 var25['children'] = var19;

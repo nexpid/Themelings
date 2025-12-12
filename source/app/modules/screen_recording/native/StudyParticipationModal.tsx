@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var12[var16];
         var6 = var9.bind(var4)(var6);
         var8 = var6.Text;
-        var6 = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
+        var6 = {'variant': 'text-lg/semibold', 'color': 'mobile-text-heading-primary'};
         var6['children'] = var17;
         var8 = var10.bind(var4)(var8, var6);
         var6 = new Array(5);

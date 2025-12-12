@@ -649,7 +649,7 @@ case 43:
             var26 = var26[var34];
             var26 = var28.bind(var4)(var26);
             var28 = var26.Text;
-            var26 = {'variant': 'text-md/bold', 'color': 'header-primary'};
+            var26 = {'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             var35 = var15.alt;
             var31 = global;
             var31 = var31.HermesInternal;

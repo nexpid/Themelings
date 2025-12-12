@@ -36,7 +36,7 @@ case 2:
             var2 = var2[var3];
             var2 = var11.bind(var4)(var2);
             var2 = var2.colors;
-            var2 = var2.HEADER_PRIMARY;
+            var2 = var2.MOBILE_TEXT_HEADING_PRIMARY;
             var14 = var6.bind(var10)(var2, var8);
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -743,7 +743,7 @@ case 66:
             var19 = var19[var15];
             var19 = var21.bind(var4)(var19);
             var21 = var19.Text;
-            var19 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var19 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var23 = var20.name;
             var19['children'] = var23;
             var21 = var22.bind(var4)(var21, var19);
@@ -899,7 +899,7 @@ case 77:
             var9 = var17[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var9 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var18.platform_name;
             var9['children'] = var17;
             var10 = var15.bind(var4)(var11, var9);

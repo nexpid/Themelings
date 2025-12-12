@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var14[var9];
         var9 = var11.bind(var4)(var9);
         var13 = var9.Text;
-        var9 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+        var9 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
         var16 = var8.title;
         var9['style'] = var16;
         var16 = var14[var12];

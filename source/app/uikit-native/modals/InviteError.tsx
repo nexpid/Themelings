@@ -115,7 +115,7 @@ case 13:
             var8 = var8[var7];
             var8 = var10.bind(var4)(var8);
             var10 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var14 = var12.expiredTitle;
             var8['style'] = var14;
             var17 = var15 == var16;

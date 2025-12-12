@@ -558,7 +558,7 @@ case 5:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var14;
     var9['textAlign'] = var13;
     var4['title'] = var9;
@@ -566,7 +566,7 @@ case 5:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['subtitle'] = var9;
     var9 = {'marginBottom': 8, 'borderRadius': null, 'display': 'flex', 'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': null, 'paddingTop': 16, 'paddingHorizontal': 64, 'height': 200, 'width': '100%', 'maxWidth': 344, 'overflow': 'hidden', 'position': 'relative'};

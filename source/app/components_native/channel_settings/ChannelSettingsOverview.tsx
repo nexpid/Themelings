@@ -367,7 +367,7 @@ case 6:
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOBILE_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var11['backgroundColor'] = var15;
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);

@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var7[var14];
     var17 = var15.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.HEADER_PRIMARY;
+    var17 = var17.MOBILE_TEXT_HEADING_PRIMARY;
     var13['color'] = var17;
     var10['title'] = var13;
     var13 = {};
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var7[var14];
     var18 = var15.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.HEADER_PRIMARY;
+    var18 = var18.MOBILE_TEXT_HEADING_PRIMARY;
     var13['color'] = var18;
     var10['subtitle'] = var13;
     var13 = {'marginBottom': 16, 'borderRadius': null, 'display': 'flex', 'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': null, 'padding': 16};

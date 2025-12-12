@@ -201,7 +201,7 @@ case 4:
 case 7:
             var17 = 'text-feedback-critical';
 case 6:
-            var19 = 'header-primary';
+            var19 = 'mobile-text-heading-primary';
             if(!var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
             var19 = 'text-feedback-critical';

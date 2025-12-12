@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var7.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_PRIMARY;
+    var12 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var11['tintColor'] = var12;
     var8['closeButtonIcon'] = var11;
     var8 = var9.bind(var10)(var8);

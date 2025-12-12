@@ -1503,7 +1503,7 @@ case 37:
                     var11 = 'text-muted';
                     if(!var12) { _fun0019_ip = 99; continue _fun0019 }
 case 100:
-                    var11 = 'header-primary';
+                    var11 = 'mobile-text-heading-primary';
 case 99:
                     var5['color'] = var11;
                     var10 = _closure2_slot0;

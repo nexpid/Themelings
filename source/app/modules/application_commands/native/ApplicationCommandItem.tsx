@@ -253,7 +253,7 @@ case 23:
             var15 = var11[var6];
             var15 = var7.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var15 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var19 = var18.displayName;
             var17 = '/ ';
             var17 = var17 + var19;

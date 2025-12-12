@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
-    var _closure1_slot3 = var4;
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var8;
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -29,7 +29,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 12;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var7 = var8.lazy;
+    var4 = function() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 7;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 8;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -51,7 +72,7 @@ case 0:
 case 3:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 4;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -73,30 +94,47 @@ case 2:
     var4 = function openGuildPowerupDetailsModal(arg1, arg2) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var4 = var2[var1];
         var1 = undefined;
-        var5 = var5.bind(var1)(var4);
-        var4 = var5.pushLazy;
-        var6 = _closure1_slot0;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.openLazy;
+        var4 = _closure1_slot0;
+        var3 = 7;
+        var3 = var2[var3];
+        var4 = var4.bind(var1)(var3);
         var3 = 6;
         var3 = var2[var3];
-        var6 = var6.bind(var1)(var3);
-        var3 = 5;
-        var3 = var2[var3];
         var2 = var2.paths;
-        var3 = var6.bind(var1)(var3, var2);
-        var2 = {};
-        var6 = arg1;
-        var2['guildId'] = var6;
-        var6 = arg2;
-        var2['powerup'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
+        var4 = var4.bind(var1)(var3, var2);
+        var3 = {};
+        var2 = arg1;
+        var3['guildId'] = var2;
+        var2 = arg2;
+        var3['powerup'] = var2;
+        var2 = 'GuildPowerupsBottomSheet';
+        var2 = var5.bind(var6)(var4, var2, var3);
         return var1;
     };
     var3['openGuildPowerupDetailsModal'] = var4;
-    var4 = function openDeactivateModal() {
+    var4 = function openDeactivateModal(arg1, arg2) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 9;
+        var3 = var3[var1];
         var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.openAlert;
+        var6 = _closure1_slot6;
+        var3 = _closure1_slot7;
+        var2 = {};
+        var7 = arg1;
+        var2['guildId'] = var7;
+        var7 = arg2;
+        var2['powerup'] = var7;
+        var3 = var6.bind(var1)(var3, var2);
+        var2 = 'guild-powerups-deactivate-alert';
+        var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
     var3['openDeactivateModal'] = var4;
@@ -107,7 +145,7 @@ case 2:
         var _closure2_slot1 = var8;
         var7 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var1 = 7;
+        var1 = 10;
         var1 = var10[var1];
         var4 = undefined;
         var1 = var7.bind(var4)(var1);
@@ -115,7 +153,7 @@ case 2:
         var9 = var1.onToggle;
         var _closure2_slot2 = var9;
         var6 = _closure1_slot0;
-        var1 = 8;
+        var1 = 11;
         var1 = var10[var1];
         var12 = var6.bind(var4)(var1);
         var11 = var12.useStateFromStores;
@@ -131,7 +169,7 @@ case 2:
         };
         var6 = var11.bind(var12)(var6, var1);
         var _closure2_slot3 = var6;
-        var1 = 9;
+        var1 = 12;
         var1 = var10[var1];
         var1 = var7.bind(var4)(var1);
         var7 = var1.bind(var4)(var5, var8);
@@ -180,7 +218,7 @@ case 9:
 case 7:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 10;
+                var1 = 13;
                 var5 = var5[var1];
                 var1 = undefined;
                 var8 = var6.bind(var1)(var5);
@@ -194,7 +232,7 @@ case 7:
 case 12:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 11;
+                var7 = 14;
                 var7 = var9[var7];
                 var8 = var8.bind(var1)(var7);
                 var7 = var8.openTransferModal;

@@ -97,7 +97,7 @@ case 11:
             var5 = var13[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'style': null, 'ellipsizeMode': 'middle', 'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'header-primary'};
+            var5 = {'style': null, 'ellipsizeMode': 'middle', 'lineClamp': 1, 'variant': 'text-xs/medium', 'color': 'mobile-text-heading-primary'};
             var13 = var9.attachmentFileName;
             var5['style'] = var13;
             var5['children'] = var12;

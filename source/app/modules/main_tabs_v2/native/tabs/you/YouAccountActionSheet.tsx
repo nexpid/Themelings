@@ -1166,7 +1166,7 @@ case 54:
             var20 = var24[var20];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 2};
+            var20 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 2};
             if(var23) { _fun0008_ip = 55; continue _fun0008 }
 case 56:
             var26 = _closure1_slot0;

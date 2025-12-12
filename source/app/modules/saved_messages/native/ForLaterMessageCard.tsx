@@ -53,7 +53,7 @@ case 0:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var6 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var11 = var9.deletedText;
             var6['style'] = var11;
             var10 = var10.saveData;

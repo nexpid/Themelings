@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var10;
     var10 = 25;
     var9['margin'] = var10;
@@ -388,7 +388,7 @@ case 29:
             var20 = var33[var22];
             var20 = var27.bind(var5)(var20);
             var24 = var20.Text;
-            var20 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var20 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var26 = var11.purchasedAt;
             var20['style'] = var26;
             var26 = 24;
@@ -417,7 +417,7 @@ case 28:
             var21 = var26[var22];
             var21 = var27.bind(var5)(var21);
             var24 = var21.Text;
-            var21 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var21 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var28 = var11.purchasedAt;
             var21['style'] = var28;
             var30 = 24;
@@ -449,7 +449,7 @@ case 31:
             var22 = var25[var22];
             var22 = var26.bind(var5)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var22 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var27 = var11.purchasedAt;
             var22['style'] = var27;
             var27 = var25[var30];
@@ -821,7 +821,7 @@ case 55:
             var3 = var17[var13];
             var16 = var15.bind(var4)(var3);
             var6 = var16.useAnimatedStyle;
-            var3 = function k() {
+            var3 = function G() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot6;
@@ -899,7 +899,7 @@ case 63:
             var3 = var17[var13];
             var16 = var15.bind(var4)(var3);
             var6 = var16.useAnimatedProps;
-            var3 = function G() {
+            var3 = function k() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = {};

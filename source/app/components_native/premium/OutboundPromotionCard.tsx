@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;
     var4['card'] = var9;
     var9 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
@@ -373,7 +373,7 @@ case 8:
             var17 = var10[var12];
             var17 = var11.bind(var4)(var17);
             var18 = var17.Text;
-            var17 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var17 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var23 = var13.title;
             var17['style'] = var23;
             var21 = var21.outboundTitle;

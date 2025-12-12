@@ -490,7 +490,7 @@ case 50:
             var11 = var14[var11];
             var11 = var13.bind(var4)(var11);
             var13 = var11.Text;
-            var11 = {'variant': 'text-xs/normal', 'color': 'header-primary'};
+            var11 = {'variant': 'text-xs/normal', 'color': 'mobile-text-heading-primary'};
             var11['children'] = var12;
             var11 = var10.bind(var4)(var13, var11);
             var6['children'] = var11;

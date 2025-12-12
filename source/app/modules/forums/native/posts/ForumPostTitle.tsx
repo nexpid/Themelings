@@ -55,7 +55,7 @@ case 0:
             var10 = 'text-muted';
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = 'header-primary';
+            var10 = 'mobile-text-heading-primary';
 case 2:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;

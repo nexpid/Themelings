@@ -388,7 +388,7 @@ case 6:
                     var12 = 'text-default';
                     if(!var14) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var12 = 'header-primary';
+                    var12 = 'mobile-text-heading-primary';
 case 8:
                     var8['color'] = var12;
                     var11 = _closure2_slot1;

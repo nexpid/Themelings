@@ -589,7 +589,7 @@ case 32:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var14;
     var10['flex'] = var13;
     var5['container'] = var10;

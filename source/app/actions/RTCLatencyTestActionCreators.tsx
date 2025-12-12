@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'actions/RTCLatencyTestActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function fetchRTCLatencyTestRegions() {
+    var4 = function fetchRTCLatencyTestRegions(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 0;
@@ -35,12 +35,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = global;
         var5 = var4.window;
         var5 = var5.GLOBAL_ENV;
-        var7 = var5.RTC_LATENCY_ENDPOINT;
+        var12 = var5.RTC_LATENCY_ENDPOINT;
         var4 = var4.HermesInternal;
-        var6 = var4.concat;
-        var5 = '';
-        var4 = 'https:';
-        var4 = var6.bind(var5)(var4, var7);
+        var8 = var4.concat;
+        var14 = '';
+        var13 = 'https:';
+        var11 = '?v=';
+        var10 = arg1;
+        var4 = var14[var8](var13, var12, var11, var10, var9);
         var1['url'] = var4;
         var4 = false;
         var1['rejectWithError'] = var4;

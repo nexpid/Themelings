@@ -293,7 +293,7 @@ case 4:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['participantNameplateText'] = var9;
     var9 = {'flexDirection': 'row', 'paddingRight': 4};
@@ -472,7 +472,7 @@ case 6:
             var12 = var17[var10];
             var12 = var16.bind(var5)(var12);
             var15 = var12.Text;
-            var12 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+            var12 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
             var13 = var14.emptyTitle;
             var12['style'] = var13;
             var13 = 14;

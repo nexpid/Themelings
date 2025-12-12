@@ -250,7 +250,7 @@ case 3:
             var14 = var29[var17];
             var14 = var28.bind(var4)(var14);
             var18 = var14.Text;
-            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var25 = var15.header;
             var14['style'] = var25;
             var25 = 7;

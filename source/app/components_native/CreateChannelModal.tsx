@@ -2012,7 +2012,7 @@ case 120:
     var14 = var7[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var14;
     var11['flex'] = var13;
     var5['addMembersContainer'] = var11;

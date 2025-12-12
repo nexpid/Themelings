@@ -195,6 +195,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['ASYNC_VIDEO_INPUT_DEVICE_INIT'] = var2;
     var2 = 'async_clips_source_deinit';
     var5['ASYNC_CLIPS_SOURCE_DEINIT'] = var2;
+    var2 = 'port_aware_latency_testing';
+    var5['PORT_AWARE_LATENCY_TESTING'] = var2;
     var4 = {};
     var4['LOW'] = var38;
     var2 = 'LOW';

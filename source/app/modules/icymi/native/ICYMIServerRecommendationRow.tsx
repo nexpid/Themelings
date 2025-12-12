@@ -432,7 +432,7 @@ case 9:
             var11 = var16[var17];
             var11 = var10.bind(var4)(var11);
             var18 = var11.Text;
-            var11 = {'maxFontSizeMultiplier': 1, 'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var11 = {'maxFontSizeMultiplier': 1, 'lineClamp': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var21 = var9.featuredServerTitle;
             var11['style'] = var21;
             var21 = var20.name;
@@ -780,7 +780,7 @@ case 38:
             var11 = var10[var12];
             var11 = var8.bind(var5)(var11);
             var13 = var11.Text;
-            var11 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var11 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var16 = var17.title;
             var11['style'] = var16;
             var16 = 19;

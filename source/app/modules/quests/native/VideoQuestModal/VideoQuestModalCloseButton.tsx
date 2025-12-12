@@ -42,7 +42,7 @@ case 3:
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.colors;
-            var7 = var2.HEADER_PRIMARY;
+            var7 = var2.MOBILE_TEXT_HEADING_PRIMARY;
 case 2:
             var5 = var1.style;
             var3 = _closure1_slot3;

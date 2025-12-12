@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var3 = var6.bind(var5)(var1);
         var2 = var3.createMessagePreviewReactRules;
-        var1 = {'iconColor': 'header-primary', 'iconSize': 'xs', 'channelIconSize': null, 'customEmojiSize': 16};
+        var1 = {'iconColor': 'mobile-text-heading-primary', 'iconSize': 'xs', 'channelIconSize': null, 'customEmojiSize': 16};
         var4 = 1;
         var4 = var7[var4];
         var4 = var6.bind(var5)(var4);

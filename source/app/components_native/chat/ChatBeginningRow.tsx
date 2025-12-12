@@ -1255,7 +1255,7 @@ case 65:
             var8 = var8[var12];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var18 = var11.title;
             var17 = new Array(2);
             var17[0] = var18;
@@ -2865,7 +2865,7 @@ case 153:
             var21 = var21[var19];
             var21 = var22.bind(var5)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'heading-xxl/extrabold', 'color': 'header-primary'};
+            var21 = {'variant': 'heading-xxl/extrabold', 'color': 'mobile-text-heading-primary'};
             var21['children'] = var28;
             var21 = var27.bind(var5)(var22, var21);
             var11['children'] = var21;
@@ -3683,7 +3683,7 @@ case 191:
             var13 = 'heading-lg/extrabold';
 case 189:
             var6['variant'] = var13;
-            var13 = 'header-primary';
+            var13 = 'mobile-text-heading-primary';
             var6['color'] = var13;
             var6['children'] = var24;
             var6 = var9.bind(var4)(var8, var6);

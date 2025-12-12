@@ -141,7 +141,7 @@ case 4:
             var5 = undefined;
             var5 = var7.bind(var5)(var6);
             var5 = var5.colors;
-            var3 = var5.HEADER_PRIMARY;
+            var3 = var5.MOBILE_TEXT_HEADING_PRIMARY;
 case 7:
             _fun0001_ip = 8; continue _fun0001;
 case 2:
@@ -870,7 +870,7 @@ case 97:
             var19 = 'text-muted';
             if(!var20) { _fun0004_ip = 98; continue _fun0004 }
 case 96:
-            var19 = 'header-primary';
+            var19 = 'mobile-text-heading-primary';
 case 98:
             var18 = var19;
 case 94:

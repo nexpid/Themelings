@@ -159,7 +159,7 @@ case 4:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.ALERT_BG;
+    var14 = var14.MOBILE_ALERT_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var14;
     var14 = 'center';
     var15 = var6[var11];
@@ -349,7 +349,7 @@ case 7:
             var20 = var20[var18];
             var20 = var21.bind(var4)(var20);
             var21 = var20.Text;
-            var20 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var20 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var26 = var24.label;
             var24 = new Array(2);
             var24[0] = var26;

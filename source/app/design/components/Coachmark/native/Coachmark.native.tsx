@@ -200,7 +200,7 @@ case 8:
             var29 = var31[var25];
             var29 = var27.bind(var4)(var29);
             var32 = var29.Text;
-            var29 = {'style': null, 'variant': 'heading-md/bold', 'color': 'header-primary'};
+            var29 = {'style': null, 'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary'};
             var39 = var17.text;
             var29['style'] = var39;
             var29['children'] = var38;
@@ -538,7 +538,7 @@ case 30:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.COACHMARK_BG;
+    var14 = var14.MOBILE_COACHMARK_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var5['bodyBgColor'] = var10;
     var10 = {'padding': 16, 'alignItems': 'center', 'justifyContent': 'center'};

@@ -311,7 +311,7 @@ case 2:
         var5 = var18[var5];
         var5 = var17.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'heading-sm/medium', 'color': 'header-primary'};
+        var5 = {'variant': 'heading-sm/medium', 'color': 'mobile-text-heading-primary'};
         var14 = {};
         var15 = var18[var11];
         var15 = var17.bind(var4)(var15);

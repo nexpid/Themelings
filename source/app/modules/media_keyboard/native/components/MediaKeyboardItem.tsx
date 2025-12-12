@@ -204,7 +204,7 @@ case 20:
     var16 = var10[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOBILE_PRIMARY;
+    var16 = var16.BACKGROUND_BASE_LOWER;
     var6['backgroundColor'] = var16;
     var8['image'] = var6;
     var6 = {'borderRadius': null, 'overflow': 'hidden', 'position': 'relative'};

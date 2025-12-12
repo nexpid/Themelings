@@ -1352,7 +1352,7 @@ case 88:
                         var1 = undefined;
                         var5 = var6.bind(var1)(var5);
                         var6 = var5.OrbsIcon;
-                        var5 = {'size': 'xs', 'color': 'header-primary'};
+                        var5 = {'size': 'xs', 'color': 'mobile-text-heading-primary'};
                         var8 = {'marginTop': 0, 'marginRight': 3};
                         var5['style'] = var8;
                         var6 = var7.bind(var1)(var6, var5);
@@ -1398,7 +1398,7 @@ case 66:
                         var1 = undefined;
                         var5 = var6.bind(var1)(var5);
                         var6 = var5.OrbsIcon;
-                        var5 = {'size': 'xs', 'color': 'header-primary'};
+                        var5 = {'size': 'xs', 'color': 'mobile-text-heading-primary'};
                         var8 = {'marginTop': 0, 'marginRight': 3};
                         var5['style'] = var8;
                         var6 = var7.bind(var1)(var6, var5);
@@ -1775,7 +1775,7 @@ case 109:
             var37 = var24[var36];
             var37 = var8.bind(var5)(var37);
             var40 = var37.Text;
-            var37 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var37 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var37['children'] = var41;
             var37 = var38.bind(var5)(var40, var37);
             var35[1] = var37;

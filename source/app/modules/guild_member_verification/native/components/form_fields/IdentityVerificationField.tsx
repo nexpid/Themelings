@@ -50,7 +50,7 @@ case 2:
             var7 = var13[var7];
             var7 = var9.bind(var4)(var7);
             var9 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var14 = var10.label;
             var13 = new Array(1);
             var13[0] = var14;

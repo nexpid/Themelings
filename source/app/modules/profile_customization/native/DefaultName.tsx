@@ -254,7 +254,7 @@ case 23:
             var28 = var10.username;
             var17['style'] = var28;
             var17['variant'] = var27;
-            var27 = 'header-primary';
+            var27 = 'mobile-text-heading-primary';
             var17['color'] = var27;
             var17['lineClamp'] = var22;
             var22 = new Array(2);

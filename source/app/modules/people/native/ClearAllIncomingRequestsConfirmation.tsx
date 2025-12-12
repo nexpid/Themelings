@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var21[var22];
         var22 = var24.bind(var4)(var22);
         var26 = var22.Text;
-        var22 = {'style': null, 'variant': 'text-xs/normal', 'color': 'header-primary'};
+        var22 = {'style': null, 'variant': 'text-xs/normal', 'color': 'mobile-text-heading-primary'};
         var27 = var25.noticeHeader;
         var22['style'] = var27;
         var27 = var21[var19];

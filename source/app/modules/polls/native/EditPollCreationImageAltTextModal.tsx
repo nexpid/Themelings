@@ -235,7 +235,7 @@ case 6:
             var7 = var16[var11];
             var7 = var22.bind(var4)(var7);
             var17 = var7.Text;
-            var7 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary'};
+            var7 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary'};
             var18 = var16[var19];
             var18 = var22.bind(var4)(var18);
             var27 = var18.intl;

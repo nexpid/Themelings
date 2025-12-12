@@ -346,7 +346,7 @@ case 0:
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
                     var6 = var5.Text;
-                    var5 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+                    var5 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                     var8 = _closure2_slot12;
                     var5['children'] = var8;
                     var6 = var7.bind(var1)(var6, var5);

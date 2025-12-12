@@ -189,7 +189,7 @@ case 10:
             var9 = var12[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var9 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var9['children'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;

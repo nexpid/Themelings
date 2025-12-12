@@ -273,7 +273,7 @@ case 35:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {'display': 'flex', 'flexGrow': 1};
@@ -290,7 +290,7 @@ case 35:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['scrollContainer'] = var9;
     var9 = {};
@@ -331,7 +331,7 @@ case 35:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var14;
     var4['footer'] = var9;
     var9 = {};
@@ -808,7 +808,7 @@ case 55:
             var14 = var17[var21];
             var14 = var28.bind(var4)(var14);
             var24 = var14.Text;
-            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var14 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var22 = var10.title;
             var14['style'] = var22;
             var22 = 25;

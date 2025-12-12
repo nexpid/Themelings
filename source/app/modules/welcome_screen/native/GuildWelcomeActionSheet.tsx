@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var23 = var17.bind(var1)(var16, var15, var18);
     var24 = var10;
     var15 = copyDataProperties(var24, var23);
@@ -829,7 +829,7 @@ case 31:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+                var2 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
                 var1 = _closure2_slot2;
                 var1 = var1.headerGuildName;
                 var2['style'] = var1;

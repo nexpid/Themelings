@@ -210,7 +210,7 @@ case 22:
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var7 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var11 = var11.guildNameText;
             var7['style'] = var11;
             var7['children'] = var10;

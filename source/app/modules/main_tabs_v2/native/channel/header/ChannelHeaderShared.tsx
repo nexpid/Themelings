@@ -145,7 +145,7 @@ case 10:
             var12 = var16[var12];
             var12 = var14.bind(var4)(var12);
             var14 = var12.Text;
-            var12 = {'variant': 'heading-lg/bold', 'color': 'header-primary', 'lineClamp': 1, 'style': null, 'accessibilityLabel': null, 'accessibilityRole': 'header', 'maxFontSizeMultiplier': 2};
+            var12 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'style': null, 'accessibilityLabel': null, 'accessibilityRole': 'header', 'maxFontSizeMultiplier': 2};
             var16 = var11.channelName;
             var12['style'] = var16;
             var12['accessibilityLabel'] = var17;
@@ -159,7 +159,7 @@ case 9:
             var12 = 12;
             var12 = var21[var12];
             var15 = var15.bind(var4)(var12);
-            var12 = {'userId': null, 'guildId': null, 'userName': null, 'variant': 'heading-lg/bold', 'defaultColor': 'header-primary', 'lineClamp': 1};
+            var12 = {'userId': null, 'guildId': null, 'userName': null, 'variant': 'heading-lg/bold', 'defaultColor': 'mobile-text-heading-primary', 'lineClamp': 1};
             var12['userId'] = var20;
             var12['guildId'] = var19;
             var12['userName'] = var18;

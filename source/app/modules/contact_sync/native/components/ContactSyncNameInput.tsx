@@ -176,7 +176,7 @@ case 6:
             var11 = var11[var13];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var21 = var10.title;
             var11['style'] = var21;
             var23 = _closure1_slot0;

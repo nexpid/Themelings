@@ -722,7 +722,7 @@ case 36:
             var18 = var21[var24];
             var18 = var30.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'style': null, 'variant': 'heading-xl/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var18 = {'style': null, 'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var31 = var28.headerText;
             var18['style'] = var31;
             var31 = 12;
@@ -742,7 +742,7 @@ case 36:
             var18 = var21[var24];
             var18 = var30.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var18 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var32 = var28.bodyText;
             var18['style'] = var32;
             var21 = var21[var31];

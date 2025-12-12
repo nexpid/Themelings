@@ -235,7 +235,7 @@ case 18:
                     var7 = var11[var7];
                     var7 = var8.bind(var5)(var7);
                     var8 = var7.Text;
-                    var7 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
+                    var7 = {'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
                     var10 = var10.name;
                     var7['children'] = var10;
                     var7 = var9.bind(var5)(var8, var7);
@@ -275,7 +275,7 @@ case 22:
                     var2 = var7[var2];
                     var2 = var3.bind(var5)(var2);
                     var3 = var2.Text;
-                    var2 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
+                    var2 = {'style': null, 'variant': 'text-xs/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
                     var7 = {};
                     var8 = 1;
                     var7['marginVertical'] = var8;

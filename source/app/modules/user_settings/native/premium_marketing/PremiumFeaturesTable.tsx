@@ -224,7 +224,7 @@ case 4:
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+        var1 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
@@ -934,7 +934,7 @@ case 77:
             var22 = var16[var5];
             var22 = var8.bind(var4)(var22);
             var23 = var22.Text;
-            var22 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var22 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var22['children'] = var21;
             var22 = var12.bind(var4)(var23, var22);
             var1['column1'] = var22;
@@ -942,7 +942,7 @@ case 77:
             var21 = var16[var5];
             var21 = var8.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var21 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var21['children'] = var17;
             var21 = var12.bind(var4)(var22, var21);
             var1['column2'] = var21;
@@ -1240,7 +1240,7 @@ case 78:
             var5 = var16[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var16 = var10.headerText;
             var5['style'] = var16;
             if(!(var15 == var13)) { _fun0003_ip = 80; continue _fun0003 }

@@ -24,7 +24,7 @@ case 0:
             var6 = var8.useToken;
             var1 = null;
             var11 = var1 != var10;
-            var3 = 'header-primary';
+            var3 = 'mobile-text-heading-primary';
             if(!var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var10;
@@ -108,7 +108,7 @@ case 16:
             var1 = var9[var1];
             var1 = var3.bind(var5)(var1);
             var3 = var1.Text;
-            var1 = {'onTextLayout': null, 'style': null, 'lineClamp': 3, 'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var1 = {'onTextLayout': null, 'style': null, 'lineClamp': 3, 'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var1['onTextLayout'] = var8;
             var8 = var7.contentContainer;
             var1['style'] = var8;

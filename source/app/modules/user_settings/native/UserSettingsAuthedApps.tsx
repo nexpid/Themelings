@@ -158,7 +158,7 @@ case 0:
                 var1 = undefined;
                 var6 = var14.bind(var1)(var6);
                 var10 = var6.Text;
-                var6 = {'color': 'header-primary', 'variant': 'heading-md/semibold'};
+                var6 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-md/semibold'};
                 var11 = 15;
                 var12 = var15[var11];
                 var12 = var14.bind(var1)(var12);
@@ -389,7 +389,7 @@ case 5:
             var9 = var16[var9];
             var9 = var15.bind(var5)(var9);
             var10 = var9.Text;
-            var9 = {'color': 'header-primary', 'style': null, 'variant': 'heading-md/extrabold'};
+            var9 = {'color': 'mobile-text-heading-primary', 'style': null, 'variant': 'heading-md/extrabold'};
             var12 = var6.emptyText;
             var9['style'] = var12;
             var12 = 15;

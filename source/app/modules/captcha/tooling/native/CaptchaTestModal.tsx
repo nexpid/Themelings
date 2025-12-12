@@ -300,7 +300,7 @@ case 4:
             var8 = var12[var13];
             var8 = var10.bind(var5)(var8);
             var15 = var8.Text;
-            var8 = {'variant': 'heading-lg/bold', 'color': 'header-primary', 'children': 'Decider'};
+            var8 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'children': 'Decider'};
             var15 = var19.bind(var5)(var15, var8);
             var8 = new Array(2);
             var8[0] = var15;
@@ -363,7 +363,7 @@ case 19:
             var13 = var15[var13];
             var13 = var17.bind(var5)(var13);
             var17 = var13.Text;
-            var13 = {'variant': 'heading-lg/bold', 'color': 'header-primary', 'children': 'Difficulty'};
+            var13 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'children': 'Difficulty'};
             var17 = var19.bind(var5)(var17, var13);
             var13 = new Array(2);
             var13[0] = var17;

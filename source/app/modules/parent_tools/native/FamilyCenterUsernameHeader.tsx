@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var12[var9];
         var5 = var10.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+        var5 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
         var8 = new Array(2);
         var8[0] = var13;
         var9 = var12[var9];

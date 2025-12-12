@@ -177,7 +177,7 @@ case 0:
             var14 = var14[var21];
             var14 = var17.bind(var4)(var14);
             var17 = var14.Text;
-            var14 = {'lineClamp': 1, 'ellipsizeMode': 'tail', 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var14 = {'lineClamp': 1, 'ellipsizeMode': 'tail', 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var22 = '';
             if(!(var22 === var19)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:

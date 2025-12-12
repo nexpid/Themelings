@@ -425,7 +425,7 @@ case 32:
             var2 = var2[var23];
             var2 = var3.bind(var4)(var2);
             var3 = var2.Text;
-            var2 = {'style': null, 'accessibilityRole': 'header', 'color': 'header-primary', 'variant': 'heading-lg/bold', 'tabularNumbers': true};
+            var2 = {'style': null, 'accessibilityRole': 'header', 'color': 'mobile-text-heading-primary', 'variant': 'heading-lg/bold', 'tabularNumbers': true};
             var5 = var13.centerText;
             var2['style'] = var5;
             var5 = true;

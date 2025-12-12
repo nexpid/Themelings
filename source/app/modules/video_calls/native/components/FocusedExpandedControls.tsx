@@ -307,7 +307,7 @@ case 12:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var13;
     var5['formColor'] = var10;
     var10 = {'position': 'absolute', 'bottom': 4294967292, 'right': '70%'};

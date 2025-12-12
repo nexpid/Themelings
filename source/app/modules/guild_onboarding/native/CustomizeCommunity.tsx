@@ -326,7 +326,7 @@ case 13:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-xs/medium', 'color': 'header-primary'};
+                var2 = {'variant': 'text-xs/medium', 'color': 'mobile-text-heading-primary'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;
@@ -408,7 +408,7 @@ case 18:
             var6 = var18[var8];
             var6 = var17.bind(var5)(var6);
             var9 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var14 = var11.connectionsTitle;
             var6['style'] = var14;
             var14 = 21;
@@ -1459,7 +1459,7 @@ case 58:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var18 = var14.HEADER_PRIMARY;
+    var18 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var14 = 16;
     var24 = var22.bind(var1)(var21, var18, var14);
     var25 = var9;
@@ -1616,7 +1616,7 @@ case 58:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var24 = var16.bind(var1)(var14, var13, var17);
     var25 = var9;
     var13 = copyDataProperties(var25, var24);
@@ -1885,7 +1885,7 @@ case 74:
             var15 = var26[var15];
             var15 = var23.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var22 = var7.sheetTitle;
             var15['style'] = var22;
             var22 = 21;
@@ -1938,7 +1938,7 @@ case 76:
             var15 = var25[var16];
             var15 = var24.bind(var5)(var15);
             var19 = var15.Text;
-            var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var15 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var21 = var7.sheetTitle;
             var15['style'] = var21;
             var21 = 21;

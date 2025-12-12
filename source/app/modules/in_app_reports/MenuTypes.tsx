@@ -40,6 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['USER'] = var1;
     var1 = 'guild_urf';
     var5['GUILD'] = var1;
+    var1 = 'media_takedown';
+    var5['MEDIA_TAKEDOWN'] = var1;
     var4 = {};
     var1 = 'sub_spam';
     var4['SUB_SPAM'] = var1;

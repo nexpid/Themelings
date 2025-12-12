@@ -103,7 +103,7 @@ case 0:
             var8 = var10[var6];
             var8 = var15.bind(var4)(var8);
             var13 = var8.Text;
-            var8 = {'style': null, 'accessibilityRole': 'header', 'maxFontSizeMultiplier': 2, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var8 = {'style': null, 'accessibilityRole': 'header', 'maxFontSizeMultiplier': 2, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var14 = var12.title;
             var8['style'] = var14;
             var14 = 8;

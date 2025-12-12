@@ -792,7 +792,7 @@ case 40:
             var12 = var12[var24];
             var12 = var13.bind(var5)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var12 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var26 = var1 != var31;
             var16 = undefined;
             if(!var26) { _fun0002_ip = 42; continue _fun0002 }

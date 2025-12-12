@@ -140,7 +140,7 @@ case 0:
             var7 = var15[var6];
             var7 = var14.bind(var4)(var7);
             var17 = var7.Text;
-            var7 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var7 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var10 = var16.title;
             var7['style'] = var10;
             var10 = 11;

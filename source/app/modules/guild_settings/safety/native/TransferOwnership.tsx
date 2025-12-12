@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['background'] = var9;
     var9 = {};
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['header'] = var9;
     var9 = {'width': 78, 'height': 15, 'paddingVertical': 1, 'marginBottom': 2};
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var12;
     var4['avatarFauxBorder'] = var9;
     var9 = {'top': 4, 'left': 4};

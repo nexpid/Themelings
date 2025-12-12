@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var5 = var12.bind(var1)(var5);
             var8 = var5.Text;
-            var5 = {'color': 'header-primary', 'variant': 'heading-lg/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
+            var5 = {'color': 'mobile-text-heading-primary', 'variant': 'heading-lg/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
             var9 = 24;
             var11 = var13[var9];
             var11 = var12.bind(var1)(var11);

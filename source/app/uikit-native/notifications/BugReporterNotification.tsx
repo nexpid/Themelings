@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var12];
         var10 = var13.bind(var1)(var10);
         var15 = var10.Text;
-        var10 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'style': null, 'children': 'Bug Catcher Clyde'};
+        var10 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'style': null, 'children': 'Bug Catcher Clyde'};
         var16 = var9.text;
         var10['style'] = var16;
         var15 = var8.bind(var1)(var15, var10);

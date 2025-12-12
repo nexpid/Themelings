@@ -142,7 +142,7 @@ case 4:
     var21 = var6[var18];
     var21 = var8.bind(var1)(var21);
     var21 = var21.colors;
-    var21 = var21.HEADER_PRIMARY;
+    var21 = var21.MOBILE_TEXT_HEADING_PRIMARY;
     var16['color'] = var21;
     var7['title'] = var16;
     var16 = {};
@@ -526,7 +526,7 @@ case 21:
                 var14 = var14[var22];
                 var14 = var16.bind(var4)(var14);
                 var16 = var14.Text;
-                var14 = {'variant': 'heading-sm/semibold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+                var14 = {'variant': 'heading-sm/semibold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
                 var18 = arg2;
                 var14['children'] = var18;
                 var16 = var17.bind(var4)(var16, var14);

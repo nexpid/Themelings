@@ -675,7 +675,7 @@ case 21:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['title'] = var9;
     var9 = {'marginLeft': 16, 'marginRight': 16};

@@ -53,7 +53,7 @@ case 0:
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.ALERT_BG;
+        var14 = var14.MOBILE_ALERT_BACKGROUND_DEFAULT;
         var10['backgroundColor'] = var14;
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
@@ -290,7 +290,7 @@ case 10:
                 var16 = var11[var15];
                 var16 = var9.bind(var4)(var16);
                 var18 = var16.Text;
-                var16 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+                var16 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                 var17 = 14;
                 var19 = var11[var17];
                 var19 = var9.bind(var4)(var19);

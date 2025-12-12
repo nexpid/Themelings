@@ -670,7 +670,7 @@ case 48:
             var5 = var23[var8];
             var5 = var25.bind(var4)(var5);
             var9 = var5.Text;
-            var5 = {'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var5 = {'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var12.title;
             var5['style'] = var17;
             var18 = 30;

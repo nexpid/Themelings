@@ -286,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var15[var5];
         var5 = var14.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var7 = var11.heading;
         var5['style'] = var7;
         var7 = 6;
@@ -349,7 +349,7 @@ case 2:
                 var1 = undefined;
                 var13 = var8.bind(var1)(var13);
                 var14 = var13.Text;
-                var13 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+                var13 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
                 var15 = var10.cardHeading;
                 var13['style'] = var15;
                 var15 = var11.getHeadingCopy;

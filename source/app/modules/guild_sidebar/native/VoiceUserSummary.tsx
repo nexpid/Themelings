@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_SECONDARY;
+    var12 = var12.BACKGROUND_BASE_LOW;
     var11['borderColor'] = var12;
     var5['iconWrapper'] = var11;
     var11 = {'height': 20, 'paddingHorizontal': 4, 'paddingVertical': 0, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};

@@ -93,7 +93,7 @@ case 2:
             var8 = var11[var8];
             var8 = var7.bind(var4)(var8);
             var12 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var15 = var10.headerTitle;
             var8['style'] = var15;
             var8['children'] = var14;
@@ -690,7 +690,7 @@ case 12:
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.Text;
-                var2 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+                var2 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
                 var1 = arg1;
                 var2['children'] = var1;
                 var1 = arg2;

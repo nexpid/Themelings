@@ -292,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var6];
         var5 = var9.bind(var4)(var5);
         var12 = var5.Text;
-        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var14 = var8.title;
         var5['style'] = var14;
         var14 = var11[var13];
@@ -378,7 +378,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var15[var7];
         var7 = var14.bind(var4)(var7);
         var8 = var7.Text;
-        var7 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+        var7 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
         var9 = var9.footerTitle;
         var7['style'] = var9;
         var11 = 13;

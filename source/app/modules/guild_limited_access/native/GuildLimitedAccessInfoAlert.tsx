@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
     var4 = var4.colors;
-    var11 = var4.HEADER_PRIMARY;
+    var11 = var4.MOBILE_TEXT_HEADING_PRIMARY;
     var4 = 24;
     var15 = var13.bind(var1)(var12, var11, var4);
     var16 = var10;

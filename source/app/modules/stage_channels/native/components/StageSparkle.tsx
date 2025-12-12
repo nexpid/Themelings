@@ -64,7 +64,7 @@ case 4:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.colors;
-            var14 = var14.HEADER_PRIMARY;
+            var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
             var11['color'] = var14;
             var10 = var12.bind(var4)(var13, var11);
 case 6:
@@ -137,7 +137,7 @@ case 6:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['tintColor'] = var10;
     var4['iconStyle'] = var9;
     var9 = {'position': 'absolute', 'top': 0};

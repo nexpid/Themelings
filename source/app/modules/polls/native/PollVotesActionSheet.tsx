@@ -387,7 +387,7 @@ case 29:
             var6 = var19[var7];
             var6 = var18.bind(var5)(var6);
             var8 = var6.Text;
-            var6 = {'style': null, 'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var6 = {'style': null, 'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var12 = var16.headerText;
             var6['style'] = var12;
             var12 = var14.poll;
@@ -876,7 +876,7 @@ case 34:
             var8 = var13[var6];
             var8 = var12.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-md/bold', 'color': 'header-primary'};
+            var8 = {'style': null, 'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary'};
             var9 = var10.noResultsTitle;
             var8['style'] = var9;
             var9 = 15;

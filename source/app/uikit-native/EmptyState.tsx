@@ -149,7 +149,7 @@ case 9:
             var10 = var17[var10];
             var10 = var14.bind(var4)(var10);
             var14 = var10.Text;
-            var10 = {'variant': 'heading-lg/semibold', 'color': 'header-primary', 'maxFontSizeMultiplier': 2};
+            var10 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
             var19 = var12.emptyTitle;
             var17 = new Array(2);
             var17[0] = var19;

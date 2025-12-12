@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOBILE_PRIMARY;
+    var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var10 = 16;
     var9['padding'] = var10;

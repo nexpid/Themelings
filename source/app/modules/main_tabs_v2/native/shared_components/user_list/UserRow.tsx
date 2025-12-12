@@ -1763,7 +1763,7 @@ case 100:
                 var28 = var36;
 case 99:
                 var23['gradientColors'] = var28;
-                var28 = 'header-primary';
+                var28 = 'mobile-text-heading-primary';
                 var23['color'] = var28;
                 var36 = var27.usernameLabel;
                 var28 = new Array(4);
@@ -1806,7 +1806,7 @@ case 98:
                 var32[0] = var35;
                 var32[1] = var34;
                 var23['style'] = var32;
-                var32 = 'header-primary';
+                var32 = 'mobile-text-heading-primary';
                 var23['defaultColor'] = var32;
                 var48 = var23;
                 var47 = var31;

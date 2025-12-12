@@ -457,7 +457,7 @@ case 12:
             var5 = var5[var8];
             var5 = var6.bind(var7)(var5);
             var5 = var5.colors;
-            var5 = var5.HEADER_PRIMARY;
+            var5 = var5.MOBILE_TEXT_HEADING_PRIMARY;
             var1['titleColor'] = var5;
             var5 = _closure1_slot4;
             var1['acceptLabelActiveBackgroundColor'] = var5;

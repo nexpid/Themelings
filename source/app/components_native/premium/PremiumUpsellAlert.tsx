@@ -280,7 +280,7 @@ case 0:
                 var7 = var7[var11];
                 var7 = var8.bind(var4)(var7);
                 var8 = var7.Text;
-                var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+                var7 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
                 var16 = var10.upsellTitle;
                 var7['style'] = var16;
                 if(!var15) { _fun0003_ip = 9; continue _fun0003 }
@@ -373,7 +373,7 @@ case 9:
         var12 = var11[var6];
         var12 = var7.bind(var4)(var12);
         var13 = var12.Text;
-        var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+        var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
         var15 = var10.premiumUpsellTitle;
         var12['style'] = var15;
         var12['children'] = var14;

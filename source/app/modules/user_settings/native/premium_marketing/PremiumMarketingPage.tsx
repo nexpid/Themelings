@@ -420,7 +420,7 @@ case 23:
             var23 = var29[var23];
             var23 = var28.bind(var4)(var23);
             var24 = var23.Text;
-            var23 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var23 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var25 = var15.promotionCardHeader;
             var23['style'] = var25;
             var25 = 15;

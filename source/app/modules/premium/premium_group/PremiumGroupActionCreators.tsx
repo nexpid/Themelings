@@ -218,48 +218,78 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 21; continue _fun0003 }
 case 3:
-                    var5 = arg1;
-                    var6 = arg2;
-case 22: // try_start_0
-                    var4 = _closure1_slot0;
+                    var9 = arg1;
+                    var10 = arg2;
+                    var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 5;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
-                    var4 = var2.HTTP;
-                    var3 = var4.post;
-                    var2 = {};
-                    var8 = _closure1_slot6;
-                    var7 = var8.BILLING_SUBSCRIPTION_INVITES;
-                    var5 = var7.bind(var8)(var5);
-                    var2['url'] = var5;
-                    var5 = {};
-                    var5['user_ids'] = var6;
-                    var2['body'] = var5;
-                    var5 = true;
-                    var2['rejectWithError'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=99);
-case 23:
-                    return var2;
-case 24:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                    var5 = 4;
+                    var3 = var3[var5];
+                    var4 = undefined;
+                    var7 = var6.bind(var4)(var3);
+                    var6 = var7.dispatch;
                     var3 = {};
-                    var4 = var2.body;
-                    var4 = var4.invited_users;
-                    var3['invitedUsers'] = var4;
-                    var4 = var2.body;
-                    var4 = var4.ineligible_users;
-                    var3['ineligibleUsers'] = var4;
-case 27: // try_end0
+                    var8 = 'PREMIUM_GROUP_INVITE_USERS_START';
+                    var3['type'] = var8;
+                    var3 = var6.bind(var7)(var3);
+case 22: // try_start_0
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var7[var3];
+                    var3 = var6.bind(var4)(var3);
+                    var7 = var3.HTTP;
+                    var6 = var7.post;
+                    var3 = {};
+                    var12 = _closure1_slot6;
+                    var11 = var12.BILLING_SUBSCRIPTION_INVITES;
+                    var8 = var9;
+                    var8 = var11.bind(var12)(var8);
+                    var3['url'] = var8;
+                    var8 = {};
+                    var8['user_ids'] = var10;
+                    var3['body'] = var8;
+                    var8 = true;
+                    var3['rejectWithError'] = var8;
+                    var3 = var6.bind(var7)(var3);
+                    SaveGenerator(address=144);
+case 23:
                     return var3;
+case 24:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var5];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'PREMIUM_GROUP_INVITE_USERS_SUCCESS';
+                    var6['type'] = var10;
+                    var6['subscriptionId'] = var9;
+                    var6 = var7.bind(var8)(var6);
+                    var6 = {};
+                    var7 = var3.body;
+                    var7 = var7.invited_users;
+                    var6['invitedUsers'] = var7;
+                    var7 = var3.body;
+                    var7 = var7.ineligible_users;
+                    var6['ineligibleUsers'] = var7;
+case 27: // try_end0
+                    return var6;
 case 25:
-                    return var2;
+                    return var3;
 case 28: // catch_target0
-                    CatchBlockStart(arg_register=1);
+                    CatchBlockStart(arg_register=2);
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var5];
+                    var4 = var3.bind(var4)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'PREMIUM_GROUP_INVITE_USERS_FAILURE';
+                    var2['type'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     var2 = null;
                     return var2;
 case 21:
@@ -288,42 +318,73 @@ case 21:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 26; continue _fun0004 }
-case 29:
-                    var6 = arg1;
-                    var5 = arg2;
-case 14: // try_start_0
-                    var4 = _closure1_slot0;
+                    if(var2) { _fun0004_ip = 29; continue _fun0004 }
+case 3:
+                    var9 = arg1;
+                    var8 = arg2;
+                    var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 5;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
-                    var4 = var2.HTTP;
-                    var3 = var4.del;
-                    var2 = {};
-                    var8 = _closure1_slot6;
-                    var7 = var8.BILLING_SUBSCRIPTION_REMOVE_USER;
-                    var5 = var7.bind(var8)(var6, var5);
-                    var2['url'] = var5;
-                    var5 = true;
-                    var2['rejectWithError'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=86);
+                    var5 = 4;
+                    var3 = var3[var5];
+                    var4 = undefined;
+                    var7 = var6.bind(var4)(var3);
+                    var6 = var7.dispatch;
+                    var3 = {};
+                    var10 = 'PREMIUM_GROUP_REMOVE_MEMBER_START';
+                    var3['type'] = var10;
+                    var3 = var6.bind(var7)(var3);
+case 22: // try_start_0
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var7[var3];
+                    var3 = var6.bind(var4)(var3);
+                    var7 = var3.HTTP;
+                    var6 = var7.del;
+                    var3 = {};
+                    var12 = _closure1_slot6;
+                    var11 = var12.BILLING_SUBSCRIPTION_REMOVE_USER;
+                    var10 = var9;
+                    var8 = var11.bind(var12)(var10, var8);
+                    var3['url'] = var8;
+                    var8 = true;
+                    var3['rejectWithError'] = var8;
+                    var3 = var6.bind(var7)(var3);
+                    SaveGenerator(address=134);
 case 30:
-                    return var2;
-case 31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 32; continue _fun0004 }
-case 33: // try_end0
-                    return var2;
+                    return var3;
+case 20:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var5];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'PREMIUM_GROUP_REMOVE_MEMBER_SUCCESS';
+                    var6['type'] = var10;
+                    var6['subscriptionId'] = var9;
+                    var6 = var7.bind(var8)(var6);
+case 9: // try_end0
+                    return var3;
+case 31:
+                    return var3;
+case 33: // catch_target0
+                    CatchBlockStart(arg_register=2);
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var5];
+                    var4 = var3.bind(var4)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'PREMIUM_GROUP_REMOVE_MEMBER_FAILURE';
+                    var2['type'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    var2 = null;
                     return var2;
-case 34: // catch_target0
-                    CatchBlockStart(arg_register=1);
-                    var2 = undefined;
-                    return var2;
-case 26:
+case 29:
                     return var1;
                 }
             };
@@ -349,8 +410,8 @@ case 26:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                    if(var2) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                     var8 = arg1;
                     var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -363,7 +424,7 @@ case 36:
                     var9 = 'PREMIUM_GROUP_MEMBERS_FETCH_START';
                     var3['type'] = var9;
                     var3 = var6.bind(var7)(var3);
-case 37: // try_start_0
+case 36: // try_start_0
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 5;
@@ -384,8 +445,8 @@ case 17:
                     return var3;
 case 18:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                    if(var6) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var8 = var3.body;
                     var7 = var8.map;
                     var6 = _closure1_slot5;
@@ -451,11 +512,11 @@ case 39:
                     var10['invitedUsers'] = var11;
                     var7['members'] = var10;
                     var7 = var8.bind(var9)(var7);
-case 40: // try_end0
+case 39: // try_end0
                     return var6;
-case 38:
+case 37:
                     return var3;
-case 41: // catch_target0
+case 40: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -468,7 +529,7 @@ case 41: // catch_target0
                     var2 = var3.bind(var4)(var2);
                     var2 = new Array(0);
                     return var2;
-case 35:
+case 34:
                     return var1;
                 }
             };
@@ -494,8 +555,8 @@ case 35:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 34; continue _fun0006 }
-case 29:
+                    if(var2) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 5;
@@ -515,16 +576,16 @@ case 29:
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=86);
-case 30:
+case 43:
                     return var2;
-case 31:
+case 44:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+                    if(var4) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                     return var3;
-case 32:
+case 45:
                     return var2;
-case 34:
+case 41:
                     return var1;
                 }
             };
@@ -550,42 +611,73 @@ case 34:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 26; continue _fun0007 }
-case 29:
-                    var6 = arg1;
-                    var5 = arg2;
-case 14: // try_start_0
-                    var4 = _closure1_slot0;
+                    if(var2) { _fun0007_ip = 29; continue _fun0007 }
+case 3:
+                    var9 = arg1;
+                    var8 = arg2;
+                    var6 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 5;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
-                    var4 = var2.HTTP;
-                    var3 = var4.del;
-                    var2 = {};
-                    var8 = _closure1_slot6;
-                    var7 = var8.BILLING_SUBSCRIPTION_INVITE;
-                    var5 = var7.bind(var8)(var6, var5);
-                    var2['url'] = var5;
-                    var5 = true;
-                    var2['rejectWithError'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=86);
+                    var5 = 4;
+                    var3 = var3[var5];
+                    var4 = undefined;
+                    var7 = var6.bind(var4)(var3);
+                    var6 = var7.dispatch;
+                    var3 = {};
+                    var10 = 'PREMIUM_GROUP_REMOVE_INVITE_START';
+                    var3['type'] = var10;
+                    var3 = var6.bind(var7)(var3);
+case 22: // try_start_0
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var7[var3];
+                    var3 = var6.bind(var4)(var3);
+                    var7 = var3.HTTP;
+                    var6 = var7.del;
+                    var3 = {};
+                    var12 = _closure1_slot6;
+                    var11 = var12.BILLING_SUBSCRIPTION_INVITE;
+                    var10 = var9;
+                    var8 = var11.bind(var12)(var10, var8);
+                    var3['url'] = var8;
+                    var8 = true;
+                    var3['rejectWithError'] = var8;
+                    var3 = var6.bind(var7)(var3);
+                    SaveGenerator(address=134);
 case 30:
-                    return var2;
-case 31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 32; continue _fun0007 }
-case 33: // try_end0
-                    return var2;
+                    return var3;
+case 20:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0007_ip = 31; continue _fun0007 }
 case 32:
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var5];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'PREMIUM_GROUP_REMOVE_INVITE_SUCCESS';
+                    var6['type'] = var10;
+                    var6['subscriptionId'] = var9;
+                    var6 = var7.bind(var8)(var6);
+case 9: // try_end0
+                    return var3;
+case 31:
+                    return var3;
+case 33: // catch_target0
+                    CatchBlockStart(arg_register=2);
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var5];
+                    var4 = var3.bind(var4)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'PREMIUM_GROUP_REMOVE_INVITE_FAILURE';
+                    var2['type'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    var2 = null;
                     return var2;
-case 34: // catch_target0
-                    CatchBlockStart(arg_register=1);
-                    var2 = undefined;
-                    return var2;
-case 26:
+case 29:
                     return var1;
                 }
             };
@@ -611,7 +703,7 @@ case 26:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 42; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 47; continue _fun0008 }
 case 3:
                     var6 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -624,7 +716,7 @@ case 3:
                     var8 = 'PREMIUM_GROUP_INVITES_FETCH_START';
                     var4['type'] = var8;
                     var4 = var6.bind(var7)(var4);
-case 43: // try_start_0
+case 48: // try_start_0
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 5;
@@ -640,12 +732,12 @@ case 43: // try_start_0
                     var4['rejectWithError'] = var8;
                     var4 = var6.bind(var7)(var4);
                     SaveGenerator(address=118);
-case 44:
+case 49:
                     return var4;
 case 5:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0008_ip = 45; continue _fun0008 }
-case 46:
+                    if(var6) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
                     var9 = var4.body;
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -657,11 +749,11 @@ case 46:
                     var6['type'] = var10;
                     var6['invites'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 47: // try_end0
-                    _fun0008_ip = 48; continue _fun0008;
-case 45:
+case 52: // try_end0
+                    _fun0008_ip = 53; continue _fun0008;
+case 50:
                     return var4;
-case 49: // catch_target0
+case 54: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -672,9 +764,9 @@ case 49: // catch_target0
                     var6 = 'PREMIUM_GROUP_INVITES_FETCH_FAIL';
                     var3['type'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 48:
+case 53:
                     return var2;
-case 42:
+case 47:
                     return var1;
                 }
             };
@@ -701,7 +793,7 @@ case 0:
                     StartGenerator();
                     var11 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 50; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 55; continue _fun0009 }
 case 14:
                     var8 = var11;
                     var2 = undefined;
@@ -717,7 +809,7 @@ case 14:
                     var4['type'] = var12;
                     var4['inviteId'] = var11;
                     var4 = var6.bind(var10)(var4);
-case 51: // try_start_0
+case 56: // try_start_0
                     var6 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var4 = 5;
@@ -735,12 +827,12 @@ case 51: // try_start_0
                     var4['rejectWithError'] = var11;
                     var4 = var6.bind(var10)(var4);
                     SaveGenerator(address=139);
-case 39:
+case 38:
                     return var4;
-case 52:
+case 57:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 53; continue _fun0009 }
-case 27:
+                    if(var6) { _fun0009_ip = 58; continue _fun0009 }
+case 59:
                     var12 = var4.body;
                     var10 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -754,11 +846,11 @@ case 27:
                     var6['inviteId'] = var13;
                     var6['invite'] = var12;
                     var6 = var10.bind(var11)(var6);
-case 54: // try_end0
-                    _fun0009_ip = 55; continue _fun0009;
-case 53:
+case 60: // try_end0
+                    _fun0009_ip = 61; continue _fun0009;
+case 58:
                     return var4;
-case 56: // catch_target0
+case 62: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var9 = var6;
                     var4 = _closure1_slot1;
@@ -773,22 +865,22 @@ case 56: // catch_target0
                     var8 = null;
                     var10 = var8 == var6;
                     var6 = undefined;
-                    if(var10) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+                    if(var10) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
                     var6 = var9.status;
-case 57:
+case 63:
                     var7 = var6;
                     var8 = var8 != var6;
                     var6 = 0;
-                    if(!var8) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
+                    if(!var8) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                     var6 = var7;
-case 59:
+case 65:
                     var3['status'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 55:
+case 61:
                     return var2;
-case 50:
+case 55:
                     return var1;
                 }
             };

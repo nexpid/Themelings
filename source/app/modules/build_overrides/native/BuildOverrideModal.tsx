@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var13;
     var4['container'] = var9;
     var9 = {'marginTop': 160, 'flex': 1, 'alignItems': 'center'};
@@ -256,7 +256,7 @@ case 14:
             var8 = var13[var16];
             var8 = var19.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var8 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var14 = var21.buildOverrideInvalid;
             var8['style'] = var14;
             var14 = var13[var22];
@@ -281,7 +281,7 @@ case 13:
             var14 = var20[var16];
             var14 = var23.bind(var4)(var14);
             var18 = var14.Text;
-            var14 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var24 = var21.buildOverrideName;
             var14['style'] = var24;
             var14['children'] = var9;

@@ -185,7 +185,7 @@ case 16:
                 var5 = {};
                 var17 = var17.premiumWheel;
                 var5['style'] = var17;
-                var17 = 'header-primary';
+                var17 = 'mobile-text-heading-primary';
                 var5['color'] = var17;
                 var7 = var13.bind(var4)(var8, var5);
 case 15:

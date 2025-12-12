@@ -1167,7 +1167,7 @@ case 73:
     var18 = var10[var16];
     var18 = var17.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.HEADER_PRIMARY;
+    var18 = var18.MOBILE_TEXT_HEADING_PRIMARY;
     var14['color'] = var18;
     var8['discordMemberCreatedAtValue'] = var14;
     var14 = {'marginLeft': 4, 'height': 16, 'width': 16};

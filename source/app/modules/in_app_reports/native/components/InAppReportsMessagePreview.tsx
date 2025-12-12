@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var11];
     var12 = var7.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_PRIMARY;
+    var12 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var12;
     var4['borderColor'] = var10;
     var10 = {'lineHeight': 16, 'marginBottom': 8};

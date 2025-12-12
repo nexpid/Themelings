@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var14[var15];
         var15 = var17.bind(var4)(var15);
         var18 = var15.Text;
-        var15 = {'style': null, 'variant': 'text-lg/bold', 'color': 'header-primary'};
+        var15 = {'style': null, 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
         var22 = var22.groupHeader;
         var15['style'] = var22;
         var15['children'] = var21;
@@ -393,7 +393,7 @@ case 9:
         var9 = var14[var10];
         var9 = var11.bind(var4)(var9);
         var15 = var9.Text;
-        var9 = {'style': null, 'variant': 'text-sm/bold', 'color': 'header-primary'};
+        var9 = {'style': null, 'variant': 'text-sm/bold', 'color': 'mobile-text-heading-primary'};
         var18 = var18.header;
         var9['style'] = var18;
         var9['children'] = var17;

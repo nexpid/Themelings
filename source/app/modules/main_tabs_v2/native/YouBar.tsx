@@ -144,7 +144,7 @@ case 5:
             var5 = var15[var5];
             var5 = var14.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'variant': 'heading-md/bold', 'color': 'header-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'maxFontSizeMultiplier': 1.75};
+            var5 = {'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'maxFontSizeMultiplier': 1.75};
             var11 = 1;
             var10 = {};
             var13 = 19;
@@ -1061,7 +1061,7 @@ case 35:
             var14 = var30[var17];
             var14 = var29.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'heading-md/bold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75, 'style': null, 'children': 'Disquird'};
+            var14 = {'variant': 'heading-md/bold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75, 'style': null, 'children': 'Disquird'};
             var25 = 1;
             var18 = {};
             var27 = 0;

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOBILE_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var15;
     var14 = var14.hairlineWidth;
     var10['borderBottomWidth'] = var14;
@@ -136,7 +136,7 @@ case 3:
             var5 = var13[var5];
             var5 = var11.bind(var4)(var5);
             var7 = var5.Text;
-            var5 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var5 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var15 = var9.cancelText;
             var5['style'] = var15;
             var15 = var13[var14];

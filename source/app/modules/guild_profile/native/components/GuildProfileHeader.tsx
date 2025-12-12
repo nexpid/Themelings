@@ -311,7 +311,7 @@ case 10:
             var8 = var8[var9];
             var8 = var11.bind(var4)(var8);
             var11 = var8.Text;
-            var8 = {'onPress': null, 'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var8 = {'onPress': null, 'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var13 = undefined;
             if(!var16) { _fun0001_ip = 12; continue _fun0001 }
 case 13:

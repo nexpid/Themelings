@@ -957,7 +957,7 @@ case 29:
             var7 = var7[var28];
             var7 = var10.bind(var5)(var7);
             var10 = var7.Text;
-            var7 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-lg/semibold', 'color': 'header-primary'};
+            var7 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var23 = var11.headerTitle;
             var7['style'] = var23;
             if(!(var2 != var18)) { _fun0004_ip = 52; continue _fun0004 }

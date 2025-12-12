@@ -694,7 +694,7 @@ case 18:
             var14 = var17;
             if(!var15) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var14 = 'header-primary';
+            var14 = 'mobile-text-heading-primary';
 case 20:
             var13['color'] = var14;
             var15 = _closure1_slot0;
@@ -766,7 +766,7 @@ case 22:
             var19 = var19[var29];
             var19 = var20.bind(var5)(var19);
             var20 = var19.Text;
-            var19 = {'style': null, 'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var19 = {'style': null, 'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var27 = var25.username;
             var19['style'] = var27;
             var26 = var26.username;
@@ -857,7 +857,7 @@ case 27:
             var31 = var31[var29];
             var31 = var33.bind(var5)(var31);
             var33 = var31.Text;
-            var31 = {'variant': 'heading-deprecated-12/semibold', 'color': 'header-primary'};
+            var31 = {'variant': 'heading-deprecated-12/semibold', 'color': 'mobile-text-heading-primary'};
             var34 = global;
             var34 = var34.HermesInternal;
             var35 = var34.concat;
@@ -906,7 +906,7 @@ case 26:
             var26 = var28[var29];
             var26 = var30.bind(var5)(var26);
             var31 = var26.Text;
-            var26 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var26 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var33 = var28[var32];
             var33 = var30.bind(var5)(var33);
             var35 = var33.intl;

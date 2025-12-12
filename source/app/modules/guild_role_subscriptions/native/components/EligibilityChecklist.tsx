@@ -70,7 +70,7 @@ case 6:
             var14 = var14[var18];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var14 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var17 = var11.rowLabel;
             var14['style'] = var17;
             var17 = var20.checked;
@@ -236,7 +236,7 @@ case 16:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.HEADER_PRIMARY;
+    var12 = var12.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var12;
     var7['actionButtonText'] = var10;
     var10 = {};

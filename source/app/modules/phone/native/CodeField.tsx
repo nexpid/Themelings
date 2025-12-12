@@ -226,7 +226,7 @@ case 19:
             var11 = var10[var13];
             var11 = var14.bind(var4)(var11);
             var15 = var11.Text;
-            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var11 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var28 = var16.title;
             var11['style'] = var28;
             var11['children'] = var27;
@@ -338,7 +338,7 @@ case 19:
     var16 = var7[var5];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOBILE_SECONDARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var16;
     var11['flex'] = var12;
     var8['background'] = var11;

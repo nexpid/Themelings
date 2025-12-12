@@ -157,7 +157,7 @@ case 2:
             var16 = var22[var16];
             var16 = var21.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var16 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var19 = var19.pillText;
             var16['style'] = var19;
             var19 = var22[var18];

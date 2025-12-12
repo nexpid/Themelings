@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var12[var5];
         var5 = var11.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
         var8 = var8.emptyDisplayTitle;
         var5['style'] = var8;
         var8 = 12;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var12[var5];
         var5 = var11.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+        var5 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
         var8 = var8.emptyDisplayTitle;
         var5['style'] = var8;
         var8 = 12;
@@ -468,7 +468,7 @@ case 17:
     var16 = var7[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var22 = var16.HEADER_PRIMARY;
+    var22 = var16.MOBILE_TEXT_HEADING_PRIMARY;
     var16 = {};
     var16['marginBottom'] = var14;
     var21 = 20;
@@ -485,7 +485,7 @@ case 17:
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var11['tintColor'] = var14;
     var2['remainingUsersIcon'] = var11;
     var11 = {'backgroundColor': null, 'borderRadius': 16, 'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};

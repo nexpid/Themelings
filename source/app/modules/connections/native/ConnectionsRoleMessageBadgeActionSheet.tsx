@@ -125,7 +125,7 @@ case 9:
             var7 = var11[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-xs/medium', 'color': 'header-primary'};
+            var7 = {'variant': 'text-xs/medium', 'color': 'mobile-text-heading-primary'};
             var7['children'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
@@ -1025,7 +1025,7 @@ case 62:
             var21 = var21[var31];
             var21 = var23.bind(var4)(var21);
             var23 = var21.Text;
-            var21 = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
+            var21 = {'variant': 'text-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var33 = var17 == var32;
             var29 = undefined;
             if(var33) { _fun0004_ip = 64; continue _fun0004 }

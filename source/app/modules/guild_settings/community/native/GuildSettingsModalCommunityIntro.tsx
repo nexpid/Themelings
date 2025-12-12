@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var12[var8];
         var7 = var9.bind(var4)(var7);
         var13 = var7.Text;
-        var7 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var7 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var7['children'] = var14;
         var13 = var10.bind(var4)(var13, var7);
         var7 = new Array(2);
@@ -322,7 +322,7 @@ case 4:
         var15 = var9[var12];
         var15 = var7.bind(var4)(var15);
         var17 = var15.Text;
-        var15 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        var15 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var16 = var14.header;
         var15['style'] = var16;
         var16 = 9;
@@ -494,7 +494,7 @@ case 8:
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var1 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var5 = arg1;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);
@@ -560,7 +560,7 @@ case 8:
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var1 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
             var5 = arg1;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);

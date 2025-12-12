@@ -235,7 +235,7 @@ case 0:
                 var3 = var3 != var4;
                 if(var1) { _fun0005_ip = 15; continue _fun0005 }
 case 16:
-                var6 = 2;
+                var6 = 3;
                 var5 = var6;
                 if(!var3) { _fun0005_ip = 17; continue _fun0005 }
 case 18:

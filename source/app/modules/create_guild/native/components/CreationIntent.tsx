@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOBILE_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var4['backgroundColor'] = var11;
     var8['scrollContainer'] = var4;
     var4 = {'alignItems': 'center', 'paddingVertical': 20, 'paddingHorizontal': 16};
@@ -301,7 +301,7 @@ case 14:
             var13 = var12[var15];
             var13 = var11.bind(var4)(var13);
             var18 = var13.Text;
-            var13 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var13 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var17 = var14.headerTitle;
             var13['style'] = var17;
             var17 = 13;

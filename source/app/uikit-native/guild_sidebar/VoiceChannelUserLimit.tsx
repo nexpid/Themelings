@@ -49,14 +49,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var13;
     var4['wrapper'] = var10;
     var10 = {'height': 20, 'flexDirection': 'row', 'paddingLeft': 6, 'alignItems': 'center', 'justifyContent': 'center'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_PRIMARY;
+    var13 = var13.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var13;
     var4['left'] = var10;
     var10 = {'borderTopWidth': 20, 'borderBottomWidth': 0, 'borderTopColor': 'transparent', 'borderBottomColor': 'transparent', 'borderRightWidth': 6, 'borderRightColor': null, 'paddingRight': 2};

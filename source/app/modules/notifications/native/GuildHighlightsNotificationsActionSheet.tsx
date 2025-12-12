@@ -44,7 +44,7 @@ case 0:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var9 = var9.guildName;
             var6['style'] = var9;
             var9 = null;
@@ -601,7 +601,7 @@ case 49:
             var12 = var32[var12];
             var12 = var27.bind(var4)(var12);
             var18 = var12.Text;
-            var12 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var12 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var20 = var17.headerTitle;
             var12['style'] = var20;
             var20 = 14;

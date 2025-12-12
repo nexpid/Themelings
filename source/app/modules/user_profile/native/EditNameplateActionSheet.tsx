@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var11['color'] = var15;
     var15 = 25;
     var11['margin'] = var15;
@@ -468,7 +468,7 @@ case 21:
             var24 = var35[var21];
             var24 = var30.bind(var5)(var24);
             var27 = var24.Text;
-            var24 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var24 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var29 = var11.purchasedAt;
             var24['style'] = var29;
             var29 = 29;
@@ -497,7 +497,7 @@ case 20:
             var25 = var29[var21];
             var25 = var30.bind(var5)(var25);
             var27 = var25.Text;
-            var25 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var25 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var31 = var11.purchasedAt;
             var25['style'] = var31;
             var34 = 29;
@@ -529,7 +529,7 @@ case 23:
             var26 = var29[var21];
             var26 = var30.bind(var5)(var26);
             var27 = var26.Text;
-            var26 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var26 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var31 = var11.purchasedAt;
             var26['style'] = var31;
             var31 = var29[var34];
@@ -568,7 +568,7 @@ case 27:
             var16 = var16[var21];
             var16 = var17.bind(var5)(var16);
             var17 = var16.Text;
-            var16 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var16 = {'variant': 'text-sm/medium', 'color': 'mobile-text-heading-primary'};
             var21 = var11.purchasedAt;
             var16['style'] = var21;
             if(!var20) { _fun0001_ip = 28; continue _fun0001 }

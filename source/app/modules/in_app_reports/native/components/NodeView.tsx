@@ -316,7 +316,7 @@ case 35:
     var11 = var6[var10];
     var11 = var15.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOBILE_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var11;
     var4['container'] = var9;
     var9 = {'flex': 1, 'alignSelf': 'stretch', 'marginTop': 24};
@@ -388,7 +388,7 @@ case 35:
     var10 = var6[var10];
     var10 = var15.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var19 = var14.bind(var1)(var13, var10, var11);
     var20 = var9;
     var10 = copyDataProperties(var20, var19);
@@ -448,7 +448,7 @@ case 13:
             var5 = var16[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var5 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
             var16 = var11.header;
             var5['style'] = var16;
             var5['children'] = var13;
@@ -683,7 +683,7 @@ case 19:
             var10 = var10[var17];
             var10 = var13.bind(var4)(var10);
             var13 = var10.Text;
-            var10 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var10 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var18 = var16.childButtonText;
             var10['style'] = var18;
             var10['children'] = var14;

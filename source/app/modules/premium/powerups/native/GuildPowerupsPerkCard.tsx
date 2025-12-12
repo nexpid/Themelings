@@ -131,7 +131,7 @@ case 4:
             var6[1] = var7;
             var1['containerStyle'] = var6;
             var6 = var10.card;
-            var1['cardStyle'] = var6;
+            var1['style'] = var6;
             var1['status'] = var13;
             var1['onPress'] = var5;
             var7 = _closure1_slot3;

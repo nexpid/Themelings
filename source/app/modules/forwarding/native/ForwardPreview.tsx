@@ -722,7 +722,7 @@ case 57:
             var23 = var10.largeIcon;
 case 56:
             var19['style'] = var23;
-            var23 = 'text-low-contrast';
+            var23 = 'text-muted';
             var19['color'] = var23;
             var20 = var21.bind(var4)(var22, var19);
 case 52:

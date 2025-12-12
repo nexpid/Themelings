@@ -151,7 +151,7 @@ case 3:
                 var2 = undefined;
                 var6 = var7.bind(var2)(var6);
                 var7 = var6.Text;
-                var6 = {'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'header-primary'};
+                var6 = {'lineClamp': 1, 'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
                 var9 = var1.text;
                 var6['children'] = var9;
                 var6 = var8.bind(var2)(var7, var6);
@@ -171,7 +171,7 @@ case 2:
             var16 = var11[var16];
             var16 = var9.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var16 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var19 = var10.text;
             var16['style'] = var19;
             var19 = var12.text;

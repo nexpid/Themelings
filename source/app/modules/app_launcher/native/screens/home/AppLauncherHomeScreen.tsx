@@ -27,7 +27,7 @@ case 3:
             var1 = var4[var1];
             var1 = var2.bind(var5)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var1 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var1['children'] = var9;
             var1 = var3.bind(var5)(var2, var1);
             _fun0001_ip = 4; continue _fun0001;
@@ -44,7 +44,7 @@ case 2:
             var6 = var17[var10];
             var6 = var16.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var6 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var13 = var12.appRowLabelWithPromotedTextContainer;
             var6['style'] = var13;
             var6['children'] = var9;
@@ -856,7 +856,7 @@ case 64:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'heading-sm/bold', 'color': 'header-primary'};
+            var9 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary'};
             var12 = var12.application;
             var12 = var12.name;
             var9['children'] = var12;
@@ -1205,7 +1205,7 @@ case 84:
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'heading-sm/bold', 'color': 'header-primary'};
+            var9 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary'};
             var12 = var12.name;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
@@ -1267,7 +1267,7 @@ case 0:
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
-            var1 = {'variant': 'heading-lg/bold', 'color': 'header-primary'};
+            var1 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
             var7 = var6.sectionHeader;
             var6 = new Array(2);
             var6[0] = var7;
@@ -3757,7 +3757,7 @@ case 190:
                     var2 = var8[var2];
                     var2 = var3.bind(var4)(var2);
                     var3 = var2.Text;
-                    var2 = {'variant': 'text-lg/bold', 'color': 'header-primary'};
+                    var2 = {'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                     var8 = _closure2_slot5;
                     var9 = var8.sectionHeader;
                     var8 = new Array(2);

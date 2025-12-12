@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOBILE_PRIMARY;
+    var11 = var11.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var11;
     var4['inventorySectionWrapper'] = var10;
     var10 = {'flex': 1, 'paddingTop': 36, 'paddingBottom': 16};
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_MOBILE_PRIMARY;
+    var17 = var17.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var17;
     var4['giftPurchaseSectionWrapper'] = var10;
     var10 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'paddingVertical': 16};
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var14;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOBILE_PRIMARY;
+    var15 = var15.BACKGROUND_BASE_LOWER;
     var10['backgroundColor'] = var15;
     var4['titleWrapper'] = var10;
     var10 = {};
@@ -678,7 +678,7 @@ case 17:
                     var8 = var16[var9];
                     var8 = var15.bind(var2)(var8);
                     var10 = var8.Text;
-                    var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+                    var8 = {'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                     var12 = _closure2_slot0;
                     var12 = var12.emptyGiftHeader;
                     var8['style'] = var12;

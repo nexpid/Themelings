@@ -245,7 +245,7 @@ case 6:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.HEADER_PRIMARY;
+        var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
         var8['color'] = var13;
         var8 = var9.bind(var12)(var8);
         var _closure1_slot22 = var8;

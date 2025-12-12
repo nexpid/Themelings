@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOBILE_PRIMARY;
+    var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -114,7 +114,7 @@ case 2:
             var2 = var2.dueAt;
             if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var13 = 'header-primary';
+            var13 = 'mobile-text-heading-primary';
             if(!var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var13 = 'text-feedback-critical';

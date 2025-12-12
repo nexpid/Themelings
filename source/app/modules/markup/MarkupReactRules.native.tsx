@@ -2994,7 +2994,7 @@ case 165:
                     var2 = {};
                     var2['variant'] = var7;
                     var8 = var1.forceWhite;
-                    var7 = 'header-primary';
+                    var7 = 'text-strong';
                     if(!var8) { _fun0041_ip = 91; continue _fun0041 }
 case 166:
                     var7 = 'white';

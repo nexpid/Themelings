@@ -132,93 +132,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
-            var9 = arg2;
+            var7 = arg1;
+            var4 = arg2;
             var1 = {};
             var2 = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0};
             var1['chatInputPosition'] = var2;
             var2 = {};
-            var8 = _closure1_slot1;
+            var9 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var7 = 20;
-            var3 = var3[var7];
-            var6 = undefined;
-            var3 = var8.bind(var6)(var3);
-            var3 = var3.spacing;
-            var3 = var3.PX_8;
-            var2['paddingVertical'] = var3;
-            var8 = _closure1_slot18;
-            var3 = _closure1_slot19;
-            var3 = var8 - var3;
-            var2['paddingHorizontal'] = var3;
-            var3 = null;
-            var8 = var5;
-            if(!(var3 == var8)) { _fun0001_ip = 2; continue _fun0001 }
+            var8 = 20;
+            var5 = var3[var8];
+            var3 = undefined;
+            var5 = var9.bind(var3)(var5);
+            var5 = var5.spacing;
+            var5 = var5.PX_8;
+            var2['paddingVertical'] = var5;
+            var9 = _closure1_slot18;
+            var5 = _closure1_slot19;
+            var5 = var9 - var5;
+            var2['paddingHorizontal'] = var5;
+            var5 = null;
+            var9 = var7;
+            if(!(var5 == var9)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var11 = _closure1_slot1;
             var10 = _closure1_slot3;
-            var10 = var10[var7];
-            var10 = var11.bind(var6)(var10);
+            var10 = var10[var8];
+            var10 = var11.bind(var3)(var10);
             var10 = var10.colors;
-            var8 = var10.BACKGROUND_BASE_LOW;
+            var9 = var10.BACKGROUND_BASE_LOW;
 case 2:
-            var2['backgroundColor'] = var8;
-            var8 = 1;
-            var2['borderTopWidth'] = var8;
+            var2['backgroundColor'] = var9;
+            var9 = 1;
+            var2['borderTopWidth'] = var9;
             var10 = _closure1_slot1;
-            var8 = _closure1_slot3;
-            var8 = var8[var7];
-            var8 = var10.bind(var6)(var8);
-            var8 = var8.colors;
-            var8 = var8.BORDER_SUBTLE;
-            var2['borderColor'] = var8;
+            var9 = _closure1_slot3;
+            var9 = var9[var8];
+            var9 = var10.bind(var3)(var9);
+            var9 = var9.colors;
+            var9 = var9.BORDER_SUBTLE;
+            var2['borderColor'] = var9;
             var1['container'] = var2;
             var2 = {};
-            var8 = 'row';
-            var2['flexDirection'] = var8;
-            var8 = 'center';
-            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+            var9 = 'row';
+            var2['flexDirection'] = var9;
+            var9 = 'center';
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = 'flex-end';
+            var9 = 'flex-end';
 case 4:
-            var2['alignItems'] = var8;
+            var2['alignItems'] = var9;
             var1['containerInner'] = var2;
             var2 = {'flex': 1, 'marginLeft': 6};
             var1['inputDefault'] = var2;
-            var2 = {'flexDirection': 'row', 'alignItems': null, 'borderRadius': null, 'paddingHorizontal': 3, 'paddingVertical': 2, 'marginHorizontal': 4, 'overflow': 'hidden', 'flex': 1};
-            var8 = 'stretch';
-            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+            var2 = {'flexDirection': 'row', 'alignItems': 'stretch', 'borderRadius': null, 'paddingHorizontal': 3, 'paddingVertical': 2, 'marginHorizontal': 4, 'overflow': 'hidden', 'flex': 1};
+            var10 = _closure1_slot1;
+            var9 = _closure1_slot3;
+            var9 = var9[var8];
+            var9 = var10.bind(var3)(var9);
+            var9 = var9.radii;
+            var9 = var9.xl;
+            var2['borderRadius'] = var9;
+            if(!(var5 == var7)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var8 = 'flex-end';
+            var7 = _closure1_slot1;
+            var5 = _closure1_slot3;
+            var5 = var5[var8];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.colors;
+            var5 = var5.REDESIGN_CHAT_INPUT_BACKGROUND;
+            _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var2['alignItems'] = var8;
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot3;
-            var8 = var8[var7];
-            var8 = var9.bind(var6)(var8);
-            var8 = var8.radii;
-            var8 = var8.xl;
-            var2['borderRadius'] = var8;
-            if(!(var3 == var5)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var5 = _closure1_slot1;
-            var3 = _closure1_slot3;
-            var3 = var3[var7];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.colors;
-            var3 = var3.REDESIGN_CHAT_INPUT_BACKGROUND;
-            _fun0001_ip = 10; continue _fun0001;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot3;
+            var6 = var6[var8];
+            var6 = var7.bind(var3)(var6);
+            var6 = var6.colors;
+            var5 = var6.CARD_SECONDARY_BG;
 case 8:
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot3;
-            var4 = var4[var7];
-            var4 = var5.bind(var6)(var4);
-            var4 = var4.colors;
-            var3 = var4.CARD_SECONDARY_BG;
-case 10:
-            var2['backgroundColor'] = var3;
+            var2['backgroundColor'] = var5;
             var1['input'] = var2;
             var2 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
+            var3 = undefined;
+            if(!var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var3 = 'flex-end';
+case 9:
+            var2['alignSelf'] = var3;
             var1['rightAccessory'] = var2;
             var2 = {};
             var3 = 'relative';
@@ -512,18 +512,18 @@ case 43:
 case 42:
                     var1['canUpload'] = var7;
                     if(var4) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+case 6:
                     var4 = var6;
 case 44:
-                    if(!var4) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
-                    var4 = !var3;
+                    if(!var4) { _fun0007_ip = 45; continue _fun0007 }
 case 46:
-                    if(!var4) { _fun0007_ip = 8; continue _fun0007 }
+                    var4 = !var3;
+case 45:
+                    if(!var4) { _fun0007_ip = 47; continue _fun0007 }
 case 48:
                     var5 = _closure2_slot1;
                     var4 = !var5;
-case 8:
+case 47:
                     var1['canSendVoiceMessage'] = var4;
                     var3 = !var3;
                     var1['editable'] = var3;

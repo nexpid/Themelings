@@ -1314,7 +1314,7 @@ case 48:
                 var19 = var20[var9];
                 var19 = var16.bind(var4)(var19);
                 var25 = var19.Text;
-                var24 = {'style': null, 'variant': 'text-lg/bold', 'color': 'header-primary'};
+                var24 = {'style': null, 'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                 var19 = var21.alignCenter;
                 var24['style'] = var19;
                 var19 = 29;

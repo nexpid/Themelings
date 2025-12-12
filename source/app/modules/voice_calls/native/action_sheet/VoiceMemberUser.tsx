@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var8[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.HEADER_PRIMARY;
+    var16 = var16.MOBILE_TEXT_HEADING_PRIMARY;
     var11['color'] = var16;
     var2['labelCallScreen'] = var11;
     var11 = {};

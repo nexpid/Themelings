@@ -393,7 +393,7 @@ case 10:
             var15 = var28[var12];
             var15 = var29.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var15 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var20 = var34.ctaHeader;
             var15['style'] = var20;
             var23 = 26;

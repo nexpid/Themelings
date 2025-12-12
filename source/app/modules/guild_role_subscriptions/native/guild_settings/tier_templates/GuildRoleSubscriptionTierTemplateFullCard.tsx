@@ -187,7 +187,7 @@ case 2:
     var10 = var6[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var10;
     var4['subscriptionPlanTextStyle'] = var9;
     var9 = {'color': null, 'paddingTop': 16, 'paddingBottom': 24};
@@ -468,7 +468,7 @@ case 2:
             var8 = var11[var8];
             var8 = var9.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var8 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var11 = var1.name;
             var8['children'] = var11;
             var8 = var10.bind(var5)(var9, var8);
@@ -523,7 +523,7 @@ case 2:
             var5 = undefined;
             var1 = var3.bind(var5)(var1);
             var3 = var1.Text;
-            var1 = {'variant': 'text-md/medium', 'color': 'header-primary'};
+            var1 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var6 = arg1;
             var6 = var6.name;
             var1['children'] = var6;

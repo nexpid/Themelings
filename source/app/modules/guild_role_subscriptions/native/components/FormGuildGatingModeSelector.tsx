@@ -127,7 +127,7 @@ case 3:
                 var9 = var17[var10];
                 var9 = var16.bind(var8)(var9);
                 var11 = var9.Text;
-                var9 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'header-primary'};
+                var9 = {'style': null, 'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
                 var14 = _closure2_slot2;
                 var14 = var14.alertHeader;
                 var9['style'] = var14;

@@ -418,7 +418,7 @@ case 32:
                     var2 = undefined;
                     var6 = var13.bind(var2)(var6);
                     var8 = var6.Text;
-                    var6 = {'variant': 'heading-lg/bold', 'color': 'header-primary'};
+                    var6 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary'};
                     var10 = 22;
                     var11 = var14[var10];
                     var11 = var13.bind(var2)(var11);

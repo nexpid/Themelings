@@ -1195,7 +1195,7 @@ case 61:
                     var11 = var16[var12];
                     var11 = var13.bind(var6)(var11);
                     var17 = var11.Text;
-                    var11 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+                    var11 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary'};
                     var11['children'] = var19;
                     var17 = var18.bind(var6)(var17, var11);
                     var11 = new Array(2);
@@ -1395,7 +1395,7 @@ case 0:
                     var1 = undefined;
                     var5 = var15.bind(var1)(var5);
                     var6 = var5.Text;
-                    var5 = {'variant': 'text-lg/bold', 'color': 'header-primary'};
+                    var5 = {'variant': 'text-lg/bold', 'color': 'mobile-text-heading-primary'};
                     var11 = 19;
                     var12 = var16[var11];
                     var12 = var15.bind(var1)(var12);

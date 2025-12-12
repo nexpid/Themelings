@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.HEADER_PRIMARY;
+    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var15;
     var4['headerTitle'] = var9;
     var9 = {'textAlign': 'center', 'marginTop': 8};

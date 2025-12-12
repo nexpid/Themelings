@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var14;
     var10['fontSize'] = var13;
     var13 = -8;
@@ -357,7 +357,7 @@ case 18:
             var8 = var11[var7];
             var8 = var12.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var8 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var16 = var14.titleFont;
             var8['style'] = var16;
             var16 = var11[var18];

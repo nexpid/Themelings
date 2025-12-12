@@ -306,7 +306,7 @@ case 8:
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.Text;
-        var1 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+        var1 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
         var5 = var5.title;
         var1['style'] = var5;
         var7 = arg1;

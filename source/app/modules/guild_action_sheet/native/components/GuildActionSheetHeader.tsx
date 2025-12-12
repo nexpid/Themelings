@@ -739,7 +739,7 @@ case 38:
             var21 = var21[var19];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
-            var21 = {'lineClamp': 2, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var21 = {'lineClamp': 2, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var26 = var17 != var26;
             var28 = null;
             if(!var26) { _fun0002_ip = 40; continue _fun0002 }

@@ -216,7 +216,7 @@ case 15:
             var10 = var14[var10];
             var10 = var11.bind(var5)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var10 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var13 = var13.name;
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);
@@ -234,7 +234,7 @@ case 14:
             var2 = var10[var2];
             var2 = var9.bind(var5)(var2);
             var3 = var2.Text;
-            var2 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var2 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var6 = 12;
             var7 = var10[var6];
             var7 = var9.bind(var5)(var7);
@@ -277,7 +277,7 @@ case 16:
         var1 = undefined;
         var5 = var6.bind(var1)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var5 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var8 = var8.name;
         var5['children'] = var8;
         var5 = var7.bind(var1)(var6, var5);
@@ -320,7 +320,7 @@ case 16:
         var11 = var10[var6];
         var11 = var7.bind(var4)(var11);
         var12 = var11.Text;
-        var11 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var11 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var14 = var14.name;
         var11['children'] = var14;
         var11 = var13.bind(var4)(var12, var11);

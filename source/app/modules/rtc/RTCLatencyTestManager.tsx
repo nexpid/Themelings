@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -84,20 +84,25 @@ case 4:
     var4 = var7.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Features;
+    var _closure1_slot10 = var4;
+    var4 = 8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.SECOND;
     var8 = var10 * var8;
-    var _closure1_slot10 = var8;
+    var _closure1_slot11 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var8 = var4.SECOND;
     var4 = 30;
     var4 = var4 * var8;
-    var _closure1_slot11 = var4;
-    var4 = 8;
+    var _closure1_slot12 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var10 = var7.bind(var1)(var4);
     var4 = var10.prototype;
@@ -106,10 +111,10 @@ case 4:
     var14 = var8;
     var4 = new var14[var10](var13, var12);
     var8 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot12 = var8;
+    var _closure1_slot13 = var8;
     var4 = var8.enableNativeLogger;
     var4 = var4.bind(var8)(var9);
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -131,7 +136,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -175,7 +180,7 @@ case 0:
                         var3 = var3.bind(var5)(var6);
                         if(var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                        var6 = _closure1_slot12;
+                        var6 = _closure1_slot13;
                         var5 = var6.verbose;
                         var7 = _closure1_slot9;
                         var3 = var7.getPreferredRegions;
@@ -196,13 +201,13 @@ case 9:
                         var3 = var4.then;
                         var2 = function(arg1) {
                             var5 = arg1;
-                            var4 = _closure1_slot12;
+                            var4 = _closure1_slot13;
                             var3 = var4.verbose;
                             var2 = 'RTC region latency test completed, ranked regions are: ';
                             var2 = var3.bind(var4)(var2, var5);
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 9;
+                            var1 = 10;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -214,7 +219,7 @@ case 9:
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.catch;
                         var1 = function(arg1) {
-                            var3 = _closure1_slot12;
+                            var3 = _closure1_slot13;
                             var2 = var3.warn;
                             var1 = arg1;
                             var1 = var2.bind(var3)(var1);
@@ -228,89 +233,102 @@ case 11:
                 };
                 var1['_handleTestRegionsResponse'] = var3;
                 var3 = function() {
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 9;
-                    var4 = var7[var1];
-                    var1 = undefined;
-                    var5 = var5.bind(var1)(var4);
-                    var4 = var5.fetchRTCLatencyTestRegions;
-                    var6 = var4.bind(var5)();
-                    var5 = var6.then;
-                    var4 = function(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                        var5 = _closure1_slot8;
+                        var4 = var5.supports;
+                        var1 = _closure1_slot10;
+                        var1 = var1.PORT_AWARE_LATENCY_TESTING;
+                        var1 = var4.bind(var5)(var1);
+                        var6 = 1;
+                        if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                        var6 = 2;
+case 12:
+                        var5 = _closure1_slot0;
+                        var7 = _closure1_slot2;
+                        var1 = 10;
+                        var4 = var7[var1];
+                        var1 = undefined;
+                        var5 = var5.bind(var1)(var4);
+                        var4 = var5.fetchRTCLatencyTestRegions;
+                        var6 = var4.bind(var5)(var6);
+                        var5 = var6.then;
+                        var4 = function(arg1) {
+                            var3 = _closure3_slot0;
+                            var2 = var3._handleTestRegionsResponse;
+                            var1 = arg1;
+                            var1 = var1.body;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var5 = var5.bind(var6)(var4);
+                        var4 = var5.catch;
+                        var3 = function(arg1) {
+                            var3 = _closure1_slot13;
+                            var2 = var3.warn;
+                            var1 = arg1;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var3 = var4.bind(var5)(var3);
                         var3 = _closure3_slot0;
-                        var2 = var3._handleTestRegionsResponse;
-                        var1 = arg1;
-                        var1 = var1.body;
-                        var1 = var2.bind(var3)(var1);
+                        var4 = global;
+                        var5 = var4.setTimeout;
+                        var4 = var3._fetchAndScheduleRefetch;
+                        var6 = _closure1_slot1;
+                        var2 = 8;
+                        var2 = var7[var2];
+                        var2 = var6.bind(var1)(var2);
+                        var2 = var2.Millis;
+                        var6 = var2.MINUTE;
+                        var2 = 360;
+                        var2 = var2 * var6;
+                        var2 = var5.bind(var1)(var4, var2);
+                        var3['refetchTimeout'] = var2;
                         return var1;
-                    };
-                    var5 = var5.bind(var6)(var4);
-                    var4 = var5.catch;
-                    var3 = function(arg1) {
-                        var3 = _closure1_slot12;
-                        var2 = var3.warn;
-                        var1 = arg1;
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-                    var3 = var4.bind(var5)(var3);
-                    var3 = _closure3_slot0;
-                    var4 = global;
-                    var5 = var4.setTimeout;
-                    var4 = var3._fetchAndScheduleRefetch;
-                    var6 = _closure1_slot1;
-                    var2 = 7;
-                    var2 = var7[var2];
-                    var2 = var6.bind(var1)(var2);
-                    var2 = var2.Millis;
-                    var6 = var2.MINUTE;
-                    var2 = 360;
-                    var2 = var2 * var6;
-                    var2 = var5.bind(var1)(var4, var2);
-                    var3['refetchTimeout'] = var2;
-                    return var1;
+                    }
                 };
                 var1['_fetchAndScheduleRefetch'] = var3;
                 var2 = function() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 10;
+                        var1 = 11;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var4.bind(var1)(var2);
                         var2 = var2.isPlatformEmbedded;
-                        if(!var2) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                        if(!var2) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                         var2 = global;
                         var5 = var2.Math;
                         var4 = var5.floor;
-                        var6 = _closure1_slot10;
+                        var6 = _closure1_slot11;
                         var8 = var2.Math;
                         var7 = var8.random;
                         var7 = var7.bind(var8)();
-                        var3 = _closure1_slot11;
+                        var3 = _closure1_slot12;
                         var3 = var7 * var3;
                         var3 = var6 + var3;
                         var5 = var4.bind(var5)(var3);
                         var4 = _closure3_slot0;
                         var6 = var4.refetchTimeout;
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0004_ip = 14; continue _fun0004 }
+                        if(!(var4 != var6)) { _fun0005_ip = 16; continue _fun0005 }
 case 9:
                         var6 = var2.clearTimeout;
                         var4 = _closure3_slot0;
                         var4 = var4.refetchTimeout;
                         var4 = var6.bind(var1)(var4);
-case 14:
+case 16:
                         var3 = _closure3_slot0;
                         var4 = var2.setTimeout;
                         var2 = var3._fetchAndScheduleRefetch;
                         var2 = var4.bind(var1)(var2, var5);
                         var3['refetchTimeout'] = var2;
-case 12:
+case 14:
                         return var1;
                     }
                 };
@@ -328,19 +346,19 @@ case 12:
         var6 = '_terminate';
         var5['key'] = var6;
         var1 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var1 = this;
                 var3 = var1.refetchTimeout;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                if(!(var2 != var3)) { _fun0006_ip = 13; continue _fun0006 }
+case 17:
                 var2 = global;
                 var3 = var2.clearTimeout;
                 var2 = var1.refetchTimeout;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
-case 15:
+case 13:
                 var1 = undefined;
                 return var1;
             }
@@ -357,7 +375,7 @@ case 15:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

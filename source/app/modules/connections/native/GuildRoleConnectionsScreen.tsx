@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_PRIMARY;
+    var14 = var14.BACKGROUND_BASE_LOWER;
     var4['backgroundColor'] = var14;
     var4['flex'] = var12;
     var7['container'] = var4;
@@ -334,7 +334,7 @@ case 5:
             var9 = var21[var9];
             var9 = var15.bind(var5)(var9);
             var10 = var9.TextWithIOSLinkWorkaround;
-            var9 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var9 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var14 = var12.infoText;
             var9['style'] = var14;
             var14 = 25;
@@ -762,7 +762,7 @@ case 32:
                     var7 = var12[var7];
                     var7 = var11.bind(var5)(var7);
                     var14 = var7.Text;
-                    var7 = {'variant': 'text-md/medium', 'color': 'header-primary', 'lineClamp': 1};
+                    var7 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
                     var15 = var13.verifiedRoleName;
                     var7['style'] = var15;
                     var15 = var1.name;

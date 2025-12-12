@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.HEADER_PRIMARY;
+    var10 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var10;
     var4['borderColor'] = var9;
     var10 = 8;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var13[var8];
         var8 = var9.bind(var4)(var8);
         var9 = var8.Text;
-        var8 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+        var8 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
         var12 = var12.guildInfo;
         var8['style'] = var12;
         var11 = var11.name;

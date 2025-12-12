@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var15[var6];
         var19 = var14.bind(var4)(var19);
         var21 = var19.Text;
-        var19 = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+        var19 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
         var23 = {};
         var24 = 'wrap';
         var23['flexWrap'] = var24;

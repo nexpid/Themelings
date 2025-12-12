@@ -193,7 +193,7 @@ case 0:
             var1 = var6[var1];
             var5 = var3.bind(var4)(var1);
             var3 = var5.useAnimatedStyle;
-            var1 = function x() {
+            var1 = function R() {
                 var1 = {};
                 var3 = _closure2_slot1;
                 var2 = var3.get;
@@ -543,7 +543,7 @@ case 20:
             var14 = var14[var22];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'lineClamp': 1, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var14 = {'lineClamp': 1, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var18 = var26.title;
             var14['style'] = var18;
             var14['children'] = var16;

@@ -176,8 +176,8 @@ case 8:
             var2[var9] = var11;
             var11 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var13 = 5;
-            var9 = var9[var13];
+            var12 = 5;
+            var9 = var9[var12];
             var9 = var11.bind(var4)(var9);
             var9 = var9.colors;
             var11 = var9.BORDER_SUBTLE;
@@ -186,10 +186,10 @@ case 8:
             var11 = undefined;
             if(!var8) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var12 = _closure1_slot1;
+            var13 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var9 = var9[var13];
-            var9 = var12.bind(var4)(var9);
+            var9 = var9[var12];
+            var9 = var13.bind(var4)(var9);
             var9 = var9.colors;
             var11 = var9.BORDER_SUBTLE;
 case 10:
@@ -206,10 +206,10 @@ case 12:
             var11 = undefined;
             if(!var8) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var12 = _closure1_slot1;
+            var13 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var9 = var9[var13];
-            var9 = var12.bind(var4)(var9);
+            var9 = var9[var12];
+            var9 = var13.bind(var4)(var9);
             var9 = var9.colors;
             var11 = var9.BORDER_SUBTLE;
 case 14:
@@ -226,37 +226,23 @@ case 16:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var8 = 6;
-            var9 = var9[var8];
-            var9 = var11.bind(var4)(var9);
-            var9 = var9.KeyboardTypes;
-            var9 = var9.APP_LAUNCHER;
-            if(!(var6 !== var9)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-            var11 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var9 = var9[var13];
-            var9 = var11.bind(var4)(var9);
-            var9 = var9.colors;
-            var11 = var9.BACKGROUND_MOBILE_SECONDARY;
-            _fun0002_ip = 20; continue _fun0002;
-case 18:
-            var12 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var9 = var9[var13];
-            var9 = var12.bind(var4)(var9);
-            var9 = var9.colors;
-            var11 = var9.BACKGROUND_BASE_LOW;
-case 20:
-            var9 = 'backgroundColor';
-            var2[var9] = var11;
-            var11 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var13 = var9[var8];
+            var13 = var11.bind(var4)(var13);
+            var13 = var13.KeyboardTypes;
+            var13 = var13.APP_LAUNCHER;
+            var13 = _closure1_slot1;
+            var12 = var9[var12];
+            var12 = var13.bind(var4)(var12);
+            var12 = var12.colors;
+            var13 = var12.BACKGROUND_BASE_LOW;
+            var12 = 'backgroundColor';
+            var2[var12] = var13;
             var9 = var9[var10];
             var11 = var11.bind(var4)(var9);
             var9 = var11.isIOS;
             var9 = var9.bind(var11)();
-            if(var9) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(var9) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var11 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var8];
@@ -264,10 +250,10 @@ case 22:
             var9 = var9.KeyboardTypes;
             var11 = var9.SYSTEM;
             var9 = undefined;
-            if(!(var6 !== var11)) { _fun0002_ip = 23; continue _fun0002 }
-case 21:
+            if(!(var6 !== var11)) { _fun0002_ip = 20; continue _fun0002 }
+case 18:
             var9 = var7;
-case 23:
+case 20:
             var7 = 'width';
             var2[var7] = var9;
             var9 = _closure1_slot0;
@@ -276,8 +262,8 @@ case 23:
             var9 = var9.bind(var4)(var7);
             var7 = var9.isIOS;
             var7 = var7.bind(var9)();
-            if(var7) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(var7) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var8];
@@ -285,10 +271,10 @@ case 25:
             var5 = var5.KeyboardTypes;
             var5 = var5.SYSTEM;
             var4 = undefined;
-            if(!(var6 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
-case 24:
+            if(!(var6 !== var5)) { _fun0002_ip = 23; continue _fun0002 }
+case 21:
             var4 = var3;
-case 26:
+case 23:
             var3 = 'height';
             var2[var3] = var4;
             var1['container'] = var2;

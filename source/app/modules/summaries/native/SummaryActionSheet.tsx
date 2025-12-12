@@ -500,7 +500,7 @@ case 25:
             var17 = var24[var12];
             var17 = var26.bind(var4)(var17);
             var21 = var17.Text;
-            var17 = {'style': null, 'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+            var17 = {'style': null, 'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
             var25 = var11.summaryContent;
             var23 = new Array(2);
             var23[0] = var25;

@@ -314,7 +314,7 @@ case 10:
             var1 = var8[var30];
             var1 = var9.bind(var4)(var1);
             var1 = var1.colors;
-            var1 = var1.HEADER_PRIMARY;
+            var1 = var1.MOBILE_TEXT_HEADING_PRIMARY;
             var23 = var2.bind(var3)(var1, var5);
             var2 = _closure1_slot12;
             var1 = 'android';

@@ -195,7 +195,7 @@ case 7:
             var10 = var14[var9];
             var10 = var18.bind(var4)(var10);
             var19 = var10.Text;
-            var10 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var10 = {'style': null, 'maxFontSizeMultiplier': 2, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var15 = var17.title;
             var10['style'] = var15;
             var15 = 14;

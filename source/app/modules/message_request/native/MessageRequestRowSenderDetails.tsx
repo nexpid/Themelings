@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var9['color'] = var13;
     var4['username'] = var9;
     var9 = {};
@@ -221,14 +221,14 @@ case 8:
             var11 = var15[var16];
             var11 = var20.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var11 = {'lineClamp': 1, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var21 = var14.usernameTextContainer;
             var11['style'] = var21;
             var21 = _closure1_slot5;
             var15 = var15[var16];
             var15 = var20.bind(var4)(var15);
             var20 = var15.Text;
-            var15 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var15 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var22 = var14.username;
             var15['style'] = var22;
             var22 = var19;

@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
-        var5 = {'lineClamp': 1, 'variant': 'heading-lg/bold', 'color': 'header-primary', 'maxFontSizeMultiplier': 2};
+        var5 = {'lineClamp': 1, 'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'maxFontSizeMultiplier': 2};
         var5['children'] = var8;
         var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;

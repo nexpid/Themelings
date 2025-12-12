@@ -332,7 +332,7 @@ case 24:
                 var5 = var12[var6];
                 var5 = var15.bind(var4)(var5);
                 var9 = var5.Text;
-                var5 = {'variant': 'heading-sm/semibold', 'color': 'header-primary'};
+                var5 = {'variant': 'heading-sm/semibold', 'color': 'mobile-text-heading-primary'};
                 var13 = _closure2_slot1;
                 var13 = var13.name;
                 var5['children'] = var13;

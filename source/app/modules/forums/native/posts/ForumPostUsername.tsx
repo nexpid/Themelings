@@ -175,7 +175,7 @@ case 17:
             var7 = var10[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'gradientColors': null, 'lineClamp': 1};
+            var7 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary', 'gradientColors': null, 'lineClamp': 1};
             var10 = undefined;
             if(!var17) { _fun0001_ip = 19; continue _fun0001 }
 case 20:

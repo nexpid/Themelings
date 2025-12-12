@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var8[var12];
     var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_MOBILE_SECONDARY;
+    var10 = var10.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var10;
     var4['background'] = var9;
     var5 = var5.bind(var6)(var4);
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var8[var12];
     var11 = var13.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOBILE_SECONDARY;
+    var11 = var11.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var11;
     var4['scene'] = var10;
     var10 = {};
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var8[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var14 = var14.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var14;
     var2['mentionBadge'] = var11;
     var11 = {'bottom': 5, 'right': 0};

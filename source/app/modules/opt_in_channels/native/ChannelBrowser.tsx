@@ -1079,7 +1079,7 @@ case 44:
             var21 = var27[var20];
             var21 = var24.bind(var4)(var21);
             var26 = var21.Text;
-            var21 = {'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var21 = {'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var23 = 29;
             var29 = var27[var23];
             var29 = var24.bind(var4)(var29);

@@ -67,7 +67,7 @@ case 4:
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'header-primary'};
+            var6 = {'style': null, 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
             var10 = var10.addBenefitLabel;
             var6['style'] = var10;
             var6['children'] = var9;

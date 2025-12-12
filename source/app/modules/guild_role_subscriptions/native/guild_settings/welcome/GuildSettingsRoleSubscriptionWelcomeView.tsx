@@ -152,7 +152,7 @@ case 0:
             var8 = var8[var12];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+            var8 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
             var15 = var11.sectionTitle;
             var8['style'] = var15;
             var8['children'] = var14;
@@ -732,7 +732,7 @@ case 41:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOBILE_SECONDARY;
+    var15 = var15.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var15;
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
@@ -1097,7 +1097,7 @@ case 55:
             var26 = var37[var27];
             var26 = var36.bind(var5)(var26);
             var28 = var26.Text;
-            var26 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var26 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var32 = 10;
             var34 = var37[var32];
             var34 = var36.bind(var5)(var34);

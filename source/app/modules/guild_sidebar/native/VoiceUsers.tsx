@@ -145,7 +145,7 @@ case 7:
             var8 = var3.BACKGROUND_BASE_LOWEST;
             _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var8 = var3.EXPRESSION_PICKER_BG;
+            var8 = var3.MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT;
 case 8:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;

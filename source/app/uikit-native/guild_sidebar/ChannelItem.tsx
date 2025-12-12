@@ -431,7 +431,7 @@ case 37:
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var11['backgroundColor'] = var13;
     var5['avatarStatus'] = var11;
     var11 = {'width': 20, 'height': 20, 'borderRadius': 10, 'marginRight': 8};

@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var17 = var10.HEADER_PRIMARY;
+    var17 = var10.MOBILE_TEXT_HEADING_PRIMARY;
     var10 = {};
     var11 = false;
     var10['uppercase'] = var11;
@@ -120,7 +120,7 @@ case 0:
             var5 = var10[var5];
             var5 = var7.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var5 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var14 = var14.formHeader;
             var5['style'] = var14;
             var5['children'] = var13;

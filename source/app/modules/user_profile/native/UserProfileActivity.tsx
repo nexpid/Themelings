@@ -2013,7 +2013,7 @@ case 172:
                 var16 = var29[var16];
                 var16 = var18.bind(var4)(var16);
                 var18 = var16.Text;
-                var16 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+                var16 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                 var23 = _closure1_slot19;
                 var22 = _closure1_slot6;
                 var20 = {};
@@ -2024,7 +2024,7 @@ case 172:
                 var24 = 58;
                 var24 = var29[var24];
                 var25 = var25.bind(var4)(var24);
-                var24 = {'channel': null, 'size': 'sm', 'color': 'header-primary'};
+                var24 = {'channel': null, 'size': 'sm', 'color': 'mobile-text-heading-primary'};
                 var24['channel'] = var11;
                 var24 = var27.bind(var4)(var25, var24);
                 var20['children'] = var24;
@@ -2100,7 +2100,7 @@ case 171:
                 var22 = var33[var22];
                 var22 = var23.bind(var4)(var22);
                 var23 = var22.Text;
-                var22 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+                var22 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                 var29 = _closure1_slot19;
                 var27 = _closure1_slot6;
                 var25 = {};
@@ -2110,7 +2110,7 @@ case 171:
                 var30 = 58;
                 var30 = var33[var30];
                 var31 = var31.bind(var4)(var30);
-                var30 = {'channel': null, 'size': 'sm', 'color': 'header-primary'};
+                var30 = {'channel': null, 'size': 'sm', 'color': 'mobile-text-heading-primary'};
                 var30['channel'] = var11;
                 var30 = var32.bind(var4)(var31, var30);
                 var25['children'] = var30;

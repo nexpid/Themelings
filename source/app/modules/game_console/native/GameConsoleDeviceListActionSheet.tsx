@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'color': 'header-primary', 'variant': 'text-md/bold'};
+        var6 = {'style': null, 'color': 'mobile-text-heading-primary', 'variant': 'text-md/bold'};
         var10 = var10.deviceText;
         var6['style'] = var10;
         var6['children'] = var9;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var13[var6];
         var8 = var12.bind(var4)(var8);
         var11 = var8.Text;
-        var8 = {'style': null, 'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+        var8 = {'style': null, 'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
         var9 = var10.emptyHeader;
         var8['style'] = var9;
         var9 = 11;
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var9['tintColor'] = var14;
     var4['deviceIcon'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'marginRight': 24};

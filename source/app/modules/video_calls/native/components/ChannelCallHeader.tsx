@@ -249,7 +249,7 @@ case 6:
     var13 = var9[var13];
     var13 = var17.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.HEADER_PRIMARY;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
     var20 = var15.bind(var1)(var14, var13, var16);
     var21 = var10;
     var13 = copyDataProperties(var21, var20);

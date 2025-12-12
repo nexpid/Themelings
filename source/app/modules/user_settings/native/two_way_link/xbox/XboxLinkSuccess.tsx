@@ -234,7 +234,7 @@ case 2:
             var7 = var20[var15];
             var7 = var16.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var7 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var18 = var11.title;
             var7['style'] = var18;
             var18 = 13;
@@ -291,7 +291,7 @@ case 2:
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var15 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var20 = var19.getAppTitle;
             var15['style'] = var20;
             var21 = _closure1_slot0;

@@ -312,7 +312,7 @@ case 13:
                         var5 = var13[var8];
                         var5 = var9.bind(var4)(var5);
                         var16 = var5.Text;
-                        var5 = {'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+                        var5 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
                         var17 = _closure2_slot4;
                         var5['children'] = var17;
                         var16 = var11.bind(var4)(var16, var5);
@@ -874,7 +874,7 @@ case 56:
                 var11 = var25[var12];
                 var11 = var22.bind(var5)(var11);
                 var26 = var11.Text;
-                var11 = {'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+                var11 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
                 var27 = var27.name;
                 var11['children'] = var27;
                 var26 = var23.bind(var5)(var26, var11);
@@ -1187,7 +1187,7 @@ case 6:
                 var7 = var14[var7];
                 var7 = var9.bind(var4)(var7);
                 var8 = var7.Text;
-                var7 = {'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+                var7 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
                 var15 = var15.name;
                 var7['children'] = var15;
                 var8 = var10.bind(var4)(var8, var7);

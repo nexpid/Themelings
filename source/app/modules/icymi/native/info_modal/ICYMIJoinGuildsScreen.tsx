@@ -572,7 +572,7 @@ case 0:
             var9 = var21[var10];
             var9 = var14.bind(var4)(var9);
             var11 = var9.Text;
-            var9 = {'maxFontSizeMultiplier': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var9 = {'maxFontSizeMultiplier': 1, 'style': null, 'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
             var22 = var13.featuredServerTitle;
             var9['style'] = var22;
             var22 = var15.name;
@@ -1408,7 +1408,7 @@ case 22:
             var5 = var27[var8];
             var5 = var17.bind(var4)(var5);
             var9 = var5.Text;
-            var5 = {'variant': 'heading-xl/semibold', 'color': 'header-primary'};
+            var5 = {'variant': 'heading-xl/semibold', 'color': 'mobile-text-heading-primary'};
             var18 = var12.title;
             var5['style'] = var18;
             var18 = 24;

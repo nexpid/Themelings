@@ -527,7 +527,7 @@ case 38:
             var16 = var16[var18];
             var16 = var17.bind(var4)(var16);
             var17 = var16.Text;
-            var16 = {'accessibilityRole': 'header', 'variant': 'text-md/bold', 'color': 'header-primary'};
+            var16 = {'accessibilityRole': 'header', 'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             if(!(var21 == var20)) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
             var26 = _closure1_slot0;

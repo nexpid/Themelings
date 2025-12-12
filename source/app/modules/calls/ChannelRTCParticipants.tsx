@@ -750,8 +750,13 @@ case 27:
                         var9 = copyDataProperties(var13, var12);
                         var9 = 'speaking';
                         var2[var9] = var11;
-                        var9 = _closure1_slot23;
+                        var11 = _closure1_slot11;
+                        var9 = var11.getVoiceVolume;
                         var8 = _closure3_slot1;
+                        var11 = var9.bind(var11)(var8);
+                        var9 = 'voiceDb';
+                        var2[var9] = var11;
+                        var9 = _closure1_slot23;
                         var10 = var9.bind(var10)(var8);
                         var9 = 'latched';
                         var2[var9] = var10;
@@ -1111,6 +1116,11 @@ case 91:
                 var3['checkIsMuted'] = var14;
                 var7 = var7.bind(var13)(var3);
                 var3 = 'speaking';
+                var5[var3] = var7;
+                var7 = _closure1_slot11;
+                var3 = var7.getVoiceVolume;
+                var7 = var3.bind(var7)(var17);
+                var3 = 'voiceDb';
                 var5[var3] = var7;
                 var3 = _closure1_slot23;
                 var7 = var3.bind(var8)(var17);

@@ -630,7 +630,7 @@ case 16:
             var16 = var31[var17];
             var16 = var30.bind(var4)(var16);
             var24 = var16.Text;
-            var16 = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+            var16 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var33 = var25.config;
             var33 = var33.messages;
             var33 = var33.gameTitle;

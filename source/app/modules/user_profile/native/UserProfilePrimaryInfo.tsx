@@ -66,7 +66,7 @@ case 2:
                 var1['lineClamp'] = var6;
                 var5 = _closure2_slot3;
                 var1['pendingDisplayNameStyles'] = var5;
-                var5 = 'header-primary';
+                var5 = 'mobile-text-heading-primary';
                 var1['defaultColor'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
@@ -241,7 +241,7 @@ case 17:
                     var6 = undefined;
                     var2 = var4.bind(var6)(var2);
                     var4 = var2.Text;
-                    var2 = {'variant': null, 'color': 'header-primary', 'lineClamp': 2};
+                    var2 = {'variant': null, 'color': 'mobile-text-heading-primary', 'lineClamp': 2};
                     var7 = _closure2_slot4;
                     var2['variant'] = var7;
                     var7 = _closure2_slot0;
@@ -285,7 +285,7 @@ case 16:
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'variant': null, 'color': 'header-primary', 'lineClamp': 1};
+                var1 = {'variant': null, 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
                 var6 = _closure2_slot4;
                 var1['variant'] = var6;
                 var5 = _closure2_slot1;
@@ -315,7 +315,7 @@ case 21:
             var14 = var10.Text;
             var10 = {};
             var10['variant'] = var20;
-            var20 = 'header-primary';
+            var20 = 'mobile-text-heading-primary';
             var10['color'] = var20;
             var20 = _closure1_slot8;
             var10['children'] = var20;

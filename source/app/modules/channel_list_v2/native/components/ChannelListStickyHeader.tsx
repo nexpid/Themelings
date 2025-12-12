@@ -202,7 +202,7 @@ case 2:
             var11 = var18[var17];
             var11 = var13.bind(var4)(var11);
             var12 = var11.Text;
-            var11 = {'experimental_useNativeText': true, 'style': null, 'color': 'header-primary', 'variant': 'redesign/heading-18/bold', 'lineClamp': 1};
+            var11 = {'experimental_useNativeText': true, 'style': null, 'color': 'mobile-text-heading-primary', 'variant': 'redesign/heading-18/bold', 'lineClamp': 1};
             var15 = var21.flex;
             var11['style'] = var15;
             var15 = var10.name;

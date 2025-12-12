@@ -492,7 +492,7 @@ case 53:
             var15 = var19[var15];
             var15 = var16.bind(var5)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var15 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
             var18 = var18.name;
             var15['children'] = var18;
             var15 = var17.bind(var5)(var16, var15);

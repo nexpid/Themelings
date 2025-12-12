@@ -538,7 +538,7 @@ case 35:
                 var2 = var8[var2];
                 var2 = var7.bind(var5)(var2);
                 var3 = var2.Text;
-                var2 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/medium', 'color': 'header-primary'};
+                var2 = {'style': null, 'accessibilityRole': 'header', 'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
                 var6 = var6.title;
                 var2['style'] = var6;
                 var6 = 22;

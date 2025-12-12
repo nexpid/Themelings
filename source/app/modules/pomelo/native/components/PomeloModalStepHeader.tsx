@@ -79,7 +79,7 @@ case 0:
             var5 = var5[var12];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Text;
-            var5 = {'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var5 = {'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var13 = var11.title;
             var5['style'] = var13;
             var5['children'] = var9;

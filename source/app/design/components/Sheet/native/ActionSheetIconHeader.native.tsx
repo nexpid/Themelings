@@ -77,7 +77,7 @@ case 0:
             var7 = var7[var13];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header', 'lineClamp': 2};
+            var7 = {'variant': 'redesign/heading-18/bold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header', 'lineClamp': 2};
             var7['children'] = var11;
             var8 = var10.bind(var4)(var8, var7);
             var7 = new Array(2);

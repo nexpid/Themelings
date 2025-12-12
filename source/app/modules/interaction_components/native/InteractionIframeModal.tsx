@@ -333,7 +333,7 @@ case 2:
             var12 = var20[var16];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
-            var12 = {'variant': 'heading-sm/bold', 'color': 'header-primary'};
+            var12 = {'variant': 'heading-sm/bold', 'color': 'mobile-text-heading-primary'};
             var14 = var19.name;
             var12['children'] = var14;
             var13 = var17.bind(var4)(var13, var12);

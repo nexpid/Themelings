@@ -253,7 +253,7 @@ case 0:
             var10 = var15[var9];
             var10 = var11.bind(var4)(var10);
             var18 = var10.Text;
-            var10 = {'style': null, 'color': 'header-primary', 'variant': 'heading-lg/extrabold'};
+            var10 = {'style': null, 'color': 'mobile-text-heading-primary', 'variant': 'heading-lg/extrabold'};
             var20 = var17.header;
             var19 = new Array(1);
             var19[0] = var20;

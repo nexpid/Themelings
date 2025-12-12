@@ -45,7 +45,7 @@ case 2:
             var10 = var1.color;
             if(!(var10 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var10 = 'header-primary';
+            var10 = 'mobile-text-heading-primary';
 case 4:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;

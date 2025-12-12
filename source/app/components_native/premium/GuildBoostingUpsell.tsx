@@ -312,7 +312,7 @@ case 8:
             var8 = var21[var22];
             var8 = var25.bind(var5)(var8);
             var10 = var8.Text;
-            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var11 = var15.title;
             var8['style'] = var11;
             var26 = 8;
@@ -355,7 +355,7 @@ case 8:
             var7 = var21[var22];
             var7 = var25.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var7 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var10 = var15.title;
             var7['style'] = var10;
             var10 = var21[var26];
@@ -385,7 +385,7 @@ case 8:
             var8 = var21[var22];
             var8 = var25.bind(var5)(var8);
             var10 = var8.Text;
-            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
+            var8 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
             var11 = var15.title;
             var8['style'] = var11;
             var11 = var21[var26];

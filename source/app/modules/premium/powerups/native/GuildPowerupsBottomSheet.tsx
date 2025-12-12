@@ -244,7 +244,7 @@ case 0:
             var11 = var1.isLoading;
             var2 = var1.onActivate;
             var _closure2_slot1 = var2;
-            var1 = var1.onDeactivate;
+            var1 = var1.onShowDeactivate;
             var _closure2_slot2 = var1;
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;

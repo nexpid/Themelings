@@ -944,7 +944,7 @@ case 78:
                             var6 = var18[var6];
                             var6 = var14.bind(var5)(var6);
                             var11 = var6.Text;
-                            var6 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+                            var6 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary'};
                             var6['children'] = var16;
                             var11 = var15.bind(var5)(var11, var6);
                             var6 = new Array(2);

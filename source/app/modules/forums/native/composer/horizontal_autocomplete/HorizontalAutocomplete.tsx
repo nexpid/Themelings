@@ -200,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOBILE_SECONDARY;
+    var16 = var16.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var16;
     var2['status'] = var10;
     var10 = {'paddingHorizontal': 8, 'flex': 1, 'flexDirection': 'row', 'height': 56, 'alignItems': 'center'};

@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.Text;
-        var6 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'header-primary'};
+        var6 = {'style': null, 'variant': 'heading-lg/extrabold', 'color': 'mobile-text-heading-primary'};
         var10 = var10.headerTitle;
         var6['style'] = var10;
         var9 = var9.name;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.HEADER_PRIMARY;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
     var10['color'] = var14;
     var5['previewPrivacyText'] = var10;
     var10 = {'paddingBottom': 8, 'fontSize': 14};

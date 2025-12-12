@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOBILE_SECONDARY;
+    var13 = var13.BACKGROUND_BASE_LOW;
     var10['backgroundColor'] = var13;
     var4['background'] = var10;
     var13 = 16;
@@ -405,7 +405,7 @@ case 30:
             var10 = var19[var11];
             var10 = var27.bind(var5)(var10);
             var12 = var10.Text;
-            var10 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            var10 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
             var22 = var15.title;
             var10['style'] = var22;
             var23 = 14;

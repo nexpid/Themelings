@@ -124,7 +124,7 @@ case 4:
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.EMBED_TITLE;
+    var11 = var11.MOBILE_TEXT_HEADING_PRIMARY;
     var7['embedHeaderTextColor'] = var11;
     var11 = var6[var8];
     var11 = var9.bind(var1)(var11);
