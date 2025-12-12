@@ -1,10 +1,4 @@
 {
-  "ALERT_BG": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
-  },
   "ANDROID_NAVIGATION_BAR_BACKGROUND": {
     "dark": "#0c0c0d",
     "light": "#f9f9f9",
@@ -77,18 +71,6 @@
     "midnight": "#f0b2321a",
     "darker": "#f0b2321a"
   },
-  "BACKGROUND_MOBILE_PRIMARY": {
-    "dark": "#313338",
-    "light": "#f9f9f9",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
-  },
-  "BACKGROUND_MOBILE_SECONDARY": {
-    "dark": "#2b2d31",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
-  },
   "BACKGROUND_MOD_MUTED": {
     "dark": "#4e50584d",
     "light": "#80848e14",
@@ -148,6 +130,12 @@
     "light": "#fbe6ff4d",
     "midnight": "#b3269c4d",
     "darker": "#b3269c4d"
+  },
+  "BADGE_BACKGROUND_DEFAULT": {
+    "dark": "#5865f2",
+    "light": "#5865f2",
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
   },
   "BG_SURFACE_OVERLAY_TMP": {
     "dark": "#111214",
@@ -209,12 +197,6 @@
     "midnight": "#da373c",
     "darker": "#da373c"
   },
-  "BUTTON_OUTLINE_BRAND_BACKGROUND": {
-    "dark": "#ffffff00",
-    "light": "#ffffff00",
-    "midnight": "#ffffff00",
-    "darker": "#ffffff00"
-  },
   "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
     "dark": "#5865f2",
     "light": "#5865f2",
@@ -226,18 +208,6 @@
     "light": "#4752c4",
     "midnight": "#4752c4",
     "darker": "#4752c4"
-  },
-  "BUTTON_OUTLINE_POSITIVE_BACKGROUND": {
-    "dark": "#ffffff00",
-    "light": "#ffffff00",
-    "midnight": "#ffffff00",
-    "darker": "#ffffff00"
-  },
-  "BUTTON_OUTLINE_PRIMARY_BACKGROUND": {
-    "dark": "#ffffff00",
-    "light": "#ffffff00",
-    "midnight": "#ffffff00",
-    "darker": "#ffffff00"
   },
   "BUTTON_OUTLINE_PRIMARY_TEXT": {
     "dark": "#ffffff",
@@ -311,18 +281,6 @@
     "midnight": "#1c1d23",
     "darker": "#1c1d23"
   },
-  "CHAT_INPUT_CONTAINER_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#31323b",
-    "darker": "#31323b"
-  },
-  "COACHMARK_BG": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
-  },
   "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
     "dark": "#ffffffd9",
     "light": "#ffffffd9",
@@ -334,18 +292,6 @@
     "light": "#ffffffb3",
     "midnight": "#ffffffb3",
     "darker": "#ffffffb3"
-  },
-  "CONTENT_INVENTORY_OVERLAY_UI_MOD": {
-    "dark": "#ffffffb3",
-    "light": "#ffffffb3",
-    "midnight": "#ffffffb3",
-    "darker": "#ffffffb3"
-  },
-  "CONTENT_INVENTORY_OVERLAY_UI_MOD_BG": {
-    "dark": "#0000001a",
-    "light": "#0000001a",
-    "midnight": "#0000001a",
-    "darker": "#0000001a"
   },
   "CONTEXT_MENU_BACKDROP_BACKGROUND": {
     "dark": "#000000b3",
@@ -382,6 +328,12 @@
     "light": "#da373c",
     "midnight": "#da373c",
     "darker": "#da373c"
+  },
+  "CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
   },
   "CONTROL_PRIMARY_BACKGROUND_DEFAULT": {
     "dark": "#5865f2",
@@ -431,12 +383,6 @@
     "midnight": "#212229",
     "darker": "#2c2d35"
   },
-  "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
-    "dark": "#1e1f2280",
-    "light": "#ffffff80",
-    "midnight": "#1c1d2380",
-    "darker": "#1c1d2380"
-  },
   "EMBED_BACKGROUND": {
     "dark": "#2b2d31",
     "light": "#f2f3f5",
@@ -448,18 +394,6 @@
     "light": "#e3e5e8",
     "midnight": "#131318",
     "darker": "#26272f"
-  },
-  "EMBED_TITLE": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#ecedef",
-    "darker": "#e4e5e8"
-  },
-  "EXPRESSION_PICKER_BG": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
   },
   "EXPRESSIVE_GRADIENT_BLUE_END": {
     "dark": "#161a8a73",
@@ -653,12 +587,6 @@
     "midnight": "#1e1f22",
     "darker": "#1e1f22"
   },
-  "HEADER_PRIMARY": {
-    "dark": "#f2f3f5",
-    "light": "#060607",
-    "midnight": "#ecedef",
-    "darker": "#e4e5e8"
-  },
   "ICON_FEEDBACK_CRITICAL": {
     "dark": "#f23f43",
     "light": "#da373c",
@@ -827,12 +755,6 @@
     "midnight": "#dddee1",
     "darker": "#dddee1"
   },
-  "LEADERBOARD_LEAGUE_BRAND_TEXT": {
-    "dark": "#cbaa62",
-    "light": "#94620f",
-    "midnight": "#cbaa62",
-    "darker": "#cbaa62"
-  },
   "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
     "dark": "#23242880",
     "light": "#f2f3f51a",
@@ -856,12 +778,6 @@
     "light": "#fffffff2",
     "midnight": "#000000f2",
     "darker": "#000000f2"
-  },
-  "LIVE_STAGE_TILE_BORDER": {
-    "dark": "#4e505899",
-    "light": "#6d6f7826",
-    "midnight": "#4d505b99",
-    "darker": "#4d505b99"
   },
   "MENTION_BACKGROUND": {
     "dark": "#5865f24d",
@@ -935,6 +851,12 @@
     "midnight": "#000000",
     "darker": "#1c1d23"
   },
+  "MOBILE_ALERT_BACKGROUND_DEFAULT": {
+    "dark": "#313338",
+    "light": "#ffffff",
+    "midnight": "#000000",
+    "darker": "#1c1d23"
+  },
   "MOBILE_ANDROID_BUTTON_BACKGROUND_RIPPLE": {
     "dark": "#ffffff12",
     "light": "#0000001f",
@@ -946,6 +868,24 @@
     "light": "#000000",
     "midnight": "#212229",
     "darker": "#000000"
+  },
+  "MOBILE_COACHMARK_BACKGROUND_DEFAULT": {
+    "dark": "#111214",
+    "light": "#ffffff",
+    "midnight": "#212229",
+    "darker": "#2c2d35"
+  },
+  "MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT": {
+    "dark": "#2b2d31",
+    "light": "#f2f3f5",
+    "midnight": "#000000",
+    "darker": "#1c1d23"
+  },
+  "MOBILE_TEXT_HEADING_PRIMARY": {
+    "dark": "#f2f3f5",
+    "light": "#060607",
+    "midnight": "#ecedef",
+    "darker": "#e4e5e8"
   },
   "MODAL_BACKGROUND": {
     "dark": "#313338",
@@ -971,12 +911,6 @@
     "midnight": "#001603",
     "darker": "#002f0d"
   },
-  "OVERLAY_BACKDROP_DEFAULT": {
-    "dark": "#000000b8",
-    "light": "#00000085",
-    "midnight": "#000000b8",
-    "darker": "#000000b8"
-  },
   "OVERLAY_BACKDROP_LIGHTBOX": {
     "dark": "#000000eb",
     "light": "#000000eb",
@@ -988,12 +922,6 @@
     "light": "#ffffff",
     "midnight": "#0f1014",
     "darker": "#1c1d23"
-  },
-  "POLLS_NORMAL_FILL_HOVER": {
-    "dark": "#313338",
-    "light": "#dbdee1",
-    "midnight": "#313338",
-    "darker": "#313338"
   },
   "POLLS_NORMAL_IMAGE_BACKGROUND": {
     "dark": "#232428",
@@ -1085,18 +1013,6 @@
     "midnight": "#da373c",
     "darker": "#da373c"
   },
-  "REDESIGN_BUTTON_DANGER_PRESSED_BACKGROUND": {
-    "dark": "#bb3033",
-    "light": "#bb3033",
-    "midnight": "#bb3033",
-    "darker": "#bb3033"
-  },
-  "REDESIGN_BUTTON_DANGER_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
   "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": {
     "dark": "#da373c",
     "light": "#da373c",
@@ -1133,41 +1049,11 @@
     "midnight": "#ffffff",
     "darker": "#ffffff"
   },
-  "REDESIGN_BUTTON_OVERLAY_BACKGROUND": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
-  "REDESIGN_BUTTON_OVERLAY_TEXT": {
-    "dark": "#060607",
-    "light": "#060607",
-    "midnight": "#060607",
-    "darker": "#060607"
-  },
   "REDESIGN_BUTTON_POSITIVE_BACKGROUND": {
     "dark": "#248045",
     "light": "#248045",
     "midnight": "#248045",
     "darker": "#248045"
-  },
-  "REDESIGN_BUTTON_POSITIVE_PRESSED_BACKGROUND": {
-    "dark": "#1f703c",
-    "light": "#1f703c",
-    "midnight": "#1f703c",
-    "darker": "#1f703c"
-  },
-  "REDESIGN_BUTTON_POSITIVE_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
-  "REDESIGN_BUTTON_PREMIUM_PRIMARY_BLUE_FOR_GRADIENT": {
-    "dark": "#1776cf",
-    "light": "#1776cf",
-    "midnight": "#1776cf",
-    "darker": "#1776cf"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
     "dark": "#ab5d8a",
@@ -1193,67 +1079,7 @@
     "midnight": "#b845c1",
     "darker": "#b845c1"
   },
-  "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": {
-    "dark": "#5865f200",
-    "light": "#5865f200",
-    "midnight": "#5865f200",
-    "darker": "#5865f200"
-  },
   "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": {
-    "dark": "#949cf7",
-    "light": "#5865f2",
-    "midnight": "#7984f5",
-    "darker": "#949cf7"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BACKGROUND": {
-    "dark": "#505cdc00",
-    "light": "#505cdc00",
-    "midnight": "#505cdc00",
-    "darker": "#505cdc00"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BORDER": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BACKGROUND": {
-    "dark": "#505cdc",
-    "light": "#505cdc",
-    "midnight": "#505cdc",
-    "darker": "#505cdc"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BORDER": {
-    "dark": "#949cf7",
-    "light": "#949cf7",
-    "midnight": "#949cf7",
-    "darker": "#949cf7"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BACKGROUND": {
-    "dark": "#23286129",
-    "light": "#5865f20f",
-    "midnight": "#23286129",
-    "darker": "#23286129"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BORDER": {
-    "dark": "#7984f580",
-    "light": "#a8aff8",
-    "midnight": "#7984f580",
-    "darker": "#7984f580"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_TEXT": {
-    "dark": "#949cf7",
-    "light": "#4752c4",
-    "midnight": "#949cf7",
-    "darker": "#949cf7"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ALT_TEXT": {
     "dark": "#949cf7",
     "light": "#5865f2",
     "midnight": "#7984f5",
@@ -1264,12 +1090,6 @@
     "light": "#5865f2",
     "midnight": "#5865f2",
     "darker": "#5865f2"
-  },
-  "REDESIGN_BUTTON_PRIMARY_ON_BLURPLE_PRESSED_TEXT": {
-    "dark": "#505cdc",
-    "light": "#505cdc",
-    "midnight": "#505cdc",
-    "darker": "#505cdc"
   },
   "REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND": {
     "dark": "#ffffff",
@@ -1457,12 +1277,6 @@
     "midnight": "#f23f43",
     "darker": "#f23f43"
   },
-  "STATUS_DANGER_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
   "STATUS_ONLINE": {
     "dark": "#23a55a",
     "light": "#24934e",
@@ -1553,29 +1367,23 @@
     "midnight": "#00aafc",
     "darker": "#00aafc"
   },
-  "TEXT_LINK_LOW_SATURATION": {
-    "dark": "#2eb6ff",
-    "light": "#006be7",
-    "midnight": "#2eb6ff",
-    "darker": "#2eb6ff"
-  },
-  "TEXT_LOW_CONTRAST": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#5b5e6a",
-    "darker": "#6c6f7c"
-  },
-  "TEXT_MESSAGE_PREVIEW_LOW_SAT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#9597a3",
-    "darker": "#6c6f7c"
-  },
   "TEXT_MUTED": {
     "dark": "#949ba4",
     "light": "#5c5e66",
     "midnight": "#818491",
     "darker": "#818491"
+  },
+  "TEXT_OVERLAY_DARK": {
+    "dark": "#2f3035",
+    "light": "#2f3035",
+    "midnight": "#2f3035",
+    "darker": "#2f3035"
+  },
+  "TEXT_OVERLAY_LIGHT": {
+    "dark": "#fbfbfb",
+    "light": "#fbfbfb",
+    "midnight": "#fbfbfb",
+    "darker": "#fbfbfb"
   },
   "TEXT_STATUS_DND": {
     "dark": "#f23f43",
@@ -1636,12 +1444,6 @@
     "light": "#f2f3f5",
     "midnight": "#000000",
     "darker": "#1c1d23"
-  },
-  "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
-    "dark": "#1e1f2280",
-    "light": "#ffffff80",
-    "midnight": "#1c1d2380",
-    "darker": "#1c1d2380"
   },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
     "dark": "#2c2d3566",
