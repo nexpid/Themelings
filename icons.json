@@ -1605,15 +1605,6 @@
         "width": 24,
         "height": 24
     },
-    "circle_check": {
-        "file": "app/modules/self_mod/inappropriate_conversation/images/circle_check.png",
-        "hash": "9b07b89ed4d4502d4d6d99522921e810",
-        "scales": [
-            1
-        ],
-        "width": 24,
-        "height": 24
-    },
     "CircleCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleCheckIcon.png",
         "hash": "ad0e97d050f9cc2b9fcfd80c0860d2bf",
@@ -2171,17 +2162,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "crisis_text_line": {
-        "file": "app/modules/self_mod/inappropriate_conversation/images/crisis_text_line.png",
-        "hash": "6fc3150b70d3380556ebba8c3238a326",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 183,
-        "height": 140
     },
     "CrownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CrownIcon.png",
@@ -12735,15 +12715,6 @@
         "width": 24,
         "height": 24
     },
-    "tips": {
-        "file": "app/modules/self_mod/inappropriate_conversation/images/tips.png",
-        "hash": "a1ed8dd78b25487398c8d4b80de4021d",
-        "scales": [
-            1
-        ],
-        "width": 207,
-        "height": 140
-    },
     "top_perk_streaming_quality": {
         "file": "app/modules/guild_boosting/native/images/top_perk_streaming_quality.png",
         "hash": "616e0e1297b795db059112c52470eab4",
@@ -13370,28 +13341,6 @@
         ],
         "width": 120,
         "height": 125
-    },
-    "wumpus_exclamation": {
-        "file": "app/modules/self_mod/inappropriate_conversation/images/wumpus_exclamation.png",
-        "hash": "d877f942decaabbf0f2d6bc05ab938e1",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 229,
-        "height": 140
-    },
-    "wumpus_lightbulb": {
-        "file": "app/modules/self_mod/inappropriate_conversation/images/wumpus_lightbulb.png",
-        "hash": "9b8bece1abae8b7ec983b1a93e2bd49c",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 229,
-        "height": 140
     },
     "wumpus_snowglobe_premium120": {
         "file": "app/images/native/gifting/wumpus_snowglobe_premium120.png",
