@@ -141,7 +141,7 @@ case 14:
                     var7 = var8.selectVoiceChannel;
                     var6 = var7.bind(var8)(var6);
 case 16: // try_start_0
-                    SaveGenerator(address=132);
+                    SaveGenerator(address=134);
 case 17:
                     return var5;
 case 18:

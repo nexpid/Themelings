@@ -361,7 +361,7 @@ case 15:
         return var1;
     };
     var2['removeGameFromSuggestedGames'] = var7;
-    var4 = function notifyPendingWidgets() {
+    var4 = function notifyUnsavedWidgets() {
         var7 = _closure1_slot0;
         var9 = _closure1_slot2;
         var3 = 6;
@@ -412,7 +412,7 @@ case 15:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['notifyPendingWidgets'] = var4;
+    var2['notifyUnsavedWidgets'] = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

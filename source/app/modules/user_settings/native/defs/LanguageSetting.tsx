@@ -104,7 +104,7 @@ case 2:
     };
     var2['useTrailing'] = var8;
     var8 = {};
-    var10 = var10.LOCALE;
+    var10 = var10.LANGUAGE;
     var8['route'] = var10;
     var9 = function getComponent() {
         var3 = _closure1_slot0;

@@ -270,8 +270,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRIEND_STREAM_NOTIFICATIONS'] = var1;
     var1 = 'COMMUNITY_ACTIVITY_ALERTS';
     var2['COMMUNITY_ACTIVITY_ALERTS'] = var1;
-    var1 = 'USER_RESURRECTION_NOTIFICATIONS';
-    var2['USER_RESURRECTION_NOTIFICATIONS'] = var1;
     var1 = 'GAME_UPDATE_NOTIFICATIONS';
     var2['GAME_UPDATE_NOTIFICATIONS'] = var1;
     var1 = 'PROFILE_UPDATES_NOTIFICATIONS';

@@ -233,6 +233,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var11['getGlowAnimationData'] = var13;
     var6['trinketsAnimation'] = var11;
+    var11 = {};
+    var13 = ['rgba(88, 101, 242, 0)', 'rgba(88, 101, 242, 1)'];
+    var11['gradient'] = var13;
+    var6['gradientConfig'] = var11;
     var2['chatGiftIcon'] = var6;
     var6 = {};
     var11 = function getImageUrl(arg1, arg2) {

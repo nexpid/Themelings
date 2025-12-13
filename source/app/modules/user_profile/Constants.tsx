@@ -432,6 +432,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['PRESS_CLOUD_PLAY_BUTTON'] = var5;
     var5 = 'PRESS_HANG_STATUS_BUTTON';
     var10['PRESS_HANG_STATUS_BUTTON'] = var5;
+    var5 = 'PRESS_ADD_TO_CURRENT_GAMES_WIDGET';
+    var10['PRESS_ADD_TO_CURRENT_GAMES_WIDGET'] = var5;
     var9 = {};
     var5 = 'PRESS_ADD_GAME';
     var9['PRESS_ADD_GAME'] = var5;

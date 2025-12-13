@@ -3,8 +3,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -26,18 +24,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['config'] = var10;
     var10 = new Array(3);
     var10[0] = var4;
-    var4 = {'id': 1, 'label': 'Top Filters'};
-    var11 = {'isInExperiment': true, 'isEnabled': true, 'isHasFilterElevated': false};
-    var4['config'] = var11;
-    var10[1] = var4;
+    var11 = {'id': 1, 'label': 'Top Filters'};
+    var4 = 1;
+    var12 = {'isInExperiment': true, 'isEnabled': true, 'isHasFilterElevated': false};
+    var11['config'] = var12;
+    var10[1] = var11;
     var11 = {'id': 2, 'label': 'Top Filters (has: before mentions:)'};
-    var4 = 2;
     var12 = {'isInExperiment': true, 'isEnabled': true, 'isHasFilterElevated': true};
     var11['config'] = var12;
     var10[2] = var11;
     var7['treatments'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot2 = var7;
+    var _closure1_slot0 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,29 +46,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.getIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isInExperiment;
             return var1;
@@ -82,29 +69,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0002_ip = 2; continue _fun0002 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.useIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isInExperiment;
             return var1;
@@ -116,29 +92,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0003_ip = 2; continue _fun0003 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.useIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isEnabled;
             return var1;
@@ -150,29 +115,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0004_ip = 2; continue _fun0004 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.getIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isHasFilterElevated;
             return var1;
@@ -184,29 +138,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0005_ip = 2; continue _fun0005 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.useIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isHasFilterElevated;
             return var1;

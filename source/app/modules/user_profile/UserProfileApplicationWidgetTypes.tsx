@@ -55,17 +55,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(6);
         var2[0] = var1;
         var1 = {};
-        var6 = 'isSaveable';
+        var6 = 'isDiscardable';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = false;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'isValid';
         var1['key'] = var6;
         var6 = function value() {
             var1 = true;
             return var1;
         };
         var1['value'] = var6;
-        var2[1] = var1;
+        var2[2] = var1;
         var1 = {};
         var6 = 'isEqual';
         var1['key'] = var6;
@@ -86,7 +95,7 @@ case 2:
             }
         };
         var1['value'] = var6;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = {};
         var6 = 'getProfileAnalyticsOptions';
         var1['key'] = var6;
@@ -100,7 +109,7 @@ case 2:
             return var1;
         };
         var1['value'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'getProfileEditAnalyticsOptions';
         var1['key'] = var6;
@@ -114,7 +123,7 @@ case 2:
             return var1;
         };
         var1['value'] = var5;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = undefined;
         var1 = var3.bind(var1)(var4, var2);
         return var1;

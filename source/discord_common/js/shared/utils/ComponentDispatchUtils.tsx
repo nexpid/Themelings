@@ -169,12 +169,12 @@ case 16: // catch_target0
                 var8 = var8.enableDevtools;
                 var6 = var8;
                 if(!var8) { _fun0003_ip = 17; continue _fun0003 }
-case 4:
+case 18:
                 var8 = var5.options;
                 var6 = var8.devtoolsReporter;
 case 17:
-                if(!var6) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                if(!var6) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var6 = var5.options;
                 var5 = var6.devtoolsReporter;
                 var8 = var7.Date;
@@ -182,7 +182,7 @@ case 19:
                 var7 = var7.bind(var8)();
                 var2 = var7 - var2;
                 var2 = var5.bind(var6)(var4, var3, var2);
-case 18:
+case 19:
                 throw var1;
             }
         };
@@ -211,8 +211,8 @@ case 7: // try_start_0
                 var1 = var6;
                 var8 = var6.length;
                 var6 = 0;
-                if(!(var8 > var6)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(!(var8 > var6)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                 var8 = var1;
                 var6 = var8.length;
                 var1 = 1;
@@ -220,17 +220,17 @@ case 21:
                 var6 = var8[var1];
                 var1 = var3;
                 var1 = var6.bind(var8)(var1);
-case 20: // try_end0
+case 21: // try_end0
                 var6 = var5.options;
                 var6 = var6.enableDevtools;
                 var1 = var6;
-                if(!var6) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(!var6) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var6 = var5.options;
                 var1 = var6.devtoolsReporter;
-case 22:
-                if(!var1) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+case 23:
+                if(!var1) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                 var10 = var5.options;
                 var9 = var10.devtoolsReporter;
                 var8 = var4;
@@ -241,20 +241,20 @@ case 25:
                 var1 = var2;
                 var1 = var11 - var1;
                 var1 = var9.bind(var10)(var8, var6, var1);
-case 24:
+case 25:
                 return var5;
-case 26: // catch_target0
+case 27: // catch_target0
                 CatchBlockStart(arg_register=0);
                 var8 = var5.options;
                 var8 = var8.enableDevtools;
                 var6 = var8;
-                if(!var8) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                if(!var8) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                 var8 = var5.options;
                 var6 = var8.devtoolsReporter;
-case 27:
-                if(!var6) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+case 28:
+                if(!var6) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                 var6 = var5.options;
                 var5 = var6.devtoolsReporter;
                 var8 = var7.Date;
@@ -262,7 +262,7 @@ case 30:
                 var7 = var7.bind(var8)();
                 var2 = var7 - var2;
                 var2 = var5.bind(var6)(var4, var3, var2);
-case 29:
+case 30:
                 throw var1;
             }
         };
@@ -296,8 +296,8 @@ case 0:
                 var4 = var1._savedDispatches;
                 var5 = var4[var3];
                 var4 = null;
-                if(!(var4 != var5)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                if(!(var4 != var5)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                 var4 = var5.forEach;
                 var2 = function(arg1) {
                     var4 = _closure3_slot0;
@@ -312,7 +312,7 @@ case 32:
                 var2 = var1._savedDispatches;
                 var1 = undefined;
                 var2[var3] = var1;
-case 31:
+case 32:
                 var1 = undefined;
                 return var1;
             }
@@ -334,25 +334,25 @@ case 0:
                 var2 = var3.indexOf;
                 var3 = var2.bind(var3)(var4);
                 var2 = 0;
-                if(!(!(var3 >= var2))) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+                if(!(!(var3 >= var2))) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
                 var3 = var1.emitter;
                 var2 = var3.on;
                 var2 = var2.bind(var3)(var5, var4);
                 var2 = var1._checkSavedDispatches;
                 var2 = var2.bind(var1)(var5);
-                _fun0006_ip = 35; continue _fun0006;
-case 33:
+                _fun0006_ip = 36; continue _fun0006;
+case 34:
                 var2 = var1.options;
                 var2 = var2.logger;
-                if(!var2) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+                if(!var2) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
                 var2 = var1.options;
                 var4 = var2.logger;
                 var3 = var4.warn;
                 var2 = 'ComponentDispatch.subscribe: Attempting to add a duplicate listener';
                 var2 = var3.bind(var4)(var2, var5);
-case 35:
+case 36:
                 return var1;
             }
         };
@@ -388,26 +388,26 @@ case 0:
                 var3 = var2.bind(var3)(var5);
                 var2 = var3.includes;
                 var2 = var2.bind(var3)(var4);
-                if(var2) { _fun0007_ip = 37; continue _fun0007 }
+                if(var2) { _fun0007_ip = 15; continue _fun0007 }
 case 38:
                 var2 = var1.options;
                 var2 = var2.logger;
-                if(!var2) { _fun0007_ip = 39; continue _fun0007 }
-case 11:
+                if(!var2) { _fun0007_ip = 23; continue _fun0007 }
+case 39:
                 var2 = var1.options;
                 var6 = var2.logger;
                 var3 = var6.warn;
                 var2 = 'ComponentDispatch.resubscribe: Resubscribe without existing subscription';
                 var2 = var3.bind(var6)(var2, var5);
-                _fun0007_ip = 39; continue _fun0007;
-case 37:
+                _fun0007_ip = 23; continue _fun0007;
+case 15:
                 var3 = var1.emitter;
                 var2 = var3.off;
                 var2 = var2.bind(var3)(var5, var4);
                 var3 = var1.emitter;
                 var2 = var3.on;
                 var2 = var2.bind(var3)(var5, var4);
-case 39:
+case 23:
                 return var1;
             }
         };

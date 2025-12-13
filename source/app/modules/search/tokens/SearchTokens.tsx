@@ -3103,21 +3103,6 @@ case 12:
         var11 = var18.bind(var19)(var11);
         var11 = var14.bind(var15)(var11);
         var2['key'] = var11;
-        var11 = function validator() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 23;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.getIsSearchAuthorTypeFilterEnabled;
-            var1 = {};
-            var4 = 'SearchTokens';
-            var1['location'] = var4;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var2['validator'] = var11;
         var11 = var17[var7];
         var11 = var16.bind(var15)(var11);
         var14 = var11.intl;
@@ -3293,7 +3278,7 @@ case 12:
     var _closure1_slot24 = var5;
     var9 = {};
     var _closure1_slot25 = var9;
-    var10 = 24;
+    var10 = 23;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;

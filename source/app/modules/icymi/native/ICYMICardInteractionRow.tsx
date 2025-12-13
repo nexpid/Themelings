@@ -856,14 +856,14 @@ case 0:
                     var2 = _closure2_slot0;
                     var5 = null;
                     var2 = var5 != var2;
-                    if(!var2) { _fun0013_ip = 17; continue _fun0013 }
-case 68:
+                    if(!var2) { _fun0013_ip = 16; continue _fun0013 }
+case 49:
                     var4 = _closure2_slot1;
                     var4 = var4.thread;
                     var2 = var5 != var4;
-case 17:
-                    if(!var2) { _fun0013_ip = 21; continue _fun0013 }
-case 8:
+case 16:
+                    if(!var2) { _fun0013_ip = 68; continue _fun0013 }
+case 14:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 32;
@@ -878,7 +878,7 @@ case 8:
                     var3 = var3.guild_id;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
-case 21:
+case 68:
                     return var1;
                 }
             };

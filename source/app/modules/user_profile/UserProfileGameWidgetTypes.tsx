@@ -94,41 +94,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(6);
         var2[0] = var1;
         var1 = {};
-        var6 = 'isSaveable';
+        var6 = 'isDiscardable';
         var1['key'] = var6;
         var6 = function value() {
             var1 = this;
             var1 = var1.games;
             var2 = var1.length;
             var1 = 0;
-            var1 = var2 > var1;
+            var1 = var1 === var2;
             return var1;
         };
         var1['value'] = var6;
         var2[1] = var1;
         var1 = {};
+        var6 = 'isValid';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.games;
+                var3 = var1.length;
+                var1 = 0;
+                var1 = var3 > var1;
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var3 = var2.games;
+                var3 = var3.length;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var4 = 3;
+                var5 = var5[var4];
+                var4 = undefined;
+                var4 = var6.bind(var4)(var5);
+                var4 = var4.GAME_WIDGET_LIMITS_BY_TYPE;
+                var2 = var2.type;
+                var2 = var4[var2];
+                var1 = var3 <= var2;
+case 2:
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
         var6 = 'isEqual';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = arg1;
                 var3 = this;
                 var1 = _closure2_slot0;
                 var1 = var4 instanceof var1;
-                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var5 = var4.type;
                 var2 = var3.type;
                 var2 = var5 === var2;
-                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var5 = 3;
+                var5 = 4;
                 var6 = var6[var5];
                 var5 = undefined;
                 var7 = var7.bind(var5)(var6);
@@ -137,14 +168,14 @@ case 5:
                 var4 = var4.games;
                 var3 = var3.type;
                 var2 = var6.bind(var7)(var5, var4, var3);
-case 4:
+case 6:
                 var1 = var2;
-case 2:
+case 4:
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = {};
         var6 = 'getProfileAnalyticsOptions';
         var1['key'] = var6;
@@ -156,7 +187,7 @@ case 2:
             return var1;
         };
         var1['value'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'getProfileEditAnalyticsOptions';
         var1['key'] = var6;
@@ -168,13 +199,13 @@ case 2:
             return var1;
         };
         var1['value'] = var5;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = undefined;
         var1 = var3.bind(var1)(var4, var2);
         return var1;
     };
     var2 = var2.bind(var1)();
-    var6 = 4;
+    var6 = 5;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

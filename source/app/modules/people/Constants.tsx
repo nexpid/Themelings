@@ -26,6 +26,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PEOPLE_LIST_ITEM_HEIGHT_TALL'] = var2;
     var2 = 50;
     var3['PEOPLE_LIST_SECTION_HEIGHT'] = var2;
+    var2 = 48;
+    var3['PEOPLE_LIST_SECTION_FOOTER_HEIGHT'] = var2;
     var2 = 5;
     var3['MINIMUM_PENDING_INCOMING_COUNT_FOR_CLEAR_ALL'] = var2;
     var2 = 'ACCEPT_FRIEND_REQUEST_CONFIRMATION_MODAL';

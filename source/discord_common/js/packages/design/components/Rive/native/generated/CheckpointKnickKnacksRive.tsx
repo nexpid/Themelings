@@ -130,6 +130,8 @@ case 4:
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var1['src'] = var9;
+            var9 = 'checkpoint_knick_knacks';
+            var1['resourceName'] = var9;
             var1['artboard'] = var8;
             var8 = _closure1_slot6;
             var1['artboardProperties'] = var8;

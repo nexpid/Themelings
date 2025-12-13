@@ -479,73 +479,36 @@ case 0:
             if(var2) { _fun0008_ip = 53; continue _fun0008 }
 case 54:
             var2 = var4.value;
-            var12 = var2.type;
-            var13 = _closure1_slot0;
-            var11 = _closure1_slot1;
-            var11 = var11[var5];
-            var11 = var13.bind(var1)(var11);
-            var11 = var11.ICYMIItemTypes;
-            var11 = var11.MESSAGE;
-            if(!(var12 !== var11)) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
             var13 = var2.type;
             var12 = _closure1_slot0;
             var11 = _closure1_slot1;
             var11 = var11[var5];
             var11 = var12.bind(var1)(var11);
             var11 = var11.ICYMIItemTypes;
-            var12 = var11.SUMMARY;
+            var12 = var11.MESSAGE;
             var11 = var3;
-            if(!(var13 === var12)) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+            if(!(var13 === var12)) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
             var12 = _closure1_slot8;
             var13 = var12.readIdToTimestampMap;
             var12 = var2.id;
             var12 = var13[var12];
             var12 = var6 != var12;
-            if(var12) { _fun0008_ip = 59; continue _fun0008 }
-case 21:
-            var14 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var13 = var13[var7];
-            var16 = var14.bind(var1)(var13);
-            var15 = var16.isItemUnreadInChannel;
-            var13 = var2.data;
-            var14 = var13.channel_id;
-            var13 = var2.data;
-            var13 = var13.summary_id;
-            var12 = var15.bind(var16)(var14, var13);
-case 59:
-            var11 = var3;
             if(var12) { _fun0008_ip = 57; continue _fun0008 }
-case 60:
-            var12 = _closure1_slot8;
-            var13 = var12.readIdToTimestampMap;
-            var12 = var2.id;
-            var13[var12] = var8;
-            var11 = var3;
-            _fun0008_ip = 57; continue _fun0008;
-case 55:
-            var12 = _closure1_slot8;
-            var13 = var12.readIdToTimestampMap;
-            var12 = var2.id;
-            var12 = var13[var12];
-            var12 = var6 != var12;
-            if(var12) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+case 58:
             var13 = var2.data;
             var13 = var13.message_context;
             var15 = var6 == var13;
             var14 = undefined;
-            if(var15) { _fun0008_ip = 63; continue _fun0008 }
-case 64:
+            if(var15) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
             var14 = var13.external_content_application_id;
-case 63:
+case 59:
             var12 = var6 != var14;
             var3 = var13;
-case 61:
-            if(var12) { _fun0008_ip = 65; continue _fun0008 }
-case 66:
+case 57:
+            if(var12) { _fun0008_ip = 61; continue _fun0008 }
+case 62:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var7];
@@ -556,16 +519,16 @@ case 66:
             var13 = var2.data;
             var13 = var13.message_id;
             var12 = var15.bind(var16)(var14, var13);
-case 65:
+case 61:
             var11 = var3;
-            if(var12) { _fun0008_ip = 57; continue _fun0008 }
-case 67:
+            if(var12) { _fun0008_ip = 55; continue _fun0008 }
+case 63:
             var12 = _closure1_slot8;
             var12 = var12.readIdToTimestampMap;
             var2 = var2.id;
             var12[var2] = var8;
             var11 = var3;
-case 57:
+case 55:
             var12 = var9.bind(var1)();
             var2 = var12.done;
             var3 = var11;

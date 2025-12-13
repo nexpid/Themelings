@@ -480,8 +480,8 @@ case 0:
                 var6 = this;
                 var1 = var6.perUserFpsWindow;
                 var1 = var5 in var1;
-                if(!var1) { _fun0005_ip = 18; continue _fun0005 }
-case 36:
+                if(!var1) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var9 = var6.logger;
                 var8 = var9.info;
                 var10 = _closure1_slot0;
@@ -513,7 +513,7 @@ case 36:
                 var2 = var2.AUTO_PROBING;
                 var2 = var3.bind(var4)(var5, var2);
                 var1 = true;
-case 18:
+case 36:
                 return var1;
             }
         };
@@ -586,8 +586,8 @@ case 0:
                 var2 = var4.bind(var5)(var2);
                 var2 = var1.perUserFpsWindow;
                 var2 = var3 in var2;
-                if(var2) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+                if(var2) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
                 var4 = var1.perUserFpsWindow;
                 var2 = new Array(0);
                 var4[var3] = var2;
@@ -601,7 +601,7 @@ case 38:
                 var2 = var1.retryBackoffCache;
                 var1 = {'lastBackoffTime': null, 'expBackoffFactor': 1};
                 var2[var3] = var1;
-case 37:
+case 38:
                 var1 = undefined;
                 return var1;
             }
@@ -636,13 +636,13 @@ case 0:
                 var4 = var5.delete;
                 var4 = var4.bind(var5)(var3);
                 var4 = var2.probingUserId;
-                if(!(var3 === var4)) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
+                if(!(var3 === var4)) { _fun0007_ip = 40; continue _fun0007 }
+case 41:
                 var4 = undefined;
                 var2['probingUserId'] = var4;
                 var4 = var2.tryReenableQueue;
                 var4 = var4.bind(var2)();
-case 39:
+case 40:
                 var5 = var1.clearTimeout;
                 var1 = var2.timeoutIdCache;
                 var4 = var1[var3];
@@ -666,15 +666,15 @@ case 0:
                 var6['disabled'] = var1;
                 var4 = var6.perUserFpsWindow;
                 for(var1 in var4)
-case 41:
-                {
 case 42:
+                {
+case 43:
                     var8 = var1;
                     var7 = var6.deleteUser;
                     var7 = var7.bind(var6)(var8);
-                    _fun0008_ip = 41; continue _fun0008;
+                    _fun0008_ip = 42; continue _fun0008;
                 }
-case 43:
+case 44:
                 var1 = undefined;
                 return var1;
             }

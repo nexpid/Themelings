@@ -275,6 +275,10 @@ case 28:
     var11['MEDIATEK'] = var18;
     var9 = 'wmf_sw';
     var11['WMF_SW'] = var9;
+    var9 = 'wmf_hw';
+    var11['WMF_HW'] = var9;
+    var9 = 'wmf_direct_3d';
+    var11['WMF_DIRECT_3D'] = var9;
     var17 = 'uncategorized';
     var11['UNCATEGORIZED'] = var17;
     var9 = 'unknown';
@@ -332,6 +336,10 @@ case 28:
     var9['omx.mtk'] = var19;
     var19 = var11.WMF_SW;
     var9['mediafoundation sw'] = var19;
+    var19 = var11.WMF_HW;
+    var9['mediafoundation hw'] = var19;
+    var19 = var11.WMF_DIRECT_3D;
+    var9['mediafoundation direct3d'] = var19;
     var9 = var17.bind(var18)(var9);
     var _closure1_slot16 = var9;
     var17 = var4.Object;

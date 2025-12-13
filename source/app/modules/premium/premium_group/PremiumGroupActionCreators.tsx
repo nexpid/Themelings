@@ -81,8 +81,12 @@ case 9:
                     var11 = var6;
                     var12 = var11.subscription_id;
                     var10['subscriptionId'] = var12;
-                    var11 = var11.member_type;
-                    var10['memberType'] = var11;
+                    var12 = var11.member_type;
+                    var10['memberType'] = var12;
+                    var12 = var11.subscription_status;
+                    var10['subscriptionStatus'] = var12;
+                    var11 = var11.current_period_end;
+                    var10['currentPeriodEnd'] = var11;
                     var7['membership'] = var10;
                     var7 = var8.bind(var9)(var7);
 case 11: // try_end0
@@ -872,10 +876,10 @@ case 63:
                     var7 = var6;
                     var8 = var8 != var6;
                     var6 = 0;
-                    if(!var8) { _fun0009_ip = 65; continue _fun0009 }
-case 66:
+                    if(!var8) { _fun0009_ip = 7; continue _fun0009 }
+case 11:
                     var6 = var7;
-case 65:
+case 7:
                     var3['status'] = var6;
                     var3 = var4.bind(var5)(var3);
 case 61:

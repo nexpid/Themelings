@@ -320,7 +320,7 @@ case 40:
                     return var2;
 case 41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 42; continue _fun0005 }
+                    if(var5) { _fun0005_ip = 15; continue _fun0005 }
 case 9:
                     var6 = var3.performance;
                     var5 = var6.now;
@@ -337,7 +337,7 @@ case 9:
                     var3 = var15[var8](var14, var13, var12, var11, var10);
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 42:
+case 15:
                     return var2;
 case 38:
                     return var1;
@@ -396,20 +396,20 @@ case 0:
                 var2 = this;
                 var3 = var2.readStateVersion;
                 var4 = null;
-                if(!(var4 != var3)) { _fun0006_ip = 30; continue _fun0006 }
+                if(!(var4 != var3)) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
                 var3 = var1.version;
-                if(!(var4 == var3)) { _fun0006_ip = 4; continue _fun0006 }
+                if(!(var4 == var3)) { _fun0006_ip = 44; continue _fun0006 }
 case 34:
                 var5 = _closure1_slot7;
                 var4 = var5.log;
                 var3 = 'Received null read states version';
                 var3 = var4.bind(var5)(var3, var1);
-                _fun0006_ip = 30; continue _fun0006;
-case 4:
+                _fun0006_ip = 42; continue _fun0006;
+case 44:
                 var1 = var1.version;
                 var2['readStateVersion'] = var1;
-case 30:
+case 42:
                 var1 = undefined;
                 return var1;
             }
@@ -429,12 +429,12 @@ case 0:
                 var3 = false;
                 var4 = var4.bind(var5)(var3);
                 var3 = arg2;
-                if(!var3) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                if(!var3) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                 var3 = var9.readStateVersion;
                 var17 = null;
-                if(!(var17 != var3)) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+                if(!(var17 != var3)) { _fun0007_ip = 47; continue _fun0007 }
+case 44:
                 var3 = global;
                 var8 = var3.Object;
                 var7 = var8.keys;
@@ -561,7 +561,7 @@ case 50:
                 var8['version'] = var9;
                 var3[2] = var8;
                 var3 = var5.bind(var7)(var3);
-case 44:
+case 45:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 6;
@@ -591,7 +591,7 @@ case 44:
                 };
                 var2 = var3.bind(var4)(var2);
                 return var1;
-case 46:
+case 47:
                 var1 = undefined;
                 return var1;
             }

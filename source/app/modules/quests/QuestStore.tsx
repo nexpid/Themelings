@@ -2287,8 +2287,8 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0025_ip = 53; continue _fun0025 }
-case 130:
+            if(!(var7 != var9)) { _fun0025_ip = 130; continue _fun0025 }
+case 131:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 11;
@@ -2300,8 +2300,8 @@ case 130:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0025_ip = 53; continue _fun0025 }
-case 131:
+            if(!(var7 !== var9)) { _fun0025_ip = 130; continue _fun0025 }
+case 73:
             var10 = var4.Map;
             var13 = _closure1_slot32;
             var8 = var10.prototype;
@@ -2313,7 +2313,7 @@ case 131:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot32 = var5;
-case 53:
+case 130:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;

@@ -230,7 +230,7 @@ case 0:
                 var5 = var6.isDebugMode;
                 var5 = var5.bind(var6)();
                 if(var5) { _fun0004_ip = 11; continue _fun0004 }
-case 5:
+case 7:
                 var5 = var3.hasChecked;
                 if(!var5) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
@@ -414,7 +414,7 @@ case 27: // try_start_0
                     var6 = var6.bind(var2)(var4);
                     var4 = var6.getTopPriorityGame;
                     var4 = var4.bind(var6)();
-                    SaveGenerator(address=94);
+                    SaveGenerator(address=93);
 case 28:
                     return var4;
 case 29:
@@ -459,7 +459,7 @@ case 32:
                     var8 = var9.fetchGuildForPopout;
                     var6 = var6.guildId;
                     var6 = var8.bind(var9)(var6);
-                    SaveGenerator(address=279);
+                    SaveGenerator(address=275);
 case 35:
                     return var6;
 case 36:

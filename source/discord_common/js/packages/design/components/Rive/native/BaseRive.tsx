@@ -61,8 +61,9 @@ case 4:
     var7 = var4.findNodeHandle;
     var _closure1_slot7 = var7;
     var8 = var4.StyleSheet;
-    var4 = var4.Image;
-    var _closure1_slot8 = var4;
+    var7 = var4.Image;
+    var _closure1_slot8 = var7;
+    var4 = var4.Platform;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -126,7 +127,8 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
-            var16 = var2.src;
+            var3 = var2.src;
+            var16 = var2.resourceName;
             var15 = var2.style;
             var11 = var2.artboard;
             var5 = var2.artboardProperties;
@@ -1038,11 +1040,11 @@ case 87:
             var5 = new Array(2);
             var5[0] = var6;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 61; continue _fun0002 }
-case 96:
+            if(var7) { _fun0002_ip = 96; continue _fun0002 }
+case 97:
             var7 = _closure1_slot10;
             var6 = var7.hidden;
-case 61:
+case 96:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot9;
@@ -1051,19 +1053,19 @@ case 61:
             var5 = var5[var12];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var5['url'] = var16;
+            var5['resourceName'] = var16;
             var5['style'] = var15;
             var5['ref'] = var14;
             var5['onStateChanged'] = var13;
             var5['artboardName'] = var11;
             var11 = null;
-            if(!(var11 == var8)) { _fun0002_ip = 97; continue _fun0002 }
-case 98:
+            if(!(var11 == var8)) { _fun0002_ip = 98; continue _fun0002 }
+case 99:
             var8 = {};
-case 97:
+case 98:
             var5['referencedAssets'] = var8;
             var8 = var9.current;
-            if(!(var11 == var8)) { _fun0002_ip = 99; continue _fun0002 }
+            if(!(var11 == var8)) { _fun0002_ip = 71; continue _fun0002 }
 case 100:
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1073,7 +1075,7 @@ case 100:
             var8 = true;
             var8 = var11.bind(var13)(var8);
             _fun0002_ip = 101; continue _fun0002;
-case 99:
+case 71:
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var12];

@@ -194,7 +194,7 @@ case 3:
 case 0:
                     var2 = this;
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 2; continue _fun0004 }
 case 10:
                     var4 = var2.logs;
                     var3 = var4.push;
@@ -219,7 +219,7 @@ case 10:
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
-case 11:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -238,7 +238,7 @@ case 0:
                     var1 = var3.log;
                     var1 = var1.bind(var3)(var5);
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0005_ip = 3; continue _fun0005 }
+                    if(!var1) { _fun0005_ip = 11; continue _fun0005 }
 case 12:
                     var4 = var2.logs;
                     var3 = var4.push;
@@ -258,7 +258,7 @@ case 12:
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
-case 3:
+case 11:
                     var1 = undefined;
                     return var1;
                 }
@@ -452,12 +452,12 @@ case 0:
                     var4 = arg3;
                     var5 = this;
                     var1 = var5.isTracing;
-                    if(var1) { _fun0010_ip = 12; continue _fun0010 }
-case 27:
+                    if(var1) { _fun0010_ip = 27; continue _fun0010 }
+case 28:
                     var1 = undefined;
                     var1 = var4.bind(var1)();
                     return var1;
-case 12:
+case 27:
                     var3 = var5.prefix;
                     var7 = var5.mark;
                     var2 = global;
@@ -506,15 +506,15 @@ case 0:
                         var4 = arg3;
                         var6 = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0011_ip = 28; continue _fun0011 }
-case 29:
+                        if(var2) { _fun0011_ip = 29; continue _fun0011 }
+case 30:
                         var2 = var6.isTracing;
-                        if(var2) { _fun0011_ip = 30; continue _fun0011 }
+                        if(var2) { _fun0011_ip = 31; continue _fun0011 }
 case 7:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         return var2;
-case 30:
+case 31:
                         var5 = var6.mark;
                         var3 = global;
                         var2 = var3.HermesInternal;
@@ -528,11 +528,11 @@ case 30:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         SaveGenerator(address=101);
-case 31:
-                        return var2;
 case 32:
+                        return var2;
+case 33:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0011_ip = 33; continue _fun0011 }
+                        if(var4) { _fun0011_ip = 24; continue _fun0011 }
 case 34:
                         var8 = var3.Date;
                         var4 = var8.now;
@@ -545,9 +545,9 @@ case 34:
                         var3 = var8.bind(var3)(var9);
                         var3 = var4.bind(var6)(var7, var3, var5);
                         return var2;
-case 33:
+case 24:
                         return var2;
-case 28:
+case 29:
                         return var1;
                     }
                 };

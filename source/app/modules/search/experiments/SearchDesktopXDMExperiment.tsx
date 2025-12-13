@@ -3,8 +3,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -16,24 +14,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createExperiment;
-    var4 = {'kind': 'user', 'id': '2025-06_search_desktop_xdm_experiment', 'label': 'Search Desktop XDM Experiment'};
-    var9 = {'isXDMSearchEnabled': false, 'inExperiment': false};
-    var4['defaultConfig'] = var9;
-    var10 = {'id': 0, 'label': 'Control group for xDM search on desktop'};
-    var9 = {'isXDMSearchEnabled': false, 'inExperiment': true};
-    var10['config'] = var9;
-    var9 = new Array(2);
-    var9[0] = var10;
-    var10 = {'id': 1, 'label': 'Enables xDM search with xDM setting as default off'};
-    var11 = {'isXDMSearchEnabled': true, 'inExperiment': true};
-    var10['config'] = var11;
-    var9[1] = var10;
-    var4['treatments'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 2;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var7 = {'kind': 'user', 'id': '2025-06_search_desktop_xdm_experiment', 'label': 'Search Desktop XDM Experiment'};
+    var4 = {'isXDMSearchEnabled': false, 'inExperiment': false};
+    var7['defaultConfig'] = var4;
+    var4 = {'id': 0, 'label': 'Control group for xDM search on desktop'};
+    var10 = {'isXDMSearchEnabled': false, 'inExperiment': true};
+    var4['config'] = var10;
+    var10 = new Array(2);
+    var10[0] = var4;
+    var11 = {'id': 1, 'label': 'Enables xDM search with xDM setting as default off'};
+    var4 = 1;
+    var12 = {'isXDMSearchEnabled': true, 'inExperiment': true};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var7['treatments'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot0 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,29 +42,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.useIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isXDMSearchEnabled;
             return var1;
@@ -78,29 +65,18 @@ case 2:
 case 0:
             var2 = arg1;
             var1 = var2.location;
-            var6 = var2.autoTrackExposure;
-            var5 = undefined;
-            if(!(var6 === var5)) { _fun0002_ip = 2; continue _fun0002 }
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var6 = true;
+            var5 = true;
 case 2:
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 1;
-            var3 = var7[var3];
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.getIsInSearchImprovementsHoldout;
-            var3 = {};
-            var3['location'] = var1;
-            var3['autoTrackExposure'] = var6;
-            var5 = var4.bind(var5)(var3);
-            var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['disable'] = var5;
+            var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             var1 = var1.isXDMSearchEnabled;
             return var1;

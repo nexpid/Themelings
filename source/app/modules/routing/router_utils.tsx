@@ -370,156 +370,156 @@ case 27:
             var3 = var3.LOGIN;
             var3 = var4.bind(var1)(var3);
             if(var3) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+case 24:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REGISTER;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 32; continue _fun0007 }
-case 33:
+            if(var3) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
             var4 = var1.startsWith;
             var5 = _closure1_slot5;
             var3 = var5.INVITE;
             var6 = '';
             var3 = var3.bind(var5)(var6);
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+            if(var3) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.VERIFY;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+            if(var3) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.DISABLE_EMAIL_NOTIFICATIONS;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 38; continue _fun0007 }
-case 39:
+            if(var3) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(var3) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REJECT_IP;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+            if(var3) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REJECT_MFA;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+            if(var3) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.AUTHORIZE_IP;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+            if(var3) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.AUTHORIZE_PAYMENT;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+            if(var3) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.RESET;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(var3) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REPORT;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+            if(var3) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var4 = var1.startsWith;
             var3 = _closure1_slot5;
             var3 = var3.REPORT_SECOND_LOOK;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(var3) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var4 = var1.startsWith;
             var5 = _closure1_slot5;
             var3 = var5.ACCOUNT_REVERT;
             var3 = var3.bind(var5)(var6);
             var3 = var4.bind(var1)(var3);
-            if(!var3) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(!var3) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
             var3 = _closure1_slot6;
             var1 = var3.ACCOUNT_REVERT;
-case 56:
-            _fun0007_ip = 58; continue _fun0007;
-case 54:
+case 55:
+            _fun0007_ip = 57; continue _fun0007;
+case 53:
             var3 = _closure1_slot6;
             var1 = var3.REPORT_SECOND_LOOK;
-case 58:
-            _fun0007_ip = 59; continue _fun0007;
-case 52:
+case 57:
+            _fun0007_ip = 58; continue _fun0007;
+case 51:
             var3 = _closure1_slot6;
             var1 = var3.REPORT;
-case 59:
-            _fun0007_ip = 60; continue _fun0007;
-case 50:
+case 58:
+            _fun0007_ip = 59; continue _fun0007;
+case 49:
             var3 = _closure1_slot6;
             var1 = var3.RESET;
-case 60:
-            _fun0007_ip = 61; continue _fun0007;
-case 48:
+case 59:
+            _fun0007_ip = 60; continue _fun0007;
+case 47:
             var3 = _closure1_slot6;
             var1 = var3.AUTHORIZE_PAYMENT;
-case 61:
-            _fun0007_ip = 62; continue _fun0007;
-case 46:
+case 60:
+            _fun0007_ip = 61; continue _fun0007;
+case 45:
             var3 = _closure1_slot6;
             var1 = var3.AUTHORIZE_IP;
-case 62:
-            _fun0007_ip = 63; continue _fun0007;
-case 44:
+case 61:
+            _fun0007_ip = 62; continue _fun0007;
+case 43:
             var3 = _closure1_slot6;
             var1 = var3.REJECT_MFA;
-case 63:
-            _fun0007_ip = 64; continue _fun0007;
-case 42:
+case 62:
+            _fun0007_ip = 63; continue _fun0007;
+case 41:
             var3 = _closure1_slot6;
             var1 = var3.REJECT_IP;
-case 64:
-            _fun0007_ip = 65; continue _fun0007;
-case 40:
+case 63:
+            _fun0007_ip = 64; continue _fun0007;
+case 39:
             var3 = _closure1_slot6;
             var1 = var3.DISABLE_SERVER_HIGHLIGHT_NOTIFICATIONS;
-case 65:
-            _fun0007_ip = 66; continue _fun0007;
-case 38:
+case 64:
+            _fun0007_ip = 65; continue _fun0007;
+case 37:
             var3 = _closure1_slot6;
             var1 = var3.DISABLE_EMAIL_NOTIFICATIONS;
-case 66:
-            _fun0007_ip = 67; continue _fun0007;
-case 36:
+case 65:
+            _fun0007_ip = 66; continue _fun0007;
+case 35:
             var3 = _closure1_slot6;
             var1 = var3.VERIFY;
-case 67:
-            _fun0007_ip = 68; continue _fun0007;
-case 34:
+case 66:
+            _fun0007_ip = 67; continue _fun0007;
+case 33:
             var3 = _closure1_slot6;
             var1 = var3.INVITE;
-case 68:
-            _fun0007_ip = 69; continue _fun0007;
-case 32:
+case 67:
+            _fun0007_ip = 68; continue _fun0007;
+case 31:
             var3 = _closure1_slot6;
             var1 = var3.REGISTER;
-case 69:
-            _fun0007_ip = 70; continue _fun0007;
+case 68:
+            _fun0007_ip = 69; continue _fun0007;
 case 30:
             var2 = _closure1_slot6;
             var1 = var2.LOGIN;
-case 70:
+case 69:
             return var1;
         }
     };
@@ -535,14 +535,14 @@ case 0:
             var3 = _closure1_slot11;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0008_ip = 71; continue _fun0008 }
+            if(!var3) { _fun0008_ip = 70; continue _fun0008 }
 case 20:
             var3 = null;
             _closure1_slot3 = var3;
             var3 = _closure1_slot2;
             var2 = var3.goBack;
             var2 = var2.bind(var3)();
-case 71:
+case 70:
             return var1;
         }
     };
@@ -553,14 +553,14 @@ case 0:
             var3 = _closure1_slot11;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0009_ip = 71; continue _fun0009 }
+            if(!var3) { _fun0009_ip = 70; continue _fun0009 }
 case 20:
             var3 = null;
             _closure1_slot3 = var3;
             var3 = _closure1_slot2;
             var2 = var3.goForward;
             var2 = var2.bind(var3)();
-case 71:
+case 70:
             return var1;
         }
     };

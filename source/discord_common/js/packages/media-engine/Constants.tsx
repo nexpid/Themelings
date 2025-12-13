@@ -321,6 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['H265_HARDWARE_ONLY'] = var2;
     var2 = 'h265_hardware_decode_available';
     var5['H265_HARDWARE_DECODE_AVAILABLE'] = var2;
+    var2 = 'wmf_gpu_encode';
+    var5['WMF_GPU_ENCODE'] = var2;
     var4 = {};
     var4['AUTO'] = var30;
     var2 = 'AUTO';

@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = 'gradient.start';
     var15 = {'color': 'gradient.start', 'saturation': 0.2, 'lightness': 0.3, 'opacity': 0.7};
     var14['light'] = var15;
-    var15 = {'color': 'gradient.start', 'saturation': 0.25, 'lightness': 0.1, 'opacity': 0.7};
+    var15 = {'color': 'gradient.start', 'saturation': 0.25, 'lightness': 0.05, 'opacity': 0.7};
     var14['dark'] = var15;
     var8[var12] = var14;
     var7['BACKGROUND_SCRIM'] = var8;
@@ -364,9 +364,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = {'raw': 'PLUM_18', 'opacity': 1};
     var8[var15] = var14;
     var14 = {};
-    var15 = {'color': 'BLACK_500', 'opacity': 0.1};
+    var15 = {'color': 'gradient.mid', 'lightness': 0.9};
     var14['light'] = var15;
-    var15 = {'color': 'WHITE_500', 'opacity': 0.1};
+    var15 = {'color': 'gradient.mid', 'lightness': 0.1};
     var14['dark'] = var15;
     var8[var12] = var14;
     var7['BACKGROUND_SURFACE_HIGH'] = var8;

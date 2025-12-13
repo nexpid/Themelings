@@ -333,7 +333,7 @@ case 41:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(14);
         var1[0] = var5;
         var5 = {};
         var7 = 'getPendingWidgets';
@@ -359,8 +359,9 @@ case 43:
                 var3 = var4.filter;
                 var2 = function(arg1) {
                     var2 = arg1;
-                    var1 = var2.isSaveable;
+                    var1 = var2.isDiscardable;
                     var1 = var1.bind(var2)();
+                    var1 = !var1;
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
@@ -474,15 +475,15 @@ case 50:
                 var17 = var1.bind(var4)(var16);
                 var1 = var3 != var17;
                 if(!var1) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+case 22:
                 var16 = var15.isEqual;
                 var1 = var16.bind(var15)(var17);
 case 51:
-                if(var1) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                if(var1) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                 var1 = var6.push;
                 var1 = var1.bind(var6)(var15);
-case 53:
+case 52:
                 var15 = var14.bind(var10)();
                 var1 = var15.done;
                 var7 = var15;
@@ -492,8 +493,8 @@ case 49:
                 var7 = var1.bind(var10)(var4);
                 var4 = var7.bind(var10)();
                 var1 = var4.done;
-                if(var1) { _fun0008_ip = 55; continue _fun0008 }
-case 56:
+                if(var1) { _fun0008_ip = 27; continue _fun0008 }
+case 24:
                 var14 = var4.value;
                 var1 = _closure1_slot2;
                 var1 = var1.bind(var10)(var14, var12);
@@ -501,46 +502,46 @@ case 56:
                 var14 = var1[var8];
                 var1 = var13.has;
                 var1 = var1.bind(var13)(var15);
-                if(var1) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
+                if(var1) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
                 var1 = var5.push;
                 var1 = var1.bind(var5)(var14);
-case 57:
+case 54:
                 var14 = var7.bind(var10)();
                 var1 = var14.done;
                 var4 = var14;
-                if(!var1) { _fun0008_ip = 56; continue _fun0008 }
-case 55:
+                if(!var1) { _fun0008_ip = 24; continue _fun0008 }
+case 27:
                 var1 = var2.length;
                 var1 = var9 < var1;
                 var9 = 0;
                 var4 = false;
-                if(!var1) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                if(!var1) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                 var1 = var2[var9];
                 var13 = var3 == var1;
                 var12 = undefined;
-                if(var13) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+                if(var13) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                 var12 = var1.id;
-case 61:
+case 58:
                 var1 = _closure1_slot11;
                 var13 = var1[var9];
                 var14 = var3 == var13;
                 var1 = undefined;
-                if(var14) { _fun0008_ip = 63; continue _fun0008 }
-case 64:
+                if(var14) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                 var1 = var13.id;
-case 63:
+case 60:
                 var4 = true;
-                if(!(var12 === var1)) { _fun0008_ip = 59; continue _fun0008 }
-case 65:
+                if(!(var12 === var1)) { _fun0008_ip = 56; continue _fun0008 }
+case 62:
                 var9 = var9 + 1;
                 var1 = var2.length;
                 var1 = var9 < var1;
                 var4 = false;
-                if(var1) { _fun0008_ip = 60; continue _fun0008 }
-case 59:
+                if(var1) { _fun0008_ip = 57; continue _fun0008 }
+case 56:
                 var1 = {};
                 var1['changedWidgets'] = var6;
                 var1['removedWidgets'] = var5;
@@ -548,10 +549,10 @@ case 59:
                 return var1;
 case 46:
                 var1 = {};
-                if(!(var3 == var2)) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
+                if(!(var3 == var2)) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
                 var2 = new Array(0);
-case 66:
+case 63:
                 var1['changedWidgets'] = var2;
                 var2 = new Array(0);
                 var1['removedWidgets'] = var2;
@@ -587,7 +588,7 @@ case 66:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
-        var7 = 'hasSaveablePendingChanges';
+        var7 = 'hasUnsavedChanges';
         var5['key'] = var7;
         var7 = function value() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -601,20 +602,47 @@ case 0:
                 var1 = var1.length;
                 var4 = 0;
                 var1 = var1 > var4;
-                if(var1) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
+                if(var1) { _fun0009_ip = 65; continue _fun0009 }
+case 66:
                 var3 = var3.length;
                 var1 = var3 > var4;
+case 65:
+                if(var1) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
-                if(var1) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
                 var1 = var2;
-case 70:
+case 67:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'canSaveChanges';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.getSaveablePendingWidgets;
+                var4 = var1.bind(var2)();
+                var1 = null;
+                var1 = var1 != var4;
+                if(!var1) { _fun0010_ip = 69; continue _fun0010 }
+case 70:
+                var3 = var4.every;
+                var2 = function(arg1) {
+                    var2 = arg1;
+                    var1 = var2.isValid;
+                    var1 = var1.bind(var2)();
+                    return var1;
+                };
+                var1 = var3.bind(var4)(var2);
+case 69:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[8] = var5;
         var5 = {};
         var7 = 'isSubmitting';
         var5['key'] = var7;
@@ -623,7 +651,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'suggestedFetchError';
         var5['key'] = var7;
@@ -632,7 +660,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'suggestedFetchIsLoading';
         var5['key'] = var7;
@@ -641,7 +669,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'suggestedFetchAttempted';
         var5['key'] = var7;
@@ -650,7 +678,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'suggestedGameIds';
         var5['key'] = var7;
@@ -659,7 +687,7 @@ case 70:
             return var1;
         };
         var5['get'] = var6;
-        var1[12] = var5;
+        var1[13] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -669,19 +697,19 @@ case 70:
     var11 = var6.bind(var1)(var2);
     var2 = {};
     var8 = function handleSetPendingWidgets(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.widgets;
             _closure1_slot10 = var1;
             var1 = _closure1_slot11;
             var3 = null;
-            if(!(var3 === var1)) { _fun0010_ip = 72; continue _fun0010 }
-case 47:
+            if(!(var3 === var1)) { _fun0011_ip = 71; continue _fun0011 }
+case 72:
             var4 = _closure1_slot8;
             var1 = var4.getCurrentUser;
             var1 = var1.bind(var4)();
-            if(!(var3 != var1)) { _fun0010_ip = 72; continue _fun0010 }
+            if(!(var3 != var1)) { _fun0011_ip = 71; continue _fun0011 }
 case 73:
             var5 = _closure1_slot9;
             var4 = var5.getUserProfile;
@@ -689,16 +717,16 @@ case 73:
             var4 = var4.bind(var5)(var1);
             var5 = var3 == var4;
             var1 = undefined;
-            if(var5) { _fun0010_ip = 74; continue _fun0010 }
+            if(var5) { _fun0011_ip = 74; continue _fun0011 }
 case 38:
             var1 = var4.widgets;
 case 74:
-            if(!(var3 == var1)) { _fun0010_ip = 9; continue _fun0010 }
+            if(!(var3 == var1)) { _fun0011_ip = 9; continue _fun0011 }
 case 75:
             var1 = new Array(0);
 case 9:
             _closure1_slot11 = var1;
-case 72:
+case 71:
             var1 = undefined;
             return var1;
         }
@@ -712,13 +740,13 @@ case 72:
     };
     var2['WIDGET_PENDING_SAVE_START'] = var8;
     var8 = function handleSavePendingWidgetsSuccess() {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = false;
             _closure1_slot12 = var1;
             var3 = _closure1_slot10;
             var1 = null;
-            if(!(var1 !== var3)) { _fun0011_ip = 45; continue _fun0011 }
+            if(!(var1 !== var3)) { _fun0012_ip = 45; continue _fun0012 }
 case 76:
             _closure1_slot11 = var1;
             _closure1_slot10 = var1;

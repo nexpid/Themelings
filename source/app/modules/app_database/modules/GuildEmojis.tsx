@@ -313,7 +313,7 @@ case 38:
                     return var2;
 case 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 40; continue _fun0004 }
+                    if(var5) { _fun0004_ip = 15; continue _fun0004 }
 case 9:
                     var6 = var3.performance;
                     var5 = var6.now;
@@ -330,7 +330,7 @@ case 9:
                     var3 = var15[var8](var14, var13, var12, var11, var10);
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 40:
+case 15:
                     return var2;
 case 36:
                     return var1;
@@ -368,16 +368,16 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(var2) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var7 = var3.value;
                 var2 = var5.handleOneGuildCreate;
                 var2 = var2.bind(var5)(var7, var6);
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0005_ip = 42; continue _fun0005 }
-case 41:
+                if(!var2) { _fun0005_ip = 41; continue _fun0005 }
+case 40:
                 return var1;
             }
         };
@@ -470,23 +470,23 @@ case 0:
                     var2 = arg1;
                     var3 = var2.dataMode;
                     var1 = 'unavailable';
-                    if(!(var1 !== var3)) { _fun0006_ip = 43; continue _fun0006 }
+                    if(!(var1 !== var3)) { _fun0006_ip = 42; continue _fun0006 }
 case 29:
                     var3 = var2.dataMode;
                     var1 = 'full';
-                    if(!(var1 !== var3)) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                    if(!(var1 !== var3)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                     var1 = var2.updatedEntities;
                     var1 = var1.length;
                     var4 = 0;
                     var1 = var1 > var4;
-                    if(var1) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                    if(var1) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                     var3 = var2.deletedEntityIds;
                     var3 = var3.length;
                     var1 = var3 > var4;
-case 46:
-                    if(!var1) { _fun0006_ip = 48; continue _fun0006 }
+case 45:
+                    if(!var1) { _fun0006_ip = 47; continue _fun0006 }
 case 38:
                     var4 = _closure1_slot5;
                     var3 = var4.verbose;
@@ -511,8 +511,8 @@ case 38:
                     var12 = _closure3_slot1;
                     var16 = var7;
                     var1 = var16[var6](var15, var14, var13, var12, var11);
-                    _fun0006_ip = 48; continue _fun0006;
-case 44:
+                    _fun0006_ip = 47; continue _fun0006;
+case 43:
                     var4 = _closure1_slot5;
                     var3 = var4.verbose;
                     var1 = var2.entities;
@@ -531,10 +531,10 @@ case 44:
                     var2 = var2.entities;
                     var1 = _closure3_slot1;
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 48:
+case 47:
                     var1 = undefined;
                     return var1;
-case 43:
+case 42:
                     var1 = global;
                     var2 = var1.Promise;
                     var1 = var2.resolve;
@@ -562,13 +562,13 @@ case 0:
                 var2 = var1.emojis;
                 var3 = var2.op;
                 var2 = 'full_sync';
-                if(!(var2 !== var3)) { _fun0007_ip = 49; continue _fun0007 }
+                if(!(var2 !== var3)) { _fun0007_ip = 48; continue _fun0007 }
 case 3:
                 var2 = 'update';
                 if(!(var2 !== var3)) { _fun0007_ip = 2; continue _fun0007 }
-case 50:
+case 49:
                 var2 = var1.emojis;
-                _fun0007_ip = 51; continue _fun0007;
+                _fun0007_ip = 50; continue _fun0007;
 case 2:
                 var7 = var4.update;
                 var11 = var1.id;
@@ -579,14 +579,14 @@ case 2:
                 var12 = var4;
                 var8 = var5;
                 var2 = var12[var7](var11, var10, var9, var8, var7);
-                _fun0007_ip = 51; continue _fun0007;
-case 49:
+                _fun0007_ip = 50; continue _fun0007;
+case 48:
                 var3 = var4.replace;
                 var2 = var1.id;
                 var1 = var1.emojis;
                 var1 = var1.items;
                 var1 = var3.bind(var4)(var2, var1, var5);
-case 51:
+case 50:
                 var1 = undefined;
                 return var1;
             }
@@ -667,16 +667,16 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+                if(var2) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
                 var7 = var3.value;
                 var2 = var5.delete;
                 var2 = var2.bind(var5)(var6, var7);
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0008_ip = 53; continue _fun0008 }
-case 52:
+                if(!var2) { _fun0008_ip = 52; continue _fun0008 }
+case 51:
                 return var1;
             }
         };

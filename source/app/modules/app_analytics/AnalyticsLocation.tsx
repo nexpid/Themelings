@@ -692,6 +692,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_CARD_PREVIEW_BUTTON'] = var1;
     var1 = 'collectibles shop details modal';
     var2['COLLECTIBLES_SHOP_DETAILS_MODAL'] = var1;
+    var1 = 'collectibles shop details rental modal';
+    var2['COLLECTIBLES_SHOP_DETAILS_RENTAL_MODAL'] = var1;
     var1 = 'collectibles shop long form profile preview';
     var2['COLLECTIBLES_SHOP_PROFILE_PREVIEW'] = var1;
     var1 = 'collectibles shop header carousel';
@@ -720,6 +722,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_GIFT_CUSTOMIZATION_MODAL'] = var1;
     var1 = 'collectibles mobile gift modal';
     var2['COLLECTIBLES_MOBILE_GIFT_MODAL'] = var1;
+    var1 = 'view all rentals modal';
+    var2['VIEW_ALL_RENTALS_MODAL'] = var1;
     var1 = 'premium billing info';
     var2['PREMIUM_BILLING_INFO'] = var1;
     var1 = 'premium subscription details';

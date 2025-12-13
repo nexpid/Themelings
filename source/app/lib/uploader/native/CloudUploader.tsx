@@ -793,8 +793,8 @@ case 76:
                     var2 = undefined;
                     var8 = undefined;
                     var3 = var4._aborted;
-                    if(var3) { _fun0010_ip = 77; continue _fun0010 }
-case 78:
+                    if(var3) { _fun0010_ip = 67; continue _fun0010 }
+case 77:
                     var5 = var4._handleStart;
                     var3 = _closure1_slot11;
                     var3 = var5.bind(var4)(var3);
@@ -806,25 +806,25 @@ case 5: // try_start_0
                     var5 = var5.bind(var2)(var3);
                     var3 = var5.isAndroid;
                     var3 = var3.bind(var5)();
-                    if(!var3) { _fun0010_ip = 79; continue _fun0010 }
-case 80:
+                    if(!var3) { _fun0010_ip = 78; continue _fun0010 }
+case 79:
                     var5 = var4.observeCompressionProgress;
                     var3 = var4.files;
                     var3 = var5.bind(var4)(var3);
-case 79:
+case 78:
                     var3 = var4.compressAndCheckFileSize;
                     var3 = var3.bind(var4)();
                     SaveGenerator(address=117);
-case 81:
+case 80:
                     return var3;
-case 82:
+case 81:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0010_ip = 83; continue _fun0010 }
-case 84:
-                    if(var3) { _fun0010_ip = 85; continue _fun0010 }
-case 86: // try_end0
+                    if(var5) { _fun0010_ip = 82; continue _fun0010 }
+case 83:
+                    if(var3) { _fun0010_ip = 84; continue _fun0010 }
+case 85: // try_end0
                     return var2;
-case 85: // try_start_1
+case 84: // try_start_1
                     var5 = var4.setUploadingTextForUI;
                     var5 = var5.bind(var4)();
                     var9 = _closure1_slot1;
@@ -839,17 +839,17 @@ case 85: // try_start_1
                     var5 = true;
                     var5 = var11.bind(var2)(var10, var5, var9);
                     SaveGenerator(address=201);
-case 87:
+case 86:
                     return var5;
-case 88:
+case 87:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(var9) { _fun0010_ip = 89; continue _fun0010 }
-case 90:
+                    if(var9) { _fun0010_ip = 88; continue _fun0010 }
+case 89:
                     var9 = var4.files;
                     var10 = var9.length;
                     var9 = 0;
-                    if(!(var9 !== var10)) { _fun0010_ip = 91; continue _fun0010 }
-case 92:
+                    if(!(var9 !== var10)) { _fun0010_ip = 90; continue _fun0010 }
+case 91:
                     var11 = var4.files;
                     var10 = var11.every;
                     var9 = function(arg1) {
@@ -867,8 +867,8 @@ case 92:
                         return var1;
                     };
                     var9 = var10.bind(var11)(var9);
-                    if(var9) { _fun0010_ip = 93; continue _fun0010 }
-case 94:
+                    if(var9) { _fun0010_ip = 92; continue _fun0010 }
+case 93:
                     var9 = global;
                     var11 = var9.Error;
                     var9 = var11.prototype;
@@ -878,13 +878,13 @@ case 94:
                     var9 = new var15[var11](var14, var13);
                     var9 = var9 instanceof Object ? var9 : var10;
                     throw var9;
-case 93:
+case 92:
                     var9 = var4._file;
                     var10 = var9.items;
                     var8 = var10;
                     var9 = null;
                     if(!(var9 != var10)) { _fun0010_ip = 26; continue _fun0010 }
-case 95:
+case 94:
                     var9 = var8;
                     var8 = var9.forEach;
                     var7 = function(arg1) {
@@ -919,9 +919,9 @@ case 26:
                     var7 = var8.bind(var9)(var7);
                     var7 = var4._handleComplete;
                     var7 = var7.bind(var4)();
-case 96: // try_end1
-                    _fun0010_ip = 97; continue _fun0010;
-case 91: // try_start_2
+case 95: // try_end1
+                    _fun0010_ip = 96; continue _fun0010;
+case 90: // try_start_2
                     var8 = _closure1_slot14;
                     var7 = var8.log;
                     var10 = var4.id;
@@ -933,22 +933,22 @@ case 91: // try_start_2
                     var6 = var7.bind(var8)(var6);
                     var6 = var4._handleComplete;
                     var6 = var6.bind(var4)();
-case 98: // try_end2
+case 97: // try_end2
                     var6 = undefined;
                     return var6;
-case 89:
+case 88:
                     return var5;
-case 83:
+case 82:
                     return var3;
-case 99: // catch_target0 // catch_target1 // catch_target2
+case 98: // catch_target0 // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=4);
                     var3 = var4._handleException;
                     var3 = var3.bind(var4)(var5);
-                    _fun0010_ip = 97; continue _fun0010;
-case 77:
+                    _fun0010_ip = 96; continue _fun0010;
+case 67:
                     var3 = var4._handleAborted;
                     var3 = var3.bind(var4)();
-case 97:
+case 96:
                     return var2;
 case 75:
                     return var1;
@@ -987,11 +987,11 @@ case 0:
                     var2 = var2.id;
                     var3 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0011_ip = 100; continue _fun0011 }
+                    if(!(var2 != var3)) { _fun0011_ip = 99; continue _fun0011 }
 case 52:
                     var2 = var3.remove;
                     var2 = var2.bind(var3)();
-case 100:
+case 99:
                     var1 = _closure3_slot0;
                     var4 = var1.mediaEventSubscriptions;
                     var3 = var4.delete;
@@ -1021,7 +1021,7 @@ case 0:
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.UploadPlatform;
                     var2 = var2.REACT_NATIVE;
-                    if(!(var3 === var2)) { _fun0012_ip = 101; continue _fun0012 }
+                    if(!(var3 === var2)) { _fun0012_ip = 100; continue _fun0012 }
 case 4:
                     var2 = 0;
                     var5['compressionProgress'] = var2;
@@ -1030,7 +1030,7 @@ case 4:
                     var3 = var4.set;
                     var2 = var5.uri;
                     var2 = var3.bind(var4)(var2, var5);
-case 101:
+case 100:
                     return var1;
                 }
             };
@@ -1052,8 +1052,8 @@ case 0:
                     var3 = var2.uploadItems;
                     var2 = var3.has;
                     var2 = var2.bind(var3)(var6);
-                    if(!var2) { _fun0013_ip = 102; continue _fun0013 }
-case 103:
+                    if(!var2) { _fun0013_ip = 101; continue _fun0013 }
+case 102:
                     var2 = _closure3_slot0;
                     var5 = var2.uploadItems;
                     var3 = var5.get;
@@ -1077,7 +1077,7 @@ case 103:
                     var7 = var4.bind(var6)(var2, var5);
                     var4 = 100;
                     if(!(!(var7 >= var4))) { _fun0013_ip = 47; continue _fun0013 }
-case 104:
+case 103:
                     var6 = _closure3_slot0;
                     var2 = {};
                     var10 = var6._file;
@@ -1085,7 +1085,7 @@ case 104:
                     var8 = copyDataProperties(var11, var10);
                     var2[var5] = var7;
                     var6['_file'] = var2;
-                    _fun0013_ip = 105; continue _fun0013;
+                    _fun0013_ip = 104; continue _fun0013;
 case 47:
                     var2 = _closure3_slot1;
                     var2 = var2.bind(var3)();
@@ -1093,8 +1093,8 @@ case 47:
                     var2 = var2._file;
                     var6 = var2.items;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0013_ip = 106; continue _fun0013 }
-case 107:
+                    if(!(var2 != var6)) { _fun0013_ip = 105; continue _fun0013 }
+case 106:
                     var3 = var6.forEach;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -1105,7 +1105,7 @@ case 107:
                         return var1;
                     };
                     var2 = var3.bind(var6)(var2);
-case 106:
+case 105:
                     var3 = _closure3_slot0;
                     var2 = {};
                     var10 = var3._file;
@@ -1113,13 +1113,13 @@ case 106:
                     var6 = copyDataProperties(var11, var10);
                     var2[var5] = var4;
                     var3['_file'] = var2;
-case 105:
+case 104:
                     var4 = _closure3_slot0;
                     var3 = var4.emit;
                     var2 = var4._file;
                     var1 = 'compression-progress';
                     var1 = var3.bind(var4)(var1, var2);
-case 102:
+case 101:
                     var1 = undefined;
                     return var1;
                 }

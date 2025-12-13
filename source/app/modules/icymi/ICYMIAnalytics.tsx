@@ -42,42 +42,39 @@ case 5:
             var3 = 'message';
             if(!(var3 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var5 = 'channelSummary';
+            var5 = 'guildEvent';
             if(!(var5 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var5 = 'guildEvent';
+            var5 = 'contentInventory';
             if(!(var5 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var5 = 'contentInventory';
+            var5 = 'recommendedGuilds';
             if(!(var5 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var5 = 'recommendedGuilds';
+            var5 = 'forumThread';
             if(!(var5 !== var6)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var5 = 'forumThread';
+            var5 = 'generatedCandidate';
             if(!(var5 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var5 = 'generatedCandidate';
+            var5 = 'icymiHeader';
             if(!(var5 !== var6)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var5 = 'icymiHeader';
-            if(!(var5 !== var6)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
             var5 = 'unknown';
             return var5;
-case 20:
+case 18:
             var5 = 'icymi_header';
             return var5;
-case 18:
+case 16:
             var5 = 'generated_candidate';
             return var5;
-case 16:
+case 14:
             var5 = 'forum_thread';
             return var5;
-case 14:
+case 12:
             var5 = 'recommended_guilds';
             return var5;
-case 12:
+case 10:
             var5 = var4.data;
             var5 = var5.content;
             var7 = var5.content_type;
@@ -90,25 +87,22 @@ case 12:
             var5 = var5.ContentInventoryEntryType;
             var6 = var5.CUSTOM_STATUS;
             var5 = 'hotwheels_gaming_activity';
-            if(!(var7 === var6)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(var7 === var6)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var5 = 'hotwheels_custom_status';
-case 22:
-            return var5;
-case 10:
-            var5 = 'guild_event';
+case 20:
             return var5;
 case 8:
-            var5 = 'summary';
+            var5 = 'guild_event';
             return var5;
 case 6:
             var5 = var4.channelType;
             var4 = _closure1_slot4;
             var4 = var4.GUILD_ANNOUNCEMENT;
-            if(!(var5 === var4)) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!(var5 === var4)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var3 = 'announcement';
-case 24:
+case 22:
             return var3;
 case 4:
             return var2;
@@ -130,6 +124,14 @@ case 0:
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.MESSAGE;
+            if(!(var4 !== var5)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var6.bind(var3)(var4);
+            var4 = var4.ICYMIItemTypes;
+            var4 = var4.ACTIVITY;
             if(!(var4 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
             var6 = _closure1_slot0;
@@ -137,7 +139,7 @@ case 27:
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
-            var4 = var4.SUMMARY;
+            var4 = var4.CUSTOM_STATUS;
             if(!(var4 !== var5)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
             var6 = _closure1_slot0;
@@ -145,7 +147,7 @@ case 29:
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
-            var4 = var4.ACTIVITY;
+            var4 = var4.GUILD_EVENT;
             if(!(var4 !== var5)) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
             var6 = _closure1_slot0;
@@ -153,7 +155,7 @@ case 31:
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
-            var4 = var4.CUSTOM_STATUS;
+            var4 = var4.RECOMMENDED_GUILDS;
             if(!(var4 !== var5)) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
             var6 = _closure1_slot0;
@@ -161,54 +163,35 @@ case 33:
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
-            var4 = var4.GUILD_EVENT;
+            var4 = var4.GENERATED_CANDIDATE;
             if(!(var4 !== var5)) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var6.bind(var3)(var4);
-            var4 = var4.ICYMIItemTypes;
-            var4 = var4.RECOMMENDED_GUILDS;
-            if(!(var4 !== var5)) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var4 = var4[var7];
-            var4 = var6.bind(var3)(var4);
-            var4 = var4.ICYMIItemTypes;
-            var4 = var4.GENERATED_CANDIDATE;
-            if(!(var4 !== var5)) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
-            return var3;
-case 38:
-            var3 = 'generated_candidate';
-            return var3;
-case 36:
-            var3 = 'recommended_guilds';
             return var3;
 case 34:
-            var3 = 'guild_event';
+            var3 = 'generated_candidate';
             return var3;
 case 32:
-            var3 = 'hotwheels_custom_status';
+            var3 = 'recommended_guilds';
             return var3;
 case 30:
-            var3 = 'hotwheels_gaming_activity';
+            var3 = 'guild_event';
             return var3;
 case 28:
-            var3 = 'summary';
+            var3 = 'hotwheels_custom_status';
             return var3;
 case 26:
+            var3 = 'hotwheels_gaming_activity';
+            return var3;
+case 24:
             var2 = var2.data;
             var3 = var2.channel_type;
             var1 = _closure1_slot4;
             var2 = var1.GUILD_ANNOUNCEMENT;
             var1 = 'message';
-            if(!(var3 === var2)) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+            if(!(var3 === var2)) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var1 = 'announcement';
-case 40:
+case 36:
             return var1;
         }
     };
@@ -576,10 +559,10 @@ case 0:
             var2 = {};
             var9 = var6.isPositive;
             var8 = 'thumbs_down';
-            if(!var9) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
+            if(!var9) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
             var8 = 'thumbs_up';
-case 42:
+case 38:
             var2['feedback_type'] = var8;
             var8 = global;
             var10 = var8.parseInt;
@@ -614,40 +597,40 @@ case 42:
             var9 = null;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+            if(!var11) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
             var8 = var10;
-case 44:
+case 40:
             var2['primary_text_length'] = var8;
             var8 = var6.item;
             var8 = var8.secondary_text;
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0003_ip = 25; continue _fun0003 }
-case 46:
+            if(!var11) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
             var8 = var10;
-case 25:
+case 42:
             var2['secondary_text_length'] = var8;
             var8 = var6.item;
             var8 = var8.message_ids;
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0003_ip = 28; continue _fun0003 }
-case 47:
+            if(!var11) { _fun0003_ip = 44; continue _fun0003 }
+case 36:
             var8 = var10;
-case 28:
+case 44:
             var2['message_count'] = var8;
             var8 = var6.item;
             var8 = var8.user_ids;
             var8 = var8.length;
             var9 = var9 != var8;
             var7 = 0;
-            if(!var9) { _fun0003_ip = 48; continue _fun0003 }
-case 49:
+            if(!var9) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
             var7 = var8;
-case 48:
+case 45:
             var2['user_count'] = var7;
             var6 = var6.generatedItemIndex;
             var2['generated_item_index'] = var6;
@@ -916,10 +899,10 @@ case 0:
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+            if(!var9) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             var7 = var8;
-case 50:
+case 47:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;
@@ -986,10 +969,10 @@ case 0:
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(!var9) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var7 = var8;
-case 44:
+case 40:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;
@@ -1040,10 +1023,10 @@ case 0:
             var8 = var6.impressionId;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+            if(!var9) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var7 = var8;
-case 52:
+case 49:
             var2['impression_id'] = var7;
             var7 = var6.actionParameters;
             var7 = var7.actionGestureType;
@@ -1100,79 +1083,79 @@ case 0:
             var6 = null;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(!var10) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var8 = var9;
-case 54:
+case 51:
             var2['target_guild_id'] = var8;
             var8 = var7.filterParameters;
             var9 = var8.targetChannelId;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(!var10) { _fun0007_ip = 53; continue _fun0007 }
+case 21:
             var8 = var9;
-case 56:
+case 53:
             var2['target_channel_id'] = var8;
             var8 = var7.filterParameters;
             var9 = var8.previousTuneSetting;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 58; continue _fun0007 }
-case 59:
+            if(!var10) { _fun0007_ip = 54; continue _fun0007 }
+case 30:
             var8 = var9;
-case 58:
+case 54:
             var2['previous_tune_setting'] = var8;
             var8 = var7.filterParameters;
             var9 = var8.newTuneSetting;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 34; continue _fun0007 }
-case 2:
+            if(!var10) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
             var8 = var9;
-case 34:
+case 55:
             var2['new_tune_setting'] = var8;
             var8 = var7.filterParameters;
             var9 = var8.previousOutSetting;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 60; continue _fun0007 }
-case 26:
+            if(!var10) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
             var8 = var9;
-case 60:
+case 57:
             var2['previous_out_setting'] = var8;
             var8 = var7.filterParameters;
             var9 = var8.newOutSetting;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 61; continue _fun0007 }
-case 40:
+            if(!var10) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
             var8 = var9;
-case 61:
+case 59:
             var2['new_out_setting'] = var8;
             var9 = var7.itemId;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 62; continue _fun0007 }
-case 63:
-            var8 = var9;
+            if(!var10) { _fun0007_ip = 61; continue _fun0007 }
 case 62:
+            var8 = var9;
+case 61:
             var2['item_id'] = var8;
             var9 = var7.itemType;
             var10 = var6 != var9;
             var8 = null;
-            if(!var10) { _fun0007_ip = 64; continue _fun0007 }
-case 65:
-            var8 = var9;
+            if(!var10) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
+            var8 = var9;
+case 63:
             var2['item_type'] = var8;
             var7 = var7.impressionId;
             var8 = var6 != var7;
             var6 = null;
-            if(!var8) { _fun0007_ip = 66; continue _fun0007 }
-case 67:
-            var6 = var7;
+            if(!var8) { _fun0007_ip = 65; continue _fun0007 }
 case 66:
+            var6 = var7;
+case 65:
             var2['impression_id'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

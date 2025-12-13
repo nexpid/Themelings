@@ -22,14 +22,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['MESSAGE'] = var2;
     var6 = 'MESSAGE';
     var9[var2] = var6;
-    var11 = 1;
-    var9['SUMMARY'] = var11;
-    var6 = 'SUMMARY';
-    var9[var11] = var6;
-    var14 = 2;
-    var9['ACTIVITY'] = var14;
+    var11 = 2;
+    var9['ACTIVITY'] = var11;
     var6 = 'ACTIVITY';
-    var9[var14] = var6;
+    var9[var11] = var6;
     var10 = 3;
     var9['CUSTOM_STATUS'] = var10;
     var6 = 'CUSTOM_STATUS';
@@ -47,26 +43,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = 'RECOMMENDED_GUILDS';
     var9[var7] = var6;
     var _closure1_slot1 = var9;
-    var15 = var4.Set;
+    var14 = var4.Set;
     var7 = var9.MESSAGE;
-    var6 = new Array(4);
+    var6 = new Array(3);
     var6[0] = var7;
-    var7 = var9.SUMMARY;
-    var6[1] = var7;
     var7 = var9.CUSTOM_STATUS;
-    var6[2] = var7;
+    var6[1] = var7;
     var7 = var9.GENERATED_CANDIDATE;
-    var6[3] = var7;
-    var7 = var15.prototype;
-    var7 = Object.create(var7, {constructor: {value: var15}});
+    var6[2] = var7;
+    var7 = var14.prototype;
+    var7 = Object.create(var7, {constructor: {value: var14}});
     var20 = var7;
     var19 = var6;
-    var6 = new var20[var15](var19, var18);
+    var6 = new var20[var14](var19, var18);
     var7 = var6 instanceof Object ? var6 : var7;
     var6 = var4.Set;
-    var15 = var5.IMAGE;
+    var14 = var5.IMAGE;
     var4 = new Array(2);
-    var4[0] = var15;
+    var4[0] = var14;
     var5 = var5.GIFV;
     var4[1] = var5;
     var5 = var6.prototype;
@@ -79,13 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['DEFAULT'] = var2;
     var4 = 'DEFAULT';
     var5[var2] = var4;
-    var5['BOOKMARKS'] = var14;
+    var5['BOOKMARKS'] = var11;
     var4 = 'BOOKMARKS';
-    var5[var14] = var4;
+    var5[var11] = var4;
     var4 = {};
     var4['TRENDING_TOPIC'] = var2;
     var15 = 'TRENDING_TOPIC';
     var4[var2] = var15;
+    var11 = 1;
     var4['PRO_TIP'] = var11;
     var14 = 'PRO_TIP';
     var4[var11] = var14;
@@ -135,48 +130,41 @@ case 0:
             if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = _closure1_slot1;
-            var3 = var3.SUMMARY;
+            var3 = var3.ACTIVITY;
             if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = _closure1_slot1;
-            var3 = var3.ACTIVITY;
+            var3 = var3.CUSTOM_STATUS;
             if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var3 = _closure1_slot1;
-            var3 = var3.CUSTOM_STATUS;
+            var3 = var3.GUILD_EVENT;
             if(!(var3 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var3 = _closure1_slot1;
-            var3 = var3.GUILD_EVENT;
+            var3 = var3.RECOMMENDED_GUILDS;
             if(!(var3 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var3 = _closure1_slot1;
-            var3 = var3.RECOMMENDED_GUILDS;
+            var3 = var3.GENERATED_CANDIDATE;
             if(!(var3 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var3 = _closure1_slot1;
-            var3 = var3.GENERATED_CANDIDATE;
-            if(!(var3 !== var4)) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
             var3 = undefined;
             return var3;
-case 14:
+case 12:
             var3 = 'generated_candidate';
             return var3;
-case 12:
+case 10:
             var3 = 'recommended_guilds';
             return var3;
-case 10:
+case 8:
             var3 = 'guild_event';
             return var3;
-case 8:
+case 6:
             var3 = 'hotwheels_custom_status';
             return var3;
-case 6:
-            var3 = 'hotwheels_gaming_activity';
-            return var3;
 case 4:
-            var3 = 'summary';
+            var3 = 'hotwheels_gaming_activity';
             return var3;
 case 2:
             var3 = var2.data;
@@ -184,25 +172,25 @@ case 2:
             var1 = _closure1_slot0;
             var3 = var1.GUILD_ANNOUNCEMENT;
             var1 = 'announcement';
-            if(!(var4 !== var3)) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!(var4 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var2.data;
             var4 = var2.message_context;
             var3 = null;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var5) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var2 = var4.external_content_application_id;
-case 18:
+case 16:
             var3 = var3 != var2;
             var2 = 'message';
-            if(!var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var3) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = 'game_message';
-case 20:
+case 18:
             var1 = var2;
-case 16:
+case 14:
             return var1;
         }
     };

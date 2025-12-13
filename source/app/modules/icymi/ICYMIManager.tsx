@@ -127,7 +127,7 @@ case 8:
     var _closure1_slot7 = var4;
     var4 = null;
     var _closure1_slot8 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -232,22 +232,16 @@ case 14:
                 var4 = _closure1_slot10;
                 var3 = true;
                 var3 = var4.bind(var1)(var3);
-                var5 = _closure1_slot1;
+                var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var3 = 5;
-                var6 = var4[var3];
-                var7 = var5.bind(var1)(var6);
-                var6 = var7.getGuildChannelScores;
-                var6 = var6.bind(var7)();
-                var3 = var4[var3];
-                var5 = var5.bind(var1)(var3);
-                var3 = var5.getRecommendedGuilds;
-                var3 = var3.bind(var5)();
-                var3 = _closure1_slot0;
-                var2 = 9;
+                var2 = 5;
+                var5 = var4[var2];
+                var6 = var3.bind(var1)(var5);
+                var5 = var6.getGuildChannelScores;
+                var5 = var5.bind(var6)();
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.fetchChannelAffinities;
+                var2 = var3.getRecommendedGuilds;
                 var2 = var2.bind(var3)();
 case 13:
                 return var1;
@@ -264,7 +258,7 @@ case 13:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
