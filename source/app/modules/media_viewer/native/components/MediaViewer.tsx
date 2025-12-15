@@ -2842,11 +2842,11 @@ case 101:
             var12 = var16.renderOverlay;
             var13 = var13 == var12;
             var12 = undefined;
-            if(var13) { _fun0018_ip = 103; continue _fun0018 }
-case 104:
+            if(var13) { _fun0018_ip = 71; continue _fun0018 }
+case 103:
             var13 = var16.renderOverlay;
             var12 = var13.bind(var16)(var15, var14);
-case 103:
+case 71:
             var1['children'] = var12;
             var1 = var11.bind(var4)(var10, var1);
             var9[3] = var1;

@@ -1,12 +1,12 @@
 // app/modules/libdiscore/libdiscoreExperiments.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var12 = require;
+    var11 = require;
     var6 = metroImportDefault;
     var3 = exports;
-    var13 = dependencyMap;
-    var _closure1_slot0 = var12;
+    var12 = dependencyMap;
+    var _closure1_slot0 = var11;
     var _closure1_slot1 = var6;
-    var _closure1_slot2 = var13;
+    var _closure1_slot2 = var12;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -90,33 +90,33 @@ case 9:
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var5);
     var1 = 0;
-    var5 = var13[var1];
+    var5 = var12[var1];
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
-    var5 = var13[var5];
+    var5 = var12[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 2;
-    var5 = var13[var5];
+    var5 = var12[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot5 = var5;
     var5 = 3;
-    var5 = var13[var5];
+    var5 = var12[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 4;
-    var5 = var13[var5];
+    var5 = var12[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot7 = var5;
     var5 = 5;
-    var5 = var13[var5];
-    var5 = var12.bind(var1)(var5);
+    var5 = var12[var5];
+    var5 = var11.bind(var1)(var5);
     var5 = var5.ensureValidMode;
     var _closure1_slot8 = var5;
-    var10 = new Array(0);
-    var _closure1_slot9 = var10;
+    var9 = new Array(0);
+    var _closure1_slot9 = var9;
     var5 = var4.Symbol;
     var4 = 'unknown';
     var4 = var5.bind(var1)(var4);
@@ -274,7 +274,7 @@ case 19:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var9 = var4.bind(var1)();
+    var8 = var4.bind(var1)();
     var4 = function(arg1) {
         var4 = function LibdiscoreWrapperSimpleExperiment(arg1, arg2) {
             var5 = this;
@@ -350,7 +350,7 @@ case 20:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var9);
+    var7 = var4.bind(var1)(var8);
     var4 = function(arg1) {
         var4 = function LibdiscoreBridgedStoreExperiment(arg1, arg2, arg3, arg4) {
             var5 = this;
@@ -490,7 +490,7 @@ case 10:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var14 = var4.bind(var1)(var9);
+    var14 = var4.bind(var1)(var8);
     var2 = function(arg1) {
         var4 = function LibdiscoreTelemetryExperiment(arg1) {
             var6 = this;
@@ -647,56 +647,48 @@ case 35:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var5 = var2.bind(var1)(var9);
+    var10 = var2.bind(var1)(var8);
     var2 = var14.prototype;
     var4 = Object.create(var2, {constructor: {value: var14}});
     var17 = '2025-09-libdiscore-rawguildemojistore';
     var16 = 'RawGuildEmojiStore';
-    var11 = 'Kkv';
+    var13 = 'Kkv';
     var18 = var4;
-    var15 = var11;
+    var15 = var13;
     var2 = new var18[var14](var17, var16, var15, var14);
-    var7 = var2 instanceof Object ? var2 : var4;
+    var6 = var2 instanceof Object ? var2 : var4;
     var2 = var14.prototype;
     var4 = Object.create(var2, {constructor: {value: var14}});
     var17 = '2025-10-libdiscore-guildstickersstore';
     var16 = 'GuildStickersStore';
     var18 = var4;
     var2 = new var18[var14](var17, var16, var15, var14);
-    var6 = var2 instanceof Object ? var2 : var4;
-    var2 = var5.prototype;
-    var4 = Object.create(var2, {constructor: {value: var5}});
+    var5 = var2 instanceof Object ? var2 : var4;
+    var2 = var10.prototype;
+    var4 = Object.create(var2, {constructor: {value: var10}});
     var17 = '2025-09-libdiscore-telemetry';
     var18 = var4;
-    var2 = new var18[var5](var17, var16);
-    var5 = var2 instanceof Object ? var2 : var4;
-    var2 = var8.prototype;
-    var4 = Object.create(var2, {constructor: {value: var8}});
+    var2 = new var18[var10](var17, var16);
+    var4 = var2 instanceof Object ? var2 : var4;
+    var2 = var7.prototype;
+    var10 = Object.create(var2, {constructor: {value: var7}});
     var17 = '2025-11-defer-load-late-lazy-cache';
     var16 = 'Allow react to render before lazy cache is loaded';
-    var18 = var4;
-    var2 = new var18[var8](var17, var16, var15);
-    var4 = var2 instanceof Object ? var2 : var4;
-    var2 = var8.prototype;
-    var11 = Object.create(var2, {constructor: {value: var8}});
-    var17 = '2025-11-shadow-tree-mount-lock';
-    var16 = 'Enable locking the mount operation in ShadowTree::tryCommit to avoid mount instructions going out of order!';
-    var18 = var11;
-    var2 = new var18[var8](var17, var16, var15);
-    var2 = var2 instanceof Object ? var2 : var11;
-    var11 = 8;
-    var11 = var13[var11];
-    var13 = var12.bind(var1)(var11);
-    var12 = var13.fileFinishedImporting;
-    var11 = 'modules/libdiscore/libdiscoreExperiments.tsx';
-    var11 = var12.bind(var13)(var11);
-    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var10;
-    var3['LibdiscoreCachedExperiment'] = var9;
-    var3['LibdiscoreWrapperSimpleExperiment'] = var8;
-    var3['GuildEmojiStoreExperiment'] = var7;
-    var3['GuildStickersStoreExperiment'] = var6;
-    var3['TelemetryExperiment'] = var5;
-    var3['DelayLoadLateLazyCacheHoldoutExperiment'] = var4;
-    var3['ShadowTreeMountLockExperiment'] = var2;
+    var18 = var10;
+    var2 = new var18[var7](var17, var16, var15);
+    var2 = var2 instanceof Object ? var2 : var10;
+    var10 = 8;
+    var10 = var12[var10];
+    var12 = var11.bind(var1)(var10);
+    var11 = var12.fileFinishedImporting;
+    var10 = 'modules/libdiscore/libdiscoreExperiments.tsx';
+    var10 = var11.bind(var12)(var10);
+    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var9;
+    var3['LibdiscoreCachedExperiment'] = var8;
+    var3['LibdiscoreWrapperSimpleExperiment'] = var7;
+    var3['GuildEmojiStoreExperiment'] = var6;
+    var3['GuildStickersStoreExperiment'] = var5;
+    var3['TelemetryExperiment'] = var4;
+    var3['DelayLoadLateLazyCacheHoldoutExperiment'] = var2;
     return var1;
 })();
