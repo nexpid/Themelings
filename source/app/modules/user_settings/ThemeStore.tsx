@@ -51,12 +51,11 @@ case 4:
         var4 = _closure1_slot2;
         var2 = 12;
         var2 = var4[var2];
-        var5 = undefined;
-        var4 = var3.bind(var5)(var2);
-        var3 = _closure1_slot17;
-        var2 = _closure1_slot16;
-        var1 = _closure1_slot18;
-        var1 = var4.bind(var5)(var3, var2, var1);
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = _closure1_slot17;
+        var1 = _closure1_slot16;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var _closure1_slot20 = var1;

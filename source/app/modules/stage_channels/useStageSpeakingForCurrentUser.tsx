@@ -112,10 +112,10 @@ case 0:
             var3 = var4.useIsStagePawtectEnabled;
             var1 = 'useShouldAgeVerifyToSpeakForCurrentUser';
             var1 = var3.bind(var4)(var1);
-            if(!var1) { _fun0004_ip = 4; continue _fun0004 }
-case 5:
+            if(!var1) { _fun0004_ip = 2; continue _fun0004 }
+case 3:
             var1 = !var2;
-case 4:
+case 2:
             return var1;
         }
     };

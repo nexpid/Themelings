@@ -271,6 +271,45 @@ case 10:
         }
     };
     var _closure1_slot17 = var4;
+    var1 = function isProxiedAttachment(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 10;
+            var1 = var4[var1];
+            var6 = undefined;
+            var4 = var2.bind(var6)(var1);
+            var2 = var4.toURLSafe;
+            var1 = arg1;
+            var1 = var1.src;
+            var5 = var2.bind(var4)(var1);
+            var1 = null;
+            var1 = var1 != var5;
+            if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 14:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var7 = 11;
+            var2 = var2[var7];
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.isExternalProxiedAttachmentUrl;
+            var2 = var2.bind(var4)(var5);
+            if(var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var7];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.isAttachmentUrl;
+            var2 = var3.bind(var4)(var5);
+case 15:
+            var1 = var2;
+case 12:
+            return var1;
+        }
+    };
+    var _closure1_slot18 = var1;
     var1 = global;
     var14 = var1.Object;
     var12 = var14.defineProperty;
@@ -324,20 +363,20 @@ case 10:
     var3['trackSearchStart'] = var7;
     var3['trackSearchResultViewed'] = var6;
     var6 = function search(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var5 = arg1;
             var4 = arg2;
             var6 = arguments[2];
             var3 = arguments[3];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+            if(!(var6 === var1)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var6 = false;
-case 14:
-            var2 = '';
-            if(!(var2 !== var5)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
+            var2 = '';
+            if(!(var2 !== var5)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 7;
@@ -349,37 +388,37 @@ case 17:
             var7['type'] = var10;
             var7['query'] = var5;
             var7 = var8.bind(var9)(var7);
-            if(var6) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+            if(var6) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var6 = _closure1_slot12;
             var6 = var6.bind(var1)(var5, var4, var3);
-            _fun0004_ip = 20; continue _fun0004;
-case 18:
+            _fun0005_ip = 23; continue _fun0005;
+case 21:
             var2 = _closure1_slot15;
             var2 = var2.bind(var1)(var5, var4, var3);
-            _fun0004_ip = 20; continue _fun0004;
-case 16:
+            _fun0005_ip = 23; continue _fun0005;
+case 19:
             var2 = _closure1_slot16;
             var2 = var2.bind(var1)();
-case 20:
+case 23:
             return var1;
         }
     };
     var3['search'] = var6;
     var6 = function fetchSuggestions(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var2 = '';
             var2 = var2 !== var7;
-            if(!var2) { _fun0005_ip = 4; continue _fun0005 }
-case 14:
+            if(!var2) { _fun0006_ip = 4; continue _fun0006 }
+case 17:
             var3 = null;
             var2 = var3 != var7;
 case 4:
-            if(!var2) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(!var2) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 6;
@@ -423,7 +462,7 @@ case 22:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 21:
+case 24:
             var1 = undefined;
             return var1;
         }
@@ -431,7 +470,7 @@ case 21:
     var3['fetchSuggestions'] = var6;
     var3['resetSearch'] = var5;
     var5 = function trackSelectGIF(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var11 = var1.type;
@@ -477,8 +516,8 @@ case 0:
             var2[var9] = var6;
             var2 = var4.bind(var8)(var3, var2);
             var2 = null;
-            if(!(var2 != var7)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!(var2 != var7)) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 6;
@@ -498,7 +537,7 @@ case 24:
             var2['oldFormErrors'] = var5;
             var2['rejectWithError'] = var5;
             var2 = var3.bind(var4)(var2);
-case 23:
+case 26:
             return var1;
         }
     };
@@ -710,7 +749,7 @@ case 23:
         var4 = var3.INFREQUENT_USER_ACTION;
         var3 = 'favoriteGifs';
         var2 = function(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = arg1;
                 var3 = _closure1_slot1;
@@ -733,22 +772,145 @@ case 0:
                 };
                 var1 = var7.bind(var9)(var1);
                 var1 = var3.bind(var6)(var1);
-                var3 = null;
-                var3 = var3 != var1;
+                var10 = null;
+                var3 = var10 != var1;
                 var9 = 0;
-                if(!var3) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                if(!var3) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
                 var9 = var1;
-case 25:
+case 28:
+                var6 = _closure2_slot0;
+                var3 = _closure1_slot18;
+                var3 = var3.bind(var8)(var6);
+                if(!var3) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
+                var3 = var6.gifSrc;
+                if(!(var10 == var3)) { _fun0008_ip = 32; continue _fun0008 }
+case 30:
+                var7 = var6.src;
+                _fun0008_ip = 33; continue _fun0008;
+case 32:
+                var7 = var6.gifSrc;
+case 33:
+                var3 = _closure1_slot18;
+                var3 = var3.bind(var8)(var6);
+                if(!var3) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
+                var11 = _closure1_slot1;
+                var12 = _closure1_slot2;
+                var6 = 10;
+                var6 = var12[var6];
+                var11 = var11.bind(var8)(var6);
+                var6 = var11.toURLSafe;
+                var11 = var6.bind(var11)(var7);
+                var12 = var10 == var11;
+                var6 = false;
+                if(var12) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
+                var12 = var11.pathname;
+                var11 = var12.toLowerCase;
+                var14 = var11.bind(var12)();
+                var12 = var14.endsWith;
+                var11 = '.webp';
+                var11 = var12.bind(var14)(var11);
+                if(var11) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
+                var13 = var14.endsWith;
+                var12 = '.avif';
+                var11 = var13.bind(var14)(var12);
+case 38:
+                if(var11) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
+                var13 = var14.endsWith;
+                var12 = '.gif';
+                var11 = var13.bind(var14)(var12);
+case 40:
+                var6 = var11;
+case 36:
+                var3 = var6;
+case 34:
+                var11 = var7;
+                if(!var3) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
+                var12 = _closure1_slot1;
+                var13 = _closure1_slot2;
+                var6 = 10;
+                var6 = var13[var6];
+                var12 = var12.bind(var8)(var6);
+                var6 = var12.toURLSafe;
+                var12 = var6.bind(var12)(var7);
+                var6 = var7;
+                if(!(var10 != var12)) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+                var13 = var12.pathname;
+                var10 = var13.toLowerCase;
+                var16 = var10.bind(var13)();
+                var13 = var16.endsWith;
+                var10 = '.webp';
+                var14 = var13.bind(var16)(var10);
+                var13 = var16.endsWith;
+                var10 = '.avif';
+                var10 = var13.bind(var16)(var10);
+                var15 = var16.endsWith;
+                var13 = '.gif';
+                var13 = var15.bind(var16)(var13);
+                if(var14) { _fun0008_ip = 46; continue _fun0008 }
+case 47:
+                if(var10) { _fun0008_ip = 46; continue _fun0008 }
+case 48:
+                if(!var13) { _fun0008_ip = 49; continue _fun0008 }
+case 46:
+                if(var10) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
+                var10 = var13;
+case 50:
+                if(!var10) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
+                var15 = var12.searchParams;
+                var14 = var15.set;
+                var13 = 'format';
+                var10 = 'webp';
+                var10 = var14.bind(var15)(var13, var10);
+case 52:
+                var15 = var12.searchParams;
+                var14 = var15.set;
+                var13 = 'animated';
+                var10 = 'true';
+                var10 = var14.bind(var15)(var13, var10);
+                var10 = var12.toString;
+                var7 = var10.bind(var12)();
+case 49:
+                var6 = var7;
+case 44:
+                var11 = var6;
+case 42:
+                if(var3) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
+                var3 = _closure2_slot0;
+                var10 = var3.format;
+                _fun0008_ip = 56; continue _fun0008;
+case 54:
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var3 = 13;
+                var3 = var7[var3];
+                var3 = var6.bind(var8)(var3);
+                var3 = var3.GIFType;
+                var10 = var3.IMAGE;
+case 56:
                 var6 = var2.gifs;
                 var3 = _closure1_slot17;
                 var7 = _closure2_slot0;
                 var1 = var7.url;
                 var3 = var3.bind(var8)(var1);
                 var1 = {};
-                var12 = var1;
-                var11 = var7;
-                var7 = copyDataProperties(var12, var11);
+                var18 = var1;
+                var17 = var7;
+                var7 = copyDataProperties(var18, var17);
+                var7 = 'src';
+                var1[var7] = var11;
+                var7 = 'format';
+                var1[var7] = var10;
                 var7 = 1;
                 var9 = var9 + var7;
                 var7 = 'order';
@@ -764,8 +926,8 @@ case 25:
                 var1 = var1.bind(var3)(var2);
                 var3 = var1.length;
                 var1 = _closure1_slot9;
-                if(!(!(var3 > var1))) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+                if(!(!(var3 > var1))) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
                 var3 = _closure1_slot1;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -774,11 +936,11 @@ case 28:
                 var1 = var2.gifs;
                 var6 = var3.bind(var5)(var1);
                 var1 = 2;
-                if(!(var6 > var1)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+                if(!(var6 > var1)) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
                 var1 = true;
                 var2['hideTooltip'] = var1;
-case 29:
+case 59:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 16;
@@ -791,7 +953,7 @@ case 29:
                 var1['total_num_favorited'] = var6;
                 var1 = var3.bind(var5)(var2, var1);
                 return var8;
-case 27:
+case 57:
                 var2 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 14;
@@ -845,25 +1007,25 @@ case 27:
         var4 = var3.INFREQUENT_USER_ACTION;
         var3 = 'favoriteGifs';
         var2 = function(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var6 = arg1;
                 var3 = _closure2_slot0;
                 var2 = var6.gifs;
                 var3 = var3 in var2;
                 var2 = var6.gifs;
-                if(var3) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+                if(var3) { _fun0009_ip = 61; continue _fun0009 }
+case 62:
                 var5 = _closure1_slot17;
                 var4 = _closure2_slot0;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var3 = delete var2[var3];
-                _fun0008_ip = 33; continue _fun0008;
-case 31:
+                _fun0009_ip = 63; continue _fun0009;
+case 61:
                 var1 = _closure2_slot0;
                 var1 = delete var2[var1];
-case 33:
+case 63:
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 16;

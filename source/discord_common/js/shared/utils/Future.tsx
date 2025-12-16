@@ -1,4 +1,4 @@
-// app/utils/Future.tsx
+// discord_common/js/shared/utils/Future.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = metroImportDefault;
     var3 = exports;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'utils/Future.tsx';
+    var4 = '../discord_common/js/shared/utils/Future.tsx';
     var4 = var5.bind(var6)(var4);
     var3['Future'] = var2;
     return var1;

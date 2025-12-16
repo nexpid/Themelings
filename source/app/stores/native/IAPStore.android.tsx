@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function updateProduct(arg1) {
         var2 = arg1;
         var3 = var2.currencyCode;
@@ -77,7 +77,7 @@ case 4:
         var1[var2] = var3;
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var9 = function skusLoaded(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -160,7 +160,7 @@ case 8: // try_start_0
 case 15:
             var10 = var8;
             var9 = var10.map;
-            var8 = _closure1_slot19;
+            var8 = _closure1_slot20;
             var6 = var9.bind(var10)(var8);
 case 14:
             _closure1_slot10 = var6;
@@ -274,10 +274,11 @@ case 23:
     var8 = var8 instanceof Object ? var8 : var10;
     var _closure1_slot13 = var8;
     var _closure1_slot14 = var2;
-    var2 = false;
-    var _closure1_slot15 = var2;
-    var _closure1_slot16 = var2;
-    var _closure1_slot17 = var2;
+    var8 = false;
+    var _closure1_slot15 = var8;
+    var _closure1_slot16 = var8;
+    var _closure1_slot17 = var8;
+    var _closure1_slot18 = var2;
     var2 = 8;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -295,7 +296,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
@@ -332,7 +333,7 @@ case 27:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getOfferIds';
@@ -447,7 +448,7 @@ case 32:
         var5 = {};
         var7 = 'isFetchingProducts';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var1 = _closure1_slot17;
@@ -458,8 +459,17 @@ case 32:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[9] = var5;
+        var5 = {};
+        var7 = 'getUserCountry';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot18;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -557,14 +567,22 @@ case 34:
         return var1;
     };
     var2['GPLAY_UPDATE_PENDING_DOWNGRADE'] = var9;
-    var4 = function handleUpdateIsDowngrading(arg1) {
+    var9 = function handleUpdateIsDowngrading(arg1) {
         var1 = arg1;
         var2 = var1.isDowngrading;
         _closure1_slot15 = var2;
         var1 = undefined;
         return var1;
     };
-    var2['GPLAY_UPDATE_IS_DOWNGRADING'] = var4;
+    var2['GPLAY_UPDATE_IS_DOWNGRADING'] = var9;
+    var4 = function handleSetUserCountry(arg1) {
+        var1 = arg1;
+        var2 = var1.countryCode;
+        _closure1_slot18 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['GPLAY_SET_USER_COUNTRY'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var15 = var4;

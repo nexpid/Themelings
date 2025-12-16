@@ -418,7 +418,7 @@ case 20:
             };
             var5['getComponent'] = var14;
             var10 = var13.bind(var4)(var10, var5);
-            var5 = new Array(5);
+            var5 = new Array(6);
             var5[0] = var10;
             var14 = _closure1_slot8;
             var13 = var7.Screen;
@@ -500,6 +500,58 @@ case 20:
             var14 = _closure1_slot8;
             var13 = var7.Screen;
             var10 = {};
+            var15 = var11.PINNED_MESSAGES;
+            var10['name'] = var15;
+            var15 = {};
+            var15['channelId'] = var17;
+            var10['initialParams'] = var15;
+            var15 = function options(arg1) {
+                var1 = arg1;
+                var6 = var1.navigation;
+                var5 = var1.route;
+                var1 = {};
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var3 = 11;
+                var7 = var10[var3];
+                var4 = undefined;
+                var7 = var9.bind(var4)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var3 = var10[var3];
+                var3 = var9.bind(var4)(var3);
+                var3 = var3.t;
+                var3 = var3.mp1N/2;
+                var3 = var7.bind(var8)(var3);
+                var1['title'] = var3;
+                var3 = _closure1_slot14;
+                var2 = {};
+                var2['navigation'] = var6;
+                var6 = _closure2_slot2;
+                var2['initialRouteName'] = var6;
+                var5 = var5.name;
+                var2['routeName'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var1['headerLeft'] = var2;
+                return var1;
+            };
+            var10['options'] = var15;
+            var15 = function getComponent() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 22;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.default;
+                return var1;
+            };
+            var10['getComponent'] = var15;
+            var10 = var14.bind(var4)(var13, var10);
+            var5[2] = var10;
+            var14 = _closure1_slot8;
+            var13 = var7.Screen;
+            var10 = {};
             var15 = {};
             var15['channelId'] = var17;
             var15['applicationId'] = var16;
@@ -540,7 +592,7 @@ case 20:
             var15 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -549,7 +601,7 @@ case 20:
             };
             var10['getComponent'] = var15;
             var10 = var14.bind(var4)(var13, var10);
-            var5[2] = var10;
+            var5[3] = var10;
             var10 = _closure1_slot8;
             var8 = var7.Screen;
             var7 = {};
@@ -608,7 +660,7 @@ case 20:
             var12 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 23;
+                var1 = 24;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -618,7 +670,7 @@ case 20:
             var11 = 'getComponent';
             var7[var11] = var12;
             var7 = var10.bind(var4)(var8, var7);
-            var5[3] = var7;
+            var5[4] = var7;
             var7 = global;
             var8 = var7.Object;
             var7 = var8.entries;
@@ -707,14 +759,14 @@ case 28:
                 }
             };
             var6 = var7.bind(var8)(var6);
-            var5[4] = var6;
+            var5[5] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

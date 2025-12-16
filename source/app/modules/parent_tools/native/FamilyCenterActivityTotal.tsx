@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -90,18 +90,12 @@ case 3:
             var14 = 'text-brand';
 case 2:
             var2 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var1 = 6;
-            var1 = var8[var1];
-            var9 = var2.bind(var4)(var1);
-            var7 = var9.useIsFamilyCenterV2Enabled;
-            var1 = 'family_center_activity_card';
-            var7 = var7.bind(var9)(var1);
-            var1 = 7;
-            var1 = var8[var1];
+            var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getActivityTypeTextConfigs;
-            var2 = var1.bind(var2)(var7);
+            var2 = var1.bind(var2)();
             var1 = var2.get;
             var2 = var1.bind(var2)(var3);
             var13 = null;
@@ -120,7 +114,7 @@ case 4:
             var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var10 = 8;
+            var10 = 7;
             var5 = var5[var10];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;

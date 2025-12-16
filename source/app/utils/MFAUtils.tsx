@@ -67,7 +67,7 @@ case 10:
         var5 = var5.NativeModules;
         var5 = var5.DCDSecurityKeyManager;
         var5 = var7 != var5;
-        var7 = 2;
+        var7 = 3;
         var7 = var9[var7];
         var9 = var8.bind(var1)(var7);
         var8 = var9.fileFinishedImporting;
@@ -114,7 +114,7 @@ case 10:
         };
         var3['generateTotpSecret'] = var5;
         var3['encodeTotpSecret'] = var4;
-        var2 = function encodeTotpSecretAsUrl(arg1, arg2) {
+        var4 = function encodeTotpSecretAsUrl(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = arguments[2];
@@ -145,7 +145,44 @@ case 12:
                 return var1;
             }
         };
-        var3['encodeTotpSecretAsUrl'] = var2;
+        var3['encodeTotpSecretAsUrl'] = var4;
+        var2 = function captureWebAuthnException(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var7 = arg2;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.captureException;
+                var3 = {};
+                var10 = var3;
+                var9 = var7;
+                var2 = copyDataProperties(var10, var9);
+                var6 = {};
+                var2 = null;
+                var8 = var2 == var7;
+                var2 = undefined;
+                if(var8) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                var2 = var7.tags;
+case 14:
+                var10 = var6;
+                var9 = var2;
+                var2 = copyDataProperties(var10, var9);
+                var7 = 'webauthn';
+                var2 = 'app_context';
+                var6[var2] = var7;
+                var2 = 'tags';
+                var3[var2] = var6;
+                var2 = arg1;
+                var2 = var4.bind(var5)(var2, var3);
+                return var1;
+            }
+        };
+        var3['captureWebAuthnException'] = var2;
         return var1;
     }
 })();

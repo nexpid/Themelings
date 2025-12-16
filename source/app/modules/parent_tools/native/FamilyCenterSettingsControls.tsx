@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -63,22 +63,14 @@ case 0:
             var _closure2_slot0 = var18;
             var1 = 6;
             var1 = var3[var1];
-            var6 = var2.bind(var4)(var1);
-            var1 = var6.useNavigation;
-            var1 = var1.bind(var6)();
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useNavigation;
+            var1 = var1.bind(var2)();
             var _closure2_slot1 = var1;
-            var1 = 7;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useIsFamilyCenterV2Enabled;
-            var1 = 'settings-controls';
-            var1 = var2.bind(var3)(var1);
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
             var2 = var18.length;
             var1 = 0;
             if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
+case 3:
             var1 = function handleSettingsClick(arg1) {
                 var4 = _closure2_slot1;
                 var3 = var4.navigate;
@@ -108,33 +100,33 @@ case 4:
             var7 = _closure1_slot7;
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var9 = 8;
+            var9 = 7;
             var6 = var6[var9];
             var6 = var8.bind(var4)(var6);
             var6 = var6.Stack;
             var8 = {};
             var10 = {};
-            if(var5) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10['gap'] = var15;
             var8['style'] = var10;
             var21 = _closure1_slot6;
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var11 = 9;
+            var11 = 8;
             var5 = var27[var11];
             var5 = var26.bind(var4)(var5);
             var12 = var5.Text;
             var5 = {};
             var16 = 'text-sm/semibold';
             var5['variant'] = var16;
-            var23 = 10;
+            var23 = 9;
             var16 = var27[var23];
             var16 = var26.bind(var4)(var16);
             var22 = var16.intl;
             var19 = var22.string;
             var20 = _closure1_slot1;
-            var16 = 11;
+            var16 = 10;
             var17 = var27[var16];
             var17 = var20.bind(var4)(var17);
             var17 = var17.ahKIJO;
@@ -159,12 +151,12 @@ case 6:
             var11 = var21.bind(var4)(var12, var11);
             var5[1] = var11;
             var16 = _closure1_slot7;
-            var11 = 15;
+            var11 = 14;
             var11 = var27[var11];
             var11 = var26.bind(var4)(var11);
             var12 = var11.TableRowGroup;
             var11 = {};
-            var19 = 16;
+            var19 = 15;
             var17 = var27[var19];
             var17 = var26.bind(var4)(var17);
             var20 = var17.TableRow;
@@ -224,8 +216,8 @@ case 6:
             var5[2] = var11;
             var8['children'] = var5;
             var5 = var8;
-            _fun0001_ip = 7; continue _fun0001;
-case 5:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var11 = 16;
             var10['gap'] = var11;
             var8['style'] = var10;
@@ -240,20 +232,20 @@ case 5:
             var12['gap'] = var15;
             var9['style'] = var12;
             var12 = _closure1_slot6;
-            var21 = 9;
+            var21 = 8;
             var15 = var19[var21];
             var15 = var17.bind(var4)(var15);
             var22 = var15.Text;
             var20 = {};
             var15 = 'text-sm/semibold';
             var20['variant'] = var15;
-            var16 = 10;
+            var16 = 9;
             var15 = var19[var16];
             var15 = var17.bind(var4)(var15);
             var25 = var15.intl;
             var24 = var25.string;
             var15 = _closure1_slot1;
-            var14 = 11;
+            var14 = 10;
             var23 = var19[var14];
             var23 = var15.bind(var4)(var23);
             var23 = var23.ahKIJO;
@@ -278,7 +270,7 @@ case 5:
                 var5 = _closure1_slot6;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 9;
+                var1 = 8;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -301,7 +293,7 @@ case 5:
             var10 = var11.bind(var4)(var10, var9);
             var9 = new Array(2);
             var9[0] = var10;
-            var10 = 12;
+            var10 = 11;
             var10 = var19[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;
@@ -321,14 +313,14 @@ case 5:
             var13 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var3 = var4[var1];
                 var1 = undefined;
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.popLayer;
                 var3 = var3.bind(var5)();
                 var3 = _closure1_slot1;
-                var2 = 14;
+                var2 = 13;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openPrivateChannel;
@@ -343,7 +335,7 @@ case 5:
             var9[1] = var10;
             var8['children'] = var9;
             var5 = var8;
-case 7:
+case 6:
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

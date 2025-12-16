@@ -32,17 +32,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var7;
     var4 = var4.useActiveSpeakerPillState;
     var _closure1_slot6 = var4;
-    var14 = 3;
-    var4 = var6[var14];
+    var4 = 3;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var12 = var4.MAX_AUDIENCE_ROW_LIMIT;
+    var4 = var4.MAX_AUDIENCE_ROW_LIMIT;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot8 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = {'direction': null, 'radius': 13, 'inset': 4294967290};
     var7 = 5;
     var7 = var6[var7];
@@ -50,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.CutoutDirection;
     var7 = var7.RIGHT;
     var4['direction'] = var7;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = function getSpeakerRowHeight(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -114,19 +115,6 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
-    var4 = {};
-    var7 = 7;
-    var13 = var6[var7];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.StageChannelParticipantNamedIndex;
-    var13 = var13.SPEAKER;
-    var4[var13] = var14;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.StageChannelParticipantNamedIndex;
-    var7 = var7.AUDIENCE;
-    var4[var7] = var12;
     var _closure1_slot11 = var4;
     var4 = {};
     var4['STREAM'] = var11;
@@ -380,7 +368,7 @@ case 26:
                 var8 = var8[var4];
                 if(!(var5 != var8)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                var10 = _closure1_slot10;
+                var10 = _closure1_slot11;
                 var8 = _closure2_slot2;
                 var8 = var8[var7];
                 var8 = var8[var4];
@@ -403,7 +391,7 @@ case 24:
                 var1 = var3;
                 if(!(var5 != var4)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-                var5 = _closure1_slot10;
+                var5 = _closure1_slot11;
                 var4 = undefined;
                 var2 = 1;
                 var2 = var5.bind(var4)(var6, var2);
@@ -492,7 +480,7 @@ case 41:
                 var1 = null;
                 if(!(var2 !== var3)) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var2 = 11;
@@ -528,7 +516,7 @@ case 44:
                 var6 = undefined;
                 if(!var9) { _fun0005_ip = 45; continue _fun0005 }
 case 46:
-                var11 = _closure1_slot7;
+                var11 = _closure1_slot8;
                 var10 = _closure1_slot1;
                 var14 = _closure1_slot2;
                 var9 = 13;
@@ -546,7 +534,7 @@ case 46:
                 var12 = var12.AvatarSizes;
                 var12 = var12.XSMALL_20;
                 var9['avatarSize'] = var12;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var9['cutout'] = var12;
                 var6 = var11.bind(var4)(var10, var9);
 case 45:
@@ -560,7 +548,7 @@ case 39:
                 var1 = null;
                 if(!(var2 !== var3)) { _fun0005_ip = 47; continue _fun0005 }
 case 48:
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var12 = _closure1_slot2;
                 var2 = 11;
@@ -718,7 +706,7 @@ case 59:
                 var4 = var6.bind(var7)(var5, var4);
                 return var3;
 case 58:
-                var7 = _closure1_slot8;
+                var7 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var6 = var3.Fragment;
                 var5 = {};
@@ -728,7 +716,7 @@ case 58:
                 var4 = !var4;
                 if(!var4) { _fun0008_ip = 46; continue _fun0008 }
 case 60:
-                var14 = _closure1_slot7;
+                var14 = _closure1_slot8;
                 var12 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var11 = 15;
@@ -756,7 +744,7 @@ case 46:
                 var3 = var7.bind(var3)(var6, var5, var4);
                 return var3;
 case 57:
-                var7 = _closure1_slot8;
+                var7 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var6 = var3.Fragment;
                 var5 = {};
@@ -766,7 +754,7 @@ case 57:
                 var4 = !var4;
                 if(!var4) { _fun0008_ip = 61; continue _fun0008 }
 case 62:
-                var14 = _closure1_slot7;
+                var14 = _closure1_slot8;
                 var12 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var11 = 14;
@@ -795,7 +783,7 @@ case 61:
                 var3 = var7.bind(var3)(var6, var5, var4);
                 return var3;
 case 55:
-                var6 = _closure1_slot7;
+                var6 = _closure1_slot8;
                 var3 = _closure1_slot4;
                 var5 = var3.Fragment;
                 var4 = {};
@@ -936,7 +924,7 @@ case 68:
             }
         };
         var5 = var13.bind(var14)(var3, var5);
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var1 = 16;
         var1 = var12[var1];
         var2 = var2.bind(var4)(var1);
@@ -953,7 +941,7 @@ case 68:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 18;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -965,20 +953,83 @@ case 68:
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
         var2 = 17;
-        var6 = var5[var2];
+        var8 = var5[var2];
         var4 = undefined;
-        var9 = var3.bind(var4)(var6);
-        var8 = var9.useThrottleDurationForChannel;
-        var6 = var7.id;
-        var11 = var8.bind(var9)(var6);
+        var10 = var3.bind(var4)(var8);
+        var9 = var10.useThrottleDurationForChannel;
+        var8 = var7.id;
+        var15 = var9.bind(var10)(var8);
+        var10 = _closure1_slot1;
+        var8 = 18;
+        var8 = var5[var8];
+        var8 = var10.bind(var4)(var8);
+        var8 = var8.bind(var4)();
+        var13 = var8.width;
+        var _closure2_slot0 = var13;
+        var8 = 19;
+        var8 = var5[var8];
+        var10 = var3.bind(var4)(var8);
+        var8 = var10.useIsScreenLandscape;
+        var12 = var8.bind(var10)();
+        var _closure2_slot1 = var12;
+        var11 = _closure1_slot4;
+        var10 = var11.useMemo;
+        var8 = new Array(2);
+        var8[0] = var13;
+        var8[1] = var12;
+        var6 = function() {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                var13 = _closure2_slot0;
+                var7 = _closure2_slot1;
+                var1 = {};
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var6 = 7;
+                var3 = var3[var6];
+                var5 = undefined;
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.StageChannelParticipantNamedIndex;
+                var4 = var3.SPEAKER;
+                var10 = 3;
+                var3 = var10;
+                if(!var7) { _fun0012_ip = 71; continue _fun0012 }
+case 72:
+                var7 = global;
+                var9 = var7.Math;
+                var8 = var9.max;
+                var12 = var7.Math;
+                var11 = var12.floor;
+                var14 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var7 = 6;
+                var7 = var15[var7];
+                var7 = var14.bind(var5)(var7);
+                var7 = var7.LANDSCAPE_MAX_TILE_WIDTH;
+                var7 = var13 / var7;
+                var7 = var11.bind(var12)(var7);
+                var3 = var8.bind(var9)(var10, var7);
+case 71:
+                var1[var4] = var3;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var3 = var3[var6];
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.StageChannelParticipantNamedIndex;
+                var3 = var3.AUDIENCE;
+                var2 = _closure1_slot7;
+                var1[var3] = var2;
+                return var1;
+            }
+        };
+        var16 = var10.bind(var11)(var6, var8);
         var2 = var5[var2];
-        var8 = var3.bind(var4)(var2);
-        var6 = var8.useStageChannelParticipantsListThrottled;
-        var13 = var7.id;
-        var12 = _closure1_slot11;
-        var10 = true;
-        var14 = var8;
-        var5 = var14[var6](var13, var12, var11, var10, var9);
+        var6 = var3.bind(var4)(var2);
+        var5 = var6.useStageChannelParticipantsListThrottled;
+        var17 = var7.id;
+        var14 = true;
+        var18 = var6;
+        var5 = var18[var5](var17, var16, var15, var14, var13);
         var3 = _closure1_slot3;
         var2 = 2;
         var3 = var3.bind(var4)(var5, var2);
@@ -986,7 +1037,7 @@ case 68:
         var6 = var3[var2];
         var2 = 1;
         var5 = var3[var2];
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = _closure1_slot13;
         var1 = {};
         var1['channel'] = var7;

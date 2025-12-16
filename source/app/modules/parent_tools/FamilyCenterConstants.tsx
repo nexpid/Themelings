@@ -1,12 +1,12 @@
 // app/modules/parent_tools/FamilyCenterConstants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var26 = require;
+    var25 = require;
     var6 = metroImportDefault;
     var3 = exports;
-    var27 = dependencyMap;
-    var _closure1_slot0 = var26;
+    var24 = dependencyMap;
+    var _closure1_slot0 = var25;
     var _closure1_slot1 = var6;
-    var _closure1_slot2 = var27;
+    var _closure1_slot2 = var24;
     var4 = global;
     var8 = var4.Object;
     var7 = var8.defineProperty;
@@ -15,190 +15,190 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var5);
-    var29 = 0;
-    var5 = var27[var29];
+    var27 = 0;
+    var5 = var24[var27];
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var5 = var5.Millis;
     var7 = var5.SECOND;
     var5 = 30;
-    var24 = var5 * var7;
-    var5 = var27[var29];
+    var23 = var5 * var7;
+    var5 = var24[var27];
     var5 = var6.bind(var1)(var5);
     var5 = var5.Millis;
     var5 = var5.MINUTE;
-    var25 = 5;
-    var20 = var25 * var5;
-    var28 = 1;
-    var5 = var27[var28];
-    var8 = var26.bind(var1)(var5);
+    var28 = 5;
+    var19 = var28 * var5;
+    var26 = 1;
+    var5 = var24[var26];
+    var8 = var25.bind(var1)(var5);
     var7 = var8.wrapPaths;
     var9 = var4.Object;
     var6 = var9.freeze;
     var5 = {'FAMILY_CENTER_SETTINGS': '/family-center/settings', 'FAMILY_CENTER_MY_FAMILY': '/family-center/my-family'};
     var6 = var6.bind(var9)(var5);
     var5 = [':', '?', '@'];
-    var19 = var7.bind(var8)(var6, var5);
-    var18 = {};
-    var18['DM_MESSAGE_SEND'] = var28;
-    var5 = 'DM_MESSAGE_SEND';
-    var18[var28] = var5;
-    var5 = 2;
-    var18['GDM_MESSAGE_SEND'] = var5;
-    var6 = 'GDM_MESSAGE_SEND';
-    var18[var5] = var6;
-    var22 = 3;
-    var18['MESSAGE_REACT'] = var22;
-    var6 = 'MESSAGE_REACT';
-    var18[var22] = var6;
-    var21 = 4;
-    var18['ADD_FRIEND'] = var21;
-    var6 = 'ADD_FRIEND';
-    var18[var21] = var6;
-    var18['SEND_CALL'] = var25;
-    var6 = 'SEND_CALL';
-    var18[var25] = var6;
-    var8 = 6;
-    var18['CALL_JOIN'] = var8;
-    var6 = 'CALL_JOIN';
-    var18[var8] = var6;
-    var7 = 7;
-    var18['GUILD_JOIN'] = var7;
-    var6 = 'GUILD_JOIN';
-    var18[var7] = var6;
-    var23 = 8;
-    var18['GUILD_MESSAGE_SEND'] = var23;
-    var6 = 'GUILD_MESSAGE_SEND';
-    var18[var23] = var6;
-    var9 = 9;
-    var18['GUILD_VC_JOIN'] = var9;
-    var6 = 'GUILD_VC_JOIN';
-    var18[var9] = var6;
-    var9 = 10;
-    var18['GUILD_VOICE_CHANNEL_LEAVE'] = var9;
-    var6 = 'GUILD_VOICE_CHANNEL_LEAVE';
-    var18[var9] = var6;
-    var9 = 11;
-    var18['CALL_LEAVE'] = var9;
-    var6 = 'CALL_LEAVE';
-    var18[var9] = var6;
-    var9 = 12;
-    var18['CALL_START'] = var9;
-    var6 = 'CALL_START';
-    var18[var9] = var6;
-    var9 = 13;
-    var18['INVOICE_COMPLETE'] = var9;
-    var6 = 'INVOICE_COMPLETE';
-    var18[var9] = var6;
+    var18 = var7.bind(var8)(var6, var5);
     var17 = {};
-    var17['PARENT'] = var28;
-    var6 = 'PARENT';
-    var17[var28] = var6;
-    var17['CHILD'] = var5;
-    var6 = 'CHILD';
+    var17['DM_MESSAGE_SEND'] = var26;
+    var5 = 'DM_MESSAGE_SEND';
+    var17[var26] = var5;
+    var5 = 2;
+    var17['GDM_MESSAGE_SEND'] = var5;
+    var6 = 'GDM_MESSAGE_SEND';
     var17[var5] = var6;
+    var21 = 3;
+    var17['MESSAGE_REACT'] = var21;
+    var6 = 'MESSAGE_REACT';
+    var17[var21] = var6;
+    var20 = 4;
+    var17['ADD_FRIEND'] = var20;
+    var6 = 'ADD_FRIEND';
+    var17[var20] = var6;
+    var17['SEND_CALL'] = var28;
+    var6 = 'SEND_CALL';
+    var17[var28] = var6;
+    var8 = 6;
+    var17['CALL_JOIN'] = var8;
+    var6 = 'CALL_JOIN';
+    var17[var8] = var6;
+    var7 = 7;
+    var17['GUILD_JOIN'] = var7;
+    var6 = 'GUILD_JOIN';
+    var17[var7] = var6;
+    var22 = 8;
+    var17['GUILD_MESSAGE_SEND'] = var22;
+    var6 = 'GUILD_MESSAGE_SEND';
+    var17[var22] = var6;
+    var9 = 9;
+    var17['GUILD_VC_JOIN'] = var9;
+    var6 = 'GUILD_VC_JOIN';
+    var17[var9] = var6;
+    var9 = 10;
+    var17['GUILD_VOICE_CHANNEL_LEAVE'] = var9;
+    var6 = 'GUILD_VOICE_CHANNEL_LEAVE';
+    var17[var9] = var6;
+    var9 = 11;
+    var17['CALL_LEAVE'] = var9;
+    var6 = 'CALL_LEAVE';
+    var17[var9] = var6;
+    var9 = 12;
+    var17['CALL_START'] = var9;
+    var6 = 'CALL_START';
+    var17[var9] = var6;
+    var9 = 13;
+    var17['INVOICE_COMPLETE'] = var9;
+    var6 = 'INVOICE_COMPLETE';
+    var17[var9] = var6;
     var16 = {};
-    var16['PENDING'] = var28;
-    var6 = 'PENDING';
-    var16[var28] = var6;
-    var16['ACTIVE'] = var5;
-    var6 = 'ACTIVE';
+    var16['PARENT'] = var26;
+    var6 = 'PARENT';
+    var16[var26] = var6;
+    var16['CHILD'] = var5;
+    var6 = 'CHILD';
     var16[var5] = var6;
-    var16['INACTIVE'] = var22;
-    var6 = 'INACTIVE';
-    var16[var22] = var6;
-    var16['DECLINED'] = var21;
-    var6 = 'DECLINED';
-    var16[var21] = var6;
-    var16['EXPIRED'] = var25;
-    var6 = 'EXPIRED';
-    var16[var25] = var6;
     var15 = {};
-    var15['USER_ADD'] = var28;
-    var6 = 'USER_ADD';
-    var15[var28] = var6;
-    var15['GUILD_ADD'] = var5;
-    var6 = 'GUILD_ADD';
+    var15['PENDING'] = var26;
+    var6 = 'PENDING';
+    var15[var26] = var6;
+    var15['ACTIVE'] = var5;
+    var6 = 'ACTIVE';
     var15[var5] = var6;
-    var15['USER_INTERACTION'] = var22;
-    var6 = 'USER_INTERACTION';
-    var15[var22] = var6;
-    var15['GUILD_INTERACTION'] = var21;
-    var6 = 'GUILD_INTERACTION';
+    var15['INACTIVE'] = var21;
+    var6 = 'INACTIVE';
     var15[var21] = var6;
-    var15['USER_CALLED'] = var25;
-    var6 = 'USER_CALLED';
-    var15[var25] = var6;
-    var15['TOTAL_VOICE_MINUTES'] = var8;
-    var6 = 'TOTAL_VOICE_MINUTES';
-    var15[var8] = var6;
-    var15['PURCHASES'] = var7;
-    var6 = 'PURCHASES';
-    var15[var7] = var6;
+    var15['DECLINED'] = var20;
+    var6 = 'DECLINED';
+    var15[var20] = var6;
+    var15['EXPIRED'] = var28;
+    var6 = 'EXPIRED';
+    var15[var28] = var6;
     var14 = {};
-    var12 = 'ACTIVITY';
-    var14['ACTIVITY'] = var12;
-    var11 = 'REQUESTS';
-    var14['REQUESTS'] = var11;
-    var6 = 'SETTINGS';
-    var14['SETTINGS'] = var6;
-    var10 = 'CONTENT_AND_SOCIAL';
-    var14['CONTENT_AND_SOCIAL'] = var10;
-    var9 = 'DATA_AND_PRIVACY';
-    var14['DATA_AND_PRIVACY'] = var9;
+    var14['USER_ADD'] = var26;
+    var6 = 'USER_ADD';
+    var14[var26] = var6;
+    var14['GUILD_ADD'] = var5;
+    var6 = 'GUILD_ADD';
+    var14[var5] = var6;
+    var14['USER_INTERACTION'] = var21;
+    var6 = 'USER_INTERACTION';
+    var14[var21] = var6;
+    var14['GUILD_INTERACTION'] = var20;
+    var6 = 'GUILD_INTERACTION';
+    var14[var20] = var6;
+    var14['USER_CALLED'] = var28;
+    var6 = 'USER_CALLED';
+    var14[var28] = var6;
+    var14['TOTAL_VOICE_MINUTES'] = var8;
+    var6 = 'TOTAL_VOICE_MINUTES';
+    var14[var8] = var6;
+    var14['PURCHASES'] = var7;
+    var6 = 'PURCHASES';
+    var14[var7] = var6;
     var13 = {};
+    var29 = 'ACTIVITY';
     var13['ACTIVITY'] = var29;
-    var13[var29] = var12;
-    var13['REQUESTS'] = var28;
-    var13[var28] = var11;
-    var13['SETTINGS'] = var5;
-    var13[var5] = var6;
-    var13['CONTENT_AND_SOCIAL'] = var22;
-    var13[var22] = var10;
-    var13['DATA_AND_PRIVACY'] = var21;
-    var13[var21] = var9;
+    var11 = 'REQUESTS';
+    var13['REQUESTS'] = var11;
+    var6 = 'SETTINGS';
+    var13['SETTINGS'] = var6;
+    var10 = 'CONTENT_AND_SOCIAL';
+    var13['CONTENT_AND_SOCIAL'] = var10;
+    var9 = 'DATA_AND_PRIVACY';
+    var13['DATA_AND_PRIVACY'] = var9;
     var12 = {};
-    var9 = 'SIDENAV';
-    var12['SIDENAV'] = var9;
-    var12['SETTINGS'] = var6;
+    var12['ACTIVITY'] = var27;
+    var12[var27] = var29;
+    var12['REQUESTS'] = var26;
+    var12[var26] = var11;
+    var12['SETTINGS'] = var5;
+    var12[var5] = var6;
+    var12['CONTENT_AND_SOCIAL'] = var21;
+    var12[var21] = var10;
+    var12['DATA_AND_PRIVACY'] = var20;
+    var12[var20] = var9;
     var11 = {};
-    var11['SIDENAV'] = var29;
-    var11[var29] = var9;
-    var11['SETTINGS'] = var28;
-    var11[var28] = var6;
+    var9 = 'SIDENAV';
+    var11['SIDENAV'] = var9;
+    var11['SETTINGS'] = var6;
     var10 = {};
-    var10['TabChange'] = var29;
+    var10['SIDENAV'] = var27;
+    var10[var27] = var9;
+    var10['SETTINGS'] = var26;
+    var10[var26] = var6;
+    var9 = {};
+    var9['TabChange'] = var27;
     var6 = 'TabChange';
-    var10[var29] = var6;
-    var10['ShowQRCodeModal'] = var28;
+    var9[var27] = var6;
+    var9['ShowQRCodeModal'] = var26;
     var6 = 'ShowQRCodeModal';
-    var10[var28] = var6;
-    var10['RevealQRCode'] = var5;
+    var9[var26] = var6;
+    var9['RevealQRCode'] = var5;
     var6 = 'RevealQRCode';
-    var10[var5] = var6;
-    var10['ScanQRCodeButton'] = var22;
+    var9[var5] = var6;
+    var9['ScanQRCodeButton'] = var21;
     var6 = 'ScanQRCodeButton';
-    var10[var22] = var6;
-    var10['ScanQRCode'] = var21;
+    var9[var21] = var6;
+    var9['ScanQRCode'] = var20;
     var6 = 'ScanQRCode';
-    var10[var21] = var6;
-    var10['LoadMore'] = var25;
+    var9[var20] = var6;
+    var9['LoadMore'] = var28;
     var6 = 'LoadMore';
-    var10[var25] = var6;
-    var10['SelectTeen'] = var8;
+    var9[var28] = var6;
+    var9['SelectTeen'] = var8;
     var6 = 'SelectTeen';
-    var10[var8] = var6;
-    var10['HideQRCode'] = var7;
+    var9[var8] = var6;
+    var9['HideQRCode'] = var7;
     var6 = 'HideQRCode';
-    var10[var7] = var6;
-    var8 = var4.Map;
-    var6 = var15.USER_INTERACTION;
-    var7 = new Array(2);
-    var7[0] = var6;
-    var6 = {};
-    var9 = 100;
-    var6['priority'] = var9;
-    var9 = function tooltipHeader() {
+    var9[var7] = var6;
+    var7 = var4.Map;
+    var4 = var14.USER_INTERACTION;
+    var6 = new Array(2);
+    var6[0] = var4;
+    var4 = {};
+    var8 = 100;
+    var4['priority'] = var8;
+    var8 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -215,59 +215,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var6['tooltipHeader'] = var9;
-    var9 = function tooltipDescription(arg1) {
+    var4['tooltipHeader'] = var8;
+    var8 = function tooltipDescription(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var3.K5r+sN;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.foTzbd;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.foTzbd;
+            var1 = var3.bind(var4)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var3 = var3.cY19uR;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.w4wmnb;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var6['tooltipDescription'] = var9;
-    var9 = function sectionHeader(arg1) {
+    var4['tooltipDescription'] = var8;
+    var8 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -287,59 +265,37 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var6['sectionHeader'] = var9;
-    var9 = function sectionDescription(arg1) {
+    var4['sectionHeader'] = var8;
+    var8 = function sectionDescription(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var1 = var3.K5r+sN;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.foTzbd;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.foTzbd;
+            var1 = var3.bind(var4)(var1);
             _fun0002_ip = 4; continue _fun0002;
 case 2:
-            var3 = var3.cY19uR;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.w4wmnb;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var6['sectionDescription'] = var9;
-    var9 = function timestampFormatter() {
+    var4['sectionDescription'] = var8;
+    var8 = function timestampFormatter() {
         var1 = {};
         var7 = _closure1_slot0;
         var5 = _closure1_slot2;
@@ -371,17 +327,17 @@ case 4:
         var1['days'] = var2;
         return var1;
     };
-    var6['timestampFormatter'] = var9;
-    var7[1] = var6;
-    var6 = new Array(5);
-    var6[0] = var7;
-    var9 = var15.USER_CALLED;
-    var7 = new Array(2);
-    var7[0] = var9;
-    var9 = {};
-    var30 = 200;
-    var9['priority'] = var30;
-    var30 = function tooltipHeader() {
+    var4['timestampFormatter'] = var8;
+    var6[1] = var4;
+    var4 = new Array(7);
+    var4[0] = var6;
+    var8 = var14.USER_CALLED;
+    var6 = new Array(2);
+    var6[0] = var8;
+    var8 = {};
+    var28 = 200;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -398,59 +354,37 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var9['tooltipHeader'] = var30;
-    var30 = function tooltipDescription(arg1) {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-            var1 = var3.SCIaWK;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.4ufgdz;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.4ufgdz;
+            var1 = var3.bind(var4)(var1);
             _fun0003_ip = 4; continue _fun0003;
 case 2:
-            var3 = var3.w7j/Lt;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.aiAhnQ;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['tooltipDescription'] = var30;
-    var30 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -470,59 +404,37 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var9['sectionHeader'] = var30;
-    var30 = function sectionDescription(arg1) {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-            var1 = var3.SCIaWK;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.4ufgdz;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.4ufgdz;
+            var1 = var3.bind(var4)(var1);
             _fun0004_ip = 4; continue _fun0004;
 case 2:
-            var3 = var3.w7j/Lt;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.aiAhnQ;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['sectionDescription'] = var30;
-    var30 = function timestampFormatter() {
+    var8['sectionDescription'] = var28;
+    var28 = function timestampFormatter() {
         var1 = {};
         var7 = _closure1_slot0;
         var5 = _closure1_slot2;
@@ -554,16 +466,16 @@ case 4:
         var1['days'] = var2;
         return var1;
     };
-    var9['timestampFormatter'] = var30;
-    var7[1] = var9;
-    var6[1] = var7;
-    var9 = var15.USER_ADD;
-    var7 = new Array(2);
-    var7[0] = var9;
-    var9 = {};
-    var30 = 300;
-    var9['priority'] = var30;
-    var30 = function tooltipHeader() {
+    var8['timestampFormatter'] = var28;
+    var6[1] = var8;
+    var4[1] = var6;
+    var8 = var14.USER_ADD;
+    var6 = new Array(2);
+    var6[0] = var8;
+    var8 = {};
+    var28 = 300;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -580,59 +492,37 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var9['tooltipHeader'] = var30;
-    var30 = function tooltipDescription(arg1) {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
-            var1 = var3.1/QpPy;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.mpHHfa;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.mpHHfa;
+            var1 = var3.bind(var4)(var1);
             _fun0005_ip = 4; continue _fun0005;
 case 2:
-            var3 = var3.HvsFJf;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.BkVb1X;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['tooltipDescription'] = var30;
-    var30 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -652,59 +542,37 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var9['sectionHeader'] = var30;
-    var30 = function sectionDescription(arg1) {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0006_ip = 2; continue _fun0006 }
 case 3:
-            var1 = var3.1/QpPy;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.mpHHfa;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.mpHHfa;
+            var1 = var3.bind(var4)(var1);
             _fun0006_ip = 4; continue _fun0006;
 case 2:
-            var3 = var3.HvsFJf;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.BkVb1X;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['sectionDescription'] = var30;
-    var30 = function timestampFormatter() {
+    var8['sectionDescription'] = var28;
+    var28 = function timestampFormatter() {
         var1 = {};
         var7 = _closure1_slot0;
         var5 = _closure1_slot2;
@@ -736,98 +604,63 @@ case 4:
         var1['days'] = var2;
         return var1;
     };
-    var9['timestampFormatter'] = var30;
-    var7[1] = var9;
-    var6[2] = var7;
-    var9 = var15.GUILD_ADD;
-    var7 = new Array(2);
-    var7[0] = var9;
-    var9 = {};
-    var30 = 400;
-    var9['priority'] = var30;
-    var30 = function tooltipHeader() {
-        var6 = _closure1_slot0;
-        var9 = _closure1_slot2;
-        var2 = 4;
-        var2 = var9[var2];
-        var8 = undefined;
-        var4 = var6.bind(var8)(var2);
-        var3 = var4.getFamilyCenterV2String;
-        var5 = 2;
-        var2 = var9[var5];
-        var2 = var6.bind(var8)(var2);
-        var11 = var2.intl;
-        var10 = var11.string;
-        var7 = _closure1_slot1;
+    var8['timestampFormatter'] = var28;
+    var6[1] = var8;
+    var4[2] = var6;
+    var8 = var14.GUILD_ADD;
+    var6 = new Array(2);
+    var6[0] = var8;
+    var8 = {};
+    var28 = 400;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
+        var3 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var2 = 2;
+        var2 = var6[var2];
+        var5 = undefined;
+        var2 = var3.bind(var5)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var4 = _closure1_slot1;
         var1 = 3;
-        var2 = var9[var1];
-        var2 = var7.bind(var8)(var2);
-        var2 = var2.NulX9+;
-        var2 = var10.bind(var11)(var2);
-        var5 = var9[var5];
-        var5 = var6.bind(var8)(var5);
-        var6 = var5.intl;
-        var5 = var6.string;
-        var1 = var9[var1];
-        var1 = var7.bind(var8)(var1);
+        var1 = var6[var1];
+        var1 = var4.bind(var5)(var1);
         var1 = var1.uav9Bh;
-        var1 = var5.bind(var6)(var1);
-        var1 = var3.bind(var4)(var2, var1);
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var9['tooltipHeader'] = var30;
-    var30 = function tooltipDescription(arg1) {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0007_ip = 2; continue _fun0007 }
 case 3:
-            var1 = var3.MTFxYc;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.TA8GFt;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.TA8GFt;
+            var1 = var3.bind(var4)(var1);
             _fun0007_ip = 4; continue _fun0007;
 case 2:
-            var3 = var3.Lmz9Vh;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.LVNgTD;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['tooltipDescription'] = var30;
-    var30 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -847,67 +680,45 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var9['sectionHeader'] = var30;
-    var30 = function sectionDescription(arg1) {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0008_ip = 2; continue _fun0008 }
 case 3:
-            var1 = var3.MTFxYc;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.TA8GFt;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.TA8GFt;
+            var1 = var3.bind(var4)(var1);
             _fun0008_ip = 4; continue _fun0008;
 case 2:
-            var3 = var3.Lmz9Vh;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.LVNgTD;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['sectionDescription'] = var30;
-    var7[1] = var9;
-    var6[3] = var7;
-    var9 = var15.GUILD_INTERACTION;
-    var7 = new Array(2);
-    var7[0] = var9;
-    var9 = {};
-    var30 = 500;
-    var9['priority'] = var30;
-    var30 = function tooltipHeader() {
+    var8['sectionDescription'] = var28;
+    var6[1] = var8;
+    var4[3] = var6;
+    var8 = var14.GUILD_INTERACTION;
+    var6 = new Array(2);
+    var6[0] = var8;
+    var8 = {};
+    var28 = 500;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -924,59 +735,37 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var9['tooltipHeader'] = var30;
-    var30 = function tooltipDescription(arg1) {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0009_ip = 2; continue _fun0009 }
 case 3:
-            var1 = var3.DLVyFw;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.sSJauZ;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.sSJauZ;
+            var1 = var3.bind(var4)(var1);
             _fun0009_ip = 4; continue _fun0009;
 case 2:
-            var3 = var3.c0NgBX;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.BLgIrk;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['tooltipDescription'] = var30;
-    var30 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -996,74 +785,45 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var9['sectionHeader'] = var30;
-    var30 = function sectionDescription(arg1) {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var9 = undefined;
-            var5 = var7.bind(var9)(var2);
-            var4 = var5.getFamilyCenterV2String;
-            var6 = 2;
-            var2 = var10[var6];
-            var2 = var7.bind(var9)(var2);
-            var12 = var2.intl;
-            var11 = var12.string;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var1 = var10[var2];
-            var3 = var8.bind(var9)(var1);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
             var1 = arg1;
             if(var1) { _fun0010_ip = 2; continue _fun0010 }
 case 3:
-            var1 = var3.DLVyFw;
-            var13 = var11.bind(var12)(var1);
-            var1 = var10[var6];
-            var1 = var7.bind(var9)(var1);
-            var15 = var1.intl;
-            var14 = var15.string;
-            var1 = var10[var2];
-            var1 = var8.bind(var9)(var1);
-            var1 = var1.sSJauZ;
-            var1 = var14.bind(var15)(var1);
-            var1 = var4.bind(var5)(var13, var1);
+            var1 = var2.sSJauZ;
+            var1 = var3.bind(var4)(var1);
             _fun0010_ip = 4; continue _fun0010;
 case 2:
-            var3 = var3.c0NgBX;
-            var3 = var11.bind(var12)(var3);
-            var6 = var10[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var2 = var10[var2];
-            var2 = var8.bind(var9)(var2);
             var2 = var2.BLgIrk;
-            var2 = var6.bind(var7)(var2);
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = var3.bind(var4)(var2);
 case 4:
             return var1;
         }
     };
-    var9['sectionDescription'] = var30;
-    var7[1] = var9;
-    var6[4] = var7;
-    var7 = var8.prototype;
-    var7 = Object.create(var7, {constructor: {value: var8}});
-    var34 = var7;
-    var33 = var6;
-    var6 = new var34[var8](var33, var32);
-    var9 = var6 instanceof Object ? var6 : var7;
-    var7 = var4.Map;
-    var4 = var15.TOTAL_VOICE_MINUTES;
+    var8['sectionDescription'] = var28;
+    var6[1] = var8;
+    var4[4] = var6;
+    var8 = var14.TOTAL_VOICE_MINUTES;
     var6 = new Array(2);
-    var6[0] = var4;
-    var4 = {};
-    var8 = 175;
-    var4['priority'] = var8;
-    var8 = function tooltipHeader() {
+    var6[0] = var8;
+    var8 = {};
+    var28 = 175;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1080,8 +840,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['tooltipHeader'] = var8;
-    var8 = function tooltipDescription() {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1098,8 +858,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['tooltipDescription'] = var8;
-    var8 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1119,8 +879,8 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4['sectionHeader'] = var8;
-    var8 = function sectionDescription() {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1137,17 +897,16 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['sectionDescription'] = var8;
-    var6[1] = var4;
-    var4 = new Array(2);
-    var4[0] = var6;
-    var8 = var15.PURCHASES;
+    var8['sectionDescription'] = var28;
+    var6[1] = var8;
+    var4[5] = var6;
+    var8 = var14.PURCHASES;
     var6 = new Array(2);
     var6[0] = var8;
     var8 = {};
-    var30 = 150;
-    var8['priority'] = var30;
-    var30 = function tooltipHeader() {
+    var28 = 150;
+    var8['priority'] = var28;
+    var28 = function tooltipHeader() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1164,8 +923,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var8['tooltipHeader'] = var30;
-    var30 = function tooltipDescription(arg1) {
+    var8['tooltipHeader'] = var28;
+    var28 = function tooltipDescription(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -1181,20 +940,20 @@ case 0:
             var1 = var6[var1];
             var2 = var2.bind(var5)(var1);
             var1 = arg1;
-            if(var1) { _fun0011_ip = 5; continue _fun0011 }
-case 6:
+            if(var1) { _fun0011_ip = 2; continue _fun0011 }
+case 3:
             var1 = var2.85PtWu;
             var1 = var3.bind(var4)(var1);
-            _fun0011_ip = 7; continue _fun0011;
-case 5:
+            _fun0011_ip = 4; continue _fun0011;
+case 2:
             var2 = var2.cqIdqZ;
             var1 = var3.bind(var4)(var2);
-case 7:
+case 4:
             return var1;
         }
     };
-    var8['tooltipDescription'] = var30;
-    var30 = function sectionHeader(arg1) {
+    var8['tooltipDescription'] = var28;
+    var28 = function sectionHeader(arg1) {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1214,8 +973,8 @@ case 7:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var8['sectionHeader'] = var30;
-    var30 = function sectionDescription(arg1) {
+    var8['sectionHeader'] = var28;
+    var28 = function sectionDescription(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -1231,21 +990,21 @@ case 0:
             var1 = var6[var1];
             var2 = var2.bind(var5)(var1);
             var1 = arg1;
-            if(var1) { _fun0012_ip = 5; continue _fun0012 }
-case 6:
+            if(var1) { _fun0012_ip = 2; continue _fun0012 }
+case 3:
             var1 = var2.85PtWu;
             var1 = var3.bind(var4)(var1);
-            _fun0012_ip = 7; continue _fun0012;
-case 5:
+            _fun0012_ip = 4; continue _fun0012;
+case 2:
             var2 = var2.cqIdqZ;
             var1 = var3.bind(var4)(var2);
-case 7:
+case 4:
             return var1;
         }
     };
-    var8['sectionDescription'] = var30;
+    var8['sectionDescription'] = var28;
     var6[1] = var8;
-    var4[1] = var6;
+    var4[6] = var6;
     var6 = var7.prototype;
     var6 = Object.create(var6, {constructor: {value: var7}});
     var34 = var6;
@@ -1253,25 +1012,25 @@ case 7:
     var4 = new var34[var7](var33, var32);
     var8 = var4 instanceof Object ? var4 : var6;
     var7 = {};
-    var7['CHECK'] = var29;
+    var7['CHECK'] = var27;
     var4 = 'CHECK';
-    var7[var29] = var4;
-    var7['X'] = var28;
+    var7[var27] = var4;
+    var7['X'] = var26;
     var4 = 'X';
-    var7[var28] = var4;
+    var7[var26] = var4;
     var6 = {};
-    var6['GENERIC_ERROR'] = var29;
+    var6['GENERIC_ERROR'] = var27;
     var4 = 'GENERIC_ERROR';
-    var6[var29] = var4;
-    var6['INELIGIBLE_FOR_FAMILY_CENTER'] = var28;
+    var6[var27] = var4;
+    var6['INELIGIBLE_FOR_FAMILY_CENTER'] = var26;
     var4 = 'INELIGIBLE_FOR_FAMILY_CENTER';
-    var6[var28] = var4;
+    var6[var26] = var4;
     var6['PENDING_REQUEST_EXISTS'] = var5;
     var4 = 'PENDING_REQUEST_EXISTS';
     var6[var5] = var4;
-    var6['MAX_CONNECTIONS_REACHED'] = var22;
+    var6['MAX_CONNECTIONS_REACHED'] = var21;
     var4 = 'MAX_CONNECTIONS_REACHED';
-    var6[var22] = var4;
+    var6[var21] = var4;
     var5 = {};
     var4 = var6.INELIGIBLE_FOR_FAMILY_CENTER;
     var5[290000] = var4;
@@ -1280,9 +1039,9 @@ case 7:
     var4 = var6.PENDING_REQUEST_EXISTS;
     var5[290005] = var4;
     var4 = {};
-    var29 = var6.GENERIC_ERROR;
-    var28 = {};
-    var30 = function header() {
+    var27 = var6.GENERIC_ERROR;
+    var26 = {};
+    var28 = function header() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1299,8 +1058,8 @@ case 7:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var28['header'] = var30;
-    var30 = function description() {
+    var26['header'] = var28;
+    var28 = function description() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1317,13 +1076,13 @@ case 7:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var28['description'] = var30;
-    var30 = var7.X;
-    var28['icon'] = var30;
-    var4[var29] = var28;
-    var29 = var6.PENDING_REQUEST_EXISTS;
-    var28 = {};
-    var30 = function header() {
+    var26['description'] = var28;
+    var28 = var7.X;
+    var26['icon'] = var28;
+    var4[var27] = var26;
+    var27 = var6.PENDING_REQUEST_EXISTS;
+    var26 = {};
+    var28 = function header() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1340,15 +1099,15 @@ case 7:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var28['header'] = var30;
-    var30 = function description(arg1) {
+    var26['header'] = var28;
+    var28 = function description(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.email;
             var1 = null;
-            if(!(var1 == var6)) { _fun0013_ip = 7; continue _fun0013 }
-case 8:
+            if(!(var1 == var6)) { _fun0013_ip = 4; continue _fun0013 }
+case 5:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -1363,8 +1122,8 @@ case 8:
             var1 = var4.bind(var5)(var1);
             var1 = var1.Xyjnwn;
             var1 = var2.bind(var3)(var1);
-            _fun0013_ip = 9; continue _fun0013;
-case 7:
+            _fun0013_ip = 6; continue _fun0013;
+case 4:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 2;
@@ -1381,17 +1140,17 @@ case 7:
             var2 = {};
             var2['email'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 6:
             return var1;
         }
     };
-    var28['description'] = var30;
-    var30 = var7.CHECK;
-    var28['icon'] = var30;
-    var4[var29] = var28;
-    var29 = var6.MAX_CONNECTIONS_REACHED;
-    var28 = {};
-    var30 = function header(arg1) {
+    var26['description'] = var28;
+    var28 = var7.CHECK;
+    var26['icon'] = var28;
+    var4[var27] = var26;
+    var27 = var6.MAX_CONNECTIONS_REACHED;
+    var26 = {};
+    var28 = function header(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
@@ -1408,20 +1167,20 @@ case 0:
             var2 = 3;
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
-            if(var1) { _fun0014_ip = 10; continue _fun0014 }
-case 11:
+            if(var1) { _fun0014_ip = 7; continue _fun0014 }
+case 8:
             var1 = var2.MzX4RP;
             var1 = var3.bind(var4)(var1);
-            _fun0014_ip = 12; continue _fun0014;
-case 10:
+            _fun0014_ip = 9; continue _fun0014;
+case 7:
             var2 = var2.bS5x94;
             var1 = var3.bind(var4)(var2);
-case 12:
+case 9:
             return var1;
         }
     };
-    var28['header'] = var30;
-    var30 = function description(arg1) {
+    var26['header'] = var28;
+    var28 = function description(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var1 = arg1;
@@ -1438,31 +1197,31 @@ case 0:
             var2 = 3;
             var2 = var7[var2];
             var2 = var3.bind(var6)(var2);
-            if(var1) { _fun0015_ip = 13; continue _fun0015 }
-case 11:
+            if(var1) { _fun0015_ip = 10; continue _fun0015 }
+case 8:
             var3 = var2.69F+eS;
             var1 = {};
             var6 = 'https://support.discord.com/hc/articles/14155060633623';
             var1['link'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0015_ip = 14; continue _fun0015;
-case 13:
+            _fun0015_ip = 11; continue _fun0015;
+case 10:
             var3 = var2.GKzqWi;
             var2 = {};
             var6 = 'https://support.discord.com/hc/articles/14155043715735';
             var2['link'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 14:
+case 11:
             return var1;
         }
     };
-    var28['description'] = var30;
-    var30 = var7.X;
-    var28['icon'] = var30;
-    var4[var29] = var28;
-    var29 = var6.INELIGIBLE_FOR_FAMILY_CENTER;
-    var28 = {};
-    var30 = function header() {
+    var26['description'] = var28;
+    var28 = var7.X;
+    var26['icon'] = var28;
+    var4[var27] = var26;
+    var27 = var6.INELIGIBLE_FOR_FAMILY_CENTER;
+    var26 = {};
+    var28 = function header() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1479,8 +1238,8 @@ case 14:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var28['header'] = var30;
-    var30 = function description() {
+    var26['header'] = var28;
+    var28 = function description() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -1500,25 +1259,25 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var28['description'] = var30;
-    var30 = var7.X;
-    var28['icon'] = var30;
-    var4[var29] = var28;
-    var25 = var27[var25];
-    var27 = var26.bind(var1)(var25);
-    var26 = var27.fileFinishedImporting;
-    var25 = 'modules/parent_tools/FamilyCenterConstants.tsx';
-    var25 = var26.bind(var27)(var25);
-    var3['FAMILY_CENTER_REFETCH_COOLDOWN'] = var24;
-    var3['MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS'] = var23;
-    var3['MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS'] = var22;
-    var22 = 26;
-    var3['FAMILY_CENTER_REQUEST_SECTION_HEIGHT'] = var22;
-    var22 = 64;
-    var3['FAMILY_CENTER_REQUEST_ROW_HEIGHT'] = var22;
-    var22 = /\\/feature\\/family-center\\/my-family\\/(\w+)\\/(\w+)/;
-    var3['FAMILY_CENTER_LINK_REQUEST_REGEX'] = var22;
-    var22 = function(arg1, arg2) {
+    var26['description'] = var28;
+    var28 = var7.X;
+    var26['icon'] = var28;
+    var4[var27] = var26;
+    var24 = var24[var20];
+    var26 = var25.bind(var1)(var24);
+    var25 = var26.fileFinishedImporting;
+    var24 = 'modules/parent_tools/FamilyCenterConstants.tsx';
+    var24 = var25.bind(var26)(var24);
+    var3['FAMILY_CENTER_REFETCH_COOLDOWN'] = var23;
+    var3['MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS'] = var22;
+    var3['MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS'] = var21;
+    var21 = 26;
+    var3['FAMILY_CENTER_REQUEST_SECTION_HEIGHT'] = var21;
+    var21 = 64;
+    var3['FAMILY_CENTER_REQUEST_ROW_HEIGHT'] = var21;
+    var21 = /\\/feature\\/family-center\\/my-family\\/(\w+)\\/(\w+)/;
+    var3['FAMILY_CENTER_LINK_REQUEST_REGEX'] = var21;
+    var21 = function(arg1, arg2) {
         var1 = global;
         var1 = var1.HermesInternal;
         var5 = var1.concat;
@@ -1529,23 +1288,22 @@ case 14:
         var1 = var5.bind(var4)(var3, var2, var1);
         return var1;
     };
-    var3['FAMILY_CENTER_REQUEST_QR_CODE_URL'] = var22;
-    var3['FAMILY_CENTER_ITEMS_SHOWN_INCREMENTS'] = var21;
-    var3['QR_CODE_AUTO_HIDE_TIMEOUT'] = var20;
-    var20 = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-    var3['PLACEHOLDER_QR_CODE_URL'] = var20;
-    var3['FAMILY_CENTER_SUB_ROUTES'] = var19;
-    var3['TeenActionType'] = var18;
-    var3['UserLinkType'] = var17;
-    var3['UserLinkStatus'] = var16;
-    var3['TeenActionDisplayType'] = var15;
-    var3['FamilyCenterSubPages'] = var14;
-    var3['FamilyCenterSubPageAnalyticsIds'] = var13;
-    var3['FamilyCenterPageLocation'] = var12;
-    var3['FamilyCenterPageLocationAnalyticsIds'] = var11;
-    var3['FamilyCenterAction'] = var10;
-    var3['ACTION_TO_TEXT'] = var9;
-    var3['ACTION_TO_TEXT_V2'] = var8;
+    var3['FAMILY_CENTER_REQUEST_QR_CODE_URL'] = var21;
+    var3['FAMILY_CENTER_ITEMS_SHOWN_INCREMENTS'] = var20;
+    var3['QR_CODE_AUTO_HIDE_TIMEOUT'] = var19;
+    var19 = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    var3['PLACEHOLDER_QR_CODE_URL'] = var19;
+    var3['FAMILY_CENTER_SUB_ROUTES'] = var18;
+    var3['TeenActionType'] = var17;
+    var3['UserLinkType'] = var16;
+    var3['UserLinkStatus'] = var15;
+    var3['TeenActionDisplayType'] = var14;
+    var3['FamilyCenterSubPages'] = var13;
+    var3['FamilyCenterSubPageAnalyticsIds'] = var12;
+    var3['FamilyCenterPageLocation'] = var11;
+    var3['FamilyCenterPageLocationAnalyticsIds'] = var10;
+    var3['FamilyCenterAction'] = var9;
+    var3['ACTION_TO_TEXT'] = var8;
     var3['FamilyCenterIconType'] = var7;
     var3['FamilyCenterFailureCode'] = var6;
     var3['FAMILY_CENTER_ERROR_CODE_TO_FAILURE'] = var5;

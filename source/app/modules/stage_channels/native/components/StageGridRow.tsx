@@ -35,8 +35,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
+    var11 = 'center';
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
     var4['container'] = var10;
+    var10 = {};
+    var10['justifyContent'] = var11;
+    var4['containerLandscape'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot5 = var4;
     var4 = var7.memo;
@@ -47,14 +51,21 @@ case 0:
             var2 = var1.channel;
             var _closure2_slot0 = var2;
             var7 = var1.participants;
-            var8 = var1.row;
+            var6 = var1.row;
             var4 = undefined;
             var _closure2_slot1 = var4;
             var2 = _closure1_slot5;
-            var6 = var2.bind(var4)();
+            var9 = var2.bind(var4)();
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 6;
+            var2 = var8[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useIsScreenLandscape;
+            var8 = var2.bind(var3)();
             var3 = 3;
             var2 = 0;
-            if(!(var2 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var2 === var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var7.length;
 case 2:
@@ -65,28 +76,28 @@ case 5:
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 4;
-            var2 = var8[var2];
+            var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.StageTileSize;
             var2 = var2.THIRD;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var3 = 4;
-            var3 = var9[var3];
-            var3 = var8.bind(var4)(var3);
+            var3 = var10[var3];
+            var3 = var6.bind(var4)(var3);
             var3 = var3.StageTileSize;
             var2 = var3.HALF;
             _fun0001_ip = 8; continue _fun0001;
 case 4:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var3 = 4;
-            var3 = var9[var3];
-            var3 = var8.bind(var4)(var3);
+            var3 = var10[var3];
+            var3 = var6.bind(var4)(var3);
             var3 = var3.StageTileSize;
             var2 = var3.FULL;
 case 8:
@@ -94,7 +105,14 @@ case 8:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
-            var6 = var6.container;
+            var10 = var9.container;
+            var6 = new Array(2);
+            var6[0] = var10;
+            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var8 = var9.containerLandscape;
+case 9:
+            var6[1] = var8;
             var1['style'] = var6;
             var6 = var7.map;
             var5 = function(arg1) {
@@ -111,8 +129,8 @@ case 0:
                     var1 = var1.StageChannelParticipantTypes;
                     var1 = var1.STREAM;
                     var1 = var4 === var1;
-                    if(var1) { _fun0002_ip = 9; continue _fun0002 }
-case 3:
+                    if(var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var5 = var2.type;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -121,26 +139,26 @@ case 3:
                     var4 = var4.StageChannelParticipantTypes;
                     var4 = var4.VOICE;
                     var4 = var5 === var4;
-                    if(!var4) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(!var4) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var7 = var2.voiceState;
                     var5 = null;
                     var8 = var5 == var7;
                     var5 = undefined;
-                    if(var8) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(var8) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     var5 = var7.selfVideo;
-case 12:
+case 15:
                     var4 = var5;
-case 10:
+case 13:
                     var1 = var4;
-case 9:
+case 11:
                     var5 = _closure1_slot4;
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    if(var1) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-                    var1 = 7;
+                    if(var1) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                    var1 = 8;
                     var1 = var7[var1];
                     var8 = var4.bind(var6)(var1);
                     var3 = {};
@@ -156,9 +174,9 @@ case 15:
                     var1 = 'stage-user-participant-';
                     var1 = var9.bind(var1)(var10);
                     var1 = var5.bind(var6)(var8, var3, var1);
-                    _fun0002_ip = 16; continue _fun0002;
-case 14:
-                    var3 = 6;
+                    _fun0002_ip = 19; continue _fun0002;
+case 17:
+                    var3 = 7;
                     var3 = var7[var3];
                     var4 = var4.bind(var6)(var3);
                     var3 = {};
@@ -174,7 +192,7 @@ case 14:
                     var2 = 'stage-media-participant-';
                     var2 = var7.bind(var2)(var8);
                     var1 = var5.bind(var6)(var4, var3, var2);
-case 16:
+case 19:
                     return var1;
                 }
             };
@@ -185,7 +203,7 @@ case 16:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

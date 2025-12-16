@@ -339,6 +339,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['LOCALIZED_PRICING_UPSELL_VIEWED'] = var2;
     var2 = 'impression_masked_link_modal';
     var4['MASKED_LINK_MODAL'] = var2;
+    var2 = 'impression_message_also_send_to_channel';
+    var4['MESSAGE_ALSO_SEND_TO_CHANNEL'] = var2;
     var2 = 'impression_messages_empty_nux';
     var4['MESSAGES_EMPTY_NUX'] = var2;
     var2 = 'impression_modal_root_legacy';

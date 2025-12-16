@@ -648,12 +648,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.DismissibleContent;
-    var8 = var8.NITRO_PRIVACY_PERK_NEW_BADGE;
+    var8 = var8.GAME_SHOP_RTC_GIFTING_NEW_BADGE;
     var2[126] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DismissibleContent;
-    var4 = var4.GAME_SHOP_RTC_GIFTING_NEW_BADGE;
+    var4 = var4.NITRO_PRIVACY_PERK_NEW_BADGE_V2;
     var2[127] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});

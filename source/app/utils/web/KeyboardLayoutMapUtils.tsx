@@ -2056,101 +2056,103 @@ case 71:
             var6 = function value(arg1, arg2, arg3) {
                 _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
 case 0:
-                    var3 = arg1;
+                    var9 = arg1;
                     var8 = arg2;
                     var4 = arg3;
                     var7 = this;
+                    var _closure3_slot0 = var8;
                     var5 = null;
-                    var2 = var5 != var3;
+                    var3 = var5 != var9;
                     var1 = undefined;
                     var6 = undefined;
-                    if(!var2) { _fun0045_ip = 123; continue _fun0045 }
-case 124:
-                    var2 = _closure1_slot20;
-                    var6 = var2.bind(var1)(var3);
-case 123:
-                    if(!(var5 == var6)) { _fun0045_ip = 62; continue _fun0045 }
-case 10:
-                    if(!(var5 == var8)) { _fun0045_ip = 77; continue _fun0045 }
-case 78:
-                    return var1;
+                    if(!var3) { _fun0045_ip = 66; continue _fun0045 }
+case 39:
+                    var3 = _closure1_slot20;
+                    var6 = var3.bind(var1)(var9);
+case 66:
+                    if(!(var5 == var6)) { _fun0045_ip = 64; continue _fun0045 }
 case 77:
+                    if(!(var5 == var8)) { _fun0045_ip = 123; continue _fun0045 }
+case 25:
+                    return var1;
+case 123:
                     var9 = var7.cachedKeyMapEntries;
                     var3 = var9.find;
                     var2 = function(arg1) {
                         _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
                             var4 = arg1;
-                            var2 = var4[Symbol.iterator];
-                            var4 = var2().next;
-                            var1 = var4().value;
-                            var1 = var2;
+                            var1 = var4[Symbol.iterator];
+                            var4 = var1().next;
+                            var2 = var4().value;
+                            var2 = var1;
                             var6 = undefined;
-                            var3 = var1 === var6;
-                            var1 = undefined;
+                            var3 = var2 === var6;
+                            var2 = undefined;
                             if(var3) { _fun0046_ip = 65; continue _fun0046 }
 case 31:
                             var5 = var4().value;
-                            var4 = var2;
+                            var4 = var1;
                             var4 = var4 === var6;
-                            var1 = undefined;
+                            var2 = undefined;
                             var3 = var4;
                             if(var4) { _fun0046_ip = 65; continue _fun0046 }
 case 66:
-                            var1 = var5;
+                            var2 = var5;
                             var3 = var4;
 case 65:
                             if(var3) { _fun0046_ip = 67; continue _fun0046 }
 case 68:
-                            var2.return();
+                            var1.return();
 case 67:
-                            var1 = var1 == var1;
+                            var1 = _closure3_slot0;
+                            var1 = var2 === var1;
                             return var1;
                         }
                     };
                     var3 = var3.bind(var9)(var2);
                     var2 = var5 == var3;
                     var10 = undefined;
-                    if(var2) { _fun0045_ip = 101; continue _fun0045 }
-case 50:
+                    if(var2) { _fun0045_ip = 74; continue _fun0045 }
+case 19:
                     var2 = 0;
                     var10 = var3[var2];
-case 101:
-                    if(!(var5 != var10)) { _fun0045_ip = 16; continue _fun0045 }
 case 74:
+                    if(!(var5 != var10)) { _fun0045_ip = 124; continue _fun0045 }
+case 73:
                     var3 = _closure1_slot25;
                     var2 = {};
                     var2['keyCode'] = var8;
                     var2['key'] = var10;
                     var8 = var4;
-                    if(!(var5 == var4)) { _fun0045_ip = 98; continue _fun0045 }
-case 125:
+                    if(!(var5 == var4)) { _fun0045_ip = 125; continue _fun0045 }
+case 126:
                     var9 = var7.findCodeFromKeyboardLayoutMap;
                     var8 = var9.bind(var7)(var10);
-case 98:
+case 125:
                     var2['code'] = var8;
                     var2 = var3.bind(var1)(var2);
                     return var2;
-case 16:
+case 124:
                     return var1;
-case 62:
+case 64:
                     var2 = var7.keyMap;
                     var8 = var2[var6];
-                    if(!(var5 != var8)) { _fun0045_ip = 126; continue _fun0045 }
-case 89:
+                    if(!(var5 != var8)) { _fun0045_ip = 127; continue _fun0045 }
+case 128:
                     var3 = _closure1_slot25;
                     var2 = {};
                     var2['keyCode'] = var8;
                     var2['key'] = var6;
-                    if(!(var5 == var4)) { _fun0045_ip = 127; continue _fun0045 }
-case 128:
+                    if(!(var5 == var4)) { _fun0045_ip = 24; continue _fun0045 }
+case 129:
                     var5 = var7.findCodeFromKeyboardLayoutMap;
                     var4 = var5.bind(var7)(var6);
-case 127:
+case 24:
                     var2['code'] = var4;
                     var2 = var3.bind(var1)(var2);
                     return var2;
-case 126:
+case 127:
                     return var1;
                 }
             };
@@ -2191,7 +2193,7 @@ case 11:
 case 78:
                 var2 = _closure1_slot17;
                 if(!(var1 != var2)) { _fun0047_ip = 60; continue _fun0047 }
-case 129:
+case 123:
                 var1 = var2.updateCaches;
                 var1 = var1.bind(var2)();
 case 60:
@@ -2257,7 +2259,7 @@ case 0:
                 var4 = undefined;
                 var1 = var1.bind(var4)(var5);
                 var2 = null;
-                if(!(var2 == var1)) { _fun0049_ip = 134; continue _fun0049 }
+                if(!(var2 == var1)) { _fun0049_ip = 125; continue _fun0049 }
 case 35:
                 var6 = _closure1_slot27;
                 var7 = var6.bind(var4)();
@@ -2266,15 +2268,15 @@ case 11:
                 var3 = _closure1_slot25;
                 var4 = var3.bind(var4)(var5);
                 var3 = var4.key;
-                if(!(var2 != var3)) { _fun0049_ip = 135; continue _fun0049 }
-case 129:
+                if(!(var2 != var3)) { _fun0049_ip = 134; continue _fun0049 }
+case 123:
                 var8 = var7.findKeyboardEventByKey;
                 var6 = var4.key;
                 var5 = var4.code;
                 var3 = var4.keyCode;
                 var3 = var8.bind(var7)(var6, var5, var3);
                 if(!(var2 == var3)) { _fun0049_ip = 98; continue _fun0049 }
-case 135:
+case 134:
                 var5 = var4.keyCode;
                 if(!(var2 != var5)) { _fun0049_ip = 95; continue _fun0049 }
 case 115:
@@ -2282,16 +2284,16 @@ case 115:
                 var5 = var4.keyCode;
                 var4 = var4.code;
                 var4 = var6.bind(var7)(var5, var4);
-                if(!(var2 == var4)) { _fun0049_ip = 136; continue _fun0049 }
+                if(!(var2 == var4)) { _fun0049_ip = 135; continue _fun0049 }
 case 95:
                 return var2;
-case 136:
+case 135:
                 return var4;
 case 98:
                 return var3;
 case 21:
                 return var2;
-case 134:
+case 125:
                 return var1;
             }
         };
@@ -2309,13 +2311,13 @@ case 0:
                 var1 = null;
                 var3 = var1 != var6;
                 var2 = undefined;
-                if(!var3) { _fun0050_ip = 137; continue _fun0050 }
-case 138:
+                if(!var3) { _fun0050_ip = 136; continue _fun0050 }
+case 137:
                 var3 = _closure1_slot20;
                 var2 = var3.bind(var5)(var6);
-case 137:
+case 136:
                 var9 = var2;
-                if(!(var1 != var2)) { _fun0050_ip = 139; continue _fun0050 }
+                if(!(var1 != var2)) { _fun0050_ip = 138; continue _fun0050 }
 case 13:
                 var6 = _closure1_slot29;
                 var2 = var9;
@@ -2337,29 +2339,29 @@ case 114:
 case 109:
                 var2 = var6;
 case 121:
-                if(!(var1 == var2)) { _fun0050_ip = 140; continue _fun0050 }
+                if(!(var1 == var2)) { _fun0050_ip = 139; continue _fun0050 }
 case 96: // try_start_0
                 var6 = _closure1_slot27;
                 var6 = var6.bind(var5)();
                 var10 = var6;
                 var11 = var1 == var6;
                 var6 = undefined;
-                if(var11) { _fun0050_ip = 141; continue _fun0050 }
+                if(var11) { _fun0050_ip = 140; continue _fun0050 }
 case 22:
                 var11 = var10;
                 var10 = var11.getDefaultKeyboardEventShape;
                 var6 = var10.bind(var11)(var9, var5, var8);
-case 141:
+case 140:
                 var7 = var6;
                 var8 = var1 != var6;
                 var6 = null;
-                if(!var8) { _fun0050_ip = 142; continue _fun0050 }
+                if(!var8) { _fun0050_ip = 141; continue _fun0050 }
 case 63:
                 var6 = var7;
-case 142:
+case 141:
                 var4 = var6;
                 if(!(var1 != var6)) { _fun0050_ip = 88; continue _fun0050 }
-case 143:
+case 142:
                 var6 = global;
                 var8 = var6.KeyboardEvent;
                 var15 = var4;
@@ -2378,16 +2380,16 @@ case 143:
                 var6 = var6.code;
                 var3['code'] = var6;
                 var3 = var4.bind(var5)(var3);
-case 144: // try_end0
+case 143: // try_end0
                 return var3;
 case 88:
                 return var1;
-case 145: // catch_target0
+case 144: // catch_target0
                 CatchBlockStart(arg_register=2);
                 return var1;
-case 140:
-                return var2;
 case 139:
+                return var2;
+case 138:
                 return var1;
             }
         };
@@ -2413,11 +2415,11 @@ case 49:
 case 77:
                 var10 = var2 != var6;
                 var1 = null;
-                if(!var10) { _fun0051_ip = 146; continue _fun0051 }
-case 147:
-                var1 = var6;
+                if(!var10) { _fun0051_ip = 145; continue _fun0051 }
 case 146:
-                if(!(var2 == var1)) { _fun0051_ip = 148; continue _fun0051 }
+                var1 = var6;
+case 145:
+                if(!(var2 == var1)) { _fun0051_ip = 147; continue _fun0051 }
 case 110: // try_start_0
                 var6 = _closure1_slot27;
                 var6 = var6.bind(var5)();
@@ -2425,7 +2427,7 @@ case 110: // try_start_0
                 var10 = var2 == var6;
                 var6 = undefined;
                 if(var10) { _fun0051_ip = 113; continue _fun0051 }
-case 135:
+case 134:
                 var10 = var9;
                 var9 = var10.getDefaultKeyboardEventShape;
                 var6 = var9.bind(var10)(var5, var8);
@@ -2433,10 +2435,10 @@ case 113:
                 var7 = var6;
                 var8 = var2 != var6;
                 var6 = null;
-                if(!var8) { _fun0051_ip = 125; continue _fun0051 }
+                if(!var8) { _fun0051_ip = 148; continue _fun0051 }
 case 85:
                 var6 = var7;
-case 125:
+case 148:
                 var4 = var6;
                 if(!(var2 != var6)) { _fun0051_ip = 149; continue _fun0051 }
 case 95:
@@ -2458,14 +2460,14 @@ case 95:
                 var6 = var6.code;
                 var3['code'] = var6;
                 var3 = var4.bind(var5)(var3);
-case 126: // try_end0
+case 150: // try_end0
                 return var3;
 case 149:
                 return var2;
-case 150: // catch_target0
+case 127: // catch_target0
                 CatchBlockStart(arg_register=2);
                 return var2;
-case 148:
+case 147:
                 return var1;
             }
         };

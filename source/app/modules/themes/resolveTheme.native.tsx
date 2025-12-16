@@ -40,13 +40,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var7;
     var4 = var4.SystemThemeState;
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/themes/resolveTheme.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function resolveTheme(arg1, arg2, arg3) {
+    var2 = function resolveTheme(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -88,56 +88,44 @@ case 9:
 case 8:
             if(!(var7 == var4)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var6 = 6;
-            var6 = var10[var6];
-            var8 = var8.bind(var9)(var6);
-            var6 = var8.shouldIgnoreThemeChange;
-            var6 = var6.bind(var8)();
-            if(var6) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
             var6 = _closure1_slot5;
             var6 = var6.settings;
             var8 = var6.appearance;
             var10 = var7 == var8;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var10) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = var8.theme;
-case 14:
-            if(!(var7 == var6)) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+case 12:
+            if(!(var7 == var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var7 = 7;
+            var7 = 6;
             var7 = var10[var7];
             var7 = var8.bind(var9)(var7);
             var7 = var7.Theme;
             var6 = var7.UNSET;
-case 16:
+case 14:
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var7 = 7;
+            var7 = 6;
             var7 = var10[var7];
             var7 = var8.bind(var9)(var7);
             var7 = var7.Theme;
             var7 = var7.UNSET;
-            if(!(var6 === var7)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!(var6 === var7)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var7 = _closure1_slot7;
             var7 = var7.NO_PREFERENCE;
-            if(!(var3 === var7)) { _fun0001_ip = 20; continue _fun0001 }
-case 18:
+            if(!(var3 === var7)) { _fun0001_ip = 18; continue _fun0001 }
+case 16:
             var5 = _closure1_slot6;
             var5 = var5[var6];
-            _fun0001_ip = 21; continue _fun0001;
-case 20:
+            _fun0001_ip = 19; continue _fun0001;
+case 18:
             var5 = var2[var3];
-case 21:
-            return var5;
-case 12:
-            var5 = arg3;
+case 19:
             return var5;
 case 10:
             return var4;

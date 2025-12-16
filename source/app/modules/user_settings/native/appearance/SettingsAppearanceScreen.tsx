@@ -7,134 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
-    var1 = function getAppearanceSettings(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var1 = arg1;
-            var2 = {};
-            var7 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var9 = 9;
-            var5 = var4[var9];
-            var8 = undefined;
-            var5 = var7.bind(var8)(var5);
-            var6 = var5.intl;
-            var5 = var6.string;
-            var4 = var4[var9];
-            var4 = var7.bind(var8)(var4);
-            var4 = var4.t;
-            var4 = var4.Ksh3ik;
-            var4 = var5.bind(var6)(var4);
-            var2['label'] = var4;
-            var4 = _closure1_slot7;
-            var5 = var4.APPEARANCE_THEME_PICKER;
-            var4 = new Array(2);
-            var4[0] = var5;
-            var5 = _closure1_slot7;
-            var5 = var5.SYNC_THEME;
-            var4[1] = var5;
-            var2['settings'] = var4;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var5 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var4 = var12[var9];
-            var4 = var5.bind(var8)(var4);
-            var7 = var4.intl;
-            var6 = var7.format;
-            var11 = _closure1_slot1;
-            var4 = 12;
-            var4 = var12[var4];
-            var4 = var11.bind(var8)(var4);
-            var5 = var4.v15Ipv;
-            var4 = {};
-            var10 = 13;
-            var10 = var12[var10];
-            var12 = var11.bind(var8)(var10);
-            var11 = var12.getArticleURL;
-            var10 = _closure1_slot8;
-            var10 = var10.CUSTOM_THEMES;
-            var10 = var11.bind(var12)(var10);
-            var4['helpdeskArticle'] = var10;
-            var1 = var6.bind(var7)(var5, var4);
-case 2:
-            var2['subLabel'] = var1;
-            var1 = new Array(6);
-            var1[0] = var2;
-            var2 = {};
-            var7 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var5 = var4[var9];
-            var5 = var7.bind(var8)(var5);
-            var10 = var5.intl;
-            var6 = var10.string;
-            var5 = var4[var9];
-            var5 = var7.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.i19n5L;
-            var5 = var6.bind(var10)(var5);
-            var2['label'] = var5;
-            var5 = _closure1_slot7;
-            var6 = var5.ANDROID_FONT_SCALE;
-            var5 = new Array(2);
-            var5[0] = var6;
-            var6 = _closure1_slot7;
-            var6 = var6.ANDROID_CLASSIC_CHAT_FONT_SCALE;
-            var5[1] = var6;
-            var2['settings'] = var5;
-            var1[1] = var2;
-            var2 = {};
-            var5 = _closure1_slot7;
-            var6 = var5.DMS_MESSAGE_PREVIEWS;
-            var5 = new Array(1);
-            var5[0] = var6;
-            var2['settings'] = var5;
-            var1[2] = var2;
-            var2 = {};
-            var5 = var4[var9];
-            var5 = var7.bind(var8)(var5);
-            var10 = var5.intl;
-            var6 = var10.string;
-            var5 = var4[var9];
-            var5 = var7.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.lEde7i;
-            var5 = var6.bind(var10)(var5);
-            var2['label'] = var5;
-            var5 = _closure1_slot7;
-            var6 = var5.DMS_HAPPENING_NOW_CARDS;
-            var5 = new Array(1);
-            var5[0] = var6;
-            var2['settings'] = var5;
-            var1[3] = var2;
-            var2 = {};
-            var5 = var4[var9];
-            var5 = var7.bind(var8)(var5);
-            var6 = var5.intl;
-            var5 = var6.string;
-            var4 = var4[var9];
-            var4 = var7.bind(var8)(var4);
-            var4 = var4.t;
-            var4 = var4.5h0QOP;
-            var4 = var5.bind(var6)(var4);
-            var2['label'] = var4;
-            var4 = _closure1_slot7;
-            var5 = var4.EXACT_SEARCH_RESULT_COUNTS;
-            var4 = new Array(1);
-            var4[0] = var5;
-            var2['settings'] = var4;
-            var1[4] = var2;
-            var2 = {};
-            var3 = _closure1_slot7;
-            var4 = var3.TIMESTAMP_HOUR_CYCLE;
-            var3 = new Array(1);
-            var3[0] = var4;
-            var2['settings'] = var3;
-            var1[5] = var2;
-            return var1;
-        }
-    };
-    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -168,237 +40,289 @@ case 2:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.HelpdeskArticles;
-    var _closure1_slot8 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var2 = 11;
+        var2 = var6[var2];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var7 = var2.SavedCustomThemesExperiment;
+        var5 = var7.useConfig;
+        var2 = {};
+        var8 = 'SettingsAppearanceScreen';
+        var2['location'] = var8;
+        var2 = var5.bind(var7)(var2);
+        var2 = var2.enabled;
+        var _closure2_slot0 = var2;
+        var2 = _closure1_slot1;
+        var5 = 12;
+        var5 = var6[var5];
+        var7 = var2.bind(var4)(var5);
+        var5 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
+                var1 = _closure2_slot0;
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var4 = _closure1_slot4;
+                var3 = var4.shouldSync;
+                var2 = 'appearance';
+                var1 = var3.bind(var4)(var2);
+case 2:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 13;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.fetchUserCustomThemes;
+                var1 = var1.bind(var2)();
+case 4:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5 = var7.bind(var4)(var5);
+        var5 = function useFontScalingData() {
+            var3 = _closure1_slot6;
+            var1 = undefined;
+            var3 = var3.bind(var1)();
+            var _closure3_slot0 = var3;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 14;
-            var2 = var7[var2];
-            var4 = undefined;
-            var2 = var6.bind(var4)(var2);
-            var10 = var2.ClientThemeColorPickerExperiment;
-            var9 = var10.useExperiment;
-            var5 = {};
-            var8 = 'SettingsAppearanceScreen';
-            var5['location'] = var8;
-            var2 = {};
-            var11 = false;
-            var2['autoTrackExposure'] = var11;
-            var2 = var9.bind(var10)(var5, var2);
-            var9 = var2.enabled;
-            var2 = var2.mobileRenderingEnabled;
-            var5 = 15;
+            var5 = 5;
             var5 = var7[var5];
-            var5 = var6.bind(var4)(var5);
-            var7 = var5.SavedCustomThemesExperiment;
-            var6 = var7.useConfig;
-            var5 = {};
-            var5['location'] = var8;
-            var5 = var6.bind(var7)(var5);
-            var5 = var5.enabled;
-            var _closure2_slot0 = var5;
-            if(!var9) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var9 = !var2;
-case 4:
-            var _closure2_slot1 = var9;
-            var2 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var5 = 16;
-            var5 = var6[var5];
-            var7 = var2.bind(var4)(var5);
-            var5 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.useNativeStackNavigation;
+            var7 = var5.bind(var6)();
+            var _closure3_slot1 = var7;
+            var5 = _closure1_slot3;
+            var6 = var5.useEffect;
+            var4 = new Array(5);
+            var4[0] = var7;
+            var7 = var3.fontScale;
+            var4[1] = var7;
+            var7 = var3.isClassicChatFontScaleEnabled;
+            var4[2] = var7;
+            var7 = var3.persistedFontScale;
+            var4[3] = var7;
+            var3 = var3.persistedIsClassicChatFontScaleEnabled;
+            var4[4] = var3;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot0;
-                    if(!var1) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-                    var4 = _closure1_slot4;
-                    var3 = var4.shouldSync;
-                    var2 = 'appearance';
-                    var1 = var3.bind(var4)(var2);
-case 6:
-                    if(!var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 6;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var1 = var2.fetchUserCustomThemes;
-                    var1 = var1.bind(var2)();
-case 8:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var5 = var7.bind(var4)(var5);
-            var5 = function useFontScalingData() {
-                var3 = _closure1_slot6;
-                var1 = undefined;
-                var3 = var3.bind(var1)();
-                var _closure3_slot0 = var3;
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var5 = 6;
-                var5 = var7[var5];
-                var6 = var6.bind(var1)(var5);
-                var5 = var6.useNativeStackNavigation;
-                var7 = var5.bind(var6)();
-                var _closure3_slot1 = var7;
-                var5 = _closure1_slot3;
-                var6 = var5.useEffect;
-                var4 = new Array(5);
-                var4[0] = var7;
-                var7 = var3.fontScale;
-                var4[1] = var7;
-                var7 = var3.isClassicChatFontScaleEnabled;
-                var4[2] = var7;
-                var7 = var3.persistedFontScale;
-                var4[3] = var7;
-                var3 = var3.persistedIsClassicChatFontScaleEnabled;
-                var4[4] = var3;
-                var3 = function() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 7;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var3 = var3.bind(var1)(var2);
-                        var2 = var3.isAndroid;
-                        var2 = var2.bind(var3)();
-                        if(!var2) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
-                        var3 = _closure3_slot0;
-                        var4 = var3.persistedFontScale;
-                        var3 = var3.fontScale;
-                        if(!(var4 === var3)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-                        var3 = _closure3_slot0;
-                        var4 = var3.persistedIsClassicChatFontScaleEnabled;
-                        var3 = var3.isClassicChatFontScaleEnabled;
-                        if(!(var4 === var3)) { _fun0004_ip = 12; continue _fun0004 }
-case 14:
-                        var6 = _closure3_slot1;
-                        var4 = var6.setOptions;
-                        var3 = {};
-                        var3['headerRight'] = var1;
-                        var3 = var4.bind(var6)(var3);
-                        _fun0004_ip = 10; continue _fun0004;
-case 12:
-                        var4 = _closure3_slot1;
-                        var3 = var4.setOptions;
-                        var2 = {};
-                        var10 = _closure1_slot0;
-                        var11 = _closure1_slot2;
-                        var5 = 8;
-                        var5 = var11[var5];
-                        var8 = var10.bind(var1)(var5);
-                        var7 = var8.getRenderHeaderTextButton;
-                        var5 = 9;
-                        var6 = var11[var5];
-                        var6 = var10.bind(var1)(var6);
-                        var9 = var6.intl;
-                        var6 = var9.string;
-                        var5 = var11[var5];
-                        var5 = var10.bind(var1)(var5);
-                        var5 = var5.t;
-                        var5 = var5.R3BPH+;
-                        var6 = var6.bind(var9)(var5);
-                        var5 = function() {
-                            var3 = _closure1_slot1;
-                            var2 = _closure1_slot2;
-                            var1 = 10;
-                            var2 = var2[var1];
-                            var1 = undefined;
-                            var4 = var3.bind(var1)(var2);
-                            var3 = var4.setCustomFontScale;
-                            var1 = _closure3_slot0;
-                            var2 = var1.fontScale;
-                            var1 = var1.isClassicChatFontScaleEnabled;
-                            var1 = var3.bind(var4)(var2, var1);
-                            return var1;
-                        };
-                        var5 = var7.bind(var8)(var6, var5);
-                        var2['headerRight'] = var5;
-                        var2 = var3.bind(var4)(var2);
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.isAndroid;
+                    var2 = var2.bind(var3)();
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var3 = _closure3_slot0;
+                    var4 = var3.persistedFontScale;
+                    var3 = var3.fontScale;
+                    if(!(var4 === var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                    var3 = _closure3_slot0;
+                    var4 = var3.persistedIsClassicChatFontScaleEnabled;
+                    var3 = var3.isClassicChatFontScaleEnabled;
+                    if(!(var4 === var3)) { _fun0002_ip = 8; continue _fun0002 }
 case 10:
-                        return var1;
-                    }
-                };
-                var3 = var6.bind(var5)(var3, var4);
-                var4 = var5.useEffect;
-                var3 = function() {
-                    var1 = function() {
-                        var3 = _closure1_slot0;
+                    var6 = _closure3_slot1;
+                    var4 = var6.setOptions;
+                    var3 = {};
+                    var3['headerRight'] = var1;
+                    var3 = var4.bind(var6)(var3);
+                    _fun0002_ip = 6; continue _fun0002;
+case 8:
+                    var4 = _closure3_slot1;
+                    var3 = var4.setOptions;
+                    var2 = {};
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var5 = 7;
+                    var5 = var11[var5];
+                    var8 = var10.bind(var1)(var5);
+                    var7 = var8.getRenderHeaderTextButton;
+                    var5 = 8;
+                    var6 = var11[var5];
+                    var6 = var10.bind(var1)(var6);
+                    var9 = var6.intl;
+                    var6 = var9.string;
+                    var5 = var11[var5];
+                    var5 = var10.bind(var1)(var5);
+                    var5 = var5.t;
+                    var5 = var5.R3BPH+;
+                    var6 = var6.bind(var9)(var5);
+                    var5 = function() {
+                        var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 9;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
-                        var3 = var4.batchUpdates;
-                        var2 = function() {
-                            var3 = _closure1_slot6;
-                            var2 = var3.setState;
-                            var1 = _closure1_slot5;
-                            var1 = var2.bind(var3)(var1);
-                            return var1;
-                        };
-                        var2 = var3.bind(var4)(var2);
+                        var3 = var4.setCustomFontScale;
+                        var1 = _closure3_slot0;
+                        var2 = var1.fontScale;
+                        var1 = var1.isClassicChatFontScaleEnabled;
+                        var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
+                    var5 = var7.bind(var8)(var6, var5);
+                    var2['headerRight'] = var5;
+                    var2 = var3.bind(var4)(var2);
+case 6:
+                    return var1;
+                }
+            };
+            var3 = var6.bind(var5)(var3, var4);
+            var4 = var5.useEffect;
+            var3 = function() {
+                var1 = function() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 10;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.batchUpdates;
+                    var2 = function() {
+                        var3 = _closure1_slot6;
+                        var2 = var3.setState;
+                        var1 = _closure1_slot5;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var2 = new Array(0);
-                var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var5 = var5.bind(var4)();
-            var8 = _closure1_slot3;
-            var7 = var8.useMemo;
-            var5 = new Array(1);
-            var5[0] = var9;
-            var3 = function() {
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 18;
-                var1 = var3[var1];
-                var6 = undefined;
-                var3 = var2.bind(var6)(var1);
-                var2 = var3.createList;
-                var1 = {};
-                var5 = _closure1_slot10;
-                var4 = _closure2_slot1;
-                var4 = var5.bind(var6)(var4);
-                var1['sections'] = var4;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var5 = var7.bind(var8)(var3, var5);
-            var3 = _closure1_slot9;
-            var1 = 19;
-            var1 = var6[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['node'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var2 = new Array(0);
+            var2 = var4.bind(var5)(var3, var2);
             return var1;
-        }
+        };
+        var5 = var5.bind(var4)();
+        var8 = _closure1_slot3;
+        var7 = var8.useMemo;
+        var5 = function() {
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 14;
+            var1 = var12[var1];
+            var10 = undefined;
+            var3 = var11.bind(var10)(var1);
+            var2 = var3.createList;
+            var1 = {};
+            var5 = {};
+            var7 = 8;
+            var6 = var12[var7];
+            var6 = var11.bind(var10)(var6);
+            var9 = var6.intl;
+            var8 = var9.string;
+            var6 = var12[var7];
+            var6 = var11.bind(var10)(var6);
+            var6 = var6.t;
+            var6 = var6.Ksh3ik;
+            var6 = var8.bind(var9)(var6);
+            var5['label'] = var6;
+            var6 = _closure1_slot7;
+            var8 = var6.APPEARANCE_THEME_PICKER;
+            var4 = new Array(2);
+            var4[0] = var8;
+            var8 = var6.SYNC_THEME;
+            var4[1] = var8;
+            var5['settings'] = var4;
+            var4 = new Array(6);
+            var4[0] = var5;
+            var5 = {};
+            var8 = var12[var7];
+            var8 = var11.bind(var10)(var8);
+            var13 = var8.intl;
+            var9 = var13.string;
+            var8 = var12[var7];
+            var8 = var11.bind(var10)(var8);
+            var8 = var8.t;
+            var8 = var8.i19n5L;
+            var8 = var9.bind(var13)(var8);
+            var5['label'] = var8;
+            var9 = var6.ANDROID_FONT_SCALE;
+            var8 = new Array(2);
+            var8[0] = var9;
+            var9 = var6.ANDROID_CLASSIC_CHAT_FONT_SCALE;
+            var8[1] = var9;
+            var5['settings'] = var8;
+            var4[1] = var5;
+            var5 = {};
+            var9 = var6.DMS_MESSAGE_PREVIEWS;
+            var8 = new Array(1);
+            var8[0] = var9;
+            var5['settings'] = var8;
+            var4[2] = var5;
+            var5 = {};
+            var8 = var12[var7];
+            var8 = var11.bind(var10)(var8);
+            var13 = var8.intl;
+            var9 = var13.string;
+            var8 = var12[var7];
+            var8 = var11.bind(var10)(var8);
+            var8 = var8.t;
+            var8 = var8.lEde7i;
+            var8 = var9.bind(var13)(var8);
+            var5['label'] = var8;
+            var9 = var6.DMS_HAPPENING_NOW_CARDS;
+            var8 = new Array(1);
+            var8[0] = var9;
+            var5['settings'] = var8;
+            var4[3] = var5;
+            var5 = {};
+            var8 = var12[var7];
+            var8 = var11.bind(var10)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var12[var7];
+            var7 = var11.bind(var10)(var7);
+            var7 = var7.t;
+            var7 = var7.5h0QOP;
+            var7 = var8.bind(var9)(var7);
+            var5['label'] = var7;
+            var8 = var6.EXACT_SEARCH_RESULT_COUNTS;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var5['settings'] = var7;
+            var4[4] = var5;
+            var5 = {};
+            var7 = var6.TIMESTAMP_HOUR_CYCLE;
+            var6 = new Array(1);
+            var6[0] = var7;
+            var5['settings'] = var6;
+            var4[5] = var5;
+            var1['sections'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var3 = new Array(0);
+        var5 = var7.bind(var8)(var5, var3);
+        var3 = _closure1_slot8;
+        var1 = 15;
+        var1 = var6[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = {};
+        var1['node'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 20;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

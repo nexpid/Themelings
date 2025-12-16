@@ -966,7 +966,7 @@ case 66:
             var13 = 4;
             var16 = var13;
             if(!var9) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
+case 18:
             var16 = 2;
 case 68:
             var17 = _closure1_slot0;
@@ -980,12 +980,12 @@ case 68:
             var9 = var9 + var16;
             var16 = var4 == var1;
             var1 = null;
-            if(var16) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
+            if(var16) { _fun0009_ip = 69; continue _fun0009 }
+case 70:
             var3 = var4 == var3;
             var1 = null;
-            if(var3) { _fun0009_ip = 70; continue _fun0009 }
-case 72:
+            if(var3) { _fun0009_ip = 69; continue _fun0009 }
+case 71:
             var4 = _closure1_slot12;
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -1013,7 +1013,7 @@ case 72:
             var2['badgeSize'] = var7;
             var2['textVariant'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 70:
+case 69:
             return var1;
         }
     };
@@ -1130,16 +1130,16 @@ case 70:
 case 0:
             var3 = arg1;
             var1 = undefined;
-            if(!var3) { _fun0010_ip = 73; continue _fun0010 }
-case 74:
+            if(!var3) { _fun0010_ip = 72; continue _fun0010 }
+case 73:
             var2 = _closure1_slot17;
             var1 = var2[var3];
-case 73:
+case 72:
             var2 = null;
-            if(!(var2 == var1)) { _fun0010_ip = 75; continue _fun0010 }
-case 76:
-            var1 = _closure1_slot16;
+            if(!(var2 == var1)) { _fun0010_ip = 74; continue _fun0010 }
 case 75:
+            var1 = _closure1_slot16;
+case 74:
             return var1;
         }
     };
@@ -1202,15 +1202,15 @@ case 0:
             var5['guildId'] = var25;
             var28 = '';
             var25 = var26;
-            if(!(var28 !== var27)) { _fun0011_ip = 77; continue _fun0011 }
-case 78:
-            var28 = null;
-            if(!(var28 != var27)) { _fun0011_ip = 79; continue _fun0011 }
-case 80:
-            var26 = var27;
-case 79:
-            var25 = var26;
+            if(!(var28 !== var27)) { _fun0011_ip = 76; continue _fun0011 }
 case 77:
+            var28 = null;
+            if(!(var28 != var27)) { _fun0011_ip = 78; continue _fun0011 }
+case 79:
+            var26 = var27;
+case 78:
+            var25 = var26;
+case 76:
             var5['name'] = var25;
             var5['themeType'] = var14;
             var5['onPress'] = var23;
@@ -1230,10 +1230,10 @@ case 77:
             var9 = {};
             var25 = var17.isProvisional;
             var23 = null;
-            if(var25) { _fun0011_ip = 81; continue _fun0011 }
-case 82:
-            var23 = var24;
+            if(var25) { _fun0011_ip = 80; continue _fun0011 }
 case 81:
+            var23 = var24;
+case 80:
             var9['userTag'] = var23;
             var9['pronouns'] = var22;
             var9['themeType'] = var14;

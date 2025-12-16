@@ -143,15 +143,15 @@ case 0:
             var4 = _closure1_slot3;
             var2 = var4.getPendingSettings;
             var2 = var2.bind(var4)();
-            var14 = null;
-            if(!(var14 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+            var15 = null;
+            if(!(var15 != var2)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 2;
             var4 = var6[var4];
-            var13 = undefined;
-            var6 = var5.bind(var13)(var4);
+            var14 = undefined;
+            var6 = var5.bind(var14)(var4);
             var5 = var6.dispatch;
             var4 = {};
             var7 = 'CREATE_INVITE_MODAL_GENERATE_INVITE';
@@ -159,47 +159,49 @@ case 5:
             var4 = var5.bind(var6)(var4);
             var6 = var2.channelId;
             var _closure2_slot0 = var6;
-            var15 = var2.maxAge;
-            var12 = var2.maxUses;
-            var11 = var2.temporary;
-            var9 = var2.targetType;
-            var8 = var2.targetUserId;
-            var7 = var2.targetApplicationId;
-            var2 = var2.flags;
+            var16 = var2.maxAge;
+            var13 = var2.maxUses;
+            var12 = var2.temporary;
+            var10 = var2.targetType;
+            var9 = var2.targetUserId;
+            var8 = var2.targetApplicationId;
+            var7 = var2.flags;
+            var2 = var2.roleIds;
             var5 = _closure1_slot3;
             var4 = var5.getInvite;
             var4 = var4.bind(var5)();
             var5 = arg2;
-            var10 = null;
+            var11 = null;
             if(!var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var5 = var14 != var4;
-            var10 = null;
+            var5 = var15 != var4;
+            var11 = null;
             if(!var5) { _fun0002_ip = 6; continue _fun0002 }
 case 8:
-            var10 = var4.code;
+            var11 = var4.code;
 case 6:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
             var3 = var5[var3];
-            var5 = var4.bind(var13)(var3);
+            var5 = var4.bind(var14)(var3);
             var4 = var5.createInvite;
             var3 = {};
-            var3['temporary'] = var11;
-            var3['validate'] = var10;
-            var10 = global;
-            var14 = var10.parseInt;
-            var11 = 10;
-            var14 = var14.bind(var13)(var15, var11);
-            var3['max_age'] = var14;
-            var10 = var10.parseInt;
-            var10 = var10.bind(var13)(var12, var11);
-            var3['max_uses'] = var10;
-            var3['target_type'] = var9;
-            var3['target_user_id'] = var8;
-            var3['target_application_id'] = var7;
-            var3['flags'] = var2;
+            var3['temporary'] = var12;
+            var3['validate'] = var11;
+            var11 = global;
+            var15 = var11.parseInt;
+            var12 = 10;
+            var15 = var15.bind(var14)(var16, var12);
+            var3['max_age'] = var15;
+            var11 = var11.parseInt;
+            var11 = var11.bind(var14)(var13, var12);
+            var3['max_uses'] = var11;
+            var3['target_type'] = var10;
+            var3['target_user_id'] = var9;
+            var3['target_application_id'] = var8;
+            var3['flags'] = var7;
+            var3['role_ids'] = var2;
             var2 = arg1;
             var4 = var4.bind(var5)(var6, var3, var2);
             var3 = var4.then;

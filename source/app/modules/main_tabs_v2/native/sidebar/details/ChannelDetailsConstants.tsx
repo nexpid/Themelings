@@ -25,6 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['THREADS'] = var9;
     var4 = 'settings';
     var5['SETTINGS'] = var4;
+    var2 = 'pinned-messages';
+    var5['PINNED_MESSAGES'] = var2;
     var2 = {};
     var11 = 'search';
     var2['SEARCH'] = var11;

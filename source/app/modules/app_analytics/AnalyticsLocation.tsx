@@ -418,6 +418,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_MARKETING_FOOTER'] = var1;
     var1 = 'premium marketing gift section';
     var2['PREMIUM_MARKETING_GIFT_SECTION'] = var1;
+    var1 = 'premium marketing tenure rewards section';
+    var2['PREMIUM_MARKETING_TENURE_REWARDS_SECTION'] = var1;
     var1 = 'premium marketing reverse trial banner';
     var2['PREMIUM_MARKETING_REVERSE_TRIAL_BANNER'] = var1;
     var1 = 'premium marketing reward selection modal';

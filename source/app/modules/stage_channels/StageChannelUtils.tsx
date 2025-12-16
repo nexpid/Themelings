@@ -338,7 +338,7 @@ case 22:
         }
     };
     var3['getRemoveModeratorTooltipHint'] = var4;
-    var2 = function getStageChannelMetadata(arg1) {
+    var4 = function getStageChannelMetadata(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var9 = arg1;
@@ -392,6 +392,157 @@ case 38:
             return var1;
         }
     };
-    var3['getStageChannelMetadata'] = var2;
+    var3['getStageChannelMetadata'] = var4;
+    var2 = function getParticipantNamesText(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var3 = arg2;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var8 = function getParticipantName(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot3;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.getName;
+                var1 = _closure2_slot0;
+                var2 = var1.getGuildId;
+                var3 = var2.bind(var1)();
+                var2 = var1.id;
+                var1 = arg1;
+                var1 = var1.user;
+                var1 = var4.bind(var5)(var3, var2, var1);
+                return var1;
+            };
+            var2 = global;
+            var2 = var2.Set;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var14 = var4;
+            var2 = new var14[var2](var13);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var _closure2_slot1 = var2;
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var1 = arg1;
+                    var1 = var1.user;
+                    var4 = var1.id;
+                    var3 = _closure2_slot1;
+                    var1 = var3.has;
+                    var1 = var1.bind(var3)(var4);
+                    var1 = !var1;
+                    if(!var1) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
+                    var3 = _closure2_slot1;
+                    var2 = var3.add;
+                    var2 = var2.bind(var3)(var4);
+                    var1 = true;
+case 40:
+                    return var1;
+                }
+            };
+            var9 = var2.bind(var3)(var1);
+            var1 = var9.length;
+            var6 = 0;
+            if(!(var6 !== var1)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
+            var1 = var9.length;
+            var7 = 1;
+            if(!(var7 !== var1)) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
+            var1 = var9.length;
+            var10 = 2;
+            if(!(var10 !== var1)) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot3;
+            var1 = 7;
+            var3 = var5[var1];
+            var11 = undefined;
+            var3 = var2.bind(var11)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var5[var1];
+            var1 = var2.bind(var11)(var1);
+            var1 = var1.t;
+            var2 = var1.3AqFaG;
+            var1 = {};
+            var5 = var9[var6];
+            var5 = var8.bind(var11)(var5);
+            var1['a'] = var5;
+            var5 = var9[var7];
+            var5 = var8.bind(var11)(var5);
+            var1['b'] = var5;
+            var5 = var9.length;
+            var5 = var5 - var10;
+            var1['n'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            _fun0007_ip = 48; continue _fun0007;
+case 46:
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot3;
+            var2 = 7;
+            var4 = var11[var2];
+            var10 = undefined;
+            var4 = var3.bind(var10)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var11[var2];
+            var2 = var3.bind(var10)(var2);
+            var2 = var2.t;
+            var3 = var2.zBcKoA;
+            var2 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var10)(var11);
+            var2['a'] = var11;
+            var7 = var9[var7];
+            var7 = var8.bind(var10)(var7);
+            var2['b'] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+case 48:
+            _fun0007_ip = 49; continue _fun0007;
+case 44:
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot3;
+            var2 = 7;
+            var4 = var10[var2];
+            var7 = undefined;
+            var4 = var3.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var10[var2];
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.t;
+            var3 = var2.EQwZlN;
+            var2 = {};
+            var6 = var9[var6];
+            var6 = var8.bind(var7)(var6);
+            var2['a'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 49:
+            _fun0007_ip = 50; continue _fun0007;
+case 42:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 7;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.FUVhyC;
+            var1 = var3.bind(var4)(var2);
+case 50:
+            return var1;
+        }
+    };
+    var3['getParticipantNamesText'] = var2;
     return var1;
 })();

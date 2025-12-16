@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.authenticatePasskey;
     var5[var9] = var8;
     var _closure1_slot8 = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -270,22 +270,31 @@ case 4:
                 var3 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                        var4 = arg1;
+                        var3 = arg1;
                         var5 = _closure1_slot0;
-                        var3 = _closure1_slot2;
+                        var4 = _closure1_slot2;
                         var1 = 9;
-                        var3 = var3[var1];
+                        var4 = var4[var1];
                         var1 = undefined;
-                        var3 = var5.bind(var1)(var3);
-                        var3 = var3.HTTPResponseError;
-                        var5 = var4 instanceof var3;
-                        var3 = _closure2_slot2;
-                        if(var5) { _fun0002_ip = 5; continue _fun0002 }
+                        var4 = var5.bind(var1)(var4);
+                        var4 = var4.HTTPResponseError;
+                        var4 = var3 instanceof var4;
+                        if(var4) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-                        var4 = var4.message;
-                        var4 = var3.bind(var1)(var4);
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var4 = 10;
+                        var4 = var6[var4];
+                        var6 = var5.bind(var1)(var4);
+                        var5 = var6.captureWebAuthnException;
+                        var4 = {};
+                        var4 = var5.bind(var6)(var3, var4);
+                        var4 = _closure2_slot2;
+                        var3 = var3.message;
+                        var3 = var4.bind(var1)(var3);
                         _fun0002_ip = 7; continue _fun0002;
 case 5:
+                        var3 = _closure2_slot2;
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var2 = 6;
@@ -319,7 +328,7 @@ case 7:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -346,7 +355,7 @@ case 7:
             var14 = var19.bind(var20)(var14);
             var1['subtitle'] = var14;
             var20 = _closure1_slot5;
-            var14 = 11;
+            var14 = 12;
             var14 = var6[var14];
             var14 = var9.bind(var4)(var14);
             var19 = var14.KeyImage;
@@ -376,7 +385,7 @@ case 8:
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var6 = 12;
+            var6 = 13;
             var6 = var14[var6];
             var9 = var9.bind(var4)(var6);
             var6 = {};

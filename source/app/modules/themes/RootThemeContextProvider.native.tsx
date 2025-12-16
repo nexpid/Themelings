@@ -20,26 +20,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
-    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeTypes;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot7 = var4;
-    var4 = 11;
+    var _closure1_slot6 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -50,58 +49,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var5 = var1.children;
-            var10 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 5;
-            var3 = var8[var3];
+            var2 = 5;
+            var2 = var8[var2];
             var4 = undefined;
-            var9 = var10.bind(var4)(var3);
-            var7 = var9.useStateFromStoresObject;
-            var3 = _closure1_slot4;
-            var6 = new Array(2);
-            var6[0] = var3;
-            var3 = _closure1_slot5;
-            var6[1] = var3;
-            var3 = function() {
+            var7 = var3.bind(var4)(var2);
+            var6 = var7.useStateFromStoresObject;
+            var2 = _closure1_slot3;
+            var3 = new Array(2);
+            var3[0] = var2;
+            var2 = _closure1_slot4;
+            var3[1] = var2;
+            var2 = function() {
                 var1 = {};
-                var3 = _closure1_slot4;
+                var3 = _closure1_slot3;
                 var4 = var3.saturation;
                 var1['saturation'] = var4;
                 var3 = var3.contrast;
                 var1['contrast'] = var3;
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot4;
                 var2 = var2.theme;
                 var1['theme'] = var2;
                 return var1;
             };
-            var3 = var7.bind(var9)(var6, var3);
-            var7 = var3.saturation;
-            var6 = var3.contrast;
-            var9 = var3.theme;
-            var3 = 6;
-            var3 = var8[var3];
-            var11 = var10.bind(var4)(var3);
-            var10 = var11.useIsCustomThemeMobileRenderingEnabled;
-            var3 = 'RootThemeContextProvider';
-            var12 = var10.bind(var11)(var3);
-            var11 = _closure1_slot3;
-            var10 = var11.useEffect;
-            var3 = new Array(1);
-            var3[0] = var12;
-            var2 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 7;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.refreshTheme;
-                var2 = var2.bind(var3)();
-                return var1;
-            };
-            var2 = var10.bind(var11)(var2, var3);
+            var2 = var6.bind(var7)(var3, var2);
+            var7 = var2.saturation;
+            var6 = var2.contrast;
+            var9 = var2.theme;
             var3 = _closure1_slot1;
-            var2 = 8;
+            var2 = 6;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -112,13 +89,13 @@ case 0:
             if(!var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var2.theme;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var2 = var2.LIGHT;
             if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 9;
+            var2 = 7;
             var3 = var13[var2];
             var8 = var10.bind(var4)(var3);
             var3 = var8.setThemeFlag;
@@ -131,7 +108,7 @@ case 5:
 case 4:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var3 = 9;
+            var3 = 7;
             var8 = var14[var3];
             var10 = var13.bind(var4)(var8);
             var8 = var10.setThemeFlag;
@@ -149,7 +126,7 @@ case 2:
 case 8:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var3 = 9;
+            var3 = 7;
             var8 = var14[var3];
             var10 = var13.bind(var4)(var8);
             var8 = var10.setThemeFlag;
@@ -164,7 +141,7 @@ case 7:
 case 10:
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var14 = 9;
+            var14 = 7;
             var3 = var3[var14];
             var10 = var10.bind(var4)(var3);
             var3 = var10.setThemeFlag;
@@ -187,10 +164,10 @@ case 11:
 case 13:
             var8 = var3.bind(var10)(var11, var2);
 case 9:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 10;
+            var1 = 8;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.RootThemeContextProvider;

@@ -835,7 +835,7 @@ case 84:
         }
     };
     var _closure1_slot12 = var6;
-    var6 = 19;
+    var6 = 18;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -857,24 +857,24 @@ case 85:
             var1 = 0;
             var3['overlayOpacity'] = var1;
             var3['gradientOverride'] = var1;
-            var22 = {};
-            var21 = var4;
-            var20 = var3;
-            var11 = copyDataProperties(var22, var21, var20);
+            var21 = {};
+            var20 = var4;
+            var19 = var3;
+            var11 = copyDataProperties(var21, var20, var19);
             var3 = _closure1_slot12;
             var3 = var3.bind(var6)();
             var5 = var3.styles;
             var4 = var3.overlayColor;
             var3 = var11.withOverlay;
-            var9 = _closure1_slot0;
+            var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var8 = 14;
             var8 = var13[var8];
-            var15 = var9.bind(var6)(var8);
+            var15 = var12.bind(var6)(var8);
             var14 = var15.useStateFromStoresObject;
             var8 = _closure1_slot5;
-            var12 = new Array(1);
-            var12[0] = var8;
+            var9 = new Array(1);
+            var9[0] = var8;
             var8 = function() {
                 var1 = {};
                 var2 = _closure1_slot5;
@@ -882,150 +882,139 @@ case 85:
                 var1['preset'] = var2;
                 return var1;
             };
-            var8 = var14.bind(var15)(var12, var8);
+            var8 = var14.bind(var15)(var9, var8);
             var16 = var8.preset;
-            var12 = _closure1_slot1;
+            var9 = _closure1_slot1;
             var8 = 15;
             var8 = var13[var8];
-            var8 = var12.bind(var6)(var8);
-            var12 = var8.bind(var6)();
+            var8 = var9.bind(var6)(var8);
+            var9 = var8.bind(var6)();
             var8 = 16;
             var8 = var13[var8];
-            var14 = var9.bind(var6)(var8);
-            var8 = var14.useCustomThemeDisplaySettings;
-            var14 = var8.bind(var14)();
-            var8 = 17;
-            var8 = var13[var8];
-            var13 = var9.bind(var6)(var8);
-            var9 = var13.useIsCustomThemeMobileRenderingEnabled;
-            var8 = 'ThemedGradient';
-            var13 = var9.bind(var13)(var8);
+            var12 = var12.bind(var6)(var8);
+            var8 = var12.useCustomThemeDisplaySettings;
+            var14 = var8.bind(var12)();
             var8 = var6 !== var14;
-            var9 = var8;
-            if(!var9) { _fun0010_ip = 87; continue _fun0010 }
+            if(!(var2 == var10)) { _fun0010_ip = 87; continue _fun0010 }
 case 88:
-            var9 = var13;
-case 87:
-            if(!(var2 == var10)) { _fun0010_ip = 89; continue _fun0010 }
-case 90:
-            if(var12) { _fun0010_ip = 89; continue _fun0010 }
-case 91:
-            if(var9) { _fun0010_ip = 89; continue _fun0010 }
-case 92:
-            return var2;
+            if(var9) { _fun0010_ip = 87; continue _fun0010 }
 case 89:
-            if(!(var2 != var10)) { _fun0010_ip = 93; continue _fun0010 }
-case 94:
-            if(!var9) { _fun0010_ip = 77; continue _fun0010 }
-case 95:
-            var13 = var10.type;
-            var15 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var12 = 18;
-            var12 = var17[var12];
-            var12 = var15.bind(var6)(var12);
-            var12 = var12.ClientThemeType;
-            var12 = var12.CUSTOM_BACKGROUND_GRADIENT;
-            if(!(var13 !== var12)) { _fun0010_ip = 96; continue _fun0010 }
-case 77:
-            var13 = var10.type;
-            var15 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var12 = 18;
-            var12 = var17[var12];
-            var12 = var15.bind(var6)(var12);
-            var12 = var12.ClientThemeType;
-            var12 = var12.BACKGROUND_GRADIENT_PRESET;
-            if(!(var13 !== var12)) { _fun0010_ip = 97; continue _fun0010 }
+            if(var8) { _fun0010_ip = 87; continue _fun0010 }
+case 16:
+            return var2;
+case 87:
+            if(!(var2 != var10)) { _fun0010_ip = 90; continue _fun0010 }
+case 91:
+            if(!var8) { _fun0010_ip = 92; continue _fun0010 }
 case 93:
-            if(!var9) { _fun0010_ip = 98; continue _fun0010 }
-case 99:
-            if(var8) { _fun0010_ip = 100; continue _fun0010 }
-case 98:
+            var12 = var10.type;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var9 = 17;
+            var9 = var15[var9];
+            var9 = var13.bind(var6)(var9);
+            var9 = var9.ClientThemeType;
+            var9 = var9.CUSTOM_BACKGROUND_GRADIENT;
+            if(!(var12 !== var9)) { _fun0010_ip = 94; continue _fun0010 }
+case 92:
+            var12 = var10.type;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var9 = 17;
+            var9 = var15[var9];
+            var9 = var13.bind(var6)(var9);
+            var9 = var9.ClientThemeType;
+            var9 = var9.BACKGROUND_GRADIENT_PRESET;
+            if(!(var12 !== var9)) { _fun0010_ip = 95; continue _fun0010 }
+case 90:
+            if(!var8) { _fun0010_ip = 96; continue _fun0010 }
+case 76:
+            if(var8) { _fun0010_ip = 97; continue _fun0010 }
+case 96:
             var8 = var2 != var16;
             var2 = null;
-            if(!var8) { _fun0010_ip = 101; continue _fun0010 }
-case 102:
+            if(!var8) { _fun0010_ip = 98; continue _fun0010 }
+case 99:
             var9 = _closure1_slot11;
             var13 = _closure1_slot6;
             var12 = _closure1_slot9;
             var8 = {};
-            var22 = var8;
-            var21 = var11;
-            var15 = copyDataProperties(var22, var21);
+            var21 = var8;
+            var20 = var11;
+            var15 = copyDataProperties(var21, var20);
             var15 = 'gradient';
             var8[var15] = var16;
-            var22 = var13.bind(var6)(var12, var8);
-            var23 = undefined;
-            var21 = var3;
-            var20 = var5;
-            var19 = var4;
-            var18 = var7;
-            var2 = var23[var9](var22, var21, var20, var19, var18, var17);
-case 101:
-            _fun0010_ip = 103; continue _fun0010;
-case 100:
+            var21 = var13.bind(var6)(var12, var8);
+            var22 = undefined;
+            var20 = var3;
+            var19 = var5;
+            var18 = var4;
+            var17 = var7;
+            var2 = var22[var9](var21, var20, var19, var18, var17, var16);
+case 98:
+            _fun0010_ip = 100; continue _fun0010;
+case 97:
             var9 = _closure1_slot11;
             var13 = _closure1_slot6;
             var12 = _closure1_slot13;
             var8 = {};
-            var22 = var8;
-            var21 = var11;
-            var15 = copyDataProperties(var22, var21);
-            var21 = var14.customTheme;
-            var22 = var8;
-            var15 = copyDataProperties(var22, var21);
+            var21 = var8;
+            var20 = var11;
+            var15 = copyDataProperties(var21, var20);
+            var20 = var14.customTheme;
+            var21 = var8;
+            var15 = copyDataProperties(var21, var20);
             var15 = var14.baseTheme;
             var14 = 'theme';
             var8[var14] = var15;
-            var22 = var13.bind(var6)(var12, var8);
-            var23 = undefined;
-            var21 = var3;
-            var20 = var5;
-            var19 = var4;
-            var18 = var7;
-            var2 = var23[var9](var22, var21, var20, var19, var18, var17);
-case 103:
+            var21 = var13.bind(var6)(var12, var8);
+            var22 = undefined;
+            var20 = var3;
+            var19 = var5;
+            var18 = var4;
+            var17 = var7;
+            var2 = var22[var9](var21, var20, var19, var18, var17, var16);
+case 100:
             return var2;
-case 97:
+case 95:
             var8 = _closure1_slot11;
             var12 = _closure1_slot6;
             var9 = _closure1_slot9;
             var2 = {};
-            var22 = var2;
-            var21 = var11;
-            var13 = copyDataProperties(var22, var21);
+            var21 = var2;
+            var20 = var11;
+            var13 = copyDataProperties(var21, var20);
             var13 = 'gradient';
             var2[var13] = var10;
-            var22 = var12.bind(var6)(var9, var2);
-            var23 = undefined;
-            var21 = var3;
-            var20 = var5;
-            var19 = var4;
-            var18 = var7;
-            var2 = var23[var8](var22, var21, var20, var19, var18, var17);
+            var21 = var12.bind(var6)(var9, var2);
+            var22 = undefined;
+            var20 = var3;
+            var19 = var5;
+            var18 = var4;
+            var17 = var7;
+            var2 = var22[var8](var21, var20, var19, var18, var17, var16);
             return var2;
-case 96:
+case 94:
             var2 = _closure1_slot11;
             var9 = _closure1_slot6;
             var8 = _closure1_slot13;
             var1 = {};
-            var22 = var1;
-            var21 = var11;
-            var11 = copyDataProperties(var22, var21);
-            var21 = var10.customThemeSettings;
-            var22 = var1;
-            var11 = copyDataProperties(var22, var21);
+            var21 = var1;
+            var20 = var11;
+            var11 = copyDataProperties(var21, var20);
+            var20 = var10.customThemeSettings;
+            var21 = var1;
+            var11 = copyDataProperties(var21, var20);
             var11 = var10.theme;
             var10 = 'theme';
             var1[var10] = var11;
-            var22 = var9.bind(var6)(var8, var1);
-            var23 = undefined;
-            var21 = var3;
-            var20 = var5;
-            var19 = var4;
-            var18 = var7;
-            var1 = var23[var2](var22, var21, var20, var19, var18, var17);
+            var21 = var9.bind(var6)(var8, var1);
+            var22 = undefined;
+            var20 = var3;
+            var19 = var5;
+            var18 = var4;
+            var17 = var7;
+            var1 = var22[var2](var21, var20, var19, var18, var17, var16);
             return var1;
         }
     };

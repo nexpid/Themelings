@@ -186,34 +186,24 @@ case 35:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 6;
-            var1 = var5[var1];
-            var5 = undefined;
-            var6 = var3.bind(var5)(var1);
-            var3 = var6.isSponsoredQuestExperimentEnabled;
-            var1 = 'QuestUtils';
-            var1 = var3.bind(var6)(var1);
-            if(!var1) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
             var1 = null;
             if(!(var1 != var4)) { _fun0004_ip = 36; continue _fun0004 }
-case 38:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 7;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
+case 37:
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 6;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
             var2 = var3.getDesktopApplicationIds;
             var2 = var2.bind(var3)(var4);
             var1 = var1 != var2;
-            if(!var1) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(!var1) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var3 = var2.length;
             var2 = 1;
             var1 = var3 > var2;
-case 39:
+case 38:
             return var1;
 case 36:
             var1 = false;
@@ -274,7 +264,7 @@ case 36:
     var _closure1_slot7 = var9;
     var6 = var6.QuestVariants;
     var _closure1_slot8 = var6;
-    var6 = 11;
+    var6 = 10;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -284,7 +274,7 @@ case 36:
     var5 = function isPlayAnyActivityQuest(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 7;
+        var2 = 6;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -303,14 +293,14 @@ case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var7 = 7;
+            var7 = 6;
             var1 = var1[var7];
             var6 = undefined;
             var4 = var4.bind(var6)(var1);
             var1 = var4.isInGameQuest;
             var1 = var1.bind(var4)(var3);
             if(var1) { _fun0005_ip = 35; continue _fun0005 }
-case 41:
+case 40:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var7];
@@ -318,7 +308,7 @@ case 41:
             var4 = var5.hasPlayActivityTask;
             var1 = var4.bind(var5)(var3);
 case 35:
-            if(!var1) { _fun0005_ip = 39; continue _fun0005 }
+            if(!var1) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
             var3 = var3.config;
             var4 = var3.features;
@@ -326,7 +316,7 @@ case 42:
             var2 = _closure1_slot8;
             var2 = var2.START_QUEST_CTA;
             var1 = var3.bind(var4)(var2);
-case 39:
+case 41:
             return var1;
         }
     };
@@ -348,7 +338,7 @@ case 0:
             var10 = var3.bind(var11)(var2);
             var3 = var10.bind(var11)();
             var2 = var3.done;
-            var9 = 7;
+            var9 = 6;
             var8 = 2;
             var7 = 0;
             var6 = 1;
@@ -427,7 +417,7 @@ case 43:
         var2 = var1.sharePolicy;
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var1 = 8;
+        var1 = 7;
         var3 = var3[var1];
         var1 = undefined;
         var1 = var4.bind(var1)(var3);
@@ -452,7 +442,7 @@ case 52:
 case 55:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var3 = 9;
+            var3 = 8;
             var4 = var4[var3];
             var3 = undefined;
             var7 = var5.bind(var3)(var4);
@@ -476,7 +466,7 @@ case 54:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 7;
+            var1 = 6;
             var1 = var4[var1];
             var4 = undefined;
             var5 = var3.bind(var4)(var1);
@@ -487,7 +477,7 @@ case 0:
             var1 = var3.bind(var5)(var1);
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 10;
+            var2 = 9;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.QuestType;

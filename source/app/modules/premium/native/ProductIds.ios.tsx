@@ -636,7 +636,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DiscountIdToProductOfferId'] = var4;
     var4 = 'premium-tier-2-monthly-bogo';
     var3['BOGO_OFFER_ID'] = var4;
-    var2 = function getProductIdForGift(arg1) {
+    var4 = function getProductIdForGift(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -699,6 +699,70 @@ case 2:
             return var1;
         }
     };
-    var3['getProductIdForGift'] = var2;
+    var3['getProductIdForGift'] = var4;
+    var2 = function getPlanIdForGift(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = arg1;
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_MONTH_TIER_0;
+            if(!(var2 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_YEAR_TIER_0;
+            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_MONTH_TIER_1;
+            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_YEAR_TIER_1;
+            if(!(var2 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_MONTH_TIER_2;
+            if(!(var2 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var2 = _closure1_slot1;
+            var2 = var2.PREMIUM_GIFT_YEAR_TIER_2;
+            if(!(var2 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            var2 = global;
+            var4 = var2.Error;
+            var2 = var4.prototype;
+            var3 = Object.create(var2, {constructor: {value: var4}});
+            var5 = 'Tried to get Plan for Product not configured for IAP!';
+            var6 = var3;
+            var2 = new var6[var4](var5, var4);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
+case 12:
+            var2 = _closure1_slot0;
+            var2 = var2.PREMIUM_YEAR_TIER_2;
+            return var2;
+case 10:
+            var2 = _closure1_slot0;
+            var2 = var2.PREMIUM_MONTH_TIER_2;
+            return var2;
+case 8:
+            var2 = _closure1_slot0;
+            var2 = var2.PREMIUM_YEAR_TIER_1;
+            return var2;
+case 6:
+            var2 = _closure1_slot0;
+            var2 = var2.PREMIUM_MONTH_TIER_1;
+            return var2;
+case 4:
+            var2 = _closure1_slot0;
+            var2 = var2.PREMIUM_YEAR_TIER_0;
+            return var2;
+case 2:
+            var1 = _closure1_slot0;
+            var1 = var1.PREMIUM_MONTH_TIER_0;
+            return var1;
+        }
+    };
+    var3['getPlanIdForGift'] = var2;
     return var1;
 })();

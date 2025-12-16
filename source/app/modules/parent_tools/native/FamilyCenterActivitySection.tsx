@@ -24,18 +24,12 @@ case 0:
             var3 = _closure1_slot0;
             var1 = 8;
             var1 = var9[var1];
-            var5 = var3.bind(var4)(var1);
-            var2 = var5.useIsFamilyCenterV2Enabled;
-            var1 = 'family_center_activity_section_native';
-            var5 = var2.bind(var5)(var1);
-            var1 = 9;
-            var1 = var9[var1];
             var2 = var3.bind(var4)(var1);
             var1 = var2.getActivityTypeTextConfigs;
-            var2 = var1.bind(var2)(var5);
+            var2 = var1.bind(var2)();
             var1 = var2.get;
             var5 = var1.bind(var2)(var6);
-            var2 = 10;
+            var2 = 9;
             var1 = var9[var2];
             var10 = var3.bind(var4)(var1);
             var1 = var10.useActionsForDisplayType;
@@ -90,7 +84,7 @@ case 9:
             var9 = _closure1_slot9;
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var12 = 11;
+            var12 = 10;
             var5 = var5[var12];
             var5 = var8.bind(var4)(var5);
             var8 = var5.Text;
@@ -224,7 +218,7 @@ case 15:
     var4['loadMoreButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -241,7 +235,7 @@ case 0:
             var17 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var1 = var5[var2];
             var6 = var3.bind(var4)(var1);
             var1 = var6.useActionsForDisplayType;
@@ -250,7 +244,7 @@ case 0:
             var6 = var3.bind(var4)(var2);
             var2 = var6.useActionTotalsForDisplayType;
             var7 = var2.bind(var6)(var13);
-            var2 = 12;
+            var2 = 11;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useFamilyCenterActions;
@@ -298,13 +292,13 @@ case 0:
 case 18:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var5 = var1.intl;
             var3 = var5.formatToPlainString;
             var2 = _closure1_slot1;
-            var1 = 14;
+            var1 = 13;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.7dMmJY;
@@ -336,7 +330,7 @@ case 18:
                 var5 = _closure1_slot9;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 14;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -363,7 +357,7 @@ case 20:
 case 22:
             var15 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var10 = 16;
+            var10 = 15;
             var10 = var19[var10];
             var10 = var15.bind(var4)(var10);
             var11 = var10.PressableOpacity;
@@ -375,7 +369,7 @@ case 22:
             var10['accessibilityRole'] = var16;
             var10['onPress'] = var12;
             var16 = _closure1_slot9;
-            var12 = 11;
+            var12 = 10;
             var12 = var19[var12];
             var12 = var15.bind(var4)(var12);
             var15 = var12.Text;

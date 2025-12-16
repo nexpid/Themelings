@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['warning'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 30;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -295,49 +295,18 @@ case 12:
             var17 = var20.bind(var5)(var18, var17);
             var9['leading'] = var17;
             var17 = function onPress() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 14;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.shouldAgeVerifyToSpeakForCurrentUser;
-                    var3 = var3.bind(var4)();
-                    if(var3) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 22;
-                    var3 = var5[var3];
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.openStageChannelSettings;
-                    var3 = _closure2_slot2;
-                    var3 = var4.bind(var5)(var3);
-                    var3 = _closure1_slot15;
-                    var3 = var3.bind(var1)();
-                    return var1;
-case 13:
-                    var4 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var3 = 20;
-                    var3 = var8[var3];
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.showAgeVerificationGetStartedModal;
-                    var3 = {};
-                    var7 = _closure1_slot0;
-                    var6 = 21;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var1)(var6);
-                    var6 = var6.AgeVerificationModalEntryPoint;
-                    var6 = var6.START_STAGE;
-                    var3['entryPoint'] = var6;
-                    var3 = var4.bind(var5)(var3);
-                    var2 = _closure1_slot15;
-                    var2 = var2.bind(var1)();
-                    return var1;
-                }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 20;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.openStageChannelSettings;
+                var3 = _closure2_slot2;
+                var3 = var4.bind(var5)(var3);
+                var2 = _closure1_slot15;
+                var2 = var2.bind(var1)();
+                return var1;
             };
             var9['onPress'] = var17;
             var12 = var16.bind(var5)(var14, var9);
@@ -368,7 +337,7 @@ case 6:
             var21 = var25[var14];
             var22 = var24.bind(var5)(var21);
             var21 = {};
-            var23 = 23;
+            var23 = 21;
             var23 = var25[var23];
             var23 = var24.bind(var5)(var23);
             var21['source'] = var23;
@@ -380,7 +349,7 @@ case 6:
             var21 = function onPress() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 24;
+                var1 = 22;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -414,7 +383,7 @@ case 6:
             var21 = var25[var14];
             var22 = var24.bind(var5)(var21);
             var21 = {};
-            var23 = 25;
+            var23 = 23;
             var23 = var25[var23];
             var23 = var24.bind(var5)(var23);
             var21['source'] = var23;
@@ -426,7 +395,7 @@ case 6:
             var21 = function onPress() {
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 26;
+                var3 = 24;
                 var6 = var5[var3];
                 var1 = undefined;
                 var8 = var4.bind(var1)(var6);
@@ -448,8 +417,8 @@ case 6:
             var12 = var18.bind(var5)(var17, var12);
             var9[2] = var12;
             var10 = var10 != var11;
-            if(!var10) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var17 = _closure1_slot12;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -471,7 +440,7 @@ case 16:
             var18 = var24[var14];
             var21 = var23.bind(var5)(var18);
             var18 = {};
-            var22 = 27;
+            var22 = 25;
             var22 = var24[var22];
             var22 = var23.bind(var5)(var22);
             var18['source'] = var22;
@@ -481,16 +450,16 @@ case 16:
             var18 = var17.bind(var5)(var21, var18);
             var11['leading'] = var18;
             var18 = function onPress() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 17; continue _fun0004 }
+                    if(!(var2 != var3)) { _fun0003_ip = 15; continue _fun0003 }
 case 3:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 17:
+case 15:
                     var2 = _closure1_slot15;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -499,7 +468,7 @@ case 17:
             };
             var11['onPress'] = var18;
             var10 = var17.bind(var5)(var12, var11);
-case 15:
+case 13:
             var9[3] = var10;
             var12 = _closure1_slot12;
             var23 = _closure1_slot0;
@@ -536,7 +505,7 @@ case 15:
             var16 = var16.unsafe_rawColors;
             var16 = var16.RED_400;
             var14['color'] = var16;
-            var16 = 28;
+            var16 = 26;
             var16 = var18[var16];
             var16 = var17.bind(var5)(var16);
             var14['source'] = var16;
@@ -545,7 +514,7 @@ case 15:
             var13 = function onPress() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 29;
+                var1 = 27;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
