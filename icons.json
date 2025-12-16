@@ -3769,6 +3769,16 @@
         "width": 24,
         "height": 24
     },
+    "HandRequestDenyIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/HandRequestDenyIcon.png",
+        "hash": "9848a97316cf66a6c63f7d71690e245c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "HandRequestSpeakIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HandRequestSpeakIcon.png",
         "hash": "718ae715fa6eab84d7a2ff2a1ee0a5b3",
