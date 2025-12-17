@@ -111,17 +111,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['createRadio'] = var4;
-    var4 = function createCheckbox(arg1) {
-        var1 = {};
-        var2 = _closure1_slot0;
-        var2 = var2.CHECKBOX;
-        var1['type'] = var2;
-        var3 = arg1;
-        var4 = var1;
-        var2 = copyDataProperties(var4, var3);
-        return var1;
-    };
-    var3['createCheckbox'] = var4;
     var4 = function createList(arg1) {
         var1 = {};
         var2 = _closure1_slot0;

@@ -899,7 +899,7 @@ case 38:
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var11['backgroundColor'] = var12;
     var5['footerRightContainer'] = var11;
     var5 = var9.bind(var10)(var5);

@@ -146,6 +146,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_BUTTON'] = var1;
     var1 = 'gift category select modal';
     var2['GIFT_CATEGORY_SELECT_MODAL'] = var1;
+    var1 = 'premium gift intent card';
+    var2['PREMIUM_GIFT_INTENT_CARD'] = var1;
+    var1 = 'premium gift intent friend row';
+    var2['PREMIUM_GIFT_INTENT_FRIEND_ROW'] = var1;
     var1 = 'expression suggestions';
     var2['EXPRESSION_SUGGESTIONS'] = var1;
     var1 = 'emoji picker';

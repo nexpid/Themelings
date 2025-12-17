@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg2;
         var3['guildId'] = var2;
         var2 = arg1;
-        var3['previousGuildSubscriptionSlot'] = var2;
+        var3['guildBoostSlots'] = var2;
         var2 = 'PREMIUM_GUILD_SUBSCRIBE_MODAL_KEY';
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;

@@ -90,8 +90,10 @@ case 2:
         var9 = _closure1_slot1;
         var8 = 11;
         var8 = var7[var8];
-        var8 = var9.bind(var4)(var8);
-        var12 = var8.bind(var4)(var13, var11);
+        var9 = var9.bind(var4)(var8);
+        var8 = {};
+        var8['unread'] = var11;
+        var12 = var9.bind(var4)(var13, var8);
         var _closure2_slot4 = var12;
         var6 = var7[var6];
         var10 = var2.bind(var4)(var6);
@@ -266,7 +268,7 @@ case 22:
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
-                var3 = var2.PrivateChannelRowPreview;
+                var3 = var2.ChannelRowPreview;
                 var2 = {};
                 var8 = _closure2_slot0;
                 var2['channel'] = var8;

@@ -751,6 +751,8 @@ case 72:
     var10['friendsTabBadgeLastDismissedTime'] = var4;
     var11 = new Array(0);
     var10['giftUnreadNotificationLastDismissedTimes'] = var11;
+    var11 = {};
+    var10['profilePopoutGiftIntentsDismissMap'] = var11;
     var _closure1_slot13 = var10;
     var10 = new Array(0);
     var _closure1_slot14 = var10;
@@ -824,75 +826,83 @@ case 78:
         var1 = function value(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var1 = arg1;
-                var5 = this;
-                var3 = {};
+                var3 = arg1;
+                var4 = this;
+                var1 = {};
                 var2 = {};
-                var3['messageGiftIntentLastShownMap'] = var2;
+                var1['messageGiftIntentLastShownMap'] = var2;
                 var2 = new Array(0);
-                var3['lastShownFriendsListGiftIntents'] = var2;
+                var1['lastShownFriendsListGiftIntents'] = var2;
                 var7 = null;
-                var3['friendsTabBadgeLastDismissedTime'] = var7;
+                var1['friendsTabBadgeLastDismissedTime'] = var7;
                 var2 = new Array(0);
-                var3['giftUnreadNotificationLastDismissedTimes'] = var2;
-                _closure1_slot13 = var3;
-                if(!(var7 != var1)) { _fun0014_ip = 79; continue _fun0014 }
-case 77:
-                var4 = _closure1_slot13;
-                var3 = var1.friendsTabBadgeLastDismissedTime;
-                var4['friendsTabBadgeLastDismissedTime'] = var3;
-                var6 = _closure1_slot13;
-                var4 = global;
-                var9 = var4.Array;
-                var8 = var9.from;
-                var3 = var1.lastShownFriendsListGiftIntents;
-                var3 = var8.bind(var9)(var3);
-                var6['lastShownFriendsListGiftIntents'] = var3;
-                var6 = _closure1_slot13;
-                var3 = {};
-                var12 = var1.messageGiftIntentLastShownMap;
-                var13 = var3;
-                var8 = copyDataProperties(var13, var12);
-                var6['messageGiftIntentLastShownMap'] = var3;
-                var3 = _closure1_slot13;
-                var6 = var4.Array;
-                var4 = var6.from;
-                var1 = var1.giftUnreadNotificationLastDismissedTimes;
+                var1['giftUnreadNotificationLastDismissedTimes'] = var2;
+                var2 = {};
+                var1['profilePopoutGiftIntentsDismissMap'] = var2;
+                _closure1_slot13 = var1;
+                if(!(var7 != var3)) { _fun0014_ip = 79; continue _fun0014 }
+case 11:
+                var2 = _closure1_slot13;
+                var1 = var3.friendsTabBadgeLastDismissedTime;
+                var2['friendsTabBadgeLastDismissedTime'] = var1;
+                var5 = _closure1_slot13;
+                var1 = global;
+                var8 = var1.Array;
+                var6 = var8.from;
+                var2 = var3.lastShownFriendsListGiftIntents;
+                var2 = var6.bind(var8)(var2);
+                var5['lastShownFriendsListGiftIntents'] = var2;
+                var5 = _closure1_slot13;
+                var2 = {};
+                var12 = var3.messageGiftIntentLastShownMap;
+                var13 = var2;
+                var6 = copyDataProperties(var13, var12);
+                var5['messageGiftIntentLastShownMap'] = var2;
+                var2 = _closure1_slot13;
+                var6 = var1.Array;
+                var5 = var6.from;
+                var1 = var3.giftUnreadNotificationLastDismissedTimes;
                 if(!(var7 == var1)) { _fun0014_ip = 80; continue _fun0014 }
 case 81:
                 var1 = new Array(0);
 case 80:
-                var1 = var4.bind(var6)(var1);
-                var3['giftUnreadNotificationLastDismissedTimes'] = var1;
+                var1 = var5.bind(var6)(var1);
+                var2['giftUnreadNotificationLastDismissedTimes'] = var1;
+                var2 = _closure1_slot13;
+                var1 = {};
+                var12 = var3.profilePopoutGiftIntentsDismissMap;
+                var13 = var1;
+                var3 = copyDataProperties(var13, var12);
+                var2['profilePopoutGiftIntentsDismissMap'] = var1;
 case 79:
-                var4 = var5.syncWith;
+                var3 = var4.syncWith;
                 var1 = _closure1_slot11;
-                var3 = new Array(4);
-                var3[0] = var1;
+                var2 = new Array(4);
+                var2[0] = var1;
                 var1 = _closure1_slot9;
-                var3[1] = var1;
+                var2[1] = var1;
                 var1 = _closure1_slot10;
-                var3[2] = var1;
+                var2[2] = var1;
                 var1 = _closure1_slot8;
-                var3[3] = var1;
+                var2[3] = var1;
                 var1 = _closure1_slot27;
-                var1 = var4.bind(var5)(var3, var1);
-                var3 = _closure1_slot23;
+                var1 = var3.bind(var4)(var2, var1);
+                var2 = _closure1_slot23;
                 var1 = undefined;
-                var9 = var3.bind(var1)();
-                var3 = _closure1_slot13;
-                var7 = var3.messageGiftIntentLastShownMap;
-                var3 = 1209600000;
-                for(var4 in var7)
+                var7 = var2.bind(var1)();
+                var2 = _closure1_slot13;
+                var5 = var2.messageGiftIntentLastShownMap;
+                var8 = 1209600000;
+                for(var2 in var5)
 case 82:
                 {
 case 83:
-                    var11 = var4;
+                    var11 = var2;
                     var10 = _closure1_slot13;
                     var10 = var10.messageGiftIntentLastShownMap;
                     var10 = var10[var11];
-                    var10 = var9 - var10;
-                    if(!(var10 > var3)) { _fun0014_ip = 82; continue _fun0014 }
+                    var10 = var7 - var10;
+                    if(!(var10 > var8)) { _fun0014_ip = 82; continue _fun0014 }
 case 84:
                     var10 = _closure1_slot13;
                     var10 = var10.messageGiftIntentLastShownMap;
@@ -902,11 +912,32 @@ case 84:
 case 85:
                 var2 = _closure1_slot29;
                 var2 = var2.bind(var1)();
+                var2 = _closure1_slot23;
+                var7 = var2.bind(var1)();
+                var2 = _closure1_slot13;
+                var5 = var2.profilePopoutGiftIntentsDismissMap;
+                for(var2 in var5)
+case 86:
+                {
+case 87:
+                    var11 = var2;
+                    var10 = _closure1_slot13;
+                    var10 = var10.profilePopoutGiftIntentsDismissMap;
+                    var10 = var10[var11];
+                    var10 = var7 - var10;
+                    if(!(var10 > var8)) { _fun0014_ip = 86; continue _fun0014 }
+case 88:
+                    var10 = _closure1_slot13;
+                    var10 = var10.profilePopoutGiftIntentsDismissMap;
+                    var10 = delete var10[var11];
+                    _fun0014_ip = 86; continue _fun0014;
+                }
+case 89:
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(14);
+        var1 = new Array(15);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -935,8 +966,8 @@ case 0:
                 var2 = this;
                 var1 = var2.isNotificationCooldownActive;
                 var1 = var1.bind(var2)();
-                if(var1) { _fun0015_ip = 86; continue _fun0015 }
-case 87:
+                if(var1) { _fun0015_ip = 90; continue _fun0015 }
+case 91:
                 var1 = global;
                 var3 = var1.Array;
                 var2 = var3.from;
@@ -954,7 +985,7 @@ case 87:
                 };
                 var1 = var2.bind(var3)(var1);
                 return var1;
-case 86:
+case 90:
                 var1 = undefined;
                 return var1;
             }
@@ -974,12 +1005,12 @@ case 0:
                 var3 = var3.giftUnreadNotificationLastDismissedTimes;
                 var6 = var3.length;
                 var5 = 0;
-                if(!(var5 !== var6)) { _fun0016_ip = 88; continue _fun0016 }
+                if(!(var5 !== var6)) { _fun0016_ip = 92; continue _fun0016 }
 case 42:
                 var6 = var3.length;
                 var5 = 5;
-                if(!(!(var6 >= var5))) { _fun0016_ip = 89; continue _fun0016 }
-case 90:
+                if(!(!(var6 >= var5))) { _fun0016_ip = 93; continue _fun0016 }
+case 94:
                 var2 = _closure1_slot23;
                 var2 = var2.bind(var4)();
                 var _closure3_slot0 = var2;
@@ -997,10 +1028,10 @@ case 90:
                 var1 = 1;
                 var1 = var2 >= var1;
                 return var1;
-case 89:
+case 93:
                 var1 = true;
                 return var1;
-case 88:
+case 92:
                 var1 = false;
                 return var1;
             }
@@ -1048,8 +1079,8 @@ case 0:
                 var1 = null;
                 var4 = var1 == var3;
                 var1 = 0;
-                if(var4) { _fun0017_ip = 91; continue _fun0017 }
-case 92:
+                if(var4) { _fun0017_ip = 95; continue _fun0017 }
+case 96:
                 var8 = var3.friendsSince;
                 var3 = global;
                 var4 = var3.Math;
@@ -1066,12 +1097,37 @@ case 92:
                 var2 = true;
                 var2 = var6.bind(var7)(var8, var5, var2);
                 var1 = var3.bind(var4)(var2);
-case 91:
+case 95:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[6] = var5;
+        var5 = {};
+        var7 = 'canShowProfilePopoutGiftIntents';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var4 = arg1;
+                var3 = this;
+                var1 = _closure1_slot13;
+                var1 = var1.profilePopoutGiftIntentsDismissMap;
+                var2 = var1[var4];
+                var1 = null;
+                var1 = var1 == var2;
+                if(!var1) { _fun0018_ip = 77; continue _fun0018 }
+case 40:
+                var2 = var3.getFriendAnniversaryYears;
+                var3 = var2.bind(var3)(var4);
+                var2 = 0;
+                var1 = var3 > var2;
+case 77:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[7] = var5;
         var5 = {};
         var7 = 'isGiftIntentMessageInCooldown';
         var5['key'] = var7;
@@ -1085,7 +1141,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getDevToolTotalFriendAnniversaries';
         var5['key'] = var7;
@@ -1094,7 +1150,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getDevToolCurrentDate';
         var5['key'] = var7;
@@ -1103,7 +1159,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getHighestAffinityFriendAnniversaries';
         var5['key'] = var7;
@@ -1116,7 +1172,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getHighAffinityFriendAnniversaries';
         var5['key'] = var7;
@@ -1129,7 +1185,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getGiftUnreadNotificationLastDismissedTimes';
         var5['key'] = var7;
@@ -1139,7 +1195,7 @@ case 91:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getMessageGiftIntentLastShownMap';
         var5['key'] = var7;
@@ -1149,7 +1205,7 @@ case 91:
             return var1;
         };
         var5['value'] = var6;
-        var1[13] = var5;
+        var1[14] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1157,57 +1213,57 @@ case 91:
     var4 = 'PremiumGiftingIntentStore';
     var9['displayName'] = var4;
     var9['persistKey'] = var4;
-    var4 = new Array(2);
-    var10 = function(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
-case 0:
-            var3 = arg1;
-            var4 = null;
-            var1 = var3;
-            if(!(var4 != var1)) { _fun0018_ip = 93; continue _fun0018 }
-case 94:
-            var2 = {};
-            var6 = var3.friendsTabBadgeLastDismissedTime;
-            var7 = var4 != var6;
-            var5 = null;
-            if(!var7) { _fun0018_ip = 40; continue _fun0018 }
-case 95:
-            var5 = var6;
-case 40:
-            var2['friendsTabBadgeLastDismissedTime'] = var5;
-            var3 = var3.lastShownFriendsListGiftIntents;
-            if(!(var4 == var3)) { _fun0018_ip = 77; continue _fun0018 }
-case 96:
-            var3 = new Array(0);
-case 77:
-            var2['lastShownFriendsListGiftIntents'] = var3;
-            var3 = {};
-            var2['messageGiftIntentLastShownMap'] = var3;
-            var1 = var2;
-case 93:
-            return var1;
-        }
-    };
-    var4[0] = var10;
+    var4 = new Array(3);
     var10 = function(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var3 = arg1;
             var4 = null;
             var1 = var3;
-            if(!(var4 != var1)) { _fun0019_ip = 34; continue _fun0019 }
-case 94:
+            if(!(var4 != var1)) { _fun0019_ip = 97; continue _fun0019 }
+case 98:
+            var2 = {};
+            var6 = var3.friendsTabBadgeLastDismissedTime;
+            var7 = var4 != var6;
+            var5 = null;
+            if(!var7) { _fun0019_ip = 40; continue _fun0019 }
+case 99:
+            var5 = var6;
+case 40:
+            var2['friendsTabBadgeLastDismissedTime'] = var5;
+            var3 = var3.lastShownFriendsListGiftIntents;
+            if(!(var4 == var3)) { _fun0019_ip = 77; continue _fun0019 }
+case 100:
+            var3 = new Array(0);
+case 77:
+            var2['lastShownFriendsListGiftIntents'] = var3;
+            var3 = {};
+            var2['messageGiftIntentLastShownMap'] = var3;
+            var1 = var2;
+case 97:
+            return var1;
+        }
+    };
+    var4[0] = var10;
+    var10 = function(arg1) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+            var3 = arg1;
+            var4 = null;
+            var1 = var3;
+            if(!(var4 != var1)) { _fun0020_ip = 34; continue _fun0020 }
+case 98:
             var2 = {};
             var2['friendsTabBadgeLastDismissedTime'] = var4;
             var5 = var3.lastShownFriendsListGiftIntents;
-            if(!(var4 == var5)) { _fun0019_ip = 37; continue _fun0019 }
-case 95:
+            if(!(var4 == var5)) { _fun0020_ip = 37; continue _fun0020 }
+case 99:
             var5 = new Array(0);
 case 37:
             var2['lastShownFriendsListGiftIntents'] = var5;
             var3 = var3.messageGiftIntentLastShownMap;
-            if(!(var4 == var3)) { _fun0019_ip = 70; continue _fun0019 }
-case 90:
+            if(!(var4 == var3)) { _fun0020_ip = 70; continue _fun0020 }
+case 94:
             var3 = {};
 case 70:
             var2['messageGiftIntentLastShownMap'] = var3;
@@ -1219,6 +1275,42 @@ case 34:
         }
     };
     var4[1] = var10;
+    var10 = function(arg1) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+            var3 = arg1;
+            var4 = null;
+            var1 = var3;
+            if(!(var4 != var1)) { _fun0021_ip = 101; continue _fun0021 }
+case 98:
+            var2 = {};
+            var2['friendsTabBadgeLastDismissedTime'] = var4;
+            var5 = var3.lastShownFriendsListGiftIntents;
+            if(!(var4 == var5)) { _fun0021_ip = 37; continue _fun0021 }
+case 99:
+            var5 = new Array(0);
+case 37:
+            var2['lastShownFriendsListGiftIntents'] = var5;
+            var5 = var3.messageGiftIntentLastShownMap;
+            if(!(var4 == var5)) { _fun0021_ip = 70; continue _fun0021 }
+case 94:
+            var5 = {};
+case 70:
+            var2['messageGiftIntentLastShownMap'] = var5;
+            var3 = var3.giftUnreadNotificationLastDismissedTimes;
+            if(!(var4 == var3)) { _fun0021_ip = 76; continue _fun0021 }
+case 102:
+            var3 = new Array(0);
+case 76:
+            var2['giftUnreadNotificationLastDismissedTimes'] = var3;
+            var3 = {};
+            var2['profilePopoutGiftIntentsDismissMap'] = var3;
+            var1 = var2;
+case 101:
+            return var1;
+        }
+    };
+    var4[2] = var10;
     var9['migrations'] = var4;
     var4 = 14;
     var4 = var7[var4];
@@ -1241,6 +1333,8 @@ case 34:
         var2['friendsTabBadgeLastDismissedTime'] = var1;
         var1 = new Array(0);
         var2['giftUnreadNotificationLastDismissedTimes'] = var1;
+        var1 = {};
+        var2['profilePopoutGiftIntentsDismissMap'] = var1;
         _closure1_slot13 = var2;
         var2 = _closure1_slot28;
         var1 = undefined;
@@ -1289,6 +1383,18 @@ case 34:
         return var1;
     };
     var4['GIFT_INTENT_FLOW_PURCHASED_GIFT'] = var10;
+    var10 = function handleProfilePopoutGiftIntentsDismiss(arg1) {
+        var1 = arg1;
+        var4 = var1.recipientUserId;
+        var2 = _closure1_slot13;
+        var3 = var2.profilePopoutGiftIntentsDismissMap;
+        var2 = _closure1_slot23;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        var3[var4] = var2;
+        return var1;
+    };
+    var4['PROFILE_POPOUT_GIFT_INTENTS_DISMISS'] = var10;
     var10 = function handleDevToolResetFriendsListGiftIntentsShown() {
         var2 = _closure1_slot13;
         var1 = new Array(0);
@@ -1314,18 +1420,18 @@ case 34:
     };
     var4['DEV_TOOLS_GIFT_UNREAD_NOTIFICATION_COOLDOWN_RESET'] = var10;
     var10 = function handleDevToolSetFriendAnniversaryCount(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.total;
             var2 = null;
-            if(!(var2 != var4)) { _fun0020_ip = 97; continue _fun0020 }
-case 98:
+            if(!(var2 != var4)) { _fun0022_ip = 103; continue _fun0022 }
+case 104:
             var3 = _closure1_slot31;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             return var1;
-case 97:
+case 103:
             _closure1_slot18 = var2;
             var2 = _closure1_slot27;
             var1 = undefined;
@@ -1342,13 +1448,21 @@ case 97:
         return var1;
     };
     var4['DEV_TOOLS_SET_CURRENT_DATE'] = var10;
-    var5 = function handleDevToolResetCurrentDate() {
+    var10 = function handleDevToolResetCurrentDate() {
         var1 = null;
         _closure1_slot19 = var1;
         var1 = undefined;
         return var1;
     };
-    var4['DEV_TOOLS_RESET_CURRENT_DATE'] = var5;
+    var4['DEV_TOOLS_RESET_CURRENT_DATE'] = var10;
+    var5 = function handleDevToolResetProfilePopoutGiftIntentsDismiss() {
+        var2 = _closure1_slot13;
+        var1 = {};
+        var2['profilePopoutGiftIntentsDismissMap'] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var4['DEV_TOOLS_PROFILE_POPOUT_GIFT_INTENTS_DISMISS_RESET'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
     var15 = var5;

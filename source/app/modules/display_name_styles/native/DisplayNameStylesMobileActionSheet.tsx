@@ -388,7 +388,7 @@ case 15:
             var13['style'] = var14;
             var15 = var25;
             if(!var15) { _fun0002_ip = 17; continue _fun0002 }
-case 7:
+case 18:
             var19 = _closure1_slot9;
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -411,8 +411,8 @@ case 17:
             var14 = new Array(2);
             var14[0] = var15;
             var15 = !var25;
-            if(!var15) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var15) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var19 = _closure1_slot0;
             var24 = _closure1_slot2;
             var18 = 20;
@@ -421,8 +421,8 @@ case 19:
             var18 = var19.isIOS;
             var18 = var18.bind(var19)();
             var24 = _closure1_slot9;
-            if(var18) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(var18) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var19 = _closure1_slot0;
             var28 = _closure1_slot2;
             var18 = 22;
@@ -439,8 +439,8 @@ case 21:
             var18['style'] = var26;
             var18['autoplay'] = var23;
             var18 = var24.bind(var4)(var19, var18);
-            _fun0002_ip = 22; continue _fun0002;
-case 20:
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var28 = _closure1_slot1;
             var23 = _closure1_slot2;
             var19 = 18;
@@ -449,15 +449,15 @@ case 20:
             var19 = {};
             var26 = {};
             var30 = _closure1_slot2;
-            if(var25) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(var25) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var27 = 21;
             var27 = var30[var27];
-            _fun0002_ip = 25; continue _fun0002;
-case 23:
+            _fun0002_ip = 26; continue _fun0002;
+case 24:
             var29 = 19;
             var27 = var30[var29];
-case 25:
+case 26:
             var27 = var28.bind(var4)(var27);
             var26['uri'] = var27;
             var19['source'] = var26;
@@ -468,9 +468,9 @@ case 25:
             var25 = !var25;
             var19['enableAnimation'] = var25;
             var18 = var24.bind(var4)(var23, var19);
-case 22:
+case 23:
             var15 = var18;
-case 18:
+case 19:
             var14[1] = var15;
             var13['children'] = var14;
             var13 = var11.bind(var4)(var10, var13);
@@ -500,10 +500,10 @@ case 18:
             var15['style'] = var13;
             var19 = 'black';
             var13 = var19;
-            if(!var21) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var21) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var13 = 'white';
-case 26:
+case 27:
             var15['color'] = var13;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -530,10 +530,10 @@ case 26:
             var13['variant'] = var23;
             var23 = var17.subtitle;
             var13['style'] = var23;
-            if(!var21) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+            if(!var21) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var19 = 'white';
-case 28:
+case 29:
             var13['color'] = var19;
             var24 = _closure1_slot0;
             var21 = _closure1_slot2;

@@ -525,8 +525,8 @@ case 59:
             var11 = 22;
             var11 = var20[var11];
             var11 = var19.bind(var4)(var11);
-            var12 = var11.NotificationChannelRowPreview;
-            var11 = {'channel': null, 'message': null, 'color': 'text-muted', 'layout': null, 'muted': false, 'lineClamp': 2, 'context': 'notification'};
+            var12 = var11.NativeMessageChannelRowPreview;
+            var11 = {'channel': null, 'message': null, 'color': 'text-muted', 'layout': null, 'muted': false, 'lineClamp': 2};
             var11['channel'] = var21;
             var11['message'] = var14;
             var14 = 23;

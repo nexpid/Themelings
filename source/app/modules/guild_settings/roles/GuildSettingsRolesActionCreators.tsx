@@ -156,560 +156,582 @@ case 7:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 8; continue _fun0004 }
+                    var2 = arguments[5];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
+                    if(var4) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
-                    var21 = arg1;
-                    var20 = arg2;
-                    var4 = arg3;
-                    var13 = arg4;
-                    var22 = arg5;
-                    var2 = undefined;
-                    var25 = undefined;
-                    var26 = undefined;
-                    var27 = undefined;
-                    var9 = undefined;
-                    var15 = undefined;
-                    var12 = undefined;
-                    var23 = undefined;
-                    var11 = undefined;
-                    var24 = undefined;
-                    var7 = undefined;
-                    var10 = undefined;
-                    var14 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var5 = 1;
-                    var8 = var8[var5];
-                    var16 = var14.bind(var2)(var8);
-                    var14 = var16.dispatch;
-                    var8 = {};
-                    var17 = 'GUILD_SETTINGS_ROLES_SUBMITTING';
-                    var8['type'] = var17;
-                    var8 = var14.bind(var16)(var8);
-case 10: // try_start_8
-                    var14 = var4;
-                    var16 = null;
-                    var14 = var16 != var14;
-                    var8 = var14;
-                    if(!var14) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-                    var14 = var4;
-                    var17 = var14.length;
-                    var14 = 0;
-                    var8 = var17 > var14;
+                    var23 = arg1;
+                    var22 = arg2;
+                    var7 = arg3;
+                    var15 = arg4;
+                    var24 = arg5;
+                    var4 = undefined;
+                    if(!(var2 === var4)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
-                    if(!var8) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
-                    var14 = _closure1_slot1;
-                    var17 = _closure1_slot2;
-                    var8 = 2;
-                    var8 = var17[var8];
-                    var17 = var14.bind(var2)(var8);
-                    var14 = var17.batchRoleUpdate;
-                    var8 = var21;
-                    var4 = var14.bind(var17)(var8, var4);
-                    SaveGenerator(address=165);
-case 15:
-                    return var4;
-case 16:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(var8) { _fun0004_ip = 17; continue _fun0004 }
-case 13:
-                    var8 = var20;
-                    if(!(var16 != var8)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
-                    var8 = var20;
-                    var8 = var8.length;
-                    var19 = 0;
-                    var18 = 2;
-                    var17 = '';
-                    if(!(var8 > var19)) { _fun0004_ip = 18; continue _fun0004 }
-case 20:
-                    var14 = var20;
-                    var8 = var14.pop;
-                    var14 = var8.bind(var14)();
-                    var27 = var14;
-                    var14 = var16 != var14;
-                    var8 = var14;
-                    if(!var14) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                    var14 = var27;
-                    var14 = var14.name;
-                    var8 = var17 !== var14;
-case 21:
-                    if(!var8) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                    var14 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var8 = var8[var18];
-                    var30 = var14.bind(var2)(var8);
-                    var29 = var30.updateRole;
-                    var28 = var21;
-                    var31 = var27;
-                    var14 = var31.id;
-                    var8 = {};
-                    var32 = var31.name;
-                    var8['name'] = var32;
-                    var31 = var31.description;
-                    var25 = var31;
-                    var32 = var16 != var31;
-                    var31 = undefined;
-                    if(!var32) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
-                    var31 = var25;
-case 25:
-                    var8['description'] = var31;
-                    var31 = var27;
-                    var32 = var31.permissions;
-                    var8['permissions'] = var32;
-                    var32 = var31.color;
-                    var8['color'] = var32;
-                    var31 = var31.colors;
-                    var26 = var31;
-                    var32 = var16 != var31;
-                    var31 = undefined;
-                    if(!var32) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
-                    var31 = var26;
-case 27:
-                    var8['colors'] = var31;
-                    var31 = var27;
-                    var32 = var31.hoist;
-                    var8['hoist'] = var32;
-                    var32 = var31.mentionable;
-                    var8['mentionable'] = var32;
-                    var32 = var31.icon;
-                    var8['icon'] = var32;
-                    var31 = var31.unicodeEmoji;
-                    var8['unicodeEmoji'] = var31;
-                    var8 = var29.bind(var30)(var28, var14, var8);
-                    SaveGenerator(address=424);
-case 29:
-                    return var8;
-case 30:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 31; continue _fun0004 }
-case 23:
-                    var14 = var20;
-                    if(!(var16 != var14)) { _fun0004_ip = 18; continue _fun0004 }
-case 32:
-                    var14 = var20;
-                    var14 = var14.length;
-                    if(var14 > var19) { _fun0004_ip = 20; continue _fun0004 }
-case 18:
-                    var14 = var22;
-                    if(!(var16 != var14)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-                    var14 = var13;
-                    if(!(var16 != var14)) { _fun0004_ip = 33; continue _fun0004 }
-case 35:
-                    var15 = false;
-                    var12 = false;
-case 36: // try_start_0 // try_start_1
-                    var18 = var13;
-                    var13 = global;
-                    var14 = var13.Symbol;
-                    var17 = 'undefined';
-                    var14 = typeof var14;
-                    var30 = undefined;
+                    var2 = {};
+case 10:
+                    var5 = var2;
+                    var27 = undefined;
+                    var28 = undefined;
                     var29 = undefined;
-                    if(!(var17 !== var14)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-                    var14 = var13.Symbol;
-                    var30 = var14.asyncIterator;
-                    var14 = var13.Symbol;
-                    var29 = var14.iterator;
-case 37:
-                    var28 = '@@asyncIterator';
-                    var27 = '@@iterator';
+                    var11 = undefined;
+                    var17 = undefined;
+                    var14 = undefined;
+                    var25 = undefined;
+                    var13 = undefined;
                     var26 = undefined;
-                    var25 = var5;
-case 39:
-                    if(!var30) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-                    var17 = var18[var30];
-                    var26 = var17;
-                    if(!(var16 == var26)) { _fun0004_ip = 42; continue _fun0004 }
-case 40:
-                    if(!var29) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
-                    var14 = var18[var29];
-                    var26 = var14;
-                    if(!(var16 == var26)) { _fun0004_ip = 45; continue _fun0004 }
-case 43:
-                    var19 = parseFloat(var25);
-                    var25 = var19 - 1;
-                    var30 = var28;
-                    var29 = var27;
-                    if(var19) { _fun0004_ip = 39; continue _fun0004 }
-case 46:
-                    var25 = var13.TypeError;
-                    var13 = var25.prototype;
-                    var19 = Object.create(var13, {constructor: {value: var25}});
-                    var35 = 'Object is not async iterable';
-                    var36 = var19;
-                    var13 = new var36[var25](var35, var34);
-                    var13 = var13 instanceof Object ? var13 : var19;
-                    throw var13;
-case 45:
-                    var19 = _closure1_slot4;
-                    var13 = var14.call;
-                    var35 = var13.bind(var14)(var18);
-                    var14 = var19.prototype;
-                    var14 = Object.create(var14, {constructor: {value: var19}});
-                    var36 = var14;
-                    var13 = new var36[var19](var35, var34);
-                    var14 = var13 instanceof Object ? var13 : var14;
-                    _fun0004_ip = 47; continue _fun0004;
-case 42:
-                    var13 = var17.call;
-                    var14 = var13.bind(var17)(var18);
-case 47:
-                    var11 = var14;
-                    var13 = var14.next;
-                    var14 = var13.bind(var14)();
-                    SaveGenerator(address=682);
-case 48:
-                    return var14;
-case 49:
-                    ResumeGenerator(result_out_reg=13, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
-                    var23 = var14;
-                    var13 = var14.done;
-                    var13 = !var13;
-                    var15 = var13;
-                    var19 = 3;
-                    if(!var13) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
-                    var13 = var23;
-                    var26 = var13.value;
-                    var17 = var22;
-                    var13 = var17.get;
-                    var13 = var13.bind(var17)(var26);
-                    var24 = var13;
-                    var18 = _closure1_slot0;
-                    var17 = _closure1_slot2;
-                    var17 = var17[var19];
-                    var25 = var18.bind(var2)(var17);
-                    var18 = var25.putRoleConnectionsConfigurations;
-                    var17 = var21;
-                    if(!(var16 == var13)) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
-                    var13 = new Array(0);
-                    _fun0004_ip = 56; continue _fun0004;
-case 54:
-                    var13 = var24;
-case 56:
-                    var17 = var18.bind(var25)(var17, var26, var13);
-                    SaveGenerator(address=788);
-case 57:
-                    return var17;
-case 58:
-                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 59; continue _fun0004 }
-case 60:
-                    var15 = false;
-                    var18 = var11;
-                    var13 = var18.next;
-                    var18 = var13.bind(var18)();
-                    SaveGenerator(address=815);
-case 61:
-                    return var18;
-case 62:
-                    ResumeGenerator(result_out_reg=17, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 63; continue _fun0004 }
-case 64:
-                    var23 = var18;
-                    var13 = var18.done;
-                    var13 = !var13;
-                    var15 = var13;
-                    if(var13) { _fun0004_ip = 53; continue _fun0004 }
-case 52: // try_end0
-                    _fun0004_ip = 65; continue _fun0004;
-case 63: // try_start_2 // try_end1
-                    var19 = var15;
-                    var13 = var19;
-                    if(!var19) { _fun0004_ip = 66; continue _fun0004 }
-case 67:
-                    var19 = var11;
-                    var19 = var19.return;
-                    var13 = var16 != var19;
-case 66:
-                    if(!var13) { _fun0004_ip = 68; continue _fun0004 }
-case 69:
-                    var19 = var11;
-                    var13 = var19.return;
-                    var13 = var13.bind(var19)();
-                    SaveGenerator(address=885);
-case 70:
-                    return var13;
-case 71:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=18);
-                    if(var19) { _fun0004_ip = 72; continue _fun0004 }
-case 68: // try_end2
-                    var19 = var12;
-                    if(var19) { _fun0004_ip = 73; continue _fun0004 }
-case 74: // try_end8
-                    return var18;
-case 73: // try_start_9
-                    var18 = var9;
-                    throw var18;
-case 72:
-                    var18 = var12;
-                    if(var18) { _fun0004_ip = 75; continue _fun0004 }
-case 76: // try_end9
-                    return var13;
-case 75: // try_start_10
-                    var13 = var9;
-                    throw var13;
-case 77: // catch_target2
-                    CatchBlockStart(arg_register=12);
-                    var18 = var12;
-                    if(var18) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
-                    throw var13;
-case 78:
-                    var13 = var9;
-                    throw var13;
-case 59: // try_start_3
-                    var18 = var15;
-                    var13 = var18;
-                    if(!var18) { _fun0004_ip = 80; continue _fun0004 }
-case 81:
-                    var18 = var11;
-                    var18 = var18.return;
-                    var13 = var16 != var18;
-case 80:
-                    if(!var13) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
-                    var18 = var11;
-                    var13 = var18.return;
-                    var13 = var13.bind(var18)();
-                    SaveGenerator(address=976);
-case 84:
-                    return var13;
-case 85:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=17);
-                    if(var18) { _fun0004_ip = 86; continue _fun0004 }
-case 82: // try_end3
-                    var18 = var12;
-                    if(var18) { _fun0004_ip = 87; continue _fun0004 }
-case 88: // try_end10
-                    return var17;
-case 87: // try_start_11
-                    var17 = var9;
-                    throw var17;
-case 86:
-                    var17 = var12;
-                    if(var17) { _fun0004_ip = 89; continue _fun0004 }
-case 90: // try_end11
-                    return var13;
-case 89: // try_start_12
-                    var13 = var9;
-                    throw var13;
-case 91: // catch_target3
-                    CatchBlockStart(arg_register=12);
-                    var17 = var12;
-                    if(var17) { _fun0004_ip = 92; continue _fun0004 }
-case 93:
-                    throw var13;
-case 92:
-                    var13 = var9;
-                    throw var13;
-case 50: // try_start_4
-                    var17 = var15;
-                    var13 = var17;
-                    if(!var17) { _fun0004_ip = 94; continue _fun0004 }
-case 95:
-                    var17 = var11;
-                    var17 = var17.return;
-                    var13 = var16 != var17;
-case 94:
-                    if(!var13) { _fun0004_ip = 96; continue _fun0004 }
-case 97:
-                    var17 = var11;
-                    var13 = var17.return;
-                    var13 = var13.bind(var17)();
-                    SaveGenerator(address=1067);
-case 98:
-                    return var13;
-case 99:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=16);
-                    if(var17) { _fun0004_ip = 100; continue _fun0004 }
-case 96: // try_end4
-                    var17 = var12;
-                    if(var17) { _fun0004_ip = 101; continue _fun0004 }
-case 102: // try_end12
-                    return var14;
-case 101: // try_start_13
-                    var14 = var9;
-                    throw var14;
-case 100:
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 103; continue _fun0004 }
-case 104: // try_end13
-                    return var13;
-case 103: // try_start_14
-                    var13 = var9;
-                    throw var13;
-case 105: // catch_target4
-                    CatchBlockStart(arg_register=12);
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 106; continue _fun0004 }
-case 107:
-                    throw var13;
-case 106:
-                    var13 = var9;
-                    throw var13;
-case 108: // try_start_5 // catch_target0
-                    CatchBlockStart(arg_register=8);
-                    var12 = true;
-case 65: // try_start_6 // try_end5
-                    var14 = var15;
-                    var13 = var14;
-                    if(!var14) { _fun0004_ip = 109; continue _fun0004 }
-case 110:
-                    var14 = var11;
-                    var14 = var14.return;
-                    var13 = var16 != var14;
-case 109:
-                    if(!var13) { _fun0004_ip = 111; continue _fun0004 }
-case 112:
-                    var14 = var11;
-                    var13 = var14.return;
-                    var13 = var13.bind(var14)();
-                    SaveGenerator(address=1162);
-case 113:
-                    return var13;
-case 114:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 115; continue _fun0004 }
-case 111: // try_end6
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 116; continue _fun0004 }
+                    var10 = undefined;
+                    var12 = undefined;
+                    SaveGenerator(address=65);
+case 12:
+                    return var4;
+case 13:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                    if(var6) { _fun0004_ip = 14; continue _fun0004 }
+case 2:
+                    var16 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var8 = 1;
+                    var9 = var9[var8];
+                    var18 = var16.bind(var4)(var9);
+                    var16 = var18.dispatch;
+                    var9 = {};
+                    var19 = 'GUILD_SETTINGS_ROLES_SUBMITTING';
+                    var9['type'] = var19;
+                    var9 = var16.bind(var18)(var9);
+case 15: // try_start_8
+                    var16 = var7;
+                    var18 = null;
+                    var16 = var18 != var16;
+                    var9 = var16;
+                    if(!var16) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+                    var16 = var7;
+                    var19 = var16.length;
+                    var16 = 0;
+                    var9 = var19 > var16;
+case 16:
+                    if(!var9) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
+                    var16 = _closure1_slot1;
+                    var19 = _closure1_slot2;
+                    var9 = 2;
+                    var9 = var19[var9];
+                    var19 = var16.bind(var4)(var9);
+                    var16 = var19.batchRoleUpdate;
+                    var9 = var23;
+                    var7 = var16.bind(var19)(var9, var7);
+                    SaveGenerator(address=190);
+case 20:
+                    return var7;
+case 21:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
+                    if(var9) { _fun0004_ip = 22; continue _fun0004 }
+case 18:
+                    var9 = var22;
+                    if(!(var18 != var9)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+                    var9 = var22;
+                    var9 = var9.length;
+                    var21 = 0;
+                    var20 = 2;
+                    var19 = '';
+                    if(!(var9 > var21)) { _fun0004_ip = 23; continue _fun0004 }
+case 25:
+                    var16 = var22;
+                    var9 = var16.pop;
+                    var16 = var9.bind(var16)();
+                    var29 = var16;
+                    var16 = var18 != var16;
+                    var9 = var16;
+                    if(!var16) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
+                    var16 = var29;
+                    var16 = var16.name;
+                    var9 = var19 !== var16;
+case 26:
+                    if(!var9) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+                    var16 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var20];
+                    var32 = var16.bind(var4)(var9);
+                    var31 = var32.updateRole;
+                    var30 = var23;
+                    var33 = var29;
+                    var16 = var33.id;
+                    var9 = {};
+                    var34 = var33.name;
+                    var9['name'] = var34;
+                    var33 = var33.description;
+                    var27 = var33;
+                    var34 = var18 != var33;
+                    var33 = undefined;
+                    if(!var34) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
+                    var33 = var27;
+case 30:
+                    var9['description'] = var33;
+                    var33 = var29;
+                    var34 = var33.permissions;
+                    var9['permissions'] = var34;
+                    var34 = var33.color;
+                    var9['color'] = var34;
+                    var33 = var33.colors;
+                    var28 = var33;
+                    var34 = var18 != var33;
+                    var33 = undefined;
+                    if(!var34) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
-                    var17 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var14 = var14[var5];
-                    var18 = var17.bind(var2)(var14);
-                    var17 = var18.dispatch;
-                    var14 = {};
-                    var19 = 'GUILD_SETTINGS_ROLES_SAVE_SUCCESS';
-                    var14['type'] = var19;
-                    var14 = var17.bind(var18)(var14);
-case 117: // try_end14
-                    _fun0004_ip = 118; continue _fun0004;
-case 116: // try_start_15
-                    var14 = var9;
-                    throw var14;
+                    var33 = var28;
+case 32:
+                    var9['colors'] = var33;
+                    var33 = var29;
+                    var34 = var33.hoist;
+                    var9['hoist'] = var34;
+                    var34 = var33.mentionable;
+                    var9['mentionable'] = var34;
+                    var34 = var33.icon;
+                    var9['icon'] = var34;
+                    var33 = var33.unicodeEmoji;
+                    var9['unicodeEmoji'] = var33;
+                    var9 = var31.bind(var32)(var30, var16, var9);
+                    SaveGenerator(address=449);
+case 34:
+                    return var9;
+case 35:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=15);
+                    if(var16) { _fun0004_ip = 36; continue _fun0004 }
+case 28:
+                    var16 = var22;
+                    if(!(var18 != var16)) { _fun0004_ip = 23; continue _fun0004 }
+case 37:
+                    var16 = var22;
+                    var16 = var16.length;
+                    if(var16 > var21) { _fun0004_ip = 25; continue _fun0004 }
+case 23:
+                    var16 = var24;
+                    if(!(var18 != var16)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+                    var16 = var15;
+                    if(!(var18 != var16)) { _fun0004_ip = 38; continue _fun0004 }
+case 40:
+                    var17 = false;
+                    var14 = false;
+case 41: // try_start_0 // try_start_1
+                    var20 = var15;
+                    var15 = global;
+                    var16 = var15.Symbol;
+                    var19 = 'undefined';
+                    var16 = typeof var16;
+                    var32 = undefined;
+                    var31 = undefined;
+                    if(!(var19 !== var16)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
+                    var16 = var15.Symbol;
+                    var32 = var16.asyncIterator;
+                    var16 = var15.Symbol;
+                    var31 = var16.iterator;
+case 42:
+                    var30 = '@@asyncIterator';
+                    var29 = '@@iterator';
+                    var28 = undefined;
+                    var27 = var8;
+case 44:
+                    if(!var32) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+                    var19 = var20[var32];
+                    var28 = var19;
+                    if(!(var18 == var28)) { _fun0004_ip = 47; continue _fun0004 }
+case 45:
+                    if(!var31) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
+                    var16 = var20[var31];
+                    var28 = var16;
+                    if(!(var18 == var28)) { _fun0004_ip = 50; continue _fun0004 }
+case 48:
+                    var21 = parseFloat(var27);
+                    var27 = var21 - 1;
+                    var32 = var30;
+                    var31 = var29;
+                    if(var21) { _fun0004_ip = 44; continue _fun0004 }
+case 51:
+                    var27 = var15.TypeError;
+                    var15 = var27.prototype;
+                    var21 = Object.create(var15, {constructor: {value: var27}});
+                    var37 = 'Object is not async iterable';
+                    var38 = var21;
+                    var15 = new var38[var27](var37, var36);
+                    var15 = var15 instanceof Object ? var15 : var21;
+                    throw var15;
+case 50:
+                    var21 = _closure1_slot4;
+                    var15 = var16.call;
+                    var37 = var15.bind(var16)(var20);
+                    var16 = var21.prototype;
+                    var16 = Object.create(var16, {constructor: {value: var21}});
+                    var38 = var16;
+                    var15 = new var38[var21](var37, var36);
+                    var16 = var15 instanceof Object ? var15 : var16;
+                    _fun0004_ip = 52; continue _fun0004;
+case 47:
+                    var15 = var19.call;
+                    var16 = var15.bind(var19)(var20);
+case 52:
+                    var13 = var16;
+                    var15 = var16.next;
+                    var16 = var15.bind(var16)();
+                    SaveGenerator(address=707);
+case 53:
+                    return var16;
+case 54:
+                    ResumeGenerator(result_out_reg=15, return_bool_out_reg=14);
+                    if(var15) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
+                    var25 = var16;
+                    var15 = var16.done;
+                    var15 = !var15;
+                    var17 = var15;
+                    var21 = 3;
+                    if(!var15) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
+                    var15 = var25;
+                    var28 = var15.value;
+                    var19 = var24;
+                    var15 = var19.get;
+                    var15 = var15.bind(var19)(var28);
+                    var26 = var15;
+                    var20 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var19 = var19[var21];
+                    var27 = var20.bind(var4)(var19);
+                    var20 = var27.putRoleConnectionsConfigurations;
+                    var19 = var23;
+                    if(!(var18 == var15)) { _fun0004_ip = 59; continue _fun0004 }
+case 60:
+                    var15 = new Array(0);
+                    _fun0004_ip = 61; continue _fun0004;
+case 59:
+                    var15 = var26;
+case 61:
+                    var19 = var20.bind(var27)(var19, var28, var15);
+                    SaveGenerator(address=813);
+case 62:
+                    return var19;
+case 63:
+                    ResumeGenerator(result_out_reg=18, return_bool_out_reg=14);
+                    if(var15) { _fun0004_ip = 64; continue _fun0004 }
+case 65:
+                    var17 = false;
+                    var20 = var13;
+                    var15 = var20.next;
+                    var20 = var15.bind(var20)();
+                    SaveGenerator(address=840);
+case 66:
+                    return var20;
+case 67:
+                    ResumeGenerator(result_out_reg=19, return_bool_out_reg=14);
+                    if(var15) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
+                    var25 = var20;
+                    var15 = var20.done;
+                    var15 = !var15;
+                    var17 = var15;
+                    if(var15) { _fun0004_ip = 58; continue _fun0004 }
+case 57: // try_end0
+                    _fun0004_ip = 70; continue _fun0004;
+case 68: // try_start_2 // try_end1
+                    var21 = var17;
+                    var15 = var21;
+                    if(!var21) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
+                    var21 = var13;
+                    var21 = var21.return;
+                    var15 = var18 != var21;
+case 71:
+                    if(!var15) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
+                    var21 = var13;
+                    var15 = var21.return;
+                    var15 = var15.bind(var21)();
+                    SaveGenerator(address=910);
+case 75:
+                    return var15;
+case 76:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=20);
+                    if(var21) { _fun0004_ip = 77; continue _fun0004 }
+case 73: // try_end2
+                    var21 = var14;
+                    if(var21) { _fun0004_ip = 78; continue _fun0004 }
+case 79: // try_end8
+                    return var20;
+case 78: // try_start_9
+                    var20 = var11;
+                    throw var20;
+case 77:
+                    var20 = var14;
+                    if(var20) { _fun0004_ip = 80; continue _fun0004 }
+case 81: // try_end9
+                    return var15;
+case 80: // try_start_10
+                    var15 = var11;
+                    throw var15;
+case 82: // catch_target2
+                    CatchBlockStart(arg_register=14);
+                    var20 = var14;
+                    if(var20) { _fun0004_ip = 83; continue _fun0004 }
+case 84:
+                    throw var15;
+case 83:
+                    var15 = var11;
+                    throw var15;
+case 64: // try_start_3
+                    var20 = var17;
+                    var15 = var20;
+                    if(!var20) { _fun0004_ip = 85; continue _fun0004 }
+case 86:
+                    var20 = var13;
+                    var20 = var20.return;
+                    var15 = var18 != var20;
+case 85:
+                    if(!var15) { _fun0004_ip = 87; continue _fun0004 }
+case 88:
+                    var20 = var13;
+                    var15 = var20.return;
+                    var15 = var15.bind(var20)();
+                    SaveGenerator(address=1001);
+case 89:
+                    return var15;
+case 90:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=19);
+                    if(var20) { _fun0004_ip = 91; continue _fun0004 }
+case 87: // try_end3
+                    var20 = var14;
+                    if(var20) { _fun0004_ip = 92; continue _fun0004 }
+case 93: // try_end10
+                    return var19;
+case 92: // try_start_11
+                    var19 = var11;
+                    throw var19;
+case 91:
+                    var19 = var14;
+                    if(var19) { _fun0004_ip = 94; continue _fun0004 }
+case 95: // try_end11
+                    return var15;
+case 94: // try_start_12
+                    var15 = var11;
+                    throw var15;
+case 96: // catch_target3
+                    CatchBlockStart(arg_register=14);
+                    var19 = var14;
+                    if(var19) { _fun0004_ip = 97; continue _fun0004 }
+case 98:
+                    throw var15;
+case 97:
+                    var15 = var11;
+                    throw var15;
+case 55: // try_start_4
+                    var19 = var17;
+                    var15 = var19;
+                    if(!var19) { _fun0004_ip = 99; continue _fun0004 }
+case 100:
+                    var19 = var13;
+                    var19 = var19.return;
+                    var15 = var18 != var19;
+case 99:
+                    if(!var15) { _fun0004_ip = 101; continue _fun0004 }
+case 102:
+                    var19 = var13;
+                    var15 = var19.return;
+                    var15 = var15.bind(var19)();
+                    SaveGenerator(address=1092);
+case 103:
+                    return var15;
+case 104:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=18);
+                    if(var19) { _fun0004_ip = 105; continue _fun0004 }
+case 101: // try_end4
+                    var19 = var14;
+                    if(var19) { _fun0004_ip = 106; continue _fun0004 }
+case 107: // try_end12
+                    return var16;
+case 106: // try_start_13
+                    var16 = var11;
+                    throw var16;
+case 105:
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 108; continue _fun0004 }
+case 109: // try_end13
+                    return var15;
+case 108: // try_start_14
+                    var15 = var11;
+                    throw var15;
+case 110: // catch_target4
+                    CatchBlockStart(arg_register=14);
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 111; continue _fun0004 }
+case 112:
+                    throw var15;
+case 111:
+                    var15 = var11;
+                    throw var15;
+case 113: // try_start_5 // catch_target0
+                    CatchBlockStart(arg_register=10);
+                    var14 = true;
+case 70: // try_start_6 // try_end5
+                    var16 = var17;
+                    var15 = var16;
+                    if(!var16) { _fun0004_ip = 114; continue _fun0004 }
 case 115:
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 119; continue _fun0004 }
-case 120: // try_end15
-                    return var13;
-case 119: // try_start_16
-                    var13 = var9;
-                    throw var13;
-case 121: // catch_target6
-                    CatchBlockStart(arg_register=12);
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 122; continue _fun0004 }
-case 123:
-                    throw var13;
-case 122:
-                    var13 = var9;
-                    throw var13;
-case 124: // catch_target1 // catch_target5
-                    CatchBlockStart(arg_register=12);
-case 125: // try_start_7
-                    var14 = var15;
-                    if(!var15) { _fun0004_ip = 126; continue _fun0004 }
+                    var16 = var13;
+                    var16 = var16.return;
+                    var15 = var18 != var16;
+case 114:
+                    if(!var15) { _fun0004_ip = 116; continue _fun0004 }
+case 117:
+                    var16 = var13;
+                    var15 = var16.return;
+                    var15 = var15.bind(var16)();
+                    SaveGenerator(address=1187);
+case 118:
+                    return var15;
+case 119:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=15);
+                    if(var16) { _fun0004_ip = 120; continue _fun0004 }
+case 116: // try_end6
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 121; continue _fun0004 }
+case 38:
+                    var19 = _closure1_slot1;
+                    var16 = _closure1_slot2;
+                    var16 = var16[var8];
+                    var20 = var19.bind(var4)(var16);
+                    var19 = var20.dispatch;
+                    var16 = {};
+                    var21 = 'GUILD_SETTINGS_ROLES_SAVE_SUCCESS';
+                    var16['type'] = var21;
+                    var16 = var19.bind(var20)(var16);
+case 122: // try_end14
+                    _fun0004_ip = 123; continue _fun0004;
+case 121: // try_start_15
+                    var16 = var11;
+                    throw var16;
+case 120:
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 124; continue _fun0004 }
+case 125: // try_end15
+                    return var15;
+case 124: // try_start_16
+                    var15 = var11;
+                    throw var15;
+case 126: // catch_target6
+                    CatchBlockStart(arg_register=14);
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 127; continue _fun0004 }
+case 128:
+                    throw var15;
 case 127:
                     var15 = var11;
-                    var15 = var15.return;
-                    var14 = var16 != var15;
-case 126:
-                    if(!var14) { _fun0004_ip = 128; continue _fun0004 }
-case 129:
-                    var14 = var11;
-                    var11 = var14.return;
-                    var11 = var11.bind(var14)();
-                    SaveGenerator(address=1293);
-case 130:
-                    return var11;
-case 131:
-                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 132; continue _fun0004 }
-case 128: // try_end7
-                    var14 = var12;
-                    if(var14) { _fun0004_ip = 133; continue _fun0004 }
-case 134:
-                    throw var13;
-case 133:
-                    var13 = var9;
-                    throw var13;
+                    throw var15;
+case 129: // catch_target1 // catch_target5
+                    CatchBlockStart(arg_register=14);
+case 130: // try_start_7
+                    var16 = var17;
+                    if(!var17) { _fun0004_ip = 131; continue _fun0004 }
 case 132:
-                    var13 = var12;
-                    if(var13) { _fun0004_ip = 135; continue _fun0004 }
-case 136: // try_end16
-                    return var11;
-case 135: // try_start_17
-                    var11 = var9;
-                    throw var11;
-case 137: // catch_target7
-                    CatchBlockStart(arg_register=10);
-                    if(var12) { _fun0004_ip = 138; continue _fun0004 }
+                    var17 = var13;
+                    var17 = var17.return;
+                    var16 = var18 != var17;
+case 131:
+                    if(!var16) { _fun0004_ip = 133; continue _fun0004 }
+case 134:
+                    var16 = var13;
+                    var13 = var16.return;
+                    var13 = var13.bind(var16)();
+                    SaveGenerator(address=1318);
+case 135:
+                    return var13;
+case 136:
+                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=15);
+                    if(var16) { _fun0004_ip = 137; continue _fun0004 }
+case 133: // try_end7
+                    var16 = var14;
+                    if(var16) { _fun0004_ip = 138; continue _fun0004 }
 case 139:
-                    throw var11;
+                    throw var15;
 case 138:
-                    throw var9;
-case 31: // try_end17
-                    return var8;
-case 17:
-                    return var4;
-case 140: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17
-                    CatchBlockStart(arg_register=7);
-                    var6 = var8;
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
-                    var5 = var4.bind(var2)(var3);
-                    var4 = var5.dispatch;
-                    var3 = {};
-                    var9 = 'GUILD_SETTINGS_ROLES_SAVE_FAIL';
-                    var3['type'] = var9;
-                    var8 = var8.body;
-                    var10 = var8;
-                    var9 = null;
-                    var11 = var9 == var8;
-                    var8 = undefined;
-                    if(var11) { _fun0004_ip = 141; continue _fun0004 }
-case 142:
-                    var8 = var10.message;
-case 141:
-                    var7 = var8;
-                    if(!(var9 == var8)) { _fun0004_ip = 143; continue _fun0004 }
+                    var15 = var11;
+                    throw var15;
+case 137:
+                    var15 = var14;
+                    if(var15) { _fun0004_ip = 140; continue _fun0004 }
+case 141: // try_end16
+                    return var13;
+case 140: // try_start_17
+                    var13 = var11;
+                    throw var13;
+case 142: // catch_target7
+                    CatchBlockStart(arg_register=12);
+                    if(var14) { _fun0004_ip = 143; continue _fun0004 }
 case 144:
-                    var8 = global;
-                    var9 = var8.Object;
-                    var8 = var9.values;
-                    var6 = var6.body;
-                    var8 = var8.bind(var9)(var6);
-                    var6 = 0;
-                    var6 = var8[var6];
-                    _fun0004_ip = 145; continue _fun0004;
+                    throw var13;
 case 143:
-                    var6 = var7;
-case 145:
-                    var3['message'] = var6;
-                    var3 = var4.bind(var5)(var3);
-case 118:
+                    throw var11;
+case 36: // try_end17
+                    return var9;
+case 22:
+                    return var7;
+case 145: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17
+                    CatchBlockStart(arg_register=8);
+                    var3 = var9;
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var8];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var11 = 'GUILD_SETTINGS_ROLES_SAVE_FAIL';
+                    var6['type'] = var11;
+                    var9 = var9.body;
+                    var12 = var9;
+                    var11 = null;
+                    var13 = var11 == var9;
+                    var9 = undefined;
+                    if(var13) { _fun0004_ip = 146; continue _fun0004 }
+case 147:
+                    var9 = var12.message;
+case 146:
+                    var10 = var9;
+                    if(!(var11 == var9)) { _fun0004_ip = 148; continue _fun0004 }
+case 149:
+                    var9 = global;
+                    var12 = var9.Object;
+                    var11 = var12.values;
+                    var9 = var3;
+                    var9 = var9.body;
+                    var11 = var11.bind(var12)(var9);
+                    var9 = 0;
+                    var9 = var11[var9];
+                    _fun0004_ip = 150; continue _fun0004;
+case 148:
+                    var9 = var10;
+case 150:
+                    var6['message'] = var9;
+                    var6 = var7.bind(var8)(var6);
+                    var5 = var5.throwErr;
+                    if(var5) { _fun0004_ip = 151; continue _fun0004 }
+case 123:
+                    return var4;
+case 151:
+                    throw var3;
+case 14:
                     return var2;
 case 8:
                     return var1;
                 }
             };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
             return var1;
         };
         var4 = var4.bind(var5)(var3);

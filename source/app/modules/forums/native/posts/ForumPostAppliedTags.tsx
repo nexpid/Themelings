@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.FORUM_POST_TAG_BACKGROUND;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var12;
     var4['tag'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};

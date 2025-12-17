@@ -452,8 +452,10 @@ case 10:
             var8 = _closure1_slot1;
             var6 = 16;
             var6 = var9[var6];
-            var6 = var8.bind(var4)(var6);
-            var22 = var6.bind(var4)(var18, var3);
+            var8 = var8.bind(var4)(var6);
+            var6 = {};
+            var6['unread'] = var3;
+            var22 = var8.bind(var4)(var18, var6);
             var6 = null;
             var13 = var6 != var22;
             var21 = var1;
@@ -858,7 +860,7 @@ case 84:
             var14 = 28;
             var14 = var23[var14];
             var14 = var15.bind(var4)(var14);
-            var15 = var14.PrivateChannelRowPreview;
+            var15 = var14.ChannelRowPreview;
             var14 = {};
             var14['message'] = var22;
             var14['channel'] = var18;

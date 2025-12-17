@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.TOAST_BG;
+    var12 = var12.MOBILE_TOAST_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10[var5];
         var11 = var8.bind(var4)(var3);
         var3 = var11.useAnimatedStyle;
-        var2 = function h() {
+        var2 = function D() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = {};

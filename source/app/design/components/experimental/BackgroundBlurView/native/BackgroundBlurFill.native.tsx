@@ -129,7 +129,7 @@ case 0:
             var1 = var7[var1];
             var1 = var3.bind(var6)(var1);
             var1 = var1.colors;
-            var3 = var1.BLUR_FALLBACK;
+            var3 = var1.BACKGROUND_SCRIM;
             var1 = arg1;
             var1 = var4.bind(var5)(var3, var1);
             var3 = null;
@@ -369,7 +369,7 @@ case 20:
             var8 = var12[var3];
             var8 = var2.bind(var4)(var8);
             var8 = var8.colors;
-            var8 = var8.BLUR_FALLBACK;
+            var8 = var8.BACKGROUND_SCRIM;
             var21 = var13.bind(var14)(var8, var11);
             _closure2_slot3 = var21;
             var5 = var12[var5];
@@ -378,7 +378,7 @@ case 20:
             var3 = var12[var3];
             var3 = var2.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BLUR_FALLBACK_PRESSED;
+            var3 = var3.BACKGROUND_SCRIM_LIGHTBOX;
             var14 = var5.bind(var8)(var3, var11);
             _closure2_slot4 = var14;
             var3 = 7;
@@ -391,7 +391,7 @@ case 20:
             var3 = var12[var19];
             var8 = var15.bind(var4)(var3);
             var7 = var8.useAnimatedStyle;
-            var3 = function p() {
+            var3 = function T() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -450,7 +450,7 @@ case 20:
             var3 = var12[var19];
             var7 = var15.bind(var4)(var3);
             var3 = var7.useAnimatedProps;
-            var1 = function T() {
+            var1 = function p() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = {};

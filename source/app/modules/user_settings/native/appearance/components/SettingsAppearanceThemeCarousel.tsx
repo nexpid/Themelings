@@ -579,7 +579,7 @@ case 20:
             var32 = var32.THEME_ITEM_HEIGHT;
             var26['height'] = var32;
             var26['loop'] = var31;
-            var26['pagingEnabled'] = var31;
+            var26['pagingEnabled'] = var25;
             var26['defaultIndex'] = var30;
             var26['onSnapToItem'] = var29;
             var29 = 200;

@@ -185,26 +185,26 @@ case 2:
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var1 = _closure2_slot3;
-                var3 = null;
-                if(!(var3 != var1)) { _fun0002_ip = 4; continue _fun0002 }
+                var3 = _closure2_slot3;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var1 = _closure2_slot1;
-                if(!(var3 == var1)) { _fun0002_ip = 6; continue _fun0002 }
+                var3 = _closure2_slot1;
+                if(!(var1 == var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 4:
-                var1 = undefined;
-                return var1;
+                var3 = undefined;
+                return var3;
 case 6:
                 var5 = _closure2_slot4;
-                var1 = _closure2_slot1;
-                var1 = var1.cost;
-                if(!(!(var5 < var1))) { _fun0002_ip = 7; continue _fun0002 }
+                var3 = _closure2_slot1;
+                var3 = var3.cost;
+                if(!(!(var5 < var3))) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
                 var6 = _closure2_slot2;
-                var1 = undefined;
+                var3 = undefined;
                 var5 = true;
-                var7 = var6.bind(var1)(var5);
-                var5 = var3 == var7;
+                var7 = var6.bind(var3)(var5);
+                var5 = var1 == var7;
                 if(var5) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
                 var6 = var7.then;
@@ -212,49 +212,57 @@ case 10:
                     var1 = undefined;
                     return var1;
                 };
-                var1 = var6.bind(var7)(var5);
+                var3 = var6.bind(var7)(var5);
 case 9:
-                return var1;
+                return var3;
 case 7:
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 13;
-                var5 = var5[var1];
-                var1 = undefined;
-                var8 = var6.bind(var1)(var5);
-                var6 = var8.getAvailableGuildBoostSlots;
-                var5 = _closure1_slot5;
-                var5 = var5.boostSlots;
-                var6 = var6.bind(var8)(var5);
-                var8 = var6.length;
-                var5 = 0;
-                if(!(var8 > var5)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var7 = 14;
-                var7 = var9[var7];
-                var8 = var8.bind(var1)(var7);
-                var7 = var8.openTransferModal;
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var5 = 13;
                 var6 = var6[var5];
-                var5 = _closure2_slot3;
-                var5 = var5.id;
-                var5 = var7.bind(var8)(var6, var5);
-case 11:
-                var5 = _closure2_slot2;
-                var4 = true;
-                var4 = var5.bind(var1)(var4);
-                var3 = var3 == var4;
+                var5 = undefined;
+                var8 = var7.bind(var5)(var6);
+                var7 = var8.getAvailableGuildBoostSlots;
+                var6 = _closure1_slot5;
+                var6 = var6.boostSlots;
+                var8 = var7.bind(var8)(var6);
+                var6 = _closure2_slot1;
+                var7 = var6.cost;
+                var6 = _closure2_slot4;
+                var7 = var7 - var6;
+                var9 = var8.length;
+                var6 = 0;
+                if(!(!(var9 > var6))) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                var10 = _closure2_slot2;
+                var9 = true;
+                var10 = var10.bind(var5)(var9);
+                var9 = var1 == var10;
                 var1 = undefined;
-                if(var3) { _fun0002_ip = 13; continue _fun0002 }
+                if(var9) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                var3 = var4.then;
-                var2 = function() {
+                var9 = var10.then;
+                var4 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                var1 = var3.bind(var4)(var2);
+                var1 = var9.bind(var10)(var4);
 case 13:
+                _fun0002_ip = 15; continue _fun0002;
+case 11:
+                var4 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var3 = 14;
+                var3 = var9[var3];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.openTransferModal;
+                var3 = var8.slice;
+                var3 = var3.bind(var8)(var6, var7);
+                var2 = _closure2_slot3;
+                var2 = var2.id;
+                var2 = var4.bind(var5)(var3, var2);
+                var1 = undefined;
+case 15:
                 return var1;
             }
         };

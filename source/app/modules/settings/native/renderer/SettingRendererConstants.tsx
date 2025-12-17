@@ -27,8 +27,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['STATIC'] = var5;
     var5 = 'radio';
     var6['RADIO'] = var5;
-    var5 = 'checkbox';
-    var6['CHECKBOX'] = var5;
     var5 = 'volume_slider';
     var6['VOLUME_SLIDER'] = var5;
     var5 = 'slider';

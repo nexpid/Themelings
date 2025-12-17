@@ -368,6 +368,178 @@ case 41:
         return var1;
     };
     var _closure1_slot9 = var1;
+    var1 = function _fetchSocialLayerStorefrontRecommendations() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    StartGenerator();
+                    var2 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 53; continue _fun0003 }
+case 3:
+                    var8 = var2.applicationId;
+                    var7 = var2.userIds;
+                    var4 = var2.maxRecommendations;
+                    var6 = undefined;
+                    if(!(var4 === var6)) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
+                    var4 = 6;
+case 54:
+                    var13 = var4;
+                    var2 = var2.includeWishlists;
+                    if(!(var2 === var6)) { _fun0003_ip = 56; continue _fun0003 }
+case 57:
+                    var2 = false;
+case 56:
+                    var14 = var2;
+                    SaveGenerator(address=65);
+case 58:
+                    return var6;
+case 59:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
+                    var3 = var7;
+                    var4 = var3.length;
+                    var3 = 0;
+                    if(!(var3 !== var4)) { _fun0003_ip = 49; continue _fun0003 }
+case 62:
+                    var10 = _closure1_slot4;
+                    var9 = var10.recommendationsByApplicationsAndUsers;
+                    var5 = var8;
+                    var3 = var7;
+                    var5 = var9.bind(var10)(var5, var3);
+                    var3 = null;
+                    if(!(var3 != var5)) { _fun0003_ip = 63; continue _fun0003 }
+case 16:
+                    var10 = var5.state;
+                    var9 = 'error';
+                    if(!(var9 !== var10)) { _fun0003_ip = 49; continue _fun0003 }
+case 64:
+                    var10 = var5.state;
+                    var9 = 'loading';
+                    if(!(var9 !== var10)) { _fun0003_ip = 49; continue _fun0003 }
+case 65:
+                    var10 = var5.state;
+                    var9 = 'success';
+                    if(!(var9 === var10)) { _fun0003_ip = 63; continue _fun0003 }
+case 66:
+                    var5 = var5.data;
+                    var9 = var5.numItemsRequested;
+                    var5 = var13;
+                    if(!(var9 >= var5)) { _fun0003_ip = 63; continue _fun0003 }
+case 49:
+                    return var6;
+case 63: // try_start_0
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var12 = 4;
+                    var5 = var10[var12];
+                    var11 = var9.bind(var6)(var5);
+                    var9 = var11.dispatch;
+                    var5 = {};
+                    var15 = 'SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_START';
+                    var5['type'] = var15;
+                    var17 = var8;
+                    var5['applicationId'] = var17;
+                    var15 = var7;
+                    var5['userIds'] = var15;
+                    var5 = var9.bind(var11)(var5);
+                    var9 = _closure1_slot0;
+                    var5 = 5;
+                    var5 = var10[var5];
+                    var5 = var9.bind(var6)(var5);
+                    var10 = var5.HTTP;
+                    var9 = var10.get;
+                    var5 = {};
+                    var16 = _closure1_slot5;
+                    var11 = var16.SOCIAL_LAYER_APPLCIATION_RECOMMENDATIONS;
+                    var11 = var11.bind(var16)(var17);
+                    var5['url'] = var11;
+                    var11 = true;
+                    var5['rejectWithError'] = var11;
+                    var11 = {};
+                    var11['user_ids'] = var15;
+                    var15 = var13;
+                    var11['max_recommendations'] = var15;
+                    var11['include_wishlists'] = var14;
+                    var5['query'] = var11;
+                    var5 = var9.bind(var10)(var5);
+                    SaveGenerator(address=329);
+case 67:
+                    return var5;
+case 68:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
+                    if(var9) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
+                    var11 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var9 = 6;
+                    var9 = var10[var9];
+                    var14 = var11.bind(var6)(var9);
+                    var11 = var14.transformSocialLayerStorefrontRecommendationServer;
+                    var9 = var5.body;
+                    var9 = var11.bind(var14)(var9);
+                    var11 = _closure1_slot1;
+                    var10 = var10[var12];
+                    var12 = var11.bind(var6)(var10);
+                    var11 = var12.dispatch;
+                    var10 = {};
+                    var14 = 'SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS';
+                    var10['type'] = var14;
+                    var19 = var10;
+                    var18 = var9;
+                    var14 = copyDataProperties(var19, var18);
+                    var15 = var7;
+                    var14 = 'userIds';
+                    var10[var14] = var15;
+                    var14 = var13;
+                    var13 = 'numItemsRequested';
+                    var10[var13] = var14;
+                    var10 = var11.bind(var12)(var10);
+case 71: // try_end0
+                    return var9;
+case 69:
+                    return var5;
+case 72: // catch_target0
+                    CatchBlockStart(arg_register=4);
+                    var5 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var9[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var9 = 'SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_FAILURE';
+                    var4['type'] = var9;
+                    var4['applicationId'] = var8;
+                    var4['userIds'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
+case 60:
+                    return var2;
+case 53:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -432,7 +604,7 @@ case 41:
         return var1;
     };
     var3['fetchSocialLayerStorefrontSku'] = var4;
-    var2 = function setSocialLayerStorefrontState(arg1, arg2, arg3) {
+    var4 = function setSocialLayerStorefrontState(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 4;
@@ -452,6 +624,17 @@ case 41:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setSocialLayerStorefrontState'] = var2;
+    var3['setSocialLayerStorefrontState'] = var4;
+    var2 = function fetchSocialLayerStorefrontRecommendations() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchSocialLayerStorefrontRecommendations'] = var2;
     return var1;
 })();

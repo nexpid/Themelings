@@ -257,11 +257,13 @@ case 12:
             var4 = 16;
             var4 = var6[var4];
             var5 = var5.bind(var3)(var4);
-            var4 = var21;
-            if(!var4) { _fun0002_ip = 17; continue _fun0002 }
+            var4 = {};
+            var6 = var21;
+            if(!var6) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var4 = !var18;
+            var6 = !var18;
 case 17:
+            var4['unread'] = var6;
             var6 = var5.bind(var3)(var17, var4);
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -322,10 +324,8 @@ case 19:
             var2 = 21;
             var2 = var7[var2];
             var2 = var4.bind(var3)(var2);
-            var4 = var2.GuildChannelRowPreview;
+            var4 = var2.ChannelRowPreview;
             var2 = {};
-            var7 = var17.guild_id;
-            var2['guildId'] = var7;
             var2['channel'] = var17;
             var2['message'] = var6;
             var6 = 'text-muted';

@@ -421,51 +421,52 @@ case 11:
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot4;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     StartGenerator();
-                    var7 = arg1;
+                    var6 = arg1;
+                    var5 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 46; continue _fun0005 }
-case 4:
-                    var10 = var7;
+case 47:
                     var2 = undefined;
+                    var7 = undefined;
                     var8 = undefined;
                     var9 = undefined;
-                    var5 = _closure1_slot5;
-                    var3 = var5.shouldAllowSurveyAction;
-                    var3 = var3.bind(var5)();
-                    var5 = !var3;
-                    var3 = !var5;
-                    if(var5) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
-                    var6 = var7.startsWith;
-                    var5 = 'quest_completed_';
-                    var5 = var6.bind(var7)(var5);
-                    var6 = !var5;
-                    var5 = !var6;
-                    if(!var6) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+                    var10 = _closure1_slot5;
+                    var3 = var10.shouldAllowSurveyAction;
+                    var3 = var3.bind(var10)();
+                    var10 = !var3;
+                    var3 = !var10;
+                    if(var10) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var6 = 10;
-                    var6 = var12[var6];
-                    var6 = var11.bind(var2)(var6);
-                    var6 = var6.SURVEY_ACTION_SAMPLE_PERCENTS;
-                    var7 = var6[var7];
-                    var6 = global;
-                    var11 = var6.Math;
-                    var6 = var11.random;
-                    var11 = var6.bind(var11)();
-                    var6 = 100;
-                    var6 = var6 * var11;
-                    var5 = var7 >= var6;
-case 49:
-                    var3 = var5;
-case 47:
-                    if(!var3) { _fun0005_ip = 51; continue _fun0005 }
+                    var10 = 10;
+                    var10 = var12[var10];
+                    var10 = var11.bind(var2)(var10);
+                    var10 = var10.SURVEY_ACTION_SAMPLE_PERCENTS;
+                    var11 = var10[var6];
+                    var10 = global;
+                    var12 = var10.Math;
+                    var10 = var12.random;
+                    var12 = var10.bind(var12)();
+                    var10 = 100;
+                    var10 = var10 * var12;
+                    var3 = var11 >= var10;
+case 48:
+                    if(!var3) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
+                    var3 = {};
+                    var3['action_type'] = var6;
+                    var7 = var3;
+                    var10 = null;
+                    if(!(var10 != var5)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+                    var3 = var7;
+                    var3['metadata'] = var5;
 case 52: // try_start_0
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -475,19 +476,17 @@ case 52: // try_start_0
                     var6 = var3.HTTP;
                     var5 = var6.post;
                     var3 = {};
-                    var7 = _closure1_slot10;
-                    var7 = var7.EMBEDDED_SURVEY_ACTION;
-                    var3['url'] = var7;
-                    var7 = {};
-                    var7['action_type'] = var10;
+                    var11 = _closure1_slot10;
+                    var11 = var11.EMBEDDED_SURVEY_ACTION;
+                    var3['url'] = var11;
                     var3['body'] = var7;
                     var7 = true;
                     var3['rejectWithError'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=217);
-case 53:
-                    return var3;
+                    SaveGenerator(address=208);
 case 54:
+                    return var3;
+case 20:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(var5) { _fun0005_ip = 55; continue _fun0005 }
 case 56:
@@ -499,7 +498,6 @@ case 56:
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.dispatch;
                     var4 = {'type': 'SURVEY_FETCHED', 'survey': null, 'isActionTriggered': true};
-                    var10 = null;
                     var11 = var10 == var3;
                     var7 = undefined;
                     if(var11) { _fun0005_ip = 57; continue _fun0005 }
@@ -515,12 +513,12 @@ case 57:
                     var4['survey'] = var7;
                     var4 = var5.bind(var6)(var4);
 case 60: // try_end0
-                    _fun0005_ip = 51; continue _fun0005;
+                    _fun0005_ip = 50; continue _fun0005;
 case 55:
                     return var3;
 case 61: // catch_target0
                     CatchBlockStart(arg_register=2);
-case 51:
+case 50:
                     return var2;
 case 46:
                     return var1;

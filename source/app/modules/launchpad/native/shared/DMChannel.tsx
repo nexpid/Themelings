@@ -137,8 +137,10 @@ case 4:
             var13 = var1.mentionCount;
             var1 = 9;
             var1 = var4[var1];
-            var1 = var2.bind(var3)(var1);
-            var20 = var1.bind(var3)(var10, var17);
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var1['unread'] = var17;
+            var20 = var2.bind(var3)(var10, var1);
             var12 = null;
             var1 = var12 != var20;
             var11 = undefined;
@@ -225,7 +227,7 @@ case 12:
             var13 = 16;
             var13 = var18[var13];
             var13 = var17.bind(var3)(var13);
-            var14 = var13.PrivateChannelRowPreview;
+            var14 = var13.ChannelRowPreview;
             var13 = {};
             var13['channel'] = var10;
             var13['message'] = var20;

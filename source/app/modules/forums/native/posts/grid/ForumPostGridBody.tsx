@@ -268,7 +268,7 @@ case 2:
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND;
+    var15 = var15.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var15;
     var4['extraMediaCountContainer'] = var9;
     var9 = {};

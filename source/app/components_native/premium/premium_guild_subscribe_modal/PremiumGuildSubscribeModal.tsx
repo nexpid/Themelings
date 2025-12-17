@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var2 = var1.guildId;
         var _closure2_slot0 = var2;
-        var1 = var1.previousGuildSubscriptionSlot;
+        var1 = var1.guildBoostSlots;
         var _closure2_slot1 = var1;
         var8 = _closure1_slot1;
         var10 = _closure1_slot2;
@@ -71,11 +71,16 @@ case 0:
                 if(!(var3 != var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var1 = _closure2_slot1;
-                if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+                if(!(var3 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+                var1 = _closure2_slot1;
+                var4 = var1.length;
+                var1 = 0;
+                if(!(!(var4 > var1))) { _fun0001_ip = 5; continue _fun0001 }
 case 2:
                 var1 = _closure2_slot0;
-                if(!(var3 == var1)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
+                if(!(var3 == var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = var2.push;
                 var1 = {};
                 var4 = _closure1_slot6;
@@ -83,11 +88,11 @@ case 6:
                 var1['name'] = var4;
                 var4 = {};
                 var6 = _closure2_slot1;
-                var4['previousGuildSubscriptionSlot'] = var6;
+                var4['guildBoostSlots'] = var6;
                 var1['params'] = var4;
                 var1 = var3.bind(var2)(var1);
-                _fun0001_ip = 7; continue _fun0001;
-case 5:
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
                 var3 = var2.push;
                 var1 = {};
                 var4 = _closure1_slot6;
@@ -97,11 +102,11 @@ case 5:
                 var6 = _closure2_slot0;
                 var4['guildId'] = var6;
                 var6 = _closure2_slot1;
-                var4['previousGuildSubscriptionSlot'] = var6;
+                var4['guildBoostSlots'] = var6;
                 var1['params'] = var4;
                 var1 = var3.bind(var2)(var1);
-                _fun0001_ip = 7; continue _fun0001;
-case 4:
+                _fun0001_ip = 8; continue _fun0001;
+case 5:
                 var3 = var2.push;
                 var1 = {};
                 var4 = _closure1_slot6;
@@ -111,10 +116,10 @@ case 4:
                 var6 = _closure2_slot0;
                 var4['guildId'] = var6;
                 var5 = _closure2_slot1;
-                var4['previousGuildSubscriptionSlot'] = var5;
+                var4['guildBoostSlots'] = var5;
                 var1['params'] = var4;
                 var1 = var3.bind(var2)(var1);
-case 7:
+case 8:
                 var1 = {};
                 var1['initialStack'] = var2;
                 var3 = function getScreens() {
@@ -177,13 +182,13 @@ case 0:
                             var6 = var7.bind(var8)(var6);
                             var8 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+                            if(var6) { _fun0002_ip = 6; continue _fun0002 }
 case 9:
                             var6 = 12;
                             var6 = var9[var6];
                             var6 = var8.bind(var3)(var6);
                             _fun0002_ip = 10; continue _fun0002;
-case 8:
+case 6:
                             var7 = 11;
                             var7 = var9[var7];
                             var6 = var8.bind(var3)(var7);

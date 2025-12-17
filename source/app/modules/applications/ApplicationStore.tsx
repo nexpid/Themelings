@@ -1534,7 +1534,7 @@ case 103:
     var2['WISHLIST_FETCH_SUCCESS'] = var8;
     var2['WISHLIST_ADD_SKU_SUCCESS'] = var8;
     var2['WISHLIST_REMOVE_SKU_SUCCESS'] = var8;
-    var4 = function handleSocialLayerStorefrontLoadSuccess(arg1) {
+    var8 = function handleSocialLayerStorefrontLoadSuccess(arg1) {
         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
@@ -1552,7 +1552,16 @@ case 79:
             return var1;
         }
     };
-    var2['SOCIAL_LAYER_STOREFRONT_LOAD_SUCCESS'] = var4;
+    var2['SOCIAL_LAYER_STOREFRONT_LOAD_SUCCESS'] = var8;
+    var4 = function handleSocialLayerStorefrontRecommendationsFetchSuccess(arg1) {
+        var1 = arg1;
+        var3 = var1.application;
+        var2 = _closure1_slot17;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var15 = var4;

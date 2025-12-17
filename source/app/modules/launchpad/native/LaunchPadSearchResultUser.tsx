@@ -288,7 +288,7 @@ case 28:
             var21 = 26;
             var21 = var26[var21];
             var21 = var25.bind(var3)(var21);
-            var22 = var21.PrivateChannelRowPreview;
+            var22 = var21.ChannelRowPreview;
             var21 = {};
             var21['channel'] = var28;
             var21['message'] = var27;
@@ -387,8 +387,10 @@ case 26:
         var3 = _closure1_slot1;
         var2 = 30;
         var2 = var10[var2];
-        var2 = var3.bind(var4)(var2);
-        var10 = var2.bind(var4)(var11, var9);
+        var3 = var3.bind(var4)(var2);
+        var2 = {};
+        var2['unread'] = var9;
+        var10 = var3.bind(var4)(var11, var2);
         var3 = _closure1_slot12;
         var2 = _closure1_slot16;
         var1 = {};

@@ -370,7 +370,7 @@ case 18:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.TYPING_INDICATOR_BG;
+    var14 = var14.MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var14;
     var7['typingWrapper'] = var10;
     var10 = {'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};

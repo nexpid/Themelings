@@ -144,55 +144,63 @@ case 0:
                     var3 = var5.get;
                     var2 = var4.skuId;
                     var3 = var3.bind(var5)(var2);
-                    var5 = _closure1_slot0;
+                    var5 = null;
+                    if(!(var5 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                    var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 6;
-                    var2 = var7[var2];
-                    var7 = undefined;
-                    var9 = var5.bind(var7)(var2);
-                    var8 = var9.isPremiumCollectiblesProduct;
-                    var5 = null;
-                    var2 = var3;
-                    if(!(var5 != var6)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                    var2 = var6;
+                    var7 = var7[var2];
+                    var2 = undefined;
+                    var7 = var8.bind(var2)(var7);
+                    var2 = var7.isPremiumCollectiblesProduct;
+                    var2 = var2.bind(var7)(var3);
+                    _fun0001_ip = 4; continue _fun0001;
 case 2:
-                    var2 = var8.bind(var9)(var2);
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var7 = 6;
+                    var8 = var8[var7];
+                    var7 = undefined;
+                    var8 = var9.bind(var7)(var8);
+                    var7 = var8.isPremiumCollectiblesPurchase;
+                    var2 = var7.bind(var8)(var6);
+case 4:
                     var8 = var5 == var3;
                     var7 = undefined;
-                    if(var8) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                    var7 = var3.isCategoryReward;
-case 4:
-                    var3 = var5 != var7;
-                    if(!var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                    var3 = var7;
+                    if(var8) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-                    if(var2) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-                    if(!(var5 == var6)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-                    if(var2) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-                    var2 = var3;
+                    var7 = var3.isCategoryReward;
+case 5:
+                    var3 = var5 != var7;
+                    if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+                    var3 = var7;
+case 7:
+                    if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+                    if(!(var5 == var6)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-                    if(var2) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+                    if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+                    var2 = var3;
+case 13:
+                    if(var2) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
                     var3 = var1.preview;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 14; continue _fun0001;
-case 10:
+                    _fun0001_ip = 15; continue _fun0001;
+case 11:
                     var3 = var1.purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 14; continue _fun0001;
-case 8:
+                    _fun0001_ip = 15; continue _fun0001;
+case 9:
                     var3 = var1.premium_purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-case 14:
+case 15:
                     return var1;
                 }
             };

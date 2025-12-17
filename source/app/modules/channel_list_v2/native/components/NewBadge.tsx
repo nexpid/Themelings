@@ -88,7 +88,7 @@ case 4:
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            var3 = var4.TOAST_BG;
+            var3 = var4.MOBILE_TOAST_BACKGROUND_DEFAULT;
 case 7:
             var2['backgroundColor'] = var3;
             var1['base'] = var2;

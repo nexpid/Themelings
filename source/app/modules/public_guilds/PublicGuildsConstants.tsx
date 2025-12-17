@@ -58,12 +58,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6;
     var4 = apply(var12, var11, var10);
     var2 = {};
+    var6 = 'intro';
+    var2['INTRO'] = var6;
     var6 = 'safety_check';
     var2['SAFETY_CHECK'] = var6;
     var6 = 'basics';
     var2['BASICS'] = var6;
     var6 = 'finish';
     var2['FINISH'] = var6;
+    var6 = 'rules';
+    var2['RULES'] = var6;
     var6 = 2;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

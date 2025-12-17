@@ -253,7 +253,9 @@ case 17:
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.openTransferModal;
-                var1 = _closure2_slot0;
+                var4 = _closure2_slot0;
+                var1 = new Array(1);
+                var1[0] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
