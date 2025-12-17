@@ -359,12 +359,6 @@
     "midnight": "#4d505b",
     "darker": "#4d505b"
   },
-  "CONTROL_SECONDARY_BACKGROUND_HOVER": {
-    "dark": "#6d6f78",
-    "light": "#4e5058",
-    "midnight": "#6c6f7c",
-    "darker": "#6c6f7c"
-  },
   "CONTROL_SECONDARY_BORDER_DEFAULT": {
     "dark": "#5865f2",
     "light": "#5865f2",
@@ -562,18 +556,6 @@
     "light": "#d3d4d74d",
     "midnight": "#d3d4d74d",
     "darker": "#d3d4d74d"
-  },
-  "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": {
-    "dark": "#232428cc",
-    "light": "#ebedefcc",
-    "midnight": "#212229cc",
-    "darker": "#212229cc"
-  },
-  "FORUM_POST_TAG_BACKGROUND": {
-    "dark": "#232428e6",
-    "light": "#ebedefe6",
-    "midnight": "#212229e6",
-    "darker": "#212229e6"
   },
   "GRADIENT_PROGRESS_PILL_BACKGROUND": {
     "dark": "#595a64",
@@ -886,6 +868,18 @@
     "light": "#060607",
     "midnight": "#ecedef",
     "darker": "#e4e5e8"
+  },
+  "MOBILE_TOAST_BACKGROUND_DEFAULT": {
+    "dark": "#111214",
+    "light": "#ffffff",
+    "midnight": "#212229",
+    "darker": "#2c2d35"
+  },
+  "MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT": {
+    "dark": "#2b2d31",
+    "light": "#f2f3f5",
+    "midnight": "#000000",
+    "darker": "#1c1d23"
   },
   "MODAL_BACKGROUND": {
     "dark": "#313338",
@@ -1432,18 +1426,6 @@
     "light": "#c4c9ce",
     "midnight": "#4d505b",
     "darker": "#4d505b"
-  },
-  "TOAST_BG": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
-  },
-  "TYPING_INDICATOR_BG": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
   },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
     "dark": "#2c2d3566",
