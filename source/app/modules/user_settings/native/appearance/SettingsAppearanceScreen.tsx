@@ -44,46 +44,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var2 = 11;
-        var2 = var6[var2];
-        var4 = undefined;
-        var2 = var5.bind(var4)(var2);
-        var7 = var2.SavedCustomThemesExperiment;
-        var5 = var7.useConfig;
-        var2 = {};
-        var8 = 'SettingsAppearanceScreen';
-        var2['location'] = var8;
-        var2 = var5.bind(var7)(var2);
-        var2 = var2.enabled;
-        var _closure2_slot0 = var2;
         var2 = _closure1_slot1;
-        var5 = 12;
-        var5 = var6[var5];
+        var6 = _closure1_slot2;
+        var4 = 11;
+        var5 = var6[var4];
+        var4 = undefined;
         var7 = var2.bind(var4)(var5);
         var5 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var1 = _closure2_slot0;
-                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
                 var4 = _closure1_slot4;
                 var3 = var4.shouldSync;
                 var2 = 'appearance';
-                var1 = var3.bind(var4)(var2);
-case 2:
-                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                var2 = var3.bind(var4)(var2);
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.fetchUserCustomThemes;
                 var1 = var1.bind(var2)();
-case 4:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -125,25 +109,25 @@ case 0:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.isAndroid;
                     var2 = var2.bind(var3)();
-                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure3_slot0;
                     var4 = var3.persistedFontScale;
                     var3 = var3.fontScale;
-                    if(!(var4 === var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!(var4 === var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure3_slot0;
                     var4 = var3.persistedIsClassicChatFontScaleEnabled;
                     var3 = var3.isClassicChatFontScaleEnabled;
-                    if(!(var4 === var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 10:
+                    if(!(var4 === var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                     var6 = _closure3_slot1;
                     var4 = var6.setOptions;
                     var3 = {};
                     var3['headerRight'] = var1;
                     var3 = var4.bind(var6)(var3);
-                    _fun0002_ip = 6; continue _fun0002;
-case 8:
+                    _fun0002_ip = 4; continue _fun0002;
+case 6:
                     var4 = _closure3_slot1;
                     var3 = var4.setOptions;
                     var2 = {};
@@ -180,7 +164,7 @@ case 8:
                     var5 = var7.bind(var8)(var6, var5);
                     var2['headerRight'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 6:
+case 4:
                     return var1;
                 }
             };
@@ -217,7 +201,7 @@ case 6:
         var5 = function() {
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var12[var1];
             var10 = undefined;
             var3 = var11.bind(var10)(var1);
@@ -313,7 +297,7 @@ case 6:
         var3 = new Array(0);
         var5 = var7.bind(var8)(var5, var3);
         var3 = _closure1_slot8;
-        var1 = 15;
+        var1 = 14;
         var1 = var6[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -322,7 +306,7 @@ case 6:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

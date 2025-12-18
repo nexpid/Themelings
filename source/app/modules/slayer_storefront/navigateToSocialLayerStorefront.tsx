@@ -214,20 +214,21 @@ case 0:
             var1 = arg1;
             var4 = var1.guildId;
             var2 = var1.invite;
+            var5 = var1.forceFetch;
             var1 = null;
-            if(!(var1 != var2)) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
-            var3 = var2.guild;
-            var5 = var1 == var3;
-            var2 = undefined;
-            if(var5) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
-            var2 = var3.id;
-case 32:
-            var4 = var2;
+            if(!(var1 != var2)) { _fun0002_ip = 5; continue _fun0002 }
 case 30:
-            if(!(var1 != var4)) { _fun0002_ip = 34; continue _fun0002 }
-case 4:
+            var3 = var2.guild;
+            var6 = var1 == var3;
+            var2 = undefined;
+            if(var6) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
+            var2 = var3.id;
+case 31:
+            var4 = var2;
+case 5:
+            if(!(var1 != var4)) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -235,9 +236,12 @@ case 4:
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
             var2 = var3.fetchSocialLayerStorefront;
-            var1 = true;
+            var1 = {};
+            var6 = true;
+            var1['eager'] = var6;
+            var1['forceFetch'] = var5;
             var1 = var2.bind(var3)(var4, var1);
-case 34:
+case 33:
             var1 = undefined;
             return var1;
         }

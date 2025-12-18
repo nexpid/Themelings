@@ -403,7 +403,7 @@ case 25:
                     var5 = var2.bind(var6)(var1);
                     var4 = var5.getExternalManagementMessage;
                     var2 = _closure2_slot0;
-                    var1 = {'returnCtaAsComponent': true, 'loadId': null, 'shouldAllowIfApplePaymentLinksEnabled': true, 'location': 'premium_manage_plan'};
+                    var1 = {'returnCtaAsComponent': true, 'loadId': null, 'shouldAllowExternalManagement': true};
                     var7 = _closure2_slot7;
                     var1['loadId'] = var7;
                     var7 = function onSuccessCallback() {

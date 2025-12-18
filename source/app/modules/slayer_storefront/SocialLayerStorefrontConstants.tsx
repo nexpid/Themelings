@@ -56,7 +56,7 @@ case 6:
         var9 = var9.GLOBAL_ENV;
         var12 = var9.RELEASE_CHANNEL;
         var9 = var4.STAGING;
-        var4 = '1441144127466115224';
+        var4 = '1400977487940292751';
         if(!(var12 === var9)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
         var4 = null;

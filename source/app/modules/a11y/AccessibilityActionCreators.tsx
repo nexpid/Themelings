@@ -571,7 +571,7 @@ case 7:
         return var1;
     };
     var3['setContrastMode'] = var4;
-    var2 = function setSwitchIconsEnabled(arg1) {
+    var4 = function setSwitchIconsEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 4;
@@ -587,6 +587,25 @@ case 7:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setSwitchIconsEnabled'] = var2;
+    var3['setSwitchIconsEnabled'] = var4;
+    var2 = function setHDRDynamicRange(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'UNSYNCED_USER_SETTINGS_UPDATE';
+        var2['type'] = var5;
+        var5 = {};
+        var6 = arg1;
+        var5['hdrDynamicRange'] = var6;
+        var2['settings'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setHDRDynamicRange'] = var2;
     return var1;
 })();

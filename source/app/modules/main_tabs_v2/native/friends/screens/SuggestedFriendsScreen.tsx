@@ -48,18 +48,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['flex'] = var10;
     var11 = 5;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_32;
-    var9['paddingTop'] = var13;
-    var4['emptyContainer'] = var9;
-    var9 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.spacing;
-    var11 = var11.PX_8;
+    var11 = var11.PX_32;
     var9['paddingTop'] = var11;
+    var4['emptyContainer'] = var9;
+    var9 = {};
     var9['flex'] = var10;
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
@@ -321,6 +316,8 @@ case 10:
             var10['sections'] = var15;
             var10['getItemProps'] = var14;
             var10['getSectionProps'] = var13;
+            var13 = 8;
+            var10['insetStart'] = var13;
             var9 = var12.bind(var4)(var11, var10);
 case 12:
             var6['children'] = var9;

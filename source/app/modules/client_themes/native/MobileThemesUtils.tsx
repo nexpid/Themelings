@@ -91,23 +91,13 @@ case 6:
     var2 = function useSavedCustomTheme() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var2 = 7;
-            var2 = var6[var2];
-            var4 = undefined;
-            var2 = var5.bind(var4)(var2);
-            var7 = var2.SavedCustomThemesExperiment;
-            var3 = var7.useConfig;
-            var2 = {};
-            var8 = 'useSavedTheme';
-            var2['location'] = var8;
-            var2 = var3.bind(var7)(var2);
-            var3 = var2.enabled;
-            var2 = 8;
-            var2 = var6[var2];
-            var5 = var5.bind(var4)(var2);
-            var4 = var5.useStateFromStores;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.useStateFromStores;
             var1 = _closure1_slot3;
             var2 = new Array(1);
             var2[0] = var1;
@@ -117,15 +107,11 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var2 = var4.bind(var5)(var2, var1);
-            var4 = null;
+            var2 = var3.bind(var4)(var2, var1);
             var1 = null;
+            var3 = var1 != var2;
             if(!var3) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-            var3 = var4 != var2;
-            var1 = null;
-            if(!var3) { _fun0003_ip = 7; continue _fun0003 }
-case 2:
+case 6:
             var1 = var2;
 case 7:
             return var1;
@@ -165,7 +151,7 @@ case 7:
     var13 = var10;
     var9 = arraySpread(var14, var13, var12);
     var _closure1_slot7 = var6;
-    var6 = 9;
+    var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -181,8 +167,8 @@ case 0:
             var5 = var1.bind(var2)();
             var1 = undefined;
             var2 = null;
-            if(!(var1 !== var5)) { _fun0004_ip = 9; continue _fun0004 }
-case 10:
+            if(!(var1 !== var5)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var4 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -199,7 +185,7 @@ case 10:
             var5 = var5.customTheme;
             var4['customThemeSettings'] = var5;
             var2 = var4;
-case 9:
+case 8:
             var1 = var3.bind(var1)(var2);
             return var1;
         }

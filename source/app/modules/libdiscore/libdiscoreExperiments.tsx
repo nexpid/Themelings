@@ -17,7 +17,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot3;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -41,7 +41,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -74,13 +74,13 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var4 = global;
     var8 = var4.Object;
     var7 = var8.defineProperty;
@@ -115,12 +115,23 @@ case 9:
     var5 = var11.bind(var1)(var5);
     var5 = var5.ensureValidMode;
     var _closure1_slot8 = var5;
+    var5 = 6;
+    var5 = var12[var5];
+    var5 = var11.bind(var1)(var5);
+    var7 = var5.Logger;
+    var5 = var7.prototype;
+    var6 = Object.create(var5, {constructor: {value: var7}});
+    var17 = 'LibdiscoreExperiments';
+    var18 = var6;
+    var5 = new var18[var7](var17, var16);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var _closure1_slot9 = var5;
     var9 = new Array(0);
-    var _closure1_slot9 = var9;
+    var _closure1_slot10 = var9;
     var5 = var4.Symbol;
     var4 = 'unknown';
     var4 = var5.bind(var1)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = function() {
         var4 = _closure1_slot7;
         var3 = function LibdiscoreCachedExperiment(arg1) {
@@ -133,9 +144,9 @@ case 9:
             var4['id'] = var3;
             var3 = null;
             var4['inner'] = var3;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var4['cachedConfig'] = var3;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = var3.push;
             var2 = var2.bind(var3)(var4);
             return var1;
@@ -183,32 +194,41 @@ case 11:
 case 0:
                 var1 = this;
                 var4 = var1.cachedConfig;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot11;
                 if(!(var4 === var3)) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                var6 = _closure1_slot0;
+                var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var5 = 6;
-                var3 = var3[var5];
-                var4 = undefined;
-                var6 = var6.bind(var4)(var3);
-                var3 = var6.isLibdiscoreLoaded;
-                var3 = var3.bind(var6)();
-                if(var3) { _fun0004_ip = 15; continue _fun0004 }
+                var6 = 7;
+                var4 = var3[var6];
+                var3 = undefined;
+                var5 = var5.bind(var3)(var4);
+                var4 = var5.isLibdiscoreLoaded;
+                var4 = var4.bind(var5)();
+                if(var4) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-                var1['cachedConfig'] = var4;
+                var1['cachedConfig'] = var3;
                 _fun0004_ip = 13; continue _fun0004;
-case 15:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var2 = var2[var5];
-                var3 = var3.bind(var4)(var2);
-                var2 = var3.getExperimentCacher;
-                var4 = var2.bind(var3)();
-                var3 = var4.getConfig;
-                var2 = var1.id;
-                var2 = var3.bind(var4)(var2);
-                var1['cachedConfig'] = var2;
+case 15: // try_start_0
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var4 = var4[var6];
+                var5 = var5.bind(var3)(var4);
+                var4 = var5.getExperimentCacher;
+                var6 = var4.bind(var5)();
+                var5 = var6.getConfig;
+                var4 = var1.id;
+                var4 = var5.bind(var6)(var4);
+                var1['cachedConfig'] = var4;
+case 17: // try_end0
+                _fun0004_ip = 13; continue _fun0004;
+case 18: // catch_target0
+                CatchBlockStart(arg_register=4);
+                var1['cachedConfig'] = var3;
+                var4 = _closure1_slot9;
+                var3 = var4.error;
+                var2 = 'Error getting experiment config';
+                var2 = var3.bind(var4)(var2, var5);
 case 13:
                 var1 = var1.cachedConfig;
                 return var1;
@@ -237,7 +257,7 @@ case 0:
                 var2 = this;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var1 = var4[var1];
                 var5 = undefined;
                 var4 = var3.bind(var5)(var1);
@@ -250,21 +270,21 @@ case 0:
                 var1 = 'getCurrentConfig';
                 var1 = var1 in var3;
                 var4 = var2.inner;
-                if(var1) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                if(var1) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var2 = var4.getConfig;
                 var1 = {};
                 var3 = 'default';
                 var1['location'] = var3;
                 var1 = var2.bind(var4)(var1);
-                _fun0005_ip = 19; continue _fun0005;
-case 17:
+                _fun0005_ip = 21; continue _fun0005;
+case 19:
                 var3 = var4.getCurrentConfig;
                 var2 = {};
                 var5 = 'default';
                 var2['location'] = var5;
                 var1 = var3.bind(var4)(var2);
-case 19:
+case 21:
                 return var1;
             }
         };
@@ -282,7 +302,7 @@ case 19:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = new Array(1);
             var6 = arg1;
             var1[0] = var6;
@@ -336,12 +356,12 @@ case 0:
                 var2 = var1.bind(var2)();
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                if(!var1) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                 var3 = var2.treatmentId;
                 var2 = 1;
                 var1 = var2 === var3;
-case 20:
+case 22:
                 return var1;
             }
         };
@@ -358,7 +378,7 @@ case 20:
             var4 = _closure2_slot0;
             var3 = undefined;
             var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = new Array(2);
             var6 = arg1;
             var1[0] = var6;
@@ -390,28 +410,28 @@ case 0:
                 var5 = var2 == var4;
                 var3 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
+                if(var5) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var1 = var4.treatmentId;
-case 22:
+case 24:
                 var2 = var2 != var1;
                 var4 = -1;
-                if(!var2) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
+                if(!var2) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                 var4 = var1;
-case 24:
+case 26:
                 var1 = 1;
                 if(!(var1 !== var4)) { _fun0007_ip = 9; continue _fun0007 }
-case 16:
+case 28:
                 var2 = 'libdiscore';
                 var1 = 2;
-                if(!(var1 !== var4)) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+                if(!(var1 !== var4)) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                 var2 = 'typescript';
-                _fun0007_ip = 26; continue _fun0007;
+                _fun0007_ip = 29; continue _fun0007;
 case 9:
                 var2 = 'typescript-libdiscore-dual-read';
-case 26:
+case 29:
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var3)(var2);
                 return var1;
@@ -432,7 +452,7 @@ case 0:
                 var3 = 'typescript';
                 var1 = null;
                 if(!(var3 !== var9)) { _fun0008_ip = 10; continue _fun0008 }
-case 28:
+case 14:
                 var15 = var2.type;
                 var13 = var2.storeName;
                 var2 = global;
@@ -501,7 +521,7 @@ case 10:
             var5 = _closure2_slot0;
             var4 = undefined;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot12;
             var1 = new Array(0);
             var10 = var1;
             var9 = var7;
@@ -566,27 +586,27 @@ case 0:
                 var2 = null;
                 var2 = var2 == var1;
                 var3 = undefined;
-                if(var2) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
-                var3 = var1.treatmentId;
-case 29:
-                var1 = 1;
-                if(!(var1 !== var3)) { _fun0009_ip = 31; continue _fun0009 }
+                if(var2) { _fun0009_ip = 31; continue _fun0009 }
 case 32:
-                var2 = 2;
-                if(!(var2 !== var3)) { _fun0009_ip = 33; continue _fun0009 }
+                var3 = var1.treatmentId;
+case 31:
+                var1 = 1;
+                if(!(var1 !== var3)) { _fun0009_ip = 33; continue _fun0009 }
 case 34:
+                var2 = 2;
+                if(!(var2 !== var3)) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
                 var2 = 3;
-                if(!(var2 !== var3)) { _fun0009_ip = 16; continue _fun0009 }
+                if(!(var2 !== var3)) { _fun0009_ip = 28; continue _fun0009 }
 case 2:
                 var2 = 0;
                 return var2;
-case 16:
+case 28:
                 return var1;
-case 33:
+case 35:
                 var1 = 0.05;
                 return var1;
-case 31:
+case 33:
                 var1 = 0.01;
                 return var1;
             }
@@ -617,28 +637,28 @@ case 0:
                 var5 = var1.bind(var3)();
                 var1 = 0;
                 var1 = var1 !== var5;
-                if(!var1) { _fun0010_ip = 35; continue _fun0010 }
-case 30:
+                if(!var1) { _fun0010_ip = 37; continue _fun0010 }
+case 32:
                 var2 = 1;
                 var2 = var2 === var5;
-                if(var2) { _fun0010_ip = 36; continue _fun0010 }
-case 37:
+                if(var2) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                 var4 = var3.emissionsCount;
                 var3 = var3.MAX_EMISSIONS_PER_APP_LAUNCH;
                 var4 = var4 >= var3;
                 var3 = !var4;
-                if(var4) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+                if(var4) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
                 var4 = global;
                 var6 = var4.Math;
                 var4 = var6.random;
                 var4 = var4.bind(var6)();
                 var3 = var4 < var5;
-case 38:
+case 40:
                 var2 = var3;
-case 36:
+case 38:
                 var1 = var2;
-case 35:
+case 37:
                 return var1;
             }
         };
@@ -677,7 +697,7 @@ case 35:
     var18 = var10;
     var2 = new var18[var7](var17, var16, var15);
     var2 = var2 instanceof Object ? var2 : var10;
-    var10 = 8;
+    var10 = 9;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;

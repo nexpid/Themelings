@@ -272,39 +272,50 @@ case 0:
             var25 = var21.bind(var4)(var24);
             var24 = var25.map;
             var21 = function(arg1, arg2) {
-                var1 = arg1;
-                var5 = arg2;
-                var12 = var1.title;
-                var8 = var1.description;
-                var4 = _closure1_slot10;
-                var2 = _closure1_slot1;
-                var9 = _closure1_slot2;
-                var1 = 20;
-                var1 = var9[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var7 = 1;
-                var7 = var5 + var7;
-                var1['index'] = var7;
-                var7 = _closure1_slot0;
-                var6 = 17;
-                var10 = var9[var6];
-                var10 = var7.bind(var3)(var10);
-                var11 = var10.Text;
-                var10 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
-                var10['children'] = var12;
-                var10 = var4.bind(var3)(var11, var10);
-                var1['tip'] = var10;
-                var6 = var9[var6];
-                var6 = var7.bind(var3)(var6);
-                var7 = var6.Text;
-                var6 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
-                var6['children'] = var8;
-                var6 = var4.bind(var3)(var7, var6);
-                var1['description'] = var6;
-                var1 = var4.bind(var3)(var2, var1, var5);
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = arg2;
+                    var9 = var1.title;
+                    var10 = var1.description;
+                    var4 = _closure1_slot10;
+                    var2 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var1 = 20;
+                    var1 = var6[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var8 = 1;
+                    var8 = var5 + var8;
+                    var1['index'] = var8;
+                    var8 = _closure1_slot0;
+                    var11 = 17;
+                    var6 = var6[var11];
+                    var6 = var8.bind(var3)(var6);
+                    var8 = var6.Text;
+                    var6 = {'variant': 'text-md/medium', 'color': 'mobile-text-heading-primary'};
+                    var6['children'] = var9;
+                    var6 = var4.bind(var3)(var8, var6);
+                    var1['tip'] = var6;
+                    var6 = null;
+                    var8 = var6 != var10;
+                    if(!var8) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var9 = _closure1_slot10;
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var11];
+                    var7 = var8.bind(var3)(var7);
+                    var8 = var7.Text;
+                    var7 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
+                    var7['children'] = var10;
+                    var6 = var9.bind(var3)(var8, var7);
+case 2:
+                    var1['description'] = var6;
+                    var1 = var4.bind(var3)(var2, var1, var5);
+                    return var1;
+                }
             };
             var21 = var24.bind(var25)(var21);
             var19['children'] = var21;
@@ -381,8 +392,8 @@ case 0:
             var9[1] = var10;
             var6['style'] = var9;
             var9 = !var8;
-            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot10;
             var10 = _closure1_slot6;
             var8 = {};
@@ -439,7 +450,7 @@ case 3:
             var13 = var11.bind(var4)(var16, var13);
             var8['children'] = var13;
             var9 = var11.bind(var4)(var10, var8);
-case 2:
+case 4:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot10;
@@ -467,12 +478,12 @@ case 2:
             var18 = _closure1_slot3;
             var15 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                        if(var2) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
                         var4 = 14;
@@ -493,16 +504,16 @@ case 5:
                         var2 = _closure2_slot1;
                         var2 = var2.bind(var3)();
                         SaveGenerator(address=106);
-case 6:
-                        return var2;
-case 7:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                        return var3;
 case 8:
                         return var2;
-case 4:
+case 9:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                        return var3;
+case 10:
+                        return var2;
+case 6:
                         return var1;
                     }
                 };

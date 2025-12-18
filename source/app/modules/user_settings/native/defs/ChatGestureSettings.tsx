@@ -12,28 +12,28 @@ case 0:
         var4 = function useSwipeToReplySettingValue() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot2;
                 var1 = 5;
-                var1 = var6[var1];
+                var1 = var3[var1];
                 var4 = undefined;
-                var1 = var5.bind(var4)(var1);
-                var2 = var1.SwipeRightToLeftModeSetting;
-                var1 = var2.useSetting;
-                var1 = var1.bind(var2)();
-                var2 = 6;
-                var2 = var6[var2];
-                var3 = var5.bind(var4)(var2);
-                var2 = var3.useSwipeActionDefaultValue;
-                var2 = var2.bind(var3)();
-                var3 = 2;
-                var3 = var6[var3];
-                var3 = var5.bind(var4)(var3);
+                var1 = var6.bind(var4)(var1);
+                var5 = var1.SwipeRightToLeftModeSetting;
+                var1 = var5.useSetting;
+                var1 = var1.bind(var5)();
+                var5 = 2;
+                var3 = var3[var5];
+                var3 = var6.bind(var4)(var3);
                 var3 = var3.SwipeRightToLeftMode;
                 var3 = var3.SWIPE_RIGHT_TO_LEFT_UNSET;
                 if(!(var1 === var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                var1 = var2;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var5];
+                var2 = var3.bind(var4)(var2);
+                var2 = var2.SwipeRightToLeftMode;
+                var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
 case 2:
                 return var1;
             }
@@ -58,7 +58,7 @@ case 2:
         var _closure1_slot3 = var6;
         var5 = var5.AnalyticsSections;
         var _closure1_slot4 = var5;
-        var5 = 7;
+        var5 = 6;
         var5 = var8[var5];
         var9 = var7.bind(var1)(var5);
         var6 = var9.createRadio;
@@ -99,7 +99,7 @@ case 2:
             return var1;
         };
         var5['additionalSearchTerms'] = var10;
-        var10 = 8;
+        var10 = 7;
         var10 = var8[var10];
         var14 = var7.bind(var1)(var10);
         var13 = var14.getDoubleTapToReactExperiment;
@@ -211,7 +211,7 @@ case 6:
         };
         var5['useOptions'] = var10;
         var5 = var6.bind(var9)(var5);
-        var6 = 9;
+        var6 = 8;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;
@@ -222,30 +222,29 @@ case 6:
         var2 = function getSwipeToReplySettingValue() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot2;
                 var1 = 5;
-                var1 = var6[var1];
+                var1 = var3[var1];
                 var4 = undefined;
-                var1 = var5.bind(var4)(var1);
-                var3 = var1.SwipeRightToLeftModeSetting;
-                var1 = var3.getSetting;
-                var1 = var1.bind(var3)();
-                var3 = 2;
-                var3 = var6[var3];
-                var3 = var5.bind(var4)(var3);
+                var1 = var6.bind(var4)(var1);
+                var5 = var1.SwipeRightToLeftModeSetting;
+                var1 = var5.getSetting;
+                var1 = var1.bind(var5)();
+                var5 = 2;
+                var3 = var3[var5];
+                var3 = var6.bind(var4)(var3);
                 var3 = var3.SwipeRightToLeftMode;
                 var3 = var3.SWIPE_RIGHT_TO_LEFT_UNSET;
-                if(!(var1 === var3)) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                if(!(var1 === var3)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                 var3 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 6;
-                var2 = var5[var2];
-                var3 = var3.bind(var4)(var2);
-                var2 = var3.getSwipeActionDefaultValue;
-                var1 = var2.bind(var3)();
-case 7:
+                var2 = _closure1_slot2;
+                var2 = var2[var5];
+                var2 = var3.bind(var4)(var2);
+                var2 = var2.SwipeRightToLeftMode;
+                var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
+case 2:
                 return var1;
             }
         };

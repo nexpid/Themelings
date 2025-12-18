@@ -105,7 +105,7 @@ case 4:
     var8 = var9.createLegacyClassComponentStyles;
     var7 = {};
     var10 = {};
-    var12 = 'transparent';
+    var12 = 'rgba(0,0,0,0.0019607844)';
     var10['color'] = var12;
     var12 = 11;
     var15 = var6[var12];
@@ -124,6 +124,11 @@ case 4:
     var10['backgroundColor'] = var14;
     var7['placeholder'] = var10;
     var10 = {};
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.TEXT_DEFAULT;
+    var10['color'] = var14;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;

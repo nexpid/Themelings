@@ -448,6 +448,13 @@ case 7:
     var11 = {};
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_16;
+    var11['marginBottom'] = var16;
+    var5['ageVerificationNotice'] = var11;
+    var11 = {};
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
     var16 = var16.BACKGROUND_BRAND;
     var11['backgroundColor'] = var16;
@@ -1051,12 +1058,23 @@ case 59:
 case 58:
             var6[1] = var10;
             var1['contentContainerStyle'] = var6;
-            var6 = new Array(8);
+            var6 = new Array(9);
             var6[0] = var7;
-            var19 = _closure1_slot14;
+            var23 = _closure1_slot14;
             var10 = _closure1_slot1;
             var30 = _closure1_slot3;
             var7 = 32;
+            var7 = var30[var7];
+            var19 = var10.bind(var5)(var7);
+            var7 = {};
+            var29 = _closure1_slot17;
+            var7['onConfirmPress'] = var29;
+            var29 = var11.ageVerificationNotice;
+            var7['style'] = var29;
+            var7 = var23.bind(var5)(var19, var7);
+            var6[1] = var7;
+            var19 = _closure1_slot14;
+            var7 = 33;
             var7 = var30[var7];
             var10 = var10.bind(var5)(var7);
             var7 = {};
@@ -1073,7 +1091,7 @@ case 58:
             var31 = var32.bind(var33)(var31);
             var7['children'] = var31;
             var7 = var19.bind(var5)(var10, var7);
-            var6[1] = var7;
+            var6[2] = var7;
             var19 = _closure1_slot14;
             var7 = 20;
             var7 = var30[var7];
@@ -1098,14 +1116,14 @@ case 58:
             var7['onChange'] = var24;
             var24 = true;
             var7['autoFocus'] = var24;
-            var24 = 33;
+            var24 = 34;
             var24 = var30[var24];
             var24 = var29.bind(var5)(var24);
             var24 = var24.ClearButtonVisibility;
             var24 = var24.WITH_CONTENT;
             var7['clearButtonVisibility'] = var24;
             var7 = var19.bind(var5)(var10, var7);
-            var6[2] = var7;
+            var6[3] = var7;
             var7 = var2 != var27;
             if(!var7) { _fun0004_ip = 60; continue _fun0004 }
 case 61:
@@ -1121,14 +1139,14 @@ case 61:
             var10['children'] = var27;
             var7 = var24.bind(var5)(var19, var10);
 case 60:
-            var6[3] = var7;
+            var6[4] = var7;
             var7 = var2 != var13;
             if(!var7) { _fun0004_ip = 62; continue _fun0004 }
 case 63:
             var24 = _closure1_slot14;
             var19 = _closure1_slot1;
             var27 = _closure1_slot3;
-            var10 = 34;
+            var10 = 35;
             var10 = var27[var10];
             var19 = var19.bind(var5)(var10);
             var10 = {};
@@ -1137,7 +1155,7 @@ case 63:
             var10['onChangeChannel'] = var25;
             var7 = var24.bind(var5)(var19, var10);
 case 62:
-            var6[4] = var7;
+            var6[5] = var7;
             var7 = null;
             if(!var8) { _fun0004_ip = 64; continue _fun0004 }
 case 65:
@@ -1163,7 +1181,7 @@ case 65:
             var8['onToggle'] = var20;
             var7 = var19.bind(var5)(var10, var8);
 case 64:
-            var6[5] = var7;
+            var6[6] = var7;
             var8 = var2 != var21;
             var7 = null;
             if(!var8) { _fun0004_ip = 66; continue _fun0004 }
@@ -1171,7 +1189,7 @@ case 67:
             var19 = _closure1_slot14;
             var10 = _closure1_slot0;
             var20 = _closure1_slot3;
-            var8 = 35;
+            var8 = 36;
             var8 = var20[var8];
             var8 = var10.bind(var5)(var8);
             var10 = var8.LegacyText;
@@ -1183,11 +1201,11 @@ case 67:
             var8['children'] = var20;
             var7 = var19.bind(var5)(var10, var8);
 case 66:
-            var6[6] = var7;
+            var6[7] = var7;
             var10 = _closure1_slot14;
             var8 = _closure1_slot1;
             var19 = _closure1_slot3;
-            var7 = 36;
+            var7 = 37;
             var7 = var19[var7];
             var8 = var8.bind(var5)(var7);
             var7 = {};
@@ -1230,7 +1248,7 @@ case 71:
             var7['disabled'] = var14;
             var7['loading'] = var12;
             var7 = var10.bind(var5)(var8, var7);
-            var6[7] = var7;
+            var6[8] = var7;
             var1['children'] = var6;
             var10 = var4.bind(var5)(var3, var1);
             var1 = var10;
@@ -1239,7 +1257,7 @@ case 74:
             var4 = _closure1_slot14;
             var3 = _closure1_slot0;
             var12 = _closure1_slot3;
-            var2 = 37;
+            var2 = 38;
             var2 = var12[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SafeAreaPaddingView;
@@ -1248,7 +1266,7 @@ case 74:
             var2['style'] = var6;
             var8 = _closure1_slot15;
             var7 = _closure1_slot1;
-            var6 = 38;
+            var6 = 39;
             var6 = var12[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -1271,7 +1289,7 @@ case 73:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 39;
+    var5 = 40;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

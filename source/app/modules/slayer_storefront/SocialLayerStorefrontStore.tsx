@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function getUserKey(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -71,7 +71,7 @@ case 6:
             throw var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function handleUserSettingsStoreUpdate() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -96,7 +96,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -136,6 +136,8 @@ case 10:
     var _closure1_slot8 = var2;
     var2 = {};
     var _closure1_slot9 = var2;
+    var2 = {};
+    var _closure1_slot10 = var2;
     var2 = 6;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -153,7 +155,7 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
@@ -194,7 +196,7 @@ case 14:
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             var1 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot6;
             var1 = var1.locale;
@@ -203,7 +205,7 @@ case 14:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getStorefrontData';
@@ -230,7 +232,7 @@ case 14:
         var5 = {};
         var7 = 'recommendationsByApplicationsAndUsers';
         var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
+        var7 = function value(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var5 = arg2;
@@ -252,15 +254,26 @@ case 17:
                 var1 = undefined;
                 if(var6) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var2 = var2.bind(var4)(var5);
                 var1 = var3[var2];
 case 18:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'getAnnouncement';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var2 = _closure1_slot10;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -469,7 +482,7 @@ case 0:
             var4 = var1.userIds;
             var6 = var1.application;
             var9 = var1.numItemsRequested;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = undefined;
             var7 = var2.bind(var1)(var4);
             var2 = {};
@@ -510,7 +523,7 @@ case 0:
             var1 = arg1;
             var5 = var1.applicationId;
             var4 = var1.userIds;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = undefined;
             var7 = var2.bind(var1)(var4);
             var2 = _closure1_slot9;
@@ -557,13 +570,13 @@ case 39:
         }
     };
     var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_FAILURE'] = var8;
-    var4 = function handleSocialLayerStorefrontRecommendationsFetchStart(arg1) {
+    var8 = function handleSocialLayerStorefrontRecommendationsFetchStart(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.applicationId;
             var4 = var1.userIds;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = undefined;
             var7 = var2.bind(var1)(var4);
             var2 = {};
@@ -590,7 +603,22 @@ case 42:
             return var1;
         }
     };
-    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_START'] = var4;
+    var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_START'] = var8;
+    var4 = function handleSocialLayerStorefrontAnnouncementFetchSuccess(arg1) {
+        var1 = arg1;
+        var4 = var1.guildId;
+        var3 = var1.announcement;
+        var1 = _closure1_slot10;
+        var1[var4] = var3;
+        var1 = {};
+        var5 = _closure1_slot10;
+        var6 = var1;
+        var3 = copyDataProperties(var6, var5);
+        _closure1_slot10 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

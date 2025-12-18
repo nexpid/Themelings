@@ -176,7 +176,7 @@ case 7:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -234,6 +234,8 @@ case 7:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot14 = var4;
+    var4 = {'x': 0, 'y': 0, 'gestureActive': false};
+    var _closure1_slot15 = var4;
     var4 = 10;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -350,15 +352,15 @@ case 31:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot15 = var4;
+    var _closure1_slot16 = var4;
     var4 = {};
     var7 = 'function ActivityPanelControllerTsx1(){const{wrapperOffset}=this.__closure;return wrapperOffset.get().gestureActive;}';
     var4['code'] = var7;
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var4 = {};
     var7 = 'function ActivityPanelControllerTsx2(gestureActive,previous){const{runOnJS,setWrapperGestureInProgress}=this.__closure;if(gestureActive===previous)return;runOnJS(setWrapperGestureInProgress)(gestureActive);}';
     var4['code'] = var7;
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -415,7 +417,7 @@ case 0:
             var8 = var9[var8];
             var15 = var7.bind(var4)(var8);
             var10 = var15.useSharedValue;
-            var8 = {'x': 0, 'y': 0, 'gestureActive': false};
+            var8 = _closure1_slot15;
             var8 = var10.bind(var15)(var8);
             var _closure2_slot3 = var8;
             var15 = _closure1_slot4;
@@ -526,7 +528,7 @@ case 42:
             var7 = var9.bind(var17)(var18);
 case 41:
             _closure2_slot8 = var7;
-            var9 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var6 = var6.top;
             var9 = var9.bind(var4)(var16, var6, var7);
             _closure2_slot9 = var9;
@@ -696,8 +698,9 @@ case 49:
             var7 = var17.bind(var18)(var7, var16);
             var18 = _closure1_slot4;
             var17 = var18.useEffect;
-            var16 = new Array(1);
+            var16 = new Array(2);
             var16[0] = var13;
+            var16[1] = var8;
             var7 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -715,14 +718,18 @@ case 43:
 case 32:
                     if(!var3) { _fun0008_ip = 54; continue _fun0008 }
 case 55:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 28;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var2 = var3.dismissKeyboard;
-                    var2 = var2.bind(var3)();
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 28;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.dismissKeyboard;
+                    var3 = var3.bind(var4)();
+                    var4 = _closure2_slot3;
+                    var3 = var4.set;
+                    var2 = _closure1_slot15;
+                    var2 = var3.bind(var4)(var2);
 case 54:
                     var2 = _closure2_slot4;
                     var1 = _closure2_slot0;
@@ -732,7 +739,7 @@ case 54:
                 }
             };
             var7 = var17.bind(var18)(var7, var16);
-            var16 = _closure1_slot18;
+            var16 = _closure1_slot19;
             var7 = {};
             var17 = var14 != var15;
             var7['isConnected'] = var17;
@@ -906,7 +913,7 @@ case 61:
                 var5['__closure'] = var4;
                 var4 = 5299695936442.0;
                 var5['__workletHash'] = var4;
-                var4 = _closure1_slot16;
+                var4 = _closure1_slot17;
                 var5['__initData'] = var4;
                 var4 = function s(arg1, arg2) {
                     _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -939,7 +946,7 @@ case 21:
                 var4['__closure'] = var11;
                 var11 = 5831467313798.0;
                 var4['__workletHash'] = var11;
-                var11 = _closure1_slot17;
+                var11 = _closure1_slot18;
                 var4['__initData'] = var11;
                 var4 = var9.bind(var10)(var5, var4);
                 var5 = _closure1_slot4;

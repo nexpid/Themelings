@@ -343,6 +343,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['PRESS_APPLICATION_WIDGET_PREVIEW'] = var5;
     var5 = 'PRESS_SHOW_MORE_WIDGETS';
     var11['PRESS_SHOW_MORE_WIDGETS'] = var5;
+    var5 = 'COPY_AVATAR_IMAGE_LINK';
+    var11['COPY_AVATAR_IMAGE_LINK'] = var5;
+    var5 = 'COPY_BANNER_IMAGE_LINK';
+    var11['COPY_BANNER_IMAGE_LINK'] = var5;
     var10 = {};
     var5 = 'VIEW_ACTIVITY_CARD';
     var10['VIEW_ACTIVITY_CARD'] = var5;

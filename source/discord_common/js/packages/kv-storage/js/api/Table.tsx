@@ -1051,7 +1051,7 @@ case 28:
             }
         };
         var1['value'] = var3;
-        var3 = new Array(6);
+        var3 = new Array(5);
         var3[0] = var1;
         var1 = {};
         var6 = 'putAll';
@@ -1100,21 +1100,6 @@ case 28:
         var1['value'] = var6;
         var3[1] = var1;
         var1 = {};
-        var6 = 'replaceAll';
-        var1['key'] = var6;
-        var6 = function value(arg1) {
-            var3 = this;
-            var1 = var3.delete;
-            var1 = var1.bind(var3)();
-            var2 = var3.putAll;
-            var1 = arg1;
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
-            return var1;
-        };
-        var1['value'] = var6;
-        var3[2] = var1;
-        var1 = {};
         var6 = 'delete';
         var1['key'] = var6;
         var6 = function value() {
@@ -1148,7 +1133,7 @@ case 26:
             }
         };
         var1['value'] = var6;
-        var3[3] = var1;
+        var3[2] = var1;
         var1 = {};
         var6 = 'deleteRange';
         var1['key'] = var6;
@@ -1185,7 +1170,7 @@ case 26:
             return var1;
         };
         var1['value'] = var6;
-        var3[4] = var1;
+        var3[3] = var1;
         var1 = {};
         var6 = 'deleteGeneration';
         var1['key'] = var6;
@@ -1224,7 +1209,7 @@ case 26:
             }
         };
         var1['value'] = var6;
-        var3[5] = var1;
+        var3[4] = var1;
         var1 = {};
         var6 = 'fromDatabaseTransaction';
         var1['key'] = var6;

@@ -138,7 +138,7 @@ case 2:
         return var1;
     };
     var _closure1_slot10 = var7;
-    var7 = 10;
+    var7 = 9;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -197,21 +197,11 @@ case 22:
 case 21:
             if(!(var1 != var2)) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var3 = var2.shouldAllowIfApplePaymentLinksEnabled;
+            var3 = var2.shouldAllowExternalManagement;
             if(!var3) { _fun0002_ip = 23; continue _fun0002 }
 case 25:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 7;
-            var3 = var5[var3];
-            var5 = var4.bind(var9)(var3);
-            var4 = var5.getApplePaymentLinkExperimentConfig;
-            var3 = {};
-            var10 = var2.location;
-            var3['location'] = var10;
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.enabled;
-            if(var3) { _fun0002_ip = 26; continue _fun0002 }
+            var3 = 'iOS';
+            if(!(var3 !== var8)) { _fun0002_ip = 26; continue _fun0002 }
 case 23:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -234,7 +224,7 @@ case 26:
 case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 7;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -316,7 +306,7 @@ case 39:
             var5 = _closure1_slot5;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 9;
+            var3 = 8;
             var3 = var11[var3];
             var3 = var12.bind(var9)(var3);
             var4 = var3.LinkButton;

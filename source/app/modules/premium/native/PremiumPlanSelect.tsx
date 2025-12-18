@@ -1928,7 +1928,9 @@ case 116:
             var18 = var21[var18];
             var21 = var20.bind(var7)(var18);
             var20 = var21.getExternalManagementMessage;
-            var18 = {'location': 'premium_plan_select', 'shouldAllowIfApplePaymentLinksEnabled': true};
+            var18 = {};
+            var22 = true;
+            var18['shouldAllowExternalManagement'] = var22;
             var18 = var20.bind(var21)(var17, var18);
             var11['children'] = var18;
             var11 = var13.bind(var7)(var12, var11);

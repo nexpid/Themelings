@@ -146,6 +146,25 @@ case 0:
                     return var1;
                 };
                 var7['APEX_EXPERIMENT_OVERRIDE_CLEAR'] = var9;
+                var9 = function APEX_EXPERIMENT_SESSION_OVERRIDE_CREATE(arg1) {
+                    var1 = arg1;
+                    var4 = _closure3_slot0;
+                    var3 = var4.createSessionOverride;
+                    var2 = var1.experimentName;
+                    var1 = var1.variantId;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+                };
+                var7['APEX_EXPERIMENT_SESSION_OVERRIDE_CREATE'] = var9;
+                var9 = function APEX_EXPERIMENT_SESSION_OVERRIDE_DELETE(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.deleteSessionOverride;
+                    var1 = arg1;
+                    var1 = var1.experimentName;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var7['APEX_EXPERIMENT_SESSION_OVERRIDE_DELETE'] = var9;
                 var9 = function APEX_EXPERIMENT_CLEAR_FOR_TESTS() {
                     var2 = _closure3_slot0;
                     var1 = var2.clearForTests;

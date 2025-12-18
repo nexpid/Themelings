@@ -783,15 +783,15 @@ case 74:
                     var9 = null;
                     var11 = var9 == var6;
                     var6 = undefined;
-                    if(var11) { _fun0005_ip = 13; continue _fun0005 }
-case 75:
+                    if(var11) { _fun0005_ip = 75; continue _fun0005 }
+case 76:
                     var11 = var10;
                     var10 = var11.getAnyErrorMessage;
                     var6 = var10.bind(var11)();
-case 13:
+case 75:
                     var8 = var6;
-                    if(!(var9 == var6)) { _fun0005_ip = 76; continue _fun0005 }
-case 77:
+                    if(!(var9 == var6)) { _fun0005_ip = 77; continue _fun0005 }
+case 78:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var6 = 12;
@@ -804,10 +804,10 @@ case 77:
                     var6 = var6.t;
                     var6 = var6.cCVXOe;
                     var6 = var9.bind(var10)(var6);
-                    _fun0005_ip = 78; continue _fun0005;
-case 76:
+                    _fun0005_ip = 79; continue _fun0005;
+case 77:
                     var6 = var8;
-case 78:
+case 79:
                     var2['content'] = var6;
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -817,10 +817,10 @@ case 78:
                     var2['icon'] = var5;
                     var2 = var3.bind(var4)(var2);
                     var2 = {'codeIntercepted': true, 'addedPhone': false};
-                    _fun0005_ip = 79; continue _fun0005;
+                    _fun0005_ip = 80; continue _fun0005;
 case 72:
                     var2 = {'codeIntercepted': false, 'addedPhone': false};
-case 79:
+case 80:
                     return var2;
 case 65:
                     return var1;
@@ -848,15 +848,15 @@ case 0:
             var3 = var3.bind(var1)();
             var4 = var7.initialRoutes;
             var3 = null;
-            if(!(var3 == var4)) { _fun0006_ip = 80; continue _fun0006 }
-case 81:
+            if(!(var3 == var4)) { _fun0006_ip = 81; continue _fun0006 }
+case 82:
             var4 = _closure1_slot14;
             var3 = _closure1_slot13;
             var3 = var3.NORMAL;
             var3 = var4.bind(var1)(var3);
-case 80:
-            if(!var6) { _fun0006_ip = 82; continue _fun0006 }
-case 83:
+case 81:
+            if(!var6) { _fun0006_ip = 83; continue _fun0006 }
+case 84:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 9;
@@ -866,7 +866,7 @@ case 83:
             var3 = {};
             var3['location'] = var6;
             var3 = var4.bind(var5)(var3);
-case 82:
+case 83:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var4 = 19;
@@ -925,19 +925,19 @@ case 0:
             var6 = var3.skip;
             var1 = undefined;
             if(!(var6 === var1)) { _fun0007_ip = 66; continue _fun0007 }
-case 84:
+case 85:
             var6 = true;
 case 66:
             var5 = var3.friendsFound;
             var4 = var3.friendsAdded;
             var8 = var3.back;
-            if(!(var8 === var1)) { _fun0007_ip = 85; continue _fun0007 }
+            if(!(var8 === var1)) { _fun0007_ip = 86; continue _fun0007 }
 case 40:
             var8 = false;
-case 85:
+case 86:
             var3 = var3.onComplete;
             var7 = null;
-            if(!(var7 == var3)) { _fun0007_ip = 86; continue _fun0007 }
+            if(!(var7 == var3)) { _fun0007_ip = 87; continue _fun0007 }
 case 67:
             var7 = function oldCloseContactSyncModal() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -945,21 +945,21 @@ case 0:
                     var9 = arguments[0];
                     var7 = arguments[3];
                     var1 = undefined;
-                    if(!(var9 === var1)) { _fun0008_ip = 87; continue _fun0008 }
-case 88:
-                    var9 = true;
-case 87:
-                    var _closure3_slot0 = var9;
-                    if(!(var7 === var1)) { _fun0008_ip = 89; continue _fun0008 }
-case 90:
-                    var7 = false;
+                    if(!(var9 === var1)) { _fun0008_ip = 88; continue _fun0008 }
 case 89:
+                    var9 = true;
+case 88:
+                    var _closure3_slot0 = var9;
+                    if(!(var7 === var1)) { _fun0008_ip = 90; continue _fun0008 }
+case 91:
+                    var7 = false;
+case 90:
                     var _closure3_slot1 = var7;
                     var _closure3_slot2 = var1;
                     var4 = _closure1_slot15;
                     var4 = var4.bind(var1)();
                     _closure3_slot2 = var4;
-                    if(var7) { _fun0008_ip = 91; continue _fun0008 }
+                    if(var7) { _fun0008_ip = 73; continue _fun0008 }
 case 47:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -973,7 +973,7 @@ case 47:
                     var10 = arguments[2];
                     var5['num_contacts_added'] = var10;
                     var5 = var6.bind(var8)(var9, var5);
-case 91:
+case 73:
                     if(!var4) { _fun0008_ip = 92; continue _fun0008 }
 case 93:
                     var5 = _closure1_slot1;
@@ -1013,7 +1013,7 @@ case 0:
                             var4 = var5.bind(var6)(var4);
                             var4 = _closure3_slot2;
                             if(!var4) { _fun0009_ip = 95; continue _fun0009 }
-case 83:
+case 84:
                             var8 = _closure3_slot1;
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
@@ -1063,7 +1063,7 @@ case 95:
             var9 = var8;
             var7 = var13[var7](var12, var11, var10, var9, var8);
             _fun0007_ip = 97; continue _fun0007;
-case 86:
+case 87:
             var2 = function redesignCloseContactSyncModal(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1087,7 +1087,7 @@ case 98:
                     var7 = arguments[3];
                     var4['num_contacts_added'] = var7;
                     var4 = var5.bind(var6)(var3, var4);
-                    if(var2) { _fun0010_ip = 91; continue _fun0010 }
+                    if(var2) { _fun0010_ip = 73; continue _fun0010 }
 case 50:
                     var2 = global;
                     var5 = var2.setTimeout;
@@ -1106,7 +1106,7 @@ case 50:
                     var2 = 0;
                     var2 = var5.bind(var1)(var4, var2);
                     _fun0010_ip = 100; continue _fun0010;
-case 91:
+case 73:
                     var2 = arg1;
                     var2 = var2.bind(var1)(var3);
 case 100:
@@ -1349,7 +1349,7 @@ case 99:
             var2 = false;
 case 98:
             if(!var2) { _fun0011_ip = 101; continue _fun0011 }
-case 88:
+case 89:
             var3 = _closure1_slot14;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;

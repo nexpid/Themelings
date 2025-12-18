@@ -180,28 +180,28 @@ case 8:
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = arg1;
-                var3 = null;
-                if(!(var3 == var2)) { _fun0003_ip = 9; continue _fun0003 }
+                var4 = arg1;
+                var1 = null;
+                if(!(var1 == var4)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var2 = {};
+                var4 = {};
 case 9:
-                _closure1_slot17 = var2;
-                var5 = var2.useSystemTheme;
-                if(!(var3 != var5)) { _fun0003_ip = 11; continue _fun0003 }
+                _closure1_slot17 = var4;
+                var5 = var4.useSystemTheme;
+                if(!(var1 != var5)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 9;
-                var1 = var6[var1];
+                var3 = 9;
+                var3 = var6[var3];
                 var6 = undefined;
-                var1 = var7.bind(var6)(var1);
-                var1 = var1.bind(var6)();
-                if(!(var3 != var1)) { _fun0003_ip = 11; continue _fun0003 }
+                var3 = var7.bind(var6)(var3);
+                var3 = var3.bind(var6)();
+                if(!(var1 != var3)) { _fun0003_ip = 11; continue _fun0003 }
 case 13:
                 var7 = 'boolean';
                 var6 = typeof var5;
-                var1 = var5;
+                var3 = var5;
                 if(!(var7 === var6)) { _fun0003_ip = 14; continue _fun0003 }
 case 5:
                 var6 = _closure1_slot8;
@@ -212,57 +212,66 @@ case 16:
 case 15:
                 var5 = var6.ON;
 case 17:
-                var1 = var5;
+                var3 = var5;
 case 14:
                 _fun0003_ip = 18; continue _fun0003;
 case 11:
                 var5 = _closure1_slot8;
-                var1 = var5.UNSET;
+                var3 = var5.UNSET;
 case 18:
-                var2['useSystemTheme'] = var1;
-                var2 = _closure1_slot17;
-                var1 = var2.dataSavingMode;
-                if(!(var3 == var1)) { _fun0003_ip = 19; continue _fun0003 }
+                var4['useSystemTheme'] = var3;
+                var4 = _closure1_slot17;
+                var3 = var4.dataSavingMode;
+                if(!(var1 == var3)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
                 var5 = _closure1_slot17;
-                var1 = var5.lowQualityImageMode;
+                var3 = var5.lowQualityImageMode;
 case 19:
-                var2['dataSavingMode'] = var1;
-                var2 = _closure1_slot17;
-                var1 = var2.darkSidebar;
-                if(!(var3 == var1)) { _fun0003_ip = 21; continue _fun0003 }
+                var4['dataSavingMode'] = var3;
+                var4 = _closure1_slot17;
+                var3 = var4.darkSidebar;
+                if(!(var1 == var3)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-                var6 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var4 = 10;
-                var5 = var5[var4];
-                var4 = undefined;
-                var5 = var6.bind(var4)(var5);
-                var8 = var5.PersistedStore;
-                var7 = var8.migrateAndReadStoreState;
-                var6 = 'AccessibilityStore';
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var5 = 10;
+                var5 = var6[var5];
+                var6 = undefined;
+                var5 = var7.bind(var6)(var5);
+                var9 = var5.PersistedStore;
+                var8 = var9.migrateAndReadStoreState;
+                var7 = 'AccessibilityStore';
                 var5 = new Array(0);
-                var5 = var7.bind(var8)(var6, var5);
+                var5 = var8.bind(var9)(var7, var5);
                 var5 = var5.state;
-                var6 = var3 == var5;
-                if(var6) { _fun0003_ip = 23; continue _fun0003 }
+                var7 = var1 == var5;
+                if(var7) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-                var4 = var5.darkSidebar;
+                var6 = var5.darkSidebar;
 case 23:
-                var3 = var3 != var4;
-                if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+                var5 = var1 != var6;
+                if(!var5) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
-                var3 = var4;
+                var5 = var6;
 case 25:
-                var1 = var3;
+                var3 = var5;
 case 21:
-                var2['darkSidebar'] = var1;
+                var4['darkSidebar'] = var3;
+                var2 = _closure1_slot17;
+                var3 = var2.hdrDynamicRange;
+                var4 = var1 != var3;
+                var1 = 'no-limit';
+                if(!var4) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+                var1 = var3;
+case 27:
+                var2['hdrDynamicRange'] = var1;
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(30);
+        var1 = new Array(31);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -283,10 +292,10 @@ case 0:
                 var2 = var1.displayCompactAvatars;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                if(!var1) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -302,10 +311,10 @@ case 0:
                 var2 = var1.lowQualityImageMode;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                if(!var1) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -320,10 +329,10 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.videoUploadQuality;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                if(!(var3 == var1)) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
                 var1 = _closure1_slot15;
-case 31:
+case 33:
                 return var1;
             }
         };
@@ -338,16 +347,16 @@ case 0:
                 var1 = _closure1_slot17;
                 var2 = var1.dataSavingMode;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0007_ip = 33; continue _fun0007 }
-case 32:
+                if(!(var1 == var2)) { _fun0007_ip = 35; continue _fun0007 }
+case 34:
                 var3 = _closure1_slot17;
                 var2 = var3.lowQualityImageMode;
-case 33:
-                var1 = var1 != var2;
-                if(!var1) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
+                var1 = var1 != var2;
+                if(!var1) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                 var1 = var2;
-case 34:
+case 36:
                 return var1;
             }
         };
@@ -362,11 +371,11 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.expressionPickerWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+                if(!(var3 == var1)) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
                 var2 = _closure1_slot12;
                 var1 = var2.MIN;
-case 36:
+case 38:
                 return var1;
             }
         };
@@ -381,10 +390,10 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.messageRequestSidebarWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0009_ip = 29; continue _fun0009 }
-case 37:
+                if(!(var3 == var1)) { _fun0009_ip = 31; continue _fun0009 }
+case 39:
                 var1 = _closure1_slot11;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -399,10 +408,10 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.threadSidebarWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0010_ip = 29; continue _fun0010 }
-case 37:
+                if(!(var3 == var1)) { _fun0010_ip = 31; continue _fun0010 }
+case 39:
                 var1 = _closure1_slot9;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -417,10 +426,10 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.postSidebarWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0011_ip = 29; continue _fun0011 }
-case 37:
+                if(!(var3 == var1)) { _fun0011_ip = 31; continue _fun0011 }
+case 39:
                 var1 = _closure1_slot14;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -435,10 +444,10 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.callChatSidebarWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0012_ip = 29; continue _fun0012 }
-case 37:
+                if(!(var3 == var1)) { _fun0012_ip = 31; continue _fun0012 }
+case 39:
                 var1 = _closure1_slot9;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -453,11 +462,11 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.homeSidebarWidth;
                 var4 = null;
-                if(!(var4 == var1)) { _fun0013_ip = 38; continue _fun0013 }
-case 37:
+                if(!(var4 == var1)) { _fun0013_ip = 40; continue _fun0013 }
+case 39:
                 var3 = _closure1_slot16;
-                if(!(var4 == var3)) { _fun0013_ip = 39; continue _fun0013 }
-case 33:
+                if(!(var4 == var3)) { _fun0013_ip = 41; continue _fun0013 }
+case 35:
                 var3 = global;
                 var6 = var3.Math;
                 var5 = var6.max;
@@ -470,9 +479,9 @@ case 33:
                 var3 = _closure1_slot9;
                 var3 = var5.bind(var6)(var4, var3);
                 _closure1_slot16 = var3;
-case 39:
+case 41:
                 var1 = _closure1_slot16;
-case 38:
+case 40:
                 return var1;
             }
         };
@@ -487,8 +496,8 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.callParticipantsSidebarWidth;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0014_ip = 40; continue _fun0014 }
-case 37:
+                if(!(var3 == var1)) { _fun0014_ip = 42; continue _fun0014 }
+case 39:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 11;
@@ -496,7 +505,7 @@ case 37:
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
                 var1 = var2.DEFAULT_PARTICIPANTS_SIDEBAR_WIDTH;
-case 40:
+case 42:
                 return var1;
             }
         };
@@ -521,11 +530,11 @@ case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.useSystemTheme;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0015_ip = 33; continue _fun0015 }
-case 32:
+                if(!(var3 == var1)) { _fun0015_ip = 35; continue _fun0015 }
+case 34:
                 var2 = _closure1_slot8;
                 var1 = var2.UNSET;
-case 33:
+case 35:
                 return var1;
             }
         };
@@ -551,10 +560,10 @@ case 0:
                 var2 = var1.disableVoiceChannelChangeAlert;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0016_ip = 29; continue _fun0016 }
-case 30:
+                if(!var1) { _fun0016_ip = 31; continue _fun0016 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -570,10 +579,10 @@ case 0:
                 var2 = var1.disableEmbeddedActivityPopOutAlert;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0017_ip = 27; continue _fun0017 }
-case 28:
+                if(!var1) { _fun0017_ip = 29; continue _fun0017 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -589,10 +598,10 @@ case 0:
                 var2 = var1.disableActivityHardwareAccelerationPrompt;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0018_ip = 27; continue _fun0018 }
-case 28:
+                if(!var1) { _fun0018_ip = 29; continue _fun0018 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -608,10 +617,10 @@ case 0:
                 var2 = var1.disableInviteWithTextChannelActivityLaunch;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0019_ip = 27; continue _fun0019 }
-case 28:
+                if(!var1) { _fun0019_ip = 29; continue _fun0019 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -627,10 +636,10 @@ case 0:
                 var2 = var1.disableHideSelfStreamAndVideoConfirmationAlert;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0020_ip = 29; continue _fun0020 }
-case 30:
+                if(!var1) { _fun0020_ip = 31; continue _fun0020 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -646,10 +655,10 @@ case 0:
                 var2 = var1.pushUpsellDismissed;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0021_ip = 27; continue _fun0021 }
-case 28:
+                if(!var1) { _fun0021_ip = 29; continue _fun0021 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -665,10 +674,10 @@ case 0:
                 var2 = var1.disableActivityHostLeftNitroUpsell;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0022_ip = 27; continue _fun0022 }
-case 28:
+                if(!var1) { _fun0022_ip = 29; continue _fun0022 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -684,10 +693,10 @@ case 0:
                 var2 = var1.disableCallUserConfirmationPrompt;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0023_ip = 27; continue _fun0023 }
-case 28:
+                if(!var1) { _fun0023_ip = 29; continue _fun0023 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -703,10 +712,10 @@ case 0:
                 var2 = var1.disableApplicationSubscriptionCancellationSurvey;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0024_ip = 27; continue _fun0024 }
-case 28:
+                if(!var1) { _fun0024_ip = 29; continue _fun0024 }
+case 30:
                 var1 = var2;
-case 27:
+case 29:
                 return var1;
             }
         };
@@ -722,10 +731,10 @@ case 0:
                 var2 = var1.darkSidebar;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0025_ip = 29; continue _fun0025 }
-case 30:
+                if(!var1) { _fun0025_ip = 31; continue _fun0025 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -741,10 +750,10 @@ case 0:
                 var2 = var1.saveCameraUploadsToDevice;
                 var1 = null;
                 var1 = var1 == var2;
-                if(var1) { _fun0026_ip = 29; continue _fun0026 }
-case 30:
+                if(var1) { _fun0026_ip = 31; continue _fun0026 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -760,10 +769,10 @@ case 0:
                 var2 = var1.showPlayAgain;
                 var1 = null;
                 var1 = var1 == var2;
-                if(var1) { _fun0027_ip = 29; continue _fun0027 }
-case 30:
+                if(var1) { _fun0027_ip = 31; continue _fun0027 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -779,10 +788,10 @@ case 0:
                 var2 = _closure1_slot17;
                 var2 = var2.disableVisualRefresh;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0028_ip = 29; continue _fun0028 }
-case 30:
+                if(!(var3 != var2)) { _fun0028_ip = 31; continue _fun0028 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
@@ -791,22 +800,42 @@ case 29:
         var5 = {};
         var7 = 'listDensity';
         var5['key'] = var7;
-        var6 = function get() {
+        var7 = function get() {
             _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.listDensity;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0029_ip = 36; continue _fun0029 }
-case 37:
+                if(!(var3 == var1)) { _fun0029_ip = 38; continue _fun0029 }
+case 39:
                 var2 = _closure1_slot13;
                 var1 = var2.COZY;
-case 36:
+case 38:
+                return var1;
+            }
+        };
+        var5['get'] = var7;
+        var1[29] = var5;
+        var5 = {};
+        var7 = 'hdrDynamicRange';
+        var5['key'] = var7;
+        var6 = function get() {
+            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+case 0:
+                var1 = _closure1_slot17;
+                var2 = var1.hdrDynamicRange;
+                var1 = null;
+                var3 = var1 != var2;
+                var1 = 'no-limit';
+                if(!var3) { _fun0030_ip = 38; continue _fun0030 }
+case 12:
+                var1 = var2;
+case 38:
                 return var1;
             }
         };
         var5['get'] = var6;
-        var1[29] = var5;
+        var1[30] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -898,15 +927,15 @@ case 36:
     };
     var5['LOGOUT'] = var11;
     var11 = function handleLogInSuccess() {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var3 = _closure1_slot17;
             var1 = null;
-            if(!(var1 == var3)) { _fun0030_ip = 32; continue _fun0030 }
-case 41:
+            if(!(var1 == var3)) { _fun0031_ip = 34; continue _fun0031 }
+case 43:
             var1 = {};
             _closure1_slot17 = var1;
-case 32:
+case 34:
             var1 = undefined;
             return var1;
         }

@@ -340,7 +340,7 @@ case 40:
         var _closure2_slot0 = var5;
         var4 = _closure1_slot1;
         var3 = _closure1_slot3;
-        var1 = 31;
+        var1 = 20;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -393,7 +393,7 @@ case 0:
             var18 = var3.bind(var4)(var17, var1);
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var1 = 23;
+            var1 = 24;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -415,7 +415,7 @@ case 17:
 case 53:
             var20 = _closure1_slot1;
             var22 = _closure1_slot3;
-            var19 = 20;
+            var19 = 21;
             var19 = var22[var19];
             var22 = var20.bind(var1)(var19);
             var20 = var22.isEqual;
@@ -491,7 +491,7 @@ case 69:
 case 76:
             var20 = _closure1_slot1;
             var22 = _closure1_slot3;
-            var19 = 20;
+            var19 = 21;
             var19 = var22[var19];
             var23 = var20.bind(var1)(var19);
             var22 = var23.isEqual;
@@ -514,7 +514,7 @@ case 75:
 case 82:
             var20 = _closure1_slot1;
             var22 = _closure1_slot3;
-            var19 = 20;
+            var19 = 21;
             var19 = var22[var19];
             var20 = var20.bind(var1)(var19);
             var19 = var20.isEqual;
@@ -1904,6 +1904,46 @@ case 98:
         }
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['EXPERIMENT_SESSION_OVERRIDE_CREATE'];
+    var4 = function(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 20;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'APEX_EXPERIMENT_SESSION_OVERRIDE_CREATE';
+        var2['type'] = var6;
+        var6 = var5.experiment_name;
+        var2['experimentName'] = var6;
+        var5 = var5.variant_id;
+        var2['variantId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['EXPERIMENT_SESSION_OVERRIDE_DELETE'];
+    var4 = function(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 20;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'APEX_EXPERIMENT_SESSION_OVERRIDE_DELETE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var5 = var5.experiment_name;
+        var2['experimentName'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['RESUMED'];
     var4 = function() {
         var4 = _closure1_slot0;
@@ -2511,12 +2551,12 @@ case 4:
 case 160:
             var10 = _closure1_slot1;
             var11 = _closure1_slot3;
-            var6 = 20;
+            var6 = 21;
             var6 = var11[var6];
             var9 = var10.bind(var1)(var6);
             var8 = var9.map;
             var7 = var4.members;
-            var6 = 21;
+            var6 = 22;
             var6 = var11[var6];
             var6 = var10.bind(var1)(var6);
             var5 = var8.bind(var9)(var7, var6);
@@ -2716,7 +2756,7 @@ case 164:
             var7 = var3.bind(var4)(var1);
             var _closure2_slot0 = var7;
             var4 = _closure1_slot1;
-            var3 = 22;
+            var3 = 23;
             var3 = var8[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.createGuild;
@@ -3054,7 +3094,7 @@ case 170:
         var2['collectibles'] = var5;
         var6 = _closure1_slot0;
         var5 = _closure1_slot3;
-        var1 = 23;
+        var1 = 24;
         var5 = var5[var1];
         var1 = undefined;
         var6 = var6.bind(var1)(var5);
@@ -3754,7 +3794,7 @@ case 175:
         var2['type'] = var4;
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
-        var1 = 24;
+        var1 = 25;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -3774,7 +3814,7 @@ case 175:
         var2['type'] = var4;
         var5 = _closure1_slot0;
         var4 = _closure1_slot3;
-        var1 = 24;
+        var1 = 25;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -3884,7 +3924,7 @@ case 33:
             var2['emoji'] = var4;
             var5 = _closure1_slot0;
             var4 = _closure1_slot3;
-            var1 = 25;
+            var1 = 26;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
@@ -3924,7 +3964,7 @@ case 33:
             var1[var2] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var2 = 25;
+            var2 = 26;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -4030,14 +4070,14 @@ case 0:
 case 29:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var2 = 26;
+            var2 = 27;
             var2 = var5[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = var3.fetchPaymentSources;
             var2 = var2.bind(var3)();
             var3 = _closure1_slot2;
-            var2 = 27;
+            var2 = 28;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.fetchSubscriptionPlansBySKUs;
@@ -4057,7 +4097,7 @@ case 179:
 case 0:
             var4 = _closure1_slot2;
             var3 = _closure1_slot3;
-            var1 = 28;
+            var1 = 29;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -4070,7 +4110,7 @@ case 0:
 case 180:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
-            var2 = 26;
+            var2 = 27;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.fetchSubscriptions;
@@ -4180,7 +4220,7 @@ case 172:
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 29;
+        var1 = 30;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -4772,7 +4812,7 @@ case 101:
         var2['title'] = var5;
         var6 = _closure1_slot0;
         var5 = _closure1_slot3;
-        var1 = 30;
+        var1 = 31;
         var5 = var5[var1];
         var1 = undefined;
         var7 = var6.bind(var1)(var5);

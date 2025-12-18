@@ -1,7 +1,7 @@
 // app/modules/collectibles/records/CollectiblesProductRecord.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var8 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
@@ -16,7 +16,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot4;
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot14;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -40,7 +40,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot13 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -73,13 +73,13 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _superPropGet(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -122,167 +122,62 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var9 = var1.Object;
-    var4 = var9.defineProperty;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var9)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var7[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 2;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 4;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 5;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 6;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot8 = var2;
     var2 = 7;
     var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.createCollectiblesItemsFromServerResponse;
     var _closure1_slot9 = var2;
     var2 = 8;
     var2 = var7[var2];
-    var4 = var8.bind(var1)(var2);
+    var4 = var4.bind(var1)(var2);
     var2 = 9;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
-    var _closure1_slot10 = var2;
-    var2 = 10;
-    var2 = var7[var2];
-    var2 = var8.bind(var1)(var2);
-    var _closure1_slot11 = var2;
-    var2 = 11;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var2 = var2.REWARD_CATEGORY_AND_REWARD_SKU_IDS;
-    var _closure1_slot12 = var2;
-    var2 = 12;
+    var _closure1_slot10 = var2;
+    var2 = 10;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var2 = var2.PREMIUM_TYPE_NONE;
-    var _closure1_slot13 = var2;
-    var2 = function createItemsFromServerResponse(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var5 = arg1;
-            var1 = null;
-            if(!(var1 == var5)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-            var1 = new Array(0);
-            _fun0004_ip = 3; continue _fun0004;
-case 16:
-            var4 = var5.reduce;
-            var3 = function(arg1, arg2) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                    var1 = arg1;
-                    var4 = function(arg1) {
-                        var7 = _closure1_slot0;
-                        var8 = _closure1_slot1;
-                        var2 = 13;
-                        var2 = var8[var2];
-                        var6 = undefined;
-                        var4 = var7.bind(var6)(var2);
-                        var3 = var4.match;
-                        var2 = arg1;
-                        var9 = var3.bind(var4)(var2);
-                        var5 = var9.with;
-                        var4 = {};
-                        var2 = 14;
-                        var3 = var8[var2];
-                        var3 = var7.bind(var6)(var3);
-                        var3 = var3.CollectiblesItemType;
-                        var3 = var3.AVATAR_DECORATION;
-                        var4['type'] = var3;
-                        var3 = function(arg1) {
-                            var3 = _closure1_slot8;
-                            var2 = var3.fromServer;
-                            var1 = arg1;
-                            var1 = var2.bind(var3)(var1);
-                            return var1;
-                        };
-                        var9 = var5.bind(var9)(var4, var3);
-                        var5 = var9.with;
-                        var4 = {};
-                        var3 = var8[var2];
-                        var3 = var7.bind(var6)(var3);
-                        var3 = var3.CollectiblesItemType;
-                        var3 = var3.PROFILE_EFFECT;
-                        var4['type'] = var3;
-                        var3 = function(arg1) {
-                            var3 = _closure1_slot11;
-                            var2 = var3.fromServer;
-                            var1 = arg1;
-                            var1 = var2.bind(var3)(var1);
-                            return var1;
-                        };
-                        var5 = var5.bind(var9)(var4, var3);
-                        var4 = var5.with;
-                        var3 = {};
-                        var2 = var8[var2];
-                        var2 = var7.bind(var6)(var2);
-                        var2 = var2.CollectiblesItemType;
-                        var2 = var2.NAMEPLATE;
-                        var3['type'] = var2;
-                        var2 = function(arg1) {
-                            var3 = _closure1_slot10;
-                            var2 = var3.fromServer;
-                            var1 = arg1;
-                            var1 = var2.bind(var3)(var1);
-                            return var1;
-                        };
-                        var3 = var4.bind(var5)(var3, var2);
-                        var2 = var3.otherwise;
-                        var1 = function() {
-                            var1 = null;
-                            return var1;
-                        };
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-                    var3 = undefined;
-                    var2 = arg2;
-                    var3 = var4.bind(var3)(var2);
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
-                    var2 = var1.push;
-                    var2 = var2.bind(var1)(var3);
-case 18:
-                    return var1;
-                }
-            };
-            var2 = new Array(0);
-            var1 = var4.bind(var5)(var3, var2);
-case 3:
-            return var1;
-        }
-    };
-    var _closure1_slot14 = var2;
+    var _closure1_slot11 = var2;
     var2 = function(arg1) {
         var5 = function CollectiblesProductRecord(arg1) {
             var2 = arg1;
@@ -291,7 +186,7 @@ case 3:
             var5 = _closure2_slot0;
             var4 = undefined;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot13;
             var1 = new Array(1);
             var1[0] = var2;
             var1 = var3.bind(var4)(var6, var5, var1);
@@ -329,7 +224,7 @@ case 3:
         var6 = 'fromServer';
         var1['key'] = var6;
         var2 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var3 = arg1;
                 var14 = var3.type;
@@ -350,7 +245,7 @@ case 0:
                 var _closure3_slot0 = var2;
                 var3 = _closure2_slot0;
                 var1 = {};
-                var17 = _closure1_slot18;
+                var17 = _closure1_slot15;
                 var5 = undefined;
                 var20 = 'fromServer';
                 var19 = this;
@@ -365,17 +260,17 @@ case 0:
                 var13 = copyDataProperties(var21, var20);
                 var13 = 'type';
                 var1[var13] = var14;
-                var14 = _closure1_slot13;
+                var14 = _closure1_slot11;
                 var13 = null;
-                if(!(var9 !== var14)) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                if(!(var9 !== var14)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var13 = var9;
-case 20:
+case 16:
                 var9 = 'premiumType';
                 var1[var9] = var13;
                 var9 = 'categorySkuId';
                 var1[var9] = var12;
-                var12 = _closure1_slot12;
+                var12 = _closure1_slot10;
                 var9 = var12.some;
                 var8 = function(arg1) {
                     var1 = arg1;
@@ -390,38 +285,38 @@ case 20:
                 var1[var8] = var9;
                 var9 = _closure1_slot0;
                 var12 = _closure1_slot1;
-                var8 = 15;
+                var8 = 11;
                 var8 = var12[var8];
                 var9 = var9.bind(var5)(var8);
                 var8 = var9.getPricesFromServer;
                 var9 = var8.bind(var9)(var10);
                 var8 = 'prices';
                 var1[var8] = var9;
-                var9 = _closure1_slot14;
+                var9 = _closure1_slot9;
                 var8 = var2.items;
                 var9 = var9.bind(var5)(var8);
                 var8 = 'items';
                 var1[var8] = var9;
                 var8 = var6 == var11;
                 var9 = undefined;
-                if(var8) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                if(var8) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var10 = var11.map;
-                var8 = _closure1_slot9;
+                var8 = _closure1_slot8;
                 var8 = var8.fromServer;
                 var9 = var10.bind(var11)(var8);
-case 22:
+case 18:
                 var8 = 'bundledProducts';
                 var1[var8] = var9;
                 var6 = var6 == var7;
                 var5 = undefined;
-                if(var6) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+                if(var6) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                 var6 = var7.map;
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot12;
                 var4 = var4.fromServer;
                 var5 = var6.bind(var7)(var4);
-case 24:
+case 20:
                 var4 = 'variants';
                 var1[var4] = var5;
                 var5 = var2.google_sku_ids;
@@ -455,7 +350,7 @@ case 24:
             var5 = _closure2_slot0;
             var4 = undefined;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot13;
             var1 = new Array(1);
             var1[0] = var2;
             var1 = var3.bind(var4)(var6, var5, var1);
@@ -494,7 +389,7 @@ case 24:
             var10 = copyDataProperties(var16, var15, var14);
             var3 = _closure2_slot0;
             var1 = {};
-            var12 = _closure1_slot18;
+            var12 = _closure1_slot15;
             var9 = undefined;
             var15 = 'fromServer';
             var14 = this;
@@ -531,8 +426,8 @@ case 24:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var _closure1_slot15 = var2;
-    var5 = 16;
+    var _closure1_slot12 = var2;
+    var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
