@@ -1059,6 +1059,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOCIAL_LAYER_GIFT_CODE_CLAIM_MODAL'] = var1;
     var1 = 'social layer storefront';
     var2['SOCIAL_LAYER_STOREFRONT'] = var1;
+    var1 = 'wishlist account popout upsell';
+    var2['WISHLIST_ACCOUNT_POPOUT_UPSSELL'] = var1;
     var1 = 'gift code embed';
     var2['GIFT_CODE_EMBED'] = var1;
     var1 = 'slayer storefront product details embed';

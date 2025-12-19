@@ -1,20 +1,25 @@
 // app/utils/PriceUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
-    var6 = function formatPrice(arg1, arg2, arg3) {
+    var1 = function formatSingleCurrencyPrice(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg3;
-            var7 = null;
-            var6 = var1;
-            if(!(var7 == var6)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
             var6 = {};
+            var7 = null;
+            var2 = var1;
+            if(!(var7 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = {};
 case 2:
+            var13 = var6;
+            var12 = var2;
+            var2 = copyDataProperties(var13, var12);
             var2 = var7 == var1;
             var3 = undefined;
             var5 = undefined;
@@ -32,7 +37,7 @@ case 6:
             var2 = var1;
             if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot6;
             var8 = var9.includes;
             var4 = _closure1_slot2;
             var4 = var4.systemLocale;
@@ -47,7 +52,7 @@ case 10:
 case 13:
             var4 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var2 = 2;
+            var2 = 4;
             var2 = var8[var2];
             var4 = var4.bind(var3)(var2);
             var2 = var4.isWindows;
@@ -79,7 +84,7 @@ case 21:
 case 20:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 3;
+            var1 = 5;
             var1 = var4[var1];
             var4 = var2.bind(var3)(var1);
             var3 = var4.formatPrice;
@@ -92,31 +97,103 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot5 = var6;
-    var5 = function formatRate(arg1, arg2, arg3) {
+    var _closure1_slot7 = var1;
+    var6 = function formatPrice(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var8 = arg1;
+            var3 = arg2;
+            var6 = arg3;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var9 = 4;
+            var1 = var1[var9];
+            var5 = undefined;
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.isDesktop;
+            var1 = var1.bind(var4)();
+            var4 = !var1;
+            if(!var4) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            var7 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var9];
+            var7 = var7.bind(var5)(var1);
+            var1 = var7.isWeb;
+            var1 = var1.bind(var7)();
+            var4 = !var1;
+case 22:
+            var1 = !var4;
+            if(var4) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var4 = _closure1_slot3;
+            var7 = var4.ipCountryCode;
+            var4 = 'BG';
+            var1 = var4 === var7;
+case 24:
+            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+            var4 = null;
+            var4 = var4 == var3;
+            var7 = undefined;
+            if(var4) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+            var4 = var3.toLowerCase;
+            var7 = var4.bind(var3)();
+case 28:
+            var4 = _closure1_slot5;
+            var4 = var4.EUR;
+            var1 = var7 === var4;
+case 26:
+            var4 = _closure1_slot7;
+            var7 = var4.bind(var5)(var8, var3, var6);
+            if(var1) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+            var1 = var7;
+            _fun0002_ip = 32; continue _fun0002;
+case 30:
+            var3 = 1.95583;
+            var3 = var3 * var8;
+            var2 = _closure1_slot5;
+            var2 = var2.BGN;
+            var11 = var4.bind(var5)(var3, var2, var6);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var14 = '';
+            var12 = ' (';
+            var10 = ')';
+            var13 = var7;
+            var1 = var14[var5](var13, var12, var11, var10, var9);
+case 32:
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var6;
+    var5 = function formatRate(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;
             var8 = arg2;
             var7 = arg3;
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var2 = var2.YEAR;
-            if(!(var8 !== var2)) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var2 = _closure1_slot3;
+            if(!(var8 !== var2)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
+            var2 = _closure1_slot4;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(!(var8 === var2)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
             var2 = 1;
-            if(!(var2 !== var7)) { _fun0002_ip = 26; continue _fun0002 }
-case 24:
-            var2 = _closure1_slot3;
+            if(!(var2 !== var7)) { _fun0003_ip = 37; continue _fun0003 }
+case 35:
+            var2 = _closure1_slot4;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+            if(!(var8 === var2)) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
             var2 = 1;
-            if(!(!(var7 > var2))) { _fun0002_ip = 29; continue _fun0002 }
-case 27:
+            if(!(!(var7 > var2))) { _fun0003_ip = 40; continue _fun0003 }
+case 38:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -130,10 +207,10 @@ case 27:
             var2 = new var13[var4](var12, var11);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
-case 29:
+case 40:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var2 = 4;
+            var2 = 6;
             var4 = var9[var2];
             var3 = undefined;
             var4 = var8.bind(var3)(var4);
@@ -148,10 +225,10 @@ case 29:
             var2['intervalCount'] = var7;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
-case 26:
+case 37:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var2 = 4;
+            var2 = 6;
             var4 = var8[var2];
             var3 = undefined;
             var4 = var7.bind(var3)(var4);
@@ -165,10 +242,10 @@ case 26:
             var2['price'] = var5;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
-case 22:
+case 33:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 4;
+            var1 = 6;
             var3 = var7[var1];
             var2 = undefined;
             var3 = var6.bind(var2)(var3);
@@ -184,50 +261,58 @@ case 22:
             return var1;
         }
     };
-    var _closure1_slot6 = var5;
+    var _closure1_slot9 = var5;
     var4 = function maybeShortenPrice(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = arg1;
             var3 = var5.length;
             var2 = 5;
             var1 = var5;
-            if(!(var3 > var2)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+            if(!(var3 > var2)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var4 = var5.replace;
-            var3 = /\.00$/;
+            var3 = /\.00(?=[\s)]|$)/g;
             var2 = '';
             var1 = var4.bind(var5)(var3, var2);
-case 30:
+case 41:
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot10 = var4;
     var7 = global;
-    var12 = var7.Object;
-    var11 = var12.defineProperty;
+    var13 = var7.Object;
+    var12 = var13.defineProperty;
     var10 = {};
     var1 = true;
     var10['value'] = var1;
     var1 = '__esModule';
-    var1 = var11.bind(var12)(var3, var1, var10);
+    var1 = var12.bind(var13)(var3, var1, var10);
     var1 = 0;
-    var11 = var9[var1];
-    var10 = metroImportDefault;
+    var10 = var9[var1];
     var1 = undefined;
-    var10 = var10.bind(var1)(var11);
+    var10 = var11.bind(var1)(var10);
     var _closure1_slot2 = var10;
     var10 = 1;
     var10 = var9[var10];
+    var10 = var11.bind(var1)(var10);
+    var _closure1_slot3 = var10;
+    var10 = 2;
+    var10 = var9[var10];
     var10 = var8.bind(var1)(var10);
     var10 = var10.SubscriptionIntervalTypes;
-    var _closure1_slot3 = var10;
+    var _closure1_slot4 = var10;
+    var10 = 3;
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var10 = var10.CurrencyCodes;
+    var _closure1_slot5 = var10;
     var11 = var7.Object;
     var10 = var11.freeze;
     var7 = ['en-CA', 'en-AU', 'en-NZ'];
     var7 = var10.bind(var11)(var7);
-    var _closure1_slot4 = var7;
-    var7 = 6;
+    var _closure1_slot6 = var7;
+    var7 = 8;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -249,29 +334,29 @@ case 30:
     };
     var3['formatPercent'] = var5;
     var5 = function formatSubscriptionPlanRate(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var2 = 'interval_count';
             var2 = var2 in var1;
-            if(var2) { _fun0004_ip = 32; continue _fun0004 }
-case 2:
+            if(var2) { _fun0005_ip = 43; continue _fun0005 }
+case 3:
             var5 = var1.intervalCount;
-            _fun0004_ip = 33; continue _fun0004;
-case 32:
+            _fun0005_ip = 44; continue _fun0005;
+case 43:
             var5 = var1.interval_count;
-case 33:
+case 44:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 5;
+            var2 = 7;
             var2 = var4[var2];
             var4 = undefined;
             var7 = var3.bind(var4)(var2);
             var3 = var7.getPrice;
             var2 = var1.id;
             var2 = var3.bind(var7)(var2);
-            var3 = _closure1_slot6;
-            var7 = _closure1_slot5;
+            var3 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var6 = var2.amount;
             var2 = var2.currency;
             var2 = var7.bind(var4)(var6, var2);
@@ -283,8 +368,8 @@ case 33:
     var3['formatSubscriptionPlanRate'] = var5;
     var3['maybeShortenPrice'] = var4;
     var2 = function shortenAndFormatPrice(arg1, arg2, arg3) {
-        var3 = _closure1_slot7;
-        var6 = _closure1_slot5;
+        var3 = _closure1_slot10;
+        var6 = _closure1_slot8;
         var2 = undefined;
         var5 = arg1;
         var4 = arg2;

@@ -1,12 +1,12 @@
 // app/modules/video_calls/native/components/ChannelCallFloatingCTA.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var14 = metroImportDefault;
+    var6 = require;
+    var13 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var14;
-    var _closure1_slot2 = var8;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var7;
     var1 = function FloatingCTA(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -94,7 +94,7 @@ case 8:
         }
     };
     var _closure1_slot22 = var1;
-    var4 = function openDrawerForConsoleVoice() {
+    var2 = function openDrawerForConsoleVoice() {
         var4 = _closure1_slot13;
         var1 = undefined;
         var3 = true;
@@ -120,28 +120,7 @@ case 8:
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot23 = var4;
-    var2 = function openConsoleDetectActionSheet() {
-        var5 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 27;
-        var4 = var2[var1];
-        var1 = undefined;
-        var5 = var5.bind(var1)(var4);
-        var4 = var5.openLazy;
-        var6 = _closure1_slot0;
-        var3 = 29;
-        var3 = var2[var3];
-        var6 = var6.bind(var1)(var3);
-        var3 = 28;
-        var3 = var2[var3];
-        var2 = var2.paths;
-        var3 = var6.bind(var1)(var3, var2);
-        var2 = 'ConsoleDetectActionSheet';
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot24 = var2;
+    var _closure1_slot23 = var2;
     var1 = function ConsoleVoiceUpsell(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -165,14 +144,14 @@ case 12:
             var5 = {};
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 32;
+            var1 = 29;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var5['image'] = var1;
             var1 = var12.playstationUpsell;
             var5['imageStyle'] = var1;
             var6 = _closure1_slot0;
-            var1 = 31;
+            var1 = 28;
             var2 = var7[var1];
             var2 = var6.bind(var4)(var2);
             var3 = var2.intl;
@@ -188,12 +167,12 @@ case 10:
             var1 = {};
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 30;
+            var2 = 27;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var1['image'] = var2;
             var7 = _closure1_slot0;
-            var2 = 31;
+            var2 = 28;
             var3 = var8[var2];
             var3 = var7.bind(var4)(var3);
             var6 = var3.intl;
@@ -213,7 +192,7 @@ case 14:
             var1['onPress'] = var6;
             var10 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var6 = 31;
+            var6 = 28;
             var7 = var14[var6];
             var7 = var10.bind(var4)(var7);
             var8 = var7.intl;
@@ -239,13 +218,13 @@ case 14:
             var6['onPress'] = var10;
             var11 = _closure1_slot18;
             var13 = _closure1_slot1;
-            var9 = 33;
+            var9 = 30;
             var9 = var14[var9];
             var10 = var13.bind(var4)(var9);
             var9 = {};
             var12 = var12.closeIcon;
             var9['style'] = var12;
-            var12 = 34;
+            var12 = 31;
             var12 = var14[var12];
             var12 = var13.bind(var4)(var12);
             var9['source'] = var12;
@@ -260,14 +239,14 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var1 = function ConsoleNUXCTA() {
         var4 = _closure1_slot18;
         var3 = _closure1_slot22;
         var2 = {};
         var7 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var1 = 35;
+        var1 = 32;
         var6 = var9[var1];
         var1 = undefined;
         var6 = var7.bind(var1)(var6);
@@ -275,7 +254,7 @@ case 14:
         var6 = _closure1_slot23;
         var2['onPress'] = var6;
         var8 = _closure1_slot0;
-        var5 = 31;
+        var5 = 28;
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var7 = var6.intl;
@@ -289,85 +268,7 @@ case 14:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
-    var1 = function ConsoleLocalDetectCTA() {
-        var1 = _closure1_slot21;
-        var4 = undefined;
-        var11 = var1.bind(var4)();
-        var3 = _closure1_slot18;
-        var2 = _closure1_slot22;
-        var1 = {};
-        var9 = _closure1_slot1;
-        var12 = _closure1_slot2;
-        var5 = 36;
-        var5 = var12[var5];
-        var5 = var9.bind(var4)(var5);
-        var1['image'] = var5;
-        var5 = _closure1_slot24;
-        var1['onPress'] = var5;
-        var15 = _closure1_slot0;
-        var10 = 31;
-        var5 = var12[var10];
-        var5 = var15.bind(var4)(var5);
-        var7 = var5.intl;
-        var6 = var7.string;
-        var5 = var12[var10];
-        var5 = var15.bind(var4)(var5);
-        var5 = var5.t;
-        var5 = var5.02gscF;
-        var5 = var6.bind(var7)(var5);
-        var1['label'] = var5;
-        var7 = _closure1_slot18;
-        var5 = 37;
-        var5 = var12[var5];
-        var5 = var15.bind(var4)(var5);
-        var6 = var5.PressableOpacity;
-        var5 = {};
-        var13 = 'button';
-        var5['accessibilityRole'] = var13;
-        var13 = var12[var10];
-        var13 = var15.bind(var4)(var13);
-        var14 = var13.intl;
-        var13 = var14.string;
-        var10 = var12[var10];
-        var10 = var15.bind(var4)(var10);
-        var10 = var10.t;
-        var10 = var10.cpT0Cq;
-        var10 = var13.bind(var14)(var10);
-        var5['accessibilityLabel'] = var10;
-        var10 = function onPress() {
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 38;
-            var2 = var6[var1];
-            var1 = undefined;
-            var4 = var5.bind(var1)(var2);
-            var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-            var2 = 24;
-            var2 = var6[var2];
-            var2 = var5.bind(var1)(var2);
-            var2 = var2.DismissibleContent;
-            var2 = var2.CONSOLE_LOCAL_DETECT_CTA;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var5['onPress'] = var10;
-        var10 = _closure1_slot18;
-        var8 = 39;
-        var8 = var12[var8];
-        var9 = var9.bind(var4)(var8);
-        var8 = {};
-        var11 = var11.consoleCTAClose;
-        var11 = var11.color;
-        var8['color'] = var11;
-        var8 = var10.bind(var4)(var9, var8);
-        var5['children'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['trailing'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot27 = var1;
+    var _closure1_slot25 = var1;
     var1 = function handlePressSoundboardNotice() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -380,15 +281,15 @@ case 14:
         var3 = _closure1_slot14;
         var3 = var3.TOGGLE_CALL_CONTROL_DRAWER;
         var3 = var4.bind(var5)(var3);
-        var2 = _closure1_slot29;
+        var2 = _closure1_slot27;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot26 = var1;
     var1 = function handleSoundboardNoticeClose() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 38;
+        var1 = 33;
         var2 = var6[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var2);
@@ -401,7 +302,7 @@ case 14:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot27 = var1;
     var1 = function SoundboardNotice() {
         var1 = _closure1_slot21;
         var4 = undefined;
@@ -411,14 +312,14 @@ case 14:
         var1 = {};
         var9 = _closure1_slot1;
         var12 = _closure1_slot2;
-        var5 = 40;
+        var5 = 34;
         var5 = var12[var5];
         var5 = var9.bind(var4)(var5);
         var1['image'] = var5;
-        var5 = _closure1_slot28;
+        var5 = _closure1_slot26;
         var1['onPress'] = var5;
         var15 = _closure1_slot0;
-        var10 = 31;
+        var10 = 28;
         var5 = var12[var10];
         var5 = var15.bind(var4)(var5);
         var7 = var5.intl;
@@ -430,7 +331,7 @@ case 14:
         var5 = var6.bind(var7)(var5);
         var1['label'] = var5;
         var7 = _closure1_slot18;
-        var5 = 37;
+        var5 = 35;
         var5 = var12[var5];
         var5 = var15.bind(var4)(var5);
         var6 = var5.PressableOpacity;
@@ -447,14 +348,14 @@ case 14:
         var10 = var10.cpT0Cq;
         var10 = var13.bind(var14)(var10);
         var5['accessibilityLabel'] = var10;
-        var10 = _closure1_slot29;
+        var10 = _closure1_slot27;
         var5['onPress'] = var10;
         var10 = _closure1_slot18;
-        var8 = 39;
+        var8 = 36;
         var8 = var12[var8];
         var9 = var9.bind(var4)(var8);
         var8 = {};
-        var11 = var11.consoleCTAClose;
+        var11 = var11.floatingCTAClose;
         var11 = var11.color;
         var8['color'] = var11;
         var8 = var10.bind(var4)(var9, var8);
@@ -464,7 +365,7 @@ case 14:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot28 = var1;
     var1 = function ChannelCallInvite(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -495,7 +396,7 @@ case 0:
             var9 = var3.bind(var8)(var2, var1);
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 31;
+            var1 = 28;
             var2 = var10[var1];
             var2 = var8.bind(var4)(var2);
             var3 = var2.intl;
@@ -520,14 +421,14 @@ case 17:
             var1['label'] = var8;
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 41;
+            var7 = 37;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var1['image'] = var7;
             var6 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 42;
+                var1 = 38;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -547,119 +448,119 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot29 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var6 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
     var1 = true;
-    var6['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = var8.bind(var9)(var3, var1, var5);
     var1 = 0;
-    var6 = var8[var1];
+    var5 = var7[var1];
     var1 = undefined;
-    var6 = var14.bind(var1)(var6);
-    var _closure1_slot3 = var6;
-    var12 = 1;
-    var9 = var8[var12];
-    var6 = metroImportAll;
-    var6 = var6.bind(var1)(var9);
-    var6 = 2;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var9 = var6.Pressable;
-    var _closure1_slot4 = var9;
-    var6 = var6.View;
-    var _closure1_slot5 = var6;
-    var6 = 3;
-    var6 = var8[var6];
-    var6 = var14.bind(var1)(var6);
-    var _closure1_slot6 = var6;
-    var6 = 4;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var9 = var6.setShowConsoleVoiceSparkles;
-    var _closure1_slot7 = var9;
-    var9 = var6.setVoiceUpsellDismissed;
-    var _closure1_slot8 = var9;
-    var6 = var6.useConsoleVoiceUpsellStore;
-    var _closure1_slot9 = var6;
-    var6 = 5;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var6 = var6.isGuildScheduledEventActive;
-    var _closure1_slot10 = var6;
-    var13 = 6;
-    var6 = var8[var13];
-    var6 = var14.bind(var1)(var6);
-    var _closure1_slot11 = var6;
-    var6 = 7;
-    var6 = var8[var6];
-    var6 = var14.bind(var1)(var6);
-    var _closure1_slot12 = var6;
-    var6 = 8;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var6 = var6.setFocus;
-    var _closure1_slot13 = var6;
-    var6 = 9;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var9 = var6.ComponentActions;
-    var _closure1_slot14 = var9;
-    var9 = var6.InstantInviteSources;
-    var _closure1_slot15 = var9;
-    var9 = var6.Permissions;
-    var _closure1_slot16 = var9;
-    var6 = var6.PlatformTypes;
-    var _closure1_slot17 = var6;
-    var6 = 10;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var9 = var6.jsx;
-    var _closure1_slot18 = var9;
-    var9 = var6.jsxs;
-    var _closure1_slot19 = var9;
-    var6 = var6.Fragment;
-    var _closure1_slot20 = var6;
-    var6 = 11;
-    var6 = var8[var6];
-    var10 = var7.bind(var1)(var6);
-    var9 = var10.createStyles;
-    var6 = {};
-    var11 = {};
-    var11['paddingTop'] = var13;
-    var6['superHeader'] = var11;
-    var11 = {'width': 20, 'height': 20};
-    var6['closeIcon'] = var11;
-    var11 = {'width': 24, 'height': 24, 'margin': 6};
-    var13 = 12;
-    var13 = var8[var13];
-    var13 = var7.bind(var1)(var13);
-    var13 = var13.DARK_WHITE_500_LIGHT_PLAYSTATION;
-    var11['tintColor'] = var13;
-    var6['playstationUpsell'] = var11;
-    var11 = {};
-    var13 = 13;
-    var13 = var8[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
-    var11['color'] = var13;
-    var6['consoleCTAClose'] = var11;
-    var11 = {};
-    var11['flex'] = var12;
-    var6['channelCallInviteFloatingCTA'] = var11;
-    var6 = var9.bind(var10)(var6);
-    var _closure1_slot21 = var6;
-    var6 = 43;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/video_calls/native/components/ChannelCallFloatingCTA.tsx';
-    var6 = var7.bind(var8)(var6);
-    var5 = function _default(arg1) {
+    var5 = var13.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var11 = 1;
+    var8 = var7[var11];
+    var5 = metroImportAll;
+    var5 = var5.bind(var1)(var8);
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.Pressable;
+    var _closure1_slot4 = var8;
+    var5 = var5.View;
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var13.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.setShowConsoleVoiceSparkles;
+    var _closure1_slot7 = var8;
+    var8 = var5.setVoiceUpsellDismissed;
+    var _closure1_slot8 = var8;
+    var5 = var5.useConsoleVoiceUpsellStore;
+    var _closure1_slot9 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.isGuildScheduledEventActive;
+    var _closure1_slot10 = var5;
+    var12 = 6;
+    var5 = var7[var12];
+    var5 = var13.bind(var1)(var5);
+    var _closure1_slot11 = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var5 = var13.bind(var1)(var5);
+    var _closure1_slot12 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.setFocus;
+    var _closure1_slot13 = var5;
+    var5 = 9;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.ComponentActions;
+    var _closure1_slot14 = var8;
+    var8 = var5.InstantInviteSources;
+    var _closure1_slot15 = var8;
+    var8 = var5.Permissions;
+    var _closure1_slot16 = var8;
+    var5 = var5.PlatformTypes;
+    var _closure1_slot17 = var5;
+    var5 = 10;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.jsx;
+    var _closure1_slot18 = var8;
+    var8 = var5.jsxs;
+    var _closure1_slot19 = var8;
+    var5 = var5.Fragment;
+    var _closure1_slot20 = var5;
+    var5 = 11;
+    var5 = var7[var5];
+    var9 = var6.bind(var1)(var5);
+    var8 = var9.createStyles;
+    var5 = {};
+    var10 = {};
+    var10['paddingTop'] = var12;
+    var5['superHeader'] = var10;
+    var10 = {'width': 20, 'height': 20};
+    var5['closeIcon'] = var10;
+    var10 = {'width': 24, 'height': 24, 'margin': 6};
+    var12 = 12;
+    var12 = var7[var12];
+    var12 = var6.bind(var1)(var12);
+    var12 = var12.DARK_WHITE_500_LIGHT_PLAYSTATION;
+    var10['tintColor'] = var12;
+    var5['playstationUpsell'] = var10;
+    var10 = {};
+    var12 = 13;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
+    var10['color'] = var12;
+    var5['floatingCTAClose'] = var10;
+    var10 = {};
+    var10['flex'] = var11;
+    var5['channelCallInviteFloatingCTA'] = var10;
+    var5 = var8.bind(var9)(var5);
+    var _closure1_slot21 = var5;
+    var5 = 39;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/video_calls/native/components/ChannelCallFloatingCTA.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function _default(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -803,44 +704,36 @@ case 23:
                     var2 = var2[var6];
                     var2 = var5.bind(var4)(var2);
                     var2 = var2.DismissibleContent;
-                    var2 = var2.CONSOLE_LOCAL_DETECT_CTA;
+                    var2 = var2.DONUT_MOBILE_NUX;
                     if(!(var2 !== var3)) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
-                    var5 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var6];
-                    var2 = var5.bind(var4)(var2);
-                    var2 = var2.DismissibleContent;
-                    var2 = var2.DONUT_MOBILE_NUX;
-                    if(!(var2 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
                     var2 = _closure2_slot7;
                     var7 = null;
-                    if(!(var7 != var2)) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                    if(!(var7 != var2)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                     var2 = _closure2_slot8;
-                    if(var2) { _fun0005_ip = 28; continue _fun0005 }
-case 30:
+                    if(var2) { _fun0005_ip = 26; continue _fun0005 }
+case 28:
                     var5 = _closure1_slot18;
-                    var3 = _closure1_slot25;
+                    var3 = _closure1_slot24;
                     var2 = {};
                     var6 = _closure2_slot7;
                     var2['connectedAccount'] = var6;
                     var2 = var5.bind(var4)(var3, var2);
-                    _fun0005_ip = 31; continue _fun0005;
-case 28:
+                    _fun0005_ip = 29; continue _fun0005;
+case 26:
                     var3 = _closure2_slot1;
-                    if(var3) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                    if(var3) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                     var3 = _closure2_slot4;
-                    if(!(var7 != var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 34:
+                    if(!(var7 != var3)) { _fun0005_ip = 30; continue _fun0005 }
+case 32:
                     var3 = _closure2_slot5;
-                    if(!var3) { _fun0005_ip = 32; continue _fun0005 }
-case 35:
+                    if(!var3) { _fun0005_ip = 30; continue _fun0005 }
+case 33:
                     var3 = _closure2_slot6;
-                    if(var3) { _fun0005_ip = 32; continue _fun0005 }
-case 36:
+                    if(var3) { _fun0005_ip = 30; continue _fun0005 }
+case 34:
                     var6 = _closure1_slot18;
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -855,49 +748,43 @@ case 36:
                     var8 = _closure2_slot9;
                     var3['recurrenceId'] = var8;
                     var3 = var6.bind(var4)(var5, var3);
-                    _fun0005_ip = 37; continue _fun0005;
-case 32:
+                    _fun0005_ip = 35; continue _fun0005;
+case 30:
                     var6 = _closure2_slot2;
                     var5 = null;
-                    if(!var6) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                    if(!var6) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                     var8 = _closure2_slot0;
                     var6 = var8.isPrivate;
                     var6 = var6.bind(var8)();
                     var5 = null;
-                    if(var6) { _fun0005_ip = 38; continue _fun0005 }
-case 40:
+                    if(var6) { _fun0005_ip = 36; continue _fun0005 }
+case 5:
                     var6 = _closure2_slot3;
                     var5 = null;
-                    if(!var6) { _fun0005_ip = 38; continue _fun0005 }
-case 41:
+                    if(!var6) { _fun0005_ip = 36; continue _fun0005 }
+case 4:
                     var8 = _closure1_slot18;
-                    var7 = _closure1_slot31;
+                    var7 = _closure1_slot29;
                     var6 = {};
                     var9 = _closure2_slot0;
                     var6['channel'] = var9;
                     var5 = var8.bind(var4)(var7, var6);
-case 38:
+case 36:
                     var3 = var5;
-case 37:
+case 35:
                     var2 = var3;
-case 31:
-                    return var2;
-case 26:
-                    var5 = _closure1_slot18;
-                    var3 = _closure1_slot26;
-                    var2 = {};
-                    var2 = var5.bind(var4)(var3, var2);
+case 29:
                     return var2;
 case 24:
                     var5 = _closure1_slot18;
-                    var3 = _closure1_slot27;
+                    var3 = _closure1_slot25;
                     var2 = {};
                     var2 = var5.bind(var4)(var3, var2);
                     return var2;
 case 22:
                     var3 = _closure1_slot18;
-                    var2 = _closure1_slot30;
+                    var2 = _closure1_slot28;
                     var1 = {};
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
@@ -910,8 +797,7 @@ case 22:
             return var1;
         }
     };
-    var3['default'] = var5;
-    var3['openDrawerForConsoleVoice'] = var4;
-    var3['openConsoleDetectActionSheet'] = var2;
+    var3['default'] = var4;
+    var3['openDrawerForConsoleVoice'] = var2;
     return var1;
 })();

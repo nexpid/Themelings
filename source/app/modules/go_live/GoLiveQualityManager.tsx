@@ -154,7 +154,7 @@ case 6:
     var9 = 'High';
     var5[var10] = var9;
     var _closure1_slot14 = var5;
-    var5 = 12;
+    var5 = 14;
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
     var4 = function(arg1) {
@@ -285,7 +285,7 @@ case 10:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(35);
+        var1 = new Array(34);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserID';
@@ -1817,15 +1817,56 @@ case 125:
         var7 = function value(arg1, arg2, arg3) {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
-                var2 = this;
-                var3 = var2.streamId;
-                var1 = arg1;
-                if(!(var3 === var1)) { _fun0021_ip = 136; continue _fun0021 }
-case 47:
-                var1 = arg2;
-                var2['resolutionWidth'] = var1;
+                var4 = arg2;
                 var1 = arg3;
-                var2['resolutionHeight'] = var1;
+                var2 = this;
+                var5 = var2.streamId;
+                var3 = arg1;
+                if(!(var5 === var3)) { _fun0021_ip = 136; continue _fun0021 }
+case 137:
+                var7 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var8 = 12;
+                var6 = var3[var8];
+                var3 = undefined;
+                var7 = var7.bind(var3)(var6);
+                var6 = var7.isAndroid;
+                var6 = var6.bind(var7)();
+                if(var6) { _fun0021_ip = 138; continue _fun0021 }
+case 139:
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var7 = var7.bind(var3)(var6);
+                var6 = var7.isIOS;
+                var6 = var6.bind(var7)();
+                if(!var6) { _fun0021_ip = 44; continue _fun0021 }
+case 138:
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var5 = 13;
+                var5 = var7[var5];
+                var7 = var6.bind(var3)(var5);
+                var6 = var7.getMobileGLTRExperimentConfig;
+                var5 = 'GoLiveQualityManager';
+                var5 = var6.bind(var7)(var5);
+                var5 = var5.enabled;
+                if(var5) { _fun0021_ip = 44; continue _fun0021 }
+case 140:
+                return var3;
+case 44:
+                var3 = null;
+                if(!(var3 != var4)) { _fun0021_ip = 36; continue _fun0021 }
+case 141:
+                var5 = var4.width;
+                var2['resolutionWidth'] = var5;
+                var4 = var4.height;
+                var2['resolutionHeight'] = var4;
+case 36:
+                if(!(var3 != var1)) { _fun0021_ip = 142; continue _fun0021 }
+case 143:
+                var2['zoom'] = var1;
+case 142:
                 var1 = var2.delayedUpdate;
                 var1 = var1.bind(var2)();
 case 136:
@@ -1838,7 +1879,7 @@ case 136:
         var5 = {};
         var7 = 'setStreamId';
         var5['key'] = var7;
-        var7 = function value(arg1) {
+        var6 = function value(arg1) {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var1 = arg1;
@@ -1859,41 +1900,13 @@ case 6:
                 return var1;
             }
         };
-        var5['value'] = var7;
-        var1[33] = var5;
-        var5 = {};
-        var7 = 'setVideoZoom';
-        var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
-case 0:
-                var1 = arg2;
-                var2 = this;
-                var4 = var2.streamId;
-                var3 = arg1;
-                var3 = var4 === var3;
-                if(!var3) { _fun0023_ip = 29; continue _fun0023 }
-case 123:
-                var4 = var2.zoom;
-                var3 = var4 !== var1;
-case 29:
-                if(!var3) { _fun0023_ip = 9; continue _fun0023 }
-case 32:
-                var2['zoom'] = var1;
-                var1 = var2.delayedUpdate;
-                var1 = var1.bind(var2)();
-case 9:
-                var1 = undefined;
-                return var1;
-            }
-        };
         var5['value'] = var6;
-        var1[34] = var5;
+        var1[33] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var5 = 13;
+    var5 = 15;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

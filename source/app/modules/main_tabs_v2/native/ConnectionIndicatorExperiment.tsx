@@ -1,4 +1,4 @@
-// app/modules/quests/experiments/EarnedImpressionUserSessionExperiment.tsx
+// app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var10 = true;
-    var2['value'] = var10;
+    var9 = true;
+    var2['value'] = var9;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -16,26 +16,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2025-11-earned-impression-user-session-experiment', 'kind': 'user'};
+    var2 = {'name': '2025-12-connection-indicator', 'kind': 'user'};
     var8 = {};
-    var11 = false;
-    var8['use_user_session_for_earned'] = var11;
+    var8['timeoutMs'] = var1;
+    var8['hidden'] = var9;
     var2['defaultConfig'] = var8;
     var8 = {};
-    var9 = {};
-    var9['use_user_session_for_earned'] = var11;
-    var8[0] = var9;
-    var9 = {};
-    var9['use_user_session_for_earned'] = var10;
+    var9 = {'timeoutMs': 10000, 'hidden': false};
     var8[1] = var9;
+    var9 = {'timeoutMs': 15000, 'hidden': false};
+    var8[2] = var9;
+    var9 = {'timeoutMs': 20000, 'hidden': false};
+    var8[3] = var9;
+    var9 = {'timeoutMs': 10000, 'hidden': true};
+    var8[4] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/quests/experiments/EarnedImpressionUserSessionExperiment.tsx';
+    var4 = 'modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['EarnedImpressionUserSessionExperiment'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

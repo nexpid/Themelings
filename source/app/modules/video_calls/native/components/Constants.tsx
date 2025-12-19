@@ -22,6 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PIP_GESTURE_ACTIVE_OFFSET'] = var2;
     var2 = 16;
     var3['SWIPE_TO_CHAT_ACTIVE_OFFSET'] = var2;
+    var2 = 5;
+    var3['PAN_GESTURE_FAIL_OFFSET_Y'] = var2;
     var2 = 1.5;
     var3['PIP_FOCUS_SCALE'] = var2;
     var2 = '\nOld Voice UI slated for deletion, if you are seeing\nthis error some old voice code can still run in the mobile redesign,\nand may have been deleted accidentally.\n';

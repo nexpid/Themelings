@@ -1805,10 +1805,10 @@ case 138:
                         var7 = var7.bind(var4)(var3);
                         var3 = var7.get;
                         var7 = var3.bind(var7)(var18);
-                        if(!(var8 == var7)) { _fun0025_ip = 67; continue _fun0025 }
+                        if(!(var8 == var7)) { _fun0025_ip = 66; continue _fun0025 }
 case 61:
                         var7 = {'ready': false, 'cached': false};
-case 67:
+case 66:
                         var3 = var7.ready;
                         var23 = var7.cached;
                         var20 = _closure1_slot17;
@@ -1823,21 +1823,21 @@ case 67:
                         var22 = var10;
                         var7 = var28[var7](var27, var26, var25, var24, var23, var22, var21);
                         var7 = var19.bind(var20)(var7);
-                        if(!var3) { _fun0025_ip = 139; continue _fun0025 }
-case 91:
+                        if(!var3) { _fun0025_ip = 112; continue _fun0025 }
+case 139:
                         var7 = _closure1_slot17;
                         var3 = var7.verbose;
                         var3 = var3.bind(var7)(var14);
                         var7 = _closure3_slot0;
                         var3 = var7.handleChannelLoaded;
                         var3 = var3.bind(var7)(var18);
-                        SaveGenerator(address=321);
-case 140:
+                        SaveGenerator(address=325);
+case 8:
                         return var3;
-case 141:
+case 140:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                        if(var7) { _fun0025_ip = 142; continue _fun0025 }
-case 139:
+                        if(var7) { _fun0025_ip = 141; continue _fun0025 }
+case 112:
                         var15 = var15 + 1;
                         var7 = var16.length;
                         if(var15 < var7) { _fun0025_ip = 138; continue _fun0025 }
@@ -1859,7 +1859,7 @@ case 137:
                         var5 = 'CACHE_LOADED';
                         var5 = var7.bind(var8)(var5, var6);
                         return var4;
-case 142:
+case 141:
                         return var3;
 case 135:
                         return var2;

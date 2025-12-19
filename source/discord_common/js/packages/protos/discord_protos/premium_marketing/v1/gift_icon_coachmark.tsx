@@ -92,9 +92,9 @@ case 0:
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4, var2);
                 var1 = new Array(3);
-                var6 = {'no': 1, 'name': 'header_key', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 1, 'name': 'header', 'kind': 'scalar', 'T': 9};
                 var1[0] = var6;
-                var6 = {'no': 2, 'name': 'body_key', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 2, 'name': 'body', 'kind': 'scalar', 'T': 9};
                 var1[1] = var6;
                 var6 = {'no': 3, 'name': 'asset_url', 'kind': 'scalar', 'T': 9};
                 var1[2] = var6;
@@ -137,7 +137,7 @@ case 8:
 case 0:
                 var5 = arg1;
                 var4 = this;
-                var1 = {'headerKey': '', 'bodyKey': '', 'assetUrl': ''};
+                var1 = {'header': '', 'body': '', 'assetUrl': ''};
                 var2 = global;
                 var2 = var2.globalThis;
                 var10 = var2.Object;
@@ -273,14 +273,14 @@ case 19:
 case 17:
                 var2 = var18.string;
                 var2 = var2.bind(var18)();
-                var1['bodyKey'] = var2;
+                var1['body'] = var2;
                 var20 = var4;
                 var19 = var3;
                 _fun0004_ip = 23; continue _fun0004;
 case 15:
                 var2 = var18.string;
                 var2 = var2.bind(var18)();
-                var1['headerKey'] = var2;
+                var1['header'] = var2;
                 var20 = var4;
                 var19 = var3;
 case 23:
@@ -302,7 +302,7 @@ case 13:
 case 0:
                 var5 = arg1;
                 var1 = arg2;
-                var2 = var5.headerKey;
+                var2 = var5.header;
                 var3 = '';
                 if(!(var3 !== var2)) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
@@ -318,10 +318,10 @@ case 28:
                 var2 = 1;
                 var6 = var6.bind(var1)(var2, var4);
                 var4 = var6.string;
-                var2 = var5.headerKey;
+                var2 = var5.header;
                 var2 = var4.bind(var6)(var2);
 case 27:
-                var2 = var5.bodyKey;
+                var2 = var5.body;
                 if(!(var3 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
 case 30:
                 var6 = var1.tag;
@@ -336,12 +336,12 @@ case 30:
                 var2 = 2;
                 var6 = var6.bind(var1)(var2, var4);
                 var4 = var6.string;
-                var2 = var5.bodyKey;
+                var2 = var5.body;
                 var2 = var4.bind(var6)(var2);
 case 29:
                 var2 = var5.assetUrl;
-                if(!(var3 !== var2)) { _fun0005_ip = 21; continue _fun0005 }
-case 31:
+                if(!(var3 !== var2)) { _fun0005_ip = 31; continue _fun0005 }
+case 8:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -356,7 +356,7 @@ case 31:
                 var3 = var4.string;
                 var2 = var5.assetUrl;
                 var2 = var3.bind(var4)(var2);
-case 21:
+case 31:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;

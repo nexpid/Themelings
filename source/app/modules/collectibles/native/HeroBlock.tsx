@@ -751,10 +751,14 @@ case 39:
 case 38:
             var31 = new Array(3);
             var31[0] = var32;
-            var32 = '';
-            var32 = var32 !== var36;
+            var32 = var1 != var36;
             if(!var32) { _fun0002_ip = 40; continue _fun0002 }
 case 41:
+            var33 = '';
+            var32 = var33 !== var36;
+case 40:
+            if(!var32) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
             var35 = _closure1_slot10;
             var34 = _closure1_slot0;
             var37 = _closure1_slot2;
@@ -767,7 +771,7 @@ case 41:
             var33['variant'] = var37;
             var33['children'] = var36;
             var32 = var35.bind(var5)(var34, var33);
-case 40:
+case 42:
             var31[1] = var32;
             var34 = _closure1_slot10;
             var33 = _closure1_slot5;
@@ -823,8 +827,8 @@ case 37:
             var19 = var18.heroProductsContainer;
             var18 = new Array(2);
             var18[0] = var19;
-            if(var16) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+            if(var16) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
             var19 = {'position': 'absolute', 'top': '55%', 'left': 0, 'right': 0};
             var23 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -833,8 +837,8 @@ case 43:
             var21 = var23.bind(var5)(var21);
             var21 = var21.COLLECTIBLES_SHOP_CARD_HEIGHT;
             var19['height'] = var21;
-            _fun0002_ip = 44; continue _fun0002;
-case 42:
+            _fun0002_ip = 46; continue _fun0002;
+case 44:
             var21 = {};
             var25 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -848,17 +852,17 @@ case 42:
             var23 = '100%';
             var21['height'] = var23;
             var19 = var21;
-case 44:
+case 46:
             var18[1] = var19;
             var13['style'] = var18;
             var19 = _closure1_slot10;
-            if(var16) { _fun0002_ip = 45; continue _fun0002 }
-case 46:
+            if(var16) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
             var18 = _closure1_slot12;
             var16 = {};
             var21 = var22.length;
-            if(!(var24 !== var21)) { _fun0002_ip = 47; continue _fun0002 }
-case 48:
+            if(!(var24 !== var21)) { _fun0002_ip = 49; continue _fun0002 }
+case 50:
             var25 = _closure1_slot10;
             var29 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -919,10 +923,10 @@ case 0:
                     var1 = null;
                     var7 = var1 == var6;
                     var1 = undefined;
-                    if(var7) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+                    if(var7) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
                     var1 = var6.skuId;
-case 49:
+case 51:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
@@ -1000,17 +1004,17 @@ case 49:
             var21['ItemSeparatorComponent'] = var26;
             var21['initialScrollIndex'] = var24;
             var21 = var25.bind(var5)(var23, var21);
-            _fun0002_ip = 51; continue _fun0002;
-case 47:
+            _fun0002_ip = 53; continue _fun0002;
+case 49:
             var26 = _closure1_slot10;
             var25 = _closure1_slot14;
             var23 = {};
             var21 = var26.bind(var5)(var25, var23);
-case 51:
+case 53:
             var16['children'] = var21;
             var16 = var19.bind(var5)(var18, var16);
-            _fun0002_ip = 52; continue _fun0002;
-case 45:
+            _fun0002_ip = 54; continue _fun0002;
+case 47:
             var18 = _closure1_slot1;
             var21 = _closure1_slot2;
             var17 = 31;
@@ -1020,14 +1024,14 @@ case 45:
             var17['products'] = var22;
             var23 = var22.length;
             var21 = 4;
-            if(!(var24 !== var23)) { _fun0002_ip = 53; continue _fun0002 }
-case 54:
+            if(!(var24 !== var23)) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
             var21 = var22.length;
-case 53:
+case 55:
             var17['loadingCardsNum'] = var21;
             var17['preferVCPrice'] = var20;
             var16 = var19.bind(var5)(var18, var17);
-case 52:
+case 54:
             var13['children'] = var16;
             var13 = var15.bind(var5)(var14, var13);
             var12[1] = var13;

@@ -307,17 +307,37 @@ case 21:
         return var1;
     };
     var3['useGetOrFetchPurchases'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var4 = arg1;
+            var3 = _closure1_slot8;
+            var1 = undefined;
+            var2 = true;
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.purchases;
+            var2 = null;
+            var2 = var2 != var4;
+            if(!var2) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+            var2 = var3.get;
+            var1 = var2.bind(var3)(var4);
+case 23:
+            return var1;
+        }
+    };
+    var3['useGetOrFetchPurchase'] = var4;
+    var2 = function(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var3 = _closure1_slot9;
             var2 = {};
             var4 = null;
-            if(!(var4 == var1)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+            if(!(var4 == var1)) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var1 = {};
-case 23:
+case 25:
             var6 = var2;
             var5 = var1;
             var1 = copyDataProperties(var6, var5);

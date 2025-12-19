@@ -163,39 +163,45 @@ case 0:
                 var2 = arg1;
                 var5 = this;
                 var1 = _closure1_slot3;
-                var3 = _closure2_slot0;
-                var4 = undefined;
-                var1 = var1.bind(var4)(var5, var3);
+                var4 = _closure2_slot0;
+                var3 = undefined;
+                var1 = var1.bind(var3)(var5, var4);
                 var1 = _closure1_slot6;
-                var10 = var1.bind(var4)(var3);
-                var3 = _closure1_slot5;
+                var10 = var1.bind(var3)(var4);
+                var4 = _closure1_slot5;
                 var1 = _closure1_slot9;
-                var1 = var1.bind(var4)();
+                var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
                 var1 = var10.apply;
-                var1 = var1.bind(var10)(var5, var4);
+                var1 = var1.bind(var10)(var5, var3);
                 _fun0003_ip = 6; continue _fun0003;
 case 8:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
                 var6 = _closure1_slot6;
-                var6 = var6.bind(var4)(var5);
+                var6 = var6.bind(var3)(var5);
                 var7 = var6.constructor;
                 var6 = new Array(0);
                 var1 = var8.bind(var9)(var10, var6, var7);
 case 6:
-                var1 = var3.bind(var4)(var5, var1);
-                var3 = var2.storeListingId;
-                var1['storeListingId'] = var3;
-                var3 = var2.skuId;
-                var1['skuId'] = var3;
-                var3 = var2.name;
-                var1['name'] = var3;
-                var4 = var2.summary;
-                var3 = var4.trim;
-                var3 = var3.bind(var4)();
+                var1 = var4.bind(var3)(var5, var1);
+                var4 = var2.storeListingId;
+                var1['storeListingId'] = var4;
+                var4 = var2.skuId;
+                var1['skuId'] = var4;
+                var4 = var2.name;
+                var1['name'] = var4;
+                var5 = var2.summary;
+                var4 = null;
+                var4 = var4 == var5;
+                var3 = undefined;
+                if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                var4 = var5.trim;
+                var3 = var4.bind(var5)();
+case 10:
                 var1['summary'] = var3;
                 var3 = var2.unpublishedAt;
                 var1['unpublishedAt'] = var3;
@@ -239,8 +245,8 @@ case 0:
                 var2 = 'skuId';
                 var1[var2] = var6;
                 var2 = var4 != var7;
-                if(!var2) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                if(!var2) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var2 = global;
                 var2 = var2.Date;
                 var6 = var2.prototype;
@@ -249,7 +255,7 @@ case 11:
                 var11 = var7;
                 var2 = new var12[var2](var11, var10);
                 var4 = var2 instanceof Object ? var2 : var6;
-case 10:
+case 12:
                 var2 = 'unpublishedAt';
                 var1[var2] = var4;
                 var4 = _closure1_slot8;

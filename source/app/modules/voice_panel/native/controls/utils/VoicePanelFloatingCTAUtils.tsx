@@ -53,7 +53,7 @@ case 0:
                         var1 = null;
                         if(!(var4 === var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                        var4 = _closure1_slot16;
+                        var4 = _closure1_slot15;
                         var3 = undefined;
                         var2 = function() {
                             var3 = _closure3_slot1;
@@ -501,19 +501,6 @@ case 36:
         }
     };
     var _closure1_slot14 = var5;
-    var1 = function dismissContent(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 34;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-        var2 = arg1;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot15 = var1;
     var4 = function getBadConnectionCTAProps(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -596,20 +583,23 @@ case 38:
         var7 = function onPress() {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var3 = _closure1_slot15;
-                var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
                 var1 = 37;
-                var2 = var2[var1];
+                var2 = var5[var1];
                 var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var2 = var2.DismissibleContent;
-                var2 = var2.VOICE_PANEL_BAD_CONNECTION_CTA;
                 var2 = var3.bind(var1)(var2);
+                var2 = var2.DismissibleContent;
+                var4 = var2.VOICE_PANEL_BAD_CONNECTION_CTA;
+                var2 = 34;
+                var2 = var5[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.UNSAFE_markDismissibleContentAsDismissed;
+                var2 = var2.bind(var3)(var4);
                 var4 = _closure2_slot0;
                 var3 = null;
                 if(!(var3 != var4)) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+case 26:
                 var2 = _closure2_slot0;
                 var2 = var2.bind(var1)();
 case 40:
@@ -632,7 +622,7 @@ case 40:
         var1['trailing'] = var2;
         return var1;
     };
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var1 = function handleSoundboardMobileFloatingCtaClose() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -649,69 +639,61 @@ case 40:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var2 = function getDismissableCTAProps(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.dismissableContent;
+            var5 = var1.dismissableContent;
             var1 = var1.channel;
             var _closure2_slot0 = var1;
-            var6 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var5 = 37;
-            var3 = var2[var5];
+            var6 = 37;
+            var3 = var2[var6];
             var2 = undefined;
-            var3 = var6.bind(var2)(var3);
+            var3 = var7.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.VOICE_PANEL_BAD_CONNECTION_CTA;
-            if(!(var3 !== var4)) { _fun0011_ip = 42; continue _fun0011 }
-case 43:
-            var6 = _closure1_slot0;
+            if(!(var3 !== var5)) { _fun0011_ip = 41; continue _fun0011 }
+case 42:
+            var7 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var5];
-            var3 = var6.bind(var2)(var3);
-            var3 = var3.DismissibleContent;
-            var3 = var3.CONSOLE_LOCAL_DETECT_CTA;
-            if(!(var3 !== var4)) { _fun0011_ip = 44; continue _fun0011 }
-case 45:
-            var6 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var5];
-            var3 = var6.bind(var2)(var3);
+            var3 = var3[var6];
+            var3 = var7.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.SOUNDBOARD_MOBILE_FLOATING_CTA;
-            if(!(var3 !== var4)) { _fun0011_ip = 46; continue _fun0011 }
-case 47:
-            var4 = _closure1_slot0;
+            if(!(var3 !== var5)) { _fun0011_ip = 43; continue _fun0011 }
+case 44:
+            var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var5];
-            var3 = var4.bind(var2)(var3);
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.DONUT_MOBILE_NUX;
             var3 = null;
             return var3;
-case 46:
+case 43:
             var3 = {};
-            var6 = _closure1_slot11;
+            var7 = _closure1_slot11;
             var10 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var4 = 25;
-            var4 = var9[var4];
-            var5 = var10.bind(var2)(var4);
-            var4 = {};
-            var8 = 41;
-            var8 = var9[var8];
-            var8 = var10.bind(var2)(var8);
-            var4['source'] = var8;
-            var4 = var6.bind(var2)(var5, var4);
-            var3['icon'] = var4;
+            var8 = _closure1_slot2;
+            var5 = 25;
+            var5 = var8[var5];
+            var6 = var10.bind(var2)(var5);
+            var5 = {};
+            var9 = 39;
+            var9 = var8[var9];
+            var9 = var10.bind(var2)(var9);
+            var5['source'] = var9;
+            var5 = var7.bind(var2)(var6, var5);
+            var3['icon'] = var5;
             var4 = function onPress() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     var4 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var4)) { _fun0012_ip = 43; continue _fun0012 }
+                    if(!(var1 != var4)) { _fun0012_ip = 42; continue _fun0012 }
 case 17:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -725,22 +707,22 @@ case 17:
                     var4 = 'SOUNDBOARD_MOBILE_FLOATING_CTA';
                     var1['analyticsSource'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 43:
-                    var2 = _closure1_slot17;
+case 42:
+                    var2 = _closure1_slot16;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
                 }
             };
             var3['onPress'] = var4;
-            var8 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var4 = 24;
-            var5 = var9[var4];
-            var5 = var8.bind(var2)(var5);
+            var5 = var8[var4];
+            var5 = var7.bind(var2)(var5);
             var6 = var5.intl;
             var5 = var6.string;
-            var4 = var9[var4];
-            var4 = var8.bind(var2)(var4);
+            var4 = var8[var4];
+            var4 = var7.bind(var2)(var4);
             var4 = var4.t;
             var4 = var4.IJgkPX;
             var4 = var5.bind(var6)(var4);
@@ -751,88 +733,13 @@ case 43:
             var4 = var6.bind(var2)(var5, var4);
             var3['trailing'] = var4;
             return var3;
-case 44:
-            var3 = {};
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var8 = 24;
-            var4 = var12[var8];
-            var4 = var13.bind(var2)(var4);
-            var6 = var4.intl;
-            var5 = var6.string;
-            var4 = var12[var8];
-            var4 = var13.bind(var2)(var4);
-            var4 = var4.t;
-            var4 = var4.02gscF;
-            var4 = var5.bind(var6)(var4);
-            var3['label'] = var4;
-            var6 = _closure1_slot11;
-            var4 = 21;
-            var4 = var12[var4];
-            var4 = var13.bind(var2)(var4);
-            var4 = var4.RowButton;
-            var5 = var4.Icon;
-            var4 = {};
-            var11 = _closure1_slot1;
-            var9 = 39;
-            var9 = var12[var9];
-            var9 = var11.bind(var2)(var9);
-            var4['source'] = var9;
-            var4 = var6.bind(var2)(var5, var4);
-            var3['icon'] = var4;
-            var4 = 40;
-            var4 = var12[var4];
-            var4 = var13.bind(var2)(var4);
-            var4 = var4.openConsoleDetectActionSheet;
-            var3['onPress'] = var4;
-            var6 = _closure1_slot11;
-            var5 = _closure1_slot5;
-            var4 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'hitSlop': 4};
-            var9 = var12[var8];
-            var9 = var13.bind(var2)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var13.bind(var2)(var8);
-            var8 = var8.t;
-            var8 = var8.cpT0Cq;
-            var8 = var9.bind(var10)(var8);
-            var4['accessibilityLabel'] = var8;
-            var7 = function onPress() {
-                var3 = _closure1_slot15;
-                var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 37;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var2 = var2.DismissibleContent;
-                var2 = var2.CONSOLE_LOCAL_DETECT_CTA;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var4['onPress'] = var7;
-            var9 = _closure1_slot11;
-            var7 = 25;
-            var7 = var12[var7];
-            var8 = var11.bind(var2)(var7);
-            var7 = {};
-            var10 = 26;
-            var10 = var12[var10];
-            var10 = var11.bind(var2)(var10);
-            var7['source'] = var10;
-            var7 = var9.bind(var2)(var8, var7);
-            var4['children'] = var7;
-            var4 = var6.bind(var2)(var5, var4);
-            var3['trailing'] = var4;
-            return var3;
-case 42:
-            var1 = _closure1_slot16;
+case 41:
+            var1 = _closure1_slot15;
             var1 = var1.bind(var2)();
             return var1;
         }
     };
-    var _closure1_slot18 = var2;
+    var _closure1_slot17 = var2;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -907,7 +814,7 @@ case 42:
         var6 = var6.cpT0Cq;
         var6 = var7.bind(var8)(var6);
         var2['accessibilityLabel'] = var6;
-        var6 = _closure1_slot17;
+        var6 = _closure1_slot16;
         var2['onPress'] = var6;
         var7 = _closure1_slot11;
         var9 = _closure1_slot1;
@@ -925,7 +832,7 @@ case 42:
         return var1;
     };
     var _closure1_slot13 = var8;
-    var8 = 42;
+    var8 = 40;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -980,7 +887,7 @@ case 0:
             var4[0] = var12;
             var4[1] = var3;
             var1 = function() {
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot17;
                 var2 = {};
                 var4 = _closure2_slot1;
                 var2['dismissableContent'] = var4;
@@ -1004,14 +911,14 @@ case 0:
             var2 = var2.visible;
             var3 = null;
             var1 = var3 != var1;
-            if(var1) { _fun0013_ip = 48; continue _fun0013 }
-case 49:
+            if(var1) { _fun0013_ip = 45; continue _fun0013 }
+case 46:
             var1 = var3 != var4;
+case 45:
+            if(var1) { _fun0013_ip = 47; continue _fun0013 }
 case 48:
-            if(var1) { _fun0013_ip = 50; continue _fun0013 }
-case 51:
             var1 = var2;
-case 50:
+case 47:
             return var1;
         }
     };

@@ -92,7 +92,7 @@ case 0:
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4, var2);
                 var1 = new Array(1);
-                var6 = {'no': 1, 'name': 'body_key', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 1, 'name': 'body', 'kind': 'scalar', 'T': 9};
                 var1[0] = var6;
                 var9 = ['discord_protos.premium_marketing.v1.GiftReminderNagbar'];
                 var9[1] = var1;
@@ -135,7 +135,7 @@ case 0:
                 var4 = this;
                 var1 = {};
                 var2 = '';
-                var1['bodyKey'] = var2;
+                var1['body'] = var2;
                 var2 = global;
                 var2 = var2.globalThis;
                 var10 = var2.Object;
@@ -259,7 +259,7 @@ case 17:
 case 15:
                 var2 = var17.string;
                 var2 = var2.bind(var17)();
-                var1['bodyKey'] = var2;
+                var1['body'] = var2;
                 var19 = var4;
                 var18 = var3;
 case 19:
@@ -281,7 +281,7 @@ case 13:
 case 0:
                 var5 = arg1;
                 var1 = arg2;
-                var3 = var5.bodyKey;
+                var3 = var5.body;
                 var2 = '';
                 if(!(var2 !== var3)) { _fun0005_ip = 23; continue _fun0005 }
 case 24:
@@ -297,7 +297,7 @@ case 24:
                 var2 = 1;
                 var4 = var4.bind(var1)(var2, var3);
                 var3 = var4.string;
-                var2 = var5.bodyKey;
+                var2 = var5.body;
                 var2 = var3.bind(var4)(var2);
 case 23:
                 var2 = arg3;

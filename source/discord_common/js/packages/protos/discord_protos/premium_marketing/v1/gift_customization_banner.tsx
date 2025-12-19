@@ -94,9 +94,9 @@ case 0:
                 var1 = new Array(5);
                 var6 = {'no': 1, 'name': 'asset_url', 'kind': 'scalar', 'T': 9};
                 var1[0] = var6;
-                var6 = {'no': 2, 'name': 'desktop_body_key', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 2, 'name': 'desktop_body', 'kind': 'scalar', 'T': 9};
                 var1[1] = var6;
-                var6 = {'no': 3, 'name': 'mobile_body_key', 'kind': 'scalar', 'T': 9};
+                var6 = {'no': 3, 'name': 'mobile_body', 'kind': 'scalar', 'T': 9};
                 var1[2] = var6;
                 var6 = {'no': 4, 'name': 'gradient', 'kind': 'message'};
                 var7 = function T() {
@@ -152,7 +152,7 @@ case 8:
 case 0:
                 var5 = arg1;
                 var4 = this;
-                var1 = {'assetUrl': '', 'desktopBodyKey': '', 'mobileBodyKey': '', 'backgroundAssetUrl': ''};
+                var1 = {'assetUrl': '', 'desktopBody': '', 'mobileBody': '', 'backgroundAssetUrl': ''};
                 var2 = global;
                 var2 = var2.globalThis;
                 var10 = var2.Object;
@@ -313,14 +313,14 @@ case 21:
 case 19:
                 var2 = var21.string;
                 var2 = var2.bind(var21)();
-                var1['mobileBodyKey'] = var2;
+                var1['mobileBody'] = var2;
                 var23 = var4;
                 var22 = var3;
                 _fun0004_ip = 27; continue _fun0004;
 case 17:
                 var2 = var21.string;
                 var2 = var2.bind(var21)();
-                var1['desktopBodyKey'] = var2;
+                var1['desktopBody'] = var2;
                 var23 = var4;
                 var22 = var3;
                 _fun0004_ip = 27; continue _fun0004;
@@ -369,7 +369,7 @@ case 32:
                 var3 = var5.assetUrl;
                 var3 = var6.bind(var7)(var3);
 case 31:
-                var3 = var5.desktopBodyKey;
+                var3 = var5.desktopBody;
                 if(!(var4 !== var3)) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
                 var7 = var1.tag;
@@ -384,10 +384,10 @@ case 34:
                 var3 = 2;
                 var7 = var7.bind(var1)(var3, var6);
                 var6 = var7.string;
-                var3 = var5.desktopBodyKey;
+                var3 = var5.desktopBody;
                 var3 = var6.bind(var7)(var3);
 case 33:
-                var3 = var5.mobileBodyKey;
+                var3 = var5.mobileBody;
                 if(!(var4 !== var3)) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
                 var7 = var1.tag;
@@ -402,7 +402,7 @@ case 36:
                 var3 = 3;
                 var7 = var7.bind(var1)(var3, var6);
                 var6 = var7.string;
-                var3 = var5.mobileBodyKey;
+                var3 = var5.mobileBody;
                 var3 = var6.bind(var7)(var3);
 case 35:
                 var3 = var5.gradient;

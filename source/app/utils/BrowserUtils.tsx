@@ -239,30 +239,8 @@ case 36:
         };
         var3['canUseWebp'] = var5;
         var3['isSafari'] = var4;
-        var4 = function isFirefox() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var2 = arguments[0];
-                var1 = undefined;
-                if(!(var2 === var1)) { _fun0004_ip = 2; continue _fun0004 }
-case 3:
-                var1 = global;
-                var1 = var1.navigator;
-                var2 = var1.userAgent;
-case 2:
-                var1 = var2.toLowerCase;
-                var3 = var1.bind(var2)();
-                var2 = var3.indexOf;
-                var1 = 'firefox';
-                var2 = var2.bind(var3)(var1);
-                var1 = -1;
-                var1 = var1 !== var2;
-                return var1;
-            }
-        };
-        var3['isFirefox'] = var4;
         var2 = function supportsHEVCAlpha() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = global;
                 var1 = var1.window;
@@ -272,7 +250,7 @@ case 0:
                 var6 = var3 == var5;
                 var4 = undefined;
                 var2 = undefined;
-                if(var6) { _fun0005_ip = 38; continue _fun0005 }
+                if(var6) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
                 var2 = var5.decodingInfo;
 case 38:
@@ -280,7 +258,7 @@ case 38:
                 var3 = _closure1_slot10;
                 var1 = var1.userAgent;
                 var1 = var3.bind(var4)(var1);
-                if(!var1) { _fun0005_ip = 40; continue _fun0005 }
+                if(!var1) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
                 var1 = var2;
 case 40:

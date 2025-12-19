@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['limitedTimeBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -91,7 +91,7 @@ case 0:
             var1 = var6[var1];
             var7 = var3.bind(var4)(var1);
             var1 = var7.useFeaturedBlockAsset;
-            var20 = var1.bind(var7)(var5);
+            var19 = var1.bind(var7)(var5);
             var1 = 8;
             var1 = var6[var1];
             var9 = var3.bind(var4)(var1);
@@ -101,50 +101,63 @@ case 0:
             var1 = 'featured_block';
             var1 = var7.bind(var9)(var6, var3, var1);
             var6 = var1.handleCardVisibilityChange;
-            var14 = var5.unpublishedAt;
-            var12 = null;
-            if(!(var12 == var14)) { _fun0001_ip = 2; continue _fun0001 }
+            var3 = var5.unpublishedAt;
+            var11 = null;
+            if(!(var11 == var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var12 == var2;
+            var7 = var11 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var1 = var2.unpublishedAt;
 case 4:
-            var14 = var1;
+            var3 = var1;
 case 2:
+            var1 = var11 != var3;
+            var15 = null;
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var1 = global;
+            var1 = var1.Date;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var24 = var2;
+            var23 = var3;
+            var1 = new var24[var1](var23, var22);
+            var15 = var1 instanceof Object ? var1 : var2;
+case 6:
             var3 = _closure1_slot7;
-            var11 = _closure1_slot1;
-            var15 = _closure1_slot2;
+            var12 = _closure1_slot1;
+            var14 = _closure1_slot2;
             var1 = 10;
-            var1 = var15[var1];
-            var2 = var11.bind(var4)(var1);
+            var1 = var14[var1];
+            var2 = var12.bind(var4)(var1);
             var1 = {};
             var1['onChange'] = var6;
             var10 = _closure1_slot0;
             var6 = 11;
-            var6 = var15[var6];
+            var6 = var14[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableOpacity;
             var6 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
             var9 = 12;
-            var17 = var15[var9];
+            var17 = var14[var9];
             var17 = var10.bind(var4)(var17);
             var18 = var17.intl;
             var17 = var18.formatToPlainString;
-            var9 = var15[var9];
+            var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
             var10 = var9.hEsdA9;
             var9 = {};
-            var19 = var5.name;
-            var9['category'] = var19;
+            var20 = var5.name;
+            var9['category'] = var20;
             var9 = var17.bind(var18)(var10, var9);
             var6['accessibilityLabel'] = var9;
             var9 = {};
             var10 = 13;
-            var10 = var15[var10];
-            var10 = var11.bind(var4)(var10);
+            var10 = var14[var10];
+            var10 = var12.bind(var4)(var10);
             var10 = var10.radii;
             var10 = var10.lg;
             var9['radius'] = var10;
@@ -166,11 +179,11 @@ case 0:
                     var3 = null;
                     var9 = var3 == var8;
                     var8 = undefined;
-                    if(var9) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(var9) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var9 = _closure2_slot3;
                     var8 = var9.sessionId;
-case 6:
+case 8:
                     var1['collectibles_shop_session_id'] = var8;
                     var8 = _closure2_slot0;
                     var8 = var8.categoryStoreListingId;
@@ -180,20 +193,20 @@ case 6:
                     var8 = _closure2_slot3;
                     var9 = var3 == var8;
                     var8 = undefined;
-                    if(var9) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(var9) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var9 = _closure2_slot3;
                     var8 = var9.pageSection;
-case 8:
+case 10:
                     var1['page_section'] = var8;
                     var8 = _closure2_slot3;
                     var9 = var3 == var8;
                     var8 = undefined;
-                    if(var9) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(var9) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var9 = _closure2_slot3;
                     var8 = var9.pageCategory;
-case 10:
+case 12:
                     var1['page_category'] = var8;
                     var8 = 'FEATURED_BLOCK';
                     var1['tile_type'] = var8;
@@ -202,19 +215,19 @@ case 10:
                     var8 = _closure2_slot3;
                     var11 = var3 == var8;
                     var8 = undefined;
-                    if(var11) { _fun0002_ip = 12; continue _fun0002 }
+                    if(var11) { _fun0002_ip = 14; continue _fun0002 }
 case 5:
                     var11 = _closure2_slot3;
                     var8 = var11.tilePosition;
-case 12:
+case 14:
                     var8 = var9.bind(var10)(var8);
                     var1['tile_position'] = var8;
                     var1['cta_name'] = var3;
                     var1 = var5.bind(var7)(var4, var1);
                     var1 = _closure2_slot1;
                     var1 = var3 != var1;
-                    if(!var1) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                    if(!var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     var5 = _closure2_slot2;
                     var4 = var5.push;
                     var2 = _closure1_slot6;
@@ -225,7 +238,7 @@ case 14:
                     var6 = _closure2_slot3;
                     var2['analyticsContext'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 13:
+case 15:
                     var1 = undefined;
                     return var1;
                 }
@@ -234,30 +247,36 @@ case 13:
             var10 = _closure1_slot8;
             var9 = _closure1_slot4;
             var8 = {};
-            var11 = var16.container;
-            var8['style'] = var11;
-            var15 = var12 != var20;
-            if(!var15) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var18 = _closure1_slot7;
-            var17 = _closure1_slot3;
-            var11 = {};
-            var19 = {};
-            var19['uri'] = var20;
-            var11['source'] = var19;
-            var19 = var16.bannerImage;
-            var11['style'] = var19;
-            var15 = var18.bind(var4)(var17, var11);
-case 15:
-            var11 = new Array(2);
-            var11[0] = var15;
-            var12 = var12 != var14;
+            var12 = var16.container;
+            var8['style'] = var12;
+            var12 = var11 != var19;
             if(!var12) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
+            var17 = _closure1_slot7;
+            var14 = _closure1_slot3;
+            var11 = {};
+            var18 = {};
+            var18['uri'] = var19;
+            var11['source'] = var18;
+            var18 = var16.bannerImage;
+            var11['style'] = var18;
+            var12 = var17.bind(var4)(var14, var11);
+case 17:
+            var11 = new Array(2);
+            var11[0] = var12;
+            var14 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var12 = 14;
+            var12 = var17[var12];
+            var14 = var14.bind(var4)(var12);
+            var12 = var14.shouldShowLimitedTimeBadge;
+            var12 = var12.bind(var14)(var15);
+            if(!var12) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var15 = _closure1_slot7;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var13 = 14;
+            var13 = 15;
             var13 = var17[var13];
             var13 = var14.bind(var4)(var13);
             var14 = var13.LimitedTimeBadge;
@@ -265,7 +284,7 @@ case 18:
             var16 = var16.limitedTimeBadge;
             var13['style'] = var16;
             var12 = var15.bind(var4)(var14, var13);
-case 17:
+case 19:
             var11[1] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);

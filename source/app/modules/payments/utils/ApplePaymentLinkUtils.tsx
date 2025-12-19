@@ -90,10 +90,10 @@ case 0:
             var1 = {};
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
-            if(!var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var1 = {'enabled': false, 'discountEnabled': false};
+            if(!var2) { _fun0002_ip = 2; continue _fun0002 }
 case 5:
+            var1 = {'enabled': false, 'discountEnabled': false};
+case 2:
             return var1;
         }
     };
@@ -108,18 +108,18 @@ case 0:
             var1 = var1.BILLING_MANAGE_SUBSCRIPTION;
             var1 = var4.bind(var5)(var1);
             var1 = !var1;
-            if(!var1) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var2 = _closure1_slot4;
             var4 = var2.APPLE_PAYMENT_LINK;
             var2 = arg3;
             var2 = var2 === var4;
-            if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-            var2 = var3;
+            if(!var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
+            var2 = var3;
+case 8:
             var1 = var2;
-case 7:
+case 6:
             return var1;
         }
     };
@@ -131,10 +131,10 @@ case 0:
             var1 = arg1;
             var8 = var1.location;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-            var5 = false;
+            if(!(var5 === var4)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
+            var5 = false;
+case 10:
             var2 = global;
             var1 = var2.window;
             var1 = var1.location;
@@ -154,21 +154,21 @@ case 11:
             var6 = _closure1_slot3;
             var6 = var6.BILLING_MANAGE_SUBSCRIPTION;
             var6 = var7.bind(var3)(var6);
-            if(var6) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(var6) { _fun0004_ip = 12; continue _fun0004 }
+case 4:
             var7 = _closure1_slot6;
             var6 = {};
             var6['location'] = var8;
             var6 = var7.bind(var4)(var6);
             var6 = var6.enabled;
             var1 = _closure1_slot8;
-            if(var5) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+            if(var5) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var5 = var6;
-case 15:
+case 13:
             var1 = var1.bind(var4)(var5, var3, var2);
             return var1;
-case 13:
+case 12:
             var1 = false;
             return var1;
         }
@@ -278,27 +278,27 @@ case 0:
             var1 = var2.bind(var6)(var1);
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(var2) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var2 = null;
             var2 = var2 != var7;
-            if(!var2) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(!var2) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var6 = _closure1_slot5;
             var5 = var6.has;
             var2 = var5.bind(var6)(var7);
+case 17:
+            if(!var2) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+            var2 = var3;
 case 19:
             if(!var2) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
-            var2 = var3;
-case 21:
-            if(!var2) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
             var3 = 'true';
             var2 = var3 === var4;
-case 23:
+case 21:
             var1 = var2;
-case 17:
+case 15:
             return var1;
         }
     };

@@ -1898,6 +1898,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['HOLIDAY_COACHMARK_WINTER_2025'] = var2;
     var1 = 'HOLIDAY_COACHMARK_WINTER_2025';
     var4[var2] = var1;
+    var2 = 666;
+    var4['WISHLIST_USER_PROFILE_ACCOUNT_POPOUT_UPSELL'] = var2;
+    var1 = 'WISHLIST_USER_PROFILE_ACCOUNT_POPOUT_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

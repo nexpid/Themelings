@@ -60,6 +60,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var8.bind(var1)(var6);
     var6 = var6.SafetyToastType;
     var _closure1_slot11 = var6;
+    var10 = var4.Set;
+    var7 = 10;
+    var6 = var9[var7];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.AgeVerificationModalEntryPoint;
+    var11 = var6.STAGE_CHANNEL_AGE_VERIFICATION_PROMPT;
+    var6 = new Array(3);
+    var6[0] = var11;
+    var11 = var9[var7];
+    var11 = var8.bind(var1)(var11);
+    var11 = var11.AgeVerificationModalEntryPoint;
+    var11 = var11.START_STAGE_PROMPT;
+    var6[1] = var11;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.AgeVerificationModalEntryPoint;
+    var7 = var7.STAGE_CHANNEL_RAISE_HAND;
+    var6[2] = var7;
+    var7 = var10.prototype;
+    var7 = Object.create(var7, {constructor: {value: var10}});
+    var15 = var7;
+    var14 = var6;
+    var6 = new var15[var10](var14, var13);
+    var6 = var6 instanceof Object ? var6 : var7;
+    var _closure1_slot12 = var6;
     var6 = var4.Set;
     var7 = var5.NSFW_SERVER;
     var4 = new Array(6);
@@ -76,21 +101,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[5] = var5;
     var5 = var6.prototype;
     var5 = Object.create(var5, {constructor: {value: var6}});
-    var14 = var5;
-    var13 = var4;
-    var4 = new var14[var6](var13, var12);
+    var15 = var5;
+    var14 = var4;
+    var4 = new var15[var6](var14, var13);
     var4 = var4 instanceof Object ? var4 : var5;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var6 = {};
     var4 = 'ctas';
     var6['CTAS'] = var4;
     var4 = 'content_type';
     var6['CONTENT_TYPE'] = var4;
-    var _closure1_slot13 = var6;
+    var _closure1_slot14 = var6;
     var5 = {};
     var4 = 'retry';
     var5['RETRY'] = var4;
-    var _closure1_slot14 = var5;
+    var _closure1_slot15 = var5;
     var4 = {};
     var7 = 'verified_adult';
     var4['VERIFIED_ADULT'] = var7;
@@ -98,14 +123,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VERIFIED_TEEN'] = var7;
     var7 = 'error';
     var4['ERROR'] = var7;
-    var7 = 19;
+    var7 = 22;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
     var7 = 'modules/age_assurance/AgeVerificationUtils.tsx';
     var7 = var8.bind(var9)(var7);
     var7 = function(arg1) {
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot13;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
@@ -128,7 +153,7 @@ case 3:
 case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -143,7 +168,7 @@ case 2:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -167,7 +192,7 @@ case 5:
 case 4:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -193,7 +218,7 @@ case 3:
 case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -208,7 +233,7 @@ case 2:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -232,7 +257,7 @@ case 5:
 case 4:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -258,7 +283,7 @@ case 3:
 case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -273,7 +298,7 @@ case 2:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -297,7 +322,7 @@ case 5:
 case 4:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -348,7 +373,7 @@ case 11:
             var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.rawName;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot14;
                 var1 = var1.CTAS;
                 var1 = var2 === var1;
                 return var1;
@@ -363,7 +388,7 @@ case 13:
             var3 = ',';
             var4 = var4.bind(var5)(var3);
             var3 = var4.includes;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot15;
             var2 = var2.RETRY;
             var1 = var3.bind(var4)(var2);
 case 12:
@@ -390,7 +415,7 @@ case 3:
 case 2:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 10;
+            var6 = 11;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -421,7 +446,7 @@ case 14:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var4[var1];
             var5 = undefined;
             var6 = var3.bind(var5)(var1);
@@ -445,7 +470,7 @@ case 5:
 case 4:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 10;
+            var6 = 11;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -522,7 +547,7 @@ case 10:
             _closure2_slot6 = var4;
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var4 = 11;
+            var4 = 12;
             var4 = var14[var4];
             var15 = var9.bind(var2)(var4);
             var14 = var15.useStateFromStores;
@@ -549,7 +574,7 @@ case 29:
             _closure2_slot7 = var14;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var4 = 12;
+            var4 = 13;
             var4 = var11[var4];
             var9 = var9.bind(var2)(var4);
             var4 = var9.useIsSuspendedUser;
@@ -567,7 +592,7 @@ case 29:
 case 0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 14;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -587,7 +612,7 @@ case 27:
 case 4:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.maybeOpenAgeVerificationUserFeedback;
@@ -623,7 +648,7 @@ case 34:
 case 3: // try_start_0 // try_start_1
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var2 = 13;
+                            var2 = 14;
                             var2 = var7[var2];
                             var9 = var6.bind(var5)(var2);
                             var6 = var9.dispatch;
@@ -632,7 +657,7 @@ case 3: // try_start_0 // try_start_1
                             var2['type'] = var10;
                             var2 = var6.bind(var9)(var2);
                             var6 = _closure1_slot0;
-                            var2 = 15;
+                            var2 = 16;
                             var2 = var7[var2];
                             var7 = var6.bind(var5)(var2);
                             var6 = var7.requestAgeVerification;
@@ -657,7 +682,7 @@ case 37:
 case 39:
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 16;
+                            var4 = 17;
                             var4 = var7[var4];
                             var7 = var6.bind(var5)(var4);
                             var6 = var7.showAgeVerification;
@@ -690,7 +715,7 @@ case 42: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 17;
+                            var4 = 18;
                             var4 = var7[var4];
                             var6 = var6.bind(var5)(var4);
                             var4 = var6.showFailedToast;
@@ -752,7 +777,7 @@ case 0:
             var _closure2_slot0 = var8;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var4 = var11[var7];
             var1 = undefined;
             var9 = var10.bind(var1)(var4);
@@ -778,7 +803,7 @@ case 44:
             };
             var9 = var6.bind(var9)(var5, var4);
             var5 = _closure1_slot1;
-            var4 = 18;
+            var4 = 19;
             var4 = var11[var4];
             var4 = var5.bind(var1)(var4);
             var6 = var4.bind(var1)(var9);
@@ -855,7 +880,7 @@ case 45:
         }
     };
     var3['useWatchAgeVerificationStatusChange'] = var4;
-    var2 = function isFullscreenAgeVerificationEntryPoint(arg1) {
+    var4 = function isFullscreenAgeVerificationEntryPoint(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var4 = arg1;
@@ -870,6 +895,123 @@ case 3:
             return var1;
         }
     };
-    var3['isFullscreenAgeVerificationEntryPoint'] = var2;
+    var3['isFullscreenAgeVerificationEntryPoint'] = var4;
+    var4 = function getAgeVerificationGetStartedTitle(arg1) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+            var4 = _closure1_slot12;
+            var3 = var4.has;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 20;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0017_ip = 55; continue _fun0017 }
+case 27:
+            var1 = var2.JHNunj;
+            var1 = var3.bind(var4)(var1);
+            _fun0017_ip = 56; continue _fun0017;
+case 55:
+            var2 = var2.lSWVTM;
+            var1 = var3.bind(var4)(var2);
+case 56:
+            return var1;
+        }
+    };
+    var3['getAgeVerificationGetStartedTitle'] = var4;
+    var2 = function getAgeVerificationGetStartedSubtitle(arg1, arg2) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+            var8 = arg2;
+            var1 = arguments[2];
+            var6 = undefined;
+            if(!(var1 === var6)) { _fun0018_ip = 52; continue _fun0018 }
+case 54:
+            var1 = false;
+case 52:
+            var5 = _closure1_slot12;
+            var4 = var5.has;
+            var3 = arg1;
+            var3 = var4.bind(var5)(var3);
+            if(var3) { _fun0018_ip = 57; continue _fun0018 }
+case 58:
+            if(var1) { _fun0018_ip = 59; continue _fun0018 }
+case 60:
+            var1 = null;
+            if(!(var1 == var8)) { _fun0018_ip = 19; continue _fun0018 }
+case 61:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 20;
+            var3 = var7[var1];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.t;
+            var1 = var1.+BLIGh;
+            var1 = var3.bind(var4)(var1);
+            _fun0018_ip = 62; continue _fun0018;
+case 19:
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 20;
+            var3 = var9[var3];
+            var3 = var4.bind(var6)(var3);
+            var7 = var3.intl;
+            var5 = var7.format;
+            var4 = _closure1_slot1;
+            var3 = 21;
+            var3 = var9[var3];
+            var3 = var4.bind(var6)(var3);
+            var4 = var3.RpMIT0;
+            var3 = {};
+            var3['handleOnHelpUrlHook'] = var8;
+            var1 = var5.bind(var7)(var4, var3);
+case 62:
+            _fun0018_ip = 63; continue _fun0018;
+case 59:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 20;
+            var3 = var8[var3];
+            var3 = var4.bind(var6)(var3);
+            var5 = var3.intl;
+            var4 = var5.string;
+            var7 = _closure1_slot1;
+            var3 = 21;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.1/6wta;
+            var1 = var4.bind(var5)(var3);
+case 63:
+            _fun0018_ip = 64; continue _fun0018;
+case 57:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 20;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.S/xS/w;
+            var1 = var3.bind(var4)(var2);
+case 64:
+            return var1;
+        }
+    };
+    var3['getAgeVerificationGetStartedSubtitle'] = var2;
     return var1;
 })();
