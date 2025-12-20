@@ -3165,6 +3165,33 @@ case 229:
         return var1;
     };
     var3['fetchQuestToDeliver'] = var4;
+    var4 = function clearQuestAdDecision(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
+        var2['type'] = var5;
+        var2['quest'] = var1;
+        var5 = arg1;
+        var2['placement'] = var5;
+        var5 = global;
+        var6 = var5.Date;
+        var5 = var6.now;
+        var5 = var5.bind(var6)();
+        var2['fetchedAt'] = var5;
+        var6 = arg2;
+        var5 = 1000;
+        var5 = var6 / var5;
+        var2['responseTtlSeconds'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['clearQuestAdDecision'] = var4;
     var4 = function updatePrevRestingQuestDockMode(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

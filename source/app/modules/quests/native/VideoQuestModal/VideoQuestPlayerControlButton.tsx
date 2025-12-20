@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.BLACK_500;
+    var13 = var13.BLACK;
     var14 = var14.bind(var1)(var13);
     var13 = var14.alpha;
     var14 = var13.bind(var14)(var15);

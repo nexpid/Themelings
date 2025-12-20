@@ -188,7 +188,7 @@ case 5:
             var32 = var31[var32];
             var32 = var29.bind(var4)(var32);
             var32 = var32.unsafe_rawColors;
-            var32 = var32.WHITE_600;
+            var32 = var32.PRIMARY_345;
             var24['color'] = var32;
             var28 = var31[var28];
             var28 = var29.bind(var4)(var28);

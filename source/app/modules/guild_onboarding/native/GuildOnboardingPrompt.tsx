@@ -760,7 +760,7 @@ case 46:
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.WHITE_500;
+    var13 = var13.WHITE;
     var18 = var15.bind(var1)(var14, var13, var12);
     var19 = var9;
     var13 = copyDataProperties(var19, var18);

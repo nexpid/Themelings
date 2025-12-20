@@ -442,7 +442,7 @@ case 52:
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.unsafe_rawColors;
-            var41 = var4.WHITE_500;
+            var41 = var4.WHITE;
 case 51:
             var _closure2_slot7 = var41;
             var40 = var3.loadingColorLight;
@@ -905,7 +905,7 @@ case 83:
     var14 = var13[var16];
     var14 = var17.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.CONTROL_CONNECT_BACKGROUND_DEFAULT;
+    var14 = var14.CONTROL_CONNECTED_BACKGROUND_DEFAULT;
     var8['backgroundColor'] = var14;
     var5['buttonGreenDefault'] = var8;
     var8 = {};
@@ -1064,7 +1064,7 @@ case 83:
     var15 = var13[var16];
     var15 = var17.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
-    var15 = var15.WHITE_500;
+    var15 = var15.WHITE;
     var15 = var21.bind(var22)(var15, var18);
     var8['backgroundColor'] = var15;
     var5['buttonWhiteDisabled'] = var8;

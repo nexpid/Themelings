@@ -53,7 +53,7 @@ case 3:
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var7 = var7.unsafe_rawColors;
-            var4 = var7.BLACK_500;
+            var4 = var7.BLACK;
 case 4:
             var2['backgroundColor'] = var4;
             var4 = _closure1_slot1;

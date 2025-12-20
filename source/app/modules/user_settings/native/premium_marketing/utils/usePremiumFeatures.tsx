@@ -550,7 +550,7 @@ case 6:
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     var2 = var2.unsafe_rawColors;
-                    var3 = var2.WHITE_500;
+                    var3 = var2.WHITE;
                     var2 = 'color';
                     var1[var2] = var3;
                     return var1;

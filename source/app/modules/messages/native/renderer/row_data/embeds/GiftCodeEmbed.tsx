@@ -534,7 +534,7 @@ case 68:
                     var1 = var21[var1];
                     var1 = var20.bind(var8)(var1);
                     var1 = var1.unsafe_rawColors;
-                    var1 = var1.WHITE_500;
+                    var1 = var1.WHITE;
                     var14 = var10.bind(var18)(var1);
                     _fun0004_ip = 67; continue _fun0004;
 case 62:

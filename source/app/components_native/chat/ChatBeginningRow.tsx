@@ -745,7 +745,7 @@ case 54:
                         var9 = var11[var9];
                         var9 = var10.bind(var1)(var9);
                         var9 = var9.unsafe_rawColors;
-                        var9 = var9.WHITE_500;
+                        var9 = var9.WHITE;
                         var5['color'] = var9;
                         var8 = var8.unmutedNotification;
                         var5['style'] = var8;
@@ -801,7 +801,7 @@ case 48:
                     var6 = var8[var6];
                     var6 = var7.bind(var3)(var6);
                     var6 = var6.unsafe_rawColors;
-                    var5 = var6.WHITE_500;
+                    var5 = var6.WHITE;
 case 60:
                     var1['color'] = var5;
                     var1 = var4.bind(var3)(var2, var1);

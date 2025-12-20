@@ -681,12 +681,12 @@ case 37:
             var5 = var8.bind(var14)(var5);
             var14 = var5.withinStartWindow;
             var5 = new Array(0);
-            if(!(var3 != var7)) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
-            var15 = var7.is_canceled;
             var8 = null;
-            if(var15) { _fun0006_ip = 41; continue _fun0006 }
-case 39:
+            if(var10) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
+            var8 = null;
+            if(var11) { _fun0006_ip = 39; continue _fun0006 }
+case 41:
             var15 = {};
             var17 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -720,7 +720,7 @@ case 44:
             };
             var15['onPress'] = var16;
             var8 = var15;
-case 41:
+case 39:
             if(!(var3 != var12)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
             var12 = arg2;

@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
-    var15 = var15.WHITE_500;
+    var15 = var15.WHITE;
     var9['color'] = var15;
     var14 = var14.PRIMARY_SEMIBOLD;
     var9['fontFamily'] = var14;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.unsafe_rawColors;
-    var12 = var12.WHITE_500;
+    var12 = var12.WHITE;
     var9['color'] = var12;
     var4['upsellRow'] = var9;
     var9 = {};
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.unsafe_rawColors;
-    var11 = var10.WHITE_500;
+    var11 = var10.WHITE;
     var10 = 0.5;
     var10 = var12.bind(var13)(var11, var10);
     var9['color'] = var10;
@@ -369,7 +369,7 @@ case 6:
             var22 = var20[var24];
             var22 = var25.bind(var5)(var22);
             var22 = var22.unsafe_rawColors;
-            var22 = var22.WHITE_500;
+            var22 = var22.WHITE;
             var23['color'] = var22;
             var22 = new Array(2);
             var22[0] = var23;
@@ -394,7 +394,7 @@ case 6:
             var24 = var20[var24];
             var24 = var25.bind(var5)(var24);
             var24 = var24.unsafe_rawColors;
-            var24 = var24.WHITE_500;
+            var24 = var24.WHITE;
             var23['color'] = var24;
             var22[1] = var23;
             var18['features'] = var22;

@@ -708,7 +708,7 @@ case 54:
             _fun0002_ip = 55; continue _fun0002;
 case 53:
             var15 = var15.unsafe_rawColors;
-            var6 = var15.WHITE_500;
+            var6 = var15.WHITE;
 case 55:
             var1['color'] = var6;
             var6 = 'xxs';

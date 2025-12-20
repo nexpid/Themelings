@@ -467,7 +467,7 @@ case 16:
     var21 = var13[var15];
     var21 = var16.bind(var1)(var21);
     var21 = var21.unsafe_rawColors;
-    var22 = var21.WHITE_500;
+    var22 = var21.WHITE;
     var21 = 0.1;
     var22 = var23.bind(var24)(var22, var21);
     var11['backgroundColor'] = var22;
@@ -492,7 +492,7 @@ case 16:
     var18 = var13[var15];
     var18 = var16.bind(var1)(var18);
     var18 = var18.unsafe_rawColors;
-    var18 = var18.WHITE_500;
+    var18 = var18.WHITE;
     var18 = var19.bind(var20)(var18, var21);
     var11['backgroundColor'] = var18;
     var7['iconContainer'] = var11;

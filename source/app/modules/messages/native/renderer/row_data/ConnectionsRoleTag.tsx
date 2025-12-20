@@ -49,7 +49,7 @@ case 2:
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            var3 = var1.WHITE_500;
+            var3 = var1.WHITE;
             var7 = _closure1_slot0;
             var1 = 3;
             var9 = var10[var1];

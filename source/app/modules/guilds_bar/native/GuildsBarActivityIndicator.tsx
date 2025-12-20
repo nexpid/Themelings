@@ -332,7 +332,7 @@ case 32:
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.unsafe_rawColors;
-            var13 = var13.WHITE_500;
+            var13 = var13.WHITE;
             var7['color'] = var13;
             var13 = var11.activityIcon;
             var7['style'] = var13;

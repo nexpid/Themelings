@@ -420,7 +420,7 @@ case 7:
             var20 = var12.PRIMARY_500;
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var20 = var12.WHITE_500;
+            var20 = var12.WHITE;
 case 8:
             var15 = _closure1_slot14;
             var13 = _closure1_slot7;

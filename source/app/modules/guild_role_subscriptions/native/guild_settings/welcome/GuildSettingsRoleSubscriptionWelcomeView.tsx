@@ -390,7 +390,7 @@ case 23:
                 var8 = var7[var8];
                 var8 = var6.bind(var3)(var8);
                 var8 = var8.unsafe_rawColors;
-                var8 = var8.WHITE_500;
+                var8 = var8.WHITE;
                 var1['color'] = var8;
                 var5 = var7[var5];
                 var5 = var6.bind(var3)(var5);

@@ -169,7 +169,7 @@ case 11:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
-    var9 = var4.BLACK_500;
+    var9 = var4.BLACK;
     var4 = 4;
     var7 = var6[var4];
     var8 = var5.bind(var1)(var7);

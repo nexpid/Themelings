@@ -190,7 +190,7 @@ case 4:
     var8 = var6[var8];
     var8 = var9.bind(var1)(var8);
     var8 = var8.unsafe_rawColors;
-    var8 = var8.WHITE_500;
+    var8 = var8.WHITE;
     var7['clipTagTextColor'] = var8;
     var _closure1_slot3 = var7;
     var4 = var6[var4];

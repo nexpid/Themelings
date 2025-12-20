@@ -603,7 +603,7 @@ case 44:
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.unsafe_rawColors;
-            var15 = var15.WHITE_500;
+            var15 = var15.WHITE;
             var3['color'] = var15;
             var11 = var13.bind(var4)(var12, var3);
 case 50:

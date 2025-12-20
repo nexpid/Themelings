@@ -122,7 +122,7 @@ case 15:
             var2 = var11[var6];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var13 = var2.WHITE_500;
+            var13 = var2.WHITE;
             var3 = _closure1_slot0;
             var2 = 7;
             var10 = var11[var2];

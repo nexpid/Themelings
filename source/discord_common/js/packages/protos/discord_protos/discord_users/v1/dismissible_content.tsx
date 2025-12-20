@@ -1902,6 +1902,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WISHLIST_USER_PROFILE_ACCOUNT_POPOUT_UPSELL'] = var2;
     var1 = 'WISHLIST_USER_PROFILE_ACCOUNT_POPOUT_UPSELL';
     var4[var2] = var1;
+    var2 = 667;
+    var4['TRIAL_FOR_ALL_2026_SETTINGS_BADGE'] = var2;
+    var1 = 'TRIAL_FOR_ALL_2026_SETTINGS_BADGE';
+    var4[var2] = var1;
+    var2 = 668;
+    var4['PREMIUM_GROUP_POPOVER'] = var2;
+    var1 = 'PREMIUM_GROUP_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -47,7 +47,7 @@ case 3:
             var2 = var7[var2];
             var2 = var3.bind(var6)(var2);
             var2 = var2.unsafe_rawColors;
-            var3 = var2.WHITE_500;
+            var3 = var2.WHITE;
             var2 = 0.1;
             var1 = var4.bind(var5)(var3, var2);
 case 2:

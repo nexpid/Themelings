@@ -116,7 +116,7 @@ case 4:
     var13 = var6[var11];
     var13 = var15.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var20 = var13.WHITE_500;
+    var20 = var13.WHITE;
     var13 = {};
     var13['uppercase'] = var12;
     var12 = 12;

@@ -89,7 +89,7 @@ case 4:
         var10 = var6[var8];
         var10 = var9.bind(var1)(var10);
         var10 = var10.unsafe_rawColors;
-        var10 = var10.BLACK_500;
+        var10 = var10.BLACK;
         var7['backgroundColor'] = var10;
         var4['emptyView'] = var7;
         var7 = {'marginLeft': 16, 'marginRight': 16, 'marginTop': 'auto', 'borderRadius': 16, 'backgroundColor': null, 'paddingTop': 4, 'paddingBottom': 4, 'paddingLeft': 16, 'paddingRight': 16};
@@ -103,7 +103,7 @@ case 4:
         var8 = var6[var8];
         var8 = var9.bind(var1)(var8);
         var8 = var8.unsafe_rawColors;
-        var8 = var8.WHITE_500;
+        var8 = var8.WHITE;
         var7['color'] = var8;
         var8 = 'center';
         var7['textAlign'] = var8;

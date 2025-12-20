@@ -195,12 +195,12 @@ case 2:
         var3 = var15[var2];
         var3 = var14.bind(var4)(var3);
         var3 = var3.unsafe_rawColors;
-        var19 = var3.WHITE_500;
+        var19 = var3.WHITE;
         var _closure2_slot3 = var19;
         var2 = var15[var2];
         var2 = var14.bind(var4)(var2);
         var2 = var2.unsafe_rawColors;
-        var20 = var2.BLACK_500;
+        var20 = var2.BLACK;
         var _closure2_slot4 = var20;
         var2 = 5;
         var3 = var15[var2];

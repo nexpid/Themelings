@@ -1508,7 +1508,7 @@ case 23:
             var22 = var1.GUILD_BOOSTING_PINK;
             _fun0004_ip = 24; continue _fun0004;
 case 22:
-            var22 = var1.WHITE_500;
+            var22 = var1.WHITE;
 case 24:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;

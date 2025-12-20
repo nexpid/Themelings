@@ -390,7 +390,7 @@ case 12:
             var8 = var10[var8];
             var8 = var9.bind(var3)(var8);
             var8 = var8.unsafe_rawColors;
-            var8 = var8.WHITE_500;
+            var8 = var8.WHITE;
             var5['color'] = var8;
             var8 = 'sm';
             var5['size'] = var8;

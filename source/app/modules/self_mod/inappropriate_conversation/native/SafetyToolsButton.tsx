@@ -449,7 +449,7 @@ case 19:
         var9 = var12[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.unsafe_rawColors;
-        var9 = var9.WHITE_500;
+        var9 = var9.WHITE;
         var5['color'] = var9;
         var9 = 15;
         var9 = var12[var9];

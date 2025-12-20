@@ -543,7 +543,7 @@ case 30:
             var20 = var21.PRIMARY_500;
             _fun0001_ip = 31; continue _fun0001;
 case 29:
-            var20 = var21.WHITE_500;
+            var20 = var21.WHITE;
 case 31:
             var14['color'] = var20;
             var16 = var19.bind(var5)(var17, var14);

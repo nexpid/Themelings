@@ -825,10 +825,10 @@ case 0:
             var3 = var3.unsafe_rawColors;
             if(var2) { _fun0009_ip = 82; continue _fun0009 }
 case 83:
-            var2 = var3.WHITE_500;
+            var2 = var3.WHITE;
             _fun0009_ip = 84; continue _fun0009;
 case 82:
-            var2 = var3.BLACK_500;
+            var2 = var3.BLACK;
 case 84:
             var1['overlayColor'] = var2;
             return var1;

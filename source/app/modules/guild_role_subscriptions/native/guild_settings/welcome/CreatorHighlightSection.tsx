@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var13[var15];
         var15 = var14.bind(var4)(var15);
         var15 = var15.unsafe_rawColors;
-        var15 = var15.WHITE_500;
+        var15 = var15.WHITE;
         var8['color'] = var15;
         var11 = var11.subscriberCountIcon;
         var8['style'] = var11;

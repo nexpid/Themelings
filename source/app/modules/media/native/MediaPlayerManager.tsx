@@ -189,7 +189,7 @@ case 6:
     };
     var4 = var6.bind(var10)(var4);
     var _closure1_slot20 = var4;
-    var6 = 21;
+    var6 = 22;
     var6 = var8[var6];
     var6 = var9.bind(var1)(var6);
     var5 = function(arg1) {
@@ -344,10 +344,19 @@ case 11:
                 var5 = var6.addChangeListener;
                 var4 = var3.updateMediaPermissions;
                 var4 = var5.bind(var6)(var4);
-                var5 = _closure1_slot14;
-                var4 = var5.addChangeListener;
-                var3 = var3.updateMediaPermissions;
-                var3 = var4.bind(var5)(var3);
+                var6 = _closure1_slot14;
+                var5 = var6.addChangeListener;
+                var4 = var3.updateMediaPermissions;
+                var4 = var5.bind(var6)(var4);
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var4 = 18;
+                var4 = var6[var4];
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.subscribe;
+                var4 = var3.userDidClosePip;
+                var3 = 'LOGOUT';
+                var3 = var5.bind(var6)(var3, var4);
                 var4 = _closure1_slot19;
                 var3 = var4.verbose;
                 var2 = 'Initialized and subscribed to playback events';
@@ -482,10 +491,19 @@ case 23:
                 var5 = var6.removeChangeListener;
                 var4 = var2.updateMediaPermissions;
                 var4 = var5.bind(var6)(var4);
-                var4 = _closure1_slot14;
-                var3 = var4.removeChangeListener;
-                var2 = var2.updateMediaPermissions;
-                var2 = var3.bind(var4)(var2);
+                var6 = _closure1_slot14;
+                var5 = var6.removeChangeListener;
+                var4 = var2.updateMediaPermissions;
+                var4 = var5.bind(var6)(var4);
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 18;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.unsubscribe;
+                var3 = var2.userDidClosePip;
+                var2 = 'LOGOUT';
+                var2 = var4.bind(var5)(var2, var3);
                 return var1;
             }
         };
@@ -679,7 +697,7 @@ case 31:
                     var7 = var4.wasPipClosedByUser;
                     var5 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var10[var4];
                     var5 = var5.bind(var1)(var4);
                     var4 = _closure3_slot1;
@@ -766,7 +784,7 @@ case 0:
                     var3 = var1.bind(var3)();
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 19;
                     var4 = var4[var1];
                     var1 = undefined;
                     var8 = var5.bind(var1)(var4);
@@ -904,7 +922,7 @@ case 58:
                     var5 = var6.bind(var8)(var5);
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var5 = 18;
+                    var5 = 19;
                     var5 = var8[var5];
                     var6 = var6.bind(var1)(var5);
                     var4 = var4.activeMediaPlayerSource;
@@ -988,7 +1006,7 @@ case 71:
 case 15:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var3 = 19;
+                var3 = 20;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -1271,7 +1289,7 @@ case 24:
 case 46:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 20;
+                    var3 = 21;
                     var3 = var7[var3];
                     var5 = var5.bind(var1)(var3);
                     var3 = var5.getFocusedChannelId;
@@ -1366,7 +1384,7 @@ case 87:
     var14 = var6;
     var5 = new var14[var5](var13);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 22;
+    var6 = 23;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

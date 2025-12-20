@@ -874,7 +874,7 @@ case 25:
             var12 = var11[var12];
             var12 = var13.bind(var5)(var12);
             var12 = var12.unsafe_rawColors;
-            var12 = var12.WHITE_500;
+            var12 = var12.WHITE;
             var4['tintColor'] = var12;
             var1['imageStyle'] = var4;
             var4 = 34;
@@ -919,7 +919,7 @@ case 24:
             var12 = var11[var12];
             var12 = var13.bind(var5)(var12);
             var12 = var12.unsafe_rawColors;
-            var12 = var12.WHITE_500;
+            var12 = var12.WHITE;
             var9['tintColor'] = var12;
             var2['imageStyle'] = var9;
             var9 = 34;
@@ -1236,7 +1236,7 @@ case 51:
             var15 = var14[var15];
             var15 = var13.bind(var5)(var15);
             var15 = var15.unsafe_rawColors;
-            var15 = var15.WHITE_500;
+            var15 = var15.WHITE;
             var4['tintColor'] = var15;
             var1['imageStyle'] = var4;
             var15 = _closure1_slot0;
@@ -1288,7 +1288,7 @@ case 37:
             var13 = var11[var13];
             var13 = var10.bind(var5)(var13);
             var13 = var13.unsafe_rawColors;
-            var13 = var13.WHITE_500;
+            var13 = var13.WHITE;
             var12['tintColor'] = var13;
             var2['imageStyle'] = var12;
             var12 = _closure1_slot0;

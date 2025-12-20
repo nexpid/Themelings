@@ -435,7 +435,7 @@ case 38:
             var13 = var11.PRIMARY_500;
             _fun0001_ip = 39; continue _fun0001;
 case 37:
-            var13 = var11.WHITE_500;
+            var13 = var11.WHITE;
 case 39:
             var12 = _closure1_slot9;
             var11 = _closure1_slot5;

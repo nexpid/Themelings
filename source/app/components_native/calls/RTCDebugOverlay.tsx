@@ -503,7 +503,7 @@ case 22:
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.unsafe_rawColors;
-    var15 = var14.BLACK_500;
+    var15 = var14.BLACK;
     var14 = 0.7;
     var15 = var16.bind(var17)(var15, var14);
     var14 = 'backgroundColor';
@@ -523,7 +523,7 @@ case 22:
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.unsafe_rawColors;
-    var12 = var12.WHITE_500;
+    var12 = var12.WHITE;
     var11['color'] = var12;
     var12 = 14;
     var11['fontSize'] = var12;

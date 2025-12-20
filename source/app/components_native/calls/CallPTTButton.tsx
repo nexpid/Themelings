@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var7[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
-    var16 = var15.WHITE_500;
+    var16 = var15.WHITE;
     var15 = 0.24;
     var15 = var17.bind(var18)(var16, var15);
     var11['backgroundColor'] = var15;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.unsafe_rawColors;
-    var15 = var14.BLACK_500;
+    var15 = var14.BLACK;
     var14 = 0.6;
     var14 = var16.bind(var17)(var15, var14);
     var11['backgroundColor'] = var14;

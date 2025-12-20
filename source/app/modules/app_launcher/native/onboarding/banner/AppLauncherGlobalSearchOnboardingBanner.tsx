@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.unsafe_rawColors;
-    var10 = var10.WHITE_100;
+    var10 = var10.WHITE;
     var9['tintColor'] = var10;
     var4['appsIconImage'] = var9;
     var4 = var7.bind(var8)(var4);

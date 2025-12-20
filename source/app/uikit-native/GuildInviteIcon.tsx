@@ -126,7 +126,7 @@ case 4:
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.WHITE_500;
+    var13 = var13.WHITE;
     var12['color'] = var13;
     var9['acronym'] = var12;
     var9 = var10.bind(var11)(var9);

@@ -131,7 +131,7 @@ case 0:
                     var7 = var6[var1];
                     var7 = var8.bind(var10)(var7);
                     var7 = var7.unsafe_rawColors;
-                    var8 = var7.WHITE_500;
+                    var8 = var7.WHITE;
                     var7 = _closure1_slot34;
                     var11 = 26;
                     var6 = var6[var11];
@@ -1927,7 +1927,7 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var41 = var2.WHITE_500;
+            var41 = var2.WHITE;
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
@@ -1983,7 +1983,7 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var42 = var2.WHITE_500;
+            var42 = var2.WHITE;
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
@@ -1991,11 +1991,11 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var40 = var2.WHITE_500;
+            var40 = var2.WHITE;
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var39 = var2.WHITE_500;
+            var39 = var2.WHITE;
             var44 = undefined;
             var43 = var9;
             var14 = var44[var14](var43, var42, var41, var40, var39, var38);
@@ -2023,7 +2023,7 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var42 = var2.WHITE_500;
+            var42 = var2.WHITE;
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
@@ -2035,7 +2035,7 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var39 = var2.WHITE_500;
+            var39 = var2.WHITE;
             var44 = undefined;
             var43 = var9;
             var14 = var44[var14](var43, var42, var41, var40, var39, var38);
@@ -2072,11 +2072,11 @@ case 54:
             var2 = var30[var1];
             var2 = var25.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var41 = var2.WHITE_500;
+            var41 = var2.WHITE;
             var1 = var30[var1];
             var1 = var25.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            var40 = var1.WHITE_500;
+            var40 = var1.WHITE;
             var44 = undefined;
             var43 = var9;
             var42 = var3;

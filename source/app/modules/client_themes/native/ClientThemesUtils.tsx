@@ -531,12 +531,12 @@ case 41:
     var15 = var14[var7];
     var15 = var8.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
-    var15 = var15.BLACK_500;
+    var15 = var15.BLACK;
     var9['DARK'] = var15;
     var7 = var14[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.unsafe_rawColors;
-    var7 = var7.WHITE_500;
+    var7 = var7.WHITE;
     var9['LIGHT'] = var7;
     var _closure1_slot10 = var9;
     var8 = {};

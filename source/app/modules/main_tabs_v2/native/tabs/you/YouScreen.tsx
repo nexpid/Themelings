@@ -1573,7 +1573,7 @@ case 96:
         var8 = var6[var3];
         var8 = var5.bind(var4)(var8);
         var8 = var8.unsafe_rawColors;
-        var8 = var8.WHITE_500;
+        var8 = var8.WHITE;
         var10 = var9.bind(var4)(var8);
         var9 = var10.alpha;
         var8 = 0.9;

@@ -34,7 +34,7 @@ case 3:
             var8 = var1.PRIMARY_800;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var8 = var1.WHITE_500;
+            var8 = var1.WHITE;
 case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
@@ -438,7 +438,7 @@ case 33:
             var19 = var20.PRIMARY_860;
             _fun0002_ip = 34; continue _fun0002;
 case 32:
-            var19 = var20.WHITE_500;
+            var19 = var20.WHITE;
 case 34:
             var18['color'] = var19;
             var17 = var18;

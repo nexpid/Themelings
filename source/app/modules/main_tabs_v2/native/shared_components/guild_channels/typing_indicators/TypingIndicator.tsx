@@ -73,7 +73,7 @@ case 4:
             var4 = var4.unsafe_rawColors;
             if(var3) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var3 = var4.WHITE_500;
+            var3 = var4.WHITE;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var3 = var4.BRAND_500;

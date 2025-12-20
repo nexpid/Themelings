@@ -132,7 +132,7 @@ case 14:
             var9 = var17.PREMIUM_PERK_PINK;
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var9 = var17.WHITE_100;
+            var9 = var17.WHITE;
 case 15:
             var8['tintColor'] = var9;
             var4[1] = var8;
@@ -197,7 +197,7 @@ case 25:
             var14 = var20[var14];
             var14 = var17.bind(var5)(var14);
             var14 = var14.unsafe_rawColors;
-            var14 = var14.WHITE_500;
+            var14 = var14.WHITE;
             var17 = 14;
             var17 = var20[var17];
             var18 = var18.bind(var5)(var17);
@@ -537,7 +537,7 @@ case 39:
             var19 = var22.bind(var23)(var21, var19);
             _fun0003_ip = 40; continue _fun0003;
 case 38:
-            var21 = var20.WHITE_500;
+            var21 = var20.WHITE;
             var20 = 0.4;
             var19 = var22.bind(var23)(var21, var20);
 case 40:

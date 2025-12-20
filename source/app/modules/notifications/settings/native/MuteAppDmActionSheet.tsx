@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var10[var8];
                 var8 = var9.bind(var1)(var8);
                 var8 = var8.unsafe_rawColors;
-                var8 = var8.WHITE_500;
+                var8 = var8.WHITE;
                 var5['color'] = var8;
                 var7 = var7.mutedNotification;
                 var5['style'] = var7;

@@ -256,7 +256,7 @@ case 20:
     var16 = var10[var13];
     var16 = var14.bind(var1)(var16);
     var16 = var16.unsafe_rawColors;
-    var16 = var16.BLACK_500;
+    var16 = var16.BLACK;
     var16 = var19.bind(var20)(var16, var21);
     var6['backgroundColor'] = var16;
     var16 = var10[var13];
@@ -303,7 +303,7 @@ case 20:
     var19 = var10[var13];
     var19 = var14.bind(var1)(var19);
     var19 = var19.unsafe_rawColors;
-    var20 = var19.BLACK_500;
+    var20 = var19.BLACK;
     var19 = 0.1;
     var19 = var21.bind(var22)(var20, var19);
     var16['borderColor'] = var19;
@@ -324,7 +324,7 @@ case 20:
     var17 = var10[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.unsafe_rawColors;
-    var18 = var17.BLACK_500;
+    var18 = var17.BLACK;
     var17 = 0.3;
     var18 = var19.bind(var20)(var18, var17);
     var17 = 'backgroundColor';

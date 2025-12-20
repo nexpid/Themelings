@@ -107,7 +107,7 @@ case 4:
     var14 = var8[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.unsafe_rawColors;
-    var14 = var14.BLACK_500;
+    var14 = var14.BLACK;
     var10['shadowColor'] = var14;
     var14 = {'height': 1, 'width': 0};
     var10['shadowOffset'] = var14;

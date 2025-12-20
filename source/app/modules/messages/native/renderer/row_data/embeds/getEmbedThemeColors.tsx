@@ -266,7 +266,7 @@ case 8:
             var1 = var4.bind(var5)(var3, var1);
             _fun0006_ip = 9; continue _fun0006;
 case 5:
-            var3 = var2.WHITE_500;
+            var3 = var2.WHITE;
             var2 = 0.06;
             var1 = var4.bind(var5)(var3, var2);
 case 9:
@@ -413,7 +413,7 @@ case 0:
             var4 = var4[var8];
             var4 = var5.bind(var7)(var4);
             var4 = var4.unsafe_rawColors;
-            var4 = var4.WHITE_500;
+            var4 = var4.WHITE;
             var1['acceptLabelGreenColor'] = var4;
             var4 = null;
             var5 = var2;
@@ -442,7 +442,7 @@ case 12:
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var9 = var9.unsafe_rawColors;
-            var9 = var9.WHITE_500;
+            var9 = var9.WHITE;
             var1['clearLabelRedColor'] = var9;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);

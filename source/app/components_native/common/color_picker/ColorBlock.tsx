@@ -111,7 +111,7 @@ case 9:
             var17 = var19[var17];
             var17 = var18.bind(var5)(var17);
             var17 = var17.unsafe_rawColors;
-            var17 = var17.BLACK_500;
+            var17 = var17.BLACK;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var19 = _closure1_slot1;
@@ -120,7 +120,7 @@ case 8:
             var18 = var20[var18];
             var18 = var19.bind(var5)(var18);
             var18 = var18.unsafe_rawColors;
-            var17 = var18.WHITE_500;
+            var17 = var18.WHITE;
 case 10:
             var10['color'] = var17;
             var4 = var16.bind(var5)(var13, var10);
@@ -197,7 +197,7 @@ case 15:
             var10 = var13[var10];
             var10 = var12.bind(var5)(var10);
             var10 = var10.unsafe_rawColors;
-            var10 = var10.BLACK_500;
+            var10 = var10.BLACK;
             _fun0001_ip = 16; continue _fun0001;
 case 14:
             var12 = _closure1_slot1;
@@ -206,7 +206,7 @@ case 14:
             var11 = var13[var11];
             var11 = var12.bind(var5)(var11);
             var11 = var11.unsafe_rawColors;
-            var10 = var11.WHITE_500;
+            var10 = var11.WHITE;
 case 16:
             var7['color'] = var10;
             var6 = var9.bind(var5)(var8, var7);

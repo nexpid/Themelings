@@ -132,7 +132,7 @@ case 5:
                 var24 = var9.PRIMARY_500;
                 _fun0002_ip = 6; continue _fun0002;
 case 4:
-                var24 = var9.WHITE_500;
+                var24 = var9.WHITE;
 case 6:
                 var9 = _closure1_slot3;
                 var28 = var9.gradientPreset;

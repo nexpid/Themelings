@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BADGE_BACKGROUND_DEFAULT;
+    var12 = var12.BADGE_BACKGROUND_BRAND;
     var11['backgroundColor'] = var12;
     var4['updatedBadge'] = var11;
     var11 = var6[var9];

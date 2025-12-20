@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.unsafe_rawColors;
-    var12 = var11.WHITE_500;
+    var12 = var11.WHITE;
     var11 = 0.6;
     var11 = var13.bind(var14)(var12, var11);
     var9['color'] = var11;

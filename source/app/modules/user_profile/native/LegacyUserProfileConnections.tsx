@@ -296,7 +296,7 @@ case 42:
             var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var16 = var2.WHITE_500;
+            var16 = var2.WHITE;
             var14 = var5;
 case 41:
             var2 = var28.verified;

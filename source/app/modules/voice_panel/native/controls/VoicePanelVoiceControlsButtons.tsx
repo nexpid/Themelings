@@ -896,7 +896,7 @@ case 54:
             var15 = var14[var12];
             var15 = var13.bind(var5)(var15);
             var15 = var15.unsafe_rawColors;
-            var15 = var15.WHITE_500;
+            var15 = var15.WHITE;
             var9['color'] = var15;
             var12 = var14[var12];
             var12 = var13.bind(var5)(var12);

@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.unsafe_rawColors;
-    var8 = var8.WHITE_500;
+    var8 = var8.WHITE;
     var _closure1_slot7 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);

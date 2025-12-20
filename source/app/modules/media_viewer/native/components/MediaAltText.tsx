@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.unsafe_rawColors;
-    var17 = var11.WHITE_500;
+    var17 = var11.WHITE;
     var11 = {};
     var11['uppercase'] = var10;
     var16 = 12;

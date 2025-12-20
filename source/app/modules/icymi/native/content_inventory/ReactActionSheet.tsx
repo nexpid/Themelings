@@ -821,7 +821,7 @@ case 29:
             var29 = var31[var29];
             var29 = var30.bind(var4)(var29);
             var29 = var29.unsafe_rawColors;
-            var29 = var29.WHITE_500;
+            var29 = var29.WHITE;
             var26['color'] = var29;
             var26 = var28.bind(var4)(var27, var26);
             var18['icon'] = var26;

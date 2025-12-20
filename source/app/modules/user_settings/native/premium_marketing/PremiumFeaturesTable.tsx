@@ -148,7 +148,7 @@ case 3:
             var8 = var1.PRIMARY_860;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var8 = var1.WHITE_500;
+            var8 = var1.WHITE;
 case 4:
             var3 = _closure1_slot10;
             var10 = _closure1_slot1;

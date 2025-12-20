@@ -53,7 +53,7 @@ case 0:
         var11 = var6[var11];
         var11 = var12.bind(var1)(var11);
         var11 = var11.unsafe_rawColors;
-        var11 = var11.WHITE_500;
+        var11 = var11.WHITE;
         var9['color'] = var11;
         var11 = 4;
         var11 = var6[var11];

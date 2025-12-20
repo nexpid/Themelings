@@ -391,7 +391,7 @@ case 30:
             var14 = var9[var14];
             var14 = var10.bind(var4)(var14);
             var14 = var14.unsafe_rawColors;
-            var14 = var14.WHITE_500;
+            var14 = var14.WHITE;
             var13['tintColor'] = var14;
             var1['imageStyle'] = var13;
             var16 = _closure1_slot0;

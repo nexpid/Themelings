@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var14[var12];
         var12 = var13.bind(var4)(var12);
         var12 = var12.unsafe_rawColors;
-        var12 = var12.WHITE_500;
+        var12 = var12.WHITE;
         var10['color'] = var12;
         var10 = var7.bind(var4)(var11, var10);
         var8['icon'] = var10;

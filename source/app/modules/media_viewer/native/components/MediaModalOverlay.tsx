@@ -107,7 +107,7 @@ case 7:
             var10 = var12[var10];
             var10 = var11.bind(var3)(var10);
             var10 = var10.unsafe_rawColors;
-            var10 = var10.WHITE_500;
+            var10 = var10.WHITE;
             var5['color'] = var10;
             var5['onPress'] = var9;
             var9 = _closure1_slot10;
@@ -175,7 +175,7 @@ case 10:
             var10 = var12[var10];
             var10 = var11.bind(var3)(var10);
             var10 = var10.unsafe_rawColors;
-            var10 = var10.WHITE_500;
+            var10 = var10.WHITE;
             var5['color'] = var10;
             var5['onPress'] = var9;
             var9 = _closure1_slot10;

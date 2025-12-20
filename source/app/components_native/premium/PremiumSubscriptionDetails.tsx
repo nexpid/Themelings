@@ -972,14 +972,14 @@ case 63:
     var12 = var10[var28];
     var12 = var19.bind(var1)(var12);
     var12 = var12.unsafe_rawColors;
-    var12 = var12.WHITE_500;
+    var12 = var12.WHITE;
     var8['color'] = var12;
     var11['price'] = var8;
     var8 = {'fontSize': 14, 'marginTop': 10};
     var12 = var10[var28];
     var12 = var19.bind(var1)(var12);
     var12 = var12.unsafe_rawColors;
-    var12 = var12.BLACK_500;
+    var12 = var12.BLACK;
     var8['color'] = var12;
     var11['priceDark'] = var8;
     var8 = var10[var29];

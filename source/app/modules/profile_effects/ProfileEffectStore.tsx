@@ -283,7 +283,7 @@ case 34:
         }
     };
     var _closure1_slot9 = var2;
-    var2 = function handleProductUpdate(arg1) {
+    var2 = function handleProductOrPurchaseUpdate(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;

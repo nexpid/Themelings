@@ -268,7 +268,7 @@ case 13:
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.BLACK_500;
+    var13 = var13.BLACK;
     var11['backgroundColor'] = var13;
     var8['imageContainer'] = var11;
     var11 = {};

@@ -302,7 +302,7 @@ case 15:
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.unsafe_rawColors;
-    var15 = var14.BLACK_500;
+    var15 = var14.BLACK;
     var14 = 0.5;
     var14 = var16.bind(var17)(var15, var14);
     var9['backgroundColor'] = var14;

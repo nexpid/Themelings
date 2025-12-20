@@ -177,7 +177,7 @@ case 4:
                 var5 = undefined;
                 var3 = var4.bind(var5)(var3);
                 var3 = var3.unsafe_rawColors;
-                var3 = var3.WHITE_500;
+                var3 = var3.WHITE;
                 var4 = _closure1_slot0;
                 var2 = 5;
                 var8 = var7[var2];
@@ -384,7 +384,7 @@ case 25:
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.unsafe_rawColors;
-    var14 = var14.WHITE_500;
+    var14 = var14.WHITE;
     var7['experimental_welcome-secondary'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);

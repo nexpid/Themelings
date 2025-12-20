@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var7];
     var4 = var10.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
-    var4 = var4.BLACK_460;
+    var4 = var4.PRIMARY_760;
     var9 = var9.bind(var11)(var4);
     var4 = new Array(2);
     var4[0] = var9;
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var10.bind(var1)(var7);
     var7 = var7.unsafe_rawColors;
-    var7 = var7.BLACK_460;
+    var7 = var7.PRIMARY_760;
     var7 = var8.bind(var9)(var7);
     var4[1] = var7;
     var _closure1_slot3 = var4;

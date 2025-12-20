@@ -215,7 +215,7 @@ case 17:
             var9 = var11[var9];
             var9 = var10.bind(var5)(var9);
             var9 = var9.unsafe_rawColors;
-            var9 = var9.BLACK_500;
+            var9 = var9.BLACK;
             var6['color'] = var9;
             var6['disableColor'] = var8;
             var6 = var4.bind(var5)(var7, var6);
@@ -297,7 +297,7 @@ case 21:
             var8 = var10[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.unsafe_rawColors;
-            var8 = var8.BLACK_500;
+            var8 = var8.BLACK;
             var6['color'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;

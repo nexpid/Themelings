@@ -466,7 +466,7 @@ case 29:
                     var3 = var2.PRIMARY_530;
                     _fun0002_ip = 30; continue _fun0002;
 case 28:
-                    var3 = var2.WHITE_100;
+                    var3 = var2.WHITE;
 case 30:
                     var2 = 'color';
                     var1[var2] = var3;

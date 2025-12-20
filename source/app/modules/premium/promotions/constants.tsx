@@ -30,6 +30,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['MARKETING_MOMENT'] = var4;
     var2 = 'MARKETING_MOMENT';
     var6[var4] = var2;
+    var4 = 6;
+    var6['GIFT_PROMOTION'] = var4;
+    var2 = 'GIFT_PROMOTION';
+    var6[var4] = var2;
     var8 = var1.Set;
     var1 = new Array(2);
     var5 = 'steelseries';

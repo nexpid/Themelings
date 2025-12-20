@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8[var11];
     var4 = var12.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
-    var6 = var4.WHITE_500;
+    var6 = var4.WHITE;
     var4 = 0.24;
     var4 = var9.bind(var13)(var6, var4);
     var _closure1_slot9 = var4;
@@ -380,7 +380,7 @@ case 33:
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            var11 = var1.WHITE_500;
+            var11 = var1.WHITE;
 case 32:
             var6 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -390,7 +390,7 @@ case 32:
             var6 = var2.unsafe_rawColors;
             if(var12) { _fun0002_ip = 11; continue _fun0002 }
 case 34:
-            var2 = var6.WHITE_500;
+            var2 = var6.WHITE;
             _fun0002_ip = 35; continue _fun0002;
 case 11:
             var2 = var6.PRIMARY_900;
@@ -464,7 +464,7 @@ case 3:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            var8 = var2.WHITE_500;
+            var8 = var2.WHITE;
             var3 = _closure1_slot7;
             var2 = _closure1_slot14;
             var1 = {};

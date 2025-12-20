@@ -1443,7 +1443,7 @@ case 79:
             var14 = var17[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.unsafe_rawColors;
-            var14 = var14.WHITE_500;
+            var14 = var14.WHITE;
             var9['color'] = var14;
             var14 = 'sm';
             var9['size'] = var14;

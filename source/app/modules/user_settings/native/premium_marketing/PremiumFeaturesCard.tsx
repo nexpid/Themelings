@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = var6[var13];
     var19 = var14.bind(var1)(var19);
     var19 = var19.unsafe_rawColors;
-    var20 = var19.WHITE_500;
+    var20 = var19.WHITE;
     var19 = 18;
     var24 = var22.bind(var1)(var21, var20, var19);
     var25 = var12;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.unsafe_rawColors;
-    var19 = var17.WHITE_500;
+    var19 = var17.WHITE;
     var17 = 14;
     var24 = var21.bind(var1)(var20, var19, var17);
     var25 = var12;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var6[var13];
     var17 = var14.bind(var1)(var17);
     var17 = var17.unsafe_rawColors;
-    var17 = var17.BLACK_500;
+    var17 = var17.BLACK;
     var19 = var18.bind(var1)(var17);
     var18 = var19.alpha;
     var17 = 0.4;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
-    var15 = var15.WHITE_500;
+    var15 = var15.WHITE;
     var24 = var17.bind(var1)(var16, var15, var13);
     var25 = var12;
     var15 = copyDataProperties(var25, var24);
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
-    var13 = var13.WHITE_500;
+    var13 = var13.WHITE;
     var12['color'] = var13;
     var4['premiumGroupMemberInfoText'] = var12;
     var12 = {'position': 'absolute', 'top': 4294967286, 'maxWidth': 140, 'alignSelf': 'center', 'zIndex': 2};

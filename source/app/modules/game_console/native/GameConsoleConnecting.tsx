@@ -155,7 +155,7 @@ case 9:
             var5 = var11[var5];
             var5 = var10.bind(var4)(var5);
             var5 = var5.unsafe_rawColors;
-            var5 = var5.WHITE_500;
+            var5 = var5.WHITE;
             var1['color'] = var5;
             var5 = var3.bind(var4)(var2, var1);
             _fun0001_ip = 10; continue _fun0001;

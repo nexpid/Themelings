@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var6];
         var5 = var10.bind(var4)(var5);
         var5 = var5.unsafe_rawColors;
-        var5 = var5.WHITE_500;
+        var5 = var5.WHITE;
         var12 = var12.bind(var13)(var5, var9);
         var5 = new Array(3);
         var5[0] = var12;
@@ -183,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var11[var6];
         var12 = var10.bind(var4)(var12);
         var12 = var12.unsafe_rawColors;
-        var13 = var12.WHITE_500;
+        var13 = var12.WHITE;
         var12 = 0.4;
         var12 = var14.bind(var15)(var13, var12);
         var5[1] = var12;
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var11[var6];
         var6 = var10.bind(var4)(var6);
         var6 = var6.unsafe_rawColors;
-        var6 = var6.WHITE_500;
+        var6 = var6.WHITE;
         var6 = var7.bind(var8)(var6, var9);
         var5[2] = var6;
         var1['colors'] = var5;

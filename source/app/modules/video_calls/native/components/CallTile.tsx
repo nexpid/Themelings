@@ -88,7 +88,7 @@ case 12:
             var7 = var9[var7];
             var7 = var8.bind(var5)(var7);
             var7 = var7.unsafe_rawColors;
-            var7 = var7.WHITE_500;
+            var7 = var7.WHITE;
             var2['color'] = var7;
             var6 = var6.titleIcon;
             var2['style'] = var6;

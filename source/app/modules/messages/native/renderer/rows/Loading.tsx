@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var9];
     var11 = var10.bind(var1)(var11);
     var11 = var11.unsafe_rawColors;
-    var11 = var11.WHITE_500;
+    var11 = var11.WHITE;
     var4['loadButtonColor'] = var11;
     var9 = var6[var9];
     var9 = var10.bind(var1)(var9);

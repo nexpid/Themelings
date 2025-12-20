@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var12 = var6[var11];
     var12 = var5.bind(var1)(var12);
-    var12 = var12.DARK_BLACK_500_LIGHT_BLACK_300;
+    var12 = var12.DARK_BLACK_500_LIGHT_PRIMARY_400;
     var10['shadowColor'] = var12;
     var4['shadowAndroid'] = var10;
     var10 = {};

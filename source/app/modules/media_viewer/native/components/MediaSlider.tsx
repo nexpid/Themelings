@@ -493,7 +493,7 @@ case 18:
                 var24 = var10[var24];
                 var24 = var25.bind(var4)(var24);
                 var24 = var24.unsafe_rawColors;
-                var24 = var24.WHITE_500;
+                var24 = var24.WHITE;
                 var18['minimumTrackTintColor'] = var24;
                 var18['maximumTrackTintColor'] = var23;
                 var18['onValueChange'] = var22;
