@@ -171,6 +171,7 @@
 { "file": "app/components_native/InviteSettingsModal.tsx", "size": 2599 }
 { "file": "app/components_native/MainChannels.tsx", "size": 12532 }
 { "file": "app/components_native/MainShared.tsx", "size": 8827 }
+{ "file": "app/components_native/media/ZoomLayout.android.tsx", "size": 3126 }
 { "file": "app/components_native/MemberRolesList.tsx", "size": 5780 }
 { "file": "app/components_native/MobileSurvey.tsx", "size": 9573 }
 { "file": "app/components_native/premium/EntitlementGiftGroupCard.tsx", "size": 39386 }
@@ -1305,7 +1306,7 @@
 { "file": "app/modules/analytics_sessions/SessionAdGenerator.tsx", "size": 4884 }
 { "file": "app/modules/analytics_sessions/SessionAdManager.tsx", "size": 24460 }
 { "file": "app/modules/analytics_sessions/SessionForegroundUtils.native.tsx", "size": 983 }
-{ "file": "app/modules/analytics_sessions/SessionHeartbeatScheduler.tsx", "size": 41936 }
+{ "file": "app/modules/analytics_sessions/SessionHeartbeatScheduler.tsx", "size": 41934 }
 { "file": "app/modules/analytics_sessions/SessionUtils.tsx", "size": 1859 }
 { "file": "app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx", "size": 1638 }
 { "file": "app/modules/analytics/updateDynamicSuperProperties.tsx", "size": 3030 }
@@ -4551,20 +4552,18 @@
 { "file": "app/modules/media_viewer/native/components/MediaOverlayButton.tsx", "size": 2555 }
 { "file": "app/modules/media_viewer/native/components/MediaShareActions.tsx", "size": 30236 }
 { "file": "app/modules/media_viewer/native/components/MediaSlider.tsx", "size": 21811 }
-{ "file": "app/modules/media_viewer/native/components/MediaViewer.tsx", "size": 75265 }
+{ "file": "app/modules/media_viewer/native/components/MediaViewer.tsx", "size": 104891 }
 { "file": "app/modules/media_viewer/native/components/MediaViewerAltTextSheet.tsx", "size": 5032 }
 { "file": "app/modules/media_viewer/native/components/MediaViewerThumbnails.tsx", "size": 16638 }
 { "file": "app/modules/media_viewer/native/components/openMediaModal.tsx", "size": 9970 }
 { "file": "app/modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx", "size": 2687 }
 { "file": "app/modules/media_viewer/native/Constants.tsx", "size": 1201 }
-{ "file": "app/modules/media_viewer/native/getMediaViewerStateForScreen.tsx", "size": 4130 }
 { "file": "app/modules/media_viewer/native/MediaPlayerMuteManager.tsx", "size": 4396 }
 { "file": "app/modules/media_viewer/native/MediaSourceUtil.tsx", "size": 71971 }
 { "file": "app/modules/media_viewer/native/MediaViewerShareSheet.tsx", "size": 2760 }
 { "file": "app/modules/media_viewer/native/portraitThumbnailHelpers.tsx", "size": 3319 }
 { "file": "app/modules/media_viewer/native/useEntranceAnimation.tsx", "size": 9577 }
 { "file": "app/modules/media_viewer/native/useMediaItemSpoilerState.tsx", "size": 6772 }
-{ "file": "app/modules/media_viewer/native/useMediaViewerPanGesture.tsx", "size": 19969 }
 { "file": "app/modules/media_viewer/native/useMediaViewerSources.tsx", "size": 6361 }
 { "file": "app/modules/media_viewer/native/useMediaViewerSyncer.tsx", "size": 95498 }
 { "file": "app/modules/media_viewer/native/useMessagePreviewHeight.tsx", "size": 3630 }
@@ -7262,7 +7261,7 @@
 { "file": "app/modules/video_calls/native/components/UserTile.tsx", "size": 32805 }
 { "file": "app/modules/video_calls/native/components/UserVideoFailed.tsx", "size": 9509 }
 { "file": "app/modules/video_calls/native/components/useShouldForcePipOrientation.tsx", "size": 8976 }
-{ "file": "app/modules/video_calls/native/components/VideoRenderer.tsx", "size": 24317 }
+{ "file": "app/modules/video_calls/native/components/VideoRenderer.tsx", "size": 27652 }
 { "file": "app/modules/video_calls/native/useActionBarHeight.tsx", "size": 3339 }
 { "file": "app/modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx", "size": 1492 }
 { "file": "app/modules/video_calls/native/useChannelFloatingCTAContent.tsx", "size": 5073 }
@@ -7553,7 +7552,6 @@
 { "file": "app/modules/welcome_screen/WelcomeScreenActionCreators.tsx", "size": 10828 }
 { "file": "app/modules/welcome_screen/WelcomeScreenConstants.tsx", "size": 792 }
 { "file": "app/modules/welcome_screen/WelcomeScreenStore.tsx", "size": 11462 }
-{ "file": "app/modules/zoom_layout/ZoomLayout.android.tsx", "size": 5128 }
 { "file": "app/polyfills.android.tsx", "size": 1124 }
 { "file": "app/polyfillsNative.tsx", "size": 3236 }
 { "file": "app/records/ApplicationRecord.tsx", "size": 47149 }
@@ -7602,7 +7600,7 @@
 { "file": "app/stores/billing/UserOfferStore.tsx", "size": 50465 }
 { "file": "app/stores/BitRateStore.tsx", "size": 5105 }
 { "file": "app/stores/BrowserHandoffStore.native.tsx", "size": 5409 }
-{ "file": "app/stores/CallStore.tsx", "size": 19632 }
+{ "file": "app/stores/CallStore.tsx", "size": 19634 }
 { "file": "app/stores/CategoryCollapseStore.tsx", "size": 22975 }
 { "file": "app/stores/CertifiedDeviceStore.tsx", "size": 16943 }
 { "file": "app/stores/ChangeVanityURLModalStore.tsx", "size": 7212 }
@@ -8560,7 +8558,7 @@
 { "file": "discord_common/js/packages/rtn-codegen/js/VideoRendererNativeComponent.tsx", "size": 1660 }
 { "file": "discord_common/js/packages/rtn-codegen/js/VisualEffectViewAndroidNativeComponent.tsx", "size": 1228 }
 { "file": "discord_common/js/packages/rtn-codegen/js/VisualEffectViewTargetAndroidNativeComponent.tsx", "size": 1125 }
-{ "file": "discord_common/js/packages/rtn-codegen/js/ZoomLayoutNativeComponent.tsx", "size": 2833 }
+{ "file": "discord_common/js/packages/rtn-codegen/js/ZoomLayoutNativeComponent.tsx", "size": 2680 }
 { "file": "discord_common/js/packages/secondary-index-map/SecondaryIndexMap.tsx", "size": 15916 }
 { "file": "discord_common/js/packages/shallow-equal/shallowEqual.tsx", "size": 4055 }
 { "file": "discord_common/js/packages/storage/native/Storage.tsx", "size": 29455 }
