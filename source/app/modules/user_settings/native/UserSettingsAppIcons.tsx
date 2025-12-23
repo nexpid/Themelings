@@ -250,30 +250,61 @@ case 0:
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                             StartGenerator();
+                            var5 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                            var5 = _closure1_slot10;
+                            var4 = _closure1_slot10;
                             var3 = undefined;
-                            var4 = arg1;
-                            var5 = var5.bind(var3)(var4);
+                            var7 = var4.bind(var3)(var5);
                             var8 = null;
-                            if(!(var8 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+                            if(!(var8 != var7)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                            var6 = var5.id;
-                            var4 = var5.isPremium;
-                            var10 = var5.iconSource;
+                            var6 = var7.id;
+                            var4 = var7.isPremium;
+                            var10 = var7.iconSource;
+                            if(!(var6 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                            var7 = _closure1_slot0;
+                            var12 = _closure1_slot2;
+                            var5 = 19;
+                            var5 = var12[var5];
+                            var11 = var7.bind(var3)(var5);
+                            var9 = var11.setAppIcon;
+                            var5 = 22;
+                            var5 = var12[var5];
+                            var5 = var7.bind(var3)(var5);
+                            var5 = var5.FreemiumAppIconIds;
+                            var7 = var5.DEFAULT;
+                            var5 = _closure2_slot0;
+                            var13 = var8 == var5;
+                            var5 = undefined;
+                            if(var13) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                            var12 = _closure2_slot0;
+                            var5 = var12.premiumType;
+case 8:
+                            var5 = var9.bind(var11)(var7, var5);
+                            SaveGenerator(address=143);
+case 10:
+                            return var5;
+case 11:
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                            if(!var7) { _fun0002_ip = 4; continue _fun0002 }
+case 12:
+                            return var5;
+case 6:
                             var5 = _closure2_slot1;
                             if(!(var5 !== var6)) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
-                            if(!var4) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+case 13:
+                            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                             var4 = _closure2_slot2;
-                            if(var4) { _fun0002_ip = 7; continue _fun0002 }
-case 9:
+                            if(var4) { _fun0002_ip = 14; continue _fun0002 }
+case 16:
                             var5 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var4 = 22;
+                            var4 = 23;
                             var4 = var9[var4];
                             var9 = var5.bind(var3)(var4);
                             var5 = var9.handleShowUpsellAlert;
@@ -284,7 +315,7 @@ case 9:
                             var4['imageSource'] = var10;
                             var4 = var5.bind(var9)(var4);
                             _fun0002_ip = 4; continue _fun0002;
-case 7:
+case 14:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var2 = 19;
@@ -294,21 +325,21 @@ case 7:
                             var2 = _closure2_slot0;
                             var8 = var8 == var2;
                             var2 = undefined;
-                            if(var8) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                            if(var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                             var7 = _closure2_slot0;
                             var2 = var7.premiumType;
-case 10:
+case 17:
                             var2 = var4.bind(var5)(var6, var2);
-                            SaveGenerator(address=191);
-case 12:
+                            SaveGenerator(address=293);
+case 19:
                             return var2;
-case 13:
+case 20:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 14; continue _fun0002 }
+                            if(var4) { _fun0002_ip = 21; continue _fun0002 }
 case 4:
                             return var3;
-case 14:
+case 21:
                             return var2;
 case 2:
                             return var1;
@@ -335,7 +366,7 @@ case 2:
             var2 = _closure1_slot12;
             var1 = {};
             var10 = _closure1_slot11;
-            var5 = 23;
+            var5 = 24;
             var5 = var17[var5];
             var5 = var9.bind(var4)(var5);
             var9 = var5.Form;
@@ -345,7 +376,7 @@ case 2:
             var14 = 'radiogroup';
             var12['accessibilityRole'] = var14;
             var15 = _closure1_slot1;
-            var14 = 24;
+            var14 = 25;
             var14 = var17[var14];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -358,11 +389,11 @@ case 2:
             var5 = new Array(2);
             var5[0] = var9;
             var6 = !var6;
-            if(!var6) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var6) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var10 = _closure1_slot11;
-            if(var7) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(var7) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var9 = _closure1_slot4;
             var7 = {};
             var11 = var11.upsellButtonContainer;
@@ -372,18 +403,18 @@ case 18:
             var11 = var10.bind(var4)(var12, var11);
             var7['children'] = var11;
             var7 = var10.bind(var4)(var9, var7);
-            _fun0001_ip = 19; continue _fun0001;
-case 17:
+            _fun0001_ip = 26; continue _fun0001;
+case 24:
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var8 = 25;
+            var8 = 26;
             var8 = var11[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
             var7 = var10.bind(var4)(var9, var8);
-case 19:
+case 26:
             var6 = var7;
-case 15:
+case 22:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -391,7 +422,7 @@ case 15:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 26;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

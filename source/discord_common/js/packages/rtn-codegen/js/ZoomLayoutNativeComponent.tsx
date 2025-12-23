@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5 = var5.bind(var9)(var10, var2);
     var2 = {};
-    var9 = function zoomTo(arg1, arg2, arg3) {
+    var9 = function zoomTo(arg1, arg2, arg3, arg4, arg5) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 2;
@@ -53,18 +53,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var6 = var3.bind(var1)(var2);
         var5 = var6.dispatchCommand;
-        var4 = new Array(2);
+        var4 = new Array(4);
         var2 = arg2;
         var4[0] = var2;
         var2 = arg3;
         var4[1] = var2;
+        var2 = arg4;
+        var4[2] = var2;
+        var2 = arg5;
+        var4[3] = var2;
         var3 = arg1;
         var2 = 'zoomTo';
         var2 = var5.bind(var6)(var3, var2, var4);
         return var1;
     };
     var2['zoomTo'] = var9;
-    var6 = function unzoom(arg1) {
+    var6 = function unzoom(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 2;
@@ -72,10 +76,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var6 = var3.bind(var1)(var2);
         var5 = var6.dispatchCommand;
-        var4 = arg1;
-        var3 = 'unzoom';
-        var2 = new Array(0);
-        var2 = var5.bind(var6)(var4, var3, var2);
+        var4 = new Array(1);
+        var2 = arg2;
+        var4[0] = var2;
+        var3 = arg1;
+        var2 = 'unzoom';
+        var2 = var5.bind(var6)(var3, var2, var4);
         return var1;
     };
     var2['unzoom'] = var6;

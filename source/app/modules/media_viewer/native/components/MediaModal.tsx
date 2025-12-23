@@ -843,7 +843,7 @@ case 39:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['initialIndex'] = var12;
-            var1['origin'] = var11;
+            var1['originLayout'] = var11;
             var1['swipeVelocityThreshold'] = var10;
             var1['onClose'] = var9;
             var1['onLongPress'] = var8;

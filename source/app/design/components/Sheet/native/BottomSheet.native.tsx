@@ -894,7 +894,7 @@ case 0:
                     var2 = var2.ANIMATION_SOURCE;
                     var4 = var2.KEYBOARD;
                     var2 = arg5;
-                    if(!(var2 !== var4)) { _fun0012_ip = 6; continue _fun0012 }
+                    if(!(var2 !== var4)) { _fun0012_ip = 7; continue _fun0012 }
 case 48:
                     var2 = -1;
                     if(!(var2 === var3)) { _fun0012_ip = 60; continue _fun0012 }
@@ -908,22 +908,22 @@ case 61:
                     var6['current'] = var5;
                     var4 = _closure2_slot6;
                     var4 = var4.bind(var1)();
-                    _fun0012_ip = 6; continue _fun0012;
+                    _fun0012_ip = 7; continue _fun0012;
 case 60:
-                    if(!(var3 > var2)) { _fun0012_ip = 6; continue _fun0012 }
+                    if(!(var3 > var2)) { _fun0012_ip = 7; continue _fun0012 }
 case 62:
                     var3 = _closure2_slot11;
                     var3 = var3.current;
-                    if(!var3) { _fun0012_ip = 6; continue _fun0012 }
+                    if(!var3) { _fun0012_ip = 7; continue _fun0012 }
 case 63:
                     var2 = _closure2_slot9;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0012_ip = 6; continue _fun0012 }
+                    if(!(var2 != var3)) { _fun0012_ip = 7; continue _fun0012 }
 case 64:
                     var2 = var3.forceClose;
                     var2 = var2.bind(var3)();
-case 6:
+case 7:
                     return var1;
                 }
             };

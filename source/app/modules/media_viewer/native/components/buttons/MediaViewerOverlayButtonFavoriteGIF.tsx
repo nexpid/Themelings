@@ -1,4 +1,4 @@
-// app/modules/media_viewer/native/components/GIFFavButton.tsx
+// app/modules/media_viewer/native/components/buttons/MediaViewerOverlayButtonFavoriteGIF.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -209,12 +209,11 @@ case 14:
             if(!var2) { _fun0001_ip = 15; continue _fun0001 }
 case 13:
             var4 = _closure1_slot4;
-            var3 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 10;
             var2 = var8[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.MediaOverlayIconButton;
+            var3 = var3.bind(var5)(var2);
             var2 = {};
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -277,7 +276,7 @@ case 15:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_viewer/native/components/GIFFavButton.tsx';
+    var4 = 'modules/media_viewer/native/components/buttons/MediaViewerOverlayButtonFavoriteGIF.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

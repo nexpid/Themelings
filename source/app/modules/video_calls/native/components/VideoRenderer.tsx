@@ -362,32 +362,32 @@ case 8:
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var5 = 7;
-                    var3 = var1[var5];
+                    var4 = 7;
+                    var3 = var1[var4];
                     var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.isAndroid;
-                    var3 = var3.bind(var4)();
+                    var5 = var5.bind(var1)(var3);
+                    var3 = var5.isAndroid;
+                    var3 = var3.bind(var5)();
                     if(var3) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-                    var4 = _closure2_slot11;
-                    var6 = var4.current;
-                    var4 = null;
-                    if(!(var4 != var6)) { _fun0003_ip = 31; continue _fun0003 }
+                    var5 = _closure2_slot11;
+                    var6 = var5.current;
+                    var5 = null;
+                    if(!(var5 != var6)) { _fun0003_ip = 31; continue _fun0003 }
 case 33:
-                    var4 = _closure2_slot5;
+                    var5 = _closure2_slot5;
                     var6 = 0;
-                    if(!(var6 !== var4)) { _fun0003_ip = 31; continue _fun0003 }
+                    if(!(var6 !== var5)) { _fun0003_ip = 31; continue _fun0003 }
 case 34:
-                    var4 = _closure2_slot7;
-                    if(!(var6 !== var4)) { _fun0003_ip = 31; continue _fun0003 }
+                    var5 = _closure2_slot7;
+                    if(!(var6 !== var5)) { _fun0003_ip = 31; continue _fun0003 }
 case 6:
-                    var4 = _closure2_slot11;
-                    var7 = var4.current;
+                    var5 = _closure2_slot11;
+                    var7 = var5.current;
                     var6 = var7.scrollResponderZoomTo;
-                    var4 = {'x': 0, 'y': 0, 'width': null, 'height': null, 'animated': false};
+                    var5 = {'x': 0, 'y': 0, 'width': null, 'height': null, 'animated': false};
                     var8 = global;
                     var12 = var8.Math;
                     var11 = var12.min;
@@ -396,7 +396,7 @@ case 6:
                     var10 = var10 * var9;
                     var9 = _closure2_slot1;
                     var9 = var11.bind(var12)(var10, var9);
-                    var4['width'] = var9;
+                    var5['width'] = var9;
                     var11 = var8.Math;
                     var10 = var11.min;
                     var9 = _closure2_slot7;
@@ -404,38 +404,36 @@ case 6:
                     var9 = var9 * var8;
                     var8 = _closure2_slot3;
                     var8 = var10.bind(var11)(var9, var8);
-                    var4['height'] = var8;
-                    var4 = var6.bind(var7)(var4);
+                    var5['height'] = var8;
+                    var5 = var6.bind(var7)(var5);
                     var3 = _closure2_slot11;
                     var6 = var3.current;
-                    var4 = var6.scrollTo;
+                    var5 = var6.scrollTo;
                     var3 = {'x': 0, 'y': 0, 'animated': false};
-                    var3 = var4.bind(var6)(var3);
+                    var3 = var5.bind(var6)(var3);
                     _fun0003_ip = 35; continue _fun0003;
 case 31:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.isAndroid;
-                    var3 = var3.bind(var4)();
-                    if(!var3) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
-                    var4 = _closure2_slot12;
-                    var5 = var4.current;
-                    var4 = null;
-                    var3 = var4 != var5;
-case 36:
-                    if(!var3) { _fun0003_ip = 35; continue _fun0003 }
-case 38:
                     var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var2 = 8;
-                    var2 = var4[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.unzoom;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var4];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.isAndroid;
+                    var2 = var2.bind(var3)();
+                    if(!var2) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
                     var2 = _closure2_slot12;
-                    var2 = var2.current;
+                    var4 = var2.current;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0003_ip = 35; continue _fun0003 }
+case 37:
+                    var3 = _closure2_slot12;
+                    var4 = var3.current;
+                    if(!(var2 != var4)) { _fun0003_ip = 35; continue _fun0003 }
+case 38:
+                    var3 = var4.unzoom;
+                    var2 = {};
+                    var5 = false;
+                    var2['animated'] = var5;
                     var2 = var3.bind(var4)(var2);
 case 35:
                     return var1;
@@ -553,14 +551,14 @@ case 40:
             var3 = _closure1_slot9;
             var27 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var28[var1];
             var2 = var27.bind(var5)(var1);
             var1 = {};
             var1['animate'] = var18;
             var12 = var16.spinner;
             var1['style'] = var12;
-            var12 = 10;
+            var12 = 9;
             var12 = var28[var12];
             var12 = var27.bind(var5)(var12);
             var12 = var12.unsafe_rawColors;
@@ -570,7 +568,7 @@ case 40:
 case 39:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var12 = var3[var1];
             var27 = var2.bind(var5)(var12);
             var12 = var27.useStore;
@@ -704,7 +702,7 @@ case 41:
             var8 = _closure1_slot9;
             var18 = _closure1_slot1;
             var23 = _closure1_slot2;
-            var6 = 8;
+            var6 = 11;
             var6 = var23[var6];
             var7 = var18.bind(var5)(var6);
             var6 = {};

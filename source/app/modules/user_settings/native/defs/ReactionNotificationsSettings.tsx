@@ -4,12 +4,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var7;
+    var _closure1_slot1 = var7;
     var2 = function onChange(arg1) {
         var6 = _closure1_slot0;
-        var7 = _closure1_slot2;
+        var7 = _closure1_slot1;
         var1 = 1;
         var2 = var7[var1];
         var1 = undefined;
@@ -41,14 +39,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var6.bind(var1)(var4);
     var10 = var4.MobileSetting;
-    var4 = 6;
+    var4 = 5;
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
     var5 = var8.createRadio;
     var4 = {};
     var11 = function title() {
         var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
+        var6 = _closure1_slot1;
         var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
@@ -72,10 +70,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.useSetting;
     var4['useValue'] = var10;
     var4['onValueChange'] = var2;
-    var10 = function useOptions() {
+    var9 = function useOptions() {
         var2 = {};
         var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
+        var6 = _closure1_slot1;
         var7 = 3;
         var1 = var6[var7];
         var4 = undefined;
@@ -132,25 +130,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[2] = var2;
         return var1;
     };
-    var4['useOptions'] = var10;
-    var9 = function useExperiment() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useExperiment;
-        var1 = {};
-        var4 = 'tabsV2Settings';
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enableInAppNotifications;
-        return var1;
-    };
-    var4['usePredicate'] = var9;
+    var4['useOptions'] = var9;
     var4 = var5.bind(var8)(var4);
-    var5 = 7;
+    var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

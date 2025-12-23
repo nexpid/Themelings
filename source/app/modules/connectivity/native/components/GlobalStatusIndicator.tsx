@@ -171,55 +171,25 @@ case 11:
                     var2 = var4.bind(var5)(var2);
                     if(var2) { _fun0003_ip = 12; continue _fun0003 }
 case 10:
-                    var4 = _closure2_slot3;
-                    var2 = var4.isPrivate;
-                    var4 = var2.bind(var4)();
-                    if(var4) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                    var5 = _closure2_slot3;
-                    var4 = var5.isGuildStageVoice;
-                    var4 = var4.bind(var5)();
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    if(var4) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-                    var4 = 11;
-                    var7 = var5[var4];
-                    var4 = undefined;
-                    var9 = var6.bind(var4)(var7);
-                    var8 = var9.openGuildVoiceModal;
-                    var7 = _closure2_slot3;
-                    var4 = 'RTC Panel';
-                    var4 = var8.bind(var9)(var7, var4);
-                    _fun0003_ip = 17; continue _fun0003;
-case 15:
-                    var4 = 12;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var6 = var6.bind(var4)(var5);
-                    var5 = var6.openStageChannel;
-                    var4 = _closure2_slot3;
-                    var4 = var5.bind(var6)(var4);
-                    _fun0003_ip = 17; continue _fun0003;
-case 13:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 11;
                     var4 = var4[var2];
                     var2 = undefined;
-                    var5 = var5.bind(var2)(var4);
-                    var4 = var5.openChannelCallModal;
-                    var2 = _closure2_slot3;
-                    var2 = var4.bind(var5)(var2);
-                    _fun0003_ip = 17; continue _fun0003;
+                    var6 = var5.bind(var2)(var4);
+                    var5 = var6.navigateToVoiceChannel;
+                    var4 = _closure2_slot3;
+                    var2 = 'RTC Panel';
+                    var2 = var5.bind(var6)(var4, var2);
+                    _fun0003_ip = 13; continue _fun0003;
 case 12:
                     var4 = _closure2_slot4;
                     var2 = undefined;
                     var2 = var4.bind(var2)();
-case 17:
+case 13:
                     var2 = _closure2_slot0;
                     if(!(var3 != var2)) { _fun0003_ip = 8; continue _fun0003 }
-case 18:
+case 14:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
@@ -264,7 +234,7 @@ case 0:
                         var3 = _closure3_slot0;
                         var2 = null;
                         if(!(var2 != var3)) { _fun0004_ip = 2; continue _fun0004 }
-case 19:
+case 9:
                         var2 = _closure3_slot0;
                         var1 = var2.remove;
                         var1 = var1.bind(var2)();
@@ -281,18 +251,18 @@ case 2:
             var1 = {};
             var10 = var6 != var7;
             var9 = 'text';
-            if(!var10) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var10) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var9 = 'button';
-case 20:
+case 15:
             var1['accessibilityRole'] = var9;
             var7 = var6 != var7;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!var7) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var7 = 13;
+            var7 = 12;
             var9 = var12[var7];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -302,7 +272,7 @@ case 23:
             var7 = var7.t;
             var7 = var7.GaCMgX;
             var6 = var9.bind(var10)(var7);
-case 22:
+case 17:
             var1['accessibilityHint'] = var6;
             var1['onPress'] = var5;
             var7 = _closure1_slot12;
@@ -310,7 +280,7 @@ case 22:
             var5 = {};
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var8 = 14;
+            var8 = 13;
             var8 = var10[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -323,7 +293,7 @@ case 22:
         }
     };
     var _closure1_slot16 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -337,15 +307,15 @@ case 0:
             var _closure2_slot0 = var10;
             var8 = var2.showWhenParticipantOnScreen;
             var9 = undefined;
-            if(!(var8 === var9)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!(var8 === var9)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var8 = false;
-case 24:
+case 19:
             var5 = var2.forceHide;
-            if(!(var5 === var9)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+            if(!(var5 === var9)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var5 = false;
-case 26:
+case 21:
             var _closure2_slot1 = var5;
             var7 = var2.onPress;
             var _closure2_slot2 = var7;
@@ -354,7 +324,7 @@ case 26:
             var _closure2_slot5 = var9;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 16;
+            var3 = 15;
             var3 = var11[var3];
             var4 = var6.bind(var9)(var3);
             var3 = var4.useGlobalStatusIndicatorState;
@@ -391,16 +361,16 @@ case 26:
             var6 = var8.height;
             _closure2_slot3 = var6;
             var8 = var8.isVisible;
-            if(!var8) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+            if(!var8) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var8 = !var5;
-case 28:
+case 23:
             _closure2_slot4 = var8;
             var9 = var4;
-            if(var9) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+            if(var9) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var9 = var3;
-case 30:
+case 25:
             _closure2_slot5 = var9;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
@@ -423,10 +393,10 @@ case 0:
                     var11 = _closure2_slot5;
                     var1 = undefined;
                     var9 = undefined;
-                    if(!var11) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+                    if(!var11) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
                     var9 = 'no-hide-descendants';
-case 32:
+case 27:
                     var5['importantForAccessibility'] = var9;
                     var9 = _closure2_slot5;
                     var5['accessibilityElementsHidden'] = var9;
@@ -437,10 +407,10 @@ case 32:
                     var11 = {};
                     var13 = _closure2_slot1;
                     var12 = 0;
-                    if(var13) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+                    if(var13) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                     var12 = _closure2_slot3;
-case 34:
+case 29:
                     var11['marginTop'] = var12;
                     var12 = 'hidden';
                     var11['overflow'] = var12;
@@ -453,15 +423,15 @@ case 34:
                     var5[0] = var6;
                     var8 = _closure2_slot4;
                     var6 = null;
-                    if(!var8) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
+                    if(!var8) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
                     var9 = _closure1_slot12;
                     var8 = _closure1_slot16;
                     var7 = {};
                     var10 = _closure2_slot2;
                     var7['onPress'] = var10;
                     var6 = var9.bind(var1)(var8, var7);
-case 36:
+case 31:
                     var5[1] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
@@ -478,7 +448,7 @@ case 36:
         var _closure2_slot0 = var3;
         var6 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 15;
+        var1 = 14;
         var5 = var5[var1];
         var1 = undefined;
         var6 = var6.bind(var1)(var5);

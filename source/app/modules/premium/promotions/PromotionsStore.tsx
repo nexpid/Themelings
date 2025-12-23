@@ -515,10 +515,12 @@ case 30:
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.promotions;
+            var5 = var1.promotions;
             var2 = var1.consumedInboundPromotionId;
-            var3 = var4.forEach;
-            var1 = function(arg1) {
+            var3 = {};
+            _closure1_slot17 = var3;
+            var4 = var5.forEach;
+            var3 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var3 = arg1;
@@ -598,11 +600,11 @@ case 36:
                     return var1;
                 }
             };
-            var1 = var3.bind(var4)(var1);
-            var1 = global;
-            var3 = var1.Date;
-            var1 = var3.now;
-            var3 = var1.bind(var3)();
+            var3 = var4.bind(var5)(var3);
+            var3 = global;
+            var4 = var3.Date;
+            var3 = var4.now;
+            var3 = var3.bind(var4)();
             _closure1_slot15 = var3;
             var3 = false;
             _closure1_slot14 = var3;

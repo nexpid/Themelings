@@ -2838,7 +2838,7 @@ case 298:
                     var10 = var12.isResolvedUpload;
                     var8 = var4.file;
                     var8 = var10.bind(var12)(var8);
-                    if(!var8) { _fun0028_ip = 252; continue _fun0028 }
+                    if(!var8) { _fun0028_ip = 299; continue _fun0028 }
 case 206:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
@@ -2848,10 +2848,14 @@ case 206:
                     var8 = var4.file;
                     var8 = var8.videoCompressionQuality;
                     var10['videoCompressionQuality'] = var8;
+                    var10 = var2.uploadAnalytics;
+                    var8 = var4.file;
+                    var8 = var8.imageEncoderType;
+                    var10['imageEncoderType'] = var8;
                     var8 = var4.file;
                     var8 = var8.isImage;
-                    if(!var8) { _fun0028_ip = 164; continue _fun0028 }
-case 83:
+                    if(!var8) { _fun0028_ip = 300; continue _fun0028 }
+case 301:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.sourceWidth;
@@ -2860,11 +2864,11 @@ case 83:
                     var8 = var4.file;
                     var8 = var8.sourceHeight;
                     var10['sourceMediaHeight'] = var8;
-case 164:
+case 300:
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
-                    if(!(var13 !== var8)) { _fun0028_ip = 299; continue _fun0028 }
-case 300:
+                    if(!(var13 !== var8)) { _fun0028_ip = 302; continue _fun0028 }
+case 57:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
@@ -2905,11 +2909,11 @@ case 300:
                     var8 = var8.videoMetadata;
                     var8 = var8.sourceLevel;
                     var10['sourceVideoLevel'] = var8;
-case 299:
+case 302:
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
-                    if(!(var13 !== var8)) { _fun0028_ip = 301; continue _fun0028 }
-case 302:
+                    if(!(var13 !== var8)) { _fun0028_ip = 243; continue _fun0028 }
+case 229:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
@@ -2955,7 +2959,7 @@ case 303:
                     var8 = var8.encodingConfig;
                     var8 = var8.progressUpdateGranularity;
                     var10['progressUpdateGranularity'] = var8;
-case 301:
+case 243:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.psnr;
@@ -2976,16 +2980,16 @@ case 301:
                     var8 = var4.file;
                     var8 = var8.ssimMeasurementLatencyMs;
                     var10['ssimMeasurementLatencyMs'] = var8;
-case 252:
+case 299:
                     var2['filename'] = var11;
-                    if(!(var9 != var11)) { _fun0028_ip = 305; continue _fun0028 }
+                    if(!(var9 != var11)) { _fun0028_ip = 245; continue _fun0028 }
+case 305:
+                    if(!(var9 != var7)) { _fun0028_ip = 245; continue _fun0028 }
 case 306:
-                    if(!(var9 != var7)) { _fun0028_ip = 305; continue _fun0028 }
-case 307:
                     var8 = var4.file;
                     var8 = var8.type;
-                    if(!(var9 != var8)) { _fun0028_ip = 305; continue _fun0028 }
-case 308:
+                    if(!(var9 != var8)) { _fun0028_ip = 245; continue _fun0028 }
+case 307:
                     var10 = var11.split;
                     var8 = '.';
                     var10 = var10.bind(var11)(var8);
@@ -2993,28 +2997,28 @@ case 308:
                     var10 = var8.bind(var10)();
                     var8 = var9 == var10;
                     var12 = undefined;
-                    if(var8) { _fun0028_ip = 309; continue _fun0028 }
-case 310:
+                    if(var8) { _fun0028_ip = 308; continue _fun0028 }
+case 309:
                     var8 = var10.toLowerCase;
                     var12 = var8.bind(var10)();
-case 309:
+case 308:
                     var14 = 'image/jpeg';
                     var10 = 'jpg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0028_ip = 311; continue _fun0028 }
-case 312:
+                    if(!(var10 !== var12)) { _fun0028_ip = 310; continue _fun0028 }
+case 311:
                     var10 = 'jpeg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0028_ip = 311; continue _fun0028 }
-case 313:
+                    if(!(var10 !== var12)) { _fun0028_ip = 310; continue _fun0028 }
+case 312:
                     var10 = var4.file;
                     var8 = var10.type;
-case 311:
+case 310:
                     var10 = var2.uploadAnalytics;
                     var10['convertedMimeType'] = var8;
                     var21 = var4.fileSize;
-                    if(!(var9 == var21)) { _fun0028_ip = 314; continue _fun0028 }
-case 315:
+                    if(!(var9 == var21)) { _fun0028_ip = 313; continue _fun0028 }
+case 314:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var10 = 23;
@@ -3022,18 +3026,18 @@ case 315:
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getFileData;
                     var10 = var10.bind(var12)(var7);
-                    SaveGenerator(address=1240);
-case 316:
+                    SaveGenerator(address=1264);
+case 315:
                     return var10;
-case 270:
+case 316:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
                     if(var12) { _fun0028_ip = 317; continue _fun0028 }
 case 318:
                     var21 = var10.size;
-                    _fun0028_ip = 314; continue _fun0028;
+                    _fun0028_ip = 313; continue _fun0028;
 case 317:
                     return var10;
-case 314:
+case 313:
                     var2['postCompressionSize'] = var21;
                     var2['currentSize'] = var21;
                     if(!(var9 != var21)) { _fun0028_ip = 319; continue _fun0028 }
@@ -3087,7 +3091,7 @@ case 319:
                     var8 = new var33[var10](var32, var31);
                     var8 = var8 instanceof Object ? var8 : var9;
                     throw var8;
-case 305:
+case 245:
                     var12 = _closure1_slot16;
                     var9 = var12.error;
                     var15 = {};
@@ -3687,23 +3691,32 @@ case 158:
 case 332:
                 var2['image_compression_quality'] = var10;
                 var10 = var7.uploadAnalytics;
-                var10 = var10.videoCompressionQuality;
-                var11 = var9 != var10;
-                if(!var11) { _fun0036_ip = 333; continue _fun0036 }
-case 214:
-                var8 = var10;
+                var11 = var10.videoCompressionQuality;
+                var12 = var9 != var11;
+                var10 = var8;
+                if(!var12) { _fun0036_ip = 333; continue _fun0036 }
+case 334:
+                var10 = var11;
 case 333:
-                var2['video_compression_quality'] = var8;
+                var2['video_compression_quality'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.imageEncoderType;
+                var11 = var9 != var10;
+                if(!var11) { _fun0036_ip = 300; continue _fun0036 }
+case 335:
+                var8 = var10;
+case 300:
+                var2['image_encoder_type'] = var8;
                 var8 = var7.uploadAnalytics;
                 var8 = var8.convertedMimeType;
                 var8 = var9 != var8;
-                if(!var8) { _fun0036_ip = 334; continue _fun0036 }
-case 335:
+                if(!var8) { _fun0036_ip = 336; continue _fun0036 }
+case 337:
                 var10 = var7.mimeType;
                 var9 = var7.uploadAnalytics;
                 var9 = var9.convertedMimeType;
                 var8 = var10 !== var9;
-case 334:
+case 336:
                 var2['was_converted'] = var8;
                 var9 = var7.currentSize;
                 var8 = var7.preCompressionSize;
@@ -3799,10 +3812,10 @@ case 334:
                 var2['conversion_failure_reason'] = var8;
                 var8 = var7._libdiscoreEnabled;
                 var7 = 'httputils';
-                if(!var8) { _fun0036_ip = 336; continue _fun0036 }
-case 337:
+                if(!var8) { _fun0036_ip = 250; continue _fun0036 }
+case 255:
                 var7 = 'libdiscore';
-case 336:
+case 250:
                 var2['upload_http_client'] = var7;
                 var7 = _closure1_slot13;
                 var6 = var7.getType;
