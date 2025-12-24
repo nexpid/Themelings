@@ -1223,6 +1223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var7;
     var2['TelecomManager'] = var1;
     var1 = {};
     var8 = ['CHANNEL_DELETE', 'MESSAGE_CREATE', 'GUILD_DELETE'];

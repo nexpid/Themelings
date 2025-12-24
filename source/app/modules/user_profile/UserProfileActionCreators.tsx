@@ -63,9 +63,8 @@ case 6:
                     var7 = _closure1_slot2;
                     var2 = 6;
                     var2 = var7[var2];
-                    var2 = var6.bind(var5)(var2);
-                    var6 = var2.UseLegacyChatInput;
-                    var2 = var6.getSetting;
+                    var6 = var6.bind(var5)(var2);
+                    var2 = var6.getShouldConvertBioEmoji;
                     var6 = var2.bind(var6)();
                     var2 = var10;
                     var2 = var2.bio;
@@ -127,7 +126,7 @@ case 14:
                     var10 = false;
                     var2['rejectWithError'] = var10;
                     var2 = var6.bind(var7)(var2);
-                    SaveGenerator(address=326);
+                    SaveGenerator(address=320);
 case 15:
                     return var2;
 case 16:
@@ -263,19 +262,19 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 23; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 14; continue _fun0002 }
 case 3:
                     var2 = _closure1_slot5;
                     var3 = var2.applicationWidgetApplicationConfigs;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+                    if(!(var2 != var3)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
                     var2 = _closure1_slot5;
                     var2 = var2.applicationWidgetApplicationConfigs;
                     var3 = var2.length;
                     var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0002_ip = 26; continue _fun0002 }
-case 24:
+                    if(!(!(var3 > var2))) { _fun0002_ip = 25; continue _fun0002 }
+case 23:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var3 = 8;
@@ -287,7 +286,7 @@ case 24:
                     var8 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_START';
                     var2['type'] = var8;
                     var2 = var4.bind(var7)(var2);
-case 27: // try_start_0
+case 26: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 9;
@@ -303,12 +302,12 @@ case 27: // try_start_0
                     var2['rejectWithError'] = var8;
                     var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=158);
-case 28:
+case 27:
                     return var2;
-case 29:
+case 28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+                    if(var4) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var3];
@@ -321,11 +320,11 @@ case 31:
                     var9 = var9.application_configs;
                     var4['applicationConfigs'] = var9;
                     var4 = var7.bind(var8)(var4);
-case 32: // try_end0
-                    _fun0002_ip = 26; continue _fun0002;
-case 30:
+case 31: // try_end0
+                    _fun0002_ip = 25; continue _fun0002;
+case 29:
                     return var2;
-case 33: // catch_target0
+case 32: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -342,10 +341,10 @@ case 33: // catch_target0
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var2);
                     throw var2;
-case 26:
+case 25:
                     var2 = undefined;
                     return var2;
-case 23:
+case 14:
                     return var1;
                 }
             };
@@ -447,12 +446,12 @@ case 0:
             var6 = var3 == var4;
             var1 = undefined;
             var5 = undefined;
-            if(var6) { _fun0003_ip = 34; continue _fun0003 }
-case 25:
+            if(var6) { _fun0003_ip = 33; continue _fun0003 }
+case 24:
             var5 = var4.id;
-case 34:
-            if(!(var3 != var5)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 33:
+            if(!(var3 != var5)) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 8;
@@ -468,7 +467,7 @@ case 36:
             var2['ttlInSeconds'] = var6;
             var2['userId'] = var5;
             var2 = var3.bind(var4)(var2);
-case 35:
+case 34:
             return var1;
         }
     };
@@ -496,21 +495,21 @@ case 0:
             var5 = var3 == var4;
             var1 = undefined;
             var6 = undefined;
-            if(var5) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var5) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var7 = var4.startsWith;
             var5 = 'https:';
             var6 = var7.bind(var4)(var5);
-case 37:
+case 36:
             var5 = true;
-            if(!(var5 !== var6)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            if(!(var3 != var4)) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+            if(!(var5 !== var6)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+            if(!(var3 != var4)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var3 = _closure1_slot13;
             var3 = var3.bind(var1)(var4);
-            _fun0004_ip = 41; continue _fun0004;
-case 39:
+            _fun0004_ip = 40; continue _fun0004;
+case 38:
             var3 = global;
             var3 = var3.fetch;
             var5 = var3.bind(var1)(var4);
@@ -545,7 +544,7 @@ case 39:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 41:
+case 40:
             return var1;
         }
     };

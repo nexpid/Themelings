@@ -2267,7 +2267,7 @@ case 224:
 case 227:
                     var25 = var6.handleError;
                     var13 = _closure1_slot14;
-                    var13 = var13.INVALID_FILE_ASSET;
+                    var13 = var13.ENTITY_EMPTY;
                     var13 = var25.bind(var6)(var13);
                     _fun0024_ip = 196; continue _fun0024;
 case 226:

@@ -1101,7 +1101,7 @@ case 75:
             return var1;
         };
         var6['value'] = var2;
-        var2 = new Array(80);
+        var2 = new Array(76);
         var2[0] = var6;
         var6 = {};
         var7 = 'interact';
@@ -2667,25 +2667,6 @@ case 184:
         var6['value'] = var8;
         var2[21] = var6;
         var6 = {};
-        var8 = 'getSupportedVideoCodecs';
-        var6['key'] = var8;
-        var8 = function value(arg1) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 15;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.getVoiceEngine;
-            var4 = var2.bind(var3)();
-            var3 = var4.getSupportedVideoCodecs;
-            var2 = arg1;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var6['value'] = var8;
-        var2[22] = var6;
-        var6 = {};
         var8 = 'getCodecCapabilities';
         var6['key'] = var8;
         var8 = function value(arg1) {
@@ -2703,7 +2684,7 @@ case 184:
             return var1;
         };
         var6['value'] = var8;
-        var2[23] = var6;
+        var2[22] = var6;
         var6 = {};
         var8 = 'setGoLiveSource';
         var6['key'] = var8;
@@ -2778,7 +2759,7 @@ case 215:
             }
         };
         var6['value'] = var8;
-        var2[24] = var6;
+        var2[23] = var6;
         var6 = {};
         var8 = 'setClipsSource';
         var6['key'] = var8;
@@ -2976,7 +2957,7 @@ case 217:
             }
         };
         var6['value'] = var8;
-        var2[25] = var6;
+        var2[24] = var6;
         var6 = {};
         var8 = 'setClipsQualitySettings';
         var6['key'] = var8;
@@ -3007,7 +2988,7 @@ case 4:
             }
         };
         var6['value'] = var8;
-        var2[26] = var6;
+        var2[25] = var6;
         var6 = {};
         var8 = 'setSoundshareSource';
         var6['key'] = var8;
@@ -3050,7 +3031,7 @@ case 236:
             return var1;
         };
         var6['value'] = var8;
-        var2[27] = var6;
+        var2[26] = var6;
         var6 = {};
         var8 = 'getDesktopSource';
         var6['key'] = var8;
@@ -3069,7 +3050,7 @@ case 236:
             return var1;
         };
         var6['value'] = var8;
-        var2[28] = var6;
+        var2[27] = var6;
         var6 = {};
         var8 = 'getScreenPreviews';
         var6['key'] = var8;
@@ -3146,7 +3127,7 @@ case 237:
             return var1;
         };
         var6['value'] = var8;
-        var2[29] = var6;
+        var2[28] = var6;
         var6 = {};
         var8 = 'setClipBufferLength';
         var6['key'] = var8;
@@ -3173,7 +3154,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[30] = var6;
+        var2[29] = var6;
         var6 = {};
         var8 = 'setClipsMLPipelineEnabled';
         var6['key'] = var8;
@@ -3200,7 +3181,7 @@ case 189:
             }
         };
         var6['value'] = var8;
-        var2[31] = var6;
+        var2[30] = var6;
         var6 = {};
         var8 = 'setClipsMLPipelineTypeEnabled';
         var6['key'] = var8;
@@ -3228,7 +3209,7 @@ case 183:
             }
         };
         var6['value'] = var8;
-        var2[32] = var6;
+        var2[31] = var6;
         var6 = {};
         var8 = 'saveClip';
         var6['key'] = var8;
@@ -3314,7 +3295,7 @@ case 240:
             }
         };
         var6['value'] = var8;
-        var2[33] = var6;
+        var2[32] = var6;
         var6 = {};
         var8 = 'saveClipForUser';
         var6['key'] = var8;
@@ -3400,7 +3381,7 @@ case 242:
             }
         };
         var6['value'] = var8;
-        var2[34] = var6;
+        var2[33] = var6;
         var6 = {};
         var8 = 'updateClipMetadata';
         var6['key'] = var8;
@@ -3455,7 +3436,7 @@ case 93:
             }
         };
         var6['value'] = var8;
-        var2[35] = var6;
+        var2[34] = var6;
         var6 = {};
         var8 = 'saveScreenshot';
         var6['key'] = var8;
@@ -3552,7 +3533,7 @@ case 22:
             }
         };
         var6['value'] = var8;
-        var2[36] = var6;
+        var2[35] = var6;
         var6 = {};
         var8 = 'exportClip';
         var6['key'] = var8;
@@ -3625,7 +3606,7 @@ case 93:
             }
         };
         var6['value'] = var8;
-        var2[37] = var6;
+        var2[36] = var6;
         var6 = {};
         var8 = 'getWindowPreviews';
         var6['key'] = var8;
@@ -3686,7 +3667,7 @@ case 237:
             return var1;
         };
         var6['value'] = var8;
-        var2[38] = var6;
+        var2[37] = var6;
         var6 = {};
         var8 = 'setAudioSubsystem';
         var6['key'] = var8;
@@ -3732,7 +3713,7 @@ case 245:
             }
         };
         var6['value'] = var8;
-        var2[39] = var6;
+        var2[38] = var6;
         var6 = {};
         var8 = 'setOffloadAdmControls';
         var6['key'] = var8;
@@ -3759,7 +3740,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[40] = var6;
+        var2[39] = var6;
         var6 = {};
         var8 = 'queueAudioSubsystem';
         var6['key'] = var8;
@@ -3791,7 +3772,7 @@ case 239:
             }
         };
         var6['value'] = var8;
-        var2[41] = var6;
+        var2[40] = var6;
         var6 = {};
         var8 = 'getAudioSubsystem';
         var6['key'] = var8;
@@ -3801,7 +3782,7 @@ case 239:
             return var1;
         };
         var6['value'] = var8;
-        var2[42] = var6;
+        var2[41] = var6;
         var6 = {};
         var8 = 'getAudioLayer';
         var6['key'] = var8;
@@ -3811,7 +3792,7 @@ case 239:
             return var1;
         };
         var6['value'] = var8;
-        var2[43] = var6;
+        var2[42] = var6;
         var6 = {};
         var8 = 'getDebugLogging';
         var6['key'] = var8;
@@ -3842,7 +3823,7 @@ case 247:
             }
         };
         var6['value'] = var8;
-        var2[44] = var6;
+        var2[43] = var6;
         var6 = {};
         var8 = 'setDebugLogging';
         var6['key'] = var8;
@@ -3873,7 +3854,7 @@ case 248:
             }
         };
         var6['value'] = var8;
-        var2[45] = var6;
+        var2[44] = var6;
         var6 = {};
         var8 = 'setLoopback';
         var6['key'] = var8;
@@ -4005,7 +3986,7 @@ case 259:
             }
         };
         var6['value'] = var8;
-        var2[46] = var6;
+        var2[45] = var6;
         var6 = {};
         var8 = 'setMaybePreprocessMute';
         var6['key'] = var8;
@@ -4032,7 +4013,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[47] = var6;
+        var2[46] = var6;
         var6 = {};
         var8 = 'getLoopback';
         var6['key'] = var8;
@@ -4041,70 +4022,7 @@ case 184:
             return var1;
         };
         var6['value'] = var8;
-        var2[48] = var6;
-        var6 = {};
-        var8 = 'setH264Enabled';
-        var6['key'] = var8;
-        var8 = function value(arg1) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 15;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.getVoiceEngine;
-            var4 = var2.bind(var3)();
-            var3 = var4.setTransportOptions;
-            var2 = {};
-            var5 = arg1;
-            var2['h264Enabled'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var6['value'] = var8;
-        var2[49] = var6;
-        var6 = {};
-        var8 = 'setAv1Enabled';
-        var6['key'] = var8;
-        var8 = function value(arg1) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 15;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.getVoiceEngine;
-            var4 = var2.bind(var3)();
-            var3 = var4.setTransportOptions;
-            var2 = {};
-            var5 = arg1;
-            var2['av1Enabled'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var6['value'] = var8;
-        var2[50] = var6;
-        var6 = {};
-        var8 = 'setH265Enabled';
-        var6['key'] = var8;
-        var8 = function value(arg1) {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 15;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.getVoiceEngine;
-            var4 = var2.bind(var3)();
-            var3 = var4.setTransportOptions;
-            var2 = {};
-            var5 = arg1;
-            var2['h265Enabled'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var6['value'] = var8;
-        var2[51] = var6;
+        var2[47] = var6;
         var6 = {};
         var8 = 'getCodecSurvey';
         var6['key'] = var8;
@@ -4180,7 +4098,7 @@ case 18:
             }
         };
         var6['value'] = var8;
-        var2[52] = var6;
+        var2[48] = var6;
         var6 = {};
         var8 = 'writeAudioDebugState';
         var6['key'] = var8;
@@ -4229,7 +4147,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[53] = var6;
+        var2[49] = var6;
         var6 = {};
         var8 = 'startAecDump';
         var6['key'] = var8;
@@ -4238,7 +4156,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[54] = var6;
+        var2[50] = var6;
         var6 = {};
         var8 = 'stopAecDump';
         var6['key'] = var8;
@@ -4247,7 +4165,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[55] = var6;
+        var2[51] = var6;
         var6 = {};
         var8 = 'setAecDump';
         var6['key'] = var8;
@@ -4274,7 +4192,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[56] = var6;
+        var2[52] = var6;
         var6 = {};
         var8 = 'startRecordingRawSamples';
         var6['key'] = var8;
@@ -4301,7 +4219,7 @@ case 189:
             }
         };
         var6['value'] = var8;
-        var2[57] = var6;
+        var2[53] = var6;
         var6 = {};
         var8 = 'stopRecordingRawSamples';
         var6['key'] = var8;
@@ -4327,7 +4245,7 @@ case 250:
             }
         };
         var6['value'] = var8;
-        var2[58] = var6;
+        var2[54] = var6;
         var6 = {};
         var8 = 'rankRtcRegions';
         var6['key'] = var8;
@@ -4386,7 +4304,7 @@ case 264:
             return var1;
         };
         var6['value'] = var8;
-        var2[59] = var6;
+        var2[55] = var6;
         var6 = {};
         var8 = 'createReplayConnection';
         var6['key'] = var8;
@@ -4467,7 +4385,7 @@ case 265:
             }
         };
         var6['value'] = var8;
-        var2[60] = var6;
+        var2[56] = var6;
         var6 = {};
         var8 = 'setOnVideoContainerResized';
         var6['key'] = var8;
@@ -4483,7 +4401,7 @@ case 265:
             return var1;
         };
         var6['value'] = var8;
-        var2[61] = var6;
+        var2[57] = var6;
         var6 = {};
         var8 = 'setMaxSyncDelayOverride';
         var6['key'] = var8;
@@ -4509,7 +4427,7 @@ case 28:
             }
         };
         var6['value'] = var8;
-        var2[62] = var6;
+        var2[58] = var6;
         var6 = {};
         var8 = 'applyMediaFilterSettings';
         var6['key'] = var8;
@@ -4562,7 +4480,7 @@ case 266:
             }
         };
         var6['value'] = var8;
-        var2[63] = var6;
+        var2[59] = var6;
         var6 = {};
         var8 = 'startLocalAudioRecording';
         var6['key'] = var8;
@@ -4642,7 +4560,7 @@ case 267:
             return var1;
         };
         var6['value'] = var8;
-        var2[64] = var6;
+        var2[60] = var6;
         var6 = {};
         var8 = 'stopLocalAudioRecording';
         var6['key'] = var8;
@@ -4713,7 +4631,7 @@ case 271:
             }
         };
         var6['value'] = var8;
-        var2[65] = var6;
+        var2[61] = var6;
         var6 = {};
         var8 = 'setHasFullbandPerformance';
         var6['key'] = var8;
@@ -4740,7 +4658,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[66] = var6;
+        var2[62] = var6;
         var6 = {};
         var8 = 'getSupportedSecureFramesProtocolVersion';
         var6['key'] = var8;
@@ -4767,7 +4685,7 @@ case 28:
             }
         };
         var6['value'] = var8;
-        var2[67] = var6;
+        var2[63] = var6;
         var6 = {};
         var8 = 'getSupportedBandwidthEstimationExperiments';
         var6['key'] = var8;
@@ -4794,7 +4712,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[68] = var6;
+        var2[64] = var6;
         var6 = {};
         var8 = 'getMLSSigningKey';
         var6['key'] = var8;
@@ -4861,7 +4779,7 @@ case 274:
             return var1;
         };
         var6['value'] = var8;
-        var2[69] = var6;
+        var2[65] = var6;
         var6 = {};
         var8 = 'setSidechainCompression';
         var6['key'] = var8;
@@ -4888,7 +4806,7 @@ case 184:
             }
         };
         var6['value'] = var8;
-        var2[70] = var6;
+        var2[66] = var6;
         var6 = {};
         var8 = 'setSidechainCompressionStrength';
         var6['key'] = var8;
@@ -4927,7 +4845,7 @@ case 263:
             }
         };
         var6['value'] = var8;
-        var2[71] = var6;
+        var2[67] = var6;
         var6 = {};
         var8 = 'setNativeDesktopVideoSourcePickerActive';
         var6['key'] = var8;
@@ -4954,7 +4872,7 @@ case 189:
             }
         };
         var6['value'] = var8;
-        var2[72] = var6;
+        var2[68] = var6;
         var6 = {};
         var8 = 'presentNativeScreenSharePicker';
         var6['key'] = var8;
@@ -4987,7 +4905,7 @@ case 239:
             }
         };
         var6['value'] = var8;
-        var2[73] = var6;
+        var2[69] = var6;
         var6 = {};
         var8 = 'releaseNativeDesktopVideoSourcePickerStream';
         var6['key'] = var8;
@@ -5013,7 +4931,7 @@ case 250:
             }
         };
         var6['value'] = var8;
-        var2[74] = var6;
+        var2[70] = var6;
         var6 = {};
         var8 = 'getSystemMicrophoneMode';
         var6['key'] = var8;
@@ -5076,7 +4994,7 @@ case 201:
             return var1;
         };
         var6['value'] = var8;
-        var2[75] = var6;
+        var2[71] = var6;
         var6 = {};
         var8 = 'showSystemCaptureConfigurationUI';
         var6['key'] = var8;
@@ -5103,7 +5021,7 @@ case 189:
             }
         };
         var6['value'] = var8;
-        var2[76] = var6;
+        var2[72] = var6;
         var6 = {};
         var8 = 'fetchAsyncResources';
         var6['key'] = var8;
@@ -5115,7 +5033,7 @@ case 189:
             return var1;
         };
         var6['value'] = var8;
-        var2[77] = var6;
+        var2[73] = var6;
         var6 = {};
         var8 = 'watchdogTick';
         var6['key'] = var8;
@@ -5184,7 +5102,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[78] = var6;
+        var2[74] = var6;
         var6 = {};
         var8 = 'connectionsEmpty';
         var6['key'] = var8;
@@ -5197,7 +5115,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[79] = var6;
+        var2[75] = var6;
         var6 = {};
         var6['key'] = var7;
         var1 = function value() {

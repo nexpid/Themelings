@@ -48,9 +48,48 @@ case 3:
 case 5:
             var1 = _closure1_slot3;
             var1 = var1.ENTITY_EMPTY;
-            var1 = var2 === var1;
-            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var2 !== var1)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var1 = _closure1_slot3;
+            var1 = var1.INVALID_FILE_ASSET;
+            var1 = var2 === var1;
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var2 = 3;
+            var2 = var15[var2];
+            var14 = undefined;
+            var4 = var3.bind(var14)(var2);
+            var3 = var4.show;
+            var2 = {};
+            var13 = _closure1_slot0;
+            var10 = 4;
+            var11 = var15[var10];
+            var11 = var13.bind(var14)(var11);
+            var16 = var11.intl;
+            var12 = var16.string;
+            var11 = var15[var10];
+            var11 = var13.bind(var14)(var11);
+            var11 = var11.t;
+            var11 = var11.B3vFdU;
+            var11 = var12.bind(var16)(var11);
+            var2['title'] = var11;
+            var11 = var15[var10];
+            var11 = var13.bind(var14)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var10 = var15[var10];
+            var10 = var13.bind(var14)(var10);
+            var10 = var10.t;
+            var10 = var10.zMEjJg;
+            var10 = var11.bind(var12)(var10);
+            var2['body'] = var10;
+            var2 = var3.bind(var4)(var2);
+            var1 = true;
+case 8:
+            _fun0001_ip = 10; continue _fun0001;
+case 6:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
             var2 = 3;
@@ -83,8 +122,8 @@ case 7:
             var2['body'] = var10;
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 6:
-            _fun0001_ip = 8; continue _fun0001;
+case 10:
+            _fun0001_ip = 11; continue _fun0001;
 case 4:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -121,8 +160,8 @@ case 4:
             var2['body'] = var10;
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 8:
-            _fun0001_ip = 9; continue _fun0001;
+case 11:
+            _fun0001_ip = 12; continue _fun0001;
 case 2:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -143,14 +182,14 @@ case 2:
             var5 = null;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = var6.type;
-case 10:
+case 13:
             var2['errorReason'] = var5;
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 9:
+case 12:
             return var1;
         }
     };

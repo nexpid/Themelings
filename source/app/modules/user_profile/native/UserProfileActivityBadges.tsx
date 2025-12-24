@@ -295,8 +295,8 @@ case 25:
             var10 = var3.bind(var4)(var2);
             var2 = var1 == var10;
             var1 = null;
-            if(var2) { _fun0003_ip = 13; continue _fun0003 }
-case 27:
+            if(var2) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -332,7 +332,7 @@ case 27:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 13:
+case 27:
             return var1;
         }
     };
