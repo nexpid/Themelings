@@ -1019,7 +1019,7 @@
 { "file": "app/lib/SystemResources.tsx", "size": 15551 }
 { "file": "app/lib/SystemResponsiveness.tsx", "size": 12681 }
 { "file": "app/lib/TapSequencer.tsx", "size": 8444 }
-{ "file": "app/lib/uploader/CloudUpload.tsx", "size": 164905 }
+{ "file": "app/lib/uploader/CloudUpload.tsx", "size": 164571 }
 { "file": "app/lib/uploader/native/CloudUploader.tsx", "size": 44471 }
 { "file": "app/lib/uploader/native/CloudUploaderUtils.tsx", "size": 5697 }
 { "file": "app/lib/uploader/stageAttachmentFiles.tsx", "size": 12914 }
