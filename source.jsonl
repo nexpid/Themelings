@@ -2914,7 +2914,7 @@
 { "file": "app/modules/gateway/EntityVersionsManager.tsx", "size": 27079 }
 { "file": "app/modules/gateway/GatewayCapabilities.tsx", "size": 1310 }
 { "file": "app/modules/gateway/GatewayCompressionHandler.tsx", "size": 47067 }
-{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 58418 }
+{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 58420 }
 { "file": "app/modules/gateway/GatewayConnectSkippedExperiment.tsx", "size": 2108 }
 { "file": "app/modules/gateway/GatewayEncoding.tsx", "size": 4649 }
 { "file": "app/modules/gateway/GatewayEncodingErlpackEncoding.native.tsx", "size": 764 }
@@ -3217,7 +3217,7 @@
 { "file": "app/modules/guild_onboarding_home/useIsNewMember.tsx", "size": 4341 }
 { "file": "app/modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx", "size": 4079 }
 { "file": "app/modules/guild_onboarding_home/useResourceChannels.tsx", "size": 2126 }
-{ "file": "app/modules/guild_onboarding/DefaultChannelThresholdUtils.tsx", "size": 17360 }
+{ "file": "app/modules/guild_onboarding/DefaultChannelThresholdUtils.tsx", "size": 17361 }
 { "file": "app/modules/guild_onboarding/DefaultChannelUtils.tsx", "size": 5002 }
 { "file": "app/modules/guild_onboarding/doGuildOnboarding.native.tsx", "size": 16985 }
 { "file": "app/modules/guild_onboarding/doGuildOnboardingHelpers.tsx", "size": 3566 }
@@ -4588,7 +4588,7 @@
 { "file": "app/modules/message_previews/native/MessagePreviewMarkup.tsx", "size": 9383 }
 { "file": "app/modules/message_previews/PreviewData.tsx", "size": 19399 }
 { "file": "app/modules/message_previews/RemoteFetchData.tsx", "size": 16964 }
-{ "file": "app/modules/message_previews/useFormattedMessagePreview.tsx", "size": 47233 }
+{ "file": "app/modules/message_previews/useFormattedMessagePreview.tsx", "size": 47234 }
 { "file": "app/modules/message_previews/useLatestChannelMessage.tsx", "size": 4534 }
 { "file": "app/modules/message_request/hooks/useIsMessageRequest.tsx", "size": 3107 }
 { "file": "app/modules/message_request/hooks/useIsSpamMessageRequest.tsx", "size": 1618 }
