@@ -4880,7 +4880,7 @@
 { "file": "app/modules/native_menu/native/NativeMenuActionCreators.tsx", "size": 2660 }
 { "file": "app/modules/native_menu/native/NativeMenuPresenter.tsx", "size": 3509 }
 { "file": "app/modules/native_menu/native/NativeMenuStore.tsx", "size": 6481 }
-{ "file": "app/modules/native_on_demand/native/NativeOnDemandResourceManager.android.tsx", "size": 12268 }
+{ "file": "app/modules/native_on_demand/native/NativeOnDemandResourceManager.android.tsx", "size": 12412 }
 { "file": "app/modules/native_permissions/mobile/NativePermissionUtils.native.tsx", "size": 25814 }
 { "file": "app/modules/native_permissions/mobile/openPrivacySettings.native.tsx", "size": 1905 }
 { "file": "app/modules/native_permissions/mobile/PermissionsAlertModal.tsx", "size": 3063 }

@@ -250,25 +250,27 @@ case 0:
                                 var1 = undefined;
                                 var4 = var4.bind(var1)(var3);
                                 var3 = null;
-                                var3 = var3 == var4;
-                                var4 = undefined;
-                                if(var3) { _fun0004_ip = 18; continue _fun0004 }
+                                var4 = var3 == var4;
+                                var3 = undefined;
+                                if(var4) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
                                 var5 = _closure1_slot0;
-                                var3 = _closure1_slot1;
-                                var3 = var3[var6];
-                                var5 = var5.bind(var1)(var3);
-                                var3 = var5.isOnDemandResourcingAvailable;
-                                var4 = var3.bind(var5)();
+                                var4 = _closure1_slot1;
+                                var4 = var4[var6];
+                                var5 = var5.bind(var1)(var4);
+                                var4 = var5.isOnDemandResourcingAvailable;
+                                var3 = var4.bind(var5)();
 case 18:
-                                var3 = arg1;
-                                var3 = !var3;
+                                var4 = arg1;
+                                if(var4) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                                 if(!var3) { _fun0004_ip = 20; continue _fun0004 }
 case 5:
-                                var3 = var4;
+                                var4 = _closure3_slot0;
+                                var3 = false;
+                                var4['hasFetchedKrisp'] = var3;
+                                _fun0004_ip = 22; continue _fun0004;
 case 20:
-                                if(var3) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
                                 var3 = _closure1_slot0;
                                 var4 = _closure1_slot1;
                                 var2 = 9;
@@ -280,7 +282,7 @@ case 22:
                                 var6 = _closure4_slot1;
                                 var2['autoThreshold'] = var6;
                                 var2 = var4.bind(var5)(var3, var2);
-case 21:
+case 22:
                                 return var1;
                             }
                         };
