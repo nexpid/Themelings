@@ -3479,7 +3479,7 @@
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailRsvpSheet.tsx", "size": 22205 }
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailTypes.tsx", "size": 877 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventCard.tsx", "size": 11969 }
-{ "file": "app/modules/guild_scheduled_events/native/components/GuildEventCardComponents.tsx", "size": 86450 }
+{ "file": "app/modules/guild_scheduled_events/native/components/GuildEventCardComponents.tsx", "size": 86449 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventModalComponents.tsx", "size": 32444 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventRecurrence.tsx", "size": 13543 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventRecurrences.tsx", "size": 7500 }
