@@ -296,7 +296,7 @@ case 25:
                     var4 = _closure1_slot25;
                     var2 = undefined;
                     var2 = var4.bind(var2)();
-                    SaveGenerator(address=107);
+                    SaveGenerator(address=103);
 case 26:
                     return var2;
 case 27:
@@ -354,18 +354,18 @@ case 18:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 27; continue _fun0005 }
-case 29:
+                    if(var2) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                     var2 = _closure1_slot25;
                     var3 = undefined;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=24);
 case 3:
                     return var2;
-case 30:
+case 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                    if(var5) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                     var6 = _closure1_slot4;
                     var5 = var6.getMediaEngine;
                     var8 = var5.bind(var6)();
@@ -382,9 +382,9 @@ case 32:
                     var4 = _closure1_slot7;
                     var4 = var4.bind(var3)(var2);
                     return var3;
-case 31:
+case 32:
                     return var2;
-case 27:
+case 29:
                     return var1;
                 }
             };
@@ -478,8 +478,8 @@ case 0:
             var4 = var2.bind(var3)();
             var2 = var4.startTimeMillis;
             var5 = null;
-            if(!(var5 != var2)) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+            if(!(var5 != var2)) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
             var6 = _closure1_slot5;
             var3 = _closure1_slot13;
             var8 = _closure1_slot14;
@@ -494,7 +494,7 @@ case 34:
             var3 = var4.savedVoiceMessageUploadData;
             var3 = var5 == var3;
             if(!var3) { _fun0006_ip = 6; continue _fun0006 }
-case 35:
+case 36:
             var5 = global;
             var6 = var5.performance;
             var5 = var6.now;
@@ -504,11 +504,11 @@ case 35:
             var4 = _closure1_slot17;
             var3 = var5 >= var4;
 case 6:
-            if(!var3) { _fun0006_ip = 33; continue _fun0006 }
-case 36:
+            if(!var3) { _fun0006_ip = 34; continue _fun0006 }
+case 37:
             var1 = _closure1_slot27;
             var1 = var1.bind(var2)();
-case 33:
+case 34:
             var1 = undefined;
             return var1;
         }
@@ -552,7 +552,7 @@ case 0:
             var7 = arg3;
             var2 = null;
             if(!(var2 != var7)) { _fun0007_ip = 6; continue _fun0007 }
-case 37:
+case 38:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 10;
@@ -603,13 +603,13 @@ case 0:
             var5 = var5[var7];
             var5 = var6.bind(var1)(var5);
             var5 = var5.HapticFeedbackTypes;
-            if(var2) { _fun0008_ip = 38; continue _fun0008 }
-case 39:
+            if(var2) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
             var2 = var5.IMPACT_MEDIUM;
-            _fun0008_ip = 25; continue _fun0008;
-case 38:
+            _fun0008_ip = 41; continue _fun0008;
+case 39:
             var2 = var5.IMPACT_LIGHT;
-case 25:
+case 41:
             var2 = var3.bind(var4)(var2);
             return var1;
         }

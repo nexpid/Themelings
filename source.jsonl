@@ -1003,7 +1003,7 @@
 { "file": "app/lib/rateLimit.tsx", "size": 4135 }
 { "file": "app/lib/Record.tsx", "size": 13381 }
 { "file": "app/lib/RTCBandwidthMonitor.tsx", "size": 13043 }
-{ "file": "app/lib/RTCConnection.tsx", "size": 386594 }
+{ "file": "app/lib/RTCConnection.tsx", "size": 386592 }
 { "file": "app/lib/RTCConnectionEvent.tsx", "size": 1427 }
 { "file": "app/lib/RTCConnectionStats.tsx", "size": 9075 }
 { "file": "app/lib/RTCControlSocket.tsx", "size": 111755 }
@@ -3479,7 +3479,7 @@
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailRsvpSheet.tsx", "size": 22205 }
 { "file": "app/modules/guild_scheduled_events/native/components/event_detail/EventDetailTypes.tsx", "size": 877 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventCard.tsx", "size": 11969 }
-{ "file": "app/modules/guild_scheduled_events/native/components/GuildEventCardComponents.tsx", "size": 86449 }
+{ "file": "app/modules/guild_scheduled_events/native/components/GuildEventCardComponents.tsx", "size": 86450 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventModalComponents.tsx", "size": 32444 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventRecurrence.tsx", "size": 13543 }
 { "file": "app/modules/guild_scheduled_events/native/components/GuildEventRecurrences.tsx", "size": 7500 }
@@ -8444,7 +8444,7 @@
 { "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 31407 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineEvent.tsx", "size": 2517 }
 { "file": "discord_common/js/packages/media-engine/MediaSinkWantsLadder.tsx", "size": 20324 }
-{ "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 253814 }
+{ "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 253811 }
 { "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 9481 }
 { "file": "discord_common/js/packages/media-engine/native/Devices.tsx", "size": 10022 }
 { "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 197616 }
@@ -8726,7 +8726,7 @@
 { "file": "discord_common/js/shared/utils/BigFlagUtils.tsx", "size": 31682 }
 { "file": "discord_common/js/shared/utils/ClientModDetectionUtils.tsx", "size": 756 }
 { "file": "discord_common/js/shared/utils/ColorUtils.tsx", "size": 22259 }
-{ "file": "discord_common/js/shared/utils/ComponentDispatchUtils.tsx", "size": 17322 }
+{ "file": "discord_common/js/shared/utils/ComponentDispatchUtils.tsx", "size": 17321 }
 { "file": "discord_common/js/shared/utils/DOMUtils.tsx", "size": 9210 }
 { "file": "discord_common/js/shared/utils/FlagUtils.tsx", "size": 3273 }
 { "file": "discord_common/js/shared/utils/Future.tsx", "size": 1722 }
