@@ -1003,7 +1003,7 @@
 { "file": "app/lib/rateLimit.tsx", "size": 4135 }
 { "file": "app/lib/Record.tsx", "size": 13381 }
 { "file": "app/lib/RTCBandwidthMonitor.tsx", "size": 13043 }
-{ "file": "app/lib/RTCConnection.tsx", "size": 386592 }
+{ "file": "app/lib/RTCConnection.tsx", "size": 386594 }
 { "file": "app/lib/RTCConnectionEvent.tsx", "size": 1427 }
 { "file": "app/lib/RTCConnectionStats.tsx", "size": 9075 }
 { "file": "app/lib/RTCControlSocket.tsx", "size": 111755 }
@@ -2555,7 +2555,7 @@
 { "file": "app/modules/errors/hooks/useVideoReadyTimeout.tsx", "size": 7140 }
 { "file": "app/modules/errors/hooks/useVideoStreamError.tsx", "size": 6498 }
 { "file": "app/modules/errors/InteractionCallbackError.tsx", "size": 4205 }
-{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 37638 }
+{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 37637 }
 { "file": "app/modules/errors/UploaderError.tsx", "size": 4710 }
 { "file": "app/modules/errors/VideoStreamReadyActionCreators.tsx", "size": 1987 }
 { "file": "app/modules/experiments/aa_experiments/AATestExperimentLecinski.tsx", "size": 1210 }
@@ -3217,7 +3217,7 @@
 { "file": "app/modules/guild_onboarding_home/useIsNewMember.tsx", "size": 4341 }
 { "file": "app/modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx", "size": 4079 }
 { "file": "app/modules/guild_onboarding_home/useResourceChannels.tsx", "size": 2126 }
-{ "file": "app/modules/guild_onboarding/DefaultChannelThresholdUtils.tsx", "size": 17361 }
+{ "file": "app/modules/guild_onboarding/DefaultChannelThresholdUtils.tsx", "size": 17360 }
 { "file": "app/modules/guild_onboarding/DefaultChannelUtils.tsx", "size": 5002 }
 { "file": "app/modules/guild_onboarding/doGuildOnboarding.native.tsx", "size": 16985 }
 { "file": "app/modules/guild_onboarding/doGuildOnboardingHelpers.tsx", "size": 3566 }
@@ -4588,7 +4588,7 @@
 { "file": "app/modules/message_previews/native/MessagePreviewMarkup.tsx", "size": 9383 }
 { "file": "app/modules/message_previews/PreviewData.tsx", "size": 19399 }
 { "file": "app/modules/message_previews/RemoteFetchData.tsx", "size": 16964 }
-{ "file": "app/modules/message_previews/useFormattedMessagePreview.tsx", "size": 47234 }
+{ "file": "app/modules/message_previews/useFormattedMessagePreview.tsx", "size": 47233 }
 { "file": "app/modules/message_previews/useLatestChannelMessage.tsx", "size": 4534 }
 { "file": "app/modules/message_request/hooks/useIsMessageRequest.tsx", "size": 3107 }
 { "file": "app/modules/message_request/hooks/useIsSpamMessageRequest.tsx", "size": 1618 }
@@ -7418,7 +7418,7 @@
 { "file": "app/modules/voice_panel/native/alerts/VoicePanelNsfwAlert.tsx", "size": 6914 }
 { "file": "app/modules/voice_panel/native/card/DominantColorUtils.tsx", "size": 11181 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelAnimatedActivityCard.tsx", "size": 48865 }
-{ "file": "app/modules/voice_panel/native/card/VoicePanelCard.tsx", "size": 157220 }
+{ "file": "app/modules/voice_panel/native/card/VoicePanelCard.tsx", "size": 157216 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardConstants.tsx", "size": 968 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardFloatingControls.tsx", "size": 100574 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardLayoutManager.tsx", "size": 87368 }
@@ -7528,7 +7528,7 @@
 { "file": "app/modules/voice_panel/native/VoicePanelController.tsx", "size": 184266 }
 { "file": "app/modules/voice_panel/native/VoicePanelStateContext.tsx", "size": 10192 }
 { "file": "app/modules/voice_panel/native/VoicePanelSystemUIManager.tsx", "size": 16499 }
-{ "file": "app/modules/voice_panel/native/VoicePanelUI.tsx", "size": 165609 }
+{ "file": "app/modules/voice_panel/native/VoicePanelUI.tsx", "size": 165608 }
 { "file": "app/modules/voice_panel/VoicePanelConstants.tsx", "size": 4901 }
 { "file": "app/modules/voice_panel/VoicePanelManager.native.tsx", "size": 6481 }
 { "file": "app/modules/voice_panel/VoicePanelStore.tsx", "size": 22049 }
@@ -8444,7 +8444,7 @@
 { "file": "discord_common/js/packages/media-engine/MediaEngineDummy.tsx", "size": 31407 }
 { "file": "discord_common/js/packages/media-engine/MediaEngineEvent.tsx", "size": 2517 }
 { "file": "discord_common/js/packages/media-engine/MediaSinkWantsLadder.tsx", "size": 20324 }
-{ "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 253811 }
+{ "file": "discord_common/js/packages/media-engine/native/Connection.tsx", "size": 253814 }
 { "file": "discord_common/js/packages/media-engine/native/Constants.tsx", "size": 9481 }
 { "file": "discord_common/js/packages/media-engine/native/Devices.tsx", "size": 10022 }
 { "file": "discord_common/js/packages/media-engine/native/index.tsx", "size": 197616 }
@@ -8726,7 +8726,7 @@
 { "file": "discord_common/js/shared/utils/BigFlagUtils.tsx", "size": 31682 }
 { "file": "discord_common/js/shared/utils/ClientModDetectionUtils.tsx", "size": 756 }
 { "file": "discord_common/js/shared/utils/ColorUtils.tsx", "size": 22259 }
-{ "file": "discord_common/js/shared/utils/ComponentDispatchUtils.tsx", "size": 17321 }
+{ "file": "discord_common/js/shared/utils/ComponentDispatchUtils.tsx", "size": 17322 }
 { "file": "discord_common/js/shared/utils/DOMUtils.tsx", "size": 9210 }
 { "file": "discord_common/js/shared/utils/FlagUtils.tsx", "size": 3273 }
 { "file": "discord_common/js/shared/utils/Future.tsx", "size": 1722 }
