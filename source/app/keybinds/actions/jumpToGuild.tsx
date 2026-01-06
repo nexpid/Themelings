@@ -3,7 +3,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var6 = require;
-        var5 = metroImportDefault;
+        var8 = metroImportDefault;
         var3 = exports;
         var7 = dependencyMap;
         var _closure1_slot0 = var6;
@@ -12,196 +12,151 @@ case 0:
         var10 = var12.Object;
         var9 = var10.defineProperty;
         var2 = {};
-        var8 = true;
-        var2['value'] = var8;
+        var5 = true;
+        var2['value'] = var5;
         var1 = '__esModule';
         var1 = var9.bind(var10)(var3, var1, var2);
         var1 = 0;
         var2 = var7[var1];
         var1 = undefined;
-        var2 = var5.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var _closure1_slot2 = var2;
         var11 = 1;
         var2 = var7[var11];
-        var2 = var5.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var _closure1_slot3 = var2;
         var2 = 2;
         var2 = var7[var2];
-        var2 = var5.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var _closure1_slot4 = var2;
         var2 = 3;
         var2 = var7[var2];
-        var2 = var5.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var _closure1_slot5 = var2;
         var2 = 4;
         var2 = var7[var2];
-        var2 = var5.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var _closure1_slot6 = var2;
         var2 = 5;
         var2 = var7[var2];
         var2 = var6.bind(var1)(var2);
-        var5 = var2.ME;
-        var _closure1_slot7 = var5;
-        var5 = var2.FAVORITES;
-        var _closure1_slot8 = var5;
+        var8 = var2.ME;
+        var _closure1_slot7 = var8;
+        var8 = var2.FAVORITES;
+        var _closure1_slot8 = var8;
         var2 = var2.Routes;
         var _closure1_slot9 = var2;
         var2 = {};
-        var9 = new Array(0);
+        var8 = new Array(0);
         var10 = 'mod+';
-        var5 = 10;
+        var9 = 10;
 case 2:
-        var14 = var9.push;
+        var14 = var8.push;
         var13 = var12.HermesInternal;
         var13 = var13.concat;
         var13 = var13.bind(var10)(var11);
-        var13 = var14.bind(var9)(var13);
+        var13 = var14.bind(var8)(var13);
         var11 = var11 + 1;
-        if(var11 < var5) { _fun0001_ip = 2; continue _fun0001 }
+        if(var11 < var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-        var2['binds'] = var9;
-        var2['comboKeysBindGlobal'] = var8;
+        var2['binds'] = var8;
+        var2['comboKeysBindGlobal'] = var5;
         var4 = function action(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var4 = arg2;
-                var2 = global;
-                var6 = var2.parseInt;
-                var3 = var4.split;
+                var3 = arg2;
+                var4 = global;
+                var5 = var4.parseInt;
+                var2 = var3.split;
                 var1 = '+';
-                var1 = var3.bind(var4)(var1);
-                var4 = 1;
-                var3 = var1[var4];
+                var1 = var2.bind(var3)(var1);
+                var2 = 1;
+                var3 = var1[var2];
                 var1 = undefined;
-                var5 = 10;
-                var3 = var6.bind(var1)(var3, var5);
-                var8 = 0;
-                if(!(var8 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+                var6 = 10;
+                var5 = var5.bind(var1)(var3, var6);
+                var3 = 0;
+                if(!(var3 === var5)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var3 = var5;
+                var5 = var6;
 case 4:
-                var2 = var2.isNaN;
-                var2 = var2.bind(var1)(var3);
-                var5 = var3;
-                if(var2) { _fun0002_ip = 6; continue _fun0002 }
+                var4 = var4.isNaN;
+                var4 = var4.bind(var1)(var5);
+                if(var4) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                if(!(var8 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
+                if(!(var3 !== var5)) { _fun0002_ip = 6; continue _fun0002 }
 case 8:
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot1;
-                var3 = 6;
-                var3 = var7[var3];
-                var3 = var6.bind(var1)(var3);
-                var7 = var3.DesktopLandingExperiment;
-                var6 = var7.getConfig;
-                var3 = {};
-                var9 = 'jumptoguild';
-                var3['location'] = var9;
-                var3 = var6.bind(var7)(var3);
-                var3 = var3.dmsTab;
-                var8 = 0;
-                if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+                if(!(var2 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                var8 = var4;
-case 9:
-                if(!(var4 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 6;
+                var2 = var6[var2];
+                var8 = var4.bind(var1)(var2);
+                var7 = var8.isFavoritesGuildVisible;
+                var6 = _closure1_slot2;
+                var4 = _closure1_slot3;
+                var2 = _closure1_slot4;
+                var4 = var7.bind(var8)(var6, var4, var2);
+                var2 = 2;
+                if(var4) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                if(!var3) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                var4 = 2;
-                if(!(var4 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
-case 13:
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot1;
-                var4 = 7;
-                var4 = var7[var4];
-                var10 = var6.bind(var1)(var4);
-                var9 = var10.isFavoritesGuildVisible;
-                var7 = _closure1_slot2;
-                var6 = _closure1_slot3;
-                var4 = _closure1_slot4;
-                var6 = var9.bind(var10)(var7, var6, var4);
-                var4 = 2;
-                if(var6) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-                var7 = _closure1_slot6;
-                var6 = var7.getFlattenedGuildIds;
-                var7 = var6.bind(var7)();
-                var6 = var5 - var4;
-                var6 = var6 - var8;
-                var7 = var7[var6];
-                _fun0002_ip = 17; continue _fun0002;
-case 15:
-                var4 = var4 + var8;
-                if(!(var5 !== var4)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
                 var6 = _closure1_slot6;
                 var4 = var6.getFlattenedGuildIds;
                 var6 = var4.bind(var6)();
-                var4 = 3;
-                var4 = var5 - var4;
-                var4 = var4 - var8;
-                var4 = var6[var4];
-                _fun0002_ip = 20; continue _fun0002;
-case 18:
-                var4 = _closure1_slot8;
-case 20:
-                var7 = var4;
-case 17:
-                _fun0002_ip = 21; continue _fun0002;
+                var4 = var5 - var2;
+                var6 = var6[var4];
+                _fun0002_ip = 13; continue _fun0002;
 case 11:
-                var7 = _closure1_slot7;
-case 21:
-                var4 = null;
-                if(!(var4 != var7)) { _fun0002_ip = 6; continue _fun0002 }
-case 22:
+                if(!(var2 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+                var4 = _closure1_slot6;
+                var2 = var4.getFlattenedGuildIds;
+                var4 = var2.bind(var4)();
+                var2 = 3;
+                var2 = var5 - var2;
+                var2 = var4[var2];
+                _fun0002_ip = 16; continue _fun0002;
+case 14:
+                var2 = _closure1_slot8;
+case 16:
+                var6 = var2;
+case 13:
+                _fun0002_ip = 17; continue _fun0002;
+case 9:
                 var6 = _closure1_slot7;
-                if(!(var7 === var6)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
-                if(!var3) { _fun0002_ip = 23; continue _fun0002 }
-case 25:
-                var3 = 2;
-                if(!(var3 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
-case 23:
+case 17:
+                var4 = null;
+                if(!(var4 != var6)) { _fun0002_ip = 6; continue _fun0002 }
+case 18:
                 var3 = _closure1_slot7;
-                if(!(var7 === var3)) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+                if(!(var6 === var3)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                 var5 = _closure1_slot5;
                 var3 = var5.getGuildId;
                 var3 = var3.bind(var5)();
-                if(!(var4 != var3)) { _fun0002_ip = 29; continue _fun0002 }
-case 27:
+                if(!(var4 != var3)) { _fun0002_ip = 21; continue _fun0002 }
+case 19:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var3 = 9;
+                var3 = 8;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.transitionToGuild;
-                var3 = var3.bind(var4)(var7);
-                _fun0002_ip = 30; continue _fun0002;
-case 29:
+                var3 = var3.bind(var4)(var6);
+                _fun0002_ip = 22; continue _fun0002;
+case 21:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var3 = 8;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.transitionTo;
-                var6 = _closure1_slot9;
-                var3 = var6.CHANNEL;
-                var3 = var3.bind(var6)(var7);
-                var3 = var4.bind(var5)(var3);
-                _fun0002_ip = 30; continue _fun0002;
-case 26:
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var3 = 8;
+                var3 = 7;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.transitionTo;
-                var2 = _closure1_slot9;
-                var2 = var2.ME_DMS;
+                var5 = _closure1_slot9;
+                var2 = var5.CHANNEL;
+                var2 = var2.bind(var5)(var6);
                 var2 = var3.bind(var4)(var2);
-case 30:
+case 22:
                 var2 = false;
                 return var2;
 case 6:
@@ -211,6 +166,7 @@ case 6:
         var2['action'] = var4;
         var4 = {};
         var4['JUMP_TO_GUILD'] = var2;
+        var5 = 9;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;

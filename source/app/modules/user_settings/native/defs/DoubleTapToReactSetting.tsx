@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useValue'] = var9;
-    var9 = function onValueChange(arg1) {
+    var8 = function onValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = _closure1_slot2;
@@ -127,26 +127,9 @@ case 10:
             return var1;
         }
     };
-    var2['onValueChange'] = var9;
-    var8 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.useDoubleTapToReactExperiment;
-        var2 = {};
-        var1 = false;
-        var2['autoTrackExposure'] = var1;
-        var1 = 'DoubleTapToReactSetting';
-        var1 = var3.bind(var4)(var1, var2);
-        var1 = var1.enabled;
-        return var1;
-    };
-    var2['usePredicate'] = var8;
+    var2['onValueChange'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

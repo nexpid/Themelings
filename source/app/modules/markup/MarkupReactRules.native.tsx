@@ -2467,10 +2467,10 @@ case 129:
                     var2 = {};
                     var7 = var11 == var1;
                     var6 = undefined;
-                    if(var7) { _fun0036_ip = 141; continue _fun0036 }
-case 69:
-                    var6 = var1.textColor;
+                    if(var7) { _fun0036_ip = 65; continue _fun0036 }
 case 141:
+                    var6 = var1.textColor;
+case 65:
                     var2['color'] = var6;
                     var8 = _closure1_slot13;
                     var7 = _closure1_slot6;
@@ -3148,14 +3148,14 @@ case 0:
             var1 = '███';
             var4 = 'string';
             var3 = typeof var3;
-            if(!(var4 === var3)) { _fun0044_ip = 117; continue _fun0044 }
+            if(!(var4 === var3)) { _fun0044_ip = 113; continue _fun0044 }
 case 2:
             var5 = var2.content;
             var4 = var5.replace;
             var3 = /[^\n]/g;
             var2 = '█';
             var1 = var4.bind(var5)(var3, var2);
-case 117:
+case 113:
             return var1;
         }
     };

@@ -616,14 +616,13 @@ case 0:
             var3 = var3.bind(var5)(var10);
             var7 = var3.available;
             var _closure2_slot3 = var7;
-            var12 = _closure1_slot0;
             var3 = 20;
             var3 = var13[var3];
-            var6 = var12.bind(var5)(var3);
-            var4 = var6.useVanityURLPowerupRollbackNotificationConfig;
+            var4 = var4.bind(var5)(var3);
             var3 = 'useGuildPowerupsNotificationIndicator';
-            var3 = var4.bind(var6)(var10, var3);
+            var3 = var4.bind(var5)(var10, var3);
             var8 = var3.shouldShow;
+            var12 = _closure1_slot0;
             var3 = 21;
             var3 = var13[var3];
             var6 = var12.bind(var5)(var3);
@@ -635,7 +634,7 @@ case 0:
             var3 = var3.VANITY_URL_POWERUP_ROLLBACK_NOTIFICATION;
             var3 = var4.bind(var6)(var3, var10);
             if(!var8) { _fun0011_ip = 60; continue _fun0011 }
-case 10:
+case 61:
             var8 = !var3;
 case 60:
             var _closure2_slot4 = var8;
@@ -664,17 +663,17 @@ case 60:
             var7 = null;
             var12 = var7 == var11;
             var10 = undefined;
-            if(var12) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+            if(var12) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
             var10 = var11.lastBoostCount;
-case 61:
+case 62:
             var2[1] = var10;
             var12 = var7 == var11;
             var10 = undefined;
-            if(var12) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+            if(var12) { _fun0011_ip = 64; continue _fun0011 }
+case 57:
             var10 = var11.lastSeenWarningNotification;
-case 63:
+case 64:
             var2[2] = var10;
             var2[3] = var9;
             var2[4] = var8;

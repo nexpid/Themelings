@@ -656,10 +656,10 @@ case 70:
     var1 = function _computePermissions(arg1, arg2, arg3, arg4) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var8 = arg1;
+            var9 = arg1;
             var11 = arg2;
             var10 = arg3;
-            var9 = arg4;
+            var6 = arg4;
             var3 = _closure1_slot2;
             var1 = _closure1_slot3;
             var5 = 18;
@@ -668,83 +668,89 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var1 = var1.NONE;
             var3 = _closure1_slot13;
-            var3 = var8 instanceof var3;
+            var3 = var9 instanceof var3;
             if(var3) { _fun0013_ip = 73; continue _fun0013 }
 case 74:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot3;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot3;
             var3 = 21;
-            var3 = var7[var3];
-            var6 = var6.bind(var4)(var3);
-            var3 = var6.isGuildRecord;
-            var3 = var3.bind(var6)(var8);
+            var3 = var8[var3];
+            var7 = var7.bind(var4)(var3);
+            var3 = var7.isGuildRecord;
+            var3 = var3.bind(var7)(var9);
             if(!var3) { _fun0013_ip = 72; continue _fun0013 }
 case 75:
-            var6 = _closure1_slot31;
-            var3 = var8.id;
-            var1 = var6.bind(var4)(var3);
+            var7 = _closure1_slot31;
+            var3 = var9.id;
+            var1 = var7.bind(var4)(var3);
             _fun0013_ip = 72; continue _fun0013;
 case 73:
-            var7 = _closure1_slot14;
-            var6 = var7.has;
-            var3 = var8.type;
-            var3 = var6.bind(var7)(var3);
+            var8 = _closure1_slot14;
+            var7 = var8.has;
+            var3 = var9.type;
+            var3 = var7.bind(var8)(var3);
             if(var3) { _fun0013_ip = 76; continue _fun0013 }
 case 77:
-            var6 = _closure1_slot33;
-            var3 = var8.id;
-            var1 = var6.bind(var4)(var3);
+            var7 = _closure1_slot33;
+            var3 = var9.id;
+            var1 = var7.bind(var4)(var3);
 case 72:
             if(!(var4 === var11)) { _fun0013_ip = 42; continue _fun0013 }
 case 70:
             if(!(var4 === var10)) { _fun0013_ip = 42; continue _fun0013 }
 case 78:
-            if(!(var4 !== var9)) { _fun0013_ip = 79; continue _fun0013 }
+            if(!(var4 !== var6)) { _fun0013_ip = 79; continue _fun0013 }
 case 42:
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = _closure1_slot3;
             var3 = var3[var5];
-            var7 = var6.bind(var4)(var3);
-            var6 = var7.computePermissions;
+            var8 = var7.bind(var4)(var3);
+            var7 = var8.computePermissions;
             var3 = {};
             var13 = _closure1_slot21;
             var12 = var13.getCurrentUser;
             var12 = var12.bind(var13)();
             var3['user'] = var12;
-            var3['context'] = var8;
+            var3['context'] = var9;
             var3['overwrites'] = var11;
             var3['roles'] = var10;
             var12 = true;
             var3['checkElevated'] = var12;
-            var3['excludeGuildPermissions'] = var9;
-            var1 = var6.bind(var7)(var3);
+            var3['excludeGuildPermissions'] = var6;
+            var1 = var7.bind(var8)(var3);
 case 79:
             return var1;
 case 76:
-            var6 = _closure1_slot18;
-            var3 = var6.getChannel;
-            var1 = var8.parent_id;
-            var3 = var3.bind(var6)(var1);
+            var7 = _closure1_slot18;
+            var3 = var7.getChannel;
+            var1 = var9.parent_id;
+            var3 = var3.bind(var7)(var1);
             var1 = null;
             if(!(var1 != var3)) { _fun0013_ip = 80; continue _fun0013 }
 case 81:
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var1 = _closure1_slot3;
             var1 = var1[var5];
-            var7 = var6.bind(var4)(var1);
-            var6 = var7.applyThreadPermissions;
+            var8 = var7.bind(var4)(var1);
+            var7 = var8.applyThreadPermissions;
             var1 = _closure1_slot36;
             var18 = undefined;
             var17 = var3;
             var16 = var11;
             var15 = var10;
-            var14 = var9;
-            var3 = var18[var1](var17, var16, var15, var14, var13);
+            var14 = var6;
+            var16 = var18[var1](var17, var16, var15, var14, var13);
             var10 = _closure1_slot12;
-            var9 = var10.hasJoined;
-            var1 = var8.id;
-            var1 = var9.bind(var10)(var1);
-            var1 = var6.bind(var7)(var8, var3, var1);
+            var3 = var10.hasJoined;
+            var1 = var9.id;
+            var15 = var3.bind(var10)(var1);
+            var11 = _closure1_slot19;
+            var10 = var11.isCurrentUserGuest;
+            var1 = var9.guild_id;
+            var14 = var10.bind(var11)(var1);
+            var18 = var8;
+            var17 = var9;
+            var1 = var18[var7](var17, var16, var15, var14, var13);
             _fun0013_ip = 82; continue _fun0013;
 case 80:
             var3 = _closure1_slot2;

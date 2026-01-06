@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var1;
         var1 = arg2;
         var _closure2_slot1 = var1;
-        var1 = {'isRecording': false, 'microphoneEnabled': false, 'isICYMIScrolled': false, 'isUploading': false, 'currentStep': 0, 'stepStartedTime': null, 'isCompleted': false, 'currentSurveyId': null, 'currentSurveyConfig': null};
+        var1 = {'isRecording': false, 'microphoneEnabled': false, 'isUploading': false, 'currentStep': 0, 'stepStartedTime': null, 'isCompleted': false, 'currentSurveyId': null, 'currentSurveyConfig': null};
         var3 = function startRecording() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -68,16 +68,6 @@ case 6:
             return var1;
         };
         var1['stopRecording'] = var3;
-        var3 = function setICYMIScrolled() {
-            var3 = _closure2_slot0;
-            var2 = {};
-            var1 = true;
-            var2['isICYMIScrolled'] = var1;
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var1['setICYMIScrolled'] = var3;
         var3 = function setIsUploading(arg1) {
             var3 = _closure2_slot0;
             var2 = {};

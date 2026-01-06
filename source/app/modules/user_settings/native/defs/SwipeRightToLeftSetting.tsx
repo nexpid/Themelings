@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
+    var8 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -44,9 +44,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['title'] = var11;
-    var9 = var9.CHAT;
-    var2['parent'] = var9;
-    var9 = function useSwipeRightToLeftSettingTrailing() {
+    var8 = var8.CHAT;
+    var2['parent'] = var8;
+    var8 = function useSwipeRightToLeftSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -105,11 +105,11 @@ case 6:
             return var1;
         }
     };
-    var2['useTrailing'] = var9;
-    var9 = {};
+    var2['useTrailing'] = var8;
+    var8 = {};
     var10 = var10.SWIPE_RIGHT_TO_LEFT;
-    var9['route'] = var10;
-    var10 = function getComponent() {
+    var8['route'] = var10;
+    var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;
@@ -119,27 +119,10 @@ case 6:
         var1 = var1.default;
         return var1;
     };
-    var9['getComponent'] = var10;
-    var2['screen'] = var9;
-    var8 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.useDoubleTapToReactExperiment;
-        var2 = {};
-        var1 = false;
-        var2['autoTrackExposure'] = var1;
-        var1 = 'SwipeRightToLeftSetting';
-        var1 = var3.bind(var4)(var1, var2);
-        var1 = var1.enabled;
-        return var1;
-    };
-    var2['usePredicate'] = var8;
+    var8['getComponent'] = var9;
+    var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

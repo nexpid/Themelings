@@ -366,6 +366,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_PREVIEW_UPSELL_HEADER'] = var1;
     var1 = 'premium upsell overlay';
     var2['PREMIUM_UPSELL_OVERLAY'] = var1;
+    var1 = 'overlay nudge';
+    var2['OVERLAY_NUDGE'] = var1;
     var1 = 'select image modal';
     var2['SELECT_IMAGE_MODAL'] = var1;
     var1 = 'video background options';

@@ -1679,10 +1679,10 @@ case 0:
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var3 = null;
-                if(!(var3 == var2)) { _fun0012_ip = 100; continue _fun0012 }
+                if(!(var3 == var2)) { _fun0012_ip = 91; continue _fun0012 }
 case 88:
                 var2 = {'h': 0, 's': 0, 'v': 0};
-case 100:
+case 91:
                 var1['hsv'] = var2;
                 return var1;
             }
@@ -1703,13 +1703,13 @@ case 0:
             var1 = var2.colorRGB;
             var8 = var2.saturationFactor;
             var3 = undefined;
-            if(!(var8 === var3)) { _fun0013_ip = 101; continue _fun0013 }
+            if(!(var8 === var3)) { _fun0013_ip = 100; continue _fun0013 }
 case 55:
             var8 = 1;
-case 101:
+case 100:
             var4 = null;
             if(!(var4 != var1)) { _fun0013_ip = 10; continue _fun0013 }
-case 102:
+case 101:
             var9 = _closure1_slot14;
             var6 = var1.get;
             var2 = 'rgb.r';
@@ -1721,7 +1721,7 @@ case 102:
             var2 = 'rgb.b';
             var2 = var10.bind(var1)(var2);
             var2 = var9.bind(var3)(var7, var6, var2);
-            if(!(var4 != var2)) { _fun0013_ip = 103; continue _fun0013 }
+            if(!(var4 != var2)) { _fun0013_ip = 102; continue _fun0013 }
 case 76:
             var7 = _closure1_slot15;
             var6 = var2.hue;
@@ -1731,22 +1731,22 @@ case 76:
             var6 = var7.bind(var3)(var6, var5, var2);
             var5 = var4 == var6;
             var2 = undefined;
-            if(var5) { _fun0013_ip = 104; continue _fun0013 }
-case 105:
+            if(var5) { _fun0013_ip = 103; continue _fun0013 }
+case 104:
             var5 = var6.toHexString;
             var2 = var5.bind(var6)();
-case 104:
-            _fun0013_ip = 106; continue _fun0013;
 case 103:
+            _fun0013_ip = 105; continue _fun0013;
+case 102:
             var4 = var4 == var1;
             var3 = undefined;
-            if(var4) { _fun0013_ip = 107; continue _fun0013 }
-case 108:
+            if(var4) { _fun0013_ip = 106; continue _fun0013 }
+case 107:
             var4 = var1.hex;
             var3 = var4.bind(var1)();
-case 107:
-            var2 = var3;
 case 106:
+            var2 = var3;
+case 105:
             return var2;
 case 10:
             return var1;

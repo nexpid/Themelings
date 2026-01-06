@@ -926,6 +926,8 @@ case 22:
     var4['featureIcon'] = var11;
     var11 = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 8};
     var4['memberInfo'] = var11;
+    var11 = {'marginTop': 8, 'marginBottom': 8, 'alignItems': 'center'};
+    var4['rolesList'] = var11;
     var11 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
@@ -1065,7 +1067,7 @@ case 73:
     var7 = 'DECLINE';
     var4[var8] = var7;
     var _closure1_slot18 = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1215,7 +1217,7 @@ case 18:
             var28 = var20;
             var17 = copyDataProperties(var29, var28);
             var8 = var11.bind(var4)(var8, var5);
-            var5 = new Array(7);
+            var5 = new Array(8);
             var5[0] = var8;
             var17 = _closure1_slot11;
             var11 = _closure1_slot21;
@@ -1260,6 +1262,18 @@ case 91:
             var8 = var17.bind(var4)(var16, var11);
 case 90:
             var5[4] = var8;
+            var16 = _closure1_slot11;
+            var11 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var8 = 25;
+            var8 = var17[var8];
+            var11 = var11.bind(var4)(var8);
+            var8 = {};
+            var8['invite'] = var10;
+            var17 = var18.rolesList;
+            var8['style'] = var17;
+            var8 = var16.bind(var4)(var11, var8);
+            var5[5] = var8;
             var8 = var6 != var22;
             if(!var8) { _fun0010_ip = 92; continue _fun0010 }
 case 93:
@@ -1271,7 +1285,7 @@ case 93:
             var24 = _closure1_slot11;
             var20 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var19 = 25;
+            var19 = 26;
             var18 = var23[var19];
             var18 = var20.bind(var4)(var18);
             var21 = var18.GuildEventCardHeader;
@@ -1299,7 +1313,7 @@ case 93:
             var11['children'] = var18;
             var8 = var17.bind(var4)(var16, var11);
 case 92:
-            var5[5] = var8;
+            var5[6] = var8;
             var8 = _closure1_slot16;
             var16 = var8.bind(var4)(var10, var9);
             var8 = {};
@@ -1441,7 +1455,7 @@ case 106:
             var8 = _closure1_slot11;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 26;
+            var6 = 27;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.Button;
@@ -1455,13 +1469,13 @@ case 105:
             var8 = _closure1_slot12;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var6 = 27;
+            var6 = 28;
             var6 = var17[var6];
             var6 = var11.bind(var4)(var6);
             var7 = var6.ButtonGroup;
             var6 = {};
             var18 = _closure1_slot11;
-            var10 = 26;
+            var10 = 27;
             var9 = var17[var10];
             var9 = var11.bind(var4)(var9);
             var12 = var9.Button;
@@ -1561,7 +1575,7 @@ case 110:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
-            var5[6] = var6;
+            var5[7] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

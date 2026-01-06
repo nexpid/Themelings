@@ -766,7 +766,7 @@ case 30:
             var3 = var8.bind(var9)(var3);
             var3 = var5 != var3;
             if(var3) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+case 11:
             var6 = _closure1_slot4;
             var7 = var7[var6];
             var6 = var7.find;

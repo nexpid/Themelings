@@ -970,10 +970,12 @@ case 77:
                             var20 = _closure1_slot3;
                             var15 = 38;
                             var2 = var20[var15];
-                            var4 = var18.bind(var5)(var2);
-                            var3 = var4.getMigrationWarning;
-                            var2 = _closure2_slot10;
-                            var16 = var3.bind(var4)(var10, var2);
+                            var6 = var18.bind(var5)(var2);
+                            var4 = var6.getMigrationWarning;
+                            var3 = _closure2_slot10;
+                            var2 = _closure2_slot5;
+                            var2 = var2.guild_id;
+                            var16 = var4.bind(var6)(var10, var3, var2);
                             var4 = _closure1_slot20;
                             var3 = _closure1_slot21;
                             var2 = {};

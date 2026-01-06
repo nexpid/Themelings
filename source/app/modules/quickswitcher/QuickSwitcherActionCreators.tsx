@@ -740,23 +740,23 @@ case 62:
             var4 = var4.AutocompleterResultTypes;
             var4 = var4.GROUP_DM;
             if(!(var4 !== var7)) { _fun0007_ip = 63; continue _fun0007 }
-case 18:
+case 64:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var9];
             var4 = var8.bind(var1)(var4);
             var4 = var4.AutocompleterResultTypes;
             var4 = var4.APPLICATION;
-            if(!(var4 !== var7)) { _fun0007_ip = 64; continue _fun0007 }
-case 65:
+            if(!(var4 !== var7)) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var9];
             var4 = var8.bind(var1)(var4);
             var4 = var4.AutocompleterResultTypes;
             var4 = var4.LINK;
-            if(!(var4 !== var7)) { _fun0007_ip = 66; continue _fun0007 }
-case 67:
+            if(!(var4 !== var7)) { _fun0007_ip = 67; continue _fun0007 }
+case 23:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var9];
@@ -840,7 +840,7 @@ case 70:
             var4 = var4.path;
             var4 = var7.bind(var1)(var4);
             _fun0007_ip = 68; continue _fun0007;
-case 66:
+case 67:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 21;
@@ -852,7 +852,7 @@ case 66:
             var4['navigationReplace'] = var9;
             var4 = var8.bind(var1)(var7, var4);
             _fun0007_ip = 68; continue _fun0007;
-case 64:
+case 65:
             var8 = _closure1_slot7;
             var7 = var8.getActiveLibraryApplication;
             var4 = var3.id;

@@ -3691,23 +3691,32 @@ case 158:
 case 332:
                 var2['image_compression_quality'] = var10;
                 var10 = var7.uploadAnalytics;
-                var10 = var10.videoCompressionQuality;
-                var11 = var9 != var10;
-                if(!var11) { _fun0036_ip = 333; continue _fun0036 }
-case 214:
-                var8 = var10;
+                var11 = var10.videoCompressionQuality;
+                var12 = var9 != var11;
+                var10 = var8;
+                if(!var12) { _fun0036_ip = 333; continue _fun0036 }
+case 334:
+                var10 = var11;
 case 333:
-                var2['video_compression_quality'] = var8;
+                var2['video_compression_quality'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.imageEncoderType;
+                var11 = var9 != var10;
+                if(!var11) { _fun0036_ip = 300; continue _fun0036 }
+case 335:
+                var8 = var10;
+case 300:
+                var2['image_encoder_type'] = var8;
                 var8 = var7.uploadAnalytics;
                 var8 = var8.convertedMimeType;
                 var8 = var9 != var8;
-                if(!var8) { _fun0036_ip = 334; continue _fun0036 }
-case 335:
+                if(!var8) { _fun0036_ip = 336; continue _fun0036 }
+case 337:
                 var10 = var7.mimeType;
                 var9 = var7.uploadAnalytics;
                 var9 = var9.convertedMimeType;
                 var8 = var10 !== var9;
-case 334:
+case 336:
                 var2['was_converted'] = var8;
                 var9 = var7.currentSize;
                 var8 = var7.preCompressionSize;
@@ -3803,10 +3812,10 @@ case 334:
                 var2['conversion_failure_reason'] = var8;
                 var8 = var7._libdiscoreEnabled;
                 var7 = 'httputils';
-                if(!var8) { _fun0036_ip = 336; continue _fun0036 }
-case 337:
+                if(!var8) { _fun0036_ip = 250; continue _fun0036 }
+case 255:
                 var7 = 'libdiscore';
-case 336:
+case 250:
                 var2['upload_http_client'] = var7;
                 var7 = _closure1_slot13;
                 var6 = var7.getType;

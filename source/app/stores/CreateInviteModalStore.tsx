@@ -179,7 +179,7 @@ case 24:
             var7 = var1 != var4;
             var1 = null;
             if(!var7) { _fun0003_ip = 26; continue _fun0003 }
-case 5:
+case 3:
             var1 = var4;
 case 26:
             var4 = _closure1_slot22;

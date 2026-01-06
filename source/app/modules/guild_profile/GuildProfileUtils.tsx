@@ -113,7 +113,7 @@ case 13:
             var1 = var1 == var3;
             if(var1) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var2 = var3.isGuildVocal;
+            var2 = var3.isGuildVoiceOrThread;
             var2 = var2.bind(var3)();
             var1 = !var2;
 case 15:

@@ -224,7 +224,7 @@ case 14:
                             var3 = var5;
 case 12:
                             if(var3) { _fun0005_ip = 15; continue _fun0005 }
-case 4:
+case 16:
                             var1.return();
 case 15:
                             var1 = _closure2_slot1;
@@ -238,8 +238,8 @@ case 15:
                             var3 = var4.total_results;
                             var1['totalResults'] = var3;
                             var3 = null;
-                            if(!(var3 != var6)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                            if(!(var3 != var6)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                             var7 = _closure1_slot1;
                             var9 = _closure1_slot2;
                             var5 = 4;
@@ -248,30 +248,30 @@ case 17:
                             var5 = var7.isEmpty;
                             var7 = var5.bind(var7)(var6);
                             var5 = null;
-                            if(var7) { _fun0005_ip = 18; continue _fun0005 }
-case 16:
+                            if(var7) { _fun0005_ip = 19; continue _fun0005 }
+case 17:
                             var5 = var6;
-case 18:
+case 19:
                             var1['cursor'] = var5;
                             var5 = var4.messages;
                             var1['messages'] = var5;
                             var5 = var4.channels;
-                            if(!(var3 == var5)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                            if(!(var3 == var5)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                             var5 = new Array(0);
-case 19:
+case 20:
                             var1['channels'] = var5;
                             var5 = var4.threads;
-                            if(!(var3 == var5)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+                            if(!(var3 == var5)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                             var5 = new Array(0);
-case 21:
+case 22:
                             var1['threads'] = var5;
                             var5 = var4.members;
-                            if(!(var3 == var5)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                            if(!(var3 == var5)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                             var5 = new Array(0);
-case 23:
+case 24:
                             var4 = var5.map;
                             var3 = function(arg1) {
                                 var2 = _closure1_slot1;
@@ -299,7 +299,7 @@ case 23:
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 25; continue _fun0004 }
+                    if(!(var2 != var3)) { _fun0004_ip = 17; continue _fun0004 }
 case 26:
                     var3 = _closure2_slot2;
                     var2 = {};
@@ -307,7 +307,7 @@ case 26:
                     var2['searchContext'] = var5;
                     var2['tabEntries'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 25:
+case 17:
                     return var1;
                 }
             };
@@ -401,11 +401,11 @@ case 28:
             var11 = var12.setIncludeNSFW;
             var11 = var11.bind(var12)(var7, var13);
 case 27:
-            if(!var8) { _fun0006_ip = 24; continue _fun0006 }
+            if(!var8) { _fun0006_ip = 25; continue _fun0006 }
 case 29:
             var8 = true;
             var7['search_everywhere'] = var8;
-case 24:
+case 25:
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var6 = var12[var6];

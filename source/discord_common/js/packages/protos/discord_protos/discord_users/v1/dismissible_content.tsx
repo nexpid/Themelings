@@ -1166,10 +1166,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['COLLECTIBLES_SHOP_BAND_MARKETING'] = var2;
     var1 = 'COLLECTIBLES_SHOP_BAND_MARKETING';
     var4[var2] = var1;
-    var2 = 450;
-    var4['GO_LIVE_SYSTEM_PICKER_COACHMARK'] = var2;
-    var1 = 'GO_LIVE_SYSTEM_PICKER_COACHMARK';
-    var4[var2] = var1;
     var2 = 452;
     var4['RAPIDASH_MORE_GUILDS_UPSELL'] = var2;
     var1 = 'RAPIDASH_MORE_GUILDS_UPSELL';

@@ -214,16 +214,16 @@ case 0:
                 var9 = var1.type;
                 var8 = _closure1_slot9;
                 var8 = var8.GROUP_DM;
-                if(!(var8 !== var9)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-                var8 = _closure1_slot9;
-                var8 = var8.CHANNEL;
-                if(!(var8 !== var9)) { _fun0003_ip = 8; continue _fun0003 }
+                if(!(var8 !== var9)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                 var8 = _closure1_slot9;
+                var8 = var8.CHANNEL;
+                if(!(var8 !== var9)) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
+                var8 = _closure1_slot9;
                 var8 = var8.USER;
-                if(!(var8 === var9)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                if(!(var8 === var9)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var3 = 9;
@@ -243,8 +243,8 @@ case 0:
                         var1 = arg1;
                         var7 = var2.bind(var3)(var1);
                         var1 = null;
-                        if(!(var1 != var7)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                        if(!(var1 != var7)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                         var6 = _closure3_slot0;
                         var5 = var6._sendInvite;
                         var2 = _closure3_slot1;
@@ -255,7 +255,7 @@ case 14:
                         var13 = var6;
                         var12 = var7;
                         var1 = var13[var5](var12, var11, var10, var9, var8, var7);
-case 13:
+case 14:
                         var1 = undefined;
                         return var1;
                     }
@@ -269,8 +269,8 @@ case 13:
                     return var1;
                 };
                 var2 = var8.bind(var9)(var3, var2);
-                _fun0003_ip = 11; continue _fun0003;
-case 8:
+                _fun0003_ip = 12; continue _fun0003;
+case 9:
                 var3 = var6._sendInvite;
                 var14 = var1.channel;
                 var13 = var1.inviteKey;
@@ -279,7 +279,7 @@ case 8:
                 var11 = var4;
                 var10 = var7;
                 var1 = var15[var3](var14, var13, var12, var11, var10, var9);
-case 11:
+case 12:
                 var1 = undefined;
                 return var1;
             }

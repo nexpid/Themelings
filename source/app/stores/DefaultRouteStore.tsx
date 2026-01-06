@@ -82,7 +82,7 @@ case 4:
     var2 = {'lastViewedPath': null, 'lastViewedNonVoicePath': null};
     var _closure1_slot8 = var2;
     var _closure1_slot9 = var2;
-    var2 = 7;
+    var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -150,51 +150,38 @@ case 11:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(6);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
-        var7 = 'experimentalDefaultRoute';
+        var7 = 'defaultRoute';
         var5['key'] = var7;
         var7 = function get() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var1 = 6;
-                var3 = var3[var1];
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3);
-                var4 = var1.DesktopLandingExperiment;
-                var3 = var4.getConfig;
-                var1 = {};
-                var5 = 'default_route';
-                var1['location'] = var5;
-                var1 = var3.bind(var4)(var1);
-                var1 = var1.friendsTab;
-                var2 = _closure1_slot7;
-                if(var1) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
-                var1 = var2.ME;
-                _fun0004_ip = 15; continue _fun0004;
+                var1 = _closure1_slot9;
+                var1 = var1.lastViewedPath;
+                var3 = null;
+                if(!(var3 == var1)) { _fun0004_ip = 11; continue _fun0004 }
 case 13:
-                var1 = var2.ME_ACTIVITY;
-case 15:
+                var2 = _closure1_slot7;
+                var1 = var2.ME;
+case 11:
                 return var1;
             }
         };
         var5['get'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'defaultRoute';
+        var7 = 'lastNonVoiceRoute';
         var5['key'] = var7;
         var7 = function get() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = _closure1_slot9;
-                var1 = var1.lastViewedPath;
+                var1 = var1.lastViewedNonVoicePath;
                 var3 = null;
                 if(!(var3 == var1)) { _fun0005_ip = 11; continue _fun0005 }
-case 16:
+case 13:
                 var2 = _closure1_slot7;
                 var1 = var2.ME;
 case 11:
@@ -204,34 +191,15 @@ case 11:
         var5['get'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'lastNonVoiceRoute';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                var1 = _closure1_slot9;
-                var1 = var1.lastViewedNonVoicePath;
-                var2 = null;
-                if(!(var2 == var1)) { _fun0006_ip = 17; continue _fun0006 }
-case 16:
-                var2 = this;
-                var1 = var2.experimentalDefaultRoute;
-case 17:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[3] = var5;
-        var5 = {};
         var7 = 'fallbackRoute';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = this;
-            var1 = var1.experimentalDefaultRoute;
+            var1 = _closure1_slot7;
+            var1 = var1.ME;
             return var1;
         };
         var5['get'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
@@ -240,7 +208,7 @@ case 17:
             return var1;
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -252,7 +220,7 @@ case 17:
     var9 = function() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 8;
+        var1 = 7;
         var2 = var6[var1];
         var3 = undefined;
         var2 = var5.bind(var3)(var2);
@@ -272,7 +240,7 @@ case 17:
     };
     var2[0] = var9;
     var8['migrations'] = var2;
-    var2 = 9;
+    var2 = 8;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
@@ -300,7 +268,7 @@ case 17:
     var11 = var2;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

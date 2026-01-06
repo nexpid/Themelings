@@ -59,8 +59,7 @@ case 0:
             var3 = 5;
             var3 = var9[var3];
             var3 = var2.bind(var4)(var3);
-            var3 = var3.bind(var4)(var5, var7);
-            var5 = var3.onShowMore;
+            var5 = var3.bind(var4)(var5, var7);
             var3 = _closure1_slot3;
             var1 = 6;
             var1 = var9[var1];

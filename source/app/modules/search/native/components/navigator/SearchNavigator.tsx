@@ -24,26 +24,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SearchNavigatorScreens;
+    var4 = var4.SearchEntrypointAnalyticsLocations;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SearchTypes;
+    var4 = var4.SearchNavigatorScreens;
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
-    var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var4 = var4.SearchTypes;
+    var _closure1_slot6 = var4;
     var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot7 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var4 = var8.createNativeStackNavigator;
     var4 = var4.bind(var8)();
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         var1 = arg1;
@@ -53,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var12;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var1 = var3[var1];
         var4 = undefined;
         var2 = var2.bind(var4)(var1);
@@ -68,27 +73,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var1 = _closure2_slot0;
                 var3 = var1.type;
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot6;
                 var2 = var2.GUILD;
                 if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 6;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var4.bind(var2)(var3);
-                var2 = var2.SearchEntrypointAnalyticsLocations;
+                var2 = _closure1_slot4;
                 var4 = var2.DM_LIST;
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
-                var6 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 6;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var6.bind(var2)(var3);
-                var2 = var2.SearchEntrypointAnalyticsLocations;
+                var2 = _closure1_slot4;
                 var4 = var2.GUILD;
 case 4:
                 var3 = _closure1_slot1;
@@ -121,8 +114,8 @@ case 4:
             }
         };
         var1 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot7;
-        var6 = _closure1_slot8;
+        var3 = _closure1_slot8;
+        var6 = _closure1_slot9;
         var2 = var6.Navigator;
         var1 = {};
         var5 = 'search-navigator';
@@ -132,13 +125,13 @@ case 4:
         var13 = var7;
         var7 = copyDataProperties(var14, var13);
         var1['screenOptions'] = var5;
-        var8 = _closure1_slot6;
+        var8 = _closure1_slot7;
         var7 = var6.Screen;
         var5 = {};
         var11 = {};
         var11['searchContext'] = var12;
         var5['initialParams'] = var11;
-        var10 = _closure1_slot4;
+        var10 = _closure1_slot5;
         var11 = var10.SEARCH_TABS;
         var5['name'] = var11;
         var11 = {'headerShown': false, 'fullScreenGestureEnabled': true};
@@ -183,7 +176,7 @@ case 4:
             var4 = var4.bind(var5)(var6);
             var1['headerLeft'] = var4;
             var3 = function headerTitle() {
-                var4 = _closure1_slot6;
+                var4 = _closure1_slot7;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 10;

@@ -520,8 +520,7 @@ case 0:
             var2 = 17;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
-            var2 = var2.bind(var4)(var3, var17);
-            var7 = var2.onShowMore;
+            var7 = var2.bind(var4)(var3, var17);
             var _closure2_slot0 = var7;
             var2 = 0;
             if(!(var2 !== var19)) { _fun0003_ip = 23; continue _fun0003 }

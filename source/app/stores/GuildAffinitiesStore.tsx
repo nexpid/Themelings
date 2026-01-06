@@ -228,8 +228,8 @@ case 0:
             var2 = var2.lastFetched;
             var3 = var3 - var2;
             var2 = 86400000;
-            if(!(var3 > var2)) { _fun0004_ip = 4; continue _fun0004 }
-case 11:
+            if(!(var3 > var2)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 6;
@@ -238,7 +238,7 @@ case 11:
             var2 = var3.bind(var1)(var2);
             var1 = var2.fetchGuildAffinities;
             var1 = var1.bind(var2)();
-case 4:
+case 11:
             var1 = false;
             return var1;
         }

@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
     var1 = function filterExperimental(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -31,7 +33,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot3 = var1;
+    var _closure1_slot4 = var1;
     var1 = function getPermissionsSpecList(arg1, arg2) {
         var3 = arg1;
         var2 = arg2;
@@ -48,19 +50,19 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot5 = var1;
     var4 = function getGuildPermissionSpec(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var9 = arg1;
             var1 = {};
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.VIEW_CHANNEL;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var8 = 1;
             var10 = var5[var8];
             var7 = undefined;
@@ -78,11 +80,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.ybTHLk;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.VIEW_CHANNEL;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_CHANNELS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -102,11 +104,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.qfJnug;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MANAGE_CHANNELS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_ROLES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -126,11 +128,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.buo9uw;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MANAGE_ROLES;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_GUILD_EXPRESSIONS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -150,11 +152,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.4vb3/6;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MANAGE_GUILD_EXPRESSIONS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CREATE_GUILD_EXPRESSIONS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -174,11 +176,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.gkdHvH;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.CREATE_GUILD_EXPRESSIONS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.VIEW_AUDIT_LOG;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -198,11 +200,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.0hx75i;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.VIEW_AUDIT_LOG;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.VIEW_GUILD_ANALYTICS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -222,11 +224,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.whVKhX;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.VIEW_GUILD_ANALYTICS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.VIEW_CREATOR_MONETIZATION_ANALYTICS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -246,11 +248,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.mut6NV;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.VIEW_CREATOR_MONETIZATION_ANALYTICS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_WEBHOOKS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -270,11 +272,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.LczYqC;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MANAGE_WEBHOOKS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_GUILD;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -294,11 +296,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.KoQe/G;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MANAGE_GUILD;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CREATE_INSTANT_INVITE;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -318,11 +320,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.PCFOZa;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.CREATE_INSTANT_INVITE;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CHANGE_NICKNAME;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -342,11 +344,11 @@ case 0:
             var10 = var10.t;
             var10 = var10.b8B++j;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.CHANGE_NICKNAME;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_NICKNAMES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -366,18 +368,18 @@ case 0:
             var5 = var5.t;
             var5 = var5.hTnlMb;
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.MANAGE_NICKNAMES;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.KICK_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var5 = var9.showMembershipManualApprovalPermissions;
             var12 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var10 = var6[var8];
             var10 = var12.bind(var7)(var10);
             var11 = var10.intl;
@@ -397,7 +399,7 @@ case 8:
             var2['title'] = var5;
             var5 = var9.showMembershipManualApprovalPermissions;
             var10 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var10.bind(var7)(var6);
             var6 = var6.t;
@@ -409,17 +411,17 @@ case 9:
             var5 = var6.hGBAnw;
 case 11:
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.KICK_MEMBERS;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.BAN_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var10 = var5[var8];
             var10 = var6.bind(var7)(var10);
             var12 = var10.intl;
@@ -435,11 +437,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.OqNY0/;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.BAN_MEMBERS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MODERATE_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -459,11 +461,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.T6bZsX;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.MODERATE_MEMBERS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SEND_MESSAGES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -483,11 +485,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.prvWKm;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.SEND_MESSAGES;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.EMBED_LINKS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -507,11 +509,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.ChoIiy;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.EMBED_LINKS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.ATTACH_FILES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -531,11 +533,11 @@ case 11:
             var10 = var10.t;
             var10 = var10./87mYH;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.ATTACH_FILES;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.ADD_REACTIONS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -555,11 +557,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.FEYwX7;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.ADD_REACTIONS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_EXTERNAL_EMOJIS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -579,11 +581,11 @@ case 11:
             var10 = var10.t;
             var10 = var10.POeVIu;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.USE_EXTERNAL_EMOJIS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_EXTERNAL_STICKERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -603,18 +605,18 @@ case 11:
             var5 = var5.t;
             var5 = var5.AdXVhI;
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.USE_EXTERNAL_STICKERS;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MENTION_EVERYONE;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var5 = var9.inGameMentionsExperiment;
             var12 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var10 = var6[var8];
             var10 = var12.bind(var7)(var10);
             var11 = var10.intl;
@@ -634,7 +636,7 @@ case 14:
             var2['title'] = var5;
             var5 = var9.inGameMentionsExperiment;
             var12 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var10 = var6[var8];
             var10 = var12.bind(var7)(var10);
             var11 = var10.intl;
@@ -652,17 +654,17 @@ case 15:
             var5 = var10.bind(var11)(var6);
 case 17:
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.MENTION_EVERYONE;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_MESSAGES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var11 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var6 = var5[var8];
             var6 = var11.bind(var7)(var6);
             var12 = var6.intl;
@@ -678,11 +680,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.RXMG/+;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.MANAGE_MESSAGES;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.PIN_MESSAGES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -702,11 +704,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.LN/K3x;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.PIN_MESSAGES;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.BYPASS_SLOWMODE;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -726,11 +728,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.S2ZE5c;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.BYPASS_SLOWMODE;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.READ_MESSAGE_HISTORY;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -750,11 +752,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.rmHPFR;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.READ_MESSAGE_HISTORY;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SEND_TTS_MESSAGES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -774,11 +776,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.D6x8Nr;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.SEND_TTS_MESSAGES;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_APPLICATION_COMMANDS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -798,11 +800,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.pJrJ35;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.USE_APPLICATION_COMMANDS;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_EXTERNAL_APPS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -822,11 +824,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.mzLoDY;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.USE_EXTERNAL_APPS;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SEND_VOICE_MESSAGES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -846,11 +848,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.pDuyi0;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.SEND_VOICE_MESSAGES;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SEND_POLLS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -870,11 +872,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.Xl6W+F;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.SEND_POLLS;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CONNECT;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -894,11 +896,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.3GCm/f;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.CONNECT;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SPEAK;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -918,11 +920,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.y4MncF;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.SPEAK;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.STREAM;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -942,11 +944,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.6Z0j9v;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.STREAM;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_EMBEDDED_ACTIVITIES;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -966,11 +968,11 @@ case 17:
             var6 = var6.t;
             var6 = var6.BEqU5H;
             var2['description'] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.USE_EMBEDDED_ACTIVITIES;
             var2['flag'] = var6;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_SOUNDBOARD;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -995,24 +997,24 @@ case 18:
             if(!(var6 == var5)) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
             var11 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var10 = var10[var8];
             var10 = var11.bind(var7)(var10);
             var10 = var10.t;
             var5 = var10.+8p+fc;
 case 20:
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.USE_SOUNDBOARD;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_EXTERNAL_SOUNDS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var12 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var10 = var5[var8];
             var10 = var12.bind(var7)(var10);
             var13 = var10.intl;
@@ -1028,11 +1030,11 @@ case 20:
             var10 = var10.t;
             var10 = var10.qDpPtX;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.USE_EXTERNAL_SOUNDS;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.USE_VAD;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1052,11 +1054,11 @@ case 20:
             var10 = var10.t;
             var10 = var10.7CHjmc;
             var2['description'] = var10;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot3;
             var10 = var10.USE_VAD;
             var2['flag'] = var10;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.PRIORITY_SPEAKER;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1080,24 +1082,24 @@ case 22:
             if(!(var6 == var5)) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
             var9 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.t;
             var5 = var6.OJkrro;
 case 24:
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.PRIORITY_SPEAKER;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MUTE_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var11 = var9.intl;
@@ -1113,11 +1115,11 @@ case 24:
             var9 = var9.t;
             var9 = var9.PIhGA1;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.MUTE_MEMBERS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.DEAFEN_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1137,11 +1139,11 @@ case 24:
             var9 = var9.t;
             var9 = var9.FQr3+t;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.DEAFEN_MEMBERS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MOVE_MEMBERS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1161,11 +1163,11 @@ case 24:
             var9 = var9.t;
             var9 = var9.SEe0Gp;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.MOVE_MEMBERS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.REQUEST_TO_SPEAK;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1185,13 +1187,13 @@ case 24:
             var9 = var9.t;
             var9 = var9.yNE+Q5;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.REQUEST_TO_SPEAK;
             var2['flag'] = var9;
             var9 = true;
             var2['isExperimental'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.ADMINISTRATOR;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1215,7 +1217,7 @@ case 24:
             if(!(var6 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var10 = var9.intl;
@@ -1229,24 +1231,24 @@ case 27:
             _fun0002_ip = 28; continue _fun0002;
 case 26:
             var9 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.t;
             var5 = var6.UJxMrK;
 case 28:
             var2['description'] = var5;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot3;
             var5 = var5.ADMINISTRATOR;
             var2['flag'] = var5;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_EVENTS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
             var2 = {};
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var9 = var5[var8];
             var9 = var6.bind(var7)(var9);
             var11 = var9.intl;
@@ -1262,11 +1264,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.SL+qgG;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.MANAGE_EVENTS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CREATE_EVENTS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1286,11 +1288,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.bQEFJZ;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.CREATE_EVENTS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.MANAGE_THREADS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1310,11 +1312,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.QAxIIt;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.MANAGE_THREADS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CREATE_PUBLIC_THREADS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1334,11 +1336,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.ODCYj8;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.CREATE_PUBLIC_THREADS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.CREATE_PRIVATE_THREADS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1358,11 +1360,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.G/cc3l;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.CREATE_PRIVATE_THREADS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SEND_MESSAGES_IN_THREADS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1382,11 +1384,11 @@ case 28:
             var9 = var9.t;
             var9 = var9.C2ZPE3;
             var2['description'] = var9;
-            var9 = _closure1_slot2;
+            var9 = _closure1_slot3;
             var9 = var9.SEND_MESSAGES_IN_THREADS;
             var2['flag'] = var9;
             var1[var3] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var3 = var2.SET_VOICE_CHANNEL_STATUS;
             var2 = var3.toString;
             var3 = var2.bind(var3)();
@@ -1406,37 +1408,37 @@ case 28:
             var5 = var5.t;
             var5 = var5.C6BzXx;
             var2['description'] = var5;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SET_VOICE_CHANNEL_STATUS;
             var2['flag'] = var4;
             var1[var3] = var2;
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var1 = function generateGuildGeneralSection(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.VIEW_CHANNEL;
             var6 = new Array(7);
             var6[0] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.MANAGE_CHANNELS;
             var6[1] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.MANAGE_ROLES;
             var6[2] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.CREATE_GUILD_EXPRESSIONS;
             var6[3] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.MANAGE_GUILD_EXPRESSIONS;
             var6[4] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.VIEW_AUDIT_LOG;
             var6[5] = var1;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.VIEW_GUILD_ANALYTICS;
             var6[6] = var1;
             var1 = arg2;
@@ -1444,22 +1446,22 @@ case 0:
             if(!var1) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
             var2 = var6.push;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.VIEW_CREATOR_MONETIZATION_ANALYTICS;
             var1 = var2.bind(var6)(var1);
 case 29:
             var2 = var6.push;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.MANAGE_WEBHOOKS;
             var1 = var2.bind(var6)(var1);
             var2 = var6.push;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.MANAGE_GUILD;
             var1 = var2.bind(var6)(var1);
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var1 = {};
             var9 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var5 = 1;
             var7 = var10[var5];
             var2 = undefined;
@@ -1472,7 +1474,7 @@ case 29:
             var5 = var5.mYck+B;
             var5 = var7.bind(var8)(var5);
             var1['title'] = var5;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot5;
             var4 = arg1;
             var4 = var5.bind(var2)(var6, var4);
             var1['permissions'] = var4;
@@ -1480,31 +1482,31 @@ case 29:
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var1 = function generateGuildMembershipSection(arg1) {
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.CREATE_INSTANT_INVITE;
         var6 = new Array(6);
         var6[0] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.CHANGE_NICKNAME;
         var6[1] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.MANAGE_NICKNAMES;
         var6[2] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.KICK_MEMBERS;
         var6[3] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.BAN_MEMBERS;
         var6[4] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.MODERATE_MEMBERS;
         var6[5] = var1;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var1 = {};
         var9 = _closure1_slot0;
-        var10 = _closure1_slot1;
+        var10 = _closure1_slot2;
         var5 = 1;
         var7 = var10[var5];
         var2 = undefined;
@@ -1517,74 +1519,74 @@ case 29:
         var5 = var5.Ny49TN;
         var5 = var7.bind(var8)(var5);
         var1['title'] = var5;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var4 = arg1;
         var4 = var5.bind(var2)(var6, var4);
         var1['permissions'] = var4;
         var2 = var3.bind(var2)(var1);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = function generateGuildTextSection(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg2;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.SEND_MESSAGES;
             var7 = new Array(19);
             var7[0] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.SEND_MESSAGES_IN_THREADS;
             var7[1] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.CREATE_PUBLIC_THREADS;
             var7[2] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.CREATE_PRIVATE_THREADS;
             var7[3] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.EMBED_LINKS;
             var7[4] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.ATTACH_FILES;
             var7[5] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.ADD_REACTIONS;
             var7[6] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.USE_EXTERNAL_EMOJIS;
             var7[7] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.USE_EXTERNAL_STICKERS;
             var7[8] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.USE_EXTERNAL_SOUNDS;
             var7[9] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.MENTION_EVERYONE;
             var7[10] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.MANAGE_MESSAGES;
             var7[11] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.PIN_MESSAGES;
             var7[12] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.BYPASS_SLOWMODE;
             var7[13] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.MANAGE_THREADS;
             var7[14] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.READ_MESSAGE_HISTORY;
             var7[15] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.SEND_TTS_MESSAGES;
             var7[16] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.SEND_VOICE_MESSAGES;
             var7[17] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.SEND_POLLS;
             var7[18] = var3;
             var5 = var2.inSoundmojiExperiment;
@@ -1593,7 +1595,7 @@ case 0:
 case 32:
             var6 = var7.filter;
             var5 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -1607,7 +1609,7 @@ case 31:
 case 34:
             var2 = var3.filter;
             var1 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.BYPASS_SLOWMODE;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -1615,10 +1617,10 @@ case 34:
             };
             var6 = var2.bind(var3)(var1);
 case 33:
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var1 = {};
             var9 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var5 = 1;
             var7 = var10[var5];
             var2 = undefined;
@@ -1631,7 +1633,7 @@ case 33:
             var5 = var5.cKobO5;
             var5 = var7.bind(var8)(var5);
             var1['title'] = var5;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot5;
             var4 = arg1;
             var4 = var5.bind(var2)(var6, var4);
             var1['permissions'] = var4;
@@ -1639,46 +1641,46 @@ case 33:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function generateGuildVoiceSection(arg1) {
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.CONNECT;
         var6 = new Array(11);
         var6[0] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.SPEAK;
         var6[1] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.STREAM;
         var6[2] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_SOUNDBOARD;
         var6[3] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_EXTERNAL_SOUNDS;
         var6[4] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_VAD;
         var6[5] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.PRIORITY_SPEAKER;
         var6[6] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.MUTE_MEMBERS;
         var6[7] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.DEAFEN_MEMBERS;
         var6[8] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.MOVE_MEMBERS;
         var6[9] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.SET_VOICE_CHANNEL_STATUS;
         var6[10] = var1;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var1 = {};
         var9 = _closure1_slot0;
-        var10 = _closure1_slot1;
+        var10 = _closure1_slot2;
         var5 = 1;
         var7 = var10[var5];
         var2 = undefined;
@@ -1691,29 +1693,29 @@ case 33:
         var5 = var5.46Ra1b;
         var5 = var7.bind(var8)(var5);
         var1['title'] = var5;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var4 = arg1;
         var4 = var5.bind(var2)(var6, var4);
         var1['permissions'] = var4;
         var2 = var3.bind(var2)(var1);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function generateGuildAppsSection(arg1) {
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_APPLICATION_COMMANDS;
         var6 = new Array(3);
         var6[0] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_EMBEDDED_ACTIVITIES;
         var6[1] = var1;
-        var1 = _closure1_slot2;
+        var1 = _closure1_slot3;
         var1 = var1.USE_EXTERNAL_APPS;
         var6[2] = var1;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var1 = {};
         var9 = _closure1_slot0;
-        var10 = _closure1_slot1;
+        var10 = _closure1_slot2;
         var5 = 1;
         var7 = var10[var5];
         var2 = undefined;
@@ -1726,14 +1728,14 @@ case 33:
         var5 = var5.rrh/W6;
         var5 = var7.bind(var8)(var5);
         var1['title'] = var5;
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var4 = arg1;
         var4 = var5.bind(var2)(var6, var4);
         var1['permissions'] = var4;
         var2 = var3.bind(var2)(var1);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1747,8 +1749,8 @@ case 33:
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var5 = var5.Permissions;
-    var _closure1_slot2 = var5;
-    var5 = 3;
+    var _closure1_slot3 = var5;
+    var5 = 4;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1759,33 +1761,33 @@ case 33:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var10 = arg1;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var5 = undefined;
             var8 = var1.bind(var5)(var10);
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot7;
             var2 = var1.bind(var5)(var8, var10);
             var1 = new Array(5);
             var1[0] = var2;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var2 = var2.bind(var5)(var8);
             var1[1] = var2;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var2 = var2.bind(var5)(var8, var10);
             var1[2] = var2;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var2 = var2.bind(var5)(var8);
             var1[3] = var2;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var2 = var2.bind(var5)(var8);
             var1[4] = var2;
             var2 = var10.showStageChannelPermissions;
             if(!var2) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
             var3 = var1.push;
-            var7 = _closure1_slot3;
+            var7 = _closure1_slot4;
             var2 = {};
             var12 = _closure1_slot0;
-            var13 = _closure1_slot1;
+            var13 = _closure1_slot2;
             var4 = 1;
             var9 = var13[var4];
             var9 = var12.bind(var5)(var9);
@@ -1797,8 +1799,8 @@ case 36:
             var4 = var4.yniauk;
             var4 = var9.bind(var11)(var4);
             var2['title'] = var4;
-            var9 = _closure1_slot4;
-            var4 = _closure1_slot2;
+            var9 = _closure1_slot5;
+            var4 = _closure1_slot3;
             var11 = var4.REQUEST_TO_SPEAK;
             var4 = new Array(1);
             var4[0] = var11;
@@ -1809,10 +1811,10 @@ case 36:
             var2 = var3.bind(var1)(var2);
 case 35:
             var3 = var1.push;
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot4;
             var2 = {};
             var12 = _closure1_slot0;
-            var13 = _closure1_slot1;
+            var13 = _closure1_slot2;
             var9 = 1;
             var7 = var13[var9];
             var7 = var12.bind(var5)(var7);
@@ -1824,12 +1826,12 @@ case 35:
             var7 = var7.b8lplT;
             var7 = var11.bind(var14)(var7);
             var2['title'] = var7;
-            var7 = _closure1_slot4;
-            var11 = _closure1_slot2;
+            var7 = _closure1_slot5;
+            var11 = _closure1_slot3;
             var14 = var11.CREATE_EVENTS;
             var11 = new Array(2);
             var11[0] = var14;
-            var14 = _closure1_slot2;
+            var14 = _closure1_slot3;
             var14 = var14.MANAGE_EVENTS;
             var11[1] = var14;
             var11 = var7.bind(var5)(var11, var8);
@@ -1849,7 +1851,7 @@ case 35:
             var9 = var9.3uI5CX;
             var9 = var10.bind(var11)(var9);
             var2['title'] = var9;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var9 = var6.ADMINISTRATOR;
             var6 = new Array(1);
             var6[0] = var9;
@@ -1876,36 +1878,36 @@ case 37:
             var1 = {};
             var3 = arg2;
             var1['title'] = var3;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var3 = null;
             if(!(var3 != var2)) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
             var2 = var2.showManageWebhooks;
             if(var2) { _fun0006_ip = 41; continue _fun0006 }
 case 39:
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.VIEW_CHANNEL;
             var3 = new Array(3);
             var3[0] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.MANAGE_CHANNELS;
             var3[1] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.MANAGE_ROLES;
             var3[2] = var2;
             _fun0006_ip = 42; continue _fun0006;
 case 41:
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var7 = var2.VIEW_CHANNEL;
             var2 = new Array(4);
             var2[0] = var7;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot3;
             var7 = var7.MANAGE_CHANNELS;
             var2[1] = var7;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot3;
             var7 = var7.MANAGE_ROLES;
             var2[2] = var7;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.MANAGE_WEBHOOKS;
             var2[3] = var6;
             var3 = var2;
@@ -1921,8 +1923,8 @@ case 42:
         var1 = {};
         var2 = arg2;
         var1['title'] = var2;
-        var5 = _closure1_slot4;
-        var2 = _closure1_slot2;
+        var5 = _closure1_slot5;
+        var2 = _closure1_slot3;
         var2 = var2.CREATE_INSTANT_INVITE;
         var4 = new Array(1);
         var4[0] = var2;
@@ -1937,62 +1939,62 @@ case 42:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var3 = arg3;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_MESSAGES;
             var7 = new Array(19);
             var7[0] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_MESSAGES_IN_THREADS;
             var7[1] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.CREATE_PUBLIC_THREADS;
             var7[2] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.CREATE_PRIVATE_THREADS;
             var7[3] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.EMBED_LINKS;
             var7[4] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.ATTACH_FILES;
             var7[5] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.ADD_REACTIONS;
             var7[6] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_EMOJIS;
             var7[7] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_STICKERS;
             var7[8] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_SOUNDS;
             var7[9] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.MENTION_EVERYONE;
             var7[10] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.MANAGE_MESSAGES;
             var7[11] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.PIN_MESSAGES;
             var7[12] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.BYPASS_SLOWMODE;
             var7[13] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.MANAGE_THREADS;
             var7[14] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.READ_MESSAGE_HISTORY;
             var7[15] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_TTS_MESSAGES;
             var7[16] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_VOICE_MESSAGES;
             var7[17] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_POLLS;
             var7[18] = var4;
             var4 = var3.inSoundmojiExperiment;
@@ -2001,7 +2003,7 @@ case 0:
 case 32:
             var5 = var7.filter;
             var4 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2019,7 +2021,7 @@ case 43:
 case 46:
             var5 = var6.filter;
             var4 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.CREATE_PRIVATE_THREADS;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2033,7 +2035,7 @@ case 45:
 case 48:
             var5 = var7.filter;
             var4 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.CREATE_PUBLIC_THREADS;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2047,7 +2049,7 @@ case 47:
 case 50:
             var4 = var6.filter;
             var1 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.BYPASS_SLOWMODE;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2060,7 +2062,7 @@ case 49:
             var1['title'] = var4;
             var3 = var3.sectionDescription;
             var1['description'] = var3;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var3 = undefined;
             var2 = arg1;
             var2 = var4.bind(var3)(var5, var2);
@@ -2073,39 +2075,39 @@ case 49:
         var1 = {};
         var2 = arg2;
         var1['title'] = var2;
-        var5 = _closure1_slot4;
-        var3 = _closure1_slot2;
+        var5 = _closure1_slot5;
+        var3 = _closure1_slot3;
         var3 = var3.CONNECT;
         var4 = new Array(11);
         var4[0] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.SPEAK;
         var4[1] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.STREAM;
         var4[2] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.USE_SOUNDBOARD;
         var4[3] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.USE_EXTERNAL_SOUNDS;
         var4[4] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.USE_VAD;
         var4[5] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.PRIORITY_SPEAKER;
         var4[6] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.MUTE_MEMBERS;
         var4[7] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.DEAFEN_MEMBERS;
         var4[8] = var3;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot3;
         var3 = var3.MOVE_MEMBERS;
         var4[9] = var3;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var2 = var2.SET_VOICE_CHANNEL_STATUS;
         var4[10] = var2;
         var3 = undefined;
@@ -2119,47 +2121,47 @@ case 49:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = arg3;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_MESSAGES;
             var7 = new Array(14);
             var7[0] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.EMBED_LINKS;
             var7[1] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.ATTACH_FILES;
             var7[2] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.ADD_REACTIONS;
             var7[3] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_EMOJIS;
             var7[4] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_STICKERS;
             var7[5] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_SOUNDS;
             var7[6] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.MENTION_EVERYONE;
             var7[7] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.MANAGE_MESSAGES;
             var7[8] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.BYPASS_SLOWMODE;
             var7[9] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.READ_MESSAGE_HISTORY;
             var7[10] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_TTS_MESSAGES;
             var7[11] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_VOICE_MESSAGES;
             var7[12] = var4;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.SEND_POLLS;
             var7[13] = var4;
             var4 = var3.inSoundmojiExperiment;
@@ -2168,7 +2170,7 @@ case 0:
 case 52:
             var5 = var7.filter;
             var4 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2182,7 +2184,7 @@ case 51:
 case 54:
             var4 = var6.filter;
             var1 = function(arg1) {
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = var1.BYPASS_SLOWMODE;
                 var1 = arg1;
                 var1 = var1 !== var2;
@@ -2195,7 +2197,7 @@ case 53:
             var1['title'] = var4;
             var3 = var3.sectionDescription;
             var1['description'] = var3;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var3 = undefined;
             var2 = arg1;
             var2 = var4.bind(var3)(var5, var2);
@@ -2219,8 +2221,8 @@ case 37:
             var1 = {};
             var2 = arg2;
             var1['title'] = var2;
-            var4 = _closure1_slot4;
-            var6 = _closure1_slot2;
+            var4 = _closure1_slot5;
+            var6 = _closure1_slot3;
             var7 = var6.USE_APPLICATION_COMMANDS;
             var6 = new Array(3);
             var6[0] = var7;
@@ -2228,16 +2230,16 @@ case 37:
             var3 = null;
             if(!var7) { _fun0009_ip = 55; continue _fun0009 }
 case 56:
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot3;
             var3 = var7.USE_EMBEDDED_ACTIVITIES;
 case 55:
             var6[1] = var3;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.USE_EXTERNAL_APPS;
             var6[2] = var3;
             var3 = var6.filter;
             var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot2;
             var2 = 2;
             var2 = var8[var2];
             var2 = var7.bind(var5)(var2);
@@ -2256,31 +2258,31 @@ case 0:
             var1 = {};
             var2 = arg2;
             var1['title'] = var2;
-            var5 = _closure1_slot4;
-            var2 = _closure1_slot2;
+            var5 = _closure1_slot5;
+            var2 = _closure1_slot3;
             var6 = var2.CONNECT;
             var2 = arg3;
             if(var2) { _fun0010_ip = 57; continue _fun0010 }
 case 58:
             var4 = new Array(3);
             var4[0] = var6;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.MUTE_MEMBERS;
             var4[1] = var2;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.MOVE_MEMBERS;
             var4[2] = var2;
             _fun0010_ip = 59; continue _fun0010;
 case 57:
             var2 = new Array(4);
             var2[0] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.STREAM;
             var2[1] = var6;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot3;
             var6 = var6.MUTE_MEMBERS;
             var2[2] = var6;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.MOVE_MEMBERS;
             var2[3] = var3;
             var4 = var2;
@@ -2297,12 +2299,12 @@ case 59:
         var1 = {};
         var2 = arg2;
         var1['title'] = var2;
-        var5 = _closure1_slot4;
-        var3 = _closure1_slot2;
+        var5 = _closure1_slot5;
+        var3 = _closure1_slot3;
         var3 = var3.REQUEST_TO_SPEAK;
         var4 = new Array(2);
         var4[0] = var3;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var2 = var2.MENTION_EVERYONE;
         var4[1] = var2;
         var3 = undefined;
@@ -2316,12 +2318,12 @@ case 59:
         var1 = {};
         var2 = arg2;
         var1['title'] = var2;
-        var5 = _closure1_slot4;
-        var3 = _closure1_slot2;
+        var5 = _closure1_slot5;
+        var3 = _closure1_slot3;
         var3 = var3.CREATE_EVENTS;
         var4 = new Array(2);
         var4[0] = var3;
-        var2 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var2 = var2.MANAGE_EVENTS;
         var4[1] = var2;
         var3 = undefined;
@@ -2348,7 +2350,7 @@ case 62:
             if(!(var3 === var5)) { _fun0011_ip = 63; continue _fun0011 }
 case 64:
             var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var3 = 1;
             var5 = var5[var3];
             var3 = undefined;
@@ -2369,78 +2371,158 @@ case 60:
         }
     };
     var3['renderDescription'] = var4;
-    var2 = function getMigrationWarning(arg1, arg2) {
+    var2 = function getMigrationWarning(arg1, arg2, arg3) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var5 = arg1;
-            var2 = _closure1_slot2;
-            var1 = arg2;
-            if(var1) { _fun0012_ip = 60; continue _fun0012 }
-case 66:
-            var4 = var2.MANAGE_MESSAGES;
-            var1 = null;
-            if(!(var5 === var4)) { _fun0012_ip = 67; continue _fun0012 }
-case 68:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var4 = 1;
-            var6 = var10[var4];
+            var6 = arg1;
+            var2 = arg2;
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 3;
+            var1 = var5[var1];
             var8 = undefined;
+            var5 = var3.bind(var8)(var1);
+            var3 = var5.getCurrentConfig;
+            var1 = {};
+            var7 = arg3;
+            var1['guildId'] = var7;
+            var7 = 'getMigrationWarning';
+            var1['location'] = var7;
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.enabled;
+            var3 = _closure1_slot3;
+            if(var1) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
+            if(var2) { _fun0012_ip = 68; continue _fun0012 }
+case 63:
+            var5 = var3.MANAGE_MESSAGES;
+            var1 = null;
+            if(!(var6 === var5)) { _fun0012_ip = 69; continue _fun0012 }
+case 65:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var5 = 1;
+            var7 = var11[var5];
+            var7 = var10.bind(var8)(var7);
+            var9 = var7.intl;
+            var7 = var9.string;
+            var5 = var11[var5];
+            var5 = var10.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.2XIdPp;
+            var1 = var7.bind(var9)(var5);
+case 69:
+            _fun0012_ip = 70; continue _fun0012;
+case 68:
+            var5 = var3.MANAGE_CHANNELS;
+            if(!(var6 !== var5)) { _fun0012_ip = 71; continue _fun0012 }
+case 72:
+            var5 = _closure1_slot3;
+            var5 = var5.MANAGE_THREADS;
+            if(!(var6 !== var5)) { _fun0012_ip = 71; continue _fun0012 }
+case 73:
+            var5 = _closure1_slot3;
+            var7 = var5.MANAGE_MESSAGES;
+            var5 = null;
+            if(!(var6 === var7)) { _fun0012_ip = 74; continue _fun0012 }
+case 75:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 1;
+            var9 = var12[var7];
+            var9 = var11.bind(var8)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var7 = var12[var7];
+            var7 = var11.bind(var8)(var7);
+            var7 = var7.t;
+            var7 = var7.zSc2tb;
+            var5 = var9.bind(var10)(var7);
+case 74:
+            _fun0012_ip = 31; continue _fun0012;
+case 71:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 1;
+            var9 = var12[var7];
+            var9 = var11.bind(var8)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var7 = var12[var7];
+            var7 = var11.bind(var8)(var7);
+            var7 = var7.t;
+            var7 = var7.Han3PH;
+            var5 = var9.bind(var10)(var7);
+case 31:
+            var1 = var5;
+case 70:
+            _fun0012_ip = 76; continue _fun0012;
+case 66:
+            if(var2) { _fun0012_ip = 77; continue _fun0012 }
+case 78:
+            var5 = var3.MANAGE_MESSAGES;
+            var2 = null;
+            if(!(var6 === var5)) { _fun0012_ip = 79; continue _fun0012 }
+case 80:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var5 = 1;
+            var7 = var11[var5];
+            var7 = var10.bind(var8)(var7);
+            var9 = var7.intl;
+            var7 = var9.string;
+            var5 = var11[var5];
+            var5 = var10.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.bU1J1V;
+            var2 = var7.bind(var9)(var5);
+case 79:
+            _fun0012_ip = 81; continue _fun0012;
+case 77:
+            var3 = var3.MANAGE_CHANNELS;
+            if(!(var6 !== var3)) { _fun0012_ip = 82; continue _fun0012 }
+case 83:
+            var3 = _closure1_slot3;
+            var3 = var3.MANAGE_THREADS;
+            if(!(var6 !== var3)) { _fun0012_ip = 82; continue _fun0012 }
+case 84:
+            var3 = _closure1_slot3;
+            var5 = var3.MANAGE_MESSAGES;
+            var3 = null;
+            if(!(var6 === var5)) { _fun0012_ip = 85; continue _fun0012 }
+case 86:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var5 = 1;
+            var6 = var10[var5];
             var6 = var9.bind(var8)(var6);
             var7 = var6.intl;
             var6 = var7.string;
-            var4 = var10[var4];
-            var4 = var9.bind(var8)(var4);
-            var4 = var4.t;
-            var4 = var4.2XIdPp;
-            var1 = var6.bind(var7)(var4);
-case 67:
-            _fun0012_ip = 69; continue _fun0012;
-case 60:
-            var2 = var2.MANAGE_CHANNELS;
-            if(!(var5 !== var2)) { _fun0012_ip = 70; continue _fun0012 }
-case 71:
-            var2 = _closure1_slot2;
-            var2 = var2.MANAGE_THREADS;
-            if(!(var5 !== var2)) { _fun0012_ip = 70; continue _fun0012 }
-case 72:
-            var2 = _closure1_slot2;
-            var4 = var2.MANAGE_MESSAGES;
-            var2 = null;
-            if(!(var5 === var4)) { _fun0012_ip = 73; continue _fun0012 }
-case 74:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
+            var5 = var10[var5];
+            var5 = var9.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.62sGhW;
+            var3 = var6.bind(var7)(var5);
+case 85:
+            _fun0012_ip = 87; continue _fun0012;
+case 82:
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var4 = 1;
             var5 = var9[var4];
-            var7 = undefined;
-            var5 = var8.bind(var7)(var5);
+            var5 = var7.bind(var8)(var5);
             var6 = var5.intl;
             var5 = var6.string;
             var4 = var9[var4];
-            var4 = var8.bind(var7)(var4);
+            var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.zSc2tb;
-            var2 = var5.bind(var6)(var4);
-case 73:
-            _fun0012_ip = 75; continue _fun0012;
-case 70:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var3 = 1;
-            var4 = var8[var3];
-            var6 = undefined;
-            var4 = var7.bind(var6)(var4);
-            var5 = var4.intl;
-            var4 = var5.string;
-            var3 = var8[var3];
-            var3 = var7.bind(var6)(var3);
-            var3 = var3.t;
-            var3 = var3.Han3PH;
-            var2 = var4.bind(var5)(var3);
-case 75:
+            var4 = var4.JD3HnA;
+            var3 = var5.bind(var6)(var4);
+case 87:
+            var2 = var3;
+case 81:
             var1 = var2;
-case 69:
+case 76:
             return var1;
         }
     };

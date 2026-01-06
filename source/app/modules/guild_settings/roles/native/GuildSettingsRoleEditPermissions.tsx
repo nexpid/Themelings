@@ -580,11 +580,13 @@ case 26:
                     var22 = 24;
                     var2 = var2[var22];
                     var4 = undefined;
-                    var5 = var3.bind(var4)(var2);
-                    var3 = var5.getMigrationWarning;
-                    var2 = var1.flag;
-                    var1 = _closure2_slot12;
-                    var18 = var3.bind(var5)(var2, var1);
+                    var6 = var3.bind(var4)(var2);
+                    var5 = var6.getMigrationWarning;
+                    var3 = var1.flag;
+                    var2 = _closure2_slot12;
+                    var1 = _closure2_slot0;
+                    var1 = var1.id;
+                    var18 = var5.bind(var6)(var3, var2, var1);
                     var13 = null;
                     var6 = var19;
                     if(!(var13 != var18)) { _fun0003_ip = 28; continue _fun0003 }

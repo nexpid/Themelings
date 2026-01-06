@@ -1,14 +1,14 @@
 // app/records/ChannelRecord.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var50 = require;
+    var52 = require;
     var9 = metroImportDefault;
     var11 = metroImportAll;
     var3 = exports;
-    var51 = dependencyMap;
-    var _closure1_slot0 = var50;
+    var53 = dependencyMap;
+    var _closure1_slot0 = var52;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var11;
-    var _closure1_slot3 = var51;
+    var _closure1_slot3 = var53;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -19,7 +19,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot4;
-            var1 = _closure1_slot36;
+            var1 = _closure1_slot37;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -43,7 +43,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot36 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -76,14 +76,14 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot36 = var2;
+            _closure1_slot37 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
-    var43 = function isGuildVocalChannelType(arg1) {
+    var _closure1_slot37 = var1;
+    var45 = function isGuildVocalChannelType(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = arg1;
@@ -98,39 +98,47 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot37 = var43;
-    var41 = function _isPrivate(arg1) {
+    var _closure1_slot38 = var45;
+    var43 = function _isPrivate(arg1) {
         var3 = _closure1_slot20;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot38 = var41;
-    var40 = function _isMultiUserDM(arg1) {
+    var _closure1_slot39 = var43;
+    var42 = function _isMultiUserDM(arg1) {
         var3 = _closure1_slot21;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot39 = var40;
-    var38 = function isVoiceChannel(arg1) {
+    var _closure1_slot40 = var42;
+    var40 = function isVoiceChannel(arg1) {
         var3 = _closure1_slot23;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot40 = var38;
-    var35 = function _isThread(arg1) {
+    var _closure1_slot41 = var40;
+    var36 = function _isThread(arg1) {
         var3 = _closure1_slot25;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot41 = var35;
+    var _closure1_slot42 = var36;
+    var35 = function isVocalThreadType(arg1) {
+        var3 = _closure1_slot26;
+        var2 = var3.has;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot43 = var35;
     var1 = function convertPermissionOverwrites(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -174,7 +182,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot44 = var1;
     var1 = function convertNicks(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -206,7 +214,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot45 = var1;
     var1 = function convertAvailableTags(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -249,7 +257,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot46 = var1;
     var1 = function convertIconEmoji(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -269,11 +277,11 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot47 = var1;
     var23 = function getAccessPermissions(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var4 = _closure1_slot37;
+            var4 = _closure1_slot38;
             var3 = undefined;
             var1 = arg1;
             var1 = var4.bind(var3)(var1);
@@ -283,12 +291,12 @@ case 22:
             var1 = var1.VIEW_CHANNEL;
             _fun0009_ip = 23; continue _fun0009;
 case 13:
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
 case 23:
             return var1;
         }
     };
-    var _closure1_slot46 = var23;
+    var _closure1_slot48 = var23;
     var1 = function transformNonUnderscoreProperties(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -360,12 +368,12 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot49 = var1;
     var4 = function castChannelRecord(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
-            var5 = _closure1_slot34;
+            var5 = _closure1_slot35;
             var3 = var4.type;
             var2 = null;
             if(!(var2 == var3)) { _fun0011_ip = 24; continue _fun0011 }
@@ -376,7 +384,7 @@ case 24:
             var3 = var5[var3];
             if(!(var2 == var3)) { _fun0011_ip = 19; continue _fun0011 }
 case 39:
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
 case 19:
             var5 = _closure1_slot0;
             var2 = _closure1_slot3;
@@ -389,12 +397,12 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot48 = var4;
+    var _closure1_slot50 = var4;
     var2 = function createChannelRecord(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var3 = arg1;
-            var5 = _closure1_slot34;
+            var5 = _closure1_slot35;
             var1 = var3.type;
             var4 = null;
             if(!(var4 == var1)) { _fun0012_ip = 24; continue _fun0012 }
@@ -405,9 +413,9 @@ case 24:
             var1 = var5[var1];
             if(!(var4 == var1)) { _fun0012_ip = 19; continue _fun0012 }
 case 39:
-            var1 = _closure1_slot30;
+            var1 = _closure1_slot31;
 case 19:
-            var4 = _closure1_slot47;
+            var4 = _closure1_slot49;
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var2 = var1.prototype;
@@ -419,7 +427,7 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot49 = var2;
+    var _closure1_slot51 = var2;
     var6 = global;
     var10 = var6.Object;
     var8 = var10.defineProperty;
@@ -429,37 +437,37 @@ case 19:
     var1 = '__esModule';
     var1 = var8.bind(var10)(var3, var1, var7);
     var1 = 0;
-    var7 = var51[var1];
+    var7 = var53[var1];
     var1 = undefined;
     var7 = var9.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var7 = 1;
-    var7 = var51[var7];
+    var7 = var53[var7];
     var7 = var9.bind(var1)(var7);
     var _closure1_slot5 = var7;
     var7 = 2;
-    var7 = var51[var7];
+    var7 = var53[var7];
     var7 = var9.bind(var1)(var7);
     var _closure1_slot6 = var7;
     var7 = 3;
-    var7 = var51[var7];
+    var7 = var53[var7];
     var8 = var9.bind(var1)(var7);
     var _closure1_slot7 = var8;
     var7 = 4;
-    var7 = var51[var7];
+    var7 = var53[var7];
     var7 = var9.bind(var1)(var7);
     var _closure1_slot8 = var7;
     var7 = 5;
-    var7 = var51[var7];
+    var7 = var53[var7];
     var7 = var9.bind(var1)(var7);
     var _closure1_slot9 = var7;
     var7 = 6;
-    var7 = var51[var7];
-    var9 = var50.bind(var1)(var7);
+    var7 = var53[var7];
+    var9 = var52.bind(var1)(var7);
     var7 = var9.BITRATE_DEFAULT;
     var _closure1_slot10 = var7;
-    var52 = var9.ChannelTypes;
-    var _closure1_slot11 = var52;
+    var54 = var9.ChannelTypes;
+    var _closure1_slot11 = var54;
     var7 = var9.BasicPermissions;
     var _closure1_slot12 = var7;
     var10 = var9.ChannelTypesSets;
@@ -467,574 +475,587 @@ case 19:
     var9 = var9.Permissions;
     var _closure1_slot14 = var9;
     var10 = 7;
-    var10 = var51[var10];
-    var10 = var50.bind(var1)(var10);
+    var10 = var53[var10];
+    var10 = var52.bind(var1)(var10);
     var10 = var10.ChannelFlags;
     var _closure1_slot15 = var10;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(10);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[2] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[3] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[4] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[5] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[6] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[7] = var12;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10[8] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[9] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot16 = var10;
     var13 = var6.Set;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10 = new Array(14);
     var10[0] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[1] = var12;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10[2] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[3] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[4] = var12;
-    var12 = var52.GUILD_CATEGORY;
+    var12 = var54.GUILD_CATEGORY;
     var10[5] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[6] = var12;
-    var12 = var52.GUILD_STORE;
+    var12 = var54.GUILD_STORE;
     var10[7] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[8] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[9] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[10] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[11] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[12] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[13] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var48 = var10 instanceof Object ? var10 : var12;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var50 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(5);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[2] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[3] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[4] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot17 = var10;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(6);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[4] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[5] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var47 = var10 instanceof Object ? var10 : var12;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var49 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(12);
     var10[0] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[1] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[2] = var12;
-    var12 = var52.GUILD_CATEGORY;
+    var12 = var54.GUILD_CATEGORY;
     var10[3] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[4] = var12;
-    var12 = var52.GUILD_STORE;
+    var12 = var54.GUILD_STORE;
     var10[5] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[6] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[7] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[8] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[9] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[10] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[11] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var46 = var10 instanceof Object ? var10 : var12;
-    var _closure1_slot18 = var46;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var48 = var10 instanceof Object ? var10 : var12;
+    var _closure1_slot18 = var48;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var45 = var10 instanceof Object ? var10 : var12;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var47 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10 = new Array(2);
     var10[0] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[1] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var44 = var10 instanceof Object ? var10 : var12;
-    var _closure1_slot19 = var44;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var46 = var10 instanceof Object ? var10 : var12;
+    var _closure1_slot19 = var46;
     var13 = var6.Set;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10 = new Array(1);
     var10[0] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var42 = var10 instanceof Object ? var10 : var12;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var44 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10 = new Array(2);
     var10[0] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[1] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot20 = var10;
     var13 = var6.Set;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10 = new Array(1);
     var10[0] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot21 = var10;
     var13 = var6.Set;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10 = new Array(7);
     var10[0] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[1] = var12;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10[2] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[3] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[4] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[5] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[6] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var39 = var10 instanceof Object ? var10 : var12;
-    var _closure1_slot22 = var39;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var41 = var10 instanceof Object ? var10 : var12;
+    var _closure1_slot22 = var41;
     var13 = var6.Set;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10 = new Array(6);
     var10[0] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[1] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[2] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[3] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[4] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[5] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot23 = var10;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(10);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[2] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[3] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[4] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[5] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[6] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[7] = var12;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10[8] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[9] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
     var _closure1_slot24 = var10;
     var13 = var6.Set;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10 = new Array(3);
     var10[0] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[1] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[2] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var37 = var10 instanceof Object ? var10 : var12;
-    var _closure1_slot25 = var37;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var39 = var10 instanceof Object ? var10 : var12;
+    var _closure1_slot25 = var39;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.PUBLIC_THREAD;
+    var10 = new Array(2);
+    var10[0] = var12;
+    var12 = var54.PRIVATE_THREAD;
+    var10[1] = var12;
+    var12 = var13.prototype;
+    var12 = Object.create(var12, {constructor: {value: var13}});
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var38 = var10 instanceof Object ? var10 : var12;
+    var _closure1_slot26 = var38;
+    var13 = var6.Set;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
-    var36 = var10 instanceof Object ? var10 : var12;
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
+    var37 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.DM;
+    var12 = var54.DM;
     var10 = new Array(12);
     var10[0] = var12;
-    var12 = var52.GROUP_DM;
+    var12 = var54.GROUP_DM;
     var10[1] = var12;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10[2] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[3] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[4] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[5] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[6] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[7] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[8] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[9] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[10] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[11] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var10 = var10 instanceof Object ? var10 : var12;
-    var _closure1_slot26 = var10;
+    var _closure1_slot27 = var10;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(11);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_STORE;
+    var12 = var54.GUILD_STORE;
     var10[2] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[3] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[4] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[5] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[6] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[7] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[8] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[9] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[10] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var34 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10 = new Array(9);
     var10[0] = var12;
-    var12 = var52.GUILD_CATEGORY;
+    var12 = var54.GUILD_CATEGORY;
     var10[1] = var12;
-    var12 = var52.GUILD_STORE;
+    var12 = var54.GUILD_STORE;
     var10[2] = var12;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10[3] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[4] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[5] = var12;
-    var12 = var52.GUILD_DIRECTORY;
+    var12 = var54.GUILD_DIRECTORY;
     var10[6] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[7] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[8] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var33 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(2);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var32 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var31 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(6);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[4] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[5] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var30 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10 = new Array(5);
     var10[0] = var12;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[3] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[4] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var29 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(8);
     var10[0] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[1] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[2] = var12;
-    var12 = var52.ANNOUNCEMENT_THREAD;
+    var12 = var54.ANNOUNCEMENT_THREAD;
     var10[3] = var12;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10[4] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[5] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[6] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[7] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var28 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.PUBLIC_THREAD;
+    var12 = var54.PUBLIC_THREAD;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.PRIVATE_THREAD;
+    var12 = var54.PRIVATE_THREAD;
     var10[1] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[2] = var12;
-    var12 = var52.GUILD_STAGE_VOICE;
+    var12 = var54.GUILD_STAGE_VOICE;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var27 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(3);
     var10[0] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[1] = var12;
-    var12 = var52.GUILD_MEDIA;
+    var12 = var54.GUILD_MEDIA;
     var10[2] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var26 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.GUILD_CATEGORY;
+    var12 = var54.GUILD_CATEGORY;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var25 = var10 instanceof Object ? var10 : var12;
     var13 = var6.Set;
-    var12 = var52.GUILD_TEXT;
+    var12 = var54.GUILD_TEXT;
     var10 = new Array(4);
     var10[0] = var12;
-    var12 = var52.GUILD_ANNOUNCEMENT;
+    var12 = var54.GUILD_ANNOUNCEMENT;
     var10[1] = var12;
-    var12 = var52.GUILD_FORUM;
+    var12 = var54.GUILD_FORUM;
     var10[2] = var12;
-    var12 = var52.GUILD_VOICE;
+    var12 = var54.GUILD_VOICE;
     var10[3] = var12;
     var12 = var13.prototype;
     var12 = Object.create(var12, {constructor: {value: var13}});
-    var58 = var12;
-    var57 = var10;
-    var10 = new var58[var13](var57, var56);
+    var60 = var12;
+    var59 = var10;
+    var10 = new var60[var13](var59, var58);
     var24 = var10 instanceof Object ? var10 : var12;
     var10 = 8;
-    var10 = var51[var10];
+    var10 = var53[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.combine;
     var10 = var9.CONNECT;
     var9 = var9.VIEW_CHANNEL;
     var9 = var11.bind(var12)(var10, var9);
-    var _closure1_slot27 = var9;
+    var _closure1_slot28 = var9;
     var9 = var7.CONNECT;
     var7 = var7.VIEW_CHANNEL;
     var7 = var9 | var7;
-    var _closure1_slot28 = var7;
+    var _closure1_slot29 = var7;
     var7 = function ChannelRecordProperties(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var4 = arg1;
             var3 = this;
             var5 = _closure1_slot8;
-            var2 = _closure1_slot50;
+            var2 = _closure1_slot52;
             var1 = undefined;
             var2 = var5.bind(var1)(var3, var2);
             var2 = var4.id;
@@ -1066,13 +1087,13 @@ case 44:
             return var1;
         }
     };
-    var _closure1_slot50 = var7;
+    var _closure1_slot52 = var7;
     var22 = var8.bind(var1)(var7);
     var8 = var6.Object;
     var7 = var8.freeze;
     var6 = {};
     var6 = var7.bind(var8)(var6);
-    var _closure1_slot29 = var6;
+    var _closure1_slot30 = var6;
     var6 = function(arg1) {
         var4 = function ChannelRecordBase() {
             var5 = this;
@@ -1081,7 +1102,7 @@ case 44:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -1103,7 +1124,7 @@ case 0:
                 var2 = null;
                 if(!(var2 == var1)) { _fun0014_ip = 46; continue _fun0014 }
 case 47:
-                var1 = _closure1_slot29;
+                var1 = _closure1_slot30;
 case 46:
                 return var1;
             }
@@ -1266,7 +1287,7 @@ case 49:
         var7 = function value(arg1, arg2) {
             var3 = this;
             var2 = var3.merge;
-            var5 = _closure1_slot47;
+            var5 = _closure1_slot49;
             var1 = {};
             var6 = arg2;
             var4 = arg1;
@@ -1286,7 +1307,7 @@ case 49:
 case 0:
                 var10 = arg1;
                 var2 = this;
-                var3 = _closure1_slot47;
+                var3 = _closure1_slot49;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var10);
                 var8 = var10;
@@ -1396,7 +1417,7 @@ case 58:
         var7 = 'isPrivate';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot39;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -1422,7 +1443,7 @@ case 58:
         var7 = 'isMultiUserDM';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot40;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -1633,7 +1654,7 @@ case 64:
         var7 = 'isVocal';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -1646,7 +1667,7 @@ case 64:
         var7 = 'isGuildVocal';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot37;
+            var3 = _closure1_slot38;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -1734,7 +1755,7 @@ case 66:
         var7 = 'isThread';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot41;
+            var3 = _closure1_slot42;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -2053,7 +2074,7 @@ case 51:
         var7 = 'accessPermissions';
         var5['key'] = var7;
         var7 = function get() {
-            var3 = _closure1_slot46;
+            var3 = _closure1_slot48;
             var1 = this;
             var2 = var1.type;
             var1 = undefined;
@@ -2126,7 +2147,7 @@ case 42:
             var5 = _closure2_slot0;
             var4 = undefined;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot36;
             var1 = new Array(1);
             var1[0] = var2;
             var1 = var3.bind(var4)(var6, var5, var1);
@@ -2254,7 +2275,7 @@ case 0:
                 var1 = undefined;
                 if(!var7) { _fun0039_ip = 6; continue _fun0039 }
 case 72:
-                var8 = _closure1_slot44;
+                var8 = _closure1_slot46;
                 var7 = var2.available_tags;
                 var1 = var8.bind(var3)(var7);
 case 6:
@@ -2308,7 +2329,7 @@ case 77:
                 var4['guild_id'] = var1;
                 var1 = var2.icon;
                 var4['icon'] = var1;
-                var7 = _closure1_slot45;
+                var7 = _closure1_slot47;
                 var5 = var2.icon_emoji;
                 var5 = var7.bind(var3)(var5);
                 var4['iconEmoji'] = var5;
@@ -2361,7 +2382,7 @@ case 82:
                 var5 = var7;
 case 81:
                 var4['name'] = var5;
-                var7 = _closure1_slot43;
+                var7 = _closure1_slot45;
                 var5 = var2.nicks;
                 var5 = var7.bind(var3)(var5);
                 var4['nicks'] = var5;
@@ -2374,7 +2395,7 @@ case 81:
                 var5 = var2.parent_id;
                 var4['parent_id'] = var5;
                 var4['parentChannelThreadType'] = var3;
-                var7 = _closure1_slot42;
+                var7 = _closure1_slot44;
                 var5 = var2.permission_overwrites;
                 var5 = var7.bind(var3)(var5);
                 var4['permissionOverwrites_'] = var5;
@@ -2496,7 +2517,7 @@ case 95:
         return var1;
     };
     var20 = var6.bind(var1)(var21);
-    var _closure1_slot30 = var20;
+    var _closure1_slot31 = var20;
     var6 = function(arg1) {
         var5 = function GuildVocalChannelRecord(arg1) {
             _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
@@ -2507,7 +2528,7 @@ case 0:
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var6, var5);
-                var3 = _closure1_slot35;
+                var3 = _closure1_slot36;
                 var1 = new Array(1);
                 var1[0] = var2;
                 var1 = var3.bind(var4)(var6, var5, var1);
@@ -2575,7 +2596,7 @@ case 35:
 case 0:
                 var4 = arg1;
                 var6 = arg2;
-                var3 = _closure1_slot48;
+                var3 = _closure1_slot50;
                 var2 = {};
                 var1 = var4.application_id;
                 var2['application_id'] = var1;
@@ -2595,7 +2616,7 @@ case 6:
                 var1 = var6;
 case 8:
                 var2['guild_id'] = var1;
-                var8 = _closure1_slot45;
+                var8 = _closure1_slot47;
                 var6 = var4.icon_emoji;
                 var1 = undefined;
                 var6 = var8.bind(var1)(var6);
@@ -2627,7 +2648,7 @@ case 97:
                 var2['originChannelId'] = var6;
                 var6 = var4.parent_id;
                 var2['parent_id'] = var6;
-                var8 = _closure1_slot42;
+                var8 = _closure1_slot44;
                 var6 = var4.permission_overwrites;
                 var6 = var8.bind(var1)(var6);
                 var2['permissionOverwrites_'] = var6;
@@ -2689,7 +2710,7 @@ case 0:
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var6, var5);
-                var3 = _closure1_slot35;
+                var3 = _closure1_slot36;
                 var1 = new Array(1);
                 var1[0] = var2;
                 var1 = var3.bind(var4)(var6, var5, var1);
@@ -2753,7 +2774,7 @@ case 35:
 case 0:
                 var4 = arg1;
                 var6 = arg2;
-                var3 = _closure1_slot48;
+                var3 = _closure1_slot50;
                 var2 = {};
                 var1 = var4.application_id;
                 var2['application_id'] = var1;
@@ -2775,7 +2796,7 @@ case 105:
                 var1 = var6;
 case 52:
                 var2['guild_id'] = var1;
-                var8 = _closure1_slot45;
+                var8 = _closure1_slot47;
                 var6 = var4.icon_emoji;
                 var1 = undefined;
                 var6 = var8.bind(var1)(var6);
@@ -2805,7 +2826,7 @@ case 108:
                 var2['nsfw_'] = var6;
                 var6 = var4.parent_id;
                 var2['parent_id'] = var6;
-                var8 = _closure1_slot42;
+                var8 = _closure1_slot44;
                 var6 = var4.permission_overwrites;
                 var6 = var8.bind(var1)(var6);
                 var2['permissionOverwrites_'] = var6;
@@ -2861,7 +2882,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2884,7 +2905,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2907,7 +2928,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2930,7 +2951,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2953,7 +2974,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2976,7 +2997,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -2999,7 +3020,7 @@ case 112:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -3024,7 +3045,7 @@ case 0:
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var6, var5);
-                var3 = _closure1_slot35;
+                var3 = _closure1_slot36;
                 var1 = new Array(1);
                 var1[0] = var2;
                 var1 = var3.bind(var4)(var6, var5, var1);
@@ -3104,7 +3125,7 @@ case 22:
                 var1 = new Array(0);
                 _fun0045_ip = 58; continue _fun0045;
 case 66:
-                var8 = _closure1_slot44;
+                var8 = _closure1_slot46;
                 var7 = var2.available_tags;
                 var3 = undefined;
                 var1 = var8.bind(var3)(var7);
@@ -3156,7 +3177,7 @@ case 123:
                 var1 = var5;
 case 122:
                 var4['guild_id'] = var1;
-                var7 = _closure1_slot45;
+                var7 = _closure1_slot47;
                 var5 = var2.icon_emoji;
                 var5 = var7.bind(var3)(var5);
                 var4['iconEmoji'] = var5;
@@ -3185,7 +3206,7 @@ case 126:
                 var4['nsfw_'] = var5;
                 var5 = var2.parent_id;
                 var4['parent_id'] = var5;
-                var7 = _closure1_slot42;
+                var7 = _closure1_slot44;
                 var5 = var2.permission_overwrites;
                 var5 = var7.bind(var3)(var5);
                 var4['permissionOverwrites_'] = var5;
@@ -3304,16 +3325,16 @@ case 134:
     var6 = var6.bind(var1)();
     var7 = var6.prototype;
     var8 = Object.create(var7, {constructor: {value: var6}});
-    var58 = var8;
-    var7 = new var58[var6](var57);
+    var60 = var8;
+    var7 = new var60[var6](var59);
     var7 = var7 instanceof Object ? var7 : var8;
-    var _closure1_slot31 = var7;
+    var _closure1_slot32 = var7;
     var7 = var6.prototype;
     var7 = Object.create(var7, {constructor: {value: var6}});
-    var58 = var7;
-    var6 = new var58[var6](var57);
+    var60 = var7;
+    var6 = new var60[var6](var59);
     var6 = var6 instanceof Object ? var6 : var7;
-    var _closure1_slot32 = var6;
+    var _closure1_slot33 = var6;
     var6 = function(arg1) {
         var5 = function PrivateChannelRecord(arg1) {
             _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
@@ -3324,7 +3345,7 @@ case 0:
                 var7 = _closure2_slot0;
                 var8 = undefined;
                 var1 = var1.bind(var8)(var5, var7);
-                var4 = _closure1_slot35;
+                var4 = _closure1_slot36;
                 var1 = new Array(1);
                 var1[0] = var2;
                 var1 = var4.bind(var8)(var5, var7, var1);
@@ -3528,7 +3549,7 @@ case 140:
             _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
 case 0:
                 var4 = arg1;
-                var5 = _closure1_slot31;
+                var5 = _closure1_slot32;
                 var3 = var5.getOrCompute;
                 var2 = arg2;
                 var2 = var3.bind(var5)(var2);
@@ -3545,7 +3566,7 @@ case 63:
                 var2 = arraySpread(var8, var7, var6);
                 var2 = var3.sort;
                 var1 = function(arg1, arg2) {
-                    var4 = _closure1_slot32;
+                    var4 = _closure1_slot33;
                     var2 = var4.getOrCompute;
                     var1 = arg1;
                     var1 = var1.id;
@@ -3613,7 +3634,7 @@ case 144:
                 var2 = var3;
 case 143:
                 var4['name'] = var2;
-                var8 = _closure1_slot43;
+                var8 = _closure1_slot45;
                 var3 = var6.nicks;
                 var5 = undefined;
                 var3 = var8.bind(var5)(var3);
@@ -3670,7 +3691,7 @@ case 147:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -3693,7 +3714,7 @@ case 147:
             var6 = _closure1_slot8;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -3718,7 +3739,7 @@ case 0:
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var6, var5);
-                var3 = _closure1_slot35;
+                var3 = _closure1_slot36;
                 var1 = new Array(1);
                 var1[0] = var2;
                 var1 = var3.bind(var4)(var6, var5, var1);
@@ -3929,142 +3950,160 @@ case 162:
         return var1;
     };
     var6 = var6.bind(var1)(var21);
-    var49 = {};
-    var54 = var52.DM;
-    var53 = var9.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GROUP_DM;
-    var53 = var9.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_TEXT;
-    var53 = var18.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_VOICE;
-    var53 = var19.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_STAGE_VOICE;
-    var53 = var19.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_CATEGORY;
-    var53 = var18.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_ANNOUNCEMENT;
-    var53 = var18.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_STORE;
-    var53 = var18.fromServer;
-    var49[var54] = var53;
-    var54 = var52.ANNOUNCEMENT_THREAD;
-    var53 = var6.fromServer;
-    var49[var54] = var53;
-    var54 = var52.PUBLIC_THREAD;
-    var53 = var6.fromServer;
-    var49[var54] = var53;
-    var54 = var52.PRIVATE_THREAD;
-    var53 = var6.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_DIRECTORY;
-    var53 = var18.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_FORUM;
-    var53 = var10.fromServer;
-    var49[var54] = var53;
-    var54 = var52.GUILD_MEDIA;
-    var53 = var10.fromServer;
-    var49[var54] = var53;
-    var _closure1_slot33 = var49;
-    var49 = {};
-    var53 = var52.DM;
-    var49[var53] = var8;
-    var53 = var52.GROUP_DM;
-    var49[var53] = var7;
-    var53 = var52.GUILD_TEXT;
-    var49[var53] = var12;
-    var53 = var52.GUILD_VOICE;
-    var49[var53] = var11;
-    var53 = var52.GUILD_STAGE_VOICE;
-    var49[var53] = var14;
-    var53 = var52.GUILD_CATEGORY;
-    var49[var53] = var16;
-    var53 = var52.GUILD_ANNOUNCEMENT;
-    var49[var53] = var17;
-    var53 = var52.GUILD_STORE;
-    var49[var53] = var13;
-    var53 = var52.ANNOUNCEMENT_THREAD;
-    var49[var53] = var6;
-    var53 = var52.PUBLIC_THREAD;
-    var49[var53] = var6;
-    var53 = var52.PRIVATE_THREAD;
-    var49[var53] = var6;
-    var53 = var52.GUILD_DIRECTORY;
-    var49[var53] = var15;
-    var53 = var52.GUILD_FORUM;
-    var49[var53] = var10;
-    var52 = var52.GUILD_MEDIA;
-    var49[var52] = var10;
-    var _closure1_slot34 = var49;
-    var49 = 18;
-    var49 = var51[var49];
-    var51 = var50.bind(var1)(var49);
-    var50 = var51.fileFinishedImporting;
-    var49 = 'records/ChannelRecord.tsx';
-    var49 = var50.bind(var51)(var49);
-    var49 = function isGuildSelectableChannelType(arg1) {
+    var51 = {};
+    var56 = var54.DM;
+    var55 = var9.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GROUP_DM;
+    var55 = var9.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_TEXT;
+    var55 = var18.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_VOICE;
+    var55 = var19.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_STAGE_VOICE;
+    var55 = var19.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_CATEGORY;
+    var55 = var18.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_ANNOUNCEMENT;
+    var55 = var18.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_STORE;
+    var55 = var18.fromServer;
+    var51[var56] = var55;
+    var56 = var54.ANNOUNCEMENT_THREAD;
+    var55 = var6.fromServer;
+    var51[var56] = var55;
+    var56 = var54.PUBLIC_THREAD;
+    var55 = var6.fromServer;
+    var51[var56] = var55;
+    var56 = var54.PRIVATE_THREAD;
+    var55 = var6.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_DIRECTORY;
+    var55 = var18.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_FORUM;
+    var55 = var10.fromServer;
+    var51[var56] = var55;
+    var56 = var54.GUILD_MEDIA;
+    var55 = var10.fromServer;
+    var51[var56] = var55;
+    var _closure1_slot34 = var51;
+    var51 = {};
+    var55 = var54.DM;
+    var51[var55] = var8;
+    var55 = var54.GROUP_DM;
+    var51[var55] = var7;
+    var55 = var54.GUILD_TEXT;
+    var51[var55] = var12;
+    var55 = var54.GUILD_VOICE;
+    var51[var55] = var11;
+    var55 = var54.GUILD_STAGE_VOICE;
+    var51[var55] = var14;
+    var55 = var54.GUILD_CATEGORY;
+    var51[var55] = var16;
+    var55 = var54.GUILD_ANNOUNCEMENT;
+    var51[var55] = var17;
+    var55 = var54.GUILD_STORE;
+    var51[var55] = var13;
+    var55 = var54.ANNOUNCEMENT_THREAD;
+    var51[var55] = var6;
+    var55 = var54.PUBLIC_THREAD;
+    var51[var55] = var6;
+    var55 = var54.PRIVATE_THREAD;
+    var51[var55] = var6;
+    var55 = var54.GUILD_DIRECTORY;
+    var51[var55] = var15;
+    var55 = var54.GUILD_FORUM;
+    var51[var55] = var10;
+    var54 = var54.GUILD_MEDIA;
+    var51[var54] = var10;
+    var _closure1_slot35 = var51;
+    var51 = 18;
+    var51 = var53[var51];
+    var53 = var52.bind(var1)(var51);
+    var52 = var53.fileFinishedImporting;
+    var51 = 'records/ChannelRecord.tsx';
+    var51 = var52.bind(var53)(var51);
+    var51 = function isGuildSelectableChannelType(arg1) {
         var3 = _closure1_slot16;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isGuildSelectableChannelType'] = var49;
-    var3['ALL_CHANNEL_TYPES'] = var48;
-    var48 = function isGuildTextChannelType(arg1) {
+    var3['isGuildSelectableChannelType'] = var51;
+    var3['ALL_CHANNEL_TYPES'] = var50;
+    var50 = function isGuildTextChannelType(arg1) {
         var3 = _closure1_slot17;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isGuildTextChannelType'] = var48;
-    var3['GUILD_WEBHOOK_CHANNEL_TYPES'] = var47;
-    var3['GUILD_CHANNEL_TYPES'] = var46;
-    var46 = function isGuildChannelType(arg1) {
+    var3['isGuildTextChannelType'] = var50;
+    var3['GUILD_WEBHOOK_CHANNEL_TYPES'] = var49;
+    var3['GUILD_CHANNEL_TYPES'] = var48;
+    var48 = function isGuildChannelType(arg1) {
         var3 = _closure1_slot18;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isGuildChannelType'] = var46;
-    var3['GUILD_CAN_CONTAIN_THREADS_CHANNEL_TYPES'] = var45;
-    var3['GUILD_VOCAL_CHANNEL_TYPES'] = var44;
-    var3['isGuildVocalChannelType'] = var43;
-    var3['SILENT_JOIN_LEAVE_CHANNEL_TYPES'] = var42;
-    var3['isPrivate'] = var41;
-    var3['isMultiUserDM'] = var40;
-    var3['TEXT_CHANNEL_TYPES'] = var39;
-    var39 = function isTextChannel(arg1) {
+    var3['isGuildChannelType'] = var48;
+    var3['GUILD_CAN_CONTAIN_THREADS_CHANNEL_TYPES'] = var47;
+    var3['GUILD_VOCAL_CHANNEL_TYPES'] = var46;
+    var3['isGuildVocalChannelType'] = var45;
+    var45 = function isGuildVocalChannelOrVocalThreadType(arg1) {
+        _fun0055: for(var _fun0055_ip = 0; ; ) switch(_fun0055_ip) {
+case 0:
+            var4 = arg1;
+            var1 = _closure1_slot38;
+            var3 = undefined;
+            var1 = var1.bind(var3)(var4);
+            if(var1) { _fun0055_ip = 163; continue _fun0055 }
+case 22:
+            var2 = _closure1_slot43;
+            var1 = var2.bind(var3)(var4);
+case 163:
+            return var1;
+        }
+    };
+    var3['isGuildVocalChannelOrVocalThreadType'] = var45;
+    var3['SILENT_JOIN_LEAVE_CHANNEL_TYPES'] = var44;
+    var3['isPrivate'] = var43;
+    var3['isMultiUserDM'] = var42;
+    var3['TEXT_CHANNEL_TYPES'] = var41;
+    var41 = function isTextChannel(arg1) {
         var3 = _closure1_slot22;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isTextChannel'] = var39;
-    var3['isVoiceChannel'] = var38;
-    var38 = function isGuildReadableType(arg1) {
+    var3['isTextChannel'] = var41;
+    var3['isVoiceChannel'] = var40;
+    var40 = function isGuildReadableType(arg1) {
         var3 = _closure1_slot24;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isGuildReadableType'] = var38;
-    var3['THREAD_CHANNEL_TYPES'] = var37;
-    var3['THREADED_CHANNEL_TYPES'] = var36;
-    var3['isThread'] = var35;
+    var3['isGuildReadableType'] = var40;
+    var3['THREAD_CHANNEL_TYPES'] = var39;
+    var3['VOCAL_THREAD_CHANNEL_TYPES'] = var38;
+    var3['THREADED_CHANNEL_TYPES'] = var37;
+    var3['isThread'] = var36;
+    var3['isVocalThreadType'] = var35;
     var35 = function isReadableType(arg1) {
-        var3 = _closure1_slot26;
+        var3 = _closure1_slot27;
         var2 = var3.has;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
@@ -4084,19 +4123,19 @@ case 162:
     var3['GUILD_FAVORITES_CHANNEL_TYPES'] = var24;
     var3['getAccessPermissions'] = var23;
     var23 = function getBasicAccessPermissions(arg1) {
-        _fun0055: for(var _fun0055_ip = 0; ; ) switch(_fun0055_ip) {
+        _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
 case 0:
-            var4 = _closure1_slot37;
+            var4 = _closure1_slot38;
             var3 = undefined;
             var1 = arg1;
             var1 = var4.bind(var3)(var1);
-            if(var1) { _fun0055_ip = 13; continue _fun0055 }
+            if(var1) { _fun0056_ip = 13; continue _fun0056 }
 case 22:
             var1 = _closure1_slot12;
             var1 = var1.VIEW_CHANNEL;
-            _fun0055_ip = 23; continue _fun0055;
+            _fun0056_ip = 23; continue _fun0056;
 case 13:
-            var1 = _closure1_slot28;
+            var1 = _closure1_slot29;
 case 23:
             return var1;
         }
@@ -4120,21 +4159,21 @@ case 23:
     var3['GroupDMChannelRecord'] = var7;
     var3['ThreadChannelRecord'] = var6;
     var6 = function createChannelRecordFromServer(arg1, arg2) {
-        _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
+        _fun0057: for(var _fun0057_ip = 0; ; ) switch(_fun0057_ip) {
 case 0:
             var4 = arg1;
-            var5 = _closure1_slot33;
+            var5 = _closure1_slot34;
             var3 = var4.type;
             var2 = null;
-            if(!(var2 == var3)) { _fun0056_ip = 24; continue _fun0056 }
+            if(!(var2 == var3)) { _fun0057_ip = 24; continue _fun0057 }
 case 38:
             var6 = _closure1_slot11;
             var3 = var6.GUILD_TEXT;
 case 24:
             var3 = var5[var3];
-            if(!(var2 == var3)) { _fun0056_ip = 72; continue _fun0056 }
+            if(!(var2 == var3)) { _fun0057_ip = 72; continue _fun0057 }
 case 39:
-            var1 = _closure1_slot30;
+            var1 = _closure1_slot31;
             var3 = var1.fromServer;
 case 72:
             var2 = undefined;
@@ -4145,7 +4184,7 @@ case 72:
     };
     var3['createChannelRecordFromServer'] = var6;
     var5 = function createChannelRecordFromInvite(arg1) {
-        var3 = _closure1_slot49;
+        var3 = _closure1_slot51;
         var2 = undefined;
         var1 = arg1;
         var1 = var3.bind(var2)(var1);

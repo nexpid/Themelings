@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.Permissions;
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -42,14 +42,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useIsPermissionMigrationNotificationAvailable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var12 = arg1;
-            var _closure2_slot0 = var12;
+            var13 = arg1;
+            var _closure2_slot0 = var13;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 3;
-            var6 = var5[var3];
-            var2 = undefined;
-            var9 = var4.bind(var2)(var6);
+            var2 = 3;
+            var6 = var5[var2];
+            var3 = undefined;
+            var9 = var4.bind(var3)(var6);
             var8 = var9.useStateFromStores;
             var6 = _closure1_slot4;
             var7 = new Array(1);
@@ -63,13 +63,13 @@ case 0:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var6 = var8.bind(var9)(var7, var6);
-            var3 = var5[var3];
-            var7 = var4.bind(var2)(var3);
-            var4 = var7.useStateFromStores;
+            var7 = var8.bind(var9)(var7, var6);
+            var2 = var5[var2];
+            var6 = var4.bind(var3)(var2);
+            var4 = var6.useStateFromStores;
             var8 = _closure1_slot3;
-            var3 = new Array(1);
-            var3[0] = var8;
+            var2 = new Array(1);
+            var2[0] = var8;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -89,107 +89,128 @@ case 2:
                     return var1;
                 }
             };
-            var1 = var4.bind(var7)(var3, var1);
+            var1 = var4.bind(var6)(var2, var1);
             var4 = _closure1_slot1;
-            var3 = 4;
-            var3 = var5[var3];
-            var5 = var4.bind(var2)(var3);
+            var2 = 4;
+            var2 = var5[var2];
+            var5 = var4.bind(var3)(var2);
             var4 = var5.useExperiment;
-            var3 = {};
-            var11 = null;
-            var8 = var11 == var12;
-            var7 = undefined;
+            var2 = {};
+            var12 = null;
+            var8 = var12 == var13;
+            var6 = undefined;
             if(var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = var12.id;
+            var6 = var13.id;
 case 4:
-            var3['guildId'] = var7;
-            var7 = 'useIsPermissionMigrationNotificationAvailable';
-            var3['location'] = var7;
-            var3 = var4.bind(var5)(var3);
-            var5 = var3.enabled;
-            var3 = var11 == var12;
-            var4 = undefined;
-            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+            var2['guildId'] = var6;
+            var8 = 'useIsPermissionMigrationNotificationAvailable';
+            var2['location'] = var8;
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.enabled;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 5;
+            var4 = var6[var4];
+            var6 = var5.bind(var3)(var4);
+            var5 = var6.useExperiment;
+            var4 = {};
+            var10 = var12 == var13;
+            var9 = undefined;
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var8 = var12.features;
-            var7 = var8.has;
-            var3 = _closure1_slot6;
-            var3 = var3.PIN_PERMISSION_MIGRATION_COMPLETE;
-            var4 = var7.bind(var8)(var3);
+            var9 = var13.id;
 case 6:
-            var3 = var11 != var4;
-            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+            var4['guildId'] = var9;
+            var4['location'] = var8;
+            var4 = var5.bind(var6)(var4);
+            var6 = var4.enabled;
+            var4 = var12 == var13;
+            var5 = undefined;
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = var4;
-case 8:
-            var4 = var11 == var12;
-            var7 = undefined;
-            if(var4) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var9 = var12.features;
+            var9 = var13.features;
             var8 = var9.has;
             var4 = _closure1_slot6;
-            var4 = var4.BYPASS_SLOWMODE_PERMISSION_MIGRATION_COMPLETE;
-            var7 = var8.bind(var9)(var4);
+            var4 = var4.PIN_PERMISSION_MIGRATION_COMPLETE;
+            var5 = var8.bind(var9)(var4);
+case 8:
+            var4 = var12 != var5;
+            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var4 = var5;
 case 10:
-            var4 = var11 != var7;
-            if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+            var5 = var12 == var13;
+            var8 = undefined;
+            if(var5) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var4 = var7;
+            var10 = var13.features;
+            var9 = var10.has;
+            var5 = _closure1_slot6;
+            var5 = var5.BYPASS_SLOWMODE_PERMISSION_MIGRATION_COMPLETE;
+            var8 = var9.bind(var10)(var5);
 case 12:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 5;
-            var7 = var9[var7];
-            var7 = var8.bind(var2)(var7);
-            var7 = var7.DismissibleContent;
-            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+            var5 = var12 != var8;
+            if(!var5) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var9 = var7.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
-            _fun0001_ip = 16; continue _fun0001;
+            var5 = var8;
 case 14:
-            var9 = var7.GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION;
-case 16:
-            var8 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var7 = 6;
-            var7 = var13[var7];
-            var8 = var8.bind(var2)(var7);
-            var7 = var8.useIsSingleUseGuildDismissibleContentDismissed;
-            var13 = var11 == var12;
-            var2 = undefined;
-            if(var13) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var2 = var12.id;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 6;
+            var8 = var10[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.DismissibleContent;
+            if(var6) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            if(!(var11 == var2)) { _fun0001_ip = 19; continue _fun0001 }
+            var10 = var8.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
+            var10 = var8.GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION;
+case 18:
+            var9 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var8 = 7;
+            var8 = var14[var8];
+            var9 = var9.bind(var3)(var8);
+            var8 = var9.useIsSingleUseGuildDismissibleContentDismissed;
+            var14 = var12 == var13;
+            var3 = undefined;
+            if(var14) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var2 = _closure1_slot5;
+            var3 = var13.id;
 case 19:
-            var2 = var7.bind(var8)(var9, var2);
-            if(!var1) { _fun0001_ip = 21; continue _fun0001 }
+            if(!(var12 == var3)) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var1 = var6;
+            var3 = _closure1_slot5;
 case 21:
+            var3 = var8.bind(var9)(var10, var3);
             if(!var1) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var3 = !var3;
-            if(var3) { _fun0001_ip = 25; continue _fun0001 }
+            var1 = var7;
+case 23:
+            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
             var4 = !var4;
-            if(!var4) { _fun0001_ip = 27; continue _fun0001 }
+            if(var4) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
+            var5 = !var5;
+            if(!var5) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            var5 = var6;
+case 29:
             var4 = var5;
 case 27:
-            var3 = var4;
+            var1 = var4;
 case 25:
-            var1 = var3;
-case 23:
-            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(!var1) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
+            var1 = !var3;
+case 31:
+            if(!var1) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var1 = !var2;
-case 29:
+case 33:
             return var1;
         }
     };

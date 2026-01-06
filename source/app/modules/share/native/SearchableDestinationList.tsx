@@ -469,7 +469,7 @@ case 0:
                         var5 = var3.bind(var1)(var2);
                         var2 = -1;
                         if(!(var2 !== var5)) { _fun0007_ip = 29; continue _fun0007 }
-case 19:
+case 25:
                         var2 = new Array(0);
                         var6 = 0;
                         var8 = var2;

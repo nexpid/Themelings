@@ -112,7 +112,7 @@ case 8:
     var2['textEmoji'] = var12;
     var2 = var4.bind(var7)(var2);
     var _closure1_slot8 = var2;
-    var2 = 19;
+    var2 = 18;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
@@ -120,7 +120,7 @@ case 8:
     var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 20;
+        var1 = 19;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -388,33 +388,15 @@ case 23:
     var2['useDescription'] = var10;
     var2['useIsDisabled'] = var9;
     var8 = function usePredicate() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 18;
-            var1 = var3[var1];
-            var3 = undefined;
-            var6 = var4.bind(var3)(var1);
-            var5 = var6.useDoubleTapToReactExperiment;
-            var4 = {};
-            var1 = false;
-            var4['autoTrackExposure'] = var1;
-            var1 = 'DoubleTapEmojiSetting';
-            var1 = var5.bind(var6)(var1, var4);
-            var1 = var1.enabled;
-            var2 = _closure1_slot9;
-            var2 = var2.bind(var3)();
-            if(!var1) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
-            var1 = !var2;
-case 25:
-            return var1;
-        }
+        var2 = _closure1_slot9;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        var1 = !var1;
+        return var1;
     };
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

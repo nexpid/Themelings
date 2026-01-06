@@ -19,11 +19,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         throw var1;
     };
     var _closure1_slot9 = var1;
+    var1 = function notSupportedReturnVoid() {
+        var1 = global;
+        var3 = var1.Error;
+        var1 = var3.prototype;
+        var2 = Object.create(var1, {constructor: {value: var3}});
+        var4 = 'Native hook not supported for android';
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        throw var1;
+    };
+    var _closure1_slot10 = var1;
     var7 = function useNativeIAPPayments() {
         var1 = _closure1_slot8;
         return var1;
     };
-    var _closure1_slot10 = var7;
+    var _closure1_slot11 = var7;
     var6 = function useGoogleSkuIds(arg1, arg2) {
         var7 = arg1;
         var8 = arg2;
@@ -207,7 +219,7 @@ case 2:
         var1 = {};
         var3 = _closure1_slot9;
         var1['resubscribeSubscription'] = var3;
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot11;
         var2 = undefined;
         var2 = var3.bind(var2)();
         var2 = var2.nativePaymentsConnected;
@@ -218,7 +230,7 @@ case 2:
         var1 = {};
         var3 = _closure1_slot9;
         var1['cancelSubscription'] = var3;
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot11;
         var2 = undefined;
         var2 = var3.bind(var2)();
         var2 = var2.nativePaymentsConnected;
@@ -233,9 +245,9 @@ case 0:
             if(!(var2 != var1)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var1 = {};
-            var4 = _closure1_slot9;
-            var1['createSubscription'] = var4;
             var4 = _closure1_slot10;
+            var1['createSubscription'] = var4;
+            var4 = _closure1_slot11;
             var3 = undefined;
             var3 = var4.bind(var3)();
             var3 = var3.nativePaymentsConnected;

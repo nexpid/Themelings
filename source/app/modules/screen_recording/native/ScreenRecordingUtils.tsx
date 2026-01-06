@@ -858,7 +858,7 @@ case 89:
                     var14 = false;
                     var9['overridePlatformInformation'] = var14;
                     var8 = var10.bind(var11)(var13, var9, var8);
-                    SaveGenerator(address=1368);
+                    SaveGenerator(address=1372);
 case 90:
                     return var8;
 case 91:

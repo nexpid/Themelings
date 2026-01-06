@@ -812,16 +812,16 @@ case 83:
             var8['bottomSheetIndex'] = var14;
             var8['categoryIndexActive'] = var24;
             var8['data'] = var23;
-            if(!(var21 == var20)) { _fun0001_ip = 84; continue _fun0001 }
-case 85:
+            if(!(var21 == var20)) { _fun0001_ip = 50; continue _fun0001 }
+case 84:
             var23 = var21 == var22;
             var21 = undefined;
-            if(var23) { _fun0001_ip = 86; continue _fun0001 }
-case 50:
-            var21 = var22.guild_id;
+            if(var23) { _fun0001_ip = 85; continue _fun0001 }
 case 86:
+            var21 = var22.guild_id;
+case 85:
             var20 = var21;
-case 84:
+case 50:
             var8['guildId'] = var20;
             var8['inPortalKeyboard'] = var13;
             var8['onPressEmoji'] = var19;

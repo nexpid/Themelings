@@ -182,6 +182,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_HOME_TAKEOVER'] = var6;
     var2 = 'QUEST_HOME_TAKEOVER';
     var4[var6] = var2;
+    var6 = 43;
+    var4['USER_PROFILE_ACTIVITY'] = var6;
+    var2 = 'USER_PROFILE_ACTIVITY';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

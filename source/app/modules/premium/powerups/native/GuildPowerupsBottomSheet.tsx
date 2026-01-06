@@ -44,17 +44,40 @@ case 2:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};
+            var6 = var15.type;
+            var5 = _closure1_slot4;
+            var5 = var5.LEVEL;
+            if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot5;
             var6 = _closure1_slot1;
-            var16 = _closure1_slot2;
-            var5 = 8;
-            var5 = var16[var5];
+            var9 = _closure1_slot2;
+            var5 = 9;
+            var5 = var9[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var5['imageUrl'] = var8;
             var8 = var13.image;
             var5['style'] = var8;
             var6 = var7.bind(var4)(var6, var5);
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot3;
+            var5 = {};
+            var9 = var13.boostGemContainer;
+            var5['style'] = var9;
+            var12 = _closure1_slot5;
+            var11 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var9 = 8;
+            var9 = var16[var9];
+            var11 = var11.bind(var4)(var9);
+            var9 = {};
+            var9 = var12.bind(var4)(var11, var9);
+            var5['children'] = var9;
+            var6 = var8.bind(var4)(var7, var5);
+case 6:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;
@@ -64,7 +87,8 @@ case 2:
             var6['style'] = var9;
             var17 = _closure1_slot5;
             var11 = _closure1_slot0;
-            var9 = 9;
+            var16 = _closure1_slot2;
+            var9 = 10;
             var9 = var16[var9];
             var9 = var11.bind(var4)(var9);
             var12 = var9.Text;
@@ -77,7 +101,7 @@ case 2:
             var9 = new Array(2);
             var9[0] = var12;
             var12 = _closure1_slot5;
-            var10 = 10;
+            var10 = 11;
             var10 = var16[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.GuildPowerupsCardFooter;
@@ -107,7 +131,7 @@ case 2:
         var _closure2_slot0 = var6;
         var7 = _closure1_slot1;
         var8 = _closure1_slot2;
-        var2 = 11;
+        var2 = 12;
         var2 = var8[var2];
         var2 = var7.bind(var4)(var2);
         var7 = var2.bind(var4)(var3);
@@ -121,7 +145,7 @@ case 2:
             var1 = arg1;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var12[var2];
             var5 = undefined;
             var4 = var8.bind(var5)(var2);
@@ -135,7 +159,7 @@ case 2:
             var6 = var10.perkContainer;
             var2['style'] = var6;
             var11 = _closure1_slot5;
-            var6 = 9;
+            var6 = 10;
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var8 = var6.Text;
@@ -184,25 +208,25 @@ case 0:
             var3 = var5.type;
             var2 = _closure1_slot4;
             var2 = var2.PERK;
-            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var2 = _closure1_slot4;
             var2 = var2.LEVEL;
-            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             return var4;
-case 6:
+case 9:
             var7 = _closure1_slot5;
             var3 = _closure1_slot9;
             var2 = {};
             var2['powerup'] = var5;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
-case 4:
+case 7:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
@@ -229,7 +253,7 @@ case 0:
             var5 = var1.bind(var4)();
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.bind(var4)(var3, var2);
@@ -237,39 +261,42 @@ case 0:
             var7 = var1.showConfigureButton;
             var12 = var1.isPowerupActive;
             var _closure2_slot0 = var12;
-            var1 = 14;
+            var1 = 15;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.bind(var4)(var3, var2);
+            var11 = var1.onActivate;
+            var _closure2_slot1 = var11;
             var11 = var1.isLoading;
-            var2 = var1.onActivate;
-            var _closure2_slot1 = var2;
-            var1 = var1.onShowDeactivate;
+            var1 = 16;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.bind(var4)(var3, var2);
             var _closure2_slot2 = var1;
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};
             var5 = var5.footerContainer;
             var1['style'] = var5;
-            if(!var7) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(!var7) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var9 = _closure1_slot5;
             var15 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var5 = 15;
+            var5 = 17;
             var5 = var18[var5];
             var5 = var15.bind(var4)(var5);
             var8 = var5.Button;
             var5 = {};
             var14 = 'primary';
             var5['variant'] = var14;
-            var14 = 16;
+            var14 = 18;
             var14 = var18[var14];
             var14 = var15.bind(var4)(var14);
             var16 = var14.intl;
             var15 = var16.string;
             var17 = _closure1_slot1;
-            var14 = 17;
+            var14 = 19;
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.g5Ds69;
@@ -281,77 +308,77 @@ case 9:
             };
             var5['onPress'] = var14;
             var7 = var9.bind(var4)(var8, var5);
-case 8:
+case 11:
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(!var6) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var9 = _closure1_slot5;
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 15;
+            var7 = 17;
             var7 = var14[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Button;
             var7 = {};
             var14 = 'primary';
-            if(!var12) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!var12) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var14 = 'secondary';
-case 12:
+case 15:
             var7['variant'] = var14;
             var15 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var14 = 16;
+            var14 = 18;
             var14 = var17[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.intl;
             var14 = var15.string;
             var16 = _closure1_slot1;
-            var13 = 17;
+            var13 = 19;
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
-            if(var12) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(var12) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var12 = var13.gSxlHf;
             var12 = var14.bind(var15)(var12);
-            _fun0003_ip = 16; continue _fun0003;
-case 14:
+            _fun0003_ip = 19; continue _fun0003;
+case 17:
             var13 = var13.TZsu1U;
             var12 = var14.bind(var15)(var13);
-case 16:
+case 19:
             var7['text'] = var12;
             var7['loading'] = var11;
             var10 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot0;
-                    if(var2) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                    if(var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(!(var2 != var3)) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var3 = _closure2_slot1;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-                    _fun0004_ip = 19; continue _fun0004;
-case 17:
+                    _fun0004_ip = 22; continue _fun0004;
+case 20:
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 19; continue _fun0004 }
-case 21:
+                    if(!(var2 != var3)) { _fun0004_ip = 22; continue _fun0004 }
+case 24:
                     var2 = _closure2_slot2;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 19:
+case 22:
                     var1 = undefined;
                     return var1;
                 }
             };
             var7['onPress'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 10:
+case 13:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -457,6 +484,31 @@ case 10:
     var13 = var13.PX_8;
     var9['marginTop'] = var13;
     var4['footerContainer'] = var9;
+    var9 = {'width': 100, 'height': 100};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['marginTop'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['padding'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.round;
+    var9['borderRadius'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_SECONDARY_ALT;
+    var9['backgroundColor'] = var13;
+    var9['alignItems'] = var10;
+    var9['justifyContent'] = var10;
+    var9['alignSelf'] = var10;
+    var4['boostGemContainer'] = var9;
     var9 = {'width': '100%', 'height': 160};
     var4['image'] = var9;
     var9 = {};
@@ -469,7 +521,7 @@ case 10:
     var4['description'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 19;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -485,11 +537,13 @@ case 10:
         var3 = _closure1_slot5;
         var2 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 18;
+        var1 = 20;
         var1 = var5[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.BottomSheet;
         var1 = {};
+        var5 = true;
+        var1['startExpanded'] = var5;
         var7 = _closure1_slot6;
         var6 = _closure1_slot3;
         var5 = {};

@@ -179,7 +179,7 @@ case 0:
             var4 = null;
             if(!(var4 == var3)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            if(!(var4 != var6)) { _fun0003_ip = 8; continue _fun0003 }
+            if(!(var4 != var6)) { _fun0003_ip = 9; continue _fun0003 }
 case 15:
             var5 = _closure1_slot7;
             var4 = {};
@@ -190,7 +190,7 @@ case 15:
             var4[var2] = var6;
             var2 = undefined;
             var2 = var5.bind(var2)(var4);
-            _fun0003_ip = 8; continue _fun0003;
+            _fun0003_ip = 9; continue _fun0003;
 case 13:
             var2 = var3.measureInWindow;
             var1 = function(arg1, arg2, arg3, arg4) {
@@ -276,7 +276,7 @@ case 30:
                 }
             };
             var1 = var2.bind(var3)(var1);
-case 8:
+case 9:
             var1 = undefined;
             return var1;
         }

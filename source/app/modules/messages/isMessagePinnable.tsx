@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var4 = var4.Permissions;
     var _closure1_slot5 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -52,61 +52,78 @@ case 3:
             var2 = var4.bind(var5)(var2);
             var1 = !var2;
 case 2:
-            var6 = _closure1_slot3;
-            var5 = var6.can;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 3;
+            var4 = var6[var4];
+            var6 = undefined;
+            var7 = var5.bind(var6)(var4);
+            var5 = var7.getCurrentConfig;
+            var4 = {};
+            var8 = var3.guild_id;
+            var4['guildId'] = var8;
+            var8 = 'isMessagePinnable';
+            var4['location'] = var8;
+            var4 = var5.bind(var7)(var4);
+            var5 = var4.enabled;
+            var8 = _closure1_slot3;
+            var7 = var8.can;
             var4 = _closure1_slot5;
             var4 = var4.MANAGE_MESSAGES;
-            var4 = var5.bind(var6)(var4, var3);
-            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = var7.bind(var8)(var4, var3);
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var7 = _closure1_slot3;
-            var6 = var7.can;
+            var4 = !var5;
+case 4:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var8 = _closure1_slot3;
+            var7 = var8.can;
             var5 = _closure1_slot5;
             var5 = var5.PIN_MESSAGES;
-            var4 = var6.bind(var7)(var5, var3);
-case 4:
-            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var7 = _closure1_slot3;
-            var6 = var7.can;
+            var4 = var7.bind(var8)(var5, var3);
+case 6:
+            if(!var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var8 = _closure1_slot3;
+            var7 = var8.can;
             var5 = _closure1_slot5;
             var5 = var5.READ_MESSAGE_HISTORY;
-            var4 = var6.bind(var7)(var5, var3);
-case 6:
-            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            if(var4) { _fun0001_ip = 10; continue _fun0001 }
+            var4 = var7.bind(var8)(var5, var3);
+case 8:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+            if(var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = var3.isPrivate;
             var4 = var5.bind(var3)();
-case 10:
-            var1 = var4;
-case 8:
-            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var4 = 3;
-            var5 = var5[var4];
-            var4 = undefined;
-            var5 = var6.bind(var4)(var5);
-            var4 = var5.getIsActiveChannelOrUnarchivableThread;
-            var1 = var4.bind(var5)(var3);
 case 12:
+            var1 = var4;
+case 10:
             if(!var1) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 4;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.getIsActiveChannelOrUnarchivableThread;
+            var1 = var4.bind(var5)(var3);
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var5 = var3.type;
             var4 = _closure1_slot4;
             var4 = var4.GUILD_VOICE;
             var1 = var5 !== var4;
-case 14:
-            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+case 16:
+            if(!var1) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var3 = var3.type;
             var2 = _closure1_slot4;
             var2 = var2.GUILD_STAGE_VOICE;
             var1 = var3 !== var2;
-case 16:
+case 18:
             return var1;
         }
     };
