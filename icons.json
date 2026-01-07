@@ -10317,8 +10317,8 @@
         "width": 375,
         "height": 199.5
     },
-    "nitro_modal_header_background_v2": {
-        "file": "app/modules/quests/images/nitro_modal_header_background_v2.png",
+    "nitro_modal_header_background": {
+        "file": "app/modules/quests/images/nitro_modal_header_background.png",
         "hash": "92f827adadc1f86811fd4e36c86fdf27",
         "scales": [
             1
