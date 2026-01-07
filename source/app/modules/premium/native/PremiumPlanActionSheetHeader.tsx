@@ -450,12 +450,14 @@ case 30:
             var16 = 19;
             var16 = var20[var16];
             var16 = var17.bind(var4)(var16);
-            var17 = var16.PremiumDiscountPill;
+            var17 = var16.PremiumPill;
             var16 = {};
             var20 = var12.discountPill;
             var16['style'] = var20;
             var16['discountOffer'] = var19;
+            var16['premiumType'] = var14;
             var19 = true;
+            var16['shouldShowDiscountUpsell'] = var19;
             var16['useWhiteBackground'] = var19;
             var15 = var18.bind(var4)(var17, var16);
 case 29:

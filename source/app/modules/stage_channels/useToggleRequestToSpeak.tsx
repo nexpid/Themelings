@@ -113,10 +113,12 @@ case 0:
                     var1 = 5;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.shouldAgeVerifyToSpeakForCurrentUser;
-                    var2 = var2.bind(var3)();
-                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+                    var6 = var3.bind(var1)(var2);
+                    var4 = var6.shouldAgeVerifyToSpeakForCurrentUser;
+                    var3 = _closure2_slot0;
+                    var3 = var3.id;
+                    var3 = var4.bind(var6)(var3);
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var4 = _closure2_slot1;
                     var6 = _closure1_slot0;

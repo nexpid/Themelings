@@ -11,52 +11,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var14 = var2.appThemedBackgroundColor;
-            var _closure2_slot0 = var14;
+            var15 = var2.appThemedBackgroundColor;
+            var _closure2_slot0 = var15;
             var5 = _closure1_slot5;
             var3 = var5.useContext;
             var13 = _closure1_slot1;
-            var16 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var2 = 13;
-            var2 = var16[var2];
+            var2 = var14[var2];
             var4 = undefined;
             var2 = var13.bind(var4)(var2);
             var2 = var3.bind(var5)(var2);
-            var3 = var2.quest;
+            var5 = var2.quest;
             var2 = _closure1_slot24;
-            var34 = var2.bind(var4)();
+            var35 = var2.bind(var4)();
             var6 = _closure1_slot5;
-            var5 = var6.useContext;
+            var3 = var6.useContext;
             var11 = _closure1_slot0;
             var2 = 14;
-            var2 = var16[var2];
+            var2 = var14[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.QuestDockGestureContext;
-            var2 = var5.bind(var6)(var2);
+            var2 = var3.bind(var6)(var2);
             var8 = var2.questDockWrapperSpecs;
             var _closure2_slot1 = var8;
-            var15 = var2.activeQuestDockMode;
-            var _closure2_slot2 = var15;
-            var17 = var2.windowDimensions;
-            var _closure2_slot3 = var17;
+            var16 = var2.activeQuestDockMode;
+            var _closure2_slot2 = var16;
+            var22 = var2.windowDimensions;
+            var _closure2_slot3 = var22;
             var6 = _closure1_slot5;
-            var5 = var6.useContext;
+            var3 = var6.useContext;
             var2 = 15;
-            var2 = var16[var2];
+            var2 = var14[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.QuestDockExternalCoordinationContext;
-            var2 = var5.bind(var6)(var2);
-            var20 = var2.restingQuestDockMode;
-            var _closure2_slot4 = var20;
-            var5 = var2.setRestingQuestDockMode;
-            var _closure2_slot5 = var5;
-            var6 = _closure1_slot5;
-            var2 = var6.useId;
-            var7 = var2.bind(var6)();
+            var2 = var3.bind(var6)(var2);
+            var19 = var2.restingQuestDockMode;
+            var _closure2_slot4 = var19;
+            var10 = var2.setRestingQuestDockMode;
+            var _closure2_slot5 = var10;
+            var3 = _closure1_slot5;
+            var2 = var3.useId;
+            var7 = var2.bind(var3)();
             var12 = _closure1_slot5;
-            var10 = var12.useCallback;
-            var6 = new Array(1);
-            var6[0] = var5;
+            var6 = var12.useCallback;
+            var3 = new Array(1);
+            var3[0] = var10;
             var2 = function() {
                 var3 = _closure2_slot5;
                 var1 = _closure1_slot10;
@@ -65,26 +65,26 @@ case 0:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var12 = var10.bind(var12)(var2, var6);
+            var12 = var6.bind(var12)(var2, var3);
             var2 = 16;
-            var6 = var16[var2];
-            var10 = var11.bind(var4)(var6);
-            var6 = var10.useQuestDockModeAnimatedReaction;
-            var6 = var6.bind(var10)();
-            var2 = var16[var2];
-            var6 = var11.bind(var4)(var2);
-            var2 = var6.useQuestDockDismissalReset;
-            var2 = var2.bind(var6)();
+            var3 = var14[var2];
+            var6 = var11.bind(var4)(var3);
+            var3 = var6.useQuestDockModeAnimatedReaction;
+            var3 = var3.bind(var6)();
+            var2 = var14[var2];
+            var3 = var11.bind(var4)(var2);
+            var2 = var3.useQuestDockDismissalReset;
+            var2 = var2.bind(var3)();
             var2 = 17;
-            var2 = var16[var2];
-            var6 = var11.bind(var4)(var2);
-            var2 = var6.useIsScreenReaderEnabled;
-            var6 = var2.bind(var6)();
+            var2 = var14[var2];
+            var3 = var11.bind(var4)(var2);
+            var2 = var3.useIsScreenReaderEnabled;
+            var6 = var2.bind(var3)();
             var2 = 18;
-            var10 = var16[var2];
-            var18 = var11.bind(var4)(var10);
-            var11 = var18.useDerivedValue;
-            var10 = function x() {
+            var3 = var14[var2];
+            var17 = var11.bind(var4)(var3);
+            var11 = var17.useDerivedValue;
+            var3 = function W() {
                 var2 = _closure2_slot4;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -93,36 +93,42 @@ case 0:
                 var1 = var2 === var1;
                 return var1;
             };
-            var19 = {};
-            var19['restingQuestDockMode'] = var20;
-            var20 = _closure1_slot10;
-            var19['QuestDockMode'] = var20;
-            var10['__closure'] = var19;
-            var19 = 7483111521990.0;
-            var10['__workletHash'] = var19;
-            var19 = _closure1_slot27;
-            var10['__initData'] = var19;
-            var11 = var11.bind(var18)(var10);
-            var10 = 19;
-            var10 = var16[var10];
-            var10 = var13.bind(var4)(var10);
-            var31 = var10.bind(var4)(var11);
-            var11 = var3.userStatus;
-            var10 = null;
-            var13 = var10 == var11;
-            var3 = undefined;
-            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+            var18 = {};
+            var18['restingQuestDockMode'] = var19;
+            var19 = _closure1_slot10;
+            var18['QuestDockMode'] = var19;
+            var3['__closure'] = var18;
+            var18 = 7483111521990.0;
+            var3['__workletHash'] = var18;
+            var18 = _closure1_slot27;
+            var3['__initData'] = var18;
+            var17 = var11.bind(var17)(var3);
+            var3 = 19;
+            var11 = var14[var3];
+            var11 = var13.bind(var4)(var11);
+            var32 = var11.bind(var4)(var17);
+            var11 = 20;
+            var11 = var14[var11];
+            var11 = var13.bind(var4)(var11);
+            var11 = var11.bind(var4)();
+            var21 = var11.top;
+            var _closure2_slot6 = var21;
+            var13 = var5.userStatus;
+            var11 = null;
+            var14 = var11 == var13;
+            var5 = undefined;
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var11.enrolledAt;
+            var5 = var13.enrolledAt;
 case 2:
-            var32 = var10 != var3;
-            var _closure2_slot6 = var32;
-            var16 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var3 = var18[var2];
-            var11 = var16.bind(var4)(var3);
-            var10 = var11.useAnimatedStyle;
-            var3 = function W() {
+            var33 = var11 != var5;
+            var _closure2_slot7 = var33;
+            var17 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var5 = var19[var2];
+            var13 = var17.bind(var4)(var5);
+            var11 = var13.useAnimatedStyle;
+            var5 = function X() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -184,7 +190,7 @@ case 6:
                     var2 = var8.get;
                     var2 = var2.bind(var8)();
                     var10 = var2.x;
-                    var2 = 20;
+                    var2 = 21;
                     var2 = var5[var2];
                     var14 = var6.bind(var7)(var2);
                     var13 = var14.roundToNearestPixel;
@@ -217,44 +223,44 @@ case 6:
                     return var1;
                 }
             };
-            var13 = {};
-            var13['appThemedBackgroundColor'] = var14;
-            var14 = 12;
-            var19 = var18[var14];
-            var19 = var16.bind(var4)(var19);
-            var19 = var19.withSpring;
-            var13['withSpring'] = var19;
-            var13['activeQuestDockMode'] = var15;
-            var19 = _closure1_slot10;
-            var13['QuestDockMode'] = var19;
-            var19 = _closure1_slot15;
-            var13['QUEST_DOCK_BORDER_RADII'] = var19;
-            var19 = _closure1_slot14;
-            var13['QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED'] = var19;
-            var13['questDockWrapperSpecs'] = var8;
-            var19 = 20;
-            var19 = var18[var19];
-            var19 = var16.bind(var4)(var19);
-            var19 = var19.roundToNearestPixel;
-            var13['roundToNearestPixel'] = var19;
-            var19 = _closure1_slot12;
-            var13['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var19;
-            var3['__closure'] = var13;
-            var13 = 3719130074049.0;
-            var3['__workletHash'] = var13;
-            var13 = _closure1_slot28;
-            var3['__initData'] = var13;
-            var13 = var10.bind(var11)(var3);
-            var3 = var18[var2];
-            var11 = var16.bind(var4)(var3);
-            var10 = var11.useSharedValue;
-            var3 = 0;
-            var3 = var10.bind(var11)(var3);
-            var _closure2_slot7 = var3;
-            var10 = var18[var2];
-            var19 = var16.bind(var4)(var10);
-            var11 = var19.useAnimatedStyle;
-            var10 = function X() {
+            var14 = {};
+            var14['appThemedBackgroundColor'] = var15;
+            var15 = 12;
+            var18 = var19[var15];
+            var18 = var17.bind(var4)(var18);
+            var18 = var18.withSpring;
+            var14['withSpring'] = var18;
+            var14['activeQuestDockMode'] = var16;
+            var18 = _closure1_slot10;
+            var14['QuestDockMode'] = var18;
+            var18 = _closure1_slot15;
+            var14['QUEST_DOCK_BORDER_RADII'] = var18;
+            var18 = _closure1_slot14;
+            var14['QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED'] = var18;
+            var14['questDockWrapperSpecs'] = var8;
+            var18 = 21;
+            var18 = var19[var18];
+            var18 = var17.bind(var4)(var18);
+            var18 = var18.roundToNearestPixel;
+            var14['roundToNearestPixel'] = var18;
+            var18 = _closure1_slot12;
+            var14['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var18;
+            var5['__closure'] = var14;
+            var14 = 3719130074049.0;
+            var5['__workletHash'] = var14;
+            var14 = _closure1_slot28;
+            var5['__initData'] = var14;
+            var14 = var11.bind(var13)(var5);
+            var5 = var19[var2];
+            var13 = var17.bind(var4)(var5);
+            var11 = var13.useSharedValue;
+            var5 = 0;
+            var5 = var11.bind(var13)(var5);
+            var _closure2_slot8 = var5;
+            var11 = var19[var2];
+            var18 = var17.bind(var4)(var11);
+            var13 = var18.useAnimatedStyle;
+            var11 = function q() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -270,7 +276,7 @@ case 0:
                     var4 = var9[var4];
                     var11 = var7.bind(var8)(var4);
                     var10 = var11.interpolate;
-                    var9 = _closure2_slot7;
+                    var9 = _closure2_slot8;
                     var7 = var9.get;
                     var9 = var7.bind(var9)();
                     var7 = _closure2_slot2;
@@ -291,7 +297,7 @@ case 8:
                     var4 = var10.bind(var11)(var9, var4, var7);
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 22;
                     var2 = var9[var2];
                     var2 = var7.bind(var8)(var2);
                     var2 = var2.springStandard;
@@ -304,34 +310,34 @@ case 8:
                 }
             };
             var20 = {};
-            var21 = var18[var14];
-            var21 = var16.bind(var4)(var21);
-            var21 = var21.withSpring;
-            var20['withSpring'] = var21;
-            var21 = var18[var2];
-            var21 = var16.bind(var4)(var21);
-            var21 = var21.interpolate;
-            var20['interpolate'] = var21;
-            var20['isPressed'] = var3;
-            var20['activeQuestDockMode'] = var15;
-            var21 = _closure1_slot10;
-            var20['QuestDockMode'] = var21;
-            var21 = 21;
-            var21 = var18[var21];
-            var21 = var16.bind(var4)(var21);
-            var21 = var21.springStandard;
-            var20['springStandard'] = var21;
-            var10['__closure'] = var20;
+            var23 = var19[var15];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.withSpring;
+            var20['withSpring'] = var23;
+            var23 = var19[var2];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.interpolate;
+            var20['interpolate'] = var23;
+            var20['isPressed'] = var5;
+            var20['activeQuestDockMode'] = var16;
+            var23 = _closure1_slot10;
+            var20['QuestDockMode'] = var23;
+            var23 = 22;
+            var23 = var19[var23];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.springStandard;
+            var20['springStandard'] = var23;
+            var11['__closure'] = var20;
             var20 = 9265572184444.0;
-            var10['__workletHash'] = var20;
+            var11['__workletHash'] = var20;
             var20 = _closure1_slot29;
-            var10['__initData'] = var20;
-            var25 = var11.bind(var19)(var10);
-            var19 = _closure1_slot5;
-            var11 = var19.useCallback;
-            var10 = new Array(1);
-            var10[0] = var5;
-            var5 = function() {
+            var11['__initData'] = var20;
+            var26 = var13.bind(var18)(var11);
+            var18 = _closure1_slot5;
+            var13 = var18.useCallback;
+            var11 = new Array(1);
+            var11[0] = var10;
+            var10 = function() {
                 var3 = _closure2_slot5;
                 var1 = _closure1_slot10;
                 var2 = var1.EXPANDED;
@@ -339,37 +345,37 @@ case 8:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var29 = var11.bind(var19)(var5, var10);
-            var19 = _closure1_slot5;
-            var11 = var19.useCallback;
-            var10 = new Array(1);
-            var10[0] = var3;
-            var5 = function() {
-                var3 = _closure2_slot7;
+            var30 = var13.bind(var18)(var10, var11);
+            var18 = _closure1_slot5;
+            var13 = var18.useCallback;
+            var11 = new Array(1);
+            var11[0] = var5;
+            var10 = function() {
+                var3 = _closure2_slot8;
                 var2 = var3.set;
                 var1 = 1;
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;
             };
-            var36 = var11.bind(var19)(var5, var10);
-            var11 = _closure1_slot5;
-            var10 = var11.useCallback;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
-                var3 = _closure2_slot7;
+            var37 = var13.bind(var18)(var10, var11);
+            var13 = _closure1_slot5;
+            var11 = var13.useCallback;
+            var10 = new Array(1);
+            var10[0] = var5;
+            var5 = function() {
+                var3 = _closure2_slot8;
                 var2 = var3.set;
                 var1 = 0;
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;
             };
-            var35 = var10.bind(var11)(var3, var5);
-            var3 = var18[var2];
-            var10 = var16.bind(var4)(var3);
-            var5 = var10.useAnimatedStyle;
-            var3 = function q() {
+            var36 = var11.bind(var13)(var5, var10);
+            var5 = var19[var2];
+            var11 = var17.bind(var4)(var5);
+            var10 = var11.useAnimatedStyle;
+            var5 = function V() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -401,27 +407,27 @@ case 10:
                     return var1;
                 }
             };
-            var11 = {};
-            var19 = var18[var14];
-            var19 = var16.bind(var4)(var19);
-            var19 = var19.withSpring;
-            var11['withSpring'] = var19;
-            var11['activeQuestDockMode'] = var15;
-            var19 = _closure1_slot10;
-            var11['QuestDockMode'] = var19;
-            var19 = _closure1_slot12;
-            var11['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var19;
-            var11['windowDimensions'] = var17;
-            var3['__closure'] = var11;
-            var11 = 7865007748928.0;
-            var3['__workletHash'] = var11;
-            var11 = _closure1_slot30;
-            var3['__initData'] = var11;
-            var11 = var5.bind(var10)(var3);
-            var3 = var18[var2];
-            var10 = var16.bind(var4)(var3);
-            var5 = var10.useAnimatedProps;
-            var3 = function V() {
+            var13 = {};
+            var18 = var19[var15];
+            var18 = var17.bind(var4)(var18);
+            var18 = var18.withSpring;
+            var13['withSpring'] = var18;
+            var13['activeQuestDockMode'] = var16;
+            var18 = _closure1_slot10;
+            var13['QuestDockMode'] = var18;
+            var18 = _closure1_slot12;
+            var13['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var18;
+            var13['windowDimensions'] = var22;
+            var5['__closure'] = var13;
+            var13 = 7865007748928.0;
+            var5['__workletHash'] = var13;
+            var13 = _closure1_slot30;
+            var5['__initData'] = var13;
+            var11 = var10.bind(var11)(var5);
+            var5 = var19[var2];
+            var13 = var17.bind(var4)(var5);
+            var10 = var13.useAnimatedProps;
+            var5 = function F() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -439,20 +445,53 @@ case 12:
                     return var1;
                 }
             };
-            var17 = {};
-            var17['activeQuestDockMode'] = var15;
-            var19 = _closure1_slot10;
-            var17['QuestDockMode'] = var19;
-            var3['__closure'] = var17;
-            var17 = 7500348584538.0;
-            var3['__workletHash'] = var17;
-            var17 = _closure1_slot31;
-            var3['__initData'] = var17;
-            var10 = var5.bind(var10)(var3);
-            var3 = var18[var2];
-            var17 = var16.bind(var4)(var3);
-            var5 = var17.useAnimatedStyle;
-            var3 = function F() {
+            var18 = {};
+            var18['activeQuestDockMode'] = var16;
+            var20 = _closure1_slot10;
+            var18['QuestDockMode'] = var20;
+            var5['__closure'] = var18;
+            var18 = 7500348584538.0;
+            var5['__workletHash'] = var18;
+            var18 = _closure1_slot31;
+            var5['__initData'] = var18;
+            var10 = var10.bind(var13)(var5);
+            var5 = var19[var2];
+            var18 = var17.bind(var4)(var5);
+            var13 = var18.useDerivedValue;
+            var5 = function j() {
+                var3 = _closure2_slot1;
+                var1 = var3.get;
+                var1 = var1.bind(var3)();
+                var4 = _closure2_slot3;
+                var3 = var4.get;
+                var3 = var3.bind(var4)();
+                var3 = var3.height;
+                var2 = _closure2_slot6;
+                var3 = var3 - var2;
+                var2 = var1.height;
+                var2 = var3 - var2;
+                var1 = var1.y;
+                var1 = var2 + var1;
+                return var1;
+            };
+            var20 = {};
+            var20['questDockWrapperSpecs'] = var8;
+            var20['windowDimensions'] = var22;
+            var20['safeAreaTop'] = var21;
+            var5['__closure'] = var20;
+            var20 = 1497371487400.0;
+            var5['__workletHash'] = var20;
+            var20 = _closure1_slot32;
+            var5['__initData'] = var20;
+            var5 = var13.bind(var18)(var5);
+            var13 = _closure1_slot1;
+            var3 = var19[var3];
+            var3 = var13.bind(var4)(var3);
+            var13 = var3.bind(var4)(var5);
+            var3 = var19[var2];
+            var18 = var17.bind(var4)(var3);
+            var5 = var18.useAnimatedStyle;
+            var3 = function z() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};
@@ -486,30 +525,30 @@ case 16:
                     return var1;
                 }
             };
-            var19 = {};
-            var20 = var18[var14];
-            var20 = var16.bind(var4)(var20);
-            var20 = var20.withSpring;
-            var19['withSpring'] = var20;
-            var19['activeQuestDockMode'] = var15;
-            var20 = _closure1_slot10;
-            var19['QuestDockMode'] = var20;
-            var20 = _closure1_slot12;
-            var19['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var20;
-            var3['__closure'] = var19;
-            var19 = 6468803634518.0;
-            var3['__workletHash'] = var19;
-            var19 = _closure1_slot32;
-            var3['__initData'] = var19;
-            var30 = var5.bind(var17)(var3);
-            var2 = var18[var2];
-            var3 = var16.bind(var4)(var2);
+            var20 = {};
+            var21 = var19[var15];
+            var21 = var17.bind(var4)(var21);
+            var21 = var21.withSpring;
+            var20['withSpring'] = var21;
+            var20['activeQuestDockMode'] = var16;
+            var21 = _closure1_slot10;
+            var20['QuestDockMode'] = var21;
+            var21 = _closure1_slot12;
+            var20['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var21;
+            var3['__closure'] = var20;
+            var20 = 5097935164793.0;
+            var3['__workletHash'] = var20;
+            var20 = _closure1_slot33;
+            var3['__initData'] = var20;
+            var31 = var5.bind(var18)(var3);
+            var2 = var19[var2];
+            var3 = var17.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function j() {
+            var1 = function J() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     if(var2) { _fun0007_ip = 17; continue _fun0007 }
 case 18:
                     var3 = _closure2_slot2;
@@ -545,7 +584,7 @@ case 21:
                     var2 = _closure1_slot14;
                     var2 = var4.bind(var6)(var3, var2);
                     var1['opacity'] = var2;
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     if(!var2) { _fun0007_ip = 23; continue _fun0007 }
 case 7:
                     var3 = _closure2_slot2;
@@ -564,7 +603,7 @@ case 24:
                     var2 = var3.height;
 case 25:
                     var1['height'] = var2;
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     if(var2) { _fun0007_ip = 26; continue _fun0007 }
 case 27:
                     var3 = _closure2_slot2;
@@ -591,7 +630,7 @@ case 26:
 case 29:
                     var1['width'] = var2;
                     var3 = {};
-                    var4 = _closure2_slot6;
+                    var4 = _closure2_slot7;
                     var2 = 0;
                     if(var4) { _fun0007_ip = 30; continue _fun0007 }
 case 31:
@@ -617,7 +656,7 @@ case 30:
                     var2 = new Array(2);
                     var2[0] = var3;
                     var3 = {};
-                    var6 = _closure2_slot6;
+                    var6 = _closure2_slot7;
                     var4 = 0;
                     if(var6) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
@@ -633,7 +672,7 @@ case 35:
                     var9 = var9.EXPANDED;
                     var8 = 0;
                     if(!(var10 === var9)) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+case 2:
                     var8 = _closure1_slot17;
 case 36:
                     var5 = _closure1_slot14;
@@ -646,203 +685,237 @@ case 34:
                 }
             };
             var5 = {};
-            var5['isEnrolled'] = var32;
-            var5['activeQuestDockMode'] = var15;
-            var15 = _closure1_slot10;
-            var5['QuestDockMode'] = var15;
-            var15 = _closure1_slot16;
-            var5['QUEST_DOCK_CONTENT_BORDER_RADII'] = var15;
-            var15 = _closure1_slot15;
-            var5['QUEST_DOCK_BORDER_RADII'] = var15;
-            var14 = var18[var14];
-            var14 = var16.bind(var4)(var14);
-            var14 = var14.withSpring;
-            var5['withSpring'] = var14;
-            var14 = _closure1_slot14;
-            var5['QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED'] = var14;
+            var5['isEnrolled'] = var33;
+            var5['activeQuestDockMode'] = var16;
+            var16 = _closure1_slot10;
+            var5['QuestDockMode'] = var16;
+            var16 = _closure1_slot16;
+            var5['QUEST_DOCK_CONTENT_BORDER_RADII'] = var16;
+            var16 = _closure1_slot15;
+            var5['QUEST_DOCK_BORDER_RADII'] = var16;
+            var15 = var19[var15];
+            var15 = var17.bind(var4)(var15);
+            var15 = var15.withSpring;
+            var5['withSpring'] = var15;
+            var15 = _closure1_slot14;
+            var5['QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED'] = var15;
             var5['questDockWrapperSpecs'] = var8;
             var8 = _closure1_slot18;
             var5['QUEST_DOCK_COLLAPSED_HEIGHT'] = var8;
             var8 = _closure1_slot17;
             var5['QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED'] = var8;
             var1['__closure'] = var5;
-            var5 = 14555427989106.0;
+            var5 = 3329736777299.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot33;
+            var5 = _closure1_slot34;
             var1['__initData'] = var5;
-            var33 = var2.bind(var3)(var1);
+            var34 = var2.bind(var3)(var1);
             var3 = _closure1_slot22;
             var2 = _closure1_slot23;
             var1 = {};
-            var14 = _closure1_slot21;
+            var15 = _closure1_slot21;
             var8 = _closure1_slot6;
             var5 = {};
-            var15 = var34.wrapper;
-            var5['style'] = var15;
-            var28 = 'auto';
-            var5['pointerEvents'] = var28;
-            var17 = _closure1_slot21;
-            var15 = 22;
-            var15 = var18[var15];
-            var15 = var16.bind(var4)(var15);
-            var16 = var15.AccessibilityViewAnimated;
-            var15 = {};
-            var15['nativeID'] = var7;
-            var7 = var34.accessibilityWrapper;
-            var15['style'] = var7;
+            var16 = var35.wrapper;
+            var5['style'] = var16;
+            var29 = 'auto';
+            var5['pointerEvents'] = var29;
+            var18 = _closure1_slot21;
+            var16 = 23;
+            var16 = var19[var16];
+            var16 = var17.bind(var4)(var16);
+            var17 = var16.AccessibilityViewAnimated;
+            var16 = {};
+            var16['nativeID'] = var7;
+            var7 = var35.accessibilityWrapper;
+            var16['style'] = var7;
             var7 = !var6;
             var6 = !var7;
-            if(var7) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
-            var6 = var31;
+            if(var7) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
-            var15['accessibilityViewIsModal'] = var6;
-            var15['onAccessibilityEscape'] = var12;
+            var6 = var32;
+case 37:
+            var16['accessibilityViewIsModal'] = var6;
+            var16['onAccessibilityEscape'] = var12;
             var6 = 'box-none';
-            var15['pointerEvents'] = var6;
-            var20 = _closure1_slot21;
-            var24 = _closure1_slot1;
+            var16['pointerEvents'] = var6;
+            var21 = _closure1_slot21;
+            var25 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var6 = 23;
-            var6 = var7[var6];
-            var19 = var24.bind(var4)(var6);
-            var18 = {};
-            var23 = _closure1_slot21;
             var6 = 24;
-            var21 = var7[var6];
-            var22 = var24.bind(var4)(var21);
-            var21 = {};
-            var21['style'] = var25;
-            var26 = _closure1_slot22;
+            var6 = var7[var6];
+            var20 = var25.bind(var4)(var6);
+            var19 = {};
+            var24 = _closure1_slot21;
+            var6 = 25;
+            var22 = var7[var6];
+            var23 = var25.bind(var4)(var22);
+            var22 = {};
+            var22['style'] = var26;
+            var27 = _closure1_slot22;
             var7 = var7[var6];
-            var25 = var24.bind(var4)(var7);
-            var24 = {};
-            var27 = var34.questDockWrapper;
+            var26 = var25.bind(var4)(var7);
+            var25 = {};
+            var28 = var35.questDockWrapper;
             var7 = new Array(2);
-            var7[0] = var27;
-            var7[1] = var13;
-            var24['style'] = var7;
+            var7[0] = var28;
+            var7[1] = var14;
+            var25['style'] = var7;
             var7 = _closure1_slot26;
-            var24['layout'] = var7;
-            var27 = _closure1_slot21;
-            var13 = _closure1_slot7;
-            var7 = {};
-            var37 = var34.nestedPressable;
-            var7['style'] = var37;
-            var7['onPressIn'] = var36;
-            var7['onPressOut'] = var35;
-            var7['onPress'] = var29;
-            if(!var31) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
-            var28 = 'none';
-case 40:
-            var7['pointerEvents'] = var28;
-            var7 = var27.bind(var4)(var13, var7);
-            var27 = new Array(4);
-            var27[0] = var7;
+            var25['layout'] = var7;
             var28 = _closure1_slot21;
-            var36 = _closure1_slot1;
-            var38 = _closure1_slot2;
-            var7 = var38[var6];
-            var13 = var36.bind(var4)(var7);
+            var14 = _closure1_slot7;
             var7 = {};
-            var35 = var34.questDockHeaderBorder;
-            var29 = new Array(2);
-            var29[0] = var35;
-            var29[1] = var33;
-            var7['style'] = var29;
-            var29 = _closure1_slot26;
-            var7['layout'] = var29;
+            var38 = var35.nestedPressable;
+            var7['style'] = var38;
+            var7['onPressIn'] = var37;
+            var7['onPressOut'] = var36;
+            var7['onPress'] = var30;
+            if(!var32) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
             var29 = 'none';
+case 39:
             var7['pointerEvents'] = var29;
-            var7 = var28.bind(var4)(var13, var7);
-            var27[1] = var7;
-            var28 = _closure1_slot22;
-            var7 = var38[var6];
-            var13 = var36.bind(var4)(var7);
-            var7 = {};
-            var33 = var34.questDockContentWrapper;
-            var29 = new Array(2);
-            var29[0] = var33;
-            var29[1] = var30;
-            var7['style'] = var29;
-            var33 = _closure1_slot22;
-            var30 = _closure1_slot6;
-            var29 = {};
-            var34 = var34.questDockContentWrapper;
-            var29['style'] = var34;
-            var37 = _closure1_slot21;
-            var34 = 25;
-            var34 = var38[var34];
-            var35 = var36.bind(var4)(var34);
-            var34 = {};
-            var34['hideOnExpand'] = var32;
-            var35 = var37.bind(var4)(var35, var34);
-            var34 = new Array(2);
-            var34[0] = var35;
-            var37 = _closure1_slot21;
-            var35 = 26;
-            var35 = var38[var35];
-            var36 = var36.bind(var4)(var35);
-            var35 = {};
-            var35 = var37.bind(var4)(var36, var35);
-            var34[1] = var35;
-            var29['children'] = var34;
-            var30 = var33.bind(var4)(var30, var29);
-            var29 = new Array(2);
-            var29[0] = var30;
-            var30 = !var32;
-            if(var32) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
-            var34 = _closure1_slot21;
-            var33 = _closure1_slot1;
-            var35 = _closure1_slot2;
-            var32 = 27;
-            var32 = var35[var32];
-            var33 = var33.bind(var4)(var32);
-            var32 = {};
-            var30 = var34.bind(var4)(var33, var32);
+            var29 = 'button';
+            var7['accessibilityRole'] = var29;
+            var37 = _closure1_slot0;
+            var29 = _closure1_slot2;
+            var39 = 26;
+            var30 = var29[var39];
+            var30 = var37.bind(var4)(var30);
+            var36 = var30.intl;
+            var30 = var36.string;
+            var29 = var29[var39];
+            var29 = var37.bind(var4)(var29);
+            var29 = var29.t;
+            var29 = var29.rjVPdM;
+            var29 = var30.bind(var36)(var29);
+            var7['accessibilityLabel'] = var29;
+            var29 = '';
+            if(var32) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
-            var29[1] = var30;
-            var7['children'] = var29;
-            var7 = var28.bind(var4)(var13, var7);
-            var27[2] = var7;
-            var30 = _closure1_slot21;
+            var38 = _closure1_slot0;
+            var30 = _closure1_slot2;
+            var36 = var30[var39];
+            var36 = var38.bind(var4)(var36);
+            var37 = var36.intl;
+            var36 = var37.string;
+            var30 = var30[var39];
+            var30 = var38.bind(var4)(var30);
+            var30 = var30.t;
+            var30 = var30.n0MlOB;
+            var29 = var36.bind(var37)(var30);
+case 41:
+            var7['accessibilityHint'] = var29;
+            var7 = var28.bind(var4)(var14, var7);
+            var28 = new Array(4);
+            var28[0] = var7;
+            var29 = _closure1_slot21;
+            var37 = _closure1_slot1;
+            var39 = _closure1_slot2;
+            var7 = var39[var6];
+            var14 = var37.bind(var4)(var7);
+            var7 = {};
+            var36 = var35.questDockHeaderBorder;
+            var30 = new Array(2);
+            var30[0] = var36;
+            var30[1] = var34;
+            var7['style'] = var30;
+            var30 = _closure1_slot26;
+            var7['layout'] = var30;
+            var30 = 'none';
+            var7['pointerEvents'] = var30;
+            var7 = var29.bind(var4)(var14, var7);
+            var28[1] = var7;
+            var29 = _closure1_slot22;
+            var7 = var39[var6];
+            var14 = var37.bind(var4)(var7);
+            var7 = {};
+            var34 = var35.questDockContentWrapper;
+            var30 = new Array(2);
+            var30[0] = var34;
+            var30[1] = var31;
+            var7['style'] = var30;
+            var34 = _closure1_slot22;
+            var31 = _closure1_slot6;
+            var30 = {};
+            var35 = var35.questDockContentWrapper;
+            var30['style'] = var35;
+            var38 = _closure1_slot21;
+            var35 = 27;
+            var35 = var39[var35];
+            var36 = var37.bind(var4)(var35);
+            var35 = {};
+            var35['hideOnExpand'] = var33;
+            var36 = var38.bind(var4)(var36, var35);
+            var35 = new Array(2);
+            var35[0] = var36;
+            var38 = _closure1_slot21;
+            var36 = 28;
+            var36 = var39[var36];
+            var37 = var37.bind(var4)(var36);
+            var36 = {};
+            var36 = var38.bind(var4)(var37, var36);
+            var35[1] = var36;
+            var30['children'] = var35;
+            var31 = var34.bind(var4)(var31, var30);
+            var30 = new Array(2);
+            var30[0] = var31;
+            var31 = !var33;
+            if(var33) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
+            var35 = _closure1_slot21;
+            var34 = _closure1_slot1;
+            var36 = _closure1_slot2;
+            var33 = 29;
+            var33 = var36[var33];
+            var34 = var34.bind(var4)(var33);
+            var33 = {};
+            var31 = var35.bind(var4)(var34, var33);
+case 43:
+            var30[1] = var31;
+            var7['children'] = var30;
+            var7 = var29.bind(var4)(var14, var7);
+            var28[2] = var7;
+            var31 = _closure1_slot21;
             var7 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var28 = 28;
-            var28 = var13[var28];
-            var29 = var7.bind(var4)(var28);
-            var28 = {};
-            var28['isExpanded'] = var31;
-            var28 = var30.bind(var4)(var29, var28);
-            var27[3] = var28;
-            var24['children'] = var27;
-            var24 = var26.bind(var4)(var25, var24);
-            var21['children'] = var24;
-            var21 = var23.bind(var4)(var22, var21);
-            var18['children'] = var21;
-            var18 = var20.bind(var4)(var19, var18);
-            var15['children'] = var18;
-            var15 = var17.bind(var4)(var16, var15);
-            var5['children'] = var15;
-            var8 = var14.bind(var4)(var8, var5);
+            var14 = _closure1_slot2;
+            var29 = 30;
+            var29 = var14[var29];
+            var30 = var7.bind(var4)(var29);
+            var29 = {};
+            var29['isExpanded'] = var32;
+            var29 = var31.bind(var4)(var30, var29);
+            var28[3] = var29;
+            var25['children'] = var28;
+            var25 = var27.bind(var4)(var26, var25);
+            var22['children'] = var25;
+            var22 = var24.bind(var4)(var23, var22);
+            var19['children'] = var22;
+            var19 = var21.bind(var4)(var20, var19);
+            var16['children'] = var19;
+            var16 = var18.bind(var4)(var17, var16);
+            var5['children'] = var16;
+            var8 = var15.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
             var8 = _closure1_slot21;
-            var6 = var13[var6];
+            var6 = var14[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['style'] = var11;
             var6['animatedProps'] = var10;
             var11 = _closure1_slot21;
             var10 = _closure1_slot0;
-            var9 = 29;
-            var9 = var13[var9];
+            var9 = 31;
+            var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Backdrop;
             var9 = {};
             var9['onDismiss'] = var12;
+            var12 = {};
+            var12['height'] = var13;
+            var9['accessibleDismissStyle'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -852,21 +925,21 @@ case 42:
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot38 = var1;
     var1 = function QuestDockModeChangeTracker(arg1) {
         var1 = arg1;
         var4 = var1.mode;
         var8 = var1.questId;
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var1 = 30;
+        var1 = 32;
         var1 = var7[var1];
         var5 = undefined;
         var3 = var6.bind(var5)(var1);
         var2 = var3.useQuestBarOrDockModeChangeTracking;
         var1 = {};
         var1['mode'] = var4;
-        var4 = 31;
+        var4 = 33;
         var9 = var7[var4];
         var9 = var6.bind(var5)(var9);
         var9 = var9.QuestContent;
@@ -882,14 +955,14 @@ case 42:
         var1 = null;
         return var1;
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot39 = var1;
     var1 = function QuestBarRenderedTriggerPointWrapper() {
         var4 = _closure1_slot5;
         var3 = var4.useEffect;
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 32;
+            var1 = 34;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -903,7 +976,7 @@ case 42:
         var1 = null;
         return var1;
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var2 = function QuestDockWithEntranceAnimation() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -920,7 +993,7 @@ case 0:
             var _closure2_slot0 = var10;
             var13 = var1.quest;
             var _closure2_slot1 = var13;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot35;
             var7 = var1.bind(var5)();
             var3 = _closure1_slot5;
             var2 = var3.useState;
@@ -936,7 +1009,7 @@ case 0:
             var1 = var1[var14];
             var _closure2_slot3 = var1;
             var3 = _closure1_slot0;
-            var1 = 33;
+            var1 = 35;
             var1 = var12[var1];
             var11 = var3.bind(var5)(var1);
             var8 = var11.useStateFromStores;
@@ -950,7 +1023,7 @@ case 0:
             };
             var1 = var8.bind(var11)(var2, var1);
             var _closure2_slot4 = var1;
-            var1 = 34;
+            var1 = 36;
             var1 = var12[var1];
             var8 = var3.bind(var5)(var1);
             var2 = var8.useIsEligibleForQuests;
@@ -963,7 +1036,7 @@ case 0:
             var1 = var12[var2];
             var15 = var3.bind(var5)(var1);
             var8 = var15.useAnimatedStyle;
-            var1 = function D() {
+            var1 = function c() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var1 = {};
@@ -976,11 +1049,11 @@ case 0:
                     var10 = var11.withSpring;
                     var3 = _closure2_slot0;
                     var5 = 0;
-                    if(!var3) { _fun0009_ip = 44; continue _fun0009 }
-case 45:
+                    if(!var3) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
                     var5 = 1;
-case 44:
-                    var4 = _closure1_slot35;
+case 45:
+                    var4 = _closure1_slot36;
                     var3 = 'animate-always';
                     var3 = var10.bind(var11)(var5, var4, var3);
                     var1['opacity'] = var3;
@@ -992,12 +1065,12 @@ case 44:
                     var4 = var5.withSpring;
                     var8 = _closure2_slot0;
                     var6 = 0;
-                    if(var8) { _fun0009_ip = 46; continue _fun0009 }
-case 47:
+                    if(var8) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
                     var7 = _closure2_slot2;
                     var6 = var7.height;
-case 46:
-                    var2 = _closure1_slot35;
+case 47:
+                    var2 = _closure1_slot36;
                     var2 = var4.bind(var5)(var6, var2);
                     var3['translateY'] = var2;
                     var2 = new Array(1);
@@ -1013,13 +1086,13 @@ case 46:
             var19 = var19.withSpring;
             var17['withSpring'] = var19;
             var17['isVisible'] = var10;
-            var19 = _closure1_slot35;
+            var19 = _closure1_slot36;
             var17['ENTRANCE_ANIMATION_SPING_CONFIG'] = var19;
             var17['componentDimensions'] = var18;
             var1['__closure'] = var17;
-            var17 = 5670363553938.0;
+            var17 = 4948945021130.0;
             var1['__workletHash'] = var17;
-            var17 = _closure1_slot36;
+            var17 = _closure1_slot37;
             var1['__initData'] = var17;
             var8 = var8.bind(var15)(var1);
             var17 = _closure1_slot5;
@@ -1031,7 +1104,7 @@ case 46:
             var4 = var1[var4];
             var1 = var1[var14];
             var _closure2_slot5 = var1;
-            var1 = 35;
+            var1 = 37;
             var14 = var12[var1];
             var15 = var3.bind(var5)(var14);
             var14 = var15.useQuestDockHeroAsset;
@@ -1048,19 +1121,19 @@ case 46:
             var15 = var1 == var14;
             var12 = undefined;
             if(var15) { _fun0008_ip = 36; continue _fun0008 }
-case 48:
+case 49:
             var12 = var14.enrolledAt;
 case 36:
             var12 = var1 != var12;
             var _closure2_slot8 = var12;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var12 = 36;
+            var12 = 38;
             var12 = var19[var12];
             var15 = var14.bind(var5)(var12);
             var12 = var15.useGradientBottom;
             var15 = var12.bind(var15)();
-            var12 = 37;
+            var12 = 39;
             var12 = var19[var12];
             var17 = var14.bind(var5)(var12);
             var14 = var17.useToken;
@@ -1073,14 +1146,14 @@ case 36:
             var12 = var14.bind(var17)(var12);
             var17 = var1 == var15;
             var14 = undefined;
-            if(var17) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
-            var14 = var15.backgroundColor;
-case 49:
-            if(!(var1 != var14)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-            var12 = var14;
+            if(var17) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
+            var14 = var15.backgroundColor;
+case 50:
+            if(!(var1 != var14)) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
+            var12 = var14;
+case 52:
             var _closure2_slot9 = var12;
             var15 = _closure1_slot5;
             var14 = var15.useEffect;
@@ -1111,30 +1184,30 @@ case 51:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0010_ip = 53; continue _fun0010 }
-case 54:
+                                if(var2) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                                 var6 = arg1;
-case 55: // try_start_0
+case 56: // try_start_0
                                 var4 = _closure1_slot8;
                                 var3 = var4.prefetch;
                                 var2 = var6;
                                 var2 = var3.bind(var4)(var2);
                                 SaveGenerator(address=38);
-case 56:
-                                return var2;
 case 57:
+                                return var2;
+case 58:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(var3) { _fun0010_ip = 58; continue _fun0010 }
-case 45: // try_end0
+                                if(var3) { _fun0010_ip = 59; continue _fun0010 }
+case 46: // try_end0
                                 var3 = true;
                                 return var3;
-case 58:
+case 59:
                                 return var2;
-case 59: // catch_target0
+case 60: // catch_target0
                                 CatchBlockStart(arg_register=1);
                                 var4 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var2 = 38;
+                                var2 = 40;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var5 = var4.bind(var2)(var3);
@@ -1152,7 +1225,7 @@ case 59: // catch_target0
                                 var2 = var4.bind(var5)(var3, var2);
                                 var2 = false;
                                 return var2;
-case 53:
+case 54:
                                 return var1;
                             }
                         };
@@ -1178,13 +1251,13 @@ case 53:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0011_ip = 60; continue _fun0011 }
-case 54:
+                                if(var2) { _fun0011_ip = 61; continue _fun0011 }
+case 55:
                                 var5 = new Array(0);
                                 var2 = _closure2_slot6;
                                 var4 = null;
                                 if(!(var4 != var2)) { _fun0011_ip = 20; continue _fun0011 }
-case 61:
+case 62:
                                 var6 = var5.push;
                                 var8 = _closure3_slot0;
                                 var7 = _closure2_slot6;
@@ -1193,26 +1266,26 @@ case 61:
                                 var2 = var6.bind(var5)(var2);
 case 20:
                                 var2 = _closure2_slot7;
-                                if(!(var4 != var2)) { _fun0011_ip = 62; continue _fun0011 }
-case 63:
+                                if(!(var4 != var2)) { _fun0011_ip = 63; continue _fun0011 }
+case 64:
                                 var4 = var5.push;
                                 var7 = _closure3_slot0;
                                 var6 = _closure2_slot7;
                                 var2 = undefined;
                                 var2 = var7.bind(var2)(var6);
                                 var2 = var4.bind(var5)(var2);
-case 62:
+case 63:
                                 var2 = global;
                                 var4 = var2.Promise;
                                 var2 = var4.all;
                                 var2 = var2.bind(var4)(var5);
                                 SaveGenerator(address=114);
-case 64:
-                                return var2;
 case 65:
+                                return var2;
+case 66:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(var4) { _fun0011_ip = 66; continue _fun0011 }
-case 67:
+                                if(var4) { _fun0011_ip = 67; continue _fun0011 }
+case 68:
                                 var5 = _closure2_slot5;
                                 var4 = var2.every;
                                 var3 = function(arg1) {
@@ -1225,9 +1298,9 @@ case 67:
                                 var3 = undefined;
                                 var4 = var5.bind(var3)(var4);
                                 return var3;
-case 66:
+case 67:
                                 return var2;
-case 60:
+case 61:
                                 return var1;
                             }
                         };
@@ -1260,14 +1333,14 @@ case 60:
             };
             var3 = var14.bind(var15)(var3, var12);
             var3 = var1 == var13;
-            if(var3) { _fun0008_ip = 68; continue _fun0008 }
-case 69:
-            var3 = !var11;
-case 68:
-            if(var3) { _fun0008_ip = 70; continue _fun0008 }
-case 71:
-            var3 = !var4;
+            if(var3) { _fun0008_ip = 69; continue _fun0008 }
 case 70:
+            var3 = !var11;
+case 69:
+            if(var3) { _fun0008_ip = 71; continue _fun0008 }
+case 72:
+            var3 = !var4;
+case 71:
             var _closure2_slot10 = var3;
             var14 = _closure1_slot5;
             var12 = var14.useEffect;
@@ -1276,7 +1349,7 @@ case 70:
             var4 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 39;
+                var1 = 41;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1289,7 +1362,7 @@ case 70:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 39;
+                    var1 = 41;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1304,8 +1377,8 @@ case 70:
             };
             var4 = var12.bind(var14)(var4, var11);
             var1 = null;
-            if(var3) { _fun0008_ip = 72; continue _fun0008 }
-case 73:
+            if(var3) { _fun0008_ip = 73; continue _fun0008 }
+case 74:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -1339,13 +1412,13 @@ case 73:
             var2['onLayout'] = var7;
             var8 = _closure1_slot21;
             var11 = _closure1_slot0;
-            var6 = 40;
+            var6 = 42;
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.QuestContentImpressionTrackerNative;
             var6 = {};
             var6['overrideVisibility'] = var10;
-            var10 = 31;
+            var10 = 33;
             var14 = var12[var10];
             var14 = var11.bind(var5)(var14);
             var14 = var14.QuestContent;
@@ -1364,7 +1437,7 @@ case 0:
                     var3 = _closure1_slot23;
                     var2 = {};
                     var7 = _closure1_slot21;
-                    var6 = _closure1_slot38;
+                    var6 = _closure1_slot39;
                     var5 = {};
                     var1 = _closure2_slot1;
                     var1 = var1.id;
@@ -1376,7 +1449,7 @@ case 0:
                     var5 = new Array(3);
                     var5[0] = var6;
                     var8 = _closure1_slot21;
-                    var7 = _closure1_slot39;
+                    var7 = _closure1_slot40;
                     var6 = {};
                     var6 = var8.bind(var1)(var7, var6);
                     var5[1] = var6;
@@ -1389,21 +1462,21 @@ case 0:
                     var7 = var6.QuestDockGestureContextProvider;
                     var6 = {};
                     var11 = _closure1_slot21;
-                    var9 = 41;
+                    var9 = 43;
                     var9 = var13[var9];
                     var9 = var10.bind(var1)(var9);
                     var10 = var9.ThemeContextProvider;
                     var9 = {};
                     var14 = _closure2_slot8;
                     var13 = undefined;
-                    if(var14) { _fun0012_ip = 74; continue _fun0012 }
-case 75:
+                    if(var14) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
                     var14 = _closure1_slot20;
                     var13 = var14.DARK;
-case 74:
+case 75:
                     var9['theme'] = var13;
                     var14 = _closure1_slot21;
-                    var13 = _closure1_slot37;
+                    var13 = _closure1_slot38;
                     var12 = {};
                     var15 = _closure2_slot9;
                     var12['appThemedBackgroundColor'] = var15;
@@ -1422,11 +1495,11 @@ case 74:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 72:
+case 73:
             return var1;
         }
     };
-    var _closure1_slot40 = var2;
+    var _closure1_slot41 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1656,13 +1729,17 @@ case 72:
     var9['code'] = var11;
     var _closure1_slot31 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx7(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.CLOSED||activeQuestDockMode.get()===QuestDockMode.SOFT_DISMISSED?0:1,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
+    var11 = 'function QuestDockTsx7(){const{questDockWrapperSpecs,windowDimensions,safeAreaTop}=this.__closure;const specs=questDockWrapperSpecs.get();const windowHeight=windowDimensions.get().height;return windowHeight-safeAreaTop-specs.height+specs.y;}';
     var9['code'] = var11;
     var _closure1_slot32 = var9;
     var9 = {};
-    var11 = 'function QuestDockTsx8(){const{isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_CONTENT_BORDER_RADII,QUEST_DOCK_BORDER_RADII,withSpring,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_COLLAPSED_HEIGHT,QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED}=this.__closure;return{borderRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?questDockWrapperSpecs.get().height:QUEST_DOCK_COLLAPSED_HEIGHT,width:isEnrolled||activeQuestDockMode.get()===QuestDockMode.COLLAPSED?questDockWrapperSpecs.get().width:questDockWrapperSpecs.get().width-QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED*2,transform:[{translateX:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)},{translateY:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)}]};}';
+    var11 = 'function QuestDockTsx8(){const{withSpring,activeQuestDockMode,QuestDockMode,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.CLOSED||activeQuestDockMode.get()===QuestDockMode.SOFT_DISMISSED?0:1,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
     var9['code'] = var11;
     var _closure1_slot33 = var9;
+    var9 = {};
+    var11 = 'function QuestDockTsx9(){const{isEnrolled,activeQuestDockMode,QuestDockMode,QUEST_DOCK_CONTENT_BORDER_RADII,QUEST_DOCK_BORDER_RADII,withSpring,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED,questDockWrapperSpecs,QUEST_DOCK_COLLAPSED_HEIGHT,QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED}=this.__closure;return{borderRadius:!isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_CONTENT_BORDER_RADII:QUEST_DOCK_BORDER_RADII,opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED),height:isEnrolled&&activeQuestDockMode.get()===QuestDockMode.EXPANDED?questDockWrapperSpecs.get().height:QUEST_DOCK_COLLAPSED_HEIGHT,width:isEnrolled||activeQuestDockMode.get()===QuestDockMode.COLLAPSED?questDockWrapperSpecs.get().width:questDockWrapperSpecs.get().width-QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED*2,transform:[{translateX:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)},{translateY:isEnrolled?0:withSpring(activeQuestDockMode.get()===QuestDockMode.EXPANDED?QUEST_DOCK_UNENROLLED_HEADER_INSET_EXPANDED:0,QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED)}]};}';
+    var9['code'] = var11;
+    var _closure1_slot34 = var9;
     var5 = var7[var5];
     var11 = var6.bind(var1)(var5);
     var9 = var11.createStyles;
@@ -1673,9 +1750,9 @@ case 72:
         return var1;
     };
     var5 = var9.bind(var11)(var5);
-    var _closure1_slot34 = var5;
+    var _closure1_slot35 = var5;
     var5 = {};
-    var9 = 21;
+    var9 = 22;
     var9 = var7[var9];
     var9 = var6.bind(var1)(var9);
     var24 = var9.SUBTLE_SPRING;
@@ -1686,18 +1763,18 @@ case 72:
     var10 = 54;
     var9 = 'damping';
     var5[var9] = var10;
-    var _closure1_slot35 = var5;
-    var5 = {};
-    var9 = "function QuestDockTsx9(){const{withSpring,isVisible,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isVisible?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isVisible?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
-    var5['code'] = var9;
     var _closure1_slot36 = var5;
+    var5 = {};
+    var9 = "function QuestDockTsx10(){const{withSpring,isVisible,ENTRANCE_ANIMATION_SPING_CONFIG,componentDimensions}=this.__closure;return{opacity:withSpring(isVisible?1:0,ENTRANCE_ANIMATION_SPING_CONFIG,'animate-always'),transform:[{translateY:withSpring(isVisible?0:componentDimensions.height,ENTRANCE_ANIMATION_SPING_CONFIG)}]};}";
+    var5['code'] = var9;
+    var _closure1_slot37 = var5;
     var5 = var8.memo;
     var4 = function QuestDockWithQuestContext() {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 35;
+            var1 = 37;
             var4 = var3[var1];
             var5 = undefined;
             var7 = var2.bind(var5)(var4);
@@ -1709,7 +1786,7 @@ case 0:
             var9 = var1.bind(var2)(var8);
             var1 = null;
             var2 = var1 == var8;
-            if(var2) { _fun0013_ip = 76; continue _fun0013 }
+            if(var2) { _fun0013_ip = 77; continue _fun0013 }
 case 11:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
@@ -1724,17 +1801,17 @@ case 11:
             var7['quest'] = var8;
             var2['value'] = var7;
             var8 = _closure1_slot21;
-            var7 = _closure1_slot40;
+            var7 = _closure1_slot41;
             var6 = {};
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 76:
+case 77:
             return var1;
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 42;
+    var5 = 44;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

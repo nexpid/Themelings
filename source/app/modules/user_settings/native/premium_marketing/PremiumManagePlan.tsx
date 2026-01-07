@@ -2420,18 +2420,18 @@ case 0:
                     var5 = var6.bind(var7)(var5);
                     var5 = null;
                     if(!(var5 == var4)) { _fun0008_ip = 123; continue _fun0008 }
-case 64:
+case 124:
                     var6 = _closure2_slot0;
                     var5 = var6.push;
                     var3 = _closure1_slot20;
                     var3 = var3.GUILD_BOOSTING;
                     var3 = var5.bind(var6)(var3);
-                    _fun0008_ip = 124; continue _fun0008;
+                    _fun0008_ip = 125; continue _fun0008;
 case 123:
                     var3 = _closure2_slot0;
                     var2 = var3.navigate;
                     var2 = var2.bind(var3)(var4);
-case 124:
+case 125:
                     return var1;
                 }
             };

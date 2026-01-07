@@ -271,7 +271,7 @@ case 27:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(31);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -760,35 +760,16 @@ case 31:
         var5['get'] = var7;
         var1[26] = var5;
         var5 = {};
-        var7 = 'showPlayAgain';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
-case 0:
-                var1 = _closure1_slot17;
-                var2 = var1.showPlayAgain;
-                var1 = null;
-                var1 = var1 == var2;
-                if(var1) { _fun0027_ip = 31; continue _fun0027 }
-case 32:
-                var1 = var2;
-case 31:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[27] = var5;
-        var5 = {};
         var7 = 'isVisualRefreshDisabled';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                 var1 = arg1;
                 var2 = _closure1_slot17;
                 var2 = var2.disableVisualRefresh;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0028_ip = 31; continue _fun0028 }
+                if(!(var3 != var2)) { _fun0027_ip = 31; continue _fun0027 }
 case 32:
                 var1 = var2;
 case 31:
@@ -796,17 +777,17 @@ case 31:
             }
         };
         var5['value'] = var7;
-        var1[28] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'listDensity';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.listDensity;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0029_ip = 38; continue _fun0029 }
+                if(!(var3 == var1)) { _fun0028_ip = 38; continue _fun0028 }
 case 39:
                 var2 = _closure1_slot13;
                 var1 = var2.COZY;
@@ -815,19 +796,19 @@ case 38:
             }
         };
         var5['get'] = var7;
-        var1[29] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'hdrDynamicRange';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var2 = var1.hdrDynamicRange;
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 'no-limit';
-                if(!var3) { _fun0030_ip = 38; continue _fun0030 }
+                if(!var3) { _fun0029_ip = 38; continue _fun0029 }
 case 12:
                 var1 = var2;
 case 38:
@@ -835,7 +816,7 @@ case 38:
             }
         };
         var5['get'] = var6;
-        var1[30] = var5;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -854,7 +835,7 @@ case 38:
         var8 = var6.Storage;
         var7 = var8.get;
         var6 = 'UserSettingsStore';
-        var19 = var7.bind(var8)(var6);
+        var18 = var7.bind(var8)(var6);
         var2 = var4[var2];
         var2 = var5.bind(var3)(var2);
         var5 = var2.Storage;
@@ -863,27 +844,26 @@ case 38:
         var2 = _closure1_slot1;
         var1 = 13;
         var1 = var4[var1];
-        var18 = var2.bind(var3)(var1);
-        var17 = var18.pick;
-        var35 = 'dataSavingMode';
-        var34 = 'videoUploadQuality';
-        var33 = 'lowQualityImageMode';
-        var32 = 'useSystemTheme';
-        var31 = 'expressionPickerWidth';
-        var30 = 'disableVoiceChannelChangeAlert';
-        var29 = 'disableHideSelfStreamAndVideoConfirmationAlert';
-        var28 = 'pushUpsellDismissed';
-        var27 = 'disableEmbeddedActivityPopOutAlert';
-        var26 = 'disableActivityHardwareAccelerationPrompt';
-        var25 = 'disableInviteWithTextChannelActivityLaunch';
-        var24 = 'disableActivityHostLeftNitroUpsell';
-        var23 = 'disableCallUserConfirmationPrompt';
-        var22 = 'disableApplicationSubscriptionCancellationSurvey';
-        var21 = 'enableAndroidChatListAnimations';
-        var20 = 'showPlayAgain';
-        var37 = var18;
-        var36 = var19;
-        var1 = var37[var17](var36, var35, var34, var33, var32, var31, var30, var29, var28, var27, var26, var25, var24, var23, var22, var21, var20, var19);
+        var17 = var2.bind(var3)(var1);
+        var16 = var17.pick;
+        var33 = 'dataSavingMode';
+        var32 = 'videoUploadQuality';
+        var31 = 'lowQualityImageMode';
+        var30 = 'useSystemTheme';
+        var29 = 'expressionPickerWidth';
+        var28 = 'disableVoiceChannelChangeAlert';
+        var27 = 'disableHideSelfStreamAndVideoConfirmationAlert';
+        var26 = 'pushUpsellDismissed';
+        var25 = 'disableEmbeddedActivityPopOutAlert';
+        var24 = 'disableActivityHardwareAccelerationPrompt';
+        var23 = 'disableInviteWithTextChannelActivityLaunch';
+        var22 = 'disableActivityHostLeftNitroUpsell';
+        var21 = 'disableCallUserConfirmationPrompt';
+        var20 = 'disableApplicationSubscriptionCancellationSurvey';
+        var19 = 'enableAndroidChatListAnimations';
+        var35 = var17;
+        var34 = var18;
+        var1 = var35[var16](var34, var33, var32, var31, var30, var29, var28, var27, var26, var25, var24, var23, var22, var21, var20, var19, var18);
         return var1;
     };
     var5[0] = var11;
@@ -927,11 +907,11 @@ case 38:
     };
     var5['LOGOUT'] = var11;
     var11 = function handleLogInSuccess() {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var3 = _closure1_slot17;
             var1 = null;
-            if(!(var1 == var3)) { _fun0031_ip = 34; continue _fun0031 }
+            if(!(var1 == var3)) { _fun0030_ip = 34; continue _fun0030 }
 case 43:
             var1 = {};
             _closure1_slot17 = var1;

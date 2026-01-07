@@ -133,18 +133,18 @@ case 0:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
-            var1 = _closure1_slot15;
-            var14 = var1.bind(var4)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot3;
-            var1 = 11;
-            var1 = var3[var1];
-            var5 = var2.bind(var4)(var1);
-            var3 = var5.useStateFromStores;
-            var1 = _closure1_slot8;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = function() {
+            var2 = _closure1_slot15;
+            var14 = var2.bind(var4)();
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot3;
+            var2 = 11;
+            var2 = var5[var2];
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot8;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
                 var3 = _closure1_slot8;
                 var2 = var3.getStageInstanceByChannel;
                 var1 = _closure2_slot0;
@@ -152,54 +152,55 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var23 = var3.bind(var5)(var2, var1);
+            var23 = var5.bind(var6)(var3, var2);
             var _closure2_slot1 = var23;
-            var3 = _closure1_slot6;
-            var2 = var3.useState;
+            var5 = _closure1_slot6;
+            var3 = var5.useState;
             var13 = null;
-            var1 = var13 == var23;
-            var5 = undefined;
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var13 == var23;
+            var6 = undefined;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var23.topic;
+            var6 = var23.topic;
 case 2:
-            var6 = var13 != var5;
+            var7 = var13 != var6;
             var21 = '';
-            var1 = var21;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+            var2 = var21;
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var5;
+            var2 = var6;
 case 4:
-            var1 = var2.bind(var3)(var1);
-            var6 = _closure1_slot5;
-            var5 = 2;
-            var1 = var6.bind(var4)(var1, var5);
-            var3 = 0;
-            var20 = var1[var3];
+            var2 = var3.bind(var5)(var2);
+            var7 = _closure1_slot5;
+            var6 = 2;
+            var2 = var7.bind(var4)(var2, var6);
+            var5 = 0;
+            var20 = var2[var5];
             _closure2_slot2 = var20;
-            var2 = 1;
-            var25 = var1[var2];
-            var7 = _closure1_slot6;
-            var8 = var7.useState;
-            var1 = false;
-            var1 = var8.bind(var7)(var1);
-            var1 = var6.bind(var4)(var1, var5);
-            var19 = var1[var3];
-            var1 = var1[var2];
-            _closure2_slot3 = var1;
-            var1 = var7.useState;
-            var1 = var1.bind(var7)(var13);
-            var1 = var6.bind(var4)(var1, var5);
-            var26 = var1[var3];
-            var1 = var1[var2];
-            _closure2_slot4 = var1;
+            var3 = 1;
+            var25 = var2[var3];
+            var8 = _closure1_slot6;
+            var9 = var8.useState;
+            var2 = false;
+            var2 = var9.bind(var8)(var2);
+            var2 = var7.bind(var4)(var2, var6);
+            var19 = var2[var5];
+            var2 = var2[var3];
+            _closure2_slot3 = var2;
+            var2 = var8.useState;
+            var2 = var2.bind(var8)(var13);
+            var2 = var7.bind(var4)(var2, var6);
+            var26 = var2[var5];
+            var2 = var2[var3];
+            _closure2_slot4 = var2;
             var7 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var1 = 12;
-            var1 = var6[var1];
-            var2 = var7.bind(var4)(var1);
-            var1 = var2.useShouldAgeVerifyToSpeakForCurrentUser;
-            var12 = var1.bind(var2)();
+            var2 = 12;
+            var2 = var6[var2];
+            var3 = var7.bind(var4)(var2);
+            var2 = var3.useShouldAgeVerifyToSpeakForCurrentUser;
+            var1 = var1.id;
+            var12 = var2.bind(var3)(var1);
             var9 = _closure1_slot1;
             var1 = 13;
             var1 = var6[var1];

@@ -980,6 +980,22 @@ case 42:
         return var1;
     };
     var2['CONNECTION_OPEN'] = var10;
+    var10 = function handleGuildDelete(arg1) {
+        var1 = arg1;
+        var1 = var1.guild;
+        var4 = _closure1_slot13;
+        var3 = var1.id;
+        var3 = delete var4[var3];
+        var4 = _closure1_slot14;
+        var3 = var1.id;
+        var3 = delete var4[var3];
+        var2 = _closure1_slot15;
+        var1 = var1.id;
+        var1 = delete var2[var1];
+        var1 = undefined;
+        return var1;
+    };
+    var2['GUILD_DELETE'] = var10;
     var10 = function handleStart() {
         var1 = true;
         _closure1_slot16 = var1;

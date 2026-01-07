@@ -225,9 +225,11 @@ case 14:
                     var2 = 18;
                     var2 = var5[var2];
                     var5 = undefined;
-                    var4 = var4.bind(var5)(var2);
-                    var2 = var4.shouldAgeVerifyToSpeakForCurrentUser;
-                    var2 = var2.bind(var4)();
+                    var6 = var4.bind(var5)(var2);
+                    var4 = var6.shouldAgeVerifyToSpeakForCurrentUser;
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var2 = var4.bind(var6)(var2);
                     if(!var2) { _fun0003_ip = 13; continue _fun0003 }
 case 15:
                     var4 = _closure1_slot1;

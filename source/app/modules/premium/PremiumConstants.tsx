@@ -1666,7 +1666,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['USER_PREMIUM_OFFER_EXPIRES_APPROACHING_5_DAY_THRESHOLD'] = var68;
     var68 = 345600000;
     var3['USER_PREMIUM_OFFER_EXPIRES_APPROACHING_4_DAY_THRESHOLD'] = var68;
-    var68 = 262800000;
+    var68 = 280800000;
     var3['TRIAL_FOR_EVERYONE_OFFER_EXPIRES_APPROACHING_THRESHOLD'] = var68;
     var68 = 14;
     var3['MAX_PAYMENT_PROCESSING_TIME_DAYS'] = var68;

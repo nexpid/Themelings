@@ -51,84 +51,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.product;
-            var7 = var1.width;
+            var16 = var1.product;
+            var8 = var1.width;
             var1 = _closure1_slot5;
-            var4 = undefined;
-            var9 = var1.bind(var4)();
+            var5 = undefined;
+            var10 = var1.bind(var5)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 4;
             var1 = var3[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useCurrentUser;
-            var10 = var1.bind(var2)();
-            var1 = var15.items;
-            var1 = var1.length;
-            var2 = 0;
-            if(!(!(var1 <= var2))) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var15.type;
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var4 = var2.bind(var5)(var1);
+            var1 = var4.useCurrentUser;
+            var11 = var1.bind(var4)();
             var1 = 5;
-            var1 = var8[var1];
-            var1 = var6.bind(var4)(var1);
-            var1 = var1.CollectiblesItemType;
-            var1 = var1.BUNDLE;
-            if(!(var3 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var1 = var15.items;
-            var8 = var1[var2];
-            _fun0001_ip = 6; continue _fun0001;
-case 4:
-            var2 = var15.items;
-            var1 = 1;
-            var8 = var2[var1];
-case 6:
-            var3 = _closure1_slot4;
-            var2 = _closure1_slot3;
-            var1 = {};
-            var6 = var9.container;
-            var1['style'] = var6;
-            var6 = 'box-none';
-            var1['pointerEvents'] = var6;
-            var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var6 = 6;
-            var13 = var11[var6];
-            var13 = var12.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.formatToPlainString;
-            var6 = var11[var6];
-            var6 = var12.bind(var4)(var6);
-            var6 = var6.t;
-            var12 = var6.HSX4HR;
-            var6 = {};
-            var15 = var15.name;
-            var6['profileEffect'] = var15;
-            var6 = var13.bind(var14)(var12, var6);
-            var1['accessibilityLabel'] = var6;
-            var6 = 'image';
-            var1['accessibilityRole'] = var6;
-            var6 = _closure1_slot1;
-            var5 = 7;
-            var5 = var11[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = {};
-            var5['user'] = var10;
-            var9 = var9.profilePreview;
-            var5['style'] = var9;
-            var5['pendingProfileEffectRecord'] = var8;
-            var5['maxWidth'] = var7;
-            var7 = true;
-            var5['gradientFullHeight'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-case 2:
+            var1 = var3[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.useShopProductItems;
+            var1 = var1.bind(var2)(var16);
+            var9 = var1.firstProfileEffect;
             var1 = null;
+            var2 = var1 == var9;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var7 = var10.container;
+            var2['style'] = var7;
+            var7 = 'box-none';
+            var2['pointerEvents'] = var7;
+            var13 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 6;
+            var14 = var12[var7];
+            var14 = var13.bind(var5)(var14);
+            var15 = var14.intl;
+            var14 = var15.formatToPlainString;
+            var7 = var12[var7];
+            var7 = var13.bind(var5)(var7);
+            var7 = var7.t;
+            var13 = var7.HSX4HR;
+            var7 = {};
+            var16 = var16.name;
+            var7['profileEffect'] = var16;
+            var7 = var14.bind(var15)(var13, var7);
+            var2['accessibilityLabel'] = var7;
+            var7 = 'image';
+            var2['accessibilityRole'] = var7;
+            var7 = _closure1_slot1;
+            var6 = 7;
+            var6 = var12[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6['user'] = var11;
+            var10 = var10.profilePreview;
+            var6['style'] = var10;
+            var6['pendingProfileEffectRecord'] = var9;
+            var6['maxWidth'] = var8;
+            var8 = true;
+            var6['gradientFullHeight'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 2:
             return var1;
         }
     };

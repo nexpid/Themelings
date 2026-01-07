@@ -229,7 +229,7 @@ case 4:
             var4 = new Array(1);
             var4[0] = var9;
             var5['settings'] = var4;
-            var4 = new Array(14);
+            var4 = new Array(15);
             var4[0] = var5;
             var5 = {};
             var9 = var12[var7];
@@ -373,11 +373,17 @@ case 4:
             var5['settings'] = var7;
             var4[12] = var5;
             var5 = {};
-            var7 = var6.PROFILE_UPDATES_NOTIFICATIONS;
+            var8 = var6.PROFILE_UPDATES_NOTIFICATIONS;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var5['settings'] = var7;
+            var4[13] = var5;
+            var5 = {};
+            var7 = var6.SERVER_TRENDING_NOTIFICATIONS;
             var6 = new Array(1);
             var6[0] = var7;
             var5['settings'] = var6;
-            var4[13] = var5;
+            var4[14] = var5;
             var1['sections'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

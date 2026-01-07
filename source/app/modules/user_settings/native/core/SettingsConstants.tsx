@@ -416,8 +416,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ALLOW_GAME_FRIEND_DMS'] = var1;
     var1 = 'IN_GAME_DMS';
     var2['IN_GAME_DMS'] = var1;
-    var1 = 'PLAY_SHORTCUT_ROW';
-    var2['PLAY_SHORTCUT_ROW'] = var1;
     var1 = 'CUSTOM_STATUS_NOTIFICATIONS';
     var2['CUSTOM_STATUS_NOTIFICATIONS'] = var1;
     var1 = 'DOUBLE_TAP_EMOJI';
