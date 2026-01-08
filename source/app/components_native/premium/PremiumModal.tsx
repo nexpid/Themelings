@@ -360,5 +360,7 @@ case 5:
         }
     };
     var3['default'] = var2;
+    var2 = 'PREMIUM_KEY';
+    var3['PREMIUM_KEY'] = var2;
     return var1;
 })();

@@ -253,9 +253,11 @@ case 17:
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.openTransferModal;
-                var4 = _closure2_slot0;
-                var1 = new Array(1);
-                var1[0] = var4;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var4 = new Array(1);
+                var4[0] = var5;
+                var1['guildBoostSlots'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };

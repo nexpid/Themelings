@@ -638,7 +638,7 @@ case 74:
             var10 = var24[var10];
             var10 = var23.bind(var3)(var10);
             var10 = var10.bind(var3)(var17);
-            var47 = var12 === var10;
+            var47 = var10 >= var12;
 case 73:
             var10 = !var20;
             if(var20) { _fun0004_ip = 75; continue _fun0004 }

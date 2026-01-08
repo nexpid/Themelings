@@ -135,7 +135,7 @@ case 8:
             var8 = var2[var6];
             var16 = var3.bind(var4)(var8);
             var11 = var16.useAnimatedStyle;
-            var8 = function N() {
+            var8 = function O() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot0;
@@ -662,78 +662,6 @@ case 43:
         }
     };
     var _closure1_slot21 = var1;
-    var1 = function Handle(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-            var1 = arg1;
-            var8 = var1.animatedIndex;
-            var11 = var1.onPress;
-            var1 = _closure1_slot17;
-            var4 = undefined;
-            var5 = var1.bind(var4)();
-            var6 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var1 = 16;
-            var1 = var10[var1];
-            var2 = var6.bind(var4)(var1);
-            var1 = var2.useGradientBottom;
-            var7 = var1.bind(var2)();
-            var1 = 21;
-            var1 = var10[var1];
-            var3 = var6.bind(var4)(var1);
-            var2 = var3.useDerivedStateFromSharedValue;
-            var1 = function(arg1) {
-                var2 = arg1;
-                var1 = 0;
-                var1 = var2 > var1;
-                return var1;
-            };
-            var8 = var2.bind(var3)(var8, var1);
-            var3 = _closure1_slot12;
-            var2 = _closure1_slot5;
-            var1 = {};
-            var12 = var5.headerHandleWrap;
-            var5 = new Array(2);
-            var5[0] = var12;
-            var5[1] = var7;
-            var1['style'] = var5;
-            var7 = _closure1_slot12;
-            var5 = 22;
-            var5 = var10[var5];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.ActionSheetDragHandle;
-            var5 = {};
-            var5['onPress'] = var11;
-            var10 = null;
-            var10 = var10 == var11;
-            var5['aria-hidden'] = var10;
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var9 = 18;
-            var10 = var13[var9];
-            var10 = var12.bind(var4)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var13[var9];
-            var9 = var12.bind(var4)(var9);
-            var9 = var9.t;
-            if(var8) { _fun0008_ip = 45; continue _fun0008 }
-case 46:
-            var8 = var9.dcl9MQ;
-            var8 = var10.bind(var11)(var8);
-            _fun0008_ip = 47; continue _fun0008;
-case 45:
-            var9 = var9.iTcuma;
-            var8 = var10.bind(var11)(var9);
-case 47:
-            var5['accessibilityLabel'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot22 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -886,105 +814,75 @@ case 47:
     var7 = "function MediaKeyboardBottomSheetHeaderTsx3(){const{animatedIndex,animatedIndexThreshold,animatedSnapPoints}=this.__closure;return{pointerEvents:animatedIndex.get()>animatedIndexThreshold(animatedSnapPoints,0.8)?'box-none':'none'};}";
     var4['code'] = var7;
     var _closure1_slot20 = var4;
-    var4 = 25;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_keyboard/native/components/MediaKeyboardBottomSheetHeader.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function MediaKeyboardBottomSheetHeader(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var9 = arg1;
-            var1 = _closure1_slot17;
-            var5 = undefined;
-            var7 = var1.bind(var5)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 23;
-            var1 = var3[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.useIsMediaKeyboardActionsFloatingOrTabBarEnabled;
-            var1 = var1.bind(var2)();
-            if(var1) { _fun0009_ip = 48; continue _fun0009 }
-case 49:
-            var3 = _closure1_slot13;
-            var2 = _closure1_slot14;
-            var1 = {};
-            var10 = _closure1_slot12;
-            var8 = _closure1_slot21;
-            var4 = {};
-            var11 = var9.title;
-            var4['title'] = var11;
-            var11 = var9.subtitle;
-            var4['subtitle'] = var11;
-            var11 = var9.animatedIndex;
-            var4['animatedIndex'] = var11;
-            var11 = var9.channel;
-            var4['channel'] = var11;
-            var11 = var9.draftType;
-            var4['draftType'] = var11;
-            var11 = var9.hideScrim;
-            var4['hideScrim'] = var11;
-            var11 = var9.onBack;
-            var4['onBack'] = var11;
-            var11 = var9.onPress;
-            var4['onPress'] = var11;
-            var11 = var9.onViewAll;
-            var4['onViewAll'] = var11;
-            var11 = var9.uploadLimit;
-            var4['uploadLimit'] = var11;
-            var11 = var9.disableWhenReachedLimit;
-            var4['disableWhenReachedLimit'] = var11;
-            var11 = var9.includedUploadIds;
-            var4['includedUploadIds'] = var11;
-            var8 = var10.bind(var5)(var8, var4);
-            var4 = new Array(3);
-            var4[0] = var8;
-            var11 = _closure1_slot12;
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var8 = 24;
-            var8 = var12[var8];
-            var10 = var10.bind(var5)(var8);
-            var8 = {};
-            var12 = var9.animatedIndex;
-            var8['animatedIndex'] = var12;
-            var12 = var9.overflowButtons;
-            var8['overflowButtons'] = var12;
-            var8 = var11.bind(var5)(var10, var8);
-            var4[1] = var8;
-            var11 = _closure1_slot12;
-            var10 = _closure1_slot22;
-            var8 = {};
-            var12 = var9.animatedIndex;
-            var8['animatedIndex'] = var12;
-            var12 = var9.onPress;
-            var8['onPress'] = var12;
-            var8 = var11.bind(var5)(var10, var8);
-            var4[2] = var8;
-            var1['children'] = var4;
-            var1 = var3.bind(var5)(var2, var1);
-            _fun0009_ip = 50; continue _fun0009;
-case 48:
-            var4 = _closure1_slot12;
-            var3 = _closure1_slot5;
-            var2 = {};
-            var7 = var7.headerHandleOnlyWrap;
-            var2['style'] = var7;
-            var8 = _closure1_slot12;
-            var7 = _closure1_slot22;
-            var6 = {};
-            var10 = var9.animatedIndex;
-            var6['animatedIndex'] = var10;
-            var9 = var9.onPress;
-            var6['onPress'] = var9;
-            var6 = var8.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 50:
-            return var1;
-        }
+        var9 = arg1;
+        var4 = _closure1_slot13;
+        var3 = _closure1_slot14;
+        var2 = {};
+        var8 = _closure1_slot12;
+        var7 = _closure1_slot21;
+        var5 = {};
+        var1 = var9.title;
+        var5['title'] = var1;
+        var1 = var9.subtitle;
+        var5['subtitle'] = var1;
+        var1 = var9.animatedIndex;
+        var5['animatedIndex'] = var1;
+        var1 = var9.channel;
+        var5['channel'] = var1;
+        var1 = var9.draftType;
+        var5['draftType'] = var1;
+        var1 = var9.hideScrim;
+        var5['hideScrim'] = var1;
+        var1 = var9.onBack;
+        var5['onBack'] = var1;
+        var1 = var9.onPress;
+        var5['onPress'] = var1;
+        var1 = var9.onViewAll;
+        var5['onViewAll'] = var1;
+        var1 = var9.uploadLimit;
+        var5['uploadLimit'] = var1;
+        var1 = var9.disableWhenReachedLimit;
+        var5['disableWhenReachedLimit'] = var1;
+        var1 = var9.includedUploadIds;
+        var5['includedUploadIds'] = var1;
+        var1 = undefined;
+        var7 = var8.bind(var1)(var7, var5);
+        var5 = new Array(3);
+        var5[0] = var7;
+        var12 = _closure1_slot12;
+        var7 = _closure1_slot1;
+        var10 = _closure1_slot2;
+        var8 = 21;
+        var8 = var10[var8];
+        var11 = var7.bind(var1)(var8);
+        var8 = {};
+        var13 = var9.animatedIndex;
+        var8['animatedIndex'] = var13;
+        var13 = var9.overflowButtons;
+        var8['overflowButtons'] = var13;
+        var8 = var12.bind(var1)(var11, var8);
+        var5[1] = var8;
+        var8 = _closure1_slot12;
+        var6 = 22;
+        var6 = var10[var6];
+        var7 = var7.bind(var1)(var6);
+        var6 = {};
+        var10 = var9.animatedIndex;
+        var6['animatedIndex'] = var10;
+        var9 = var9.onPress;
+        var6['onPress'] = var9;
+        var6 = var8.bind(var1)(var7, var6);
+        var5[2] = var6;
+        var2['children'] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
     var3['default'] = var2;
     return var1;

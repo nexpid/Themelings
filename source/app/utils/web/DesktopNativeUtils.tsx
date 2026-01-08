@@ -5415,6 +5415,28 @@ case 81:
             }
         };
         var10['appViewed'] = var14;
+        var14 = function appFirstRenderAfterReadyPayload() {
+            _fun0127: for(var _fun0127_ip = 0; ; ) switch(_fun0127_ip) {
+case 0:
+                var4 = this;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.isDesktop;
+                var2 = var2.bind(var3)();
+                if(!var2) { _fun0127_ip = 81; continue _fun0127 }
+case 80:
+                var3 = var4.send;
+                var2 = 'APP_FIRST_RENDER_AFTER_READY_PAYLOAD';
+                var2 = var3.bind(var4)(var2);
+case 81:
+                return var1;
+            }
+        };
+        var10['appFirstRenderAfterReadyPayload'] = var14;
         var14 = function appLoaded() {
             var3 = _closure1_slot30;
             var1 = undefined;

@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -90,10 +90,8 @@ case 4:
     var _closure1_slot10 = var8;
     var8 = var4.PREMIUM_TIER_0_LIKELIHOOD_TRIAL_ID;
     var _closure1_slot11 = var8;
-    var8 = var4.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
-    var _closure1_slot12 = var8;
-    var4 = var4.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
-    var _closure1_slot13 = var4;
+    var4 = var4.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
+    var _closure1_slot12 = var4;
     var4 = 18;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -116,7 +114,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -211,80 +209,64 @@ case 9:
 case 0:
                         var1 = arg1;
                         var2 = var1.userTrialOffer;
-                        var9 = null;
-                        if(!(var9 != var2)) { _fun0004_ip = 18; continue _fun0004 }
+                        var6 = null;
+                        if(!(var6 != var2)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
                         var1 = _closure1_slot10;
-                        var5 = new Array(4);
+                        var5 = new Array(3);
                         var5[0] = var1;
                         var1 = _closure1_slot11;
                         var5[1] = var1;
                         var1 = _closure1_slot12;
                         var5[2] = var1;
-                        var1 = _closure1_slot13;
-                        var5[3] = var1;
                         var3 = var5.includes;
                         var1 = var2.trial_id;
                         var1 = var3.bind(var5)(var1);
                         if(!var1) { _fun0004_ip = 18; continue _fun0004 }
-case 11:
-                        var7 = var2.trial_id;
-                        var6 = _closure1_slot13;
-                        var11 = _closure1_slot0;
-                        var12 = _closure1_slot2;
-                        var8 = 11;
-                        var3 = var12[var8];
-                        var1 = undefined;
-                        var13 = var11.bind(var1)(var3);
-                        var10 = var13.UNSAFE_isDismissibleContentDismissed;
-                        var3 = 12;
-                        var5 = var12[var3];
-                        var5 = var11.bind(var1)(var5);
-                        var5 = var5.DismissibleContent;
-                        var5 = var5.TRIAL_FOR_ALL_INITIAL_UPSELL;
-                        var5 = var10.bind(var13)(var5);
-                        var8 = var12[var8];
-                        var13 = var11.bind(var1)(var8);
-                        var10 = var13.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-                        var3 = var12[var3];
-                        var3 = var11.bind(var1)(var3);
-                        var3 = var3.DismissibleContent;
-                        var8 = var3.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
-                        var3 = var2.id;
-                        var3 = var10.bind(var13)(var8, var3);
-                        var10 = var3.isDismissed;
-                        var3 = 13;
-                        var3 = var12[var3];
-                        var3 = var11.bind(var1)(var3);
-                        var14 = var3.PremiumTrialOfferActionSheetKillSwitchExperiment;
-                        var8 = var14.getConfig;
-                        var3 = {};
-                        var13 = 'UserOfferManager';
-                        var3['location'] = var13;
-                        var3 = var8.bind(var14)(var3);
-                        var3 = var3.enabled;
-                        var8 = 14;
-                        var8 = var12[var8];
-                        var8 = var11.bind(var1)(var8);
-                        var12 = var8.PremiumTrialOfferActionSheetForceShowExperiment;
-                        var11 = var12.getConfig;
-                        var8 = {};
-                        var8['location'] = var13;
-                        var8 = var11.bind(var12)(var8);
-                        var8 = var8.enabled;
-                        if(!var10) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
-                        if(!var8) { _fun0004_ip = 22; continue _fun0004 }
 case 20:
-                        var8 = var2.expires_at;
-                        if(!(var9 != var8)) { _fun0004_ip = 23; continue _fun0004 }
+                        var8 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var1 = 11;
+                        var3 = var9[var1];
+                        var1 = undefined;
+                        var10 = var8.bind(var1)(var3);
+                        var7 = var10.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+                        var3 = 12;
+                        var3 = var9[var3];
+                        var3 = var8.bind(var1)(var3);
+                        var3 = var3.DismissibleContent;
+                        var5 = var3.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
+                        var3 = var2.id;
+                        var3 = var7.bind(var10)(var5, var3);
+                        var7 = var3.isDismissed;
+                        var3 = 13;
+                        var3 = var9[var3];
+                        var3 = var8.bind(var1)(var3);
+                        var11 = var3.PremiumTrialOfferActionSheetKillSwitchExperiment;
+                        var5 = var11.getConfig;
+                        var3 = {};
+                        var10 = 'UserOfferManager';
+                        var3['location'] = var10;
+                        var3 = var5.bind(var11)(var3);
+                        var3 = var3.enabled;
+                        var5 = 14;
+                        var5 = var9[var5];
+                        var5 = var8.bind(var1)(var5);
+                        var9 = var5.PremiumTrialOfferActionSheetForceShowExperiment;
+                        var8 = var9.getConfig;
+                        var5 = {};
+                        var5['location'] = var10;
+                        var5 = var8.bind(var9)(var5);
+                        var5 = var5.enabled;
+                        if(!var7) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+                        if(!var5) { _fun0004_ip = 23; continue _fun0004 }
+case 21:
+                        var5 = var2.expires_at;
+                        if(!(var6 == var5)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-                        if(!(var7 === var6)) { _fun0004_ip = 22; continue _fun0004 }
+                        if(var3) { _fun0004_ip = 23; continue _fun0004 }
 case 25:
-                        if(var5) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-                        if(var3) { _fun0004_ip = 22; continue _fun0004 }
-case 26:
                         var6 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var5 = 15;
@@ -307,7 +289,7 @@ case 26:
 case 18:
                         var2 = undefined;
                         return var2;
-case 22:
+case 23:
                         return var1;
                     }
                 };

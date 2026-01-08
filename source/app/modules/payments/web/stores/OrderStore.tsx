@@ -142,6 +142,14 @@ case 0:
                     return var1;
                 };
                 var1['ORDER_UPDATE_FAIL'] = var7;
+                var7 = function ORDER_DISCARD_SUCCESS(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleOrderDiscardSuccess;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var1['ORDER_DISCARD_SUCCESS'] = var7;
                 var7 = function PAYMENT_MODAL_OPEN(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.handlePaymentModalOpen;
@@ -195,7 +203,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(11);
+        var1 = new Array(12);
         var1[0] = var5;
         var5 = {};
         var7 = 'currentOrderId';
@@ -415,20 +423,49 @@ case 17:
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
+        var7 = 'handleOrderDiscardSuccess';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                var3 = this;
+                var1 = arg1;
+                var5 = var1.orderId;
+                var6 = var3._order;
+                var2 = null;
+                var7 = var2 == var6;
+                var1 = undefined;
+                var4 = undefined;
+                if(var7) { _fun0011_ip = 20; continue _fun0011 }
+case 21:
+                var4 = var6.id;
+case 20:
+                if(!(var4 === var5)) { _fun0011_ip = 22; continue _fun0011 }
+case 23:
+                var3['_order'] = var2;
+                return var1;
+case 22:
+                var1 = false;
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[10] = var5;
+        var5 = {};
         var7 = 'handlePaymentModalOpen';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var2 = arg1;
                 var3 = null;
-                if(!(var2 != var3)) { _fun0011_ip = 20; continue _fun0011 }
+                if(!(var2 != var3)) { _fun0012_ip = 24; continue _fun0012 }
 case 18:
                 var1 = this;
                 var1['_order'] = var3;
                 var1 = undefined;
                 return var1;
-case 20:
+case 24:
                 var4 = "Cannot destructure 'undefined' or 'null'.";
                 var5 = var2;
                 var1 = throwTypeError(var5, var4);
@@ -437,7 +474,7 @@ case 20:
             }
         };
         var5['value'] = var6;
-        var1[10] = var5;
+        var1[11] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -448,7 +448,7 @@ case 62:
             var3 = var3.bind(var4)(var1);
             var4 = _closure1_slot2;
             var5 = _closure1_slot3;
-            var3 = 32;
+            var3 = 34;
             var3 = var5[var3];
             var10 = undefined;
             var4 = var4.bind(var10)(var3);
@@ -798,7 +798,7 @@ case 91:
                     var3['error_code'] = var4;
                     var5 = _closure1_slot2;
                     var10 = _closure1_slot3;
-                    var4 = 32;
+                    var4 = 34;
                     var4 = var10[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.getUnderlyingIOSError;
@@ -867,7 +867,7 @@ case 95:
                     var _closure4_slot0 = var5;
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var2 = 33;
+                    var2 = 35;
                     var2 = var11[var2];
                     var10 = undefined;
                     var4 = var3.bind(var10)(var2);
@@ -881,7 +881,7 @@ case 95:
                     var2['oldFormErrors'] = var5;
                     var6 = {};
                     var9 = _closure1_slot0;
-                    var8 = 34;
+                    var8 = 36;
                     var8 = var11[var8];
                     var8 = var9.bind(var10)(var8);
                     var8 = var8.NetworkActionNames;
@@ -895,7 +895,7 @@ case 0:
                             var4 = var1.operation;
                             var5 = _closure1_slot0;
                             var3 = _closure1_slot3;
-                            var8 = 35;
+                            var8 = 37;
                             var3 = var3[var8];
                             var9 = undefined;
                             var3 = var5.bind(var9)(var3);
@@ -907,7 +907,7 @@ case 97:
                             var4 = var3.operation;
                             var5 = _closure1_slot0;
                             var3 = _closure1_slot3;
-                            var6 = 36;
+                            var6 = 38;
                             var3 = var3[var6];
                             var3 = var5.bind(var9)(var3);
                             var3 = var3.ACRequestOperations;
@@ -989,7 +989,7 @@ case 96:
 case 100:
                             var2 = _closure1_slot0;
                             var3 = _closure1_slot3;
-                            var1 = 37;
+                            var1 = 39;
                             var1 = var3[var1];
                             var3 = var2.bind(var9)(var1);
                             var2 = var3.exact;
@@ -1088,7 +1088,7 @@ case 95:
                     var _closure4_slot0 = var6;
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var2 = 33;
+                    var2 = 35;
                     var2 = var10[var2];
                     var3 = undefined;
                     var5 = var4.bind(var3)(var2);
@@ -1104,7 +1104,7 @@ case 95:
                     var2['oldFormErrors'] = var6;
                     var6 = {};
                     var9 = _closure1_slot0;
-                    var8 = 34;
+                    var8 = 36;
                     var8 = var10[var8];
                     var8 = var9.bind(var3)(var8);
                     var8 = var8.NetworkActionNames;
@@ -1120,7 +1120,7 @@ case 0:
                             var1 = copyDataProperties(var11, var10);
                             var2 = _closure1_slot0;
                             var3 = _closure1_slot3;
-                            var1 = 37;
+                            var1 = 39;
                             var1 = var3[var1];
                             var9 = undefined;
                             var3 = var2.bind(var9)(var1);
@@ -1192,7 +1192,7 @@ case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var2 = _closure1_slot3;
-            var6 = 35;
+            var6 = 37;
             var2 = var2[var6];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
@@ -1234,7 +1234,7 @@ case 123:
 case 125:
             var5 = _closure1_slot0;
             var2 = _closure1_slot3;
-            var6 = 36;
+            var6 = 38;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ACRequestOperations;
@@ -1343,14 +1343,14 @@ case 76:
                     var9 = _closure1_slot3;
                     if(var2) { _fun0014_ip = 134; continue _fun0014 }
 case 135:
-                    var2 = 35;
+                    var2 = 37;
                     var2 = var9[var2];
                     var2 = var7.bind(var6)(var2);
                     var2 = var2.APBRequestOperations;
                     var5 = var2.CANCEL;
                     _fun0014_ip = 136; continue _fun0014;
 case 134:
-                    var2 = 36;
+                    var2 = 38;
                     var2 = var9[var2];
                     var2 = var7.bind(var6)(var2);
                     var2 = var2.ACRequestOperations;
@@ -1498,7 +1498,7 @@ case 115:
 case 152:
                     var10 = _closure1_slot0;
                     var12 = _closure1_slot3;
-                    var3 = 38;
+                    var3 = 40;
                     var3 = var12[var3];
                     var3 = var10.bind(var7)(var3);
                     var12 = var3.ACOMSubscriptionExperiment;
@@ -1519,14 +1519,14 @@ case 153:
                     var18 = _closure1_slot3;
                     if(var3) { _fun0015_ip = 94; continue _fun0015 }
 case 14:
-                    var3 = 35;
+                    var3 = 37;
                     var3 = var18[var3];
                     var3 = var12.bind(var7)(var3);
                     var3 = var3.APBRequestOperations;
                     var3 = var3.CREATE;
                     _fun0015_ip = 142; continue _fun0015;
 case 94:
-                    var10 = 36;
+                    var10 = 38;
                     var10 = var18[var10];
                     var10 = var12.bind(var7)(var10);
                     var10 = var10.ACRequestOperations;
@@ -1600,7 +1600,7 @@ case 80:
                     var20 = _closure1_slot3;
                     if(var6) { _fun0015_ip = 158; continue _fun0015 }
 case 159:
-                    var6 = 35;
+                    var6 = 37;
                     var6 = var20[var6];
                     var6 = var19.bind(var7)(var6);
                     var6 = var6.APBRequestOperations;
@@ -1612,7 +1612,7 @@ case 159:
                     var6 = var12;
                     _fun0015_ip = 61; continue _fun0015;
 case 158:
-                    var18 = 36;
+                    var18 = 38;
                     var18 = var20[var18];
                     var18 = var19.bind(var7)(var18);
                     var18 = var18.ACRequestOperations;
@@ -1793,14 +1793,14 @@ case 185:
                     var13 = _closure1_slot3;
                     if(var3) { _fun0016_ip = 186; continue _fun0016 }
 case 187:
-                    var3 = 35;
+                    var3 = 37;
                     var3 = var13[var3];
                     var3 = var10.bind(var7)(var3);
                     var3 = var3.APBRequestOperations;
                     var3 = var3.REACTIVATE;
                     _fun0016_ip = 188; continue _fun0016;
 case 186:
-                    var9 = 36;
+                    var9 = 38;
                     var9 = var13[var9];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.ACRequestOperations;
@@ -1833,7 +1833,7 @@ case 192:
                     var6 = {};
                     var14 = _closure1_slot0;
                     var16 = _closure1_slot3;
-                    var13 = 35;
+                    var13 = 37;
                     var13 = var16[var13];
                     var13 = var14.bind(var7)(var13);
                     var13 = var13.APBRequestOperations;
@@ -1856,7 +1856,7 @@ case 191: // try_start_1
                     var6 = {};
                     var14 = _closure1_slot0;
                     var16 = _closure1_slot3;
-                    var13 = 36;
+                    var13 = 38;
                     var13 = var16[var13];
                     var13 = var14.bind(var7)(var13);
                     var13 = var13.ACRequestOperations;
@@ -2291,7 +2291,7 @@ case 236:
 case 58:
                     var12 = _closure1_slot0;
                     var16 = _closure1_slot3;
-                    var3 = 38;
+                    var3 = 40;
                     var3 = var16[var3];
                     var3 = var12.bind(var7)(var3);
                     var16 = var3.ACOMOTPExperiment;
@@ -2312,14 +2312,14 @@ case 237:
                     var29 = _closure1_slot3;
                     if(var3) { _fun0018_ip = 84; continue _fun0018 }
 case 239:
-                    var3 = 35;
+                    var3 = 37;
                     var3 = var29[var3];
                     var3 = var17.bind(var7)(var3);
                     var3 = var3.APBRequestOperations;
                     var3 = var3.CHARGE;
                     _fun0018_ip = 240; continue _fun0018;
 case 84:
-                    var12 = 36;
+                    var12 = 38;
                     var12 = var29[var12];
                     var12 = var17.bind(var7)(var12);
                     var12 = var12.ACRequestOperations;
@@ -2347,7 +2347,7 @@ case 242:
 case 244:
                     var17 = _closure1_slot0;
                     var29 = _closure1_slot3;
-                    var12 = 39;
+                    var12 = 41;
                     var12 = var29[var12];
                     var29 = var17.bind(var7)(var12);
                     var17 = var29.trackPaymentFlowStartedAnalyticsAndCTP;
@@ -2424,7 +2424,7 @@ case 249:
                     var34 = _closure1_slot3;
                     if(var17) { _fun0018_ip = 250; continue _fun0018 }
 case 251:
-                    var17 = 35;
+                    var17 = 37;
                     var17 = var34[var17];
                     var17 = var33.bind(var7)(var17);
                     var17 = var17.APBRequestOperations;
@@ -2436,7 +2436,7 @@ case 251:
                     var17 = var30;
                     _fun0018_ip = 252; continue _fun0018;
 case 250:
-                    var32 = 36;
+                    var32 = 38;
                     var32 = var34[var32];
                     var32 = var33.bind(var7)(var32);
                     var32 = var32.ACRequestOperations;
@@ -2618,7 +2618,7 @@ case 273: // catch_target0
                     var11['productIdentifier'] = var20;
                     var11 = var17.bind(var18)(var11);
                     var18 = _closure1_slot0;
-                    var11 = 40;
+                    var11 = 42;
                     var11 = var12[var11];
                     var11 = var18.bind(var7)(var11);
                     var11 = var11.BillingError;
@@ -2629,7 +2629,7 @@ case 273: // catch_target0
                     var11 = new var39[var11](var38, var37);
                     var11 = var11 instanceof Object ? var11 : var17;
                     var17 = var11.code;
-                    var11 = 41;
+                    var11 = 43;
                     var12 = var12[var11];
                     var12 = var18.bind(var7)(var12);
                     var12 = var12.ErrorCodes;
@@ -2641,7 +2641,7 @@ case 275:
 case 277:
                     var16 = _closure1_slot0;
                     var17 = _closure1_slot3;
-                    var12 = 42;
+                    var12 = 44;
                     var12 = var17[var12];
                     var12 = var16.bind(var7)(var12);
                     var12 = var12.purchaseSKU;
@@ -2662,7 +2662,7 @@ case 279: // try_start_1
                     var9['expectedCurrency'] = var14;
                     var15 = _closure1_slot0;
                     var16 = _closure1_slot3;
-                    var14 = 43;
+                    var14 = 45;
                     var14 = var16[var14];
                     var15 = var15.bind(var7)(var14);
                     var14 = var15.v4;
@@ -3819,14 +3819,37 @@ case 372:
                                 var2 = var2.default;
                                 var _closure7_slot0 = var2;
                                 var1 = function(arg1) {
+                                    var5 = arg1;
+                                    var _closure8_slot0 = var5;
                                     var4 = _closure1_slot19;
                                     var3 = _closure7_slot0;
                                     var2 = {};
-                                    var6 = arg1;
-                                    var7 = var2;
-                                    var1 = copyDataProperties(var7, var6);
-                                    var5 = _closure4_slot0;
-                                    var1 = 'subscription';
+                                    var8 = var2;
+                                    var7 = var5;
+                                    var5 = copyDataProperties(var8, var7);
+                                    var6 = _closure4_slot0;
+                                    var5 = 'subscription';
+                                    var2[var5] = var6;
+                                    var5 = function onClose() {
+                                        var2 = _closure8_slot0;
+                                        var1 = var2.onClose;
+                                        var1 = var1.bind(var2)();
+                                        var4 = _closure1_slot1;
+                                        var6 = _closure1_slot3;
+                                        var1 = 32;
+                                        var3 = var6[var1];
+                                        var1 = undefined;
+                                        var4 = var4.bind(var1)(var3);
+                                        var3 = var4.popWithKey;
+                                        var5 = _closure1_slot0;
+                                        var2 = 33;
+                                        var2 = var6[var2];
+                                        var2 = var5.bind(var1)(var2);
+                                        var2 = var2.PREMIUM_KEY;
+                                        var2 = var3.bind(var4)(var2);
+                                        return var1;
+                                    };
+                                    var1 = 'onClose';
                                     var2[var1] = var5;
                                     var1 = undefined;
                                     var1 = var4.bind(var1)(var3, var2);
@@ -4523,7 +4546,7 @@ case 377:
     var7 = new var18[var11](var17, var16);
     var7 = var7 instanceof Object ? var7 : var10;
     var _closure1_slot22 = var7;
-    var7 = 44;
+    var7 = 46;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

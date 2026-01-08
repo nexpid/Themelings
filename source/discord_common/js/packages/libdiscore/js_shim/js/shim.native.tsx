@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
-    var2 = var2.isLibdiscoreLoaded;
-    var3['isLibdiscoreLoaded'] = var2;
+    var2 = var2.isLibdiscoreInitialized;
+    var3['isLibdiscoreInitialized'] = var2;
     return var1;
 })();

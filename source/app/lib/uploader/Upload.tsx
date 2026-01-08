@@ -100,7 +100,7 @@ case 4:
     var6 = var8.bind(var1)(var6);
     var7 = var6.EventEmitter;
     var6 = function(arg1) {
-        var4 = function Upload(arg1, arg2) {
+        var4 = function Upload(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var3 = arg1;
@@ -225,8 +225,6 @@ case 13:
                 var2 = var3.v4;
                 var2 = var2.bind(var3)();
                 var1['uniqueId'] = var2;
-                var2 = arg2;
-                var1['showLargeMessageDialog'] = var2;
                 var2 = false;
                 var1['spoiler'] = var2;
                 var2 = null;

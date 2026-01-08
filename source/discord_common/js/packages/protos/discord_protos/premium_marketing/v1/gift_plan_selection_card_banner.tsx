@@ -91,7 +91,7 @@ case 0:
                 var2 = _closure2_slot0;
                 var3 = undefined;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = new Array(8);
+                var1 = new Array(12);
                 var6 = {'no': 1, 'name': 'header', 'kind': 'scalar', 'T': 9};
                 var1[0] = var6;
                 var6 = {'no': 2, 'name': 'desktop_body', 'kind': 'scalar', 'T': 9};
@@ -118,7 +118,7 @@ case 0:
                 var6 = {'no': 7, 'name': 'card_asset_url', 'kind': 'scalar', 'T': 9};
                 var1[6] = var6;
                 var6 = {'no': 8, 'name': 'gradient', 'kind': 'message'};
-                var7 = function T() {
+                var8 = function T() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 7;
@@ -128,8 +128,60 @@ case 0:
                     var1 = var1.Gradient;
                     return var1;
                 };
-                var6['T'] = var7;
+                var6['T'] = var8;
                 var1[7] = var6;
+                var6 = {'no': 9, 'name': 'banner_asset', 'kind': 'message'};
+                var8 = function T() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.ThemeAwareAsset;
+                    return var1;
+                };
+                var6['T'] = var8;
+                var1[8] = var6;
+                var6 = {'no': 10, 'name': 'background_asset', 'kind': 'message'};
+                var8 = function T() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.ThemeAwareAsset;
+                    return var1;
+                };
+                var6['T'] = var8;
+                var1[9] = var6;
+                var6 = {'no': 11, 'name': 'card_asset', 'kind': 'message'};
+                var8 = function T() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.ThemeAwareAsset;
+                    return var1;
+                };
+                var6['T'] = var8;
+                var1[10] = var6;
+                var6 = {'no': 12, 'name': 'mobile_card_asset', 'kind': 'message'};
+                var7 = function T() {
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    var1 = var1.ThemeAwareAsset;
+                    return var1;
+                };
+                var6['T'] = var7;
+                var1[11] = var6;
                 var9 = ['discord_protos.premium_marketing.v1.GiftPlanSelectionCardBanner'];
                 var9[1] = var1;
                 var1 = _closure1_slot6;
@@ -207,192 +259,247 @@ case 9:
         var7 = function value(arg1, arg2, arg3, arg4) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var22 = arg1;
-                var21 = arg3;
+                var21 = arg1;
+                var20 = arg3;
                 var1 = arg4;
-                var20 = this;
-                var2 = null;
-                if(!(var2 == var1)) { _fun0004_ip = 11; continue _fun0004 }
+                var2 = this;
+                var3 = null;
+                if(!(var3 == var1)) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-                var2 = var20.create;
-                var1 = var2.bind(var20)();
+                var3 = var2.create;
+                var1 = var3.bind(var2)();
 case 11:
-                var3 = var22.pos;
-                var2 = arg2;
-                var19 = var3 + var2;
-                var2 = var22.pos;
-                var2 = var2 < var19;
+                var4 = var21.pos;
+                var3 = arg2;
+                var19 = var4 + var3;
+                var3 = var21.pos;
+                var3 = var3 < var19;
                 var18 = undefined;
-                var16 = 6;
-                var15 = 7;
-                var14 = 8;
-                var13 = true;
-                var12 = false;
-                var11 = 'throw';
-                var10 = 5;
-                var9 = 4;
-                var8 = 3;
-                var7 = 2;
+                var16 = 8;
+                var15 = true;
+                var14 = false;
+                var13 = 'throw';
+                var12 = 6;
+                var11 = 7;
+                var10 = 2;
+                var9 = 0;
                 var6 = 1;
-                var5 = 0;
+                var5 = undefined;
                 var4 = undefined;
-                var3 = undefined;
-                if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+                if(!var3) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                var2 = var22.tag;
-                var23 = var2.bind(var22)();
-                var2 = _closure1_slot2;
-                var2 = var2.bind(var18)(var23, var7);
-                var31 = var2[var5];
-                var30 = var2[var6];
-                if(!(var6 !== var31)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                if(!(var7 !== var31)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                if(!(var8 !== var31)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                if(!(var9 !== var31)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                if(!(var10 !== var31)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                if(!(var16 !== var31)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
-                if(!(var15 !== var31)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
-                if(!(var14 !== var31)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
-                var25 = var21.readUnknownField;
-                if(!(var11 !== var25)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
-                var2 = var22.skip;
-                var2 = var2.bind(var22)(var30);
-                var24 = var25;
-                var23 = var2;
-                if(!(var12 !== var25)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-                var27 = var25;
-                if(!(var13 === var25)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                var28 = _closure1_slot0;
-                var26 = _closure1_slot1;
-                var26 = var26[var14];
-                var26 = var28.bind(var18)(var26);
-                var26 = var26.UnknownFieldHandler;
-                var27 = var26.onRead;
-case 35:
-                var36 = var20.typeName;
-                var37 = undefined;
-                var35 = var1;
-                var34 = var31;
-                var33 = var30;
-                var32 = var2;
-                var26 = var37[var27](var36, var35, var34, var33, var32, var31);
-                var24 = var25;
-                var23 = var2;
-                _fun0004_ip = 33; continue _fun0004;
-case 31:
-                var2 = global;
-                var25 = var2.globalThis;
-                var26 = var25.Error;
-                var32 = var20.typeName;
-                var2 = var2.HermesInternal;
-                var28 = var2.concat;
-                var37 = 'Unknown field ';
-                var35 = ' (wire type ';
-                var33 = ') for ';
-                var36 = var31;
-                var34 = var30;
-                var36 = var37[var28](var36, var35, var34, var33, var32, var31);
-                var25 = var26.prototype;
-                var25 = Object.create(var25, {constructor: {value: var26}});
-                var37 = var25;
-                var2 = new var37[var26](var36, var35);
-                var2 = var2 instanceof Object ? var2 : var25;
-                throw var2;
-case 29:
-                var25 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var2 = var2[var15];
-                var2 = var25.bind(var18)(var2);
-                var27 = var2.Gradient;
-                var26 = var27.internalBinaryRead;
-                var2 = var22.uint32;
-                var35 = var2.bind(var22)();
-                var33 = var1.gradient;
-                var37 = var27;
-                var36 = var22;
-                var34 = var21;
-                var2 = var37[var26](var36, var35, var34, var33, var32);
-                var1['gradient'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 27:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['cardAssetUrl'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 25:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['backgroundAssetUrl'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 23:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['bannerAssetUrl'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 21:
-                var25 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var2 = var2[var16];
-                var2 = var25.bind(var18)(var2);
-                var27 = var2.ThemeAwareAsset;
-                var26 = var27.internalBinaryRead;
-                var2 = var22.uint32;
-                var35 = var2.bind(var22)();
-                var33 = var1.avatarAsset;
-                var37 = var27;
-                var36 = var22;
-                var34 = var21;
-                var2 = var37[var26](var36, var35, var34, var33, var32);
-                var1['avatarAsset'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 19:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['mobileBody'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
-case 17:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['desktopBody'] = var2;
-                var24 = var4;
-                var23 = var3;
-                _fun0004_ip = 33; continue _fun0004;
+                var3 = var21.tag;
+                var7 = var3.bind(var21)();
+                var3 = _closure1_slot2;
+                var3 = var3.bind(var18)(var7, var10);
+                var8 = var3[var9];
+                var7 = var3[var6];
+                SwitchImm(value_reg=7, jump_table_address=930, default_jump_address=733, unsigned_min_value=1, unsigned_max_value=12) // Switch table: [710, 687, 661, 586, 560, 534, 508, 433, 358, 283, 208, 133];
 case 15:
-                var2 = var22.string;
-                var2 = var2.bind(var22)();
-                var1['header'] = var2;
-                var24 = var4;
-                var23 = var3;
+                var22 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var12];
+                var3 = var22.bind(var18)(var3);
+                var24 = var3.ThemeAwareAsset;
+                var23 = var24.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.mobileCardAsset;
+                var33 = var24;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var23](var32, var31, var30, var29, var28);
+                var1['mobileCardAsset'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 17:
+                var24 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var12];
+                var3 = var24.bind(var18)(var3);
+                var26 = var3.ThemeAwareAsset;
+                var25 = var26.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.cardAsset;
+                var33 = var26;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var25](var32, var31, var30, var29, var28);
+                var1['cardAsset'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 18:
+                var24 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var12];
+                var3 = var24.bind(var18)(var3);
+                var26 = var3.ThemeAwareAsset;
+                var25 = var26.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.backgroundAsset;
+                var33 = var26;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var25](var32, var31, var30, var29, var28);
+                var1['backgroundAsset'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 19:
+                var24 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var12];
+                var3 = var24.bind(var18)(var3);
+                var26 = var3.ThemeAwareAsset;
+                var25 = var26.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.bannerAsset;
+                var33 = var26;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var25](var32, var31, var30, var29, var28);
+                var1['bannerAsset'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 20:
+                var24 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var11];
+                var3 = var24.bind(var18)(var3);
+                var26 = var3.Gradient;
+                var25 = var26.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.gradient;
+                var33 = var26;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var25](var32, var31, var30, var29, var28);
+                var1['gradient'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 21:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['cardAssetUrl'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 22:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['backgroundAssetUrl'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 23:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['bannerAssetUrl'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 24:
+                var24 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var12];
+                var3 = var24.bind(var18)(var3);
+                var26 = var3.ThemeAwareAsset;
+                var25 = var26.internalBinaryRead;
+                var3 = var21.uint32;
+                var31 = var3.bind(var21)();
+                var29 = var1.avatarAsset;
+                var33 = var26;
+                var32 = var21;
+                var30 = var20;
+                var3 = var33[var25](var32, var31, var30, var29, var28);
+                var1['avatarAsset'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 25:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['mobileBody'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 26:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['desktopBody'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 27:
+                var3 = var21.string;
+                var3 = var3.bind(var21)();
+                var1['header'] = var3;
+                var23 = var5;
+                var22 = var4;
+                _fun0004_ip = 16; continue _fun0004;
+case 28:
+                var24 = var20.readUnknownField;
+                if(!(var13 !== var24)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                var3 = var21.skip;
+                var3 = var3.bind(var21)(var7);
+                var23 = var24;
+                var22 = var3;
+                if(!(var14 !== var24)) { _fun0004_ip = 16; continue _fun0004 }
+case 31:
+                var26 = var24;
+                if(!(var15 === var24)) { _fun0004_ip = 32; continue _fun0004 }
 case 33:
-                var2 = var22.pos;
-                var4 = var24;
-                var3 = var23;
-                if(var2 < var19) { _fun0004_ip = 14; continue _fun0004 }
+                var27 = _closure1_slot0;
+                var25 = _closure1_slot1;
+                var25 = var25[var16];
+                var25 = var27.bind(var18)(var25);
+                var25 = var25.UnknownFieldHandler;
+                var26 = var25.onRead;
+case 32:
+                var32 = var2.typeName;
+                var33 = undefined;
+                var31 = var1;
+                var30 = var8;
+                var29 = var7;
+                var28 = var3;
+                var25 = var33[var26](var32, var31, var30, var29, var28, var27);
+                var23 = var24;
+                var22 = var3;
+case 16:
+                var3 = var21.pos;
+                var5 = var23;
+                var4 = var22;
+                if(var3 < var19) { _fun0004_ip = 14; continue _fun0004 }
 case 13:
                 return var1;
+case 29:
+                var1 = global;
+                var3 = var1.globalThis;
+                var3 = var3.Error;
+                var28 = var2.typeName;
+                var1 = var1.HermesInternal;
+                var5 = var1.concat;
+                var33 = 'Unknown field ';
+                var31 = ' (wire type ';
+                var29 = ') for ';
+                var32 = var8;
+                var30 = var7;
+                var32 = var33[var5](var32, var31, var30, var29, var28, var27);
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var33 = var2;
+                var1 = new var33[var3](var32, var31);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
         var5['value'] = var7;
@@ -408,8 +515,8 @@ case 0:
                 var2 = arg3;
                 var3 = var5.header;
                 var4 = '';
-                if(!(var4 !== var3)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!(var4 !== var3)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -424,10 +531,10 @@ case 38:
                 var6 = var7.string;
                 var3 = var5.header;
                 var3 = var6.bind(var7)(var3);
-case 37:
+case 34:
                 var3 = var5.desktopBody;
-                if(!(var4 !== var3)) { _fun0005_ip = 39; continue _fun0005 }
-case 14:
+                if(!(var4 !== var3)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -442,10 +549,10 @@ case 14:
                 var6 = var7.string;
                 var3 = var5.desktopBody;
                 var3 = var6.bind(var7)(var3);
-case 39:
+case 36:
                 var3 = var5.mobileBody;
-                if(!(var4 !== var3)) { _fun0005_ip = 40; continue _fun0005 }
-case 28:
+                if(!(var4 !== var3)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -460,10 +567,10 @@ case 28:
                 var6 = var7.string;
                 var3 = var5.mobileBody;
                 var3 = var6.bind(var7)(var3);
-case 40:
+case 38:
                 var3 = var5.avatarAsset;
-                if(!var3) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(!var3) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var3 = 6;
@@ -486,10 +593,10 @@ case 42:
                 var6 = var7.bind(var8)(var6, var3, var2);
                 var3 = var6.join;
                 var3 = var3.bind(var6)();
-case 41:
+case 40:
                 var3 = var5.bannerAssetUrl;
-                if(!(var4 !== var3)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!(var4 !== var3)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -504,10 +611,10 @@ case 44:
                 var6 = var7.string;
                 var3 = var5.bannerAssetUrl;
                 var3 = var6.bind(var7)(var3);
-case 43:
+case 42:
                 var3 = var5.backgroundAssetUrl;
-                if(!(var4 !== var3)) { _fun0005_ip = 45; continue _fun0005 }
-case 27:
+                if(!(var4 !== var3)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -522,7 +629,7 @@ case 27:
                 var6 = var7.string;
                 var3 = var5.backgroundAssetUrl;
                 var3 = var6.bind(var7)(var3);
-case 45:
+case 44:
                 var3 = var5.cardAssetUrl;
                 if(!(var4 !== var3)) { _fun0005_ip = 46; continue _fun0005 }
 case 47:
@@ -566,13 +673,117 @@ case 49:
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
 case 48:
+                var3 = var5.bannerAsset;
+                if(!var3) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 6;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.ThemeAwareAsset;
+                var6 = var7.internalBinaryWrite;
+                var4 = var5.bannerAsset;
+                var9 = var1.tag;
+                var3 = 8;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 9;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 50:
+                var3 = var5.backgroundAsset;
+                if(!var3) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 6;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.ThemeAwareAsset;
+                var6 = var7.internalBinaryWrite;
+                var4 = var5.backgroundAsset;
+                var9 = var1.tag;
+                var3 = 8;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 10;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 52:
+                var3 = var5.cardAsset;
+                if(!var3) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 6;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.ThemeAwareAsset;
+                var6 = var7.internalBinaryWrite;
+                var4 = var5.cardAsset;
+                var9 = var1.tag;
+                var3 = 8;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 11;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 54:
+                var3 = var5.mobileCardAsset;
+                if(!var3) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var3 = 6;
+                var3 = var11[var3];
+                var8 = undefined;
+                var3 = var10.bind(var8)(var3);
+                var7 = var3.ThemeAwareAsset;
+                var6 = var7.internalBinaryWrite;
+                var4 = var5.mobileCardAsset;
+                var9 = var1.tag;
+                var3 = 8;
+                var3 = var11[var3];
+                var3 = var10.bind(var8)(var3);
+                var3 = var3.WireType;
+                var8 = var3.LengthDelimited;
+                var3 = 12;
+                var8 = var9.bind(var1)(var3, var8);
+                var3 = var8.fork;
+                var3 = var3.bind(var8)();
+                var4 = var6.bind(var7)(var4, var3, var2);
+                var3 = var4.join;
+                var3 = var3.bind(var4)();
+case 56:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(!(var2 !== var4)) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+                if(!(var2 == var4)) { _fun0005_ip = 60; continue _fun0005 }
+case 61:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 8;
@@ -581,12 +792,12 @@ case 53:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 52:
+case 60:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 50:
+case 58:
                 return var1;
             }
         };

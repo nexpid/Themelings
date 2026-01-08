@@ -52,7 +52,7 @@ case 0:
                 var1 = var1[var7];
                 var5 = undefined;
                 var3 = var3.bind(var5)(var1);
-                var1 = var3.isLibdiscoreLoaded;
+                var1 = var3.isLibdiscoreInitialized;
                 var3 = var1.bind(var3)();
                 var4 = null;
                 var1 = null;

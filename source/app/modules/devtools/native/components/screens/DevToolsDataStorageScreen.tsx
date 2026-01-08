@@ -16,14 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot8;
         var9 = _closure1_slot0;
         var12 = _closure1_slot2;
-        var1 = 21;
+        var1 = 22;
         var1 = var12[var1];
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
         var2 = var1.ActionSheet;
         var1 = {};
         var7 = _closure1_slot8;
-        var5 = 22;
+        var5 = 23;
         var5 = var12[var5];
         var5 = var9.bind(var3)(var5);
         var6 = var5.BottomSheetTitleHeader;
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7.bind(var3)(var6, var5);
         var1['header'] = var5;
         var7 = _closure1_slot8;
-        var8 = 23;
+        var8 = 24;
         var5 = var12[var8];
         var5 = var9.bind(var3)(var5);
         var5 = var5.ActionSheetRow;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -258,7 +258,9 @@ case 6:
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
         var2 = var1.TableRow;
-        var1 = {'label': 'Disable + Remove Database', 'end': true};
+        var1 = {};
+        var5 = 'Disable + Remove Database';
+        var1['label'] = var5;
         var5 = function onPress() {
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -283,6 +285,37 @@ case 6:
     };
     var4 = var7.bind(var11)(var4);
     var _closure1_slot12 = var4;
+    var7 = var11.memo;
+    var4 = function() {
+        var2 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var3 = 13;
+        var3 = var6[var3];
+        var4 = undefined;
+        var7 = var2.bind(var4)(var3);
+        var3 = var7.useNavigation;
+        var3 = var3.bind(var7)();
+        var _closure2_slot0 = var3;
+        var3 = _closure1_slot8;
+        var1 = 8;
+        var1 = var6[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.TableRow;
+        var1 = {'label': 'View Cache Stats', 'end': true};
+        var5 = function onPress() {
+            var3 = _closure2_slot0;
+            var2 = var3.navigate;
+            var1 = 'cacheStats';
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var1['onPress'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var4 = var7.bind(var11)(var4);
+    var _closure1_slot13 = var4;
     var4 = {};
     var4['DATABASE_CONTROLS'] = var10;
     var7 = 'DATABASE_CONTROLS';
@@ -293,8 +326,8 @@ case 6:
     var4['PERSISTED_STORES'] = var8;
     var7 = 'PERSISTED_STORES';
     var4[var8] = var7;
-    var _closure1_slot13 = var4;
-    var4 = 24;
+    var _closure1_slot14 = var4;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -307,7 +340,7 @@ case 6:
         var _closure2_slot0 = var6;
         var13 = _closure1_slot1;
         var14 = _closure1_slot2;
-        var3 = 13;
+        var3 = 14;
         var3 = var14[var3];
         var5 = var13.bind(var4)(var3);
         var3 = {};
@@ -315,15 +348,15 @@ case 6:
         var3['includeKeyboardHeight'] = var7;
         var3 = var5.bind(var4)(var3);
         var11 = var3.insets;
-        var3 = 14;
-        var3 = var14[var3];
-        var3 = var13.bind(var4)(var3);
-        var10 = var3.bind(var4)();
         var3 = 15;
         var3 = var14[var3];
         var3 = var13.bind(var4)(var3);
-        var9 = var3.bind(var4)();
+        var10 = var3.bind(var4)();
         var3 = 16;
+        var3 = var14[var3];
+        var3 = var13.bind(var4)(var3);
+        var9 = var3.bind(var4)();
+        var3 = 17;
         var3 = var14[var3];
         var3 = var13.bind(var4)(var3);
         var8 = var3.bind(var4)();
@@ -366,7 +399,7 @@ case 8:
             var2 = var2.bind(var5)(var1);
             var _closure3_slot1 = var2;
             var1 = {};
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot14;
             var6 = var4.DATABASE_CONTROLS;
             var5 = new Array(3);
             var5[0] = var6;
@@ -379,15 +412,15 @@ case 8:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = arg1;
-                    var3 = _closure1_slot13;
+                    var3 = _closure1_slot14;
                     var3 = var3.DATABASE_CONTROLS;
                     if(!(var3 !== var2)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
-                    var3 = _closure1_slot13;
+                    var3 = _closure1_slot14;
                     var3 = var3.DATABASE_CURRENT;
                     if(!(var3 !== var2)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                    var1 = _closure1_slot13;
+                    var1 = _closure1_slot14;
                     var1 = var1.PERSISTED_STORES;
                     if(!(var1 !== var2)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
@@ -411,7 +444,7 @@ case 12:
                     var1 = 1;
                     return var1;
 case 10:
-                    var1 = 2;
+                    var1 = 3;
                     return var1;
                 }
             };
@@ -453,15 +486,15 @@ case 0:
                 var4 = arg1;
                 var3 = arg2;
                 var _closure3_slot0 = var3;
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var2.DATABASE_CONTROLS;
                 if(!(var2 !== var4)) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var2.DATABASE_CURRENT;
                 if(!(var2 !== var4)) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot14;
                 var2 = var2.PERSISTED_STORES;
                 if(!(var2 !== var4)) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
@@ -499,7 +532,7 @@ case 10:
                 var7 = function onPress() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 19;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -508,7 +541,7 @@ case 10:
                     var4 = var2.Promise;
                     var3 = var4.resolve;
                     var2 = {};
-                    var7 = _closure1_slot14;
+                    var7 = _closure1_slot15;
                     var2['default'] = var7;
                     var4 = var3.bind(var4)(var2);
                     var3 = {};
@@ -521,7 +554,7 @@ case 10:
                     var2 = function close() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 19;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -561,7 +594,7 @@ case 24:
                 var4 = var2.TableRow;
                 var2 = {};
                 var9 = _closure1_slot8;
-                var7 = 17;
+                var7 = 18;
                 var7 = var11[var7];
                 var7 = var8.bind(var5)(var7);
                 var8 = var7.SearchField;
@@ -603,7 +636,17 @@ case 31:
                 var2 = 1;
                 if(!(var2 !== var3)) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
+                var2 = 2;
+                if(!(var2 !== var3)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var2 = null;
+                return var2;
+case 34:
+                var5 = _closure1_slot8;
+                var4 = _closure1_slot13;
+                var3 = undefined;
+                var2 = {};
+                var2 = var5.bind(var3)(var4, var2);
                 return var2;
 case 32:
                 var5 = _closure1_slot8;
@@ -632,7 +675,7 @@ case 0:
                 var4 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 19;
+                var1 = 20;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -641,23 +684,23 @@ case 0:
                 var5 = _closure2_slot0;
                 var5 = var5.sectionHeader;
                 var1['style'] = var5;
-                var5 = _closure1_slot13;
+                var5 = _closure1_slot14;
                 var8 = var5.DATABASE_CONTROLS;
                 var5 = 'Database Controls';
-                if(!(var8 !== var7)) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
-                var8 = _closure1_slot13;
+                if(!(var8 !== var7)) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
+                var8 = _closure1_slot14;
                 var8 = var8.DATABASE_CURRENT;
                 var5 = 'Database (Current)';
-                if(!(var8 !== var7)) { _fun0006_ip = 34; continue _fun0006 }
-case 36:
-                var6 = _closure1_slot13;
+                if(!(var8 !== var7)) { _fun0006_ip = 36; continue _fun0006 }
+case 38:
+                var6 = _closure1_slot14;
                 var6 = var6.PERSISTED_STORES;
                 var5 = undefined;
-                if(!(var6 === var7)) { _fun0006_ip = 34; continue _fun0006 }
-case 37:
+                if(!(var6 === var7)) { _fun0006_ip = 36; continue _fun0006 }
+case 39:
                 var5 = 'Persisted Stores';
-case 34:
+case 36:
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
@@ -665,7 +708,7 @@ case 34:
         };
         var12 = var5.bind(var12)(var2, var3);
         var5 = _closure1_slot8;
-        var2 = 20;
+        var2 = 21;
         var2 = var14[var2];
         var3 = var13.bind(var4)(var2);
         var2 = {};

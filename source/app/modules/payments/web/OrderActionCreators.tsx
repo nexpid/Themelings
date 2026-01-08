@@ -470,6 +470,104 @@ case 46:
         return var1;
     };
     var _closure1_slot7 = var1;
+    var1 = function _discardOrder() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
+                    var7 = arg1;
+                    var6 = undefined;
+                    var4 = undefined;
+case 70: // try_start_0
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var8[var2];
+                    var2 = var5.bind(var6)(var2);
+                    var8 = var2.HTTP;
+                    var5 = var8.post;
+                    var2 = {};
+                    var11 = _closure1_slot4;
+                    var10 = var11.ORDER_DISCARD;
+                    var9 = var7;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var9 = false;
+                    var2['rejectWithError'] = var9;
+                    var2 = var5.bind(var8)(var2);
+                    SaveGenerator(address=90);
+case 71:
+                    return var2;
+case 72:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
+                    var4 = var2;
+                    var8 = var2.body;
+                    var5 = null;
+                    if(!(var5 != var8)) { _fun0004_ip = 75; continue _fun0004 }
+case 10:
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var3 = 2;
+                    var3 = var8[var3];
+                    var6 = var5.bind(var6)(var3);
+                    var5 = var6.dispatch;
+                    var3 = {};
+                    var8 = 'ORDER_DISCARD_SUCCESS';
+                    var3['type'] = var8;
+                    var3['orderId'] = var7;
+                    var3 = var5.bind(var6)(var3);
+                    SaveGenerator(address=161);
+case 76:
+                    return var3;
+case 77:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 78; continue _fun0004 }
+case 79:
+                    var4 = var4.body;
+case 80: // try_end0
+                    return var4;
+case 78:
+                    return var3;
+case 75: // try_start_1
+                    var3 = global;
+                    var5 = var3.Error;
+                    var3 = var5.prototype;
+                    var4 = Object.create(var3, {constructor: {value: var5}});
+                    var12 = 'Invalid discard order response';
+                    var13 = var4;
+                    var3 = new var13[var5](var12, var11);
+                    var3 = var3 instanceof Object ? var3 : var4;
+                    throw var3;
+case 73: // try_end1
+                    return var2;
+case 81: // catch_target0 // catch_target1
+                    CatchBlockStart(arg_register=1);
+                    throw var2;
+case 68:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -516,7 +614,7 @@ case 46:
         return var1;
     };
     var3['updateOrder'] = var4;
-    var2 = function signOrder() {
+    var4 = function signOrder() {
         var1 = undefined;
         var4 = _closure1_slot7;
         var3 = var4.apply;
@@ -526,6 +624,17 @@ case 46:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['signOrder'] = var2;
+    var3['signOrder'] = var4;
+    var2 = function discardOrder() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['discardOrder'] = var2;
     return var1;
 })();

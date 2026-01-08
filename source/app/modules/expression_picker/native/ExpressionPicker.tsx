@@ -83,28 +83,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var18 = var2.bottomSheetRef;
-            var19 = var2.bottomSheetIndex;
-            var17 = var2.channel;
-            var _closure2_slot0 = var17;
+            var17 = var2.bottomSheetRef;
+            var18 = var2.bottomSheetIndex;
+            var16 = var2.channel;
+            var _closure2_slot0 = var16;
             var12 = var2.expressionType;
-            var22 = var2.hideGifFavorites;
+            var21 = var2.hideGifFavorites;
             var4 = undefined;
-            if(!(var22 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var21 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var22 = false;
+            var21 = false;
 case 2:
-            var16 = var2.onPressEmoji;
-            var24 = var2.onPressSticker;
-            var21 = var2.onPressGIF;
-            var15 = var2.onBackspace;
+            var15 = var2.onPressEmoji;
+            var23 = var2.onPressSticker;
+            var20 = var2.onPressGIF;
+            var14 = var2.onBackspace;
             var9 = var2.visibleTabs;
             if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var9 = _closure1_slot6;
 case 4:
-            var23 = var2.stickerFormats;
-            var14 = var2.disableLongPress;
+            var22 = var2.stickerFormats;
             var8 = var2.height;
             var13 = var2.inPortalKeyboard;
             var _closure2_slot1 = var4;
@@ -126,13 +125,13 @@ case 4:
             var5['expressionType'] = var12;
             var5['expressionPickerTabs'] = var9;
             var5 = var6.bind(var4)(var5);
-            var20 = var5.expressionPickerSelectedIndex;
+            var19 = var5.expressionPickerSelectedIndex;
             var12 = var5.expressionPickerViewType;
             _closure2_slot2 = var12;
-            var26 = var5.expressionPickerTabStrings;
+            var25 = var5.expressionPickerTabStrings;
             var9 = var7.useMemo;
             var6 = new Array(1);
-            var6[0] = var17;
+            var6[0] = var16;
             var5 = function() {
                 var2 = _closure2_slot0;
                 var1 = var2.getGuildId;
@@ -163,10 +162,10 @@ case 4:
             var9 = var6.bind(var4)(var5);
             var6 = var9.useSegmentedControlState;
             var5 = {};
-            var25 = 0;
-            var5['pageWidth'] = var25;
-            var5['defaultIndex'] = var20;
-            var20 = function onSetActiveIndex(arg1) {
+            var24 = 0;
+            var5['pageWidth'] = var24;
+            var5['defaultIndex'] = var19;
+            var19 = function onSetActiveIndex(arg1) {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var1 = 11;
@@ -188,9 +187,9 @@ case 4:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var5['onSetActiveIndex'] = var20;
-            var25 = var26.map;
-            var20 = function(arg1) {
+            var5['onSetActiveIndex'] = var19;
+            var24 = var25.map;
+            var19 = function(arg1) {
                 var2 = arg1;
                 var1 = {};
                 var1['id'] = var2;
@@ -199,9 +198,9 @@ case 4:
                 var1['page'] = var2;
                 return var1;
             };
-            var20 = var25.bind(var26)(var20);
-            var5['items'] = var20;
-            var27 = var6.bind(var9)(var5);
+            var19 = var24.bind(var25)(var19);
+            var5['items'] = var19;
+            var26 = var6.bind(var9)(var5);
             var6 = var7.useEffect;
             var5 = new Array(1);
             var5[0] = var12;
@@ -298,13 +297,13 @@ case 11:
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var20 = {};
+            var19 = {};
             _fun0001_ip = 15; continue _fun0001;
 case 13:
             var1 = {};
             var2 = var2.safeAreaBottomKeyboardAware;
             var1['marginBottom'] = var2;
-            var20 = var1;
+            var19 = var1;
 case 15:
             var3 = _closure1_slot10;
             var2 = _closure1_slot4;
@@ -334,25 +333,25 @@ case 18:
 case 20:
             var5['style'] = var8;
             var8 = _closure1_slot9;
-            var26 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var25 = 17;
-            var25 = var28[var25];
-            var25 = var26.bind(var4)(var25);
-            var26 = var25.SegmentedControl;
-            var25 = {};
-            var25['state'] = var27;
-            var25 = var8.bind(var4)(var26, var25);
-            var5['children'] = var25;
+            var25 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var24 = 17;
+            var24 = var27[var24];
+            var24 = var25.bind(var4)(var24);
+            var25 = var24.SegmentedControl;
+            var24 = {};
+            var24['state'] = var26;
+            var24 = var8.bind(var4)(var25, var24);
+            var5['children'] = var24;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
             var7 = _closure1_slot4;
             var6 = {};
-            var25 = var11.expressionPickerContent;
+            var24 = var11.expressionPickerContent;
             var11 = new Array(2);
-            var11[0] = var25;
-            var11[1] = var20;
+            var11[0] = var24;
+            var11[1] = var19;
             var6['style'] = var11;
             var11 = _closure1_slot5;
             var11 = var11.EMOJI;
@@ -367,54 +366,53 @@ case 24:
             var9 = null;
             if(!(var12 === var11)) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
-            var20 = _closure1_slot9;
+            var19 = _closure1_slot9;
             var12 = _closure1_slot1;
-            var25 = _closure1_slot2;
+            var24 = _closure1_slot2;
             var11 = 20;
-            var11 = var25[var11];
+            var11 = var24[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var11['bottomSheetRef'] = var18;
-            var11['bottomSheetIndex'] = var19;
-            var11['channel'] = var17;
-            var11['onPressSticker'] = var24;
-            var11['stickerFormats'] = var23;
+            var11['bottomSheetRef'] = var17;
+            var11['bottomSheetIndex'] = var18;
+            var11['channel'] = var16;
+            var11['onPressSticker'] = var23;
+            var11['stickerFormats'] = var22;
             var11['inPortalKeyboard'] = var13;
-            var9 = var20.bind(var4)(var12, var11);
+            var9 = var19.bind(var4)(var12, var11);
 case 25:
             _fun0001_ip = 27; continue _fun0001;
 case 23:
-            var20 = _closure1_slot9;
+            var19 = _closure1_slot9;
             var12 = _closure1_slot1;
-            var23 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var11 = 19;
-            var11 = var23[var11];
+            var11 = var22[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var11['bottomSheetRef'] = var18;
-            var23 = var17.id;
-            var11['channelId'] = var23;
-            var23 = var17.guild_id;
-            var11['guildId'] = var23;
-            var11['hideFavorites'] = var22;
-            var11['onPressGIF'] = var21;
-            var9 = var20.bind(var4)(var12, var11);
+            var11['bottomSheetRef'] = var17;
+            var22 = var16.id;
+            var11['channelId'] = var22;
+            var22 = var16.guild_id;
+            var11['guildId'] = var22;
+            var11['hideFavorites'] = var21;
+            var11['onPressGIF'] = var20;
+            var9 = var19.bind(var4)(var12, var11);
 case 27:
             _fun0001_ip = 28; continue _fun0001;
 case 21:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
-            var20 = _closure1_slot2;
+            var19 = _closure1_slot2;
             var10 = 18;
-            var10 = var20[var10];
+            var10 = var19[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
-            var10['bottomSheetIndex'] = var19;
-            var10['bottomSheetRef'] = var18;
-            var10['channel'] = var17;
-            var10['onPressEmoji'] = var16;
-            var10['onBackspace'] = var15;
-            var10['disableLongPress'] = var14;
+            var10['bottomSheetIndex'] = var18;
+            var10['bottomSheetRef'] = var17;
+            var10['channel'] = var16;
+            var10['onPressEmoji'] = var15;
+            var10['onBackspace'] = var14;
             var10['inPortalKeyboard'] = var13;
             var9 = var12.bind(var4)(var11, var10);
 case 28:

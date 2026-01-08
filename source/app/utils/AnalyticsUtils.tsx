@@ -301,8 +301,8 @@ case 4:
         var11 = var11.bind(var13)(var10);
         var10 = {};
         var _closure1_slot14 = var10;
-        var16 = 1000;
-        var _closure1_slot15 = var16;
+        var18 = 1000;
+        var _closure1_slot15 = var18;
         var10 = var9.performance;
         var9 = var10.now;
         var9 = var9.bind(var10)();
@@ -310,7 +310,7 @@ case 4:
         var9 = 7;
         var10 = var5[var9];
         var13 = var14.bind(var1)(var10);
-        var10 = var13.isLibdiscoreLoaded;
+        var10 = var13.isLibdiscoreInitialized;
         var13 = var10.bind(var13)();
         var10 = null;
         if(!var13) { _fun0001_ip = 26; continue _fun0001 }
@@ -320,43 +320,43 @@ case 27:
         var13 = var15.generateLaunchSignature;
         var9 = 8;
         var9 = var5[var9];
-        var17 = var14.bind(var1)(var9);
-        var9 = var17.getGlobalObject;
-        var9 = var9.bind(var17)();
+        var16 = var14.bind(var1)(var9);
+        var9 = var16.getGlobalObject;
+        var9 = var9.bind(var16)();
         var10 = var13.bind(var15)(var9);
 case 26:
         var _closure1_slot17 = var10;
         var13 = 9;
         var9 = var5[var13];
-        var17 = var4.bind(var1)(var9);
-        var15 = var17.extendSuperProperties;
+        var16 = var4.bind(var1)(var9);
+        var15 = var16.extendSuperProperties;
         var9 = {};
         var9['launch_signature'] = var10;
-        var9 = var15.bind(var17)(var9);
+        var9 = var15.bind(var16)(var9);
         var9 = new Array(0);
         var _closure1_slot18 = var9;
         var9 = {};
-        var17 = var12.APP_OPENED;
+        var16 = var12.APP_OPENED;
         var15 = {};
         var23 = 300000;
         var15['throttlePeriod'] = var23;
-        var18 = function throttleKeys() {
+        var17 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
         };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.APP_BACKGROUND;
+        var15['throttleKeys'] = var17;
+        var9[var16] = var15;
+        var16 = var12.APP_BACKGROUND;
         var15 = {};
         var24 = 120000;
         var15['throttlePeriod'] = var24;
-        var18 = function throttleKeys() {
+        var17 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
         };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.ACK_MESSAGES;
+        var15['throttleKeys'] = var17;
+        var9[var16] = var15;
+        var16 = var12.ACK_MESSAGES;
         var15 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -387,12 +387,12 @@ case 28:
                 return var1;
             }
         };
-        var9[var17] = var15;
+        var9[var16] = var15;
         var17 = var12.GUILD_VIEWED;
         var15 = {};
-        var22 = 900000;
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
+        var16 = 900000;
+        var15['throttlePeriod'] = var16;
+        var20 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.guild_id;
             var1 = new Array(2);
@@ -401,84 +401,84 @@ case 28:
             var1[1] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var18;
+        var15['throttleKeys'] = var20;
         var9[var17] = var15;
         var17 = var12.FRIENDS_LIST_CLICKED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.tab_opened;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.FRIENDS_LIST_VIEWED;
-        var15 = {};
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.tab_opened;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.NOW_PLAYING_CARD_HOVERED;
-        var15 = {};
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.tab_opened;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.START_SPEAKING;
-        var15 = {};
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.server;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.START_LISTENING;
-        var15 = {};
-        var15['throttlePeriod'] = var22;
-        var18 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.server;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var18;
-        var9[var17] = var15;
-        var17 = var12.ACTIVITY_UPDATED;
-        var15 = {'throttlePeriod': 60000, 'throttleKeys': null, 'deduplicate': true};
-        var18 = 60000;
+        var15['throttlePeriod'] = var16;
         var20 = function throttleKeys(arg1) {
             var1 = arg1;
-            var2 = var1.application_id;
+            var2 = var1.tab_opened;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
         var15['throttleKeys'] = var20;
         var9[var17] = var15;
+        var17 = var12.FRIENDS_LIST_VIEWED;
+        var15 = {};
+        var15['throttlePeriod'] = var16;
+        var20 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.tab_opened;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var20;
+        var9[var17] = var15;
+        var17 = var12.NOW_PLAYING_CARD_HOVERED;
+        var15 = {};
+        var15['throttlePeriod'] = var16;
+        var20 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.tab_opened;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var20;
+        var9[var17] = var15;
+        var17 = var12.START_SPEAKING;
+        var15 = {};
+        var15['throttlePeriod'] = var16;
+        var20 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.server;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var20;
+        var9[var17] = var15;
+        var17 = var12.START_LISTENING;
+        var15 = {};
+        var15['throttlePeriod'] = var16;
+        var20 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.server;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var20;
+        var9[var17] = var15;
+        var17 = var12.ACTIVITY_UPDATED;
+        var15 = {'throttlePeriod': 60000, 'throttleKeys': null, 'deduplicate': true};
+        var20 = 60000;
+        var21 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.application_id;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var21;
+        var9[var17] = var15;
         var17 = var12.CHANNEL_OPENED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var20 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var16;
+        var21 = function throttleKeys(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var3 = arg1;
@@ -531,70 +531,70 @@ case 36:
                 return var1;
             }
         };
-        var15['throttleKeys'] = var20;
+        var15['throttleKeys'] = var21;
         var9[var17] = var15;
         var17 = var12.TEXT_IN_VOICE_OPENED;
         var15 = {};
-        var20 = 86400000;
-        var15['throttlePeriod'] = var20;
-        var21 = function throttleKeys(arg1) {
+        var21 = 86400000;
+        var15['throttlePeriod'] = var21;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.NOTIFICATION_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var21 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var16;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.notif_type;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.MEMBER_LIST_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var21 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var16;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.DM_LIST_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var21 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var16;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.NAV_DRAWER_OPENED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var21 = function throttleKeys() {
+        var15['throttlePeriod'] = var16;
+        var22 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.KEYBOARD_SHORTCUT_USED;
         var15 = {};
         var15['throttlePeriod'] = var24;
-        var21 = function throttleKeys(arg1) {
+        var22 = function throttleKeys(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = arg1;
@@ -616,12 +616,12 @@ case 37:
                 return var1;
             }
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.QUICKSWITCHER_OPENED;
         var15 = {};
-        var21 = 10000;
-        var15['throttlePeriod'] = var21;
+        var22 = 10000;
+        var15['throttlePeriod'] = var22;
         var25 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -630,7 +630,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.CHAT_INPUT_COMPONENT_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var25 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.type;
@@ -674,7 +674,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.HUB_ONBOARDING_CAROUSEL_SCROLLED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -683,7 +683,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.HUB_STUDENT_PROMPT_CLICKED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -692,7 +692,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.RPC_SERVER_ERROR_CAUGHT;
         var15 = {};
-        var15['throttlePeriod'] = var20;
+        var15['throttlePeriod'] = var21;
         var24 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -727,7 +727,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.ACTIVITY_HANDSHAKE;
         var15 = {};
-        var15['throttlePeriod'] = var20;
+        var15['throttlePeriod'] = var21;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.application_id;
@@ -739,7 +739,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.CHANNEL_BANNER_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var20;
+        var15['throttlePeriod'] = var21;
         var24 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.banner_type;
@@ -753,7 +753,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.PREMIUM_UPSELL_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
+        var15['throttlePeriod'] = var20;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.type;
@@ -765,7 +765,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.FORUM_CHANNEL_SEARCHED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
+        var15['throttlePeriod'] = var20;
         var24 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.guild_id;
@@ -779,7 +779,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.FORUM_CHANNEL_SCROLLED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.guild_id;
@@ -793,7 +793,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.VOICE_CHANNEL_GAME_ACTIVITY_INDICATOR_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
+        var15['throttlePeriod'] = var20;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.user_id;
@@ -805,7 +805,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.MEDIA_VIEWER_SESSION_COMPLETED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
+        var15['throttlePeriod'] = var20;
         var24 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -826,7 +826,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.ACTIVITY_CARDS_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.context;
@@ -840,7 +840,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.GUILD_TOOLTIP_SHOWN;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.guild_id;
@@ -852,7 +852,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.ACK_COMMUNITY_MESSAGES;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
@@ -864,7 +864,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.REDESIGN_NAV_BAR_CLICKED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.tab;
@@ -876,7 +876,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.CHANNEL_LIST_END_REACHED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var24 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.guild_id;
@@ -888,8 +888,8 @@ case 37:
         var9[var17] = var15;
         var17 = var12.EXPLICIT_MEDIA_REDACTABLE_MESSAGES_LOADED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
-        var18 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var20;
+        var20 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.guild_id;
             var1 = new Array(2);
@@ -898,12 +898,12 @@ case 37:
             var1[1] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var18;
+        var15['throttleKeys'] = var20;
         var9[var17] = var15;
         var17 = var12.LIVE_ACTIVITY_SETTINGS_UPDATED;
         var15 = {};
-        var18 = 3600000;
-        var15['throttlePeriod'] = var18;
+        var20 = 3600000;
+        var15['throttlePeriod'] = var20;
         var24 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
@@ -936,7 +936,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.APP_DMS_QUICK_LAUNCHER_IMPRESSION;
         var15 = {};
-        var15['throttlePeriod'] = var22;
+        var15['throttlePeriod'] = var16;
         var23 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
@@ -972,7 +972,7 @@ case 37:
         var9[var17] = var15;
         var17 = var12.MEMBER_LIST_SWIPE_PEEK;
         var15 = {};
-        var15['throttlePeriod'] = var16;
+        var15['throttlePeriod'] = var18;
         var23 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.channel_id;
@@ -984,8 +984,8 @@ case 37:
         var9[var17] = var15;
         var17 = var12.REDACTABLE_MESSAGE_LOADED;
         var15 = {};
-        var15['throttlePeriod'] = var22;
-        var22 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var16;
+        var23 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.channel_id;
             var1 = new Array(2);
@@ -994,7 +994,7 @@ case 37:
             var1[1] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var22;
+        var15['throttleKeys'] = var23;
         var9[var17] = var15;
         var17 = var12.OPEN_MODAL;
         var15 = function(arg1) {
@@ -1026,21 +1026,21 @@ case 39:
         var9[var17] = var15;
         var17 = var12.MODERATOR_QUEUE_ACTION;
         var15 = {};
-        var15['throttlePeriod'] = var21;
-        var21 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var22;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.guild_id;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.NOTIFICATION_PERMISSION_STATUS;
         var15 = {};
-        var21 = 43200000;
-        var15['throttlePeriod'] = var21;
-        var21 = function throttleKeys(arg1) {
+        var22 = 43200000;
+        var15['throttlePeriod'] = var22;
+        var22 = function throttleKeys(arg1) {
             var2 = arg1;
             var3 = var2.os_enabled;
             var1 = new Array(4);
@@ -1053,21 +1053,42 @@ case 39:
             var1[3] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.SEARCH_BAR_VIEWED;
         var15 = {};
-        var15['throttlePeriod'] = var18;
-        var21 = function throttleKeys(arg1) {
+        var15['throttlePeriod'] = var20;
+        var22 = function throttleKeys(arg1) {
             var1 = arg1;
             var2 = var1.search_type;
             var1 = new Array(1);
             var1[0] = var2;
             return var1;
         };
-        var15['throttleKeys'] = var21;
+        var15['throttleKeys'] = var22;
         var9[var17] = var15;
         var17 = var12.AD_IDENTIFIER_FETCHED;
+        var15 = {};
+        var15['throttlePeriod'] = var21;
+        var22 = function throttleKeys() {
+            var1 = new Array(0);
+            return var1;
+        };
+        var15['throttleKeys'] = var22;
+        var9[var17] = var15;
+        var17 = var12.ACTIVITY_PANEL_SDK_LINK_VIEWED;
+        var15 = {};
+        var15['throttlePeriod'] = var21;
+        var21 = function throttleKeys(arg1) {
+            var1 = arg1;
+            var2 = var1.application_id;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var15['throttleKeys'] = var21;
+        var9[var17] = var15;
+        var17 = var12.LIBDISCORE_SLOW_TIMERS;
         var15 = {};
         var15['throttlePeriod'] = var20;
         var21 = function throttleKeys() {
@@ -1076,28 +1097,16 @@ case 39:
         };
         var15['throttleKeys'] = var21;
         var9[var17] = var15;
-        var17 = var12.ACTIVITY_PANEL_SDK_LINK_VIEWED;
+        var17 = var12.DEBUG_MISSING_STRING;
         var15 = {};
         var15['throttlePeriod'] = var20;
-        var20 = function throttleKeys(arg1) {
-            var1 = arg1;
-            var2 = var1.application_id;
-            var1 = new Array(1);
-            var1[0] = var2;
-            return var1;
-        };
-        var15['throttleKeys'] = var20;
-        var9[var17] = var15;
-        var17 = var12.LIBDISCORE_SLOW_TIMERS;
-        var15 = {};
-        var15['throttlePeriod'] = var18;
         var20 = function throttleKeys() {
             var1 = new Array(0);
             return var1;
         };
         var15['throttleKeys'] = var20;
         var9[var17] = var15;
-        var17 = var12.DEBUG_MISSING_STRING;
+        var17 = var12.VIDEO_STREAM_ZOOM_CHANGED;
         var15 = {};
         var15['throttlePeriod'] = var18;
         var18 = function throttleKeys() {
@@ -1106,7 +1115,7 @@ case 39:
         };
         var15['throttleKeys'] = var18;
         var9[var17] = var15;
-        var15 = var12.VIDEO_STREAM_ZOOM_CHANGED;
+        var15 = var12.CACHE_STATS_RECORDED;
         var12 = {};
         var12['throttlePeriod'] = var16;
         var16 = function throttleKeys() {

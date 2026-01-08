@@ -1778,7 +1778,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = {};
     var7 = ['USER_APPLICATION_IDENTITY_UPDATE', 'USER_APPLICATION_IDENTITY_REMOVE'];
     var1['actions'] = var7;
-    var4 = function inlineRequire() {
+    var7 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 114;
@@ -1788,15 +1788,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var7;
     var2['UserApplicationIdentityManager'] = var1;
-    var1 = 115;
+    var1 = {};
+    var7 = ['APP_STATE_UPDATE'];
+    var1['actions'] = var7;
+    var4 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 115;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var4;
+    var2['LocalMessageCacheStatsManager'] = var1;
+    var1 = 116;
     var4 = var6[var1];
     var1 = undefined;
     var7 = var5.bind(var1)(var4);
     var4 = var7.initialize;
     var4 = var4.bind(var7)(var2);
-    var4 = 116;
+    var4 = 117;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

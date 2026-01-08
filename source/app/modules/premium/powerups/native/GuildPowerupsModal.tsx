@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['boostButtonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -277,8 +277,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19[4] = var21;
         var16['children'] = var19;
         var19 = var7.bind(var4)(var6, var16);
-        var16 = new Array(3);
+        var16 = new Array(4);
         var16[0] = var19;
+        var19 = 18;
+        var19 = var13[var19];
+        var21 = var18.bind(var4)(var19);
+        var19 = {};
+        var19['guildId'] = var12;
+        var19 = var3.bind(var4)(var21, var19);
+        var16[1] = var19;
         var19 = var20.map;
         var17 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -299,7 +306,7 @@ case 4:
                 var7 = _closure1_slot8;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 19;
+                var3 = 20;
                 var3 = var5[var3];
                 var6 = undefined;
                 var5 = var4.bind(var6)(var3);
@@ -315,7 +322,7 @@ case 2:
                 var5 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -330,14 +337,14 @@ case 2:
             }
         };
         var17 = var19.bind(var20)(var17);
-        var16[1] = var17;
-        var17 = 20;
+        var16[2] = var17;
+        var17 = 21;
         var17 = var13[var17];
         var18 = var18.bind(var4)(var17);
         var17 = {};
         var17['guildId'] = var12;
         var17 = var3.bind(var4)(var18, var17);
-        var16[2] = var17;
+        var16[3] = var17;
         var9['children'] = var16;
         var9 = var7.bind(var4)(var14, var9);
         var8[1] = var9;
@@ -349,7 +356,7 @@ case 2:
         var14['paddingBottom'] = var15;
         var10[1] = var14;
         var9['style'] = var10;
-        var10 = 21;
+        var10 = 22;
         var10 = var13[var10];
         var10 = var11.bind(var4)(var10);
         var11 = var10.GuildPowerupsBoostButton;

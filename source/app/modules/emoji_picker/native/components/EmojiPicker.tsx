@@ -39,17 +39,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.EMOJI_URL_BASE_SIZE;
-    var _closure1_slot8 = var8;
     var4 = var4.EmojiIntention;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot10 = var8;
+    var _closure1_slot9 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -100,124 +98,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[var11] = var12;
     var4['headerGradient'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot12 = var4;
-    var4 = function onLongPressEmoji(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = arg1;
-            var1 = var3.uniqueName;
-            var4 = null;
-            if(!(var4 != var1)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var2 = var3.uniqueName;
-            var1 = '';
-            if(!(var1 === var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 2:
-            var5 = var3.name;
-            _fun0001_ip = 5; continue _fun0001;
-case 4:
-            var5 = var3.uniqueName;
-case 5:
-            var1 = var3.id;
-            if(!(var4 == var1)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var1 = var3.surrogates;
-            if(!(var4 == var1)) { _fun0001_ip = 8; continue _fun0001 }
-case 6:
-            var2 = {};
-            var1 = var3.id;
-            var2['id'] = var1;
-            var2['alt'] = var5;
-            var1 = var3.id;
-            if(!(var4 == var1)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var1 = var3.url;
-            _fun0001_ip = 11; continue _fun0001;
-case 9:
-            var7 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var4 = 8;
-            var6 = var6[var4];
-            var4 = undefined;
-            var7 = var7.bind(var4)(var6);
-            var6 = var7.getEmojiURL;
-            var4 = {};
-            var9 = var3.id;
-            var4['id'] = var9;
-            var9 = var3.animated;
-            var4['animated'] = var9;
-            var8 = _closure1_slot8;
-            var4['size'] = var8;
-            var1 = var6.bind(var7)(var4);
-case 11:
-            var2['src'] = var1;
-            _fun0001_ip = 12; continue _fun0001;
-case 8:
-            var1 = {};
-            var3 = var3.surrogates;
-            var1['surrogate'] = var3;
-            var3 = global;
-            var3 = var3.HermesInternal;
-            var4 = var3.concat;
-            var3 = ':';
-            var3 = var4.bind(var3)(var5, var3);
-            var1['content'] = var3;
-            var2 = var1;
-case 12:
-            var7 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 9;
-            var5 = var3[var1];
-            var1 = undefined;
-            var6 = var7.bind(var1)(var5);
-            var5 = var6.dismissGlobalKeyboard;
-            var5 = var5.bind(var6)();
-            var5 = _closure1_slot1;
-            var4 = 10;
-            var4 = var3[var4];
-            var6 = var5.bind(var1)(var4);
-            var5 = var6.openLazy;
-            var4 = 12;
-            var4 = var3[var4];
-            var7 = var7.bind(var1)(var4);
-            var4 = 11;
-            var4 = var3[var4];
-            var3 = var3.paths;
-            var4 = var7.bind(var1)(var4, var3);
-            var3 = {};
-            var3['emojiNode'] = var2;
-            var2 = 'MessageEmojiActionSheet';
-            var2 = var5.bind(var6)(var4, var2, var3);
-            return var1;
-        }
-    };
-    var _closure1_slot13 = var4;
+    var _closure1_slot11 = var4;
     var4 = var7.memo;
     var2 = function EmojiPicker(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var19 = var1.bottomSheetRef;
             var18 = var1.bottomSheetIndex;
-            var25 = var1.channel;
-            var _closure2_slot0 = var25;
-            var28 = var1.onPressEmoji;
+            var31 = var1.channel;
+            var _closure2_slot0 = var31;
+            var29 = var1.onPressEmoji;
             var13 = var1.onBackspace;
-            var29 = var1.disableLongPress;
-            var4 = undefined;
-            if(!(var29 === var4)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            var29 = false;
-case 13:
             var12 = var1.inPortalKeyboard;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
+            var4 = undefined;
             var27 = var1.bind(var4)();
             var8 = _closure1_slot3;
             var5 = var8.useEffect;
-            var1 = var25.id;
+            var1 = var31.id;
             var3 = new Array(2);
             var3[0] = var1;
-            var1 = var25.guild_id;
+            var1 = var31.guild_id;
             var3[1] = var1;
             var1 = function() {
                 var3 = _closure1_slot1;
@@ -242,52 +144,52 @@ case 13:
                 return var1;
             };
             var1 = var5.bind(var8)(var1, var3);
-            var36 = _closure1_slot0;
-            var37 = _closure1_slot2;
-            var1 = 13;
-            var1 = var37[var1];
-            var3 = var36.bind(var4)(var1);
+            var35 = _closure1_slot0;
+            var36 = _closure1_slot2;
+            var1 = 8;
+            var1 = var36[var1];
+            var3 = var35.bind(var4)(var1);
             var1 = var3.useSharedValue;
             var30 = 0;
             var14 = var1.bind(var3)(var30);
-            var1 = 14;
-            var1 = var37[var1];
-            var5 = var36.bind(var4)(var1);
+            var1 = 9;
+            var1 = var36[var1];
+            var5 = var35.bind(var4)(var1);
             var3 = var5.useEmojiCategories;
-            var6 = _closure1_slot9;
+            var6 = _closure1_slot8;
             var1 = var6.CHAT;
-            var15 = var3.bind(var5)(var1, var25);
+            var15 = var3.bind(var5)(var1, var31);
             var1 = var8.useRef;
             var10 = null;
             var16 = var1.bind(var8)(var10);
-            var1 = 15;
-            var1 = var37[var1];
-            var5 = var36.bind(var4)(var1);
+            var1 = 10;
+            var1 = var36[var1];
+            var5 = var35.bind(var4)(var1);
             var3 = var5.useEmojiStudioExperiment;
             var21 = true;
             var1 = {'location': 'emoji_picker', 'autoTrackExposure': true};
             var11 = var3.bind(var5)(var1);
             var3 = _closure1_slot1;
-            var1 = 16;
-            var5 = var37[var1];
+            var1 = 11;
+            var5 = var36[var1];
             var7 = var3.bind(var4)(var5);
-            var5 = 17;
-            var5 = var37[var5];
+            var5 = 12;
+            var5 = var36[var5];
             var5 = var3.bind(var4)(var5);
             var5 = var5.EMOJI_PICKER;
             var5 = var7.bind(var4)(var5);
             var5 = var5.analyticsLocations;
-            var7 = 18;
-            var7 = var37[var7];
+            var7 = 13;
+            var7 = var36[var7];
             var7 = var3.bind(var4)(var7);
             var6 = var6.CHAT;
-            var6 = var7.bind(var4)(var25, var14, var6);
-            var32 = var6.handleTextChange;
-            var23 = var6.searchQueryRef;
-            var31 = var6.searchResults;
+            var6 = var7.bind(var4)(var31, var14, var6);
+            var23 = var6.handleTextChange;
+            var25 = var6.searchQueryRef;
+            var32 = var6.searchResults;
             var7 = var8.useCallback;
             var6 = new Array(1);
-            var6[0] = var25;
+            var6[0] = var31;
             var2 = function() {
                 var6 = _closure2_slot0;
                 var3 = _closure1_slot1;
@@ -311,21 +213,21 @@ case 13:
                 return var1;
             };
             var22 = var7.bind(var8)(var2, var6);
-            var2 = 19;
-            var2 = var37[var2];
+            var2 = 14;
+            var2 = var36[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
             var2['hasCategories'] = var21;
             var2 = var3.bind(var4)(var2);
             var17 = var2.safeAreaStyle;
-            var24 = var2.safeAreaBottomKeyboardAware;
-            var3 = _closure1_slot10;
-            var1 = var37[var1];
-            var1 = var36.bind(var4)(var1);
+            var28 = var2.safeAreaBottomKeyboardAware;
+            var3 = _closure1_slot9;
+            var1 = var36[var1];
+            var1 = var35.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
             var1 = {};
             var1['value'] = var5;
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot10;
             var6 = _closure1_slot4;
             var5 = {};
             var8 = var27.container;
@@ -333,98 +235,94 @@ case 13:
             var8 = {};
             var9 = var27.header;
             var8['style'] = var9;
-            var9 = 20;
-            var9 = var37[var9];
-            var9 = var36.bind(var4)(var9);
+            var9 = 15;
+            var9 = var36[var9];
+            var9 = var35.bind(var4)(var9);
             var20 = var9.SearchField;
             var9 = {};
-            var33 = 'md';
-            var9['size'] = var33;
-            var33 = 21;
-            var34 = var37[var33];
-            var34 = var36.bind(var4)(var34);
-            var35 = var34.intl;
-            var34 = var35.string;
-            var33 = var37[var33];
-            var33 = var36.bind(var4)(var33);
-            var33 = var33.t;
-            var33 = var33.KgK5qg;
-            var33 = var34.bind(var35)(var33);
-            var9['placeholder'] = var33;
-            var9['onChange'] = var32;
+            var24 = 'md';
+            var9['size'] = var24;
+            var24 = 16;
+            var33 = var36[var24];
+            var33 = var35.bind(var4)(var33);
+            var34 = var33.intl;
+            var33 = var34.string;
+            var24 = var36[var24];
+            var24 = var35.bind(var4)(var24);
+            var24 = var24.t;
+            var24 = var24.KgK5qg;
+            var24 = var33.bind(var34)(var24);
+            var9['placeholder'] = var24;
+            var9['onChange'] = var23;
             var9['onFocus'] = var22;
             var9['isRound'] = var21;
             var20 = var3.bind(var4)(var20, var9);
             var9 = new Array(2);
             var9[0] = var20;
             var11 = var11.isMobileEnabled;
-            if(!var11) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            var21 = _closure1_slot10;
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var21 = _closure1_slot9;
             var20 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var11 = 22;
+            var11 = 17;
             var11 = var22[var11];
             var20 = var20.bind(var4)(var11);
             var11 = {};
-            var11['channel'] = var25;
+            var11['channel'] = var31;
             var10 = var21.bind(var4)(var20, var11);
-case 15:
+case 2:
             var9[1] = var10;
             var8['children'] = var9;
             var9 = var7.bind(var4)(var6, var8);
             var8 = new Array(3);
             var8[0] = var9;
-            var22 = _closure1_slot11;
+            var22 = _closure1_slot10;
             var21 = _closure1_slot4;
             var9 = {};
             var10 = var27.list;
             var9['style'] = var10;
-            var20 = _closure1_slot10;
-            var11 = _closure1_slot1;
-            var32 = _closure1_slot2;
-            var10 = 23;
-            var10 = var32[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
-            var10['bottomSheetIndex'] = var18;
-            var10['emojiPickerListRef'] = var16;
-            var10['categories'] = var15;
-            var10['categoryIndexActive'] = var14;
-            var10['emojis'] = var31;
-            var10['onPressEmoji'] = var28;
-            var28 = undefined;
-            if(var29) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var28 = _closure1_slot13;
-case 17:
-            var10['onLongPressEmoji'] = var28;
-            var10['channel'] = var25;
-            var25 = _closure1_slot9;
-            var25 = var25.CHAT;
-            var10['emojiPickerIntention'] = var25;
-            var10['insetBottom'] = var24;
-            var10['inPortalKeyboard'] = var12;
-            var10['searchQueryRef'] = var23;
-            var10 = var20.bind(var4)(var11, var10);
-            var23 = new Array(2);
-            var23[0] = var10;
-            var11 = _closure1_slot10;
+            var11 = _closure1_slot9;
             var10 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var24 = 24;
+            var23 = 18;
+            var23 = var20[var23];
+            var24 = var10.bind(var4)(var23);
+            var23 = {};
+            var23['bottomSheetIndex'] = var18;
+            var23['emojiPickerListRef'] = var16;
+            var23['categories'] = var15;
+            var23['categoryIndexActive'] = var14;
+            var23['emojis'] = var32;
+            var23['onPressEmoji'] = var29;
+            var29 = _closure1_slot0;
+            var32 = 19;
+            var32 = var20[var32];
+            var32 = var29.bind(var4)(var32);
+            var32 = var32.openEmojiActionSheet;
+            var23['onLongPressEmoji'] = var32;
+            var23['channel'] = var31;
+            var31 = _closure1_slot8;
+            var31 = var31.CHAT;
+            var23['emojiPickerIntention'] = var31;
+            var23['insetBottom'] = var28;
+            var23['inPortalKeyboard'] = var12;
+            var23['searchQueryRef'] = var25;
+            var24 = var11.bind(var4)(var24, var23);
+            var23 = new Array(2);
+            var23[0] = var24;
+            var24 = 20;
             var24 = var20[var24];
             var25 = var10.bind(var4)(var24);
             var24 = {};
             var28 = var27.headerGradient;
             var24['style'] = var28;
-            var28 = _closure1_slot7;
-            var29 = var28.START;
-            var24['start'] = var29;
-            var28 = var28.END;
-            var24['end'] = var28;
-            var29 = _closure1_slot0;
-            var28 = 25;
+            var26 = _closure1_slot7;
+            var28 = var26.START;
+            var24['start'] = var28;
+            var26 = var26.END;
+            var24['end'] = var26;
+            var28 = 21;
             var26 = var20[var28];
             var33 = var29.bind(var4)(var26);
             var32 = var33.hexOpacityToRgba;
@@ -447,7 +345,7 @@ case 17:
             var9['children'] = var23;
             var9 = var22.bind(var4)(var21, var9);
             var8[1] = var9;
-            var9 = 26;
+            var9 = 22;
             var9 = var20[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -469,7 +367,7 @@ case 17:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 27;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

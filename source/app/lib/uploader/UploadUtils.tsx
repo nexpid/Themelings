@@ -116,7 +116,7 @@ case 0:
                 var2 = 5;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.isLibdiscoreLoaded;
+                var2 = var3.isLibdiscoreInitialized;
                 var2 = var2.bind(var3)();
                 if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -553,7 +553,7 @@ case 69:
             var2 = 5;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
-            var2 = var3.isLibdiscoreLoaded;
+            var2 = var3.isLibdiscoreInitialized;
             var1 = var2.bind(var3)();
 case 68:
             return var1;

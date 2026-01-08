@@ -179,20 +179,20 @@ case 2:
             var9 = {};
             var9['displayNameStyles'] = var2;
             var13 = var11.bind(var13)(var9);
-            var9 = 9;
-            var11 = var15[var9];
+            var11 = 9;
+            var9 = var15[var11];
+            var19 = var12.bind(var4)(var9);
+            var17 = var19.useToken;
+            var9 = 4;
+            var16 = var15[var9];
+            var16 = var18.bind(var4)(var16);
+            var16 = var16.colors;
+            var16 = var16.BACKGROUND_BASE_LOW;
+            var16 = var17.bind(var19)(var16);
+            var11 = var15[var11];
             var17 = var12.bind(var4)(var11);
-            var16 = var17.useToken;
-            var23 = 4;
-            var11 = var15[var23];
-            var11 = var18.bind(var4)(var11);
-            var11 = var11.colors;
-            var11 = var11.BACKGROUND_BASE_LOW;
-            var16 = var16.bind(var17)(var11);
-            var9 = var15[var9];
-            var17 = var12.bind(var4)(var9);
             var11 = var17.useToken;
-            var9 = var15[var23];
+            var9 = var15[var9];
             var9 = var18.bind(var4)(var9);
             var9 = var9.colors;
             var9 = var9.WHITE;
@@ -261,8 +261,8 @@ case 15:
             var15 = var17;
 case 14:
             var19 = _closure1_slot8;
-            var17 = 1;
-            var18 = var19.bind(var4)(var17, var15);
+            var23 = 1;
+            var18 = var19.bind(var4)(var23, var15);
             var17 = 1.6;
             var21 = var19.bind(var4)(var17, var15);
             var17 = 1.2;
@@ -500,7 +500,7 @@ case 30:
             var3 = undefined;
             if(var21) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
-            var3 = var20.main;
+            var3 = var20.neonStroke;
 case 48:
             var3 = var9.bind(var4)(var3);
             var20 = var10 != var3;

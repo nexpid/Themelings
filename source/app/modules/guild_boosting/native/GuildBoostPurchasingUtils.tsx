@@ -45,8 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
-        var2 = function* (arg1, arg2, arg3) {
-            var1 = function* anon_0_(arg1, arg2, arg3) {
+        var2 = function* (arg1, arg2, arg3, arg4, arg5) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4, arg5) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
@@ -236,6 +236,10 @@ case 17:
                     var3['analyticsLocations'] = var6;
                     var6 = arg3;
                     var3['onBack'] = var6;
+                    var6 = arg4;
+                    var3['onPaymentSuccess'] = var6;
+                    var6 = arg5;
+                    var3['onPaymentDismiss'] = var6;
                     var3 = var4.bind(var5)(var3);
                     _fun0001_ip = 27; continue _fun0001;
 case 11:

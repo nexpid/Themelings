@@ -1906,6 +1906,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_GROUP_POPOVER'] = var2;
     var1 = 'PREMIUM_GROUP_POPOVER';
     var4[var2] = var1;
+    var2 = 669;
+    var4['PREMIUM_ORBS_UPSELL_POPOVER'] = var2;
+    var1 = 'PREMIUM_ORBS_UPSELL_POPOVER';
+    var4[var2] = var1;
+    var2 = 670;
+    var4['PREMIUM_ORBS_REWARDS_DROP_POPOVER'] = var2;
+    var1 = 'PREMIUM_ORBS_REWARDS_DROP_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -937,7 +937,7 @@ case 89:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(15);
+        var1 = new Array(16);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -1110,19 +1110,17 @@ case 95:
             _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var4 = arg1;
-                var3 = this;
                 var1 = _closure1_slot13;
                 var1 = var1.profilePopoutGiftIntentsDismissMap;
-                var2 = var1[var4];
-                var1 = null;
-                var1 = var1 == var2;
-                if(!var1) { _fun0018_ip = 77; continue _fun0018 }
-case 40:
-                var2 = var3.getFriendAnniversaryYears;
-                var3 = var2.bind(var3)(var4);
-                var2 = 0;
-                var1 = var3 > var2;
-case 77:
+                var1 = var1[var4];
+                var3 = null;
+                var1 = var3 == var1;
+                if(!var1) { _fun0018_ip = 97; continue _fun0018 }
+case 98:
+                var2 = _closure1_slot17;
+                var2 = var2[var4];
+                var1 = var3 != var2;
+case 97:
                 return var1;
             }
         };
@@ -1199,13 +1197,23 @@ case 77:
         var5 = {};
         var7 = 'getMessageGiftIntentLastShownMap';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot13;
             var1 = var1.messageGiftIntentLastShownMap;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[14] = var5;
+        var5 = {};
+        var7 = 'getProfilePopoutGiftIntentsDismissMap';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot13;
+            var1 = var1.profilePopoutGiftIntentsDismissMap;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[15] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1220,27 +1228,27 @@ case 0:
             var3 = arg1;
             var4 = null;
             var1 = var3;
-            if(!(var4 != var1)) { _fun0019_ip = 97; continue _fun0019 }
-case 98:
+            if(!(var4 != var1)) { _fun0019_ip = 99; continue _fun0019 }
+case 100:
             var2 = {};
             var6 = var3.friendsTabBadgeLastDismissedTime;
             var7 = var4 != var6;
             var5 = null;
             if(!var7) { _fun0019_ip = 40; continue _fun0019 }
-case 99:
+case 98:
             var5 = var6;
 case 40:
             var2['friendsTabBadgeLastDismissedTime'] = var5;
             var3 = var3.lastShownFriendsListGiftIntents;
             if(!(var4 == var3)) { _fun0019_ip = 77; continue _fun0019 }
-case 100:
+case 101:
             var3 = new Array(0);
 case 77:
             var2['lastShownFriendsListGiftIntents'] = var3;
             var3 = {};
             var2['messageGiftIntentLastShownMap'] = var3;
             var1 = var2;
-case 97:
+case 99:
             return var1;
         }
     };
@@ -1252,12 +1260,12 @@ case 0:
             var4 = null;
             var1 = var3;
             if(!(var4 != var1)) { _fun0020_ip = 34; continue _fun0020 }
-case 98:
+case 100:
             var2 = {};
             var2['friendsTabBadgeLastDismissedTime'] = var4;
             var5 = var3.lastShownFriendsListGiftIntents;
             if(!(var4 == var5)) { _fun0020_ip = 37; continue _fun0020 }
-case 99:
+case 98:
             var5 = new Array(0);
 case 37:
             var2['lastShownFriendsListGiftIntents'] = var5;
@@ -1281,13 +1289,13 @@ case 0:
             var3 = arg1;
             var4 = null;
             var1 = var3;
-            if(!(var4 != var1)) { _fun0021_ip = 101; continue _fun0021 }
-case 98:
+            if(!(var4 != var1)) { _fun0021_ip = 102; continue _fun0021 }
+case 100:
             var2 = {};
             var2['friendsTabBadgeLastDismissedTime'] = var4;
             var5 = var3.lastShownFriendsListGiftIntents;
             if(!(var4 == var5)) { _fun0021_ip = 37; continue _fun0021 }
-case 99:
+case 98:
             var5 = new Array(0);
 case 37:
             var2['lastShownFriendsListGiftIntents'] = var5;
@@ -1299,14 +1307,14 @@ case 70:
             var2['messageGiftIntentLastShownMap'] = var5;
             var3 = var3.giftUnreadNotificationLastDismissedTimes;
             if(!(var4 == var3)) { _fun0021_ip = 76; continue _fun0021 }
-case 102:
+case 103:
             var3 = new Array(0);
 case 76:
             var2['giftUnreadNotificationLastDismissedTimes'] = var3;
             var3 = {};
             var2['profilePopoutGiftIntentsDismissMap'] = var3;
             var1 = var2;
-case 101:
+case 102:
             return var1;
         }
     };
@@ -1425,13 +1433,13 @@ case 0:
             var1 = arg1;
             var4 = var1.total;
             var2 = null;
-            if(!(var2 != var4)) { _fun0022_ip = 103; continue _fun0022 }
-case 104:
+            if(!(var2 != var4)) { _fun0022_ip = 104; continue _fun0022 }
+case 105:
             var3 = _closure1_slot31;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             return var1;
-case 103:
+case 104:
             _closure1_slot18 = var2;
             var2 = _closure1_slot27;
             var1 = undefined;

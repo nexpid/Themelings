@@ -1390,10 +1390,10 @@ case 156:
 case 155:
                     var7 = var5 != var6;
                     var5 = null;
-                    if(!var7) { _fun0010_ip = 157; continue _fun0010 }
-case 158:
-                    var5 = var6;
+                    if(!var7) { _fun0010_ip = 14; continue _fun0010 }
 case 157:
+                    var5 = var6;
+case 14:
                     var1['reason'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
 case 151:
@@ -1425,7 +1425,7 @@ case 0:
                     var6 = arg1;
                     var1 = null;
                     if(!(var1 != var6)) { _fun0011_ip = 31; continue _fun0011 }
-case 159:
+case 158:
                     var1 = var6.USER_CANCELED_DOWNLOAD;
                     if(var1) { _fun0011_ip = 64; continue _fun0011 }
 case 31:

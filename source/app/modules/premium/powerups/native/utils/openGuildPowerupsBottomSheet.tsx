@@ -1,4 +1,4 @@
-// app/modules/premium/powerups/native/utils/openGuildPowerupsDetailsModal.tsx
+// app/modules/premium/powerups/native/utils/openGuildPowerupsBottomSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -20,9 +20,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/powerups/native/utils/openGuildPowerupsDetailsModal.tsx';
+    var4 = 'modules/premium/powerups/native/utils/openGuildPowerupsBottomSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function openGuildPowerupsDetailsModal(arg1) {
+    var2 = function openGuildPowerupsBottomSheet(arg1) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 0;
@@ -38,11 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var2[var3];
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
-        var3 = 'GuildPowerupsBottomSheet';
+        var3 = 'GUILD_POWERUPS_BOTTOM_SHEET_KEY';
         var2 = arg1;
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };
     var3['default'] = var2;
+    var2 = 'GUILD_POWERUPS_BOTTOM_SHEET_KEY';
+    var3['GUILD_POWERUPS_BOTTOM_SHEET_KEY'] = var2;
     return var1;
 })();

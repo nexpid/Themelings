@@ -131,7 +131,7 @@ case 0:
                 var3 = var1[var5];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
-                var3 = var4.isLibdiscoreLoaded;
+                var3 = var4.isLibdiscoreInitialized;
                 var3 = var3.bind(var4)();
                 if(!var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:

@@ -346,7 +346,7 @@ case 14:
             var6 = var15[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.VideoComponent;
-            var6 = {'style': null, 'source': null, 'disableFocus': true, 'importantForAccessibility': 'no-hide-descendants', 'poster': null, 'resizeMode': 'cover'};
+            var6 = {'style': null, 'source': null, 'disableFocus': true, 'preventsDisplaySleepDuringVideoPlayback': false, 'importantForAccessibility': 'no-hide-descendants', 'poster': null, 'resizeMode': 'cover'};
             var9 = var9.video;
             var6['style'] = var9;
             var9 = {};

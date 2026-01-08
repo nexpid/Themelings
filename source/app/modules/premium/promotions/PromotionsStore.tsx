@@ -515,12 +515,56 @@ case 30:
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
-            var5 = var1.promotions;
-            var2 = var1.consumedInboundPromotionId;
-            var3 = {};
-            _closure1_slot17 = var3;
-            var4 = var5.forEach;
-            var3 = function(arg1) {
+            var7 = var1.promotions;
+            var3 = var1.consumedInboundPromotionId;
+            var1 = {};
+            _closure1_slot17 = var1;
+            var4 = {};
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 8;
+            var9 = var8[var5];
+            var1 = undefined;
+            var9 = var6.bind(var1)(var9);
+            var9 = var9.PromotionTypes;
+            var10 = var9.BOGO;
+            var9 = {};
+            var4[var10] = var9;
+            var9 = var8[var5];
+            var9 = var6.bind(var1)(var9);
+            var9 = var9.PromotionTypes;
+            var10 = var9.MARKETING_MOMENT;
+            var9 = {};
+            var4[var10] = var9;
+            var9 = var8[var5];
+            var9 = var6.bind(var1)(var9);
+            var9 = var9.PromotionTypes;
+            var10 = var9.THIRD_PARTY_INBOUND;
+            var9 = {};
+            var4[var10] = var9;
+            var9 = var8[var5];
+            var9 = var6.bind(var1)(var9);
+            var9 = var9.PromotionTypes;
+            var10 = var9.THIRD_PARTY_OUTBOUND;
+            var9 = {};
+            var4[var10] = var9;
+            var5 = var8[var5];
+            var5 = var6.bind(var1)(var5);
+            var5 = var5.PromotionTypes;
+            var6 = var5.GIFT_PROMOTION;
+            var5 = {};
+            var4[var6] = var5;
+            _closure1_slot16 = var4;
+            var4 = global;
+            var5 = var4.Map;
+            var6 = var5.prototype;
+            var6 = Object.create(var6, {constructor: {value: var5}});
+            var12 = var6;
+            var5 = new var12[var5](var11);
+            var5 = var5 instanceof Object ? var5 : var6;
+            _closure1_slot19 = var5;
+            var6 = var7.forEach;
+            var5 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var3 = arg1;
@@ -600,25 +644,23 @@ case 36:
                     return var1;
                 }
             };
-            var3 = var4.bind(var5)(var3);
-            var3 = global;
-            var4 = var3.Date;
-            var3 = var4.now;
-            var3 = var3.bind(var4)();
-            _closure1_slot15 = var3;
-            var3 = false;
-            _closure1_slot14 = var3;
-            var3 = _closure1_slot10;
-            var3 = var3.hasFetchedConsumedInboundPromotionId;
-            if(var3) { _fun0009_ip = 39; continue _fun0009 }
-case 40:
+            var5 = var6.bind(var7)(var5);
+            var5 = var4.Date;
+            var4 = var5.now;
+            var4 = var4.bind(var5)();
+            _closure1_slot15 = var4;
+            var4 = false;
+            _closure1_slot14 = var4;
             var4 = _closure1_slot10;
-            var3 = true;
-            var4['hasFetchedConsumedInboundPromotionId'] = var3;
-            var1 = _closure1_slot10;
-            var1['consumedInboundPromotionId'] = var2;
+            var4 = var4.hasFetchedConsumedInboundPromotionId;
+            if(var4) { _fun0009_ip = 39; continue _fun0009 }
+case 40:
+            var5 = _closure1_slot10;
+            var4 = true;
+            var5['hasFetchedConsumedInboundPromotionId'] = var4;
+            var2 = _closure1_slot10;
+            var2['consumedInboundPromotionId'] = var3;
 case 39:
-            var1 = undefined;
             return var1;
         }
     };
@@ -667,6 +709,14 @@ case 39:
         var4 = {};
         var2[var5] = var4;
         _closure1_slot16 = var2;
+        var2 = global;
+        var2 = var2.Map;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var10 = var4;
+        var2 = new var10[var2](var9);
+        var2 = var2 instanceof Object ? var2 : var4;
+        _closure1_slot19 = var2;
         var2 = false;
         _closure1_slot14 = var2;
         var2 = {};

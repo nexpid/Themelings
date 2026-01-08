@@ -378,7 +378,7 @@ case 2:
             var1 = var1[var2];
             var21 = var1.loading;
             var25 = var1.error;
-            var26 = function onCloseModal() {
+            var8 = function onCloseModal() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = arguments[0];
@@ -405,7 +405,7 @@ case 6:
                     return var1;
                 }
             };
-            _closure2_slot7 = var26;
+            _closure2_slot7 = var8;
             var1 = function() {
                 var4 = _closure1_slot3;
                 var3 = undefined;
@@ -484,7 +484,7 @@ case 8:
             var7 = _closure1_slot12;
             var6 = _closure1_slot15;
             var5 = {};
-            var5['onClose'] = var26;
+            var5['onClose'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
@@ -528,12 +528,11 @@ case 8:
 case 16:
             var20 = _closure1_slot12;
             var16 = _closure1_slot1;
-            var27 = _closure1_slot2;
+            var26 = _closure1_slot2;
             var13 = 22;
-            var13 = var27[var13];
+            var13 = var26[var13];
             var16 = var16.bind(var4)(var13);
             var13 = {};
-            var13['onConfirmPress'] = var26;
             var14 = var20.bind(var4)(var16, var13);
 case 15:
             var13 = new Array(3);

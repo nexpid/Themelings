@@ -64,14 +64,14 @@ case 2:
     var5 = var6.fileFinishedImporting;
     var4 = '../discord_common/js/packages/libdiscore/js_shim/js/initLibdiscore.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function isLibdiscoreLoaded() {
+    var4 = function isLibdiscoreInitialized() {
         var1 = _closure1_slot1;
         var2 = var1.LibDiscoreModule;
         var1 = undefined;
         var1 = var1 !== var2;
         return var1;
     };
-    var3['isLibdiscoreLoaded'] = var4;
+    var3['isLibdiscoreInitialized'] = var4;
     var2 = function initLibdiscore() {
         var1 = undefined;
         var4 = _closure1_slot2;

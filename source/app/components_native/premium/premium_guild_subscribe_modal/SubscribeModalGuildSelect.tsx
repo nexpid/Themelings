@@ -86,13 +86,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'components_native/premium/premium_guild_subscribe_modal/SubscribeModalGuildSelect.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SubscribeModalGuildSelect(arg1) {
-        var1 = arg1;
-        var1 = var1.guildBoostSlots;
+        var2 = arg1;
+        var1 = var2.guildBoostSlots;
         var _closure2_slot0 = var1;
+        var3 = var2.intent;
+        var _closure2_slot1 = var3;
+        var2 = var2.onResult;
+        var _closure2_slot2 = var2;
         var2 = _closure1_slot12;
         var4 = undefined;
         var15 = var2.bind(var4)();
-        var _closure2_slot1 = var15;
+        var _closure2_slot3 = var15;
         var10 = _closure1_slot0;
         var14 = _closure1_slot3;
         var2 = 10;
@@ -100,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10.bind(var4)(var2);
         var2 = var3.useNavigation;
         var2 = var2.bind(var3)();
-        var _closure2_slot2 = var2;
+        var _closure2_slot4 = var2;
         var5 = _closure1_slot5;
         var3 = var5.useState;
         var2 = '';
@@ -110,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3.bind(var4)(var7, var2);
         var2 = 0;
         var8 = var3[var2];
-        var _closure2_slot3 = var8;
+        var _closure2_slot5 = var8;
         var2 = 1;
         var16 = var3[var2];
         var3 = var5.useMemo;
@@ -180,7 +184,7 @@ case 6:
             }
         };
         var1 = var3.bind(var5)(var1, var2);
-        var _closure2_slot4 = var1;
+        var _closure2_slot6 = var1;
         var2 = 11;
         var2 = var14[var2];
         var7 = var10.bind(var4)(var2);
@@ -196,7 +200,7 @@ case 6:
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var1 = _closure2_slot3;
+                var1 = _closure2_slot5;
                 var3 = var1.length;
                 var1 = 0;
                 if(!(var1 !== var3)) { _fun0004_ip = 7; continue _fun0004 }
@@ -209,7 +213,7 @@ case 5:
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.queryGuilds;
                 var1 = {};
-                var5 = _closure2_slot3;
+                var5 = _closure2_slot5;
                 var1['query'] = var5;
                 var5 = var3.bind(var4)(var1);
                 var4 = var5.reduce;
@@ -226,7 +230,7 @@ case 0:
                         var1 = arg1;
                         var2 = arg2;
                         var3 = var2.record;
-                        var5 = _closure2_slot4;
+                        var5 = _closure2_slot6;
                         var4 = var5.has;
                         var2 = var3.id;
                         var2 = var4.bind(var5)(var2);
@@ -264,7 +268,7 @@ case 0:
                         var2 = var2 == var3;
                         if(var2) { _fun0006_ip = 11; continue _fun0006 }
 case 12:
-                        var6 = _closure2_slot4;
+                        var6 = _closure2_slot6;
                         var5 = var6.has;
                         var4 = var3.id;
                         var2 = var5.bind(var6)(var4);
@@ -346,20 +350,24 @@ case 10:
             var2 = {};
             var8 = 'button';
             var2['accessibilityRole'] = var8;
-            var10 = _closure2_slot1;
+            var10 = _closure2_slot3;
             var8 = var10.guildOption;
             var2['style'] = var8;
             var7 = function onPress() {
                 var6 = _closure3_slot0;
-                var4 = _closure2_slot2;
+                var4 = _closure2_slot4;
                 var3 = var4.replace;
                 var1 = _closure1_slot9;
                 var2 = var1.CONFIRMATION;
                 var1 = {};
                 var6 = var6.id;
                 var1['guildId'] = var6;
-                var5 = _closure2_slot0;
-                var1['guildBoostSlots'] = var5;
+                var6 = _closure2_slot0;
+                var1['guildBoostSlots'] = var6;
+                var6 = _closure2_slot1;
+                var1['intent'] = var6;
+                var5 = _closure2_slot2;
+                var1['onResult'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;
                 return var1;
