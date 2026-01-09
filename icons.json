@@ -13139,6 +13139,16 @@
         "width": 24,
         "height": 24
     },
+    "VrHeadsetIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/VrHeadsetIcon.png",
+        "hash": "f16c6088979504305da66d860bb158c5",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "WarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WarningIcon.png",
         "hash": "ba2e75015b1baf3aa35bb6efd5d517fa",
