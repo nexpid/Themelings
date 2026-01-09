@@ -874,8 +874,8 @@ case 101:
     var16 = var18.bind(var19)(var17, var16);
     var _closure1_slot26 = var16;
     var16 = var14[var12];
-    var29 = var15.bind(var1)(var16);
-    var28 = var29.combine;
+    var30 = var15.bind(var1)(var16);
+    var29 = var30.combine;
     var68 = var8.VIEW_CHANNEL;
     var67 = var8.SEND_MESSAGES;
     var66 = var8.CONNECT;
@@ -888,8 +888,9 @@ case 101:
     var59 = var8.USE_EXTERNAL_STICKERS;
     var58 = var8.USE_SOUNDBOARD;
     var57 = var8.USE_VAD;
-    var69 = var29;
-    var16 = var69[var28](var68, var67, var66, var65, var64, var63, var62, var61, var60, var59, var58, var57, var56);
+    var56 = var8.SEND_MESSAGES_IN_THREADS;
+    var69 = var30;
+    var16 = var69[var29](var68, var67, var66, var65, var64, var63, var62, var61, var60, var59, var58, var57, var56, var55);
     var _closure1_slot27 = var16;
     var16 = var14[var12];
     var19 = var15.bind(var1)(var16);

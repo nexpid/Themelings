@@ -1,4 +1,4 @@
-// app/modules/collectibles/experiments/CollectiblesMobileShopRefreshMarketingExperiment.tsx
+// app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,17 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2025-08-collectibles-mobile-shop-refresh-marketing', 'kind': 'user'};
+    var2 = {'name': '2026-01-chat-loading-indicator', 'kind': 'user'};
     var8 = {};
-    var11 = false;
-    var8['showMarketing'] = var11;
+    var9 = false;
+    var8['enabled'] = var9;
     var2['defaultConfig'] = var8;
     var8 = {};
     var9 = {};
-    var9['showMarketing'] = var11;
-    var8[0] = var9;
-    var9 = {};
-    var9['showMarketing'] = var10;
+    var9['enabled'] = var10;
     var8[1] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
@@ -34,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/experiments/CollectiblesMobileShopRefreshMarketingExperiment.tsx';
+    var4 = 'modules/chat/native/ChatLoadingIndicatorExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['ChatLoadingIndicatorExperiment'] = var2;
     return var1;
 })();

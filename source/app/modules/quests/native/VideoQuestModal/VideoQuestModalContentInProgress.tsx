@@ -488,7 +488,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useDerivedValue;
-            var6 = function F() {
+            var6 = function q() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -536,7 +536,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function G() {
+            var6 = function F() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -555,7 +555,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function q() {
+            var6 = function G() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -1807,18 +1807,18 @@ case 0:
             };
             var7 = var7.bind(var18)(var3, var5);
             var3 = var18.useState;
-            var25 = false;
-            var3 = var3.bind(var18)(var25);
-            var24 = _closure1_slot3;
-            var19 = 2;
-            var3 = var24.bind(var4)(var3, var19);
-            var17 = 0;
-            var21 = var3[var17];
-            var10 = 1;
-            var3 = var3[var10];
+            var24 = false;
+            var3 = var3.bind(var18)(var24);
+            var19 = _closure1_slot3;
+            var17 = 2;
+            var3 = var19.bind(var4)(var3, var17);
+            var10 = 0;
+            var21 = var3[var10];
+            var5 = 1;
+            var3 = var3[var5];
             var _closure2_slot2 = var3;
-            var15 = var18.useCallback;
-            var5 = function() {
+            var16 = var18.useCallback;
+            var15 = function() {
                 var3 = _closure2_slot2;
                 var2 = undefined;
                 var1 = function(arg1) {
@@ -1830,10 +1830,10 @@ case 0:
                 return var1;
             };
             var3 = new Array(0);
-            var15 = var15.bind(var18)(var5, var3);
-            var16 = var18.useCallback;
-            var5 = new Array(1);
-            var5[0] = var22;
+            var15 = var16.bind(var18)(var15, var3);
+            var25 = var18.useCallback;
+            var16 = new Array(1);
+            var16[0] = var22;
             var3 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -1862,34 +1862,34 @@ case 0:
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var16 = var16.bind(var18)(var3, var5);
+            var16 = var25.bind(var18)(var3, var16);
             var3 = 48;
             var3 = var23[var3];
-            var5 = var6.bind(var4)(var3);
-            var3 = var5.useQuestImpressionId;
-            var3 = var3.bind(var5)();
-            var _closure2_slot3 = var3;
-            var5 = var18.useState;
-            var5 = var5.bind(var18)(var25);
-            var5 = var24.bind(var4)(var5, var19);
-            var24 = var5[var17];
-            var5 = var5[var10];
-            var _closure2_slot4 = var5;
-            var5 = 49;
-            var5 = var23[var5];
-            var17 = var6.bind(var4)(var5);
-            var10 = var17.isShareableQuest;
-            var5 = var22.config;
-            var5 = var10.bind(var17)(var5);
+            var25 = var6.bind(var4)(var3);
+            var3 = var25.useQuestImpressionId;
+            var25 = var3.bind(var25)();
+            var _closure2_slot3 = var25;
+            var3 = var18.useState;
+            var3 = var3.bind(var18)(var24);
+            var3 = var19.bind(var4)(var3, var17);
+            var24 = var3[var10];
+            var3 = var3[var5];
+            var _closure2_slot4 = var3;
+            var3 = 49;
+            var3 = var23[var3];
+            var10 = var6.bind(var4)(var3);
+            var5 = var10.isShareableQuest;
+            var3 = var22.config;
+            var5 = var5.bind(var10)(var3);
             var _closure2_slot5 = var5;
-            var19 = var18.useCallback;
-            var17 = new Array(4);
-            var17[0] = var5;
-            var10 = var22.id;
-            var17[1] = var10;
-            var17[2] = var3;
-            var17[3] = var9;
-            var10 = function() {
+            var17 = var18.useCallback;
+            var10 = new Array(4);
+            var10[0] = var5;
+            var3 = var22.id;
+            var10[1] = var3;
+            var10[2] = var25;
+            var10[3] = var9;
+            var3 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot5;
@@ -1966,42 +1966,17 @@ case 50:
                     return var1;
                 }
             };
-            var17 = var19.bind(var18)(var10, var17);
-            var19 = var18.useCallback;
-            var10 = new Array(3);
-            var10[0] = var22;
-            var10[1] = var3;
-            var10[2] = var9;
-            var3 = function() {
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var1 = 53;
-                var2 = var9[var1];
-                var1 = undefined;
-                var5 = var8.bind(var1)(var2);
-                var4 = var5.openGameLinkDirectly;
-                var3 = _closure2_slot1;
-                var2 = {};
-                var7 = 51;
-                var7 = var9[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.QuestContent;
-                var7 = var7.VIDEO_MODAL_MOBILE;
-                var2['content'] = var7;
-                var7 = 50;
-                var7 = var9[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.QuestContentCTA;
-                var7 = var7.OPEN_GAME_LINK;
-                var2['ctaContent'] = var7;
-                var7 = _closure2_slot3;
-                var2['impressionId'] = var7;
-                var6 = _closure2_slot0;
-                var2['sourceQuestContent'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var19 = var19.bind(var18)(var3, var10);
+            var17 = var17.bind(var18)(var3, var10);
+            var3 = 53;
+            var3 = var23[var3];
+            var19 = var6.bind(var4)(var3);
+            var10 = var19.useVideoQuestClickCtaAndMaybeCloseModal;
+            var3 = {};
+            var3['quest'] = var22;
+            var3['onClose'] = var20;
+            var3['sourceQuestContent'] = var9;
+            var3['impressionId'] = var25;
+            var19 = var10.bind(var19)(var3);
             var10 = var18.useCallback;
             var25 = var22.id;
             var3 = new Array(1);

@@ -133,7 +133,7 @@ case 4:
     var13 = var19.bind(var1)(var13);
     var13 = var13.DismissibleContent;
     var13 = var13.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var16 = new Array(14);
+    var16 = new Array(15);
     var16[0] = var13;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
@@ -200,6 +200,11 @@ case 4:
     var13 = var13.DismissibleContent;
     var13 = var13.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
     var16[13] = var13;
+    var13 = var20[var2];
+    var13 = var19.bind(var1)(var13);
+    var13 = var13.DismissibleContent;
+    var13 = var13.GUILD_TAG_UPDATED_COACHMARK;
+    var16[14] = var13;
     var _closure1_slot1 = var16;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
@@ -242,7 +247,7 @@ case 4:
     var13 = var19.bind(var1)(var13);
     var13 = var13.DismissibleContent;
     var13 = var13.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
-    var14 = new Array(5);
+    var14 = new Array(6);
     var14[0] = var13;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
@@ -264,6 +269,11 @@ case 4:
     var13 = var13.DismissibleContent;
     var13 = var13.GAME_SERVER_HOSTING_NEW_COACHMARK;
     var14[4] = var13;
+    var13 = var20[var2];
+    var13 = var19.bind(var1)(var13);
+    var13 = var13.DismissibleContent;
+    var13 = var13.GUILD_TAG_AVAILABLE_COACHMARK_V2;
+    var14[5] = var13;
     var _closure1_slot3 = var14;
     var13 = new Array(0);
     var _closure1_slot4 = var13;

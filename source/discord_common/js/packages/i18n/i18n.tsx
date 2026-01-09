@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var8 = global;
-        var6 = require;
-        var10 = metroImportDefault;
+        var7 = global;
+        var5 = require;
+        var9 = metroImportDefault;
         var3 = exports;
-        var7 = dependencyMap;
-        var _closure1_slot0 = var6;
-        var _closure1_slot1 = var7;
+        var6 = dependencyMap;
+        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var6;
         var1 = function _callSuper(arg1, arg2, arg3) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -83,180 +83,136 @@ case 9:
             }
         };
         var _closure1_slot11 = var1;
-        var4 = function getSystemLocale() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var2 = 35;
-                var3 = var3[var2];
-                var2 = undefined;
-                var3 = var4.bind(var2)(var3);
-                var4 = var3.Platform;
-                var5 = var4.OS;
-                var4 = 'android';
-                if(!(var4 !== var5)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-                var3 = var3.NativeModules;
-                var4 = var3.LocalizationManager;
-                _fun0004_ip = 13; continue _fun0004;
-case 11:
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var1 = 36;
-                var1 = var5[var1];
-                var1 = var3.bind(var2)(var1);
-                var4 = var1.default;
-case 13:
-                var1 = null;
-                var3 = var1 != var4;
-                var2 = undefined;
-                if(!var3) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
-                var3 = var4.getConstants;
-                var3 = var3.bind(var4)();
-                var2 = var3.Language;
-case 14:
-                var3 = var1 != var2;
-                var1 = '';
-                if(!var3) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                var1 = var2;
-case 16:
-                return var1;
-            }
-        };
-        var _closure1_slot12 = var4;
-        var5 = global;
-        var12 = var5.Object;
-        var11 = var12.defineProperty;
-        var9 = {};
+        var4 = global;
+        var11 = var4.Object;
+        var10 = var11.defineProperty;
+        var8 = {};
         var1 = true;
-        var9['value'] = var1;
+        var8['value'] = var1;
         var1 = '__esModule';
-        var1 = var11.bind(var12)(var3, var1, var9);
+        var1 = var10.bind(var11)(var3, var1, var8);
         var1 = 0;
-        var9 = var7[var1];
+        var8 = var6[var1];
         var1 = undefined;
-        var9 = var10.bind(var1)(var9);
-        var _closure1_slot2 = var9;
-        var9 = 1;
-        var9 = var7[var9];
-        var9 = var10.bind(var1)(var9);
-        var _closure1_slot3 = var9;
-        var9 = 2;
-        var9 = var7[var9];
-        var9 = var10.bind(var1)(var9);
-        var _closure1_slot4 = var9;
-        var9 = 3;
-        var9 = var7[var9];
-        var9 = var10.bind(var1)(var9);
-        var _closure1_slot5 = var9;
-        var9 = 4;
-        var9 = var7[var9];
-        var9 = var10.bind(var1)(var9);
-        var _closure1_slot6 = var9;
-        var9 = 5;
-        var9 = var7[var9];
-        var9 = var10.bind(var1)(var9);
-        var8['IntlMessageFormat'] = var9;
-        var9 = 6;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 7;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 8;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 9;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 10;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 11;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 12;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 13;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 14;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 15;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 16;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 17;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 18;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 19;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 20;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 21;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 22;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 23;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 24;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 25;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 26;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 27;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 28;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 29;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 30;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 31;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 32;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var9 = 33;
-        var9 = var7[var9];
-        var9 = var6.bind(var1)(var9);
-        var8 = delete var8.IntlMessageFormat;
-        var5 = var5.Intl;
-        var8 = 'undefined';
-        var5 = typeof var5;
-        if(!(var8 === var5)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-        var5 = 34;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-case 18:
-        var5 = 'en-US';
-        var _closure1_slot7 = var5;
-        var5 = function() {
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot2 = var8;
+        var8 = 1;
+        var8 = var6[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot3 = var8;
+        var8 = 2;
+        var8 = var6[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot4 = var8;
+        var8 = 3;
+        var8 = var6[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot5 = var8;
+        var8 = 4;
+        var8 = var6[var8];
+        var8 = var9.bind(var1)(var8);
+        var _closure1_slot6 = var8;
+        var8 = 5;
+        var8 = var6[var8];
+        var8 = var9.bind(var1)(var8);
+        var7['IntlMessageFormat'] = var8;
+        var8 = 6;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 7;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 8;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 9;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 10;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 11;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 12;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 13;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 14;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 15;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 16;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 17;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 18;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 19;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 20;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 21;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 22;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 23;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 24;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 25;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 26;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 27;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 28;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 29;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 30;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 31;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 32;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var8 = 33;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var7 = delete var7.IntlMessageFormat;
+        var4 = var4.Intl;
+        var7 = 'undefined';
+        var4 = typeof var4;
+        if(!(var7 === var4)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+        var4 = 34;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+case 11:
+        var4 = 'en-US';
+        var _closure1_slot7 = var4;
+        var4 = function() {
             var4 = _closure1_slot6;
             var3 = function Provider(arg1) {
                 var3 = this;
@@ -294,8 +250,8 @@ case 18:
             var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var8 = var5.bind(var1)();
-        var5 = function(arg1) {
+        var7 = var4.bind(var1)();
+        var4 = function(arg1) {
             var4 = function LazyPropertyProvider(arg1) {
                 var6 = this;
                 var11 = 0;
@@ -313,16 +269,16 @@ case 18:
                 var1 = var3.bind(var4)(var6, var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = function(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var3 = arg1;
                         var1 = arguments[1];
                         var _closure4_slot0 = var3;
                         var4 = undefined;
-                        if(!(var1 === var4)) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+                        if(!(var1 === var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var1 = {};
-case 20:
+case 13:
                         var _closure4_slot1 = var1;
                         var4 = global;
                         var5 = var4.Object;
@@ -389,9 +345,9 @@ case 20:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
-        var5 = var5.bind(var1)(var8);
-        var _closure1_slot8 = var5;
-        var5 = function(arg1) {
+        var4 = var4.bind(var1)(var7);
+        var _closure1_slot8 = var4;
+        var4 = function(arg1) {
             var4 = function ProxyProvider(arg1) {
                 var6 = this;
                 var3 = _closure1_slot5;
@@ -405,27 +361,27 @@ case 20:
                 var1 = var3.bind(var4)(var6, var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = function() {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var2 = arguments[0];
                         var3 = undefined;
-                        if(!(var2 === var3)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                        if(!(var2 === var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                         var3 = _closure3_slot0;
                         var2 = var3._context;
-case 22:
+case 15:
                         var _closure4_slot0 = var2;
                         var2 = global;
                         var4 = var2.Proxy;
                         var3 = {};
                         var1 = function get(arg1, arg2) {
-                            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                                 var4 = arg1;
                                 var3 = arg2;
                                 var1 = var4[var3];
-                                if(var1) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
+                                if(var1) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                                 var7 = _closure3_slot0;
                                 var6 = var7._getParsedMessages;
                                 var5 = _closure4_slot0;
@@ -433,7 +389,7 @@ case 25:
                                 var2 = var6.bind(var7)(var5, var3, var2);
                                 var4[var3] = var2;
                                 var1 = var2;
-case 24:
+case 17:
                                 return var1;
                             }
                         };
@@ -496,15 +452,15 @@ case 24:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
-        var5 = var5.bind(var1)(var8);
-        var _closure1_slot9 = var5;
-        var5 = 39;
-        var5 = var7[var5];
-        var5 = var6.bind(var1)(var5);
-        var5 = var5.EventEmitter;
+        var4 = var4.bind(var1)(var7);
+        var _closure1_slot9 = var4;
+        var4 = 38;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.EventEmitter;
         var2 = function(arg1) {
             var4 = function I18N(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = arg1;
                     var10 = this;
@@ -535,7 +491,7 @@ case 0:
                     var10 = '';
                     var9['_chosenLocale'] = var10;
                     var10 = function(arg1, arg2, arg3) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                             var3 = arg1;
                             var7 = arg2;
@@ -546,29 +502,29 @@ case 0:
                             var3 = undefined;
                             var6 = undefined;
                             var2 = var2[var7];
-                            if(var2) { _fun0009_ip = 26; continue _fun0009 }
+                            if(var2) { _fun0008_ip = 19; continue _fun0008 }
 case 3:
                             var8 = var5;
                             var7 = var4;
                             var2 = var8[var7];
-case 26:
+case 19:
                             var6 = var2;
                             var7 = 'object';
                             var2 = typeof var2;
-                            if(!(var7 !== var2)) { _fun0009_ip = 27; continue _fun0009 }
-case 28: // try_start_0
+                            if(!(var7 !== var2)) { _fun0008_ip = 20; continue _fun0008 }
+case 21: // try_start_0
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot1;
-                            var2 = 37;
+                            var2 = 35;
                             var2 = var8[var2];
                             var9 = var7.bind(var3)(var2);
                             var8 = var9.getMessage;
                             var7 = var6;
                             var2 = var1;
                             var2 = var8.bind(var9)(var7, var2);
-case 29: // try_end0
+case 22: // try_end0
                             return var2;
-case 30: // catch_target0
+case 23: // catch_target0
                             CatchBlockStart(arg_register=1);
                             var7 = var5;
                             var2 = var4;
@@ -576,14 +532,14 @@ case 30: // catch_target0
                             var6 = var2;
                             var7 = 'string';
                             var2 = typeof var2;
-                            if(!(var7 !== var2)) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+                            if(!(var7 !== var2)) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                             var2 = '';
                             return var2;
-case 31:
+case 24:
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot1;
-                            var2 = 37;
+                            var2 = 35;
                             var2 = var8[var2];
                             var9 = var7.bind(var3)(var2);
                             var8 = var9.getMessage;
@@ -591,7 +547,7 @@ case 31:
                             var2 = var1;
                             var2 = var8.bind(var9)(var7, var2);
                             return var2;
-case 27:
+case 20:
                             var2 = {};
                             var2['messages'] = var6;
                             var4 = var5[var4];
@@ -604,17 +560,17 @@ case 27:
                     };
                     var9['_getParsedMessages'] = var10;
                     var10 = function(arg1) {
-                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                             var4 = arg1;
                             var1 = 'locale';
-                            if(!(var1 === var4)) { _fun0010_ip = 33; continue _fun0010 }
-case 23:
+                            if(!(var1 === var4)) { _fun0009_ip = 26; continue _fun0009 }
+case 16:
                             var3 = _closure3_slot0;
                             var2 = var3.emit;
                             var1 = var3._chosenLocale;
                             var1 = var2.bind(var3)(var4, var1);
-case 33:
+case 26:
                             var1 = undefined;
                             return var1;
                         }
@@ -636,25 +592,25 @@ case 33:
                     var9['initialLanguageLoad'] = var6;
                     var6 = var3.Intl;
                     var6 = var6.__addLocaleData;
-                    if(!var6) { _fun0008_ip = 34; continue _fun0008 }
-case 35:
+                    if(!var6) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                     var10 = var3.Intl;
                     var9 = var10.__addLocaleData;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot1;
-                    var6 = 38;
+                    var6 = 36;
                     var6 = var12[var6];
                     var6 = var11.bind(var5)(var6);
                     var6 = var9.bind(var10)(var6);
-case 34:
+case 27:
                     var6 = var1;
                     var5 = var8.bind(var5)();
                     var6['_languages'] = var5;
                     var5 = var3.window;
                     var8 = var5.Proxy;
                     var5 = null;
-                    if(!(var5 == var8)) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+                    if(!(var5 == var8)) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                     var9 = _closure1_slot8;
                     var5 = var1;
                     var14 = var5._getParsedMessages;
@@ -663,8 +619,8 @@ case 37:
                     var15 = var8;
                     var5 = new var15[var9](var14, var13);
                     var5 = var5 instanceof Object ? var5 : var8;
-                    _fun0008_ip = 38; continue _fun0008;
-case 36:
+                    _fun0007_ip = 31; continue _fun0007;
+case 29:
                     var9 = _closure1_slot9;
                     var7 = var1;
                     var14 = var7._getParsedMessages;
@@ -673,7 +629,7 @@ case 36:
                     var15 = var8;
                     var7 = new var15[var9](var14, var13);
                     var5 = var7 instanceof Object ? var7 : var8;
-case 38:
+case 31:
                     var6['_provider'] = var5;
                     var5 = var1;
                     var7 = var5._provider;
@@ -681,7 +637,7 @@ case 38:
                     var6 = var6.bind(var7)();
                     var5['Messages'] = var6;
                     var5['_getMessages'] = var4;
-case 39: // try_start_0
+case 32: // try_start_0
                     var3 = var3.Intl;
                     var4 = var3.NumberFormat;
                     var5 = var2;
@@ -693,23 +649,23 @@ case 39: // try_start_0
                     var4 = var1;
                     var3 = var4.setLocale;
                     var2 = var5;
-                    if(var5) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
+                    if(var5) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
                     var6 = var1;
                     var5 = var6.getDefaultLocale;
                     var2 = var5.bind(var6)();
-case 40:
+case 33:
                     var2 = var3.bind(var4)(var2);
-case 42: // try_end0
-                    _fun0008_ip = 43; continue _fun0008;
-case 44: // catch_target0
+case 35: // try_end0
+                    _fun0007_ip = 36; continue _fun0007;
+case 37: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = var1;
                     var3 = var4.setLocale;
                     var2 = var4.getDefaultLocale;
                     var2 = var2.bind(var4)();
                     var2 = var3.bind(var4)(var2);
-case 43:
+case 36:
                     var4 = var1.on;
                     var3 = var1._handleNewListener;
                     var2 = 'newListener';
@@ -727,7 +683,7 @@ case 43:
             var1 = 'updateMessagesForExperiment';
             var5['key'] = var1;
             var1 = function value(arg1, arg2) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var6 = arg1;
                     var7 = arg2;
@@ -740,14 +696,14 @@ case 0:
                     var2 = global;
                     var2 = var2.Promise;
                     var2 = var3 instanceof var2;
-                    if(var2) { _fun0011_ip = 8; continue _fun0011 }
-case 45:
+                    if(var2) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                     var4 = var5._applyMessagesForLocale;
                     var2 = undefined;
                     var2 = var7.bind(var2)(var3);
                     var2 = var4.bind(var5)(var2, var6);
-                    _fun0011_ip = 46; continue _fun0011;
-case 8:
+                    _fun0010_ip = 40; continue _fun0010;
+case 38:
                     var2 = var3.then;
                     var1 = function(arg1) {
                         var5 = _closure3_slot0;
@@ -761,7 +717,7 @@ case 8:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-case 46:
+case 40:
                     var1 = undefined;
                     return var1;
                 }
@@ -773,13 +729,13 @@ case 46:
             var7 = 'setLocale';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var2 = arg1;
                     var5 = this;
                     var1 = var5._chosenLocale;
-                    if(!(var1 !== var2)) { _fun0012_ip = 9; continue _fun0012 }
-case 47:
+                    if(!(var1 !== var2)) { _fun0011_ip = 9; continue _fun0011 }
+case 41:
                     var5['_requestedLocale'] = var2;
                     var4 = var5._chosenLocale;
                     var5['_chosenLocale'] = var2;
@@ -803,7 +759,7 @@ case 9:
             var7 = function value(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 37;
+                var1 = 35;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -840,7 +796,7 @@ case 9:
                 var4 = var3.bind(var4)(var2);
                 var3 = var4.map;
                 var2 = function(arg1) {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                         var1 = arg1;
                         var4 = var1.code;
@@ -852,10 +808,10 @@ case 0:
                         var3 = var3.Messages;
                         var3 = var3[var4];
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0013_ip = 45; continue _fun0013 }
-case 48:
+                        if(!(var4 != var3)) { _fun0012_ip = 39; continue _fun0012 }
+case 42:
                         var2 = var3;
-case 45:
+case 39:
                         var1['localizedName'] = var2;
                         return var1;
                     }
@@ -863,7 +819,7 @@ case 45:
                 var3 = var3.bind(var4)(var2);
                 var2 = var3.sort;
                 var1 = function(arg1, arg2) {
-                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var1 = arg1;
                         var3 = var1.name;
@@ -875,16 +831,16 @@ case 0:
                         var2 = var1.bind(var2)();
                         var4 = var3 < var2;
                         var1 = -1;
-                        if(var4) { _fun0014_ip = 49; continue _fun0014 }
-case 45:
+                        if(var4) { _fun0013_ip = 43; continue _fun0013 }
+case 39:
                         var3 = var3 > var2;
                         var2 = 0;
-                        if(!var3) { _fun0014_ip = 50; continue _fun0014 }
-case 51:
+                        if(!var3) { _fun0013_ip = 44; continue _fun0013 }
+case 45:
                         var2 = 1;
-case 50:
+case 44:
                         var1 = var2;
-case 49:
+case 43:
                         return var1;
                     }
                 };
@@ -928,16 +884,21 @@ case 49:
             var7 = 'getDefaultLocale';
             var5['key'] = var7;
             var7 = function value() {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                    var2 = _closure1_slot12;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 37;
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var1 = var2.bind(var1)();
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.getSystemLocale;
+                    var1 = var1.bind(var2)();
                     var6 = null;
-                    if(!(var6 == var1)) { _fun0015_ip = 52; continue _fun0015 }
-case 53:
+                    if(!(var6 == var1)) { _fun0014_ip = 46; continue _fun0014 }
+case 47:
                     var1 = _closure1_slot7;
-case 52:
+case 46:
                     var2 = this;
                     var7 = var2._languages;
                     var3 = var7.filter;
@@ -956,8 +917,8 @@ case 52:
                     var8 = var3.bind(var7)(var2);
                     var2 = var8.includes;
                     var2 = var2.bind(var8)(var1);
-                    if(var2) { _fun0015_ip = 54; continue _fun0015 }
-case 55:
+                    if(var2) { _fun0014_ip = 27; continue _fun0014 }
+case 48:
                     var3 = var1.split;
                     var2 = '-';
                     var7 = var3.bind(var1)(var2);
@@ -967,19 +928,19 @@ case 55:
                     var2 = var7[var3];
                     var2 = var9.bind(var8)(var2);
                     var3 = var7[var3];
-                    if(var2) { _fun0015_ip = 56; continue _fun0015 }
-case 57:
+                    if(var2) { _fun0014_ip = 49; continue _fun0014 }
+case 50:
                     var2 = 'zh';
-                    if(!(var2 === var3)) { _fun0015_ip = 58; continue _fun0015 }
-case 59:
+                    if(!(var2 === var3)) { _fun0014_ip = 51; continue _fun0014 }
+case 52:
                     var9 = var7.length;
                     var2 = 1;
-                    if(!(var9 > var2)) { _fun0015_ip = 58; continue _fun0015 }
-case 60:
+                    if(!(var9 > var2)) { _fun0014_ip = 51; continue _fun0014 }
+case 53:
                     var7 = var7[var2];
                     var2 = 'Hant';
-                    if(!(var2 !== var7)) { _fun0015_ip = 27; continue _fun0015 }
-case 58:
+                    if(!(var2 !== var7)) { _fun0014_ip = 54; continue _fun0014 }
+case 51:
                     var7 = var8.find;
                     var2 = function(arg1) {
                         var3 = arg1;
@@ -994,12 +955,12 @@ case 58:
                         return var1;
                     };
                     var2 = var7.bind(var8)(var2);
-                    if(!(var6 == var2)) { _fun0015_ip = 61; continue _fun0015 }
-case 62:
+                    if(!(var6 == var2)) { _fun0014_ip = 28; continue _fun0014 }
+case 55:
                     var2 = _closure1_slot7;
-case 61:
-                    _fun0015_ip = 63; continue _fun0015;
-case 27:
+case 28:
+                    _fun0014_ip = 56; continue _fun0014;
+case 54:
                     var7 = var8.find;
                     var4 = function(arg1) {
                         var2 = 'zh-TW';
@@ -1008,18 +969,18 @@ case 27:
                         return var1;
                     };
                     var4 = var7.bind(var8)(var4);
-                    if(!(var6 == var4)) { _fun0015_ip = 64; continue _fun0015 }
-case 65:
+                    if(!(var6 == var4)) { _fun0014_ip = 57; continue _fun0014 }
+case 58:
                     var4 = _closure1_slot7;
-case 64:
+case 57:
                     var2 = var4;
-case 63:
-                    _fun0015_ip = 66; continue _fun0015;
 case 56:
+                    _fun0014_ip = 59; continue _fun0014;
+case 49:
                     var2 = var3;
-case 66:
+case 59:
                     return var2;
-case 54:
+case 27:
                     return var1;
                 }
             };
@@ -1029,7 +990,7 @@ case 54:
             var7 = '_loadMessagesForLocale';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var6 = arg1;
                     var5 = this;
@@ -1040,15 +1001,15 @@ case 0:
                     var1 = global;
                     var3 = var1.Promise;
                     var3 = var4 instanceof var3;
-                    if(var3) { _fun0016_ip = 10; continue _fun0016 }
-case 67:
+                    if(var3) { _fun0015_ip = 8; continue _fun0015 }
+case 60:
                     var3 = var5._applyMessagesForLocale;
                     var3 = var3.bind(var5)(var4, var6);
                     var3 = var1.Promise;
                     var1 = var3.resolve;
                     var1 = var1.bind(var3)();
-                    _fun0016_ip = 68; continue _fun0016;
-case 10:
+                    _fun0015_ip = 61; continue _fun0015;
+case 8:
                     var3 = var4.then;
                     var2 = function(arg1) {
                         var4 = _closure3_slot0;
@@ -1059,7 +1020,7 @@ case 10:
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
-case 68:
+case 61:
                     return var1;
                 }
             };
@@ -1069,21 +1030,21 @@ case 68:
             var7 = '_applyMessagesForLocale';
             var5['key'] = var7;
             var7 = function value(arg1, arg2) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                     var6 = arg2;
                     var7 = arguments[2];
                     var3 = this;
                     var1 = undefined;
-                    if(!(var7 === var1)) { _fun0017_ip = 69; continue _fun0017 }
-case 70:
+                    if(!(var7 === var1)) { _fun0016_ip = 62; continue _fun0016 }
+case 63:
                     var4 = var3._findMessages;
                     var2 = _closure1_slot7;
                     var7 = var4.bind(var3)(var2);
-case 69:
+case 62:
                     var2 = var3._requestedLocale;
-                    if(!(var2 === var6)) { _fun0017_ip = 71; continue _fun0017 }
-case 72:
+                    if(!(var2 === var6)) { _fun0016_ip = 4; continue _fun0016 }
+case 64:
                     var5 = var3._provider;
                     var4 = var5.refresh;
                     var2 = {};
@@ -1094,7 +1055,7 @@ case 72:
                     var2 = var4.bind(var5)(var2);
                     var2 = var3.resolveLanguageLoaded;
                     var2 = var2.bind(var3)();
-case 71:
+case 4:
                     return var1;
                 }
             };
@@ -1104,7 +1065,7 @@ case 71:
             var7 = '_findMessages';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                     var3 = this;
                     var2 = var3._fetchMessages;
@@ -1113,10 +1074,10 @@ case 0:
                     var1 = global;
                     var3 = var1.Promise;
                     var3 = var2 instanceof var3;
-                    if(var3) { _fun0018_ip = 73; continue _fun0018 }
-case 74:
+                    if(var3) { _fun0017_ip = 65; continue _fun0017 }
+case 66:
                     return var2;
-case 73:
+case 65:
                     var3 = var1.Error;
                     var1 = var3.prototype;
                     var2 = Object.create(var1, {constructor: {value: var3}});
@@ -1133,7 +1094,7 @@ case 73:
             var7 = '_fetchMessages';
             var5['key'] = var7;
             var6 = function value(arg1) {
-                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var8 = arg1;
                     var6 = this;
@@ -1144,18 +1105,18 @@ case 0:
                     var1 = undefined;
                     var4 = undefined;
                     var5 = _closure1_slot7;
-                    if(!(var8 !== var5)) { _fun0019_ip = 72; continue _fun0019 }
-case 33:
+                    if(!(var8 !== var5)) { _fun0018_ip = 64; continue _fun0018 }
+case 26:
                     var5 = function() {
-                        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+                        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                             var3 = _closure3_slot1;
                             var1 = var3.indexOf;
                             var6 = '-';
                             var3 = var1.bind(var3)(var6);
                             var1 = -1;
-                            if(!(var1 !== var3)) { _fun0020_ip = 75; continue _fun0020 }
-case 74:
+                            if(!(var1 !== var3)) { _fun0019_ip = 67; continue _fun0019 }
+case 66:
                             var4 = _closure3_slot0;
                             var3 = var4._fetchMessages;
                             var5 = _closure3_slot1;
@@ -1164,18 +1125,18 @@ case 74:
                             var1 = 0;
                             var1 = var5[var1];
                             var1 = var3.bind(var4)(var1);
-                            _fun0020_ip = 76; continue _fun0020;
-case 75:
+                            _fun0019_ip = 68; continue _fun0019;
+case 67:
                             var4 = _closure3_slot0;
                             var3 = var4._fetchMessages;
                             var2 = _closure1_slot7;
                             var1 = var3.bind(var4)(var2);
-case 76:
+case 68:
                             return var1;
                         }
                     };
-                    _fun0019_ip = 26; continue _fun0019;
-case 72:
+                    _fun0018_ip = 69; continue _fun0018;
+case 64:
                     var5 = function() {
                         var1 = global;
                         var3 = var1.Error;
@@ -1191,9 +1152,9 @@ case 72:
                         var1 = var1 instanceof Object ? var1 : var2;
                         throw var1;
                     };
-case 26:
+case 69:
                     var1 = var5;
-case 2: // try_start_0
+case 70: // try_start_0
                     var5 = var6._getMessages;
                     var5 = var5.bind(var6)(var3);
                     var4 = var5;
@@ -1201,17 +1162,17 @@ case 2: // try_start_0
                     var3 = var3.Promise;
                     var3 = var5 instanceof var3;
                     var6 = var4;
-                    if(var3) { _fun0019_ip = 77; continue _fun0019 }
-case 78:
+                    if(var3) { _fun0018_ip = 4; continue _fun0018 }
+case 40:
                     var3 = var6;
-                    _fun0019_ip = 79; continue _fun0019;
-case 77:
+                    _fun0018_ip = 48; continue _fun0018;
+case 4:
                     var5 = var6.catch;
                     var4 = var1;
                     var3 = var5.bind(var6)(var4);
-case 79: // try_end0
+case 48: // try_end0
                     return var3;
-case 80: // catch_target0
+case 71: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var1 = var1.bind(var2)();
                     return var1;
@@ -1222,13 +1183,17 @@ case 80: // catch_target0
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
-        var2 = var2.bind(var1)(var5);
-        var5 = 40;
-        var5 = var7[var5];
-        var7 = var6.bind(var1)(var5);
-        var6 = var7.fileFinishedImporting;
-        var5 = '../discord_common/js/packages/i18n/i18n.tsx';
-        var5 = var6.bind(var7)(var5);
+        var2 = var2.bind(var1)(var4);
+        var4 = 39;
+        var4 = var6[var4];
+        var8 = var5.bind(var1)(var4);
+        var7 = var8.fileFinishedImporting;
+        var4 = '../discord_common/js/packages/i18n/i18n.tsx';
+        var4 = var7.bind(var8)(var4);
+        var4 = 37;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.getSystemLocale;
         var3['getSystemLocale'] = var4;
         var3['I18N'] = var2;
         return var1;

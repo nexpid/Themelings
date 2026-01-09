@@ -276,7 +276,7 @@ case 35:
     var7 = 'DESTRUCTIVE';
     var4[var8] = var7;
     var _closure1_slot25 = var4;
-    var4 = 72;
+    var4 = 73;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -828,6 +828,12 @@ case 0:
                     var5['showGradient'] = var7;
                     var7 = 34;
                     var7 = var11[var7];
+                    var13 = var9.bind(var3)(var7);
+                    var7 = var13.isMetaQuest;
+                    var7 = var7.bind(var13)();
+                    var5['startExpanded'] = var7;
+                    var7 = 35;
+                    var7 = var11[var7];
                     var14 = var9.bind(var3)(var7);
                     var13 = var14.shouldShowEmojiRow;
                     var11 = _closure2_slot8;
@@ -839,7 +845,7 @@ case 90:
                     var11 = _closure1_slot24;
                     var9 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var8 = 35;
+                    var8 = 36;
                     var8 = var13[var8];
                     var9 = var9.bind(var3)(var8);
                     var8 = {};
@@ -924,7 +930,7 @@ case 96:
             var14 = {};
             var64 = _closure1_slot0;
             var65 = _closure1_slot2;
-            var78 = 36;
+            var78 = 37;
             var15 = var65[var78];
             var15 = var64.bind(var3)(var15);
             var23 = var15.intl;
@@ -935,7 +941,7 @@ case 96:
             var15 = var15.fsBWmS;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var15 = 41;
+            var15 = 42;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.PencilIcon;
@@ -956,7 +962,7 @@ case 96:
             var15 = var15.5IEsGx;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var15 = 42;
+            var15 = 43;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.ArrowAngleLeftUpIcon;
@@ -977,7 +983,7 @@ case 96:
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
             var20 = _closure1_slot1;
-            var15 = 43;
+            var15 = 44;
             var15 = var65[var15];
             var15 = var20.bind(var3)(var15);
             var14['IconComponent'] = var15;
@@ -997,7 +1003,7 @@ case 96:
             var15 = var15.rBIGBL;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var20 = 44;
+            var20 = 45;
             var15 = var65[var20];
             var15 = var64.bind(var3)(var15);
             var15 = var15.ThreadIcon;
@@ -1037,7 +1043,7 @@ case 96:
             var15 = var15.JrGD7E;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var15 = 38;
+            var15 = 39;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.CopyIcon;
@@ -1058,7 +1064,7 @@ case 96:
             var15 = var15.RpE9k7;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var15 = 45;
+            var15 = 46;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.ChatMarkUnreadIcon;
@@ -1079,7 +1085,7 @@ case 96:
             var15 = var15.grdwwt;
             var15 = var20.bind(var23)(var15);
             var14['label'] = var15;
-            var15 = 46;
+            var15 = 47;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.ClockXIcon;
@@ -1100,7 +1106,7 @@ case 96:
             var15 = var15.gHp0C4;
             var15 = var23.bind(var24)(var15);
             var14['label'] = var15;
-            var15 = 47;
+            var15 = 48;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.ReactionIcon;
@@ -1121,7 +1127,7 @@ case 96:
             var15 = var15.MFGE51;
             var15 = var24.bind(var30)(var15);
             var14['label'] = var15;
-            var15 = 48;
+            var15 = 49;
             var15 = var65[var15];
             var15 = var64.bind(var3)(var15);
             var15 = var15.AnnouncementsIcon;
@@ -1142,8 +1148,8 @@ case 96:
             var15 = var15.CvQ18w;
             var15 = var24.bind(var30)(var15);
             var14['label'] = var15;
-            var24 = 49;
-            var15 = var65[var24];
+            var68 = 50;
+            var15 = var65[var68];
             var15 = var64.bind(var3)(var15);
             var15 = var15.PinIcon;
             var14['IconComponent'] = var15;
@@ -1153,17 +1159,17 @@ case 96:
             var14['sortKey'] = var15;
             var36 = var6.bind(var3)(var14);
             var14 = {};
-            var30 = var65[var78];
-            var30 = var64.bind(var3)(var30);
-            var41 = var30.intl;
-            var39 = var41.string;
-            var30 = var65[var78];
-            var30 = var64.bind(var3)(var30);
-            var30 = var30.t;
-            var30 = var30.Bse+F/;
-            var30 = var39.bind(var41)(var30);
-            var14['label'] = var30;
-            var24 = var65[var24];
+            var24 = var65[var78];
+            var24 = var64.bind(var3)(var24);
+            var39 = var24.intl;
+            var30 = var39.string;
+            var24 = var65[var78];
+            var24 = var64.bind(var3)(var24);
+            var24 = var24.t;
+            var24 = var24.Bse+F/;
+            var24 = var30.bind(var39)(var24);
+            var14['label'] = var24;
+            var24 = var65[var68];
             var24 = var64.bind(var3)(var24);
             var24 = var24.PinIcon;
             var14['IconComponent'] = var24;
@@ -1182,36 +1188,16 @@ case 96:
             var15 = var15.tpxJto;
             var15 = var24.bind(var30)(var15);
             var14['label'] = var15;
-            var68 = 50;
-            var15 = var65[var68];
-            var15 = var64.bind(var3)(var15);
-            var15 = var15.NitroWheelIcon;
-            var14['IconComponent'] = var15;
-            var15 = var51.GENERAL;
-            var14['section'] = var15;
-            var30 = 11;
-            var14['sortKey'] = var30;
-            var60 = var6.bind(var3)(var14);
-            var14 = {};
-            var15 = var65[var78];
-            var15 = var64.bind(var3)(var15);
-            var41 = var15.intl;
-            var24 = var41.string;
-            var15 = var65[var78];
-            var15 = var64.bind(var3)(var15);
-            var15 = var15.t;
-            var15 = var15.tpxJto;
-            var15 = var24.bind(var41)(var15);
-            var14['label'] = var15;
             var15 = 51;
             var24 = var65[var15];
             var24 = var64.bind(var3)(var24);
-            var24 = var24.BookmarkOutlineIcon;
+            var24 = var24.NitroWheelIcon;
             var14['IconComponent'] = var24;
             var24 = var51.GENERAL;
             var14['section'] = var24;
+            var30 = 11;
             var14['sortKey'] = var30;
-            var58 = var6.bind(var3)(var14);
+            var60 = var6.bind(var3)(var14);
             var14 = {};
             var24 = var65[var78];
             var24 = var64.bind(var3)(var24);
@@ -1220,11 +1206,31 @@ case 96:
             var24 = var65[var78];
             var24 = var64.bind(var3)(var24);
             var24 = var24.t;
-            var24 = var24.SvXS1Z;
+            var24 = var24.tpxJto;
             var24 = var41.bind(var44)(var24);
             var14['label'] = var24;
             var24 = 52;
             var41 = var65[var24];
+            var41 = var64.bind(var3)(var41);
+            var41 = var41.BookmarkOutlineIcon;
+            var14['IconComponent'] = var41;
+            var41 = var51.GENERAL;
+            var14['section'] = var41;
+            var14['sortKey'] = var30;
+            var58 = var6.bind(var3)(var14);
+            var14 = {};
+            var41 = var65[var78];
+            var41 = var64.bind(var3)(var41);
+            var54 = var41.intl;
+            var44 = var54.string;
+            var41 = var65[var78];
+            var41 = var64.bind(var3)(var41);
+            var41 = var41.t;
+            var41 = var41.SvXS1Z;
+            var41 = var44.bind(var54)(var41);
+            var14['label'] = var41;
+            var41 = 53;
+            var41 = var65[var41];
             var41 = var64.bind(var3)(var41);
             var41 = var41.BookmarkIcon;
             var14['IconComponent'] = var41;
@@ -1243,7 +1249,7 @@ case 96:
             var30 = var30.mJ3P0N;
             var30 = var41.bind(var44)(var30);
             var14['label'] = var30;
-            var66 = 53;
+            var66 = 54;
             var30 = var65[var66];
             var30 = var64.bind(var3)(var30);
             var30 = var30.ClockIcon;
@@ -1284,7 +1290,7 @@ case 96:
             var28 = var28.PHjkRE;
             var28 = var30.bind(var41)(var28);
             var14['label'] = var28;
-            var28 = 54;
+            var28 = 55;
             var28 = var65[var28];
             var28 = var64.bind(var3)(var28);
             var28 = var28.RobotIcon;
@@ -1305,7 +1311,7 @@ case 96:
             var28 = var28.g33r/P;
             var28 = var30.bind(var41)(var28);
             var14['label'] = var28;
-            var28 = 55;
+            var28 = 56;
             var28 = var65[var28];
             var28 = var64.bind(var3)(var28);
             var28 = var28.ChatIcon;
@@ -1326,7 +1332,7 @@ case 96:
             var28 = var28.P8tvKG;
             var28 = var30.bind(var44)(var28);
             var14['label'] = var28;
-            var28 = 56;
+            var28 = 57;
             var28 = var65[var28];
             var28 = var64.bind(var3)(var28);
             var28 = var28.AtIcon;
@@ -1347,7 +1353,7 @@ case 96:
             var28 = var28.S/xNKV;
             var28 = var30.bind(var70)(var28);
             var14['label'] = var28;
-            var70 = 57;
+            var70 = 58;
             var28 = var65[var70];
             var28 = var64.bind(var3)(var28);
             var28 = var28.DownloadIcon;
@@ -1405,7 +1411,7 @@ case 96:
             var70 = var70.92CPQ+;
             var70 = var74.bind(var75)(var70);
             var14['label'] = var70;
-            var70 = 40;
+            var70 = 41;
             var74 = var65[var70];
             var74 = var64.bind(var3)(var74);
             var74 = var74.LinkIcon;
@@ -1464,7 +1470,7 @@ case 96:
             var52 = var52.zBoHlf;
             var52 = var66.bind(var68)(var52);
             var15['label'] = var52;
-            var52 = 58;
+            var52 = 59;
             var52 = var65[var52];
             var52 = var64.bind(var3)(var52);
             var52 = var52.IdIcon;
@@ -1504,7 +1510,7 @@ case 99:
             var15['label'] = var19;
             var76 = _closure1_slot0;
             var77 = _closure1_slot2;
-            var19 = 59;
+            var19 = 60;
             var19 = var77[var19];
             var19 = var76.bind(var3)(var19);
             var19 = var19.XSmallBoldIcon;
@@ -1528,7 +1534,7 @@ case 99:
             var19 = var19.ZbtGBm;
             var19 = var24.bind(var64)(var19);
             var15['label'] = var19;
-            var75 = 39;
+            var75 = 40;
             var19 = var77[var75];
             var19 = var76.bind(var3)(var19);
             var19 = var19.TrashIcon;
@@ -1571,7 +1577,7 @@ case 99:
             var64 = var64.+78Pfm;
             var64 = var65.bind(var66)(var64);
             var15['label'] = var64;
-            var64 = 60;
+            var64 = 61;
             var65 = var77[var64];
             var65 = var76.bind(var3)(var65);
             var65 = var65.FlagIcon;
@@ -1594,7 +1600,7 @@ case 99:
             var79 = var80.bind(var81)(var79);
             var15['label'] = var79;
             var15['variant'] = var74;
-            var79 = 61;
+            var79 = 62;
             var79 = var77[var79];
             var79 = var76.bind(var3)(var79);
             var79 = var79.ClydeIcon;
@@ -1609,7 +1615,7 @@ case 99:
             var81 = var79.intl;
             var80 = var81.string;
             var82 = _closure1_slot1;
-            var79 = 62;
+            var79 = 63;
             var79 = var77[var79];
             var79 = var82.bind(var3)(var79);
             var79 = var79.1D+vqy;
@@ -1636,7 +1642,7 @@ case 99:
             var27 = var27.ZH7P2h;
             var27 = var79.bind(var80)(var27);
             var15['label'] = var27;
-            var27 = 63;
+            var27 = 64;
             var27 = var77[var27];
             var27 = var76.bind(var3)(var27);
             var27 = var27.ImageWarningIcon;
@@ -1799,7 +1805,7 @@ case 114:
 case 117:
             var67 = _closure1_slot0;
             var68 = _closure1_slot2;
-            var62 = 64;
+            var62 = 65;
             var62 = var68[var62];
             var67 = var67.bind(var3)(var62);
             var62 = var67.canReportMessageToMods;
@@ -1811,7 +1817,7 @@ case 116:
 case 120:
             var68 = _closure1_slot0;
             var69 = _closure1_slot2;
-            var67 = 65;
+            var67 = 66;
             var67 = var69[var67];
             var68 = var68.bind(var3)(var67);
             var67 = var68.canReportUser;
@@ -1821,7 +1827,7 @@ case 119:
 case 122:
             var68 = _closure1_slot0;
             var69 = _closure1_slot2;
-            var67 = 65;
+            var67 = 66;
             var67 = var69[var67];
             var68 = var68.bind(var3)(var67);
             var67 = var68.canReportMessage;
@@ -1898,7 +1904,7 @@ case 144:
 case 143:
             var51 = _closure1_slot1;
             var52 = _closure1_slot2;
-            var47 = 66;
+            var47 = 67;
             var47 = var52[var47];
             var47 = var51.bind(var3)(var47);
             var47 = var47.bind(var3)(var17, var42);
@@ -2007,7 +2013,7 @@ case 181:
 case 183:
             var31 = _closure1_slot0;
             var32 = _closure1_slot2;
-            var26 = 67;
+            var26 = 68;
             var26 = var32[var26];
             var32 = var31.bind(var3)(var26);
             var31 = var32.isWebPlayerVideoUrl;
@@ -2039,7 +2045,7 @@ case 180:
 case 185:
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var26 = 68;
+            var26 = 69;
             var26 = var29[var26];
             var28 = var28.bind(var3)(var26);
             var26 = var28.messageHasObscurableMedia;
@@ -2073,7 +2079,7 @@ case 195:
 case 197:
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var25 = 69;
+            var25 = 70;
             var25 = var27[var25];
             var26 = var26.bind(var3)(var25);
             var25 = var26.hasNonVoteReactions;
@@ -2117,7 +2123,7 @@ case 201:
             var13 = var13.bind(var15)(var16);
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var13 = 70;
+            var13 = 71;
             var13 = var18[var13];
             var16 = var16.bind(var3)(var13);
             var13 = var16.canViewInteractionInfo;
@@ -2149,7 +2155,7 @@ case 205:
             var16 = var14.bind(var15)(var13);
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var13 = 71;
+            var13 = 72;
             var13 = var15[var13];
             var15 = var14.bind(var3)(var13);
             var14 = var15.groupBy;
@@ -2180,7 +2186,7 @@ case 95:
             var4['sortKey'] = var12;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var11 = 36;
+            var11 = 37;
             var15 = var14[var11];
             var15 = var13.bind(var3)(var15);
             var16 = var15.intl;
@@ -2191,7 +2197,7 @@ case 95:
             var11 = var11.k5WiPf;
             var11 = var15.bind(var16)(var11);
             var4['label'] = var11;
-            var11 = 40;
+            var11 = 41;
             var11 = var14[var11];
             var11 = var13.bind(var3)(var11);
             var11 = var11.LinkIcon;
@@ -2215,7 +2221,7 @@ case 208:
             var10['sortKey'] = var12;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 36;
+            var12 = 37;
             var15 = var14[var12];
             var15 = var13.bind(var3)(var15);
             var16 = var15.intl;
@@ -2226,7 +2232,7 @@ case 208:
             var12 = var12.5911Lb;
             var12 = var15.bind(var16)(var12);
             var10['label'] = var12;
-            var12 = 37;
+            var12 = 38;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var12 = var12.RetryIcon;
@@ -2250,7 +2256,7 @@ case 212:
             var1['sortKey'] = var8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 36;
+            var8 = 37;
             var11 = var10[var8];
             var11 = var9.bind(var3)(var11);
             var12 = var11.intl;
@@ -2261,7 +2267,7 @@ case 212:
             var8 = var8.JrGD7E;
             var8 = var11.bind(var12)(var8);
             var1['label'] = var8;
-            var8 = 38;
+            var8 = 39;
             var8 = var10[var8];
             var8 = var9.bind(var3)(var8);
             var8 = var8.CopyIcon;
@@ -2278,7 +2284,7 @@ case 211:
             var1['sortKey'] = var8;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var7 = 36;
+            var7 = 37;
             var10 = var9[var7];
             var10 = var8.bind(var3)(var10);
             var11 = var10.intl;
@@ -2289,7 +2295,7 @@ case 211:
             var7 = var7.xwMqD7;
             var7 = var10.bind(var11)(var7);
             var1['label'] = var7;
-            var7 = 39;
+            var7 = 40;
             var7 = var9[var7];
             var7 = var8.bind(var3)(var7);
             var7 = var7.TrashIcon;

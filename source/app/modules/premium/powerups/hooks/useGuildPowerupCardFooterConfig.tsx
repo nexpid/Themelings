@@ -18,7 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var7 = var4.GUILD_POWERUP_CONFIGURABLE_SKUS;
+    var7 = var4.GUILD_POWERUP_CONFIGURABLE_SKUS_DESKTOP;
+    var7 = var4.GUILD_POWERUP_CONFIGURABLE_SKUS_MOBILE;
     var _closure1_slot2 = var7;
     var4 = var4.PowerupActiveStatusType;
     var _closure1_slot3 = var4;

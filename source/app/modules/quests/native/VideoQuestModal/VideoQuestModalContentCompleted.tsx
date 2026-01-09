@@ -129,7 +129,6 @@ case 0:
             var32 = var2.onClose;
             var29 = var2.onRestartVideo;
             var6 = var2.sourceQuestContent;
-            var _closure2_slot0 = var6;
             var2 = _closure1_slot9;
             var4 = undefined;
             var26 = var2.bind(var4)();
@@ -141,7 +140,7 @@ case 0:
             var2 = var5.useVideoQuestModalContext;
             var2 = var2.bind(var5)();
             var25 = var2.quest;
-            var _closure2_slot1 = var25;
+            var _closure2_slot0 = var25;
             var8 = _closure1_slot3;
             var7 = var8.useMemo;
             var5 = new Array(1);
@@ -154,7 +153,7 @@ case 0:
                 var6 = undefined;
                 var5 = var2.bind(var6)(var3);
                 var4 = var5.getQuestAsset;
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot0;
                 var1 = var7[var1];
                 var1 = var2.bind(var6)(var1);
                 var1 = var1.QuestAssetType;
@@ -171,51 +170,25 @@ case 0:
             var2 = var9[var2];
             var5 = var3.bind(var4)(var2);
             var2 = var5.useQuestImpressionId;
-            var2 = var2.bind(var5)();
-            var _closure2_slot2 = var2;
-            var7 = var8.useCallback;
-            var5 = new Array(3);
-            var5[0] = var25;
-            var5[1] = var2;
-            var5[2] = var6;
-            var2 = function() {
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var1 = 8;
-                var2 = var9[var1];
-                var1 = undefined;
-                var5 = var8.bind(var1)(var2);
-                var4 = var5.openGameLinkDirectly;
-                var3 = _closure2_slot1;
-                var2 = {};
-                var7 = 9;
-                var7 = var9[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.QuestContent;
-                var7 = var7.VIDEO_MODAL_MOBILE;
-                var2['content'] = var7;
-                var7 = 10;
-                var7 = var9[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.QuestContentCTA;
-                var7 = var7.OPEN_GAME_LINK;
-                var2['ctaContent'] = var7;
-                var7 = _closure2_slot2;
-                var2['impressionId'] = var7;
-                var6 = _closure2_slot0;
-                var2['sourceQuestContent'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
-            };
-            var19 = var7.bind(var8)(var2, var5);
-            var2 = 11;
+            var8 = var2.bind(var5)();
+            var2 = 8;
+            var2 = var9[var2];
+            var7 = var3.bind(var4)(var2);
+            var5 = var7.useVideoQuestClickCtaAndMaybeCloseModal;
+            var2 = {};
+            var2['quest'] = var25;
+            var2['onClose'] = var32;
+            var2['sourceQuestContent'] = var6;
+            var2['impressionId'] = var8;
+            var19 = var5.bind(var7)(var2);
+            var2 = 9;
             var2 = var9[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useQuestRewardClaimHandler;
             var2 = {};
             var2['quest'] = var25;
             var8 = _closure1_slot1;
-            var7 = 12;
+            var7 = 10;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.close;
@@ -236,13 +209,13 @@ case 2:
             var16 = var11 != var2;
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var8 = 13;
+            var8 = 11;
             var2 = var15[var8];
             var5 = var12.bind(var4)(var2);
             var3 = var5.useSharedValue;
             var2 = 0;
             var2 = var3.bind(var5)(var2);
-            var _closure2_slot3 = var2;
+            var _closure2_slot1 = var2;
             var3 = var15[var8];
             var6 = var12.bind(var4)(var3);
             var5 = var6.useAnimatedStyle;
@@ -250,16 +223,16 @@ case 2:
                 var1 = {};
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
-                var10 = 13;
+                var10 = 11;
                 var2 = var13[var10];
                 var11 = undefined;
                 var5 = var12.bind(var11)(var2);
                 var4 = var5.withDelay;
-                var7 = 14;
+                var7 = 12;
                 var2 = var13[var7];
                 var8 = var12.bind(var11)(var2);
                 var6 = var8.withSpring;
-                var14 = _closure2_slot3;
+                var14 = _closure2_slot1;
                 var3 = var14.get;
                 var3 = var3.bind(var14)();
                 var9 = _closure1_slot8;
@@ -277,7 +250,7 @@ case 2:
                 var10 = var13[var10];
                 var13 = var12.bind(var11)(var10);
                 var12 = var13.interpolate;
-                var10 = _closure2_slot3;
+                var10 = _closure2_slot1;
                 var2 = var10.get;
                 var11 = var2.bind(var10)();
                 var10 = [0, 1];
@@ -298,7 +271,7 @@ case 2:
             var7['withDelay'] = var9;
             var9 = 125;
             var7['ANIMATION_DELAY'] = var9;
-            var9 = 14;
+            var9 = 12;
             var9 = var15[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.withSpring;
@@ -323,7 +296,7 @@ case 2:
             var5 = new Array(1);
             var5[0] = var2;
             var2 = function() {
-                var3 = _closure2_slot3;
+                var3 = _closure2_slot1;
                 var2 = var3.set;
                 var1 = 1;
                 var1 = var2.bind(var3)(var1);
@@ -331,13 +304,13 @@ case 2:
                 return var1;
             };
             var2 = var6.bind(var3)(var2, var5);
-            var2 = 15;
+            var2 = 13;
             var2 = var15[var2];
             var6 = var12.bind(var4)(var2);
             var5 = var6.isShareableQuest;
             var2 = var25.config;
             var14 = var5.bind(var6)(var2);
-            var _closure2_slot4 = var14;
+            var _closure2_slot2 = var14;
             var6 = var3.useCallback;
             var5 = new Array(2);
             var5[0] = var14;
@@ -346,22 +319,22 @@ case 2:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot2;
                     if(!var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 14;
                     var2 = var8[var2];
                     var6 = undefined;
                     var4 = var7.bind(var6)(var2);
                     var3 = var4.showShareActionSheet;
                     var2 = {};
-                    var5 = 17;
+                    var5 = 15;
                     var5 = var8[var5];
                     var6 = var7.bind(var6)(var5);
                     var5 = var6.getQuestUrl;
-                    var1 = _closure2_slot1;
+                    var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var5.bind(var6)(var1);
                     var2['message'] = var1;
@@ -377,7 +350,7 @@ case 4:
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 18;
+                var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -390,7 +363,7 @@ case 4:
             var1 = new Array(0);
             var1 = var5.bind(var3)(var2, var1);
             var2 = var3.useContext;
-            var1 = 19;
+            var1 = 17;
             var1 = var15[var1];
             var1 = var12.bind(var4)(var1);
             var1 = var1.QuestDockGestureContext;
@@ -407,7 +380,7 @@ case 4:
             var1 = 760;
             var35 = var2 < var1;
             var3 = _closure1_slot7;
-            var1 = 20;
+            var1 = 18;
             var1 = var15[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -416,7 +389,7 @@ case 4:
             var1['bottom'] = var27;
             var5 = var26.wrapper;
             var1['style'] = var5;
-            var10 = 21;
+            var10 = 19;
             var5 = var15[var10];
             var5 = var12.bind(var4)(var5);
             var6 = var5.Stack;
@@ -424,14 +397,14 @@ case 4:
             var7 = var26.content;
             var5['style'] = var7;
             var8 = _closure1_slot6;
-            var17 = 22;
+            var17 = 20;
             var7 = var15[var17];
             var7 = var12.bind(var4)(var7);
             var9 = var7.Text;
             var7 = {'variant': 'heading-sm/semibold', 'color': 'text-subtle'};
             var20 = var26.headerContentCopy;
             var7['style'] = var20;
-            var23 = 23;
+            var23 = 21;
             var20 = var15[var23];
             var20 = var12.bind(var4)(var20);
             var34 = var20.intl;
@@ -451,7 +424,7 @@ case 4:
             var7 = new Array(2);
             var7[0] = var9;
             var20 = _closure1_slot1;
-            var9 = 24;
+            var9 = 22;
             var9 = var15[var9];
             var24 = var20.bind(var4)(var9);
             var9 = {};
@@ -464,7 +437,7 @@ case 4:
             var6 = var3.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var6 = 25;
+            var6 = 23;
             var6 = var15[var6];
             var7 = var20.bind(var4)(var6);
             var6 = {};
@@ -499,7 +472,7 @@ case 7:
             var33 = _closure1_slot6;
             var32 = _closure1_slot1;
             var34 = _closure1_slot2;
-            var24 = 26;
+            var24 = 24;
             var24 = var34[var24];
             var32 = var32.bind(var4)(var24);
             var24 = {'withQuestName': false, 'withRewardAvailableCopy': false, 'size': null, 'withRewardTileAnimation': true};
@@ -564,7 +537,7 @@ case 17:
             var24 = _closure1_slot6;
             var20 = _closure1_slot1;
             var32 = _closure1_slot2;
-            var16 = 27;
+            var16 = 25;
             var16 = var32[var16];
             var20 = var20.bind(var4)(var16);
             var16 = {};
@@ -583,7 +556,7 @@ case 17:
             var30 = var30.cfY4PE;
             var30 = var33.bind(var34)(var30);
             var16['text'] = var30;
-            var30 = 28;
+            var30 = 26;
             var30 = var32[var30];
             var30 = var31.bind(var4)(var30);
             var30 = var30.ButtonColors;
@@ -652,7 +625,7 @@ case 16:
             var15 = var8.bind(var4)(var15, var13);
             var13 = new Array(2);
             var13[0] = var15;
-            var15 = 29;
+            var15 = 27;
             var16 = var31[var15];
             var16 = var30.bind(var4)(var16);
             var17 = var16.PressableOpacity;
@@ -670,7 +643,7 @@ case 16:
             var33 = var34.bind(var35)(var33);
             var16['accessibilityLabel'] = var33;
             var16['onPress'] = var29;
-            var29 = 30;
+            var29 = 28;
             var29 = var31[var29];
             var29 = var30.bind(var4)(var29);
             var30 = var29.RetryIcon;
@@ -700,7 +673,7 @@ case 19:
             var12 = {};
             var12['onPress'] = var19;
             var20 = _closure1_slot1;
-            var17 = 31;
+            var17 = 29;
             var17 = var29[var17];
             var20 = var20.bind(var4)(var17);
             var17 = {};
@@ -731,14 +704,14 @@ case 18:
             var13 = var13.PX_16;
             var10['spacing'] = var13;
             var17 = _closure1_slot6;
-            var13 = 32;
+            var13 = 30;
             var13 = var26[var13];
             var13 = var20.bind(var4)(var13);
             var16 = var13.Button;
             var13 = {};
             var13['grow'] = var27;
             var13['onPress'] = var19;
-            var19 = 17;
+            var19 = 15;
             var19 = var26[var19];
             var20 = var20.bind(var4)(var19);
             var19 = var20.getExternalCtaLabel;
@@ -768,7 +741,7 @@ case 21:
             var23 = var24.bind(var25)(var23);
             var15['accessibilityLabel'] = var23;
             var15['onPress'] = var18;
-            var18 = 33;
+            var18 = 31;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var19 = var18.ShareIcon;
@@ -796,7 +769,7 @@ case 20:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 34;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1606,13 +1606,19 @@ case 142:
                     if(!(var12 != var19)) { _fun0019_ip = 141; continue _fun0019 }
 case 143:
                     var17 = _closure1_slot1;
-                    var18 = _closure1_slot3;
+                    var21 = _closure1_slot3;
                     var9 = 43;
-                    var9 = var18[var9];
+                    var9 = var21[var9];
                     var18 = var17.bind(var4)(var9);
                     var17 = var18.fetchMessages;
                     var9 = {'channelId': null, 'isPreload': true, 'skipLocalFetch': true};
                     var9['channelId'] = var19;
+                    var20 = _closure1_slot0;
+                    var19 = 44;
+                    var19 = var21[var19];
+                    var19 = var20.bind(var4)(var19);
+                    var19 = var19.INITIAL_MESSAGE_FETCH_KEY;
+                    var9['fetchKey'] = var19;
                     var9 = var17.bind(var18)(var9);
 case 141:
                     var17 = _closure1_slot1;
@@ -1635,7 +1641,7 @@ case 141:
                         var4 = var3[var1];
                         var1 = undefined;
                         var5 = var5.bind(var1)(var4);
-                        var4 = 44;
+                        var4 = 45;
                         var4 = var3[var4];
                         var3 = var3.paths;
                         var4 = var5.bind(var1)(var4, var3);
@@ -1645,7 +1651,7 @@ case 141:
                             var4 = var1.default;
                             var3 = _closure1_slot0;
                             var5 = _closure1_slot3;
-                            var2 = 45;
+                            var2 = 46;
                             var2 = var5[var2];
                             var5 = undefined;
                             var3 = var3.bind(var5)(var2);
@@ -1660,22 +1666,22 @@ case 141:
                             var1 = function() {
                                 var4 = _closure1_slot0;
                                 var5 = _closure1_slot3;
-                                var1 = 46;
+                                var1 = 47;
                                 var2 = var5[var1];
                                 var1 = undefined;
                                 var2 = var4.bind(var1)(var2);
                                 var2 = var2.default;
-                                var3 = 47;
+                                var3 = 48;
                                 var3 = var5[var3];
                                 var3 = var4.bind(var1)(var3);
                                 var3 = var3.default;
-                                var6 = 48;
+                                var6 = 49;
                                 var6 = var5[var6];
                                 var7 = var4.bind(var1)(var6);
                                 var6 = var7.updateSaturation;
                                 var3 = var3.saturation;
                                 var3 = var6.bind(var7)(var3);
-                                var3 = 49;
+                                var3 = 50;
                                 var3 = var5[var3];
                                 var4 = var4.bind(var1)(var3);
                                 var3 = var4.updateTheme;
@@ -1703,7 +1709,7 @@ case 141:
 case 145:
                     var14 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var16 = 50;
+                    var16 = 51;
                     var9 = var9[var16];
                     var9 = var14.bind(var4)(var9);
                     if(!(var12 == var9)) { _fun0019_ip = 146; continue _fun0019 }
@@ -1721,7 +1727,7 @@ case 146:
 case 147:
                     var14 = _closure1_slot2;
                     var16 = _closure1_slot3;
-                    var9 = 51;
+                    var9 = 52;
                     var9 = var16[var9];
                     var14 = var14.bind(var4)(var9);
                     var9 = var14.getToken;
@@ -1730,7 +1736,7 @@ case 147:
 case 149:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot3;
-                    var9 = 52;
+                    var9 = 53;
                     var9 = var14[var9];
                     var12 = var12.bind(var4)(var9);
                     var9 = var12.beginLoadedExperimentsTimeout;
@@ -1765,7 +1771,7 @@ case 150:
                     var14 = _closure1_slot3;
                     var3 = var14[var15];
                     var18 = var16.bind(var4)(var3);
-                    var3 = 53;
+                    var3 = 54;
                     var17 = var14[var3];
                     var3 = var14.paths;
                     var17 = var18.bind(var4)(var17, var3);
@@ -1773,35 +1779,35 @@ case 150:
                     var3[0] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 54;
+                    var17 = 55;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[1] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 55;
+                    var17 = 56;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[2] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 56;
+                    var17 = 57;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[3] = var17;
                     var15 = var14[var15];
                     var16 = var16.bind(var4)(var15);
-                    var15 = 57;
+                    var15 = 58;
                     var15 = var14[var15];
                     var14 = var14.paths;
                     var14 = var16.bind(var4)(var15, var14);
                     var3[4] = var14;
                     var3[5] = var13;
                     var3 = var9.bind(var12)(var3);
-                    SaveGenerator(address=1643);
+                    SaveGenerator(address=1670);
 case 151:
                     return var3;
 case 152:
@@ -1851,10 +1857,10 @@ case 156:
 case 155:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var5 = 58;
+                    var5 = 59;
                     var5 = var7[var5];
                     var5 = var6.bind(var4)(var5);
-                    var5 = 59;
+                    var5 = 60;
                     var5 = var7[var5];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.initSessionHeartbeatScheduler;
@@ -1934,7 +1940,7 @@ case 163:
                     var3 = var3.bind(var5)();
                     var9 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var7 = 60;
+                    var7 = 61;
                     var7 = var3[var7];
                     var7 = var9.bind(var5)(var7);
                     var7 = 40;
@@ -1949,7 +1955,7 @@ case 163:
                     var8 = 37;
                     var7 = var3[var8];
                     var11 = var9.bind(var5)(var7);
-                    var7 = 44;
+                    var7 = 45;
                     var10 = var3[var7];
                     var7 = var3.paths;
                     var11 = var11.bind(var5)(var10, var7);
@@ -1977,7 +1983,7 @@ case 163:
                     var6 = var7.all;
                     var8 = var3[var8];
                     var9 = var9.bind(var5)(var8);
-                    var8 = 57;
+                    var8 = 58;
                     var8 = var3[var8];
                     var3 = var3.paths;
                     var8 = var9.bind(var5)(var8, var3);
@@ -2095,7 +2101,7 @@ case 169:
 case 168:
             var6 = _closure1_slot2;
             var4 = _closure1_slot3;
-            var3 = 51;
+            var3 = 52;
             var8 = var4[var3];
             var9 = var6.bind(var1)(var8);
             var8 = var9.init;
@@ -2256,7 +2262,7 @@ case 168:
     var8 = var5.loadIndex;
     var5 = var8.recordEnd;
     var5 = var5.bind(var8)();
-    var5 = 61;
+    var5 = 62;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

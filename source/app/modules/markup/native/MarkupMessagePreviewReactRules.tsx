@@ -966,13 +966,6 @@ case 44:
             var7 = {};
             var7['react'] = var9;
             var1[var8] = var7;
-            var7 = var6[var2];
-            var7 = var3.bind(var5)(var7);
-            var7 = var7.AST_KEY;
-            var8 = var7.SHOP_LINK;
-            var7 = {};
-            var7['react'] = var9;
-            var1[var8] = var7;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.AST_KEY;

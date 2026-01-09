@@ -1566,10 +1566,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CLOUD_PLAY_NEW_BADGE'] = var2;
     var1 = 'CLOUD_PLAY_NEW_BADGE';
     var4[var2] = var1;
-    var2 = 582;
-    var4['COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING'] = var2;
-    var1 = 'COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING';
-    var4[var2] = var1;
     var2 = 583;
     var4['ACCESSIBILITY_HIGH_CONTRAST_MODE_NEW_BADGE'] = var2;
     var1 = 'ACCESSIBILITY_HIGH_CONTRAST_MODE_NEW_BADGE';

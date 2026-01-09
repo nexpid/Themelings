@@ -107,9 +107,9 @@ case 8:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     StartGenerator();
-                    var10 = arg1;
+                    var9 = arg1;
                     var7 = arg2;
-                    var6 = arg3;
+                    var12 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
@@ -117,22 +117,22 @@ case 11:
                     var4 = var3.performance;
                     var2 = var4.now;
                     var5 = var2.bind(var4)();
-                    var2 = null;
-                    if(!(var2 != var10)) { _fun0003_ip = 12; continue _fun0003 }
+                    var11 = null;
+                    if(!(var11 != var9)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                    if(!(var2 == var6)) { _fun0003_ip = 14; continue _fun0003 }
+                    if(!(var11 == var12)) { _fun0003_ip = 14; continue _fun0003 }
 case 12:
-                    var8 = _closure1_slot18;
-                    var4 = var8.verbose;
+                    var6 = _closure1_slot18;
+                    var4 = var6.verbose;
                     var2 = var3.HermesInternal;
-                    var12 = var2.concat;
-                    var21 = 'skipped loaded messages (channel: ';
-                    var19 = ', database: ';
-                    var17 = ').';
-                    var20 = var6;
-                    var18 = var10;
-                    var2 = var21[var12](var20, var19, var18, var17, var16);
-                    var2 = var4.bind(var8)(var2);
+                    var13 = var2.concat;
+                    var24 = 'skipped loaded messages (channel: ';
+                    var22 = ', database: ';
+                    var20 = ').';
+                    var23 = var12;
+                    var21 = var9;
+                    var2 = var24[var13](var23, var22, var21, var20, var19);
+                    var2 = var4.bind(var6)(var2);
                     var4 = var3.performance;
                     var2 = var4.now;
                     var2 = var2.bind(var4)();
@@ -140,58 +140,75 @@ case 12:
                     var2 = new Array(2);
                     var2[0] = var4;
                     var4 = {'guildId': null, 'channelId': null};
-                    var8 = new Array(0);
-                    var4['users'] = var8;
-                    var8 = new Array(0);
-                    var4['members'] = var8;
-                    var8 = new Array(0);
-                    var4['messages'] = var8;
+                    var6 = new Array(0);
+                    var4['users'] = var6;
+                    var6 = new Array(0);
+                    var4['members'] = var6;
+                    var6 = new Array(0);
+                    var4['messages'] = var6;
                     var2[1] = var4;
                     return var2;
 case 14:
-                    var9 = _closure1_slot1;
+                    var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var2 = 15;
-                    var8 = var8[var2];
-                    var2 = undefined;
-                    var9 = var9.bind(var2)(var8);
-                    var8 = var9.startupLoad;
-                    var17 = _closure1_slot14;
-                    var21 = var9;
-                    var20 = var10;
-                    var19 = var7;
-                    var18 = var6;
-                    var2 = var21[var8](var20, var19, var18, var17, var16);
+                    var2 = var8[var2];
+                    var13 = undefined;
+                    var8 = var4.bind(var13)(var2);
+                    var4 = var8.startupLoad;
+                    var20 = _closure1_slot14;
+                    var24 = var8;
+                    var23 = var9;
+                    var22 = var7;
+                    var21 = var12;
+                    var2 = var24[var4](var23, var22, var21, var20, var19);
                     SaveGenerator(address=238);
 case 15:
                     return var2;
 case 16:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0003_ip = 17; continue _fun0003 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
                     var9 = _closure1_slot18;
                     var8 = var9.verbose;
                     var4 = var2.messages;
-                    var20 = var4.length;
+                    var23 = var4.length;
                     var4 = var3.HermesInternal;
-                    var13 = var4.concat;
-                    var21 = 'loaded ';
-                    var19 = ' messages (guild: ';
-                    var17 = ', channel: ';
-                    var15 = ').';
-                    var18 = var7;
-                    var16 = var6;
-                    var4 = var21[var13](var20, var19, var18, var17, var16, var15, var14);
+                    var16 = var4.concat;
+                    var24 = 'loaded ';
+                    var22 = ' messages (guild: ';
+                    var20 = ', channel: ';
+                    var18 = ').';
+                    var21 = var7;
+                    var19 = var12;
+                    var4 = var24[var16](var23, var22, var21, var20, var19, var18, var17);
                     var4 = var8.bind(var9)(var4);
                     var4 = {};
                     var4['guildId'] = var7;
-                    var4['channelId'] = var6;
-                    var6 = var2.users;
-                    var4['users'] = var6;
-                    var6 = var2.members;
-                    var4['members'] = var6;
-                    var6 = var2.messages;
-                    var4['messages'] = var6;
+                    var4['channelId'] = var12;
+                    var7 = var2.users;
+                    var4['users'] = var7;
+                    var7 = var2.members;
+                    var4['members'] = var7;
+                    var7 = var2.messages;
+                    var4['messages'] = var7;
+                    var9 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var7 = 16;
+                    var8 = var14[var7];
+                    var10 = var9.bind(var13)(var8);
+                    var9 = var10.recordChannelFetchedLocal;
+                    var8 = _closure1_slot0;
+                    var7 = var14[var7];
+                    var7 = var8.bind(var13)(var7);
+                    var22 = var7.INITIAL_MESSAGE_FETCH_KEY;
+                    var19 = _closure1_slot14;
+                    var18 = var2.messages;
+                    var24 = var10;
+                    var23 = var12;
+                    var21 = null;
+                    var20 = null;
+                    var6 = var24[var9](var23, var22, var21, var20, var19, var18, var17);
                     var6 = var3.performance;
                     var3 = var6.now;
                     var3 = var3.bind(var6)();
@@ -283,7 +300,7 @@ case 6:
                     var10 = var2.bind(var4)();
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var7 = var6[var2];
                     var7 = var4.bind(var16)(var7);
                     var12 = var7.loadCachedMessages;
@@ -361,7 +378,7 @@ case 25:
 case 24:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var6[var2];
                     var11 = var4.bind(var16)(var2);
                     var7 = var11.timeAsync;
@@ -370,7 +387,7 @@ case 24:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 19;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -386,7 +403,7 @@ case 26:
 case 28:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var6[var2];
                     var11 = var4.bind(var16)(var2);
                     var7 = var11.timeAsync;
@@ -395,7 +412,7 @@ case 28:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 19;
+                        var1 = 20;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -416,7 +433,7 @@ case 29:
 case 31:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var6[var2];
                     var11 = var4.bind(var16)(var2);
                     var7 = var11.timeAsync;
@@ -425,7 +442,7 @@ case 31:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 20;
+                        var1 = 21;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -446,7 +463,7 @@ case 32:
 case 34:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 18;
                     var2 = var6[var2];
                     var19 = var4.bind(var16)(var2);
                     var7 = var19.timeAsync;
@@ -455,7 +472,7 @@ case 34:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -474,14 +491,14 @@ case 33:
 case 35:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 22;
+                    var2 = 23;
                     var19 = var6[var2];
                     var22 = var4.bind(var16)(var19);
                     var21 = 'AllCacheStores';
                     var19 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 23;
+                        var1 = 24;
                         var2 = var2[var1];
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
@@ -494,7 +511,7 @@ case 35:
                     var2 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 24;
+                        var1 = 25;
                         var2 = var2[var1];
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
@@ -564,7 +581,7 @@ case 39:
 case 41:
                     var10 = _closure1_slot1;
                     var18 = _closure1_slot2;
-                    var6 = 27;
+                    var6 = 28;
                     var6 = var18[var6];
                     var10 = var10.bind(var16)(var6);
                     var6 = 'database:history_cache_null';
@@ -605,7 +622,7 @@ case 42:
                     var6 = var13.guildId;
                     var18 = _closure1_slot1;
                     var19 = _closure1_slot2;
-                    var10 = 25;
+                    var10 = 26;
                     var10 = var19[var10];
                     var10 = var18.bind(var16)(var10);
                     var18 = var10.Emitter;
@@ -613,7 +630,7 @@ case 42:
                     var9 = function() {
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var3 = 17;
+                        var3 = 18;
                         var6 = var5[var3];
                         var1 = undefined;
                         var10 = var4.bind(var1)(var6);
@@ -625,7 +642,7 @@ case 42:
 case 0:
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 26;
+                                var1 = 27;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var3 = var3.bind(var1)(var2);
@@ -869,7 +886,7 @@ case 65:
 case 69:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var5 = 30;
+                    var5 = 31;
                     var5 = var9[var5];
                     var8 = var8.bind(var6)(var5);
                     var5 = var8.getCommittedVersions;
@@ -894,14 +911,14 @@ case 6:
 case 77:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 28;
+                    var7 = 29;
                     var7 = var9[var7];
                     var9 = var8.bind(var6)(var7);
                     var8 = var9.tryLoadAsync;
                     var7 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 29;
+                        var1 = 30;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -939,14 +956,14 @@ case 72:
 case 68:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 28;
+                    var3 = 29;
                     var3 = var7[var3];
                     var5 = var5.bind(var6)(var3);
                     var3 = var5.tryLoadAsync;
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 17;
+                        var1 = 18;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -956,7 +973,7 @@ case 68:
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 29;
+                            var1 = 30;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -1025,7 +1042,7 @@ case 20:
 case 61:
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var2 = 30;
+                    var2 = 31;
                     var2 = var9[var2];
                     var7 = var7.bind(var8)(var2);
                     var2 = var7.getCommittedVersions;
@@ -1057,14 +1074,14 @@ case 100:
                     var5 = {};
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 28;
+                    var6 = 29;
                     var6 = var9[var6];
                     var7 = var7.bind(var8)(var6);
                     var6 = var7.tryLoadAsync;
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 19;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -1162,7 +1179,7 @@ case 104:
                     var2 = var3.bind(var7)(var2);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var9 = 16;
+                    var9 = 17;
                     var2 = var2[var9];
                     var2 = var3.bind(var4)(var2);
                     var7 = var2.fetchLazyCache;
@@ -1173,7 +1190,7 @@ case 104:
                         var2 = var3.all;
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var5 = 28;
+                        var5 = 29;
                         var1 = var8[var5];
                         var6 = undefined;
                         var10 = var7.bind(var6)(var1);
@@ -1194,7 +1211,7 @@ case 106:
 case 105:
                                 var4 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var2 = 17;
+                                var2 = 18;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var6 = var4.bind(var2)(var3);
@@ -1204,7 +1221,7 @@ case 105:
                                 var2 = function() {
                                     var3 = _closure1_slot1;
                                     var2 = _closure1_slot2;
-                                    var1 = 31;
+                                    var1 = 32;
                                     var2 = var2[var1];
                                     var1 = undefined;
                                     var3 = var3.bind(var1)(var2);
@@ -1236,7 +1253,7 @@ case 106:
 case 108:
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 17;
+                                var1 = 18;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var5 = var3.bind(var1)(var2);
@@ -1246,7 +1263,7 @@ case 108:
                                 var1 = function() {
                                     var3 = _closure1_slot1;
                                     var2 = _closure1_slot2;
-                                    var1 = 29;
+                                    var1 = 30;
                                     var2 = var2[var1];
                                     var1 = undefined;
                                     var3 = var3.bind(var1)(var2);
@@ -1294,7 +1311,7 @@ case 106:
 case 64:
                                 var4 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var2 = 17;
+                                var2 = 18;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var6 = var4.bind(var2)(var3);
@@ -1304,7 +1321,7 @@ case 64:
                                 var2 = function() {
                                     var3 = _closure1_slot1;
                                     var2 = _closure1_slot2;
-                                    var1 = 32;
+                                    var1 = 33;
                                     var2 = var2[var1];
                                     var1 = undefined;
                                     var3 = var3.bind(var1)(var2);
@@ -1374,7 +1391,7 @@ case 13:
 case 115:
                             var4 = _closure1_slot0;
                             var3 = _closure1_slot2;
-                            var2 = 28;
+                            var2 = 29;
                             var3 = var3[var2];
                             var2 = undefined;
                             var4 = var4.bind(var2)(var3);
@@ -1410,7 +1427,7 @@ case 115:
                                         var _closure8_slot0 = var5;
                                         var4 = _closure1_slot1;
                                         var3 = _closure1_slot2;
-                                        var2 = 18;
+                                        var2 = 19;
                                         var3 = var3[var2];
                                         var2 = undefined;
                                         var4 = var4.bind(var2)(var3);
@@ -1453,7 +1470,7 @@ case 16:
                     _closure4_slot7 = var3;
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var7 = 33;
+                    var7 = 34;
                     var7 = var10[var7];
                     var7 = var8.bind(var4)(var7);
                     var8 = var7.DelayLoadLateLazyCacheHoldoutExperiment;
@@ -1467,11 +1484,11 @@ case 121:
                     var7 = var8.bind(var10)(var7);
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var7 = 34;
+                    var7 = 35;
                     var7 = var15[var7];
                     var12 = var14.bind(var4)(var7);
                     var11 = var12.waitSafelyForPostTTI;
-                    var7 = 35;
+                    var7 = 36;
                     var7 = var15[var7];
                     var14 = var14.bind(var4)(var7);
                     var7 = var14.isIOS;
@@ -1564,7 +1581,7 @@ case 136:
                             var _closure5_slot0 = var3;
                             var9 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var6 = 16;
+                            var6 = 17;
                             var10 = var5[var6];
                             var3 = undefined;
                             var10 = var9.bind(var3)(var10);
@@ -1624,7 +1641,7 @@ case 71:
                             var5 = function() {
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 26;
+                                var1 = 27;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var3 = var3.bind(var1)(var2);
@@ -1855,7 +1872,7 @@ case 145:
 case 135:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var3 = 27;
+                            var3 = 28;
                             var6 = var5[var3];
                             var3 = undefined;
                             var9 = var4.bind(var3)(var6);
@@ -1865,7 +1882,7 @@ case 135:
                             var6 = var9.log;
                             var2 = 'Skipping lazy cache; already connected.';
                             var2 = var6.bind(var9)(var2);
-                            var2 = 26;
+                            var2 = 27;
                             var2 = var5[var2];
                             var4 = var4.bind(var3)(var2);
                             var3 = var4.dispatch;
@@ -1878,7 +1895,7 @@ case 135:
 case 134:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var3 = 27;
+                            var3 = 28;
                             var6 = var5[var3];
                             var3 = undefined;
                             var9 = var4.bind(var3)(var6);
@@ -1888,7 +1905,7 @@ case 134:
                             var6 = var9.log;
                             var2 = 'kv_cache was not ok (null version with values)';
                             var2 = var6.bind(var9)(var2);
-                            var2 = 26;
+                            var2 = 27;
                             var6 = var5[var2];
                             var10 = var4.bind(var3)(var6);
                             var9 = var10.dispatch;
@@ -1906,7 +1923,7 @@ case 134:
 case 130:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 27;
+                            var2 = 28;
                             var6 = var4[var2];
                             var2 = undefined;
                             var9 = var3.bind(var2)(var6);
@@ -1931,7 +1948,7 @@ case 130:
                             var58 = '\n        )';
                             var1 = var66[var11](var65, var64, var63, var62, var61, var60, var59, var58, var57);
                             var1 = var5.bind(var6)(var1);
-                            var1 = 26;
+                            var1 = 27;
                             var5 = var4[var1];
                             var7 = var3.bind(var2)(var5);
                             var6 = var7.dispatch;
@@ -1949,13 +1966,13 @@ case 130:
 case 128:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var1 = 27;
+                            var1 = 28;
                             var1 = var4[var1];
                             var2 = undefined;
                             var5 = var3.bind(var2)(var1);
                             var1 = 'database:not_ok';
                             var1 = var5.bind(var2)(var1);
-                            var1 = 26;
+                            var1 = 27;
                             var5 = var4[var1];
                             var7 = var3.bind(var2)(var5);
                             var6 = var7.dispatch;
@@ -2007,7 +2024,7 @@ case 0:
             var _closure2_slot2 = var1;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 25;
+            var1 = 26;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
@@ -2041,7 +2058,7 @@ case 67: // try_start_1
                     _closure2_slot2 = var3;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 16;
+                    var3 = 17;
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var5 = var3.loadLazyCache;
@@ -2088,7 +2105,7 @@ case 79: // catch_target0 // catch_target1
                     var2 = var3.bind(var4)(var2, var5);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 27;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -2113,7 +2130,7 @@ case 87:
 case 150:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 16;
+            var2 = 17;
             var2 = var4[var2];
             var2 = var3.bind(var1)(var2);
             var3 = var2.loadLazyCache;
@@ -2208,7 +2225,7 @@ case 149:
     var _closure1_slot23 = var9;
     var _closure1_slot24 = var9;
     var _closure1_slot25 = var9;
-    var9 = 25;
+    var9 = 26;
     var9 = var7[var9];
     var9 = var8.bind(var1)(var9);
     var11 = var9.Store;
@@ -2307,7 +2324,7 @@ case 153:
 case 0:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 36;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -2380,7 +2397,7 @@ case 104:
                     var7 = undefined;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var6 = 37;
+                    var6 = 38;
                     var6 = var12[var6];
                     var12 = var11.bind(var5)(var6);
                     var11 = var12.callOnce;
@@ -2397,14 +2414,14 @@ case 162: // try_start_0
                     _closure4_slot1 = var14;
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var6 = 38;
+                    var6 = 39;
                     var6 = var12[var6];
                     var13 = var11.bind(var5)(var6);
                     var6 = var13.carefullyOpenDatabase;
                     var6 = var6.bind(var13)(var14);
                     var10 = var6;
                     _closure4_slot2 = var6;
-                    var6 = 16;
+                    var6 = 17;
                     var6 = var12[var6];
                     var6 = var11.bind(var5)(var6);
                     var12 = var6.loadMiniCache;
@@ -2454,7 +2471,7 @@ case 168:
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 26;
+                            var1 = 27;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -2519,14 +2536,14 @@ case 176: // catch_target0 // catch_target1
                     var6 = var8.bind(var9)(var6, var10, var7);
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var6 = 27;
+                    var6 = 28;
                     var6 = var8[var6];
                     var9 = var7.bind(var5)(var6);
                     var6 = 'cache:exception';
                     var6 = var9.bind(var5)(var6);
                     var6 = var3;
                     var6 = var6.bind(var5)();
-                    var6 = 26;
+                    var6 = 27;
                     var6 = var8[var6];
                     var8 = var7.bind(var5)(var6);
                     var7 = var8.dispatch;
@@ -2544,7 +2561,7 @@ case 175:
 case 161:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 27;
+                    var4 = 28;
                     var4 = var7[var4];
                     var6 = var6.bind(var5)(var4);
                     var4 = 'cache:lazy_cache_not_initializing';
@@ -2603,7 +2620,7 @@ case 160:
     };
     var9 = var9.bind(var1)(var11);
     var9['displayName'] = var4;
-    var4 = 26;
+    var4 = 27;
     var4 = var7[var4];
     var15 = var8.bind(var1)(var4);
     var4 = {};
@@ -2691,7 +2708,7 @@ case 160:
     var14 = var4;
     var4 = new var16[var9](var15, var14, var13);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 39;
+    var5 = 40;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

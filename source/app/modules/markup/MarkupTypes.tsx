@@ -60,8 +60,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD'] = var1;
     var1 = 'attachmentLink';
     var2['ATTACHMENT_LINK'] = var1;
-    var1 = 'shopLink';
-    var2['SHOP_LINK'] = var1;
     var1 = 'soundboard';
     var2['SOUNDBOARD'] = var1;
     var1 = 'staticRouteLink';

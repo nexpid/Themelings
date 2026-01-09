@@ -208,15 +208,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var7];
     var9 = var5.bind(var1)(var9);
     var9 = var9.AST_KEY;
-    var10 = var9.SHOP_LINK;
-    var9 = var6[var4];
-    var9 = var8.bind(var1)(var9);
-    var9 = var9.RULES;
-    var9 = var9.shopLink;
-    var2[var10] = var9;
-    var9 = var6[var7];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.AST_KEY;
     var10 = var9.SUBTEXT;
     var9 = var6[var4];
     var9 = var8.bind(var1)(var9);

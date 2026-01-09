@@ -241,7 +241,7 @@ case 2:
         return var1;
     };
     var _closure1_slot13 = var6;
-    var4 = function fetchApplicationWidgetApplicationConfigs() {
+    var4 = function fetchApplicationWidgetConfigs() {
         var1 = undefined;
         var4 = _closure1_slot15;
         var3 = var4.apply;
@@ -252,7 +252,7 @@ case 2:
         return var1;
     };
     var _closure1_slot14 = var4;
-    var1 = function _fetchApplicationWidgetApplicationConfigs() {
+    var1 = function _fetchApplicationWidgetConfigs() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -265,12 +265,12 @@ case 0:
                     if(var2) { _fun0002_ip = 14; continue _fun0002 }
 case 3:
                     var2 = _closure1_slot5;
-                    var3 = var2.applicationWidgetApplicationConfigs;
+                    var3 = var2.applicationWidgetConfigs;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
                     var2 = _closure1_slot5;
-                    var2 = var2.applicationWidgetApplicationConfigs;
+                    var2 = var2.applicationWidgetConfigs;
                     var3 = var2.length;
                     var2 = 0;
                     if(!(!(var3 > var2))) { _fun0002_ip = 25; continue _fun0002 }
@@ -283,7 +283,7 @@ case 23:
                     var7 = var4.bind(var5)(var2);
                     var4 = var7.dispatch;
                     var2 = {};
-                    var8 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_START';
+                    var8 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_START';
                     var2['type'] = var8;
                     var2 = var4.bind(var7)(var2);
 case 26: // try_start_0
@@ -314,7 +314,7 @@ case 30:
                     var8 = var7.bind(var5)(var4);
                     var7 = var8.dispatch;
                     var4 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_SUCCESS';
+                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_SUCCESS';
                     var4['type'] = var9;
                     var9 = var2.body;
                     var9 = var9.application_configs;
@@ -332,7 +332,7 @@ case 32: // catch_target0
                     var8 = var4.bind(var5)(var3);
                     var7 = var8.dispatch;
                     var3 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_FAILURE';
+                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_FAILURE';
                     var3['type'] = var9;
                     var3 = var7.bind(var8)(var3);
                     var3 = 12;
@@ -407,7 +407,7 @@ case 14:
     var2['getQueryId'] = var12;
     var12 = function get() {
         var1 = _closure1_slot5;
-        var1 = var1.applicationWidgetApplicationConfigs;
+        var1 = var1.applicationWidgetConfigs;
         return var1;
     };
     var2['get'] = var12;
@@ -766,7 +766,7 @@ case 40:
         return var1;
     };
     var3['setTryItOutPreset'] = var5;
-    var3['fetchApplicationWidgetApplicationConfigs'] = var4;
-    var3['useApplicationWidgetApplicationConfigs'] = var2;
+    var3['fetchApplicationWidgetConfigs'] = var4;
+    var3['useApplicationWidgetConfigs'] = var2;
     return var1;
 })();

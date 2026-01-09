@@ -90,6 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FirstFrameEncryptedStats'] = var1;
     var1 = 'video-encoder-fallback';
     var2['VideoEncoderFallback'] = var1;
+    var1 = 'video-decoder-fallback';
+    var2['VideoDecoderFallback'] = var1;
     var1 = 'remote-streams-ready';
     var2['RemoteStreamsReady'] = var1;
     var1 = 'mls-failure';

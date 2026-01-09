@@ -3,20 +3,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = metroImportDefault;
     var3 = exports;
     var5 = dependencyMap;
-    var1 = function makeLogKey(arg1, arg2, arg3, arg4) {
+    var1 = function makeLogKey(arg1, arg2, arg3, arg4, arg5) {
         var1 = global;
         var1 = var1.HermesInternal;
-        var7 = var1.concat;
-        var15 = '';
-        var14 = arg1;
-        var4 = ':';
-        var12 = arg2;
-        var10 = arg3;
-        var8 = arg4;
-        var13 = var4;
-        var11 = var4;
-        var9 = var4;
-        var1 = var15[var7](var14, var13, var12, var11, var10, var9, var8, var7);
+        var8 = var1.concat;
+        var18 = '';
+        var17 = arg1;
+        var5 = ':';
+        var15 = arg2;
+        var13 = arg3;
+        var11 = arg4;
+        var9 = arg5;
+        var16 = var5;
+        var14 = var5;
+        var12 = var5;
+        var10 = var5;
+        var1 = var18[var8](var17, var16, var15, var14, var13, var12, var11, var10, var9, var8);
         return var1;
     };
     var _closure1_slot2 = var1;
@@ -80,40 +82,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var2 = 'recordChannelFetchStart';
         var1['key'] = var2;
-        var2 = function value(arg1, arg2, arg3, arg4) {
+        var2 = function value(arg1, arg2, arg3, arg4, arg5) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var9 = arg1;
-                var10 = arg2;
-                var8 = arg3;
-                var6 = arg4;
+                var10 = arg3;
+                var8 = arg4;
+                var6 = arg5;
                 var1 = this;
                 var3 = var1.channelsFetchStarted;
                 var2 = var3.add;
                 var2 = var2.bind(var3)(var9);
                 var5 = var1.fetchLogs;
                 var4 = var5.set;
-                var11 = _closure1_slot2;
+                var12 = _closure1_slot2;
                 var7 = null;
                 var1 = var7 != var10;
-                var3 = null;
+                var11 = null;
                 if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var3 = var10;
+                var11 = var10;
 case 2:
                 var1 = var7 != var8;
-                var2 = null;
+                var3 = null;
                 if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var2 = var8;
+                var3 = var8;
 case 4:
                 var1 = undefined;
-                var16 = undefined;
-                var15 = var9;
+                var16 = arg2;
+                var18 = undefined;
+                var17 = var9;
+                var15 = var11;
                 var14 = var3;
-                var13 = var2;
-                var12 = var6;
-                var3 = var16[var11](var15, var14, var13, var12, var11);
+                var13 = var6;
+                var3 = var18[var12](var17, var16, var15, var14, var13, var12);
                 var2 = {};
                 var2['channelId'] = var9;
                 var11 = var7 != var10;
@@ -136,9 +139,6 @@ case 8:
                 var6 = var7.now;
                 var6 = var6.bind(var7)();
                 var2['startTime'] = var6;
-                var6 = false;
-                var2['hadLocalMessages'] = var6;
-                var2['fetchedFromNetwork'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }
@@ -149,45 +149,64 @@ case 8:
         var1 = {};
         var6 = 'recordChannelFetchedLocal';
         var1['key'] = var6;
-        var6 = function value(arg1, arg2, arg3, arg4) {
+        var6 = function value(arg1, arg2, arg3, arg4, arg5, arg6) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var9 = arg1;
-                var3 = arg2;
-                var1 = arg3;
-                var2 = this;
-                var5 = var2.channelsFetchedWithLocalMessages;
+                var11 = arg1;
+                var2 = arg3;
+                var1 = arg4;
+                var7 = arg6;
+                var3 = this;
+                var5 = var3.channelsFetchedWithLocalMessages;
                 var4 = var5.add;
-                var4 = var4.bind(var5)(var9);
-                var5 = var2.fetchLogs;
-                var4 = var5.get;
-                var8 = _closure1_slot2;
-                var2 = null;
-                var6 = var2 != var3;
-                var7 = null;
-                if(!var6) { _fun0002_ip = 3; continue _fun0002 }
-case 10:
-                var7 = var3;
+                var4 = var4.bind(var5)(var11);
+                var5 = var3.fetchLogs;
+                var3 = var5.get;
+                var10 = _closure1_slot2;
+                var4 = null;
+                var6 = var4 != var2;
+                var9 = null;
+                if(!var6) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                var3 = var2 != var1;
-                var6 = null;
-                if(!var3) { _fun0002_ip = 5; continue _fun0002 }
-case 11:
-                var6 = var1;
+                var9 = var2;
+case 2:
+                var2 = var4 != var1;
+                var8 = null;
+                if(!var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+                var8 = var1;
+case 4:
                 var1 = undefined;
-                var10 = arg4;
-                var14 = undefined;
-                var13 = var9;
-                var12 = var7;
-                var11 = var6;
-                var3 = var14[var8](var13, var12, var11, var10, var9);
-                var3 = var4.bind(var5)(var3);
-                if(!(var2 != var3)) { _fun0002_ip = 12; continue _fun0002 }
+                var15 = arg2;
+                var12 = arg5;
+                var17 = undefined;
+                var16 = var11;
+                var14 = var9;
+                var13 = var8;
+                var2 = var17[var10](var16, var15, var14, var13, var12, var11);
+                var3 = var3.bind(var5)(var2);
+                if(!(var4 != var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                var2 = {};
+                var5 = global;
+                var6 = var5.Date;
+                var5 = var6.now;
+                var5 = var5.bind(var6)();
+                var2['loadTime'] = var5;
+                var5 = var7.length;
+                var2['count'] = var5;
+                var6 = var7.at;
+                var5 = -1;
+                var5 = var6.bind(var7)(var5);
+                var6 = var4 == var5;
+                var4 = undefined;
+                if(var6) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var2 = true;
-                var3['hadLocalMessages'] = var2;
+                var4 = var5.id;
 case 12:
+                var2['lastMessageId'] = var4;
+                var3['localMessageDetails'] = var2;
+case 10:
                 return var1;
             }
         };
@@ -196,45 +215,64 @@ case 12:
         var1 = {};
         var6 = 'recordChannelFetchedNetwork';
         var1['key'] = var6;
-        var5 = function value(arg1, arg2, arg3, arg4) {
+        var5 = function value(arg1, arg2, arg3, arg4, arg5, arg6) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var9 = arg1;
-                var3 = arg2;
-                var1 = arg3;
-                var2 = this;
-                var5 = var2.channelsFetchedNetwork;
+                var11 = arg1;
+                var2 = arg3;
+                var1 = arg4;
+                var7 = arg6;
+                var3 = this;
+                var5 = var3.channelsFetchedNetwork;
                 var4 = var5.add;
-                var4 = var4.bind(var5)(var9);
-                var5 = var2.fetchLogs;
-                var4 = var5.get;
-                var8 = _closure1_slot2;
-                var2 = null;
-                var6 = var2 != var3;
-                var7 = null;
-                if(!var6) { _fun0003_ip = 3; continue _fun0003 }
-case 10:
-                var7 = var3;
+                var4 = var4.bind(var5)(var11);
+                var5 = var3.fetchLogs;
+                var3 = var5.get;
+                var10 = _closure1_slot2;
+                var4 = null;
+                var6 = var4 != var2;
+                var9 = null;
+                if(!var6) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-                var3 = var2 != var1;
-                var6 = null;
-                if(!var3) { _fun0003_ip = 5; continue _fun0003 }
-case 11:
-                var6 = var1;
+                var9 = var2;
+case 2:
+                var2 = var4 != var1;
+                var8 = null;
+                if(!var2) { _fun0003_ip = 4; continue _fun0003 }
 case 5:
+                var8 = var1;
+case 4:
                 var1 = undefined;
-                var10 = arg4;
-                var14 = undefined;
-                var13 = var9;
-                var12 = var7;
-                var11 = var6;
-                var3 = var14[var8](var13, var12, var11, var10, var9);
-                var3 = var4.bind(var5)(var3);
-                if(!(var2 != var3)) { _fun0003_ip = 12; continue _fun0003 }
+                var15 = arg2;
+                var12 = arg5;
+                var17 = undefined;
+                var16 = var11;
+                var14 = var9;
+                var13 = var8;
+                var2 = var17[var10](var16, var15, var14, var13, var12, var11);
+                var3 = var3.bind(var5)(var2);
+                if(!(var4 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                var2 = {};
+                var5 = global;
+                var6 = var5.Date;
+                var5 = var6.now;
+                var5 = var5.bind(var6)();
+                var2['loadTime'] = var5;
+                var5 = var7.length;
+                var2['count'] = var5;
+                var6 = var7.at;
+                var5 = -1;
+                var5 = var6.bind(var7)(var5);
+                var6 = var4 == var5;
+                var4 = undefined;
+                if(var6) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                var2 = true;
-                var3['fetchedFromNetwork'] = var2;
+                var4 = var5.id;
 case 12:
+                var2['lastMessageId'] = var4;
+                var3['networkMessageDetails'] = var2;
+case 10:
                 return var1;
             }
         };
@@ -258,5 +296,7 @@ case 12:
     var4 = 'modules/local_message_caching/MessageCacheStats.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
+    var2 = 'NativeAppStartup';
+    var3['INITIAL_MESSAGE_FETCH_KEY'] = var2;
     return var1;
 })();

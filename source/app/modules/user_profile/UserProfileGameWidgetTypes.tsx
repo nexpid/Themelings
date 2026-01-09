@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(6);
+        var2 = new Array(7);
         var2[0] = var1;
         var1 = {};
         var6 = 'isDiscardable';
@@ -177,6 +177,16 @@ case 4:
         var1['value'] = var6;
         var2[3] = var1;
         var1 = {};
+        var6 = 'getUniqueKey';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.type;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
         var6 = 'getProfileAnalyticsOptions';
         var1['key'] = var6;
         var6 = function value() {
@@ -187,7 +197,7 @@ case 4:
             return var1;
         };
         var1['value'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'getProfileEditAnalyticsOptions';
         var1['key'] = var6;
@@ -199,12 +209,13 @@ case 4:
             return var1;
         };
         var1['value'] = var5;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = undefined;
         var1 = var3.bind(var1)(var4, var2);
         return var1;
     };
     var2 = var2.bind(var1)();
+    var _closure1_slot5 = var2;
     var6 = 5;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -212,12 +223,18 @@ case 4:
     var6 = 'modules/user_profile/UserProfileGameWidgetTypes.tsx';
     var6 = var7.bind(var8)(var6);
     var3['GAME_WIDGET_TYPES'] = var5;
-    var4 = function isGameWidget(arg1) {
+    var5 = function isGameWidgetType(arg1) {
         var3 = _closure1_slot4;
         var2 = var3.includes;
         var1 = arg1;
-        var1 = var1.type;
         var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['isGameWidgetType'] = var5;
+    var4 = function isGameWidget(arg1) {
+        var2 = _closure1_slot5;
+        var1 = arg1;
+        var1 = var1 instanceof var2;
         return var1;
     };
     var3['isGameWidget'] = var4;

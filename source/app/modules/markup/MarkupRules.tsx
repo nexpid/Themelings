@@ -1101,11 +1101,6 @@ case 98:
     var2 = var17.bind(var1)(var2);
     var2 = var2.attachmentLink;
     var8['attachmentLink'] = var2;
-    var2 = 18;
-    var2 = var6[var2];
-    var2 = var17.bind(var1)(var2);
-    var2 = var2.shopLink;
-    var8['shopLink'] = var2;
     var2 = {};
     var9 = var6[var7];
     var9 = var17.bind(var1)(var9);
@@ -1239,7 +1234,7 @@ case 103:
 case 104:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 19;
+            var3 = 18;
             var3 = var7[var3];
             var7 = undefined;
             var8 = var6.bind(var7)(var3);
@@ -1327,7 +1322,7 @@ case 112:
 case 113:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 20;
+            var5 = 19;
             var5 = var9[var5];
             var7 = var6.bind(var7)(var5);
             var6 = var7.getApplicationIconURL;
@@ -1427,7 +1422,7 @@ case 101:
 case 0:
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var7 = 21;
+            var7 = 20;
             var1 = var1[var7];
             var6 = undefined;
             var1 = var2.bind(var6)(var1);
@@ -1464,7 +1459,7 @@ case 0:
             var4 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 20;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -1504,7 +1499,7 @@ case 116:
     var9 = function match(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 22;
+        var1 = 21;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1518,7 +1513,7 @@ case 116:
     var9 = function parse(arg1, arg2, arg3) {
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 22;
+        var1 = 21;
         var1 = var3[var1];
         var4 = undefined;
         var3 = var2.bind(var4)(var1);
@@ -1572,7 +1567,7 @@ case 116:
     var9 = function match(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 23;
+        var1 = 22;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1630,7 +1625,7 @@ case 121:
 case 29:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 23;
+            var1 = 22;
             var1 = var7[var1];
             var2 = var2.bind(var6)(var1);
             var1 = var2.parseTimestamp;
@@ -1755,7 +1750,7 @@ case 34:
             var6 = var6[var1];
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 24;
+            var1 = 23;
             var9 = var10[var1];
             var11 = var7.bind(var5)(var9);
             var9 = var11.staticRouteToTranslation;
@@ -1803,30 +1798,30 @@ case 127:
     };
     var2['parse'] = var4;
     var8['staticRouteLink'] = var2;
-    var2 = 25;
+    var2 = 24;
     var2 = var6[var2];
     var2 = var17.bind(var1)(var2);
     var8['heading'] = var2;
-    var2 = 26;
+    var2 = 25;
     var2 = var6[var2];
     var2 = var17.bind(var1)(var2);
     var8['list'] = var2;
-    var2 = 27;
+    var2 = 26;
     var2 = var6[var2];
     var2 = var17.bind(var1)(var2);
     var8['subtext'] = var2;
-    var2 = 28;
+    var2 = 27;
     var4 = var6[var2];
     var7 = var17.bind(var1)(var4);
     var4 = new Array(2);
     var4[0] = var8;
-    var8 = 29;
+    var8 = 28;
     var8 = var6[var8];
     var8 = var17.bind(var1)(var8);
     var4[1] = var8;
     var15 = var7.bind(var1)(var4);
     var _closure1_slot20 = var15;
-    var16 = 30;
+    var16 = 29;
     var4 = var6[var16];
     var8 = var17.bind(var1)(var4);
     var7 = var8.omit;
@@ -2055,7 +2050,7 @@ case 137:
     var2['PROFILE_BIO_RULES'] = var8;
     var2['AUTO_MODERATION_SYSTEM_MESSAGE_RULES'] = var7;
     var2['NATIVE_SEARCH_RESULT_LINK_RULES'] = var4;
-    var4 = 31;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

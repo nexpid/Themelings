@@ -322,7 +322,7 @@ case 20:
         return var1;
     };
     var3['messageAttachmentToMediaItem'] = var4;
-    var2 = function embedMediaToMediaItem(arg1, arg2, arg3) {
+    var4 = function embedMediaToMediaItem(arg1, arg2, arg3) {
         var2 = arg1;
         var1 = {};
         var3 = arg3;
@@ -345,6 +345,34 @@ case 20:
         var1['contentType'] = var2;
         return var1;
     };
-    var3['embedMediaToMediaItem'] = var2;
+    var3['embedMediaToMediaItem'] = var4;
+    var2 = function isVisualUnfurledMediaItem(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var1 = var2.width;
+            var4 = null;
+            var1 = var4 != var1;
+            if(!var1) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+            var5 = var2.width;
+            var3 = 0;
+            var1 = var5 > var3;
+case 24:
+            if(!var1) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
+            var3 = var2.height;
+            var1 = var4 != var3;
+case 26:
+            if(!var1) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
+            var3 = var2.height;
+            var2 = 0;
+            var1 = var3 > var2;
+case 28:
+            return var1;
+        }
+    };
+    var3['isVisualUnfurledMediaItem'] = var2;
     return var1;
 })();

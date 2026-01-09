@@ -7,6 +7,173 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function CacheLogEntry(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var13 = var1.entry;
+            var7 = global;
+            var3 = var7.Date;
+            var22 = var13.startTime;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var23 = var2;
+            var1 = new var23[var3](var22, var21);
+            var2 = var1 instanceof Object ? var1 : var2;
+            var1 = var2.toLocaleString;
+            var2 = var1.bind(var2)();
+            var1 = var7.HermesInternal;
+            var1 = var1.concat;
+            var12 = '';
+            var10 = var1.bind(var12)(var2);
+            var1 = var13.before;
+            var11 = null;
+            var2 = var11 != var1;
+            var8 = 'null';
+            var6 = var8;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var6 = var1;
+case 2:
+            var1 = var13.after;
+            var2 = var11 != var1;
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var8 = var1;
+case 4:
+            var18 = var13.limit;
+            var1 = var7.HermesInternal;
+            var4 = var1.concat;
+            var23 = 'Before: ';
+            var21 = ', After: ';
+            var19 = ', Limit: ';
+            var22 = var6;
+            var20 = var8;
+            var9 = var23[var4](var22, var21, var20, var19, var18, var17);
+            var1 = var13.localMessageDetails;
+            var1 = var11 != var1;
+            var8 = 'Cache Missed';
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var1 = var13.localMessageDetails;
+            var22 = var1.count;
+            var1 = var13.localMessageDetails;
+            var2 = var1.loadTime;
+            var1 = var13.startTime;
+            var20 = var2 - var1;
+            var1 = var7.HermesInternal;
+            var4 = var1.concat;
+            var23 = 'Cache Hit: ';
+            var21 = ' messages in ';
+            var19 = 'ms';
+            var8 = var23[var4](var22, var21, var20, var19, var18);
+case 6:
+            var1 = var13.networkMessageDetails;
+            var1 = var11 != var1;
+            var6 = 'No Network Fetch';
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var1 = var13.networkMessageDetails;
+            var22 = var1.count;
+            var1 = var13.networkMessageDetails;
+            var2 = var1.loadTime;
+            var1 = var13.startTime;
+            var20 = var2 - var1;
+            var1 = var7.HermesInternal;
+            var4 = var1.concat;
+            var23 = 'Network: ';
+            var21 = ' messages in ';
+            var19 = 'ms';
+            var6 = var23[var4](var22, var21, var20, var19, var18);
+case 8:
+            var1 = var13.localMessageDetails;
+            var1 = var11 == var1;
+            var5 = 'Comparision unavailable (no local cache data)';
+            if(var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var1 = var13.networkMessageDetails;
+            var2 = var11 == var1;
+            var1 = 'Comparision unavailable (no network data)';
+            if(var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var2 = var13.localMessageDetails;
+            var3 = var2.count;
+            var2 = var13.networkMessageDetails;
+            var2 = var2.count;
+            if(!(var3 === var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var2 = var13.localMessageDetails;
+            var4 = var2.lastMessageId;
+            var2 = var13.networkMessageDetails;
+            var3 = var2.lastMessageId;
+            var2 = 'Cache was up-to-date';
+            if(!(var4 !== var3)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var3 = var13.localMessageDetails;
+            var16 = var3.lastMessageId;
+            var3 = var13.networkMessageDetails;
+            var15 = var3.lastMessageId;
+            var3 = var7.HermesInternal;
+            var14 = var3.concat;
+            var4 = 'Cache last message ID ';
+            var3 = ' differs from network last message ID ';
+            var2 = var14.bind(var4)(var16, var3, var15);
+case 16:
+            _fun0001_ip = 18; continue _fun0001;
+case 14:
+            var3 = var13.localMessageDetails;
+            var22 = var3.count;
+            var3 = var13.networkMessageDetails;
+            var20 = var3.count;
+            var3 = var7.HermesInternal;
+            var15 = var3.concat;
+            var23 = 'Cache had ';
+            var21 = ' messages vs ';
+            var19 = ' from network';
+            var2 = var23[var15](var22, var21, var20, var19, var18);
+case 18:
+            var1 = var2;
+case 12:
+            var5 = var1;
+case 10:
+            var4 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.TableRow;
+            var1 = {};
+            var15 = _closure1_slot4;
+            var14 = var15.getChannel;
+            var13 = var13.channelId;
+            var13 = var14.bind(var15)(var13);
+            var14 = var11 == var13;
+            var11 = undefined;
+            if(var14) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var11 = var13.name;
+case 19:
+            var7 = var7.HermesInternal;
+            var7 = var7.concat;
+            var7 = var7.bind(var12)(var11);
+            var1['label'] = var7;
+            var7 = new Array(5);
+            var7[0] = var10;
+            var7[1] = var9;
+            var7[2] = var8;
+            var7[3] = var6;
+            var7[4] = var5;
+            var6 = var7.join;
+            var5 = '\n';
+            var5 = var6.bind(var7)(var5);
+            var1['subLabel'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot8 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -74,196 +241,135 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['contentContainerStyle'] = var5;
         var7 = _closure1_slot6;
         var10 = _closure1_slot0;
-        var15 = _closure1_slot2;
-        var5 = 5;
-        var5 = var15[var5];
+        var16 = _closure1_slot2;
+        var5 = 6;
+        var5 = var16[var5];
         var5 = var10.bind(var4)(var5);
         var6 = var5.Stack;
         var5 = {};
-        var11 = 8;
-        var5['spacing'] = var11;
-        var9 = 6;
-        var8 = var15[var9];
+        var12 = 8;
+        var5['spacing'] = var12;
+        var9 = 7;
+        var8 = var16[var9];
         var8 = var10.bind(var4)(var8);
-        var12 = var8.TableRowGroup;
+        var13 = var8.TableRowGroup;
         var8 = {};
-        var13 = 'Local Message Cache Stats';
-        var8['title'] = var13;
-        var16 = 7;
-        var13 = var15[var16];
-        var13 = var10.bind(var4)(var13);
-        var17 = var13.TableRow;
-        var13 = {};
-        var18 = 'Channels Fetched';
-        var13['label'] = var18;
-        var14 = _closure1_slot1;
-        var18 = var15[var11];
-        var18 = var14.bind(var4)(var18);
-        var18 = var18.channelsFetchStarted;
-        var18 = var18.size;
-        var13['subLabel'] = var18;
-        var17 = var3.bind(var4)(var17, var13);
-        var13 = new Array(4);
-        var13[0] = var17;
-        var17 = var15[var16];
+        var14 = 'Local Message Cache Stats';
+        var8['title'] = var14;
+        var19 = _closure1_slot5;
+        var17 = 5;
+        var14 = var16[var17];
+        var14 = var10.bind(var4)(var14);
+        var18 = var14.TableRow;
+        var14 = {};
+        var15 = 'Channels Fetched';
+        var14['label'] = var15;
+        var15 = _closure1_slot1;
+        var20 = var16[var12];
+        var20 = var15.bind(var4)(var20);
+        var20 = var20.channelsFetchStarted;
+        var20 = var20.size;
+        var14['subLabel'] = var20;
+        var18 = var19.bind(var4)(var18, var14);
+        var14 = new Array(4);
+        var14[0] = var18;
+        var20 = _closure1_slot5;
+        var18 = var16[var17];
+        var18 = var10.bind(var4)(var18);
+        var19 = var18.TableRow;
+        var18 = {};
+        var21 = 'Cache Hits';
+        var18['label'] = var21;
+        var21 = var16[var12];
+        var21 = var15.bind(var4)(var21);
+        var21 = var21.channelsFetchedWithLocalMessages;
+        var21 = var21.size;
+        var18['subLabel'] = var21;
+        var18 = var20.bind(var4)(var19, var18);
+        var14[1] = var18;
+        var20 = _closure1_slot5;
+        var18 = var16[var17];
+        var18 = var10.bind(var4)(var18);
+        var19 = var18.TableRow;
+        var18 = {};
+        var21 = 'Cache Misses';
+        var18['label'] = var21;
+        var21 = var16[var12];
+        var21 = var15.bind(var4)(var21);
+        var21 = var21.channelsFetchedNetwork;
+        var22 = var21.size;
+        var21 = var16[var12];
+        var21 = var15.bind(var4)(var21);
+        var21 = var21.channelsFetchedWithLocalMessages;
+        var21 = var21.size;
+        var21 = var22 - var21;
+        var18['subLabel'] = var21;
+        var18 = var20.bind(var4)(var19, var18);
+        var14[2] = var18;
+        var19 = _closure1_slot5;
+        var17 = var16[var17];
         var17 = var10.bind(var4)(var17);
         var18 = var17.TableRow;
         var17 = {};
-        var19 = 'Cache Hits';
-        var17['label'] = var19;
-        var19 = var15[var11];
-        var19 = var14.bind(var4)(var19);
-        var19 = var19.channelsFetchedWithLocalMessages;
-        var19 = var19.size;
-        var17['subLabel'] = var19;
-        var17 = var3.bind(var4)(var18, var17);
-        var13[1] = var17;
-        var17 = var15[var16];
-        var17 = var10.bind(var4)(var17);
-        var18 = var17.TableRow;
-        var17 = {};
-        var19 = 'Cache Misses';
-        var17['label'] = var19;
-        var19 = var15[var11];
-        var19 = var14.bind(var4)(var19);
-        var19 = var19.channelsFetchedNetwork;
-        var20 = var19.size;
-        var19 = var15[var11];
-        var19 = var14.bind(var4)(var19);
-        var19 = var19.channelsFetchedWithLocalMessages;
-        var19 = var19.size;
-        var19 = var20 - var19;
-        var17['subLabel'] = var19;
-        var17 = var3.bind(var4)(var18, var17);
-        var13[2] = var17;
-        var16 = var15[var16];
-        var16 = var10.bind(var4)(var16);
-        var17 = var16.TableRow;
-        var16 = {};
-        var18 = 'Incomplete Fetches';
-        var16['label'] = var18;
-        var18 = var15[var11];
-        var18 = var14.bind(var4)(var18);
-        var18 = var18.channelsFetchStarted;
-        var19 = var18.size;
-        var18 = var15[var11];
-        var18 = var14.bind(var4)(var18);
-        var18 = var18.channelsFetchedNetwork;
-        var18 = var18.size;
-        var18 = var19 - var18;
-        var16['subLabel'] = var18;
-        var16 = var3.bind(var4)(var17, var16);
-        var13[3] = var16;
-        var8['children'] = var13;
-        var12 = var7.bind(var4)(var12, var8);
+        var20 = 'Incomplete Fetches';
+        var17['label'] = var20;
+        var20 = var16[var12];
+        var20 = var15.bind(var4)(var20);
+        var20 = var20.channelsFetchStarted;
+        var21 = var20.size;
+        var20 = var16[var12];
+        var20 = var15.bind(var4)(var20);
+        var20 = var20.channelsFetchedNetwork;
+        var20 = var20.size;
+        var20 = var21 - var20;
+        var17['subLabel'] = var20;
+        var17 = var19.bind(var4)(var18, var17);
+        var14[3] = var17;
+        var8['children'] = var14;
+        var13 = var7.bind(var4)(var13, var8);
         var8 = new Array(3);
-        var8[0] = var12;
-        var12 = 9;
-        var12 = var15[var12];
-        var12 = var10.bind(var4)(var12);
-        var13 = var12.Text;
-        var12 = {'variant': 'text-sm/normal', 'color': 'text-muted', 'children': 'Cumulative since app launch. Does not update dynamically.'};
-        var12 = var3.bind(var4)(var13, var12);
-        var8[1] = var12;
-        var9 = var15[var9];
+        var8[0] = var13;
+        var17 = _closure1_slot5;
+        var13 = 9;
+        var13 = var16[var13];
+        var13 = var10.bind(var4)(var13);
+        var14 = var13.Text;
+        var13 = {'variant': 'text-sm/normal', 'color': 'text-muted', 'children': 'Cumulative since app launch. Does not update dynamically.'};
+        var13 = var17.bind(var4)(var14, var13);
+        var8[1] = var13;
+        var11 = _closure1_slot5;
+        var9 = var16[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.TableRowGroup;
         var9 = {};
-        var12 = 'Fetch Log (Reversed)';
-        var9['title'] = var12;
-        var12 = global;
-        var13 = var12.Array;
-        var12 = var13.from;
-        var11 = var15[var11];
-        var11 = var14.bind(var4)(var11);
-        var14 = var11.fetchLogs;
-        var11 = var14.values;
-        var11 = var11.bind(var14)();
-        var12 = var12.bind(var13)(var11);
-        var11 = var12.reverse;
-        var13 = var11.bind(var12)();
-        var12 = var13.map;
-        var11 = function(arg1, arg2) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var1 = arg1;
-                var5 = _closure1_slot5;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 7;
-                var2 = var4[var2];
-                var4 = undefined;
-                var2 = var3.bind(var4)(var2);
-                var3 = var2.TableRow;
-                var2 = {};
-                var8 = _closure1_slot4;
-                var7 = var8.getChannel;
-                var6 = var1.channelId;
-                var6 = var7.bind(var8)(var6);
-                var8 = null;
-                var7 = var8 == var6;
-                var9 = undefined;
-                if(var7) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var9 = var6.name;
-case 2:
-                var6 = global;
-                var7 = var6.HermesInternal;
-                var7 = var7.concat;
-                var15 = '';
-                var7 = var7.bind(var15)(var9);
-                var2['label'] = var7;
-                var10 = var6.Date;
-                var23 = var1.startTime;
-                var9 = var10.prototype;
-                var9 = Object.create(var9, {constructor: {value: var10}});
-                var24 = var9;
-                var7 = new var24[var10](var23, var22);
-                var9 = var7 instanceof Object ? var7 : var9;
-                var7 = var9.toLocaleString;
-                var14 = var7.bind(var9)();
-                var7 = var1.before;
-                var9 = var8 != var7;
-                var13 = 'null';
-                var12 = var13;
-                if(!var9) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                var12 = var7;
-case 4:
-                var7 = var1.after;
-                var8 = var8 != var7;
-                if(!var8) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                var13 = var7;
-case 6:
-                var17 = var1.limit;
-                var6 = var6.HermesInternal;
-                var10 = var6.concat;
-                var22 = '\nBefore: ';
-                var20 = ', After: ';
-                var18 = ', Limit: ';
-                var16 = '\nCache Hit: ';
-                var24 = var15;
-                var23 = var14;
-                var21 = var12;
-                var19 = var13;
-                var6 = var24[var10](var23, var22, var21, var20, var19, var18, var17, var16, var15);
-                var7 = var1.hadLocalMessages;
-                var1 = 'No';
-                if(!var7) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-                var1 = 'Yes';
-case 8:
-                var1 = var6 + var1;
-                var2['subLabel'] = var1;
-                var1 = arg2;
-                var1 = var5.bind(var4)(var3, var2, var1);
-                return var1;
-            }
+        var13 = 'Fetch Log (Reversed)';
+        var9['title'] = var13;
+        var13 = global;
+        var14 = var13.Array;
+        var13 = var14.from;
+        var12 = var16[var12];
+        var12 = var15.bind(var4)(var12);
+        var15 = var12.fetchLogs;
+        var12 = var15.values;
+        var12 = var12.bind(var15)();
+        var13 = var13.bind(var14)(var12);
+        var12 = var13.reverse;
+        var14 = var12.bind(var13)();
+        var13 = var14.map;
+        var12 = function(arg1, arg2) {
+            var5 = _closure1_slot5;
+            var4 = _closure1_slot8;
+            var3 = {};
+            var1 = arg1;
+            var3['entry'] = var1;
+            var2 = undefined;
+            var1 = arg2;
+            var1 = var5.bind(var2)(var4, var3, var1);
+            return var1;
         };
-        var11 = var12.bind(var13)(var11);
-        var9['children'] = var11;
-        var9 = var3.bind(var4)(var10, var9);
+        var12 = var13.bind(var14)(var12);
+        var9['children'] = var12;
+        var9 = var11.bind(var4)(var10, var9);
         var8[2] = var9;
         var5['children'] = var8;
         var5 = var7.bind(var4)(var6, var5);

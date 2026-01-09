@@ -50,7 +50,7 @@ case 0:
             var3 = var6[var3];
             var5 = undefined;
             var3 = var4.bind(var5)(var3);
-            var9 = var3.bind(var5)(var10);
+            var9 = var3.bind(var5)(var11, var10);
             var7 = _closure1_slot0;
             var3 = 4;
             var3 = var6[var3];

@@ -78,12 +78,12 @@ case 0:
             var17 = var9.disabled;
             var16 = var9.accessibilityState;
             var10 = var9.channelId;
-            var13 = var9.animationData;
+            var14 = var9.animationDataUrl;
             var11 = var9.onAnimationFinished;
             var12 = var9.loop;
             var1 = _closure1_slot7;
             var4 = undefined;
-            var14 = var1.bind(var4)();
+            var13 = var1.bind(var4)();
             var3 = _closure1_slot4;
             var1 = null;
             var15 = var3.bind(var4)(var1);
@@ -187,7 +187,7 @@ case 12:
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableOpacity;
             var5 = {};
-            var21 = var14.container;
+            var21 = var13.container;
             var10 = new Array(3);
             var10[0] = var21;
             var10[1] = var20;
@@ -220,8 +220,10 @@ case 16:
             var9 = var9.bind(var4)(var8);
             var8 = {};
             var8['ref'] = var15;
-            var14 = var14.animation;
-            var8['style'] = var14;
+            var13 = var13.animation;
+            var8['style'] = var13;
+            var13 = {};
+            var13['uri'] = var14;
             var8['source'] = var13;
             var8['loop'] = var12;
             var12 = false;

@@ -464,8 +464,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GROUP_DM_CONTEXT_MENU_CHANGE_ICON'] = var1;
     var1 = 'group dm context menu remove icon';
     var2['GROUP_DM_CONTEXT_MENU_REMOVE_ICON'] = var1;
-    var1 = 'dm condensed menu';
-    var2['DM_CONDENSED_MENU'] = var1;
     var1 = 'group dm edit modal';
     var2['GROUP_DM_EDIT_MODAL'] = var1;
     var1 = 'new group dm invite modal';
@@ -556,8 +554,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EDIT_NAMEPLATE_SHEET'] = var1;
     var1 = 'edit display name styles modal';
     var2['EDIT_DISPLAY_NAME_STYLES_MODAL'] = var1;
-    var1 = 'collectibles mobile shop marketing sheet';
-    var2['COLLECTIBLES_MOBILE_SHOP_MARKETING_SHEET'] = var1;
     var1 = 'channel_call_overflow_action_sheet';
     var2['CHANNEL_CALL_OVERFLOW_ACTION_SHEET'] = var1;
     var1 = 'activity coach mark nitro';

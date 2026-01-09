@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NoSoftwareDecode'] = var1;
     var1 = 'disabled';
     var4['Disabled'] = var1;
+    var1 = 'no_software_decode_with_fallback';
+    var4['NoSoftwareDecodeWithFallback'] = var1;
     var1 = 0;
     var5 = var7[var1];
     var1 = undefined;
@@ -37,6 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var4.Disabled;
     var11['treatment'] = var12;
     var10[2] = var11;
+    var11 = {};
+    var12 = var4.NoSoftwareDecodeWithFallback;
+    var11['treatment'] = var12;
+    var10[3] = var11;
     var5['variations'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot0 = var5;

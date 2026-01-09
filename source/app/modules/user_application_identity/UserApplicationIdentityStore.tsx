@@ -42,6 +42,36 @@ case 4:
         }
     };
     var _closure1_slot7 = var1;
+    var1 = function updateUserIdentities(arg1, arg2) {
+        var5 = arg2;
+        var1 = global;
+        var3 = var1.Map;
+        var2 = var5.map;
+        var1 = function(arg1) {
+            var2 = arg1;
+            var3 = var2.application_id;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var7 = var2.bind(var5)(var1);
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var8 = var2;
+        var1 = new var8[var3](var7, var6);
+        var1 = var1 instanceof Object ? var1 : var2;
+        var4 = _closure1_slot5;
+        var3 = var4.set;
+        var2 = {};
+        var2['identities'] = var5;
+        var2['byApplication'] = var1;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = undefined;
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var2 = global;
     var9 = var2.Object;
     var8 = var9.defineProperty;
@@ -140,19 +170,57 @@ case 0:
                 var3 = _closure1_slot5;
                 var2 = var3.get;
                 var1 = arg1;
-                var2 = var2.bind(var3)(var1);
+                var3 = var2.bind(var3)(var1);
                 var1 = null;
-                var3 = var1 != var2;
-                if(!var3) { _fun0003_ip = 9; continue _fun0003 }
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var1 = var2;
+                var2 = var3.identities;
 case 9:
+                var3 = var1 != var2;
+                var1 = null;
+                if(!var3) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                var1 = var2;
+case 11:
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(2);
+        var1 = new Array(3);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'getUserIdentityByApplication';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var3 = _closure1_slot5;
+                var2 = var3.get;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var1 = null;
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0004_ip = 13; continue _fun0004 }
+case 10:
+                var5 = var3.byApplication;
+                var4 = var5.get;
+                var3 = arg2;
+                var2 = var4.bind(var5)(var3);
+case 13:
+                var3 = var1 != var2;
+                var1 = null;
+                if(!var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                var1 = var2;
+case 14:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'isFetchingUser';
         var5['key'] = var7;
@@ -164,7 +232,7 @@ case 9:
             return var1;
         };
         var5['value'] = var6;
-        var1[1] = var5;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -189,12 +257,11 @@ case 9:
         var4 = var5.delete;
         var3 = var1.userId;
         var3 = var4.bind(var5)(var3);
-        var4 = _closure1_slot5;
-        var3 = var4.set;
-        var2 = var1.userId;
-        var1 = var1.identities;
-        var1 = var3.bind(var4)(var2, var1);
+        var4 = _closure1_slot8;
+        var3 = var1.userId;
+        var2 = var1.identities;
         var1 = undefined;
+        var2 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var2['USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS'] = var8;
@@ -209,21 +276,21 @@ case 9:
     };
     var2['USER_APPLICATION_IDENTITY_FETCH_USER_FAILURE'] = var8;
     var4 = function handleRemoveIdentity(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var2 = arg1;
-            var _closure2_slot0 = var2;
+            var3 = arg1;
+            var _closure2_slot0 = var3;
             var6 = _closure1_slot5;
             var5 = var6.get;
-            var4 = var2.user_id;
-            var6 = var5.bind(var6)(var4);
-            var4 = null;
-            if(!(var4 != var6)) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-            var4 = _closure1_slot5;
-            var3 = var4.set;
-            var2 = var2.user_id;
-            var5 = var6.filter;
+            var2 = var3.user_id;
+            var2 = var5.bind(var6)(var2);
+            var5 = null;
+            if(!(var5 != var2)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+            var4 = _closure1_slot8;
+            var3 = var3.user_id;
+            var5 = var2.identities;
+            var2 = var5.filter;
             var1 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.application_id;
@@ -232,11 +299,11 @@ case 12:
                 var1 = var2 !== var1;
                 return var1;
             };
-            var1 = var5.bind(var6)(var1);
-            var1 = var3.bind(var4)(var2, var1);
+            var2 = var2.bind(var5)(var1);
             var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
             return var1;
-case 11:
+case 16:
             var1 = false;
             return var1;
         }

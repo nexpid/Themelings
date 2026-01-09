@@ -192,17 +192,26 @@ case 0:
         var15 = var16.resolve;
         var13 = 11;
         var13 = var8[var13];
-        var13 = var7.bind(var1)(var13);
-        var18 = var13.InstantInviteQRCodeExperiment;
-        var17 = var18.getConfig;
-        var13 = {};
-        var19 = 'InstantInviteConstants';
-        var13['location'] = var19;
-        var13 = var17.bind(var18)(var13);
-        var13 = var13.enabled;
+        var17 = var7.bind(var1)(var13);
+        var13 = var17.isMetaQuest;
+        var13 = var13.bind(var17)();
+        var13 = !var13;
+        if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+        var17 = 12;
+        var17 = var8[var17];
+        var17 = var7.bind(var1)(var17);
+        var19 = var17.InstantInviteQRCodeExperiment;
+        var18 = var19.getConfig;
+        var17 = {};
+        var20 = 'InstantInviteConstants';
+        var17['location'] = var20;
+        var17 = var18.bind(var19)(var17);
+        var13 = var17.enabled;
+case 2:
         var13 = var15.bind(var16)(var13);
         var9['isAvailable'] = var13;
-        var13 = 12;
+        var13 = 13;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['IconComponent'] = var13;
@@ -230,16 +239,16 @@ case 0:
             var8 = var1.location;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var4 = var12[var1];
             var1 = undefined;
             var7 = var11.bind(var1)(var4);
             var6 = var7.openLazy;
             var4 = _closure1_slot0;
-            var3 = 15;
+            var3 = 16;
             var3 = var12[var3];
             var5 = var4.bind(var1)(var3);
-            var3 = 14;
+            var3 = 15;
             var4 = var12[var3];
             var3 = var12.paths;
             var5 = var5.bind(var1)(var4, var3);
@@ -249,7 +258,7 @@ case 0:
             var3 = 'InstantInviteQRCodeActionSheet-';
             var15 = var4.bind(var3)(var10);
             var3 = {};
-            var9 = 16;
+            var9 = 17;
             var9 = var12[var9];
             var9 = var11.bind(var1)(var9);
             var9 = var9.bind(var1)(var10);
@@ -268,22 +277,10 @@ case 0:
         var9 = {};
         var13 = var5.MESSAGES;
         var9['type'] = var13;
-        var15 = 17;
+        var15 = 18;
         var13 = var8[var15];
         var16 = var7.bind(var1)(var13);
         var13 = var16.isIOS;
-        var16 = var13.bind(var16)();
-        var13 = undefined;
-        if(!var16) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-        var16 = 18;
-        var16 = var8[var16];
-        var13 = var14.bind(var1)(var16);
-case 2:
-        var9['fullIcon'] = var13;
-        var13 = var8[var15];
-        var16 = var7.bind(var1)(var13);
-        var13 = var16.isAndroid;
         var16 = var13.bind(var16)();
         var13 = undefined;
         if(!var16) { _fun0001_ip = 4; continue _fun0001 }
@@ -292,8 +289,20 @@ case 5:
         var16 = var8[var16];
         var13 = var14.bind(var1)(var16);
 case 4:
+        var9['fullIcon'] = var13;
+        var13 = var8[var15];
+        var16 = var7.bind(var1)(var13);
+        var13 = var16.isAndroid;
+        var16 = var13.bind(var16)();
+        var13 = undefined;
+        if(!var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+        var16 = 20;
+        var16 = var8[var16];
+        var13 = var14.bind(var1)(var16);
+case 6:
         var9['icon'] = var13;
-        var13 = 20;
+        var13 = 21;
         var16 = var8[var13];
         var17 = var7.bind(var1)(var16);
         var16 = var17.canSendSMS;
@@ -339,24 +348,24 @@ case 0:
                 var16 = var11;
                 var15 = var12;
                 var4 = var17[var8](var16, var15, var14, var13, var12);
-                var4 = 17;
+                var4 = 18;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isIOS;
                 var4 = var4.bind(var5)();
-                if(!var4) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 13;
+                var4 = 14;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.hideActionSheet;
                 var4 = var4.bind(var5)();
-case 6:
+case 8:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 20;
+                var3 = 21;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.sendSMS;
@@ -366,11 +375,11 @@ case 6:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = arg1;
-                        if(!var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                        if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var1 = var3[var1];
                         var7 = undefined;
                         var3 = var2.bind(var7)(var1);
@@ -381,17 +390,17 @@ case 9:
                         var8 = _closure2_slot0;
                         var4 = null;
                         var8 = var4 == var8;
-                        if(var8) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                        if(var8) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var6 = _closure2_slot0;
                         var7 = var6.id;
-case 10:
+case 12:
                         var8 = var4 != var7;
                         var6 = null;
-                        if(!var8) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                        if(!var8) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var6 = var7;
-case 12:
+case 14:
                         var1['channelId'] = var6;
                         var1['messageId'] = var4;
                         var4 = 'SMS Option';
@@ -402,13 +411,13 @@ case 12:
                         var4['send_type'] = var5;
                         var1['overrideProperties'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 8:
+case 10:
                         var1 = arg3;
-                        if(!var1) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                        if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var2 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var1 = 22;
+                        var1 = 23;
                         var1 = var9[var1];
                         var8 = undefined;
                         var3 = var2.bind(var8)(var1);
@@ -429,7 +438,7 @@ case 15:
                         var4 = true;
                         var1['isDismissable'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 14:
+case 16:
                         var1 = undefined;
                         return var1;
                     }
@@ -448,24 +457,24 @@ case 14:
         var16 = var17.isIOS;
         var17 = var16.bind(var17)();
         var16 = undefined;
-        if(!var17) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-        var17 = 23;
+        if(!var17) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+        var17 = 24;
         var17 = var8[var17];
         var16 = var14.bind(var1)(var17);
-case 16:
+case 18:
         var9['fullIcon'] = var16;
         var15 = var8[var15];
         var16 = var7.bind(var1)(var15);
         var15 = var16.isAndroid;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-        var16 = 24;
+        if(!var16) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+        var16 = 25;
         var16 = var8[var16];
         var15 = var14.bind(var1)(var16);
-case 18:
+case 20:
         var9['icon'] = var15;
         var13 = var8[var13];
         var15 = var7.bind(var1)(var13);
@@ -512,24 +521,24 @@ case 0:
                 var16 = var11;
                 var15 = var12;
                 var4 = var17[var8](var16, var15, var14, var13, var12);
-                var4 = 17;
+                var4 = 18;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isIOS;
                 var4 = var4.bind(var5)();
-                if(!var4) { _fun0004_ip = 6; continue _fun0004 }
-case 7:
+                if(!var4) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 13;
+                var4 = 14;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.hideActionSheet;
                 var4 = var4.bind(var5)();
-case 6:
+case 8:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 20;
+                var3 = 21;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.sendMail;
@@ -541,11 +550,11 @@ case 6:
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = arg1;
-                        if(!var1) { _fun0005_ip = 8; continue _fun0005 }
-case 9:
+                        if(!var1) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var1 = var3[var1];
                         var7 = undefined;
                         var3 = var2.bind(var7)(var1);
@@ -556,17 +565,17 @@ case 9:
                         var8 = _closure2_slot0;
                         var4 = null;
                         var8 = var4 == var8;
-                        if(var8) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
+                        if(var8) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                         var6 = _closure2_slot0;
                         var7 = var6.id;
-case 10:
+case 12:
                         var8 = var4 != var7;
                         var6 = null;
-                        if(!var8) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+                        if(!var8) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                         var6 = var7;
-case 12:
+case 14:
                         var1['channelId'] = var6;
                         var1['messageId'] = var4;
                         var4 = 'Email Option';
@@ -577,13 +586,13 @@ case 12:
                         var4['send_type'] = var5;
                         var1['overrideProperties'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 8:
+case 10:
                         var1 = arg3;
-                        if(!var1) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                        if(!var1) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                         var2 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var1 = 22;
+                        var1 = 23;
                         var1 = var9[var1];
                         var8 = undefined;
                         var3 = var2.bind(var8)(var1);
@@ -604,7 +613,7 @@ case 15:
                         var4 = true;
                         var1['isDismissable'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 14:
+case 16:
                         var1 = undefined;
                         return var1;
                     }
@@ -618,7 +627,7 @@ case 14:
         var9 = {};
         var13 = var5.FB_MESSENGER;
         var9['type'] = var13;
-        var13 = 25;
+        var13 = 26;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -652,7 +661,7 @@ case 14:
             var10 = var1.location;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var3 = var5[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -682,7 +691,7 @@ case 14:
         var9 = {};
         var13 = var5.GMAIL;
         var9['type'] = var13;
-        var13 = 26;
+        var13 = 27;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -743,7 +752,7 @@ case 14:
         var9 = {};
         var13 = var5.TELEGRAM;
         var9['type'] = var13;
-        var13 = 27;
+        var13 = 28;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -778,7 +787,7 @@ case 14:
             var11 = var1.location;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var3 = var5[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -808,7 +817,7 @@ case 14:
         var9 = {};
         var13 = var5.TWITTER;
         var9['type'] = var13;
-        var13 = 28;
+        var13 = 29;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -868,7 +877,7 @@ case 14:
         var9 = {};
         var13 = var5.WHATSAPP;
         var9['type'] = var13;
-        var13 = 29;
+        var13 = 30;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -928,7 +937,7 @@ case 14:
         var9 = {};
         var13 = var5.LINE;
         var9['type'] = var13;
-        var13 = 30;
+        var13 = 31;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -990,7 +999,7 @@ case 14:
         var2[0] = var9;
         var6 = var4[var6];
         var2[1] = var6;
-        var6 = 31;
+        var6 = 32;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;

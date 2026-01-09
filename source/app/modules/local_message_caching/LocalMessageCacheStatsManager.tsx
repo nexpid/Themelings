@@ -45,52 +45,133 @@ case 4:
         }
     };
     var _closure1_slot10 = var1;
-    var1 = function handleAppStateUpdate(arg1) {
+    var1 = function makeLogLine(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var4 = arg1;
+            var1 = var4.channelId;
+            var3 = new Array(4);
+            var3[0] = var1;
+            var1 = var4.localMessageDetails;
+            var6 = null;
+            var5 = var6 != var1;
+            var1 = '-1';
+            var2 = var1;
+            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var5 = var4.localMessageDetails;
+            var7 = var5.loadTime;
+            var5 = var4.startTime;
+            var2 = var7 - var5;
+case 6:
+            var3[1] = var2;
+            var2 = var4.networkMessageDetails;
+            var2 = var6 != var2;
+            if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var2 = var4.networkMessageDetails;
+            var5 = var2.loadTime;
+            var2 = var4.startTime;
+            var1 = var5 - var2;
+case 8:
+            var3[2] = var1;
+            var1 = var4.localMessageDetails;
+            var2 = var6 == var1;
+            var5 = 'incomplete';
+            var1 = var5;
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            var2 = var4.networkMessageDetails;
+            var2 = var6 == var2;
+            var1 = var5;
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 12:
+            var2 = var4.localMessageDetails;
+            var7 = var2.count;
+            var2 = var4.networkMessageDetails;
+            var5 = var2.count;
+            var6 = 'mismatch';
+            var2 = var6;
+            if(!(var7 === var5)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var5 = var4.localMessageDetails;
+            var5 = var5.lastMessageId;
+            var4 = var4.networkMessageDetails;
+            var4 = var4.lastMessageId;
+            var2 = var6;
+            if(!(var5 === var4)) { _fun0002_ip = 13; continue _fun0002 }
+case 15:
+            var2 = 'match';
+case 13:
+            var1 = var2;
+case 10:
+            var3[3] = var1;
+            var2 = var3.join;
+            var1 = ':';
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var1;
+    var1 = function handleAppStateUpdate(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.state;
             var1 = _closure1_slot8;
             var1 = var1.BACKGROUND;
-            if(!(var2 === var1)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 6;
-            var1 = var9[var1];
-            var7 = undefined;
-            var4 = var8.bind(var7)(var1);
+            if(!(var2 === var1)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var1 = global;
+            var3 = var1.Array;
+            var2 = var3.from;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var6 = 6;
+            var1 = var10[var6];
+            var8 = undefined;
+            var1 = var9.bind(var8)(var1);
+            var4 = var1.fetchLogs;
+            var1 = var4.values;
+            var1 = var1.bind(var4)();
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.map;
+            var1 = _closure1_slot11;
+            var5 = var2.bind(var3)(var1);
+            var1 = 7;
+            var1 = var10[var1];
+            var4 = var9.bind(var8)(var1);
             var3 = var4.track;
             var1 = _closure1_slot7;
             var2 = var1.CACHE_STATS_RECORDED;
             var1 = {};
-            var5 = 7;
-            var10 = var9[var5];
-            var10 = var8.bind(var7)(var10);
-            var10 = var10.channelsFetchStarted;
-            var10 = var10.size;
-            var1['num_channels_fetch_started'] = var10;
-            var10 = var9[var5];
-            var10 = var8.bind(var7)(var10);
-            var10 = var10.channelsFetchedWithLocalMessages;
-            var10 = var10.size;
-            var1['num_channels_local_cached'] = var10;
-            var5 = var9[var5];
-            var5 = var8.bind(var7)(var5);
-            var5 = var5.channelsFetchedNetwork;
-            var5 = var5.size;
-            var1['num_channels_fetched_network'] = var5;
-            var5 = _closure1_slot9;
-            var5 = var5 + 1;
-            _closure1_slot9 = var5;
-            var1['num_times_backgrounded'] = var5;
+            var11 = var10[var6];
+            var11 = var9.bind(var8)(var11);
+            var11 = var11.channelsFetchStarted;
+            var11 = var11.size;
+            var1['num_channels_fetch_started'] = var11;
+            var11 = var10[var6];
+            var11 = var9.bind(var8)(var11);
+            var11 = var11.channelsFetchedWithLocalMessages;
+            var11 = var11.size;
+            var1['num_channels_local_cached'] = var11;
+            var6 = var10[var6];
+            var6 = var9.bind(var8)(var6);
+            var6 = var6.channelsFetchedNetwork;
+            var6 = var6.size;
+            var1['num_channels_fetched_network'] = var6;
+            var6 = _closure1_slot9;
+            var6 = var6 + 1;
+            _closure1_slot9 = var6;
+            var1['num_times_backgrounded'] = var6;
+            var1['fetch_entries'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-case 6:
+case 16:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -133,7 +214,7 @@ case 6:
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
         var3 = function LocalMessageCacheStatsManager(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var5 = this;
                 var13 = 0;
@@ -152,12 +233,12 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                if(var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0003_ip = 10; continue _fun0003;
-case 8:
+                _fun0004_ip = 20; continue _fun0004;
+case 18:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -165,10 +246,10 @@ case 8:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 10:
+case 20:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var2['APP_STATE_UPDATE'] = var3;
                 var1['actions'] = var2;
                 return var1;
