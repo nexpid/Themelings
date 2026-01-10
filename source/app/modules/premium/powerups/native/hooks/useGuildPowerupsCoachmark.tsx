@@ -1,0 +1,822 @@
+// app/modules/premium/powerups/native/hooks/useGuildPowerupsCoachmark.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var13 = 2;
+    var4 = var6[var13];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GUILD_TAG_BADGE_PACKS_WAVE_ONE_SKU_ID_SET;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ContentDismissActionType;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = 120;
+    var9['height'] = var10;
+    var10 = 7;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var13 = var13 * var12;
+    var12 = 260;
+    var12 = var12 - var13;
+    var9['width'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.radii;
+    var10 = var10.md;
+    var9['borderRadius'] = var10;
+    var4['coachmarkImage'] = var9;
+    var9 = {};
+    var10 = 'cover';
+    var9['resizeMode'] = var10;
+    var4['coachmarkCover'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 22;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/powerups/native/hooks/useGuildPowerupsCoachmark.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildPowerupsCoachmark(arg1, arg2, arg3) {
+        var13 = arg2;
+        var10 = arg3;
+        var _closure2_slot0 = var13;
+        var _closure2_slot1 = var10;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var6 = 8;
+        var7 = var4[var6];
+        var1 = undefined;
+        var12 = var3.bind(var1)(var7);
+        var11 = var12.useStateFromStores;
+        var7 = _closure1_slot5;
+        var9 = new Array(1);
+        var9[0] = var7;
+        var8 = new Array(1);
+        var8[0] = var13;
+        var7 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var3 = _closure1_slot5;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 == var2;
+                var1 = undefined;
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var1 = var2.name;
+case 2:
+                return var1;
+            }
+        };
+        var12 = var11.bind(var12)(var9, var7, var8);
+        var _closure2_slot2 = var12;
+        var7 = 9;
+        var7 = var4[var7];
+        var9 = var3.bind(var1)(var7);
+        var8 = var9.useGuildPowerupsMobileNotificationsEnabled;
+        var7 = 'useGuildPowerupsCoachmark';
+        var11 = var8.bind(var9)(var7);
+        var _closure2_slot3 = var11;
+        var7 = _closure1_slot9;
+        var9 = var7.bind(var1)();
+        var _closure2_slot4 = var9;
+        var6 = var4[var6];
+        var14 = var3.bind(var1)(var6);
+        var8 = var14.useStateFromStores;
+        var6 = _closure1_slot4;
+        var7 = new Array(1);
+        var7[0] = var6;
+        var6 = function() {
+            var1 = _closure1_slot4;
+            var1 = var1.useReducedMotion;
+            return var1;
+        };
+        var8 = var8.bind(var14)(var7, var6);
+        var _closure2_slot5 = var8;
+        var7 = _closure1_slot3;
+        var6 = var7.useMemo;
+        var5 = new Array(6);
+        var5[0] = var13;
+        var5[1] = var12;
+        var5[2] = var11;
+        var5[3] = var10;
+        var5[4] = var9;
+        var5[5] = var8;
+        var2 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var1 = {'title': '', 'description': '', 'position': 'bottom', 'visible': false};
+                var15 = '';
+                var2 = function onDismiss() {
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['onDismiss'] = var2;
+                var4 = _closure2_slot3;
+                if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                var4 = _closure2_slot1;
+                var17 = null;
+                if(!(var17 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+                var5 = function handleButtonPress() {
+                    var5 = _closure2_slot1;
+                    var3 = var5.markAsDismissed;
+                    var2 = _closure1_slot7;
+                    var2 = var2.TAKE_ACTION;
+                    var2 = var3.bind(var5)(var2);
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 10;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = {};
+                    var4 = _closure2_slot0;
+                    var2['guildId'] = var4;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var4 = function handleDismiss() {
+                    var3 = _closure2_slot1;
+                    var2 = var3.markAsDismissed;
+                    var1 = _closure1_slot7;
+                    var1 = var1.USER_DISMISS;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var6 = _closure2_slot1;
+                var8 = var6.type;
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var10 = 11;
+                var7 = var7[var10];
+                var9 = undefined;
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.LEVEL_REACHED;
+                if(!(var7 !== var8)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.PERKS_AVAILABLE;
+                if(!(var7 !== var8)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.PERKS_PURCHASABLE;
+                if(!(var7 !== var8)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.NEW_PERK_AVAILABLE;
+                if(!(var7 !== var8)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.GAME_SERVER_HOSTING_AVAILABLE;
+                if(!(var7 !== var8)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var11 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var11.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.GAME_SERVER_HOSTING_GUILD_ELIGIBLE;
+                if(!(var7 !== var8)) { _fun0002_ip = 15; continue _fun0002 }
+case 17:
+                var8 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var8.bind(var9)(var7);
+                var7 = var7.GuildPowerupNotificationPopoutType;
+                var7 = var7.GAME_SERVER_HOSTING_ENABLED;
+case 15:
+                return var1;
+case 13:
+                var7 = _closure2_slot1;
+                var10 = var7.powerups;
+                var8 = var10.find;
+                var7 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.skuId;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 18;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3);
+                    var1 = var1.VANITY_URL_POWERUP_SKU_ID;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var7 = var8.bind(var10)(var7);
+                if(!(var17 == var7)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                var8 = var10.find;
+                var7 = function(arg1) {
+                    var3 = _closure1_slot6;
+                    var2 = var3.has;
+                    var1 = arg1;
+                    var1 = var1.skuId;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var8 = var8.bind(var10)(var7);
+                var7 = var1;
+                if(!(var17 != var8)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                var8 = {};
+                var23 = var8;
+                var22 = var1;
+                var10 = copyDataProperties(var23, var22);
+                var11 = true;
+                var10 = 'visible';
+                var8[var10] = var11;
+                var11 = function renderImgComponent() {
+                    var4 = _closure1_slot8;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var1 = 12;
+                    var1 = var7[var1];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var1);
+                    var1 = {};
+                    var5 = 20;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var3)(var5);
+                    var1['imageUrl'] = var5;
+                    var5 = _closure2_slot4;
+                    var5 = var5.coachmarkImage;
+                    var1['style'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var10 = 'renderImgComponent';
+                var8[var10] = var11;
+                var13 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var10 = 14;
+                var11 = var14[var10];
+                var11 = var13.bind(var9)(var11);
+                var19 = var11.intl;
+                var16 = var19.string;
+                var18 = _closure1_slot1;
+                var11 = 15;
+                var12 = var14[var11];
+                var12 = var18.bind(var9)(var12);
+                var12 = var12.kA2c+n;
+                var16 = var16.bind(var19)(var12);
+                var12 = 'title';
+                var8[var12] = var16;
+                var12 = var14[var10];
+                var12 = var13.bind(var9)(var12);
+                var16 = var12.intl;
+                var12 = var16.string;
+                var11 = var14[var11];
+                var11 = var18.bind(var9)(var11);
+                var11 = var11.TUilLj;
+                var12 = var12.bind(var16)(var11);
+                var11 = 'description';
+                var8[var11] = var12;
+                var11 = var14[var10];
+                var11 = var13.bind(var9)(var11);
+                var12 = var11.intl;
+                var11 = var12.string;
+                var10 = var14[var10];
+                var10 = var13.bind(var9)(var10);
+                var10 = var10.t;
+                var10 = var10.RzWDqY;
+                var11 = var11.bind(var12)(var10);
+                var10 = 'buttonLabel';
+                var8[var10] = var11;
+                var11 = 'primary';
+                var10 = 'buttonVariant';
+                var8[var10] = var11;
+                var10 = 'onButtonPress';
+                var8[var10] = var5;
+                var10 = 'onDismiss';
+                var8[var10] = var4;
+                var7 = var8;
+case 20:
+                _fun0002_ip = 22; continue _fun0002;
+case 18:
+                var8 = {};
+                var23 = var8;
+                var22 = var1;
+                var10 = copyDataProperties(var23, var22);
+                var11 = true;
+                var10 = 'visible';
+                var8[var10] = var11;
+                var11 = function renderImgComponent() {
+                    var4 = _closure1_slot8;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var1 = 12;
+                    var1 = var7[var1];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var1);
+                    var1 = {};
+                    var5 = 19;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var3)(var5);
+                    var1['imageUrl'] = var5;
+                    var5 = _closure2_slot4;
+                    var5 = var5.coachmarkImage;
+                    var1['style'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var10 = 'renderImgComponent';
+                var8[var10] = var11;
+                var13 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var10 = 14;
+                var11 = var14[var10];
+                var11 = var13.bind(var9)(var11);
+                var19 = var11.intl;
+                var16 = var19.string;
+                var18 = _closure1_slot1;
+                var11 = 15;
+                var12 = var14[var11];
+                var12 = var18.bind(var9)(var12);
+                var12 = var12.Ygpx4Q;
+                var16 = var16.bind(var19)(var12);
+                var12 = 'title';
+                var8[var12] = var16;
+                var12 = var14[var10];
+                var12 = var13.bind(var9)(var12);
+                var16 = var12.intl;
+                var12 = var16.string;
+                var11 = var14[var11];
+                var11 = var18.bind(var9)(var11);
+                var11 = var11.mmNkUA;
+                var12 = var12.bind(var16)(var11);
+                var11 = 'description';
+                var8[var11] = var12;
+                var11 = var14[var10];
+                var11 = var13.bind(var9)(var11);
+                var12 = var11.intl;
+                var11 = var12.string;
+                var10 = var14[var10];
+                var10 = var13.bind(var9)(var10);
+                var10 = var10.t;
+                var10 = var10.RzWDqY;
+                var11 = var11.bind(var12)(var10);
+                var10 = 'buttonLabel';
+                var8[var10] = var11;
+                var11 = 'primary';
+                var10 = 'buttonVariant';
+                var8[var10] = var11;
+                var10 = 'onButtonPress';
+                var8[var10] = var5;
+                var10 = 'onDismiss';
+                var8[var10] = var4;
+                var7 = var8;
+case 22:
+                return var7;
+case 11:
+                var7 = _closure2_slot1;
+                var14 = var7.powerups;
+                var _closure3_slot0 = var14;
+                var7 = var14.length;
+                var13 = 0;
+                if(!(var13 !== var7)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
+                var8 = var14.length;
+                var7 = 3;
+                if(!(!(var8 >= var7))) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
+                var8 = var14.length;
+                var7 = 2;
+                if(!(var7 !== var8)) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
+                var8 = _closure1_slot0;
+                var12 = _closure1_slot2;
+                var7 = 14;
+                var7 = var12[var7];
+                var7 = var8.bind(var9)(var7);
+                var11 = var7.intl;
+                var10 = var11.formatToPlainString;
+                var8 = _closure1_slot1;
+                var7 = 15;
+                var7 = var12[var7];
+                var7 = var8.bind(var9)(var7);
+                var8 = var7.ZF8NT6;
+                var7 = {};
+                var12 = var14[var13];
+                var12 = var12.title;
+                var7['perk'] = var12;
+                var10 = var10.bind(var11)(var8, var7);
+                _fun0002_ip = 29; continue _fun0002;
+case 27:
+                var8 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var7 = 14;
+                var7 = var16[var7];
+                var7 = var8.bind(var9)(var7);
+                var12 = var7.intl;
+                var11 = var12.formatToPlainString;
+                var8 = _closure1_slot1;
+                var7 = 15;
+                var7 = var16[var7];
+                var7 = var8.bind(var9)(var7);
+                var8 = var7.wcQOqC;
+                var7 = {};
+                var16 = var14[var13];
+                var20 = var16.title;
+                var16 = 1;
+                var16 = var14[var16];
+                var19 = var16.title;
+                var16 = global;
+                var16 = var16.HermesInternal;
+                var18 = var16.concat;
+                var16 = ' & ';
+                var16 = var18.bind(var15)(var20, var16, var19);
+                var7['perks'] = var16;
+                var10 = var11.bind(var12)(var8, var7);
+case 29:
+                _fun0002_ip = 30; continue _fun0002;
+case 25:
+                var8 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var7 = 14;
+                var7 = var16[var7];
+                var7 = var8.bind(var9)(var7);
+                var12 = var7.intl;
+                var11 = var12.formatToPlainString;
+                var8 = _closure1_slot1;
+                var7 = 15;
+                var7 = var16[var7];
+                var7 = var8.bind(var9)(var7);
+                var8 = var7.6Sv+3M;
+                var7 = {};
+                var13 = var14[var13];
+                var13 = var13.title;
+                var7['perk'] = var13;
+                var13 = 1;
+                var13 = var14[var13];
+                var13 = var13.title;
+                var7['perk2'] = var13;
+                var13 = 2;
+                var13 = var14[var13];
+                var13 = var13.title;
+                var7['perk3'] = var13;
+                var10 = var11.bind(var12)(var8, var7);
+case 30:
+                var7 = {};
+                var23 = var7;
+                var22 = var1;
+                var8 = copyDataProperties(var23, var22);
+                var11 = true;
+                var8 = 'visible';
+                var7[var8] = var11;
+                var11 = function renderImgComponent() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var4 = _closure1_slot8;
+                        var2 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 12;
+                        var1 = var3[var1];
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = {};
+                        var5 = _closure3_slot0;
+                        var5 = var5.length;
+                        var8 = 1;
+                        if(!(!(var5 > var8))) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var5 = 17;
+                        var5 = var10[var5];
+                        var12 = var9.bind(var3)(var5);
+                        var11 = var12.getGuildPowerupBannerImage;
+                        var9 = _closure3_slot0;
+                        var5 = 0;
+                        var10 = var9[var5];
+                        var9 = _closure2_slot5;
+                        var5 = true;
+                        var9 = var11.bind(var12)(var10, var9, var5);
+                        var5 = null;
+                        var10 = var5 != var9;
+                        var5 = '';
+                        if(!var10) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
+                        var5 = var9;
+case 33:
+                        _fun0003_ip = 35; continue _fun0003;
+case 31:
+                        var9 = _closure1_slot1;
+                        var10 = _closure1_slot2;
+                        var7 = 13;
+                        var7 = var10[var7];
+                        var5 = var9.bind(var3)(var7);
+case 35:
+                        var1['imageUrl'] = var5;
+                        var5 = _closure2_slot4;
+                        var9 = var5.coachmarkImage;
+                        var5 = new Array(2);
+                        var5[0] = var9;
+                        var6 = _closure3_slot0;
+                        var6 = var6.length;
+                        var6 = var6 > var8;
+                        if(!var6) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
+                        var7 = _closure2_slot4;
+                        var6 = var7.coachmarkCover;
+case 36:
+                        var5[1] = var6;
+                        var1['style'] = var5;
+                        var1 = var4.bind(var3)(var2, var1);
+                        return var1;
+                    }
+                };
+                var8 = 'renderImgComponent';
+                var7[var8] = var11;
+                var11 = _closure1_slot0;
+                var16 = _closure1_slot2;
+                var13 = 14;
+                var8 = var16[var13];
+                var8 = var11.bind(var9)(var8);
+                var14 = var8.intl;
+                var12 = var14.formatToPlainString;
+                var11 = _closure1_slot1;
+                var8 = 15;
+                var8 = var16[var8];
+                var8 = var11.bind(var9)(var8);
+                var11 = var8.LmpChE;
+                var8 = {};
+                var16 = _closure2_slot2;
+                var16 = var17 != var16;
+                if(!var16) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
+                var15 = _closure2_slot2;
+case 38:
+                var8['guildName'] = var15;
+                var11 = var12.bind(var14)(var11, var8);
+                var8 = 'title';
+                var7[var8] = var11;
+                var8 = 'description';
+                var7[var8] = var10;
+                var12 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var10 = var8[var13];
+                var10 = var12.bind(var9)(var10);
+                var11 = var10.intl;
+                var10 = var11.string;
+                var8 = var8[var13];
+                var8 = var12.bind(var9)(var8);
+                var8 = var8.t;
+                var8 = var8.RzWDqY;
+                var10 = var10.bind(var11)(var8);
+                var8 = 'buttonLabel';
+                var7[var8] = var10;
+                var10 = 'primary';
+                var8 = 'buttonVariant';
+                var7[var8] = var10;
+                var8 = 'onButtonPress';
+                var7[var8] = var5;
+                var8 = 'onDismiss';
+                var7[var8] = var4;
+                return var7;
+case 23:
+                return var1;
+case 9:
+                var7 = {};
+                var23 = var7;
+                var22 = var1;
+                var8 = copyDataProperties(var23, var22);
+                var10 = true;
+                var8 = 'visible';
+                var7[var8] = var10;
+                var10 = function renderImgComponent() {
+                    var4 = _closure1_slot8;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var1 = 12;
+                    var1 = var7[var1];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var1);
+                    var1 = {};
+                    var5 = 16;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var3)(var5);
+                    var1['imageUrl'] = var5;
+                    var6 = _closure2_slot4;
+                    var7 = var6.coachmarkImage;
+                    var5 = new Array(2);
+                    var5[0] = var7;
+                    var6 = var6.coachmarkCover;
+                    var5[1] = var6;
+                    var1['style'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var8 = 'renderImgComponent';
+                var7[var8] = var10;
+                var12 = _closure1_slot0;
+                var13 = _closure1_slot2;
+                var8 = 14;
+                var10 = var13[var8];
+                var10 = var12.bind(var9)(var10);
+                var16 = var10.intl;
+                var14 = var16.string;
+                var15 = _closure1_slot1;
+                var10 = 15;
+                var11 = var13[var10];
+                var11 = var15.bind(var9)(var11);
+                var11 = var11.QpQBPQ;
+                var14 = var14.bind(var16)(var11);
+                var11 = 'title';
+                var7[var11] = var14;
+                var11 = var13[var8];
+                var11 = var12.bind(var9)(var11);
+                var14 = var11.intl;
+                var11 = var14.string;
+                var10 = var13[var10];
+                var10 = var15.bind(var9)(var10);
+                var10 = var10.6hn0xF;
+                var11 = var11.bind(var14)(var10);
+                var10 = 'description';
+                var7[var10] = var11;
+                var10 = var13[var8];
+                var10 = var12.bind(var9)(var10);
+                var11 = var10.intl;
+                var10 = var11.string;
+                var8 = var13[var8];
+                var8 = var12.bind(var9)(var8);
+                var8 = var8.t;
+                var8 = var8.RzWDqY;
+                var10 = var10.bind(var11)(var8);
+                var8 = 'buttonLabel';
+                var7[var8] = var10;
+                var10 = 'primary';
+                var8 = 'buttonVariant';
+                var7[var8] = var10;
+                var8 = 'onButtonPress';
+                var7[var8] = var5;
+                var8 = 'onDismiss';
+                var7[var8] = var4;
+                return var7;
+case 7:
+                var13 = _closure2_slot1;
+                var2 = {};
+                var23 = var2;
+                var22 = var1;
+                var7 = copyDataProperties(var23, var22);
+                var8 = true;
+                var7 = 'visible';
+                var2[var7] = var8;
+                var7 = function renderImgComponent() {
+                    var4 = _closure1_slot8;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var1 = 12;
+                    var1 = var7[var1];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var1);
+                    var1 = {};
+                    var5 = 13;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var3)(var5);
+                    var1['imageUrl'] = var5;
+                    var6 = _closure2_slot4;
+                    var7 = var6.coachmarkImage;
+                    var5 = new Array(2);
+                    var5[0] = var7;
+                    var6 = var6.coachmarkCover;
+                    var5[1] = var6;
+                    var1['style'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var3 = 'renderImgComponent';
+                var2[var3] = var7;
+                var8 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var3 = 14;
+                var7 = var10[var3];
+                var7 = var8.bind(var9)(var7);
+                var15 = var7.intl;
+                var14 = var15.formatToPlainString;
+                var7 = _closure1_slot1;
+                var6 = 15;
+                var11 = var10[var6];
+                var11 = var7.bind(var9)(var11);
+                var12 = var11.Zg/m9K;
+                var11 = {};
+                var16 = var13.powerup;
+                var16 = var16.title;
+                var11['perkName'] = var16;
+                var12 = var14.bind(var15)(var12, var11);
+                var11 = 'title';
+                var2[var11] = var12;
+                var11 = var10[var3];
+                var11 = var8.bind(var9)(var11);
+                var12 = var11.intl;
+                var11 = var12.formatToPlainString;
+                var6 = var10[var6];
+                var6 = var7.bind(var9)(var6);
+                var7 = var6.1EGXSK;
+                var6 = {};
+                var13 = var13.powerup;
+                var13 = var13.title;
+                var6['perkName'] = var13;
+                var7 = var11.bind(var12)(var7, var6);
+                var6 = 'description';
+                var2[var6] = var7;
+                var6 = var10[var3];
+                var6 = var8.bind(var9)(var6);
+                var7 = var6.intl;
+                var6 = var7.string;
+                var3 = var10[var3];
+                var3 = var8.bind(var9)(var3);
+                var3 = var3.t;
+                var3 = var3.RzWDqY;
+                var6 = var6.bind(var7)(var3);
+                var3 = 'buttonLabel';
+                var2[var3] = var6;
+                var6 = 'primary';
+                var3 = 'buttonVariant';
+                var2[var3] = var6;
+                var3 = 'onButtonPress';
+                var2[var3] = var5;
+                var3 = 'onDismiss';
+                var2[var3] = var4;
+                return var2;
+case 4:
+                return var1;
+            }
+        };
+        var5 = var6.bind(var7)(var2, var5);
+        var2 = 21;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.useCoachmark;
+        var2 = arg1;
+        var2 = var3.bind(var4)(var2, var5);
+        return var1;
+    };
+    var3['default'] = var2;
+    return var1;
+})();

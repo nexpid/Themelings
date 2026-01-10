@@ -441,46 +441,34 @@ case 14:
             var10['accessibilityLabel'] = var21;
             var10['data'] = var20;
             var15 = function renderItem(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = var2.item;
-                    var9 = var2.index;
-                    var5 = _closure1_slot8;
-                    var3 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var2 = 17;
-                    var2 = var8[var2];
-                    var4 = undefined;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = var2.CollectiblesAnalyticsProvider;
-                    var2 = {};
-                    var7 = {};
-                    var7['tilePosition'] = var9;
-                    var2['newValue'] = var7;
-                    var7 = _closure1_slot1;
-                    var6 = 5;
-                    var6 = var8[var6];
-                    var7 = var7.bind(var4)(var6);
-                    var6 = {};
-                    var6['product'] = var1;
-                    var8 = _closure2_slot4;
-                    var6['unpublishedAt'] = var8;
-                    var6 = var5.bind(var4)(var7, var6);
-                    var2['children'] = var6;
-                    var6 = var1.items;
-                    var1 = 0;
-                    var6 = var6[var1];
-                    var1 = null;
-                    var7 = var1 == var6;
-                    var1 = undefined;
-                    if(var7) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                    var1 = var6.skuId;
-case 16:
-                    var1 = var5.bind(var4)(var3, var2, var1);
-                    return var1;
-                }
+                var2 = arg1;
+                var1 = var2.item;
+                var9 = var2.index;
+                var5 = _closure1_slot8;
+                var3 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var2 = 17;
+                var2 = var8[var2];
+                var4 = undefined;
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.CollectiblesAnalyticsProvider;
+                var2 = {};
+                var7 = {};
+                var7['tilePosition'] = var9;
+                var2['newValue'] = var7;
+                var7 = _closure1_slot1;
+                var6 = 5;
+                var6 = var8[var6];
+                var7 = var7.bind(var4)(var6);
+                var6 = {};
+                var6['product'] = var1;
+                var8 = _closure2_slot4;
+                var6['unpublishedAt'] = var8;
+                var6 = var5.bind(var4)(var7, var6);
+                var2['children'] = var6;
+                var1 = var1.skuId;
+                var1 = var5.bind(var4)(var3, var2, var1);
+                return var1;
             };
             var10['renderItem'] = var15;
             var15 = 5;

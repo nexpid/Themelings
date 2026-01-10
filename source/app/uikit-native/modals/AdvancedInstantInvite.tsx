@@ -508,9 +508,10 @@ case 27:
             var13 = var20.bind(var4)(var13);
             var15 = var13.FormSection;
             var13 = {};
-            var18 = var17[var14];
+            var18 = 17;
+            var18 = var17[var18];
             var18 = var20.bind(var4)(var18);
-            var19 = var18.FormSwitchRow;
+            var19 = var18.TableSwitchRow;
             var18 = {};
             var23 = var17[var21];
             var23 = var20.bind(var4)(var23);

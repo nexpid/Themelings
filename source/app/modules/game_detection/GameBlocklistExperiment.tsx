@@ -1,4 +1,4 @@
-// app/modules/nuf/experiments/native/MobileOnboardingNoAvatarStepExperiment.tsx
+// app/modules/game_detection/GameBlocklistExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2025-11-mobile-onboarding-no-avatar-step', 'kind': 'user'};
+    var2 = {'name': '2026-01-game-blocklist', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
@@ -24,16 +24,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var9 = {};
     var9['enabled'] = var10;
-    var8[1] = var9;
+    var8[0] = var9;
     var2['variations'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/nuf/experiments/native/MobileOnboardingNoAvatarStepExperiment.tsx';
+    var4 = 'modules/game_detection/GameBlocklistExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
-    var3['MobileOnboardingNoAvatarStepExperiment'] = var2;
+    var3['GameBlocklistExperiment'] = var2;
     return var1;
 })();

@@ -235,10 +235,8 @@ case 0:
 case 9:
                 var2 = {};
                 var3 = _closure2_slot1;
-                var4 = var3.coverImageWidth;
-                var2['width'] = var4;
-                var3 = var3.coverImageHeight;
-                var2['height'] = var3;
+                var3 = var3.coverImageSize;
+                var2['size'] = var3;
                 var1 = var2;
 case 8:
                 return var1;

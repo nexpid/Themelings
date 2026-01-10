@@ -169,7 +169,7 @@ case 0:
                 };
                 var6['T'] = var8;
                 var1[10] = var6;
-                var6 = {'no': 12, 'name': 'mobile_card_asset', 'kind': 'message'};
+                var6 = {'no': 12, 'name': 'mobile_banner_asset', 'kind': 'message'};
                 var7 = function T() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
@@ -304,12 +304,12 @@ case 15:
                 var23 = var24.internalBinaryRead;
                 var3 = var21.uint32;
                 var31 = var3.bind(var21)();
-                var29 = var1.mobileCardAsset;
+                var29 = var1.mobileBannerAsset;
                 var33 = var24;
                 var32 = var21;
                 var30 = var20;
                 var3 = var33[var23](var32, var31, var30, var29, var28);
-                var1['mobileCardAsset'] = var3;
+                var1['mobileBannerAsset'] = var3;
                 var23 = var5;
                 var22 = var4;
                 _fun0004_ip = 16; continue _fun0004;
@@ -751,7 +751,7 @@ case 55:
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
 case 54:
-                var3 = var5.mobileCardAsset;
+                var3 = var5.mobileBannerAsset;
                 if(!var3) { _fun0005_ip = 56; continue _fun0005 }
 case 57:
                 var10 = _closure1_slot0;
@@ -762,7 +762,7 @@ case 57:
                 var3 = var10.bind(var8)(var3);
                 var7 = var3.ThemeAwareAsset;
                 var6 = var7.internalBinaryWrite;
-                var4 = var5.mobileCardAsset;
+                var4 = var5.mobileBannerAsset;
                 var9 = var1.tag;
                 var3 = 8;
                 var3 = var11[var3];

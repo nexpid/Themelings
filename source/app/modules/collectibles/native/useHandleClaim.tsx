@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -33,13 +33,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         var1 = arg1;
-        var6 = var1.product;
-        var _closure2_slot0 = var6;
+        var7 = var1.product;
+        var _closure2_slot0 = var7;
+        var4 = _closure1_slot0;
+        var5 = _closure1_slot2;
+        var1 = 2;
+        var1 = var5[var1];
+        var8 = undefined;
+        var5 = var4.bind(var8)(var1);
+        var4 = var5.useEnableMobileVariants;
+        var1 = 'useHandleClaim';
+        var6 = var4.bind(var5)(var1);
+        var _closure2_slot1 = var6;
         var1 = {};
         var5 = _closure1_slot4;
         var4 = var5.useCallback;
-        var7 = _closure1_slot3;
-        var3 = undefined;
+        var3 = _closure1_slot3;
         var2 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -48,61 +57,70 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3: // try_start_0
-                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var3 = 2;
-                    var2 = var2[var3];
-                    var8 = undefined;
-                    var6 = var5.bind(var8)(var2);
-                    var5 = var6.claimPremiumCollectiblesProduct;
+                    var5 = 3;
+                    var2 = var2[var5];
+                    var9 = undefined;
+                    var4 = var3.bind(var9)(var2);
+                    var3 = var4.claimPremiumCollectiblesProduct;
                     var2 = _closure2_slot0;
                     var2 = var2.skuId;
-                    var2 = var5.bind(var6)(var2);
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=63);
 case 4:
                     return var2;
 case 5:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var6 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var5 = 3;
-                    var5 = var9[var5];
-                    var7 = var6.bind(var8)(var5);
-                    var5 = var7.hideActionSheet;
-                    var5 = var5.bind(var7)();
-                    var5 = 4;
-                    var5 = var9[var5];
-                    var7 = var6.bind(var8)(var5);
-                    var6 = var7.open;
-                    var5 = {};
-                    var10 = _closure2_slot0;
-                    var5['product'] = var10;
-                    var10 = true;
-                    var5['useCategoryImage'] = var10;
-                    var5 = var6.bind(var7)(var5);
-                    var7 = _closure1_slot0;
-                    var3 = var9[var3];
-                    var5 = var7.bind(var8)(var3);
+                    var8 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var3[var4];
+                    var10 = var8.bind(var9)(var4);
+                    var4 = var10.hideActionSheet;
+                    var4 = var4.bind(var10)();
+                    var4 = 5;
+                    var4 = var3[var4];
+                    var10 = var8.bind(var9)(var4);
+                    var8 = var10.open;
+                    var4 = {};
+                    var11 = _closure2_slot0;
+                    var4['product'] = var11;
+                    var11 = true;
+                    var4['useCategoryImage'] = var11;
+                    var4 = var8.bind(var10)(var4);
+                    var4 = _closure1_slot0;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var9)(var3);
                     var4 = var5.fetchCollectiblesPurchases;
                     var3 = {};
-                    var6 = 5;
-                    var6 = var9[var6];
-                    var6 = var7.bind(var8)(var6);
-                    var6 = var6.ShopVariantsReturnStyle;
-                    var6 = var6.INDIVIDUAL_PRODUCTS;
+                    var6 = _closure2_slot1;
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var7 = 6;
+                    var7 = var10[var7];
+                    var7 = var8.bind(var9)(var7);
+                    var7 = var7.ShopVariantsReturnStyle;
+                    if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+                    var6 = var7.INDIVIDUAL_PRODUCTS;
+                    _fun0001_ip = 10; continue _fun0001;
+case 8:
+                    var6 = var7.VARIANTS_GROUP;
+case 10:
                     var3['variantsReturnStyle'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 8: // try_end0
-                    _fun0001_ip = 9; continue _fun0001;
+case 11: // try_end0
+                    _fun0001_ip = 12; continue _fun0001;
 case 6:
                     return var2;
-case 10: // catch_target0
+case 13: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 7;
                     var2 = var10[var2];
                     var9 = undefined;
                     var4 = var3.bind(var9)(var2);
@@ -111,7 +129,7 @@ case 10: // catch_target0
                     var6 = 'collectible shop claim error';
                     var2['key'] = var6;
                     var8 = _closure1_slot0;
-                    var5 = 7;
+                    var5 = 8;
                     var6 = var10[var5];
                     var6 = var8.bind(var9)(var6);
                     var7 = var6.intl;
@@ -123,7 +141,7 @@ case 10: // catch_target0
                     var5 = var6.bind(var7)(var5);
                     var2['content'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 9:
+case 12:
                     var2 = undefined;
                     return var2;
 case 2:
@@ -132,9 +150,10 @@ case 2:
             };
             return var1;
         };
-        var3 = var7.bind(var3)(var2);
-        var2 = new Array(1);
-        var2[0] = var6;
+        var3 = var3.bind(var8)(var2);
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
         var2 = var4.bind(var5)(var3, var2);
         var1['handleClaim'] = var2;
         return var1;

@@ -941,112 +941,112 @@ case 46:
 case 0:
                 var1 = arg1;
                 var4 = _closure1_slot31;
-                var2 = !var4;
+                var3 = !var4;
                 if(var4) { _fun0016_ip = 108; continue _fun0016 }
 case 109:
                 var5 = var1.type;
                 var4 = 'CONNECTION_OPEN';
-                var2 = var4 === var5;
+                var3 = var4 === var5;
 case 108:
-                if(!var2) { _fun0016_ip = 110; continue _fun0016 }
+                if(!var3) { _fun0016_ip = 110; continue _fun0016 }
 case 100:
                 var6 = _closure1_slot40;
                 var5 = var1.user;
                 var4 = undefined;
-                var2 = var6.bind(var4)(var5);
+                var3 = var6.bind(var4)(var5);
 case 110:
-                if(!var2) { _fun0016_ip = 99; continue _fun0016 }
+                if(!var3) { _fun0016_ip = 99; continue _fun0016 }
 case 101:
-                var2 = true;
-                _closure1_slot31 = var2;
+                var3 = true;
+                _closure1_slot31 = var3;
 case 99:
                 var4 = var1.type;
-                var2 = 'EXPERIMENTS_FETCH_SUCCESS';
-                var2 = var2 === var4;
-                if(!var2) { _fun0016_ip = 111; continue _fun0016 }
+                var3 = 'EXPERIMENTS_FETCH_SUCCESS';
+                var3 = var3 === var4;
+                if(!var3) { _fun0016_ip = 111; continue _fun0016 }
 case 112:
-                var2 = _closure1_slot21;
+                var3 = _closure1_slot21;
 case 111:
-                if(!var2) { _fun0016_ip = 113; continue _fun0016 }
+                if(!var3) { _fun0016_ip = 113; continue _fun0016 }
 case 114:
                 var4 = _closure1_slot25;
                 var5 = var4.source;
                 var4 = 'ready_payload';
-                var2 = var4 === var5;
+                var3 = var4 === var5;
 case 113:
-                if(!var2) { _fun0016_ip = 115; continue _fun0016 }
+                if(!var3) { _fun0016_ip = 115; continue _fun0016 }
 case 116:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 13;
-                var4 = var4[var2];
-                var2 = undefined;
-                var6 = var5.bind(var2)(var4);
+                var3 = 13;
+                var4 = var4[var3];
+                var3 = undefined;
+                var6 = var5.bind(var3)(var4);
                 var5 = var6.track;
-                var2 = _closure1_slot13;
-                var4 = var2.EXPERIMENT_FETCH_IGNORED;
-                var2 = {};
+                var3 = _closure1_slot13;
+                var4 = var3.EXPERIMENT_FETCH_IGNORED;
+                var3 = {};
                 var7 = var1.fingerprint;
-                var2['fingerprint'] = var7;
+                var3['fingerprint'] = var7;
                 var7 = _closure1_slot25;
                 var7 = var7.source;
-                var2['current_snapshot_source'] = var7;
+                var3['current_snapshot_source'] = var7;
                 var7 = _closure1_slot25;
                 var7 = var7.sessionId;
-                var2['current_snapshot_session_id'] = var7;
+                var3['current_snapshot_session_id'] = var7;
                 var7 = _closure1_slot25;
                 var7 = var7.fingerprint;
-                var2['current_snapshot_fingerprint'] = var7;
-                var2 = var5.bind(var6)(var4, var2);
+                var3['current_snapshot_fingerprint'] = var7;
+                var3 = var5.bind(var6)(var4, var3);
 case 115:
-                var2 = {};
-                _closure1_slot26 = var2;
-                var2 = {};
-                _closure1_slot27 = var2;
-                var2 = {};
-                _closure1_slot28 = var2;
-                var2 = var1.type;
+                var3 = {};
+                _closure1_slot26 = var3;
+                var3 = {};
+                _closure1_slot27 = var3;
+                var3 = {};
+                _closure1_slot28 = var3;
+                var3 = var1.type;
                 var5 = 'CONNECTION_OPEN';
-                var4 = var5 === var2;
+                var4 = var5 === var3;
                 if(var4) { _fun0016_ip = 117; continue _fun0016 }
 case 118:
                 var6 = var1.fingerprint;
-                var2 = null;
-                var4 = var2 == var6;
+                var3 = null;
+                var4 = var3 == var6;
 case 117:
                 if(var4) { _fun0016_ip = 78; continue _fun0016 }
 case 119:
                 var6 = var1.fingerprint;
                 var7 = _closure1_slot9;
-                var2 = var7.getFingerprint;
-                var2 = var2.bind(var7)();
-                var4 = var6 === var2;
+                var3 = var7.getFingerprint;
+                var3 = var3.bind(var7)();
+                var4 = var6 === var3;
 case 78:
                 var8 = var1.experiments;
                 var7 = var1.guildExperiments;
-                var2 = var1.type;
+                var3 = var1.type;
                 var6 = 'logged_out_api';
-                if(!(var5 === var2)) { _fun0016_ip = 120; continue _fun0016 }
+                if(!(var5 === var3)) { _fun0016_ip = 120; continue _fun0016 }
 case 121:
                 var6 = 'ready_payload';
 case 120:
-                var2 = 'sessionId';
-                var2 = var2 in var1;
-                if(var2) { _fun0016_ip = 122; continue _fun0016 }
+                var3 = 'sessionId';
+                var3 = var3 in var1;
+                if(var3) { _fun0016_ip = 122; continue _fun0016 }
 case 82:
                 var5 = _closure1_slot9;
-                var2 = var5.getSessionId;
-                var5 = var2.bind(var5)();
-                var2 = null;
-                var9 = var2 != var5;
-                var2 = '';
+                var3 = var5.getSessionId;
+                var5 = var3.bind(var5)();
+                var3 = null;
+                var9 = var3 != var5;
+                var3 = '';
                 if(!var9) { _fun0016_ip = 123; continue _fun0016 }
 case 124:
-                var2 = var5;
+                var3 = var5;
 case 123:
                 _fun0016_ip = 125; continue _fun0016;
 case 122:
-                var2 = var1.sessionId;
+                var3 = var1.sessionId;
 case 125:
                 var5 = _closure1_slot9;
                 var1 = var5.getFingerprint;
@@ -1063,23 +1063,15 @@ case 129:
 case 128:
                 var4['rawGuildExperiments'] = var7;
                 var4['source'] = var6;
-                var4['sessionId'] = var2;
+                var4['sessionId'] = var3;
                 var4['fingerprint'] = var1;
-                var2 = undefined;
+                var3 = undefined;
                 var1 = false;
-                var1 = var5.bind(var2)(var4, var1);
+                var1 = var5.bind(var3)(var4, var1);
 case 126:
-                var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
+                var1 = true;
+                _closure1_slot21 = var1;
                 var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var4 = var2.CTPDeltaVanillaExperiment;
-                var2 = var4.trackExposure;
-                var2 = var2.bind(var4)();
-                var2 = true;
-                _closure1_slot21 = var2;
                 return var1;
             }
         };
@@ -1981,7 +1973,7 @@ case 0:
                 var2 = var1.isSwitchingAccount;
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var5 = 16;
+                var5 = 15;
                 var4 = var1[var5];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var4);
@@ -2043,7 +2035,7 @@ case 217:
             _closure1_slot27 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -2059,7 +2051,7 @@ case 217:
 case 0:
                 var4 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var5 = 16;
+                var5 = 15;
                 var3 = var1[var5];
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
@@ -2106,7 +2098,7 @@ case 221:
                 _closure1_slot30 = var3;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 17;
+                var3 = 16;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.isEmpty;
@@ -2247,7 +2239,7 @@ case 236:
 case 0: // try_start_0
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 16;
+                var2 = 15;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -2278,7 +2270,7 @@ case 238: // catch_target0
 case 57: // try_start_1
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 16;
+                var2 = 15;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -2319,7 +2311,7 @@ case 0:
 case 240: // try_start_0
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 16;
+                var2 = 15;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -2667,7 +2659,7 @@ case 0:
                     var10[0] = var1;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 17;
                     var1 = var7[var1];
                     var1 = var6.bind(var4)(var1);
                     var1 = var1.DispatchBand;
@@ -2713,7 +2705,7 @@ case 0:
                     var3 = this;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var4 = var4[var1];
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
@@ -3399,7 +3391,7 @@ case 273:
         var17 = var5;
         var4 = new var17[var4](var16);
         var4 = var4 instanceof Object ? var4 : var5;
-        var5 = 19;
+        var5 = 18;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;

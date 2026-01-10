@@ -155,12 +155,10 @@ case 0:
             var5 = var5.bind(var22)(var3);
             var3 = 17;
             var3 = var24[var3];
-            var26 = var21.bind(var22)(var3);
-            var25 = var26.useGuildPowerupsMobileEnabledExperiment;
-            var6 = var8.id;
+            var6 = var21.bind(var22)(var3);
+            var3 = var6.useGuildPowerupsMobileEnabledExperiment;
             var23 = 'useGuildActionRows';
-            var3 = false;
-            var6 = var25.bind(var26)(var6, var23, var3);
+            var6 = var3.bind(var6)(var23);
             var3 = 18;
             var3 = var24[var3];
             var22 = var21.bind(var22)(var3);

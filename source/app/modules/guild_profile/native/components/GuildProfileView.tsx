@@ -283,114 +283,133 @@ case 9:
     var7 = 'modules/guild_profile/native/components/GuildProfileView.tsx';
     var7 = var8.bind(var9)(var7);
     var6 = function GuildProfileView(arg1) {
-        var2 = arg1;
-        var11 = var2.guildProfile;
-        var _closure2_slot0 = var11;
-        var2 = _closure1_slot10;
-        var4 = undefined;
-        var7 = var2.bind(var4)();
-        var5 = _closure1_slot3;
-        var3 = var5.useMemo;
-        var2 = new Array(1);
-        var2[0] = var11;
-        var1 = function() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure2_slot0;
-                var1 = null;
-                if(!(var1 != var2)) { _fun0004_ip = 10; continue _fun0004 }
+            var2 = arg1;
+            var11 = var2.guildProfile;
+            var _closure2_slot0 = var11;
+            var2 = _closure1_slot10;
+            var4 = undefined;
+            var7 = var2.bind(var4)();
+            var5 = _closure1_slot3;
+            var3 = var5.useMemo;
+            var2 = new Array(1);
+            var2[0] = var11;
+            var1 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    var2 = _closure2_slot0;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0005_ip = 10; continue _fun0005 }
 case 11:
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var2 = 13;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                var3 = var4.getGuildIconSource;
-                var2 = {};
-                var5 = _closure2_slot0;
-                var6 = var5.id;
-                var2['id'] = var6;
-                var5 = var5.icon;
-                var2['icon'] = var5;
-                var5 = 96;
-                var2['size'] = var5;
-                var5 = true;
-                var2['canAnimate'] = var5;
-                var3 = var3.bind(var4)(var2);
-                var5 = 'number';
-                var4 = typeof var3;
-                var2 = null;
-                if(!(var5 !== var4)) { _fun0004_ip = 12; continue _fun0004 }
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 13;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getGuildIconSource;
+                    var2 = {};
+                    var5 = _closure2_slot0;
+                    var6 = var5.id;
+                    var2['id'] = var6;
+                    var5 = var5.icon;
+                    var2['icon'] = var5;
+                    var5 = 96;
+                    var2['size'] = var5;
+                    var5 = true;
+                    var2['canAnimate'] = var5;
+                    var3 = var3.bind(var4)(var2);
+                    var5 = 'number';
+                    var4 = typeof var3;
+                    var2 = null;
+                    if(!(var5 !== var4)) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
-                var2 = var3.uri;
+                    var2 = var3.uri;
 case 12:
-                return var2;
+                    return var2;
 case 10:
-                return var1;
-            }
-        };
-        var14 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot9;
-        var2 = _closure1_slot4;
-        var1 = {};
-        var5 = var7.container;
-        var1['style'] = var5;
-        var9 = _closure1_slot8;
-        var6 = _closure1_slot13;
-        var5 = {};
-        var5['guildProfile'] = var11;
-        var6 = var9.bind(var4)(var6, var5);
-        var5 = new Array(3);
-        var5[0] = var6;
-        var13 = _closure1_slot8;
-        var9 = _closure1_slot1;
-        var12 = _closure1_slot2;
-        var6 = 19;
-        var6 = var12[var6];
-        var10 = var9.bind(var4)(var6);
-        var6 = {};
-        var6['profile'] = var11;
-        var6['guildIconSource'] = var14;
-        var6 = var13.bind(var4)(var10, var6);
-        var5[1] = var6;
-        var6 = {};
-        var7 = var7.body;
-        var6['style'] = var7;
-        var13 = _closure1_slot8;
-        var10 = _closure1_slot0;
-        var7 = 20;
-        var7 = var12[var7];
-        var7 = var10.bind(var4)(var7);
-        var10 = var7.Text;
-        var7 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
-        var14 = var11.description;
-        var7['children'] = var14;
-        var10 = var13.bind(var4)(var10, var7);
-        var7 = new Array(3);
-        var7[0] = var10;
-        var14 = _closure1_slot8;
-        var10 = 21;
-        var10 = var12[var10];
-        var13 = var9.bind(var4)(var10);
-        var10 = {};
-        var10['profile'] = var11;
-        var10 = var14.bind(var4)(var13, var10);
-        var7[1] = var10;
-        var10 = _closure1_slot8;
-        var8 = 22;
-        var8 = var12[var8];
-        var9 = var9.bind(var4)(var8);
-        var8 = {};
-        var8['profile'] = var11;
-        var8 = var10.bind(var4)(var9, var8);
-        var7[2] = var8;
-        var6['children'] = var7;
-        var6 = var3.bind(var4)(var2, var6);
-        var5[2] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+                    return var1;
+                }
+            };
+            var12 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot9;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var5 = var7.container;
+            var1['style'] = var5;
+            var9 = _closure1_slot8;
+            var6 = _closure1_slot13;
+            var5 = {};
+            var5['guildProfile'] = var11;
+            var6 = var9.bind(var4)(var6, var5);
+            var5 = new Array(3);
+            var5[0] = var6;
+            var10 = _closure1_slot8;
+            var9 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var6 = 19;
+            var6 = var13[var6];
+            var9 = var9.bind(var4)(var6);
+            var6 = {};
+            var6['profile'] = var11;
+            var6['guildIconSource'] = var12;
+            var6 = var10.bind(var4)(var9, var6);
+            var5[1] = var6;
+            var6 = {};
+            var7 = var7.body;
+            var6['style'] = var7;
+            var9 = var11.description;
+            var7 = null;
+            var9 = var7 != var9;
+            if(!var9) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var7 = var11.description;
+            var10 = var7.length;
+            var7 = 0;
+            var9 = var10 > var7;
+case 14:
+            if(!var9) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+            var12 = _closure1_slot8;
+            var10 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var7 = 20;
+            var7 = var13[var7];
+            var7 = var10.bind(var4)(var7);
+            var10 = var7.Text;
+            var7 = {'variant': 'text-md/medium', 'color': 'text-subtle'};
+            var13 = var11.description;
+            var7['children'] = var13;
+            var9 = var12.bind(var4)(var10, var7);
+case 16:
+            var7 = new Array(3);
+            var7[0] = var9;
+            var14 = _closure1_slot8;
+            var9 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var10 = 21;
+            var10 = var12[var10];
+            var13 = var9.bind(var4)(var10);
+            var10 = {};
+            var10['profile'] = var11;
+            var10 = var14.bind(var4)(var13, var10);
+            var7[1] = var10;
+            var10 = _closure1_slot8;
+            var8 = 22;
+            var8 = var12[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var8['profile'] = var11;
+            var8 = var10.bind(var4)(var9, var8);
+            var7[2] = var8;
+            var6['children'] = var7;
+            var6 = var3.bind(var4)(var2, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['default'] = var6;
     var3['getBackgroundForProfile'] = var5;

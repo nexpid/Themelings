@@ -22,13 +22,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = var4.ExperimentFlags;
     var _closure1_slot3 = var4;
-    var4 = new Array(3);
+    var4 = new Array(2);
     var7 = {'name': 'H264', 'encode': true, 'decode': true};
     var4[0] = var7;
     var7 = {'name': 'VP8', 'encode': true, 'decode': true};
     var4[1] = var7;
-    var7 = {'name': 'VP9', 'encode': true, 'decode': true};
-    var4[2] = var7;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
