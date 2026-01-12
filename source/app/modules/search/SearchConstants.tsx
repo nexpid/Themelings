@@ -364,6 +364,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['EMBED'] = var5;
     var2 = 'attachment';
     var7['ATTACHMENT'] = var2;
+    var6 = 'component';
+    var7['COMPONENT'] = var6;
     var6 = {};
     var6['TEXT'] = var30;
     var6['EMBED'] = var5;

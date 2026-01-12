@@ -205,7 +205,7 @@ case 8:
             var6 = var1[var5];
             var12 = var20.bind(var4)(var6);
             var10 = var12.useAnimatedStyle;
-            var6 = function T() {
+            var6 = function v() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -319,7 +319,7 @@ case 10:
             var8['containerWidth'] = var14;
             var10 = var12.bind(var4)(var11, var8);
 case 9:
-            var8 = new Array(4);
+            var8 = new Array(5);
             var8[0] = var10;
             var11 = var17.type;
             var10 = _closure1_slot8;
@@ -356,9 +356,9 @@ case 11:
 case 14:
             var13 = _closure1_slot9;
             var12 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var19 = _closure1_slot2;
             var11 = 11;
-            var11 = var18[var11];
+            var11 = var19[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.SearchSoundMediaImage;
             var11 = {};
@@ -367,9 +367,41 @@ case 14:
             var10 = var13.bind(var4)(var12, var11);
 case 13:
             var8[2] = var10;
-            var9 = var9 != var21;
-            if(!var9) { _fun0001_ip = 15; continue _fun0001 }
+            var11 = var17.type;
+            var10 = _closure1_slot8;
+            var10 = var10.COMPONENT;
+            var10 = var11 === var10;
+            if(!var10) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
+            var13 = _closure1_slot9;
+            var12 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var11 = 11;
+            var11 = var19[var11];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.SearchComponentMediaImage;
+            var11 = {};
+            var19 = var17.unfurledMediaItem;
+            var11['unfurledMediaItem'] = var19;
+            var19 = var17.sources;
+            var11['sources'] = var19;
+            var19 = var17.channelId;
+            var11['channelId'] = var19;
+            var19 = var17.author;
+            var19 = var19.id;
+            var11['authorId'] = var19;
+            var19 = var17.author;
+            var19 = var19.bot;
+            var11['isBot'] = var19;
+            var11['scale'] = var18;
+            var11['containerHeight'] = var14;
+            var11['containerWidth'] = var14;
+            var10 = var13.bind(var4)(var12, var11);
+case 15:
+            var8[3] = var10;
+            var9 = var9 != var21;
+            if(!var9) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var12 = _closure1_slot9;
             var11 = _closure1_slot4;
             var10 = {};
@@ -405,8 +437,8 @@ case 16:
             var13 = var12.bind(var4)(var14, var13);
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 15:
-            var8[3] = var9;
+case 17:
+            var8[4] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

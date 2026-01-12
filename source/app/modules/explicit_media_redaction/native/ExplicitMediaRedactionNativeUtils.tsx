@@ -297,12 +297,31 @@ case 23:
             var2 = var2.ATTACHMENT;
             if(!(var6 !== var2)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-            var9 = var4.type;
+            var6 = var4.type;
             var2 = _closure1_slot5;
             var2 = var2.EMBED;
-            var6 = null;
-            if(!(var9 === var2)) { _fun0003_ip = 26; continue _fun0003 }
+            if(!(var6 !== var2)) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
+            var9 = var4.type;
+            var2 = _closure1_slot5;
+            var2 = var2.COMPONENT;
+            var6 = null;
+            if(!(var9 === var2)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
+            var2 = {};
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 12;
+            var9 = var11[var9];
+            var9 = var10.bind(var5)(var9);
+            var9 = var9.ObscuredMediaTypes;
+            var9 = var9.GenericMedia;
+            var2['type'] = var9;
+            var9 = var4.unfurledMediaItem;
+            var2['media'] = var9;
+            var6 = var2;
+            _fun0003_ip = 28; continue _fun0003;
+case 26:
             var2 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -315,7 +334,7 @@ case 27:
             var9 = var4.embed;
             var2['media'] = var9;
             var6 = var2;
-            _fun0003_ip = 26; continue _fun0003;
+            _fun0003_ip = 28; continue _fun0003;
 case 24:
             var2 = {};
             var10 = _closure1_slot0;
@@ -329,18 +348,18 @@ case 24:
             var4 = var4.attachment;
             var2['media'] = var4;
             var6 = var2;
-case 26:
+case 28:
             var1 = var1 != var6;
-            if(!var1) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+            if(!var1) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var4 = var4.bind(var5)(var2);
             var2 = var4.isMediaObscuredForHarmTypes;
             var2 = var2.bind(var4)(var6, var7);
-            if(!var2) { _fun0003_ip = 30; continue _fun0003 }
-case 8:
+            if(!var2) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 5;
@@ -348,9 +367,9 @@ case 8:
             var4 = var4.bind(var5)(var3);
             var3 = var4.shouldAgeVerifyForExplicitMedia;
             var2 = var3.bind(var4)();
-case 30:
+case 32:
             var1 = var2;
-case 28:
+case 30:
             return var1;
 case 22:
             var1 = false;

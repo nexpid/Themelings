@@ -202,18 +202,25 @@ case 0:
                             var2 = var4 !== var2;
                             if(!var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
+                            var5 = var1.type;
+                            var4 = _closure1_slot9;
+                            var4 = var4.EMBED;
+                            var2 = var5 !== var4;
+case 8:
+                            if(!var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                             var4 = var1.type;
                             var3 = _closure1_slot9;
-                            var3 = var3.EMBED;
+                            var3 = var3.COMPONENT;
                             var2 = var4 !== var3;
-case 8:
-                            if(var2) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+case 10:
+                            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                             var3 = _closure4_slot0;
                             var2 = var3.push;
                             var1 = var1.sources;
                             var1 = var2.bind(var3)(var1);
-case 10:
+case 12:
                             var1 = undefined;
                             return var1;
                         }
@@ -263,8 +270,8 @@ case 0:
                 var6 = var1 == var6;
                 var1 = undefined;
                 var8 = undefined;
-                if(var6) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                if(var6) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                 var7 = _closure2_slot3;
                 var6 = var7.find;
                 var5 = function(arg1) {
@@ -276,7 +283,7 @@ case 13:
                     return var1;
                 };
                 var8 = var6.bind(var7)(var5);
-case 12:
+case 14:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var6 = 16;
@@ -284,8 +291,8 @@ case 12:
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.shouldAgeVerifyForSearchMedia;
                 var6 = var6.bind(var7)(var4, var8);
-                if(var6) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                if(var6) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var6 = 19;
@@ -304,8 +311,8 @@ case 15:
                 var6 = var7.bind(var8)(var6);
                 var2 = _closure2_slot6;
                 var2 = var2.bind(var1)(var4, var3);
-                _fun0004_ip = 16; continue _fun0004;
-case 14:
+                _fun0004_ip = 18; continue _fun0004;
+case 16:
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var2 = 17;
@@ -321,7 +328,7 @@ case 14:
                 var5 = var5.SEARCH_MEDIA_PREVIEW;
                 var2['entryPoint'] = var5;
                 var2 = var3.bind(var4)(var2);
-case 16:
+case 18:
                 return var1;
             }
         };
@@ -390,7 +397,7 @@ case 0:
                 var2 = var3.bind(var4)(var2);
                 var2 = _closure2_slot4;
                 var10 = 0;
-                if(!(var2 > var10)) { _fun0005_ip = 17; continue _fun0005 }
+                if(!(var2 > var10)) { _fun0005_ip = 19; continue _fun0005 }
 case 8:
                 var9 = var1.length;
                 var3 = _closure1_slot0;
@@ -413,8 +420,8 @@ case 8:
                 var3 = 11;
                 var2 = 2;
                 var10 = 0;
-                if(!var12) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                if(!var12) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var13 = var1.push;
                 var12 = {};
                 var14 = _closure1_slot6;
@@ -449,8 +456,8 @@ case 18:
                 var12['props'] = var14;
                 var12 = var13.bind(var1)(var12);
                 var10 = var10 + 1;
-                if(var10 < var6) { _fun0005_ip = 18; continue _fun0005 }
-case 17:
+                if(var10 < var6) { _fun0005_ip = 20; continue _fun0005 }
+case 19:
                 return var1;
             }
         };

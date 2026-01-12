@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -104,6 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var1 = arg1;
+                var10 = arg2;
                 var3 = var1.type;
                 var2 = 'singlePerk';
                 if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
@@ -111,7 +112,28 @@ case 3:
                 var2 = 'multiPerk';
                 if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var2 = undefined;
+                var2 = 'gameServer';
+                if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var2 = null;
+                return var2;
+case 6:
+                var6 = _closure1_slot4;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 9;
+                var2 = var4[var2];
+                var5 = undefined;
+                var4 = var3.bind(var5)(var2);
+                var3 = {};
+                var2 = _closure2_slot0;
+                var3['guildId'] = var2;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var7 = var2.concat;
+                var2 = 'game-server-';
+                var2 = var7.bind(var2)(var10);
+                var2 = var6.bind(var5)(var4, var3, var2);
                 return var2;
 case 4:
                 var6 = _closure1_slot4;
@@ -125,14 +147,13 @@ case 4:
                 var2 = _closure2_slot0;
                 var3['guildId'] = var2;
                 var3['listing'] = var1;
-                var10 = var1.group;
+                var9 = var1.group;
                 var2 = global;
                 var2 = var2.HermesInternal;
-                var9 = var2.concat;
-                var8 = '';
-                var7 = '-';
-                var2 = arg2;
-                var2 = var9.bind(var8)(var10, var7, var2);
+                var8 = var2.concat;
+                var7 = '';
+                var2 = '-';
+                var2 = var8.bind(var7)(var9, var2, var10);
                 var2 = var6.bind(var5)(var4, var3, var2);
                 return var2;
 case 2:

@@ -703,7 +703,7 @@ case 49:
         return var1;
     };
     var3['SearchSoundMediaImage'] = var4;
-    var2 = function SearchFileMediaImage(arg1) {
+    var4 = function SearchFileMediaImage(arg1) {
         var2 = arg1;
         var8 = var2.fileName;
         var11 = var2.height;
@@ -751,6 +751,96 @@ case 49:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['SearchFileMediaImage'] = var2;
+    var3['SearchFileMediaImage'] = var4;
+    var2 = function SearchComponentMediaImage(arg1) {
+        var4 = arg1;
+        var5 = var4.unfurledMediaItem;
+        var _closure2_slot0 = var5;
+        var10 = var4.sources;
+        var _closure2_slot1 = var10;
+        var11 = var4.channelId;
+        var8 = var4.authorId;
+        var9 = var4.isBot;
+        var _closure2_slot2 = var9;
+        var3 = {'unfurledMediaItem': 0, 'sources': 0, 'channelId': 0, 'authorId': 0, 'isBot': 0};
+        var14 = null;
+        var15 = var3;
+        var1 = silentSetPrototypeOf(var15, var14);
+        var15 = {};
+        var14 = var4;
+        var13 = var3;
+        var6 = copyDataProperties(var15, var14, var13);
+        var7 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 17;
+        var3 = var4[var3];
+        var4 = undefined;
+        var7 = var7.bind(var4)(var3);
+        var3 = var7.useEnabledHarmTypesBitmaskForChannelAndAuthorId;
+        var11 = var3.bind(var7)(var11, var8);
+        var _closure2_slot3 = var11;
+        var8 = _closure1_slot4;
+        var7 = var8.useMemo;
+        var3 = new Array(4);
+        var3[0] = var5;
+        var3[1] = var11;
+        var3[2] = var10;
+        var3[3] = var9;
+        var2 = function() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var1 = 13;
+                var1 = var9[var1];
+                var7 = undefined;
+                var6 = var8.bind(var7)(var1);
+                var5 = var6.getObscureReasonForUnfurledMediaItem;
+                var4 = _closure2_slot0;
+                var3 = _closure2_slot3;
+                var1 = 18;
+                var1 = var9[var1];
+                var8 = var8.bind(var7)(var1);
+                var7 = var8.flattenSource;
+                var1 = _closure2_slot1;
+                var7 = var7.bind(var8)(var1);
+                var1 = null;
+                var1 = var1 == var7;
+                if(var1) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
+                var7 = var7.spoiler;
+                var1 = !var7;
+case 50:
+                var10 = _closure2_slot2;
+                var11 = !var1;
+                var14 = var6;
+                var13 = var4;
+                var12 = var3;
+                var1 = var14[var5](var13, var12, var11, var10, var9);
+                return var1;
+            }
+        };
+        var7 = var7.bind(var8)(var2, var3);
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot13;
+        var1 = {};
+        var15 = var1;
+        var14 = var6;
+        var6 = copyDataProperties(var15, var14);
+        var6 = 'obscureReason';
+        var1[var6] = var7;
+        var7 = var5.proxyUrl;
+        var6 = 'mediaUrl';
+        var1[var6] = var7;
+        var7 = var5.height;
+        var6 = 'mediaHeight';
+        var1[var6] = var7;
+        var6 = var5.width;
+        var5 = 'mediaWidth';
+        var1[var5] = var6;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['SearchComponentMediaImage'] = var2;
     return var1;
 })();

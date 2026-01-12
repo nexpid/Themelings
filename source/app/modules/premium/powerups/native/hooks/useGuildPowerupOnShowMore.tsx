@@ -37,19 +37,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var2[1] = var5;
         var1 = function() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 1;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = {};
-            var5 = _closure2_slot0;
-            var2['guildId'] = var5;
-            var4 = _closure2_slot1;
-            var2['powerup'] = var4;
-            var2 = var3.bind(var1)(var2);
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = _closure2_slot1;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 1;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['guildId'] = var5;
+                var4 = _closure2_slot1;
+                var1['powerup'] = var4;
+                var1 = var2.bind(var3)(var1);
+case 2:
+                var1 = undefined;
+                return var1;
+            }
         };
         var1 = var3.bind(var4)(var1, var2);
         return var1;
