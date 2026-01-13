@@ -84,20 +84,25 @@ case 0:
             var3 = arg1;
             var18 = var3.title;
             var17 = var3.description;
-            var19 = var3.imageUrl;
+            var20 = var3.imageUrl;
+            var19 = var3.isImageAnimated;
+            var4 = undefined;
+            if(!(var19 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var19 = true;
+case 2:
             var7 = var3.style;
             var5 = var3.onPress;
             var13 = var3.status;
-            var2 = {'title': 0, 'description': 0, 'imageUrl': 0, 'style': 0, 'onPress': 0, 'status': 0};
-            var21 = null;
-            var22 = var2;
-            var1 = silentSetPrototypeOf(var22, var21);
-            var22 = {};
-            var21 = var3;
-            var20 = var2;
-            var12 = copyDataProperties(var22, var21, var20);
+            var2 = {'title': 0, 'description': 0, 'imageUrl': 0, 'isImageAnimated': 0, 'style': 0, 'onPress': 0, 'status': 0};
+            var22 = null;
+            var23 = var2;
+            var1 = silentSetPrototypeOf(var23, var22);
+            var23 = {};
+            var22 = var3;
+            var21 = var2;
+            var12 = copyDataProperties(var23, var22, var21);
             var1 = _closure1_slot6;
-            var4 = undefined;
             var10 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -111,13 +116,13 @@ case 0:
             var2 = var2.bind(var4)(var1);
             var1 = var2.isThemeDark;
             var1 = var1.bind(var2)(var3);
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = ['#0f101100', '#0f10111a'];
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
-            var16 = ['#0f101100', '#0f101166'];
+            _fun0001_ip = 6; continue _fun0001;
 case 4:
+            var16 = ['#0f101100', '#0f101166'];
+case 6:
             var3 = _closure1_slot5;
             var15 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -143,7 +148,8 @@ case 4:
             var6 = var14[var6];
             var8 = var15.bind(var4)(var6);
             var6 = {};
-            var6['imageUrl'] = var19;
+            var6['imageUrl'] = var20;
+            var6['isAnimated'] = var19;
             var8 = var11.bind(var4)(var8, var6);
             var6 = new Array(2);
             var6[0] = var8;
@@ -196,9 +202,9 @@ case 4:
             var9 = var10.bind(var4)(var9);
             var10 = var9.GuildPowerupsCardFooter;
             var9 = {};
-            var22 = var9;
-            var21 = var12;
-            var12 = copyDataProperties(var22, var21);
+            var23 = var9;
+            var22 = var12;
+            var12 = copyDataProperties(var23, var22);
             var12 = 'status';
             var9[var12] = var13;
             var9 = var11.bind(var4)(var10, var9);

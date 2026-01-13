@@ -102,6 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BILLING_SUBSCRIPTION_GROUP_USER_ACTIVE_BOOSTS'] = var11;
     var8 = 'BILLING_SUBSCRIPTION_GROUP_USER_ACTIVE_BOOSTS';
     var2[var11] = var8;
+    var11 = 100135;
+    var2['BILLING_SUBSCRIPTION_GROUP_USER_ON_GIFT_SUBSCRIPTION'] = var11;
+    var8 = 'BILLING_SUBSCRIPTION_GROUP_USER_ON_GIFT_SUBSCRIPTION';
+    var2[var11] = var8;
     var8 = 4;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);

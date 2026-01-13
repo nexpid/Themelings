@@ -64,8 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HUB_STUDY_ROOM_NOTICE'] = var1;
     var1 = 'CHANNEL_BANNER_MEMBER_LIST_NOTICE';
     var2['CHANNEL_BANNER_MEMBER_LIST_NOTICE'] = var1;
-    var1 = 'CHANGE_LANGUAGE_MODAL';
-    var2['CHANGE_LANGUAGE_MODAL'] = var1;
     var1 = 'ACTIVITY_BEB_TUTORIAL';
     var2['ACTIVITY_BEB_TUTORIAL'] = var1;
     var1 = 'APP_DIRECTORY_SETTINGS_NEW_PILL';

@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/promotions/MarketingComponentHooks.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useThemeAndReducedMotionAwareAssetUrl(arg1) {
+    var2 = function useThemeAndReducedMotionAwareAssetUrl(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
@@ -64,24 +64,27 @@ case 3:
             var2 = var2.bind(var5)(var6);
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            if(var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var2 = var4.lightUrl;
-            _fun0001_ip = 8; continue _fun0001;
+            var2 = arg2;
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-            var2 = var4.lightStaticUrl;
+            if(var3) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var2 = var4.lightUrl;
             _fun0001_ip = 9; continue _fun0001;
-case 4:
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            var3 = var4.darkUrl;
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
-            var3 = var4.darkStaticUrl;
-case 12:
-            var2 = var3;
+case 7:
+            var2 = var4.lightStaticUrl;
 case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 4:
+            if(var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var3 = var4.darkUrl;
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
+            var3 = var4.darkStaticUrl;
+case 13:
+            var2 = var3;
+case 10:
             var1 = var2;
 case 2:
             return var1;

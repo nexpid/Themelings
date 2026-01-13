@@ -3,11 +3,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var5 = require;
-        var7 = metroImportDefault;
+        var11 = metroImportDefault;
         var3 = exports;
         var6 = dependencyMap;
         var _closure1_slot0 = var5;
-        var _closure1_slot1 = var7;
+        var _closure1_slot1 = var11;
         var _closure1_slot2 = var6;
         var1 = function HeaderRow(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -68,7 +68,7 @@ case 2:
                 _closure2_slot7 = var1;
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var1 = var5[var1];
                 var6 = var2.bind(var4)(var1);
                 var1 = var6.useManageResourcePermissions;
@@ -97,7 +97,7 @@ case 5:
                                 var4 = _closure2_slot7;
                                 var10 = _closure1_slot0;
                                 var11 = _closure1_slot2;
-                                var2 = 14;
+                                var2 = 15;
                                 var2 = var11[var2];
                                 var10 = var10.bind(var5)(var2);
                                 var2 = var10.v4;
@@ -106,7 +106,7 @@ case 5:
 case 6: // try_start_0
                                 var4 = _closure1_slot1;
                                 var10 = _closure1_slot2;
-                                var2 = 12;
+                                var2 = 13;
                                 var2 = var10[var2];
                                 var13 = var4.bind(var5)(var2);
                                 var12 = var13.track;
@@ -119,7 +119,7 @@ case 6: // try_start_0
                                 var14 = _closure2_slot6;
                                 var2['upload_id'] = var14;
                                 var2 = var12.bind(var13)(var11, var2);
-                                var2 = 15;
+                                var2 = 16;
                                 var2 = var10[var2];
                                 var10 = var4.bind(var5)(var2);
                                 var4 = var10.openImagePicker;
@@ -157,7 +157,7 @@ case 18:
                                 _closure5_slot0 = var10;
                                 var8 = _closure1_slot0;
                                 var9 = _closure1_slot2;
-                                var7 = 11;
+                                var7 = 12;
                                 var7 = var9[var7];
                                 var9 = var8.bind(var5)(var7);
                                 var8 = var9.uploadEmoji;
@@ -181,7 +181,7 @@ case 18:
                                 var7 = function() {
                                     var4 = _closure1_slot1;
                                     var3 = _closure1_slot2;
-                                    var2 = 12;
+                                    var2 = 13;
                                     var3 = var3[var2];
                                     var2 = undefined;
                                     var4 = var4.bind(var2)(var3);
@@ -227,7 +227,7 @@ case 24:
 case 26:
                                         var7 = _closure1_slot1;
                                         var10 = _closure1_slot2;
-                                        var6 = 12;
+                                        var6 = 13;
                                         var6 = var10[var6];
                                         var9 = var7.bind(var1)(var6);
                                         var8 = var9.track;
@@ -247,7 +247,7 @@ case 26:
                                         var6['upload_id'] = var11;
                                         var6 = var8.bind(var9)(var7, var6);
                                         var7 = _closure1_slot0;
-                                        var6 = 13;
+                                        var6 = 14;
                                         var8 = var10[var6];
                                         var8 = var7.bind(var1)(var8);
                                         var9 = var8.intl;
@@ -265,7 +265,7 @@ case 25:
 case 23:
                                         var9 = _closure1_slot0;
                                         var10 = _closure1_slot2;
-                                        var6 = 13;
+                                        var6 = 14;
                                         var7 = var10[var6];
                                         var7 = var9.bind(var1)(var7);
                                         var8 = var7.intl;
@@ -280,7 +280,7 @@ case 27:
 case 21:
                                         var8 = _closure1_slot0;
                                         var9 = _closure1_slot2;
-                                        var5 = 13;
+                                        var5 = 14;
                                         var6 = var9[var5];
                                         var6 = var8.bind(var1)(var6);
                                         var7 = var6.intl;
@@ -357,7 +357,7 @@ case 4:
                     var1['text'] = var2;
                     return var1;
                 };
-                var24 = 13;
+                var24 = 14;
                 var1 = var5[var24];
                 var1 = var2.bind(var4)(var1);
                 var11 = var1.intl;
@@ -408,23 +408,23 @@ case 4:
                 var1 = 4;
                 var1 = var6.bind(var4)(var3, var1);
                 var17[3] = var1;
-                var3 = _closure1_slot13;
-                var1 = 16;
+                var3 = _closure1_slot14;
+                var1 = 17;
                 var1 = var5[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.RedesignCompat;
                 var1 = {};
-                var7 = _closure1_slot14;
+                var7 = _closure1_slot13;
                 var6 = _closure1_slot6;
                 var5 = {};
                 var8 = var18.headerContainer;
                 var5['style'] = var8;
                 if(!var10) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-                var12 = _closure1_slot13;
+                var12 = _closure1_slot14;
                 var25 = _closure1_slot1;
                 var26 = _closure1_slot2;
-                var23 = 17;
+                var23 = 18;
                 var8 = var26[var23];
                 var11 = var25.bind(var4)(var8);
                 var8 = {};
@@ -459,10 +459,10 @@ case 32:
                 var9 = var9 != var14;
                 if(!var9) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
-                var12 = _closure1_slot13;
+                var12 = _closure1_slot14;
                 var11 = _closure1_slot0;
                 var15 = _closure1_slot2;
-                var10 = 18;
+                var10 = 19;
                 var10 = var15[var10];
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.Text;
@@ -473,15 +473,15 @@ case 37:
                 var9 = var12.bind(var4)(var11, var10);
 case 36:
                 var8[1] = var9;
-                var11 = _closure1_slot14;
+                var11 = _closure1_slot13;
                 var10 = _closure1_slot6;
                 var9 = {};
                 var12 = var18.uploadInstructionsContainer;
                 var9['style'] = var12;
-                var19 = _closure1_slot13;
+                var19 = _closure1_slot14;
                 var23 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var14 = 19;
+                var14 = 20;
                 var12 = var20[var14];
                 var12 = var23.bind(var4)(var12);
                 var15 = var12.FormHint;
@@ -492,7 +492,7 @@ case 36:
                 var15 = var19.bind(var4)(var15, var12);
                 var12 = new Array(3);
                 var12[0] = var15;
-                var19 = _closure1_slot13;
+                var19 = _closure1_slot14;
                 var14 = var20[var14];
                 var14 = var23.bind(var4)(var14);
                 var15 = var14.FormTitle;
@@ -512,7 +512,7 @@ case 36:
                 var14['title'] = var20;
                 var14 = var19.bind(var4)(var15, var14);
                 var12[1] = var14;
-                var15 = _closure1_slot13;
+                var15 = _closure1_slot14;
                 var14 = _closure1_slot7;
                 var13 = {};
                 var18 = var18.uploadInstructionsList;
@@ -526,42 +526,26 @@ case 36:
                 var13['keyExtractor'] = var17;
                 var16 = function renderItem(arg1) {
                     var1 = arg1;
-                    var9 = var1.item;
-                    var4 = _closure1_slot14;
-                    var3 = _closure1_slot6;
-                    var2 = {};
-                    var1 = _closure2_slot3;
-                    var1 = var1.uploadListItem;
-                    var2['style'] = var1;
-                    var13 = _closure1_slot13;
-                    var7 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var6 = 18;
-                    var5 = var11[var6];
-                    var1 = undefined;
-                    var5 = var7.bind(var1)(var5);
-                    var12 = var5.Text;
-                    var5 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted', 'children': '•'};
-                    var14 = _closure2_slot3;
-                    var14 = var14.uploadListItemText;
-                    var5['style'] = var14;
-                    var12 = var13.bind(var1)(var12, var5);
-                    var5 = new Array(2);
-                    var5[0] = var12;
-                    var8 = _closure1_slot13;
-                    var6 = var11[var6];
-                    var6 = var7.bind(var1)(var6);
-                    var7 = var6.Text;
-                    var6 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
-                    var10 = _closure2_slot3;
-                    var10 = var10.uploadListItemText;
-                    var6['style'] = var10;
-                    var9 = var9.text;
-                    var6['children'] = var9;
-                    var6 = var8.bind(var1)(var7, var6);
-                    var5[1] = var6;
-                    var2['children'] = var5;
-                    var1 = var4.bind(var1)(var3, var2);
+                    var5 = var1.item;
+                    var4 = _closure1_slot13;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 19;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.Text;
+                    var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
+                    var6 = _closure2_slot3;
+                    var6 = var6.uploadListItem;
+                    var1['style'] = var6;
+                    var6 = var5.text;
+                    var1['accessibilityLabel'] = var6;
+                    var6 = var5.text;
+                    var5 = ['•', ' '];
+                    var5[2] = var6;
+                    var1['children'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var13['renderItem'] = var16;
@@ -579,37 +563,37 @@ case 36:
         };
         var _closure1_slot16 = var1;
         var1 = global;
-        var9 = var1.Object;
-        var8 = var9.defineProperty;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
         var4 = {};
         var1 = true;
         var4['value'] = var1;
         var1 = '__esModule';
-        var1 = var8.bind(var9)(var3, var1, var4);
+        var1 = var7.bind(var8)(var3, var1, var4);
         var12 = 0;
         var4 = var6[var12];
         var1 = undefined;
-        var4 = var7.bind(var1)(var4);
+        var4 = var11.bind(var1)(var4);
         var _closure1_slot3 = var4;
         var4 = 1;
         var4 = var6[var4];
-        var4 = var7.bind(var1)(var4);
+        var4 = var11.bind(var1)(var4);
         var _closure1_slot4 = var4;
         var4 = 2;
-        var8 = var6[var4];
+        var7 = var6[var4];
         var4 = metroImportAll;
-        var4 = var4.bind(var1)(var8);
+        var4 = var4.bind(var1)(var7);
         var _closure1_slot5 = var4;
         var4 = 3;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
-        var8 = var4.View;
-        var _closure1_slot6 = var8;
+        var7 = var4.View;
+        var _closure1_slot6 = var7;
         var4 = var4.FlatList;
         var _closure1_slot7 = var4;
         var14 = 4;
         var4 = var6[var14];
-        var4 = var7.bind(var1)(var4);
+        var4 = var11.bind(var1)(var4);
         var _closure1_slot8 = var4;
         var4 = 5;
         var4 = var6[var4];
@@ -620,20 +604,20 @@ case 36:
         var _closure1_slot10 = var7;
         var4 = var4.UPLOAD_SMALL_SIZE;
         var _closure1_slot11 = var4;
-        var10 = 6;
-        var4 = var6[var10];
+        var4 = 6;
+        var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
         var4 = var4.EMOJI_MAX_FILESIZE_KB;
         var _closure1_slot12 = var4;
         var4 = 7;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
-        var7 = var4.jsx;
+        var7 = var4.jsxs;
         var _closure1_slot13 = var7;
-        var4 = var4.jsxs;
+        var4 = var4.jsx;
         var _closure1_slot14 = var4;
-        var11 = 8;
-        var4 = var6[var11];
+        var10 = 8;
+        var4 = var6[var10];
         var8 = var5.bind(var1)(var4);
         var7 = var8.createStyles;
         var4 = {};
@@ -672,21 +656,26 @@ case 42:
         var9['marginBottom'] = var12;
         var4['uploadInstructionsHeading'] = var9;
         var9 = {};
-        var9['marginLeft'] = var11;
+        var9['marginLeft'] = var10;
         var4['uploadInstructionsList'] = var9;
         var9 = {'paddingHorizontal': 16, 'paddingTop': 16};
         var4['headerContainer'] = var9;
         var9 = {};
-        var9['marginTop'] = var11;
+        var9['marginTop'] = var10;
         var4['errorText'] = var9;
         var9 = {};
+        var10 = 10;
+        var10 = var6[var10];
+        var10 = var11.bind(var1)(var10);
+        var10 = var10.spacing;
+        var10 = var10.PX_8;
         var9['paddingRight'] = var10;
-        var4['uploadListItemText'] = var9;
-        var9 = {'display': 'flex', 'flexDirection': 'row'};
+        var10 = 'row';
+        var9['flexDirection'] = var10;
         var4['uploadListItem'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot15 = var4;
-        var4 = 21;
+        var4 = 22;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -706,7 +695,7 @@ case 44:
                 var6 = copyDataProperties(var11, var10, var9);
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var3 = 20;
+                var3 = 21;
                 var3 = var7[var3];
                 var8 = var4.bind(var5)(var3);
                 var7 = var8.useStateFromStores;
@@ -720,7 +709,7 @@ case 44:
                     return var1;
                 };
                 var7 = var7.bind(var8)(var4, var3);
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot14;
                 var3 = _closure1_slot16;
                 var1 = {};
                 var1['isUploading'] = var7;

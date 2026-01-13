@@ -34,6 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['GIFT_PROMOTION'] = var4;
     var2 = 'GIFT_PROMOTION';
     var6[var4] = var2;
+    var4 = 7;
+    var6['THIRD_PARTY_OUTBOUND_RECURRING'] = var4;
+    var2 = 'THIRD_PARTY_OUTBOUND_RECURRING';
+    var6[var4] = var2;
     var8 = var1.Set;
     var1 = new Array(2);
     var5 = 'steelseries';

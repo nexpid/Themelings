@@ -56,53 +56,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var4 = _closure1_slot3;
         var3 = function ApplicationWidgetConfig(arg1) {
-            var2 = arg1;
-            var3 = this;
-            var6 = _closure1_slot2;
-            var5 = _closure2_slot0;
-            var1 = undefined;
-            var5 = var6.bind(var1)(var3, var5);
-            var5 = var2.application_id;
-            var3['applicationId'] = var5;
-            var5 = var2.widget_template_id;
-            var3['widgetTemplateId'] = var5;
-            var5 = _closure1_slot4;
-            var4 = var2.view_experiment;
-            var4 = var5.bind(var1)(var4);
-            var3['viewExperiment'] = var4;
-            var4 = var2.edit_experiment;
-            var4 = var5.bind(var1)(var4);
-            var3['editExperiment'] = var4;
-            var4 = var2.edit_profile_upsell_image;
-            var3['editProfileUpsellImage'] = var4;
-            var4 = var2.hero_placeholder_image;
-            var3['heroPlaceholderImage'] = var4;
-            var4 = var2.mini_preview_image;
-            var3['miniPreviewImage'] = var4;
-            var4 = var2.edit_profile_unlinked_dc;
-            var3['editProfileUnlinkedDc'] = var4;
-            var4 = var2.edit_profile_linked_dc;
-            var3['editProfileLinkedDc'] = var4;
-            var2 = var2.suggested_widget_linked_dc;
-            var3['suggestedWidgetLinkedDc'] = var2;
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = arg1;
+                var3 = this;
+                var6 = _closure1_slot2;
+                var4 = _closure2_slot0;
+                var1 = undefined;
+                var4 = var6.bind(var1)(var3, var4);
+                var4 = var2.application_id;
+                var3['applicationId'] = var4;
+                var4 = var2.widget_template_id;
+                var3['widgetTemplateId'] = var4;
+                var6 = _closure1_slot4;
+                var4 = var2.view_experiment;
+                var4 = var6.bind(var1)(var4);
+                var3['viewExperiment'] = var4;
+                var4 = var2.edit_experiment;
+                var4 = var6.bind(var1)(var4);
+                var3['editExperiment'] = var4;
+                var6 = var2.coachmark_experiment;
+                var4 = null;
+                var6 = var4 != var6;
+                var4 = undefined;
+                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var6 = _closure1_slot4;
+                var5 = var2.coachmark_experiment;
+                var4 = var6.bind(var1)(var5);
+case 2:
+                var3['coachmarkExperiment'] = var4;
+                var4 = var2.edit_profile_upsell_image;
+                var3['editProfileUpsellImage'] = var4;
+                var4 = var2.hero_placeholder_image;
+                var3['heroPlaceholderImage'] = var4;
+                var4 = var2.mini_preview_image;
+                var3['miniPreviewImage'] = var4;
+                var4 = var2.edit_profile_unlinked_dc;
+                var3['editProfileUnlinkedDc'] = var4;
+                var4 = var2.edit_profile_linked_dc;
+                var3['editProfileLinkedDc'] = var4;
+                var2 = var2.suggested_widget_linked_dc;
+                var3['suggestedWidgetLinkedDc'] = var2;
+                return var1;
+            }
         };
         var _closure2_slot0 = var3;
         var1 = {};
         var2 = 'isEligibleForEditProfileUpsell';
         var1['key'] = var2;
         var2 = function value() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.editProfileLinkedDc;
                 var3 = null;
                 var1 = var3 != var1;
-                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = var2.editProfileUnlinkedDc;
                 var1 = var3 != var2;
-case 2:
+case 4:
                 return var1;
             }
         };

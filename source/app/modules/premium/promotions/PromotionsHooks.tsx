@@ -681,8 +681,10 @@ case 56:
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.isRecurringPromotion;
                     var2 = {};
-                    var5 = var5.outboundTitle;
-                    var2['promotionPartner'] = var5;
+                    var6 = var5.outboundTitle;
+                    var2['promotionPartner'] = var6;
+                    var5 = var5.promotionType;
+                    var2['promotionType'] = var5;
                     var3 = var3.bind(var4)(var2);
                     var2 = false;
                     var1 = var2 === var3;

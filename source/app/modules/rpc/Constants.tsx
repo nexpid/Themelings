@@ -47,6 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['QUEST_PREVIEW_TOOL'] = var1;
     var1 = 'ONE_TIME_LOGIN';
     var7['ONE_TIME_LOGIN'] = var1;
+    var1 = 'PLAYGROUND';
+    var7['PLAYGROUND'] = var1;
     var _closure1_slot0 = var7;
     var6 = {};
     var1 = 'settings';
@@ -73,6 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['ACTIVITIES'] = var1;
     var1 = 'quest_preview_tool';
     var6['QUEST_PREVIEW_TOOL'] = var1;
+    var1 = 'playground';
+    var6['PLAYGROUND'] = var1;
     var _closure1_slot1 = var6;
     var4 = {};
     var2 = 101;
@@ -237,6 +241,14 @@ case 22:
             var3 = var3.ACTIVITIES;
             if(!(var3 !== var2)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
+            var3 = _closure1_slot0;
+            var3 = var3.PLAYGROUND;
+            if(!(var3 !== var2)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            return var2;
+case 25:
+            var2 = _closure1_slot1;
+            var2 = var2.PLAYGROUND;
             return var2;
 case 23:
             var2 = _closure1_slot1;

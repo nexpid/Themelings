@@ -367,7 +367,7 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 46; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 52; continue _fun0003 }
 case 3:
                     var9 = var2.orderId;
                     var3 = var2.expectedRevision;
@@ -376,20 +376,20 @@ case 3:
                     var8 = undefined;
                     var4 = undefined;
                     SaveGenerator(address=41);
-case 52:
-                    return var12;
 case 53:
+                    return var12;
+case 54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 54; continue _fun0003 }
-case 55: // try_start_0
+                    if(var5) { _fun0003_ip = 55; continue _fun0003 }
+case 56: // try_start_0
                     var8 = {};
                     var5 = var3;
                     var6 = null;
-                    if(!(var6 != var5)) { _fun0003_ip = 56; continue _fun0003 }
-case 57:
+                    if(!(var6 != var5)) { _fun0003_ip = 57; continue _fun0003 }
+case 58:
                     var5 = var8;
                     var5['expected_revision'] = var3;
-case 56:
+case 57:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 4;
@@ -406,36 +406,36 @@ case 56:
                     var8 = var10;
                     var9 = var6 != var8;
                     var8 = undefined;
-                    if(!var9) { _fun0003_ip = 58; continue _fun0003 }
-case 59:
+                    if(!var9) { _fun0003_ip = 59; continue _fun0003 }
+case 60:
                     var11 = var10;
                     var9 = '';
                     var8 = undefined;
-                    if(!(var9 !== var11)) { _fun0003_ip = 58; continue _fun0003 }
-case 60:
+                    if(!(var9 !== var11)) { _fun0003_ip = 59; continue _fun0003 }
+case 61:
                     var9 = {};
                     var9['load_id'] = var10;
                     var8 = var9;
-case 58:
+case 59:
                     var3['context'] = var8;
                     var8 = false;
                     var3['rejectWithError'] = var8;
                     var3 = var5.bind(var7)(var3);
-                    SaveGenerator(address=185);
-case 61:
-                    return var3;
+                    SaveGenerator(address=183);
 case 62:
+                    return var3;
+case 63:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 63; continue _fun0003 }
-case 64:
+                    if(var5) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
                     var4 = var3;
                     var5 = var3.body;
-                    if(!(var6 != var5)) { _fun0003_ip = 65; continue _fun0003 }
-case 42:
+                    if(!(var6 != var5)) { _fun0003_ip = 66; continue _fun0003 }
+case 67:
                     var4 = var4.body;
-case 66: // try_end0
+case 68: // try_end0
                     return var4;
-case 65: // try_start_1
+case 66: // try_start_1
                     var4 = global;
                     var6 = var4.Error;
                     var4 = var6.prototype;
@@ -445,14 +445,14 @@ case 65: // try_start_1
                     var4 = new var15[var6](var14, var13);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
-case 63: // try_end1
+case 64: // try_end1
                     return var3;
-case 67: // catch_target0 // catch_target1
+case 69: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
                     throw var3;
-case 54:
+case 55:
                     return var2;
-case 46:
+case 52:
                     return var1;
                 }
             };
@@ -480,12 +480,12 @@ case 46:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 68; continue _fun0004 }
-case 69:
+                    if(var2) { _fun0004_ip = 70; continue _fun0004 }
+case 71:
                     var7 = arg1;
                     var6 = undefined;
                     var4 = undefined;
-case 70: // try_start_0
+case 72: // try_start_0
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 4;
@@ -503,16 +503,16 @@ case 70: // try_start_0
                     var2['rejectWithError'] = var9;
                     var2 = var5.bind(var8)(var2);
                     SaveGenerator(address=90);
-case 71:
+case 73:
                     return var2;
-case 72:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 73; continue _fun0004 }
 case 74:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 75; continue _fun0004 }
+case 76:
                     var4 = var2;
                     var8 = var2.body;
                     var5 = null;
-                    if(!(var5 != var8)) { _fun0004_ip = 75; continue _fun0004 }
+                    if(!(var5 != var8)) { _fun0004_ip = 77; continue _fun0004 }
 case 10:
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -526,18 +526,18 @@ case 10:
                     var3['orderId'] = var7;
                     var3 = var5.bind(var6)(var3);
                     SaveGenerator(address=161);
-case 76:
-                    return var3;
-case 77:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
-                    var4 = var4.body;
-case 80: // try_end0
-                    return var4;
 case 78:
                     return var3;
-case 75: // try_start_1
+case 79:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
+                    var4 = var4.body;
+case 82: // try_end0
+                    return var4;
+case 80:
+                    return var3;
+case 77: // try_start_1
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
@@ -547,12 +547,12 @@ case 75: // try_start_1
                     var3 = new var13[var5](var12, var11);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 73: // try_end1
+case 75: // try_end1
                     return var2;
-case 81: // catch_target0 // catch_target1
+case 83: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     throw var2;
-case 68:
+case 70:
                     return var1;
                 }
             };

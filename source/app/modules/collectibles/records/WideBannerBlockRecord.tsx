@@ -49,8 +49,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['bannerTextColor'] = var4;
             var4 = var2.disable_cta;
             var3['disableCta'] = var4;
-            var4 = var2.banner_url;
-            var3['oldBannerURL'] = var4;
             var4 = var2.wide_banner_url;
             var3['bannerURL'] = var4;
             var4 = var2.wide_banner_animated_url;

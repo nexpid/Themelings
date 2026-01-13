@@ -65,8 +65,6 @@ case 3:
                 var4 = var5 instanceof Object ? var5 : var6;
 case 2:
                 var3['endTime'] = var4;
-                var4 = var2.banner_asset;
-                var3['bannerAsset'] = var4;
                 var4 = var2.banner_url;
                 var3['bannerUrl'] = var4;
                 var2 = var2.banner_animated_url;

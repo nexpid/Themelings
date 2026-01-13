@@ -76,9 +76,9 @@ case 10:
                 var1 = _closure2_slot1;
                 var4 = var1.type;
                 var1 = _closure1_slot4;
-                var2 = var1.POWERUP_ACTIVATED;
+                var2 = var1.INACTIVE;
                 var1 = undefined;
-                if(!(var4 === var2)) { _fun0001_ip = 11; continue _fun0001 }
+                if(!(var4 !== var2)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
                 var2 = {};
                 var4 = 'active';

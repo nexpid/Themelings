@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var7];
     var7 = var14.bind(var1)(var7);
     var _closure1_slot5 = var7;
-    var17 = 4;
-    var7 = var6[var17];
+    var18 = 4;
+    var7 = var6[var18];
     var7 = var14.bind(var1)(var7);
     var _closure1_slot6 = var7;
     var7 = 5;
@@ -51,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.AnalyticsPages;
     var8 = var7.AnalyticsSections;
     var7 = var7.AnalyticsObjectTypes;
-    var18 = 8;
-    var10 = var6[var18];
+    var17 = 8;
+    var10 = var6[var17];
     var11 = var5.bind(var1)(var10);
     var10 = var11.DISCOUNT_DURATION_FALLBACK;
     var _closure1_slot9 = var10;
@@ -87,9 +87,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4[1] = var10;
     var10 = var11.prototype;
     var10 = Object.create(var10, {constructor: {value: var11}});
-    var26 = var10;
-    var25 = var4;
-    var4 = new var26[var11](var25, var24);
+    var25 = var10;
+    var24 = var4;
+    var4 = new var25[var11](var24, var23);
     var4 = var4 instanceof Object ? var4 : var10;
     var _closure1_slot18 = var4;
     var4 = 11;
@@ -110,41 +110,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['borderRadius'] = var19;
     var4['card'] = var12;
     var12 = {};
-    var12['marginBottom'] = var18;
+    var12['marginBottom'] = var17;
     var4['logoContainer'] = var12;
     var12 = {};
-    var12['marginRight'] = var17;
+    var12['marginRight'] = var18;
     var4['logo'] = var12;
-    var12 = {'display': 'flex', 'flexDirection': 'row'};
+    var12 = {'display': 'flex', 'flexWrap': 'wrap', 'flexDirection': 'row', 'maxWidth': '50%'};
     var4['priceContainer'] = var12;
     var12 = {'maxWidth': '62%', 'includeFontPadding': true};
     var4['discountPriceText'] = var12;
     var12 = {};
-    var17 = 13;
-    var19 = var6[var17];
-    var22 = var14.bind(var1)(var19);
-    var21 = var15.DISPLAY_MEDIUM;
-    var19 = var6[var13];
-    var19 = var14.bind(var1)(var19);
-    var19 = var19.unsafe_rawColors;
-    var20 = var19.WHITE;
-    var19 = 18;
-    var24 = var22.bind(var1)(var21, var20, var19);
-    var25 = var12;
-    var19 = copyDataProperties(var25, var24);
-    var4['priceText'] = var12;
-    var12 = {};
-    var19 = '700';
-    var12['fontWeight'] = var19;
-    var4['price'] = var12;
-    var12 = {};
-    var19 = '400';
-    var12['fontWeight'] = var19;
-    var4['interval'] = var12;
-    var12 = {};
-    var12['marginTop'] = var18;
+    var12['marginTop'] = var17;
     var4['featureList'] = var12;
     var12 = {};
+    var17 = 13;
     var18 = var6[var17];
     var21 = var14.bind(var1)(var18);
     var20 = var15.PRIMARY_MEDIUM;
@@ -153,9 +132,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var18.unsafe_rawColors;
     var19 = var18.WHITE;
     var18 = 14;
-    var24 = var21.bind(var1)(var20, var19, var18);
-    var25 = var12;
-    var18 = copyDataProperties(var25, var24);
+    var23 = var21.bind(var1)(var20, var19, var18);
+    var24 = var12;
+    var18 = copyDataProperties(var24, var23);
     var19 = -8;
     var18 = 'marginLeft';
     var12[var18] = var19;
@@ -208,9 +187,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var14.bind(var1)(var15);
     var15 = var15.unsafe_rawColors;
     var15 = var15.WHITE;
-    var24 = var18.bind(var1)(var17, var15, var13);
-    var25 = var12;
-    var15 = copyDataProperties(var25, var24);
+    var23 = var18.bind(var1)(var17, var15, var13);
+    var24 = var12;
+    var15 = copyDataProperties(var24, var23);
     var15 = 'textAlign';
     var12[var15] = var16;
     var4['trialSubText'] = var12;
@@ -321,18 +300,13 @@ case 11:
             var7 = var6.priceContainer;
             var1['style'] = var7;
             var9 = _closure1_slot16;
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var15 = 19;
+            var15 = 17;
             var7 = var7[var15];
-            var8 = var8.bind(var5)(var7);
-            var7 = {};
-            var18 = var6.priceText;
-            var14 = new Array(2);
-            var14[0] = var18;
-            var18 = var6.price;
-            var14[1] = var18;
-            var7['style'] = var14;
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'text-md/bold', 'color': 'always-white'};
             var14 = var11 == var19;
             var18 = undefined;
             if(var14) { _fun0001_ip = 14; continue _fun0001 }
@@ -350,17 +324,12 @@ case 16:
             var7 = new Array(2);
             var7[0] = var8;
             var14 = _closure1_slot16;
-            var9 = _closure1_slot1;
+            var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var15];
-            var9 = var9.bind(var5)(var8);
-            var8 = {};
-            var18 = var6.priceText;
-            var15 = new Array(2);
-            var15[0] = var18;
-            var18 = var6.interval;
-            var15[1] = var18;
-            var8['style'] = var15;
+            var8 = var9.bind(var5)(var8);
+            var9 = var8.Text;
+            var8 = {'variant': 'text-md/normal', 'color': 'always-white'};
             var15 = global;
             var15 = var15.HermesInternal;
             var18 = var15.concat;
@@ -524,7 +493,7 @@ case 36:
         }
     };
     var _closure1_slot21 = var4;
-    var4 = 39;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -569,7 +538,7 @@ case 47:
 case 50:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.PremiumSubscriptionGroupRole;
@@ -583,7 +552,7 @@ case 49:
             var17 = var1.bind(var4)();
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 21;
+            var2 = 20;
             var1 = var5[var2];
             var6 = var3.bind(var4)(var1);
             var3 = _closure1_slot18;
@@ -592,22 +561,22 @@ case 49:
             var1 = 'only Tier 0 and Tier 2 are supported';
             var1 = var6.bind(var4)(var3, var1);
             var3 = _closure1_slot0;
-            var1 = 22;
+            var1 = 21;
             var1 = var5[var1];
             var6 = var3.bind(var4)(var1);
             var1 = var6.usePremiumTrialOffer;
             var7 = var1.bind(var6)();
-            var1 = 23;
+            var1 = 22;
             var1 = var5[var1];
             var6 = var3.bind(var4)(var1);
             var1 = var6.usePremiumDiscountOffer;
             var26 = var1.bind(var6)();
-            var1 = 24;
+            var1 = 23;
             var1 = var5[var1];
             var6 = var3.bind(var4)(var1);
             var1 = var6.useActiveDiscountInfo;
             var32 = var1.bind(var6)();
-            var1 = 25;
+            var1 = 24;
             var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.usePremiumTrialOfferPremiumType;
@@ -655,7 +624,7 @@ case 55:
             var28 = var5.bind(var6)(var3);
             var9 = var30 === var1;
             var16 = _closure1_slot1;
-            var1 = 26;
+            var1 = 25;
             var1 = var18[var1];
             var1 = var16.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -718,7 +687,7 @@ case 55:
                 return var1;
             };
             var25 = var24.bind(var25)(var21, var6);
-            var6 = 27;
+            var6 = 26;
             var6 = var18[var6];
             var6 = var16.bind(var4)(var6);
             var16 = var6.bind(var4)(var30, var15, var10);
@@ -757,7 +726,7 @@ case 66:
             _closure2_slot6 = var3;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var6 = 28;
+            var6 = 27;
             var6 = var5[var6];
             var18 = var3.bind(var4)(var6);
             var10 = var18.getPremiumBundleWithPredicate;
@@ -802,7 +771,7 @@ case 46:
             var6 = var19 != var34;
             var2 = 'could not find a premium item';
             var2 = var10.bind(var4)(var6, var2);
-            var2 = 29;
+            var2 = 28;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useDiscountedPremiumProductInfo;
@@ -838,7 +807,7 @@ case 75:
             var5 = var17.containerWrapper;
             var1['style'] = var5;
             var18 = _closure1_slot16;
-            var5 = 30;
+            var5 = 29;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PremiumPill;
@@ -855,7 +824,7 @@ case 75:
             var5 = new Array(2);
             var5[0] = var6;
             var7 = _closure1_slot1;
-            var6 = 31;
+            var6 = 30;
             var6 = var10[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -872,7 +841,7 @@ case 75:
             var40 = _closure1_slot2;
             if(var12) { _fun0002_ip = 77; continue _fun0002 }
 case 78:
-            var36 = 33;
+            var36 = 32;
             var36 = var40[var36];
             var37 = var38.bind(var4)(var36);
             var36 = {};
@@ -882,7 +851,7 @@ case 78:
             var36 = var39.bind(var4)(var37, var36);
             _fun0002_ip = 79; continue _fun0002;
 case 77:
-            var37 = 32;
+            var37 = 31;
             var37 = var40[var37];
             var38 = var38.bind(var4)(var37);
             var37 = {'width': 185, 'height': 20, 'alwaysWhite': true};
@@ -895,7 +864,7 @@ case 79:
             var37 = _closure1_slot16;
             var36 = _closure1_slot1;
             var38 = _closure1_slot2;
-            var18 = 34;
+            var18 = 33;
             var18 = var38[var18];
             var36 = var36.bind(var4)(var18);
             var18 = {};
@@ -928,7 +897,7 @@ case 84:
             var15 = _closure1_slot16;
             var14 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var12 = 35;
+            var12 = 34;
             var12 = var18[var12];
             var14 = var14.bind(var4)(var12);
             var12 = {};
@@ -953,7 +922,7 @@ case 87:
             var12['style'] = var16;
             var18 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var16 = 36;
+            var16 = 35;
             var16 = var29[var16];
             var16 = var18.bind(var4)(var16);
             var18 = var16.Button;
@@ -1056,7 +1025,7 @@ case 104:
             var30 = _closure1_slot16;
             var29 = _closure1_slot0;
             var33 = _closure1_slot2;
-            var28 = 37;
+            var28 = 36;
             var28 = var33[var28];
             var28 = var29.bind(var4)(var28);
             var29 = var28.NitroWheelIcon;
@@ -1087,7 +1056,7 @@ case 107:
             var23 = function onPress() {
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 38;
+                var1 = 37;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);

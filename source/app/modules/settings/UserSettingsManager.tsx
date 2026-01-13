@@ -76,7 +76,7 @@ case 4:
     var _closure1_slot6 = var4;
     var4 = false;
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 6;
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var2 = function(arg1) {
@@ -121,8 +121,6 @@ case 8:
                     var2 = _closure3_slot0;
                     var1 = var2.setVerifyTimezone;
                     var1 = var1.bind(var2)();
-                    var1 = var2.maybeShowChangeLanguageToast;
-                    var1 = var1.bind(var2)();
                     var1 = undefined;
                     return var1;
                 };
@@ -142,33 +140,17 @@ case 8:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var1 = 'maybeShowChangeLanguageToast';
+        var1 = 'setVerifyTimezone';
         var5['key'] = var1;
         var1 = function value() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 5;
-            var2 = var2[var1];
-            var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var2 = var2.maybeShowChangeLanguageToast;
-            var2 = var2.bind(var1)();
-            return var1;
-        };
-        var5['value'] = var1;
-        var1 = new Array(3);
-        var1[0] = var5;
-        var5 = {};
-        var7 = 'setVerifyTimezone';
-        var5['key'] = var7;
-        var7 = function value() {
             var1 = true;
             _closure1_slot7 = var1;
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var7;
-        var1[1] = var5;
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
         var5 = {};
         var7 = 'ensureTimezoneUpdated';
         var5['key'] = var7;
@@ -192,7 +174,7 @@ case 9:
                 var _closure3_slot0 = var5;
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var3 = 6;
+                var3 = 5;
                 var4 = var4[var3];
                 var3 = undefined;
                 var4 = var6.bind(var3)(var4);
@@ -205,7 +187,7 @@ case 10:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 6;
+                    var1 = 5;
                     var2 = var2[var1];
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
@@ -222,7 +204,7 @@ case 8:
             }
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -232,7 +214,7 @@ case 8:
     var13 = var5;
     var4 = new var13[var2](var12);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 8;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

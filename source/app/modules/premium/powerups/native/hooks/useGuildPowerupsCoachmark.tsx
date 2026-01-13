@@ -540,51 +540,48 @@ case 0:
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
                         var1 = {};
-                        var5 = _closure3_slot0;
-                        var5 = var5.length;
-                        var8 = 1;
-                        if(!(!(var5 > var8))) { _fun0003_ip = 31; continue _fun0003 }
+                        var6 = _closure3_slot0;
+                        var7 = var6.length;
+                        var6 = 1;
+                        if(!(!(var7 > var6))) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var5 = 17;
-                        var5 = var10[var5];
-                        var12 = var9.bind(var3)(var5);
+                        var7 = 17;
+                        var7 = var10[var7];
+                        var12 = var9.bind(var3)(var7);
                         var11 = var12.getGuildPowerupBannerImage;
                         var9 = _closure3_slot0;
-                        var5 = 0;
-                        var10 = var9[var5];
+                        var7 = 0;
+                        var10 = var9[var7];
                         var9 = _closure2_slot5;
-                        var5 = true;
-                        var9 = var11.bind(var12)(var10, var9, var5);
-                        var5 = null;
-                        var10 = var5 != var9;
-                        var5 = '';
+                        var7 = true;
+                        var9 = var11.bind(var12)(var10, var9, var7);
+                        var7 = null;
+                        var10 = var7 != var9;
+                        var7 = '';
                         if(!var10) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
-                        var5 = var9;
+                        var7 = var9;
 case 33:
                         _fun0003_ip = 35; continue _fun0003;
 case 31:
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var7 = 13;
-                        var7 = var10[var7];
-                        var5 = var9.bind(var3)(var7);
+                        var8 = 13;
+                        var8 = var10[var8];
+                        var7 = var9.bind(var3)(var8);
 case 35:
-                        var1['imageUrl'] = var5;
-                        var5 = _closure2_slot4;
-                        var9 = var5.coachmarkImage;
+                        var1['imageUrl'] = var7;
+                        var5 = _closure3_slot0;
+                        var5 = var5.length;
+                        var5 = var6 === var5;
+                        var1['isAnimated'] = var5;
+                        var6 = _closure2_slot4;
+                        var7 = var6.coachmarkImage;
                         var5 = new Array(2);
-                        var5[0] = var9;
-                        var6 = _closure3_slot0;
-                        var6 = var6.length;
-                        var6 = var6 > var8;
-                        if(!var6) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
-                        var7 = _closure2_slot4;
-                        var6 = var7.coachmarkCover;
-case 36:
+                        var5[0] = var7;
+                        var6 = var6.coachmarkCover;
                         var5[1] = var6;
                         var1['style'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
@@ -608,10 +605,10 @@ case 36:
                 var8 = {};
                 var16 = _closure2_slot2;
                 var16 = var17 != var16;
-                if(!var16) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
+                if(!var16) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
                 var15 = _closure2_slot2;
-case 38:
+case 36:
                 var8['guildName'] = var15;
                 var11 = var12.bind(var14)(var11, var8);
                 var8 = 'title';
@@ -662,6 +659,8 @@ case 9:
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
                     var1['imageUrl'] = var5;
+                    var5 = false;
+                    var1['isAnimated'] = var5;
                     var6 = _closure2_slot4;
                     var7 = var6.coachmarkImage;
                     var5 = new Array(2);
@@ -740,6 +739,8 @@ case 7:
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
                     var1['imageUrl'] = var5;
+                    var5 = false;
+                    var1['isAnimated'] = var5;
                     var6 = _closure2_slot4;
                     var7 = var6.coachmarkImage;
                     var5 = new Array(2);

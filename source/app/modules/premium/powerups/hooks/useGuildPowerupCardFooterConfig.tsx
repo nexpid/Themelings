@@ -32,39 +32,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useGuildPowerupCardFooterConfig(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = arg1;
+            var9 = arg1;
             var4 = arg2;
             var3 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var10 = _closure1_slot1;
             var1 = 1;
-            var1 = var8[var1];
-            var6 = undefined;
-            var1 = var3.bind(var6)(var1);
-            var1 = var1.bind(var6)(var7, var4);
-            var2 = var1.type;
+            var1 = var10[var1];
+            var8 = undefined;
+            var1 = var3.bind(var8)(var1);
+            var6 = var1.bind(var8)(var9, var4);
+            var7 = var6.type;
             var1 = _closure1_slot3;
-            var1 = var1.INACTIVE;
-            var2 = var2 !== var1;
+            var2 = var1.INACTIVE;
+            var2 = var7 !== var2;
+            var7 = var6.type;
+            var6 = var1.TIER_OVERRIDE_ACTIVATED;
             var1 = 2;
-            var1 = var8[var1];
-            var3 = var3.bind(var6)(var1);
+            var1 = var10[var1];
+            var3 = var3.bind(var8)(var1);
             var1 = 'GuildPowerupCardFooterAdmin';
-            var6 = var3.bind(var6)(var7, var4, var1);
+            var8 = var3.bind(var8)(var9, var4, var1);
             var1 = {};
             var3 = var2;
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = !var6;
+            var3 = !var8;
 case 2:
-            var1['showToggleButton'] = var3;
-            var3 = var2;
             if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var6 = var7 === var6;
+            var3 = !var6;
+case 4:
+            var1['showToggleButton'] = var3;
+            var3 = var2;
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot2;
             var5 = var6.has;
             var4 = var4.skuId;
             var3 = var5.bind(var6)(var4);
-case 4:
+case 6:
             var1['showConfigureButton'] = var3;
             var1['isPowerupActive'] = var2;
             return var1;

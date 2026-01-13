@@ -222,13 +222,21 @@ case 9:
         return var1;
     };
     var2['GENERIC_IAP_INIT_CONNECTION_FAILED'] = var9;
-    var4 = function genericIapEndConnection() {
+    var9 = function genericIapEndConnection() {
         var1 = false;
         _closure1_slot8 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['GENERIC_IAP_END_CONNECTION'] = var4;
+    var2['GENERIC_IAP_END_CONNECTION'] = var9;
+    var4 = function setStoreFront(arg1) {
+        var1 = arg1;
+        var2 = var1.storeFront;
+        _closure1_slot9 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['GENERIC_IAP_SET_STORE_FRONT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

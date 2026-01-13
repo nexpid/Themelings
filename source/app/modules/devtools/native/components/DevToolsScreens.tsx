@@ -442,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['render'] = var8;
     var2['components'] = var4;
     var4 = {};
-    var8 = 'Shop Product Preview Tool';
+    var8 = 'Collectibles Tool';
     var4['headerTitle'] = var8;
     var8 = 36;
     var8 = var6[var8];

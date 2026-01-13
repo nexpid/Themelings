@@ -66,6 +66,10 @@ case 7:
             var5['imageUrl'] = var8;
             var8 = var13.image;
             var5['style'] = var8;
+            var9 = var16.skuId;
+            var8 = _closure1_slot4;
+            var8 = var9 !== var8;
+            var5['isAnimated'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             _fun0001_ip = 8; continue _fun0001;
 case 6:

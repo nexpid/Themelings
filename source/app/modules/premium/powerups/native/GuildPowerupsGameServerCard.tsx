@@ -112,6 +112,8 @@ case 8:
             var8 = var9;
 case 7:
             var2['imageUrl'] = var8;
+            var8 = false;
+            var2['isImageAnimated'] = var8;
             var2['status'] = var7;
             var2['onPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);
