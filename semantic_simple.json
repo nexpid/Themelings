@@ -59,6 +59,12 @@
     "midnight": "#0074e314",
     "darker": "#0074e314"
   },
+  "BACKGROUND_FEEDBACK_NOTIFICATION": {
+    "dark": "#f23f43",
+    "light": "#da373c",
+    "midnight": "#f23f43",
+    "darker": "#f23f43"
+  },
   "BACKGROUND_FEEDBACK_POSITIVE": {
     "dark": "#00854514",
     "light": "#00854514",
@@ -137,6 +143,12 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "BADGE_NOTIFICATION_BACKGROUND": {
+    "dark": "#f23f43",
+    "light": "#da373c",
+    "midnight": "#f23f43",
+    "darker": "#f23f43"
+  },
   "BG_SURFACE_OVERLAY_TMP": {
     "dark": "#111214",
     "light": "#f2f3f5",
@@ -166,6 +178,12 @@
     "light": "#383a40f5",
     "midnight": "#1c1d23f5",
     "darker": "#26272ff5"
+  },
+  "BORDER_FEEDBACK_CRITICAL": {
+    "dark": "#d22d3933",
+    "light": "#d22d393d",
+    "midnight": "#d22d393d",
+    "darker": "#d22d3933"
   },
   "BORDER_FOCUS": {
     "dark": "#00aafc",
@@ -581,6 +599,12 @@
     "midnight": "#00aafc",
     "darker": "#00aafc"
   },
+  "ICON_FEEDBACK_NOTIFICATION": {
+    "dark": "#f23f43",
+    "light": "#da373c",
+    "midnight": "#f23f43",
+    "darker": "#f23f43"
+  },
   "ICON_FEEDBACK_POSITIVE": {
     "dark": "#2dc771",
     "light": "#248045",
@@ -641,10 +665,16 @@
     "midnight": "#00000000",
     "darker": "#00000000"
   },
+  "ICON_VOICE_MUTED": {
+    "dark": "#f23f43",
+    "light": "#da373c",
+    "midnight": "#f23f43",
+    "darker": "#f23f43"
+  },
   "INPUT_BACKGROUND_DEFAULT": {
     "dark": "#1e1f22",
     "light": "#00000014",
-    "midnight": "#bcbcf01a",
+    "midnight": "#bcc1fa1a",
     "darker": "#0f1014d9"
   },
   "INPUT_BORDER_DEFAULT": {
@@ -654,7 +684,7 @@
     "darker": "#6c6f7c52"
   },
   "INPUT_PLACEHOLDER_TEXT_DEFAULT": {
-    "dark": "#87898c",
+    "dark": "#80848e",
     "light": "#5c5e66",
     "midnight": "#9597a3",
     "darker": "#818491"
@@ -1178,7 +1208,7 @@
   "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
     "dark": "#232428",
     "light": "#00000014",
-    "midnight": "#bcbcf01a",
+    "midnight": "#bcc1fa1a",
     "darker": "#6c6f7c1f"
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
@@ -1214,7 +1244,7 @@
   "REDESIGN_CHAT_INPUT_BACKGROUND": {
     "dark": "#1e1f22",
     "light": "#00000014",
-    "midnight": "#bcbcf01a",
+    "midnight": "#bcc1fa1a",
     "darker": "#6c6f7c1f"
   },
   "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
