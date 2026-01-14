@@ -413,15 +413,15 @@ case 0:
                 var2 = var9[var2];
                 var2 = var8.bind(var4)(var2);
                 var2 = var2.t;
-                if(var7) { _fun0004_ip = 3; continue _fun0004 }
-case 19:
+                if(var7) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                 var7 = var2.60lJ0C;
                 var18 = var3.bind(var5)(var7);
-                _fun0004_ip = 20; continue _fun0004;
-case 3:
+                _fun0004_ip = 4; continue _fun0004;
+case 19:
                 var2 = var2.e5VEcE;
                 var18 = var3.bind(var5)(var2);
-case 20:
+case 4:
                 var5 = _closure1_slot3;
                 var3 = var5.useMemo;
                 var2 = new Array(2);

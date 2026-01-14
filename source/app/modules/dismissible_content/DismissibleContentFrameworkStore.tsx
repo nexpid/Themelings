@@ -323,7 +323,7 @@ case 26:
                 var5 = var5[var2];
                 var2 = undefined;
                 var5 = var7.bind(var2)(var5);
-                var2 = var5.isGuildDismissibleConent;
+                var2 = var5.isGuildDismissibleContent;
                 var1 = var2.bind(var5)(var4);
 case 25:
                 if(!var1) { _fun0005_ip = 27; continue _fun0005 }
@@ -507,7 +507,7 @@ case 39:
             var3 = 7;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
-            var3 = var4.isGuildDismissibleConent;
+            var3 = var4.isGuildDismissibleContent;
             var4 = var3.bind(var4)(var7);
             if(!var4) { _fun0006_ip = 40; continue _fun0006 }
 case 41:

@@ -107,7 +107,7 @@ case 6:
         var3 = var7[var3];
         var3 = var6.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.STATUS_DANGER;
+        var3 = var3.BORDER_FEEDBACK_CRITICAL;
         var2['borderColor'] = var3;
         var3 = 2;
         var2['borderWidth'] = var3;

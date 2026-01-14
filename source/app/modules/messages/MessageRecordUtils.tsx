@@ -454,11 +454,8 @@ case 66:
 case 65:
             var8 = 'poll';
             var1[var8] = var9;
-            var9 = var7.shared_client_theme;
-            var8 = 'sharedClientTheme';
-            var1[var8] = var9;
-            var8 = var7.potions;
-            var7 = 'potions';
+            var8 = var7.shared_client_theme;
+            var7 = 'sharedClientTheme';
             var1[var7] = var8;
             var6 = var6 == var2;
             var5 = undefined;
@@ -1056,28 +1053,28 @@ case 120:
             var7 = var6.bind(var8)(var2, var3);
 case 118:
             var2 = var4.poll;
-            var8 = var7;
+            var9 = var7;
             if(!(var5 != var2)) { _fun0010_ip = 122; continue _fun0010 }
 case 123:
             var6 = var7.set;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 14;
-            var2 = var9[var2];
-            var9 = undefined;
-            var3 = var3.bind(var9)(var2);
+            var2 = var8[var2];
+            var8 = undefined;
+            var3 = var3.bind(var8)(var2);
             var2 = var4.poll;
-            var3 = var3.bind(var9)(var2);
+            var3 = var3.bind(var8)(var2);
             var2 = 'poll';
-            var8 = var6.bind(var7)(var2, var3);
+            var9 = var6.bind(var7)(var2, var3);
 case 122:
             var2 = var4.mentions;
             var2 = var5 != var2;
-            var9 = var8;
+            var8 = var9;
             var3 = false;
             if(!var2) { _fun0010_ip = 124; continue _fun0010 }
 case 125:
-            var7 = var8.set;
+            var7 = var9.set;
             var10 = var4.mentions;
             var6 = var10.map;
             var2 = function(arg1) {
@@ -1087,51 +1084,42 @@ case 125:
             };
             var6 = var6.bind(var10)(var2);
             var2 = 'mentions';
-            var9 = var7.bind(var8)(var2, var6);
+            var8 = var7.bind(var9)(var2, var6);
             var3 = true;
 case 124:
             var2 = var4.mention_games;
-            var8 = var9;
+            var9 = var8;
             if(!(var5 != var2)) { _fun0010_ip = 126; continue _fun0010 }
 case 127:
-            var7 = var9.set;
+            var7 = var8.set;
             var6 = var4.mention_games;
             var2 = 'mentionGames';
-            var8 = var7.bind(var9)(var2, var6);
+            var9 = var7.bind(var8)(var2, var6);
             var3 = true;
 case 126:
             var2 = var4.mention_everyone;
-            var9 = var8;
+            var8 = var9;
             if(!(var5 != var2)) { _fun0010_ip = 128; continue _fun0010 }
 case 129:
-            var7 = var8.set;
+            var7 = var9.set;
             var6 = var4.mention_everyone;
             var2 = 'mentionEveryone';
-            var9 = var7.bind(var8)(var2, var6);
+            var8 = var7.bind(var9)(var2, var6);
             var3 = true;
 case 128:
             var2 = var4.mention_roles;
-            var8 = var9;
+            var7 = var8;
             if(!(var5 != var2)) { _fun0010_ip = 130; continue _fun0010 }
 case 131:
-            var7 = var9.set;
-            var6 = var4.mention_roles;
+            var6 = var8.set;
+            var5 = var4.mention_roles;
             var2 = 'mentionRoles';
-            var8 = var7.bind(var9)(var2, var6);
+            var7 = var6.bind(var8)(var2, var5);
             var3 = true;
 case 130:
-            var2 = var4.potions;
-            var7 = var8;
-            if(!(var5 != var2)) { _fun0010_ip = 132; continue _fun0010 }
-case 133:
-            var6 = var8.set;
-            var5 = var4.potions;
-            var2 = 'potions';
-            var7 = var6.bind(var8)(var2, var5);
-case 132:
             var2 = var7;
-            if(!var3) { _fun0010_ip = 134; continue _fun0010 }
-case 135:
+            if(!var3) { _fun0010_ip = 132; continue _fun0010 }
+case 133:
             var6 = var7.set;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -1148,7 +1136,7 @@ case 135:
             var5 = var5.bind(var8)(var3);
             var3 = 'mentioned';
             var2 = var6.bind(var7)(var3, var5);
-case 134:
+case 132:
             return var2;
 case 93:
             var3 = _closure1_slot17;
@@ -1178,12 +1166,12 @@ case 0:
             var3 = var1.length;
             var1 = 0;
             var1 = var1 === var3;
-            if(var1) { _fun0011_ip = 136; continue _fun0011 }
-case 137:
+            if(var1) { _fun0011_ip = 134; continue _fun0011 }
+case 135:
             var3 = var2.content;
             var2 = '';
             var1 = var2 !== var3;
-case 136:
+case 134:
             return var1;
         }
     };
@@ -1196,13 +1184,13 @@ case 0:
             var1 = _closure1_slot12;
             var1 = var1.EPHEMERAL;
             var1 = var4.bind(var3)(var1);
-            if(!var1) { _fun0012_ip = 138; continue _fun0012 }
-case 139:
+            if(!var1) { _fun0012_ip = 136; continue _fun0012 }
+case 137:
             var3 = var3.type;
             var2 = _closure1_slot13;
             var2 = var2.IN_GAME_MESSAGE_NUX;
             var1 = var3 !== var2;
-case 138:
+case 136:
             return var1;
         }
     };

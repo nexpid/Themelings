@@ -133,7 +133,7 @@ case 6:
             var7 = var9[var6];
             var7 = var8.bind(var5)(var7);
             var7 = var7.colors;
-            var7 = var7.STATUS_DANGER;
+            var7 = var7.BACKGROUND_FEEDBACK_NOTIFICATION;
             var2['backgroundColor'] = var7;
             var1['joinButtonLive'] = var2;
             var2 = {};

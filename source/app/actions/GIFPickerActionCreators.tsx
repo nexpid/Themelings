@@ -14,38 +14,45 @@ case 0:
             var1 = null;
             if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = {};
+            var7 = {};
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var1 = {};
             var2 = 1;
             var1[var3] = var2;
-            var6 = var1;
+            var7 = var1;
 case 4:
             var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 4;
-            var2 = var2[var1];
+            var2 = var8[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
             var4 = var5.trackWithMetadata;
             var2 = _closure1_slot5;
             var3 = var2.SEARCH_STARTED;
             var2 = {};
-            var8 = _closure1_slot7;
-            var8 = var8.GIF;
-            var2['search_type'] = var8;
-            var8 = _closure1_slot4;
-            var7 = var8.getAnalyticsID;
-            var7 = var7.bind(var8)();
-            var2['load_id'] = var7;
-            var7 = global;
-            var8 = var7.Object;
-            var7 = var8.keys;
-            var7 = var7.bind(var8)(var6);
-            var7 = var7.length;
-            var2['num_modifiers'] = var7;
-            var2['modifiers'] = var6;
+            var9 = _closure1_slot7;
+            var9 = var9.GIF;
+            var2['search_type'] = var9;
+            var10 = _closure1_slot4;
+            var9 = var10.getAnalyticsID;
+            var9 = var9.bind(var10)();
+            var2['load_id'] = var9;
+            var9 = global;
+            var10 = var9.Object;
+            var9 = var10.keys;
+            var9 = var9.bind(var10)(var7);
+            var9 = var9.length;
+            var2['num_modifiers'] = var9;
+            var2['modifiers'] = var7;
+            var7 = _closure1_slot0;
+            var6 = 5;
+            var6 = var8[var6];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.getProviderForAPIRequest;
+            var6 = var6.bind(var7)();
+            var2['gif_provider'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
@@ -54,74 +61,82 @@ case 4:
     var6 = function trackSearchResultViewed(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = arg1;
+            var4 = arg1;
             var7 = arguments[2];
             var1 = undefined;
             if(!(var7 === var1)) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
             var7 = {};
 case 5:
-            var4 = var7.startTime;
-            var3 = null;
-            var6 = Object.create(var3);
-            var2 = 0;
-            var6['startTime'] = var2;
+            var3 = var7.startTime;
+            var2 = null;
+            var6 = Object.create(var2);
+            var5 = 0;
+            var6['startTime'] = var5;
             var14 = {};
             var13 = var7;
             var12 = var6;
             var10 = copyDataProperties(var14, var13, var12);
             var11 = {'offset': 0, 'limit': null};
-            var2 = var5.length;
-            var11['totalResults'] = var2;
+            var5 = var4.length;
+            var11['totalResults'] = var5;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 5;
-            var6 = var8[var6];
-            var9 = var7.bind(var1)(var6);
+            var5 = 6;
+            var5 = var8[var5];
+            var9 = var7.bind(var1)(var5);
             var8 = var9.calculateAnalyticsMetadata;
             var7 = _closure1_slot4;
-            var6 = var7.getAnalyticsID;
-            var7 = var6.bind(var7)();
-            var6 = {};
-            var14 = var6;
+            var5 = var7.getAnalyticsID;
+            var7 = var5.bind(var7)();
+            var5 = {};
+            var14 = var5;
             var13 = var11;
             var11 = copyDataProperties(var14, var13);
-            var14 = var6;
+            var14 = var5;
             var13 = var10;
             var10 = copyDataProperties(var14, var13);
-            var10 = var5.length;
-            var5 = 'results';
-            var6[var5] = var10;
-            var5 = arg2;
-            var7 = var8.bind(var9)(var7, var5, var6);
-            if(!(var3 != var4)) { _fun0002_ip = 7; continue _fun0002 }
+            var10 = var4.length;
+            var4 = 'results';
+            var5[var4] = var10;
+            var4 = arg2;
+            var9 = var8.bind(var9)(var7, var4, var5);
+            if(!(var2 != var3)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var6 = {};
-            var3 = global;
-            var5 = var3.Date;
-            var3 = var5.now;
-            var3 = var3.bind(var5)();
-            var3 = var3 - var4;
-            var6['load_duration_ms'] = var3;
+            var7 = {};
+            var2 = global;
+            var4 = var2.Date;
+            var2 = var4.now;
+            var2 = var2.bind(var4)();
+            var2 = var2 - var3;
+            var7['load_duration_ms'] = var2;
             _fun0002_ip = 9; continue _fun0002;
 case 7:
-            var6 = {};
+            var7 = {};
 case 9:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var3 = 4;
-            var3 = var5[var3];
-            var5 = var4.bind(var1)(var3);
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 4;
+            var2 = var8[var2];
+            var5 = var3.bind(var1)(var2);
             var4 = var5.trackWithMetadata;
             var2 = _closure1_slot5;
             var3 = var2.SEARCH_RESULT_VIEWED;
             var2 = {};
             var14 = var2;
+            var13 = var9;
+            var9 = copyDataProperties(var14, var13);
+            var14 = var2;
             var13 = var7;
             var7 = copyDataProperties(var14, var13);
-            var14 = var2;
-            var13 = var6;
-            var6 = copyDataProperties(var14, var13);
+            var7 = _closure1_slot0;
+            var6 = 5;
+            var6 = var8[var6];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.getProviderForAPIRequest;
+            var7 = var6.bind(var7)();
+            var6 = 'gif_provider';
+            var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
@@ -142,11 +157,11 @@ case 9:
         var3 = _closure1_slot13;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
-        var4 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var3 = 6;
-        var3 = var5[var3];
-        var3 = var4.bind(var1)(var3);
+        var10 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var3 = 7;
+        var3 = var11[var3];
+        var3 = var10.bind(var1)(var3);
         var5 = var3.HTTP;
         var4 = var5.get;
         var3 = {};
@@ -155,11 +170,15 @@ case 9:
         var3['url'] = var6;
         var6 = {};
         var6['q'] = var9;
-        var10 = _closure1_slot4;
-        var9 = var10.getSelectedFormat;
-        var9 = var9.bind(var10)();
+        var12 = _closure1_slot4;
+        var9 = var12.getSelectedFormat;
+        var9 = var9.bind(var12)();
         var6['media_format'] = var9;
-        var9 = 'tenor';
+        var9 = 5;
+        var9 = var11[var9];
+        var10 = var10.bind(var1)(var9);
+        var9 = var10.getProviderForAPIRequest;
+        var9 = var9.bind(var10)();
         var6['provider'] = var9;
         var8 = _closure1_slot3;
         var8 = var8.locale;
@@ -185,7 +204,7 @@ case 9:
             var3 = var7.bind(var1)(var5, var4, var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -201,7 +220,7 @@ case 9:
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -221,7 +240,7 @@ case 9:
     var5 = function resetSearch() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -237,7 +256,7 @@ case 0:
             var2 = arg1;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var5[var1];
             var6 = undefined;
             var4 = var4.bind(var6)(var1);
@@ -249,7 +268,7 @@ case 0:
 case 11:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var4 = var4[var7];
             var8 = var8.bind(var6)(var4);
             var4 = var8.isAttachmentUrl;
@@ -276,7 +295,7 @@ case 10:
 case 0:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var4[var1];
             var6 = undefined;
             var4 = var2.bind(var6)(var1);
@@ -290,7 +309,7 @@ case 0:
 case 14:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var2 = var2[var7];
             var4 = var4.bind(var6)(var2);
             var2 = var4.isExternalProxiedAttachmentUrl;
@@ -347,14 +366,14 @@ case 12:
     var _closure1_slot10 = var8;
     var8 = /-/g;
     var _closure1_slot11 = var8;
-    var8 = 8;
+    var8 = 9;
     var8 = var10[var8];
     var12 = var11.bind(var1)(var8);
     var11 = var12.debounce;
     var8 = 250;
     var8 = var11.bind(var12)(var13, var8);
     var _closure1_slot12 = var8;
-    var8 = 17;
+    var8 = 18;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -379,7 +398,7 @@ case 17:
 case 20:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 7;
+            var7 = 8;
             var7 = var9[var7];
             var9 = var8.bind(var1)(var7);
             var8 = var9.dispatch;
@@ -419,20 +438,27 @@ case 17:
 case 4:
             if(!var2) { _fun0006_ip = 24; continue _fun0006 }
 case 25:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 6;
-            var3 = var3[var2];
-            var2 = undefined;
-            var2 = var4.bind(var2)(var3);
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 7;
+            var2 = var8[var2];
+            var9 = undefined;
+            var2 = var10.bind(var9)(var2);
             var4 = var2.HTTP;
             var3 = var4.get;
             var2 = {};
             var5 = _closure1_slot6;
             var5 = var5.GIFS_SUGGEST;
             var2['url'] = var5;
-            var5 = {'q': null, 'provider': 'tenor', 'limit': 5};
+            var5 = {};
             var5['q'] = var7;
+            var7 = 5;
+            var8 = var8[var7];
+            var9 = var10.bind(var9)(var8);
+            var8 = var9.getProviderForAPIRequest;
+            var8 = var8.bind(var9)();
+            var5['provider'] = var8;
+            var5['limit'] = var7;
             var6 = _closure1_slot3;
             var6 = var6.locale;
             var5['locale'] = var6;
@@ -447,7 +473,7 @@ case 25:
                 var5 = var1.body;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -479,15 +505,15 @@ case 0:
             var14 = var1.limit;
             var13 = var1.results;
             var12 = var1.totalResults;
-            var6 = var1.query;
-            var7 = var1.gifId;
+            var7 = var1.query;
+            var8 = var1.gifId;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var2 = var4[var1];
             var1 = undefined;
             var9 = var3.bind(var1)(var2);
-            var8 = var9.calculateAnalyticsMetadata;
+            var6 = var9.calculateAnalyticsMetadata;
             var3 = _closure1_slot4;
             var2 = var3.getAnalyticsID;
             var3 = var2.bind(var3)();
@@ -496,12 +522,12 @@ case 0:
             var2['limit'] = var14;
             var2['results'] = var13;
             var2['totalResults'] = var12;
-            var17 = var8.bind(var9)(var3, var11, var2);
+            var17 = var6.bind(var9)(var3, var11, var2);
             var3 = _closure1_slot1;
             var2 = 4;
             var2 = var4[var2];
-            var8 = var3.bind(var1)(var2);
-            var4 = var8.trackWithMetadata;
+            var6 = var3.bind(var1)(var2);
+            var4 = var6.trackWithMetadata;
             var2 = _closure1_slot5;
             var3 = var2.SEARCH_RESULT_SELECTED;
             var2 = {};
@@ -513,14 +539,19 @@ case 0:
             var9 = 'source_object';
             var2[var9] = var10;
             var9 = 'query';
-            var2[var9] = var6;
-            var2 = var4.bind(var8)(var3, var2);
+            var2[var9] = var7;
+            var2 = var4.bind(var6)(var3, var2);
             var2 = null;
-            if(!(var2 != var7)) { _fun0007_ip = 26; continue _fun0007 }
+            if(!(var2 != var8)) { _fun0007_ip = 26; continue _fun0007 }
 case 27:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
+            var2 = var4[var2];
+            var6 = var3.bind(var1)(var2);
+            var2 = var6.getProviderForAPIRequest;
+            var6 = var2.bind(var6)();
+            var2 = 7;
             var2 = var4[var2];
             var2 = var3.bind(var1)(var2);
             var4 = var2.HTTP;
@@ -530,8 +561,9 @@ case 27:
             var5 = var5.GIFS_SELECT;
             var2['url'] = var5;
             var5 = {};
-            var5['id'] = var7;
-            var5['q'] = var6;
+            var5['id'] = var8;
+            var5['q'] = var7;
+            var5['provider'] = var6;
             var2['body'] = var5;
             var5 = true;
             var2['oldFormErrors'] = var5;
@@ -545,7 +577,7 @@ case 26:
     var5 = function initializeSearch() {
         var4 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 9;
+        var1 = 10;
         var3 = var5[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -569,14 +601,14 @@ case 26:
         var3['search_type'] = var10;
         var3['load_id'] = var9;
         var3 = var7.bind(var8)(var6, var3);
-        var3 = 7;
+        var3 = 8;
         var3 = var5[var3];
         var4 = var4.bind(var1)(var3);
         var3 = var4.wait;
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -594,12 +626,12 @@ case 26:
     };
     var3['initializeSearch'] = var5;
     var5 = function fetchTrending() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 7;
+        var2 = var9[var1];
         var1 = undefined;
-        var2 = var3.bind(var1)(var2);
+        var2 = var8.bind(var1)(var2);
         var4 = var2.HTTP;
         var3 = var4.get;
         var2 = {};
@@ -607,7 +639,11 @@ case 26:
         var5 = var5.GIFS_TRENDING;
         var2['url'] = var5;
         var5 = {};
-        var7 = 'tenor';
+        var7 = 5;
+        var7 = var9[var7];
+        var8 = var8.bind(var1)(var7);
+        var7 = var8.getProviderForAPIRequest;
+        var7 = var7.bind(var8)();
         var5['provider'] = var7;
         var7 = _closure1_slot3;
         var7 = var7.locale;
@@ -629,7 +665,7 @@ case 26:
             var6 = var1.gifs;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -661,11 +697,11 @@ case 26:
         var3 = var1.TRENDING_GIFS;
         var1 = undefined;
         var3 = var4.bind(var1)(var3);
-        var4 = _closure1_slot0;
-        var5 = _closure1_slot2;
-        var3 = 6;
-        var3 = var5[var3];
-        var3 = var4.bind(var1)(var3);
+        var10 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var3 = 7;
+        var3 = var11[var3];
+        var3 = var10.bind(var1)(var3);
         var5 = var3.HTTP;
         var4 = var5.get;
         var3 = {};
@@ -673,11 +709,15 @@ case 26:
         var6 = var6.GIFS_TRENDING_GIFS;
         var3['url'] = var6;
         var6 = {};
-        var10 = _closure1_slot4;
-        var9 = var10.getSelectedFormat;
-        var9 = var9.bind(var10)();
+        var12 = _closure1_slot4;
+        var9 = var12.getSelectedFormat;
+        var9 = var9.bind(var12)();
         var6['media_format'] = var9;
-        var9 = 'tenor';
+        var9 = 5;
+        var9 = var11[var9];
+        var10 = var10.bind(var1)(var9);
+        var9 = var10.getProviderForAPIRequest;
+        var9 = var9.bind(var10)();
         var6['provider'] = var9;
         var8 = _closure1_slot3;
         var8 = var8.locale;
@@ -704,7 +744,7 @@ case 26:
             var3 = var6.bind(var1)(var5, var4, var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -718,7 +758,7 @@ case 26:
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -739,7 +779,7 @@ case 26:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
@@ -754,7 +794,7 @@ case 0:
                 var2 = arg1;
                 var3 = _closure1_slot1;
                 var1 = _closure1_slot2;
-                var5 = 8;
+                var5 = 9;
                 var1 = var1[var5];
                 var8 = undefined;
                 var6 = var3.bind(var8)(var1);
@@ -798,7 +838,7 @@ case 33:
 case 35:
                 var11 = _closure1_slot1;
                 var12 = _closure1_slot2;
-                var6 = 10;
+                var6 = 11;
                 var6 = var12[var6];
                 var11 = var11.bind(var8)(var6);
                 var6 = var11.toURLSafe;
@@ -834,7 +874,7 @@ case 34:
 case 43:
                 var12 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var6 = 10;
+                var6 = 11;
                 var6 = var13[var6];
                 var12 = var12.bind(var8)(var6);
                 var6 = var12.toURLSafe;
@@ -892,7 +932,7 @@ case 55:
 case 54:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var3 = 13;
+                var3 = 14;
                 var3 = var7[var3];
                 var3 = var6.bind(var8)(var3);
                 var3 = var3.GIFType;
@@ -918,7 +958,7 @@ case 56:
                 var6[var3] = var1;
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var1 = var6[var1];
                 var1 = var3.bind(var8)(var1);
                 var3 = var1.FavoriteGIFs;
@@ -943,7 +983,7 @@ case 60:
 case 59:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var1 = var3[var1];
                 var5 = var2.bind(var8)(var1);
                 var3 = var5.track;
@@ -956,13 +996,13 @@ case 59:
 case 57:
                 var2 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var1 = var9[var1];
                 var3 = var2.bind(var8)(var1);
                 var2 = var3.show;
                 var1 = {};
                 var7 = _closure1_slot0;
-                var4 = 15;
+                var4 = 16;
                 var5 = var9[var4];
                 var5 = var7.bind(var8)(var5);
                 var10 = var5.intl;
@@ -997,7 +1037,7 @@ case 57:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
@@ -1028,7 +1068,7 @@ case 61:
 case 63:
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var3 = var9[var1];
                 var1 = undefined;
                 var5 = var8.bind(var1)(var3);
@@ -1036,7 +1076,7 @@ case 63:
                 var2 = _closure1_slot5;
                 var3 = var2.GIF_UNFAVORITED;
                 var2 = {};
-                var7 = 8;
+                var7 = 9;
                 var7 = var9[var7];
                 var8 = var8.bind(var1)(var7);
                 var7 = var8.size;
@@ -1052,19 +1092,26 @@ case 63:
     };
     var3['removeFavoriteGIF'] = var4;
     var2 = function fetchTrendingSearchTerms() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
+        var9 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var1 = 7;
+        var2 = var8[var1];
         var1 = undefined;
-        var2 = var3.bind(var1)(var2);
+        var2 = var9.bind(var1)(var2);
         var4 = var2.HTTP;
         var3 = var4.get;
         var2 = {};
         var5 = _closure1_slot6;
         var5 = var5.GIFS_TRENDING_SEARCH;
         var2['url'] = var5;
-        var5 = {'provider': 'tenor', 'limit': 5};
+        var5 = {};
+        var7 = 5;
+        var8 = var8[var7];
+        var9 = var9.bind(var1)(var8);
+        var8 = var9.getProviderForAPIRequest;
+        var8 = var8.bind(var9)();
+        var5['provider'] = var8;
+        var5['limit'] = var7;
         var6 = _closure1_slot3;
         var6 = var6.locale;
         var5['locale'] = var6;
@@ -1079,7 +1126,7 @@ case 63:
             var5 = var1.body;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

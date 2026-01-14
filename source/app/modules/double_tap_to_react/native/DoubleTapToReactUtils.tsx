@@ -536,25 +536,25 @@ case 0:
                     var3 = var2.emoji;
                     var1 = _closure2_slot0;
                     var1 = var4.bind(var5)(var3, var1);
-                    if(!var1) { _fun0005_ip = 85; continue _fun0005 }
-case 86:
+                    if(!var1) { _fun0005_ip = 6; continue _fun0005 }
+case 31:
                     var1 = var2.me;
-case 85:
+case 6:
                     return var1;
                 }
             };
             var5 = var6.bind(var7)(var5);
-            if(var5) { _fun0004_ip = 87; continue _fun0004 }
-case 88:
+            if(var5) { _fun0004_ip = 85; continue _fun0004 }
+case 86:
             var6 = _closure1_slot18;
             var5 = var13;
-            if(!(var4 == var5)) { _fun0004_ip = 89; continue _fun0004 }
-case 90:
+            if(!(var4 == var5)) { _fun0004_ip = 87; continue _fun0004 }
+case 88:
             var5 = {};
-case 89:
+case 87:
             var12 = var6.bind(var1)(var5);
-            if(!(var4 == var12)) { _fun0004_ip = 91; continue _fun0004 }
-case 92:
+            if(!(var4 == var12)) { _fun0004_ip = 89; continue _fun0004 }
+case 90:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 18;
@@ -564,21 +564,21 @@ case 92:
             var5 = {};
             var14 = var4 == var13;
             var11 = undefined;
-            if(var14) { _fun0004_ip = 93; continue _fun0004 }
-case 94:
+            if(var14) { _fun0004_ip = 91; continue _fun0004 }
+case 92:
             var13 = var13.emojiName;
             var14 = var4 == var13;
             var11 = undefined;
-            if(var14) { _fun0004_ip = 93; continue _fun0004 }
-case 95:
-            var11 = var13.value;
+            if(var14) { _fun0004_ip = 91; continue _fun0004 }
 case 93:
+            var11 = var13.value;
+case 91:
             var5['emojiName'] = var11;
             var5 = var6.bind(var7)(var5);
             _fun0004_ip = 70; continue _fun0004;
-case 91:
-            if(!(var4 != var12)) { _fun0004_ip = 96; continue _fun0004 }
-case 97:
+case 89:
+            if(!(var4 != var12)) { _fun0004_ip = 94; continue _fun0004 }
+case 95:
             var7 = {};
             var7['emoji'] = var12;
             var7['channel'] = var10;
@@ -594,10 +594,10 @@ case 97:
             var7 = var5.bind(var6)(var7);
             var5 = _closure1_slot14;
             var5 = var5.PREMIUM_LOCKED;
-            if(!(var7 !== var5)) { _fun0004_ip = 98; continue _fun0004 }
-case 99:
-            if(!(var4 == var7)) { _fun0004_ip = 100; continue _fun0004 }
-case 96:
+            if(!(var7 !== var5)) { _fun0004_ip = 96; continue _fun0004 }
+case 97:
+            if(!(var4 == var7)) { _fun0004_ip = 98; continue _fun0004 }
+case 94:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 16;
@@ -643,7 +643,7 @@ case 96:
             var4 = var5.hideChatInputBanner;
             var4 = var4.bind(var5)();
             _fun0004_ip = 70; continue _fun0004;
-case 100:
+case 98:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 18;
@@ -657,7 +657,7 @@ case 100:
             var4 = var5.bind(var6)(var4);
             var4 = undefined;
             return var4;
-case 98:
+case 96:
             var5 = _closure1_slot4;
             var4 = var5.lazy;
             var3 = function() {
@@ -689,7 +689,7 @@ case 98:
             var3 = var5.bind(var6)(var4, var3);
             var3 = undefined;
             return var3;
-case 87:
+case 85:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 16;
@@ -731,16 +731,16 @@ case 0:
             var2 = arg2;
             var1 = var3.id;
             var4 = null;
-            if(!(var4 == var1)) { _fun0006_ip = 101; continue _fun0006 }
-case 102:
+            if(!(var4 == var1)) { _fun0006_ip = 99; continue _fun0006 }
+case 100:
             var1 = var2.id;
             if(!(var4 != var1)) { _fun0006_ip = 69; continue _fun0006 }
-case 101:
+case 99:
             var4 = var3.id;
             var1 = var2.id;
             var1 = var4 === var1;
             if(!var1) { _fun0006_ip = 7; continue _fun0006 }
-case 103:
+case 101:
             var5 = var3.name;
             var4 = var2.name;
             var1 = var5 === var4;
@@ -799,7 +799,7 @@ case 0:
             var1 = var3.isFavoriteEmojiWithoutFetchingLatest;
             var1 = var1.bind(var3)(var4);
             if(var1) { _fun0007_ip = 32; continue _fun0007 }
-case 104:
+case 102:
             var2 = var3.isFrequentlyUsedReactionEmojiWithoutFetchingLatest;
             var1 = var2.bind(var3)(var4);
 case 32:

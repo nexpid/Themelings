@@ -100,7 +100,7 @@ case 0:
                     var3 = var2.current;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 5:
+case 9:
                     var2 = global;
                     var4 = var2.clearTimeout;
                     var2 = _closure2_slot12;
@@ -151,23 +151,23 @@ case 0:
                     var4 = arg1;
                     var2 = _closure2_slot10;
                     var2 = var2.current;
-                    if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(!var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var2 = _closure2_slot8;
                     var2 = var2.current;
                     var7 = null;
-                    if(!(var7 == var2)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                    if(!(var7 == var2)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var2 = _closure2_slot8;
                     var2['current'] = var4;
-case 11:
+case 12:
                     var2 = _closure2_slot9;
                     var2 = var2.current;
-                    if(!(var7 == var2)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                    if(!(var7 == var2)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                     var2 = _closure2_slot9;
                     var2['current'] = var4;
-case 13:
+case 14:
                     var2 = _closure2_slot9;
                     var2 = var2.current;
                     var5 = var4 - var2;
@@ -180,17 +180,17 @@ case 13:
                     var2 = _closure2_slot2;
                     var2 = var7 != var2;
                     var8 = 120;
-                    if(!var2) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                    if(!var2) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var8 = _closure2_slot2;
-case 15:
+case 16:
                     var2 = _closure2_slot6;
                     var2 = var2.current;
                     var8 = var9.bind(var10)(var8, var2);
                     var2 = 1.5;
                     var2 = var2 * var8;
-                    if(!(var6 > var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                    if(!(var6 > var2)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var6 = _closure2_slot11;
                     var2 = var6.current;
                     var9 = 1;
@@ -198,14 +198,14 @@ case 18:
                     var6['current'] = var2;
                     var2 = _closure2_slot12;
                     var2 = var2.current;
-                    if(!(var7 != var2)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(!(var7 != var2)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                     var8 = var3.clearTimeout;
                     var2 = _closure2_slot12;
                     var6 = var2.current;
                     var2 = undefined;
                     var2 = var8.bind(var2)(var6);
-case 19:
+case 20:
                     var8 = _closure2_slot12;
                     var11 = var3.setTimeout;
                     var10 = _closure2_slot13;
@@ -214,13 +214,13 @@ case 19:
                     var2 = var11.bind(var6)(var10, var2);
                     var8['current'] = var2;
                     var2 = _closure2_slot3;
-                    if(!(var7 != var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 21:
+                    if(!(var7 != var2)) { _fun0003_ip = 18; continue _fun0003 }
+case 22:
                     var2 = _closure2_slot11;
                     var8 = var2.current;
                     var2 = _closure2_slot3;
-                    if(!(var8 > var2)) { _fun0003_ip = 17; continue _fun0003 }
-case 22:
+                    if(!(var8 > var2)) { _fun0003_ip = 18; continue _fun0003 }
+case 23:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var2 = var2[var9];
@@ -230,33 +230,33 @@ case 22:
                     var7 = 'useClock - If you set a dropped frames threshold, you must provide a droppedFramesCallback to do something when that threshold is hit';
                     var7 = var9.bind(var6)(var8, var7);
                     var2 = var2.bind(var6)();
-                    if(!var2) { _fun0003_ip = 17; continue _fun0003 }
-case 23:
+                    if(!var2) { _fun0003_ip = 18; continue _fun0003 }
+case 24:
                     var6 = _closure2_slot11;
                     var2 = 0;
                     var6['current'] = var2;
-case 17:
+case 18:
                     var2 = _closure2_slot8;
                     var2['current'] = var4;
                     var2 = _closure2_slot6;
                     var6 = var2.current;
                     var2 = 3;
                     var2 = var6 - var2;
-                    if(!(var5 >= var2)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!(var5 >= var2)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var2 = _closure2_slot9;
                     var2['current'] = var4;
                     var4 = _closure2_slot0;
                     var2 = undefined;
                     var2 = var4.bind(var2)(var5);
-case 24:
+case 25:
                     var2 = _closure2_slot7;
                     var4 = var3.requestAnimationFrame;
                     var3 = _closure2_slot15;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3);
                     var2['current'] = var1;
-case 9:
+case 10:
                     var1 = undefined;
                     return var1;
                 }

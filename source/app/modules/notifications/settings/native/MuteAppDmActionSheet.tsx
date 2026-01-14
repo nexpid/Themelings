@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.STATUS_DANGER;
+    var10 = var10.BACKGROUND_FEEDBACK_NOTIFICATION;
     var9['backgroundColor'] = var10;
     var4['mutedNotificationContainer'] = var9;
     var9 = {'width': 16, 'height': 16};

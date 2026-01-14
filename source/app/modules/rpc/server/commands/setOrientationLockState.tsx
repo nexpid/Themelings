@@ -97,10 +97,20 @@ case 0:
             if(!(var1 != var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 3;
-            var2 = var2[var1];
+            var4 = _closure1_slot1;
+            var2 = 3;
+            var9 = var4[var2];
             var1 = undefined;
+            var11 = var3.bind(var1)(var9);
+            var10 = var11.dispatch;
+            var9 = {};
+            var12 = 'FRAME_SET_ORIENTATION_LOCK_STATE';
+            var9['type'] = var12;
+            var9['applicationId'] = var8;
+            var9['lockState'] = var7;
+            var9['pictureInPictureLockState'] = var6;
+            var9 = var10.bind(var11)(var9);
+            var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
             var2 = {};
@@ -125,10 +135,10 @@ case 2:
             var3['errorCode'] = var1;
             var1 = var4.prototype;
             var2 = Object.create(var1, {constructor: {value: var4}});
-            var10 = 'No application.';
-            var12 = var2;
-            var11 = var3;
-            var1 = new var12[var4](var11, var10, var9);
+            var13 = 'No application.';
+            var15 = var2;
+            var14 = var3;
+            var1 = new var15[var4](var14, var13, var12);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }

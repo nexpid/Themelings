@@ -450,7 +450,7 @@ case 0:
             var12 = var7[var6];
             var12 = var10.bind(var5)(var12);
             var12 = var12.colors;
-            var12 = var12.STATUS_DANGER;
+            var12 = var12.BACKGROUND_FEEDBACK_NOTIFICATION;
             var2['backgroundColor'] = var12;
             var1['joinButtonLive'] = var2;
             var2 = {};

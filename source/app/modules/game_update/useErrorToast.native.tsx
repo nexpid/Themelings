@@ -95,7 +95,7 @@ case 9:
                 var4 = var5.bind(var6)(var4);
                 var4 = var4.XLargeIcon;
                 var1['IconComponent'] = var4;
-                var4 = 'status-danger';
+                var4 = 'icon-feedback-critical';
                 var1['iconColor'] = var4;
                 var1 = var2.bind(var3)(var1);
 case 8:

@@ -764,7 +764,7 @@ case 5:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_DANGER;
+    var13 = var13.BACKGROUND_FEEDBACK_NOTIFICATION;
     var10['backgroundColor'] = var13;
     var4['settingsBadge'] = var10;
     var10 = {};
@@ -2137,7 +2137,7 @@ case 84:
             var3 = var5[var1];
             var8 = var18.bind(var4)(var3);
             var6 = var8.useAnimatedStyle;
-            var3 = function j() {
+            var3 = function X() {
                 _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                     var1 = {};

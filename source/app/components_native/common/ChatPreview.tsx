@@ -1113,7 +1113,7 @@ case 83:
                 var1 = var2 != var4;
 case 82:
                 if(!var1) { _fun0017_ip = 65; continue _fun0017 }
-case 84:
+case 68:
                 var2 = var3.setup;
                 var1 = var3.props;
                 var1 = var1.canAccessChannel;
@@ -1143,9 +1143,9 @@ case 0:
                 var9 = var2.channel;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0018_ip = 75; continue _fun0018 }
-case 85:
+case 84:
                 var2 = false;
-                if(!(var2 !== var3)) { _fun0018_ip = 86; continue _fun0018 }
+                if(!(var2 !== var3)) { _fun0018_ip = 85; continue _fun0018 }
 case 75:
                 var7 = _closure1_slot21;
                 var3 = _closure1_slot1;
@@ -1215,8 +1215,8 @@ case 75:
                 var2['children'] = var8;
                 var6 = var7.bind(var4)(var6, var2);
                 var7 = var3;
-                _fun0018_ip = 87; continue _fun0018;
-case 86:
+                _fun0018_ip = 86; continue _fun0018;
+case 85:
                 var8 = _closure1_slot21;
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot3;
@@ -1231,7 +1231,7 @@ case 86:
                 var2['channelId'] = var9;
                 var7 = var8.bind(var4)(var3, var2);
                 var6 = undefined;
-case 87:
+case 86:
                 var3 = _closure1_slot22;
                 var2 = _closure1_slot10;
                 var1 = {};

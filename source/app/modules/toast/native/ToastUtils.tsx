@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.bind(var1)(var5);
         var5 = var5.UserMinusIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.bind(var1)(var5);
         var5 = var5.UserMinusIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -639,7 +639,7 @@ case 5:
             var5 = var7.CheckmarkLargeIcon;
 case 7:
             var2['IconComponent'] = var5;
-            var5 = 'status-danger';
+            var5 = 'icon-feedback-critical';
             if(!var6) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var5 = 'status-positive';
@@ -678,7 +678,7 @@ case 8:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -703,7 +703,7 @@ case 8:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -737,7 +737,7 @@ case 8:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -1233,7 +1233,7 @@ case 29:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -1258,7 +1258,7 @@ case 29:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -1498,7 +1498,7 @@ case 29:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -1532,7 +1532,7 @@ case 29:
         var5 = var6.bind(var1)(var5);
         var5 = var5.XLargeIcon;
         var2['IconComponent'] = var5;
-        var5 = 'status-danger';
+        var5 = 'icon-feedback-critical';
         var2['iconColor'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

@@ -348,7 +348,7 @@ case 0:
 case 10:
                     var1 = null;
                     if(!(var1 == var9)) { _fun0004_ip = 9; continue _fun0004 }
-case 11:
+case 5:
                     return var4;
 case 9:
                     var3 = _closure1_slot9;
@@ -358,8 +358,8 @@ case 9:
                     var7 = var7.guildIdentity;
                     var1['style'] = var7;
                     var7 = var5;
-                    if(!var7) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                    if(!var7) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var11 = _closure1_slot8;
                     var8 = _closure1_slot1;
                     var15 = _closure1_slot2;
@@ -384,7 +384,7 @@ case 13:
                     var12 = true;
                     var5['animate'] = var12;
                     var7 = var11.bind(var4)(var8, var5);
-case 12:
+case 11:
                     var5 = new Array(2);
                     var5[0] = var7;
                     var8 = _closure1_slot8;
@@ -396,11 +396,11 @@ case 12:
                     var7 = var6.Text;
                     var6 = {'variant': 'text-sm/medium', 'color': 'text-default'};
                     var11 = null;
-                    if(!(var11 == var9)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!(var11 == var9)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var10 = _closure2_slot1;
                     var9 = var10.username;
-case 14:
+case 13:
                     var6['children'] = var9;
                     var6 = var8.bind(var4)(var7, var6);
                     var5[1] = var6;
@@ -424,11 +424,11 @@ case 0:
                     var1 = null;
                     var4 = var1 == var4;
                     var1 = undefined;
-                    if(var4) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                    if(var4) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                     var3 = _closure2_slot4;
                     var1 = var3.value;
-case 16:
+case 15:
                     var1 = var2 === var1;
                     return var1;
                 }

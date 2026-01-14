@@ -47,7 +47,13 @@ case 0:
             var4 = undefined;
             if(!(var13 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = '#C12A35';
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 3;
+            var1 = var5[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.colors;
+            var13 = var1.ICON_FEEDBACK_NOTIFICATION;
 case 2:
             var11 = var3.color;
             if(!(var11 === var4)) { _fun0001_ip = 4; continue _fun0001 }

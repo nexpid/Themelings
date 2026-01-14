@@ -1082,6 +1082,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var25['ACTIVITY_PIP_MODE_UPDATE'] = var8;
     var8 = 'ACTIVITY_LAYOUT_MODE_UPDATE';
     var25['ACTIVITY_LAYOUT_MODE_UPDATE'] = var8;
+    var8 = 'FRAME_LAYOUT_MODE_UPDATE';
+    var25['FRAME_LAYOUT_MODE_UPDATE'] = var8;
     var8 = 'THERMAL_STATE_UPDATE';
     var25['THERMAL_STATE_UPDATE'] = var8;
     var8 = 'ORIENTATION_UPDATE';

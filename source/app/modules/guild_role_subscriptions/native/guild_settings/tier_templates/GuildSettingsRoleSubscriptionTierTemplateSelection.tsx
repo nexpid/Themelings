@@ -119,7 +119,7 @@ case 4:
             var3 = var9[var3];
             var3 = var4.bind(var5)(var3);
             var4 = var3.Text;
-            var3 = {'variant': 'text-xs/normal', 'color': 'status-danger'};
+            var3 = {'variant': 'text-xs/normal', 'color': 'text-feedback-critical'};
             var9 = var8.message;
             var8 = ['Error: '];
             var8[1] = var9;

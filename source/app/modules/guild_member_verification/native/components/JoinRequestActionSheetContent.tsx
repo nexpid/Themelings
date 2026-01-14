@@ -484,7 +484,7 @@ case 4:
             var9 = var12[var7];
             var9 = var8.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.STATUS_DANGER;
+            var9 = var9.ICON_FEEDBACK_CRITICAL;
             var5['color'] = var9;
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);

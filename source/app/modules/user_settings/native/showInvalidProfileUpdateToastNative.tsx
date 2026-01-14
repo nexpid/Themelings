@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.colors;
-        var5 = var5.STATUS_DANGER;
+        var5 = var5.ICON_FEEDBACK_CRITICAL;
         var2['iconColor'] = var5;
         var5 = true;
         var2['recolorLegacyIcon'] = var5;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var5 = var5.colors;
-        var5 = var5.STATUS_DANGER;
+        var5 = var5.ICON_FEEDBACK_CRITICAL;
         var2['iconColor'] = var5;
         var5 = true;
         var2['recolorLegacyIcon'] = var5;

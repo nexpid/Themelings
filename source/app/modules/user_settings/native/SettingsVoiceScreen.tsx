@@ -160,8 +160,7 @@ case 4:
     var10 = 8;
     var9 = {'marginTop': 8, 'flexDirection': 'row', 'alignItems': 'center'};
     var4['krisp'] = var9;
-    var9 = {};
-    var9['marginRight'] = var10;
+    var9 = {'marginRight': 8, 'height': 30, 'width': 67};
     var4['logo'] = var9;
     var9 = {};
     var9['marginTop'] = var10;

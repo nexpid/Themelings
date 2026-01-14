@@ -110,7 +110,7 @@ case 7:
                         var3['rejectWithError'] = var12;
                         var3['failImmediatelyWhenRateLimited'] = var12;
                         var3 = var5.bind(var11)(var3);
-                        SaveGenerator(address=173);
+                        SaveGenerator(address=172);
 case 9:
                         return var3;
 case 10:
@@ -178,7 +178,7 @@ case 4:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 19; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 21; continue _fun0003 }
 case 5:
                     var2 = undefined;
                     var9 = undefined;
@@ -190,8 +190,8 @@ case 5:
                     var5 = var5.bind(var2)(var3);
                     var3 = var5.isInPomeloSuggestionsExperiment;
                     var3 = var3.bind(var5)();
-                    if(!var3) { _fun0003_ip = 21; continue _fun0003 }
-case 22: // try_start_0
+                    if(!var3) { _fun0003_ip = 22; continue _fun0003 }
+case 23: // try_start_0
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var6 = 4;
@@ -216,30 +216,30 @@ case 22: // try_start_0
                     var3['rejectWithError'] = var10;
                     var3 = var5.bind(var8)(var3);
                     SaveGenerator(address=168);
-case 23:
-                    return var3;
 case 24:
+                    return var3;
+case 25:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                    if(var5) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                     var7 = var3;
                     var5 = var3.ok;
-                    if(!var5) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                    if(!var5) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var5 = var7;
                     var5 = var5.body;
                     var9 = var5;
                     var8 = null;
                     var10 = var8 == var5;
                     var5 = undefined;
-                    if(var10) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+                    if(var10) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                     var5 = var9.username;
-case 29:
-                    if(!(var8 == var5)) { _fun0003_ip = 31; continue _fun0003 }
-case 27: // try_end0
-                    _fun0003_ip = 21; continue _fun0003;
-case 31: // try_start_1
+case 30:
+                    if(!(var8 == var5)) { _fun0003_ip = 13; continue _fun0003 }
+case 28: // try_end0
+                    _fun0003_ip = 22; continue _fun0003;
+case 13: // try_start_1
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var6];
@@ -253,13 +253,13 @@ case 31: // try_start_1
                     var4 = var5.bind(var6)(var4);
 case 32: // try_end1
                     return var4;
-case 25:
+case 26:
                     return var3;
 case 33: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
-case 21:
+case 22:
                     return var2;
-case 19:
+case 21:
                     return var1;
                 }
             };

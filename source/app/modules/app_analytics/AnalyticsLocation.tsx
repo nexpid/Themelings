@@ -720,8 +720,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_COLLECTED_MODAL'] = var1;
     var1 = 'collectibles feature education tooltip';
     var2['COLLECTIBLES_FEATURE_EDUCATION_TOOLTIP'] = var1;
-    var1 = 'collectibles expiry modal';
-    var2['COLLECTIBLES_EXPIRY_MODAL'] = var1;
     var1 = 'collectibles gift customization modal';
     var2['COLLECTIBLES_GIFT_CUSTOMIZATION_MODAL'] = var1;
     var1 = 'collectibles mobile gift modal';
@@ -864,10 +862,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEASONAL_GIFTING_REMINDER_NAGBAR'] = var1;
     var1 = 'gifting promotion coachmark';
     var2['GIFTING_PROMOTION_COACHMARK'] = var1;
-    var1 = 'hd streaming potion modal';
-    var2['HD_STREAMING_POTION_MODAL'] = var1;
-    var1 = 'confetti potion modal';
-    var2['CONFETTI_POTION_MODAL'] = var1;
     var1 = 'go live modal v2';
     var2['GO_LIVE_MODAL_V2'] = var1;
     var1 = 'go live modal settings selection';

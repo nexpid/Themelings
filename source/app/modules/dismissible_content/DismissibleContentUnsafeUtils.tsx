@@ -83,37 +83,52 @@ case 16:
             var12 = _closure1_slot2;
             if(var13) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var6 = var12[var6];
-            var13 = var10.bind(var4)(var6);
-            var6 = var13.isTimeRecurringGuildDismissibleContent;
-            var6 = var6.bind(var13)(var3);
-            if(var6) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var6 = _closure1_slot4;
-            var6 = var6.settings;
-            var13 = var6.userContent;
-            var6 = null;
-            var14 = var6 == var13;
-            var15 = undefined;
-            if(var14) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
-            var15 = var13.dismissedContents;
-case 21:
-            var6 = var6 != var15;
-            if(!var6) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
-            var14 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var13 = 8;
-            var13 = var16[var13];
-            var14 = var14.bind(var4)(var13);
-            var13 = var14.hasBit;
-            var6 = var13.bind(var14)(var15, var3);
-case 23:
-            return var6;
-case 19:
+            var13 = var12[var6];
+            var14 = var10.bind(var4)(var13);
+            var13 = var14.isTimeRecurringGuildDismissibleContent;
+            var15 = var13.bind(var14)(var3);
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
+            if(var15) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var6 = var14[var6];
+            var15 = var13.bind(var4)(var6);
+            var6 = var15.isSnowflakeBoundGuildDismissibleContent;
+            var6 = var6.bind(var15)(var3);
+            if(var6) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var6 = _closure1_slot4;
+            var6 = var6.settings;
+            var15 = var6.userContent;
+            var6 = null;
+            var16 = var6 == var15;
+            var17 = undefined;
+            if(var16) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+            var17 = var15.dismissedContents;
+case 23:
+            var6 = var6 != var17;
+            if(!var6) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var16 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var15 = 8;
+            var15 = var18[var15];
+            var16 = var16.bind(var4)(var15);
+            var15 = var16.hasBit;
+            var6 = var15.bind(var16)(var17, var3);
+case 25:
+            return var6;
+case 21:
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var6 = 6;
+            var6 = var16[var6];
+            var15 = var15.bind(var4)(var6);
+            var6 = var15.UNSAFE_isSnowflakeBoundGuildDismissibleContentDismissed;
+            var6 = var6.bind(var15)(var3, var11);
+            return var6;
+case 19:
             var6 = 6;
             var6 = var14[var6];
             var13 = var13.bind(var4)(var6);
@@ -176,27 +191,27 @@ case 0:
                     var8 = arg1;
                     var7 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+                    if(var2) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
                     var3 = undefined;
                     if(!(var7 === var3)) { _fun0002_ip = 5; continue _fun0002 }
-case 27:
+case 29:
                     var7 = {};
 case 5:
                     SaveGenerator(address=28);
 case 4:
                     return var3;
-case 28:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
                     var6 = _closure1_slot6;
                     var4 = {};
                     var9 = true;
                     var4['bypassNewUserCheck'] = var9;
                     var4 = var6.bind(var3)(var8, var4);
-                    if(var4) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
+                    if(var4) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
                     var6 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var9 = 6;
@@ -210,26 +225,26 @@ case 32:
                     var4 = var6.addDismissedContent;
                     var4 = var4.bind(var6)(var8);
                     SaveGenerator(address=121);
-case 33:
+case 35:
                     return var4;
-case 34:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.markDismissibleContentAsDismissedPostProcessing;
                     var5 = var5.bind(var6)(var8, var7);
-                    _fun0002_ip = 31; continue _fun0002;
-case 35:
+                    _fun0002_ip = 33; continue _fun0002;
+case 37:
                     return var4;
-case 31:
+case 33:
                     return var3;
-case 29:
+case 31:
                     return var2;
-case 25:
+case 27:
                     return var1;
                 }
             };
@@ -259,28 +274,28 @@ case 0:
             var2 = var2.bind(var6)(var1);
             var1 = var2.disableNewUserDismissibleContent;
             var1 = var1.bind(var2)(var5);
-            if(var1) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+            if(var1) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
             var1 = _closure1_slot4;
             var1 = var1.settings;
             var1 = var1.userContent;
             var3 = null;
             var7 = var3 == var1;
             var2 = undefined;
-            if(var7) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+            if(var7) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
             var1 = var1.recurringDismissibleContentStates;
             var1 = var1[var5];
             var5 = var3 == var1;
             var2 = undefined;
-            if(var5) { _fun0003_ip = 39; continue _fun0003 }
-case 41:
+            if(var5) { _fun0003_ip = 41; continue _fun0003 }
+case 43:
             var2 = var1.lastDismissedObjectId;
-case 39:
+case 41:
             var1 = {};
             var3 = var3 != var2;
-            if(!var3) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
+            if(!var3) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 7;
@@ -291,11 +306,11 @@ case 43:
             var5 = var5.bind(var6)(var4, var2);
             var4 = 1;
             var3 = var4 !== var5;
-case 42:
+case 44:
             var1['isDismissed'] = var3;
             var1['lastDismissedSnowflakeId'] = var2;
             return var1;
-case 37:
+case 39:
             var1 = {'isDismissed': true, 'lastDismissedSnowflakeId': null};
             return var1;
         }
@@ -313,20 +328,20 @@ case 0:
                     var8 = arg1;
                     var7 = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 42; continue _fun0004 }
-case 26:
+                    if(var2) { _fun0004_ip = 44; continue _fun0004 }
+case 28:
                     var4 = undefined;
                     if(!(var7 === var4)) { _fun0004_ip = 5; continue _fun0004 }
-case 27:
+case 29:
                     var7 = {};
 case 5:
                     SaveGenerator(address=28);
 case 4:
                     return var4;
-case 28:
+case 30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+                    if(var3) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var9 = 6;
@@ -341,12 +356,12 @@ case 45:
                     var3 = 1;
                     var3 = var10.bind(var11)(var8, var6, var3);
                     SaveGenerator(address=101);
-case 46:
+case 48:
                     return var3;
-case 47:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0004_ip = 48; continue _fun0004 }
 case 49:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
@@ -354,11 +369,11 @@ case 49:
                     var5 = var6.markDismissibleContentAsDismissedPostProcessing;
                     var5 = var5.bind(var6)(var8, var7);
                     return var4;
-case 48:
+case 50:
                     return var3;
-case 44:
+case 46:
                     return var2;
-case 42:
+case 44:
                     return var1;
                 }
             };
@@ -389,8 +404,8 @@ case 0:
                     var10 = arg2;
                     var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                    if(var2) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var8 = 6;
@@ -408,12 +423,12 @@ case 51:
                     var2 = var5.UNSAFE_addTimeRecurringGuildDismissedContent;
                     var2 = var2.bind(var5)(var7, var10, var9);
                     SaveGenerator(address=103);
-case 47:
+case 49:
                     return var2;
-case 43:
+case 45:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+                    if(var5) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var8];
@@ -421,9 +436,9 @@ case 53:
                     var4 = var5.markDismissibleContentAsDismissedPostProcessing;
                     var4 = var4.bind(var5)(var7, var6);
                     return var3;
-case 52:
+case 54:
                     return var2;
-case 50:
+case 52:
                     return var1;
                 }
             };
@@ -439,6 +454,73 @@ case 50:
         return var1;
     };
     var _closure1_slot10 = var1;
+    var1 = function _UNSAFE_markSnowflakeBoundGuildDismissibleContentAsDismissed() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3, arg4) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    StartGenerator();
+                    var7 = arg1;
+                    var11 = arg3;
+                    var6 = arg4;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0006_ip = 56; continue _fun0006 }
+case 53:
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var8 = 6;
+                    var9 = var2[var8];
+                    var3 = undefined;
+                    var10 = var5.bind(var3)(var9);
+                    var9 = var10.getGuildNextNumTimesDismissed;
+                    var13 = var9.bind(var10)(var7, var11);
+                    var9 = var2[var8];
+                    var12 = var5.bind(var3)(var9);
+                    var9 = var12.markDismissibleContentAsDismissedPreProcessing;
+                    var9 = var9.bind(var12)(var7, var6);
+                    var2 = var2[var8];
+                    var9 = var5.bind(var3)(var2);
+                    var5 = var9.UNSAFE_addSnowflakeBoundGuildDismissedContent;
+                    var15 = arg2;
+                    var17 = var9;
+                    var16 = var7;
+                    var14 = var11;
+                    var2 = var17[var5](var16, var15, var14, var13, var12);
+                    SaveGenerator(address=112);
+case 57:
+                    return var2;
+case 58:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.markDismissibleContentAsDismissedPostProcessing;
+                    var4 = var4.bind(var5)(var7, var6);
+                    return var3;
+case 59:
+                    return var2;
+case 56:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -468,16 +550,16 @@ case 50:
     var6 = var7.bind(var8)(var6);
     var3['UNSAFE_isDismissibleContentDismissed'] = var5;
     var5 = function UNSAFE_useIsDismissibleContentDismissed(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arguments[1];
             var3 = arg1;
             var _closure2_slot0 = var3;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
+            if(!(var2 === var4)) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
             var2 = {};
-case 54:
+case 61:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -526,7 +608,7 @@ case 54:
         return var1;
     };
     var3['UNSAFE_markSingleUseGuildDismissibleContentAsDismissed'] = var4;
-    var2 = function UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed() {
+    var4 = function UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed() {
         var1 = undefined;
         var4 = _closure1_slot10;
         var3 = var4.apply;
@@ -536,6 +618,17 @@ case 54:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed'] = var2;
+    var3['UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed'] = var4;
+    var2 = function UNSAFE_markSnowflakeBoundGuildDismissibleContentAsDismissed() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['UNSAFE_markSnowflakeBoundGuildDismissibleContentAsDismissed'] = var2;
     return var1;
 })();

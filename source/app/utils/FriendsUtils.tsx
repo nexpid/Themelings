@@ -128,19 +128,19 @@ case 18:
 case 20:
             var2 = _closure1_slot4;
             var2 = var2.RELATIONSHIP_INCOMING_BLOCKED;
-            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 21:
-            var2 = _closure1_slot4;
-            var2 = var2.RELATIONSHIP_INVALID_SELF;
-            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+            if(!(var2 !== var3)) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
             var2 = _closure1_slot4;
-            var2 = var2.RELATIONSHIP_INVALUD_USER_BOT;
-            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+            var2 = var2.RELATIONSHIP_INVALID_SELF;
+            if(!(var2 !== var3)) { _fun0002_ip = 21; continue _fun0002 }
 case 23:
             var2 = _closure1_slot4;
+            var2 = var2.RELATIONSHIP_INVALUD_USER_BOT;
+            if(!(var2 !== var3)) { _fun0002_ip = 21; continue _fun0002 }
+case 24:
+            var2 = _closure1_slot4;
             var2 = var2.RELATIONSHIP_INVALID_DISCORD_TAG;
-case 6:
+case 21:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -305,8 +305,8 @@ case 0:
             var1 = var1.bind(var5)(var4, var8);
             var3 = _closure1_slot4;
             var3 = var3.RELATIONSHIP_INCOMING_DISABLED;
-            if(!(var4 === var3)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!(var4 === var3)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 2;
@@ -321,7 +321,7 @@ case 25:
             var3 = {};
             var3['discordTag'] = var8;
             var1 = var6.bind(var7)(var4, var3);
-case 24:
+case 25:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 3;

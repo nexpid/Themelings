@@ -192,7 +192,7 @@ case 15: // try_start_2 // catch_target0
                         var7 = var8.bind(var5)(var7);
                         var7 = var7.XLargeIcon;
                         var2['IconComponent'] = var7;
-                        var7 = 'status-danger';
+                        var7 = 'icon-feedback-critical';
                         var2['iconColor'] = var7;
                         var2 = var4.bind(var6)(var2);
 case 14: // try_end2

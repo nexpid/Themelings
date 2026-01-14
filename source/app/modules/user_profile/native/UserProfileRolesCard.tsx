@@ -449,7 +449,7 @@ case 27:
             var2 = 0;
             var1 = null;
             if(!(var2 !== var3)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+case 6:
             var4 = _closure1_slot8;
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;

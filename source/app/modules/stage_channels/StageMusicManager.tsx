@@ -352,28 +352,28 @@ case 30:
                 var1 = var1.bind(var4)();
                 var1 = false;
                 _closure1_slot15 = var1;
-                _fun0005_ip = 31; continue _fun0005;
+                _fun0005_ip = 14; continue _fun0005;
 case 29:
                 var4 = _closure1_slot7;
                 var3 = var4.getChannel;
                 var3 = var3.bind(var4)(var5);
-                if(!(var2 != var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!(var2 != var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var2 = var3.isGuildStageVoice;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0005_ip = 34; continue _fun0005 }
-case 32:
+                if(var2) { _fun0005_ip = 33; continue _fun0005 }
+case 31:
                 var3 = _closure1_slot16;
                 var2 = var3.stop;
                 var2 = var2.bind(var3)();
                 var2 = false;
                 _closure1_slot15 = var2;
-                _fun0005_ip = 31; continue _fun0005;
-case 34:
+                _fun0005_ip = 14; continue _fun0005;
+case 33:
                 var2 = _closure1_slot18;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
-case 31:
+case 14:
                 var1 = undefined;
                 return var1;
             }
@@ -403,7 +403,7 @@ case 31:
 case 0:
                 var1 = arg1;
                 var2 = var1.play;
-                if(var2) { _fun0006_ip = 35; continue _fun0006 }
+                if(var2) { _fun0006_ip = 34; continue _fun0006 }
 case 20:
                 var3 = _closure1_slot16;
                 var2 = var3.pause;
@@ -411,7 +411,7 @@ case 20:
                 var2 = false;
                 _closure1_slot15 = var2;
                 _fun0006_ip = 9; continue _fun0006;
-case 35:
+case 34:
                 var2 = _closure1_slot18;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
@@ -430,13 +430,13 @@ case 9:
 case 0:
                 var1 = arg1;
                 var1 = var1.muted;
-                if(var1) { _fun0007_ip = 36; continue _fun0007 }
+                if(var1) { _fun0007_ip = 35; continue _fun0007 }
 case 20:
                 var3 = _closure1_slot18;
                 var1 = undefined;
                 var1 = var3.bind(var1)();
                 _fun0007_ip = 9; continue _fun0007;
-case 36:
+case 35:
                 var3 = _closure1_slot16;
                 var1 = var3.pause;
                 var1 = var1.bind(var3)();
@@ -562,14 +562,14 @@ case 0:
                 return var1;
             };
             var3 = var6.bind(var7)(var5, var3);
-            if(!var1) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
-            var1 = var4 == var3;
+            if(!var1) { _fun0008_ip = 36; continue _fun0008 }
 case 37:
-            if(!var1) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
-            var1 = !var2;
+            var1 = var4 == var3;
+case 36:
+            if(!var1) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
+            var1 = !var2;
+case 38:
             return var1;
         }
     };
@@ -608,14 +608,14 @@ case 0:
             var5 = _closure1_slot12;
             var3 = var5.getStageInstanceByChannel;
             var3 = var3.bind(var5)(var6);
-            if(!var1) { _fun0009_ip = 41; continue _fun0009 }
-case 42:
-            var1 = var4 == var3;
+            if(!var1) { _fun0009_ip = 40; continue _fun0009 }
 case 41:
-            if(!var1) { _fun0009_ip = 43; continue _fun0009 }
-case 16:
-            var1 = !var2;
+            var1 = var4 == var3;
+case 40:
+            if(!var1) { _fun0009_ip = 42; continue _fun0009 }
 case 43:
+            var1 = !var2;
+case 42:
             return var1;
         }
     };

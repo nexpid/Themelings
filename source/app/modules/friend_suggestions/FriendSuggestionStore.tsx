@@ -332,12 +332,12 @@ case 20:
             _closure1_slot12 = var2;
             var4 = _closure1_slot11;
             var3 = !var4;
-            if(var4) { _fun0005_ip = 23; continue _fun0005 }
-case 5:
+            if(var4) { _fun0005_ip = 4; continue _fun0005 }
+case 3:
             var3 = _closure1_slot12;
-case 23:
+case 4:
             if(!var3) { _fun0005_ip = 22; continue _fun0005 }
-case 24:
+case 23:
             _closure1_slot11 = var2;
             var2 = false;
             _closure1_slot12 = var2;
@@ -367,8 +367,8 @@ case 0:
             var2 = var5.key;
             var4 = var4[var2];
             var2 = null;
-            if(!(var2 == var4)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(!(var2 == var4)) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var2 = _closure1_slot10;
             var2 = var2 + 1;
             _closure1_slot10 = var2;
@@ -380,7 +380,7 @@ case 26:
             var2[var4] = var5;
             _closure1_slot9 = var2;
             return var1;
-case 25:
+case 24:
             var1 = false;
             return var1;
         }

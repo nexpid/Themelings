@@ -2091,7 +2091,7 @@ case 189:
             var3 = typeof var3;
             var1 = null;
             if(!(var4 === var3)) { _fun0017_ip = 213; continue _fun0017 }
-case 177:
+case 215:
             var1 = var2;
 case 213: // try_end0
             return var1;

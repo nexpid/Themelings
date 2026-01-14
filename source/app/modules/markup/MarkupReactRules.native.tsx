@@ -2467,10 +2467,10 @@ case 129:
                     var2 = {};
                     var7 = var11 == var1;
                     var6 = undefined;
-                    if(var7) { _fun0036_ip = 141; continue _fun0036 }
-case 69:
-                    var6 = var1.textColor;
+                    if(var7) { _fun0036_ip = 65; continue _fun0036 }
 case 141:
+                    var6 = var1.textColor;
+case 65:
                     var2['color'] = var6;
                     var8 = _closure1_slot13;
                     var7 = _closure1_slot6;

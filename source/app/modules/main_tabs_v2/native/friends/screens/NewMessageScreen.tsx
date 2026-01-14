@@ -903,7 +903,7 @@ case 36:
                 var11 = 'text-muted';
                 if(!var9) { _fun0015_ip = 87; continue _fun0015 }
 case 88:
-                var11 = 'status-danger';
+                var11 = 'text-feedback-critical';
 case 87:
                 var6['color'] = var11;
                 var13 = _closure1_slot0;

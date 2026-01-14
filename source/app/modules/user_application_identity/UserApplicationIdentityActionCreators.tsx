@@ -81,7 +81,7 @@ case 4: // try_start_0
                     var8 = _closure2_slot1;
                     var2['signal'] = var8;
                     var2 = var4.bind(var7)(var2);
-                    SaveGenerator(address=161);
+                    SaveGenerator(address=160);
 case 5:
                     return var2;
 case 6:

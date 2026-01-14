@@ -216,6 +216,46 @@ case 2:
         }
     };
     var3['useSelectedSnowflakeBoundDismissibleContent'] = var4;
+    var4 = function useSelectedSnowflakeBoundGuildDismissibleContent(arg1, arg2, arg3, arg4) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var5 = arguments[4];
+            var6 = undefined;
+            if(!(var5 === var6)) { _fun0005_ip = 2; continue _fun0005 }
+case 3:
+            var5 = false;
+case 2:
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 3;
+            var2 = var7[var2];
+            var11 = var4.bind(var6)(var2);
+            var10 = var11.UNSAFE_useGetSnowflakeBoundGuildDismissibleContent;
+            var15 = arg1;
+            var14 = arg3;
+            var13 = arg2;
+            var12 = arg4;
+            var16 = var11;
+            var3 = var16[var10](var15, var14, var13, var12, var11);
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2.bind(var6)(var3, var1);
+            var1 = 0;
+            var3 = var2[var1];
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = 4;
+            var1 = var7[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.useSelectedDismissibleContentShared;
+            var1 = var1.bind(var4)(var3, var2, var5);
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
+        }
+    };
+    var3['useSelectedSnowflakeBoundGuildDismissibleContent'] = var4;
     var4 = function useSelectedSingleUseGuildDismissibleContent(arg1, arg2, arg3) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;

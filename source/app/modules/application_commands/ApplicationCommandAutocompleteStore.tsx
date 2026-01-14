@@ -433,21 +433,21 @@ case 26:
             var8 = var6 == var9;
             var3 = undefined;
             if(var8) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+case 22:
             var8 = var9.get;
             var3 = var8.bind(var9)(var10);
 case 27:
-            if(!(var6 == var3)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+            if(!(var6 == var3)) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var9 = var1.optionNameToNonce;
             var8 = var9.get;
             var9 = var8.bind(var9)(var4);
-            if(!(var6 != var9)) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
+            if(!(var6 != var9)) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
             var8 = _closure1_slot9;
             var6 = var8.delete;
             var6 = var6.bind(var8)(var9);
-case 31:
+case 30:
             var9 = _closure1_slot9;
             var8 = var9.set;
             var6 = {};
@@ -470,14 +470,14 @@ case 31:
             var5 = var5.bind(var6)(var4, var7);
             var5 = var1.lastErrored;
             var2 = undefined;
-            if(!var5) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+            if(!var5) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
             var5 = false;
             var1['lastErrored'] = var5;
             var2 = true;
-case 33:
+case 32:
             return var2;
-case 29:
+case 28:
             var2 = false;
             var1['lastErrored'] = var2;
             var2 = var1.optionNameToLastResults;
@@ -503,8 +503,8 @@ case 0:
             var1 = var3.get;
             var3 = var1.bind(var3)(var2);
             var5 = null;
-            if(!(var5 != var3)) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+            if(!(var5 != var3)) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
             var6 = _closure1_slot9;
             var1 = var6.delete;
             var1 = var1.bind(var6)(var2);
@@ -515,8 +515,8 @@ case 36:
             var8 = var11.get;
             var6 = var3.name;
             var6 = var8.bind(var11)(var6);
-            if(!(var5 == var6)) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
+            if(!(var5 == var6)) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
             var12 = var1.optionNameToAutocompleteQueries;
             var11 = var12.set;
             var8 = var3.name;
@@ -528,20 +528,20 @@ case 38:
             var6 = new var16[var6](var15);
             var6 = var6 instanceof Object ? var6 : var13;
             var6 = var11.bind(var12)(var8, var6);
-case 37:
+case 36:
             var6 = _closure1_slot12;
-            if(!var6) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
+            if(!var6) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
             var12 = _closure1_slot7;
             var11 = var12.getActiveOption;
             var8 = var3.channelId;
             var8 = var11.bind(var12)(var8);
             var12 = var5 == var8;
             var11 = undefined;
-            if(var12) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
-            var11 = var8.type;
+            if(var12) { _fun0008_ip = 40; continue _fun0008 }
 case 41:
+            var11 = var8.type;
+case 40:
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
             var8 = 8;
@@ -550,12 +550,12 @@ case 41:
             var8 = var8.ApplicationCommandOptionType;
             var8 = var8.INTEGER;
             var6 = var11 === var8;
-case 39:
+case 38:
             _closure2_slot0 = var6;
             var8 = var5 == var9;
             var6 = undefined;
-            if(var8) { _fun0008_ip = 43; continue _fun0008 }
-case 44:
+            if(var8) { _fun0008_ip = 42; continue _fun0008 }
+case 43:
             var8 = var9.map;
             var4 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -567,16 +567,16 @@ case 0:
                     var1 = {};
                     var6 = null;
                     var3 = var2;
-                    if(!(var6 != var4)) { _fun0009_ip = 45; continue _fun0009 }
-case 46:
-                    var3 = var4;
+                    if(!(var6 != var4)) { _fun0009_ip = 44; continue _fun0009 }
 case 45:
+                    var3 = var4;
+case 44:
                     var1['displayName'] = var3;
                     var1['name'] = var2;
                     var3 = _closure2_slot0;
                     var2 = var5;
                     if(!var3) { _fun0009_ip = 20; continue _fun0009 }
-case 47:
+case 46:
                     var3 = global;
                     var4 = var3.Number;
                     var3 = undefined;
@@ -587,18 +587,18 @@ case 20:
                 }
             };
             var6 = var8.bind(var9)(var4);
-case 43:
-            if(!(var5 == var6)) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
-            var6 = new Array(0);
+case 42:
+            if(!(var5 == var6)) { _fun0008_ip = 47; continue _fun0008 }
 case 48:
+            var6 = new Array(0);
+case 47:
             var8 = _closure1_slot11;
             var4 = var8.get;
             var11 = var4.bind(var8)(var2);
             var8 = var5 != var11;
             var4 = 0;
-            if(!var8) { _fun0008_ip = 50; continue _fun0008 }
-case 51:
+            if(!var8) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
             var8 = global;
             var8 = var8.Date;
             var9 = var8.prototype;
@@ -611,7 +611,7 @@ case 51:
             var8 = var11.getTime;
             var8 = var8.bind(var11)();
             var4 = var9 - var8;
-case 50:
+case 49:
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
             var8 = 9;
@@ -634,29 +634,29 @@ case 50:
             var8 = var9.get;
             var7 = var3.name;
             var8 = var8.bind(var9)(var7);
-            if(!(var5 != var8)) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+            if(!(var5 != var8)) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
             var7 = var8.set;
             var5 = var3.query;
             var5 = var7.bind(var8)(var5, var6);
-case 52:
+case 51:
             var8 = var1.optionNameToLastQuery;
             var7 = var8.get;
             var5 = var3.name;
             var7 = var7.bind(var8)(var5);
             var5 = var3.query;
-            if(!(var7 === var5)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+            if(!(var7 === var5)) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
             var1['lastErrored'] = var4;
             var5 = var1.optionNameToLastResults;
             var4 = var5.set;
             var3 = var3.name;
             var3 = var4.bind(var5)(var3, var6);
-case 54:
+case 53:
             var1['lastResponseNonce'] = var2;
             var1 = true;
             return var1;
-case 35:
+case 34:
             var1 = false;
             return var1;
         }
@@ -668,13 +668,13 @@ case 0:
             var1 = arg1;
             var7 = var1.nonce;
             var1 = null;
-            if(!(var1 != var7)) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
+            if(!(var1 != var7)) { _fun0010_ip = 55; continue _fun0010 }
+case 56:
             var4 = _closure1_slot9;
             var2 = var4.get;
             var2 = var2.bind(var4)(var7);
-            if(!(var1 != var2)) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
+            if(!(var1 != var2)) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
             var5 = _closure1_slot9;
             var4 = var5.delete;
             var4 = var4.bind(var5)(var7);
@@ -683,8 +683,8 @@ case 59:
             var6 = var4.bind(var5)(var7);
             var4 = var1 != var6;
             var1 = 0;
-            if(!var4) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
+            if(!var4) { _fun0010_ip = 59; continue _fun0010 }
+case 60:
             var4 = global;
             var4 = var4.Date;
             var5 = var4.prototype;
@@ -697,7 +697,7 @@ case 61:
             var4 = var6.getTime;
             var4 = var4.bind(var6)();
             var1 = var5 - var4;
-case 60:
+case 59:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 9;
@@ -720,10 +720,10 @@ case 60:
             var2 = var3.bind(var4)(var2);
             var2['lastErrored'] = var1;
             return var1;
-case 58:
+case 57:
             var1 = false;
             return var1;
-case 56:
+case 55:
             var1 = false;
             return var1;
         }

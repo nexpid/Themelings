@@ -331,7 +331,7 @@ case 15:
 case 17:
             var2 = var2.willReconnect;
             if(var2) { _fun0004_ip = 16; continue _fun0004 }
-case 18:
+case 4:
             var4 = false;
             _closure1_slot14 = var4;
             var5 = _closure1_slot1;
@@ -357,8 +357,8 @@ case 14:
             var4 = _closure1_slot12;
             var2 = _closure1_slot13;
             var2 = var4 !== var2;
-            if(!var2) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+            if(!var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var4 = _closure1_slot13;
             var5 = var4.simpleDeviceType;
             var6 = _closure1_slot0;
@@ -368,9 +368,9 @@ case 20:
             var4 = var4.AudioDeviceType;
             var4 = var4.INVALID;
             var2 = var5 !== var4;
-case 19:
+case 18:
             if(!var2) { _fun0004_ip = 16; continue _fun0004 }
-case 21:
+case 20:
             var2 = _closure1_slot16;
             var1 = _closure1_slot13;
             var1 = var2.bind(var3)(var1);
@@ -390,12 +390,12 @@ case 0:
             var3 = var1.device;
             _closure1_slot13 = var3;
             var2 = _closure1_slot14;
-            if(!var2) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+            if(!var2) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var2 = _closure1_slot16;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
-case 22:
+case 21:
             var1 = undefined;
             return var1;
         }

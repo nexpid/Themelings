@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_DANGER;
+    var12 = var12.BACKGROUND_FEEDBACK_CRITICAL;
     var9['backgroundColor'] = var12;
     var4['errorIconContainer'] = var9;
     var9 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'height': 40, 'width': 40};

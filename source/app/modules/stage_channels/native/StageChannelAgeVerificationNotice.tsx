@@ -47,7 +47,7 @@ case 3:
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+                var1 = {'variant': 'text-sm/medium', 'color': 'text-link'};
                 var5 = _closure2_slot1;
                 var5 = var5.linkText;
                 var1['style'] = var5;
@@ -101,7 +101,7 @@ case 2:
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.Text;
-                var1 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+                var1 = {'variant': 'text-sm/medium', 'color': 'text-link'};
                 var5 = _closure2_slot1;
                 var5 = var5.linkText;
                 var1['style'] = var5;

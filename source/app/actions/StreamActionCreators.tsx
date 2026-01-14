@@ -344,7 +344,7 @@ case 37: // try_start_0
                     var11 = false;
                     var8['rejectWithError'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    SaveGenerator(address=297);
+                    SaveGenerator(address=296);
 case 38:
                     return var8;
 case 39:

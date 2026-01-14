@@ -17,6 +17,9 @@ case 3:
             var1 = 'user';
             if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            var1 = 'installation';
+            if(!(var1 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -25,6 +28,18 @@ case 5:
             var3 = var3.bind(var1)(var2);
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var4);
+            return var1;
+case 6:
+            var2 = _closure1_slot3;
+            var1 = var2.getInstallationForTracking;
+            var2 = var1.bind(var2)();
+            var1 = null;
+            var3 = var1 != var2;
+            var1 = '';
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var1 = var2;
+case 8:
             return var1;
 case 4:
             var2 = _closure1_slot3;

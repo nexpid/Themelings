@@ -150,7 +150,7 @@ case 6:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.STATUS_DANGER;
+    var13 = var13.ICON_FEEDBACK_CRITICAL;
     var10['tintColor'] = var13;
     var4['redTint'] = var10;
     var10 = {};

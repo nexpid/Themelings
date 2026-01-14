@@ -62,6 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['title'] = var9;
     var9 = {'lineHeight': 18, 'textAlign': 'center'};
     var4['description'] = var9;
+    var9 = {'height': 48, 'width': 106};
+    var4['logo'] = var9;
     var9 = {'marginTop': 16, 'marginBottom': 16, 'flexDirection': 'row', 'alignItems': 'center'};
     var4['logoContainer'] = var9;
     var9 = {};
@@ -234,6 +236,8 @@ case 7:
             var9['style'] = var10;
             var10 = {};
             var10['source'] = var16;
+            var16 = var17.logo;
+            var10['style'] = var16;
             var12 = var3.bind(var4)(var12, var10);
             var10 = new Array(2);
             var10[0] = var12;

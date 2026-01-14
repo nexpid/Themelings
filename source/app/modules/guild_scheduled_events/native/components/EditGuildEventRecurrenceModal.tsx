@@ -376,7 +376,7 @@ case 22:
                 var7 = var11[var7];
                 var7 = var8.bind(var3)(var7);
                 var8 = var7.Text;
-                var7 = {'variant': 'text-md/normal', 'color': 'status-danger'};
+                var7 = {'variant': 'text-md/normal', 'color': 'text-feedback-critical'};
                 var10 = _closure2_slot7;
                 var7['children'] = var10;
                 var6 = var9.bind(var3)(var8, var7);

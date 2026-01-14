@@ -126,7 +126,7 @@ case 13:
                     var10 = true;
                     var7['rejectWithError'] = var10;
                     var7 = var8.bind(var9)(var7);
-                    SaveGenerator(address=279);
+                    SaveGenerator(address=278);
 case 15:
                     return var7;
 case 16:
@@ -159,7 +159,7 @@ case 19:
                     var11 = var11.has_more;
                     var8['hasMore'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    SaveGenerator(address=391);
+                    SaveGenerator(address=390);
 case 21:
                     return var8;
 case 22:
@@ -188,7 +188,7 @@ case 26:
                     var7 = 'LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE';
                     var4['type'] = var7;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=461);
+                    SaveGenerator(address=460);
 case 28:
                     return var4;
 case 29:
@@ -429,7 +429,7 @@ case 43:
                     var3['query'] = var8;
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=203);
+                    SaveGenerator(address=202);
 case 45:
                     return var3;
 case 46:

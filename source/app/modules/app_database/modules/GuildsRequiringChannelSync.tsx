@@ -817,19 +817,19 @@ case 86:
 case 88:
                 var14 = var7 == var13;
                 var2 = undefined;
-                if(var14) { _fun0012_ip = 89; continue _fun0012 }
-case 90:
-                var2 = var13.roles;
+                if(var14) { _fun0012_ip = 64; continue _fun0012 }
 case 89:
-                if(!(var7 == var2)) { _fun0012_ip = 63; continue _fun0012 }
+                var2 = var13.roles;
+case 64:
+                if(!(var7 == var2)) { _fun0012_ip = 90; continue _fun0012 }
 case 91:
                 var2 = new Array(0);
-case 63:
+case 90:
                 var2 = var12.bind(var5)(var10, var2);
                 var10 = var2.rolesAreDifferent;
                 var2 = var2.allRoleIds;
                 if(!var10) { _fun0012_ip = 92; continue _fun0012 }
-case 26:
+case 93:
                 var12 = _closure1_slot12;
                 var4 = var12.MemberRoles;
 case 92:
@@ -838,19 +838,19 @@ case 92:
                 var8 = var4;
                 var11 = null;
                 if(!var12) { _fun0012_ip = 82; continue _fun0012 }
-case 93:
+case 94:
                 var9 = var10;
                 var8 = var4;
                 var11 = var2;
 case 82:
                 var4 = var8;
                 var2 = var9;
-                if(var2) { _fun0012_ip = 94; continue _fun0012 }
-case 95:
+                if(var2) { _fun0012_ip = 95; continue _fun0012 }
+case 96:
                 var2 = var9;
                 var4 = var8;
-                if(!(var7 != var11)) { _fun0012_ip = 94; continue _fun0012 }
-case 96:
+                if(!(var7 != var11)) { _fun0012_ip = 95; continue _fun0012 }
+case 69:
                 var10 = _closure1_slot8;
                 var9 = var10.getUnsafeMutableRoles;
                 var7 = var1.id;
@@ -879,12 +879,12 @@ case 99:
                 var7 = var7.bind(var5)(var10, var9, var11);
                 var4 = var8;
                 var2 = var7;
-                if(!var2) { _fun0012_ip = 94; continue _fun0012 }
+                if(!var2) { _fun0012_ip = 95; continue _fun0012 }
 case 100:
                 var3 = _closure1_slot12;
                 var4 = var3.RolePermissions;
                 var2 = var7;
-case 94:
+case 95:
                 if(!var2) { _fun0012_ip = 77; continue _fun0012 }
 case 101:
                 var3 = var5.markGuildForResync;

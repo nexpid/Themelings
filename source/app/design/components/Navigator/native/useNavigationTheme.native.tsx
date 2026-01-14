@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var13[var3];
         var3 = var11.bind(var12)(var3);
         var3 = var3.colors;
-        var3 = var3.STATUS_DANGER;
+        var3 = var3.BACKGROUND_FEEDBACK_NOTIFICATION;
         var8 = var4.bind(var8)(var3, var5);
         var _closure2_slot5 = var8;
         var4 = _closure1_slot3;

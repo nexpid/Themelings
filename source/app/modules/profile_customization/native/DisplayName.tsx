@@ -310,7 +310,7 @@ case 27:
             var22 = var22[var20];
             var22 = var25.bind(var4)(var22);
             var25 = var22.Text;
-            var22 = {'variant': 'text-xs/normal', 'color': 'status-danger'};
+            var22 = {'variant': 'text-xs/normal', 'color': 'text-feedback-critical'};
             var28 = var13.errorText;
             var22['style'] = var28;
             var22['children'] = var27;

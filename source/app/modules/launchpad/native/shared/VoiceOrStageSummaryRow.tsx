@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.STATUS_DANGER;
+        var7 = var7.BACKGROUND_FEEDBACK_NOTIFICATION;
         var2['backgroundColor'] = var7;
         var1['liveBadge'] = var2;
         var2 = {};

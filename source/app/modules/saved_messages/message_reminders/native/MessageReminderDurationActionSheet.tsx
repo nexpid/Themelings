@@ -446,7 +446,7 @@ case 7:
                     var2 = var9[var2];
                     var2 = var12.bind(var7)(var2);
                     var8 = var2.Text;
-                    var2 = {'variant': 'text-md/semibold', 'color': 'status-danger'};
+                    var2 = {'variant': 'text-md/semibold', 'color': 'text-feedback-critical'};
                     var10 = var9[var13];
                     var10 = var12.bind(var7)(var10);
                     var11 = var10.intl;

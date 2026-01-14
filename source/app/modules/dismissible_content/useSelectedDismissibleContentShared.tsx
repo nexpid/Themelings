@@ -93,7 +93,7 @@ case 11:
                         var5 = var5[var4];
                         var4 = undefined;
                         var6 = var6.bind(var4)(var5);
-                        var5 = var6.isGuildDismissibleConent;
+                        var5 = var6.isGuildDismissibleContent;
                         var4 = _closure2_slot0;
                         var3 = var5.bind(var6)(var4);
 case 10:

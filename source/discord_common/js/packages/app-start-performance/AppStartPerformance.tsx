@@ -194,7 +194,7 @@ case 3:
 case 0:
                     var2 = this;
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0004_ip = 2; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 11; continue _fun0004 }
 case 10:
                     var4 = var2.logs;
                     var3 = var4.push;
@@ -219,7 +219,7 @@ case 10:
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
-case 2:
+case 11:
                     var1 = undefined;
                     return var1;
                 }
@@ -238,8 +238,8 @@ case 0:
                     var1 = var3.log;
                     var1 = var1.bind(var3)(var5);
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0005_ip = 11; continue _fun0005 }
-case 12:
+                    if(!var1) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                     var4 = var2.logs;
                     var3 = var4.push;
                     var1 = {};
@@ -258,7 +258,7 @@ case 12:
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
-case 11:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
@@ -278,8 +278,8 @@ case 0:
                     var4 = var3.lastImportDuration;
                     var5 = var2 - var4;
                     var4 = 25;
-                    if(!(var5 > var4)) { _fun0006_ip = 13; continue _fun0006 }
-case 14:
+                    if(!(var5 > var4)) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
                     var6 = var3.addDetail;
                     var4 = global;
                     var5 = var4.Math;
@@ -290,7 +290,7 @@ case 14:
                     var4 = 'JS Imports';
                     var4 = var6.bind(var3)(var4, var5);
                     var3['lastImportDuration'] = var2;
-case 13:
+case 14:
                     return var1;
                 }
             };
@@ -314,20 +314,20 @@ case 0:
                     var3 = var7 != var2;
                     var1 = undefined;
                     var4 = undefined;
-                    if(!var3) { _fun0007_ip = 15; continue _fun0007 }
-case 16:
+                    if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
                     var3 = var2.timestamp;
                     var3 = var7 != var3;
                     var4 = undefined;
-                    if(!var3) { _fun0007_ip = 15; continue _fun0007 }
-case 17:
+                    if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 18:
                     var3 = global;
                     var7 = var3.Date;
                     var3 = var7.now;
                     var3 = var3.bind(var7)();
                     var2 = var2.timestamp;
                     var4 = var3 - var2;
-case 15:
+case 16:
                     var3 = arg1;
                     var2 = arg2;
                     var2 = var5.bind(var6)(var3, var2, var4);
@@ -345,8 +345,8 @@ case 0:
                     var8 = arg3;
                     var7 = this;
                     var1 = var7.isTracing;
-                    if(!var1) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
+                    if(!var1) { _fun0008_ip = 19; continue _fun0008 }
+case 20:
                     var1 = var7.logs;
                     var1 = var1.length;
                     var5 = 0;
@@ -354,22 +354,22 @@ case 19:
                     var6 = null;
                     var2 = 0;
                     var4 = 0;
-                    if(!var1) { _fun0008_ip = 15; continue _fun0008 }
-case 20:
+                    if(!var1) { _fun0008_ip = 16; continue _fun0008 }
+case 21:
                     var1 = var7.logs;
                     var1 = var1[var2];
                     var1 = var1.timestamp;
-                    if(!(var6 != var1)) { _fun0008_ip = 21; continue _fun0008 }
+                    if(!(var6 != var1)) { _fun0008_ip = 22; continue _fun0008 }
 case 9:
                     var4 = var2;
-                    if(!(!(var1 > var8))) { _fun0008_ip = 15; continue _fun0008 }
-case 21:
+                    if(!(!(var1 > var8))) { _fun0008_ip = 16; continue _fun0008 }
+case 22:
                     var2 = var2 + 1;
                     var1 = var7.logs;
                     var1 = var1.length;
                     var4 = var2;
-                    if(var4 < var1) { _fun0008_ip = 20; continue _fun0008 }
-case 15:
+                    if(var4 < var1) { _fun0008_ip = 21; continue _fun0008 }
+case 16:
                     var3 = var7.logs;
                     var2 = var3.splice;
                     var1 = {};
@@ -382,19 +382,19 @@ case 15:
                     var8 = var7[var4];
                     var9 = var6 == var8;
                     var7 = undefined;
-                    if(var9) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                    if(var9) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
                     var7 = var8.prefix;
-case 22:
+case 23:
                     var8 = var6 != var7;
                     var6 = '';
-                    if(!var8) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+                    if(!var8) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                     var6 = var7;
-case 24:
+case 25:
                     var1['prefix'] = var6;
                     var1 = var2.bind(var3)(var4, var5, var1);
-case 18:
+case 19:
                     var1 = undefined;
                     return var1;
                 }
@@ -409,7 +409,7 @@ case 18:
 case 0:
                     var4 = this;
                     var1 = var4.isTracing;
-                    if(!var1) { _fun0009_ip = 26; continue _fun0009 }
+                    if(!var1) { _fun0009_ip = 27; continue _fun0009 }
 case 10:
                     var3 = var4.logs;
                     var2 = var3.push;
@@ -434,7 +434,7 @@ case 10:
                     var4 = var8.bind(var7)(var6, var5, var4);
                     var1['log'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 26:
+case 27:
                     var1 = undefined;
                     return var1;
                 }
@@ -452,12 +452,12 @@ case 0:
                     var4 = arg3;
                     var5 = this;
                     var1 = var5.isTracing;
-                    if(var1) { _fun0010_ip = 27; continue _fun0010 }
-case 28:
+                    if(var1) { _fun0010_ip = 28; continue _fun0010 }
+case 29:
                     var1 = undefined;
                     var1 = var4.bind(var1)();
                     return var1;
-case 27:
+case 28:
                     var3 = var5.prefix;
                     var7 = var5.mark;
                     var2 = global;
@@ -506,15 +506,15 @@ case 0:
                         var4 = arg3;
                         var6 = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0011_ip = 29; continue _fun0011 }
-case 30:
+                        if(var2) { _fun0011_ip = 30; continue _fun0011 }
+case 31:
                         var2 = var6.isTracing;
-                        if(var2) { _fun0011_ip = 31; continue _fun0011 }
+                        if(var2) { _fun0011_ip = 32; continue _fun0011 }
 case 7:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         return var2;
-case 31:
+case 32:
                         var5 = var6.mark;
                         var3 = global;
                         var2 = var3.HermesInternal;
@@ -528,12 +528,12 @@ case 31:
                         var2 = undefined;
                         var2 = var4.bind(var2)();
                         SaveGenerator(address=101);
-case 32:
-                        return var2;
 case 33:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0011_ip = 24; continue _fun0011 }
+                        return var2;
 case 34:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0011_ip = 35; continue _fun0011 }
+case 36:
                         var8 = var3.Date;
                         var4 = var8.now;
                         var4 = var4.bind(var8)();
@@ -545,9 +545,9 @@ case 34:
                         var3 = var8.bind(var3)(var9);
                         var3 = var4.bind(var6)(var7, var3, var5);
                         return var2;
-case 24:
+case 35:
                         return var2;
-case 29:
+case 30:
                         return var1;
                     }
                 };

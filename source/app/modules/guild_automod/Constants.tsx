@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MAX_MENTION_SPAM_LIMIT'] = var2;
     var2 = 20;
     var3['MENTION_SPAM_LIMIT_DEFAULT'] = var2;
-    var2 = 150;
+    var2 = 300;
     var3['MAX_BLOCK_ACTION_CUSTOM_MESSAGE_LENGTH'] = var2;
     var2 = 'automod-submit-feedback';
     var3['SUBMIT_FEEDBACK_MODAL_KEY'] = var2;

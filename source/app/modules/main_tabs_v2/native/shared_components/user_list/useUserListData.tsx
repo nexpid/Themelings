@@ -1296,8 +1296,8 @@ case 0:
                         var _closure4_slot0 = var1;
                         var4 = _closure3_slot0;
                         var4 = var4.currentQuery;
-                        if(!(var4 === var5)) { _fun0024_ip = 47; continue _fun0024 }
-case 117:
+                        if(!(var4 === var5)) { _fun0024_ip = 147; continue _fun0024 }
+case 148:
                         var4 = new Array(0);
                         _closure4_slot0 = var4;
                         var6 = var7.reduce;
@@ -1313,7 +1313,7 @@ case 0:
                                 var3 = undefined;
                                 var3 = var6.bind(var3)(var5);
                                 var3 = var3.shouldUseCache;
-                                if(var3) { _fun0025_ip = 147; continue _fun0025 }
+                                if(var3) { _fun0025_ip = 149; continue _fun0025 }
 case 139:
                                 var6 = _closure1_slot15;
                                 var5 = var6.has;
@@ -1323,10 +1323,10 @@ case 139:
                                 var3 = var7.bind(var8)(var3);
                                 var3 = var5.bind(var6)(var3);
                                 if(var3) { _fun0025_ip = 24; continue _fun0025 }
-case 148:
+case 150:
                                 var5 = _closure3_slot0;
                                 var5 = var5.withGameFriends;
-                                if(!var5) { _fun0025_ip = 149; continue _fun0025 }
+                                if(!var5) { _fun0025_ip = 151; continue _fun0025 }
 case 19:
                                 var6 = _closure1_slot9;
                                 var5 = var6.getGameFriendsForUser;
@@ -1334,45 +1334,45 @@ case 19:
                                 var4 = var5.bind(var6)(var4);
                                 var5 = var4.length;
                                 var4 = 0;
-                                if(!(!(var5 > var4))) { _fun0025_ip = 150; continue _fun0025 }
-case 149:
+                                if(!(!(var5 > var4))) { _fun0025_ip = 152; continue _fun0025 }
+case 151:
                                 var4 = _closure3_slot0;
                                 var3 = var4.getItem;
                                 var2 = var2.id;
                                 var5 = var3.bind(var4)(var2);
                                 var3 = null;
                                 var2 = var1;
-                                if(!(var3 != var5)) { _fun0025_ip = 151; continue _fun0025 }
-case 152:
+                                if(!(var3 != var5)) { _fun0025_ip = 153; continue _fun0025 }
+case 154:
                                 var4 = _closure4_slot0;
                                 var3 = var4.push;
                                 var3 = var3.bind(var4)(var5);
                                 var2 = true;
-case 151:
+case 153:
                                 return var2;
-case 150:
+case 152:
                                 return var1;
 case 24:
                                 return var1;
-case 147:
+case 149:
                                 var1 = false;
                                 return var1;
                             }
                         };
                         var3 = false;
                         var3 = var6.bind(var7)(var5, var3);
-                        if(!var3) { _fun0024_ip = 47; continue _fun0024 }
-case 61:
+                        if(!var3) { _fun0024_ip = 147; continue _fun0024 }
+case 119:
                         var3 = _closure3_slot0;
                         var3['filteredGuildMembers'] = var4;
                         var4 = var3.onUpdate;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0024_ip = 47; continue _fun0024 }
-case 153:
+                        if(!(var3 != var4)) { _fun0024_ip = 147; continue _fun0024 }
+case 155:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 47:
+case 147:
                         return var1;
                     }
                 };
@@ -1582,10 +1582,10 @@ case 0:
                 var4 = arg1;
                 var6 = var5.bind(var6)(var4);
                 var4 = '';
-                if(!(var4 !== var6)) { _fun0027_ip = 154; continue _fun0027 }
+                if(!(var4 !== var6)) { _fun0027_ip = 156; continue _fun0027 }
 case 129:
                 var4 = arg2;
-                if(!var4) { _fun0027_ip = 155; continue _fun0027 }
+                if(!var4) { _fun0027_ip = 157; continue _fun0027 }
 case 36:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
@@ -1595,10 +1595,10 @@ case 36:
                 var4 = var5.requestMembers;
                 var3 = null;
                 var3 = var4.bind(var5)(var3, var6);
-case 155:
+case 157:
                 var5 = var2.userSearchContext;
                 var3 = null;
-                if(!(var3 != var5)) { _fun0027_ip = 156; continue _fun0027 }
+                if(!(var3 != var5)) { _fun0027_ip = 25; continue _fun0027 }
 case 51:
                 var4 = var5.setQuery;
                 var3 = {};
@@ -1608,15 +1608,15 @@ case 51:
                 var6 = 0.002592;
                 var3['boosterFallback'] = var6;
                 var3 = var4.bind(var5)(var3);
-                _fun0027_ip = 156; continue _fun0027;
-case 154:
+                _fun0027_ip = 25; continue _fun0027;
+case 156:
                 var3 = var2.userSearchContext;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0027_ip = 156; continue _fun0027 }
-case 157:
+                if(!(var2 != var3)) { _fun0027_ip = 25; continue _fun0027 }
+case 112:
                 var2 = var3.clearQuery;
                 var2 = var2.bind(var3)();
-case 156:
+case 25:
                 return var1;
             }
         };
@@ -2131,14 +2131,14 @@ case 182:
                 if(!(var3 === var7)) { _fun0035_ip = 49; continue _fun0035 }
 case 19:
                 var3 = var5.nick;
-                _fun0035_ip = 149; continue _fun0035;
+                _fun0035_ip = 151; continue _fun0035;
 case 49:
                 var7 = _closure1_slot21;
                 var6 = var5.names;
                 var5 = var4.currentQuery;
                 var4 = undefined;
                 var3 = var7.bind(var4)(var6, var5);
-case 149:
+case 151:
                 var2['firstMatch'] = var3;
                 var1 = var2;
 case 175:
@@ -2185,16 +2185,16 @@ case 0:
             var _closure2_slot9 = var7;
             var6 = var3.excludeCurrentUser;
             var20 = undefined;
-            if(!(var6 === var20)) { _fun0036_ip = 2; continue _fun0036 }
-case 183:
+            if(!(var6 === var20)) { _fun0036_ip = 181; continue _fun0036 }
+case 56:
             var6 = false;
-case 2:
+case 181:
             var _closure2_slot10 = var6;
             var5 = var3.affinitySuggestionsLimit;
-            if(!(var5 === var20)) { _fun0036_ip = 8; continue _fun0036 }
-case 9:
+            if(!(var5 === var20)) { _fun0036_ip = 175; continue _fun0036 }
+case 183:
             var5 = 5;
-case 8:
+case 175:
             var _closure2_slot11 = var5;
             var _closure2_slot12 = var20;
             var _closure2_slot13 = var20;

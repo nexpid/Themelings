@@ -192,29 +192,29 @@ case 0:
                         var2 = arg1;
                         var1 = var2.channelId;
                         var5 = var2.guildId;
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot1;
+                        var4 = _closure1_slot0;
+                        var6 = _closure1_slot1;
                         var2 = 12;
-                        var4 = var4[var2];
-                        var2 = undefined;
-                        var8 = var6.bind(var2)(var4);
+                        var2 = var6[var2];
+                        var7 = undefined;
+                        var8 = var4.bind(var7)(var2);
                         var6 = var8.getHangStatusExperiment;
-                        var4 = {};
-                        var7 = null;
+                        var2 = {};
+                        var4 = null;
                         var9 = var5;
-                        if(!(var7 == var9)) { _fun0003_ip = 9; continue _fun0003 }
+                        if(!(var4 == var9)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                         var9 = _closure1_slot13;
 case 9:
-                        var4['guildId'] = var9;
+                        var2['guildId'] = var9;
                         var9 = 'HangStatusManager';
-                        var4['location'] = var9;
-                        var4 = var6.bind(var8)(var4);
-                        var6 = var4.enableHangStatus;
-                        var4 = var4.setDefaultStatus;
-                        if(!(var7 == var5)) { _fun0003_ip = 11; continue _fun0003 }
+                        var2['location'] = var9;
+                        var2 = var6.bind(var8)(var2);
+                        var6 = var2.enableHangStatus;
+                        var2 = var2.setDefaultStatus;
+                        if(!(var4 == var5)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                        if(!(var7 != var1)) { _fun0003_ip = 13; continue _fun0003 }
+                        if(!(var4 != var1)) { _fun0003_ip = 13; continue _fun0003 }
 case 11:
                         if(!var6) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
@@ -224,14 +224,14 @@ case 15:
 case 16:
                         var6 = _closure3_slot0;
                         var6['previousVoiceChannelId'] = var1;
-                        if(!(var7 != var5)) { _fun0003_ip = 14; continue _fun0003 }
+                        if(!(var4 != var5)) { _fun0003_ip = 14; continue _fun0003 }
 case 17:
-                        if(!(var7 != var1)) { _fun0003_ip = 14; continue _fun0003 }
+                        if(!(var4 != var1)) { _fun0003_ip = 14; continue _fun0003 }
 case 18:
                         var6 = _closure1_slot8;
                         var5 = var6.getChannel;
                         var9 = var5.bind(var6)(var1);
-                        if(!(var7 != var9)) { _fun0003_ip = 14; continue _fun0003 }
+                        if(!(var4 != var9)) { _fun0003_ip = 14; continue _fun0003 }
 case 19:
                         var6 = var9.type;
                         var5 = _closure1_slot12;
@@ -242,7 +242,7 @@ case 20:
                         var8 = _closure1_slot1;
                         var5 = 13;
                         var5 = var8[var5];
-                        var8 = var6.bind(var2)(var5);
+                        var8 = var6.bind(var7)(var5);
                         var6 = var8.canSetVoiceChannelStatus;
                         var5 = true;
                         var5 = var6.bind(var8)(var9, var5);
@@ -251,71 +251,90 @@ case 21:
                         var6 = _closure1_slot10;
                         var5 = var6.getCurrentHangStatus;
                         var5 = var5.bind(var6)();
-                        if(!(var7 == var5)) { _fun0003_ip = 14; continue _fun0003 }
+                        if(!(var4 == var5)) { _fun0003_ip = 14; continue _fun0003 }
 case 22:
                         var6 = _closure1_slot10;
                         var5 = var6.getCurrentDefaultStatus;
                         var5 = var5.bind(var6)();
-                        if(!(var7 != var5)) { _fun0003_ip = 14; continue _fun0003 }
-case 23:
-                        var8 = var5.status;
-                        var6 = _closure1_slot11;
-                        var6 = var6.CUSTOM;
-                        if(!(var8 === var6)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-                        var6 = var5.customHangStatus;
-                        if(!(var7 == var6)) { _fun0003_ip = 26; continue _fun0003 }
+                        if(!(var4 == var5)) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-                        var6 = var5.status;
-                        if(!(var7 != var6)) { _fun0003_ip = 14; continue _fun0003 }
-case 27:
+                        if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 25:
                         var8 = _closure1_slot0;
                         var10 = _closure1_slot1;
                         var6 = 11;
                         var6 = var10[var6];
-                        var10 = var8.bind(var2)(var6);
+                        var10 = var8.bind(var7)(var6);
                         var8 = var10.updateHangStatus;
-                        var6 = var5.status;
+                        var6 = _closure1_slot11;
+                        var6 = var6.CHILLING;
                         var6 = var8.bind(var10)(var6);
-                        _fun0003_ip = 14; continue _fun0003;
+case 14:
+                        return var7;
+case 23:
+                        var8 = var5.status;
+                        var6 = _closure1_slot11;
+                        var6 = var6.CUSTOM;
+                        if(!(var8 === var6)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+                        var6 = var5.customHangStatus;
+                        if(!(var4 == var6)) { _fun0003_ip = 28; continue _fun0003 }
 case 26:
+                        var6 = var5.status;
+                        var8 = var4 != var6;
+                        var6 = undefined;
+                        if(!var8) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+                        var10 = _closure1_slot0;
+                        var11 = _closure1_slot1;
+                        var8 = 11;
+                        var8 = var11[var8];
+                        var11 = var10.bind(var7)(var8);
+                        var10 = var11.updateHangStatus;
+                        var8 = var5.status;
+                        var8 = var10.bind(var11)(var8);
+                        var6 = undefined;
+case 29:
+                        return var6;
+case 28:
                         var5 = var5.customHangStatus;
                         var6 = var5.status;
                         var5 = var5.emoji;
-                        if(!(var7 != var5)) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-                        var8 = _closure1_slot0;
-                        var10 = _closure1_slot1;
-                        var7 = 14;
-                        var7 = var10[var7];
-                        var8 = var8.bind(var2)(var7);
-                        var7 = var8.canUseEmojiForHangStatus;
-                        var7 = var7.bind(var8)(var5, var9);
-                        if(var7) { _fun0003_ip = 28; continue _fun0003 }
-case 30:
-                        if(!var4) { _fun0003_ip = 31; continue _fun0003 }
+                        if(!(var4 != var5)) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
                         var8 = _closure1_slot0;
+                        var10 = _closure1_slot1;
+                        var4 = 14;
+                        var4 = var10[var4];
+                        var8 = var8.bind(var7)(var4);
+                        var4 = var8.canUseEmojiForHangStatus;
+                        var4 = var4.bind(var8)(var5, var9);
+                        if(var4) { _fun0003_ip = 31; continue _fun0003 }
+case 33:
+                        if(!var2) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
+                        var8 = _closure1_slot0;
                         var9 = _closure1_slot1;
-                        var7 = 11;
-                        var7 = var9[var7];
-                        var9 = var8.bind(var2)(var7);
+                        var4 = 11;
+                        var4 = var9[var4];
+                        var9 = var8.bind(var7)(var4);
                         var8 = var9.updateHangStatus;
-                        var7 = _closure1_slot11;
-                        var7 = var7.CHILLING;
-                        var4 = var8.bind(var9)(var7);
+                        var4 = _closure1_slot11;
+                        var4 = var4.CHILLING;
+                        var2 = var8.bind(var9)(var4);
+case 34:
+                        var2 = undefined;
+                        _fun0003_ip = 36; continue _fun0003;
 case 31:
-                        var4 = undefined;
-                        return var4;
-case 28:
                         var4 = _closure1_slot0;
-                        var7 = _closure1_slot1;
+                        var8 = _closure1_slot1;
                         var3 = 11;
-                        var3 = var7[var3];
-                        var4 = var4.bind(var2)(var3);
+                        var3 = var8[var3];
+                        var4 = var4.bind(var7)(var3);
                         var3 = var4.updateCustomHangStatus;
                         var3 = var3.bind(var4)(var6, var5);
-case 14:
+                        var2 = undefined;
+case 36:
                         return var2;
 case 13:
                         var2 = _closure3_slot0;
@@ -337,19 +356,19 @@ case 0:
                         var5 = _closure1_slot7;
                         var2 = var5.getId;
                         var2 = var2.bind(var5)();
-                        if(!(var3 === var2)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                        if(!(var3 === var2)) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                         var3 = _closure1_slot9;
                         var2 = var3.getCurrentClientVoiceChannelId;
                         var4 = var2.bind(var3)(var4);
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0004_ip = 33; continue _fun0004 }
-case 35:
+                        if(!(var3 != var4)) { _fun0004_ip = 37; continue _fun0004 }
+case 39:
                         var5 = _closure1_slot10;
                         var2 = var5.getCurrentHangStatus;
                         var2 = var2.bind(var5)();
-                        if(!(var3 != var2)) { _fun0004_ip = 33; continue _fun0004 }
-case 36:
+                        if(!(var3 != var2)) { _fun0004_ip = 37; continue _fun0004 }
+case 40:
                         var3 = _closure1_slot8;
                         var2 = var3.getChannel;
                         var6 = var2.bind(var3)(var4);
@@ -362,8 +381,8 @@ case 36:
                         var4 = var5.canSetVoiceChannelStatus;
                         var2 = true;
                         var2 = var4.bind(var5)(var6, var2);
-                        if(var2) { _fun0004_ip = 33; continue _fun0004 }
-case 37:
+                        if(var2) { _fun0004_ip = 37; continue _fun0004 }
+case 41:
                         var2 = _closure1_slot0;
                         var4 = _closure1_slot1;
                         var1 = 11;
@@ -371,7 +390,7 @@ case 37:
                         var2 = var2.bind(var3)(var1);
                         var1 = var2.clearHangStatus;
                         var1 = var1.bind(var2)();
-case 33:
+case 37:
                         var1 = undefined;
                         return var1;
                     }

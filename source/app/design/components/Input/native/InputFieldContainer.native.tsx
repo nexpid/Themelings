@@ -380,7 +380,7 @@ case 25:
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.STATUS_DANGER;
+    var12 = var12.BORDER_FEEDBACK_CRITICAL;
     var5['error'] = var12;
     var12 = 'transparent';
     var5['default'] = var12;

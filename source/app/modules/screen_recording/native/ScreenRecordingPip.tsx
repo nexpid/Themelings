@@ -246,7 +246,7 @@ case 9:
             var14 = var23[var14];
             var14 = var21.bind(var5)(var14);
             var21 = var14.StopIcon;
-            var14 = {'size': 'md', 'color': 'status-danger'};
+            var14 = {'size': 'md', 'color': 'text-feedback-critical'};
             var14 = var22.bind(var5)(var21, var14);
             var19['children'] = var14;
             var14 = var19;

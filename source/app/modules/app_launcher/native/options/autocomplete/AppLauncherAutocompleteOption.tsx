@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.STATUS_DANGER;
+    var14 = var14.BORDER_FEEDBACK_CRITICAL;
     var9['borderColor'] = var14;
     var9['padding'] = var13;
     var4['hasError'] = var9;

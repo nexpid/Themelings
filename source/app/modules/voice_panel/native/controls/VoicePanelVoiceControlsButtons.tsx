@@ -577,7 +577,7 @@ case 39:
         var10 = 33;
         var10 = var9[var10];
         var10 = var8.bind(var4)(var10);
-        var10 = var10.GameControllerIcon;
+        var10 = var10.AppsIcon;
         var5['IconComponent'] = var10;
         var5 = var7.bind(var4)(var6, var5);
         var1['icon'] = var5;

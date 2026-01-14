@@ -354,7 +354,7 @@ case 9:
             var15 = var15[var20];
             var15 = var16.bind(var4)(var15);
             var16 = var15.Text;
-            var15 = {'variant': 'text-md/normal', 'color': 'status-danger'};
+            var15 = {'variant': 'text-md/normal', 'color': 'text-feedback-critical'};
             var15['children'] = var19;
             var9 = var17.bind(var4)(var16, var15);
 case 8:

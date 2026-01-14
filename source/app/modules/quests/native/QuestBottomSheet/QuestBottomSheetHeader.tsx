@@ -459,10 +459,10 @@ case 31:
             var14 = new Array(2);
             var14[0] = var15;
             var15 = var6;
-            if(!var6) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
-            var15 = var10.titleWithActionSheet;
+            if(!var6) { _fun0001_ip = 19; continue _fun0001 }
 case 32:
+            var15 = var10.titleWithActionSheet;
+case 19:
             var14[1] = var15;
             var5['style'] = var14;
             var5['children'] = var11;
@@ -470,8 +470,8 @@ case 32:
 case 30:
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var6) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var9 = _closure1_slot6;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -500,7 +500,7 @@ case 35:
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 34:
+case 33:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

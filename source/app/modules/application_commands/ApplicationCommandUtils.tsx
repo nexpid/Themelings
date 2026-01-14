@@ -1706,13 +1706,13 @@ case 0:
             var17 = var15 == var16;
             var14 = undefined;
             if(var17) { _fun0020_ip = 183; continue _fun0020 }
-case 39:
+case 174:
             var14 = var16.id;
 case 183:
-            if(!(var15 == var14)) { _fun0020_ip = 103; continue _fun0020 }
-case 184:
+            if(!(var15 == var14)) { _fun0020_ip = 184; continue _fun0020 }
+case 185:
             var14 = var10.id;
-case 103:
+case 184:
             var2['command_id'] = var14;
             var14 = var10.applicationId;
             var2['application_id'] = var14;
@@ -1738,17 +1738,17 @@ case 0:
             var3 = var1.interactionMetadata;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0021_ip = 185; continue _fun0021 }
+            if(var2) { _fun0021_ip = 186; continue _fun0021 }
 case 114:
             var2 = 'triggering_interaction_metadata';
             var4 = var2 in var3;
             var2 = var3;
-            if(!var4) { _fun0021_ip = 186; continue _fun0021 }
+            if(!var4) { _fun0021_ip = 187; continue _fun0021 }
 case 56:
             var2 = var3.triggering_interaction_metadata;
-case 186:
+case 187:
             var1 = var2;
-case 185:
+case 186:
             return var1;
         }
     };

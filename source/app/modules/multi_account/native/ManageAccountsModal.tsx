@@ -223,7 +223,7 @@ case 10:
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.STATUS_DANGER;
+            var9 = var9.ICON_FEEDBACK_CRITICAL;
             var6['color'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var2['children'] = var6;

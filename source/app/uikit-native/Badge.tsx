@@ -330,7 +330,7 @@ case 38:
         var14 = var7[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.STATUS_DANGER;
+        var14 = var14.BACKGROUND_FEEDBACK_NOTIFICATION;
         var11['backgroundColor'] = var14;
         var8['mention'] = var11;
         var11 = {};

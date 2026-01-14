@@ -1104,6 +1104,15 @@ case 22:
     };
     var7['handler'] = var10;
     var2[var9] = var7;
+    var9 = var4.FRAME_LAYOUT_MODE_UPDATE;
+    var7 = {};
+    var7['scope'] = var1;
+    var10 = function handler() {
+        var1 = undefined;
+        return var1;
+    };
+    var7['handler'] = var10;
+    var2[var9] = var7;
     var9 = var4.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
     var7 = 19;
     var7 = var6[var7];

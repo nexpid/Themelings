@@ -877,7 +877,7 @@ case 73:
             var62 = var66[var62];
             var62 = var63.bind(var5)(var62);
             var63 = var62.Text;
-            var62 = {'variant': 'text-sm/bold', 'color': 'status-danger'};
+            var62 = {'variant': 'text-sm/bold', 'color': 'text-feedback-critical'};
             var62['children'] = var65;
             var62 = var64.bind(var5)(var63, var62);
             var38['children'] = var62;

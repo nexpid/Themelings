@@ -398,18 +398,18 @@ case 47:
                             var4 = var5 + var9;
                             var13 = var11[var4];
                             if(!(var6 != var13)) { _fun0006_ip = 51; continue _fun0006 }
-case 49:
+case 52:
                             var14 = var13.log;
                             var15 = var12.log;
                             var4 = var15.replace;
                             var4 = var4.bind(var15)(var8, var10);
-                            if(!(var14 !== var4)) { _fun0006_ip = 52; continue _fun0006 }
+                            if(!(var14 !== var4)) { _fun0006_ip = 53; continue _fun0006 }
 case 51:
                             var4 = var7.push;
                             var4 = var4.bind(var7)(var12);
                             var4 = var5;
-                            _fun0006_ip = 53; continue _fun0006;
-case 52:
+                            _fun0006_ip = 54; continue _fun0006;
+case 53:
                             var14 = var13.log;
                             var12 = var14.replace;
                             var12 = var12.bind(var14)(var10, var3);
@@ -417,7 +417,7 @@ case 52:
                             var12 = var7.push;
                             var12 = var12.bind(var7)(var13);
                             var4 = var5 + 1;
-case 53:
+case 54:
                             var5 = var4 + 1;
                             var4 = var11.length;
                             if(var5 < var4) { _fun0006_ip = 47; continue _fun0006 }
@@ -433,7 +433,7 @@ case 0:
                                     var5 = var4 == var3;
                                     var7 = '';
                                     var3 = var7;
-                                    if(var5) { _fun0007_ip = 54; continue _fun0007 }
+                                    if(var5) { _fun0007_ip = 55; continue _fun0007 }
 case 20:
                                     var6 = var2.timestamp;
                                     var5 = _closure4_slot0;
@@ -443,13 +443,13 @@ case 20:
                                     var6 = var8.toFixed;
                                     var5 = 3;
                                     var3 = var6.bind(var8)(var5);
-case 54:
+case 55:
                                     var1['totalTime'] = var3;
                                     var3 = var2.delta;
                                     var4 = var4 == var3;
                                     var3 = var7;
-                                    if(var4) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
+                                    if(var4) { _fun0007_ip = 56; continue _fun0007 }
+case 45:
                                     var4 = global;
                                     var6 = var4.String;
                                     var8 = var4.Math;
@@ -458,7 +458,7 @@ case 56:
                                     var5 = var5.bind(var8)(var4);
                                     var4 = undefined;
                                     var3 = var6.bind(var4)(var5);
-case 55:
+case 56:
                                     var1['deltaTime'] = var3;
                                     var3 = var2.emoji;
                                     var4 = var3.length;

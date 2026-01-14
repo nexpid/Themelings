@@ -46,8 +46,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['BOT_TAG_BOT_TYPE'] = var2;
     var2 = 'g';
     var6['POLL_TYPE'] = var2;
-    var2 = 'h';
-    var6['POTION_TYPE'] = var2;
     var4 = {};
     var13 = {};
     var2 = 1;

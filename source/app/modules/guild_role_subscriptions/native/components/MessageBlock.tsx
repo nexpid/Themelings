@@ -52,7 +52,7 @@ case 2:
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
             var2 = var2.colors;
-            var2 = var2.STATUS_DANGER;
+            var2 = var2.BORDER_FEEDBACK_CRITICAL;
             var1['borderColor'] = var2;
             return var1;
         }

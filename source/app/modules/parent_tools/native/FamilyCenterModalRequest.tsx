@@ -829,7 +829,7 @@ case 15:
     var14 = var10[var14];
     var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.STATUS_DANGER;
+    var14 = var14.BACKGROUND_FEEDBACK_CRITICAL;
     var13['backgroundColor'] = var14;
     var8['negative'] = var13;
     var13 = {'width': 24, 'height': 24};

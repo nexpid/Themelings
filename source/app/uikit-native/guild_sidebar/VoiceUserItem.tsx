@@ -170,7 +170,7 @@ case 0:
                 var3 = var24[var4];
                 var9 = var26.bind(var5)(var3);
                 var7 = var9.useAnimatedStyle;
-                var3 = function l() {
+                var3 = function c() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = _closure2_slot3;
@@ -408,7 +408,7 @@ case 21:
                 var22 = var25[var22];
                 var22 = var23.bind(var5)(var22);
                 var23 = var22.MicrophoneDenyIcon;
-                var22 = {'style': null, 'color': 'status-danger', 'size': 'custom'};
+                var22 = {'style': null, 'color': 'text-feedback-critical', 'size': 'custom'};
                 var25 = var6.voiceStateIcon;
                 var22['style'] = var25;
                 var21 = var24.bind(var5)(var23, var22);
@@ -445,7 +445,7 @@ case 31:
                 var20 = var23[var20];
                 var20 = var21.bind(var5)(var20);
                 var21 = var20.HeadphonesDenyIcon;
-                var20 = {'style': null, 'color': 'status-danger', 'size': 'custom'};
+                var20 = {'style': null, 'color': 'text-feedback-critical', 'size': 'custom'};
                 var23 = var6.voiceStateIcon;
                 var20['style'] = var23;
                 var19 = var22.bind(var5)(var21, var20);

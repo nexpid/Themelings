@@ -517,7 +517,7 @@ case 51:
                 var1 = /.{1,2}/g;
                 var10 = var2.bind(var3)(var1);
                 if(!(var12 != var10)) { _fun0007_ip = 49; continue _fun0007 }
-case 36:
+case 54:
                 var6 = _closure2_slot0;
                 var7 = global;
                 var2 = var7.parseInt;
@@ -537,14 +537,14 @@ case 36:
                 var2 = 3;
                 var11 = var10[var2];
                 var11 = var12 != var11;
-                if(!var11) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+                if(!var11) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
                 var7 = var7.parseInt;
                 var2 = var10[var2];
                 var7 = var7.bind(var9)(var2, var8);
                 var2 = 255;
                 var4 = var7 / var2;
-case 54:
+case 55:
                 var2 = var6.prototype;
                 var2 = Object.create(var2, {constructor: {value: var6}});
                 var17 = var2;
@@ -573,10 +573,10 @@ case 0:
                 var3 = _closure1_slot4;
                 var7 = var4.bind(var5)(var3);
                 var4 = null;
-                if(!(var4 == var7)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+                if(!(var4 == var7)) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
                 var7 = new Array(0);
-case 56:
+case 57:
                 var6 = _closure1_slot0;
                 var3 = undefined;
                 var5 = 3;
@@ -586,12 +586,12 @@ case 56:
                 var _closure3_slot0 = var9;
                 var6 = 2;
                 var10 = var8[var6];
-                if(!(var4 != var9)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
-                if(!(var4 == var10)) { _fun0008_ip = 60; continue _fun0008 }
-case 58:
-                return var3;
+                if(!(var4 != var9)) { _fun0008_ip = 59; continue _fun0008 }
 case 60:
+                if(!(var4 == var10)) { _fun0008_ip = 61; continue _fun0008 }
+case 59:
+                return var3;
+case 61:
                 var8 = var10.split;
                 var4 = /\s*[,\/\s]\s*/;
                 var10 = var8.bind(var10)(var4);
@@ -625,46 +625,46 @@ case 0:
                         var4 = /%$/;
                         var2 = var4.test;
                         var2 = var2.bind(var4)(var5);
-                        if(var2) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+                        if(var2) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
                         var2 = var1[var3];
                         var1 = 'h';
-                        if(!(var1 === var2)) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
+                        if(!(var1 === var2)) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
                         var2 = /turn$/;
                         var1 = var2.test;
                         var1 = var1.bind(var2)(var5);
-                        if(var1) { _fun0009_ip = 65; continue _fun0009 }
-case 66:
+                        if(var1) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
                         var2 = /rad$/;
                         var1 = var2.test;
                         var1 = var1.bind(var2)(var5);
-                        if(var1) { _fun0009_ip = 67; continue _fun0009 }
-case 63:
+                        if(var1) { _fun0009_ip = 68; continue _fun0009 }
+case 64:
                         var1 = global;
                         var2 = var1.parseFloat;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var5);
-                        _fun0009_ip = 68; continue _fun0009;
-case 67:
+                        _fun0009_ip = 69; continue _fun0009;
+case 68:
                         var2 = global;
                         var4 = var2.parseFloat;
                         var2 = undefined;
                         var4 = var4.bind(var2)(var5);
                         var2 = 57.3;
                         var1 = var2 * var4;
-                        _fun0009_ip = 68; continue _fun0009;
-case 65:
+                        _fun0009_ip = 69; continue _fun0009;
+case 66:
                         var2 = global;
                         var4 = var2.parseFloat;
                         var2 = undefined;
                         var4 = var4.bind(var2)(var5);
                         var2 = 360;
                         var1 = var2 * var4;
-                        _fun0009_ip = 68; continue _fun0009;
-case 61:
+                        _fun0009_ip = 69; continue _fun0009;
+case 62:
                         var2 = 3;
-                        if(!(var2 !== var3)) { _fun0009_ip = 69; continue _fun0009 }
+                        if(!(var2 !== var3)) { _fun0009_ip = 70; continue _fun0009 }
 case 10:
                         var2 = global;
                         var3 = var2.parseFloat;
@@ -674,17 +674,17 @@ case 10:
                         var3 = var2 * var3;
                         var2 = 100;
                         var2 = var3 / var2;
-                        _fun0009_ip = 70; continue _fun0009;
-case 69:
+                        _fun0009_ip = 71; continue _fun0009;
+case 70:
                         var3 = global;
                         var4 = var3.parseFloat;
                         var3 = undefined;
                         var4 = var4.bind(var3)(var5);
                         var3 = 100;
                         var2 = var4 / var3;
-case 70:
+case 71:
                         var1 = var2;
-case 68:
+case 69:
                         return var1;
                     }
                 };
@@ -693,8 +693,8 @@ case 68:
                 var8 = 0;
                 var9 = var2.bind(var9)(var8, var5);
                 var2 = 'hsl';
-                if(!(var2 !== var9)) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
+                if(!(var2 !== var9)) { _fun0008_ip = 72; continue _fun0008 }
+case 73:
                 var13 = _closure2_slot0;
                 var12 = var4[var8];
                 var11 = var4[var7];
@@ -703,10 +703,10 @@ case 72:
                 var14 = 'number';
                 var9 = typeof var2;
                 var2 = var7;
-                if(!(var14 === var9)) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
+                if(!(var14 === var9)) { _fun0008_ip = 74; continue _fun0008 }
+case 54:
                 var2 = var4[var5];
-case 73:
+case 74:
                 var9 = var13.prototype;
                 var9 = Object.create(var9, {constructor: {value: var13}});
                 var19 = var9;
@@ -717,7 +717,7 @@ case 73:
                 var2 = new var19[var13](var18, var17, var16, var15, var14);
                 var2 = var2 instanceof Object ? var2 : var9;
                 return var2;
-case 71:
+case 72:
                 var2 = _closure1_slot5;
                 var1 = {};
                 var8 = var4[var8];

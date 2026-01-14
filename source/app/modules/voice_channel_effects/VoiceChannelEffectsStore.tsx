@@ -300,12 +300,12 @@ case 0:
             var4 = var1.animationType;
             var2 = null;
             var1 = var2 != var6;
-            if(!var1) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
-            var1 = var2 != var4;
+            if(!var1) { _fun0006_ip = 11; continue _fun0006 }
 case 16:
-            if(!var1) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+            var1 = var2 != var4;
+case 11:
+            if(!var1) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var3 = _closure1_slot11;
             var2 = {};
             var2['emoji'] = var6;
@@ -332,7 +332,7 @@ case 19:
             var2 = _closure1_slot15;
             var1 = undefined;
             var1 = var2.bind(var1)();
-case 18:
+case 17:
             var1 = undefined;
             return var1;
         }
@@ -361,8 +361,8 @@ case 0:
             var3 = var7.bind(var8)(var3, var4);
             _closure1_slot13 = var3;
             var3 = var3.length;
-            if(!(var3 >= var4)) { _fun0007_ip = 20; continue _fun0007 }
-case 21:
+            if(!(var3 >= var4)) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
             var4 = _closure1_slot13;
             var3 = var4.length;
             var3 = var3 - var6;
@@ -373,8 +373,8 @@ case 21:
             var3 = var3.bind(var6)();
             var3 = var4 - var3;
             var4 = _closure1_slot14;
-            if(!(var3 < var4)) { _fun0007_ip = 20; continue _fun0007 }
-case 22:
+            if(!(var3 < var4)) { _fun0007_ip = 19; continue _fun0007 }
+case 21:
             var4 = var1.Date;
             var1 = var5.getTime;
             var5 = var1.bind(var5)();
@@ -387,7 +387,7 @@ case 22:
             var1 = new var12[var4](var11, var10);
             var1 = var1 instanceof Object ? var1 : var3;
             var _closure1_slot3 = var1;
-case 20:
+case 19:
             var1 = undefined;
             return var1;
         }
@@ -430,8 +430,8 @@ case 20:
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+            if(!(var1 != var4)) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 6;
@@ -444,7 +444,7 @@ case 24:
             var1['type'] = var5;
             var1['userId'] = var4;
             var1 = var2.bind(var3)(var1);
-case 23:
+case 22:
             var1 = undefined;
             return var1;
         }

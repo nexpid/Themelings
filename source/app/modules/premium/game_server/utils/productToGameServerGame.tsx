@@ -136,24 +136,42 @@ case 10:
             var1['provider'] = var7;
             var1['plans'] = var6;
             var1['baseCost'] = var3;
+            var6 = var2.tenant_metadata;
+            var7 = var4 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var6 = var6.guild_monetization;
+            var7 = var4 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
+            var6 = var6.game_server;
+            var7 = var4 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 14; continue _fun0001 }
+case 17:
+            var3 = var6.disabled;
+case 14:
+            var1['disabled'] = var3;
             var3 = var2.tenant_metadata;
             var6 = var4 == var3;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var6) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var3 = var3.guild_monetization;
             var6 = var4 == var3;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 14; continue _fun0001 }
-case 16:
+            if(var6) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
             var3 = var3.game_server;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 14; continue _fun0001 }
-case 17:
-            var2 = var3.disabled;
-case 14:
-            var1['disabled'] = var2;
+            if(var4) { _fun0001_ip = 18; continue _fun0001 }
+case 21:
+            var2 = var3.early_access;
+case 18:
+            var1['early_access'] = var2;
             return var1;
         }
     };

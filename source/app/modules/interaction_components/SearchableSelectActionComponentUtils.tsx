@@ -441,10 +441,10 @@ case 41:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0005_ip = 42; continue _fun0005;
+            _fun0005_ip = 33; continue _fun0005;
 case 40:
             var1 = new Array(0);
-case 42:
+case 33:
             return var1;
         }
     };
@@ -470,31 +470,31 @@ case 0:
             var2 = var2.ComponentType;
             var9 = var2.CHANNEL_SELECT;
             var2 = undefined;
-            if(!(var10 === var9)) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
-            var2 = var1.channelTypes;
+            if(!(var10 === var9)) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
+            var2 = var1.channelTypes;
+case 42:
             var1 = arg3;
             var1 = var6.bind(var7)(var5, var1, var2);
             var2 = null;
             var5 = var2 == var3;
             var6 = undefined;
-            if(var5) { _fun0006_ip = 42; continue _fun0006 }
-case 45:
+            if(var5) { _fun0006_ip = 44; continue _fun0006 }
+case 40:
             var6 = var3.type;
-case 42:
+case 44:
             var9 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var8];
             var5 = var9.bind(var7)(var5);
             var5 = var5.ComponentType;
             var5 = var5.USER_SELECT;
-            if(!(var6 !== var5)) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!(var6 !== var5)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var5 = var2 == var3;
             var6 = undefined;
             if(var5) { _fun0006_ip = 15; continue _fun0006 }
-case 48:
+case 47:
             var6 = var3.type;
 case 15:
             var9 = _closure1_slot0;
@@ -503,42 +503,42 @@ case 15:
             var5 = var9.bind(var7)(var5);
             var5 = var5.ComponentType;
             var5 = var5.ROLE_SELECT;
-            if(!(var6 !== var5)) { _fun0006_ip = 46; continue _fun0006 }
-case 49:
+            if(!(var6 !== var5)) { _fun0006_ip = 45; continue _fun0006 }
+case 48:
             var5 = var2 == var3;
             var6 = undefined;
-            if(var5) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
-            var6 = var3.type;
+            if(var5) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
+            var6 = var3.type;
+case 49:
             var9 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var8];
             var5 = var9.bind(var7)(var5);
             var5 = var5.ComponentType;
             var5 = var5.MENTIONABLE_SELECT;
-            if(!(var6 !== var5)) { _fun0006_ip = 46; continue _fun0006 }
-case 52:
+            if(!(var6 !== var5)) { _fun0006_ip = 45; continue _fun0006 }
+case 51:
             var6 = var2 == var3;
             var5 = undefined;
-            if(var6) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
-            var5 = var3.type;
+            if(var6) { _fun0006_ip = 52; continue _fun0006 }
 case 53:
+            var5 = var3.type;
+case 52:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var8];
             var4 = var6.bind(var7)(var4);
             var4 = var4.ComponentType;
             var4 = var4.CHANNEL_SELECT;
-            if(!(var5 === var4)) { _fun0006_ip = 55; continue _fun0006 }
-case 46:
+            if(!(var5 === var4)) { _fun0006_ip = 54; continue _fun0006 }
+case 45:
             var1 = var3.selectedOptions;
-case 55:
-            if(!(var2 == var1)) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
-            var1 = new Array(0);
+case 54:
+            if(!(var2 == var1)) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
+            var1 = new Array(0);
+case 55:
             return var1;
         }
     };

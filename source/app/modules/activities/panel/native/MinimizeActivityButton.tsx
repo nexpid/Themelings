@@ -21,8 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
-    var4 = 1;
-    var4 = var6[var4];
+    var11 = 1;
+    var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot4 = var4;
@@ -41,7 +41,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {'marginRight': 8, 'flexShrink': 1};
+    var10 = {};
+    var10['flexShrink'] = var11;
     var4['buttonParent'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot7 = var4;

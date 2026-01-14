@@ -982,7 +982,7 @@ case 0:
                 if(var2) { _fun0012_ip = 68; continue _fun0012 }
 case 69:
                 var2 = var10.roles;
-                _fun0012_ip = 19; continue _fun0012;
+                _fun0012_ip = 70; continue _fun0012;
 case 68:
                 var12 = _closure1_slot1;
                 var11 = _closure1_slot2;
@@ -992,12 +992,12 @@ case 68:
                 var11 = var10.id;
                 var10 = var10.roles;
                 var2 = var12.bind(var13)(var11, var10);
-case 19:
+case 70:
                 var3 = var3.bind(var8)(var2);
                 var2 = null;
                 var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 70; continue _fun0012 }
-case 71:
+                if(!var8) { _fun0012_ip = 71; continue _fun0012 }
+case 72:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;
@@ -1005,7 +1005,7 @@ case 71:
                 var9 = var9.roles;
                 var8['roles'] = var9;
                 var2 = var8;
-case 70:
+case 71:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var5.put;
                 var2 = arg2;

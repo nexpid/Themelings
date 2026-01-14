@@ -138,13 +138,22 @@ case 11:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var4];
+                var5 = var3.bind(var6)(var1);
+                var3 = var5.isTimeRecurringGuildDismissibleContent;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var5)(var1);
+                if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var4];
                 var4 = var3.bind(var6)(var1);
-                var3 = var4.isTimeRecurringGuildDismissibleContent;
+                var3 = var4.isSnowflakeBoundGuildDismissibleContent;
                 var1 = _closure2_slot0;
                 var1 = var3.bind(var4)(var1);
                 var12 = _closure2_slot0;
-                if(var1) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var1 = _closure2_slot2;
                 var3 = _closure1_slot5;
                 var3 = var3.bind(var6)(var12, var1);
@@ -153,31 +162,95 @@ case 13:
                 var3 = 5;
                 var3 = var5[var3];
                 var4 = var4.bind(var6)(var3);
-                if(var1) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+                if(var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var1 = var4.addDismissedContent;
                 var1 = var1.bind(var4)(var12);
                 var1 = true;
-                _fun0002_ip = 16; continue _fun0002;
-case 14:
+                _fun0002_ip = 18; continue _fun0002;
+case 16:
                 var3 = var4.removeDismissedContent;
                 var3 = var3.bind(var4)(var12);
                 var1 = false;
-case 16:
-                _fun0002_ip = 17; continue _fun0002;
+case 18:
+                _fun0002_ip = 19; continue _fun0002;
+case 14:
+                var11 = _closure2_slot1;
+                var9 = _closure2_slot2;
+                var4 = null;
+                var8 = var4 == var11;
+                var3 = false;
+                if(var8) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                var4 = var4 != var11;
+                var13 = 1;
+                var8 = var13;
+                if(!var4) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+                var10 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var4 = 4;
+                var4 = var14[var4];
+                var10 = var10.bind(var6)(var4);
+                var4 = var10.getGuildNextNumTimesDismissed;
+                var8 = var4.bind(var10)(var12, var11);
+case 22:
+                var4 = _closure1_slot5;
+                var4 = var4.bind(var6)(var12, var9);
+                var17 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var4 = 4;
+                var10 = var18[var4];
+                var10 = var17.bind(var6)(var10);
+                if(var9) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+                var9 = var10.UNSAFE_addSnowflakeBoundGuildDismissedContent;
+                var15 = _closure1_slot1;
+                var14 = 6;
+                var14 = var18[var14];
+                var15 = var15.bind(var6)(var14);
+                var14 = var15.fromTimestamp;
+                var16 = global;
+                var19 = var16.Date;
+                var16 = var19.now;
+                var16 = var16.bind(var19)();
+                var4 = var18[var4];
+                var4 = var17.bind(var6)(var4);
+                var4 = var4.SNOWFLAKE_BOUND_DISMISSIBLE_CONTENT_DURATION_MS;
+                var4 = var16 + var4;
+                var22 = var14.bind(var15)(var4);
+                var24 = var10;
+                var23 = var12;
+                var21 = var11;
+                var20 = var8;
+                var4 = var24[var9](var23, var22, var21, var20, var19);
+                var4 = true;
+                _fun0002_ip = 26; continue _fun0002;
+case 24:
+                var9 = var10.UNSAFE_removeSnowflakeBoundGuildDismissedContent;
+                var8 = var8 - var13;
+                var8 = var9.bind(var10)(var12, var11, var8);
+                var4 = false;
+case 26:
+                var3 = var4;
+case 20:
+                var1 = var3;
+case 19:
+                _fun0002_ip = 27; continue _fun0002;
 case 12:
+                var12 = _closure2_slot0;
                 var11 = _closure2_slot1;
                 var4 = _closure2_slot2;
                 var8 = null;
                 var9 = var8 == var11;
                 var3 = false;
-                if(var9) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+                if(var9) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
                 var9 = var8 != var11;
                 var13 = 1;
                 var8 = var13;
-                if(!var9) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+                if(!var9) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
                 var10 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var9 = 4;
@@ -185,7 +258,7 @@ case 21:
                 var10 = var10.bind(var6)(var9);
                 var9 = var10.getGuildNextNumTimesDismissed;
                 var8 = var9.bind(var10)(var12, var11);
-case 20:
+case 30:
                 var9 = _closure1_slot5;
                 var9 = var9.bind(var6)(var12, var4);
                 var10 = _closure1_slot0;
@@ -193,23 +266,23 @@ case 20:
                 var9 = 4;
                 var9 = var14[var9];
                 var10 = var10.bind(var6)(var9);
-                if(var4) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+                if(var4) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
                 var4 = var10.UNSAFE_addTimeRecurringGuildDismissedContent;
                 var4 = var4.bind(var10)(var12, var11, var8);
                 var4 = true;
-                _fun0002_ip = 24; continue _fun0002;
-case 22:
+                _fun0002_ip = 34; continue _fun0002;
+case 32:
                 var9 = var10.UNSAFE_removeTimeRecurringGuildDismissedContent;
                 var8 = var8 - var13;
                 var8 = var9.bind(var10)(var12, var11, var8);
                 var4 = false;
-case 24:
+case 34:
                 var3 = var4;
-case 18:
+case 28:
                 var1 = var3;
-case 17:
-                _fun0002_ip = 25; continue _fun0002;
+case 27:
+                _fun0002_ip = 35; continue _fun0002;
 case 10:
                 var12 = _closure2_slot0;
                 var11 = _closure2_slot1;
@@ -217,13 +290,13 @@ case 10:
                 var8 = null;
                 var9 = var8 == var11;
                 var3 = false;
-                if(var9) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+                if(var9) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
                 var9 = var8 != var11;
                 var13 = 1;
                 var8 = var13;
-                if(!var9) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+                if(!var9) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
                 var10 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var9 = 4;
@@ -231,7 +304,7 @@ case 29:
                 var10 = var10.bind(var6)(var9);
                 var9 = var10.getGuildNextNumTimesDismissed;
                 var8 = var9.bind(var10)(var12, var11);
-case 28:
+case 38:
                 var9 = _closure1_slot5;
                 var9 = var9.bind(var6)(var12, var4);
                 var10 = _closure1_slot0;
@@ -239,23 +312,23 @@ case 28:
                 var9 = 4;
                 var9 = var14[var9];
                 var10 = var10.bind(var6)(var9);
-                if(var4) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+                if(var4) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
                 var4 = var10.UNSAFE_addGuildDismissedContent;
                 var4 = var4.bind(var10)(var12, var11, var8);
                 var4 = true;
-                _fun0002_ip = 32; continue _fun0002;
-case 30:
+                _fun0002_ip = 42; continue _fun0002;
+case 40:
                 var9 = var10.UNSAFE_removeGuildDismissedContent;
                 var8 = var8 - var13;
                 var8 = var9.bind(var10)(var12, var11, var8);
                 var4 = false;
-case 32:
+case 42:
                 var3 = var4;
-case 26:
+case 36:
                 var1 = var3;
-case 25:
-                _fun0002_ip = 33; continue _fun0002;
+case 35:
+                _fun0002_ip = 43; continue _fun0002;
 case 8:
                 var8 = _closure2_slot0;
                 var3 = _closure2_slot2;
@@ -263,8 +336,8 @@ case 8:
                 var4 = var4.bind(var6)(var8, var3);
                 var5 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                if(var3) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+                if(var3) { _fun0002_ip = 44; continue _fun0002 }
+case 45:
                 var3 = 4;
                 var4 = var9[var3];
                 var10 = var5.bind(var6)(var4);
@@ -276,18 +349,18 @@ case 35:
                 var3 = var11.bind(var12)(var8, var3);
                 var3 = var4.bind(var10)(var8, var3);
                 var3 = true;
-                _fun0002_ip = 36; continue _fun0002;
-case 34:
+                _fun0002_ip = 46; continue _fun0002;
+case 44:
                 var4 = 5;
                 var4 = var9[var4];
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.removeDismissedRecurringContent;
                 var4 = var4.bind(var5)(var8);
                 var3 = false;
-case 36:
+case 46:
                 var1 = var3;
-case 33:
-                _fun0002_ip = 37; continue _fun0002;
+case 43:
+                _fun0002_ip = 47; continue _fun0002;
 case 6:
                 var8 = _closure2_slot0;
                 var4 = _closure2_slot2;
@@ -303,8 +376,8 @@ case 6:
                 var5 = var5.bind(var6)(var8, var4);
                 var5 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                if(var4) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
+                if(var4) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
                 var4 = var9[var3];
                 var10 = var5.bind(var6)(var4);
                 var4 = var10.addSnowflakeBoundDismissedContent;
@@ -324,18 +397,18 @@ case 39:
                 var3 = var12.bind(var13)(var3);
                 var3 = var4.bind(var10)(var8, var3, var11);
                 var3 = true;
-                _fun0002_ip = 40; continue _fun0002;
-case 38:
+                _fun0002_ip = 50; continue _fun0002;
+case 48:
                 var4 = 5;
                 var4 = var9[var4];
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.removeDismissedRecurringContent;
                 var4 = var4.bind(var5)(var8);
                 var3 = false;
-case 40:
+case 50:
                 var1 = var3;
-case 37:
-                _fun0002_ip = 41; continue _fun0002;
+case 47:
+                _fun0002_ip = 51; continue _fun0002;
 case 4:
                 var5 = _closure2_slot0;
                 var3 = _closure2_slot2;
@@ -356,24 +429,24 @@ case 4:
                 var4 = var4.bind(var6)(var5, var3);
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                if(var3) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
+                if(var3) { _fun0002_ip = 52; continue _fun0002 }
+case 53:
                 var2 = var7[var2];
                 var3 = var4.bind(var6)(var2);
                 var2 = var3.addVersionedDismissedContent;
                 var2 = var2.bind(var3)(var5, var9, var8);
                 var2 = true;
-                _fun0002_ip = 44; continue _fun0002;
-case 42:
+                _fun0002_ip = 54; continue _fun0002;
+case 52:
                 var3 = 5;
                 var3 = var7[var3];
                 var4 = var4.bind(var6)(var3);
                 var3 = var4.removeDismissedRecurringContent;
                 var3 = var3.bind(var4)(var5);
                 var2 = false;
-case 44:
+case 54:
                 var1 = var2;
-case 41:
+case 51:
                 return var1;
             }
         };

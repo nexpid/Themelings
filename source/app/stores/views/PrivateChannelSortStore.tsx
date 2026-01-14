@@ -70,7 +70,7 @@ case 10:
             var6 = var3.isMessageRequestTimestamp;
             var1 = var5;
             if(!(var7 != var6)) { _fun0002_ip = 12; continue _fun0002 }
-case 5:
+case 3:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 15;
@@ -171,7 +171,7 @@ case 18:
                 var9 = var10.bind(var11)(var12, var9);
                 _fun0003_ip = 17; continue _fun0003;
             }
-case 5:
+case 3:
             return var1;
         }
     };
@@ -513,15 +513,15 @@ case 32:
                 var4 = var6.id;
                 var3 = var5.bind(var7)(var4);
 case 9:
-                if(!var3) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                if(!var3) { _fun0007_ip = 4; continue _fun0007 }
+case 33:
                 var5 = _closure1_slot17;
                 var4 = var5.set;
                 var3 = var6.id;
                 var2 = _closure1_slot23;
                 var2 = var2.bind(var1)(var6);
                 var2 = var4.bind(var5)(var3, var2);
-case 33:
+case 4:
                 return var1;
             }
         };
@@ -541,7 +541,7 @@ case 0:
             var1 = var2.bind(var7)(var1);
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0008_ip = 35; continue _fun0008 }
+            if(var2) { _fun0008_ip = 34; continue _fun0008 }
 case 21:
             var4 = var8.id;
             var5 = _closure1_slot0;
@@ -552,7 +552,7 @@ case 21:
             var2 = var2.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
             var2 = var4 !== var2;
             if(!var2) { _fun0008_ip = 31; continue _fun0008 }
-case 4:
+case 5:
             var6 = _closure1_slot17;
             var5 = var6.set;
             var4 = var8.id;
@@ -562,7 +562,7 @@ case 4:
             var2 = undefined;
 case 31:
             var1 = var2;
-case 35:
+case 34:
             return var1;
         }
     };
@@ -586,17 +586,17 @@ case 0:
             var3 = _closure1_slot17;
             var1 = var3.has;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
+            if(var1) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
             var1 = false;
             return var1;
-case 36:
+case 35:
             var3 = _closure1_slot11;
             var1 = var3.getChannel;
             var8 = var1.bind(var3)(var5);
             var1 = null;
             var1 = var1 != var8;
-            if(!var1) { _fun0009_ip = 38; continue _fun0009 }
+            if(!var1) { _fun0009_ip = 37; continue _fun0009 }
 case 26:
             var4 = _closure1_slot17;
             var3 = var4.set;
@@ -605,7 +605,7 @@ case 26:
             var2 = undefined;
             var2 = var7.bind(var2)(var8, var6);
             var1 = var3.bind(var4)(var5, var2);
-case 38:
+case 37:
             return var1;
         }
     };

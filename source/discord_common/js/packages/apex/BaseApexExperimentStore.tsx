@@ -369,19 +369,26 @@ case 49:
         var9 = var6[var9];
         var9 = var5.bind(var1)(var9);
 case 48:
-        var9 = 10;
-        var9 = var6[var9];
+        var10 = 10;
+        var9 = var6[var10];
         var9 = var5.bind(var1)(var9);
         var9 = var9.UnitType;
-        var10 = var9.User;
-        var9 = new Array(1);
-        var9[0] = var10;
+        var11 = var9.User;
+        var9 = new Array(2);
+        var9[0] = var11;
+        var10 = var6[var10];
+        var10 = var5.bind(var1)(var10);
+        var10 = var10.UnitType;
+        var10 = var10.Installation;
+        var9[1] = var10;
         var _closure1_slot12 = var9;
         var9 = {};
         var10 = {};
         var9['user'] = var10;
         var10 = {};
         var9['guild'] = var10;
+        var10 = {};
+        var9['installation'] = var10;
         var _closure1_slot13 = var9;
         var9 = {};
         var _closure1_slot14 = var9;
@@ -488,7 +495,7 @@ case 0:
                     if(!var2) { _fun0009_ip = 53; continue _fun0009 }
 case 54:
                     var5 = var1.version;
-                    var3 = 2;
+                    var3 = 3;
                     var2 = var3 === var5;
 case 53:
                     if(!var2) { _fun0009_ip = 55; continue _fun0009 }
@@ -529,14 +536,14 @@ case 59:
                 }
             };
             var5['value'] = var1;
-            var1 = new Array(39);
+            var1 = new Array(40);
             var1[0] = var5;
             var5 = {};
             var7 = 'getState';
             var5['key'] = var7;
             var7 = function value() {
                 var1 = {};
-                var2 = 2;
+                var2 = 3;
                 var1['version'] = var2;
                 var3 = _closure1_slot13;
                 var1['evaluatedExperiments'] = var3;
@@ -957,7 +964,7 @@ case 0:
                     var1 = arg1;
                     if(var1) { _fun0011_ip = 74; continue _fun0011 }
 case 75:
-                    var1 = var3.clearAllServerAssignments;
+                    var1 = var3.clearUserServerAssignments;
                     var1 = var1.bind(var3)();
                     var1 = var3.clearSessionOverrides;
                     var1 = var1.bind(var3)();
@@ -1500,12 +1507,32 @@ case 101:
                 var2['user'] = var1;
                 var1 = {};
                 var2['guild'] = var1;
+                var1 = {};
+                var2['installation'] = var1;
                 _closure1_slot13 = var2;
                 var1 = undefined;
                 return var1;
             };
             var5['value'] = var7;
             var1[28] = var5;
+            var5 = {};
+            var7 = 'clearUserServerAssignments';
+            var5['key'] = var7;
+            var7 = function value() {
+                var2 = {};
+                var1 = {};
+                var2['user'] = var1;
+                var1 = {};
+                var2['guild'] = var1;
+                var3 = _closure1_slot13;
+                var3 = var3.installation;
+                var2['installation'] = var3;
+                _closure1_slot13 = var2;
+                var1 = undefined;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[29] = var5;
             var5 = {};
             var7 = 'clearAllOverrides';
             var5['key'] = var7;
@@ -1520,7 +1547,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[29] = var5;
+            var1[30] = var5;
             var5 = {};
             var7 = 'clearSessionOverrides';
             var5['key'] = var7;
@@ -1531,7 +1558,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[30] = var5;
+            var1[31] = var5;
             var5 = {};
             var7 = 'clearAllTrackedExposures';
             var5['key'] = var7;
@@ -1542,7 +1569,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[31] = var5;
+            var1[32] = var5;
             var5 = {};
             var7 = 'getHash';
             var5['key'] = var7;
@@ -1554,7 +1581,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[32] = var5;
+            var1[33] = var5;
             var5 = {};
             var7 = 'handleFetchStart';
             var5['key'] = var7;
@@ -1567,7 +1594,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[33] = var5;
+            var1[34] = var5;
             var5 = {};
             var7 = 'handleFetchSuccess';
             var5['key'] = var7;
@@ -1587,7 +1614,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[34] = var5;
+            var1[35] = var5;
             var5 = {};
             var7 = 'handleFetchFailure';
             var5['key'] = var7;
@@ -1603,7 +1630,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[35] = var5;
+            var1[36] = var5;
             var5 = {};
             var7 = 'isFetching';
             var5['key'] = var7;
@@ -1615,7 +1642,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[36] = var5;
+            var1[37] = var5;
             var5 = {};
             var7 = 'hasLoaded';
             var5['key'] = var7;
@@ -1627,7 +1654,7 @@ case 101:
                 return var1;
             };
             var5['value'] = var7;
-            var1[37] = var5;
+            var1[38] = var5;
             var5 = {};
             var7 = 'getOverride';
             var5['key'] = var7;
@@ -1652,7 +1679,7 @@ case 103:
                 }
             };
             var5['value'] = var6;
-            var1[38] = var5;
+            var1[39] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };

@@ -726,7 +726,7 @@ case 0:
             var5 = arg1;
             if(var5) { _fun0008_ip = 39; continue _fun0008 }
 case 40:
-            var5 = var7.STATUS_DANGER;
+            var5 = var7.BORDER_FEEDBACK_CRITICAL;
             _fun0008_ip = 41; continue _fun0008;
 case 39:
             var5 = var7.BACKGROUND_BRAND;
@@ -880,7 +880,7 @@ case 53:
             var10 = var17[var10];
             var10 = var16.bind(var4)(var10);
             var11 = var10.Text;
-            var10 = {'variant': 'text-xs/semibold', 'color': 'status-danger'};
+            var10 = {'variant': 'text-xs/semibold', 'color': 'text-feedback-critical'};
             var13 = 16;
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);

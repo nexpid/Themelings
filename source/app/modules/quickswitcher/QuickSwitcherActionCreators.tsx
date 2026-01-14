@@ -756,33 +756,33 @@ case 66:
             var4 = var4.AutocompleterResultTypes;
             var4 = var4.LINK;
             if(!(var4 !== var7)) { _fun0007_ip = 67; continue _fun0007 }
-case 23:
+case 68:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var9];
             var4 = var8.bind(var1)(var4);
             var4 = var4.AutocompleterResultTypes;
             var4 = var4.IN_APP_NAVIGATION;
-            if(!(var4 === var7)) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+            if(!(var4 === var7)) { _fun0007_ip = 69; continue _fun0007 }
+case 70:
             var4 = var5.record;
             var7 = var4.type;
             var4 = _closure1_slot4;
             var4 = var4.SETTINGS;
-            if(!(var7 !== var4)) { _fun0007_ip = 70; continue _fun0007 }
-case 71:
+            if(!(var7 !== var4)) { _fun0007_ip = 71; continue _fun0007 }
+case 72:
             var4 = var5.record;
             var7 = var4.type;
             var4 = _closure1_slot4;
             var4 = var4.PLAYGROUND;
-            if(!(var7 !== var4)) { _fun0007_ip = 72; continue _fun0007 }
-case 73:
+            if(!(var7 !== var4)) { _fun0007_ip = 73; continue _fun0007 }
+case 74:
             var4 = var5.record;
             var7 = var4.type;
             var4 = _closure1_slot4;
             var4 = var4.SHOP_ORBS_TAB;
-            if(!(var7 !== var4)) { _fun0007_ip = 74; continue _fun0007 }
-case 75:
+            if(!(var7 !== var4)) { _fun0007_ip = 75; continue _fun0007 }
+case 76:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 21;
@@ -793,8 +793,8 @@ case 75:
             var9 = true;
             var4['navigationReplace'] = var9;
             var4 = var8.bind(var1)(var7, var4);
-            _fun0007_ip = 68; continue _fun0007;
-case 74:
+            _fun0007_ip = 69; continue _fun0007;
+case 75:
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
             var4 = 24;
@@ -818,8 +818,8 @@ case 74:
             var9 = var9.QUICK_SWITCHER;
             var4['analyticsSource'] = var9;
             var4 = var7.bind(var8)(var4);
-            _fun0007_ip = 68; continue _fun0007;
-case 72:
+            _fun0007_ip = 69; continue _fun0007;
+case 73:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 23;
@@ -827,10 +827,10 @@ case 72:
             var7 = var7.bind(var1)(var4);
             var4 = var7.getUserIsStaff;
             var4 = var4.bind(var7)();
-            if(var4) { _fun0007_ip = 68; continue _fun0007 }
-case 76:
+            if(var4) { _fun0007_ip = 69; continue _fun0007 }
+case 77:
             return var1;
-case 70:
+case 71:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 22;
@@ -839,7 +839,7 @@ case 70:
             var4 = var5.record;
             var4 = var4.path;
             var4 = var7.bind(var1)(var4);
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
 case 67:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -851,7 +851,7 @@ case 67:
             var9 = true;
             var4['navigationReplace'] = var9;
             var4 = var8.bind(var1)(var7, var4);
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
 case 65:
             var8 = _closure1_slot7;
             var7 = var8.getActiveLibraryApplication;
@@ -865,7 +865,7 @@ case 65:
             var7 = var4.Promise;
             var4 = var7.resolve;
             var4 = var4.bind(var7)();
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
 case 63:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -886,7 +886,7 @@ case 63:
             var7 = _closure1_slot11;
             var4 = var3.id;
             var4 = var8.bind(var9)(var7, var4);
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
 case 61:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -912,27 +912,27 @@ case 61:
             var4 = var3.id;
             var4 = var11.bind(var12)(var4);
             var4 = var8.bind(var9)(var7, var4);
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
 case 59:
             var8 = _closure1_slot6;
             var7 = var8.getChannel;
             var4 = var3.id;
             var4 = var7.bind(var8)(var4);
             var7 = null;
-            if(!(var7 != var4)) { _fun0007_ip = 68; continue _fun0007 }
-case 77:
+            if(!(var7 != var4)) { _fun0007_ip = 69; continue _fun0007 }
+case 78:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            if(var6) { _fun0007_ip = 78; continue _fun0007 }
-case 79:
+            if(var6) { _fun0007_ip = 79; continue _fun0007 }
+case 80:
             var6 = 18;
             var6 = var8[var6];
             var11 = var7.bind(var1)(var6);
             var9 = var11.selectVoiceChannel;
             var6 = var3.id;
             var6 = var9.bind(var11)(var6);
-            _fun0007_ip = 80; continue _fun0007;
-case 78:
+            _fun0007_ip = 81; continue _fun0007;
+case 79:
             var6 = 17;
             var6 = var8[var6];
             var9 = var7.bind(var1)(var6);
@@ -940,29 +940,6 @@ case 78:
             var7 = var3.id;
             var6 = true;
             var6 = var8.bind(var9)(var7, var6);
-case 80:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 16;
-            var6 = var8[var6];
-            var8 = var7.bind(var1)(var6);
-            var7 = var8.transitionToChannel;
-            var6 = var4.id;
-            var4 = {};
-            var9 = {};
-            var9['analyticsSource'] = var10;
-            var4['state'] = var9;
-            var9 = true;
-            var4['navigationReplace'] = var9;
-            var4 = var7.bind(var8)(var6, var4);
-            _fun0007_ip = 68; continue _fun0007;
-case 57:
-            var7 = _closure1_slot6;
-            var6 = var7.getChannel;
-            var4 = var3.id;
-            var4 = var6.bind(var7)(var4);
-            var6 = null;
-            if(!(var6 != var4)) { _fun0007_ip = 68; continue _fun0007 }
 case 81:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -978,7 +955,30 @@ case 81:
             var9 = true;
             var4['navigationReplace'] = var9;
             var4 = var7.bind(var8)(var6, var4);
-            _fun0007_ip = 68; continue _fun0007;
+            _fun0007_ip = 69; continue _fun0007;
+case 57:
+            var7 = _closure1_slot6;
+            var6 = var7.getChannel;
+            var4 = var3.id;
+            var4 = var6.bind(var7)(var4);
+            var6 = null;
+            if(!(var6 != var4)) { _fun0007_ip = 69; continue _fun0007 }
+case 82:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 16;
+            var6 = var8[var6];
+            var8 = var7.bind(var1)(var6);
+            var7 = var8.transitionToChannel;
+            var6 = var4.id;
+            var4 = {};
+            var9 = {};
+            var9['analyticsSource'] = var10;
+            var4['state'] = var9;
+            var9 = true;
+            var4['navigationReplace'] = var9;
+            var4 = var7.bind(var8)(var6, var4);
+            _fun0007_ip = 69; continue _fun0007;
 case 55:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -991,7 +991,7 @@ case 55:
             var8 = true;
             var3['navigationReplace'] = var8;
             var3 = var6.bind(var7)(var4, var3);
-case 68:
+case 69:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 14;

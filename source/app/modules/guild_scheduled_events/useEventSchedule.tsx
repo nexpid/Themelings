@@ -166,18 +166,18 @@ case 11:
             var7 = var7.bind(var5)(var3);
             var8 = var1 == var4;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var3 = var4.id;
+            if(var8) { _fun0003_ip = 2; continue _fun0003 }
 case 13:
+            var3 = var4.id;
+case 2:
             var3 = var7.bind(var5)(var6, var3);
             var7 = var1 == var4;
             var1 = null;
-            if(var7) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = _closure1_slot4;
             var1 = var2.bind(var5)(var4, var3, var6);
-case 15:
+case 14:
             return var1;
         }
     };

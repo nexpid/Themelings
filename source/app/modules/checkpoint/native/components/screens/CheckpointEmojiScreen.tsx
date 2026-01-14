@@ -496,7 +496,7 @@ case 33:
                         var16 = var16 == var14;
                         var14 = '';
                         if(!var16) { _fun0003_ip = 37; continue _fun0003 }
-case 10:
+case 38:
                         var14 = var15.name;
 case 37:
                         var9['name'] = var14;
