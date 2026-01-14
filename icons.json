@@ -1,7 +1,7 @@
 {
     "AccessibilityIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AccessibilityIcon.png",
-        "hash": "11939c431af9c635d50a69abcb5864bc",
+        "hash": "f0463217237b9dbc106b2465dbfb1c9c",
         "scales": [
             2,
             3
@@ -21,7 +21,7 @@
     },
     "AchievementsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AchievementsIcon.png",
-        "hash": "8bdbb02a4c6275c18ce3f3490f04249a",
+        "hash": "1e1a093efa7aa201a2899d9d5477dcb3",
         "scales": [
             2,
             3
@@ -31,7 +31,7 @@
     },
     "ActivitiesIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ActivitiesIcon.png",
-        "hash": "2840dd0bc0ba9b7185215e915329744e",
+        "hash": "8c699761441e6944d030bf42412d498e",
         "scales": [
             2,
             3
@@ -142,7 +142,7 @@
     },
     "AnalyticsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnalyticsIcon.png",
-        "hash": "08f9f47b76207d954b8653a945a31019",
+        "hash": "5cc115881535aaf2bcfbf60c8d92d01f",
         "scales": [
             2,
             3
@@ -171,7 +171,7 @@
     },
     "AnnouncementsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsIcon.png",
-        "hash": "fa36e4d5d7d9369a95be9c57cfcbabed",
+        "hash": "8e7f18ee6105c71e458e162a19c75f91",
         "scales": [
             2,
             3
@@ -181,7 +181,7 @@
     },
     "AnnouncementsLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsLockIcon.png",
-        "hash": "4129df2dcc18f0db2b30e40b83892608",
+        "hash": "a38dcb6ad51519e942b254eb8af6830b",
         "scales": [
             2,
             3
@@ -191,7 +191,7 @@
     },
     "AnnouncementsWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AnnouncementsWarningIcon.png",
-        "hash": "654ff7e9005a928e64020fe6a6c8e67c",
+        "hash": "0a52797f38b90611d525ce7274d1e571",
         "scales": [
             2,
             3
@@ -300,7 +300,7 @@
     },
     "AppleNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AppleNeutralIcon.png",
-        "hash": "096e51148a1b1793667be6e469147696",
+        "hash": "b04e363869889767a126da0fcdcaf9c8",
         "scales": [
             2,
             3
@@ -310,7 +310,7 @@
     },
     "AppsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AppsIcon.png",
-        "hash": "6a67d425048be5562e895f5ebd0449d8",
+        "hash": "801b169371e07119b8fe6828350d8d7a",
         "scales": [
             2,
             3
@@ -352,7 +352,7 @@
     },
     "ArrowAngleLeftUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowAngleLeftUpIcon.png",
-        "hash": "276a519176d4e2cf9097a0af1c9c023d",
+        "hash": "a7ccacfbf921e4df3f40d9cef95d096a",
         "scales": [
             2,
             3
@@ -362,7 +362,7 @@
     },
     "ArrowAngleRightUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowAngleRightUpIcon.png",
-        "hash": "7fa707ab9cc9a9700ec1edbef2fe5f31",
+        "hash": "00d5c24596b34beefe8dfcc46733aef7",
         "scales": [
             2,
             3
@@ -372,7 +372,7 @@
     },
     "ArrowLargeDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowLargeDownIcon.png",
-        "hash": "1a41ce516ab5188817db3ca241321d7c",
+        "hash": "d23e287938371b5293062b48e0101454",
         "scales": [
             2,
             3
@@ -382,7 +382,7 @@
     },
     "ArrowLargeLeftIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowLargeLeftIcon.png",
-        "hash": "9fa82800444d7da6958a823bf776dc7c",
+        "hash": "24def842b7fc85d108b018aef0f23eb6",
         "scales": [
             2,
             3
@@ -392,7 +392,7 @@
     },
     "ArrowLargeRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowLargeRightIcon.png",
-        "hash": "c463d1cb9c602dd82db1c3fa3466f1f4",
+        "hash": "04c46d63a9ed0af066e3c9c84ab9d498",
         "scales": [
             2,
             3
@@ -402,7 +402,7 @@
     },
     "ArrowSmallDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowSmallDownIcon.png",
-        "hash": "50de8f885b2006aa24f8989e203d3974",
+        "hash": "e5425a23f011242ca1680db566578eeb",
         "scales": [
             2,
             3
@@ -412,7 +412,7 @@
     },
     "ArrowSmallLeftIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowSmallLeftIcon.png",
-        "hash": "2d2dbade18a9ac183b80a50ba6f7f647",
+        "hash": "18a1662f9554cb2fc74b1428c61c0e85",
         "scales": [
             2,
             3
@@ -422,7 +422,7 @@
     },
     "ArrowSmallRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowSmallRightIcon.png",
-        "hash": "33feddf2bfcdeaa398799c422bc31907",
+        "hash": "17fb89df3c7175e5980193548b56d60e",
         "scales": [
             2,
             3
@@ -432,7 +432,7 @@
     },
     "ArrowSmallUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowSmallUpIcon.png",
-        "hash": "61cec67b129c97c68292414790c712b6",
+        "hash": "a73d0cd1707be3649c402627ac1cee47",
         "scales": [
             2,
             3
@@ -442,7 +442,7 @@
     },
     "ArrowsUpDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ArrowsUpDownIcon.png",
-        "hash": "a7bdeaa0087ab7e52d9fd6dd600518ac",
+        "hash": "716b7f0755adf6ce9b7a2d1ba7a3c982",
         "scales": [
             2,
             3
@@ -584,7 +584,7 @@
     },
     "AtIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AtIcon.png",
-        "hash": "77ac6d835658c4eb33d89ada4887bb18",
+        "hash": "b2fd6151132cc4dfa64e8d92344eb974",
         "scales": [
             2,
             3
@@ -594,7 +594,7 @@
     },
     "AttachmentIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AttachmentIcon.png",
-        "hash": "315157cc0ec2d836eda1d42242d2b2d3",
+        "hash": "8e6ea2cf3d1bb7076b6e70697fcecb49",
         "scales": [
             2,
             3
@@ -662,7 +662,7 @@
     },
     "BackspaceIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BackspaceIcon.png",
-        "hash": "29e4007567c07aef134be6251b5ad7c6",
+        "hash": "0ede63cb7dcdc9aada2af5be40cdcdde",
         "scales": [
             2,
             3
@@ -704,7 +704,7 @@
     },
     "BeakerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BeakerIcon.png",
-        "hash": "52dd6e1951e8fcb584c15260b9091131",
+        "hash": "a510700303c794eefe874fa97f95d989",
         "scales": [
             2,
             3
@@ -724,7 +724,7 @@
     },
     "BellIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BellIcon.png",
-        "hash": "c1c1a9eb17fa9b2b77ae27177cf9cab4",
+        "hash": "348e12a01e4923ab4918827c81373de7",
         "scales": [
             2,
             3
@@ -734,7 +734,7 @@
     },
     "BellSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BellSlashIcon.png",
-        "hash": "1706108c15ba9e57953a950e4dd8ac41",
+        "hash": "fce86bae946901aed4dd9d012c5d05d2",
         "scales": [
             2,
             3
@@ -744,7 +744,7 @@
     },
     "BellZIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BellZIcon.png",
-        "hash": "479ac6140fdc585f434469735e2b9ca1",
+        "hash": "870834dbd8bd43dc5b73ff066b8ebd91",
         "scales": [
             2,
             3
@@ -763,7 +763,7 @@
     },
     "BicycleIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BicycleIcon.png",
-        "hash": "a36cbb879592e39d6a11e7c436505bc2",
+        "hash": "24c4788690396bae9cc4c1af395a6a87",
         "scales": [
             2,
             3
@@ -773,7 +773,7 @@
     },
     "BillIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BillIcon.png",
-        "hash": "581121a2195bc43134224ad5d3fc51da",
+        "hash": "c1e60f7a5271e9f51dab29ac41037bb0",
         "scales": [
             2,
             3
@@ -853,7 +853,7 @@
     },
     "BookCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BookCheckIcon.png",
-        "hash": "a1ec358464e78a4c4c2edc3550974287",
+        "hash": "5fa886999ec3b1b2be1eae122ac55053",
         "scales": [
             2,
             3
@@ -863,7 +863,7 @@
     },
     "BookmarkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BookmarkIcon.png",
-        "hash": "b905d12c5f05de3532cfc5043bec3809",
+        "hash": "f9d17367fb59f62e9014186264a06300",
         "scales": [
             2,
             3
@@ -873,7 +873,7 @@
     },
     "BookmarkOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BookmarkOutlineIcon.png",
-        "hash": "ecfaafd6788e81d7e379f1e89c4a6718",
+        "hash": "1eed4e6aad695dd08497322ce73b35c3",
         "scales": [
             2,
             3
@@ -893,7 +893,7 @@
     },
     "BoostGemIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemIcon.png",
-        "hash": "5e7fbec24c6dd1c41cd6bd07ddf637e0",
+        "hash": "abe8f4923e2bfbeda6e312495772c3ca",
         "scales": [
             2,
             3
@@ -903,7 +903,7 @@
     },
     "BoostGemOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemOutlineIcon.png",
-        "hash": "18bb58b6ae8393445a195b2f824f9d60",
+        "hash": "31264d4a485c29008a79a8d0880df7f7",
         "scales": [
             2,
             3
@@ -911,19 +911,9 @@
         "width": 24,
         "height": 24
     },
-    "BoostGemSlashIcon-primary": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemSlashIcon-primary.png",
-        "hash": "0861f37541caa8f1894c4a49fdaf5ef8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "BoostGemSlashIcon-secondary": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemSlashIcon-secondary.png",
-        "hash": "b83ca5f6daf290e9034a599f402044e4",
+    "BoostGemSlashIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemSlashIcon.png",
+        "hash": "6d4db4a3fed6b7fb2e0e3b8c9618b2e3",
         "scales": [
             2,
             3
@@ -933,7 +923,7 @@
     },
     "BoostTier2Icon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
-        "hash": "76a2a5f225fb13b578cca85e148337ef",
+        "hash": "8b3127aafac24165fdf4462d15d57405",
         "scales": [
             2,
             3
@@ -943,7 +933,7 @@
     },
     "BoostTier3Icon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BoostTier3Icon.png",
-        "hash": "c4fc99949773593261c069142692cd68",
+        "hash": "e10657dab9f4736236204994dc8d2f48",
         "scales": [
             2,
             3
@@ -991,7 +981,7 @@
     },
     "BrowserIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BrowserIcon.png",
-        "hash": "dadc642b0ca63145cd29119bb3e64f4f",
+        "hash": "f5aa6273f840dddb371d06825f5ba0c9",
         "scales": [
             2,
             3
@@ -1001,7 +991,7 @@
     },
     "BugIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BugIcon.png",
-        "hash": "e751a0d8f7c2bff8e3eca3b15fbac5b3",
+        "hash": "5ec77c8acc74b99b6106b4203580cb98",
         "scales": [
             2,
             3
@@ -1011,7 +1001,7 @@
     },
     "BurgerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/BurgerIcon.png",
-        "hash": "18c1611197eec1eb385db3a0d0ff7934",
+        "hash": "9e0f7ca920e7d55418409ccf322d663c",
         "scales": [
             2,
             3
@@ -1040,7 +1030,7 @@
     },
     "CalendarIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CalendarIcon.png",
-        "hash": "ec44507035a063f19edafb2b65cbaee4",
+        "hash": "3bf75e6805c04790ea8b4b9a45b7590d",
         "scales": [
             2,
             3
@@ -1050,7 +1040,7 @@
     },
     "CalendarMinusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CalendarMinusIcon.png",
-        "hash": "6d9d1af3c15b7aae65533d46ca600bf4",
+        "hash": "238916d26264a636e75b0c6f0c7fdbdd",
         "scales": [
             2,
             3
@@ -1060,7 +1050,7 @@
     },
     "CalendarPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CalendarPlusIcon.png",
-        "hash": "f772f5a78b5d997441a7957fe681fd22",
+        "hash": "71c712d6e1b720ca3187edececae9622",
         "scales": [
             2,
             3
@@ -1132,7 +1122,7 @@
     },
     "CameraIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CameraIcon.png",
-        "hash": "b20282680e380011ef8d95809ec23eef",
+        "hash": "f0636d1e0fce06c72d7f93fbaad0adb6",
         "scales": [
             2,
             3
@@ -1142,7 +1132,7 @@
     },
     "CameraSwapIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CameraSwapIcon.png",
-        "hash": "9b4d31b0ac5423b2525f7209cc251c7d",
+        "hash": "06b6e55a0e0fb6ebac50634ed5457494",
         "scales": [
             2,
             3
@@ -1180,7 +1170,7 @@
     },
     "CarIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CarIcon.png",
-        "hash": "1191b1eb29ead1702c1249737c7b2eb3",
+        "hash": "eda659648f8876c89fb40401a5e581a5",
         "scales": [
             2,
             3
@@ -1290,7 +1280,7 @@
     },
     "ChannelListIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChannelListIcon.png",
-        "hash": "bc44589facf85942e88b82be58210730",
+        "hash": "b4bc35e77125dd7a659435efd876e4cc",
         "scales": [
             2,
             3
@@ -1300,7 +1290,7 @@
     },
     "ChannelListMagnifyingGlassIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChannelListMagnifyingGlassIcon.png",
-        "hash": "2b5828c3d4dddad8fa862bec464d92b6",
+        "hash": "105f56d17dde12603852ba552cc161e9",
         "scales": [
             2,
             3
@@ -1310,7 +1300,7 @@
     },
     "ChannelNotificationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChannelNotificationIcon.png",
-        "hash": "2555fc655a73a6fcc50e123fd5dfeee1",
+        "hash": "3a0dad6a522c178dac88986a71462e52",
         "scales": [
             2,
             3
@@ -1331,7 +1321,7 @@
     },
     "ChannelsFollowedIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChannelsFollowedIcon.png",
-        "hash": "4875fc59b1f52fb32e975734c035c522",
+        "hash": "580a27127fe255ce0e6c061cb021050b",
         "scales": [
             2,
             3
@@ -1368,7 +1358,7 @@
     },
     "ChatArrowRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatArrowRightIcon.png",
-        "hash": "6e7d7908ac53681c9fd9e11fac9a42fe",
+        "hash": "68ac370b37cf9518fd055c982488c382",
         "scales": [
             2,
             3
@@ -1378,7 +1368,7 @@
     },
     "ChatCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatCheckIcon.png",
-        "hash": "248df3545aedf0186054b320d9499354",
+        "hash": "30c39749d2a898ba1673facfc4fca6cc",
         "scales": [
             2,
             3
@@ -1388,7 +1378,7 @@
     },
     "ChatIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatIcon.png",
-        "hash": "cf84a31e0b6331e3eee2a7c92a8ee926",
+        "hash": "e151214efe8face93e5424f9d7c1b479",
         "scales": [
             2,
             3
@@ -1398,7 +1388,7 @@
     },
     "ChatMarkUnreadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatMarkUnreadIcon.png",
-        "hash": "08271a3f4a0450e8fb7150ff119af710",
+        "hash": "b3c3b6908265694261ccfbfb51631968",
         "scales": [
             2,
             3
@@ -1408,7 +1398,7 @@
     },
     "ChatPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatPlusIcon.png",
-        "hash": "98cddaa221c9596c95b5df5943c31fbb",
+        "hash": "cc3f8f8cd13e710d2411a61a71a7efde",
         "scales": [
             2,
             3
@@ -1418,7 +1408,7 @@
     },
     "ChatSmileIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatSmileIcon.png",
-        "hash": "4459aef5983b8565475ba60fe07f7a95",
+        "hash": "b9a33d5c1fa5f1478082d1189de621a7",
         "scales": [
             2,
             3
@@ -1428,7 +1418,7 @@
     },
     "ChatWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatWarningIcon.png",
-        "hash": "7f2c11ae4a1984b22e857dcb35abafa4",
+        "hash": "421762234dc1c14955fde3d3dd6a6217",
         "scales": [
             2,
             3
@@ -1438,7 +1428,7 @@
     },
     "ChatXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChatXIcon.png",
-        "hash": "56add29c46f823ae1398092c7b2416ed",
+        "hash": "295487d2f42bcab9b025282c915792b1",
         "scales": [
             2,
             3
@@ -1478,7 +1468,7 @@
     },
     "CheckmarkLargeBoldIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CheckmarkLargeBoldIcon.png",
-        "hash": "c4359387c98e60b3198a64dd3ce907f4",
+        "hash": "92d10d3cc2bdd6f9e23b637155d7bd3a",
         "scales": [
             2,
             3
@@ -1488,7 +1478,7 @@
     },
     "CheckmarkLargeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CheckmarkLargeIcon.png",
-        "hash": "1056652d77dbc8aafad674bf157fbd40",
+        "hash": "5a0d5d16e378eea1c4baa447014a7b8d",
         "scales": [
             2,
             3
@@ -1498,7 +1488,7 @@
     },
     "CheckmarkSmallBoldIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CheckmarkSmallBoldIcon.png",
-        "hash": "2ad217083f2ae114878394d4891fe371",
+        "hash": "0af0ba3bc14ec9d739cb106297182e82",
         "scales": [
             2,
             3
@@ -1508,7 +1498,7 @@
     },
     "CheckmarkSmallIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CheckmarkSmallIcon.png",
-        "hash": "891c859eaa0db68f1684de56ce5d59a4",
+        "hash": "9308032f5fa11bfa234356eeef2b2afb",
         "scales": [
             2,
             3
@@ -1537,7 +1527,7 @@
     },
     "ChevronLargeDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronLargeDownIcon.png",
-        "hash": "a990bcbff9890bc8b72dcadb1907f9b1",
+        "hash": "3cb1cd2fa7a6da13fc0880992d84830f",
         "scales": [
             2,
             3
@@ -1547,7 +1537,7 @@
     },
     "ChevronLargeLeftIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronLargeLeftIcon.png",
-        "hash": "801cfd1cdb8635da2a5d7cb56f502b7b",
+        "hash": "a31dcad33e17aebec69c2bc953578b8c",
         "scales": [
             2,
             3
@@ -1557,7 +1547,7 @@
     },
     "ChevronLargeRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronLargeRightIcon.png",
-        "hash": "bd352adec1efefc926fa9dd864f8d8a8",
+        "hash": "f61397c85b763a9994503922893c5cdc",
         "scales": [
             2,
             3
@@ -1567,7 +1557,7 @@
     },
     "ChevronLargeUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronLargeUpIcon.png",
-        "hash": "29793de5f8cd525de35d9952ffb031dd",
+        "hash": "b0762f0f9ef3f22f62e92b1be981b656",
         "scales": [
             2,
             3
@@ -1577,7 +1567,7 @@
     },
     "ChevronSmallDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronSmallDownIcon.png",
-        "hash": "e1086972e0a9e7b8ccff5a8c18d291b8",
+        "hash": "5b035d589db27733a20b85bf911f23f4",
         "scales": [
             2,
             3
@@ -1587,7 +1577,7 @@
     },
     "ChevronSmallRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronSmallRightIcon.png",
-        "hash": "82303a0b5a712f8b62cf109de3e05ad3",
+        "hash": "7726a7882d06e6e78ae64010f2194cb2",
         "scales": [
             2,
             3
@@ -1597,7 +1587,7 @@
     },
     "ChevronSmallUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ChevronSmallUpIcon.png",
-        "hash": "21348de6df7d8d5f0da038d4f17dd6fd",
+        "hash": "bf30eef53a437ce985ef971ad53dc6df",
         "scales": [
             2,
             3
@@ -1607,7 +1597,7 @@
     },
     "CircleCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleCheckIcon.png",
-        "hash": "ad0e97d050f9cc2b9fcfd80c0860d2bf",
+        "hash": "b348bee7f820a2b517bf37d55e3687e8",
         "scales": [
             2,
             3
@@ -1617,7 +1607,7 @@
     },
     "CircleCheckIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleCheckIcon-primary.png",
-        "hash": "192b682f0f60829dda48ccb2a9917421",
+        "hash": "62096e4a88a575253eb6fd462d262203",
         "scales": [
             2,
             3
@@ -1627,7 +1617,7 @@
     },
     "CircleCheckIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleCheckIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1637,7 +1627,7 @@
     },
     "CircleErrorIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleErrorIcon.png",
-        "hash": "eb5d73de708115fb28eaa02d0f072ef9",
+        "hash": "30aa8fc019e65f4c737f4e931778dc8d",
         "scales": [
             2,
             3
@@ -1647,7 +1637,7 @@
     },
     "CircleErrorIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleErrorIcon-primary.png",
-        "hash": "9d600f789f18fae27223c6a32c06511d",
+        "hash": "1e1e46eec6660d437f35f3f24436b1f2",
         "scales": [
             2,
             3
@@ -1657,7 +1647,7 @@
     },
     "CircleErrorIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleErrorIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1667,7 +1657,7 @@
     },
     "CircleInformationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleInformationIcon.png",
-        "hash": "9afd5fff19d0d26c917270d0d4125f69",
+        "hash": "4c4875cd4c49fe939bf4d60a5725442b",
         "scales": [
             2,
             3
@@ -1677,7 +1667,7 @@
     },
     "CircleInformationIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleInformationIcon-primary.png",
-        "hash": "f6a880459d652620c0543bdeee2b1c13",
+        "hash": "3028fc3b9c18301c7ab90fe78a4fe122",
         "scales": [
             2,
             3
@@ -1687,7 +1677,7 @@
     },
     "CircleInformationIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleInformationIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1697,7 +1687,7 @@
     },
     "CircleMinusIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleMinusIcon-primary.png",
-        "hash": "2ce318921c1935a4fb8b14d55f91f079",
+        "hash": "e6ba31eca2c8ddc4f039de8023bf31e2",
         "scales": [
             2,
             3
@@ -1707,7 +1697,7 @@
     },
     "CircleMinusIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleMinusIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1717,7 +1707,7 @@
     },
     "CirclePlayIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlayIcon-primary.png",
-        "hash": "facd86dda9a7c7cd664c95f694e5338d",
+        "hash": "9de1d1536cca7d178c8e207b2f2b3b74",
         "scales": [
             2,
             3
@@ -1727,7 +1717,7 @@
     },
     "CirclePlayIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlayIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1737,7 +1727,7 @@
     },
     "CirclePlusIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon-primary.png",
-        "hash": "43ffdb29bdf4608cee6930b7efdc614f",
+        "hash": "72b3328f534a47da0a7a5900209c0b7e",
         "scales": [
             2,
             3
@@ -1747,7 +1737,7 @@
     },
     "CirclePlusIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1757,7 +1747,7 @@
     },
     "CircleQuestionIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleQuestionIcon.png",
-        "hash": "d15ae58c9e165d5ead3e83f2a1c218a3",
+        "hash": "102bd7c84e99c257acb3e830242223e3",
         "scales": [
             2,
             3
@@ -1767,7 +1757,7 @@
     },
     "CircleQuestionIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleQuestionIcon-primary.png",
-        "hash": "a4ddae7d243eed4e0596ae3b0a7749fd",
+        "hash": "807851737fd28437326df3468a442f01",
         "scales": [
             2,
             3
@@ -1777,7 +1767,7 @@
     },
     "CircleQuestionIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleQuestionIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1787,7 +1777,7 @@
     },
     "CircleXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleXIcon.png",
-        "hash": "fae8c21fa309979285991c5355ca9335",
+        "hash": "88df5c832b935fed96e52c66883efce1",
         "scales": [
             2,
             3
@@ -1797,7 +1787,7 @@
     },
     "CircleXIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleXIcon-primary.png",
-        "hash": "8646022cf7ae7b91cc41e4f3e69cc0c1",
+        "hash": "737159bf8222c1bab03c6bbf25897f2f",
         "scales": [
             2,
             3
@@ -1807,7 +1797,7 @@
     },
     "CircleXIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CircleXIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1846,7 +1836,7 @@
     },
     "ClipboardCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClipboardCheckIcon.png",
-        "hash": "aa4818ece5bb8e53f0c4982e0a8de4df",
+        "hash": "369fa628c069c90b124c528b5b7761eb",
         "scales": [
             2,
             3
@@ -1856,7 +1846,7 @@
     },
     "ClipboardListIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClipboardListIcon.png",
-        "hash": "abe513d3e06dcc767b3bf67635e8823c",
+        "hash": "2b9ad8191bd13b0792ea2593f6d2436a",
         "scales": [
             2,
             3
@@ -1866,7 +1856,7 @@
     },
     "ClipsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClipsIcon.png",
-        "hash": "4052de5bb79d1fca8290c13f5085b6de",
+        "hash": "e5597814a0893b2321f6b666c9cfcb40",
         "scales": [
             2,
             3
@@ -1876,7 +1866,7 @@
     },
     "ClockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClockIcon.png",
-        "hash": "7688860db46f39abcc25e198a70a3433",
+        "hash": "4f8209d43b68c85b7d0082c7ff2ee467",
         "scales": [
             2,
             3
@@ -1886,7 +1876,7 @@
     },
     "ClockWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClockWarningIcon.png",
-        "hash": "d94141fa311e34696739d3d7dcdd1ee9",
+        "hash": "cc5db5ae696f6fff236bd5ec86149ea8",
         "scales": [
             2,
             3
@@ -1896,7 +1886,7 @@
     },
     "ClockXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClockXIcon.png",
-        "hash": "1296a29bdb41a54a00f9937c6d23da98",
+        "hash": "226ed58dad930480ad107f4d4be693ca",
         "scales": [
             2,
             3
@@ -1917,7 +1907,7 @@
     },
     "ClosedCaptionsOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClosedCaptionsOutlineIcon.png",
-        "hash": "c720d1b24586d677fbc698798c6ef4b8",
+        "hash": "3bac70827e1cda41cbf3151bd70f8bf3",
         "scales": [
             2,
             3
@@ -1958,7 +1948,7 @@
     },
     "ClydeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClydeIcon.png",
-        "hash": "d84263daf767f87e9c9442a5f92429f8",
+        "hash": "9dd37f954b23d7c3c7ed4428be93436f",
         "scales": [
             2,
             3
@@ -2007,7 +1997,7 @@
     },
     "CompassIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CompassIcon.png",
-        "hash": "dd2bbb564bf8763afe16fd002c89d0c5",
+        "hash": "12a4d8395e3abea32057fe2300095318",
         "scales": [
             2,
             3
@@ -2026,7 +2016,7 @@
     },
     "ConnectionAverageIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ConnectionAverageIcon.png",
-        "hash": "c1e04a45221d1b3f49b66aa0e9767072",
+        "hash": "16973d3bfaa25a7f859197c42600199c",
         "scales": [
             2,
             3
@@ -2036,7 +2026,7 @@
     },
     "ConnectionBadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ConnectionBadIcon.png",
-        "hash": "a107d4ca1ffc740ad769b9821279d478",
+        "hash": "dc0a363d1f3dc7866119ad201bb2fb23",
         "scales": [
             2,
             3
@@ -2046,7 +2036,7 @@
     },
     "ConnectionFineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ConnectionFineIcon.png",
-        "hash": "2f5f4e1f9d2db9f69a2f2939c35de57f",
+        "hash": "0ff257d39ab7974aff5ee268ffa8943f",
         "scales": [
             2,
             3
@@ -2074,7 +2064,7 @@
     },
     "ConnectionUnknownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ConnectionUnknownIcon.png",
-        "hash": "21460359640e44892f93e71160435768",
+        "hash": "cdcfa8cc54fcc2cb4d65b71b7f263bd0",
         "scales": [
             2,
             3
@@ -2115,7 +2105,7 @@
     },
     "CopyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CopyIcon.png",
-        "hash": "e18471b93655d54106c5bf2cc5538095",
+        "hash": "80a5e55e13e087bb3bdbd3250e2a13c1",
         "scales": [
             2,
             3
@@ -2125,7 +2115,7 @@
     },
     "CreditCardIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CreditCardIcon.png",
-        "hash": "55c52ca0b22801b000332ac3461ceb51",
+        "hash": "8cab4fe136f4e8a8dc73f9bc3b13b713",
         "scales": [
             2,
             3
@@ -2135,7 +2125,7 @@
     },
     "CrownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CrownIcon.png",
-        "hash": "b671c4ece47bf7a9adaf1f35cecb7dff",
+        "hash": "4b284d0951f11493bf6f5f4c83f841fe",
         "scales": [
             2,
             3
@@ -2175,7 +2165,7 @@
     },
     "CrunchyrollNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CrunchyrollNeutralIcon.png",
-        "hash": "401e50b31fcfe8a8e56c4435843122d1",
+        "hash": "24b237fc943d3bc35a4b3cb04c57b99f",
         "scales": [
             2,
             3
@@ -2411,7 +2401,7 @@
     },
     "DenyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DenyIcon.png",
-        "hash": "138ada28d145cfdd6360ad2d1e5c19e7",
+        "hash": "2f1e90a04dc00fecc9c8de8bbc3221f0",
         "scales": [
             2,
             3
@@ -2482,7 +2472,7 @@
     },
     "DoorExitIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DoorExitIcon.png",
-        "hash": "bcf6d145abea284d4a8095640611c7da",
+        "hash": "85a2f27254125f3d2adf3b514ea4fbd1",
         "scales": [
             2,
             3
@@ -2492,7 +2482,7 @@
     },
     "DoubleCheckmarkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DoubleCheckmarkIcon.png",
-        "hash": "071892191446bc61a526af305b2bc356",
+        "hash": "a30260e604e85a9cdc62e420fb1bc0be",
         "scales": [
             2,
             3
@@ -2502,7 +2492,7 @@
     },
     "DownloadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DownloadIcon.png",
-        "hash": "0b43798204a1408b4a8f0913789616ca",
+        "hash": "69ad990cd3c9b3023cf6437375e2fe6f",
         "scales": [
             2,
             3
@@ -2512,7 +2502,7 @@
     },
     "DragIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DragIcon.png",
-        "hash": "4b4cb077de02191be62c130d7296e02f",
+        "hash": "2d603ff3e5eee8462a5d57f18591212a",
         "scales": [
             2,
             3
@@ -2572,7 +2562,7 @@
     },
     "EducationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EducationIcon.png",
-        "hash": "5d918b0c323ff696736dcb779d439df1",
+        "hash": "445bd99b8178d101264980f9518e7c4c",
         "scales": [
             2,
             3
@@ -2591,7 +2581,7 @@
     },
     "EmbedIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EmbedIcon.png",
-        "hash": "3106eab174b28feb25d4f94d636ccc20",
+        "hash": "d719904d4bea03490520b57d2e5fb4a0",
         "scales": [
             2,
             3
@@ -2867,7 +2857,7 @@
     },
     "EnvelopeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EnvelopeIcon.png",
-        "hash": "1b838cd8c116b7d0f05570133171d535",
+        "hash": "326d87050a865ebcf4c6a50dd35ff440",
         "scales": [
             2,
             3
@@ -2913,7 +2903,7 @@
     },
     "ExperimentalCheckpointIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ExperimentalCheckpointIcon.png",
-        "hash": "8011404acd894c270411554cb3dbc263",
+        "hash": "e2f35893f933ba61ccefbd78592b084f",
         "scales": [
             2,
             3
@@ -2923,7 +2913,7 @@
     },
     "ExperimentalGameControllerLinkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ExperimentalGameControllerLinkIcon.png",
-        "hash": "9bc3be00c95ebd1e955b0d887967faab",
+        "hash": "12c6df4c60eaf0ecb1997dbc93361ced",
         "scales": [
             2,
             3
@@ -2933,7 +2923,7 @@
     },
     "EyeDropperIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EyeDropperIcon.png",
-        "hash": "bdd61114e89dfedc69ea28fd8efac2a0",
+        "hash": "14d655512c6957dbd782f937e3d7b6d6",
         "scales": [
             2,
             3
@@ -2943,7 +2933,7 @@
     },
     "EyeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EyeIcon.png",
-        "hash": "201488581b7fe3d6d81481c028a755e5",
+        "hash": "f4fa15df4f0b932cd293085f0cfa2115",
         "scales": [
             2,
             3
@@ -2953,7 +2943,7 @@
     },
     "EyeSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EyeSlashIcon.png",
-        "hash": "8d7e616194077687d34d1d49be064528",
+        "hash": "4a12ac2218b7fd44aa1ac18dc88bcfbd",
         "scales": [
             2,
             3
@@ -2963,7 +2953,7 @@
     },
     "FacebookNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FacebookNeutralIcon.png",
-        "hash": "cf4d98e823fe71a982a8629c761ab215",
+        "hash": "13a50880e340445ddda90c92569fb371",
         "scales": [
             2,
             3
@@ -3176,7 +3166,7 @@
     },
     "FileIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FileIcon.png",
-        "hash": "ef3c42744a152851bf99a540fea54e81",
+        "hash": "d45462ca92e7ad22ef8d07d6c97536b1",
         "scales": [
             2,
             3
@@ -3186,7 +3176,7 @@
     },
     "FileUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FileUpIcon.png",
-        "hash": "45028c672e22c99a1fd0625d3a9c5bfd",
+        "hash": "d0fee03fd6c44c419061ad8acbaa28bc",
         "scales": [
             2,
             3
@@ -3196,7 +3186,7 @@
     },
     "FileWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FileWarningIcon.png",
-        "hash": "e300a3f40981ec262ea6991a006348e2",
+        "hash": "27cbee684e0b4da30c103bc74f79350d",
         "scales": [
             2,
             3
@@ -3206,7 +3196,7 @@
     },
     "FiltersHorizontalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FiltersHorizontalIcon.png",
-        "hash": "49db3aef4d4700402c64f1cd777829b2",
+        "hash": "a252f6813fbe4de5ba822522c3f504e8",
         "scales": [
             2,
             3
@@ -3236,7 +3226,7 @@
     },
     "FireIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FireIcon.png",
-        "hash": "553ea3d84243a2c902c0134d04be579f",
+        "hash": "e9abc463351963728f29020efd2b6ac2",
         "scales": [
             2,
             3
@@ -3246,7 +3236,7 @@
     },
     "FlagIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FlagIcon.png",
-        "hash": "7c32a599a8616d4ba3cd387222a13a32",
+        "hash": "88649cc905f8610641d77b5f0a1b135c",
         "scales": [
             2,
             3
@@ -3266,7 +3256,7 @@
     },
     "FlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FlashIcon.png",
-        "hash": "7c9eeb902328f2154fd446d754ca705e",
+        "hash": "b71008e63f6a77c74ab7d03c99f0e87a",
         "scales": [
             2,
             3
@@ -3276,7 +3266,7 @@
     },
     "FolderIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FolderIcon.png",
-        "hash": "28936017ddd5970d759e526753eea508",
+        "hash": "dc84ea8aee41116f88e214e5bdbee88d",
         "scales": [
             2,
             3
@@ -3286,7 +3276,7 @@
     },
     "FolderPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FolderPlusIcon.png",
-        "hash": "3791b73c3a39b57c6edff41d0c550ab3",
+        "hash": "99f1a7ff018d7191d8a6659e40143cca",
         "scales": [
             2,
             3
@@ -3296,7 +3286,7 @@
     },
     "FoodIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FoodIcon.png",
-        "hash": "94250c8c7259e239c5e2b72f9b121f4e",
+        "hash": "13bace001ca5b1045ea9514d4482ca8d",
         "scales": [
             2,
             3
@@ -3306,7 +3296,7 @@
     },
     "ForumIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ForumIcon.png",
-        "hash": "b92916ddb59b705330cb9cbd43e97222",
+        "hash": "65ea629ab3b5c39d4b10412cc72b0e89",
         "scales": [
             2,
             3
@@ -3316,7 +3306,7 @@
     },
     "ForumLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ForumLockIcon.png",
-        "hash": "e3ccc6efe86169d15907b8e146769d89",
+        "hash": "647919a9eda56814476d9c9d56b7f28c",
         "scales": [
             2,
             3
@@ -3326,7 +3316,7 @@
     },
     "ForumWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ForumWarningIcon.png",
-        "hash": "8ac9415a18546fa96dfecb5a0cb694f8",
+        "hash": "e97c5d24d5fd4bf55802b5228e2bc5b3",
         "scales": [
             2,
             3
@@ -3345,7 +3335,7 @@
     },
     "FriendsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FriendsIcon.png",
-        "hash": "981d0e7cd55e1e87ee09b7dabe6e553f",
+        "hash": "48f4adc4a06f8601cf364b35b68645ec",
         "scales": [
             2,
             3
@@ -3365,7 +3355,7 @@
     },
     "FullscreenEnterIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/FullscreenEnterIcon.png",
-        "hash": "4a20529ca3f4f5df985cdf6bceeaffb8",
+        "hash": "ed03a7d3d8f6d242856aa1548582280b",
         "scales": [
             2,
             3
@@ -3413,7 +3403,7 @@
     },
     "GameControllerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GameControllerIcon.png",
-        "hash": "a00424f73ce52a1a27c38f4248ae5422",
+        "hash": "e680902e864724f474ae8f70fb1d7846",
         "scales": [
             2,
             3
@@ -3443,7 +3433,7 @@
     },
     "GifIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GifIcon.png",
-        "hash": "4e04b1290bcf6ded9d78b70a8220ba89",
+        "hash": "a333b4d54b908efbf29afe6221422e97",
         "scales": [
             2,
             3
@@ -3489,7 +3479,7 @@
     },
     "GiftIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GiftIcon.png",
-        "hash": "3e6dda7ec363047a166abf168c6820c6",
+        "hash": "b1576b1422d6762cc89c0a0c0f612202",
         "scales": [
             2,
             3
@@ -3499,7 +3489,7 @@
     },
     "GlobeEarthIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GlobeEarthIcon.png",
-        "hash": "3ca2f7dd0885c404027e27a942a5127e",
+        "hash": "b424ebad4b8678389643262b477ec43a",
         "scales": [
             2,
             3
@@ -3578,7 +3568,7 @@
     },
     "GridSquareIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GridSquareIcon.png",
-        "hash": "8092c4f3e379f358ee9c54b0aa75c315",
+        "hash": "74d1abdb8a51df8677242205d5859ee7",
         "scales": [
             2,
             3
@@ -3598,7 +3588,7 @@
     },
     "GroupArrowDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GroupArrowDownIcon.png",
-        "hash": "6b20e14de0274c94dc41af2aa1407c9c",
+        "hash": "e535ea871b8155df08d1e92a6b532c6c",
         "scales": [
             2,
             3
@@ -3608,7 +3598,7 @@
     },
     "GroupIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GroupIcon.png",
-        "hash": "5aaea4d9dceb6ed6ac0bbfe762d647c5",
+        "hash": "45e56b0ad20f9774b74dbe6cbb00fca0",
         "scales": [
             2,
             3
@@ -3618,7 +3608,7 @@
     },
     "GroupPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/GroupPlusIcon.png",
-        "hash": "eb2b8a8321a2f042fd8682190f558a62",
+        "hash": "bb27df9356a92ff7d0817ecf2e92a6ab",
         "scales": [
             2,
             3
@@ -3731,7 +3721,7 @@
     },
     "HammerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HammerIcon.png",
-        "hash": "05408e776ba54f3dd721c6cdf08b36e3",
+        "hash": "9efbede8b87c94f401364acf34876922",
         "scales": [
             2,
             3
@@ -3741,7 +3731,7 @@
     },
     "HandRequestDenyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HandRequestDenyIcon.png",
-        "hash": "9848a97316cf66a6c63f7d71690e245c",
+        "hash": "9bcd40cb62b748b314b1aa933da9be99",
         "scales": [
             2,
             3
@@ -3751,7 +3741,7 @@
     },
     "HandRequestSpeakIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HandRequestSpeakIcon.png",
-        "hash": "718ae715fa6eab84d7a2ff2a1ee0a5b3",
+        "hash": "f9f36b748bcc7c6393cf056bc860ba1e",
         "scales": [
             2,
             3
@@ -3761,7 +3751,7 @@
     },
     "HandRequestSpeakListIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HandRequestSpeakListIcon.png",
-        "hash": "ff1b124d1f3e27fd07befd0e2e0c47dc",
+        "hash": "2b05b694fba9643d8f0981005b85363f",
         "scales": [
             2,
             3
@@ -3771,7 +3761,7 @@
     },
     "HashmarkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HashmarkIcon.png",
-        "hash": "51000ccaece735437bf112faac3853e7",
+        "hash": "ec58bf96c6588d5215316bd58185df8c",
         "scales": [
             2,
             3
@@ -3812,7 +3802,7 @@
     },
     "HeadphonesDenyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HeadphonesDenyIcon.png",
-        "hash": "94b12886f89547c66a6656874ecdd961",
+        "hash": "26a105133bc5945e946c7ea7ee9b7c50",
         "scales": [
             2,
             3
@@ -3822,7 +3812,7 @@
     },
     "HeadphonesIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HeadphonesIcon.png",
-        "hash": "4950ff099939b570e75debcacf36b0b1",
+        "hash": "a0fed3d5ee42ebb9ad1c288960e20143",
         "scales": [
             2,
             3
@@ -3832,7 +3822,7 @@
     },
     "HeadphonesSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HeadphonesSlashIcon.png",
-        "hash": "bef64c88afc88b702dbc29dbcf3de6e8",
+        "hash": "841d46455ae53fb7e7901a2d793c8d1a",
         "scales": [
             2,
             3
@@ -3842,7 +3832,7 @@
     },
     "HeartIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HeartIcon.png",
-        "hash": "4469990a790ebd801d7565857b75b62f",
+        "hash": "da6ec93cb6f195effa280fb7f17ecf03",
         "scales": [
             2,
             3
@@ -3881,7 +3871,7 @@
     },
     "HomeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HomeIcon.png",
-        "hash": "841b9d3b93d538f10c8c5fcf1cf5e68c",
+        "hash": "5955c1de44d7b88d2400fe6925a132a5",
         "scales": [
             2,
             3
@@ -3891,7 +3881,7 @@
     },
     "HourglassIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HourglassIcon.png",
-        "hash": "479b66c21e09d8e14899d0db0865bc89",
+        "hash": "245a1c93543c3efa179c5c568a81ab81",
         "scales": [
             2,
             3
@@ -3938,7 +3928,7 @@
     },
     "HubIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/HubIcon.png",
-        "hash": "de6eff84decc1a7535d9692248657420",
+        "hash": "1b3439060ebda06fe40481920d14ab8c",
         "scales": [
             2,
             3
@@ -4613,17 +4603,8 @@
         "width": 24,
         "height": 24
     },
-    "ic_experimental_confetti_24px": {
-        "file": "app/images/native/icons/ic_experimental_confetti_24px.png",
-        "hash": "9f1271331251d9a72c4540385055628c",
-        "scales": [
-            1
-        ],
-        "width": 48,
-        "height": 48
-    },
     "ic_eye": {
-        "file": "app/modules/media_viewer/native/images/ic_eye.png",
+        "file": "app/modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -6725,7 +6706,7 @@
     },
     "IdIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/IdIcon.png",
-        "hash": "e7c4ed02b2d582ff365ebd7c471da1b9",
+        "hash": "04715753b3b5054cbeafeeccc623cce3",
         "scales": [
             2,
             3
@@ -6805,7 +6786,7 @@
     },
     "ImageBrokenIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageBrokenIcon.png",
-        "hash": "2cc12475b86ec666f22048081ae849a6",
+        "hash": "f2544d1d7cd22a9db68344b0501b8da1",
         "scales": [
             2,
             3
@@ -6815,7 +6796,7 @@
     },
     "ImageFileIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageFileIcon.png",
-        "hash": "e5c54314608da71a9046cda446eda1e4",
+        "hash": "daa7f2b4e8e638bfc92a516f5f1680cd",
         "scales": [
             2,
             3
@@ -6825,7 +6806,7 @@
     },
     "ImageIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageIcon.png",
-        "hash": "a25fb5eb2a7e4a76710b429f6362a392",
+        "hash": "2d4d53bdc068bd3353b60f1df052f2b1",
         "scales": [
             2,
             3
@@ -6835,7 +6816,7 @@
     },
     "ImageLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageLockIcon.png",
-        "hash": "24d10b3983b1b1963c76330bac193744",
+        "hash": "682b267ac67d437a2b9d803ffa2b1e0e",
         "scales": [
             2,
             3
@@ -6845,7 +6826,7 @@
     },
     "ImagePlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImagePlusIcon.png",
-        "hash": "7e525b536db1faf82842085d8213d582",
+        "hash": "75c81c55daa6efc42dd07d17d6b2d19a",
         "scales": [
             2,
             3
@@ -6855,7 +6836,7 @@
     },
     "ImagesIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImagesIcon.png",
-        "hash": "540d09ef804c353bee45b4966ef74caf",
+        "hash": "1c6fcd29df03754c2552fe528b29ba6b",
         "scales": [
             2,
             3
@@ -6865,7 +6846,7 @@
     },
     "ImageTextIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageTextIcon.png",
-        "hash": "309bdaaba276c515504c0a4616921838",
+        "hash": "b191595a7f3df6e7807ea696cffe591c",
         "scales": [
             2,
             3
@@ -6875,7 +6856,7 @@
     },
     "ImageWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ImageWarningIcon.png",
-        "hash": "d691c63d6c91575dda7314ca9d2a4761",
+        "hash": "f97d68721e0849975142a3c58e6e4217",
         "scales": [
             2,
             3
@@ -9407,7 +9388,7 @@
     },
     "InstagramNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/InstagramNeutralIcon.png",
-        "hash": "2758ae9e8cdde0ba8c16ac2189bb87bc",
+        "hash": "7de970c9dcaee47aad4fa5f41dc9451d",
         "scales": [
             2,
             3
@@ -9447,7 +9428,7 @@
     },
     "InventoryIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/InventoryIcon.png",
-        "hash": "048586dbdcf5208bc513eb083d58fa64",
+        "hash": "e0fd71b2130e715f6f93a2a4bd0c6ba0",
         "scales": [
             2,
             3
@@ -9505,7 +9486,7 @@
     },
     "KeyboardIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/KeyboardIcon.png",
-        "hash": "335ec0bdab7b6ed6db724b9a5e4b2601",
+        "hash": "0f9473ffe9e27ec29e50e980efe2f0cf",
         "scales": [
             2,
             3
@@ -9515,7 +9496,7 @@
     },
     "KeyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/KeyIcon.png",
-        "hash": "f92cc45e17446cdd8d1e792b6bff1e16",
+        "hash": "9e5fa46edad99ee8f0b64f6e992e1848",
         "scales": [
             2,
             3
@@ -9544,49 +9525,29 @@
     },
     "krisp_logo_dark": {
         "file": "app/images/native/krisp_logo_dark.png",
-        "hash": "94359afb7068397bdd0be62a5d06ebbf",
+        "hash": "6d3bdfffed77899f44fd075e4ef2e92a",
         "scales": [
             1,
             2,
             3
         ],
-        "width": 67,
-        "height": 30
-    },
-    "krisp_logo_dark_small": {
-        "file": "app/images/native/krisp_logo_dark_small.png",
-        "hash": "2fd8e7e47761a19e39b56c7a337062ed",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 53,
-        "height": 24
+        "width": 195,
+        "height": 92
     },
     "krisp_logo_light": {
         "file": "app/images/native/krisp_logo_light.png",
-        "hash": "20c21baf484302d344cdc26d5e8c27ee",
+        "hash": "a075205f01081abc73c7a94b31634a53",
         "scales": [
             1,
             2,
             3
         ],
-        "width": 67,
-        "height": 30
-    },
-    "krisp_logo_light_small": {
-        "file": "app/images/native/krisp_logo_light_small.png",
-        "hash": "b30e48e2fcaff5babcd7b1aea71f1255",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 53,
-        "height": 24
+        "width": 195,
+        "height": 92
     },
     "LanguageIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LanguageIcon.png",
-        "hash": "d3ce07add6190d39c1b1be1d195eb290",
+        "hash": "26310276feb1290ca5d9d3ec8d0b1231",
         "scales": [
             2,
             3
@@ -9596,7 +9557,7 @@
     },
     "LaptopPhoneIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LaptopPhoneIcon.png",
-        "hash": "fb87c8a5bd4a093c706c2f6174f271ed",
+        "hash": "95232e4676e5917202366a4ef8d8a309",
         "scales": [
             2,
             3
@@ -9616,7 +9577,7 @@
     },
     "LettersIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LettersIcon.png",
-        "hash": "0bd753c3d3bd127a211013f385021411",
+        "hash": "1b5cbd37a6fa85a319fe55ab5dccf2b6",
         "scales": [
             2,
             3
@@ -9636,7 +9597,7 @@
     },
     "LightbulbIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LightbulbIcon.png",
-        "hash": "45abdf393cb4f7348413506d90bbab34",
+        "hash": "092946457c576199a7db7349fb31cd43",
         "scales": [
             2,
             3
@@ -9687,7 +9648,7 @@
     },
     "LinkExternalMediumIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LinkExternalMediumIcon.png",
-        "hash": "8710a3399449b7f94f9ead97df276836",
+        "hash": "dcf38117e5a3cdcdf164b333d0b65b5d",
         "scales": [
             2,
             3
@@ -9697,7 +9658,7 @@
     },
     "LinkExternalSmallIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LinkExternalSmallIcon.png",
-        "hash": "0efbe7f25548476bf1c3c14d7d9ca919",
+        "hash": "88b9e4c8788e9863c575add881967ca5",
         "scales": [
             2,
             3
@@ -9707,7 +9668,7 @@
     },
     "LinkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LinkIcon.png",
-        "hash": "7378bfdee80ee31964a82dc77503e295",
+        "hash": "59f5792f5519dbc4277a4a95f9e9a960",
         "scales": [
             2,
             3
@@ -9717,7 +9678,7 @@
     },
     "ListBulletsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ListBulletsIcon.png",
-        "hash": "3bbd7c25f5e235701ec3ccec20676f13",
+        "hash": "6d71d5b1656c98aa678fc75e72555324",
         "scales": [
             2,
             3
@@ -9727,7 +9688,7 @@
     },
     "ListViewIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ListViewIcon.png",
-        "hash": "687dbae2ee79854ea38d16ea70b34252",
+        "hash": "42787053f4b8149a58d26fa3ee629219",
         "scales": [
             2,
             3
@@ -9757,7 +9718,7 @@
     },
     "LocationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LocationIcon.png",
-        "hash": "b0bf7945a8282a7342d480036dc4dd04",
+        "hash": "11c7dd90daf0a6ee5fad790b3f2a8ae4",
         "scales": [
             2,
             3
@@ -9786,7 +9747,7 @@
     },
     "LockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LockIcon.png",
-        "hash": "b8e3692fa2d78fb367ae2124f8d6eb37",
+        "hash": "6361afc8b7915953082688b673f9eb52",
         "scales": [
             2,
             3
@@ -9796,7 +9757,7 @@
     },
     "LockUnlockedIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/LockUnlockedIcon.png",
-        "hash": "127e74355dbc7ef292f651d768e1fa95",
+        "hash": "a036a1f5a5a916905d65d92d4e4ceac8",
         "scales": [
             2,
             3
@@ -9834,7 +9795,7 @@
     },
     "MagicDoorIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MagicDoorIcon.png",
-        "hash": "669642507156cd2ac1bb4d4dcd684ffa",
+        "hash": "40d91cec4cd65fb5367f56eb3597e763",
         "scales": [
             2,
             3
@@ -9844,7 +9805,7 @@
     },
     "MagicWandIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MagicWandIcon.png",
-        "hash": "051985e634394e59375413eba7827968",
+        "hash": "f3a8552eb7eb221acd0a79a5eab932bb",
         "scales": [
             2,
             3
@@ -9854,7 +9815,7 @@
     },
     "MagnifyingGlassIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MagnifyingGlassIcon.png",
-        "hash": "5c59b02986d8408c385889a2484c21aa",
+        "hash": "90a51b6e4873fbdc55ddd7edefa19012",
         "scales": [
             2,
             3
@@ -9934,7 +9895,7 @@
     },
     "MedalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MedalIcon.png",
-        "hash": "9015fff71fccef6603dac11827199213",
+        "hash": "2bf7738cbb1d2827663b492fedbd65fb",
         "scales": [
             2,
             3
@@ -9985,7 +9946,7 @@
     },
     "MenuIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MenuIcon.png",
-        "hash": "308f03a4a3f92cdaab846e9b9bb00492",
+        "hash": "6a6fd385acb30b91a0de470ed746ba76",
         "scales": [
             2,
             3
@@ -10062,7 +10023,7 @@
     },
     "MicrophoneArrowRightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MicrophoneArrowRightIcon.png",
-        "hash": "c6888dc1a193ddc0985a166eeb26fefa",
+        "hash": "5e39fe15ee85ee0a81c6e02a401a47ad",
         "scales": [
             2,
             3
@@ -10072,7 +10033,7 @@
     },
     "MicrophoneDenyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MicrophoneDenyIcon.png",
-        "hash": "5b6a3f31c9f3d9dcb73289520cea5af1",
+        "hash": "1c4c311f913754662431278ecb805933",
         "scales": [
             2,
             3
@@ -10082,7 +10043,7 @@
     },
     "MicrophoneIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MicrophoneIcon.png",
-        "hash": "38d7bf79a0177f6e5d7bb90171a85259",
+        "hash": "10f67196ae422217b97e8cea3bc48350",
         "scales": [
             2,
             3
@@ -10092,7 +10053,7 @@
     },
     "MicrophoneSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MicrophoneSlashIcon.png",
-        "hash": "24625d676d27cc4a50b3402dd4fd8e17",
+        "hash": "74bc57717b49d55fb4f2d958b983c6bc",
         "scales": [
             2,
             3
@@ -10142,7 +10103,7 @@
     },
     "MobilePhoneIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MobilePhoneIcon.png",
-        "hash": "5daf4b422bbe9f23697775eea9a10fe4",
+        "hash": "243ffd87a329e1a5941c91192c232025",
         "scales": [
             2,
             3
@@ -10152,7 +10113,7 @@
     },
     "MobilePhoneSettingsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MobilePhoneSettingsIcon.png",
-        "hash": "0508b75da11d41e6a59d74b297f47e46",
+        "hash": "e0471dd70c51b44f6fe3c89ec72a7182",
         "scales": [
             2,
             3
@@ -10162,7 +10123,7 @@
     },
     "ModerationIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ModerationIcon.png",
-        "hash": "8ec02acb2ee85d2f51e86d0ed393cd51",
+        "hash": "b67aa229b9140b99bc864dd6595b07dc",
         "scales": [
             2,
             3
@@ -10192,7 +10153,7 @@
     },
     "MoreHorizontalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MoreHorizontalIcon.png",
-        "hash": "7c1a49338ff6eef66022d2b7b1eba348",
+        "hash": "b723fc485c19e17770a555e2c004e3f4",
         "scales": [
             2,
             3
@@ -10202,7 +10163,7 @@
     },
     "MoreVerticalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MoreVerticalIcon.png",
-        "hash": "31956fadf5e590f02ce009d05169e004",
+        "hash": "a66dd7d4419d14757cd87fa26c3f7256",
         "scales": [
             2,
             3
@@ -10222,7 +10183,7 @@
     },
     "MusicIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MusicIcon.png",
-        "hash": "d5739f43fd220d37859829f6aa608821",
+        "hash": "84795881684dab839986061541d40dcd",
         "scales": [
             2,
             3
@@ -10232,7 +10193,7 @@
     },
     "MusicSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MusicSlashIcon.png",
-        "hash": "960f0a274b3f63e2ad65364f7df6c8c7",
+        "hash": "da7e07a1a8619512113f6299fd698653",
         "scales": [
             2,
             3
@@ -10260,7 +10221,7 @@
     },
     "NatureIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/NatureIcon.png",
-        "hash": "b33dc2d7b053297709d9eb10ccfc5f4e",
+        "hash": "16b88e2444f63053ccfbaa207b30c377",
         "scales": [
             2,
             3
@@ -10289,7 +10250,7 @@
     },
     "NewUserIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/NewUserIcon.png",
-        "hash": "3eae10a275d6cd4a544ad50ffcfe66b0",
+        "hash": "339f121ff8a1874a08e6286ebe277fff",
         "scales": [
             2,
             3
@@ -10299,7 +10260,7 @@
     },
     "NintendoSwitchNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/NintendoSwitchNeutralIcon.png",
-        "hash": "e431d34f396e55af143d3dca395cf713",
+        "hash": "54454ec05141defad7de7b8f4047e4d9",
         "scales": [
             2,
             3
@@ -10418,7 +10379,7 @@
     },
     "NitroWheelIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/NitroWheelIcon.png",
-        "hash": "160522c3ca5f61b133b684d600afa4ad",
+        "hash": "ea52fba934ac0ac3bd317df1e99310e1",
         "scales": [
             2,
             3
@@ -10623,7 +10584,7 @@
     },
     "ObjectIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ObjectIcon.png",
-        "hash": "07a7118839ee9df98506a6e0619bc199",
+        "hash": "9717f94c837e1adf11bae117d6452fdd",
         "scales": [
             2,
             3
@@ -10643,7 +10604,7 @@
     },
     "OrbsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/OrbsIcon.png",
-        "hash": "1d207f0b2416c202161667e6f7d5c74e",
+        "hash": "2a494bf31a8fce454d9a34e7b4733430",
         "scales": [
             2,
             3
@@ -10653,7 +10614,7 @@
     },
     "PaintbrushThinIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PaintbrushThinIcon.png",
-        "hash": "0f3ad63393d7c6270b44d74fab333a11",
+        "hash": "72a908c23a32dede5c1d337bdae1f6ce",
         "scales": [
             2,
             3
@@ -10663,7 +10624,7 @@
     },
     "PaintPaletteIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PaintPaletteIcon.png",
-        "hash": "04c874067fea9211e8be57540f7d6aee",
+        "hash": "21e003989865a533b8ade4d6057666f0",
         "scales": [
             2,
             3
@@ -10673,7 +10634,7 @@
     },
     "PaperIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PaperIcon.png",
-        "hash": "ac73d571337c8bd01bb4841f723b9f0a",
+        "hash": "98c764657f7d7bcc78dc6f51537f3d20",
         "scales": [
             2,
             3
@@ -10683,7 +10644,7 @@
     },
     "PaperPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PaperPlusIcon.png",
-        "hash": "e735e2f8ae73b9f028e86422cb479e63",
+        "hash": "9c5050c39893a0b1917aaebf5222a939",
         "scales": [
             2,
             3
@@ -10713,7 +10674,7 @@
     },
     "PauseIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PauseIcon.png",
-        "hash": "79dcddfb5cf7e96d506c167e6d0110f4",
+        "hash": "50acfdf084b8dccbfa3fd235ea0ab8ff",
         "scales": [
             2,
             3
@@ -10723,7 +10684,7 @@
     },
     "PawPrintIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PawPrintIcon.png",
-        "hash": "9fc62fd33f6277c2ef08c7e617845112",
+        "hash": "25f19451f5d2c99cd6ec205cdb161980",
         "scales": [
             2,
             3
@@ -10733,7 +10694,7 @@
     },
     "PencilIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PencilIcon.png",
-        "hash": "b38705c98163081f2b99111b58892bae",
+        "hash": "cca1683d2e3f03b22aeccf2338ac34e5",
         "scales": [
             2,
             3
@@ -10743,7 +10704,7 @@
     },
     "PencilSparkleIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PencilSparkleIcon.png",
-        "hash": "a4ae8570d2fdb2dec4d8e8e54d003522",
+        "hash": "34bcb101d8ad81b6b518834c07d2d8e8",
         "scales": [
             2,
             3
@@ -10813,7 +10774,7 @@
     },
     "PhoneCallIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PhoneCallIcon.png",
-        "hash": "a4110506e704d3a43f14a9a16c444138",
+        "hash": "16c6b442fda4eac3d31953a248db287f",
         "scales": [
             2,
             3
@@ -10823,7 +10784,7 @@
     },
     "PhoneHangUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PhoneHangUpIcon.png",
-        "hash": "f5f352346f87ea2b13742fb9df0453e0",
+        "hash": "7cfdbb3a5c92139b48646eb9b4dc4bd7",
         "scales": [
             2,
             3
@@ -10833,7 +10794,7 @@
     },
     "PhoneIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PhoneIcon.png",
-        "hash": "582e1570d605d054414cbc00863790ca",
+        "hash": "5ddcab1dfb3ea2910dcf65d902f7014e",
         "scales": [
             2,
             3
@@ -10843,7 +10804,7 @@
     },
     "PiggyBankIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PiggyBankIcon.png",
-        "hash": "d173df27fe58df55e38d3e4f4fe71785",
+        "hash": "143e26cb852ab3a2fec5030c4a2be93f",
         "scales": [
             2,
             3
@@ -10853,7 +10814,7 @@
     },
     "PinIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PinIcon.png",
-        "hash": "6cf2d57aecec98e811281100d71cf283",
+        "hash": "439b0f0b31c142c701f9df8995c9c3d8",
         "scales": [
             2,
             3
@@ -10882,7 +10843,7 @@
     },
     "PlayIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PlayIcon.png",
-        "hash": "a3aada8ab420dd524cf6b2c66ea67c6e",
+        "hash": "fb730923ce2d4a12fbadb44b35e2ab8a",
         "scales": [
             2,
             3
@@ -10892,7 +10853,7 @@
     },
     "PlaystationNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PlaystationNeutralIcon.png",
-        "hash": "70019ebbebb38f31c63efbb29e262d62",
+        "hash": "36a084fbace40e0af86aab037df7e8b7",
         "scales": [
             2,
             3
@@ -10902,7 +10863,7 @@
     },
     "PlusLargeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PlusLargeIcon.png",
-        "hash": "9a0724138196325ee62545b479584dae",
+        "hash": "925ba669dce4508a3d121b3e5d7504b9",
         "scales": [
             2,
             3
@@ -10912,7 +10873,7 @@
     },
     "PlusMediumIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PlusMediumIcon.png",
-        "hash": "17fd2019d098603e0afc4b8cd7299b20",
+        "hash": "5dd78d279cf4e486538a5a399b9d186a",
         "scales": [
             2,
             3
@@ -10922,7 +10883,7 @@
     },
     "PlusSmallIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PlusSmallIcon.png",
-        "hash": "90b373cfceff0d2ecc96304e7b82e542",
+        "hash": "d6d04f6fd100db0e028d8a7cb876c1d6",
         "scales": [
             2,
             3
@@ -10932,7 +10893,7 @@
     },
     "PollsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PollsIcon.png",
-        "hash": "a227b34c0969a9fb0c14b2b1f2e2a941",
+        "hash": "651f23c3c753462d68eac15857d95d39",
         "scales": [
             2,
             3
@@ -11070,7 +11031,7 @@
     },
     "PuzzlePieceIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PuzzlePieceIcon.png",
-        "hash": "e121f8d8d1d690f2e1c6c1d43357a1ab",
+        "hash": "024f706b58be308175ccfea599a24fa9",
         "scales": [
             2,
             3
@@ -11080,7 +11041,7 @@
     },
     "QrCodeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/QrCodeIcon.png",
-        "hash": "608dac8462acd17a390736501a1ea253",
+        "hash": "69386a89574adadfc8c731b0ebe97716",
         "scales": [
             2,
             3
@@ -11100,7 +11061,7 @@
     },
     "QuestsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/QuestsIcon.png",
-        "hash": "86c0af82eaedd6a1d9190c6700fb276f",
+        "hash": "1fa18e452308090b708bccf68d32d023",
         "scales": [
             2,
             3
@@ -11110,7 +11071,7 @@
     },
     "ReactionIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
-        "hash": "dacea0e99f283d0454e6dc2370867a8a",
+        "hash": "816d3367ed7ad398b85a9db798abd14c",
         "scales": [
             2,
             3
@@ -11120,7 +11081,7 @@
     },
     "RecordPlayerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
-        "hash": "493935d9d9a8ea9f28b4346f923318e6",
+        "hash": "88d061a76594f03187e4bf612ecd1256",
         "scales": [
             2,
             3
@@ -11159,7 +11120,7 @@
     },
     "RedoIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RedoIcon.png",
-        "hash": "99c2aceced1d5a009665b153565dfa9a",
+        "hash": "dd2a0b94f40de95bd052299937729cb5",
         "scales": [
             2,
             3
@@ -11169,7 +11130,7 @@
     },
     "RefreshIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RefreshIcon.png",
-        "hash": "6a0ddc4dfa01243a568d62e1d4d9933f",
+        "hash": "18c89fd1745cc930d5fdef187c29415f",
         "scales": [
             2,
             3
@@ -11230,7 +11191,7 @@
     },
     "RetryIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RetryIcon.png",
-        "hash": "9d06ecf4fa40c3cb5dd1cbdef165878f",
+        "hash": "21e36c80e9a51d8780057b6a8d2cda34",
         "scales": [
             2,
             3
@@ -11249,7 +11210,7 @@
     },
     "RobotIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/RobotIcon.png",
-        "hash": "1c48572d91d29ec9aa512397cade997b",
+        "hash": "21db92a27b93246affffebffc643fa50",
         "scales": [
             2,
             3
@@ -11439,7 +11400,7 @@
     },
     "ScienceIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScienceIcon.png",
-        "hash": "8a4a1069bf57ea1e4fd89f15b14de70e",
+        "hash": "c4aafc313c19c8dfb2febbf6a9f3f39c",
         "scales": [
             2,
             3
@@ -11449,7 +11410,7 @@
     },
     "ScreenArrowIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScreenArrowIcon.png",
-        "hash": "6dc556564dccdeaa9fc47d728f60c941",
+        "hash": "8ae8cd58696df0f2482b1c03da777e48",
         "scales": [
             2,
             3
@@ -11459,7 +11420,7 @@
     },
     "ScreenIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScreenIcon.png",
-        "hash": "31430c39d7b6bb1ceb1648254a36dcec",
+        "hash": "3e6fe3ecdb0f8e87763bacde4d23e88b",
         "scales": [
             2,
             3
@@ -11510,7 +11471,7 @@
     },
     "ScreenStreamIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScreenStreamIcon.png",
-        "hash": "a2b71edaf00bff072a36bb808a7ee2ce",
+        "hash": "830b5db3aec14ee65feeebddbee80837",
         "scales": [
             2,
             3
@@ -11520,7 +11481,7 @@
     },
     "ScreenXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ScreenXIcon.png",
-        "hash": "8f507c6609c7181a85772a1d8f4544f0",
+        "hash": "2b2583083c566fe1f8857c3a82a9520f",
         "scales": [
             2,
             3
@@ -11539,7 +11500,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
+        "file": "app/modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
@@ -11579,7 +11540,7 @@
     },
     "SendMessageIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SendMessageIcon.png",
-        "hash": "8f2d5b5d7d195d31d7c1c4efb488d841",
+        "hash": "4c483b0c9e54993ee793f71f5dfd0dd4",
         "scales": [
             2,
             3
@@ -11649,7 +11610,7 @@
     },
     "ServerGridIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ServerGridIcon.png",
-        "hash": "e738f9fc1d3e623065c2fca09649a60d",
+        "hash": "e9285df658430fca76cf2f2ba7d66b97",
         "scales": [
             2,
             3
@@ -11659,7 +11620,7 @@
     },
     "ServerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ServerIcon.png",
-        "hash": "6b04013845e5b3d2c3ce09d288cf8881",
+        "hash": "0cdd6c39fef7c46ccd8a4f3f10bf07fd",
         "scales": [
             2,
             3
@@ -11688,7 +11649,7 @@
     },
     "SettingsCircleIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-primary.png",
-        "hash": "80aabe2d99d59230f208e7a8c5d4cc04",
+        "hash": "0c3b3e49b19eb40a2d2906f1651140f3",
         "scales": [
             2,
             3
@@ -11698,7 +11659,7 @@
     },
     "SettingsCircleIcon-secondary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-secondary.png",
-        "hash": "8f87098f8174ccb50850e15888618898",
+        "hash": "689094a4f8cd9cb139eea6db728161bd",
         "scales": [
             2,
             3
@@ -11708,7 +11669,7 @@
     },
     "SettingsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SettingsIcon.png",
-        "hash": "f82e2b1044a49b5d2b87c0a192ecec4e",
+        "hash": "6a69da2e4b6ddba847b1faacc22e718f",
         "scales": [
             2,
             3
@@ -11718,7 +11679,7 @@
     },
     "SettingsInfoIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SettingsInfoIcon.png",
-        "hash": "3207a55f0027bb8f74f6d43ebf0b34f0",
+        "hash": "cf48a47923589f64877ce012e03ba342",
         "scales": [
             2,
             3
@@ -11748,7 +11709,7 @@
     },
     "ShareIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShareIcon.png",
-        "hash": "fadcb3c72f722fa0536bae292c1fc782",
+        "hash": "1ba8aee85fb2209ed1ac801ba9ec6a11",
         "scales": [
             2,
             3
@@ -11758,7 +11719,7 @@
     },
     "ShieldIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShieldIcon.png",
-        "hash": "55002ee2e7c6080c4e1487434a86b9f9",
+        "hash": "c08328563136f3429b2ce207c4547231",
         "scales": [
             2,
             3
@@ -11768,7 +11729,7 @@
     },
     "ShieldLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShieldLockIcon.png",
-        "hash": "b43252936fe6190500afd5ad2e0b51c9",
+        "hash": "a3ed1cfd2b7a4acc6d52677247378bb8",
         "scales": [
             2,
             3
@@ -11778,7 +11739,7 @@
     },
     "ShieldUserIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShieldUserIcon.png",
-        "hash": "5e7e2668c0d26e6f03eb6638c7764cce",
+        "hash": "4af7b80bbc7b181075c3f0cccb6941fc",
         "scales": [
             2,
             3
@@ -11788,7 +11749,7 @@
     },
     "ShopIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShopIcon.png",
-        "hash": "14e5b36da2054e6d28477dc67b33e323",
+        "hash": "ee17f6d9d232f70635f0a016ca0d4f97",
         "scales": [
             2,
             3
@@ -11798,7 +11759,7 @@
     },
     "ShopSparkleIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShopSparkleIcon.png",
-        "hash": "68d99b423f7fbfdca4b9e3c0a3ceec93",
+        "hash": "48e193e729088d0f4af7fceb4678ce92",
         "scales": [
             2,
             3
@@ -11808,7 +11769,7 @@
     },
     "SignPostIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SignPostIcon.png",
-        "hash": "95d89c5821c59805ce69b9f960542bd6",
+        "hash": "d2e4f8d1a5e725c06c52f69bc76f39e5",
         "scales": [
             2,
             3
@@ -11818,7 +11779,7 @@
     },
     "SlashBoxIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SlashBoxIcon.png",
-        "hash": "7a0f959d1dd5fca3c25a104922c4a02b",
+        "hash": "0489becc4ac38b25ee4122dbba00e960",
         "scales": [
             2,
             3
@@ -11828,7 +11789,7 @@
     },
     "SlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SlashIcon.png",
-        "hash": "b265b57576db6b3ce5c544b64fc948f5",
+        "hash": "b46c44371e4fc698fcc67e03def958a2",
         "scales": [
             2,
             3
@@ -11849,7 +11810,7 @@
     },
     "SoundboardIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SoundboardIcon.png",
-        "hash": "2e1acef4727f11d8c6f47c5cd540eac0",
+        "hash": "7d0d4230759e98597acdab55ff37d6c2",
         "scales": [
             2,
             3
@@ -11859,7 +11820,7 @@
     },
     "SoundboardSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SoundboardSlashIcon.png",
-        "hash": "2d3fe4cd6994482d6a711d86ec1a24a3",
+        "hash": "37f369422a77994467be36f55489e2e9",
         "scales": [
             2,
             3
@@ -11909,7 +11870,7 @@
     },
     "SpeedometerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SpeedometerIcon.png",
-        "hash": "526abb597e4f6a051190c5013a05dd89",
+        "hash": "39aa3d4c438ec723ccce2d01786b9598",
         "scales": [
             2,
             3
@@ -11937,7 +11898,7 @@
     },
     "SpoilerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SpoilerIcon.png",
-        "hash": "9e3b26ff5f7da5af97bcf5cc0641d606",
+        "hash": "061f79c2b8e6e061f67aedb1c69c81ce",
         "scales": [
             2,
             3
@@ -11947,7 +11908,7 @@
     },
     "SpotifyNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SpotifyNeutralIcon.png",
-        "hash": "e66de514227c7ad7a3d1f465ba789308",
+        "hash": "98c24b6d0a55bc9f463f125184ddf3b2",
         "scales": [
             2,
             3
@@ -11979,7 +11940,7 @@
     },
     "StaffBadgeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StaffBadgeIcon.png",
-        "hash": "b46c756391a68f91f38e786021adddcf",
+        "hash": "f44616c52dafb79fae480c68d526ebfa",
         "scales": [
             2,
             3
@@ -12009,7 +11970,7 @@
     },
     "StageIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StageIcon.png",
-        "hash": "e8da5cd5fb30cd1d0da443340c10aa5c",
+        "hash": "8e7c5f155034cf7884f1428e89b5860c",
         "scales": [
             2,
             3
@@ -12019,7 +11980,7 @@
     },
     "StageLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StageLockIcon.png",
-        "hash": "d08f45a397c8429b9bb9b70061ca2128",
+        "hash": "dfdfcb607488ca68723ce632fe73e221",
         "scales": [
             2,
             3
@@ -12039,7 +12000,7 @@
     },
     "StampIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StampIcon.png",
-        "hash": "057b2e4f4075ef53d1010ad25c27d454",
+        "hash": "4159d13c19594de0f42a4861e59c9782",
         "scales": [
             2,
             3
@@ -12095,7 +12056,7 @@
     },
     "StarIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StarIcon.png",
-        "hash": "d949344d3d6921faf4f8a6248ec31bbb",
+        "hash": "586d175efcadce8ef9d1851cda30f4f2",
         "scales": [
             2,
             3
@@ -12105,7 +12066,7 @@
     },
     "StarOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StarOutlineIcon.png",
-        "hash": "9941b404840d769bd8e67a01a87ae6a6",
+        "hash": "6cccebd00660718ae3f226b7a317a10f",
         "scales": [
             2,
             3
@@ -12195,7 +12156,7 @@
     },
     "StickerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StickerIcon.png",
-        "hash": "3a83d347232beb2ab0a2279d72f8651b",
+        "hash": "872b17e7fcb73da60c462048d7b9ecb9",
         "scales": [
             2,
             3
@@ -12205,7 +12166,7 @@
     },
     "StickerPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StickerPlusIcon.png",
-        "hash": "dd86c67fa2b2c5e85266c66ac58a5632",
+        "hash": "02cbda3d60e71af6eb6a29456f08f9f7",
         "scales": [
             2,
             3
@@ -12215,7 +12176,7 @@
     },
     "StopIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/StopIcon.png",
-        "hash": "97bbfc926ecaa084c0258711933f1eca",
+        "hash": "d7aede280cd16178bf3bdc82c0f70fbd",
         "scales": [
             2,
             3
@@ -12339,7 +12300,7 @@
     },
     "SuperReactionIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SuperReactionIcon.png",
-        "hash": "1545c2228191a31ad5f0fe35ff9df807",
+        "hash": "0b7dc87cd2d9da017fd484c168f76354",
         "scales": [
             2,
             3
@@ -12377,7 +12338,7 @@
     },
     "TagIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TagIcon.png",
-        "hash": "3d0558d4b5e14f8add06ba9c39ec1eae",
+        "hash": "ed4bfb70daca42f0a6a828da55c3fc37",
         "scales": [
             2,
             3
@@ -12387,7 +12348,7 @@
     },
     "TagsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TagsIcon.png",
-        "hash": "ebe2aa6d707e62c445daf925c82b6f7e",
+        "hash": "a5103c857a3206c24c2e0d6627354967",
         "scales": [
             2,
             3
@@ -12397,7 +12358,7 @@
     },
     "TeacupIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TeacupIcon.png",
-        "hash": "e5b550421af63285b9422b3ce8c41b80",
+        "hash": "86b0ae9df4171f2e8aa096878111249c",
         "scales": [
             2,
             3
@@ -12417,7 +12378,7 @@
     },
     "TextControllerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextControllerIcon.png",
-        "hash": "946301eb6511b125db1d62995d8eef49",
+        "hash": "aa3bf5fde9af21e55dfd8368b9aaaf36",
         "scales": [
             2,
             3
@@ -12427,7 +12388,7 @@
     },
     "TextIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextIcon.png",
-        "hash": "d698fa33703653fb919422bd873d6a67",
+        "hash": "edfa6fac6c17fe3a89b59e9fd261fa6a",
         "scales": [
             2,
             3
@@ -12437,7 +12398,7 @@
     },
     "TextLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextLockIcon.png",
-        "hash": "017b561b2313b76e4415c05075d7ab15",
+        "hash": "a41e3e604ad06d51297e1584d82c093a",
         "scales": [
             2,
             3
@@ -12447,7 +12408,7 @@
     },
     "TextWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextWarningIcon.png",
-        "hash": "6b7459ce3c1c0aaa52d40dca5beeaa69",
+        "hash": "4f055c482a5386d393f6b9bf8363f15e",
         "scales": [
             2,
             3
@@ -12466,7 +12427,7 @@
     },
     "ThemeDarkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThemeDarkIcon.png",
-        "hash": "de097e9607ce3270b930dcdf69e18c96",
+        "hash": "a1c46677e1871901fb7c5fa8673e6262",
         "scales": [
             2,
             3
@@ -12476,7 +12437,7 @@
     },
     "ThemeLightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThemeLightIcon.png",
-        "hash": "11e757c9c0bc6265e7c9332342dc5cb8",
+        "hash": "000b6d83eeb7b9a08eae0e905089f583",
         "scales": [
             2,
             3
@@ -12486,7 +12447,7 @@
     },
     "ThemeMidnightIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThemeMidnightIcon.png",
-        "hash": "32e4cfcc0a960b58ca68c2ce663d6a78",
+        "hash": "d415e9ae6db962a437b5c21e64fa1fc3",
         "scales": [
             2,
             3
@@ -12496,7 +12457,7 @@
     },
     "ThreadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThreadIcon.png",
-        "hash": "a66895377b0f7bf2dd6f2cab1849348e",
+        "hash": "0391fa8934fe71e927b2d3759d18c6e9",
         "scales": [
             2,
             3
@@ -12506,7 +12467,7 @@
     },
     "ThreadLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThreadLockIcon.png",
-        "hash": "c37087e2071373db18aeea281567025b",
+        "hash": "99274532ad7fe616c031212e677b32e8",
         "scales": [
             2,
             3
@@ -12516,7 +12477,7 @@
     },
     "ThreadMinusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThreadMinusIcon.png",
-        "hash": "2afa76cb73cd0530bf7b369abfc4f5d6",
+        "hash": "89539677214e7da7a3d0ab532a004640",
         "scales": [
             2,
             3
@@ -12526,7 +12487,7 @@
     },
     "ThreadPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThreadPlusIcon.png",
-        "hash": "dfc732054137add14f7eba7bbb6a477f",
+        "hash": "352770fed1a4fa2b677d4dba77ec7222",
         "scales": [
             2,
             3
@@ -12536,7 +12497,7 @@
     },
     "ThumbsDownIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThumbsDownIcon.png",
-        "hash": "7eb3a9e3107d67501326ccf971f8cb21",
+        "hash": "11cfaa284d665f42def1820b34c4b413",
         "scales": [
             2,
             3
@@ -12546,7 +12507,7 @@
     },
     "ThumbsUpIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ThumbsUpIcon.png",
-        "hash": "4c241667f757e837a93344b0a35d155f",
+        "hash": "086137c2c4b0053a65d40f204eb6dcd1",
         "scales": [
             2,
             3
@@ -12556,7 +12517,7 @@
     },
     "TicketIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TicketIcon.png",
-        "hash": "daf75da995e37397f78dbdb504098655",
+        "hash": "9f7730cfec273b3aefa81068405ca905",
         "scales": [
             2,
             3
@@ -12666,7 +12627,7 @@
     },
     "TiktokNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TiktokNeutralIcon.png",
-        "hash": "096b6fcc05dcdee8f299bd6f9db65398",
+        "hash": "c2327ba4f46c86cec04ffa62146f78ee",
         "scales": [
             2,
             3
@@ -12676,7 +12637,7 @@
     },
     "TimerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TimerIcon.png",
-        "hash": "4c551932630f694188623999aa24a068",
+        "hash": "448bae2e0fd674a996dc5ad9c30c38c1",
         "scales": [
             2,
             3
@@ -12704,7 +12665,7 @@
     },
     "TopicsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TopicsIcon.png",
-        "hash": "3eed9a4a9eefd710fa34ece62ab7dad5",
+        "hash": "b4d0d5b29053e9f83c91c8e9cf223955",
         "scales": [
             2,
             3
@@ -12723,7 +12684,7 @@
     },
     "TrainIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TrainIcon.png",
-        "hash": "7ffae565e39242117ad9f560fe64ed56",
+        "hash": "0b857719cad21b09b5bc6a1b36ef90c4",
         "scales": [
             2,
             3
@@ -12733,7 +12694,7 @@
     },
     "TranscriptOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TranscriptOutlineIcon.png",
-        "hash": "65b9279e2234b52697bfc4c10f371986",
+        "hash": "170a4ca70fd70b404de920bf3d7fb195",
         "scales": [
             2,
             3
@@ -12743,7 +12704,7 @@
     },
     "TrashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TrashIcon.png",
-        "hash": "a2e86f21319540716a1856aa6649f68b",
+        "hash": "63692f01ceb95b933854355b4366b0b6",
         "scales": [
             2,
             3
@@ -12753,7 +12714,7 @@
     },
     "TreehouseIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TreehouseIcon.png",
-        "hash": "b1797542a5108ce22eadaf8f097c0177",
+        "hash": "84a1e2a3b13ea7ae45e68f1bb8755810",
         "scales": [
             2,
             3
@@ -12763,7 +12724,7 @@
     },
     "TrophyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TrophyIcon.png",
-        "hash": "85c177758b89df6faa8a8a09fac9443f",
+        "hash": "8f1bbba7f556b427515687c5a1498793",
         "scales": [
             2,
             3
@@ -12773,7 +12734,7 @@
     },
     "TvIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TvIcon.png",
-        "hash": "95afd450cd79ccaed78ab0ace4d3c433",
+        "hash": "425fd1d103664a046b21c52b0c94bd45",
         "scales": [
             2,
             3
@@ -12793,7 +12754,7 @@
     },
     "TwitterNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TwitterNeutralIcon.png",
-        "hash": "69b268b4360ffa8699edd33f75ca0837",
+        "hash": "ae39bece93fb2e7db2a552f53a1d8fa1",
         "scales": [
             2,
             3
@@ -12812,7 +12773,7 @@
     },
     "UndoIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UndoIcon.png",
-        "hash": "323498ae21a1f1cd52570d9622a76094",
+        "hash": "478ad61b60d788058d0d96af1bc21098",
         "scales": [
             2,
             3
@@ -12822,7 +12783,7 @@
     },
     "UnknownGameIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
-        "hash": "d3fab159eb6fbc67101ebfb3c406ad51",
+        "hash": "f008a1e156929bb73f7856d4125be1de",
         "scales": [
             2,
             3
@@ -12832,7 +12793,7 @@
     },
     "UnsendIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UnsendIcon.png",
-        "hash": "e419c87bb474b83d8ead0592b77205c7",
+        "hash": "b112bed94724e290979184b038a2466d",
         "scales": [
             2,
             3
@@ -12863,7 +12824,7 @@
     },
     "UploadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UploadIcon.png",
-        "hash": "2e572a29e9af8213f7dc54326ce49908",
+        "hash": "807f233ca0659267ac6a7a7c185750fc",
         "scales": [
             2,
             3
@@ -12873,7 +12834,7 @@
     },
     "UserCheckIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserCheckIcon.png",
-        "hash": "64f1473e63520d6f53dd5bf113a1f7b0",
+        "hash": "6547bb7b75af42cdcf6f655476c57657",
         "scales": [
             2,
             3
@@ -12883,7 +12844,7 @@
     },
     "UserCircleIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserCircleIcon.png",
-        "hash": "960d0f85422978c68765dd19762354d8",
+        "hash": "aeb97360fc8a478ac4fc8b1c1de862ea",
         "scales": [
             2,
             3
@@ -12893,7 +12854,7 @@
     },
     "UserIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserIcon.png",
-        "hash": "0c8440daf2061d40e035c2f7c90450ab",
+        "hash": "dadf5e8629c7ac90f77087c81be9e773",
         "scales": [
             2,
             3
@@ -12903,7 +12864,7 @@
     },
     "UserMinusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserMinusIcon.png",
-        "hash": "2c4c3a7cfa64491da77dc75efb3b52a0",
+        "hash": "262032a99df43d5b5fc14dd6e335ec5e",
         "scales": [
             2,
             3
@@ -12913,7 +12874,7 @@
     },
     "UserPlatformIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserPlatformIcon.png",
-        "hash": "2a337ae45cbb0831e40b0c1ff7312794",
+        "hash": "be43e21cf5c02d4b0049f88c4c28b27d",
         "scales": [
             2,
             3
@@ -12923,7 +12884,7 @@
     },
     "UserPlusIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserPlusIcon.png",
-        "hash": "b2ceb94f5827e6e22d3ffc3c4da9bbc0",
+        "hash": "2381a1885285b8c890b0d982c354f0c5",
         "scales": [
             2,
             3
@@ -12933,7 +12894,7 @@
     },
     "UserSquareIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserSquareIcon.png",
-        "hash": "5f5cc26d37dcdf31855d615bb7effa4a",
+        "hash": "26d707b294c340a6d911d79614dfcf77",
         "scales": [
             2,
             3
@@ -13001,7 +12962,7 @@
     },
     "VideoIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VideoIcon.png",
-        "hash": "465365754fd138a1021b6ad7719372ff",
+        "hash": "b001972a2062de923c0ef45fb0f2ab23",
         "scales": [
             2,
             3
@@ -13011,7 +12972,7 @@
     },
     "VideoSlashIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VideoSlashIcon.png",
-        "hash": "260052583c381dd7a4defa724b480cdf",
+        "hash": "20ca4fccddfc5f7d5dcd160e3780f977",
         "scales": [
             2,
             3
@@ -13101,7 +13062,7 @@
     },
     "VoiceLockIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceLockIcon.png",
-        "hash": "02ba620eddaacdf06aceecda54653458",
+        "hash": "6a4cc906c5daac2cf926d52c36d410c1",
         "scales": [
             2,
             3
@@ -13111,7 +13072,7 @@
     },
     "VoiceNormalIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceNormalIcon.png",
-        "hash": "cc324f144a73be92344133c62a6f21b8",
+        "hash": "bcad3b63bb6c5f25c2901fb8c5f2565d",
         "scales": [
             2,
             3
@@ -13121,7 +13082,7 @@
     },
     "VoiceWarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceWarningIcon.png",
-        "hash": "0c90905b14ec6d9461bf66c0401e087f",
+        "hash": "55dfae0c7ba72f2b92f72dd1258be0b7",
         "scales": [
             2,
             3
@@ -13131,7 +13092,7 @@
     },
     "VoiceXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceXIcon.png",
-        "hash": "f32647c4c0a632dbd78ecbcd7d77f0c5",
+        "hash": "263e74b5cef19733fe0997ef93692174",
         "scales": [
             2,
             3
@@ -13141,7 +13102,7 @@
     },
     "VrHeadsetIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VrHeadsetIcon.png",
-        "hash": "f16c6088979504305da66d860bb158c5",
+        "hash": "436501dcf3af209f85edbd0cde1cf184",
         "scales": [
             2,
             3
@@ -13151,7 +13112,7 @@
     },
     "WarningIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WarningIcon.png",
-        "hash": "ba2e75015b1baf3aa35bb6efd5d517fa",
+        "hash": "714cace31cd94dfd310a81e91a4f474a",
         "scales": [
             2,
             3
@@ -13201,7 +13162,7 @@
     },
     "WebhookIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WebhookIcon.png",
-        "hash": "cca4bc9bdcf7f0ecc4b3bbb7108a7afc",
+        "hash": "3e2badc1249cc69ec49347f40860e657",
         "scales": [
             2,
             3
@@ -13230,7 +13191,7 @@
     },
     "WindowLaunchIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WindowLaunchIcon.png",
-        "hash": "6a07eec6bf9265592cfd087c56a7331a",
+        "hash": "6fc18e0c40f0ce37259a8a45cc634c66",
         "scales": [
             2,
             3
@@ -13262,7 +13223,7 @@
     },
     "WrenchIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WrenchIcon.png",
-        "hash": "2d605e6a1513d39e0c108292d5d4b960",
+        "hash": "9779f408b9993cb5ff1d16605904895b",
         "scales": [
             2,
             3
@@ -13455,7 +13416,7 @@
     },
     "XboxNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XboxNeutralIcon.png",
-        "hash": "7f5d0979e05af669b97165d0358e0c43",
+        "hash": "19df1496d383b11a3c06005cfad8642b",
         "scales": [
             2,
             3
@@ -13465,7 +13426,7 @@
     },
     "XLargeBoldIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XLargeBoldIcon.png",
-        "hash": "bbe61deaeb080665ca690e03ddfa8316",
+        "hash": "592885ee3e468eed5c831b254dabed04",
         "scales": [
             2,
             3
@@ -13475,7 +13436,7 @@
     },
     "XLargeIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XLargeIcon.png",
-        "hash": "2a19453d30bcf09c66862c607e01d1c4",
+        "hash": "7a48deb52103abdcd6ae6a0e506c31e4",
         "scales": [
             2,
             3
@@ -13485,7 +13446,7 @@
     },
     "XSmallBoldIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XSmallBoldIcon.png",
-        "hash": "6c41be7f2733f7591e1009cbc9113f53",
+        "hash": "17a13293f4c169520d9b82a5356a44b3",
         "scales": [
             2,
             3
@@ -13495,7 +13456,7 @@
     },
     "XSmallIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/XSmallIcon.png",
-        "hash": "5e600e46dca30fc16f3966fecc5bbd07",
+        "hash": "53e0cb37966d1e59c066dbe649801bfd",
         "scales": [
             2,
             3
@@ -13553,7 +13514,7 @@
     },
     "YoutubeNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/YoutubeNeutralIcon.png",
-        "hash": "99bd8472881f28e17e128d92464077ad",
+        "hash": "f7452bce082f803ca25331a8a5a275ef",
         "scales": [
             2,
             3
