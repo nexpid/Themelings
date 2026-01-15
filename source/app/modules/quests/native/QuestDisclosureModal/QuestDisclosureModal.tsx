@@ -81,8 +81,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var2;
         var2 = var1.gameTitle;
         var _closure2_slot2 = var2;
-        var1 = var1.cosponsorName;
-        var _closure2_slot3 = var1;
+        var2 = var1.cosponsorName;
+        var _closure2_slot3 = var2;
+        var1 = var1.isVideoQuest;
+        var _closure2_slot4 = var1;
         var1 = function onClose() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -94,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)();
             return var1;
         };
-        var _closure2_slot4 = var1;
+        var _closure2_slot5 = var1;
         var6 = {};
         var5 = _closure1_slot4;
         var3 = var5.DISCLOSURE;
@@ -146,10 +148,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['gamePublisher'] = var6;
             var6 = _closure2_slot2;
             var1['gameTitle'] = var6;
-            var6 = _closure2_slot4;
+            var6 = _closure2_slot5;
             var1['onClose'] = var6;
-            var5 = _closure2_slot3;
-            var1['cosponsorName'] = var5;
+            var6 = _closure2_slot3;
+            var1['cosponsorName'] = var6;
+            var5 = _closure2_slot4;
+            var1['isVideoQuest'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

@@ -110,26 +110,35 @@ case 2:
     var15 = function predicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
             var1 = 9;
-            var1 = var4[var1];
+            var1 = var7[var1];
             var4 = undefined;
-            var5 = var3.bind(var4)(var1);
-            var3 = var5.isEligibleForSettingsDefaultsAggregate;
-            var1 = 'SensitiveContentFiltersNotice';
-            var1 = var3.bind(var5)(var1);
-            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+            var3 = var5.bind(var4)(var1);
+            var1 = var3.isEligibleForSettingsDefaultsAggregate;
+            var6 = 'SensitiveContentFiltersNotice';
+            var1 = var1.bind(var3)(var6);
+            var3 = 10;
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getIsGidgetPawtectEnabled;
+            var3 = var3.bind(var5)(var6);
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
+            var1 = var3;
+case 4:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 10;
+            var2 = 11;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isAgeVerified;
             var2 = var2.bind(var3)();
             var1 = !var2;
-case 4:
+case 6:
             return var1;
         }
     };
@@ -165,7 +174,7 @@ case 4:
     var8[0] = var9;
     var5['DATA_AND_PRIVACY'] = var8;
     var _closure1_slot7 = var5;
-    var5 = 11;
+    var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -218,18 +227,18 @@ case 0:
                     var4 = var3.length;
                     var2 = 0;
                     var1 = null;
-                    if(!(var2 !== var4)) { _fun0004_ip = 6; continue _fun0004 }
-case 7:
+                    if(!(var2 !== var4)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var1 = var3[var2];
-case 6:
+case 8:
                     return var1;
                 }
             };
             var7 = var4.bind(var7)(var1, var3);
             var1 = null;
             var3 = var1 == var7;
-            if(var3) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -239,7 +248,7 @@ case 9:
             var6 = var4.bind(var5)(var7, var6, var8);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 8:
+case 10:
             return var1;
         }
     };

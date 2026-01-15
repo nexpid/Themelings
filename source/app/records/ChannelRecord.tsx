@@ -1130,7 +1130,7 @@ case 46:
             }
         };
         var5['get'] = var1;
-        var1 = new Array(53);
+        var1 = new Array(54);
         var1[0] = var5;
         var5 = {};
         var7 = 'topic';
@@ -1934,6 +1934,19 @@ case 67:
         var5['value'] = var7;
         var1[43] = var5;
         var5 = {};
+        var7 = 'isObfuscated';
+        var5['key'] = var7;
+        var7 = function value() {
+            var3 = this;
+            var2 = var3.hasFlag;
+            var1 = _closure1_slot15;
+            var1 = var1.OBFUSCATED;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[44] = var5;
+        var5 = {};
         var7 = 'getGuildId';
         var5['key'] = var7;
         var7 = function value() {
@@ -1942,7 +1955,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[44] = var5;
+        var1[45] = var5;
         var5 = {};
         var7 = 'getApplicationId';
         var5['key'] = var7;
@@ -1952,7 +1965,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[45] = var5;
+        var1[46] = var5;
         var5 = {};
         var7 = 'getDefaultSortOrder';
         var5['key'] = var7;
@@ -1977,7 +1990,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[46] = var5;
+        var1[47] = var5;
         var5 = {};
         var7 = 'getDefaultLayout';
         var5['key'] = var7;
@@ -2031,7 +2044,7 @@ case 71:
             }
         };
         var5['value'] = var7;
-        var1[47] = var5;
+        var1[48] = var5;
         var5 = {};
         var7 = 'getDefaultTagSetting';
         var5['key'] = var7;
@@ -2056,7 +2069,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[48] = var5;
+        var1[49] = var5;
         var5 = {};
         var7 = 'isModeratorReportChannel';
         var5['key'] = var7;
@@ -2069,7 +2082,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[49] = var5;
+        var1[50] = var5;
         var5 = {};
         var7 = 'accessPermissions';
         var5['key'] = var7;
@@ -2082,7 +2095,7 @@ case 51:
             return var1;
         };
         var5['get'] = var7;
-        var1[50] = var5;
+        var1[51] = var5;
         var5 = {};
         var7 = 'hasFlag';
         var5['key'] = var7;
@@ -2101,7 +2114,7 @@ case 51:
             return var1;
         };
         var5['value'] = var7;
-        var1[51] = var5;
+        var1[52] = var5;
         var5 = {};
         var7 = 'isHDStreamSplashed';
         var5['key'] = var7;
@@ -2134,7 +2147,7 @@ case 42:
             }
         };
         var5['get'] = var6;
-        var1[52] = var5;
+        var1[53] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot24 = var4;
-    var4 = 43;
+    var4 = 44;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -391,12 +391,12 @@ case 6:
             var2 = var7[var2];
             var9 = var8.bind(var4)(var2);
             var2 = var9.useIsEligibleForBogoPromotion;
-            var23 = var2.bind(var9)();
+            var22 = var2.bind(var9)();
             var2 = 29;
             var2 = var7[var2];
             var9 = var8.bind(var4)(var2);
             var2 = var9.useShouldShowRobloxConnectionCoachmark;
-            var26 = var2.bind(var9)();
+            var23 = var2.bind(var9)();
             var2 = 30;
             var2 = var7[var2];
             var13 = var8.bind(var4)(var2);
@@ -412,7 +412,7 @@ case 6:
             var9 = {};
             var9['location'] = var12;
             var9 = var13.bind(var14)(var9);
-            var27 = var9.enabled;
+            var26 = var9.enabled;
             var7 = var7[var1];
             var13 = var8.bind(var4)(var7);
             var9 = var13.useStateFromStoresArray;
@@ -598,7 +598,7 @@ case 35:
             var10 = var11.useSelectedDiscountOfferActionSheet;
             var11 = var10.bind(var11)();
             var10 = var11.discountOffer;
-            var22 = var11.discountOfferDismissibleContent;
+            var27 = var11.discountOfferDismissibleContent;
             var11 = var11.markDismissed;
             var14 = 39;
             var14 = var31[var14];
@@ -679,7 +679,7 @@ case 41:
 case 44:
             if(!(var15 == var7)) { _fun0001_ip = 45; continue _fun0001 }
 case 43:
-            if(!(var15 != var22)) { _fun0001_ip = 46; continue _fun0001 }
+            if(!(var15 != var27)) { _fun0001_ip = 46; continue _fun0001 }
 case 47:
             if(!(var15 == var10)) { _fun0001_ip = 48; continue _fun0001 }
 case 46:
@@ -687,85 +687,102 @@ case 46:
 case 50:
             if(!(var15 == var16)) { _fun0001_ip = 51; continue _fun0001 }
 case 49:
+            var18 = new Array(0);
             var28 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var22 = 33;
-            var18 = var18[var22];
-            var18 = var28.bind(var4)(var18);
-            var18 = var18.DismissibleContent;
-            var28 = var18.CUSTOM_APP_ICONS_COACHMARK;
-            var18 = new Array(1);
-            var18[0] = var28;
+            var29 = _closure1_slot2;
+            var27 = 43;
+            var27 = var29[var27];
+            var28 = var28.bind(var4)(var27);
+            var27 = var28.isAppIconsSupported;
+            var27 = var27.bind(var28)();
             if(!var27) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
             var28 = var18.push;
             var29 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var27 = var27[var22];
+            var30 = _closure1_slot2;
+            var27 = 33;
+            var27 = var30[var27];
             var27 = var29.bind(var4)(var27);
             var27 = var27.DismissibleContent;
-            var27 = var27.CHECKPOINT_2025_BOTTOM_SHEET;
+            var27 = var27.CUSTOM_APP_ICONS_COACHMARK;
             var27 = var28.bind(var18)(var27);
 case 52:
             if(!var26) { _fun0001_ip = 54; continue _fun0001 }
 case 55:
             var27 = var18.push;
             var28 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var26 = var26[var22];
+            var29 = _closure1_slot2;
+            var26 = 33;
+            var26 = var29[var26];
             var26 = var28.bind(var4)(var26);
             var26 = var26.DismissibleContent;
-            var26 = var26.ROBLOX_CONNECTION_COACHMARK;
+            var26 = var26.CHECKPOINT_2025_BOTTOM_SHEET;
             var26 = var27.bind(var18)(var26);
 case 54:
             if(!var23) { _fun0001_ip = 56; continue _fun0001 }
 case 57:
             var26 = var18.push;
             var27 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            var23 = var23[var22];
+            var28 = _closure1_slot2;
+            var23 = 33;
+            var23 = var28[var23];
             var23 = var27.bind(var4)(var23);
             var23 = var23.DismissibleContent;
-            var23 = var23.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var23 = var23.ROBLOX_CONNECTION_COACHMARK;
             var23 = var26.bind(var18)(var23);
 case 56:
-            if(!var3) { _fun0001_ip = 58; continue _fun0001 }
+            if(!var22) { _fun0001_ip = 58; continue _fun0001 }
 case 59:
             var23 = var18.push;
             var26 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var22];
-            var3 = var26.bind(var4)(var3);
+            var27 = _closure1_slot2;
+            var22 = 33;
+            var22 = var27[var22];
+            var22 = var26.bind(var4)(var22);
+            var22 = var22.DismissibleContent;
+            var22 = var22.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var22 = var23.bind(var18)(var22);
+case 58:
+            if(!var3) { _fun0001_ip = 60; continue _fun0001 }
+case 61:
+            var22 = var18.push;
+            var23 = _closure1_slot0;
+            var26 = _closure1_slot2;
+            var3 = 33;
+            var3 = var26[var3];
+            var3 = var23.bind(var4)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
-            var3 = var23.bind(var18)(var3);
-case 58:
-            if(!var2) { _fun0001_ip = 60; continue _fun0001 }
-case 61:
+            var3 = var22.bind(var18)(var3);
+case 60:
+            if(!var2) { _fun0001_ip = 62; continue _fun0001 }
+case 63:
             var3 = var18.push;
-            var23 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var22];
-            var2 = var23.bind(var4)(var2);
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var2 = 33;
+            var2 = var23[var2];
+            var2 = var22.bind(var4)(var2);
             var2 = var2.DismissibleContent;
             var2 = var2.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
             var2 = var3.bind(var18)(var2);
-case 60:
-            if(!(var15 != var1)) { _fun0001_ip = 62; continue _fun0001 }
-case 63:
+case 62:
+            if(!(var15 != var1)) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
             var2 = var18.push;
             var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var22];
+            var22 = _closure1_slot2;
+            var1 = 33;
+            var1 = var22[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.INSTALLED_GAME_COMMUNITY_UPSELL;
             var1 = var2.bind(var18)(var1);
-case 62:
-            if(!(var15 == var19)) { _fun0001_ip = 64; continue _fun0001 }
-case 65:
-            if(!(var15 == var21)) { _fun0001_ip = 66; continue _fun0001 }
+case 64:
+            if(!(var15 == var19)) { _fun0001_ip = 66; continue _fun0001 }
 case 67:
+            if(!(var15 == var21)) { _fun0001_ip = 68; continue _fun0001 }
+case 69:
             var3 = _closure1_slot12;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -790,14 +807,6 @@ case 0:
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.CHECKPOINT_2025_BOTTOM_SHEET;
-                    if(!(var1 !== var2)) { _fun0004_ip = 68; continue _fun0004 }
-case 69:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var1 = var1[var7];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.DismissibleContent;
-                    var1 = var1.CUSTOM_APP_ICONS_COACHMARK;
                     if(!(var1 !== var2)) { _fun0004_ip = 70; continue _fun0004 }
 case 71:
                     var3 = _closure1_slot0;
@@ -805,7 +814,7 @@ case 71:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.ROBLOX_CONNECTION_COACHMARK;
+                    var1 = var1.CUSTOM_APP_ICONS_COACHMARK;
                     if(!(var1 !== var2)) { _fun0004_ip = 72; continue _fun0004 }
 case 73:
                     var3 = _closure1_slot0;
@@ -813,7 +822,7 @@ case 73:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+                    var1 = var1.ROBLOX_CONNECTION_COACHMARK;
                     if(!(var1 !== var2)) { _fun0004_ip = 74; continue _fun0004 }
 case 75:
                     var3 = _closure1_slot0;
@@ -821,7 +830,7 @@ case 75:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
+                    var1 = var1.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
                     if(!(var1 !== var2)) { _fun0004_ip = 76; continue _fun0004 }
 case 77:
                     var3 = _closure1_slot0;
@@ -829,7 +838,7 @@ case 77:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
+                    var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
                     if(!(var1 !== var2)) { _fun0004_ip = 78; continue _fun0004 }
 case 79:
                     var3 = _closure1_slot0;
@@ -837,16 +846,24 @@ case 79:
                     var1 = var1[var7];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.INSTALLED_GAME_COMMUNITY_UPSELL;
+                    var1 = var1.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
                     if(!(var1 !== var2)) { _fun0004_ip = 80; continue _fun0004 }
 case 81:
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var1 = var1[var7];
+                    var1 = var3.bind(var4)(var1);
+                    var1 = var1.DismissibleContent;
+                    var1 = var1.INSTALLED_GAME_COMMUNITY_UPSELL;
+                    if(!(var1 !== var2)) { _fun0004_ip = 82; continue _fun0004 }
+case 83:
                     return var4;
-case 80:
+case 82:
                     var2 = _closure2_slot3;
                     var1 = null;
                     var2 = var1 != var2;
-                    if(!var2) { _fun0004_ip = 82; continue _fun0004 }
-case 83:
+                    if(!var2) { _fun0004_ip = 84; continue _fun0004 }
+case 85:
                     var7 = _closure1_slot12;
                     var3 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -863,9 +880,9 @@ case 83:
                     var8 = _closure2_slot3;
                     var2['game'] = var8;
                     var1 = var7.bind(var4)(var3, var2);
-case 82:
+case 84:
                     return var1;
-case 78:
+case 80:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -881,7 +898,7 @@ case 78:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 76:
+case 78:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -897,7 +914,7 @@ case 76:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 74:
+case 76:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -913,7 +930,7 @@ case 74:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 72:
+case 74:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -929,7 +946,7 @@ case 72:
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 70:
+case 72:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -945,7 +962,7 @@ case 70:
                     var1['actionSheetKey'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
-case 68:
+case 70:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -965,8 +982,8 @@ case 68:
             };
             var1['children'] = var18;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 84; continue _fun0001;
-case 66:
+            _fun0001_ip = 86; continue _fun0001;
+case 68:
             var18 = _closure1_slot12;
             var23 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -981,10 +998,10 @@ case 66:
             var23 = var24.getNotificationNudgeCooldownMs;
             var26 = var15 == var25;
             var22 = undefined;
-            if(var26) { _fun0001_ip = 85; continue _fun0001 }
-case 86:
+            if(var26) { _fun0001_ip = 87; continue _fun0001 }
+case 88:
             var22 = var25.timing;
-case 85:
+case 87:
             var22 = var23.bind(var24)(var22);
             var21['cooldownDurationMs'] = var22;
             var2['timeRecurringConfig'] = var21;
@@ -1006,10 +1023,10 @@ case 0:
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
-                    if(!(var2 !== var1)) { _fun0005_ip = 87; continue _fun0005 }
-case 88:
+                    if(!(var2 !== var1)) { _fun0005_ip = 89; continue _fun0005 }
+case 90:
                     return var4;
-case 87:
+case 89:
                     var3 = _closure1_slot12;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1029,9 +1046,9 @@ case 87:
             };
             var2['children'] = var20;
             var1 = var18.bind(var4)(var3, var2);
-case 84:
-            _fun0001_ip = 89; continue _fun0001;
-case 64:
+case 86:
+            _fun0001_ip = 91; continue _fun0001;
+case 66:
             var18 = _closure1_slot12;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -1074,13 +1091,13 @@ case 0:
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.DismissibleContent;
                     var5 = var5.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-                    if(!(var7 !== var5)) { _fun0006_ip = 90; continue _fun0006 }
-case 91:
+                    if(!(var7 !== var5)) { _fun0006_ip = 92; continue _fun0006 }
+case 93:
                     var5 = _closure2_slot1;
-                    _fun0006_ip = 92; continue _fun0006;
-case 90:
-                    var5 = _closure2_slot0;
+                    _fun0006_ip = 94; continue _fun0006;
 case 92:
+                    var5 = _closure2_slot0;
+case 94:
                     var1['coachmarkComponent'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -1088,7 +1105,7 @@ case 92:
             };
             var2['children'] = var19;
             var1 = var18.bind(var4)(var3, var2);
-case 89:
+case 91:
             return var1;
 case 51:
             var3 = _closure1_slot12;
@@ -1105,10 +1122,10 @@ case 51:
             var1['markAsDismissed'] = var17;
             var1['bottomSheetData'] = var16;
             var15 = var15 != var14;
-            if(!var15) { _fun0001_ip = 93; continue _fun0001 }
-case 94:
+            if(!var15) { _fun0001_ip = 95; continue _fun0001 }
+case 96:
             var13 = var14;
-case 93:
+case 95:
             var1['componentId'] = var13;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -164,8 +164,10 @@ case 13:
                 var1['promotionType'] = var3;
                 var3 = var2.partnerId;
                 var1['partnerId'] = var3;
-                var2 = var2.marketingComponents;
-                var1['marketingComponents'] = var2;
+                var3 = var2.marketingComponents;
+                var1['marketingComponents'] = var3;
+                var2 = var2.rewardSkuIds;
+                var1['rewardSkuIds'] = var2;
                 return var1;
             }
         };
@@ -433,12 +435,29 @@ case 37:
                 var5 = var6;
 case 36:
                 var1['partnerId'] = var5;
-                var2 = var2.marketing_components;
-                if(!(var4 == var2)) { _fun0004_ip = 38; continue _fun0004 }
+                var5 = var2.marketing_components;
+                if(!(var4 == var5)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-                var2 = new Array(0);
+                var5 = new Array(0);
 case 38:
-                var1['marketingComponents'] = var2;
+                var1['marketingComponents'] = var5;
+                var5 = var2.metadata;
+                var6 = var4 == var5;
+                var2 = undefined;
+                if(var6) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+                var5 = var5.gift_promotion;
+                var6 = var4 == var5;
+                var2 = undefined;
+                if(var6) { _fun0004_ip = 40; continue _fun0004 }
+case 42:
+                var2 = var5.reward_sku_ids;
+case 40:
+                if(!(var4 == var2)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+                var2 = new Array(0);
+case 43:
+                var1['rewardSkuIds'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;

@@ -143,10 +143,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var7 = var1.isTargetedDisclosure;
-            var21 = var1.gamePublisher;
-            var20 = var1.gameTitle;
+            var22 = var1.gamePublisher;
+            var21 = var1.gameTitle;
+            var19 = var1.isVideoQuest;
             var11 = var1.onClose;
-            var19 = var1.cosponsorName;
+            var20 = var1.cosponsorName;
             var1 = _closure1_slot8;
             var4 = undefined;
             var9 = var1.bind(var4)();
@@ -245,10 +246,11 @@ case 0:
             var18 = var17.bind(var4)(var14);
             var17 = var18.getDisclosureText;
             var14 = {};
-            var14['gamePublisher'] = var21;
-            var14['gameTitle'] = var20;
+            var14['gamePublisher'] = var22;
+            var14['gameTitle'] = var21;
             var14['isTargetedDisclosure'] = var7;
-            var14['cosponsorName'] = var19;
+            var14['cosponsorName'] = var20;
+            var14['isVideoQuest'] = var19;
             var14 = var17.bind(var18)(var14);
             var8['children'] = var14;
             var8 = var12.bind(var4)(var10, var8);

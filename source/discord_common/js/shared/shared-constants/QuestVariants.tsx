@@ -138,6 +138,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PACKAGE_NEW_YEARS'] = var4;
     var1 = 'PACKAGE_NEW_YEARS';
     var2[var4] = var1;
+    var4 = 35;
+    var2['FULL_EPISODE_VIDEO_QUEST'] = var4;
+    var1 = 'FULL_EPISODE_VIDEO_QUEST';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

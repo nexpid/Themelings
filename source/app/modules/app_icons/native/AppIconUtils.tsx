@@ -376,7 +376,7 @@ case 29:
         var6 = var9.default;
 case 17:
         var _closure1_slot13 = var6;
-        var6 = 17;
+        var6 = 18;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;
@@ -582,7 +582,7 @@ case 31:
             return var1;
         };
         var3['useAppIcons'] = var4;
-        var2 = function() {
+        var4 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 16;
@@ -597,7 +597,20 @@ case 31:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var3['navigateToAppIconSettings'] = var2;
+        var3['navigateToAppIconSettings'] = var4;
+        var2 = function isAppIconsSupported() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 17;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.isMetaQuest;
+            var1 = var1.bind(var2)();
+            var1 = !var1;
+            return var1;
+        };
+        var3['isAppIconsSupported'] = var2;
         return var1;
     }
 })();

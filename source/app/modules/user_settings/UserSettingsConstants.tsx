@@ -27,10 +27,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'disable_account';
     var11['DISABLE_ACCOUNT'] = var1;
     var10 = {};
-    var1 = 'reduced_motion';
-    var10['REDUCED_MOTION'] = var1;
-    var1 = 'sync_profile_theme_with_user_theme';
-    var10['SYNC_PROFILE_THEME_WITH_USER_THEME'] = var1;
     var1 = 'legacy_chat_input';
     var10['LEGACY_CHAT_INPUT'] = var1;
     var9 = {};

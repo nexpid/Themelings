@@ -57,21 +57,29 @@ case 0:
             var4 = undefined;
             var _closure2_slot2 = var4;
             var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var7 = 3;
-            var6 = var12[var7];
-            var9 = var10.bind(var4)(var6);
+            var8 = var6[var7];
+            var9 = var10.bind(var4)(var8);
             var8 = var9.useSharedValue;
-            var6 = 4;
-            var6 = var12[var6];
+            var12 = 4;
+            var6 = var6[var12];
             var6 = var10.bind(var4)(var6);
             var6 = var6.TransitionStates;
-            var10 = var6.MOUNTED;
-            var6 = 0;
-            if(!(var11 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+            var6 = var6.MOUNTED;
+            if(!(var11 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = 1;
+            var10 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var12];
+            var6 = var10.bind(var4)(var6);
+            var6 = var6.TransitionStates;
+            var10 = var6.ENTERED;
+            var6 = 0;
+            if(!(var11 === var10)) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
+            var6 = 1;
+case 4:
             var10 = var8.bind(var9)(var6);
             _closure2_slot2 = var10;
             var9 = _closure1_slot3;
@@ -96,8 +104,8 @@ case 0:
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                                 var1 = arg1;
-                                if(!var1) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+                                if(!var1) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                                 var3 = _closure2_slot0;
                                 var5 = _closure1_slot0;
                                 var4 = _closure1_slot2;
@@ -108,9 +116,9 @@ case 5:
                                 var2 = var2.TransitionStates;
                                 var2 = var2.YEETED;
                                 var1 = var3 === var2;
-case 4:
-                                if(!var1) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+case 5:
+                                if(!var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                                 var3 = _closure1_slot0;
                                 var2 = _closure1_slot2;
                                 var1 = 3;
@@ -121,7 +129,7 @@ case 7:
                                 var1 = _closure2_slot1;
                                 var1 = var3.bind(var4)(var1);
                                 var1 = var1.bind(var2)();
-case 6:
+case 7:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -162,21 +170,21 @@ case 6:
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.TransitionStates;
                     var3 = var3.YEETED;
-                    if(!(var4 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 7:
+                    if(!(var4 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 8:
                     var6 = _closure2_slot2;
                     var4 = var6.set;
                     var3 = 1;
                     var3 = var5.bind(var1)(var3);
                     var3 = var4.bind(var6)(var3);
-                    _fun0002_ip = 9; continue _fun0002;
-case 8:
+                    _fun0002_ip = 10; continue _fun0002;
+case 9:
                     var4 = _closure2_slot2;
                     var3 = var4.set;
                     var2 = 0;
                     var2 = var5.bind(var1)(var2);
                     var2 = var3.bind(var4)(var2);
-case 9:
+case 10:
                     return var1;
                 }
             };

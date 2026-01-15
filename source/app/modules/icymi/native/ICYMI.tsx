@@ -1460,7 +1460,7 @@ case 47:
             var21 = 'interactive-text-default';
             var19['color'] = var21;
             var19 = var22.bind(var4)(var20, var19);
-            _fun0010_ip = 18; continue _fun0010;
+            _fun0010_ip = 48; continue _fun0010;
 case 46:
             var21 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -1470,7 +1470,7 @@ case 46:
             var20 = {};
             var20['includeNotificationsCount'] = var23;
             var19 = var22.bind(var4)(var21, var20);
-case 18:
+case 48:
             var18 = var19;
 case 45:
             var14['children'] = var18;
@@ -1570,15 +1570,15 @@ case 0:
             var5 = null;
             var6 = var5 == var2;
             var15 = undefined;
-            if(var6) { _fun0011_ip = 48; continue _fun0011 }
-case 49:
+            if(var6) { _fun0011_ip = 49; continue _fun0011 }
+case 50:
             var2 = var2.params;
             var5 = var5 == var2;
             var15 = undefined;
-            if(var5) { _fun0011_ip = 48; continue _fun0011 }
-case 50:
+            if(var5) { _fun0011_ip = 49; continue _fun0011 }
+case 51:
             var15 = var2.inNestedNavigator;
-case 48:
+case 49:
             var2 = _closure1_slot17;
             var6 = var2.bind(var4)(var3);
             _closure2_slot1 = var6;
@@ -1593,23 +1593,23 @@ case 48:
 case 0:
                     var3 = _closure2_slot0;
                     var1 = undefined;
-                    if(!var3) { _fun0012_ip = 51; continue _fun0012 }
-case 52:
+                    if(!var3) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
                     var2 = _closure2_slot1;
                     var1 = var2.containerOuterTablet;
-case 51:
+case 52:
                     return var1;
                 }
             };
             var13 = var3.bind(var5)(var1, var2);
-            if(var11) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
+            if(var11) { _fun0011_ip = 54; continue _fun0011 }
+case 55:
             var1 = _closure1_slot4;
             var10 = var1.Fragment;
-            _fun0011_ip = 55; continue _fun0011;
-case 53:
+            _fun0011_ip = 56; continue _fun0011;
+case 54:
             var10 = _closure1_slot5;
-case 55:
+case 56:
             var3 = _closure1_slot14;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -1626,15 +1626,15 @@ case 55:
             var5 = {};
             var9 = _closure1_slot16;
             var8 = {};
-            if(var11) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
+            if(var11) { _fun0011_ip = 57; continue _fun0011 }
+case 58:
             var11 = {};
-            _fun0011_ip = 58; continue _fun0011;
-case 56:
+            _fun0011_ip = 59; continue _fun0011;
+case 57:
             var12 = {};
             var12['style'] = var13;
             var11 = var12;
-case 58:
+case 59:
             var23 = var8;
             var22 = var11;
             var11 = copyDataProperties(var23, var22);

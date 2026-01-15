@@ -181,32 +181,32 @@ case 35:
     var1 = global;
     var7 = var1.Object;
     var5 = var7.defineProperty;
-    var2 = {};
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var7)(var3, var1, var2);
+    var1 = var5.bind(var7)(var3, var1, var4);
     var7 = 0;
     var5 = var6[var7];
-    var2 = metroImportAll;
+    var4 = metroImportAll;
     var1 = undefined;
-    var2 = var2.bind(var1)(var5);
-    var _closure1_slot0 = var2;
-    var2 = {};
-    var2['Trick'] = var7;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot0 = var4;
+    var4 = {};
+    var4['Trick'] = var7;
     var5 = 'Trick';
-    var2[var7] = var5;
+    var4[var7] = var5;
     var5 = 1;
-    var2['Treat'] = var5;
+    var4['Treat'] = var5;
     var7 = 'Treat';
-    var2[var5] = var7;
+    var4[var5] = var7;
     var6 = var6[var5];
     var5 = require;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/premium/gifting/hooks/useGiftingPromotionDefaultSelection.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function useGiftingPromotionDefaultSelection(arg1, arg2, arg3) {
+    var5 = function useGiftingPromotionDefaultSelection(arg1, arg2, arg3) {
         var7 = arg1;
         var6 = arg2;
         var5 = arg3;
@@ -422,9 +422,36 @@ case 36:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['default'] = var4;
-    var3['TrickTreatCategory'] = var2;
-    var2 = 2;
-    var3['CATEGORY_COUNT'] = var2;
+    var3['default'] = var5;
+    var3['TrickTreatCategory'] = var4;
+    var4 = 2;
+    var3['CATEGORY_COUNT'] = var4;
+    var2 = function useGiftingPromotionDefaultSelectionV2(arg1, arg2) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var3 = arg1;
+            var1 = arg2;
+            var4 = null;
+            if(!(var4 != var3)) { _fun0006_ip = 31; continue _fun0006 }
+case 57:
+            var5 = var3.length;
+            var2 = 0;
+            if(!(var2 === var5)) { _fun0006_ip = 58; continue _fun0006 }
+case 31:
+            var5 = undefined;
+            return var5;
+case 58:
+            if(!(var4 != var1)) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
+            var4 = var3.includes;
+            var4 = var4.bind(var3)(var1);
+            if(var4) { _fun0006_ip = 61; continue _fun0006 }
+case 59:
+            var1 = var3[var2];
+case 61:
+            return var1;
+        }
+    };
+    var3['useGiftingPromotionDefaultSelectionV2'] = var2;
     return var1;
 })();

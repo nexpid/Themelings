@@ -166,6 +166,8 @@ case 11:
                 var1['catalogBannerUrl'] = var3;
                 var3 = var2.catalogBannerAnimatedUrl;
                 var1['catalogBannerAnimatedUrl'] = var3;
+                var3 = var2.catalogBannerRiveUrl;
+                var1['catalogBannerRiveUrl'] = var3;
                 var3 = var2.featuredBlockUrl;
                 var1['featuredBlockUrl'] = var3;
                 var3 = var2.logoUrl;
@@ -196,45 +198,46 @@ case 11:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = arg1;
-                var25 = this;
-                var22 = var3.products;
-                var19 = var3.hero_ranking;
+                var26 = this;
+                var23 = var3.products;
+                var20 = var3.hero_ranking;
                 var10 = var3.hero_logo_display_config;
                 var5 = var3.hero_banner_display_config;
-                var18 = var3.hero_banner_url;
-                var17 = var3.hero_banner_animated_url;
-                var16 = var3.hero_rive_url;
-                var15 = var3.hero_logo_url;
-                var14 = var3.catalog_banner_url;
-                var13 = var3.catalog_banner_animated_url;
+                var19 = var3.hero_banner_url;
+                var18 = var3.hero_banner_animated_url;
+                var17 = var3.hero_rive_url;
+                var16 = var3.hero_logo_url;
+                var15 = var3.catalog_banner_url;
+                var14 = var3.catalog_banner_animated_url;
+                var13 = var3.catalog_banner_rive_url;
                 var12 = var3.featured_block_url;
                 var11 = var3.logo_url;
                 var9 = var3.pdp_bg_url;
                 var8 = var3.mobile_banner_url;
                 var7 = var3.mobile_bg_url;
-                var2 = {'products': 0, 'hero_ranking': 0, 'hero_logo_display_config': 0, 'hero_banner_display_config': 0, 'hero_banner_url': 0, 'hero_banner_animated_url': 0, 'hero_rive_url': 0, 'hero_logo_url': 0, 'catalog_banner_url': 0, 'catalog_banner_animated_url': 0, 'featured_block_url': 0, 'logo_url': 0, 'pdp_bg_url': 0, 'mobile_banner_url': 0, 'mobile_bg_url': 0};
-                var27 = null;
-                var28 = var2;
-                var1 = silentSetPrototypeOf(var28, var27);
-                var28 = {};
-                var27 = var3;
-                var26 = var2;
-                var23 = copyDataProperties(var28, var27, var26);
+                var2 = {'products': 0, 'hero_ranking': 0, 'hero_logo_display_config': 0, 'hero_banner_display_config': 0, 'hero_banner_url': 0, 'hero_banner_animated_url': 0, 'hero_rive_url': 0, 'hero_logo_url': 0, 'catalog_banner_url': 0, 'catalog_banner_animated_url': 0, 'catalog_banner_rive_url': 0, 'featured_block_url': 0, 'logo_url': 0, 'pdp_bg_url': 0, 'mobile_banner_url': 0, 'mobile_bg_url': 0};
+                var28 = null;
+                var29 = var2;
+                var1 = silentSetPrototypeOf(var29, var28);
+                var29 = {};
+                var28 = var3;
+                var27 = var2;
+                var24 = copyDataProperties(var29, var28, var27);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var _closure3_slot0 = var25;
-                var24 = _closure1_slot6;
-                var20 = _closure1_slot5;
+                var _closure3_slot0 = var26;
+                var25 = _closure1_slot6;
+                var21 = _closure1_slot5;
                 var6 = undefined;
-                var21 = var20.bind(var6)(var3);
-                var20 = 'fromServer';
-                var21 = var24.bind(var6)(var21, var20, var25);
-                var _closure3_slot1 = var21;
-                var24 = 'function';
-                var20 = typeof var21;
-                if(!(var24 === var20)) { _fun0003_ip = 13; continue _fun0003 }
+                var22 = var21.bind(var6)(var3);
+                var21 = 'fromServer';
+                var22 = var25.bind(var6)(var22, var21, var26);
+                var _closure3_slot1 = var22;
+                var25 = 'function';
+                var21 = typeof var22;
+                if(!(var25 === var21)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-                var21 = function(arg1) {
+                var22 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
                     var2 = _closure3_slot0;
@@ -243,13 +246,13 @@ case 14:
                     return var1;
                 };
 case 13:
-                var20 = new Array(1);
-                var20[0] = var23;
-                var27 = var21.bind(var6)(var20);
-                var28 = var1;
-                var20 = copyDataProperties(var28, var27);
-                var21 = var22.reduce;
-                var20 = function(arg1, arg2) {
+                var21 = new Array(1);
+                var21[0] = var24;
+                var28 = var22.bind(var6)(var21);
+                var29 = var1;
+                var21 = copyDataProperties(var29, var28);
+                var22 = var23.reduce;
+                var21 = function(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
@@ -293,22 +296,24 @@ case 18:
                     }
                 };
                 var4 = new Array(0);
-                var20 = var21.bind(var22)(var20, var4);
+                var21 = var22.bind(var23)(var21, var4);
                 var4 = 'products';
-                var1[var4] = var20;
+                var1[var4] = var21;
                 var4 = 'heroRanking';
-                var1[var4] = var19;
+                var1[var4] = var20;
                 var4 = 'heroBannerUrl';
-                var1[var4] = var18;
+                var1[var4] = var19;
                 var4 = 'heroBannerAnimatedUrl';
-                var1[var4] = var17;
+                var1[var4] = var18;
                 var4 = 'heroRiveUrl';
-                var1[var4] = var16;
+                var1[var4] = var17;
                 var4 = 'heroLogoUrl';
-                var1[var4] = var15;
+                var1[var4] = var16;
                 var4 = 'catalogBannerUrl';
-                var1[var4] = var14;
+                var1[var4] = var15;
                 var4 = 'catalogBannerAnimatedUrl';
+                var1[var4] = var14;
+                var4 = 'catalogBannerRiveUrl';
                 var1[var4] = var13;
                 var4 = 'featuredBlockUrl';
                 var1[var4] = var12;
@@ -337,9 +342,9 @@ case 18:
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var29 = var2;
-                var28 = var1;
-                var1 = new var29[var3](var28, var27);
+                var30 = var2;
+                var29 = var1;
+                var1 = new var30[var3](var29, var28);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }

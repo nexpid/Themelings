@@ -727,10 +727,10 @@ case 30:
                         var1['onPressOut'] = var7;
                         var9 = _closure2_slot7;
                         var7 = null;
-                        if(!var9) { _fun0005_ip = 18; continue _fun0005 }
-case 40:
+                        if(!var9) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                         var7 = var8;
-case 18:
+case 40:
                         var1['icon'] = var7;
                         var6 = _closure2_slot1;
                         var1['variant'] = var6;
@@ -867,10 +867,10 @@ case 18:
             var4 = var6.isAndroid;
             var4 = var4.bind(var6)();
             var9 = 'tabbar';
-            if(!var4) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(!var4) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var9 = 'tablist';
-case 41:
+case 42:
             var12 = _closure1_slot7;
             var6 = _closure1_slot4;
             var4 = {};
@@ -898,8 +898,8 @@ case 41:
             var1['keyboardShouldPersistTaps'] = var10;
             var1['children'] = var6;
             var1 = var9.bind(var5)(var4, var1);
-            if(!var3) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
+            if(!var3) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -910,7 +910,7 @@ case 44:
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 43:
+case 44:
             return var1;
         }
     };

@@ -32,16 +32,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isProfileEffectRecord;
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot8 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var4 = 5;
+    var _closure1_slot9 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -49,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'marginBottom': 10, 'gap': 5};
     var4['profileEffectSection'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
-    var10 = 6;
+    var10 = 7;
     var10 = var6[var10];
     var10 = var5.bind(var1)(var10);
     var10 = var10.GUTTER_SIZE;
@@ -60,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'width': '100%', 'height': '100%'};
     var4['sampleProfile'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = function EditProfileEffectItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -79,7 +84,7 @@ case 0:
             var5 = copyDataProperties(var19, var18, var17);
             var4 = undefined;
             var _closure2_slot0 = var4;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var15 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -144,7 +149,7 @@ case 10:
                 }
             };
             var12 = var3.bind(var11)(var1, var2);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 13;
@@ -166,7 +171,7 @@ case 13:
             var19 = var1;
             var18 = var5;
             var5 = copyDataProperties(var19, var18);
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot9;
             var6 = _closure1_slot4;
             var5 = {};
             var10 = var15.profileEffect;
@@ -177,7 +182,7 @@ case 13:
             var10['borderRadius'] = var11;
             var9[1] = var10;
             var5['style'] = var9;
-            var11 = _closure1_slot7;
+            var11 = _closure1_slot8;
             var10 = _closure1_slot1;
             var14 = _closure1_slot2;
             var8 = 19;
@@ -212,7 +217,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -233,13 +238,13 @@ case 0:
             var _closure2_slot3 = var18;
             var1 = var1.isTryItOut;
             var _closure2_slot4 = var1;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var4 = undefined;
             var6 = var2.bind(var4)();
             var _closure2_slot5 = var6;
             var8 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var14 = 6;
+            var14 = 7;
             var3 = var2[var14];
             var3 = var8.bind(var4)(var3);
             var3 = var3.bind(var4)();
@@ -247,7 +252,7 @@ case 0:
             var _closure2_slot6 = var12;
             var10 = var3.onLayout;
             var17 = _closure1_slot0;
-            var3 = 7;
+            var3 = 8;
             var8 = var2[var3];
             var19 = var17.bind(var4)(var8);
             var15 = var19.useStateFromStores;
@@ -264,11 +269,11 @@ case 0:
             var3 = var2[var3];
             var15 = var17.bind(var4)(var3);
             var11 = var15.useStateFromStores;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var8 = new Array(1);
             var8[0] = var3;
             var3 = function() {
-                var2 = _closure1_slot6;
+                var2 = _closure1_slot7;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -287,7 +292,7 @@ case 0:
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -300,60 +305,55 @@ case 0:
 case 16:
                     var3 = var2.filter;
                     var1 = function(arg1) {
-                        var6 = _closure1_slot0;
-                        var7 = _closure1_slot2;
-                        var2 = 9;
-                        var2 = var7[var2];
-                        var3 = undefined;
-                        var5 = var6.bind(var3)(var2);
-                        var4 = var5.match;
-                        var2 = arg1;
-                        var9 = var4.bind(var5)(var2);
-                        var8 = var9.with;
-                        var2 = 10;
-                        var4 = var7[var2];
-                        var4 = var6.bind(var3)(var4);
-                        var5 = var4.NONE_ITEM;
-                        var4 = function() {
-                            var1 = true;
-                            return var1;
-                        };
-                        var5 = var8.bind(var9)(var5, var4);
-                        var4 = var5.with;
-                        var2 = var7[var2];
-                        var2 = var6.bind(var3)(var2);
-                        var3 = var2.SHOP_ITEM;
-                        var2 = function() {
-                            var1 = true;
-                            return var1;
-                        };
-                        var3 = var4.bind(var5)(var3, var2);
-                        var2 = var3.otherwise;
-                        var1 = function(arg1) {
-                            var3 = _closure1_slot0;
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                            var3 = arg1;
+                            var2 = _closure1_slot0;
+                            var1 = _closure1_slot2;
+                            var7 = 10;
+                            var1 = var1[var7];
+                            var6 = undefined;
+                            var1 = var2.bind(var6)(var1);
+                            var1 = var1.NONE_ITEM;
+                            var1 = var3 === var1;
+                            if(var1) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
+                            var5 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 11;
-                            var2 = var2[var1];
-                            var1 = undefined;
-                            var3 = var3.bind(var1)(var2);
-                            var2 = var3.isPremiumCollectiblesPurchase;
-                            var5 = _closure2_slot7;
-                            var4 = var5.get;
-                            var1 = arg1;
-                            var1 = var1.skuId;
-                            var1 = var4.bind(var5)(var1);
-                            var1 = var2.bind(var3)(var1);
-                            var1 = !var1;
+                            var2 = var2[var7];
+                            var2 = var5.bind(var6)(var2);
+                            var2 = var2.SHOP_ITEM;
+                            var1 = var3 === var2;
+case 17:
+                            if(var1) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                            var2 = _closure1_slot6;
+                            var2 = var2.bind(var6)(var3);
+                            var2 = !var2;
+                            if(var2) { _fun0005_ip = 21; continue _fun0005 }
+case 12:
+                            var5 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var4 = 11;
+                            var4 = var7[var4];
+                            var5 = var5.bind(var6)(var4);
+                            var4 = var5.isPremiumCollectiblesPurchase;
+                            var7 = _closure2_slot7;
+                            var6 = var7.get;
+                            var3 = var3.skuId;
+                            var3 = var6.bind(var7)(var3);
+                            var2 = var4.bind(var5)(var3);
+case 21:
+                            var1 = !var2;
+case 19:
                             return var1;
-                        };
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
+                        }
                     };
                     var1 = var3.bind(var2)(var1);
-                    _fun0004_ip = 17; continue _fun0004;
+                    _fun0004_ip = 22; continue _fun0004;
 case 15:
                     var1 = var2;
-case 17:
+case 22:
                     return var1;
                 }
             };
@@ -375,10 +375,10 @@ case 17:
             var2[1] = var17;
             var17 = var15 == var16;
             var15 = undefined;
-            if(var17) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(var17) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var15 = var16.skuId;
-case 18:
+case 23:
             var2[2] = var15;
             var2[3] = var13;
             var2[4] = var12;
@@ -388,7 +388,7 @@ case 18:
             var1 = function(arg1) {
                 var1 = arg1;
                 var11 = var1.item;
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var6 = _closure2_slot5;
@@ -407,7 +407,7 @@ case 18:
                 var6 = var8.slice;
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 6;
+                var1 = 7;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var9.bind(var1)(var5);
@@ -415,51 +415,104 @@ case 18:
                 var7 = var6.bind(var8)(var7, var5);
                 var6 = var7.map;
                 var5 = function(arg1, arg2) {
-                    var2 = arg2;
-                    var _closure4_slot0 = var2;
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var7[var2];
-                    var3 = undefined;
-                    var5 = var6.bind(var3)(var2);
-                    var4 = var5.match;
-                    var2 = arg1;
-                    var8 = var4.bind(var5)(var2);
-                    var5 = var8.with;
-                    var4 = null;
-                    var2 = function() {
-                        var5 = _closure1_slot7;
-                        var4 = _closure1_slot4;
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                        var2 = arg1;
+                        var _closure4_slot0 = var2;
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var7 = 10;
+                        var3 = var3[var7];
+                        var5 = undefined;
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var3.NONE_ITEM;
+                        if(!(var2 !== var3)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var3 = var3[var7];
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var3.SHOP_ITEM;
+                        if(!(var2 !== var3)) { _fun0006_ip = 13; continue _fun0006 }
+case 15:
+                        var3 = _closure1_slot6;
+                        var3 = var3.bind(var5)(var2);
+                        if(var3) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                        var8 = _closure1_slot8;
+                        var7 = _closure1_slot4;
+                        var4 = {};
                         var3 = {};
-                        var1 = {};
+                        var9 = _closure2_slot6;
+                        var3['height'] = var9;
+                        var3['width'] = var9;
+                        var4['style'] = var3;
+                        var3 = arg2;
+                        var3 = var8.bind(var5)(var7, var4, var3);
+                        return var3;
+case 27:
+                        var4 = _closure2_slot0;
+                        var3 = null;
+                        var3 = var3 == var4;
+                        var10 = undefined;
+                        if(var3) { _fun0006_ip = 29; continue _fun0006 }
+case 5:
+                        var3 = _closure2_slot0;
+                        var10 = var3.skuId;
+case 29:
+                        var9 = var2.skuId;
+                        var7 = _closure1_slot8;
+                        var4 = _closure1_slot11;
+                        var3 = {};
+                        var3['profileEffect'] = var2;
+                        var11 = _closure2_slot6;
+                        var3['size'] = var11;
+                        var11 = function onPress() {
+                            var3 = _closure2_slot1;
+                            var2 = _closure4_slot0;
+                            var1 = undefined;
+                            var1 = var3.bind(var1)(var2);
+                            return var1;
+                        };
+                        var3['onPress'] = var11;
+                        var9 = var10 === var9;
+                        var3['isSelected'] = var9;
+                        var8 = _closure2_slot4;
+                        var3['isTryItOut'] = var8;
+                        var2 = var2.skuId;
+                        var2 = var7.bind(var5)(var4, var3, var2);
+                        return var2;
+case 13:
+                        var7 = _closure1_slot8;
+                        var3 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var2 = 13;
+                        var2 = var9[var2];
+                        var2 = var3.bind(var5)(var2);
+                        var4 = var2.EditCollectiblesListItemShop;
+                        var3 = {};
                         var2 = _closure2_slot6;
-                        var1['height'] = var2;
-                        var1['width'] = var2;
-                        var3['style'] = var1;
-                        var2 = _closure4_slot0;
-                        var1 = undefined;
-                        var1 = var5.bind(var1)(var4, var3, var2);
-                        return var1;
-                    };
-                    var9 = var5.bind(var8)(var4, var2);
-                    var8 = var9.with;
-                    var2 = 10;
-                    var4 = var7[var2];
-                    var4 = var6.bind(var3)(var4);
-                    var5 = var4.NONE_ITEM;
-                    var4 = function() {
-                        var5 = _closure1_slot7;
+                        var3['size'] = var2;
+                        var8 = _closure1_slot1;
+                        var2 = 14;
+                        var2 = var9[var2];
+                        var2 = var8.bind(var5)(var2);
+                        var2 = var2.EDIT_PROFILE_EFFECT_SHEET;
+                        var3['analyticsSource'] = var2;
+                        var2 = 'shop';
+                        var2 = var7.bind(var5)(var4, var3, var2);
+                        return var2;
+case 25:
+                        var4 = _closure1_slot8;
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var1 = 13;
                         var1 = var3[var1];
-                        var4 = undefined;
-                        var1 = var2.bind(var4)(var1);
+                        var1 = var2.bind(var5)(var1);
                         var3 = var1.EditCollectiblesListItemNone;
                         var2 = {};
-                        var6 = _closure2_slot6;
-                        var2['size'] = var6;
+                        var7 = _closure2_slot6;
+                        var2['size'] = var7;
                         var6 = function onPress() {
                             var3 = _closure2_slot1;
                             var2 = undefined;
@@ -476,79 +529,9 @@ case 18:
                         var1 = var1 != var6;
                         var2['asDefault'] = var1;
                         var1 = 'none';
-                        var1 = var5.bind(var4)(var3, var2, var1);
+                        var1 = var4.bind(var5)(var3, var2, var1);
                         return var1;
-                    };
-                    var5 = var8.bind(var9)(var5, var4);
-                    var4 = var5.with;
-                    var2 = var7[var2];
-                    var2 = var6.bind(var3)(var2);
-                    var3 = var2.SHOP_ITEM;
-                    var2 = function() {
-                        var5 = _closure1_slot7;
-                        var3 = _closure1_slot0;
-                        var7 = _closure1_slot2;
-                        var2 = 13;
-                        var2 = var7[var2];
-                        var4 = undefined;
-                        var2 = var3.bind(var4)(var2);
-                        var3 = var2.EditCollectiblesListItemShop;
-                        var2 = {};
-                        var6 = _closure2_slot6;
-                        var2['size'] = var6;
-                        var6 = _closure1_slot1;
-                        var1 = 14;
-                        var1 = var7[var1];
-                        var1 = var6.bind(var4)(var1);
-                        var1 = var1.EDIT_PROFILE_EFFECT_SHEET;
-                        var2['analyticsSource'] = var1;
-                        var1 = 'shop';
-                        var1 = var5.bind(var4)(var3, var2, var1);
-                        return var1;
-                    };
-                    var3 = var4.bind(var5)(var3, var2);
-                    var2 = var3.otherwise;
-                    var1 = function(arg1) {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                            var1 = arg1;
-                            var _closure5_slot0 = var1;
-                            var3 = _closure2_slot0;
-                            var2 = null;
-                            var2 = var2 == var3;
-                            var5 = undefined;
-                            var8 = undefined;
-                            if(var2) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
-                            var2 = _closure2_slot0;
-                            var8 = var2.skuId;
-case 20:
-                            var7 = var1.skuId;
-                            var4 = _closure1_slot7;
-                            var3 = _closure1_slot10;
-                            var2 = {};
-                            var2['profileEffect'] = var1;
-                            var10 = _closure2_slot6;
-                            var2['size'] = var10;
-                            var9 = function onPress() {
-                                var3 = _closure2_slot1;
-                                var2 = _closure5_slot0;
-                                var1 = undefined;
-                                var1 = var3.bind(var1)(var2);
-                                return var1;
-                            };
-                            var2['onPress'] = var9;
-                            var7 = var8 === var7;
-                            var2['isSelected'] = var7;
-                            var6 = _closure2_slot4;
-                            var2['isTryItOut'] = var6;
-                            var1 = var1.skuId;
-                            var1 = var4.bind(var5)(var3, var2, var1);
-                            return var1;
-                        }
-                    };
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
+                    }
                 };
                 var5 = var6.bind(var7)(var5);
                 var2['children'] = var5;
@@ -556,12 +539,12 @@ case 20:
                 return var1;
             };
             var12 = var3.bind(var8)(var1, var2);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
             var6 = var6.profileEffectSection;
             var1['style'] = var6;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot8;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var5 = 15;
@@ -608,13 +591,13 @@ case 20:
             var10 = 98;
             var6['estimatedItemSize'] = var10;
             var9 = function ItemSeparatorComponent() {
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var5 = {};
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 6;
+                var1 = 7;
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var6);

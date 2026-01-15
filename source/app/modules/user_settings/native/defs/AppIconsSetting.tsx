@@ -146,13 +146,25 @@ case 2:
         return var1;
     };
     var2['usePreNavigationAction'] = var8;
+    var8 = function usePredicate() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 11;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.isAppIconsSupported;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var2['usePredicate'] = var8;
     var8 = {};
     var10 = var10.APP_ICONS;
     var8['route'] = var10;
     var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -162,7 +174,7 @@ case 2:
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

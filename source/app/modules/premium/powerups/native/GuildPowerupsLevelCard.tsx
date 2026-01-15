@@ -490,38 +490,39 @@ case 0:
             var17 = var2.powerup;
             var10 = var2.nextPowerup;
             var19 = var2.index;
-            var4 = undefined;
-            var _closure2_slot1 = var4;
+            var7 = var2.isScrollingRef;
+            var _closure2_slot0 = var7;
             var2 = _closure1_slot12;
+            var4 = undefined;
             var15 = var2.bind(var4)();
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var7 = 15;
-            var2 = var6[var7];
+            var8 = 15;
+            var2 = var6[var8];
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)(var3, var17);
-            var7 = var6[var7];
-            var7 = var5.bind(var4)(var7);
-            var7 = var7.bind(var4)(var3, var10);
-            var9 = _closure1_slot0;
-            var8 = 16;
             var8 = var6[var8];
-            var11 = var9.bind(var4)(var8);
-            var9 = var11.useCalculatePowerupCardStatus;
-            var8 = false;
-            var16 = var9.bind(var11)(var17, var2, var8);
-            var9 = var2.type;
+            var8 = var5.bind(var4)(var8);
+            var8 = var8.bind(var4)(var3, var10);
+            var11 = _closure1_slot0;
+            var9 = 16;
+            var9 = var6[var9];
+            var12 = var11.bind(var4)(var9);
+            var11 = var12.useCalculatePowerupCardStatus;
+            var9 = false;
+            var16 = var11.bind(var12)(var17, var2, var9);
+            var11 = var2.type;
             var2 = _closure1_slot6;
-            var8 = var2.INACTIVE;
-            var20 = var9 !== var8;
-            var7 = var7.type;
+            var9 = var2.INACTIVE;
+            var20 = var11 !== var9;
+            var8 = var8.type;
             var2 = var2.INACTIVE;
-            var9 = var7 !== var2;
+            var9 = var8 !== var2;
             var2 = 17;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
-            var7 = var2.bind(var4)(var3, var17);
-            var _closure2_slot0 = var7;
+            var6 = var2.bind(var4)(var3, var17);
+            var _closure2_slot1 = var6;
             var2 = 0;
             if(!(var2 !== var19)) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
@@ -529,93 +530,61 @@ case 24:
             if(!(var2 != var10)) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
             var2 = _closure1_slot5;
-            var11 = var2.MIDDLE;
+            var8 = var2.MIDDLE;
             _fun0003_ip = 27; continue _fun0003;
 case 25:
             var2 = _closure1_slot5;
-            var11 = var2.END;
+            var8 = var2.END;
 case 27:
             _fun0003_ip = 28; continue _fun0003;
 case 23:
             var2 = _closure1_slot5;
-            var11 = var2.START;
+            var8 = var2.START;
 case 28:
-            var3 = _closure1_slot3;
-            var2 = var3.useRef;
-            var8 = null;
-            var2 = var2.bind(var3)(var8);
-            _closure2_slot1 = var2;
-            var6 = _closure1_slot3;
-            var5 = var6.useCallback;
-            var3 = function(arg1) {
-                var2 = _closure2_slot1;
-                var1 = arg1;
-                var1 = var1.nativeEvent;
-                var1 = var1.pageX;
-                var2['current'] = var1;
-                var1 = undefined;
-                return var1;
-            };
-            var2 = new Array(0);
-            var5 = var5.bind(var6)(var3, var2);
-            var6 = _closure1_slot3;
-            var3 = var6.useCallback;
-            var2 = new Array(1);
+            var5 = _closure1_slot3;
+            var3 = var5.useCallback;
+            var2 = new Array(2);
             var2[0] = var7;
-            var1 = function(arg1) {
+            var2[1] = var6;
+            var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var2 = _closure2_slot1;
-                    var3 = var2.current;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
-                    var2 = global;
-                    var4 = var2.Math;
-                    var3 = var4.abs;
-                    var2 = arg1;
-                    var2 = var2.nativeEvent;
-                    var5 = var2.pageX;
-                    var2 = _closure2_slot1;
-                    var2 = var2.current;
-                    var2 = var5 - var2;
-                    var3 = var3.bind(var4)(var2);
-                    var2 = 5;
-                    if(!(!(var3 >= var2))) { _fun0004_ip = 31; continue _fun0004 }
-case 29:
                     var2 = _closure2_slot0;
+                    var2 = var2.current;
+                    if(var2) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                    var2 = _closure2_slot1;
                     var1 = undefined;
-                    var2 = var2.bind(var1)();
-                    return var1;
-case 31:
+                    var1 = var2.bind(var1)();
+case 29:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var6 = var3.bind(var6)(var1, var2);
+            var5 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 18;
-            var1 = var7[var1];
+            var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var7 = var15.card;
-            var1['style'] = var7;
-            var1['onPress'] = var6;
-            var1['onPressIn'] = var5;
+            var6 = var15.card;
+            var1['style'] = var6;
+            var1['onPress'] = var5;
             var1['status'] = var16;
             var7 = _closure1_slot10;
             var6 = _closure1_slot13;
             var5 = {};
-            var5['position'] = var11;
+            var5['position'] = var8;
             var5['active'] = var20;
+            var8 = null;
             var10 = var8 != var10;
             var8 = undefined;
-            if(!var10) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
-            var8 = var9;
+            if(!var10) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
+            var8 = var9;
+case 31:
             var5['nextActive'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);

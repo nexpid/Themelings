@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
     var10 = var2.MobileSetting;
-    var2 = 6;
+    var2 = 7;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
@@ -102,39 +102,48 @@ case 4:
     var8 = function AccountAgeGroupNonAdultSettingPredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var1 = 3;
-            var2 = var6[var1];
-            var4 = undefined;
-            var3 = var5.bind(var4)(var2);
+            var2 = var8[var1];
+            var5 = undefined;
+            var3 = var7.bind(var5)(var2);
             var2 = var3.useIsAgeVerified;
             var2 = var2.bind(var3)();
-            var1 = var6[var1];
-            var3 = var5.bind(var4)(var1);
+            var1 = var8[var1];
+            var3 = var7.bind(var5)(var1);
             var1 = var3.useIsVerifiedTeen;
             var3 = var1.bind(var3)();
             var1 = 5;
-            var1 = var6[var1];
-            var5 = var5.bind(var4)(var1);
-            var4 = var5.useIsEligibleForSettingsDefaultsAggregate;
-            var1 = 'explicit_media_redaction_utils';
-            var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+            var1 = var8[var1];
+            var4 = var7.bind(var5)(var1);
+            var1 = var4.useIsEligibleForSettingsDefaultsAggregate;
+            var6 = 'explicit_media_redaction_utils';
+            var1 = var1.bind(var4)(var6);
+            var4 = 6;
+            var4 = var8[var4];
+            var5 = var7.bind(var5)(var4);
+            var4 = var5.useIsGidgetPawtectEnabled;
+            var4 = var4.bind(var5)(var6);
+            if(var1) { _fun0002_ip = 5; continue _fun0002 }
 case 6:
-            var2 = !var2;
-            if(var2) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var2 = var3;
-case 7:
-            var1 = var2;
+            var1 = var4;
 case 5:
+            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            var2 = !var2;
+            if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var2 = var3;
+case 9:
+            var1 = var2;
+case 7:
             return var1;
         }
     };
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
