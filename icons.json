@@ -279,7 +279,7 @@
         "height": 240
     },
     "app_installed_check": {
-        "file": "app/modules/user_settings/images/app_installed_check.png",
+        "file": "app/modules/user_settings/native/connections/two_way_link/images/app_installed_check.png",
         "hash": "84a5f82b0047a661ec45232254da9031",
         "scales": [
             2,
@@ -12852,6 +12852,16 @@
         "width": 24,
         "height": 24
     },
+    "UserClockIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/UserClockIcon.png",
+        "hash": "3d5f9f8f212b24a0f18f5afb706f5f80",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "UserIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserIcon.png",
         "hash": "dadf5e8629c7ac90f77087c81be9e773",
@@ -13385,7 +13395,7 @@
         "height": 24
     },
     "xbox_app_phone": {
-        "file": "app/modules/user_settings/images/xbox_app_phone.png",
+        "file": "app/modules/user_settings/native/connections/two_way_link/images/xbox_app_phone.png",
         "hash": "07edfc27bc58db41fd8c1993a9ed69f0",
         "scales": [
             2,
