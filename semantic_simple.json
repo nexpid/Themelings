@@ -83,6 +83,12 @@
     "midnight": "#6c6f7c29",
     "darker": "#6c6f7c1f"
   },
+  "BACKGROUND_MOD_NORMAL": {
+    "dark": "#4e505829",
+    "light": "#80848e29",
+    "midnight": "#6c6f7c33",
+    "darker": "#6c6f7c29"
+  },
   "BACKGROUND_MOD_STRONG": {
     "dark": "#4e50588a",
     "light": "#80848e3d",

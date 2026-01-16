@@ -419,6 +419,36 @@
       }
     ]
   },
+  "BACKGROUND_MOD_NORMAL": {
+    "dark": [
+      "#4e505829",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#80848e29",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6c6f7c33",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#6c6f7c29",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ]
+  },
   "BACKGROUND_MOD_STRONG": {
     "dark": [
       "#4e50588a",
