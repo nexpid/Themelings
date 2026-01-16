@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_SECONDARY_ALT;
+    var15 = var15.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var15;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BORDER_MUTED;
     var9['borderTopColor'] = var14;
     var9['borderTopWidth'] = var10;
     var4['list'] = var9;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BORDER_MUTED;
     var9['borderBottomColor'] = var14;
     var9['borderBottomWidth'] = var10;
     var4['listItem'] = var9;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_MUTED;
+    var11 = var11.ICON_MUTED;
     var9['tintColor'] = var11;
     var4['questionIcon'] = var9;
     var9 = {};

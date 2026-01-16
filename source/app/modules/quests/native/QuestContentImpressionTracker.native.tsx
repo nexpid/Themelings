@@ -1,11 +1,11 @@
 // app/modules/quests/native/QuestContentImpressionTracker.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,99 +182,223 @@ case 35:
             return var1;
         }
     };
+    var _closure1_slot10 = var1;
+    var1 = function useVisibilityData(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var2 = arg1;
+            var11 = var2.adContentIds;
+            var _closure2_slot0 = var11;
+            var9 = var2.visibilityRef;
+            var _closure2_slot1 = var9;
+            var3 = var2.overrideVisibility;
+            var6 = _closure1_slot4;
+            var4 = var6.useState;
+            var5 = 0;
+            var8 = var4.bind(var6)(var5);
+            var7 = _closure1_slot3;
+            var4 = undefined;
+            var6 = 2;
+            var7 = var7.bind(var4)(var8, var6);
+            var5 = var7[var5];
+            var6 = 1;
+            var10 = var7[var6];
+            var _closure2_slot2 = var10;
+            var8 = _closure1_slot4;
+            var7 = var8.useEffect;
+            var6 = new Array(3);
+            var6[0] = var11;
+            var6[1] = var10;
+            var6[2] = var9;
+            var1 = function() {
+                var3 = {};
+                var2 = _closure2_slot0;
+                var3['adContentIds'] = var2;
+                var2 = _closure2_slot2;
+                var3['setVisibilityPercentage'] = var2;
+                var1 = _closure2_slot1;
+                var3['visibilityRef'] = var1;
+                var2 = function initHandlers(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var3 = arg1;
+                        var2 = var3.adContentIds;
+                        var4 = var3.setVisibilityPercentage;
+                        var _closure4_slot0 = var4;
+                        var4 = var3.visibilityRef;
+                        var _closure4_slot1 = var4;
+                        var3 = null;
+                        if(!(var3 != var4)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
+                        var5 = function _loop(arg1) {
+                            var3 = arg1;
+                            var _closure5_slot0 = var3;
+                            var5 = _closure4_slot1;
+                            var1 = var5.current;
+                            var2 = var1.children;
+                            var1 = {};
+                            var5 = var5.current;
+                            var5 = var5.children;
+                            var6 = var5[var3];
+                            var7 = var1;
+                            var5 = copyDataProperties(var7, var6);
+                            var5 = function calculateVisibility() {
+                                var3 = _closure4_slot0;
+                                var4 = _closure1_slot8;
+                                var2 = {};
+                                var1 = _closure4_slot1;
+                                var2['visibilityRef'] = var1;
+                                var1 = _closure5_slot0;
+                                var2['entityId'] = var1;
+                                var1 = undefined;
+                                var2 = var4.bind(var1)(var2);
+                                var2 = var3.bind(var1)(var2);
+                                return var1;
+                            };
+                            var4 = 'calculateVisibility';
+                            var1[var4] = var5;
+                            var2[var3] = var1;
+                            var1 = undefined;
+                            return var1;
+                        };
+                        var1 = _closure1_slot9;
+                        var4 = undefined;
+                        var3 = var1.bind(var4)(var2);
+                        var2 = var3.bind(var4)();
+                        var1 = var2.done;
+                        if(var1) { _fun0005_ip = 36; continue _fun0005 }
+case 35:
+                        var1 = var2.value;
+                        var1 = var5.bind(var4)(var1);
+                        var6 = var3.bind(var4)();
+                        var1 = var6.done;
+                        var2 = var6;
+                        if(!var1) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1 = undefined;
+                var2 = var2.bind(var1)(var3);
+                return var1;
+            };
+            var1 = var7.bind(var8)(var1, var6);
+            var1 = null;
+            if(!(var1 == var3)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 4;
+            var1 = var7[var1];
+            var1 = var6.bind(var4)(var1);
+            var1 = var1.MIN_QUEST_CONTENT_VISIBILITY_PERCENTAGE;
+            var3 = var5 >= var1;
+case 38:
+            var1 = {};
+            var1['visible'] = var3;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 5;
+            var2 = var6[var2];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.bind(var4)(var3);
+            var2 = var3 !== var2;
+            var1['visibleChanged'] = var2;
+            return var1;
+        }
+    };
     var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var8 = var6[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var8);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
+    var9 = var6[var4];
+    var7 = metroImportAll;
+    var7 = var7.bind(var1)(var9);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.AppStates;
+    var _closure1_slot6 = var7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AppStates;
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.createElement;
     var _closure1_slot7 = var4;
     var4 = function calculateVisibilityPercentage(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.visibilityRef;
-            var3 = var1.quest;
+            var5 = var1.entityId;
             var4 = null;
-            var5 = var4 == var2;
+            var3 = var4 == var2;
             var1 = undefined;
-            if(var5) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-            var5 = var2.current;
-            var6 = var4 == var5;
+            if(var3) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
+            var3 = var2.current;
+            var6 = var4 == var3;
             var1 = undefined;
-            if(var6) { _fun0004_ip = 36; continue _fun0004 }
-case 38:
-            var5 = var5.children;
-            var6 = var4 == var5;
+            if(var6) { _fun0006_ip = 40; continue _fun0006 }
+case 42:
+            var3 = var3.children;
+            var6 = var4 == var3;
             var1 = undefined;
-            if(var6) { _fun0004_ip = 36; continue _fun0004 }
-case 39:
-            var3 = var3.id;
-            var1 = var5[var3];
-case 36:
+            if(var6) { _fun0006_ip = 40; continue _fun0006 }
+case 43:
+            var1 = var3[var5];
+case 40:
             var5 = var4 == var1;
             var3 = undefined;
-            if(var5) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(var5) { _fun0006_ip = 44; continue _fun0006 }
+case 30:
             var3 = var1.layout;
-case 40:
-            if(!(var4 != var3)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var5 = var4 == var2;
-            var3 = undefined;
-            if(var5) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-            var5 = var2.current;
-            var5 = var5.parent;
-            var6 = var4 == var5;
-            var3 = undefined;
-            if(var6) { _fun0004_ip = 44; continue _fun0004 }
-case 46:
-            var3 = var5.layout;
 case 44:
-            if(!(var4 != var3)) { _fun0004_ip = 42; continue _fun0004 }
-case 47:
+            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var5 = var4 == var2;
             var3 = undefined;
-            if(var5) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+            if(var5) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var5 = var2.current;
             var5 = var5.parent;
             var6 = var4 == var5;
             var3 = undefined;
-            if(var6) { _fun0004_ip = 48; continue _fun0004 }
+            if(var6) { _fun0006_ip = 47; continue _fun0006 }
+case 49:
+            var3 = var5.layout;
+case 47:
+            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
 case 50:
+            var5 = var4 == var2;
+            var3 = undefined;
+            if(var5) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            var5 = var2.current;
+            var5 = var5.parent;
+            var6 = var4 == var5;
+            var3 = undefined;
+            if(var6) { _fun0006_ip = 51; continue _fun0006 }
+case 53:
             var3 = var5.scrollY;
-case 48:
-            if(!(var4 != var3)) { _fun0004_ip = 42; continue _fun0004 }
 case 51:
+            if(!(var4 != var3)) { _fun0006_ip = 45; continue _fun0006 }
+case 54:
             var3 = var1.layout;
             var3 = var3.y;
             var5 = new Array(2);
@@ -323,134 +447,12 @@ case 51:
             var1 = var5 / var1;
             var1 = var2.bind(var3)(var1, var4);
             return var1;
-case 42:
+case 45:
             var1 = 0;
             return var1;
         }
     };
     var _closure1_slot8 = var4;
-    var4 = function useVisibilityData(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var2 = arg1;
-            var7 = var2.questOrQuests;
-            var1 = var2.visibilityRef;
-            var3 = var2.overrideVisibility;
-            var6 = _closure1_slot4;
-            var4 = var6.useState;
-            var5 = 0;
-            var9 = var4.bind(var6)(var5);
-            var8 = _closure1_slot3;
-            var4 = undefined;
-            var6 = 2;
-            var8 = var8.bind(var4)(var9, var6);
-            var5 = var8[var5];
-            var6 = {};
-            var6['questOrQuests'] = var7;
-            var7 = 1;
-            var7 = var8[var7];
-            var6['setVisibilityPercentage'] = var7;
-            var6['visibilityRef'] = var1;
-            var1 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                    var2 = arg1;
-                    var4 = var2.questOrQuests;
-                    var3 = var2.setVisibilityPercentage;
-                    var _closure3_slot0 = var3;
-                    var3 = var2.visibilityRef;
-                    var _closure3_slot1 = var3;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
-                    var5 = function _loop(arg1) {
-                        var5 = arg1;
-                        var _closure4_slot0 = var5;
-                        var6 = _closure3_slot1;
-                        var1 = var6.current;
-                        var3 = var1.children;
-                        var2 = var5.id;
-                        var1 = {};
-                        var6 = var6.current;
-                        var6 = var6.children;
-                        var5 = var5.id;
-                        var7 = var6[var5];
-                        var8 = var1;
-                        var5 = copyDataProperties(var8, var7);
-                        var5 = function calculateVisibility() {
-                            var3 = _closure3_slot0;
-                            var4 = _closure1_slot8;
-                            var1 = {};
-                            var2 = _closure3_slot1;
-                            var1['visibilityRef'] = var2;
-                            var2 = _closure4_slot0;
-                            var1['quest'] = var2;
-                            var2 = undefined;
-                            var1 = var4.bind(var2)(var1);
-                            var1 = var3.bind(var2)(var1);
-                            return var1;
-                        };
-                        var4 = 'calculateVisibility';
-                        var1[var4] = var5;
-                        var3[var2] = var1;
-                        var1 = undefined;
-                        return var1;
-                    };
-                    var2 = _closure1_slot10;
-                    var1 = global;
-                    var3 = var1.Array;
-                    var1 = var3.isArray;
-                    var3 = var1.bind(var3)(var4);
-                    var1 = var4;
-                    if(var3) { _fun0006_ip = 9; continue _fun0006 }
-case 54:
-                    var3 = new Array(1);
-                    var3[0] = var4;
-                    var1 = var3;
-case 9:
-                    var4 = undefined;
-                    var3 = var2.bind(var4)(var1);
-                    var2 = var3.bind(var4)();
-                    var1 = var2.done;
-                    if(var1) { _fun0006_ip = 52; continue _fun0006 }
-case 55:
-                    var1 = var2.value;
-                    var1 = var5.bind(var4)(var1);
-                    var6 = var3.bind(var4)();
-                    var1 = var6.done;
-                    var2 = var6;
-                    if(!var1) { _fun0006_ip = 55; continue _fun0006 }
-case 52:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var1 = var1.bind(var4)(var6);
-            var1 = null;
-            if(!(var1 == var3)) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 5;
-            var1 = var7[var1];
-            var1 = var6.bind(var4)(var1);
-            var1 = var1.MIN_QUEST_CONTENT_VISIBILITY_PERCENTAGE;
-            var3 = var5 >= var1;
-case 56:
-            var1 = {};
-            var1['visible'] = var3;
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 6;
-            var2 = var6[var2];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.bind(var4)(var3);
-            var2 = var3 !== var2;
-            var1['visibleChanged'] = var2;
-            return var1;
-        }
-    };
-    var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -458,65 +460,104 @@ case 56:
     var4 = 'modules/quests/native/QuestContentImpressionTracker.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function QuestContentImpressionTrackerNative(arg1) {
-        var1 = arg1;
-        var7 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var3 = 7;
-        var3 = var8[var3];
-        var5 = undefined;
-        var9 = var7.bind(var5)(var3);
-        var6 = var9.useStateFromStores;
-        var3 = _closure1_slot5;
-        var4 = new Array(1);
-        var4[0] = var3;
-        var3 = function() {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 6;
+            var2 = var7[var2];
+            var4 = undefined;
+            var9 = var5.bind(var4)(var2);
+            var8 = var9.useStateFromStores;
             var2 = _closure1_slot5;
-            var1 = var2.getState;
-            var1 = var1.bind(var2)();
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getState;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var3 = var8.bind(var9)(var3, var2);
+            var2 = _closure1_slot6;
+            var2 = var2.ACTIVE;
+            var12 = var3 === var2;
+            var8 = _closure1_slot4;
+            var3 = var8.useRef;
+            var2 = null;
+            var13 = var3.bind(var8)(var2);
+            var3 = _closure1_slot1;
+            var2 = 5;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.bind(var4)(var12);
+            var2 = 4;
+            var8 = var7[var2];
+            var9 = var5.bind(var4)(var8);
+            var8 = var9.useAdContentImpressionTrackerProps;
+            var8 = var8.bind(var9)(var1);
+            var11 = var8.key;
+            var9 = var8.adContentIds;
+            var14 = _closure1_slot11;
+            var10 = {};
+            var17 = var10;
+            var16 = var1;
+            var8 = copyDataProperties(var17, var16);
+            var8 = 'adContentIds';
+            var10[var8] = var9;
+            var14 = var14.bind(var4)(var10);
+            var10 = {};
+            var17 = var10;
+            var16 = var1;
+            var15 = copyDataProperties(var17, var16);
+            var17 = var10;
+            var16 = var14;
+            var14 = copyDataProperties(var17, var16);
+            var14 = 'focused';
+            var10[var14] = var12;
+            var14 = var12 !== var3;
+            var3 = 'focusedChanged';
+            var10[var3] = var14;
+            var3 = 'reference';
+            var10[var3] = var13;
+            var3 = 'isFocused';
+            var10[var3] = var12;
+            var3 = _closure1_slot7;
+            var2 = var7[var2];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.QuestContentImpressionTrackerInner;
+            var5 = 'questOrQuests';
+            var7 = var5 in var1;
+            var5 = {};
+            var17 = var5;
+            var16 = var10;
+            var10 = copyDataProperties(var17, var16);
+            var10 = 'key';
+            var5[var10] = var11;
+            var5[var8] = var9;
+            if(var7) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
+            var7 = var1.adCreativeType;
+            var1 = 'adCreativeType';
+            var5[var1] = var7;
+            var1 = var5;
+            _fun0007_ip = 57; continue _fun0007;
+case 55:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 7;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.AdCreativeType;
+            var7 = var6.QUEST;
+            var6 = 'adCreativeType';
+            var5[var6] = var7;
+            var1 = var5;
+case 57:
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var4 = var6.bind(var9)(var4, var3);
-        var3 = _closure1_slot6;
-        var3 = var3.ACTIVE;
-        var11 = var4 === var3;
-        var6 = _closure1_slot4;
-        var4 = var6.useRef;
-        var3 = null;
-        var10 = var4.bind(var6)(var3);
-        var3 = _closure1_slot9;
-        var12 = var3.bind(var5)(var1);
-        var4 = _closure1_slot1;
-        var3 = 6;
-        var3 = var8[var3];
-        var3 = var4.bind(var5)(var3);
-        var9 = var3.bind(var5)(var11);
-        var4 = _closure1_slot7;
-        var6 = 5;
-        var2 = var8[var6];
-        var2 = var7.bind(var5)(var2);
-        var3 = var2.QuestContentImpressionTrackerInner;
-        var2 = {};
-        var16 = var2;
-        var15 = var1;
-        var13 = copyDataProperties(var16, var15);
-        var16 = var2;
-        var15 = var12;
-        var12 = copyDataProperties(var16, var15);
-        var12 = 'focused';
-        var2[var12] = var11;
-        var11 = var11 !== var9;
-        var9 = 'focusedChanged';
-        var2[var9] = var11;
-        var9 = 'reference';
-        var2[var9] = var10;
-        var6 = var8[var6];
-        var8 = var7.bind(var5)(var6);
-        var7 = var8.getQuestContentImpressionTrackerKey;
-        var6 = var1.questOrQuests;
-        var1 = var1.questContent;
-        var1 = var7.bind(var8)(var6, var1);
-        var1 = var4.bind(var5)(var3, var2, var1);
-        return var1;
+        }
     };
     var3['QuestContentImpressionTrackerNative'] = var2;
     return var1;

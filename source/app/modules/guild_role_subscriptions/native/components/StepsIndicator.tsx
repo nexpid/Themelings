@@ -250,7 +250,7 @@ case 12:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_SECONDARY_ALT;
+    var11 = var11.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var11;
     var7['emptyNode'] = var10;
     var7 = var8.bind(var9)(var7);

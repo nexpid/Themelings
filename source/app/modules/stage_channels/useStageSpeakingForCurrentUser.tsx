@@ -144,7 +144,7 @@ case 12:
         }
     };
     var3['shouldAgeVerifyToSpeakForCurrentUser'] = var4;
-    var2 = function useShouldAgeVerifyToSpeakForCurrentUser(arg1) {
+    var4 = function useShouldAgeVerifyToSpeakForCurrentUser(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var9 = arg1;
@@ -219,6 +219,82 @@ case 22:
             return var1;
         }
     };
-    var3['useShouldAgeVerifyToSpeakForCurrentUser'] = var2;
+    var3['useShouldAgeVerifyToSpeakForCurrentUser'] = var4;
+    var2 = function useShouldShowAgeVerificationPopover(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var9 = arg1;
+            var2 = null;
+            if(!(var2 == var9)) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
+            var3 = _closure1_slot4;
+            var2 = var3.getChannelId;
+            var9 = var2.bind(var3)();
+case 14:
+            var _closure2_slot0 = var9;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 6;
+            var3 = var6[var3];
+            var4 = undefined;
+            var8 = var5.bind(var4)(var3);
+            var7 = var8.useStateFromStores;
+            var10 = _closure1_slot3;
+            var3 = new Array(2);
+            var3[0] = var10;
+            var2 = _closure1_slot2;
+            var3[1] = var2;
+            var2 = new Array(1);
+            var2[0] = var9;
+            var1 = function() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 != var3;
+                    var5 = null;
+                    if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
+                    var4 = _closure1_slot2;
+                    var3 = var4.getChannel;
+                    var2 = _closure2_slot0;
+                    var5 = var3.bind(var4)(var2);
+case 16:
+                    var1 = var1 != var5;
+                    if(!var1) { _fun0007_ip = 18; continue _fun0007 }
+case 19:
+                    var4 = _closure1_slot3;
+                    var3 = var4.can;
+                    var2 = _closure1_slot5;
+                    var2 = var2.REQUEST_TO_SPEAK;
+                    var1 = var3.bind(var4)(var2, var5);
+case 18:
+                    return var1;
+                }
+            };
+            var2 = var7.bind(var8)(var3, var1, var2);
+            var1 = 4;
+            var1 = var6[var1];
+            var3 = var5.bind(var4)(var1);
+            var1 = var3.useIsAgeVerified;
+            var3 = var1.bind(var3)();
+            var1 = 5;
+            var1 = var6[var1];
+            var5 = var5.bind(var4)(var1);
+            var4 = var5.useIsStagePawtectEnabled;
+            var1 = 'useShouldShowAgeVerificationPopover';
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
+            var1 = !var3;
+case 20:
+            if(!var1) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
+            var1 = var2;
+case 22:
+            return var1;
+        }
+    };
+    var3['useShouldShowAgeVerificationPopover'] = var2;
     return var1;
 })();

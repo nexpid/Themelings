@@ -751,7 +751,7 @@ case 9:
     var17 = var7[var12];
     var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var17 = var17.BACKGROUND_SECONDARY_ALT;
+    var17 = var17.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var17;
     var5['threadBannerContainer'] = var10;
     var10 = {'flex': 1, 'lineHeight': 18};

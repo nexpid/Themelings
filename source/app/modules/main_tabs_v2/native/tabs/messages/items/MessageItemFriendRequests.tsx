@@ -463,7 +463,7 @@ case 9:
             var9['size'] = var12;
             var12 = 0;
             var14 = var17 > var12;
-            var12 = 'interactive-muted';
+            var12 = 'icon-muted';
             if(!var14) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             var12 = 'interactive-text-active';

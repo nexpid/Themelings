@@ -756,7 +756,7 @@ case 41:
     var13 = var8[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_MUTED;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var11['backgroundColor'] = var13;
     var6['divider'] = var11;
     var11 = {'marginTop': 36, 'marginBottom': 10};

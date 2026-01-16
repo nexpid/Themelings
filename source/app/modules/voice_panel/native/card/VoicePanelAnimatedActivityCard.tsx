@@ -1187,7 +1187,7 @@ case 76:
     var16 = var6[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_SECONDARY_ALT;
+    var16 = var16.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var16;
     var4['overflow'] = var10;
     var10 = {'fontSize': 16, 'lineHeight': 24, 'color': null, 'fontFamily': null, 'textAlign': 'center', 'marginLeft': 16, 'marginRight': 16};

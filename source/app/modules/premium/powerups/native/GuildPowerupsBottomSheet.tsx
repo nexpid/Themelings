@@ -600,7 +600,7 @@ case 27:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY_ALT;
+    var13 = var13.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var13;
     var9['alignItems'] = var10;
     var9['justifyContent'] = var10;

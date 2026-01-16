@@ -676,7 +676,7 @@ case 56:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_MUTED;
+    var10 = var10.ICON_MUTED;
     var9['tintColor'] = var10;
     var4['channelMutedIcon'] = var9;
     var4 = var7.bind(var8)(var4);

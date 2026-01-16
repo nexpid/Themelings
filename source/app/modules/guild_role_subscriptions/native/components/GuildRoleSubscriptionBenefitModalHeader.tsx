@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_MUTED;
+    var15 = var15.TEXT_MUTED;
     var20 = var17.bind(var1)(var16, var15, var18);
     var21 = var9;
     var15 = copyDataProperties(var21, var20);

@@ -866,7 +866,7 @@ case 33:
     var18 = var6[var10];
     var18 = var11.bind(var1)(var18);
     var18 = var18.colors;
-    var18 = var18.BACKGROUND_SECONDARY_ALT;
+    var18 = var18.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var18;
     var4['subscriptionImageView'] = var9;
     var9 = {'position': 'absolute', 'width': '100%', 'height': '100%'};

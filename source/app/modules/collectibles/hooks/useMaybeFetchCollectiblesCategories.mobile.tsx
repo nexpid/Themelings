@@ -58,7 +58,6 @@ case 4:
             var3['countryCode'] = var7;
             var7 = true;
             var3['includeBundles'] = var7;
-            var3['includeNameplatesOnMobile'] = var7;
             var8 = var6 == var1;
             var7 = undefined;
             if(var8) { _fun0001_ip = 6; continue _fun0001 }

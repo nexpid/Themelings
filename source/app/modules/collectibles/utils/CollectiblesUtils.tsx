@@ -118,91 +118,86 @@ case 4:
     var5 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = arg1;
-            var2 = arg2;
+            var2 = arg1;
+            var3 = arg2;
             var1 = {};
-            var5 = null;
-            if(!(var5 != var2)) { _fun0003_ip = 9; continue _fun0003 }
+            var4 = null;
+            if(!(var4 != var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var1['tab'] = var2;
+            var1['tab'] = var3;
 case 9:
-            if(!(var5 != var3)) { _fun0003_ip = 11; continue _fun0003 }
+            if(!(var4 != var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var4 = var3.noCache;
-            var2 = true;
-            if(!(var2 === var4)) { _fun0003_ip = 13; continue _fun0003 }
+            var5 = var2.noCache;
+            var3 = true;
+            if(!(var3 === var5)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var1['no_cache'] = var2;
+            var1['no_cache'] = var3;
 case 13:
-            var4 = var3.includeUnpublished;
-            if(!(var2 === var4)) { _fun0003_ip = 15; continue _fun0003 }
+            var5 = var2.includeUnpublished;
+            if(!(var3 === var5)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-            var1['include_unpublished'] = var2;
+            var1['include_unpublished'] = var3;
 case 15:
-            var4 = var3.includeBundles;
-            if(!(var2 === var4)) { _fun0003_ip = 17; continue _fun0003 }
+            var5 = var2.includeBundles;
+            if(!(var3 === var5)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-            var1['include_bundles'] = var2;
+            var1['include_bundles'] = var3;
 case 17:
-            var4 = var3.includeDynamicBlocks;
-            if(!(var2 === var4)) { _fun0003_ip = 19; continue _fun0003 }
+            var5 = var2.includeDynamicBlocks;
+            if(!(var3 === var5)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-            var1['include_dynamic_blocks'] = var2;
+            var1['include_dynamic_blocks'] = var3;
 case 19:
-            var4 = var3.countryCode;
-            var4 = var5 != var4;
-            if(!var4) { _fun0003_ip = 21; continue _fun0003 }
+            var3 = var2.countryCode;
+            var3 = var4 != var3;
+            if(!var3) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var7 = var3.countryCode;
-            var6 = '';
-            var4 = var6 !== var7;
+            var6 = var2.countryCode;
+            var5 = '';
+            var3 = var5 !== var6;
 case 21:
-            if(!var4) { _fun0003_ip = 23; continue _fun0003 }
+            if(!var3) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-            var4 = var3.countryCode;
-            var1['country_code'] = var4;
+            var3 = var2.countryCode;
+            var1['country_code'] = var3;
 case 23:
-            var4 = var3.paymentGateway;
-            if(!(var5 !== var4)) { _fun0003_ip = 25; continue _fun0003 }
+            var3 = var2.paymentGateway;
+            if(!(var4 !== var3)) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
-            var4 = var3.paymentGateway;
-            var1['payment_gateway'] = var4;
+            var3 = var2.paymentGateway;
+            var1['payment_gateway'] = var3;
 case 25:
-            var9 = var3.variantsReturnStyle;
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var8 = 5;
-            var6 = var6[var8];
-            var7 = undefined;
-            var6 = var10.bind(var7)(var6);
-            var6 = var6.ShopVariantsReturnStyle;
-            var6 = var6.VARIANTS_GROUP;
-            if(!(var9 === var6)) { _fun0003_ip = 27; continue _fun0003 }
+            var8 = var2.variantsReturnStyle;
+            var9 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var7 = 5;
+            var5 = var5[var7];
+            var6 = undefined;
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ShopVariantsReturnStyle;
+            var5 = var5.VARIANTS_GROUP;
+            if(!(var8 === var5)) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var4 = var4[var8];
-            var4 = var6.bind(var7)(var4);
-            var4 = var4.ShopVariantsReturnStyle;
-            var4 = var4.VARIANTS_GROUP;
-            var1['variants_return_style'] = var4;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var3 = var3.ShopVariantsReturnStyle;
+            var3 = var3.VARIANTS_GROUP;
+            var1['variants_return_style'] = var3;
 case 27:
-            var4 = var3.shopHomeConfig;
-            if(!(var5 != var4)) { _fun0003_ip = 29; continue _fun0003 }
+            var3 = var2.shopHomeConfig;
+            if(!(var4 != var3)) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-            var4 = var3.shopHomeConfig;
-            var1['shop_home_config'] = var4;
+            var3 = var2.shopHomeConfig;
+            var1['shop_home_config'] = var3;
 case 29:
-            var4 = var3.skipNumCategories;
-            if(!(var5 != var4)) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-            var4 = var3.skipNumCategories;
-            var1['skip_num_categories'] = var4;
+            var3 = var2.skipNumCategories;
+            if(!(var4 != var3)) { _fun0003_ip = 11; continue _fun0003 }
 case 31:
-            var3 = var3.includeNameplatesOnMobile;
-            if(!(var2 === var3)) { _fun0003_ip = 11; continue _fun0003 }
-case 33:
-            var1['include_nameplates_on_mobile'] = var2;
+            var2 = var2.skipNumCategories;
+            var1['skip_num_categories'] = var2;
 case 11:
             return var1;
         }
@@ -237,26 +232,26 @@ case 0:
             var2 = var1 == var3;
             var4 = undefined;
             var5 = undefined;
-            if(var2) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(var2) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var2 = 0;
             var5 = var3[var2];
-case 34:
-            if(!(var1 != var5)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+case 32:
+            if(!(var1 != var5)) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var3 = _closure1_slot3;
+            var3 = var3.bind(var4)(var5);
+            if(var3) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            var3 = _closure1_slot5;
             var3 = var3.bind(var4)(var5);
             if(var3) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-            var3 = _closure1_slot5;
-            var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
             var3 = _closure1_slot4;
             var6 = var3.bind(var4)(var5);
             var3 = '';
             if(!var6) { _fun0004_ip = 26; continue _fun0004 }
-case 42:
+case 40:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 6;
@@ -273,34 +268,34 @@ case 42:
             var3 = var7.bind(var8)(var6);
 case 26:
             return var3;
-case 40:
+case 38:
             var3 = var5.staticFrameSrc;
             var8 = var5.thumbnailPreviewSrc;
-            if(!(var1 != var3)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!(var1 != var3)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var6 = '';
-            if(!(var6 === var3)) { _fun0004_ip = 45; continue _fun0004 }
-case 43:
+            if(!(var6 === var3)) { _fun0004_ip = 43; continue _fun0004 }
+case 41:
             var7 = var1 != var8;
             var9 = '';
             var6 = var9;
-            if(!var7) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(!var7) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var6 = var9;
-            if(!(var9 !== var8)) { _fun0004_ip = 46; continue _fun0004 }
-case 48:
+            if(!(var9 !== var8)) { _fun0004_ip = 44; continue _fun0004 }
+case 46:
             var7 = _closure1_slot7;
             var7 = var7.bind(var4)(var8);
             var8 = var1 != var7;
             var6 = var9;
-            if(!var8) { _fun0004_ip = 46; continue _fun0004 }
-case 49:
+            if(!var8) { _fun0004_ip = 44; continue _fun0004 }
+case 47:
             var6 = var7;
-case 46:
+case 44:
             var3 = var6;
-case 45:
+case 43:
             return var3;
-case 38:
+case 36:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 7;
@@ -312,12 +307,12 @@ case 38:
             var2 = var3.bind(var4)(var2);
             var3 = var1 != var2;
             var1 = '';
-            if(!var3) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+            if(!var3) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
             var1 = var2;
-case 50:
+case 48:
             return var1;
-case 36:
+case 34:
             var1 = '';
             return var1;
         }

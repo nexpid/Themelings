@@ -177,7 +177,7 @@ case 0:
             var3 = var19[var3];
             var3 = var18.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BACKGROUND_SECONDARY_ALT;
+            var3 = var3.CARD_BACKGROUND_DEFAULT;
             var3 = var6.bind(var8)(var3);
             var _closure2_slot3 = var3;
             var8 = var17.useMemo;

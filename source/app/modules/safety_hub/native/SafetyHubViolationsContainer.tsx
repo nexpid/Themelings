@@ -54,7 +54,7 @@ case 0:
             var15 = var14.colors;
             if(var16) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var14 = var15.INTERACTIVE_MUTED;
+            var14 = var15.ICON_MUTED;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var14 = var15.INTERACTIVE_TEXT_DEFAULT;
@@ -1093,7 +1093,7 @@ case 33:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_MUTED;
+    var11 = var11.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var11;
     var5['moreButton'] = var10;
     var10 = {'flexShrink': 0, 'flexGrow': 1, 'gap': 2};

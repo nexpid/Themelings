@@ -177,6 +177,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GIFT_INTENT_CARD'] = var2;
     var2 = 'impression_gift_intent_unread_notification';
     var4['GIFT_INTENT_UNREAD_NOTIFICATION'] = var2;
+    var2 = 'impression_gift_intent_user_profile_popout';
+    var4['GIFT_INTENT_USER_PROFILE_POPOUT'] = var2;
     var2 = 'impression_gift_option_wishlist_banner_viewed';
     var4['GIFT_OPTION_WISHLIST_BANNER_VIEWED'] = var2;
     var2 = 'impression_global_discovery';

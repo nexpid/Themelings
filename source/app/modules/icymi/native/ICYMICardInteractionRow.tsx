@@ -1890,7 +1890,7 @@ case 122:
             var19 = var23[var19];
             var19 = var20.bind(var5)(var19);
             var20 = var19.ChevronSmallRightIcon;
-            var19 = {'style': null, 'size': 'xs', 'color': 'interactive-muted'};
+            var19 = {'style': null, 'size': 'xs', 'color': 'icon-muted'};
             var23 = var22.overflowChevron;
             var22 = new Array(1);
             var22[0] = var23;

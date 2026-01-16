@@ -135,7 +135,7 @@ case 8:
             var8 = var2[var6];
             var16 = var3.bind(var4)(var8);
             var11 = var16.useAnimatedStyle;
-            var8 = function O() {
+            var8 = function N() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot0;
@@ -759,7 +759,7 @@ case 43:
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_MUTED;
+    var15 = var15.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var15;
     var9['height'] = var14;
     var14 = var6[var12];

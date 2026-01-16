@@ -1166,7 +1166,7 @@ case 129:
         var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'isFractionalPremiumWithNoSubscription';
+        var7 = 'isFractionalPremiumWithNoStandardSub';
         var5['key'] = var7;
         var7 = function value() {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {

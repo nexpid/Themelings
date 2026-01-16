@@ -121,7 +121,7 @@ case 5:
             var8 = var8[var11];
             var8 = var9.bind(var10)(var8);
             var8 = var8.colors;
-            var8 = var8.INTERACTIVE_MUTED;
+            var8 = var8.BACKGROUND_MOD_MUTED;
             var7['backgroundColor'] = var8;
             var6 = var7;
 case 7:

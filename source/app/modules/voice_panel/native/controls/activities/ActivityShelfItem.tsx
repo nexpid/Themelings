@@ -329,7 +329,7 @@ case 15:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY_ALT;
+    var12 = var12.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var12;
     var4['overflow'] = var9;
     var9 = {'paddingVertical': 2, 'paddingHorizontal': 4, 'position': 'absolute', 'top': 8, 'right': 8};

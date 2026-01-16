@@ -159,10 +159,10 @@ case 9:
                     var7 = Object.create(var3);
                     var2 = 0;
                     var7['forceExternalBrowser'] = var2;
-                    var18 = {};
-                    var17 = var8;
-                    var16 = var7;
-                    var9 = copyDataProperties(var18, var17, var16);
+                    var20 = {};
+                    var19 = var8;
+                    var18 = var7;
+                    var9 = copyDataProperties(var20, var19, var18);
                     SaveGenerator(address=64);
 case 11:
                     return var4;
@@ -171,9 +171,9 @@ case 12:
                     if(var5) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
                     var8 = {};
-                    var18 = var8;
-                    var17 = var9;
-                    var5 = copyDataProperties(var18, var17);
+                    var20 = var8;
+                    var19 = var9;
+                    var5 = copyDataProperties(var20, var19);
                     var5 = var9.nonce;
                     if(!(var3 == var5)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
@@ -205,36 +205,67 @@ case 18:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     if(var5) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
+                    var5 = var9.skipLoginRedirect;
+                    var10 = true;
+                    if(!(var10 !== var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var5 = global;
                     var13 = var5.URL;
-                    var12 = var9.skipLoginRedirect;
-                    var10 = true;
-                    var5 = var11;
-                    if(!(var10 !== var12)) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-                    var14 = _closure1_slot1;
-                    var15 = _closure1_slot2;
-                    var12 = 9;
-                    var12 = var15[var12];
-                    var15 = var14.bind(var4)(var12);
-                    var14 = var15.makeUrl;
-                    var12 = _closure1_slot7;
-                    var12 = var12.LOGIN_HANDOFF;
-                    var5 = var14.bind(var15)(var12);
-case 21:
+                    var12 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var5 = 9;
+                    var5 = var14[var5];
+                    var14 = var12.bind(var4)(var5);
+                    var12 = var14.makeUrl;
+                    var5 = _closure1_slot7;
+                    var5 = var5.LOGIN_HANDOFF;
+                    var20 = var12.bind(var14)(var5);
                     var12 = var13.prototype;
                     var12 = Object.create(var12, {constructor: {value: var13}});
-                    var19 = var12;
-                    var18 = var5;
-                    var5 = new var19[var13](var18, var17);
+                    var21 = var12;
+                    var5 = new var21[var13](var20, var19);
                     var5 = var5 instanceof Object ? var5 : var12;
+                    _fun0002_ip = 23; continue _fun0002;
+case 21:
+                    var13 = global;
+                    var15 = var13.URL;
+                    var12 = var13.location;
+                    var17 = var12.protocol;
+                    var12 = var13.window;
+                    var12 = var12.GLOBAL_ENV;
+                    var16 = var12.WEBAPP_ENDPOINT;
+                    var12 = var13.HermesInternal;
+                    var14 = var12.concat;
+                    var12 = '';
+                    var20 = var14.bind(var12)(var17, var16);
+                    var14 = var15.prototype;
+                    var14 = Object.create(var14, {constructor: {value: var15}});
+                    var21 = var14;
+                    var12 = new var21[var15](var20, var19);
+                    var12 = var12 instanceof Object ? var12 : var14;
+                    var13 = var13.URL;
+                    var14 = var13.prototype;
+                    var14 = Object.create(var14, {constructor: {value: var13}});
+                    var21 = var14;
+                    var20 = var11;
+                    var19 = var12;
+                    var13 = new var21[var13](var20, var19, var18);
+                    var13 = var13 instanceof Object ? var13 : var14;
+                    var14 = var13.pathname;
+                    var12['pathname'] = var14;
+                    var14 = var13.search;
+                    var12['search'] = var14;
+                    var13 = var13.hash;
+                    var12['hash'] = var13;
+                    var5 = var12;
+case 23:
                     var14 = var5.searchParams;
                     var13 = var14.append;
                     var12 = 'handoff_token';
                     var12 = var13.bind(var14)(var12, var3);
                     var9 = var9.skipLoginRedirect;
-                    if(!(var10 !== var9)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+                    if(!(var10 !== var9)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
                     var12 = var5.searchParams;
                     var10 = var12.append;
                     var9 = var8.nonce;
@@ -244,23 +275,23 @@ case 24:
                     var9 = var10.append;
                     var8 = 'redirect_to';
                     var8 = var9.bind(var10)(var8, var11);
-case 23:
+case 24:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var7 = 10;
                     var7 = var9[var7];
                     var7 = var8.bind(var4)(var7);
-                    if(var6) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+                    if(var6) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
                     var8 = var7.performURLNavigation;
                     var6 = var5.href;
                     var6 = var8.bind(var7)(var6);
-                    _fun0002_ip = 27; continue _fun0002;
-case 25:
+                    _fun0002_ip = 28; continue _fun0002;
+case 26:
                     var6 = var7.openURLExternally;
                     var5 = var5.href;
                     var5 = var6.bind(var7)(var5);
-case 27:
+case 28:
                     return var4;
 case 19:
                     return var3;
@@ -295,19 +326,19 @@ case 0:
                     StartGenerator();
                     var3 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-                    var4 = undefined;
-                    if(!(var3 === var4)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-                    var3 = {};
+                    if(var2) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-                    SaveGenerator(address=25);
+                    var4 = undefined;
+                    if(!(var3 === var4)) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-                    return var4;
+                    var3 = {};
+case 31:
+                    SaveGenerator(address=25);
 case 33:
+                    return var4;
+case 34:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 34; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 35; continue _fun0003 }
 case 10:
                     var7 = {};
                     var15 = var7;
@@ -315,8 +346,8 @@ case 10:
                     var5 = copyDataProperties(var15, var14);
                     var5 = var3.nonce;
                     var3 = null;
-                    if(!(var3 == var5)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                    if(!(var3 == var5)) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var3 = 5;
@@ -324,7 +355,7 @@ case 36:
                     var6 = var6.bind(var4)(var3);
                     var3 = var6.generateNonce;
                     var5 = var3.bind(var6)();
-case 35:
+case 36:
                     var3 = 'nonce';
                     var7[var3] = var5;
                     var5 = _closure1_slot0;
@@ -339,12 +370,12 @@ case 35:
                     var3 = _closure1_slot9;
                     var3 = var3.bind(var4)(var7);
                     SaveGenerator(address=159);
-case 37:
-                    return var3;
 case 38:
+                    return var3;
+case 39:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+                    if(var5) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
                     var5 = global;
                     var8 = var5.URL;
                     var9 = var5.location;
@@ -372,11 +403,11 @@ case 40:
                     var5 = var5.href;
                     var5 = var6.bind(var7)(var5);
                     return var4;
-case 39:
+case 40:
                     return var3;
-case 34:
+case 35:
                     return var2;
-case 28:
+case 29:
                     return var1;
                 }
             };

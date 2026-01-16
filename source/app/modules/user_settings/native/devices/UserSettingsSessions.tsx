@@ -944,7 +944,7 @@ case 47:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.INTERACTIVE_MUTED;
+    var16 = var16.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var16;
     var4['legacySessionIcon'] = var9;
     var9 = {};

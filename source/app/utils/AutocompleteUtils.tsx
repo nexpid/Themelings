@@ -2316,7 +2316,7 @@ case 223:
 case 220:
             var30 = {};
             var1 = new Array(0);
-            var8 = _closure1_slot25;
+            var8 = _closure1_slot26;
             var5 = var8.getMaxScore;
             var29 = var5.bind(var8)();
             var5 = _closure1_slot63;
@@ -2607,7 +2607,7 @@ case 269:
 case 266:
             var57 = var25.Math;
             var56 = var57.min;
-            var58 = _closure1_slot25;
+            var58 = _closure1_slot26;
             var55 = var58.getScoreWithoutFetchingLatest;
             var54 = var61.id;
             var54 = var55.bind(var58)(var54);
@@ -5724,7 +5724,7 @@ case 163:
             var3 = _closure1_slot40;
             var3 = var3.applicationStatistics;
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot26;
+            var3 = _closure1_slot25;
             var5 = var3.games;
             var6 = _closure1_slot1;
             var4 = _closure1_slot3;
@@ -6392,7 +6392,7 @@ case 506:
         _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
 case 0:
             var12 = arg1;
-            var4 = _closure1_slot25;
+            var4 = _closure1_slot26;
             var3 = var4.getFrequentlyWithoutFetchingLatest;
             var5 = var3.bind(var4)();
             var6 = var5.reduce;
@@ -6402,7 +6402,7 @@ case 0:
                     var1 = arg1;
                     var2 = arg2;
                     var4 = var2.id;
-                    var3 = _closure1_slot25;
+                    var3 = _closure1_slot26;
                     var2 = var3.getScoreWithoutFetchingLatest;
                     var2 = var2.bind(var3)(var4);
                     if(!(var2 > var1)) { _fun0064_ip = 38; continue _fun0064 }
@@ -6541,7 +6541,7 @@ case 510:
 case 218:
             var17 = var9.value;
             var14 = var17.id;
-            var13 = _closure1_slot25;
+            var13 = _closure1_slot26;
             var3 = var13.getScoreWithoutFetchingLatest;
             var3 = var3.bind(var13)(var14);
             var13 = _closure1_slot47;

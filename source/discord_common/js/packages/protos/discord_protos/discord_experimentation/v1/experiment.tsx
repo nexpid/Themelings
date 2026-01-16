@@ -202,6 +202,9 @@ case 9:
     var8['BURNED'] = var19;
     var7 = 'BURNED';
     var8[var19] = var7;
+    var8['PRESERVED'] = var4;
+    var7 = 'PRESERVED';
+    var8[var4] = var7;
     var _closure1_slot14 = var8;
     var7 = {};
     var7['UNSPECIFIED'] = var18;

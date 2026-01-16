@@ -963,25 +963,25 @@ case 111:
 case 39:
             var3 = var6.isScheduledForDeletion;
             var3 = var3.bind(var6)();
-            if(var3) { _fun0006_ip = 95; continue _fun0006 }
-case 114:
+            if(var3) { _fun0006_ip = 114; continue _fun0006 }
+case 115:
             var15 = _closure1_slot7;
             var14 = var15.has;
             var3 = var6.type;
             var3 = var14.bind(var15)(var3);
-            if(var3) { _fun0006_ip = 115; continue _fun0006 }
-case 116:
+            if(var3) { _fun0006_ip = 116; continue _fun0006 }
+case 117:
             var3 = var6.computeLurkerPermissionsAllowList;
             var14 = var3.bind(var6)();
             var3 = null;
-            if(!(var3 != var14)) { _fun0006_ip = 117; continue _fun0006 }
-case 118:
-            var2 = var14;
-case 117:
-            if(!(var3 == var10)) { _fun0006_ip = 74; continue _fun0006 }
+            if(!(var3 != var14)) { _fun0006_ip = 118; continue _fun0006 }
 case 119:
+            var2 = var14;
+case 118:
+            if(!(var3 == var10)) { _fun0006_ip = 74; continue _fun0006 }
+case 120:
             var14 = var6.permissionOverwrites;
-            _fun0006_ip = 120; continue _fun0006;
+            _fun0006_ip = 121; continue _fun0006;
 case 74:
             var15 = {};
             var20 = var6.permissionOverwrites;
@@ -991,23 +991,23 @@ case 74:
             var20 = var10;
             var16 = copyDataProperties(var21, var20);
             var14 = var15;
-case 120:
+case 121:
             var15 = var6.getGuildId;
             var17 = var15.bind(var6)();
             var15 = var3 != var17;
             var3 = null;
-            if(!var15) { _fun0006_ip = 121; continue _fun0006 }
-case 122:
+            if(!var15) { _fun0006_ip = 122; continue _fun0006 }
+case 123:
             var16 = _closure1_slot16;
             var15 = var16.getGuild;
             var3 = var15.bind(var16)(var17);
-case 121:
+case 122:
             var13 = var3;
             var11 = var14;
             var4 = var2;
 case 113:
             var2 = null;
-            if(!(var2 != var13)) { _fun0006_ip = 123; continue _fun0006 }
+            if(!(var2 != var13)) { _fun0006_ip = 53; continue _fun0006 }
 case 124:
             var14 = {'userId': null, 'nick': '', 'guildId': null, 'guildMemberAvatar': null, 'roles': null, 'colorString': null, 'colorStrings': null, 'hoistRoleId': null, 'premiumSince': null, 'isPending': false};
             var15 = _closure1_slot22;
@@ -1045,10 +1045,10 @@ case 124:
             var2['lurkerPermissionsMask'] = var4;
             var2 = var3.bind(var5)(var2);
             return var2;
-case 123:
+case 53:
             var2 = _closure1_slot23;
             return var2;
-case 115:
+case 116:
             var4 = _closure1_slot13;
             var3 = var4.getChannel;
             var2 = var6.parent_id;
@@ -1076,7 +1076,7 @@ case 125:
             var2 = _closure1_slot23;
 case 127:
             return var2;
-case 95:
+case 114:
             var1 = _closure1_slot23;
             return var1;
         }
@@ -1267,7 +1267,7 @@ case 142:
             var2 = !var1;
 case 60:
             var1 = !var2;
-            if(!var2) { _fun0011_ip = 114; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 115; continue _fun0011 }
 case 31:
             var2 = var3 != var7;
             if(!var2) { _fun0011_ip = 143; continue _fun0011 }
@@ -1287,7 +1287,7 @@ case 145:
             var2 = var3;
 case 143:
             var1 = var2;
-case 114:
+case 115:
             return var1;
         }
     };
@@ -1414,7 +1414,7 @@ case 0:
             var2 = _closure1_slot8;
             var5 = var3 instanceof var2;
             var2 = var3;
-            if(!var5) { _fun0016_ip = 118; continue _fun0016 }
+            if(!var5) { _fun0016_ip = 119; continue _fun0016 }
 case 150:
             var6 = var3.type;
             var5 = _closure1_slot21;
@@ -1448,7 +1448,7 @@ case 156:
 case 155:
             var2 = var5;
             var4 = var3;
-case 118:
+case 119:
             var3 = null;
             if(!(var3 != var2)) { _fun0016_ip = 157; continue _fun0016 }
 case 8:
@@ -1534,12 +1534,12 @@ case 10:
             var10 = var4.bind(var8)();
             var4 = null;
             var8 = var4 != var10;
-            if(!var8) { _fun0017_ip = 117; continue _fun0017 }
+            if(!var8) { _fun0017_ip = 118; continue _fun0017 }
 case 164:
             var9 = _closure1_slot16;
             var8 = var9.getGuild;
             var4 = var8.bind(var9)(var10);
-case 117:
+case 118:
             var6 = var4;
             var5 = var1;
 case 8:

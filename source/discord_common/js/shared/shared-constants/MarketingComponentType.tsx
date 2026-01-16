@@ -58,6 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GIFT_REMINDER_COACHMARK'] = var5;
     var1 = 'GIFT_REMINDER_COACHMARK';
     var2[var5] = var1;
+    var5 = 12;
+    var2['PREMIUM_TAB_TOOLTIP'] = var5;
+    var1 = 'PREMIUM_TAB_TOOLTIP';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

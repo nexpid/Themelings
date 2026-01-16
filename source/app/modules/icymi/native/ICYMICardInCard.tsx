@@ -1003,7 +1003,7 @@ case 63:
             var32 = var34[var32];
             var32 = var33.bind(var4)(var32);
             var32 = var32.colors;
-            var32 = var32.INTERACTIVE_MUTED;
+            var32 = var32.ICON_MUTED;
             var29['color'] = var32;
             var32 = 'sm';
             var29['size'] = var32;

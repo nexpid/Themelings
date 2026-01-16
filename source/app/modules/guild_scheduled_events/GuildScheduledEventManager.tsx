@@ -981,7 +981,7 @@ case 94: // catch_target0
                     var18 = var6;
                     var4 = new var18[var7](var17, var16);
                     var4 = var4 instanceof Object ? var4 : var6;
-                    SaveGenerator(address=303);
+                    SaveGenerator(address=305);
 case 95:
                     return var4;
 case 96:

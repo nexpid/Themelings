@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.INTERACTIVE_MUTED;
+    var13 = var13.TEXT_MUTED;
     var9['color'] = var13;
     var12 = var12.PRIMARY_MEDIUM;
     var9['fontFamily'] = var12;

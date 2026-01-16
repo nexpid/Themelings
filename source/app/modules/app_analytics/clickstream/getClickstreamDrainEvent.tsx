@@ -44,10 +44,14 @@ case 3:
             var5 = var5.GUILD_VIEWED_CLICKSTREAM;
             if(!(var5 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = _closure1_slot0;
-            var3 = var3.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(var3 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+            var5 = _closure1_slot0;
+            var5 = var5.FRIENDS_LIST_VIEWED_CLICKSTREAM;
+            if(!(var5 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var3 = _closure1_slot0;
+            var3 = var3.CHANNEL_LATEST_MESSAGES_LOADED_CLICKSTREAM;
+            if(!(var3 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var1.Error;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
@@ -59,6 +63,55 @@ case 7:
             var1 = new var8[var5](var7, var6);
             var1 = var1 instanceof Object ? var1 : var3;
             throw var1;
+case 8:
+            var1 = {};
+            var5 = var4.map;
+            var3 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = var2.getTime;
+                var2 = var1.bind(var2)();
+                var1 = arg1;
+                var3 = var1.timestamp;
+                var1 = var3.getTime;
+                var1 = var1.bind(var3)();
+                var1 = var2 - var1;
+                return var1;
+            };
+            var3 = var5.bind(var4)(var3);
+            var1['time_minus'] = var3;
+            var5 = var4.map;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.rtc_state;
+                return var1;
+            };
+            var3 = var5.bind(var4)(var3);
+            var1['rtc_states'] = var3;
+            var5 = var4.map;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.load_duration_ms;
+                return var1;
+            };
+            var3 = var5.bind(var4)(var3);
+            var1['load_duration_ms'] = var3;
+            var5 = var4.map;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.were_messages_cached;
+                return var1;
+            };
+            var3 = var5.bind(var4)(var3);
+            var1['were_messages_cached'] = var3;
+            var5 = var4.map;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.is_first_load;
+                return var1;
+            };
+            var3 = var5.bind(var4)(var3);
+            var1['is_first_load'] = var3;
+            return var1;
 case 6:
             var1 = {};
             var5 = var4.map;

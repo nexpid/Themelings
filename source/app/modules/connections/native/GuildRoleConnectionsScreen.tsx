@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BORDER_MUTED;
     var4['borderColor'] = var14;
     var7['verifiedRolePressed'] = var4;
     var4 = {};

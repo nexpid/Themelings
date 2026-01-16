@@ -34,6 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LARGE_SERVER_ACCESS'] = var5;
     var1 = 'LARGE_SERVER_ACCESS';
     var2[var5] = var1;
+    var5 = 32;
+    var2['COMMANDS_TOGGLE'] = var5;
+    var1 = 'COMMANDS_TOGGLE';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

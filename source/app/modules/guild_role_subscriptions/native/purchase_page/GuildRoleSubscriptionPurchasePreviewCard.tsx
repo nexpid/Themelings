@@ -434,7 +434,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY_ALT;
+    var12 = var12.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
     var9 = {};
@@ -513,7 +513,7 @@ case 8:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_MUTED;
+    var10 = var10.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var10;
     var4['showAllButtonUnderline'] = var9;
     var4 = var7.bind(var8)(var4);

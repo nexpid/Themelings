@@ -1380,13 +1380,44 @@ case 170:
     var3['findMessageIndex'] = var8;
     var3['getVisibleMessages'] = var7;
     var3['shouldJumpToOriginalPost'] = var6;
+    var6 = function startOrCancelChannelLatestMessagesLoad(arg1) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.jumpTargetId;
+            var3 = null;
+            if(!(var3 == var2)) { _fun0015_ip = 39; continue _fun0015 }
+case 63:
+            var2 = var1.oldestUnreadMessageId;
+            if(!(var3 == var2)) { _fun0015_ip = 39; continue _fun0015 }
+case 172:
+            var2 = var1.shouldJumpToOriginalPost;
+            if(var2) { _fun0015_ip = 39; continue _fun0015 }
+case 173:
+            var4 = var1.tracker;
+            var3 = var4.start;
+            var2 = {};
+            var5 = var1.channelId;
+            var2['channelId'] = var5;
+            var2 = var3.bind(var4)(var2);
+            _fun0015_ip = 160; continue _fun0015;
+case 39:
+            var2 = var1.tracker;
+            var1 = var2.cancel;
+            var1 = var1.bind(var2)();
+case 160:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var3['startOrCancelChannelLatestMessagesLoad'] = var6;
     var3['recordTimings'] = var5;
     var5 = function findMessageIndexInRows(arg1, arg2) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 == var4)) { _fun0015_ip = 170; continue _fun0015 }
+            if(!(var1 == var4)) { _fun0016_ip = 170; continue _fun0016 }
 case 171:
             var1 = undefined;
             return var1;
@@ -1406,14 +1437,14 @@ case 170:
     var3['findMessageIndexInRows'] = var5;
     var3['getMessage'] = var4;
     var4 = function isLoadingAtTop(arg1, arg2) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg2;
-            if(var1) { _fun0016_ip = 172; continue _fun0016 }
-case 173:
+            if(var1) { _fun0017_ip = 174; continue _fun0017 }
+case 175:
             var1 = false;
             return var1;
-case 172:
+case 174:
             var2 = _closure1_slot22;
             var5 = undefined;
             var1 = arg1;
@@ -1421,33 +1452,33 @@ case 172:
             var2 = var4.bind(var5)();
             var1 = var2.done;
             var3 = var2;
-            if(var1) { _fun0016_ip = 174; continue _fun0016 }
+            if(var1) { _fun0017_ip = 176; continue _fun0017 }
 case 74:
             var1 = var3.value;
             var7 = var1.changeType;
             var2 = _closure1_slot15;
             var2 = var2.INSERT;
-            if(!(var7 !== var2)) { _fun0016_ip = 175; continue _fun0016 }
+            if(!(var7 !== var2)) { _fun0017_ip = 177; continue _fun0017 }
 case 30:
             var7 = var4.bind(var5)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0016_ip = 174; continue _fun0016 }
-case 176:
-            _fun0016_ip = 74; continue _fun0016;
-case 175:
+            if(var2) { _fun0017_ip = 176; continue _fun0017 }
+case 178:
+            _fun0017_ip = 74; continue _fun0017;
+case 177:
             var2 = var1.index;
             var1 = 1;
             var1 = var2 <= var1;
             return var1;
-case 174:
+case 176:
             var1 = false;
             return var1;
         }
     };
     var3['isLoadingAtTop'] = var4;
     var4 = function handleTapTableView(arg1, arg2) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1457,7 +1488,7 @@ case 0:
             var4 = var4.bind(var1)(var2);
             var2 = var4.isIOS;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0017_ip = 57; continue _fun0017 }
+            if(!var2) { _fun0018_ip = 57; continue _fun0018 }
 case 163:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -1469,13 +1500,13 @@ case 163:
             var3 = arg2;
             var2 = var3 !== var4;
 case 57:
-            if(!var2) { _fun0017_ip = 77; continue _fun0017 }
+            if(!var2) { _fun0018_ip = 77; continue _fun0018 }
 case 60:
             var2 = arg1;
             var3 = var2.current;
             var2 = null;
-            if(!(var2 != var3)) { _fun0017_ip = 77; continue _fun0017 }
-case 177:
+            if(!(var2 != var3)) { _fun0018_ip = 77; continue _fun0018 }
+case 179:
             var2 = var3.closeCustomKeyboard;
             var2 = var2.bind(var3)();
 case 77:
@@ -1510,7 +1541,7 @@ case 77:
     };
     var3['handleTapShowAltText'] = var4;
     var4 = function handleMediaPlayFinishedAnalytics(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var7 = arg1;
             var3 = _closure1_slot1;
@@ -1542,10 +1573,10 @@ case 0:
             var10 = var7.mimeType;
             var11 = var8 != var10;
             var9 = 'video';
-            if(!var11) { _fun0018_ip = 178; continue _fun0018 }
-case 179:
+            if(!var11) { _fun0019_ip = 180; continue _fun0019 }
+case 181:
             var9 = var10;
-case 178:
+case 180:
             var2['mime_type'] = var9;
             var2['file_size'] = var8;
             var7 = var7.fileDurationSec;
@@ -1566,14 +1597,14 @@ case 178:
     };
     var3['handleMediaPlayFinishedAnalytics'] = var4;
     var4 = function scrollToBottom(arg1, arg2, arg3) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var5 = arguments[3];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0019_ip = 180; continue _fun0019 }
+            if(!(var5 === var1)) { _fun0020_ip = 182; continue _fun0020 }
 case 171:
             var5 = true;
-case 180:
+case 182:
             var3 = {};
             var2 = true;
             var3['isAtBottom'] = var2;
@@ -1587,25 +1618,25 @@ case 180:
             var3 = var4.scrollToBottom;
             var2 = arg1;
             var2 = var2.current;
-            if(!var5) { _fun0019_ip = 181; continue _fun0019 }
+            if(!var5) { _fun0020_ip = 183; continue _fun0020 }
 case 55:
             var6 = arg2;
             var5 = !var6;
-case 181:
+case 183:
             var2 = var3.bind(var4)(var2, var5);
             return var1;
         }
     };
     var3['scrollToBottom'] = var4;
     var4 = function scrollToTop(arg1, arg2) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var5 = arguments[2];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0020_ip = 180; continue _fun0020 }
+            if(!(var5 === var1)) { _fun0021_ip = 182; continue _fun0021 }
 case 171:
             var5 = true;
-case 180:
+case 182:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 44;
@@ -1614,8 +1645,8 @@ case 180:
             var3 = var4.scrollToTop;
             var2 = arg1;
             var2 = var2.current;
-            if(!var5) { _fun0020_ip = 75; continue _fun0020 }
-case 182:
+            if(!var5) { _fun0021_ip = 75; continue _fun0021 }
+case 184:
             var6 = arg2;
             var5 = !var6;
 case 75:
@@ -1625,14 +1656,14 @@ case 75:
     };
     var3['scrollToTop'] = var4;
     var4 = function scrollToRelativeOffset(arg1, arg2, arg3) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var6 = arguments[3];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0021_ip = 180; continue _fun0021 }
+            if(!(var6 === var1)) { _fun0022_ip = 182; continue _fun0022 }
 case 171:
             var6 = true;
-case 180:
+case 182:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 44;
@@ -1641,8 +1672,8 @@ case 180:
             var4 = var5.scrollToRelativeOffset;
             var2 = arg1;
             var3 = var2.current;
-            if(!var6) { _fun0021_ip = 75; continue _fun0021 }
-case 182:
+            if(!var6) { _fun0022_ip = 75; continue _fun0022 }
+case 184:
             var2 = arg2;
             var6 = !var2;
 case 75:
@@ -1653,15 +1684,15 @@ case 75:
     };
     var3['scrollToRelativeOffset'] = var4;
     var4 = function scrollToTopMessage(arg1, arg2) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var2 = arg2;
             var1 = var2.getPreviousRows;
             var1 = var1.bind(var2)();
             var3 = var1.length;
             var2 = 0;
-            if(!(var3 > var2)) { _fun0022_ip = 183; continue _fun0022 }
-case 184:
+            if(!(var3 > var2)) { _fun0023_ip = 185; continue _fun0023 }
+case 186:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 44;
@@ -1675,18 +1706,18 @@ case 184:
             var1 = 1;
             var1 = var5 - var1;
             var1 = var3.bind(var4)(var2, var1);
-case 183:
+case 185:
             var1 = undefined;
             return var1;
         }
     };
     var3['scrollToTopMessage'] = var4;
     var4 = function canAddNewReactions(arg1, arg2) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var3 = arg1;
             var1 = arg2;
-            if(!var1) { _fun0023_ip = 163; continue _fun0023 }
+            if(!var1) { _fun0024_ip = 163; continue _fun0024 }
 case 171:
             var5 = _closure1_slot11;
             var4 = var5.can;
@@ -1694,17 +1725,17 @@ case 171:
             var2 = var2.ADD_REACTIONS;
             var1 = var4.bind(var5)(var2, var3);
 case 163:
-            if(var1) { _fun0023_ip = 182; continue _fun0023 }
-case 185:
+            if(var1) { _fun0024_ip = 184; continue _fun0024 }
+case 187:
             var2 = var3.isPrivate;
             var1 = var2.bind(var3)();
-case 182:
+case 184:
             return var1;
         }
     };
     var3['canAddNewReactions'] = var4;
     var4 = function loadMoreBefore(arg1, arg2, arg3) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var7 = arg2;
             var3 = arg3;
@@ -1712,12 +1743,12 @@ case 0:
             var2 = true;
             var2 = var3.bind(var1)(var2);
             var2 = var7.hasMoreBefore;
-            if(!var2) { _fun0024_ip = 33; continue _fun0024 }
-case 184:
+            if(!var2) { _fun0025_ip = 33; continue _fun0025 }
+case 186:
             var3 = var7.loadingMore;
             var2 = !var3;
 case 33:
-            if(!var2) { _fun0024_ip = 186; continue _fun0024 }
+            if(!var2) { _fun0025_ip = 188; continue _fun0025 }
 case 61:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -1733,21 +1764,21 @@ case 61:
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0024_ip = 187; continue _fun0024 }
-case 188:
+            if(var8) { _fun0025_ip = 189; continue _fun0025 }
+case 190:
             var6 = var7.id;
-case 187:
+case 189:
             var2['before'] = var6;
             var5 = _closure1_slot21;
             var2['limit'] = var5;
             var2 = var3.bind(var4)(var2);
-case 186:
+case 188:
             return var1;
         }
     };
     var3['loadMoreBefore'] = var4;
     var4 = function loadMoreAfter(arg1, arg2, arg3) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var7 = arg2;
             var3 = arg3;
@@ -1755,12 +1786,12 @@ case 0:
             var2 = true;
             var2 = var3.bind(var1)(var2);
             var2 = var7.hasMoreAfter;
-            if(!var2) { _fun0025_ip = 33; continue _fun0025 }
-case 184:
+            if(!var2) { _fun0026_ip = 33; continue _fun0026 }
+case 186:
             var3 = var7.loadingMore;
             var2 = !var3;
 case 33:
-            if(!var2) { _fun0025_ip = 186; continue _fun0025 }
+            if(!var2) { _fun0026_ip = 188; continue _fun0026 }
 case 61:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -1776,15 +1807,15 @@ case 61:
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0025_ip = 187; continue _fun0025 }
-case 188:
+            if(var8) { _fun0026_ip = 189; continue _fun0026 }
+case 190:
             var6 = var7.id;
-case 187:
+case 189:
             var2['after'] = var6;
             var5 = _closure1_slot21;
             var2['limit'] = var5;
             var2 = var3.bind(var4)(var2);
-case 186:
+case 188:
             return var1;
         }
     };
@@ -1865,7 +1896,7 @@ case 186:
     };
     var3['handleMessageVisibilityChanged'] = var4;
     var4 = function handleLongPressSticker(arg1, arg2, arg3) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var3 = arg1;
             var4 = arg2;
@@ -1880,13 +1911,13 @@ case 0:
             var1 = new var7[var5](var6, var5);
             var2 = var1 instanceof Object ? var1 : var2;
             var1 = null;
-            if(!(var1 != var4)) { _fun0026_ip = 7; continue _fun0026 }
-case 182:
+            if(!(var1 != var4)) { _fun0027_ip = 7; continue _fun0027 }
+case 184:
             var5 = var2.add;
             var5 = var5.bind(var2)(var4);
 case 7:
             var1 = null;
-            if(!(var4 !== var3)) { _fun0026_ip = 35; continue _fun0026 }
+            if(!(var4 !== var3)) { _fun0027_ip = 35; continue _fun0027 }
 case 30:
             var1 = var3;
 case 35:
@@ -1913,14 +1944,14 @@ case 35:
     };
     var3['handleTapNavBar'] = var4;
     var4 = function jumpToPresent(arg1, arg2, arg3) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var1 = arg1;
             var5 = arg2;
             var6 = var1.jumpReturnTargetId;
             var2 = null;
-            if(!(var2 != var6)) { _fun0027_ip = 165; continue _fun0027 }
-case 189:
+            if(!(var2 != var6)) { _fun0028_ip = 165; continue _fun0028 }
+case 191:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 45;
@@ -1935,19 +1966,19 @@ case 189:
             var6 = true;
             var2['flash'] = var6;
             var2 = var3.bind(var4)(var2);
-            _fun0027_ip = 190; continue _fun0027;
+            _fun0028_ip = 192; continue _fun0028;
 case 165:
             var2 = var1.loadingMore;
-            if(var2) { _fun0027_ip = 190; continue _fun0027 }
-case 191:
+            if(var2) { _fun0028_ip = 192; continue _fun0028 }
+case 193:
             var1 = var1.hasMoreAfter;
-            if(var1) { _fun0027_ip = 192; continue _fun0027 }
+            if(var1) { _fun0028_ip = 194; continue _fun0028 }
 case 11:
             var2 = arg3;
             var1 = undefined;
             var1 = var2.bind(var1)();
-            _fun0027_ip = 190; continue _fun0027;
-case 192:
+            _fun0028_ip = 192; continue _fun0028;
+case 194:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 45;
@@ -1965,14 +1996,14 @@ case 192:
             var4['present'] = var5;
             var1['jump'] = var4;
             var1 = var2.bind(var3)(var1);
-case 190:
+case 192:
             var1 = undefined;
             return var1;
         }
     };
     var3['jumpToPresent'] = var4;
     var4 = function scrollToNewMessages(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.channel;
@@ -1997,52 +2028,52 @@ case 0:
             var12['location'] = var16;
             var12 = var13.bind(var15)(var12);
             var12 = var12.enabled;
-            if(var12) { _fun0028_ip = 193; continue _fun0028 }
-case 186:
+            if(var12) { _fun0029_ip = 195; continue _fun0029 }
+case 188:
             var5 = var5.bind(var1)(var9);
             var9 = null;
-            if(!(var9 != var5)) { _fun0028_ip = 194; continue _fun0028 }
-case 195:
+            if(!(var9 != var5)) { _fun0029_ip = 196; continue _fun0029 }
+case 197:
             var15 = var5 + 1;
             var5 = var14.length;
             var9 = var15;
-            if(!(var15 < var5)) { _fun0028_ip = 196; continue _fun0028 }
-case 197:
+            if(!(var15 < var5)) { _fun0029_ip = 198; continue _fun0029 }
+case 199:
             var5 = var14[var15];
             var12 = var5.type;
             var5 = _closure1_slot14;
             var5 = var5.SEPARATOR;
             var9 = var15;
-            if(!(var12 === var5)) { _fun0028_ip = 196; continue _fun0028 }
-case 190:
+            if(!(var12 === var5)) { _fun0029_ip = 198; continue _fun0029 }
+case 192:
             var5 = var14[var15];
             var12 = var5.id;
             var5 = _closure1_slot16;
             var5 = var5.UNREAD;
             var13 = var15;
             var9 = var13;
-            if(!(var12 !== var5)) { _fun0028_ip = 196; continue _fun0028 }
+            if(!(var12 !== var5)) { _fun0029_ip = 198; continue _fun0029 }
 case 22:
             var15 = var13 + 1;
             var5 = var14.length;
             var9 = var15;
-            if(!(var15 < var5)) { _fun0028_ip = 196; continue _fun0028 }
-case 198:
+            if(!(var15 < var5)) { _fun0029_ip = 198; continue _fun0029 }
+case 200:
             var5 = var14[var15];
             var12 = var5.type;
             var5 = _closure1_slot14;
             var5 = var5.SEPARATOR;
             var9 = var15;
-            if(!(var12 === var5)) { _fun0028_ip = 196; continue _fun0028 }
-case 199:
+            if(!(var12 === var5)) { _fun0029_ip = 198; continue _fun0029 }
+case 201:
             var5 = var14[var15];
             var12 = var5.id;
             var5 = _closure1_slot16;
             var5 = var5.UNREAD;
             var13 = var15;
             var9 = var13;
-            if(var12 !== var5) { _fun0028_ip = 22; continue _fun0028 }
-case 196:
+            if(var12 !== var5) { _fun0029_ip = 22; continue _fun0029 }
+case 198:
             var5 = _closure1_slot25;
             var21 = undefined;
             var20 = var6;
@@ -2050,8 +2081,8 @@ case 196:
             var18 = var11;
             var17 = var7;
             var5 = var21[var5](var20, var19, var18, var17, var16);
-            if(var5) { _fun0028_ip = 200; continue _fun0028 }
-case 201:
+            if(var5) { _fun0029_ip = 202; continue _fun0029 }
+case 203:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 44;
@@ -2060,8 +2091,8 @@ case 201:
             var7 = var8.scrollTo;
             var5 = var4.current;
             var4 = {};
-            if(var10) { _fun0028_ip = 202; continue _fun0028 }
-case 203:
+            if(var10) { _fun0029_ip = 204; continue _fun0029 }
+case 205:
             var12 = var11.jumpType;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -2071,14 +2102,14 @@ case 203:
             var11 = var11.JumpTypes;
             var11 = var11.INSTANT;
             var10 = var12 === var11;
-case 202:
+case 204:
             var10 = !var10;
             var4['animated'] = var10;
             var4 = var7.bind(var8)(var5, var9, var4);
-case 200:
+case 202:
             var3 = var3.bind(var1)();
-            _fun0028_ip = 194; continue _fun0028;
-case 193:
+            _fun0029_ip = 196; continue _fun0029;
+case 195:
             var5 = _closure1_slot12;
             var4 = var5.ackMessageId;
             var3 = var6.id;
@@ -2093,23 +2124,23 @@ case 193:
             var7 = var6.id;
             var2['channelId'] = var7;
             var7 = null;
-            if(!(var7 == var5)) { _fun0028_ip = 204; continue _fun0028 }
-case 205:
+            if(!(var7 == var5)) { _fun0029_ip = 206; continue _fun0029 }
+case 207:
             var5 = var6.id;
-case 204:
+case 206:
             var2['messageId'] = var5;
             var5 = 1;
             var2['offset'] = var5;
             var5 = 'Mark As Read';
             var2['context'] = var5;
             var2 = var3.bind(var4)(var2);
-case 194:
+case 196:
             return var1;
         }
     };
     var3['scrollToNewMessages'] = var4;
     var4 = function syncMessageDisplay(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var5 = arg1;
             var4 = var5.messages;
@@ -2121,13 +2152,13 @@ case 0:
             var10 = var5.updateRows;
             var5 = var5.scrollToMessageId;
             var _closure2_slot2 = var5;
-            if(var2) { _fun0029_ip = 206; continue _fun0029 }
+            if(var2) { _fun0030_ip = 208; continue _fun0030 }
 case 4:
             var6 = undefined;
             var2 = {};
             var2 = var10.bind(var6)(var2);
-            _fun0029_ip = 207; continue _fun0029;
-case 206:
+            _fun0030_ip = 209; continue _fun0030;
+case 208:
             var7 = {};
             var2 = var4.jumpTargetId;
             var7['scrollToMessageId'] = var2;
@@ -2147,10 +2178,10 @@ case 206:
             var7 = var10.bind(var2)(var7);
             var10 = var4.jumpTargetId;
             var7 = null;
-            if(!(var7 == var10)) { _fun0029_ip = 208; continue _fun0029 }
+            if(!(var7 == var10)) { _fun0030_ip = 210; continue _fun0030 }
 case 14:
-            if(!(var7 != var9)) { _fun0029_ip = 207; continue _fun0029 }
-case 209:
+            if(!(var7 != var9)) { _fun0030_ip = 209; continue _fun0030 }
+case 211:
             var7 = global;
             var9 = var7.setTimeout;
             var7 = function() {
@@ -2175,8 +2206,8 @@ case 209:
             };
             var1 = 50;
             var1 = var9.bind(var2)(var7, var1);
-            _fun0029_ip = 207; continue _fun0029;
-case 208:
+            _fun0030_ip = 209; continue _fun0030;
+case 210:
             var1 = {};
             var7 = var4.jumpTargetId;
             var1['scrollToMessageId'] = var7;
@@ -2190,7 +2221,7 @@ case 208:
             var6 = var6.INSTANT;
             var1['jumpType'] = var6;
             var1 = var5.bind(var2)(var1);
-case 207:
+case 209:
             var2 = _closure1_slot26;
             var1 = undefined;
             var2 = var2.bind(var1)(var3, var4);
@@ -2204,7 +2235,7 @@ case 207:
     };
     var3['getChatRef'] = var4;
     var4 = function maybeRescrollToMessageId(arg1, arg2) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var4 = arg1;
             var3 = arg2;
@@ -2218,14 +2249,14 @@ case 0:
             var6 = var3.updateRowsEnabled;
             var1 = undefined;
             var5 = var1 !== var6;
-            if(!var5) { _fun0030_ip = 210; continue _fun0030 }
+            if(!var5) { _fun0031_ip = 212; continue _fun0031 }
 case 75:
             var5 = var6;
-case 210:
+case 212:
             var _closure2_slot4 = var5;
             var3 = var3.jumpType;
-            if(!(var1 === var3)) { _fun0030_ip = 211; continue _fun0030 }
-case 181:
+            if(!(var1 === var3)) { _fun0031_ip = 213; continue _fun0031 }
+case 183:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 48;
@@ -2233,31 +2264,31 @@ case 181:
             var5 = var6.bind(var1)(var5);
             var5 = var5.JumpTypes;
             var3 = var5.INSTANT;
-case 211:
+case 213:
             var _closure2_slot5 = var3;
             var3 = null;
-            if(!(var3 != var4)) { _fun0030_ip = 212; continue _fun0030 }
-case 213:
+            if(!(var3 != var4)) { _fun0031_ip = 214; continue _fun0031 }
+case 215:
             var3 = global;
             var4 = var3.setTimeout;
             var3 = function() {
-                _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+                _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
                     var3 = _closure2_slot2;
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0031_ip = 214; continue _fun0031 }
+                    if(!(var3 != var6)) { _fun0032_ip = 216; continue _fun0032 }
 case 129:
                     var2 = _closure2_slot1;
                     var2 = var2.current;
-                    if(!(var3 != var2)) { _fun0031_ip = 214; continue _fun0031 }
-case 215:
+                    if(!(var3 != var2)) { _fun0032_ip = 216; continue _fun0032 }
+case 217:
                     var3 = _closure2_slot4;
                     var2 = false;
-                    if(!var3) { _fun0031_ip = 216; continue _fun0031 }
-case 217:
+                    if(!var3) { _fun0032_ip = 218; continue _fun0032 }
+case 219:
                     var5 = _closure2_slot3;
                     var4 = {};
                     var3 = _closure2_slot0;
@@ -2278,9 +2309,9 @@ case 217:
                     var4['isRescrolling'] = var3;
                     var4 = var5.bind(var1)(var4);
                     var2 = true;
-case 216:
-                    if(var2) { _fun0031_ip = 214; continue _fun0031 }
-case 212:
+case 218:
+                    if(var2) { _fun0032_ip = 216; continue _fun0032 }
+case 214:
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var2 = 44;
@@ -2300,19 +2331,19 @@ case 212:
                     var7 = var8 === var7;
                     var2['animated'] = var7;
                     var2 = var4.bind(var5)(var3, var6, var2);
-case 214:
+case 216:
                     return var1;
                 }
             };
             var2 = 50;
             var2 = var4.bind(var1)(var3, var2);
-case 212:
+case 214:
             return var1;
         }
     };
     var3['maybeRescrollToMessageId'] = var4;
     var2 = function handleVisibleMessagesChange(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var14 = var1.firstVisibleMessageRowIndex;
@@ -2327,14 +2358,14 @@ case 0:
             var7 = var1.channelId;
             var4 = var1.channel;
             var1 = null;
-            if(!(var1 != var14)) { _fun0032_ip = 218; continue _fun0032 }
-case 181:
-            if(!(var1 != var13)) { _fun0032_ip = 218; continue _fun0032 }
+            if(!(var1 != var14)) { _fun0033_ip = 220; continue _fun0033 }
 case 183:
-            if(!(var1 != var10)) { _fun0032_ip = 218; continue _fun0032 }
-case 219:
-            if(!(var1 != var9)) { _fun0032_ip = 218; continue _fun0032 }
-case 188:
+            if(!(var1 != var13)) { _fun0033_ip = 220; continue _fun0033 }
+case 185:
+            if(!(var1 != var10)) { _fun0033_ip = 220; continue _fun0033 }
+case 221:
+            if(!(var1 != var9)) { _fun0033_ip = 220; continue _fun0033 }
+case 190:
             var3 = _closure1_slot24;
             var2 = {};
             var2['firstVisibleMessageRowIndex'] = var14;
@@ -2347,7 +2378,7 @@ case 188:
             var3 = var3.bind(var7)(var2);
             var8 = var3.length;
             var2 = 0;
-            if(!(!(var8 <= var2))) { _fun0032_ip = 218; continue _fun0032 }
+            if(!(!(var8 <= var2))) { _fun0033_ip = 220; continue _fun0033 }
 case 43:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -2378,7 +2409,7 @@ case 43:
             var16 = var5;
             var15 = var4;
             var1 = var19[var1](var18, var17, var16, var15, var14);
-case 218:
+case 220:
             var1 = undefined;
             return var1;
         }

@@ -242,7 +242,7 @@ case 8:
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY_ALT;
+    var12 = var12.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var12;
     var5['pill'] = var10;
     var10 = {'height': 12, 'width': 12, 'marginRight': 4, 'flexShrink': 0};

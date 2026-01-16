@@ -56,6 +56,10 @@ case 5:
             var2 = var2.FRIENDS_LIST_VIEWED_CLICKSTREAM;
             if(!(var2 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var2 = _closure1_slot2;
+            var2 = var2.CHANNEL_LATEST_MESSAGES_LOADED_CLICKSTREAM;
+            if(!(var2 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = global;
             var5 = var2.Error;
             var2 = var2.HermesInternal;
@@ -68,6 +72,27 @@ case 7:
             var2 = new var8[var5](var7, var6);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
+case 8:
+            var2 = {};
+            var3 = global;
+            var3 = var3.Date;
+            var5 = var3.prototype;
+            var5 = Object.create(var5, {constructor: {value: var3}});
+            var8 = var5;
+            var3 = new var8[var3](var7);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var2['timestamp'] = var3;
+            var5 = _closure1_slot1;
+            var3 = var5.getState;
+            var3 = var3.bind(var5)();
+            var2['rtc_state'] = var3;
+            var3 = var1.load_duration_ms;
+            var2['load_duration_ms'] = var3;
+            var3 = var1.were_messages_cached;
+            var2['were_messages_cached'] = var3;
+            var3 = var1.is_first_load;
+            var2['is_first_load'] = var3;
+            return var2;
 case 6:
             var2 = {};
             var3 = global;
@@ -112,59 +137,59 @@ case 2:
             var3 = var1.channelId;
             var1 = _closure1_slot4;
             var1 = var1.CHANNEL_BROWSER;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var1 = _closure1_slot4;
-            var1 = var1.GUILD_HOME;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
-case 10:
-            var1 = _closure1_slot4;
-            var1 = var1.GUILD_SHOP;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var1 = _closure1_slot4;
-            var1 = var1.GAME_SHOP;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.GUILD_HOME;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
             var1 = _closure1_slot4;
-            var1 = var1.MEMBER_APPLICATIONS;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.GUILD_SHOP;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 13:
             var1 = _closure1_slot4;
-            var1 = var1.ROLE_SUBSCRIPTIONS;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.GAME_SHOP;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 14:
             var1 = _closure1_slot4;
-            var1 = var1.CUSTOMIZE_COMMUNITY;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.MEMBER_APPLICATIONS;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 15:
             var1 = _closure1_slot4;
-            var1 = var1.MEMBER_SAFETY;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.ROLE_SUBSCRIPTIONS;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 16:
             var1 = _closure1_slot4;
-            var1 = var1.GUILD_ONBOARDING;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.CUSTOMIZE_COMMUNITY;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 17:
             var1 = _closure1_slot4;
-            var1 = var1.GUILD_BOOSTS;
-            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+            var1 = var1.MEMBER_SAFETY;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 18:
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_ONBOARDING;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 19:
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_BOOSTS;
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 20:
             var2 = _closure1_slot0;
             var1 = var2.getChannel;
             var5 = var1.bind(var2)(var3);
             var1 = null;
             var6 = var1 == var5;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var2 = var5.type;
-case 19:
-            if(!(var1 == var2)) { _fun0001_ip = 21; continue _fun0001 }
+            if(var6) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var2 = var5.type;
+case 21:
+            if(!(var1 == var2)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var1 = _closure1_slot3;
             var2 = var1.UNKNOWN;
-case 21:
+case 23:
             var1 = {};
             var5 = global;
             var5 = var5.Date;
@@ -181,7 +206,7 @@ case 21:
             var1['channelId'] = var3;
             var1['channelType'] = var2;
             return var1;
-case 8:
+case 10:
             var1 = undefined;
             return var1;
         }

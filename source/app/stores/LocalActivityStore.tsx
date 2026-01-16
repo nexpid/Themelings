@@ -119,7 +119,7 @@ case 10:
             var16 = var5;
             var15 = var3;
             var5 = apply(var17, var16, var15);
-            var7 = _closure1_slot18;
+            var7 = _closure1_slot19;
             var5 = var7.getStream;
             var8 = var5.bind(var7)();
             if(!(var6 != var8)) { _fun0002_ip = 12; continue _fun0002 }
@@ -264,7 +264,7 @@ case 36:
 case 38:
             if(!(var6 != var4)) { _fun0002_ip = 33; continue _fun0002 }
 case 37:
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot18;
             var5 = var7.getGameByName;
             var4 = var10.name;
             var11 = var5.bind(var7)(var4);
@@ -547,9 +547,9 @@ case 56:
             var28 = _closure1_slot16;
             var27 = _closure1_slot17;
             var26 = _closure1_slot9;
-            var25 = _closure1_slot18;
+            var25 = _closure1_slot19;
             var24 = _closure1_slot13;
-            var23 = _closure1_slot19;
+            var23 = _closure1_slot18;
             var22 = _closure1_slot12;
             var21 = _closure1_slot11;
             var20 = _closure1_slot20;

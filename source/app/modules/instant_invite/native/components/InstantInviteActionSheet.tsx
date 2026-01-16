@@ -131,7 +131,7 @@ case 3:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var14;
     var4['placeholderHeader'] = var9;
     var9 = {'height': 16, 'width': '40%', 'margin': 16};
@@ -143,7 +143,7 @@ case 3:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var14;
     var4['placeholderLabel'] = var9;
     var9 = {};

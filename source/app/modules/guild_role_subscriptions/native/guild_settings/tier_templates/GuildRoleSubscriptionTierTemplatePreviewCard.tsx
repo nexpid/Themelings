@@ -313,7 +313,7 @@ case 2:
     var2 = var7[var11];
     var2 = var12.bind(var1)(var2);
     var2 = var2.colors;
-    var2 = var2.BACKGROUND_SECONDARY_ALT;
+    var2 = var2.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var2;
     var2 = 319;
     var10['width'] = var2;
@@ -383,7 +383,7 @@ case 2:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_MUTED;
+    var11 = var11.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var11;
     var5['viewEntireTemplateFooterUnderline'] = var10;
     var5 = var8.bind(var9)(var5);

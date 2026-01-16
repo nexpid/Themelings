@@ -1126,7 +1126,7 @@ case 67:
             var42 = var35.bind(var5)(var42);
             var43 = var42.ChevronSmallRightIcon;
             var42 = {};
-            var44 = 'interactive-muted';
+            var44 = 'icon-muted';
             var42['color'] = var44;
             var42 = var47.bind(var5)(var43, var42);
             var29[1] = var42;

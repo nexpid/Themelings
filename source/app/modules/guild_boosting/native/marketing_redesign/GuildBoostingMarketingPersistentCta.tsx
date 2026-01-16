@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_SECONDARY_ALT;
+    var12 = var12.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var12;
     var4['innerWraper'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'flex': 1, 'marginRight': 10};

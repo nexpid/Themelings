@@ -250,7 +250,7 @@ case 17:
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.INTERACTIVE_MUTED;
+    var15 = var15.ICON_MUTED;
     var12['tintColor'] = var15;
     var6['placeholder'] = var12;
     var12 = {'borderWidth': 1, 'borderColor': null, 'overflow': 'hidden'};

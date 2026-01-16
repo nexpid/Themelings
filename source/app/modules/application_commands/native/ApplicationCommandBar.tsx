@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_SECONDARY_ALT;
+    var16 = var16.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var16;
     var4['applicationOptionalOptionsDivider'] = var9;
     var9 = {};

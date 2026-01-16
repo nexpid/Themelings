@@ -138,7 +138,7 @@ case 4:
 case 6:
             _fun0001_ip = 7; continue _fun0001;
 case 2:
-            var6 = var7.INTERACTIVE_MUTED;
+            var6 = var7.ICON_MUTED;
 case 7:
             var2['tintColor'] = var6;
             if(var5) { _fun0001_ip = 8; continue _fun0001 }
@@ -319,24 +319,18 @@ case 20:
             _fun0002_ip = 21; continue _fun0002;
 case 19:
             var5 = _closure1_slot11;
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var2 = 21;
-            var2 = var7[var2];
-            var2 = var4.bind(var3)(var2);
+            var2 = var11[var2];
+            var2 = var7.bind(var3)(var2);
             var4 = var2.ChannelRowPreview;
             var2 = {};
             var2['channel'] = var17;
             var2['message'] = var6;
             var6 = 'text-muted';
-            if(!var18) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var6 = 'interactive-muted';
-case 22:
             var2['color'] = var6;
             var2['muted'] = var18;
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
             var6 = 22;
             var6 = var11[var6];
             var6 = var7.bind(var3)(var6);
@@ -367,8 +361,8 @@ case 21:
 case 0:
                     var2 = _closure2_slot2;
                     var1 = null;
-                    if(!var2) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+                    if(!var2) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var5 = _closure1_slot11;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -380,7 +374,7 @@ case 25:
                     var6 = _closure2_slot1;
                     var2['embeddedApps'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 24:
+case 22:
                     return var1;
                 }
             };
@@ -399,10 +393,10 @@ case 24:
             var6 = new Array(2);
             var6[0] = var7;
             var7 = undefined;
-            if(!var8) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var8) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var7 = var35.rowSelected;
-case 26:
+case 24:
             var6[1] = var7;
             var1['style'] = var6;
             var1['underlayColor'] = var23;
@@ -431,8 +425,8 @@ case 26:
             var37 = var23.bind(var32)(var7);
             var38 = var1;
             var7 = copyDataProperties(var38, var37);
-            if(!var8) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+            if(!var8) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var32 = _closure1_slot11;
             var23 = _closure1_slot4;
             var7 = {};
@@ -441,7 +435,7 @@ case 29:
             var35 = 'none';
             var7['pointerEvents'] = var35;
             var8 = var32.bind(var3)(var23, var7);
-case 28:
+case 26:
             var7 = new Array(2);
             var7[0] = var8;
             var23 = _closure1_slot1;
@@ -470,43 +464,43 @@ case 28:
             var22 = var32[var22];
             var23 = var23.bind(var3)(var22);
             var22 = {};
-            if(!var30) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(!var30) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var30 = var31;
-case 30:
+case 28:
             var22['newChannel'] = var30;
             var22['mentionCount'] = var19;
             var22['isMentionLowImportance'] = var25;
             var25 = undefined;
-            if(!var29) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+            if(!var29) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var30 = var28 > var27;
             var25 = undefined;
-            if(!var30) { _fun0002_ip = 32; continue _fun0002 }
-case 34:
+            if(!var30) { _fun0002_ip = 30; continue _fun0002 }
+case 32:
             var25 = undefined;
-            if(var18) { _fun0002_ip = 32; continue _fun0002 }
-case 35:
+            if(var18) { _fun0002_ip = 30; continue _fun0002 }
+case 33:
             var30 = _closure1_slot9;
             var30 = var30.ALL_MESSAGES;
             var25 = undefined;
-            if(!(var20 === var30)) { _fun0002_ip = 32; continue _fun0002 }
-case 36:
+            if(!(var20 === var30)) { _fun0002_ip = 30; continue _fun0002 }
+case 34:
             var25 = var28;
-case 32:
+case 30:
             var22['postsWithUnreadsCount'] = var25;
             var25 = undefined;
-            if(!var29) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!var29) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var27 = var28 > var27;
             var25 = undefined;
-            if(!var27) { _fun0002_ip = 37; continue _fun0002 }
-case 39:
-            var25 = undefined;
-            if(var18) { _fun0002_ip = 37; continue _fun0002 }
-case 40:
-            var25 = var26;
+            if(!var27) { _fun0002_ip = 35; continue _fun0002 }
 case 37:
+            var25 = undefined;
+            if(var18) { _fun0002_ip = 35; continue _fun0002 }
+case 38:
+            var25 = var26;
+case 35:
             var22['newPostCount'] = var25;
             var22['locale'] = var24;
             var22 = var23.bind(var3)(var22);
@@ -527,10 +521,10 @@ case 37:
             var6['needSubscriptionToAccess'] = var13;
             var6['showGuildBadgeIcon'] = var12;
             var9 = null;
-            if(!var11) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+            if(!var11) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var9 = var10;
-case 41:
+case 39:
             var6['end'] = var9;
             var6 = var8.bind(var3)(var6);
             var7[1] = var6;

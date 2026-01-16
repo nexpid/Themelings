@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.INTERACTIVE_MUTED;
+    var10 = var10.BORDER_MUTED;
     var9['borderColor'] = var10;
     var10 = var6[var11];
     var10 = var12.bind(var1)(var10);

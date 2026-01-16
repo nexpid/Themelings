@@ -11,10 +11,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.muted;
+            var10 = var1.muted;
             var3 = var1.connected;
             var12 = var1.channelId;
-            var10 = var1.guildId;
+            var11 = var1.guildId;
             var7 = var1.subtitle;
             var6 = var1.textProps;
             var4 = _closure1_slot0;
@@ -53,22 +53,22 @@ case 4:
             var6 = {};
             var13 = var13.subtitle;
             var6['content'] = var13;
-            var13 = var1 != var11;
+            var13 = var1 != var10;
             if(!var13) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var13 = var11;
+            var13 = var10;
 case 6:
             var6['muted'] = var13;
             var6['channelId'] = var12;
-            var6['guildId'] = var10;
-            var10 = 'text-muted';
-            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var10 = 'interactive-muted';
-case 8:
-            var6['color'] = var10;
+            var6['guildId'] = var11;
             var9 = !var9;
             var6['disableAnimatedEmoji'] = var9;
+            var9 = 'text-subtle';
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var9 = 'text-muted';
+case 8:
+            var6['color'] = var9;
             var7 = var7.bind(var8)(var6);
             var6 = 'children';
             var2[var6] = var7;
@@ -120,7 +120,7 @@ case 0:
             var1 = null;
             if(!(var1 != var8)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var7 = {};
+            var7 = {'variant': null, 'color': 'text-muted', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75};
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 3;
@@ -132,27 +132,18 @@ case 11:
             var2 = var2.text;
             var2 = var2.variant;
             var7['variant'] = var2;
-            var2 = 'text-muted';
-            if(!var10) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var2 = 'interactive-muted';
-case 12:
-            var7['color'] = var2;
             var4 = 1;
-            var7['lineClamp'] = var4;
-            var2 = 1.75;
-            var7['maxFontSizeMultiplier'] = var2;
             var2 = {};
-            if(var10) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(var10) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var4 = _closure1_slot3;
-case 14:
+case 12:
             var2['opacity'] = var4;
             var7['style'] = var2;
             var4 = 'string';
             var2 = typeof var8;
-            if(!(var4 !== var2)) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!(var4 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 14:
             var5 = _closure1_slot4;
             var4 = _closure1_slot5;
             var2 = {};
@@ -163,8 +154,8 @@ case 17:
             var2['connected'] = var9;
             var2['textProps'] = var7;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0002_ip = 18; continue _fun0002;
-case 16:
+            _fun0002_ip = 15; continue _fun0002;
+case 6:
             var5 = _closure1_slot4;
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -179,7 +170,7 @@ case 16:
             var7 = 'children';
             var3[var7] = var8;
             var2 = var5.bind(var6)(var4, var3);
-case 18:
+case 15:
             return var2;
 case 10:
             return var1;

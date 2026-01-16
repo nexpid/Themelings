@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.INTERACTIVE_MUTED;
+        var7 = var7.BACKGROUND_MOD_MUTED;
         var2['tintColor'] = var7;
         var1['unselected'] = var2;
         var2 = {};

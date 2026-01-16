@@ -142,6 +142,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FULL_EPISODE_VIDEO_QUEST'] = var4;
     var1 = 'FULL_EPISODE_VIDEO_QUEST';
     var2[var4] = var1;
+    var4 = 36;
+    var2['MOBILE_ACTIVITY_QUEST'] = var4;
+    var1 = 'MOBILE_ACTIVITY_QUEST';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

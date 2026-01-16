@@ -828,7 +828,7 @@ case 75:
             var6 = var6.bind(var5)(var3, var1);
             var3 = 'entity';
             var1 = var6;
-            if(!(var3 === var4)) { _fun0008_ip = 8; continue _fun0008 }
+            if(!(var3 === var4)) { _fun0008_ip = 9; continue _fun0008 }
 case 77:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
@@ -837,7 +837,7 @@ case 77:
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 8:
+case 9:
             return var1;
         }
     };

@@ -1333,7 +1333,7 @@ case 81:
             var11 = var20[var11];
             var11 = var19.bind(var4)(var11);
             var11 = var11.colors;
-            var11 = var11.INTERACTIVE_MUTED;
+            var11 = var11.BACKGROUND_MOD_MUTED;
             var11 = var17.bind(var18)(var11);
             var8['backgroundColor'] = var11;
             var9 = var10.bind(var4)(var9, var8);

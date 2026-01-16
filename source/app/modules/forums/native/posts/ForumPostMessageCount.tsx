@@ -44,7 +44,7 @@ case 0:
         var13 = var6[var10];
         var13 = var15.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.INTERACTIVE_MUTED;
+        var13 = var13.ICON_MUTED;
         var9['tintColor'] = var13;
         var9['marginEnd'] = var10;
         var13 = 5;
@@ -158,7 +158,7 @@ case 8:
                 var16 = var12.iconUnread;
 case 10:
                 var5['style'] = var16;
-                var16 = 'interactive-muted';
+                var16 = 'icon-muted';
                 if(!var17) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
                 var16 = 'interactive-text-default';

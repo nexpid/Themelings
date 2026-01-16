@@ -273,7 +273,7 @@ case 37:
             var7 = var11[var8];
             var7 = var16.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.INTERACTIVE_MUTED;
+            var7 = var7.BACKGROUND_MOD_MUTED;
             var7 = var17.bind(var19)(var7, var2);
             var13 = var11[var13];
             var14 = var14.bind(var4)(var13);

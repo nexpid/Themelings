@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_MUTED;
+    var11 = var11.BORDER_MUTED;
     var10['borderColor'] = var11;
     var4['acronym'] = var10;
     var4 = var8.bind(var9)(var4);
@@ -413,7 +413,7 @@ case 33:
             var17[0] = var18;
             var2 = var17;
 case 31:
-            var5 = function f(arg1) {
+            var5 = function I(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;

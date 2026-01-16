@@ -417,7 +417,7 @@ case 16:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.INTERACTIVE_MUTED;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var14;
     var5['boostContainer'] = var10;
     var10 = {};

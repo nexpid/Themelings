@@ -1127,7 +1127,7 @@ case 73:
     var11 = var6[var10];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.INTERACTIVE_MUTED;
+    var11 = var11.BORDER_MUTED;
     var9['borderColor'] = var11;
     var4['addConnectionButton'] = var9;
     var9 = {};

@@ -152,7 +152,7 @@ case 2:
             var5 = undefined;
             var5 = var7.bind(var5)(var6);
             var5 = var5.colors;
-            var3 = var5.INTERACTIVE_MUTED;
+            var3 = var5.TEXT_MUTED;
 case 8:
             var2['color'] = var3;
             var1['channelText'] = var2;
@@ -204,7 +204,7 @@ case 0:
             var8 = var5.colors;
             if(var3) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var5 = var8.INTERACTIVE_MUTED;
+            var5 = var8.ICON_MUTED;
             _fun0002_ip = 14; continue _fun0002;
 case 12:
             var5 = var8.ICON_SUBTLE;
@@ -234,7 +234,7 @@ case 17:
             var4 = var4.colors;
             if(var3) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var3 = var4.INTERACTIVE_MUTED;
+            var3 = var4.ICON_MUTED;
             _fun0002_ip = 20; continue _fun0002;
 case 18:
             var3 = var4.ICON_SUBTLE;
@@ -380,7 +380,7 @@ case 0:
             var1 = arg1;
             var18 = var1.channel;
             var _closure2_slot0 = var18;
-            var19 = var1.channelSelected;
+            var21 = var1.channelSelected;
             var35 = var1.favorite;
             var17 = var1.muted;
             var34 = var1.ignored;
@@ -420,13 +420,13 @@ case 37:
 case 36:
             if(!var1) { _fun0004_ip = 10; continue _fun0004 }
 case 38:
-            var1 = !var19;
+            var1 = !var21;
 case 10:
             var6 = _closure1_slot10;
             var15 = var6.bind(var4)();
             var6 = _closure1_slot11;
             var43 = undefined;
-            var42 = var19;
+            var42 = var21;
             var41 = var20;
             var40 = var1;
             var39 = var16;
@@ -455,10 +455,10 @@ case 10:
             var8 = var8.bind(var4)(var6);
             var6 = {};
             var6['unread'] = var3;
-            var22 = var8.bind(var4)(var18, var6);
+            var19 = var8.bind(var4)(var18, var6);
             var6 = null;
-            var13 = var6 != var22;
-            var21 = var1;
+            var13 = var6 != var19;
+            var22 = var1;
             if(!var13) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
             var8 = _closure1_slot1;
@@ -468,7 +468,7 @@ case 40:
             var1 = var8.bind(var4)(var1);
             var10 = var1.bind(var4)();
             var9 = var10.diff;
-            var8 = var22.timestamp;
+            var8 = var19.timestamp;
             var1 = 'hours';
             var8 = var9.bind(var10)(var8, var1);
             var1 = 1;
@@ -609,7 +609,7 @@ case 58:
             var27 = var29[var27];
             var27 = var28.bind(var4)(var27);
             var28 = var27.EffectDisplayType;
-            if(var19) { _fun0004_ip = 60; continue _fun0004 }
+            if(var21) { _fun0004_ip = 60; continue _fun0004 }
 case 61:
             var27 = var28.PLAIN;
             _fun0004_ip = 62; continue _fun0004;
@@ -702,7 +702,7 @@ case 71:
             if(var30) { _fun0004_ip = 72; continue _fun0004 }
 case 73:
             var37 = 0.25;
-            if(!var19) { _fun0004_ip = 74; continue _fun0004 }
+            if(!var21) { _fun0004_ip = 74; continue _fun0004 }
 case 75:
             var37 = 0.7;
 case 74:
@@ -715,7 +715,7 @@ case 74:
             _fun0004_ip = 76; continue _fun0004;
 case 72:
             var38 = 0.3;
-            if(!var19) { _fun0004_ip = 77; continue _fun0004 }
+            if(!var21) { _fun0004_ip = 77; continue _fun0004 }
 case 78:
             var38 = 0.6;
 case 77:
@@ -742,7 +742,7 @@ case 70:
             var30['favorite'] = var35;
             var30['ignored'] = var34;
             var30['blocked'] = var33;
-            var30['selected'] = var19;
+            var30['selected'] = var21;
             var30 = var29.bind(var4)(var31, var30);
             var27['children'] = var30;
             var28 = var29.bind(var4)(var28, var27);
@@ -862,14 +862,14 @@ case 84:
             var14 = var15.bind(var4)(var14);
             var15 = var14.ChannelRowPreview;
             var14 = {};
-            var14['message'] = var22;
+            var14['message'] = var19;
             var14['channel'] = var18;
-            var18 = 'interactive-muted';
-            if(var21) { _fun0004_ip = 94; continue _fun0004 }
-case 95:
-            if(var19) { _fun0004_ip = 96; continue _fun0004 }
-case 97:
             var19 = 'text-muted';
+            var18 = var19;
+            if(var22) { _fun0004_ip = 94; continue _fun0004 }
+case 95:
+            if(var21) { _fun0004_ip = 96; continue _fun0004 }
+case 97:
             if(!var20) { _fun0004_ip = 98; continue _fun0004 }
 case 96:
             var19 = 'mobile-text-heading-primary';

@@ -512,13 +512,13 @@ case 84:
                     var4 = 72;
                     var4 = var6[var4];
                     var12 = var5.bind(var3)(var4);
-                    var18 = var7.applicationId;
-                    var17 = var7.referrerId;
-                    var16 = var7.customId;
-                    var15 = var7.linkId;
-                    var14 = var7.isDeepLink;
-                    var19 = undefined;
-                    var4 = var19[var12](var18, var17, var16, var15, var14, var13);
+                    var19 = var7.applicationId;
+                    var18 = var7.referrerId;
+                    var17 = var7.customId;
+                    var16 = var7.linkId;
+                    var15 = var7.isDeepLink;
+                    var20 = undefined;
+                    var4 = var20[var12](var19, var18, var17, var16, var15, var14);
                     var4 = true;
                     return var4;
 case 82:
@@ -934,7 +934,7 @@ case 126:
                     var5 = 59;
                     var5 = var4[var5];
                     var4 = var4.paths;
-                    var18 = var6.bind(var3)(var5, var4);
+                    var19 = var6.bind(var3)(var5, var4);
                     var6 = {};
                     var4 = var7.text;
                     var6['text'] = var4;
@@ -944,14 +944,14 @@ case 126:
                     var6['shareId'] = var4;
                     var4 = var7.attachmentManifest;
                     var6['attachmentManifest'] = var4;
-                    var16 = _closure1_slot23;
+                    var17 = _closure1_slot23;
                     var4 = {};
                     var13 = 'modal';
                     var4['presentation'] = var13;
-                    var19 = var12;
-                    var17 = var6;
-                    var15 = var4;
-                    var4 = var19[var11](var18, var17, var16, var15, var14);
+                    var20 = var12;
+                    var18 = var6;
+                    var16 = var4;
+                    var4 = var20[var11](var19, var18, var17, var16, var15);
 case 125:
                     var4 = true;
                     return var4;
@@ -1437,7 +1437,13 @@ case 41:
                     var6 = var11[var6];
                     var11 = var8.bind(var3)(var6);
                     var8 = var11.redirectWithHandoffToken;
-                    var6 = var5.href;
+                    var14 = var5.pathname;
+                    var13 = var5.search;
+                    var5 = global;
+                    var5 = var5.HermesInternal;
+                    var6 = var5.concat;
+                    var5 = '';
+                    var6 = var6.bind(var5)(var14, var13);
                     var5 = {};
                     var5['nonce'] = var12;
                     var5['fingerprint'] = var4;

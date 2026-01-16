@@ -50,6 +50,8 @@ case 2:
             var1 = {};
             var1['height'] = var2;
             var1['width'] = var2;
+            var3 = 'contain';
+            var1['resizeMode'] = var3;
             var6['roleIcon'] = var1;
             var1 = {'fontFamily': 'System', 'fontSize': null, 'marginBottom': 4294967294};
             var1['fontSize'] = var2;

@@ -931,7 +931,7 @@ case 44:
                     var11 = var19[var11];
                     var11 = var18.bind(var5)(var11);
                     var12 = var11.BillIcon;
-                    var11 = {'size': 'sm', 'color': 'interactive-muted'};
+                    var11 = {'size': 'sm', 'color': 'icon-muted'};
                     var12 = var13.bind(var5)(var12, var11);
                     var11 = new Array(2);
                     var11[0] = var12;
@@ -975,7 +975,7 @@ case 46:
                     var12 = var20[var12];
                     var12 = var19.bind(var5)(var12);
                     var13 = var12.ShopIcon;
-                    var12 = {'size': 'sm', 'color': 'interactive-muted'};
+                    var12 = {'size': 'sm', 'color': 'icon-muted'};
                     var13 = var14.bind(var5)(var13, var12);
                     var12 = new Array(2);
                     var12[0] = var13;

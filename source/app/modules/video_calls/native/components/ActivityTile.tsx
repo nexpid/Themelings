@@ -773,7 +773,7 @@ case 50:
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_SECONDARY_ALT;
+    var10 = var10.BACKGROUND_MOD_NORMAL;
     var9['backgroundColor'] = var10;
     var4['overflow'] = var9;
     var9 = {'marginTop': 8, 'borderRadius': 100, 'alignSelf': 'center', 'paddingHorizontal': 24};

@@ -81,7 +81,7 @@ case 11:
 case 13:
                 _fun0003_ip = 14; continue _fun0003;
 case 9:
-                var1 = {'variant': 'text-md/medium', 'color': 'interactive-muted'};
+                var1 = {'variant': 'text-md/medium', 'color': 'text-muted'};
 case 14:
                 _fun0003_ip = 15; continue _fun0003;
 case 7:
@@ -98,32 +98,26 @@ case 16:
         var4 = function getChannelSubtitleTextProps(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = arg1;
-                var3 = _closure1_slot9;
-                var3 = var3.UNREAD_IMPORTANT;
-                if(!(var2 !== var3)) { _fun0004_ip = 17; continue _fun0004 }
+                var3 = arg1;
+                var2 = _closure1_slot9;
+                var2 = var2.UNREAD_IMPORTANT;
+                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
 case 5:
-                var3 = _closure1_slot9;
-                var3 = var3.RELEVANT;
-                if(!(var2 !== var3)) { _fun0004_ip = 17; continue _fun0004 }
+                var2 = _closure1_slot9;
+                var2 = var2.RELEVANT;
+                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
 case 6:
-                var3 = _closure1_slot9;
-                var3 = var3.SELECTED;
-                if(!(var2 !== var3)) { _fun0004_ip = 17; continue _fun0004 }
+                var2 = _closure1_slot9;
+                var2 = var2.SELECTED;
+                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
 case 8:
                 var1 = _closure1_slot9;
                 var1 = var1.MUTED;
-                if(!(var2 !== var1)) { _fun0004_ip = 18; continue _fun0004 }
-case 10:
                 var1 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-                _fun0004_ip = 11; continue _fun0004;
-case 18:
-                var1 = {'variant': 'text-xs/medium', 'color': 'interactive-muted'};
-case 11:
-                _fun0004_ip = 9; continue _fun0004;
+                _fun0004_ip = 18; continue _fun0004;
 case 17:
                 var1 = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
-case 9:
+case 18:
                 return var1;
             }
         };
@@ -232,7 +226,7 @@ case 9:
         var14 = var10[var14];
         var14 = var15.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.INTERACTIVE_MUTED;
+        var14 = var14.ICON_MUTED;
         var12['tintColor'] = var14;
         var7['channelIconMuted'] = var12;
         var12 = {'paddingHorizontal': 8, 'paddingVertical': 8, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
@@ -514,7 +508,7 @@ case 47:
                 var6 = 'status-positive';
                 if(var7) { _fun0007_ip = 50; continue _fun0007 }
 case 51:
-                var7 = 'interactive-muted';
+                var7 = 'icon-muted';
                 if(var10) { _fun0007_ip = 52; continue _fun0007 }
 case 53:
                 if(var8) { _fun0007_ip = 54; continue _fun0007 }

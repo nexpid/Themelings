@@ -1,4 +1,4 @@
-// app/stores/GameStore.tsx
+// app/stores/DetectableGameStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -544,7 +544,7 @@ case 67:
         var4 = var8.bind(var1)(var4);
         var9 = var4.PersistedStore;
         var4 = function(arg1) {
-            var4 = function GameStore() {
+            var4 = function DetectableGameStore() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var4 = this;
@@ -1581,7 +1581,7 @@ case 89:
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;
-        var5 = 'stores/GameStore.tsx';
+        var5 = 'stores/DetectableGameStore.tsx';
         var5 = var6.bind(var7)(var5);
         var3['default'] = var4;
         var3['gameFromServer'] = var2;

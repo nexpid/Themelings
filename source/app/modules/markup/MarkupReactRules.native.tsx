@@ -1148,7 +1148,7 @@ case 39:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY_ALT;
+    var14 = var14.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var14;
     var5['inlineCode'] = var10;
     var10 = {};
@@ -1162,14 +1162,14 @@ case 39:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_SECONDARY_ALT;
+    var13 = var13.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var13;
     var5['codeBlock'] = var10;
     var10 = {'borderLeftWidth': 2, 'borderLeftColor': null, 'paddingLeft': 4};
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_SECONDARY_ALT;
+    var11 = var11.BACKGROUND_MOD_NORMAL;
     var10['borderLeftColor'] = var11;
     var5['blockQuote'] = var10;
     var5 = var8.bind(var9)(var5);

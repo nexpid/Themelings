@@ -644,7 +644,7 @@ case 35:
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.THREAD_CHANNEL_SPINE;
+    var11 = var11.SPINE_DEFAULT;
     var10['backgroundColor'] = var11;
     var4['threadLineSegment'] = var10;
     var10 = {'position': 'absolute', 'left': 23};

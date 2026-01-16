@@ -100,7 +100,7 @@ case 2:
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.colors;
-            var12 = var1.INTERACTIVE_MUTED;
+            var12 = var1.ICON_MUTED;
 case 4:
             var1 = null;
             if(!var2) { _fun0001_ip = 5; continue _fun0001 }

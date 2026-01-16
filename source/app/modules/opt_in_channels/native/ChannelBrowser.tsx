@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY_ALT;
+    var14 = var14.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var14;
     var10['alignItems'] = var13;
     var4['nuxCard'] = var10;

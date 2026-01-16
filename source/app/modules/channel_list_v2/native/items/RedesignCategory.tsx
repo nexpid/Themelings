@@ -86,7 +86,7 @@ case 11:
                 var18 = 'text-subtle';
                 if(!var19) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var18 = 'interactive-muted';
+                var18 = 'text-muted';
 case 12:
                 var14['color'] = var18;
                 var18 = 1;
@@ -162,7 +162,7 @@ case 19:
                 var9 = var1.TEXT_SUBTLE;
                 _fun0003_ip = 20; continue _fun0003;
 case 18:
-                var9 = var1.INTERACTIVE_MUTED;
+                var9 = var1.ICON_MUTED;
 case 20:
                 if(var4) { _fun0003_ip = 21; continue _fun0003 }
 case 22:

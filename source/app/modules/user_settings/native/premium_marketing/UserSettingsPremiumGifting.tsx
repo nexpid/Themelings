@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY_ALT;
+    var14 = var14.BACKGROUND_MOD_NORMAL;
     var10['borderColor'] = var14;
     var4['emptyGiftLinks'] = var10;
     var10 = {};

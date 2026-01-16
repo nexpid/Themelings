@@ -62,7 +62,7 @@ case 11:
             var9 = var14[var9];
             var9 = var11.bind(var4)(var9);
             var9 = var9.colors;
-            var9 = var9.INTERACTIVE_MUTED;
+            var9 = var9.ICON_MUTED;
             var6['color'] = var9;
             var5 = var8.bind(var4)(var7, var6);
 case 10:

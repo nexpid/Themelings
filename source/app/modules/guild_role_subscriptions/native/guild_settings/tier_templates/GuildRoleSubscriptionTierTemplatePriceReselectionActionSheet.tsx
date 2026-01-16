@@ -193,7 +193,7 @@ case 6:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.INTERACTIVE_MUTED;
+    var12 = var12.BORDER_MUTED;
     var9['borderColor'] = var12;
     var4['rowContainer'] = var9;
     var9 = {};

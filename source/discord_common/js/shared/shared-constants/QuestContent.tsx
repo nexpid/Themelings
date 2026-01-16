@@ -186,6 +186,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['USER_PROFILE_ACTIVITY'] = var6;
     var2 = 'USER_PROFILE_ACTIVITY';
     var4[var6] = var2;
+    var6 = 44;
+    var4['MEMBERS_LIST_CARD'] = var6;
+    var2 = 'MEMBERS_LIST_CARD';
+    var4[var6] = var2;
+    var6 = 45;
+    var4['APP_LAUNCHER'] = var6;
+    var2 = 'APP_LAUNCHER';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;
