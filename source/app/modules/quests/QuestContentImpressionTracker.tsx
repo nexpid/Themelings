@@ -1633,8 +1633,12 @@ case 129:
                 var2 = _closure2_slot0;
                 var2 = var2.questContent;
                 var1['questContent'] = var2;
-                var2 = var1.adContentIds;
+                var8 = var1.adContentIds;
                 var6 = var1.questContent;
+                var2 = new Array(0);
+                var7 = 0;
+                var9 = var2;
+                var1 = arraySpread(var9, var8, var7);
                 var1 = var2.sort;
                 var2 = var1.bind(var2)();
                 var1 = var2.join;

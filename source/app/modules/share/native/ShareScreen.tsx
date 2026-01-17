@@ -179,7 +179,7 @@ case 9:
         var4['header'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot20 = var4;
-        var4 = 34;
+        var4 = 35;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -799,25 +799,41 @@ case 57:
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                         var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
+                        var4 = _closure1_slot2;
                         var1 = 12;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var1 = var2.isAndroid;
-                        var1 = var1.bind(var2)();
-                        var2 = {};
+                        var1 = var4[var1];
+                        var4 = undefined;
+                        var3 = var3.bind(var4)(var1);
+                        var1 = var3.isAndroid;
+                        var1 = var1.bind(var3)();
                         if(var1) { _fun0009_ip = 60; continue _fun0009 }
-case 4:
-                        var1 = 1;
-                        var2['flex'] = var1;
-                        var1 = var2;
-                        _fun0009_ip = 61; continue _fun0009;
-case 60:
-                        var3 = _closure2_slot11;
-                        var2['height'] = var3;
-                        var1 = var2;
 case 61:
+                        var1 = {};
+                        var3 = 1;
+                        var1['flex'] = var3;
+                        _fun0009_ip = 62; continue _fun0009;
+case 60:
+                        var3 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var2 = 29;
+                        var2 = var5[var2];
+                        var3 = var3.bind(var4)(var2);
+                        var2 = var3.isMetaQuest;
+                        var2 = var2.bind(var3)();
+                        var3 = {};
+                        if(var2) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
+                        var2 = _closure2_slot11;
+                        var3['height'] = var2;
+                        var2 = var3;
+                        _fun0009_ip = 65; continue _fun0009;
+case 63:
+                        var4 = 1;
+                        var3['flex'] = var4;
+                        var2 = var3;
+case 65:
+                        var1 = var2;
+case 62:
                         return var1;
                     }
                 };
@@ -831,7 +847,7 @@ case 61:
                 var7 = var9.headerContainer;
                 var5['style'] = var7;
                 var12 = _closure1_slot0;
-                var7 = 29;
+                var7 = 30;
                 var7 = var26[var7];
                 var7 = var12.bind(var4)(var7);
                 var8 = var7.Header;
@@ -856,14 +872,14 @@ case 0:
                         var6 = var1.children;
                         var3 = _closure2_slot5;
                         if(var3) { _fun0010_ip = 39; continue _fun0010 }
-case 62:
+case 66:
                         var3 = _closure2_slot4;
                         var2 = _closure1_slot15;
                         var2 = var3 >= var2;
                         var8 = undefined;
                         var5 = undefined;
-                        if(!var2) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+                        if(!var2) { _fun0010_ip = 67; continue _fun0010 }
+case 68:
                         var3 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var2 = 14;
@@ -879,7 +895,7 @@ case 64:
                         var8 = _closure1_slot15;
                         var2['count'] = var8;
                         var5 = var4.bind(var7)(var3, var2);
-                        _fun0010_ip = 63; continue _fun0010;
+                        _fun0010_ip = 67; continue _fun0010;
 case 39:
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
@@ -897,11 +913,11 @@ case 39:
                         var8 = _closure1_slot14;
                         var2['limit'] = var8;
                         var5 = var4.bind(var7)(var3, var2);
-case 63:
+case 67:
                         var4 = _closure1_slot17;
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 30;
+                        var1 = 31;
                         var1 = var3[var1];
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
@@ -920,7 +936,7 @@ case 63:
                 var7['headerTitle'] = var11;
                 var11 = 'center';
                 var7['headerTitleAlign'] = var11;
-                var11 = 31;
+                var11 = 32;
                 var11 = var26[var11];
                 var27 = var12.bind(var4)(var11);
                 var11 = var27.getHeaderCloseButton;
@@ -932,10 +948,10 @@ case 63:
                 var11 = var12.isIOS;
                 var12 = var11.bind(var12)();
                 var11 = undefined;
-                if(!var12) { _fun0003_ip = 65; continue _fun0003 }
-case 66:
+                if(!var12) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
                 var11 = 0;
-case 65:
+case 69:
                 var7['headerStatusBarHeight'] = var11;
                 var7 = var6.bind(var4)(var8, var7);
                 var5['children'] = var7;
@@ -950,7 +966,7 @@ case 65:
                 var12 = _closure1_slot17;
                 var11 = _closure1_slot1;
                 var26 = _closure1_slot2;
-                var9 = 32;
+                var9 = 33;
                 var9 = var26[var9];
                 var11 = var11.bind(var4)(var9);
                 var9 = {};
@@ -963,20 +979,20 @@ case 65:
                 var23 = var23.length;
                 var24 = var23 > var17;
                 var23 = undefined;
-                if(!var24) { _fun0003_ip = 67; continue _fun0003 }
-case 68:
+                if(!var24) { _fun0003_ip = 71; continue _fun0003 }
+case 72:
                 var23 = _closure1_slot21;
-case 67:
+case 71:
                 var9['getRowIsUnavailable'] = var23;
                 var9['insetEnd'] = var17;
                 var9['disableGradient'] = var22;
                 var9['disableStickySections'] = var22;
                 var22 = _closure1_slot15;
                 var22 = var16 >= var22;
-                if(var22) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
+                if(var22) { _fun0003_ip = 73; continue _fun0003 }
+case 74:
                 var22 = var13;
-case 69:
+case 73:
                 var9['disableSelection'] = var22;
                 var11 = var12.bind(var4)(var11, var9);
                 var9 = new Array(2);
@@ -984,7 +1000,7 @@ case 69:
                 var12 = _closure1_slot17;
                 var11 = _closure1_slot1;
                 var22 = _closure1_slot2;
-                var10 = 33;
+                var10 = 34;
                 var10 = var22[var10];
                 var11 = var11.bind(var4)(var10);
                 var10 = {};
@@ -993,10 +1009,10 @@ case 69:
                 var10['preview'] = var19;
                 var10['sendLabel'] = var18;
                 var16 = var16 > var17;
-                if(!var16) { _fun0003_ip = 71; continue _fun0003 }
-case 72:
+                if(!var16) { _fun0003_ip = 75; continue _fun0003 }
+case 76:
                 var16 = !var13;
-case 71:
+case 75:
                 var10['canSend'] = var16;
                 var10['isSending'] = var15;
                 var10['onSend'] = var14;

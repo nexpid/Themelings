@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_ACCENT;
+    var12 = var12.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var12;
     var2['placeholderAvatar'] = var9;
     var9 = {};
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var7[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_ACCENT;
+    var10 = var10.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var10;
     var2['placeholderUsername'] = var9;
     var9 = {};

@@ -261,7 +261,7 @@ case 27:
     var15 = var9[var13];
     var15 = var14.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.BACKGROUND_ACCENT;
+    var15 = var15.BACKGROUND_MOD_STRONG;
     var12['backgroundColor'] = var15;
     var5['activityIconWrapper'] = var12;
     var12 = {};

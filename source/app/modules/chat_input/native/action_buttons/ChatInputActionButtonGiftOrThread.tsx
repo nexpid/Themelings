@@ -11,13 +11,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg2;
+            var14 = var2.accessible;
             var11 = var2.canStartThreads;
-            var16 = var2.channel;
-            var15 = var2.onPress;
-            var _closure2_slot0 = var15;
+            var17 = var2.channel;
+            var16 = var2.onPress;
+            var _closure2_slot0 = var16;
             var1 = var2.shouldShowThread;
             var9 = var2.styleButton;
-            var14 = var2.styleButtonWrapper;
+            var15 = var2.styleButtonWrapper;
             var5 = _closure1_slot6;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -39,9 +40,10 @@ case 3:
             var1 = var13[var1];
             var6 = var7.bind(var4)(var1);
             var1 = {};
-            var1['channel'] = var16;
-            var1['onPress'] = var15;
-            var1['style'] = var14;
+            var1['accessible'] = var14;
+            var1['channel'] = var17;
+            var1['onPress'] = var16;
+            var1['style'] = var15;
             var1['styleButton'] = var9;
             var1 = var8.bind(var4)(var6, var1);
             _fun0001_ip = 4; continue _fun0001;
@@ -50,6 +52,7 @@ case 2:
             var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
+            var6['accessible'] = var14;
             var12 = _closure1_slot0;
             var14 = 7;
             var15 = var13[var14];

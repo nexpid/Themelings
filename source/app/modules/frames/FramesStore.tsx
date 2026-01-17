@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var2 = global;
     var10 = var2.Object;
     var9 = var10.defineProperty;
@@ -100,13 +100,20 @@ case 4:
     var8 = new var14[var8](var13);
     var8 = var8 instanceof Object ? var8 : var9;
     var _closure1_slot11 = var8;
+    var8 = var2.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var14 = var9;
+    var8 = new var14[var8](var13);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot12 = var8;
     var2 = var2.Map;
     var8 = var2.prototype;
     var8 = Object.create(var8, {constructor: {value: var2}});
     var14 = var8;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot12 = var2;
+    var _closure1_slot13 = var2;
     var2 = 8;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -124,7 +131,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -161,7 +168,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFrameLayoutMode';
@@ -249,17 +256,29 @@ case 15:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
-        var7 = 'getOrientationLockStateForApp';
+        var7 = 'isProxyTicketRefreshing';
         var5['key'] = var7;
         var7 = function value(arg1) {
             var3 = _closure1_slot11;
-            var2 = var3.get;
+            var2 = var3.has;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
         var1[5] = var5;
+        var5 = {};
+        var7 = 'getOrientationLockStateForApp';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var3 = _closure1_slot12;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getPipOrientationLockStateForApp';
         var5['key'] = var7;
@@ -268,7 +287,7 @@ case 15:
 case 0:
                 var4 = arg1;
                 var3 = this;
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot13;
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var4);
                 var2 = null;
@@ -281,7 +300,7 @@ case 18:
             }
         };
         var5['value'] = var6;
-        var1[6] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -431,7 +450,7 @@ case 28:
         }
     };
     var2['FRAME_SET_PANEL_MODE'] = var9;
-    var4 = function handleOrientationLockState(arg1) {
+    var9 = function handleOrientationLockState(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
@@ -441,12 +460,12 @@ case 0:
             var1 = null;
             if(!(var1 != var6)) { _fun0011_ip = 30; continue _fun0011 }
 case 31:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var2 = var5.set;
             var2 = var2.bind(var5)(var3, var6);
             _fun0011_ip = 32; continue _fun0011;
 case 30:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var2 = var5.delete;
             var2 = var2.bind(var5)(var3);
 case 32:
@@ -455,12 +474,12 @@ case 34:
             var1 = undefined;
             if(!(var1 !== var4)) { _fun0011_ip = 35; continue _fun0011 }
 case 36:
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot13;
             var1 = var2.set;
             var1 = var1.bind(var2)(var3, var4);
             _fun0011_ip = 35; continue _fun0011;
 case 33:
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot13;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
 case 35:
@@ -468,7 +487,58 @@ case 35:
             return var1;
         }
     };
-    var2['FRAME_SET_ORIENTATION_LOCK_STATE'] = var4;
+    var2['FRAME_SET_ORIENTATION_LOCK_STATE'] = var9;
+    var9 = function handleSetProxyTicketRefreshing(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.applicationId;
+            var1 = var1.refreshing;
+            var3 = _closure1_slot11;
+            if(var1) { _fun0012_ip = 37; continue _fun0012 }
+case 9:
+            var1 = var3.delete;
+            var1 = var1.bind(var3)(var4);
+            _fun0012_ip = 38; continue _fun0012;
+case 37:
+            var2 = var3.set;
+            var1 = true;
+            var1 = var2.bind(var3)(var4, var1);
+case 38:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['FRAME_SET_PROXY_TICKET_REFRESHING'] = var9;
+    var4 = function handleUpdateProxyTicket(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var4 = var1.applicationId;
+            var5 = var1.proxyTicket;
+            var6 = _closure1_slot9;
+            var1 = null;
+            var7 = var1 == var6;
+            var1 = undefined;
+            var2 = undefined;
+            if(var7) { _fun0013_ip = 25; continue _fun0013 }
+case 26:
+            var2 = var6.applicationId;
+case 25:
+            if(!(var2 === var4)) { _fun0013_ip = 6; continue _fun0013 }
+case 27:
+            var2 = {};
+            var8 = _closure1_slot9;
+            var9 = var2;
+            var4 = copyDataProperties(var9, var8);
+            var4 = 'proxyTicket';
+            var2[var4] = var5;
+            _closure1_slot9 = var2;
+case 6:
+            return var1;
+        }
+    };
+    var2['FRAME_UPDATE_PROXY_TICKET'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;

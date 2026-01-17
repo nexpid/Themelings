@@ -181,7 +181,7 @@ case 20:
                         var10 = var10.bind(var12)(var8, var7);
                         var7 = {'openChannel': true, 'navigationReplace': false};
                         var7 = var11.bind(var2)(var10, var7);
-                        SaveGenerator(address=222);
+                        SaveGenerator(address=226);
 case 21:
                         return var7;
 case 22:
@@ -252,7 +252,7 @@ case 11:
                         var5 = var5.bind(var7)(var8, var3);
                         var3 = {'openChannel': true, 'navigationReplace': false};
                         var3 = var6.bind(var2)(var5, var3);
-                        SaveGenerator(address=476);
+                        SaveGenerator(address=484);
 case 27:
                         return var3;
 case 28:

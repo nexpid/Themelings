@@ -136,7 +136,7 @@ case 4:
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_ACCENT;
+    var16 = var16.BACKGROUND_MOD_STRONG;
     var10['backgroundColor'] = var16;
     var4['accentBackground'] = var10;
     var10 = {};

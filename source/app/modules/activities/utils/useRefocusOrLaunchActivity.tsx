@@ -217,14 +217,22 @@ case 16: // try_start_1
                     var8 = _closure2_slot0;
                     var3['applicationId'] = var8;
                     var3 = var4.bind(var6)(var3);
-case 21: // try_end1
-                    _fun0001_ip = 32; continue _fun0001;
-case 33: // catch_target0 // catch_target1
-                    CatchBlockStart(arg_register=2);
+                    SaveGenerator(address=352);
 case 32:
+                    return var3;
+case 33:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 34; continue _fun0001 }
+case 21: // try_end1
+                    _fun0001_ip = 35; continue _fun0001;
+case 34:
+                    return var3;
+case 36: // catch_target0 // catch_target1
+                    CatchBlockStart(arg_register=2);
+case 35:
                     var3 = _closure2_slot3;
                     if(!(var5 != var3)) { _fun0001_ip = 4; continue _fun0001 }
-case 34:
+case 37:
                     var3 = _closure2_slot3;
                     var3 = var3.bind(var2)();
                     _fun0001_ip = 4; continue _fun0001;
@@ -239,10 +247,10 @@ case 12:
                     var6 = 'guild_id';
                     var6 = var6 in var4;
                     var5 = null;
-                    if(!var6) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+                    if(!var6) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
                     var5 = var4.guild_id;
-case 35:
+case 38:
                     var3 = var3.bind(var2)(var5, var4);
                     _fun0001_ip = 4; continue _fun0001;
 case 11:

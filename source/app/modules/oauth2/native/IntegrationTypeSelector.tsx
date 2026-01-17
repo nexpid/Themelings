@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_ACCENT;
+    var11 = var11.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var11;
     var2['loadingIcon'] = var10;
     var2 = var8.bind(var9)(var2);

@@ -251,7 +251,7 @@ case 4:
     var16 = var6[var12];
     var16 = var13.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_ACCENT;
+    var16 = var16.BACKGROUND_MOD_SUBTLE;
     var10['backgroundColor'] = var16;
     var7['integrationJoinButton'] = var10;
     var10 = {'backgroundColor': null, 'height': 1, 'marginVertical': 8, 'marginHorizontal': 16};

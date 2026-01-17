@@ -337,14 +337,14 @@ case 38:
         var14 = var7[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.BACKGROUND_ACCENT;
+        var14 = var14.BACKGROUND_MOD_STRONG;
         var11['backgroundColor'] = var14;
         var8['lowImportanceMention'] = var11;
         var11 = {};
         var12 = var7[var12];
         var12 = var13.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.BACKGROUND_ACCENT;
+        var12 = var12.BACKGROUND_MOD_STRONG;
         var11['backgroundColor'] = var12;
         var8['eventsMentionBadge'] = var11;
         var8 = var9.bind(var10)(var8);

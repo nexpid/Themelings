@@ -628,6 +628,32 @@ case 32:
             var1 = var2.isHeroVideoSupported;
             var9 = var1.bind(var2)(var20);
 case 31:
+            var2 = var15.userStatus;
+            var3 = var18 == var2;
+            var1 = undefined;
+            if(var3) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
+            var1 = var2.completedAt;
+case 33:
+            if(!(var18 == var1)) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.t;
+            var10 = var1.74KqrR;
+            _fun0003_ip = 37; continue _fun0003;
+case 35:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.t;
+            var10 = var1.YsCuyF;
+case 37:
             var3 = _closure1_slot6;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -637,6 +663,15 @@ case 31:
             var2 = var1.PressableOpacity;
             var1 = {};
             var1['onPress'] = var5;
+            var5 = 'button';
+            var1['accessibilityRole'] = var5;
+            var5 = 9;
+            var5 = var8[var5];
+            var5 = var6.bind(var4)(var5);
+            var7 = var5.intl;
+            var5 = var7.string;
+            var5 = var5.bind(var7)(var10);
+            var1['accessibilityLabel'] = var5;
             var7 = _closure1_slot7;
             var5 = 12;
             var5 = var8[var5];
@@ -651,8 +686,8 @@ case 31:
             var5['style'] = var8;
             var8 = 'subtle';
             var5['border'] = var8;
-            if(!var9) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
+            if(!var9) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
             var11 = _closure1_slot7;
             var10 = _closure1_slot4;
             var8 = {};
@@ -670,10 +705,10 @@ case 34:
             var12['style'] = var22;
             var22 = var18 == var21;
             var18 = undefined;
-            if(var22) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            if(var22) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
             var18 = var21.url;
-case 35:
+case 40:
             var12['poster'] = var18;
             var18 = {};
             var20 = var20.url;
@@ -702,7 +737,7 @@ case 35:
             var12[1] = var13;
             var8['children'] = var12;
             var9 = var11.bind(var4)(var10, var8);
-case 33:
+case 38:
             var8 = new Array(3);
             var8[0] = var9;
             var12 = _closure1_slot7;
@@ -809,16 +844,16 @@ case 0:
             var9 = null;
             var12 = var9 == var11;
             var10 = undefined;
-            if(var12) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var12) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var10 = var11.percentComplete;
-case 37:
+case 42:
             var11 = var9 != var10;
             var9 = 0;
-            if(!var11) { _fun0004_ip = 39; continue _fun0004 }
+            if(!var11) { _fun0004_ip = 44; continue _fun0004 }
 case 32:
             var9 = var10;
-case 39:
+case 44:
             var7['progress'] = var9;
             var9 = true;
             var7['hasConfetti'] = var9;

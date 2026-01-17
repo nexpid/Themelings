@@ -416,6 +416,9 @@ case 35:
                     var4 = undefined;
                     var3 = var2.bind(var4)(var1);
                     var2 = {};
+                    var10 = _closure2_slot11;
+                    var10 = !var10;
+                    var2['accessible'] = var10;
                     var10 = _closure2_slot0;
                     var2['canStartThreads'] = var10;
                     var10 = _closure2_slot1;
@@ -453,9 +456,12 @@ case 33:
                     var9 = var9.ZT24In;
                     var9 = var10.bind(var13)(var9);
                     var1['accessibilityLabel'] = var9;
-                    var9 = {};
-                    var9['expanded'] = var6;
-                    var1['accessibilityState'] = var9;
+                    var10 = _closure2_slot11;
+                    var10 = !var10;
+                    var1['accessible'] = var10;
+                    var10 = {};
+                    var10['expanded'] = var6;
+                    var1['accessibilityState'] = var10;
                     var1['active'] = var6;
                     var10 = _closure2_slot5;
                     var10 = var10.activeBrand;
@@ -491,6 +497,9 @@ case 31:
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
                     var1 = {};
+                    var10 = _closure2_slot11;
+                    var10 = !var10;
+                    var1['accessible'] = var10;
                     var1['active'] = var6;
                     var10 = _closure2_slot1;
                     var1['channel'] = var10;

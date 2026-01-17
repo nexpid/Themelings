@@ -1742,10 +1742,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER'] = var2;
     var1 = 'CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER';
     var4[var2] = var1;
-    var2 = 628;
-    var4['GAME_WIDGETS_PREMIUM_TAB_BADGE'] = var2;
-    var1 = 'GAME_WIDGETS_PREMIUM_TAB_BADGE';
-    var4[var2] = var1;
     var2 = 629;
     var4['PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE'] = var2;
     var1 = 'PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE';

@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var13;
     var4['guildItemPlaceholder'] = var10;
     var10 = {'width': 12, 'height': 12, 'position': 'absolute', 'bottom': 0, 'end': 0, 'backgroundColor': null, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};

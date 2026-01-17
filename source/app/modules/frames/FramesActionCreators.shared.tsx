@@ -189,6 +189,170 @@ case 2:
         return var1;
     };
     var _closure1_slot6 = var1;
+    var1 = function _refreshProxyTicket() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0002_ip = 25; continue _fun0002 }
+case 3:
+                    var2 = arg1;
+                    var7 = var2.applicationId;
+                    var6 = undefined;
+                    var5 = undefined;
+                    SaveGenerator(address=26);
+case 26:
+                    return var6;
+case 27:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
+                    var9 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var8 = 3;
+                    var3 = var3[var8];
+                    var11 = var9.bind(var6)(var3);
+                    var10 = var11.dispatch;
+                    var3 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': true};
+                    var9 = var7;
+                    var3['applicationId'] = var9;
+                    var9 = true;
+                    var3 = var10.bind(var11)(var3);
+case 8: // try_start_0 // try_start_1
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var11[var3];
+                    var11 = var10.bind(var6)(var3);
+                    var10 = var11.createProxyTicket;
+                    var3 = var7;
+                    var3 = var10.bind(var11)(var3);
+                    SaveGenerator(address=131);
+case 9:
+                    return var3;
+case 10:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
+                    if(var10) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
+                    var11 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var8];
+                    var12 = var11.bind(var6)(var10);
+                    var11 = var12.dispatch;
+                    var10 = {};
+                    var13 = 'FRAME_UPDATE_PROXY_TICKET';
+                    var10['type'] = var13;
+                    var13 = var7;
+                    var10['applicationId'] = var13;
+                    var10['proxyTicket'] = var3;
+                    var10 = var11.bind(var12)(var10);
+case 32: // try_end0 // try_end1
+                    var11 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var8];
+                    var12 = var11.bind(var6)(var10);
+                    var11 = var12.dispatch;
+                    var10 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': false};
+                    var13 = var7;
+                    var10['applicationId'] = var13;
+                    var10 = var11.bind(var12)(var10);
+                    return var9;
+case 30:
+                    var10 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var8];
+                    var11 = var10.bind(var6)(var9);
+                    var10 = var11.dispatch;
+                    var9 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': false};
+                    var12 = var7;
+                    var9['applicationId'] = var12;
+                    var9 = var10.bind(var11)(var9);
+                    return var3;
+case 33: // try_start_2 // catch_target0
+                    CatchBlockStart(arg_register=10);
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var10[var3];
+                    var3 = var9.bind(var6)(var3);
+                    var5 = var3.bind(var6)();
+                    var9 = _closure1_slot0;
+                    var3 = 7;
+                    var3 = var10[var3];
+                    var10 = var9.bind(var6)(var3);
+                    var9 = var10.getActivityLaunchErrorInfo;
+                    var3 = var7;
+                    var3 = var9.bind(var10)(var11, var3);
+                    SaveGenerator(address=355);
+case 34:
+                    return var3;
+case 35:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
+                    if(var9) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
+                    var10 = var5;
+                    var9 = var10.showLaunchErrorModal;
+                    var5 = var3.message;
+                    var5 = var9.bind(var10)(var5);
+case 38: // try_end2
+                    var9 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var8];
+                    var11 = var9.bind(var6)(var5);
+                    var10 = var11.dispatch;
+                    var9 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': false};
+                    var5 = var7;
+                    var9['applicationId'] = var5;
+                    var5 = false;
+                    var9 = var10.bind(var11)(var9);
+                    return var5;
+case 36:
+                    var9 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var8];
+                    var10 = var9.bind(var6)(var5);
+                    var9 = var10.dispatch;
+                    var5 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': false};
+                    var11 = var7;
+                    var5['applicationId'] = var11;
+                    var5 = var9.bind(var10)(var5);
+                    return var3;
+case 39: // catch_target1 // catch_target2
+                    CatchBlockStart(arg_register=2);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {'type': 'FRAME_SET_PROXY_TICKET_REFRESHING', 'applicationId': null, 'refreshing': false};
+                    var4['applicationId'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    throw var3;
+case 28:
+                    return var2;
+case 25:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot7 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -265,7 +429,7 @@ case 2:
         return var1;
     };
     var3['updateFrameLayoutMode'] = var4;
-    var2 = function updateFramePanelMode(arg1) {
+    var4 = function updateFramePanelMode(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -281,6 +445,17 @@ case 2:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['updateFramePanelMode'] = var2;
+    var3['updateFramePanelMode'] = var4;
+    var2 = function refreshProxyTicket() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['refreshProxyTicket'] = var2;
     return var1;
 })();

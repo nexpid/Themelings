@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_ACCENT;
+    var10 = var10.BACKGROUND_MOD_STRONG;
     var9['color'] = var10;
     var10 = 0.5;
     var9['opacity'] = var10;

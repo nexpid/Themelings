@@ -364,7 +364,7 @@ case 8:
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_ACCENT;
+    var12 = var12.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var12;
     var12 = 16;
     var9['height'] = var12;

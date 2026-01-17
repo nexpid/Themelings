@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot7 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,15 +48,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var26 = var1.message;
-            var _closure2_slot0 = var26;
-            var24 = var1.forwardOptions;
-            var21 = var1.sendLabel;
-            var20 = var1.canSend;
+            var25 = var1.message;
+            var _closure2_slot0 = var25;
+            var23 = var1.forwardOptions;
+            var20 = var1.sendLabel;
+            var19 = var1.canSend;
             var6 = var1.selectedDestinations;
-            var19 = var1.isSending;
-            var27 = var1.onSend;
-            var _closure2_slot1 = var27;
+            var18 = var1.isSending;
+            var26 = var1.onSend;
+            var _closure2_slot1 = var26;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 4;
@@ -70,7 +70,7 @@ case 0:
             var2 = var8[var1];
             var10 = var3.bind(var4)(var2);
             var2 = var10.useSelectedDestinationChannel;
-            var25 = var2.bind(var10)(var6);
+            var24 = var2.bind(var10)(var6);
             var2 = 6;
             var2 = var8[var2];
             var12 = var3.bind(var4)(var2);
@@ -89,9 +89,9 @@ case 0:
                 return var1;
             };
             var10 = var11.bind(var12)(var10, var2);
-            var23 = _closure1_slot4;
-            var2 = var23.useState;
-            var11 = var2.bind(var23)(var10);
+            var22 = _closure1_slot4;
+            var2 = var22.useState;
+            var11 = var2.bind(var22)(var10);
             var10 = _closure1_slot3;
             var2 = 2;
             var11 = var10.bind(var4)(var11, var2);
@@ -101,9 +101,9 @@ case 0:
             var10 = 1;
             var11 = var11[var10];
             var _closure2_slot4 = var11;
-            var12 = var23.useCallback;
+            var12 = var22.useCallback;
             var10 = new Array(2);
-            var10[0] = var26;
+            var10[0] = var25;
             var10[1] = var5;
             var5 = function(arg1) {
                 var4 = _closure2_slot4;
@@ -117,11 +117,11 @@ case 0:
                 var2 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var15 = var12.bind(var23)(var5, var10);
-            var12 = var23.useEffect;
+            var15 = var12.bind(var22)(var5, var10);
+            var12 = var22.useEffect;
             var10 = new Array(2);
             var10[0] = var16;
-            var5 = var26.channel_id;
+            var5 = var25.channel_id;
             var10[1] = var5;
             var5 = function() {
                 var4 = _closure1_slot1;
@@ -139,24 +139,24 @@ case 0:
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var5 = var12.bind(var23)(var5, var10);
-            var18 = 8;
-            var5 = var8[var18];
+            var5 = var12.bind(var22)(var5, var10);
+            var5 = 8;
+            var5 = var8[var5];
             var10 = var3.bind(var4)(var5);
             var5 = var10.useShareChatInputActions;
-            var10 = var5.bind(var10)(var11, var25);
+            var10 = var5.bind(var10)(var11, var24);
             var17 = var10.textInputRef;
             var5 = var10.isInputFocused;
             var14 = var10.handleSelectionChange;
             var13 = var10.handleMessageFocus;
             var12 = var10.handleMessageBlur;
             var11 = var10.handlePressEmoji;
-            var22 = var23.useCallback;
+            var21 = var22.useCallback;
             var10 = new Array(3);
             var10[0] = var16;
-            var28 = var26.channel_id;
-            var10[1] = var28;
-            var10[2] = var27;
+            var27 = var25.channel_id;
+            var10[1] = var27;
+            var10[2] = var26;
             var9 = function() {
                 var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -175,12 +175,12 @@ case 0:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var10 = var22.bind(var23)(var9, var10);
+            var10 = var21.bind(var22)(var9, var10);
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.useDestinationNamesWithSlowmode;
-            var23 = var1.bind(var3)(var6);
-            var1 = var23.length;
+            var22 = var1.bind(var3)(var6);
+            var1 = var22.length;
             var1 = var1 > var2;
             var6 = undefined;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
@@ -202,53 +202,54 @@ case 4:
             var1 = var1.t;
             var2 = var1.xJFpij;
             var1 = {};
-            var9 = var23.length;
+            var9 = var22.length;
             var1['count'] = var9;
-            var22 = var23.join;
+            var21 = var22.join;
             var9 = ', ';
-            var9 = var22.bind(var23)(var9);
+            var9 = var21.bind(var22)(var9);
             var1['channelNames'] = var9;
             var6 = var3.bind(var8)(var2, var1);
 case 2:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
-            var22 = _closure1_slot2;
+            var21 = _closure1_slot2;
             var1 = 10;
-            var1 = var22[var1];
+            var1 = var21[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var9 = _closure1_slot0;
             var8 = 11;
-            var8 = var22[var8];
+            var8 = var21[var8];
             var8 = var9.bind(var4)(var8);
-            var23 = var8.ForwardPreview;
+            var22 = var8.ForwardPreview;
             var8 = {};
-            var8['message'] = var26;
-            var8['channel'] = var25;
-            var8['forwardOptions'] = var24;
-            var8 = var3.bind(var4)(var23, var8);
+            var8['message'] = var25;
+            var8['channel'] = var24;
+            var8['forwardOptions'] = var23;
+            var8 = var3.bind(var4)(var22, var8);
             var1['preview'] = var8;
             var8 = 12;
-            var8 = var22[var8];
+            var8 = var21[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Button;
             var8 = {'variant': 'primary', 'size': 'md'};
-            var8['text'] = var21;
-            var20 = !var20;
-            var8['disabled'] = var20;
-            var20 = undefined;
-            if(var19) { _fun0001_ip = 5; continue _fun0001 }
+            var8['text'] = var20;
+            var19 = !var19;
+            var8['disabled'] = var19;
+            var19 = undefined;
+            if(var18) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var20 = var10;
+            var19 = var10;
 case 5:
-            var8['onPress'] = var20;
-            var8['loading'] = var19;
+            var8['onPress'] = var19;
+            var8['loading'] = var18;
             var8 = var3.bind(var4)(var9, var8);
             var1['sendButton'] = var8;
             var9 = _closure1_slot7;
             var8 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var7 = var7[var18];
+            var18 = _closure1_slot2;
+            var7 = 13;
+            var7 = var18[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
             var7['inputRef'] = var17;

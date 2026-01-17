@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -38,9 +38,9 @@ case 0:
             var16 = var1.text;
             var15 = var1.setText;
             var7 = var1.preview;
-            var21 = var1.sendLabel;
-            var20 = var1.canSend;
-            var19 = var1.isSending;
+            var20 = var1.sendLabel;
+            var19 = var1.canSend;
+            var18 = var1.isSending;
             var10 = var1.onSend;
             var9 = var1.disabled;
             var4 = undefined;
@@ -49,9 +49,9 @@ case 3:
             var9 = false;
 case 2:
             var8 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var18 = 2;
-            var1 = var22[var18];
+            var21 = _closure1_slot2;
+            var1 = 2;
+            var1 = var21[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.useShareChatInputActions;
             var1 = var1.bind(var2)(var15);
@@ -64,35 +64,36 @@ case 2:
             var3 = _closure1_slot3;
             var2 = _closure1_slot1;
             var1 = 3;
-            var1 = var22[var1];
+            var1 = var21[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['preview'] = var7;
             var7 = 4;
-            var7 = var22[var7];
+            var7 = var21[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Button;
             var7 = {'variant': 'primary', 'size': 'md'};
-            var7['text'] = var21;
-            var20 = !var20;
-            if(var20) { _fun0001_ip = 4; continue _fun0001 }
+            var7['text'] = var20;
+            var19 = !var19;
+            if(var19) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var20 = var9;
+            var19 = var9;
 case 4:
-            var7['disabled'] = var20;
-            var20 = undefined;
-            if(var19) { _fun0001_ip = 6; continue _fun0001 }
+            var7['disabled'] = var19;
+            var19 = undefined;
+            if(var18) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var20 = var10;
+            var19 = var10;
 case 6:
-            var7['onPress'] = var20;
-            var7['loading'] = var19;
+            var7['onPress'] = var19;
+            var7['loading'] = var18;
             var7 = var3.bind(var4)(var8, var7);
             var1['sendButton'] = var7;
             var8 = _closure1_slot3;
             var7 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var6 = var6[var18];
+            var18 = _closure1_slot2;
+            var6 = 5;
+            var6 = var18[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['inputRef'] = var17;

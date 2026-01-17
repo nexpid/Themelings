@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var13;
     var4['listPlaceholder'] = var10;
     var10 = {};
@@ -339,7 +339,7 @@ case 19:
             var8 = var27[var28];
             var25 = var11.bind(var4)(var8);
             var17 = var25.useDerivedValue;
-            var8 = function K() {
+            var8 = function U() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure2_slot5;
@@ -441,7 +441,7 @@ case 26:
             var8 = var27[var28];
             var23 = var11.bind(var4)(var8);
             var21 = var23.useAnimatedReaction;
-            var17 = function M() {
+            var17 = function K() {
                 var2 = _closure2_slot11;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -454,7 +454,7 @@ case 26:
             var17['__workletHash'] = var8;
             var8 = _closure1_slot16;
             var17['__initData'] = var8;
-            var8 = function U(arg1) {
+            var8 = function F(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = arg1;

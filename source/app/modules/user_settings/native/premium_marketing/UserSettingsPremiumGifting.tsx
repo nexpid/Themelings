@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_ACCENT;
+    var12 = var12.BACKGROUND_MOD_SUBTLE;
     var10['backgroundColor'] = var12;
     var4['ctaButton'] = var10;
     var10 = {};

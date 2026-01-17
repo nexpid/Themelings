@@ -93,11 +93,12 @@ case 0:
 case 3:
             var11 = false;
 case 2:
-            var18 = var1.style;
-            var19 = var1.activeStyle;
+            var19 = var1.style;
+            var20 = var1.activeStyle;
             var12 = var1.activeIconStyle;
             var9 = var1.disabled;
             var6 = var1.onPress;
+            var16 = var1.accessible;
             var15 = var1.accessibilityLabel;
             var14 = var1.accessibilityHint;
             var17 = var1.accessibilityState;
@@ -108,37 +109,38 @@ case 2:
             var10 = var1.bind(var4)();
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
-            var16 = _closure1_slot1;
+            var18 = _closure1_slot1;
             var1 = 5;
-            var1 = var16[var1];
+            var1 = var18[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var16 = arg2;
-            var1['ref'] = var16;
-            var20 = var10.actionButton;
-            var16 = new Array(3);
-            var16[0] = var20;
-            var16[1] = var18;
-            var18 = var11;
+            var18 = arg2;
+            var1['ref'] = var18;
+            var21 = var10.actionButton;
+            var18 = new Array(3);
+            var18[0] = var21;
+            var18[1] = var19;
+            var19 = var11;
             if(!var11) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var18 = !var9;
+            var19 = !var9;
 case 4:
-            if(!var18) { _fun0001_ip = 6; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var18 = var19;
+            var19 = var20;
 case 6:
-            var16[2] = var18;
-            var1['style'] = var16;
+            var18[2] = var19;
+            var1['style'] = var18;
             var1['disabled'] = var9;
+            var1['accessible'] = var16;
             var16 = 'button';
             var1['accessibilityRole'] = var16;
             var16 = {};
             var16['disabled'] = var9;
-            var22 = var16;
-            var21 = var17;
-            var17 = copyDataProperties(var22, var21);
+            var23 = var16;
+            var22 = var17;
+            var17 = copyDataProperties(var23, var22);
             var1['accessibilityState'] = var16;
             var1['accessibilityLabel'] = var15;
             var1['accessibilityHint'] = var14;

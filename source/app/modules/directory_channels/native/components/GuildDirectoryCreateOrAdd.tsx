@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var10['backgroundColor'] = var13;
     var4['footerButton'] = var10;
     var10 = {'paddingHorizontal': null, 'width': '100%', 'marginTop': 18};

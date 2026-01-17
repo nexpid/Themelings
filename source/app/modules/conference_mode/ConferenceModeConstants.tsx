@@ -22,5 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CONFERENCE_MODE_ENABLED'] = var2;
     var2 = null;
     var3['DEFAULT_INVITE_CODE'] = var2;
+    var2 = 'Discord Linkshell';
+    var3['CONFERENCE_SOLUTION_NAME'] = var2;
     return var1;
 })();

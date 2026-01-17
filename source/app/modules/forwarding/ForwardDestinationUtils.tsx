@@ -237,7 +237,7 @@ case 20:
             var13 = 14;
             var11 = var11[var13];
             var12 = var12.bind(var7)(var11);
-            var11 = var12.isChannelContentGated;
+            var11 = var12.isChannelOrGuildNSFW;
             var11 = var11.bind(var12)(var14);
             if(!var11) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
@@ -247,7 +247,7 @@ case 25:
             var11 = _closure1_slot1;
             var11 = var11[var13];
             var12 = var12.bind(var7)(var11);
-            var11 = var12.isChannelContentGated;
+            var11 = var12.isChannelOrGuildNSFW;
             var11 = var11.bind(var12)(var6);
             if(var11) { _fun0004_ip = 22; continue _fun0004 }
 case 24:

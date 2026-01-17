@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.BACKGROUND_ACCENT;
+    var12 = var12.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var12;
     var2['footerButton'] = var9;
     var9 = {'color': null, 'alignSelf': 'center', 'fontSize': 14, 'marginVertical': 8};

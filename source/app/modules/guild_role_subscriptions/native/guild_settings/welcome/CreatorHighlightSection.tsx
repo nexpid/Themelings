@@ -522,7 +522,7 @@ case 5:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_SUBTLE;
     var9['backgroundColor'] = var13;
     var4['viewServerButton'] = var9;
     var9 = {'flex': 1, 'justifyContent': 'flex-start', 'alignItems': 'flex-start'};

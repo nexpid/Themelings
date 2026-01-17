@@ -194,6 +194,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['APP_LAUNCHER'] = var6;
     var2 = 'APP_LAUNCHER';
     var4[var6] = var2;
+    var6 = 46;
+    var4['ACTIVITY_SUGGESTION'] = var6;
+    var2 = 'ACTIVITY_SUGGESTION';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

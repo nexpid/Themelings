@@ -1048,7 +1048,7 @@ case 40:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_ACCENT;
+    var14 = var14.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var14;
     var4['iconContainer'] = var9;
     var9 = {};
@@ -2516,7 +2516,7 @@ case 2:
 case 0:
                     var2 = _closure2_slot3;
                     var8 = null;
-                    if(!(var8 != var2)) { _fun0022_ip = 65; continue _fun0022 }
+                    if(!(var8 != var2)) { _fun0022_ip = 47; continue _fun0022 }
 case 137:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -2539,7 +2539,7 @@ case 138:
                     var2 = var6.bind(var7)(var2, var1);
                     var1 = {'withMutualGuilds': true, 'dispatchWait': true};
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 65:
+case 47:
                     var1 = undefined;
                     return var1;
                 }

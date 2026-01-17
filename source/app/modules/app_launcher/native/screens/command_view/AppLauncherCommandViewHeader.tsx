@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var10[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var12['backgroundColor'] = var13;
     var4['loadingIcon'] = var12;
     var12 = {'textAlign': 'center', 'pointerEvents': 'none', 'flexGrow': 1, 'marginHorizontal': 8};

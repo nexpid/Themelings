@@ -92,7 +92,7 @@ case 2:
         var13 = var6[var11];
         var13 = var12.bind(var1)(var13);
         var13 = var13.colors;
-        var13 = var13.BACKGROUND_ACCENT;
+        var13 = var13.BACKGROUND_MOD_MUTED;
         var10['backgroundColor'] = var13;
         var7['dotSeparator'] = var10;
         var10 = {'borderRadius': null, 'borderColor': null, 'borderWidth': 1, 'paddingHorizontal': 4, 'paddingBottom': 2};

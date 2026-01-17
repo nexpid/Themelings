@@ -43,6 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
+            var16 = var1.accessible;
             var10 = var1.active;
             var13 = var1.disabled;
             var15 = var1.styleButton;
@@ -69,10 +70,10 @@ case 0:
             var1['channelId'] = var3;
             var1 = var2.bind(var4)(var1);
             var7 = var1.canShowOnboarding;
-            var16 = var1.canShowBotsBanner;
-            var _closure2_slot3 = var16;
-            var17 = var1.canShowAppsOrActivitiesBanner;
-            var _closure2_slot4 = var17;
+            var17 = var1.canShowBotsBanner;
+            var _closure2_slot3 = var17;
+            var18 = var1.canShowAppsOrActivitiesBanner;
+            var _closure2_slot4 = var18;
             var2 = var1.fromTriggeredOnboarding;
             var1 = var1.willShowGlobalSearchOnboarding;
             var _closure2_slot5 = var1;
@@ -89,17 +90,17 @@ case 2:
             var3 = var8.useEffect;
             var2 = new Array(6);
             var2[0] = var7;
-            var2[1] = var17;
-            var2[2] = var16;
-            var17 = var5 == var14;
-            var16 = undefined;
-            if(var17) { _fun0001_ip = 4; continue _fun0001 }
+            var2[1] = var18;
+            var2[2] = var17;
+            var18 = var5 == var14;
+            var17 = undefined;
+            if(var18) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var16 = var14.guild_id;
+            var17 = var14.guild_id;
 case 4:
-            var2[3] = var16;
-            var16 = var14.id;
-            var2[4] = var16;
+            var2[3] = var17;
+            var17 = var14.id;
+            var2[4] = var17;
             var2[5] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -254,9 +255,9 @@ case 21:
 case 22:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var5 = 6;
-            var5 = var16[var5];
+            var5 = var17[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.AppLauncherOnboardingChatInputButtonAnimation;
             var5 = {};
@@ -273,6 +274,7 @@ case 20:
             var6 = var14[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
+            var6['accessible'] = var16;
             var6['style'] = var15;
             var6['disabled'] = var13;
             var6['active'] = var10;

@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_ACCENT;
+    var16 = var16.BACKGROUND_MOD_SUBTLE;
     var13['backgroundColor'] = var16;
     var10['keepButton'] = var13;
     var13 = {'textAlign': 'center', 'paddingVertical': 8};

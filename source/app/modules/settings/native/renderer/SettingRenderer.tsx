@@ -636,7 +636,7 @@ case 19:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.BACKGROUND_ACCENT;
+    var13 = var13.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var13;
     var4['placeholderAvatar'] = var10;
     var10 = {};
@@ -650,7 +650,7 @@ case 19:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_ACCENT;
+    var11 = var11.BACKGROUND_MOD_MUTED;
     var10['backgroundColor'] = var11;
     var4['placeholderUsername'] = var10;
     var10 = {};
