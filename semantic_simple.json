@@ -593,6 +593,12 @@
     "midnight": "#1e1f22",
     "darker": "#1e1f22"
   },
+  "GUILD_PROFILE_BANNER_BACKGROUND_DEFAULT": {
+    "dark": "#232428",
+    "light": "#70717a",
+    "midnight": "#000000",
+    "darker": "#131318"
+  },
   "ICON_FEEDBACK_CRITICAL": {
     "dark": "#f23f43",
     "light": "#da373c",
@@ -628,6 +634,18 @@
     "light": "#80848e",
     "midnight": "#5b5e6a",
     "darker": "#6c6f7c"
+  },
+  "ICON_OVERLAY_DARK": {
+    "dark": "#2f3035",
+    "light": "#2f3035",
+    "midnight": "#2f3035",
+    "darker": "#2f3035"
+  },
+  "ICON_OVERLAY_LIGHT": {
+    "dark": "#ffffff",
+    "light": "#fbfbfb",
+    "midnight": "#e4e4e6",
+    "darker": "#fbfbfb"
   },
   "ICON_STATUS_DND": {
     "dark": "#f23f43",

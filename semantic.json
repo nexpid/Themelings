@@ -2969,6 +2969,36 @@
       }
     ]
   },
+  "GUILD_PROFILE_BANNER_BACKGROUND_DEFAULT": {
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#70717a",
+      {
+        "raw": "NEUTRAL_40",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ]
+  },
   "ICON_FEEDBACK_CRITICAL": {
     "dark": [
       "#f23f43",
@@ -3145,6 +3175,66 @@
       "#6c6f7c",
       {
         "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
+  },
+  "ICON_OVERLAY_DARK": {
+    "dark": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2f3035",
+      {
+        "raw": "NEUTRAL_71",
+        "opacity": 1
+      }
+    ]
+  },
+  "ICON_OVERLAY_LIGHT": {
+    "dark": [
+      "#ffffff",
+      {
+        "raw": "NEUTRAL_1",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#fbfbfb",
+      {
+        "raw": "NEUTRAL_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#e4e4e6",
+      {
+        "raw": "NEUTRAL_8",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#fbfbfb",
+      {
+        "raw": "NEUTRAL_2",
         "opacity": 1
       }
     ]
