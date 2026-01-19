@@ -7448,7 +7448,7 @@
 { "file": "app/modules/voice_panel/native/alerts/VoicePanelNsfwAlert.tsx", "size": 6914 }
 { "file": "app/modules/voice_panel/native/card/DominantColorUtils.tsx", "size": 11181 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelAnimatedActivityCard.tsx", "size": 48862 }
-{ "file": "app/modules/voice_panel/native/card/VoicePanelCard.tsx", "size": 157220 }
+{ "file": "app/modules/voice_panel/native/card/VoicePanelCard.tsx", "size": 157216 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardConstants.tsx", "size": 968 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardFloatingControls.tsx", "size": 100574 }
 { "file": "app/modules/voice_panel/native/card/VoicePanelCardLayoutManager.tsx", "size": 87368 }
@@ -7558,7 +7558,7 @@
 { "file": "app/modules/voice_panel/native/VoicePanelController.tsx", "size": 184266 }
 { "file": "app/modules/voice_panel/native/VoicePanelStateContext.tsx", "size": 10192 }
 { "file": "app/modules/voice_panel/native/VoicePanelSystemUIManager.tsx", "size": 16499 }
-{ "file": "app/modules/voice_panel/native/VoicePanelUI.tsx", "size": 165609 }
+{ "file": "app/modules/voice_panel/native/VoicePanelUI.tsx", "size": 165608 }
 { "file": "app/modules/voice_panel/VoicePanelConstants.tsx", "size": 4901 }
 { "file": "app/modules/voice_panel/VoicePanelManager.native.tsx", "size": 6481 }
 { "file": "app/modules/voice_panel/VoicePanelStore.tsx", "size": 22049 }
