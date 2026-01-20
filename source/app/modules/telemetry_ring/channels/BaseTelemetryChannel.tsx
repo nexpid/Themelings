@@ -39,18 +39,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 'append';
         var1['key'] = var2;
         var2 = function value(arg1, arg2, arg3, arg4) {
-            var1 = this;
-            var7 = var1.native;
-            var6 = var7.append;
-            var8 = var1.channels;
-            var12 = arg1;
-            var11 = arg2;
-            var10 = arg3;
-            var9 = arg4;
-            var13 = var7;
-            var1 = var13[var6](var12, var11, var10, var9, var8, var7);
-            var1 = undefined;
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var2 = arg2;
+                var3 = arg3;
+                var7 = arg4;
+                var1 = this;
+                var6 = null;
+                if(!(var6 == var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var4 = global;
+                var5 = var4.Date;
+                var4 = var5.now;
+                var7 = var4.bind(var5)();
+case 2:
+                var4 = var6 != var3;
+                var5 = null;
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var5 = var3;
+case 4:
+                var3 = var6 != var2;
+                var6 = null;
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var6 = var2;
+case 6:
+                var4 = var1.native;
+                var3 = var4.append;
+                var8 = var1.channels;
+                var12 = arg1;
+                var13 = var4;
+                var11 = var7;
+                var10 = var5;
+                var9 = var6;
+                var1 = var13[var3](var12, var11, var10, var9, var8, var7);
+                var1 = undefined;
+                return var1;
+            }
         };
         var1['value'] = var2;
         var2 = new Array(3);

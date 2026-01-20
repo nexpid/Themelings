@@ -153,8 +153,17 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(14);
         var1[0] = var5;
+        var5 = {};
+        var8 = 'getExportBatchSize';
+        var5['key'] = var8;
+        var8 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var8;
+        var1[1] = var5;
         var5 = {};
         var8 = 'initialize';
         var5['key'] = var8;
@@ -173,7 +182,7 @@ case 9:
             }
         };
         var5['value'] = var8;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var8 = 'reset';
         var5['key'] = var8;
@@ -214,7 +223,7 @@ case 11:
             }
         };
         var5['value'] = var8;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var8 = 'start';
         var5['key'] = var8;
@@ -256,7 +265,7 @@ case 17:
             }
         };
         var5['value'] = var8;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var8 = 'stop';
         var5['key'] = var8;
@@ -280,7 +289,7 @@ case 19:
             }
         };
         var5['value'] = var8;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var8 = 'flushNow';
         var5['key'] = var8;
@@ -331,7 +340,7 @@ case 21:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = '_readAckedEndOffset';
         var5['key'] = var7;
@@ -369,7 +378,7 @@ case 28:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = '_writeAckedEndOffset';
         var5['key'] = var7;
@@ -390,7 +399,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = '_clearAckedEndOffset';
         var5['key'] = var7;
@@ -410,7 +419,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = '_kick';
         var5['key'] = var7;
@@ -465,7 +474,7 @@ case 8:
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = '_drainOnce';
         var5['key'] = var7;
@@ -564,7 +573,7 @@ case 32:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = '_collectPages';
         var5['key'] = var7;
@@ -640,7 +649,7 @@ case 52:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = '_exportPages';
         var5['key'] = var7;
@@ -649,68 +658,91 @@ case 52:
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     StartGenerator();
-                    var9 = arg1;
-                    var8 = arg2;
-                    var7 = this;
+                    var13 = arg1;
+                    var12 = arg2;
+                    var11 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0012_ip = 62; continue _fun0012 }
 case 53:
-                    var2 = var9.length;
-                    var6 = 1;
-                    var5 = var2 - var6;
-                    var3 = 0;
+                    var2 = var11.getExportBatchSize;
+                    var10 = var2.bind(var11)();
+                    var3 = var13.length;
+                    var2 = 1;
+                    var9 = var3 - var2;
+                    var5 = undefined;
+                    var8 = 0;
+                    var7 = global;
+                    var6 = null;
                     var4 = undefined;
-                    if(!(var5 >= var3)) { _fun0012_ip = 63; continue _fun0012 }
-case 19:
-                    var13 = var9[var5];
-                    var2 = var13.entries;
-                    var2 = var2.length;
-                    var2 = var3 < var2;
-                    var12 = var3 === var5;
-                    var11 = 0;
-                    if(!var2) { _fun0012_ip = 64; continue _fun0012 }
+                    var3 = undefined;
+                    if(!(var9 >= var8)) { _fun0012_ip = 63; continue _fun0012 }
+case 34:
+                    var18 = var13[var9];
+                    if(!(var6 != var10)) { _fun0012_ip = 64; continue _fun0012 }
 case 65:
-                    var14 = var12;
-                    if(!var14) { _fun0012_ip = 66; continue _fun0012 }
-case 4:
-                    var2 = var13.entries;
-                    var2 = var2.length;
-                    var2 = var2 - var6;
-                    var14 = var11 === var2;
-case 66:
-                    var15 = var7.exportEntry;
-                    var2 = var13.entries;
-                    var10 = var2[var11];
-                    var2 = var8;
-                    if(!var2) { _fun0012_ip = 42; continue _fun0012 }
-case 67:
-                    var2 = var14;
-case 42:
-                    var2 = var15.bind(var7)(var10, var2);
-                    SaveGenerator(address=132);
-case 68:
-                    return var2;
-case 69:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(var10) { _fun0012_ip = 70; continue _fun0012 }
-case 71:
-                    if(var2) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
-                    var10 = false;
-                    return var10;
-case 72:
-                    var11 = var11 + 1;
-                    var10 = var13.entries;
-                    var10 = var10.length;
-                    var4 = var14;
-                    if(var11 < var10) { _fun0012_ip = 65; continue _fun0012 }
+                    var17 = var10;
+                    if(!(!(var17 > var8))) { _fun0012_ip = 11; continue _fun0012 }
 case 64:
-                    var5 = var5 - 1;
-                    if(var5 >= var3) { _fun0012_ip = 19; continue _fun0012 }
+                    var2 = var18.entries;
+                    var17 = var2.length;
+case 11:
+                    var2 = var18.entries;
+                    var2 = var2.length;
+                    var2 = var8 < var2;
+                    var16 = var8 === var9;
+                    var15 = 0;
+                    if(!var2) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
+                    var20 = var7.Math;
+                    var19 = var20.min;
+                    var14 = var15 + var17;
+                    var2 = var18.entries;
+                    var2 = var2.length;
+                    var21 = var19.bind(var20)(var14, var2);
+                    var14 = var18.entries;
+                    var2 = var14.slice;
+                    var20 = var2.bind(var14)(var15, var21);
+                    var14 = var15;
+                    var19 = var16;
+                    if(!var19) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
+                    var2 = var18.entries;
+                    var2 = var2.length;
+                    var19 = var21 === var2;
+case 68:
+                    var22 = var11.exportEntries;
+                    var2 = var12;
+                    if(!var2) { _fun0012_ip = 70; continue _fun0012 }
+case 71:
+                    var2 = var19;
+case 70:
+                    var2 = var22.bind(var11)(var20, var2);
+                    SaveGenerator(address=215);
+case 72:
+                    return var2;
+case 32:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=21);
+                    if(var22) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
+                    if(var2) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
+                    var22 = false;
+                    return var22;
+case 75:
+                    var15 = var14 + var17;
+                    var14 = var18.entries;
+                    var14 = var14.length;
+                    var5 = var21;
+                    var4 = var20;
+                    var3 = var19;
+                    if(var15 < var14) { _fun0012_ip = 67; continue _fun0012 }
+case 66:
+                    var9 = var9 - 1;
+                    if(var9 >= var8) { _fun0012_ip = 34; continue _fun0012 }
 case 63:
                     var3 = true;
                     return var3;
-case 70:
+case 73:
                     return var2;
 case 62:
                     return var1;
@@ -731,7 +763,7 @@ case 62:
             return var1;
         };
         var5['value'] = var6;
-        var1[12] = var5;
+        var1[13] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -454,8 +454,8 @@ case 40:
     var4[var9] = var8;
     var _closure1_slot0 = var4;
     var4 = {};
-    var8 = var7.TOUCH_EVENT;
-    var7 = function(arg1) {
+    var9 = var7.TOUCH_EVENT;
+    var8 = function(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
@@ -521,6 +521,129 @@ case 46:
             return var1;
         }
     };
+    var4[var9] = var8;
+    var9 = var7.HTTP_REQUEST;
+    var8 = function(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.data;
+            var2 = null;
+            var4 = var2 == var3;
+            var1 = null;
+            if(var4) { _fun0013_ip = 48; continue _fun0013 }
+case 5:
+            var5 = _closure1_slot3;
+            var4 = var3.url;
+            var7 = undefined;
+            var5 = var5.bind(var7)(var4);
+            if(!(var2 == var5)) { _fun0013_ip = 49; continue _fun0013 }
+case 50:
+            var8 = _closure1_slot3;
+            var4 = var3.uri;
+            var5 = var8.bind(var7)(var4);
+case 49:
+            if(!(var2 == var5)) { _fun0013_ip = 51; continue _fun0013 }
+case 15:
+            var8 = _closure1_slot3;
+            var4 = var3.request_url;
+            var5 = var8.bind(var7)(var4);
+case 51:
+            var8 = _closure1_slot3;
+            var4 = var3.method;
+            var4 = var8.bind(var7)(var4);
+            if(!(var2 == var4)) { _fun0013_ip = 52; continue _fun0013 }
+case 53:
+            var6 = _closure1_slot3;
+            var3 = var3.http_method;
+            var4 = var6.bind(var7)(var3);
+case 52:
+            var3 = var2 == var5;
+            var2 = null;
+            if(var3) { _fun0013_ip = 54; continue _fun0013 }
+case 55:
+            var3 = {};
+            var3['url'] = var5;
+            var3['method'] = var4;
+            var2 = var3;
+case 54:
+            var1 = var2;
+case 48:
+            return var1;
+        }
+    };
+    var4[var9] = var8;
+    var8 = var7.WEBSOCKET_MESSAGE_RECEIVED;
+    var7 = function(arg1) {
+        var3 = function buildWebsocketMessageProps(arg1) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                var1 = arg1;
+                var4 = var1.data;
+                var1 = null;
+                if(!(var1 != var4)) { _fun0014_ip = 56; continue _fun0014 }
+case 7:
+                var7 = _closure1_slot3;
+                var2 = var4.category;
+                var5 = undefined;
+                var8 = var7.bind(var5)(var2);
+                var2 = var4.type;
+                var6 = var7.bind(var5)(var2);
+                var2 = var4.name;
+                var3 = var7.bind(var5)(var2);
+                var2 = var4.message_identity;
+                var2 = var7.bind(var5)(var2);
+                var4 = var4.socket_kind;
+                var4 = var7.bind(var5)(var4);
+                if(!(var1 == var8)) { _fun0014_ip = 57; continue _fun0014 }
+case 9:
+                if(!(var1 == var6)) { _fun0014_ip = 57; continue _fun0014 }
+case 20:
+                var7 = var1 != var3;
+                var5 = null;
+                if(!var7) { _fun0014_ip = 58; continue _fun0014 }
+case 57:
+                var7 = new Array(3);
+                var7[0] = var8;
+                var7[1] = var6;
+                var7[2] = var3;
+                var6 = var7.filter;
+                var3 = function(arg1) {
+                    var2 = null;
+                    var1 = arg1;
+                    var1 = var2 != var1;
+                    return var1;
+                };
+                var7 = var6.bind(var7)(var3);
+                var6 = var7.join;
+                var3 = '/';
+                var5 = var6.bind(var7)(var3);
+case 58:
+                if(!(var1 != var2)) { _fun0014_ip = 37; continue _fun0014 }
+case 59:
+                var5 = var2;
+case 37:
+                if(!(var1 == var5)) { _fun0014_ip = 60; continue _fun0014 }
+case 61:
+                var3 = var1 == var4;
+                var2 = null;
+                if(var3) { _fun0014_ip = 62; continue _fun0014 }
+case 60:
+                var3 = {};
+                var3['message_identity'] = var5;
+                var3['socket_kind'] = var4;
+                var2 = var3;
+case 62:
+                return var2;
+case 56:
+                return var1;
+            }
+        };
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
+    };
     var4[var8] = var7;
     var _closure1_slot1 = var4;
     var4 = 1;
@@ -530,49 +653,49 @@ case 46:
     var4 = 'modules/telemetry_ring/channels/ZoomedInAnalyticBuilder.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function buildZoomedInAnalyticsEvent(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var3 = arg1;
             var4 = var3.key;
             var2 = _closure1_slot0;
             var2 = var4 in var2;
             var4 = var3.key;
-            if(var2) { _fun0013_ip = 48; continue _fun0013 }
+            if(var2) { _fun0015_ip = 63; continue _fun0015 }
 case 22:
             var2 = _closure1_slot1;
             var2 = var4 in var2;
-            if(var2) { _fun0013_ip = 49; continue _fun0013 }
-case 50:
+            if(var2) { _fun0015_ip = 50; continue _fun0015 }
+case 64:
             var2 = null;
             return var2;
-case 49:
+case 50:
             var7 = var3.key;
             var5 = _closure1_slot1;
             var2 = var5[var7];
             var6 = var2.bind(var5)(var3);
             var2 = null;
             var5 = var2 == var6;
-            if(var5) { _fun0013_ip = 51; continue _fun0013 }
+            if(var5) { _fun0015_ip = 65; continue _fun0015 }
 case 10:
             var5 = {};
             var5['key'] = var7;
             var5['props'] = var6;
             var2 = var5;
-case 51:
+case 65:
             return var2;
-case 48:
+case 63:
             var2 = _closure1_slot0;
             var1 = var2[var4];
             var3 = var1.bind(var2)(var3);
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0013_ip = 52; continue _fun0013 }
-case 53:
+            if(var2) { _fun0015_ip = 66; continue _fun0015 }
+case 67:
             var2 = {};
             var2['key'] = var4;
             var2['props'] = var3;
             var1 = var2;
-case 52:
+case 66:
             return var1;
         }
     };
