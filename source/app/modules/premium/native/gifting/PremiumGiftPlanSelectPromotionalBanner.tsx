@@ -90,49 +90,51 @@ case 0:
             var1 = var2.giftPlanSelectionCardBannerComponent;
             var22 = var2.claimableRewards;
             var14 = var2.isSelected;
+            var5 = var2.onLayout;
             var2 = _closure1_slot7;
             var4 = undefined;
             var13 = var2.bind(var4)();
-            var7 = var1.gradient;
+            var8 = var1.gradient;
             var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var2 = 6;
-            var6 = var5[var2];
-            var9 = var3.bind(var4)(var6);
-            var8 = var9.useThemeAndReducedMotionAwareAssetUrl;
-            var6 = var1.mobileBannerAsset;
-            var15 = var8.bind(var9)(var6);
-            var2 = var5[var2];
-            var6 = var3.bind(var4)(var2);
-            var3 = var6.useThemeAndReducedMotionAwareAssetUrl;
+            var7 = var6[var2];
+            var11 = var3.bind(var4)(var7);
+            var9 = var11.useThemeAndReducedMotionAwareAssetUrl;
+            var7 = var1.mobileBannerAsset;
+            var15 = var9.bind(var11)(var7);
+            var2 = var6[var2];
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.useThemeAndReducedMotionAwareAssetUrl;
             var2 = var1.avatarAsset;
             var1 = true;
-            var12 = var3.bind(var6)(var2, var1);
+            var12 = var3.bind(var7)(var2, var1);
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var1 = 7;
-            var1 = var5[var1];
+            var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var5 = var13.gradient;
-            var1['style'] = var5;
-            var5 = _closure1_slot4;
-            var6 = var5.START;
-            var1['start'] = var6;
-            var5 = var5.END;
-            var1['end'] = var5;
+            var6 = var13.gradient;
+            var1['style'] = var6;
+            var6 = _closure1_slot4;
+            var7 = var6.START;
+            var1['start'] = var7;
+            var6 = var6.END;
+            var1['end'] = var6;
             var6 = null;
-            var8 = var6 == var7;
-            var5 = undefined;
-            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+            var9 = var6 == var8;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var7.colors;
+            var7 = var8.colors;
 case 2:
-            if(!(var6 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var6 == var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var5 = new Array(0);
+            var7 = new Array(0);
 case 4:
-            var1['colors'] = var5;
+            var1['colors'] = var7;
+            var1['onLayout'] = var5;
             var7 = var6 != var15;
             if(!var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

@@ -220,6 +220,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_COACHMARK_NEW_PERK_AVAILABLE'] = var1;
     var1 = 'guild powerups - coachmark - game server hosting available';
     var2['GUILD_POWERUPS_COACHMARK_GAME_SERVER_HOSTING_AVAILABLE'] = var1;
+    var1 = 'guild powerups - coachmark - game server new games';
+    var2['GUILD_POWERUPS_COACHMARK_GAME_SERVER_NEW_GAMES'] = var1;
     var1 = 'guild powerups - marketing';
     var2['GUILD_POWERUPS_MARKETING'] = var1;
     var1 = 'guild boosting premium upsell';
@@ -424,6 +426,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_MARKETING_FOOTER'] = var1;
     var1 = 'premium marketing gift section';
     var2['PREMIUM_MARKETING_GIFT_SECTION'] = var1;
+    var1 = 'premium marketing nitro home orbs section';
+    var2['PREMIUM_MARKETING_NITRO_HOME_ORBS_SECTION'] = var1;
     var1 = 'premium marketing tenure rewards section';
     var2['PREMIUM_MARKETING_TENURE_REWARDS_SECTION'] = var1;
     var1 = 'premium marketing reverse trial banner';

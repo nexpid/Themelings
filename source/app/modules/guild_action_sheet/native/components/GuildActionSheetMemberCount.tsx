@@ -156,9 +156,7 @@ case 7:
             var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {};
-            var12 = 'text-xs/medium';
-            var6['variant'] = var12;
+            var6 = {'variant': 'text-xs/medium', 'color': null, 'lineClamp': 1};
             var12 = var10 != var11;
             var10 = 'text-default';
             if(!var12) { _fun0001_ip = 11; continue _fun0001 }

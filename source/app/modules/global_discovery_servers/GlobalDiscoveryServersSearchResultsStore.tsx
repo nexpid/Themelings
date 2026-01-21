@@ -260,7 +260,7 @@ case 0:
                 var7 = var7.bind(var8)();
                 var3['lastFetchTimestamp'] = var7;
                 if(!(var5 != var2)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+case 6:
                 var3['total'] = var2;
 case 10:
                 var10 = var3.guildIds;
@@ -312,14 +312,14 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+                if(var1) { _fun0005_ip = 11; continue _fun0005 }
+case 12:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0005_ip = 14; continue _fun0005;
-case 12:
+                _fun0005_ip = 13; continue _fun0005;
+case 11:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -328,7 +328,7 @@ case 12:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 14:
+case 13:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -486,11 +486,11 @@ case 0:
                     var1 = null;
                     var2 = var1 == var3;
                     var1 = undefined;
-                    if(var2) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                    if(var2) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
                     var2 = var3.getAnyErrorMessage;
                     var1 = var2.bind(var3)();
-case 15:
+case 14:
                     return var1;
                 }
             };
@@ -535,12 +535,12 @@ case 0:
             var7['languageCode'] = var4;
             var1 = undefined;
             var8 = var8.bind(var1)(var7);
-            if(!var3) { _fun0007_ip = 17; continue _fun0007 }
-case 18:
+            if(!var3) { _fun0007_ip = 16; continue _fun0007 }
+case 17:
             var7 = _closure1_slot10;
             var3 = var7.delete;
             var3 = var3.bind(var7)(var8);
-case 17:
+case 16:
             var3 = _closure1_slot15;
             var2 = {};
             var2['query'] = var6;
@@ -623,19 +623,19 @@ case 0:
                 var1 = arg1;
                 var3 = var1.query;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
+                if(!(var2 != var3)) { _fun0008_ip = 17; continue _fun0008 }
+case 18:
                 var3 = _closure2_slot0;
                 var2 = var3.has;
                 var1 = var1.query;
                 var1 = var2.bind(var3)(var1);
-                if(var1) { _fun0008_ip = 18; continue _fun0008 }
-case 20:
+                if(var1) { _fun0008_ip = 17; continue _fun0008 }
+case 19:
                 var3 = _closure1_slot10;
                 var2 = var3.delete;
                 var1 = arg2;
                 var1 = var2.bind(var3)(var1);
-case 18:
+case 17:
                 var1 = undefined;
                 return var1;
             }
@@ -655,7 +655,7 @@ case 0:
             var2 = var3.get;
             var5 = var2.bind(var3)(var4);
             var7 = null;
-            if(!(var7 != var5)) { _fun0009_ip = 21; continue _fun0009 }
+            if(!(var7 != var5)) { _fun0009_ip = 20; continue _fun0009 }
 case 7:
             var3 = _closure1_slot11;
             var2 = var3.set;
@@ -665,22 +665,22 @@ case 7:
             var8 = copyDataProperties(var11, var10);
             var9 = var6.memberCount;
             if(!(var7 == var9)) { _fun0009_ip = 5; continue _fun0009 }
-case 22:
+case 21:
             var9 = var5.memberCount;
 case 5:
             var8 = 'memberCount';
             var1[var8] = var9;
             var6 = var6.onlineCount;
-            if(!(var7 == var6)) { _fun0009_ip = 23; continue _fun0009 }
-case 24:
-            var6 = var5.presenceCount;
+            if(!(var7 == var6)) { _fun0009_ip = 22; continue _fun0009 }
 case 23:
+            var6 = var5.presenceCount;
+case 22:
             var5 = 'presenceCount';
             var1[var5] = var6;
             var1 = var2.bind(var3)(var4, var1);
             var1 = undefined;
             return var1;
-case 21:
+case 20:
             var1 = false;
             return var1;
         }

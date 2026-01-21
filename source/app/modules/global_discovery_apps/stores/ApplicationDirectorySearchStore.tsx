@@ -62,7 +62,7 @@ case 0:
             var13 = var1.source;
             var3 = undefined;
             if(!(var13 === var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 3:
+case 7:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 5;
@@ -175,14 +175,14 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 9; continue _fun0003;
-case 7:
+                _fun0003_ip = 10; continue _fun0003;
+case 8:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -191,7 +191,7 @@ case 7:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 9:
+case 10:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }

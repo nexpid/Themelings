@@ -166,17 +166,18 @@ case 21:
 case 20:
                         if(!var2) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-                        var8 = _closure2_slot0;
-                        var7 = var8.trackExperimentExposure;
-                        var14 = _closure3_slot2;
-                        var13 = _closure2_slot2;
+                        var9 = _closure2_slot0;
+                        var8 = var9.trackExperimentExposure;
+                        var16 = _closure3_slot2;
+                        var15 = _closure2_slot2;
                         var3 = _closure3_slot0;
-                        var12 = var3.location;
-                        var11 = _closure2_slot3;
-                        var10 = _closure3_slot4;
-                        var9 = _closure3_slot3;
-                        var15 = var8;
-                        var1 = var15[var7](var14, var13, var12, var11, var10, var9, var8);
+                        var14 = var3.location;
+                        var13 = _closure2_slot3;
+                        var12 = _closure3_slot4;
+                        var11 = _closure3_slot3;
+                        var10 = _closure3_slot1;
+                        var17 = var9;
+                        var1 = var17[var8](var16, var15, var14, var13, var12, var11, var10, var9);
 case 22:
                         var1 = undefined;
                         return var1;
@@ -203,13 +204,13 @@ case 24:
 case 0:
                 var2 = arg1;
                 var3 = _closure2_slot1;
-                var8 = _closure2_slot3;
+                var6 = _closure2_slot3;
                 var7 = undefined;
-                var6 = var3.bind(var7)(var8, var2);
+                var12 = var3.bind(var7)(var6, var2);
                 var5 = _closure2_slot0;
                 var4 = var5.getEvaluationAndAssignment;
                 var3 = _closure2_slot2;
-                var5 = var4.bind(var5)(var8, var6, var3);
+                var5 = var4.bind(var5)(var6, var12, var3);
                 var4 = _closure1_slot2;
                 var3 = 2;
                 var4 = var4.bind(var7)(var5, var3);
@@ -276,14 +277,15 @@ case 45:
 case 48:
                 var8 = _closure2_slot0;
                 var7 = var8.trackExperimentExposure;
-                var16 = _closure2_slot2;
-                var15 = var2.location;
-                var14 = _closure2_slot3;
-                var18 = var8;
-                var17 = var11;
-                var13 = var9;
-                var12 = var10;
-                var2 = var18[var7](var17, var16, var15, var14, var13, var12, var11);
+                var18 = _closure2_slot2;
+                var17 = var2.location;
+                var16 = _closure2_slot3;
+                var20 = var8;
+                var19 = var11;
+                var15 = var9;
+                var14 = var10;
+                var13 = var12;
+                var2 = var20[var7](var19, var18, var17, var16, var15, var14, var13, var12);
 case 47:
                 if(!(var3 != var4)) { _fun0003_ip = 49; continue _fun0003 }
 case 50:

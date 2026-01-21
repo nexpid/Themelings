@@ -1,4 +1,4 @@
-// discord_assets/assets/virtual_currency/images/native/onboarding_coachmark_art_static.png.js
+// discord_assets/assets/mana/asset-library/generated/ExperimentalCustomUrlAbstractUI-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/virtual_currency/images/native/onboarding_coachmark_art_static.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/generated/ExperimentalCustomUrlAbstractUI-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/2ad53b431f01193ecc0ff8c71ab888b29e0c54e8a49a1655f55328845f53b74e.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/5b1e5c0a0d7abc4a9484908909a9ed35572e17666d96c43b869ca4a8367f0366.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 21941;
+    var4 = 6957;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

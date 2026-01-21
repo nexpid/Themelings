@@ -13,7 +13,7 @@ case 0:
             var5 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var7 = 19;
+            var7 = 18;
             var1 = var1[var7];
             var6 = undefined;
             var2 = var2.bind(var6)(var1);
@@ -59,7 +59,7 @@ case 2:
         var6 = var1 != var2;
         var3 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var1 = 20;
+        var1 = 19;
         var2 = var10[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -68,7 +68,7 @@ case 2:
         var3 = var2.MAIN_VIEW_ACTION_SHEET_SELECTED;
         var2 = {};
         var9 = _closure1_slot0;
-        var11 = 18;
+        var11 = 17;
         var11 = var10[var11];
         var11 = var9.bind(var1)(var11);
         var12 = var11.DismissibleContent;
@@ -79,7 +79,7 @@ case 2:
         var8 = var7.id;
         var8 = var11.bind(var1)(var8);
         var2['dc_type'] = var8;
-        var8 = 21;
+        var8 = 20;
         var8 = var10[var8];
         var8 = var9.bind(var1)(var8);
         var9 = var8.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
@@ -144,7 +144,7 @@ case 2:
         return var1;
     };
     var4 = {};
-    var11 = 18;
+    var11 = 17;
     var6 = var8[var11];
     var6 = var7.bind(var1)(var6);
     var6 = var6.DismissibleContent;
@@ -179,7 +179,7 @@ case 2:
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
-        var2 = 15;
+        var2 = 14;
         var2 = var1[var2];
         var1 = var1.paths;
         var1 = var3.bind(var4)(var2, var1);
@@ -229,7 +229,7 @@ case 2:
     };
     var4['importer'] = var13;
     var6[3] = var4;
-    var4 = new Array(9);
+    var4 = new Array(8);
     var16 = var4;
     var15 = var6;
     var14 = 0;
@@ -344,28 +344,6 @@ case 2:
     var12 = var8[var11];
     var12 = var7.bind(var1)(var12);
     var12 = var12.DismissibleContent;
-    var12 = var12.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
-    var9['id'] = var12;
-    var12 = function importer() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 6;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 14;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var9['importer'] = var12;
-    var4[var6] = var9;
-    var6 = var6 + var10;
-    var9 = {};
-    var12 = var8[var11];
-    var12 = var7.bind(var1)(var12);
-    var12 = var12.DismissibleContent;
     var12 = var12.DISPLAY_NAME_STYLES_MOBILE_ANNOUNCEMENT_MODAL;
     var9['id'] = var12;
     var12 = function importer() {
@@ -375,7 +353,7 @@ case 2:
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
-        var2 = 16;
+        var2 = 15;
         var2 = var1[var2];
         var1 = var1.paths;
         var1 = var3.bind(var4)(var2, var1);
@@ -396,7 +374,7 @@ case 2:
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
-        var2 = 17;
+        var2 = 16;
         var2 = var1[var2];
         var1 = var1.paths;
         var1 = var3.bind(var4)(var2, var1);
@@ -406,7 +384,7 @@ case 2:
     var6 = var6 + var10;
     var4[var6] = var9;
     var _closure1_slot9 = var4;
-    var6 = 27;
+    var6 = 26;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -417,7 +395,7 @@ case 2:
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 24;
+            var1 = 23;
             var1 = var3[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -455,7 +433,7 @@ case 11:
 case 13:
                             var10 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var3 = 19;
+                            var3 = 18;
                             var4 = var4[var3];
                             var10 = var10.bind(var9)(var4);
                             var4 = var10.isSnowflakeBoundDismissibleContent;
@@ -480,7 +458,7 @@ case 17:
 case 19:
                             var4 = _closure1_slot0;
                             var12 = _closure1_slot2;
-                            var3 = 22;
+                            var3 = 21;
                             var3 = var12[var3];
                             var4 = var4.bind(var9)(var3);
                             var3 = var4.UNSAFE_isDismissibleContentDismissed;
@@ -493,7 +471,7 @@ case 18:
 case 22:
                             var13 = _closure1_slot0;
                             var14 = _closure1_slot2;
-                            var12 = 23;
+                            var12 = 22;
                             var12 = var14[var12];
                             var14 = var13.bind(var9)(var12);
                             var13 = var14.isTimeRecurringDismissibleContentDismissed;
@@ -505,7 +483,7 @@ case 21:
 case 20:
                             _fun0004_ip = 23; continue _fun0004;
 case 16:
-                            var4 = 23;
+                            var4 = 22;
                             var4 = var11[var4];
                             var11 = var10.bind(var9)(var4);
                             var10 = var11.isVersionedDismissibleContentDismissed;
@@ -521,7 +499,7 @@ case 14:
 case 26:
                             var7 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var6 = 22;
+                            var6 = 21;
                             var6 = var10[var6];
                             var7 = var7.bind(var9)(var6);
                             var6 = var7.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
@@ -600,7 +578,7 @@ case 39:
             var4 = _closure1_slot8;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 25;
+            var2 = 24;
             var2 = var10[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -625,7 +603,7 @@ case 42:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -653,7 +631,7 @@ case 37:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 25;
+            var2 = 24;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedTimeRecurringDismissibleContent;
@@ -681,7 +659,7 @@ case 42:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -709,7 +687,7 @@ case 12:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 25;
+            var2 = 24;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedVersionedDismissibleContent;
@@ -741,7 +719,7 @@ case 42:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -771,7 +749,7 @@ case 34:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 25;
+            var2 = 24;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.SelectedSnowflakeBoundDismissibleContent;
@@ -803,7 +781,7 @@ case 42:
                     var5 = _closure1_slot8;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);

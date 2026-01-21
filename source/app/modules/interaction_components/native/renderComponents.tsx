@@ -112,7 +112,70 @@ case 16:
             var1 = var1.FILE_UPLOAD;
             if(!(var1 !== var2)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ComponentType;
+            var1 = var1.RADIO_GROUP;
+            if(!(var1 !== var2)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ComponentType;
+            var1 = var1.CHECKBOX_GROUP;
+            if(!(var1 !== var2)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ComponentType;
+            var1 = var1.CHECKBOX;
+            if(!(var1 !== var2)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             return var4;
+case 23:
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 12;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var12 = var1;
+            var11 = var7;
+            var8 = copyDataProperties(var12, var11);
+            var1 = var3.bind(var4)(var2, var1, var5);
+            return var1;
+case 21:
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 11;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var12 = var1;
+            var11 = var7;
+            var8 = copyDataProperties(var12, var11);
+            var1 = var3.bind(var4)(var2, var1, var5);
+            return var1;
+case 19:
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var12 = var1;
+            var11 = var7;
+            var8 = copyDataProperties(var12, var11);
+            var1 = var3.bind(var4)(var2, var1, var5);
+            return var1;
 case 17:
             var3 = _closure1_slot3;
             var2 = _closure1_slot1;
@@ -231,7 +294,7 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 10;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

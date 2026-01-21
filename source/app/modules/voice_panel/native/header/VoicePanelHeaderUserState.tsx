@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -200,10 +200,10 @@ case 0:
             var7 = null;
             var7 = var7 == var2;
             var8 = undefined;
-            if(var7) { _fun0004_ip = 36; continue _fun0004 }
-case 4:
-            var8 = var2.type;
+            if(var7) { _fun0004_ip = 7; continue _fun0004 }
 case 36:
+            var8 = var2.type;
+case 7:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var7 = 8;
@@ -213,7 +213,7 @@ case 36:
             var10 = var7.bind(var10)(var2);
             var7 = undefined;
             if(!var10) { _fun0004_ip = 37; continue _fun0004 }
-case 11:
+case 38:
             var2 = var2.user;
             var7 = var2.id;
 case 37:
@@ -227,8 +227,8 @@ case 37:
             var9 = 4;
             var8 = 'dark';
             var7 = 'video';
-            if(var2) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+            if(var2) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var20 = var3.value;
             var14 = var20.type;
             var15 = _closure1_slot0;
@@ -237,8 +237,8 @@ case 39:
             var2 = var15.bind(var4)(var2);
             var2 = var2.VoicePanelCardUserStateIconType;
             var2 = var2.USER_VIDEO_ICON;
-            if(!(var14 === var2)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(!(var14 === var2)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var14 = var5.push;
             var16 = _closure1_slot5;
             var18 = _closure1_slot0;
@@ -263,7 +263,7 @@ case 41:
             var2['children'] = var17;
             var2 = var16.bind(var4)(var15, var2, var7);
             var2 = var14.bind(var5)(var2);
-case 40:
+case 41:
             var14 = var20.type;
             var15 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -271,8 +271,8 @@ case 40:
             var2 = var15.bind(var4)(var2);
             var2 = var2.VoicePanelCardUserStateIconType;
             var2 = var2.MUTE_DEAFEN_ICON;
-            if(!(var14 === var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(!(var14 === var2)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var14 = var5.push;
             var16 = _closure1_slot5;
             var15 = _closure1_slot0;
@@ -287,10 +287,10 @@ case 43:
             var17[0] = var18;
             var19 = var20.withLeftMargin;
             var18 = undefined;
-            if(!var19) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(!var19) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var18 = var6.leftMargin;
-case 44:
+case 45:
             var17[1] = var18;
             var2['style'] = var17;
             var19 = _closure1_slot5;
@@ -308,18 +308,18 @@ case 44:
             var2['children'] = var17;
             var2 = var16.bind(var4)(var15, var2, var10);
             var2 = var14.bind(var5)(var2);
-case 42:
+case 43:
             var14 = var12.bind(var4)();
             var2 = var14.done;
             var3 = var14;
-            if(!var2) { _fun0004_ip = 39; continue _fun0004 }
-case 38:
+            if(!var2) { _fun0004_ip = 40; continue _fun0004 }
+case 39:
             var3 = var5.length;
             var2 = 0;
-            if(!(var2 === var3)) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(!(var2 === var3)) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
             return var4;
-case 46:
+case 47:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -455,10 +455,10 @@ case 0:
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                    if(var3) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                     var1 = var2.id;
-case 48:
+case 49:
                     return var1;
                 }
             };
@@ -489,7 +489,7 @@ case 0:
                     var6 = var3.bind(var6)();
                     var3 = 0;
                     if(!var6) { _fun0007_ip = 28; continue _fun0007 }
-case 50:
+case 51:
                     var3 = 1;
 case 28:
                     var2 = _closure1_slot7;
@@ -515,8 +515,8 @@ case 28:
             var8 = var3.bind(var4)(var1);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+            if(var3) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var4 = _closure1_slot5;
             var3 = _closure1_slot6;
             var2 = {'blurTheme': 'dark', 'style': null, 'pointerEvents': 'none'};
@@ -527,7 +527,7 @@ case 52:
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 51:
+case 52:
             return var1;
         }
     };

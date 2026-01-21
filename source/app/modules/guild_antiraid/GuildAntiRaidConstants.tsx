@@ -41,9 +41,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['NAGBAR_DISPLAY_MAX_HOURS'] = var5;
     var3['DEFAULT_LOCKDOWN_DURATION'] = var5;
     var4 = function() {
-        var2 = {};
+        var2 = {'id': '1', 'value': 1};
         var8 = 1;
-        var2['value'] = var8;
         var7 = _closure1_slot0;
         var3 = _closure1_slot1;
         var1 = var3[var8];
@@ -59,9 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['label'] = var1;
         var1 = new Array(6);
         var1[0] = var2;
-        var2 = {};
-        var4 = 2;
-        var2['value'] = var4;
+        var2 = {'id': '2', 'value': 2};
         var4 = var3[var8];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -73,9 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var9)(var4);
         var2['label'] = var4;
         var1[1] = var2;
-        var2 = {};
-        var4 = 4;
-        var2['value'] = var4;
+        var2 = {'id': '4', 'value': 4};
         var4 = var3[var8];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -87,9 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var9)(var4);
         var2['label'] = var4;
         var1[2] = var2;
-        var2 = {};
-        var4 = 6;
-        var2['value'] = var4;
+        var2 = {'id': '6', 'value': 6};
         var4 = var3[var8];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -101,9 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var9)(var4);
         var2['label'] = var4;
         var1[3] = var2;
-        var2 = {};
-        var4 = 12;
-        var2['value'] = var4;
+        var2 = {'id': '12', 'value': 12};
         var4 = var3[var8];
         var4 = var7.bind(var6)(var4);
         var9 = var4.intl;
@@ -115,9 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var9)(var4);
         var2['label'] = var4;
         var1[4] = var2;
-        var2 = {};
-        var4 = 24;
-        var2['value'] = var4;
+        var2 = {'id': '24', 'value': 24};
         var4 = var3[var8];
         var4 = var7.bind(var6)(var4);
         var5 = var4.intl;

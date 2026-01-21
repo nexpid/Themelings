@@ -273,7 +273,7 @@ case 0:
 case 14:
                 var3 = _closure1_slot10;
                 if(!(var4 === var3)) { _fun0005_ip = 13; continue _fun0005 }
-case 15:
+case 11:
                 var3 = global;
                 var3 = var3.window;
                 var3 = var3.popupBridge;
@@ -281,7 +281,7 @@ case 15:
                 var5 = 'function';
                 var3 = typeof var4;
                 if(!(var5 === var3)) { _fun0005_ip = 13; continue _fun0005 }
-case 8:
+case 15:
                 var3 = {};
                 var3['path'] = var2;
                 var3['queryItems'] = var1;

@@ -9,6 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var5 = function getAutoArchiveOptions() {
         var2 = {};
+        var1 = '1hour';
+        var2['id'] = var1;
         var10 = _closure1_slot0;
         var6 = _closure1_slot2;
         var7 = 2;
@@ -33,6 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = new Array(4);
         var1[0] = var2;
         var2 = {};
+        var8 = '24hours';
+        var2['id'] = var8;
         var8 = var6[var7];
         var8 = var10.bind(var5)(var8);
         var11 = var8.intl;
@@ -50,6 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var8;
         var1[1] = var2;
         var2 = {};
+        var8 = '3days';
+        var2['id'] = var8;
         var8 = var6[var7];
         var8 = var10.bind(var5)(var8);
         var11 = var8.intl;
@@ -69,6 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var8;
         var1[2] = var2;
         var2 = {};
+        var8 = '1week';
+        var2['id'] = var8;
         var8 = var6[var7];
         var8 = var10.bind(var5)(var8);
         var9 = var8.intl;

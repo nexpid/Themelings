@@ -84,6 +84,19 @@ case 5:
         }
     };
     var3['useNewPerkAvailableCoachmarkDCF'] = var4;
+    var4 = function useNewGamesCoachmarkDCF() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.useSelectedDismissibleContent;
+        var1 = new Array(0);
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['useNewGamesCoachmarkDCF'] = var4;
     var2 = function useGuildPowerupNotificationDCF(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:

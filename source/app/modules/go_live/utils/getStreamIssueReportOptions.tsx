@@ -31,6 +31,8 @@ case 0:
             var1 = arg1;
             var4 = var1.isEndStream;
             var2 = {};
+            var1 = 'black-screen';
+            var2['id'] = var1;
             var1 = _closure1_slot2;
             var1 = var1.BLACK_SCREEN;
             var2['value'] = var1;
@@ -58,6 +60,8 @@ case 4:
             var1 = new Array(9);
             var1[0] = var2;
             var2 = {};
+            var5 = 'blurry';
+            var2['id'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.BLURRY;
             var2['value'] = var5;
@@ -82,6 +86,8 @@ case 7:
             var2['label'] = var5;
             var1[1] = var2;
             var2 = {};
+            var5 = 'lagging';
+            var2['id'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.LAGGING;
             var2['value'] = var5;
@@ -106,6 +112,8 @@ case 10:
             var2['label'] = var5;
             var1[2] = var2;
             var2 = {};
+            var5 = 'out-of-sync';
+            var2['id'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.OUT_OF_SYNC;
             var2['value'] = var5;
@@ -130,6 +138,8 @@ case 13:
             var2['label'] = var5;
             var1[3] = var2;
             var2 = {};
+            var5 = 'audio-missing';
+            var2['id'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.AUDIO_MISSING;
             var2['value'] = var5;
@@ -154,6 +164,8 @@ case 16:
             var2['label'] = var5;
             var1[4] = var2;
             var2 = {};
+            var5 = 'audio-poor';
+            var2['id'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.AUDIO_POOR;
             var2['value'] = var5;
@@ -178,6 +190,8 @@ case 19:
             var2['label'] = var4;
             var1[5] = var2;
             var2 = {};
+            var4 = 'stream-stopped';
+            var2['id'] = var4;
             var4 = _closure1_slot2;
             var5 = var4.STREAM_STOPPED;
             var2['value'] = var5;
@@ -195,6 +209,8 @@ case 19:
             var2['label'] = var5;
             var1[6] = var2;
             var2 = {};
+            var5 = 'vibes-off';
+            var2['id'] = var5;
             var5 = var4.VIBES_OFF;
             var2['value'] = var5;
             var5 = var3[var8];
@@ -209,6 +225,8 @@ case 19:
             var2['label'] = var5;
             var1[7] = var2;
             var2 = {};
+            var5 = 'other';
+            var2['id'] = var5;
             var4 = var4.OTHER;
             var2['value'] = var4;
             var4 = var3[var8];

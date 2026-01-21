@@ -68,7 +68,6 @@ case 0:
             var2['color'] = var5;
             var2['textShadowColor'] = var7;
             var2['textShadowRadius'] = var6;
-            var5 = 0;
             var10 = {'width': 0, 'height': 0};
             var2['textShadowOffset'] = var10;
             var2['padding'] = var6;
@@ -127,7 +126,11 @@ case 6:
             var2['position'] = var7;
             var7 = -var12;
             var2['top'] = var7;
-            var2['left'] = var5;
+            var7 = -var12;
+            var2['left'] = var7;
+            var7 = -var12;
+            var2['right'] = var7;
+            var2['paddingHorizontal'] = var12;
             var11 = {};
             var13 = 1.2;
             var7 = arg2;

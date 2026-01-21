@@ -26,8 +26,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_GUILD_MEMBER_PROFILE'] = var1;
     var1 = 'profilePremiumFeatures';
     var2['PROFILE_PREMIUM_FEATURES'] = var1;
-    var1 = 'increasedRecentAvatarsLimit';
-    var2['INCREASED_RECENT_AVATARS_LIMIT'] = var1;
     var1 = 'streamMidQuality';
     var2['STREAM_MID_QUALITY'] = var1;
     var1 = 'streamHighQuality';

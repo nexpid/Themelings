@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -230,19 +230,19 @@ case 0:
             var11 = var13;
             var4 = null;
             for(var7 in var11)
-case 9:
+case 37:
             {
-case 36:
+case 11:
                 var18 = var7;
                 var16 = var13[var18];
-                if(var4 == var16) { _fun0004_ip = 9; continue _fun0004 }
-case 37:
+                if(var4 == var16) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var15 = var9.searchParams;
                 var14 = var15.set;
                 var14 = var14.bind(var15)(var18, var16);
-                _fun0004_ip = 9; continue _fun0004;
+                _fun0004_ip = 37; continue _fun0004;
             }
-case 38:
+case 39:
             var8 = var2.encodeURIComponent;
             var7 = var9.toString;
             var7 = var7.bind(var9)();
@@ -284,8 +284,8 @@ case 38:
             var7 = var8.bind(var3)(var7);
             var8 = var4 == var7;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(var8) { _fun0004_ip = 40; continue _fun0004 }
+case 8:
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var10];
@@ -293,11 +293,11 @@ case 40:
             var9 = var8.ua;
             var8 = var4 == var9;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 39; continue _fun0004 }
+            if(var8) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
             var8 = var9.match;
             var7 = var8.bind(var9)(var11);
-case 39:
+case 40:
             var8 = var4 != var7;
             var9 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -428,11 +428,11 @@ case 0:
             var11 = var12.startsWith;
             var5 = 'https://discordapp.onelink.me';
             var5 = var11.bind(var12)(var5);
-            if(var5) { _fun0005_ip = 2; continue _fun0005 }
-case 61:
+            if(var5) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
             var5 = null;
             return var5;
-case 2: // try_start_0
+case 61: // try_start_0
             var5 = global;
             var12 = var5.URL;
             var14 = var1;
@@ -448,8 +448,8 @@ case 2: // try_start_0
             var11 = var11.bind(var12)(var1);
             var7 = var11;
             var1 = null;
-            if(!(var1 != var11)) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+            if(!(var1 != var11)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
             var11 = var5.decodeURIComponent;
             var14 = var11.bind(var8)(var7);
             var5 = var5.URL;
@@ -467,10 +467,10 @@ case 63:
             var4 = {};
             var7 = var1 != var5;
             var5 = undefined;
-            if(!var7) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+            if(!var7) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
             var5 = var6;
-case 64:
+case 65:
             var4['utmSource'] = var5;
             var2 = var4;
             var4 = _closure1_slot6;
@@ -485,8 +485,8 @@ case 64:
             var6 = 2;
             var5 = 0;
             var4 = 1;
-            if(var3) { _fun0005_ip = 66; continue _fun0005 }
-case 67:
+            if(var3) { _fun0005_ip = 67; continue _fun0005 }
+case 68:
             var3 = var9;
             var11 = var3.value;
             var3 = _closure1_slot5;
@@ -499,12 +499,12 @@ case 67:
             var3 = var3.bind(var8)();
             var9 = var3;
             var3 = var3.done;
-            if(!var3) { _fun0005_ip = 67; continue _fun0005 }
-case 66: // try_end0
+            if(!var3) { _fun0005_ip = 68; continue _fun0005 }
+case 67: // try_end0
             return var2;
-case 62:
+case 63:
             return var1;
-case 68: // catch_target0
+case 69: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

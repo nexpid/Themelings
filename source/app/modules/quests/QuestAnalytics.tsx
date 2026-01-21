@@ -828,6 +828,8 @@ case 11:
     var6['GAME_STORE_OPEN_GAME_LINK'] = var11;
     var11 = 'MOBILE_ORBS_ONBOARDING_DC';
     var6['MOBILE_ORBS_ONBOARDING_DC'] = var11;
+    var11 = 'LAUNCH_MOBILE_ACTIVITY';
+    var6['LAUNCH_MOBILE_ACTIVITY'] = var11;
     var11 = 22;
     var11 = var13[var11];
     var13 = var12.bind(var1)(var11);

@@ -169,11 +169,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -219,29 +219,29 @@ case 0:
                 var7 = var4.bind(var1)(var6);
                 var6 = var7.bind(var1)();
                 var4 = var6.done;
-                if(var4) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                if(var4) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var9 = _closure1_slot2;
                 var4 = var6.value;
                 var4 = var4.stores;
                 var10 = var9.bind(var1)(var4);
                 var9 = var10.bind(var1)();
                 var4 = var9.done;
-                if(var4) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                if(var4) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var11 = var9.value;
                 var4 = var5.add;
                 var4 = var4.bind(var5)(var11);
                 var11 = var10.bind(var1)();
                 var4 = var11.done;
                 var9 = var11;
-                if(!var4) { _fun0004_ip = 39; continue _fun0004 }
-case 38:
+                if(!var4) { _fun0004_ip = 40; continue _fun0004 }
+case 39:
                 var9 = var7.bind(var1)();
                 var4 = var9.done;
                 var6 = var9;
-                if(!var4) { _fun0004_ip = 37; continue _fun0004 }
-case 36:
+                if(!var4) { _fun0004_ip = 38; continue _fun0004 }
+case 37:
                 var4 = var2.Array;
                 var2 = var4.from;
                 var2 = var2.bind(var4)(var5);
@@ -278,23 +278,23 @@ case 0:
                 };
                 var5 = var3.bind(var4)(var2);
                 var2 = -1;
-                if(!(var2 !== var5)) { _fun0005_ip = 20; continue _fun0005 }
-case 40:
+                if(!(var2 !== var5)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var1 = var1.modals;
                 var3 = var1[var5];
                 var1 = var3.getProps;
                 var4 = null;
                 var1 = var4 == var1;
                 var2 = undefined;
-                if(var1) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(var1) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var1 = var3.getProps;
                 var2 = var1.bind(var3)();
-case 41:
-                if(!(var4 == var2)) { _fun0005_ip = 43; continue _fun0005 }
-case 37:
-                var2 = {};
 case 43:
+                if(!(var4 == var2)) { _fun0005_ip = 9; continue _fun0005 }
+case 38:
+                var2 = {};
+case 9:
                 var1 = {};
                 var1['key'] = var5;
                 var5 = var3.getComponent;
@@ -303,29 +303,29 @@ case 43:
                 var1['props'] = var2;
                 var2 = var3.closable;
                 var2 = var4 == var2;
-                if(var2) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                if(var2) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var2 = var3.closable;
-case 44:
+case 45:
                 var1['closable'] = var2;
                 var2 = var3.backdropInstant;
                 var2 = var4 != var2;
-                if(!var2) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!var2) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var2 = var3.backdropInstant;
-case 46:
+case 47:
                 var1['backdropInstant'] = var2;
                 var2 = var3.backdropStyle;
                 var1['backdropStyle'] = var2;
                 var2 = var3.disableAnimation;
                 var2 = var4 != var2;
-                if(!var2) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+                if(!var2) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var2 = var3.disableAnimation;
-case 48:
+case 49:
                 var1['disableAnimation'] = var2;
                 return var1;
-case 20:
+case 41:
                 var1 = null;
                 return var1;
             }

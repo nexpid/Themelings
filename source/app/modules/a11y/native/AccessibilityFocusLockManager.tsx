@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -186,7 +186,7 @@ case 35:
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-case 36: // try_start_0
+case 37: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -205,10 +205,10 @@ case 36: // try_start_0
             var2 = !var2;
             var _closure2_slot0 = var2;
 case 35: // try_end0
-            _fun0004_ip = 37; continue _fun0004;
-case 38: // catch_target0
+            _fun0004_ip = 38; continue _fun0004;
+case 39: // catch_target0
             CatchBlockStart(arg_register=1);
-case 37:
+case 38:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -290,12 +290,12 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                if(var1) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
-                _fun0005_ip = 41; continue _fun0005;
-case 39:
+                _fun0005_ip = 42; continue _fun0005;
+case 40:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;
@@ -303,7 +303,7 @@ case 39:
                 var5 = var5.bind(var3)(var4);
                 var5 = var5.constructor;
                 var1 = var6.bind(var7)(var8, var9, var5);
-case 41:
+case 42:
                 var1 = var2.bind(var3)(var4, var1);
                 var2 = false;
                 var1['_screenReaderEnabled'] = var2;
@@ -338,10 +338,10 @@ case 0:
                 var4 = arguments[0];
                 var3 = this;
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0006_ip = 42; continue _fun0006 }
+                if(!(var4 === var1)) { _fun0006_ip = 43; continue _fun0006 }
 case 32:
                 var4 = false;
-case 42:
+case 43:
                 var _closure3_slot0 = var4;
                 var _closure3_slot1 = var1;
                 var4 = global;
@@ -358,25 +358,25 @@ case 42:
                 var6 = var7.done;
                 var8 = var7;
                 var7 = undefined;
-                if(var6) { _fun0006_ip = 41; continue _fun0006 }
-case 43:
+                if(var6) { _fun0006_ip = 42; continue _fun0006 }
+case 44:
                 var10 = var8.value;
                 _closure3_slot1 = var10;
                 var11 = var9.bind(var1)();
                 var6 = var11.done;
                 var8 = var11;
                 var7 = var10;
-                if(!var6) { _fun0006_ip = 43; continue _fun0006 }
-case 41:
+                if(!var6) { _fun0006_ip = 44; continue _fun0006 }
+case 42:
                 var6 = null;
-                if(!(var6 != var7)) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                if(!(var6 != var7)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
                 var6 = var3._screenReaderEnabled;
-                if(var6) { _fun0006_ip = 46; continue _fun0006 }
-case 44:
+                if(var6) { _fun0006_ip = 47; continue _fun0006 }
+case 45:
                 var6 = var3._focusLockEnabled;
-                if(!var6) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                if(!var6) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var6 = 7;
@@ -384,14 +384,14 @@ case 48:
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.isAndroid;
                 var6 = var6.bind(var7)();
-                if(var6) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+                if(var6) { _fun0006_ip = 50; continue _fun0006 }
+case 16:
                 var6 = _closure1_slot8;
                 var7 = var6.DCDAccessibilityManager;
                 var6 = var7.disableFocusLock;
                 var6 = var6.bind(var7)();
                 _fun0006_ip = 51; continue _fun0006;
-case 49:
+case 50:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 8;
@@ -402,8 +402,8 @@ case 49:
 case 51:
                 var5 = false;
                 var3['_focusLockEnabled'] = var5;
-                _fun0006_ip = 47; continue _fun0006;
-case 46:
+                _fun0006_ip = 48; continue _fun0006;
+case 47:
                 var5 = var4.setTimeout;
                 var4 = var3._focusLockEnabledDelayTimeout;
                 var2 = function() {
@@ -444,7 +444,7 @@ case 54:
                 var3['_focusLockEnabledDelayTimeoutId'] = var2;
                 var2 = true;
                 var3['_focusLockEnabled'] = var2;
-case 47:
+case 48:
                 return var1;
             }
         };

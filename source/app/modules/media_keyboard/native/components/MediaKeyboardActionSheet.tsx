@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
-    var4 = 12;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,10 +44,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MediaKeyboardActionSheet(arg1) {
         var1 = arg1;
-        var21 = var1.title;
-        var _closure2_slot0 = var21;
-        var18 = var1.subtitle;
-        var _closure2_slot1 = var18;
+        var23 = var1.title;
+        var _closure2_slot0 = var23;
+        var21 = var1.subtitle;
+        var _closure2_slot1 = var21;
         var16 = var1.channel;
         var _closure2_slot2 = var16;
         var15 = var1.draftType;
@@ -60,42 +60,102 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot6 = var9;
         var14 = var1.onPressCamera;
         var13 = var1.onAttachPress;
+        var _closure2_slot7 = var13;
         var12 = var1.onPressItem;
         var11 = var1.onLongPressItem;
         var10 = var1.onViewAll;
-        var _closure2_slot7 = var10;
+        var _closure2_slot8 = var10;
         var6 = var1.onClose;
-        var _closure2_slot8 = var6;
-        var23 = var1.onBack;
-        var _closure2_slot9 = var23;
+        var _closure2_slot9 = var6;
+        var24 = var1.onBack;
+        var _closure2_slot10 = var24;
         var2 = _closure1_slot0;
         var17 = _closure1_slot2;
         var4 = 4;
         var5 = var17[var4];
         var4 = undefined;
-        var20 = var2.bind(var4)(var5);
-        var19 = var20.useSharedValue;
+        var19 = var2.bind(var4)(var5);
+        var18 = var19.useSharedValue;
         var5 = -1;
-        var5 = var19.bind(var20)(var5);
-        var _closure2_slot10 = var5;
+        var5 = var18.bind(var19)(var5);
+        var _closure2_slot11 = var5;
         var22 = _closure1_slot3;
+        var20 = var22.useMemo;
+        var19 = new Array(1);
+        var19[0] = var13;
+        var18 = function() {
+            var2 = {};
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 5;
+            var1 = var6[var3];
+            var4 = undefined;
+            var1 = var5.bind(var4)(var1);
+            var8 = var1.intl;
+            var7 = var8.string;
+            var1 = var6[var3];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.RgIi2B;
+            var1 = var7.bind(var8)(var1);
+            var2['text'] = var1;
+            var1 = 6;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.PollsIcon;
+            var2['IconComponent'] = var1;
+            var1 = function onPress() {
+                var1 = undefined;
+                return var1;
+            };
+            var2['onPress'] = var1;
+            var1 = true;
+            var2['disabled'] = var1;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var2 = {};
+            var7 = var6[var3];
+            var7 = var5.bind(var4)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var3 = var6[var3];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.8Hvr3+;
+            var3 = var7.bind(var8)(var3);
+            var2['text'] = var3;
+            var3 = 7;
+            var3 = var6[var3];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.AttachmentIcon;
+            var2['IconComponent'] = var3;
+            var3 = _closure2_slot7;
+            var2['onPress'] = var3;
+            var3 = false;
+            var2['disabled'] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var18 = var20.bind(var22)(var18, var19);
+        var _closure2_slot12 = var18;
         var20 = var22.useCallback;
-        var19 = new Array(10);
+        var19 = new Array(11);
         var19[0] = var5;
         var19[1] = var16;
         var19[2] = var15;
-        var19[3] = var23;
+        var19[3] = var24;
         var19[4] = var10;
         var19[5] = var8;
         var19[6] = var9;
         var19[7] = var7;
-        var19[8] = var21;
-        var19[9] = var18;
+        var19[8] = var23;
+        var19[9] = var21;
+        var19[10] = var18;
         var18 = function() {
             var4 = _closure1_slot6;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 5;
+            var1 = 8;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -104,19 +164,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['title'] = var6;
             var6 = _closure2_slot1;
             var1['subtitle'] = var6;
-            var6 = _closure2_slot10;
+            var6 = _closure2_slot11;
             var1['animatedIndex'] = var6;
             var6 = _closure2_slot2;
             var1['channel'] = var6;
-            var6 = new Array(0);
+            var6 = _closure2_slot12;
             var1['overflowButtons'] = var6;
             var6 = _closure2_slot3;
             var1['draftType'] = var6;
             var6 = true;
             var1['hideScrim'] = var6;
-            var6 = _closure2_slot9;
+            var6 = _closure2_slot10;
             var1['onBack'] = var6;
-            var6 = _closure2_slot7;
+            var6 = _closure2_slot8;
             var1['onViewAll'] = var6;
             var6 = _closure2_slot4;
             var1['uploadLimit'] = var6;
@@ -132,18 +192,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = function() {
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 6;
+            var1 = 9;
             var2 = var4[var1];
             var1 = undefined;
             var7 = var3.bind(var1)(var2);
             var5 = var7.triggerHapticFeedback;
             var3 = _closure1_slot1;
-            var2 = 7;
+            var2 = 10;
             var2 = var4[var2];
             var2 = var3.bind(var1)(var2);
             var2 = var2.IMPACT_LIGHT;
             var2 = var5.bind(var7)(var2);
-            var2 = 8;
+            var2 = 11;
             var2 = var4[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
@@ -164,11 +224,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var3 = _closure2_slot8;
+                var3 = _closure2_slot9;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var2 = _closure2_slot8;
+                var2 = _closure2_slot9;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
 case 2:
@@ -177,23 +237,23 @@ case 2:
             }
         };
         var18 = var21.bind(var22)(var6, var18);
-        var _closure2_slot11 = var18;
+        var _closure2_slot13 = var18;
         var6 = _closure1_slot1;
-        var21 = 9;
+        var21 = 12;
         var21 = var17[var21];
         var21 = var6.bind(var4)(var21);
         var3 = function() {
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot11;
+                    var3 = _closure2_slot13;
                     var1 = null;
                     var4 = var1 == var3;
                     var3 = undefined;
                     var1 = undefined;
                     if(var4) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var2 = _closure2_slot11;
+                    var2 = _closure2_slot13;
                     var1 = var2.bind(var3)();
 case 4:
                     return var1;
@@ -203,7 +263,7 @@ case 4:
         };
         var3 = var21.bind(var4)(var3);
         var3 = _closure1_slot6;
-        var1 = 10;
+        var1 = 13;
         var1 = var17[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.BottomSheet;
@@ -214,7 +274,7 @@ case 4:
         var1['onExpand'] = var19;
         var1['onDismiss'] = var18;
         var1['animatedIndex'] = var5;
-        var5 = 11;
+        var5 = 14;
         var5 = var17[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};

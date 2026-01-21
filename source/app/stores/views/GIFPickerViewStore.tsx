@@ -385,11 +385,11 @@ case 0:
             var5 = var1.trendingCategories;
             var3 = var1.trendingGIFPreview;
             var2 = null;
-            if(!(var2 == var3)) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
-            var3 = new Array(0);
-            _fun0007_ip = 26; continue _fun0007;
+            if(!(var2 == var3)) { _fun0007_ip = 18; continue _fun0007 }
 case 24:
+            var3 = new Array(0);
+            _fun0007_ip = 25; continue _fun0007;
+case 18:
             var2 = {};
             var6 = _closure1_slot7;
             var6 = var6.TRENDING_GIFS;
@@ -419,7 +419,7 @@ case 24:
             var1 = new Array(1);
             var1[0] = var2;
             var3 = var1;
-case 26:
+case 25:
             var2 = new Array(0);
             var12 = 0;
             var14 = var2;

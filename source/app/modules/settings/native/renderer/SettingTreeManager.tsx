@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -295,18 +295,18 @@ case 0:
                 var4 = arg1;
                 var1 = null;
                 var2 = var1 == var4;
-                if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                if(var2) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var5 = 'string';
                 var3 = typeof var4;
                 var2 = var4;
-                if(!(var5 !== var3)) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                if(!(var5 !== var3)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var3 = undefined;
                 var2 = var4.bind(var3)();
-case 38:
+case 39:
                 var1 = var2;
-case 36:
+case 37:
                 return var1;
             }
         };
@@ -343,7 +343,7 @@ case 0:
                 var2 = var2.parent;
                 var2 = var3.bind(var7)(var2);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0005_ip = 40; continue _fun0005 }
+                if(!(var3 != var2)) { _fun0005_ip = 41; continue _fun0005 }
 case 30:
                 var8 = var1.push;
                 var8 = var8.bind(var1)(var2);
@@ -357,7 +357,7 @@ case 30:
                 var8 = var8.parent;
                 var2 = var9.bind(var7)(var8);
                 if(var3 != var2) { _fun0005_ip = 30; continue _fun0005 }
-case 40:
+case 41:
                 return var1;
             }
         };
@@ -400,7 +400,7 @@ case 0:
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var5);
                 var6 = null;
-                if(!(var6 == var1)) { _fun0006_ip = 41; continue _fun0006 }
+                if(!(var6 == var1)) { _fun0006_ip = 42; continue _fun0006 }
 case 34:
                 var2 = var3.getAncestors;
                 var4 = var2.bind(var3)(var5);
@@ -409,15 +409,15 @@ case 34:
                 var2 = var7 - var2;
                 var4 = var4[var2];
                 var2 = var5;
-                if(!(var6 != var4)) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+                if(!(var6 != var4)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                 var2 = var4;
-case 42:
+case 43:
                 var4 = var3.highestAncestorCache;
                 var3 = var4.set;
                 var3 = var3.bind(var4)(var5, var2);
                 return var2;
-case 41:
+case 42:
                 return var1;
             }
         };
@@ -442,8 +442,8 @@ case 0:
                 var3 = var1.type;
                 var2 = _closure1_slot4;
                 var2 = var2.ROUTE;
-                if(!(var3 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                if(!(var3 !== var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                 var3 = _closure1_slot6;
                 var2 = var4.getAncestors;
                 var2 = var2.bind(var4)(var5);
@@ -451,7 +451,7 @@ case 45:
                 var3 = var6.bind(var7)();
                 var2 = var3.done;
                 var4 = var3;
-                if(var2) { _fun0007_ip = 46; continue _fun0007 }
+                if(var2) { _fun0007_ip = 17; continue _fun0007 }
 case 47:
                 var3 = var4.value;
                 var10 = _closure1_slot0;
@@ -468,12 +468,12 @@ case 49:
                 var10 = var6.bind(var7)();
                 var3 = var10.done;
                 var4 = var10;
-                if(var3) { _fun0007_ip = 46; continue _fun0007 }
+                if(var3) { _fun0007_ip = 17; continue _fun0007 }
 case 50:
                 _fun0007_ip = 47; continue _fun0007;
 case 48:
                 return var2;
-case 46:
+case 17:
                 var2 = global;
                 var4 = var2.Error;
                 var2 = var2.HermesInternal;
@@ -486,7 +486,7 @@ case 46:
                 var2 = new var12[var4](var11, var10);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 44:
+case 45:
                 return var1;
             }
         };

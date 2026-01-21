@@ -47,6 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getMuteTimeOptions() {
         var2 = {};
+        var1 = '15-minutes';
+        var2['id'] = var1;
         var8 = _closure1_slot0;
         var9 = _closure1_slot3;
         var4 = 4;
@@ -67,6 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = new Array(6);
         var1[0] = var2;
         var2 = {};
+        var5 = '1-hour';
+        var2['id'] = var5;
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var10 = var5.intl;
@@ -81,6 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var5;
         var1[1] = var2;
         var2 = {};
+        var5 = '3-hours';
+        var2['id'] = var5;
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var10 = var5.intl;
@@ -95,6 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var5;
         var1[2] = var2;
         var2 = {};
+        var5 = '8-hours';
+        var2['id'] = var5;
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var10 = var5.intl;
@@ -109,6 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var5;
         var1[3] = var2;
         var2 = {};
+        var5 = '24-hours';
+        var2['id'] = var5;
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var10 = var5.intl;
@@ -123,6 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['value'] = var5;
         var1[4] = var2;
         var2 = {};
+        var5 = 'forever';
+        var2['id'] = var5;
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var6 = var5.intl;

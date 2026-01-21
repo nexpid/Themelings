@@ -496,15 +496,15 @@ case 22:
                         var3 = '';
                         var2 = var3 === var4;
 case 21:
-                        if(!var2) { _fun0005_ip = 4; continue _fun0005 }
-case 23:
+                        if(!var2) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                         var3 = _closure1_slot7;
                         var2 = var3.setState;
                         var1 = {};
                         var4 = false;
                         var1['isActive'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 4:
+case 23:
                         var1 = undefined;
                         return var1;
                     }
@@ -523,24 +523,24 @@ case 0:
                         var1 = arg1;
                         var1 = var1.data;
                         var1 = var1.closing;
-                        if(!var1) { _fun0006_ip = 20; continue _fun0006 }
-case 24:
+                        if(!var1) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                         var4 = _closure1_slot7;
                         var3 = var4.getField;
                         var2 = 'selected';
                         var3 = var3.bind(var4)(var2);
                         var2 = null;
                         var1 = var2 != var3;
-case 20:
-                        if(!var1) { _fun0006_ip = 25; continue _fun0006 }
-case 19:
+case 25:
+                        if(!var1) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
                         var3 = _closure1_slot7;
                         var2 = var3.setState;
                         var1 = {};
                         var4 = null;
                         var1['selected'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 25:
+case 27:
                         var1 = undefined;
                         return var1;
                     }
@@ -588,18 +588,18 @@ case 0:
                     var2 = var1.actionName;
                     var1 = 'escape';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+                    if(!var1) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
                     var3 = _closure2_slot5;
                     var2 = var3.canGoBack;
                     var1 = var2.bind(var3)();
-case 26:
-                    if(!var1) { _fun0007_ip = 23; continue _fun0007 }
-case 20:
+case 29:
+                    if(!var1) { _fun0007_ip = 31; continue _fun0007 }
+case 25:
                     var2 = _closure2_slot5;
                     var1 = var2.goBack;
                     var1 = var1.bind(var2)();
-case 23:
+case 31:
                     var1 = undefined;
                     return var1;
                 }
@@ -628,16 +628,16 @@ case 23:
             var13 = 'settings-navigator';
             var9['id'] = var13;
             var13 = {'fullScreenGestureEnabled': true, 'headerTitle': null, 'headerTitleAlign': 'center'};
-            if(var20) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(var20) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
             var20 = 35;
             var20 = var22[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.renderGenericTitle;
-            _fun0001_ip = 30; continue _fun0001;
-case 28:
+            _fun0001_ip = 34; continue _fun0001;
+case 32:
             var20 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.children;
@@ -649,7 +649,7 @@ case 28:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-case 30:
+case 34:
             var13['headerTitle'] = var20;
             var25 = var13;
             var24 = var19;
@@ -724,29 +724,29 @@ case 0:
                     var5 = undefined;
                     var2 = var2 === var5;
                     var4 = undefined;
-                    if(var2) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+                    if(var2) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                     var4 = var7;
-case 31:
+case 35:
                     var _closure3_slot0 = var4;
                     var7 = undefined;
-                    if(var2) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
+                    if(var2) { _fun0008_ip = 24; continue _fun0008 }
+case 37:
                     var8 = var3().value;
                     var3 = var1;
                     var3 = var3 === var5;
                     var7 = undefined;
                     var2 = var3;
-                    if(var3) { _fun0008_ip = 33; continue _fun0008 }
-case 35:
+                    if(var3) { _fun0008_ip = 24; continue _fun0008 }
+case 38:
                     var7 = var8;
                     var2 = var3;
-case 33:
+case 24:
                     var _closure3_slot1 = var7;
-                    if(var2) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
+                    if(var2) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
                     var1.return();
-case 36:
+case 39:
                     var3 = _closure1_slot10;
                     var1 = _closure1_slot12;
                     var2 = var1.Screen;
@@ -783,15 +783,15 @@ case 0:
                             var4 = var2.navigationOptions;
                             var2 = null;
                             var5 = var2 == var4;
-                            if(var5) { _fun0009_ip = 38; continue _fun0009 }
-case 39:
+                            if(var5) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
                             var3 = var4.headerShadowVisible;
-case 38:
+case 41:
                             var2 = var2 == var3;
-                            if(var2) { _fun0009_ip = 40; continue _fun0009 }
+                            if(var2) { _fun0009_ip = 43; continue _fun0009 }
 case 8:
                             var2 = var3;
-case 40:
+case 43:
                             var1['headerShadowVisible'] = var2;
                             return var1;
                         }
@@ -823,7 +823,7 @@ case 40:
                     var8 = var7.route;
                     var7 = undefined;
                     if(!(var9 === var8)) { _fun0008_ip = 10; continue _fun0008 }
-case 41:
+case 44:
                     var7 = _closure2_slot2;
 case 10:
                     var1['initialParams'] = var7;

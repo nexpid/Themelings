@@ -1,590 +1,624 @@
 // app/uikit-native/guild_sidebar/BaseChannelItem.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var10;
+    var6 = function BaseChannelSubtitle(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var9 = require;
-        var15 = metroImportDefault;
-        var3 = exports;
-        var10 = dependencyMap;
-        var _closure1_slot0 = var9;
-        var _closure1_slot1 = var15;
-        var _closure1_slot2 = var10;
-        var6 = function BaseChannelSubtitle(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                var1 = arg1;
-                var3 = var1.mode;
-                var7 = var1.subtitle;
-                var1 = _closure1_slot12;
-                var5 = undefined;
-                var6 = var1.bind(var5)(var3);
-                var1 = null;
-                var3 = var1 == var7;
-                if(var3) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                var4 = _closure1_slot6;
-                var9 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var2 = 7;
-                var2 = var10[var2];
-                var2 = var9.bind(var5)(var2);
-                var3 = var2.Text;
-                var2 = {};
-                var8 = 6;
-                var8 = var10[var8];
-                var9 = var9.bind(var5)(var8);
-                var8 = var9.isAndroid;
-                var8 = var8.bind(var9)();
-                var8 = !var8;
-                var2['experimental_useNativeText'] = var8;
-                var8 = 1;
-                var2['lineClamp'] = var8;
-                var12 = var2;
-                var11 = var6;
-                var6 = copyDataProperties(var12, var11);
-                var6 = 'children';
-                var2[var6] = var7;
-                var1 = var4.bind(var5)(var3, var2);
-case 2:
-                return var1;
-            }
-        };
-        var _closure1_slot10 = var6;
-        var5 = function useChannelNameTextProps(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                var2 = arg1;
-                var3 = _closure1_slot9;
-                var3 = var3.UNREAD_IMPORTANT;
-                if(!(var2 !== var3)) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
-                var3 = _closure1_slot9;
-                var3 = var3.RELEVANT;
-                if(!(var2 !== var3)) { _fun0003_ip = 4; continue _fun0003 }
-case 6:
-                var3 = _closure1_slot9;
-                var3 = var3.UNREAD_LESS_IMPORTANT;
-                if(!(var2 !== var3)) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-                var3 = _closure1_slot9;
-                var3 = var3.MUTED;
-                if(!(var2 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-                var1 = _closure1_slot9;
-                var1 = var1.SELECTED;
-                if(!(var2 !== var1)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
-                _fun0003_ip = 13; continue _fun0003;
-case 11:
-                var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-text'};
-case 13:
-                _fun0003_ip = 14; continue _fun0003;
-case 9:
-                var1 = {'variant': 'text-md/medium', 'color': 'text-muted'};
-case 14:
-                _fun0003_ip = 15; continue _fun0003;
-case 7:
-                var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
-case 15:
-                _fun0003_ip = 16; continue _fun0003;
-case 4:
-                var1 = {'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
-case 16:
-                return var1;
-            }
-        };
-        var _closure1_slot11 = var5;
-        var4 = function getChannelSubtitleTextProps(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                var3 = arg1;
-                var2 = _closure1_slot9;
-                var2 = var2.UNREAD_IMPORTANT;
-                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
-case 5:
-                var2 = _closure1_slot9;
-                var2 = var2.RELEVANT;
-                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
-case 6:
-                var2 = _closure1_slot9;
-                var2 = var2.SELECTED;
-                if(!(var3 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
-case 8:
-                var1 = _closure1_slot9;
-                var1 = var1.MUTED;
-                var1 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-                _fun0004_ip = 18; continue _fun0004;
-case 17:
-                var1 = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
-case 18:
-                return var1;
-            }
-        };
-        var _closure1_slot12 = var4;
-        var1 = global;
-        var11 = var1.Object;
-        var8 = var11.defineProperty;
-        var7 = {};
-        var1 = true;
-        var7['value'] = var1;
-        var1 = '__esModule';
-        var1 = var8.bind(var11)(var3, var1, var7);
-        var1 = 0;
-        var8 = var10[var1];
-        var7 = metroImportAll;
-        var1 = undefined;
-        var7 = var7.bind(var1)(var8);
-        var _closure1_slot3 = var7;
-        var7 = 1;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var7 = var7.View;
-        var _closure1_slot4 = var7;
-        var7 = 2;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var7 = var7.UnreadSetting;
-        var _closure1_slot5 = var7;
-        var7 = 3;
-        var7 = var10[var7];
-        var7 = var9.bind(var1)(var7);
-        var8 = var7.jsx;
-        var _closure1_slot6 = var8;
-        var7 = var7.jsxs;
-        var _closure1_slot7 = var7;
-        var7 = 4;
-        var7 = var10[var7];
-        var11 = var9.bind(var1)(var7);
-        var8 = var11.createStyles;
-        var7 = {};
-        var12 = {};
-        var13 = 6;
-        var12['paddingHorizontal'] = var13;
-        var7['rowPaddingNoIcon'] = var12;
-        var12 = {};
-        var14 = 5;
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.radii;
-        var16 = var16.md;
-        var12['borderRadius'] = var16;
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.BACKGROUND_MOD_MUTED;
-        var12['backgroundColor'] = var16;
-        var7['rowSelected'] = var12;
-        var12 = {};
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.radii;
-        var16 = var16.md;
-        var12['borderRadius'] = var16;
-        var7['rowSelectedThemed'] = var12;
-        var12 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.BORDER_MUTED;
-        var12['borderColor'] = var16;
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.radii;
-        var16 = var16.md;
-        var12['borderRadius'] = var16;
-        var7['selectedBorder'] = var12;
-        var12 = {};
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.spacing;
-        var16 = var16.PX_8;
-        var16 = -var16;
-        var12['left'] = var16;
-        var7['unreadIndicator'] = var12;
-        var16 = 8;
-        var12 = {'width': 16, 'height': 16, 'marginRight': 8};
-        var7['channelIcon'] = var12;
-        var12 = {};
-        var12['marginRight'] = var16;
-        var7['redesignedChannelIcon'] = var12;
-        var12 = {};
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.CHANNEL_ICON;
-        var12['tintColor'] = var16;
-        var7['channelIconNormal'] = var12;
-        var12 = {};
-        var16 = var10[var14];
-        var16 = var15.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.INTERACTIVE_TEXT_ACTIVE;
-        var12['tintColor'] = var16;
-        var7['channelIconUnread'] = var12;
-        var12 = {};
-        var14 = var10[var14];
-        var14 = var15.bind(var1)(var14);
-        var14 = var14.colors;
-        var14 = var14.ICON_MUTED;
-        var12['tintColor'] = var14;
-        var7['channelIconMuted'] = var12;
-        var12 = {'paddingHorizontal': 8, 'paddingVertical': 8, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
-        var7['channel'] = var12;
-        var12 = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'stretch', 'justifyContent': 'center'};
-        var7['channelNameContainer'] = var12;
-        var12 = {'flexGrow': 1, 'textAlign': 'left'};
-        var13 = var10[var13];
-        var14 = var9.bind(var1)(var13);
-        var13 = var14.isIOS;
-        var14 = var13.bind(var14)();
-        var13 = 20;
-        if(!var14) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-        var13 = 22;
-case 19:
-        var12['lineHeight'] = var13;
-        var7['channelName'] = var12;
-        var7 = var8.bind(var11)(var7);
-        var _closure1_slot8 = var7;
-        var7 = {};
-        var8 = 'Selected';
-        var7['SELECTED'] = var8;
-        var8 = 'Locked';
-        var7['LOCKED'] = var8;
-        var8 = 'Muted';
-        var7['MUTED'] = var8;
-        var8 = 'Relevant';
-        var7['RELEVANT'] = var8;
-        var8 = 'UnreadLessImportant';
-        var7['UNREAD_LESS_IMPORTANT'] = var8;
-        var8 = 'UnreadImportant';
-        var7['UNREAD_IMPORTANT'] = var8;
-        var8 = 'Default';
-        var7['DEFAULT'] = var8;
-        var _closure1_slot9 = var7;
-        var8 = 12;
-        var8 = var10[var8];
-        var10 = var9.bind(var1)(var8);
-        var9 = var10.fileFinishedImporting;
-        var8 = 'uikit-native/guild_sidebar/BaseChannelItem.tsx';
-        var8 = var9.bind(var10)(var8);
-        var8 = function BaseChannelItem(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                var7 = arg1;
-                var13 = var7.icon;
-                var11 = var7.name;
-                var19 = var7.mode;
-                var _closure2_slot0 = var19;
-                var12 = var7.hideIcon;
-                var _closure2_slot1 = var12;
-                var2 = var7.disableHighlightOnPress;
-                var4 = undefined;
-                if(!(var2 === var4)) { _fun0005_ip = 8; continue _fun0005 }
-case 21:
-                var2 = false;
-case 8:
-                var10 = var7.channelInfo;
-                var5 = var7.children;
-                var18 = var7.unread;
-                if(!(var18 === var4)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-                var18 = false;
-case 22:
-                var6 = {'icon': 0, 'name': 0, 'mode': 0, 'hideIcon': 0, 'disableHighlightOnPress': 0, 'channelInfo': 0, 'children': 0, 'unread': 0};
-                var23 = null;
-                var24 = var6;
-                var1 = silentSetPrototypeOf(var24, var23);
-                var24 = {};
-                var23 = var7;
-                var22 = var6;
-                var6 = copyDataProperties(var24, var23, var22);
-                var _closure2_slot2 = var4;
-                var7 = _closure1_slot8;
-                var20 = var7.bind(var4)();
-                _closure2_slot2 = var20;
-                var9 = _closure1_slot3;
-                var8 = var9.useMemo;
-                var7 = new Array(3);
-                var7[0] = var12;
-                var7[1] = var19;
-                var7[2] = var20;
-                var3 = function() {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                        var1 = _closure2_slot2;
-                        var2 = var1.channel;
-                        var1 = new Array(3);
-                        var1[0] = var2;
-                        var2 = _closure2_slot1;
-                        if(!var2) { _fun0006_ip = 3; continue _fun0006 }
-case 24:
-                        var4 = _closure2_slot2;
-                        var2 = var4.rowPaddingNoIcon;
-case 3:
-                        var1[1] = var2;
-                        var4 = _closure2_slot0;
-                        var2 = _closure1_slot9;
-                        var2 = var2.SELECTED;
-                        var2 = var4 === var2;
-                        if(!var2) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
-                        var3 = _closure2_slot2;
-                        var2 = var3.rowSelected;
-case 25:
-                        var1[2] = var2;
-                        return var1;
-                    }
-                };
-                var9 = var8.bind(var9)(var3, var7);
-                var8 = _closure1_slot7;
-                var7 = _closure1_slot4;
-                var3 = {};
-                var3['style'] = var9;
-                var9 = _closure1_slot9;
-                var9 = var9.SELECTED;
-                var14 = var19 === var9;
-                if(!var14) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
-                var16 = _closure1_slot6;
-                var15 = _closure1_slot4;
-                var9 = {};
-                var17 = var20.selectedBorder;
-                var9['style'] = var17;
-                var14 = var16.bind(var4)(var15, var9);
-case 27:
-                var9 = new Array(5);
-                var9[0] = var14;
-                var14 = !var12;
-                if(!var14) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
-                var17 = _closure1_slot6;
-                var16 = _closure1_slot1;
-                var21 = _closure1_slot2;
-                var15 = 9;
-                var15 = var21[var15];
-                var16 = var16.bind(var4)(var15);
-                var15 = {};
-                var20 = var20.unreadIndicator;
-                var15['style'] = var20;
-                var15['unread'] = var18;
-                var18 = _closure1_slot9;
-                var18 = var18.UNREAD_LESS_IMPORTANT;
-                if(!(var19 !== var18)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
-                var18 = _closure1_slot5;
-                var18 = var18.ALL_MESSAGES;
-                _fun0005_ip = 33; continue _fun0005;
-case 31:
-                var19 = _closure1_slot5;
-                var18 = var19.ONLY_MENTIONS;
-case 33:
-                var15['resolvedUnreadSetting'] = var18;
-                var14 = var17.bind(var4)(var16, var15);
-case 29:
-                var9[1] = var14;
-                var12 = !var12;
-                if(!var12) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
-                var12 = var13;
-case 34:
-                var9[2] = var12;
-                var9[3] = var11;
-                var9[4] = var10;
-                var3['children'] = var9;
-                var7 = var8.bind(var4)(var7, var3);
-                var3 = _closure1_slot7;
-                if(var2) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var2 = 10;
-                var2 = var9[var2];
-                var2 = var8.bind(var4)(var2);
-                var2 = var2.AnimatedPressableHighlight;
-                _fun0005_ip = 38; continue _fun0005;
-case 36:
-                var8 = _closure1_slot1;
-                var9 = _closure1_slot2;
-                var1 = 11;
-                var1 = var9[var1];
-                var2 = var8.bind(var4)(var1);
-case 38:
-                var1 = {};
-                var24 = var1;
-                var23 = var6;
-                var6 = copyDataProperties(var24, var23);
-                var6 = new Array(2);
-                var6[0] = var7;
-                var6[1] = var5;
-                var5 = 'children';
-                var1[var5] = var6;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            }
-        };
-        var3['default'] = var8;
-        var3['ChannelModes'] = var7;
-        var3['BaseChannelSubtitle'] = var6;
-        var6 = function BaseChannelIcon(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                var1 = arg1;
-                var17 = var1.disableColor;
-                var3 = var1.mode;
-                var12 = var1.source;
-                var5 = var1.IconComponent;
-                var11 = var1.style;
-                var7 = var1.isChannelLive;
-                var1 = _closure1_slot8;
-                var4 = undefined;
-                var6 = var1.bind(var4)();
-                var1 = _closure1_slot9;
-                var1 = var1.MUTED;
-                var10 = var3 === var1;
-                var1 = _closure1_slot9;
-                var1 = var1.UNREAD_IMPORTANT;
-                var8 = var3 === var1;
-                var1 = _closure1_slot9;
-                var1 = var1.SELECTED;
-                var9 = var3 === var1;
-                var1 = var6.channelIcon;
-                var13 = new Array(1);
-                var13[0] = var1;
-                var1 = true;
-                if(!(var1 !== var17)) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
-                var3 = var13.push;
-                if(var10) { _fun0007_ip = 4; continue _fun0007 }
-case 41:
-                if(var8) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
-                if(var9) { _fun0007_ip = 42; continue _fun0007 }
-case 7:
-                var1 = var6.channelIconNormal;
-                _fun0007_ip = 15; continue _fun0007;
-case 42:
-                var1 = var6.channelIconUnread;
-case 15:
-                _fun0007_ip = 44; continue _fun0007;
-case 4:
-                var1 = var6.channelIconMuted;
-case 44:
-                var1 = var3.bind(var13)(var1);
-case 39:
-                var1 = null;
-                if(!(var1 != var11)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
-                var3 = var13.push;
-                var3 = var3.bind(var13)(var11);
-case 45:
-                if(!(var1 == var5)) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
-                var11 = _closure1_slot6;
-                var15 = _closure1_slot1;
-                var16 = _closure1_slot2;
-                var14 = 8;
-                var1 = var16[var14];
-                var3 = var15.bind(var4)(var1);
-                var1 = {};
-                var1['disableColor'] = var17;
-                var14 = var16[var14];
-                var14 = var15.bind(var4)(var14);
-                var14 = var14.Sizes;
-                var14 = var14.CUSTOM;
-                var1['size'] = var14;
-                var1['style'] = var13;
-                var1['source'] = var12;
-                var1 = var11.bind(var4)(var3, var1);
-                _fun0007_ip = 49; continue _fun0007;
-case 47:
-                var3 = _closure1_slot6;
-                var2 = {};
-                var11 = 'sm';
-                var2['size'] = var11;
-                var6 = var6.redesignedChannelIcon;
-                var2['style'] = var6;
-                var6 = 'status-positive';
-                if(var7) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
-                var7 = 'icon-muted';
-                if(var10) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
-                if(var8) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
-                var8 = 'channel-icon';
-                if(!var9) { _fun0007_ip = 56; continue _fun0007 }
-case 54:
-                var8 = 'interactive-text-active';
-case 56:
-                var7 = var8;
-case 52:
-                var6 = var7;
-case 50:
-                var2['color'] = var6;
-                var1 = var3.bind(var4)(var5, var2);
-case 49:
-                return var1;
-            }
-        };
-        var3['BaseChannelIcon'] = var6;
-        var3['useChannelNameTextProps'] = var5;
-        var3['getChannelSubtitleTextProps'] = var4;
-        var2 = function BaseChannelName(arg1) {
             var1 = arg1;
-            var10 = var1.mode;
-            var12 = var1.name;
-            var9 = var1.subtitle;
-            var11 = var1.textStyle;
-            var1 = _closure1_slot8;
-            var4 = undefined;
-            var13 = var1.bind(var4)();
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot4;
+            var3 = var1.mode;
+            var7 = var1.subtitle;
+            var1 = _closure1_slot12;
+            var5 = undefined;
+            var6 = var1.bind(var5)(var3);
+            var1 = null;
+            var3 = var1 == var7;
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot6;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 7;
+            var2 = var10[var2];
+            var2 = var9.bind(var5)(var2);
+            var3 = var2.Text;
+            var2 = {};
+            var8 = 6;
+            var8 = var10[var8];
+            var9 = var9.bind(var5)(var8);
+            var8 = var9.isAndroid;
+            var8 = var8.bind(var9)();
+            var8 = !var8;
+            var2['experimental_useNativeText'] = var8;
+            var8 = 1;
+            var2['lineClamp'] = var8;
+            var12 = var2;
+            var11 = var6;
+            var6 = copyDataProperties(var12, var11);
+            var6 = 'children';
+            var2[var6] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var6;
+    var5 = function useChannelNameTextProps(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var3 = _closure1_slot9;
+            var3 = var3.UNREAD_IMPORTANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var3 = _closure1_slot9;
+            var3 = var3.RELEVANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+            var3 = _closure1_slot9;
+            var3 = var3.UNREAD_LESS_IMPORTANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            var3 = _closure1_slot9;
+            var3 = var3.MUTED;
+            if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+            var1 = _closure1_slot9;
+            var1 = var1.SELECTED;
+            if(!(var2 !== var1)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-text'};
+case 13:
+            _fun0002_ip = 14; continue _fun0002;
+case 9:
+            var1 = {'variant': 'text-md/medium', 'color': 'text-muted'};
+case 14:
+            _fun0002_ip = 15; continue _fun0002;
+case 7:
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
+case 15:
+            _fun0002_ip = 16; continue _fun0002;
+case 4:
+            var1 = {'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
+case 16:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var5;
+    var4 = function getChannelSubtitleTextProps(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = arg1;
+            var2 = _closure1_slot9;
+            var2 = var2.UNREAD_IMPORTANT;
+            if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
+case 5:
+            var2 = _closure1_slot9;
+            var2 = var2.RELEVANT;
+            if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
+case 6:
+            var2 = _closure1_slot9;
+            var2 = var2.SELECTED;
+            if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
+case 8:
+            var1 = _closure1_slot9;
+            var1 = var1.MUTED;
+            var1 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
+            _fun0003_ip = 18; continue _fun0003;
+case 17:
+            var1 = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
+case 18:
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var8 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var8 = var10[var1];
+    var7 = metroImportAll;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.View;
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.UnreadSetting;
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var8 = var7.jsx;
+    var _closure1_slot6 = var8;
+    var7 = var7.jsxs;
+    var _closure1_slot7 = var7;
+    var7 = 4;
+    var7 = var10[var7];
+    var11 = var9.bind(var1)(var7);
+    var8 = var11.createStyles;
+    var7 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var5 = arg1;
             var1 = {};
-            var5 = var13.channelNameContainer;
-            var1['style'] = var5;
-            var8 = _closure1_slot6;
+            var2 = {};
+            var9 = 6;
+            var2['paddingHorizontal'] = var9;
+            var1['rowPaddingNoIcon'] = var2;
+            var2 = {};
+            var10 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var7 = 5;
+            var3 = var6[var7];
+            var8 = undefined;
+            var3 = var10.bind(var8)(var3);
+            var3 = var3.radii;
+            var3 = var3.md;
+            var2['borderRadius'] = var3;
+            var3 = var6[var7];
+            var3 = var10.bind(var8)(var3);
+            var3 = var3.colors;
+            var3 = var3.BACKGROUND_MOD_MUTED;
+            var2['backgroundColor'] = var3;
+            var1['rowSelected'] = var2;
+            var2 = {};
+            var3 = var6[var7];
+            var3 = var10.bind(var8)(var3);
+            var3 = var3.radii;
+            var3 = var3.md;
+            var2['borderRadius'] = var3;
+            var1['rowSelectedThemed'] = var2;
+            var2 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
+            var3 = 1;
+            var11 = var6[var7];
+            var11 = var10.bind(var8)(var11);
+            var11 = var11.colors;
+            var11 = var11.BORDER_MUTED;
+            var2['borderColor'] = var11;
+            var11 = var6[var7];
+            var11 = var10.bind(var8)(var11);
+            var11 = var11.radii;
+            var11 = var11.md;
+            var2['borderRadius'] = var11;
+            var1['selectedBorder'] = var2;
+            var2 = {};
+            var6 = var6[var7];
+            var6 = var10.bind(var8)(var6);
+            var6 = var6.spacing;
+            var6 = var6.PX_8;
+            var6 = -var6;
+            var2['left'] = var6;
+            var1['unreadIndicator'] = var2;
+            var2 = {'width': 16, 'height': 16, 'marginRight': 8};
+            var6 = 8;
+            var10 = _closure1_slot9;
+            var11 = var10.MUTED;
+            var10 = var3;
+            if(!(var5 === var11)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+            var10 = 0.5;
+case 19:
+            var2['opacity'] = var10;
+            var1['channelIcon'] = var2;
+            var2 = {};
+            var2['marginRight'] = var6;
+            var6 = _closure1_slot9;
+            var10 = var6.MUTED;
+            var6 = var3;
+            if(!(var5 === var10)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+            var6 = 0.5;
+case 21:
+            var2['opacity'] = var6;
+            var1['redesignedChannelIcon'] = var2;
+            var2 = {};
+            var10 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var11 = var6[var7];
+            var11 = var10.bind(var8)(var11);
+            var11 = var11.colors;
+            var11 = var11.CHANNEL_ICON;
+            var2['tintColor'] = var11;
+            var1['channelIconNormal'] = var2;
+            var2 = {};
+            var11 = var6[var7];
+            var11 = var10.bind(var8)(var11);
+            var11 = var11.colors;
+            var11 = var11.INTERACTIVE_TEXT_ACTIVE;
+            var2['tintColor'] = var11;
+            var1['channelIconUnread'] = var2;
+            var2 = {};
+            var7 = var6[var7];
+            var7 = var10.bind(var8)(var7);
+            var7 = var7.colors;
+            var7 = var7.ICON_MUTED;
+            var2['tintColor'] = var7;
+            var1['channelIconMuted'] = var2;
+            var2 = {'paddingHorizontal': 8, 'paddingVertical': 8, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
+            var1['channel'] = var2;
+            var2 = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'stretch', 'justifyContent': 'center'};
+            var1['channelNameContainer'] = var2;
+            var2 = {'flexGrow': 1, 'textAlign': 'left'};
             var7 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var5 = 7;
-            var5 = var14[var5];
-            var5 = var7.bind(var4)(var5);
-            var7 = var5.Text;
-            var5 = {};
-            var14 = true;
-            var5['experimental_useNativeText'] = var14;
-            var14 = _closure1_slot11;
-            var16 = var14.bind(var4)(var10);
-            var17 = var5;
-            var14 = copyDataProperties(var17, var16);
-            var15 = 1;
-            var14 = 'lineClamp';
-            var5[var14] = var15;
-            var14 = var13.channelName;
-            var13 = new Array(2);
-            var13[0] = var14;
-            var13[1] = var11;
-            var11 = 'style';
-            var5[var11] = var13;
-            var11 = 'children';
-            var5[var11] = var12;
-            var7 = var8.bind(var4)(var7, var5);
-            var5 = new Array(2);
-            var5[0] = var7;
-            var8 = _closure1_slot6;
-            var7 = _closure1_slot10;
-            var6 = {};
-            var6['mode'] = var10;
-            var6['subtitle'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var1['children'] = var5;
+            var6 = var6[var9];
+            var7 = var7.bind(var8)(var6);
+            var6 = var7.isIOS;
+            var7 = var6.bind(var7)();
+            var6 = 20;
+            if(!var7) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+            var6 = 22;
+case 23:
+            var2['lineHeight'] = var6;
+            var4 = _closure1_slot9;
+            var4 = var4.MUTED;
+            if(!(var5 === var4)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
+            var3 = 0.5;
+case 25:
+            var2['opacity'] = var3;
+            var1['channelName'] = var2;
+            return var1;
+        }
+    };
+    var7 = var8.bind(var11)(var7);
+    var _closure1_slot8 = var7;
+    var7 = {};
+    var8 = 'Selected';
+    var7['SELECTED'] = var8;
+    var8 = 'Locked';
+    var7['LOCKED'] = var8;
+    var8 = 'Muted';
+    var7['MUTED'] = var8;
+    var8 = 'Relevant';
+    var7['RELEVANT'] = var8;
+    var8 = 'UnreadLessImportant';
+    var7['UNREAD_LESS_IMPORTANT'] = var8;
+    var8 = 'UnreadImportant';
+    var7['UNREAD_IMPORTANT'] = var8;
+    var8 = 'Default';
+    var7['DEFAULT'] = var8;
+    var _closure1_slot9 = var7;
+    var8 = 12;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'uikit-native/guild_sidebar/BaseChannelItem.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function BaseChannelItem(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var7 = arg1;
+            var13 = var7.icon;
+            var11 = var7.name;
+            var19 = var7.mode;
+            var _closure2_slot0 = var19;
+            var12 = var7.hideIcon;
+            var _closure2_slot1 = var12;
+            var2 = var7.disableHighlightOnPress;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0005_ip = 8; continue _fun0005 }
+case 27:
+            var2 = false;
+case 8:
+            var10 = var7.channelInfo;
+            var5 = var7.children;
+            var18 = var7.unread;
+            if(!(var18 === var4)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
+            var18 = false;
+case 28:
+            var6 = {'icon': 0, 'name': 0, 'mode': 0, 'hideIcon': 0, 'disableHighlightOnPress': 0, 'channelInfo': 0, 'children': 0, 'unread': 0};
+            var23 = null;
+            var24 = var6;
+            var1 = silentSetPrototypeOf(var24, var23);
+            var24 = {};
+            var23 = var7;
+            var22 = var6;
+            var6 = copyDataProperties(var24, var23, var22);
+            var _closure2_slot2 = var4;
+            var7 = _closure1_slot8;
+            var20 = var7.bind(var4)(var19);
+            _closure2_slot2 = var20;
+            var9 = _closure1_slot3;
+            var8 = var9.useMemo;
+            var7 = new Array(3);
+            var7[0] = var12;
+            var7[1] = var19;
+            var7[2] = var20;
+            var3 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var1 = _closure2_slot2;
+                    var2 = var1.channel;
+                    var1 = new Array(3);
+                    var1[0] = var2;
+                    var2 = _closure2_slot1;
+                    if(!var2) { _fun0006_ip = 3; continue _fun0006 }
+case 30:
+                    var4 = _closure2_slot2;
+                    var2 = var4.rowPaddingNoIcon;
+case 3:
+                    var1[1] = var2;
+                    var4 = _closure2_slot0;
+                    var2 = _closure1_slot9;
+                    var2 = var2.SELECTED;
+                    var2 = var4 === var2;
+                    if(!var2) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
+                    var3 = _closure2_slot2;
+                    var2 = var3.rowSelected;
+case 31:
+                    var1[2] = var2;
+                    return var1;
+                }
+            };
+            var9 = var8.bind(var9)(var3, var7);
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot4;
+            var3 = {};
+            var3['style'] = var9;
+            var9 = _closure1_slot9;
+            var9 = var9.SELECTED;
+            var14 = var19 === var9;
+            if(!var14) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot4;
+            var9 = {};
+            var17 = var20.selectedBorder;
+            var9['style'] = var17;
+            var14 = var16.bind(var4)(var15, var9);
+case 33:
+            var9 = new Array(5);
+            var9[0] = var14;
+            var14 = !var12;
+            if(!var14) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var17 = _closure1_slot6;
+            var16 = _closure1_slot1;
+            var21 = _closure1_slot2;
+            var15 = 9;
+            var15 = var21[var15];
+            var16 = var16.bind(var4)(var15);
+            var15 = {};
+            var20 = var20.unreadIndicator;
+            var15['style'] = var20;
+            var15['unread'] = var18;
+            var18 = _closure1_slot9;
+            var18 = var18.UNREAD_LESS_IMPORTANT;
+            if(!(var19 !== var18)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
+            var18 = _closure1_slot5;
+            var18 = var18.ALL_MESSAGES;
+            _fun0005_ip = 39; continue _fun0005;
+case 37:
+            var19 = _closure1_slot5;
+            var18 = var19.ONLY_MENTIONS;
+case 39:
+            var15['resolvedUnreadSetting'] = var18;
+            var14 = var17.bind(var4)(var16, var15);
+case 35:
+            var9[1] = var14;
+            var12 = !var12;
+            if(!var12) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
+            var12 = var13;
+case 40:
+            var9[2] = var12;
+            var9[3] = var11;
+            var9[4] = var10;
+            var3['children'] = var9;
+            var7 = var8.bind(var4)(var7, var3);
+            var3 = _closure1_slot7;
+            if(var2) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 10;
+            var2 = var9[var2];
+            var2 = var8.bind(var4)(var2);
+            var2 = var2.AnimatedPressableHighlight;
+            _fun0005_ip = 44; continue _fun0005;
+case 42:
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 11;
+            var1 = var9[var1];
+            var2 = var8.bind(var4)(var1);
+case 44:
+            var1 = {};
+            var24 = var1;
+            var23 = var6;
+            var6 = copyDataProperties(var24, var23);
+            var6 = new Array(2);
+            var6[0] = var7;
+            var6[1] = var5;
+            var5 = 'children';
+            var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-        };
-        var3['BaseChannelName'] = var2;
+        }
+    };
+    var3['default'] = var8;
+    var3['ChannelModes'] = var7;
+    var3['BaseChannelSubtitle'] = var6;
+    var6 = function BaseChannelIcon(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var1 = arg1;
+            var17 = var1.disableColor;
+            var3 = var1.mode;
+            var12 = var1.source;
+            var5 = var1.IconComponent;
+            var11 = var1.style;
+            var7 = var1.isChannelLive;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var6 = var1.bind(var4)(var3);
+            var1 = _closure1_slot9;
+            var1 = var1.MUTED;
+            var10 = var3 === var1;
+            var1 = _closure1_slot9;
+            var1 = var1.UNREAD_IMPORTANT;
+            var8 = var3 === var1;
+            var1 = _closure1_slot9;
+            var1 = var1.SELECTED;
+            var9 = var3 === var1;
+            var1 = var6.channelIcon;
+            var13 = new Array(1);
+            var13[0] = var1;
+            var1 = true;
+            if(!(var1 !== var17)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
+            var3 = var13.push;
+            if(var10) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
+            if(var8) { _fun0007_ip = 49; continue _fun0007 }
+case 14:
+            if(var9) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
+            var1 = var6.channelIconNormal;
+            _fun0007_ip = 51; continue _fun0007;
+case 49:
+            var1 = var6.channelIconUnread;
+case 51:
+            _fun0007_ip = 52; continue _fun0007;
+case 47:
+            var1 = var6.channelIconMuted;
+case 52:
+            var1 = var3.bind(var13)(var1);
+case 45:
+            var1 = null;
+            if(!(var1 != var11)) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
+            var3 = var13.push;
+            var3 = var3.bind(var13)(var11);
+case 53:
+            if(!(var1 == var5)) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
+            var11 = _closure1_slot6;
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var14 = 8;
+            var1 = var16[var14];
+            var3 = var15.bind(var4)(var1);
+            var1 = {};
+            var1['disableColor'] = var17;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.Sizes;
+            var14 = var14.CUSTOM;
+            var1['size'] = var14;
+            var1['style'] = var13;
+            var1['source'] = var12;
+            var1 = var11.bind(var4)(var3, var1);
+            _fun0007_ip = 57; continue _fun0007;
+case 55:
+            var3 = _closure1_slot6;
+            var2 = {};
+            var11 = 'sm';
+            var2['size'] = var11;
+            var6 = var6.redesignedChannelIcon;
+            var2['style'] = var6;
+            var6 = 'status-positive';
+            if(var7) { _fun0007_ip = 58; continue _fun0007 }
+case 59:
+            var7 = 'icon-muted';
+            if(var10) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
+            if(var8) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
+            var8 = 'channel-icon';
+            if(!var9) { _fun0007_ip = 64; continue _fun0007 }
+case 62:
+            var8 = 'interactive-text-active';
+case 64:
+            var7 = var8;
+case 60:
+            var6 = var7;
+case 58:
+            var2['color'] = var6;
+            var1 = var3.bind(var4)(var5, var2);
+case 57:
+            return var1;
+        }
+    };
+    var3['BaseChannelIcon'] = var6;
+    var3['useChannelNameTextProps'] = var5;
+    var3['getChannelSubtitleTextProps'] = var4;
+    var2 = function BaseChannelName(arg1) {
+        var1 = arg1;
+        var10 = var1.mode;
+        var12 = var1.name;
+        var9 = var1.subtitle;
+        var11 = var1.textStyle;
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var13 = var1.bind(var4)(var10);
+        var3 = _closure1_slot7;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var5 = var13.channelNameContainer;
+        var1['style'] = var5;
+        var8 = _closure1_slot6;
+        var7 = _closure1_slot0;
+        var14 = _closure1_slot2;
+        var5 = 7;
+        var5 = var14[var5];
+        var5 = var7.bind(var4)(var5);
+        var7 = var5.Text;
+        var5 = {};
+        var14 = true;
+        var5['experimental_useNativeText'] = var14;
+        var14 = _closure1_slot11;
+        var16 = var14.bind(var4)(var10);
+        var17 = var5;
+        var14 = copyDataProperties(var17, var16);
+        var15 = 1;
+        var14 = 'lineClamp';
+        var5[var14] = var15;
+        var14 = var13.channelName;
+        var13 = new Array(2);
+        var13[0] = var14;
+        var13[1] = var11;
+        var11 = 'style';
+        var5[var11] = var13;
+        var11 = 'children';
+        var5[var11] = var12;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var8 = _closure1_slot6;
+        var7 = _closure1_slot10;
+        var6 = {};
+        var6['mode'] = var10;
+        var6['subtitle'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
-    }
+    };
+    var3['BaseChannelName'] = var2;
+    return var1;
 })();

@@ -121,7 +121,7 @@ case 6:
         var16 = var8[var12];
         var16 = var13.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BG_SURFACE_OVERLAY_TMP;
+        var16 = var16.BACKGROUND_SURFACE_HIGH;
         var10['backgroundColor'] = var16;
         var4['tabBar'] = var10;
         var10 = {};

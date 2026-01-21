@@ -348,7 +348,7 @@ case 34:
                 var8 = var6 != var7;
                 var6 = null;
                 if(!var8) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+case 23:
                 var6 = var7;
 case 36:
                 var2['continuation_token'] = var6;
@@ -398,8 +398,8 @@ case 0:
                         var1 = _closure3_slot3;
                         var6 = var1 + var3;
                         var1 = 15360;
-                        if(!(var6 > var1)) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                        if(!(var6 > var1)) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
                         var8 = _closure3_slot0;
                         var7 = var8.send;
                         var9 = _closure1_slot0;
@@ -418,7 +418,7 @@ case 39:
                         _closure3_slot2 = var1;
                         var1 = 0;
                         _closure3_slot3 = var1;
-case 38:
+case 37:
                         var1 = _closure3_slot2;
                         var1[var5] = var4;
                         var1 = _closure3_slot3;
@@ -430,7 +430,7 @@ case 38:
                 };
                 var3 = var7.bind(var8)(var3);
                 var3 = _closure3_slot3;
-                if(!(var3 > var4)) { _fun0005_ip = 40; continue _fun0005 }
+                if(!(var3 > var4)) { _fun0005_ip = 39; continue _fun0005 }
 case 21:
                 var4 = var5.send;
                 var3 = _closure1_slot0;
@@ -444,7 +444,7 @@ case 21:
                 var6 = _closure3_slot2;
                 var2['subscriptions'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
-case 40:
+case 39:
                 return var1;
             }
         };
@@ -481,10 +481,10 @@ case 0:
                 var6 = arguments[3];
                 var5 = this;
                 var1 = undefined;
-                if(!(var6 === var1)) { _fun0007_ip = 41; continue _fun0007 }
-case 42:
-                var6 = null;
+                if(!(var6 === var1)) { _fun0007_ip = 40; continue _fun0007 }
 case 41:
+                var6 = null;
+case 40:
                 var4 = var5.send;
                 var3 = _closure1_slot0;
                 var7 = _closure1_slot2;

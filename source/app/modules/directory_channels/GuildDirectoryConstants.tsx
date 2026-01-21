@@ -102,6 +102,8 @@ case 0:
             if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = {};
+            var1 = 'club';
+            var2['id'] = var1;
             var4 = _closure1_slot6;
             var3 = var4.SCHOOL_CLUB;
             var2['value'] = var3;
@@ -124,6 +126,8 @@ case 3:
             var1 = new Array(4);
             var1[0] = var2;
             var2 = {};
+            var5 = 'class';
+            var2['id'] = var5;
             var5 = var4.CLASS;
             var2['value'] = var5;
             var5 = var8[var3];
@@ -138,6 +142,8 @@ case 3:
             var2['label'] = var5;
             var1[1] = var2;
             var2 = {};
+            var5 = 'study';
+            var2['id'] = var5;
             var5 = var4.STUDY_SOCIAL;
             var2['value'] = var5;
             var5 = var8[var3];
@@ -154,6 +160,8 @@ case 3:
             var2['idealSize'] = var5;
             var1[2] = var2;
             var2 = {};
+            var5 = 'misc';
+            var2['id'] = var5;
             var4 = var4.MISC;
             var2['value'] = var4;
             var4 = var8[var3];
@@ -170,6 +178,8 @@ case 3:
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var3 = {};
+            var2 = 'club';
+            var3['id'] = var2;
             var5 = _closure1_slot6;
             var4 = var5.SCHOOL_CLUB;
             var3['value'] = var4;
@@ -190,6 +200,8 @@ case 2:
             var2 = new Array(4);
             var2[0] = var3;
             var3 = {};
+            var6 = 'class';
+            var3['id'] = var6;
             var6 = var5.CLASS;
             var3['value'] = var6;
             var6 = var9[var4];
@@ -204,6 +216,8 @@ case 2:
             var3['label'] = var6;
             var2[1] = var3;
             var3 = {};
+            var6 = 'study';
+            var3['id'] = var6;
             var6 = var5.STUDY_SOCIAL;
             var3['value'] = var6;
             var6 = var9[var4];
@@ -218,6 +232,8 @@ case 2:
             var3['label'] = var6;
             var2[2] = var3;
             var3 = {};
+            var6 = 'misc';
+            var3['id'] = var6;
             var5 = var5.MISC;
             var3['value'] = var5;
             var5 = var9[var4];

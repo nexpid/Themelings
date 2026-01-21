@@ -167,11 +167,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -199,7 +199,7 @@ case 35:
 case 0:
             var2 = arg1;
             var5 = arg2;
-            if(!(var2 !== var5)) { _fun0004_ip = 36; continue _fun0004 }
+            if(!(var2 !== var5)) { _fun0004_ip = 11; continue _fun0004 }
 case 37:
             var3 = var2.size;
             var1 = var5.size;
@@ -230,7 +230,7 @@ case 40:
 case 38:
             var1 = false;
             return var1;
-case 36:
+case 11:
             var1 = true;
             return var1;
         }
@@ -257,7 +257,7 @@ case 46:
             var2 = new var6[var2](var5, var4);
             var1 = var2 instanceof Object ? var2 : var3;
 case 28:
-            _fun0005_ip = 9; continue _fun0005;
+            _fun0005_ip = 47; continue _fun0005;
 case 44:
             var2 = global;
             var2 = var2.Set;
@@ -266,7 +266,7 @@ case 44:
             var6 = var3;
             var2 = new var6[var2](var5);
             var1 = var2 instanceof Object ? var2 : var3;
-case 9:
+case 47:
             return var1;
         }
     };

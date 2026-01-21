@@ -53,6 +53,9 @@ case 8:
             var1.return();
 case 7:
             var1 = {};
+            var4 = var2.toString;
+            var4 = var4.bind(var2)();
+            var1['id'] = var4;
             var1['label'] = var3;
             var1['value'] = var2;
             return var1;
@@ -109,6 +112,7 @@ case 8:
             var1.return();
 case 7:
             var1 = {};
+            var1['id'] = var2;
             var1['label'] = var3;
             var1['value'] = var2;
             return var1;

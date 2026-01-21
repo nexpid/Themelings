@@ -1,4 +1,4 @@
-// app/modules/notifications/native/CustomEmojisInPushNotificationsExperiment.tsx
+// app/modules/media_engine/H264MFVoiceExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2025-08-custom-emojis-in-push-notifications-ios', 'kind': 'user'};
+    var4 = {'name': '2026-01-h264-mf-decode-voice', 'kind': 'user'};
     var9 = {};
     var10 = false;
     var9['enabled'] = var10;
@@ -32,9 +32,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/notifications/native/CustomEmojisInPushNotificationsExperiment.tsx';
+    var4 = 'modules/media_engine/H264MFVoiceExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function shouldEnableCustomEmojisInPushNotifications(arg1) {
+    var2 = function getH264MFVoiceExperimentConfig(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -42,9 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
         return var1;
     };
-    var3['shouldEnableCustomEmojisInPushNotifications'] = var2;
+    var3['getH264MFVoiceExperimentConfig'] = var2;
     return var1;
 })();

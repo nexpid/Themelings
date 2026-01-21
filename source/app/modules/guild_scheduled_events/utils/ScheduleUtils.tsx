@@ -679,6 +679,8 @@ case 0:
             var1 = 'dddd';
             var14 = var2.bind(var3)(var1);
             var2 = {};
+            var1 = 'none';
+            var2['id'] = var1;
             var3 = _closure1_slot4;
             var1 = var3.NONE;
             var2['value'] = var1;
@@ -699,6 +701,8 @@ case 0:
             var1 = new Array(5);
             var1[0] = var2;
             var2 = {};
+            var5 = 'weekly';
+            var2['id'] = var5;
             var5 = var3.WEEKLY;
             var2['value'] = var5;
             var5 = var11[var9];
@@ -715,6 +719,8 @@ case 0:
             var2['label'] = var5;
             var1[1] = var2;
             var2 = {};
+            var5 = 'biweekly';
+            var2['id'] = var5;
             var5 = var3.BIWEEKLY;
             var2['value'] = var5;
             var5 = var11[var9];
@@ -731,6 +737,8 @@ case 0:
             var2['label'] = var5;
             var1[2] = var2;
             var2 = {};
+            var5 = 'monthly';
+            var2['id'] = var5;
             var5 = var3.MONTHLY;
             var2['value'] = var5;
             var5 = var11[var9];
@@ -748,6 +756,8 @@ case 0:
             var2['label'] = var5;
             var1[3] = var2;
             var2 = {};
+            var5 = 'yearly';
+            var2['id'] = var5;
             var3 = var3.YEARLY;
             var2['value'] = var3;
             var3 = var11[var9];
@@ -779,6 +789,8 @@ case 0:
 case 41:
             var3 = var1.push;
             var2 = {};
+            var5 = 'weekdayOnly';
+            var2['id'] = var5;
             var5 = _closure1_slot4;
             var5 = var5.WEEKDAY_ONLY;
             var2['value'] = var5;
@@ -811,6 +823,8 @@ case 43:
 case 45:
             var3 = var1.push;
             var2 = {};
+            var5 = 'weekendOnly';
+            var2['id'] = var5;
             var5 = _closure1_slot4;
             var5 = var5.WEEKEND_ONLY;
             var2['value'] = var5;

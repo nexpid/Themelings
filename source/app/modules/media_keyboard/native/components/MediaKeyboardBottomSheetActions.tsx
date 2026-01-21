@@ -269,7 +269,7 @@ case 23:
             var2 = var13[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.colors;
-            var2 = var2.BG_SURFACE_OVERLAY_TMP;
+            var2 = var2.CARD_BACKGROUND_DEFAULT;
             var3 = var3.bind(var8)(var2);
             var8 = var3;
             if(!var5) { _fun0002_ip = 25; continue _fun0002 }

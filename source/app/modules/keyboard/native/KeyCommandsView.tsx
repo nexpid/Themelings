@@ -172,11 +172,11 @@ case 33:
                 var3 = 0;
                 var5 = var3 < var2;
                 if(!var5) { _fun0004_ip = 35; continue _fun0004 }
-case 4:
+case 36:
                 var5 = var4[var3];
                 var1[var3] = var5;
                 var3 = var3 + 1;
-                if(var3 < var2) { _fun0004_ip = 4; continue _fun0004 }
+                if(var3 < var2) { _fun0004_ip = 36; continue _fun0004 }
 case 35:
                 return var1;
             }
@@ -222,16 +222,16 @@ case 35:
         var10 = var5.bind(var1)(var4);
         var4 = var10.isAndroid;
         var4 = var4.bind(var10)();
-        if(var4) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+        if(var4) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
         var4 = 'KeyCommandsView';
         var4 = var7.bind(var1)(var4);
-        _fun0001_ip = 38; continue _fun0001;
-case 36:
+        _fun0001_ip = 39; continue _fun0001;
+case 37:
         var7 = 5;
         var7 = var6[var7];
         var4 = var9.bind(var1)(var7);
-case 38:
+case 39:
         var _closure1_slot4 = var4;
         var7 = var8.createContext;
         var4 = {};
@@ -381,11 +381,11 @@ case 0:
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 4; continue _fun0005 }
-case 39:
+                    if(!(var1 != var2)) { _fun0005_ip = 36; continue _fun0005 }
+case 40:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
-case 4:
+case 36:
                     var1 = undefined;
                     return var1;
                 }
@@ -423,7 +423,7 @@ case 0:
                     var3 = var2.bind(var4)(var1);
                     var2 = var3.bind(var4)();
                     var1 = var2.done;
-                    if(var1) { _fun0006_ip = 40; continue _fun0006 }
+                    if(var1) { _fun0006_ip = 41; continue _fun0006 }
 case 33:
                     var6 = var2.value;
                     var1 = _closure2_slot1;
@@ -432,7 +432,7 @@ case 33:
                     var1 = var6.done;
                     var2 = var6;
                     if(!var1) { _fun0006_ip = 33; continue _fun0006 }
-case 40:
+case 41:
                     var1 = function() {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -442,7 +442,7 @@ case 0:
                             var4 = var3.bind(var1)(var2);
                             var3 = var4.bind(var1)();
                             var2 = var3.done;
-                            if(var2) { _fun0007_ip = 41; continue _fun0007 }
+                            if(var2) { _fun0007_ip = 42; continue _fun0007 }
 case 33:
                             var2 = var3.value;
                             var6 = _closure2_slot2;
@@ -452,7 +452,7 @@ case 33:
                             var2 = var6.done;
                             var3 = var6;
                             if(!var2) { _fun0007_ip = 33; continue _fun0007 }
-case 41:
+case 42:
                             return var1;
                         }
                     };

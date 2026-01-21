@@ -212,11 +212,11 @@ case 37:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0004_ip = 39; continue _fun0004 }
-case 8:
+case 40:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0004_ip = 8; continue _fun0004 }
+            if(var3 < var2) { _fun0004_ip = 40; continue _fun0004 }
 case 39:
             return var1;
         }
@@ -227,16 +227,16 @@ case 39:
 case 0:
             var3 = _closure1_slot19;
             var1 = null;
-            if(!(var1 == var3)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!(var1 == var3)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var1 = global;
             var3 = var1.Date;
             var1 = var3.now;
             var1 = var1.bind(var3)();
-            _fun0005_ip = 42; continue _fun0005;
-case 40:
+            _fun0005_ip = 43; continue _fun0005;
+case 41:
             var1 = _closure1_slot19;
-case 42:
+case 43:
             return var1;
         }
     };
@@ -291,10 +291,10 @@ case 0:
             var4 = var4 + var6;
             var4 = var5.bind(var2)(var4);
             var1 = var3 > var1;
-            if(!var1) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(!var1) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var1 = var3 < var2;
-case 43:
+case 44:
             return var1;
         }
     };
@@ -309,8 +309,8 @@ case 0:
             var4 = undefined;
             var3 = var3.bind(var4)(var5, var1);
             var1 = !var3;
-            if(var3) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+            if(var3) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
             var3 = _closure1_slot24;
             var2 = global;
             var2 = var2.Date;
@@ -322,7 +322,7 @@ case 46:
             var2 = var6.getFullYear;
             var2 = var2.bind(var6)();
             var1 = var3.bind(var4)(var5, var2);
-case 45:
+case 46:
             return var1;
         }
     };
@@ -332,12 +332,12 @@ case 45:
 case 0:
             var4 = arguments[0];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0008_ip = 41; continue _fun0008 }
-case 47:
+            if(!(var4 === var1)) { _fun0008_ip = 42; continue _fun0008 }
+case 48:
             var4 = false;
-case 41:
-            if(var4) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
+case 42:
+            if(var4) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
             var5 = _closure1_slot21;
             var4 = _closure1_slot14;
             var9 = var5.bind(var1)(var4);
@@ -346,18 +346,18 @@ case 49:
             var8 = 0.5;
             var7 = null;
             var6 = 0.7;
-            if(var4) { _fun0008_ip = 50; continue _fun0008 }
+            if(var4) { _fun0008_ip = 51; continue _fun0008 }
 case 3:
             var11 = var5.value;
             var10 = _closure1_slot9;
             var4 = var10.getUserAffinity;
             var10 = var4.bind(var10)(var11);
             var4 = var7 != var10;
-            if(!var4) { _fun0008_ip = 51; continue _fun0008 }
+            if(!var4) { _fun0008_ip = 17; continue _fun0008 }
 case 52:
             var12 = var10.dmProbability;
             var4 = var12 > var6;
-case 51:
+case 17:
             if(!var4) { _fun0008_ip = 53; continue _fun0008 }
 case 54:
             var12 = _closure1_slot15;
@@ -379,10 +379,10 @@ case 57:
             var10 = var9.bind(var1)();
             var4 = var10.done;
             var5 = var10;
-            if(var4) { _fun0008_ip = 50; continue _fun0008 }
+            if(var4) { _fun0008_ip = 51; continue _fun0008 }
 case 59:
             _fun0008_ip = 3; continue _fun0008;
-case 48:
+case 49:
             var4 = global;
             var6 = var4.Math;
             var5 = var6.ceil;
@@ -416,7 +416,7 @@ case 48:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 50:
+case 51:
             return var1;
         }
     };
@@ -427,7 +427,7 @@ case 0:
             var2 = _closure1_slot18;
             var9 = null;
             if(!(var9 != var2)) { _fun0009_ip = 37; continue _fun0009 }
-case 41:
+case 42:
             var4 = _closure1_slot31;
             var3 = _closure1_slot18;
             var2 = undefined;
@@ -493,7 +493,7 @@ case 66:
 case 67:
             var10 = var4;
             if(!(var9 != var12)) { _fun0009_ip = 64; continue _fun0009 }
-case 68:
+case 28:
             var3 = var7.Date;
             var11 = var3.prototype;
             var11 = Object.create(var11, {constructor: {value: var3}});
@@ -505,7 +505,7 @@ case 68:
             var11 = var11.bind(var2)(var3);
             var10 = var3;
             if(!var11) { _fun0009_ip = 64; continue _fun0009 }
-case 69:
+case 68:
             var12 = _closure1_slot14;
             var11 = var12.push;
             var11 = var11.bind(var12)(var13);
@@ -585,15 +585,15 @@ case 0:
             var2 = var2.messageGiftIntentLastShownMap;
             var4 = var2[var3];
             var2 = null;
-            if(!(var2 == var4)) { _fun0010_ip = 70; continue _fun0010 }
-case 71:
+            if(!(var2 == var4)) { _fun0010_ip = 69; continue _fun0010 }
+case 70:
             var2 = _closure1_slot13;
             var2 = var2.messageGiftIntentLastShownMap;
             var4 = _closure1_slot23;
             var1 = undefined;
             var1 = var4.bind(var1)();
             var2[var3] = var1;
-case 70:
+case 69:
             var1 = undefined;
             return var1;
         }
@@ -618,8 +618,8 @@ case 0:
             var4['location'] = var8;
             var4 = var5.bind(var6)(var4);
             var4 = var4.enabled;
-            if(!var4) { _fun0011_ip = 72; continue _fun0011 }
-case 73:
+            if(!var4) { _fun0011_ip = 71; continue _fun0011 }
+case 72:
             _closure1_slot18 = var7;
             var5 = _closure1_slot11;
             var4 = var5.getFriendIDs;
@@ -650,8 +650,8 @@ case 0:
                     var2 = var4.getSince;
                     var5 = var2.bind(var4)(var3);
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0012_ip = 74; continue _fun0012 }
-case 75:
+                    if(!(var2 != var5)) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
                     var2 = global;
                     var2 = var2.Date;
                     var4 = var2.prototype;
@@ -667,7 +667,7 @@ case 75:
                     var1 = {};
                     var1['friendsSince'] = var4;
                     var2[var3] = var1;
-case 74:
+case 73:
                     var1 = undefined;
                     return var1;
                 }
@@ -687,7 +687,7 @@ case 74:
             var3 = _closure1_slot26;
             var2 = true;
             var2 = var3.bind(var1)(var2);
-case 72:
+case 71:
             return var1;
         }
     };
@@ -793,14 +793,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot20;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0013_ip = 76; continue _fun0013 }
-case 77:
+                if(var1) { _fun0013_ip = 75; continue _fun0013 }
+case 76:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0013_ip = 78; continue _fun0013;
-case 76:
+                _fun0013_ip = 77; continue _fun0013;
+case 75:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -809,7 +809,7 @@ case 76:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 78:
+case 77:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -840,8 +840,8 @@ case 0:
                 var2 = {};
                 var1['profilePopoutGiftIntentsDismissMap'] = var2;
                 _closure1_slot13 = var1;
-                if(!(var7 != var3)) { _fun0014_ip = 79; continue _fun0014 }
-case 11:
+                if(!(var7 != var3)) { _fun0014_ip = 78; continue _fun0014 }
+case 79:
                 var2 = _closure1_slot13;
                 var1 = var3.friendsTabBadgeLastDismissedTime;
                 var2['friendsTabBadgeLastDismissedTime'] = var1;
@@ -874,7 +874,7 @@ case 80:
                 var13 = var1;
                 var3 = copyDataProperties(var13, var12);
                 var2['profilePopoutGiftIntentsDismissMap'] = var1;
-case 79:
+case 78:
                 var3 = var4.syncWith;
                 var1 = _closure1_slot11;
                 var2 = new Array(4);
@@ -1005,12 +1005,12 @@ case 0:
                 var3 = var3.giftUnreadNotificationLastDismissedTimes;
                 var6 = var3.length;
                 var5 = 0;
-                if(!(var5 !== var6)) { _fun0016_ip = 92; continue _fun0016 }
-case 42:
+                if(!(var5 !== var6)) { _fun0016_ip = 15; continue _fun0016 }
+case 43:
                 var6 = var3.length;
                 var5 = 5;
-                if(!(!(var6 >= var5))) { _fun0016_ip = 93; continue _fun0016 }
-case 94:
+                if(!(!(var6 >= var5))) { _fun0016_ip = 92; continue _fun0016 }
+case 9:
                 var2 = _closure1_slot23;
                 var2 = var2.bind(var4)();
                 var _closure3_slot0 = var2;
@@ -1028,10 +1028,10 @@ case 94:
                 var1 = 1;
                 var1 = var2 >= var1;
                 return var1;
-case 93:
+case 92:
                 var1 = true;
                 return var1;
-case 92:
+case 15:
                 var1 = false;
                 return var1;
             }
@@ -1079,8 +1079,8 @@ case 0:
                 var1 = null;
                 var4 = var1 == var3;
                 var1 = 0;
-                if(var4) { _fun0017_ip = 95; continue _fun0017 }
-case 96:
+                if(var4) { _fun0017_ip = 93; continue _fun0017 }
+case 94:
                 var8 = var3.friendsSince;
                 var3 = global;
                 var4 = var3.Math;
@@ -1097,7 +1097,7 @@ case 96:
                 var2 = true;
                 var2 = var6.bind(var7)(var8, var5, var2);
                 var1 = var3.bind(var4)(var2);
-case 95:
+case 93:
                 return var1;
             }
         };
@@ -1115,12 +1115,12 @@ case 0:
                 var1 = var1[var4];
                 var3 = null;
                 var1 = var3 == var1;
-                if(!var1) { _fun0018_ip = 97; continue _fun0018 }
-case 98:
+                if(!var1) { _fun0018_ip = 95; continue _fun0018 }
+case 96:
                 var2 = _closure1_slot17;
                 var2 = var2[var4];
                 var1 = var3 != var2;
-case 97:
+case 95:
                 return var1;
             }
         };
@@ -1228,27 +1228,27 @@ case 0:
             var3 = arg1;
             var4 = null;
             var1 = var3;
-            if(!(var4 != var1)) { _fun0019_ip = 99; continue _fun0019 }
-case 100:
+            if(!(var4 != var1)) { _fun0019_ip = 97; continue _fun0019 }
+case 98:
             var2 = {};
             var6 = var3.friendsTabBadgeLastDismissedTime;
             var7 = var4 != var6;
             var5 = null;
-            if(!var7) { _fun0019_ip = 40; continue _fun0019 }
-case 98:
+            if(!var7) { _fun0019_ip = 41; continue _fun0019 }
+case 96:
             var5 = var6;
-case 40:
+case 41:
             var2['friendsTabBadgeLastDismissedTime'] = var5;
             var3 = var3.lastShownFriendsListGiftIntents;
-            if(!(var4 == var3)) { _fun0019_ip = 77; continue _fun0019 }
-case 101:
+            if(!(var4 == var3)) { _fun0019_ip = 76; continue _fun0019 }
+case 99:
             var3 = new Array(0);
-case 77:
+case 76:
             var2['lastShownFriendsListGiftIntents'] = var3;
             var3 = {};
             var2['messageGiftIntentLastShownMap'] = var3;
             var1 = var2;
-case 99:
+case 97:
             return var1;
         }
     };
@@ -1260,20 +1260,20 @@ case 0:
             var4 = null;
             var1 = var3;
             if(!(var4 != var1)) { _fun0020_ip = 34; continue _fun0020 }
-case 100:
+case 98:
             var2 = {};
             var2['friendsTabBadgeLastDismissedTime'] = var4;
             var5 = var3.lastShownFriendsListGiftIntents;
             if(!(var4 == var5)) { _fun0020_ip = 37; continue _fun0020 }
-case 98:
+case 96:
             var5 = new Array(0);
 case 37:
             var2['lastShownFriendsListGiftIntents'] = var5;
             var3 = var3.messageGiftIntentLastShownMap;
-            if(!(var4 == var3)) { _fun0020_ip = 70; continue _fun0020 }
-case 94:
+            if(!(var4 == var3)) { _fun0020_ip = 69; continue _fun0020 }
+case 9:
             var3 = {};
-case 70:
+case 69:
             var2['messageGiftIntentLastShownMap'] = var3;
             var3 = new Array(0);
             var2['giftUnreadNotificationLastDismissedTimes'] = var3;
@@ -1289,32 +1289,32 @@ case 0:
             var3 = arg1;
             var4 = null;
             var1 = var3;
-            if(!(var4 != var1)) { _fun0021_ip = 102; continue _fun0021 }
-case 100:
+            if(!(var4 != var1)) { _fun0021_ip = 100; continue _fun0021 }
+case 98:
             var2 = {};
             var2['friendsTabBadgeLastDismissedTime'] = var4;
             var5 = var3.lastShownFriendsListGiftIntents;
             if(!(var4 == var5)) { _fun0021_ip = 37; continue _fun0021 }
-case 98:
+case 96:
             var5 = new Array(0);
 case 37:
             var2['lastShownFriendsListGiftIntents'] = var5;
             var5 = var3.messageGiftIntentLastShownMap;
-            if(!(var4 == var5)) { _fun0021_ip = 70; continue _fun0021 }
-case 94:
+            if(!(var4 == var5)) { _fun0021_ip = 69; continue _fun0021 }
+case 9:
             var5 = {};
-case 70:
+case 69:
             var2['messageGiftIntentLastShownMap'] = var5;
             var3 = var3.giftUnreadNotificationLastDismissedTimes;
-            if(!(var4 == var3)) { _fun0021_ip = 76; continue _fun0021 }
-case 103:
+            if(!(var4 == var3)) { _fun0021_ip = 75; continue _fun0021 }
+case 101:
             var3 = new Array(0);
-case 76:
+case 75:
             var2['giftUnreadNotificationLastDismissedTimes'] = var3;
             var3 = {};
             var2['profilePopoutGiftIntentsDismissMap'] = var3;
             var1 = var2;
-case 102:
+case 100:
             return var1;
         }
     };
@@ -1433,13 +1433,13 @@ case 0:
             var1 = arg1;
             var4 = var1.total;
             var2 = null;
-            if(!(var2 != var4)) { _fun0022_ip = 104; continue _fun0022 }
-case 105:
+            if(!(var2 != var4)) { _fun0022_ip = 102; continue _fun0022 }
+case 103:
             var3 = _closure1_slot31;
             var1 = undefined;
             var3 = var3.bind(var1)(var4);
             return var1;
-case 104:
+case 102:
             _closure1_slot18 = var2;
             var2 = _closure1_slot27;
             var1 = undefined;

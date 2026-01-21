@@ -156,7 +156,7 @@ case 15: // try_start_0
                     var9 = false;
                     var3['rejectWithError'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    SaveGenerator(address=151);
+                    SaveGenerator(address=152);
 case 16:
                     return var3;
 case 17:
@@ -419,16 +419,16 @@ case 39: // catch_target0
                     var5 = null;
                     var8 = var5 == var4;
                     var4 = undefined;
-                    if(var8) { _fun0004_ip = 22; continue _fun0004 }
-case 40:
+                    if(var8) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                     var7 = var7.body;
                     var6 = var7;
                     var7 = var5 == var7;
                     var4 = undefined;
-                    if(var7) { _fun0004_ip = 22; continue _fun0004 }
-case 41:
+                    if(var7) { _fun0004_ip = 40; continue _fun0004 }
+case 20:
                     var4 = var6.message;
-case 22:
+case 40:
                     var3 = var4;
                     if(!(var5 == var4)) { _fun0004_ip = 42; continue _fun0004 }
 case 43:

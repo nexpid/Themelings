@@ -138,20 +138,21 @@ case 4:
 case 6:
                     var2 = var3.map;
                     var1 = function(arg1) {
-                        var2 = _closure2_slot2;
-                        var1 = arg1;
-                        var2 = var2[var1];
-                        var3 = _closure1_slot1;
-                        var4 = _closure1_slot2;
+                        var3 = arg1;
+                        var1 = _closure2_slot2;
+                        var2 = var1[var3];
+                        var4 = _closure1_slot1;
+                        var5 = _closure1_slot2;
                         var1 = 5;
-                        var1 = var4[var1];
-                        var5 = undefined;
-                        var4 = var3.bind(var5)(var1);
+                        var1 = var5[var1];
+                        var6 = undefined;
+                        var5 = var4.bind(var6)(var1);
                         var1 = null;
-                        var3 = var1 != var2;
+                        var4 = var1 != var2;
                         var1 = 'guild should not be null';
-                        var1 = var4.bind(var5)(var3, var1);
+                        var1 = var5.bind(var6)(var4, var1);
                         var1 = {};
+                        var1['id'] = var3;
                         var3 = var2.name;
                         var1['label'] = var3;
                         var2 = var2.id;

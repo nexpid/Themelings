@@ -62,47 +62,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = function(arg1) {
+    var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = {};
-            var2 = {'opacity': null, 'position': 'relative', 'marginVertical': null, 'marginHorizontal': 8, 'borderRadius': null, 'flexGrow': 1};
-            var8 = 1;
-            var4 = arg1;
-            var3 = var8;
-            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = 0.5;
-case 2:
-            var2['opacity'] = var3;
+            var2 = {'position': 'relative', 'marginVertical': null, 'marginHorizontal': 8, 'borderRadius': null, 'flexGrow': 1};
             var4 = _closure1_slot10;
             var2['marginVertical'] = var4;
-            var7 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
             var4 = 10;
-            var9 = var6[var4];
-            var5 = undefined;
-            var9 = var7.bind(var5)(var9);
-            var9 = var9.radii;
-            var9 = var9.md;
-            var2['borderRadius'] = var9;
+            var5 = var7[var4];
+            var6 = undefined;
+            var5 = var8.bind(var6)(var5);
+            var5 = var5.radii;
+            var5 = var5.md;
+            var2['borderRadius'] = var5;
+            var5 = 1;
             var1['container'] = var2;
             var2 = {};
-            var2['opacity'] = var8;
-            var8 = var6[var4];
-            var8 = var7.bind(var5)(var8);
-            var8 = var8.colors;
-            var8 = var8.BACKGROUND_MOD_MUTED;
-            var2['backgroundColor'] = var8;
+            var9 = var7[var4];
+            var9 = var8.bind(var6)(var9);
+            var9 = var9.colors;
+            var9 = var9.BACKGROUND_MOD_MUTED;
+            var2['backgroundColor'] = var9;
             var1['selected'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
-            var8 = var6[var4];
-            var8 = var7.bind(var5)(var8);
-            var8 = var8.colors;
-            var8 = var8.BORDER_MUTED;
-            var2['borderColor'] = var8;
-            var4 = var6[var4];
-            var4 = var7.bind(var5)(var4);
+            var9 = var7[var4];
+            var9 = var8.bind(var6)(var9);
+            var9 = var9.colors;
+            var9 = var9.BORDER_MUTED;
+            var2['borderColor'] = var9;
+            var4 = var7[var4];
+            var4 = var8.bind(var6)(var4);
             var4 = var4.radii;
             var4 = var4.md;
             var2['borderRadius'] = var4;
@@ -116,16 +108,27 @@ case 2:
             var2 = {'textAlign': 'left', 'flex': 1};
             var4 = _closure1_slot0;
             var3 = 11;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
             var3 = var4.isIOS;
             var4 = var3.bind(var4)();
             var3 = 20;
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = 22;
+case 2:
+            var2['lineHeight'] = var3;
+            var4 = arg1;
+            var3 = var5;
             if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = 22;
+            var4 = arg2;
+            var3 = var5;
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
+            var3 = 0.5;
 case 4:
-            var2['lineHeight'] = var3;
+            var2['opacity'] = var3;
             var1['channelLabelText'] = var2;
             return var1;
         }
@@ -145,7 +148,7 @@ case 0:
             var31 = var3.subtitle;
             var3 = _closure1_slot13;
             var4 = undefined;
-            var24 = var3.bind(var4)(var19);
+            var24 = var3.bind(var4)(var19, var20);
             var5 = var21.id;
             var _closure2_slot1 = var5;
             var3 = var21.guild_id;
@@ -262,10 +265,10 @@ case 0:
             };
             var9 = var6.bind(var7)(var1, var3);
             var30 = var12;
-            if(!var30) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!var30) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var30 = !var19;
-case 6:
+case 7:
             var15 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 21;
@@ -292,8 +295,8 @@ case 6:
             var1['isRulesChannel'] = var2;
             var6 = var1.channel;
             var1 = var1.isRulesChannel;
-            if(var1) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 14;
@@ -310,8 +313,8 @@ case 9:
             var1['isRulesChannel'] = var7;
             var5 = var3.bind(var5)(var6, var1);
             var6 = var2;
-            _fun0002_ip = 10; continue _fun0002;
-case 8:
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 12;
@@ -322,7 +325,7 @@ case 8:
             var1 = var7[var1];
             var1 = var3.bind(var4)(var1);
             var5 = var1.BookCheckIcon;
-case 10:
+case 11:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var28 = 15;
@@ -384,10 +387,10 @@ case 10:
             var10 = var10.ChannelModes;
             var10 = var10.SELECTED;
             var10 = var34 === var10;
-            if(!var10) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(!var10) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var10 = var24.selected;
-case 11:
+case 12:
             var9[1] = var10;
             var6['style'] = var9;
             var6['accessible'] = var8;
@@ -413,15 +416,15 @@ case 11:
             var8 = var8.ChannelModes;
             var8 = var8.SELECTED;
             var9 = var34 === var8;
-            if(!var9) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var9) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var11 = _closure1_slot11;
             var10 = _closure1_slot4;
             var8 = {};
             var12 = var24.selectedBorder;
             var8['style'] = var12;
             var9 = var11.bind(var4)(var10, var8);
-case 13:
+case 14:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot12;
@@ -432,17 +435,17 @@ case 13:
             var12[0] = var15;
             var15 = null;
             var22 = var15 != var31;
-            if(!var22) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+            if(!var22) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var22 = var24.rowWithSubtitle;
-case 15:
+case 16:
             var12[1] = var22;
             var9['style'] = var12;
             var12 = new Array(3);
             var12[0] = var14;
             var14 = var26;
-            if(!(var15 != var31)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!(var15 != var31)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var23 = _closure1_slot12;
             var22 = _closure1_slot4;
             var15 = {};
@@ -474,7 +477,7 @@ case 18:
             var24[1] = var25;
             var15['children'] = var24;
             var14 = var23.bind(var4)(var22, var15);
-case 17:
+case 18:
             var12[1] = var14;
             var15 = _closure1_slot11;
             var14 = _closure1_slot1;

@@ -59,7 +59,7 @@ case 4:
         }
     };
     var3['getApplicationIdForOrbSKU'] = var4;
-    var4 = function() {
+    var2 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = _closure1_slot0;
@@ -124,46 +124,6 @@ case 5:
             return var1;
         }
     };
-    var3['dismissOrbsOnboardingExperience'] = var4;
-    var2 = function() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var8 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var4 = 4;
-            var3 = var2[var4];
-            var1 = undefined;
-            var5 = var8.bind(var1)(var3);
-            var3 = var5.UNSAFE_isDismissibleContentDismissed;
-            var7 = 5;
-            var2 = var2[var7];
-            var2 = var8.bind(var1)(var2);
-            var2 = var2.DismissibleContent;
-            var2 = var2.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
-            var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var4 = var2[var4];
-            var5 = var3.bind(var1)(var4);
-            var4 = var5.UNSAFE_markDismissibleContentAsDismissed;
-            var2 = var2[var7];
-            var2 = var3.bind(var1)(var2);
-            var2 = var2.DismissibleContent;
-            var3 = var2.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_ANNOUNCEMENT_MODAL;
-            var2 = {};
-            var7 = _closure1_slot5;
-            var7 = var7.INDIRECT_ACTION;
-            var2['dismissAction'] = var7;
-            var6 = _closure1_slot4;
-            var6 = var6.VIRTUAL_CURRENCY_MOBILE_ONBOARDING;
-            var2['groupName'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-case 7:
-            return var1;
-        }
-    };
-    var3['dismissMobileOrbsOnboardingExperience'] = var2;
+    var3['dismissOrbsOnboardingExperience'] = var2;
     return var1;
 })();

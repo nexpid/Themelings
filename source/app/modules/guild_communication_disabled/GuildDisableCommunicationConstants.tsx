@@ -221,6 +221,7 @@ case 2:
 case 0:
                 var3 = arg1;
                 var1 = {};
+                var1['id'] = var3;
                 var6 = _closure1_slot3;
                 var4 = _closure1_slot2;
                 var5 = var4[var3];
@@ -230,7 +231,7 @@ case 0:
                 var6 = var4 != var5;
                 var4 = '';
                 if(!var6) { _fun0002_ip = 14; continue _fun0002 }
-case 5:
+case 15:
                 var4 = var5;
 case 14:
                 var1['label'] = var4;

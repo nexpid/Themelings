@@ -605,12 +605,12 @@ case 0:
                     var2 = _closure2_slot6;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 22; continue _fun0006 }
-case 2:
+                    if(!(var2 != var4)) { _fun0006_ip = 4; continue _fun0006 }
+case 22:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
-case 22:
+case 4:
                     return var1;
                 }
             };

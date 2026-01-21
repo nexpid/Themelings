@@ -194,6 +194,8 @@ case 9:
         var1 = function(arg1) {
             var2 = arg1;
             var1 = {};
+            var3 = var2.id;
+            var1['id'] = var3;
             var3 = var2.label;
             var1['label'] = var3;
             var2 = var2.id;

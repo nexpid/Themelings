@@ -315,7 +315,7 @@ case 10:
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.colors;
-            var2 = var4.BG_SURFACE_OVERLAY_TMP;
+            var2 = var4.CARD_BACKGROUND_DEFAULT;
 case 9:
             var20 = var3.bind(var5)(var2);
             _closure2_slot5 = var20;

@@ -2588,6 +2588,7 @@ case 0:
                 if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var1 = {};
+                var1['id'] = var3;
                 var1['value'] = var3;
                 var1['label'] = var2;
                 var2 = undefined;
@@ -2595,6 +2596,7 @@ case 3:
                 _fun0001_ip = 4; continue _fun0001;
 case 2:
                 var2 = {};
+                var2['id'] = var3;
                 var2['value'] = var3;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot1;

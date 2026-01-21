@@ -552,7 +552,7 @@ case 15:
         var12 = var6[var12];
         var12 = var19.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.BG_SURFACE_OVERLAY_TMP;
+        var12 = var12.CARD_BACKGROUND_DEFAULT;
         var4['backgroundColor'] = var12;
         var7['card'] = var4;
         var12 = 32;

@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var2.style;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var2 = 16;
+        var2 = 15;
         var2 = var10[var2];
         var4 = undefined;
         var3 = var6.bind(var4)(var2);
@@ -20,198 +20,175 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         var9 = var2.balance;
         var _closure2_slot0 = var9;
-        var2 = 17;
-        var2 = var10[var2];
-        var3 = var6.bind(var4)(var2);
-        var2 = var3.useVirtualCurrencyOnboardingCoachmark;
-        var11 = var2.bind(var3)();
-        var _closure2_slot1 = var11;
         var8 = _closure1_slot3;
         var3 = var8.useCallback;
-        var2 = new Array(2);
+        var2 = new Array(1);
         var2[0] = var9;
-        var2[1] = var11;
         var1 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 13;
-                var3 = var3[var1];
-                var1 = undefined;
-                var6 = var4.bind(var1)(var3);
-                var5 = var6.track;
-                var3 = _closure1_slot5;
-                var4 = var3.USER_PROFILE_ACTION;
-                var3 = {};
-                var7 = 'ORBS_BALANCE_PRESSED';
-                var3['profile_action'] = var7;
-                var3 = var5.bind(var6)(var4, var3);
-                var4 = _closure2_slot1;
-                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var4 = 12;
-                var4 = var6[var4];
-                var5 = var5.bind(var1)(var4);
-                var4 = var5.hideVirtualCurrencyOnboardingCoachmark;
-                var4 = var4.bind(var5)();
-case 2:
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 12;
+            var3 = var8[var1];
+            var1 = undefined;
+            var6 = var7.bind(var1)(var3);
+            var5 = var6.track;
+            var3 = _closure1_slot5;
+            var4 = var3.USER_PROFILE_ACTION;
+            var3 = {};
+            var10 = 'ORBS_BALANCE_PRESSED';
+            var3['profile_action'] = var10;
+            var3 = var5.bind(var6)(var4, var3);
+            var3 = 16;
+            var3 = var8[var3];
+            var6 = var7.bind(var1)(var3);
+            var5 = var6.openLazy;
+            var4 = {};
+            var3 = _closure2_slot0;
+            var4['balance'] = var3;
+            var3 = {};
+            var12 = _closure1_slot0;
+            var9 = 8;
+            var10 = var8[var9];
+            var10 = var12.bind(var1)(var10);
+            var13 = var10.intl;
+            var11 = var13.string;
+            var10 = var8[var9];
+            var10 = var12.bind(var1)(var10);
+            var10 = var10.t;
+            var10 = var10.WrzJBf;
+            var10 = var11.bind(var13)(var10);
+            var3['buttonText'] = var10;
+            var10 = function onButtonPress() {
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var4 = 18;
-                var4 = var8[var4];
-                var6 = var7.bind(var1)(var4);
-                var5 = var6.openLazy;
-                var4 = {};
-                var3 = _closure2_slot0;
-                var4['balance'] = var3;
-                var3 = {};
-                var12 = _closure1_slot0;
-                var9 = 8;
-                var10 = var8[var9];
-                var10 = var12.bind(var1)(var10);
-                var13 = var10.intl;
-                var11 = var13.string;
-                var10 = var8[var9];
-                var10 = var12.bind(var1)(var10);
-                var10 = var10.t;
-                var10 = var10.WrzJBf;
-                var10 = var11.bind(var13)(var10);
-                var3['buttonText'] = var10;
-                var10 = function onButtonPress() {
-                    var7 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var1 = 13;
-                    var2 = var8[var1];
-                    var1 = undefined;
-                    var9 = var7.bind(var1)(var2);
-                    var4 = var9.track;
-                    var2 = _closure1_slot5;
-                    var3 = var2.ORB_BALANCE_ACTION_SHEET_ACTION;
-                    var2 = {};
-                    var6 = 'GO_TO_SHOP';
-                    var2['type'] = var6;
-                    var6 = 21;
-                    var10 = var8[var6];
-                    var10 = var7.bind(var1)(var10);
-                    var10 = var10.YOU_SCREEN;
-                    var2['source'] = var10;
-                    var10 = _closure2_slot0;
-                    var2['balance'] = var10;
-                    var2 = var4.bind(var9)(var3, var2);
-                    var2 = 18;
-                    var2 = var8[var2];
-                    var3 = var7.bind(var1)(var2);
-                    var2 = var3.hideActionSheet;
-                    var2 = var2.bind(var3)();
-                    var3 = _closure1_slot0;
-                    var2 = 22;
-                    var2 = var8[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.openCollectiblesShopMobile;
-                    var2 = {};
-                    var9 = var8[var6];
-                    var9 = var7.bind(var1)(var9);
-                    var10 = var9.COLLECTIBLES_SHOP;
-                    var9 = new Array(1);
-                    var9[0] = var10;
-                    var2['analyticsLocations'] = var9;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var1)(var6);
-                    var6 = var6.COLLECTIBLES_SHOP;
-                    var2['analyticsSource'] = var6;
-                    var5 = _closure1_slot6;
-                    var5 = var5.ORBS;
-                    var2['screen'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                };
-                var3['onButtonPress'] = var10;
-                var4['primaryButtonConfig'] = var3;
-                var3 = {};
-                var10 = var8[var9];
-                var10 = var12.bind(var1)(var10);
-                var11 = var10.intl;
-                var10 = var11.string;
-                var9 = var8[var9];
-                var9 = var12.bind(var1)(var9);
-                var9 = var9.t;
-                var9 = var9.SymzJC;
-                var9 = var10.bind(var11)(var9);
-                var3['buttonText'] = var9;
-                var9 = function onButtonPress() {
-                    var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var1 = 13;
-                    var2 = var4[var1];
-                    var1 = undefined;
-                    var8 = var3.bind(var1)(var2);
-                    var7 = var8.track;
-                    var2 = _closure1_slot5;
-                    var6 = var2.ORB_BALANCE_ACTION_SHEET_ACTION;
-                    var2 = {};
-                    var9 = 'GO_TO_QUEST_HOME';
-                    var2['type'] = var9;
-                    var9 = 21;
-                    var9 = var4[var9];
-                    var9 = var3.bind(var1)(var9);
-                    var9 = var9.YOU_SCREEN;
-                    var2['source'] = var9;
-                    var9 = _closure2_slot0;
-                    var2['balance'] = var9;
-                    var2 = var7.bind(var8)(var6, var2);
-                    var2 = 18;
-                    var2 = var4[var2];
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.hideActionSheet;
-                    var2 = var2.bind(var3)();
-                    var3 = _closure1_slot0;
-                    var2 = 14;
-                    var2 = var4[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.openQuestHome;
-                    var2 = {};
-                    var6 = true;
-                    var2['mergeExistingRoutes'] = var6;
-                    var5 = _closure1_slot9;
-                    var5 = var5.VIRTUAL_CURRENCY;
-                    var2['filter'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                };
-                var3['onButtonPress'] = var9;
-                var4['secondaryButtonConfig'] = var3;
-                var3 = 21;
-                var3 = var8[var3];
-                var3 = var7.bind(var1)(var3);
-                var3 = var3.YOU_SCREEN;
-                var4['source'] = var3;
-                var3 = function() {
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var2 = 20;
-                    var2 = var1[var2];
-                    var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
-                    var2 = 19;
-                    var2 = var1[var2];
-                    var1 = var1.paths;
-                    var3 = var3.bind(var4)(var2, var1);
-                    var2 = var3.then;
-                    var1 = function(arg1) {
-                        var1 = arg1;
-                        var1 = var1.default;
-                        return var1;
-                    };
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                };
-                var2 = 'BalanceWidgetMenu';
-                var2 = var5.bind(var6)(var3, var2, var4);
+                var1 = 12;
+                var2 = var8[var1];
+                var1 = undefined;
+                var9 = var7.bind(var1)(var2);
+                var4 = var9.track;
+                var2 = _closure1_slot5;
+                var3 = var2.ORB_BALANCE_ACTION_SHEET_ACTION;
+                var2 = {};
+                var6 = 'GO_TO_SHOP';
+                var2['type'] = var6;
+                var6 = 19;
+                var10 = var8[var6];
+                var10 = var7.bind(var1)(var10);
+                var10 = var10.YOU_SCREEN;
+                var2['source'] = var10;
+                var10 = _closure2_slot0;
+                var2['balance'] = var10;
+                var2 = var4.bind(var9)(var3, var2);
+                var2 = 16;
+                var2 = var8[var2];
+                var3 = var7.bind(var1)(var2);
+                var2 = var3.hideActionSheet;
+                var2 = var2.bind(var3)();
+                var3 = _closure1_slot0;
+                var2 = 20;
+                var2 = var8[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openCollectiblesShopMobile;
+                var2 = {};
+                var9 = var8[var6];
+                var9 = var7.bind(var1)(var9);
+                var10 = var9.COLLECTIBLES_SHOP;
+                var9 = new Array(1);
+                var9[0] = var10;
+                var2['analyticsLocations'] = var9;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.COLLECTIBLES_SHOP;
+                var2['analyticsSource'] = var6;
+                var5 = _closure1_slot6;
+                var5 = var5.ORBS;
+                var2['screen'] = var5;
+                var2 = var3.bind(var4)(var2);
                 return var1;
-            }
+            };
+            var3['onButtonPress'] = var10;
+            var4['primaryButtonConfig'] = var3;
+            var3 = {};
+            var10 = var8[var9];
+            var10 = var12.bind(var1)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var9 = var8[var9];
+            var9 = var12.bind(var1)(var9);
+            var9 = var9.t;
+            var9 = var9.SymzJC;
+            var9 = var10.bind(var11)(var9);
+            var3['buttonText'] = var9;
+            var9 = function onButtonPress() {
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 12;
+                var2 = var4[var1];
+                var1 = undefined;
+                var8 = var3.bind(var1)(var2);
+                var7 = var8.track;
+                var2 = _closure1_slot5;
+                var6 = var2.ORB_BALANCE_ACTION_SHEET_ACTION;
+                var2 = {};
+                var9 = 'GO_TO_QUEST_HOME';
+                var2['type'] = var9;
+                var9 = 19;
+                var9 = var4[var9];
+                var9 = var3.bind(var1)(var9);
+                var9 = var9.YOU_SCREEN;
+                var2['source'] = var9;
+                var9 = _closure2_slot0;
+                var2['balance'] = var9;
+                var2 = var7.bind(var8)(var6, var2);
+                var2 = 16;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.hideActionSheet;
+                var2 = var2.bind(var3)();
+                var3 = _closure1_slot0;
+                var2 = 13;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openQuestHome;
+                var2 = {};
+                var6 = true;
+                var2['mergeExistingRoutes'] = var6;
+                var5 = _closure1_slot9;
+                var5 = var5.VIRTUAL_CURRENCY;
+                var2['filter'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var3['onButtonPress'] = var9;
+            var4['secondaryButtonConfig'] = var3;
+            var3 = 19;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.YOU_SCREEN;
+            var4['source'] = var3;
+            var3 = function() {
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var2 = 18;
+                var2 = var1[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = 17;
+                var2 = var1[var2];
+                var1 = var1.paths;
+                var3 = var3.bind(var4)(var2, var1);
+                var2 = var3.then;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.default;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var2 = 'BalanceWidgetMenu';
+            var2 = var5.bind(var6)(var3, var2, var4);
+            return var1;
         };
         var8 = var3.bind(var8)(var1, var2);
         var3 = _closure1_slot10;
@@ -220,7 +197,7 @@ case 2:
         var1['onPress'] = var8;
         var1['style'] = var7;
         var7 = _closure1_slot10;
-        var5 = 23;
+        var5 = 21;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.BalanceWidgetPill;
@@ -375,7 +352,7 @@ case 2:
         var6 = var6.VIRTUAL_CURRENCY_MOBILE_ONBOARDING;
         var1['groupName'] = var6;
         var5 = function children(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = arg1;
                 var3 = var2.visibleContent;
@@ -389,36 +366,31 @@ case 0:
                 var2 = var6.bind(var4)(var2);
                 var2 = var2.DismissibleContent;
                 var2 = var2.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL;
-                if(!(var3 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = null;
                 return var2;
-case 4:
+case 2:
                 var8 = function handleOnboardingPress() {
-                    var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 12;
-                    var2 = var4[var1];
+                    var3 = _closure3_slot0;
+                    var1 = _closure1_slot7;
+                    var2 = var1.TAKE_ACTION;
                     var1 = undefined;
-                    var6 = var3.bind(var1)(var2);
-                    var2 = var6.hideVirtualCurrencyOnboardingCoachmark;
-                    var2 = var2.bind(var6)();
-                    var6 = _closure3_slot0;
-                    var2 = _closure1_slot7;
-                    var2 = var2.TAKE_ACTION;
-                    var2 = var6.bind(var1)(var2);
-                    var6 = _closure1_slot1;
-                    var2 = 13;
+                    var2 = var3.bind(var1)(var2);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 12;
                     var2 = var4[var2];
-                    var8 = var6.bind(var1)(var2);
-                    var7 = var8.track;
+                    var7 = var3.bind(var1)(var2);
+                    var6 = var7.track;
                     var2 = _closure1_slot5;
-                    var6 = var2.USER_PROFILE_ACTION;
+                    var3 = var2.USER_PROFILE_ACTION;
                     var2 = {};
-                    var9 = 'ORBS_BALANCE_PRESSED';
-                    var2['profile_action'] = var9;
-                    var2 = var7.bind(var8)(var6, var2);
-                    var2 = 14;
+                    var8 = 'ORBS_BALANCE_PRESSED';
+                    var2['profile_action'] = var8;
+                    var2 = var6.bind(var7)(var3, var2);
+                    var3 = _closure1_slot0;
+                    var2 = 13;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openQuestHome;
@@ -438,7 +410,7 @@ case 4:
                 var7 = _closure1_slot10;
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var5 = 15;
+                var5 = 14;
                 var5 = var9[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = {};
@@ -454,13 +426,13 @@ case 4:
         return var1;
     };
     var _closure1_slot13 = var2;
-    var5 = 26;
+    var5 = 24;
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);
     var8 = var9.createStyles;
     var5 = {};
     var10 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'padding': 16};
-    var12 = 27;
+    var12 = 25;
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.radii;
@@ -474,26 +446,26 @@ case 4:
     var5['pill'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot14 = var5;
-    var5 = 28;
+    var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/virtual_currency/native/BalanceWidgetMenu.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function BalanceWidgetMenuWrapper(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = arg1;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var1 = var9[var1];
             var5 = undefined;
             var2 = var8.bind(var5)(var1);
             var1 = var2.useFetchVirtualCurrencyBalance;
             var1 = var1.bind(var2)();
             var4 = var1.balance;
-            var1 = 24;
+            var1 = 22;
             var1 = var9[var1];
             var3 = var8.bind(var5)(var1);
             var2 = var3.UNSAFE_isDismissibleContentDismissed;
@@ -504,26 +476,26 @@ case 0:
             var1 = var1.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL;
             var1 = var2.bind(var3)(var1);
             var2 = null;
-            if(!(var2 != var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+            if(!(var2 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot10;
             var2 = 0;
-            if(!(!(var4 > var2))) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-            if(var1) { _fun0003_ip = 8; continue _fun0003 }
-case 10:
-            var2 = _closure1_slot13;
-            _fun0003_ip = 11; continue _fun0003;
+            if(!(!(var4 > var2))) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 8:
+            var2 = _closure1_slot13;
+            _fun0002_ip = 9; continue _fun0002;
+case 6:
             var2 = _closure1_slot15;
-case 11:
+case 9:
             var1 = {};
             var11 = var1;
             var10 = var7;
             var4 = copyDataProperties(var11, var10);
             var1 = var3.bind(var5)(var2, var1);
-            _fun0003_ip = 12; continue _fun0003;
-case 6:
+            _fun0002_ip = 10; continue _fun0002;
+case 4:
             var4 = _closure1_slot10;
             var3 = _closure1_slot12;
             var2 = {};
@@ -537,7 +509,7 @@ case 6:
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 25;
+            var6 = 23;
             var6 = var9[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Ellipsis;
@@ -545,7 +517,7 @@ case 6:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 12:
+case 10:
             return var1;
         }
     };
