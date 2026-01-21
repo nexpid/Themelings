@@ -155,12 +155,6 @@
     "midnight": "#f23f43",
     "darker": "#f23f43"
   },
-  "BG_SURFACE_OVERLAY_TMP": {
-    "dark": "#111214",
-    "light": "#f2f3f5",
-    "midnight": "#18191f",
-    "darker": "#2c2d35"
-  },
   "BG_SURFACE_RAISED": {
     "dark": "#383a40",
     "light": "#ffffff",

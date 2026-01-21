@@ -779,36 +779,6 @@
       }
     ]
   },
-  "BG_SURFACE_OVERLAY_TMP": {
-    "dark": [
-      "#111214",
-      {
-        "raw": "PRIMARY_800",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#f2f3f5",
-      {
-        "raw": "PRIMARY_130",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#18191f",
-      {
-        "raw": "PLUM_21",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#2c2d35",
-      {
-        "raw": "PLUM_17",
-        "opacity": 1
-      }
-    ]
-  },
   "BG_SURFACE_RAISED": {
     "dark": [
       "#383a40",
