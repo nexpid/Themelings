@@ -171,190 +171,198 @@ case 5:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.questId;
+            var8 = var2.questId;
             var1 = var2.isEligibleForQuests;
-            var5 = var2.themeColors;
-            if(var1) { _fun0003_ip = 9; continue _fun0003 }
+            var2 = var2.themeColors;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 13;
+            var3 = var5[var3];
+            var7 = undefined;
+            var4 = var4.bind(var7)(var3);
+            var3 = var4.isMetaQuest;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var4 = _closure1_slot10;
-            var3 = {};
+            if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var3 = _closure1_slot10;
+            var1 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 7;
-            var7 = var11[var6];
-            var1 = undefined;
-            var7 = var10.bind(var1)(var7);
-            var12 = var7.intl;
-            var8 = var12.string;
-            var7 = var11[var6];
-            var7 = var10.bind(var1)(var7);
-            var7 = var7.t;
-            var7 = var7.3Z/Ejm;
-            var7 = var8.bind(var12)(var7);
-            var3['titleText'] = var7;
-            var7 = var11[var6];
-            var7 = var10.bind(var1)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var6 = var11[var6];
-            var6 = var10.bind(var1)(var6);
-            var6 = var6.t;
-            var6 = var6.yHzB4Y;
-            var6 = var7.bind(var8)(var6);
-            var3['bodyText'] = var6;
-            var3['themeColors'] = var5;
-            var8 = _closure1_slot3;
-            var7 = var8.resolveAssetSource;
+            var4 = 7;
+            var5 = var11[var4];
+            var5 = var10.bind(var7)(var5);
+            var12 = var5.intl;
+            var6 = var12.string;
+            var5 = var11[var4];
+            var5 = var10.bind(var7)(var5);
+            var5 = var5.t;
+            var5 = var5.3Z/Ejm;
+            var5 = var6.bind(var12)(var5);
+            var1['titleText'] = var5;
+            var5 = var11[var4];
+            var5 = var10.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var11[var4];
+            var4 = var10.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.yHzB4Y;
+            var4 = var5.bind(var6)(var4);
+            var1['bodyText'] = var4;
+            var1['themeColors'] = var2;
+            var6 = _closure1_slot3;
+            var5 = var6.resolveAssetSource;
             var10 = _closure1_slot1;
-            var6 = 13;
-            var6 = var11[var6];
-            var6 = var10.bind(var1)(var6);
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.uri;
-            var3['thumbnailUrl'] = var6;
-            var1 = var4.bind(var1)(var3);
+            var4 = 14;
+            var4 = var11[var4];
+            var4 = var10.bind(var7)(var4);
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.uri;
+            var1['thumbnailUrl'] = var4;
+            var1 = var3.bind(var7)(var1);
             return var1;
-case 9:
+case 11:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var1 = var4[var1];
-            var4 = undefined;
-            var7 = var3.bind(var4)(var1);
-            var6 = var7.findQuestOrReplacement;
+            var5 = var3.bind(var7)(var1);
+            var4 = var5.findQuestOrReplacement;
             var1 = _closure1_slot5;
             var3 = var1.quests;
             var1 = _closure1_slot5;
             var1 = var1.excludedQuests;
-            var8 = var6.bind(var7)(var9, var3, var1);
+            var6 = var4.bind(var5)(var8, var3, var1);
             var1 = _closure1_slot5;
             var3 = var1.excludedQuests;
             var1 = var3.get;
-            var6 = var1.bind(var3)(var9);
+            var4 = var1.bind(var3)(var8);
             var3 = null;
-            if(!(var3 == var8)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!(var3 == var6)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var1 = _closure1_slot5;
             var1 = var1.isFetchingCurrentQuests;
-            if(var1) { _fun0003_ip = 13; continue _fun0003 }
-case 11:
-            if(!(var3 != var8)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var1 = 16;
-            var1 = var10[var1];
-            var10 = var7.bind(var4)(var1);
-            var7 = var10.isShareableQuest;
-            var1 = var8.config;
-            var1 = var7.bind(var10)(var1);
-            if(var1) { _fun0003_ip = 16; continue _fun0003 }
+            if(var1) { _fun0003_ip = 15; continue _fun0003 }
+case 13:
+            if(!(var3 != var6)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 17;
+            var1 = var10[var1];
+            var10 = var5.bind(var7)(var1);
+            var5 = var10.isShareableQuest;
+            var1 = var6.config;
+            var1 = var5.bind(var10)(var1);
+            if(var1) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var1 = 15;
+            var1 = 16;
             var1 = var14[var1];
-            var10 = var13.bind(var4)(var1);
-            var7 = var10.trackQuestEmbedFallbackViewed;
+            var10 = var13.bind(var7)(var1);
+            var5 = var10.trackQuestEmbedFallbackViewed;
             var1 = _closure1_slot7;
             var1 = var1.NOT_SHAREABLE_QUEST;
-            var1 = var7.bind(var10)(var9, var1);
-            var7 = _closure1_slot10;
+            var1 = var5.bind(var10)(var8, var1);
+            var5 = _closure1_slot10;
             var1 = {};
             var10 = 7;
             var11 = var14[var10];
-            var11 = var13.bind(var4)(var11);
+            var11 = var13.bind(var7)(var11);
             var15 = var11.intl;
             var12 = var15.string;
             var11 = var14[var10];
-            var11 = var13.bind(var4)(var11);
+            var11 = var13.bind(var7)(var11);
             var11 = var11.t;
             var11 = var11.Dd6Daw;
             var11 = var12.bind(var15)(var11);
             var1['titleText'] = var11;
             var11 = var14[var10];
-            var11 = var13.bind(var4)(var11);
+            var11 = var13.bind(var7)(var11);
             var12 = var11.intl;
             var11 = var12.string;
             var10 = var14[var10];
-            var10 = var13.bind(var4)(var10);
+            var10 = var13.bind(var7)(var10);
             var10 = var10.t;
             var10 = var10.NXrP3N;
             var10 = var11.bind(var12)(var10);
             var1['bodyText'] = var10;
-            var1['themeColors'] = var5;
+            var1['themeColors'] = var2;
             var12 = _closure1_slot3;
             var11 = var12.resolveAssetSource;
             var13 = _closure1_slot1;
-            var10 = 13;
+            var10 = 14;
             var10 = var14[var10];
-            var10 = var13.bind(var4)(var10);
+            var10 = var13.bind(var7)(var10);
             var10 = var11.bind(var12)(var10);
             var10 = var10.uri;
             var1['thumbnailUrl'] = var10;
-            var1 = var7.bind(var4)(var1);
-            _fun0003_ip = 18; continue _fun0003;
-case 16:
-            var7 = {};
-            var7['themeColors'] = var5;
-            var7['quest'] = var8;
-            var8 = var7.themeColors;
-            var21 = var7.quest;
-            var10 = var8.colors;
+            var1 = var5.bind(var7)(var1);
+            _fun0003_ip = 20; continue _fun0003;
+case 18:
+            var5 = {};
+            var5['themeColors'] = var2;
+            var5['quest'] = var6;
+            var6 = var5.themeColors;
+            var21 = var5.quest;
+            var10 = var6.colors;
             var11 = var21.userStatus;
             var12 = var3 == var11;
-            var7 = undefined;
-            if(var12) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-            var7 = var11.enrolledAt;
-case 19:
-            var13 = var3 != var7;
-            var7 = var21.config;
-            var11 = var7.expiresAt;
-            var7 = global;
-            var7 = var7.Date;
-            var12 = var7.prototype;
-            var12 = Object.create(var12, {constructor: {value: var7}});
-            var29 = var12;
-            var7 = new var29[var7](var28);
-            var12 = var7 instanceof Object ? var7 : var12;
-            var7 = var12.toISOString;
-            var7 = var7.bind(var12)();
-            var11 = var11 < var7;
-            var12 = _closure1_slot4;
-            var7 = var12.getState;
-            var7 = var7.bind(var12)();
-            var14 = var7.theme;
-            var12 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var7 = 11;
-            var7 = var15[var7];
-            var12 = var12.bind(var4)(var7);
-            var7 = var12.isThemeDark;
-            var12 = var7.bind(var12)(var14);
-            var7 = _closure1_slot8;
+            var5 = undefined;
             if(var12) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var20 = var7.LIGHT;
-            _fun0003_ip = 23; continue _fun0003;
+            var5 = var11.enrolledAt;
 case 21:
-            var20 = var7.DARK;
+            var13 = var3 != var5;
+            var5 = var21.config;
+            var11 = var5.expiresAt;
+            var5 = global;
+            var5 = var5.Date;
+            var12 = var5.prototype;
+            var12 = Object.create(var12, {constructor: {value: var5}});
+            var29 = var12;
+            var5 = new var29[var5](var28);
+            var12 = var5 instanceof Object ? var5 : var12;
+            var5 = var12.toISOString;
+            var5 = var5.bind(var12)();
+            var11 = var11 < var5;
+            var12 = _closure1_slot4;
+            var5 = var12.getState;
+            var5 = var5.bind(var12)();
+            var14 = var5.theme;
+            var12 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var5 = 11;
+            var5 = var15[var5];
+            var12 = var12.bind(var7)(var5);
+            var5 = var12.isThemeDark;
+            var12 = var5.bind(var12)(var14);
+            var5 = _closure1_slot8;
+            if(var12) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+            var20 = var5.LIGHT;
+            _fun0003_ip = 25; continue _fun0003;
 case 23:
-            var7 = _closure1_slot5;
-            var7 = var7.questEnrollmentBlockedUntil;
-            var12 = var3 != var7;
-            var7 = {};
+            var20 = var5.DARK;
+case 25:
+            var5 = _closure1_slot5;
+            var5 = var5.questEnrollmentBlockedUntil;
+            var12 = var3 != var5;
+            var5 = {};
             var15 = _closure1_slot10;
             var14 = {};
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
             var17 = 7;
             var16 = var23[var17];
-            var16 = var22.bind(var4)(var16);
+            var16 = var22.bind(var7)(var16);
             var24 = var16.intl;
             var19 = var24.formatToPlainString;
             var16 = var23[var17];
-            var16 = var22.bind(var4)(var16);
+            var16 = var22.bind(var7)(var16);
             var16 = var16.t;
             var18 = var16.EAYZAr;
             var16 = {};
@@ -371,183 +379,243 @@ case 23:
             var18 = _closure1_slot11;
             var16 = {};
             var16['quest'] = var21;
-            var16 = var18.bind(var4)(var16);
+            var16 = var18.bind(var7)(var16);
             var14['bodyText'] = var16;
-            var14['themeColors'] = var8;
+            var14['themeColors'] = var6;
             var16 = 12;
             var18 = var23[var16];
-            var19 = var22.bind(var4)(var18);
+            var19 = var22.bind(var7)(var18);
             var18 = var19.getQuestAsset;
             var16 = var23[var16];
-            var16 = var22.bind(var4)(var16);
+            var16 = var22.bind(var7)(var16);
             var16 = var16.QuestAssetType;
             var16 = var16.GAME_TILE;
             var16 = var18.bind(var19)(var21, var16, var20);
             var16 = var16.url;
             var14['thumbnailUrl'] = var16;
-            var27 = var15.bind(var4)(var14);
-            var28 = var7;
+            var27 = var15.bind(var7)(var14);
+            var28 = var5;
             var14 = copyDataProperties(var28, var27);
-            if(var13) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            if(var11) { _fun0003_ip = 24; continue _fun0003 }
+            if(var13) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+            if(var11) { _fun0003_ip = 26; continue _fun0003 }
+case 28:
+            var16 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var14 = var13[var17];
+            var14 = var16.bind(var7)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var13 = var13[var17];
+            var13 = var16.bind(var7)(var13);
+            var13 = var13.t;
+            if(var12) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+            var12 = var13.kUQLMJ;
+            var12 = var14.bind(var15)(var12);
+            _fun0003_ip = 31; continue _fun0003;
+case 29:
+            var13 = var13.th2+0j;
+            var12 = var14.bind(var15)(var13);
+case 31:
+            _fun0003_ip = 32; continue _fun0003;
 case 26:
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var17];
-            var14 = var16.bind(var4)(var14);
+            var14 = var16.bind(var7)(var14);
             var15 = var14.intl;
             var14 = var15.string;
             var13 = var13[var17];
-            var13 = var16.bind(var4)(var13);
+            var13 = var16.bind(var7)(var13);
             var13 = var13.t;
-            if(var12) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var12 = var13.kUQLMJ;
-            var12 = var14.bind(var15)(var12);
-            _fun0003_ip = 29; continue _fun0003;
-case 27:
-            var13 = var13.th2+0j;
-            var12 = var14.bind(var15)(var13);
-case 29:
-            _fun0003_ip = 30; continue _fun0003;
-case 24:
-            var16 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var14 = var13[var17];
-            var14 = var16.bind(var4)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
-            var13 = var13[var17];
-            var13 = var16.bind(var4)(var13);
-            var13 = var13.t;
-            if(var11) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+            if(var11) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var11 = var13.th2+0j;
             var11 = var14.bind(var15)(var11);
-            _fun0003_ip = 33; continue _fun0003;
-case 31:
+            _fun0003_ip = 35; continue _fun0003;
+case 33:
             var13 = var13.hvVgAZ;
             var11 = var14.bind(var15)(var13);
-case 33:
+case 35:
             var12 = var11;
-case 30:
+case 32:
             var11 = 'acceptLabelText';
-            var7[var11] = var12;
+            var5[var11] = var12;
             var11 = var10.acceptBlurpleLabelBackgroundColor;
             var10 = 'acceptLabelBackgroundColor';
-            var7[var10] = var11;
-            var8 = var8.colors;
-            var10 = var8.acceptLabelGreenColor;
-            var8 = 'acceptLabelColor';
-            var7[var8] = var10;
+            var5[var10] = var11;
+            var6 = var6.colors;
+            var10 = var6.acceptLabelGreenColor;
+            var6 = 'acceptLabelColor';
+            var5[var6] = var10;
             var10 = 8;
-            var8 = 'thumbnailCornerRadius';
-            var7[var8] = var10;
-            var1 = var7;
-case 18:
-            _fun0003_ip = 34; continue _fun0003;
-case 14:
-            if(!(var3 == var6)) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+            var6 = 'thumbnailCornerRadius';
+            var5[var6] = var10;
+            var1 = var5;
+case 20:
+            _fun0003_ip = 36; continue _fun0003;
+case 16:
+            if(!(var3 == var4)) { _fun0003_ip = 37; continue _fun0003 }
+case 38:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 15;
+            var3 = 16;
             var3 = var12[var3];
-            var7 = var11.bind(var4)(var3);
-            var6 = var7.trackQuestEmbedFallbackViewed;
+            var5 = var11.bind(var7)(var3);
+            var4 = var5.trackQuestEmbedFallbackViewed;
             var3 = _closure1_slot7;
             var3 = var3.UNKNOWN_QUEST;
-            var3 = var6.bind(var7)(var9, var3);
-            var6 = _closure1_slot10;
+            var3 = var4.bind(var5)(var8, var3);
+            var4 = _closure1_slot10;
             var3 = {};
-            var7 = 7;
-            var8 = var12[var7];
-            var8 = var11.bind(var4)(var8);
+            var5 = 7;
+            var6 = var12[var5];
+            var6 = var11.bind(var7)(var6);
+            var13 = var6.intl;
+            var10 = var13.string;
+            var6 = var12[var5];
+            var6 = var11.bind(var7)(var6);
+            var6 = var6.t;
+            var6 = var6.rxf+nx;
+            var6 = var10.bind(var13)(var6);
+            var3['titleText'] = var6;
+            var6 = var12[var5];
+            var6 = var11.bind(var7)(var6);
+            var10 = var6.intl;
+            var6 = var10.string;
+            var5 = var12[var5];
+            var5 = var11.bind(var7)(var5);
+            var5 = var5.t;
+            var5 = var5.Ow5AQI;
+            var5 = var6.bind(var10)(var5);
+            var3['bodyText'] = var5;
+            var3['themeColors'] = var2;
+            var10 = _closure1_slot3;
+            var6 = var10.resolveAssetSource;
+            var11 = _closure1_slot1;
+            var5 = 14;
+            var5 = var12[var5];
+            var5 = var11.bind(var7)(var5);
+            var5 = var6.bind(var10)(var5);
+            var5 = var5.uri;
+            var3['thumbnailUrl'] = var5;
+            var3 = var4.bind(var7)(var3);
+            _fun0003_ip = 39; continue _fun0003;
+case 37:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var4 = 16;
+            var4 = var12[var4];
+            var6 = var11.bind(var7)(var4);
+            var5 = var6.trackQuestEmbedFallbackViewed;
+            var4 = _closure1_slot7;
+            var4 = var4.EXCLUDED_QUEST;
+            var4 = var5.bind(var6)(var8, var4);
+            var5 = _closure1_slot10;
+            var4 = {};
+            var6 = 7;
+            var8 = var12[var6];
+            var8 = var11.bind(var7)(var8);
             var13 = var8.intl;
             var10 = var13.string;
-            var8 = var12[var7];
-            var8 = var11.bind(var4)(var8);
+            var8 = var12[var6];
+            var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.rxf+nx;
+            var8 = var8.Dd6Daw;
             var8 = var10.bind(var13)(var8);
-            var3['titleText'] = var8;
-            var8 = var12[var7];
-            var8 = var11.bind(var4)(var8);
+            var4['titleText'] = var8;
+            var8 = var12[var6];
+            var8 = var11.bind(var7)(var8);
             var10 = var8.intl;
             var8 = var10.string;
-            var7 = var12[var7];
-            var7 = var11.bind(var4)(var7);
-            var7 = var7.t;
-            var7 = var7.Ow5AQI;
-            var7 = var8.bind(var10)(var7);
-            var3['bodyText'] = var7;
-            var3['themeColors'] = var5;
+            var6 = var12[var6];
+            var6 = var11.bind(var7)(var6);
+            var6 = var6.t;
+            var6 = var6.ii4mJo;
+            var6 = var8.bind(var10)(var6);
+            var4['bodyText'] = var6;
+            var4['themeColors'] = var2;
             var10 = _closure1_slot3;
             var8 = var10.resolveAssetSource;
             var11 = _closure1_slot1;
-            var7 = 13;
-            var7 = var12[var7];
-            var7 = var11.bind(var4)(var7);
-            var7 = var8.bind(var10)(var7);
-            var7 = var7.uri;
-            var3['thumbnailUrl'] = var7;
-            var3 = var6.bind(var4)(var3);
-            _fun0003_ip = 37; continue _fun0003;
-case 35:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var6 = 15;
+            var6 = 14;
             var6 = var12[var6];
-            var8 = var11.bind(var4)(var6);
-            var7 = var8.trackQuestEmbedFallbackViewed;
-            var6 = _closure1_slot7;
-            var6 = var6.EXCLUDED_QUEST;
-            var6 = var7.bind(var8)(var9, var6);
-            var7 = _closure1_slot10;
-            var6 = {};
-            var8 = 7;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var13 = var9.intl;
-            var10 = var13.string;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var9 = var9.t;
-            var9 = var9.Dd6Daw;
-            var9 = var10.bind(var13)(var9);
-            var6['titleText'] = var9;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.ii4mJo;
-            var8 = var9.bind(var10)(var8);
-            var6['bodyText'] = var8;
-            var6['themeColors'] = var5;
-            var10 = _closure1_slot3;
-            var9 = var10.resolveAssetSource;
-            var11 = _closure1_slot1;
-            var8 = 13;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
-            var8 = var9.bind(var10)(var8);
-            var8 = var8.uri;
-            var6['thumbnailUrl'] = var8;
-            var3 = var7.bind(var4)(var6);
-case 37:
+            var6 = var11.bind(var7)(var6);
+            var6 = var8.bind(var10)(var6);
+            var6 = var6.uri;
+            var4['thumbnailUrl'] = var6;
+            var3 = var5.bind(var7)(var4);
+case 39:
             var1 = var3;
-case 34:
-            _fun0003_ip = 38; continue _fun0003;
-case 13:
-            var3 = _closure1_slot10;
-            var2 = {};
-            var2['themeColors'] = var5;
-            var1 = var3.bind(var4)(var2);
-case 38:
+case 36:
+            _fun0003_ip = 40; continue _fun0003;
+case 15:
+            var4 = _closure1_slot10;
+            var3 = {};
+            var3['themeColors'] = var2;
+            var1 = var4.bind(var7)(var3);
+case 40:
+            return var1;
+case 9:
+            var1 = {};
+            var5 = _closure1_slot10;
+            var4 = {};
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 7;
+            var10 = var8[var3];
+            var10 = var6.bind(var7)(var10);
+            var12 = var10.intl;
+            var11 = var12.string;
+            var10 = var8[var3];
+            var10 = var6.bind(var7)(var10);
+            var10 = var10.t;
+            var10 = var10.6LxbQM;
+            var10 = var11.bind(var12)(var10);
+            var4['titleText'] = var10;
+            var10 = var8[var3];
+            var10 = var6.bind(var7)(var10);
+            var12 = var10.intl;
+            var11 = var12.string;
+            var10 = var8[var3];
+            var10 = var6.bind(var7)(var10);
+            var10 = var10.t;
+            var10 = var10.CXEb9p;
+            var10 = var11.bind(var12)(var10);
+            var4['bodyText'] = var10;
+            var4['themeColors'] = var2;
+            var11 = _closure1_slot3;
+            var10 = var11.resolveAssetSource;
+            var12 = _closure1_slot1;
+            var9 = 14;
+            var9 = var8[var9];
+            var9 = var12.bind(var7)(var9);
+            var9 = var10.bind(var11)(var9);
+            var9 = var9.uri;
+            var4['thumbnailUrl'] = var9;
+            var27 = var5.bind(var7)(var4);
+            var28 = var1;
+            var4 = copyDataProperties(var28, var27);
+            var4 = var8[var3];
+            var4 = var6.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.t;
+            var3 = var3.hvVgAZ;
+            var4 = var4.bind(var5)(var3);
+            var3 = 'acceptLabelText';
+            var1[var3] = var4;
+            var3 = var2.colors;
+            var4 = var3.acceptBlurpleLabelBackgroundColor;
+            var3 = 'acceptLabelBackgroundColor';
+            var1[var3] = var4;
+            var2 = var2.colors;
+            var3 = var2.acceptLabelGreenColor;
+            var2 = 'acceptLabelColor';
+            var1[var2] = var3;
             return var1;
         }
     };
@@ -591,7 +659,7 @@ case 38:
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
     var _closure1_slot9 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -606,14 +674,14 @@ case 38:
         var2['questId'] = var1;
         var8 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var1 = 17;
+        var1 = 18;
         var4 = var6[var1];
         var1 = undefined;
         var4 = var8.bind(var1)(var4);
         var4 = var4.bind(var1)(var5);
         var2['themeColors'] = var4;
         var5 = _closure1_slot0;
-        var4 = 18;
+        var4 = 19;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.getIsEligibleForQuests;

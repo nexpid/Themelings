@@ -218,7 +218,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
-    var17 = new Array(6);
+    var17 = new Array(7);
     var17[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -245,6 +245,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
     var17[5] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.PREMIUM_ORBS_REWARDS_DROP_POPOVER;
+    var17[6] = var14;
     var _closure1_slot2 = var17;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

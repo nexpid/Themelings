@@ -270,7 +270,7 @@ case 7:
             var7 = var17[var7];
             var7 = var11.bind(var5)(var7);
             var8 = var7.Text;
-            var7 = {'variant': 'heading-md/semibold', 'color': 'text-subtle'};
+            var7 = {'variant': 'heading-sm/semibold', 'color': 'text-subtle'};
             var10 = 7;
             var12 = var17[var10];
             var12 = var11.bind(var5)(var12);

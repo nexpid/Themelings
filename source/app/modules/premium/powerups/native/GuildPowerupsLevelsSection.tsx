@@ -52,10 +52,10 @@ case 0:
         var7 = var5.bind(var1)(var4);
         var4 = var7.isIOS;
         var4 = var4.bind(var7)();
-        var12 = 300;
+        var12 = 325;
         if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-        var12 = 275;
+        var12 = 300;
 case 2:
         var4 = 6;
         var4 = var6[var4];
@@ -69,18 +69,21 @@ case 2:
         var14 = var14.PX_16;
         var9['padding'] = var14;
         var4['headerContainer'] = var9;
-        var9 = {};
-        var14 = 225;
-        var9['width'] = var14;
+        var9 = {'width': 250, 'marginEnd': null, 'flex': 1};
         var9['marginEnd'] = var13;
         var4['cardContainer'] = var9;
         var9 = {};
         var9['height'] = var12;
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.spacing;
+        var12 = var12.PX_16;
+        var9['marginHorizontal'] = var12;
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
         var10 = var10.spacing;
-        var10 = var10.PX_16;
-        var9['marginHorizontal'] = var10;
+        var10 = var10.PX_8;
+        var9['paddingBottom'] = var10;
         var4['carousel'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot10 = var4;
@@ -256,7 +259,7 @@ case 2:
             var6['data'] = var16;
             var6['renderItem'] = var15;
             var15 = _closure1_slot9;
-            var14 = 225;
+            var14 = 250;
             var14 = var14 + var15;
             var6['width'] = var14;
             var13 = function onConfigurePanGesture(arg1) {

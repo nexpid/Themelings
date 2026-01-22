@@ -16,6 +16,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHECKPOINT_COMPLETED'] = var1;
     var1 = 'quest_completed';
     var2['QUEST_COMPLETED'] = var1;
+    var1 = 'warp_vpn_coachmark_dismissed_nitro';
+    var2['WARP_VPN_COACHMARK_DISMISSED_NITRO'] = var1;
+    var1 = 'warp_vpn_coachmark_dismissed_non_nitro';
+    var2['WARP_VPN_COACHMARK_DISMISSED_NON_NITRO'] = var1;
+    var1 = 'warp_vpn_settings_bounce_nitro';
+    var2['WARP_VPN_SETTINGS_BOUNCE_NITRO'] = var1;
+    var1 = 'warp_vpn_settings_bounce_non_nitro';
+    var2['WARP_VPN_SETTINGS_BOUNCE_NON_NITRO'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -18,9 +18,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/gateway/GatewayCapabilities.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = function getClientCapabilities() {
-        var1 = 1734655;
-        return var1;
+    var2 = function getClientCapabilities(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.useChannelObfuscation;
+            var1 = 1734655;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = 1767423;
+case 2:
+            return var1;
+        }
     };
     var3['getClientCapabilities'] = var2;
     return var1;

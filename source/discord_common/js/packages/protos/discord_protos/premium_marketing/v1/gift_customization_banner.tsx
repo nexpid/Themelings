@@ -293,15 +293,15 @@ case 32:
                 if(!(var12 !== var25)) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                 var27 = var25;
-                if(!(var13 === var25)) { _fun0004_ip = 6; continue _fun0004 }
-case 35:
+                if(!(var13 === var25)) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
                 var28 = _closure1_slot0;
                 var26 = _closure1_slot1;
                 var26 = var26[var14];
                 var26 = var28.bind(var18)(var26);
                 var26 = var26.UnknownFieldHandler;
                 var27 = var26.onRead;
-case 6:
+case 35:
                 var36 = var20.typeName;
                 var37 = undefined;
                 var35 = var1;
@@ -452,8 +452,8 @@ case 0:
                 var2 = arg3;
                 var3 = var5.assetUrl;
                 var4 = '';
-                if(!(var4 !== var3)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!(var4 !== var3)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -468,10 +468,10 @@ case 37:
                 var6 = var7.string;
                 var3 = var5.assetUrl;
                 var3 = var6.bind(var7)(var3);
-case 36:
+case 37:
                 var3 = var5.desktopBody;
-                if(!(var4 !== var3)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!(var4 !== var3)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -486,9 +486,9 @@ case 39:
                 var6 = var7.string;
                 var3 = var5.desktopBody;
                 var3 = var6.bind(var7)(var3);
-case 38:
+case 39:
                 var3 = var5.mobileBody;
-                if(!(var4 !== var3)) { _fun0005_ip = 40; continue _fun0005 }
+                if(!(var4 !== var3)) { _fun0005_ip = 7; continue _fun0005 }
 case 41:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
@@ -504,10 +504,10 @@ case 41:
                 var6 = var7.string;
                 var3 = var5.mobileBody;
                 var3 = var6.bind(var7)(var3);
-case 40:
+case 7:
                 var3 = var5.gradient;
                 if(!var3) { _fun0005_ip = 42; continue _fun0005 }
-case 6:
+case 35:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot1;
                 var3 = 6;

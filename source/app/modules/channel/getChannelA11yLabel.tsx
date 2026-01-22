@@ -291,8 +291,7 @@ case 27:
             var3 = var3.t;
             var11 = var3.bkpadO;
             var3 = {};
-            var14 = var7.name;
-            var3['channelName'] = var14;
+            var3['channelName'] = var10;
             var3 = var12.bind(var13)(var11, var3);
             var11 = new Array(1);
             var11[0] = var3;

@@ -261,7 +261,7 @@ case 14:
                             var9 = 20;
                             var9 = var14[var9];
                             var14 = var13.bind(var2)(var9);
-                            var13 = var14.checkDefaultChannelThresholdMetAfterChannelPermissionDeny;
+                            var13 = var14.checkChattableChannelThresholdMetAfterChannelPermissionDeny;
                             var9 = _closure2_slot5;
                             var9 = var13.bind(var14)(var9, var10);
                             SaveGenerator(address=310);

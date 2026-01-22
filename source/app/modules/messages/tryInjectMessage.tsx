@@ -163,7 +163,7 @@ case 21:
             var4 = 3;
             var4 = var9[var4];
             var7 = var7.bind(var8)(var4);
-            var4 = {'channelId': null, 'type': 65, 'content': ''};
+            var4 = {'channelId': null, 'type': 66, 'content': ''};
             var4['channelId'] = var6;
             var10 = var5.author;
             var4['author'] = var10;

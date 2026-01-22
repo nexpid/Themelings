@@ -566,11 +566,39 @@ case 26:
     var8 = function handleGameServerEntitlementCreated(arg1) {
         var1 = arg1;
         var4 = var1.guildId;
-        var7 = var1.entitlements;
+        var8 = var1.entitlements;
         var3 = _closure1_slot9;
         var1 = undefined;
         var3 = var3.bind(var1)(var4);
         var _closure2_slot0 = var3;
+        var7 = var8.filter;
+        var6 = function(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                var1 = arg1;
+                var3 = var1.sku;
+                var2 = null;
+                var4 = var2 == var3;
+                var1 = undefined;
+                if(var4) { _fun0009_ip = 30; continue _fun0009 }
+case 7:
+                var3 = var3.tenant_metadata;
+                var4 = var2 == var3;
+                var1 = undefined;
+                if(var4) { _fun0009_ip = 30; continue _fun0009 }
+case 9:
+                var3 = var3.guild_monetization;
+                var4 = var2 == var3;
+                var1 = undefined;
+                if(var4) { _fun0009_ip = 30; continue _fun0009 }
+case 10:
+                var1 = var3.game_server;
+case 30:
+                var1 = var2 != var1;
+                return var1;
+            }
+        };
+        var7 = var7.bind(var8)(var6);
         var6 = var7.forEach;
         var5 = function(arg1) {
             var3 = arg1;

@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.GuildPowerupType;
     var _closure1_slot7 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -116,37 +116,19 @@ case 3:
                 var1 = _closure2_slot1;
                 if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-                var2 = function checkBoostsAndActivate() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 9;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var5 = var3.bind(var1)(var2);
-                        var4 = var5.getGuildPowerupsBoostCount;
-                        var3 = _closure2_slot3;
-                        var3 = var3.id;
-                        var3 = var4.bind(var5)(var3);
-                        var4 = var3.available;
-                        var3 = _closure2_slot1;
-                        var3 = var3.cost;
-                        if(!(var4 >= var3)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-                        var3 = _closure2_slot2;
-                        var2 = true;
-                        var2 = var3.bind(var1)(var2);
-case 5:
-                        return var1;
-                    }
+                var2 = function activatePowerup() {
+                    var3 = _closure2_slot2;
+                    var1 = undefined;
+                    var2 = true;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
                 var _closure3_slot0 = var2;
                 var3 = _closure2_slot4;
                 var1 = _closure2_slot1;
                 var1 = var1.cost;
-                if(!(!(var3 >= var1))) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+                if(!(!(var3 >= var1))) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var3 = _closure2_slot1;
                 var4 = var3.cost;
                 var1 = _closure2_slot4;
@@ -154,7 +136,7 @@ case 8:
                 var _closure3_slot1 = var11;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var4 = 10;
+                var4 = 9;
                 var6 = var6[var4];
                 var4 = undefined;
                 var9 = var8.bind(var4)(var6);
@@ -165,38 +147,38 @@ case 8:
                 var6 = var3.type;
                 var3 = _closure1_slot7;
                 var3 = var3.LEVEL;
-                if(!(var6 !== var3)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+                if(!(var6 !== var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var3 = _closure1_slot6;
                 var6 = var3.PERK;
-                _fun0001_ip = 11; continue _fun0001;
-case 9:
+                _fun0001_ip = 9; continue _fun0001;
+case 7:
                 var3 = _closure1_slot6;
                 var6 = var3.LEVEL;
-case 11:
+case 9:
                 var _closure3_slot2 = var6;
                 var8 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var3 = 11;
+                var3 = 10;
                 var3 = var13[var3];
                 var9 = var8.bind(var4)(var3);
                 var8 = var9.hideActionSheet;
                 var12 = _closure1_slot0;
-                var3 = 12;
+                var3 = 11;
                 var3 = var13[var3];
                 var3 = var12.bind(var4)(var3);
                 var3 = var3.GUILD_POWERUPS_BOTTOM_SHEET_KEY;
                 var3 = var8.bind(var9)(var3);
                 var3 = var10.length;
                 var9 = 0;
-                if(!(!(var3 > var9))) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+                if(!(!(var3 > var9))) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var3 = _closure2_slot6;
-                if(var3) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+                if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var8 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var3 = 14;
+                var3 = 13;
                 var3 = var12[var3];
                 var16 = var8.bind(var4)(var3);
                 var15 = var16.launchGuildBoostFlowOrAlert;
@@ -205,13 +187,13 @@ case 15:
                 var19 = function() {
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var6[var2];
                     var5 = undefined;
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.popWithKey;
                     var4 = _closure1_slot0;
-                    var1 = 16;
+                    var1 = 15;
                     var1 = var6[var1];
                     var1 = var4.bind(var5)(var1);
                     var1 = var1.PREMIUM_KEY;
@@ -219,11 +201,11 @@ case 15:
                     return var1;
                 };
                 var18 = function() {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 10;
+                        var1 = 9;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -233,11 +215,11 @@ case 0:
                         var10 = var4.bind(var5)(var3);
                         var4 = var10.length;
                         var3 = _closure3_slot1;
-                        if(!(var4 >= var3)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                        if(!(var4 >= var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 13;
+                        var2 = 12;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openTransferModal;
@@ -254,35 +236,35 @@ case 17:
                         var5 = _closure3_slot2;
                         var2['intent'] = var5;
                         var5 = function onResult(arg1) {
-                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                                 var1 = arg1;
-                                if(!var1) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                                if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                                 var2 = _closure3_slot0;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)();
-case 18:
+case 16:
                                 var1 = undefined;
                                 return var1;
                             }
                         };
                         var2['onResult'] = var5;
                         var2 = var3.bind(var4)(var2);
-case 16:
+case 14:
                         return var1;
                     }
                 };
                 var17 = function() {
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var6[var2];
                     var5 = undefined;
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.popWithKey;
                     var4 = _closure1_slot0;
-                    var1 = 16;
+                    var1 = 15;
                     var1 = var6[var1];
                     var1 = var4.bind(var5)(var1);
                     var1 = var1.PREMIUM_KEY;
@@ -292,17 +274,17 @@ case 16:
                 var22 = var16;
                 var3 = var22[var15](var21, var20, var19, var18, var17, var16);
                 _fun0001_ip = 2; continue _fun0001;
-case 14:
+case 12:
                 var12 = _closure2_slot7;
                 var8 = _closure2_slot5;
                 var3 = _closure2_slot3;
                 var3 = var3.id;
                 var3 = var12.bind(var4)(var8, var3);
                 _fun0001_ip = 2; continue _fun0001;
-case 12:
+case 10:
                 var3 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var1 = var8[var1];
                 var4 = var3.bind(var4)(var1);
                 var3 = var4.openTransferModal;
@@ -315,15 +297,15 @@ case 12:
                 var1['guildId'] = var7;
                 var1['intent'] = var6;
                 var5 = function onResult(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        if(!var1) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+                        if(!var1) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
-case 18:
+case 16:
                         var1 = undefined;
                         return var1;
                     }
@@ -331,7 +313,7 @@ case 18:
                 var1['onResult'] = var5;
                 var1 = var3.bind(var4)(var1);
                 _fun0001_ip = 2; continue _fun0001;
-case 7:
+case 5:
                 var1 = undefined;
                 var1 = var2.bind(var1)();
 case 2:

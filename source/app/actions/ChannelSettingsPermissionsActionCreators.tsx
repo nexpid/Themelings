@@ -36,7 +36,7 @@ case 6:
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
-                    var2 = var3.checkDefaultChannelThresholdMetAfterChannelPermissionDeny;
+                    var2 = var3.checkChattableChannelThresholdMetAfterChannelPermissionDeny;
                     var2 = var2.bind(var3)(var4, var7, var8);
                     SaveGenerator(address=84);
 case 7:

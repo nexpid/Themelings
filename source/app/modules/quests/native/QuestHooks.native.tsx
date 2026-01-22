@@ -14,13 +14,13 @@ case 0:
             var _closure2_slot0 = var12;
             var4 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var1[var3];
             var14 = undefined;
             var3 = var4.bind(var14)(var3);
             var3 = var3.bind(var14)();
             var4 = _closure1_slot0;
-            var16 = 8;
+            var16 = 9;
             var1 = var1[var16];
             var6 = var4.bind(var14)(var1);
             var5 = var6.useStateFromStores;
@@ -51,12 +51,12 @@ case 2:
 case 7:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var10[var1];
             var6 = var9.bind(var14)(var1);
             var5 = var6.isDismissed;
             var4 = var12.userStatus;
-            var1 = 10;
+            var1 = 11;
             var1 = var10[var1];
             var1 = var9.bind(var14)(var1);
             var1 = var1.QuestContent;
@@ -78,12 +78,12 @@ case 8:
             var9 = var1 != var4;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var4 = 13;
+            var4 = 14;
             var4 = var15[var4];
             var5 = var13.bind(var14)(var4);
             var4 = var5.useIsQuestExpired;
             var10 = var4.bind(var5)(var12);
-            var4 = 14;
+            var4 = 15;
             var4 = var15[var4];
             var6 = var13.bind(var14)(var4);
             var5 = var6.useIsEligibleForQuests;
@@ -92,12 +92,12 @@ case 8:
             var11 = var11.QUESTS_BAR;
             var4['location'] = var11;
             var11 = var5.bind(var6)(var4);
-            var4 = 15;
+            var4 = 16;
             var4 = var15[var4];
             var5 = var13.bind(var14)(var4);
             var4 = var5.useIsChannelFocused;
             var4 = var4.bind(var5)();
-            var5 = 16;
+            var5 = 17;
             var6 = var15[var5];
             var17 = var13.bind(var14)(var6);
             var6 = var17.useCurrentNavigationRouteName;
@@ -156,7 +156,7 @@ case 13:
                 }
             };
             var7 = var16.bind(var17)(var7, var2);
-            var2 = 17;
+            var2 = 18;
             var2 = var15[var2];
             var14 = var13.bind(var14)(var2);
             var13 = var14.useYouBarEnabled;
@@ -212,7 +212,7 @@ case 33:
 case 0:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var8[var1];
             var3 = undefined;
             var6 = var5.bind(var3)(var1);
@@ -223,7 +223,7 @@ case 0:
             var1 = var5.bind(var6)(var1);
             var5 = var1.enableNewRequestBehavior;
             var7 = _closure1_slot0;
-            var6 = 8;
+            var6 = 9;
             var1 = var8[var6];
             var11 = var7.bind(var3)(var1);
             var10 = var11.useStateFromStores;
@@ -240,7 +240,7 @@ case 0:
 case 36:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 10;
                     var4 = var10[var4];
                     var8 = undefined;
                     var7 = var9.bind(var8)(var4);
@@ -249,7 +249,7 @@ case 36:
                     var5 = var4.quests;
                     var3 = _closure1_slot5;
                     var4 = var3.questToDeliverForPlacement;
-                    var3 = 10;
+                    var3 = 11;
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.QuestPlacement;
@@ -280,7 +280,7 @@ case 0:
                     var2 = var3.get;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var4 = var4[var1];
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
@@ -387,7 +387,7 @@ case 45:
     var6 = var7.bind(var1)(var6);
     var6 = var6.ThemeTypes;
     var _closure1_slot9 = var6;
-    var6 = 20;
+    var6 = 21;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -397,18 +397,28 @@ case 45:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var2 = _closure1_slot11;
-            var4 = undefined;
-            var3 = var2.bind(var4)();
+            var5 = undefined;
+            var4 = var2.bind(var5)();
             var2 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 6;
-            var1 = var5[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useQuestDockExternalOffset;
-            var2 = var1.bind(var2)();
+            var1 = var6[var1];
+            var3 = var2.bind(var5)(var1);
+            var1 = var3.useQuestDockExternalOffset;
+            var3 = var1.bind(var3)();
+            var1 = 7;
+            var1 = var6[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.isMetaQuest;
+            var5 = var1.bind(var2)();
             var1 = 0;
-            if(!var3) { _fun0008_ip = 47; continue _fun0008 }
+            if(var5) { _fun0008_ip = 47; continue _fun0008 }
 case 48:
+            var2 = 0;
+            if(!var4) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
+            var2 = var3;
+case 49:
             var1 = var2;
 case 47:
             return var1;
@@ -420,7 +430,7 @@ case 47:
 case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var2 = var7[var2];
             var5 = undefined;
             var6 = var4.bind(var5)(var2);
@@ -431,7 +441,7 @@ case 0:
             var2 = var3.bind(var6)(var2);
             var3 = var2.enableNewRequestBehavior;
             var6 = _closure1_slot0;
-            var2 = 8;
+            var2 = 9;
             var2 = var7[var2];
             var9 = var6.bind(var5)(var2);
             var8 = var9.useStateFromStores;
@@ -448,7 +458,7 @@ case 0:
 case 36:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 10;
                     var4 = var10[var4];
                     var8 = undefined;
                     var7 = var9.bind(var8)(var4);
@@ -457,7 +467,7 @@ case 36:
                     var5 = var4.quests;
                     var3 = _closure1_slot5;
                     var4 = var3.questToDeliverForPlacement;
-                    var3 = 10;
+                    var3 = 11;
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.QuestPlacement;
@@ -474,19 +484,19 @@ case 37:
                 }
             };
             var1 = var8.bind(var9)(var2, var1);
-            var2 = 11;
+            var2 = 12;
             var2 = var7[var2];
             var4 = var4.bind(var5)(var2);
-            var2 = 10;
+            var2 = 11;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.QuestPlacement;
             var2 = var2.MOBILE_HOME_DOCK_AREA;
             var2 = var4.bind(var5)(var2);
-            if(!var3) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+            if(!var3) { _fun0009_ip = 51; continue _fun0009 }
+case 52:
             var1 = var2;
-case 49:
+case 51:
             return var1;
         }
     };
@@ -503,7 +513,7 @@ case 49:
         var1 = function() {
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 18;
+            var2 = 19;
             var3 = var8[var2];
             var6 = undefined;
             var5 = var7.bind(var6)(var3);
@@ -535,7 +545,7 @@ case 49:
 case 0:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var9 = 18;
+                var9 = 19;
                 var1 = var3[var9];
                 var8 = undefined;
                 var6 = var7.bind(var8)(var1);
@@ -551,8 +561,8 @@ case 0:
                 var3 = var2.questBarHeroVideo;
                 var2 = null;
                 var3 = var2 != var3;
-                if(!var3) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
+                if(!var3) { _fun0011_ip = 53; continue _fun0011 }
+case 54:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
@@ -564,15 +574,15 @@ case 52:
                 var1 = var1.assets;
                 var1 = var1.questBarHeroVideo;
                 var2 = var6.bind(var7)(var3, var1);
-case 51:
+case 53:
                 var1 = {};
                 var3 = var5.isAnimated;
                 var7 = var5.url;
-                if(var3) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
+                if(var3) { _fun0011_ip = 55; continue _fun0011 }
+case 56:
                 var3 = var7;
-                _fun0011_ip = 55; continue _fun0011;
-case 53:
+                _fun0011_ip = 57; continue _fun0011;
+case 55:
                 var6 = var7.replace;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -581,7 +591,7 @@ case 53:
                 var5 = var4.EXTENSION_RE;
                 var4 = '.png';
                 var3 = var6.bind(var7)(var5, var4);
-case 55:
+case 57:
                 var1['staticUrl'] = var3;
                 var1['videoAsset'] = var2;
                 return var1;
@@ -601,7 +611,7 @@ case 55:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 19;
+            var1 = 20;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);

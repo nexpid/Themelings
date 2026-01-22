@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['clipContainer'] = var2;
         var2 = {'width': '120%', 'height': '120%', 'position': 'absolute', 'top': '-10%', 'left': '-10%', 'zIndex': 0, 'opacity': 0.8};
         var1['glowLottie'] = var2;
-        var2 = {'zIndex': 4, 'position': 'absolute', 'pointerEvents': 'none', 'width': '120%', 'height': '120%', 'top': '-10%', 'left': '-10%'};
+        var2 = {'zIndex': 4, 'position': 'absolute', 'pointerEvents': 'none', 'width': '100%', 'height': '100%', 'top': 0, 'left': 0};
         var1['trinketsLottie'] = var2;
         return var1;
     };

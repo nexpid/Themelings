@@ -606,15 +606,15 @@ case 53:
                 var4 = var3.customId;
                 var1['custom_id'] = var4;
                 var4 = null;
-                var8 = var4 == var5;
-                var9 = undefined;
-                if(var8) { _fun0006_ip = 55; continue _fun0006 }
+                var4 = var4 == var5;
+                var8 = undefined;
+                if(var4) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
-                var9 = var5.type;
+                var8 = var5.type;
 case 55:
-                var8 = var3.type;
-                var4 = null;
-                if(!(var9 === var8)) { _fun0006_ip = 57; continue _fun0006 }
+                var4 = var3.type;
+                var4 = var8 === var4;
+                if(!var4) { _fun0006_ip = 57; continue _fun0006 }
 case 58:
                 var4 = var5.value;
 case 57:

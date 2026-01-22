@@ -231,26 +231,26 @@ case 18:
                 if(!(var8 !== var29)) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
                 if(!(var9 !== var29)) { _fun0004_ip = 21; continue _fun0004 }
-case 7:
+case 22:
                 var23 = var19.readUnknownField;
-                if(!(var10 !== var23)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(!(var10 !== var23)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var2 = var20.skip;
                 var2 = var2.bind(var20)(var28);
                 var22 = var23;
                 var21 = var2;
-                if(!(var11 !== var23)) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+                if(!(var11 !== var23)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                 var25 = var23;
-                if(!(var12 === var23)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+                if(!(var12 === var23)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                 var26 = _closure1_slot0;
                 var24 = _closure1_slot1;
                 var24 = var24[var13];
                 var24 = var26.bind(var16)(var24);
                 var24 = var24.UnknownFieldHandler;
                 var25 = var24.onRead;
-case 26:
+case 27:
                 var34 = var18.typeName;
                 var35 = undefined;
                 var33 = var1;
@@ -260,8 +260,8 @@ case 26:
                 var24 = var35[var25](var34, var33, var32, var31, var30, var29);
                 var22 = var23;
                 var21 = var2;
-                _fun0004_ip = 24; continue _fun0004;
-case 22:
+                _fun0004_ip = 25; continue _fun0004;
+case 23:
                 var2 = global;
                 var23 = var2.globalThis;
                 var24 = var23.Error;
@@ -297,28 +297,28 @@ case 21:
                 var1['gradient'] = var2;
                 var22 = var4;
                 var21 = var3;
-                _fun0004_ip = 24; continue _fun0004;
+                _fun0004_ip = 25; continue _fun0004;
 case 19:
                 var2 = var20.string;
                 var2 = var2.bind(var20)();
                 var1['trinketGlowAnimationUrl'] = var2;
                 var22 = var4;
                 var21 = var3;
-                _fun0004_ip = 24; continue _fun0004;
+                _fun0004_ip = 25; continue _fun0004;
 case 17:
                 var2 = var20.string;
                 var2 = var2.bind(var20)();
                 var1['trinketAnimationUrl'] = var2;
                 var22 = var4;
                 var21 = var3;
-                _fun0004_ip = 24; continue _fun0004;
+                _fun0004_ip = 25; continue _fun0004;
 case 15:
                 var2 = var20.string;
                 var2 = var2.bind(var20)();
                 var1['boxAnimationUrl'] = var2;
                 var22 = var4;
                 var21 = var3;
-case 24:
+case 25:
                 var2 = var20.pos;
                 var4 = var22;
                 var3 = var21;
@@ -340,8 +340,8 @@ case 0:
                 var2 = arg3;
                 var3 = var5.boxAnimationUrl;
                 var4 = '';
-                if(!(var4 !== var3)) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                if(!(var4 !== var3)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -356,10 +356,10 @@ case 29:
                 var6 = var7.string;
                 var3 = var5.boxAnimationUrl;
                 var3 = var6.bind(var7)(var3);
-case 28:
+case 29:
                 var3 = var5.trinketAnimationUrl;
-                if(!(var4 !== var3)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                if(!(var4 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                 var7 = var1.tag;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -374,10 +374,10 @@ case 31:
                 var6 = var7.string;
                 var3 = var5.trinketAnimationUrl;
                 var3 = var6.bind(var7)(var3);
-case 30:
+case 31:
                 var3 = var5.trinketGlowAnimationUrl;
-                if(!(var4 !== var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                if(!(var4 !== var3)) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -392,10 +392,10 @@ case 33:
                 var4 = var6.string;
                 var3 = var5.trinketGlowAnimationUrl;
                 var3 = var4.bind(var6)(var3);
-case 32:
+case 33:
                 var3 = var5.gradient;
-                if(!var3) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                if(!var3) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -418,14 +418,14 @@ case 35:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 34:
+case 35:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!(var2 !== var4)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!(var2 == var4)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -434,12 +434,12 @@ case 39:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 38:
+case 39:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 36:
+case 37:
                 return var1;
             }
         };

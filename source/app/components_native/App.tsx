@@ -104,7 +104,7 @@ case 3:
         var4 = var6.paths;
         var4 = var8.bind(var1)(var7, var4);
 case 2:
-        var4 = 60;
+        var4 = 62;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -556,6 +556,57 @@ case 8:
                 return var1;
             };
             var2 = var2.bind(var4)();
+            var2 = function useChannelObfuscationPersistence() {
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 57;
+                var4 = var4[var1];
+                var1 = undefined;
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.useIsChannelMetadataObfuscationEnabled;
+                var4 = 'App';
+                var6 = var5.bind(var6)(var4);
+                var _closure3_slot0 = var6;
+                var5 = _closure1_slot3;
+                var4 = var5.useEffect;
+                var3 = new Array(1);
+                var3[0] = var6;
+                var2 = function() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var1 = 48;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.isAndroid;
+                        var3 = var3.bind(var4)();
+                        if(var3) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                        var3 = _closure1_slot4;
+                        var5 = var3.DCDFastConnectManager;
+                        var4 = var5.setUseChannelObfuscation;
+                        var3 = _closure3_slot0;
+                        var3 = var4.bind(var5)(var3);
+                        _fun0004_ip = 14; continue _fun0004;
+case 12:
+                        var3 = _closure1_slot1;
+                        var4 = _closure1_slot2;
+                        var2 = 58;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.setUseChannelObfuscation;
+                        var2 = _closure3_slot0;
+                        var2 = var3.bind(var4)(var2);
+case 14:
+                        return var1;
+                    }
+                };
+                var2 = var4.bind(var5)(var2, var3);
+                return var1;
+            };
+            var2 = var2.bind(var4)();
             var5 = _closure1_slot3;
             var3 = var5.useEffect;
             var2 = function() {
@@ -573,7 +624,7 @@ case 8:
             var1 = new Array(0);
             var1 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot7;
-            var5 = 57;
+            var5 = 59;
             var1 = var9[var5];
             var2 = var8.bind(var4)(var1);
             var1 = {};
@@ -583,13 +634,13 @@ case 8:
             var5 = var5.Profiles;
             var5 = var5.App;
             var1['profile'] = var5;
-            var5 = 58;
+            var5 = 60;
             var5 = var9[var5];
             var6 = var8.bind(var4)(var5);
             var5 = {};
             var7 = 'main';
             var5['appEntryKey'] = var7;
-            var7 = 59;
+            var7 = 61;
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

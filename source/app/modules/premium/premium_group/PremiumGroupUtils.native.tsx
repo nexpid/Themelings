@@ -194,10 +194,15 @@ case 10:
         return var1;
     };
     var3['useIsEligibleForPremiumGroupPurchase'] = var4;
+    var4 = function() {
+        var1 = false;
+        return var1;
+    };
+    var3['useIsEligibleForPremiumGroupMarketingMaterials'] = var4;
     var2 = function() {
         var1 = false;
         return var1;
     };
-    var3['useIsEligibleForPremiumGroupMarketingMaterials'] = var2;
+    var3['useIsEligibleForPremiumGroupNitroTabMarketingMaterials'] = var2;
     return var1;
 })();

@@ -326,21 +326,32 @@ case 14:
             var11 = var9;
             if(!var11) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
+            var12 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var9 = 15;
+            var9 = var16[var9];
+            var12 = var12.bind(var4)(var9);
+            var9 = var12.isMetaQuest;
+            var9 = var9.bind(var12)();
+            var11 = !var9;
+case 16:
+            if(!var11) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var16 = _closure1_slot8;
             var12 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var9 = 15;
+            var9 = 16;
             var9 = var22[var9];
             var12 = var12.bind(var4)(var9);
             var9 = {};
             var11 = var16.bind(var4)(var12, var9);
-case 16:
+case 18:
             var9 = new Array(4);
             var9[0] = var11;
             var16 = _closure1_slot8;
             var12 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var11 = 16;
+            var11 = 17;
             var11 = var22[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -349,12 +360,12 @@ case 16:
             var11 = var16.bind(var4)(var12, var11);
             var9[1] = var11;
             var10 = !var10;
-            if(!var10) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var16 = _closure1_slot8;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var11 = 17;
+            var11 = 18;
             var11 = var24[var11];
             var11 = var23.bind(var4)(var11);
             var12 = var11.PressableScale;
@@ -363,7 +374,7 @@ case 19:
             var11['style'] = var20;
             var20 = 'button';
             var11['accessibilityRole'] = var20;
-            var20 = 18;
+            var20 = 19;
             var21 = var24[var20];
             var21 = var23.bind(var4)(var21);
             var22 = var21.intl;
@@ -387,7 +398,7 @@ case 19:
             var22[1] = var23;
             var21['style'] = var22;
             var23 = _closure1_slot1;
-            var22 = 19;
+            var22 = 20;
             var22 = var24[var22];
             var23 = var23.bind(var4)(var22);
             var22 = {};
@@ -401,12 +412,12 @@ case 19:
             var19 = var16.bind(var4)(var20, var19);
             var11['children'] = var19;
             var10 = var16.bind(var4)(var12, var11);
-case 18:
+case 20:
             var9[2] = var10;
             var12 = _closure1_slot8;
             var21 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var10 = 17;
+            var10 = 18;
             var10 = var19[var10];
             var10 = var21.bind(var4)(var10);
             var11 = var10.PressableScale;
@@ -416,7 +427,7 @@ case 18:
             var10['style'] = var14;
             var14 = 'button';
             var10['accessibilityRole'] = var14;
-            var14 = 18;
+            var14 = 19;
             var16 = var19[var14];
             var16 = var21.bind(var4)(var16);
             var20 = var16.intl;
@@ -435,7 +446,7 @@ case 18:
             var16 = var18.button;
             var13['style'] = var16;
             var16 = _closure1_slot1;
-            var15 = 20;
+            var15 = 21;
             var15 = var19[var15];
             var16 = var16.bind(var4)(var15);
             var15 = {};
@@ -458,7 +469,7 @@ case 18:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 21;
+    var5 = 22;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

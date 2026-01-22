@@ -266,6 +266,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_GROUP_INVITE'] = var6;
     var2 = 'PREMIUM_GROUP_INVITE';
     var4[var6] = var2;
+    var6 = 65;
+    var4['VOICE_SESSION'] = var6;
+    var2 = 'VOICE_SESSION';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

@@ -46,10 +46,10 @@ case 0:
             var1 = _closure1_slot3;
             var2 = var1.GUILDS;
             var2 = var3.bind(var5)(var2);
-            var12 = _closure1_slot1;
+            var11 = _closure1_slot1;
             var2 = 4;
             var2 = var14[var2];
-            var2 = var12.bind(var4)(var2);
+            var2 = var11.bind(var4)(var2);
             var7 = var2.bind(var4)();
             var2 = 5;
             var2 = var14[var2];
@@ -84,12 +84,12 @@ case 0:
             var7 = {};
             var10 = 9;
             var10 = var14[var10];
-            var12 = var12.bind(var4)(var10);
+            var11 = var11.bind(var4)(var10);
             var10 = {};
-            var12 = var3.bind(var4)(var12, var10);
+            var11 = var3.bind(var4)(var11, var10);
             var10 = new Array(3);
-            var10[0] = var12;
-            var12 = null;
+            var10[0] = var11;
+            var11 = null;
             if(!var13) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var15 = _closure1_slot4;
@@ -100,17 +100,28 @@ case 3:
             var13 = var14.bind(var4)(var13);
             var14 = var13.ThemedYouBar;
             var13 = {};
-            var12 = var15.bind(var4)(var14, var13);
+            var11 = var15.bind(var4)(var14, var13);
 case 2:
-            var10[1] = var12;
-            var13 = _closure1_slot4;
-            var12 = _closure1_slot1;
+            var10[1] = var11;
+            var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var11 = 11;
             var11 = var14[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = {};
-            var11 = var13.bind(var4)(var12, var11);
+            var13 = var13.bind(var4)(var11);
+            var11 = var13.isMetaQuest;
+            var11 = var11.bind(var13)();
+            var11 = !var11;
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var14 = _closure1_slot4;
+            var13 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var12 = 12;
+            var12 = var15[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = {};
+            var11 = var14.bind(var4)(var13, var12);
+case 4:
             var10[2] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);
@@ -126,7 +137,7 @@ case 2:
         return var1;
     };
     var2 = var7.bind(var8)(var4, var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

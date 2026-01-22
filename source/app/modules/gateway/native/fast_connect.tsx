@@ -259,7 +259,6 @@ case 4:
     var5 = var6.bind(var1)(var5);
     var8 = var5.NativeModules;
     var _closure1_slot4 = var8;
-    var8 = var5.Platform;
     var5 = var5.AppState;
     var _closure1_slot5 = var5;
     var8 = 2;
@@ -438,54 +437,89 @@ case 32:
                     var2 = var9.bind(var14)(var2, var8);
                     var2 = {};
                     var2['token'] = var7;
-                    var8 = {};
-                    var14 = _closure1_slot2;
-                    var7 = _closure1_slot3;
-                    var9 = 6;
-                    var9 = var7[var9];
-                    var15 = var14.bind(var1)(var9);
-                    var9 = var15.getSuperProperties;
-                    var19 = var9.bind(var15)();
-                    var20 = var8;
-                    var9 = copyDataProperties(var20, var19);
-                    var9 = var4.currentState;
+                    var7 = {};
+                    var9 = _closure1_slot2;
+                    var14 = _closure1_slot3;
+                    var8 = 6;
+                    var8 = var14[var8];
+                    var15 = var9.bind(var1)(var8);
+                    var8 = var15.getSuperProperties;
+                    var20 = var8.bind(var15)();
+                    var21 = var7;
+                    var8 = copyDataProperties(var21, var20);
+                    var8 = var4.currentState;
                     var4 = 'client_app_state';
-                    var8[var4] = var9;
+                    var7[var4] = var8;
                     var4 = true;
-                    var9 = 'is_fast_connect';
-                    var8[var9] = var4;
-                    var9 = 7;
-                    var9 = var7[var9];
-                    var14 = var14.bind(var1)(var9);
-                    var9 = var14.describeConnectionReasons;
-                    var14 = var9.bind(var14)();
-                    var9 = 'gateway_connect_reasons';
-                    var8[var9] = var14;
-                    var2['properties'] = var8;
+                    var8 = 'is_fast_connect';
+                    var7[var8] = var4;
+                    var8 = 7;
+                    var8 = var14[var8];
+                    var9 = var9.bind(var1)(var8);
+                    var8 = var9.describeConnectionReasons;
+                    var9 = var8.bind(var9)();
+                    var8 = 'gateway_connect_reasons';
+                    var7[var8] = var9;
+                    var2['properties'] = var7;
+                    var15 = _closure1_slot0;
+                    var7 = 8;
+                    var7 = var14[var7];
+                    var9 = var15.bind(var1)(var7);
+                    var8 = var9.getClientCapabilities;
+                    var7 = {};
+                    var14 = var14[var13];
+                    var15 = var15.bind(var1)(var14);
+                    var14 = var15.isAndroid;
+                    var14 = var14.bind(var15)();
+                    if(var14) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
+                    var14 = _closure1_slot4;
+                    var14 = var14.DCDFastConnectManager;
+                    var15 = var14.useChannelObfuscation;
+                    var14 = var10 != var15;
+                    if(!var14) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
+                    var14 = var15;
+case 36:
+                    _fun0005_ip = 38; continue _fun0005;
+case 34:
+                    var16 = _closure1_slot1;
+                    var17 = _closure1_slot3;
+                    var15 = 5;
+                    var15 = var17[var15];
+                    var16 = var16.bind(var1)(var15);
+                    var15 = var16.getConstants;
+                    var15 = var15.bind(var16)();
+                    var16 = var15.useChannelObfuscation;
+                    var15 = var10 != var16;
+                    if(!var15) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
+                    var15 = var16;
+case 39:
+                    var14 = var15;
+case 38:
+                    var7['useChannelObfuscation'] = var14;
+                    var7 = var8.bind(var9)(var7);
+                    var2['capabilities'] = var7;
+                    var7 = {};
+                    var8 = {};
+                    var7['guild_versions'] = var8;
+                    var2['client_state'] = var7;
+                    var9 = var5.JSON;
+                    var8 = var9.stringify;
+                    var7 = {};
+                    var14 = 2;
+                    var7['op'] = var14;
+                    var7['d'] = var2;
+                    var9 = var8.bind(var9)(var7);
                     var8 = _closure1_slot0;
-                    var9 = 8;
-                    var9 = var7[var9];
-                    var14 = var8.bind(var1)(var9);
-                    var9 = var14.getClientCapabilities;
-                    var9 = var9.bind(var14)();
-                    var2['capabilities'] = var9;
-                    var9 = {};
-                    var14 = {};
-                    var9['guild_versions'] = var14;
-                    var2['client_state'] = var9;
-                    var15 = var5.JSON;
-                    var14 = var15.stringify;
-                    var9 = {};
-                    var16 = 2;
-                    var9['op'] = var16;
-                    var9['d'] = var2;
-                    var9 = var14.bind(var15)(var9);
+                    var7 = _closure1_slot3;
                     var7 = var7[var13];
                     var8 = var8.bind(var1)(var7);
                     var7 = var8.isAndroid;
                     var7 = var7.bind(var8)();
-                    if(var7) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+                    if(var7) { _fun0005_ip = 41; continue _fun0005 }
+case 9:
                     var7 = _closure1_slot4;
                     var13 = var7.DCDFastConnectManager;
                     var8 = var13.prepareIdentify;
@@ -497,31 +531,31 @@ case 35:
                     var7 = var14.isCacheEnabled;
                     var14 = var7.bind(var14)();
                     var7 = null;
-                    if(!var14) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                    if(!var14) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                     var7 = _closure1_slot6;
-case 36:
-                    var21 = var13;
-                    var20 = var12;
-                    var19 = var9;
-                    var18 = var6;
-                    var17 = var7;
-                    var7 = var21[var8](var20, var19, var18, var17, var16);
-                    _fun0005_ip = 38; continue _fun0005;
-case 34:
+case 42:
+                    var22 = var13;
+                    var21 = var12;
+                    var20 = var9;
+                    var19 = var6;
+                    var18 = var7;
+                    var7 = var22[var8](var21, var20, var19, var18, var17);
+                    _fun0005_ip = 44; continue _fun0005;
+case 41:
                     var8 = var10 == var12;
                     var7 = undefined;
-                    if(var8) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                    if(var8) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                     var8 = var12.toString;
                     var7 = var8.bind(var12)();
-case 39:
+case 45:
                     var8 = var10 != var7;
                     var10 = null;
-                    if(!var8) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                    if(!var8) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                     var10 = var7;
-case 41:
+case 47:
                     var8 = _closure1_slot1;
                     var13 = _closure1_slot3;
                     var7 = 5;
@@ -537,17 +571,17 @@ case 41:
                     var5 = var12.isCacheEnabled;
                     var12 = var5.bind(var12)();
                     var5 = undefined;
-                    if(!var12) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                    if(!var12) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                     var5 = _closure1_slot6;
-case 43:
-                    var21 = var8;
-                    var20 = var10;
-                    var19 = var9;
-                    var18 = var6;
-                    var17 = var5;
-                    var5 = var21[var7](var20, var19, var18, var17, var16);
-case 38:
+case 49:
+                    var22 = var8;
+                    var21 = var10;
+                    var20 = var9;
+                    var19 = var6;
+                    var18 = var5;
+                    var5 = var22[var7](var21, var20, var19, var18, var17);
+case 44:
                     var2 = var2.client_state;
                     var3['identify'] = var4;
                     var3['clientState'] = var2;

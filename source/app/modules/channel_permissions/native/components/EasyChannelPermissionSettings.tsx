@@ -305,7 +305,7 @@ case 31:
                             var4 = var4[var3];
                             var3 = undefined;
                             var7 = var5.bind(var3)(var4);
-                            var5 = var7.checkDefaultChannelThresholdMetAfterChannelPermissionDeny;
+                            var5 = var7.checkChattableChannelThresholdMetAfterChannelPermissionDeny;
                             var4 = _closure2_slot0;
                             var2 = _closure1_slot18;
                             var2 = var2.VIEW_CHANNEL;
