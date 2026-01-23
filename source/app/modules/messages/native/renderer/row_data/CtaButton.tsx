@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -65,24 +65,46 @@ case 5:
             return var5;
 case 4:
             var1 = {};
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot1;
-            var9 = 3;
-            var10 = var13[var9];
-            var10 = var12.bind(var5)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var13[var9];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot1;
             if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = var9./nicWo;
-            var4 = var10.bind(var11)(var4);
+            var4 = 3;
+            var9 = var16[var4];
+            var9 = var15.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var4 = var16[var4];
+            var4 = var15.bind(var5)(var4);
+            var4 = var4.t;
+            var4 = var4./nicWo;
+            var4 = var9.bind(var10)(var4);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var9 = var9.KPGVWl;
-            var4 = var10.bind(var11)(var9);
+            var9 = 4;
+            var9 = var16[var9];
+            var12 = var15.bind(var5)(var9);
+            var11 = var12.getUpdatedAgeVerificationString;
+            var9 = 3;
+            var10 = var16[var9];
+            var10 = var15.bind(var5)(var10);
+            var14 = var10.intl;
+            var13 = var14.string;
+            var10 = var16[var9];
+            var10 = var15.bind(var5)(var10);
+            var10 = var10.t;
+            var10 = var10.KPGVWl;
+            var10 = var13.bind(var14)(var10);
+            var13 = var16[var9];
+            var13 = var15.bind(var5)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var9 = var16[var9];
+            var9 = var15.bind(var5)(var9);
+            var9 = var9.t;
+            var9 = var9.9KiIz6;
+            var9 = var13.bind(var14)(var9);
+            var4 = var11.bind(var12)(var10, var9);
 case 8:
             var1['text'] = var4;
             var4 = var2.retryTextColor;

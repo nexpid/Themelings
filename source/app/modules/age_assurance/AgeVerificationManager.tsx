@@ -128,7 +128,7 @@ case 4:
     var4 = new var13[var9](var12, var11);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot15 = var4;
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -237,20 +237,25 @@ case 8:
                         var12 = _closure1_slot2;
                         var9 = 15;
                         var9 = var12[var9];
-                        var11 = var11.bind(var1)(var9);
-                        var9 = var11.getIsGidgetPawtectEnabled;
-                        var13 = 'age-verification-manager';
-                        var11 = var9.bind(var11)(var13);
+                        var12 = var11.bind(var1)(var9);
+                        var11 = var12.getIsGidgetPawtectEnabled;
+                        var9 = 'age-verification-manager';
+                        var11 = var11.bind(var12)(var9);
                         var9 = var10;
                         if(!var10) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                        var12 = _closure1_slot0;
-                        var14 = _closure1_slot2;
+                        var14 = _closure1_slot0;
+                        var15 = _closure1_slot2;
                         var10 = 16;
-                        var10 = var14[var10];
-                        var12 = var12.bind(var1)(var10);
-                        var10 = var12.isEligibleForSettingsDefaultsAggregate;
-                        var10 = var10.bind(var12)(var13);
+                        var10 = var15[var10];
+                        var13 = var14.bind(var1)(var10);
+                        var12 = var13.isFeatureAgeGated;
+                        var10 = 17;
+                        var10 = var15[var10];
+                        var10 = var14.bind(var1)(var10);
+                        var10 = var10.AgeGatedFeature;
+                        var10 = var10.AGE_GATED_SPACES;
+                        var10 = var12.bind(var13)(var10);
                         if(var10) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
                         var10 = var11;
@@ -270,7 +275,7 @@ case 22:
                         _closure4_slot1 = var7;
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var7 = 17;
+                        var7 = 18;
                         var7 = var10[var7];
                         var10 = var9.bind(var1)(var7);
                         var9 = var10.forEach;
@@ -292,7 +297,7 @@ case 23:
 case 26:
                                 var4 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 17;
+                                var1 = 18;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var2 = var4.bind(var1)(var2);
@@ -410,7 +415,7 @@ case 40: // catch_target1
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

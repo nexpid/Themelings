@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -232,31 +232,21 @@ case 35:
 case 0:
             var2 = arg1;
             var1 = 'email';
-            if(!(var1 !== var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!(var1 !== var2)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var1 = 'phoneToken';
-            if(!(var1 !== var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 39:
+            if(!(var1 !== var2)) { _fun0004_ip = 36; continue _fun0004 }
+case 38:
             var1 = 'global_name';
+            if(!(var1 !== var2)) { _fun0004_ip = 9; continue _fun0004 }
+case 39:
+            var1 = 'username';
             if(!(var1 !== var2)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var1 = 'username';
-            if(!(var1 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
             var1 = 'password';
-            if(!(var1 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
-case 44:
-            var1 = null;
-            return var1;
+            if(!(var1 !== var2)) { _fun0004_ip = 40; continue _fun0004 }
 case 42:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 2;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.AuthStates;
-            var1 = var1.REGISTER_ACCOUNT_INFORMATION;
+            var1 = null;
             return var1;
 case 40:
             var3 = _closure1_slot0;
@@ -266,9 +256,19 @@ case 40:
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = var1.AuthStates;
+            var1 = var1.REGISTER_ACCOUNT_INFORMATION;
+            return var1;
+case 9:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.AuthStates;
             var1 = var1.REGISTER_DISPLAY_NAME;
             return var1;
-case 37:
+case 36:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 2;
@@ -302,16 +302,16 @@ case 0:
             var2 = 'date_of_birth';
             var2 = var7.bind(var5)(var2, var6);
             var8 = null;
-            if(!(var8 == var2)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(!(var8 == var2)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var2 = global;
             var7 = var2.Number;
             var2 = var6.code;
             var7 = var7.bind(var5)(var2);
             var2 = _closure1_slot6;
             var2 = var2.UNDER_MINIMUM_AGE;
-            if(!(var7 !== var2)) { _fun0005_ip = 45; continue _fun0005 }
-case 47:
+            if(!(var7 !== var2)) { _fun0005_ip = 43; continue _fun0005 }
+case 45:
             var7 = _closure1_slot9;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -327,47 +327,47 @@ case 47:
             var10 = undefined;
             var9 = undefined;
             var7 = undefined;
-            if(var2) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+            if(var2) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var15 = var11.value;
             var14 = _closure1_slot9;
             var2 = _closure1_slot7;
             var2 = var2[var15];
-            if(!(var8 == var2)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!(var8 == var2)) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var2 = new Array(0);
-case 50:
+case 48:
             var18 = var14.bind(var5)(var2);
             var14 = var18.bind(var5)();
             var2 = var14.done;
             var17 = var14;
             var15 = var7;
             var7 = var15;
-            if(var2) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(var2) { _fun0005_ip = 50; continue _fun0005 }
+case 22:
             var20 = var17.value;
             var14 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var13];
             var2 = var14.bind(var5)(var2);
             var16 = var2.bind(var5)(var20, var6);
-            if(!(var8 != var16)) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+            if(!(var8 != var16)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var2 = _closure1_slot8;
             var14 = var2.bind(var5)(var20);
             var15 = var14;
-            if(!(var8 == var15)) { _fun0005_ip = 56; continue _fun0005 }
-case 54:
+            if(!(var8 == var15)) { _fun0005_ip = 53; continue _fun0005 }
+case 51:
             var21 = var18.bind(var5)();
             var2 = var21.done;
             var17 = var21;
             var10 = var20;
             var9 = var16;
             var7 = var15;
-            if(var2) { _fun0005_ip = 52; continue _fun0005 }
-case 57:
-            _fun0005_ip = 53; continue _fun0005;
-case 56:
+            if(var2) { _fun0005_ip = 50; continue _fun0005 }
+case 54:
+            _fun0005_ip = 22; continue _fun0005;
+case 53:
             var2 = {};
             var15 = _closure1_slot5;
             var15 = var15.bind(var5)(var14);
@@ -392,21 +392,21 @@ case 56:
             var2 = var2.bind(var4)(var14);
             var2 = undefined;
             return var2;
-case 52:
+case 50:
             var14 = var12.bind(var5)();
             var2 = var14.done;
             var11 = var14;
-            if(!var2) { _fun0005_ip = 49; continue _fun0005 }
-case 48:
+            if(!var2) { _fun0005_ip = 47; continue _fun0005 }
+case 46:
             var2 = var6.error_code;
             var2 = var8 != var2;
-            if(!var2) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+            if(!var2) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
             var7 = var6.message;
             var2 = var8 != var7;
+case 55:
+            if(!var2) { _fun0005_ip = 57; continue _fun0005 }
 case 58:
-            if(!var2) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
             var2 = {};
             var7 = arg4;
             var2['step'] = var7;
@@ -425,9 +425,9 @@ case 61:
             var6[0] = var7;
             var2['details'] = var6;
             var2 = var3.bind(var5)(var2);
-case 60:
+case 57:
             return var5;
-case 45:
+case 43:
             var2 = {};
             var6 = _closure1_slot3;
             var6 = var6.AGE_GATE_UNDERAGE;

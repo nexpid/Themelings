@@ -197,19 +197,25 @@ case 2:
     var4 = function fetchChangelog(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var3 = arguments[2];
+            var4 = arguments[2];
+            var3 = arguments[3];
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
             var _closure2_slot1 = var2;
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
+            if(!(var4 === var2)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var3 = false;
+            var4 = false;
 case 4:
-            var _closure2_slot2 = var3;
-            var3 = this;
+            var _closure2_slot2 = var4;
+            if(!(var3 === var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var3 = false;
+case 6:
             var _closure2_slot3 = var3;
+            var3 = this;
+            var _closure2_slot4 = var3;
             var3 = _closure1_slot3;
             var1 = function* () {
                 var1 = function* anon_0_() {
@@ -217,9 +223,10 @@ case 4:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                        if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var6 = undefined;
+                        var10 = undefined;
                         var9 = undefined;
                         var8 = _closure1_slot4;
                         var7 = var8.getChangelog;
@@ -227,19 +234,32 @@ case 7:
                         var2 = _closure2_slot1;
                         var5 = var7.bind(var8)(var5, var2);
                         var2 = null;
-                        if(!(var2 == var5)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                        if(!(var2 == var5)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var5 = _closure2_slot2;
                         var7 = _closure1_slot6;
-                        if(var5) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                        var5 = var7.MOBILE;
-                        _fun0003_ip = 12; continue _fun0003;
-case 10:
-                        var5 = var7.DESKTOP;
+                        if(var5) { _fun0003_ip = 2; continue _fun0003 }
 case 12:
+                        var5 = var7.MOBILE;
+                        _fun0003_ip = 13; continue _fun0003;
+case 2:
+                        var5 = var7.DESKTOP;
+case 13:
+                        var10 = var5;
+                        var7 = _closure2_slot3;
+                        var5 = '';
+                        if(var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                        var7 = _closure1_slot7;
+                        var11 = var7.bind(var6)();
+                        var7 = global;
+                        var7 = var7.HermesInternal;
+                        var8 = var7.concat;
+                        var7 = '?';
+                        var5 = var8.bind(var7)(var11);
+case 14:
                         var9 = var5;
-case 13: // try_start_0
+case 16: // try_start_0
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 6;
@@ -248,17 +268,16 @@ case 13: // try_start_0
                         var8 = var5.HTTP;
                         var7 = var8.get;
                         var5 = {};
-                        var23 = var9;
+                        var23 = var10;
                         var21 = _closure2_slot0;
                         var19 = _closure2_slot1;
-                        var9 = _closure1_slot7;
-                        var17 = var9.bind(var6)();
+                        var17 = var9;
                         var9 = global;
                         var9 = var9.HermesInternal;
                         var12 = var9.concat;
                         var24 = 'https://cdn.discordapp.com/changelogs/';
                         var10 = '/';
-                        var18 = '.json?';
+                        var18 = '.json';
                         var22 = var10;
                         var20 = var10;
                         var9 = var24[var12](var23, var22, var21, var20, var19, var18, var17, var16);
@@ -266,13 +285,13 @@ case 13: // try_start_0
                         var9 = true;
                         var5['rejectWithError'] = var9;
                         var5 = var7.bind(var8)(var5);
-                        SaveGenerator(address=190);
-case 14:
-                        return var5;
-case 15:
-                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(var7) { _fun0003_ip = 16; continue _fun0003 }
+                        SaveGenerator(address=231);
 case 17:
+                        return var5;
+case 18:
+                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                        if(var7) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                         var8 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var7 = 4;
@@ -288,11 +307,11 @@ case 17:
                         var7['changelog'] = var10;
                         var7 = var8.bind(var9)(var7);
                         var7 = var5.body;
-case 18: // try_end0
+case 21: // try_end0
                         return var7;
-case 16:
+case 19:
                         return var5;
-case 19: // catch_target0
+case 22: // catch_target0
                         CatchBlockStart(arg_register=4);
                         var5 = _closure1_slot1;
                         var7 = _closure1_slot2;
@@ -310,26 +329,26 @@ case 19: // catch_target0
                         var4 = var6.bind(var7)(var4);
                         var7 = 'en-US';
                         var4 = null;
-                        if(!(var7 !== var5)) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-                        var6 = _closure2_slot3;
+                        if(!(var7 !== var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                        var6 = _closure2_slot4;
                         var5 = var6.fetchChangelog;
                         var3 = _closure2_slot0;
                         var3 = var5.bind(var6)(var3, var7);
-                        SaveGenerator(address=362);
-case 22:
+                        SaveGenerator(address=403);
+case 25:
                         return var3;
-case 23:
+case 26:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                         var4 = var3;
-                        if(var5) { _fun0003_ip = 24; continue _fun0003 }
-case 20:
+                        if(var5) { _fun0003_ip = 27; continue _fun0003 }
+case 23:
                         return var4;
-case 24:
+case 27:
                         return var3;
-case 8:
+case 10:
                         return var2;
-case 6:
+case 8:
                         return var1;
                     }
                 };

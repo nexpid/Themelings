@@ -280,6 +280,12 @@ case 9:
     var31['LIKELY_ATO'] = var5;
     var10 = 'LIKELY_ATO';
     var31[var5] = var10;
+    var31['PARENTAL_CONSENT_REVOKED_IOS'] = var11;
+    var10 = 'PARENTAL_CONSENT_REVOKED_IOS';
+    var31[var11] = var10;
+    var31['PARENTAL_CONSENT_REVOKED_ANDROID'] = var9;
+    var10 = 'PARENTAL_CONSENT_REVOKED_ANDROID';
+    var31[var9] = var10;
     var30 = {};
     var30['REASON_UNSPECIFIED'] = var7;
     var10 = 'REASON_UNSPECIFIED';

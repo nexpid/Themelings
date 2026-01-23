@@ -562,14 +562,14 @@ case 20:
             var12 = var4 == var9;
             var1 = null;
             if(var12) { _fun0004_ip = 18; continue _fun0004 }
-case 10:
+case 21:
             var11 = var4 == var11;
             var1 = null;
             if(var11) { _fun0004_ip = 18; continue _fun0004 }
-case 21:
+case 22:
             var1 = null;
             if(var3) { _fun0004_ip = 18; continue _fun0004 }
-case 22:
+case 23:
             var4 = _closure1_slot11;
             var3 = _closure1_slot14;
             var2 = {};

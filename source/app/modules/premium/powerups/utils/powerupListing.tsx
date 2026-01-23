@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -197,14 +197,14 @@ case 0:
                     var5 = var4.type;
                     var3 = _closure1_slot5;
                     var3 = var3.PERK;
-                    if(!(var5 === var3)) { _fun0005_ip = 37; continue _fun0005 }
+                    if(!(var5 === var3)) { _fun0005_ip = 36; continue _fun0005 }
 case 34:
                     var3 = _closure1_slot6;
                     var2 = var4.skuId;
                     var2 = var3[var2];
                     var5 = null;
-                    if(!(var5 != var2)) { _fun0005_ip = 38; continue _fun0005 }
-case 5:
+                    if(!(var5 != var2)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var3 = var1[var2];
                     if(!(var3 == var5)) { _fun0005_ip = 39; continue _fun0005 }
 case 28:
@@ -214,9 +214,9 @@ case 39:
                     var3 = var1[var2];
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-case 38:
-                    return var1;
 case 37:
+                    return var1;
+case 36:
                     return var1;
                 }
             };
@@ -254,12 +254,12 @@ case 42:
             var6 = var19.skuId;
             var6 = var17[var6];
             if(!(var11 != var6)) { _fun0004_ip = 45; continue _fun0004 }
-case 15:
+case 46:
             var17 = var15[var6];
             var8 = var6;
             var16 = var17;
             if(!(var2 !== var17)) { _fun0004_ip = 44; continue _fun0004 }
-case 46:
+case 47:
             var20 = var3.push;
             var18 = {};
             var18['type'] = var12;
@@ -285,21 +285,21 @@ case 44:
             var9 = var17;
             if(!var6) { _fun0004_ip = 41; continue _fun0004 }
 case 40:
-            if(!var4) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+            if(!var4) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
             var5 = _closure1_slot5;
             var6 = var5.PERK;
             var5 = arg1;
             var4 = var5 === var6;
-case 47:
-            if(!var4) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+case 48:
+            if(!var4) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var5 = var3.push;
             var4 = {};
             var6 = 'gameServer';
             var4['type'] = var6;
             var4 = var5.bind(var3)(var4);
-case 49:
+case 50:
             var1 = function orderPowerupListings(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -312,8 +312,8 @@ case 0:
                             var3 = var2.type;
                             var1 = 'singlePerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
+                            if(!var1) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                             var2 = var2.powerup;
                             var3 = var2.skuId;
                             var5 = _closure1_slot0;
@@ -324,7 +324,7 @@ case 52:
                             var2 = var5.bind(var2)(var4);
                             var2 = var2.GUILD_POWERUP_TAG_SKU_ID;
                             var1 = var3 === var2;
-case 51:
+case 52:
                             return var1;
                         }
                     };
@@ -337,27 +337,27 @@ case 0:
                             var3 = var2.type;
                             var1 = 'multiPerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0008_ip = 53; continue _fun0008 }
-case 52:
+                            if(!var1) { _fun0008_ip = 54; continue _fun0008 }
+case 53:
                             var3 = var2.group;
                             var2 = 'guildTagsBadgePacks';
                             var1 = var2 === var3;
-case 53:
+case 54:
                             return var1;
                         }
                     };
                     var4 = var5.bind(var3)(var4);
                     var5 = -1;
-                    if(!(var5 !== var1)) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-                    if(!(var5 !== var4)) { _fun0006_ip = 54; continue _fun0006 }
-case 36:
+                    if(!(var5 !== var1)) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+                    if(!(var5 !== var4)) { _fun0006_ip = 55; continue _fun0006 }
+case 4:
                     var6 = 1;
                     var1 = var1 + var6;
-                    if(!(var4 === var1)) { _fun0006_ip = 51; continue _fun0006 }
-case 54:
+                    if(!(var4 === var1)) { _fun0006_ip = 52; continue _fun0006 }
+case 55:
                     return var3;
-case 51:
+case 52:
                     var1 = new Array(0);
                     var5 = 0;
                     var10 = var1;
@@ -378,8 +378,8 @@ case 0:
                             var3 = var2.type;
                             var1 = 'singlePerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+                            if(!var1) { _fun0009_ip = 52; continue _fun0009 }
+case 53:
                             var2 = var2.powerup;
                             var3 = var2.skuId;
                             var5 = _closure1_slot0;
@@ -390,7 +390,7 @@ case 52:
                             var2 = var5.bind(var2)(var4);
                             var2 = var2.GUILD_POWERUP_TAG_SKU_ID;
                             var1 = var3 === var2;
-case 51:
+case 52:
                             return var1;
                         }
                     };
@@ -462,39 +462,39 @@ case 0:
             var4 = var4 === var6;
             var5 = undefined;
             if(var4) { _fun0010_ip = 3; continue _fun0010 }
-case 56:
+case 57:
             var5 = var3;
 case 3:
             var3 = undefined;
-            if(var4) { _fun0010_ip = 7; continue _fun0010 }
-case 57:
+            if(var4) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
             var8 = var7().value;
             var7 = var2;
             var7 = var7 === var6;
             var3 = undefined;
             var4 = var7;
-            if(var7) { _fun0010_ip = 7; continue _fun0010 }
-case 4:
+            if(var7) { _fun0010_ip = 58; continue _fun0010 }
+case 60:
             var3 = var8;
             var4 = var7;
-case 7:
-            if(var4) { _fun0010_ip = 54; continue _fun0010 }
 case 58:
+            if(var4) { _fun0010_ip = 55; continue _fun0010 }
+case 61:
             var2.return();
-case 54:
+case 55:
             var2 = _closure1_slot8;
             var4 = var2.bind(var6)(var3);
             var3 = var4.bind(var6)();
             var2 = var3.done;
-            if(var2) { _fun0010_ip = 59; continue _fun0010 }
-case 60:
+            if(var2) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
             var2 = var3.value;
             var1[var2] = var5;
             var7 = var4.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0010_ip = 60; continue _fun0010 }
-case 59:
+            if(!var2) { _fun0010_ip = 63; continue _fun0010 }
+case 62:
             return var1;
         }
     };
@@ -545,10 +545,10 @@ case 0:
             var3 = var4.useMemo;
             var7 = null;
             var7 = var7 == var2;
-            if(var7) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+            if(var7) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
             var6 = var2.powerupCatalog;
-case 61:
+case 64:
             var2 = new Array(2);
             var2[0] = var6;
             var2[1] = var5;
@@ -565,14 +565,14 @@ case 0:
                         var7 = var3 == var4;
                         var6 = undefined;
                         var4 = undefined;
-                        if(var7) { _fun0012_ip = 63; continue _fun0012 }
-case 64:
+                        if(var7) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
                         var7 = _closure2_slot2;
                         var7 = var7.powerupCatalog;
                         var4 = var7[var5];
-case 63:
-                        if(!(var3 != var4)) { _fun0012_ip = 9; continue _fun0012 }
-case 65:
+case 66:
+                        if(!(var3 != var4)) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
                         var3 = _closure1_slot10;
                         var2 = _closure2_slot1;
                         var4 = var3.bind(var6)(var5, var4, var2);
@@ -582,7 +582,7 @@ case 65:
                         var2['listings'] = var4;
                         var2 = var3.bind(var1)(var2);
                         return var1;
-case 9:
+case 68:
                         return var1;
                     }
                 };

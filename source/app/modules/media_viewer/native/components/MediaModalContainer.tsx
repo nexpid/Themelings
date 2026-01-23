@@ -77,6 +77,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var3['MediaModalContainer'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

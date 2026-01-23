@@ -220,7 +220,7 @@ case 22:
         }
     };
     var3['useShouldAgeVerifyToSpeakForCurrentUser'] = var4;
-    var2 = function useShouldShowAgeVerificationPopover(arg1) {
+    var4 = function useShouldShowAgeVerificationPopover(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var9 = arg1;
@@ -295,6 +295,31 @@ case 22:
             return var1;
         }
     };
-    var3['useShouldShowAgeVerificationPopover'] = var2;
+    var3['useShouldShowAgeVerificationPopover'] = var4;
+    var2 = function useShouldShowAgeVerificationForEvent() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 4;
+            var1 = var5[var1];
+            var3 = undefined;
+            var2 = var4.bind(var3)(var1);
+            var1 = var2.useIsVerifiedAdult;
+            var2 = var1.bind(var2)();
+            var1 = 5;
+            var1 = var5[var1];
+            var4 = var4.bind(var3)(var1);
+            var3 = var4.useIsStagePawtectEnabled;
+            var1 = 'useShouldShowAgeVerificationForEvent';
+            var1 = var3.bind(var4)(var1);
+            if(!var1) { _fun0008_ip = 2; continue _fun0008 }
+case 3:
+            var1 = !var2;
+case 2:
+            return var1;
+        }
+    };
+    var3['useShouldShowAgeVerificationForEvent'] = var2;
     return var1;
 })();

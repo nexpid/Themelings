@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.DisplayNameFont;
     var8 = var5.ZILLA_SLAB;
-    var5 = 'ZillaSlab-Normal';
+    var5 = 'ZillaSlab-SemiBold';
     var4[var8] = var5;
     var _closure1_slot2 = var4;
     var5 = 2;

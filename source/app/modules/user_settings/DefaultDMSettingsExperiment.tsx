@@ -1,4 +1,4 @@
-// app/modules/user_settings/DefaultDMSettingsExperiement.tsx
+// app/modules/user_settings/DefaultDMSettingsExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -13,12 +13,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 3;
+    var1 = 4;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_settings/DefaultDMSettingsExperiement.tsx';
+    var4 = 'modules/user_settings/DefaultDMSettingsExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -28,16 +28,21 @@ case 0:
             var1 = 0;
             var1 = var6[var1];
             var4 = undefined;
-            var2 = var5.bind(var4)(var1);
-            var1 = var2.getIsGidgetPawtectEnabled;
-            var7 = 'shouldAgeVerifyForDMDefaultOff';
-            var2 = var1.bind(var2)(var7);
+            var3 = var5.bind(var4)(var1);
+            var2 = var3.getIsGidgetPawtectEnabled;
+            var1 = 'shouldAgeVerifyForDMDefaultOff';
+            var2 = var2.bind(var3)(var1);
             var1 = 1;
             var1 = var6[var1];
-            var3 = var5.bind(var4)(var1);
-            var1 = var3.isEligibleForSettingsDefaultsAggregate;
-            var3 = var1.bind(var3)(var7);
+            var7 = var5.bind(var4)(var1);
+            var3 = var7.isFeatureAgeGated;
             var1 = 2;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.AgeGatedFeature;
+            var1 = var1.DM_PRIVACY_SETTINGS;
+            var3 = var3.bind(var7)(var1);
+            var1 = 3;
             var1 = var6[var1];
             var4 = var5.bind(var4)(var1);
             var1 = var4.shouldShowTiggerPawtect;

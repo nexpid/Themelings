@@ -118,10 +118,10 @@ case 13:
         var5 = var8.bind(var1)(var4);
         var4 = var5.isAndroid;
         var4 = var4.bind(var5)();
-        var4 = /\.(mp4|webm|mov)$/i;
+        var4 = /\.(mp4|webm|mov|qt)$/i;
         _fun0001_ip = 14; continue _fun0001;
 case 12:
-        var4 = /\.(mp4|mov)$/i;
+        var4 = /\.(mp4|mov|qt)$/i;
 case 14:
         var _closure1_slot11 = var4;
         var5 = function isWebPlayerVideoUrl(arg1) {

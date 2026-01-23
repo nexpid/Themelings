@@ -115,9 +115,9 @@ case 0:
             var18 = _closure1_slot4;
             var3 = var18.useContext;
             var19 = _closure1_slot1;
-            var23 = _closure1_slot2;
+            var21 = _closure1_slot2;
             var13 = 9;
-            var1 = var23[var13];
+            var1 = var21[var13];
             var4 = undefined;
             var1 = var19.bind(var4)(var1);
             var1 = var3.bind(var18)(var1);
@@ -126,15 +126,15 @@ case 0:
             var11 = var1.bind(var4)();
             var25 = _closure1_slot0;
             var1 = 10;
-            var1 = var23[var1];
+            var1 = var21[var1];
             var3 = var25.bind(var4)(var1);
             var1 = var3.useQuestDockHeroAsset;
             var1 = var1.bind(var3)(var5);
             var20 = var1.staticUrl;
-            var22 = var1.videoAsset;
+            var23 = var1.videoAsset;
             var3 = var18.useContext;
             var1 = 11;
-            var1 = var23[var1];
+            var1 = var21[var1];
             var1 = var25.bind(var4)(var1);
             var1 = var1.QuestDockGestureContext;
             var1 = var3.bind(var18)(var1);
@@ -144,18 +144,18 @@ case 0:
             var _closure2_slot1 = var17;
             var3 = var18.useContext;
             var1 = 12;
-            var1 = var23[var1];
+            var1 = var21[var1];
             var1 = var25.bind(var4)(var1);
             var1 = var1.QuestDockExternalCoordinationContext;
             var1 = var3.bind(var18)(var1);
             var16 = var1.setRestingQuestDockMode;
             var _closure2_slot2 = var16;
             var1 = 13;
-            var1 = var23[var1];
+            var1 = var21[var1];
             var1 = var19.bind(var4)(var1);
-            var21 = var1.bind(var4)(var14);
+            var22 = var1.bind(var4)(var14);
             var1 = 14;
-            var1 = var23[var1];
+            var1 = var21[var1];
             var6 = var25.bind(var4)(var1);
             var5 = var6.useStateFromStores;
             var1 = _closure1_slot6;
@@ -168,11 +168,11 @@ case 0:
             };
             var1 = var5.bind(var6)(var3, var1);
             var3 = 15;
-            var3 = var23[var3];
+            var3 = var21[var3];
             var6 = var25.bind(var4)(var3);
             var5 = var6.useToken;
             var3 = 16;
-            var3 = var23[var3];
+            var3 = var21[var3];
             var3 = var19.bind(var4)(var3);
             var3 = var3.colors;
             var3 = var3.CARD_BACKGROUND_DEFAULT;
@@ -226,7 +226,7 @@ case 0:
             var3 = new Array(0);
             var12 = var6.bind(var18)(var5, var3);
             var3 = 18;
-            var5 = var23[var3];
+            var5 = var21[var3];
             var7 = var25.bind(var4)(var5);
             var6 = var7.useAnimatedStyle;
             var5 = function s() {
@@ -291,7 +291,7 @@ case 4:
             };
             var8 = {};
             var15 = 19;
-            var24 = var23[var15];
+            var24 = var21[var15];
             var24 = var25.bind(var4)(var24);
             var24 = var24.withSpring;
             var8['withSpring'] = var24;
@@ -383,7 +383,7 @@ case 10:
             };
             var16 = var25.bind(var18)(var16, var24);
             var16 = var18.useContext;
-            var13 = var23[var13];
+            var13 = var21[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var16.bind(var18)(var13);
             var13 = var13.isVisible;
@@ -399,7 +399,7 @@ case 14:
             if(!var5) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var1 = null;
-            var5 = var1 != var22;
+            var5 = var1 != var23;
 case 16:
             if(!var5) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
@@ -420,12 +420,12 @@ case 21:
             var1 = var16[var1];
             var13 = var13.bind(var4)(var1);
             var1 = var13.isHeroVideoSupported;
-            var5 = var1.bind(var13)(var22);
+            var5 = var1.bind(var13)(var23);
 case 20:
             var16 = _closure1_slot4;
-            var13 = var16.useState;
-            var1 = false;
-            var13 = var13.bind(var16)(var1);
+            var1 = var16.useState;
+            var18 = false;
+            var13 = var1.bind(var16)(var18);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var13, var17);
             var13 = var1[var8];
@@ -441,13 +441,13 @@ case 20:
                 return var1;
             };
             var1 = new Array(0);
-            var18 = var8.bind(var16)(var6, var1);
+            var21 = var8.bind(var16)(var6, var1);
             var16 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var3];
             var6 = var16.bind(var4)(var3);
             var3 = var6.useAnimatedStyle;
-            var2 = function y() {
+            var2 = function G() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -536,24 +536,25 @@ case 24:
             var13 = var15.bind(var4)(var13);
             var15 = var13.VideoComponent;
             var13 = {};
-            var23 = var11.backgroundHeroAssetVideo;
-            var13['style'] = var23;
-            var13['onLoad'] = var18;
-            var18 = {};
-            var22 = var22.url;
-            var18['uri'] = var22;
-            var13['source'] = var18;
-            var18 = _closure1_slot7;
-            var18 = var18.EXPANDED;
-            var18 = var21 !== var18;
-            var13['paused'] = var18;
-            var18 = 'cover';
-            var13['resizeMode'] = var18;
-            var18 = true;
-            var13['muted'] = var18;
-            var21 = 'mix';
-            var13['mixWithOthers'] = var21;
-            var13['disableFocus'] = var18;
+            var24 = var11.backgroundHeroAssetVideo;
+            var13['style'] = var24;
+            var13['onLoad'] = var21;
+            var21 = {};
+            var23 = var23.url;
+            var21['uri'] = var23;
+            var13['source'] = var21;
+            var21 = _closure1_slot7;
+            var21 = var21.EXPANDED;
+            var21 = var22 !== var21;
+            var13['paused'] = var21;
+            var21 = 'cover';
+            var13['resizeMode'] = var21;
+            var21 = true;
+            var13['muted'] = var21;
+            var22 = 'mix';
+            var13['mixWithOthers'] = var22;
+            var13['disableFocus'] = var21;
+            var13['preventsDisplaySleepDuringVideoPlayback'] = var18;
             var15 = var16.bind(var4)(var15, var13);
             var13 = new Array(2);
             var13[0] = var15;

@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -244,7 +244,7 @@ case 0:
                 var _closure3_slot1 = var4;
                 var2 = null;
                 var3['action'] = var2;
-                if(!(var2 != var4)) { _fun0004_ip = 37; continue _fun0004 }
+                if(!(var2 != var4)) { _fun0004_ip = 36; continue _fun0004 }
 case 3:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -269,7 +269,7 @@ case 3:
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-case 37:
+case 36:
                 var1 = undefined;
                 return var1;
             }
@@ -292,31 +292,31 @@ case 0:
                 var3 = var5.bind(var1)();
                 var2 = var3.done;
                 var4 = null;
-                if(var2) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(var2) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var8 = var3.value;
                 var2 = var8.action;
                 var2 = var4 != var2;
-                if(!var2) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                if(!var2) { _fun0005_ip = 9; continue _fun0005 }
+case 39:
                 var9 = var4 == var7;
-                if(var9) { _fun0005_ip = 37; continue _fun0005 }
-case 42:
+                if(var9) { _fun0005_ip = 36; continue _fun0005 }
+case 40:
                 var10 = var8.shouldFlush;
                 var9 = var10.bind(var8)(var7, var6);
-case 37:
+case 36:
                 var2 = var9;
-case 40:
-                if(!var2) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+case 9:
+                if(!var2) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var2 = var8.flush;
                 var2 = var2.bind(var8)();
-case 43:
+case 41:
                 var8 = var5.bind(var1)();
                 var2 = var8.done;
                 var3 = var8;
-                if(!var2) { _fun0005_ip = 39; continue _fun0005 }
-case 38:
+                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
+case 37:
                 return var1;
             }
         };

@@ -1,19 +1,19 @@
 // app/modules/stage_channels/native/StageChannelAgeVerificationNotice.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
+    var6 = require;
     var13 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
-    var _closure1_slot2 = var6;
+    var _closure1_slot2 = var7;
     var1 = function StageChannelAgeVerificationNoticeContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.onConfirmPress;
             var _closure2_slot0 = var1;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var7 = undefined;
             var1 = var1.bind(var7)();
             var _closure2_slot1 = var1;
@@ -144,14 +144,14 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot10 = var1;
     var1 = function StageChannelAgeVerificationNoticeWrapper(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
             var1 = var2.noBackground;
             var13 = var2.onConfirmPress;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var5 = undefined;
             var11 = var2.bind(var5)();
             var3 = _closure1_slot0;
@@ -184,7 +184,7 @@ case 10:
 case 12:
             var1['messageType'] = var4;
             var8 = _closure1_slot5;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot10;
             var4 = {};
             var4['onConfirmPress'] = var13;
             var4 = var8.bind(var5)(var7, var4);
@@ -239,7 +239,7 @@ case 16:
             var11 = var11.contentText;
             var7['style'] = var11;
             var12 = _closure1_slot5;
-            var11 = _closure1_slot8;
+            var11 = _closure1_slot10;
             var10 = {};
             var10['onConfirmPress'] = var13;
             var10 = var12.bind(var5)(var11, var10);
@@ -252,120 +252,218 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
+    var5 = var8.defineProperty;
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var11 = 0;
-    var7 = var6[var11];
-    var4 = metroImportAll;
+    var1 = var5.bind(var8)(var3, var1, var2);
+    var9 = 0;
+    var5 = var7[var9];
+    var2 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var10 = 1;
-    var4 = var6[var10];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.HelpdeskArticles;
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot5 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = {};
-    var9 = {};
+    var2 = var2.bind(var1)(var5);
+    var8 = 1;
+    var2 = var7[var8];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.View;
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.HelpdeskArticles;
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var5 = var2.jsx;
+    var _closure1_slot5 = var5;
+    var5 = var2.jsxs;
+    var _closure1_slot6 = var5;
+    var2 = var2.Fragment;
+    var _closure1_slot7 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var10 = var6.bind(var1)(var2);
+    var5 = var10.createStyles;
+    var2 = {};
+    var11 = {};
     var12 = 5;
-    var14 = var6[var12];
+    var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.spacing;
     var14 = var14.PX_16;
-    var9['marginTop'] = var14;
-    var4['container'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var14 = var6[var12];
+    var11['marginTop'] = var14;
+    var2['container'] = var11;
+    var11 = {};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_16;
+    var11['paddingVertical'] = var14;
+    var2['containerWithDivider'] = var11;
+    var11 = {};
+    var11['borderBottomWidth'] = var8;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BORDER_SUBTLE;
+    var11['borderBottomColor'] = var14;
+    var2['divider'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.spacing;
     var14 = var14.PX_8;
-    var9['gap'] = var14;
-    var12 = var6[var12];
+    var11['gap'] = var14;
+    var12 = var7[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.radii;
     var12 = var12.sm;
-    var9['borderRadius'] = var12;
-    var4['noticeContainer'] = var9;
-    var9 = {};
-    var9['flexShrink'] = var11;
-    var4['icon'] = var9;
-    var9 = {};
-    var11 = 'underline';
-    var9['textDecorationLine'] = var11;
-    var4['linkText'] = var9;
-    var9 = {};
-    var9['flex'] = var10;
-    var4['contentText'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 17;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/stage_channels/native/StageChannelAgeVerificationNotice.tsx';
-    var4 = var5.bind(var6)(var4);
-    var2 = function StageChannelAgeVerificationNotice(arg1) {
+    var11['borderRadius'] = var12;
+    var2['noticeContainer'] = var11;
+    var11 = {};
+    var11['flexShrink'] = var9;
+    var2['icon'] = var11;
+    var11 = {};
+    var12 = 'underline';
+    var11['textDecorationLine'] = var12;
+    var2['linkText'] = var11;
+    var11 = {};
+    var11['flex'] = var8;
+    var2['contentText'] = var11;
+    var2 = var5.bind(var10)(var2);
+    var _closure1_slot8 = var2;
+    var2 = {};
+    var2['TOP'] = var9;
+    var5 = 'TOP';
+    var2[var9] = var5;
+    var2['BOTTOM'] = var8;
+    var5 = 'BOTTOM';
+    var2[var8] = var5;
+    var _closure1_slot9 = var2;
+    var5 = 17;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/stage_channels/native/StageChannelAgeVerificationNotice.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function StageChannelAgeVerificationNotice(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var10 = var1.noBackground;
-            var9 = var1.onConfirmPress;
-            var8 = var1.style;
-            var1 = _closure1_slot7;
-            var5 = undefined;
-            var7 = var1.bind(var5)();
+            var16 = var1.noBackground;
+            var15 = var1.onConfirmPress;
+            var13 = var1.style;
+            var3 = var1.divider;
+            var8 = var1.channelId;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var10 = var1.bind(var4)();
             var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var1 = 16;
-            var1 = var3[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.useShouldAgeVerifyToSpeakForCurrentUser;
-            var2 = var1.bind(var2)();
+            var1 = var5[var1];
+            var6 = var2.bind(var4)(var1);
+            var5 = var6.useShouldAgeVerifyToSpeakForCurrentUser;
             var1 = null;
-            if(!var2) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
-            var4 = _closure1_slot5;
-            var3 = _closure1_slot3;
-            var2 = {};
-            var11 = var7.container;
-            var7 = new Array(2);
-            var7[0] = var11;
-            var7[1] = var8;
-            var2['style'] = var7;
-            var8 = _closure1_slot5;
-            var7 = _closure1_slot9;
-            var6 = {};
-            var6['noBackground'] = var10;
-            var6['onConfirmPress'] = var9;
-            var6 = var8.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
+            var9 = var1 != var8;
+            var2 = undefined;
+            if(!var9) { _fun0005_ip = 5; continue _fun0005 }
 case 17:
+            var2 = var8;
+case 5:
+            var2 = var5.bind(var6)(var2);
+            if(var2) { _fun0005_ip = 18; continue _fun0005 }
+case 4:
+            return var1;
+case 18:
+            var2 = global;
+            var5 = var2.Array;
+            var2 = var5.isArray;
+            var2 = var2.bind(var5)(var3);
+            var6 = var3;
+            if(var2) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+            if(!(var1 == var3)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
+            var1 = new Array(0);
+            _fun0005_ip = 23; continue _fun0005;
+case 21:
+            var2 = new Array(1);
+            var2[0] = var3;
+            var1 = var2;
+case 23:
+            var6 = var1;
+case 19:
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot7;
+            var1 = {};
+            var8 = var6.includes;
+            var5 = _closure1_slot9;
+            var5 = var5.TOP;
+            var5 = var8.bind(var6)(var5);
+            var9 = var6;
+            var6 = var5;
+            if(!var6) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+            var11 = _closure1_slot5;
+            var8 = _closure1_slot3;
+            var5 = {};
+            var12 = var10.divider;
+            var5['style'] = var12;
+            var6 = var11.bind(var4)(var8, var5);
+case 24:
+            var5 = new Array(3);
+            var5[0] = var6;
+            var11 = _closure1_slot5;
+            var8 = _closure1_slot3;
+            var6 = {};
+            var14 = var9.length;
+            var12 = 0;
+            if(!(!(var14 > var12))) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
+            var14 = var10.container;
+            _fun0005_ip = 28; continue _fun0005;
+case 26:
+            var14 = var10.containerWithDivider;
+case 28:
+            var12 = new Array(2);
+            var12[0] = var14;
+            var12[1] = var13;
+            var6['style'] = var12;
+            var14 = _closure1_slot5;
+            var13 = _closure1_slot11;
+            var12 = {};
+            var12['noBackground'] = var16;
+            var12['onConfirmPress'] = var15;
+            var12 = var14.bind(var4)(var13, var12);
+            var6['children'] = var12;
+            var6 = var11.bind(var4)(var8, var6);
+            var5[1] = var6;
+            var8 = var9.includes;
+            var6 = _closure1_slot9;
+            var6 = var6.BOTTOM;
+            var6 = var8.bind(var9)(var6);
+            if(!var6) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
+            var9 = _closure1_slot5;
+            var8 = _closure1_slot3;
+            var7 = {};
+            var10 = var10.divider;
+            var7['style'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+case 29:
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var3['default'] = var2;
+    var3['default'] = var4;
+    var3['DividerPosition'] = var2;
     return var1;
 })();

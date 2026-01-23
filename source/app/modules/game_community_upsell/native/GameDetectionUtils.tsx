@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -204,7 +204,7 @@ case 35:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 25; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
                     var6 = arg1;
                     var7 = _closure1_slot4;
@@ -212,11 +212,11 @@ case 37:
                     var2 = _closure1_slot8;
                     var2 = var2.PERSONALIZATION;
                     var2 = var3.bind(var7)(var2);
-                    if(var2) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                    if(var2) { _fun0004_ip = 7; continue _fun0004 }
+case 38:
                     var2 = {'isInstalled': false, 'error': 'Personalization consent not granted'};
                     return var2;
-case 38: // try_start_0
+case 7: // try_start_0
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 6;
@@ -227,12 +227,12 @@ case 38: // try_start_0
                     var2 = var6;
                     var2 = var3.bind(var7)(var2);
                     SaveGenerator(address=101);
-case 40:
+case 39:
                     return var2;
-case 41:
+case 40:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                    if(var3) { _fun0004_ip = 16; continue _fun0004 }
+case 41:
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var3 = 7;
@@ -250,26 +250,26 @@ case 43:
                     var3['isInstalled'] = var2;
                     var7 = null;
                     var3['error'] = var7;
-case 44: // try_end0
+case 42: // try_end0
                     return var3;
-case 42:
+case 16:
                     return var2;
-case 45: // catch_target0
+case 43: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var5 = var7;
                     var2 = global;
                     var3 = var2.Error;
                     var3 = var7 instanceof var3;
-                    if(var3) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+                    if(var3) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                     var8 = var2.String;
                     var7 = var5;
                     var3 = undefined;
                     var3 = var8.bind(var3)(var7);
-                    _fun0004_ip = 48; continue _fun0004;
-case 46:
+                    _fun0004_ip = 46; continue _fun0004;
+case 44:
                     var3 = var5.message;
-case 48:
+case 46:
                     var5 = _closure1_slot9;
                     var4 = var5.warn;
                     var8 = var6;
@@ -284,7 +284,7 @@ case 48:
                     var2['isInstalled'] = var4;
                     var2['error'] = var3;
                     return var2;
-case 25:
+case 36:
                     return var1;
                 }
             };
@@ -310,8 +310,8 @@ case 25:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+                    if(var2) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                     var2 = new Array(0);
                     var4 = _closure1_slot12;
                     var7 = undefined;
@@ -320,17 +320,17 @@ case 50:
                     var4 = var6.bind(var7)();
                     var3 = var4.done;
                     var5 = var4;
-                    if(var3) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+                    if(var3) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                     var12 = var5.value;
                     var3 = _closure1_slot14;
                     var3 = var3.bind(var7)(var12);
                     SaveGenerator(address=61);
-case 53:
+case 51:
                     return var3;
-case 38:
+case 7:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 54; continue _fun0005 }
+                    if(var4) { _fun0005_ip = 52; continue _fun0005 }
 case 30:
                     var11 = var3.isInstalled;
                     var10 = var3.error;
@@ -343,14 +343,14 @@ case 30:
                     var9 = var6.bind(var7)();
                     var4 = var9.done;
                     var5 = var9;
-                    if(var4) { _fun0005_ip = 51; continue _fun0005 }
-case 55:
-                    _fun0005_ip = 52; continue _fun0005;
-case 54:
+                    if(var4) { _fun0005_ip = 49; continue _fun0005 }
+case 53:
+                    _fun0005_ip = 50; continue _fun0005;
+case 52:
                     return var3;
-case 51:
-                    return var2;
 case 49:
+                    return var2;
+case 47:
                     return var1;
                 }
             };
@@ -377,8 +377,8 @@ case 0:
                     StartGenerator();
                     var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+                    if(var2) { _fun0006_ip = 54; continue _fun0006 }
+case 55:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 8;
@@ -387,8 +387,8 @@ case 57:
                     var5 = var5.bind(var4)(var3);
                     var3 = var5.isAndroid;
                     var3 = var3.bind(var5)();
-                    if(var3) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+                    if(var3) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
                     var5 = var7.iosUrlSchemes;
                     var3 = function checkAllSchemes() {
                         var1 = undefined;
@@ -402,12 +402,12 @@ case 59:
                     };
                     var3 = var3.bind(var4)(var5);
                     SaveGenerator(address=75);
-case 60:
+case 58:
                     return var3;
-case 61:
+case 59:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 62; continue _fun0006 }
-case 63:
+                    if(var5) { _fun0006_ip = 60; continue _fun0006 }
+case 61:
                     var5 = {};
                     var8 = var3.some;
                     var6 = function(arg1) {
@@ -419,19 +419,19 @@ case 63:
                     var5['isInstalled'] = var6;
                     var5['schemeResults'] = var3;
                     return var5;
-case 62:
+case 60:
                     return var3;
-case 58:
+case 56:
                     var3 = _closure1_slot14;
                     var2 = var7.androidPackageName;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=136);
-case 64:
+case 62:
                     return var2;
-case 65:
+case 63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 66; continue _fun0006 }
-case 67:
+                    if(var3) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
                     var6 = var2.isInstalled;
                     var4 = var2.error;
                     var3 = {};
@@ -445,9 +445,9 @@ case 67:
                     var4[0] = var5;
                     var3['schemeResults'] = var4;
                     return var3;
-case 66:
+case 64:
                     return var2;
-case 56:
+case 54:
                     return var1;
                 }
             };
@@ -484,8 +484,8 @@ case 56:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 68; continue _fun0007 }
-case 50:
+                    if(var2) { _fun0007_ip = 11; continue _fun0007 }
+case 48:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 9;
@@ -504,15 +504,15 @@ case 0:
                                     StartGenerator();
                                     var5 = arg1;
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(var2) { _fun0008_ip = 69; continue _fun0008 }
+                                    if(var2) { _fun0008_ip = 66; continue _fun0008 }
 case 37:
                                     var3 = _closure1_slot6;
                                     var2 = var3.isDebugMode;
                                     var4 = var2.bind(var3)();
-                                    if(!var4) { _fun0008_ip = 70; continue _fun0008 }
+                                    if(!var4) { _fun0008_ip = 67; continue _fun0008 }
 case 3:
                                     var4 = var5.overrideInstall;
-case 70:
+case 67:
                                     var3 = function isGameInstalledForPlatform() {
                                         var1 = undefined;
                                         var4 = _closure1_slot17;
@@ -526,28 +526,28 @@ case 70:
                                     var2 = undefined;
                                     var2 = var3.bind(var2)(var5);
                                     SaveGenerator(address=56);
-case 4:
+case 68:
                                     return var2;
 case 28:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(var3) { _fun0008_ip = 71; continue _fun0008 }
-case 72:
+                                    if(var3) { _fun0008_ip = 69; continue _fun0008 }
+case 70:
                                     var6 = var2.isInstalled;
                                     var3 = {};
                                     var3['game'] = var5;
                                     var5 = var4;
-                                    if(var5) { _fun0008_ip = 73; continue _fun0008 }
-case 63:
+                                    if(var5) { _fun0008_ip = 71; continue _fun0008 }
+case 61:
                                     var5 = var6;
-case 73:
+case 71:
                                     var3['isInstalled'] = var5;
                                     var3['overridden'] = var4;
                                     var4 = var2.schemeResults;
                                     var3['schemeResults'] = var4;
                                     return var3;
-case 71:
-                                    return var2;
 case 69:
+                                    return var2;
+case 66:
                                     return var1;
                                 }
                             };
@@ -574,16 +574,16 @@ case 69:
                     var2 = var3.all;
                     var2 = var2.bind(var3)(var4);
                     SaveGenerator(address=84);
+case 72:
+                    return var2;
+case 71:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0007_ip = 73; continue _fun0007 }
 case 74:
                     return var2;
 case 73:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 75; continue _fun0007 }
-case 76:
                     return var2;
-case 75:
-                    return var2;
-case 68:
+case 11:
                     return var1;
                 }
             };
@@ -620,24 +620,24 @@ case 68:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 77; continue _fun0009 }
-case 78:
+                    if(var2) { _fun0009_ip = 75; continue _fun0009 }
+case 76:
                     var2 = global;
                     var3 = var2.Date;
                     var2 = var3.now;
                     var5 = var2.bind(var3)();
                     var3 = _closure1_slot10;
                     var6 = null;
-                    if(!(var6 !== var3)) { _fun0009_ip = 79; continue _fun0009 }
-case 80:
+                    if(!(var6 !== var3)) { _fun0009_ip = 77; continue _fun0009 }
+case 78:
                     var3 = _closure1_slot11;
-                    if(!(var6 !== var3)) { _fun0009_ip = 79; continue _fun0009 }
-case 81:
+                    if(!(var6 !== var3)) { _fun0009_ip = 77; continue _fun0009 }
+case 79:
                     var3 = _closure1_slot11;
                     var6 = var5 - var3;
                     var3 = 3600000;
-                    if(!(!(var6 < var3))) { _fun0009_ip = 15; continue _fun0009 }
-case 79:
+                    if(!(!(var6 < var3))) { _fun0009_ip = 80; continue _fun0009 }
+case 77:
                     var7 = _closure1_slot9;
                     var6 = var7.info;
                     var3 = 'detectInstalledGames: Cache not valid, calling detectInstalledGamesWithDiagnostics';
@@ -646,12 +646,12 @@ case 79:
                     var3 = undefined;
                     var3 = var6.bind(var3)();
                     SaveGenerator(address=103);
-case 41:
+case 40:
                     return var3;
-case 82:
+case 81:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 83; continue _fun0009 }
-case 13:
+                    if(var6) { _fun0009_ip = 82; continue _fun0009 }
+case 83:
                     var7 = var3.filter;
                     var6 = function(arg1) {
                         var1 = arg1;
@@ -669,16 +669,16 @@ case 13:
                     _closure1_slot10 = var4;
                     _closure1_slot11 = var5;
                     return var4;
-case 83:
+case 82:
                     return var3;
-case 15:
+case 80:
                     var5 = _closure1_slot9;
                     var4 = var5.info;
                     var3 = 'detectInstalledGames: Cache hit';
                     var3 = var4.bind(var5)(var3);
                     var2 = _closure1_slot10;
                     return var2;
-case 77:
+case 75:
                     return var1;
                 }
             };
@@ -704,8 +704,8 @@ case 77:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0010_ip = 65; continue _fun0010 }
-case 78:
+                    if(var2) { _fun0010_ip = 63; continue _fun0010 }
+case 76:
                     var4 = _closure1_slot20;
                     var2 = undefined;
                     var2 = var4.bind(var2)();
@@ -742,7 +742,7 @@ case 87:
                     var4 = 0;
                     var3 = null;
                     if(!(var4 !== var6)) { _fun0010_ip = 88; continue _fun0010 }
-case 74:
+case 72:
                     var4 = global;
                     var7 = var4.Math;
                     var6 = var7.floor;
@@ -757,7 +757,7 @@ case 88:
                     return var3;
 case 86:
                     return var2;
-case 65:
+case 63:
                     return var1;
                 }
             };

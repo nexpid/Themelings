@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var4;
     var8 = 'image/jpeg';
     var7['type'] = var8;
-    var4 = new Array(13);
+    var4 = new Array(14);
     var4[0] = var7;
     var7 = {};
     var9 = /\.jfif$/i;
@@ -190,6 +190,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['type'] = var8;
     var4[9] = var7;
     var7 = {};
+    var9 = /\.qt$/i;
+    var7['reName'] = var9;
+    var9 = function name(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = 'video';
+        var2 = arg1;
+        var1 = '.qt';
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var7['name'] = var9;
+    var7['type'] = var8;
+    var4[10] = var7;
+    var7 = {};
     var8 = /\.avi$/i;
     var7['reName'] = var8;
     var8 = function name(arg1) {
@@ -205,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'video/x-msvideo';
     var7['type'] = var8;
-    var4[10] = var7;
+    var4[11] = var7;
     var7 = {};
     var8 = /\.mp4$/i;
     var7['reName'] = var8;
@@ -222,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'video/mp4';
     var7['type'] = var8;
-    var4[11] = var7;
+    var4[12] = var7;
     var7 = {};
     var8 = /\.webm$/i;
     var7['reName'] = var8;
@@ -239,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/webm';
     var7['type'] = var8;
-    var4[12] = var7;
+    var4[13] = var7;
     var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];

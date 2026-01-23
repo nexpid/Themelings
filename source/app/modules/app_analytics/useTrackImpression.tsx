@@ -336,12 +336,12 @@ case 0:
                     var1 = _closure2_slot1;
                     var3 = var1.trackOnInitialLoad;
                     var1 = undefined;
-                    if(var3) { _fun0007_ip = 24; continue _fun0007 }
+                    if(var3) { _fun0007_ip = 36; continue _fun0007 }
 case 25:
                     var2 = _closure2_slot5;
                     var2 = var2.bind(var1)();
                     return var2;
-case 24:
+case 36:
                     return var1;
                 }
             };

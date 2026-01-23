@@ -845,7 +845,7 @@ case 46:
         var5 = var20[var10];
         var12 = var6.bind(var4)(var5);
         var9 = var12.useDerivedValue;
-        var5 = function I() {
+        var5 = function O() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var3 = _closure2_slot9;
@@ -959,7 +959,7 @@ case 47:
         var2 = var20[var10];
         var3 = var6.bind(var4)(var2);
         var2 = var3.useAnimatedProps;
-        var1 = function x() {
+        var1 = function I() {
             var1 = {};
             var3 = _closure2_slot11;
             var2 = var3.get;
@@ -1045,7 +1045,6 @@ case 47:
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
-            var11 = var1.initialIndex;
             var17 = var1.onClose;
             var30 = var1.onLongPress;
             var29 = var1.originLayout;
@@ -1095,7 +1094,6 @@ case 0:
             var8 = var3.bind(var4)(var1);
             var1 = {};
             var1['index'] = var24;
-            var1['initialIndex'] = var11;
             var1['onClose'] = var17;
             var1['sources'] = var25;
             var1['windowHeight'] = var20;
@@ -1154,7 +1152,7 @@ case 0:
             var17 = var15[var39];
             var37 = var8.bind(var4)(var17);
             var24 = var37.useAnimatedStyle;
-            var17 = function A() {
+            var17 = function k() {
                 var1 = {};
                 var12 = _closure2_slot11;
                 var13 = var1;
@@ -1225,7 +1223,7 @@ case 0:
             var17 = var15[var39];
             var35 = var8.bind(var4)(var17);
             var22 = var35.useAnimatedStyle;
-            var17 = function M() {
+            var17 = function A() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var1 = {};
@@ -1354,7 +1352,7 @@ case 49:
             var22 = var15[var39];
             var37 = var8.bind(var4)(var22);
             var35 = var37.useDerivedValue;
-            var22 = function P() {
+            var22 = function M() {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     var3 = _closure2_slot10;
@@ -1402,7 +1400,7 @@ case 56:
             var22 = var15[var39];
             var37 = var8.bind(var4)(var22);
             var35 = var37.useAnimatedStyle;
-            var22 = function ge() {
+            var22 = function de() {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var1 = {};

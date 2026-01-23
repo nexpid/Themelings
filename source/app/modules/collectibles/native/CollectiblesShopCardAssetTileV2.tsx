@@ -413,27 +413,37 @@ case 25:
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var2 = arg1;
-            var11 = var2.product;
-            var1 = var2.isDarkTheme;
-            var8 = var2.isPurchased;
-            var5 = var2.solidBackground;
-            var6 = var2.isDisabled;
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot12;
-            var2 = {};
-            var2['product'] = var11;
-            var2['isDarkTheme'] = var1;
-            var2['solidBackground'] = var5;
+            var1 = arg1;
+            var9 = var1.product;
+            var11 = var1.isDarkTheme;
+            var8 = var1.isPurchased;
+            var5 = var1.solidBackground;
+            var6 = var1.isDisabled;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 21;
+            var1 = var10[var1];
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.useDefaultVariantIndex;
+            var3 = var1.bind(var3)(var9);
+            var1 = 22;
+            var1 = var10[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.getSelectedProduct;
+            var12 = var1.bind(var2)(var9, var3);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot12;
+            var1 = {};
+            var1['solidBackground'] = var5;
             var10 = _closure1_slot6;
             var9 = _closure1_slot11;
             var5 = {};
-            var5['product'] = var11;
-            var5['isDarkTheme'] = var1;
+            var5['product'] = var12;
+            var5['isDarkTheme'] = var11;
             var5['isPurchased'] = var8;
             var5['isDisabled'] = var6;
-            var1 = undefined;
-            var9 = var10.bind(var1)(var9, var5);
+            var9 = var10.bind(var4)(var9, var5);
             var5 = new Array(3);
             var5[0] = var9;
             var9 = var8;
@@ -442,7 +452,7 @@ case 28:
             var12 = _closure1_slot6;
             var11 = _closure1_slot9;
             var10 = {};
-            var9 = var12.bind(var1)(var11, var10);
+            var9 = var12.bind(var4)(var11, var10);
 case 27:
             var5[1] = var9;
             if(!var6) { _fun0003_ip = 29; continue _fun0003 }
@@ -454,16 +464,16 @@ case 32:
             var9 = _closure1_slot6;
             var8 = _closure1_slot10;
             var7 = {};
-            var6 = var9.bind(var1)(var8, var7);
+            var6 = var9.bind(var4)(var8, var7);
 case 31:
             var5[2] = var6;
-            var2['children'] = var5;
-            var1 = var4.bind(var1)(var3, var2);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -2108,13 +2108,13 @@ case 0:
                 var7 = var12.isThemeDark;
                 var7 = var7.bind(var12)(var13);
                 var11 = var11.icon;
-                if(var7) { _fun0016_ip = 86; continue _fun0016 }
-case 87:
-                var7 = var11.lightPNG;
-                _fun0016_ip = 88; continue _fun0016;
+                if(var7) { _fun0016_ip = 66; continue _fun0016 }
 case 86:
+                var7 = var11.lightPNG;
+                _fun0016_ip = 87; continue _fun0016;
+case 66:
                 var7 = var11.darkPNG;
-case 88:
+case 87:
                 var7 = var8.bind(var9)(var7);
                 var2['source'] = var7;
                 var2['disableColor'] = var6;
@@ -2180,40 +2180,40 @@ case 88:
                 var3 = var20.renderActivityCheckRow;
                 var2 = {};
                 var5 = var7 == var14;
-                if(!var5) { _fun0016_ip = 89; continue _fun0016 }
-case 90:
-                var5 = var7 == var15;
+                if(!var5) { _fun0016_ip = 88; continue _fun0016 }
 case 89:
+                var5 = var7 == var15;
+case 88:
                 var2['isLastRow'] = var5;
                 var16 = var3.bind(var20)(var2);
                 var3 = var20.renderMetadataVisibilityCheckRow;
                 var2 = {};
                 var5 = var7 == var14;
-                if(!var5) { _fun0016_ip = 91; continue _fun0016 }
-case 92:
-                var5 = var7 == var15;
+                if(!var5) { _fun0016_ip = 90; continue _fun0016 }
 case 91:
-                if(!var5) { _fun0016_ip = 93; continue _fun0016 }
-case 94:
-                var5 = var7 == var16;
+                var5 = var7 == var15;
+case 90:
+                if(!var5) { _fun0016_ip = 92; continue _fun0016 }
 case 93:
+                var5 = var7 == var16;
+case 92:
                 var2['isLastRow'] = var5;
                 var17 = var3.bind(var20)(var2);
                 var3 = var20.renderVisibilityCheckRow;
                 var2 = {};
                 var5 = var7 == var14;
-                if(!var5) { _fun0016_ip = 95; continue _fun0016 }
-case 96:
-                var5 = var7 == var15;
+                if(!var5) { _fun0016_ip = 94; continue _fun0016 }
 case 95:
-                if(!var5) { _fun0016_ip = 97; continue _fun0016 }
-case 98:
-                var5 = var7 == var16;
+                var5 = var7 == var15;
+case 94:
+                if(!var5) { _fun0016_ip = 96; continue _fun0016 }
 case 97:
-                if(!var5) { _fun0016_ip = 99; continue _fun0016 }
-case 100:
-                var5 = var7 == var17;
+                var5 = var7 == var16;
+case 96:
+                if(!var5) { _fun0016_ip = 98; continue _fun0016 }
 case 99:
+                var5 = var7 == var17;
+case 98:
                 var2['isLastRow'] = var5;
                 var18 = var3.bind(var20)(var2);
                 var8 = _closure1_slot19;

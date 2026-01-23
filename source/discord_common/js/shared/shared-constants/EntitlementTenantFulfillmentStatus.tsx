@@ -54,14 +54,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [2, 5];
-    var12 = var7;
-    var6 = new var12[var8](var11, var10);
-    var6 = var6 instanceof Object ? var6 : var7;
-    var2['ELIGIBLE_FOR_ATTEMPTS_WITH_INDEX'] = var6;
-    var8 = var1.Set;
-    var6 = var8.prototype;
-    var7 = Object.create(var6, {constructor: {value: var8}});
     var11 = [2, 5, 9];
     var12 = var7;
     var6 = new var12[var8](var11, var10);

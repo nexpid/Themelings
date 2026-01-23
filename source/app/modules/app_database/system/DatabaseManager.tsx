@@ -175,11 +175,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -188,7 +188,7 @@ case 35:
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-case 37: // try_start_0
+case 36: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -207,10 +207,10 @@ case 37: // try_start_0
             var2 = !var2;
             var _closure2_slot0 = var2;
 case 35: // try_end0
-            _fun0004_ip = 38; continue _fun0004;
-case 39: // catch_target0
+            _fun0004_ip = 37; continue _fun0004;
+case 38: // catch_target0
             CatchBlockStart(arg_register=1);
-case 38:
+case 37:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -244,8 +244,8 @@ case 38:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                    if(var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var6 = undefined;
                     var3 = undefined;
                     var5 = _closure1_slot15;
@@ -260,7 +260,7 @@ case 41:
                     var4 = 'speculatively opening ';
                     var4 = var8.bind(var4)(var9);
                     var4 = var5.bind(var7)(var4);
-case 42: // try_start_0
+case 41: // try_start_0
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot3;
                     var4 = 10;
@@ -270,16 +270,16 @@ case 42: // try_start_0
                     var4 = var5.open;
                     var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=112);
+case 13:
+                    return var3;
+case 42:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0005_ip = 43; continue _fun0005 }
+case 44: // try_end0
+                    return var3;
 case 43:
                     return var3;
-case 44:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 45; continue _fun0005 }
-case 46: // try_end0
-                    return var3;
-case 45:
-                    return var3;
-case 47: // catch_target0
+case 45: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot11;
                     var3 = var4.warn;
@@ -287,7 +287,7 @@ case 47: // catch_target0
                     var2 = var3.bind(var4)(var2, var5);
                     var2 = null;
                     return var2;
-case 40:
+case 39:
                     return var1;
                 }
             };
@@ -412,12 +412,12 @@ case 0:
                 var3 = _closure1_slot7;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                if(var1) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0006_ip = 50; continue _fun0006;
-case 48:
+                _fun0006_ip = 48; continue _fun0006;
+case 46:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -425,7 +425,7 @@ case 48:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 50:
+case 48:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = global;
@@ -505,7 +505,7 @@ case 0:
                 var4 = null;
                 var2 = var4 != var5;
                 var1 = null;
-                if(!var2) { _fun0007_ip = 2; continue _fun0007 }
+                if(!var2) { _fun0007_ip = 49; continue _fun0007 }
 case 32:
                 var2 = this;
                 var3 = var2.databases;
@@ -513,10 +513,10 @@ case 32:
                 var2 = var2.bind(var3)(var5);
                 var3 = var4 != var2;
                 var1 = null;
-                if(!var3) { _fun0007_ip = 2; continue _fun0007 }
-case 51:
+                if(!var3) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                 var1 = var2;
-case 2:
+case 49:
                 return var1;
             }
         };
@@ -531,16 +531,16 @@ case 0:
                 var3 = arg1;
                 var2 = this;
                 var1 = var2.preventWritingCachesAgainThisSession;
-                if(var1) { _fun0008_ip = 49; continue _fun0008 }
-case 52:
+                if(var1) { _fun0008_ip = 47; continue _fun0008 }
+case 51:
                 var1 = null;
-                if(!(var1 != var3)) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
+                if(!(var1 != var3)) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                 var4 = var2.databases;
                 var1 = var4.has;
                 var1 = var1.bind(var4)(var3);
-                if(var1) { _fun0008_ip = 53; continue _fun0008 }
-case 55:
+                if(var1) { _fun0008_ip = 52; continue _fun0008 }
+case 54:
                 var4 = function tryOpenDatabase(arg1) {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -576,10 +576,10 @@ case 0:
                         };
                         var8 = 0;
                         var5 = 'tryUntil ';
-case 56: // try_start_0
+case 55: // try_start_0
                         var1 = var7;
                         var1 = var1.bind(var10)();
-case 9: // try_end0
+case 56: // try_end0
                         _fun0009_ip = 57; continue _fun0009;
 case 58: // catch_target0
                         CatchBlockStart(arg_register=13);
@@ -594,7 +594,7 @@ case 58: // catch_target0
                         var8 = var3;
                         var2 = var6;
                         var1 = null;
-                        if(var3 < var2) { _fun0009_ip = 56; continue _fun0009 }
+                        if(var3 < var2) { _fun0009_ip = 55; continue _fun0009 }
 case 57:
                         return var1;
                     }
@@ -618,11 +618,11 @@ case 57:
                 var1 = var1.bind(var4)(var3, var5);
                 var1 = var2.emitChange;
                 var1 = var1.bind(var2)();
-case 53:
+case 52:
                 var1 = var2.database;
                 var1 = var1.bind(var2)(var3);
                 return var1;
-case 49:
+case 47:
                 var3 = _closure1_slot11;
                 var2 = var3.verbose;
                 var1 = 'Not opening database because caches have been manually cleared.';
@@ -666,7 +666,7 @@ case 60:
                 var2 = var8.get;
                 var8 = var2.bind(var8)(var9);
                 if(!(var5 != var8)) { _fun0010_ip = 61; continue _fun0010 }
-case 46:
+case 44:
                 var2 = var8.disable;
                 var2 = var2.bind(var8)(var7);
 case 61:
@@ -777,13 +777,13 @@ case 0:
                 var1 = undefined;
                 var6 = undefined;
                 if(var8) { _fun0013_ip = 67; continue _fun0013 }
-case 68:
+case 5:
                 var8 = var7.state;
                 var6 = var8.bind(var7)();
 case 67:
                 var2 = var2 == var7;
-                if(!var2) { _fun0013_ip = 69; continue _fun0013 }
-case 70:
+                if(!var2) { _fun0013_ip = 68; continue _fun0013 }
+case 69:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot3;
                 var5 = 10;
@@ -792,12 +792,12 @@ case 70:
                 var5 = var5.DatabaseState;
                 var5 = var5.Open;
                 var2 = var6 !== var5;
-case 69:
-                if(!var2) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+case 68:
+                if(!var2) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
                 var2 = var4.remove;
                 var2 = var2.bind(var4)(var3);
-case 71:
+case 70:
                 var2 = var4.carefullyOpenDatabase;
                 var2 = var2.bind(var4)(var3);
                 return var1;
@@ -816,7 +816,7 @@ case 0:
                 var2 = var3.getId;
                 var2 = var2.bind(var3)();
                 var3 = var1.activeUserId;
-                if(!(var2 !== var3)) { _fun0014_ip = 73; continue _fun0014 }
+                if(!(var2 !== var3)) { _fun0014_ip = 72; continue _fun0014 }
 case 33:
                 var6 = var1.databases;
                 var5 = var6.get;
@@ -837,11 +837,11 @@ case 33:
                 var5 = var18[var11](var17, var16, var15, var14, var13, var12, var11);
                 var5 = var7.bind(var8)(var5);
                 var5 = null;
-                if(!(var5 != var6)) { _fun0014_ip = 74; continue _fun0014 }
-case 46:
+                if(!(var5 != var6)) { _fun0014_ip = 73; continue _fun0014 }
+case 44:
                 var5 = var6.close;
                 var5 = var5.bind(var6)();
-case 74:
+case 73:
                 var6 = _closure1_slot2;
                 var5 = _closure1_slot3;
                 var4 = 9;
@@ -854,7 +854,7 @@ case 74:
                 var2 = var1.databases;
                 var1 = var2.delete;
                 var1 = var1.bind(var2)(var3);
-case 73:
+case 72:
                 var1 = undefined;
                 return var1;
             }
@@ -873,14 +873,14 @@ case 0:
                     var10 = arg1;
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 75; continue _fun0015 }
-case 76:
+                    if(var2) { _fun0015_ip = 74; continue _fun0015 }
+case 75:
                     var2 = var5.preventWritingCachesAgainThisSession;
-                    if(var2) { _fun0015_ip = 77; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 18; continue _fun0015 }
 case 34:
                     var3 = null;
-                    if(!(var3 != var10)) { _fun0015_ip = 78; continue _fun0015 }
-case 79:
+                    if(!(var3 != var10)) { _fun0015_ip = 76; continue _fun0015 }
+case 77:
                     var4 = function trySpeculativelyOpenDatabaseAsync() {
                         var1 = undefined;
                         var4 = _closure1_slot16;
@@ -894,18 +894,18 @@ case 79:
                     var2 = undefined;
                     var2 = var4.bind(var2)(var10);
                     SaveGenerator(address=55);
-case 80:
+case 78:
                     return var2;
-case 36:
+case 4:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0015_ip = 23; continue _fun0015 }
-case 81:
-                    if(!(var3 != var2)) { _fun0015_ip = 82; continue _fun0015 }
-case 83:
+                    if(var4) { _fun0015_ip = 79; continue _fun0015 }
+case 80:
+                    if(!(var3 != var2)) { _fun0015_ip = 81; continue _fun0015 }
+case 82:
                     var6 = var5.databases;
                     var4 = var6.has;
                     var4 = var4.bind(var6)(var10);
-                    if(var4) { _fun0015_ip = 82; continue _fun0015 }
+                    if(var4) { _fun0015_ip = 81; continue _fun0015 }
 case 58:
                     var7 = _closure1_slot11;
                     var6 = var7.verbose;
@@ -924,8 +924,8 @@ case 58:
                     var4 = var4.bind(var6)(var10, var2);
                     var4 = var5.emitChange;
                     var4 = var4.bind(var5)();
-                    _fun0015_ip = 78; continue _fun0015;
-case 82:
+                    _fun0015_ip = 76; continue _fun0015;
+case 81:
                     var6 = _closure1_slot11;
                     var5 = var6.verbose;
                     var4 = global;
@@ -938,22 +938,22 @@ case 82:
                     var13 = var2;
                     var4 = var16[var9](var15, var14, var13, var12, var11);
                     var4 = var5.bind(var6)(var4);
-                    if(!(var3 != var2)) { _fun0015_ip = 78; continue _fun0015 }
-case 84:
+                    if(!(var3 != var2)) { _fun0015_ip = 76; continue _fun0015 }
+case 21:
                     var3 = var2.close;
                     var3 = var3.bind(var2)();
-                    _fun0015_ip = 78; continue _fun0015;
-case 23:
+                    _fun0015_ip = 76; continue _fun0015;
+case 79:
                     return var2;
-case 77:
+case 18:
                     var4 = _closure1_slot11;
                     var3 = var4.verbose;
                     var2 = 'Not opening database because caches have been manually cleared.';
                     var2 = var3.bind(var4)(var2);
-case 78:
+case 76:
                     var2 = undefined;
                     return var2;
-case 75:
+case 74:
                     return var1;
                 }
             };

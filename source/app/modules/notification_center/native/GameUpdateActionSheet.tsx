@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['officialServerInfoRow'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 40;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -584,71 +584,57 @@ case 50:
             var3[1] = var23;
             var3[2] = var24;
             var1 = function(arg1) {
-                var1 = arg1;
-                var3 = var1.ref;
-                var _closure3_slot0 = var3;
-                var11 = var1.initialIndex;
-                var _closure3_slot1 = var11;
-                var6 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 12;
-                var5 = var3[var1];
-                var1 = undefined;
-                var8 = var6.bind(var1)(var5);
-                var7 = var8.track;
-                var5 = _closure1_slot7;
-                var6 = var5.GAME_UPDATE_ARTICLE_CLICKED;
-                var5 = {};
-                var10 = _closure2_slot1;
-                var5['game_id'] = var10;
-                var9 = _closure2_slot0;
-                var5['game_update_id'] = var9;
-                var9 = global;
-                var9 = var9.HermesInternal;
-                var10 = var9.concat;
-                var9 = 'OPEN_MEDIA_VIEWER_INDEX_';
-                var9 = var10.bind(var9)(var11);
-                var5['action'] = var9;
-                var5 = var7.bind(var8)(var6, var5);
-                var5 = _closure1_slot0;
-                var4 = 23;
-                var4 = var3[var4];
-                var5 = var5.bind(var1)(var4);
-                var4 = 22;
-                var4 = var3[var4];
-                var3 = var3.paths;
-                var4 = var5.bind(var1)(var4, var3);
-                var3 = var4.then;
-                var2 = function(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                        var1 = arg1;
-                        var4 = var1.openMediaModal;
-                        var3 = {'initialSources': null, 'initialIndex': null, 'analyticsSource': 'GameUpdate', 'disableMediaOverlayButton': true, 'shareable': false, 'isRNModal': true};
-                        var1 = _closure2_slot10;
-                        var3['initialSources'] = var1;
-                        var2 = _closure3_slot1;
-                        var3['initialIndex'] = var2;
-                        var1 = _closure3_slot0;
-                        var5 = var1.current;
-                        var1 = null;
-                        var6 = var1 != var5;
-                        var1 = undefined;
-                        var2 = undefined;
-                        if(!var6) { _fun0005_ip = 51; continue _fun0005 }
+                    var1 = arg1;
+                    var5 = var1.ref;
+                    var6 = var1.initialIndex;
+                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var1 = 12;
+                    var3 = var4[var1];
+                    var1 = undefined;
+                    var10 = var7.bind(var1)(var3);
+                    var9 = var10.track;
+                    var3 = _closure1_slot7;
+                    var8 = var3.GAME_UPDATE_ARTICLE_CLICKED;
+                    var3 = {};
+                    var11 = _closure2_slot1;
+                    var3['game_id'] = var11;
+                    var11 = _closure2_slot0;
+                    var3['game_update_id'] = var11;
+                    var11 = global;
+                    var11 = var11.HermesInternal;
+                    var12 = var11.concat;
+                    var11 = 'OPEN_MEDIA_VIEWER_INDEX_';
+                    var11 = var12.bind(var11)(var6);
+                    var3['action'] = var11;
+                    var3 = var9.bind(var10)(var8, var3);
+                    var3 = _closure1_slot0;
+                    var2 = 22;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.openMediaModal;
+                    var2 = {'initialSources': null, 'initialIndex': null, 'analyticsSource': 'GameUpdate', 'disableMediaOverlayButton': true, 'shareable': false, 'isRNModal': true};
+                    var7 = _closure2_slot10;
+                    var2['initialSources'] = var7;
+                    var2['initialIndex'] = var6;
+                    var6 = var5.current;
+                    var5 = null;
+                    var7 = var5 != var6;
+                    var5 = undefined;
+                    if(!var7) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
-                        var2 = var5;
+                    var5 = var6;
 case 51:
-                        var2 = var4.bind(var1)(var3, var2);
-                        return var1;
-                    }
-                };
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                    var2['origin'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
             };
             var32 = var6.bind(var7)(var1, var3);
             var3 = _closure1_slot10;
-            var1 = 24;
+            var1 = 23;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -661,7 +647,7 @@ case 54:
             var8 = _closure1_slot8;
             var7 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var6 = 25;
+            var6 = 24;
             var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -699,7 +685,7 @@ case 53:
             var5['style'] = var8;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var13 = 26;
+            var13 = 25;
             var8 = var16[var13];
             var8 = var15.bind(var4)(var8);
             var9 = var8.ActionSheetHeaderBar;
@@ -714,7 +700,7 @@ case 53:
             var13 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -741,7 +727,7 @@ case 58:
             var9 = _closure1_slot8;
             var20 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var7 = 28;
+            var7 = 27;
             var7 = var18[var7];
             var7 = var20.bind(var4)(var7);
             var8 = var7.BottomSheetScrollView;
@@ -761,14 +747,14 @@ case 58:
             var13 = {};
             var15 = var22.gradientContainer;
             var13['style'] = var15;
-            var15 = 29;
+            var15 = 28;
             var15 = var18[var15];
             var15 = var20.bind(var4)(var15);
             var16 = var15.LinearGradient;
             var15 = {};
             var17 = new Array(2);
             var17[0] = var37;
-            var25 = 30;
+            var25 = 29;
             var25 = var18[var25];
             var36 = var20.bind(var4)(var25);
             var29 = var36.darkenColor;
@@ -791,19 +777,19 @@ case 58:
             var16 = {};
             var17 = var22.timestampRow;
             var16['style'] = var17;
-            var29 = 31;
+            var29 = 30;
             var17 = var18[var29];
             var17 = var20.bind(var4)(var17);
             var25 = var17.Text;
             var17 = {'variant': 'text-xs/semibold', 'color': 'content-inventory-overlay-text-secondary'};
             var50 = 'text-xs/semibold';
-            var36 = 32;
+            var36 = 31;
             var41 = var18[var36];
             var41 = var20.bind(var4)(var41);
             var45 = var41.intl;
             var44 = var45.string;
             var46 = _closure1_slot1;
-            var42 = 33;
+            var42 = 32;
             var41 = var18[var42];
             var41 = var46.bind(var4)(var41);
             var41 = var41.OacAil;
@@ -960,7 +946,7 @@ case 74:
             var16 = {};
             var25 = _closure1_slot0;
             var41 = _closure1_slot2;
-            var20 = 35;
+            var20 = 34;
             var20 = var41[var20];
             var20 = var25.bind(var4)(var20);
             var25 = var20.GravityAttachmentMediaMosaic;
@@ -971,7 +957,7 @@ case 74:
             var31 = global;
             var32 = var31.Math;
             var31 = var32.max;
-            var27 = var27 - var36;
+            var27 = var27 - var42;
             var27 = var31.bind(var32)(var27, var37);
             var20['widthOverride'] = var27;
             var20 = var18.bind(var4)(var25, var20);
@@ -983,7 +969,7 @@ case 71:
             var18 = _closure1_slot8;
             var17 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 34;
+            var16 = 33;
             var16 = var20[var16];
             var16 = var17.bind(var4)(var16);
             var17 = var16.GameUpdateImagePlaceholder;
@@ -996,7 +982,7 @@ case 75:
             var18 = _closure1_slot2;
             if(var14) { _fun0001_ip = 76; continue _fun0001 }
 case 77:
-            var14 = 36;
+            var14 = 35;
             var14 = var18[var14];
             var14 = var16.bind(var4)(var14);
             var15 = var14.TruncatedText;
@@ -1042,7 +1028,7 @@ case 80:
             var14 = var17.bind(var4)(var15, var14);
             _fun0001_ip = 82; continue _fun0001;
 case 76:
-            var15 = 34;
+            var15 = 33;
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.GameUpdateTextPlaceholder;
@@ -1091,7 +1077,7 @@ case 91:
                 var2['style'] = var6;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 31;
+                var1 = 30;
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var6);
@@ -1248,7 +1234,7 @@ case 97:
                 var4 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 37;
+                var1 = 36;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -1295,7 +1281,7 @@ case 99:
             var30 = var32.bind(var4)(var30, var29);
             var29 = new Array(2);
             var29[0] = var30;
-            var30 = 38;
+            var30 = 37;
             var30 = var35[var30];
             var30 = var31.bind(var4)(var30);
             var31 = var30.GameUpdateServerInvite;
@@ -1336,7 +1322,7 @@ case 98:
             var18['style'] = var22;
             var22 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var21 = 39;
+            var21 = 38;
             var21 = var27[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.GameUpdateFeedbackModule;

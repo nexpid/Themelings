@@ -1,35 +1,39 @@
 // app/actions/ChannelRTCActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.AppContext;
-    var _closure1_slot3 = var7;
-    var7 = var2.AnalyticEvents;
     var _closure1_slot4 = var7;
+    var7 = var2.AnalyticEvents;
+    var _closure1_slot5 = var7;
     var2 = var2.ComponentActions;
-    var _closure1_slot5 = var2;
+    var _closure1_slot6 = var2;
     var2 = {};
     var7 = function rebuildRTCActiveChannels() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -44,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function selectParticipant(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -63,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function popoutParticipant(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -82,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function returnParticipant(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -107,21 +111,21 @@ case 0:
             var1 = undefined;
             if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var5 = var2.APP;
 case 2:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 2;
+            var2 = 3;
             var2 = var4[var2];
             var10 = var3.bind(var1)(var2);
             var9 = var10.track;
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot5;
             var8 = var2.VIDEO_LAYOUT_TOGGLED;
             var2 = {};
             var2['video_layout'] = var6;
             var12 = _closure1_slot0;
-            var11 = 3;
+            var11 = 4;
             var11 = var4[var11];
             var12 = var12.bind(var1)(var11);
             var11 = var12.collectVoiceAnalyticsMetadata;
@@ -129,7 +133,7 @@ case 2:
             var14 = var2;
             var11 = copyDataProperties(var14, var13);
             var2 = var9.bind(var10)(var8, var2);
-            var2 = 1;
+            var2 = 2;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -147,7 +151,7 @@ case 2:
     var7 = function toggleParticipants(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -166,7 +170,7 @@ case 2:
     var7 = function toggleParticipantsList(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -185,7 +189,7 @@ case 2:
     var7 = function toggleVoiceParticipantsHidden(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -204,7 +208,7 @@ case 2:
     var7 = function updateStageStreamSize(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -223,7 +227,7 @@ case 2:
     var7 = function updateStageVideoLimitBoostUpsellDismissed(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -239,37 +243,74 @@ case 2:
         return var1;
     };
     var2['updateStageVideoLimitBoostUpsellDismissed'] = var7;
-    var7 = function updateChatOpen(arg1, arg2) {
+    var7 = function updateChatOpen(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var8 = arg1;
-            var4 = arg2;
-            var _closure2_slot0 = var8;
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 1;
-            var5 = var5[var1];
+            var9 = arg1;
+            var3 = arg2;
+            var _closure2_slot0 = var9;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var4 = var4[var1];
             var1 = undefined;
-            var7 = var6.bind(var1)(var5);
-            var6 = var7.dispatch;
-            var5 = {};
-            var9 = 'CHANNEL_RTC_UPDATE_CHAT_OPEN';
-            var5['type'] = var9;
-            var5['channelId'] = var8;
-            var5['chatOpen'] = var4;
-            var5 = var6.bind(var7)(var5);
-            if(var4) { _fun0002_ip = 4; continue _fun0002 }
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.dispatch;
+            var4 = {};
+            var8 = 'CHANNEL_RTC_UPDATE_CHAT_OPEN';
+            var4['type'] = var8;
+            var4['channelId'] = var9;
+            var4['chatOpen'] = var3;
+            var4 = var5.bind(var6)(var4);
+            if(var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 4;
-            var4 = var6[var4];
-            var4 = var5.bind(var1)(var4);
-            var5 = var4.ComponentDispatch;
-            var4 = var5.dispatch;
-            var3 = _closure1_slot5;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 5;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var8 = var3.ComponentDispatch;
+            var6 = var8.dispatch;
+            var3 = _closure1_slot6;
             var3 = var3.FOCUS_CHAT_BUTTON;
+            var3 = var6.bind(var8)(var3);
+            var3 = 6;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var5 = var3.AutoOpenTIVExperiment;
+            var4 = var5.getConfig;
+            var3 = {};
+            var6 = 'ChannelCall';
+            var3['location'] = var6;
             var3 = var4.bind(var5)(var3);
+            var3 = var3.collectAnalytics;
+            if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 3;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
+            var5 = var6.track;
+            var3 = _closure1_slot5;
+            var4 = var3.TEXT_IN_VOICE_CLOSED;
+            var3 = {};
+            var8 = arg3;
+            var3['reason'] = var8;
+            var3['channel_id'] = var9;
+            var8 = _closure1_slot3;
+            var7 = var8.getChannel;
+            var9 = var7.bind(var8)(var9);
+            var7 = null;
+            var8 = var7 == var9;
+            var7 = undefined;
+            if(var8) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var8 = var9.getGuildId;
+            var7 = var8.bind(var9)();
+case 8:
+            var3['guild_id'] = var7;
+            var3 = var5.bind(var6)(var4, var3);
             _fun0002_ip = 6; continue _fun0002;
 case 4:
             var3 = global;
@@ -277,13 +318,13 @@ case 4:
             var3 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 4;
+                var1 = 5;
                 var3 = var3[var1];
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
                 var5 = var3.ComponentDispatch;
                 var4 = var5.dispatch;
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot6;
                 var3 = var2.FOCUS_CHANNEL_TEXT_AREA;
                 var2 = {};
                 var6 = _closure2_slot0;
@@ -301,7 +342,7 @@ case 6:
     var4 = function jumpToVoiceChannelMessage(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 1;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -321,7 +362,7 @@ case 6:
         return var1;
     };
     var2['jumpToVoiceChannelMessage'] = var4;
-    var4 = 5;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

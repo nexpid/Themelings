@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -195,10 +195,10 @@ case 0:
             var2 = var2.DetectableAppNames;
             var3 = var2.ROBLOX;
             var2 = arg1;
-            if(!(var2 !== var3)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!(var2 !== var3)) { _fun0004_ip = 2; continue _fun0004 }
+case 36:
             return var1;
-case 37:
+case 2:
             var1 = 'roblox';
             return var1;
         }
@@ -214,16 +214,16 @@ case 37:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                    if(var2) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var6 = {};
                     var5 = _closure1_slot4;
                     var4 = var5.hasConsented;
                     var3 = _closure1_slot6;
                     var3 = var3.PERSONALIZATION;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0005_ip = 41; continue _fun0005 }
-case 37:
+                    if(!var3) { _fun0005_ip = 39; continue _fun0005 }
+case 2:
                     var4 = _closure1_slot7;
                     var10 = undefined;
                     var3 = arg1;
@@ -233,8 +233,8 @@ case 37:
                     var8 = 5;
                     var7 = 4;
                     var5 = var4;
-                    if(var3) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                    if(var3) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var4 = var5.value;
                     var3 = _closure1_slot9;
                     var14 = var3.bind(var10)(var4);
@@ -245,12 +245,12 @@ case 42:
                     var3 = var11.canOpenUrlScheme;
                     var3 = var3.bind(var11)(var14);
                     SaveGenerator(address=130);
-case 43:
+case 41:
                     return var3;
-case 44:
+case 42:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=10);
-                    if(var11) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                    if(var11) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                     var6[var4] = var3;
                     var11 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -266,12 +266,12 @@ case 46:
                     var11 = var9.bind(var10)();
                     var4 = var11.done;
                     var5 = var11;
-                    if(var4) { _fun0005_ip = 41; continue _fun0005 }
-case 47:
-                    _fun0005_ip = 42; continue _fun0005;
-case 45:
+                    if(var4) { _fun0005_ip = 39; continue _fun0005 }
+case 22:
+                    _fun0005_ip = 40; continue _fun0005;
+case 43:
                     return var3;
-case 41:
+case 39:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 6;
@@ -285,7 +285,7 @@ case 41:
                     var3['result'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 39:
+case 37:
                     return var1;
                 }
             };

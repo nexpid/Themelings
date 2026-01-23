@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -245,7 +245,7 @@ case 0:
             var5 = arguments[1];
             var4 = undefined;
             if(!(var5 === var4)) { _fun0004_ip = 32; continue _fun0004 }
-case 37:
+case 36:
             var5 = true;
 case 32:
             var3 = _closure1_slot1;
@@ -316,79 +316,79 @@ case 0:
             var2 = var3.bind(var4)(var5, var2);
             var3 = var2.length;
             var2 = 2;
-            if(!(!(var3 < var2))) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(!(!(var3 < var2))) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var3 = _closure1_slot9;
             var2 = _closure1_slot6;
             var6 = var3.bind(var4)(var2);
             var3 = var6.bind(var4)();
             var2 = var3.done;
-            if(var2) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(var2) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var7 = var3.value;
             var2 = var5.includes;
             var2 = var2.bind(var5)(var7);
-            if(var2) { _fun0005_ip = 42; continue _fun0005 }
-case 11:
+            if(var2) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var7 = var6.bind(var4)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0005_ip = 40; continue _fun0005 }
-case 43:
-            _fun0005_ip = 41; continue _fun0005;
-case 42:
+            if(var2) { _fun0005_ip = 39; continue _fun0005 }
+case 13:
+            _fun0005_ip = 40; continue _fun0005;
+case 41:
             var2 = true;
             return var2;
-case 40:
+case 39:
             var3 = _closure1_slot9;
             var2 = _closure1_slot8;
             var6 = var3.bind(var4)(var2);
             var3 = var6.bind(var4)();
             var2 = var3.done;
-            if(var2) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(var2) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var7 = var3.value;
             var2 = var7.toLowerCase;
             var2 = var2.bind(var7)();
-            if(!(var5 !== var2)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(!(var5 !== var2)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var7 = var6.bind(var4)();
             var2 = var7.done;
             var3 = var7;
-            if(var2) { _fun0005_ip = 44; continue _fun0005 }
-case 48:
-            _fun0005_ip = 45; continue _fun0005;
-case 46:
+            if(var2) { _fun0005_ip = 43; continue _fun0005 }
+case 47:
+            _fun0005_ip = 44; continue _fun0005;
+case 45:
             var2 = true;
             return var2;
-case 44:
+case 43:
             var2 = _closure1_slot9;
             var1 = _closure1_slot7;
             var3 = var2.bind(var4)(var1);
             var2 = var3.bind(var4)();
             var1 = var2.done;
-            if(var1) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+            if(var1) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var7 = var2.value;
             var6 = var5.includes;
             var1 = var7.toLowerCase;
             var1 = var1.bind(var7)();
             var1 = var6.bind(var5)(var1);
-            if(var1) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+            if(var1) { _fun0005_ip = 50; continue _fun0005 }
+case 21:
             var6 = var3.bind(var4)();
             var1 = var6.done;
             var2 = var6;
-            if(var1) { _fun0005_ip = 49; continue _fun0005 }
-case 53:
-            _fun0005_ip = 50; continue _fun0005;
-case 51:
+            if(var1) { _fun0005_ip = 48; continue _fun0005 }
+case 18:
+            _fun0005_ip = 49; continue _fun0005;
+case 50:
             var1 = true;
             return var1;
-case 49:
+case 48:
             var1 = false;
             return var1;
-case 38:
+case 37:
             var1 = true;
             return var1;
         }
@@ -421,7 +421,7 @@ case 0:
             var5 = var6.extractTimestamp;
             var4 = arg1;
             var1 = var5.bind(var6)(var4);
-case 54: // try_start_0
+case 51: // try_start_0
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 4;
@@ -439,9 +439,9 @@ case 54: // try_start_0
             var2 = var3.format;
             var1 = 'MMM DD, YYYY';
             var1 = var2.bind(var3)(var1);
-case 55: // try_end0
+case 52: // try_end0
             return var1;
-case 56: // catch_target0
+case 53: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

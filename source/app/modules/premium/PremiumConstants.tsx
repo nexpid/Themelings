@@ -1703,6 +1703,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['COLLECTIBLES_SUMMER_SALE_2025_30_DISCOUNT_ID'] = var49;
     var49 = '1397609029626232955';
     var3['COLLECTIBLES_SUMMER_SALE_2025_50_DISCOUNT_ID'] = var49;
+    var49 = '1460778896906522665';
+    var3['COLLECTIBLES_VALENTINES_2026_DISCOUNT_ID'] = var49;
     var3['DEFAULT_SOUND_SLOTS'] = var48;
     var48 = 96;
     var3['MORE_SOUNDBOARD_SOUNDS'] = var48;

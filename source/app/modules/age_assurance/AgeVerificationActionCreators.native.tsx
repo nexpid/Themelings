@@ -229,18 +229,18 @@ case 18:
             var5 = 11;
             var5 = var7[var5];
             var6 = var6.bind(var1)(var5);
-            var5 = var6.isEligibleForSettingsDefaultsAggregate;
-            var8 = 'age_verification_utils';
-            var5 = var5.bind(var6)(var8);
+            var5 = var6.hasAgeGatedFeatures;
+            var5 = var5.bind(var6)();
             if(var5) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
             var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var6 = 12;
-            var6 = var9[var6];
-            var7 = var7.bind(var1)(var6);
-            var6 = var7.getIsGidgetPawtectEnabled;
-            var5 = var6.bind(var7)(var8);
+            var6 = var8[var6];
+            var8 = var7.bind(var1)(var6);
+            var7 = var8.getIsGidgetPawtectEnabled;
+            var6 = 'age_verification_utils';
+            var5 = var7.bind(var8)(var6);
 case 19:
             var4 = var5;
 case 17:

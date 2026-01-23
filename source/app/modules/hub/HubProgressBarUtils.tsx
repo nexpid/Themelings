@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -202,32 +202,32 @@ case 0:
                 var4 = null;
                 var3 = var4 == var1;
                 var1 = 0;
-                if(var3) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                if(var3) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                 var3 = _closure1_slot3;
                 var3 = var3.settings;
                 var6 = var3.guilds;
                 var8 = var4 == var6;
                 var3 = undefined;
-                if(var8) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+                if(var8) { _fun0004_ip = 38; continue _fun0004 }
+case 2:
                 var6 = var6.guilds;
                 var5 = _closure2_slot0;
                 var5 = var6[var5];
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0004_ip = 39; continue _fun0004 }
-case 41:
-                var3 = var5.hubProgress;
+                if(var6) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+                var3 = var5.hubProgress;
+case 38:
                 var4 = var4 != var3;
                 var2 = 0;
-                if(!var4) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                if(!var4) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                 var2 = var3;
-case 42:
+case 40:
                 var1 = var2;
-case 37:
+case 36:
                 return var1;
             }
         };
@@ -255,8 +255,8 @@ case 0:
                 var3 = var5.bind(var6)();
                 var2 = var3.done;
                 var4 = 9;
-                if(var2) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                if(var2) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                 var9 = var3.value;
                 var10 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -264,16 +264,16 @@ case 45:
                 var10 = var10.bind(var6)(var2);
                 var2 = var10.hasFlag;
                 var2 = var2.bind(var10)(var8, var9);
-                if(!var2) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!var2) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                 var2 = var1.add;
                 var2 = var2.bind(var1)(var9);
-case 46:
+case 44:
                 var9 = var5.bind(var6)();
                 var2 = var9.done;
                 var3 = var9;
-                if(!var2) { _fun0005_ip = 45; continue _fun0005 }
-case 44:
+                if(!var2) { _fun0005_ip = 43; continue _fun0005 }
+case 42:
                 return var1;
             }
         };
@@ -331,6 +331,14 @@ case 0:
             var2 = var3.bind(var5)(var2);
             var2 = var2.HubProgressStep;
             var2 = var2.JOIN_GUILD;
+            if(!(var2 !== var4)) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.HubProgressStep;
+            var2 = var2.INVITE_USER;
             if(!(var2 !== var4)) { _fun0006_ip = 48; continue _fun0006 }
 case 49:
             var3 = _closure1_slot0;
@@ -338,7 +346,7 @@ case 49:
             var2 = var2[var6];
             var2 = var3.bind(var5)(var2);
             var2 = var2.HubProgressStep;
-            var2 = var2.INVITE_USER;
+            var2 = var2.CONTACT_SYNC;
             if(!(var2 !== var4)) { _fun0006_ip = 50; continue _fun0006 }
 case 51:
             var3 = _closure1_slot0;
@@ -346,17 +354,9 @@ case 51:
             var2 = var2[var6];
             var2 = var3.bind(var5)(var2);
             var2 = var2.HubProgressStep;
-            var2 = var2.CONTACT_SYNC;
-            if(!(var2 !== var4)) { _fun0006_ip = 19; continue _fun0006 }
-case 52:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.HubProgressStep;
             var2 = var2.NO_PROGRESS;
-            if(!(var2 !== var4)) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+            if(!(var2 !== var4)) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 8;
@@ -365,10 +365,10 @@ case 54:
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var4);
             return var5;
-case 53:
+case 52:
             var2 = null;
             return var2;
-case 19:
+case 50:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 7;
@@ -382,7 +382,7 @@ case 19:
             var2 = var2.HFvFte;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 50:
+case 48:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 7;
@@ -396,7 +396,7 @@ case 50:
             var2 = var2.3NlTYU;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 48:
+case 46:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 7;
@@ -423,7 +423,7 @@ case 0:
             var4 = undefined;
             var3 = undefined;
             if(var7) { _fun0007_ip = 3; continue _fun0007 }
-case 55:
+case 54:
             var3 = var6.id;
 case 3:
             var6 = var5.bind(var4)(var3);
@@ -463,11 +463,11 @@ case 3:
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var2 = _closure2_slot1;
-                    if(var2) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+                    if(var2) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
                     var2 = _closure2_slot0;
                     return var2;
-case 56:
+case 55:
                     var2 = global;
                     var3 = var2.Set;
                     var6 = _closure2_slot0;
@@ -504,20 +504,20 @@ case 0:
             var3 = var2.bind(var4)(var1);
             var2 = var3.bind(var4)();
             var1 = var2.done;
-            if(var1) { _fun0009_ip = 45; continue _fun0009 }
+            if(var1) { _fun0009_ip = 43; continue _fun0009 }
 case 33:
             var1 = var2.value;
             var6 = var5.has;
             var6 = var6.bind(var5)(var1);
-            if(var6) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
-            return var1;
+            if(var6) { _fun0009_ip = 57; continue _fun0009 }
 case 58:
+            return var1;
+case 57:
             var6 = var3.bind(var4)();
             var1 = var6.done;
             var2 = var6;
             if(!var1) { _fun0009_ip = 33; continue _fun0009 }
-case 45:
+case 43:
             var1 = null;
             return var1;
         }

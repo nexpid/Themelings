@@ -2075,16 +2075,16 @@ case 159:
                 var5[1] = var9;
                 var1['style'] = var5;
                 var5 = 'secondary';
-                if(!var7) { _fun0019_ip = 154; continue _fun0019 }
-case 161:
+                if(!var7) { _fun0019_ip = 161; continue _fun0019 }
+case 162:
                 var5 = 'primary';
-case 154:
+case 161:
                 var1['variant'] = var5;
                 var5 = 'none';
-                if(!var7) { _fun0019_ip = 162; continue _fun0019 }
+                if(!var7) { _fun0019_ip = 121; continue _fun0019 }
 case 163:
                 var5 = 'strong';
-case 162:
+case 121:
                 var1['border'] = var5;
                 var5 = function onPress() {
                     var3 = _closure3_slot3;
@@ -2133,10 +2133,10 @@ case 162:
                 var16['accessibilityLabel'] = var12;
                 var25 = var6 == var15;
                 var12 = undefined;
-                if(var25) { _fun0019_ip = 164; continue _fun0019 }
-case 165:
-                var12 = var15.username;
+                if(var25) { _fun0019_ip = 75; continue _fun0019 }
 case 164:
+                var12 = var15.username;
+case 75:
                 var16['accessibilityHint'] = var12;
                 var12 = function onPress() {
                     _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
@@ -2225,8 +2225,8 @@ case 67:
                 var12 = var16.bind(var4)(var15, var12);
                 var11[2] = var12;
                 var12 = null;
-                if(!var14) { _fun0019_ip = 166; continue _fun0019 }
-case 140:
+                if(!var14) { _fun0019_ip = 165; continue _fun0019 }
+case 166:
                 var15 = _closure1_slot20;
                 var17 = _closure1_slot1;
                 var18 = _closure1_slot3;
@@ -2249,7 +2249,7 @@ case 140:
                 var16 = var17.bind(var4)(var16);
                 var13['source'] = var16;
                 var12 = var15.bind(var4)(var14, var13);
-case 166:
+case 165:
                 var11[3] = var12;
                 var5['children'] = var11;
                 var9 = var10.bind(var4)(var9, var5);

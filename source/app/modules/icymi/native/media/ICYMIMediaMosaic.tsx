@@ -136,7 +136,7 @@ case 0:
             var1 = var16[var7];
             var3 = var18.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function h() {
+            var1 = function c() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -1541,7 +1541,7 @@ case 75:
     var8 = 'function ICYMIMediaMosaicTsx1(){const{withTiming,imageFinishedLoading}=this.__closure;return{opacity:withTiming(imageFinishedLoading?0:1,{duration:150})};}';
     var5['code'] = var8;
     var _closure1_slot17 = var5;
-    var5 = 34;
+    var5 = 33;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1688,145 +1688,128 @@ case 82:
             var3[5] = var12;
             var3[6] = var1;
             var1 = function(arg1) {
-                var1 = arg1;
-                var3 = var1.ref;
-                var _closure3_slot0 = var3;
-                var1 = var1.initialIndex;
-                var _closure3_slot1 = var1;
-                var6 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var5 = 23;
-                var7 = var3[var5];
-                var1 = undefined;
-                var13 = var6.bind(var1)(var7);
-                var12 = var13.itemInteracted;
-                var9 = _closure2_slot0;
-                var11 = var9.id;
-                var10 = 'message';
-                var7 = 'press_media';
-                var7 = var12.bind(var13)(var11, var10, var7);
-                var5 = var3[var5];
-                var7 = var6.bind(var1)(var5);
-                var6 = var7.feedItemActioned;
-                var5 = {};
-                var9 = var9.id;
-                var5['itemId'] = var9;
-                var8 = _closure2_slot3;
-                var5['itemType'] = var8;
-                var8 = {'actionGestureType': 'press', 'actionTargetElement': 'media_mosaic', 'actionIntentType': 'open', 'actionDestinationType': null};
-                var5['actionParameters'] = var8;
-                var5 = var6.bind(var7)(var5);
-                var5 = _closure1_slot0;
-                var4 = 32;
-                var4 = var3[var4];
-                var5 = var5.bind(var1)(var4);
-                var4 = 31;
-                var4 = var3[var4];
-                var3 = var3.paths;
-                var4 = var5.bind(var1)(var4, var3);
-                var3 = var4.then;
-                var2 = function(arg1) {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
-                        var1 = arg1;
-                        var4 = var1.openMediaModal;
-                        var6 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 33;
-                        var2 = var2[var1];
+                    var1 = arg1;
+                    var6 = var1.ref;
+                    var7 = var1.initialIndex;
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var3 = 23;
+                    var8 = var4[var3];
+                    var1 = undefined;
+                    var15 = var5.bind(var1)(var8);
+                    var14 = var15.itemInteracted;
+                    var9 = _closure2_slot0;
+                    var13 = var9.id;
+                    var12 = 'message';
+                    var11 = 'press_media';
+                    var11 = var14.bind(var15)(var13, var12, var11);
+                    var3 = var4[var3];
+                    var12 = var5.bind(var1)(var3);
+                    var11 = var12.feedItemActioned;
+                    var3 = {};
+                    var5 = var9.id;
+                    var3['itemId'] = var5;
+                    var5 = _closure2_slot3;
+                    var3['itemType'] = var5;
+                    var5 = null;
+                    var13 = {'actionGestureType': 'press', 'actionTargetElement': 'media_mosaic', 'actionIntentType': 'open', 'actionDestinationType': null};
+                    var3['actionParameters'] = var13;
+                    var3 = var11.bind(var12)(var3);
+                    var3 = _closure1_slot0;
+                    var11 = 31;
+                    var11 = var4[var11];
+                    var14 = var3.bind(var1)(var11);
+                    var13 = var14.ack;
+                    var20 = var9.channel_id;
+                    var11 = {};
+                    var15 = _closure1_slot12;
+                    var15 = var15.ICYMI;
+                    var11['page'] = var15;
+                    var15 = _closure1_slot11;
+                    var15 = var15.ACK_MEDIA_VIEWED;
+                    var11['object'] = var15;
+                    var10 = _closure1_slot10;
+                    var10 = var10.ACK_SEMI_AUTOMATIC;
+                    var11['objectType'] = var10;
+                    var16 = var9.id;
+                    var21 = var14;
+                    var19 = var11;
+                    var18 = true;
+                    var17 = true;
+                    var9 = var21[var13](var20, var19, var18, var17, var16, var15);
+                    var9 = new Array(0);
+                    var _closure3_slot0 = var9;
+                    var11 = _closure2_slot5;
+                    var10 = var11.forEach;
+                    var2 = function(arg1) {
+                        var4 = _closure3_slot0;
+                        var3 = var4.push;
+                        var2 = {};
+                        var6 = arg1;
+                        var7 = var2;
+                        var1 = copyDataProperties(var7, var6);
                         var1 = undefined;
-                        var10 = var6.bind(var1)(var2);
-                        var9 = var10.ack;
-                        var2 = _closure2_slot0;
-                        var16 = var2.channel_id;
-                        var6 = {};
-                        var11 = _closure1_slot12;
-                        var11 = var11.ICYMI;
-                        var6['page'] = var11;
-                        var11 = _closure1_slot11;
-                        var11 = var11.ACK_MEDIA_VIEWED;
-                        var6['object'] = var11;
-                        var5 = _closure1_slot10;
-                        var5 = var5.ACK_SEMI_AUTOMATIC;
-                        var6['objectType'] = var5;
-                        var12 = var2.id;
-                        var17 = var10;
-                        var15 = var6;
-                        var14 = true;
-                        var13 = true;
-                        var2 = var17[var9](var16, var15, var14, var13, var12, var11);
-                        var2 = new Array(0);
-                        var _closure4_slot0 = var2;
-                        var6 = _closure2_slot5;
-                        var5 = var6.forEach;
-                        var3 = function(arg1) {
-                            var4 = _closure4_slot0;
-                            var3 = var4.push;
-                            var2 = {};
-                            var6 = arg1;
-                            var7 = var2;
-                            var1 = copyDataProperties(var7, var6);
-                            var1 = undefined;
-                            var5 = 'embedURI';
-                            var2[var5] = var1;
-                            var2 = var3.bind(var4)(var2);
-                            return var1;
-                        };
-                        var3 = var5.bind(var6)(var3);
-                        var3 = {};
-                        var5 = false;
-                        var3['disableDownload'] = var5;
-                        var3['initialSources'] = var2;
-                        var2 = _closure3_slot1;
-                        var3['initialIndex'] = var2;
-                        var2 = 'Channel';
-                        var3['analyticsSource'] = var2;
-                        var6 = _closure2_slot4;
-                        var2 = null;
-                        var8 = var2 == var6;
-                        var6 = undefined;
-                        if(var8) { _fun0016_ip = 84; continue _fun0016 }
-case 85:
-                        var8 = _closure2_slot4;
-                        var6 = var8.guild_id;
-case 84:
-                        var3['guildId'] = var6;
-                        var6 = _closure2_slot0;
-                        var6 = var6.channel_id;
-                        var3['channelId'] = var6;
-                        var6 = _closure2_slot4;
-                        var8 = var2 == var6;
-                        var6 = undefined;
-                        if(var8) { _fun0016_ip = 86; continue _fun0016 }
-case 87:
-                        var8 = _closure2_slot4;
-                        var6 = var8.type;
-case 86:
-                        var3['channelType'] = var6;
-                        var6 = _closure2_slot4;
-                        var8 = var2 == var6;
-                        var6 = undefined;
-                        if(var8) { _fun0016_ip = 88; continue _fun0016 }
-case 89:
-                        var7 = _closure2_slot4;
-                        var6 = var7.name;
-case 88:
-                        var3['contextName'] = var6;
-                        var3['contextIcon'] = var1;
-                        var5 = _closure3_slot0;
-                        var5 = var5.current;
-                        var6 = var2 != var5;
-                        var2 = undefined;
-                        if(!var6) { _fun0016_ip = 90; continue _fun0016 }
-case 91:
-                        var2 = var5;
-case 90:
-                        var2 = var4.bind(var1)(var3, var2);
+                        var5 = 'embedURI';
+                        var2[var5] = var1;
+                        var2 = var3.bind(var4)(var2);
                         return var1;
-                    }
-                };
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                    };
+                    var2 = var10.bind(var11)(var2);
+                    var2 = 32;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.openMediaModal;
+                    var2 = {};
+                    var10 = false;
+                    var2['disableDownload'] = var10;
+                    var2['initialSources'] = var9;
+                    var2['initialIndex'] = var7;
+                    var7 = 'Channel';
+                    var2['analyticsSource'] = var7;
+                    var7 = _closure2_slot4;
+                    var9 = var5 == var7;
+                    var7 = undefined;
+                    if(var9) { _fun0016_ip = 84; continue _fun0016 }
+case 85:
+                    var9 = _closure2_slot4;
+                    var7 = var9.guild_id;
+case 84:
+                    var2['guildId'] = var7;
+                    var7 = _closure2_slot0;
+                    var7 = var7.channel_id;
+                    var2['channelId'] = var7;
+                    var7 = _closure2_slot4;
+                    var9 = var5 == var7;
+                    var7 = undefined;
+                    if(var9) { _fun0016_ip = 86; continue _fun0016 }
+case 87:
+                    var9 = _closure2_slot4;
+                    var7 = var9.type;
+case 86:
+                    var2['channelType'] = var7;
+                    var7 = _closure2_slot4;
+                    var9 = var5 == var7;
+                    var7 = undefined;
+                    if(var9) { _fun0016_ip = 88; continue _fun0016 }
+case 89:
+                    var8 = _closure2_slot4;
+                    var7 = var8.name;
+case 88:
+                    var2['contextName'] = var7;
+                    var2['contextIcon'] = var1;
+                    var6 = var6.current;
+                    var7 = var5 != var6;
+                    var5 = undefined;
+                    if(!var7) { _fun0016_ip = 90; continue _fun0016 }
+case 91:
+                    var5 = var6;
+case 90:
+                    var2['origin'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
             };
             var14 = var4.bind(var5)(var1, var3);
             _closure2_slot7 = var14;

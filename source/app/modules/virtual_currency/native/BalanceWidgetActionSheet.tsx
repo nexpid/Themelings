@@ -237,7 +237,7 @@ case 0:
             var1 = var1.AccessibilityPreferencesContext;
             var1 = var2.bind(var6)(var1);
             var1 = var1.reducedMotion;
-            var13 = var1.enabled;
+            var22 = var1.enabled;
             var3 = var6.useMemo;
             var2 = new Array(1);
             var2[0] = var27;
@@ -386,8 +386,8 @@ case 12:
             var6 = var5.BottomSheet;
             var5 = {};
             var5['ref'] = var7;
-            var22 = true;
-            var5['startExpanded'] = var22;
+            var25 = true;
+            var5['startExpanded'] = var25;
             var7 = function handleComponent() {
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot4;
@@ -397,8 +397,8 @@ case 12:
                 return var1;
             };
             var5['handleComponent'] = var7;
-            var7 = false;
-            var5['handleDisabled'] = var7;
+            var13 = false;
+            var5['handleDisabled'] = var13;
             var9 = _closure1_slot11;
             var8 = _closure1_slot4;
             var7 = {};
@@ -436,29 +436,30 @@ case 22:
             if(!var11) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
             var17 = _closure1_slot10;
-            if(var13) { _fun0002_ip = 26; continue _fun0002 }
+            if(var22) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
             var12 = _closure1_slot0;
-            var25 = _closure1_slot2;
+            var26 = _closure1_slot2;
             var10 = 20;
-            var10 = var25[var10];
+            var10 = var26[var10];
             var10 = var12.bind(var4)(var10);
             var12 = var10.VideoComponent;
             var10 = {};
-            var25 = {};
-            var26 = var24.backgroundVideo;
-            var25['uri'] = var26;
-            var10['source'] = var25;
-            var25 = var24.backgroundImage;
-            var10['poster'] = var25;
-            var25 = var15.promotionalBackground;
-            var10['style'] = var25;
-            var10['muted'] = var22;
-            var10['pauseWhileAppInactive'] = var22;
-            var10['paused'] = var13;
-            var13 = 'cover';
-            var10['posterResizeMode'] = var13;
-            var10['resizeMode'] = var13;
+            var26 = {};
+            var28 = var24.backgroundVideo;
+            var26['uri'] = var28;
+            var10['source'] = var26;
+            var26 = var24.backgroundImage;
+            var10['poster'] = var26;
+            var26 = var15.promotionalBackground;
+            var10['style'] = var26;
+            var10['muted'] = var25;
+            var10['pauseWhileAppInactive'] = var25;
+            var10['paused'] = var22;
+            var22 = 'cover';
+            var10['posterResizeMode'] = var22;
+            var10['resizeMode'] = var22;
+            var10['preventsDisplaySleepDuringVideoPlayback'] = var13;
             var10 = var17.bind(var4)(var12, var10);
             _fun0002_ip = 28; continue _fun0002;
 case 26:

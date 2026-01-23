@@ -182,31 +182,42 @@ case 10:
             var2 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var6 = arg1;
+                    var2 = arg1;
                     var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
+                    var4 = _closure1_slot2;
                     var1 = 2;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.dispatch;
-                    var2 = {};
-                    var5 = 'SURVEY_FETCHED';
-                    var2['type'] = var5;
-                    var7 = null;
-                    var8 = var7 == var6;
-                    var5 = undefined;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var6 = var3.bind(var4)(var1);
+                    var5 = var6.dispatch;
+                    var1 = {};
+                    var3 = 'SURVEY_FETCHED';
+                    var1['type'] = var3;
+                    var3 = null;
+                    var8 = var3 == var2;
+                    var7 = undefined;
                     if(var8) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-                    var6 = var6.body;
-                    var7 = var7 == var6;
-                    var5 = undefined;
-                    if(var7) { _fun0004_ip = 11; continue _fun0004 }
+                    var8 = var2.body;
+                    var9 = var3 == var8;
+                    var7 = undefined;
+                    if(var9) { _fun0004_ip = 11; continue _fun0004 }
 case 13:
-                    var5 = var6.survey;
+                    var7 = var8.survey;
 case 11:
-                    var2['survey'] = var5;
-                    var2 = var3.bind(var4)(var2);
+                    var1['survey'] = var7;
+                    var1 = var5.bind(var6)(var1);
+                    var5 = var3 == var2;
+                    var1 = undefined;
+                    if(var5) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                    var2 = var2.body;
+                    var3 = var3 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0004_ip = 14; continue _fun0004 }
+case 16:
+                    var1 = var2.survey;
+case 14:
                     return var1;
                 }
             };
@@ -236,21 +247,21 @@ case 0:
             var1 = var2.getLastSeenTimestamp;
             var2 = var1.bind(var2)();
             var1 = null;
-            if(!(var1 !== var2)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
-            if(!(var1 != var2)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+            if(!(var1 !== var2)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
+            if(!(var1 != var2)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var1 = global;
             var3 = var1.Date;
             var1 = var3.now;
             var1 = var1.bind(var3)();
             var2 = var1 - var2;
             var1 = _closure1_slot4;
-            if(!(!(var2 >= var1))) { _fun0005_ip = 14; continue _fun0005 }
-case 16:
+            if(!(!(var2 >= var1))) { _fun0005_ip = 17; continue _fun0005 }
+case 19:
             var1 = undefined;
             return var1;
-case 14:
+case 17:
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 2;

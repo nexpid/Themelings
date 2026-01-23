@@ -6551,33 +6551,31 @@ case 343:
                 _fun0070: for(var _fun0070_ip = 0; ; ) switch(_fun0070_ip) {
 case 0:
                     var7 = _closure3_slot0;
-                    var5 = var7.replaceCorrectMessageParams;
+                    var6 = var7.replaceCorrectMessageParams;
                     var8 = _closure1_slot0;
-                    var4 = _closure1_slot3;
+                    var3 = _closure1_slot3;
                     var1 = 43;
-                    var4 = var4[var1];
+                    var3 = var3[var1];
                     var1 = undefined;
-                    var9 = var8.bind(var1)(var4);
+                    var9 = var8.bind(var1)(var3);
                     var8 = var9.castNativeSyntheticEventData;
-                    var4 = arg1;
-                    var4 = var8.bind(var9)(var4);
-                    var4 = var5.bind(var7)(var4);
-                    var _closure4_slot0 = var4;
-                    var5 = null;
-                    if(!(var5 != var4)) { _fun0070_ip = 382; continue _fun0070 }
+                    var3 = arg1;
+                    var3 = var8.bind(var9)(var3);
+                    var6 = var6.bind(var7)(var3);
+                    var _closure4_slot0 = var6;
+                    var3 = null;
+                    if(!(var3 != var6)) { _fun0070_ip = 152; continue _fun0070 }
 case 166:
-                    var7 = _closure3_slot0;
-                    var6 = var7.getMessageData;
-                    var4 = var4.messageId;
-                    var6 = var6.bind(var7)(var4);
-                    if(!(var5 != var6)) { _fun0070_ip = 382; continue _fun0070 }
-case 143:
-                    var4 = var6.message;
-                    var _closure4_slot1 = var4;
-                    var6 = var6.messageChannel;
-                    var _closure4_slot2 = var6;
-                    var7 = var4.attachments;
-                    var6 = var7.findIndex;
+                    var8 = _closure3_slot0;
+                    var7 = var8.getMessageData;
+                    var5 = var6.messageId;
+                    var5 = var7.bind(var8)(var5);
+                    if(!(var3 != var5)) { _fun0070_ip = 152; continue _fun0070 }
+case 91:
+                    var10 = var5.message;
+                    var5 = var5.messageChannel;
+                    var8 = var10.attachments;
+                    var7 = var8.findIndex;
                     var4 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.id;
@@ -6586,57 +6584,36 @@ case 143:
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var4 = var6.bind(var7)(var4);
-                    var _closure4_slot3 = var4;
-                    if(!(var5 != var4)) { _fun0070_ip = 382; continue _fun0070 }
-case 183:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot3;
-                    var4 = 42;
-                    var4 = var3[var4];
-                    var5 = var5.bind(var1)(var4);
-                    var4 = 179;
-                    var4 = var3[var4];
-                    var3 = var3.paths;
-                    var4 = var5.bind(var1)(var4, var3);
-                    var3 = var4.then;
-                    var2 = function(arg1) {
-                        var1 = arg1;
-                        var3 = var1.openMediaModal;
-                        var2 = {};
-                        var5 = _closure1_slot0;
-                        var4 = _closure1_slot3;
-                        var1 = 180;
-                        var4 = var4[var1];
-                        var1 = undefined;
-                        var8 = var5.bind(var1)(var4);
-                        var7 = var8.extractMediaSourcesFromMessage;
-                        var6 = _closure4_slot1;
-                        var5 = _closure4_slot2;
-                        var5 = var5.guild_id;
-                        var5 = var7.bind(var8)(var6, var6, var5);
-                        var2['initialSources'] = var5;
-                        var5 = _closure4_slot3;
-                        var2['initialIndex'] = var5;
-                        var5 = _closure4_slot0;
-                        var5 = var5.layout;
-                        var2['originLayout'] = var5;
-                        var5 = 'Channel';
-                        var2['analyticsSource'] = var5;
-                        var5 = _closure4_slot2;
-                        var5 = var5.guild_id;
-                        var2['guildId'] = var5;
-                        var5 = _closure4_slot2;
-                        var5 = var5.id;
-                        var2['channelId'] = var5;
-                        var4 = _closure4_slot2;
-                        var4 = var4.type;
-                        var2['channelType'] = var4;
-                        var2 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var2 = var3.bind(var4)(var2);
+                    var7 = var7.bind(var8)(var4);
+                    if(!(var3 != var7)) { _fun0070_ip = 152; continue _fun0070 }
 case 382:
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot3;
+                    var2 = 179;
+                    var2 = var4[var2];
+                    var9 = var3.bind(var1)(var2);
+                    var8 = var9.extractMediaSourcesFromMessage;
+                    var2 = var5.guild_id;
+                    var8 = var8.bind(var9)(var10, var10, var2);
+                    var2 = 180;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.openMediaModal;
+                    var2 = {};
+                    var2['initialSources'] = var8;
+                    var2['initialIndex'] = var7;
+                    var6 = var6.layout;
+                    var2['originLayout'] = var6;
+                    var6 = 'Channel';
+                    var2['analyticsSource'] = var6;
+                    var6 = var5.guild_id;
+                    var2['guildId'] = var6;
+                    var6 = var5.id;
+                    var2['channelId'] = var6;
+                    var5 = var5.type;
+                    var2['channelType'] = var5;
+                    var2 = var3.bind(var4)(var2);
+case 152:
                     return var1;
                 }
             };

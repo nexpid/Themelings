@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['dummyVideoAttachments'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot21 = var4;
-    var4 = 24;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -340,19 +340,14 @@ case 9:
             var3 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
-                var3 = var1.index;
-                var _closure3_slot0 = var3;
+                var10 = var1.index;
                 var1 = var1.layout;
-                var3 = var1.x;
-                var _closure3_slot1 = var3;
-                var3 = var1.y;
-                var _closure3_slot2 = var3;
-                var3 = var1.width;
-                var _closure3_slot3 = var3;
-                var1 = var1.height;
-                var _closure3_slot4 = var1;
-                var4 = _closure2_slot10;
-                var3 = var4.map;
+                var7 = var1.x;
+                var6 = var1.y;
+                var9 = var1.width;
+                var8 = var1.height;
+                var3 = _closure2_slot10;
+                var2 = var3.map;
                 var1 = function(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -444,41 +439,23 @@ case 27:
                         return var1;
                     }
                 };
-                var1 = var3.bind(var4)(var1);
-                var _closure3_slot5 = var1;
-                var5 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 18;
-                var4 = var3[var1];
+                var5 = var2.bind(var3)(var1);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 17;
+                var2 = var2[var1];
                 var1 = undefined;
-                var5 = var5.bind(var1)(var4);
-                var4 = 17;
-                var4 = var3[var4];
-                var3 = var3.paths;
-                var4 = var5.bind(var1)(var4, var3);
-                var3 = var4.then;
-                var2 = function(arg1) {
-                    var1 = arg1;
-                    var3 = var1.openMediaModal;
-                    var2 = {'initialIndex': null, 'initialSources': null, 'disableDownload': true, 'disableMediaOverlayButton': true, 'shareable': false};
-                    var1 = _closure3_slot0;
-                    var2['initialIndex'] = var1;
-                    var1 = _closure3_slot5;
-                    var2['initialSources'] = var1;
-                    var1 = {};
-                    var5 = _closure3_slot3;
-                    var1['width'] = var5;
-                    var5 = _closure3_slot4;
-                    var1['height'] = var5;
-                    var5 = _closure3_slot1;
-                    var1['x'] = var5;
-                    var4 = _closure3_slot2;
-                    var1['y'] = var4;
-                    var2['originLayout'] = var1;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    return var1;
-                };
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openMediaModal;
+                var2 = {'initialIndex': null, 'initialSources': null, 'disableDownload': true, 'disableMediaOverlayButton': true, 'shareable': false};
+                var2['initialIndex'] = var10;
+                var2['initialSources'] = var5;
+                var5 = {};
+                var5['width'] = var9;
+                var5['height'] = var8;
+                var5['x'] = var7;
+                var5['y'] = var6;
+                var2['originLayout'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -638,7 +615,7 @@ case 34:
             var10 = _closure1_slot18;
             var23 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var6 = 20;
+            var6 = 19;
             var6 = var25[var6];
             var7 = var23.bind(var5)(var6);
             var6 = {};
@@ -649,14 +626,14 @@ case 34:
             var7 = var10.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
-            var7 = 21;
+            var7 = 20;
             var7 = var25[var7];
             var9 = var23.bind(var5)(var7);
             var7 = {};
             var15 = _closure1_slot20;
             var7['rowGenerator'] = var15;
             var16 = _closure1_slot0;
-            var15 = 22;
+            var15 = 21;
             var15 = var25[var15];
             var17 = var16.bind(var5)(var15);
             var16 = var17.createMessageRecord;
@@ -665,7 +642,7 @@ case 34:
             var15['id'] = var22;
             var22 = global;
             var24 = var22.Date;
-            var22 = 23;
+            var22 = 22;
             var22 = var25[var22];
             var25 = var23.bind(var5)(var22);
             var23 = var25.extractTimestamp;
@@ -736,7 +713,7 @@ case 33:
                 var5 = _closure1_slot18;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 19;
+                var2 = 18;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);

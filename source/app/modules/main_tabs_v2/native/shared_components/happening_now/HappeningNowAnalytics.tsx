@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -195,8 +195,8 @@ case 0:
             var7 = -1;
             var6 = 1;
             var5 = null;
-            if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 5:
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var10 = var4.value;
             if(!(var5 !== var10)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
@@ -214,8 +214,8 @@ case 40:
             var10 = var8.bind(var9)();
             var1 = var10.done;
             var4 = var10;
-            if(!var1) { _fun0004_ip = 5; continue _fun0004 }
-case 37:
+            if(!var1) { _fun0004_ip = 37; continue _fun0004 }
+case 36:
             var1 = new Array(2);
             var1[0] = var3;
             var1[1] = var2;
@@ -258,8 +258,8 @@ case 46:
             var3 = var1 in var2;
             var5 = null;
             var1 = null;
-            if(!var3) { _fun0006_ip = 47; continue _fun0006 }
-case 4:
+            if(!var3) { _fun0006_ip = 9; continue _fun0006 }
+case 47:
             var4 = var2.stage;
             var6 = var5 == var4;
             var3 = undefined;
@@ -269,50 +269,50 @@ case 49:
 case 48:
             var4 = var5 != var3;
             var1 = null;
-            if(!var4) { _fun0006_ip = 47; continue _fun0006 }
+            if(!var4) { _fun0006_ip = 9; continue _fun0006 }
 case 50:
             var1 = var3;
-case 47:
+case 9:
             _fun0006_ip = 51; continue _fun0006;
 case 38:
             var5 = var2.stream;
             var3 = null;
             var6 = var3 == var5;
             var4 = undefined;
-            if(var6) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
-            var4 = var5.channelId;
+            if(var6) { _fun0006_ip = 13; continue _fun0006 }
 case 52:
+            var4 = var5.channelId;
+case 13:
             var5 = var3 != var4;
             var3 = null;
-            if(!var5) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-            var3 = var4;
+            if(!var5) { _fun0006_ip = 53; continue _fun0006 }
 case 54:
+            var3 = var4;
+case 53:
             var1 = var3;
 case 51:
-            _fun0006_ip = 56; continue _fun0006;
+            _fun0006_ip = 55; continue _fun0006;
 case 45:
             var5 = var2.voiceState;
             var3 = null;
             var6 = var3 == var5;
             var4 = undefined;
-            if(var6) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
-            var4 = var5.channelId;
+            if(var6) { _fun0006_ip = 56; continue _fun0006 }
 case 57:
+            var4 = var5.channelId;
+case 56:
             var5 = var3 != var4;
             var3 = null;
-            if(!var5) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+            if(!var5) { _fun0006_ip = 58; continue _fun0006 }
+case 15:
             var3 = var4;
-case 59:
+case 58:
             var1 = var3;
-case 56:
-            _fun0006_ip = 61; continue _fun0006;
+case 55:
+            _fun0006_ip = 59; continue _fun0006;
 case 43:
             var1 = var2.channelId;
-case 61:
+case 59:
             return var1;
         }
     };
@@ -402,9 +402,9 @@ case 0:
             var2 = var2 % var1;
             var1 = 0;
             if(!(var2 !== var1)) { _fun0007_ip = 35; continue _fun0007 }
-case 62:
+case 60:
             var1 = {};
-            _fun0007_ip = 63; continue _fun0007;
+            _fun0007_ip = 61; continue _fun0007;
 case 35:
             var2 = {};
             var6 = _closure1_slot10;
@@ -416,7 +416,7 @@ case 35:
             var8 = var2;
             var3 = copyDataProperties(var8, var7);
             var1 = var2;
-case 63:
+case 61:
             return var1;
         }
     };

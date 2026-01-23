@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
     var10 = var2.MobileSetting;
-    var2 = 7;
+    var2 = 8;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createPressable;
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -47,33 +47,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function useAccountAgeGroupNonAdultSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 3;
-            var1 = var4[var1];
+            var11 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var3 = 3;
+            var3 = var1[var3];
             var6 = undefined;
-            var3 = var3.bind(var6)(var1);
-            var1 = var3.useIsAgeVerified;
-            var1 = var1.bind(var3)();
+            var4 = var11.bind(var6)(var3);
+            var3 = var4.useIsAgeVerified;
+            var3 = var3.bind(var4)();
+            var4 = 4;
+            var4 = var1[var4];
+            var8 = var11.bind(var6)(var4);
+            var5 = var8.useUpdatedAgeVerificationString;
+            var7 = 5;
+            var4 = var1[var7];
+            var4 = var11.bind(var6)(var4);
+            var10 = var4.intl;
+            var9 = var10.string;
+            var4 = var1[var7];
+            var4 = var11.bind(var6)(var4);
+            var4 = var4.t;
+            var4 = var4.UX0Ode;
+            var4 = var9.bind(var10)(var4);
+            var9 = var1[var7];
+            var9 = var11.bind(var6)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var1 = var1[var7];
+            var1 = var11.bind(var6)(var1);
+            var1 = var1.t;
+            var1 = var1.lKDPGA;
+            var1 = var9.bind(var10)(var1);
+            var1 = var5.bind(var8)(var4, var1);
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 4;
-            var3 = var7[var2];
+            var2 = _closure1_slot2;
+            var3 = var2[var7];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
             var3 = var4.string;
-            var2 = var7[var2];
+            var2 = var2[var7];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            if(var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var2.UX0Ode;
-            var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 4; continue _fun0001;
-case 2:
             var2 = var2.sK0dmH;
             var1 = var3.bind(var4)(var2);
-case 4:
+case 2:
             return var1;
         }
     };
@@ -102,48 +121,48 @@ case 4:
     var8 = function AccountAgeGroupNonAdultSettingPredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var1 = 3;
-            var2 = var8[var1];
+            var2 = var7[var1];
             var5 = undefined;
-            var3 = var7.bind(var5)(var2);
+            var3 = var6.bind(var5)(var2);
             var2 = var3.useIsAgeVerified;
             var2 = var2.bind(var3)();
-            var1 = var8[var1];
-            var3 = var7.bind(var5)(var1);
+            var1 = var7[var1];
+            var3 = var6.bind(var5)(var1);
             var1 = var3.useIsVerifiedTeen;
             var3 = var1.bind(var3)();
-            var1 = 5;
-            var1 = var8[var1];
-            var4 = var7.bind(var5)(var1);
-            var1 = var4.useIsEligibleForSettingsDefaultsAggregate;
-            var6 = 'explicit_media_redaction_utils';
-            var1 = var1.bind(var4)(var6);
-            var4 = 6;
-            var4 = var8[var4];
-            var5 = var7.bind(var5)(var4);
-            var4 = var5.useIsGidgetPawtectEnabled;
-            var4 = var4.bind(var5)(var6);
-            if(var1) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            var1 = var4;
+            var1 = 6;
+            var1 = var7[var1];
+            var4 = var6.bind(var5)(var1);
+            var1 = var4.useHasTeenDefaults;
+            var1 = var1.bind(var4)();
+            var4 = 7;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var5 = var6.useIsGidgetPawtectEnabled;
+            var4 = 'explicit_media_redaction_utils';
+            var4 = var5.bind(var6)(var4);
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            var2 = !var2;
-            if(var2) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var2 = var3;
-case 9:
-            var1 = var2;
+            var1 = var4;
+case 4:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
+            var2 = !var2;
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var2 = var3;
+case 8:
+            var1 = var2;
+case 6:
             return var1;
         }
     };
     var2['usePredicate'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

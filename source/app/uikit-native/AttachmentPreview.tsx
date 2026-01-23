@@ -517,7 +517,7 @@ case 48:
             var14 = var17[var14];
             var14 = var15.bind(var5)(var14);
             var15 = var14.VideoComponent;
-            var14 = {'style': null, 'source': null, 'muted': true, 'paused': true, 'resizeMode': 'cover'};
+            var14 = {'style': null, 'source': null, 'muted': true, 'paused': true, 'resizeMode': 'cover', 'preventsDisplaySleepDuringVideoPlayback': false};
             var17 = {};
             var17['height'] = var9;
             var17['width'] = var10;

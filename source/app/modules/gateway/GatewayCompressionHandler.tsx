@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -195,24 +195,24 @@ case 0:
             var2 = _closure1_slot3;
             var1 = _closure1_slot14;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var1 = var9.apply;
             var1 = var1.bind(var9)(var4, var6);
-            _fun0004_ip = 39; continue _fun0004;
-case 37:
+            _fun0004_ip = 38; continue _fun0004;
+case 36:
             var7 = global;
             var8 = var7.Reflect;
             var7 = var8.construct;
-            if(var6) { _fun0004_ip = 40; continue _fun0004 }
+            if(var6) { _fun0004_ip = 39; continue _fun0004 }
 case 30:
             var6 = new Array(0);
-case 40:
+case 39:
             var5 = _closure1_slot4;
             var5 = var5.bind(var3)(var4);
             var5 = var5.constructor;
             var1 = var7.bind(var8)(var9, var6, var5);
-case 39:
+case 38:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         }
@@ -221,7 +221,7 @@ case 39:
     var1 = function _isNativeReflectConstruct() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-case 41: // try_start_0
+case 40: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -239,11 +239,11 @@ case 41: // try_start_0
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
-case 42: // try_end0
-            _fun0005_ip = 43; continue _fun0005;
-case 44: // catch_target0
+case 41: // try_end0
+            _fun0005_ip = 42; continue _fun0005;
+case 43: // catch_target0
             CatchBlockStart(arg_register=1);
-case 43:
+case 42:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -374,11 +374,11 @@ case 0:
                 var6 = var1._gatewayEncoding;
                 var5 = var6.wantsString;
                 var5 = var5.bind(var6)();
-                if(var5) { _fun0006_ip = 45; continue _fun0006 }
-case 44:
+                if(var5) { _fun0006_ip = 44; continue _fun0006 }
+case 43:
                 var1['_decoder'] = var3;
-                _fun0006_ip = 46; continue _fun0006;
-case 45:
+                _fun0006_ip = 45; continue _fun0006;
+case 44:
                 var3 = global;
                 var6 = var3.TextDecoder;
                 var3 = var6.prototype;
@@ -388,7 +388,7 @@ case 45:
                 var3 = new var11[var6](var10, var9);
                 var3 = var3 instanceof Object ? var3 : var5;
                 var1['_decoder'] = var3;
-case 46:
+case 45:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 6;
@@ -435,13 +435,13 @@ case 0:
                 var3 = this;
                 var1 = var3._stream;
                 var4 = null;
-                if(!(var4 != var1)) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+                if(!(var4 != var1)) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
                 var1 = global;
                 var2 = var1.ArrayBuffer;
                 var2 = var5 instanceof var2;
-                if(var2) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
+                if(var2) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
                 var6 = var1.Error;
                 var1 = var6.prototype;
                 var2 = Object.create(var1, {constructor: {value: var6}});
@@ -452,27 +452,27 @@ case 50:
                 var1 = new var9[var6](var8, var7);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 49:
+case 48:
                 var2 = var3._stream;
                 var1 = var2.decompress;
                 var6 = var1.bind(var2)(var5);
                 var1 = var3._decoder;
                 var2 = var6;
-                if(!(var4 != var1)) { _fun0007_ip = 51; continue _fun0007 }
-case 52:
+                if(!(var4 != var1)) { _fun0007_ip = 50; continue _fun0007 }
+case 51:
                 var5 = var3._decoder;
                 var1 = var5.decode;
                 var2 = var1.bind(var5)(var6);
-case 51:
+case 50:
                 var1 = var3._onDataReady;
-                if(!(var4 != var1)) { _fun0007_ip = 53; continue _fun0007 }
-case 54:
+                if(!(var4 != var1)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                 var1 = var3._onDataReady;
                 var1 = var1.bind(var3)(var2);
-case 53:
+case 52:
                 var1 = undefined;
                 return var1;
-case 47:
+case 46:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -545,10 +545,10 @@ case 0:
                 var3 = var5.wantsString;
                 var5 = var3.bind(var5)();
                 var3 = '';
-                if(!var5) { _fun0008_ip = 55; continue _fun0008 }
-case 47:
+                if(!var5) { _fun0008_ip = 54; continue _fun0008 }
+case 46:
                 var3 = 'string';
-case 55:
+case 54:
                 var2['to'] = var3;
                 var3 = var4.prototype;
                 var3 = Object.create(var3, {constructor: {value: var4}});
@@ -600,16 +600,16 @@ case 0:
                 var5 = this;
                 var1 = var5._inflate;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0009_ip = 56; continue _fun0009 }
-case 48:
+                if(!(var2 != var1)) { _fun0009_ip = 23; continue _fun0009 }
+case 47:
                 var1 = var5._onDataReady;
-                if(!(var2 !== var1)) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+                if(!(var2 !== var1)) { _fun0009_ip = 55; continue _fun0009 }
+case 56:
                 var1 = global;
                 var2 = var1.ArrayBuffer;
                 var2 = var4 instanceof var2;
-                if(var2) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
+                if(var2) { _fun0009_ip = 57; continue _fun0009 }
+case 5:
                 var6 = var1.Error;
                 var2 = var6.prototype;
                 var3 = Object.create(var2, {constructor: {value: var6}});
@@ -620,7 +620,7 @@ case 60:
                 var2 = new var10[var6](var9, var8);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 59:
+case 57:
                 var1 = var1.DataView;
                 var2 = var1.prototype;
                 var2 = Object.create(var2, {constructor: {value: var1}});
@@ -631,8 +631,8 @@ case 59:
                 var1 = var7.byteLength;
                 var2 = 4;
                 var6 = var1 >= var2;
-                if(!var6) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+                if(!var6) { _fun0009_ip = 17; continue _fun0009 }
+case 58:
                 var3 = var7.getUint32;
                 var1 = var7.byteLength;
                 var2 = var1 - var2;
@@ -640,20 +640,20 @@ case 62:
                 var2 = var3.bind(var7)(var2, var1);
                 var1 = 65535;
                 var6 = var1 === var2;
-case 61:
+case 17:
                 var3 = var5._inflate;
                 var2 = var3.push;
                 var1 = !var6;
                 var1 = !var1;
-                if(!var6) { _fun0009_ip = 63; continue _fun0009 }
-case 64:
+                if(!var6) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
                 var5 = var5._pako;
                 var1 = var5.Z_SYNC_FLUSH;
-case 63:
+case 59:
                 var1 = var2.bind(var3)(var4, var1);
                 var1 = undefined;
                 return var1;
-case 57:
+case 55:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -663,7 +663,7 @@ case 57:
                 var1 = new var10[var3](var9, var8);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 56:
+case 23:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -686,14 +686,14 @@ case 0:
                 var2 = this;
                 var3 = var2._inflate;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                if(!(var1 != var3)) { _fun0010_ip = 61; continue _fun0010 }
+case 62:
                 var3 = var2._inflate;
                 var3['onEnd'] = var1;
                 var4 = var2._inflate;
                 var3 = new Array(0);
                 var4['chunks'] = var3;
-case 65:
+case 61:
                 var2['_inflate'] = var1;
                 var1 = undefined;
                 return var1;
@@ -712,8 +712,8 @@ case 0:
                 var1 = var4._pako;
                 var2 = var4._inflate;
                 var5 = null;
-                if(!(var5 == var2)) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
+                if(!(var5 == var2)) { _fun0011_ip = 11; continue _fun0011 }
+case 63:
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 8;
@@ -729,39 +729,39 @@ case 68:
                 var7 = var8.error;
                 var3 = 'flush end happened on closed compression adapter';
                 var3 = var7.bind(var8)(var3);
-                _fun0011_ip = 69; continue _fun0011;
-case 67:
+                _fun0011_ip = 64; continue _fun0011;
+case 11:
                 var1 = var1.Z_OK;
-                if(!(var6 === var1)) { _fun0011_ip = 70; continue _fun0011 }
-case 13:
+                if(!(var6 === var1)) { _fun0011_ip = 65; continue _fun0011 }
+case 66:
                 var7 = var2.chunks;
                 var8 = var7.length;
                 var3 = var4._gatewayEncoding;
                 var1 = var3.wantsString;
                 var3 = var1.bind(var3)();
                 var1 = 1;
-                if(var3) { _fun0011_ip = 71; continue _fun0011 }
-case 53:
-                if(!(!(var8 > var1))) { _fun0011_ip = 72; continue _fun0011 }
-case 47:
+                if(var3) { _fun0011_ip = 67; continue _fun0011 }
+case 52:
+                if(!(!(var8 > var1))) { _fun0011_ip = 68; continue _fun0011 }
+case 46:
                 var3 = 0;
                 var3 = var7[var3];
-                _fun0011_ip = 73; continue _fun0011;
-case 72:
+                _fun0011_ip = 69; continue _fun0011;
+case 68:
                 var9 = 0;
                 var13 = var9 < var8;
                 var11 = 0;
                 var10 = 0;
                 var12 = 0;
-                if(!var13) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+                if(!var13) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
                 var13 = var7[var10];
                 var13 = var13.length;
                 var11 = var11 + var13;
                 var10 = var10 + 1;
                 var12 = var11;
-                if(var10 < var8) { _fun0011_ip = 75; continue _fun0011 }
-case 74:
+                if(var10 < var8) { _fun0011_ip = 71; continue _fun0011 }
+case 70:
                 var10 = global;
                 var10 = var10.Uint8Array;
                 var11 = var10.prototype;
@@ -774,8 +774,8 @@ case 74:
                 var10 = 0;
                 var9 = 0;
                 var3 = var11;
-                if(!var12) { _fun0011_ip = 73; continue _fun0011 }
-case 76:
+                if(!var12) { _fun0011_ip = 69; continue _fun0011 }
+case 72:
                 var12 = var7[var9];
                 var13 = var11.set;
                 var13 = var13.bind(var11)(var12, var10);
@@ -783,33 +783,33 @@ case 76:
                 var10 = var10 + var12;
                 var9 = var9 + 1;
                 var3 = var11;
-                if(var9 < var8) { _fun0011_ip = 76; continue _fun0011 }
-case 77:
-                _fun0011_ip = 73; continue _fun0011;
-case 71:
-                if(!(!(var8 > var1))) { _fun0011_ip = 78; continue _fun0011 }
-case 79:
+                if(var9 < var8) { _fun0011_ip = 72; continue _fun0011 }
+case 73:
+                _fun0011_ip = 69; continue _fun0011;
+case 67:
+                if(!(!(var8 > var1))) { _fun0011_ip = 74; continue _fun0011 }
+case 10:
                 var1 = 0;
                 var1 = var7[var1];
-                _fun0011_ip = 80; continue _fun0011;
-case 78:
+                _fun0011_ip = 75; continue _fun0011;
+case 74:
                 var9 = var7.join;
                 var8 = '';
                 var1 = var9.bind(var7)(var8);
-case 80:
+case 75:
                 var3 = var1;
-case 73:
+case 69:
                 var1 = 0;
                 var7['length'] = var1;
                 var1 = var4._onDataReady;
-                if(!(var5 != var1)) { _fun0011_ip = 69; continue _fun0011 }
-case 81:
+                if(!(var5 != var1)) { _fun0011_ip = 64; continue _fun0011 }
+case 27:
                 var1 = var4._onDataReady;
                 var1 = var1.bind(var4)(var3);
-case 69:
+case 64:
                 var1 = undefined;
                 return var1;
-case 70:
+case 65:
                 var1 = global;
                 var3 = var1.Error;
                 var2 = var2.strm;
@@ -906,30 +906,30 @@ case 0:
                 var1 = global;
                 var2 = var1.ArrayBuffer;
                 var2 = var7 instanceof var2;
-                if(!var2) { _fun0012_ip = 65; continue _fun0012 }
-case 82:
+                if(!var2) { _fun0012_ip = 61; continue _fun0012 }
+case 76:
                 var5 = var4._gatewayEncoding;
                 var3 = var5.wantsString;
                 var2 = var3.bind(var5)();
-case 65:
+case 61:
                 var3 = var7;
-                if(!var2) { _fun0012_ip = 40; continue _fun0012 }
-case 60:
+                if(!var2) { _fun0012_ip = 39; continue _fun0012 }
+case 5:
                 var5 = var6.inflate;
                 var2 = {};
                 var8 = 'string';
                 var2['to'] = var8;
                 var3 = var5.bind(var6)(var7, var2);
-case 40:
+case 39:
                 var5 = var4._onDataReady;
                 var2 = null;
-                if(!(var2 != var5)) { _fun0012_ip = 83; continue _fun0012 }
-case 84:
+                if(!(var2 != var5)) { _fun0012_ip = 77; continue _fun0012 }
+case 78:
                 var2 = var4._onDataReady;
                 var2 = var2.bind(var4)(var3);
                 var2 = undefined;
                 return var2;
-case 83:
+case 77:
                 var3 = var1.Error;
                 var1 = var3.prototype;
                 var2 = Object.create(var1, {constructor: {value: var3}});
@@ -1016,17 +1016,17 @@ case 0:
                 var6 = var6.bind(var1)(var4);
                 var4 = var6.isAndroid;
                 var4 = var4.bind(var6)();
-                if(var5) { _fun0013_ip = 85; continue _fun0013 }
-case 67:
-                if(var4) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
+                if(var5) { _fun0013_ip = 79; continue _fun0013 }
+case 11:
+                if(var4) { _fun0013_ip = 80; continue _fun0013 }
+case 81:
                 var5 = _closure1_slot8;
                 var7 = var5.DCDCompressionManager;
                 var6 = var7.enableZlibStreamSupport;
                 var5 = var2._socketId;
                 var5 = var6.bind(var7)(var5);
-                _fun0013_ip = 88; continue _fun0013;
-case 86:
+                _fun0013_ip = 82; continue _fun0013;
+case 80:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var7 = 10;
@@ -1034,8 +1034,8 @@ case 86:
                 var5 = var6.bind(var1)(var5);
                 var6 = var5.default;
                 var5 = null;
-                if(!(var5 != var6)) { _fun0013_ip = 88; continue _fun0013 }
-case 89:
+                if(!(var5 != var6)) { _fun0013_ip = 82; continue _fun0013 }
+case 83:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var7];
@@ -1044,18 +1044,18 @@ case 89:
                 var6 = var7.enableZlibStreamSupport;
                 var5 = var2._socketId;
                 var5 = var6.bind(var7)(var5);
-                _fun0013_ip = 88; continue _fun0013;
+                _fun0013_ip = 82; continue _fun0013;
+case 79:
+                if(var4) { _fun0013_ip = 84; continue _fun0013 }
 case 85:
-                if(var4) { _fun0013_ip = 90; continue _fun0013 }
-case 91:
                 var4 = _closure1_slot8;
                 var7 = var4.DCDCompressionManager;
                 var6 = var7.enableZstdStreamSupport;
                 var5 = var2._socketId;
                 var4 = 0;
                 var4 = var6.bind(var7)(var5, var4);
-                _fun0013_ip = 88; continue _fun0013;
-case 90:
+                _fun0013_ip = 82; continue _fun0013;
+case 84:
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var5 = 10;
@@ -1063,8 +1063,8 @@ case 90:
                 var4 = var6.bind(var1)(var4);
                 var6 = var4.default;
                 var4 = null;
-                if(!(var4 != var6)) { _fun0013_ip = 88; continue _fun0013 }
-case 92:
+                if(!(var4 != var6)) { _fun0013_ip = 82; continue _fun0013 }
+case 86:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var5];
@@ -1073,7 +1073,7 @@ case 92:
                 var3 = var4.enableZstdStreamSupport;
                 var2 = var2._socketId;
                 var2 = var3.bind(var4)(var2);
-case 88:
+case 82:
                 return var1;
             }
         };
@@ -1095,10 +1095,10 @@ case 0:
                 var1 = var2.supportsZstd;
                 var2 = var1.bind(var2)();
                 var1 = 'zlib-stream';
-                if(!var2) { _fun0014_ip = 93; continue _fun0014 }
-case 94:
+                if(!var2) { _fun0014_ip = 87; continue _fun0014 }
+case 88:
                 var1 = 'zstd-stream';
-case 93:
+case 87:
                 return var1;
             }
         };
@@ -1123,16 +1123,16 @@ case 0:
                 var2 = this;
                 var4 = var2._onDataReady;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0015_ip = 95; continue _fun0015 }
-case 96:
+                if(!(var1 != var4)) { _fun0015_ip = 89; continue _fun0015 }
+case 90:
                 if(!(var1 !== var3)) { _fun0015_ip = 33; continue _fun0015 }
-case 97:
+case 91:
                 var1 = var2._onDataReady;
                 var1 = var1.bind(var2)(var3);
 case 33:
                 var1 = undefined;
                 return var1;
-case 95:
+case 89:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -1156,8 +1156,8 @@ case 0:
                 var3 = var1._socketId;
                 var6 = null;
                 var1['_socketId'] = var6;
-                if(!(var6 !== var3)) { _fun0016_ip = 98; continue _fun0016 }
-case 68:
+                if(!(var6 !== var3)) { _fun0016_ip = 92; continue _fun0016 }
+case 63:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 9;
@@ -1166,22 +1166,22 @@ case 68:
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.isAndroid;
                 var2 = var2.bind(var5)();
-                if(var2) { _fun0016_ip = 9; continue _fun0016 }
-case 99:
+                if(var2) { _fun0016_ip = 93; continue _fun0016 }
+case 94:
                 var2 = _closure1_slot8;
                 var5 = var2.DCDCompressionManager;
                 var2 = var5.disableZlibStreamSupport;
                 var2 = var2.bind(var5)(var3);
-                _fun0016_ip = 98; continue _fun0016;
-case 9:
+                _fun0016_ip = 92; continue _fun0016;
+case 93:
                 var7 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var5 = 10;
                 var2 = var2[var5];
                 var2 = var7.bind(var4)(var2);
                 var2 = var2.default;
-                if(!(var6 != var2)) { _fun0016_ip = 98; continue _fun0016 }
-case 100:
+                if(!(var6 != var2)) { _fun0016_ip = 92; continue _fun0016 }
+case 95:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -1189,7 +1189,7 @@ case 100:
                 var2 = var1.default;
                 var1 = var2.disableZlibStreamSupport;
                 var1 = var1.bind(var2)(var3);
-case 98:
+case 92:
                 var1 = undefined;
                 return var1;
             }
@@ -1211,12 +1211,12 @@ case 0:
                 var1 = var3.isAndroid;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0017_ip = 28; continue _fun0017 }
-case 38:
+case 37:
                 var1 = _closure1_slot8;
                 var3 = var1.DCDCompressionManager;
                 var1 = null;
                 var1 = var1 != var3;
-                _fun0017_ip = 101; continue _fun0017;
+                _fun0017_ip = 96; continue _fun0017;
 case 28:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -1226,7 +1226,7 @@ case 28:
                 var3 = var2.default;
                 var2 = null;
                 var1 = var2 != var3;
-case 101:
+case 96:
                 return var1;
             }
         };
@@ -1286,7 +1286,7 @@ case 0:
                 var2 = var3._onDataReady;
                 var1 = null;
                 if(!(var1 != var2)) { _fun0018_ip = 33; continue _fun0018 }
-case 66:
+case 62:
                 var2 = var3._onDataReady;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
@@ -1351,28 +1351,28 @@ case 0:
             var4 = var2.ProcessArgs;
             var2 = var4.isDiscordGatewayPlaintextSet;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0019_ip = 102; continue _fun0019 }
-case 103:
+            if(var2) { _fun0019_ip = 97; continue _fun0019 }
+case 98:
             var4 = _closure1_slot11;
             var2 = _closure1_slot9;
             var6 = var4.bind(var7)(var2);
             var4 = var6.bind(var7)();
             var2 = var4.done;
             var5 = var4;
-            if(var2) { _fun0019_ip = 104; continue _fun0019 }
-case 105:
+            if(var2) { _fun0019_ip = 99; continue _fun0019 }
+case 100:
             var2 = var5.value;
             var4 = var2.canUse;
             var4 = var4.bind(var2)();
-            if(var4) { _fun0019_ip = 106; continue _fun0019 }
-case 11:
+            if(var4) { _fun0019_ip = 101; continue _fun0019 }
+case 102:
             var8 = var6.bind(var7)();
             var4 = var8.done;
             var5 = var8;
-            if(var4) { _fun0019_ip = 104; continue _fun0019 }
-case 107:
-            _fun0019_ip = 105; continue _fun0019;
-case 106:
+            if(var4) { _fun0019_ip = 99; continue _fun0019 }
+case 13:
+            _fun0019_ip = 100; continue _fun0019;
+case 101:
             var4 = var2.prototype;
             var4 = Object.create(var4, {constructor: {value: var2}});
             var10 = var4;
@@ -1380,7 +1380,7 @@ case 106:
             var2 = new var10[var2](var9, var8);
             var2 = var2 instanceof Object ? var2 : var4;
             return var2;
-case 104:
+case 99:
             var2 = _closure1_slot10;
             var4 = var2.prototype;
             var4 = Object.create(var4, {constructor: {value: var2}});
@@ -1389,7 +1389,7 @@ case 104:
             var2 = new var10[var2](var9, var8);
             var2 = var2 instanceof Object ? var2 : var4;
             return var2;
-case 102:
+case 97:
             var1 = _closure1_slot10;
             var2 = var1.prototype;
             var2 = Object.create(var2, {constructor: {value: var1}});

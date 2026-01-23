@@ -434,12 +434,12 @@ case 34:
             var16['overflow'] = var17;
             var17 = 'transparent';
             if(var18) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
+case 25:
             var18 = var11;
-            if(var20) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
-            var18 = var19.color;
+            if(var20) { _fun0003_ip = 37; continue _fun0003 }
 case 38:
+            var18 = var19.color;
+case 37:
             var17 = var18;
 case 36:
             var16['backgroundColor'] = var17;
@@ -508,17 +508,17 @@ case 0:
             var4 = var4.bind(var5)();
             var23 = var4.iconBackground;
             var _closure2_slot2 = var23;
-            if(var10) { _fun0006_ip = 40; continue _fun0006 }
-case 41:
+            if(var10) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
             var4 = null;
             var4 = var4 != var3;
             var17 = 24;
-            if(!var4) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
-            var17 = var3;
+            if(!var4) { _fun0006_ip = 41; continue _fun0006 }
 case 42:
-            _fun0006_ip = 44; continue _fun0006;
-case 40:
+            var17 = var3;
+case 41:
+            _fun0006_ip = 43; continue _fun0006;
+case 39:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 6;
@@ -526,7 +526,7 @@ case 40:
             var3 = var4.bind(var5)(var3);
             var3 = var3.radii;
             var17 = var3.lg;
-case 44:
+case 43:
             _closure2_slot3 = var17;
             var29 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -555,10 +555,10 @@ case 44:
 case 0:
                     var2 = _closure2_slot0;
                     var1 = 0;
-                    if(!var2) { _fun0007_ip = 45; continue _fun0007 }
+                    if(!var2) { _fun0007_ip = 44; continue _fun0007 }
 case 35:
                     var1 = 1;
-case 45:
+case 44:
                     return var1;
                 }
             };
@@ -779,16 +779,16 @@ case 45:
             var1['children'] = var6;
             var6 = var4.bind(var5)(var3, var1);
             var1 = null;
-            if(!(var1 == var12)) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!(var1 == var12)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var1 = {};
             var1['style'] = var13;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0006_ip = 48; continue _fun0006;
-case 46:
+            _fun0006_ip = 47; continue _fun0006;
+case 45:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
@@ -808,7 +808,7 @@ case 46:
             var2['onLayout'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 48:
+case 47:
             return var1;
         }
     };

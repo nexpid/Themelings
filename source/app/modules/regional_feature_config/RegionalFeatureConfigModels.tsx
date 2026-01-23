@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var5 = 'isFeatureTeenByDefault';
-        var1['key'] = var5;
+        var2 = 'isFeatureTeenByDefault';
+        var1['key'] = var2;
         var2 = function value(arg1) {
             var1 = this;
             var2 = var1.teenByDefault;
@@ -46,8 +46,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(1);
+        var2 = new Array(2);
         var2[0] = var1;
+        var1 = {};
+        var6 = 'hasTeenDefaults';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                var1 = this;
+                var3 = var1.teenByDefault;
+                var1 = null;
+                var4 = var1 != var3;
+                var2 = 0;
+                var1 = 0;
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var1 = var3;
+case 2:
+                var1 = var2 !== var1;
+                return var1;
+            }
+        };
+        var1['value'] = var5;
+        var2[1] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -68,8 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var5 = 'isFeatureAgeGated';
-        var1['key'] = var5;
+        var2 = 'isFeatureAgeGated';
+        var1['key'] = var2;
         var2 = function value(arg1) {
             var1 = this;
             var2 = var1.gatedFeatures;
@@ -80,8 +102,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(1);
+        var2 = new Array(2);
         var2[0] = var1;
+        var1 = {};
+        var6 = 'hasAgeGatedFeatures';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var1 = this;
+                var3 = var1.gatedFeatures;
+                var1 = null;
+                var4 = var1 != var3;
+                var2 = 0;
+                var1 = 0;
+                if(!var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                var1 = var3;
+case 2:
+                var1 = var2 !== var1;
+                return var1;
+            }
+        };
+        var1['value'] = var5;
+        var2[1] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -115,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var3;
-        var3 = new Array(2);
+        var3 = new Array(4);
         var3[0] = var1;
         var1 = {};
         var6 = 'isFeatureTeenByDefault';
@@ -130,6 +174,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var1['value'] = var6;
         var3[1] = var1;
+        var1 = {};
+        var6 = 'hasAgeGatedFeatures';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var2 = var1.ageVerification;
+            var1 = var2.hasAgeGatedFeatures;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1['value'] = var6;
+        var3[2] = var1;
+        var1 = {};
+        var6 = 'hasTeenDefaults';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var2 = var1.settings;
+            var1 = var2.hasTeenDefaults;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1['value'] = var6;
+        var3[3] = var1;
         var1 = {};
         var6 = 'fromConnectionOpen';
         var1['key'] = var6;

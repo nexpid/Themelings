@@ -756,27 +756,18 @@ case 32:
         var8 = var19.bind(var14)(var2, var8);
         var _closure2_slot7 = var8;
         var2 = 23;
-        var2 = var10[var2];
-        var2 = var13.bind(var4)(var2);
-        var20 = var2.ChatInputIaMobileExperiment;
-        var19 = var20.useConfig;
-        var2 = {};
+        var19 = var10[var2];
+        var19 = var13.bind(var4)(var19);
+        var22 = var19.ChatInputIaMobileExperiment;
+        var20 = var22.useConfig;
+        var19 = {};
         var21 = 'MediaKeyboard';
-        var2['location'] = var21;
-        var2 = var19.bind(var20)(var2);
-        var19 = var2.overflowButtonsOrder;
+        var19['location'] = var21;
+        var19 = var20.bind(var22)(var19);
+        var19 = var19.overflowButtonsOrder;
         var _closure2_slot8 = var19;
-        var2 = 24;
-        var20 = var10[var2];
-        var21 = var13.bind(var4)(var20);
-        var20 = var21.useMediaKeyboardActionsExperiment;
-        var20 = var20.bind(var21)();
-        var21 = var20.mediaKeyboardActionsType;
-        var20 = 'legacy';
-        var22 = var20 !== var21;
-        var _closure2_slot9 = var22;
-        var21 = var14.useMemo;
-        var20 = new Array(7);
+        var22 = var14.useMemo;
+        var20 = new Array(6);
         var20[0] = var8;
         var23 = var7.uploadDisabled;
         var20[1] = var23;
@@ -786,230 +777,198 @@ case 32:
         var20[3] = var23;
         var23 = var7.isAppLauncherEnabled;
         var20[4] = var23;
-        var20[5] = var22;
-        var20[6] = var19;
+        var20[5] = var19;
         var19 = function() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-                var3 = {};
-                var4 = {};
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var6 = 25;
-                var2 = var9[var6];
-                var7 = undefined;
-                var2 = var8.bind(var7)(var2);
-                var10 = var2.intl;
-                var5 = var10.string;
-                var2 = var9[var6];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.t;
-                var2 = var2.RgIi2B;
-                var2 = var5.bind(var10)(var2);
-                var4['text'] = var2;
-                var2 = 26;
-                var2 = var9[var2];
-                var2 = var8.bind(var7)(var2);
-                var2 = var2.PollsIcon;
-                var4['IconComponent'] = var2;
-                var10 = _closure2_slot7;
-                var5 = var10.onPollsPress;
-                var4['onPress'] = var5;
-                var5 = _closure2_slot6;
-                var11 = var5.canPostPolls;
-                var11 = !var11;
-                var4['disabled'] = var11;
-                var3['polls'] = var4;
-                var4 = {};
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var13 = var11.intl;
-                var12 = var13.string;
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.t;
-                var11 = var11.8Hvr3+;
-                var11 = var12.bind(var13)(var11);
-                var4['text'] = var11;
-                var11 = 27;
-                var11 = var9[var11];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.AttachmentIcon;
-                var4['IconComponent'] = var11;
-                var11 = var10.onAttachPress;
-                var4['onPress'] = var11;
-                var11 = var5.uploadDisabled;
-                var4['disabled'] = var11;
-                var3['files'] = var4;
-                var4 = {};
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var13 = var11.intl;
-                var12 = var13.string;
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.t;
-                var11 = var11.PHjkRE;
-                var11 = var12.bind(var13)(var11);
-                var4['text'] = var11;
-                var11 = 28;
-                var11 = var9[var11];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.AppsIcon;
-                var4['IconComponent'] = var11;
-                var11 = var10.onPressApps;
-                var4['onPress'] = var11;
-                var11 = var5.isAppLauncherEnabled;
-                var11 = !var11;
-                var4['disabled'] = var11;
-                var3['apps'] = var4;
-                var4 = {};
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var13 = var11.intl;
-                var12 = var13.string;
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.t;
-                var11 = var11.7Xm5QI;
-                var11 = var12.bind(var13)(var11);
-                var4['text'] = var11;
-                var11 = 29;
-                var11 = var9[var11];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.ThreadPlusIcon;
-                var4['IconComponent'] = var11;
-                var11 = var10.onPressThread;
-                var4['onPress'] = var11;
-                var11 = var5.canStartThreads;
-                var11 = !var11;
-                var4['disabled'] = var11;
-                var3['thread'] = var4;
-                var4 = {};
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var13 = var11.intl;
-                var12 = var13.string;
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.t;
-                var11 = var11.Ve9Ge6;
-                var11 = var12.bind(var13)(var11);
-                var4['text'] = var11;
-                var11 = 30;
-                var11 = var9[var11];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.GiftIcon;
-                var4['IconComponent'] = var11;
-                var11 = var10.onPressGift;
-                var4['onPress'] = var11;
-                var11 = false;
-                var4['disabled'] = var11;
-                var3['gift'] = var4;
-                var4 = {};
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var13 = var11.intl;
-                var12 = var13.string;
-                var11 = var9[var6];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.t;
-                var11 = var11.Zmm6dN;
-                var11 = var12.bind(var13)(var11);
-                var4['text'] = var11;
-                var11 = 31;
-                var11 = var9[var11];
-                var11 = var8.bind(var7)(var11);
-                var11 = var11.ImageIcon;
-                var4['IconComponent'] = var11;
-                var10 = var10.onViewAll;
-                var4['onPress'] = var10;
-                var10 = var5.uploadDisabled;
-                var4['disabled'] = var10;
-                var3['allphotos'] = var4;
-                var4 = {};
-                var10 = var9[var6];
-                var10 = var8.bind(var7)(var10);
-                var11 = var10.intl;
-                var10 = var11.string;
-                var6 = var9[var6];
-                var6 = var8.bind(var7)(var6);
-                var6 = var6.t;
-                var6 = var6.uje3P9;
-                var6 = var10.bind(var11)(var6);
-                var4['text'] = var6;
-                var6 = 32;
-                var6 = var9[var6];
-                var6 = var8.bind(var7)(var6);
-                var6 = var6.CameraIcon;
-                var4['IconComponent'] = var6;
-                var6 = function onPress() {
-                    var3 = _closure2_slot7;
-                    var2 = var3.onPressCamera;
-                    var1 = _closure1_slot6;
-                    var1 = var1.TAKE_A_PHOTO_BUTTON;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                };
-                var4['onPress'] = var6;
-                var5 = var5.uploadDisabled;
-                var4['disabled'] = var5;
-                var3['camera'] = var4;
-                var _closure3_slot0 = var3;
-                var4 = _closure2_slot9;
-                if(var4) { _fun0010_ip = 34; continue _fun0010 }
-case 35:
-                var5 = _closure2_slot8;
-                var4 = var5.filter;
-                var2 = function(arg1) {
-                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-                        var2 = 'thread';
-                        var1 = arg1;
-                        var1 = var2 !== var1;
-                        if(var1) { _fun0011_ip = 36; continue _fun0011 }
-case 37:
-                        var2 = _closure2_slot6;
-                        var1 = var2.canStartThreads;
-case 36:
-                        return var1;
-                    }
-                };
-                var4 = var4.bind(var5)(var2);
-                var2 = var4.map;
-                var1 = function(arg1) {
-                    var2 = _closure3_slot0;
-                    var1 = arg1;
-                    var1 = var2[var1];
-                    return var1;
-                };
-                var1 = var2.bind(var4)(var1);
-                _fun0010_ip = 38; continue _fun0010;
-case 34:
-                var4 = var3.allphotos;
-                var2 = new Array(4);
-                var2[0] = var4;
-                var4 = var3.camera;
-                var2[1] = var4;
-                var4 = var3.polls;
-                var2[2] = var4;
-                var3 = var3.files;
-                var2[3] = var3;
-                var1 = var2;
-case 38:
+            var3 = {};
+            var4 = {};
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 24;
+            var2 = var9[var6];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var2);
+            var10 = var2.intl;
+            var5 = var10.string;
+            var2 = var9[var6];
+            var2 = var8.bind(var7)(var2);
+            var2 = var2.t;
+            var2 = var2.RgIi2B;
+            var2 = var5.bind(var10)(var2);
+            var4['text'] = var2;
+            var2 = 25;
+            var2 = var9[var2];
+            var2 = var8.bind(var7)(var2);
+            var2 = var2.PollsIcon;
+            var4['IconComponent'] = var2;
+            var10 = _closure2_slot7;
+            var5 = var10.onPollsPress;
+            var4['onPress'] = var5;
+            var5 = _closure2_slot6;
+            var11 = var5.canPostPolls;
+            var11 = !var11;
+            var4['disabled'] = var11;
+            var3['polls'] = var4;
+            var4 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var13 = var11.intl;
+            var12 = var13.string;
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.t;
+            var11 = var11.8Hvr3+;
+            var11 = var12.bind(var13)(var11);
+            var4['text'] = var11;
+            var11 = 26;
+            var11 = var9[var11];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.AttachmentIcon;
+            var4['IconComponent'] = var11;
+            var11 = var10.onAttachPress;
+            var4['onPress'] = var11;
+            var11 = var5.uploadDisabled;
+            var4['disabled'] = var11;
+            var3['files'] = var4;
+            var4 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var13 = var11.intl;
+            var12 = var13.string;
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.t;
+            var11 = var11.PHjkRE;
+            var11 = var12.bind(var13)(var11);
+            var4['text'] = var11;
+            var11 = 27;
+            var11 = var9[var11];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.AppsIcon;
+            var4['IconComponent'] = var11;
+            var11 = var10.onPressApps;
+            var4['onPress'] = var11;
+            var11 = var5.isAppLauncherEnabled;
+            var11 = !var11;
+            var4['disabled'] = var11;
+            var3['apps'] = var4;
+            var4 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var13 = var11.intl;
+            var12 = var13.string;
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.t;
+            var11 = var11.7Xm5QI;
+            var11 = var12.bind(var13)(var11);
+            var4['text'] = var11;
+            var11 = 28;
+            var11 = var9[var11];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.ThreadPlusIcon;
+            var4['IconComponent'] = var11;
+            var11 = var10.onPressThread;
+            var4['onPress'] = var11;
+            var11 = var5.canStartThreads;
+            var11 = !var11;
+            var4['disabled'] = var11;
+            var3['thread'] = var4;
+            var4 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var13 = var11.intl;
+            var12 = var13.string;
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.t;
+            var11 = var11.Ve9Ge6;
+            var11 = var12.bind(var13)(var11);
+            var4['text'] = var11;
+            var11 = 29;
+            var11 = var9[var11];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.GiftIcon;
+            var4['IconComponent'] = var11;
+            var11 = var10.onPressGift;
+            var4['onPress'] = var11;
+            var11 = false;
+            var4['disabled'] = var11;
+            var3['gift'] = var4;
+            var4 = {};
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var13 = var11.intl;
+            var12 = var13.string;
+            var11 = var9[var6];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.t;
+            var11 = var11.Zmm6dN;
+            var11 = var12.bind(var13)(var11);
+            var4['text'] = var11;
+            var11 = 30;
+            var11 = var9[var11];
+            var11 = var8.bind(var7)(var11);
+            var11 = var11.ImageIcon;
+            var4['IconComponent'] = var11;
+            var10 = var10.onViewAll;
+            var4['onPress'] = var10;
+            var10 = var5.uploadDisabled;
+            var4['disabled'] = var10;
+            var3['allphotos'] = var4;
+            var4 = {};
+            var10 = var9[var6];
+            var10 = var8.bind(var7)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var6 = var9[var6];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.t;
+            var6 = var6.uje3P9;
+            var6 = var10.bind(var11)(var6);
+            var4['text'] = var6;
+            var6 = 31;
+            var6 = var9[var6];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.CameraIcon;
+            var4['IconComponent'] = var6;
+            var6 = function onPress() {
+                var3 = _closure2_slot7;
+                var2 = var3.onPressCamera;
+                var1 = _closure1_slot6;
+                var1 = var1.TAKE_A_PHOTO_BUTTON;
+                var1 = var2.bind(var3)(var1);
                 return var1;
-            }
+            };
+            var4['onPress'] = var6;
+            var5 = var5.uploadDisabled;
+            var4['disabled'] = var5;
+            var3['camera'] = var4;
+            var _closure3_slot0 = var3;
+            var3 = _closure2_slot8;
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var2 = _closure3_slot0;
+                var1 = arg1;
+                var1 = var2[var1];
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        var19 = var21.bind(var14)(var19, var20);
-        var _closure2_slot10 = var19;
+        var19 = var22.bind(var14)(var19, var20);
+        var _closure2_slot9 = var19;
         var2 = var10[var2];
-        var13 = var13.bind(var4)(var2);
-        var2 = var13.useIsMediaKeyboardActionsFloatingOrTabBarEnabled;
-        var20 = var2.bind(var13)();
-        var _closure2_slot11 = var20;
+        var2 = var13.bind(var4)(var2);
+        var20 = var2.ChatInputIaMobileExperiment;
+        var13 = var20.useConfig;
+        var2 = {};
+        var2['location'] = var21;
+        var2 = var13.bind(var20)(var2);
+        var20 = var2.iaUsesFloatingBarForOverflow;
+        var _closure2_slot10 = var20;
         var2 = var14.useRef;
         var2 = var2.bind(var14)(var3);
-        var _closure2_slot12 = var2;
+        var _closure2_slot11 = var2;
         var13 = var14.useCallback;
         var3 = new Array(6);
         var3[0] = var8;
@@ -1019,16 +978,16 @@ case 38:
         var3[4] = var19;
         var3[5] = var20;
         var2 = function(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var7 = arg1;
-                var1 = _closure2_slot11;
+                var1 = _closure2_slot10;
                 var5 = _closure1_slot13;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                if(var1) { _fun0012_ip = 39; continue _fun0012 }
-case 40:
-                var1 = 34;
+                if(var1) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
+                var1 = 33;
                 var1 = var4[var1];
                 var8 = undefined;
                 var2 = var3.bind(var8)(var1);
@@ -1046,7 +1005,7 @@ case 40:
                 var11 = _closure2_slot0;
                 var10 = 'channel';
                 var1[var10] = var11;
-                var11 = _closure2_slot10;
+                var11 = _closure2_slot9;
                 var10 = 'overflowButtons';
                 var1[var10] = var11;
                 var11 = var9.draftType;
@@ -1057,18 +1016,18 @@ case 40:
                 var11 = 'onViewAll';
                 var1[var11] = var12;
                 var12 = function onBack() {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                         var1 = _closure2_slot2;
                         var3 = var1.current;
                         var1 = null;
                         var2 = var1 == var3;
                         var1 = undefined;
-                        if(var2) { _fun0013_ip = 41; continue _fun0013 }
+                        if(var2) { _fun0011_ip = 36; continue _fun0011 }
 case 30:
                         var2 = var3.collapse;
                         var1 = var2.bind(var3)();
-case 41:
+case 36:
                         return var1;
                     }
                 };
@@ -1087,9 +1046,9 @@ case 41:
                 var9 = 'includedUploadIds';
                 var1[var9] = var10;
                 var1 = var5.bind(var8)(var2, var1);
-                _fun0012_ip = 42; continue _fun0012;
-case 39:
-                var2 = 33;
+                _fun0010_ip = 37; continue _fun0010;
+case 34:
+                var2 = 32;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -1100,7 +1059,7 @@ case 39:
                 var6 = var6.onPressHeader;
                 var2['onPress'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
-case 42:
+case 37:
                 return var1;
             }
         };
@@ -1116,20 +1075,20 @@ case 42:
         var2[5] = var20;
         var2[6] = var19;
         var1 = function(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var1 = arg1;
                 var8 = var1.animateOnMount;
                 var4 = undefined;
-                if(!(var8 === var4)) { _fun0014_ip = 43; continue _fun0014 }
-case 44:
+                if(!(var8 === var4)) { _fun0012_ip = 38; continue _fun0012 }
+case 39:
                 var8 = false;
-case 43:
+case 38:
                 var5 = var1.initialPosition;
                 var3 = _closure1_slot14;
                 var6 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var1 = 35;
+                var1 = 34;
                 var1 = var11[var1];
                 var2 = var6.bind(var4)(var1);
                 var1 = {};
@@ -1140,11 +1099,11 @@ case 43:
                 var1['animatedPosition'] = var9;
                 var1['initialPosition'] = var5;
                 var9 = _closure1_slot13;
-                var5 = 36;
+                var5 = 35;
                 var5 = var11[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = {};
-                var11 = _closure2_slot12;
+                var11 = _closure2_slot11;
                 var5['ref'] = var11;
                 var5['animatedIndex'] = var10;
                 var10 = _closure2_slot0;
@@ -1159,14 +1118,14 @@ case 43:
                 var6 = var9.bind(var4)(var6, var5);
                 var5 = new Array(3);
                 var5[0] = var6;
-                var10 = _closure2_slot11;
+                var10 = _closure2_slot10;
                 var9 = null;
-                if(!var10) { _fun0014_ip = 45; continue _fun0014 }
-case 46:
+                if(!var10) { _fun0012_ip = 40; continue _fun0012 }
+case 41:
                 var12 = _closure1_slot13;
                 var11 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var10 = 37;
+                var10 = 36;
                 var10 = var13[var10];
                 var11 = var11.bind(var4)(var10);
                 var10 = {};
@@ -1174,14 +1133,14 @@ case 46:
                 var14 = var13.canPostPolls;
                 var10['canPostPolls'] = var14;
                 var14 = function onHeightChange(arg1) {
-                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                        var1 = _closure2_slot12;
+                        var1 = _closure2_slot11;
                         var4 = var1.current;
                         var1 = null;
                         var2 = var1 == var4;
                         var1 = undefined;
-                        if(var2) { _fun0015_ip = 17; continue _fun0015 }
+                        if(var2) { _fun0013_ip = 17; continue _fun0013 }
 case 30:
                         var3 = var4.setInsetFab;
                         var2 = arg1;
@@ -1193,25 +1152,25 @@ case 17:
                 var10['onHeightChange'] = var14;
                 var13 = var13.uploadDisabled;
                 var10['uploadDisabled'] = var13;
-                var13 = _closure2_slot10;
+                var13 = _closure2_slot9;
                 var10['overflowButtons'] = var13;
                 var9 = var12.bind(var4)(var11, var10);
-case 45:
+case 40:
                 var5[1] = var9;
-                var8 = _closure2_slot11;
+                var8 = _closure2_slot10;
                 var6 = null;
-                if(var8) { _fun0014_ip = 47; continue _fun0014 }
-case 48:
+                if(var8) { _fun0012_ip = 42; continue _fun0012 }
+case 43:
                 var9 = _closure1_slot13;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var7 = 38;
+                var7 = 37;
                 var7 = var10[var7];
                 var7 = var8.bind(var4)(var7);
                 var8 = var7.NavScrim;
                 var7 = {};
                 var6 = var9.bind(var4)(var8, var7);
-case 47:
+case 42:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -1220,7 +1179,7 @@ case 47:
         };
         var14 = var3.bind(var14)(var1, var2);
         var3 = _closure1_slot13;
-        var1 = 39;
+        var1 = 38;
         var1 = var10[var1];
         var2 = var6.bind(var4)(var1);
         var1 = {};
@@ -1234,7 +1193,7 @@ case 47:
         var1['overlayComponent'] = var12;
         var1['onClose'] = var11;
         var1['transitionState'] = var5;
-        var5 = 40;
+        var5 = 39;
         var5 = var10[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -1265,7 +1224,7 @@ case 47:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 41;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

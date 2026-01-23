@@ -211,11 +211,11 @@ case 37:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0004_ip = 3; continue _fun0004 }
-case 39:
+case 8:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0004_ip = 39; continue _fun0004 }
+            if(var3 < var2) { _fun0004_ip = 8; continue _fun0004 }
 case 3:
             return var1;
         }
@@ -232,23 +232,23 @@ case 0:
             var1 = undefined;
             var6 = var6.bind(var1)(var5);
             var5 = 0;
-            if(!(!(var6 < var5))) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!(!(var6 < var5))) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var5 = null;
             var6 = var5 == var4;
             var1 = undefined;
-            if(var6) { _fun0005_ip = 9; continue _fun0005 }
+            if(var6) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
             var1 = var4.guild;
-case 9:
-            if(!(var5 != var1)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
-            var1 = var2.guildId;
-            if(!(var5 == var1)) { _fun0005_ip = 45; continue _fun0005 }
+case 41:
+            if(!(var5 != var1)) { _fun0005_ip = 11; continue _fun0005 }
 case 43:
+            var1 = var2.guildId;
+            if(!(var5 == var1)) { _fun0005_ip = 44; continue _fun0005 }
+case 11:
             var1 = var2.id;
-            _fun0005_ip = 17; continue _fun0005;
-case 45:
+            _fun0005_ip = 45; continue _fun0005;
+case 44:
             var7 = var2.id;
             var4 = var4.guild;
             var6 = var4.id;
@@ -257,9 +257,9 @@ case 45:
             var4 = '';
             var3 = ':';
             var1 = var5.bind(var4)(var7, var3, var6);
-case 17:
+case 45:
             _fun0005_ip = 46; continue _fun0005;
-case 40:
+case 39:
             var1 = var2.id;
 case 46:
             return var1;
@@ -277,7 +277,7 @@ case 0:
             var1 = undefined;
             var8 = undefined;
             if(var5) { _fun0006_ip = 47; continue _fun0006 }
-case 41:
+case 40:
             var8 = var4.applicationCommands;
 case 47:
             if(!(var3 == var8)) { _fun0006_ip = 48; continue _fun0006 }
@@ -680,20 +680,20 @@ case 0:
                 var5 = ':';
                 var1 = var1.bind(var6)(var5);
                 var1 = !var1;
-                if(var1) { _fun0012_ip = 15; continue _fun0012 }
+                if(var1) { _fun0012_ip = 65; continue _fun0012 }
 case 35:
                 var2 = _closure2_slot0;
                 var4 = null;
                 var7 = var4 == var2;
                 var2 = undefined;
                 if(var7) { _fun0012_ip = 55; continue _fun0012 }
-case 65:
+case 66:
                 var7 = _closure2_slot0;
                 var2 = var7.guild;
 case 55:
                 var2 = var4 != var2;
-                if(!var2) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
+                if(!var2) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
                 var3 = _closure2_slot0;
                 var3 = var3.guild;
                 var4 = var3.id;
@@ -702,9 +702,9 @@ case 67:
                 var3 = 1;
                 var3 = var5[var3];
                 var2 = var4 === var3;
-case 66:
+case 67:
                 var1 = var2;
-case 15:
+case 65:
                 return var1;
             }
         };

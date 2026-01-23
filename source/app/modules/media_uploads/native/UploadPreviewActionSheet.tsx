@@ -589,7 +589,7 @@ case 33:
             var20 = var34[var20];
             var20 = var28.bind(var4)(var20);
             var28 = var20.VideoComponent;
-            var20 = {};
+            var20 = {'style': null, 'source': null, 'muted': true, 'paused': true, 'preventsDisplaySleepDuringVideoPlayback': false};
             var34 = {};
             var38 = var37.width;
             var34['width'] = var38;
@@ -600,8 +600,6 @@ case 33:
             var36 = var36.uri;
             var34['uri'] = var36;
             var20['source'] = var34;
-            var20['muted'] = var26;
-            var20['paused'] = var26;
             var24 = var31.bind(var4)(var28, var20);
 case 34:
             var20 = new Array(2);

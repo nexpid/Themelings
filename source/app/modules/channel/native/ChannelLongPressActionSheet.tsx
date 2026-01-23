@@ -2478,8 +2478,14 @@ case 233:
             var6 = var5.ActionSheet;
             var5 = {};
             var5['showGradient'] = var12;
+            var12 = 80;
+            var12 = var16[var12];
+            var17 = var11.bind(var4)(var12);
+            var12 = var17.isMetaQuest;
+            var12 = var12.bind(var17)();
+            var5['startExpanded'] = var12;
             var12 = _closure1_slot31;
-            var9 = 80;
+            var9 = 81;
             var9 = var16[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.ActionSheetIconHeader;
@@ -2495,7 +2501,7 @@ case 233:
                 var5 = _closure1_slot31;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 81;
+                var2 = 82;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -2524,7 +2530,7 @@ case 235:
                         var5 = _closure1_slot31;
                         var8 = _closure1_slot0;
                         var13 = _closure1_slot2;
-                        var7 = 81;
+                        var7 = 82;
                         var2 = var13[var7];
                         var4 = undefined;
                         var2 = var8.bind(var4)(var2);
@@ -2693,7 +2699,7 @@ case 237:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot31 = var4;
-    var4 = 82;
+    var4 = 83;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

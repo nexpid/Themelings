@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -301,10 +301,10 @@ case 0:
             var2 = var2.analyticsLocations;
             var _closure2_slot1 = var2;
             var2 = var1.analyticsLocation;
-            if(!(var3 === var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-            var2 = {};
+            if(!(var3 === var2)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+            var2 = {};
+case 36:
             var _closure2_slot2 = var2;
             var43 = var1.user;
             var17 = var1.message;
@@ -317,17 +317,17 @@ case 37:
             var _closure2_slot6 = var22;
             var5 = var1.actionSheetSource;
             var73 = undefined;
-            if(!(var3 !== var5)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var73 = var5;
+            if(!(var3 !== var5)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+            var73 = var5;
+case 38:
             var _closure2_slot7 = var73;
             var6 = var1.canAddNewReactions;
             var5 = var3 !== var6;
-            if(!var5) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+            if(!var5) { _fun0004_ip = 40; continue _fun0004 }
+case 15:
             var5 = var6;
-case 41:
+case 40:
             var _closure2_slot8 = var5;
             var6 = _closure1_slot4;
             var8 = var6.useEffect;
@@ -358,13 +358,13 @@ case 0:
                     var8 = var10.isPrivate;
                     var8 = var8.bind(var10)();
                     var9 = _closure1_slot14;
-                    if(var8) { _fun0005_ip = 43; continue _fun0005 }
-case 11:
+                    if(var8) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                     var8 = var9.GUILD_CHANNEL;
-                    _fun0005_ip = 13; continue _fun0005;
-case 43:
+                    _fun0005_ip = 43; continue _fun0005;
+case 41:
                     var8 = var9.DM_CHANNEL;
-case 13:
+case 43:
                     var6['page'] = var8;
                     var11 = _closure2_slot2;
                     var12 = var6;

@@ -353,7 +353,7 @@ case 11:
             var11 = var18[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.VideoComponent;
-            var11 = {'source': null, 'style': null, 'resizeMode': 'contain', 'muted': true, 'pauseWhileAppInactive': true, 'paused': false};
+            var11 = {'source': null, 'style': null, 'resizeMode': 'contain', 'muted': true, 'pauseWhileAppInactive': true, 'paused': false, 'poster': null, 'preventsDisplaySleepDuringVideoPlayback': false};
             var13 = {};
             var16 = _closure1_slot1;
             var19 = 20;

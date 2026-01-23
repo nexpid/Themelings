@@ -289,8 +289,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var13 = var1.event;
-            var _closure2_slot0 = var13;
+            var26 = var1.event;
+            var _closure2_slot0 = var26;
             var1 = var1.onCloseActionSheet;
             var _closure2_slot1 = var1;
             var4 = undefined;
@@ -301,7 +301,7 @@ case 0:
             var _closure2_slot7 = var4;
             var1 = _closure1_slot14;
             var17 = var1.bind(var4)();
-            var1 = var13.guild_id;
+            var1 = var26.guild_id;
             var _closure2_slot2 = var1;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -327,7 +327,7 @@ case 0:
             var7 = new Array(1);
             var7[0] = var2;
             var5 = new Array(1);
-            var5[0] = var13;
+            var5[0] = var26;
             var2 = function() {
                 var3 = _closure1_slot7;
                 var2 = var3.getChannel;
@@ -348,9 +348,9 @@ case 3:
 case 2:
             var1 = var2.bind(var3)(var1);
             var1 = var1.canManageGuildEvent;
-            var1 = var1.bind(var4)(var13);
+            var1 = var1.bind(var4)(var26);
             _closure2_slot3 = var1;
-            var2 = var13.entity_type;
+            var2 = var26.entity_type;
             var1 = _closure1_slot10;
             var1 = var1.STAGE_INSTANCE;
             var15 = var2 === var1;
@@ -498,19 +498,19 @@ case 8:
             var9 = {};
             var12 = var17.headerContainer;
             var9['style'] = var12;
-            var16 = _closure1_slot12;
-            var14 = _closure1_slot16;
+            var14 = _closure1_slot12;
+            var13 = _closure1_slot16;
             var12 = {};
-            var12['event'] = var13;
-            var14 = var16.bind(var4)(var14, var12);
+            var12['event'] = var26;
+            var13 = var14.bind(var4)(var13, var12);
             var12 = new Array(2);
-            var12[0] = var14;
-            var20 = _closure1_slot12;
-            var16 = _closure1_slot17;
-            var14 = {};
-            var14['event'] = var13;
-            var14 = var20.bind(var4)(var16, var14);
-            var12[1] = var14;
+            var12[0] = var13;
+            var16 = _closure1_slot12;
+            var14 = _closure1_slot17;
+            var13 = {};
+            var13['event'] = var26;
+            var13 = var16.bind(var4)(var14, var13);
+            var12[1] = var13;
             var9['children'] = var12;
             var10 = var11.bind(var4)(var10, var9);
             var9 = new Array(2);
@@ -518,21 +518,23 @@ case 8:
             var12 = _closure1_slot13;
             var11 = _closure1_slot6;
             var10 = {};
-            var14 = var17.footerContainer;
-            var10['style'] = var14;
+            var13 = var17.footerContainer;
+            var10['style'] = var13;
             var16 = _closure1_slot9;
             var14 = var16.has;
-            var13 = var13.entity_type;
+            var13 = var26.entity_type;
             var14 = var14.bind(var16)(var13);
             if(!var14) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
             var20 = _closure1_slot12;
             var16 = _closure1_slot1;
-            var26 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var13 = 22;
-            var13 = var26[var13];
+            var13 = var27[var13];
             var16 = var16.bind(var4)(var13);
             var13 = {};
+            var26 = var26.channel_id;
+            var13['channelId'] = var26;
             var14 = var20.bind(var4)(var16, var13);
 case 15:
             var13 = new Array(3);

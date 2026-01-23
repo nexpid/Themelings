@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot13 = var4;
-    var4 = 54;
+    var4 = 55;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1368,6 +1368,12 @@ case 68:
             var1['showGradient'] = var6;
             var6 = 52;
             var6 = var11[var6];
+            var12 = var8.bind(var4)(var6);
+            var6 = var12.isMetaQuest;
+            var6 = var6.bind(var12)();
+            var1['startExpanded'] = var6;
+            var6 = 53;
+            var6 = var11[var6];
             var6 = var8.bind(var4)(var6);
             var8 = var6.ActionSheetIconHeader;
             var6 = {};
@@ -1383,7 +1389,7 @@ case 68:
                 var4 = _closure1_slot13;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 53;
+                var1 = 54;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -1432,7 +1438,7 @@ case 14:
                         var4 = _closure1_slot13;
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var12 = 53;
+                        var12 = 54;
                         var2 = var2[var12];
                         var2 = var3.bind(var5)(var2);
                         var3 = var2.ActionSheetRow;

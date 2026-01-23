@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isSettingTeenByDefault'] = var4;
-    var2 = function useIsSettingTeenByDefault(arg1) {
+    var4 = function useIsSettingTeenByDefault(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -88,6 +88,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useIsSettingTeenByDefault'] = var2;
+    var3['useIsSettingTeenByDefault'] = var4;
+    var4 = function hasAgeGatedFeatures() {
+        var2 = _closure1_slot2;
+        var1 = var2.hasAgeGatedFeatures;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['hasAgeGatedFeatures'] = var4;
+    var4 = function useHasAgeGatedFeatures() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 1;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var2 = _closure1_slot2;
+            var1 = var2.hasAgeGatedFeatures;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useHasAgeGatedFeatures'] = var4;
+    var4 = function hasTeenDefaults() {
+        var2 = _closure1_slot2;
+        var1 = var2.hasTeenDefaults;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['hasTeenDefaults'] = var4;
+    var2 = function useHasTeenDefaults() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 1;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var2 = _closure1_slot2;
+            var1 = var2.hasTeenDefaults;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useHasTeenDefaults'] = var2;
     return var1;
 })();

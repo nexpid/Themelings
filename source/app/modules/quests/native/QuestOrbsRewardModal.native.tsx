@@ -649,7 +649,7 @@ case 37:
             var7 = var15[var7];
             var7 = var8.bind(var1)(var7);
             var8 = var7.VideoComponent;
-            var7 = {'source': null, 'style': null, 'resizeMode': 'cover', 'onLoad': null, 'disableFocus': true, 'playInBackground': true};
+            var7 = {'source': null, 'style': null, 'resizeMode': 'cover', 'onLoad': null, 'disableFocus': true, 'playInBackground': true, 'preventsDisplaySleepDuringVideoPlayback': false};
             var12 = {};
             var14 = _closure1_slot1;
             var13 = 22;

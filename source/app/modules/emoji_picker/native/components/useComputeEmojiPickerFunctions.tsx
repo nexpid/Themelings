@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -208,14 +208,14 @@ case 0:
             var5 = undefined;
             var4 = undefined;
             var3 = undefined;
-            if(var2) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var2) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var27 = var8.value;
             var25 = var27.type;
             var2 = _closure1_slot6;
             var2 = var2.TOP_GUILD_EMOJI;
-            if(!(var2 !== var25)) { _fun0004_ip = 39; continue _fun0004 }
-case 13:
+            if(!(var2 !== var25)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var2 = _closure1_slot6;
             var2 = var2.FAVORITES;
             if(!(var2 !== var25)) { _fun0004_ip = 40; continue _fun0004 }
@@ -254,10 +254,10 @@ case 49:
             var29 = var29.EMOJI;
             var28['type'] = var29;
             var29 = var25;
-            if(!(var11 == var25)) { _fun0004_ip = 12; continue _fun0004 }
-case 50:
+            if(!(var11 == var25)) { _fun0004_ip = 50; continue _fun0004 }
+case 24:
             var29 = new Array(0);
-case 12:
+case 50:
             var28['emojis'] = var29;
             var29 = var12.Set;
             var30 = var29.prototype;
@@ -474,7 +474,7 @@ case 40:
             var21 = var4;
             var20 = var3;
             _fun0004_ip = 46; continue _fun0004;
-case 39:
+case 38:
             var25 = var27.emojis;
             var2 = var25.slice;
             var28 = var2.bind(var25)(var14, var19);
@@ -510,8 +510,8 @@ case 46:
             var4 = var21;
             var3 = var20;
             var8 = var25;
-            if(!var2) { _fun0004_ip = 38; continue _fun0004 }
-case 37:
+            if(!var2) { _fun0004_ip = 37; continue _fun0004 }
+case 36:
             return var1;
         }
     };
@@ -642,13 +642,13 @@ case 70:
             var3 = 0;
             var2 = var3 !== var4;
 case 69:
-            if(!var2) { _fun0006_ip = 7; continue _fun0006 }
+            if(!var2) { _fun0006_ip = 71; continue _fun0006 }
 case 60:
             var3 = var1.emojiSections;
             var2 = var3.push;
             var1 = var1.renderingData;
             var1 = var2.bind(var3)(var1);
-case 7:
+case 71:
             var1 = undefined;
             return var1;
         }

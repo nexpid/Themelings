@@ -1,4 +1,4 @@
-// app/design/components/mana-assets/native/generated/ExperimentalOrbNitroSpotIllustration.native.tsx
+// app/design/components/mana-assets/native/generated/FileUploadSpotIllustration.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -24,9 +24,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/mana-assets/native/generated/ExperimentalOrbNitroSpotIllustration.native.tsx';
+    var4 = 'design/components/mana-assets/native/generated/FileUploadSpotIllustration.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function ExperimentalOrbNitroSpotIllustration(arg1) {
+    var2 = function FileUploadSpotIllustration(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -42,7 +42,7 @@ case 2:
             var8 = var1.height;
             if(!(var8 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = 192;
+            var8 = 162;
 case 4:
             var3 = _closure1_slot2;
             var12 = _closure1_slot0;
@@ -72,6 +72,6 @@ case 4:
             return var1;
         }
     };
-    var3['ExperimentalOrbNitroSpotIllustration'] = var2;
+    var3['FileUploadSpotIllustration'] = var2;
     return var1;
 })();
