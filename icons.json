@@ -12124,6 +12124,16 @@
         "width": 16,
         "height": 16
     },
+    "StatusVROnline": {
+        "file": "app/images/native/status/StatusVROnline.png",
+        "hash": "484cfed02f3a7a5de8e7cfeb0aaf6dc9",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 16,
+        "height": 16
+    },
     "sticker": {
         "file": "app/images/native/premium/guild_boosting/perks/sticker.png",
         "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
@@ -12874,7 +12884,7 @@
     },
     "UserPlatformIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/UserPlatformIcon.png",
-        "hash": "be43e21cf5c02d4b0049f88c4c28b27d",
+        "hash": "021d4551cb2e4d8e923e934b6403ea10",
         "scales": [
             2,
             3
