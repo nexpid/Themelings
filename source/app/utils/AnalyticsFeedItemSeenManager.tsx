@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -244,13 +244,13 @@ case 0:
                 var3 = var3[var1];
                 var4 = null;
                 var1 = var4 == var3;
-                if(var1) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                if(var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var3 = var3.endTimeMillis;
                 var1 = var4 != var3;
-case 36:
-                if(!var1) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+case 37:
+                if(!var1) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var4 = var2.seenIntervals;
                 var3 = var4.push;
                 var2 = {};
@@ -258,7 +258,7 @@ case 39:
                 var2['startTimeMillis'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1 = true;
-case 38:
+case 39:
                 return var1;
             }
         };
@@ -280,17 +280,17 @@ case 0:
                 var3 = var2[var1];
                 var4 = null;
                 var1 = var4 != var3;
-                if(!var1) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!var1) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var2 = var3.endTimeMillis;
                 var1 = var4 == var2;
-case 36:
-                if(!var1) { _fun0005_ip = 40; continue _fun0005 }
-case 39:
+case 37:
+                if(!var1) { _fun0005_ip = 41; continue _fun0005 }
+case 40:
                 var2 = arg1;
                 var3['endTimeMillis'] = var2;
                 var1 = true;
-case 40:
+case 41:
                 return var1;
             }
         };
@@ -312,17 +312,17 @@ case 0:
                 var3 = null;
                 var5 = var3 == var4;
                 var1 = undefined;
-                if(var5) { _fun0006_ip = 41; continue _fun0006 }
+                if(var5) { _fun0006_ip = 5; continue _fun0006 }
 case 42:
                 var1 = var4.startTimeMillis;
-case 41:
+case 5:
                 var1 = var3 != var1;
                 if(!var1) { _fun0006_ip = 43; continue _fun0006 }
-case 4:
+case 36:
                 var5 = var3 == var4;
                 var2 = undefined;
                 if(var5) { _fun0006_ip = 35; continue _fun0006 }
-case 40:
+case 41:
                 var2 = var4.endTimeMillis;
 case 35:
                 var1 = var3 == var2;
@@ -352,25 +352,25 @@ case 0:
                 var9 = var7;
                 var7 = 0;
                 var3 = 0;
-                if(var6) { _fun0007_ip = 44; continue _fun0007 }
+                if(var6) { _fun0007_ip = 16; continue _fun0007 }
 case 28:
                 var6 = var9.value;
                 var13 = var6.endTimeMillis;
-                if(!(var10 != var13)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+                if(!(var10 != var13)) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
                 var14 = var6.endTimeMillis;
                 var13 = var6.startTimeMillis;
                 var13 = var14 - var13;
                 var13 = var7 + var13;
-                _fun0007_ip = 47; continue _fun0007;
-case 45:
-                if(var12) { _fun0007_ip = 48; continue _fun0007 }
-case 11:
+                _fun0007_ip = 15; continue _fun0007;
+case 44:
+                if(var12) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
                 var14 = var2.push;
                 var14 = var14.bind(var2)(var6);
                 var13 = var7;
-                _fun0007_ip = 47; continue _fun0007;
-case 48:
+                _fun0007_ip = 15; continue _fun0007;
+case 46:
                 var15 = var1.Date;
                 var14 = var15.now;
                 var16 = var14.bind(var15)();
@@ -381,14 +381,14 @@ case 48:
                 var14 = {};
                 var14['startTimeMillis'] = var16;
                 var14 = var15.bind(var2)(var14);
-case 47:
+case 15:
                 var14 = var11.bind(var8)();
                 var6 = var14.done;
                 var7 = var13;
                 var9 = var14;
                 var3 = var7;
                 if(!var6) { _fun0007_ip = 28; continue _fun0007 }
-case 44:
+case 16:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var5 = 3;
@@ -469,12 +469,12 @@ case 0:
                         var4 = var6.bind(var7)(var4, var5);
                         var4 = var3.onInitialize;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+                        if(!(var3 != var4)) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 49:
+case 48:
                         return var1;
                     }
                 };
@@ -519,12 +519,12 @@ case 0:
                         var5 = var7.bind(var8)(var5, var6);
                         var6 = var4.onTerminate;
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0010_ip = 49; continue _fun0010 }
-case 50:
+                        if(!(var4 != var6)) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                         var5 = var6.call;
                         var4 = _closure3_slot0;
                         var4 = var5.bind(var6)(var4);
-case 49:
+case 48:
                         var4 = _closure3_slot0;
                         var3 = var4.maybeFlushSeenItems;
                         var2 = _closure1_slot5;
@@ -542,12 +542,12 @@ case 0:
                         var3 = var1.force;
                         var2 = _closure3_slot0;
                         var2 = var2._id;
-                        if(!(var2 === var4)) { _fun0011_ip = 2; continue _fun0011 }
+                        if(!(var2 === var4)) { _fun0011_ip = 50; continue _fun0011 }
 case 51:
                         var2 = _closure3_slot0;
                         var1 = var2.maybeFlushSeenItems;
                         var1 = var1.bind(var2)(var3);
-case 2:
+case 50:
                         var1 = undefined;
                         return var1;
                     }
@@ -567,8 +567,8 @@ case 53:
                         var1 = _closure3_slot0;
                         var4 = var1._paused;
                         var1 = _closure3_slot0;
-                        if(var4) { _fun0012_ip = 13; continue _fun0012 }
-case 54:
+                        if(var4) { _fun0012_ip = 54; continue _fun0012 }
+case 4:
                         var4 = var1.getTrackedFeedItem;
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.maybeMarkSeen;
@@ -581,7 +581,7 @@ case 55:
                         var2 = _closure3_slot0;
                         var2 = var4.bind(var5)(var2, var3, var6);
                         _fun0012_ip = 52; continue _fun0012;
-case 13:
+case 54:
                         var2 = var1._pausedFeedItemIds;
                         var1 = var2.add;
                         var1 = var1.bind(var2)(var3);
@@ -605,7 +605,7 @@ case 53:
                         var2 = _closure3_slot0;
                         var2 = var2._paused;
                         if(!var2) { _fun0013_ip = 35; continue _fun0013 }
-case 36:
+case 37:
                         var2 = _closure3_slot0;
                         var3 = var2._pausedFeedItemIds;
                         var2 = var3.delete;
@@ -716,15 +716,15 @@ case 64:
 case 63:
                         var1 = 'background';
                         if(!(var1 === var2)) { _fun0016_ip = 65; continue _fun0016 }
-case 66:
+case 7:
                         var2 = _closure3_slot0;
                         var2 = var2._isReactNavigationFocused;
-                        if(!var2) { _fun0016_ip = 67; continue _fun0016 }
-case 68:
+                        if(!var2) { _fun0016_ip = 66; continue _fun0016 }
+case 67:
                         var3 = _closure3_slot0;
                         var2 = var3.pause;
                         var2 = var2.bind(var3)();
-case 67:
+case 66:
                         var3 = _closure3_slot0;
                         var2 = var3.maybeFlushSeenItems;
                         var1 = _closure1_slot5;
@@ -757,8 +757,8 @@ case 65:
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2._paused;
-                        if(var2) { _fun0017_ip = 69; continue _fun0017 }
-case 70:
+                        if(var2) { _fun0017_ip = 68; continue _fun0017 }
+case 69:
                         var2 = _closure3_slot0;
                         var1 = var2.getVisibleFeedItemIds;
                         var1 = var1.bind(var2)();
@@ -786,7 +786,7 @@ case 70:
                         var3 = true;
                         var2['_paused'] = var3;
                         var2['_pausedFeedItemIds'] = var1;
-case 69:
+case 68:
                         var1 = undefined;
                         return var1;
                     }
@@ -797,8 +797,8 @@ case 69:
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2._paused;
-                        if(!var2) { _fun0018_ip = 69; continue _fun0018 }
-case 70:
+                        if(!var2) { _fun0018_ip = 68; continue _fun0018 }
+case 69:
                         var2 = _closure3_slot0;
                         var1 = false;
                         var2['_paused'] = var1;
@@ -826,7 +826,7 @@ case 70:
                         var1 = var3.bind(var4)(var1);
                         var1 = var2.clearPausedFeedItemIds;
                         var1 = var1.bind(var2)();
-case 69:
+case 68:
                         var1 = undefined;
                         return var1;
                     }
@@ -841,14 +841,14 @@ case 0:
                         var1 = var1._isReactNavigationFocused;
                         var2 = _closure3_slot0;
                         if(var1) { _fun0019_ip = 60; continue _fun0019 }
-case 71:
+case 70:
                         var1 = var2.pause;
                         var1 = var1.bind(var2)();
-                        _fun0019_ip = 72; continue _fun0019;
+                        _fun0019_ip = 71; continue _fun0019;
 case 60:
                         var1 = var2.resume;
                         var1 = var1.bind(var2)();
-case 72:
+case 71:
                         var1 = undefined;
                         return var1;
                     }
@@ -861,19 +861,19 @@ case 0:
                         var3 = _closure3_slot0;
                         var4 = var3._windowId;
                         var3 = var1.windowId;
-                        if(!(var4 === var3)) { _fun0020_ip = 7; continue _fun0020 }
+                        if(!(var4 === var3)) { _fun0020_ip = 72; continue _fun0020 }
 case 59:
                         var1 = var1.focused;
                         var2 = _closure3_slot0;
-                        if(var1) { _fun0020_ip = 72; continue _fun0020 }
+                        if(var1) { _fun0020_ip = 71; continue _fun0020 }
 case 73:
                         var1 = var2.pause;
                         var1 = var1.bind(var2)();
-                        _fun0020_ip = 7; continue _fun0020;
-case 72:
+                        _fun0020_ip = 72; continue _fun0020;
+case 71:
                         var1 = var2.resume;
                         var1 = var1.bind(var2)();
-case 7:
+case 72:
                         var1 = undefined;
                         return var1;
                     }
@@ -894,7 +894,7 @@ case 7:
                 var4 = null;
                 var4 = var4 != var5;
                 if(!var4) { _fun0008_ip = 74; continue _fun0008 }
-case 10:
+case 75:
                 var4 = var5;
 case 74:
                 var3['_paused'] = var4;
@@ -917,7 +917,7 @@ case 0:
                 var6 = arg1;
                 var8 = this;
                 var7 = null;
-                if(!(var7 == var6)) { _fun0021_ip = 54; continue _fun0021 }
+                if(!(var7 == var6)) { _fun0021_ip = 4; continue _fun0021 }
 case 32:
                 var1 = global;
                 var3 = var1.Date;
@@ -926,12 +926,12 @@ case 32:
                 var2 = var8._lastFlushTimeMillis;
                 var3 = var3 - var2;
                 var2 = 60000;
-                if(!(!(var3 < var2))) { _fun0021_ip = 75; continue _fun0021 }
-case 54:
+                if(!(!(var3 < var2))) { _fun0021_ip = 76; continue _fun0021 }
+case 4:
                 var2 = _closure1_slot5;
                 var2 = var2.IMMEDIATE_WITH_COOLDOWN;
-                if(!(var6 === var2)) { _fun0021_ip = 48; continue _fun0021 }
-case 46:
+                if(!(var6 === var2)) { _fun0021_ip = 46; continue _fun0021 }
+case 45:
                 var2 = global;
                 var9 = var2.Date;
                 var5 = var9.now;
@@ -939,13 +939,13 @@ case 46:
                 var5 = var8._lastFlushTimeMillis;
                 var9 = var9 - var5;
                 var5 = 3000;
-                if(!(!(var9 < var5))) { _fun0021_ip = 76; continue _fun0021 }
-case 48:
+                if(!(!(var9 < var5))) { _fun0021_ip = 77; continue _fun0021 }
+case 46:
                 var5 = var8.createFlushSeenItemsFunction;
                 var5 = var5.bind(var8)(var6);
                 var _closure3_slot0 = var5;
-                if(!(var7 != var5)) { _fun0021_ip = 77; continue _fun0021 }
-case 78:
+                if(!(var7 != var5)) { _fun0021_ip = 78; continue _fun0021 }
+case 79:
                 var5 = global;
                 var9 = var5.Date;
                 var7 = var9.now;
@@ -953,12 +953,12 @@ case 78:
                 var8['_lastFlushTimeMillis'] = var7;
                 var7 = _closure1_slot5;
                 var7 = var7.IMMEDIATE;
-                if(!(var6 !== var7)) { _fun0021_ip = 79; continue _fun0021 }
-case 80:
+                if(!(var6 !== var7)) { _fun0021_ip = 80; continue _fun0021 }
+case 81:
                 var3 = _closure1_slot5;
                 var3 = var3.IMMEDIATE_WITH_COOLDOWN;
-                if(!(var6 !== var3)) { _fun0021_ip = 79; continue _fun0021 }
-case 81:
+                if(!(var6 !== var3)) { _fun0021_ip = 80; continue _fun0021 }
+case 82:
                 var7 = var5.Promise;
                 var3 = var7.prototype;
                 var6 = Object.create(var3, {constructor: {value: var7}});
@@ -975,24 +975,24 @@ case 81:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0022_ip = 82; continue _fun0022 }
-case 83:
+                                if(var2) { _fun0022_ip = 83; continue _fun0022 }
+case 84:
                                 var2 = _closure3_slot0;
                                 var3 = undefined;
                                 var2 = var2.bind(var3)();
                                 SaveGenerator(address=24);
-case 84:
-                                return var2;
 case 85:
+                                return var2;
+case 86:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(var4) { _fun0022_ip = 86; continue _fun0022 }
+                                if(var4) { _fun0022_ip = 87; continue _fun0022 }
 case 3:
                                 var4 = _closure4_slot0;
                                 var4 = var4.bind(var3)();
                                 return var3;
-case 86:
+case 87:
                                 return var2;
-case 82:
+case 83:
                                 return var1;
                             }
                         };
@@ -1006,8 +1006,8 @@ case 82:
                 var11 = var6;
                 var3 = new var11[var7](var10, var9);
                 var3 = var3 instanceof Object ? var3 : var6;
-                _fun0021_ip = 87; continue _fun0021;
-case 79:
+                _fun0021_ip = 88; continue _fun0021;
+case 80:
                 var6 = var5.Promise;
                 var5 = function() {
                     var4 = _closure1_slot2;
@@ -1018,24 +1018,24 @@ case 79:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0023_ip = 88; continue _fun0023 }
-case 83:
+                                if(var2) { _fun0023_ip = 89; continue _fun0023 }
+case 84:
                                 var2 = _closure3_slot0;
                                 var3 = undefined;
                                 var2 = var2.bind(var3)();
                                 SaveGenerator(address=24);
-case 84:
-                                return var2;
 case 85:
+                                return var2;
+case 86:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(var4) { _fun0023_ip = 37; continue _fun0023 }
+                                if(var4) { _fun0023_ip = 38; continue _fun0023 }
 case 3:
                                 var4 = arg1;
                                 var4 = var4.bind(var3)();
                                 return var3;
-case 37:
+case 38:
                                 return var2;
-case 88:
+case 89:
                                 return var1;
                             }
                         };
@@ -1062,21 +1062,21 @@ case 88:
                 var11 = var5;
                 var4 = new var11[var6](var10, var9);
                 var3 = var4 instanceof Object ? var4 : var5;
-case 87:
-                _fun0021_ip = 89; continue _fun0021;
-case 77:
+case 88:
+                _fun0021_ip = 90; continue _fun0021;
+case 78:
                 var4 = global;
                 var5 = var4.Promise;
                 var4 = var5.resolve;
                 var3 = var4.bind(var5)();
-case 89:
+case 90:
                 return var3;
-case 76:
+case 77:
                 var3 = var2.Promise;
                 var2 = var3.resolve;
                 var2 = var2.bind(var3)();
                 return var2;
-case 75:
+case 76:
                 var2 = var1.Promise;
                 var1 = var2.resolve;
                 var1 = var1.bind(var2)();

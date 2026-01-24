@@ -1900,21 +1900,22 @@ case 0:
 case 51:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var10 = 50;
-                    var2 = var9[var10];
+                    var2 = 50;
+                    var2 = var9[var2];
                     var7 = undefined;
                     var6 = var8.bind(var7)(var2);
                     var5 = var6.trackQuestContentClicked;
                     var4 = {};
                     var2 = _closure2_slot1;
-                    var11 = var2.id;
-                    var4['questId'] = var11;
-                    var11 = 51;
-                    var11 = var9[var11];
-                    var11 = var8.bind(var7)(var11);
-                    var11 = var11.QuestContent;
-                    var11 = var11.VIDEO_MODAL_MOBILE;
-                    var4['questContent'] = var11;
+                    var10 = var2.id;
+                    var4['questId'] = var10;
+                    var10 = 51;
+                    var10 = var9[var10];
+                    var10 = var8.bind(var7)(var10);
+                    var10 = var10.QuestContent;
+                    var10 = var10.VIDEO_MODAL_MOBILE;
+                    var4['questContent'] = var10;
+                    var10 = 52;
                     var10 = var9[var10];
                     var10 = var8.bind(var7)(var10);
                     var10 = var10.QuestContentCTA;
@@ -1928,7 +1929,7 @@ case 51:
                     var4 = _closure2_slot4;
                     var3 = true;
                     var3 = var4.bind(var7)(var3);
-                    var3 = 52;
+                    var3 = 53;
                     var3 = var9[var3];
                     var6 = var8.bind(var7)(var3);
                     var5 = var6.showShareActionSheet;
@@ -1945,14 +1946,7 @@ case 51:
                     var2 = var2.HermesInternal;
                     var3 = var2.concat;
                     var2 = 'Video Quest Modal - ';
-                    var15 = var3.bind(var2)(var8);
-                    var13 = function() {
-                        var3 = _closure2_slot4;
-                        var1 = undefined;
-                        var2 = false;
-                        var2 = var3.bind(var1)(var2);
-                        return var1;
-                    };
+                    var14 = var3.bind(var2)(var8);
                     var12 = function() {
                         var3 = _closure2_slot4;
                         var1 = undefined;
@@ -1960,17 +1954,24 @@ case 51:
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var17 = var6;
-                    var16 = var4;
-                    var14 = undefined;
-                    var1 = var17[var5](var16, var15, var14, var13, var12, var11);
+                    var11 = function() {
+                        var3 = _closure2_slot4;
+                        var1 = undefined;
+                        var2 = false;
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
+                    };
+                    var16 = var6;
+                    var15 = var4;
+                    var13 = undefined;
+                    var1 = var16[var5](var15, var14, var13, var12, var11, var10);
 case 50:
                     var1 = undefined;
                     return var1;
                 }
             };
             var17 = var17.bind(var18)(var3, var10);
-            var3 = 53;
+            var3 = 54;
             var3 = var23[var3];
             var19 = var6.bind(var4)(var3);
             var10 = var19.useVideoQuestClickCtaAndMaybeCloseModal;
@@ -1987,7 +1988,7 @@ case 50:
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 54;
+                var1 = 55;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -2000,7 +2001,7 @@ case 50:
                 return var1;
             };
             var18 = var10.bind(var18)(var2, var3);
-            var2 = 55;
+            var2 = 56;
             var2 = var23[var2];
             var10 = var6.bind(var4)(var2);
             var3 = var10.useVideoExternallyPaused;
@@ -2009,7 +2010,7 @@ case 50:
             var2 = var22.config;
             var2 = var2.taskConfigV2;
             var3 = var2.tasks;
-            var2 = 56;
+            var2 = 57;
             var2 = var23[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.FirstPartyQuestTaskTypes;
@@ -2021,7 +2022,7 @@ case 50:
 case 53:
             var23 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var3 = 57;
+            var3 = 58;
             var3 = var25[var3];
             var23 = var23.bind(var4)(var3);
             var3 = var23.getVideoOrientation;
@@ -2062,7 +2063,7 @@ case 56:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 58;
+    var4 = 59;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

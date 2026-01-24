@@ -388,6 +388,6 @@ case 15:
         return var1;
     };
     var3['default'] = var4;
-    var3['EmojiPickerFlashListItemType'] = var2;
+    var3['EmojiPickerItemType'] = var2;
     return var1;
 })();

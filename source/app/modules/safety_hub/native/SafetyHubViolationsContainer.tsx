@@ -957,7 +957,7 @@ case 33:
     var14 = var7[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_PRIMARY_BACKGROUND;
+    var14 = var14.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
     var10['borderColor'] = var14;
     var5['detailContainerOuterNew'] = var10;
     var10 = {};
@@ -1017,7 +1017,7 @@ case 33:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.REDESIGN_BUTTON_PRIMARY_TEXT;
+    var13 = var13.CONTROL_PRIMARY_TEXT_DEFAULT;
     var10['color'] = var13;
     var5['incidentDateNew'] = var10;
     var10 = {};

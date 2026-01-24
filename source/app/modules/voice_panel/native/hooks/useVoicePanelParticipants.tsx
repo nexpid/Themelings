@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -199,12 +199,12 @@ case 0:
             var1 = var5.get;
             var1 = var1.bind(var5)(var4);
             var3 = null;
-            if(!(var3 == var1)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(!(var3 == var1)) { _fun0004_ip = 37; continue _fun0004 }
+case 7:
             var3 = var5.set;
             var3 = var3.bind(var5)(var4, var2);
             var1 = var2;
-case 36:
+case 37:
             return var1;
         }
     };
@@ -289,11 +289,11 @@ case 0:
             var5 = var2 == var6;
             var7 = undefined;
             var1 = undefined;
-            if(var5) { _fun0005_ip = 36; continue _fun0005 }
+            if(var5) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
             var5 = var6.isDM;
             var1 = var5.bind(var6)();
-case 36:
+case 37:
             var10 = var2 != var1;
             if(!var10) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
@@ -666,7 +666,7 @@ case 72:
                 var9 = var7.start;
                 var7 = var7.end;
                 if(!(var9 <= var7)) { _fun0007_ip = 48; continue _fun0007 }
-case 9:
+case 74:
                 var11 = _closure2_slot3;
                 var7 = var11.getChunk;
                 var13 = var7.bind(var11)(var9);
@@ -685,7 +685,7 @@ case 9:
                 var9 = var9 + 1;
                 var7 = _closure2_slot1;
                 var7 = var7.end;
-                if(var9 <= var7) { _fun0007_ip = 9; continue _fun0007 }
+                if(var9 <= var7) { _fun0007_ip = 74; continue _fun0007 }
 case 48:
                 var7 = var8.prototype;
                 var7 = Object.create(var7, {constructor: {value: var8}});
@@ -697,8 +697,8 @@ case 48:
                 var7 = var6.bind(var8)(var5);
                 var6 = var7.bind(var8)();
                 var5 = var6.done;
-                if(var5) { _fun0007_ip = 74; continue _fun0007 }
-case 75:
+                if(var5) { _fun0007_ip = 75; continue _fun0007 }
+case 76:
                 var11 = var6.value;
                 var9 = var1.push;
                 var10 = _closure1_slot17;
@@ -708,19 +708,19 @@ case 75:
                 var9 = var7.bind(var8)();
                 var5 = var9.done;
                 var6 = var9;
-                if(!var5) { _fun0007_ip = 75; continue _fun0007 }
-case 74:
+                if(!var5) { _fun0007_ip = 76; continue _fun0007 }
+case 75:
                 var7 = _closure1_slot5;
                 var6 = var7.getVoiceParticipantsHidden;
                 var5 = _closure2_slot0;
                 var5 = var6.bind(var7)(var5);
-                if(!var5) { _fun0007_ip = 76; continue _fun0007 }
-case 77:
+                if(!var5) { _fun0007_ip = 77; continue _fun0007 }
+case 78:
                 var6 = var1.length;
                 var5 = var4 === var6;
-case 76:
-                if(!var5) { _fun0007_ip = 78; continue _fun0007 }
-case 79:
+case 77:
+                if(!var5) { _fun0007_ip = 79; continue _fun0007 }
+case 80:
                 var5 = var1.push;
                 var7 = _closure1_slot17;
                 var6 = {};
@@ -733,12 +733,12 @@ case 79:
                 var3 = _closure2_slot5;
                 var3 = var7.bind(var8)(var6, var3);
                 var3 = var5.bind(var1)(var3);
-case 78:
+case 79:
                 var3 = var1.length;
-                if(!(!(var3 > var4))) { _fun0007_ip = 80; continue _fun0007 }
-case 81:
+                if(!(!(var3 > var4))) { _fun0007_ip = 81; continue _fun0007 }
+case 82:
                 var1 = _closure1_slot14;
-case 80:
+case 81:
                 return var1;
 case 70:
                 var1 = _closure1_slot14;

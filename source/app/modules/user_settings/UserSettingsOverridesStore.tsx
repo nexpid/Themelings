@@ -211,11 +211,11 @@ case 37:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0004_ip = 3; continue _fun0004 }
-case 8:
+case 39:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0004_ip = 8; continue _fun0004 }
+            if(var3 < var2) { _fun0004_ip = 39; continue _fun0004 }
 case 3:
             return var1;
         }
@@ -231,41 +231,41 @@ case 0:
             var4 = null;
             var7 = var4 == var6;
             var3 = undefined;
-            if(var7) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(var7) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var6 = var6.gifAutoPlay;
             var7 = var4 == var6;
             var3 = undefined;
-            if(var7) { _fun0005_ip = 39; continue _fun0005 }
-case 41:
+            if(var7) { _fun0005_ip = 40; continue _fun0005 }
+case 42:
             var3 = var6.value;
-case 39:
+case 40:
             var1['gifAutoPlay'] = var3;
             var6 = var2.textAndImages;
             var7 = var4 == var6;
             var3 = undefined;
-            if(var7) { _fun0005_ip = 42; continue _fun0005 }
+            if(var7) { _fun0005_ip = 43; continue _fun0005 }
 case 5:
             var6 = var6.animateEmoji;
             var7 = var4 == var6;
             var3 = undefined;
-            if(var7) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(var7) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var3 = var6.value;
-case 42:
+case 43:
             var1['animateEmoji'] = var3;
             var3 = var2.textAndImages;
             var6 = var4 == var3;
             var2 = undefined;
-            if(var6) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(var6) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var3 = var3.animateStickers;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0005_ip = 44; continue _fun0005 }
-case 46:
+            if(var4) { _fun0005_ip = 45; continue _fun0005 }
+case 47:
             var2 = var3.value;
-case 44:
+case 45:
             var1['animateStickers'] = var2;
             return var1;
         }
@@ -336,14 +336,14 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                if(var1) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0006_ip = 49; continue _fun0006;
-case 47:
+                _fun0006_ip = 50; continue _fun0006;
+case 48:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -352,7 +352,7 @@ case 47:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 49:
+case 50:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -373,7 +373,7 @@ case 0:
                 var4 = this;
                 var1 = null;
                 if(!(var1 == var2)) { _fun0007_ip = 36; continue _fun0007 }
-case 50:
+case 51:
                 var2 = {};
 case 36:
                 _closure1_slot8 = var2;
@@ -411,10 +411,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                if(var3) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
                 var1 = var2.reasonKey;
-case 51:
+case 52:
                 return var1;
             }
         };
@@ -453,10 +453,10 @@ case 0:
             var4 = 'UserSettingsStoreOverrides';
             var1 = var1.bind(var3)(var4);
             var3 = null;
-            if(!(var3 == var1)) { _fun0009_ip = 8; continue _fun0009 }
-case 53:
+            if(!(var3 == var1)) { _fun0009_ip = 39; continue _fun0009 }
+case 54:
             var1 = {};
-case 8:
+case 39:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -486,19 +486,19 @@ case 0:
 case 38:
             {
                 var1 = var2;
-case 54:
+case 55:
                 var12 = var4;
                 var13 = var9[var12];
                 var11 = _closure1_slot9;
                 var11 = var11[var12];
                 if(var13 === var11) { _fun0010_ip = 38; continue _fun0010 }
-case 55:
+case 56:
                 var11 = _closure1_slot8;
                 var11 = delete var11[var12];
                 var2 = true;
                 _fun0010_ip = 38; continue _fun0010;
             }
-case 56:
+case 57:
             return var1;
         }
     };
@@ -528,16 +528,16 @@ case 0:
             var4 = var3.bind(var1)(var2);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+            if(var2) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
             var6 = var3.value;
             var2 = _closure1_slot8;
             var2 = delete var2[var6];
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0011_ip = 58; continue _fun0011 }
-case 57:
+            if(!var2) { _fun0011_ip = 59; continue _fun0011 }
+case 58:
             return var1;
         }
     };

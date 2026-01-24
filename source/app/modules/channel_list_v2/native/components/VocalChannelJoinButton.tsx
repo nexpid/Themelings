@@ -86,7 +86,7 @@ case 0:
             var4 = var4[var6];
             var4 = var7.bind(var5)(var4);
             var4 = var4.colors;
-            var4 = var4.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+            var4 = var4.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             var2['backgroundColor'] = var4;
             var4 = 28;
             var2['minHeight'] = var4;

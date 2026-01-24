@@ -169,11 +169,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -205,12 +205,12 @@ case 0:
             var3 = _closure1_slot0;
             var1 = var3.isSpam;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var3 = _closure1_slot0;
             var2 = var3.isIgnored;
             var1 = var2.bind(var3)(var4);
-case 36:
+case 37:
             return var1;
         }
     };
@@ -236,64 +236,64 @@ case 0:
             var7 = var6.bind(var8)(var1);
             var6 = var7.bind(var8)();
             var1 = var6.done;
-            if(var1) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(var1) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var11 = var6.value;
             var1 = var10.get;
             var12 = var1.bind(var10)(var11);
             var1 = _closure1_slot1;
             var1 = var1.PENDING_INCOMING;
             var1 = var12 !== var1;
-            if(var1) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(var1) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var13 = _closure1_slot2;
             var1 = var13.bind(var8)(var11);
-case 40:
-            if(var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+case 41:
+            if(var1) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var1 = var5.push;
             var1 = var1.bind(var5)(var11);
-case 42:
+case 43:
             var1 = _closure1_slot1;
             var1 = var1.PENDING_OUTGOING;
-            if(!(var12 === var1)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+            if(!(var12 === var1)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var1 = var4.push;
             var1 = var1.bind(var4)(var11);
-case 44:
+case 45:
             var1 = _closure1_slot1;
             var1 = var1.PENDING_INCOMING;
             var1 = var12 === var1;
-            if(!var1) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(!var1) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
             var14 = _closure1_slot0;
             var13 = var14.isSpam;
             var1 = var13.bind(var14)(var11);
-case 46:
-            if(!var1) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+case 47:
+            if(!var1) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
             var1 = var3.push;
             var1 = var1.bind(var3)(var11);
-case 48:
+case 49:
             var1 = _closure1_slot1;
             var1 = var1.PENDING_INCOMING;
             var1 = var12 === var1;
-            if(!var1) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!var1) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var13 = _closure1_slot0;
             var12 = var13.isIgnored;
             var1 = var12.bind(var13)(var11);
-case 50:
-            if(!var1) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+case 51:
+            if(!var1) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
             var1 = var2.push;
             var1 = var1.bind(var2)(var11);
-case 52:
+case 53:
             var11 = var7.bind(var8)();
             var1 = var11.done;
             var6 = var11;
-            if(!var1) { _fun0005_ip = 39; continue _fun0005 }
-case 38:
+            if(!var1) { _fun0005_ip = 40; continue _fun0005 }
+case 39:
             var1 = var5.reverse;
             var1 = var1.bind(var5)();
             var1 = var4.reverse;

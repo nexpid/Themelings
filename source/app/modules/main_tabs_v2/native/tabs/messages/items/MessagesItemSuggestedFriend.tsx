@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7[var11];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+    var12 = var12.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var12;
     var12 = var7[var11];
     var12 = var13.bind(var1)(var12);

@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -259,30 +259,30 @@ case 0:
                 var3 = var5.bind(var6)();
                 var2 = var3.done;
                 var4 = null;
-                if(var2) { _fun0004_ip = 14; continue _fun0004 }
-case 36:
+                if(var2) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var2 = var3.value;
                 var2 = var7[var2];
-                if(!(var4 == var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                if(!(var4 == var2)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var2 = {};
-case 37:
+case 39:
                 var10 = var2;
                 for(var2 in var10)
-case 39:
+case 41:
                 {
-case 40:
+case 42:
                     var13 = var2;
                     var12 = var1.push;
                     var12 = var12.bind(var1)(var13);
-                    _fun0004_ip = 39; continue _fun0004;
+                    _fun0004_ip = 41; continue _fun0004;
                 }
-case 41:
+case 43:
                 var8 = var5.bind(var6)();
                 var2 = var8.done;
                 var3 = var8;
-                if(!var2) { _fun0004_ip = 36; continue _fun0004 }
-case 14:
+                if(!var2) { _fun0004_ip = 38; continue _fun0004 }
+case 37:
                 return var1;
             }
         };

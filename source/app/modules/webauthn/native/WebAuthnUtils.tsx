@@ -271,8 +271,35 @@ case 23:
     };
     var9 = 'hasAndroidPasskeySupport';
     Object.defineProperty(var2, var9, {get: var10, set: var1, enumerable: true});
-    var9 = function getScreens(arg1) {
+    var10 = function get shouldDisplayAndroidFidoSelector() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 7;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(!var1) { _fun0005_ip = 21; continue _fun0005 }
+case 4:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 16;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isMetaQuest;
+            var2 = var2.bind(var3)();
+            var1 = !var2;
+case 21:
+            return var1;
+        }
+    };
+    var9 = 'shouldDisplayAndroidFidoSelector';
+    Object.defineProperty(var2, var9, {get: var10, set: var1, enumerable: true});
+    var9 = function getScreens(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.isModal;
@@ -326,7 +353,7 @@ case 0:
             };
             var2['render'] = var6;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 27; continue _fun0005 }
+            if(!var7) { _fun0006_ip = 27; continue _fun0006 }
 case 28:
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -430,7 +457,7 @@ case 27:
             var6 = var10.bind(var11)(var6);
             var2['title'] = var6;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 29; continue _fun0005 }
+            if(!var7) { _fun0006_ip = 29; continue _fun0006 }
 case 30:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -495,7 +522,7 @@ case 29:
     };
     var2['registerAndroidDevicePasskey'] = var8;
     var7 = function registerPasskey(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
@@ -506,11 +533,11 @@ case 0:
             var5 = var5.bind(var3)(var1);
             var1 = var5.isAndroid;
             var1 = var1.bind(var5)();
-            if(var1) { _fun0006_ip = 31; continue _fun0006 }
+            if(var1) { _fun0007_ip = 31; continue _fun0007 }
 case 32:
             var1 = _closure1_slot8;
             var1 = var1.bind(var3)(var4);
-            _fun0006_ip = 33; continue _fun0006;
+            _fun0007_ip = 33; continue _fun0007;
 case 31:
             var2 = _closure1_slot10;
             var1 = var2.bind(var3)(var4);
@@ -520,7 +547,7 @@ case 33:
     };
     var2['registerPasskey'] = var7;
     var2['registerSecurityKey'] = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

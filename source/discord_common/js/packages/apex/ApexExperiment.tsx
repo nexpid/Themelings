@@ -30,20 +30,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = '../discord_common/js/packages/apex/ApexExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function createApexExperimentCommon(arg1, arg2, arg3) {
+    var2 = function createApexExperimentCommon(arg1, arg2, arg3, arg4) {
         var3 = arg1;
         var4 = arg2;
         var _closure2_slot0 = var4;
         var1 = arg3;
         var _closure2_slot1 = var1;
-        var1 = var3.name;
+        var1 = arg4;
         var _closure2_slot2 = var1;
-        var1 = var3.kind;
+        var1 = var3.name;
         var _closure2_slot3 = var1;
-        var1 = var3.variations;
+        var1 = var3.kind;
         var _closure2_slot4 = var1;
-        var1 = var3.defaultConfig;
+        var1 = var3.variations;
         var _closure2_slot5 = var1;
+        var1 = var3.defaultConfig;
+        var _closure2_slot6 = var1;
         var1 = var4.registerExperiment;
         var1 = var1.bind(var4)(var3);
         var1 = {};
@@ -53,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
                 var10 = arg1;
                 var _closure3_slot0 = var10;
-                var4 = _closure2_slot1;
-                var3 = _closure2_slot3;
+                var4 = _closure2_slot2;
+                var3 = _closure2_slot4;
                 var7 = undefined;
                 var14 = var4.bind(var7)(var3, var10);
                 var _closure3_slot1 = var14;
@@ -72,9 +74,9 @@ case 0:
                 var3 = function() {
                     var5 = _closure2_slot0;
                     var4 = var5.getEvaluationAndAssignment;
-                    var3 = _closure2_slot3;
+                    var3 = _closure2_slot4;
                     var2 = _closure3_slot1;
-                    var1 = _closure2_slot2;
+                    var1 = _closure2_slot3;
                     var1 = var4.bind(var5)(var3, var2, var1);
                     return var1;
                 };
@@ -169,10 +171,10 @@ case 23:
                         var9 = _closure2_slot0;
                         var8 = var9.trackExperimentExposure;
                         var16 = _closure3_slot2;
-                        var15 = _closure2_slot2;
+                        var15 = _closure2_slot3;
                         var3 = _closure3_slot0;
                         var14 = var3.location;
-                        var13 = _closure2_slot3;
+                        var13 = _closure2_slot4;
                         var12 = _closure3_slot4;
                         var11 = _closure3_slot3;
                         var10 = _closure3_slot1;
@@ -186,15 +188,15 @@ case 22:
                 var2 = var6.bind(var7)(var2, var5);
                 if(!(var3 != var4)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-                var2 = _closure2_slot4;
+                var2 = _closure2_slot5;
                 var2 = var2[var4];
                 if(!(var3 == var2)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot6;
 case 26:
                 return var2;
 case 24:
-                var1 = _closure2_slot5;
+                var1 = _closure2_slot6;
                 return var1;
             }
         };
@@ -204,12 +206,12 @@ case 24:
 case 0:
                 var2 = arg1;
                 var3 = _closure2_slot1;
-                var6 = _closure2_slot3;
+                var6 = _closure2_slot4;
                 var7 = undefined;
                 var12 = var3.bind(var7)(var6, var2);
                 var5 = _closure2_slot0;
                 var4 = var5.getEvaluationAndAssignment;
-                var3 = _closure2_slot2;
+                var3 = _closure2_slot3;
                 var5 = var4.bind(var5)(var6, var12, var3);
                 var4 = _closure1_slot2;
                 var3 = 2;
@@ -277,9 +279,9 @@ case 45:
 case 48:
                 var8 = _closure2_slot0;
                 var7 = var8.trackExperimentExposure;
-                var18 = _closure2_slot2;
+                var18 = _closure2_slot3;
                 var17 = var2.location;
-                var16 = _closure2_slot3;
+                var16 = _closure2_slot4;
                 var20 = var8;
                 var19 = var11;
                 var15 = var9;
@@ -289,15 +291,15 @@ case 48:
 case 47:
                 if(!(var3 != var4)) { _fun0003_ip = 49; continue _fun0003 }
 case 50:
-                var2 = _closure2_slot4;
+                var2 = _closure2_slot5;
                 var2 = var2[var4];
                 if(!(var3 == var2)) { _fun0003_ip = 51; continue _fun0003 }
 case 52:
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot6;
 case 51:
                 return var2;
 case 49:
-                var1 = _closure2_slot5;
+                var1 = _closure2_slot6;
                 return var1;
             }
         };

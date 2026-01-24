@@ -166,7 +166,7 @@ case 4:
         var12 = var6[var12];
         var12 = var13.bind(var1)(var12);
         var12 = var12.colors;
-        var12 = var12.REDESIGN_BUTTON_PRIMARY_TEXT;
+        var12 = var12.CONTROL_PRIMARY_TEXT_DEFAULT;
         var11['color'] = var12;
         var7['selectedCustomReactionIcon'] = var11;
         var7 = var9.bind(var10)(var7);

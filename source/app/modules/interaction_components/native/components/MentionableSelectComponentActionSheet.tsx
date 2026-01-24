@@ -302,16 +302,19 @@ case 4:
                     var3 = _closure1_slot8;
                     var2 = var3.getUser;
                     var1 = var1.value;
-                    var10 = var2.bind(var3)(var1);
+                    var11 = var2.bind(var3)(var1);
                     var1 = null;
-                    if(!(var1 != var10)) { _fun0002_ip = 25; continue _fun0002 }
+                    if(!(var1 != var11)) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
                     var4 = _closure1_slot7;
                     var3 = var4.isMobileOnline;
-                    var2 = var10.id;
+                    var2 = var11.id;
+                    var10 = var3.bind(var4)(var2);
+                    var3 = var4.isVROnline;
+                    var2 = var11.id;
                     var9 = var3.bind(var4)(var2);
                     var3 = var4.getStatus;
-                    var2 = var10.id;
+                    var2 = var11.id;
                     var7 = var3.bind(var4)(var2);
                     var4 = _closure1_slot10;
                     var3 = _closure1_slot1;
@@ -320,8 +323,9 @@ case 26:
                     var2 = var2[var8];
                     var3 = var3.bind(var5)(var2);
                     var2 = {};
-                    var2['user'] = var10;
-                    var2['isMobileOnline'] = var9;
+                    var2['user'] = var11;
+                    var2['isMobileOnline'] = var10;
+                    var2['isVROnline'] = var9;
                     var2['status'] = var7;
                     var7 = _closure2_slot2;
                     var10 = var1 != var7;

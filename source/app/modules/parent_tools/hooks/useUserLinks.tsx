@@ -103,16 +103,16 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var6;
+    var _closure1_slot14 = var6;
     var4 = function useActiveLinkUserIds() {
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot14;
         var1 = _closure1_slot11;
         var2 = var1.ACTIVE;
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -148,10 +148,12 @@ case 2:
     var _closure1_slot9 = var7;
     var7 = var5.PENDING_LINK_REQUEST_TIMESTAMP_FORMATTER;
     var _closure1_slot10 = var7;
-    var5 = var5.UserLinkStatus;
-    var _closure1_slot11 = var5;
+    var7 = var5.UserLinkStatus;
+    var _closure1_slot11 = var7;
+    var5 = var5.UserLinkType;
+    var _closure1_slot12 = var5;
     var5 = function useUsersForLinkStatus(arg1) {
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot14;
         var5 = undefined;
         var3 = arg1;
         var3 = var4.bind(var5)(var3);
@@ -189,7 +191,7 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot12 = var5;
+    var _closure1_slot13 = var5;
     var7 = 8;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -200,7 +202,7 @@ case 2:
     var3['useUsersForLinkStatus'] = var5;
     var3['useActiveLinkUserIds'] = var4;
     var4 = function useActiveLinkUsers() {
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot13;
         var1 = _closure1_slot11;
         var2 = var1.ACTIVE;
         var1 = undefined;
@@ -209,7 +211,7 @@ case 2:
     };
     var3['useActiveLinkUsers'] = var4;
     var4 = function() {
-        var2 = _closure1_slot14;
+        var2 = _closure1_slot15;
         var1 = undefined;
         var1 = var2.bind(var1)();
         var2 = var1.length;
@@ -218,8 +220,68 @@ case 2:
         return var1;
     };
     var3['useHasActiveLinks'] = var4;
+    var4 = function useHasActiveParentLinks() {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var6 = var5.bind(var3)(var4);
+        var5 = var6.useStateFromStores;
+        var3 = _closure1_slot5;
+        var4 = new Array(1);
+        var4[0] = var3;
+        var3 = function() {
+            var2 = _closure1_slot5;
+            var1 = var2.getLinkedUsers;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var5 = var5.bind(var6)(var4, var3);
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot3;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.values;
+            var1 = _closure2_slot0;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = null;
+                    var1 = var1 != var2;
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
+                    var4 = var2.link_status;
+                    var3 = _closure1_slot11;
+                    var3 = var3.ACTIVE;
+                    var1 = var4 === var3;
+case 4:
+                    if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var3 = var2.link_type;
+                    var2 = _closure1_slot12;
+                    var2 = var2.PARENT;
+                    var1 = var3 === var2;
+case 5:
+                    return var1;
+                }
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['useHasActiveParentLinks'] = var4;
     var4 = function useUserQRLinkUrl() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -254,22 +316,22 @@ case 0:
             var7 = null;
             var6 = var7 == var4;
             var1 = null;
-            if(var6) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(var6) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var6 = var7 == var2;
             var1 = null;
-            if(var6) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
+            if(var6) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
             var3 = _closure1_slot7;
             var2 = var2.id;
             var1 = var3.bind(var5)(var2, var4);
-case 4:
+case 7:
             return var1;
         }
     };
     var3['useUserQRLinkUrl'] = var4;
     var4 = function useHasMaxConnections() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -278,15 +340,15 @@ case 0:
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var2 = var1.bind(var4)();
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             var1 = var1.bind(var4)();
-            if(var2) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+            if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var2 = _closure1_slot9;
-            _fun0003_ip = 9; continue _fun0003;
-case 7:
+            _fun0004_ip = 12; continue _fun0004;
+case 10:
             var2 = _closure1_slot8;
-case 9:
+case 12:
             var1 = var1.length;
             var1 = var1 >= var2;
             return var1;
@@ -294,7 +356,7 @@ case 9:
     };
     var3['useHasMaxConnections'] = var4;
     var4 = function usePendingRequestCount() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -330,45 +392,45 @@ case 0:
             var1 = null;
             var3 = var1 == var3;
             var1 = 0;
-            if(var3) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+            if(var3) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
             var3 = global;
             var4 = var3.Object;
             var3 = var4.values;
             var4 = var3.bind(var4)(var5);
             var3 = var4.filter;
             var2 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var2 = arg1;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0005_ip = 12; continue _fun0005 }
+                    if(!var1) { _fun0006_ip = 4; continue _fun0006 }
 case 3:
                     var4 = var2.link_status;
                     var3 = _closure1_slot11;
                     var3 = var3.PENDING;
                     var1 = var4 === var3;
-case 12:
-                    if(!var1) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+case 4:
+                    if(!var1) { _fun0006_ip = 15; continue _fun0006 }
+case 6:
                     var3 = _closure2_slot0;
                     var3 = var3.id;
                     var2 = var2.requestor_id;
                     var1 = var3 !== var2;
-case 13:
+case 15:
                     return var1;
                 }
             };
             var2 = var3.bind(var4)(var2);
             var1 = var2.length;
-case 10:
+case 13:
             return var1;
         }
     };
     var3['usePendingRequestCount'] = var4;
     var4 = function useAcceptedRequestsCount() {
-        var2 = _closure1_slot14;
+        var2 = _closure1_slot15;
         var1 = undefined;
         var1 = var2.bind(var1)();
         var1 = var1.length;
@@ -376,7 +438,7 @@ case 10:
     };
     var3['useAcceptedRequestsCount'] = var4;
     var4 = function useActivityWindowTimeStamp(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
@@ -397,25 +459,25 @@ case 0:
             var4 = new Array(1);
             var4[0] = var1;
             var1 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var2 = _closure2_slot1;
                     var1 = null;
                     var2 = var1 == var2;
-                    if(var2) { _fun0007_ip = 12; continue _fun0007 }
-case 15:
+                    if(var2) { _fun0008_ip = 4; continue _fun0008 }
+case 16:
                     var3 = _closure1_slot5;
                     var2 = var3.getRangeStartTimestamp;
                     var1 = var2.bind(var3)();
-case 12:
+case 4:
                     return var1;
                 }
             };
             var8 = var6.bind(var7)(var4, var1);
             var1 = null;
             var4 = var1 == var8;
-            if(var4) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
+            if(var4) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var6 = 7;
@@ -437,13 +499,13 @@ case 17:
                 return var1;
             };
             var1 = var4.bind(var5)(var3, var2, var6);
-case 16:
+case 17:
             return var1;
         }
     };
     var3['useActivityWindowTimeStamp'] = var4;
     var2 = function useLinkTimestampText(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -467,8 +529,8 @@ case 0:
             var7 = var3.bind(var5)(var2, var1);
             var1 = null;
             var2 = var1 != var7;
-            if(!var2) { _fun0008_ip = 18; continue _fun0008 }
-case 19:
+            if(!var2) { _fun0009_ip = 19; continue _fun0009 }
+case 20:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -482,15 +544,15 @@ case 19:
             var2 = _closure1_slot11;
             var7 = var2.PENDING;
             var2 = arg2;
-            if(!(var2 !== var7)) { _fun0008_ip = 20; continue _fun0008 }
-case 21:
-            var2 = _closure1_slot6;
-            _fun0008_ip = 22; continue _fun0008;
-case 20:
-            var2 = _closure1_slot10;
+            if(!(var2 !== var7)) { _fun0009_ip = 21; continue _fun0009 }
 case 22:
+            var2 = _closure1_slot6;
+            _fun0009_ip = 23; continue _fun0009;
+case 21:
+            var2 = _closure1_slot10;
+case 23:
             var1 = var4.bind(var5)(var3, var2);
-case 18:
+case 19:
             return var1;
         }
     };

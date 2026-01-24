@@ -323,7 +323,7 @@ case 12:
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.CONTROL_SECONDARY_BORDER_DEFAULT;
+    var11 = var11.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
     var10['backgroundColor'] = var11;
     var5['newBadge'] = var10;
     var10 = {};

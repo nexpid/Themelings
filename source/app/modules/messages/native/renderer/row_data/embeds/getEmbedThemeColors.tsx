@@ -408,7 +408,7 @@ case 0:
             var6 = var4[var8];
             var6 = var5.bind(var7)(var6);
             var6 = var6.colors;
-            var6 = var6.REDESIGN_BUTTON_POSITIVE_BACKGROUND;
+            var6 = var6.CONTROL_CONNECTED_BACKGROUND_DEFAULT;
             var1['acceptLabelGreenBackgroundColor'] = var6;
             var4 = var4[var8];
             var4 = var5.bind(var7)(var4);

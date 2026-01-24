@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot6;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 15;
+        var1 = 16;
         var1 = var3[var1];
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
@@ -73,7 +73,7 @@ case 4:
             var4 = _closure1_slot6;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var9[var1];
             var3 = undefined;
             var1 = var12.bind(var3)(var1);
@@ -82,14 +82,14 @@ case 4:
             var10 = true;
             var1['arrow'] = var10;
             var13 = _closure1_slot6;
-            var10 = 19;
+            var10 = 20;
             var10 = var9[var10];
             var10 = var12.bind(var3)(var10);
             var11 = var10.XboxNeutralIcon;
             var10 = {};
             var10 = var13.bind(var3)(var11, var10);
             var1['icon'] = var10;
-            var14 = 18;
+            var14 = 19;
             var10 = var9[var14];
             var10 = var12.bind(var3)(var10);
             var11 = var10.intl;
@@ -132,7 +132,7 @@ case 2:
             var4 = _closure1_slot6;
             var13 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var9[var1];
             var3 = undefined;
             var1 = var13.bind(var3)(var1);
@@ -141,14 +141,14 @@ case 2:
             var10 = true;
             var1['arrow'] = var10;
             var12 = _closure1_slot6;
-            var10 = 17;
+            var10 = 18;
             var10 = var9[var10];
             var10 = var13.bind(var3)(var10);
             var11 = var10.PlaystationNeutralIcon;
             var10 = {};
             var10 = var12.bind(var3)(var11, var10);
             var1['icon'] = var10;
-            var11 = 18;
+            var11 = 19;
             var10 = var9[var11];
             var10 = var13.bind(var3)(var10);
             var12 = var10.intl;
@@ -246,7 +246,7 @@ case 8:
     var9 = {'flex': 1, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
     var4['platformButton'] = var9;
     var4 = var7.bind(var8)(var4);
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -369,7 +369,7 @@ case 11:
                 var8 = var8.QuestContent;
                 var8 = var8.QUEST_BOTTOM_SHEET;
                 var3['questContent'] = var8;
-                var8 = 7;
+                var8 = 14;
                 var8 = var6[var8];
                 var8 = var9.bind(var1)(var8);
                 var8 = var8.QuestContentCTA;
@@ -379,7 +379,7 @@ case 11:
                 var3['sourceQuestContent'] = var8;
                 var3 = var7.bind(var1)(var3);
                 var3 = _closure1_slot1;
-                var2 = 14;
+                var2 = 15;
                 var2 = var6[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = {};
@@ -406,7 +406,7 @@ case 10:
                 var8 = var8.QuestContent;
                 var8 = var8.QUEST_BOTTOM_SHEET;
                 var1['questContent'] = var8;
-                var8 = 7;
+                var8 = 14;
                 var8 = var5[var8];
                 var8 = var3.bind(var2)(var8);
                 var8 = var8.QuestContentCTA;

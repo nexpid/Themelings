@@ -111,13 +111,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+    var13 = var13.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var13;
     var9['borderWidth'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.REDESIGN_BUTTON_SECONDARY_BORDER;
+    var12 = var12.CONTROL_SECONDARY_BORDER_DEFAULT;
     var9['borderColor'] = var12;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND;
+    var10 = var10.CONTROL_SECONDARY_BACKGROUND_ACTIVE;
     var9['backgroundColor'] = var10;
     var4['customProfileThemePremiumButtonPressed'] = var9;
     var4 = var7.bind(var8)(var4);

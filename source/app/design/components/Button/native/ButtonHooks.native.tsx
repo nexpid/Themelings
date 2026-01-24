@@ -379,7 +379,7 @@ case 25:
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_PRIMARY_TEXT;
+    var14 = var14.CONTROL_PRIMARY_TEXT_DEFAULT;
     var7['primary'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
@@ -389,7 +389,7 @@ case 25:
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_SECONDARY_TEXT;
+    var14 = var14.CONTROL_SECONDARY_TEXT_DEFAULT;
     var7['secondary'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
@@ -399,28 +399,23 @@ case 25:
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_DESTRUCTIVE_TEXT;
+    var14 = var14.CONTROL_CRITICAL_PRIMARY_TEXT_DEFAULT;
     var7['destructive'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_ACTIVE_TEXT;
+    var14 = var14.CONTROL_CONNECTED_TEXT_DEFAULT;
     var7['active'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_PRIMARY_OVERLAY_TEXT;
+    var14 = var14.CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT;
     var7['primary-overlay'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_SECONDARY_OVERLAY_TEXT;
+    var14 = var14.CONTROL_OVERLAY_SECONDARY_TEXT_DEFAULT;
     var7['secondary-overlay'] = var14;
-    var14 = var12[var10];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_SELECTED_TEXT;
-    var7['deprecated_selected'] = var14;
     var14 = var12[var10];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
@@ -478,18 +473,15 @@ case 38:
             var1 = 'secondary-overlay';
             if(!(var1 !== var2)) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
-            var1 = 'deprecated_selected';
+            var1 = 'experimental_welcome-secondary';
             if(!(var1 !== var2)) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
-            var1 = 'experimental_welcome-secondary';
+            var1 = 'experimental_premium-primary';
             if(!(var1 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
 case 44:
-            var1 = 'experimental_premium-primary';
-            if(!(var1 !== var2)) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
             var1 = undefined;
             return var1;
-case 45:
+case 43:
             var1 = {};
             var3 = _closure1_slot4;
             var1['backgroundInactive'] = var3;
@@ -507,32 +499,11 @@ case 45:
             var2 = _closure1_slot4;
             var1['borderPressed'] = var2;
             return var1;
-case 43:
+case 41:
             var1 = {};
             var3 = _closure1_slot5;
             var1['backgroundInactive'] = var3;
             var3 = _closure1_slot6;
-            var1['backgroundPressed'] = var3;
-            var3 = _closure1_slot4;
-            var1['borderInactive'] = var3;
-            var2 = _closure1_slot4;
-            var1['borderPressed'] = var2;
-            return var1;
-case 41:
-            var1 = {};
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var3 = 4;
-            var7 = var6[var3];
-            var4 = undefined;
-            var7 = var5.bind(var4)(var7);
-            var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_SELECTED_BACKGROUND;
-            var1['backgroundInactive'] = var7;
-            var3 = var6[var3];
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_SELECTED_PRESSED_BACKGROUND;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -548,12 +519,12 @@ case 39:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+            var7 = var7.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_SECONDARY_OVERLAY_PRESSED_BACKGROUND;
+            var3 = var3.CONTROL_OVERLAY_SECONDARY_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -569,12 +540,12 @@ case 36:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND;
+            var7 = var7.CONTROL_OVERLAY_PRIMARY_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_PRIMARY_OVERLAY_PRESSED_BACKGROUND;
+            var3 = var3.CONTROL_OVERLAY_PRIMARY_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -590,12 +561,12 @@ case 34:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_ACTIVE_BACKGROUND;
+            var7 = var7.CONTROL_CONNECTED_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_ACTIVE_PRESSED_BACKGROUND;
+            var3 = var3.CONTROL_CONNECTED_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -611,12 +582,12 @@ case 33:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND;
+            var7 = var7.CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND;
+            var3 = var3.CONTROL_CRITICAL_PRIMARY_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -653,22 +624,22 @@ case 29:
             var3 = undefined;
             var6 = var4.bind(var3)(var6);
             var6 = var6.colors;
-            var6 = var6.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+            var6 = var6.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var6;
             var6 = var5[var2];
             var6 = var4.bind(var3)(var6);
             var6 = var6.colors;
-            var6 = var6.REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND;
+            var6 = var6.CONTROL_SECONDARY_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var6;
             var6 = var5[var2];
             var6 = var4.bind(var3)(var6);
             var6 = var6.colors;
-            var6 = var6.REDESIGN_BUTTON_SECONDARY_BORDER;
+            var6 = var6.CONTROL_SECONDARY_BORDER_DEFAULT;
             var1['borderInactive'] = var6;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
             var2 = var2.colors;
-            var2 = var2.REDESIGN_BUTTON_SECONDARY_PRESSED_BORDER;
+            var2 = var2.CONTROL_SECONDARY_BORDER_ACTIVE;
             var1['borderPressed'] = var2;
             return var1;
 case 27:
@@ -680,12 +651,12 @@ case 27:
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
             var7 = var7.colors;
-            var7 = var7.REDESIGN_BUTTON_PRIMARY_BACKGROUND;
+            var7 = var7.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
             var1['backgroundInactive'] = var7;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND;
+            var3 = var3.CONTROL_PRIMARY_BACKGROUND_ACTIVE;
             var1['backgroundPressed'] = var3;
             var3 = _closure1_slot4;
             var1['borderInactive'] = var3;
@@ -762,13 +733,13 @@ case 0:
                 var2 = var1 == var2;
                 var5 = undefined;
                 var12 = undefined;
-                if(var2) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                if(var2) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var2 = _closure2_slot1;
                 var12 = var2.backgroundColor;
-case 47:
-                if(!(var1 == var12)) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+case 45:
+                if(!(var1 == var12)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var4 = _closure2_slot2;
                 var6 = var4.backgroundInactive;
                 var2 = new Array(2);
@@ -776,17 +747,17 @@ case 50:
                 var4 = var4.backgroundPressed;
                 var2[1] = var4;
                 var12 = var2;
-case 49:
+case 47:
                 var2 = _closure2_slot1;
                 var2 = var1 == var2;
                 var6 = undefined;
-                if(var2) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+                if(var2) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var2 = _closure2_slot1;
                 var6 = var2.borderColor;
-case 51:
-                if(!(var1 == var6)) { _fun0005_ip = 44; continue _fun0005 }
-case 53:
+case 49:
+                if(!(var1 == var6)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
                 var2 = _closure2_slot2;
                 var4 = var2.borderInactive;
                 var1 = new Array(2);
@@ -794,7 +765,7 @@ case 53:
                 var2 = var2.borderPressed;
                 var1[1] = var2;
                 var6 = var1;
-case 44:
+case 51:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -846,10 +817,10 @@ case 0:
             var9 = arguments[3];
             var8 = arguments[4];
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-            var6 = 8;
+            if(!(var6 === var5)) { _fun0006_ip = 53; continue _fun0006 }
 case 54:
+            var6 = 8;
+case 53:
             var _closure2_slot0 = var11;
             var _closure2_slot1 = var9;
             var _closure2_slot2 = var8;
@@ -864,10 +835,10 @@ case 54:
             var10 = 0;
             var4 = var3.bind(var4)(var10);
             var3 = null;
-            if(!(var3 != var1)) { _fun0006_ip = 53; continue _fun0006 }
-case 56:
+            if(!(var3 != var1)) { _fun0006_ip = 52; continue _fun0006 }
+case 55:
             var4 = var1;
-case 53:
+case 52:
             _closure2_slot3 = var4;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -891,13 +862,13 @@ case 0:
                     var2 = var3.bind(var4)(var2);
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0007_ip = 57; continue _fun0007 }
-case 58:
+                    if(!(var2 != var3)) { _fun0007_ip = 56; continue _fun0007 }
+case 57:
                     var3 = _closure2_slot1;
                     var2 = undefined;
                     var1 = arg1;
                     var1 = var3.bind(var2)(var1);
-case 57:
+case 56:
                     var1 = undefined;
                     return var1;
                 }
@@ -918,13 +889,13 @@ case 0:
                     var2 = var3.bind(var4)(var2);
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 59; continue _fun0008 }
-case 47:
+                    if(!(var2 != var3)) { _fun0008_ip = 58; continue _fun0008 }
+case 45:
                     var3 = _closure2_slot2;
                     var2 = undefined;
                     var1 = arg1;
                     var1 = var3.bind(var2)(var1);
-case 59:
+case 58:
                     var1 = undefined;
                     return var1;
                 }
@@ -948,12 +919,12 @@ case 0:
                     var2 = var4.bind(var5)(var2);
                     var4 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0009_ip = 60; continue _fun0009 }
-case 24:
+                    if(!(var2 != var4)) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
-case 60:
+case 59:
                     var1 = undefined;
                     return var1;
                 }
@@ -975,10 +946,10 @@ case 0:
             var6 = arguments[2];
             var _closure2_slot0 = var8;
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0010_ip = 55; continue _fun0010 }
+            if(!(var7 === var5)) { _fun0010_ip = 54; continue _fun0010 }
 case 61:
             var7 = false;
-case 55:
+case 54:
             var _closure2_slot1 = var7;
             if(!(var6 === var5)) { _fun0010_ip = 35; continue _fun0010 }
 case 5:
@@ -1023,11 +994,11 @@ case 0:
                     var5 = var2.bind(var5)(var1);
                     var6 = _closure2_slot0;
                     var2 = 'sm';
-                    if(!(var2 !== var6)) { _fun0011_ip = 44; continue _fun0011 }
+                    if(!(var2 !== var6)) { _fun0011_ip = 51; continue _fun0011 }
 case 62:
                     var2 = 'lg';
                     if(!(var2 === var6)) { _fun0011_ip = 63; continue _fun0011 }
-case 52:
+case 50:
                     var10 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var6 = var2[var4];
@@ -1038,7 +1009,7 @@ case 52:
                     var2 = var2.LARGE_BUTTON_ICON_SIZE;
                     var5 = var6.bind(var9)(var2);
                     _fun0011_ip = 63; continue _fun0011;
-case 44:
+case 51:
                     var9 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var4 = var2[var4];
@@ -1057,7 +1028,7 @@ case 65:
                     var4 = 1;
                     var2 = var5;
                     if(!(var6 > var4)) { _fun0011_ip = 64; continue _fun0011 }
-case 66:
+case 41:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var4 = 14;
@@ -1074,10 +1045,10 @@ case 66:
                     var3 = null;
                     var2 = var5;
                     if(!(var3 != var2)) { _fun0011_ip = 64; continue _fun0011 }
-case 67:
+case 66:
                     var2 = var5;
                     if(!(var3 != var6)) { _fun0011_ip = 64; continue _fun0011 }
-case 68:
+case 67:
                     var3 = global;
                     var8 = var3.Math;
                     var7 = var8.min;

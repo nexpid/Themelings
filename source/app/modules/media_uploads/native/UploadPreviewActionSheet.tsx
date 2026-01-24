@@ -848,7 +848,7 @@ case 55:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var19 = var18.ImageFileIcon;
-            var18 = {'size': 'sm', 'color': 'redesign-button-primary-text'};
+            var18 = {'size': 'sm', 'color': 'control-primary-text-default'};
             var18 = var16.bind(var4)(var19, var18);
             var13['icon'] = var18;
             var18 = 31;
@@ -879,7 +879,7 @@ case 52:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var17 = var16.TrashIcon;
-            var16 = {'size': 'sm', 'color': 'redesign-button-primary-text'};
+            var16 = {'size': 'sm', 'color': 'control-primary-text-default'};
             var16 = var14.bind(var4)(var17, var16);
             var12['icon'] = var16;
             var16 = 31;

@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -218,15 +218,15 @@ case 0:
             var10 = var4.bind(var9)(var8);
             var6 = var10.bind(var9)();
             var4 = var6.done;
-            if(var4) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(var4) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var11 = _closure1_slot8;
             var4 = var6.value;
             var4 = var4.userIds;
             var12 = var11.bind(var9)(var4);
             var11 = var12.bind(var9)();
             var4 = var11.done;
-            if(var4) { _fun0004_ip = 38; continue _fun0004 }
+            if(var4) { _fun0004_ip = 19; continue _fun0004 }
 case 39:
             var13 = var11.value;
             var4 = var3.add;
@@ -235,12 +235,12 @@ case 39:
             var4 = var13.done;
             var11 = var13;
             if(!var4) { _fun0004_ip = 39; continue _fun0004 }
-case 38:
+case 19:
             var11 = var10.bind(var9)();
             var4 = var11.done;
             var6 = var11;
-            if(!var4) { _fun0004_ip = 37; continue _fun0004 }
-case 36:
+            if(!var4) { _fun0004_ip = 38; continue _fun0004 }
+case 37:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var4 = 4;
@@ -633,7 +633,7 @@ case 63:
                             var4 = var4 == var3;
                             var1 = undefined;
                             if(var4) { _fun0012_ip = 62; continue _fun0012 }
-case 64:
+case 2:
                             var1 = var3.id;
 case 62:
                             var1 = var2 === var1;
@@ -645,15 +645,15 @@ case 62:
                     var4 = var5.set;
                     var2 = var8 == var6;
                     var3 = undefined;
-                    if(var2) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                    if(var2) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
                     var2 = var6.application;
                     var8 = var8 == var2;
                     var3 = undefined;
-                    if(var8) { _fun0011_ip = 65; continue _fun0011 }
-case 67:
+                    if(var8) { _fun0011_ip = 64; continue _fun0011 }
+case 66:
                     var3 = var2.id;
-case 65:
+case 64:
                     var2 = {};
                     var11 = var2;
                     var10 = var6;

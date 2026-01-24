@@ -324,7 +324,7 @@ case 39:
         var14 = var7[var12];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
-        var14 = var14.CONTROL_SECONDARY_BORDER_DEFAULT;
+        var14 = var14.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
         var11['backgroundColor'] = var14;
         var8['unread'] = var11;
         var11 = {};

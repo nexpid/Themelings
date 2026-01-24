@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = var4.BoostedGuildTiers;
     var _closure1_slot3 = var4;
-    var4 = 37;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -186,52 +186,38 @@ case 73:
             if(!(var2 !== var4)) { _fun0001_ip = 74; continue _fun0001 }
 case 75:
             var2 = _closure1_slot2;
-            var2 = var2.GUILD_GAMING_STATS_PROMPT;
+            var2 = var2.POLL_RESULT;
             if(!(var2 !== var4)) { _fun0001_ip = 76; continue _fun0001 }
 case 77:
             var2 = _closure1_slot2;
-            var2 = var2.POLL_RESULT;
+            var2 = var2.CHANNEL_LINKED_TO_LOBBY;
             if(!(var2 !== var4)) { _fun0001_ip = 78; continue _fun0001 }
 case 79:
             var2 = _closure1_slot2;
-            var2 = var2.CHANNEL_LINKED_TO_LOBBY;
+            var2 = var2.IN_GAME_MESSAGE_NUX;
             if(!(var2 !== var4)) { _fun0001_ip = 80; continue _fun0001 }
 case 81:
             var2 = _closure1_slot2;
-            var2 = var2.IN_GAME_MESSAGE_NUX;
+            var2 = var2.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
             if(!(var2 !== var4)) { _fun0001_ip = 82; continue _fun0001 }
 case 83:
             var2 = _closure1_slot2;
-            var2 = var2.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
-            if(!(var2 !== var4)) { _fun0001_ip = 84; continue _fun0001 }
-case 85:
-            var2 = _closure1_slot2;
             var2 = var2.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
-            if(!(var2 !== var4)) { _fun0001_ip = 84; continue _fun0001 }
-case 86:
+            if(!(var2 !== var4)) { _fun0001_ip = 82; continue _fun0001 }
+case 84:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
-            if(!(var2 !== var4)) { _fun0001_ip = 84; continue _fun0001 }
-case 87:
+            if(!(var2 !== var4)) { _fun0001_ip = 82; continue _fun0001 }
+case 85:
             var2 = _closure1_slot2;
             var2 = var2.EMOJI_ADDED;
-            if(!(var2 !== var4)) { _fun0001_ip = 88; continue _fun0001 }
-case 89:
+            if(!(var2 !== var4)) { _fun0001_ip = 86; continue _fun0001 }
+case 87:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_GROUP_INVITE;
-            if(!(var2 !== var4)) { _fun0001_ip = 90; continue _fun0001 }
-case 91:
+            if(!(var2 !== var4)) { _fun0001_ip = 88; continue _fun0001 }
+case 89:
             var2 = null;
-            return var2;
-case 90:
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 36;
-            var4 = var4[var2];
-            var2 = undefined;
-            var4 = var5.bind(var2)(var4);
-            var2 = var4.createPremiumGroupInviteSystemMessage;
-            var2 = var2.bind(var4)(var3);
             return var2;
 case 88:
             var5 = _closure1_slot0;
@@ -240,17 +226,17 @@ case 88:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createEmojiAddedSystemMessage;
+            var2 = var4.createPremiumGroupInviteSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
-case 84:
+case 86:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 34;
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createJoinRequestNotificationSystemMessage;
+            var2 = var4.createEmojiAddedSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 82:
@@ -260,7 +246,7 @@ case 82:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createInGameMessageNuxSystemMessage;
+            var2 = var4.createJoinRequestNotificationSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 80:
@@ -270,7 +256,7 @@ case 80:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createChannelLinkedToLobbySystemMessage;
+            var2 = var4.createInGameMessageNuxSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 78:
@@ -280,7 +266,7 @@ case 78:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createPollResultSystemMessage;
+            var2 = var4.createChannelLinkedToLobbySystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 76:
@@ -290,7 +276,7 @@ case 76:
             var4 = var4[var2];
             var2 = undefined;
             var4 = var5.bind(var2)(var4);
-            var2 = var4.createGamingPromptSystemMessage;
+            var2 = var4.createPollResultSystemMessage;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 74:

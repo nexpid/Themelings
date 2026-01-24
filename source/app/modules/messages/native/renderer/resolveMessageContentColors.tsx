@@ -165,12 +165,12 @@ case 4:
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.REDESIGN_BUTTON_SECONDARY_TEXT;
+    var10 = var10.CONTROL_SECONDARY_TEXT_DEFAULT;
     var7['reportFpTextColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+    var10 = var10.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
     var7['reportFpBackgroundColor'] = var10;
     var10 = var6[var8];
     var10 = var9.bind(var1)(var10);

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = 33;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -286,8 +286,8 @@ case 2:
             var13 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var10 = 14;
-                var3 = var4[var10];
+                var1 = 19;
+                var3 = var4[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var3);
                 var6 = var8.trackQuestContentClicked;
@@ -296,11 +296,12 @@ case 2:
                 var9 = var7.id;
                 var3['questId'] = var9;
                 var9 = 13;
-                var11 = var4[var9];
-                var11 = var5.bind(var1)(var11);
-                var11 = var11.QuestContent;
-                var11 = var11.QUEST_BAR_MOBILE;
-                var3['questContent'] = var11;
+                var10 = var4[var9];
+                var10 = var5.bind(var1)(var10);
+                var10 = var10.QuestContent;
+                var10 = var10.QUEST_BAR_MOBILE;
+                var3['questContent'] = var10;
+                var10 = 14;
                 var10 = var4[var10];
                 var10 = var5.bind(var1)(var10);
                 var10 = var10.QuestContentCTA;
@@ -312,7 +313,7 @@ case 2:
                 var9 = var9.QUEST_BAR_MOBILE;
                 var3['sourceQuestContent'] = var9;
                 var3 = var6.bind(var8)(var3);
-                var3 = 19;
+                var3 = 20;
                 var3 = var4[var3];
                 var6 = var5.bind(var1)(var3);
                 var5 = var6.openQuestHome;
@@ -341,7 +342,7 @@ case 2:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 20;
+            var23 = 21;
             var23 = var18[var23];
             var23 = var22.bind(var4)(var23);
             var23 = var23.CircleQuestionIcon;
@@ -367,7 +368,7 @@ case 2:
             var19 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var4[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -417,7 +418,7 @@ case 2:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 22;
+            var23 = 23;
             var23 = var18[var23];
             var23 = var22.bind(var4)(var23);
             var23 = var23.XSmallIcon;
@@ -461,13 +462,13 @@ case 0:
 case 5:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var2 = 23;
+                        var2 = 24;
                         var2 = var10[var2];
                         var3 = undefined;
                         var7 = var9.bind(var3)(var2);
                         var6 = var7.dismissQuestContent;
-                        var12 = _closure2_slot0;
-                        var5 = var12.id;
+                        var11 = _closure2_slot0;
+                        var5 = var11.id;
                         var8 = 13;
                         var2 = var10[var8];
                         var2 = var9.bind(var3)(var2);
@@ -480,18 +481,19 @@ case 5:
                         var6 = var6.bind(var3)(var5);
                         var5 = var6.hideActionSheet;
                         var5 = var5.bind(var6)();
-                        var11 = 14;
-                        var5 = var10[var11];
+                        var5 = 19;
+                        var5 = var10[var5];
                         var7 = var9.bind(var3)(var5);
                         var6 = var7.trackQuestContentClicked;
                         var5 = {};
-                        var12 = var12.id;
-                        var5['questId'] = var12;
-                        var12 = var10[var8];
-                        var12 = var9.bind(var3)(var12);
-                        var12 = var12.QuestContent;
-                        var12 = var12.QUEST_BAR_MOBILE;
-                        var5['questContent'] = var12;
+                        var11 = var11.id;
+                        var5['questId'] = var11;
+                        var11 = var10[var8];
+                        var11 = var9.bind(var3)(var11);
+                        var11 = var11.QuestContent;
+                        var11 = var11.QUEST_BAR_MOBILE;
+                        var5['questContent'] = var11;
+                        var11 = 14;
                         var11 = var10[var11];
                         var11 = var9.bind(var3)(var11);
                         var11 = var11.QuestContentCTA;
@@ -503,7 +505,7 @@ case 5:
                         var8 = var8.QUEST_BAR_MOBILE;
                         var5['sourceQuestContent'] = var8;
                         var5 = var6.bind(var7)(var5);
-                        SaveGenerator(address=226);
+                        SaveGenerator(address=229);
 case 6:
                         return var2;
 case 7:
@@ -512,7 +514,7 @@ case 7:
 case 9:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 24;
+                        var4 = 25;
                         var4 = var6[var4];
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.displayQuestDismissalToast;
@@ -564,7 +566,7 @@ case 11:
             var18 = var18.ActionSheetRow;
             var20 = var18.Icon;
             var18 = {};
-            var22 = 25;
+            var22 = 26;
             var22 = var17[var22];
             var22 = var13.bind(var4)(var22);
             var22 = var22.TrophyIcon;
@@ -613,7 +615,7 @@ case 11:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 26;
+            var23 = 27;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.RedoIcon;
@@ -669,7 +671,7 @@ case 11:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 27;
+            var23 = 28;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.UndoIcon;
@@ -717,7 +719,7 @@ case 11:
             var20 = var20.ActionSheetRow;
             var22 = var20.Icon;
             var20 = {};
-            var23 = 28;
+            var23 = 29;
             var23 = var17[var23];
             var23 = var13.bind(var4)(var23);
             var23 = var23.UnsendIcon;
@@ -756,7 +758,7 @@ case 11:
             var12['onPress'] = var20;
             var12 = var19.bind(var4)(var18, var12);
             var10[3] = var12;
-            var12 = 29;
+            var12 = 30;
             var12 = var17[var12];
             var17 = var13.bind(var4)(var12);
             var13 = var17.isQuestPreviewTool2Enabled;
@@ -779,7 +781,7 @@ case 13:
             var19 = var19.ActionSheetRow;
             var20 = var19.Icon;
             var19 = {};
-            var23 = 30;
+            var23 = 31;
             var23 = var22[var23];
             var23 = var25.bind(var4)(var23);
             var23 = var23.EyeIcon;
@@ -805,7 +807,7 @@ case 13:
             var19 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 31;
+                var1 = 32;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);
@@ -870,7 +872,7 @@ case 12:
             var14 = function onPress() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 32;
+                var1 = 33;
                 var3 = var4[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var3);

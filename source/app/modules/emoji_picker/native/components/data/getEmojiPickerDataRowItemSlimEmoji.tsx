@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var5[var4];
         var4 = undefined;
         var4 = var6.bind(var4)(var5);
-        var4 = var4.EmojiPickerFlashListItemType;
+        var4 = var4.EmojiPickerItemType;
         var4 = var4.EMOJI_ROW_SLIM;
         var1['type'] = var4;
         var5 = var2.emojis;

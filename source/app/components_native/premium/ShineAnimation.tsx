@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
-    var12 = var12.REDESIGN_BUTTON_SELECTED_BACKGROUND;
+    var12 = var12.BACKGROUND_MOD_NORMAL;
     var10['backgroundColor'] = var12;
     var10['flex'] = var11;
     var4['shineInner'] = var10;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var14[var10];
         var5 = var18.bind(var4)(var2);
         var3 = var5.useAnimatedStyle;
-        var2 = function p() {
+        var2 = function A() {
             var1 = {};
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var14[var10];
         var3 = var18.bind(var4)(var2);
         var2 = var3.useAnimatedStyle;
-        var1 = function A() {
+        var1 = function E() {
             var1 = _closure1_slot8;
             var7 = var1.FLASH_TIME_PERCENT;
             var2 = var1.FLASH_DURATION_PERCENT;

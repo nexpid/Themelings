@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/ChairIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/a5acda60bebbb2980ed98442ca91c4be1f522cec96a6e7c77e2edc2a2f7386cb.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/8df03f5022be0bbb8cbfe49fdb9bbb3434d6442a650190dbad8fc3dc107e93ad.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 1000;
+    var4 = 978;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

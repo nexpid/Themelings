@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+    var10 = var10.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
     var4['stepperButton'] = var9;
     var9 = {};

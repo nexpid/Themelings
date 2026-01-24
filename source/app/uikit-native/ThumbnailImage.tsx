@@ -20,9 +20,8 @@ case 0:
         var4 = var4.bind(var1)(var7);
         var4 = 1;
         var4 = var6[var4];
-        var7 = var5.bind(var1)(var4);
-        var4 = var7.Image;
-        var8 = var7.requireNativeComponent;
+        var4 = var5.bind(var1)(var4);
+        var4 = var4.Image;
         var7 = 2;
         var7 = var6[var7];
         var7 = var5.bind(var1)(var7);
@@ -30,30 +29,18 @@ case 0:
         var _closure1_slot0 = var7;
         var7 = 3;
         var7 = var6[var7];
-        var9 = var5.bind(var1)(var7);
-        var7 = var9.isFabric;
-        var7 = var7.bind(var9)();
-        if(var7) { _fun0001_ip = 2; continue _fun0001 }
+        var8 = var5.bind(var1)(var7);
+        var7 = var8.isAndroid;
+        var7 = var7.bind(var8)();
+        if(!var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-        var7 = 5;
-        var7 = var6[var7];
-        var9 = var5.bind(var1)(var7);
-        var7 = var9.isAndroid;
-        var7 = var7.bind(var9)();
-        if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-        var7 = 'DCDLocalImageThumbnail';
-        var4 = var8.bind(var1)(var7);
-case 4:
-        _fun0001_ip = 6; continue _fun0001;
-case 2:
         var7 = 4;
         var7 = var6[var7];
         var7 = var5.bind(var1)(var7);
         var4 = var7.default;
-case 6:
+case 2:
         var _closure1_slot1 = var4;
-        var4 = 6;
+        var4 = 5;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

@@ -97,16 +97,22 @@ case 0:
                 var4 = var2.id;
                 var4 = var5.bind(var6)(var4);
                 var1['isMobileOnline'] = var4;
+                var6 = _closure1_slot6;
+                var5 = var6.getStatus;
+                var4 = var2.id;
+                var4 = var5.bind(var6)(var4);
+                var1['status'] = var4;
                 var4 = _closure1_slot6;
-                var3 = var4.getStatus;
+                var3 = var4.isVROnline;
                 var2 = var2.id;
                 var2 = var3.bind(var4)(var2);
-                var1['status'] = var2;
+                var1['isVROnline'] = var2;
                 return var1;
             };
             var1 = var3.bind(var4)(var2, var1);
-            var8 = var1.isMobileOnline;
-            var17 = var1.status;
+            var15 = var1.isMobileOnline;
+            var8 = var1.isVROnline;
+            var18 = var1.status;
             var12 = null;
             var2 = var12 != var13;
             var1 = null;
@@ -126,15 +132,16 @@ case 3:
             var6 = {};
             var6['user'] = var13;
             var6['guildId'] = var5;
-            var15 = _closure1_slot9;
-            var18 = var15.OFFLINE;
-            var15 = null;
-            if(!(var18 !== var17)) { _fun0001_ip = 4; continue _fun0001 }
+            var17 = _closure1_slot9;
+            var19 = var17.OFFLINE;
+            var17 = null;
+            if(!(var19 !== var18)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = var17;
+            var17 = var18;
 case 4:
-            var6['status'] = var15;
-            var6['isMobileOnline'] = var8;
+            var6['status'] = var17;
+            var6['isMobileOnline'] = var15;
+            var6['isVROnline'] = var8;
             var8 = _closure1_slot0;
             var15 = _closure1_slot2;
             var16 = var15[var16];

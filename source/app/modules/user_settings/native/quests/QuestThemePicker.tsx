@@ -527,7 +527,7 @@ case 13:
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.CONTROL_SECONDARY_BORDER_DEFAULT;
+    var14 = var14.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
     var10['borderColor'] = var14;
     var4['themeCircleSelected'] = var10;
     var10 = {};

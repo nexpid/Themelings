@@ -167,11 +167,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -190,8 +190,8 @@ case 0:
             var2 = arraySpread(var10, var9, var8);
             var _closure2_slot1 = var5;
             var2 = arg4;
-            if(!var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(!var2) { _fun0004_ip = 37; continue _fun0004 }
+case 2:
             var3 = var5.push;
             var2 = global;
             var6 = var2.Object;
@@ -205,7 +205,7 @@ case 37:
             var9 = var2;
             var8 = var5;
             var2 = apply(var10, var9, var8);
-case 36:
+case 37:
             var2 = global;
             var3 = var2.Object;
             var2 = var3.entries;
@@ -240,7 +240,7 @@ case 42:
                     var2 = var3;
 case 40:
                     if(var2) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+case 7:
                     var1.return();
 case 43:
                     var12 = _closure2_slot0;
@@ -278,7 +278,7 @@ case 0:
                                 var2 = var1.isOn;
                                 var1 = undefined;
                                 if(!(var1 === var2)) { _fun0006_ip = 40; continue _fun0006 }
-case 45:
+case 44:
                                 var5 = var3.data;
                                 var2 = false;
                                 var5['isOn'] = var2;
@@ -289,36 +289,36 @@ case 40:
                                 var2 = var4.done;
                                 var7 = true;
                                 var6 = false;
-                                if(var2) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                                if(var2) { _fun0006_ip = 15; continue _fun0006 }
+case 45:
                                 var10 = var4.value;
                                 var2 = _closure4_slot0;
-                                if(!(var10 !== var2)) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                                if(!(var10 !== var2)) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                                 var9 = _closure4_slot1;
                                 var2 = var9.includes;
                                 var2 = var2.bind(var9)(var10);
-                                if(!var2) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+                                if(!var2) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                                 var2 = var3.data;
                                 var2['isOn'] = var6;
-                                _fun0006_ip = 50; continue _fun0006;
-case 48:
+                                _fun0006_ip = 48; continue _fun0006;
+case 46:
                                 var2 = var3.data;
                                 var2['isOn'] = var7;
-case 50:
+case 48:
                                 var9 = var8.bind(var1)();
                                 var2 = var9.done;
                                 var4 = var9;
-                                if(!var2) { _fun0006_ip = 47; continue _fun0006 }
-case 46:
+                                if(!var2) { _fun0006_ip = 45; continue _fun0006 }
+case 15:
                                 var2 = var3.data;
                                 var2 = var2.isOn;
-                                if(var2) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                                if(var2) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
                                 var2 = var3.ignoreMatch;
                                 var2 = var2.bind(var3)();
-case 52:
+case 50:
                                 return var1;
                             }
                         };
@@ -423,8 +423,8 @@ case 0:
             var1 = var1 + var5;
             var1 = var2.length;
             var1 = var3 < var1;
-            if(!var1) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(!var1) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
             var6 = var2[var3];
             var7 = var2.slice;
             var1 = var3 + var5;
@@ -432,8 +432,8 @@ case 55:
             var6['contains'] = var1;
             var3 = var3 + 1;
             var1 = var2.length;
-            if(var3 < var1) { _fun0007_ip = 55; continue _fun0007 }
-case 54:
+            if(var3 < var1) { _fun0007_ip = 53; continue _fun0007 }
+case 52:
             var1 = {};
             var3 = {};
             var4 = _closure1_slot4;

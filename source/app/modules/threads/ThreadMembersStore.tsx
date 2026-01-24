@@ -211,11 +211,11 @@ case 37:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0004_ip = 3; continue _fun0004 }
-case 8:
+case 39:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0004_ip = 8; continue _fun0004 }
+            if(var3 < var2) { _fun0004_ip = 39; continue _fun0004 }
 case 3:
             return var1;
         }
@@ -227,12 +227,12 @@ case 0:
             var1 = arg1;
             var3 = var1.threads;
             var1 = null;
-            if(!(var1 != var3)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(!(var1 != var3)) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var2 = var3.forEach;
             var1 = _closure1_slot14;
             var1 = var2.bind(var3)(var1);
-case 39:
+case 40:
             var1 = undefined;
             return var1;
         }
@@ -246,16 +246,16 @@ case 0:
             var4 = var5.has;
             var3 = var1.type;
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0006_ip = 39; continue _fun0006 }
+            if(var3) { _fun0006_ip = 40; continue _fun0006 }
 case 38:
             var3 = false;
             return var3;
-case 39:
+case 40:
             var4 = var1.id;
             var3 = _closure1_slot9;
             var3 = var4 in var3;
-            if(var3) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+            if(var3) { _fun0006_ip = 42; continue _fun0006 }
+case 9:
             var5 = _closure1_slot9;
             var4 = var1.id;
             var3 = {};
@@ -268,34 +268,34 @@ case 42:
             var9 = var7 != var8;
             var6 = 0;
             if(!var9) { _fun0006_ip = 43; continue _fun0006 }
-case 15:
+case 44:
             var6 = var8;
 case 43:
             var3['memberCount'] = var6;
             var6 = var1.memberIdsPreview;
-            if(!(var7 == var6)) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+            if(!(var7 == var6)) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var6 = new Array(0);
-case 44:
+case 45:
             var3['memberIdsPreview'] = var6;
             var5[var4] = var3;
-case 41:
+case 42:
             var3 = _closure1_slot9;
             var2 = var1.id;
             var2 = var3[var2];
             var3 = var1.memberCount;
             var4 = null;
-            if(!(var4 != var3)) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!(var4 != var3)) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var3 = var1.memberCount;
             var2['memberCount'] = var3;
-case 46:
+case 47:
             var3 = var1.memberIdsPreview;
-            if(!(var4 != var3)) { _fun0006_ip = 48; continue _fun0006 }
+            if(!(var4 != var3)) { _fun0006_ip = 23; continue _fun0006 }
 case 49:
             var1 = var1.memberIdsPreview;
             var2['memberIdsPreview'] = var1;
-case 48:
+case 23:
             var1 = undefined;
             return var1;
         }

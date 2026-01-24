@@ -1875,7 +1875,7 @@ case 78:
     var20 = var7[var12];
     var20 = var13.bind(var1)(var20);
     var20 = var20.colors;
-    var20 = var20.REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND;
+    var20 = var20.CONTROL_PRIMARY_BACKGROUND_ACTIVE;
     var10['backgroundColor'] = var20;
     var10['paddingVertical'] = var19;
     var10['paddingHorizontal'] = var18;

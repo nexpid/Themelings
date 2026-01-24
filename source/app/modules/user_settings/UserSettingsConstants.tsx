@@ -133,12 +133,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SOUNDBOARD_SUBSECTION'] = var15;
     var15 = 'VIDEO_SUBSECTION';
     var3['VIDEO_SUBSECTION'] = var15;
-    var15 = 'CLIPS_RECORDING_SUBSECTION';
-    var3['CLIPS_RECORDING_SUBSECTION'] = var15;
-    var15 = 'CLIPS_AUTOMATIC_SUBSECTION';
-    var3['CLIPS_AUTOMATIC_SUBSECTION'] = var15;
-    var15 = 'CLIPS_PRIVACY_SUBSECTION';
-    var3['CLIPS_PRIVACY_SUBSECTION'] = var15;
     var3['ProfileCustomizationSubsection'] = var14;
     var3['AppearanceScrollPositions'] = var13;
     var3['ProfileCustomizationScrollPositions'] = var12;

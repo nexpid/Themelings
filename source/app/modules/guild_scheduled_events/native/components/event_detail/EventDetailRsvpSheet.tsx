@@ -504,7 +504,7 @@ case 0:
             var2 = arg1;
             var1 = var2.eventUser;
             var _closure2_slot0 = var1;
-            var19 = var2.guildId;
+            var20 = var2.guildId;
             var2 = _closure1_slot10;
             var5 = undefined;
             var10 = var2.bind(var5)();
@@ -550,6 +550,10 @@ case 0:
                 var3 = var2.user_id;
                 var3 = var5.bind(var4)(var3);
                 var1['isMobileOnline'] = var3;
+                var5 = var4.isVROnline;
+                var3 = var2.user_id;
+                var3 = var5.bind(var4)(var3);
+                var1['isVROnline'] = var3;
                 var3 = var4.getStatus;
                 var2 = var2.user_id;
                 var2 = var3.bind(var4)(var2);
@@ -557,7 +561,8 @@ case 0:
                 return var1;
             };
             var2 = var9.bind(var13)(var8, var2, var4);
-            var18 = var2.isMobileOnline;
+            var19 = var2.isMobileOnline;
+            var18 = var2.isVROnline;
             var16 = var2.status;
             var4 = _closure1_slot8;
             var2 = 13;
@@ -580,8 +585,9 @@ case 19:
             var9 = var9.bind(var5)(var8);
             var8 = {};
             var8['user'] = var11;
-            var8['guildId'] = var19;
-            var8['isMobileOnline'] = var18;
+            var8['guildId'] = var20;
+            var8['isMobileOnline'] = var19;
+            var8['isVROnline'] = var18;
             var8['status'] = var16;
             var16 = _closure1_slot0;
             var15 = var17[var15];

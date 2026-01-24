@@ -225,7 +225,7 @@ case 0:
             var _closure2_slot0 = var2;
             var7 = var1.style;
             var5 = undefined;
-            var _closure2_slot4 = var5;
+            var _closure2_slot5 = var5;
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 12;
@@ -261,6 +261,7 @@ case 0:
             var8 = var8.bind(var5)(var1);
             var1 = var8.usePremiumTrialOffer;
             var21 = var1.bind(var8)();
+            var _closure2_slot4 = var21;
             var1 = 15;
             var1 = var6[var1];
             var8 = var4.bind(var5)(var1);
@@ -289,16 +290,17 @@ case 11:
             var6 = var6.bind(var5)(var4);
             var4 = var6.useShouldShowExpiringTrialOfferCard;
             var4 = var4.bind(var6)();
-            _closure2_slot4 = var4;
+            _closure2_slot5 = var4;
             var10 = _closure1_slot3;
             var9 = var10.useEffect;
-            var8 = new Array(2);
+            var8 = new Array(3);
             var8[0] = var2;
             var8[1] = var4;
+            var8[2] = var21;
             var6 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot5;
                     if(!var2) { _fun0004_ip = 3; continue _fun0004 }
 case 14:
                     var4 = _closure2_slot3;
@@ -307,7 +309,15 @@ case 14:
 case 3:
                     if(!var2) { _fun0004_ip = 15; continue _fun0004 }
 case 16:
-                    var5 = _closure2_slot3;
+                    var4 = _closure2_slot4;
+                    var3 = null;
+                    var2 = var3 != var4;
+case 15:
+                    if(!var2) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+                    var6 = _closure2_slot3;
+                    var1 = _closure2_slot4;
+                    var5 = var1.trial_id;
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 10;
@@ -318,22 +328,23 @@ case 16:
                     var1 = _closure1_slot6;
                     var2 = var1.APP_NOTICE_VIEWED;
                     var1 = {};
-                    var1['notice_type'] = var5;
+                    var1['notice_type'] = var6;
+                    var1['trial_id'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 15:
+case 17:
                     var1 = undefined;
                     return var1;
                 }
             };
             var6 = var9.bind(var10)(var6, var8);
-            if(var4) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-            return var1;
-case 17:
-            if(!(var1 != var21)) { _fun0003_ip = 19; continue _fun0003 }
+            if(var4) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-            if(!(var1 != var2)) { _fun0003_ip = 19; continue _fun0003 }
-case 21:
+            return var1;
+case 19:
+            if(!(var1 != var21)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+            if(!(var1 != var2)) { _fun0003_ip = 21; continue _fun0003 }
+case 23:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 17;
@@ -342,15 +353,15 @@ case 21:
             var4 = var6.getArticleURL;
             var8 = var21.trial_id;
             var2 = _closure1_slot11;
-            if(!(var8 !== var2)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+            if(!(var8 !== var2)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var2 = _closure1_slot8;
             var2 = var2.PREMIUM_TRIAL;
-            _fun0003_ip = 24; continue _fun0003;
-case 22:
+            _fun0003_ip = 26; continue _fun0003;
+case 24:
             var8 = _closure1_slot8;
             var2 = var8.NITRO_TRIAL_FOR_ALL;
-case 24:
+case 26:
             var17 = var4.bind(var6)(var2);
             var9 = _closure1_slot14;
             var6 = _closure1_slot13;
@@ -376,18 +387,18 @@ case 24:
             var23 = var21.subscription_trial;
             var24 = var1 == var23;
             var22 = undefined;
-            if(var24) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(var24) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var22 = var23.interval;
-case 25:
+case 27:
             var14['intervalType'] = var22;
             var22 = var21.subscription_trial;
             var23 = var1 == var22;
             var21 = undefined;
-            if(var23) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+            if(var23) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
             var21 = var22.interval_count;
-case 27:
+case 29:
             var14['intervalCount'] = var21;
             var14 = var19.bind(var20)(var14);
             var14 = var16.bind(var5)(var18, var14, var17);
@@ -425,10 +436,12 @@ case 27:
             var16 = function onPress() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var6 = _closure2_slot3;
+                    var7 = _closure2_slot3;
+                    var2 = _closure2_slot4;
+                    var6 = var2.trial_id;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                    if(!(var2 != var7)) { _fun0005_ip = 31; continue _fun0005 }
+case 16:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 10;
@@ -439,9 +452,10 @@ case 30:
                     var2 = _closure1_slot6;
                     var3 = var2.APP_NOTICE_CLOSED;
                     var2 = {};
-                    var2['notice_type'] = var6;
+                    var2['notice_type'] = var7;
+                    var2['trial_id'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
-case 29:
+case 31:
                     var5 = _closure2_slot1;
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -488,10 +502,12 @@ case 29:
             var14 = function onPress() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var6 = _closure2_slot3;
+                    var7 = _closure2_slot3;
+                    var2 = _closure2_slot4;
+                    var6 = var2.trial_id;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+                    if(!(var2 != var7)) { _fun0006_ip = 31; continue _fun0006 }
+case 16:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 10;
@@ -502,9 +518,10 @@ case 30:
                     var2 = _closure1_slot6;
                     var3 = var2.APP_NOTICE_PRIMARY_CTA_OPENED;
                     var2 = {};
-                    var2['notice_type'] = var6;
+                    var2['notice_type'] = var7;
+                    var2['trial_id'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
-case 29:
+case 31:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -565,7 +582,7 @@ case 29:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 19:
+case 21:
             return var1;
         }
     };

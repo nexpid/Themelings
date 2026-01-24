@@ -580,7 +580,7 @@ case 0:
                     var2 = var2[var9];
                     var4 = undefined;
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.NATIVE_SECTION;
                     if(!(var2 !== var6)) { _fun0004_ip = 57; continue _fun0004 }
 case 58:
@@ -588,7 +588,7 @@ case 58:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.PLACEHOLDER;
                     if(!(var2 !== var6)) { _fun0004_ip = 57; continue _fun0004 }
 case 59:
@@ -596,7 +596,7 @@ case 59:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.EMOJI_ROW_SLIM;
                     if(!(var2 !== var6)) { _fun0004_ip = 57; continue _fun0004 }
 case 60:
@@ -604,7 +604,7 @@ case 60:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.TITLE;
                     if(!(var2 !== var6)) { _fun0004_ip = 61; continue _fun0004 }
 case 62:
@@ -612,7 +612,7 @@ case 62:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.PREMIUM_INLINE_ROADBLOCK;
                     if(!(var2 !== var6)) { _fun0004_ip = 63; continue _fun0004 }
 case 64:
@@ -620,7 +620,7 @@ case 64:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.EMOJI_ROW;
                     if(!(var2 !== var6)) { _fun0004_ip = 65; continue _fun0004 }
 case 66:
@@ -628,7 +628,7 @@ case 66:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.EMOJI_ROW_NSFW;
                     if(!(var2 !== var6)) { _fun0004_ip = 67; continue _fun0004 }
 case 68:
@@ -636,7 +636,7 @@ case 68:
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
-                    var2 = var2.EmojiPickerFlashListItemType;
+                    var2 = var2.EmojiPickerItemType;
                     var2 = var2.FOOTER_UPSELL;
                     var10 = undefined;
                     if(!(var2 === var6)) { _fun0004_ip = 69; continue _fun0004 }

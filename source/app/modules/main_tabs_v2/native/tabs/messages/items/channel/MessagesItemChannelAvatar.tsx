@@ -220,13 +220,13 @@ case 18:
                 }
             };
             var16 = var15.bind(var16)(var14, var13);
-            var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.useStateFromStores;
+            var13 = var4[var2];
+            var18 = var3.bind(var5)(var13);
+            var17 = var18.useStateFromStores;
             var13 = _closure1_slot5;
-            var2 = new Array(1);
-            var2[0] = var13;
-            var1 = function() {
+            var15 = new Array(1);
+            var15[0] = var13;
+            var14 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var3 = _closure2_slot0;
@@ -238,6 +238,32 @@ case 0:
 case 21:
                     var4 = _closure1_slot5;
                     var3 = var4.isMobileOnline;
+                    var5 = _closure2_slot0;
+                    var2 = var5.getRecipientId;
+                    var2 = var2.bind(var5)();
+                    var1 = var3.bind(var4)(var2);
+case 20:
+                    return var1;
+                }
+            };
+            var17 = var17.bind(var18)(var15, var14);
+            var2 = var4[var2];
+            var4 = var3.bind(var5)(var2);
+            var3 = var4.useStateFromStores;
+            var2 = new Array(1);
+            var2[0] = var13;
+            var1 = function() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var1 = var3.isDM;
+                    var1 = var1.bind(var3)();
+                    var3 = !var1;
+                    var1 = !var3;
+                    if(var3) { _fun0007_ip = 20; continue _fun0007 }
+case 21:
+                    var4 = _closure1_slot5;
+                    var3 = var4.isVROnline;
                     var5 = _closure2_slot0;
                     var2 = var5.getRecipientId;
                     var2 = var2.bind(var5)();
@@ -264,10 +290,11 @@ case 25:
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var2['user'] = var16;
-            var17 = var16.avatarDecoration;
-            var2['avatarDecoration'] = var17;
+            var18 = var16.avatarDecoration;
+            var2['avatarDecoration'] = var18;
             var2['guildId'] = var5;
-            var2['isMobileOnline'] = var15;
+            var2['isMobileOnline'] = var17;
+            var2['isVROnline'] = var15;
             var15 = var16.isSystemUser;
             var15 = var15.bind(var16)();
             var13 = null;

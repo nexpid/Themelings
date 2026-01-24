@@ -38,7 +38,7 @@ case 2:
             var1 = var1.colors;
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var14 = var1.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var14 = var1.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
             var14 = var1.WHITE;
@@ -111,7 +111,7 @@ case 11:
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var1 = var1.colors;
-            var11 = var1.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var11 = var1.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0002_ip = 12; continue _fun0002;
 case 10:
             var3 = _closure1_slot1;
@@ -858,7 +858,7 @@ case 58:
             var3 = var3.colors;
             if(var13) { _fun0005_ip = 60; continue _fun0005 }
 case 61:
-            var30 = var3.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var30 = var3.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0005_ip = 62; continue _fun0005;
 case 60:
             var30 = var3.WHITE;

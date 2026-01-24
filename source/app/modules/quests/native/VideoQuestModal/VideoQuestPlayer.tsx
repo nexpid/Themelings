@@ -1849,27 +1849,27 @@ case 134:
                     var6 = var2 == var5;
                     var4 = undefined;
                     if(var6) { _fun0024_ip = 133; continue _fun0024 }
-case 3:
+case 20:
                     var4 = var5.layout;
 case 133:
-                    if(!(var2 != var4)) { _fun0024_ip = 38; continue _fun0024 }
-case 135:
+                    if(!(var2 != var4)) { _fun0024_ip = 37; continue _fun0024 }
+case 52:
                     var3 = var3.nativeEvent;
                     var3 = var3.layout;
                     var5 = var3.width;
                     var4 = var3.height;
                     var3 = 0;
-                    if(!(var5 > var3)) { _fun0024_ip = 38; continue _fun0024 }
-case 136:
-                    if(!(var4 > var3)) { _fun0024_ip = 38; continue _fun0024 }
-case 28:
+                    if(!(var5 > var3)) { _fun0024_ip = 37; continue _fun0024 }
+case 135:
+                    if(!(var4 > var3)) { _fun0024_ip = 37; continue _fun0024 }
+case 121:
                     var3 = _closure2_slot35;
                     var3 = var3.current;
-                    if(!(var2 != var3)) { _fun0024_ip = 38; continue _fun0024 }
-case 137:
+                    if(!(var2 != var3)) { _fun0024_ip = 37; continue _fun0024 }
+case 58:
                     var2 = var3.updateVideoDimensions;
                     var2 = var2.bind(var3)(var5, var4);
-case 38:
+case 37:
                     return var1;
                 }
             };
@@ -1905,7 +1905,7 @@ case 0:
                     var5 = null;
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0025_ip = 138; continue _fun0025 }
+                    if(var2) { _fun0025_ip = 136; continue _fun0025 }
 case 51:
                     var2 = {};
                     var3 = _closure2_slot10;
@@ -1917,13 +1917,13 @@ case 5:
                     var3 = var6.url;
 case 126:
                     if(!(var5 == var3)) { _fun0025_ip = 128; continue _fun0025 }
-case 139:
+case 137:
                     var4 = _closure2_slot9;
                     var3 = var4.url;
 case 128:
                     var2['uri'] = var3;
                     var1 = var2;
-case 138:
+case 136:
                     return var1;
                 }
             };
@@ -1941,7 +1941,7 @@ case 0:
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
                     if(var3) { _fun0026_ip = 126; continue _fun0026 }
-case 135:
+case 138:
                     return var2;
 case 126:
                     var2 = _closure2_slot5;
@@ -1961,7 +1961,7 @@ case 97:
                             var2 = var5 == var3;
 case 5:
                             if(var2) { _fun0027_ip = 28; continue _fun0027 }
-case 133:
+case 139:
                             var3 = _closure3_slot0;
                             var2 = var3.setNativeProps;
                             var1 = {};

@@ -50,7 +50,7 @@ case 6:
             var7 = 0;
             var7 = var10[var7];
             var7 = var8.bind(var9)(var7);
-            var7 = var7.EmojiPickerFlashListItemType;
+            var7 = var7.EmojiPickerItemType;
             var7 = var7.NATIVE_SECTION;
             var1['type'] = var7;
             var1['title'] = var6;

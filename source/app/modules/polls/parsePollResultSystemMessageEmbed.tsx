@@ -167,11 +167,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -202,12 +202,12 @@ case 0:
             var3 = var1 == var4;
             var18 = undefined;
             var2 = undefined;
-            if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(var3) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var2 = var4.fields;
-case 36:
-            if(!(var1 != var2)) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+case 37:
+            if(!(var1 != var2)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var2 = {};
             var3 = {};
             var5 = _closure1_slot0;
@@ -226,81 +226,81 @@ case 39:
             var8 = 'victor_answer_text';
             var7 = 'victor_answer_id';
             var6 = 'poll_question_text';
-            if(var4) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(var4) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var4 = var5.value;
             var19 = var4.rawName;
-            if(!(var6 !== var19)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            if(!(var7 !== var19)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-            if(!(var8 !== var19)) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
-            if(!(var9 !== var19)) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-            if(!(var10 !== var19)) { _fun0004_ip = 50; continue _fun0004 }
-case 14:
-            if(!(var11 !== var19)) { _fun0004_ip = 51; continue _fun0004 }
+            if(!(var6 !== var19)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            if(!(var7 !== var19)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+            if(!(var8 !== var19)) { _fun0004_ip = 47; continue _fun0004 }
+case 48:
+            if(!(var9 !== var19)) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+            if(!(var10 !== var19)) { _fun0004_ip = 51; continue _fun0004 }
 case 52:
-            if(!(var12 !== var19)) { _fun0004_ip = 53; continue _fun0004 }
+            if(!(var11 !== var19)) { _fun0004_ip = 53; continue _fun0004 }
 case 54:
-            if(!(var13 === var19)) { _fun0004_ip = 55; continue _fun0004 }
+            if(!(var12 !== var19)) { _fun0004_ip = 55; continue _fun0004 }
 case 56:
+            if(!(var13 === var19)) { _fun0004_ip = 57; continue _fun0004 }
+case 16:
             var19 = var4.rawValue;
             var19 = var14 === var19;
             var3['animated'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 53:
+            _fun0004_ip = 57; continue _fun0004;
+case 55:
             var19 = var4.rawValue;
             var3['name'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 51:
+            _fun0004_ip = 57; continue _fun0004;
+case 53:
             var19 = var4.rawValue;
             var3['id'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 50:
+            _fun0004_ip = 57; continue _fun0004;
+case 51:
             var20 = var16.parseInt;
             var19 = var4.rawValue;
             var19 = var20.bind(var18)(var19, var15);
             var2['totalVotes'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 48:
+            _fun0004_ip = 57; continue _fun0004;
+case 49:
             var20 = var16.parseInt;
             var19 = var4.rawValue;
             var19 = var20.bind(var18)(var19, var15);
             var2['victorAnswerVotes'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 46:
+            _fun0004_ip = 57; continue _fun0004;
+case 47:
             var19 = var4.rawValue;
             var2['victorAnswerText'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 44:
+            _fun0004_ip = 57; continue _fun0004;
+case 45:
             var19 = var4.rawValue;
             var2['victorAnswerId'] = var19;
-            _fun0004_ip = 55; continue _fun0004;
-case 42:
+            _fun0004_ip = 57; continue _fun0004;
+case 43:
             var4 = var4.rawValue;
             var2['questionText'] = var4;
-case 55:
+case 57:
             var19 = var17.bind(var18)();
             var4 = var19.done;
             var5 = var19;
-            if(!var4) { _fun0004_ip = 41; continue _fun0004 }
-case 40:
+            if(!var4) { _fun0004_ip = 42; continue _fun0004 }
+case 41:
             var4 = var3.name;
-            if(!(var1 != var4)) { _fun0004_ip = 57; continue _fun0004 }
-case 6:
+            if(!(var1 != var4)) { _fun0004_ip = 58; continue _fun0004 }
+case 59:
             var5 = var3.animated;
             var4 = var1 != var5;
-            if(!var4) { _fun0004_ip = 58; continue _fun0004 }
-case 59:
+            if(!var4) { _fun0004_ip = 60; continue _fun0004 }
+case 61:
             var4 = var5;
-case 58:
+case 60:
             var3['animated'] = var4;
             var2['victorEmoji'] = var3;
-case 57:
+case 58:
             return var2;
-case 38:
+case 39:
             return var1;
         }
     };

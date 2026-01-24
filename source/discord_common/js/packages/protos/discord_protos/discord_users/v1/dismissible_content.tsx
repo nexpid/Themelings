@@ -1734,10 +1734,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DISPLAY_NAME_STYLES_NITRO_HOME_TILE'] = var2;
     var1 = 'DISPLAY_NAME_STYLES_NITRO_HOME_TILE';
     var4[var2] = var1;
-    var2 = 626;
-    var4['TENURE_BADGE_CHURN_REMINDER'] = var2;
-    var1 = 'TENURE_BADGE_CHURN_REMINDER';
-    var4[var2] = var1;
     var2 = 627;
     var4['CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER'] = var2;
     var1 = 'CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER';

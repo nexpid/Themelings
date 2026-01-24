@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -187,11 +187,11 @@ case 35:
 case 0:
             var2 = arguments[0];
             var6 = undefined;
-            if(!(var2 === var6)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(!(var2 === var6)) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var3 = _closure1_slot3;
             var2 = var3.sortedScreenKeys;
-case 36:
+case 37:
             var _closure2_slot0 = var2;
             var2 = global;
             var4 = var2.Object;
@@ -217,22 +217,22 @@ case 0:
                     var9 = var2;
                     var9 = var9 === var8;
                     var3 = var9;
-                    if(var9) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                    if(var9) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var4 = var7;
-case 38:
+case 39:
                     var4 = undefined;
                     var7 = var3;
-                    if(var7) { _fun0005_ip = 40; continue _fun0005 }
+                    if(var7) { _fun0005_ip = 7; continue _fun0005 }
 case 41:
                     var6 = var6().value;
                     var7 = var2;
                     var7 = var7 === var8;
                     var3 = var7;
-                    if(var7) { _fun0005_ip = 40; continue _fun0005 }
+                    if(var7) { _fun0005_ip = 7; continue _fun0005 }
 case 42:
                     var4 = var6;
-case 40:
+case 7:
                     var5 = var4;
                     var4 = var3;
                     if(var4) { _fun0005_ip = 43; continue _fun0005 }
@@ -274,7 +274,7 @@ case 0:
                     var2 = var2 === var3;
                     var4 = undefined;
                     if(var2) { _fun0006_ip = 50; continue _fun0006 }
-case 36:
+case 37:
                     var4 = var5;
 case 50:
                     if(var2) { _fun0006_ip = 33; continue _fun0006 }
@@ -289,11 +289,11 @@ case 33:
                     var2 = var2 === var3;
                     var3 = undefined;
                     if(var2) { _fun0006_ip = 51; continue _fun0006 }
-case 4:
+case 36:
                     var3 = var5;
 case 51:
                     if(var2) { _fun0006_ip = 52; continue _fun0006 }
-case 7:
+case 53:
                     var1.return();
 case 52:
                     var2 = _closure2_slot0;
@@ -303,23 +303,23 @@ case 52:
                     var4 = var1.bind(var2)(var3);
                     var6 = -1;
                     var3 = var6 === var5;
-                    if(!var3) { _fun0006_ip = 53; continue _fun0006 }
+                    if(!var3) { _fun0006_ip = 54; continue _fun0006 }
 case 45:
                     var1 = 0;
-                    if(!(var6 !== var4)) { _fun0006_ip = 54; continue _fun0006 }
-case 53:
-                    var2 = var6;
-                    if(var3) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
-                    var3 = 1;
-                    if(!(var6 !== var4)) { _fun0006_ip = 57; continue _fun0006 }
-case 58:
-                    var3 = var5 - var4;
-case 57:
-                    var2 = var3;
-case 55:
-                    var1 = var2;
+                    if(!(var6 !== var4)) { _fun0006_ip = 55; continue _fun0006 }
 case 54:
+                    var2 = var6;
+                    if(var3) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
+                    var3 = 1;
+                    if(!(var6 !== var4)) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
+                    var3 = var5 - var4;
+case 58:
+                    var2 = var3;
+case 56:
+                    var1 = var2;
+case 55:
                     return var1;
                 }
             };
@@ -392,29 +392,29 @@ case 0:
             var4 = var8.bind(var1)();
             var3 = var4.done;
             var6 = 1;
-            if(var3) { _fun0007_ip = 59; continue _fun0007 }
-case 60:
+            if(var3) { _fun0007_ip = 60; continue _fun0007 }
+case 61:
             var10 = var4.value;
             var3 = _closure1_slot2;
             var3 = var3.bind(var1)(var10, var6);
             var10 = var3[var9];
             var3 = var5.includes;
             var3 = var3.bind(var5)(var10);
-            if(var3) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+            if(var3) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
             var3 = var5.push;
             var3 = var3.bind(var5)(var10);
-case 61:
+case 62:
             var10 = var8.bind(var1)();
             var3 = var10.done;
             var4 = var10;
-            if(!var3) { _fun0007_ip = 60; continue _fun0007 }
-case 59:
+            if(!var3) { _fun0007_ip = 61; continue _fun0007 }
+case 60:
             var4 = var5.indexOf;
             var3 = arg1;
             var3 = var4.bind(var5)(var3);
             var4 = 'up';
-            if(!(var4 !== var7)) { _fun0007_ip = 63; continue _fun0007 }
+            if(!(var4 !== var7)) { _fun0007_ip = 16; continue _fun0007 }
 case 64:
             var4 = 'down';
             if(!(var4 === var7)) { _fun0007_ip = 65; continue _fun0007 }
@@ -426,7 +426,7 @@ case 66:
             var4 = var3 + var6;
             var5[var4] = var7;
             _fun0007_ip = 65; continue _fun0007;
-case 63:
+case 16:
             var4 = var5[var3];
             var7 = var3 - var6;
             var7 = var5[var7];

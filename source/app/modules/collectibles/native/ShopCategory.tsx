@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var8[var12];
     var15 = var13.bind(var1)(var15);
     var15 = var15.colors;
-    var15 = var15.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+    var15 = var15.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var15;
     var11['padding'] = var14;
     var12 = var8[var12];

@@ -169,11 +169,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -245,12 +245,12 @@ case 0:
                 var1 = var1.size;
                 var3 = 0;
                 var1 = var3 === var1;
-                if(!var1) { _fun0004_ip = 36; continue _fun0004 }
+                if(!var1) { _fun0004_ip = 37; continue _fun0004 }
 case 31:
                 var2 = var2.fetching;
                 var2 = var2.size;
                 var1 = var3 === var2;
-case 36:
+case 37:
                 return var1;
             }
         };
@@ -268,22 +268,22 @@ case 0:
                 var4 = var1.pending;
                 var2 = var4.has;
                 var2 = var2.bind(var4)(var3);
-                if(var2) { _fun0005_ip = 7; continue _fun0005 }
-case 37:
+                if(var2) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var2 = var1.fetching;
                 var1 = var2.has;
                 var2 = var1.bind(var2)(var3);
                 var1 = null;
-                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
-case 2:
+                if(!var2) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var2 = _closure1_slot3;
                 var1 = var2.Fetching;
+case 40:
+                _fun0005_ip = 42; continue _fun0005;
 case 38:
-                _fun0005_ip = 39; continue _fun0005;
-case 7:
                 var2 = _closure1_slot3;
                 var1 = var2.Pending;
-case 39:
+case 42:
                 return var1;
             }
         };
@@ -300,12 +300,12 @@ case 0:
                 var4 = var1.fetching;
                 var2 = var4.has;
                 var2 = var2.bind(var4)(var3);
-                if(var2) { _fun0006_ip = 40; continue _fun0006 }
-case 37:
+                if(var2) { _fun0006_ip = 43; continue _fun0006 }
+case 39:
                 var2 = var1.pending;
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var3);
-case 40:
+case 43:
                 var1 = undefined;
                 return var1;
             }
@@ -363,8 +363,8 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0007_ip = 41; continue _fun0007 }
-case 42:
+                if(var2) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
                 var7 = var3.value;
                 var6 = var5.pending;
                 var2 = var6.delete;
@@ -375,8 +375,8 @@ case 42:
                 var6 = var4.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0007_ip = 42; continue _fun0007 }
-case 41:
+                if(!var2) { _fun0007_ip = 45; continue _fun0007 }
+case 44:
                 return var1;
             }
         };
@@ -395,8 +395,8 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
+                if(var2) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
                 var7 = var3.value;
                 var6 = var5.pending;
                 var2 = var6.delete;
@@ -407,8 +407,8 @@ case 42:
                 var6 = var4.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0008_ip = 42; continue _fun0008 }
-case 41:
+                if(!var2) { _fun0008_ip = 45; continue _fun0008 }
+case 44:
                 return var1;
             }
         };
@@ -427,8 +427,8 @@ case 0:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0009_ip = 41; continue _fun0009 }
-case 42:
+                if(var2) { _fun0009_ip = 44; continue _fun0009 }
+case 45:
                 var7 = var3.value;
                 var6 = var5.pending;
                 var2 = var6.add;
@@ -439,8 +439,8 @@ case 42:
                 var6 = var4.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0009_ip = 42; continue _fun0009 }
-case 41:
+                if(!var2) { _fun0009_ip = 45; continue _fun0009 }
+case 44:
                 return var1;
             }
         };
@@ -458,11 +458,11 @@ case 0:
                     StartGenerator();
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+                    if(var4) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
                     var3 = arg1;
                     var2 = arg2;
-case 45: // try_start_0
+case 48: // try_start_0
                     var6 = var5.markFetching;
                     var4 = var3;
                     var4 = var6.bind(var5)(var4);
@@ -470,12 +470,12 @@ case 45: // try_start_0
                     var2 = undefined;
                     var2 = var4.bind(var2)();
                     SaveGenerator(address=45);
-case 46:
+case 49:
                     return var2;
-case 47:
+case 2:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0010_ip = 35; continue _fun0010 }
-case 48:
+case 50:
                     var6 = var5.markCompleted;
                     var4 = var3;
                     var4 = var6.bind(var5)(var4);
@@ -483,12 +483,12 @@ case 30: // try_end0
                     return var2;
 case 35:
                     return var2;
-case 49: // catch_target0
+case 51: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = var5.markFailed;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 43:
+case 46:
                     return var1;
                 }
             };

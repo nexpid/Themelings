@@ -31,14 +31,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.SafetyToastType;
-    var _closure1_slot7 = var4;
-    var4 = 15;
+    var _closure1_slot6 = var4;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -49,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var1 = var4[var1];
             var5 = undefined;
             var6 = var2.bind(var5)(var1);
             var1 = var6.useSelectedTeen;
             var11 = var1.bind(var6)();
-            var1 = 6;
+            var1 = 5;
             var1 = var4[var1];
             var1 = var2.bind(var5)(var1);
             var4 = var1.ParentalControlledExplicitContent;
@@ -75,7 +71,7 @@ case 5:
             var2 = {};
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var7 = 7;
+            var7 = 6;
             var4 = var4[var7];
             var10 = var6.bind(var5)(var4);
             var6 = var10.resolveExplicitContentSettingWithDefaultsForTeen;
@@ -122,7 +118,7 @@ case 12:
             var2['explicitContentFriendDm'] = var4;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.ExplicitContentRedaction;
@@ -139,13 +135,13 @@ case 4:
 case 0:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var1 = var6[var1];
             var5 = undefined;
             var4 = var2.bind(var5)(var1);
             var1 = var4.useSelectedTeen;
             var4 = var1.bind(var4)();
-            var1 = 6;
+            var1 = 5;
             var1 = var6[var1];
             var1 = var2.bind(var5)(var1);
             var7 = var1.ParentalControlledGoreContent;
@@ -169,7 +165,7 @@ case 16:
             var2 = {};
             var9 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var8 = 7;
+            var8 = 6;
             var7 = var7[var8];
             var9 = var9.bind(var5)(var7);
             var7 = var9.isSetAndNotDefault;
@@ -178,7 +174,7 @@ case 16:
 case 19:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 9;
+            var7 = 8;
             var7 = var10[var7];
             var10 = var9.bind(var5)(var7);
             var9 = var10.resolveGoreSettingWithDefaultsForTeen;
@@ -198,7 +194,7 @@ case 18:
 case 21:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 9;
+            var6 = 8;
             var6 = var8[var6];
             var8 = var7.bind(var5)(var6);
             var7 = var8.resolveGoreSettingWithDefaultsForTeen;
@@ -208,7 +204,7 @@ case 20:
             var2['goreContentFriendDm'] = var4;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.ExplicitContentRedaction;
@@ -225,13 +221,13 @@ case 14:
 case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var5 = var2[var1];
             var1 = undefined;
             var6 = var3.bind(var1)(var5);
             var5 = var6.useSelectedTeen;
             var6 = var5.bind(var6)();
-            var7 = 6;
+            var7 = 5;
             var2 = var2[var7];
             var2 = var3.bind(var1)(var2);
             var8 = var2.ParentalControlledDefaultGuildsRestricted;
@@ -276,13 +272,13 @@ case 24:
 case 0:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 5;
+            var3 = 4;
             var4 = var7[var3];
             var3 = undefined;
             var6 = var5.bind(var3)(var4);
             var4 = var6.useSelectedTeen;
             var6 = var4.bind(var6)();
-            var4 = 6;
+            var4 = 5;
             var4 = var7[var4];
             var4 = var5.bind(var3)(var4);
             var5 = var4.ParentalControlledFriendSourceFlags;
@@ -302,7 +298,7 @@ case 2:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -323,44 +319,15 @@ case 25:
     };
     var3['useAllowFriendsFromMutualGuildsOnlyForTeen'] = var4;
     var4 = function useIsParentallyControlled() {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 11;
-            var2 = var5[var2];
-            var3 = undefined;
-            var7 = var4.bind(var3)(var2);
-            var6 = var7.useStateFromStores;
-            var1 = _closure1_slot5;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = function() {
-                var2 = _closure1_slot5;
-                var1 = var2.getCurrentUser;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var1 = var6.bind(var7)(var2, var1);
-            var2 = 12;
-            var2 = var5[var2];
-            var4 = var4.bind(var3)(var2);
-            var2 = var4.useHasActiveLinks;
-            var2 = var2.bind(var4)();
-            var4 = null;
-            var4 = var4 == var1;
-            if(var4) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
-            var3 = var1.nsfwAllowed;
-case 27:
-            var1 = false;
-            var1 = var1 === var3;
-            if(!var1) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
-            var1 = var2;
-case 29:
-            return var1;
-        }
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useHasActiveParentLinks;
+        var1 = var1.bind(var2)();
+        return var1;
     };
     var3['useIsParentallyControlled'] = var4;
     var2 = function useParentalControlledConsent(arg1) {
@@ -370,7 +337,7 @@ case 29:
             var _closure3_slot0 = var2;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 5;
+            var3 = 4;
             var3 = var6[var3];
             var4 = undefined;
             var7 = var5.bind(var4)(var3);
@@ -381,11 +348,11 @@ case 29:
             var3 = var6[var3];
             var4 = var5.bind(var4)(var3);
             var3 = var4.useStateFromStores;
-            var5 = _closure1_slot6;
+            var5 = _closure1_slot5;
             var2 = new Array(1);
             var2[0] = var5;
             var1 = function() {
-                var4 = _closure1_slot6;
+                var4 = _closure1_slot5;
                 var3 = var4.hasConsented;
                 var2 = _closure3_slot1;
                 var1 = _closure3_slot0;
@@ -402,7 +369,7 @@ case 29:
             var _closure3_slot0 = var5;
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var4 = var4[var2];
             var2 = undefined;
             var6 = var6.bind(var2)(var4);
@@ -416,74 +383,74 @@ case 29:
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                             StartGenerator();
                             var6 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                            if(var2) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                             var2 = undefined;
                             var4 = undefined;
                             var3 = undefined;
                             var8 = _closure3_slot1;
                             var7 = null;
-                            if(!(var7 != var8)) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
-                            if(var6) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
+                            if(!(var7 != var8)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
+                            if(var6) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                             var7 = new Array(0);
-                            _fun0006_ip = 37; continue _fun0006;
-case 35:
+                            _fun0005_ip = 33; continue _fun0005;
+case 31:
                             var9 = _closure3_slot0;
                             var8 = new Array(1);
                             var8[0] = var9;
                             var7 = var8;
-case 37:
+case 33:
                             var4 = var7;
-                            if(var6) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                            if(var6) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                             var7 = _closure3_slot0;
                             var6 = new Array(1);
                             var6[0] = var7;
-                            _fun0006_ip = 40; continue _fun0006;
-case 38:
+                            _fun0005_ip = 36; continue _fun0005;
+case 34:
                             var6 = new Array(0);
-case 40:
+case 36:
                             var3 = var6;
-case 41: // try_start_0
+case 37: // try_start_0
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot2;
-                            var6 = 13;
+                            var6 = 12;
                             var6 = var8[var6];
                             var7 = var7.bind(var2)(var6);
                             var6 = var7.updateTeenConsents;
                             var5 = _closure3_slot1;
                             var3 = var6.bind(var7)(var5, var4, var3);
                             SaveGenerator(address=130);
-case 42:
+case 38:
                             return var3;
-case 43:
+case 39:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(var4) { _fun0006_ip = 44; continue _fun0006 }
+                            if(var4) { _fun0005_ip = 40; continue _fun0005 }
 case 6: // try_end0
-                            _fun0006_ip = 33; continue _fun0006;
-case 44:
+                            _fun0005_ip = 29; continue _fun0005;
+case 40:
                             return var3;
 case 19: // catch_target0
                             CatchBlockStart(arg_register=2);
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var4 = 14;
+                            var4 = 13;
                             var4 = var6[var4];
                             var5 = var5.bind(var2)(var4);
                             var4 = var5.showFailedToast;
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot6;
                             var3 = var3.GENERIC_ERROR;
                             var3 = var4.bind(var5)(var3);
-case 33:
+case 29:
                             return var2;
-case 31:
+case 27:
                             return var1;
                         }
                     };

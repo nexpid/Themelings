@@ -1,24 +1,24 @@
 // app/modules/main_tabs_v2/native/channel/ChannelSafeAreaBottomAnimated.android.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
-    var7 = var9.defineProperty;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var8.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -30,28 +30,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var9 = var8.bind(var1)(var4);
-    var4 = var9.prototype;
-    var8 = Object.create(var4, {constructor: {value: var9}});
-    var12 = 'ChannelSafeAreaBottomAnimated';
-    var13 = var8;
-    var4 = new var13[var9](var12, var11);
-    var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot6 = var4;
     var4 = {};
     var8 = 'function ChannelSafeAreaBottomAnimatedAndroidTsx1(){const{heightSharedValue}=this.__closure;return heightSharedValue.get().toFixed(2);}';
     var4['code'] = var8;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = {};
     var8 = 'function ChannelSafeAreaBottomAnimatedAndroidTsx2(height,lastHeight){const{runOnJS,handleCheckTimer}=this.__closure;if(height===lastHeight)return;runOnJS(handleCheckTimer)();}';
     var4['code'] = var8;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = {};
     var8 = 'function ChannelSafeAreaBottomAnimatedAndroidTsx3(){const{heightSharedValue}=this.__closure;return{height:heightSharedValue.get()};}';
     var4['code'] = var8;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function ChannelSafeAreaBottom(arg1) {
         var1 = arg1;
@@ -69,11 +59,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var5)(var1);
         var9 = var1.bind(var5)(var8);
         var10 = _closure1_slot0;
-        var1 = 4;
+        var1 = 3;
         var8 = var7[var1];
         var11 = var10.bind(var5)(var8);
         var10 = var11.useAnimatedStyle;
-        var8 = function _() {
+        var8 = function c() {
             var1 = {};
             var3 = _closure2_slot0;
             var2 = var3.get;
@@ -86,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8['__closure'] = var12;
         var12 = 15841472600439.0;
         var8['__workletHash'] = var12;
-        var12 = _closure1_slot9;
+        var12 = _closure1_slot8;
         var8['__initData'] = var12;
         var8 = var10.bind(var11)(var8);
         var4 = function useSelfHealingLayoutMonitor(arg1) {
@@ -106,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure3_slot1 = var2;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 4;
+            var10 = 3;
             var2 = var13[var10];
             var4 = var11.bind(var12)(var2);
             var2 = var4.useSharedValue;
@@ -183,43 +173,50 @@ case 4:
 case 0:
                             var3 = _closure3_slot2;
                             var2 = var3.get;
-                            var3 = var2.bind(var3)();
-                            var2 = var3.toFixed;
-                            var5 = 2;
-                            var3 = var2.bind(var3)(var5);
-                            var4 = _closure3_slot0;
+                            var4 = var2.bind(var3)();
+                            var2 = var4.toFixed;
+                            var6 = 2;
+                            var3 = var2.bind(var4)(var6);
+                            var5 = _closure3_slot0;
+                            var2 = var5.get;
+                            var5 = var2.bind(var5)();
+                            var2 = var5.toFixed;
+                            var2 = var2.bind(var5)(var6);
+                            if(!(var3 === var2)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+                            var5 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var2 = 4;
+                            var3 = var3[var2];
+                            var2 = undefined;
+                            var3 = var5.bind(var2)(var3);
+                            var2 = var3.channelSafeAreaBottomLayoutHeightChanged;
+                            var2 = var2.bind(var3)(var4);
+                            _fun0003_ip = 8; continue _fun0003;
+case 6:
+                            var4 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var2 = 4;
+                            var2 = var3[var2];
+                            var3 = undefined;
+                            var6 = var4.bind(var3)(var2);
+                            var5 = var6.channelSafeAreaBottomLayoutHeightMismatch;
+                            var4 = _closure3_slot2;
                             var2 = var4.get;
                             var4 = var2.bind(var4)();
-                            var2 = var4.toFixed;
-                            var2 = var2.bind(var4)(var5);
-                            if(!(var3 !== var2)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-                            var3 = _closure3_slot2;
-                            var2 = var3.get;
-                            var11 = var2.bind(var3)();
-                            var3 = _closure3_slot0;
-                            var2 = var3.get;
-                            var9 = var2.bind(var3)();
-                            var2 = global;
-                            var2 = var2.HermesInternal;
-                            var5 = var2.concat;
-                            var12 = 'ChannelSafeAreaBottom layout height mismatch. (layout: ';
-                            var10 = ', sharedValue: ';
-                            var8 = ')';
-                            var4 = var12[var5](var11, var10, var9, var8, var7);
-                            var3 = _closure1_slot6;
-                            var2 = var3.warn;
-                            var2 = var2.bind(var3)(var4);
-                            var3 = _closure3_slot1;
-                            var2 = undefined;
+                            var7 = _closure3_slot0;
+                            var2 = var7.get;
+                            var2 = var2.bind(var7)();
+                            var2 = var5.bind(var6)(var4, var2);
+                            var2 = _closure3_slot1;
                             var1 = function(arg1) {
                                 var2 = arg1;
                                 var1 = 1;
                                 var1 = var2 + var1;
                                 return var1;
                             };
-                            var1 = var3.bind(var2)(var1);
-case 6:
+                            var1 = var2.bind(var3)(var1);
+case 8:
                             var1 = undefined;
                             return var1;
                         }
@@ -250,7 +247,7 @@ case 6:
             var4 = var13[var10];
             var6 = var11.bind(var12)(var4);
             var5 = var6.useAnimatedReaction;
-            var4 = function c() {
+            var4 = function s() {
                 var2 = _closure3_slot0;
                 var1 = var2.get;
                 var3 = var1.bind(var2)();
@@ -264,18 +261,18 @@ case 6:
             var4['__closure'] = var8;
             var8 = 7538286970630.0;
             var4['__workletHash'] = var8;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4['__initData'] = var8;
-            var1 = function s(arg1, arg2) {
+            var1 = function l(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = arg1;
                     var1 = arg2;
-                    if(!(var2 !== var1)) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
+                    if(!(var2 !== var1)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var2[var1];
                     var2 = undefined;
                     var4 = var3.bind(var2)(var1);
@@ -283,7 +280,7 @@ case 9:
                     var1 = _closure3_slot4;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.bind(var2)();
-case 8:
+case 9:
                     var1 = undefined;
                     return var1;
                 }
@@ -297,7 +294,7 @@ case 8:
             var1['__closure'] = var8;
             var8 = 5948315632356.0;
             var1['__workletHash'] = var8;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var1['__initData'] = var7;
             var1 = var5.bind(var6)(var4, var1);
             var1 = {};

@@ -876,7 +876,7 @@ case 58:
 case 11:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 23;
+                    var6 = 25;
                     var6 = var9[var6];
                     var6 = var8.bind(var1)(var6);
                     var6 = var6.QuestContentCTA;
@@ -885,7 +885,7 @@ case 11:
 case 59:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 23;
+                    var8 = 25;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.QuestContentCTA;
@@ -895,7 +895,7 @@ case 60:
 case 45:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 23;
+                    var7 = 25;
                     var7 = var9[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.QuestContentCTA;
@@ -966,7 +966,7 @@ case 65:
                     var5 = _closure1_slot10;
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 25;
+                    var3 = 26;
                     var3 = var8[var3];
                     var3 = var4.bind(var7)(var3);
                     if(var1) { _fun0009_ip = 66; continue _fun0009 }
@@ -993,7 +993,7 @@ case 64:
                     var5 = _closure1_slot10;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 25;
+                    var2 = 26;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -1020,7 +1020,7 @@ case 69:
             var9 = _closure1_slot10;
             var8 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var5 = 26;
+            var5 = 27;
             var5 = var18[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
@@ -1037,7 +1037,7 @@ case 33:
             var10 = _closure1_slot10;
             var9 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var8 = 27;
+            var8 = 28;
             var8 = var18[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
@@ -1126,7 +1126,7 @@ case 10:
 case 44:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 28;
+            var1 = 29;
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.isSponsoredPlayQuest;
@@ -1192,7 +1192,7 @@ case 84:
             var12 = _closure1_slot10;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 29;
+            var10 = 30;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.WarningIcon;
@@ -1209,7 +1209,7 @@ case 85:
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 30;
+            var11 = 31;
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
@@ -1254,7 +1254,7 @@ case 89:
                 var5 = _closure1_slot10;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 30;
+                var1 = 31;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -1416,7 +1416,7 @@ case 89:
     var2['isInQuestBottomSheet'] = var12;
     var2 = var8.bind(var11)(var2);
     var _closure1_slot15 = var2;
-    var8 = 31;
+    var8 = 32;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

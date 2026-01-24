@@ -215,7 +215,7 @@ case 4:
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+    var13 = var13.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
     var10['backgroundColor'] = var13;
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);

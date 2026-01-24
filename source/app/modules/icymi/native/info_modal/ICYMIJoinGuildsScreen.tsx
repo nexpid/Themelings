@@ -624,7 +624,7 @@ case 32:
             var25 = var27[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.REDESIGN_BUTTON_ACTIVE_TEXT;
+            var25 = var25.CONTROL_CONNECTED_TEXT_DEFAULT;
             var22['color'] = var25;
             var21 = var24.bind(var4)(var23, var22);
 case 31:

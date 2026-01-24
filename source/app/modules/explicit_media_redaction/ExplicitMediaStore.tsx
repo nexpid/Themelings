@@ -235,7 +235,7 @@ case 0:
                 var3 = var3 != var4;
                 if(var1) { _fun0005_ip = 15; continue _fun0005 }
 case 16:
-                var6 = 3;
+                var6 = 4;
                 var5 = var6;
                 if(!var3) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
@@ -247,7 +247,7 @@ case 17:
                 var1 = var1.bind(var4)(var5, var6);
                 return var1;
 case 15:
-                var1 = 4;
+                var1 = 5;
                 if(!var3) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
                 var1 = _closure1_slot10;

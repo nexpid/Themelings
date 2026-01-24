@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.CONTROL_SECONDARY_BORDER_DEFAULT;
+    var13 = var13.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
     var9['borderColor'] = var13;
     var9['backgroundColor'] = var12;
     var4['buttonsBackgroundActive'] = var9;

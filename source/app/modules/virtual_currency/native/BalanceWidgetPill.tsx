@@ -517,11 +517,11 @@ case 20:
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var2 = var2.colors;
-            var3 = var2.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+            var3 = var2.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.colors;
-            var4 = var1.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var4 = var1.CONTROL_SECONDARY_TEXT_DEFAULT;
             _fun0007_ip = 48; continue _fun0007;
 case 46:
             var6 = _closure1_slot1;
@@ -531,11 +531,11 @@ case 46:
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var2 = var2.colors;
-            var3 = var2.REDESIGN_BUTTON_PRIMARY_BACKGROUND;
+            var3 = var2.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.colors;
-            var4 = var1.REDESIGN_BUTTON_PRIMARY_TEXT;
+            var4 = var1.CONTROL_PRIMARY_TEXT_DEFAULT;
 case 48:
             var1 = {};
             var2 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};

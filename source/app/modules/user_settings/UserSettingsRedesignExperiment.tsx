@@ -77,17 +77,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getShowRedesignedNotifications'] = var4;
     var4 = function(arg1) {
         var3 = _closure1_slot0;
-        var2 = var3.useConfig;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.showRedesignedVoiceAndVideo;
-        return var1;
-    };
-    var3['useShowRedesignedVoiceAndVideo'] = var4;
-    var4 = function(arg1) {
-        var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
         var4 = arg1;

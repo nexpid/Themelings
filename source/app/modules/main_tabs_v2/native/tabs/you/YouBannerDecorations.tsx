@@ -125,7 +125,7 @@ case 6:
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+    var14 = var14.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
     var11['backgroundColor'] = var14;
     var5['button'] = var11;
     var11 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};

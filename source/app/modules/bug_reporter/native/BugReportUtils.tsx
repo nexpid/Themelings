@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -204,8 +204,8 @@ case 35:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                    if(var3) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                     var3 = undefined;
                     var9 = undefined;
                     var10 = undefined;
@@ -221,11 +221,11 @@ case 37:
                     var4 = var4.done;
                     var7 = 1;
                     var6 = 2;
-                    if(var4) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                    if(var4) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                     var4 = var9;
                     var11 = var4.value;
-case 40: // try_start_0
+case 41: // try_start_0
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var13 = var4[var7];
@@ -238,12 +238,12 @@ case 40: // try_start_0
                     var4 = var11;
                     var4 = var5.bind(var13)(var4);
                     SaveGenerator(address=128);
-case 41:
-                    return var4;
 case 42:
+                    return var4;
+case 43:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+                    if(var5) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                     var14 = var2;
                     var13 = var14.push;
                     var5 = {};
@@ -253,22 +253,22 @@ case 44:
                     var15 = var4.name;
                     var5['filename'] = var15;
                     var5 = var13.bind(var14)(var5);
-case 45: // try_end0
+case 46: // try_end0
                     var5 = var10;
                     var5 = var5.bind(var3)();
                     var9 = var5;
                     var5 = var5.done;
-                    if(var5) { _fun0004_ip = 38; continue _fun0004 }
-case 46:
-                    _fun0004_ip = 39; continue _fun0004;
-case 43:
+                    if(var5) { _fun0004_ip = 39; continue _fun0004 }
+case 47:
+                    _fun0004_ip = 40; continue _fun0004;
+case 44:
                     return var4;
-case 47: // catch_target0
+case 20: // catch_target0
                     CatchBlockStart(arg_register=3);
                     return var3;
-case 38:
+case 39:
                     return var2;
-case 36:
+case 37:
                     return var1;
                 }
             };

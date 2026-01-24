@@ -169,11 +169,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -242,11 +242,11 @@ case 0:
             var3 = var1.fullname;
             var2 = arg2;
             var2 = var4.bind(var5)(var3, var2);
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(var2) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var2 = false;
             var1['enabled'] = var2;
-case 36:
+case 37:
             return var1;
         }
     };
@@ -260,31 +260,31 @@ case 0:
             var1 = arg1;
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 !== var2)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(!(var1 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var1 = _closure1_slot1;
             var4 = undefined;
             var3 = var1.bind(var4)(var2);
             var2 = var3.bind(var4)();
             var1 = var2.done;
-            if(var1) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(var1) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var6 = var2.value;
             var1 = var5.includes;
             var1 = var1.bind(var5)(var6);
-            if(var1) { _fun0005_ip = 42; continue _fun0005 }
+            if(var1) { _fun0005_ip = 43; continue _fun0005 }
 case 35:
             var1 = false;
             return var1;
-case 42:
+case 43:
             var6 = var3.bind(var4)();
             var1 = var6.done;
             var2 = var6;
-            if(!var1) { _fun0005_ip = 41; continue _fun0005 }
-case 40:
+            if(!var1) { _fun0005_ip = 42; continue _fun0005 }
+case 41:
             var1 = true;
             return var1;
-case 38:
+case 39:
             var1 = false;
             return var1;
         }
@@ -300,14 +300,14 @@ case 0:
             var4 = var3.length;
             var2 = 3;
             var1 = null;
-            if(!(var2 === var4)) { _fun0006_ip = 40; continue _fun0006 }
-case 43:
+            if(!(var2 === var4)) { _fun0006_ip = 41; continue _fun0006 }
+case 44:
             var2 = 0;
             var4 = var3[var2];
             var2 = 'bandwidth_estimation';
             var1 = null;
-            if(!(var2 === var4)) { _fun0006_ip = 40; continue _fun0006 }
-case 5:
+            if(!(var2 === var4)) { _fun0006_ip = 41; continue _fun0006 }
+case 45:
             var2 = 1;
             var4 = var3[var2];
             var3 = var4.split;
@@ -322,7 +322,7 @@ case 5:
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
-case 40:
+case 41:
             return var1;
         }
     };

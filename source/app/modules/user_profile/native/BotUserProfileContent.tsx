@@ -513,7 +513,7 @@ case 27:
             var44 = var27[var44];
             var44 = var11.bind(var5)(var44);
             var44 = var44.colors;
-            var44 = var44.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var44 = var44.CONTROL_SECONDARY_TEXT_DEFAULT;
             var42['color'] = var44;
             var42 = var15.bind(var5)(var43, var42);
             var32['icon'] = var42;

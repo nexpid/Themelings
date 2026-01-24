@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -272,8 +272,8 @@ case 35:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                    if(var2) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                     var3 = global;
                     var4 = var3.performance;
                     var2 = var4.now;
@@ -287,17 +287,17 @@ case 37:
                     var2 = var5.userSearchItems;
                     var5 = var2.bind(var5)();
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0004_ip = 14; continue _fun0004 }
-case 38:
+                    if(!(var2 != var5)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                     var2 = var5.getMany;
                     var2 = var2.bind(var5)();
                     SaveGenerator(address=82);
-case 39:
+case 41:
                     return var2;
-case 40:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
                     var6 = var3.performance;
                     var5 = var6.now;
                     var6 = var5.bind(var6)();
@@ -313,12 +313,12 @@ case 42:
                     var3 = var15[var8](var14, var13, var12, var11, var10);
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 41:
+case 43:
                     return var2;
-case 14:
+case 39:
                     var2 = new Array(0);
                     return var2;
-case 36:
+case 37:
                     return var1;
                 }
             };
@@ -389,14 +389,14 @@ case 0:
                 var7 = var4;
                 var6 = undefined;
                 var4 = undefined;
-                if(var3) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(var3) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var14 = var7.value;
                 var12 = _closure1_slot9;
                 var3 = var12.getUser;
                 var15 = var3.bind(var12)(var14);
-                if(!(var11 != var15)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                if(!(var11 != var15)) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var12 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
@@ -418,26 +418,26 @@ case 46:
                 var3 = var3.bind(var12)(var14);
                 var15 = var11 == var3;
                 var12 = undefined;
-                if(var15) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                if(var15) { _fun0005_ip = 19; continue _fun0005 }
+case 49:
                 var12 = var3.communicationProbability;
-case 47:
+case 19:
                 var16 = var11 != var12;
                 var15 = 0;
-                if(!var16) { _fun0005_ip = 49; continue _fun0005 }
-case 20:
+                if(!var16) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
                 var15 = var12;
-case 49:
+case 50:
                 var13['affinity'] = var15;
                 var5[var14] = var13;
                 var6 = var12;
                 var4 = var3;
-case 45:
+case 47:
                 var12 = var8.bind(var1)();
                 var3 = var12.done;
                 var7 = var12;
-                if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 43:
+                if(!var3) { _fun0005_ip = 46; continue _fun0005 }
+case 45:
                 var4 = _closure1_slot13;
                 var6 = _closure1_slot6;
                 var3 = var6.getGameRelationships;
@@ -460,15 +460,15 @@ case 43:
                 var7 = var4;
                 var6 = undefined;
                 var4 = undefined;
-                if(var3) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(var3) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
                 var3 = var7.value;
                 var14 = _closure1_slot9;
                 var13 = var14.getUser;
                 var12 = var3.id;
                 var16 = var13.bind(var14)(var12);
-                if(!(var11 != var16)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+                if(!(var11 != var16)) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
                 var13 = _closure1_slot0;
                 var12 = _closure1_slot2;
                 var12 = var12[var9];
@@ -493,26 +493,26 @@ case 53:
                 var3 = var12.bind(var15)(var3);
                 var15 = var11 == var3;
                 var12 = undefined;
-                if(var15) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+                if(var15) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
                 var12 = var3.communicationProbability;
-case 54:
+case 56:
                 var16 = var11 != var12;
                 var15 = 0;
-                if(!var16) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+                if(!var16) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
                 var15 = var12;
-case 56:
+case 58:
                 var13['affinity'] = var15;
                 var5[var14] = var13;
                 var6 = var12;
                 var4 = var3;
-case 52:
+case 54:
                 var12 = var8.bind(var1)();
                 var3 = var12.done;
                 var7 = var12;
-                if(!var3) { _fun0005_ip = 51; continue _fun0005 }
-case 50:
+                if(!var3) { _fun0005_ip = 53; continue _fun0005 }
+case 52:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 9;

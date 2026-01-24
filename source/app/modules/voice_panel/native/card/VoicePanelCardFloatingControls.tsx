@@ -477,7 +477,7 @@ case 18:
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND;
+        var15 = var15.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
         var10['backgroundColor'] = var15;
         var4['labelOuterContainer'] = var10;
         var10 = {'display': 'flex', 'flexDirection': 'row', 'marginStart': 4294967292, 'marginEnd': 4294967292};

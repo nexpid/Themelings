@@ -195,7 +195,7 @@ case 0:
             var14['defaultIndex'] = var22;
             var22 = var17.bind(var21)(var14);
             var14 = {};
-            var14['isConsideredAdult'] = var16;
+            var14['ageGroup'] = var16;
             var14['numOfAcceptedRequests'] = var15;
             var14['selectedTab'] = var13;
             var14['selectedTeenId'] = var10;
@@ -230,7 +230,7 @@ case 3:
 case 4:
                     var1 = _closure2_slot5;
                     var1 = var1.current;
-                    var12 = var1.isConsideredAdult;
+                    var13 = var1.ageGroup;
                     var11 = var1.numOfAcceptedRequests;
                     var10 = var1.selectedTab;
                     var9 = var1.selectedTeenId;
@@ -244,6 +244,8 @@ case 4:
                     var1 = _closure1_slot10;
                     var3 = var1.FAMILY_CENTER_VIEWED;
                     var1 = {};
+                    var12 = 'adult';
+                    var12 = var12 === var13;
                     var1['is_considered_adult'] = var12;
                     var1['num_of_accepted_links'] = var11;
                     var1['selected_teen_id'] = var9;

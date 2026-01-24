@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -256,15 +256,15 @@ case 0:
                 var1 = _closure1_slot7;
                 var1 = var1.ADMINISTRATOR;
                 var1 = var2.bind(var3)(var1, var4);
-                if(var1) { _fun0004_ip = 24; continue _fun0004 }
+                if(var1) { _fun0004_ip = 37; continue _fun0004 }
 case 28:
                 var3 = _closure1_slot6;
                 var2 = var3.can;
                 var1 = _closure1_slot7;
                 var1 = var1.CREATE_EVENTS;
                 var1 = var2.bind(var3)(var1, var4);
-                if(var1) { _fun0004_ip = 24; continue _fun0004 }
-case 36:
+                if(var1) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                 var2 = _closure1_slot8;
                 var4 = _closure1_slot3;
                 var3 = var4.getChannels;
@@ -280,17 +280,17 @@ case 36:
                 var5 = 1;
                 var4 = 0;
                 var3 = null;
-                if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                if(var1) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
                 var1 = var2.value;
                 var13 = var1.channel;
                 var1 = _closure2_slot1;
-                if(!(var3 != var1)) { _fun0004_ip = 16; continue _fun0004 }
-case 39:
+                if(!(var3 != var1)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
                 var11 = var13.type;
                 var1 = _closure2_slot1;
-                if(!(var11 === var1)) { _fun0004_ip = 40; continue _fun0004 }
-case 16:
+                if(!(var11 === var1)) { _fun0004_ip = 43; continue _fun0004 }
+case 41:
                 var11 = _closure1_slot0;
                 var1 = _closure1_slot1;
                 var1 = var1[var6];
@@ -303,21 +303,21 @@ case 16:
                 var11 = _closure1_slot6;
                 var1 = var11.can;
                 var1 = var1.bind(var11)(var12, var13);
-                if(var1) { _fun0004_ip = 41; continue _fun0004 }
-case 40:
+                if(var1) { _fun0004_ip = 44; continue _fun0004 }
+case 43:
                 var11 = var7.bind(var8)();
                 var1 = var11.done;
                 var2 = var11;
-                if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 42:
-                _fun0004_ip = 38; continue _fun0004;
-case 41:
+                if(var1) { _fun0004_ip = 39; continue _fun0004 }
+case 45:
+                _fun0004_ip = 40; continue _fun0004;
+case 44:
                 var1 = true;
                 return var1;
-case 37:
+case 39:
                 var1 = false;
                 return var1;
-case 24:
+case 37:
                 var1 = true;
                 return var1;
             }

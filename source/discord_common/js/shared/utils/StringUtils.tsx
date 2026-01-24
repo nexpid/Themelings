@@ -173,11 +173,11 @@ case 33:
                 var3 = 0;
                 var5 = var3 < var2;
                 if(!var5) { _fun0004_ip = 35; continue _fun0004 }
-case 4:
+case 36:
                 var5 = var4[var3];
                 var1[var3] = var5;
                 var3 = var3 + 1;
-                if(var3 < var2) { _fun0004_ip = 4; continue _fun0004 }
+                if(var3 < var2) { _fun0004_ip = 36; continue _fun0004 }
 case 35:
                 return var1;
             }
@@ -199,8 +199,8 @@ case 35:
         var2 = var2.prototype;
         var5 = var2.normalize;
         var2 = null;
-        if(!(var2 != var5)) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+        if(!(var2 != var5)) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
         var5 = function(arg1) {
             var3 = arg1;
             var2 = var3.normalize;
@@ -215,17 +215,17 @@ case 37:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        _fun0001_ip = 38; continue _fun0001;
-case 36:
+        _fun0001_ip = 39; continue _fun0001;
+case 37:
         var5 = function(arg1) {
             var1 = arg1;
             return var1;
         };
-case 38:
+case 39:
         var1 = var1.String;
         var1 = var1.prototype;
         var1 = var1.normalize;
-        if(!(var2 != var1)) { _fun0001_ip = 39; continue _fun0001 }
+        if(!(var2 != var1)) { _fun0001_ip = 17; continue _fun0001 }
 case 40:
         var2 = function fullNormalize(arg1) {
             var5 = arg1;
@@ -273,7 +273,7 @@ case 41:
             return var1;
         };
         _fun0001_ip = 43; continue _fun0001;
-case 39:
+case 17:
         var2 = function(arg1) {
             var1 = arg1;
             return var1;
@@ -347,13 +347,13 @@ case 51:
                 var4 = var7.test;
                 var4 = var4.bind(var7)(var3);
                 if(var4) { _fun0007_ip = 52; continue _fun0007 }
-case 9:
+case 53:
                 var8 = var3.substring;
                 var4 = var6.length;
                 var7 = var10 - var4;
                 var4 = 0;
                 var7 = var8.bind(var3)(var4, var7);
-                _fun0007_ip = 53; continue _fun0007;
+                _fun0007_ip = 54; continue _fun0007;
 case 52:
                 var9 = new Array(0);
                 var8 = 0;
@@ -367,7 +367,7 @@ case 52:
                 var4 = var4.bind(var9)(var8, var3);
                 var3 = var4.join;
                 var7 = var3.bind(var4)(var5);
-case 53:
+case 54:
                 var4 = var7.replace;
                 var3 = /[\s.]+$/;
                 var4 = var4.bind(var7)(var3, var5);
@@ -390,7 +390,7 @@ case 0:
                 var2 = var1 != var6;
                 var5 = '';
                 var1 = var5;
-                if(!var2) { _fun0008_ip = 54; continue _fun0008 }
+                if(!var2) { _fun0008_ip = 55; continue _fun0008 }
 case 45:
                 var4 = var6.replace;
                 var3 = /'s /g;
@@ -408,7 +408,7 @@ case 45:
                 var3 = var4.replace;
                 var2 = /\s/g;
                 var1 = var3.bind(var4)(var2, var5);
-case 54:
+case 55:
                 return var1;
             }
         };
@@ -428,8 +428,8 @@ case 0:
 case 42:
                 var3 = var4.Segmenter;
 case 3:
-                if(!(var8 !== var3)) { _fun0009_ip = 38; continue _fun0009 }
-case 55:
+                if(!(var8 !== var3)) { _fun0009_ip = 39; continue _fun0009 }
+case 56:
                 var3 = _closure1_slot4;
                 var2 = var2.Intl;
                 var2 = var2.Segmenter;
@@ -447,7 +447,7 @@ case 55:
                 var5 = var4;
                 var4 = 0;
                 var2 = 0;
-                if(var3) { _fun0009_ip = 56; continue _fun0009 }
+                if(var3) { _fun0009_ip = 57; continue _fun0009 }
 case 52:
                 var3 = var5.value;
                 var4 = var4 + var6;
@@ -456,9 +456,9 @@ case 52:
                 var5 = var10;
                 var2 = var4;
                 if(!var3) { _fun0009_ip = 52; continue _fun0009 }
-case 56:
+case 57:
                 return var2;
-case 38:
+case 39:
                 var1 = var1.length;
                 return var1;
             }

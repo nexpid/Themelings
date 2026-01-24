@@ -504,21 +504,27 @@ case 59:
         var _closure1_slot9 = var4;
         var9 = var11.addListener;
         var5 = function(arg1) {
-            var2 = arg1;
-            var1 = var2.duration;
-            var2 = var2.endCoordinates;
-            var5 = var2.height;
+            var1 = arg1;
+            var5 = var1.duration;
+            var1 = var1.endCoordinates;
+            var7 = var1.height;
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 12;
+            var3 = var6[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.reactNativeKeyboardDidShow;
+            var3 = var3.bind(var4)(var7);
             var4 = _closure1_slot12;
             var3 = {};
-            var3['keyboardHeight'] = var5;
-            var3['keyboardDuration'] = var1;
+            var3['keyboardHeight'] = var7;
+            var3['keyboardDuration'] = var5;
             var5 = true;
             var3['systemKeyboardOpen'] = var5;
-            var1 = undefined;
             var3 = var4.bind(var1)(var3);
             var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.onKeyboardChanged;
@@ -538,14 +544,20 @@ case 59:
         var5 = var9.bind(var11)(var12, var5);
         var9 = var11.addListener;
         var5 = function() {
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 12;
+            var3 = var6[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.reactNativeKeyboardDidHide;
+            var3 = var3.bind(var4)();
             var4 = _closure1_slot12;
             var5 = false;
-            var1 = undefined;
             var3 = {'keyboardHeight': 0, 'systemKeyboardOpen': false};
             var3 = var4.bind(var1)(var3);
             var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.onKeyboardChanged;
@@ -563,7 +575,7 @@ case 59:
             return var1;
         };
         var5 = var9.bind(var11)(var10, var5);
-        var5 = 13;
+        var5 = 14;
         var5 = var7[var5];
         var8 = var8.bind(var1)(var5);
         var5 = function(arg1) {
@@ -577,7 +589,7 @@ case 59:
             return var1;
         };
         var5 = var8.bind(var1)(var5);
-        var5 = 14;
+        var5 = 15;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;

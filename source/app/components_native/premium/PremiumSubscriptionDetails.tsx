@@ -1017,7 +1017,7 @@ case 63:
     var28 = var10[var28];
     var28 = var19.bind(var1)(var28);
     var28 = var28.colors;
-    var28 = var28.REDESIGN_BUTTON_PRIMARY_BACKGROUND;
+    var28 = var28.CONTROL_PRIMARY_BACKGROUND_DEFAULT;
     var15['color'] = var28;
     var8['buttonText'] = var15;
     var15 = {'alignSelf': 'flex-start', 'flexGrow': 0, 'flexShrink': 0, 'marginLeft': 16, 'marginTop': 2};

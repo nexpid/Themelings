@@ -1613,7 +1613,7 @@ case 96:
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;
-        var3 = var3.REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND;
+        var3 = var3.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
         var2['backgroundColor'] = var3;
         var1['backButton'] = var2;
         return var1;

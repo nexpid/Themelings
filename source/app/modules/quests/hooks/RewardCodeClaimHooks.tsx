@@ -54,7 +54,7 @@ case 3:
                 var4['questContent'] = var11;
                 var10 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var9 = 5;
+                var9 = 6;
                 var7 = var5[var9];
                 var3 = undefined;
                 var7 = var10.bind(var3)(var7);
@@ -79,7 +79,7 @@ case 3:
                 var4['sourceQuestContent'] = var7;
                 var4 = var6.bind(var3)(var4);
                 var4 = _closure1_slot1;
-                var2 = 6;
+                var2 = 7;
                 var2 = var5[var2];
                 var2 = var4.bind(var3)(var2);
                 var1 = _closure2_slot1;
@@ -115,7 +115,7 @@ case 2:
     var5 = metroImportAll;
     var5 = var5.bind(var1)(var8);
     var _closure1_slot5 = var5;
-    var5 = 7;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -391,7 +391,7 @@ case 0:
 case 37:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var5[var2];
             var2 = var3.bind(var12)(var2);
             var2 = var2.QuestContentCTA;

@@ -36,6 +36,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DependentExperiment'] = var6;
     var1 = 'DependentExperiment';
     var2[var6] = var1;
+    var6 = 8;
+    var2['UseAsEligibility'] = var6;
+    var1 = 'UseAsEligibility';
+    var2[var6] = var1;
     var6 = dependencyMap;
     var1 = 0;
     var7 = var6[var1];

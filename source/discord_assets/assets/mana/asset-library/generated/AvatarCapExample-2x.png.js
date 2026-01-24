@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/AvatarCapExample-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/31de922a9807016e85894443fa97960ef7a4a5e70f17a481c7fac116b092836c.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/720023dec422103ddb2897c569e23d0eb6ed9d3d0694df11d873df5f02830bb6.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 25389;
+    var4 = 25327;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -364,7 +364,7 @@ case 0:
             var8 = var5.colors;
             if(var3) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
-            var5 = var8.REDESIGN_BUTTON_SECONDARY_BACKGROUND;
+            var5 = var8.CONTROL_SECONDARY_BACKGROUND_DEFAULT;
             _fun0004_ip = 35; continue _fun0004;
 case 33:
             var5 = var8.CUSTOM_STATUS_BUBBLE_BG;
@@ -377,7 +377,7 @@ case 35:
             var5 = var5.colors;
             if(var3) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var3 = var5.REDESIGN_BUTTON_SECONDARY_BORDER;
+            var3 = var5.CONTROL_SECONDARY_BORDER_DEFAULT;
             _fun0004_ip = 38; continue _fun0004;
 case 36:
             var3 = var5.BORDER_MUTED;
@@ -1057,7 +1057,7 @@ case 121:
             var17 = 'text-md/normal';
 case 120:
             var14['variant'] = var17;
-            var17 = 'redesign-button-secondary-text';
+            var17 = 'control-secondary-text-default';
             var14['color'] = var17;
             var17 = undefined;
             if(!var20) { _fun0005_ip = 122; continue _fun0005 }
@@ -1083,7 +1083,7 @@ case 122:
             var25 = var28[var25];
             var25 = var29.bind(var4)(var25);
             var25 = var25.colors;
-            var25 = var25.REDESIGN_BUTTON_SECONDARY_TEXT;
+            var25 = var25.CONTROL_SECONDARY_TEXT_DEFAULT;
             var23['color'] = var25;
             var25 = 'xs';
             var23['size'] = var25;

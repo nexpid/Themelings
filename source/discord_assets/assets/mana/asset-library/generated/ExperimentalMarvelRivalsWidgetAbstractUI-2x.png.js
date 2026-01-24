@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/ExperimentalMarvelRivalsWidgetAbstractUI-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/6c4cc801b0596482f69fe09aeb1ce177edbc346caaa0623dd554f31f7cabc4fe.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/35b9edaf7f40d76a9fc8eeded924a9b68399c1f0737a026755c5c63c071f7cb3.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 176554;
+    var4 = 173966;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

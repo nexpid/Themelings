@@ -681,7 +681,7 @@ case 18:
         var16 = var15[var17];
         var16 = var18.bind(var4)(var16);
         var16 = var16.colors;
-        var16 = var16.REDESIGN_BUTTON_SECONDARY_TEXT;
+        var16 = var16.CONTROL_SECONDARY_TEXT_DEFAULT;
         var11['color'] = var16;
         var16 = 'lg';
         var11['size'] = var16;

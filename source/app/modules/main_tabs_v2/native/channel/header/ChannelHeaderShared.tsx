@@ -251,38 +251,40 @@ case 14:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.user;
-            var8 = var1.status;
-            var6 = var1.isMobileOnline;
+            var10 = var1.user;
+            var9 = var1.status;
+            var7 = var1.isMobileOnline;
+            var6 = var1.isVROnline;
             var1 = _closure1_slot14;
             var4 = undefined;
             var5 = var1.bind(var4)();
             var3 = _closure1_slot11;
             var2 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var7 = 17;
-            var1 = var11[var7];
+            var12 = _closure1_slot2;
+            var8 = 17;
+            var1 = var12[var8];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['user'] = var9;
-            var12 = var9.avatarDecoration;
-            var1['avatarDecoration'] = var12;
+            var1['user'] = var10;
+            var13 = var10.avatarDecoration;
+            var1['avatarDecoration'] = var13;
             var1['guildId'] = var4;
-            var10 = _closure1_slot0;
-            var7 = var11[var7];
-            var7 = var10.bind(var4)(var7);
-            var7 = var7.AvatarSizes;
-            var7 = var7.REFRESH_MEDIUM_32;
-            var1['size'] = var7;
-            var7 = var9.isSystemUser;
-            var9 = var7.bind(var9)();
-            var7 = null;
-            if(var9) { _fun0003_ip = 16; continue _fun0003 }
+            var11 = _closure1_slot0;
+            var8 = var12[var8];
+            var8 = var11.bind(var4)(var8);
+            var8 = var8.AvatarSizes;
+            var8 = var8.REFRESH_MEDIUM_32;
+            var1['size'] = var8;
+            var8 = var10.isSystemUser;
+            var10 = var8.bind(var10)();
+            var8 = null;
+            if(var10) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-            var7 = var8;
+            var8 = var9;
 case 16:
-            var1['status'] = var7;
-            var1['isMobileOnline'] = var6;
+            var1['status'] = var8;
+            var1['isMobileOnline'] = var7;
+            var1['isVROnline'] = var6;
             var5 = var5.channelIcon;
             var1['style'] = var5;
             var5 = true;
@@ -575,7 +577,7 @@ case 22:
         return var1;
     };
     var3['renderGroupDMIcon'] = var5;
-    var5 = function renderUserAvatar(arg1, arg2, arg3) {
+    var5 = function renderUserAvatar(arg1, arg2, arg3, arg4) {
         var4 = _closure1_slot11;
         var3 = _closure1_slot18;
         var2 = {};
@@ -585,6 +587,8 @@ case 22:
         var2['status'] = var1;
         var1 = arg3;
         var2['isMobileOnline'] = var1;
+        var1 = arg4;
+        var2['isVROnline'] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

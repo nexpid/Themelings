@@ -439,7 +439,7 @@ case 0:
                 var5 = var5.QuestContent;
                 var5 = var5.QUEST_BOTTOM_SHEET;
                 var3['questContent'] = var5;
-                var5 = 28;
+                var5 = 30;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.QuestContentCTA;
@@ -516,7 +516,7 @@ case 23:
             var5 = var5.QuestContent;
             var5 = var5.QUEST_BOTTOM_SHEET;
             var3['questContent'] = var5;
-            var5 = 28;
+            var5 = 30;
             var5 = var7[var5];
             var5 = var6.bind(var1)(var5);
             var5 = var5.QuestContentCTA;
@@ -573,14 +573,14 @@ case 27:
             _closure2_slot0 = var17;
             var10 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 30;
+            var2 = 31;
             var2 = var3[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var13 = var2.bottom;
             var2 = _closure1_slot13;
             var6 = var2.bind(var4)();
-            var2 = 31;
+            var2 = 32;
             var2 = var3[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -608,7 +608,7 @@ case 27:
             var2 = var2.bind(var4)();
             _closure2_slot2 = var2;
             var10 = _closure1_slot0;
-            var11 = 32;
+            var11 = 33;
             var3 = var3[var11];
             var15 = var10.bind(var4)(var3);
             var10 = var15.useSharedValue;
@@ -632,7 +632,7 @@ case 0:
                     var3 = var4.set;
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 33;
+                    var1 = 34;
                     var2 = var2[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var2);
@@ -693,7 +693,7 @@ case 33:
                 var1 = {};
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var3 = 32;
+                var3 = 33;
                 var3 = var10[var3];
                 var8 = undefined;
                 var6 = var9.bind(var8)(var3);
@@ -713,7 +713,7 @@ case 33:
                 var2 = 2.5;
                 var2 = var2 * var11;
                 var7 = var7 - var2;
-                var2 = 34;
+                var2 = 35;
                 var2 = var10[var2];
                 var2 = var9.bind(var8)(var2);
                 var2 = var2.LARGE_BUTTON_HEIGHT;
@@ -735,7 +735,7 @@ case 33:
             var10['windowWidth'] = var16;
             var16 = _closure1_slot12;
             var10['H_PADDING_PX'] = var16;
-            var16 = 34;
+            var16 = 35;
             var16 = var18[var16];
             var16 = var17.bind(var4)(var16);
             var16 = var16.LARGE_BUTTON_HEIGHT;
@@ -869,7 +869,7 @@ case 35:
     var8 = "function QuestBottomSheetFooterTsx2(){const{interpolate,animation,windowWidth,H_PADDING_PX,ICON_SIZE_PX}=this.__closure;return{width:interpolate(animation.get(),[0,1],[windowWidth-H_PADDING_PX*2,windowWidth-H_PADDING_PX*2.5-ICON_SIZE_PX]),alignSelf:'flex-end'};}";
     var5['code'] = var8;
     var _closure1_slot15 = var5;
-    var5 = 35;
+    var5 = 36;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

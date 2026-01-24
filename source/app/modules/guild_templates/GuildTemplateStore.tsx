@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -185,7 +185,7 @@ case 35:
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-case 36: // try_start_0
+case 37: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -204,10 +204,10 @@ case 36: // try_start_0
             var2 = !var2;
             var _closure2_slot0 = var2;
 case 35: // try_end0
-            _fun0004_ip = 37; continue _fun0004;
-case 38: // catch_target0
+            _fun0004_ip = 38; continue _fun0004;
+case 39: // catch_target0
             CatchBlockStart(arg_register=1);
-case 37:
+case 38:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -226,12 +226,12 @@ case 37:
 case 0:
             var4 = arg1;
             var2 = null;
-            if(!(var2 != var4)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(!(var2 != var4)) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var5 = _closure1_slot8;
             var3 = var5.get;
             var5 = var3.bind(var5)(var4);
-            if(!(var2 == var5)) { _fun0005_ip = 41; continue _fun0005 }
+            if(!(var2 == var5)) { _fun0005_ip = 42; continue _fun0005 }
 case 3:
             var3 = {};
             var3['code'] = var4;
@@ -239,7 +239,7 @@ case 3:
             var2 = var2.RESOLVING;
             var3['state'] = var2;
             _fun0005_ip = 30; continue _fun0005;
-case 41:
+case 42:
             var2 = {};
             var8 = var2;
             var7 = var5;
@@ -260,7 +260,7 @@ case 30:
             _closure1_slot8 = var2;
             var1 = var2.set;
             var1 = var1.bind(var2)(var4, var3);
-case 39:
+case 40:
             var1 = undefined;
             return var1;
         }
@@ -294,13 +294,13 @@ case 0:
                 var7 = var3.bind(var1)(var2);
                 var5 = var7;
                 for(var2 in var5)
-case 42:
-                {
 case 43:
+                {
+case 7:
                     var10 = var2;
                     var9 = var7[var10];
                     var8[var10] = var9;
-                    _fun0006_ip = 42; continue _fun0006;
+                    _fun0006_ip = 43; continue _fun0006;
                 }
 case 44:
                 return var1;
@@ -389,7 +389,7 @@ case 0:
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0007_ip = 45; continue _fun0007 }
-case 42:
+case 43:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
@@ -424,7 +424,7 @@ case 0:
                 var3 = arg1;
                 var1 = null;
                 if(!(var1 == var3)) { _fun0008_ip = 47; continue _fun0008 }
-case 40:
+case 41:
                 var1 = undefined;
                 return var1;
 case 47:
@@ -465,31 +465,31 @@ case 0:
                 var5 = null;
                 var4 = var3;
                 if(var2) { _fun0009_ip = 48; continue _fun0009 }
-case 42:
+case 43:
                 var10 = var4.value;
                 var3 = _closure1_slot8;
                 var2 = var3.get;
                 var2 = var2.bind(var3)(var10);
-                if(!(var5 != var2)) { _fun0009_ip = 13; continue _fun0009 }
-case 37:
+                if(!(var5 != var2)) { _fun0009_ip = 49; continue _fun0009 }
+case 38:
                 var3 = var6 in var2;
-                if(!var3) { _fun0009_ip = 13; continue _fun0009 }
-case 49:
-                var3 = var2.sourceGuildId;
-                if(!(var3 === var9)) { _fun0009_ip = 13; continue _fun0009 }
+                if(!var3) { _fun0009_ip = 49; continue _fun0009 }
 case 50:
+                var3 = var2.sourceGuildId;
+                if(!(var3 === var9)) { _fun0009_ip = 49; continue _fun0009 }
+case 51:
                 var10 = var2.state;
                 var3 = _closure1_slot7;
                 var3 = var3.EXPIRED;
-                if(!(var10 === var3)) { _fun0009_ip = 51; continue _fun0009 }
-case 13:
+                if(!(var10 === var3)) { _fun0009_ip = 52; continue _fun0009 }
+case 49:
                 var10 = var7.bind(var1)();
                 var3 = var10.done;
                 var4 = var10;
                 if(var3) { _fun0009_ip = 48; continue _fun0009 }
+case 53:
+                _fun0009_ip = 43; continue _fun0009;
 case 52:
-                _fun0009_ip = 42; continue _fun0009;
-case 51:
                 return var2;
 case 48:
                 return var1;
@@ -593,10 +593,10 @@ case 0:
                 var3 = null;
                 var4 = var3 != var1;
                 var3 = 0;
-                if(!var4) { _fun0010_ip = 53; continue _fun0010 }
-case 54:
+                if(!var4) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                 var3 = var1;
-case 53:
+case 54:
                 var1 = 1;
                 var1 = var3 + var1;
                 var2['usageCount'] = var1;

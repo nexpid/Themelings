@@ -424,10 +424,10 @@ case 7:
             var14 = var14.bind(var4)(var13);
             var13 = var14.isThemeDark;
             var14 = var13.bind(var14)(var15);
-            var13 = 'redesign-button-primary-text';
+            var13 = 'control-primary-text-default';
             if(!var14) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var13 = 'redesign-button-primary-overlay-text';
+            var13 = 'control-overlay-primary-text-default';
 case 9:
             var10['color'] = var13;
             var10 = var12.bind(var4)(var11, var10);

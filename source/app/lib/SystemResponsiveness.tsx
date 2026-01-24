@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 4:
+case 36:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -216,8 +216,8 @@ case 35:
 case 0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                    if(!(var2 != var1)) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 2;
@@ -233,21 +233,21 @@ case 0:
                             var1 = arg1;
                             var3 = var1.type;
                             var2 = 'audio';
-                            if(!(var2 === var3)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                            if(!(var2 === var3)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                             var2 = _closure1_slot5;
                             var1 = var1.pttQueueLatencyMicrosSamples;
                             var3 = null;
-                            if(!(var3 == var1)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+                            if(!(var3 == var1)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                             var1 = new Array(0);
-case 40:
+case 41:
                             var6 = undefined;
                             var5 = var2.bind(var6)(var1);
                             var2 = var5.bind(var6)();
                             var1 = var2.done;
                             var4 = 1000;
-                            if(var1) { _fun0005_ip = 38; continue _fun0005 }
+                            if(var1) { _fun0005_ip = 39; continue _fun0005 }
 case 30:
                             var1 = var2.value;
                             var8 = var1 / var4;
@@ -259,13 +259,13 @@ case 30:
                             var1 = var7.done;
                             var2 = var7;
                             if(!var1) { _fun0005_ip = 30; continue _fun0005 }
-case 38:
+case 39:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var1 = var3.bind(var4)(var2, var1);
-case 36:
+case 37:
                     var1 = undefined;
                     return var1;
                 }

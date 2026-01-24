@@ -102,6 +102,8 @@ case 0:
         var19['QUEST_DEEP_LINK_UTIL'] = var1;
         var1 = 'you_tab_profile_header';
         var19['YOU_TAB_PROFILE_HEADER'] = var1;
+        var1 = 'quest_instructions';
+        var19['QUEST_INSTRUCTIONS'] = var1;
         var1 = 0;
         var6 = var21[var1];
         var5 = metroImportDefault;

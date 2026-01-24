@@ -393,15 +393,15 @@ case 12:
             var8['resizeMode'] = var16;
             var16 = {};
             var21 = _closure1_slot2;
-            if(var18) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(var18) { _fun0002_ip = 9; continue _fun0002 }
+case 13:
             var18 = 22;
             var18 = var21[var18];
-            _fun0002_ip = 15; continue _fun0002;
-case 13:
+            _fun0002_ip = 14; continue _fun0002;
+case 9:
             var20 = 21;
             var18 = var21[var20];
-case 15:
+case 14:
             var18 = var19.bind(var4)(var18);
             var16['uri'] = var18;
             var8['source'] = var16;

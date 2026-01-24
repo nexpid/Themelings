@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.CONTROL_SECONDARY_BORDER_DEFAULT;
+    var16 = var16.MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT;
     var10['borderColor'] = var16;
     var10['borderWidth'] = var15;
     var7['selectionBorder'] = var10;
@@ -424,7 +424,7 @@ case 6:
             var1 = var7[var8];
             var3 = var21.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function L() {
+            var1 = function D() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
-        var2 = var2.EmojiPickerFlashListItemType;
+        var2 = var2.EmojiPickerItemType;
         var2 = var2.PREMIUM_INLINE_ROADBLOCK;
         var1['type'] = var2;
         var2 = arg1;

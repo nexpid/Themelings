@@ -210,7 +210,7 @@ case 8:
                 var7 = var7.QuestContent;
                 var7 = var7.QUEST_HOME_MOBILE;
                 var2['content'] = var7;
-                var7 = 9;
+                var7 = 15;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -254,7 +254,7 @@ case 11:
                     var6 = var6.QuestContent;
                     var6 = var6.QUEST_HOME_MOBILE;
                     var1['content'] = var6;
-                    var6 = 9;
+                    var6 = 15;
                     var6 = var9[var6];
                     var6 = var8.bind(var7)(var6);
                     var6 = var6.QuestContentCTA;
@@ -279,7 +279,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 15;
+                var1 = 16;
                 var2 = var9[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -297,7 +297,7 @@ case 10:
                 var7 = var7.QuestContent;
                 var7 = var7.QUEST_HOME_MOBILE;
                 var5['content'] = var7;
-                var7 = 9;
+                var7 = 15;
                 var7 = var9[var7];
                 var7 = var8.bind(var1)(var7);
                 var7 = var7.QuestContentCTA;
@@ -318,7 +318,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -338,7 +338,7 @@ case 10:
             var11 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -365,7 +365,7 @@ case 0:
                     var3['label'] = var1;
                     var11 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var1 = var9[var1];
                     var7 = undefined;
                     var1 = var11.bind(var7)(var1);
@@ -390,7 +390,7 @@ case 0:
                     var4 = _closure2_slot15;
                     var3['action'] = var4;
                     var6 = _closure1_slot1;
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var9[var4];
                     var4 = var6.bind(var7)(var4);
                     var3['iconSource'] = var4;
@@ -414,7 +414,7 @@ case 12:
                     var5 = var5.WqhZss;
                     var5 = var9.bind(var10)(var5);
                     var4['label'] = var5;
-                    var5 = 19;
+                    var5 = 20;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.CopyIcon;
@@ -444,7 +444,7 @@ case 14:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -534,7 +534,7 @@ case 17:
                 var4 = function action() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 22;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -597,7 +597,7 @@ case 20:
 case 23:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 22;
+                    var3 = 23;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var2 = var3.CheckmarkLargeIcon;
@@ -687,7 +687,7 @@ case 27:
                 var5 = var5.QuestContent;
                 var5 = var5.QUEST_HOME_MOBILE;
                 var2['questContent'] = var5;
-                var5 = 9;
+                var5 = 15;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.QuestContentCTA;
@@ -702,7 +702,7 @@ case 27:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 23;
+            var1 = 24;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ContextMenu;
@@ -715,7 +715,7 @@ case 27:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

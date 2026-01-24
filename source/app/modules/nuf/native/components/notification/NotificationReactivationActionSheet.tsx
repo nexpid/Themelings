@@ -192,11 +192,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var19[var9];
         var10 = var18.bind(var4)(var10);
         var12 = var10.Text;
-        var10 = {};
+        var10 = {'style': null, 'variant': 'heading-xl/bold', 'accessibilityRole': 'header'};
         var13 = var11.title;
         var10['style'] = var13;
-        var13 = 'heading-xl/bold';
-        var10['variant'] = var13;
         var15 = 13;
         var13 = var19[var15];
         var13 = var18.bind(var4)(var13);
