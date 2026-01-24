@@ -329,6 +329,12 @@
     "midnight": "#949cf7",
     "darker": "#949cf7"
   },
+  "CONTROL_CONNECTED_BACKGROUND_ACTIVE": {
+    "dark": "#1f703c",
+    "light": "#1f703c",
+    "midnight": "#1f703c",
+    "darker": "#1f703c"
+  },
   "CONTROL_CONNECTED_BACKGROUND_DEFAULT": {
     "dark": "#248045",
     "light": "#248045",
@@ -341,7 +347,25 @@
     "midnight": "#23a55a",
     "darker": "#23a55a"
   },
+  "CONTROL_CONNECTED_TEXT_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "CONTROL_CRITICAL_PRIMARY_BACKGROUND_ACTIVE": {
+    "dark": "#bb3033",
+    "light": "#bb3033",
+    "midnight": "#bb3033",
+    "darker": "#bb3033"
+  },
   "CONTROL_CRITICAL_PRIMARY_BACKGROUND_DEFAULT": {
+    "dark": "#da373c",
+    "light": "#da373c",
+    "midnight": "#da373c",
+    "darker": "#da373c"
+  },
+  "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": {
     "dark": "#da373c",
     "light": "#da373c",
     "midnight": "#da373c",
@@ -353,11 +377,71 @@
     "midnight": "#ffffff",
     "darker": "#ffffff"
   },
+  "CONTROL_OVERLAY_PRIMARY_BACKGROUND_ACTIVE": {
+    "dark": "#dbdee1",
+    "light": "#dbdee1",
+    "midnight": "#dddee1",
+    "darker": "#dddee1"
+  },
+  "CONTROL_OVERLAY_PRIMARY_BACKGROUND_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "CONTROL_OVERLAY_PRIMARY_BORDER_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "CONTROL_OVERLAY_PRIMARY_TEXT_DEFAULT": {
+    "dark": "#060607",
+    "light": "#060607",
+    "midnight": "#0c0c10",
+    "darker": "#0c0c10"
+  },
+  "CONTROL_OVERLAY_SECONDARY_BACKGROUND_ACTIVE": {
+    "dark": "#000000a3",
+    "light": "#000000a3",
+    "midnight": "#000000a3",
+    "darker": "#000000a3"
+  },
+  "CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT": {
+    "dark": "#0000008a",
+    "light": "#0000008a",
+    "midnight": "#0000008a",
+    "darker": "#0000008a"
+  },
+  "CONTROL_OVERLAY_SECONDARY_BORDER_DEFAULT": {
+    "dark": "#0000008a",
+    "light": "#0000008a",
+    "midnight": "#0000008a",
+    "darker": "#0000008a"
+  },
+  "CONTROL_OVERLAY_SECONDARY_TEXT_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "CONTROL_PRIMARY_BACKGROUND_ACTIVE": {
+    "dark": "#4752c4",
+    "light": "#4752c4",
+    "midnight": "#4752c4",
+    "darker": "#4752c4"
+  },
   "CONTROL_PRIMARY_BACKGROUND_DEFAULT": {
     "dark": "#5865f2",
     "light": "#5865f2",
     "midnight": "#5865f2",
     "darker": "#5865f2"
+  },
+  "CONTROL_PRIMARY_BORDER_DEFAULT": {
+    "dark": "#949cf7",
+    "light": "#5865f2",
+    "midnight": "#7984f5",
+    "darker": "#949cf7"
   },
   "CONTROL_PRIMARY_TEXT_DEFAULT": {
     "dark": "#ffffff",
@@ -376,6 +460,12 @@
     "light": "#6d6f78",
     "midnight": "#2c2d35",
     "darker": "#383a43"
+  },
+  "CONTROL_SECONDARY_BORDER_ACTIVE": {
+    "dark": "#6c6f7c0f",
+    "light": "#0000000a",
+    "midnight": "#6c6f7c14",
+    "darker": "#00000000"
   },
   "CONTROL_SECONDARY_BORDER_DEFAULT": {
     "dark": "#5865f2",
@@ -905,6 +995,24 @@
     "midnight": "#000000",
     "darker": "#1c1d23"
   },
+  "MOBILE_LEGACY_BUTTON_SECONDARY_BACKGROUND_DEFAULT": {
+    "dark": "#5c5e66",
+    "light": "#6d6f78",
+    "midnight": "#2c2d35",
+    "darker": "#383a43"
+  },
+  "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": {
+    "dark": "#5865f2",
+    "light": "#5865f2",
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
+  },
+  "MOBILE_LEGACY_BUTTON_SECONDARY_TEXT_DEFAULT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
   "MOBILE_TEXT_HEADING_PRIMARY": {
     "dark": "#f2f3f5",
     "light": "#060607",
@@ -1079,12 +1187,6 @@
     "midnight": "#000000a3",
     "darker": "#000000a3"
   },
-  "REDESIGN_BUTTON_OVERLAY_ALPHA_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
   "REDESIGN_BUTTON_POSITIVE_BACKGROUND": {
     "dark": "#248045",
     "light": "#248045",
@@ -1115,24 +1217,6 @@
     "midnight": "#b845c1",
     "darker": "#b845c1"
   },
-  "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": {
-    "dark": "#949cf7",
-    "light": "#5865f2",
-    "midnight": "#7984f5",
-    "darker": "#949cf7"
-  },
-  "REDESIGN_BUTTON_PRIMARY_BACKGROUND": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
-  },
-  "REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
   "REDESIGN_BUTTON_PRIMARY_OVERLAY_PRESSED_BACKGROUND": {
     "dark": "#dbdee1",
     "light": "#dbdee1",
@@ -1151,23 +1235,11 @@
     "midnight": "#4752c4",
     "darker": "#4752c4"
   },
-  "REDESIGN_BUTTON_PRIMARY_TEXT": {
-    "dark": "#ffffff",
-    "light": "#ffffff",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
   "REDESIGN_BUTTON_SECONDARY_BACKGROUND": {
     "dark": "#5c5e66",
     "light": "#ffffff",
     "midnight": "#2c2d35",
     "darker": "#383a43"
-  },
-  "REDESIGN_BUTTON_SECONDARY_BORDER": {
-    "dark": "#ffffff14",
-    "light": "#00000014",
-    "midnight": "#6c6f7c24",
-    "darker": "#6c6f7c1f"
   },
   "REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND": {
     "dark": "#0000008a",
@@ -1199,12 +1271,6 @@
     "midnight": "#6c6f7c14",
     "darker": "#6c6f7c0f"
   },
-  "REDESIGN_BUTTON_SECONDARY_TEXT": {
-    "dark": "#dbdee1",
-    "light": "#313338",
-    "midnight": "#dddee1",
-    "darker": "#c7c8ce"
-  },
   "REDESIGN_BUTTON_SELECTED_BACKGROUND": {
     "dark": "#5865f23d",
     "light": "#5865f229",
@@ -1216,12 +1282,6 @@
     "light": "#5865f23d",
     "midnight": "#5865f247",
     "darker": "#5865f247"
-  },
-  "REDESIGN_BUTTON_SELECTED_TEXT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
   },
   "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
     "dark": "#232428",
