@@ -106,24 +106,30 @@ case 5:
     var7 = function keyboardControllerKeyboardDidShow(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 1;
-            var3 = var3[var1];
+            var2 = arguments[1];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isIOS;
-            var3 = var3.bind(var4)();
-            if(var3) { _fun0004_ip = 5; continue _fun0004 }
-case 3:
+            if(!(var2 === var1)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
+            var2 = false;
+case 6:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 1;
+            var4 = var6[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isIOS;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var5 = _closure1_slot2;
             var4 = var5.info;
             var3 = {};
-            var2 = arg1;
-            var3['height'] = var2;
+            var6 = arg1;
+            var3['height'] = var6;
+            var3['rootProvider'] = var2;
             var2 = 'KeyboardController keyboardDidShow.';
             var2 = var4.bind(var5)(var2, var3);
-case 5:
+case 8:
             return var1;
         }
     };
@@ -131,30 +137,36 @@ case 5:
     var7 = function keyboardControllerWorkletEvent(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 1;
-            var3 = var3[var1];
+            var6 = arguments[2];
             var1 = undefined;
+            if(!(var6 === var1)) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
+            var6 = false;
+case 6:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 1;
+            var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0005_ip = 6; continue _fun0005 }
-case 3:
+            if(var3) { _fun0005_ip = 10; continue _fun0005 }
+case 9:
             var5 = _closure1_slot2;
             var4 = var5.info;
             var2 = global;
             var2 = var2.HermesInternal;
-            var7 = var2.concat;
-            var6 = 'KeyboardController worklet ';
+            var8 = var2.concat;
+            var7 = 'KeyboardController worklet ';
             var3 = arg1;
             var2 = '.';
-            var3 = var7.bind(var6)(var3, var2);
+            var3 = var8.bind(var7)(var3, var2);
             var2 = {};
-            var6 = arg2;
-            var2['height'] = var6;
+            var7 = arg2;
+            var2['height'] = var7;
+            var2['rootProvider'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-case 6:
+case 10:
             return var1;
         }
     };
@@ -170,13 +182,13 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0006_ip = 7; continue _fun0006 }
+            if(var3) { _fun0006_ip = 11; continue _fun0006 }
 case 3:
             var4 = _closure1_slot2;
             var3 = var4.info;
             var2 = 'KeyboardController keyboardWillHide.';
             var2 = var3.bind(var4)(var2);
-case 7:
+case 11:
             return var1;
         }
     };
@@ -184,26 +196,33 @@ case 7:
     var7 = function keyboardControllerKeyboardDidHide() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 1;
-            var3 = var3[var1];
+            var2 = arguments[0];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isIOS;
-            var3 = var3.bind(var4)();
-            if(var3) { _fun0007_ip = 7; continue _fun0007 }
-case 3:
-            var4 = _closure1_slot2;
-            var3 = var4.info;
-            var2 = 'KeyboardController keyboardDidHide.';
-            var2 = var3.bind(var4)(var2);
+            if(!(var2 === var1)) { _fun0007_ip = 6; continue _fun0007 }
 case 7:
+            var2 = false;
+case 6:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 1;
+            var4 = var6[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isIOS;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0007_ip = 12; continue _fun0007 }
+case 9:
+            var5 = _closure1_slot2;
+            var4 = var5.info;
+            var3 = {};
+            var3['rootProvider'] = var2;
+            var2 = 'KeyboardController keyboardDidHide.';
+            var2 = var4.bind(var5)(var2, var3);
+case 12:
             return var1;
         }
     };
     var2['keyboardControllerKeyboardDidHide'] = var7;
-    var7 = function keyboardControllerPeriodicHealthCheck(arg1, arg2) {
+    var7 = function keyboardControllerMountEvent(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -214,7 +233,37 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0008_ip = 4; continue _fun0008 }
+            if(var3) { _fun0008_ip = 13; continue _fun0008 }
+case 3:
+            var4 = _closure1_slot2;
+            var3 = var4.info;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var9 = var2.concat;
+            var14 = 'KeyboardController mount event: ';
+            var13 = arg1;
+            var12 = ' from ';
+            var11 = arg2;
+            var10 = '.';
+            var2 = var14[var9](var13, var12, var11, var10, var9);
+            var2 = var3.bind(var4)(var2);
+case 13:
+            return var1;
+        }
+    };
+    var2['keyboardControllerMountEvent'] = var7;
+    var7 = function keyboardControllerPeriodicHealthCheck(arg1, arg2) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isIOS;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0009_ip = 4; continue _fun0009 }
 case 3:
             var5 = _closure1_slot2;
             var4 = var5.warn;
@@ -230,32 +279,7 @@ case 4:
         }
     };
     var2['keyboardControllerPeriodicHealthCheck'] = var7;
-    var7 = function reactNativeKeyboardDidShow(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 1;
-            var3 = var3[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isIOS;
-            var3 = var3.bind(var4)();
-            if(var3) { _fun0009_ip = 5; continue _fun0009 }
-case 3:
-            var5 = _closure1_slot2;
-            var4 = var5.info;
-            var3 = {};
-            var2 = arg1;
-            var3['height'] = var2;
-            var2 = 'ReactNativeKeyboard didShow.';
-            var2 = var4.bind(var5)(var2, var3);
-case 5:
-            return var1;
-        }
-    };
-    var2['reactNativeKeyboardDidShow'] = var7;
-    var7 = function reactNativeKeyboardDidHide() {
+    var7 = function reactNativeKeyboardDidShow(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -266,18 +290,23 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0010_ip = 7; continue _fun0010 }
+            if(var3) { _fun0010_ip = 12; continue _fun0010 }
 case 3:
-            var4 = _closure1_slot2;
-            var3 = var4.info;
-            var2 = 'ReactNativeKeyboard didHide.';
-            var2 = var3.bind(var4)(var2);
-case 7:
+            var5 = _closure1_slot2;
+            var4 = var5.info;
+            var3 = {};
+            var2 = arg1;
+            var3['height'] = var2;
+            var2 = arg2;
+            var3['location'] = var2;
+            var2 = 'ReactNativeKeyboard didShow.';
+            var2 = var4.bind(var5)(var2, var3);
+case 12:
             return var1;
         }
     };
-    var2['reactNativeKeyboardDidHide'] = var7;
-    var7 = function reactNativePeriodicHealthCheck(arg1, arg2) {
+    var2['reactNativeKeyboardDidShow'] = var7;
+    var7 = function reactNativeKeyboardDidHide(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = _closure1_slot0;
@@ -288,7 +317,32 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0011_ip = 4; continue _fun0011 }
+            if(var3) { _fun0011_ip = 5; continue _fun0011 }
+case 3:
+            var5 = _closure1_slot2;
+            var4 = var5.info;
+            var3 = {};
+            var2 = arg1;
+            var3['location'] = var2;
+            var2 = 'ReactNativeKeyboard didHide.';
+            var2 = var4.bind(var5)(var2, var3);
+case 5:
+            return var1;
+        }
+    };
+    var2['reactNativeKeyboardDidHide'] = var7;
+    var7 = function reactNativePeriodicHealthCheck(arg1, arg2) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isIOS;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0012_ip = 4; continue _fun0012 }
 case 3:
             var5 = _closure1_slot2;
             var4 = var5.warn;
@@ -305,7 +359,7 @@ case 4:
     };
     var2['reactNativePeriodicHealthCheck'] = var7;
     var4 = function markPotentialBadState() {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -315,13 +369,13 @@ case 0:
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0012_ip = 8; continue _fun0012 }
+            if(var3) { _fun0013_ip = 14; continue _fun0013 }
 case 3:
             var4 = _closure1_slot2;
             var3 = var4.warn;
             var2 = 'Marking potential bad state from user, check logs above.';
             var2 = var3.bind(var4)(var2);
-case 8:
+case 14:
             return var1;
         }
     };

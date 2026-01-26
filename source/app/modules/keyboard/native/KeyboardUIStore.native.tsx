@@ -513,9 +513,10 @@ case 59:
             var1 = 12;
             var3 = var6[var1];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.reactNativeKeyboardDidShow;
-            var3 = var3.bind(var4)(var7);
+            var8 = var4.bind(var1)(var3);
+            var4 = var8.reactNativeKeyboardDidShow;
+            var3 = 'KeyboardUIStore';
+            var3 = var4.bind(var8)(var7, var3);
             var4 = _closure1_slot12;
             var3 = {};
             var3['keyboardHeight'] = var7;
@@ -549,9 +550,10 @@ case 59:
             var1 = 12;
             var3 = var6[var1];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.reactNativeKeyboardDidHide;
-            var3 = var3.bind(var4)();
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.reactNativeKeyboardDidHide;
+            var3 = 'KeyboardUIStore';
+            var3 = var4.bind(var5)(var3);
             var4 = _closure1_slot12;
             var5 = false;
             var3 = {'keyboardHeight': 0, 'systemKeyboardOpen': false};

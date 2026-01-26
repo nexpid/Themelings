@@ -78,7 +78,7 @@
 { "file": "app/actions/RTCLatencyTestActionCreators.tsx", "size": 2171 }
 { "file": "app/actions/SelectedChannelActionCreators.tsx", "size": 7472 }
 { "file": "app/actions/SelectedChannelActionCreatorsAdditional.native.tsx", "size": 8079 }
-{ "file": "app/actions/SKUActionCreators.tsx", "size": 60656 }
+{ "file": "app/actions/SKUActionCreators.tsx", "size": 60657 }
 { "file": "app/actions/StoreListingActionCreators.tsx", "size": 15926 }
 { "file": "app/actions/StreamActionCreators.tsx", "size": 29554 }
 { "file": "app/actions/SubscriptionPlanActionCreators.tsx", "size": 10959 }
@@ -1020,7 +1020,7 @@
 { "file": "app/lib/ModalRegistry.tsx", "size": 11549 }
 { "file": "app/lib/MuteTimers.tsx", "size": 8122 }
 { "file": "app/lib/native/BundleUpdater.tsx", "size": 10965 }
-{ "file": "app/lib/native/FastList.tsx", "size": 226943 }
+{ "file": "app/lib/native/FastList.tsx", "size": 226942 }
 { "file": "app/lib/native/Linking.tsx", "size": 2482 }
 { "file": "app/lib/NetworkQuality.tsx", "size": 9078 }
 { "file": "app/lib/NetworkTtlCache.tsx", "size": 12969 }
@@ -1773,7 +1773,7 @@
 { "file": "app/modules/build_overrides/validateBuildOverride.tsx", "size": 16766 }
 { "file": "app/modules/cache/CacheActionCreators.tsx", "size": 4892 }
 { "file": "app/modules/cache/CacheManager.native.tsx", "size": 11123 }
-{ "file": "app/modules/cache/CacheStore.tsx", "size": 119116 }
+{ "file": "app/modules/cache/CacheStore.tsx", "size": 119119 }
 { "file": "app/modules/cache/ClientStateStoreStorage.native.tsx", "size": 2517 }
 { "file": "app/modules/cache/deserializeChannels.tsx", "size": 10607 }
 { "file": "app/modules/cache/isCacheEnabled.native.tsx", "size": 733 }
@@ -4077,13 +4077,13 @@
 { "file": "app/modules/js_watchdog/native/JSWatchdogExperiment.tsx", "size": 1073 }
 { "file": "app/modules/js_watchdog/native/JSWatchdogManager.android.tsx", "size": 26921 }
 { "file": "app/modules/keyboard_shortcuts/web/bindGlobalHelper.tsx", "size": 1360 }
-{ "file": "app/modules/keyboard/KeyboardStateDebugging.tsx", "size": 11162 }
+{ "file": "app/modules/keyboard/KeyboardStateDebugging.tsx", "size": 12939 }
 { "file": "app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx", "size": 2016 }
 { "file": "app/modules/keyboard/native/AnimatedKeyboardProvider.android.tsx", "size": 934 }
-{ "file": "app/modules/keyboard/native/AnimatedKeyboardProviderController.tsx", "size": 7611 }
+{ "file": "app/modules/keyboard/native/AnimatedKeyboardProviderController.tsx", "size": 14598 }
 { "file": "app/modules/keyboard/native/KeyboardAwareView.tsx", "size": 9660 }
 { "file": "app/modules/keyboard/native/KeyboardTypes.tsx", "size": 871 }
-{ "file": "app/modules/keyboard/native/KeyboardUIStore.native.tsx", "size": 26170 }
+{ "file": "app/modules/keyboard/native/KeyboardUIStore.native.tsx", "size": 26256 }
 { "file": "app/modules/keyboard/native/KeyCommandsView.tsx", "size": 16688 }
 { "file": "app/modules/keyboard/native/openCustomKeyboard.android.tsx", "size": 3285 }
 { "file": "app/modules/keyboard/native/PortalKeyboard.tsx", "size": 3596 }
@@ -4217,7 +4217,7 @@
 { "file": "app/modules/main_tabs_v2/native/channel/SwipeForMemberListWrapper.tsx", "size": 51732 }
 { "file": "app/modules/main_tabs_v2/native/channel/useChannelSafeAreaBottomStyles.tsx", "size": 14676 }
 { "file": "app/modules/main_tabs_v2/native/channel/useChannelSafeAreaHeightSharedValue.android.tsx", "size": 4782 }
-{ "file": "app/modules/main_tabs_v2/native/channel/useSafeAreaBottomKeyboardInfoController.tsx", "size": 16094 }
+{ "file": "app/modules/main_tabs_v2/native/channel/useSafeAreaBottomKeyboardInfoController.tsx", "size": 18985 }
 { "file": "app/modules/main_tabs_v2/native/ConnectionIndicator.tsx", "size": 19616 }
 { "file": "app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx", "size": 1303 }
 { "file": "app/modules/main_tabs_v2/native/friends/components/ActionStatusSubLabel.tsx", "size": 20312 }
@@ -5553,7 +5553,7 @@
 { "file": "app/modules/premium/referral_program/hooks/useReferralProgramSubheaderText.tsx", "size": 5064 }
 { "file": "app/modules/premium/referral_program/native/ReferralProgramPerkCard.tsx", "size": 17798 }
 { "file": "app/modules/premium/referral_program/native/ReferralProgramShareActionSheet.tsx", "size": 39696 }
-{ "file": "app/modules/premium/referral_program/native/ReferralProgramShareConfirmationActionSheet.tsx", "size": 17109 }
+{ "file": "app/modules/premium/referral_program/native/ReferralProgramShareConfirmationActionSheet.tsx", "size": 17111 }
 { "file": "app/modules/premium/referral_program/ReferralProgramUtils.tsx", "size": 9144 }
 { "file": "app/modules/premium/ReferralTrialActionCreators.tsx", "size": 35169 }
 { "file": "app/modules/premium/ReferralTrialStore.tsx", "size": 32804 }
@@ -5833,8 +5833,8 @@
 { "file": "app/modules/replies/ReferencedMessageStore.tsx", "size": 45173 }
 { "file": "app/modules/reply_nudge/ReplyNudgeActionCreators.tsx", "size": 1257 }
 { "file": "app/modules/reply_nudge/ReplyNudgeExperiment.tsx", "size": 3660 }
-{ "file": "app/modules/reply_nudge/ReplyNudgeManager.tsx", "size": 38029 }
-{ "file": "app/modules/reply_nudge/ReplyNudgeStore.tsx", "size": 10431 }
+{ "file": "app/modules/reply_nudge/ReplyNudgeManager.tsx", "size": 38803 }
+{ "file": "app/modules/reply_nudge/ReplyNudgeStore.tsx", "size": 11959 }
 { "file": "app/modules/report_to_mod/getGuildModeratorReportChannelId.tsx", "size": 1280 }
 { "file": "app/modules/report_to_mod/getGuildModeratorReportingEnabled.tsx", "size": 1258 }
 { "file": "app/modules/report_to_mod/hooks/useReportToModHooks.tsx", "size": 9257 }
@@ -8675,7 +8675,7 @@
 { "file": "discord_common/js/packages/storage/Storage.tsx", "size": 741 }
 { "file": "discord_common/js/packages/time-utils/TimeUtils.tsx", "size": 37895 }
 { "file": "discord_common/js/packages/timers/Timers.tsx", "size": 9719 }
-{ "file": "discord_common/js/packages/tokens/colors/generated/native/generated-definitions.tsx", "size": 134492 }
+{ "file": "discord_common/js/packages/tokens/colors/generated/native/generated-definitions.tsx", "size": 124335 }
 { "file": "discord_common/js/packages/tokens/colors/generated/raw-color-definitions.tsx", "size": 49401 }
 { "file": "discord_common/js/packages/tokens/native.tsx", "size": 13030 }
 { "file": "discord_common/js/packages/tokens/radii/generated/generated-definitions.tsx", "size": 780 }
