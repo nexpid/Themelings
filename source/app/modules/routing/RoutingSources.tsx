@@ -19,6 +19,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var8 = 'invite_accept';
     var4['INVITE_ACCEPT'] = var8;
+    var8 = 'user_navigated_back';
+    var4['USER_NAVIGATED_BACK'] = var8;
+    var8 = 'user_navigated_forward';
+    var4['USER_NAVIGATED_FORWARD'] = var8;
     var8 = var2.Set;
     var9 = var5.EMBED;
     var2 = new Array(2);

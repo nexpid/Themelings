@@ -52,6 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['COPIED_LEADERBOARD_ROW'] = var2;
     var1 = 'COPIED_LEADERBOARD_ROW';
     var5[var2] = var1;
+    var2 = 10;
+    var5['APPLICATION_WIDGET_PREVIEW_VIEW_MORE'] = var2;
+    var1 = 'APPLICATION_WIDGET_PREVIEW_VIEW_MORE';
+    var5[var2] = var1;
     var2 = {};
     var2['SPOTIFY'] = var11;
     var1 = 'SPOTIFY';

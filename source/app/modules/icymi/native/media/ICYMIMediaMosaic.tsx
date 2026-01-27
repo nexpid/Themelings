@@ -1691,14 +1691,14 @@ case 82:
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                     var1 = arg1;
-                    var6 = var1.ref;
-                    var7 = var1.initialIndex;
-                    var5 = _closure1_slot1;
+                    var5 = var1.ref;
+                    var6 = var1.initialIndex;
+                    var8 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 23;
-                    var8 = var4[var3];
+                    var7 = var4[var3];
                     var1 = undefined;
-                    var15 = var5.bind(var1)(var8);
+                    var15 = var8.bind(var1)(var7);
                     var14 = var15.itemInteracted;
                     var9 = _closure2_slot0;
                     var13 = var9.id;
@@ -1706,14 +1706,14 @@ case 0:
                     var11 = 'press_media';
                     var11 = var14.bind(var15)(var13, var12, var11);
                     var3 = var4[var3];
-                    var12 = var5.bind(var1)(var3);
+                    var12 = var8.bind(var1)(var3);
                     var11 = var12.feedItemActioned;
                     var3 = {};
-                    var5 = var9.id;
-                    var3['itemId'] = var5;
-                    var5 = _closure2_slot3;
-                    var3['itemType'] = var5;
-                    var5 = null;
+                    var8 = var9.id;
+                    var3['itemId'] = var8;
+                    var8 = _closure2_slot3;
+                    var3['itemType'] = var8;
+                    var8 = null;
                     var13 = {'actionGestureType': 'press', 'actionTargetElement': 'media_mosaic', 'actionIntentType': 'open', 'actionDestinationType': null};
                     var3['actionParameters'] = var13;
                     var3 = var11.bind(var12)(var3);
@@ -1765,48 +1765,42 @@ case 0:
                     var10 = false;
                     var2['disableDownload'] = var10;
                     var2['initialSources'] = var9;
-                    var2['initialIndex'] = var7;
-                    var7 = 'Channel';
-                    var2['analyticsSource'] = var7;
-                    var7 = _closure2_slot4;
-                    var9 = var5 == var7;
-                    var7 = undefined;
+                    var2['initialIndex'] = var6;
+                    var6 = 'Channel';
+                    var2['analyticsSource'] = var6;
+                    var6 = _closure2_slot4;
+                    var9 = var8 == var6;
+                    var6 = undefined;
                     if(var9) { _fun0016_ip = 84; continue _fun0016 }
 case 85:
                     var9 = _closure2_slot4;
-                    var7 = var9.guild_id;
+                    var6 = var9.guild_id;
 case 84:
-                    var2['guildId'] = var7;
-                    var7 = _closure2_slot0;
-                    var7 = var7.channel_id;
-                    var2['channelId'] = var7;
-                    var7 = _closure2_slot4;
-                    var9 = var5 == var7;
-                    var7 = undefined;
+                    var2['guildId'] = var6;
+                    var6 = _closure2_slot0;
+                    var6 = var6.channel_id;
+                    var2['channelId'] = var6;
+                    var6 = _closure2_slot4;
+                    var9 = var8 == var6;
+                    var6 = undefined;
                     if(var9) { _fun0016_ip = 86; continue _fun0016 }
 case 87:
                     var9 = _closure2_slot4;
-                    var7 = var9.type;
+                    var6 = var9.type;
 case 86:
-                    var2['channelType'] = var7;
-                    var7 = _closure2_slot4;
-                    var9 = var5 == var7;
-                    var7 = undefined;
-                    if(var9) { _fun0016_ip = 88; continue _fun0016 }
+                    var2['channelType'] = var6;
+                    var6 = _closure2_slot4;
+                    var8 = var8 == var6;
+                    var6 = undefined;
+                    if(var8) { _fun0016_ip = 88; continue _fun0016 }
 case 89:
-                    var8 = _closure2_slot4;
-                    var7 = var8.name;
+                    var7 = _closure2_slot4;
+                    var6 = var7.name;
 case 88:
-                    var2['contextName'] = var7;
+                    var2['contextName'] = var6;
                     var2['contextIcon'] = var1;
-                    var6 = var6.current;
-                    var7 = var5 != var6;
-                    var5 = undefined;
-                    if(!var7) { _fun0016_ip = 90; continue _fun0016 }
-case 91:
-                    var5 = var6;
-case 90:
-                    var2['origin'] = var5;
+                    var5 = var5.current;
+                    var2['originViewOrOriginLayout'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
@@ -1815,12 +1809,12 @@ case 90:
             _closure2_slot7 = var14;
             var1 = var15.length;
             var4 = 0;
-            if(!(var4 === var1)) { _fun0015_ip = 92; continue _fun0015 }
-case 93:
+            if(!(var4 === var1)) { _fun0015_ip = 90; continue _fun0015 }
+case 91:
             var3 = var11.length;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0015_ip = 94; continue _fun0015 }
-case 92:
+            if(!(var4 !== var3)) { _fun0015_ip = 92; continue _fun0015 }
+case 90:
             var5 = _closure1_slot15;
             var4 = _closure1_slot6;
             var3 = {};
@@ -1838,8 +1832,8 @@ case 92:
             var7[0] = var10;
             var10 = var8 == var11;
             var8 = undefined;
-            if(var10) { _fun0015_ip = 95; continue _fun0015 }
-case 96:
+            if(var10) { _fun0015_ip = 93; continue _fun0015 }
+case 94:
             var10 = var11.map;
             var9 = function(arg1, arg2) {
                 var6 = arg2;
@@ -1868,7 +1862,7 @@ case 96:
                 return var1;
             };
             var8 = var10.bind(var11)(var9);
-case 95:
+case 93:
             var7[1] = var8;
             var3['children'] = var7;
             var8 = var2.id;
@@ -1878,7 +1872,7 @@ case 95:
             var2 = 'message-image-';
             var2 = var7.bind(var2)(var8);
             var1 = var5.bind(var6)(var4, var3, var2);
-case 94:
+case 92:
             return var1;
         }
     };

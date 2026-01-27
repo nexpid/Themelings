@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var4.bind(var5)(var3, var1, var2);
     var2 = {};
     var1 = function canUseInstallationId() {
-        var1 = false;
+        var1 = true;
         return var1;
     };
     var2['canUseInstallationId'] = var1;

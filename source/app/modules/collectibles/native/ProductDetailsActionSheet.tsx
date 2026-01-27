@@ -1,4 +1,4 @@
-// app/modules/collectibles/native/ShopProductPreviewActionSheet.tsx
+// app/modules/collectibles/native/ProductDetailsActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var11 = metroImportDefault;
@@ -57,18 +57,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 21;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/native/ShopProductPreviewActionSheet.tsx';
+    var4 = 'modules/collectibles/native/ProductDetailsActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function ShopProductPreviewActionSheet(arg1) {
+    var2 = function ProductDetailsActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var18 = var1.product;
-            var _closure2_slot0 = var18;
+            var27 = var1.product;
+            var _closure2_slot0 = var27;
             var1 = var1.analyticsLocations;
             var4 = undefined;
             if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -92,10 +92,10 @@ case 2:
             var2 = var6.useState;
             var8 = 0;
             var2 = var2.bind(var6)(var8);
-            var23 = _closure1_slot3;
+            var28 = _closure1_slot3;
             var9 = 2;
-            var2 = var23.bind(var4)(var2, var9);
-            var24 = var2[var8];
+            var2 = var28.bind(var4)(var2, var9);
+            var25 = var2[var8];
             var3 = 1;
             var15 = var2[var3];
             var14 = _closure1_slot1;
@@ -104,10 +104,10 @@ case 2:
             var2 = var20[var5];
             var12 = var14.bind(var4)(var2);
             var2 = new Array(1);
-            var30 = var2;
-            var29 = var1;
-            var28 = 0;
-            var16 = arraySpread(var30, var29, var28);
+            var33 = var2;
+            var32 = var1;
+            var31 = 0;
+            var16 = arraySpread(var33, var32, var31);
             var17 = 11;
             var17 = var20[var17];
             var17 = var14.bind(var4)(var17);
@@ -119,20 +119,35 @@ case 2:
             var2 = var6.useState;
             var16 = true;
             var2 = var2.bind(var6)(var16);
-            var2 = var23.bind(var4)(var2, var9);
-            var26 = var2[var8];
+            var2 = var28.bind(var4)(var2, var9);
+            var29 = var2[var8];
             var2 = var2[var3];
             _closure2_slot3 = var2;
+            var19 = var6.useState;
             var12 = _closure1_slot0;
-            var19 = 12;
+            var18 = 12;
+            var18 = var20[var18];
+            var23 = var12.bind(var4)(var18);
+            var18 = var23.getDefaultVariantIndex;
+            var18 = var18.bind(var23)(var27);
+            var18 = var19.bind(var6)(var18);
+            var18 = var28.bind(var4)(var18, var9);
+            var26 = var18[var8];
+            var24 = var18[var3];
+            var18 = 13;
+            var18 = var20[var18];
+            var19 = var12.bind(var4)(var18);
+            var18 = var19.getSelectedProduct;
+            var18 = var18.bind(var19)(var27, var26);
+            var19 = 14;
             var19 = var20[var19];
-            var25 = var12.bind(var4)(var19);
-            var19 = var25.usePreviewCollectibleProduct;
-            var19 = var19.bind(var25)(var18, var26);
-            var25 = {};
-            var25['product'] = var18;
-            var25['analyticsLocations'] = var17;
-            var25['setShouldReset'] = var2;
+            var23 = var12.bind(var4)(var19);
+            var19 = var23.usePreviewCollectibleProduct;
+            var19 = var19.bind(var23)(var18, var29);
+            var23 = {};
+            var23['product'] = var27;
+            var23['analyticsLocations'] = var17;
+            var23['setShouldReset'] = var2;
             var19 = function useHandlePreviewPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -185,7 +200,7 @@ case 0:
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
-                            var2 = var3.openProductDetailActionSheet;
+                            var2 = var3.openProductDetailsActionSheet;
                             var1 = {};
                             var5 = _closure3_slot0;
                             var1['product'] = var5;
@@ -212,10 +227,10 @@ case 4:
                     return var1;
                 }
             };
-            var25 = var19.bind(var4)(var25);
-            var26 = _closure1_slot5;
+            var23 = var19.bind(var4)(var23);
+            var29 = _closure1_slot5;
             var19 = new Array(2);
-            var19[0] = var18;
+            var19[0] = var27;
             var19[1] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -239,10 +254,10 @@ case 6:
                     return var1;
                 }
             };
-            var19 = var26.bind(var4)(var2, var19);
+            var19 = var29.bind(var4)(var2, var19);
             var2 = var6.useState;
             var2 = var2.bind(var6)(var3);
-            var2 = var23.bind(var4)(var2, var9);
+            var2 = var28.bind(var4)(var2, var9);
             var9 = var2[var8];
             _closure2_slot4 = var9;
             var2 = var2[var3];
@@ -272,16 +287,16 @@ case 8:
                     return var1;
                 }
             };
-            var23 = var8.bind(var6)(var2, var3);
+            var28 = var8.bind(var6)(var2, var3);
             var3 = var6.useEffect;
             var2 = new Array(2);
             var2[0] = var1;
-            var1 = var18.skuId;
+            var1 = var27.skuId;
             var2[1] = var1;
             var1 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 13;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -301,7 +316,7 @@ case 8:
             };
             var1 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot7;
-            var1 = 14;
+            var1 = 16;
             var1 = var20[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.ThemeContextProvider;
@@ -312,7 +327,7 @@ case 8:
             var5 = {};
             var5['value'] = var17;
             var9 = _closure1_slot8;
-            var7 = 15;
+            var7 = 17;
             var7 = var20[var7];
             var7 = var12.bind(var4)(var7);
             var8 = var7.BottomSheet;
@@ -338,53 +353,64 @@ case 9:
             };
             var7['onExpand'] = var11;
             var7['ref'] = var10;
-            var10 = 16;
+            var10 = 18;
             var10 = var20[var10];
             var10 = var12.bind(var4)(var10);
             var11 = var10.BottomSheetScrollView;
             var10 = {};
-            var10['onLayout'] = var23;
-            var23 = false;
-            var10['scrollsToTop'] = var23;
-            var23 = var22.container;
-            var22 = new Array(1);
-            var22[0] = var23;
+            var10['onLayout'] = var28;
+            var28 = false;
+            var10['scrollsToTop'] = var28;
+            var22 = var22.container;
             var10['style'] = var22;
             var22 = {};
-            var22['bottom'] = var24;
+            var22['bottom'] = var25;
             var10['scrollIndicatorInsets'] = var22;
             var10['ref'] = var21;
-            var22 = 17;
-            var21 = var20[var22];
+            var21 = 19;
+            var21 = var20[var21];
             var21 = var12.bind(var4)(var21);
-            var23 = var21.PreviewContent;
+            var22 = var21.ProductDetailsActionSheetPreview;
             var21 = {};
             var21['product'] = var18;
-            var21['handlePreviewPress'] = var25;
-            var23 = var3.bind(var4)(var23, var21);
-            var21 = new Array(3);
-            var21[0] = var23;
-            var22 = var20[var22];
-            var22 = var12.bind(var4)(var22);
-            var23 = var22.ProductDetailsV2;
-            var22 = {};
-            var22['product'] = var18;
-            var22['onBuy'] = var19;
-            var22['analyticsLocations'] = var17;
-            var22 = var3.bind(var4)(var23, var22);
-            var21[1] = var22;
-            var22 = 18;
+            var21['handlePreviewPress'] = var23;
+            var22 = var3.bind(var4)(var22, var21);
+            var21 = new Array(4);
+            var21[0] = var22;
+            var22 = 20;
             var22 = var20[var22];
             var23 = var14.bind(var4)(var22);
             var22 = {};
-            var22['size'] = var24;
+            var22['product'] = var18;
+            var22 = var3.bind(var4)(var23, var22);
+            var21[1] = var22;
+            var22 = 21;
+            var22 = var20[var22];
+            var23 = var14.bind(var4)(var22);
+            var22 = {};
+            var22['product'] = var27;
+            var22['selectedVariantIndex'] = var26;
+            var22['onVariantSelect'] = var24;
             var22 = var3.bind(var4)(var23, var22);
             var21[2] = var22;
+            var22 = 22;
+            var22 = var20[var22];
+            var23 = var14.bind(var4)(var22);
+            var22 = {};
+            var24 = 5;
+            var24 = var20[var24];
+            var24 = var14.bind(var4)(var24);
+            var24 = var24.spacing;
+            var24 = var24.PX_32;
+            var24 = var25 + var24;
+            var22['size'] = var24;
+            var22 = var3.bind(var4)(var23, var22);
+            var21[3] = var22;
             var10['children'] = var21;
             var11 = var9.bind(var4)(var11, var10);
             var10 = new Array(2);
             var10[0] = var11;
-            var11 = 19;
+            var11 = 23;
             var11 = var20[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.NativePaymentContextProvider;
@@ -392,7 +418,7 @@ case 9:
             var21 = new Array(0);
             var11['skuIDs'] = var21;
             var11['activeSubscription'] = var13;
-            var13 = 20;
+            var13 = 24;
             var13 = var20[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};

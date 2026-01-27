@@ -331,8 +331,8 @@ case 43:
         }
     };
     var _closure1_slot19 = var1;
-    var4 = global;
-    var10 = var4.Object;
+    var2 = global;
+    var10 = var2.Object;
     var9 = var10.defineProperty;
     var7 = {};
     var1 = true;
@@ -373,31 +373,31 @@ case 43:
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.KkvStore;
-    var9 = var4.Map;
+    var9 = var2.Map;
     var10 = var9.prototype;
     var10 = Object.create(var10, {constructor: {value: var9}});
     var14 = var10;
     var9 = new var14[var9](var13);
     var9 = var9 instanceof Object ? var9 : var10;
     var _closure1_slot9 = var9;
-    var4 = var4.Map;
-    var9 = var4.prototype;
-    var9 = Object.create(var9, {constructor: {value: var4}});
+    var2 = var2.Map;
+    var9 = var2.prototype;
+    var9 = Object.create(var9, {constructor: {value: var2}});
     var14 = var9;
-    var4 = new var14[var4](var13);
-    var4 = var4 instanceof Object ? var4 : var9;
-    var _closure1_slot10 = var4;
-    var4 = false;
-    var _closure1_slot11 = var4;
-    var4 = null;
-    var _closure1_slot12 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.Millis;
-    var4 = var4.HOUR;
-    var _closure1_slot13 = var4;
-    var4 = function(arg1) {
+    var2 = new var14[var2](var13);
+    var2 = var2 instanceof Object ? var2 : var9;
+    var _closure1_slot10 = var2;
+    var2 = false;
+    var _closure1_slot11 = var2;
+    var2 = null;
+    var _closure1_slot12 = var2;
+    var2 = 8;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var2 = var2.Millis;
+    var2 = var2.HOUR;
+    var _closure1_slot13 = var2;
+    var2 = function(arg1) {
         var4 = function StickersPackStore(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -609,11 +609,11 @@ case 55:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var7);
-    var4 = 'StickersPackStore';
-    var8['displayName'] = var4;
-    var7 = {};
-    var4 = function LOGOUT(arg1, arg2) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'StickersPackStore';
+    var7['displayName'] = var2;
+    var2 = {};
+    var8 = function LOGOUT(arg1, arg2) {
         var2 = arg2;
         var4 = _closure1_slot9;
         var3 = var4.clear;
@@ -626,8 +626,8 @@ case 55:
         var1 = undefined;
         return var1;
     };
-    var7['LOGOUT'] = var4;
-    var4 = function STICKER_PACK_FETCH_SUCCESS(arg1, arg2) {
+    var2['LOGOUT'] = var8;
+    var8 = function STICKER_PACK_FETCH_SUCCESS(arg1, arg2) {
         var1 = arg1;
         var5 = var1.pack;
         var4 = _closure1_slot19;
@@ -637,15 +637,15 @@ case 55:
         var2 = var4.bind(var1)(var5, var3, var2);
         return var1;
     };
-    var7['STICKER_PACK_FETCH_SUCCESS'] = var4;
-    var4 = function STICKER_PACKS_FETCH_START() {
+    var2['STICKER_PACK_FETCH_SUCCESS'] = var8;
+    var8 = function STICKER_PACKS_FETCH_START() {
         var1 = true;
         _closure1_slot11 = var1;
         var1 = undefined;
         return var1;
     };
-    var7['STICKER_PACKS_FETCH_START'] = var4;
-    var4 = function STICKER_PACKS_FETCH_SUCCESS(arg1, arg2) {
+    var2['STICKER_PACKS_FETCH_START'] = var8;
+    var8 = function STICKER_PACKS_FETCH_SUCCESS(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var7 = arg2;
@@ -677,8 +677,8 @@ case 41:
             return var1;
         }
     };
-    var7['STICKER_PACKS_FETCH_SUCCESS'] = var4;
-    var2 = function PACK_STICKER_FETCH_SUCCESS(arg1, arg2) {
+    var2['STICKER_PACKS_FETCH_SUCCESS'] = var8;
+    var4 = function PACK_STICKER_FETCH_SUCCESS(arg1, arg2) {
         var6 = arg2;
         var1 = arg1;
         var7 = var1.sticker;
@@ -691,13 +691,12 @@ case 41:
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };
-    var7['PACK_STICKER_FETCH_SUCCESS'] = var2;
-    var2 = var8.prototype;
-    var4 = Object.create(var2, {constructor: {value: var8}});
-    var12 = 'typescript';
+    var2['PACK_STICKER_FETCH_SUCCESS'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
     var14 = var4;
-    var13 = var7;
-    var2 = new var14[var8](var13, var12, var11);
+    var13 = var2;
+    var2 = new var14[var7](var13, var12);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 10;
     var4 = var6[var4];

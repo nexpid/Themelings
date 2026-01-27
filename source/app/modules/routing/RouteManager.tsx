@@ -283,53 +283,58 @@ case 38:
             var4 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var11 = arg1;
-                    var10 = arg2;
-                    var4 = var11;
-                    var5 = var10;
+                    var3 = arg2;
+                    var4 = arg1;
+                    var5 = var3;
                     var1 = undefined;
                     var6 = undefined;
                     var7 = undefined;
                     var8 = undefined;
-                    var9 = _closure3_slot0;
-                    var3 = var9.executeRouteRewrites;
-                    var3 = var3.bind(var9)(var11, var10);
-                    if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 2:
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot1;
-                    var9 = 6;
-                    var9 = var11[var9];
-                    var11 = var10.bind(var1)(var9);
-                    var10 = var11.convertRouteToNavigation;
-                    var9 = var4;
-                    var9 = var10.bind(var11)(var9);
-                    if(var9) { _fun0005_ip = 40; continue _fun0005 }
-case 9:
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot1;
-                    var9 = 5;
-                    var9 = var11[var9];
-                    var11 = var10.bind(var1)(var9);
-                    var10 = var11.replaceWith;
-                    var9 = _closure1_slot6;
-                    var9 = var9.ME;
-                    var9 = var10.bind(var11)(var9);
-                    _fun0005_ip = 39; continue _fun0005;
+                    var2 = 'POP';
+                    if(!(var2 !== var3)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-                    var10 = _closure1_slot5;
-                    var9 = var10.getState;
-                    var11 = var9.bind(var10)();
-                    var10 = var11.basePath;
-                    var9 = var4;
-                    var9 = var9.pathname;
-                    if(!(var10 !== var9)) { _fun0005_ip = 41; continue _fun0005 }
+                    var10 = _closure3_slot0;
+                    var9 = var10.executeRouteRewrites;
+                    var3 = var4;
+                    var2 = var5;
+                    var2 = var9.bind(var10)(var3, var2);
+                    if(var2) { _fun0005_ip = 41; continue _fun0005 }
+case 28:
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var3 = 6;
+                    var3 = var10[var3];
+                    var10 = var9.bind(var1)(var3);
+                    var9 = var10.convertRouteToNavigation;
+                    var3 = var4;
+                    var3 = var9.bind(var10)(var3);
+                    if(var3) { _fun0005_ip = 39; continue _fun0005 }
 case 42:
-                    var10 = var11.resetPath;
-                    var9 = var4;
-                    var9 = var9.pathname;
-                    var9 = var10.bind(var11)(var9);
-case 41:
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var3 = 5;
+                    var3 = var10[var3];
+                    var9 = var9.bind(var1)(var3);
+                    var3 = var9.replaceWith;
+                    var2 = _closure1_slot6;
+                    var2 = var2.ME;
+                    var2 = var3.bind(var9)(var2);
+                    var2 = undefined;
+                    return var2;
+case 39:
+                    var9 = _closure1_slot5;
+                    var3 = var9.getState;
+                    var10 = var3.bind(var9)();
+                    var9 = var10.basePath;
+                    var3 = var4;
+                    var3 = var3.pathname;
+                    if(!(var9 !== var3)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
+                    var9 = var10.resetPath;
+                    var3 = var4;
+                    var3 = var3.pathname;
+                    var3 = var9.bind(var10)(var3);
+case 43:
                     var9 = _closure1_slot7;
                     var3 = _closure3_slot0;
                     var3 = var3.listeners;
@@ -338,30 +343,31 @@ case 41:
                     var3 = var3.bind(var1)();
                     var6 = var3;
                     var3 = var3.done;
-                    if(var3) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                    if(var3) { _fun0005_ip = 10; continue _fun0005 }
+case 45:
                     var3 = var6;
                     var8 = var3.value;
-case 45: // try_start_0
+case 46: // try_start_0
                     var10 = var8;
                     var9 = var4;
                     var3 = var5;
                     var3 = var10.bind(var1)(var9, var3);
-case 46: // try_end0
-                    _fun0005_ip = 18; continue _fun0005;
-case 23: // catch_target0
+case 47: // try_end0
+                    _fun0005_ip = 24; continue _fun0005;
+case 48: // catch_target0
                     CatchBlockStart(arg_register=2);
-case 18:
+case 24:
                     var3 = var7;
                     var3 = var3.bind(var1)();
                     var6 = var3;
                     var3 = var3.done;
-                    if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 43:
+                    if(!var3) { _fun0005_ip = 45; continue _fun0005 }
+case 10:
                     var3 = _closure3_slot0;
                     var2 = 0;
                     var3['routeChangeCount'] = var2;
-case 39:
+                    return var1;
+case 41:
                     return var1;
                 }
             };
@@ -374,18 +380,18 @@ case 0:
                     var2 = _closure3_slot0;
                     var4 = var2.timer;
                     var2 = -1;
-                    if(!(var2 !== var4)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+                    if(!(var2 !== var4)) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                     var2 = global;
                     var5 = var2.clearTimeout;
                     var2 = _closure3_slot0;
                     var4 = var2.timer;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
-case 47:
+case 49:
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+                    if(!(var2 != var3)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
                     var2 = _closure3_slot0;
                     var1 = global;
                     var5 = var1.setTimeout;
@@ -394,7 +400,7 @@ case 50:
                     var1 = 200;
                     var1 = var5.bind(var3)(var4, var1);
                     var2['timer'] = var1;
-case 49:
+case 51:
                     var1 = undefined;
                     return var1;
                 }
@@ -414,8 +420,8 @@ case 0:
                     var2 = var2.bind(var4)();
                     var5 = var2.path;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0007_ip = 51; continue _fun0007 }
-case 47:
+                    if(!(var4 != var5)) { _fun0007_ip = 53; continue _fun0007 }
+case 49:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot1;
                     var3 = 5;
@@ -424,7 +430,7 @@ case 47:
                     var3 = var4.transitionTo;
                     var2 = var2.path;
                     var2 = var3.bind(var4)(var2);
-case 51:
+case 53:
                     return var1;
                 }
             };
@@ -490,8 +496,8 @@ case 0:
                 var1['routeChangeCount'] = var2;
                 var3 = var1.routeChangeCount;
                 var2 = 10;
-                if(!(!(var3 < var2))) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+                if(!(!(var3 < var2))) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
                 var2 = global;
                 var4 = var2.Error;
                 var2 = var4.prototype;
@@ -501,7 +507,7 @@ case 53:
                 var2 = new var15[var4](var14, var13);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 52:
+case 54:
                 var3 = _closure1_slot7;
                 var1 = var1.rewrites;
                 var4 = undefined;
@@ -511,8 +517,8 @@ case 52:
                 var5 = 5;
                 var7 = null;
                 var6 = var3;
-                if(var1) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+                if(var1) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                 var1 = var6.value;
                 var10 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -523,15 +529,15 @@ case 55:
                 var3 = var3.location;
                 var10 = var3.pathname;
                 var1 = var1.bind(var4)(var11, var9);
-                if(!(var7 == var1)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+                if(!(var7 == var1)) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                 var12 = var8.bind(var4)();
                 var3 = var12.done;
                 var6 = var12;
-                if(var3) { _fun0008_ip = 54; continue _fun0008 }
+                if(var3) { _fun0008_ip = 56; continue _fun0008 }
+case 60:
+                _fun0008_ip = 57; continue _fun0008;
 case 58:
-                _fun0008_ip = 55; continue _fun0008;
-case 56:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var6 = 7;
@@ -555,7 +561,7 @@ case 56:
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = true;
                 return var1;
-case 54:
+case 56:
                 var1 = false;
                 return var1;
             }
@@ -571,19 +577,19 @@ case 0:
                 var2 = this;
                 var4 = var2.unlistenHistory;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
+                if(!(var3 != var4)) { _fun0009_ip = 40; continue _fun0009 }
+case 61:
                 var1 = var4.call;
                 var1 = var1.bind(var4)(var2);
-case 59:
+case 40:
                 var1 = undefined;
                 var2['unlistenHistory'] = var1;
                 var4 = var2.unlistenKeyboardChange;
-                if(!(var3 != var4)) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+                if(!(var3 != var4)) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
                 var3 = var4.call;
                 var3 = var3.bind(var4)(var2);
-case 61:
+case 62:
                 var2['unlistenKeyboardChange'] = var1;
                 var4 = _closure1_slot4;
                 var3 = var4.removeChangeListener;
@@ -606,7 +612,7 @@ case 0:
                 var _closure3_slot1 = var4;
                 var5 = var2.unlistenHistory;
                 var3 = null;
-                if(!(var3 != var5)) { _fun0010_ip = 63; continue _fun0010 }
+                if(!(var3 != var5)) { _fun0010_ip = 64; continue _fun0010 }
 case 34:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -619,7 +625,7 @@ case 34:
                 var5 = var3.location;
                 var3 = 'REPLACE';
                 var3 = var4.bind(var6)(var5, var3);
-case 63:
+case 64:
                 var3 = var2.listeners;
                 var2 = var3.add;
                 var2 = var2.bind(var3)(var4);
@@ -647,7 +653,7 @@ case 0:
                 var _closure3_slot1 = var4;
                 var3 = var2.unlistenHistory;
                 var6 = null;
-                if(!(var6 != var3)) { _fun0011_ip = 64; continue _fun0011 }
+                if(!(var6 != var3)) { _fun0011_ip = 65; continue _fun0011 }
 case 34:
                 var10 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -664,8 +670,8 @@ case 34:
                 var3 = var3.bind(var10)();
                 var3 = var3.action;
                 var3 = var4.bind(var7)(var9, var3);
-                if(!(var6 != var3)) { _fun0011_ip = 64; continue _fun0011 }
-case 65:
+                if(!(var6 != var3)) { _fun0011_ip = 65; continue _fun0011 }
+case 66:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var8];
@@ -674,7 +680,7 @@ case 65:
                 var5 = var3.path;
                 var3 = var3.state;
                 var3 = var6.bind(var7)(var5, var3);
-case 64:
+case 65:
                 var3 = var2.rewrites;
                 var2 = var3.add;
                 var2 = var2.bind(var3)(var4);

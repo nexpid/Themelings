@@ -591,7 +591,7 @@ case 23:
             var8 = var9.useSharedValue;
             var33 = var8.bind(var9)(var10);
             _closure2_slot21 = var33;
-            var8 = function K() {
+            var8 = function W() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot18;
@@ -651,7 +651,7 @@ case 25:
             var9 = var27[var18];
             var17 = var42.bind(var5)(var9);
             var11 = var17.useAnimatedStyle;
-            var9 = function Z() {
+            var9 = function K() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot22;
@@ -713,7 +713,7 @@ case 6:
             var8 = var27[var18];
             var17 = var42.bind(var5)(var8);
             var11 = var17.useAnimatedStyle;
-            var8 = function J() {
+            var8 = function Z() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -877,17 +877,14 @@ case 43:
             var56 = var11;
 case 41:
             _closure2_slot38 = var56;
-            var11 = var39.config;
-            var11 = var11.taskConfigV2;
-            var44 = var11.tasks;
-            var47 = _closure1_slot0;
-            var49 = _closure1_slot2;
+            var44 = _closure1_slot0;
+            var47 = _closure1_slot2;
             var11 = 22;
-            var11 = var49[var11];
-            var11 = var47.bind(var5)(var11);
-            var11 = var11.FirstPartyQuestTaskTypes;
-            var11 = var11.WATCH_VIDEO;
-            var11 = var44[var11];
+            var11 = var47[var11];
+            var47 = var44.bind(var5)(var11);
+            var44 = var47.getDefaultWatchVideoTask;
+            var11 = var39.config;
+            var11 = var44.bind(var47)(var11);
             var44 = var1 == var11;
             var52 = undefined;
             if(var44) { _fun0002_ip = 45; continue _fun0002 }

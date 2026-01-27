@@ -132,49 +132,7 @@ case 4:
         var3['consumeLogs'] = var5;
         var3['BlockedDomainsStore'] = var4;
         var4 = function getFluxApi() {
-            var1 = _closure1_slot2;
-            var3 = var1.fluxApi;
-            var _closure2_slot0 = var3;
-            var1 = {};
-            var5 = var1;
-            var4 = var3;
-            var3 = copyDataProperties(var5, var4);
-            var3 = function dispatchAction(arg1, arg2) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var2 = arg1;
-                    var1 = arg2;
-case 5: // try_start_0
-                    var5 = _closure2_slot0;
-                    var4 = var5.dispatchAction;
-                    var1 = var4.bind(var5)(var2, var1);
-case 6: // try_end0
-                    return var1;
-case 7: // catch_target0
-                    CatchBlockStart(arg_register=4);
-                    var3 = var5;
-                    var1 = {};
-                    var2 = false;
-                    var1['ok'] = var2;
-                    var2 = global;
-                    var4 = var2.Error;
-                    var4 = var5 instanceof var4;
-                    if(var4) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var5 = var2.String;
-                    var4 = var3;
-                    var2 = undefined;
-                    var2 = var5.bind(var2)(var4);
-                    _fun0002_ip = 10; continue _fun0002;
-case 8:
-                    var2 = var3.message;
-case 10:
-                    var1['error'] = var2;
-                    return var1;
-                }
-            };
-            var2 = 'dispatchAction';
-            var1[var2] = var3;
+            var1 = null;
             return var1;
         };
         var3['getFluxApi'] = var4;

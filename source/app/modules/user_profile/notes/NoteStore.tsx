@@ -46,43 +46,43 @@ case 4:
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
-    var4 = {};
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot0 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot1 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.TypeTag;
-    var4 = var4.constructInPlace;
-    var _closure1_slot5 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.KvStore;
-    var4 = function(arg1) {
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot1 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.TypeTag;
+    var2 = var2.constructInPlace;
+    var _closure1_slot5 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.KvStore;
+    var2 = function(arg1) {
         var4 = function NoteStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -140,25 +140,25 @@ case 8:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var7);
-    var4 = 'NoteStore';
-    var8['displayName'] = var4;
-    var7 = {};
-    var4 = function CONNECTION_OPEN(arg1, arg2) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'NoteStore';
+    var7['displayName'] = var2;
+    var2 = {};
+    var8 = function CONNECTION_OPEN(arg1, arg2) {
         var2 = arg2;
         var1 = var2.reset;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var7['CONNECTION_OPEN'] = var4;
-    var4 = function OVERLAY_INITIALIZE(arg1, arg2) {
+    var2['CONNECTION_OPEN'] = var8;
+    var8 = function OVERLAY_INITIALIZE(arg1, arg2) {
         var2 = arg2;
         var1 = var2.reset;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var7['OVERLAY_INITIALIZE'] = var4;
-    var4 = function USER_NOTE_UPDATE(arg1, arg2) {
+    var2['OVERLAY_INITIALIZE'] = var8;
+    var8 = function USER_NOTE_UPDATE(arg1, arg2) {
         var1 = arg1;
         var5 = arg2;
         var4 = var5.set;
@@ -175,8 +175,8 @@ case 8:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var7['USER_NOTE_UPDATE'] = var4;
-    var2 = function USER_NOTE_LOAD_START(arg1, arg2) {
+    var2['USER_NOTE_UPDATE'] = var8;
+    var4 = function USER_NOTE_LOAD_START(arg1, arg2) {
         var5 = arg2;
         var4 = var5.set;
         var1 = arg1;
@@ -189,13 +189,12 @@ case 8:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var7['USER_NOTE_LOAD_START'] = var2;
-    var2 = var8.prototype;
-    var4 = Object.create(var2, {constructor: {value: var8}});
-    var11 = 'libdiscore';
+    var2['USER_NOTE_LOAD_START'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;
-    var12 = var7;
-    var2 = new var13[var8](var12, var11, var10);
+    var12 = var2;
+    var2 = new var13[var7](var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 7;
     var4 = var6[var4];

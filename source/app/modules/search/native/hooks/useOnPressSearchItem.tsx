@@ -608,7 +608,7 @@ case 37:
                 var8 = 'Search';
                 var5['analyticsSource'] = var8;
                 var8 = arg2;
-                var5['origin'] = var8;
+                var5['originViewOrOriginLayout'] = var8;
                 var5 = var6.bind(var7)(var5);
 case 33:
                 return var1;

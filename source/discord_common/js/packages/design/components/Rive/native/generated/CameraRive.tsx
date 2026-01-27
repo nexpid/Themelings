@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = ['artboard', 'defaultViewModelInstance'];
+    var1 = ['artboard', 'stateMachine', 'defaultViewModelInstance'];
     var _closure1_slot3 = var1;
     var1 = global;
     var9 = var1.Object;
@@ -54,44 +54,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = arg1;
             var1 = var3.artboard;
-            var8 = 'Icon Camera';
+            var9 = 'Icon Camera';
             var4 = undefined;
             if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = var1;
+            var9 = var1;
 case 2:
+            var6 = var3.stateMachine;
             var1 = var3.defaultViewModelInstance;
-            var6 = 'CamOff';
+            var7 = 'CamOff';
             if(!(var4 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var6 = var1;
+            var7 = var1;
 case 4:
             var2 = _closure1_slot4;
             var1 = _closure1_slot3;
-            var12 = var2.bind(var4)(var3, var1);
+            var13 = var2.bind(var4)(var3, var1);
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var1 = 3;
-            var1 = var11[var1];
+            var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BaseRive;
             var1 = {};
-            var10 = _closure1_slot1;
-            var9 = 4;
-            var9 = var11[var9];
-            var9 = var10.bind(var4)(var9);
-            var1['src'] = var9;
-            var9 = 'camera';
-            var1['resourceName'] = var9;
-            var1['artboard'] = var8;
-            var8 = _closure1_slot6;
-            var1['artboardProperties'] = var8;
-            var7 = _closure1_slot7;
-            var1['artboardViewModelInstances'] = var7;
-            var1['defaultViewModelInstance'] = var6;
-            var13 = var1;
-            var5 = copyDataProperties(var13, var12);
+            var11 = _closure1_slot1;
+            var10 = 4;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var1['src'] = var10;
+            var10 = 'camera';
+            var1['resourceName'] = var10;
+            var1['artboard'] = var9;
+            var9 = _closure1_slot6;
+            var1['artboardProperties'] = var9;
+            var8 = _closure1_slot7;
+            var1['artboardViewModelInstances'] = var8;
+            var1['defaultViewModelInstance'] = var7;
+            var1['stateMachine'] = var6;
+            var14 = var1;
+            var5 = copyDataProperties(var14, var13);
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

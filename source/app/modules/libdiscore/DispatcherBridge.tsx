@@ -1,11 +1,11 @@
 // app/modules/libdiscore/DispatcherBridge.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -183,69 +183,48 @@ case 35:
         }
     };
     var _closure1_slot12 = var1;
-    var8 = global;
-    var9 = var8.Object;
-    var7 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var13.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var9 = var13.bind(var1)(var4);
-    var4 = 4;
-    var4 = var6[var4];
-    var7 = var13.bind(var1)(var4);
-    var4 = 5;
-    var4 = var6[var4];
-    var12 = var13.bind(var1)(var4);
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var10 = var13.bind(var1)(var4);
-    var4 = 8;
-    var4 = var6[var4];
-    var11 = var13.bind(var1)(var4);
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot7 = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var14 = var13.bind(var1)(var4);
-    var4 = var14.prototype;
-    var13 = Object.create(var4, {constructor: {value: var14}});
-    var17 = 'DispatcherBridge';
-    var18 = var13;
-    var4 = new var18[var14](var17, var16);
-    var4 = var4 instanceof Object ? var4 : var13;
-    var _closure1_slot8 = var4;
-    var4 = new Array(5);
-    var4[0] = var12;
-    var4[1] = var11;
-    var4[2] = var10;
-    var4[3] = var9;
-    var4[4] = var7;
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
     var7 = {};
-    var9 = function GUILD_MEMBER_ADD(arg1) {
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = 4;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.AnalyticEvents;
+    var _closure1_slot7 = var7;
+    var7 = 5;
+    var7 = var6[var7];
+    var9 = var8.bind(var1)(var7);
+    var7 = var9.prototype;
+    var8 = Object.create(var7, {constructor: {value: var9}});
+    var13 = 'DispatcherBridge';
+    var14 = var8;
+    var7 = new var14[var9](var13, var12);
+    var7 = var7 instanceof Object ? var7 : var8;
+    var _closure1_slot8 = var7;
+    var7 = {};
+    var8 = function GUILD_MEMBER_ADD(arg1) {
         var1 = {};
         var4 = arg1;
         var5 = var1;
@@ -257,39 +236,39 @@ case 35:
         var1[var2] = var3;
         return var1;
     };
-    var7['GUILD_MEMBER_ADD'] = var9;
-    var9 = function CONNECTION_OPEN(arg1) {
+    var7['GUILD_MEMBER_ADD'] = var8;
+    var8 = function CONNECTION_OPEN(arg1) {
         var1 = {};
         var2 = arg1;
         var2 = var2.guilds;
         var1['guilds'] = var2;
         return var1;
     };
-    var7['CONNECTION_OPEN'] = var9;
-    var9 = function CACHE_LOADED(arg1) {
+    var7['CONNECTION_OPEN'] = var8;
+    var8 = function CACHE_LOADED(arg1) {
         var1 = {};
         var2 = arg1;
         var2 = var2.guilds;
         var1['guilds'] = var2;
         return var1;
     };
-    var7['CACHE_LOADED'] = var9;
-    var9 = function CACHE_LOADED_LAZY(arg1) {
+    var7['CACHE_LOADED'] = var8;
+    var8 = function CACHE_LOADED_LAZY(arg1) {
         var1 = {};
         var2 = arg1;
         var2 = var2.guilds;
         var1['guilds'] = var2;
         return var1;
     };
-    var7['CACHE_LOADED_LAZY'] = var9;
-    var9 = function BACKGROUND_SYNC(arg1) {
+    var7['CACHE_LOADED_LAZY'] = var8;
+    var8 = function BACKGROUND_SYNC(arg1) {
         var1 = {};
         var2 = arg1;
         var2 = var2.guilds;
         var1['guilds'] = var2;
         return var1;
     };
-    var7['BACKGROUND_SYNC'] = var9;
+    var7['BACKGROUND_SYNC'] = var8;
     var _closure1_slot9 = var7;
     var7 = function() {
         var4 = _closure1_slot4;
@@ -322,7 +301,7 @@ case 0:
 case 38:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var7 = 11;
+                var7 = 6;
                 var7 = var10[var7];
                 var7 = var9.bind(var1)(var7);
                 var9 = var7.FLUX_API;
@@ -451,7 +430,7 @@ case 45:
                         var5['durationMillis'] = var1;
                         var8 = _closure1_slot0;
                         var1 = _closure1_slot2;
-                        var4 = 12;
+                        var4 = 7;
                         var6 = var1[var4];
                         var1 = undefined;
                         var6 = var8.bind(var1)(var6);
@@ -498,7 +477,7 @@ case 47:
                         var14 = var28[var19](var27, var26, var25, var24, var23, var22, var21);
                         var15 = _closure1_slot1;
                         var16 = _closure1_slot2;
-                        var14 = 13;
+                        var14 = 8;
                         var14 = var16[var14];
                         var16 = var15.bind(var1)(var14);
                         var15 = var16.captureException;
@@ -883,7 +862,7 @@ case 43:
 case 57:
                         var6 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var5 = 14;
+                        var5 = 9;
                         var5 = var2[var5];
                         var8 = var6.bind(var1)(var5);
                         var7 = var8.track;
@@ -921,7 +900,7 @@ case 48:
                 var _closure3_slot2 = var4;
                 var8 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var4 = 15;
+                var4 = 10;
                 var7 = var6[var4];
                 var11 = var8.bind(var1)(var7);
                 var10 = var11.register;
@@ -950,7 +929,7 @@ case 48:
                 };
                 var27 = var11;
                 var4 = var27[var10](var26, var25, var24, var23, var22);
-                var4 = 16;
+                var4 = 11;
                 var4 = var6[var4];
                 var4 = var5.bind(var1)(var4);
                 var5 = var4.default;
@@ -1072,15 +1051,15 @@ case 77:
         return var1;
     };
     var7 = var7.bind(var1)();
-    var10 = var8.Set;
-    var8 = var10.prototype;
-    var9 = Object.create(var8, {constructor: {value: var10}});
-    var17 = ['libdiscore', 'typescript-libdiscore-dual-read'];
-    var18 = var9;
-    var8 = new var18[var10](var17, var16);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot10 = var8;
-    var2 = function filterStores(arg1) {
+    var9 = var4.Set;
+    var4 = var9.prototype;
+    var8 = Object.create(var4, {constructor: {value: var9}});
+    var13 = ['libdiscore', 'typescript-libdiscore-dual-read'];
+    var14 = var8;
+    var4 = new var14[var9](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot10 = var4;
+    var4 = function filterStores(arg1) {
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
@@ -1095,13 +1074,14 @@ case 77:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var17 = var2.bind(var1)(var4);
+    var2 = new Array(0);
+    var13 = var4.bind(var1)(var2);
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
-    var18 = var4;
-    var2 = new var18[var7](var17, var16);
+    var14 = var4;
+    var2 = new var14[var7](var13, var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

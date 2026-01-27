@@ -340,12 +340,8 @@ case 9:
             var3 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
-                var10 = var1.index;
-                var1 = var1.layout;
-                var7 = var1.x;
-                var6 = var1.y;
-                var9 = var1.width;
-                var8 = var1.height;
+                var7 = var1.index;
+                var5 = var1.layout;
                 var3 = _closure2_slot10;
                 var2 = var3.map;
                 var1 = function(arg1, arg2) {
@@ -439,7 +435,7 @@ case 27:
                         return var1;
                     }
                 };
-                var5 = var2.bind(var3)(var1);
+                var6 = var2.bind(var3)(var1);
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 17;
@@ -448,14 +444,9 @@ case 27:
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openMediaModal;
                 var2 = {'initialIndex': null, 'initialSources': null, 'disableDownload': true, 'disableMediaOverlayButton': true, 'shareable': false};
-                var2['initialIndex'] = var10;
-                var2['initialSources'] = var5;
-                var5 = {};
-                var5['width'] = var9;
-                var5['height'] = var8;
-                var5['x'] = var7;
-                var5['y'] = var6;
-                var2['originLayout'] = var5;
+                var2['initialIndex'] = var7;
+                var2['initialSources'] = var6;
+                var2['originViewOrOriginLayout'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

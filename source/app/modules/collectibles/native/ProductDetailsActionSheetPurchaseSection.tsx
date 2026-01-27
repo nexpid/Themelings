@@ -1,4 +1,4 @@
-// app/modules/collectibles/native/PurchaseSection.tsx
+// app/modules/collectibles/native/ProductDetailsActionSheetPurchaseSection.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var13 = metroImportDefault;
@@ -214,7 +214,7 @@ case 6:
                 var2 = 13;
                 var2 = var4[var2];
                 var2 = var3.bind(var1)(var2);
-                var2 = var2.PRODUCT_DETAIL_ACTION_SHEET_KEY;
+                var2 = var2.PRODUCT_DETAILS_ACTION_SHEET_KEY;
                 var2 = var5.bind(var6)(var2);
                 var2 = 14;
                 var2 = var4[var2];
@@ -611,14 +611,14 @@ case 20:
     };
     var _closure1_slot16 = var4;
     var4 = {};
-    var7 = 'function PurchaseSectionTsx1(){const{bottomSheet,screenHeight,maxHeight}=this.__closure;const animatedSheetOffset=bottomSheet.animatedPosition!=null?bottomSheet.animatedPosition.get()-screenHeight+maxHeight:0;return{transform:[{translateY:-animatedSheetOffset}]};}';
+    var7 = 'function ProductDetailsActionSheetPurchaseSectionTsx1(){const{bottomSheet,screenHeight,maxHeight}=this.__closure;const animatedSheetOffset=bottomSheet.animatedPosition!=null?bottomSheet.animatedPosition.get()-screenHeight+maxHeight:0;return{transform:[{translateY:-animatedSheetOffset}]};}';
     var4['code'] = var7;
     var _closure1_slot17 = var4;
     var4 = 49;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/native/PurchaseSection.tsx';
+    var4 = 'modules/collectibles/native/ProductDetailsActionSheetPurchaseSection.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -849,7 +849,7 @@ case 40:
             var22['screenHeight'] = var29;
             var22['maxHeight'] = var26;
             var3['__closure'] = var22;
-            var22 = 6373010349557.0;
+            var22 = 2578721850733.0;
             var3['__workletHash'] = var22;
             var22 = _closure1_slot17;
             var3['__initData'] = var22;

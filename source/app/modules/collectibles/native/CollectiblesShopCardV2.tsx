@@ -273,7 +273,7 @@ case 0:
                     var2 = 18;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
-                    var3 = var4.openProductDetailActionSheet;
+                    var3 = var4.openProductDetailsActionSheet;
                     var2 = {};
                     var6 = _closure2_slot0;
                     var2['product'] = var6;

@@ -415,7 +415,7 @@ case 57:
             var4['initialSources'] = var12;
             var10 = _closure2_slot0;
             var4['initialIndex'] = var10;
-            var4['originLayout'] = var8;
+            var4['originViewOrOriginLayout'] = var8;
             var8 = 'Channel';
             var4['analyticsSource'] = var8;
             var8 = var11.guild_id;

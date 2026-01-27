@@ -255,7 +255,7 @@ case 7:
                     var1 = 14;
                     var1 = var6[var1];
                     var3 = var2.bind(var3)(var1);
-                    var2 = var3.openProductDetailActionSheet;
+                    var2 = var3.openProductDetailsActionSheet;
                     var1 = {};
                     var1['product'] = var5;
                     var4 = _closure2_slot1;

@@ -226,56 +226,56 @@ case 38:
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
-    var4 = {};
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.KvStore;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.updateJoinedAt;
-    var _closure1_slot8 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.FAVORITES;
-    var _closure1_slot10 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.FAVORITES_GUILD_RECORD;
-    var _closure1_slot11 = var4;
-    var4 = function(arg1) {
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.KvStore;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.updateJoinedAt;
+    var _closure1_slot8 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot9 = var2;
+    var2 = 8;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.FAVORITES;
+    var _closure1_slot10 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.FAVORITES_GUILD_RECORD;
+    var _closure1_slot11 = var2;
+    var2 = function(arg1) {
         var4 = function GuildStore(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -396,11 +396,11 @@ case 47:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var7);
-    var4 = 'GuildStore';
-    var8['displayName'] = var4;
-    var7 = {};
-    var4 = function BACKGROUND_SYNC(arg1, arg2) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'GuildStore';
+    var7['displayName'] = var2;
+    var2 = {};
+    var8 = function BACKGROUND_SYNC(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var9 = arg2;
@@ -446,8 +446,8 @@ case 48:
             return var1;
         }
     };
-    var7['BACKGROUND_SYNC'] = var4;
-    var4 = function CONNECTION_OPEN(arg1, arg2) {
+    var2['BACKGROUND_SYNC'] = var8;
+    var8 = function CONNECTION_OPEN(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var2 = var2.guilds;
@@ -490,8 +490,8 @@ case 13:
         var1 = undefined;
         return var1;
     };
-    var7['CONNECTION_OPEN'] = var4;
-    var4 = function OVERLAY_INITIALIZE(arg1, arg2) {
+    var2['CONNECTION_OPEN'] = var8;
+    var8 = function OVERLAY_INITIALIZE(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var2 = var2.guilds;
@@ -556,8 +556,8 @@ case 53:
         var1 = undefined;
         return var1;
     };
-    var7['OVERLAY_INITIALIZE'] = var4;
-    var4 = function CACHE_LOADED(arg1, arg2) {
+    var2['OVERLAY_INITIALIZE'] = var8;
+    var8 = function CACHE_LOADED(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var2 = var2.guilds;
@@ -597,8 +597,8 @@ case 58:
         var1 = undefined;
         return var1;
     };
-    var7['CACHE_LOADED'] = var4;
-    var4 = function CACHE_LOADED_LAZY(arg1, arg2) {
+    var2['CACHE_LOADED'] = var8;
+    var8 = function CACHE_LOADED_LAZY(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var3 = arg2;
@@ -646,8 +646,8 @@ case 2:
             return var1;
         }
     };
-    var7['CACHE_LOADED_LAZY'] = var4;
-    var4 = function GUILD_CREATE(arg1, arg2) {
+    var2['CACHE_LOADED_LAZY'] = var8;
+    var8 = function GUILD_CREATE(arg1, arg2) {
         var4 = arg2;
         var2 = arg1;
         var2 = var2.guild;
@@ -671,8 +671,8 @@ case 2:
         var1 = undefined;
         return var1;
     };
-    var7['GUILD_CREATE'] = var4;
-    var4 = function GUILD_UPDATE(arg1, arg2) {
+    var2['GUILD_CREATE'] = var8;
+    var8 = function GUILD_UPDATE(arg1, arg2) {
         var4 = arg2;
         var2 = arg1;
         var2 = var2.guild;
@@ -696,8 +696,8 @@ case 2:
         var1 = undefined;
         return var1;
     };
-    var7['GUILD_UPDATE'] = var4;
-    var4 = function GUILD_DELETE(arg1, arg2) {
+    var2['GUILD_UPDATE'] = var8;
+    var8 = function GUILD_DELETE(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var3 = arg2;
@@ -714,8 +714,8 @@ case 61:
             return var1;
         }
     };
-    var7['GUILD_DELETE'] = var4;
-    var2 = function GUILD_MEMBER_ADD(arg1, arg2) {
+    var2['GUILD_DELETE'] = var8;
+    var4 = function GUILD_MEMBER_ADD(arg1, arg2) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
@@ -766,13 +766,12 @@ case 62:
             return var1;
         }
     };
-    var7['GUILD_MEMBER_ADD'] = var2;
-    var2 = var8.prototype;
-    var4 = Object.create(var2, {constructor: {value: var8}});
-    var11 = 'libdiscore';
+    var2['GUILD_MEMBER_ADD'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;
-    var12 = var7;
-    var2 = new var13[var8](var12, var11, var10);
+    var12 = var2;
+    var2 = new var13[var7](var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 12;
     var4 = var6[var4];

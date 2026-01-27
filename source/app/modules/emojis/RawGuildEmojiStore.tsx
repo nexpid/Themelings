@@ -288,46 +288,46 @@ case 40:
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
-    var4 = {};
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.TypeTag;
-    var _closure1_slot8 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.KkvStore;
-    var4 = function(arg1) {
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.TypeTag;
+    var _closure1_slot8 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.KkvStore;
+    var2 = function(arg1) {
         var4 = function RawGuildEmojiStore() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -385,25 +385,25 @@ case 44:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var4.bind(var1)(var7);
-    var4 = 'RawGuildEmojiStore';
-    var8['displayName'] = var4;
-    var7 = {};
-    var4 = function LOGOUT(arg1, arg2) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'RawGuildEmojiStore';
+    var7['displayName'] = var2;
+    var2 = {};
+    var8 = function LOGOUT(arg1, arg2) {
         var2 = arg2;
         var1 = var2.reset;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var7['LOGOUT'] = var4;
-    var4 = function BACKGROUND_SYNC(arg1, arg2) {
+    var2['LOGOUT'] = var8;
+    var8 = function BACKGROUND_SYNC(arg1, arg2) {
         var2 = arg2;
         var1 = var2.reset;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var7['BACKGROUND_SYNC'] = var4;
-    var4 = function CONNECTION_OPEN(arg1, arg2) {
+    var2['BACKGROUND_SYNC'] = var8;
+    var8 = function CONNECTION_OPEN(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -447,8 +447,8 @@ case 45:
         var1 = undefined;
         return var1;
     };
-    var7['CONNECTION_OPEN'] = var4;
-    var4 = function OVERLAY_INITIALIZE(arg1, arg2) {
+    var2['CONNECTION_OPEN'] = var8;
+    var8 = function OVERLAY_INITIALIZE(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -510,8 +510,8 @@ case 53:
         var1 = undefined;
         return var1;
     };
-    var7['OVERLAY_INITIALIZE'] = var4;
-    var4 = function CACHED_EMOJIS_LOADED(arg1, arg2) {
+    var2['OVERLAY_INITIALIZE'] = var8;
+    var8 = function CACHED_EMOJIS_LOADED(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var9 = arg2;
@@ -544,8 +544,8 @@ case 54:
             return var1;
         }
     };
-    var7['CACHED_EMOJIS_LOADED'] = var4;
-    var4 = function GUILD_CREATE(arg1, arg2) {
+    var2['CACHED_EMOJIS_LOADED'] = var8;
+    var8 = function GUILD_CREATE(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
@@ -570,8 +570,8 @@ case 56:
             return var1;
         }
     };
-    var7['GUILD_CREATE'] = var4;
-    var4 = function GUILD_UPDATE(arg1, arg2) {
+    var2['GUILD_CREATE'] = var8;
+    var8 = function GUILD_UPDATE(arg1, arg2) {
         var1 = arg1;
         var5 = arg2;
         var4 = var5.setPartition;
@@ -587,8 +587,8 @@ case 56:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var7['GUILD_UPDATE'] = var4;
-    var4 = function GUILD_EMOJIS_UPDATE(arg1, arg2) {
+    var2['GUILD_UPDATE'] = var8;
+    var8 = function GUILD_EMOJIS_UPDATE(arg1, arg2) {
         var1 = arg1;
         var5 = arg2;
         var4 = var5.setPartition;
@@ -601,8 +601,8 @@ case 56:
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var7['GUILD_EMOJIS_UPDATE'] = var4;
-    var2 = function GUILD_DELETE(arg1, arg2) {
+    var2['GUILD_EMOJIS_UPDATE'] = var8;
+    var4 = function GUILD_DELETE(arg1, arg2) {
         var3 = arg2;
         var2 = var3.removePartition;
         var1 = arg1;
@@ -612,20 +612,14 @@ case 56:
         var1 = undefined;
         return var1;
     };
-    var7['GUILD_DELETE'] = var2;
-    var2 = 9;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.GuildEmojiStoreExperiment;
-    var2 = var4.getCachedBridgedStoreMode;
-    var11 = var2.bind(var4)();
-    var4 = var8.prototype;
-    var4 = Object.create(var4, {constructor: {value: var8}});
+    var2['GUILD_DELETE'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;
-    var12 = var7;
-    var2 = new var13[var8](var12, var11, var10);
+    var12 = var2;
+    var2 = new var13[var7](var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

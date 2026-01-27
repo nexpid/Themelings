@@ -1,4 +1,4 @@
-// app/modules/collectibles/native/openProductDetailActionSheet.tsx
+// app/modules/collectibles/native/openProductDetailsActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -24,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/native/openProductDetailActionSheet.tsx';
+    var4 = 'modules/collectibles/native/openProductDetailsActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = 'Shop Product Preview';
-    var3['PRODUCT_DETAIL_ACTION_SHEET_KEY'] = var4;
-    var2 = function openProductDetailActionSheet(arg1) {
+    var3['PRODUCT_DETAILS_ACTION_SHEET_KEY'] = var4;
+    var2 = function openProductDetailsActionSheet(arg1) {
         var1 = arg1;
         var7 = var1.product;
         var2 = var1.analyticsLocations;
@@ -64,6 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.bind(var6)(var4, var2, var3);
         return var1;
     };
-    var3['openProductDetailActionSheet'] = var2;
+    var3['openProductDetailsActionSheet'] = var2;
     return var1;
 })();

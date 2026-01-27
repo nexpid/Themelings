@@ -1,8 +1,8 @@
 // app/modules/user_application_identity/UserApplicationIdentityStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
-    var5 = dependencyMap;
+    var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -35,18 +35,19 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot7 = var2;
+            _closure1_slot8 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = function updateUserIdentities(arg1, arg2) {
-        var5 = arg2;
+        var4 = arg1;
+        var7 = arg2;
         var1 = global;
         var3 = var1.Map;
-        var2 = var5.map;
+        var2 = var7.map;
         var1 = function(arg1) {
             var2 = arg1;
             var3 = var2.application_id;
@@ -55,71 +56,83 @@ case 4:
             var1[1] = var2;
             return var1;
         };
-        var7 = var2.bind(var5)(var1);
+        var9 = var2.bind(var7)(var1);
         var2 = var3.prototype;
         var2 = Object.create(var2, {constructor: {value: var3}});
-        var8 = var2;
-        var1 = new var8[var3](var7, var6);
-        var1 = var1 instanceof Object ? var1 : var2;
-        var4 = _closure1_slot5;
-        var3 = var4.set;
+        var10 = var2;
+        var1 = new var10[var3](var9, var8);
+        var6 = var1 instanceof Object ? var1 : var2;
+        var5 = _closure1_slot6;
+        var3 = var5.set;
         var2 = {};
-        var2['identities'] = var5;
-        var2['byApplication'] = var1;
-        var1 = arg1;
-        var1 = var3.bind(var4)(var1, var2);
+        var2['identities'] = var7;
+        var2['byApplication'] = var6;
+        var2 = var3.bind(var5)(var4, var2);
+        var3 = _closure1_slot7;
+        var2 = var3.set;
+        var1 = _closure1_slot5;
+        var1 = var1.FETCHED;
+        var1 = var2.bind(var3)(var4, var1);
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot8 = var1;
-    var2 = global;
-    var9 = var2.Object;
+    var _closure1_slot9 = var1;
+    var4 = global;
+    var9 = var4.Object;
     var8 = var9.defineProperty;
-    var7 = {};
+    var2 = {};
     var1 = true;
-    var7['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var7 = var5[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot0 = var7;
-    var7 = 1;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot1 = var7;
-    var7 = 2;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot2 = var7;
-    var7 = 3;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var7 = 4;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot4 = var7;
-    var7 = var2.Map;
-    var8 = var7.prototype;
-    var8 = Object.create(var8, {constructor: {value: var7}});
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot1 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var8 = 'NOT_FETCHED';
+    var2['NOT_FETCHED'] = var8;
+    var8 = 'FETCHING';
+    var2['FETCHING'] = var8;
+    var8 = 'FETCHED';
+    var2['FETCHED'] = var8;
+    var _closure1_slot5 = var2;
+    var8 = var4.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var13 = var9;
+    var8 = new var13[var8](var12);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot6 = var8;
+    var4 = var4.Map;
+    var8 = var4.prototype;
+    var8 = Object.create(var8, {constructor: {value: var4}});
     var13 = var8;
-    var7 = new var13[var7](var12);
-    var7 = var7 instanceof Object ? var7 : var8;
-    var _closure1_slot5 = var7;
-    var2 = var2.Set;
-    var7 = var2.prototype;
-    var7 = Object.create(var7, {constructor: {value: var2}});
-    var13 = var7;
-    var2 = new var13[var2](var12);
-    var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot6 = var2;
-    var2 = 5;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
-    var7 = var2.Store;
-    var2 = function(arg1) {
+    var4 = new var13[var4](var12);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var8 = var4.Store;
+    var4 = function(arg1) {
         var4 = function UserApplicationIdentityStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -132,7 +145,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -167,7 +180,7 @@ case 8:
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot6;
                 var2 = var3.get;
                 var1 = arg1;
                 var3 = var2.bind(var3)(var1);
@@ -188,7 +201,7 @@ case 11:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserIdentityByApplication';
@@ -196,7 +209,7 @@ case 11:
         var7 = function value(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot6;
                 var2 = var3.get;
                 var1 = arg1;
                 var3 = var2.bind(var3)(var1);
@@ -222,72 +235,102 @@ case 14:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
+        var7 = 'getFetchState';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var4 = _closure1_slot7;
+                var3 = var4.get;
+                var1 = arg1;
+                var1 = var3.bind(var4)(var1);
+                var3 = null;
+                if(!(var3 == var1)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+                var2 = _closure1_slot5;
+                var1 = var2.NOT_FETCHED;
+case 16:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
         var7 = 'isFetchingUser';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            var3 = _closure1_slot6;
-            var2 = var3.has;
+            var3 = this;
+            var2 = var3.getFetchState;
             var1 = arg1;
-            var1 = var2.bind(var3)(var1);
+            var2 = var2.bind(var3)(var1);
+            var1 = _closure1_slot5;
+            var1 = var1.FETCHING;
+            var1 = var2 === var1;
             return var1;
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var7);
-    var2 = 6;
-    var2 = var5[var2];
-    var12 = var6.bind(var1)(var2);
-    var2 = {};
-    var8 = function handleFetchUserStart(arg1) {
-        var3 = _closure1_slot6;
-        var2 = var3.add;
-        var1 = arg1;
-        var1 = var1.userId;
-        var1 = var2.bind(var3)(var1);
+    var8 = var4.bind(var1)(var8);
+    var4 = 6;
+    var4 = var6[var4];
+    var12 = var7.bind(var1)(var4);
+    var4 = {};
+    var9 = function handleFetchUserStart(arg1) {
+        var4 = _closure1_slot7;
+        var3 = var4.set;
+        var2 = arg1;
+        var2 = var2.userId;
+        var1 = _closure1_slot5;
+        var1 = var1.FETCHING;
+        var1 = var3.bind(var4)(var2, var1);
         var1 = undefined;
         return var1;
     };
-    var2['USER_APPLICATION_IDENTITY_FETCH_USER_START'] = var8;
-    var8 = function handleFetchUserSuccess(arg1) {
+    var4['USER_APPLICATION_IDENTITY_FETCH_USER_START'] = var9;
+    var9 = function handleFetchUserSuccess(arg1) {
         var1 = arg1;
-        var5 = _closure1_slot6;
-        var4 = var5.delete;
-        var3 = var1.userId;
-        var3 = var4.bind(var5)(var3);
-        var4 = _closure1_slot8;
+        var6 = _closure1_slot7;
+        var5 = var6.set;
+        var4 = var1.userId;
+        var3 = _closure1_slot5;
+        var3 = var3.FETCHED;
+        var3 = var5.bind(var6)(var4, var3);
+        var4 = _closure1_slot9;
         var3 = var1.userId;
         var2 = var1.identities;
         var1 = undefined;
         var2 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var2['USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS'] = var8;
-    var8 = function handleFetchUserFailure(arg1) {
-        var3 = _closure1_slot6;
-        var2 = var3.delete;
-        var1 = arg1;
-        var1 = var1.userId;
-        var1 = var2.bind(var3)(var1);
+    var4['USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS'] = var9;
+    var9 = function handleFetchUserFailure(arg1) {
+        var4 = _closure1_slot7;
+        var3 = var4.set;
+        var2 = arg1;
+        var2 = var2.userId;
+        var1 = _closure1_slot5;
+        var1 = var1.FETCHED;
+        var1 = var3.bind(var4)(var2, var1);
         var1 = undefined;
         return var1;
     };
-    var2['USER_APPLICATION_IDENTITY_FETCH_USER_FAILURE'] = var8;
-    var4 = function handleRemoveIdentity(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+    var4['USER_APPLICATION_IDENTITY_FETCH_USER_FAILURE'] = var9;
+    var5 = function handleRemoveIdentity(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
-            var6 = _closure1_slot5;
+            var6 = _closure1_slot6;
             var5 = var6.get;
             var2 = var3.user_id;
             var2 = var5.bind(var6)(var2);
             var5 = null;
-            if(!(var5 != var2)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-            var4 = _closure1_slot8;
+            if(!(var5 != var2)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
+            var4 = _closure1_slot9;
             var3 = var3.user_id;
             var5 = var2.identities;
             var2 = var5.filter;
@@ -303,25 +346,26 @@ case 17:
             var1 = undefined;
             var2 = var4.bind(var1)(var3, var2);
             return var1;
-case 16:
+case 18:
             var1 = false;
             return var1;
         }
     };
-    var2['USER_APPLICATION_IDENTITY_REMOVE'] = var4;
-    var4 = var7.prototype;
-    var4 = Object.create(var4, {constructor: {value: var7}});
-    var13 = var4;
-    var11 = var2;
-    var2 = new var13[var7](var12, var11, var10);
-    var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 7;
-    var5 = var5[var4];
-    var4 = require;
-    var6 = var4.bind(var1)(var5);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_application_identity/UserApplicationIdentityStore.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var4['USER_APPLICATION_IDENTITY_REMOVE'] = var5;
+    var5 = var8.prototype;
+    var5 = Object.create(var5, {constructor: {value: var8}});
+    var13 = var5;
+    var11 = var4;
+    var4 = new var13[var8](var12, var11, var10);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = 7;
+    var6 = var6[var5];
+    var5 = require;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_application_identity/UserApplicationIdentityStore.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['FetchState'] = var2;
     return var1;
 })();

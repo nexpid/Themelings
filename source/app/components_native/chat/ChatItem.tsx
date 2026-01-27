@@ -29,7 +29,7 @@ case 0:
 case 3:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var1 = var6[var1];
                 var7 = undefined;
                 var1 = var5.bind(var7)(var1);
@@ -42,7 +42,7 @@ case 3:
 case 5:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var1 = var6[var1];
                 var1 = var5.bind(var7)(var1);
                 var1 = var1.bind(var7)(var4);
@@ -110,9 +110,9 @@ case 10:
         var2 = 2;
         var2 = var9[var2];
         var2 = var8.bind(var1)(var2);
-        var11 = var2.requireNativeComponent;
-        var7 = var2.View;
-        var _closure1_slot5 = var7;
+        var12 = var2.requireNativeComponent;
+        var10 = var2.View;
+        var _closure1_slot5 = var10;
         var2 = var2.Image;
         var _closure1_slot6 = var2;
         var2 = 3;
@@ -142,78 +142,79 @@ case 10:
         var _closure1_slot12 = var5;
         var2 = var2.jsxs;
         var _closure1_slot13 = var2;
-        var10 = 8;
-        var2 = var9[var10];
+        var11 = 8;
+        var2 = var9[var11];
         var5 = var8.bind(var1)(var2);
         var2 = var5.isAndroid;
         var5 = var2.bind(var5)();
-        var2 = 16;
+        var7 = 16;
+        var2 = var7;
         if(!var5) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
         var2 = 0;
 case 11:
         var _closure1_slot14 = var2;
-        var2 = var9[var10];
+        var2 = 9;
+        var2 = var9[var2];
         var4 = var8.bind(var1)(var2);
-        var2 = var4.isAndroid;
+        var2 = var4.isFabric;
         var2 = var2.bind(var4)();
         if(var2) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
         var2 = 'DCDMessageView';
-        var5 = var11.bind(var1)(var2);
+        var5 = var12.bind(var1)(var2);
         _fun0001_ip = 15; continue _fun0001;
 case 13:
-        var2 = 9;
+        var2 = 10;
         var2 = var9[var2];
         var2 = var8.bind(var1)(var2);
         var5 = var2.default;
 case 15:
         var _closure1_slot15 = var5;
-        var2 = var9[var10];
+        var2 = var9[var11];
         var4 = var8.bind(var1)(var2);
         var2 = var4.isAndroid;
         var2 = var2.bind(var4)();
         if(var2) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
         var2 = 'DCDSystemMessageView';
-        var4 = var11.bind(var1)(var2);
+        var4 = var12.bind(var1)(var2);
         _fun0001_ip = 18; continue _fun0001;
 case 16:
-        var2 = 10;
+        var2 = 11;
         var2 = var9[var2];
         var2 = var8.bind(var1)(var2);
         var4 = var2.default;
 case 18:
         var _closure1_slot16 = var4;
-        var2 = var9[var10];
-        var12 = var8.bind(var1)(var2);
-        var2 = var12.isAndroid;
-        var2 = var2.bind(var12)();
+        var2 = var9[var11];
+        var13 = var8.bind(var1)(var2);
+        var2 = var13.isAndroid;
+        var2 = var2.bind(var13)();
         if(var2) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
         var2 = 'DCDAutoModerationSystemMessageView';
-        var2 = var11.bind(var1)(var2);
+        var2 = var12.bind(var1)(var2);
         _fun0001_ip = 21; continue _fun0001;
 case 19:
-        var11 = 11;
-        var11 = var9[var11];
-        var11 = var8.bind(var1)(var11);
-        var2 = var11.default;
+        var12 = 12;
+        var12 = var9[var12];
+        var12 = var8.bind(var1)(var12);
+        var2 = var12.default;
 case 21:
         var _closure1_slot17 = var2;
-        var10 = var9[var10];
-        var11 = var8.bind(var1)(var10);
-        var10 = var11.isAndroid;
-        var10 = var10.bind(var11)();
-        if(!var10) { _fun0001_ip = 22; continue _fun0001 }
+        var11 = var9[var11];
+        var12 = var8.bind(var1)(var11);
+        var11 = var12.isAndroid;
+        var11 = var11.bind(var12)();
+        if(!var11) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-        var10 = 12;
-        var10 = var9[var10];
-        var10 = var8.bind(var1)(var10);
-        var7 = var10.default;
+        var11 = 13;
+        var11 = var9[var11];
+        var11 = var8.bind(var1)(var11);
+        var10 = var11.default;
 case 22:
-        var _closure1_slot18 = var7;
-        var7 = 15;
+        var _closure1_slot18 = var10;
         var7 = var9[var7];
         var11 = var8.bind(var1)(var7);
         var10 = var11.createStyles;
@@ -239,7 +240,7 @@ case 22:
         };
         var7 = var10.bind(var11)(var7);
         var _closure1_slot19 = var7;
-        var7 = 21;
+        var7 = 22;
         var7 = var9[var7];
         var9 = var8.bind(var1)(var7);
         var8 = var9.fileFinishedImporting;
@@ -297,7 +298,7 @@ case 24:
                 _closure2_slot8 = var8;
                 var13 = _closure1_slot0;
                 var17 = _closure1_slot2;
-                var8 = 16;
+                var8 = 17;
                 var8 = var17[var8];
                 var20 = var13.bind(var4)(var8);
                 var17 = var20.useStateFromStores;
@@ -358,11 +359,11 @@ case 27:
 case 26:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 8;
+                        var1 = 9;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
-                        var1 = var2.isAndroid;
+                        var1 = var2.isFabric;
                         var2 = var1.bind(var2)();
                         var1 = var5;
                         if(!var2) { _fun0004_ip = 28; continue _fun0004 }
@@ -391,7 +392,7 @@ case 28:
 case 0:
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 17;
+                        var1 = 18;
                         var1 = var3[var1];
                         var3 = undefined;
                         var6 = var2.bind(var3)(var1);
@@ -402,7 +403,7 @@ case 0:
                         if(var1) { _fun0005_ip = 30; continue _fun0005 }
 case 31:
                         var6 = _closure1_slot2;
-                        var1 = 20;
+                        var1 = 21;
                         var1 = var6[var1];
                         _fun0005_ip = 32; continue _fun0005;
 case 30:
@@ -410,11 +411,11 @@ case 30:
                         var6 = _closure1_slot2;
                         if(var4) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
-                        var4 = 19;
+                        var4 = 20;
                         var4 = var6[var4];
                         _fun0005_ip = 35; continue _fun0005;
 case 33:
-                        var5 = 18;
+                        var5 = 19;
                         var4 = var6[var5];
 case 35:
                         var1 = var4;
@@ -493,30 +494,30 @@ case 37:
                 var1 = var6 - var1;
                 var8 = null;
                 var6 = var8 != var2;
-                if(!var6) { _fun0003_ip = 20; continue _fun0003 }
-case 42:
+                if(!var6) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
                 var6 = var1 >= var2;
-case 20:
+case 42:
                 var14 = var8 == var3;
                 var16 = undefined;
-                if(var14) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+                if(var14) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                 var14 = var3.current;
                 var3 = var8 == var14;
                 var16 = undefined;
-                if(var3) { _fun0003_ip = 43; continue _fun0003 }
-case 45:
+                if(var3) { _fun0003_ip = 44; continue _fun0003 }
+case 46:
                 var3 = var19.id;
                 var16 = var14[var3];
-case 43:
-                if(!(var8 == var16)) { _fun0003_ip = 46; continue _fun0003 }
-case 47:
+case 44:
+                if(!(var8 == var16)) { _fun0003_ip = 47; continue _fun0003 }
+case 21:
                 if(!var6) { _fun0003_ip = 48; continue _fun0003 }
 case 49:
                 var1 = var2;
 case 48:
                 var16 = var1;
-case 46:
+case 47:
                 var3 = _closure1_slot12;
                 var2 = _closure1_slot18;
                 var1 = {};

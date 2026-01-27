@@ -660,7 +660,7 @@ case 39:
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.openMediaModal;
-                    var2 = {'initialSources': null, 'muted': false, 'paused': false, 'disableDownload': true, 'shareable': false, 'analyticsSource': 'Change Log'};
+                    var2 = {'initialSources': null, 'disableDownload': true, 'shareable': false, 'analyticsSource': 'Change Log'};
                     var7 = {};
                     var10 = var7;
                     var9 = var6;
@@ -676,7 +676,7 @@ case 39:
                     var6 = new Array(1);
                     var6[0] = var7;
                     var2['initialSources'] = var6;
-                    var2['origin'] = var5;
+                    var2['originViewOrOriginLayout'] = var5;
                     var2 = var3.bind(var4)(var2);
 case 38:
                     var2 = undefined;

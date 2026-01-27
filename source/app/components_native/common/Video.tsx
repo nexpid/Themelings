@@ -371,23 +371,21 @@ case 36:
 case 0:
                         var1 = _closure3_slot0;
                         var1 = var1.props;
-                        var7 = var1.src;
+                        var5 = var1.src;
                         var4 = var1.onPress;
-                        var10 = var1.width;
-                        var9 = var1.height;
-                        var5 = var1.muted;
-                        var6 = var1.unmutedOnFullScreen;
+                        var8 = var1.width;
+                        var7 = var1.height;
                         var1 = null;
-                        if(!(var1 != var4)) { _fun0006_ip = 7; continue _fun0006 }
-case 38:
+                        if(!(var1 != var4)) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
                         var3 = undefined;
                         var3 = var4.bind(var3)();
-case 7:
+case 38:
                         var2 = _closure3_slot0;
                         var2 = var2.ref;
                         var4 = var2.current;
-                        if(!(var1 != var4)) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+                        if(!(var1 != var4)) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var1 = 11;
@@ -396,25 +394,20 @@ case 40:
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.openMediaModal;
                         var1 = {};
-                        var8 = {};
-                        var12 = var8;
-                        var11 = var7;
-                        var7 = copyDataProperties(var12, var11);
-                        var7 = 'width';
-                        var8[var7] = var10;
-                        var7 = 'height';
-                        var8[var7] = var9;
-                        var7 = new Array(1);
-                        var7[0] = var8;
-                        var1['initialSources'] = var7;
-                        if(var5) { _fun0006_ip = 41; continue _fun0006 }
-case 17:
-                        var5 = !var6;
-case 41:
-                        var1['muted'] = var5;
-                        var1['origin'] = var4;
+                        var6 = {};
+                        var10 = var6;
+                        var9 = var5;
+                        var5 = copyDataProperties(var10, var9);
+                        var5 = 'width';
+                        var6[var5] = var8;
+                        var5 = 'height';
+                        var6[var5] = var7;
+                        var5 = new Array(1);
+                        var5[0] = var6;
+                        var1['initialSources'] = var5;
+                        var1['originViewOrOriginLayout'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 39:
+case 40:
                         var1 = undefined;
                         return var1;
                     }
@@ -733,7 +726,7 @@ case 62:
                 var4 = _closure2_slot2;
                 var3 = null;
                 if(!(var3 != var4)) { _fun0012_ip = 61; continue _fun0012 }
-case 63:
+case 39:
                 var3 = _closure2_slot2;
                 var2 = _closure2_slot8;
                 var2 = var3.bind(var1)(var2);
@@ -756,25 +749,25 @@ case 61:
 case 0:
                     var2 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0013_ip = 64; continue _fun0013 }
-case 65:
+                    if(!(var3 != var2)) { _fun0013_ip = 63; continue _fun0013 }
+case 64:
                     var6 = _closure2_slot1;
                     var5 = _closure2_slot5;
                     var4 = _closure2_slot6;
                     var2 = undefined;
                     var2 = var6.bind(var2)(var5, var4);
-case 64:
+case 63:
                     var2 = _closure2_slot2;
-                    if(!(var3 != var2)) { _fun0013_ip = 66; continue _fun0013 }
+                    if(!(var3 != var2)) { _fun0013_ip = 65; continue _fun0013 }
 case 50:
                     var5 = _closure2_slot2;
                     var4 = _closure2_slot8;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
-case 66:
+case 65:
                     var2 = _closure2_slot3;
                     if(!(var3 != var2)) { _fun0013_ip = 45; continue _fun0013 }
-case 67:
+case 66:
                     var3 = _closure2_slot3;
                     var2 = _closure2_slot7;
                     var1 = undefined;
@@ -800,18 +793,18 @@ case 0:
                 var1 = 0;
                 var2 = var1 === var2;
                 var3 = _closure2_slot8;
-                if(!(var3 !== var2)) { _fun0014_ip = 68; continue _fun0014 }
-case 69:
+                if(!(var3 !== var2)) { _fun0014_ip = 67; continue _fun0014 }
+case 68:
                 _closure2_slot8 = var2;
                 var3 = _closure2_slot2;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0014_ip = 68; continue _fun0014 }
-case 70:
+                if(!(var2 != var3)) { _fun0014_ip = 67; continue _fun0014 }
+case 69:
                 var3 = _closure2_slot2;
                 var2 = _closure2_slot8;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
-case 68:
+case 67:
                 var1 = undefined;
                 return var1;
             }
@@ -827,14 +820,14 @@ case 0:
                 _closure2_slot6 = var2;
                 var3 = _closure2_slot1;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0015_ip = 66; continue _fun0015 }
-case 71:
+                if(!(var2 != var3)) { _fun0015_ip = 65; continue _fun0015 }
+case 70:
                 var4 = _closure2_slot1;
                 var3 = _closure2_slot5;
                 var2 = _closure2_slot6;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2);
-case 66:
+case 65:
                 var1 = undefined;
                 return var1;
             }
@@ -849,7 +842,7 @@ case 0:
                 var3 = _closure2_slot3;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0016_ip = 50; continue _fun0016 }
-case 69:
+case 68:
                 var3 = _closure2_slot3;
                 var2 = _closure2_slot7;
                 var1 = undefined;

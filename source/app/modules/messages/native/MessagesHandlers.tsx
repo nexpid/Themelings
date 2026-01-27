@@ -6591,7 +6591,7 @@ case 123:
                     var2['initialSources'] = var8;
                     var2['initialIndex'] = var7;
                     var6 = var6.layout;
-                    var2['originLayout'] = var6;
+                    var2['originViewOrOriginLayout'] = var6;
                     var6 = 'Channel';
                     var2['analyticsSource'] = var6;
                     var6 = var5.guild_id;
