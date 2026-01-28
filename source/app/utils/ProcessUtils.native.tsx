@@ -266,7 +266,7 @@ case 28:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(24);
+        var1 = new Array(26);
         var1[0] = var5;
         var5 = {};
         var7 = 'getCumulativeCPUUsage';
@@ -344,7 +344,7 @@ case 28:
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
-        var7 = 'enablePAMemoryProfiler';
+        var7 = 'startCPUProfiling';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -353,16 +353,20 @@ case 28:
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
-        var7 = 'disablePAMemoryProfiler';
+        var7 = 'stopCPUProfiling';
         var5['key'] = var7;
         var7 = function value() {
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
             var1 = null;
+            var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
         var1[10] = var5;
         var5 = {};
-        var7 = 'getPerfAttributedPAMemory';
+        var7 = 'enablePAMemoryProfiler';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -371,7 +375,7 @@ case 28:
         var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
-        var7 = 'getPerfAttributedPAMemoryCallstacks';
+        var7 = 'disablePAMemoryProfiler';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -380,7 +384,7 @@ case 28:
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
-        var7 = 'getPartitionAllocatorStats';
+        var7 = 'getPerfAttributedPAMemory';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -389,6 +393,24 @@ case 28:
         var5['value'] = var7;
         var1[13] = var5;
         var5 = {};
+        var7 = 'getPerfAttributedPAMemoryCallstacks';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
+        var5 = {};
+        var7 = 'getPartitionAllocatorStats';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[15] = var5;
+        var5 = {};
         var7 = 'enableProfilingV8Heap';
         var5['key'] = var7;
         var7 = function value() {
@@ -396,7 +418,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'disableProfilingV8Heap';
         var5['key'] = var7;
@@ -405,7 +427,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getProfilerV8MemoryCallstacks';
         var5['key'] = var7;
@@ -414,7 +436,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getMemoryUsageDetails';
         var5['key'] = var7;
@@ -426,7 +448,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getMemoryUsageElectronRenderer';
         var5['key'] = var7;
@@ -435,7 +457,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getMemoryPrivateUsageElectronRenderer';
         var5['key'] = var7;
@@ -444,7 +466,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getMemoryUsageElectronRendererUsedHeapSize';
         var5['key'] = var7;
@@ -453,7 +475,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getMemoryHeapStats';
         var5['key'] = var7;
@@ -462,7 +484,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'getBlinkMemoryInfo';
         var5['key'] = var7;
@@ -471,7 +493,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'getMemoryUsageElectronProcessTypeDetails';
         var5['key'] = var7;
@@ -480,7 +502,7 @@ case 28:
             return var1;
         };
         var5['value'] = var6;
-        var1[23] = var5;
+        var1[25] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

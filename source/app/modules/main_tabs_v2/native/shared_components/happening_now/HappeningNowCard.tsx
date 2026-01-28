@@ -345,20 +345,20 @@ case 0:
             var2 = var1.Text;
             var1 = {'variant': 'text-sm/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
             var9 = null;
-            if(var11) { _fun0003_ip = 17; continue _fun0003 }
-case 30:
+            if(var11) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var9 = var7.cardHeaderMargin;
-case 17:
+case 30:
             var7 = new Array(2);
             var7[0] = var9;
             var9 = var8 != var10;
             var8 = null;
-            if(!var9) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+            if(!var9) { _fun0003_ip = 32; continue _fun0003 }
+case 6:
             var9 = {};
             var9['fontFamily'] = var10;
             var8 = var9;
-case 31:
+case 32:
             var7[1] = var8;
             var1['style'] = var7;
             var14 = var1;

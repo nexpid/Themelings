@@ -246,6 +246,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var100 = 18;
     var50['APPLE'] = var100;
     var50[var100] = var1;
+    var99 = 19;
+    var50['TDS_WALLET'] = var99;
+    var1 = 'TDS_WALLET';
+    var50[var99] = var1;
     var4 = 99;
     var50['PAYMENT_REQUEST'] = var4;
     var1 = 'PAYMENT_REQUEST';
@@ -622,7 +626,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var68[var10];
     var5 = var8.bind(var1)(var4);
     var4 = var5.getFlag;
-    var99 = 19;
     var4 = var4.bind(var5)(var99);
     var7['VIEW_GUILD_ANALYTICS'] = var4;
     var4 = var68[var10];

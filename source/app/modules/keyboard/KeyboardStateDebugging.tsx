@@ -14,24 +14,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
-    var2 = metroImportDefault;
+    var2 = var6[var1];
     var1 = undefined;
-    var8 = var2.bind(var1)(var7);
-    var2 = var8.prototype;
-    var7 = Object.create(var2, {constructor: {value: var8}});
-    var11 = 'KeyboardStateDebugging';
-    var12 = var7;
-    var2 = new var12[var8](var11, var10);
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.DeviceEventEmitter;
+    var2 = 1;
+    var7 = var6[var2];
+    var2 = metroImportDefault;
+    var2 = var2.bind(var1)(var7);
+    var7 = var2.prototype;
+    var7 = Object.create(var7, {constructor: {value: var2}});
+    var8 = 'KeyboardStateDebugging';
+    var13 = var7;
+    var12 = var8;
+    var2 = new var13[var2](var12, var11);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot2 = var2;
+    var7 = var9.addListener;
+    var2 = function(arg1) {
+        var4 = _closure1_slot2;
+        var3 = var4.info;
+        var2 = {};
+        var1 = arg1;
+        var2['event'] = var1;
+        var1 = 'Library event.';
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = undefined;
+        return var1;
+    };
+    var2 = var7.bind(var9)(var8, var2);
     var2 = {};
     var7 = function channelSafeAreaBottomLayoutHeightChanged(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -56,7 +74,7 @@ case 2:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -83,7 +101,7 @@ case 4:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -114,7 +132,7 @@ case 7:
 case 6:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var4 = 1;
+            var4 = 2;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isIOS;
@@ -145,7 +163,7 @@ case 7:
 case 6:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var3 = 1;
+            var3 = 2;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.isIOS;
@@ -176,7 +194,7 @@ case 10:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -204,7 +222,7 @@ case 7:
 case 6:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var4 = 1;
+            var4 = 2;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isIOS;
@@ -227,7 +245,7 @@ case 12:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -257,7 +275,7 @@ case 13:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -284,7 +302,7 @@ case 4:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -311,7 +329,7 @@ case 12:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -336,7 +354,7 @@ case 5:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -363,7 +381,7 @@ case 4:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -380,7 +398,7 @@ case 14:
         }
     };
     var2['markPotentialBadState'] = var4;
-    var4 = 2;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

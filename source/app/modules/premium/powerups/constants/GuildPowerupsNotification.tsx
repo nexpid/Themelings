@@ -43,10 +43,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GAME_SERVER_HOSTING_ENABLED'] = var6;
     var1 = 'GAME_SERVER_HOSTING_ENABLED';
     var2[var6] = var1;
-    var6 = 7;
-    var2['GAME_SERVER_NEW_GAMES'] = var6;
-    var1 = 'GAME_SERVER_NEW_GAMES';
-    var2[var6] = var1;
     var1 = dependencyMap;
     var6 = var1[var5];
     var5 = require;

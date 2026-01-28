@@ -270,7 +270,7 @@ case 9:
             var8 = 24;
             var8 = var10[var8];
             var8 = var9.bind(var5)(var8);
-            var9 = var8.ActivitiesIcon;
+            var9 = var8.AppsIcon;
             var8 = {'size': 'sm', 'color': 'white'};
             var8 = var4.bind(var5)(var9, var8);
             var2['icon'] = var8;

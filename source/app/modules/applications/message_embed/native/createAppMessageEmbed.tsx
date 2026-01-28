@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var4 = ['embedded_cover'];
     var _closure1_slot9 = var4;
-    var4 = 24;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -138,13 +138,22 @@ case 13:
             var3 = 10;
             var3 = var19[var3];
             var7 = var7.bind(var5)(var3);
+            var3 = var7.canLaunchFrame;
+            var3 = var3.bind(var7)(var14);
+            if(var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var7 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var3 = 11;
+            var3 = var19[var3];
+            var7 = var7.bind(var5)(var3);
             var3 = var7.getPlayInContext;
             var7 = var3.bind(var7)(var4, var15);
             var3 = var7.instanceId;
             var15 = var7.isCurrentlyInInstance;
             var7 = var7.canLaunchInChannel;
-            if(var7) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var7) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var19 = var9.push;
             var7 = {};
             var20 = 'play_in_dm';
@@ -164,7 +173,7 @@ case 15:
             var7['label'] = var20;
             var7 = var19.bind(var9)(var7);
             _fun0001_ip = 12; continue _fun0001;
-case 14:
+case 16:
             var21 = _closure1_slot0;
             var7 = _closure1_slot2;
             var22 = 9;
@@ -177,11 +186,11 @@ case 14:
             var7 = var7.t;
             var7 = var7.RscU7I;
             var7 = var19.bind(var20)(var7);
-            if(var15) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var19 = var7;
-            if(!(var1 != var3)) { _fun0001_ip = 18; continue _fun0001 }
+            if(var15) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
+            var19 = var7;
+            if(!(var1 != var3)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var21 = _closure1_slot0;
             var3 = _closure1_slot2;
             var7 = var3[var22];
@@ -193,8 +202,8 @@ case 19:
             var3 = var3.t;
             var3 = var3.VJlc0S;
             var19 = var7.bind(var20)(var3);
-            _fun0001_ip = 18; continue _fun0001;
-case 16:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var21 = _closure1_slot0;
             var3 = _closure1_slot2;
             var7 = var3[var22];
@@ -206,13 +215,33 @@ case 16:
             var3 = var3.t;
             var3 = var3.DPfdsq;
             var19 = var7.bind(var20)(var3);
-case 18:
+case 20:
             var7 = var9.push;
             var3 = {};
             var20 = 'play_in_channel';
             var3['id'] = var20;
             var3['label'] = var19;
             var3['disabled'] = var15;
+            var3 = var7.bind(var9)(var3);
+            _fun0001_ip = 12; continue _fun0001;
+case 14:
+            var7 = var9.push;
+            var3 = {};
+            var15 = 'play_frame';
+            var3['id'] = var15;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var15 = 9;
+            var19 = var22[var15];
+            var19 = var21.bind(var5)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var15 = var22[var15];
+            var15 = var21.bind(var5)(var15);
+            var15 = var15.t;
+            var15 = var15.RscU7I;
+            var15 = var19.bind(var20)(var15);
+            var3['label'] = var15;
             var3 = var7.bind(var9)(var3);
 case 12:
             var7 = var12.join;
@@ -226,8 +255,8 @@ case 12:
             var7 = var7.bind(var5)(var3);
             var3 = var7.isEmbeddedApp;
             var3 = var3.bind(var7)(var14);
-            if(!var3) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var3) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var15 = 8;
@@ -236,10 +265,10 @@ case 21:
             var7 = var10.getAssetIds;
             var3 = _closure1_slot9;
             var10 = var7.bind(var10)(var21, var3);
-            if(!(var1 == var10)) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(var1 == var10)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var10 = new Array(0);
-case 22:
+case 24:
             var7 = _closure1_slot3;
             var3 = 1;
             var7 = var7.bind(var5)(var10, var3);
@@ -247,8 +276,8 @@ case 22:
             var20 = var7[var3];
             var3 = var1 != var20;
             var7 = null;
-            if(!var3) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+            if(!var3) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var15];
@@ -256,14 +285,14 @@ case 25:
             var10 = var15.getAssetImage;
             var3 = 512;
             var7 = var10.bind(var15)(var21, var20, var3);
-case 24:
-            if(!(var1 == var7)) { _fun0001_ip = 26; continue _fun0001 }
-case 20:
-            if(!(var1 != var19)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+case 26:
+            if(!(var1 == var7)) { _fun0001_ip = 28; continue _fun0001 }
+case 22:
+            if(!(var1 != var19)) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var10 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var15[var3];
             var15 = var10.bind(var5)(var3);
             var10 = var15.getUserBannerURL;
@@ -277,50 +306,50 @@ case 28:
             var19 = false;
             var3['canAnimate'] = var19;
             var10 = var10.bind(var15)(var3);
-            if(!(var1 == var10)) { _fun0001_ip = 29; continue _fun0001 }
-case 27:
-            var15 = {'bannerRatio': 'bot', 'staticBannerSrc': null};
-            _fun0001_ip = 30; continue _fun0001;
+            if(!(var1 == var10)) { _fun0001_ip = 31; continue _fun0001 }
 case 29:
+            var15 = {'bannerRatio': 'bot', 'staticBannerSrc': null};
+            _fun0001_ip = 32; continue _fun0001;
+case 31:
             var3 = {};
             var19 = 'bot';
             var3['bannerRatio'] = var19;
             var3['staticBannerSrc'] = var10;
             var15 = var3;
-            _fun0001_ip = 30; continue _fun0001;
-case 26:
+            _fun0001_ip = 32; continue _fun0001;
+case 28:
             var3 = {};
             var10 = 'activity';
             var3['bannerRatio'] = var10;
             var3['staticBannerSrc'] = var7;
             var15 = var3;
-case 30:
+case 32:
             var3 = var1 != var17;
             var10 = null;
-            if(!var3) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!var3) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var7 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var3 = var19[var3];
             var7 = var7.bind(var5)(var3);
             var3 = var7.getAppIconSrc;
             var10 = var3.bind(var7)(var4, var17, var18);
-case 31:
-            var3 = var10;
-            if(!(var1 == var3)) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
-            var3 = var15.staticBannerSrc;
 case 33:
+            var3 = var10;
+            if(!(var1 == var3)) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
+            var3 = var15.staticBannerSrc;
+case 35:
             var7 = var1 != var3;
             var17 = undefined;
-            if(!var7) { _fun0001_ip = 35; continue _fun0001 }
-case 36:
+            if(!var7) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var17 = var3;
-case 35:
+case 37:
             var7 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var3 = var18[var3];
             var7 = var7.bind(var5)(var3);
             var3 = var7.getAppGradientColors;
@@ -380,8 +409,8 @@ case 2:
             var3 = var6.isFetchingApplication;
             var6 = var3.bind(var6)(var4);
             var3 = false;
-            if(!(var3 === var6)) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+            if(!(var3 === var6)) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 6;
@@ -389,7 +418,7 @@ case 38:
             var3 = var3.bind(var5)(var2);
             var2 = var3.fetchApplication;
             var2 = var2.bind(var3)(var4);
-case 37:
+case 39:
             return var1;
         }
     };
@@ -404,7 +433,7 @@ case 0:
             var8 = var2.bind(var3)(var1);
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -414,80 +443,83 @@ case 0:
             var3 = null;
             var2 = var3 == var4;
             var6 = undefined;
-            if(var2) { _fun0002_ip = 39; continue _fun0002 }
-case 40:
+            if(var2) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var9 = var4.searchParams;
             var5 = var9.get;
             var2 = 'referrer_id';
             var6 = var5.bind(var9)(var2);
-case 39:
-            if(!(var3 == var6)) { _fun0002_ip = 41; continue _fun0002 }
-case 42:
+case 41:
+            if(!(var3 == var6)) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
             var2 = var10.message;
             var2 = var2.author;
             var6 = var2.id;
-case 41:
+case 43:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 43; continue _fun0002 }
-case 44:
+            if(var5) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var9 = var4.searchParams;
             var5 = var9.get;
             var4 = 'custom_id';
             var2 = var5.bind(var9)(var4);
-case 43:
+case 45:
             var4 = var3 != var2;
             var5 = undefined;
             if(!var4) { _fun0002_ip = 5; continue _fun0002 }
-case 45:
+case 47:
             var5 = var2;
 case 5:
             var4 = var10.actionId;
             var2 = 'play_in_channel';
-            if(!(var2 !== var4)) { _fun0002_ip = 46; continue _fun0002 }
-case 47:
-            var2 = 'play_in_dm';
             if(!(var2 !== var4)) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
+            var2 = 'play_in_dm';
+            if(!(var2 !== var4)) { _fun0002_ip = 50; continue _fun0002 }
 case 7:
-            var2 = 'view_in_app_launcher';
-            if(!(var2 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
-case 50:
-            var2 = 'add_app';
+            var2 = 'play_frame';
             if(!(var2 !== var4)) { _fun0002_ip = 51; continue _fun0002 }
 case 52:
-            var2 = 'link_copied';
+            var2 = 'view_in_app_launcher';
             if(!(var2 !== var4)) { _fun0002_ip = 53; continue _fun0002 }
 case 54:
+            var2 = 'add_app';
+            if(!(var2 !== var4)) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
+            var2 = 'link_copied';
+            if(!(var2 !== var4)) { _fun0002_ip = 57; continue _fun0002 }
+case 58:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 23;
+            var2 = 25;
             var2 = var9[var2];
             var9 = var4.bind(var1)(var2);
             var4 = var9.assertNever;
             var2 = var10.actionId;
             var2 = var4.bind(var9)(var2);
-            _fun0002_ip = 55; continue _fun0002;
-case 53:
+            _fun0002_ip = 59; continue _fun0002;
+case 57:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 21;
+            var2 = 23;
             var2 = var9[var2];
             var12 = var4.bind(var1)(var2);
             var11 = var12.copy;
             var2 = var10.embedUrl;
             var2 = var11.bind(var12)(var2);
-            var2 = 22;
+            var2 = 24;
             var2 = var9[var2];
             var4 = var4.bind(var1)(var2);
             var2 = var4.presentLinkCopied;
             var2 = var2.bind(var4)();
-            _fun0002_ip = 55; continue _fun0002;
-case 51:
-            if(!(var3 != var8)) { _fun0002_ip = 56; continue _fun0002 }
-case 57:
+            _fun0002_ip = 59; continue _fun0002;
+case 55:
+            if(!(var3 != var8)) { _fun0002_ip = 60; continue _fun0002 }
+case 61:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 20;
+            var2 = 22;
             var2 = var9[var2];
             var9 = var4.bind(var1)(var2);
             var4 = var9.installApplication;
@@ -503,24 +535,24 @@ case 57:
             var11 = 'app_message_embed';
             var2['source'] = var11;
             var2 = var4.bind(var9)(var2);
-            _fun0002_ip = 55; continue _fun0002;
-case 56:
+            _fun0002_ip = 59; continue _fun0002;
+case 60:
             return var1;
-case 49:
+case 53:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 18;
+            var2 = 20;
             var2 = var9[var2];
             var4 = var4.bind(var1)(var2);
             var2 = var4.getBestActiveInput;
             var9 = var2.bind(var4)();
-            if(!(var3 != var9)) { _fun0002_ip = 55; continue _fun0002 }
-case 58:
+            if(!(var3 != var9)) { _fun0002_ip = 59; continue _fun0002 }
+case 62:
             var4 = var9.openCustomKeyboard;
             var2 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var11 = 19;
+            var11 = 21;
             var11 = var13[var11];
             var11 = var12.bind(var1)(var11);
             var11 = var11.KeyboardTypes;
@@ -538,19 +570,31 @@ case 58:
             var11['customId'] = var5;
             var2['context'] = var11;
             var2 = var4.bind(var9)(var2);
-            _fun0002_ip = 55; continue _fun0002;
-case 48:
+            _fun0002_ip = 59; continue _fun0002;
+case 51:
+            var4 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 19;
+            var2 = var9[var2];
+            var9 = var4.bind(var1)(var2);
+            var4 = var9.launchFrame;
+            var2 = {};
+            var11 = var10.appId;
+            var2['applicationId'] = var11;
+            var2 = var4.bind(var9)(var2);
+            _fun0002_ip = 59; continue _fun0002;
+case 50:
             var4 = var3 == var8;
             var2 = undefined;
-            if(var4) { _fun0002_ip = 59; continue _fun0002 }
-case 60:
+            if(var4) { _fun0002_ip = 63; continue _fun0002 }
+case 64:
             var2 = var8.bot;
-case 59:
-            if(!(var3 != var2)) { _fun0002_ip = 61; continue _fun0002 }
-case 62:
+case 63:
+            if(!(var3 != var2)) { _fun0002_ip = 65; continue _fun0002 }
+case 66:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 16;
+            var2 = 17;
             var2 = var11[var2];
             var4 = var9.bind(var1)(var2);
             var3 = var4.launchActivityInBotDM;
@@ -561,14 +605,14 @@ case 62:
             var8 = var8.id;
             var2['botId'] = var8;
             var12 = _closure1_slot1;
-            var8 = 15;
+            var8 = 16;
             var8 = var11[var8];
             var8 = var12.bind(var1)(var8);
             var12 = var8.APP_MESSAGE_EMBED;
             var8 = new Array(1);
             var8[0] = var12;
             var2['analyticsLocations'] = var8;
-            var8 = 17;
+            var8 = 18;
             var8 = var11[var8];
             var8 = var9.bind(var1)(var8);
             var8 = var8.CommandOrigin;
@@ -577,15 +621,15 @@ case 62:
             var2['referrerId'] = var6;
             var2['customId'] = var5;
             var2 = var3.bind(var4)(var2);
-            _fun0002_ip = 55; continue _fun0002;
-case 61:
+            _fun0002_ip = 59; continue _fun0002;
+case 65:
             return var1;
-case 46:
+case 48:
             var2 = var10.message;
             var8 = var2.channel_id;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var9[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.joinOrStartActivityInChannel;
@@ -594,7 +638,7 @@ case 46:
             var2['appId'] = var10;
             var2['channelId'] = var8;
             var8 = _closure1_slot1;
-            var7 = 15;
+            var7 = 16;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
             var8 = var7.APP_MESSAGE_EMBED;
@@ -604,7 +648,7 @@ case 46:
             var2['referrerId'] = var6;
             var2['customId'] = var5;
             var2 = var3.bind(var4)(var2);
-case 55:
+case 59:
             return var1;
         }
     };

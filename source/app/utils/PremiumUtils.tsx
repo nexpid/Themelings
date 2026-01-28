@@ -6108,7 +6108,7 @@ case 387:
         }
     };
     var71['getIntervalMonths'] = var76;
-    var76 = 30;
+    var76 = 31;
     var76 = var17[var76];
     var76 = var16.bind(var1)(var76);
     var76 = var76.getUserMaxFileSize;
@@ -6721,7 +6721,7 @@ case 480:
     var71['formatPriceString'] = var19;
     var71['StreamQuality'] = var69;
     var71 = var72.bind(var73)(var71);
-    var72 = 31;
+    var72 = 32;
     var72 = var17[var72];
     var74 = var16.bind(var1)(var72);
     var73 = var74.fileFinishedImporting;
@@ -8543,42 +8543,55 @@ case 627:
     var14 = function getOfferNoticeThreshold(arg1) {
         _fun0092: for(var _fun0092_ip = 0; ; ) switch(_fun0092_ip) {
 case 0:
-            var2 = arg1;
-            var1 = _closure1_slot96;
-            var4 = undefined;
-            var1 = var1.bind(var4)(var2);
-            if(var1) { _fun0092_ip = 121; continue _fun0092 }
-case 29:
-            var1 = _closure1_slot97;
-            var1 = var1.bind(var4)(var2);
-            var4 = _closure1_slot47;
-            if(var1) { _fun0092_ip = 53; continue _fun0092 }
-case 42:
-            var1 = var4;
-            _fun0092_ip = 95; continue _fun0092;
-case 53:
-            var1 = var4;
-case 95:
-            _fun0092_ip = 630; continue _fun0092;
-case 121:
-            var4 = var2.trial_id;
-            var2 = _closure1_slot35;
-            if(!(var4 !== var2)) { _fun0092_ip = 125; continue _fun0092 }
-case 7:
-            var2 = _closure1_slot36;
-            if(!(var4 !== var2)) { _fun0092_ip = 471; continue _fun0092 }
-case 557:
-            var2 = _closure1_slot47;
-            _fun0092_ip = 384; continue _fun0092;
-case 471:
-            var2 = _closure1_slot45;
-case 384:
-            _fun0092_ip = 470; continue _fun0092;
-case 125:
-            var2 = _closure1_slot46;
-case 470:
-            var1 = var2;
+            var3 = arg1;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 30;
+            var1 = var5[var1];
+            var5 = undefined;
+            var6 = var2.bind(var5)(var1);
+            var2 = var6.getOfferNoticeTimingExperimentThreshold;
+            var1 = 'getOfferNoticeThreshold';
+            var1 = var2.bind(var6)(var1);
+            var2 = 0;
+            if(!(var2 === var1)) { _fun0092_ip = 130; continue _fun0092 }
+case 462:
+            var2 = _closure1_slot96;
+            var2 = var2.bind(var5)(var3);
+            if(var2) { _fun0092_ip = 630; continue _fun0092 }
+case 72:
+            var2 = _closure1_slot97;
+            var2 = var2.bind(var5)(var3);
+            var5 = _closure1_slot47;
+            if(var2) { _fun0092_ip = 386; continue _fun0092 }
+case 491:
+            var2 = var5;
+            _fun0092_ip = 9; continue _fun0092;
+case 386:
+            var2 = var5;
+case 9:
+            _fun0092_ip = 494; continue _fun0092;
 case 630:
+            var5 = var3.trial_id;
+            var3 = _closure1_slot35;
+            if(!(var5 !== var3)) { _fun0092_ip = 562; continue _fun0092 }
+case 461:
+            var3 = _closure1_slot36;
+            if(!(var5 !== var3)) { _fun0092_ip = 548; continue _fun0092 }
+case 13:
+            var3 = _closure1_slot47;
+            _fun0092_ip = 552; continue _fun0092;
+case 548:
+            var3 = _closure1_slot45;
+case 552:
+            _fun0092_ip = 481; continue _fun0092;
+case 562:
+            var3 = _closure1_slot46;
+case 481:
+            var2 = var3;
+case 494:
+            var1 = var2;
+case 130:
             return var1;
         }
     };

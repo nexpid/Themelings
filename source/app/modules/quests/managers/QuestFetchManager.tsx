@@ -386,20 +386,23 @@ case 0:
                 var6 = var6.QUESTS_MANAGER;
                 var2['location'] = var6;
                 var2 = var3.bind(var5)(var2);
-                if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-                var2 = _closure1_slot8;
-                var2 = var2.isFetchingCurrentQuests;
-                if(var2) { _fun0006_ip = 23; continue _fun0006 }
-case 5:
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 10;
-                var2 = var5[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.isMetaQuest;
-                var2 = var2.bind(var3)();
-                if(var2) { _fun0006_ip = 23; continue _fun0006 }
+                var2 = !var2;
+                if(var2) { _fun0006_ip = 12; continue _fun0006 }
+case 23:
+                var3 = _closure1_slot8;
+                var2 = var3.isFetchingCurrentQuests;
+case 12:
+                if(var2) { _fun0006_ip = 22; continue _fun0006 }
+case 14:
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 10;
+                var3 = var6[var3];
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.isMetaQuest;
+                var2 = var3.bind(var5)();
+case 22:
+                if(var2) { _fun0006_ip = 24; continue _fun0006 }
 case 25:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -410,42 +413,37 @@ case 25:
                 var3 = var3.bind(var7)();
                 var3 = 12;
                 var3 = var6[var3];
-                var3 = var5.bind(var1)(var3);
-                var6 = var3.QuestAdFetchActiveCheckExperiment;
-                var5 = var6.getConfig;
-                var3 = {};
-                var7 = _closure1_slot9;
-                var7 = var7.QUESTS_MANAGER;
-                var3['location'] = var7;
-                var3 = var5.bind(var6)(var3);
-                var3 = var3.enabled;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.isMac;
+                var3 = var3.bind(var5)();
                 if(!var3) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
-                var5 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 13;
-                var3 = var6[var3];
-                var5 = var5.bind(var1)(var3);
-                var3 = var5.getState;
-                var5 = var3.bind(var5)();
-                var3 = 'active';
-                if(!(var3 !== var5)) { _fun0006_ip = 26; continue _fun0006 }
-case 28:
-                return var1;
+                var6 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var5 = 13;
+                var5 = var7[var5];
+                var6 = var6.bind(var1)(var5);
+                var5 = var6.getState;
+                var6 = var5.bind(var6)();
+                var5 = 'focused';
+                var3 = var5 !== var6;
 case 26:
-                var5 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 14;
-                var3 = var6[var3];
-                var6 = var5.bind(var1)(var3);
-                var5 = var6.getConfig;
-                var3 = {};
-                var7 = 'QuestFetchManager';
-                var3['location'] = var7;
-                var3 = var5.bind(var6)(var3);
-                var3 = var3.enableNewRequestBehavior;
-                if(var3) { _fun0006_ip = 23; continue _fun0006 }
+                if(var3) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
+                var6 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var5 = 14;
+                var5 = var7[var5];
+                var7 = var6.bind(var1)(var5);
+                var6 = var7.getConfig;
+                var5 = {};
+                var8 = 'QuestFetchManager';
+                var5['location'] = var8;
+                var5 = var6.bind(var7)(var5);
+                var3 = var5.enableNewRequestBehavior;
+case 28:
+                if(var3) { _fun0006_ip = 24; continue _fun0006 }
+case 30:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];
@@ -458,7 +456,7 @@ case 29:
                 var3 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = arg1;
                 var2 = var4.bind(var5)(var3, var2);
-case 23:
+case 24:
                 return var1;
             }
         };

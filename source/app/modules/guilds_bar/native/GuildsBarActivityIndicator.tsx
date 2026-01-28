@@ -37,7 +37,7 @@ case 13:
             var4 = var6[var4];
             var5 = undefined;
             var4 = var7.bind(var5)(var4);
-            var4 = var4.ActivitiesIcon;
+            var4 = var4.AppsIcon;
             var2['icon'] = var4;
             var4 = _closure1_slot1;
             var3 = 17;

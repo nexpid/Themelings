@@ -326,62 +326,80 @@ case 40:
     var2 = 7;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.KkvStore;
+    var7 = var2.LibdiscoreStore;
     var2 = function(arg1) {
-        var4 = function RawGuildEmojiStore() {
+        var4 = function RawGuildEmojiStore(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var4 = this;
-                var3 = undefined;
-                var5 = undefined;
-                var1 = _closure1_slot3;
+                var12 = 0;
+                var1 = copyRestArgs(var12);
+                var7 = _closure1_slot3;
                 var2 = _closure2_slot0;
-                var1 = var1.bind(var3)(var4, var2);
+                var3 = undefined;
+                var7 = var7.bind(var3)(var4, var2);
+                var9 = new Array(0);
+                var12 = var9;
+                var11 = var1;
+                var10 = 0;
+                var1 = arraySpread(var12, var11, var10);
                 var1 = _closure1_slot6;
-                var9 = var1.bind(var3)(var2);
+                var8 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
-                var7 = var9.apply;
-                var5 = arguments;
-                var1 = var5;
-                var1 = var7.bind(var9)(var4, var1);
+                var1 = var8.apply;
+                var1 = var1.bind(var8)(var4, var9);
                 _fun0006_ip = 44; continue _fun0006;
 case 42:
-                var7 = global;
-                var8 = var7.Reflect;
-                var7 = var8.construct;
-                var6 = _closure1_slot6;
-                var6 = var6.bind(var3)(var4);
-                var6 = var6.constructor;
-                var5 = arguments;
-                var1 = var7.bind(var8)(var9, var5, var6);
+                var6 = global;
+                var7 = var6.Reflect;
+                var6 = var7.construct;
+                var5 = _closure1_slot6;
+                var5 = var5.bind(var3)(var4);
+                var5 = var5.constructor;
+                var1 = var6.bind(var7)(var8, var9, var5);
 case 44:
                 var1 = var2.bind(var3)(var4, var1);
+                var3 = var1.addKKVDatabase;
+                var2 = 'guild_emojis';
+                var2 = var3.bind(var1)(var2);
+                var1['database'] = var2;
                 return var1;
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot7;
+        var5 = _closure1_slot7;
         var3 = undefined;
-        var5 = arg1;
-        var5 = var6.bind(var3)(var4, var5);
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var6 = 'getGuildEmojis';
-        var5['key'] = var6;
-        var1 = function value(arg1) {
-            var3 = this;
+        var1 = 'stateWrapper';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = this;
+            var1 = var1.database;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getGuildEmojis';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var1 = this;
+            var3 = var1.database;
             var2 = var3.getNullablePartition;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(1);
-        var1[0] = var5;
+        var5['value'] = var6;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -391,120 +409,108 @@ case 44:
     var2 = {};
     var8 = function LOGOUT(arg1, arg2) {
         var2 = arg2;
-        var1 = var2.reset;
+        var1 = var2.clear;
         var1 = var1.bind(var2)();
         return var1;
     };
     var2['LOGOUT'] = var8;
     var8 = function BACKGROUND_SYNC(arg1, arg2) {
         var2 = arg2;
-        var1 = var2.reset;
+        var1 = var2.clear;
         var1 = var1.bind(var2)();
         return var1;
     };
     var2['BACKGROUND_SYNC'] = var8;
     var8 = function CONNECTION_OPEN(arg1, arg2) {
-        var3 = arg2;
-        var2 = arg1;
-        var _closure2_slot0 = var2;
-        var2 = var3.reset;
-        var1 = function(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var7 = arg1;
-                var3 = _closure1_slot10;
-                var1 = _closure2_slot0;
-                var2 = var1.guilds;
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var3 = var5.bind(var1)();
-                var2 = var3.done;
-                var4 = null;
-                if(var2) { _fun0007_ip = 45; continue _fun0007 }
+            var7 = arg2;
+            var1 = var7.clear;
+            var1 = var1.bind(var7)();
+            var3 = _closure1_slot10;
+            var1 = arg1;
+            var2 = var1.guilds;
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var3 = var5.bind(var1)();
+            var2 = var3.done;
+            var4 = null;
+            if(var2) { _fun0007_ip = 45; continue _fun0007 }
 case 46:
-                var2 = var3.value;
-                var8 = var2.emojis;
-                var8 = var8.items;
-                if(!(var4 != var8)) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
-                var8 = var2.id;
-                var10 = _closure1_slot12;
-                var9 = var2.id;
-                var2 = var2.emojis;
-                var2 = var2.items;
-                var2 = var10.bind(var1)(var9, var2);
-                var7[var8] = var2;
+            var2 = var3.value;
+            var8 = var2.emojis;
+            var8 = var8.items;
+            if(!(var4 != var8)) { _fun0007_ip = 47; continue _fun0007 }
+case 43:
+            var9 = var7.setPartition;
+            var8 = var2.id;
+            var11 = _closure1_slot12;
+            var10 = var2.id;
+            var2 = var2.emojis;
+            var2 = var2.items;
+            var2 = var11.bind(var1)(var10, var2);
+            var2 = var9.bind(var7)(var8, var2);
 case 47:
-                var8 = var5.bind(var1)();
-                var2 = var8.done;
-                var3 = var8;
-                if(!var2) { _fun0007_ip = 46; continue _fun0007 }
+            var8 = var5.bind(var1)();
+            var2 = var8.done;
+            var3 = var8;
+            if(!var2) { _fun0007_ip = 46; continue _fun0007 }
 case 45:
-                return var1;
-            }
-        };
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
+            return var1;
+        }
     };
     var2['CONNECTION_OPEN'] = var8;
     var8 = function OVERLAY_INITIALIZE(arg1, arg2) {
         var3 = arg2;
+        var _closure2_slot0 = var3;
+        var2 = var3.clear;
+        var2 = var2.bind(var3)();
+        var2 = global;
+        var4 = var2.Object;
+        var3 = var4.entries;
         var2 = arg1;
-        var _closure2_slot0 = var2;
-        var2 = var3.reset;
+        var2 = var2.emojis;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.forEach;
         var1 = function(arg1) {
-            var2 = arg1;
-            var _closure3_slot0 = var2;
-            var2 = global;
-            var4 = var2.Object;
-            var3 = var4.entries;
-            var2 = _closure2_slot0;
-            var2 = var2.emojis;
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.forEach;
-            var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var6 = arg1;
-                    var2 = var6[Symbol.iterator];
-                    var6 = var2().next;
-                    var5 = var6().value;
-                    var3 = var2;
-                    var1 = undefined;
-                    var3 = var3 === var1;
-                    var4 = undefined;
-                    if(var3) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
-                    var4 = var5;
+                var4 = arg1;
+                var2 = var4[Symbol.iterator];
+                var4 = var2().next;
+                var6 = var4().value;
+                var3 = var2;
+                var1 = undefined;
+                var3 = var3 === var1;
+                var5 = undefined;
+                if(var3) { _fun0008_ip = 48; continue _fun0008 }
 case 49:
-                    var5 = undefined;
-                    if(var3) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-                    var7 = var6().value;
-                    var6 = var2;
-                    var6 = var6 === var1;
-                    var5 = undefined;
-                    var3 = var6;
-                    if(var6) { _fun0008_ip = 51; continue _fun0008 }
-case 43:
-                    var5 = var7;
-                    var3 = var6;
+                var5 = var6;
+case 48:
+                var6 = undefined;
+                if(var3) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
-                    if(var3) { _fun0008_ip = 53; continue _fun0008 }
+                var7 = var4().value;
+                var4 = var2;
+                var4 = var4 === var1;
+                var6 = undefined;
+                var3 = var4;
+                if(var4) { _fun0008_ip = 50; continue _fun0008 }
+case 52:
+                var6 = var7;
+                var3 = var4;
+case 50:
+                if(var3) { _fun0008_ip = 53; continue _fun0008 }
 case 11:
-                    var2.return();
+                var2.return();
 case 53:
-                    var3 = _closure3_slot0;
-                    var2 = _closure1_slot12;
-                    var2 = var2.bind(var1)(var4, var5);
-                    var3[var4] = var2;
-                    return var1;
-                }
-            };
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
-            return var1;
+                var4 = _closure2_slot0;
+                var3 = var4.setPartition;
+                var2 = _closure1_slot12;
+                var2 = var2.bind(var1)(var5, var6);
+                var2 = var3.bind(var4)(var5, var2);
+                return var1;
+            }
         };
         var1 = var2.bind(var3)(var1);
         var1 = undefined;

@@ -187,7 +187,7 @@ case 23:
             var2 = 7;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
-            var8 = var2.ActivitiesIcon;
+            var8 = var2.AppsIcon;
 case 31:
             _fun0001_ip = 32; continue _fun0001;
 case 21:

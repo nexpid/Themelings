@@ -528,7 +528,7 @@ case 35:
             var7 = 22;
             var7 = var9[var7];
             var7 = var8.bind(var5)(var7);
-            var7 = var7.ActivitiesIcon;
+            var7 = var7.AppsIcon;
             var1['IconComponent'] = var7;
             var1['panelVariant'] = var6;
             var8 = var15 != var14;

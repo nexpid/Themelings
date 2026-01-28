@@ -31,7 +31,7 @@ case 2:
         var2 = var13[var12];
         var2 = var14.bind(var1)(var2);
         var2 = var2.ua;
-        var10 = var1 !== var2;
+        var10 = var6 != var2;
         if(!var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
         var2 = var13[var12];

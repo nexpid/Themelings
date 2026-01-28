@@ -7,88 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = function NoCreatedListingsSection(arg1) {
-        var1 = arg1;
-        var1 = var1.pushScreen;
-        var _closure2_slot0 = var1;
-        var4 = _closure1_slot7;
-        var13 = _closure1_slot0;
-        var14 = _closure1_slot2;
-        var9 = 5;
-        var1 = var14[var9];
-        var3 = undefined;
-        var1 = var13.bind(var3)(var1);
-        var2 = var1.FormSection;
-        var1 = {};
-        var10 = 6;
-        var6 = var14[var10];
-        var6 = var13.bind(var3)(var6);
-        var8 = var6.intl;
-        var7 = var8.string;
-        var6 = var14[var10];
-        var6 = var13.bind(var3)(var6);
-        var6 = var6.t;
-        var6 = var6.KzCF/6;
-        var6 = var7.bind(var8)(var6);
-        var1['title'] = var6;
-        var8 = _closure1_slot7;
-        var6 = var14[var9];
-        var6 = var13.bind(var3)(var6);
-        var7 = var6.FormRow;
-        var6 = {};
-        var11 = var14[var10];
-        var11 = var13.bind(var3)(var11);
-        var15 = var11.intl;
-        var11 = var15.string;
-        var10 = var14[var10];
-        var10 = var13.bind(var3)(var10);
-        var10 = var10.t;
-        var10 = var10.vOV1KS;
-        var10 = var11.bind(var15)(var10);
-        var6['label'] = var10;
-        var11 = _closure1_slot7;
-        var9 = var14[var9];
-        var9 = var13.bind(var3)(var9);
-        var9 = var9.FormRow;
-        var10 = var9.Arrow;
-        var9 = {};
-        var9 = var11.bind(var3)(var10, var9);
-        var6['trailing'] = var9;
-        var11 = _closure1_slot7;
-        var9 = 7;
-        var9 = var14[var9];
-        var9 = var13.bind(var3)(var9);
-        var9 = var9.TableRow;
-        var10 = var9.Icon;
-        var9 = {};
-        var15 = _closure1_slot1;
-        var12 = 8;
-        var12 = var14[var12];
-        var12 = var15.bind(var3)(var12);
-        var9['source'] = var12;
-        var12 = 9;
-        var12 = var14[var12];
-        var12 = var13.bind(var3)(var12);
-        var12 = var12.ShopSparkleIcon;
-        var9['IconComponent'] = var12;
-        var9 = var11.bind(var3)(var10, var9);
-        var6['leading'] = var9;
-        var5 = function onPress() {
-            var3 = _closure2_slot0;
-            var1 = _closure1_slot6;
-            var2 = var1.ROLE_SUBSCRIPTIONS;
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            return var1;
-        };
-        var6['onPress'] = var5;
-        var5 = 'no-created-guild-role-subscriptions';
-        var5 = var8.bind(var3)(var7, var6, var5);
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot9 = var1;
     var1 = function HasCreatedListingsSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -99,7 +17,7 @@ case 0:
             var _closure2_slot1 = var1;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var1 = 10;
+            var1 = 5;
             var1 = var20[var1];
             var4 = undefined;
             var5 = var16.bind(var4)(var1);
@@ -119,12 +37,12 @@ case 0:
             };
             var7 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot8;
-            var12 = 5;
+            var12 = 6;
             var1 = var20[var12];
             var1 = var16.bind(var4)(var1);
             var2 = var1.FormSection;
             var1 = {};
-            var14 = 6;
+            var14 = 7;
             var5 = var20[var14];
             var5 = var16.bind(var4)(var5);
             var9 = var5.intl;
@@ -159,14 +77,14 @@ case 0:
             var5 = var15.bind(var4)(var10, var5);
             var8['trailing'] = var5;
             var17 = _closure1_slot7;
-            var10 = 7;
+            var10 = 8;
             var5 = var20[var10];
             var5 = var16.bind(var4)(var5);
             var5 = var5.TableRow;
             var15 = var5.Icon;
             var5 = {};
             var19 = _closure1_slot1;
-            var18 = 11;
+            var18 = 9;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var5['source'] = var18;
@@ -214,7 +132,7 @@ case 0:
             var8 = var8.TableRow;
             var16 = var8.Icon;
             var8 = {};
-            var18 = 12;
+            var18 = 10;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var8['source'] = var18;
@@ -266,7 +184,7 @@ case 3:
             var16 = var8.Icon;
             var8 = {};
             var19 = _closure1_slot1;
-            var18 = 13;
+            var18 = 11;
             var18 = var20[var18];
             var18 = var19.bind(var4)(var18);
             var8['source'] = var18;
@@ -321,7 +239,7 @@ case 2:
             var11 = var10.Icon;
             var10 = {};
             var14 = _closure1_slot1;
-            var13 = 14;
+            var13 = 12;
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var10['source'] = var13;
@@ -344,7 +262,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -381,7 +299,7 @@ case 2:
     var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
-    var4 = 17;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -391,51 +309,33 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.guild;
-            var8 = var1.pushScreen;
-            var2 = _closure1_slot0;
+            var6 = var1.guild;
+            var7 = var1.pushScreen;
+            var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 15;
+            var1 = 13;
             var1 = var4[var1];
-            var6 = undefined;
-            var5 = var2.bind(var6)(var1);
-            var1 = var5.useCanSeeGuildRoleSubscriptionSettings;
-            var5 = var1.bind(var5)(var7);
-            var1 = 16;
-            var1 = var4[var1];
-            var4 = var2.bind(var6)(var1);
-            var2 = var4.isEnableMonetizationHiddenFromServerSettings;
-            var1 = var7.id;
-            var4 = var2.bind(var4)(var1);
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useCanSeeGuildRoleSubscriptionSettings;
+            var3 = var1.bind(var3)(var6);
             var1 = null;
-            if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var10 = var7.features;
-            var9 = var10.has;
-            var5 = _closure1_slot5;
-            var5 = var5.ROLE_SUBSCRIPTIONS_ENABLED;
-            var5 = var9.bind(var10)(var5);
-            if(var5) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var2 = null;
-            if(var4) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-            var9 = _closure1_slot7;
-            var5 = _closure1_slot9;
-            var4 = {};
-            var4['pushScreen'] = var8;
-            var2 = var9.bind(var6)(var5, var4);
-case 8:
-            _fun0002_ip = 10; continue _fun0002;
+            var9 = var6.features;
+            var8 = var9.has;
+            var3 = _closure1_slot5;
+            var3 = var3.ROLE_SUBSCRIPTIONS_ENABLED;
+            var3 = var8.bind(var9)(var3);
+            var1 = null;
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 6:
-            var5 = _closure1_slot7;
-            var4 = _closure1_slot10;
-            var3 = {};
-            var3['pushScreen'] = var8;
-            var3['guild'] = var7;
-            var2 = var5.bind(var6)(var4, var3);
-case 10:
-            var1 = var2;
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot9;
+            var2 = {};
+            var2['pushScreen'] = var7;
+            var2['guild'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
 case 4:
             return var1;
         }

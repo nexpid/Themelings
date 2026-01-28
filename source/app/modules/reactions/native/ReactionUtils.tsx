@@ -145,49 +145,49 @@ case 4:
     var6 = function handleAddNewReactions(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var9 = arg1;
-            var5 = arguments[2];
+            var10 = arg1;
+            var5 = arg2;
+            var6 = arguments[2];
             var3 = arguments[3];
-            var _closure2_slot0 = var9;
-            var1 = arg2;
-            var _closure2_slot1 = var1;
+            var _closure2_slot0 = var10;
+            var _closure2_slot1 = var5;
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0002_ip = 6; continue _fun0002 }
+            if(!(var6 === var1)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var2 = 10;
-            var2 = var6[var2];
+            var2 = var7[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.ReactionLocations;
-            var5 = var2.MESSAGE;
+            var6 = var2.MESSAGE;
 case 6:
-            var _closure2_slot2 = var5;
+            var _closure2_slot2 = var6;
             var2 = null;
-            var6 = var2 == var3;
+            var7 = var2 == var3;
             var4 = undefined;
-            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+            if(var7) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
             var4 = var3.burst;
 case 8:
             var3 = true;
-            var8 = var3 === var4;
+            var9 = var3 === var4;
             var4 = _closure1_slot6;
             var3 = var4.getCurrentUser;
-            var6 = var3.bind(var4)();
-            if(!(var2 != var6)) { _fun0002_ip = 10; continue _fun0002 }
+            var7 = var3.bind(var4)();
+            if(!(var2 != var7)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var4 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var3 = 11;
-            var3 = var11[var3];
+            var3 = var12[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.isPremium;
-            var6 = var3.bind(var4)(var6);
-            var3 = var8;
+            var7 = var3.bind(var4)(var7);
+            var3 = var9;
             if(!var3) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var3 = !var6;
+            var3 = !var7;
 case 12:
             if(!var3) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
@@ -195,13 +195,13 @@ case 15:
             var3 = var3.bind(var1)();
 case 14:
             var4 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var3 = 15;
-            var3 = var11[var3];
-            var11 = var4.bind(var1)(var3);
-            var4 = var11.getBestActiveInputForChannelId;
-            var3 = var9.id;
-            var3 = var4.bind(var11)(var3);
+            var3 = var12[var3];
+            var12 = var4.bind(var1)(var3);
+            var4 = var12.getBestActiveInputForChannelId;
+            var3 = var10.id;
+            var3 = var4.bind(var12)(var3);
             if(!(var2 != var3)) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
             var2 = var3.closeCustomKeyboard;
@@ -214,7 +214,7 @@ case 16:
             var4 = var3.bind(var1)(var2);
             var3 = var4.openEmojiPickerActionSheet;
             var2 = {};
-            var10 = function onPressEmoji(arg1, arg2) {
+            var11 = function onPressEmoji(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var10 = arg1;
@@ -274,34 +274,35 @@ case 18:
                     return var1;
                 }
             };
-            var2['onPressEmoji'] = var10;
-            var2['channel'] = var9;
-            var9 = _closure1_slot10;
-            var9 = var9.REACTION;
-            var2['pickerIntention'] = var9;
-            if(!var8) { _fun0002_ip = 23; continue _fun0002 }
+            var2['onPressEmoji'] = var11;
+            var2['channel'] = var10;
+            var10 = _closure1_slot10;
+            var10 = var10.REACTION;
+            var2['pickerIntention'] = var10;
+            if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            if(var6) { _fun0002_ip = 25; continue _fun0002 }
+            if(var7) { _fun0002_ip = 25; continue _fun0002 }
 case 23:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 17;
-            var6 = var9[var6];
-            var6 = var8.bind(var1)(var6);
-            var6 = var6.ReactionTypes;
-            var6 = var6.NORMAL;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 17;
+            var7 = var10[var7];
+            var7 = var9.bind(var1)(var7);
+            var7 = var7.ReactionTypes;
+            var7 = var7.NORMAL;
             _fun0002_ip = 26; continue _fun0002;
 case 25:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 17;
-            var7 = var9[var7];
-            var7 = var8.bind(var1)(var7);
-            var7 = var7.ReactionTypes;
-            var6 = var7.BURST;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 17;
+            var8 = var10[var8];
+            var8 = var9.bind(var1)(var8);
+            var8 = var8.ReactionTypes;
+            var7 = var8.BURST;
 case 26:
-            var2['reactionType'] = var6;
-            var2['analyticsObject'] = var5;
+            var2['reactionType'] = var7;
+            var2['analyticsObject'] = var6;
+            var2['messageId'] = var5;
             var2 = var3.bind(var4)(var2);
 case 10:
             return var1;

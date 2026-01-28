@@ -1902,10 +1902,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_ORBS_REWARDS_DROP_POPOVER'] = var2;
     var1 = 'PREMIUM_ORBS_REWARDS_DROP_POPOVER';
     var4[var2] = var1;
-    var2 = 671;
-    var4['GAME_SERVER_HOSTING_BATCH_RELEASE_V1_COACHMARK'] = var2;
-    var1 = 'GAME_SERVER_HOSTING_BATCH_RELEASE_V1_COACHMARK';
-    var4[var2] = var1;
     var2 = 672;
     var4['GAME_SERVER_HOSTING_NEW_PERK_AVAILABLE_COACHMARK'] = var2;
     var1 = 'GAME_SERVER_HOSTING_NEW_PERK_AVAILABLE_COACHMARK';
