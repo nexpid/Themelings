@@ -29,27 +29,6 @@
         "width": 24,
         "height": 24
     },
-    "ActivitiesIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/ActivitiesIcon.png",
-        "hash": "8c699761441e6944d030bf42412d498e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "activity": {
-        "file": "app/modules/voice_panel/native/images/activity.png",
-        "hash": "598eae58374f117327bf305567066027",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 24,
-        "height": 24
-    },
     "add": {
         "file": "app/modules/video_calls/native/images/add.png",
         "hash": "db76c9ef21a10a502ae95ae16e345521",
@@ -3935,16 +3914,6 @@
         ],
         "width": 375,
         "height": 120
-    },
-    "ic_activity_24px": {
-        "file": "app/images/native/icons/ic_activity_24px.png",
-        "hash": "875c1e3f1c12db23a720914b8f89ca06",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_add_18px": {
         "file": "app/images/native/icons/ic_add_18px.png",
@@ -11740,16 +11709,6 @@
     "ShopIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ShopIcon.png",
         "hash": "ee17f6d9d232f70635f0a016ca0d4f97",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ShopSparkleIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/ShopSparkleIcon.png",
-        "hash": "48e193e729088d0f4af7fceb4678ce92",
         "scales": [
             2,
             3
