@@ -154,14 +154,15 @@ case 17:
 case 7:
                                     var1 = _closure5_slot0;
 case 18:
-                                    var12 = var1.x;
-                                    var11 = var1.y;
-                                    var10 = var1.width;
-                                    var9 = var1.height;
+                                    var13 = var1.x;
+                                    var12 = var1.y;
+                                    var11 = var1.width;
+                                    var10 = var1.height;
+                                    var9 = var1.resizeMode;
                                     var2 = arg1;
                                     var1 = undefined;
-                                    var13 = undefined;
-                                    var2 = var13[var2](var12, var11, var10, var9, var8);
+                                    var14 = undefined;
+                                    var2 = var14[var2](var13, var12, var11, var10, var9, var8);
                                     return var1;
                                 }
                             };
@@ -175,7 +176,7 @@ case 19:
                         }
                     };
                     var6 = var6.bind(var4)(var7);
-                    var5 = function(arg1, arg2, arg3, arg4) {
+                    var5 = function(arg1, arg2, arg3, arg4, arg5) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var3 = _closure1_slot1;
@@ -220,6 +221,8 @@ case 6:
                             var4['width'] = var3;
                             var3 = arg4;
                             var4['height'] = var3;
+                            var3 = arg5;
+                            var4['resizeMode'] = var3;
                             var3 = 'originLayout';
                             var6[var3] = var4;
                             var13 = _closure1_slot7;

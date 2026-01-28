@@ -3872,7 +3872,7 @@
 { "file": "app/modules/icymi/ICYMIStore.tsx", "size": 140892 }
 { "file": "app/modules/icymi/ICYMITypes.tsx", "size": 6037 }
 { "file": "app/modules/icymi/ICYMIUnreadStateStore.tsx", "size": 18253 }
-{ "file": "app/modules/icymi/ICYMIUtils.tsx", "size": 74937 }
+{ "file": "app/modules/icymi/ICYMIUtils.tsx", "size": 74936 }
 { "file": "app/modules/icymi/native/AnnouncementMessageRow.tsx", "size": 20825 }
 { "file": "app/modules/icymi/native/CardHeightMeasurer.tsx", "size": 2762 }
 { "file": "app/modules/icymi/native/CaughtUpRow.tsx", "size": 29128 }
@@ -4302,7 +4302,7 @@
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowActions.tsx", "size": 16450 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowAnalytics.tsx", "size": 13297 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowAvatarStack.tsx", "size": 25976 }
-{ "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx", "size": 13875 }
+{ "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx", "size": 13876 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardActiveChannel.tsx", "size": 14458 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardActivity.tsx", "size": 41196 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardActivitySubtitle.tsx", "size": 8928 }
@@ -4595,9 +4595,9 @@
 { "file": "app/modules/media_viewer/native/components/MediaSlider.tsx", "size": 21811 }
 { "file": "app/modules/media_viewer/native/components/MediaViewer.tsx", "size": 63767 }
 { "file": "app/modules/media_viewer/native/components/MediaViewerAltTextSheet.tsx", "size": 5032 }
-{ "file": "app/modules/media_viewer/native/components/MediaViewerItemPresenter.tsx", "size": 15194 }
+{ "file": "app/modules/media_viewer/native/components/MediaViewerItemPresenter.tsx", "size": 16057 }
 { "file": "app/modules/media_viewer/native/components/MediaViewerThumbnails.tsx", "size": 16638 }
-{ "file": "app/modules/media_viewer/native/components/openMediaModal.tsx", "size": 14483 }
+{ "file": "app/modules/media_viewer/native/components/openMediaModal.tsx", "size": 14653 }
 { "file": "app/modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx", "size": 2687 }
 { "file": "app/modules/media_viewer/native/Constants.tsx", "size": 1201 }
 { "file": "app/modules/media_viewer/native/getMediaViewerStateForScreen.tsx", "size": 4130 }
@@ -7743,7 +7743,7 @@
 { "file": "app/stores/LocalActivityStore.tsx", "size": 30210 }
 { "file": "app/stores/MaskedLinkStore.tsx", "size": 16581 }
 { "file": "app/stores/MaskedLinkStoreMethodsAdditional.native.tsx", "size": 2073 }
-{ "file": "app/stores/MediaEngineStore.tsx", "size": 385702 }
+{ "file": "app/stores/MediaEngineStore.tsx", "size": 385708 }
 { "file": "app/stores/MessageReactionsStore.tsx", "size": 12714 }
 { "file": "app/stores/MessageStore.tsx", "size": 88258 }
 { "file": "app/stores/MFAStore.tsx", "size": 8869 }
@@ -8058,7 +8058,7 @@
 { "file": "app/utils/PlatformUtils.tsx", "size": 1129 }
 { "file": "app/utils/PremiumFeatureUtils.tsx", "size": 2896 }
 { "file": "app/utils/PremiumTypeUtils.tsx", "size": 3310 }
-{ "file": "app/utils/PremiumUtils.tsx", "size": 293140 }
+{ "file": "app/utils/PremiumUtils.tsx", "size": 293138 }
 { "file": "app/utils/PriceUtils.tsx", "size": 13936 }
 { "file": "app/utils/ProcessArgs.tsx", "size": 7292 }
 { "file": "app/utils/ProcessUtils.native.tsx", "size": 16713 }
