@@ -39,7 +39,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = function postMessage(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -70,7 +70,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -92,17 +92,12 @@ case 10:
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = {'controls': 0, 'enable_music_info': 0, 'enable_timestamp': 0, 'utm_source': 'discord.gg'};
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = {};
-    var5 = 4;
+    var5 = 3;
     var9 = var7[var5];
     var9 = var6.bind(var1)(var9);
     var9 = var9.PlayerState;
@@ -128,7 +123,7 @@ case 10:
     var5 = var5.PlayerState;
     var5 = var5.BUFFERING;
     var4[3] = var5;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -158,7 +153,7 @@ case 0:
             var11 = var14.useState;
             var15 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var12 = 4;
+            var12 = 3;
             var10 = var13[var12];
             var10 = var15.bind(var4)(var10);
             var10 = var10.PlayerState;
@@ -173,7 +168,7 @@ case 0:
             var10 = var11[var10];
             var _closure2_slot4 = var10;
             var11 = _closure1_slot1;
-            var10 = 5;
+            var10 = 4;
             var14 = var13[var10];
             var14 = var11.bind(var4)(var14);
             var16 = var14.bind(var4)(var6);
@@ -230,7 +225,7 @@ case 24:
 case 26:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 6;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -285,32 +280,30 @@ case 36:
                     var2 = var3.bind(var4)(var2);
                     _fun0004_ip = 25; continue _fun0004;
 case 21:
-                    var3 = _closure2_slot4;
-                    var5 = _closure1_slot0;
+                    var6 = _closure2_slot4;
+                    var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var4[var2];
-                    var8 = undefined;
-                    var2 = var5.bind(var8)(var2);
+                    var7 = undefined;
+                    var2 = var3.bind(var7)(var2);
                     var2 = var2.PlayerState;
                     var2 = var2.ERRORED;
-                    var2 = var3.bind(var8)(var2);
-                    var3 = _closure1_slot1;
-                    var2 = 6;
+                    var2 = var6.bind(var7)(var2);
+                    var2 = 5;
                     var2 = var4[var2];
-                    var5 = var3.bind(var8)(var2);
-                    var4 = var5.track;
-                    var2 = _closure1_slot5;
-                    var3 = var2.MESSAGE_EMBEDS_ACTION_COMPLETED;
-                    var2 = {'platform': 'tiktok', 'error': null, 'action': 'errored'};
-                    var7 = _closure1_slot9;
-                    var6 = var1.value;
-                    var6 = var7.bind(var8)(var6);
-                    var2['error'] = var6;
-                    var2 = var4.bind(var5)(var3, var2);
+                    var2 = var3.bind(var7)(var2);
+                    var4 = var2.MediaViewerAnalytics;
+                    var3 = var4.trackMessageEmbedsActionCompleted;
+                    var2 = {'platform': 'tiktok', 'action': 'errored'};
+                    var6 = _closure1_slot8;
+                    var5 = var1.value;
+                    var5 = var6.bind(var7)(var5);
+                    var2['error'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     _fun0004_ip = 25; continue _fun0004;
 case 19:
-                    var2 = _closure1_slot8;
+                    var2 = _closure1_slot7;
                     var1 = var1.value;
                     var3 = var2[var1];
                     var7 = null;
@@ -339,7 +332,7 @@ case 17:
                     var3 = _closure2_slot4;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var2[var1];
                     var2 = undefined;
                     var1 = var4.bind(var2)(var1);
@@ -354,7 +347,7 @@ case 25:
             var7 = var10.bind(var13)(var1, var7);
             var13 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var10 = 8;
+            var10 = 7;
             var10 = var1[var10];
             var14 = var13.bind(var4)(var10);
             var13 = var14.useMediaPlayerMutedStore;
@@ -393,7 +386,7 @@ case 45:
                     var4 = _closure2_slot3;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.PlayerState;
@@ -408,7 +401,7 @@ case 48:
                     var4 = _closure2_slot5;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.PlayerState;
@@ -420,7 +413,7 @@ case 49:
                     var4 = _closure2_slot3;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.PlayerState;
@@ -429,7 +422,7 @@ case 49:
 case 32:
                     if(!var2) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var3 = _closure2_slot7;
                     var2 = {};
                     var6 = 'play';
@@ -444,7 +437,7 @@ case 53:
 case 52:
                     if(!var2) { _fun0005_ip = 54; continue _fun0005 }
 case 55:
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var3 = _closure2_slot7;
                     var2 = {};
                     var6 = 'play';
@@ -459,7 +452,7 @@ case 57:
 case 56:
                     if(!var2) { _fun0005_ip = 58; continue _fun0005 }
 case 59:
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var3 = _closure2_slot7;
                     var2 = {};
                     var6 = 'pause';
@@ -469,14 +462,14 @@ case 58:
                     var4 = _closure2_slot3;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.PlayerState;
                     var3 = var3.ENDED;
                     if(!(var4 === var3)) { _fun0005_ip = 60; continue _fun0005 }
 case 61:
-                    var6 = _closure1_slot10;
+                    var6 = _closure1_slot9;
                     var4 = _closure2_slot7;
                     var3 = {'type': 'seekTo', 'value': 0};
                     var3 = var6.bind(var1)(var4, var3);
@@ -486,7 +479,7 @@ case 61:
                     var3['type'] = var7;
                     var3 = var6.bind(var1)(var4, var3);
 case 60:
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var3 = _closure2_slot7;
                     var2 = {};
                     var6 = _closure2_slot8;
@@ -504,17 +497,16 @@ case 46:
             var10 = var15.bind(var14)(var10, var13);
             var15 = var14.useEffect;
             var13 = function() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 6;
-                var3 = var3[var1];
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
                 var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot5;
-                var3 = var2.MESSAGE_EMBEDS_ACTION_COMPLETED;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.MediaViewerAnalytics;
+                var3 = var4.trackMessageEmbedsActionCompleted;
                 var2 = {'platform': 'tiktok', 'action': 'attempted'};
-                var2 = var4.bind(var5)(var3, var2);
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var10 = new Array(0);
@@ -536,7 +528,7 @@ case 46:
                 var _closure3_slot0 = var2;
                 var5 = var3.Object;
                 var4 = var5.entries;
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.forEach;
                 var1 = function(arg1) {
@@ -586,7 +578,7 @@ case 67:
                 return var1;
             };
             var10 = var13.bind(var14)(var3, var10);
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var1 = var1[var12];
             var2 = var2.bind(var4)(var1);
@@ -614,7 +606,7 @@ case 67:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 9;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -633,7 +625,7 @@ case 67:
         var _closure2_slot5 = var1;
         var1 = {};
         var2 = function seek(arg1) {
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot9;
             var3 = _closure2_slot2;
             var2 = {};
             var1 = 'seekTo';
@@ -652,7 +644,7 @@ case 0:
                 var2 = _closure2_slot5;
                 if(!(var2 !== var5)) { _fun0007_ip = 11; continue _fun0007 }
 case 69:
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot9;
                 var3 = _closure2_slot2;
                 var2 = {};
                 _closure2_slot5 = var5;
@@ -721,7 +713,7 @@ case 75:
                 var3 = _closure2_slot1;
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var7 = 4;
+                var7 = 3;
                 var1 = var1[var7];
                 var2 = undefined;
                 var1 = var6.bind(var2)(var1);

@@ -565,69 +565,53 @@ case 50:
         }
     };
     var3['createBackgroundStyle'] = var4;
-    var2 = function combinePromotionStyles(arg1, arg2, arg3) {
+    var2 = function combinePromotionStyles(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-            var3 = arg1;
-            var1 = arg2;
-            var4 = arg3;
-            var2 = null;
-            if(!(var2 != var3)) { _fun0011_ip = 52; continue _fun0011 }
+            var1 = arg1;
+            var2 = arg2;
+            var3 = null;
+            if(!(var3 != var1)) { _fun0011_ip = 52; continue _fun0011 }
 case 53:
-            if(!(var2 == var1)) { _fun0011_ip = 15; continue _fun0011 }
+            if(!(var3 == var2)) { _fun0011_ip = 20; continue _fun0011 }
 case 52:
-            var5 = var3;
-            if(!(var2 == var5)) { _fun0011_ip = 54; continue _fun0011 }
+            var4 = var1;
+            if(!(var3 == var4)) { _fun0011_ip = 54; continue _fun0011 }
 case 55:
-            var6 = var1;
-            if(!(var2 == var6)) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
-            var6 = {};
+            var5 = var2;
+            if(!(var3 == var5)) { _fun0011_ip = 13; continue _fun0011 }
 case 56:
-            var5 = var6;
+            var5 = {};
+case 13:
+            var4 = var5;
 case 54:
-            return var5;
-case 15:
-            var8 = var1.background;
-            var1 = {};
-            var7 = var3.backgroundImage;
-            var3 = global;
-            var3 = var3.HermesInternal;
-            var6 = var3.concat;
-            var5 = '';
-            var3 = ', ';
-            var3 = var6.bind(var5)(var7, var3, var8);
-            var1['backgroundImage'] = var3;
-            var3 = 'lightgray';
-            var1['backgroundColor'] = var3;
-            var5 = var2 == var4;
-            var6 = undefined;
-            if(var5) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
-            var6 = var4.backgroundSize;
-case 58:
-            var7 = var2 != var6;
-            var5 = 'auto 110%, auto';
-            if(!var7) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
-            var5 = var6;
-case 60:
-            var1['backgroundSize'] = var5;
-            var5 = var2 == var4;
-            var3 = undefined;
-            if(var5) { _fun0011_ip = 42; continue _fun0011 }
-case 44:
-            var3 = var4.backgroundPosition;
-case 42:
-            var4 = var2 != var3;
-            var2 = 'right 90% center, 0% 0%';
-            if(!var4) { _fun0011_ip = 62; continue _fun0011 }
-case 63:
-            var2 = var3;
-case 62:
-            var1['backgroundPosition'] = var2;
+            return var4;
+case 20:
+            var7 = var2.background;
+            var6 = var1.backgroundImage;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var4 = '';
+            var2 = ', ';
+            var2 = var5.bind(var4)(var6, var2, var7);
+            var1['backgroundImage'] = var2;
+            var2 = 'lightgray';
+            var1['backgroundColor'] = var2;
             var2 = 'no-repeat, no-repeat';
             var1['backgroundRepeat'] = var2;
+            var2 = var1.backgroundSize;
+            if(!(var3 == var2)) { _fun0011_ip = 43; continue _fun0011 }
+case 57:
+            var2 = 'auto 110%, auto';
+            var1['backgroundSize'] = var2;
+case 43:
+            var2 = var1.backgroundPosition;
+            if(!(var3 == var2)) { _fun0011_ip = 58; continue _fun0011 }
+case 8:
+            var2 = 'right 90% center, 0% 0%';
+            var1['backgroundPosition'] = var2;
+case 58:
             return var1;
         }
     };

@@ -6552,13 +6552,13 @@ case 0:
                     var6 = var6.bind(var7)(var3);
                     var _closure4_slot0 = var6;
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0070_ip = 151; continue _fun0070 }
+                    if(!(var3 != var6)) { _fun0070_ip = 248; continue _fun0070 }
 case 326:
                     var8 = _closure3_slot0;
                     var7 = var8.getMessageData;
                     var5 = var6.messageId;
                     var5 = var7.bind(var8)(var5);
-                    if(!(var3 != var5)) { _fun0070_ip = 151; continue _fun0070 }
+                    if(!(var3 != var5)) { _fun0070_ip = 248; continue _fun0070 }
 case 91:
                     var10 = var5.message;
                     var5 = var5.messageChannel;
@@ -6573,8 +6573,8 @@ case 91:
                         return var1;
                     };
                     var7 = var7.bind(var8)(var4);
-                    if(!(var3 != var7)) { _fun0070_ip = 151; continue _fun0070 }
-case 123:
+                    if(!(var3 != var7)) { _fun0070_ip = 248; continue _fun0070 }
+case 182:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
                     var2 = 178;
@@ -6594,14 +6594,10 @@ case 123:
                     var2['originViewOrOriginLayout'] = var6;
                     var6 = 'Channel';
                     var2['analyticsSource'] = var6;
-                    var6 = var5.guild_id;
-                    var2['guildId'] = var6;
-                    var6 = var5.id;
-                    var2['channelId'] = var6;
-                    var5 = var5.type;
-                    var2['channelType'] = var5;
+                    var5 = var5.id;
+                    var2['channelId'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 151:
+case 248:
                     return var1;
                 }
             };

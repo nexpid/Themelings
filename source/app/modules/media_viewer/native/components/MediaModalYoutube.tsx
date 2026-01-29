@@ -28,13 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 2;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.AnalyticEvents;
-    var _closure1_slot5 = var8;
-    var8 = 3;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
     var8 = var8.jsx;
-    var _closure1_slot6 = var8;
+    var _closure1_slot5 = var8;
     var8 = var4.window;
     var8 = var8.GLOBAL_ENV;
     var9 = var8.WEBAPP_ENDPOINT;
@@ -42,9 +37,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var4.concat;
     var4 = 'https:';
     var4 = var8.bind(var4)(var9);
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = function HTML(arg1) {
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = undefined;
         var1 = arg1;
         var4 = var3.bind(var2)(var1);
@@ -56,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var4, var1);
         return var1;
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = function getJavascriptFromVideoID(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -118,7 +113,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -142,7 +137,7 @@ case 0:
             var11 = var17.useState;
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var14 = 4;
+            var14 = 3;
             var10 = var6[var14];
             var5 = undefined;
             var10 = var8.bind(var5)(var10);
@@ -164,7 +159,7 @@ case 0:
             var10 = var10[var13];
             var _closure2_slot3 = var10;
             var13 = _closure1_slot1;
-            var10 = 5;
+            var10 = 4;
             var15 = var6[var10];
             var15 = var13.bind(var5)(var15);
             var18 = var15.bind(var5)(var11);
@@ -178,17 +173,16 @@ case 0:
             var _closure2_slot6 = var13;
             var16 = var17.useEffect;
             var15 = function() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 6;
-                var3 = var3[var1];
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
                 var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot5;
-                var3 = var2.MESSAGE_EMBEDS_ACTION_COMPLETED;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.MediaViewerAnalytics;
+                var3 = var4.trackMessageEmbedsActionCompleted;
                 var2 = {'platform': 'youtube', 'action': 'attempted'};
-                var2 = var4.bind(var5)(var3, var2);
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var10 = new Array(0);
@@ -216,7 +210,7 @@ case 13:
                     var1 = {};
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var7 = 4;
+                    var7 = 3;
                     var8 = var3[var7];
                     var4 = undefined;
                     var8 = var6.bind(var4)(var8);
@@ -285,46 +279,44 @@ case 22:
 case 24:
                     var4 = 'embed_not_allowed';
                     var1 = '101';
-                    var6 = var4;
+                    var5 = var4;
                     if(!(var1 !== var3)) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
                     var1 = '150';
-                    var6 = var4;
+                    var5 = var4;
                     if(!(var1 !== var3)) { _fun0003_ip = 25; continue _fun0003 }
 case 27:
-                    var6 = 'unknown';
+                    var5 = 'unknown';
                     _fun0003_ip = 25; continue _fun0003;
 case 23:
-                    var6 = 'video_not_found';
+                    var5 = 'video_not_found';
                     _fun0003_ip = 25; continue _fun0003;
 case 21:
-                    var6 = 'html5_error';
+                    var5 = 'html5_error';
                     _fun0003_ip = 25; continue _fun0003;
 case 19:
-                    var6 = 'invalid_parameter';
+                    var5 = 'invalid_parameter';
 case 25:
                     var8 = _closure2_slot2;
-                    var9 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 4;
-                    var4 = var7[var4];
-                    var5 = undefined;
-                    var4 = var9.bind(var5)(var4);
-                    var4 = var4.PlayerState;
-                    var4 = var4.ERRORED;
-                    var4 = var8.bind(var5)(var4);
-                    var3 = _closure2_slot3;
-                    var3 = var3.bind(var5)(var6);
-                    var4 = _closure1_slot1;
-                    var3 = 6;
-                    var3 = var7[var3];
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.track;
-                    var1 = _closure1_slot5;
-                    var3 = var1.MESSAGE_EMBEDS_ACTION_COMPLETED;
-                    var1 = {'platform': 'youtube', 'error': null, 'action': 'errored'};
-                    var1['error'] = var6;
-                    var1 = var4.bind(var5)(var3, var1);
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 3;
+                    var7 = var6[var3];
+                    var3 = undefined;
+                    var7 = var4.bind(var3)(var7);
+                    var7 = var7.PlayerState;
+                    var7 = var7.ERRORED;
+                    var7 = var8.bind(var3)(var7);
+                    var1 = _closure2_slot3;
+                    var1 = var1.bind(var3)(var5);
+                    var1 = 5;
+                    var1 = var6[var1];
+                    var1 = var4.bind(var3)(var1);
+                    var4 = var1.MediaViewerAnalytics;
+                    var3 = var4.trackMessageEmbedsActionCompleted;
+                    var1 = {'platform': 'youtube', 'action': 'errored'};
+                    var1['error'] = var5;
+                    var1 = var3.bind(var4)(var1);
                     _fun0003_ip = 12; continue _fun0003;
 case 8:
                     var3 = _closure2_slot2;
@@ -333,7 +325,7 @@ case 8:
 case 29:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var2 = var2[var1];
                     var1 = undefined;
                     var1 = var4.bind(var1)(var2);
@@ -343,7 +335,7 @@ case 29:
 case 28:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var4 = var4[var1];
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
@@ -378,7 +370,7 @@ case 32:
                     var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var5 = var5[var3];
                     var3 = undefined;
                     var3 = var6.bind(var3)(var5);
@@ -394,7 +386,7 @@ case 35:
                     var4 = _closure2_slot4;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var5 = var5[var3];
                     var3 = undefined;
                     var3 = var6.bind(var3)(var5);
@@ -407,7 +399,7 @@ case 37:
                     var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 3;
                     var5 = var5[var3];
                     var3 = undefined;
                     var3 = var6.bind(var3)(var5);
@@ -456,7 +448,7 @@ case 33:
                 }
             };
             var9 = var16.bind(var17)(var9, var15);
-            var15 = 7;
+            var15 = 6;
             var6 = var6[var15];
             var9 = var8.bind(var5)(var6);
             var8 = var9.getYoutubeVideoIdFromURI;
@@ -487,7 +479,7 @@ case 51:
 case 50:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 9;
+            var4 = 8;
             var4 = var8[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.isAndroid;
@@ -499,7 +491,7 @@ case 54:
 case 53:
             var9 = {'nestedScrollEnabled': true, 'overScrollMode': 'never', 'domStorageEnabled': true, 'mixedContentMode': 'compatibility'};
 case 55:
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var14];
@@ -508,10 +500,10 @@ case 55:
             var4['ref'] = var13;
             var4['style'] = var12;
             var13 = {};
-            var12 = _closure1_slot8;
+            var12 = _closure1_slot7;
             var12 = var12.bind(var5)(var6);
             var13['html'] = var12;
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot6;
             var13['baseUrl'] = var12;
             var4['source'] = var13;
             var4['baseURL'] = var12;
@@ -530,10 +522,10 @@ case 55:
             var3 = var8.bind(var5)(var7, var4, var3);
             return var3;
 case 52:
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var7[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -546,7 +538,7 @@ case 48:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -29,7 +29,7 @@ case 0:
             var3[0] = var1;
             var1 = function() {
                 var2 = _closure1_slot6;
-                var1 = var2.getAllPending;
+                var1 = var2.getPendingChanges;
                 var1 = var1.bind(var2)();
                 return var1;
             };

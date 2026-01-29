@@ -33,7 +33,7 @@ case 0:
             var6 = var5[var6];
             var18 = var3.bind(var4)(var6);
             var14 = var18.useStateFromStores;
-            var6 = _closure1_slot8;
+            var6 = _closure1_slot7;
             var9 = new Array(1);
             var9[0] = var6;
             var8 = new Array(1);
@@ -41,7 +41,7 @@ case 0:
             var6 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure1_slot8;
+                    var2 = _closure1_slot7;
                     var1 = var2.getCurrentUser;
                     var1 = var1.bind(var2)();
                     var2 = null;
@@ -829,11 +829,11 @@ case 0:
             var1 = var1[var2];
             var6 = var3.bind(var5)(var1);
             var4 = var6.useStateFromStores;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot7;
             var3 = new Array(1);
             var3[0] = var1;
             var1 = function() {
-                var2 = _closure1_slot8;
+                var2 = _closure1_slot7;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -960,12 +960,12 @@ case 49:
             var2 = var4[var2];
             var13 = var8.bind(var5)(var2);
             var9 = var13.useStateFromStoresObject;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var6 = new Array(1);
             var6[0] = var2;
             var2 = function() {
-                var2 = _closure1_slot7;
-                var1 = var2.getAllPending;
+                var2 = _closure1_slot8;
+                var1 = var2.getPendingChanges;
                 var1 = var1.bind(var2)();
                 return var1;
             };

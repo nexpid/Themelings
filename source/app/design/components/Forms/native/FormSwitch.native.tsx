@@ -66,9 +66,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
         var7 = var7.colors;
-        var7 = var7.BACKGROUND_MOD_MUTED;
+        var7 = var7.BACKGROUND_MOD_NORMAL;
         var2['tintColor'] = var7;
-        var1['unselected'] = var2;
+        var1['unselectedBackground'] = var2;
+        var2 = {};
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.colors;
+        var7 = var7.ICON_OVERLAY_DARK;
+        var2['tintColor'] = var7;
+        var1['unselectedIcon'] = var2;
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
@@ -101,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = {};
-    var7 = "function FormSwitchNativeTsx1(){const{withSpring,checked,selected,unselected,SUBTLE_SPRING}=this.__closure;return{backgroundColor:withSpring(checked?selected.tintColor:unselected.tintColor,SUBTLE_SPRING,'animate-always')};}";
+    var7 = "function FormSwitchNativeTsx1(){const{withSpring,checked,selected,unselectedBackground,SUBTLE_SPRING}=this.__closure;return{backgroundColor:withSpring(checked?selected.tintColor:unselectedBackground.tintColor,SUBTLE_SPRING,'animate-always')};}";
     var4['code'] = var7;
     var _closure1_slot9 = var4;
     var4 = {};
@@ -263,13 +270,13 @@ case 9:
             var10 = var5.bind(var4)();
             var21 = var10.selected;
             var _closure2_slot5 = var21;
-            var13 = var10.unselected;
+            var13 = var10.unselectedBackground;
             var _closure2_slot6 = var13;
             var5 = 4;
             var6 = var8[var5];
             var11 = var20.bind(var4)(var6);
             var9 = var11.useAnimatedStyle;
-            var6 = function P() {
+            var6 = function L() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -310,14 +317,14 @@ case 12:
             var12['withSpring'] = var23;
             var12['checked'] = var7;
             var12['selected'] = var21;
-            var12['unselected'] = var13;
+            var12['unselectedBackground'] = var13;
             var13 = 10;
             var21 = var8[var13];
             var21 = var20.bind(var4)(var21);
             var21 = var21.SUBTLE_SPRING;
             var12['SUBTLE_SPRING'] = var21;
             var6['__closure'] = var12;
-            var12 = 7661602606216.0;
+            var12 = 9840720249224.0;
             var6['__workletHash'] = var12;
             var12 = _closure1_slot9;
             var6['__initData'] = var12;
@@ -325,7 +332,7 @@ case 12:
             var6 = var8[var5];
             var11 = var20.bind(var4)(var6);
             var9 = var11.useAnimatedStyle;
-            var6 = function k() {
+            var6 = function B() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -466,7 +473,7 @@ case 18:
             var7 = var14.bind(var4)(var7);
             var9['source'] = var7;
             var9['size'] = var12;
-            var16 = var10.unselected;
+            var16 = var10.unselectedIcon;
             var7 = new Array(2);
             var7[0] = var16;
             var7[1] = var13;

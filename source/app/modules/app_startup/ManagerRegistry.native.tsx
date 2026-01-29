@@ -7,17 +7,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = global;
     var9 = var1.Object;
-    var4 = var9.defineProperty;
+    var8 = var9.defineProperty;
     var2 = {};
-    var8 = true;
-    var2['value'] = var8;
+    var4 = true;
+    var2['value'] = var4;
     var1 = '__esModule';
-    var1 = var4.bind(var9)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var2 = {};
     var1 = {};
-    var4 = ['DISPLAYED_INVITE_SHOW', 'DISPLAYED_INVITE_CLEAR', 'DEFERRED_INVITE_SHOW', 'REGISTER_SUCCESS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['DISPLAYED_INVITE_SHOW', 'DISPLAYED_INVITE_CLEAR', 'DEFERRED_INVITE_SHOW', 'REGISTER_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -27,12 +27,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['AcceptInviteManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'AGE_GATE_MODAL_OPEN', 'AGE_GATE_MODAL_CLOSE', 'GUILD_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'AGE_GATE_MODAL_OPEN', 'AGE_GATE_MODAL_CLOSE', 'GUILD_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 1;
@@ -42,13 +42,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['AgeGateManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'MESSAGE_CREATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'MESSAGE_CREATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 2;
@@ -58,11 +58,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['AgeVerificationManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 3;
@@ -72,13 +72,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['AppAnalyticsManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 4;
@@ -88,13 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['AppIconPremiumManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 5;
@@ -104,11 +104,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ATTManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;
@@ -118,13 +118,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['AudioSessionModeManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE', 'MEDIA_ENGINE_RESET_SETTINGS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE', 'MEDIA_ENGINE_RESET_SETTINGS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 7;
@@ -134,12 +134,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['AudioSettingsManager'] = var1;
     var1 = {};
-    var4 = ['MESSAGE_CREATE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['MESSAGE_CREATE', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 8;
@@ -149,11 +149,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['BackgroundSyncManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 9;
@@ -163,11 +163,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['BlockedDomainManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 10;
@@ -177,13 +177,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['BugReportManager'] = var1;
     var1 = {};
-    var4 = ['VOICE_STATE_UPDATES', 'EMBEDDED_ACTIVITY_CLOSE', 'CONNECTION_CLOSED'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['VOICE_STATE_UPDATES', 'EMBEDDED_ACTIVITY_CLOSE', 'CONNECTION_CLOSED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 11;
@@ -193,12 +193,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['CallIdleManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE', 'WINDOW_FOCUS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE', 'WINDOW_FOCUS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 12;
@@ -208,12 +208,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['CacheManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 13;
@@ -223,13 +223,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ChangelogManager'] = var1;
     var1 = {};
-    var4 = ['GUILD_LOCAL_RING_START', 'GUILD_RING_STOP'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['GUILD_LOCAL_RING_START', 'GUILD_RING_STOP'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 14;
@@ -239,13 +239,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['ChannelCallManager'] = var1;
     var1 = {};
-    var4 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 15;
@@ -255,12 +255,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['ChannelResyncManager'] = var1;
     var1 = {};
-    var4 = ['CHANNEL_SELECT', 'CHANNEL_UPDATES'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['CHANNEL_SELECT', 'CHANNEL_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 16;
@@ -270,13 +270,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ChannelSafetyWarningsManager'] = var1;
     var1 = {};
-    var4 = ['VOICE_CHANNEL_SELECT', 'CALL_CREATE', 'USER_SETTINGS_MODAL_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT', 'CALL_CREATE', 'USER_SETTINGS_MODAL_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 17;
@@ -286,10 +286,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['CommonTriggerPointManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 18;
@@ -299,13 +299,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['CommunicationDisabledManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 19;
@@ -315,12 +315,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['ContactSyncLifecycleManager'] = var1;
     var1 = {};
-    var4 = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 20;
@@ -330,13 +330,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['CustomStatusManager'] = var1;
     var1 = {};
-    var4 = ['DM_SETTINGS_UPSELL_SHOW'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['DM_SETTINGS_UPSELL_SHOW'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 21;
@@ -346,12 +346,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['DmSettingsUpsellManager'] = var1;
     var1 = {};
-    var4 = ['EMOJI_INTERACTION_INITIATED'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['EMOJI_INTERACTION_INITIATED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 22;
@@ -361,12 +361,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['TopEmojisDataManager'] = var1;
     var1 = {};
-    var4 = ['GUILD_CREATE', 'DELETED_ENTITY_IDS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['GUILD_CREATE', 'DELETED_ENTITY_IDS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 23;
@@ -376,13 +376,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadRightBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadRightBeforeConnectionOpen'] = var4;
     var2['EntityVersionsManager'] = var1;
     var1 = {};
-    var4 = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN', 'SIDEBAR_VIEW_CHANNEL'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN', 'SIDEBAR_VIEW_CHANNEL'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 24;
@@ -392,13 +392,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ExplicitMediaManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE', 'LOGOUT', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE', 'LOGOUT', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 25;
@@ -408,13 +408,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['KvBackgroundManager'] = var1;
     var1 = {};
-    var4 = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK', 'BLOCK_USER_SHOW_FEEDBACK', 'AGE_VERIFICATION_SHOW_FEEDBACK'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK', 'BLOCK_USER_SHOW_FEEDBACK', 'AGE_VERIFICATION_SHOW_FEEDBACK'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 26;
@@ -424,12 +424,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['FeedbackManager'] = var1;
     var1 = {};
-    var4 = ['CHANNEL_PRELOAD'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['CHANNEL_PRELOAD'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 27;
@@ -439,11 +439,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ForumManager'] = var1;
     var1 = {};
-    var4 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 28;
@@ -453,13 +453,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['ForumGuidelinesManager'] = var1;
     var1 = {};
-    var4 = ['CHANNEL_SELECT', 'THREAD_CREATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['CHANNEL_SELECT', 'THREAD_CREATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 29;
@@ -469,13 +469,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ForumPostAnalyticsManager'] = var1;
     var1 = {};
-    var4 = ['RPC_APP_DISCONNECTED'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['RPC_APP_DISCONNECTED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 30;
@@ -485,12 +485,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['FramesNativeManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 31;
@@ -500,13 +500,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['FrecencyUserSettingsManager'] = var1;
     var1 = {};
-    var4 = ['WAIT_FOR_REMOTE_SESSION', 'POST_CONNECTION_OPEN', 'SESSIONS_REPLACE', 'AUDIO_TOGGLE_SELF_DEAF', 'AUDIO_TOGGLE_SELF_MUTE', 'VOICE_STATE_UPDATES', 'CONSOLE_COMMAND_UPDATE', 'PASSIVE_UPDATE_V2', 'REMOTE_SESSION_DISCONNECT'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['WAIT_FOR_REMOTE_SESSION', 'POST_CONNECTION_OPEN', 'SESSIONS_REPLACE', 'AUDIO_TOGGLE_SELF_DEAF', 'AUDIO_TOGGLE_SELF_MUTE', 'VOICE_STATE_UPDATES', 'CONSOLE_COMMAND_UPDATE', 'PASSIVE_UPDATE_V2', 'REMOTE_SESSION_DISCONNECT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 32;
@@ -516,12 +516,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['GameConsoleManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'MESSAGE_CREATE', 'THREAD_CREATE', 'GUILD_MEMBER_UPDATE', 'GUILD_DELETE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'MESSAGE_CREATE', 'THREAD_CREATE', 'GUILD_MEMBER_UPDATE', 'GUILD_DELETE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 33;
@@ -531,13 +531,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['GuildOnboardingHomeManager'] = var1;
     var1 = {};
-    var4 = ['CHANNEL_SELECT', 'GUILD_DELETE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['CHANNEL_SELECT', 'GUILD_DELETE', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 34;
@@ -547,13 +547,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['GuildOnboardingManager'] = var1;
     var1 = {};
-    var4 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 35;
@@ -563,14 +563,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['hasStoreChangeListeners'] = var4;
     var2['GuildPowerupsManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'GUILD_DELETE', 'GUILD_UNAVAILABLE', 'INVITE_RESOLVE_SUCCESS', 'CHANNEL_SELECT'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'GUILD_DELETE', 'GUILD_UNAVAILABLE', 'INVITE_RESOLVE_SUCCESS', 'CHANNEL_SELECT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 36;
@@ -580,13 +580,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['GuildScheduledEventManager'] = var1;
     var1 = {};
-    var4 = ['INVITE_ACCEPT_SUCCESS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['INVITE_ACCEPT_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 37;
@@ -596,12 +596,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['GuildVerificationManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'VOICE_CHANNEL_SELECT', 'LOGOUT', 'GUILD_MEMBER_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'VOICE_CHANNEL_SELECT', 'LOGOUT', 'GUILD_MEMBER_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 38;
@@ -611,13 +611,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['HangStatusManager'] = var1;
     var1 = {};
-    var4 = ['GUILD_JOIN_REQUEST_UPDATE', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['GUILD_JOIN_REQUEST_UPDATE', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 39;
@@ -627,13 +627,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MemberVerificationApplicationManager'] = var1;
     var1 = {};
-    var4 = ['MESSAGE_UPDATE', 'MESSAGE_CREATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['MESSAGE_UPDATE', 'MESSAGE_CREATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 40;
@@ -643,13 +643,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MessageSessionMetadataManager'] = var1;
     var1 = {};
-    var4 = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 41;
@@ -659,13 +659,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['HolidayEventsManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 42;
@@ -675,12 +675,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['IAPManager'] = var1;
     var1 = {};
-    var4 = ['INTERACTION_MODAL_CREATE', 'INTERACTION_IFRAME_MODAL_CREATE', 'INTERACTION_IFRAME_MODAL_CLOSE', 'RPC_APP_DISCONNECTED'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['INTERACTION_MODAL_CREATE', 'INTERACTION_IFRAME_MODAL_CREATE', 'INTERACTION_IFRAME_MODAL_CLOSE', 'RPC_APP_DISCONNECTED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 43;
@@ -690,12 +690,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['InteractionModalManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 44;
@@ -705,12 +705,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['DiskUsageManager'] = var1;
     var1 = {};
-    var4 = ['NATIVE_APP_INSTANT_INVITE_GDM_SHARE_FAILED'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['NATIVE_APP_INSTANT_INVITE_GDM_SHARE_FAILED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 45;
@@ -720,12 +720,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['InstantInviteManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE', 'CONNECTION_OPEN_SUPPLEMENTAL'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE', 'CONNECTION_OPEN_SUPPLEMENTAL'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 46;
@@ -735,12 +735,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['JankStatsManager'] = var1;
     var1 = {};
-    var4 = ['APP_STATE_UPDATE', 'CONNECTION_OPEN_SUPPLEMENTAL'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE', 'CONNECTION_OPEN_SUPPLEMENTAL'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 47;
@@ -750,13 +750,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['JSWatchdogManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 48;
@@ -766,12 +766,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['LoginRequiredActionManager'] = var1;
     var1 = {};
-    var4 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 49;
@@ -781,12 +781,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
+    var1['inlineRequire'] = var8;
     var2['MessageCodedLinkManager'] = var1;
     var1 = {'actions': null, 'inlineRequire': null, 'neverLoadBeforeConnectionOpen': false, 'hasStoreChangeListeners': true, 'loadRightBeforeConnectionOpen': true};
-    var4 = ['APP_STATE_UPDATE', 'OVERLAY_INITIALIZE', 'CHANNEL_SELECT', 'VOICE_CHANNEL_SELECT', 'THREAD_CREATE', 'THREAD_LIST_SYNC', 'CHANNEL_CREATE', 'CHANNEL_PRELOAD', 'GUILD_CREATE', 'MESSAGE_END_EDIT', 'LOAD_MESSAGES_SUCCESS', 'UPLOAD_FAIL', 'CHANNEL_DELETE', 'THREAD_DELETE', 'CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE'];
-    var1['actions'] = var4;
-    var4 = function inlineRequire() {
+    var8 = ['APP_STATE_UPDATE', 'OVERLAY_INITIALIZE', 'CHANNEL_SELECT', 'VOICE_CHANNEL_SELECT', 'THREAD_CREATE', 'THREAD_LIST_SYNC', 'CHANNEL_CREATE', 'CHANNEL_PRELOAD', 'GUILD_CREATE', 'MESSAGE_END_EDIT', 'LOAD_MESSAGES_SUCCESS', 'UPLOAD_FAIL', 'CHANNEL_DELETE', 'THREAD_DELETE', 'CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 50;
@@ -796,8 +796,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var4;
-    var4 = false;
+    var1['inlineRequire'] = var8;
+    var8 = false;
     var2['MessageManager'] = var1;
     var1 = {};
     var9 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'CONNECTION_RESUMED', 'GUILD_CREATE', 'GUILD_DELETE', 'LOAD_MESSAGES_SUCCESS', 'LOCAL_MESSAGES_LOADED', 'LOGOUT', 'MESSAGE_CREATE', 'MESSAGE_DELETE', 'MESSAGE_UPDATE', 'THREAD_LIST_SYNC'];
@@ -813,7 +813,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var8;
     var2['MessagePreviewManager'] = var1;
     var1 = {};
     var9 = function inlineRequire() {
@@ -827,7 +827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['MetricKitManager'] = var1;
     var1 = {};
     var9 = ['LOGOUT'];
@@ -843,7 +843,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['MultiAccountManager'] = var1;
     var1 = {};
     var9 = ['START_HANGOUT', 'END_HANGOUT', 'APP_STATE_UPDATE', 'VOICE_STATE_UPDATES', 'SPEAKING', 'MESSAGE_CREATE', 'LOAD_USER_AFFINITIES_SUCCESS'];
@@ -859,12 +859,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var8;
     var2['NativeHangoutsManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 55;
@@ -874,12 +874,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['NativeOnDemandResourceManager'] = var1;
     var1 = {};
-    var9 = ['ONBOARDING_STEP'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['ONBOARDING_STEP'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 56;
@@ -889,12 +889,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['NewUserManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'ONBOARDING_START'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'ONBOARDING_START'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 57;
@@ -904,12 +904,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['RedesignNewUserManager'] = var1;
     var1 = {};
-    var9 = ['MESSAGE_CREATE', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['MESSAGE_CREATE', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 58;
@@ -919,13 +919,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['NotificationPermissionManager'] = var1;
     var1 = {};
-    var9 = ['LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 59;
@@ -935,11 +935,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['loadAfterConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadAfterConnectionOpen'] = var4;
     var2['NUFChannelsManager'] = var1;
     var1 = {};
-    var9 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 60;
@@ -949,13 +949,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['ParticipantFocusManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 61;
@@ -965,12 +965,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['PomeloManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'EXPERIMENTS_FETCH_SUCCESS', 'BILLING_SUBSCRIPTION_UPDATE_SUCCESS', 'BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS', 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'VIRTUAL_CURRENCY_REDEEM_SUCCESS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'EXPERIMENTS_FETCH_SUCCESS', 'BILLING_SUBSCRIPTION_UPDATE_SUCCESS', 'BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS', 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'VIRTUAL_CURRENCY_REDEEM_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 62;
@@ -980,10 +980,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['PromotionsManager'] = var1;
     var1 = {};
-    var9 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 63;
@@ -993,13 +993,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['ProximitySensorManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 64;
@@ -1009,12 +1009,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['PushNotificationCacheManager'] = var1;
     var1 = {};
-    var9 = ['RELATIONSHIP_ADD', 'FRIEND_REQUEST_ACCEPTED'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['RELATIONSHIP_ADD', 'FRIEND_REQUEST_ACCEPTED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 65;
@@ -1024,12 +1024,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['RelationshipManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 66;
@@ -1039,12 +1039,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['RTCLatencyTestManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 67;
@@ -1054,13 +1054,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['SavedMessagesManager'] = var1;
     var1 = {};
-    var9 = ['SAVED_MESSAGES_UPDATE', 'SAVED_MESSAGE_CREATE', 'SAVED_MESSAGE_DELETE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['SAVED_MESSAGES_UPDATE', 'SAVED_MESSAGE_CREATE', 'SAVED_MESSAGE_DELETE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 68;
@@ -1070,13 +1070,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MessageRemindersNotificationManager'] = var1;
     var1 = {};
-    var9 = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 69;
@@ -1086,13 +1086,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['SearchTokensManager'] = var1;
     var1 = {};
-    var9 = ['GUILD_CREATE', 'CHANNEL_CREATE', 'LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['GUILD_CREATE', 'CHANNEL_CREATE', 'LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 70;
@@ -1102,10 +1102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['SelectedChannelManager'] = var1;
     var1 = {};
-    var9 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 71;
@@ -1115,13 +1115,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['SelfPresenceStoreManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 72;
@@ -1131,12 +1131,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['SettingTreeManagerLifecycleManager'] = var1;
     var1 = {};
-    var9 = ['CHANNEL_SELECT', 'APP_STATE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CHANNEL_SELECT', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 73;
@@ -1146,13 +1146,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['SharedSpacesWarningManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 74;
@@ -1162,12 +1162,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['StageBoostUpsellManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_STATE_UPDATES'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_STATE_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 75;
@@ -1177,12 +1177,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['StageChannelRequestToSpeakMessageManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_CHANNEL_SELECT', 'LOGOUT', 'STAGE_MUSIC_MUTE', 'STAGE_MUSIC_PLAY', 'VOICE_STATE_UPDATES', 'AUDIO_SET_OUTPUT_VOLUME', 'AUDIO_TOGGLE_SELF_DEAF'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT', 'LOGOUT', 'STAGE_MUSIC_MUTE', 'STAGE_MUSIC_PLAY', 'VOICE_STATE_UPDATES', 'AUDIO_SET_OUTPUT_VOLUME', 'AUDIO_TOGGLE_SELF_DEAF'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 76;
@@ -1192,12 +1192,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['StageMusicManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 77;
@@ -1207,12 +1207,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['StaffMemberPreloaderManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 78;
@@ -1222,12 +1222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['SubscriptionManager'] = var1;
     var1 = {};
-    var9 = ['CALL_DELETE', 'CHANNEL_DELETE', 'VOICE_CHANNEL_SELECT', 'RTC_CONNECTION_STATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CALL_DELETE', 'CHANNEL_DELETE', 'VOICE_CHANNEL_SELECT', 'RTC_CONNECTION_STATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 79;
@@ -1237,13 +1237,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['TelecomManager'] = var1;
     var1 = {};
-    var9 = ['CHANNEL_DELETE', 'MESSAGE_CREATE', 'GUILD_DELETE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CHANNEL_DELETE', 'MESSAGE_CREATE', 'GUILD_DELETE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 80;
@@ -1253,13 +1253,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ThreadManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'MESSAGE_CREATE', 'CHANNEL_SELECT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_CREATE', 'CHANNEL_SELECT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 81;
@@ -1269,13 +1269,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['UrgentSystemDMManagerBase'] = var1;
     var1 = {};
-    var9 = ['CATEGORY_COLLAPSE', 'CATEGORY_EXPAND', 'CATEGORY_COLLAPSE_ALL', 'CATEGORY_EXPAND_ALL', 'POST_CONNECTION_OPEN', 'USER_GUILD_SETTINGS_FULL_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CATEGORY_COLLAPSE', 'CATEGORY_EXPAND', 'CATEGORY_COLLAPSE_ALL', 'CATEGORY_EXPAND_ALL', 'POST_CONNECTION_OPEN', 'USER_GUILD_SETTINGS_FULL_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 82;
@@ -1285,12 +1285,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['UserGuildSettingsManager'] = var1;
     var1 = {};
-    var9 = ['LOGOUT', 'POST_CONNECTION_OPEN', 'CONNECTION_OPEN_SUPPLEMENTAL', 'OVERLAY_INITIALIZE', 'CURRENT_USER_UPDATE', 'GUILD_CREATE', 'GUILD_MEMBERS_CHUNK_BATCH', 'GUILD_MEMBER_ADD', 'GUILD_MEMBER_UPDATE', 'RELATIONSHIP_ADD', 'RELATIONSHIP_UPDATE', 'RELATIONSHIP_REMOVE', 'CHANNEL_CREATE', 'CHANNEL_UPDATES', 'CHANNEL_RECIPIENT_ADD', 'PASSIVE_UPDATE_V2', 'THREAD_LIST_SYNC', 'LOAD_FORUM_POSTS', 'LOAD_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['LOGOUT', 'POST_CONNECTION_OPEN', 'CONNECTION_OPEN_SUPPLEMENTAL', 'OVERLAY_INITIALIZE', 'CURRENT_USER_UPDATE', 'GUILD_CREATE', 'GUILD_MEMBERS_CHUNK_BATCH', 'GUILD_MEMBER_ADD', 'GUILD_MEMBER_UPDATE', 'RELATIONSHIP_ADD', 'RELATIONSHIP_UPDATE', 'RELATIONSHIP_REMOVE', 'CHANNEL_CREATE', 'CHANNEL_UPDATES', 'CHANNEL_RECIPIENT_ADD', 'PASSIVE_UPDATE_V2', 'THREAD_LIST_SYNC', 'LOAD_FORUM_POSTS', 'LOAD_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 83;
@@ -1300,13 +1300,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['UserSearchManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'OVERLAY_INITIALIZE', 'USER_SETTINGS_PROTO_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'OVERLAY_INITIALIZE', 'USER_SETTINGS_PROTO_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 84;
@@ -1316,12 +1316,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['UserSettingsManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 85;
@@ -1331,13 +1331,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['UserTrialOfferManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'BILLING_USER_OFFER_FETCH_SUCCESS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'BILLING_USER_OFFER_FETCH_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 86;
@@ -1347,13 +1347,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['UserOfferManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 87;
@@ -1363,14 +1363,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['hasStoreChangeListeners'] = var4;
     var2['GameCommunityUpsellManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_CHANNEL_SELECT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 88;
@@ -1380,12 +1380,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['VideoBackgroundManager'] = var1;
     var1 = {};
-    var9 = ['CHANNEL_UPDATES', 'VOICE_STATE_UPDATES'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CHANNEL_UPDATES', 'VOICE_STATE_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 89;
@@ -1395,12 +1395,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['VoiceChannelSettingsManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 90;
@@ -1410,12 +1410,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['VoicePermissionManager'] = var1;
     var1 = {};
-    var9 = ['MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 91;
@@ -1425,12 +1425,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['VoiceProcessingErrorManager'] = var1;
     var1 = {};
-    var9 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'GUILD_SETTINGS_CLOSE', 'USER_SETTINGS_MODAL_CLOSE', 'NOTIFICATION_SETTINGS_MODAL_CLOSE', 'PREMIUM_PAYMENT_MODAL_CLOSE', 'EMAIL_VERIFICATION_MODAL_CLOSE', 'IFE_EXPERIMENT_SEARCH_MODAL_CLOSE', 'CREATE_INVITE_MODAL_CLOSE', 'QUICKSWITCHER_HIDE', 'EMAIL_VERIFICATION_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE', 'GUILD_SETTINGS_OPEN', 'NOTIFICATION_SETTINGS_MODAL_OPEN', 'CREATE_INVITE_MODAL_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'GUILD_SETTINGS_CLOSE', 'USER_SETTINGS_MODAL_CLOSE', 'NOTIFICATION_SETTINGS_MODAL_CLOSE', 'PREMIUM_PAYMENT_MODAL_CLOSE', 'EMAIL_VERIFICATION_MODAL_CLOSE', 'IFE_EXPERIMENT_SEARCH_MODAL_CLOSE', 'CREATE_INVITE_MODAL_CLOSE', 'QUICKSWITCHER_HIDE', 'EMAIL_VERIFICATION_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE', 'GUILD_SETTINGS_OPEN', 'NOTIFICATION_SETTINGS_MODAL_OPEN', 'CREATE_INVITE_MODAL_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 92;
@@ -1440,12 +1440,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['DeprecatedModalManager'] = var1;
     var1 = {};
-    var9 = ['VOICE_CHANNEL_SELECT', 'RTC_CONNECTION_STATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VOICE_CHANNEL_SELECT', 'RTC_CONNECTION_STATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 93;
@@ -1455,12 +1455,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['VoicePanelManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_FORUM_POSTS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_FORUM_POSTS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 94;
@@ -1470,13 +1470,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MediaPostEmbedManager'] = var1;
     var1 = {};
-    var9 = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 95;
@@ -1486,13 +1486,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ClipsManager'] = var1;
     var1 = {};
-    var9 = ['CHANNEL_CREATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CHANNEL_CREATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 96;
@@ -1502,13 +1502,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MidjourneyOnboardingManager'] = var1;
     var1 = {};
-    var9 = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS', 'APP_STATE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 97;
@@ -1518,13 +1518,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['NativeNotificationsManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'CONNECTION_INTERRUPTED', 'SELF_PRESENCE_STORE_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'CONNECTION_INTERRUPTED', 'SELF_PRESENCE_STORE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 98;
@@ -1534,13 +1534,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['loadRightBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['loadRightBeforeConnectionOpen'] = var4;
     var2['FriendOnlineTimerManager'] = var1;
     var1 = {};
-    var9 = ['VIBING_WUMPUS_PLAY_MUSIC', 'VIBING_WUMPUS_STOP_MUSIC', 'VIBING_WUMPUS_PAUSE_MUSIC'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['VIBING_WUMPUS_PLAY_MUSIC', 'VIBING_WUMPUS_STOP_MUSIC', 'VIBING_WUMPUS_PAUSE_MUSIC'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 99;
@@ -1550,13 +1550,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['InappropriateConversationsManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 100;
@@ -1566,13 +1566,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ContentInventoryManager'] = var1;
     var1 = {};
-    var9 = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'RUNNING_NON_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'RUNNING_NON_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 101;
@@ -1582,12 +1582,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['QuestFetchManager'] = var1;
     var1 = {};
-    var9 = ['QUESTS_VISIBLE_MOBILE_MESSAGES_CHANGED'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['QUESTS_VISIBLE_MOBILE_MESSAGES_CHANGED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 102;
@@ -1597,14 +1597,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['QuestMobileEmbedVisibilityManager'] = var1;
     var1 = {};
-    var9 = ['MESSAGE_CREATE', 'MESSAGE_SEND_FAILED'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['MESSAGE_CREATE', 'MESSAGE_SEND_FAILED'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 103;
@@ -1614,13 +1614,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['MessageSendFailureNotificationManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 104;
@@ -1630,12 +1630,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['NativeExperimentBridgeManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'USER_SETTINGS_PROTO_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'USER_SETTINGS_PROTO_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 105;
@@ -1645,12 +1645,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['UserSettingsNativeBridgeManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 106;
@@ -1660,12 +1660,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['ForwardGuildBreadcrumbManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'LOGIN_SUCCESS', 'LOGIN_RESET', 'LOGOUT'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'LOGIN_SUCCESS', 'LOGIN_RESET', 'LOGOUT'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 107;
@@ -1675,14 +1675,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['hasStoreChangeListeners'] = var4;
     var2['PasskeyUpsellManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 108;
@@ -1692,12 +1692,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
+    var1['inlineRequire'] = var8;
     var2['GlobalDiscoveryServersFeaturedSearchManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_UPDATE', 'LOAD_MESSAGES_SUCCESS', 'LOAD_MESSAGES_AROUND_SUCCESS', 'LOAD_RECENT_MENTIONS_SUCCESS', 'LOAD_PINNED_MESSAGES_SUCCESS', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 109;
@@ -1707,13 +1707,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ReferralMessageManager'] = var1;
     var1 = {};
-    var9 = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO', 'STREAM_CLOSE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO', 'STREAM_CLOSE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 110;
@@ -1723,13 +1723,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['AVErrorManager'] = var1;
     var1 = {};
-    var9 = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 111;
@@ -1739,13 +1739,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ApplicationStreamingManager'] = var1;
     var1 = {};
-    var9 = new Array(0);
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = new Array(0);
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 112;
@@ -1755,13 +1755,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['hasStoreChangeListeners'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['hasStoreChangeListeners'] = var4;
     var2['LibdiscoreExperimentManager'] = var1;
     var1 = {};
-    var9 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'CHANNEL_CREATE', 'CHANNEL_DELETE', 'CHANNEL_UPDATES', 'GUILD_CREATE', 'GUILD_UPDATE', 'GUILD_DELETE', 'LOGOUT', 'RELATIONSHIP_ADD', 'RELATIONSHIP_REMOVE', 'RELATIONSHIP_UPDATE', 'THREAD_CREATE', 'THREAD_DELETE', 'THREAD_UPDATE', 'USER_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'CHANNEL_CREATE', 'CHANNEL_DELETE', 'CHANNEL_UPDATES', 'GUILD_CREATE', 'GUILD_UPDATE', 'GUILD_DELETE', 'LOGOUT', 'RELATIONSHIP_ADD', 'RELATIONSHIP_REMOVE', 'RELATIONSHIP_UPDATE', 'THREAD_CREATE', 'THREAD_DELETE', 'THREAD_UPDATE', 'USER_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 113;
@@ -1771,13 +1771,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['NativeIntentsManager'] = var1;
     var1 = {};
-    var9 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
-    var1['actions'] = var9;
-    var9 = function inlineRequire() {
+    var8 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 114;
@@ -1787,8 +1787,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var9;
-    var1['neverLoadBeforeConnectionOpen'] = var8;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['SafetyFlowsManager'] = var1;
     var1 = {};
     var8 = ['USER_APPLICATION_IDENTITY_UPDATE', 'USER_APPLICATION_IDENTITY_REMOVE'];
@@ -1821,7 +1821,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['LocalMessageCacheStatsManager'] = var1;
     var1 = {};
-    var8 = ['MESSAGE_PREVIEWS_LOCALLY_LOADED'];
+    var8 = ['POST_CONNECTION_OPEN'];
     var1['actions'] = var8;
     var7 = function inlineRequire() {
         var3 = _closure1_slot0;

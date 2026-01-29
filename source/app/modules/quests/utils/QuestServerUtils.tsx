@@ -546,8 +546,8 @@ case 28:
             var2 = _closure1_slot1;
             var8 = 4;
             var2 = var2[var8];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
+            var6 = undefined;
+            var2 = var3.bind(var6)(var2);
             var2 = var2.QuestPlacementType;
             var3 = var2.QUEST_HOME_BANNER;
             var2 = var1.placements;
@@ -561,7 +561,7 @@ case 29:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var8];
-            var1 = var3.bind(var5)(var1);
+            var1 = var3.bind(var6)(var1);
             var1 = var1.QuestPlacementType;
             var1 = var1.QUEST_HOME_BANNER;
             var3 = var2[var1];
@@ -570,51 +570,70 @@ case 29:
 case 32:
             var2 = {};
             var7 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var6 = var6[var8];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.QuestPlacementType;
-            var6 = var6.QUEST_HOME_BANNER;
-            var2['placementType'] = var6;
-            var6 = var3.campaign_id;
-            var2['campaignId'] = var6;
-            var6 = var3.label_title;
-            var2['labelTitle'] = var6;
-            var6 = var3.label_subtitle;
-            var2['labelSubtitle'] = var6;
+            var5 = _closure1_slot1;
+            var5 = var5[var8];
+            var5 = var7.bind(var6)(var5);
+            var5 = var5.QuestPlacementType;
+            var5 = var5.QUEST_HOME_BANNER;
+            var2['placementType'] = var5;
+            var5 = var3.campaign_id;
+            var2['campaignId'] = var5;
+            var5 = var3.label_title;
+            var2['labelTitle'] = var5;
+            var5 = var3.label_subtitle;
+            var2['labelSubtitle'] = var5;
             var7 = _closure1_slot11;
-            var6 = var3.asset_hero_image;
-            var6 = var7.bind(var5)(var6);
-            var2['assetHeroImage'] = var6;
-            var6 = var3.asset_sponsor_image;
-            var6 = var7.bind(var5)(var6);
-            var2['assetSponsorImage'] = var6;
+            var5 = var3.asset_hero_image;
+            var5 = var7.bind(var6)(var5);
+            var2['assetHeroImage'] = var5;
+            var5 = var3.asset_sponsor_image;
+            var5 = var7.bind(var6)(var5);
+            var2['assetSponsorImage'] = var5;
             var7 = var3.cta_sponsor_url;
-            var6 = {};
+            var5 = {};
             var8 = var7.cta_type;
-            var6['ctaType'] = var8;
+            var5['ctaType'] = var8;
             var8 = var7.title;
-            var6['title'] = var8;
+            var5['title'] = var8;
             var7 = var7.url;
-            var6['url'] = var7;
-            var2['ctaSponsorUrl'] = var6;
+            var5['url'] = var7;
+            var2['ctaSponsorUrl'] = var5;
             var8 = var3.cta_quests;
             var7 = var8.map;
-            var6 = _closure1_slot12;
-            var6 = var7.bind(var8)(var6);
-            var2['ctaQuests'] = var6;
-            var6 = var3.starts_at;
-            var2['startsAt'] = var6;
-            var6 = var3.expires_at;
-            var2['expiresAt'] = var6;
-            var6 = var3.asset_hero_video;
-            if(!(var1 != var6)) { _fun0009_ip = 33; continue _fun0009 }
+            var5 = _closure1_slot12;
+            var5 = var7.bind(var8)(var5);
+            var2['ctaQuests'] = var5;
+            var5 = var3.starts_at;
+            var2['startsAt'] = var5;
+            var5 = var3.expires_at;
+            var2['expiresAt'] = var5;
+            var5 = var3.asset_hero_video;
+            if(!(var1 != var5)) { _fun0009_ip = 33; continue _fun0009 }
 case 34:
-            var4 = _closure1_slot11;
-            var3 = var3.asset_hero_video;
-            var3 = var4.bind(var5)(var3);
-            var2['assetHeroVideo'] = var3;
+            var5 = _closure1_slot11;
+            var4 = var3.asset_hero_video;
+            var4 = var5.bind(var6)(var4);
+            var2['assetHeroVideo'] = var4;
 case 33:
+            var4 = var3.quest_home_entrypoint;
+            if(!(var1 != var4)) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
+            var4 = var3.quest_home_entrypoint;
+            var3 = {};
+            var5 = var4.gradient_start;
+            var3['gradientStart'] = var5;
+            var5 = var4.gradient_end;
+            var3['gradientEnd'] = var5;
+            var5 = var4.entrypoint_asset_image_url;
+            var3['entrypointAssetImageUrl'] = var5;
+            var5 = var4.tooltip_asset_image_url;
+            var3['tooltipAssetImageUrl'] = var5;
+            var5 = var4.tooltip_title;
+            var3['tooltipTitle'] = var5;
+            var4 = var4.tooltip_subtitle;
+            var3['tooltipSubtitle'] = var4;
+            var2['questHomeEntrypoint'] = var3;
+case 35:
             return var2;
 case 31:
             return var1;

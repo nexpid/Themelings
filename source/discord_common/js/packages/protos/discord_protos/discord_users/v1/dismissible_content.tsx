@@ -1910,6 +1910,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_ORBS_REWARDS_INTRO_POPOVER'] = var2;
     var1 = 'PREMIUM_ORBS_REWARDS_INTRO_POPOVER';
     var4[var2] = var1;
+    var2 = 674;
+    var4['BOOST_PROGRESS_BAR_ADMIN_COACHMARK'] = var2;
+    var1 = 'BOOST_PROGRESS_BAR_ADMIN_COACHMARK';
+    var4[var2] = var1;
+    var2 = 675;
+    var4['BOOST_PROGRESS_BAR_MEMBER_COACHMARK'] = var2;
+    var1 = 'BOOST_PROGRESS_BAR_MEMBER_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

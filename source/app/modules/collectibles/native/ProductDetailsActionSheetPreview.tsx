@@ -76,32 +76,15 @@ case 0:
             var5 = var5[var7];
             var5 = var8.bind(var6)(var5);
             var5 = var5.CollectiblesItemType;
-            var5 = var5.AVATAR_DECORATION;
+            var5 = var5.NAMEPLATE;
             var5 = var4 === var5;
             if(!var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var8 = {};
-            var9 = 16;
-            var8['paddingHorizontal'] = var9;
-            var5 = var8;
-case 2:
-            var11 = var2;
-            var10 = var5;
-            var5 = copyDataProperties(var11, var10);
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var7];
-            var5 = var8.bind(var6)(var5);
-            var5 = var5.CollectiblesItemType;
-            var5 = var5.NAMEPLATE;
-            var5 = var4 === var5;
-            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var8 = {};
             var9 = 8;
             var8['marginTop'] = var9;
             var5 = var8;
-case 4:
+case 2:
             var11 = var2;
             var10 = var5;
             var5 = copyDataProperties(var11, var10);
@@ -112,15 +95,15 @@ case 4:
             var3 = var3.CollectiblesItemType;
             var3 = var3.PROFILE_EFFECT;
             var3 = var4 === var3;
-            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var4 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var4 = {};
             var6 = 0.48;
             var5 = arg2;
             var5 = var6 * var5;
             var4['height'] = var5;
             var3 = var4;
-case 6:
+case 4:
             var11 = var2;
             var10 = var3;
             var3 = copyDataProperties(var11, var10);
@@ -191,7 +174,9 @@ case 0:
                 var1 = {};
                 var10 = _closure2_slot2;
                 var1['onPress'] = var10;
-                var6 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center'};
+                var6 = {};
+                var11 = 1;
+                var6['flex'] = var11;
                 var1['style'] = var6;
                 var11 = _closure1_slot1;
                 var6 = 11;
@@ -223,13 +208,7 @@ case 0:
                 var4['id'] = var6;
                 var6 = {};
                 var6['onPress'] = var10;
-                var10 = {'flex': 1, 'paddingHorizontal': null, 'justifyContent': 'center'};
-                var13 = 5;
-                var13 = var12[var13];
-                var13 = var11.bind(var7)(var13);
-                var13 = var13.spacing;
-                var13 = var13.PX_16;
-                var10['paddingHorizontal'] = var13;
+                var10 = {'flex': 1, 'justifyContent': 'center'};
                 var6['style'] = var10;
                 var10 = 12;
                 var10 = var12[var10];
@@ -241,11 +220,11 @@ case 0:
                 var4['page'] = var6;
                 var1[1] = var4;
                 var3 = _closure2_slot3;
-                if(var3) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = new Array(0);
-                _fun0002_ip = 10; continue _fun0002;
-case 8:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var4 = {};
                 var10 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -272,7 +251,7 @@ case 8:
                 var2 = new Array(1);
                 var2[0] = var4;
                 var3 = var2;
-case 10:
+case 8:
                 var16 = 2;
                 var18 = var1;
                 var17 = var3;
@@ -375,13 +354,13 @@ case 0:
             var3 = var10.skuId;
             var2 = _closure1_slot6;
             var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!(var3 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var3 = var10.skuId;
             var2 = _closure1_slot6;
             var2 = var2.ORB_PROFILE_BADGE;
-            if(!(var3 !== var2)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(!(var3 !== var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var3 = var10.type;
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -390,6 +369,14 @@ case 14:
             var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.NAMEPLATE;
+            if(!(var2 !== var3)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_EFFECT;
             if(!(var2 !== var3)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
             var5 = _closure1_slot0;
@@ -397,7 +384,7 @@ case 16:
             var2 = var2[var8];
             var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_EFFECT;
+            var2 = var2.AVATAR_DECORATION;
             if(!(var2 !== var3)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
             var5 = _closure1_slot0;
@@ -405,20 +392,12 @@ case 18:
             var2 = var2[var8];
             var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
-            var2 = var2.AVATAR_DECORATION;
+            var2 = var2.BUNDLE;
             if(!(var2 !== var3)) { _fun0003_ip = 19; continue _fun0003 }
 case 20:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.BUNDLE;
-            if(!(var2 !== var3)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
             var2 = null;
             return var2;
-case 21:
+case 19:
             var5 = _closure1_slot7;
             var3 = _closure1_slot10;
             var2 = {};
@@ -427,7 +406,7 @@ case 21:
             var2['handlePreviewPress'] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 19:
+case 17:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -444,7 +423,7 @@ case 19:
             var2['children'] = var8;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 17:
+case 15:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -463,7 +442,7 @@ case 17:
             var2['children'] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 15:
+case 13:
             var5 = _closure1_slot7;
             var3 = _closure1_slot5;
             var2 = {};
@@ -479,7 +458,7 @@ case 15:
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 13:
+case 11:
             var5 = _closure1_slot7;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -490,7 +469,7 @@ case 13:
             var2 = {};
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 11:
+case 9:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;

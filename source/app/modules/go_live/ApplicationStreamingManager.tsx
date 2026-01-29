@@ -508,6 +508,7 @@ case 58:
     var4 = 13;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var9 = var4.GO_LIVE_NOTIFY_FRIENDS_MIN_MEMBER_COUNT;
     var4 = var4.STREAM_NOTIFY_GUILD_MAX_SIZE;
     var4 = 14;
     var4 = var6[var4];

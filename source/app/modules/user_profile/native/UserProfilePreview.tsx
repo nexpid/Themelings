@@ -51,25 +51,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg2;
-            var6 = arg3;
+            var4 = arg3;
             var1 = {};
-            var2 = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': '100%'};
-            var3 = 1;
-            var4 = null;
-            var7 = var4 != var6;
-            var4 = 263;
-            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = {'maxHeight': '100%', 'position': 'relative', 'overflow': 'hidden', 'width': '100%'};
+            var3 = null;
+            var6 = var3 != var4;
+            var3 = 263;
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = var6;
+            var3 = var4;
 case 2:
-            var2['maxWidth'] = var4;
-            var4 = 350;
-            var6 = arg1;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+            var2['maxWidth'] = var3;
+            var3 = 350;
+            var4 = arg1;
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var4 = undefined;
+            var3 = undefined;
 case 4:
-            var2['minHeight'] = var4;
+            var2['minHeight'] = var3;
+            var3 = 1;
             var4 = var3;
             if(!var5) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -240,7 +240,7 @@ case 19:
             var3[0] = var2;
             var2 = function() {
                 var2 = _closure1_slot4;
-                var1 = var2.getAllPending;
+                var1 = var2.getPendingChanges;
                 var1 = var1.bind(var2)();
                 return var1;
             };

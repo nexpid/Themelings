@@ -452,6 +452,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P'] = var1;
     var1 = 'LOW_PERFORMANCE_MODE';
     var2['LOW_PERFORMANCE_MODE'] = var1;
+    var1 = 'ENABLE_DM_REPLY_NUDGE_REMINDERS';
+    var2['ENABLE_DM_REPLY_NUDGE_REMINDERS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['overflowButtonsOrder'] = var10;
     var8[1] = var9;
     var9 = {'resizePictures': false, 'iaUsesFloatingBarForOverflow': true};
-    var10 = ['allphotos', 'files', 'polls'];
+    var10 = ['allphotos', 'polls', 'files'];
     var9['overflowButtonsOrder'] = var10;
     var8[2] = var9;
     var9 = {'resizePictures': true, 'iaUsesFloatingBarForOverflow': true};
-    var10 = ['allphotos', 'files', 'polls'];
+    var10 = ['allphotos', 'polls', 'files'];
     var9['overflowButtonsOrder'] = var10;
     var8[3] = var9;
     var2['variations'] = var8;

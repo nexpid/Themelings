@@ -304,12 +304,8 @@ case 29:
                     var2 = {};
                     var2['initialIndex'] = var10;
                     var2['initialSources'] = var9;
-                    var9 = var8.guild_id;
-                    var2['guildId'] = var9;
-                    var9 = var8.id;
-                    var2['channelId'] = var9;
-                    var8 = var8.type;
-                    var2['channelType'] = var8;
+                    var8 = var8.id;
+                    var2['channelId'] = var8;
                     var2['contextName'] = var7;
                     var2['contextIcon'] = var6;
                     var5 = var5.current;

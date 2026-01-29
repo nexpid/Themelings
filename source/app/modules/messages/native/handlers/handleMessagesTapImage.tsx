@@ -418,12 +418,8 @@ case 57:
             var4['originViewOrOriginLayout'] = var8;
             var8 = 'Channel';
             var4['analyticsSource'] = var8;
-            var8 = var11.guild_id;
-            var4['guildId'] = var8;
             var8 = var11.id;
             var4['channelId'] = var8;
-            var8 = var11.type;
-            var4['channelType'] = var8;
             var8 = undefined;
             if(!var9) { _fun0001_ip = 58; continue _fun0001 }
 case 59:

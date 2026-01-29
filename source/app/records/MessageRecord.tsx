@@ -964,8 +964,8 @@ case 143:
                 };
                 var3 = var10.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var8 === var1)) { _fun0008_ip = 65; continue _fun0008 }
-case 153:
+                if(!(var8 === var1)) { _fun0008_ip = 153; continue _fun0008 }
+case 154:
                 var11 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var10 = 10;
@@ -973,7 +973,7 @@ case 153:
                 var8 = var11.bind(var9)(var8);
                 var8 = var8.ReactionTypes;
                 var8 = var8.BURST;
-                if(!(var2 !== var8)) { _fun0008_ip = 154; continue _fun0008 }
+                if(!(var2 !== var8)) { _fun0008_ip = 35; continue _fun0008 }
 case 155:
                 var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -992,7 +992,7 @@ case 156:
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 65; continue _fun0008;
+                _fun0008_ip = 153; continue _fun0008;
 case 55:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
@@ -1003,8 +1003,8 @@ case 55:
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 65; continue _fun0008;
-case 154:
+                _fun0008_ip = 153; continue _fun0008;
+case 35:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var7;
@@ -1013,7 +1013,7 @@ case 154:
                 var1['count_details'] = var6;
                 var1['burst_colors'] = var5;
                 var1 = var2.bind(var3)(var1);
-case 65:
+case 153:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);

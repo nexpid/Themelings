@@ -1,12 +1,14 @@
 // app/utils/GuildRoleUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
     var3 = exports;
     var5 = dependencyMap;
+    var _closure1_slot0 = var6;
     var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
-    var1 = metroImportAll;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var5;
+    var1 = metroImportAll;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var5;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -78,7 +80,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot5;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +92,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +151,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot3 = var1;
+    var _closure1_slot4 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +184,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot5 = var1;
     var4 = function compareGuildRoles(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -200,8 +202,8 @@ case 39:
             var2 = var3.position;
             if(!(var5 === var2)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var7 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var7 = _closure1_slot1;
+            var5 = _closure1_slot3;
             var2 = 0;
             var5 = var5[var2];
             var2 = undefined;
@@ -224,8 +226,8 @@ case 37:
             var2 = 1;
             if(!(var5 === var6)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot3;
             var5 = 0;
             var6 = var6[var5];
             var5 = undefined;
@@ -240,34 +242,33 @@ case 43:
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var6 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
     var1 = true;
-    var6['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 2;
-    var6 = var5[var1];
-    var5 = require;
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 4;
+    var5 = var5[var1];
     var1 = undefined;
-    var7 = var5.bind(var1)(var6);
+    var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'utils/GuildRoleUtils.tsx';
     var5 = var6.bind(var7)(var5);
     var5 = function sortGuildRoleRecords(arg1) {
         var1 = arg1;
         var3 = var1.sort;
-        var2 = _closure1_slot5;
+        var2 = _closure1_slot6;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
     var3['sortGuildRoleRecords'] = var5;
     var3['compareGuildRoles'] = var4;
     var4 = function doesRoleSortHigher(arg1, arg2) {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;
         var1 = arg2;
@@ -277,59 +278,152 @@ case 43:
         return var1;
     };
     var3['doesRoleSortHigher'] = var4;
-    var2 = function filterRoleDeletes(arg1, arg2) {
+    var4 = function sortInviteRoles(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var2 = arg1;
+            var3 = arg2;
+            var4 = var2.position;
+            var1 = var3.position;
+            if(!(var4 === var1)) { _fun0005_ip = 46; continue _fun0005 }
+case 29:
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot3;
+            var1 = 0;
+            var4 = var4[var1];
+            var1 = undefined;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.compare;
+            var4 = var2.id;
+            var1 = var3.id;
+            var1 = var5.bind(var6)(var4, var1);
+            _fun0005_ip = 47; continue _fun0005;
+case 46:
+            var3 = var3.position;
+            var2 = var2.position;
+            var1 = var3 - var2;
+case 47:
+            return var1;
+        }
+    };
+    var3['sortInviteRoles'] = var4;
+    var4 = function inviteRoleToDisplayData(arg1, arg2) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+            var3 = arg2;
+            var1 = {};
+            var2 = var3.id;
+            var1['id'] = var2;
+            var2 = var3.name;
+            var1['name'] = var2;
+            var2 = arg1;
+            var1['guildId'] = var2;
+            var6 = var3.color;
+            var2 = null;
+            var5 = 0;
+            var4 = null;
+            if(!(var5 !== var6)) { _fun0006_ip = 48; continue _fun0006 }
+case 2:
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var5 = 1;
+            var6 = var6[var5];
+            var5 = undefined;
+            var7 = var7.bind(var5)(var6);
+            var6 = var7.int2hex;
+            var5 = var3.color;
+            var4 = var6.bind(var7)(var5);
+case 48:
+            var1['colorString'] = var4;
+            var4 = var3.colors;
+            var5 = var2 != var4;
+            var4 = null;
+            if(!var5) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var5 = 2;
+            var6 = var6[var5];
+            var5 = undefined;
+            var7 = var7.bind(var5)(var6);
+            var6 = var7.extractColorStringsFromServerColors;
+            var5 = var3.colors;
+            var4 = var6.bind(var7)(var5);
+case 49:
+            var1['colorStrings'] = var4;
+            var5 = var3.icon;
+            var6 = var2 != var5;
+            var4 = null;
+            if(!var6) { _fun0006_ip = 17; continue _fun0006 }
+case 51:
+            var4 = var5;
+case 17:
+            var1['icon'] = var4;
+            var3 = var3.unicode_emoji;
+            var4 = var2 != var3;
+            var2 = null;
+            if(!var4) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
+            var2 = var3;
+case 52:
+            var1['unicodeEmoji'] = var2;
+            return var1;
+        }
+    };
+    var3['inviteRoleToDisplayData'] = var4;
+    var2 = function filterRoleDeletes(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var9 = arg1;
             var1 = arg2;
             var4 = arguments[2];
             var5 = arguments[3];
             var8 = undefined;
-            if(!(var4 === var8)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+            if(!(var4 === var8)) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
             var4 = new Array(0);
-case 46:
-            if(!(var5 === var8)) { _fun0005_ip = 3; continue _fun0005 }
-case 48:
+case 54:
+            if(!(var5 === var8)) { _fun0007_ip = 3; continue _fun0007 }
+case 56:
             var5 = new Array(0);
 case 3:
             var3 = var5.length;
             var2 = var4.length;
             var3 = var3 + var2;
             var2 = 0;
-            if(!(var3 !== var2)) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+            if(!(var3 !== var2)) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
             var2 = {};
             var14 = var2;
             var13 = var1;
             var3 = copyDataProperties(var14, var13);
             var3 = null;
-            if(!(var3 != var5)) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
-            var3 = _closure1_slot3;
+            if(!(var3 != var5)) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
+            var3 = _closure1_slot4;
             var6 = var3.bind(var8)(var5);
             var5 = var6.bind(var8)();
             var3 = var5.done;
-            if(var3) { _fun0005_ip = 51; continue _fun0005 }
+            if(var3) { _fun0007_ip = 59; continue _fun0007 }
 case 11:
             var3 = var5.value;
             var3 = delete var2[var3];
             var7 = var6.bind(var8)();
             var3 = var7.done;
             var5 = var7;
-            if(!var3) { _fun0005_ip = 11; continue _fun0005 }
-case 51:
-            var3 = _closure1_slot3;
+            if(!var3) { _fun0007_ip = 11; continue _fun0007 }
+case 59:
+            var3 = _closure1_slot4;
             var6 = var3.bind(var8)(var4);
             var4 = var6.bind(var8)();
             var3 = var4.done;
-            var5 = 1;
-            if(var3) { _fun0005_ip = 22; continue _fun0005 }
-case 53:
+            var5 = 3;
+            if(var3) { _fun0007_ip = 22; continue _fun0007 }
+case 49:
             var12 = var4.value;
             var10 = var12.id;
-            var11 = _closure1_slot1;
-            var3 = _closure1_slot2;
+            var11 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3[var5];
             var11 = var11.bind(var8)(var3);
             var3 = var11.fromServer;
@@ -338,10 +432,10 @@ case 53:
             var10 = var6.bind(var8)();
             var3 = var10.done;
             var4 = var10;
-            if(!var3) { _fun0005_ip = 53; continue _fun0005 }
+            if(!var3) { _fun0007_ip = 49; continue _fun0007 }
 case 22:
             return var2;
-case 49:
+case 57:
             return var1;
         }
     };

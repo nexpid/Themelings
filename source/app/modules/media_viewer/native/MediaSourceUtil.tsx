@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var19 = function flattenSource(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -211,7 +211,7 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot12 = var19;
+    var _closure1_slot11 = var19;
     var18 = function isValidImageAttachment(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -250,7 +250,7 @@ case 49:
 case 48:
             if(!var1) { _fun0005_ip = 50; continue _fun0005 }
 case 51:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot16;
             var2 = var2.bind(var3)(var4);
             var1 = !var2;
 case 50:
@@ -260,7 +260,7 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot13 = var18;
+    var _closure1_slot12 = var18;
     var17 = function isValidVideoAttachment(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -292,7 +292,7 @@ case 44:
             return var1;
         }
     };
-    var _closure1_slot14 = var17;
+    var _closure1_slot13 = var17;
     var16 = function isValidImageEmbed(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -308,7 +308,7 @@ case 34:
             return var1;
         }
     };
-    var _closure1_slot15 = var16;
+    var _closure1_slot14 = var16;
     var15 = function isValidVideoEmbed(arg1) {
         var1 = arg1;
         var2 = var1.video;
@@ -316,7 +316,7 @@ case 34:
         var1 = var1 != var2;
         return var1;
     };
-    var _closure1_slot16 = var15;
+    var _closure1_slot15 = var15;
     var14 = function isThumbnailAttachment(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -337,7 +337,7 @@ case 59:
             var6 = var7.bind(var5)(var6);
             var5 = var6.hasFlag;
             var4 = var4.flags;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot5;
             var3 = var3.IS_THUMBNAIL;
             var2 = var5.bind(var6)(var4, var3);
 case 58:
@@ -346,7 +346,7 @@ case 57:
             return var1;
         }
     };
-    var _closure1_slot17 = var14;
+    var _closure1_slot16 = var14;
     var13 = function getAttachmentUrl(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -367,7 +367,7 @@ case 63:
             return var1;
         }
     };
-    var _closure1_slot18 = var13;
+    var _closure1_slot17 = var13;
     var12 = function extractMediaFromAttachment(arg1, arg2, arg3, arg4, arg5) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -416,7 +416,7 @@ case 30:
             var5 = var11.isVideoFile;
             var1 = var2.filename;
             var1 = var5.bind(var11)(var1);
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot17;
             var5 = var5.bind(var8)(var2);
             var12 = _closure1_slot1;
             var11 = 7;
@@ -509,7 +509,7 @@ case 69:
 case 71:
             var19 = var16;
 case 70:
-            var16 = _closure1_slot6;
+            var16 = _closure1_slot5;
             var16 = var16.IS_ANIMATED;
             var16 = var17.bind(var18)(var19, var16);
             if(!var16) { _fun0010_ip = 72; continue _fun0010 }
@@ -631,7 +631,7 @@ case 64:
             return var1;
         }
     };
-    var _closure1_slot19 = var12;
+    var _closure1_slot18 = var12;
     var11 = function getEmbedUrl(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -704,7 +704,7 @@ case 88:
             return var1;
         }
     };
-    var _closure1_slot20 = var11;
+    var _closure1_slot19 = var11;
     var1 = function getEmbedContentScanVersion(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -727,7 +727,7 @@ case 91:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = function getMediaContentType(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -756,7 +756,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var10 = function getEmbedMedia(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -774,7 +774,7 @@ case 95:
             return var1;
         }
     };
-    var _closure1_slot23 = var10;
+    var _closure1_slot22 = var10;
     var9 = function extractMediaFromEmbed(arg1, arg2, arg3, arg4, arg5) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -782,7 +782,7 @@ case 0:
             var13 = arg2;
             var12 = arg4;
             var14 = arg5;
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot22;
             var6 = undefined;
             var3 = var2.bind(var6)(var9);
             var17 = null;
@@ -793,14 +793,14 @@ case 98:
             var16 = undefined;
             if(!var2) { _fun0015_ip = 99; continue _fun0015 }
 case 100:
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot19;
             var2 = var9.video;
             var16 = var4.bind(var6)(var2);
 case 99:
             var18 = var9.type;
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot19;
             var5 = var2.bind(var6)(var3);
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot20;
             var7 = var2.bind(var6)(var9);
             var8 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -916,7 +916,7 @@ case 110:
             var16 = var9.flags;
             var15['flags'] = var16;
             var15['contentScanVersion'] = var7;
-            var16 = _closure1_slot22;
+            var16 = _closure1_slot21;
             var16 = var16.bind(var6)(var3);
             var15['contentType'] = var16;
             var15['obscure'] = var8;
@@ -948,7 +948,7 @@ case 115:
             var15 = var9.thumbnail;
             if(!(var17 != var15)) { _fun0015_ip = 116; continue _fun0015 }
 case 117:
-            var18 = _closure1_slot20;
+            var18 = _closure1_slot19;
             var15 = var9.thumbnail;
             var21 = var18.bind(var6)(var15);
             var18 = _closure1_slot1;
@@ -970,7 +970,7 @@ case 117:
             var15['flags'] = var19;
             var15['obscure'] = var8;
             var15['contentScanVersion'] = var7;
-            var20 = _closure1_slot22;
+            var20 = _closure1_slot21;
             var19 = var9.thumbnail;
             var19 = var20.bind(var6)(var19);
             var15['contentType'] = var19;
@@ -1010,7 +1010,7 @@ case 121:
             var4['flags'] = var18;
             var4['obscure'] = var8;
             var4['contentScanVersion'] = var7;
-            var19 = _closure1_slot22;
+            var19 = _closure1_slot21;
             var18 = var9.video;
             var18 = var19.bind(var6)(var18);
             var4['contentType'] = var18;
@@ -1031,7 +1031,7 @@ case 121:
             var4['height'] = var18;
             var18 = var13.channel_id;
             var4['channelId'] = var18;
-            var19 = _closure1_slot20;
+            var19 = _closure1_slot19;
             var18 = var9.video;
             var18 = var19.bind(var6)(var18);
             var4['embedURI'] = var18;
@@ -1098,7 +1098,7 @@ case 114:
             var4['flags'] = var9;
             var4['obscure'] = var8;
             var4['contentScanVersion'] = var7;
-            var1 = _closure1_slot22;
+            var1 = _closure1_slot21;
             var1 = var1.bind(var6)(var3);
             var4['contentType'] = var1;
             var3 = {};
@@ -1118,7 +1118,7 @@ case 130:
             return var1;
         }
     };
-    var _closure1_slot24 = var9;
+    var _closure1_slot23 = var9;
     var1 = function toMediaSourceFromUnfurledMedia(arg1, arg2, arg3, arg4, arg5) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -1274,18 +1274,18 @@ case 132:
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var1 = function handleDownloadError() {
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var1 = 22;
+        var1 = 21;
         var2 = var9[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.show;
         var2 = {};
         var8 = _closure1_slot0;
-        var5 = 23;
+        var5 = 22;
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var10 = var6.intl;
@@ -1311,7 +1311,7 @@ case 132:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot25 = var1;
     var8 = function downloadMediaAssetWithContentType(arg1, arg2, arg3) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -1334,7 +1334,7 @@ case 5:
             var4 = var2.bind(var3)(var7, var6, var5);
 case 55:
             var3 = var4.then;
-            var2 = _closure1_slot26;
+            var2 = _closure1_slot25;
             var1 = function() {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
@@ -1391,29 +1391,14 @@ case 87:
                     var3 = var4.presentImageSaved;
                     var3 = var3.bind(var4)();
 case 149:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 20;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var1)(var3);
-                    var4 = var3.useMediaViewerSessionManager;
-                    var3 = var4.getState;
-                    var6 = var3.bind(var4)();
-                    var4 = _closure1_slot1;
-                    var3 = 21;
-                    var3 = var5[var3];
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.track;
-                    var2 = _closure1_slot5;
-                    var3 = var2.MEDIA_VIEWER_DOWNLOAD_BUTTON_TAPPED;
-                    var2 = {};
-                    var7 = var6.guildId;
-                    var2['guild_id'] = var7;
-                    var7 = var6.channelId;
-                    var2['channel_id'] = var7;
-                    var6 = var6.channelType;
-                    var2['channel_type'] = var6;
-                    var2 = var4.bind(var5)(var3, var2);
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 20;
+                    var2 = var4[var2];
+                    var2 = var3.bind(var1)(var2);
+                    var3 = var2.MediaViewerAnalytics;
+                    var2 = var3.trackMediaViewerDownloadButtonTapped;
+                    var2 = var2.bind(var3)();
                     return var1;
                 }
             };
@@ -1421,7 +1406,7 @@ case 149:
             return var1;
         }
     };
-    var _closure1_slot27 = var8;
+    var _closure1_slot26 = var8;
     var6 = function isAnimatedWebpSource(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
@@ -1444,7 +1429,7 @@ case 3:
             var6 = var6.bind(var4)(var5);
             var5 = var6.urlMatchesFileExtension;
             var4 = var2.sourceURI;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var1 = var5.bind(var6)(var4, var3);
 case 44:
             if(!var1) { _fun0019_ip = 151; continue _fun0019 }
@@ -1467,7 +1452,7 @@ case 151:
             return var1;
         }
     };
-    var _closure1_slot28 = var6;
+    var _closure1_slot27 = var6;
     var5 = function isAnimatedAvifSource(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
@@ -1490,7 +1475,7 @@ case 3:
             var6 = var6.bind(var4)(var5);
             var5 = var6.urlMatchesFileExtension;
             var4 = var2.sourceURI;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var1 = var5.bind(var6)(var4, var3);
 case 44:
             if(!var1) { _fun0020_ip = 151; continue _fun0020 }
@@ -1513,7 +1498,7 @@ case 151:
             return var1;
         }
     };
-    var _closure1_slot29 = var5;
+    var _closure1_slot28 = var5;
     var4 = function isGIFSource(arg1) {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
@@ -1531,7 +1516,7 @@ case 151:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot30 = var4;
+    var _closure1_slot29 = var4;
     var1 = global;
     var23 = var1.Object;
     var20 = var23.defineProperty;
@@ -1554,14 +1539,12 @@ case 151:
     var23 = 2;
     var7 = var22[var23];
     var7 = var21.bind(var1)(var7);
-    var20 = var7.AnalyticEvents;
-    var _closure1_slot5 = var20;
     var20 = var7.MessageAttachmentFlags;
-    var _closure1_slot6 = var20;
+    var _closure1_slot5 = var20;
     var7 = var7.WEBP_RE_IOS;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var7 = /\.avif$/i;
-    var _closure1_slot8 = var7;
+    var _closure1_slot7 = var7;
     var7 = {};
     var7['PORTAL'] = var25;
     var20 = 'PORTAL';
@@ -1576,8 +1559,8 @@ case 151:
     var7['DEFAULT'] = var23;
     var20 = 'DEFAULT';
     var7[var23] = var20;
-    var _closure1_slot9 = var7;
-    var20 = 25;
+    var _closure1_slot8 = var7;
+    var20 = 24;
     var20 = var22[var20];
     var22 = var21.bind(var1)(var20);
     var21 = var22.fileFinishedImporting;
@@ -1655,7 +1638,7 @@ case 155:
             var16 = var3;
             if(!(var21 === var22)) { _fun0021_ip = 156; continue _fun0021 }
 case 157:
-            var24 = _closure1_slot25;
+            var24 = _closure1_slot24;
             var29 = var2.media;
             var28 = var2.description;
             var27 = var2.spoiler;
@@ -1683,7 +1666,7 @@ case 158:
             var16 = var21;
             _fun0021_ip = 156; continue _fun0021;
 case 27:
-            var21 = _closure1_slot10;
+            var21 = _closure1_slot9;
             var2 = var2.items;
             var22 = var21.bind(var12)(var2);
             var23 = var22.bind(var12)();
@@ -1697,7 +1680,7 @@ case 27:
             if(var2) { _fun0021_ip = 156; continue _fun0021 }
 case 106:
             var24 = var21.value;
-            var26 = _closure1_slot25;
+            var26 = _closure1_slot24;
             var29 = var24.media;
             var28 = var24.description;
             var27 = var24.spoiler;
@@ -1775,7 +1758,7 @@ case 40:
             var2 = var3.map;
             var1 = function(arg1) {
                 var6 = arg1;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot19;
                 var14 = undefined;
                 var13 = var1.bind(var14)(var6);
                 var3 = _closure1_slot1;
@@ -1787,7 +1770,7 @@ case 40:
                 var3 = var6.width;
                 var1 = var6.height;
                 var7 = var4.bind(var5)(var13, var3, var1);
-                var3 = _closure1_slot21;
+                var3 = _closure1_slot20;
                 var5 = _closure2_slot1;
                 var3 = var3.bind(var14)(var5);
                 var12 = _closure1_slot0;
@@ -1917,7 +1900,7 @@ case 163:
 case 164:
             return var1;
 case 14:
-            var10 = _closure1_slot25;
+            var10 = _closure1_slot24;
             var15 = var3.media;
             var14 = var3.description;
             var13 = var3.spoiler;
@@ -1958,7 +1941,7 @@ case 69:
                 _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                     var1 = arg1;
-                    var8 = _closure1_slot25;
+                    var8 = _closure1_slot24;
                     var13 = _closure2_slot0;
                     var12 = _closure2_slot1;
                     var11 = var1.media;
@@ -2024,15 +2007,15 @@ case 0:
 case 169:
             var2 = var10.attachments;
             var15 = var2[var12];
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot12;
             var2 = var2.bind(var6)(var15);
             if(var2) { _fun0025_ip = 161; continue _fun0025 }
 case 55:
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var2 = var2.bind(var6)(var15);
             if(!var2) { _fun0025_ip = 170; continue _fun0025 }
 case 161:
-            var2 = _closure1_slot19;
+            var2 = _closure1_slot18;
             var22 = undefined;
             var21 = var15;
             var20 = var11;
@@ -2047,7 +2030,7 @@ case 171:
             var16 = var16.bind(var1)(var2);
             var3 = var2;
 case 170:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot16;
             var2 = var2.bind(var6)(var15);
             var15 = var13;
             if(var2) { _fun0025_ip = 172; continue _fun0025 }
@@ -2077,16 +2060,16 @@ case 176:
             var12 = var3;
             if(!var2) { _fun0025_ip = 177; continue _fun0025 }
 case 162:
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var2 = var2.bind(var6)(var13);
             if(var2) { _fun0025_ip = 178; continue _fun0025 }
 case 88:
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot15;
             var2 = var2.bind(var6)(var13);
             var12 = var3;
             if(!var2) { _fun0025_ip = 177; continue _fun0025 }
 case 178:
-            var2 = _closure1_slot24;
+            var2 = _closure1_slot23;
             var22 = undefined;
             var21 = var13;
             var20 = var11;
@@ -2116,7 +2099,7 @@ case 174:
 case 0:
             var4 = arg1;
             var3 = arg2;
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var1 = undefined;
             var5 = var2.bind(var1)(var4);
             var2 = null;
@@ -2252,7 +2235,7 @@ case 50:
     };
     var3['useSelectedMediaSource'] = var9;
     var9 = function downloadMediaAsset(arg1, arg2) {
-        var4 = _closure1_slot27;
+        var4 = _closure1_slot26;
         var3 = undefined;
         var2 = arg1;
         var1 = arg2;
@@ -2384,7 +2367,7 @@ case 187:
 case 133:
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 24;
+            var4 = 23;
             var6 = var6[var4];
             var4 = undefined;
             var7 = var7.bind(var4)(var6);
@@ -2393,7 +2376,7 @@ case 133:
             var4 = var6.bind(var7)(var4);
             if(var4) { _fun0031_ip = 195; continue _fun0031 }
 case 171:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var1 = var1.PORTAL;
             _fun0031_ip = 196; continue _fun0031;
 case 195:
@@ -2404,18 +2387,18 @@ case 198:
             var3 = 'TikTok';
             if(!(var3 !== var4)) { _fun0031_ip = 155; continue _fun0031 }
 case 197:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var3 = var3.DEFAULT;
             _fun0031_ip = 85; continue _fun0031;
 case 155:
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot8;
             var3 = var4.TIKTOK_IFRAME;
 case 85:
             var1 = var3;
 case 196:
             _fun0031_ip = 199; continue _fun0031;
 case 194:
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             var1 = var2.WEB_FILE_IFRAME;
 case 199:
             return var1;
@@ -2458,17 +2441,17 @@ case 99:
         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var4 = arg1;
-            var1 = _closure1_slot30;
+            var1 = _closure1_slot29;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
             if(var1) { _fun0033_ip = 60; continue _fun0033 }
 case 29:
-            var5 = _closure1_slot28;
+            var5 = _closure1_slot27;
             var1 = var5.bind(var3)(var4);
 case 60:
             if(var1) { _fun0033_ip = 38; continue _fun0033 }
 case 201:
-            var2 = _closure1_slot29;
+            var2 = _closure1_slot28;
             var1 = var2.bind(var3)(var4);
 case 38:
             return var1;

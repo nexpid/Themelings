@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['rolesRow'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -81,7 +81,20 @@ case 4:
                     var2 = 0;
                     if(!(var2 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 5:
-                    var3 = _closure2_slot1;
+                    var7 = _closure2_slot1;
+                    var3 = new Array(0);
+                    var8 = var3;
+                    var6 = 0;
+                    var1 = arraySpread(var8, var7, var6);
+                    var2 = var3.sort;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 4;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var1 = var5.bind(var1)(var4);
+                    var1 = var1.sortInviteRoles;
+                    var3 = var2.bind(var3)(var1);
                     var2 = var3.map;
                     var1 = function(arg1) {
                         var3 = _closure1_slot0;
@@ -90,22 +103,13 @@ case 5:
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
-                        var3 = var4.fromServer;
+                        var3 = var4.inviteRoleToDisplayData;
                         var1 = _closure2_slot0;
                         var2 = var1.id;
                         var1 = arg1;
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    var3 = var2.bind(var3)(var1);
-                    var2 = var3.sort;
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 5;
-                    var4 = var4[var1];
-                    var1 = undefined;
-                    var1 = var5.bind(var1)(var4);
-                    var1 = var1.sortRolesByVerification;
                     var1 = var2.bind(var3)(var1);
                     _fun0002_ip = 6; continue _fun0002;
 case 2:
@@ -128,7 +132,7 @@ case 9:
             var4 = _closure1_slot6;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
             var2 = var17[var2];
             var2 = var16.bind(var5)(var2);
             var3 = var2.Stack;
@@ -137,12 +141,12 @@ case 9:
             var2['spacing'] = var8;
             var2['style'] = var6;
             var9 = _closure1_slot5;
-            var6 = 7;
+            var6 = 6;
             var6 = var17[var6];
             var6 = var16.bind(var5)(var6);
             var8 = var6.Text;
             var6 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
-            var13 = 8;
+            var13 = 7;
             var14 = var17[var13];
             var14 = var16.bind(var5)(var14);
             var15 = var14.intl;
@@ -166,7 +170,7 @@ case 9:
                 var5 = _closure1_slot5;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 9;
+                var2 = 8;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);

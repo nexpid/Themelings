@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
     var _closure1_slot7 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -50,7 +50,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var10 = arg1;
             var22 = arg2;
-            var _closure2_slot0 = var10;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var8 = 5;
@@ -502,45 +501,35 @@ case 67:
 case 66:
             var4 = var10.roles;
             var22 = var3 != var4;
+            var4 = undefined;
             if(!var22) { _fun0001_ip = 68; continue _fun0001 }
 case 69:
-            var4 = var10.roles;
-            var4 = var4.length;
-            var22 = var4 > var5;
-case 68:
-            if(!var22) { _fun0001_ip = 70; continue _fun0001 }
-case 71:
-            var4 = var10.guild;
-            var22 = var3 != var4;
-case 70:
+            var22 = var10.roles;
+            var22 = var22.length;
+            var22 = var22 > var5;
             var4 = undefined;
-            if(!var22) { _fun0001_ip = 72; continue _fun0001 }
-case 73:
-            var24 = var10.roles;
-            var23 = var24.map;
-            var22 = function(arg1) {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 20;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.fromServer;
-                var1 = _closure2_slot0;
-                var1 = var1.guild;
-                var2 = var1.id;
-                var1 = arg1;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var24 = var23.bind(var24)(var22);
+            if(!var22) { _fun0001_ip = 68; continue _fun0001 }
+case 70:
+            var22 = var10.guild;
+            var22 = var3 != var22;
+            var4 = undefined;
+            if(!var22) { _fun0001_ip = 68; continue _fun0001 }
+case 71:
+            var22 = var10.guild;
+            var22 = var22.id;
+            var _closure2_slot0 = var22;
+            var29 = var10.roles;
+            var24 = new Array(0);
+            var30 = var24;
+            var28 = 0;
+            var22 = arraySpread(var30, var29, var28);
             var23 = var24.sort;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var22 = 21;
+            var22 = 20;
             var22 = var26[var22];
             var22 = var25.bind(var7)(var22);
-            var22 = var22.sortRolesByVerification;
+            var22 = var22.sortInviteRoles;
             var23 = var23.bind(var24)(var22);
             var22 = var23.map;
             var1 = function(arg1) {
@@ -548,49 +537,55 @@ case 73:
 case 0:
                     var4 = arg1;
                     var2 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var1 = 22;
-                    var1 = var5[var1];
+                    var7 = _closure1_slot2;
+                    var1 = 20;
+                    var1 = var7[var1];
                     var6 = undefined;
+                    var8 = var2.bind(var6)(var1);
+                    var5 = var8.inviteRoleToDisplayData;
+                    var1 = _closure2_slot0;
+                    var5 = var5.bind(var8)(var1, var4);
+                    var1 = 21;
+                    var1 = var7[var1];
                     var2 = var2.bind(var6)(var1);
                     var1 = var2.getRoleIconData;
                     var7 = 16;
-                    var1 = var1.bind(var2)(var4, var7);
+                    var1 = var1.bind(var2)(var5, var7);
                     var8 = null;
-                    if(!(var8 == var1)) { _fun0003_ip = 74; continue _fun0003 }
-case 75:
+                    if(!(var8 == var1)) { _fun0003_ip = 72; continue _fun0003 }
+case 73:
                     var1 = {};
-case 74:
+case 72:
                     var10 = var1.customIconSrc;
                     var9 = var1.unicodeEmoji;
                     var2 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 22;
                     var1 = var5[var1];
                     var5 = var2.bind(var6)(var1);
                     var2 = var5.int2hex;
                     var11 = var4.color;
                     var12 = var8 != var11;
                     var1 = 0;
-                    if(!var12) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
+                    if(!var12) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
                     var1 = var11;
-case 76:
+case 74:
                     var5 = var2.bind(var5)(var1);
-                    if(!(var8 == var10)) { _fun0003_ip = 78; continue _fun0003 }
-case 79:
+                    if(!(var8 == var10)) { _fun0003_ip = 76; continue _fun0003 }
+case 77:
                     var1 = var8 != var9;
                     var2 = undefined;
-                    if(!var1) { _fun0003_ip = 80; continue _fun0003 }
-case 78:
+                    if(!var1) { _fun0003_ip = 78; continue _fun0003 }
+case 76:
                     var1 = {};
                     var1['source'] = var10;
                     var10 = var8 == var9;
                     var8 = undefined;
-                    if(var10) { _fun0003_ip = 81; continue _fun0003 }
-case 2:
+                    if(var10) { _fun0003_ip = 79; continue _fun0003 }
+case 80:
                     var8 = var9.surrogates;
-case 81:
+case 79:
                     var1['unicodeEmoji'] = var8;
                     var8 = var4.name;
                     var1['name'] = var8;
@@ -612,7 +607,7 @@ case 81:
                     var7 = var9.bind(var10)(var8, var7);
                     var1['alt'] = var7;
                     var2 = var1;
-case 80:
+case 78:
                     var1 = {};
                     var7 = var4.id;
                     var1['id'] = var7;
@@ -620,7 +615,7 @@ case 80:
                     var1['name'] = var4;
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 24;
+                    var3 = 23;
                     var3 = var7[var3];
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.processColorOrThrow;
@@ -631,11 +626,11 @@ case 80:
                 }
             };
             var4 = var22.bind(var23)(var1);
-case 72:
+case 68:
             var1 = {};
-            var29 = var1;
-            var28 = var17;
-            var17 = copyDataProperties(var29, var28);
+            var30 = var1;
+            var29 = var17;
+            var17 = copyDataProperties(var30, var29);
             var17 = _closure1_slot5;
             var22 = var17.GUILD_PROFILE_INVITE;
             var17 = 'extendedType';
@@ -648,34 +643,34 @@ case 72:
             var1[var17] = var19;
             var17 = var3 == var11;
             var19 = undefined;
-            if(var17) { _fun0001_ip = 82; continue _fun0001 }
-case 83:
-            var19 = var11.name;
+            if(var17) { _fun0001_ip = 81; continue _fun0001 }
 case 82:
+            var19 = var11.name;
+case 81:
             var17 = 'titleText';
             var1[var17] = var19;
             var19 = var3 != var15;
             var17 = undefined;
-            if(!var19) { _fun0001_ip = 84; continue _fun0001 }
-case 85:
-            var17 = var15;
+            if(!var19) { _fun0001_ip = 83; continue _fun0001 }
 case 84:
+            var17 = var15;
+case 83:
             var15 = 'thumbnailUrl';
             var1[var15] = var17;
             var15 = 'thumbnailText';
             var1[var15] = var16;
             var16 = var3 == var11;
             var15 = undefined;
-            if(var16) { _fun0001_ip = 86; continue _fun0001 }
-case 87:
-            var15 = var11.description;
+            if(var16) { _fun0001_ip = 85; continue _fun0001 }
 case 86:
+            var15 = var11.description;
+case 85:
             var17 = var3 != var15;
             var16 = '';
-            if(!var17) { _fun0001_ip = 88; continue _fun0001 }
-case 89:
-            var16 = var15;
+            if(!var17) { _fun0001_ip = 87; continue _fun0001 }
 case 88:
+            var16 = var15;
+case 87:
             var15 = 'bodyText';
             var1[var15] = var16;
             var16 = true;
@@ -684,18 +679,18 @@ case 88:
             var15 = 'canBeAccepted';
             var1[var15] = var16;
             var15 = var10.type;
-            if(!(var3 == var15)) { _fun0001_ip = 90; continue _fun0001 }
-case 91:
+            if(!(var3 == var15)) { _fun0001_ip = 89; continue _fun0001 }
+case 90:
             var10 = _closure1_slot7;
             var15 = var10.GUILD;
-case 90:
+case 89:
             var10 = 'type';
             var1[var10] = var15;
             var10 = 'inviteSplash';
             var1[var10] = var13;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var10 = 24;
+            var10 = 23;
             var16 = var15[var10];
             var17 = var13.bind(var7)(var16);
             var16 = var17.processColorOrThrow;
@@ -708,41 +703,41 @@ case 90:
             var13 = var10.bind(var13)(var14);
             var10 = 'bannerColorSecondary';
             var1[var10] = var13;
-            if(!(var3 == var9)) { _fun0001_ip = 92; continue _fun0001 }
-case 93:
-            var9 = new Array(0);
+            if(!(var3 == var9)) { _fun0001_ip = 91; continue _fun0001 }
 case 92:
+            var9 = new Array(0);
+case 91:
             var9 = var9.length;
             var10 = var9 > var5;
-            if(var10) { _fun0001_ip = 94; continue _fun0001 }
-case 95:
+            if(var10) { _fun0001_ip = 93; continue _fun0001 }
+case 94:
             var13 = var3 == var11;
             var9 = undefined;
-            if(var13) { _fun0001_ip = 96; continue _fun0001 }
-case 97:
-            var9 = var11.gameApplicationIds;
+            if(var13) { _fun0001_ip = 95; continue _fun0001 }
 case 96:
-            if(!(var3 == var9)) { _fun0001_ip = 98; continue _fun0001 }
-case 99:
-            var9 = new Array(0);
+            var9 = var11.gameApplicationIds;
+case 95:
+            if(!(var3 == var9)) { _fun0001_ip = 97; continue _fun0001 }
 case 98:
+            var9 = new Array(0);
+case 97:
             var9 = var9.length;
             var10 = var9 > var5;
-case 94:
+case 93:
             var9 = 'hasProfileOverflow';
             var1[var9] = var10;
             var9 = var3 != var12;
             var10 = undefined;
-            if(!var9) { _fun0001_ip = 100; continue _fun0001 }
-case 101:
+            if(!var9) { _fun0001_ip = 99; continue _fun0001 }
+case 100:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var9 = 25;
+            var9 = 24;
             var9 = var13[var9];
             var11 = var11.bind(var7)(var9);
             var9 = var11.getAssetUriForEmbed;
             var10 = var9.bind(var11)(var12);
-case 100:
+case 99:
             var9 = 'badgeIconUrl';
             var1[var9] = var10;
             var9 = var6.acceptLabelGreenBackgroundColor;
@@ -756,13 +751,13 @@ case 100:
             var1[var6] = var4;
             var6 = var3 != var4;
             var3 = undefined;
-            if(!var6) { _fun0001_ip = 102; continue _fun0001 }
-case 103:
+            if(!var6) { _fun0001_ip = 101; continue _fun0001 }
+case 102:
             var4 = var4.length;
             var4 = var4 > var5;
             var3 = undefined;
-            if(!var4) { _fun0001_ip = 102; continue _fun0001 }
-case 104:
+            if(!var4) { _fun0001_ip = 101; continue _fun0001 }
+case 103:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 15;
@@ -775,7 +770,7 @@ case 104:
             var2 = var2.t;
             var2 = var2.stcSfI;
             var3 = var4.bind(var5)(var2);
-case 102:
+case 101:
             var2 = 'rolesHeadingText';
             var1[var2] = var3;
             return var1;

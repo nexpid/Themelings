@@ -36,10 +36,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {'justifyContent': 'center', 'alignItems': 'center', 'minHeight': '100%'};
+    var11 = 24;
+    var10 = {'paddingTop': 24, 'justifyContent': 'center', 'alignItems': 'center'};
     var4['container'] = var10;
     var10 = {};
-    var11 = 24;
     var10['marginTop'] = var11;
     var4['textContainer'] = var10;
     var4 = var8.bind(var9)(var4);

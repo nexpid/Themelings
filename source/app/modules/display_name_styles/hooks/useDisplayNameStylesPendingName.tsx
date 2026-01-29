@@ -65,9 +65,9 @@ case 2:
             var10 = _closure1_slot3;
             var5 = new Array(3);
             var5[0] = var10;
-            var10 = _closure1_slot5;
+            var10 = _closure1_slot4;
             var5[1] = var10;
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot5;
             var5[2] = var4;
             var4 = new Array(2);
             var4[0] = var9;
@@ -79,9 +79,10 @@ case 0:
                     var8 = null;
                     if(!(var8 == var1)) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var2 = _closure1_slot5;
-                    var1 = var2.getPendingGlobalName;
+                    var2 = _closure1_slot4;
+                    var1 = var2.getPendingChanges;
                     var1 = var1.bind(var2)();
+                    var1 = var1.pendingGlobalName;
                     _fun0002_ip = 6; continue _fun0002;
 case 4:
                     var4 = _closure1_slot3;
@@ -89,7 +90,7 @@ case 4:
                     var2 = var2.bind(var4)();
                     if(!(var8 == var2)) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                    var6 = _closure1_slot4;
+                    var6 = _closure1_slot5;
                     var5 = var6.getNick;
                     var4 = _closure2_slot1;
                     var3 = _closure2_slot0;

@@ -28,13 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var5 = var5.AnalyticEvents;
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
-    var _closure1_slot6 = var5;
+    var _closure1_slot5 = var5;
     var5 = var4.window;
     var5 = var5.GLOBAL_ENV;
     var9 = var5.WEBAPP_ENDPOINT;
@@ -42,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var4.concat;
     var4 = 'https:';
     var4 = var5.bind(var4)(var9);
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = function HTML(arg1) {
         var1 = global;
         var4 = var1.JSON;
@@ -61,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var4, var1);
         return var1;
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -90,7 +85,7 @@ case 0:
             var11 = var14.useState;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var13 = 4;
+            var13 = 3;
             var8 = var12[var13];
             var8 = var15.bind(var5)(var8);
             var8 = var8.PlayerState;
@@ -105,7 +100,7 @@ case 0:
             var7 = var11[var7];
             var _closure2_slot3 = var7;
             var11 = _closure1_slot1;
-            var7 = 5;
+            var7 = 4;
             var14 = var12[var7];
             var14 = var11.bind(var5)(var14);
             var16 = var14.bind(var5)(var8);
@@ -129,17 +124,16 @@ case 2:
             var11 = _closure1_slot4;
             var15 = var11.useEffect;
             var14 = function() {
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 6;
-                var3 = var3[var1];
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
                 var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.track;
-                var2 = _closure1_slot5;
-                var3 = var2.MESSAGE_EMBEDS_ACTION_COMPLETED;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.MediaViewerAnalytics;
+                var3 = var4.trackMessageEmbedsActionCompleted;
                 var2 = {'platform': 'file', 'action': 'attempted'};
-                var2 = var4.bind(var5)(var3, var2);
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var7 = new Array(0);
@@ -289,7 +283,7 @@ case 52:
                     var4 = var5.onPlayerStateChange;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var7[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.PlayerState;
@@ -299,7 +293,7 @@ case 51:
                     var2 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var5[var1];
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.PlayerState;
@@ -324,7 +318,7 @@ case 56:
                     var4 = var5.onPlayerStateChange;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var7[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.PlayerState;
@@ -334,7 +328,7 @@ case 55:
                     var2 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var5[var1];
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.PlayerState;
@@ -359,7 +353,7 @@ case 60:
                     var4 = var5.onPlayerStateChange;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var7[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.PlayerState;
@@ -369,7 +363,7 @@ case 59:
                     var2 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var5[var1];
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.PlayerState;
@@ -394,7 +388,7 @@ case 64:
                     var4 = var5.onPlayerStateChange;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var7[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.PlayerState;
@@ -404,7 +398,7 @@ case 63:
                     var2 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var5[var1];
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.PlayerState;
@@ -412,25 +406,23 @@ case 63:
                     var1 = var2.bind(var3)(var1);
                     _fun0002_ip = 29; continue _fun0002;
 case 15:
-                    var3 = _closure2_slot3;
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var5[var2];
-                    var4 = undefined;
-                    var2 = var6.bind(var4)(var2);
-                    var2 = var2.PlayerState;
-                    var2 = var2.ERRORED;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = _closure1_slot1;
-                    var2 = 6;
-                    var2 = var5[var2];
-                    var4 = var3.bind(var4)(var2);
-                    var3 = var4.track;
-                    var1 = _closure1_slot5;
-                    var2 = var1.MESSAGE_EMBEDS_ACTION_COMPLETED;
-                    var1 = {'platform': 'file', 'error': 'unknown', 'action': 'errored'};
-                    var1 = var3.bind(var4)(var2, var1);
+                    var5 = _closure2_slot3;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 3;
+                    var1 = var4[var1];
+                    var2 = undefined;
+                    var1 = var3.bind(var2)(var1);
+                    var1 = var1.PlayerState;
+                    var1 = var1.ERRORED;
+                    var1 = var5.bind(var2)(var1);
+                    var1 = 5;
+                    var1 = var4[var1];
+                    var1 = var3.bind(var2)(var1);
+                    var3 = var1.MediaViewerAnalytics;
+                    var2 = var3.trackMessageEmbedsActionCompleted;
+                    var1 = {'platform': 'file', 'action': 'errored', 'error': 'unknown'};
+                    var1 = var2.bind(var3)(var1);
                     _fun0002_ip = 29; continue _fun0002;
 case 13:
                     var2 = _closure2_slot1;
@@ -450,7 +442,7 @@ case 68:
                     var4 = var5.onPlayerStateChange;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 3;
                     var2 = var7[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.PlayerState;
@@ -460,7 +452,7 @@ case 67:
                     var2 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var5[var1];
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.PlayerState;
@@ -471,7 +463,7 @@ case 11:
                     var3 = _closure2_slot3;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var2[var1];
                     var2 = undefined;
                     var1 = var4.bind(var2)(var1);
@@ -486,7 +478,7 @@ case 29:
             var7 = var7.bind(var11)(var2, var4);
             var11 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var4 = 7;
+            var4 = 6;
             var4 = var2[var4];
             var14 = var11.bind(var5)(var4);
             var11 = var14.useMediaPlayerMutedStore;
@@ -525,7 +517,7 @@ case 72:
                     var5 = _closure2_slot2;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 3;
                     var4 = var7[var4];
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.PlayerState;
@@ -554,7 +546,7 @@ case 75:
                     var5 = _closure2_slot4;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 3;
                     var4 = var7[var4];
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.PlayerState;
@@ -566,7 +558,7 @@ case 77:
                     var5 = _closure2_slot2;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var4 = 4;
+                    var4 = 3;
                     var4 = var7[var4];
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.PlayerState;
@@ -613,10 +605,10 @@ case 73:
                 }
             };
             var3 = var11.bind(var14)(var3, var4);
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot7;
             var3 = var1.uri;
             var11 = var4.bind(var5)(var3);
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var2 = var2[var13];
             var3 = var3.bind(var5)(var2);
@@ -625,7 +617,7 @@ case 73:
             var2['style'] = var10;
             var10 = {};
             var10['html'] = var11;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var10['baseUrl'] = var9;
             var2['source'] = var10;
             var2['baseURL'] = var9;
@@ -643,7 +635,7 @@ case 73:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 8;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -782,7 +774,7 @@ case 96:
                 var3 = _closure2_slot1;
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var7 = 4;
+                var7 = 3;
                 var1 = var1[var7];
                 var2 = undefined;
                 var1 = var6.bind(var2)(var1);

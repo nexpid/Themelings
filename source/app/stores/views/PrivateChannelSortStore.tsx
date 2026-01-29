@@ -433,10 +433,12 @@ case 34:
             var2 = var20[var11](var19, var18, var17, var16, var15, var14, var13, var12, var11);
             var3 = var4.syncWith;
             var5 = _closure1_slot15;
-            var2 = new Array(2);
+            var2 = new Array(3);
             var2[0] = var5;
             var5 = _closure1_slot8;
             var2[1] = var5;
+            var5 = _closure1_slot10;
+            var2[2] = var5;
             var1 = _closure1_slot25;
             var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;

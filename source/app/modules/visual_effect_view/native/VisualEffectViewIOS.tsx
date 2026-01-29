@@ -30,9 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var4];
     var4 = metroImportDefault;
     var5 = var4.bind(var1)(var5);
-    var4 = {};
-    var8 = 'DCDVisualEffectView';
-    var4['componentName'] = var8;
+    var4 = {'componentName': 'DCDVisualEffectView', 'generateOptionalProperties': true, 'generateOptionalObjectProperties': true};
     var4 = var5.bind(var1)(var4);
     var5 = 2;
     var5 = var7[var5];

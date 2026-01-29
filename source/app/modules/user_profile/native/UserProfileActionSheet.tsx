@@ -160,11 +160,11 @@ case 6:
             var6 = var2[var12];
             var9 = var4.bind(var5)(var6);
             var8 = var9.useStateFromStores;
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot9;
             var7 = new Array(1);
             var7[0] = var6;
             var6 = function() {
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot9;
                 var2 = var3.getUser;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
@@ -291,12 +291,12 @@ case 16:
             var4 = var13[var12];
             var17 = var7.bind(var5)(var4);
             var16 = var17.useStateFromStoresObject;
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot10;
             var6 = new Array(1);
             var6[0] = var4;
             var4 = function() {
-                var2 = _closure1_slot9;
-                var1 = var2.getAllPending;
+                var2 = _closure1_slot10;
+                var1 = var2.getPendingChanges;
                 var1 = var1.bind(var2)();
                 return var1;
             };

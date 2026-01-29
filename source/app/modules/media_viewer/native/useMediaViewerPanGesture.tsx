@@ -120,8 +120,9 @@ case 2:
                 var4 = _closure1_slot2;
                 var2 = 3;
                 var2 = var4[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.endMediaViewerSession;
+                var2 = var3.bind(var1)(var2);
+                var3 = var2.MediaViewerAnalytics;
+                var2 = var3.markSessionCompleted;
                 var2 = var2.bind(var3)();
                 return var1;
             }

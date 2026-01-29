@@ -150,8 +150,9 @@ case 2:
             var2[0] = var1;
             var1 = function() {
                 var2 = _closure1_slot7;
-                var1 = var2.getPendingAvatar;
+                var1 = var2.getPendingChanges;
                 var1 = var1.bind(var2)();
+                var1 = var1.pendingAvatar;
                 return var1;
             };
             var2 = var3.bind(var5)(var2, var1);

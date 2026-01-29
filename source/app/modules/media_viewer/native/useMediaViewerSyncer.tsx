@@ -400,8 +400,9 @@ case 14:
                                     var1 = 6;
                                     var2 = var6[var1];
                                     var4 = undefined;
-                                    var3 = var5.bind(var4)(var2);
-                                    var2 = var3.incrementMediaViewerAction;
+                                    var2 = var5.bind(var4)(var2);
+                                    var3 = var2.MediaViewerAnalytics;
+                                    var2 = var3.markActionPerformed;
                                     var1 = var6[var1];
                                     var1 = var5.bind(var4)(var1);
                                     var1 = var1.IncrementableMediaViewerActions;
@@ -414,8 +415,9 @@ case 11:
                                     var1 = 6;
                                     var2 = var6[var1];
                                     var4 = undefined;
-                                    var3 = var5.bind(var4)(var2);
-                                    var2 = var3.incrementMediaViewerAction;
+                                    var2 = var5.bind(var4)(var2);
+                                    var3 = var2.MediaViewerAnalytics;
+                                    var2 = var3.markActionPerformed;
                                     var1 = var6[var1];
                                     var1 = var5.bind(var4)(var1);
                                     var1 = var1.IncrementableMediaViewerActions;
@@ -427,8 +429,9 @@ case 13:
                                     var2 = 6;
                                     var3 = var6[var2];
                                     var1 = undefined;
-                                    var4 = var5.bind(var1)(var3);
-                                    var3 = var4.incrementMediaViewerAction;
+                                    var3 = var5.bind(var1)(var3);
+                                    var4 = var3.MediaViewerAnalytics;
+                                    var3 = var4.markActionPerformed;
                                     var2 = var6[var2];
                                     var2 = var5.bind(var1)(var2);
                                     var2 = var2.IncrementableMediaViewerActions;
@@ -442,7 +445,7 @@ case 13:
                             var11 = var14.bind(var8)(var6);
                             var7 = var11.useAnimatedScrollHandler;
                             var6 = {};
-                            var12 = function V() {
+                            var12 = function P() {
                                 var4 = _closure4_slot4;
                                 var3 = var4.set;
                                 var2 = var4.get;
@@ -726,7 +729,7 @@ case 27:
                             var11 = var16[var1];
                             var18 = var14.bind(var8)(var11);
                             var12 = var18.useDerivedValue;
-                            var11 = function E() {
+                            var11 = function V() {
                                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                                     var3 = _closure4_slot5;

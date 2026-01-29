@@ -81,6 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['WINDOWS_GRAPHICS_CAPTURE_BUILD'] = var6;
     var3['StreamTypes'] = var5;
     var3['STREAM_NOTIFY_GUILD_MAX_SIZE'] = var4;
+    var4 = 30;
+    var3['GO_LIVE_NOTIFY_FRIENDS_MIN_MEMBER_COUNT'] = var4;
     var3['BROWSER_EXECUTABLES'] = var2;
     return var1;
 })();
