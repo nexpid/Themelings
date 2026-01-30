@@ -22,6 +22,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MOBILE_HOME_DOCK_AREA'] = var5;
     var1 = 'MOBILE_HOME_DOCK_AREA';
     var2[var5] = var1;
+    var5 = 3;
+    var2['QUEST_HOME_BANNER_DESKTOP'] = var5;
+    var1 = 'QUEST_HOME_BANNER_DESKTOP';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

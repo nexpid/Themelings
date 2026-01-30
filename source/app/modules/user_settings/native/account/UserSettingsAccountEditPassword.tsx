@@ -779,143 +779,166 @@ case 47:
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeContext;
     var7['contextType'] = var4;
-    var4 = 29;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/native/account/UserSettingsAccountEditPassword.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function EditPasswordWrapper() {
-        var3 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var2 = 26;
-        var2 = var6[var2];
-        var4 = undefined;
-        var8 = var3.bind(var4)(var2);
-        var7 = var8.useStateFromStoresObject;
-        var2 = _closure1_slot13;
-        var5 = new Array(3);
-        var5[0] = var2;
-        var2 = _closure1_slot12;
-        var5[1] = var2;
-        var2 = _closure1_slot11;
-        var5[2] = var2;
-        var2 = function() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var2 = _closure1_slot13;
-                var1 = var2.getCurrentUser;
-                var8 = var1.bind(var2)();
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 18;
-                var1 = var3[var1];
-                var9 = undefined;
-                var2 = var2.bind(var9)(var1);
-                var1 = var2.getBannerText;
-                var1 = var1.bind(var2)(var8);
-                var6 = null;
-                var2 = var6 != var1;
-                var3 = _closure1_slot12;
-                var1 = var3.getErrors;
-                var11 = var1.bind(var3)();
-                var1 = var3.getSubmitting;
-                var10 = var1.bind(var3)();
-                var1 = var3.getSettings;
-                var7 = var1.bind(var3)();
-                var1 = var3.getOpenWithoutBackstack;
-                var4 = var1.bind(var3)();
-                if(var4) { _fun0010_ip = 49; continue _fun0010 }
-case 36:
-                var3 = _closure1_slot1;
-                var12 = _closure1_slot2;
-                var1 = 27;
-                var1 = var12[var1];
-                var12 = var3.bind(var9)(var1);
-                var3 = var6 != var8;
-                var1 = 'EditPasswordWrapper: user cannot be undefined';
-                var1 = var12.bind(var9)(var3, var1);
-case 49:
-                var1 = var6 == var8;
-                var14 = undefined;
-                if(var1) { _fun0010_ip = 50; continue _fun0010 }
-case 24:
-                var14 = var8.id;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 26;
+            var3 = var4[var3];
+            var4 = undefined;
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useSettingNavigationRoute;
+            var3 = var3.bind(var5)();
+            var6 = var3.params;
+            var3 = null;
+            var7 = var3 == var6;
+            var5 = undefined;
+            if(var7) { _fun0010_ip = 49; continue _fun0010 }
 case 50:
-                var3 = var6 != var14;
-                if(!var3) { _fun0010_ip = 51; continue _fun0010 }
+            var5 = var6.isLoginRequiredAction;
+case 49:
+            var3 = var3 != var5;
+            if(!var3) { _fun0010_ip = 51; continue _fun0010 }
 case 52:
-                var13 = _closure1_slot11;
-                var12 = var13.requiredActionsIncludes;
-                var1 = _closure1_slot15;
-                var15 = var1.UPDATE_PASSWORD;
-                var1 = new Array(1);
-                var1[0] = var15;
-                var3 = var12.bind(var13)(var14, var1);
+            var3 = var5;
 case 51:
-                var1 = {};
-                var1['errors'] = var11;
-                var1['submitting'] = var10;
-                var1['settings'] = var7;
-                var1['user'] = var8;
-                var10 = var6 == var8;
-                var7 = undefined;
-                if(var10) { _fun0010_ip = 53; continue _fun0010 }
-case 54:
-                var7 = var8.verified;
+            var _closure2_slot0 = var3;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var5 = 27;
+            var5 = var6[var5];
+            var8 = var3.bind(var4)(var5);
+            var7 = var8.useStateFromStoresObject;
+            var9 = _closure1_slot13;
+            var5 = new Array(3);
+            var5[0] = var9;
+            var9 = _closure1_slot12;
+            var5[1] = var9;
+            var9 = _closure1_slot11;
+            var5[2] = var9;
+            var2 = function() {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var2 = _closure1_slot13;
+                    var1 = var2.getCurrentUser;
+                    var8 = var1.bind(var2)();
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 18;
+                    var1 = var3[var1];
+                    var9 = undefined;
+                    var2 = var2.bind(var9)(var1);
+                    var1 = var2.getBannerText;
+                    var1 = var1.bind(var2)(var8);
+                    var6 = null;
+                    var2 = var6 != var1;
+                    var3 = _closure1_slot12;
+                    var1 = var3.getErrors;
+                    var11 = var1.bind(var3)();
+                    var1 = var3.getSubmitting;
+                    var10 = var1.bind(var3)();
+                    var1 = var3.getSettings;
+                    var7 = var1.bind(var3)();
+                    var1 = _closure2_slot0;
+                    if(var1) { _fun0011_ip = 53; continue _fun0011 }
+case 20:
+                    var3 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var1 = 28;
+                    var1 = var12[var1];
+                    var12 = var3.bind(var9)(var1);
+                    var3 = var6 != var8;
+                    var1 = 'EditPasswordWrapper: user cannot be undefined';
+                    var1 = var12.bind(var9)(var3, var1);
 case 53:
-                var6 = var6 != var7;
-                if(!var6) { _fun0010_ip = 55; continue _fun0010 }
+                    var1 = var6 == var8;
+                    var14 = undefined;
+                    if(var1) { _fun0011_ip = 24; continue _fun0011 }
+case 54:
+                    var14 = var8.id;
+case 24:
+                    var3 = var6 != var14;
+                    if(!var3) { _fun0011_ip = 55; continue _fun0011 }
 case 56:
-                var6 = var7;
+                    var13 = _closure1_slot11;
+                    var12 = var13.requiredActionsIncludes;
+                    var1 = _closure1_slot15;
+                    var15 = var1.UPDATE_PASSWORD;
+                    var1 = new Array(1);
+                    var1[0] = var15;
+                    var3 = var12.bind(var13)(var14, var1);
 case 55:
-                var1['verified'] = var6;
-                var8 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var5 = 21;
-                var6 = var10[var5];
-                var6 = var8.bind(var9)(var6);
-                var11 = var6.intl;
-                var7 = var11.string;
-                var6 = var10[var5];
-                var6 = var8.bind(var9)(var6);
-                var6 = var6.t;
-                var6 = var6.WBqMRQ;
-                var6 = var7.bind(var11)(var6);
-                var1['passwordLabel'] = var6;
-                var6 = var10[var5];
-                var6 = var8.bind(var9)(var6);
-                var7 = var6.intl;
-                var6 = var7.string;
-                var5 = var10[var5];
-                var5 = var8.bind(var9)(var5);
-                var5 = var5.t;
-                var5 = var5.8dM4FO;
-                var5 = var6.bind(var7)(var5);
-                var1['newPasswordLabel'] = var5;
-                if(!var3) { _fun0010_ip = 57; continue _fun0010 }
+                    var1 = {};
+                    var1['errors'] = var11;
+                    var1['submitting'] = var10;
+                    var1['settings'] = var7;
+                    var1['user'] = var8;
+                    var10 = var6 == var8;
+                    var7 = undefined;
+                    if(var10) { _fun0011_ip = 57; continue _fun0011 }
 case 58:
-                var3 = var4;
+                    var7 = var8.verified;
 case 57:
-                var1['showForcedPasswordUpdate'] = var3;
-                var1['hasBannerText'] = var2;
-                return var1;
-            }
-        };
-        var9 = var7.bind(var8)(var5, var2);
-        var2 = 28;
-        var2 = var6[var2];
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useNavigation;
-        var6 = var2.bind(var3)();
-        var3 = _closure1_slot16;
-        var2 = _closure1_slot20;
-        var1 = {};
-        var1['navigation'] = var6;
-        var10 = var1;
-        var5 = copyDataProperties(var10, var9);
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+                    var6 = var6 != var7;
+                    if(!var6) { _fun0011_ip = 59; continue _fun0011 }
+case 60:
+                    var6 = var7;
+case 59:
+                    var1['verified'] = var6;
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var5 = 21;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var11 = var6.intl;
+                    var7 = var11.string;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var6 = var6.t;
+                    var6 = var6.WBqMRQ;
+                    var6 = var7.bind(var11)(var6);
+                    var1['passwordLabel'] = var6;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var7 = var6.intl;
+                    var6 = var7.string;
+                    var5 = var10[var5];
+                    var5 = var8.bind(var9)(var5);
+                    var5 = var5.t;
+                    var5 = var5.8dM4FO;
+                    var5 = var6.bind(var7)(var5);
+                    var1['newPasswordLabel'] = var5;
+                    if(!var3) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
+                    var3 = _closure2_slot0;
+case 61:
+                    var1['showForcedPasswordUpdate'] = var3;
+                    var1['hasBannerText'] = var2;
+                    return var1;
+                }
+            };
+            var10 = var7.bind(var8)(var5, var2);
+            var2 = 29;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useNavigation;
+            var6 = var2.bind(var3)();
+            var3 = _closure1_slot16;
+            var2 = _closure1_slot20;
+            var1 = {};
+            var1['navigation'] = var6;
+            var11 = var1;
+            var5 = copyDataProperties(var11, var10);
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

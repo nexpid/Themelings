@@ -49,6 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['PLAYSTATION'] = var5;
     var1 = 'PLAYSTATION';
     var9[var5] = var1;
+    var5 = 4;
+    var9['QUEST'] = var5;
+    var1 = 'QUEST';
+    var9[var5] = var1;
     var8 = {};
     var1 = 'Context Menu';
     var8['CONTEXT_MENU'] = var1;

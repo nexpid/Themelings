@@ -4851,6 +4851,8 @@ case 106:
         var2 = {};
         var4 = 'INTERACTION_FAILURE';
         var2['type'] = var4;
+        var4 = var1.id;
+        var2['interactionId'] = var4;
         var4 = var1.nonce;
         var2['nonce'] = var4;
         var1 = var1.reason_code;
@@ -5910,6 +5912,28 @@ case 193:
         var2['user_id'] = var4;
         var1 = var1.application_id;
         var2['application_id'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_RESPONSE'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot27;
+        var2 = {};
+        var4 = 'SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_RESPONSE';
+        var2['type'] = var4;
+        var4 = var1.interaction_id;
+        var2['interactionId'] = var4;
+        var4 = var1.application_id;
+        var2['applicationId'] = var4;
+        var4 = var1.sku_id;
+        var2['skuId'] = var4;
+        var4 = var1.recipient_id;
+        var2['recipientId'] = var4;
+        var1 = var1.eligible;
+        var2['eligible'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

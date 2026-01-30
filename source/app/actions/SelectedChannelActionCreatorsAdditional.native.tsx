@@ -80,12 +80,18 @@ case 4:
 case 7:
             var1 = {};
 case 6:
-            var1 = var1.lockVoiceStateForResume;
-            if(!(var1 === var8)) { _fun0001_ip = 8; continue _fun0001 }
+            var3 = var1.lockVoiceStateForResume;
+            if(!(var3 === var8)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var1 = false;
+            var3 = false;
 case 8:
-            var _closure2_slot4 = var1;
+            var _closure2_slot4 = var3;
+            var1 = var1.bypassIdleUpdate;
+            if(!(var1 === var8)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var1 = false;
+case 10:
+            var _closure2_slot5 = var1;
             var6 = _closure1_slot3;
             var3 = var6.getChannel;
             var6 = var3.bind(var6)(var7);
@@ -93,18 +99,18 @@ case 8:
             var3 = var9.getCurrentUser;
             var9 = var3.bind(var9)();
             var3 = null;
-            if(!(var3 != var9)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-            if(!(var3 != var6)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var3 != var9)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
+            if(!(var3 != var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var10 = var6.nsfw;
-            if(!var10) { _fun0001_ip = 12; continue _fun0001 }
-case 14:
-            var9 = var9.nsfwAllowed;
-            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
-case 12:
-            if(!(var3 != var6)) { _fun0001_ip = 15; continue _fun0001 }
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
 case 16:
+            var9 = var9.nsfwAllowed;
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
+            if(!(var3 != var6)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 8;
@@ -119,8 +125,8 @@ case 16:
             var3 = var6.guild_id;
             var11 = var10.bind(var11)(var3);
             var3 = var11.canChat;
-            if(var3) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(var3) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var3 = 9;
@@ -128,8 +134,8 @@ case 18:
             var10 = var10.bind(var8)(var3);
             var3 = var10.canLurkerListen;
             var3 = var3.bind(var10)(var6);
-            if(var3) { _fun0001_ip = 17; continue _fun0001 }
-case 19:
+            if(var3) { _fun0001_ip = 19; continue _fun0001 }
+case 21:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var3 = 10;
@@ -138,7 +144,7 @@ case 19:
             var3 = var10.unverifiedVoiceGate;
             var3 = var3.bind(var10)(var11);
             return var3;
-case 17:
+case 19:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
             var3 = 11;
@@ -147,12 +153,12 @@ case 17:
             var3 = _closure1_slot6;
             var3 = var10.bind(var8)(var6, var3);
             var3 = !var3;
-            if(!var9) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(!var9) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var10 = var6.isGuildStageVoice;
             var10 = var10.bind(var6)();
-            if(!var10) { _fun0001_ip = 20; continue _fun0001 }
-case 22:
+            if(!var10) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var10 = 12;
@@ -161,12 +167,12 @@ case 22:
             var11 = var12.getStageHasMedia;
             var10 = var6.id;
             var10 = var11.bind(var12)(var10);
-            if(var10) { _fun0001_ip = 23; continue _fun0001 }
-case 20:
-            if(var9) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
-            if(var3) { _fun0001_ip = 24; continue _fun0001 }
-case 15:
+            if(var10) { _fun0001_ip = 25; continue _fun0001 }
+case 22:
+            if(var9) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            if(var3) { _fun0001_ip = 26; continue _fun0001 }
+case 17:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 16;
@@ -180,15 +186,15 @@ case 15:
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.v4;
-                var5 = var2.bind(var3)();
+                var6 = var2.bind(var3)();
                 var3 = _closure1_slot1;
                 var2 = 18;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.dispatch;
                 var2 = {};
-                var6 = 'VOICE_CHANNEL_SELECT';
-                var2['type'] = var6;
+                var5 = 'VOICE_CHANNEL_SELECT';
+                var2['type'] = var5;
                 var8 = _closure2_slot1;
                 var2['guildId'] = var8;
                 var8 = _closure2_slot0;
@@ -201,9 +207,11 @@ case 15:
                 var2['video'] = var7;
                 var7 = _closure2_slot3;
                 var2['stream'] = var7;
-                var6 = _closure2_slot4;
-                var2['lockVoiceStateForResume'] = var6;
-                var2['joinVoiceId'] = var5;
+                var7 = _closure2_slot4;
+                var2['lockVoiceStateForResume'] = var7;
+                var2['joinVoiceId'] = var6;
+                var5 = _closure2_slot5;
+                var2['bypassIdleUpdate'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
@@ -212,11 +220,11 @@ case 15:
             var14 = var4;
             var13 = var5;
             var2 = var17[var3](var16, var15, var14, var13, var12);
-case 10:
+case 12:
             return var8;
-case 24:
+case 26:
             return var8;
-case 23:
+case 25:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var3 = 13;

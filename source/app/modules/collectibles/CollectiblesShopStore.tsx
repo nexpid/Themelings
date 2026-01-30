@@ -212,7 +212,6 @@ case 11:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var1 = var1.item;
             var3 = var1.skuId;
             var1 = _closure1_slot5;
             if(!(var3 === var1)) { _fun0004_ip = 13; continue _fun0004 }

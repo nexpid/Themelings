@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.PX_32;
     var9['marginBottom'] = var12;
     var4['profilePreview'] = var9;
-    var9 = {'position': 'absolute', 'bottom': 0, 'right': 0, 'borderRadius': null, 'backgroundColor': null, 'borderWidth': 1};
+    var9 = {'position': 'absolute', 'bottom': 2, 'right': 0, 'borderRadius': null, 'backgroundColor': null, 'borderWidth': 1, 'borderColor': null, 'width': '70%', 'padding': 12};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.radii;
@@ -79,18 +79,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.colors;
     var12 = var12.BORDER_SUBTLE;
     var9['borderColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.shadows;
-    var15 = var12.SHADOW_HIGH;
-    var16 = var9;
-    var12 = copyDataProperties(var16, var15);
-    var13 = '70%';
-    var12 = 'width';
-    var9[var12] = var13;
-    var13 = 12;
-    var12 = 'padding';
-    var9[var12] = var13;
     var4['chat'] = var9;
     var9 = {'flexDirection': 'row', 'gap': 10};
     var4['messageRow'] = var9;

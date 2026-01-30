@@ -51,10 +51,7 @@ case 5:
 case 4:
             if(!(var5 === var1)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = {};
-            var3 = false;
-            var2['openWithoutBackstack'] = var3;
-            var5 = var2;
+            var5 = {};
 case 6:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;

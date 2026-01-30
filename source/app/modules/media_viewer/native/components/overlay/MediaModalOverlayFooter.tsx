@@ -1,4 +1,4 @@
-// app/modules/media_viewer/native/components/MediaModalFooter.tsx
+// app/modules/media_viewer/native/components/overlay/MediaModalOverlayFooter.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var11 = metroImportDefault;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = {};
-    var7 = 'function clamp_MediaModalFooterTsx1(value,min,max){return Math.max(Math.min(value,max),min);}';
+    var7 = 'function clamp_MediaModalOverlayFooterTsx1(value,min,max){return Math.max(Math.min(value,max),min);}';
     var4['code'] = var7;
     var _closure1_slot9 = var4;
     var4 = function() {
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2 = {};
         var1['__closure'] = var2;
-        var2 = 5979001871557.0;
+        var2 = 10219548303807.0;
         var1['__workletHash'] = var2;
         var2 = _closure1_slot9;
         var1['__initData'] = var2;
@@ -97,72 +97,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)();
     var _closure1_slot10 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx2(){const{animationState,NONE,isCollapsed}=this.__closure;animationState.set(NONE);isCollapsed.set(false);}';
+    var7 = 'function MediaModalOverlayFooterTsx2(){const{animationState,NONE,isCollapsed}=this.__closure;animationState.set(NONE);isCollapsed.set(false);}';
     var4['code'] = var7;
     var _closure1_slot11 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx3(){const{animationState,NONE,isCollapsed}=this.__closure;animationState.set(NONE);isCollapsed.set(true);}';
+    var7 = 'function MediaModalOverlayFooterTsx3(){const{animationState,NONE,isCollapsed}=this.__closure;animationState.set(NONE);isCollapsed.set(true);}';
     var4['code'] = var7;
     var _closure1_slot12 = var4;
     var4 = {};
-    var7 = "function MediaModalFooterTsx4(){const{minFooterHeight,animationState,DRAWER_PANNING,animationDriver,COLLAPSED,interpolate,EXPANDED,EXPANDED_MORE,expandedHeight,MAX_DRAWER_VERTICAL_DRAG}=this.__closure;return{height:minFooterHeight>0&&(animationState.get()===DRAWER_PANNING||animationDriver.get()!==COLLAPSED)?interpolate(animationDriver.get(),[COLLAPSED,EXPANDED,EXPANDED_MORE],[minFooterHeight,Math.max(expandedHeight,minFooterHeight),Math.max(expandedHeight,minFooterHeight)+MAX_DRAWER_VERTICAL_DRAG],'clamp'):undefined,justifyContent:'flex-start'};}";
+    var7 = "function MediaModalOverlayFooterTsx4(){const{minFooterHeight,animationState,DRAWER_PANNING,animationDriver,COLLAPSED,interpolate,EXPANDED,EXPANDED_MORE,expandedHeight,MAX_DRAWER_VERTICAL_DRAG}=this.__closure;return{height:minFooterHeight>0&&(animationState.get()===DRAWER_PANNING||animationDriver.get()!==COLLAPSED)?interpolate(animationDriver.get(),[COLLAPSED,EXPANDED,EXPANDED_MORE],[minFooterHeight,Math.max(expandedHeight,minFooterHeight),Math.max(expandedHeight,minFooterHeight)+MAX_DRAWER_VERTICAL_DRAG],'clamp'):undefined,justifyContent:'flex-start'};}";
     var4['code'] = var7;
     var _closure1_slot13 = var4;
     var4 = {};
-    var7 = "function MediaModalFooterTsx5(){const{interpolate,animationDriver,COLLAPSED,EXPANDED,thumbnailsElementHeight}=this.__closure;return{opacity:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[1,0],'clamp'),height:interpolate(animationDriver.get(),[EXPANDED,COLLAPSED],[0,thumbnailsElementHeight],'clamp')};}";
+    var7 = "function MediaModalOverlayFooterTsx5(){const{interpolate,animationDriver,COLLAPSED,EXPANDED,thumbnailsElementHeight}=this.__closure;return{opacity:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[1,0],'clamp'),height:interpolate(animationDriver.get(),[EXPANDED,COLLAPSED],[0,thumbnailsElementHeight],'clamp')};}";
     var4['code'] = var7;
     var _closure1_slot14 = var4;
     var4 = {};
-    var7 = "function MediaModalFooterTsx6(){const{interpolate,animationDriver,COLLAPSED,EXPANDED}=this.__closure;return{height:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[0,24],'clamp')};}";
+    var7 = "function MediaModalOverlayFooterTsx6(){const{interpolate,animationDriver,COLLAPSED,EXPANDED}=this.__closure;return{height:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[0,24],'clamp')};}";
     var4['code'] = var7;
     var _closure1_slot15 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx7(){const{r,g,b,interpolate,animationDriver,COLLAPSED,EXPANDED,a,DISMISSED}=this.__closure;return{backgroundColor:"rgba("+r+", "+g+", "+b+", "+interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[a,1],\'clamp\')+")",paddingVertical:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[8,0],\'clamp\'),transform:[{translateY:interpolate(animationDriver.get(),[DISMISSED,COLLAPSED],[100,0],\'clamp\')}]};}';
+    var7 = 'function MediaModalOverlayFooterTsx7(){const{r,g,b,interpolate,animationDriver,COLLAPSED,EXPANDED,a,DISMISSED}=this.__closure;return{backgroundColor:"rgba("+r+", "+g+", "+b+", "+interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[a,1],\'clamp\')+")",paddingVertical:interpolate(animationDriver.get(),[COLLAPSED,EXPANDED],[8,0],\'clamp\'),transform:[{translateY:interpolate(animationDriver.get(),[DISMISSED,COLLAPSED],[100,0],\'clamp\')}]};}';
     var4['code'] = var7;
     var _closure1_slot16 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx8(){const{runOnJS,onFullViewToggled}=this.__closure;runOnJS(onFullViewToggled)();}';
+    var7 = 'function MediaModalOverlayFooterTsx8(){const{runOnJS,onFullViewToggled}=this.__closure;runOnJS(onFullViewToggled)();}';
     var4['code'] = var7;
     var _closure1_slot17 = var4;
     var4 = {};
-    var7 = "function MediaModalFooterTsx9(){const{full,animationDriver,withTiming,DISMISSED,STANDARD_EASING,COLLAPSED,runOnJS,onFullViewToggled}=this.__closure;if(!full){animationDriver.set(withTiming(DISMISSED,{duration:350,easing:STANDARD_EASING},'respect-motion-settings',function(){animationDriver.set(COLLAPSED);}));}else{runOnJS(onFullViewToggled)();}}";
+    var7 = "function MediaModalOverlayFooterTsx9(){const{full,animationDriver,withTiming,DISMISSED,STANDARD_EASING,COLLAPSED,runOnJS,onFullViewToggled}=this.__closure;if(!full){animationDriver.set(withTiming(DISMISSED,{duration:350,easing:STANDARD_EASING},'respect-motion-settings',function(){animationDriver.set(COLLAPSED);}));}else{runOnJS(onFullViewToggled)();}}";
     var4['code'] = var7;
     var _closure1_slot18 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx10(){const{animationDriver,COLLAPSED}=this.__closure;animationDriver.set(COLLAPSED);}';
+    var7 = 'function MediaModalOverlayFooterTsx10(){const{animationDriver,COLLAPSED}=this.__closure;animationDriver.set(COLLAPSED);}';
     var4['code'] = var7;
     var _closure1_slot19 = var4;
     var4 = {};
-    var7 = "function MediaModalFooterTsx11(){const{animationDriver,COLLAPSE_DRAWER_ON_RELEASE,runOnJS,setFull,isCollapsed,COLLAPSED,animationState,withDelay,withTiming,NONE,STANDARD_EASING,EXPANDED}=this.__closure;if(animationDriver.get()<COLLAPSE_DRAWER_ON_RELEASE){runOnJS(setFull)(false);isCollapsed.set(true);if(animationDriver.get()===COLLAPSED){animationState.set(withDelay(150,withTiming(NONE,{duration:0})));}else{animationDriver.set(withTiming(COLLAPSED,{duration:150,easing:STANDARD_EASING},'respect-motion-settings',function(){animationState.set(NONE);}));}}else{runOnJS(setFull)(true);animationDriver.set(withTiming(EXPANDED,{duration:150,easing:STANDARD_EASING},'respect-motion-settings',function(){isCollapsed.set(false);animationState.set(NONE);}));}}";
+    var7 = "function MediaModalOverlayFooterTsx11(){const{animationDriver,COLLAPSE_DRAWER_ON_RELEASE,runOnJS,setFull,isCollapsed,COLLAPSED,animationState,withDelay,withTiming,NONE,STANDARD_EASING,EXPANDED}=this.__closure;if(animationDriver.get()<COLLAPSE_DRAWER_ON_RELEASE){runOnJS(setFull)(false);isCollapsed.set(true);if(animationDriver.get()===COLLAPSED){animationState.set(withDelay(150,withTiming(NONE,{duration:0})));}else{animationDriver.set(withTiming(COLLAPSED,{duration:150,easing:STANDARD_EASING},'respect-motion-settings',function(){animationState.set(NONE);}));}}else{runOnJS(setFull)(true);animationDriver.set(withTiming(EXPANDED,{duration:150,easing:STANDARD_EASING},'respect-motion-settings',function(){isCollapsed.set(false);animationState.set(NONE);}));}}";
     var4['code'] = var7;
     var _closure1_slot20 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx12({translationY:translationY}){const{animationState,DRAWER_PANNING,clamp,expandedHeight,thumbnailsElementHeight,collapsedHeight,COLLAPSED,EXPANDED,animationDriver,COLLAPSE_DRAWER_DURING_DRAG,runOnJS,setFull,DRAWER_VERTICAL_DRAG_RESISTANCE,MAX_DRAWER_VERTICAL_DRAG,EXPANDED_MORE}=this.__closure;animationState.set(DRAWER_PANNING);if(translationY>0){const animValue=clamp(1-translationY/Math.abs(expandedHeight-(thumbnailsElementHeight+collapsedHeight)),COLLAPSED,EXPANDED);animationDriver.set(animValue);if(animValue<COLLAPSE_DRAWER_DURING_DRAG){runOnJS(setFull)(false);}}else{const scrollAmount=clamp(-translationY/DRAWER_VERTICAL_DRAG_RESISTANCE,0,MAX_DRAWER_VERTICAL_DRAG);animationDriver.set(EXPANDED+(EXPANDED_MORE-EXPANDED)*scrollAmount/MAX_DRAWER_VERTICAL_DRAG);}}';
+    var7 = 'function MediaModalOverlayFooterTsx12({translationY:translationY}){const{animationState,DRAWER_PANNING,clamp,expandedHeight,thumbnailsElementHeight,collapsedHeight,COLLAPSED,EXPANDED,animationDriver,COLLAPSE_DRAWER_DURING_DRAG,runOnJS,setFull,DRAWER_VERTICAL_DRAG_RESISTANCE,MAX_DRAWER_VERTICAL_DRAG,EXPANDED_MORE}=this.__closure;animationState.set(DRAWER_PANNING);if(translationY>0){const animValue=clamp(1-translationY/Math.abs(expandedHeight-(thumbnailsElementHeight+collapsedHeight)),COLLAPSED,EXPANDED);animationDriver.set(animValue);if(animValue<COLLAPSE_DRAWER_DURING_DRAG){runOnJS(setFull)(false);}}else{const scrollAmount=clamp(-translationY/DRAWER_VERTICAL_DRAG_RESISTANCE,0,MAX_DRAWER_VERTICAL_DRAG);animationDriver.set(EXPANDED+(EXPANDED_MORE-EXPANDED)*scrollAmount/MAX_DRAWER_VERTICAL_DRAG);}}';
     var4['code'] = var7;
     var _closure1_slot21 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx13(){const{animationState,NONE}=this.__closure;animationState.set(NONE);}';
+    var7 = 'function MediaModalOverlayFooterTsx13(){const{animationState,NONE}=this.__closure;animationState.set(NONE);}';
     var4['code'] = var7;
     var _closure1_slot22 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx14(){const{isCollapsed,animationState,NONE}=this.__closure;isCollapsed.set(false);animationState.set(NONE);}';
+    var7 = 'function MediaModalOverlayFooterTsx14(){const{isCollapsed,animationState,NONE}=this.__closure;isCollapsed.set(false);animationState.set(NONE);}';
     var4['code'] = var7;
     var _closure1_slot23 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx15(){const{overlayEnabled,animationDriver}=this.__closure;return[overlayEnabled.get(),animationDriver.get()];}';
+    var7 = 'function MediaModalOverlayFooterTsx15(){const{overlayEnabled,animationDriver}=this.__closure;return[overlayEnabled.get(),animationDriver.get()];}';
     var4['code'] = var7;
     var _closure1_slot24 = var4;
     var4 = {};
-    var7 = 'function MediaModalFooterTsx16([overlayEnabledValue,animationDriverValue]){const{DISMISSED_HIDE_OVERLAY,overlayEnabled}=this.__closure;if(overlayEnabledValue&&animationDriverValue<DISMISSED_HIDE_OVERLAY){overlayEnabled.set(false);}}';
+    var7 = 'function MediaModalOverlayFooterTsx16([overlayEnabledValue,animationDriverValue]){const{DISMISSED_HIDE_OVERLAY,overlayEnabled}=this.__closure;if(overlayEnabledValue&&animationDriverValue<DISMISSED_HIDE_OVERLAY){overlayEnabled.set(false);}}';
     var4['code'] = var7;
     var _closure1_slot25 = var4;
     var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_viewer/native/components/MediaModalFooter.tsx';
+    var4 = 'modules/media_viewer/native/components/overlay/MediaModalOverlayFooter.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function MediaModalFooter(arg1) {
+    var2 = function MediaModalOverlayFooter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var33 = arg1;
@@ -325,7 +325,7 @@ case 4:
                 var11 = _closure2_slot4;
                 var10['isCollapsed'] = var11;
                 var5['__closure'] = var10;
-                var10 = 1575046851876.0;
+                var10 = 8443967716862.0;
                 var5['__workletHash'] = var10;
                 var2 = _closure1_slot11;
                 var5['__initData'] = var2;
@@ -390,7 +390,7 @@ case 4:
                 var11 = _closure2_slot4;
                 var10['isCollapsed'] = var11;
                 var5['__closure'] = var10;
-                var10 = 17032094274254.0;
+                var10 = 12593758327764.0;
                 var5['__workletHash'] = var10;
                 var2 = _closure1_slot12;
                 var5['__initData'] = var2;
@@ -561,7 +561,7 @@ case 13:
             var19 = 40;
             var18['MAX_DRAWER_VERTICAL_DRAG'] = var19;
             var8['__closure'] = var18;
-            var18 = 10407751881477.0;
+            var18 = 10727625692479.0;
             var8['__workletHash'] = var18;
             var18 = _closure1_slot13;
             var8['__initData'] = var18;
@@ -614,7 +614,7 @@ case 13:
             var19['EXPANDED'] = var10;
             var19['thumbnailsElementHeight'] = var3;
             var8['__closure'] = var19;
-            var19 = 5537817138933.0;
+            var19 = 9896169174287.0;
             var8['__workletHash'] = var19;
             var19 = _closure1_slot14;
             var8['__initData'] = var19;
@@ -691,7 +691,7 @@ case 20:
             var18['COLLAPSED'] = var7;
             var18['EXPANDED'] = var10;
             var6['__closure'] = var18;
-            var18 = 335276717970.0;
+            var18 = 13288648164744.0;
             var6['__workletHash'] = var18;
             var18 = _closure1_slot15;
             var6['__initData'] = var18;
@@ -714,7 +714,7 @@ case 20:
             var6 = var34[var2];
             var22 = var36.bind(var4)(var6);
             var8 = var22.useAnimatedStyle;
-            var6 = function ie() {
+            var6 = function ae() {
                 var1 = {};
                 var15 = _closure2_slot18;
                 var14 = _closure2_slot19;
@@ -801,7 +801,7 @@ case 20:
             var25['a'] = var39;
             var25['DISMISSED'] = var38;
             var6['__closure'] = var25;
-            var25 = 12922395281227.0;
+            var25 = 1645059598385.0;
             var6['__workletHash'] = var25;
             var25 = _closure1_slot16;
             var6['__initData'] = var25;
@@ -865,7 +865,7 @@ case 0:
                     var7 = _closure2_slot17;
                     var6['onFullViewToggled'] = var7;
                     var1['__closure'] = var6;
-                    var6 = 13184616199236.0;
+                    var6 = 1612404502942.0;
                     var1['__workletHash'] = var6;
                     var5 = _closure1_slot17;
                     var1['__initData'] = var5;
@@ -948,7 +948,7 @@ case 25:
                         var6 = 0;
                         var3['COLLAPSED'] = var6;
                         var7['__closure'] = var3;
-                        var3 = 5094896561072.0;
+                        var3 = 15839049590506.0;
                         var7['__workletHash'] = var3;
                         var3 = _closure1_slot19;
                         var7['__initData'] = var3;
@@ -1003,7 +1003,7 @@ case 26:
                 var7 = _closure2_slot17;
                 var6['onFullViewToggled'] = var7;
                 var2['__closure'] = var6;
-                var6 = 1169562879709.0;
+                var6 = 16686210274151.0;
                 var2['__workletHash'] = var6;
                 var5 = _closure1_slot18;
                 var2['__initData'] = var5;
@@ -1144,7 +1144,7 @@ case 29:
                 var13['MAX_DRAWER_VERTICAL_DRAG'] = var15;
                 var13['EXPANDED_MORE'] = var14;
                 var3['__closure'] = var13;
-                var13 = 16339744517107.0;
+                var13 = 7012168718409.0;
                 var3['__workletHash'] = var13;
                 var13 = _closure1_slot21;
                 var3['__initData'] = var13;
@@ -1204,7 +1204,7 @@ case 28:
                         var11 = -1;
                         var6['NONE'] = var11;
                         var7['__closure'] = var6;
-                        var6 = 16190202446931.0;
+                        var6 = 8502240261161.0;
                         var7['__workletHash'] = var6;
                         var1 = _closure1_slot23;
                         var7['__initData'] = var1;
@@ -1268,7 +1268,7 @@ case 34:
                         var13 = -1;
                         var3['NONE'] = var13;
                         var9['__closure'] = var3;
-                        var3 = 15055952593299.0;
+                        var3 = 15486611138793.0;
                         var9['__workletHash'] = var3;
                         var3 = _closure1_slot22;
                         var9['__initData'] = var3;
@@ -1338,7 +1338,7 @@ case 32:
                 var6['STANDARD_EASING'] = var8;
                 var6['EXPANDED'] = var7;
                 var2['__closure'] = var6;
-                var6 = 17361575668407.0;
+                var6 = 16268892990477.0;
                 var2['__workletHash'] = var6;
                 var5 = _closure1_slot20;
                 var2['__initData'] = var5;
@@ -1369,11 +1369,11 @@ case 32:
             var2['overlayEnabled'] = var35;
             var2['animationDriver'] = var20;
             var3['__closure'] = var2;
-            var2 = 8210454268504.0;
+            var2 = 12659996728578.0;
             var3['__workletHash'] = var2;
             var2 = _closure1_slot24;
             var3['__initData'] = var2;
-            var2 = function ae(arg1) {
+            var2 = function ie(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var6 = arg1;
@@ -1425,7 +1425,7 @@ case 43:
             var16['DISMISSED_HIDE_OVERLAY'] = var37;
             var16['overlayEnabled'] = var35;
             var2['__closure'] = var16;
-            var16 = 9944460899669.0;
+            var16 = 11470550406895.0;
             var2['__workletHash'] = var16;
             var16 = _closure1_slot25;
             var2['__initData'] = var16;
@@ -1566,6 +1566,6 @@ case 45:
             return var1;
         }
     };
-    var3['default'] = var2;
+    var3['MediaModalOverlayFooter'] = var2;
     return var1;
 })();

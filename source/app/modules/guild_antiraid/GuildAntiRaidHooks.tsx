@@ -863,10 +863,10 @@ case 96:
             var2 = var4 > var3;
 case 95:
             var1['dmsDisabled'] = var2;
-            _fun0012_ip = 6; continue _fun0012;
+            _fun0012_ip = 97; continue _fun0012;
 case 88:
             var1 = {'dmsDisabled': false, 'invitesDisabled': false};
-case 6:
+case 97:
             return var1;
         }
     };

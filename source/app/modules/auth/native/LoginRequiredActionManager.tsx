@@ -198,6 +198,10 @@ case 13:
                 var5 = _closure1_slot12;
                 var5 = var5.ACCOUNT_CHANGE_PASSWORD;
                 var1['screen'] = var5;
+                var5 = {};
+                var6 = true;
+                var5['isLoginRequiredAction'] = var6;
+                var1['params'] = var5;
                 var4 = function onClose() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:

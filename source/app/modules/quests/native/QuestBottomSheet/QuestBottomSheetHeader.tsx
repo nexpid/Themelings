@@ -482,6 +482,17 @@ case 35:
             var7 = {};
             var15 = 'button';
             var7['accessibilityRole'] = var15;
+            var15 = 11;
+            var16 = var14[var15];
+            var16 = var11.bind(var4)(var16);
+            var17 = var16.intl;
+            var16 = var17.string;
+            var15 = var14[var15];
+            var15 = var11.bind(var4)(var15);
+            var15 = var15.t;
+            var15 = var15.UKOtz+;
+            var15 = var16.bind(var17)(var15);
+            var7['accessibilityLabel'] = var15;
             var7['onPress'] = var13;
             var10 = var10.actionSheetButton;
             var7['style'] = var10;

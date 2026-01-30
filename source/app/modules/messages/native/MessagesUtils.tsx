@@ -452,7 +452,7 @@ case 68:
 case 47:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var6 = 44;
+                    var6 = 41;
                     var6 = var10[var6];
                     var10 = var8.bind(var2)(var6);
                     var8 = var10.scrollTo;
@@ -480,7 +480,7 @@ case 69:
 case 67:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 45;
+                    var3 = 42;
                     var3 = var6[var3];
                     var6 = var5.bind(var2)(var3);
                     var5 = var6.fetchMessages;
@@ -612,7 +612,7 @@ case 63:
     var _closure1_slot20 = var11;
     var8 = var8.MAX_MESSAGES_PER_CHANNEL;
     var _closure1_slot21 = var8;
-    var8 = 51;
+    var8 = 48;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -1514,39 +1514,13 @@ case 78:
         }
     };
     var3['handleTapTableView'] = var4;
-    var4 = function handleTapShowAltText(arg1) {
-        var5 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 40;
-        var4 = var2[var1];
-        var1 = undefined;
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
-        var4 = _closure1_slot0;
-        var3 = 42;
-        var3 = var2[var3];
-        var4 = var4.bind(var1)(var3);
-        var3 = 41;
-        var3 = var2[var3];
-        var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var3 = {};
-        var2 = arg1;
-        var3['description'] = var2;
-        var2 = true;
-        var3['showBackdrop'] = var2;
-        var2 = 'MediaViewerAltTextSheet';
-        var2 = var5.bind(var6)(var4, var2, var3);
-        return var1;
-    };
-    var3['handleTapShowAltText'] = var4;
     var4 = function handleMediaPlayFinishedAnalytics(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var7 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 43;
+            var1 = 40;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -1612,7 +1586,7 @@ case 184:
             var2 = var2.bind(var1)(var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 44;
+            var2 = 41;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.scrollToBottom;
@@ -1639,7 +1613,7 @@ case 173:
 case 184:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 44;
+            var2 = 41;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.scrollToTop;
@@ -1666,7 +1640,7 @@ case 173:
 case 184:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 44;
+            var2 = 41;
             var2 = var4[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.scrollToRelativeOffset;
@@ -1695,7 +1669,7 @@ case 0:
 case 188:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 44;
+            var2 = 41;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -1752,7 +1726,7 @@ case 33:
 case 62:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 45;
+            var2 = 42;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.fetchMessages;
@@ -1795,7 +1769,7 @@ case 33:
 case 62:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 45;
+            var2 = 42;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.fetchMessages;
@@ -1837,7 +1811,7 @@ case 190:
         var3 = var5.bind(var1)(var4, var3, var6);
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var2 = 44;
+        var2 = 41;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.clearRows;
@@ -1859,7 +1833,7 @@ case 190:
         var3['lastVisibleMessagePercentVisible'] = var1;
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 46;
+        var1 = 43;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -1883,7 +1857,7 @@ case 190:
         var3['lastVisibleMessagePercentVisible'] = var1;
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 46;
+        var1 = 43;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -1954,7 +1928,7 @@ case 0:
 case 193:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 45;
+            var2 = 42;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -1981,7 +1955,7 @@ case 40:
 case 196:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 45;
+            var1 = 42;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -2018,7 +1992,7 @@ case 0:
             var3 = var1.loadMoreBefore;
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 47;
+            var1 = 44;
             var12 = var12[var1];
             var1 = undefined;
             var15 = var13.bind(var1)(var12);
@@ -2085,7 +2059,7 @@ case 200:
 case 205:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var5 = 44;
+            var5 = 41;
             var5 = var8[var5];
             var8 = var7.bind(var1)(var5);
             var7 = var8.scrollTo;
@@ -2096,7 +2070,7 @@ case 207:
             var12 = var11.jumpType;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var11 = 48;
+            var11 = 45;
             var11 = var14[var11];
             var11 = var13.bind(var1)(var11);
             var11 = var11.JumpTypes;
@@ -2116,7 +2090,7 @@ case 197:
             var5 = var4.bind(var5)(var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 45;
+            var2 = 42;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.jumpToMessage;
@@ -2166,7 +2140,7 @@ case 210:
             var7['jumpTargetId'] = var2;
             var12 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 48;
+            var8 = 45;
             var11 = var2[var8];
             var2 = undefined;
             var11 = var12.bind(var2)(var11);
@@ -2194,7 +2168,7 @@ case 214:
                 var2['jumpTargetId'] = var1;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 48;
+                var1 = 45;
                 var4 = var4[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
@@ -2259,7 +2233,7 @@ case 7:
 case 185:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 48;
+            var5 = 45;
             var5 = var7[var5];
             var5 = var6.bind(var1)(var5);
             var5 = var5.JumpTypes;
@@ -2299,7 +2273,7 @@ case 220:
                     var4['focusTargetId'] = var3;
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var3 = 48;
+                    var3 = 45;
                     var3 = var9[var3];
                     var3 = var7.bind(var1)(var3);
                     var3 = var3.JumpTypes;
@@ -2314,7 +2288,7 @@ case 219:
 case 215:
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 44;
+                    var2 = 41;
                     var2 = var10[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.scrollTo;
@@ -2323,7 +2297,7 @@ case 215:
                     var2 = {};
                     var8 = _closure2_slot5;
                     var9 = _closure1_slot0;
-                    var7 = 48;
+                    var7 = 45;
                     var7 = var10[var7];
                     var7 = var9.bind(var1)(var7);
                     var7 = var7.JumpTypes;
@@ -2382,7 +2356,7 @@ case 11:
 case 44:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 49;
+            var1 = 46;
             var1 = var8[var1];
             var10 = var2.bind(var7)(var1);
             var9 = var10.questsVisibleMobileMessagesChanged;
@@ -2390,7 +2364,7 @@ case 44:
             var1['visibleMessages'] = var3;
             var1['source'] = var12;
             var1 = var9.bind(var10)(var1);
-            var1 = 50;
+            var1 = 47;
             var9 = var8[var1];
             var10 = var2.bind(var7)(var9);
             var9 = var10.handleAnnouncementMessageViewTracking;

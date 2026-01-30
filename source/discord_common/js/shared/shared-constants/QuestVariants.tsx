@@ -146,6 +146,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MOBILE_ACTIVITY_QUEST'] = var4;
     var1 = 'MOBILE_ACTIVITY_QUEST';
     var2[var4] = var1;
+    var4 = 37;
+    var2['QUEST_BAR_UNFURL'] = var4;
+    var1 = 'QUEST_BAR_UNFURL';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

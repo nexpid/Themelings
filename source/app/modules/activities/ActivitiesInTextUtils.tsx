@@ -203,7 +203,7 @@ case 19:
     };
     var3['useIsActivitiesInTextEnabled'] = var5;
     var3['getIsAppLauncherEnabled'] = var4;
-    var4 = function useIsAppLauncherEnabled(arg1) {
+    var2 = function useIsAppLauncherEnabled(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -237,11 +237,6 @@ case 21:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useIsAppLauncherEnabled'] = var4;
-    var2 = function useShowActivitiesInOmniButtonMenu() {
-        var1 = false;
-        return var1;
-    };
-    var3['useShowActivitiesInOmniButtonMenu'] = var2;
+    var3['useIsAppLauncherEnabled'] = var2;
     return var1;
 })();

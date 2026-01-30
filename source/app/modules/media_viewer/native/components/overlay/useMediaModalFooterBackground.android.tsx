@@ -1,4 +1,4 @@
-// app/modules/media_viewer/native/components/footer/useMediaModalFooterBackground.android.tsx
+// app/modules/media_viewer/native/components/overlay/useMediaModalFooterBackground.android.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_viewer/native/components/footer/useMediaModalFooterBackground.android.tsx';
+    var4 = 'modules/media_viewer/native/components/overlay/useMediaModalFooterBackground.android.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useMediaModalFooterBackground() {
         var10 = _closure1_slot1;

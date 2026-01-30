@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.VerticalGradient;
+    var4 = var4.HorizontalGradient;
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];

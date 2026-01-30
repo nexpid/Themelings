@@ -8163,14 +8163,15 @@ case 946:
                 var1 = arg1;
                 var1 = var1.nativeEvent;
                 var4 = var1.description;
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 82;
+                var1 = 101;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.handleTapShowAltText;
-                var2 = var2.bind(var3)(var4);
+                var2 = {};
+                var2['description'] = var4;
+                var2 = var3.bind(var1)(var2);
                 return var1;
             };
             var13 = new Array(0);
@@ -8183,7 +8184,7 @@ case 946:
             var3 = function(arg1) {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 101;
+                var1 = 102;
                 var2 = var4[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -8413,7 +8414,7 @@ case 385:
             var8 = _closure1_slot59;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 102;
+            var5 = 103;
             var5 = var10[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
@@ -8601,7 +8602,7 @@ case 385:
             var5 = new Array(2);
             var5[0] = var7;
             var7 = _closure1_slot0;
-            var6 = 103;
+            var6 = 104;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ChatTTITracker;
@@ -8617,7 +8618,7 @@ case 385:
     var2 = var4.bind(var7)(var2);
     var4 = 'MessagesFunctional';
     var2['displayName'] = var4;
-    var4 = 104;
+    var4 = 105;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1,4 +1,4 @@
-// app/modules/media_viewer/native/components/MediaModalHeader.tsx
+// app/modules/media_viewer/native/components/overlay/MediaModalOverlayHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -62,9 +62,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_viewer/native/components/MediaModalHeader.tsx';
+    var4 = 'modules/media_viewer/native/components/overlay/MediaModalOverlayHeader.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function MediaModalHeader(arg1) {
+    var2 = function MediaModalOverlayHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -345,6 +345,6 @@ case 6:
             return var1;
         }
     };
-    var3['MediaModalHeader'] = var2;
+    var3['MediaModalOverlayHeader'] = var2;
     return var1;
 })();
