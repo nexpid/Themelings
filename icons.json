@@ -3809,6 +3809,16 @@
         "width": 24,
         "height": 24
     },
+    "HeartOutlineIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/HeartOutlineIcon.png",
+        "hash": "bc060ab1a2ffbb1523413aed7cba76c0",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "hi": {
         "file": "discord_common/js/shared/images/flags/hi.png",
         "hash": "78cbfbf0381b8c7f5a192c4a46bd0b0e",
@@ -6413,6 +6423,16 @@
     "ic_volume_mute": {
         "file": "app/images/native/icons/ic_volume_mute.png",
         "hash": "6745fd4fca483fd68a467a63f7379a27",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ic_vr_headset_24px": {
+        "file": "app/images/native/icons/ic_vr_headset_24px.png",
+        "hash": "436501dcf3af209f85edbd0cde1cf184",
         "scales": [
             2,
             3
@@ -13062,6 +13082,16 @@
     "VoiceXIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VoiceXIcon.png",
         "hash": "263e74b5cef19733fe0997ef93692174",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "vr": {
+        "file": "app/modules/voice_panel/native/images/vr.png",
+        "hash": "e57414c7a7beaf43becfa6bd320e5461",
         "scales": [
             2,
             3
