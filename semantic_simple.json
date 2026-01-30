@@ -1127,6 +1127,18 @@
     "midnight": "#00000073",
     "darker": "#00000073"
   },
+  "PROGRESSBAR_INDICATOR_BACKGROUND": {
+    "dark": "#5865f2",
+    "light": "#5865f2",
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
+  },
+  "PROGRESSBAR_TRACK_BACKGROUND": {
+    "dark": "#4e50588a",
+    "light": "#80848e3d",
+    "midnight": "#6c6f7c2e",
+    "darker": "#6c6f7c3d"
+  },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
     "dark": "#949ba4",
     "light": "#80848e",

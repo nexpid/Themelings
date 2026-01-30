@@ -5639,6 +5639,66 @@
       }
     ]
   },
+  "PROGRESSBAR_INDICATOR_BACKGROUND": {
+    "dark": [
+      "#5865f2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865f2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865f2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865f2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
+  },
+  "PROGRESSBAR_TRACK_BACKGROUND": {
+    "dark": [
+      "#4e50588a",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.54
+      }
+    ],
+    "light": [
+      "#80848e3d",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#6c6f7c2e",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#6c6f7c3d",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ]
+  },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
     "dark": [
       "#949ba4",
