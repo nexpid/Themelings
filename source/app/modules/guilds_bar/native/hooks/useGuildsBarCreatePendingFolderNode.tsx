@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -265,7 +265,7 @@ case 0:
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot0;
-                    if(var1) { _fun0005_ip = 2; continue _fun0005 }
+                    if(var1) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -275,7 +275,7 @@ case 37:
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.fetchRequestToJoinGuilds;
                     var1 = var1.bind(var2)();
-case 2:
+case 36:
                     var1 = undefined;
                     return var1;
                 }
@@ -320,7 +320,7 @@ case 38:
             var4 = var5.bind(var7)();
             var1 = var4.done;
             if(var1) { _fun0004_ip = 40; continue _fun0004 }
-case 8:
+case 41:
             var13 = var4.value;
             var10 = var2.children;
             var9 = var10.push;
@@ -335,7 +335,7 @@ case 8:
             var9 = var5.bind(var7)();
             var1 = var9.done;
             var4 = var9;
-            if(!var1) { _fun0004_ip = 8; continue _fun0004 }
+            if(!var1) { _fun0004_ip = 41; continue _fun0004 }
 case 40:
             var1 = {};
             var1['expanded'] = var3;

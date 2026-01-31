@@ -97,6 +97,76 @@ case 4:
         }
     };
     var2['updateEstimate'] = var7;
+    var7 = function updateEstimateV2(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var3 = arguments[1];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
+            var3 = 7;
+case 2:
+            var _closure2_slot1 = var3;
+            var3 = arguments[2];
+            var _closure2_slot2 = var3;
+            var3 = _closure1_slot2;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 5:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot1;
+                        var2 = 2;
+                        var2 = var3[var2];
+                        var3 = undefined;
+                        var2 = var4.bind(var3)(var2);
+                        var5 = var2.HTTP;
+                        var4 = var5.get;
+                        var2 = {};
+                        var9 = _closure1_slot3;
+                        var8 = var9.GUILD_PRUNE_V2;
+                        var6 = _closure2_slot0;
+                        var6 = var8.bind(var9)(var6);
+                        var2['url'] = var6;
+                        var6 = {};
+                        var8 = _closure2_slot1;
+                        var6['days'] = var8;
+                        var7 = _closure2_slot2;
+                        var6['include_roles'] = var7;
+                        var2['query'] = var6;
+                        var6 = true;
+                        var2['oldFormErrors'] = var6;
+                        var6 = false;
+                        var2['rejectWithError'] = var6;
+                        var2 = var4.bind(var5)(var2);
+                        SaveGenerator(address=120);
+case 6:
+                        return var2;
+case 7:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0004_ip = 11; continue _fun0004 }
+case 9:
+                        return var3;
+case 11:
+                        return var2;
+case 10:
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
+        }
+    };
+    var2['updateEstimateV2'] = var7;
     var4 = function prune(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

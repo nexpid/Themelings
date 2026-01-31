@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -236,10 +236,10 @@ case 0:
                 var6 = arguments[1];
                 var2 = this;
                 var1 = undefined;
-                if(!(var6 === var1)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-                var6 = 1;
+                if(!(var6 === var1)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+                var6 = 1;
+case 36:
                 var4 = var2.total;
                 var3 = var7 * var6;
                 var3 = var4 + var3;
@@ -279,10 +279,10 @@ case 0:
                 var3 = arguments[0];
                 var2 = this;
                 var9 = undefined;
-                if(!(var3 === var9)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
-                var3 = [25, 50, 75, 90, 95];
+                if(!(var3 === var9)) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
+                var3 = [25, 50, 75, 90, 95];
+case 38:
                 var4 = {};
                 var1 = _closure1_slot4;
                 var8 = var1.bind(var9)(var3);
@@ -291,8 +291,8 @@ case 39:
                 var7 = 100;
                 var5 = null;
                 var3 = 0;
-                if(var1) { _fun0005_ip = 41; continue _fun0005 }
-case 36:
+                if(var1) { _fun0005_ip = 40; continue _fun0005 }
+case 4:
                 var10 = var6.value;
                 var12 = var2.digest;
                 var11 = var12.percentile;
@@ -300,26 +300,26 @@ case 36:
                 var11 = var11.bind(var12)(var1);
                 var12 = var5 != var11;
                 var1 = 0;
-                if(!var12) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
-                var1 = var11;
+                if(!var12) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
+                var1 = var11;
+case 41:
                 var4[var10] = var1;
                 var10 = var8.bind(var9)();
                 var1 = var10.done;
                 var6 = var10;
-                if(!var1) { _fun0005_ip = 36; continue _fun0005 }
-case 41:
+                if(!var1) { _fun0005_ip = 4; continue _fun0005 }
+case 40:
                 var1 = {};
                 var7 = var2.digest;
                 var6 = var7.percentile;
                 var7 = var6.bind(var7)(var3);
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-                var6 = var7;
+                if(!var8) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
+                var6 = var7;
+case 43:
                 var1['min'] = var6;
                 var8 = var2.digest;
                 var7 = var8.percentile;
@@ -327,31 +327,31 @@ case 44:
                 var7 = var7.bind(var8)(var6);
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                if(!var8) { _fun0005_ip = 16; continue _fun0005 }
+case 45:
                 var6 = var7;
-case 46:
+case 16:
                 var1['max'] = var6;
                 var7 = var2.digest;
                 var6 = var7.size;
                 var6 = var6.bind(var7)();
                 var7 = var5 != var6;
                 var5 = 0;
-                if(!var7) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+                if(!var7) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                 var5 = var6;
-case 48:
+case 46:
                 var1['count'] = var5;
                 var1['percentiles'] = var4;
                 var4 = var2.totalWeight;
                 var4 = var4 > var3;
                 var3 = 0;
-                if(!var4) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+                if(!var4) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                 var5 = var2.total;
                 var4 = var2.totalWeight;
                 var3 = var5 / var4;
-case 50:
+case 48:
                 var1['mean'] = var3;
                 var2 = var2.samples;
                 var1['samples'] = var2;

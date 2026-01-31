@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -215,8 +215,8 @@ case 35:
 case 0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                    if(!(var2 != var1)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var2 = var1.rtp;
                     var18 = var2.inbound;
                     var8 = undefined;
@@ -227,9 +227,9 @@ case 38:
                     var12 = undefined;
                     var11 = undefined;
                     for(var15 in var18)
-case 39:
+case 7:
                     {
-case 40:
+case 38:
                         var10 = var15;
                         var4 = _closure1_slot5;
                         var3 = var1.rtp;
@@ -238,8 +238,8 @@ case 40:
                         var9 = var4.bind(var8)(var3);
                         var4 = var9.bind(var8)();
                         var3 = var4.done;
-                        if(var3) { _fun0004_ip = 39; continue _fun0004 }
-case 41:
+                        if(var3) { _fun0004_ip = 7; continue _fun0004 }
+case 39:
                         var12 = var4.value;
                         var20 = var12.type;
                         var3 = var5.HermesInternal;
@@ -248,12 +248,12 @@ case 41:
                         var3 = _closure3_slot0;
                         var3 = var3.bytes;
                         var3 = var21 in var3;
-                        if(var3) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                        if(var3) { _fun0004_ip = 40; continue _fun0004 }
+case 15:
                         var3 = _closure3_slot0;
                         var3 = var3.bytes;
                         var3[var21] = var6;
-case 42:
+case 40:
                         var3 = _closure3_slot0;
                         var20 = var3.bytes;
                         var3 = var12.bytesReceived;
@@ -262,11 +262,11 @@ case 42:
                         var3 = var20.done;
                         var11 = var21;
                         var4 = var20;
-                        if(var3) { _fun0004_ip = 39; continue _fun0004 }
-case 44:
-                        _fun0004_ip = 41; continue _fun0004;
+                        if(var3) { _fun0004_ip = 7; continue _fun0004 }
+case 41:
+                        _fun0004_ip = 39; continue _fun0004;
                     }
-case 45:
+case 42:
                     var2 = _closure1_slot5;
                     var1 = var1.rtp;
                     var1 = var1.outbound;
@@ -274,8 +274,8 @@ case 45:
                     var2 = var4.bind(var8)();
                     var1 = var2.done;
                     var3 = 'outbound-';
-                    if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 46:
+                    if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 43:
                     var1 = var2.value;
                     var10 = var1.type;
                     var9 = var5.HermesInternal;
@@ -284,12 +284,12 @@ case 46:
                     var9 = _closure3_slot0;
                     var9 = var9.bytes;
                     var9 = var10 in var9;
-                    if(var9) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+                    if(var9) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                     var9 = _closure3_slot0;
                     var9 = var9.bytes;
                     var9[var10] = var6;
-case 47:
+case 44:
                     var9 = _closure3_slot0;
                     var9 = var9.bytes;
                     var1 = var1.bytesSent;
@@ -297,8 +297,8 @@ case 47:
                     var9 = var4.bind(var8)();
                     var1 = var9.done;
                     var2 = var9;
-                    if(!var1) { _fun0004_ip = 46; continue _fun0004 }
-case 37:
+                    if(!var1) { _fun0004_ip = 43; continue _fun0004 }
+case 36:
                     var1 = undefined;
                     return var1;
                 }

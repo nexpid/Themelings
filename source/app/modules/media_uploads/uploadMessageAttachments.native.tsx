@@ -31,7 +31,7 @@ case 3:
                     var3 = undefined;
                     var _closure4_slot3 = var3;
                     var _closure4_slot4 = var3;
-                    SaveGenerator(address=69);
+                    SaveGenerator(address=68);
 case 4:
                     return var3;
 case 5:
@@ -202,12 +202,12 @@ case 11:
                             var4 = var5 === var7;
 case 10:
                             if(!var4) { _fun0002_ip = 12; continue _fun0002 }
-case 7:
+case 13:
                             var5 = _closure4_slot3;
                             var4 = var5._aborted;
 case 12:
-                            if(!var4) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+                            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var3 = 4;
@@ -219,19 +219,19 @@ case 14:
                             var7 = 'MESSAGE_DELETE';
                             var3['type'] = var7;
                             var7 = var6.nonce;
-                            if(!(var8 == var7)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                            if(!(var8 == var7)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                             var7 = var6.id;
-case 15:
+case 16:
                             var3['id'] = var7;
                             var6 = var6.channel_id;
                             var3['channelId'] = var6;
                             var3 = var4.bind(var5)(var3);
-case 13:
+case 14:
                             var2 = _closure4_slot3;
                             var2 = var2._aborted;
-                            if(!var2) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                            if(!var2) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                             var2 = global;
                             var4 = var2.setTimeout;
                             var3 = undefined;
@@ -257,7 +257,7 @@ case 18:
                             };
                             var1 = 0;
                             var1 = var4.bind(var3)(var2, var1);
-case 17:
+case 18:
                             var1 = undefined;
                             return var1;
                         }
@@ -287,17 +287,17 @@ case 17:
                     var5 = {};
                     var4 = var6.uploadFiles;
                     var4 = var4.bind(var6)(var7);
-                    SaveGenerator(address=379);
-case 19:
-                    return var4;
+                    SaveGenerator(address=378);
 case 20:
+                    return var4;
+case 21:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+                    if(var7) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                     var5['attachments'] = var4;
                     var5['uploader'] = var6;
                     return var5;
-case 21:
+case 22:
                     return var4;
 case 8:
                     return var3;

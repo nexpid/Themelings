@@ -432,7 +432,7 @@ case 20:
         return var1;
     };
     var _closure1_slot25 = var4;
-    var4 = 57;
+    var4 = 56;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -847,7 +847,7 @@ case 31:
             var25 = var13.bind(var4)(var26, var25);
             var20['trailing'] = var25;
             var21 = var23.bind(var4)(var21, var20);
-            var20 = new Array(11);
+            var20 = new Array(10);
             var20[0] = var21;
             var21 = var17[var11];
             var21 = var16.bind(var4)(var21);
@@ -987,41 +987,9 @@ case 31:
             var21 = var16.bind(var4)(var21);
             var23 = var21.TableRow;
             var21 = {};
-            var26 = 'Launch Clicker Game';
-            var21['label'] = var26;
-            var26 = function onPress() {
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 51;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = 'devtools';
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var21['onPress'] = var26;
-            var26 = var17[var25];
-            var26 = var16.bind(var4)(var26);
-            var27 = var26.KeyIcon;
-            var26 = {};
-            var26 = var13.bind(var4)(var27, var26);
-            var21['icon'] = var26;
-            var26 = var17[var24];
-            var26 = var16.bind(var4)(var26);
-            var27 = var26.TableRowArrow;
-            var26 = {};
-            var26 = var13.bind(var4)(var27, var26);
-            var21['trailing'] = var26;
-            var21 = var13.bind(var4)(var23, var21);
-            var20[7] = var21;
-            var21 = var17[var11];
-            var21 = var16.bind(var4)(var21);
-            var23 = var21.TableRow;
-            var21 = {};
             var26 = 'Test captcha';
             var21['label'] = var26;
-            var26 = 52;
+            var26 = 51;
             var26 = var17[var26];
             var26 = var16.bind(var4)(var26);
             var26 = var26.showCaptchaTestModal;
@@ -1039,12 +1007,12 @@ case 31:
             var24 = var13.bind(var4)(var25, var24);
             var21['trailing'] = var24;
             var21 = var13.bind(var4)(var23, var21);
-            var20[8] = var21;
+            var20[7] = var21;
             var12 = var17[var12];
             var12 = var16.bind(var4)(var12);
             var21 = var12.TableSwitchRow;
             var12 = {'label': 'Ignored Profile Speedbump Suppression', 'subLabel': 'Suppresses the speedbump for ignored profiles.'};
-            var23 = 53;
+            var23 = 52;
             var23 = var17[var23];
             var23 = var16.bind(var4)(var23);
             var24 = var23.EyeSlashIcon;
@@ -1068,13 +1036,13 @@ case 31:
             };
             var12['onValueChange'] = var22;
             var12 = var13.bind(var4)(var21, var12);
-            var20[9] = var12;
+            var20[8] = var12;
             var12 = var17[var11];
             var12 = var16.bind(var4)(var12);
             var22 = var12.TableRow;
             var21 = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             var12 = _closure1_slot1;
-            var23 = 54;
+            var23 = 53;
             var23 = var17[var23];
             var23 = var12.bind(var4)(var23);
             var21['onPress'] = var23;
@@ -1085,7 +1053,7 @@ case 31:
             var23 = var13.bind(var4)(var24, var23);
             var21['icon'] = var23;
             var21 = var13.bind(var4)(var22, var21);
-            var20[10] = var21;
+            var20[9] = var21;
             var9['children'] = var20;
             var9 = var19.bind(var4)(var18, var9);
             var6[6] = var9;
@@ -1121,7 +1089,7 @@ case 31:
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 55;
+                var1 = 54;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1196,7 +1164,7 @@ case 31:
             var14 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 56;
+                var1 = 55;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);

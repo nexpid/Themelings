@@ -714,7 +714,7 @@ case 44:
             var3 = _closure1_slot11;
             var2 = _closure1_slot5;
             var1 = {};
-            var19 = 'imagebutton';
+            var19 = 'button';
             var1['accessibilityRole'] = var19;
             var1['accessibilityLabel'] = var17;
             var17 = {};
@@ -962,7 +962,7 @@ case 0:
             var2 = _closure1_slot12;
             var1 = {};
             var1['disabled'] = var9;
-            var14 = 'imagebutton';
+            var14 = 'button';
             var1['accessibilityRole'] = var14;
             var1['accessibilityLabel'] = var13;
             var13 = function onPressIn() {

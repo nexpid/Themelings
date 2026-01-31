@@ -499,36 +499,37 @@ case 22:
             var14 = function orbIconHook() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var4 = _closure1_slot11;
+                    var5 = _closure1_slot11;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 26;
                     var1 = var3[var1];
-                    var3 = undefined;
-                    var1 = var2.bind(var3)(var1);
-                    var2 = var1.OrbsIcon;
-                    var1 = {};
+                    var4 = undefined;
+                    var1 = var2.bind(var4)(var1);
+                    var3 = var1.OrbsIcon;
+                    var2 = {};
                     var7 = _closure2_slot2;
                     var7 = var7.orbsIcon;
-                    var1['style'] = var7;
+                    var2['style'] = var7;
                     var7 = 'sm';
-                    var1['size'] = var7;
-                    var5 = _closure2_slot3;
+                    var2['size'] = var7;
+                    var1 = _closure2_slot3;
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var6 = 9;
                     var6 = var8[var6];
-                    var6 = var7.bind(var3)(var6);
+                    var6 = var7.bind(var4)(var6);
                     var6 = var6.colors;
-                    if(var5) { _fun0004_ip = 23; continue _fun0004 }
+                    if(var1) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-                    var5 = var6.WHITE;
+                    var1 = var6.WHITE;
                     _fun0004_ip = 25; continue _fun0004;
 case 23:
-                    var5 = var6.INTERACTIVE_TEXT_ACTIVE;
+                    var1 = var6.INTERACTIVE_TEXT_ACTIVE;
 case 25:
-                    var1['color'] = var5;
-                    var1 = var4.bind(var3)(var2, var1);
+                    var2['color'] = var1;
+                    var1 = 'orbs-icon';
+                    var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
             };

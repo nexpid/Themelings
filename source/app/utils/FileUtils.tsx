@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -214,17 +214,17 @@ case 0:
             var3 = var1 == var5;
             var6 = undefined;
             var4 = undefined;
-            if(var3) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(var3) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var3 = var5.toLowerCase;
             var4 = var3.bind(var5)();
-case 37:
+case 36:
             var5 = var1 != var4;
             var3 = '';
-            if(!var5) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-            var3 = var4;
+            if(!var5) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
+            var3 = var4;
+case 38:
             _closure2_slot0 = var3;
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -239,19 +239,19 @@ case 0:
                     var3 = arg1;
                     var1 = var3.reType;
                     var4 = null;
-                    if(!(var4 != var1)) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-                    var1 = _closure2_slot1;
-                    if(!(var4 == var1)) { _fun0005_ip = 43; continue _fun0005 }
+                    if(!(var4 != var1)) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
+                    var1 = _closure2_slot1;
+                    if(!(var4 == var1)) { _fun0005_ip = 42; continue _fun0005 }
+case 40:
                     var1 = var3.reName;
                     var1 = var4 != var1;
-                    if(!var1) { _fun0005_ip = 4; continue _fun0005 }
-case 37:
+                    if(!var1) { _fun0005_ip = 43; continue _fun0005 }
+case 36:
                     var5 = _closure2_slot0;
                     var4 = '';
                     var1 = var4 !== var5;
-case 4:
+case 43:
                     if(!var1) { _fun0005_ip = 44; continue _fun0005 }
 case 45:
                     var6 = var3.reName;
@@ -260,7 +260,7 @@ case 45:
                     var1 = var5.bind(var6)(var4);
 case 44:
                     _fun0005_ip = 46; continue _fun0005;
-case 43:
+case 42:
                     var4 = var3.reType;
                     var3 = var4.test;
                     var2 = _closure2_slot1;
@@ -301,11 +301,11 @@ case 50:
             var5 = _closure1_slot3;
             var2 = var5.getGuild;
             var2 = var2.bind(var5)(var6);
-            if(!(var4 == var2)) { _fun0006_ip = 43; continue _fun0006 }
+            if(!(var4 == var2)) { _fun0006_ip = 42; continue _fun0006 }
 case 51:
             var4 = _closure1_slot5;
             _fun0006_ip = 52; continue _fun0006;
-case 43:
+case 42:
             var3 = _closure1_slot6;
             var2 = var2.premiumTier;
             var2 = var3[var2];

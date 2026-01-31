@@ -172,11 +172,11 @@ case 33:
                 var3 = 0;
                 var5 = var3 < var2;
                 if(!var5) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
+case 4:
                 var5 = var4[var3];
                 var1[var3] = var5;
                 var3 = var3 + 1;
-                if(var3 < var2) { _fun0004_ip = 36; continue _fun0004 }
+                if(var3 < var2) { _fun0004_ip = 4; continue _fun0004 }
 case 35:
                 return var1;
             }
@@ -222,16 +222,16 @@ case 35:
         var10 = var5.bind(var1)(var4);
         var4 = var10.isAndroid;
         var4 = var4.bind(var10)();
-        if(var4) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+        if(var4) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
         var4 = 'KeyCommandsView';
         var4 = var7.bind(var1)(var4);
-        _fun0001_ip = 39; continue _fun0001;
-case 37:
+        _fun0001_ip = 38; continue _fun0001;
+case 36:
         var7 = 5;
         var7 = var6[var7];
         var4 = var9.bind(var1)(var7);
-case 39:
+case 38:
         var _closure1_slot4 = var4;
         var7 = var8.createContext;
         var4 = {};
@@ -382,7 +382,7 @@ case 0:
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
                     if(!(var1 != var2)) { _fun0005_ip = 28; continue _fun0005 }
-case 2:
+case 39:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
 case 28:

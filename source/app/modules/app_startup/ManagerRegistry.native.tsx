@@ -800,7 +800,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['MessageCodedLinkManager'] = var1;
     var1 = {'actions': null, 'inlineRequire': null, 'neverLoadBeforeConnectionOpen': false, 'hasStoreChangeListeners': true, 'loadRightBeforeConnectionOpen': true};
-    var8 = ['APP_STATE_UPDATE', 'OVERLAY_INITIALIZE', 'CHANNEL_SELECT', 'VOICE_CHANNEL_SELECT', 'THREAD_CREATE', 'THREAD_LIST_SYNC', 'CHANNEL_CREATE', 'CHANNEL_PRELOAD', 'GUILD_CREATE', 'MESSAGE_END_EDIT', 'LOAD_MESSAGES_SUCCESS', 'UPLOAD_FAIL', 'CHANNEL_DELETE', 'THREAD_DELETE', 'CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE'];
+    var8 = ['APP_STATE_UPDATE', 'OVERLAY_INITIALIZE', 'CONNECTION_RESUMED', 'CHANNEL_SELECT', 'VOICE_CHANNEL_SELECT', 'THREAD_CREATE', 'THREAD_LIST_SYNC', 'CHANNEL_CREATE', 'CHANNEL_PRELOAD', 'GUILD_CREATE', 'MESSAGE_END_EDIT', 'LOAD_MESSAGES_SUCCESS', 'UPLOAD_FAIL', 'CHANNEL_DELETE', 'THREAD_DELETE', 'CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

@@ -1334,10 +1334,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_POWERUPS_OVERVIEW_SIDEBAR_COACHMARK'] = var2;
     var1 = 'GUILD_POWERUPS_OVERVIEW_SIDEBAR_COACHMARK';
     var4[var2] = var1;
-    var2 = 509;
-    var4['CONNECTIONS_LINK_CONSOLE_COACHMARK'] = var2;
-    var1 = 'CONNECTIONS_LINK_CONSOLE_COACHMARK';
-    var4[var2] = var1;
     var2 = 512;
     var4['SWIPE_TO_MEMBER_LIST_COACHMARK'] = var2;
     var1 = 'SWIPE_TO_MEMBER_LIST_COACHMARK';

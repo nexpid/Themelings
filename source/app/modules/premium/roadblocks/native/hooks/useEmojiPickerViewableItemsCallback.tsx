@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -240,8 +240,8 @@ case 0:
                 var1 = var3.canUseEmojisEverywhere;
                 var1 = var1.bind(var3)(var4);
                 var1 = !var1;
-                if(var1) { _fun0004_ip = 37; continue _fun0004 }
-case 36:
+                if(var1) { _fun0004_ip = 9; continue _fun0004 }
+case 4:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var2 = var2[var6];
@@ -249,7 +249,7 @@ case 36:
                 var2 = var3.canUseAnimatedEmojis;
                 var2 = var2.bind(var3)(var4);
                 var1 = !var2;
-case 37:
+case 9:
                 return var1;
             }
         };
@@ -284,8 +284,8 @@ case 0:
                 var _closure3_slot0 = var1;
                 var1 = {};
                 var4 = _closure2_slot2;
-                if(!var4) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                if(!var4) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var2 = function(arg1) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -302,8 +302,8 @@ case 0:
                         var7 = true;
                         var5 = global;
                         var4 = null;
-                        if(var2) { _fun0006_ip = 40; continue _fun0006 }
-case 36:
+                        if(var2) { _fun0006_ip = 38; continue _fun0006 }
+case 4:
                         var16 = var3.value;
                         var12 = _closure2_slot1;
                         var14 = var5.Math;
@@ -312,35 +312,35 @@ case 36:
                         var2 = var16.item;
                         var18 = var4 == var2;
                         var17 = undefined;
-                        if(var18) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+                        if(var18) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                         var17 = var2.isSectionNitroLocked;
-case 41:
+case 39:
                         var2 = 0;
-                        if(!(var7 === var17)) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                        if(!(var7 === var17)) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                         var17 = var16.isViewable;
                         var16 = var8;
-                        if(!var17) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                        if(!var17) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                         var16 = var9;
-case 45:
-                        var2 = var16;
 case 43:
+                        var2 = var16;
+case 41:
                         var2 = var15 + var2;
                         var2 = var13.bind(var14)(var10, var2);
                         var12['current'] = var2;
                         var12 = var11.bind(var1)();
                         var2 = var12.done;
                         var3 = var12;
-                        if(!var2) { _fun0006_ip = 36; continue _fun0006 }
-case 40:
+                        if(!var2) { _fun0006_ip = 4; continue _fun0006 }
+case 38:
                         var2 = _closure3_slot0;
                         var2 = var2.bind(var1)();
                         return var1;
                     }
                 };
-case 38:
+case 36:
                 var1['onViewableItemsChanged'] = var2;
                 return var1;
             }

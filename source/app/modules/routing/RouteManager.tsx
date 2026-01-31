@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -249,16 +249,16 @@ case 0:
                     var2 = var3.isConnected;
                     var5 = var2.bind(var3)();
                     var3 = var5;
-                    if(!var3) { _fun0004_ip = 37; continue _fun0004 }
+                    if(!var3) { _fun0004_ip = 36; continue _fun0004 }
 case 31:
                     var2 = _closure3_slot0;
                     var2 = var2.connected;
                     var3 = !var2;
-case 37:
+case 36:
                     var4 = _closure3_slot0;
                     var4['connected'] = var5;
-                    if(!var3) { _fun0004_ip = 38; continue _fun0004 }
-case 36:
+                    if(!var3) { _fun0004_ip = 37; continue _fun0004 }
+case 4:
                     var4 = _closure3_slot0;
                     var2 = 0;
                     var4['routeChangeCount'] = var2;
@@ -274,7 +274,7 @@ case 36:
                     var2 = var1.location;
                     var1 = 'REPLACE';
                     var1 = var3.bind(var4)(var2, var1);
-case 38:
+case 37:
                     var1 = undefined;
                     return var1;
                 }
@@ -291,14 +291,14 @@ case 0:
                     var7 = undefined;
                     var8 = undefined;
                     var2 = 'POP';
-                    if(!(var2 !== var3)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                    if(!(var2 !== var3)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                     var10 = _closure3_slot0;
                     var9 = var10.executeRouteRewrites;
                     var3 = var4;
                     var2 = var5;
                     var2 = var9.bind(var10)(var3, var2);
-                    if(var2) { _fun0005_ip = 41; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 40; continue _fun0005 }
 case 28:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot1;
@@ -308,8 +308,8 @@ case 28:
                     var9 = var10.convertRouteToNavigation;
                     var3 = var4;
                     var3 = var9.bind(var10)(var3);
-                    if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 42:
+                    if(var3) { _fun0005_ip = 38; continue _fun0005 }
+case 11:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot1;
                     var3 = 5;
@@ -321,20 +321,20 @@ case 42:
                     var2 = var3.bind(var9)(var2);
                     var2 = undefined;
                     return var2;
-case 39:
+case 38:
                     var9 = _closure1_slot5;
                     var3 = var9.getState;
                     var10 = var3.bind(var9)();
                     var9 = var10.basePath;
                     var3 = var4;
                     var3 = var3.pathname;
-                    if(!(var9 !== var3)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                    if(!(var9 !== var3)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                     var9 = var10.resetPath;
                     var3 = var4;
                     var3 = var3.pathname;
                     var3 = var9.bind(var10)(var3);
-case 43:
+case 41:
                     var9 = _closure1_slot7;
                     var3 = _closure3_slot0;
                     var3 = var3.listeners;
@@ -343,31 +343,31 @@ case 43:
                     var3 = var3.bind(var1)();
                     var6 = var3;
                     var3 = var3.done;
-                    if(var3) { _fun0005_ip = 10; continue _fun0005 }
-case 45:
+                    if(var3) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                     var3 = var6;
                     var8 = var3.value;
-case 46: // try_start_0
+case 45: // try_start_0
                     var10 = var8;
                     var9 = var4;
                     var3 = var5;
                     var3 = var10.bind(var1)(var9, var3);
-case 47: // try_end0
-                    _fun0005_ip = 24; continue _fun0005;
+case 46: // try_end0
+                    _fun0005_ip = 47; continue _fun0005;
 case 48: // catch_target0
                     CatchBlockStart(arg_register=2);
-case 24:
+case 47:
                     var3 = var7;
                     var3 = var3.bind(var1)();
                     var6 = var3;
                     var3 = var3.done;
-                    if(!var3) { _fun0005_ip = 45; continue _fun0005 }
-case 10:
+                    if(!var3) { _fun0005_ip = 44; continue _fun0005 }
+case 43:
                     var3 = _closure3_slot0;
                     var2 = 0;
                     var3['routeChangeCount'] = var2;
                     return var1;
-case 41:
+case 40:
                     return var1;
                 }
             };
@@ -577,11 +577,11 @@ case 0:
                 var2 = this;
                 var4 = var2.unlistenHistory;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0009_ip = 40; continue _fun0009 }
+                if(!(var3 != var4)) { _fun0009_ip = 39; continue _fun0009 }
 case 61:
                 var1 = var4.call;
                 var1 = var1.bind(var4)(var2);
-case 40:
+case 39:
                 var1 = undefined;
                 var2['unlistenHistory'] = var1;
                 var4 = var2.unlistenKeyboardChange;

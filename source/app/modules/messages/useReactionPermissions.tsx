@@ -201,7 +201,6 @@ case 9:
             var2['renderReactions'] = var11;
             var2['canAddNewReactions'] = var10;
             var2['isLurking'] = var4;
-            var2['isGuest'] = var3;
             var2['communicationDisabled'] = var9;
             var2['isActiveChannelOrUnarchivableThread'] = var8;
             var2['isAutomodQuarantined'] = var7;

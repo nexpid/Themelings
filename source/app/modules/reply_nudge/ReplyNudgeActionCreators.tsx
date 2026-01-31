@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/reply_nudge/ReplyNudgeActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function setReplyNudge(arg1, arg2) {
+    var4 = function setReplyNudge(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -39,6 +39,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['setReplyNudge'] = var2;
+    var3['setReplyNudge'] = var4;
+    var2 = function clearReplyNudge(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'REPLY_NUDGE_CLEAR';
+        var1['type'] = var4;
+        var4 = arg1;
+        var1['channelId'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['clearReplyNudge'] = var2;
     return var1;
 })();

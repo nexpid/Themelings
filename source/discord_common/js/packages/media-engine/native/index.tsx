@@ -160,7 +160,7 @@ case 6:
 case 0:
                 var6 = this;
                 var1 = _closure1_slot5;
-                var5 = _closure2_slot3;
+                var5 = _closure2_slot5;
                 var3 = undefined;
                 var1 = var1.bind(var3)(var6, var5);
                 var1 = _closure1_slot8;
@@ -1067,7 +1067,7 @@ case 75:
                 return var1;
             }
         };
-        var _closure2_slot3 = var5;
+        var _closure2_slot5 = var5;
         var3 = _closure1_slot9;
         var4 = undefined;
         var2 = arg1;
@@ -1101,7 +1101,7 @@ case 75:
             return var1;
         };
         var6['value'] = var2;
-        var2 = new Array(79);
+        var2 = new Array(81);
         var2[0] = var6;
         var6 = {};
         var7 = 'interact';
@@ -2577,10 +2577,10 @@ case 196:
             return var1;
         };
         var8 = var9.bind(var4)(var8);
-        var _closure2_slot2 = var8;
+        var _closure2_slot4 = var8;
         var8 = function setVideoInputDevice() {
             var1 = undefined;
-            var4 = _closure2_slot2;
+            var4 = _closure2_slot4;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -3783,10 +3783,10 @@ case 244:
             return var1;
         };
         var8 = var9.bind(var4)(var8);
-        var _closure2_slot1 = var8;
+        var _closure2_slot3 = var8;
         var8 = function getSingleWindowPreview() {
             var1 = undefined;
-            var4 = _closure2_slot1;
+            var4 = _closure2_slot3;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -5110,10 +5110,10 @@ case 201:
             return var1;
         };
         var8 = var9.bind(var4)(var8);
-        var _closure2_slot0 = var8;
+        var _closure2_slot2 = var8;
         var8 = function getSystemMicrophoneMode() {
             var1 = undefined;
-            var4 = _closure2_slot0;
+            var4 = _closure2_slot2;
             var3 = var4.apply;
             var1 = arguments;
             var2 = var1;
@@ -5163,6 +5163,122 @@ case 189:
         var6['value'] = var8;
         var2[76] = var6;
         var6 = {};
+        var8 = 'getDeviceOSVolume';
+        var6['key'] = var8;
+        var8 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0078_ip = 30; continue _fun0078 }
+case 282:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getVoiceEngine;
+                    var6 = var3.bind(var4)();
+                    var5 = var6.getDeviceOSVolume;
+                    var3 = null;
+                    var3 = var3 == var5;
+                    if(var3) { _fun0078_ip = 281; continue _fun0078 }
+case 28:
+                    var4 = var5.call;
+                    var3 = arg1;
+                    var2 = var4.bind(var5)(var6, var3);
+case 281:
+                    SaveGenerator(address=75);
+case 285:
+                    return var2;
+case 274:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0078_ip = 199; continue _fun0078 }
+case 18:
+                    return var2;
+case 199:
+                    return var2;
+case 30:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var8 = var9.bind(var4)(var8);
+        var _closure2_slot1 = var8;
+        var8 = function getDeviceOSVolume() {
+            var1 = undefined;
+            var4 = _closure2_slot1;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        var6['value'] = var8;
+        var2[77] = var6;
+        var6 = {};
+        var8 = 'getDeviceOSMuted';
+        var6['key'] = var8;
+        var8 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0079: for(var _fun0079_ip = 0; ; ) switch(_fun0079_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0079_ip = 30; continue _fun0079 }
+case 282:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getVoiceEngine;
+                    var6 = var3.bind(var4)();
+                    var5 = var6.getDeviceOSMuted;
+                    var3 = null;
+                    var3 = var3 == var5;
+                    if(var3) { _fun0079_ip = 281; continue _fun0079 }
+case 28:
+                    var4 = var5.call;
+                    var3 = arg1;
+                    var2 = var4.bind(var5)(var6, var3);
+case 281:
+                    SaveGenerator(address=75);
+case 285:
+                    return var2;
+case 274:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0079_ip = 199; continue _fun0079 }
+case 18:
+                    return var2;
+case 199:
+                    return var2;
+case 30:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var8 = var9.bind(var4)(var8);
+        var _closure2_slot0 = var8;
+        var8 = function getDeviceOSMuted() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        var6['value'] = var8;
+        var2[78] = var6;
+        var6 = {};
         var8 = 'watchdogTick';
         var6['key'] = var8;
         var8 = function value() {
@@ -5193,17 +5309,17 @@ case 189:
             var4 = var4.setTimeout;
             var3 = _closure1_slot25;
             var2 = function() {
-                _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
+                _fun0080: for(var _fun0080_ip = 0; ; ) switch(_fun0080_ip) {
 case 0:
                     var2 = _closure3_slot1;
-                    if(var2) { _fun0078_ip = 33; continue _fun0078 }
+                    if(var2) { _fun0080_ip = 33; continue _fun0080 }
 case 245:
                     var2 = _closure3_slot0;
                     var3 = var2.consecutiveWatchdogFailures;
                     var3 = var3 + 1;
                     var2['consecutiveWatchdogFailures'] = var3;
                     var2 = 1;
-                    if(!(var3 > var2)) { _fun0078_ip = 33; continue _fun0078 }
+                    if(!(var3 > var2)) { _fun0080_ip = 33; continue _fun0080 }
 case 194:
                     var4 = _closure3_slot0;
                     var3 = var4.emit;
@@ -5216,7 +5332,7 @@ case 194:
                     var2 = var2.MediaEngineEvent;
                     var2 = var2.WatchdogTimeout;
                     var2 = var3.bind(var4)(var2);
-                    _fun0078_ip = 20; continue _fun0078;
+                    _fun0080_ip = 20; continue _fun0080;
 case 33:
                     var2 = _closure3_slot0;
                     var1 = var2.watchdogTick;
@@ -5230,7 +5346,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[77] = var6;
+        var2[79] = var6;
         var6 = {};
         var8 = 'connectionsEmpty';
         var6['key'] = var8;
@@ -5243,7 +5359,7 @@ case 20:
             return var1;
         };
         var6['value'] = var8;
-        var2[78] = var6;
+        var2[80] = var6;
         var6 = {};
         var6['key'] = var7;
         var1 = function value() {

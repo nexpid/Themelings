@@ -212,11 +212,11 @@ case 37:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+case 8:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0004_ip = 40; continue _fun0004 }
+            if(var3 < var2) { _fun0004_ip = 8; continue _fun0004 }
 case 39:
             return var1;
         }
@@ -233,8 +233,8 @@ case 0:
             var4 = var4.bind(var1)(var2);
             var2 = var4.isLibdiscoreInitialized;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(!var2) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var2 = {};
             var5 = _closure1_slot11;
             var7 = _closure1_slot0;
@@ -246,8 +246,8 @@ case 42:
             var7 = var5.bind(var1)(var4);
             var5 = var7.bind(var1)();
             var4 = var5.done;
-            if(var4) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+            if(var4) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var9 = var5.value;
             var8 = var9.id;
             var4 = var9.getCurrentConfig;
@@ -256,13 +256,13 @@ case 44:
             var8 = var7.bind(var1)();
             var4 = var8.done;
             var5 = var8;
-            if(!var4) { _fun0005_ip = 44; continue _fun0005 }
-case 43:
+            if(!var4) { _fun0005_ip = 43; continue _fun0005 }
+case 42:
             var5 = _closure1_slot9;
             var4 = null;
             var4 = var4 != var5;
-            if(!var4) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(!var4) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 8;
@@ -270,9 +270,9 @@ case 46:
             var7 = var7.bind(var1)(var5);
             var5 = _closure1_slot9;
             var4 = var7.bind(var1)(var5, var2);
-case 45:
-            if(var4) { _fun0005_ip = 41; continue _fun0005 }
-case 47:
+case 44:
+            if(var4) { _fun0005_ip = 40; continue _fun0005 }
+case 46:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var6];
@@ -286,7 +286,7 @@ case 47:
             var4 = var4.bind(var7)(var2);
             var4 = var5.bind(var6)(var4);
             _closure1_slot9 = var2;
-case 41:
+case 40:
             return var1;
         }
     };
@@ -411,12 +411,12 @@ case 0:
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                if(var1) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0006_ip = 50; continue _fun0006;
-case 48:
+                _fun0006_ip = 49; continue _fun0006;
+case 47:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -424,7 +424,7 @@ case 48:
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 50:
+case 49:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = {};
                 var1['actions'] = var3;

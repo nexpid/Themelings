@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/WiltedFlowerIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/c776ea5fbac48eaa6b5cf38cb35a6573bc6f1e5e27024f4979e36d215407223f.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/9804aeb9fa841e4257a228d87acfcb65c40f9d09cc1876d0d306cc98151cb567.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 622;
+    var4 = 626;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

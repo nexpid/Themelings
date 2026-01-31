@@ -172,11 +172,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -256,8 +256,8 @@ case 0:
                 var _closure3_slot2 = var12;
                 var7 = new Array(0);
                 var4 = _closure2_slot2;
-                if(!var4) { _fun0004_ip = 37; continue _fun0004 }
-case 2:
+                if(!var4) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                 var5 = _closure1_slot7;
                 var14 = _closure1_slot5;
                 var13 = var14.getMutableParticipants;
@@ -274,7 +274,7 @@ case 2:
                 var6 = var5.bind(var9)(var4);
                 var5 = var6.bind(var9)();
                 var4 = var5.done;
-                if(var4) { _fun0004_ip = 37; continue _fun0004 }
+                if(var4) { _fun0004_ip = 36; continue _fun0004 }
 case 38:
                 var13 = var5.value;
                 var14 = var13.type;
@@ -284,12 +284,12 @@ case 38:
                 var4 = var15.bind(var9)(var4);
                 var4 = var4.StageChannelParticipantTypes;
                 var4 = var4.STREAM;
-                if(!(var14 === var4)) { _fun0004_ip = 37; continue _fun0004 }
+                if(!(var14 === var4)) { _fun0004_ip = 36; continue _fun0004 }
 case 39:
                 var14 = var13.id;
                 var4 = _closure2_slot4;
                 if(!(var14 !== var4)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+case 16:
                 var4 = var7.push;
                 var4 = var4.bind(var7)(var13);
 case 40:
@@ -299,15 +299,15 @@ case 40:
                 var4 = var13.done;
                 var5 = var13;
                 if(!var4) { _fun0004_ip = 38; continue _fun0004 }
-case 37:
+case 36:
                 var6 = function pushSection(arg1, arg2, arg3) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var3 = arg1;
                         var1 = arg3;
                         var5 = var3;
-                        if(!var1) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                        if(!var1) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                         var2 = var3.filter;
                         var1 = function(arg1, arg2) {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -316,17 +316,17 @@ case 0:
                                 var2 = var1.id;
                                 var1 = _closure2_slot4;
                                 var1 = var2 !== var1;
-                                if(!var1) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                                if(!var1) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                                 var3 = _closure3_slot2;
                                 var2 = arg2;
                                 var1 = var2 > var3;
-case 44:
+case 43:
                                 return var1;
                             }
                         };
                         var5 = var2.bind(var3)(var1);
-case 42:
+case 41:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var1 = 7;
@@ -351,14 +351,14 @@ case 42:
                 var5 = null;
                 var9 = var5 != var4;
                 var4 = null;
-                if(!var9) { _fun0004_ip = 24; continue _fun0004 }
+                if(!var9) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
                 var11 = _closure1_slot5;
                 var10 = var11.getParticipant;
                 var9 = _closure2_slot0;
                 var8 = _closure2_slot4;
                 var4 = var10.bind(var11)(var9, var8);
-case 24:
+case 45:
                 if(!(var5 != var4)) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
                 var5 = var4.speaker;
@@ -554,7 +554,7 @@ case 0:
             var1 = arguments[3];
             var10 = undefined;
             if(!(var1 === var10)) { _fun0009_ip = 32; continue _fun0009 }
-case 43:
+case 42:
             var1 = false;
 case 32:
             var4 = _closure1_slot9;
@@ -608,13 +608,13 @@ case 58:
             var1 = new Array(2);
             var1[0] = var5;
             var5 = _closure1_slot6;
-            if(var2) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
-            var2 = var5.SELECTED;
-            _fun0009_ip = 61; continue _fun0009;
+            if(var2) { _fun0009_ip = 21; continue _fun0009 }
 case 59:
+            var2 = var5.SELECTED;
+            _fun0009_ip = 60; continue _fun0009;
+case 21:
             var2 = var5.MEDIA;
-case 61:
+case 60:
             var5 = var6[var2];
             var2 = new Array(3);
             var2[0] = var5;

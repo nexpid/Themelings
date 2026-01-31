@@ -167,7 +167,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(78);
+        var1 = new Array(80);
         var1[0] = var5;
         var5 = {};
         var7 = 'interact';
@@ -1042,6 +1042,32 @@ case 9:
         var5['value'] = var7;
         var1[75] = var5;
         var5 = {};
+        var7 = 'getDeviceOSVolume';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = undefined;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[76] = var5;
+        var5 = {};
+        var7 = 'getDeviceOSMuted';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = undefined;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[77] = var5;
+        var5 = {};
         var7 = 'getNoiseCancellationStats';
         var5['key'] = var7;
         var7 = function value() {
@@ -1059,7 +1085,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[76] = var5;
+        var1[78] = var5;
         var5 = {};
         var7 = 'setNoiseCancellationEnableStats';
         var5['key'] = var7;
@@ -1068,7 +1094,7 @@ case 9:
             return var1;
         };
         var5['value'] = var6;
-        var1[77] = var5;
+        var1[79] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

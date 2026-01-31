@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -285,10 +285,10 @@ case 0:
                     var7 = null;
                     var3 = var7 == var2;
                     var10 = undefined;
-                    if(var3) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(var3) { _fun0005_ip = 17; continue _fun0005 }
+case 36:
                     var10 = var2.guild_id;
-case 37:
+case 17:
                     var2 = _closure1_slot7;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -298,10 +298,10 @@ case 37:
                     var3 = var4.useActivityApplications;
                     var1 = {};
                     var1['guildId'] = var10;
-                    if(!var5) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                    if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var5 = var6;
-case 39:
+case 37:
                     var5 = !var5;
                     var1['fetchesShelf'] = var5;
                     var1 = var3.bind(var4)(var1);
@@ -310,22 +310,22 @@ case 39:
                     var1 = var2.done;
                     var3 = var2;
                     var2 = false;
-                    if(var1) { _fun0005_ip = 41; continue _fun0005 }
-case 23:
+                    if(var1) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                     var1 = var3.value;
                     var10 = var8.getEntry;
                     var1 = var1.id;
                     var1 = var10.bind(var8)(var1);
                     var1 = var7 != var1;
                     var2 = true;
-                    if(var1) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                    if(var1) { _fun0005_ip = 39; continue _fun0005 }
+case 41:
                     var10 = var6.bind(var9)();
                     var1 = var10.done;
                     var3 = var10;
                     var2 = false;
-                    if(!var1) { _fun0005_ip = 23; continue _fun0005 }
-case 41:
+                    if(!var1) { _fun0005_ip = 40; continue _fun0005 }
+case 39:
                     var1 = {};
                     var1['hasUsedActivities'] = var2;
                     return var1;
@@ -342,8 +342,8 @@ case 41:
             var2 = var3.bind(var4)(var2);
             var3 = var2.canShowBotsBanner;
             var2 = var2.canShowAppsOrActivitiesBanner;
-            if(!var3) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!var3) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var7 = var6.push;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -353,9 +353,9 @@ case 44:
             var3 = var3.DismissibleContent;
             var3 = var3.APP_LAUNCHER_ONBOARDING_BOTS_BANNER;
             var3 = var7.bind(var6)(var3);
-case 43:
-            if(!var2) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+case 42:
+            if(!var2) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var3 = var6.push;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -363,15 +363,15 @@ case 46:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.DismissibleContent;
-            if(var5) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+            if(var5) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var5 = var2.APP_LAUNCHER_ONBOARDING_APPS_BANNER;
             var5 = var3.bind(var6)(var5);
-            _fun0004_ip = 45; continue _fun0004;
-case 47:
+            _fun0004_ip = 44; continue _fun0004;
+case 46:
             var2 = var2.APP_LAUNCHER_ONBOARDING_ACTIVITIES_BANNER;
             var2 = var3.bind(var6)(var2);
-case 45:
+case 44:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 9;

@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -199,8 +199,8 @@ case 0:
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var4)(var2);
                 var3 = null;
-                if(!(var3 == var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+                if(!(var3 == var2)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                 var6 = _closure2_slot0;
                 var4 = function createListenerState(arg1) {
                     var1 = global;
@@ -234,16 +234,16 @@ case 0:
                                 var5 = var3.bind(var1)(var2);
                                 var3 = var5.bind(var1)();
                                 var2 = var3.done;
-                                if(var2) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                                if(var2) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                                 var6 = var3.value;
                                 var2 = _closure5_slot0;
                                 var2 = var6.bind(var1)(var2);
                                 var6 = var5.bind(var1)();
                                 var2 = var6.done;
                                 var3 = var6;
-                                if(!var2) { _fun0005_ip = 40; continue _fun0005 }
-case 39:
+                                if(!var2) { _fun0005_ip = 39; continue _fun0005 }
+case 38:
                                 return var1;
                             }
                         };
@@ -259,7 +259,7 @@ case 39:
                 };
                 var3 = undefined;
                 var2 = var4.bind(var3)(var6);
-case 37:
+case 36:
                 var _closure3_slot0 = var2;
                 var6 = var2.listeners;
                 var4 = var6.add;
@@ -268,8 +268,8 @@ case 37:
                 var3 = var2.listeners;
                 var4 = var3.size;
                 var3 = 1;
-                if(!(var3 === var4)) { _fun0004_ip = 41; continue _fun0004 }
-case 11:
+                if(!(var3 === var4)) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                 var4 = _closure1_slot5;
                 var3 = var4.set;
                 var6 = _closure2_slot0;
@@ -319,7 +319,7 @@ case 11:
                 var3 = var2.listenerId;
                 var2 = var2.valueListener;
                 var2 = var4.bind(var5)(var3, var2, var6);
-case 41:
+case 40:
                 var1 = function() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

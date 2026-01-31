@@ -325,8 +325,8 @@ case 37:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0007_ip = 25; continue _fun0007 }
-case 42:
+            if(!(var1 != var2)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
             var4 = var2.type;
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -336,18 +336,18 @@ case 42:
             var3 = var6.bind(var7)(var3);
             var3 = var3.CollectiblesItemType;
             var3 = var3.VARIANTS_GROUP;
-            if(!(var4 !== var3)) { _fun0007_ip = 43; continue _fun0007 }
-case 44:
+            if(!(var4 !== var3)) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
             var3 = var2.type;
             return var3;
-case 43:
+case 44:
             var3 = var2.variants;
-            if(!(var1 != var3)) { _fun0007_ip = 45; continue _fun0007 }
+            if(!(var1 != var3)) { _fun0007_ip = 26; continue _fun0007 }
 case 21:
             var3 = var2.variants;
             var3 = var3.length;
             var4 = 0;
-            if(!(var4 !== var3)) { _fun0007_ip = 45; continue _fun0007 }
+            if(!(var4 !== var3)) { _fun0007_ip = 26; continue _fun0007 }
 case 46:
             var2 = var2.variants;
             var3 = var2[var4];
@@ -363,9 +363,9 @@ case 48:
             var2 = var3.type;
 case 47:
             return var2;
-case 45:
+case 26:
             return var1;
-case 25:
+case 42:
             return var1;
         }
     };

@@ -171,11 +171,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -257,9 +257,9 @@ case 0:
                 var10 = var12._subscriptions;
                 var5 = undefined;
                 for(var7 in var10)
-case 37:
+case 36:
                 {
-case 38:
+case 37:
                     var4 = var7;
                     var3 = _closure1_slot4;
                     var2 = var12._subscriptions;
@@ -269,19 +269,19 @@ case 38:
                     var4 = var3.bind(var5)(var2);
                     var3 = var4.bind(var5)();
                     var2 = var3.done;
-                    if(var2) { _fun0004_ip = 37; continue _fun0004 }
-case 39:
+                    if(var2) { _fun0004_ip = 36; continue _fun0004 }
+case 38:
                     var13 = var3.value;
                     var2 = var1.add;
                     var2 = var2.bind(var1)(var13);
                     var13 = var4.bind(var5)();
                     var2 = var13.done;
                     var3 = var13;
-                    if(var2) { _fun0004_ip = 37; continue _fun0004 }
-case 40:
-                    _fun0004_ip = 39; continue _fun0004;
+                    if(var2) { _fun0004_ip = 36; continue _fun0004 }
+case 39:
+                    _fun0004_ip = 38; continue _fun0004;
                 }
-case 41:
+case 40:
                 return var1;
             }
         };
@@ -298,8 +298,8 @@ case 0:
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
-                if(!(var2 == var1)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                if(!(var2 == var1)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 2;
@@ -312,7 +312,7 @@ case 43:
                 var6 = var3;
                 var2 = new var6[var4](var5, var4);
                 var1 = var2 instanceof Object ? var2 : var3;
-case 42:
+case 41:
                 return var1;
             }
         };
@@ -328,14 +328,14 @@ case 0:
                 var3 = this;
                 var1 = var3._subscriptions;
                 var1 = var4 in var1;
-                if(!var1) { _fun0006_ip = 2; continue _fun0006 }
+                if(!var1) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
                 var1 = var3._subscriptions;
                 var1 = delete var1[var4];
                 var2 = var3._onChange;
                 var1 = new Array(0);
                 var1 = var2.bind(var3)(var4, var1);
-case 2:
+case 43:
                 var1 = undefined;
                 return var1;
             }
@@ -360,20 +360,20 @@ case 0:
 case 46:
                 var1 = null;
                 var1 = var1 != var7;
-                if(!var1) { _fun0007_ip = 36; continue _fun0007 }
-case 2:
+                if(!var1) { _fun0007_ip = 4; continue _fun0007 }
+case 43:
                 var2 = var4.has;
                 var1 = var2.bind(var4)(var7);
-case 36:
-                if(!var1) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+case 4:
+                if(!var1) { _fun0007_ip = 9; continue _fun0007 }
+case 47:
                 var2 = var4.set;
                 var1 = global;
                 var8 = var1.Date;
                 var1 = var8.now;
                 var1 = var1.bind(var8)();
                 var1 = var2.bind(var4)(var7, var1);
-case 47:
+case 9:
                 var2 = var4.set;
                 var1 = global;
                 var7 = var1.Date;
@@ -387,7 +387,7 @@ case 47:
                 var1 = var1.bind(var4)();
                 var1 = var2.bind(var3)(var6, var1);
                 var1 = true;
-                _fun0007_ip = 49; continue _fun0007;
+                _fun0007_ip = 16; continue _fun0007;
 case 45:
                 var3 = var4.set;
                 var2 = global;
@@ -396,7 +396,7 @@ case 45:
                 var2 = var2.bind(var6)();
                 var2 = var3.bind(var4)(var5, var2);
                 var1 = false;
-case 49:
+case 16:
                 return var1;
             }
         };
@@ -413,19 +413,19 @@ case 0:
                 var4 = this;
                 var1 = var4._subscriptions;
                 var1 = var5 in var1;
-                if(var1) { _fun0008_ip = 50; continue _fun0008 }
-case 43:
+                if(var1) { _fun0008_ip = 48; continue _fun0008 }
+case 42:
                 var1 = false;
                 return var1;
-case 50:
+case 48:
                 var1 = var4._subscriptions;
                 var6 = var1[var5];
                 var1 = var6.has;
                 var1 = var1.bind(var6)(var3);
                 var2 = !var1;
                 var1 = !var2;
-                if(var2) { _fun0008_ip = 51; continue _fun0008 }
-case 36:
+                if(var2) { _fun0008_ip = 49; continue _fun0008 }
+case 4:
                 var2 = var6.del;
                 var2 = var2.bind(var6)(var3);
                 var3 = var4._onChange;
@@ -433,7 +433,7 @@ case 36:
                 var2 = var2.bind(var6)();
                 var2 = var3.bind(var4)(var5, var2);
                 var1 = true;
-case 51:
+case 49:
                 return var1;
             }
         };

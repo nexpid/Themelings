@@ -173,11 +173,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -223,10 +223,10 @@ case 0:
             var10 = arg2;
             var13 = arg3;
             var4 = null;
-            if(!(var4 != var1)) { _fun0004_ip = 37; continue _fun0004 }
+            if(!(var4 != var1)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+            if(!(var4 != var10)) { _fun0004_ip = 36; continue _fun0004 }
 case 38:
-            if(!(var4 != var10)) { _fun0004_ip = 37; continue _fun0004 }
-case 39:
             var3 = var1.releaseChannel;
             var12 = var1.expiresAt;
             var9 = var1.validForUserIds;
@@ -246,17 +246,17 @@ case 39:
             var5 = var5.bind(var7)(var8, var10);
             var7 = var5.length;
             var5 = 0;
-            if(!(var5 !== var7)) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            if(!(var4 != var3)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(!(var5 !== var7)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
+            if(!(var4 != var3)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var7 = var1.window;
             var7 = var7.GLOBAL_ENV;
             var7 = var7.RELEASE_CHANNEL;
-            if(!(var3 === var7)) { _fun0004_ip = 44; continue _fun0004 }
-case 42:
-            if(!(var4 != var17)) { _fun0004_ip = 45; continue _fun0004 }
-case 14:
+            if(!(var3 === var7)) { _fun0004_ip = 43; continue _fun0004 }
+case 41:
+            if(!(var4 != var17)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var11 = var4 == var13;
             var10 = false;
             var7 = false;
@@ -291,7 +291,7 @@ case 49:
             var11 = var22[var5];
             var22 = var22[var19];
             if(!(var14 === var22)) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+case 25:
             var7 = true;
             if(!(var18 !== var11)) { _fun0004_ip = 46; continue _fun0004 }
 case 50:
@@ -301,8 +301,8 @@ case 50:
             var7 = false;
             if(!var11) { _fun0004_ip = 49; continue _fun0004 }
 case 46:
-            if(var7) { _fun0004_ip = 45; continue _fun0004 }
-case 52:
+            if(var7) { _fun0004_ip = 44; continue _fun0004 }
+case 51:
             var7 = {};
             var7['valid'] = var10;
             var11 = _closure1_slot0;
@@ -324,11 +324,11 @@ case 52:
             var10 = var13.bind(var14)(var11, var10);
             var7['reason'] = var10;
             return var7;
-case 45:
+case 44:
             var10 = var4 != var12;
             var7 = null;
-            if(!var10) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+            if(!var10) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
             var10 = var1.Date;
             var11 = var10.prototype;
             var11 = Object.create(var11, {constructor: {value: var10}});
@@ -338,24 +338,24 @@ case 54:
             var11 = var10 instanceof Object ? var10 : var11;
             var10 = var11.getTime;
             var7 = var10.bind(var11)();
-case 53:
-            if(!(var4 != var7)) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
+case 52:
+            if(!(var4 != var7)) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
             var10 = var1.Date;
             var4 = var10.now;
             var4 = var4.bind(var10)();
-            if(!(!(var7 < var4))) { _fun0004_ip = 57; continue _fun0004 }
-case 55:
+            if(!(!(var7 < var4))) { _fun0004_ip = 56; continue _fun0004 }
+case 54:
             var4 = var9.length;
-            if(!(var4 > var5)) { _fun0004_ip = 58; continue _fun0004 }
-case 59:
+            if(!(var4 > var5)) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
             var7 = var9.includes;
             var10 = _closure1_slot4;
             var4 = var10.getId;
             var4 = var4.bind(var10)();
             var4 = var7.bind(var9)(var4);
-            if(var4) { _fun0004_ip = 58; continue _fun0004 }
-case 60:
+            if(var4) { _fun0004_ip = 57; continue _fun0004 }
+case 59:
             var4 = {};
             var7 = false;
             var4['valid'] = var7;
@@ -372,15 +372,15 @@ case 60:
             var7 = var7.qZgV0a;
             var7 = var9.bind(var10)(var7);
             var4['reason'] = var7;
-            _fun0004_ip = 61; continue _fun0004;
-case 58:
+            _fun0004_ip = 60; continue _fun0004;
+case 57:
             var7 = {};
             var9 = true;
             var7['valid'] = var9;
             var4 = var7;
-case 61:
-            _fun0004_ip = 62; continue _fun0004;
-case 57:
+case 60:
+            _fun0004_ip = 61; continue _fun0004;
+case 56:
             var7 = {};
             var9 = false;
             var7['valid'] = var9;
@@ -398,13 +398,13 @@ case 57:
             var9 = var10.bind(var11)(var9);
             var7['reason'] = var9;
             var4 = var7;
-case 62:
+case 61:
             return var4;
-case 44:
+case 43:
             var4 = _closure1_slot6;
             var4 = var4.PTB;
-            if(!(var3 !== var4)) { _fun0004_ip = 63; continue _fun0004 }
-case 64:
+            if(!(var3 !== var4)) { _fun0004_ip = 62; continue _fun0004 }
+case 63:
             var4 = var3.charAt;
             var5 = var4.bind(var3)(var5);
             var4 = var5.toUpperCase;
@@ -416,11 +416,11 @@ case 64:
             var4 = var1.concat;
             var1 = '';
             var9 = var4.bind(var1)(var7, var5);
-            _fun0004_ip = 65; continue _fun0004;
-case 63:
+            _fun0004_ip = 64; continue _fun0004;
+case 62:
             var1 = var3.toUpperCase;
             var9 = var1.bind(var3)();
-case 65:
+case 64:
             var1 = {};
             var3 = false;
             var1['valid'] = var3;
@@ -440,7 +440,7 @@ case 65:
             var3 = var5.bind(var7)(var4, var3);
             var1['reason'] = var3;
             return var1;
-case 40:
+case 39:
             var1 = {};
             var3 = false;
             var1['valid'] = var3;
@@ -467,7 +467,7 @@ case 0:
                     var3 = var1 != var2;
                     var1 = 'unknown';
                     if(!var3) { _fun0005_ip = 3; continue _fun0005 }
-case 66:
+case 65:
                     var1 = var2;
 case 3:
                     return var1;
@@ -481,7 +481,7 @@ case 3:
             var2 = var4.bind(var5)(var3, var2);
             var1['reason'] = var2;
             return var1;
-case 37:
+case 36:
             var1 = {};
             var2 = false;
             var1['valid'] = var2;

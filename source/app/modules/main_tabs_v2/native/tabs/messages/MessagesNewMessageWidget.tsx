@@ -45,30 +45,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var9 * var2;
     var2 = var5 + var2;
     var5 = var8.memo;
-    var4 = function MessagesNewMessageWidget(arg1) {
+    var4 = function MessagesNewMessageWidget() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var6 = var1.state;
-            var16 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var14 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var1 = 4;
-            var1 = var13[var1];
-            var5 = undefined;
-            var3 = var16.bind(var5)(var1);
-            var1 = var3.useMobileQuestDockHeight;
-            var10 = var1.bind(var3)();
+            var1 = var11[var1];
+            var4 = undefined;
+            var2 = var14.bind(var4)(var1);
+            var1 = var2.useMobileQuestDockHeight;
+            var9 = var1.bind(var2)();
             var1 = _closure1_slot4;
-            var7 = var1.bind(var5)();
+            var8 = var1.bind(var4)();
             var1 = 5;
-            var1 = var13[var1];
-            var4 = var16.bind(var5)(var1);
-            var3 = var4.useYouBarEnabled;
+            var1 = var11[var1];
+            var3 = var14.bind(var4)(var1);
+            var2 = var3.useYouBarEnabled;
             var1 = 'message floating action button';
-            var4 = var3.bind(var4)(var1);
-            var9 = _closure1_slot3;
-            var8 = var9.useCallback;
-            var3 = function() {
+            var7 = var2.bind(var3)(var1);
+            var5 = _closure1_slot3;
+            var3 = var5.useCallback;
+            var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure1_slot0;
@@ -105,99 +103,50 @@ case 4:
                 }
             };
             var1 = new Array(0);
-            var3 = var8.bind(var9)(var3, var1);
+            var5 = var3.bind(var5)(var2, var1);
+            var3 = _closure1_slot6;
             var1 = 7;
-            var1 = var13[var1];
-            var11 = var16.bind(var5)(var1);
-            var9 = var11.useCreateDMCTAExperiment;
-            var8 = {};
-            var1 = true;
-            var8['autoTrackExposure'] = var1;
-            var1 = 'MessagesNewMessageWidget';
-            var8 = var9.bind(var11)(var1, var8);
-            var1 = var8.enabled;
-            var8 = var8.animated;
-            var9 = {};
-            var12 = 8;
-            var11 = var13[var12];
-            var11 = var16.bind(var5)(var11);
-            var15 = var11.intl;
-            var14 = var15.string;
-            var11 = var13[var12];
-            var11 = var16.bind(var5)(var11);
-            var11 = var11.t;
-            var11 = var11.jD1qzM;
-            var11 = var14.bind(var15)(var11);
-            var9['accessibilityLabel'] = var11;
-            var11 = _closure1_slot1;
-            var14 = 9;
-            var14 = var13[var14];
-            var14 = var11.bind(var5)(var14);
-            var9['icon'] = var14;
-            var9['onPress'] = var3;
-            var3 = 3;
-            var3 = var13[var3];
-            var3 = var11.bind(var5)(var3);
-            var3 = var3.spacing;
-            var3 = var3.PX_16;
-            var3 = var10 + var3;
-            var3 = var3 + var7;
-            var9['positionBottom'] = var3;
-            var3 = undefined;
-            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = _closure1_slot5;
-case 6:
-            var9['positionRight'] = var3;
-            var4 = _closure1_slot6;
-            var11 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var1 = 11;
-            var1 = var7[var1];
-            var1 = var11.bind(var5)(var1);
+            var1 = var11[var1];
+            var1 = var14.bind(var4)(var1);
             var2 = var1.FloatingActionButton;
             var1 = {};
-            var18 = var1;
-            var17 = var9;
-            var3 = copyDataProperties(var18, var17);
-            var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 10; continue _fun0001;
-case 8:
-            var2 = 10;
-            var2 = var7[var2];
-            var2 = var11.bind(var5)(var2);
-            var3 = var2.CollapsibleFloatingActionButton;
-            var2 = {};
-            var18 = var2;
-            var17 = var9;
-            var9 = copyDataProperties(var18, var17);
-            var9 = var7[var12];
-            var9 = var11.bind(var5)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var7 = var7[var12];
-            var7 = var11.bind(var5)(var7);
-            var7 = var7.t;
-            var7 = var7.6Urw1t;
-            var9 = var9.bind(var10)(var7);
-            var7 = 'text';
-            var2[var7] = var9;
-            var7 = undefined;
-            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var7 = var6;
-case 11:
-            var6 = 'state';
-            var2[var6] = var7;
-            var1 = var4.bind(var5)(var3, var2);
-case 10:
+            var10 = 8;
+            var12 = var11[var10];
+            var12 = var14.bind(var4)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var10 = var11[var10];
+            var10 = var14.bind(var4)(var10);
+            var10 = var10.t;
+            var10 = var10.jD1qzM;
+            var10 = var12.bind(var13)(var10);
+            var1['accessibilityLabel'] = var10;
+            var10 = _closure1_slot1;
+            var12 = 9;
+            var12 = var11[var12];
+            var12 = var10.bind(var4)(var12);
+            var1['icon'] = var12;
+            var1['onPress'] = var5;
+            var5 = 3;
+            var5 = var11[var5];
+            var5 = var10.bind(var4)(var5);
+            var5 = var5.spacing;
+            var5 = var5.PX_16;
+            var5 = var9 + var5;
+            var5 = var5 + var8;
+            var1['positionBottom'] = var5;
+            var5 = undefined;
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var5 = _closure1_slot5;
+case 6:
+            var1['positionRight'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 12;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

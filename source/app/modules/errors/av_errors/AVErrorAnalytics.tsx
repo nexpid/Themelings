@@ -694,7 +694,7 @@ case 108:
             var2 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var6 = arg1;
+                    var4 = arg1;
                     var5 = {};
                     var2 = _closure2_slot0;
                     var1 = var2.valueOf;
@@ -1294,11 +1294,11 @@ case 247:
                     var7 = _closure2_slot25;
 case 246:
                     var5['share_application_distributor'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 248; continue _fun0008 }
 case 249:
-                    var8 = var6.cpu_brand;
+                    var8 = var4.cpu_brand;
 case 248:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1307,11 +1307,11 @@ case 251:
                     var7 = var8;
 case 250:
                     var5['cpu_brand'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 252; continue _fun0008 }
 case 253:
-                    var8 = var6.cpu_vendor;
+                    var8 = var4.cpu_vendor;
 case 252:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1320,11 +1320,11 @@ case 255:
                     var7 = var8;
 case 254:
                     var5['cpu_vendor'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 256; continue _fun0008 }
 case 257:
-                    var8 = var6.cpu_memory;
+                    var8 = var4.cpu_memory;
 case 256:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1333,11 +1333,11 @@ case 259:
                     var7 = var8;
 case 258:
                     var5['cpu_memory'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 260; continue _fun0008 }
 case 261:
-                    var8 = var6.gpu_brand;
+                    var8 = var4.gpu_brand;
 case 260:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1346,11 +1346,11 @@ case 263:
                     var7 = var8;
 case 262:
                     var5['gpu_brand'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 264; continue _fun0008 }
 case 265:
-                    var8 = var6.gpu_count;
+                    var8 = var4.gpu_count;
 case 264:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1359,11 +1359,11 @@ case 267:
                     var7 = var8;
 case 266:
                     var5['gpu_count'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 268; continue _fun0008 }
 case 269:
-                    var8 = var6.gpu_memory;
+                    var8 = var4.gpu_memory;
 case 268:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1372,11 +1372,11 @@ case 271:
                     var7 = var8;
 case 270:
                     var5['gpu_memory'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 272; continue _fun0008 }
 case 273:
-                    var8 = var6.gpu_device_vendor_id;
+                    var8 = var4.gpu_device_vendor_id;
 case 272:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1385,11 +1385,11 @@ case 275:
                     var7 = var8;
 case 274:
                     var5['gpu_device_vendor_id'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 276; continue _fun0008 }
 case 277:
-                    var8 = var6.gpu_device_device_id;
+                    var8 = var4.gpu_device_device_id;
 case 276:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1398,11 +1398,11 @@ case 279:
                     var7 = var8;
 case 278:
                     var5['gpu_device_device_id'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 280; continue _fun0008 }
 case 281:
-                    var8 = var6.gpu_device_sub_sys_id;
+                    var8 = var4.gpu_device_sub_sys_id;
 case 280:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1411,11 +1411,11 @@ case 283:
                     var7 = var8;
 case 282:
                     var5['gpu_device_sub_sys_id'] = var7;
-                    var7 = var3 == var6;
+                    var7 = var3 == var4;
                     var8 = undefined;
                     if(var7) { _fun0008_ip = 284; continue _fun0008 }
 case 285:
-                    var8 = var6.gpu_device_revision;
+                    var8 = var4.gpu_device_revision;
 case 284:
                     var9 = var3 != var8;
                     var7 = null;
@@ -1424,191 +1424,212 @@ case 287:
                     var7 = var8;
 case 286:
                     var5['gpu_device_revision'] = var7;
-                    var8 = var3 == var6;
+                    var8 = var3 == var4;
                     var7 = undefined;
                     if(var8) { _fun0008_ip = 288; continue _fun0008 }
 case 289:
-                    var7 = var6.gpu_driver_version;
+                    var7 = var4.gpu_driver_version;
 case 288:
                     var8 = var3 != var7;
-                    var6 = null;
+                    var4 = null;
                     if(!var8) { _fun0008_ip = 290; continue _fun0008 }
 case 291:
-                    var6 = var7;
+                    var4 = var7;
 case 290:
-                    var5['gpu_driver_version'] = var6;
+                    var5['gpu_driver_version'] = var4;
                     var7 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var4 = _closure1_slot2;
                     var8 = 18;
-                    var6 = var6[var8];
-                    var7 = var7.bind(var1)(var6);
-                    var6 = var7.getCurrentCPUUsagePercent;
-                    var7 = var6.bind(var7)();
+                    var4 = var4[var8];
+                    var7 = var7.bind(var1)(var4);
+                    var4 = var7.getCurrentCPUUsagePercent;
+                    var7 = var4.bind(var7)();
                     var9 = var3 != var7;
-                    var6 = null;
+                    var4 = null;
                     if(!var9) { _fun0008_ip = 292; continue _fun0008 }
 case 293:
-                    var6 = var7;
+                    var4 = var7;
 case 292:
-                    var5['cpu_usage'] = var6;
+                    var5['cpu_usage'] = var4;
                     var7 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var6 = var6[var8];
-                    var7 = var7.bind(var1)(var6);
-                    var6 = var7.getCurrentMemoryUsageKB;
-                    var7 = var6.bind(var7)();
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var7 = var7.bind(var1)(var4);
+                    var4 = var7.getCurrentMemoryUsageKB;
+                    var7 = var4.bind(var7)();
                     var8 = var3 != var7;
-                    var6 = null;
+                    var4 = null;
                     if(!var8) { _fun0008_ip = 294; continue _fun0008 }
 case 295:
-                    var6 = var7;
+                    var4 = var7;
 case 294:
-                    var5['memory_usage'] = var6;
+                    var5['memory_usage'] = var4;
                     var7 = _closure1_slot19;
-                    var6 = _closure2_slot30;
-                    var6 = var7.bind(var1)(var6);
-                    var5['outbound_bitrate_estimate'] = var6;
+                    var4 = _closure2_slot30;
+                    var4 = var7.bind(var1)(var4);
+                    var5['outbound_bitrate_estimate'] = var4;
                     var7 = _closure1_slot20;
-                    var6 = _closure2_slot30;
-                    var6 = var7.bind(var1)(var6);
-                    var5['inbound_bitrate_estimate'] = var6;
+                    var4 = _closure2_slot30;
+                    var4 = var7.bind(var1)(var4);
+                    var5['inbound_bitrate_estimate'] = var4;
                     var7 = _closure1_slot7;
-                    var6 = var7.getHardwareEncoding;
-                    var6 = var6.bind(var7)();
-                    var5['hardware_enabled'] = var6;
-                    var6 = _closure2_slot14;
-                    if(!(var3 == var6)) { _fun0008_ip = 296; continue _fun0008 }
+                    var4 = var7.getHardwareEncoding;
+                    var4 = var4.bind(var7)();
+                    var5['hardware_enabled'] = var4;
+                    var4 = _closure2_slot14;
+                    if(!(var3 == var4)) { _fun0008_ip = 296; continue _fun0008 }
 case 297:
                     var8 = _closure1_slot7;
-                    var6 = var8.getInputDevices;
-                    var7 = var6.bind(var8)();
-                    var6 = var8.getInputDeviceId;
-                    var6 = var6.bind(var8)();
-                    var7 = var7[var6];
+                    var4 = var8.getInputDevices;
+                    var7 = var4.bind(var8)();
+                    var4 = var8.getInputDeviceId;
+                    var4 = var4.bind(var8)();
+                    var7 = var7[var4];
                     var8 = var3 == var7;
-                    var6 = undefined;
+                    var4 = undefined;
                     if(var8) { _fun0008_ip = 298; continue _fun0008 }
 case 299:
-                    var6 = var7.name;
+                    var4 = var7.name;
 case 298:
                     _fun0008_ip = 300; continue _fun0008;
 case 296:
-                    var6 = _closure2_slot14;
+                    var4 = _closure2_slot14;
 case 300:
-                    var5['audio_input_device_name'] = var6;
-                    var6 = _closure2_slot15;
-                    if(!(var3 == var6)) { _fun0008_ip = 301; continue _fun0008 }
+                    var5['audio_input_device_name'] = var4;
+                    var4 = _closure2_slot15;
+                    if(!(var3 == var4)) { _fun0008_ip = 301; continue _fun0008 }
 case 302:
                     var8 = _closure1_slot7;
-                    var6 = var8.getOutputDevices;
-                    var7 = var6.bind(var8)();
-                    var6 = var8.getOutputDeviceId;
-                    var6 = var6.bind(var8)();
-                    var7 = var7[var6];
+                    var4 = var8.getOutputDevices;
+                    var7 = var4.bind(var8)();
+                    var4 = var8.getOutputDeviceId;
+                    var4 = var4.bind(var8)();
+                    var7 = var7[var4];
                     var8 = var3 == var7;
-                    var6 = undefined;
+                    var4 = undefined;
                     if(var8) { _fun0008_ip = 303; continue _fun0008 }
 case 304:
-                    var6 = var7.name;
+                    var4 = var7.name;
 case 303:
                     _fun0008_ip = 305; continue _fun0008;
 case 301:
-                    var6 = _closure2_slot15;
+                    var4 = _closure2_slot15;
 case 305:
-                    var5['audio_output_device_name'] = var6;
-                    var6 = _closure2_slot16;
-                    if(!(var3 == var6)) { _fun0008_ip = 306; continue _fun0008 }
+                    var5['audio_output_device_name'] = var4;
+                    var4 = _closure2_slot16;
+                    if(!(var3 == var4)) { _fun0008_ip = 306; continue _fun0008 }
 case 307:
                     var8 = _closure1_slot7;
-                    var6 = var8.getVideoDevices;
-                    var7 = var6.bind(var8)();
-                    var6 = var8.getVideoDeviceId;
-                    var6 = var6.bind(var8)();
-                    var6 = var7[var6];
-                    var7 = var3 == var6;
-                    var3 = undefined;
-                    if(var7) { _fun0008_ip = 308; continue _fun0008 }
+                    var4 = var8.getVideoDevices;
+                    var7 = var4.bind(var8)();
+                    var4 = var8.getVideoDeviceId;
+                    var4 = var4.bind(var8)();
+                    var7 = var7[var4];
+                    var8 = var3 == var7;
+                    var4 = undefined;
+                    if(var8) { _fun0008_ip = 308; continue _fun0008 }
 case 309:
-                    var3 = var6.name;
+                    var4 = var7.name;
 case 308:
                     _fun0008_ip = 310; continue _fun0008;
 case 306:
-                    var3 = _closure2_slot16;
+                    var4 = _closure2_slot16;
 case 310:
-                    var5['video_device_name'] = var3;
-                    var7 = _closure1_slot7;
-                    var3 = var7.getMediaEngine;
-                    var4 = var3.bind(var7)();
-                    var3 = var4.getAudioSubsystem;
-                    var3 = var3.bind(var4)();
-                    var5['audio_subsystem'] = var3;
-                    var3 = var7.getSettings;
-                    var3 = var3.bind(var7)();
-                    var3 = var3.automaticAudioSubsystem;
-                    var5['automatic_audio_subsystem'] = var3;
-                    var3 = var7.getMediaEngine;
-                    var4 = var3.bind(var7)();
-                    var3 = var4.getAudioLayer;
-                    var3 = var3.bind(var4)();
-                    var5['audio_layer'] = var3;
-                    var3 = var7.getSettings;
-                    var3 = var3.bind(var7)();
-                    var3 = var3.mode;
-                    var5['audio_input_mode'] = var3;
-                    var3 = var7.getSettings;
-                    var3 = var3.bind(var7)();
-                    var3 = var3.modeOptions;
-                    var3 = var3.autoThreshold;
-                    var5['automatic_audio_input_sensitivity_enabled'] = var3;
-                    var3 = var7.getSettings;
-                    var3 = var3.bind(var7)();
-                    var3 = var3.modeOptions;
-                    var3 = var3.threshold;
-                    var5['audio_input_sensitivity'] = var3;
-                    var3 = var7.getEchoCancellation;
-                    var3 = var3.bind(var7)();
-                    var5['echo_cancellation_enabled'] = var3;
-                    var3 = var7.getNoiseSuppression;
-                    var3 = var3.bind(var7)();
-                    var5['noise_suppression_enabled'] = var3;
-                    var3 = var7.getNoiseCancellation;
-                    var3 = var3.bind(var7)();
-                    var5['noise_cancellation_enabled'] = var3;
-                    var3 = var7.getAutomaticGainControl;
-                    var3 = var3.bind(var7)();
-                    var5['automatic_gain_control_enabled'] = var3;
-                    var3 = var7.getSidechainCompression;
-                    var3 = var3.bind(var7)();
-                    var5['sidechain_compression_enabled'] = var3;
-                    var3 = var7.getInputVolume;
-                    var3 = var3.bind(var7)();
-                    var5['input_volume'] = var3;
-                    var3 = var7.getOutputVolume;
-                    var3 = var3.bind(var7)();
-                    var5['output_volume'] = var3;
-                    var3 = global;
-                    var8 = var3.Object;
-                    var6 = var8.keys;
-                    var4 = var7.getInputDevices;
+                    var5['video_device_name'] = var4;
+                    var6 = _closure1_slot7;
+                    var4 = var6.getMediaEngine;
+                    var7 = var4.bind(var6)();
+                    var4 = var7.getAudioSubsystem;
                     var4 = var4.bind(var7)();
-                    var4 = var6.bind(var8)(var4);
+                    var5['audio_subsystem'] = var4;
+                    var4 = var6.getSettings;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.automaticAudioSubsystem;
+                    var5['automatic_audio_subsystem'] = var4;
+                    var4 = var6.getMediaEngine;
+                    var7 = var4.bind(var6)();
+                    var4 = var7.getAudioLayer;
+                    var4 = var4.bind(var7)();
+                    var5['audio_layer'] = var4;
+                    var4 = var6.getSettings;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.mode;
+                    var5['audio_input_mode'] = var4;
+                    var4 = var6.getSettings;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.modeOptions;
+                    var4 = var4.autoThreshold;
+                    var5['automatic_audio_input_sensitivity_enabled'] = var4;
+                    var4 = var6.getSettings;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.modeOptions;
+                    var4 = var4.threshold;
+                    var5['audio_input_sensitivity'] = var4;
+                    var4 = var6.getEchoCancellation;
+                    var4 = var4.bind(var6)();
+                    var5['echo_cancellation_enabled'] = var4;
+                    var4 = var6.getNoiseSuppression;
+                    var4 = var4.bind(var6)();
+                    var5['noise_suppression_enabled'] = var4;
+                    var4 = var6.getNoiseCancellation;
+                    var4 = var4.bind(var6)();
+                    var5['noise_cancellation_enabled'] = var4;
+                    var4 = var6.getAutomaticGainControl;
+                    var4 = var4.bind(var6)();
+                    var5['automatic_gain_control_enabled'] = var4;
+                    var4 = var6.getSidechainCompression;
+                    var4 = var4.bind(var6)();
+                    var5['sidechain_compression_enabled'] = var4;
+                    var4 = var6.getInputVolume;
+                    var4 = var4.bind(var6)();
+                    var5['input_volume'] = var4;
+                    var4 = var6.getOutputVolume;
+                    var4 = var4.bind(var6)();
+                    var5['output_volume'] = var4;
+                    var4 = global;
+                    var9 = var4.Object;
+                    var8 = var9.keys;
+                    var7 = var6.getInputDevices;
+                    var7 = var7.bind(var6)();
+                    var7 = var8.bind(var9)(var7);
+                    var7 = var7.length;
+                    var5['audio_input_device_count'] = var7;
+                    var8 = var4.Object;
+                    var7 = var8.keys;
+                    var4 = var6.getOutputDevices;
+                    var4 = var4.bind(var6)();
+                    var4 = var7.bind(var8)(var4);
                     var4 = var4.length;
-                    var5['audio_input_device_count'] = var4;
-                    var6 = var3.Object;
-                    var4 = var6.keys;
-                    var3 = var7.getOutputDevices;
-                    var3 = var3.bind(var7)();
-                    var3 = var4.bind(var6)(var3);
-                    var3 = var3.length;
-                    var5['audio_output_device_count'] = var3;
+                    var5['audio_output_device_count'] = var4;
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 19;
+                    var4 = var8[var4];
+                    var7 = var7.bind(var1)(var4);
+                    var4 = var7.getAppHardwareAccelerationEnabled;
+                    var4 = var4.bind(var7)();
+                    var5['app_hardware_acceleration_enabled'] = var4;
+                    var4 = var6.getInputDeviceOSMuted;
+                    var6 = var4.bind(var6)();
+                    var7 = var3 != var6;
+                    var4 = null;
+                    if(!var7) { _fun0008_ip = 311; continue _fun0008 }
+case 312:
+                    var4 = var6;
+case 311:
+                    var5['input_device_os_muted'] = var4;
+                    var6 = _closure1_slot7;
+                    var4 = var6.getInputDeviceOSVolume;
+                    var4 = var4.bind(var6)();
+                    var6 = var3 != var4;
+                    var3 = null;
+                    if(!var6) { _fun0008_ip = 313; continue _fun0008 }
+case 314:
+                    var3 = var4;
+case 313:
+                    var5['input_device_os_volume'] = var3;
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 19;
-                    var3 = var6[var3];
-                    var7 = var4.bind(var1)(var3);
-                    var3 = var7.getAppHardwareAccelerationEnabled;
-                    var3 = var3.bind(var7)();
-                    var5['app_hardware_acceleration_enabled'] = var3;
                     var3 = 20;
                     var3 = var6[var3];
                     var4 = var4.bind(var1)(var3);

@@ -232,25 +232,25 @@ case 0:
             var2 = var1 == var3;
             var4 = undefined;
             var5 = undefined;
-            if(var2) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(var2) { _fun0004_ip = 12; continue _fun0004 }
+case 32:
             var2 = 0;
             var5 = var3[var2];
-case 32:
-            if(!(var1 != var5)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+case 12:
+            if(!(var1 != var5)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
             var3 = _closure1_slot3;
             var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+            if(var3) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
             var3 = _closure1_slot5;
             var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+            if(var3) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
             var3 = _closure1_slot4;
             var6 = var3.bind(var4)(var5);
             var3 = '';
-            if(!var6) { _fun0004_ip = 26; continue _fun0004 }
+            if(!var6) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -266,9 +266,9 @@ case 40:
             var6 = 'static.png';
             var6 = var10.bind(var9)(var11, var6);
             var3 = var7.bind(var8)(var6);
-case 26:
+case 39:
             return var3;
-case 38:
+case 37:
             var3 = var5.staticFrameSrc;
             var8 = var5.thumbnailPreviewSrc;
             if(!(var1 != var3)) { _fun0004_ip = 41; continue _fun0004 }
@@ -295,7 +295,7 @@ case 44:
             var3 = var6;
 case 43:
             return var3;
-case 36:
+case 35:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 7;
@@ -312,7 +312,7 @@ case 49:
             var1 = var2;
 case 48:
             return var1;
-case 34:
+case 33:
             var1 = '';
             return var1;
         }

@@ -529,19 +529,19 @@ case 22:
             var4 = 'update';
             var1 = var4 === var5;
 case 17:
-            if(!var1) { _fun0006_ip = 5; continue _fun0006 }
-case 23:
+            if(!var1) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = var3.stickers;
             var4 = var3.items;
             var3 = null;
             var1 = var3 == var4;
-case 5:
-            if(!var1) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+case 23:
+            if(!var1) { _fun0006_ip = 25; continue _fun0006 }
+case 4:
             var1 = _closure1_slot13;
             var1 = var1.Unloaded;
             _closure1_slot14 = var1;
-case 24:
+case 25:
             var1 = undefined;
             return var1;
         }

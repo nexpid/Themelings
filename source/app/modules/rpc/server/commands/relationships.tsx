@@ -175,11 +175,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -260,10 +260,10 @@ case 0:
             var10 = var12 != var9;
             var11 = 0;
             var2 = 0;
-            if(!var10) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-            var2 = var9;
+            if(!var10) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+            var2 = var9;
+case 36:
             var3 = var3.bind(var7)(var2);
             var7 = _closure1_slot2;
             var2 = _closure1_slot3;
@@ -274,8 +274,8 @@ case 37:
             var2 = var2.DISABLE_RELATIONSHIPS_ACCESS;
             var2 = var7.bind(var8)(var2);
             var2 = var5.bind(var6)(var3, var2);
-            if(var2) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(var2) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var3 = new Array(0);
             var5 = _closure1_slot10;
             var6 = _closure1_slot5;
@@ -291,8 +291,8 @@ case 40:
             var7 = 1;
             var6 = var5;
             var5 = undefined;
-            if(var2) { _fun0004_ip = 41; continue _fun0004 }
-case 42:
+            if(var2) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var14 = var6.value;
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var14, var8);
@@ -300,14 +300,14 @@ case 42:
             var18 = var2[var7];
             var2 = _closure1_slot8;
             var2 = var2.NONE;
-            if(!(var18 !== var2)) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+            if(!(var18 !== var2)) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var14 = _closure1_slot6;
             var2 = var14.getUser;
             var2 = var2.bind(var14)(var15);
             var5 = var2;
-            if(!(var12 != var5)) { _fun0004_ip = 43; continue _fun0004 }
-case 45:
+            if(!(var12 != var5)) { _fun0004_ip = 42; continue _fun0004 }
+case 44:
             var16 = _closure1_slot0;
             var14 = _closure1_slot3;
             var15 = var14[var9];
@@ -324,16 +324,16 @@ case 45:
             var14 = var16.bind(var17)(var18, var14);
             var14 = var15.bind(var3)(var14);
             var5 = var2;
-case 43:
+case 42:
             var14 = var10.bind(var4)();
             var2 = var14.done;
             var6 = var14;
-            if(!var2) { _fun0004_ip = 42; continue _fun0004 }
-case 41:
+            if(!var2) { _fun0004_ip = 41; continue _fun0004 }
+case 40:
             var2 = {};
             var2['relationships'] = var3;
             return var2;
-case 39:
+case 38:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
             var2 = 8;

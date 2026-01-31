@@ -167,11 +167,11 @@ case 33:
             var3 = 0;
             var5 = var3 < var2;
             if(!var5) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+case 4:
             var5 = var4[var3];
             var1[var3] = var5;
             var3 = var3 + 1;
-            if(var3 < var2) { _fun0003_ip = 36; continue _fun0003 }
+            if(var3 < var2) { _fun0003_ip = 4; continue _fun0003 }
 case 35:
             return var1;
         }
@@ -199,8 +199,8 @@ case 35:
 case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!(var1 != var2)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var4 = var2.content;
             var5 = var1 == var4;
             var8 = undefined;
@@ -210,15 +210,15 @@ case 34:
             var3 = var4.length;
 case 33:
             var7 = 0;
-            if(!(!(var3 > var7))) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(!(!(var3 > var7))) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var4 = var2.embeds;
             var5 = var1 == var4;
             var3 = undefined;
-            if(var5) { _fun0004_ip = 41; continue _fun0004 }
-case 4:
-            var3 = var4.length;
+            if(var5) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
+            var3 = var4.length;
+case 40:
             if(!(var3 > var7)) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
             var4 = _closure1_slot0;
@@ -228,30 +228,30 @@ case 43:
             var3 = var4.done;
             var5 = var4;
             if(var3) { _fun0004_ip = 42; continue _fun0004 }
-case 44:
+case 11:
             var3 = var5.value;
             var4 = var3.rawDescription;
-            if(!(var1 != var4)) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+            if(!(var1 != var4)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var4 = var3.rawDescription;
             var4 = var4.length;
-            if(!(!(var4 > var7))) { _fun0004_ip = 47; continue _fun0004 }
-case 45:
+            if(!(!(var4 > var7))) { _fun0004_ip = 46; continue _fun0004 }
+case 44:
             var9 = var6.bind(var8)();
             var4 = var9.done;
             var5 = var9;
             if(var4) { _fun0004_ip = 42; continue _fun0004 }
-case 48:
-            _fun0004_ip = 44; continue _fun0004;
 case 47:
+            _fun0004_ip = 11; continue _fun0004;
+case 46:
             var3 = var3.rawDescription;
             return var3;
 case 42:
             return var1;
-case 39:
+case 38:
             var2 = var2.content;
             return var2;
-case 37:
+case 36:
             return var1;
         }
     };

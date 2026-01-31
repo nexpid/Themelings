@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = 'EnableDmReplyNudgeRemindersSetting';
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
+        var1 = var1.displayNudges;
         return var1;
     };
     var2['usePredicate'] = var8;
