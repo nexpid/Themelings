@@ -2870,16 +2870,6 @@
         "width": 216,
         "height": 216
     },
-    "ExperimentalCheckpointIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/ExperimentalCheckpointIcon.png",
-        "hash": "e2f35893f933ba61ccefbd78592b084f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ExperimentalGameControllerLinkIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ExperimentalGameControllerLinkIcon.png",
         "hash": "12c6df4c60eaf0ecb1997dbc93361ced",
@@ -10463,15 +10453,6 @@
         ],
         "width": 301,
         "height": 128
-    },
-    "NoReactionIcon": {
-        "file": "app/modules/checkpoint/native/components/screens/emoji/NoReactionIcon.png",
-        "hash": "ea5e51a1d7b2dadca791173af452a219",
-        "scales": [
-            1
-        ],
-        "width": 32,
-        "height": 32
     },
     "notification_nudge": {
         "file": "app/modules/nuf/native/components/notification/notification_nudge.png",
