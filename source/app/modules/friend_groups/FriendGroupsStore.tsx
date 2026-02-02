@@ -1,9 +1,8 @@
 // app/modules/friend_groups/FriendGroupsStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var7 = metroImportDefault;
+    var6 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
+    var5 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -36,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -114,7 +113,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot14;
+            var9 = _closure1_slot13;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -126,7 +125,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -185,7 +184,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -218,65 +217,60 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
-    var2 = var6[var1];
+    var2 = var5[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot0 = var2;
     var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot1 = var2;
     var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 6;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 7;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 8;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
     var _closure1_slot8 = var2;
-    var2 = 9;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.Consents;
-    var _closure1_slot9 = var2;
     var2 = new Array(0);
-    var _closure1_slot10 = var2;
+    var _closure1_slot9 = var2;
     var2 = false;
-    var _closure1_slot11 = var2;
-    var2 = 10;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var8 = var2.PersistedStore;
+    var _closure1_slot10 = var2;
+    var2 = 9;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.PersistedStore;
     var2 = function(arg1) {
         var4 = function FriendGroupsStore() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -290,7 +284,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
@@ -342,14 +336,14 @@ case 44:
 case 46:
                 var4 = new Array(0);
 case 45:
-                _closure1_slot10 = var4;
+                _closure1_slot9 = var4;
                 var3 = var3.isInitialized;
                 var1 = var1 != var3;
                 if(!var1) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
                 var1 = var3;
 case 47:
-                _closure1_slot11 = var1;
+                _closure1_slot10 = var1;
 case 43:
                 var1 = undefined;
                 return var1;
@@ -362,7 +356,7 @@ case 43:
         var7 = 'getGroups';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             return var1;
         };
         var5['value'] = var7;
@@ -375,7 +369,7 @@ case 43:
 case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot9;
                 var2 = var3.find;
                 var1 = function(arg1) {
                     var1 = arg1;
@@ -400,7 +394,7 @@ case 49:
         var7 = 'getGroupIds';
         var5['key'] = var7;
         var7 = function value() {
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var2 = var3.map;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -418,7 +412,7 @@ case 49:
         var7 = function value(arg1) {
             var2 = arg1;
             var _closure3_slot0 = var2;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var2 = var3.filter;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -461,7 +455,7 @@ case 49:
         var7 = 'isInitialized';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             return var1;
         };
         var5['value'] = var7;
@@ -471,9 +465,9 @@ case 49:
         var5['key'] = var7;
         var6 = function value() {
             var1 = {};
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var1['groups'] = var3;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var1['isInitialized'] = var2;
             return var1;
         };
@@ -482,140 +476,46 @@ case 49:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var8 = var2.bind(var1)(var8);
+    var7 = var2.bind(var1)(var7);
     var2 = 'FriendGroupsStore';
-    var8['displayName'] = var2;
-    var8['persistKey'] = var2;
-    var2 = 11;
-    var2 = var6[var2];
-    var12 = var7.bind(var1)(var2);
+    var7['displayName'] = var2;
+    var2 = 'FriendGroupsStoreV2';
+    var7['persistKey'] = var2;
+    var2 = 10;
+    var2 = var5[var2];
+    var11 = var6.bind(var1)(var2);
     var2 = {};
-    var9 = function handleInitializeFriendGroups() {
+    var8 = function handleInitializeFriendGroups() {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             if(var1) { _fun0009_ip = 51; continue _fun0009 }
 case 52:
-            var1 = _closure1_slot10;
-            var2 = var1.length;
+            var1 = _closure1_slot9;
+            var3 = var1.length;
             var1 = 0;
-            if(!(!(var2 > var1))) { _fun0009_ip = 51; continue _fun0009 }
+            if(!(!(var3 > var1))) { _fun0009_ip = 51; continue _fun0009 }
 case 53:
-            var2 = function getFrequentFriendUserIds() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-                    var3 = _closure1_slot6;
-                    var2 = var3.hasConsented;
-                    var1 = _closure1_slot9;
-                    var1 = var1.PERSONALIZATION;
-                    var1 = var2.bind(var3)(var1);
-                    if(var1) { _fun0010_ip = 54; continue _fun0010 }
-case 55:
-                    var1 = new Array(0);
-                    return var1;
-case 54:
-                    var2 = _closure1_slot5;
-                    var1 = var2.getUserAffinities;
-                    var4 = var1.bind(var2)();
-                    var1 = var4.length;
-                    var2 = 0;
-                    if(!(var2 !== var1)) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
-                    var1 = new Array(0);
-                    var3 = _closure1_slot13;
-                    var5 = new Array(0);
-                    var14 = var5;
-                    var13 = var4;
-                    var12 = 0;
-                    var2 = arraySpread(var14, var13, var12);
-                    var4 = var5.sort;
-                    var2 = function(arg1, arg2) {
-                        var4 = _closure1_slot5;
-                        var3 = var4.compare;
-                        var1 = arg1;
-                        var2 = var1.otherUserId;
-                        var1 = arg2;
-                        var1 = var1.otherUserId;
-                        var1 = var3.bind(var4)(var2, var1);
-                        return var1;
-                    };
-                    var2 = var4.bind(var5)(var2);
-                    var7 = undefined;
-                    var6 = var3.bind(var7)(var2);
-                    var3 = var6.bind(var7)();
-                    var2 = var3.done;
-                    var5 = null;
-                    var4 = 5;
-                    if(var2) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
-                    var2 = var3.value;
-                    var9 = var1.length;
-                    if(!(!(var9 >= var4))) { _fun0010_ip = 58; continue _fun0010 }
-case 60:
-                    var9 = var2.otherUserId;
-                    var10 = _closure1_slot8;
-                    var2 = var10.getUser;
-                    var2 = var2.bind(var10)(var9);
-                    var2 = var5 == var2;
-                    if(var2) { _fun0010_ip = 61; continue _fun0010 }
-case 62:
-                    var11 = _closure1_slot7;
-                    var10 = var11.isFriend;
-                    var10 = var10.bind(var11)(var9);
-                    var2 = !var10;
-case 61:
-                    if(var2) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
-                    var11 = _closure1_slot7;
-                    var10 = var11.isIgnored;
-                    var2 = var10.bind(var11)(var9);
-case 63:
-                    if(var2) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
-                    var11 = _closure1_slot7;
-                    var10 = var11.isBlocked;
-                    var2 = var10.bind(var11)(var9);
-case 65:
-                    if(var2) { _fun0010_ip = 67; continue _fun0010 }
-case 68:
-                    var2 = var1.push;
-                    var2 = var2.bind(var1)(var9);
-case 67:
-                    var9 = var6.bind(var7)();
-                    var2 = var9.done;
-                    var3 = var9;
-                    if(!var2) { _fun0010_ip = 59; continue _fun0010 }
-case 58:
-                    return var1;
-case 56:
-                    var1 = new Array(0);
-                    return var1;
-                }
-            };
+            var1 = new Array(0);
+            _closure1_slot9 = var1;
+            var1 = true;
+            _closure1_slot10 = var1;
             var1 = undefined;
-            var2 = var2.bind(var1)();
-            var4 = {'id': 'favorites', 'name': 'Favorites'};
-            var4['userIds'] = var2;
-            var2 = new Array(1);
-            var2[0] = var4;
-            _closure1_slot10 = var2;
-            var2 = true;
-            _closure1_slot11 = var2;
             return var1;
 case 51:
             var1 = false;
             return var1;
         }
     };
-    var2['POST_CONNECTION_OPEN'] = var9;
-    var9 = function handleCreateFriendGroup(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+    var2['POST_CONNECTION_OPEN'] = var8;
+    var8 = function handleCreateFriendGroup(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = arg1;
             var6 = var2.groupId;
             var _closure2_slot0 = var6;
             var5 = var2.name;
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot9;
             var3 = var4.some;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -626,10 +526,10 @@ case 0:
             };
             var1 = var3.bind(var4)(var1);
             var1 = !var1;
-            if(!var1) { _fun0011_ip = 69; continue _fun0011 }
+            if(!var1) { _fun0010_ip = 13; continue _fun0010 }
 case 41:
-            var4 = _closure1_slot10;
-            var3 = var4.unshift;
+            var4 = _closure1_slot9;
+            var3 = var4.push;
             var2 = {};
             var2['id'] = var6;
             var2['name'] = var5;
@@ -637,19 +537,19 @@ case 41:
             var2['userIds'] = var5;
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 69:
+case 13:
             return var1;
         }
     };
-    var2['CREATE_FRIEND_GROUP'] = var9;
-    var9 = function handleUpdateFriendGroup(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+    var2['CREATE_FRIEND_GROUP'] = var8;
+    var8 = function handleUpdateFriendGroup(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.groupId;
             var _closure2_slot0 = var3;
             var6 = var2.name;
-            var4 = _closure1_slot10;
+            var4 = _closure1_slot9;
             var3 = var4.findIndex;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -661,9 +561,9 @@ case 0:
             var4 = var3.bind(var4)(var1);
             var1 = -1;
             var1 = var1 !== var4;
-            if(!var1) { _fun0012_ip = 70; continue _fun0012 }
+            if(!var1) { _fun0011_ip = 54; continue _fun0011 }
 case 45:
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var2 = {};
             var7 = var3[var4];
             var8 = var2;
@@ -672,18 +572,18 @@ case 45:
             var2[var5] = var6;
             var3[var4] = var2;
             var1 = true;
-case 70:
+case 54:
             return var1;
         }
     };
-    var2['UPDATE_FRIEND_GROUP'] = var9;
-    var9 = function handleDeleteFriendGroup(arg1) {
+    var2['UPDATE_FRIEND_GROUP'] = var8;
+    var8 = function handleDeleteFriendGroup(arg1) {
         var2 = arg1;
         var2 = var2.groupId;
         var _closure2_slot0 = var2;
-        var2 = _closure1_slot10;
+        var2 = _closure1_slot9;
         var2 = var2.length;
-        var5 = _closure1_slot10;
+        var5 = _closure1_slot9;
         var4 = var5.filter;
         var1 = function(arg1) {
             var1 = arg1;
@@ -693,21 +593,21 @@ case 70:
             return var1;
         };
         var1 = var4.bind(var5)(var1);
-        _closure1_slot10 = var1;
+        _closure1_slot9 = var1;
         var1 = var1.length;
         var1 = var1 !== var2;
         return var1;
     };
-    var2['DELETE_FRIEND_GROUP'] = var9;
-    var9 = function handleReorderFriendGroups(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+    var2['DELETE_FRIEND_GROUP'] = var8;
+    var8 = function handleReorderFriendGroups(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.groupIds;
             var3 = new Array(0);
             var1 = global;
             var6 = var1.Map;
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot9;
             var5 = var7.map;
             var1 = function(arg1) {
                 var2 = arg1;
@@ -723,42 +623,42 @@ case 0:
             var11 = var5;
             var1 = new var11[var6](var10, var9);
             var8 = var1 instanceof Object ? var1 : var5;
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             var7 = undefined;
             var6 = var1.bind(var7)(var4);
             var4 = var6.bind(var7)();
             var1 = var4.done;
             var5 = null;
-            if(var1) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+            if(var1) { _fun0012_ip = 55; continue _fun0012 }
+case 56:
             var9 = var4.value;
             var1 = var8.get;
             var9 = var1.bind(var8)(var9);
-            if(!(var5 != var9)) { _fun0013_ip = 73; continue _fun0013 }
-case 74:
+            if(!(var5 != var9)) { _fun0012_ip = 57; continue _fun0012 }
+case 58:
             var1 = var3.push;
             var1 = var1.bind(var3)(var9);
-case 73:
+case 57:
             var9 = var6.bind(var7)();
             var1 = var9.done;
             var4 = var9;
-            if(!var1) { _fun0013_ip = 72; continue _fun0013 }
-case 71:
+            if(!var1) { _fun0012_ip = 56; continue _fun0012 }
+case 55:
             var4 = var3.length;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             var1 = var1.length;
             var1 = var4 === var1;
-            if(!var1) { _fun0013_ip = 75; continue _fun0013 }
-case 76:
-            _closure1_slot10 = var3;
+            if(!var1) { _fun0012_ip = 59; continue _fun0012 }
+case 60:
+            _closure1_slot9 = var3;
             var1 = true;
-case 75:
+case 59:
             return var1;
         }
     };
-    var2['REORDER_FRIEND_GROUPS'] = var9;
-    var9 = function handleAddUsersToGroup(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+    var2['REORDER_FRIEND_GROUPS'] = var8;
+    var8 = function handleAddUsersToGroup(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.groupId;
@@ -766,7 +666,7 @@ case 0:
             var6 = var2.userIds;
             var2 = undefined;
             var _closure2_slot1 = var2;
-            var5 = _closure1_slot10;
+            var5 = _closure1_slot9;
             var4 = var5.findIndex;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -777,9 +677,9 @@ case 0:
             };
             var4 = var4.bind(var5)(var3);
             var3 = -1;
-            if(!(var3 !== var4)) { _fun0014_ip = 77; continue _fun0014 }
-case 57:
-            var3 = _closure1_slot10;
+            if(!(var3 !== var4)) { _fun0013_ip = 61; continue _fun0013 }
+case 62:
+            var3 = _closure1_slot9;
             var5 = var3[var4];
             var3 = global;
             var8 = var3.Set;
@@ -803,9 +703,9 @@ case 57:
             var1 = var7.length;
             var8 = 0;
             var1 = var8 !== var1;
-            if(!var1) { _fun0014_ip = 78; continue _fun0014 }
-case 79:
-            var3 = _closure1_slot10;
+            if(!var1) { _fun0013_ip = 63; continue _fun0013 }
+case 64:
+            var3 = _closure1_slot9;
             var2 = {};
             var11 = var2;
             var10 = var5;
@@ -822,16 +722,16 @@ case 79:
             var2[var5] = var6;
             var3[var4] = var2;
             var1 = true;
-case 78:
+case 63:
             return var1;
-case 77:
+case 61:
             var1 = false;
             return var1;
         }
     };
-    var2['ADD_USERS_TO_GROUP'] = var9;
+    var2['ADD_USERS_TO_GROUP'] = var8;
     var4 = function handleRemoveUsersFromGroup(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.groupId;
@@ -839,7 +739,7 @@ case 0:
             var7 = var2.userIds;
             var2 = undefined;
             var _closure2_slot1 = var2;
-            var5 = _closure1_slot10;
+            var5 = _closure1_slot9;
             var4 = var5.findIndex;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -850,9 +750,9 @@ case 0:
             };
             var4 = var4.bind(var5)(var3);
             var3 = -1;
-            if(!(var3 !== var4)) { _fun0015_ip = 23; continue _fun0015 }
-case 57:
-            var3 = _closure1_slot10;
+            if(!(var3 !== var4)) { _fun0014_ip = 23; continue _fun0014 }
+case 62:
+            var3 = _closure1_slot9;
             var5 = var3[var4];
             var3 = global;
             var3 = var3.Set;
@@ -878,9 +778,9 @@ case 57:
             var1 = var5.userIds;
             var1 = var1.length;
             var1 = var3 !== var1;
-            if(!var1) { _fun0015_ip = 80; continue _fun0015 }
-case 81:
-            var3 = _closure1_slot10;
+            if(!var1) { _fun0014_ip = 65; continue _fun0014 }
+case 66:
+            var3 = _closure1_slot9;
             var2 = {};
             var9 = var2;
             var8 = var5;
@@ -889,7 +789,7 @@ case 81:
             var2[var5] = var6;
             var3[var4] = var2;
             var1 = true;
-case 80:
+case 65:
             return var1;
 case 23:
             var1 = false;
@@ -897,20 +797,19 @@ case 23:
         }
     };
     var2['REMOVE_USERS_FROM_GROUP'] = var4;
-    var4 = var8.prototype;
-    var4 = Object.create(var4, {constructor: {value: var8}});
-    var13 = var4;
-    var11 = var2;
-    var2 = new var13[var8](var12, var11, var10);
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var12 = var4;
+    var10 = var2;
+    var2 = new var12[var7](var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
+    var4 = 11;
+    var5 = var5[var4];
+    var4 = require;
+    var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/friend_groups/FriendGroupsStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
-    var2 = 'favorites';
-    var3['DEFAULT_FAVORITES_GROUP_ID'] = var2;
     return var1;
 })();

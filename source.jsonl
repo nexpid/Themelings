@@ -151,7 +151,7 @@
 { "file": "app/components_native/common/SafeAreaView.tsx", "size": 6661 }
 { "file": "app/components_native/common/SequencedLottieAnimationView.tsx", "size": 11501 }
 { "file": "app/components_native/common/SlideoutButton.tsx", "size": 4428 }
-{ "file": "app/components_native/common/SortableChannels.tsx", "size": 73097 }
+{ "file": "app/components_native/common/SortableChannels.tsx", "size": 73098 }
 { "file": "app/components_native/common/SortableListView.tsx", "size": 58838 }
 { "file": "app/components_native/common/SwipeableFastList.tsx", "size": 16359 }
 { "file": "app/components_native/common/TabBar.tsx", "size": 16108 }
@@ -1027,7 +1027,7 @@
 { "file": "app/intl/migration.tsx", "size": 1423 }
 { "file": "app/intl/native/migration.tsx", "size": 4341 }
 { "file": "app/intl/number-parts.tsx", "size": 2749 }
-{ "file": "app/intl/preloader.tsx", "size": 11496 }
+{ "file": "app/intl/preloader.tsx", "size": 11489 }
 { "file": "app/intl/util.tsx", "size": 7021 }
 { "file": "app/keybinds/actions/jumpToGuild.tsx", "size": 5998 }
 { "file": "app/lib/AutomaticLifecycleManager.tsx", "size": 9010 }
@@ -1058,7 +1058,7 @@
 { "file": "app/lib/ModalRegistry.tsx", "size": 11549 }
 { "file": "app/lib/MuteTimers.tsx", "size": 8122 }
 { "file": "app/lib/native/BundleUpdater.tsx", "size": 10965 }
-{ "file": "app/lib/native/FastList.tsx", "size": 226916 }
+{ "file": "app/lib/native/FastList.tsx", "size": 226919 }
 { "file": "app/lib/native/Linking.tsx", "size": 2482 }
 { "file": "app/lib/NetworkQuality.tsx", "size": 9078 }
 { "file": "app/lib/NetworkTtlCache.tsx", "size": 12969 }
@@ -2628,7 +2628,7 @@
 { "file": "app/modules/experiments/test_experiments/TestTileNewUsersExperiment.tsx", "size": 1595 }
 { "file": "app/modules/experiments/trigger_points/CollectiblesShopOpenTriggerPoint.tsx", "size": 1300 }
 { "file": "app/modules/experiments/trigger_points/CommonTriggerPointManager.tsx", "size": 7135 }
-{ "file": "app/modules/experiments/trigger_points/ConnectionOpenTriggerPoint.tsx", "size": 5170 }
+{ "file": "app/modules/experiments/trigger_points/ConnectionOpenTriggerPoint.tsx", "size": 5036 }
 { "file": "app/modules/experiments/trigger_points/DmGdmListRenderTriggerPoint.tsx", "size": 1438 }
 { "file": "app/modules/experiments/trigger_points/Helpers.tsx", "size": 4483 }
 { "file": "app/modules/experiments/trigger_points/native/MobileConnectionOpenTriggerPoint.tsx", "size": 1441 }
@@ -2850,13 +2850,12 @@
 { "file": "app/modules/frames/utils/getFramesManager.native.tsx", "size": 984 }
 { "file": "app/modules/freeze/native/NativeFreezeScreens.tsx", "size": 8025 }
 { "file": "app/modules/freeze/native/SuspenseVisibleView.android.tsx", "size": 831 }
-{ "file": "app/modules/friend_groups/FriendGroupsStore.tsx", "size": 29815 }
+{ "file": "app/modules/friend_groups/FriendGroupsStore.tsx", "size": 25859 }
 { "file": "app/modules/friend_invites/native/FriendInviteUtils.tsx", "size": 7174 }
 { "file": "app/modules/friend_suggestions/FriendSuggestionActionCreators.tsx", "size": 4449 }
 { "file": "app/modules/friend_suggestions/FriendSuggestionStore.tsx", "size": 14160 }
 { "file": "app/modules/friend_suggestions/FriendSuggestionUtils.tsx", "size": 2933 }
 { "file": "app/modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx", "size": 1617 }
-{ "file": "app/modules/friends/experiments/FriendsPopoutExperiment.tsx", "size": 2708 }
 { "file": "app/modules/game_community_upsell/GameCommunityConfig.tsx", "size": 1654 }
 { "file": "app/modules/game_community_upsell/native/GameCommunityUpsellActionSheet.tsx", "size": 33295 }
 { "file": "app/modules/game_community_upsell/native/GameCommunityUpsellDevTools.tsx", "size": 44772 }
@@ -4696,7 +4695,7 @@
 { "file": "app/modules/messages/MessageAttachmentUtils.tsx", "size": 20238 }
 { "file": "app/modules/messages/MessageConstants.tsx", "size": 5845 }
 { "file": "app/modules/messages/MessageManager.tsx", "size": 44888 }
-{ "file": "app/modules/messages/MessageParser.tsx", "size": 78621 }
+{ "file": "app/modules/messages/MessageParser.tsx", "size": 79113 }
 { "file": "app/modules/messages/MessageReactionsTypes.tsx", "size": 1293 }
 { "file": "app/modules/messages/MessageRecordUtils.tsx", "size": 39853 }
 { "file": "app/modules/messages/MessageRoundtripTrackerStore.tsx", "size": 17975 }
@@ -5111,8 +5110,9 @@
 { "file": "app/modules/opt_in_channels/useShowChannelOptInNotice.tsx", "size": 4311 }
 { "file": "app/modules/overlay/getOverlayMessageAnaylticsLocation.native.tsx", "size": 768 }
 { "file": "app/modules/overlay/OverlayTrackingUtils.native.tsx", "size": 1057 }
-{ "file": "app/modules/overlay/OverlayTypes.tsx", "size": 5178 }
-{ "file": "app/modules/overlay/OverlayV3Experiment.tsx", "size": 19557 }
+{ "file": "app/modules/overlay/OverlayTypes.tsx", "size": 5691 }
+{ "file": "app/modules/overlay/OverlayV3Experiment.tsx", "size": 20815 }
+{ "file": "app/modules/overlay/web/v3/OverlayWidgets.messages.js", "size": 1678 }
 { "file": "app/modules/panels/isChannelFocused.native.tsx", "size": 12670 }
 { "file": "app/modules/panels/morphable/AppFreezeStore.tsx", "size": 4870 }
 { "file": "app/modules/panels/morphable/native/AppFreezer.tsx", "size": 3207 }
@@ -7765,7 +7765,7 @@
 { "file": "app/stores/LocalActivityStore.tsx", "size": 30210 }
 { "file": "app/stores/MaskedLinkStore.tsx", "size": 16581 }
 { "file": "app/stores/MaskedLinkStoreMethodsAdditional.native.tsx", "size": 2073 }
-{ "file": "app/stores/MediaEngineStore.tsx", "size": 398448 }
+{ "file": "app/stores/MediaEngineStore.tsx", "size": 398445 }
 { "file": "app/stores/MessageReactionsStore.tsx", "size": 12714 }
 { "file": "app/stores/MessageStore.tsx", "size": 88649 }
 { "file": "app/stores/MFAStore.tsx", "size": 8869 }
@@ -8093,7 +8093,7 @@
 { "file": "app/utils/ReleaseChannelUtils.native.tsx", "size": 2241 }
 { "file": "app/utils/ReportUtils.tsx", "size": 5186 }
 { "file": "app/utils/RTCConnectionUtils.tsx", "size": 9002 }
-{ "file": "app/utils/SecondaryIndexMapUtils.tsx", "size": 3015 }
+{ "file": "app/utils/SecondaryIndexMapUtils.tsx", "size": 2861 }
 { "file": "app/utils/SecondsSliderUtils.tsx", "size": 6324 }
 { "file": "app/utils/SentryUtils.native.tsx", "size": 25097 }
 { "file": "app/utils/SnowflakeUtils.tsx", "size": 6322 }
