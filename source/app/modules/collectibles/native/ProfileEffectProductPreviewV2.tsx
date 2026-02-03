@@ -77,7 +77,7 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var17 = var1.product;
+            var3 = var1.product;
             var11 = var1.width;
             var7 = var1.showGradient;
             var5 = undefined;
@@ -93,17 +93,17 @@ case 2:
             var1 = _closure1_slot6;
             var12 = var1.bind(var5)(var2);
             var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var4 = _closure1_slot2;
             var1 = 5;
-            var1 = var3[var1];
-            var4 = var2.bind(var5)(var1);
-            var1 = var4.useCurrentUser;
-            var14 = var1.bind(var4)();
+            var1 = var4[var1];
+            var6 = var2.bind(var5)(var1);
+            var1 = var6.useCurrentUser;
+            var14 = var1.bind(var6)();
             var1 = 6;
-            var1 = var3[var1];
+            var1 = var4[var1];
             var2 = var2.bind(var5)(var1);
             var1 = var2.useShopProductItems;
-            var1 = var1.bind(var2)(var17);
+            var1 = var1.bind(var2)(var3);
             var13 = var1.firstProfileEffect;
             var1 = null;
             var2 = var1 == var13;
@@ -126,10 +126,10 @@ case 8:
             var6 = var15[var6];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var9 = var6.HSX4HR;
+            var9 = var6.mbHmX2;
             var6 = {};
-            var17 = var17.name;
-            var6['profileEffect'] = var17;
+            var17 = var13.accessibilityLabel;
+            var6['a11y_text'] = var17;
             var6 = var10.bind(var16)(var9, var6);
             var2['accessibilityLabel'] = var6;
             var6 = 'image';

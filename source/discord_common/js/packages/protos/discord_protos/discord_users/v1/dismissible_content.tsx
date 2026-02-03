@@ -762,10 +762,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['LAUNCH_PAD_PULL_TAB_NUX'] = var2;
     var1 = 'LAUNCH_PAD_PULL_TAB_NUX';
     var4[var2] = var1;
-    var2 = 290;
-    var4['CLIPS_SETTINGS_BETA_TAG'] = var2;
-    var1 = 'CLIPS_SETTINGS_BETA_TAG';
-    var4[var2] = var1;
     var2 = 294;
     var4['MEMBERS_LAUNCH_UPSELL'] = var2;
     var1 = 'MEMBERS_LAUNCH_UPSELL';
@@ -1917,6 +1913,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 676;
     var4['QUEST_HOME_ENTRYPOINT_TAKEOVER_BADGE'] = var2;
     var1 = 'QUEST_HOME_ENTRYPOINT_TAKEOVER_BADGE';
+    var4[var2] = var1;
+    var2 = 677;
+    var4['SLAYER_STOREFRONT_XBOX_ANNOUNCEMENT'] = var2;
+    var1 = 'SLAYER_STOREFRONT_XBOX_ANNOUNCEMENT';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

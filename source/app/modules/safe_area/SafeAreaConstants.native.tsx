@@ -46,6 +46,8 @@ case 6:
         var6 = 'modules/safe_area/SafeAreaConstants.native.tsx';
         var6 = var7.bind(var8)(var6);
         var3['EMPTY_SAFE_AREA_INSETS'] = var5;
+        var5 = {'top': 4, 'bottom': 4, 'left': 0, 'right': 0};
+        var3['META_QUEST_SAFE_AREA_INSETS'] = var5;
         var3['INITIAL_SAFE_AREA_METRICS'] = var4;
         var3['INITIAL_SAFE_AREA_INSETS'] = var2;
         return var1;

@@ -1530,93 +1530,79 @@ case 29:
     var1 = function generateGuildTextSection(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var2 = arg2;
-            var3 = _closure1_slot3;
-            var3 = var3.SEND_MESSAGES;
-            var7 = new Array(19);
-            var7[0] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.SEND_MESSAGES_IN_THREADS;
-            var7[1] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.CREATE_PUBLIC_THREADS;
-            var7[2] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.CREATE_PRIVATE_THREADS;
-            var7[3] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.EMBED_LINKS;
-            var7[4] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.ATTACH_FILES;
-            var7[5] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.ADD_REACTIONS;
-            var7[6] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.USE_EXTERNAL_EMOJIS;
-            var7[7] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.USE_EXTERNAL_STICKERS;
-            var7[8] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.USE_EXTERNAL_SOUNDS;
-            var7[9] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.MENTION_EVERYONE;
-            var7[10] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.MANAGE_MESSAGES;
-            var7[11] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.PIN_MESSAGES;
-            var7[12] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.BYPASS_SLOWMODE;
-            var7[13] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.MANAGE_THREADS;
-            var7[14] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.READ_MESSAGE_HISTORY;
-            var7[15] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.SEND_TTS_MESSAGES;
-            var7[16] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.SEND_VOICE_MESSAGES;
-            var7[17] = var3;
-            var3 = _closure1_slot3;
-            var3 = var3.SEND_POLLS;
-            var7[18] = var3;
-            var5 = var2.inSoundmojiExperiment;
-            var3 = var7;
-            if(var5) { _fun0004_ip = 31; continue _fun0004 }
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_MESSAGES;
+            var3 = new Array(19);
+            var3[0] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_MESSAGES_IN_THREADS;
+            var3[1] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.CREATE_PUBLIC_THREADS;
+            var3[2] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.CREATE_PRIVATE_THREADS;
+            var3[3] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.EMBED_LINKS;
+            var3[4] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.ATTACH_FILES;
+            var3[5] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.ADD_REACTIONS;
+            var3[6] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_EMOJIS;
+            var3[7] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_STICKERS;
+            var3[8] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_SOUNDS;
+            var3[9] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.MENTION_EVERYONE;
+            var3[10] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.MANAGE_MESSAGES;
+            var3[11] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.PIN_MESSAGES;
+            var3[12] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.BYPASS_SLOWMODE;
+            var3[13] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.MANAGE_THREADS;
+            var3[14] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.READ_MESSAGE_HISTORY;
+            var3[15] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_TTS_MESSAGES;
+            var3[16] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_VOICE_MESSAGES;
+            var3[17] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_POLLS;
+            var3[18] = var1;
+            var1 = arg2;
+            var1 = var1.inSoundmojiExperiment;
+            var6 = var3;
+            if(var1) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-            var6 = var7.filter;
-            var5 = function(arg1) {
+            var2 = var3.filter;
+            var1 = function(arg1) {
                 var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
                 var1 = arg1;
                 var1 = var1 !== var2;
                 return var1;
             };
-            var3 = var6.bind(var7)(var5);
-case 31:
-            var2 = var2.inBypassSlowmodePermissionExperiment;
-            var6 = var3;
-            if(var2) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
-            var2 = var3.filter;
-            var1 = function(arg1) {
-                var1 = _closure1_slot3;
-                var2 = var1.BYPASS_SLOWMODE;
-                var1 = arg1;
-                var1 = var1 !== var2;
-                return var1;
-            };
             var6 = var2.bind(var3)(var1);
-case 33:
+case 31:
             var3 = _closure1_slot4;
             var1 = {};
             var9 = _closure1_slot0;
@@ -1781,8 +1767,8 @@ case 0:
             var2 = var2.bind(var5)(var8);
             var1[4] = var2;
             var2 = var10.showStageChannelPermissions;
-            if(!var2) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+            if(!var2) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var3 = var1.push;
             var7 = _closure1_slot4;
             var2 = {};
@@ -1809,7 +1795,7 @@ case 36:
             var4 = var10.showExperimental;
             var4 = var7.bind(var5)(var2, var4);
             var2 = var3.bind(var1)(var2);
-case 35:
+case 33:
             var3 = var1.push;
             var4 = _closure1_slot4;
             var2 = {};
@@ -1868,23 +1854,23 @@ case 35:
 case 0:
             var2 = arguments[2];
             var5 = undefined;
-            if(!(var2 === var5)) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+            if(!(var2 === var5)) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
             var1 = {};
             var3 = true;
             var1['showManageWebhooks'] = var3;
             var2 = var1;
-case 37:
+case 35:
             var1 = {};
             var3 = arg2;
             var1['title'] = var3;
             var4 = _closure1_slot5;
             var3 = null;
-            if(!(var3 != var2)) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+            if(!(var3 != var2)) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
             var2 = var2.showManageWebhooks;
-            if(var2) { _fun0006_ip = 41; continue _fun0006 }
-case 39:
+            if(var2) { _fun0006_ip = 39; continue _fun0006 }
+case 37:
             var2 = _closure1_slot3;
             var2 = var2.VIEW_CHANNEL;
             var3 = new Array(3);
@@ -1895,8 +1881,8 @@ case 39:
             var2 = _closure1_slot3;
             var2 = var2.MANAGE_ROLES;
             var3[2] = var2;
-            _fun0006_ip = 42; continue _fun0006;
-case 41:
+            _fun0006_ip = 40; continue _fun0006;
+case 39:
             var2 = _closure1_slot3;
             var7 = var2.VIEW_CHANNEL;
             var2 = new Array(4);
@@ -1911,7 +1897,7 @@ case 41:
             var6 = var6.MANAGE_WEBHOOKS;
             var2[3] = var6;
             var3 = var2;
-case 42:
+case 40:
             var2 = arg1;
             var2 = var4.bind(var5)(var3, var2);
             var1['permissions'] = var2;
@@ -1941,67 +1927,67 @@ case 0:
             var3 = arg3;
             var4 = _closure1_slot3;
             var4 = var4.SEND_MESSAGES;
-            var7 = new Array(19);
-            var7[0] = var4;
+            var6 = new Array(19);
+            var6[0] = var4;
             var4 = _closure1_slot3;
             var4 = var4.SEND_MESSAGES_IN_THREADS;
-            var7[1] = var4;
+            var6[1] = var4;
             var4 = _closure1_slot3;
             var4 = var4.CREATE_PUBLIC_THREADS;
-            var7[2] = var4;
+            var6[2] = var4;
             var4 = _closure1_slot3;
             var4 = var4.CREATE_PRIVATE_THREADS;
-            var7[3] = var4;
+            var6[3] = var4;
             var4 = _closure1_slot3;
             var4 = var4.EMBED_LINKS;
-            var7[4] = var4;
+            var6[4] = var4;
             var4 = _closure1_slot3;
             var4 = var4.ATTACH_FILES;
-            var7[5] = var4;
+            var6[5] = var4;
             var4 = _closure1_slot3;
             var4 = var4.ADD_REACTIONS;
-            var7[6] = var4;
+            var6[6] = var4;
             var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_EMOJIS;
-            var7[7] = var4;
+            var6[7] = var4;
             var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_STICKERS;
-            var7[8] = var4;
+            var6[8] = var4;
             var4 = _closure1_slot3;
             var4 = var4.USE_EXTERNAL_SOUNDS;
-            var7[9] = var4;
+            var6[9] = var4;
             var4 = _closure1_slot3;
             var4 = var4.MENTION_EVERYONE;
-            var7[10] = var4;
+            var6[10] = var4;
             var4 = _closure1_slot3;
             var4 = var4.MANAGE_MESSAGES;
-            var7[11] = var4;
+            var6[11] = var4;
             var4 = _closure1_slot3;
             var4 = var4.PIN_MESSAGES;
-            var7[12] = var4;
+            var6[12] = var4;
             var4 = _closure1_slot3;
             var4 = var4.BYPASS_SLOWMODE;
-            var7[13] = var4;
+            var6[13] = var4;
             var4 = _closure1_slot3;
             var4 = var4.MANAGE_THREADS;
-            var7[14] = var4;
+            var6[14] = var4;
             var4 = _closure1_slot3;
             var4 = var4.READ_MESSAGE_HISTORY;
-            var7[15] = var4;
+            var6[15] = var4;
             var4 = _closure1_slot3;
             var4 = var4.SEND_TTS_MESSAGES;
-            var7[16] = var4;
+            var6[16] = var4;
             var4 = _closure1_slot3;
             var4 = var4.SEND_VOICE_MESSAGES;
-            var7[17] = var4;
+            var6[17] = var4;
             var4 = _closure1_slot3;
             var4 = var4.SEND_POLLS;
-            var7[18] = var4;
+            var6[18] = var4;
             var4 = var3.inSoundmojiExperiment;
-            var6 = var7;
+            var7 = var6;
             if(var4) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
-            var5 = var7.filter;
+case 41:
+            var5 = var6.filter;
             var4 = function(arg1) {
                 var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
@@ -2009,17 +1995,17 @@ case 32:
                 var1 = var1 !== var2;
                 return var1;
             };
-            var6 = var5.bind(var7)(var4);
+            var7 = var5.bind(var6)(var4);
 case 31:
             var4 = var3.showPrivateThreads;
-            if(!var4) { _fun0007_ip = 43; continue _fun0007 }
-case 44:
-            var4 = var3.showCreateThreads;
+            if(!var4) { _fun0007_ip = 42; continue _fun0007 }
 case 43:
-            var7 = var6;
-            if(var4) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
-            var5 = var6.filter;
+            var4 = var3.showCreateThreads;
+case 42:
+            var6 = var7;
+            if(var4) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
+            var5 = var7.filter;
             var4 = function(arg1) {
                 var1 = _closure1_slot3;
                 var2 = var1.CREATE_PRIVATE_THREADS;
@@ -2027,36 +2013,22 @@ case 46:
                 var1 = var1 !== var2;
                 return var1;
             };
-            var7 = var5.bind(var6)(var4);
-case 45:
+            var6 = var5.bind(var7)(var4);
+case 44:
             var4 = var3.showCreateThreads;
-            var6 = var7;
-            if(var4) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
-            var5 = var7.filter;
-            var4 = function(arg1) {
+            var5 = var6;
+            if(var4) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
+            var4 = var6.filter;
+            var1 = function(arg1) {
                 var1 = _closure1_slot3;
                 var2 = var1.CREATE_PUBLIC_THREADS;
                 var1 = arg1;
                 var1 = var1 !== var2;
                 return var1;
             };
-            var6 = var5.bind(var7)(var4);
-case 47:
-            var4 = var3.inBypassSlowmodePermissionExperiment;
-            var5 = var6;
-            if(var4) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
-            var4 = var6.filter;
-            var1 = function(arg1) {
-                var1 = _closure1_slot3;
-                var2 = var1.BYPASS_SLOWMODE;
-                var1 = arg1;
-                var1 = var1 !== var2;
-                return var1;
-            };
             var5 = var4.bind(var6)(var1);
-case 49:
+case 46:
             var1 = {};
             var4 = arg2;
             var1['title'] = var4;
@@ -2121,77 +2093,63 @@ case 49:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = arg3;
-            var4 = _closure1_slot3;
-            var4 = var4.SEND_MESSAGES;
-            var7 = new Array(14);
-            var7[0] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.EMBED_LINKS;
-            var7[1] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.ATTACH_FILES;
-            var7[2] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.ADD_REACTIONS;
-            var7[3] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.USE_EXTERNAL_EMOJIS;
-            var7[4] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.USE_EXTERNAL_STICKERS;
-            var7[5] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.USE_EXTERNAL_SOUNDS;
-            var7[6] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.MENTION_EVERYONE;
-            var7[7] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.MANAGE_MESSAGES;
-            var7[8] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.BYPASS_SLOWMODE;
-            var7[9] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.READ_MESSAGE_HISTORY;
-            var7[10] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.SEND_TTS_MESSAGES;
-            var7[11] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.SEND_VOICE_MESSAGES;
-            var7[12] = var4;
-            var4 = _closure1_slot3;
-            var4 = var4.SEND_POLLS;
-            var7[13] = var4;
-            var4 = var3.inSoundmojiExperiment;
-            var6 = var7;
-            if(var4) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
-            var5 = var7.filter;
-            var4 = function(arg1) {
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_MESSAGES;
+            var6 = new Array(14);
+            var6[0] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.EMBED_LINKS;
+            var6[1] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.ATTACH_FILES;
+            var6[2] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.ADD_REACTIONS;
+            var6[3] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_EMOJIS;
+            var6[4] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_STICKERS;
+            var6[5] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.USE_EXTERNAL_SOUNDS;
+            var6[6] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.MENTION_EVERYONE;
+            var6[7] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.MANAGE_MESSAGES;
+            var6[8] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.BYPASS_SLOWMODE;
+            var6[9] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.READ_MESSAGE_HISTORY;
+            var6[10] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_TTS_MESSAGES;
+            var6[11] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_VOICE_MESSAGES;
+            var6[12] = var1;
+            var1 = _closure1_slot3;
+            var1 = var1.SEND_POLLS;
+            var6[13] = var1;
+            var1 = var3.inSoundmojiExperiment;
+            var5 = var6;
+            if(var1) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
+            var4 = var6.filter;
+            var1 = function(arg1) {
                 var1 = _closure1_slot3;
                 var2 = var1.USE_EXTERNAL_SOUNDS;
                 var1 = arg1;
                 var1 = var1 !== var2;
                 return var1;
             };
-            var6 = var5.bind(var7)(var4);
-case 51:
-            var4 = var3.inBypassSlowmodePermissionExperiment;
-            var5 = var6;
-            if(var4) { _fun0008_ip = 53; continue _fun0008 }
-case 54:
-            var4 = var6.filter;
-            var1 = function(arg1) {
-                var1 = _closure1_slot3;
-                var2 = var1.BYPASS_SLOWMODE;
-                var1 = arg1;
-                var1 = var1 !== var2;
-                return var1;
-            };
             var5 = var4.bind(var6)(var1);
-case 53:
+case 48:
             var1 = {};
             var4 = arg2;
             var1['title'] = var4;
@@ -2211,13 +2169,13 @@ case 53:
 case 0:
             var3 = arguments[2];
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
+            if(!(var3 === var5)) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
             var1 = {};
             var2 = true;
             var1['showActivities'] = var2;
             var3 = var1;
-case 37:
+case 35:
             var1 = {};
             var2 = arg2;
             var1['title'] = var2;
@@ -2228,11 +2186,11 @@ case 37:
             var6[0] = var7;
             var7 = var3.showActivities;
             var3 = null;
-            if(!var7) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+            if(!var7) { _fun0009_ip = 50; continue _fun0009 }
+case 51:
             var7 = _closure1_slot3;
             var3 = var7.USE_EMBEDDED_ACTIVITIES;
-case 55:
+case 50:
             var6[1] = var3;
             var3 = _closure1_slot3;
             var3 = var3.USE_EXTERNAL_APPS;
@@ -2262,8 +2220,8 @@ case 0:
             var2 = _closure1_slot3;
             var6 = var2.CONNECT;
             var2 = arg3;
-            if(var2) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
+            if(var2) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
             var4 = new Array(3);
             var4[0] = var6;
             var2 = _closure1_slot3;
@@ -2272,8 +2230,8 @@ case 58:
             var2 = _closure1_slot3;
             var2 = var2.MOVE_MEMBERS;
             var4[2] = var2;
-            _fun0010_ip = 59; continue _fun0010;
-case 57:
+            _fun0010_ip = 54; continue _fun0010;
+case 52:
             var2 = new Array(4);
             var2[0] = var6;
             var6 = _closure1_slot3;
@@ -2286,7 +2244,7 @@ case 57:
             var3 = var3.MOVE_MEMBERS;
             var2[3] = var3;
             var4 = var2;
-case 59:
+case 54:
             var3 = undefined;
             var2 = arg1;
             var2 = var5.bind(var3)(var4, var2);
@@ -2339,16 +2297,16 @@ case 0:
             var4 = arg1;
             var2 = null;
             var1 = var4;
-            if(!(var2 != var1)) { _fun0011_ip = 60; continue _fun0011 }
+            if(!(var2 != var1)) { _fun0011_ip = 55; continue _fun0011 }
 case 3:
             var5 = typeof var4;
             var2 = 'string';
-            if(!(var2 !== var5)) { _fun0011_ip = 61; continue _fun0011 }
-case 62:
+            if(!(var2 !== var5)) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
             var3 = 'function';
             var2 = var4;
-            if(!(var3 === var5)) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+            if(!(var3 === var5)) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 1;
@@ -2359,170 +2317,122 @@ case 64:
             var5 = var6.format;
             var3 = {};
             var2 = var5.bind(var6)(var4, var3);
-case 63:
-            _fun0011_ip = 65; continue _fun0011;
-case 61:
+case 58:
+            _fun0011_ip = 60; continue _fun0011;
+case 56:
             var3 = var4.trim;
             var2 = var3.bind(var4)();
-case 65:
-            var1 = var2;
 case 60:
+            var1 = var2;
+case 55:
             return var1;
         }
     };
     var3['renderDescription'] = var4;
-    var2 = function getMigrationWarning(arg1, arg2, arg3) {
+    var2 = function getMigrationWarning(arg1, arg2) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-            var6 = arg1;
-            var2 = arg2;
-            var3 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var5 = arg1;
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var1 = 3;
-            var1 = var5[var1];
-            var8 = undefined;
-            var5 = var3.bind(var8)(var1);
-            var3 = var5.getCurrentConfig;
+            var1 = var4[var1];
+            var7 = undefined;
+            var4 = var2.bind(var7)(var1);
+            var2 = var4.getCurrentConfig;
             var1 = {};
-            var7 = arg3;
-            var1['guildId'] = var7;
-            var7 = 'getMigrationWarning';
-            var1['location'] = var7;
-            var1 = var3.bind(var5)(var1);
+            var6 = arg2;
+            var1['guildId'] = var6;
+            var6 = 'getMigrationWarning';
+            var1['location'] = var6;
+            var1 = var2.bind(var4)(var1);
             var1 = var1.enabled;
-            var3 = _closure1_slot3;
-            if(var1) { _fun0012_ip = 66; continue _fun0012 }
-case 67:
-            if(var2) { _fun0012_ip = 68; continue _fun0012 }
+            var2 = _closure1_slot3;
+            var2 = var2.MANAGE_CHANNELS;
+            if(var1) { _fun0012_ip = 61; continue _fun0012 }
+case 58:
+            if(!(var5 !== var2)) { _fun0012_ip = 62; continue _fun0012 }
 case 63:
-            var5 = var3.MANAGE_MESSAGES;
+            var1 = _closure1_slot3;
+            var1 = var1.MANAGE_THREADS;
+            if(!(var5 !== var1)) { _fun0012_ip = 62; continue _fun0012 }
+case 64:
+            var1 = _closure1_slot3;
+            var4 = var1.MANAGE_MESSAGES;
             var1 = null;
-            if(!(var6 === var5)) { _fun0012_ip = 69; continue _fun0012 }
-case 65:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var5 = 1;
-            var7 = var11[var5];
-            var7 = var10.bind(var8)(var7);
-            var9 = var7.intl;
-            var7 = var9.string;
-            var5 = var11[var5];
-            var5 = var10.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.2XIdPp;
-            var1 = var7.bind(var9)(var5);
-case 69:
-            _fun0012_ip = 70; continue _fun0012;
-case 68:
-            var5 = var3.MANAGE_CHANNELS;
-            if(!(var6 !== var5)) { _fun0012_ip = 71; continue _fun0012 }
-case 72:
-            var5 = _closure1_slot3;
-            var5 = var5.MANAGE_THREADS;
-            if(!(var6 !== var5)) { _fun0012_ip = 71; continue _fun0012 }
-case 73:
-            var5 = _closure1_slot3;
-            var7 = var5.MANAGE_MESSAGES;
-            var5 = null;
-            if(!(var6 === var7)) { _fun0012_ip = 74; continue _fun0012 }
-case 75:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 1;
-            var9 = var12[var7];
-            var9 = var11.bind(var8)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var7 = var12[var7];
-            var7 = var11.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.zSc2tb;
-            var5 = var9.bind(var10)(var7);
-case 74:
-            _fun0012_ip = 31; continue _fun0012;
-case 71:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 1;
-            var9 = var12[var7];
-            var9 = var11.bind(var8)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var7 = var12[var7];
-            var7 = var11.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.Han3PH;
-            var5 = var9.bind(var10)(var7);
-case 31:
-            var1 = var5;
-case 70:
-            _fun0012_ip = 76; continue _fun0012;
+            if(!(var5 === var4)) { _fun0012_ip = 65; continue _fun0012 }
 case 66:
-            if(var2) { _fun0012_ip = 77; continue _fun0012 }
-case 78:
-            var5 = var3.MANAGE_MESSAGES;
-            var2 = null;
-            if(!(var6 === var5)) { _fun0012_ip = 79; continue _fun0012 }
-case 80:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var5 = 1;
-            var7 = var11[var5];
-            var7 = var10.bind(var8)(var7);
-            var9 = var7.intl;
-            var7 = var9.string;
-            var5 = var11[var5];
-            var5 = var10.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.bU1J1V;
-            var2 = var7.bind(var9)(var5);
-case 79:
-            _fun0012_ip = 81; continue _fun0012;
-case 77:
-            var3 = var3.MANAGE_CHANNELS;
-            if(!(var6 !== var3)) { _fun0012_ip = 82; continue _fun0012 }
-case 83:
-            var3 = _closure1_slot3;
-            var3 = var3.MANAGE_THREADS;
-            if(!(var6 !== var3)) { _fun0012_ip = 82; continue _fun0012 }
-case 84:
-            var3 = _closure1_slot3;
-            var5 = var3.MANAGE_MESSAGES;
-            var3 = null;
-            if(!(var6 === var5)) { _fun0012_ip = 85; continue _fun0012 }
-case 86:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 1;
-            var6 = var10[var5];
-            var6 = var9.bind(var8)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var5 = var10[var5];
-            var5 = var9.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.62sGhW;
-            var3 = var6.bind(var7)(var5);
-case 85:
-            _fun0012_ip = 87; continue _fun0012;
-case 82:
-            var7 = _closure1_slot0;
+            var4 = 1;
+            var6 = var10[var4];
+            var6 = var9.bind(var7)(var6);
+            var8 = var6.intl;
+            var6 = var8.string;
+            var4 = var10[var4];
+            var4 = var9.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.zSc2tb;
+            var1 = var6.bind(var8)(var4);
+case 65:
+            _fun0012_ip = 67; continue _fun0012;
+case 62:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var4 = 1;
+            var6 = var10[var4];
+            var6 = var9.bind(var7)(var6);
+            var8 = var6.intl;
+            var6 = var8.string;
+            var4 = var10[var4];
+            var4 = var9.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.Han3PH;
+            var1 = var6.bind(var8)(var4);
+case 67:
+            _fun0012_ip = 68; continue _fun0012;
+case 61:
+            if(!(var5 !== var2)) { _fun0012_ip = 69; continue _fun0012 }
+case 70:
+            var2 = _closure1_slot3;
+            var2 = var2.MANAGE_THREADS;
+            if(!(var5 !== var2)) { _fun0012_ip = 69; continue _fun0012 }
+case 71:
+            var2 = _closure1_slot3;
+            var4 = var2.MANAGE_MESSAGES;
+            var2 = null;
+            if(!(var5 === var4)) { _fun0012_ip = 72; continue _fun0012 }
+case 73:
+            var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 1;
             var5 = var9[var4];
-            var5 = var7.bind(var8)(var5);
+            var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
             var4 = var9[var4];
-            var4 = var7.bind(var8)(var4);
+            var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.JD3HnA;
-            var3 = var5.bind(var6)(var4);
-case 87:
-            var2 = var3;
-case 81:
+            var4 = var4.62sGhW;
+            var2 = var5.bind(var6)(var4);
+case 72:
+            _fun0012_ip = 74; continue _fun0012;
+case 69:
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 1;
+            var4 = var8[var3];
+            var4 = var6.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.t;
+            var3 = var3.JD3HnA;
+            var2 = var4.bind(var5)(var3);
+case 74:
             var1 = var2;
-case 76:
+case 68:
             return var1;
         }
     };

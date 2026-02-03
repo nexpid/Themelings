@@ -451,16 +451,16 @@ case 21:
                     var9 = var2 == var7;
                     var7 = undefined;
                     if(var9) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+case 3:
                     var8 = _closure2_slot1;
                     var7 = var8.id;
 case 23:
                     var8 = var2 != var7;
                     var2 = undefined;
-                    if(!var8) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-                    var2 = var7;
+                    if(!var8) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
+                    var2 = var7;
+case 24:
                     var3['selectedItem'] = var2;
                     var2 = 'SelectUpdatesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
@@ -468,8 +468,8 @@ case 25:
                 }
             };
             var6['onPress'] = var11;
-            if(!(var8 == var14)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!(var8 == var14)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var12 = _closure1_slot11;
             var11 = _closure1_slot1;
             var17 = _closure1_slot3;
@@ -481,14 +481,14 @@ case 28:
             var16 = var15.channelIcon;
             var8['style'] = var16;
             var11 = var12.bind(var4)(var11, var8);
-            _fun0001_ip = 29; continue _fun0001;
-case 27:
+            _fun0001_ip = 28; continue _fun0001;
+case 26:
             var12 = _closure1_slot11;
             var8 = {};
             var16 = var15.channelIcon;
             var8['style'] = var16;
             var11 = var12.bind(var4)(var14, var8);
-case 29:
+case 28:
             var8 = new Array(3);
             var8[0] = var11;
             var11 = _closure1_slot11;

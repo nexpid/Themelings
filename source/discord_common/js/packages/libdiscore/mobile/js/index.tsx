@@ -132,7 +132,8 @@ case 4:
         var3['consumeLogs'] = var5;
         var3['BlockedDomainsStore'] = var4;
         var4 = function getFluxApi() {
-            var1 = null;
+            var1 = _closure1_slot2;
+            var1 = var1.fluxApi;
             return var1;
         };
         var3['getFluxApi'] = var4;

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildFeatures;
     var _closure1_slot5 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -42,53 +42,53 @@ case 0:
             var8 = arg1;
             var _closure2_slot0 = var8;
             var5 = _closure1_slot1;
-            var24 = _closure1_slot2;
+            var25 = _closure1_slot2;
             var3 = 3;
-            var3 = var24[var3];
-            var22 = undefined;
-            var4 = var5.bind(var22)(var3);
+            var3 = var25[var3];
+            var23 = undefined;
+            var4 = var5.bind(var23)(var3);
             var3 = var8.id;
-            var16 = var4.bind(var22)(var3);
-            var21 = _closure1_slot0;
+            var16 = var4.bind(var23)(var3);
+            var22 = _closure1_slot0;
             var3 = 4;
-            var3 = var24[var3];
-            var6 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var6 = var22.bind(var23)(var3);
             var4 = var6.useCanReviewGuildMemberApplications;
             var3 = var8.id;
             var7 = var4.bind(var6)(var3);
             var3 = 5;
-            var3 = var24[var3];
-            var6 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var6 = var22.bind(var23)(var3);
             var4 = var6.useShowRoleSubscriptionsInChannelList;
             var3 = var8.id;
             var12 = var4.bind(var6)(var3);
             var3 = 6;
-            var3 = var24[var3];
-            var4 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var4 = var22.bind(var23)(var3);
             var3 = var4.useGuildShopVisibleInGuild;
             var11 = var3.bind(var4)(var8);
             var3 = 7;
-            var3 = var24[var3];
-            var4 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var4 = var22.bind(var23)(var3);
             var3 = var4.hasSocialLayerStorefront;
             var9 = var3.bind(var4)(var8);
             var3 = 8;
-            var3 = var24[var3];
-            var6 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var6 = var22.bind(var23)(var3);
             var4 = var6.useIsEligibleForSocialLayerStorefrontUserExperiment;
             var3 = {};
-            var10 = 'guild-action-rows';
-            var3['location'] = var10;
+            var24 = 'guild-action-rows';
+            var3['location'] = var24;
             var10 = var4.bind(var6)(var3);
             var3 = 9;
-            var3 = var24[var3];
-            var6 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var6 = var22.bind(var23)(var3);
             var4 = var6.useCanSeeOnboardingHome;
             var3 = var8.id;
             var18 = var4.bind(var6)(var3);
             var3 = 10;
-            var3 = var24[var3];
-            var13 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var13 = var22.bind(var23)(var3);
             var6 = var13.useStateFromStores;
             var3 = _closure1_slot3;
             var4 = new Array(1);
@@ -104,21 +104,21 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var17 = var6.bind(var13)(var4, var1, var3);
+            var19 = var6.bind(var13)(var4, var1, var3);
             var1 = 11;
-            var1 = var24[var1];
-            var3 = var5.bind(var22)(var1);
+            var1 = var25[var1];
+            var3 = var5.bind(var23)(var1);
             var1 = var8.id;
-            var19 = var3.bind(var22)(var1);
+            var20 = var3.bind(var23)(var1);
             var1 = 12;
-            var1 = var24[var1];
-            var4 = var21.bind(var22)(var1);
+            var1 = var25[var1];
+            var4 = var22.bind(var23)(var1);
             var3 = var4.useAllActionsCompleted;
             var1 = var8.id;
-            var20 = var3.bind(var4)(var1);
+            var17 = var3.bind(var4)(var1);
             var1 = 13;
-            var1 = var24[var1];
-            var4 = var21.bind(var22)(var1);
+            var1 = var25[var1];
+            var4 = var22.bind(var23)(var1);
             var3 = var4.useCanAccessMemberSafetyPage;
             var1 = var8.id;
             var1 = var3.bind(var4)(var1);
@@ -133,42 +133,49 @@ case 0:
             var3 = var4.COMMUNITY;
             var15 = var6.bind(var14)(var3);
             var3 = 14;
-            var3 = var24[var3];
-            var14 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var14 = var22.bind(var23)(var3);
             var6 = var14.useShowBrowseChannelsExperiment;
             var3 = 15;
-            var3 = var24[var3];
-            var25 = var21.bind(var22)(var3);
-            var23 = var25.isOptInEnabledForGuild;
+            var3 = var25[var3];
+            var26 = var22.bind(var23)(var3);
+            var21 = var26.isOptInEnabledForGuild;
             var3 = var8.id;
-            var3 = var23.bind(var25)(var3);
+            var3 = var21.bind(var26)(var3);
             var3 = !var3;
             var14 = var6.bind(var14)(var3);
-            var23 = var8.features;
-            var6 = var23.has;
+            var21 = var8.features;
+            var6 = var21.has;
             var3 = var4.ENABLED_MODERATION_EXPERIENCE_FOR_NON_COMMUNITY;
-            var3 = var6.bind(var23)(var3);
+            var3 = var6.bind(var21)(var3);
             var3 = 16;
-            var3 = var24[var3];
-            var5 = var5.bind(var22)(var3);
+            var3 = var25[var3];
+            var5 = var5.bind(var23)(var3);
             var3 = var8.id;
-            var5 = var5.bind(var22)(var3);
+            var5 = var5.bind(var23)(var3);
             var3 = 17;
-            var3 = var24[var3];
-            var6 = var21.bind(var22)(var3);
+            var3 = var25[var3];
+            var6 = var22.bind(var23)(var3);
             var3 = var6.useGuildPowerupsMobileEnabledExperiment;
-            var23 = 'useGuildActionRows';
-            var6 = var3.bind(var6)(var23);
+            var27 = 'useGuildActionRows';
+            var6 = var3.bind(var6)(var27);
             var3 = 18;
-            var3 = var24[var3];
-            var22 = var21.bind(var22)(var3);
-            var21 = var22.useGameServerEnabled;
+            var3 = var25[var3];
+            var26 = var22.bind(var23)(var3);
+            var21 = var26.useGameServerEnabled;
             var3 = var8.id;
-            var3 = var21.bind(var22)(var3, var23);
-            var22 = var8.features;
-            var21 = var22.has;
+            var3 = var21.bind(var26)(var3, var27);
+            var26 = var8.features;
+            var21 = var26.has;
             var4 = var4.GAME_SERVERS;
-            var4 = var21.bind(var22)(var4);
+            var4 = var21.bind(var26)(var4);
+            var21 = 19;
+            var21 = var25[var21];
+            var23 = var22.bind(var23)(var21);
+            var22 = var23.useIsBoostProgressBarEnabled;
+            var21 = {};
+            var21['location'] = var24;
+            var21 = var22.bind(var23)(var8, var21);
             if(!var13) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var22 = var1.push;
@@ -176,124 +183,130 @@ case 3:
             var21 = var21.GUILD_HUB_HEADER_OPTIONS;
             var21 = var22.bind(var1)(var21);
 case 2:
-            if(var20) { _fun0001_ip = 4; continue _fun0001 }
+            var17 = !var17;
+            if(!var17) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
-            if(!var19) { _fun0001_ip = 4; continue _fun0001 }
+            var17 = var18;
+case 4:
+            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var19 = null;
-            if(!(var19 != var17)) { _fun0001_ip = 4; continue _fun0001 }
-case 8:
-            var19 = var17.length;
-            var17 = 0;
-            if(!(var19 > var17)) { _fun0001_ip = 4; continue _fun0001 }
+            var17 = var20;
+case 6:
+            if(!var17) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var20 = null;
+            var17 = var20 != var19;
+case 8:
+            if(!var17) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var20 = var19.length;
+            var19 = 0;
+            var17 = var20 > var19;
+case 10:
+            if(!var17) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var19 = var1.push;
             var17 = _closure1_slot4;
             var17 = var17.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
             var17 = var19.bind(var1)(var17);
-            _fun0001_ip = 10; continue _fun0001;
-case 4:
-            var17 = var8.premiumProgressBarEnabled;
-case 10:
-            var17 = !var13;
-            if(!var17) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
+            var17 = !var13;
+            if(!var17) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var17 = var18;
-case 11:
-            if(!var17) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
+            if(!var17) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var18 = var1.push;
             var17 = _closure1_slot4;
             var17 = var17.GUILD_HOME;
             var17 = var18.bind(var1)(var17);
-case 13:
-            if(!var16) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
+            if(!var16) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var17 = var1.push;
             var16 = _closure1_slot4;
             var16 = var16.GUILD_SCHEDULED_EVENTS;
             var16 = var17.bind(var1)(var16);
-case 15:
-            var13 = !var13;
-            if(!var13) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
+            var13 = !var13;
+            if(!var13) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var13 = var15;
-case 17:
-            if(!var13) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
+            if(!var13) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var13 = var14;
-case 19:
-            if(!var13) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            if(!var13) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var14 = var1.push;
             var13 = _closure1_slot4;
             var13 = var13.CHANNELS_AND_ROLES;
             var13 = var14.bind(var1)(var13);
-case 21:
-            if(!var12) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
+            if(!var12) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var13 = var1.push;
             var12 = _closure1_slot4;
             var12 = var12.GUILD_ROLE_SUBSCRIPTIONS;
             var12 = var13.bind(var1)(var12);
-case 23:
-            if(!var11) { _fun0001_ip = 25; continue _fun0001 }
 case 26:
+            if(!var11) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var12 = var1.push;
             var11 = _closure1_slot4;
             var11 = var11.GUILD_SHOP;
             var11 = var12.bind(var1)(var11);
-case 25:
-            if(!var9) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
+            if(!var9) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var9 = var10;
-case 27:
-            if(!var9) { _fun0001_ip = 29; continue _fun0001 }
 case 30:
+            if(!var9) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var10 = var1.push;
             var9 = _closure1_slot4;
             var9 = var9.GUILD_GAME_SHOP;
             var9 = var10.bind(var1)(var9);
-case 29:
-            if(!var7) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
+            if(!var7) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var10 = var8.features;
             var9 = var10.has;
             var8 = _closure1_slot5;
             var8 = var8.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             var7 = var9.bind(var10)(var8);
-case 31:
-            if(!var7) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
+            if(!var7) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var8 = var1.push;
             var7 = _closure1_slot4;
             var7 = var7.GUILD_MOD_DASH_MEMBER_SAFETY;
             var7 = var8.bind(var1)(var7);
-case 33:
-            if(!var5) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
+            if(!var5) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var5 = var6;
-case 35:
-            if(!var5) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
+            if(!var5) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var6 = var1.push;
             var5 = _closure1_slot4;
             var5 = var5.GUILD_BOOSTS;
             var5 = var6.bind(var1)(var5);
-case 37:
-            if(!var3) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
+            if(!var3) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var3 = var4;
-case 39:
-            if(!var3) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
+            if(!var3) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var3 = var1.push;
             var2 = _closure1_slot4;
             var2 = var2.GAME_SERVERS;
             var2 = var3.bind(var1)(var2);
-case 41:
+case 44:
             return var1;
         }
     };

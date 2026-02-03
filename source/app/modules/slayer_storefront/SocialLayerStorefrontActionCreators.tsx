@@ -569,35 +569,44 @@ case 0:
 case 47:
                     var5 = arg1;
 case 3: // try_start_0
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var6[var2];
+                    var4 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var7 = 4;
+                    var2 = var8[var7];
                     var6 = undefined;
+                    var9 = var4.bind(var6)(var2);
+                    var4 = var9.dispatch;
+                    var2 = {};
+                    var10 = 'SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_START';
+                    var2['type'] = var10;
+                    var11 = var5;
+                    var2['guildId'] = var11;
+                    var2 = var4.bind(var9)(var2);
+                    var4 = _closure1_slot0;
+                    var2 = 5;
+                    var2 = var8[var2];
                     var2 = var4.bind(var6)(var2);
-                    var7 = var2.HTTP;
-                    var4 = var7.get;
+                    var8 = var2.HTTP;
+                    var4 = var8.get;
                     var2 = {};
                     var10 = _closure1_slot5;
                     var9 = var10.SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT;
-                    var8 = var5;
-                    var8 = var9.bind(var10)(var8);
-                    var2['url'] = var8;
-                    var8 = true;
-                    var2['rejectWithError'] = var8;
-                    var2 = var4.bind(var7)(var2);
-                    SaveGenerator(address=87);
+                    var9 = var9.bind(var10)(var11);
+                    var2['url'] = var9;
+                    var9 = true;
+                    var2['rejectWithError'] = var9;
+                    var2 = var4.bind(var8)(var2);
+                    SaveGenerator(address=129);
 case 79:
                     return var2;
-case 80:
+case 16:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 81; continue _fun0004 }
-case 82:
+                    if(var4) { _fun0004_ip = 80; continue _fun0004 }
+case 49:
                     var8 = var2.body;
                     var4 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var7[var3];
+                    var3 = _closure1_slot2;
+                    var3 = var3[var7];
                     var6 = var4.bind(var6)(var3);
                     var4 = var6.dispatch;
                     var3 = {};
@@ -618,11 +627,11 @@ case 82:
                     var7['backgroundImageAssetId'] = var8;
                     var3['announcement'] = var7;
                     var3 = var4.bind(var6)(var3);
-case 25: // try_end0
-                    _fun0004_ip = 83; continue _fun0004;
-case 81:
+case 81: // try_end0
+                    _fun0004_ip = 82; continue _fun0004;
+case 80:
                     return var2;
-case 24: // catch_target0
+case 83: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -636,7 +645,7 @@ case 24: // catch_target0
                     var2['type'] = var6;
                     var2['guildId'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 83:
+case 82:
                     var2 = undefined;
                     return var2;
 case 78:

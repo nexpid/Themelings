@@ -191,8 +191,8 @@ case 0:
                 var1 = arg1;
                 var23 = var1.sharedContent;
                 var _closure2_slot0 = var23;
-                var28 = var1.onClose;
-                var _closure2_slot1 = var28;
+                var27 = var1.onClose;
+                var _closure2_slot1 = var27;
                 var4 = undefined;
                 var _closure2_slot8 = var4;
                 var _closure2_slot9 = var4;
@@ -713,7 +713,7 @@ case 20:
                 };
                 var6 = var6.bind(var4)(var3);
                 var3 = new Array(4);
-                var3[0] = var28;
+                var3[0] = var27;
                 var3[1] = var25;
                 var12 = var23.attachments;
                 var3[2] = var12;
@@ -852,19 +852,19 @@ case 62:
                 var7 = var12.bind(var4)(var7);
                 var8 = var7.Header;
                 var7 = {};
-                var27 = var9.header;
-                var7['headerStyle'] = var27;
-                var27 = 14;
-                var29 = var26[var27];
+                var28 = var9.header;
+                var7['headerStyle'] = var28;
+                var28 = 14;
+                var29 = var26[var28];
                 var29 = var12.bind(var4)(var29);
                 var30 = var29.intl;
                 var29 = var30.string;
-                var27 = var26[var27];
-                var27 = var12.bind(var4)(var27);
-                var27 = var27.t;
-                var27 = var27.MR7/kg;
-                var27 = var29.bind(var30)(var27);
-                var7['title'] = var27;
+                var28 = var26[var28];
+                var28 = var12.bind(var4)(var28);
+                var28 = var28.t;
+                var28 = var28.MR7/kg;
+                var28 = var29.bind(var30)(var28);
+                var7['title'] = var28;
                 var11 = function headerTitle(arg1) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -936,22 +936,35 @@ case 67:
                 var7['headerTitle'] = var11;
                 var11 = 'center';
                 var7['headerTitleAlign'] = var11;
-                var11 = 32;
+                var11 = 29;
                 var11 = var26[var11];
-                var27 = var12.bind(var4)(var11);
-                var11 = var27.getHeaderCloseButton;
-                var11 = var11.bind(var27)(var28);
+                var12 = var12.bind(var4)(var11);
+                var11 = var12.isMetaQuest;
+                var12 = var11.bind(var12)();
+                var11 = undefined;
+                if(var12) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
+                var26 = _closure1_slot0;
+                var28 = _closure1_slot2;
+                var12 = 32;
+                var12 = var28[var12];
+                var26 = var26.bind(var4)(var12);
+                var12 = var26.getHeaderCloseButton;
+                var11 = var12.bind(var26)(var27);
+case 69:
                 var7['headerLeft'] = var11;
+                var12 = _closure1_slot0;
+                var26 = _closure1_slot2;
                 var11 = 12;
                 var11 = var26[var11];
                 var12 = var12.bind(var4)(var11);
                 var11 = var12.isIOS;
                 var12 = var11.bind(var12)();
                 var11 = undefined;
-                if(!var12) { _fun0003_ip = 69; continue _fun0003 }
-case 70:
+                if(!var12) { _fun0003_ip = 71; continue _fun0003 }
+case 72:
                 var11 = 0;
-case 69:
+case 71:
                 var7['headerStatusBarHeight'] = var11;
                 var7 = var6.bind(var4)(var8, var7);
                 var5['children'] = var7;
@@ -979,20 +992,20 @@ case 69:
                 var23 = var23.length;
                 var24 = var23 > var17;
                 var23 = undefined;
-                if(!var24) { _fun0003_ip = 71; continue _fun0003 }
-case 72:
+                if(!var24) { _fun0003_ip = 73; continue _fun0003 }
+case 74:
                 var23 = _closure1_slot21;
-case 71:
+case 73:
                 var9['getRowIsUnavailable'] = var23;
                 var9['insetEnd'] = var17;
                 var9['disableGradient'] = var22;
                 var9['disableStickySections'] = var22;
                 var22 = _closure1_slot15;
                 var22 = var16 >= var22;
-                if(var22) { _fun0003_ip = 73; continue _fun0003 }
-case 74:
+                if(var22) { _fun0003_ip = 75; continue _fun0003 }
+case 76:
                 var22 = var13;
-case 73:
+case 75:
                 var9['disableSelection'] = var22;
                 var11 = var12.bind(var4)(var11, var9);
                 var9 = new Array(2);
@@ -1009,10 +1022,10 @@ case 73:
                 var10['preview'] = var19;
                 var10['sendLabel'] = var18;
                 var16 = var16 > var17;
-                if(!var16) { _fun0003_ip = 75; continue _fun0003 }
-case 76:
+                if(!var16) { _fun0003_ip = 77; continue _fun0003 }
+case 78:
                 var16 = !var13;
-case 75:
+case 77:
                 var10['canSend'] = var16;
                 var10['isSending'] = var15;
                 var10['onSend'] = var14;

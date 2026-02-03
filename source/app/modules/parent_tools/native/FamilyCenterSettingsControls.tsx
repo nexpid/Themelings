@@ -47,14 +47,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function FamilyCenterSettingsControls() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var15 = 4;
             var1 = var3[var15];
             var4 = undefined;
-            var5 = var2.bind(var4)(var1);
-            var1 = var5.useUserIsTeen;
-            var5 = var1.bind(var5)();
+            var1 = var2.bind(var4)(var1);
+            var5 = var1.bind(var4)();
+            var2 = _closure1_slot0;
             var1 = 5;
             var1 = var3[var1];
             var6 = var2.bind(var4)(var1);

@@ -368,18 +368,18 @@ case 34:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 20; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 36; continue _fun0006 }
 case 7:
                     var2 = _closure1_slot9;
                     var3 = var2.NativePermissionManager;
                     var2 = var3.hasPhotoAuthorization;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=39);
-case 36:
-                    return var2;
 case 37:
+                    return var2;
+case 38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 38; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 39; continue _fun0006 }
 case 9:
                     var3 = _closure1_slot11;
                     var3 = var3.AUTHORIZED;
@@ -391,41 +391,38 @@ case 9:
                     var3 = 13;
                     var4 = var4[var3];
                     var3 = undefined;
-                    var10 = var8.bind(var3)(var4);
-                    var9 = var10.getCurrentConfig;
-                    var8 = {};
-                    var4 = 'native-BugReportManager';
-                    var8['location'] = var4;
+                    var9 = var8.bind(var3)(var4);
+                    var8 = var9.getConfig;
                     var4 = {};
-                    var11 = false;
-                    var4['autoTrackExposure'] = var11;
-                    var4 = var9.bind(var10)(var8, var4);
+                    var10 = 'native-BugReportManager';
+                    var4['location'] = var10;
+                    var4 = var8.bind(var9)(var4);
                     var4 = var4.hasBugReporterAccess;
-                    if(!var4) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
-                    var4 = var7;
-case 39:
-                    if(!var4) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
-                    var4 = var6;
+                    if(!var4) { _fun0006_ip = 40; continue _fun0006 }
 case 41:
-                    if(!var4) { _fun0006_ip = 12; continue _fun0006 }
+                    var4 = var7;
+case 40:
+                    if(!var4) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
+                    var4 = var6;
+case 42:
+                    if(!var4) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
                     var6 = _closure1_slot12;
                     var4 = null;
-                    if(!(var4 == var6)) { _fun0006_ip = 12; continue _fun0006 }
-case 44:
+                    if(!(var4 == var6)) { _fun0006_ip = 44; continue _fun0006 }
+case 46:
                     var8 = _closure1_slot13;
                     var7 = var8.addListener;
                     var6 = _closure1_slot15;
                     var4 = 'screenshotTaken';
                     var4 = var7.bind(var8)(var4, var6);
                     _closure1_slot12 = var4;
-case 12:
+case 44:
                     return var3;
-case 38:
+case 39:
                     return var2;
-case 20:
+case 36:
                     return var1;
                 }
             };

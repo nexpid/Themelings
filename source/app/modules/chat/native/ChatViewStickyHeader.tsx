@@ -147,8 +147,8 @@ case 0:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)(var10);
-            var11 = var2.showUnreadsNotice;
-            var14 = var2.clearUnreadsNotice;
+            var8 = var2.showUnreadsNotice;
+            var13 = var2.clearUnreadsNotice;
             var3 = var7.useImperativeHandle;
             var2 = arg2;
             var1 = function() {
@@ -181,13 +181,13 @@ case 10:
             var1 = {};
             var7 = var10.isForumPost;
             var12 = var7.bind(var10)();
-            var8 = null;
+            var11 = null;
             if(!var12) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var8 = null;
+            var11 = null;
             if(!var5) { _fun0002_ip = 12; continue _fun0002 }
 case 14:
-            var13 = _closure1_slot6;
+            var14 = _closure1_slot6;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
             var5 = 11;
@@ -195,68 +195,52 @@ case 14:
             var12 = var12.bind(var4)(var5);
             var5 = {};
             var5['channel'] = var10;
-            var8 = var13.bind(var4)(var12, var5);
+            var11 = var14.bind(var4)(var12, var5);
 case 12:
-            var5 = new Array(5);
-            var5[0] = var8;
-            var8 = var10.isDM;
-            var12 = var8.bind(var10)();
-            var8 = null;
+            var5 = new Array(4);
+            var5[0] = var11;
+            var11 = var10.isDM;
+            var12 = var11.bind(var10)();
+            var11 = null;
             if(!var12) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
             var15 = _closure1_slot6;
-            var13 = _closure1_slot9;
+            var14 = _closure1_slot9;
             var12 = {};
             var16 = var10.id;
             var12['channelId'] = var16;
             var16 = var10.getRecipientId;
             var16 = var16.bind(var10)();
             var12['senderId'] = var16;
-            var8 = var15.bind(var4)(var13, var12);
+            var11 = var15.bind(var4)(var14, var12);
 case 15:
-            var5[1] = var8;
-            var8 = null;
-            if(!var11) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var13 = _closure1_slot6;
-            var12 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var11 = 12;
-            var11 = var15[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = {};
-            var11['channel'] = var10;
-            var11['clearUnreadsNotice'] = var14;
-            var8 = var13.bind(var4)(var12, var11);
-case 17:
-            var5[2] = var8;
-            var8 = var10.isDM;
-            var8 = var8.bind(var10)();
+            var5[1] = var11;
             var7 = null;
-            if(!var8) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var12 = _closure1_slot6;
             var11 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var8 = 13;
-            var8 = var13[var8];
+            var14 = _closure1_slot2;
+            var8 = 12;
+            var8 = var14[var8];
             var11 = var11.bind(var4)(var8);
             var8 = {};
             var8['channel'] = var10;
+            var8['clearUnreadsNotice'] = var13;
             var7 = var12.bind(var4)(var11, var8);
-case 19:
-            var5[3] = var7;
+case 17:
+            var5[2] = var7;
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 14;
+            var6 = 13;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['channel'] = var10;
             var6['handleScrollToNewMessages'] = var9;
             var6 = var8.bind(var4)(var7, var6);
-            var5[4] = var6;
+            var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -265,7 +249,7 @@ case 19:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -77,6 +77,9 @@ case 2:
         var4 = var4.quest_bar_hero;
         var3['questBarHero'] = var4;
         var4 = var2.assets;
+        var4 = var4.quest_bar_hero_blurhash;
+        var3['questBarHeroBlurhash'] = var4;
+        var4 = var2.assets;
         var4 = var4.quest_bar_hero_video;
         var3['questBarHeroVideo'] = var4;
         var4 = var2.assets;

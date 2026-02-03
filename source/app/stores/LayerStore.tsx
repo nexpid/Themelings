@@ -166,8 +166,8 @@ case 0:
             var1 = var4.indexOf;
             var1 = var1.bind(var4)(var3);
             var5 = 0;
-            if(!(!(var1 >= var5))) { _fun0003_ip = 3; continue _fun0003 }
-case 9:
+            if(!(!(var1 >= var5))) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var7 = _closure1_slot5;
             var1 = new Array(1);
             var8 = var1;
@@ -179,7 +179,7 @@ case 9:
             _closure1_slot5 = var1;
             var1 = undefined;
             return var1;
-case 3:
+case 9:
             var1 = false;
             return var1;
         }
@@ -191,8 +191,8 @@ case 0:
             var1 = _closure1_slot5;
             var1 = var1.length;
             var5 = 0;
-            if(!(var5 !== var1)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+            if(!(var5 !== var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var4 = _closure1_slot5;
             var3 = var4.slice;
             var1 = -1;
@@ -200,7 +200,7 @@ case 11:
             _closure1_slot5 = var1;
             var1 = undefined;
             return var1;
-case 10:
+case 11:
             var1 = false;
             return var1;
         }

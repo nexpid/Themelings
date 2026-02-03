@@ -305,7 +305,7 @@ case 0:
                 var4 = arg1;
                 var3 = this;
                 var5 = var3.type;
-                var1 = 'kvPartition';
+                var1 = '0';
                 var2 = 'kv';
                 if(!(var2 !== var5)) { _fun0005_ip = 3; continue _fun0005 }
 case 39:
@@ -634,7 +634,7 @@ case 0:
                 var4 = _closure1_slot13;
                 var2 = null;
                 var2 = var2 != var1;
-                var3 = 'kvPartition';
+                var3 = '0';
                 if(!var2) { _fun0008_ip = 38; continue _fun0008 }
 case 53:
                 var3 = var1;

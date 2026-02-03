@@ -1597,10 +1597,10 @@ case 100:
                     var6 = var12.bind(var13)(var6);
                     var6 = _closure2_slot4;
                     if(var6) { _fun0010_ip = 105; continue _fun0010 }
-case 12:
+case 106:
                     var6 = _closure2_slot5;
 case 105:
-                    if(var6) { _fun0010_ip = 106; continue _fun0010 }
+                    if(var6) { _fun0010_ip = 34; continue _fun0010 }
 case 107:
                     var12 = var11.push;
                     var13 = _closure1_slot0;
@@ -1612,7 +1612,7 @@ case 107:
                     var6 = var6.id;
                     var6 = var13.bind(var14)(var6, var5);
                     var6 = var12.bind(var11)(var6);
-case 106:
+case 34:
                     var6 = {};
                     var6['overwrites'] = var11;
                     var6['guildId'] = var8;
@@ -1623,7 +1623,7 @@ case 106:
                     var4 = _closure1_slot15;
                     var4 = var4.GUILD_STAGE_VOICE;
                     if(!(var5 !== var4)) { _fun0010_ip = 108; continue _fun0010 }
-case 44:
+case 24:
                     var4 = _closure2_slot8;
                     var4 = var4.bind(var1)(var6);
                     _fun0010_ip = 109; continue _fun0010;

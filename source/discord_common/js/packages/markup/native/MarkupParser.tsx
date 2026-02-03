@@ -10,67 +10,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function saferParse(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var9 = arguments[3];
-            var8 = arguments[4];
-            var6 = arg1;
-            var7 = arg2;
-            var2 = arg3;
-            var5 = undefined;
-            if(!(var9 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = arguments[3];
+            var9 = arguments[4];
+            var7 = arg1;
+            var8 = arg2;
+            var3 = arg3;
+            var6 = undefined;
+            if(!(var10 === var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = null;
+            var10 = null;
 case 2:
-            var3 = var9;
-            if(!(var8 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = var10;
+            if(!(var9 === var6)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = true;
+            var9 = true;
 case 4:
-            var4 = var8;
+            var5 = var9;
             var1 = undefined;
+            var2 = undefined;
 case 6: // try_start_0
-            var8 = var4;
-            if(!var8) { _fun0001_ip = 7; continue _fun0001 }
+            var9 = var5;
+            if(!var9) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var9 = var7;
-            var8 = '\n\n';
-            var7 = var9 + var8;
+            var10 = var8;
+            var9 = '\n\n';
+            var8 = var10 + var9;
 case 7:
-            var8 = var6;
-            var10 = var2;
-            var13 = var8.bind(var5)(var7, var10);
-            var1 = var13;
-            var8 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var7 = 0;
-            var9 = var11[var7];
-            var12 = var8.bind(var5)(var9);
-            var9 = var12.constrainAst;
-            var9 = var9.bind(var12)(var13);
-            var1 = var9;
-            var7 = var11[var7];
-            var8 = var8.bind(var5)(var7);
-            var7 = var8.flattenAst;
-            var1 = var7.bind(var8)(var10, var9);
+            var9 = var7;
+            var11 = var3;
+            var14 = var9.bind(var6)(var8, var11);
+            var1 = var14;
+            var9 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 0;
+            var10 = var12[var8];
+            var13 = var9.bind(var6)(var10);
+            var10 = var13.constrainAst;
+            var10 = var10.bind(var13)(var14);
+            var2 = var10.hasBailedAst;
+            var10 = var10.ast;
+            var1 = var10;
+            var8 = var12[var8];
+            var9 = var9.bind(var6)(var8);
+            var8 = var9.flattenAst;
+            var1 = var8.bind(var9)(var11, var10);
 case 9: // try_end0
             _fun0001_ip = 10; continue _fun0001;
 case 11: // catch_target0
-            CatchBlockStart(arg_register=6);
-            var7 = var6;
-            var6 = '';
-            if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+            CatchBlockStart(arg_register=7);
+            var8 = var7;
+            var7 = '';
+            if(!var5) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var6 = '\n\n';
+            var7 = '\n\n';
 case 12:
-            var4 = var2;
-            var1 = var7.bind(var5)(var6, var4);
+            var5 = var3;
+            var1 = var8.bind(var6)(var7, var5);
+            var2 = false;
 case 10:
-            var4 = var3;
-            if(!var4) { _fun0001_ip = 14; continue _fun0001 }
+            var5 = var4;
+            if(!var5) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var4 = var3;
-            var3 = var1;
-            var2 = var2.inline;
-            var1 = var4.bind(var5)(var3, var2);
+            var5 = var4;
+            var4 = var1;
+            var3 = var3.inline;
+            var1 = var5.bind(var6)(var4, var3, var2);
 case 14:
             return var1;
         }
@@ -217,15 +221,15 @@ case 27: // catch_target0
                 var5 = var7;
                 var6 = null;
                 if(!(var6 != var7)) { _fun0003_ip = 28; continue _fun0003 }
-case 12:
+case 29:
                 var7 = var5;
                 var6 = var7.includes;
                 var5 = 'Cannot convert undefined';
                 var5 = var6.bind(var7)(var5);
-                if(var5) { _fun0003_ip = 29; continue _fun0003 }
+                if(var5) { _fun0003_ip = 30; continue _fun0003 }
 case 28:
                 throw var3;
-case 29:
+case 30:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var2 = 0;

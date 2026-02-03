@@ -22,18 +22,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2, arg3, arg4) {
-            var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
+        var3 = function* (arg1, arg2, arg3, arg4, arg5) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4, arg5) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var9 = arg1;
+                    var11 = arg1;
                     var10 = arg2;
-                    var8 = arg3;
-                    var7 = arg4;
+                    var9 = arg3;
+                    var8 = arg4;
+                    var7 = arg5;
 case 4: // try_start_0
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -48,7 +49,8 @@ case 4: // try_start_0
                     var6 = var6.GOOGLE_PLAY_VALIDATE_PURCHASE;
                     var2['url'] = var6;
                     var6 = {};
-                    var6['product_id'] = var9;
+                    var6['product_id'] = var11;
+                    var6['offer_id'] = var9;
                     var11 = var10;
                     var9 = null;
                     var11 = var9 == var11;
@@ -64,7 +66,7 @@ case 5:
                     var6 = false;
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=134);
+                    SaveGenerator(address=142);
 case 7:
                     return var2;
 case 8:
@@ -478,11 +480,12 @@ case 64:
                             var38 = var29;
                             var12 = var38[var28](var37, var36, var35, var34, var33);
 case 63:
-                            var26 = _closure1_slot12;
-                            var22 = var18;
-                            var12 = _closure2_slot0;
-                            var12 = var26.bind(var4)(var22, var12);
-                            SaveGenerator(address=837);
+                            var27 = _closure1_slot12;
+                            var26 = var18;
+                            var22 = _closure2_slot0;
+                            var12 = var21;
+                            var12 = var27.bind(var4)(var26, var22, var12);
+                            SaveGenerator(address=841);
 case 65:
                             return var12;
 case 66:
@@ -502,7 +505,7 @@ case 68:
                             var33 = var21;
                             var38 = var30;
                             var21 = var38[var29](var37, var36, var35, var34, var33, var32);
-                            SaveGenerator(address=897);
+                            SaveGenerator(address=901);
 case 69:
                             return var21;
 case 70:
@@ -581,13 +584,14 @@ case 82:
                             var23 = var24.toLowerCase;
                             var11 = var23.bind(var24)();
 case 80:
-                            var34 = var7;
+                            var33 = var7;
                             var38 = undefined;
                             var37 = var21;
                             var36 = var12;
-                            var35 = var11;
-                            var7 = var38[var22](var37, var36, var35, var34, var33);
-                            SaveGenerator(address=1155);
+                            var35 = null;
+                            var34 = var11;
+                            var7 = var38[var22](var37, var36, var35, var34, var33, var32);
+                            SaveGenerator(address=1161);
 case 83:
                             return var7;
 case 84:
@@ -602,7 +606,7 @@ case 86:
                             var12 = var21.purchase;
                             var11 = var18;
                             var9 = var12.bind(var21)(var11, var9);
-                            SaveGenerator(address=1200);
+                            SaveGenerator(address=1206);
 case 87:
                             return var9;
 case 88:

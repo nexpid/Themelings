@@ -736,21 +736,56 @@ case 27:
         }
     };
     var2['SOCIAL_LAYER_STOREFRONT_RECOMMENDATIONS_FETCH_START'] = var8;
+    var8 = function handleSocialLayerStorefrontAnnouncementFetchStart(arg1) {
+        var1 = arg1;
+        var3 = var1.guildId;
+        var2 = {};
+        var5 = _closure1_slot11;
+        var6 = var2;
+        var4 = copyDataProperties(var6, var5);
+        _closure1_slot11 = var2;
+        var1 = {};
+        var4 = 'loading';
+        var1['state'] = var4;
+        var2[var3] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_START'] = var8;
     var8 = function handleSocialLayerStorefrontAnnouncementFetchSuccess(arg1) {
         var1 = arg1;
-        var4 = var1.guildId;
-        var3 = var1.announcement;
-        var1 = _closure1_slot11;
-        var1[var4] = var3;
+        var3 = var1.guildId;
+        var4 = var1.announcement;
+        var2 = {};
+        var6 = _closure1_slot11;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        _closure1_slot11 = var2;
         var1 = {};
-        var5 = _closure1_slot11;
-        var6 = var1;
-        var3 = copyDataProperties(var6, var5);
-        _closure1_slot11 = var1;
+        var5 = 'success';
+        var1['state'] = var5;
+        var1['announcement'] = var4;
+        var2[var3] = var1;
         var1 = undefined;
         return var1;
     };
     var2['SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_SUCCESS'] = var8;
+    var8 = function handleSocialLayerStorefrontAnnouncementFetchFailure(arg1) {
+        var1 = arg1;
+        var3 = var1.guildId;
+        var2 = {};
+        var5 = _closure1_slot11;
+        var6 = var2;
+        var4 = copyDataProperties(var6, var5);
+        _closure1_slot11 = var2;
+        var1 = {};
+        var4 = 'error';
+        var1['state'] = var4;
+        var2[var3] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_FAILURE'] = var8;
     var8 = function handleSKUPurchaseEligibilityCheckStart(arg1) {
         var1 = arg1;
         var4 = var1.skuId;
