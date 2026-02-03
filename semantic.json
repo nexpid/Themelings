@@ -749,6 +749,36 @@
       }
     ]
   },
+  "BADGE_BACKGROUND_DEFAULT": {
+    "dark": [
+      "#4e505829",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#80848e29",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6c6f7c33",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#6c6f7c29",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ]
+  },
   "BADGE_NOTIFICATION_BACKGROUND": {
     "dark": [
       "#f23f43",
@@ -775,6 +805,36 @@
       "#f23f43",
       {
         "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
+  },
+  "BADGE_TEXT_DEFAULT": {
+    "dark": [
+      "#dbdee1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#dddee1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#c7c8ce",
+      {
+        "raw": "PLUM_6",
         "opacity": 1
       }
     ]

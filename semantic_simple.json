@@ -149,11 +149,23 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "BADGE_BACKGROUND_DEFAULT": {
+    "dark": "#4e505829",
+    "light": "#80848e29",
+    "midnight": "#6c6f7c33",
+    "darker": "#6c6f7c29"
+  },
   "BADGE_NOTIFICATION_BACKGROUND": {
     "dark": "#f23f43",
     "light": "#da373c",
     "midnight": "#f23f43",
     "darker": "#f23f43"
+  },
+  "BADGE_TEXT_DEFAULT": {
+    "dark": "#dbdee1",
+    "light": "#313338",
+    "midnight": "#dddee1",
+    "darker": "#c7c8ce"
   },
   "BG_SURFACE_RAISED": {
     "dark": "#383a40",
