@@ -900,7 +900,7 @@ case 53:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(24);
+        var1 = new Array(25);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -1327,7 +1327,7 @@ case 65:
         var5 = {};
         var7 = 'canRefetch';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var3 = _closure1_slot25;
@@ -1350,8 +1350,56 @@ case 66:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[23] = var5;
+        var5 = {};
+        var7 = 'isCurrentUserInRestrictedHours';
+        var5['key'] = var7;
+        var6 = function value() {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+case 0:
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 14;
+                var2 = var4[var2];
+                var5 = undefined;
+                var4 = var3.bind(var5)(var2);
+                var3 = var4.getIsFamilyCenterV3Enabled;
+                var2 = {};
+                var6 = 'isInRestrictedHours';
+                var2['location'] = var6;
+                var2 = var3.bind(var4)(var2);
+                if(var2) { _fun0022_ip = 64; continue _fun0022 }
+case 22:
+                var2 = false;
+                return var2;
+case 64:
+                var2 = _closure1_slot10;
+                var1 = var2.getCurrentUser;
+                var3 = var1.bind(var2)();
+                var1 = null;
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0022_ip = 67; continue _fun0022 }
+case 68:
+                var4 = var3.restrictedSchedule;
+                var3 = var1 == var4;
+                var2 = undefined;
+                if(var3) { _fun0022_ip = 67; continue _fun0022 }
+case 69:
+                var3 = var4.isInRestrictedHours;
+                var2 = var3.bind(var4)();
+case 67:
+                var1 = var1 != var2;
+                if(!var1) { _fun0022_ip = 70; continue _fun0022 }
+case 71:
+                var1 = var2;
+case 70:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[24] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1364,7 +1412,7 @@ case 66:
     var17 = var4;
     var2 = new var17[var2](var16);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

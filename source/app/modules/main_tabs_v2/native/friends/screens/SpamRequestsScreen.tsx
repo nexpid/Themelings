@@ -169,8 +169,8 @@ case 0:
             var7 = new Array(2);
             var7[0] = var10;
             var7[1] = var5;
-            var2 = function(arg1) {
-                var4 = arg1;
+            var2 = function(arg1, arg2) {
+                var4 = arg2;
                 var1 = {};
                 var2 = 'user';
                 var1['type'] = var2;

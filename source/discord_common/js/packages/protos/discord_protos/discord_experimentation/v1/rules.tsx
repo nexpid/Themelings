@@ -1,11 +1,11 @@
 // discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var45 = require;
-    var8 = metroImportDefault;
+    var46 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var46 = dependencyMap;
-    var _closure1_slot0 = var45;
-    var _closure1_slot1 = var46;
+    var47 = dependencyMap;
+    var _closure1_slot0 = var46;
+    var _closure1_slot1 = var47;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -88,56 +88,71 @@ case 9:
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
-    var5 = 0;
-    var2 = var46[var5];
+    var8 = 0;
+    var2 = var47[var8];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot2 = var2;
-    var4 = 1;
-    var2 = var46[var4];
-    var2 = var8.bind(var1)(var2);
+    var7 = 1;
+    var2 = var47[var7];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot3 = var2;
-    var7 = 2;
-    var2 = var46[var7];
-    var2 = var8.bind(var1)(var2);
+    var6 = 2;
+    var2 = var47[var6];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var6 = 3;
-    var2 = var46[var6];
-    var2 = var8.bind(var1)(var2);
+    var5 = 3;
+    var2 = var47[var5];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot5 = var2;
-    var2 = 4;
-    var2 = var46[var2];
-    var2 = var8.bind(var1)(var2);
+    var4 = 4;
+    var2 = var47[var4];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 5;
-    var2 = var46[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var47[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot7 = var2;
-    var43 = {};
-    var43['UNSPECIFIED'] = var5;
+    var44 = {};
+    var44['UNSPECIFIED'] = var8;
     var2 = 'UNSPECIFIED';
-    var43[var5] = var2;
-    var43['EXCLUDE'] = var4;
-    var2 = 'EXCLUDE';
-    var43[var4] = var2;
-    var43['OVERRIDE'] = var7;
-    var2 = 'OVERRIDE';
-    var43[var7] = var2;
-    var43['REQUIRE'] = var6;
-    var2 = 'REQUIRE';
-    var43[var6] = var2;
-    var _closure1_slot8 = var43;
+    var44[var8] = var2;
+    var44['EXCLUDE'] = var7;
+    var9 = 'EXCLUDE';
+    var44[var7] = var9;
+    var44['OVERRIDE'] = var6;
+    var9 = 'OVERRIDE';
+    var44[var6] = var9;
+    var44['REQUIRE'] = var5;
+    var9 = 'REQUIRE';
+    var44[var5] = var9;
+    var _closure1_slot8 = var44;
+    var43 = {};
+    var43['REGULAR'] = var8;
+    var9 = 'REGULAR';
+    var43[var8] = var9;
+    var43['HOLDOUT'] = var7;
+    var9 = 'HOLDOUT';
+    var43[var7] = var9;
+    var _closure1_slot9 = var43;
     var42 = {};
-    var42['REGULAR'] = var5;
-    var2 = 'REGULAR';
+    var42['UNSPECIFIED'] = var8;
+    var42[var8] = var2;
+    var42['USER'] = var7;
+    var2 = 'USER';
+    var42[var7] = var2;
+    var42['CLIENT'] = var6;
+    var2 = 'CLIENT';
+    var42[var6] = var2;
+    var42['GUILD'] = var5;
+    var2 = 'GUILD';
     var42[var5] = var2;
-    var42['HOLDOUT'] = var4;
-    var2 = 'HOLDOUT';
+    var42['UTILITY'] = var4;
+    var2 = 'UTILITY';
     var42[var4] = var2;
-    var _closure1_slot9 = var42;
     var2 = 6;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Rule$Type() {
@@ -533,11 +548,11 @@ case 42:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var41 = var4 instanceof Object ? var4 : var5;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Override$Type() {
@@ -769,12 +784,12 @@ case 57:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var40 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot10 = var40;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Filter$Type() {
@@ -2174,12 +2189,12 @@ case 136:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var39 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot11 = var39;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function StaffUsers$Type() {
@@ -2196,6 +2211,10 @@ case 136:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.StaffUsers'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -2437,12 +2456,12 @@ case 151:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var38 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot12 = var38;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserInGuild$Type() {
@@ -2457,6 +2476,10 @@ case 151:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserInGuild'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -2731,12 +2754,12 @@ case 145:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var37 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot13 = var37;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserIds$Type() {
@@ -2751,6 +2774,10 @@ case 145:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserIds'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -3025,12 +3052,12 @@ case 145:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var36 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot14 = var36;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserLocale$Type() {
@@ -3045,6 +3072,10 @@ case 145:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserLocale'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -3267,12 +3298,12 @@ case 178:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var35 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot15 = var35;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientLocale$Type() {
@@ -3287,6 +3318,10 @@ case 178:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientLocale'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -3509,12 +3544,12 @@ case 178:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var34 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot16 = var34;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientSystemLocale$Type() {
@@ -3529,6 +3564,10 @@ case 178:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientSystemLocale'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -3751,12 +3790,12 @@ case 178:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var33 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot17 = var33;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientLocation$Type() {
@@ -3776,6 +3815,10 @@ case 178:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientLocation'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -4006,12 +4049,12 @@ case 186:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var32 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot18 = var32;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientLocation_Place$Type() {
@@ -4300,12 +4343,12 @@ case 198:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var31 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot19 = var31;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientLocation_ISORegion$Type() {
@@ -4564,12 +4607,12 @@ case 204:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var30 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot20 = var30;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientLocation_Location$Type() {
@@ -4917,12 +4960,12 @@ case 221:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var29 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot21 = var29;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientIP$Type() {
@@ -4937,6 +4980,10 @@ case 221:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientIP'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -5159,12 +5206,12 @@ case 178:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var28 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot22 = var28;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientOperatingSystem$Type() {
@@ -5226,6 +5273,10 @@ case 178:
             var6[6] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientOperatingSystem'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -5689,12 +5740,12 @@ case 253:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var27 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot23 = var27;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function SDKVersion$Type() {
@@ -5972,12 +6023,12 @@ case 261:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var26 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot24 = var26;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function SDKVersionRange$Type() {
@@ -6269,12 +6320,12 @@ case 267:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var25 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot25 = var25;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function SDKVersionRangeBound$Type() {
@@ -6550,12 +6601,12 @@ case 274:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var24 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot26 = var24;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function SDKVersionSpecifier$Type() {
@@ -6787,12 +6838,12 @@ case 57:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var23 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot27 = var23;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientPlatform$Type() {
@@ -6842,6 +6893,10 @@ case 57:
             var6[5] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientPlatform'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -7254,12 +7309,12 @@ case 290:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var22 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot28 = var22;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function PlatformVersion$Type() {
@@ -7537,12 +7592,12 @@ case 261:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var21 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot29 = var21;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function PlatformVersionRange$Type() {
@@ -7834,12 +7889,12 @@ case 267:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var20 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot30 = var20;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function PlatformVersionRangeBound$Type() {
@@ -8115,12 +8170,12 @@ case 274:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var19 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot31 = var19;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function PlatformVersionSpecifier$Type() {
@@ -8472,12 +8527,12 @@ case 20:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var18 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot32 = var18;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientRequiredChanges$Type() {
@@ -8800,12 +8855,12 @@ case 316:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var17 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot33 = var17;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserIsBot$Type() {
@@ -8820,6 +8875,10 @@ case 316:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserIsBot'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -9035,12 +9094,12 @@ case 284:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var16 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot34 = var16;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserAgeRange$Type() {
@@ -9079,6 +9138,10 @@ case 284:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserAgeRange'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -9359,12 +9422,12 @@ case 36:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var15 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot35 = var15;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Fixed64Value$Type() {
@@ -9598,12 +9661,12 @@ case 149:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var14 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot36 = var14;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserIDRange$Type() {
@@ -9630,6 +9693,10 @@ case 149:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserIDRange'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -9895,12 +9962,12 @@ case 267:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var13 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot37 = var13;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserHasFlag$Type() {
@@ -9915,6 +9982,10 @@ case 267:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserHasFlag'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -10134,12 +10205,12 @@ case 171:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var12 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot38 = var12;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UnitIdInRangeByHash$Type() {
@@ -10158,6 +10229,10 @@ case 171:
             var6[2] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UnitIdInRangeByHash'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_UTILITY';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -10429,12 +10504,12 @@ case 337:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var11 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot39 = var11;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function ClientReleaseChannel$Type() {
@@ -10449,6 +10524,10 @@ case 337:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.ClientReleaseChannel'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_CLIENT';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -10671,12 +10750,12 @@ case 178:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var10 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot40 = var10;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function Always$Type() {
@@ -10691,6 +10770,10 @@ case 178:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.Always'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_UTILITY';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -10906,12 +10989,12 @@ case 341:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var9 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot41 = var9;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UnitIdInExperiment$Type() {
@@ -10928,6 +11011,10 @@ case 341:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UnitIdInExperiment'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_UTILITY';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -11232,12 +11319,12 @@ case 320:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var8 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot42 = var8;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UserPremiumType$Type() {
@@ -11252,6 +11339,10 @@ case 320:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UserPremiumType'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_USER';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -11522,12 +11613,12 @@ case 145:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var7 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot43 = var7;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function UnitIdMatchesFilterSnapshot$Type() {
@@ -11544,6 +11635,10 @@ case 145:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.UnitIdMatchesFilterSnapshot'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_UTILITY';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -11850,12 +11945,12 @@ case 143:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var6 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot44 = var6;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
     var5 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function GuildIds$Type() {
@@ -11870,6 +11965,10 @@ case 143:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.GuildIds'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_GUILD';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -12144,13 +12243,13 @@ case 145:
     var4 = var4.bind(var1)(var5);
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var51 = var5;
-    var4 = new var51[var4](var50);
+    var52 = var5;
+    var4 = new var52[var4](var51);
     var5 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot45 = var5;
-    var4 = var46[var2];
-    var4 = var45.bind(var1)(var4);
-    var47 = var4.MessageType;
+    var4 = var47[var2];
+    var4 = var46.bind(var1)(var4);
+    var48 = var4.MessageType;
     var4 = function(arg1) {
         var4 = function GuildMemberCountRange$Type() {
             var5 = this;
@@ -12188,6 +12287,10 @@ case 145:
             var6[1] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.GuildMemberCountRange'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_GUILD';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -12465,16 +12568,16 @@ case 36:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var4 = var4.bind(var1)(var47);
-    var47 = var4.prototype;
-    var47 = Object.create(var47, {constructor: {value: var4}});
-    var51 = var47;
-    var4 = new var51[var4](var50);
-    var4 = var4 instanceof Object ? var4 : var47;
+    var4 = var4.bind(var1)(var48);
+    var48 = var4.prototype;
+    var48 = Object.create(var48, {constructor: {value: var4}});
+    var52 = var48;
+    var4 = new var52[var4](var51);
+    var4 = var4 instanceof Object ? var4 : var48;
     var _closure1_slot46 = var4;
-    var2 = var46[var2];
-    var2 = var45.bind(var1)(var2);
-    var47 = var2.MessageType;
+    var2 = var47[var2];
+    var2 = var46.bind(var1)(var2);
+    var48 = var2.MessageType;
     var2 = function(arg1) {
         var4 = function GuildHasFeature$Type() {
             var5 = this;
@@ -12488,6 +12591,10 @@ case 36:
             var6[0] = var1;
             var1 = ['discord_protos.discord_experimentation.v1.GuildHasFeature'];
             var1[1] = var6;
+            var6 = {};
+            var7 = 'FILTER_CATEGORY_GUILD';
+            var6['discord_protos.discord_experimentation.v1.filter_category'] = var7;
+            var1[2] = var6;
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
         };
@@ -12707,21 +12814,22 @@ case 178:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var2 = var2.bind(var1)(var47);
-    var47 = var2.prototype;
-    var47 = Object.create(var47, {constructor: {value: var2}});
-    var51 = var47;
-    var2 = new var51[var2](var50);
-    var2 = var2 instanceof Object ? var2 : var47;
+    var2 = var2.bind(var1)(var48);
+    var48 = var2.prototype;
+    var48 = Object.create(var48, {constructor: {value: var2}});
+    var52 = var48;
+    var2 = new var52[var2](var51);
+    var2 = var2 instanceof Object ? var2 : var48;
     var _closure1_slot47 = var2;
-    var44 = 8;
-    var44 = var46[var44];
-    var46 = var45.bind(var1)(var44);
-    var45 = var46.fileFinishedImporting;
-    var44 = '../discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx';
-    var44 = var45.bind(var46)(var44);
-    var3['Rule_Type'] = var43;
-    var3['Rule_Subtype'] = var42;
+    var45 = 8;
+    var45 = var47[var45];
+    var47 = var46.bind(var1)(var45);
+    var46 = var47.fileFinishedImporting;
+    var45 = '../discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx';
+    var45 = var46.bind(var47)(var45);
+    var3['Rule_Type'] = var44;
+    var3['Rule_Subtype'] = var43;
+    var3['FilterCategory'] = var42;
     var3['Rule'] = var41;
     var3['Override'] = var40;
     var3['Filter'] = var39;

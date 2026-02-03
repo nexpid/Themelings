@@ -2767,7 +2767,7 @@ case 146:
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
-                        var4 = var5.trackMentionsOnInitialUnreadChannelScroll;
+                        var4 = var5.getAndTrackOldestUnreadMentionOnLoad;
                         var3 = _closure2_slot1;
                         var2 = _closure2_slot6;
                         var2 = var4.bind(var5)(var3, var2);

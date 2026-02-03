@@ -451,6 +451,27 @@ case 24:
             return var1;
         };
         var1['resetQuest'] = var3;
+        var3 = function clearAllVideoProgress() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = {};
+                var2['videoProgress'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var1['clearAllVideoProgress'] = var3;
         var2 = function setTranscriptAsset(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;

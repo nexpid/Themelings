@@ -543,15 +543,15 @@ case 0:
             if(!(var3 === var7)) { _fun0010_ip = 39; continue _fun0010 }
 case 8:
             var3 = null;
-            if(!(var3 == var6)) { _fun0010_ip = 40; continue _fun0010 }
+            if(!(var3 == var6)) { _fun0010_ip = 4; continue _fun0010 }
 case 39:
             var3 = {'channelId': null, 'ringing': null, 'messageId': null, 'region': null, 'regionUpdated': false};
             var3['channelId'] = var2;
             var5 = new Array(0);
             var3['ringing'] = var5;
             var3['unavailable'] = var7;
-            _fun0010_ip = 41; continue _fun0010;
-case 40:
+            _fun0010_ip = 40; continue _fun0010;
+case 4:
             var5 = {};
             var9 = var5;
             var8 = var6;
@@ -559,16 +559,16 @@ case 40:
             var6 = 'unavailable';
             var5[var6] = var7;
             var3 = var5;
-case 41:
+case 40:
             var4[var2] = var3;
             var3 = _closure1_slot13;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
+            if(!(var3 != var4)) { _fun0010_ip = 41; continue _fun0010 }
+case 42:
             var1 = _closure1_slot13;
             var1 = delete var1[var2];
-case 42:
+case 41:
             var1 = undefined;
             return var1;
         }
@@ -595,10 +595,10 @@ case 0:
 case 26:
             var2 = new Array(0);
 case 36:
-            if(!(var8 == var7)) { _fun0011_ip = 44; continue _fun0011 }
-case 45:
-            var7 = ['all'];
+            if(!(var8 == var7)) { _fun0011_ip = 43; continue _fun0011 }
 case 44:
+            var7 = ['all'];
+case 43:
             var2 = var5.bind(var6)(var2, var7);
             var3[var4] = var2;
             return var1;

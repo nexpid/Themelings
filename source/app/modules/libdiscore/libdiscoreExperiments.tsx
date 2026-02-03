@@ -414,7 +414,7 @@ case 29:
                 var4 = var1;
 case 28:
                 var1 = 1;
-                if(!(var1 !== var4)) { _fun0008_ip = 10; continue _fun0008 }
+                if(!(var1 !== var4)) { _fun0008_ip = 9; continue _fun0008 }
 case 16:
                 var2 = 'libdiscore';
                 var1 = 2;
@@ -422,7 +422,7 @@ case 16:
 case 31:
                 var2 = 'typescript';
                 _fun0008_ip = 30; continue _fun0008;
-case 10:
+case 9:
                 var2 = 'typescript-libdiscore-dual-read';
 case 30:
                 var1 = _closure1_slot8;
