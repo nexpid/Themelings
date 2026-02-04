@@ -47,8 +47,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var5;
     var5 = var4.MAX_MESSAGE_LENGTH;
     var _closure1_slot11 = var5;
-    var4 = var4.ME;
-    var _closure1_slot12 = var4;
+    var5 = var4.ME;
+    var _closure1_slot12 = var5;
+    var19 = var4.DISPLAY_NAME_MAX_LENGTH;
     var4 = 6;
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
@@ -200,13 +201,13 @@ case 2:
     };
     var16 = 'displayDescription';
     Object.defineProperty(var10, var16, {get: var17, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
+    var22 = {'name': 'message', 'displayName': 'message'};
     var17 = var9[var15];
     var17 = var8.bind(var1)(var17);
     var17 = var17.ApplicationCommandOptionType;
     var17 = var17.STRING;
-    var21['type'] = var17;
-    var19 = function get description() {
+    var22['type'] = var17;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -223,8 +224,8 @@ case 2:
         return var1;
     };
     var17 = 'description';
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -240,11 +241,11 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function execute(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function execute(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = {};
@@ -272,23 +273,23 @@ case 2:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-2', 'untranslatedName': 'tableflip', 'displayName': 'tableflip'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN_TEXT;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN_TEXT;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -304,8 +305,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -321,14 +322,14 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
+    var22 = {'name': 'message', 'displayName': 'message'};
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandOptionType;
+    var21 = var21.STRING;
+    var22['type'] = var21;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -344,8 +345,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -361,11 +362,11 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function execute(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function execute(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = {};
@@ -393,23 +394,23 @@ case 2:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-3', 'untranslatedName': 'unflip', 'displayName': 'unflip'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN_TEXT;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN_TEXT;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -425,8 +426,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -442,14 +443,14 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
+    var22 = {'name': 'message', 'displayName': 'message'};
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandOptionType;
+    var21 = var21.STRING;
+    var22['type'] = var21;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -465,8 +466,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -482,11 +483,11 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function execute(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function execute(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = {};
@@ -514,23 +515,23 @@ case 2:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-4', 'untranslatedName': 'tts', 'displayName': 'tts'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN_TEXT;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN_TEXT;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -546,8 +547,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -563,14 +564,14 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
+    var22 = {'name': 'message', 'displayName': 'message'};
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandOptionType;
+    var21 = var21.STRING;
+    var22['type'] = var21;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -586,8 +587,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -603,12 +604,12 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var21['required'] = var14;
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function predicate(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var22['required'] = var14;
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function predicate(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
@@ -644,8 +645,8 @@ case 9:
             return var1;
         }
     };
-    var10['predicate'] = var19;
-    var19 = function execute(arg1) {
+    var10['predicate'] = var21;
+    var21 = function execute(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = {};
@@ -667,23 +668,23 @@ case 4:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-5', 'untranslatedName': 'me', 'displayName': 'me'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN_TEXT;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN_TEXT;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -699,8 +700,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -716,14 +717,14 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
+    var22 = {'name': 'message', 'displayName': 'message'};
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandOptionType;
+    var21 = var21.STRING;
+    var22['type'] = var21;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -739,8 +740,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -756,12 +757,12 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var21['required'] = var14;
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function execute(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var22['required'] = var14;
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function execute(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = {};
@@ -786,23 +787,23 @@ case 4:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-6', 'untranslatedName': 'spoiler', 'displayName': 'spoiler'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN_TEXT;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN_TEXT;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -818,8 +819,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -835,14 +836,14 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
-    var21 = {'name': 'message', 'displayName': 'message'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
+    var22 = {'name': 'message', 'displayName': 'message'};
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandOptionType;
+    var21 = var21.STRING;
+    var22['type'] = var21;
+    var21 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -858,8 +859,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var22, var17, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -875,12 +876,12 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
-    var21['required'] = var14;
-    var19 = new Array(1);
-    var19[0] = var21;
-    var10['options'] = var19;
-    var19 = function execute(arg1) {
+    Object.defineProperty(var22, var16, {get: var21, set: var1, enumerable: true});
+    var22['required'] = var14;
+    var21 = new Array(1);
+    var21[0] = var22;
+    var10['options'] = var21;
+    var21 = function execute(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var5 = _closure1_slot15;
@@ -904,23 +905,23 @@ case 3:
             return var1;
         }
     };
-    var10['execute'] = var19;
+    var10['execute'] = var21;
     var5[var4] = var10;
     var4 = var4 + var11;
     var10 = {'id': '-7', 'untranslatedName': 'nick', 'displayName': 'nick'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandType;
-    var19 = var19.CHAT;
-    var10['type'] = var19;
-    var19 = var9[var18];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandInputType;
-    var19 = var19.BUILT_IN;
-    var10['inputType'] = var19;
-    var19 = var12.BUILT_IN;
-    var10['applicationId'] = var19;
-    var19 = function get untranslatedDescription() {
+    var21 = var9[var15];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandType;
+    var21 = var21.CHAT;
+    var10['type'] = var21;
+    var21 = var9[var18];
+    var21 = var8.bind(var1)(var21);
+    var21 = var21.ApplicationCommandInputType;
+    var21 = var21.BUILT_IN;
+    var10['inputType'] = var21;
+    var21 = var12.BUILT_IN;
+    var10['applicationId'] = var21;
+    var21 = function get untranslatedDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -936,8 +937,8 @@ case 3:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var13, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var10, var13, {get: var21, set: var1, enumerable: true});
+    var21 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -953,14 +954,14 @@ case 3:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var10, var16, {get: var19, set: var1, enumerable: true});
+    Object.defineProperty(var10, var16, {get: var21, set: var1, enumerable: true});
     var21 = {'name': 'new_nick', 'displayName': 'new_nick'};
-    var19 = var9[var15];
-    var19 = var8.bind(var1)(var19);
-    var19 = var19.ApplicationCommandOptionType;
-    var19 = var19.STRING;
-    var21['type'] = var19;
-    var19 = function get description() {
+    var22 = var9[var15];
+    var22 = var8.bind(var1)(var22);
+    var22 = var22.ApplicationCommandOptionType;
+    var22 = var22.STRING;
+    var21['type'] = var22;
+    var22 = function get description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -976,8 +977,8 @@ case 3:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var17, {get: var19, set: var1, enumerable: true});
-    var19 = function get displayDescription() {
+    Object.defineProperty(var21, var17, {get: var22, set: var1, enumerable: true});
+    var22 = function get displayDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 9;
@@ -993,7 +994,8 @@ case 3:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    Object.defineProperty(var21, var16, {get: var19, set: var1, enumerable: true});
+    Object.defineProperty(var21, var16, {get: var22, set: var1, enumerable: true});
+    var21['maxLength'] = var19;
     var19 = new Array(1);
     var19[0] = var21;
     var10['options'] = var19;
