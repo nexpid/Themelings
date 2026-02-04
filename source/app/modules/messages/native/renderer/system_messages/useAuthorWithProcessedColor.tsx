@@ -68,38 +68,40 @@ case 2:
     var2 = function getUserAuthorWithProcessedColor(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var3 = _closure1_slot0;
+            var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;
             var1 = var4[var1];
-            var5 = undefined;
-            var6 = var3.bind(var5)(var1);
-            var4 = var6.getUserAuthor;
-            var3 = arg1;
+            var6 = undefined;
+            var5 = var2.bind(var6)(var1);
+            var4 = var5.getUserAuthor;
+            var2 = arg1;
             var1 = arg2;
-            var1 = var4.bind(var6)(var3, var1);
-            var3 = var1.nick;
-            var7 = var1.colorString;
-            var4 = var1.colorStrings;
+            var1 = var4.bind(var5)(var2, var1);
+            var4 = var1.nick;
+            var8 = var1.colorString;
+            var5 = var1.colorStrings;
+            var2 = var1.guildId;
             var1 = {};
-            var1['nick'] = var3;
-            var3 = null;
-            var6 = var3 != var7;
-            var3 = undefined;
-            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+            var1['nick'] = var4;
+            var4 = null;
+            var7 = var4 != var8;
+            var4 = undefined;
+            if(!var7) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var6 = _closure1_slot2;
-            var3 = var6.bind(var5)(var7);
+            var7 = _closure1_slot2;
+            var4 = var7.bind(var6)(var8);
 case 4:
-            var1['colorString'] = var3;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 2;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.processColorStrings;
-            var2 = var2.bind(var3)(var4);
-            var1['colorStrings'] = var2;
+            var1['colorString'] = var4;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 2;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.processColorStrings;
+            var3 = var3.bind(var4)(var5);
+            var1['colorStrings'] = var3;
+            var1['guildId'] = var2;
             return var1;
         }
     };

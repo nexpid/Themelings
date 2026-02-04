@@ -178,6 +178,11 @@ case 8:
             return var1;
         };
         var4['handleTrack'] = var8;
+        var8 = function handleSetAnalyticsToken() {
+            var1 = undefined;
+            return var1;
+        };
+        var4['handleSetAnalyticsToken'] = var8;
         var _closure1_slot32 = var4;
         var8 = new Array(0);
         var _closure1_slot33 = var8;
@@ -912,6 +917,36 @@ case 70:
                     return var1;
                 };
                 var7['handleTrack'] = var6;
+                var7 = _closure1_slot32;
+                var6 = function(arg1) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                        var1 = arg1;
+                        var3 = var1.analyticsToken;
+                        var2 = var1.userId;
+                        var4 = _closure1_slot28;
+                        var5 = null;
+                        var4 = var5 == var4;
+                        if(!var4) { _fun0017_ip = 71; continue _fun0017 }
+case 39:
+                        var4 = var5 != var3;
+case 71:
+                        if(!var4) { _fun0017_ip = 72; continue _fun0017 }
+case 73:
+                        _closure1_slot28 = var3;
+                        _closure1_slot29 = var2;
+                        var3 = _closure2_slot7;
+                        var2 = {};
+                        var1 = false;
+                        var2['shouldFlushOnNextTick'] = var1;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+case 72:
+                        var1 = false;
+                        return var1;
+                    }
+                };
+                var7['handleSetAnalyticsToken'] = var6;
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var2 = 10;
@@ -920,7 +955,7 @@ case 70:
                 var2 = var2.Store;
                 var1 = function(arg1) {
                     var4 = function AnalyticsTrackingStore(arg1) {
-                        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                             var4 = this;
                             var12 = 0;
@@ -939,12 +974,12 @@ case 0:
                             var2 = _closure1_slot5;
                             var1 = _closure1_slot36;
                             var1 = var1.bind(var3)();
-                            if(var1) { _fun0017_ip = 71; continue _fun0017 }
-case 72:
+                            if(var1) { _fun0018_ip = 74; continue _fun0018 }
+case 75:
                             var1 = var8.apply;
                             var1 = var1.bind(var8)(var4, var9);
-                            _fun0017_ip = 73; continue _fun0017;
-case 71:
+                            _fun0018_ip = 76; continue _fun0018;
+case 74:
                             var6 = global;
                             var7 = var6.Reflect;
                             var6 = var7.construct;
@@ -952,7 +987,7 @@ case 71:
                             var5 = var5.bind(var3)(var4);
                             var5 = var5.constructor;
                             var1 = var6.bind(var7)(var8, var9, var5);
-case 73:
+case 76:
                             var1 = var2.bind(var3)(var4, var1);
                             var2 = _closure2_slot9;
                             var1['submitEventsImmediately'] = var2;
@@ -969,13 +1004,13 @@ case 73:
                     var6 = 'initialize';
                     var5['key'] = var6;
                     var1 = function initialize() {
-                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                             var3 = this;
                             var4 = _closure2_slot3;
                             var2 = null;
-                            if(!(var2 != var4)) { _fun0018_ip = 74; continue _fun0018 }
-case 75:
+                            if(!(var2 != var4)) { _fun0019_ip = 77; continue _fun0019 }
+case 78:
                             var2 = var3.waitFor;
                             var7 = _closure2_slot3;
                             var1 = new Array(0);
@@ -986,7 +1021,7 @@ case 75:
                             var7 = var1;
                             var6 = var3;
                             var1 = apply(var8, var7, var6);
-case 74:
+case 77:
                             var1 = undefined;
                             return var1;
                         }

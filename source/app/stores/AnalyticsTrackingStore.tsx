@@ -114,6 +114,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var11['TRACK'] = var12;
+    var12 = function SET_ANALYTICS_TOKEN(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.AnalyticsActionHandlers;
+        var2 = var3.handleSetAnalyticsToken;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var11['SET_ANALYTICS_TOKEN'] = var12;
     var2['actionHandler'] = var11;
     var10 = var10.TRACK;
     var2['TRACKING_URL'] = var10;
