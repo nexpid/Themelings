@@ -620,10 +620,14 @@ case 33:
 case 36:
             var4 = var3.quest_home_entrypoint;
             var3 = {};
-            var5 = var4.gradient_start;
-            var3['gradientStart'] = var5;
-            var5 = var4.gradient_end;
-            var3['gradientEnd'] = var5;
+            var5 = var4.linear_gradient_start;
+            var3['linearGradientStart'] = var5;
+            var5 = var4.linear_gradient_end;
+            var3['linearGradientEnd'] = var5;
+            var5 = var4.radial_gradient_start;
+            var3['radialGradientStart'] = var5;
+            var5 = var4.radial_gradient_end;
+            var3['radialGradientEnd'] = var5;
             var5 = var4.entrypoint_asset_image_url;
             var3['entrypointAssetImageUrl'] = var5;
             var5 = var4.tooltip_asset_image_url;

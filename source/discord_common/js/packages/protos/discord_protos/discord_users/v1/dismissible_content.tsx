@@ -1730,10 +1730,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER'] = var2;
     var1 = 'CROSS_DM_SEARCH_SETTING_EDUCATION_POPOVER';
     var4[var2] = var1;
-    var2 = 629;
-    var4['PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE'] = var2;
-    var1 = 'PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE';
-    var4[var2] = var1;
     var2 = 630;
     var4['NITRO_TAB_BADGE_COUNTDOWN'] = var2;
     var1 = 'NITRO_TAB_BADGE_COUNTDOWN';
@@ -1917,6 +1913,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 677;
     var4['SLAYER_STOREFRONT_XBOX_ANNOUNCEMENT'] = var2;
     var1 = 'SLAYER_STOREFRONT_XBOX_ANNOUNCEMENT';
+    var4[var2] = var1;
+    var2 = 678;
+    var4['BOOST_TO_UNLOCK_COACHMARK'] = var2;
+    var1 = 'BOOST_TO_UNLOCK_COACHMARK';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

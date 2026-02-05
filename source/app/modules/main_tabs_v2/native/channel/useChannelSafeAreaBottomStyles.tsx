@@ -90,12 +90,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var4['chat'] = var9;
     var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_BASE_LOW;
+    var9['backgroundColor'] = var12;
+    var4['voice'] = var9;
+    var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOW;
+    var10 = var10.MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT;
     var9['backgroundColor'] = var10;
-    var4['voice'] = var9;
+    var4['expressionPickerBackground'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
     var4 = 17;
@@ -370,47 +377,48 @@ case 48:
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var6 = _closure2_slot2;
-                var1 = _closure1_slot11;
-                var4 = var1.NONE;
-                var1 = undefined;
-                if(!(var6 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
+                var4 = _closure2_slot2;
+                var3 = _closure1_slot11;
+                var3 = var3.NONE;
+                if(!(var4 !== var3)) { _fun0002_ip = 49; continue _fun0002 }
 case 50:
-                var6 = _closure2_slot2;
-                var4 = _closure1_slot11;
-                var4 = var4.DIRECTORY;
-                var1 = undefined;
-                if(!(var6 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
+                var4 = _closure2_slot2;
+                var3 = _closure1_slot11;
+                var3 = var3.DIRECTORY;
+                if(!(var4 === var3)) { _fun0002_ip = 51; continue _fun0002 }
+case 49:
+                var3 = undefined;
+                return var3;
 case 51:
-                var6 = _closure2_slot2;
-                var4 = _closure1_slot11;
-                var4 = var4.EXPRESSION_PICKER;
-                var1 = undefined;
-                if(!(var6 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
-case 52:
-                var6 = _closure2_slot2;
-                var4 = _closure1_slot11;
-                var4 = var4.MEDIA;
-                var1 = undefined;
-                if(!(var6 !== var4)) { _fun0002_ip = 49; continue _fun0002 }
+                var4 = _closure2_slot2;
+                var3 = _closure1_slot11;
+                var3 = var3.EXPRESSION_PICKER;
+                if(!(var4 !== var3)) { _fun0002_ip = 52; continue _fun0002 }
 case 53:
                 var4 = _closure2_slot2;
-                var2 = _closure1_slot11;
-                var2 = var2.APPS;
-                var1 = undefined;
-                if(!(var4 !== var2)) { _fun0002_ip = 49; continue _fun0002 }
+                var3 = _closure1_slot11;
+                var3 = var3.MEDIA;
+                if(!(var4 !== var3)) { _fun0002_ip = 52; continue _fun0002 }
 case 54:
-                var2 = {};
-                var5 = _closure2_slot0;
-                var4 = _closure2_slot2;
-                var7 = var5[var4];
-                var8 = var2;
-                var4 = copyDataProperties(var8, var7);
-                var7 = _closure2_slot1;
-                var8 = var2;
-                var3 = copyDataProperties(var8, var7);
-                var1 = var2;
-case 49:
+                var3 = _closure2_slot2;
+                var1 = _closure1_slot11;
+                var1 = var1.APPS;
+                if(!(var3 !== var1)) { _fun0002_ip = 52; continue _fun0002 }
+case 55:
+                var1 = {};
+                var4 = _closure2_slot0;
+                var3 = _closure2_slot2;
+                var5 = var4[var3];
+                var6 = var1;
+                var3 = copyDataProperties(var6, var5);
+                var5 = _closure2_slot1;
+                var6 = var1;
+                var3 = copyDataProperties(var6, var5);
+                _fun0002_ip = 56; continue _fun0002;
+case 52:
+                var2 = _closure2_slot0;
+                var1 = var2.expressionPickerBackground;
+case 56:
                 return var1;
             }
         };

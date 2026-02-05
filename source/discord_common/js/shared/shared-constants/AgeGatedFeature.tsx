@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COMMANDS_TOGGLE'] = var5;
     var1 = 'COMMANDS_TOGGLE';
     var2[var5] = var1;
+    var5 = 64;
+    var2['REACTIVE_CHECK'] = var5;
+    var1 = 'REACTIVE_CHECK';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

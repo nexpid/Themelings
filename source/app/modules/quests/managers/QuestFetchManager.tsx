@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -82,43 +82,38 @@ case 4:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useVideoQuestUIStore;
+    var4 = var4.QuestsExperimentLocations;
     var _closure1_slot9 = var4;
     var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.QuestsExperimentLocations;
-    var _closure1_slot10 = var4;
-    var4 = 8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.DAY;
-    var _closure1_slot11 = var8;
+    var _closure1_slot10 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var10 = var8.MINUTE;
     var8 = 30;
     var8 = var8 * var10;
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.SECOND;
     var8 = var9 * var8;
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.MINUTE;
     var8 = var9 * var8;
-    var _closure1_slot14 = var8;
+    var _closure1_slot13 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var4 = var4.HOUR;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -141,7 +136,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot5;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -183,13 +178,13 @@ case 8:
                 var3 = function() {
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 8;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
                     var4 = var6.getIsEligibleForFetchQuestOnPostConnectionOpen;
                     var3 = {};
-                    var7 = _closure1_slot10;
+                    var7 = _closure1_slot9;
                     var7 = var7.QUESTS_MANAGER;
                     var3['location'] = var7;
                     var3 = var4.bind(var6)(var3);
@@ -206,7 +201,7 @@ case 8:
                     var6 = var7.bind(var8)(var6);
                     var9 = var4.window;
                     var8 = var9.setInterval;
-                    var7 = _closure1_slot12;
+                    var7 = _closure1_slot11;
                     var6 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -217,7 +212,7 @@ case 0:
                             var2 = _closure3_slot0;
                             var2 = var2.lastFetchAttemptedAt;
                             var3 = var3 - var2;
-                            var2 = _closure1_slot11;
+                            var2 = _closure1_slot10;
                             if(!(var3 > var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                             var3 = _closure3_slot0;
@@ -236,7 +231,7 @@ case 9:
                     var9 = var4.Math;
                     var8 = var9.random;
                     var8 = var8.bind(var9)();
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot12;
                     var5 = var8 * var5;
                     var6 = var6.bind(var7)(var5);
                     var _closure4_slot1 = var6;
@@ -312,7 +307,7 @@ case 20:
                         var2 = _closure3_slot0;
                         var2 = var2.lastFetchedQuestForLocaleChangeAt;
                         var3 = var3 - var2;
-                        var2 = _closure1_slot14;
+                        var2 = _closure1_slot13;
                         var1 = var3 <= var2;
 case 19:
                         if(var1) { _fun0005_ip = 21; continue _fun0005 }
@@ -346,11 +341,6 @@ case 21:
                     var1 = 0;
                     var2['lastFetchAttemptedAt'] = var1;
                     var2['lastFetchedQuestForLocaleChangeAt'] = var1;
-                    var2 = _closure1_slot9;
-                    var1 = var2.getState;
-                    var2 = var1.bind(var2)();
-                    var1 = var2.clearAllVideoProgress;
-                    var1 = var1.bind(var2)();
                     var1 = undefined;
                     return var1;
                 };
@@ -386,13 +376,13 @@ case 21:
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
                 var3 = var5.getIsEligibleForQuests;
                 var2 = {};
-                var6 = _closure1_slot10;
+                var6 = _closure1_slot9;
                 var6 = var6.QUESTS_MANAGER;
                 var2['location'] = var6;
                 var2 = var3.bind(var5)(var2);
@@ -406,7 +396,7 @@ case 12:
 case 14:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 11;
+                var3 = 10;
                 var3 = var6[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMetaQuest;
@@ -416,12 +406,12 @@ case 22:
 case 25:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 12;
+                var2 = 11;
                 var3 = var6[var2];
                 var7 = var5.bind(var1)(var3);
                 var3 = var7.fetchCurrentQuests;
                 var3 = var3.bind(var7)();
-                var3 = 13;
+                var3 = 12;
                 var3 = var6[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
@@ -430,7 +420,7 @@ case 25:
 case 27:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 14;
+                var5 = 13;
                 var5 = var7[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.getState;
@@ -442,7 +432,7 @@ case 26:
 case 29:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 15;
+                var5 = 14;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.getConfig;
@@ -459,7 +449,7 @@ case 30:
                 var2 = var6[var2];
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.fetchQuestToDeliver;
-                var2 = 16;
+                var2 = 15;
                 var2 = var6[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.QuestPlacement;
@@ -482,7 +472,7 @@ case 24:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

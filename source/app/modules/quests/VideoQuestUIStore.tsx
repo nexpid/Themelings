@@ -451,7 +451,7 @@ case 24:
             return var1;
         };
         var1['resetQuest'] = var3;
-        var3 = function clearAllVideoProgress() {
+        var3 = function clearState() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;
@@ -471,7 +471,7 @@ case 24:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var1['clearAllVideoProgress'] = var3;
+        var1['clearState'] = var3;
         var2 = function setTranscriptAsset(arg1) {
             var1 = arg1;
             var _closure3_slot0 = var1;

@@ -96,9 +96,7 @@ case 4:
             var9 = var10.bind(var5)(var9);
             var10 = var9.Provider;
             var9 = {};
-            var11 = {};
-            var15 = true;
-            var11['isVisible'] = var15;
+            var11 = {'isVisible': true, 'isVisibleToUser': true};
             var11['quest'] = var14;
             var9['value'] = var11;
             var11 = 7;

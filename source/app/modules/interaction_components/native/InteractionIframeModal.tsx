@@ -33,27 +33,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.APPLICATIONS_WITH_NO_REFFERER;
+    var4 = var4.BotTagTypes;
     var _closure1_slot6 = var4;
     var10 = 4;
     var4 = var6[var10];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BotTagTypes;
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot8 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = 6;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var12 = 7;
+    var12 = 6;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
@@ -77,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginStart'] = var10;
     var4['botTag'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 21;
+    var _closure1_slot9 = var4;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -88,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var11 = var1.bind(var4)();
             var19 = var5.application;
@@ -97,7 +92,7 @@ case 0:
             var _closure2_slot0 = var2;
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var13[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.useIframeModalState;
@@ -117,7 +112,7 @@ case 0:
             var3 = var6[var3];
             var _closure2_slot1 = var3;
             var6 = _closure1_slot1;
-            var3 = 9;
+            var3 = 8;
             var3 = var13[var3];
             var9 = var6.bind(var4)(var3);
             var3 = {};
@@ -129,7 +124,7 @@ case 0:
             var10 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -139,7 +134,7 @@ case 0:
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -157,7 +152,7 @@ case 0:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -178,7 +173,7 @@ case 0:
                 return var1;
             };
             var3 = var16.bind(var17)(var2, var3);
-            var2 = 12;
+            var2 = 11;
             var2 = var13[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)(var3);
@@ -186,10 +181,10 @@ case 0:
             var6 = null;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var1 = 15;
+            var1 = 14;
             var1 = var13[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -225,7 +220,7 @@ case 3:
             var7 = function onLoadError() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var2 = var9[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -234,7 +229,7 @@ case 3:
                 var6 = 'interaction_iframe_modal';
                 var2['key'] = var6;
                 var8 = _closure1_slot0;
-                var5 = 14;
+                var5 = 13;
                 var6 = var9[var5];
                 var6 = var8.bind(var1)(var6);
                 var7 = var6.intl;
@@ -252,28 +247,20 @@ case 3:
             };
             var1['onLoadError'] = var7;
             var12 = _closure1_slot0;
-            var7 = 16;
+            var7 = 15;
             var7 = var13[var7];
             var12 = var12.bind(var4)(var7);
             var7 = var12.allowPopups;
             var7 = var7.bind(var12)(var19);
             var1['allowPopups'] = var7;
-            var13 = _closure1_slot6;
-            var12 = var13.has;
-            var7 = var19.id;
-            var12 = var12.bind(var13)(var7);
             var7 = 'origin';
-            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = 'no-referrer';
-case 4:
             var1['referrerPolicy'] = var7;
             var1['isPipOrGridMode'] = var5;
             var1['webViewKey'] = var4;
             var1['ignoreSilentHardwareSwitch'] = var5;
             var6 = var3.bind(var4)(var2, var1);
 case 2:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
             var7 = var11.wrapper;
@@ -289,17 +276,17 @@ case 2:
             var5 = {};
             var7 = var11.header;
             var5['style'] = var7;
-            var17 = _closure1_slot8;
+            var17 = _closure1_slot7;
             var13 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var7 = 17;
+            var7 = 16;
             var7 = var20[var7];
             var7 = var13.bind(var4)(var7);
             var9 = var7.PressableOpacity;
             var7 = {};
             var12 = 'button';
             var7['accessibilityRole'] = var12;
-            var12 = 14;
+            var12 = 13;
             var14 = var20[var12];
             var14 = var13.bind(var4)(var14);
             var16 = var14.intl;
@@ -313,7 +300,7 @@ case 2:
             var7['onPress'] = var10;
             var10 = var11.closeButton;
             var7['style'] = var10;
-            var10 = 18;
+            var10 = 17;
             var10 = var20[var10];
             var10 = var13.bind(var4)(var10);
             var12 = var10.XLargeIcon;
@@ -329,7 +316,7 @@ case 2:
             var10 = {};
             var12 = var11.headerTitleContainer;
             var10['style'] = var12;
-            var16 = 19;
+            var16 = 18;
             var12 = var20[var16];
             var12 = var13.bind(var4)(var12);
             var13 = var12.Text;
@@ -340,20 +327,20 @@ case 2:
             var12 = new Array(2);
             var12[0] = var13;
             var14 = _closure1_slot1;
-            var13 = 20;
+            var13 = 19;
             var13 = var20[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
-            var20 = _closure1_slot7;
+            var20 = _closure1_slot6;
             var20 = var20.BOT;
             var13['type'] = var20;
             var19 = var19.bot;
             var20 = var18 == var19;
             var18 = undefined;
-            if(var20) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(var20) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var18 = var19.verified;
-case 6:
+case 4:
             var13['verified'] = var18;
             var18 = var11.botTag;
             var13['style'] = var18;
@@ -363,7 +350,7 @@ case 6:
             var10 = var3.bind(var4)(var2, var10);
             var12 = new Array(2);
             var12[0] = var10;
-            var10 = _closure1_slot8;
+            var10 = _closure1_slot7;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
             var13 = var13[var16];

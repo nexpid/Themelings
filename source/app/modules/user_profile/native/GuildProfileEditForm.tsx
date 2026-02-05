@@ -800,6 +800,8 @@ case 58:
             var28['pronouns'] = var67;
             var28['badges'] = var63;
             var28['badgeContainerBackground'] = var66;
+            var63 = 'header';
+            var28['displayNameAccessibilityRole'] = var63;
             var63 = var35.id;
             var28['guildId'] = var63;
             var28['pendingDisplayNameStyles'] = var33;

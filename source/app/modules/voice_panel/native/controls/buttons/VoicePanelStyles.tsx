@@ -63,6 +63,13 @@ case 4:
             var5 = _closure1_slot2;
             var9 = var5[var7];
             var9 = var8.bind(var6)(var9);
+            var9 = var9.colors;
+            var9 = var9.ICON_MUTED;
+            var2['color'] = var9;
+            var1['iconFillMuted'] = var2;
+            var2 = {};
+            var9 = var5[var7];
+            var9 = var8.bind(var6)(var9);
             var9 = var9.unsafe_rawColors;
             var9 = var9.RED_400;
             var2['color'] = var9;

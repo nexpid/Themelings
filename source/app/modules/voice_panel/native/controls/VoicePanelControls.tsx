@@ -63,13 +63,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot15 = var8;
-    var8 = var4.Fragment;
-    var _closure1_slot16 = var8;
-    var4 = var4.jsxs;
-    var _closure1_slot17 = var4;
+    var4 = var4.ComponentActions;
+    var _closure1_slot15 = var4;
     var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot16 = var8;
+    var8 = var4.Fragment;
+    var _closure1_slot17 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot18 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -82,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[var11] = var13;
     var4['accessibilityWrapper'] = var10;
     var10 = {'position': 'absolute', 'bottom': 0, 'left': '50%', 'overflow': 'hidden', 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
-    var11 = 9;
+    var11 = 10;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.radii;
@@ -99,11 +104,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'zIndex': 21};
     var4['actionSheetHeaderBar'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx1(){const{controlsSpecs,VoicePanelControlsModes}=this.__closure;return controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER;}';
     var4['code'] = var8;
-    var _closure1_slot19 = var4;
+    var _closure1_slot20 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -111,14 +116,14 @@ case 0:
             var2 = arg1;
             var14 = var2.openTab;
             var _closure2_slot0 = var14;
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot19;
             var4 = undefined;
             var8 = var2.bind(var4)();
             var7 = _closure1_slot4;
             var3 = var7.useContext;
             var5 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var10[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var3.bind(var7)(var2);
@@ -129,7 +134,7 @@ case 0:
             var12 = var2.connected;
             var _closure2_slot3 = var12;
             var9 = _closure1_slot0;
-            var2 = 11;
+            var2 = 12;
             var2 = var10[var2];
             var15 = var9.bind(var4)(var2);
             var3 = var15.useDerivedValue;
@@ -150,10 +155,10 @@ case 0:
             var2['__closure'] = var16;
             var16 = 243364694825.0;
             var2['__workletHash'] = var16;
-            var16 = _closure1_slot19;
+            var16 = _closure1_slot20;
             var2['__initData'] = var16;
             var3 = var3.bind(var15)(var2);
-            var2 = 12;
+            var2 = 13;
             var2 = var10[var2];
             var2 = var5.bind(var4)(var2);
             var5 = var2.bind(var4)(var3);
@@ -183,7 +188,7 @@ case 3:
                     var5 = var5.bind(var6)();
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 14;
                     var6 = var6[var2];
                     var2 = undefined;
                     var6 = var7.bind(var2)(var6);
@@ -208,15 +213,15 @@ case 7:
                 }
             };
             var7 = var3.bind(var7)(var1, var2);
-            var3 = _closure1_slot15;
-            var1 = 14;
+            var3 = _closure1_slot16;
+            var1 = 15;
             var1 = var10[var1];
             var1 = var9.bind(var4)(var1);
             var2 = var1.ActionSheetHeaderBar;
             var1 = {};
             var8 = var8.actionSheetHeaderBar;
             var1['style'] = var8;
-            var8 = 15;
+            var8 = 16;
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);
             var8 = var8.ActionSheetHeaderBarVariants;
@@ -225,7 +230,7 @@ case 7:
             var1['onPress'] = var7;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 16;
+            var6 = 17;
             var7 = var10[var6];
             var7 = var9.bind(var4)(var7);
             var8 = var7.intl;
@@ -248,51 +253,51 @@ case 10:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot21 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx2(){const{scrollLock,isDragScrolling,runOnJS,gestureLock}=this.__closure;scrollLock.set(false);isDragScrolling.set(false);runOnJS(gestureLock.unlock)();}';
     var4['code'] = var8;
-    var _closure1_slot21 = var4;
+    var _closure1_slot22 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx3({velocityY:velocityY}){const{wrapperSpecs,wrapperDimensions,calculateVoicePanelHeaderSpecs,safeArea,controlsSpecs,VoicePanelControlsModes,gestureSpecs,scrollLock,isDragScrolling,runOnJS,gestureLock}=this.__closure;const absoluteVelocity=Math.abs(velocityY);let resultingControlMode;if(absoluteVelocity>200&&velocityY<0){wrapperSpecs.set({...wrapperSpecs.get(),height:wrapperDimensions.get().drawerHeight-calculateVoicePanelHeaderSpecs(safeArea.get()).height});if(controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){resultingControlMode=VoicePanelControlsModes.RESET;}else{resultingControlMode=VoicePanelControlsModes.DRAWER;}}else if(absoluteVelocity<200&&gestureSpecs.get().isDrawer){if(controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){resultingControlMode=VoicePanelControlsModes.RESET;}else{resultingControlMode=VoicePanelControlsModes.DRAWER;}}else{if(controlsSpecs.get().mode===VoicePanelControlsModes.FLOATING_DEFAULT){resultingControlMode=VoicePanelControlsModes.RESET;}else{resultingControlMode=VoicePanelControlsModes.FLOATING_DEFAULT;}}scrollLock.set(false);isDragScrolling.set(false);runOnJS(gestureLock.unlock)(resultingControlMode);}';
     var4['code'] = var8;
-    var _closure1_slot22 = var4;
+    var _closure1_slot23 = var4;
     var4 = {};
     var8 = "function VoicePanelControlsTsx4(){const{scrollLock,isDragScrolling,gestureSpecs,runOnJS,gestureLock}=this.__closure;console.log('ZZZZZ - ControlsGesture.onTouchesCancelled');scrollLock.set(false);isDragScrolling.set(false);gestureSpecs.set({...gestureSpecs.get(),active:false});runOnJS(gestureLock.unlock)();}";
     var4['code'] = var8;
-    var _closure1_slot23 = var4;
+    var _closure1_slot24 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx5(event){const{gestureSpecs,calculateVoicePanelHeaderSpecs,safeArea,wrapperSpecs,getControlsDrawerOpenWidth,windowDimensions,wrapperDimensions,controlsSpecs,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,getControlsDefaultWidth}=this.__closure;const change=event.absoluteY-gestureSpecs.get().absoluteY;const newHeight=gestureSpecs.get().height-gestureSpecs.get().y-change;if(newHeight>gestureSpecs.get().drawerTransitionHeight){if(!gestureSpecs.get().isDrawer){gestureSpecs.set({...gestureSpecs.get(),isDrawer:true});}const headerHeight=calculateVoicePanelHeaderSpecs(safeArea.get()).height;wrapperSpecs.set({...wrapperSpecs.get(),x:0,y:0,width:getControlsDrawerOpenWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right),height:Math.min(newHeight,wrapperDimensions.get().drawerHeight-headerHeight),drawerMode:true});}else{const progress=newHeight/gestureSpecs.get().drawerTransitionHeight;const floatingHeight=controlsSpecs.get().height;const yOffset=Math.max(newHeight-safeArea.get().bottom-floatingHeight,0)*-1;const newChange=yOffset*(1-progress/1.5);if(gestureSpecs.get().isDrawer){gestureSpecs.set({...gestureSpecs.get(),isDrawer:false});}if(floatingHeight!==wrapperSpecs.get().height&&!wrapperSpecs.get().drawerMode){runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}wrapperSpecs.set({...wrapperSpecs.get(),x:0,y:safeArea.get().bottom*-1+newChange,width:getControlsDefaultWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right),height:floatingHeight,drawerMode:false});}}';
     var4['code'] = var8;
-    var _closure1_slot24 = var4;
+    var _closure1_slot25 = var4;
     var4 = {};
     var8 = "function VoicePanelControlsTsx6(event,manager){const{State,gestureSpecs,controlsSpecs,VoicePanelControlsModes,touchMoveCount,isDragScrolling,sharedTab,scrollOffsetValue,GESTURE_VERTICAL_MINIMUM,wrapperSpecs,TRANSITIONAL_HEIGHT,INTER_FLOATING_TRANSITIONAL_HEIGHT,tab,runOnJS,openTab,VoicePanelTabAnalyticsSources,scrollLock}=this.__closure;if(event.state!==State.BEGAN||gestureSpecs.get().active)return;if(controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN){manager.fail();return;}touchMoveCount.set(touchMoveCount.get()+1);const isDragging=touchMoveCount.get()<=5?true:isDragScrolling.get();const scrollOffset=function(){switch(sharedTab.get()){case'settings':case'app_launcher':return scrollOffsetValue.get();default:return 0;}}();const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const computed=gestureSpecs.get().absoluteY-absoluteY;if(controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER&&isDragging&&(computed>=0||scrollOffset>0)){return;}if(controlsSpecs.get().mode===VoicePanelControlsModes.FLOATING_DEFAULT&&computed>GESTURE_VERTICAL_MINIMUM||controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER&&(computed<-GESTURE_VERTICAL_MINIMUM||computed>GESTURE_VERTICAL_MINIMUM)){gestureSpecs.set({absoluteX:absoluteX,absoluteY:absoluteY,x:wrapperSpecs.get().x,y:wrapperSpecs.get().y,height:wrapperSpecs.get().height,isDrawer:controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER,active:true,drawerTransitionHeight:TRANSITIONAL_HEIGHT,interFloatingTransitionHeight:INTER_FLOATING_TRANSITIONAL_HEIGHT});if(controlsSpecs.get().mode!==VoicePanelControlsModes.DRAWER&&tab!=='settings'){runOnJS(openTab)({tab:'settings',source:VoicePanelTabAnalyticsSources.GESTURE,disableControlsUpdate:true});}scrollLock.set(true);manager.activate();}else if(Math.abs(computed)>Math.abs(GESTURE_VERTICAL_MINIMUM)){manager.fail();}}";
     var4['code'] = var8;
-    var _closure1_slot25 = var4;
+    var _closure1_slot26 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx7(){const{runOnJS,gestureLock}=this.__closure;runOnJS(gestureLock.lock)();}';
     var4['code'] = var8;
-    var _closure1_slot26 = var4;
+    var _closure1_slot27 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx8(event){const{touchMoveCount,gestureSpecs,wrapperSpecs,controlsSpecs,VoicePanelControlsModes,TRANSITIONAL_HEIGHT,INTER_FLOATING_TRANSITIONAL_HEIGHT}=this.__closure;touchMoveCount.set(0);gestureSpecs.set({absoluteX:event.changedTouches[0].absoluteX,absoluteY:event.changedTouches[0].absoluteY,x:wrapperSpecs.get().x,y:wrapperSpecs.get().y,height:wrapperSpecs.get().height,isDrawer:controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER,active:false,drawerTransitionHeight:TRANSITIONAL_HEIGHT,interFloatingTransitionHeight:INTER_FLOATING_TRANSITIONAL_HEIGHT});}';
     var4['code'] = var8;
-    var _closure1_slot27 = var4;
+    var _closure1_slot28 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx9(){const{wrapperSpecs}=this.__closure;return wrapperSpecs.get().drawerMode;}';
     var4['code'] = var8;
-    var _closure1_slot28 = var4;
+    var _closure1_slot29 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx10(current,previous){const{runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(current===previous)return;runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}';
     var4['code'] = var8;
-    var _closure1_slot29 = var4;
+    var _closure1_slot30 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx11(){const{connected,controlsSpecs,mode,windowDimensions,windowDimensionsIgnoringKeyboard,safeArea}=this.__closure;return{connected:connected.get(),currentControlsMode:controlsSpecs.get().mode,mode:mode.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,windowHeightIgnoringKeyboard:windowDimensionsIgnoringKeyboard.get().height,controlsHeightValue:controlsSpecs.get().height,safeArea:safeArea.get()};}';
     var4['code'] = var8;
-    var _closure1_slot30 = var4;
+    var _closure1_slot31 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx12(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,wrapperSpecs,VoicePanelControlsModes,runOnJS,setControlsMode,isScreenReaderEnabled,EDGE_GUTTER,getControlsDefaultWidth,getDrawerSpec,getControlsDrawerOpenWidth}=this.__closure;var _previous$currentCont;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{currentControlsMode:currentControlsMode,mode:mode,windowWidth:windowWidth,windowHeightIgnoringKeyboard:windowHeightIgnoringKeyboard,controlsHeightValue:controlsHeightValue,safeArea:safeArea}=props;switch(mode){case VoicePanelModes.DISMISSED:case VoicePanelModes.PIP:if(!wrapperSpecs.get().hidden){wrapperSpecs.set({...wrapperSpecs.get(),hidden:true});}return;case VoicePanelModes.PANEL:default:break;}switch(currentControlsMode){case VoicePanelControlsModes.RESET:runOnJS(setControlsMode)({mode:(_previous$currentCont=previous===null||previous===void 0?void 0:previous.currentControlsMode)!==null&&_previous$currentCont!==void 0?_previous$currentCont:VoicePanelControlsModes.FLOATING_DEFAULT});return;case VoicePanelControlsModes.HIDDEN:if(isScreenReaderEnabled){wrapperSpecs.set({...wrapperSpecs.get(),hidden:false});break;}if(!wrapperSpecs.get().hidden){wrapperSpecs.set({...wrapperSpecs.get(),hidden:true});}break;case VoicePanelControlsModes.FLOATING_DEFAULT:wrapperSpecs.set({x:0,y:Math.max(safeArea.bottom,EDGE_GUTTER)*-1,width:getControlsDefaultWidth(windowWidth,safeArea.left,safeArea.right),height:controlsHeightValue,drawerMode:false,hidden:false});break;case VoicePanelControlsModes.DRAWER:const{minHeight:minHeight,maxHeight:maxHeight}=getDrawerSpec(windowHeightIgnoringKeyboard,safeArea.top);const heightMidpoint=(maxHeight+minHeight)/2;let height;if(wrapperSpecs.get().height<=controlsHeightValue){height=maxHeight;}else if(previous!=null&&wrapperSpecs.get().height===getDrawerSpec(previous.windowHeight,previous.safeArea.top).maxHeight){height=maxHeight;}else if(wrapperSpecs.get().height>=heightMidpoint){height=maxHeight;}else{height=minHeight;}wrapperSpecs.set({x:0,y:0,width:getControlsDrawerOpenWidth(windowWidth,safeArea.left,safeArea.right),height:height,drawerMode:true,hidden:false});break;}}';
     var4['code'] = var8;
-    var _closure1_slot31 = var4;
+    var _closure1_slot32 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -309,19 +314,19 @@ case 0:
             var _closure2_slot3 = var2;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 27;
+            var3 = 28;
             var3 = var5[var3];
             var4 = undefined;
             var7 = var6.bind(var4)(var3);
             var3 = var7.useShouldShowFloatingCTA;
             var7 = var3.bind(var7)(var8);
             var11 = _closure1_slot1;
-            var3 = 18;
+            var3 = 19;
             var3 = var5[var3];
             var3 = var11.bind(var4)(var3);
             var10 = var3.bind(var4)();
             var _closure2_slot4 = var10;
-            var3 = 28;
+            var3 = 29;
             var3 = var5[var3];
             var3 = var11.bind(var4)(var3);
             var3 = var3.bind(var4)(var8);
@@ -371,11 +376,11 @@ case 13:
                 }
             };
             var1 = var3.bind(var8)(var1, var2);
-            var3 = _closure1_slot17;
-            var2 = _closure1_slot16;
+            var3 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var1 = {};
-            var13 = _closure1_slot15;
-            var10 = 29;
+            var13 = _closure1_slot16;
+            var10 = 30;
             var5 = var5[var10];
             var5 = var6.bind(var4)(var5);
             var8 = var5.TransitionItem;
@@ -388,7 +393,7 @@ case 14:
             var5['item'] = var6;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var14 = 30;
+            var14 = 31;
             var14 = var6[var14];
             var14 = var7.bind(var4)(var14);
             var14 = var14.renderVoicePanelFloatingCTA;
@@ -396,7 +401,7 @@ case 14:
             var8 = var13.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
-            var8 = _closure1_slot15;
+            var8 = _closure1_slot16;
             var6 = var6[var10];
             var6 = var7.bind(var4)(var6);
             var7 = var6.TransitionItem;
@@ -409,7 +414,7 @@ case 16:
             var6['item'] = var10;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 31;
+            var9 = 32;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.renderVoicePanelConsoleStatus;
@@ -422,11 +427,11 @@ case 16:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot32 = var4;
+    var _closure1_slot33 = var4;
     var4 = {};
     var8 = "function VoicePanelControlsTsx13(){const{controlsSpecs,connected,sharedTab,wrapperSpecs,TRANSITIONAL_HEIGHT,CONTROLS_DRAWER_HEADER_EXPANDED_SIZE,withSpring,MODE_CHANGE_PHYSICS}=this.__closure;const showPushToTalkText=controlsSpecs.get().pushToTalk&&connected.get();const height=sharedTab.get()==='settings'&&wrapperSpecs.get().height>=TRANSITIONAL_HEIGHT?CONTROLS_DRAWER_HEADER_EXPANDED_SIZE:controlsSpecs.get().height;const translateY=function(){return sharedTab.get()!=='settings'&&wrapperSpecs.get().height>=TRANSITIONAL_HEIGHT?-controlsSpecs.get().height:0;}();return{top:showPushToTalkText?-4:0,height:withSpring(height,MODE_CHANGE_PHYSICS),opacity:withSpring(sharedTab.get()!=='settings'&&wrapperSpecs.get().height>=TRANSITIONAL_HEIGHT?0:1,MODE_CHANGE_PHYSICS),transform:[{translateY:withSpring(translateY,MODE_CHANGE_PHYSICS)},{scale:withSpring(sharedTab.get()!=='settings'&&wrapperSpecs.get().height>=TRANSITIONAL_HEIGHT?0.95:1,MODE_CHANGE_PHYSICS)}]};}";
     var4['code'] = var8;
-    var _closure1_slot33 = var4;
+    var _closure1_slot34 = var4;
     var8 = var7.memo;
     var4 = function VoicePanelButtonsInner(arg1) {
         var1 = arg1;
@@ -441,13 +446,13 @@ case 16:
         var1 = true;
         var12 = var2.bind(var15)(var1);
         var _closure2_slot3 = var12;
-        var1 = _closure1_slot18;
+        var1 = _closure1_slot19;
         var4 = undefined;
         var8 = var1.bind(var4)();
         var2 = var15.useContext;
         var6 = _closure1_slot1;
         var11 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var1 = var11[var1];
         var1 = var6.bind(var4)(var1);
         var1 = var2.bind(var15)(var1);
@@ -455,12 +460,12 @@ case 16:
         var _closure2_slot4 = var19;
         var18 = var1.connected;
         var _closure2_slot5 = var18;
-        var1 = 32;
+        var1 = 33;
         var1 = var11[var1];
         var1 = var6.bind(var4)(var1);
         var9 = var1.bind(var4)();
         var2 = _closure1_slot0;
-        var1 = 11;
+        var1 = 12;
         var5 = var11[var1];
         var13 = var2.bind(var4)(var5);
         var10 = var13.useAnimatedStyle;
@@ -528,7 +533,7 @@ case 25:
                 var1['top'] = var2;
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var10 = 33;
+                var10 = 34;
                 var5 = var2[var10];
                 var7 = undefined;
                 var12 = var3.bind(var7)(var5);
@@ -608,7 +613,7 @@ case 30:
         var14['TRANSITIONAL_HEIGHT'] = var16;
         var16 = _closure1_slot13;
         var14['CONTROLS_DRAWER_HEADER_EXPANDED_SIZE'] = var16;
-        var16 = 33;
+        var16 = 34;
         var16 = var11[var16];
         var16 = var2.bind(var4)(var16);
         var16 = var16.withSpring;
@@ -618,7 +623,7 @@ case 30:
         var5['__closure'] = var14;
         var14 = 13795695387432.0;
         var5['__workletHash'] = var14;
-        var14 = _closure1_slot33;
+        var14 = _closure1_slot34;
         var5['__initData'] = var14;
         var10 = var10.bind(var13)(var5);
         var14 = var15.useEffect;
@@ -631,17 +636,17 @@ case 30:
         };
         var5 = new Array(0);
         var5 = var14.bind(var15)(var13, var5);
-        var3 = _closure1_slot15;
+        var3 = _closure1_slot16;
         var1 = var11[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.LayoutAnimationConfig;
         var1 = {};
-        var5 = 34;
+        var5 = 35;
         var5 = var11[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.bind(var4)(var12);
         var1['skipEntering'] = var5;
-        var5 = 35;
+        var5 = 36;
         var5 = var11[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
@@ -672,23 +677,23 @@ case 30:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot34 = var4;
+    var _closure1_slot35 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx14(){const{withSpring,wrapperSpecs,borderRadius,BORDER_RADIUS_PHYSICS,PANEL_CONTROLS_HEIGHT_PHYSICS,MODE_CHANGE_PHYSICS,roundToNearestPixel,UI_SHOW_HIDE_PHYSICS,useReducedMotion,gestureState,CALL_TILE_GUTTER,accessoryHeights}=this.__closure;return{borderBottomRightRadius:withSpring(!wrapperSpecs.get().drawerMode?borderRadius:0,BORDER_RADIUS_PHYSICS),borderBottomLeftRadius:withSpring(!wrapperSpecs.get().drawerMode?borderRadius:0,BORDER_RADIUS_PHYSICS),height:withSpring(wrapperSpecs.get().height,PANEL_CONTROLS_HEIGHT_PHYSICS),width:withSpring(wrapperSpecs.get().width,MODE_CHANGE_PHYSICS),marginLeft:withSpring(roundToNearestPixel(wrapperSpecs.get().width/2)*-1,MODE_CHANGE_PHYSICS),opacity:withSpring(wrapperSpecs.get().hidden?0:1,MODE_CHANGE_PHYSICS),transform:[{translateX:withSpring(wrapperSpecs.get().x,UI_SHOW_HIDE_PHYSICS)},{translateY:withSpring(!useReducedMotion.get()&&(wrapperSpecs.get().hidden||gestureState.get().active&&!gestureState.get().requiresPop)?wrapperSpecs.get().height+CALL_TILE_GUTTER+accessoryHeights.get():wrapperSpecs.get().y,UI_SHOW_HIDE_PHYSICS)}]};}';
     var4['code'] = var8;
-    var _closure1_slot35 = var4;
+    var _closure1_slot36 = var4;
     var4 = {};
     var8 = "function VoicePanelControlsTsx15(){const{mode,VoicePanelModes,wrapperSpecs}=this.__closure;return{pointerEvents:mode.get()!==VoicePanelModes.PANEL||wrapperSpecs.get().hidden?'none':'auto'};}";
     var4['code'] = var8;
-    var _closure1_slot36 = var4;
+    var _closure1_slot37 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx16(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().mode;}';
     var4['code'] = var8;
-    var _closure1_slot37 = var4;
+    var _closure1_slot38 = var4;
     var4 = {};
     var8 = 'function VoicePanelControlsTsx17(mode,previousMode){const{isScreenReaderEnabled,VoicePanelControlsModes,runOnJS,setIsDrawer}=this.__closure;if(mode===previousMode||!isScreenReaderEnabled)return;if(mode===VoicePanelControlsModes.DRAWER&&previousMode!==VoicePanelControlsModes.DRAWER){runOnJS(setIsDrawer)(true);}else if(mode!==VoicePanelControlsModes.DRAWER&&previousMode===VoicePanelControlsModes.DRAWER){runOnJS(setIsDrawer)(false);}}';
     var4['code'] = var8;
-    var _closure1_slot38 = var4;
+    var _closure1_slot39 = var4;
     var4 = var7.memo;
     var2 = function VoicePanelControls(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -698,7 +703,7 @@ case 0:
             var _closure2_slot0 = var26;
             var16 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var2 = 23;
+            var2 = 24;
             var2 = var23[var2];
             var4 = undefined;
             var3 = var16.bind(var4)(var2);
@@ -708,7 +713,7 @@ case 0:
             var6 = _closure1_slot4;
             var3 = var6.useContext;
             var12 = _closure1_slot1;
-            var2 = 10;
+            var2 = 11;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var3.bind(var6)(var2);
@@ -722,7 +727,7 @@ case 0:
             var _closure2_slot5 = var7;
             var24 = var2.useReducedMotion;
             var _closure2_slot6 = var24;
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot19;
             var15 = var2.bind(var4)();
             var3 = var6.useState;
             var2 = null;
@@ -736,7 +741,7 @@ case 0:
             var3 = 1;
             var2 = var2[var3];
             var _closure2_slot8 = var2;
-            var31 = 11;
+            var31 = 12;
             var2 = var23[var31];
             var5 = var16.bind(var4)(var2);
             var2 = var5.useSharedValue;
@@ -752,11 +757,11 @@ case 0:
                 return var1;
             };
             var2 = var5.bind(var6)(var2);
-            var2 = 36;
+            var2 = 37;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
             var22 = var2.bind(var4)(var29);
-            var2 = 37;
+            var2 = 38;
             var2 = var23[var2];
             var11 = var16.bind(var4)(var2);
             var5 = var11.useMaybeFetchSoundboardSounds;
@@ -787,7 +792,7 @@ case 3:
                     var _closure3_slot3 = var3;
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 38;
+                    var3 = 39;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.batchUpdates;
@@ -835,7 +840,7 @@ case 35:
 case 38:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var4 = 13;
+                            var4 = 14;
                             var4 = var6[var4];
                             var5 = var5.bind(var1)(var4);
                             var4 = _closure2_slot2;
@@ -852,7 +857,7 @@ case 37:
             };
             var17 = var11.bind(var6)(var2, var5);
             var _closure2_slot10 = var17;
-            var2 = 39;
+            var2 = 40;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
             var27 = var2.bind(var4)();
@@ -883,7 +888,7 @@ case 40:
                         var2['tab'] = var4;
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var4 = var4[var1];
                         var1 = undefined;
                         var4 = var5.bind(var1)(var4);
@@ -917,7 +922,58 @@ case 39:
                 return var1;
             };
             var2 = var11.bind(var6)(var2, var5);
-            var2 = 40;
+            var11 = var6.useEffect;
+            var5 = new Array(1);
+            var5[0] = var17;
+            var2 = function() {
+                var5 = function handleOpenChatTab() {
+                    var3 = _closure2_slot10;
+                    var2 = {};
+                    var1 = 'chat';
+                    var2['tab'] = var1;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 14;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var4 = var5.bind(var1)(var4);
+                    var4 = var4.VoicePanelTabAnalyticsSources;
+                    var4 = var4.HEADER_BUTTON;
+                    var2['source'] = var4;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var _closure3_slot0 = var5;
+                var6 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var3 = 41;
+                var4 = var4[var3];
+                var3 = undefined;
+                var3 = var6.bind(var3)(var4);
+                var4 = var3.ComponentDispatch;
+                var3 = var4.subscribe;
+                var2 = _closure1_slot15;
+                var2 = var2.VOICE_PANEL_OPEN_CHAT_TAB;
+                var2 = var3.bind(var4)(var2, var5);
+                var1 = function() {
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 41;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var3 = var4.bind(var1)(var3);
+                    var5 = var3.ComponentDispatch;
+                    var4 = var5.unsubscribe;
+                    var2 = _closure1_slot15;
+                    var3 = var2.VOICE_PANEL_OPEN_CHAT_TAB;
+                    var2 = _closure3_slot0;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                };
+                return var1;
+            };
+            var2 = var11.bind(var6)(var2, var5);
+            var2 = 42;
             var2 = var23[var2];
             var5 = var16.bind(var4)(var2);
             var2 = var5.getSafeAreaInsets;
@@ -926,11 +982,11 @@ case 39:
             var11 = var16.bind(var4)(var2);
             var5 = var11.useSharedValue;
             var2 = {'width': null, 'height': 0, 'x': 0, 'y': 0, 'drawerMode': false, 'hidden': false};
-            var21 = 21;
+            var21 = 22;
             var21 = var23[var21];
             var33 = var16.bind(var4)(var21);
             var30 = var33.getControlsDefaultWidth;
-            var21 = 41;
+            var21 = 43;
             var21 = var23[var21];
             var25 = var16.bind(var4)(var21);
             var21 = var25.getWindowDimensions;
@@ -943,7 +999,7 @@ case 39:
             var25 = false;
             var21 = var5.bind(var11)(var2);
             var _closure2_slot12 = var21;
-            var2 = 9;
+            var2 = 10;
             var2 = var23[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var2.radii;
@@ -952,13 +1008,13 @@ case 39:
             var2 = var23[var31];
             var11 = var16.bind(var4)(var2);
             var5 = var11.useAnimatedStyle;
-            var2 = function se() {
+            var2 = function ne() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var9 = 33;
+                    var9 = 34;
                     var2 = var2[var9];
                     var7 = undefined;
                     var10 = var3.bind(var7)(var2);
@@ -1017,7 +1073,7 @@ case 42:
                     var12 = var5.bind(var7)(var6);
                     var11 = var12.withSpring;
                     var14 = _closure1_slot1;
-                    var6 = 42;
+                    var6 = 44;
                     var6 = var3[var6];
                     var14 = var14.bind(var7)(var6);
                     var6 = var10.get;
@@ -1112,7 +1168,7 @@ case 51:
                 }
             };
             var13 = {};
-            var33 = 33;
+            var33 = 34;
             var33 = var23[var33];
             var33 = var16.bind(var4)(var33);
             var33 = var33.withSpring;
@@ -1125,7 +1181,7 @@ case 51:
             var13['PANEL_CONTROLS_HEIGHT_PHYSICS'] = var30;
             var30 = _closure1_slot7;
             var13['MODE_CHANGE_PHYSICS'] = var30;
-            var30 = 42;
+            var30 = 44;
             var30 = var23[var30];
             var30 = var12.bind(var4)(var30);
             var13['roundToNearestPixel'] = var30;
@@ -1139,13 +1195,13 @@ case 51:
             var2['__closure'] = var13;
             var13 = 4447271015736.0;
             var2['__workletHash'] = var13;
-            var13 = _closure1_slot35;
+            var13 = _closure1_slot36;
             var2['__initData'] = var13;
             var24 = var5.bind(var11)(var2);
             var2 = var23[var31];
             var11 = var16.bind(var4)(var2);
             var5 = var11.useAnimatedProps;
-            var2 = function ne() {
+            var2 = function ae() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     var1 = {};
@@ -1177,7 +1233,7 @@ case 54:
             var2['__closure'] = var13;
             var13 = 9395644139205.0;
             var2['__workletHash'] = var13;
-            var13 = _closure1_slot36;
+            var13 = _closure1_slot37;
             var2['__initData'] = var13;
             var13 = var5.bind(var11)(var2);
             var2 = function useControlsGesture(arg1, arg2, arg3, arg4) {
@@ -1193,7 +1249,7 @@ case 54:
                 var3 = var7.useContext;
                 var6 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var2 = var13[var2];
                 var12 = undefined;
                 var2 = var6.bind(var12)(var2);
@@ -1207,7 +1263,7 @@ case 54:
                 var20 = var2.safeArea;
                 var _closure3_slot7 = var20;
                 var11 = _closure1_slot0;
-                var10 = 11;
+                var10 = 12;
                 var2 = var13[var10];
                 var15 = var11.bind(var12)(var2);
                 var3 = var15.useSharedValue;
@@ -1243,7 +1299,7 @@ case 54:
                 var3 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -1261,7 +1317,7 @@ case 54:
                 var3 = 1;
                 var3 = var23.bind(var12)(var25, var3);
                 var3 = var3[var5];
-                var5 = 18;
+                var5 = 19;
                 var5 = var13[var5];
                 var5 = var6.bind(var12)(var5);
                 var23 = var5.bind(var12)();
@@ -1285,7 +1341,7 @@ case 54:
                 var4 = function() {
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var17 = 19;
+                    var17 = 20;
                     var2 = var10[var17];
                     var8 = undefined;
                     var2 = var9.bind(var8)(var2);
@@ -1305,7 +1361,7 @@ case 54:
                     var2 = _closure3_slot12;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onTouchesDown;
-                    var2 = function P(arg1) {
+                    var2 = function b(arg1) {
                         var5 = arg1;
                         var2 = _closure3_slot9;
                         var1 = var2.set;
@@ -1369,14 +1425,14 @@ case 54:
                     var2['__closure'] = var6;
                     var6 = 11358013348501.0;
                     var2['__workletHash'] = var6;
-                    var6 = _closure1_slot27;
+                    var6 = _closure1_slot28;
                     var2['__initData'] = var6;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onStart;
                     var2 = function R() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -1388,7 +1444,7 @@ case 54:
                         return var1;
                     };
                     var13 = {};
-                    var7 = 11;
+                    var7 = 12;
                     var6 = var10[var7];
                     var6 = var9.bind(var8)(var6);
                     var6 = var6.runOnJS;
@@ -1398,7 +1454,7 @@ case 54:
                     var2['__closure'] = var13;
                     var13 = 10726111020848.0;
                     var2['__workletHash'] = var13;
-                    var13 = _closure1_slot26;
+                    var13 = _closure1_slot27;
                     var2['__initData'] = var13;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onTouchesMove;
@@ -1410,7 +1466,7 @@ case 0:
                             var6 = var5.state;
                             var7 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 19;
+                            var1 = 20;
                             var2 = var2[var1];
                             var1 = undefined;
                             var2 = var7.bind(var1)(var2);
@@ -1584,14 +1640,14 @@ case 76:
 case 79:
                             var8 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var4 = 11;
+                            var4 = 12;
                             var4 = var9[var4];
                             var7 = var8.bind(var1)(var4);
                             var6 = var7.runOnJS;
                             var4 = _closure3_slot3;
                             var6 = var6.bind(var7)(var4);
                             var4 = {'tab': 'settings', 'source': null, 'disableControlsUpdate': true};
-                            var7 = 13;
+                            var7 = 14;
                             var7 = var9[var7];
                             var7 = var8.bind(var1)(var7);
                             var7 = var7.VoicePanelTabAnalyticsSources;
@@ -1636,7 +1692,7 @@ case 55:
                     var13['runOnJS'] = var12;
                     var12 = _closure3_slot3;
                     var13['openTab'] = var12;
-                    var12 = 13;
+                    var12 = 14;
                     var12 = var10[var12];
                     var12 = var9.bind(var8)(var12);
                     var12 = var12.VoicePanelTabAnalyticsSources;
@@ -1646,7 +1702,7 @@ case 55:
                     var2['__closure'] = var13;
                     var13 = 16426957992320.0;
                     var2['__workletHash'] = var13;
-                    var13 = _closure1_slot25;
+                    var13 = _closure1_slot26;
                     var2['__initData'] = var13;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onChange;
@@ -1728,12 +1784,12 @@ case 84:
 case 86:
                             var5 = _closure1_slot0;
                             var12 = _closure1_slot2;
-                            var1 = 11;
+                            var1 = 12;
                             var1 = var12[var1];
                             var3 = undefined;
                             var14 = var5.bind(var3)(var1);
                             var13 = var14.runOnJS;
-                            var1 = 22;
+                            var1 = 23;
                             var2 = var12[var1];
                             var2 = var5.bind(var3)(var2);
                             var2 = var2.triggerHapticFeedback;
@@ -1768,7 +1824,7 @@ case 70:
                             var1[var5] = var8;
                             var9 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var5 = 21;
+                            var5 = 22;
                             var8 = var8[var5];
                             var5 = undefined;
                             var11 = var9.bind(var5)(var8);
@@ -1814,7 +1870,7 @@ case 89:
 case 88:
                             var2 = _closure1_slot1;
                             var10 = _closure1_slot2;
-                            var1 = 20;
+                            var1 = 21;
                             var1 = var10[var1];
                             var9 = undefined;
                             var2 = var2.bind(var9)(var1);
@@ -1836,7 +1892,7 @@ case 88:
                             var6 = 'y';
                             var1[var6] = var11;
                             var6 = _closure1_slot0;
-                            var5 = 21;
+                            var5 = 22;
                             var5 = var10[var5];
                             var11 = var6.bind(var9)(var5);
                             var10 = var11.getControlsDrawerOpenWidth;
@@ -1876,14 +1932,14 @@ case 87:
                     var13 = {};
                     var13['gestureSpecs'] = var14;
                     var19 = _closure1_slot1;
-                    var18 = 20;
+                    var18 = 21;
                     var17 = var10[var18];
                     var17 = var19.bind(var8)(var17);
                     var13['calculateVoicePanelHeaderSpecs'] = var17;
                     var17 = _closure3_slot7;
                     var13['safeArea'] = var17;
                     var13['wrapperSpecs'] = var21;
-                    var22 = 21;
+                    var22 = 22;
                     var23 = var10[var22];
                     var23 = var9.bind(var8)(var23);
                     var23 = var23.getControlsDrawerOpenWidth;
@@ -1897,7 +1953,7 @@ case 87:
                     var23 = var9.bind(var8)(var23);
                     var23 = var23.runOnJS;
                     var13['runOnJS'] = var23;
-                    var23 = 22;
+                    var23 = 23;
                     var24 = var10[var23];
                     var24 = var9.bind(var8)(var24);
                     var24 = var24.triggerHapticFeedback;
@@ -1913,7 +1969,7 @@ case 87:
                     var2['__closure'] = var13;
                     var13 = 7837856916375.0;
                     var2['__workletHash'] = var13;
-                    var13 = _closure1_slot24;
+                    var13 = _closure1_slot25;
                     var2['__initData'] = var13;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onTouchesCancelled;
@@ -1937,7 +1993,7 @@ case 87:
                         var1 = var3.bind(var4)(var1);
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -1960,7 +2016,7 @@ case 87:
                     var2['__closure'] = var13;
                     var13 = 1131746916097.0;
                     var2['__workletHash'] = var13;
-                    var13 = _closure1_slot23;
+                    var13 = _closure1_slot24;
                     var2['__initData'] = var13;
                     var5 = var3.bind(var5)(var2);
                     var3 = var5.onEnd;
@@ -2036,7 +2092,7 @@ case 91:
                             var8 = var2.drawerHeight;
                             var9 = _closure1_slot1;
                             var10 = _closure1_slot2;
-                            var7 = 20;
+                            var7 = 21;
                             var7 = var10[var7];
                             var10 = undefined;
                             var9 = var9.bind(var10)(var7);
@@ -2075,7 +2131,7 @@ case 99:
                             var1 = var1.bind(var4)(var5);
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var1 = 11;
+                            var1 = 12;
                             var4 = var4[var1];
                             var1 = undefined;
                             var5 = var5.bind(var1)(var4);
@@ -2107,7 +2163,7 @@ case 99:
                     var2['__closure'] = var13;
                     var13 = 891400234356.0;
                     var2['__workletHash'] = var13;
-                    var13 = _closure1_slot22;
+                    var13 = _closure1_slot23;
                     var2['__initData'] = var13;
                     var3 = var3.bind(var5)(var2);
                     var2 = var3.onFinalize;
@@ -2121,7 +2177,7 @@ case 99:
                         var1 = var1.bind(var3)(var4);
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -2143,7 +2199,7 @@ case 99:
                     var1['__closure'] = var5;
                     var5 = 7081480235438.0;
                     var1['__workletHash'] = var5;
-                    var4 = _closure1_slot21;
+                    var4 = _closure1_slot22;
                     var1['__initData'] = var4;
                     var1 = var2.bind(var3)(var1);
                     return var1;
@@ -2164,7 +2220,7 @@ case 99:
                 var5['__closure'] = var9;
                 var9 = 6312637480574.0;
                 var5['__workletHash'] = var9;
-                var9 = _closure1_slot28;
+                var9 = _closure1_slot29;
                 var5['__initData'] = var9;
                 var1 = function u(arg1, arg2) {
                     _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -2175,12 +2231,12 @@ case 0:
 case 104:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var1 = var5[var1];
                         var3 = undefined;
                         var7 = var4.bind(var3)(var1);
                         var6 = var7.runOnJS;
-                        var1 = 22;
+                        var1 = 23;
                         var2 = var5[var1];
                         var2 = var4.bind(var3)(var2);
                         var2 = var2.triggerHapticFeedback;
@@ -2200,7 +2256,7 @@ case 103:
                 var10 = var11.bind(var12)(var10);
                 var10 = var10.runOnJS;
                 var9['runOnJS'] = var10;
-                var10 = 22;
+                var10 = 23;
                 var14 = var13[var10];
                 var14 = var11.bind(var12)(var14);
                 var14 = var14.triggerHapticFeedback;
@@ -2212,7 +2268,7 @@ case 103:
                 var1['__closure'] = var9;
                 var9 = 6391154289487.0;
                 var1['__workletHash'] = var9;
-                var8 = _closure1_slot29;
+                var8 = _closure1_slot30;
                 var1['__initData'] = var8;
                 var1 = var6.bind(var7)(var5, var1);
                 var1 = {};
@@ -2235,7 +2291,7 @@ case 103:
                 var _closure3_slot0 = var13;
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var1 = 23;
+                var1 = 24;
                 var3 = var10[var1];
                 var1 = undefined;
                 var4 = var9.bind(var1)(var3);
@@ -2243,7 +2299,7 @@ case 103:
                 var8 = var3.bind(var4)();
                 var _closure3_slot1 = var8;
                 var7 = _closure1_slot1;
-                var3 = 24;
+                var3 = 25;
                 var3 = var10[var3];
                 var4 = var7.bind(var1)(var3);
                 var3 = {};
@@ -2253,7 +2309,7 @@ case 103:
                 var _closure3_slot2 = var15;
                 var5 = _closure1_slot4;
                 var4 = var5.useContext;
-                var3 = 10;
+                var3 = 11;
                 var3 = var10[var3];
                 var3 = var7.bind(var1)(var3);
                 var3 = var4.bind(var5)(var3);
@@ -2269,7 +2325,7 @@ case 103:
                 var _closure3_slot7 = var14;
                 var19 = var3.connected;
                 var _closure3_slot8 = var19;
-                var12 = 11;
+                var12 = 12;
                 var3 = var10[var12];
                 var5 = var9.bind(var1)(var3);
                 var4 = var5.useAnimatedReaction;
@@ -2322,7 +2378,7 @@ case 103:
                 var3['__closure'] = var7;
                 var7 = 8473375804517.0;
                 var3['__workletHash'] = var7;
-                var7 = _closure1_slot30;
+                var7 = _closure1_slot31;
                 var3['__initData'] = var7;
                 var2 = function s(arg1, arg2) {
                     _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
@@ -2331,7 +2387,7 @@ case 0:
                         var7 = arg2;
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 25;
+                        var1 = 26;
                         var3 = var3[var1];
                         var1 = undefined;
                         var8 = var4.bind(var1)(var3);
@@ -2380,7 +2436,7 @@ case 112:
 case 113:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var14 = 26;
+                        var14 = 27;
                         var2 = var2[var14];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.getDrawerSpec;
@@ -2428,7 +2484,7 @@ case 118:
                         var2 = {'x': 0, 'y': 0, 'width': null, 'height': null, 'drawerMode': true, 'hidden': false};
                         var12 = _closure1_slot0;
                         var14 = _closure1_slot2;
-                        var11 = 21;
+                        var11 = 22;
                         var11 = var14[var11];
                         var15 = var12.bind(var1)(var11);
                         var14 = var15.getControlsDrawerOpenWidth;
@@ -2454,7 +2510,7 @@ case 49:
                         var2['y'] = var10;
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
-                        var10 = 21;
+                        var10 = 22;
                         var10 = var12[var10];
                         var12 = var11.bind(var1)(var10);
                         var11 = var12.getControlsDefaultWidth;
@@ -2502,7 +2558,7 @@ case 119:
 case 108:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 11;
+                        var2 = 12;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.runOnJS;
@@ -2550,7 +2606,7 @@ case 106:
                     }
                 };
                 var7 = {};
-                var14 = 25;
+                var14 = 26;
                 var14 = var10[var14];
                 var14 = var9.bind(var1)(var14);
                 var14 = var14.cheapWorkletShallowEqual;
@@ -2568,12 +2624,12 @@ case 106:
                 var7['isScreenReaderEnabled'] = var8;
                 var8 = _closure1_slot12;
                 var7['EDGE_GUTTER'] = var8;
-                var8 = 21;
+                var8 = 22;
                 var11 = var10[var8];
                 var11 = var9.bind(var1)(var11);
                 var11 = var11.getControlsDefaultWidth;
                 var7['getControlsDefaultWidth'] = var11;
-                var11 = 26;
+                var11 = 27;
                 var11 = var10[var11];
                 var11 = var9.bind(var1)(var11);
                 var11 = var11.getDrawerSpec;
@@ -2585,7 +2641,7 @@ case 106:
                 var2['__closure'] = var7;
                 var7 = 11593751602783.0;
                 var2['__workletHash'] = var7;
-                var6 = _closure1_slot31;
+                var6 = _closure1_slot32;
                 var2['__initData'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
@@ -2612,9 +2668,9 @@ case 106:
             var3['__closure'] = var2;
             var2 = 1144186345815.0;
             var3['__workletHash'] = var2;
-            var2 = _closure1_slot37;
+            var2 = _closure1_slot38;
             var3['__initData'] = var2;
-            var2 = function Se(arg1, arg2) {
+            var2 = function _e(arg1, arg2) {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                     var3 = arg1;
@@ -2647,7 +2703,7 @@ case 133:
 case 134:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var4[var2];
                     var4 = undefined;
                     var5 = var3.bind(var4)(var2);
@@ -2660,7 +2716,7 @@ case 134:
 case 132:
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 12;
                     var1 = var3[var1];
                     var3 = undefined;
                     var4 = var2.bind(var3)(var1);
@@ -2686,7 +2742,7 @@ case 130:
             var2['__closure'] = var25;
             var25 = 129244609438.0;
             var2['__workletHash'] = var25;
-            var25 = _closure1_slot38;
+            var25 = _closure1_slot39;
             var2['__initData'] = var25;
             var2 = var8.bind(var9)(var3, var2);
             var2 = var6.useId;
@@ -2705,16 +2761,16 @@ case 130:
                 return var1;
             };
             var9 = var3.bind(var6)(var1, var2);
-            var3 = _closure1_slot17;
-            var1 = 17;
+            var3 = _closure1_slot18;
+            var1 = 18;
             var1 = var23[var1];
             var1 = var16.bind(var4)(var1);
             var1 = var1.ControlsGestureScrollLock;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;
-            var8 = _closure1_slot15;
-            var5 = 43;
+            var8 = _closure1_slot16;
+            var5 = 45;
             var5 = var23[var5];
             var6 = var12.bind(var4)(var5);
             var5 = {};
@@ -2722,7 +2778,7 @@ case 130:
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var7 = _closure1_slot32;
+            var7 = _closure1_slot33;
             var6 = {};
             var6['channelId'] = var29;
             var6['wrapperSpecs'] = var21;
@@ -2731,7 +2787,7 @@ case 130:
             var6['gestureState'] = var26;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
-            var6 = 44;
+            var6 = 46;
             var6 = var23[var6];
             var7 = var12.bind(var4)(var6);
             var6 = {};
@@ -2742,13 +2798,13 @@ case 130:
             var6['onAccessibilityEscape'] = var9;
             var9 = 'box-none';
             var6['pointerEvents'] = var9;
-            var9 = 19;
+            var9 = 20;
             var9 = var23[var9];
             var9 = var16.bind(var4)(var9);
             var10 = var9.GestureDetector;
             var9 = {};
             var9['gesture'] = var11;
-            var11 = 35;
+            var11 = 36;
             var11 = var23[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -2758,13 +2814,13 @@ case 130:
             var15[1] = var24;
             var11['style'] = var15;
             var11['animatedProps'] = var13;
-            var15 = _closure1_slot20;
+            var15 = _closure1_slot21;
             var13 = {};
             var13['openTab'] = var17;
             var15 = var8.bind(var4)(var15, var13);
             var13 = new Array(4);
             var13[0] = var15;
-            var15 = 45;
+            var15 = 47;
             var15 = var23[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.VoicePanelVisualEffectView;
@@ -2774,7 +2830,7 @@ case 130:
 case 136:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var23 = 46;
+            var23 = 48;
             var23 = var25[var23];
             var24 = var24.bind(var4)(var23);
             var23 = var24.isAndroid;
@@ -2783,8 +2839,8 @@ case 135:
             var15['matchAppTheme'] = var22;
             var15 = var8.bind(var4)(var16, var15);
             var13[1] = var15;
-            var16 = _closure1_slot15;
-            var22 = _closure1_slot34;
+            var16 = _closure1_slot16;
+            var22 = _closure1_slot35;
             var15 = {};
             var15['openTab'] = var17;
             var15['wrapperSpecs'] = var21;
@@ -2793,7 +2849,7 @@ case 135:
             var13[2] = var15;
             var15 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var14 = 47;
+            var14 = 49;
             var14 = var22[var14];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -2817,7 +2873,7 @@ case 135:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 48;
+    var4 = 50;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

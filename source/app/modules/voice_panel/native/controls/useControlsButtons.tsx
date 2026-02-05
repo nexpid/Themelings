@@ -358,12 +358,29 @@ case 35:
         return var1;
     };
     var4['soundboard'] = var7;
+    var7 = function screenshare(arg1, arg2) {
+        var5 = _closure1_slot8;
+        var2 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 11;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var2 = {};
+        var7 = arg2;
+        var8 = var2;
+        var1 = copyDataProperties(var8, var7);
+        var1 = arg1;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
+    };
+    var4['screenshare'] = var7;
     var _closure1_slot9 = var4;
     var4 = {};
     var7 = 'function useControlsButtonsTsx1(){const{getControlsDefaultWidth,windowDimensions,safeArea}=this.__closure;return getControlsDefaultWidth(windowDimensions.get().width,safeArea.get().left,safeArea.get().right);}';
     var4['code'] = var7;
     var _closure1_slot10 = var4;
-    var4 = 17;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -372,28 +389,38 @@ case 35:
     var2 = function useControlsButtons() {
         var4 = _closure1_slot3;
         var3 = var4.useContext;
-        var8 = _closure1_slot1;
-        var9 = _closure1_slot2;
-        var2 = 11;
-        var2 = var9[var2];
-        var5 = undefined;
-        var2 = var8.bind(var5)(var2);
+        var9 = _closure1_slot1;
+        var10 = _closure1_slot2;
+        var2 = 13;
+        var2 = var10[var2];
+        var6 = undefined;
+        var2 = var9.bind(var6)(var2);
         var2 = var3.bind(var4)(var2);
         var3 = var2.channelId;
-        var14 = var2.windowDimensions;
-        var _closure2_slot0 = var14;
-        var13 = var2.safeArea;
-        var _closure2_slot1 = var13;
+        var15 = var2.windowDimensions;
+        var _closure2_slot0 = var15;
+        var14 = var2.safeArea;
+        var _closure2_slot1 = var14;
+        var2 = 14;
+        var2 = var10[var2];
+        var2 = var9.bind(var6)(var2);
+        var8 = var2.bind(var6)(var3);
+        var _closure2_slot2 = var8;
         var2 = 12;
-        var2 = var9[var2];
-        var2 = var8.bind(var5)(var2);
-        var7 = var2.bind(var5)(var3);
-        var _closure2_slot2 = var7;
-        var16 = _closure1_slot0;
-        var2 = 13;
-        var2 = var9[var2];
-        var10 = var16.bind(var5)(var2);
-        var6 = var10.useStateFromStores;
+        var2 = var10[var2];
+        var5 = var9.bind(var6)(var2);
+        var3 = var5.useConfig;
+        var2 = {};
+        var7 = 'VoicePanelControlButtons';
+        var2['location'] = var7;
+        var2 = var3.bind(var5)(var2);
+        var5 = var2.treatment;
+        var _closure2_slot3 = var5;
+        var17 = _closure1_slot0;
+        var2 = 15;
+        var2 = var10[var2];
+        var11 = var17.bind(var6)(var2);
+        var7 = var11.useStateFromStores;
         var2 = _closure1_slot4;
         var3 = new Array(1);
         var3[0] = var2;
@@ -406,16 +433,16 @@ case 35:
             var1 = var2 === var1;
             return var1;
         };
-        var6 = var6.bind(var10)(var3, var2);
-        var _closure2_slot3 = var6;
-        var2 = 14;
-        var2 = var9[var2];
-        var10 = var16.bind(var5)(var2);
-        var3 = var10.useDerivedValue;
+        var7 = var7.bind(var11)(var3, var2);
+        var _closure2_slot4 = var7;
+        var2 = 16;
+        var2 = var10[var2];
+        var11 = var17.bind(var6)(var2);
+        var3 = var11.useDerivedValue;
         var2 = function n() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 15;
+            var1 = 17;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -434,30 +461,31 @@ case 35:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         };
-        var12 = {};
-        var15 = 15;
-        var15 = var9[var15];
-        var15 = var16.bind(var5)(var15);
-        var15 = var15.getControlsDefaultWidth;
-        var12['getControlsDefaultWidth'] = var15;
-        var12['windowDimensions'] = var14;
-        var12['safeArea'] = var13;
-        var2['__closure'] = var12;
-        var12 = 16456936876254.0;
-        var2['__workletHash'] = var12;
-        var11 = _closure1_slot10;
-        var2['__initData'] = var11;
-        var3 = var3.bind(var10)(var2);
-        var2 = 16;
-        var2 = var9[var2];
-        var2 = var8.bind(var5)(var2);
-        var5 = var2.bind(var5)(var3);
-        var _closure2_slot4 = var5;
+        var13 = {};
+        var16 = 17;
+        var16 = var10[var16];
+        var16 = var17.bind(var6)(var16);
+        var16 = var16.getControlsDefaultWidth;
+        var13['getControlsDefaultWidth'] = var16;
+        var13['windowDimensions'] = var15;
+        var13['safeArea'] = var14;
+        var2['__closure'] = var13;
+        var13 = 16456936876254.0;
+        var2['__workletHash'] = var13;
+        var12 = _closure1_slot10;
+        var2['__initData'] = var12;
+        var3 = var3.bind(var11)(var2);
+        var2 = 18;
+        var2 = var10[var2];
+        var2 = var9.bind(var6)(var2);
+        var6 = var2.bind(var6)(var3);
+        var _closure2_slot5 = var6;
         var3 = var4.useMemo;
-        var2 = new Array(3);
-        var2[0] = var7;
-        var2[1] = var6;
-        var2[2] = var5;
+        var2 = new Array(4);
+        var2[0] = var8;
+        var2[1] = var7;
+        var2[2] = var6;
+        var2[3] = var5;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -465,66 +493,104 @@ case 0:
                 var _closure3_slot0 = var1;
                 var1 = 0;
                 var _closure3_slot1 = var1;
-                var2 = _closure2_slot2;
-                var1 = _closure2_slot3;
+                var5 = _closure2_slot2;
+                var1 = _closure2_slot4;
+                var2 = _closure2_slot3;
                 var4 = new Array(0);
-                var6 = var4.push;
-                if(var2) { _fun0004_ip = 36; continue _fun0004 }
+                var7 = var4.push;
+                if(var5) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-                var2 = {'type': 'icon-normal', 'key': 'disconnected-mute'};
-                var7 = _closure1_slot9;
-                var5 = var7.mic;
-                var2['render'] = var5;
-                var2 = var6.bind(var4)(var2);
-                var5 = var4.push;
-                var2 = {'type': 'label', 'key': 'disconnected-connect'};
-                var8 = var7.connect;
-                var2['render'] = var8;
-                var2 = var5.bind(var4)(var2);
-                var5 = var4.push;
-                var2 = {'type': 'icon-normal', 'key': 'disconnected-chat'};
-                var7 = var7.chat;
-                var2['render'] = var7;
-                var2 = var5.bind(var4)(var2);
+                var5 = {'type': 'icon-normal', 'key': 'disconnected-mute'};
+                var8 = _closure1_slot9;
+                var6 = var8.mic;
+                var5['render'] = var6;
+                var5 = var7.bind(var4)(var5);
+                var6 = var4.push;
+                var5 = {'type': 'label', 'key': 'disconnected-connect'};
+                var9 = var8.connect;
+                var5['render'] = var9;
+                var5 = var6.bind(var4)(var5);
+                var6 = var4.push;
+                var5 = {'type': 'icon-normal', 'key': 'disconnected-chat'};
+                var8 = var8.chat;
+                var5['render'] = var8;
+                var5 = var6.bind(var4)(var5);
                 _fun0004_ip = 38; continue _fun0004;
 case 36:
-                var2 = {'type': 'icon-normal', 'key': 'connected-video'};
-                var7 = _closure1_slot9;
-                var7 = var7.video;
-                var2['render'] = var7;
-                var2 = var6.bind(var4)(var2);
+                var6 = {'type': 'icon-normal', 'key': 'connected-video'};
+                var8 = _closure1_slot9;
+                var8 = var8.video;
+                var6['render'] = var8;
+                var6 = var7.bind(var4)(var6);
                 if(var1) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
-                var6 = var4.push;
-                var2 = {'type': 'icon-normal', 'key': 'connected-mic'};
-                var7 = _closure1_slot9;
-                var7 = var7.micConnected;
-                var2['render'] = var7;
-                var2 = var6.bind(var4)(var2);
+                var7 = var4.push;
+                var6 = {'type': 'icon-normal', 'key': 'connected-mic'};
+                var8 = _closure1_slot9;
+                var8 = var8.micConnected;
+                var6['render'] = var8;
+                var6 = var7.bind(var4)(var6);
 case 39:
-                var6 = var4.push;
-                var2 = {'type': 'icon-normal', 'key': 'connected-chat'};
-                var7 = _closure1_slot9;
-                var7 = var7.chat;
-                var2['render'] = var7;
-                var2 = var6.bind(var4)(var2);
-                if(!var1) { _fun0004_ip = 41; continue _fun0004 }
+                var9 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var8 = 12;
+                var6 = var6[var8];
+                var7 = undefined;
+                var6 = var9.bind(var7)(var6);
+                var6 = var6.MobileGoLiveEntrypointTreatment;
+                var6 = var6.SCREENSHARE_REPLACES_CHAT;
+                if(!(var2 !== var6)) { _fun0004_ip = 41; continue _fun0004 }
 case 12:
-                var2 = var4.push;
-                var1 = {'type': 'icon-large', 'key': 'connected-ptt'};
-                var6 = _closure1_slot9;
-                var6 = var6.ptt;
-                var1['render'] = var6;
-                var1 = var2.bind(var4)(var1);
+                var9 = var4.push;
+                var6 = {'type': 'icon-normal', 'key': 'connected-chat'};
+                var10 = _closure1_slot9;
+                var10 = var10.chat;
+                var6['render'] = var10;
+                var6 = var9.bind(var4)(var6);
+                _fun0004_ip = 42; continue _fun0004;
 case 41:
+                var9 = var4.push;
+                var6 = {'type': 'icon-normal', 'key': 'connected-screenshare'};
+                var10 = _closure1_slot9;
+                var10 = var10.screenshare;
+                var6['render'] = var10;
+                var6 = var9.bind(var4)(var6);
+case 42:
+                if(!var1) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+                var6 = var4.push;
+                var1 = {'type': 'icon-large', 'key': 'connected-ptt'};
+                var9 = _closure1_slot9;
+                var9 = var9.ptt;
+                var1['render'] = var9;
+                var1 = var6.bind(var4)(var1);
+case 43:
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var8];
+                var1 = var6.bind(var7)(var1);
+                var1 = var1.MobileGoLiveEntrypointTreatment;
+                var1 = var1.SCREENSHARE_REPLACES_SOUNDBOARD;
+                if(!(var2 !== var1)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
                 var2 = var4.push;
                 var1 = {'type': 'icon-normal', 'key': 'connected-soundboard'};
-                var5 = _closure1_slot9;
-                var6 = var5.soundboard;
+                var6 = _closure1_slot9;
+                var6 = var6.soundboard;
                 var1['render'] = var6;
                 var1 = var2.bind(var4)(var1);
+                _fun0004_ip = 47; continue _fun0004;
+case 45:
+                var2 = var4.push;
+                var1 = {'type': 'icon-normal', 'key': 'connected-screenshare'};
+                var6 = _closure1_slot9;
+                var6 = var6.screenshare;
+                var1['render'] = var6;
+                var1 = var2.bind(var4)(var1);
+case 47:
                 var2 = var4.push;
                 var1 = {'type': 'icon-normal', 'key': 'connected-disconnect'};
+                var5 = _closure1_slot9;
                 var5 = var5.disconnectCancel;
                 var1['render'] = var5;
                 var1 = var2.bind(var4)(var1);
@@ -536,22 +602,22 @@ case 0:
                         var3 = arg1;
                         var1 = var3.type;
                         var5 = 'label';
-                        if(!(var5 === var1)) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                        if(!(var5 === var1)) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                         var1 = true;
                         _closure3_slot0 = var1;
-case 42:
+case 48:
                         var2 = _closure1_slot6;
                         var6 = var3.type;
                         var4 = 'icon-large';
-                        if(!(var4 === var6)) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+                        if(!(var4 === var6)) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
                         var7 = _closure3_slot1;
                         var4 = 1;
                         var4 = var7 + var4;
                         _closure3_slot1 = var4;
                         var2 = _closure1_slot5;
-case 44:
+case 50:
                         var1 = {};
                         var9 = var1;
                         var8 = var3;
@@ -560,10 +626,10 @@ case 44:
                         var1[var4] = var2;
                         var4 = var3.type;
                         var3 = -1;
-                        if(!(var5 !== var4)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
+                        if(!(var5 !== var4)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
                         var3 = var2;
-case 46:
+case 52:
                         var2 = 'width';
                         var1[var2] = var3;
                         var3 = 0;
@@ -578,9 +644,9 @@ case 46:
                 var2 = _closure3_slot0;
                 var12 = 16;
                 var11 = var12;
-                if(var2) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-                var5 = _closure2_slot4;
+                if(var2) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
+                var5 = _closure2_slot5;
                 var6 = _closure3_slot1;
                 var4 = _closure1_slot5;
                 var4 = var6 * var4;
@@ -597,7 +663,7 @@ case 49:
                 var2 = 32;
                 var2 = var4 - var2;
                 var11 = var2 / var3;
-case 48:
+case 54:
                 var2 = _closure1_slot11;
                 var9 = undefined;
                 var8 = var2.bind(var9)(var1);
@@ -607,27 +673,27 @@ case 48:
                 var6 = 1;
                 var5 = 32;
                 var4 = -1;
-                if(var2) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+                if(var2) { _fun0004_ip = 56; continue _fun0004 }
+case 57:
                 var15 = var3.value;
                 var2 = var15.width;
-                if(!(var4 === var2)) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
+                if(!(var4 === var2)) { _fun0004_ip = 58; continue _fun0004 }
+case 59:
                 var14 = var1.length;
                 var16 = var14 - var6;
                 var14 = _closure1_slot6;
                 var17 = var16 * var14;
                 var14 = var1.length;
                 var14 = var14 - var6;
-                var16 = _closure2_slot4;
+                var16 = _closure2_slot5;
                 var17 = var5 + var17;
                 var14 = var14 * var11;
                 var14 = var17 + var14;
                 var14 = var16 - var14;
                 var15['width'] = var14;
                 var2 = var14;
-case 52:
-                var14 = _closure2_slot4;
+case 58:
+                var14 = _closure2_slot5;
                 var14 = var14 / var7;
                 var16 = var2 / var7;
                 var14 = var12 - var14;
@@ -638,8 +704,8 @@ case 52:
                 var14 = var8.bind(var9)();
                 var2 = var14.done;
                 var3 = var14;
-                if(!var2) { _fun0004_ip = 51; continue _fun0004 }
-case 50:
+                if(!var2) { _fun0004_ip = 57; continue _fun0004 }
+case 56:
                 return var1;
             }
         };

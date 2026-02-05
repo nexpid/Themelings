@@ -731,6 +731,8 @@ case 55:
 case 54:
             var23['pronouns'] = var53;
             var23['badgeContainerBackground'] = var38;
+            var53 = 'header';
+            var23['displayNameAccessibilityRole'] = var53;
             if(!var13) { _fun0003_ip = 56; continue _fun0003 }
 case 57:
             var28 = var30;

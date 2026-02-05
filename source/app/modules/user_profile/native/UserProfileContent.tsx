@@ -1051,7 +1051,7 @@ case 49:
             var9 = 50;
             var9 = var8[var9];
             var24 = var3.bind(var5)(var9);
-            var9 = var24.useMobileWishlistViewerExperiment;
+            var9 = var24.useMobileWishlistOwnerExperiment;
             var9 = var9.bind(var24)(var25);
             var25 = var9.enabled;
             _closure2_slot14 = var25;

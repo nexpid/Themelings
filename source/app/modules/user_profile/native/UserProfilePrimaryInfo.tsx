@@ -26,17 +26,19 @@ case 0:
 case 3:
             var9 = false;
 case 2:
-            var2 = var2.pendingDisplayNameStyles;
-            var _closure2_slot3 = var2;
-            var _closure2_slot4 = var5;
+            var3 = var2.pendingDisplayNameStyles;
+            var _closure2_slot3 = var3;
+            var2 = var2.displayNameAccessibilityRole;
+            var _closure2_slot4 = var2;
             var _closure2_slot5 = var5;
+            var _closure2_slot6 = var5;
             var3 = _closure1_slot15;
             var8 = var3.bind(var5)();
-            _closure2_slot4 = var8;
+            _closure2_slot5 = var8;
             var3 = _closure1_slot18;
             var3 = var3.bind(var5)(var4);
             var3 = var3.headingVariant;
-            _closure2_slot5 = var3;
+            _closure2_slot6 = var3;
             var6 = function renderDisplayName() {
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
@@ -53,7 +55,7 @@ case 2:
                 var1['guildId'] = var7;
                 var7 = _closure2_slot2;
                 var1['userName'] = var7;
-                var7 = _closure2_slot5;
+                var7 = _closure2_slot6;
                 var1['variant'] = var7;
                 var7 = _closure1_slot0;
                 var6 = 10;
@@ -64,10 +66,12 @@ case 2:
                 var1['effectDisplayType'] = var6;
                 var6 = 2;
                 var1['lineClamp'] = var6;
-                var5 = _closure2_slot3;
-                var1['pendingDisplayNameStyles'] = var5;
-                var5 = 'mobile-text-heading-primary';
-                var1['defaultColor'] = var5;
+                var6 = _closure2_slot3;
+                var1['pendingDisplayNameStyles'] = var6;
+                var6 = 'mobile-text-heading-primary';
+                var1['defaultColor'] = var6;
+                var5 = _closure2_slot4;
+                var1['accessibilityRole'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
@@ -92,7 +96,7 @@ case 7:
                     var4 = undefined;
                     var3 = var8.bind(var4)(var2);
                     var2 = {};
-                    var10 = _closure2_slot4;
+                    var10 = _closure2_slot5;
                     var10 = var10.botTag;
                     var2['style'] = var10;
                     var7 = var9[var7];
@@ -116,7 +120,7 @@ case 4:
                     var4 = undefined;
                     var3 = var8.bind(var4)(var2);
                     var2 = {};
-                    var10 = _closure2_slot4;
+                    var10 = _closure2_slot5;
                     var10 = var10.botTag;
                     var2['style'] = var10;
                     var7 = var9[var7];
@@ -981,11 +985,11 @@ case 68:
             var16 = var4 == var1;
             var1 = null;
             if(var16) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+case 12:
             var3 = var4 == var3;
             var1 = null;
             if(var3) { _fun0009_ip = 69; continue _fun0009 }
-case 71:
+case 70:
             var4 = _closure1_slot12;
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -1130,16 +1134,16 @@ case 69:
 case 0:
             var3 = arg1;
             var1 = undefined;
-            if(!var3) { _fun0010_ip = 72; continue _fun0010 }
-case 73:
+            if(!var3) { _fun0010_ip = 71; continue _fun0010 }
+case 72:
             var2 = _closure1_slot17;
             var1 = var2[var3];
-case 72:
+case 71:
             var2 = null;
-            if(!(var2 == var1)) { _fun0010_ip = 74; continue _fun0010 }
-case 75:
-            var1 = _closure1_slot16;
+            if(!(var2 == var1)) { _fun0010_ip = 73; continue _fun0010 }
 case 74:
+            var1 = _closure1_slot16;
+case 73:
             return var1;
         }
     };
@@ -1155,15 +1159,16 @@ case 74:
 case 0:
             var2 = arg1;
             var17 = var2.user;
-            var25 = var2.guildId;
-            var27 = var2.displayName;
+            var26 = var2.guildId;
+            var28 = var2.displayName;
             var22 = var2.pronouns;
             var6 = var2.style;
             var16 = var2.badges;
             var1 = var2.badgeContainerBackground;
             var14 = var2.themeType;
-            var23 = var2.onPressDisplayName;
-            var12 = var2.displayNameAccessibilityHint;
+            var25 = var2.onPressDisplayName;
+            var23 = var2.displayNameAccessibilityHint;
+            var12 = var2.displayNameAccessibilityRole;
             var21 = var2.onPressUserTag;
             var20 = var2.userTagAccessibilityHint;
             var19 = var2.onPressPronouns;
@@ -1182,7 +1187,7 @@ case 0:
             var5 = var3[var1];
             var7 = var2.bind(var4)(var5);
             var5 = var7.useName;
-            var26 = var5.bind(var7)(var17);
+            var27 = var5.bind(var7)(var17);
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useUserTag;
@@ -1199,22 +1204,23 @@ case 0:
             var6 = _closure1_slot19;
             var5 = {};
             var5['user'] = var17;
-            var5['guildId'] = var25;
-            var28 = '';
-            var25 = var26;
-            if(!(var28 !== var27)) { _fun0011_ip = 76; continue _fun0011 }
-case 77:
-            var28 = null;
-            if(!(var28 != var27)) { _fun0011_ip = 78; continue _fun0011 }
-case 79:
+            var5['guildId'] = var26;
+            var29 = '';
             var26 = var27;
-case 78:
-            var25 = var26;
+            if(!(var29 !== var28)) { _fun0011_ip = 75; continue _fun0011 }
 case 76:
-            var5['name'] = var25;
+            var29 = null;
+            if(!(var29 != var28)) { _fun0011_ip = 27; continue _fun0011 }
+case 77:
+            var27 = var28;
+case 27:
+            var26 = var27;
+case 75:
+            var5['name'] = var26;
             var5['themeType'] = var14;
-            var5['onPress'] = var23;
-            var5['accessibilityHint'] = var12;
+            var5['onPress'] = var25;
+            var5['accessibilityHint'] = var23;
+            var5['displayNameAccessibilityRole'] = var12;
             var5['showChevron'] = var11;
             var5['pendingDisplayNameStyles'] = var8;
             var6 = var7.bind(var4)(var6, var5);
@@ -1230,10 +1236,10 @@ case 76:
             var9 = {};
             var25 = var17.isProvisional;
             var23 = null;
-            if(var25) { _fun0011_ip = 80; continue _fun0011 }
-case 81:
+            if(var25) { _fun0011_ip = 78; continue _fun0011 }
+case 79:
             var23 = var24;
-case 80:
+case 78:
             var9['userTag'] = var23;
             var9['pronouns'] = var22;
             var9['themeType'] = var14;

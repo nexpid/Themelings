@@ -231,17 +231,17 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot16 = var6;
+    var _closure1_slot15 = var6;
     var5 = function ActivityViewLoadingIndicator() {
-        var1 = _closure1_slot15;
+        var1 = _closure1_slot14;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot11;
         var2 = _closure1_slot6;
         var1 = {};
         var6 = var6.loadingContainer;
         var1['style'] = var6;
-        var7 = _closure1_slot12;
+        var7 = _closure1_slot11;
         var6 = _closure1_slot5;
         var5 = {};
         var8 = 'large';
@@ -251,7 +251,7 @@ case 17:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot17 = var5;
+    var _closure1_slot16 = var5;
     var4 = function BaseActivityView(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -265,10 +265,10 @@ case 19:
             var1 = null;
             if(var2) { _fun0006_ip = 20; continue _fun0006 }
 case 21:
-            var5 = _closure1_slot14;
-            var4 = _closure1_slot13;
+            var5 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var3 = {};
-            var9 = _closure1_slot12;
+            var9 = _closure1_slot11;
             var8 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 12;
@@ -286,8 +286,8 @@ case 21:
 case 20:
             _fun0006_ip = 22; continue _fun0006;
 case 18:
-            var5 = _closure1_slot12;
-            var4 = _closure1_slot17;
+            var5 = _closure1_slot11;
+            var4 = _closure1_slot16;
             var3 = undefined;
             var2 = {};
             var1 = var5.bind(var3)(var4, var2);
@@ -295,7 +295,7 @@ case 22:
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var1 = global;
     var12 = var1.Object;
     var10 = var12.defineProperty;
@@ -330,24 +330,22 @@ case 22:
     var7 = var8.bind(var1)(var7);
     var11 = var7.ActivityLayoutMode;
     var _closure1_slot8 = var11;
-    var11 = var7.ActivityScreenOrientation;
-    var _closure1_slot9 = var11;
-    var7 = var7.APPLICATIONS_WITH_NO_REFFERER;
-    var _closure1_slot10 = var7;
+    var7 = var7.ActivityScreenOrientation;
+    var _closure1_slot9 = var7;
     var7 = 5;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var7 = var7.OBEY_SILENT_HARDWARE_SWITCH_APP_IDS;
-    var _closure1_slot11 = var7;
+    var _closure1_slot10 = var7;
     var7 = 6;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
     var11 = var7.jsx;
-    var _closure1_slot12 = var11;
+    var _closure1_slot11 = var11;
     var11 = var7.Fragment;
-    var _closure1_slot13 = var11;
+    var _closure1_slot12 = var11;
     var7 = var7.jsxs;
-    var _closure1_slot14 = var7;
+    var _closure1_slot13 = var7;
     var7 = 7;
     var7 = var9[var7];
     var12 = var8.bind(var1)(var7);
@@ -356,7 +354,7 @@ case 22:
     var13 = {'flex': 1, 'justifyContent': 'center'};
     var7['loadingContainer'] = var13;
     var7 = var11.bind(var12)(var7);
-    var _closure1_slot15 = var7;
+    var _closure1_slot14 = var7;
     var7 = var10.memo;
     var2 = function EmbeddedActivityViewInner(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -612,7 +610,7 @@ case 62:
 case 65:
             var7 = var18 == var17;
 case 64:
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot15;
             var1 = {};
             var1['orientationLockState'] = var4;
             var1['showLoadingIndicator'] = var7;
@@ -638,14 +636,14 @@ case 67:
             var1 = null;
             if(var2) { _fun0007_ip = 66; continue _fun0007 }
 case 68:
-            var4 = _closure1_slot12;
-            var3 = _closure1_slot18;
+            var4 = _closure1_slot11;
+            var3 = _closure1_slot17;
             var2 = {};
             var8 = 'EmbeddedActivities';
             var2['wakeLockKey'] = var8;
             var2['showLoadingIndicator'] = var7;
             var2['isResetting'] = var6;
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var22 = _closure1_slot2;
             var6 = 17;
@@ -706,24 +704,17 @@ case 73:
             var14 = var15.allowPopups;
             var14 = var14.bind(var15)(var17);
             var6['allowPopups'] = var14;
-            var15 = _closure1_slot10;
-            var14 = var15.has;
-            var15 = var14.bind(var15)(var11);
             var14 = 'origin';
-            if(!var15) { _fun0007_ip = 75; continue _fun0007 }
-case 76:
-            var14 = 'no-referrer';
-case 75:
             var6['referrerPolicy'] = var14;
             var14 = _closure1_slot8;
             var14 = var14.PIP;
             var14 = var16 === var14;
-            if(var14) { _fun0007_ip = 77; continue _fun0007 }
-case 78:
+            if(var14) { _fun0007_ip = 75; continue _fun0007 }
+case 76:
             var15 = _closure1_slot8;
             var15 = var15.GRID;
             var14 = var16 === var15;
-case 77:
+case 75:
             var6['isPipOrGridMode'] = var14;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -732,12 +723,12 @@ case 77:
             var14 = var15.bind(var5)(var14);
             var14 = var14.EMBEDDED_ACTIVITY_WEB_VIEW_KEY;
             var6['webViewKey'] = var14;
-            if(!var13) { _fun0007_ip = 79; continue _fun0007 }
-case 80:
+            if(!var13) { _fun0007_ip = 77; continue _fun0007 }
+case 78:
             var10 = var12;
-case 79:
+case 77:
             var6['safeAreasConfig'] = var10;
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot10;
             var9 = var10.has;
             var9 = var9.bind(var10)(var11);
             var9 = !var9;

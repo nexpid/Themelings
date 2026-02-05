@@ -290,7 +290,12 @@ case 4:
     var14 = var14.GUILD_TAG_AVAILABLE_COACHMARK_V2;
     var15[5] = var14;
     var _closure1_slot4 = var15;
-    var14 = new Array(0);
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var20 = var14.BOOST_TO_UNLOCK_COACHMARK;
+    var14 = new Array(1);
+    var14[0] = var20;
     var _closure1_slot5 = var14;
     var20 = var4.Object;
     var4 = var20.keys;

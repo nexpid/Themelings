@@ -59,86 +59,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot6 = var4;
     var4 = var7.memo;
-    var2 = function YouNavigator(arg1) {
+    var2 = function YouNavigator() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var1 = arg1;
-            var3 = var1.route;
             var1 = _closure1_slot6;
             var5 = undefined;
             var7 = var1.bind(var5)();
             var2 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var3 = _closure1_slot2;
             var1 = 6;
-            var1 = var4[var1];
+            var1 = var3[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.bind(var5)();
-            var10 = var1.top;
-            var2 = _closure1_slot0;
+            var9 = var1.top;
+            var4 = _closure1_slot0;
             var1 = 7;
-            var1 = var4[var1];
-            var4 = var2.bind(var5)(var1);
-            var2 = var4.useTrackTabPerformance;
+            var1 = var3[var1];
+            var8 = var4.bind(var5)(var1);
+            var4 = var8.useTrackTabPerformance;
             var1 = _closure1_slot4;
             var1 = var1.YOU;
-            var1 = var2.bind(var4)(var1);
-            var2 = null;
-            var4 = var2 == var3;
-            var1 = undefined;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = var3.params;
-            var4 = var2 == var3;
-            var1 = undefined;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-            var1 = var3.inNestedNavigator;
-case 2:
-            var8 = var2 != var1;
-            if(!var8) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var8 = var1;
-case 5:
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
+            var1 = var4.bind(var8)(var1);
             var1 = 8;
             var1 = var3[var1];
             var1 = var2.bind(var5)(var1);
             var1 = var1.bind(var5)();
             var1 = var1.isChatBesideChannelList;
             var4 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
             var1 = {};
-            var1['inNestedNavigator'] = var8;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 9; continue _fun0001;
-case 7:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot3;
             var2 = {};
-            var9 = var7.container;
+            var8 = var7.container;
             var7 = new Array(2);
-            var7[0] = var9;
-            var9 = {};
-            var9['marginTop'] = var10;
-            var7[1] = var9;
+            var7[0] = var8;
+            var8 = {};
+            var8['marginTop'] = var9;
+            var7[1] = var8;
             var2['style'] = var7;
             var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var6 = 9;
-            var6 = var9[var6];
+            var6 = var8[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var6['inNestedNavigator'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 4:
             return var1;
         }
     };

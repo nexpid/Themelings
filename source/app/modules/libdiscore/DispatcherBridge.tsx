@@ -259,10 +259,12 @@ case 35:
     };
     var7['GUILD_MEMBER_ADD'] = var9;
     var9 = function CONNECTION_OPEN(arg1) {
-        var1 = {};
         var2 = arg1;
-        var2 = var2.guilds;
-        var1['guilds'] = var2;
+        var1 = {};
+        var3 = var2.guilds;
+        var1['guilds'] = var3;
+        var2 = var2.unavailableGuilds;
+        var1['unavailableGuilds'] = var2;
         return var1;
     };
     var7['CONNECTION_OPEN'] = var9;

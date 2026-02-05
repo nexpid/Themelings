@@ -39,78 +39,42 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot25 = var2;
+            _closure1_slot26 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function cleanupResyncState(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var3 = var3[var2];
             var4 = null;
             if(!(var4 != var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var3 = global;
             var6 = var3.clearTimeout;
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var5 = var3[var2];
             var3 = undefined;
             var3 = var6.bind(var3)(var5);
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var3 = delete var3[var2];
 case 6:
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot22;
             var3 = var3[var2];
             if(!(var4 != var3)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
             var3 = global;
             var5 = var3.clearTimeout;
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot22;
             var4 = var3[var2];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-            var1 = _closure1_slot21;
-            var1 = delete var1[var2];
-case 8:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var _closure1_slot26 = var1;
-    var1 = function cleanupIntegrityCheckState(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var2 = arg1;
-            var3 = _closure1_slot24;
-            var3 = var3[var2];
-            var4 = null;
-            if(!(var4 != var3)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-            var3 = global;
-            var6 = var3.clearTimeout;
-            var3 = _closure1_slot24;
-            var5 = var3[var2];
-            var3 = undefined;
-            var3 = var6.bind(var3)(var5);
-            var3 = _closure1_slot24;
-            var3 = delete var3[var2];
-case 6:
-            var3 = _closure1_slot23;
-            var3 = var3[var2];
-            if(!(var4 != var3)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-            var3 = global;
-            var5 = var3.clearTimeout;
-            var3 = _closure1_slot23;
-            var4 = var3[var2];
-            var3 = undefined;
-            var3 = var5.bind(var3)(var4);
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot22;
             var1 = delete var1[var2];
 case 8:
             var1 = undefined;
@@ -118,6 +82,42 @@ case 8:
         }
     };
     var _closure1_slot27 = var1;
+    var1 = function cleanupIntegrityCheckState(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var3 = _closure1_slot25;
+            var3 = var3[var2];
+            var4 = null;
+            if(!(var4 != var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+            var3 = global;
+            var6 = var3.clearTimeout;
+            var3 = _closure1_slot25;
+            var5 = var3[var2];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = _closure1_slot25;
+            var3 = delete var3[var2];
+case 6:
+            var3 = _closure1_slot24;
+            var3 = var3[var2];
+            if(!(var4 != var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+            var3 = global;
+            var5 = var3.clearTimeout;
+            var3 = _closure1_slot24;
+            var4 = var3[var2];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var1 = _closure1_slot24;
+            var1 = delete var1[var2];
+case 8:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var _closure1_slot28 = var1;
     var1 = function handleGuildCreate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -132,16 +132,16 @@ case 10:
             var4 = var2.setTimeout;
             var3 = undefined;
             var2 = function() {
-                var5 = _closure1_slot20;
+                var5 = _closure1_slot21;
                 var4 = var5.delete;
                 var2 = _closure2_slot0;
                 var1 = var2.id;
                 var1 = var4.bind(var5)(var1);
-                var5 = _closure1_slot31;
+                var5 = _closure1_slot32;
                 var4 = var2.id;
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
-                var3 = _closure1_slot33;
+                var3 = _closure1_slot34;
                 var2 = var2.id;
                 var2 = var3.bind(var1)(var2);
                 return var1;
@@ -153,12 +153,12 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handlePostConnectionOpen() {
-        var3 = _closure1_slot20;
+        var3 = _closure1_slot21;
         var1 = var3.clear;
         var1 = var1.bind(var3)();
-        var3 = _closure1_slot31;
+        var3 = _closure1_slot32;
         var1 = undefined;
         var3 = var3.bind(var1)();
         var3 = _closure1_slot10;
@@ -166,7 +166,7 @@ case 6:
         var4 = var2.bind(var3)();
         var3 = var4.forEach;
         var2 = function(arg1) {
-            var3 = _closure1_slot33;
+            var3 = _closure1_slot34;
             var1 = undefined;
             var2 = arg1;
             var2 = var3.bind(var1)(var2);
@@ -175,7 +175,7 @@ case 6:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function handleChannelSync(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -183,7 +183,7 @@ case 0:
             var1 = var3.integrity_check;
             if(var1) { _fun0005_ip = 11; continue _fun0005 }
 case 12:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot20;
             var2 = var3.guild_id;
             var2 = var4[var2];
             var4 = null;
@@ -210,10 +210,10 @@ case 13:
             var8 = var8.length;
             var2['num_new_channels'] = var8;
             var2 = var6.bind(var7)(var5, var2);
-            var5 = _closure1_slot26;
+            var5 = _closure1_slot27;
             var2 = var3.guild_id;
             var2 = var5.bind(var4)(var2);
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var1 = var3.guild_id;
             var1 = var2.bind(var4)(var1);
             _fun0005_ip = 15; continue _fun0005;
@@ -228,7 +228,7 @@ case 0:
                     var _closure3_slot0 = var1;
                     var _closure3_slot1 = var1;
                     var _closure3_slot2 = var1;
-                    var3 = _closure1_slot19;
+                    var3 = _closure1_slot20;
                     var3 = var3[var4];
                     var8 = null;
                     var6 = var8 != var3;
@@ -459,9 +459,9 @@ case 39:
                     var3['discrepancy_channel_ids'] = var9;
                     var3['discrepancies_details'] = var8;
                     var3 = var6.bind(var7)(var5, var3);
-                    var3 = _closure1_slot27;
+                    var3 = _closure1_slot28;
                     var3 = var3.bind(var1)(var4);
-                    var3 = _closure1_slot20;
+                    var3 = _closure1_slot21;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var4);
                     return var1;
@@ -474,10 +474,10 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = function scheduleGuildResyncs() {
         var1 = undefined;
-        var4 = _closure1_slot32;
+        var4 = _closure1_slot33;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -485,7 +485,7 @@ case 15:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot32 = var1;
     var1 = function _scheduleGuildResyncs() {
         var5 = undefined;
         var1 = undefined;
@@ -538,17 +538,17 @@ case 48:
 case 0:
                                     var4 = arg1;
                                     var _closure6_slot0 = var4;
-                                    var5 = _closure1_slot19;
+                                    var5 = _closure1_slot20;
                                     var1 = arg2;
                                     var5[var4] = var1;
-                                    var1 = _closure1_slot21;
+                                    var1 = _closure1_slot22;
                                     var5 = var1[var4];
                                     var1 = null;
                                     if(!(var1 != var5)) { _fun0010_ip = 49; continue _fun0010 }
 case 50:
                                     var1 = global;
                                     var6 = var1.clearTimeout;
-                                    var1 = _closure1_slot21;
+                                    var1 = _closure1_slot22;
                                     var5 = var1[var4];
                                     var1 = undefined;
                                     var1 = var6.bind(var1)(var5);
@@ -562,11 +562,11 @@ case 49:
                                     var5 = _closure1_slot15;
                                     var5 = var8 * var5;
                                     var6 = var6.bind(var7)(var5);
-                                    var3 = _closure1_slot21;
+                                    var3 = _closure1_slot22;
                                     var5 = var1.setTimeout;
                                     var1 = undefined;
                                     var2 = function() {
-                                        var1 = _closure1_slot21;
+                                        var1 = _closure1_slot22;
                                         var3 = _closure6_slot0;
                                         var1 = delete var1[var3];
                                         var2 = function triggerGuildChannelResync(arg1) {
@@ -586,7 +586,7 @@ case 0:
 case 52:
                                                 return var1;
 case 51:
-                                                var4 = _closure1_slot19;
+                                                var4 = _closure1_slot20;
                                                 var4 = var4[var3];
                                                 var5 = null;
                                                 var6 = var5 != var4;
@@ -660,22 +660,22 @@ case 0:
                                                         var _closure9_slot0 = var4;
                                                         var1 = arg2;
                                                         var _closure9_slot1 = var1;
-                                                        var3 = _closure1_slot22;
+                                                        var3 = _closure1_slot23;
                                                         var5 = var3[var4];
                                                         var3 = null;
                                                         if(!(var3 != var5)) { _fun0012_ip = 60; continue _fun0012 }
 case 61:
                                                         var3 = global;
                                                         var6 = var3.clearTimeout;
-                                                        var3 = _closure1_slot22;
+                                                        var3 = _closure1_slot23;
                                                         var5 = var3[var4];
                                                         var3 = undefined;
                                                         var3 = var6.bind(var3)(var5);
 case 60:
-                                                        var3 = _closure1_slot22;
+                                                        var3 = _closure1_slot23;
                                                         var5 = global;
                                                         var6 = var5.setTimeout;
-                                                        var5 = _closure1_slot17;
+                                                        var5 = _closure1_slot18;
                                                         var1 = undefined;
                                                         var2 = function() {
                                                             var3 = _closure9_slot0;
@@ -704,7 +704,7 @@ case 60:
                                                             var8 = 'timeout';
                                                             var4['failure_reason'] = var8;
                                                             var4 = var6.bind(var7)(var5, var4);
-                                                            var2 = _closure1_slot26;
+                                                            var2 = _closure1_slot27;
                                                             var2 = var2.bind(var1)(var3);
                                                             return var1;
                                                         };
@@ -714,7 +714,7 @@ case 60:
                                                     }
                                                 };
                                                 var4 = var4.bind(var1)(var3, var8);
-                                                var4 = _closure1_slot33;
+                                                var4 = _closure1_slot34;
                                                 var4 = var4.bind(var1)(var3);
                                                 return var1;
 case 21:
@@ -732,7 +732,7 @@ case 21:
                                                 var8 = 'guild_not_found';
                                                 var4['failure_reason'] = var8;
                                                 var4 = var6.bind(var7)(var5, var4);
-                                                var2 = _closure1_slot26;
+                                                var2 = _closure1_slot27;
                                                 var2 = var2.bind(var1)(var3);
                                                 return var1;
                                             }
@@ -764,7 +764,7 @@ case 40:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot32 = var4;
+        _closure1_slot33 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -772,7 +772,7 @@ case 40:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot33 = var1;
     var1 = function scheduleIntegrityCheck(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -789,13 +789,13 @@ case 0:
             var3 = var6.bind(var7)(var3);
             if(!var3) { _fun0013_ip = 62; continue _fun0013 }
 case 16:
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var3 = var3[var4];
             var6 = null;
             var3 = var6 != var3;
-            var7 = _closure1_slot27;
+            var7 = _closure1_slot28;
             var7 = var7.bind(var1)(var4);
-            var7 = _closure1_slot19;
+            var7 = _closure1_slot20;
             var9 = var7[var4];
             if(!(var9 == var6)) { _fun0013_ip = 63; continue _fun0013 }
 case 64:
@@ -830,15 +830,15 @@ case 65:
             var9 = var6.Math;
             var3 = var9.random;
             var9 = var3.bind(var9)();
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var3 = var9 * var3;
             var7 = var7.bind(var8)(var3);
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var6 = var6.setTimeout;
             var5 = _closure1_slot16;
             var5 = var5 + var7;
             var2 = function() {
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot24;
                 var3 = _closure2_slot0;
                 var1 = delete var1[var3];
                 var2 = function triggerIntegrityCheck(arg1) {
@@ -858,12 +858,12 @@ case 0:
 case 51:
                         return var1;
 case 67:
-                        var5 = _closure1_slot20;
+                        var5 = _closure1_slot21;
                         var4 = var5.has;
                         var4 = var4.bind(var5)(var3);
                         if(var4) { _fun0014_ip = 68; continue _fun0014 }
 case 69:
-                        var4 = _closure1_slot19;
+                        var4 = _closure1_slot20;
                         var4 = var4[var3];
                         var6 = null;
                         var5 = var6 != var4;
@@ -901,22 +901,22 @@ case 0:
                                 var _closure5_slot0 = var4;
                                 var1 = arg2;
                                 var _closure5_slot1 = var1;
-                                var3 = _closure1_slot24;
+                                var3 = _closure1_slot25;
                                 var5 = var3[var4];
                                 var3 = null;
                                 if(!(var3 != var5)) { _fun0015_ip = 60; continue _fun0015 }
 case 61:
                                 var3 = global;
                                 var6 = var3.clearTimeout;
-                                var3 = _closure1_slot24;
+                                var3 = _closure1_slot25;
                                 var5 = var3[var4];
                                 var3 = undefined;
                                 var3 = var6.bind(var3)(var5);
 case 60:
-                                var3 = _closure1_slot24;
+                                var3 = _closure1_slot25;
                                 var5 = global;
                                 var6 = var5.setTimeout;
-                                var5 = _closure1_slot18;
+                                var5 = _closure1_slot19;
                                 var1 = undefined;
                                 var2 = function() {
                                     var3 = _closure5_slot0;
@@ -945,7 +945,7 @@ case 60:
                                     var8 = 'timeout';
                                     var4['failure_reason'] = var8;
                                     var4 = var6.bind(var7)(var5, var4);
-                                    var2 = _closure1_slot27;
+                                    var2 = _closure1_slot28;
                                     var2 = var2.bind(var1)(var3);
                                     return var1;
                                 };
@@ -971,7 +971,7 @@ case 38:
                         var8 = 'guild_not_found';
                         var4['failure_reason'] = var8;
                         var4 = var6.bind(var7)(var5, var4);
-                        var2 = _closure1_slot27;
+                        var2 = _closure1_slot28;
                         var2 = var2.bind(var1)(var3);
                         return var1;
 case 68:
@@ -988,7 +988,7 @@ case 62:
             return var1;
         }
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot34 = var1;
     var4 = global;
     var10 = var4.Object;
     var9 = var10.defineProperty;
@@ -1071,16 +1071,23 @@ case 62:
     var9 = var6[var2];
     var9 = var8.bind(var1)(var9);
     var9 = var9.Millis;
+    var11 = var9.SECOND;
+    var9 = 300;
+    var9 = var9 * var11;
+    var _closure1_slot17 = var9;
+    var9 = var6[var2];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.Millis;
     var9 = var9.SECOND;
     var9 = var10 * var9;
-    var _closure1_slot17 = var9;
+    var _closure1_slot18 = var9;
     var2 = var6[var2];
     var2 = var8.bind(var1)(var2);
     var2 = var2.Millis;
     var9 = var2.SECOND;
     var2 = 60;
     var2 = var2 * var9;
-    var _closure1_slot18 = var2;
+    var _closure1_slot19 = var2;
     var2 = 13;
     var2 = var6[var2];
     var8 = var8.bind(var1)(var2);
@@ -1103,7 +1110,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var4)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot25;
+                var1 = _closure1_slot26;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0016_ip = 40; continue _fun0016 }
 case 72:
@@ -1121,11 +1128,11 @@ case 40:
 case 73:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
-                var4 = _closure1_slot28;
-                var2['GUILD_CREATE'] = var4;
                 var4 = _closure1_slot29;
+                var2['GUILD_CREATE'] = var4;
+                var4 = _closure1_slot30;
                 var2['POST_CONNECTION_OPEN'] = var4;
-                var3 = _closure1_slot30;
+                var3 = _closure1_slot31;
                 var2['CHANNEL_SYNC'] = var3;
                 var1['actions'] = var2;
                 return var1;
@@ -1142,15 +1149,13 @@ case 73:
     };
     var2 = var2.bind(var1)(var8);
     var8 = {};
-    var _closure1_slot19 = var8;
+    var _closure1_slot20 = var8;
     var4 = var4.Set;
     var8 = var4.prototype;
     var8 = Object.create(var8, {constructor: {value: var4}});
     var15 = var8;
     var4 = new var15[var4](var14);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot20 = var4;
-    var4 = {};
     var _closure1_slot21 = var4;
     var4 = {};
     var _closure1_slot22 = var4;
@@ -1158,6 +1163,8 @@ case 73:
     var _closure1_slot23 = var4;
     var4 = {};
     var _closure1_slot24 = var4;
+    var4 = {};
+    var _closure1_slot25 = var4;
     var4 = var2.prototype;
     var4 = Object.create(var4, {constructor: {value: var2}});
     var15 = var4;

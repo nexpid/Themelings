@@ -24,9 +24,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var5 = var2.useYouBarTotalHeight;
+    var5 = var2.useYouBarHorizontalMargin;
     var _closure1_slot4 = var5;
-    var2 = var2.YOU_BAR_MARGIN;
+    var2 = var2.useYouBarTotalHeight;
     var _closure1_slot5 = var2;
     var9 = 2;
     var2 = var7[var9];
@@ -48,19 +48,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function MessagesNewMessageWidget() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var14 = _closure1_slot0;
+            var15 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 4;
             var1 = var11[var1];
             var4 = undefined;
-            var2 = var14.bind(var4)(var1);
+            var2 = var15.bind(var4)(var1);
             var1 = var2.useMobileQuestDockHeight;
             var9 = var1.bind(var2)();
-            var1 = _closure1_slot4;
+            var1 = _closure1_slot5;
             var8 = var1.bind(var4)();
             var1 = 5;
             var1 = var11[var1];
-            var3 = var14.bind(var4)(var1);
+            var3 = var15.bind(var4)(var1);
             var2 = var3.useYouBarEnabled;
             var1 = 'message floating action button';
             var7 = var2.bind(var3)(var1);
@@ -104,23 +104,25 @@ case 4:
             };
             var1 = new Array(0);
             var5 = var3.bind(var5)(var2, var1);
+            var1 = _closure1_slot4;
+            var6 = var1.bind(var4)();
             var3 = _closure1_slot6;
             var1 = 7;
             var1 = var11[var1];
-            var1 = var14.bind(var4)(var1);
+            var1 = var15.bind(var4)(var1);
             var2 = var1.FloatingActionButton;
             var1 = {};
-            var10 = 8;
-            var12 = var11[var10];
-            var12 = var14.bind(var4)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
-            var10 = var11[var10];
-            var10 = var14.bind(var4)(var10);
-            var10 = var10.t;
-            var10 = var10.jD1qzM;
-            var10 = var12.bind(var13)(var10);
-            var1['accessibilityLabel'] = var10;
+            var12 = 8;
+            var13 = var11[var12];
+            var13 = var15.bind(var4)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var12 = var11[var12];
+            var12 = var15.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.jD1qzM;
+            var12 = var13.bind(var14)(var12);
+            var1['accessibilityLabel'] = var12;
             var10 = _closure1_slot1;
             var12 = 9;
             var12 = var11[var12];
@@ -138,7 +140,7 @@ case 4:
             var5 = undefined;
             if(!var7) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var5 = _closure1_slot5;
+            var5 = var6;
 case 6:
             var1['positionRight'] = var5;
             var1 = var3.bind(var4)(var2, var1);

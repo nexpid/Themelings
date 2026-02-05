@@ -295,14 +295,14 @@ case 17:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 12;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/main_tabs_v2/native/shared_components/BackIconWithBadge.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var2 = function BackIconWithBadgeOnSide() {
+    var4 = function BackIconWithBadgeOnSide() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = _closure1_slot9;
@@ -374,6 +374,79 @@ case 21:
             return var1;
         }
     };
-    var3['BackIconWithBadgeOnSide'] = var2;
+    var3['BackIconWithBadgeOnSide'] = var4;
+    var2 = function DownArrowIconWithBadgeOnSide() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var6 = var2.bind(var4)(var1);
+            var3 = var6.useStateFromStores;
+            var1 = _closure1_slot5;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getTotalMentionCount;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var1 = var3.bind(var6)(var2, var1);
+            var6 = null;
+            var3 = var6 != var1;
+            var8 = 0;
+            var2 = 0;
+            if(!var3) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+            var2 = var1;
+case 19:
+            var3 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var1 = 8;
+            var1 = var12[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var1 = var1.value;
+            var10 = var2 + var1;
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var5 = var5.backIconWithBadge;
+            var1['style'] = var5;
+            var11 = _closure1_slot7;
+            var9 = _closure1_slot0;
+            var5 = 12;
+            var5 = var12[var5];
+            var5 = var9.bind(var4)(var5);
+            var9 = var5.ChevronLargeDownIcon;
+            var5 = {'size': 'sm', 'color': 'white'};
+            var9 = var11.bind(var4)(var9, var5);
+            var5 = new Array(2);
+            var5[0] = var9;
+            var6 = null;
+            if(!(var10 > var8)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
+            var9 = _closure1_slot7;
+            var8 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var7 = 11;
+            var7 = var11[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = {};
+            var7['value'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+case 21:
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['DownArrowIconWithBadgeOnSide'] = var2;
     return var1;
 })();

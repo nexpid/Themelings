@@ -10,23 +10,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function useIsMobileQuestDockVisibleBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var12 = arg1;
-            var _closure2_slot0 = var12;
-            var4 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var3 = 13;
-            var3 = var1[var3];
-            var14 = undefined;
-            var3 = var4.bind(var14)(var3);
-            var3 = var3.bind(var14)();
-            var4 = _closure1_slot0;
-            var16 = 9;
-            var1 = var1[var16];
-            var6 = var4.bind(var14)(var1);
-            var5 = var6.useStateFromStores;
+            var8 = arg1;
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 15;
+            var1 = var4[var1];
+            var10 = undefined;
+            var1 = var2.bind(var10)(var1);
+            var3 = var1.bind(var10)();
+            var2 = _closure1_slot0;
+            var1 = 9;
+            var1 = var4[var1];
+            var5 = var2.bind(var10)(var1);
+            var4 = var5.useStateFromStores;
             var1 = _closure1_slot5;
-            var4 = new Array(1);
-            var4[0] = var1;
+            var2 = new Array(1);
+            var2[0] = var1;
             var1 = function() {
                 var1 = _closure1_slot5;
                 var2 = var1.questDeliveryOverride;
@@ -34,181 +33,101 @@ case 0:
                 var1 = var1 != var2;
                 return var1;
             };
-            var1 = var5.bind(var6)(var4, var1);
-            var8 = !var1;
-            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+            var1 = var4.bind(var5)(var2, var1);
+            var4 = !var1;
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = null;
-            var5 = var4 == var12;
+            var2 = null;
+            var5 = var2 == var8;
             var1 = undefined;
             if(var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var12.userStatus;
+            var1 = var8.userStatus;
 case 4:
-            var8 = var4 != var1;
+            var4 = var2 != var1;
 case 2:
-            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var1 = 10;
-            var1 = var10[var1];
-            var6 = var9.bind(var14)(var1);
+            var1 = var9[var1];
+            var6 = var7.bind(var10)(var1);
             var5 = var6.isDismissed;
-            var4 = var12.userStatus;
+            var2 = var8.userStatus;
             var1 = 11;
-            var1 = var10[var1];
-            var1 = var9.bind(var14)(var1);
+            var1 = var9[var1];
+            var1 = var7.bind(var10)(var1);
             var1 = var1.QuestContent;
             var1 = var1.QUEST_BAR_MOBILE;
-            var8 = var5.bind(var6)(var4, var1);
+            var4 = var5.bind(var6)(var2, var1);
 case 6:
             var1 = null;
-            var5 = var1 == var12;
-            var4 = undefined;
+            var5 = var1 == var8;
+            var2 = undefined;
             if(var5) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var5 = var12.userStatus;
+            var5 = var8.userStatus;
             var6 = var1 == var5;
-            var4 = undefined;
+            var2 = undefined;
             if(var6) { _fun0001_ip = 8; continue _fun0001 }
 case 10:
-            var4 = var5.claimedAt;
+            var2 = var5.claimedAt;
 case 8:
-            var9 = var1 != var4;
-            var13 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var4 = 14;
-            var4 = var15[var4];
-            var5 = var13.bind(var14)(var4);
-            var4 = var5.useIsQuestExpired;
-            var10 = var4.bind(var5)(var12);
-            var4 = 15;
-            var4 = var15[var4];
-            var6 = var13.bind(var14)(var4);
-            var5 = var6.useIsEligibleForQuests;
-            var4 = {};
-            var11 = _closure1_slot7;
-            var11 = var11.QUESTS_BAR;
-            var4['location'] = var11;
-            var11 = var5.bind(var6)(var4);
-            var4 = 16;
-            var4 = var15[var4];
-            var5 = var13.bind(var14)(var4);
-            var4 = var5.useIsChannelFocused;
-            var4 = var4.bind(var5)();
-            var5 = 17;
-            var6 = var15[var5];
-            var17 = var13.bind(var14)(var6);
-            var6 = var17.useCurrentNavigationRouteName;
-            var18 = var6.bind(var17)();
-            var5 = var15[var5];
-            var17 = var13.bind(var14)(var5);
-            var6 = var17.coerceGuildsRoute;
-            var5 = {};
-            var5['name'] = var18;
-            var5 = var6.bind(var17)(var5);
-            var5 = var1 != var5;
-            var6 = var15[var16];
-            var19 = var13.bind(var14)(var6);
-            var18 = var19.useStateFromStores;
-            var6 = _closure1_slot5;
-            var17 = new Array(1);
-            var17[0] = var6;
-            var6 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var3 = _closure2_slot0;
-                    var1 = null;
-                    var1 = var1 != var3;
-                    if(!var1) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-                    var4 = _closure1_slot5;
-                    var3 = var4.isClaimingReward;
-                    var2 = _closure2_slot0;
-                    var2 = var2.id;
-                    var1 = var3.bind(var4)(var2);
-case 11:
-                    return var1;
-                }
-            };
-            var6 = var18.bind(var19)(var17, var6);
-            var16 = var15[var16];
-            var17 = var13.bind(var14)(var16);
-            var16 = var17.useStateFromStores;
-            var18 = _closure1_slot4;
-            var7 = new Array(1);
-            var7[0] = var18;
-            var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var3 = _closure1_slot4;
-                    var1 = var3.getKey;
-                    var3 = var1.bind(var3)();
-                    var1 = _closure1_slot8;
-                    var1 = var3 === var1;
-                    if(var1) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                    var2 = _closure1_slot6;
-                    var1 = var3 === var2;
-case 13:
-                    return var1;
-                }
-            };
-            var7 = var16.bind(var17)(var7, var2);
+            var5 = var1 != var2;
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 16;
+            var2 = var11[var2];
+            var6 = var9.bind(var10)(var2);
+            var2 = var6.useIsQuestExpired;
+            var6 = var2.bind(var6)(var8);
+            var2 = 17;
+            var2 = var11[var2];
+            var12 = var9.bind(var10)(var2);
+            var7 = var12.useIsEligibleForQuests;
+            var2 = {};
+            var13 = _closure1_slot7;
+            var13 = var13.QUESTS_BAR;
+            var2['location'] = var13;
+            var7 = var7.bind(var12)(var2);
             var2 = 18;
-            var2 = var15[var2];
-            var14 = var13.bind(var14)(var2);
-            var13 = var14.useYouBarEnabled;
-            var2 = 'quest';
-            var2 = var13.bind(var14)(var2);
-            var1 = var1 != var12;
+            var2 = var11[var2];
+            var10 = var9.bind(var10)(var2);
+            var9 = var10.useYouBarEnabled;
+            var2 = 'YouBar';
+            var2 = var9.bind(var10)(var2);
+            var1 = var1 != var8;
+            if(!var1) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var1 = var7;
+case 11:
+            if(!var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var1 = !var6;
+case 13:
             if(!var1) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var1 = var11;
+            var1 = !var5;
 case 15:
             if(!var1) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var1 = !var10;
+            var1 = !var4;
 case 17:
             if(!var1) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var1 = !var9;
+            var1 = !var3;
 case 19:
             if(!var1) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
-            var1 = !var8;
-case 21:
-            if(!var1) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
-            if(var5) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
-            if(!var6) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
-            var6 = var7;
-case 27:
-            var5 = var6;
-case 25:
-            var1 = var5;
-case 23:
-            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
-            var1 = !var4;
-case 29:
-            if(!var1) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
-            var1 = !var3;
-case 31:
-            if(!var1) { _fun0001_ip = 33; continue _fun0001 }
-case 34:
             var1 = !var2;
-case 33:
+case 21:
             return var1;
         }
     };
     var _closure1_slot10 = var5;
     var4 = function useIsMobileQuestDockVisible() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -231,13 +150,13 @@ case 0:
             var9 = new Array(1);
             var9[0] = var1;
             var1 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure1_slot5;
                     var2 = var1.questDeliveryOverride;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                    if(!(var1 == var2)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var4 = 10;
@@ -255,13 +174,13 @@ case 36:
                     var3 = var3.QuestPlacement;
                     var3 = var3.MOBILE_HOME_DOCK_AREA;
                     var2 = var6.bind(var7)(var5, var4, var3);
-case 35:
+case 23:
                     var3 = var1 != var2;
                     var1 = null;
-                    if(!var3) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var1 = var2;
-case 37:
+case 25:
                     return var1;
                 }
             };
@@ -273,7 +192,7 @@ case 37:
             var10 = new Array(1);
             var10[0] = var9;
             var9 = function() {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure1_slot5;
                     var3 = var2.questAdDecisionByPlacement;
@@ -289,10 +208,10 @@ case 0:
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
                     var3 = var1 != var2;
-                    if(!var3) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
+                    if(!var3) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                     var1 = var2;
-case 39:
+case 27:
                     return var1;
                 }
             };
@@ -307,21 +226,21 @@ case 39:
             var6 = new Array(1);
             var6[0] = var10;
             var4 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot0;
                     var4 = null;
                     var3 = var4 == var1;
                     var1 = undefined;
-                    if(var3) { _fun0007_ip = 14; continue _fun0007 }
-case 41:
+                    if(var3) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                     var3 = _closure2_slot0;
                     var1 = var3.questId;
-case 14:
+case 29:
                     var3 = var4 != var1;
                     var1 = null;
-                    if(!var3) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+                    if(!var3) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                     var3 = _closure1_slot5;
                     var5 = var3.quests;
                     var3 = var5.get;
@@ -330,19 +249,19 @@ case 43:
                     var2 = var3.bind(var5)(var2);
                     var3 = var4 != var2;
                     var1 = null;
-                    if(!var3) { _fun0007_ip = 42; continue _fun0007 }
-case 44:
+                    if(!var3) { _fun0005_ip = 31; continue _fun0005 }
+case 33:
                     var1 = var2;
-case 42:
+case 31:
                     return var1;
                 }
             };
             var4 = var8.bind(var9)(var7, var4, var6);
             var2 = _closure1_slot10;
-            if(!var5) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+            if(!var5) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var1 = var4;
-case 45:
+case 34:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -394,7 +313,7 @@ case 45:
     var6 = 'modules/quests/native/QuestHooks.native.tsx';
     var6 = var7.bind(var8)(var6);
     var6 = function useMobileQuestDockHeight() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = _closure1_slot11;
             var5 = undefined;
@@ -412,21 +331,21 @@ case 0:
             var1 = var2.isMetaQuest;
             var5 = var1.bind(var2)();
             var1 = 0;
-            if(var5) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
+            if(var5) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var2 = 0;
-            if(!var4) { _fun0008_ip = 49; continue _fun0008 }
-case 50:
+            if(!var4) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var2 = var3;
-case 49:
+case 38:
             var1 = var2;
-case 47:
+case 36:
             return var1;
         }
     };
     var3['useMobileQuestDockHeight'] = var6;
     var6 = function useMobileQuestDock() {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -449,13 +368,13 @@ case 0:
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var1 = _closure1_slot5;
                     var2 = var1.questDeliveryOverride;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0010_ip = 35; continue _fun0010 }
-case 36:
+                    if(!(var1 == var2)) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var4 = 10;
@@ -473,13 +392,13 @@ case 36:
                     var3 = var3.QuestPlacement;
                     var3 = var3.MOBILE_HOME_DOCK_AREA;
                     var2 = var6.bind(var7)(var5, var4, var3);
-case 35:
+case 23:
                     var3 = var1 != var2;
                     var1 = null;
-                    if(!var3) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+                    if(!var3) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                     var1 = var2;
-case 37:
+case 25:
                     return var1;
                 }
             };
@@ -493,14 +412,109 @@ case 37:
             var2 = var2.QuestPlacement;
             var2 = var2.MOBILE_HOME_DOCK_AREA;
             var2 = var4.bind(var5)(var2);
-            if(!var3) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+            if(!var3) { _fun0007_ip = 40; continue _fun0007 }
+case 41:
             var1 = var2;
-case 51:
+case 40:
             return var1;
         }
     };
     var3['useMobileQuestDock'] = var6;
+    var6 = function useIsMobileQuestDockVisibleToUser(arg1, arg2) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var1 = arg2;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 13;
+            var2 = var10[var2];
+            var8 = undefined;
+            var3 = var9.bind(var8)(var2);
+            var2 = var3.useIsChannelFocused;
+            var5 = var2.bind(var3)();
+            var2 = 14;
+            var3 = var10[var2];
+            var7 = var9.bind(var8)(var3);
+            var3 = var7.useCurrentNavigationRouteName;
+            var11 = var3.bind(var7)();
+            var2 = var10[var2];
+            var7 = var9.bind(var8)(var2);
+            var3 = var7.coerceGuildsRoute;
+            var2 = {};
+            var2['name'] = var11;
+            var3 = var3.bind(var7)(var2);
+            var2 = null;
+            var2 = var2 != var3;
+            var7 = 9;
+            var3 = var10[var7];
+            var13 = var9.bind(var8)(var3);
+            var12 = var13.useStateFromStores;
+            var3 = _closure1_slot5;
+            var11 = new Array(1);
+            var11[0] = var3;
+            var3 = function() {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
+                    var4 = _closure1_slot5;
+                    var3 = var4.isClaimingReward;
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var1 = var3.bind(var4)(var2);
+case 42:
+                    return var1;
+                }
+            };
+            var3 = var12.bind(var13)(var11, var3);
+            var7 = var10[var7];
+            var8 = var9.bind(var8)(var7);
+            var7 = var8.useStateFromStores;
+            var9 = _closure1_slot4;
+            var6 = new Array(1);
+            var6[0] = var9;
+            var4 = function() {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var3 = _closure1_slot4;
+                    var1 = var3.getKey;
+                    var3 = var1.bind(var3)();
+                    var1 = _closure1_slot8;
+                    var1 = var3 === var1;
+                    if(var1) { _fun0011_ip = 44; continue _fun0011 }
+case 29:
+                    var2 = _closure1_slot6;
+                    var1 = var3 === var2;
+case 44:
+                    return var1;
+                }
+            };
+            var4 = var7.bind(var8)(var6, var4);
+            if(!var1) { _fun0009_ip = 45; continue _fun0009 }
+case 9:
+            var1 = !var5;
+case 45:
+            if(!var1) { _fun0009_ip = 8; continue _fun0009 }
+case 46:
+            if(var2) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
+            if(!var3) { _fun0009_ip = 10; continue _fun0009 }
+case 49:
+            var3 = var4;
+case 10:
+            var2 = var3;
+case 47:
+            var1 = var2;
+case 8:
+            return var1;
+        }
+    };
+    var3['useIsMobileQuestDockVisibleToUser'] = var6;
     var3['useIsMobileQuestDockVisibleBase'] = var5;
     var3['useIsMobileQuestDockVisible'] = var4;
     var4 = function useQuestGameLogotypeAssetUrl(arg1) {
@@ -541,7 +555,7 @@ case 51:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -561,8 +575,8 @@ case 0:
                 var3 = var2.questBarHeroVideo;
                 var2 = null;
                 var3 = var2 != var3;
-                if(!var3) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
+                if(!var3) { _fun0012_ip = 50; continue _fun0012 }
+case 51:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
@@ -574,15 +588,15 @@ case 54:
                 var1 = var1.assets;
                 var1 = var1.questBarHeroVideo;
                 var2 = var6.bind(var7)(var3, var1);
-case 53:
+case 50:
                 var1 = {};
                 var3 = var5.isAnimated;
                 var7 = var5.url;
-                if(var3) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
+                if(var3) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
                 var3 = var7;
-                _fun0011_ip = 57; continue _fun0011;
-case 55:
+                _fun0012_ip = 54; continue _fun0012;
+case 52:
                 var6 = var7.replace;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -591,7 +605,7 @@ case 55:
                 var5 = var4.EXTENSION_RE;
                 var4 = '.png';
                 var3 = var6.bind(var7)(var5, var4);
-case 57:
+case 54:
                 var1['staticUrl'] = var3;
                 var1['videoAsset'] = var2;
                 return var1;

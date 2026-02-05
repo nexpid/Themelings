@@ -537,10 +537,17 @@ case 68:
 case 0:
             var5 = arg1;
             var3 = arg2;
+            var2 = arguments[2];
             var _closure2_slot0 = var3;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0010_ip = 31; continue _fun0010 }
+case 74:
+            var2 = false;
+case 31:
+            var _closure2_slot1 = var2;
             var2 = null;
-            if(!(var2 != var3)) { _fun0010_ip = 41; continue _fun0010 }
-case 37:
+            if(!(var2 != var3)) { _fun0010_ip = 58; continue _fun0010 }
+case 33:
             var2 = global;
             var4 = var2.Array;
             var3 = var4.from;
@@ -558,7 +565,7 @@ case 0:
                     var1 = var2[var1];
                     var2 = undefined;
                     var3 = var3.bind(var2)(var1);
-                    var1 = var3.getPlayActivityApplicationId;
+                    var1 = var3.getActivityApplicationId;
                     var6 = var1.bind(var3)(var4);
                     var3 = null;
                     var1 = var3 != var4;
@@ -572,8 +579,8 @@ case 62:
                     var7 = var8.canLaunchActivity;
                     var1 = var7.bind(var8)(var4);
 case 58:
-                    if(!var1) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+                    if(!var1) { _fun0011_ip = 75; continue _fun0011 }
+case 76:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot1;
                     var7 = 6;
@@ -582,47 +589,57 @@ case 75:
                     var7 = var8.isQuestExpired;
                     var7 = var7.bind(var8)(var4);
                     var1 = !var7;
-case 74:
+case 75:
                     if(!var1) { _fun0011_ip = 44; continue _fun0011 }
-case 76:
+case 77:
                     var7 = _closure2_slot0;
                     var1 = var6 === var7;
 case 44:
-                    if(!var1) { _fun0011_ip = 77; continue _fun0011 }
+                    if(!var1) { _fun0011_ip = 78; continue _fun0011 }
 case 47:
                     var5 = _closure1_slot4;
                     var1 = var6 !== var5;
-case 77:
-                    if(!var1) { _fun0011_ip = 17; continue _fun0011 }
 case 78:
+                    if(!var1) { _fun0011_ip = 79; continue _fun0011 }
+case 80:
                     var6 = var4.userStatus;
                     var7 = var3 == var6;
                     var5 = undefined;
-                    if(var7) { _fun0011_ip = 79; continue _fun0011 }
-case 80:
-                    var5 = var6.completedAt;
-case 79:
-                    var1 = var3 == var5;
-case 17:
-                    if(!var1) { _fun0011_ip = 81; continue _fun0011 }
+                    if(var7) { _fun0011_ip = 81; continue _fun0011 }
 case 82:
+                    var5 = var6.completedAt;
+case 81:
+                    var5 = var3 == var5;
+                    if(var5) { _fun0011_ip = 16; continue _fun0011 }
+case 83:
+                    var5 = _closure2_slot1;
+case 16:
+                    var1 = var5;
+case 79:
+                    if(!var1) { _fun0011_ip = 84; continue _fun0011 }
+case 85:
                     var4 = var4.userStatus;
                     var5 = var3 == var4;
                     var2 = undefined;
-                    if(var5) { _fun0011_ip = 83; continue _fun0011 }
-case 19:
+                    if(var5) { _fun0011_ip = 86; continue _fun0011 }
+case 87:
                     var2 = var4.enrolledAt;
-case 83:
-                    var1 = var3 == var2;
-case 81:
+case 86:
+                    var2 = var3 == var2;
+                    if(var2) { _fun0011_ip = 88; continue _fun0011 }
+case 89:
+                    var2 = _closure2_slot1;
+case 88:
+                    var1 = var2;
+case 84:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0010_ip = 84; continue _fun0010;
-case 41:
+            _fun0010_ip = 71; continue _fun0010;
+case 58:
             var1 = new Array(0);
-case 84:
+case 71:
             return var1;
         }
     };

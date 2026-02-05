@@ -35,6 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CONNECTED_BUTTON'] = var5;
     var5 = 'voice controls';
     var2['VOICE_CONTROLS'] = var5;
+    var5 = 'header button';
+    var2['HEADER_BUTTON'] = var5;
     var5 = 3;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

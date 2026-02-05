@@ -30,29 +30,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function showYouAccountActionSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = arguments[0];
+            var8 = arguments[0];
+            var7 = arguments[1];
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var7 = false;
+            var8 = false;
 case 2:
+            if(!(var7 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var7 = true;
+case 4:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var4 = 1;
             var4 = var3[var4];
             var6 = var5.bind(var1)(var4);
             var5 = var6.openLazy;
-            var8 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var4 = 3;
             var4 = var3[var4];
-            var8 = var8.bind(var1)(var4);
+            var9 = var9.bind(var1)(var4);
             var4 = 2;
             var4 = var3[var4];
             var3 = var3.paths;
-            var4 = var8.bind(var1)(var4, var3);
+            var4 = var9.bind(var1)(var4, var3);
             var3 = _closure1_slot3;
             var2 = {};
-            var2['statusOnly'] = var7;
+            var2['statusOnly'] = var8;
+            var2['disableHapticOnOpen'] = var7;
             var2 = var5.bind(var6)(var4, var3, var2);
             return var1;
         }

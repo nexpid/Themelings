@@ -989,8 +989,9 @@ case 0:
             var5 = undefined;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-            var10 = var1.isVisible;
-            var _closure2_slot0 = var10;
+            var19 = var1.isVisible;
+            var _closure2_slot0 = var19;
+            var10 = var1.isVisibleToUser;
             var13 = var1.quest;
             var _closure2_slot1 = var13;
             var1 = _closure1_slot35;
@@ -1080,12 +1081,12 @@ case 47:
                 }
             };
             var17 = {};
-            var19 = 12;
-            var19 = var12[var19];
-            var19 = var3.bind(var5)(var19);
-            var19 = var19.withSpring;
-            var17['withSpring'] = var19;
-            var17['isVisible'] = var10;
+            var20 = 12;
+            var20 = var12[var20];
+            var20 = var3.bind(var5)(var20);
+            var20 = var20.withSpring;
+            var17['withSpring'] = var20;
+            var17['isVisible'] = var19;
             var19 = _closure1_slot36;
             var17['ENTRANCE_ANIMATION_SPING_CONFIG'] = var19;
             var17['componentDimensions'] = var18;
@@ -1120,10 +1121,10 @@ case 47:
             var1 = null;
             var15 = var1 == var14;
             var12 = undefined;
-            if(var15) { _fun0008_ip = 36; continue _fun0008 }
-case 49:
-            var12 = var14.enrolledAt;
+            if(var15) { _fun0008_ip = 49; continue _fun0008 }
 case 36:
+            var12 = var14.enrolledAt;
+case 49:
             var12 = var1 != var12;
             var _closure2_slot8 = var12;
             var14 = _closure1_slot0;
@@ -1780,14 +1781,18 @@ case 0:
             var7 = var2.bind(var5)(var4);
             var4 = var7.useMobileQuestDock;
             var8 = var4.bind(var7)();
+            var4 = var3[var1];
+            var7 = var2.bind(var5)(var4);
+            var4 = var7.useIsMobileQuestDockVisibleBase;
+            var10 = var4.bind(var7)(var8);
             var1 = var3[var1];
             var2 = var2.bind(var5)(var1);
-            var1 = var2.useIsMobileQuestDockVisibleBase;
-            var9 = var1.bind(var2)(var8);
+            var1 = var2.useIsMobileQuestDockVisibleToUser;
+            var9 = var1.bind(var2)(var8, var10);
             var1 = null;
             var2 = var1 == var8;
             if(var2) { _fun0013_ip = 77; continue _fun0013 }
-case 11:
+case 78:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -1797,7 +1802,8 @@ case 11:
             var3 = var2.Provider;
             var2 = {};
             var7 = {};
-            var7['isVisible'] = var9;
+            var7['isVisible'] = var10;
+            var7['isVisibleToUser'] = var9;
             var7['quest'] = var8;
             var2['value'] = var7;
             var8 = _closure1_slot21;

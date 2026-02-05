@@ -522,6 +522,8 @@ case 28:
     var7['LARGE'] = var4;
     var4 = 'xlarge';
     var7['XLARGE'] = var4;
+    var4 = 'xlarge72';
+    var7['XLARGE_72'] = var4;
     var4 = 'xxlarge';
     var7['XXLARGE'] = var4;
     var4 = 'profile';
@@ -576,6 +578,9 @@ case 28:
     var2[var17] = var16;
     var17 = var7.XLARGE;
     var16 = 64;
+    var2[var17] = var16;
+    var17 = var7.XLARGE_72;
+    var16 = 72;
     var2[var17] = var16;
     var17 = var7.XXLARGE;
     var16 = 80;
@@ -700,6 +705,18 @@ case 28:
     var17 = var17 / var9;
     var16['borderRadius'] = var17;
     var2['xlarge'] = var16;
+    var16 = {};
+    var17 = var7.XLARGE_72;
+    var17 = var6[var17];
+    var16['width'] = var17;
+    var17 = var7.XLARGE_72;
+    var17 = var6[var17];
+    var16['height'] = var17;
+    var17 = var7.XLARGE_72;
+    var17 = var6[var17];
+    var17 = var17 / var9;
+    var16['borderRadius'] = var17;
+    var2['xlarge72'] = var16;
     var16 = {};
     var17 = var7.XXLARGE;
     var17 = var6[var17];

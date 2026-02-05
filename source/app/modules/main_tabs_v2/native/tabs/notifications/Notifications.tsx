@@ -430,7 +430,7 @@ case 0:
             var1 = 11;
             var1 = var10[var1];
             var3 = var7.bind(var4)(var1);
-            var2 = var3.useYouBarBackButtonBadgeEnabled;
+            var2 = var3.useYouBarEnabled;
             var1 = 'Notifications';
             var21 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;

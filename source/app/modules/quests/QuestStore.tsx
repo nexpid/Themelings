@@ -1481,8 +1481,13 @@ case 97:
         var3 = _closure1_slot59;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot50;
-        var2 = var2.bind(var1)();
+        var3 = _closure1_slot50;
+        var3 = var3.bind(var1)();
+        var3 = _closure1_slot8;
+        var2 = var3.getState;
+        var3 = var2.bind(var3)();
+        var2 = var3.clearState;
+        var2 = var2.bind(var3)();
         return var1;
     };
     var2['LOGOUT'] = var7;
@@ -2355,21 +2360,30 @@ case 47:
     };
     var2['QUESTS_CLAIM_REWARD_FAILURE'] = var7;
     var7 = function handleDismissContentBegin(arg1) {
-        var1 = arg1;
-        var4 = var1.questId;
-        var1 = global;
-        var5 = var1.Set;
-        var6 = _closure1_slot25;
-        var3 = var5.prototype;
-        var3 = Object.create(var3, {constructor: {value: var5}});
-        var7 = var3;
-        var1 = new var7[var5](var6, var5);
-        var1 = var1 instanceof Object ? var1 : var3;
-        var3 = var1.add;
-        var3 = var3.bind(var1)(var4);
-        _closure1_slot25 = var1;
-        var1 = undefined;
-        return var1;
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.questId;
+            var1 = global;
+            var5 = var1.Set;
+            var6 = _closure1_slot25;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var7 = var4;
+            var1 = new var7[var5](var6, var5);
+            var1 = var1 instanceof Object ? var1 : var4;
+            var4 = var1.add;
+            var4 = var4.bind(var1)(var3);
+            _closure1_slot25 = var1;
+            var1 = _closure1_slot31;
+            if(!(var1 === var3)) { _fun0027_ip = 5; continue _fun0027 }
+case 135:
+            var1 = null;
+            _closure1_slot31 = var1;
+case 5:
+            var1 = undefined;
+            return var1;
+        }
     };
     var2['QUESTS_DISMISS_CONTENT_BEGIN'] = var7;
     var7 = function handleDismissContentSuccess(arg1) {
@@ -2397,7 +2411,7 @@ case 47:
     };
     var2['QUESTS_DISMISS_CONTENT_FAILURE'] = var7;
     var7 = function handleQuestUserStatusUpdate(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.user_status;
@@ -2436,7 +2450,7 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0027_ip = 135; continue _fun0027 }
+            if(!(var7 != var9)) { _fun0028_ip = 136; continue _fun0028 }
 case 69:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -2449,8 +2463,8 @@ case 69:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0027_ip = 135; continue _fun0027 }
-case 136:
+            if(!(var7 !== var9)) { _fun0028_ip = 136; continue _fun0028 }
+case 137:
             var10 = var4.Map;
             var13 = _closure1_slot35;
             var8 = var10.prototype;
@@ -2462,7 +2476,7 @@ case 136:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot35 = var5;
-case 135:
+case 136:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;
@@ -2470,15 +2484,15 @@ case 135:
             var7 = var5.length;
             var5 = 0;
             var5 = var5 === var7;
-            if(!var5) { _fun0027_ip = 137; continue _fun0027 }
-case 138:
+            if(!var5) { _fun0028_ip = 138; continue _fun0028 }
+case 139:
             var9 = _closure1_slot40;
             var8 = var9.has;
             var7 = var2.questId;
             var5 = var8.bind(var9)(var7);
-case 137:
-            if(!var5) { _fun0027_ip = 139; continue _fun0027 }
-case 140:
+case 138:
+            if(!var5) { _fun0028_ip = 140; continue _fun0028 }
+case 141:
             var5 = var6.log;
             var8 = var2.questId;
             var4 = var4.HermesInternal;
@@ -2490,7 +2504,7 @@ case 140:
             var3 = var4.delete;
             var2 = var2.questId;
             var2 = var3.bind(var4)(var2);
-case 139:
+case 140:
             return var1;
         }
     };
@@ -2514,7 +2528,7 @@ case 139:
     };
     var2['QUESTS_DISMISS_PROGRESS_TRACKING_FAILURE_NOTICE'] = var7;
     var7 = function handlePreviewUpdateSuccess(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
@@ -2526,7 +2540,7 @@ case 0:
             var4 = var6.bind(var1)(var5, var4);
             var5 = var2.claimedAt;
             var4 = null;
-            if(!(var4 == var5)) { _fun0028_ip = 65; continue _fun0028 }
+            if(!(var4 == var5)) { _fun0029_ip = 65; continue _fun0029 }
 case 9:
             var5 = global;
             var7 = var5.Map;
@@ -2542,8 +2556,8 @@ case 9:
             var5 = var6.bind(var7)(var5);
 case 65:
             var5 = var2.enrolledAt;
-            if(!(var4 == var5)) { _fun0028_ip = 118; continue _fun0028 }
-case 141:
+            if(!(var4 == var5)) { _fun0029_ip = 118; continue _fun0029 }
+case 142:
             var5 = global;
             var7 = var5.Map;
             var9 = _closure1_slot32;
@@ -2567,8 +2581,8 @@ case 118:
             var6 = var7.get;
             var5 = var2.questId;
             var6 = var6.bind(var7)(var5);
-            if(!(var4 != var6)) { _fun0028_ip = 31; continue _fun0028 }
-case 142:
+            if(!(var4 != var6)) { _fun0029_ip = 31; continue _fun0029 }
+case 143:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 11;
@@ -2580,8 +2594,8 @@ case 142:
             var5 = var7.get;
             var4 = var2.questId;
             var4 = var5.bind(var7)(var4);
-            if(!(var4 !== var6)) { _fun0028_ip = 31; continue _fun0028 }
-case 143:
+            if(!(var4 !== var6)) { _fun0029_ip = 31; continue _fun0029 }
+case 144:
             var4 = global;
             var7 = var4.Map;
             var9 = _closure1_slot35;
@@ -2600,16 +2614,16 @@ case 31:
     };
     var2['QUESTS_PREVIEW_UPDATE_SUCCESS'] = var7;
     var7 = function handleDeliveryOverride(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
             var4 = _closure1_slot31;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0029_ip = 144; continue _fun0029 }
-case 145:
+            if(!(var4 !== var3)) { _fun0030_ip = 145; continue _fun0030 }
+case 146:
             var1 = var3;
-case 144:
+case 145:
             _closure1_slot31 = var1;
             var1 = undefined;
             return var1;
@@ -2617,7 +2631,7 @@ case 144:
     };
     var2['QUESTS_DELIVERY_OVERRIDE'] = var7;
     var7 = function handleSelectTaskPlatform(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
@@ -2632,13 +2646,13 @@ case 0:
             var2 = var2 instanceof Object ? var2 : var4;
             _closure1_slot32 = var2;
             var2 = null;
-            if(!(var2 != var5)) { _fun0030_ip = 146; continue _fun0030 }
-case 147:
+            if(!(var2 != var5)) { _fun0031_ip = 147; continue _fun0031 }
+case 148:
             var4 = _closure1_slot32;
             var2 = var4.set;
             var2 = var2.bind(var4)(var3, var5);
-            _fun0030_ip = 86; continue _fun0030;
-case 146:
+            _fun0031_ip = 86; continue _fun0031;
+case 147:
             var2 = _closure1_slot32;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
@@ -2649,7 +2663,7 @@ case 86:
     };
     var2['QUESTS_SELECT_TASK_PLATFORM'] = var7;
     var7 = function handleUpdateOptimisticProgress(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.questId;
@@ -2659,7 +2673,7 @@ case 0:
             var2 = var3.get;
             var3 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 == var3)) { _fun0031_ip = 5; continue _fun0031 }
+            if(!(var2 == var3)) { _fun0032_ip = 5; continue _fun0032 }
 case 101:
             var2 = global;
             var2 = var2.Map;
@@ -2680,19 +2694,19 @@ case 5:
     };
     var2['QUESTS_UPDATE_OPTIMISTIC_PROGRESS'] = var7;
     var7 = function handleResetOptimisticProgress(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.questId;
             var4 = _closure1_slot40;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(!var2) { _fun0032_ip = 148; continue _fun0032 }
+            if(!var2) { _fun0033_ip = 149; continue _fun0033 }
 case 99:
             var4 = _closure1_slot40;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
-case 148:
+case 149:
             var2 = _closure1_slot8;
             var1 = var2.getState;
             var2 = var1.bind(var2)();
@@ -2704,13 +2718,13 @@ case 148:
     };
     var2['QUESTS_RESET_OPTIMISTIC_PROGRESS'] = var7;
     var7 = function handleUserCompletionUpdate(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.quest_enrollment_blocked_until;
             var2 = null;
             var1 = var2 != var4;
-            if(!var1) { _fun0033_ip = 9; continue _fun0033 }
+            if(!var1) { _fun0034_ip = 9; continue _fun0034 }
 case 96:
             var1 = global;
             var1 = var1.Date;

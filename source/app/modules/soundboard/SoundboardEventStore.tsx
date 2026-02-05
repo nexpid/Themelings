@@ -292,13 +292,14 @@ case 40:
     var1 = function _canUseFrequentlyUsed() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 15;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
-        var2 = var3.isInRecentlyUsedByUserVariant;
-        var1 = 'soundboard_event_store';
+        var2 = var3.recentlyHeardExperiment;
+        var1 = {'location': 'soundboard_event_store', 'autoTrackExposure': false};
         var1 = var2.bind(var3)(var1);
+        var1 = var1.canSeeFrequentlyPlayed;
         return var1;
     };
     var _closure1_slot19 = var1;
@@ -397,7 +398,7 @@ case 40:
     var2 = new var14[var9](var13, var12);
     var2 = var2 instanceof Object ? var2 : var8;
     var _closure1_slot14 = var2;
-    var2 = 16;
+    var2 = 15;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -559,7 +560,7 @@ case 54:
     var2 = 'SoundboardEventStore';
     var8['displayName'] = var2;
     var8['persistKey'] = var2;
-    var2 = 17;
+    var2 = 16;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -733,7 +734,7 @@ case 34:
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

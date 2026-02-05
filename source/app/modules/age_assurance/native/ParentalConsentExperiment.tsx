@@ -1,4 +1,4 @@
-// app/modules/user_profile/experiments/MobileWishlistViewerExperiment.tsx
+// app/modules/age_assurance/native/ParentalConsentExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2026-01-mobile-wishlist-viewer', 'kind': 'user'};
+    var4 = {'kind': 'user', 'name': '2026-01-age-and-parental-consent-check'};
     var9 = {};
     var10 = false;
     var9['enabled'] = var10;
@@ -32,27 +32,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_profile/experiments/MobileWishlistViewerExperiment.tsx';
+    var4 = 'modules/age_assurance/native/ParentalConsentExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function useMobileWishlistViewerExperiment(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.useConfig;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['useMobileWishlistViewerExperiment'] = var4;
-    var2 = function getMobileWishlistViewerExperiment(arg1) {
+    var2 = function(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
         var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
         return var1;
     };
-    var3['getMobileWishlistViewerExperiment'] = var2;
+    var3['isParentalConsentCheckEnabled'] = var2;
     return var1;
 })();
