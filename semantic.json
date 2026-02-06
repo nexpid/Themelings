@@ -3929,6 +3929,66 @@
       }
     ]
   },
+  "ICON_VOICE_CONNECTED": {
+    "dark": [
+      "#73c48b",
+      {
+        "raw": "GREEN_NEW_25",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#01783e",
+      {
+        "raw": "GREEN_NEW_55",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#53ad71",
+      {
+        "raw": "GREEN_NEW_34",
+        "opacity": 1
+      }
+    ]
+  },
+  "ICON_VOICE_DISCONNECTED": {
+    "dark": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#a12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ]
+  },
   "ICON_VOICE_MUTED": {
     "dark": [
       "#f23f43",
@@ -3955,6 +4015,36 @@
       "#f23f43",
       {
         "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
+  },
+  "ICON_VOICE_SPEAKING": {
+    "dark": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#269153",
+      {
+        "raw": "GREEN_NEW_45",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
         "opacity": 1
       }
     ]
@@ -7075,6 +7165,96 @@
       "#9597a3",
       {
         "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXT_VOICE_CONNECTED": {
+    "dark": [
+      "#73c48b",
+      {
+        "raw": "GREEN_NEW_25",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#01783e",
+      {
+        "raw": "GREEN_NEW_55",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#53ad71",
+      {
+        "raw": "GREEN_NEW_34",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXT_VOICE_DISCONNECTED": {
+    "dark": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#a12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#fa777b",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXT_VOICE_SPEAKING": {
+    "dark": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#269153",
+      {
+        "raw": "GREEN_NEW_45",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#3d9e60",
+      {
+        "raw": "GREEN_NEW_40",
         "opacity": 1
       }
     ]
