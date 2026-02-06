@@ -353,6 +353,7 @@ case 25:
                 var7 = var8.bind(var6)(var7);
                 var6 = var7.initGuildIdentitySettings;
                 var3 = _closure2_slot1;
+                var3 = var3.id;
                 var3 = var6.bind(var7)(var3);
                 var4 = var2;
 case 27:

@@ -88,7 +88,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot10 = var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -232,43 +232,25 @@ case 11:
                 };
                 var1['handleSyncNoMultiAccountOnLoginSuccess'] = var3;
                 var3 = function() {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 10;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var4 = var3.bind(var1)(var2);
-                        var3 = var4.shouldRegisterDevicePostConnectionOpen;
-                        var2 = 'notification_token_manager';
-                        var2 = var3.bind(var4)(var2);
-                        var3 = _closure3_slot0;
-                        if(var2) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
-                        var2 = var3.handleSyncNoMultiAccount;
-                        var2 = var2.bind(var3)();
-                        _fun0005_ip = 17; continue _fun0005;
-case 15:
-                        var2 = global;
-                        var5 = var2.setTimeout;
-                        var4 = var3.handleSyncNoMultiAccountOnPostConnectionOpen;
-                        var2 = 5000;
-                        var2 = var5.bind(var1)(var4, var2);
-                        var3['postConnectionOpenTimeoutID'] = var2;
-case 17:
-                        return var1;
-                    }
+                    var3 = _closure3_slot0;
+                    var1 = global;
+                    var5 = var1.setTimeout;
+                    var4 = var3.handleSyncNoMultiAccountOnPostConnectionOpen;
+                    var1 = undefined;
+                    var2 = 5000;
+                    var2 = var5.bind(var1)(var4, var2);
+                    var3['postConnectionOpenTimeoutID'] = var2;
+                    return var1;
                 };
                 var1['handleSyncNoMultiAccountOnRegisterSuccess'] = var3;
                 var3 = function() {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var1 = _closure3_slot0;
                         var3 = var1.postConnectionOpenTimeoutID;
                         var1 = null;
-                        if(!(var1 != var3)) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+                        if(!(var1 != var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                         var3 = global;
                         var5 = var3.clearTimeout;
                         var2 = _closure3_slot0;
@@ -278,50 +260,50 @@ case 19:
                         var2['postConnectionOpenTimeoutID'] = var1;
                         var1 = var2.handleSyncNoMultiAccount;
                         var1 = var1.bind(var2)();
-case 18:
+case 15:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['handleSyncNoMultiAccountOnPostConnectionOpen'] = var3;
                 var3 = function() {
-                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2.canSync;
-                        if(!var2) { _fun0007_ip = 20; continue _fun0007 }
-case 21:
+                        if(!var2) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                         var3 = _closure1_slot9;
                         var3 = var3.canUseMultiAccountNotifications;
                         var2 = !var3;
+case 17:
+                        if(!var2) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
-                        if(!var2) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
                         var2 = _closure3_slot0;
                         var1 = var2.registerToken;
                         var1 = var1.bind(var2)();
-case 22:
+case 19:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1['handleSyncNoMultiAccount'] = var3;
                 var2 = function() {
-                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2.canSync;
-                        if(!var2) { _fun0008_ip = 24; continue _fun0008 }
-case 21:
+                        if(!var2) { _fun0007_ip = 21; continue _fun0007 }
+case 18:
                         var3 = _closure1_slot9;
                         var2 = var3.canUseMultiAccountNotifications;
-case 24:
-                        if(!var2) { _fun0008_ip = 25; continue _fun0008 }
-case 20:
+case 21:
+                        if(!var2) { _fun0007_ip = 22; continue _fun0007 }
+case 17:
                         var2 = _closure3_slot0;
                         var1 = var2.registerToken;
                         var1 = var1.bind(var2)();
-case 25:
+case 22:
                         var1 = undefined;
                         return var1;
                     }
@@ -340,20 +322,20 @@ case 25:
         var1 = '_initialize';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = this;
                 var3 = var2.token;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0009_ip = 20; continue _fun0009 }
-case 26:
+                if(!(var1 != var3)) { _fun0008_ip = 17; continue _fun0008 }
+case 23:
                 var3 = var2.handleToken;
                 var1 = var2.token;
                 var1 = var3.bind(var2)(var1);
-case 20:
+case 17:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 11;
+                var3 = 10;
                 var6 = var5[var3];
                 var1 = undefined;
                 var9 = var4.bind(var1)(var6);
@@ -397,7 +379,7 @@ case 20:
             var2 = this;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 11;
+            var3 = 10;
             var6 = var5[var3];
             var1 = undefined;
             var9 = var4.bind(var1)(var6);
@@ -436,17 +418,17 @@ case 20:
         var7 = 'registerListener';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.hasRegisterEventListener;
-                if(var1) { _fun0010_ip = 15; continue _fun0010 }
-case 27:
+                if(var1) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
                 var1 = true;
                 var2['hasRegisterEventListener'] = var1;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 12;
+                var1 = 11;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -454,7 +436,7 @@ case 27:
                 var2 = var2.handleToken;
                 var2 = var3.bind(var4)(var2);
                 return var1;
-case 15:
+case 24:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -472,7 +454,7 @@ case 15:
         var7 = 'registerNotificationCategories';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = _closure1_slot8;
                 var3 = var2.DCDNotificationCategoryUtils;
@@ -480,10 +462,10 @@ case 0:
                 var2 = var2.DCDNotificationCategoryUtils;
                 var4 = var2.registerNotificationCategoriesAndGroups;
                 var2 = null;
-                if(!(var2 == var4)) { _fun0011_ip = 28; continue _fun0011 }
-case 29:
-                if(!(var2 != var5)) { _fun0011_ip = 30; continue _fun0011 }
-case 22:
+                if(!(var2 == var4)) { _fun0010_ip = 26; continue _fun0010 }
+case 27:
+                if(!(var2 != var5)) { _fun0010_ip = 28; continue _fun0010 }
+case 19:
                 var3 = {};
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -610,8 +592,8 @@ case 22:
                 var6 = var7.bind(var8)(var6);
                 var3['otherHighPriority'] = var6;
                 var2 = var5.bind(var2)(var3);
-                _fun0011_ip = 30; continue _fun0011;
-case 28:
+                _fun0010_ip = 28; continue _fun0010;
+case 26:
                 var3 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -809,7 +791,7 @@ case 28:
                 var5 = var6.bind(var7)(var5);
                 var1['other'] = var5;
                 var1 = var4.bind(var2)(var3, var1);
-case 30:
+case 28:
                 var1 = undefined;
                 return var1;
             }
@@ -830,22 +812,22 @@ case 30:
         var7 = 'canSync';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var1 = this;
                 var1 = var1.isInitialized;
-                if(!var1) { _fun0012_ip = 24; continue _fun0012 }
-case 27:
+                if(!var1) { _fun0011_ip = 21; continue _fun0011 }
+case 25:
                 var3 = _closure1_slot10;
                 var2 = var3.isAuthenticated;
                 var1 = var2.bind(var3)();
-case 24:
-                if(!var1) { _fun0012_ip = 31; continue _fun0012 }
-case 20:
+case 21:
+                if(!var1) { _fun0011_ip = 29; continue _fun0011 }
+case 17:
                 var2 = _closure1_slot9;
                 var2 = var2.isSwitchingAccount;
                 var1 = !var2;
-case 31:
+case 29:
                 return var1;
             }
         };
@@ -860,7 +842,7 @@ case 31:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

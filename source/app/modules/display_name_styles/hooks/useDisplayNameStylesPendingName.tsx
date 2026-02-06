@@ -24,11 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -37,87 +33,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useDisplayNameStylesPendingName(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var8 = arg1;
-            var9 = arg2;
-            var _closure2_slot0 = var8;
-            var _closure2_slot1 = var9;
-            var3 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 3;
-            var1 = var5[var1];
-            var7 = undefined;
-            var3 = var3.bind(var7)(var1);
-            var1 = var3.useName;
-            var5 = var1.bind(var3)(var8);
-            var3 = null;
-            var6 = var3 != var5;
-            var1 = '';
-            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var1 = var5;
-case 2:
-            var6 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 4;
-            var5 = var10[var5];
-            var7 = var6.bind(var7)(var5);
-            var6 = var7.useStateFromStores;
-            var10 = _closure1_slot3;
-            var5 = new Array(3);
-            var5[0] = var10;
-            var10 = _closure1_slot4;
-            var5[1] = var10;
-            var4 = _closure1_slot5;
-            var5[2] = var4;
+            var7 = arg1;
+            var8 = arg2;
+            var _closure2_slot0 = var7;
+            var _closure2_slot1 = var8;
+            var4 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 2;
+            var2 = var9[var2];
+            var6 = undefined;
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.useName;
+            var2 = var2.bind(var4)(var7);
+            var5 = _closure1_slot0;
+            var4 = 3;
+            var4 = var9[var4];
+            var6 = var5.bind(var6)(var4);
+            var5 = var6.useStateFromStores;
+            var9 = _closure1_slot3;
             var4 = new Array(2);
             var4[0] = var9;
-            var4[1] = var8;
-            var2 = function() {
+            var3 = _closure1_slot4;
+            var4[1] = var3;
+            var3 = new Array(2);
+            var3[0] = var8;
+            var3[1] = var7;
+            var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot1;
-                    var8 = null;
-                    if(!(var8 == var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var2 = _closure1_slot4;
-                    var1 = var2.getPendingChanges;
-                    var1 = var1.bind(var2)();
-                    var1 = var1.pendingGlobalName;
-                    _fun0002_ip = 6; continue _fun0002;
-case 4:
                     var4 = _closure1_slot3;
-                    var2 = var4.getPendingNickname;
-                    var2 = var2.bind(var4)();
-                    if(!(var8 == var2)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-                    var6 = _closure1_slot5;
+                    var2 = var4.getPendingChanges;
+                    var1 = _closure2_slot1;
+                    var2 = var2.bind(var4)(var1);
+                    var8 = null;
+                    if(!(var8 == var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = var2.pendingGlobalName;
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
+                    var2 = var2.pendingNickname;
+                    if(!(var8 == var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var6 = _closure1_slot4;
                     var5 = var6.getNick;
                     var4 = _closure2_slot1;
                     var3 = _closure2_slot0;
                     var8 = var8 == var3;
                     var3 = undefined;
-                    if(var8) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                    if(var8) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var7 = _closure2_slot0;
                     var3 = var7.id;
-case 9:
-                    var2 = var5.bind(var6)(var4, var3);
 case 7:
+                    var2 = var5.bind(var6)(var4, var3);
+case 5:
                     var1 = var2;
-case 6:
+case 4:
                     return var1;
                 }
             };
-            var4 = var6.bind(var7)(var5, var2, var4);
-            var2 = var1;
-            if(!(var3 != var4)) { _fun0001_ip = 11; continue _fun0001 }
+            var3 = var5.bind(var6)(var4, var1, var3);
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var2 = var3;
+case 9:
+            var3 = var1 != var2;
+            var1 = '';
+            if(!var3) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var2 = var4;
-case 11:
-            if(!(var3 != var2)) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
             var1 = var2;
-case 13:
+case 11:
             return var1;
         }
     };

@@ -1667,7 +1667,7 @@ case 47:
             var12 = var9;
             var4 = var14[var7](var13, var12, var11, var10, var9);
             var1['body'] = var4;
-            var4 = false;
+            var4 = true;
             var1['rejectWithError'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

@@ -20,17 +20,17 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
                     if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var16 = arg1;
+                    var7 = arg1;
                     var18 = var2.nick;
-                    var13 = var2.avatar;
-                    var11 = var2.avatarDescription;
-                    var12 = var2.avatarId;
-                    var14 = var2.avatarDecoration;
+                    var14 = var2.avatar;
+                    var12 = var2.avatarDescription;
+                    var13 = var2.avatarId;
+                    var15 = var2.avatarDecoration;
                     var20 = var2.nameplate;
                     var17 = var2.displayNameStyles;
                     var6 = undefined;
-                    var15 = undefined;
-                    var10 = undefined;
+                    var16 = undefined;
+                    var11 = undefined;
                     var5 = undefined;
                     SaveGenerator(address=70);
 case 4:
@@ -39,190 +39,195 @@ case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var4 = var16;
-                    var9 = null;
-                    if(!(var9 != var4)) { _fun0001_ip = 8; continue _fun0001 }
+                    var4 = var7;
+                    var10 = null;
+                    if(!(var10 != var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
                     var19 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var7 = 2;
-                    var8 = var8[var7];
-                    var21 = var19.bind(var6)(var8);
+                    var9 = _closure1_slot2;
+                    var8 = 3;
+                    var9 = var9[var8];
+                    var21 = var19.bind(var6)(var9);
                     var19 = var21.dispatch;
-                    var8 = {};
-                    var22 = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
-                    var8['type'] = var22;
-                    var8 = var19.bind(var21)(var8);
-                    var8 = {};
-                    var8['nick'] = var18;
-                    var18 = var13;
-                    var8['avatar'] = var18;
-                    var8['avatar_description'] = var11;
-                    var11 = var12;
-                    var8['avatar_id'] = var11;
-                    var11 = undefined;
-                    if(!(var6 !== var14)) { _fun0001_ip = 10; continue _fun0001 }
+                    var9 = {};
+                    var22 = 'USER_SETTINGS_ACCOUNT_SUBMIT';
+                    var9['type'] = var22;
+                    var22 = var7;
+                    var9['guildId'] = var22;
+                    var9 = var19.bind(var21)(var9);
+                    var9 = {};
+                    var9['nick'] = var18;
+                    var18 = var14;
+                    var9['avatar'] = var18;
+                    var9['avatar_description'] = var12;
+                    var12 = var13;
+                    var9['avatar_id'] = var12;
+                    var12 = undefined;
+                    if(!(var6 !== var15)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                    var19 = var9 == var14;
+                    var19 = var10 == var15;
                     var18 = undefined;
                     if(var19) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var18 = var14.skuId;
+                    var18 = var15.skuId;
 case 12:
-                    var19 = var9 != var18;
-                    var14 = null;
+                    var19 = var10 != var18;
+                    var15 = null;
                     if(!var19) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    var14 = var18;
+                    var15 = var18;
 case 14:
-                    var11 = var14;
+                    var12 = var15;
 case 10:
-                    var8['avatar_decoration_sku_id'] = var11;
-                    var11 = undefined;
+                    var9['avatar_decoration_sku_id'] = var12;
+                    var12 = undefined;
                     if(!(var6 !== var20)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-                    var14 = {};
+                    var15 = {};
                     var18 = null;
-                    if(!(var9 !== var20)) { _fun0001_ip = 18; continue _fun0001 }
+                    if(!(var10 !== var20)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
                     var19 = {};
                     var20 = var20.skuId;
                     var19['sku_id'] = var20;
                     var18 = var19;
 case 18:
-                    var14['nameplate'] = var18;
-                    var11 = var14;
+                    var15['nameplate'] = var18;
+                    var12 = var15;
 case 16:
-                    var8['collectibles'] = var11;
-                    var14 = var6 !== var17;
-                    var11 = undefined;
-                    if(!var14) { _fun0001_ip = 20; continue _fun0001 }
+                    var9['collectibles'] = var12;
+                    var15 = var6 !== var17;
+                    var12 = undefined;
+                    if(!var15) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
                     var18 = null;
-                    if(!(var9 !== var17)) { _fun0001_ip = 22; continue _fun0001 }
+                    if(!(var10 !== var17)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
                     var18 = var17.fontId;
 case 22:
-                    var11 = var18;
+                    var12 = var18;
 case 20:
-                    var8['display_name_font_id'] = var11;
-                    var11 = undefined;
-                    if(!var14) { _fun0001_ip = 24; continue _fun0001 }
+                    var9['display_name_font_id'] = var12;
+                    var12 = undefined;
+                    if(!var15) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
                     var18 = null;
-                    if(!(var9 !== var17)) { _fun0001_ip = 26; continue _fun0001 }
+                    if(!(var10 !== var17)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
                     var18 = var17.effectId;
 case 26:
-                    var11 = var18;
+                    var12 = var18;
 case 24:
-                    var8['display_name_effect_id'] = var11;
-                    var11 = undefined;
-                    if(!var14) { _fun0001_ip = 28; continue _fun0001 }
+                    var9['display_name_effect_id'] = var12;
+                    var12 = undefined;
+                    if(!var15) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-                    var14 = null;
-                    if(!(var14 !== var17)) { _fun0001_ip = 30; continue _fun0001 }
+                    var15 = null;
+                    if(!(var15 !== var17)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
-                    var14 = var17.colors;
+                    var15 = var17.colors;
 case 30:
-                    var11 = var14;
+                    var12 = var15;
 case 28:
-                    var8['display_name_colors'] = var11;
-                    var15 = var8;
+                    var9['display_name_colors'] = var12;
+                    var16 = var9;
 case 32: // try_start_0
-                    var11 = _closure1_slot0;
-                    var14 = _closure1_slot2;
-                    var8 = 3;
-                    var8 = var14[var8];
-                    var8 = var11.bind(var6)(var8);
-                    var14 = var8.HTTP;
-                    var11 = var14.patch;
-                    var8 = {};
-                    var19 = _closure1_slot4;
+                    var12 = _closure1_slot0;
+                    var15 = _closure1_slot2;
+                    var9 = 4;
+                    var9 = var15[var9];
+                    var9 = var12.bind(var6)(var9);
+                    var15 = var9.HTTP;
+                    var12 = var15.patch;
+                    var9 = {};
+                    var19 = _closure1_slot5;
                     var18 = var19.SET_GUILD_MEMBER;
-                    var17 = var16;
+                    var17 = var7;
                     var17 = var18.bind(var19)(var17);
-                    var8['url'] = var17;
-                    var8['body'] = var15;
-                    var15 = true;
-                    var8['oldFormErrors'] = var15;
-                    var15 = false;
-                    var8['rejectWithError'] = var15;
-                    var8 = var11.bind(var14)(var8);
-                    SaveGenerator(address=410);
+                    var9['url'] = var17;
+                    var9['body'] = var16;
+                    var16 = true;
+                    var9['oldFormErrors'] = var16;
+                    var16 = false;
+                    var9['rejectWithError'] = var16;
+                    var9 = var12.bind(var15)(var9);
+                    SaveGenerator(address=417);
 case 33:
-                    return var8;
+                    return var9;
 case 34:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 35; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
+                    if(var12) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
-                    var10 = var8;
-                    var17 = var8.body;
-                    var14 = _closure1_slot1;
-                    var11 = _closure1_slot2;
-                    var15 = var11[var7];
-                    var19 = var14.bind(var6)(var15);
-                    var18 = var19.dispatch;
-                    var15 = {};
-                    var20 = 'GUILD_IDENTITY_SETTINGS_SUBMIT_SUCCESS';
-                    var15['type'] = var20;
-                    var15 = var18.bind(var19)(var15);
-                    var11 = var11[var7];
-                    var15 = var14.bind(var6)(var11);
-                    var14 = var15.dispatch;
-                    var11 = {};
-                    var18 = 'GUILD_MEMBER_PROFILE_UPDATE';
-                    var11['type'] = var18;
-                    var11['guildMember'] = var17;
-                    var11['guildId'] = var16;
-                    var11 = var14.bind(var15)(var11);
-                    var13 = var9 == var13;
-                    var11 = var13;
-                    if(!var13) { _fun0001_ip = 37; continue _fun0001 }
+                    var11 = var9;
+                    var18 = var9.body;
+                    var15 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var16 = var12[var8];
+                    var20 = var15.bind(var6)(var16);
+                    var19 = var20.dispatch;
+                    var16 = {};
+                    var17 = 'USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS';
+                    var16['type'] = var17;
+                    var17 = var7;
+                    var16['guildId'] = var17;
+                    var16 = var19.bind(var20)(var16);
+                    var12 = var12[var8];
+                    var16 = var15.bind(var6)(var12);
+                    var15 = var16.dispatch;
+                    var12 = {};
+                    var19 = 'GUILD_MEMBER_PROFILE_UPDATE';
+                    var12['type'] = var19;
+                    var12['guildMember'] = var18;
+                    var12['guildId'] = var17;
+                    var12 = var15.bind(var16)(var12);
+                    var14 = var10 == var14;
+                    var12 = var14;
+                    if(!var14) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
-                    var11 = var9 == var12;
+                    var12 = var10 == var13;
 case 37:
-                    if(var11) { _fun0001_ip = 39; continue _fun0001 }
+                    if(var12) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
-                    var12 = _closure1_slot1;
-                    var11 = _closure1_slot2;
-                    var11 = var11[var7];
-                    var13 = var12.bind(var6)(var11);
-                    var12 = var13.dispatch;
-                    var11 = {};
-                    var14 = 'RECENT_AVATARS_UPDATE';
-                    var11['type'] = var14;
-                    var11 = var12.bind(var13)(var11);
+                    var13 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var12 = var12[var8];
+                    var14 = var13.bind(var6)(var12);
+                    var13 = var14.dispatch;
+                    var12 = {};
+                    var15 = 'RECENT_AVATARS_UPDATE';
+                    var12['type'] = var15;
+                    var12 = var13.bind(var14)(var12);
 case 39: // try_end0
-                    return var10;
+                    return var11;
 case 35:
-                    return var8;
+                    return var9;
 case 41: // catch_target0
-                    CatchBlockStart(arg_register=7);
-                    var3 = var8;
-                    var8 = var8.body;
-                    var5 = var8;
-                    var10 = var9 == var8;
-                    var8 = undefined;
-                    if(var10) { _fun0001_ip = 42; continue _fun0001 }
+                    CatchBlockStart(arg_register=8);
+                    var3 = var9;
+                    var9 = var9.body;
+                    var5 = var9;
+                    var11 = var10 == var9;
+                    var9 = undefined;
+                    if(var11) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
-                    var10 = var5;
-                    var8 = var10.username;
+                    var11 = var5;
+                    var9 = var11.username;
 case 42:
-                    if(!(var9 != var8)) { _fun0001_ip = 44; continue _fun0001 }
+                    if(!(var10 != var9)) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-                    var8 = var5.username;
-                    var5['nick'] = var8;
+                    var9 = var5.username;
+                    var5['nick'] = var9;
                     var5 = delete var5.username;
 case 44:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var4 = var4[var7];
+                    var4 = var4[var8];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
                     var4 = {};
-                    var7 = 'GUILD_IDENTITY_SETTINGS_SUBMIT_FAILURE';
-                    var4['type'] = var7;
+                    var8 = 'USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE';
+                    var4['type'] = var8;
+                    var4['guildId'] = var7;
                     var7 = var3.body;
                     var4['errors'] = var7;
                     var4 = var5.bind(var6)(var4);
@@ -248,7 +253,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot5 = var4;
+        _closure1_slot6 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -256,7 +261,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -272,10 +277,14 @@ case 2:
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
-    var _closure1_slot4 = var4;
-    var4 = 4;
+    var _closure1_slot5 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -283,7 +292,7 @@ case 2:
     var4 = var5.bind(var6)(var4);
     var4 = function saveGuildIdentityChanges() {
         var1 = undefined;
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -295,16 +304,16 @@ case 2:
     var4 = function setCurrentGuild(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_GUILD';
+        var5 = 'USER_SETTINGS_ACCOUNT_SET_GUILD';
         var2['type'] = var5;
         var5 = arg1;
-        var2['guild'] = var5;
+        var2['guildId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
@@ -312,46 +321,34 @@ case 2:
     var4 = function initGuildIdentitySettings(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_INIT';
+        var5 = 'USER_SETTINGS_ACCOUNT_INIT';
         var2['type'] = var5;
         var5 = arg1;
-        var2['guild'] = var5;
+        var2['guildId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
     var3['initGuildIdentitySettings'] = var4;
-    var4 = function resetAndCloseGuildIdentityForm() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_RESET_AND_CLOSE_FORM';
-        var2['type'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['resetAndCloseGuildIdentityForm'] = var4;
     var4 = function setPendingAvatar(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_AVATAR';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['avatar'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -359,16 +356,19 @@ case 2:
     };
     var3['setPendingAvatar'] = var4;
     var4 = function setPendingCollectiblesItem(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_COLLECTIBLES_ITEM';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['item'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -376,16 +376,19 @@ case 2:
     };
     var3['setPendingCollectiblesItem'] = var4;
     var4 = function setPendingBanner(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_BANNER';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['banner'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -393,16 +396,19 @@ case 2:
     };
     var3['setPendingBanner'] = var4;
     var4 = function setPendingBio(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_BIO';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BIO';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['bio'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -410,16 +416,19 @@ case 2:
     };
     var3['setPendingBio'] = var4;
     var4 = function setPendingPronouns(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_PRONOUNS';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['pronouns'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -427,33 +436,47 @@ case 2:
     };
     var3['setPendingPronouns'] = var4;
     var4 = function setPendingNickname(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_NICKNAME';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['nickname'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = _closure1_slot4;
+            var4 = var2.selectedGuildId;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0002_ip = 46; continue _fun0002 }
+case 47:
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_NICKNAME';
+            var1['type'] = var5;
+            var1['guildId'] = var4;
+            var4 = arg1;
+            var1['nickname'] = var4;
+            var1 = var2.bind(var3)(var1);
+case 46:
+            var1 = undefined;
+            return var1;
+        }
     };
     var3['setPendingNickname'] = var4;
     var4 = function setPendingThemeColors(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_THEME_COLORS';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['themeColors'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -461,16 +484,19 @@ case 2:
     };
     var3['setPendingThemeColors'] = var4;
     var4 = function setGuildMemberPendingDisplayNameStyles(arg1) {
+        var2 = _closure1_slot4;
+        var5 = var2.selectedGuildId;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES';
-        var2['type'] = var5;
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_DISPLAY_NAME_STYLES';
+        var2['type'] = var6;
+        var2['guildId'] = var5;
         var5 = arg1;
         var2['displayNameStyles'] = var5;
         var2 = var3.bind(var4)(var2);
@@ -480,13 +506,13 @@ case 2:
     var4 = function resetPendingMemberChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_RESET_PENDING_MEMBER_CHANGES';
+        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_ACCOUNT_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -495,13 +521,13 @@ case 2:
     var4 = function resetPendingProfileChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_RESET_PENDING_PROFILE_CHANGES';
+        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_PROFILE_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -510,13 +536,13 @@ case 2:
     var4 = function resetAllPending() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_RESET_ALL_PENDING';
+        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -525,13 +551,13 @@ case 2:
     var2 = function clearErrors() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_CLEAR_ERRORS';
+        var5 = 'USER_SETTINGS_ACCOUNT_CLEAR_ERRORS';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

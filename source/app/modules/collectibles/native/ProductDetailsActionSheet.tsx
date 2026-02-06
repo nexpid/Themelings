@@ -404,6 +404,8 @@ case 14:
             var20['selectedProduct'] = var18;
             var28 = var28.wishlistButton;
             var20['style'] = var28;
+            var28 = 'md';
+            var20['size'] = var28;
             var15 = var23.bind(var4)(var21, var20);
 case 13:
             var21 = new Array(5);

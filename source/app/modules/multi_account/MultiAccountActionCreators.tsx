@@ -352,23 +352,6 @@ case 31:
         return var1;
     };
     var3['removeAccount'] = var4;
-    var4 = function multiAccountMobileExperimentUpdate(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot3;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'MULTI_ACCOUNT_MOBILE_EXPERIMENT_UPDATE';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['multiAccountMobileExperimentEnabled'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['multiAccountMobileExperimentUpdate'] = var4;
     var4 = function updatePushSyncToken(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;

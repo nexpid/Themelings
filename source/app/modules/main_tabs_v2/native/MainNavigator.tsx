@@ -403,10 +403,6 @@ case 12:
             var7 = var3.bind(var5)(var6);
             var6 = var7.useScreenReaderEnabled;
             var6 = var6.bind(var7)();
-            var6 = var13[var4];
-            var7 = var3.bind(var5)(var6);
-            var6 = var7.useUpsellManager;
-            var6 = var6.bind(var7)();
             var4 = var13[var4];
             var6 = var3.bind(var5)(var4);
             var4 = var6.useAppKeyCommands;

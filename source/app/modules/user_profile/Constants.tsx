@@ -38,6 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17['WIDGETS'] = var2;
     var2 = 'WISHLIST';
     var17['WISHLIST'] = var2;
+    var2 = 'MAIN';
+    var17['MAIN'] = var2;
     var16 = {};
     var2 = 'ROLES';
     var16['ROLES'] = var2;

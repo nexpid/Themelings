@@ -64,9 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getTryItOutChanges;
             var2 = var2.bind(var3)();
             var1['tryItOutChanges'] = var2;
-            var2 = var3.showNotice;
-            var2 = var2.bind(var3)();
-            var1['hasEdits'] = var2;
             var2 = var3.getErrors;
             var2 = var2.bind(var3)();
             var1['errors'] = var2;
@@ -76,14 +73,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10.pendingChanges;
         var _closure2_slot0 = var3;
         var2 = var10.tryItOutChanges;
-        var12 = var10.hasEdits;
         var10 = var10.errors;
         var9 = var7[var9];
-        var13 = var6.bind(var5)(var9);
-        var11 = var13.useStateFromStores;
-        var14 = _closure1_slot6;
+        var12 = var6.bind(var5)(var9);
+        var11 = var12.useStateFromStores;
+        var13 = _closure1_slot6;
         var9 = new Array(2);
-        var9[0] = var14;
+        var9[0] = var13;
         var9[1] = var8;
         var8 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -102,12 +98,12 @@ case 2:
                 return var1;
             }
         };
-        var9 = var11.bind(var13)(var9, var8);
+        var9 = var11.bind(var12)(var9, var8);
         var _closure2_slot1 = var9;
         var11 = var3.pendingAvatarDecoration;
-        var14 = _closure1_slot4;
-        var15 = var14.useEffect;
-        var13 = function() {
+        var13 = _closure1_slot4;
+        var14 = var13.useEffect;
+        var12 = function() {
             var1 = function() {
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -127,8 +123,8 @@ case 2:
             return var1;
         };
         var8 = new Array(0);
-        var8 = var15.bind(var14)(var13, var8);
-        var15 = var14.useCallback;
+        var8 = var14.bind(var13)(var12, var8);
+        var14 = var13.useCallback;
         var4 = _closure1_slot3;
         var8 = function* () {
             var1 = function* anon_0_() {
@@ -499,12 +495,12 @@ case 4:
             };
             return var1;
         };
-        var13 = var4.bind(var5)(var8);
+        var12 = var4.bind(var5)(var8);
         var8 = new Array(2);
         var8[0] = var9;
         var8[1] = var3;
-        var8 = var15.bind(var14)(var13, var8);
-        var13 = var14.useCallback;
+        var8 = var14.bind(var13)(var12, var8);
+        var12 = var13.useCallback;
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -564,11 +560,10 @@ case 80:
         var4 = var4.bind(var5)(var1);
         var1 = new Array(2);
         var1[0] = var9;
-        var15 = var3.pendingAvatarDecoration;
-        var1[1] = var15;
-        var4 = var13.bind(var14)(var4, var1);
+        var14 = var3.pendingAvatarDecoration;
+        var1[1] = var14;
+        var4 = var12.bind(var13)(var4, var1);
         var1 = {};
-        var1['hasEdits'] = var12;
         var11 = var5 !== var11;
         var1['hasAvatarDecorationEdits'] = var11;
         var1['errors'] = var10;
@@ -580,12 +575,12 @@ case 80:
         var4 = var6.bind(var5)(var4);
         var4 = var4.resetAllPending;
         var1['resetPending'] = var4;
-        var18 = var1;
-        var17 = var3;
-        var3 = copyDataProperties(var18, var17);
-        var18 = var1;
-        var17 = var2;
-        var2 = copyDataProperties(var18, var17);
+        var17 = var1;
+        var16 = var3;
+        var3 = copyDataProperties(var17, var16);
+        var17 = var1;
+        var16 = var2;
+        var2 = copyDataProperties(var17, var16);
         return var1;
     };
     var3['default'] = var2;

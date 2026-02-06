@@ -79,6 +79,7 @@ case 2:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.initGuildIdentitySettings;
                     var1 = _closure2_slot0;
+                    var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
 case 4:
                     var3 = _closure1_slot0;

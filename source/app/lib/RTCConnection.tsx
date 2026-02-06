@@ -3334,13 +3334,13 @@ case 185:
                     var1 = 'audio_transport_cc';
                     var1 = var4.bind(var2)(var1);
 case 184:
-                    var5 = _closure1_slot0;
+                    var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var1 = 42;
                     var4 = var4[var1];
                     var1 = undefined;
                     var7 = var5.bind(var1)(var4);
-                    var6 = var7.getProportionalVadIndicatorExperimentConfig;
+                    var6 = var7.getConfig;
                     var5 = {};
                     var4 = '_chooseExperiments';
                     var5['location'] = var4;

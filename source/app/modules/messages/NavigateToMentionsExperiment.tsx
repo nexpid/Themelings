@@ -59,90 +59,101 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/NavigateToMentionsExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function getAndTrackOldestUnreadMentionOnLoad(arg1, arg2) {
+    var2 = function getOldestUnreadMentionOnLoad(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var9 = arg1;
-            var10 = arg2;
+            var1 = arg1;
+            var9 = var1.channel;
+            var12 = var1.messages;
+            var4 = var1.track;
+            var6 = undefined;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var6;
+            var _closure2_slot2 = var6;
+            var _closure2_slot3 = var6;
+            var _closure2_slot4 = var6;
             var1 = _closure1_slot7;
-            var5 = var1.GUILD_TEXTUAL;
-            var4 = var5.has;
+            var7 = var1.GUILD_TEXTUAL;
+            var5 = var7.has;
             var1 = var9.type;
-            var1 = var4.bind(var5)(var1);
+            var1 = var5.bind(var7)(var1);
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var10.ready;
-            if(var1) { _fun0001_ip = 4; continue _fun0001 }
-case 2:
-            var1 = null;
-            return var1;
+            var1 = _closure1_slot7;
+            var7 = var1.THREADS;
+            var5 = var7.has;
+            var1 = var9.type;
+            var1 = var5.bind(var7)(var1);
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var4 = _closure1_slot5;
-            var1 = var4.getCurrentUser;
-            var4 = var1.bind(var4)();
-            var _closure2_slot0 = var4;
+            var1 = var12.ready;
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
+            var5 = _closure1_slot5;
+            var1 = var5.getCurrentUser;
+            var5 = var1.bind(var5)();
+            _closure2_slot0 = var5;
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var6 = _closure1_slot3;
-            var5 = var6.getMentionCount;
-            var4 = var9.id;
-            var8 = var5.bind(var6)(var4);
-            var5 = 0;
-            if(!(!(var8 <= var5))) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var7 = _closure1_slot8;
-            var6 = var7.getConfig;
-            var4 = {};
-            var11 = 'trackMentionsOnInitialUnreadChannelLoad';
-            var4['location'] = var11;
-            var6 = var6.bind(var7)(var4);
-            var4 = var6.enableTracking;
-            var6 = var6.enableNavigation;
-            var _closure2_slot1 = var6;
-            if(var4) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            if(var6) { _fun0001_ip = 9; continue _fun0001 }
-case 11:
-            return var1;
+            if(!(var1 != var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var8 = _closure1_slot3;
+            var7 = var8.getMentionCount;
+            var5 = var9.id;
+            var8 = var7.bind(var8)(var5);
+            var10 = 0;
+            if(!(!(var8 <= var10))) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var11 = _closure1_slot3;
-            var7 = var11.ackMessageId;
-            var6 = var9.id;
-            var6 = var7.bind(var11)(var6);
-            var _closure2_slot2 = var6;
-            var7 = var1 != var6;
-            if(!(var1 == var6)) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var12 = _closure1_slot2;
-            var11 = var12.getGuild;
-            var6 = var9.guild_id;
-            var6 = var11.bind(var12)(var6);
-            var11 = var1 != var6;
-            if(!var11) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var12 = var6.joinedAt;
-            var11 = var1 != var12;
-case 14:
-            if(!var11) { _fun0001_ip = 12; continue _fun0001 }
-case 16:
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var11 = 5;
-            var12 = var12[var11];
-            var11 = undefined;
-            var12 = var13.bind(var11)(var12);
-            var11 = var12.fromTimestamp;
-            var13 = var6.joinedAt;
-            var6 = var13.getTime;
-            var6 = var6.bind(var13)();
-            var6 = var11.bind(var12)(var6);
-            _closure2_slot2 = var6;
+            var11 = _closure1_slot8;
+            var7 = var11.getConfig;
+            var5 = {};
+            var13 = 'trackMentionsOnInitialUnreadChannelLoad';
+            var5['location'] = var13;
+            var7 = var7.bind(var11)(var5);
+            var5 = var7.enableTracking;
+            var7 = var7.enableNavigation;
+            _closure2_slot1 = var7;
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            if(var7) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
-            var _closure2_slot3 = var5;
-            var _closure2_slot4 = var1;
-            var6 = var10.forAll;
-            var5 = function(arg1) {
+            return var1;
+case 10:
+            var13 = _closure1_slot3;
+            var11 = var13.ackMessageId;
+            var7 = var9.id;
+            var11 = var11.bind(var13)(var7);
+            _closure2_slot2 = var11;
+            var7 = var1 != var11;
+            if(!(var1 == var11)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var14 = _closure1_slot2;
+            var13 = var14.getGuild;
+            var11 = var9.guild_id;
+            var11 = var13.bind(var14)(var11);
+            var13 = var1 != var11;
+            if(!var13) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var14 = var11.joinedAt;
+            var13 = var1 != var14;
+case 15:
+            if(!var13) { _fun0001_ip = 13; continue _fun0001 }
+case 17:
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var13 = 5;
+            var13 = var15[var13];
+            var14 = var14.bind(var6)(var13);
+            var13 = var14.fromTimestamp;
+            var15 = var11.joinedAt;
+            var11 = var15.getTime;
+            var11 = var11.bind(var15)();
+            var11 = var13.bind(var14)(var11);
+            _closure2_slot2 = var11;
+case 13:
+            _closure2_slot3 = var10;
+            _closure2_slot4 = var1;
+            var11 = var12.forAll;
+            var10 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = arg1;
@@ -158,25 +169,25 @@ case 0:
                     var4 = var7.bind(var8)(var5, var4);
                     var7 = 0;
                     var4 = var4 > var7;
-                    if(!var4) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                    if(!var4) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var8 = _closure1_slot4;
                     var5 = _closure2_slot0;
                     var4 = var8.bind(var1)(var2, var5);
-case 17:
-                    if(!var4) { _fun0002_ip = 19; continue _fun0002 }
-case 6:
+case 18:
+                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                     var4 = _closure2_slot3;
                     var4 = var4 + 1;
                     _closure2_slot3 = var4;
                     var4 = _closure2_slot1;
-                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+                    if(!var4) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
                     var8 = _closure2_slot4;
                     var5 = null;
                     var5 = var5 == var8;
-                    if(var5) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+                    if(var5) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
                     var8 = _closure1_slot0;
                     var6 = _closure1_slot1;
                     var6 = var6[var9];
@@ -186,26 +197,29 @@ case 23:
                     var6 = _closure2_slot4;
                     var6 = var9.bind(var10)(var8, var6);
                     var5 = var6 < var7;
-case 22:
-                    var4 = var5;
-case 20:
-                    if(!var4) { _fun0002_ip = 19; continue _fun0002 }
 case 24:
+                    var4 = var5;
+case 22:
+                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
+case 26:
                     var2 = var2.id;
                     _closure2_slot4 = var2;
-case 19:
+case 20:
                     return var1;
                 }
             };
-            var5 = var6.bind(var10)(var5);
-            if(!var4) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var10 = var11.bind(var12)(var10);
+            if(!var4) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+            var4 = var5;
+case 27:
+            if(!var4) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot1;
             var4 = 6;
-            var5 = var5[var4];
-            var4 = undefined;
-            var6 = var6.bind(var4)(var5);
+            var4 = var10[var4];
+            var6 = var5.bind(var6)(var4);
             var5 = var6.track;
             var3 = _closure1_slot6;
             var4 = var3.CHANNEL_WITH_UNREAD_MENTIONS_LOADED;
@@ -219,15 +233,18 @@ case 26:
             var3['loaded_mention_count'] = var8;
             var3['has_previous_ack'] = var7;
             var3 = var5.bind(var6)(var4, var3);
-case 25:
+case 29:
             var2 = _closure2_slot4;
             return var2;
-case 7:
+case 8:
             return var1;
-case 5:
+case 6:
+            return var1;
+case 2:
+            var1 = null;
             return var1;
         }
     };
-    var3['getAndTrackOldestUnreadMentionOnLoad'] = var2;
+    var3['getOldestUnreadMentionOnLoad'] = var2;
     return var1;
 })();

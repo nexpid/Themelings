@@ -2760,20 +2760,25 @@ case 146:
                     var3['animated'] = var12;
                     var3['scrollPosition'] = var11;
                     var3['focusTargetId'] = var9;
-                    var9 = function onComputedScrollToUnread() {
+                    var9 = function getInitialScrollMessageId() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 91;
                         var2 = var2[var1];
                         var1 = undefined;
-                        var5 = var3.bind(var1)(var2);
-                        var4 = var5.getAndTrackOldestUnreadMentionOnLoad;
-                        var3 = _closure2_slot1;
-                        var2 = _closure2_slot6;
-                        var2 = var4.bind(var5)(var3, var2);
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.getOldestUnreadMentionOnLoad;
+                        var1 = {};
+                        var5 = _closure2_slot1;
+                        var1['channel'] = var5;
+                        var4 = _closure2_slot6;
+                        var1['messages'] = var4;
+                        var4 = true;
+                        var1['track'] = var4;
+                        var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var3['onComputedScrollToUnread'] = var9;
+                    var3['getInitialScrollMessageId'] = var9;
                     var9 = var5.bind(var1)(var3);
                     var5 = _closure2_slot118;
                     var3 = true;

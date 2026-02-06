@@ -1216,6 +1216,8 @@ case 48:
             var12['iconProps'] = var21;
             var21 = var22.name;
             var12['text'] = var21;
+            var21 = 'header';
+            var12['textAccessibilityRole'] = var21;
             var14 = var15.bind(var4)(var14, var12);
             var12 = new Array(5);
             var12[0] = var14;
@@ -1235,7 +1237,7 @@ case 48:
             var14 = var21.bind(var4)(var15, var14);
             var12[1] = var14;
             var14 = var20;
-            if(!var14) { _fun0005_ip = 11; continue _fun0005 }
+            if(!var14) { _fun0005_ip = 37; continue _fun0005 }
 case 50:
             var23 = _closure1_slot17;
             var21 = _closure1_slot25;
@@ -1243,7 +1245,7 @@ case 50:
             var15['guild'] = var22;
             var15['pushScreen'] = var17;
             var14 = var23.bind(var4)(var21, var15);
-case 11:
+case 37:
             var12[2] = var14;
             if(!var13) { _fun0005_ip = 51; continue _fun0005 }
 case 52:
