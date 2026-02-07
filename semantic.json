@@ -3931,30 +3931,30 @@
   },
   "ICON_VOICE_CONNECTED": {
     "dark": [
-      "#73c48b",
+      "#2dc771",
       {
-        "raw": "GREEN_NEW_25",
+        "raw": "GREEN_330",
         "opacity": 1
       }
     ],
     "light": [
-      "#01783e",
+      "#248045",
       {
-        "raw": "GREEN_NEW_55",
+        "raw": "GREEN_430",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "darker": [
-      "#53ad71",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_34",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ]
@@ -4021,30 +4021,30 @@
   },
   "ICON_VOICE_SPEAKING": {
     "dark": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "light": [
-      "#269153",
+      "#24934e",
       {
-        "raw": "GREEN_NEW_45",
+        "raw": "GREEN_400",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "darker": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ]
@@ -7171,53 +7171,53 @@
   },
   "TEXT_VOICE_CONNECTED": {
     "dark": [
-      "#73c48b",
+      "#2dc771",
       {
-        "raw": "GREEN_NEW_25",
+        "raw": "GREEN_330",
         "opacity": 1
       }
     ],
     "light": [
-      "#01783e",
+      "#248045",
       {
-        "raw": "GREEN_NEW_55",
+        "raw": "GREEN_430",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "darker": [
-      "#53ad71",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_34",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ]
   },
   "TEXT_VOICE_DISCONNECTED": {
     "dark": [
-      "#fa777b",
+      "#fa9193",
       {
-        "raw": "RED_345",
+        "raw": "RED_330",
         "opacity": 1
       }
     ],
     "light": [
-      "#a12829",
+      "#8f2022",
       {
-        "raw": "RED_500",
+        "raw": "RED_530",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#fa777b",
+      "#f85b5f",
       {
-        "raw": "RED_345",
+        "raw": "RED_360",
         "opacity": 1
       }
     ],
@@ -7231,30 +7231,30 @@
   },
   "TEXT_VOICE_SPEAKING": {
     "dark": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "light": [
-      "#269153",
+      "#24934e",
       {
-        "raw": "GREEN_NEW_45",
+        "raw": "GREEN_400",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ],
     "darker": [
-      "#3d9e60",
+      "#26b968",
       {
-        "raw": "GREEN_NEW_40",
+        "raw": "GREEN_345",
         "opacity": 1
       }
     ]
