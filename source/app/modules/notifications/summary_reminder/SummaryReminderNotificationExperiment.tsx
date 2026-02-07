@@ -1,4 +1,4 @@
-// app/modules/voice_dares/VoiceDaresExperiment.tsx
+// app/modules/notifications/summary_reminder/SummaryReminderNotificationExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -16,15 +16,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'name': '2026-01-voice-dares-v0', 'kind': 'user'};
+    var4 = {'name': '2026-01-summary-reminder-notification', 'kind': 'user'};
     var9 = {};
     var10 = false;
-    var9['enabled'] = var10;
+    var9['showSettingsToggle'] = var10;
     var4['defaultConfig'] = var9;
     var9 = {};
     var10 = {};
-    var10['enabled'] = var11;
+    var10['showSettingsToggle'] = var11;
     var9[1] = var10;
+    var10 = {};
+    var10['showSettingsToggle'] = var11;
+    var9[2] = var10;
+    var10 = {};
+    var10['showSettingsToggle'] = var11;
+    var9[3] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -32,29 +38,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/voice_dares/VoiceDaresExperiment.tsx';
+    var5 = 'modules/notifications/summary_reminder/SummaryReminderNotificationExperiment.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['VoiceDaresExperiment'] = var4;
-    var4 = function useVoiceDaresExperiment(arg1) {
+    var3['default'] = var4;
+    var4 = function useSummaryReminderNotificationExperiment(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
         var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
         return var1;
     };
-    var3['useVoiceDaresExperiment'] = var4;
-    var2 = function getVoiceDaresExperimentConfig(arg1) {
+    var3['useSummaryReminderNotificationExperiment'] = var4;
+    var2 = function isEligibleForSummaryReminderNotifications(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
         var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
+        var1 = var1.showSettingsToggle;
         return var1;
     };
-    var3['getVoiceDaresExperimentConfig'] = var2;
+    var3['isEligibleForSummaryReminderNotifications'] = var2;
     return var1;
 })();

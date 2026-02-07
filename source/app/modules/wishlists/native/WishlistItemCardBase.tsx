@@ -93,119 +93,142 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function WishlistItemCardBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var5 = var2.onPress;
-            var12 = var2.renderPreview;
-            var13 = var2.backgroundColor;
-            var1 = var2.width;
-            var6 = var2.accessibilityElementsHidden;
-            var9 = var2.isOwned;
-            var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            var1 = arg1;
+            var9 = var1.onPress;
+            var15 = var1.renderPreview;
+            var17 = var1.backgroundColor;
+            var3 = var1.width;
+            var8 = var1.accessibilityHidden;
+            var12 = var1.isOwned;
+            var5 = undefined;
+            if(!(var12 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = false;
+            var12 = false;
 case 2:
-            var2 = _closure1_slot7;
-            var8 = var2.bind(var4)();
-            var2 = null;
-            var2 = var2 != var1;
-            var15 = 170;
-            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+            var1 = _closure1_slot7;
+            var7 = var1.bind(var5)();
+            var1 = null;
+            var4 = var1 != var3;
+            var10 = 170;
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = var1;
+            var10 = var3;
 case 4:
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var7 = _closure1_slot8;
-            var7 = var7.ownedOverlay;
-            var1['style'] = var7;
-            var7 = 'none';
-            var1['pointerEvents'] = var7;
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var7 = 5;
-            var7 = var19[var7];
-            var7 = var18.bind(var4)(var7);
-            var10 = var7.CheckmarkLargeBoldIcon;
-            var7 = {};
-            var16 = _closure1_slot1;
-            var11 = 4;
-            var11 = var19[var11];
-            var11 = var16.bind(var4)(var11);
-            var11 = var11.colors;
-            var11 = var11.WHITE;
-            var7['color'] = var11;
-            var11 = 'custom';
-            var7['size'] = var11;
-            var11 = {'width': 40, 'height': 40};
-            var7['style'] = var11;
-            var11 = 6;
-            var16 = var19[var11];
-            var16 = var18.bind(var4)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
-            var11 = var19[var11];
-            var11 = var18.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.6cfuDj;
-            var11 = var16.bind(var17)(var11);
-            var7['accessibilityLabel'] = var11;
-            var7 = var3.bind(var4)(var10, var7);
-            var1['children'] = var7;
-            var10 = var3.bind(var4)(var2, var1);
-            var2 = _closure1_slot3;
-            var1 = {};
-            var7 = 'button';
-            var1['accessibilityRole'] = var7;
-            var11 = var8.card;
-            var7 = new Array(2);
-            var7[0] = var11;
-            var11 = {};
-            var11['width'] = var15;
-            var7[1] = var11;
-            var1['style'] = var7;
-            var1['onPress'] = var5;
-            var1['accessibilityElementsHidden'] = var6;
-            var5 = 'auto';
-            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = 'no-hide-descendants';
-case 6:
-            var1['importantForAccessibility'] = var5;
-            var7 = _closure1_slot6;
+            var14 = _closure1_slot5;
             var6 = _closure1_slot4;
-            var5 = {};
-            var11 = var8.cardContent;
-            var8 = new Array(2);
-            var8[0] = var11;
+            var3 = {};
+            var4 = _closure1_slot8;
+            var4 = var4.ownedOverlay;
+            var3['style'] = var4;
+            var4 = 'none';
+            var3['pointerEvents'] = var4;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var4 = 5;
+            var4 = var20[var4];
+            var4 = var19.bind(var5)(var4);
+            var11 = var4.CheckmarkLargeBoldIcon;
+            var4 = {};
+            var16 = _closure1_slot1;
+            var13 = 4;
+            var13 = var20[var13];
+            var13 = var16.bind(var5)(var13);
+            var13 = var13.colors;
+            var13 = var13.WHITE;
+            var4['color'] = var13;
+            var13 = 'custom';
+            var4['size'] = var13;
+            var13 = {'width': 40, 'height': 40};
+            var4['style'] = var13;
+            var13 = 6;
+            var16 = var20[var13];
+            var16 = var19.bind(var5)(var16);
+            var18 = var16.intl;
+            var16 = var18.string;
+            var13 = var20[var13];
+            var13 = var19.bind(var5)(var13);
+            var13 = var13.t;
+            var13 = var13.6cfuDj;
+            var13 = var16.bind(var18)(var13);
+            var4['accessibilityLabel'] = var13;
+            var4 = var14.bind(var5)(var11, var4);
+            var3['children'] = var4;
+            var13 = var14.bind(var5)(var6, var3);
+            var4 = _closure1_slot6;
+            var3 = {};
+            var16 = var7.cardContent;
+            var11 = new Array(2);
+            var11[0] = var16;
+            var16 = {};
+            var16['backgroundColor'] = var17;
+            var11[1] = var16;
+            var3['style'] = var11;
             var11 = {};
-            var11['backgroundColor'] = var13;
-            var8[1] = var11;
-            var5['style'] = var8;
-            var11 = _closure1_slot5;
-            var8 = {};
-            var13 = var9;
-            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+            var16 = var12;
+            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var17 = _closure1_slot8;
+            var16 = var17.ownedCard;
+case 6:
+            var11['style'] = var16;
+            var15 = var15.bind(var5)();
+            var11['children'] = var15;
+            var14 = var14.bind(var5)(var6, var11);
+            var11 = new Array(2);
+            var11[0] = var14;
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var14 = _closure1_slot8;
-            var13 = var14.ownedCard;
+            var12 = var13;
 case 8:
-            var8['style'] = var13;
-            var12 = var12.bind(var4)();
-            var8['children'] = var12;
-            var11 = var11.bind(var4)(var6, var8);
-            var8 = new Array(2);
-            var8[0] = var11;
-            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+            var11[1] = var12;
+            var3['children'] = var11;
+            var6 = var4.bind(var5)(var6, var3);
+            if(!(var1 != var9)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var9 = var10;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot3;
+            var1 = {};
+            var11 = 'button';
+            var1['accessibilityRole'] = var11;
+            var12 = var7.card;
+            var11 = new Array(2);
+            var11[0] = var12;
+            var12 = {};
+            var12['width'] = var10;
+            var11[1] = var12;
+            var1['style'] = var11;
+            var1['onPress'] = var9;
+            var1['accessibilityElementsHidden'] = var8;
+            var9 = 'auto';
+            if(!var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var9 = 'no-hide-descendants';
+case 12:
+            var1['importantForAccessibility'] = var9;
+            var1['children'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 14; continue _fun0001;
 case 10:
-            var8[1] = var9;
-            var5['children'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var9 = var7.card;
+            var7 = new Array(2);
+            var7[0] = var9;
+            var9 = {};
+            var9['width'] = var10;
+            var7[1] = var9;
+            var2['style'] = var7;
+            var2['accessibilityElementsHidden'] = var8;
+            var7 = 'auto';
+            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var7 = 'no-hide-descendants';
+case 15:
+            var2['importantForAccessibility'] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 14:
             return var1;
         }
     };

@@ -104,6 +104,8 @@ case 0:
         var19['YOU_TAB_PROFILE_HEADER'] = var1;
         var1 = 'quest_instructions';
         var19['QUEST_INSTRUCTIONS'] = var1;
+        var1 = 'quest_activity_bottom_sheet';
+        var19['QUEST_ACTIVITY_BOTTOM_SHEET'] = var1;
         var1 = 'quest_primary_cta';
         var19['QUEST_PRIMARY_CTA'] = var1;
         var1 = 0;

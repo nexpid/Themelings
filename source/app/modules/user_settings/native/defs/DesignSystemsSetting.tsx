@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 3;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.useStaffOrDeveloperSettingPredicate;
+    var8 = var8.useDesignSystemsSettingPredicate;
     var2['usePredicate'] = var8;
     var8 = {};
     var10 = var10.DESIGN_SYSTEM;

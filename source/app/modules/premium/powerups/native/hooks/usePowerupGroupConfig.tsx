@@ -25,7 +25,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 9;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GUILD_TAG_BADGE_PACKS_WAVE_TWO_SKU_ID_SET;
+    var _closure1_slot5 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -34,20 +39,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function usePowerupGroupConfig(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var6 = arg2;
-            var2 = arg1;
-            var _closure2_slot0 = var2;
-            var _closure2_slot1 = var6;
+            var6 = arg1;
+            var7 = arg2;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var7;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 2;
+            var3 = 3;
             var3 = var5[var3];
-            var9 = undefined;
-            var7 = var4.bind(var9)(var3);
-            var5 = var7.useStateFromStores;
+            var10 = undefined;
+            var11 = var4.bind(var10)(var3);
+            var9 = var11.useStateFromStores;
             var3 = _closure1_slot4;
-            var4 = new Array(1);
-            var4[0] = var3;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -65,27 +70,35 @@ case 2:
                     return var1;
                 }
             };
-            var7 = var5.bind(var7)(var4, var3);
-            var4 = null;
-            var5 = var4 == var7;
-            var3 = undefined;
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 3;
-            var5 = var10[var5];
-            var5 = var8.bind(var9)(var5);
-            var5 = var5.GUILD_POWERUP_TAG_SKU_ID;
-            var3 = var7[var5];
-case 4:
-            var5 = var4 != var3;
+            var8 = var9.bind(var11)(var8, var3);
+            var3 = 4;
+            var3 = var5[var3];
+            var5 = var4.bind(var10)(var3);
+            var4 = var5.useGuildTagBadgePacksWaveTwoExperimentEnabled;
+            var3 = 'usePowerupGroupConfig';
+            var5 = var4.bind(var5)(var6, var3);
             var _closure2_slot2 = var5;
+            var4 = null;
+            var6 = var4 == var8;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 5;
+            var6 = var11[var6];
+            var6 = var9.bind(var10)(var6);
+            var6 = var6.GUILD_POWERUP_TAG_SKU_ID;
+            var3 = var8[var6];
+case 4:
+            var6 = var4 != var3;
+            var _closure2_slot3 = var6;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
-            var2 = new Array(2);
-            var2[0] = var6;
-            var2[1] = var5;
+            var2 = new Array(3);
+            var2[0] = var7;
+            var2[1] = var6;
+            var2[2] = var5;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -96,7 +109,7 @@ case 0:
 case 7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 10;
                     var3 = var3[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
@@ -107,57 +120,73 @@ case 7:
                     return var1;
 case 6:
                     var1 = {};
-                    var5 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var4 = 4;
-                    var3 = var10[var4];
-                    var7 = undefined;
-                    var3 = var5.bind(var7)(var3);
-                    var12 = var3.intl;
+                    var6 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 6;
+                    var5 = var9[var7];
+                    var3 = undefined;
+                    var5 = var6.bind(var3)(var5);
+                    var12 = var5.intl;
                     var11 = var12.string;
-                    var9 = _closure1_slot1;
-                    var8 = 5;
-                    var3 = var10[var8];
-                    var3 = var9.bind(var7)(var3);
-                    var3 = var3.KC9HRW;
-                    var3 = var11.bind(var12)(var3);
-                    var1['title'] = var3;
-                    var3 = var10[var4];
-                    var3 = var5.bind(var7)(var3);
-                    var11 = var3.intl;
-                    var5 = var11.string;
-                    var3 = var10[var8];
-                    var3 = var9.bind(var7)(var3);
-                    var3 = var3.GJiSmP;
-                    var3 = var5.bind(var11)(var3);
-                    var1['description'] = var3;
-                    var3 = {};
-                    var5 = 6;
-                    var5 = var10[var5];
-                    var5 = var9.bind(var7)(var5);
-                    var3['staticUrl'] = var5;
-                    var5 = 7;
-                    var5 = var10[var5];
-                    var5 = var9.bind(var7)(var5);
-                    var3['animatedUrl'] = var5;
-                    var1['image'] = var3;
-                    var3 = _closure2_slot2;
-                    var2 = undefined;
-                    if(var3) { _fun0003_ip = 8; continue _fun0003 }
+                    var8 = _closure1_slot1;
+                    var10 = 7;
+                    var5 = var9[var10];
+                    var5 = var8.bind(var3)(var5);
+                    var5 = var5.KC9HRW;
+                    var5 = var11.bind(var12)(var5);
+                    var1['title'] = var5;
+                    var5 = var9[var7];
+                    var5 = var6.bind(var3)(var5);
+                    var11 = var5.intl;
+                    var6 = var11.string;
+                    var5 = var9[var10];
+                    var5 = var8.bind(var3)(var5);
+                    var5 = var5.GJiSmP;
+                    var5 = var6.bind(var11)(var5);
+                    var1['description'] = var5;
+                    var5 = {};
+                    var6 = 8;
+                    var6 = var9[var6];
+                    var6 = var8.bind(var3)(var6);
+                    var5['staticUrl'] = var6;
+                    var6 = 9;
+                    var6 = var9[var6];
+                    var6 = var8.bind(var3)(var6);
+                    var5['animatedUrl'] = var6;
+                    var1['image'] = var5;
+                    var6 = _closure2_slot3;
+                    var5 = undefined;
+                    if(var6) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var4 = var3[var4];
-                    var4 = var5.bind(var7)(var4);
-                    var5 = var4.intl;
-                    var4 = var5.string;
-                    var6 = _closure1_slot1;
-                    var3 = var3[var8];
-                    var3 = var6.bind(var7)(var3);
-                    var3 = var3.lvk1Gc;
-                    var2 = var4.bind(var5)(var3);
+                    var8 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var7 = var6[var7];
+                    var7 = var8.bind(var3)(var7);
+                    var8 = var7.intl;
+                    var7 = var8.string;
+                    var9 = _closure1_slot1;
+                    var6 = var6[var10];
+                    var6 = var9.bind(var3)(var6);
+                    var6 = var6.lvk1Gc;
+                    var5 = var7.bind(var8)(var6);
 case 8:
-                    var1['disabledReason'] = var2;
+                    var1['disabledReason'] = var5;
+                    var6 = _closure2_slot2;
+                    var5 = undefined;
+                    if(!var6) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                    var5 = 'new';
+case 10:
+                    var1['badge'] = var5;
+                    var5 = _closure2_slot2;
+                    var3 = undefined;
+                    if(!var5) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                    var3 = _closure1_slot5;
+case 12:
+                    var1['newPowerupSkuIdSet'] = var3;
+                    var2 = _closure2_slot2;
+                    var1['forceStaticImages'] = var2;
                     return var1;
                 }
             };

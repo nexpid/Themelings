@@ -45,36 +45,36 @@ case 0:
             var10 = var2.listing;
             var _closure2_slot1 = var10;
             var4 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 3;
-            var3 = var6[var3];
+            var3 = var7[var3];
             var5 = undefined;
             var3 = var4.bind(var5)(var3);
-            var9 = var3.bind(var5)(var11, var10);
-            var7 = _closure1_slot0;
+            var6 = var3.bind(var5)(var11, var10);
+            var8 = _closure1_slot0;
             var3 = 4;
-            var3 = var6[var3];
-            var12 = var7.bind(var5)(var3);
-            var8 = var12.useStateFromStores;
+            var3 = var7[var3];
+            var12 = var8.bind(var5)(var3);
+            var9 = var12.useStateFromStores;
             var3 = _closure1_slot4;
-            var7 = new Array(1);
-            var7[0] = var3;
+            var8 = new Array(1);
+            var8[0] = var3;
             var3 = function() {
                 var1 = _closure1_slot4;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var8 = var8.bind(var12)(var7, var3);
+            var9 = var9.bind(var12)(var8, var3);
             var3 = 5;
-            var3 = var6[var3];
+            var3 = var7[var3];
             var4 = var4.bind(var5)(var3);
             var3 = {};
             var3['guildId'] = var11;
-            var6 = var10.powerups;
-            var3['powerups'] = var6;
-            var7 = var4.bind(var5)(var3);
-            var6 = _closure1_slot3;
-            var4 = var6.useCallback;
+            var7 = var10.powerups;
+            var3['powerups'] = var7;
+            var8 = var4.bind(var5)(var3);
+            var7 = _closure1_slot3;
+            var4 = var7.useCallback;
             var3 = new Array(2);
             var3[0] = var11;
             var3[1] = var10;
@@ -93,13 +93,13 @@ case 0:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var6 = var4.bind(var6)(var1, var3);
+            var7 = var4.bind(var7)(var1, var3);
             var4 = null;
-            var3 = var4 == var7;
+            var3 = var4 == var8;
             var1 = null;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = var4 == var9;
+            var3 = var4 == var6;
             var1 = null;
             if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
@@ -110,26 +110,28 @@ case 4:
             var2 = var10[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var10 = var9.title;
+            var10 = var6.title;
             var2['title'] = var10;
-            var10 = var9.description;
+            var10 = var6.description;
             var2['description'] = var10;
-            var10 = var7.cost;
+            var10 = var8.cost;
             var2['cost'] = var10;
-            var9 = var9.image;
-            if(var8) { _fun0001_ip = 5; continue _fun0001 }
+            var10 = var6.image;
+            if(var9) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var8 = var9.animatedUrl;
+            var9 = var10.animatedUrl;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var8 = var9.staticUrl;
+            var9 = var10.staticUrl;
 case 7:
-            var2['imageUrl'] = var8;
-            var8 = var7.status;
-            var2['status'] = var8;
-            var7 = var7.costDecorator;
-            var2['costDecorator'] = var7;
-            var2['onPress'] = var6;
+            var2['imageUrl'] = var9;
+            var9 = var8.status;
+            var2['status'] = var9;
+            var8 = var8.costDecorator;
+            var2['costDecorator'] = var8;
+            var2['onPress'] = var7;
+            var6 = var6.badge;
+            var2['badge'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 2:
             return var1;

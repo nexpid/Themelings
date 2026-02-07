@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = 'GuildsRequiringChannelSync';
     var2['name'] = var7;
-    var7 = ['BACKGROUND_SYNC', 'CONNECTION_OPEN', 'GUILD_CREATE', 'CHANNEL_SYNC'];
+    var7 = ['BACKGROUND_SYNC', 'CONNECTION_OPEN', 'GUILD_CREATE', 'CHANNEL_SYNC', 'UNMARK_RESYNC_GUILDS'];
     var2['actions'] = var7;
     var7 = function require() {
         var3 = _closure1_slot0;

@@ -189,55 +189,19 @@ case 2:
 case 0:
                     var11 = arg1;
                     var8 = arg2;
-                    var _closure3_slot0 = var8;
                     var1 = _closure1_slot8;
                     var9 = undefined;
                     var5 = var1.bind(var9)();
                     var1 = {};
                     var10 = _closure1_slot6;
                     var3 = var10.PLAN_SELECT;
-                    var2 = {'title': '', 'headerLeft': null, 'headerMode': 'float', 'headerTransparent': true};
+                    var2 = {'title': '', 'headerShown': false};
                     var7 = '';
-                    var12 = var10.PLAN_SELECT;
-                    var10 = undefined;
-                    if(!(var11 === var12)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-                    var10 = function(arg1) {
-                        var4 = arg1;
-                        var2 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var1 = 6;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var5 = var2.bind(var3)(var1);
-                        var2 = var5.getHeaderCloseButton;
-                        var1 = _closure3_slot0;
-                        var2 = var2.bind(var5)(var1);
-                        var1 = {};
-                        var9 = var1;
-                        var8 = var4;
-                        var5 = copyDataProperties(var9, var8);
-                        var4 = var4.labelStyle;
-                        var6 = new Array(2);
-                        var6[0] = var4;
-                        var4 = {};
-                        var5 = 'white';
-                        var4['color'] = var5;
-                        var6[1] = var4;
-                        var4 = 'labelStyle';
-                        var1[var4] = var6;
-                        var4 = 'tintColor';
-                        var1[var4] = var5;
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-case 7:
-                    var2['headerLeft'] = var10;
-                    var10 = function render() {
+                    var12 = function render() {
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 7;
+                        var1 = 6;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -245,32 +209,31 @@ case 7:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-                    var2['render'] = var10;
+                    var2['render'] = var12;
                     var1[var3] = var2;
-                    var10 = _closure1_slot6;
                     var3 = var10.REWARD_SELECT;
                     var2 = {};
                     var2['title'] = var7;
                     var10 = var10.REWARD_SELECT;
-                    if(!(var11 !== var10)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                    if(!(var11 !== var10)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var10 = 6;
+                    var10 = 7;
                     var10 = var13[var10];
                     var12 = var12.bind(var9)(var10);
                     var10 = var12.getHeaderBackButton;
                     var10 = var10.bind(var12)();
-                    _fun0002_ip = 11; continue _fun0002;
-case 9:
+                    _fun0002_ip = 9; continue _fun0002;
+case 7:
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var12 = 6;
+                    var12 = 7;
                     var12 = var14[var12];
                     var13 = var13.bind(var9)(var12);
                     var12 = var13.getHeaderCloseButton;
                     var10 = var12.bind(var13)(var8);
-case 11:
+case 9:
                     var2['headerLeft'] = var10;
                     var10 = var5.header;
                     var2['headerStyle'] = var10;
@@ -302,25 +265,25 @@ case 11:
                     var2 = {};
                     var2['title'] = var7;
                     var10 = var10.CUSTOMIZATION;
-                    if(!(var11 !== var10)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(!(var11 !== var10)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var10 = 6;
+                    var10 = 7;
                     var10 = var12[var10];
                     var11 = var11.bind(var9)(var10);
                     var10 = var11.getHeaderBackButton;
                     var10 = var10.bind(var11)();
-                    _fun0002_ip = 14; continue _fun0002;
-case 12:
+                    _fun0002_ip = 12; continue _fun0002;
+case 10:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var11 = 6;
+                    var11 = 7;
                     var11 = var13[var11];
                     var12 = var12.bind(var9)(var11);
                     var11 = var12.getHeaderCloseButton;
                     var10 = var11.bind(var12)(var8);
-case 14:
+case 12:
                     var2['headerLeft'] = var10;
                     var10 = var5.header;
                     var2['headerStyle'] = var10;
@@ -344,7 +307,7 @@ case 14:
                     var2['title'] = var7;
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var6 = 6;
+                    var6 = 7;
                     var6 = var10[var6];
                     var7 = var7.bind(var9)(var6);
                     var6 = var7.getHeaderCloseButton;
@@ -420,8 +383,8 @@ case 14:
 case 0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                    if(!(var2 != var1)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var2 = var1.routes;
                     var1 = var1.index;
                     var1 = var2[var1];
@@ -431,7 +394,7 @@ case 16:
                     var2 = var1[var2];
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 15:
+case 13:
                     var1 = undefined;
                     return var1;
                 }

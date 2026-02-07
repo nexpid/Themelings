@@ -498,8 +498,10 @@ case 27:
                 var1['tenantMetadata'] = var3;
                 var3 = var2.thumbnailAssetId;
                 var1['thumbnailAssetId'] = var3;
-                var2 = var2.description;
-                var1['description'] = var2;
+                var3 = var2.description;
+                var1['description'] = var3;
+                var2 = var2.orbsReward;
+                var1['orbsReward'] = var2;
                 return var1;
             }
         };
@@ -1135,8 +1137,10 @@ case 93:
                 var1['tenantMetadata'] = var4;
                 var4 = var2.thumbnail_asset_id;
                 var1['thumbnailAssetId'] = var4;
-                var2 = var2.description;
-                var1['description'] = var2;
+                var4 = var2.description;
+                var1['description'] = var4;
+                var2 = var2.orbs_reward;
+                var1['orbsReward'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;

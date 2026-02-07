@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var10 = true;
-    var2['value'] = var10;
+    var13 = true;
+    var2['value'] = var13;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var25 = ['url', 'autolink', 'link', 'mailto', 'tel'];
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5[var20];
     var9 = var21.bind(var1)(var4);
     var4 = {};
-    var4['enableBuildOverrides'] = var10;
+    var4['enableBuildOverrides'] = var13;
     var9 = var9.bind(var1)(var4);
     var4 = new Array(1);
     var4[0] = var9;
@@ -63,9 +63,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7.RULES;
     var7 = var5[var20];
     var7 = var21.bind(var1)(var7);
-    var13 = var7.bind(var1)(var19);
+    var15 = var7.bind(var1)(var19);
     var7 = new Array(1);
-    var7[0] = var13;
+    var7[0] = var15;
     var7 = var22.bind(var1)(var11, var7);
     var26 = 'paragraph';
     var24 = 'newline';
@@ -79,8 +79,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var31 = var7;
     var30 = var19;
     var11 = copyDataProperties(var31, var30);
-    var13 = 'bottom';
+    var16 = 'bottom';
     var11 = 'emojiTooltipPosition';
+    var7[var11] = var16;
+    var11 = 'shouldCloseDefaultModals';
+    var7[var11] = var13;
+    var11 = 'shouldStopPropagation';
     var7[var11] = var13;
     var10 = var10.bind(var1)(var7);
     var7 = new Array(2);

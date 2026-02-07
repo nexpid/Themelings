@@ -107,8 +107,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['RtcPanel'] = var4;
     var4 = 'friends_activity_feed';
     var5['FriendsActivityFeed'] = var4;
-    var4 = 'guild_profile';
-    var5['GuildProfile'] = var4;
     var4 = 'mini_game_profile';
     var5['MiniGameProfile'] = var4;
     var4 = 'game_mention';

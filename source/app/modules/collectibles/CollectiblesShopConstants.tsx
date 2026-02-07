@@ -81,6 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19['NAMEPLATES'] = var6;
     var6 = 'bundles';
     var19['BUNDLES'] = var6;
+    var6 = 'layout';
+    var19['LAYOUT'] = var6;
     var _closure1_slot0 = var19;
     var6 = var19.AVATAR_DECORATIONS;
     var18 = new Array(4);

@@ -5353,13 +5353,13 @@ case 0:
                 var4 = this;
                 var3 = _closure1_slot9;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0126_ip = 64; continue _fun0126 }
+                if(!(var2 == var3)) { _fun0126_ip = 244; continue _fun0126 }
 case 253:
                 var5 = [0, 0, 0];
-                _fun0126_ip = 33; continue _fun0126;
-case 64:
+                _fun0126_ip = 130; continue _fun0126;
+case 244:
                 var5 = _closure1_slot9;
-case 33:
+case 130:
                 var3 = new Array(0);
                 var8 = 0;
                 var14 = var3;
@@ -5371,24 +5371,24 @@ case 33:
                 var5 = var2 == var11;
                 var7 = undefined;
                 var10 = undefined;
-                if(var5) { _fun0126_ip = 68; continue _fun0126 }
-case 229:
+                if(var5) { _fun0126_ip = 134; continue _fun0126 }
+case 161:
                 var5 = arg1;
                 var10 = var11[var5];
-case 68:
+case 134:
                 var11 = var2 != var10;
                 var5 = 0;
-                if(!var11) { _fun0126_ip = 135; continue _fun0126 }
-case 136:
+                if(!var11) { _fun0126_ip = 11; continue _fun0126 }
+case 112:
                 var5 = var10;
-case 135:
+case 11:
                 var5 = var6.bind(var3)(var5);
                 var4 = var4.releaseChannel;
                 var6 = var1[var4];
-                if(!(var2 == var6)) { _fun0126_ip = 220; continue _fun0126 }
-case 243:
+                if(!(var2 == var6)) { _fun0126_ip = 100; continue _fun0126 }
+case 221:
                 var6 = var1.stable;
-case 220:
+case 100:
                 var2 = _closure1_slot22;
                 var1 = var3.entries;
                 var1 = var1.bind(var3)();
@@ -5398,28 +5398,28 @@ case 220:
                 var4 = 2;
                 var3 = 1;
                 if(var1) { _fun0126_ip = 254; continue _fun0126 }
-case 142:
+case 15:
                 var10 = var2.value;
                 var1 = _closure1_slot3;
                 var10 = var1.bind(var7)(var10, var4);
                 var1 = var10[var8];
                 var10 = var10[var3];
                 var11 = var6[var1];
-                if(!(!(var10 > var11))) { _fun0126_ip = 144; continue _fun0126 }
-case 19:
+                if(!(!(var10 > var11))) { _fun0126_ip = 255; continue _fun0126 }
+case 39:
                 var1 = var6[var1];
-                if(!(!(var10 < var1))) { _fun0126_ip = 255; continue _fun0126 }
-case 20:
+                if(!(!(var10 < var1))) { _fun0126_ip = 159; continue _fun0126 }
+case 256:
                 var10 = var5.bind(var7)();
                 var1 = var10.done;
                 var2 = var10;
                 if(var1) { _fun0126_ip = 254; continue _fun0126 }
-case 77:
-                _fun0126_ip = 142; continue _fun0126;
-case 255:
+case 257:
+                _fun0126_ip = 15; continue _fun0126;
+case 159:
                 var1 = false;
                 return var1;
-case 144:
+case 255:
                 var1 = true;
                 return var1;
 case 254:
@@ -5461,15 +5461,15 @@ case 11:
                 var3 = _closure1_slot6;
                 var4 = var3.riotGames;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0127_ip = 256; continue _fun0127 }
-case 257:
+                if(!(var3 != var4)) { _fun0127_ip = 258; continue _fun0127 }
+case 259:
                 var2 = _closure1_slot6;
                 var4 = var2.riotGames;
                 var3 = var4.fetchLiveClientData;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2, var5);
-                _fun0127_ip = 258; continue _fun0127;
-case 256:
+                _fun0127_ip = 260; continue _fun0127;
+case 258:
                 var3 = global;
                 var5 = var3.Promise;
                 var4 = var5.reject;
@@ -5481,7 +5481,7 @@ case 256:
                 var3 = new var10[var7](var9, var8);
                 var3 = var3 instanceof Object ? var3 : var6;
                 var2 = var4.bind(var5)(var3);
-case 258:
+case 260:
                 var1 = var2;
 case 20:
                 return var1;

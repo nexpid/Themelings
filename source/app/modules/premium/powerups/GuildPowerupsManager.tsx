@@ -109,7 +109,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.FAVORITES_RAW_GUILD_ID;
     var _closure1_slot15 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -230,8 +230,18 @@ case 13:
                 var2['guildId'] = var12;
                 var2['location'] = var11;
                 var2 = var5.bind(var10)(var2);
-                var5 = _closure1_slot1;
                 var2 = 15;
+                var2 = var8[var2];
+                var2 = var7.bind(var4)(var2);
+                var10 = var2.GuildTagBadgePacksWaveTwoExperiment;
+                var5 = var10.trackExposure;
+                var2 = {};
+                var12 = var9.id;
+                var2['guildId'] = var12;
+                var2['location'] = var11;
+                var2 = var5.bind(var10)(var2);
+                var5 = _closure1_slot1;
+                var2 = 16;
                 var2 = var8[var2];
                 var10 = var5.bind(var4)(var2);
                 var5 = var10.getConfig;
@@ -239,7 +249,7 @@ case 13:
                 var2['location'] = var11;
                 var2 = var5.bind(var10)(var2);
                 var2 = var2.enabled;
-                var5 = 16;
+                var5 = 17;
                 var5 = var8[var5];
                 var8 = var7.bind(var4)(var5);
                 var7 = var8.getHasAllocateBoostPermission;
@@ -269,7 +279,7 @@ case 18:
 case 21:
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var5 = 17;
+                var5 = 18;
                 var5 = var9[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = var6.getIsEligibleForPowerupUpsells;
@@ -277,7 +287,7 @@ case 21:
 case 20:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var5 = 18;
+                var5 = 19;
                 var5 = var7[var5];
                 var5 = var6.bind(var4)(var5);
                 var5 = var5.isMobile;
@@ -294,7 +304,7 @@ case 14:
 case 25:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var2 = var6[var2];
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.fetchPowerupCatalogForGuild;
@@ -307,7 +317,7 @@ case 24:
 case 26:
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 19;
+                var1 = 20;
                 var1 = var5[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.fetchGuildBoostEntitlements;
@@ -357,7 +367,7 @@ case 0:
                 var4 = arg1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 16;
+                var1 = 17;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
@@ -372,12 +382,12 @@ case 0:
 case 27:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 19;
+                var2 = 20;
                 var2 = var5[var2];
                 var6 = var3.bind(var1)(var2);
                 var2 = var6.fetchGuildBoostEntitlements;
                 var2 = var2.bind(var6)(var4);
-                var2 = 20;
+                var2 = 21;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
@@ -397,7 +407,7 @@ case 8:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

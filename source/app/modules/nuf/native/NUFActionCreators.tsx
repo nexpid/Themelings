@@ -33,12 +33,12 @@ case 5:
 case 4:
                     var9 = _closure1_slot8;
                     var7 = var9.getLocalAccount;
-                    var6 = _closure1_slot12;
+                    var6 = _closure1_slot11;
                     var6 = var6.CONTACTS;
                     var10 = var7.bind(var9)(var6);
                     var9 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var6 = 17;
+                    var6 = 15;
                     var7 = var7[var6];
                     var9 = var9.bind(var4)(var7);
                     var7 = var9.isContactSyncEnabled;
@@ -49,7 +49,7 @@ case 7:
                     var2 = var2.bind(var4)(var8);
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var2 = 18;
+                    var2 = 16;
                     var2 = var7[var2];
                     var7 = var5.bind(var4)(var2);
                     var5 = var7.updateContactSyncEnabled;
@@ -101,7 +101,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot14 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -109,7 +109,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -145,21 +145,19 @@ case 2:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.NUF_DISCOVERABILITY_MODAL_KEY;
-    var _closure1_slot10 = var7;
-    var4 = var4.NUF_IN_APP_EDUCATION_KEY;
-    var _closure1_slot11 = var4;
+    var4 = var4.NUF_DISCOVERABILITY_MODAL_KEY;
+    var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.PlatformTypes;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.IN_APP_GUILD_TEMPLATES_MODAL_KEY;
-    var _closure1_slot13 = var4;
-    var4 = 19;
+    var _closure1_slot12 = var4;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -275,7 +273,7 @@ case 20:
             return var1;
         };
         var4 = var4.bind(var1)(var3);
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot12;
         var2 = {};
         var2 = var5.bind(var6)(var4, var2, var3);
         return var1;
@@ -398,28 +396,6 @@ case 30:
         return var1;
     };
     var3['openDiscoverabilityModal'] = var4;
-    var4 = function openInAppEducationActionSheet() {
-        var5 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 15;
-        var4 = var3[var1];
-        var1 = undefined;
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
-        var7 = _closure1_slot0;
-        var4 = 10;
-        var4 = var3[var4];
-        var7 = var7.bind(var1)(var4);
-        var4 = 16;
-        var4 = var3[var4];
-        var3 = var3.paths;
-        var4 = var7.bind(var1)(var4, var3);
-        var3 = _closure1_slot11;
-        var2 = {};
-        var2 = var5.bind(var6)(var4, var3, var2);
-        return var1;
-    };
-    var3['openInAppEducationActionSheet'] = var4;
     var4 = function closeDiscoverabilityModal(arg1) {
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
@@ -445,7 +421,7 @@ case 30:
     var3['closeDiscoverabilityModal'] = var4;
     var4 = function startContactSyncForDiscoverability() {
         var1 = undefined;
-        var4 = _closure1_slot14;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

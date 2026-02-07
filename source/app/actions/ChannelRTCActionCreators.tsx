@@ -167,25 +167,6 @@ case 2:
         return var1;
     };
     var2['toggleParticipants'] = var7;
-    var7 = function toggleParticipantsList(arg1, arg2) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'CHANNEL_RTC_UPDATE_PARTCIPANTS_LIST_OPEN';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['channelId'] = var5;
-        var5 = arg2;
-        var2['participantsListOpen'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var2['toggleParticipantsList'] = var7;
     var7 = function toggleVoiceParticipantsHidden(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

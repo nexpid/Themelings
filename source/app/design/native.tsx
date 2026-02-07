@@ -737,10 +737,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.bind(var1)(var9);
     var9 = var9.TableRadioGroup;
     var3['TableRadioGroup'] = var9;
+    var9 = var5[var8];
+    var9 = var4.bind(var1)(var9);
+    var9 = var9.TableRadioGroupProps;
+    var3['TableRadioGroupProps'] = var9;
     var8 = var5[var8];
     var8 = var4.bind(var1)(var8);
-    var8 = var8.TableRadioGroupProps;
-    var3['TableRadioGroupProps'] = var8;
+    var8 = var8.TableRadioGroupRef;
+    var3['TableRadioGroupRef'] = var8;
     var8 = 75;
     var8 = var5[var8];
     var8 = var4.bind(var1)(var8);

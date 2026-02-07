@@ -126,8 +126,10 @@ case 8:
                 var1['subscriptionPeriodStart'] = var3;
                 var3 = var2.subscriptionPeriodEnd;
                 var1['subscriptionPeriodEnd'] = var3;
-                var2 = var2.status;
-                var1['status'] = var2;
+                var3 = var2.status;
+                var1['status'] = var3;
+                var2 = var2.orbsReward;
+                var1['orbsReward'] = var2;
                 return var1;
             }
         };
@@ -262,8 +264,10 @@ case 15:
                 var4 = new var12[var6](var11, var10);
                 var4 = var4 instanceof Object ? var4 : var5;
                 var1['subscriptionPeriodEnd'] = var4;
-                var2 = var2.status;
-                var1['status'] = var2;
+                var4 = var2.status;
+                var1['status'] = var4;
+                var2 = var2.orbs_reward;
+                var1['orbsReward'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;

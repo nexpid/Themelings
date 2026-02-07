@@ -534,6 +534,11 @@ case 48:
             var9 = 22;
             var9 = var31[var9];
             var12 = var27.bind(var7)(var9);
+            var9 = var12.useCurrentUserWishlist;
+            var9 = var9.bind(var12)();
+            var9 = 23;
+            var9 = var31[var9];
+            var12 = var27.bind(var7)(var9);
             var9 = var12.usePurchasedCategoriesSort;
             var28 = var9.bind(var12)(var6);
             var9 = var31[var3];
@@ -545,7 +550,7 @@ case 48:
             var9 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 23;
+                var2 = 24;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -571,16 +576,16 @@ case 48:
                 return var1;
             };
             var23 = var12.bind(var14)(var9, var3);
-            var3 = 23;
+            var3 = 24;
             var3 = var31[var3];
             var9 = var27.bind(var7)(var3);
             var3 = var9.useThemeContext;
             var3 = var3.bind(var9)();
             var14 = var3.theme;
-            var3 = 24;
+            var3 = 25;
             var9 = var31[var3];
             var12 = var19.bind(var7)(var9);
-            var9 = 25;
+            var9 = 26;
             var9 = var31[var9];
             var9 = var19.bind(var7)(var9);
             var20 = var9.COLLECTIBLES_SHOP;
@@ -589,19 +594,19 @@ case 48:
             var9 = var12.bind(var7)(var9);
             var9 = var9.analyticsLocations;
             _closure2_slot9 = var9;
-            var12 = 26;
+            var12 = 27;
             var12 = var31[var12];
             var20 = var19.bind(var7)(var12);
             var12 = {};
             var12['onClose'] = var22;
             var12['currentScreen'] = var18;
             var12 = var20.bind(var7)(var12);
-            var12 = 27;
+            var12 = 28;
             var12 = var31[var12];
             var12 = var19.bind(var7)(var12);
             var12 = var12.bind(var7)();
             var20 = var12.top;
-            var29 = 28;
+            var29 = 29;
             var12 = var31[var29];
             var22 = var27.bind(var7)(var12);
             var19 = var22.filterHiddenCategories;
@@ -637,12 +642,12 @@ case 54:
             var19 = var12 - var5;
             var22 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var12 = 29;
+            var12 = 30;
             var12 = var27[var12];
             var12 = var22.bind(var7)(var12);
             var12 = var12.COLLECTIBLES_STORE_LISTING_CACHE_DURATION;
             var19 = var19 > var12;
-            var12 = 30;
+            var12 = 31;
             var12 = var27[var12];
             var27 = var22.bind(var7)(var12);
             var22 = var27.useCollectiblesShopDeepLinkProps;
@@ -692,7 +697,7 @@ case 61:
 case 7:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 31;
+                    var1 = 32;
                     var2 = var2[var1];
                     var1 = undefined;
                     var7 = var3.bind(var1)(var2);
@@ -715,7 +720,7 @@ case 62:
                     var2 = var4.bind(var7)(var3, var2);
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var7 = 32;
+                    var7 = 33;
                     var2 = var10[var7];
                     var4 = var9.bind(var1)(var2);
                     var3 = var4.trackShopPerf;
@@ -758,7 +763,7 @@ case 0:
 case 67:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 33;
+                    var2 = 34;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
@@ -821,7 +826,7 @@ case 84:
 case 87:
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 34;
+            var5 = 35;
             var5 = var10[var5];
             var10 = var6.bind(var7)(var5);
             var6 = var10.captureMessage;
@@ -832,7 +837,7 @@ case 86:
 case 89:
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 34;
+            var5 = 35;
             var5 = var10[var5];
             var10 = var6.bind(var7)(var5);
             var6 = var10.captureMessage;
@@ -849,7 +854,7 @@ case 88:
             var3 = {};
             var3['value'] = var9;
             var11 = _closure1_slot17;
-            var9 = 35;
+            var9 = 36;
             var9 = var17[var9];
             var9 = var16.bind(var7)(var9);
             var10 = var9.CollectiblesAnalyticsProvider;
@@ -858,7 +863,7 @@ case 88:
             var12['sessionId'] = var13;
             var9['newValue'] = var12;
             var13 = _closure1_slot1;
-            var12 = 36;
+            var12 = 37;
             var12 = var17[var12];
             var13 = var13.bind(var7)(var12);
             var12 = {};
@@ -889,7 +894,7 @@ case 88:
             var19 = 'paddingTop';
             var15[var19] = var20;
             var13['style'] = var15;
-            var15 = 37;
+            var15 = 38;
             var15 = var17[var15];
             var15 = var16.bind(var7)(var15);
             var16 = var15.NativePaymentContextProvider;
@@ -908,7 +913,7 @@ case 93:
             var19 = _closure1_slot16;
             var18 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var17 = 38;
+            var17 = 39;
             var17 = var20[var17];
             var18 = var18.bind(var7)(var17);
             var17 = {};
@@ -939,7 +944,7 @@ case 97:
                     var7[var3] = var2;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var7 = 32;
+                    var7 = 33;
                     var1 = var10[var7];
                     var8 = undefined;
                     var3 = var9.bind(var8)(var1);
@@ -963,7 +968,7 @@ case 96:
                     var4 = _closure1_slot16;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 41;
+                    var1 = 42;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -988,7 +993,7 @@ case 92:
             var20 = _closure1_slot16;
             var19 = _closure1_slot1;
             var26 = _closure1_slot2;
-            var18 = 40;
+            var18 = 41;
             var18 = var26[var18];
             var19 = var19.bind(var7)(var18);
             var18 = {};
@@ -1018,7 +1023,7 @@ case 103:
                     var6[var3] = var2;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 32;
+                    var6 = 33;
                     var1 = var9[var6];
                     var7 = undefined;
                     var3 = var8.bind(var7)(var1);
@@ -1051,7 +1056,7 @@ case 90:
             var20 = _closure1_slot16;
             var19 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var18 = 38;
+            var18 = 39;
             var18 = var24[var18];
             var19 = var19.bind(var7)(var18);
             var18 = {};
@@ -1082,7 +1087,7 @@ case 97:
                     var8[var3] = var2;
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var8 = 32;
+                    var8 = 33;
                     var1 = var11[var8];
                     var9 = undefined;
                     var3 = var10.bind(var9)(var1);
@@ -1106,7 +1111,7 @@ case 96:
                     var4 = _closure1_slot16;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 39;
+                    var1 = 40;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -1138,7 +1143,7 @@ case 104:
             var15 = _closure1_slot16;
             var14 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var13 = 42;
+            var13 = 43;
             var13 = var16[var13];
             var14 = var14.bind(var7)(var13);
             var13 = {};
@@ -1285,7 +1290,7 @@ case 114:
 case 117:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 43;
+            var10 = 44;
             var10 = var13[var10];
             var10 = var12.bind(var5)(var10);
             var10 = var10.isStable;
@@ -1319,7 +1324,7 @@ case 125:
 case 128:
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 34;
+            var4 = 35;
             var4 = var11[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.captureMessage;
@@ -1330,7 +1335,7 @@ case 128:
             var10 = var3.bind(var10)();
             var3 = 'collectibles mobile shop failed to connect to native payments isIOS: ';
             var10 = var3 + var10;
-            var3 = 43;
+            var3 = 44;
             var3 = var11[var3];
             var3 = var9.bind(var5)(var3);
             var9 = var3.isStable;
@@ -1355,7 +1360,7 @@ case 124:
             return var1;
         }
     };
-    var4 = 44;
+    var4 = 45;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

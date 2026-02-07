@@ -99,8 +99,8 @@ case 0:
             var7 = var1.bind(var5)();
             var3 = 'function';
             var1 = typeof var6;
-            if(!(var3 !== var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 15:
+            if(!(var3 !== var1)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -114,8 +114,8 @@ case 15:
             var1['style'] = var8;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 16; continue _fun0002;
-case 8:
+            _fun0002_ip = 17; continue _fun0002;
+case 15:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -124,7 +124,7 @@ case 8:
             var6 = var6.bind(var5)();
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 16:
+case 17:
             return var1;
         }
     };
@@ -250,10 +250,10 @@ case 0:
             var5 = new Array(3);
             var5[0] = var8;
             var8 = null;
-            if(!var16) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+            if(!var16) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var8 = var15.multilineContainer;
-case 17:
+case 18:
             var5[1] = var8;
             var5[2] = var7;
             var1['style'] = var5;

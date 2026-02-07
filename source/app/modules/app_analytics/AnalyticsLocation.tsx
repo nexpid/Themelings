@@ -268,6 +268,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_BOOST_UNCANCELLATION_MODAL'] = var1;
     var1 = 'guild boosting progress bar';
     var2['GUILD_BOOSTING_PROGRESS_BAR'] = var1;
+    var1 = 'guild boosting progress bar admin coachmark';
+    var2['GUILD_BOOSTING_PROGRESS_BAR_ADMIN_COACHMARK'] = var1;
+    var1 = 'guild boosting progress bar member coachmark';
+    var2['GUILD_BOOSTING_PROGRESS_BAR_MEMBER_COACHMARK'] = var1;
     var1 = 'guild boosting tier none';
     var2['GUILD_BOOSTING_TIER_NONE'] = var1;
     var1 = 'guild boosting tier 1';

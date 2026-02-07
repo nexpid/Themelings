@@ -1202,6 +1202,16 @@ case 48:
             return var1;
         };
         var2['COLLECTIBLES_SHOP_PRODUCT_DETAIL'] = var15;
+        var15 = function COLLECTIBLES_SHOP_LAYOUT(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '/shop/layout/';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
+        };
+        var2['COLLECTIBLES_SHOP_LAYOUT'] = var15;
         var2['NITRO_HOME'] = var14;
         var14 = '/account-standing';
         var2['ACCOUNT_STANDING'] = var14;

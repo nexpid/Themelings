@@ -127,8 +127,6 @@ case 4:
     var9['ACCEPT_INVITE'] = var4;
     var4 = 'Discoverability';
     var9['DISCOVERABILITY'] = var4;
-    var4 = 'In App Education';
-    var9['IN_APP_EDUCATION'] = var4;
     var10 = {};
     var4 = var9.ADD_AVATAR;
     var10['key'] = var4;
@@ -195,7 +193,7 @@ case 10:
     var4 = var5.bind(var1)(var4);
     var4 = var4.openContactSyncModalOnboarding;
     var8['transitionToStep'] = var4;
-    var4 = new Array(7);
+    var4 = new Array(6);
     var4[0] = var10;
     var10 = {};
     var11 = var9.DISCOVERABILITY;
@@ -302,14 +300,14 @@ case 14:
     var8['transitionToStep'] = var10;
     var4[4] = var8;
     var8 = {};
-    var10 = var9.ACCEPT_INVITE;
-    var8['key'] = var10;
-    var10 = 17;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.hasDeferredInvite;
-    var8['shouldShowStep'] = var10;
-    var10 = function transitionToStep() {
+    var9 = var9.ACCEPT_INVITE;
+    var8['key'] = var9;
+    var9 = 17;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.hasDeferredInvite;
+    var8['shouldShowStep'] = var9;
+    var9 = function transitionToStep() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 18;
@@ -323,54 +321,10 @@ case 14:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var8['transitionToStep'] = var10;
-    var4[5] = var8;
-    var8 = {};
-    var9 = var9.IN_APP_EDUCATION;
-    var8['key'] = var9;
-    var9 = function shouldShowStep() {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var1 = 19;
-        var5 = var4[var1];
-        var2 = undefined;
-        var5 = var3.bind(var2)(var5);
-        var7 = var5.IOSInAppEducationExperiment;
-        var6 = var7.trackExposure;
-        var5 = {};
-        var8 = 'NUF';
-        var5['location'] = var8;
-        var5 = var6.bind(var7)(var5);
-        var1 = var4[var1];
-        var1 = var3.bind(var2)(var1);
-        var4 = var1.IOSInAppEducationExperiment;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = '900c10_3';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = false;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.enabled;
-        return var1;
-    };
-    var8['shouldShowStep'] = var9;
-    var9 = function transitionToStep() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 15;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.openInAppEducationActionSheet;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
     var8['transitionToStep'] = var9;
-    var4[6] = var8;
+    var4[5] = var8;
     var _closure1_slot16 = var4;
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -500,7 +454,7 @@ case 38:
 case 37:
                                 var12 = _closure1_slot0;
                                 var13 = _closure1_slot2;
-                                var11 = 20;
+                                var11 = 19;
                                 var11 = var13[var11];
                                 var15 = var12.bind(var4)(var11);
                                 var14 = var15.trackNUFStep;
@@ -534,7 +488,7 @@ case 35:
 case 31:
                                 var6 = _closure1_slot0;
                                 var9 = _closure1_slot2;
-                                var10 = 20;
+                                var10 = 19;
                                 var10 = var9[var10];
                                 var13 = var6.bind(var4)(var10);
                                 var12 = var13.trackNUFStep;
@@ -544,7 +498,7 @@ case 31:
                                 var10['skip_attempt'] = var5;
                                 var5 = 'NUF Complete';
                                 var5 = var12.bind(var13)(var11, var5, var10);
-                                var5 = 21;
+                                var5 = 20;
                                 var5 = var9[var5];
                                 var6 = var6.bind(var4)(var5);
                                 var5 = var6.setNewUserFlowCompleted;
@@ -580,7 +534,7 @@ case 46:
                                 var3 = var3.transitionToStep;
                                 var7 = _closure1_slot0;
                                 var8 = _closure1_slot2;
-                                var6 = 20;
+                                var6 = 19;
                                 var6 = var8[var6];
                                 var8 = var7.bind(var4)(var6);
                                 var7 = var8.trackNUFStep;
@@ -636,7 +590,7 @@ case 20:
     var15 = var4;
     var2 = new var15[var2](var14);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 23;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

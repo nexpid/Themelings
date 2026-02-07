@@ -845,22 +845,22 @@ case 0:
             var6 = _closure1_slot7;
             var1 = var6.getId;
             var1 = var1.bind(var6)();
-            if(!(var1 === var3)) { _fun0015_ip = 32; continue _fun0015 }
+            if(!(var1 === var3)) { _fun0015_ip = 46; continue _fun0015 }
 case 39:
             var1 = {};
             var7 = _closure1_slot12;
             var8 = var1;
             var3 = copyDataProperties(var8, var7);
             var3 = 'ineligible';
-            if(!var5) { _fun0015_ip = 22; continue _fun0015 }
-case 6:
+            if(!var5) { _fun0015_ip = 29; continue _fun0015 }
+case 10:
             var3 = 'eligible';
-case 22:
+case 29:
             var1[var4] = var3;
             _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
-case 32:
+case 46:
             var1 = false;
             return var1;
         }

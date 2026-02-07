@@ -271,7 +271,7 @@ case 27:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(30);
+        var1 = new Array(29);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -488,30 +488,6 @@ case 40:
         var5['get'] = var7;
         var1[11] = var5;
         var5 = {};
-        var7 = 'callParticipantsSidebarWidth';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
-case 0:
-                var1 = _closure1_slot17;
-                var1 = var1.callParticipantsSidebarWidth;
-                var3 = null;
-                if(!(var3 == var1)) { _fun0014_ip = 42; continue _fun0014 }
-case 39:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 11;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var4.bind(var2)(var3);
-                var1 = var2.DEFAULT_PARTICIPANTS_SIDEBAR_WIDTH;
-case 42:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[12] = var5;
-        var5 = {};
         var7 = 'callHeaderHeight';
         var5['key'] = var7;
         var7 = function get() {
@@ -520,17 +496,17 @@ case 42:
             return var1;
         };
         var5['get'] = var7;
-        var1[13] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'useSystemTheme';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.useSystemTheme;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0015_ip = 35; continue _fun0015 }
+                if(!(var3 == var1)) { _fun0014_ip = 35; continue _fun0014 }
 case 34:
                 var2 = _closure1_slot8;
                 var1 = var2.UNSET;
@@ -539,7 +515,7 @@ case 35:
             }
         };
         var5['get'] = var7;
-        var1[14] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'activityPanelHeight';
         var5['key'] = var7;
@@ -549,18 +525,18 @@ case 35:
             return var1;
         };
         var5['get'] = var7;
-        var1[15] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'disableVoiceChannelChangeAlert';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var2 = var1.disableVoiceChannelChangeAlert;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0016_ip = 31; continue _fun0016 }
+                if(!var1) { _fun0015_ip = 31; continue _fun0015 }
 case 32:
                 var1 = var2;
 case 31:
@@ -568,15 +544,34 @@ case 31:
             }
         };
         var5['get'] = var7;
-        var1[16] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'disableEmbeddedActivityPopOutAlert';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                var1 = _closure1_slot17;
+                var2 = var1.disableEmbeddedActivityPopOutAlert;
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0016_ip = 29; continue _fun0016 }
+case 30:
+                var1 = var2;
+case 29:
+                return var1;
+            }
+        };
+        var5['get'] = var7;
+        var1[16] = var5;
+        var5 = {};
+        var7 = 'disableActivityHardwareAccelerationPrompt';
         var5['key'] = var7;
         var7 = function get() {
             _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableEmbeddedActivityPopOutAlert;
+                var2 = var1.disableActivityHardwareAccelerationPrompt;
                 var1 = null;
                 var1 = var1 != var2;
                 if(!var1) { _fun0017_ip = 29; continue _fun0017 }
@@ -589,13 +584,13 @@ case 29:
         var5['get'] = var7;
         var1[17] = var5;
         var5 = {};
-        var7 = 'disableActivityHardwareAccelerationPrompt';
+        var7 = 'disableInviteWithTextChannelActivityLaunch';
         var5['key'] = var7;
         var7 = function get() {
             _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableActivityHardwareAccelerationPrompt;
+                var2 = var1.disableInviteWithTextChannelActivityLaunch;
                 var1 = null;
                 var1 = var1 != var2;
                 if(!var1) { _fun0018_ip = 29; continue _fun0018 }
@@ -608,35 +603,16 @@ case 29:
         var5['get'] = var7;
         var1[18] = var5;
         var5 = {};
-        var7 = 'disableInviteWithTextChannelActivityLaunch';
+        var7 = 'disableHideSelfStreamAndVideoConfirmationAlert';
         var5['key'] = var7;
         var7 = function get() {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableInviteWithTextChannelActivityLaunch;
-                var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0019_ip = 29; continue _fun0019 }
-case 30:
-                var1 = var2;
-case 29:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[19] = var5;
-        var5 = {};
-        var7 = 'disableHideSelfStreamAndVideoConfirmationAlert';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
-case 0:
-                var1 = _closure1_slot17;
                 var2 = var1.disableHideSelfStreamAndVideoConfirmationAlert;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0020_ip = 31; continue _fun0020 }
+                if(!var1) { _fun0019_ip = 31; continue _fun0019 }
 case 32:
                 var1 = var2;
 case 31:
@@ -644,15 +620,34 @@ case 31:
             }
         };
         var5['get'] = var7;
-        var1[20] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'pushUpsellUserSettingsDismissed';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+case 0:
+                var1 = _closure1_slot17;
+                var2 = var1.pushUpsellDismissed;
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0020_ip = 29; continue _fun0020 }
+case 30:
+                var1 = var2;
+case 29:
+                return var1;
+            }
+        };
+        var5['get'] = var7;
+        var1[20] = var5;
+        var5 = {};
+        var7 = 'disableActivityHostLeftNitroUpsell';
         var5['key'] = var7;
         var7 = function get() {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.pushUpsellDismissed;
+                var2 = var1.disableActivityHostLeftNitroUpsell;
                 var1 = null;
                 var1 = var1 != var2;
                 if(!var1) { _fun0021_ip = 29; continue _fun0021 }
@@ -665,13 +660,13 @@ case 29:
         var5['get'] = var7;
         var1[21] = var5;
         var5 = {};
-        var7 = 'disableActivityHostLeftNitroUpsell';
+        var7 = 'disableCallUserConfirmationPrompt';
         var5['key'] = var7;
         var7 = function get() {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableActivityHostLeftNitroUpsell;
+                var2 = var1.disableCallUserConfirmationPrompt;
                 var1 = null;
                 var1 = var1 != var2;
                 if(!var1) { _fun0022_ip = 29; continue _fun0022 }
@@ -684,13 +679,13 @@ case 29:
         var5['get'] = var7;
         var1[22] = var5;
         var5 = {};
-        var7 = 'disableCallUserConfirmationPrompt';
+        var7 = 'disableApplicationSubscriptionCancellationSurvey';
         var5['key'] = var7;
         var7 = function get() {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableCallUserConfirmationPrompt;
+                var2 = var1.disableApplicationSubscriptionCancellationSurvey;
                 var1 = null;
                 var1 = var1 != var2;
                 if(!var1) { _fun0023_ip = 29; continue _fun0023 }
@@ -703,35 +698,35 @@ case 29:
         var5['get'] = var7;
         var1[23] = var5;
         var5 = {};
-        var7 = 'disableApplicationSubscriptionCancellationSurvey';
+        var7 = 'darkSidebar';
         var5['key'] = var7;
         var7 = function get() {
             _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.disableApplicationSubscriptionCancellationSurvey;
+                var2 = var1.darkSidebar;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0024_ip = 29; continue _fun0024 }
-case 30:
+                if(!var1) { _fun0024_ip = 31; continue _fun0024 }
+case 32:
                 var1 = var2;
-case 29:
+case 31:
                 return var1;
             }
         };
         var5['get'] = var7;
         var1[24] = var5;
         var5 = {};
-        var7 = 'darkSidebar';
+        var7 = 'saveCameraUploadsToDevice';
         var5['key'] = var7;
         var7 = function get() {
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                 var1 = _closure1_slot17;
-                var2 = var1.darkSidebar;
+                var2 = var1.saveCameraUploadsToDevice;
                 var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0025_ip = 31; continue _fun0025 }
+                var1 = var1 == var2;
+                if(var1) { _fun0025_ip = 31; continue _fun0025 }
 case 32:
                 var1 = var2;
 case 31:
@@ -741,35 +736,16 @@ case 31:
         var5['get'] = var7;
         var1[25] = var5;
         var5 = {};
-        var7 = 'saveCameraUploadsToDevice';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
-case 0:
-                var1 = _closure1_slot17;
-                var2 = var1.saveCameraUploadsToDevice;
-                var1 = null;
-                var1 = var1 == var2;
-                if(var1) { _fun0026_ip = 31; continue _fun0026 }
-case 32:
-                var1 = var2;
-case 31:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[26] = var5;
-        var5 = {};
         var7 = 'isVisualRefreshDisabled';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                 var1 = arg1;
                 var2 = _closure1_slot17;
                 var2 = var2.disableVisualRefresh;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0027_ip = 31; continue _fun0027 }
+                if(!(var3 != var2)) { _fun0026_ip = 31; continue _fun0026 }
 case 32:
                 var1 = var2;
 case 31:
@@ -777,17 +753,17 @@ case 31:
             }
         };
         var5['value'] = var7;
-        var1[27] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'listDensity';
         var5['key'] = var7;
         var7 = function get() {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var1 = var1.listDensity;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0028_ip = 38; continue _fun0028 }
+                if(!(var3 == var1)) { _fun0027_ip = 38; continue _fun0027 }
 case 39:
                 var2 = _closure1_slot13;
                 var1 = var2.COZY;
@@ -796,19 +772,19 @@ case 38:
             }
         };
         var5['get'] = var7;
-        var1[28] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'hdrDynamicRange';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var1 = _closure1_slot17;
                 var2 = var1.hdrDynamicRange;
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 'no-limit';
-                if(!var3) { _fun0029_ip = 38; continue _fun0029 }
+                if(!var3) { _fun0028_ip = 38; continue _fun0028 }
 case 12:
                 var1 = var2;
 case 38:
@@ -816,7 +792,7 @@ case 38:
             }
         };
         var5['get'] = var6;
-        var1[29] = var5;
+        var1[28] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -828,7 +804,7 @@ case 38:
     var11 = function() {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 12;
+        var2 = 11;
         var6 = var4[var2];
         var3 = undefined;
         var6 = var5.bind(var3)(var6);
@@ -842,7 +818,7 @@ case 38:
         var2 = var5.remove;
         var2 = var2.bind(var5)(var6);
         var2 = _closure1_slot1;
-        var1 = 13;
+        var1 = 12;
         var1 = var4[var1];
         var17 = var2.bind(var3)(var1);
         var16 = var17.pick;
@@ -875,7 +851,7 @@ case 38:
     };
     var5[1] = var11;
     var10['migrations'] = var5;
-    var5 = 14;
+    var5 = 13;
     var5 = var8[var5];
     var15 = var9.bind(var1)(var5);
     var5 = {};
@@ -907,12 +883,12 @@ case 38:
     };
     var5['LOGOUT'] = var11;
     var11 = function handleLogInSuccess() {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var3 = _closure1_slot17;
             var1 = null;
-            if(!(var1 == var3)) { _fun0030_ip = 34; continue _fun0030 }
-case 43:
+            if(!(var1 == var3)) { _fun0029_ip = 34; continue _fun0029 }
+case 42:
             var1 = {};
             _closure1_slot17 = var1;
 case 34:
@@ -945,7 +921,7 @@ case 34:
     var14 = var5;
     var5 = new var16[var10](var15, var14, var13);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 15;
+    var6 = 14;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

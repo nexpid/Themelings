@@ -824,9 +824,10 @@ case 72:
             var8 = _closure1_slot2;
             var4 = 23;
             var4 = var8[var4];
-            var7 = var7.bind(var1)(var4);
-            var4 = var7.getUserIsStaff;
-            var4 = var4.bind(var7)();
+            var8 = var7.bind(var1)(var4);
+            var7 = var8.getHasPlaygroundAccess;
+            var4 = 'quickswitcher_action';
+            var4 = var7.bind(var8)(var4);
             if(var4) { _fun0007_ip = 68; continue _fun0007 }
 case 76:
             return var1;

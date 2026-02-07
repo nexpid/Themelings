@@ -110,7 +110,7 @@ case 0:
             var2 = var15[var12];
             var5 = var7.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function p() {
+            var2 = function b() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -191,6 +191,8 @@ case 4:
             var6 = var7.bind(var4)(var6);
             var7 = var6.PressableOpacity;
             var6 = {};
+            var15 = 'button';
+            var6['accessibilityRole'] = var15;
             var15 = var11.backStep;
             var21 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -280,9 +282,7 @@ case 13:
             var18 = var14[var18];
             var18 = var7.bind(var4)(var18);
             var19 = var18.Text;
-            var18 = {};
-            var21 = 'redesign/heading-18/bold';
-            var18['variant'] = var21;
+            var18 = {'variant': 'redesign/heading-18/bold', 'accessibilityRole': 'header'};
             var21 = var14[var20];
             var21 = var7.bind(var4)(var21);
             var22 = var21.intl;
