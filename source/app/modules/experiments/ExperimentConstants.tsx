@@ -184,8 +184,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ExperimentBuckets'] = var7;
     var3['ExperimentTypes'] = var6;
     var3['ExposureTypes'] = var5;
-    var5 = ['2023-10_triggerdebuggingaa', '2023-10_guildaa'];
-    var3['TriggerDebuggingAAExperiments'] = var5;
     var3['CommonTriggerPoints'] = var4;
     var3['ExperimentEmbedType'] = var2;
     return var1;

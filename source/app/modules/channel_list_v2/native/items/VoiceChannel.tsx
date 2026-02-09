@@ -308,6 +308,8 @@ case 23:
             var6 = {};
             var3 = var11.id;
             var6['channelId'] = var3;
+            var3 = 'text-xs/medium';
+            var6['linkVariant'] = var3;
             var3 = true;
             var15 = var24.bind(var25)(var1, var3, var6);
 case 22:

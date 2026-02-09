@@ -632,10 +632,10 @@ case 47:
 case 63:
             var13 = var15.friends;
 case 62:
-            if(!(var14 == var13)) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
-            var13 = new Array(0);
+            if(!(var14 == var13)) { _fun0009_ip = 61; continue _fun0009 }
 case 64:
+            var13 = new Array(0);
+case 61:
             var13 = var18.bind(var28)(var13);
             var13 = var13.length;
             var1['presences_size'] = var13;
@@ -659,34 +659,34 @@ case 64:
             var27 = var14 != var26;
             var13 = '';
             var18 = var13;
-            if(!var27) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
-            var18 = var26;
+            if(!var27) { _fun0009_ip = 65; continue _fun0009 }
 case 66:
+            var18 = var26;
+case 65:
             var18 = var24.bind(var25)(var18);
             var18 = var18.length;
             var24 = var14 != var23;
-            if(!var24) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
-            var13 = var23;
+            if(!var24) { _fun0009_ip = 67; continue _fun0009 }
 case 68:
+            var13 = var23;
+case 67:
             var13 = var13.length;
             var13 = var18 + var13;
             var1['user_settings_size'] = var13;
             var18 = var2.JSON;
             var13 = var18.stringify;
-            if(!(var14 == var21)) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
-            var21 = new Array(0);
+            if(!(var14 == var21)) { _fun0009_ip = 69; continue _fun0009 }
 case 70:
+            var21 = new Array(0);
+case 69:
             var13 = var13.bind(var18)(var21);
             var18 = var13.length;
             var21 = var2.JSON;
             var13 = var21.stringify;
-            if(!(var14 == var22)) { _fun0009_ip = 72; continue _fun0009 }
-case 73:
-            var22 = new Array(0);
+            if(!(var14 == var22)) { _fun0009_ip = 71; continue _fun0009 }
 case 72:
+            var22 = new Array(0);
+case 71:
             var13 = var13.bind(var21)(var22);
             var13 = var13.length;
             var13 = var18 + var13;
@@ -703,10 +703,10 @@ case 72:
             var1['relationships_size'] = var13;
             var18 = var2.JSON;
             var13 = var18.stringify;
-            if(!(var14 == var5)) { _fun0009_ip = 74; continue _fun0009 }
-case 75:
-            var5 = {};
+            if(!(var14 == var5)) { _fun0009_ip = 73; continue _fun0009 }
 case 74:
+            var5 = {};
+case 73:
             var5 = var13.bind(var18)(var5);
             var5 = var5.length;
             var1['remaining_data_size'] = var5;
@@ -717,10 +717,10 @@ case 74:
             var1['guild_channels_size'] = var5;
             var13 = var2.JSON;
             var5 = var13.stringify;
-            if(!(var14 == var16)) { _fun0009_ip = 76; continue _fun0009 }
-case 77:
-            var16 = new Array(0);
+            if(!(var14 == var16)) { _fun0009_ip = 75; continue _fun0009 }
 case 76:
+            var16 = new Array(0);
+case 75:
             var5 = var5.bind(var13)(var16);
             var5 = var5.length;
             var1['guild_members_size'] = var5;
@@ -728,14 +728,14 @@ case 76:
             var5 = var13.stringify;
             var16 = var14 == var15;
             var4 = undefined;
-            if(var16) { _fun0009_ip = 78; continue _fun0009 }
-case 79:
-            var4 = var15.guilds;
+            if(var16) { _fun0009_ip = 77; continue _fun0009 }
 case 78:
-            if(!(var14 == var4)) { _fun0009_ip = 80; continue _fun0009 }
-case 81:
-            var4 = new Array(0);
+            var4 = var15.guilds;
+case 77:
+            if(!(var14 == var4)) { _fun0009_ip = 79; continue _fun0009 }
 case 80:
+            var4 = new Array(0);
+case 79:
             var4 = var5.bind(var13)(var4);
             var4 = var4.length;
             var1['guild_presences_size'] = var4;
@@ -794,10 +794,10 @@ case 0:
             var2 = null;
             var4 = var2 != var3;
             var2 = 0;
-            if(!var4) { _fun0011_ip = 82; continue _fun0011 }
-case 83:
-            var2 = var3;
+            if(!var4) { _fun0011_ip = 81; continue _fun0011 }
 case 82:
+            var2 = var3;
+case 81:
             var1['connectTime'] = var2;
             var2 = global;
             var4 = var2.performance;
@@ -822,22 +822,22 @@ case 0:
             var3 = null;
             var3 = var3 == var5;
             if(var3) { _fun0012_ip = 37; continue _fun0012 }
-case 83:
+case 82:
             var4 = var5.isStaff;
             var4 = var4.bind(var5)();
             var3 = !var4;
 case 37:
-            if(!var3) { _fun0012_ip = 84; continue _fun0012 }
-case 85:
+            if(!var3) { _fun0012_ip = 83; continue _fun0012 }
+case 84:
             var4 = global;
             var5 = var4.Math;
             var4 = var5.random;
             var5 = var4.bind(var5)();
             var4 = 0.5;
             var3 = var5 < var4;
-case 84:
-            if(var3) { _fun0012_ip = 86; continue _fun0012 }
-case 87:
+case 83:
+            if(var3) { _fun0012_ip = 85; continue _fun0012 }
+case 86:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 5;
@@ -886,7 +886,7 @@ case 87:
             var6 = true;
             var1['logEventProperties'] = var6;
             var1 = var4.bind(var5)(var3, var2, var1);
-case 86:
+case 85:
             var1 = undefined;
             return var1;
         }

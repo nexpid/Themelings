@@ -23,10 +23,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var5[var6] = var1;
     var8 = var4.TREATMENT_A;
-    var6 = 300;
+    var6 = 250;
     var5[var8] = var6;
     var8 = var4.TREATMENT_B;
-    var6 = 700;
+    var6 = 500;
     var5[var8] = var6;
     var _closure1_slot1 = var5;
     var6 = var7[var1];

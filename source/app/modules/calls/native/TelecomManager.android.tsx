@@ -232,6 +232,7 @@ case 8:
                 var1['isInitialized'] = var5;
                 var1['lastMuteState'] = var3;
                 var1['lastScreenShareActive'] = var3;
+                var1['pendingScreenShareOffSyncTimeout'] = var3;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -1047,7 +1048,7 @@ case 127:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(12);
+        var1 = new Array(13);
         var1[0] = var5;
         var5 = {};
         var8 = '_terminate';
@@ -1072,6 +1073,8 @@ case 130:
                 var3 = var4.removeAllListeners;
                 var1 = 'telecom-screen-share-requested';
                 var1 = var3.bind(var4)(var1);
+                var1 = var2.clearPendingScreenShareOffSync;
+                var1 = var1.bind(var2)();
                 var1 = var2.reportCallEnded;
                 var1 = var1.bind(var2)();
                 var1 = null;
@@ -1425,10 +1428,34 @@ case 149:
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
+        var7 = 'clearPendingScreenShareOffSync';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var2 = this;
+                var3 = var2.pendingScreenShareOffSyncTimeout;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0018_ip = 152; continue _fun0018 }
+case 126:
+                var3 = global;
+                var5 = var3.clearTimeout;
+                var4 = var2.pendingScreenShareOffSyncTimeout;
+                var3 = undefined;
+                var3 = var5.bind(var3)(var4);
+                var2['pendingScreenShareOffSyncTimeout'] = var1;
+case 152:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
         var7 = 'clearCall';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var3 = this;
                 var4 = var3.currentCall;
@@ -1436,50 +1463,52 @@ case 0:
                 var6 = var2 == var4;
                 var1 = undefined;
                 var5 = undefined;
-                if(var6) { _fun0018_ip = 39; continue _fun0018 }
+                if(var6) { _fun0019_ip = 39; continue _fun0019 }
 case 132:
                 var5 = var4.channelId;
 case 39:
                 var4 = arg1;
-                if(!(var5 === var4)) { _fun0018_ip = 131; continue _fun0018 }
+                if(!(var5 === var4)) { _fun0019_ip = 5; continue _fun0019 }
 case 148:
                 var3['currentCall'] = var2;
                 var3['rtcConnectedStartCallPromise'] = var2;
                 var3['lastMuteState'] = var2;
                 var2 = var3.clearScreenShareState;
                 var2 = var2.bind(var3)();
-case 131:
+                var2 = var3.clearPendingScreenShareOffSync;
+                var2 = var2.bind(var3)();
+case 5:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'handleMuteStoreChange';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var1 = this;
                 var2 = var1.isEnabled;
                 var2 = var2.bind(var1)();
-                if(!var2) { _fun0019_ip = 152; continue _fun0019 }
-case 153:
+                if(!var2) { _fun0020_ip = 153; continue _fun0020 }
+case 154:
                 var3 = var1.currentCall;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0019_ip = 152; continue _fun0019 }
+                if(!(var2 != var3)) { _fun0020_ip = 153; continue _fun0020 }
 case 148:
                 var2 = var1.currentCall;
                 var4 = var2.state;
                 var3 = _closure1_slot17;
                 var3 = var3.Connected;
-                if(!(var4 === var3)) { _fun0019_ip = 152; continue _fun0019 }
-case 154:
+                if(!(var4 === var3)) { _fun0020_ip = 153; continue _fun0020 }
+case 155:
                 var4 = _closure1_slot13;
                 var3 = var4.isSelfMute;
                 var4 = var3.bind(var4)();
                 var3 = var1.lastMuteState;
-                if(!(var3 !== var4)) { _fun0019_ip = 152; continue _fun0019 }
+                if(!(var3 !== var4)) { _fun0020_ip = 153; continue _fun0020 }
 case 6:
                 var1['lastMuteState'] = var4;
                 var6 = _closure1_slot16;
@@ -1496,53 +1525,112 @@ case 6:
                 var1 = var1.currentCall;
                 var1 = var1.channelId;
                 var1 = var2.bind(var3)(var1, var4);
-case 152:
+case 153:
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'handleScreenShareStoreChange';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var1 = this;
+                var _closure3_slot0 = var1;
                 var2 = var1.isEnabled;
                 var2 = var2.bind(var1)();
-                if(!var2) { _fun0020_ip = 29; continue _fun0020 }
-case 153:
+                if(!var2) { _fun0021_ip = 156; continue _fun0021 }
+case 125:
                 var2 = var1.currentCall;
                 var4 = null;
-                if(!(var4 != var2)) { _fun0020_ip = 29; continue _fun0020 }
-case 148:
-                var2 = var1.currentCall;
-                var5 = var2.state;
-                var3 = _closure1_slot17;
-                var3 = var3.Connected;
-                if(!(var5 === var3)) { _fun0020_ip = 29; continue _fun0020 }
-case 155:
-                var5 = _closure1_slot10;
-                var3 = var5.getCurrentUserActiveStream;
-                var3 = var3.bind(var5)();
-                var5 = var4 != var3;
-                if(!var5) { _fun0020_ip = 156; continue _fun0020 }
-case 6:
-                var4 = var3.state;
-                var3 = _closure1_slot14;
-                var3 = var3.ACTIVE;
-                var5 = var4 === var3;
-case 156:
-                var3 = var1.lastScreenShareActive;
-                if(!(var3 !== var5)) { _fun0020_ip = 29; continue _fun0020 }
+                if(!(var4 != var2)) { _fun0021_ip = 156; continue _fun0021 }
 case 157:
-                var1['lastScreenShareActive'] = var5;
-                var6 = _closure1_slot16;
-                var4 = var6.info;
-                var3 = 'Syncing Discord -> Call Bar screen share state:';
-                var3 = var4.bind(var6)(var3, var5);
+                var2 = var1.currentCall;
+                var6 = var2.state;
+                var5 = _closure1_slot17;
+                var5 = var5.Connected;
+                if(!(var6 === var5)) { _fun0021_ip = 156; continue _fun0021 }
+case 15:
+                var6 = _closure1_slot10;
+                var5 = var6.getCurrentUserActiveStream;
+                var5 = var5.bind(var6)();
+                var4 = var4 != var5;
+                if(!var4) { _fun0021_ip = 158; continue _fun0021 }
+case 159:
+                var6 = var5.state;
+                var5 = _closure1_slot14;
+                var5 = var5.ACTIVE;
+                var4 = var6 === var5;
+case 158:
+                var5 = var1.lastScreenShareActive;
+                if(!(var5 !== var4)) { _fun0021_ip = 156; continue _fun0021 }
+case 22:
+                var1['lastScreenShareActive'] = var4;
+                var5 = var1.clearPendingScreenShareOffSync;
+                var5 = var5.bind(var1)();
+                if(var4) { _fun0021_ip = 160; continue _fun0021 }
+case 49:
+                var4 = var1.currentCall;
+                var4 = var4.channelId;
+                var _closure3_slot1 = var4;
+                var4 = global;
+                var6 = var4.setTimeout;
+                var5 = undefined;
+                var4 = function() {
+                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+case 0:
+                        var3 = _closure3_slot0;
+                        var4 = null;
+                        var3['pendingScreenShareOffSyncTimeout'] = var4;
+                        var2 = var3.isEnabled;
+                        var2 = var2.bind(var3)();
+                        if(!var2) { _fun0022_ip = 161; continue _fun0022 }
+case 121:
+                        var3 = _closure3_slot0;
+                        var3 = var3.currentCall;
+                        var5 = var4 == var3;
+                        var4 = undefined;
+                        if(var5) { _fun0022_ip = 162; continue _fun0022 }
+case 163:
+                        var4 = var3.channelId;
+case 162:
+                        var3 = _closure3_slot1;
+                        var2 = var4 === var3;
+case 161:
+                        if(!var2) { _fun0022_ip = 164; continue _fun0022 }
+case 136:
+                        var5 = _closure1_slot16;
+                        var4 = var5.info;
+                        var3 = 'Syncing Discord -> Call Bar screen share state: false (delayed)';
+                        var3 = var4.bind(var5)(var3);
+                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var2 = 19;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var5 = var4.bind(var2)(var3);
+                        var4 = var5.setScreenShareState;
+                        var3 = _closure3_slot1;
+                        var2 = true;
+                        var1 = false;
+                        var1 = var4.bind(var5)(var3, var2, var1);
+case 164:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var3 = 400;
+                var3 = var6.bind(var5)(var4, var3);
+                var1['pendingScreenShareOffSyncTimeout'] = var3;
+                _fun0021_ip = 156; continue _fun0021;
+case 160:
+                var5 = _closure1_slot16;
+                var4 = var5.info;
+                var3 = 'Syncing Discord -> Call Bar screen share state: true';
+                var3 = var4.bind(var5)(var3);
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 19;
@@ -1553,14 +1641,14 @@ case 157:
                 var1 = var1.currentCall;
                 var2 = var1.channelId;
                 var1 = true;
-                var1 = var3.bind(var4)(var2, var1, var5);
-case 29:
+                var1 = var3.bind(var4)(var2, var1, var1);
+case 156:
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[11] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

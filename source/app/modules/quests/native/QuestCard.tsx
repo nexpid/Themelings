@@ -1633,7 +1633,7 @@ case 0:
                     var1 = var4[var1];
                     var7 = undefined;
                     var3 = var3.bind(var7)(var1);
-                    var1 = var3.isAndroid;
+                    var1 = var3.isFabric;
                     var1 = var1.bind(var3)();
                     var _closure3_slot0 = var1;
                     if(var1) { _fun0014_ip = 130; continue _fun0014 }

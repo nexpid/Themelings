@@ -198,38 +198,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var6 = var2.shown;
-            var _closure2_slot0 = var6;
-            var2 = _closure1_slot8;
+            var2 = var2.shown;
+            var _closure2_slot0 = var2;
+            var3 = _closure1_slot8;
             var4 = undefined;
-            var18 = var2.bind(var4)();
+            var18 = var3.bind(var4)();
             var5 = _closure1_slot3;
-            var2 = var5.useRef;
+            var3 = var5.useRef;
             var15 = null;
-            var11 = var2.bind(var5)(var15);
+            var11 = var3.bind(var5)(var15);
             var _closure2_slot1 = var11;
-            var3 = var5.useContext;
+            var6 = var5.useContext;
             var10 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var2 = 11;
-            var2 = var16[var2];
-            var2 = var10.bind(var4)(var2);
-            var2 = var3.bind(var5)(var2);
-            var13 = var2.guildId;
+            var3 = 11;
+            var3 = var16[var3];
+            var3 = var10.bind(var4)(var3);
+            var3 = var6.bind(var5)(var3);
+            var13 = var3.guildId;
             var _closure2_slot2 = var13;
-            var12 = var2.channelId;
+            var12 = var3.channelId;
             var _closure2_slot3 = var12;
             var22 = _closure1_slot0;
-            var2 = 15;
-            var2 = var16[var2];
-            var3 = var22.bind(var4)(var2);
-            var2 = var3.useGradientTop;
-            var9 = var2.bind(var3)();
+            var3 = 15;
+            var3 = var16[var3];
+            var6 = var22.bind(var4)(var3);
+            var3 = var6.useGradientTop;
+            var9 = var3.bind(var6)();
             var7 = var5.useEffect;
-            var3 = new Array(2);
-            var3[0] = var13;
-            var3[1] = var12;
-            var2 = function() {
+            var6 = new Array(2);
+            var6[0] = var13;
+            var6[1] = var12;
+            var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = _closure1_slot1;
@@ -261,12 +261,12 @@ case 4:
                     return var1;
                 }
             };
-            var2 = var7.bind(var5)(var2, var3);
-            var3 = var5.useEffect;
-            var2 = new Array(2);
-            var2[0] = var12;
-            var2[1] = var6;
-            var1 = function() {
+            var3 = var7.bind(var5)(var3, var6);
+            var6 = var5.useEffect;
+            var3 = new Array(2);
+            var3[0] = var12;
+            var3[1] = var2;
+            var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var3 = _closure1_slot11;
@@ -300,7 +300,24 @@ case 7:
                     return var1;
                 }
             };
-            var1 = var3.bind(var5)(var1, var2);
+            var2 = var6.bind(var5)(var2, var3);
+            var3 = var5.useCallback;
+            var2 = function() {
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.ComponentDispatch;
+                var3 = var4.dispatch;
+                var2 = _closure1_slot4;
+                var2 = var2.VOICE_PANEL_TIV_CLOSE;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = new Array(0);
+            var8 = var3.bind(var5)(var2, var1);
             var1 = 17;
             var1 = var16[var1];
             var1 = var10.bind(var4)(var1);
@@ -315,8 +332,10 @@ case 7:
             var7 = _closure1_slot7;
             var5 = 19;
             var5 = var16[var5];
-            var6 = var10.bind(var4)(var5);
-            var5 = {};
+            var5 = var22.bind(var4)(var5);
+            var6 = var5.AccessibilityView;
+            var5 = {'nativeID': 'voice-panel-chat-view', 'accessibilityViewIsModal': false};
+            var5['onAccessibilityEscape'] = var8;
             var17 = var18.container;
             var8 = new Array(2);
             var8[0] = var17;
