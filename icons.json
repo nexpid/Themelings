@@ -8963,36 +8963,6 @@
         "width": 88,
         "height": 106
     },
-    "img_tier_0_perk_bigger_files": {
-        "file": "app/images/native/premium/illustrations/img_tier_0_perk_bigger_files.png",
-        "hash": "9848ee06b371032f5a5c789cab987d6c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 218.5,
-        "height": 126.5
-    },
-    "img_tier_0_perk_custom_video_backgrounds": {
-        "file": "app/images/native/premium/illustrations/img_tier_0_perk_custom_video_backgrounds.png",
-        "hash": "2762ca199009f1ddb659b515502ab30e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 222.5,
-        "height": 118
-    },
-    "img_tier_0_perk_emoji_and_stickers": {
-        "file": "app/images/native/premium/illustrations/img_tier_0_perk_emoji_and_stickers.png",
-        "hash": "cb2f91915f2e7c8009c1e8b4f5728fe0",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 312,
-        "height": 159
-    },
     "img_tier_0_resubscribe_mobile": {
         "file": "app/images/native/premium/illustrations/img_tier_0_resubscribe_mobile.png",
         "hash": "fffb876f7b3f447f47b0591850317fff",
