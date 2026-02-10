@@ -1834,6 +1834,8 @@ case 4:
     var15['CREATOR_STORE_PAGE_VIEWED'] = var2;
     var2 = 'creator_store_page_cta_clicked';
     var15['CREATOR_STORE_PAGE_CTA_CLICKED'] = var2;
+    var2 = 'seo_page_cwv_measured';
+    var15['SEO_PAGE_CWV_MEASURED'] = var2;
     var14 = {};
     var2 = 'mktg_ack_modal_open';
     var14['MKTG_ACKNOWLEDGEMENTS_MODAL_OPEN'] = var2;

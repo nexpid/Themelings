@@ -658,7 +658,7 @@ case 0:
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 60; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 56; continue _fun0009 }
 case 47:
                     var2 = var4._cachedSession;
                     var3 = null;
@@ -675,7 +675,7 @@ case 13:
                     var5 = var4._cachedSession;
                     var2 = var6.bind(var7)(var5);
 case 22:
-                    if(!var2) { _fun0009_ip = 61; continue _fun0009 }
+                    if(!var2) { _fun0009_ip = 60; continue _fun0009 }
 case 7:
                     var7 = _closure1_slot11;
                     var6 = var7.log;
@@ -689,26 +689,26 @@ case 7:
                     var5 = var6.bind(var2)(var5);
                     var2 = var5.getSession;
                     var2 = var2.bind(var5)();
-                    SaveGenerator(address=132);
-case 62:
-                    return var2;
-case 63:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
-                    var4['_cachedSession'] = var2;
+                    SaveGenerator(address=133);
 case 61:
+                    return var2;
+case 62:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
+                    var4['_cachedSession'] = var2;
+case 60:
                     var4 = var4._cachedSession;
                     var5 = var3 == var4;
                     var3 = undefined;
-                    if(var5) { _fun0009_ip = 66; continue _fun0009 }
-case 67:
+                    if(var5) { _fun0009_ip = 65; continue _fun0009 }
+case 58:
                     var3 = var4.uuid;
-case 66:
+case 65:
                     return var3;
-case 64:
+case 63:
                     return var2;
-case 60:
+case 56:
                     return var1;
                 }
             };

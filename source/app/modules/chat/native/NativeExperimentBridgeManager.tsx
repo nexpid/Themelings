@@ -1,4 +1,4 @@
-// app/modules/experiments/native/NativeExperimentBridgeManager.tsx
+// app/modules/chat/native/NativeExperimentBridgeManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -75,8 +75,14 @@ case 9:
 case 8:
             var2 = _closure1_slot7;
             var4 = var2.NSUserDefaultsBridge;
-            if(!(var5 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+            var2 = var5 == var4;
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
+            var3 = var4.setShouldEnableAnimatedReactionUpdates;
+            var2 = var5 == var3;
+case 10:
+            if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = var4.setShouldEnableAnimatedReactionUpdates;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -90,28 +96,52 @@ case 11:
             var2['location'] = var8;
             var2 = var6.bind(var7)(var2);
             var2 = var3.bind(var4)(var2);
-case 10:
+case 12:
+            var2 = _closure1_slot7;
+            var4 = var2.NSUserDefaultsBridge;
+            var2 = var5 == var4;
+            if(var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            var3 = var4.setShouldFixPushNotificationRawPayload;
+            var2 = var5 == var3;
+case 14:
+            if(var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var3 = var4.setShouldFixPushNotificationRawPayload;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 8;
+            var6 = var6[var2];
+            var2 = undefined;
+            var6 = var7.bind(var2)(var6);
+            var2 = var6.isIOSPushNotificationRawPayloadFixExperimentEnabled;
+            var2 = var2.bind(var6)();
+            var2 = var3.bind(var4)(var2);
+case 16:
             var2 = _closure1_slot7;
             var3 = var2.NSUserDefaultsBridge;
             var2 = var5 == var3;
-            if(var2) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var4 = var3.setShouldFixPushNotificationRawPayload;
+            if(var2) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var4 = var3.setShouldEnableYYTextReplacement;
             var2 = var5 == var4;
-case 12:
-            if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var2 = var3.setShouldFixPushNotificationRawPayload;
+case 18:
+            if(var2) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var2 = var3.setShouldEnableYYTextReplacement;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 8;
+            var1 = 9;
             var4 = var4[var1];
             var1 = undefined;
-            var4 = var5.bind(var1)(var4);
-            var1 = var4.isIOSPushNotificationRawPayloadFixExperimentEnabled;
-            var1 = var1.bind(var4)();
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.shouldEnableYYTextReplacement;
+            var1 = {};
+            var6 = 'NativeExperimentBridgeManager';
+            var1['location'] = var6;
+            var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
-case 14:
+case 20:
             var1 = undefined;
             return var1;
         }
@@ -156,7 +186,7 @@ case 14:
     var4 = var5.bind(var1)(var4);
     var4 = var4.NativeModules;
     var _closure1_slot7 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -180,12 +210,12 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                if(var1) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var4, var10);
-                _fun0003_ip = 18; continue _fun0003;
-case 16:
+                _fun0003_ip = 10; continue _fun0003;
+case 22:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -193,37 +223,37 @@ case 16:
                 var6 = var6.bind(var5)(var4);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 18:
+case 10:
                 var1 = var2.bind(var5)(var4, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var6 = 9;
+                var6 = 10;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                if(var2) { _fun0003_ip = 14; continue _fun0003 }
+case 24:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                if(var2) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                 var2 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                _fun0003_ip = 23; continue _fun0003;
-case 21:
+                _fun0003_ip = 27; continue _fun0003;
+case 25:
                 var2 = _closure1_slot10;
-case 23:
-                _fun0003_ip = 24; continue _fun0003;
-case 19:
+case 27:
+                _fun0003_ip = 28; continue _fun0003;
+case 14:
                 var2 = _closure1_slot9;
-case 24:
+case 28:
                 var1['handleUpdate'] = var2;
                 var2 = {};
                 var3 = var1.handleUpdate;
@@ -247,11 +277,11 @@ case 24:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/experiments/native/NativeExperimentBridgeManager.tsx';
+    var4 = 'modules/chat/native/NativeExperimentBridgeManager.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

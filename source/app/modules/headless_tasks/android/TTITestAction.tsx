@@ -1898,7 +1898,7 @@ case 193:
                     var10 = var9 == var10;
                     var9 = 'redacted';
                     if(!var10) { _fun0015_ip = 194; continue _fun0015 }
-case 15:
+case 195:
                     var9 = undefined;
 case 194:
                     var2 = 'user';
@@ -1907,13 +1907,13 @@ case 194:
                     var2 = var7.bind(var8)(var2, var5);
                     var2 = _closure1_slot5;
                     var2 = var2.promise;
-                    SaveGenerator(address=195);
-case 195:
+                    SaveGenerator(address=196);
+case 196:
                     return var2;
-case 20:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0015_ip = 196; continue _fun0015 }
 case 197:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0015_ip = 198; continue _fun0015 }
+case 199:
                     var5 = _closure1_slot13;
                     var4 = var6.type;
                     var4 = var5[var4];
@@ -1922,7 +1922,7 @@ case 197:
                     var3 = var4.resolve;
                     var3 = var3.bind(var4)();
                     return var3;
-case 196:
+case 198:
                     return var2;
 case 192:
                     return var1;

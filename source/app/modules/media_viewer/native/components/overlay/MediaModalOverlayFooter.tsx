@@ -640,20 +640,20 @@ case 18:
                     var4 = var5.get;
                     var2 = var4.bind(var5)();
 case 17:
-                    if(!var2) { _fun0004_ip = 12; continue _fun0004 }
-case 19:
+                    if(!var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                     var5 = _closure2_slot5;
                     var4 = var5.get;
                     var5 = var4.bind(var5)();
                     var4 = -1;
                     var2 = var5 === var4;
-case 12:
-                    if(!var2) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+case 19:
+                    if(!var2) { _fun0004_ip = 21; continue _fun0004 }
+case 5:
                     var2 = _closure2_slot13;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
-case 20:
+case 21:
                     var1 = undefined;
                     return var1;
                 }

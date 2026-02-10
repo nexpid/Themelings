@@ -3428,10 +3428,10 @@ case 0:
                     var13 = var13.current;
                     var19 = var14.bind(var16)(var13);
                     if(!(var20 !== var19)) { _fun0030_ip = 172; continue _fun0030 }
-case 160:
+case 193:
                     var13 = _closure2_slot100;
-                    if(!var13) { _fun0030_ip = 193; continue _fun0030 }
-case 194:
+                    if(!var13) { _fun0030_ip = 194; continue _fun0030 }
+case 40:
                     var17 = _closure1_slot66;
                     var16 = var17.log;
                     var23 = _closure2_slot7;
@@ -3440,7 +3440,7 @@ case 194:
                     var22 = var20;
                     var21 = var19;
                     var13 = var25[var16](var24, var23, var22, var21, var20);
-                    _fun0030_ip = 193; continue _fun0030;
+                    _fun0030_ip = 194; continue _fun0030;
 case 172:
                     var16 = _closure1_slot0;
                     var17 = _closure1_slot2;
@@ -3567,7 +3567,7 @@ case 196:
                     var2 = var2.bind(var1)(var3);
                     var3 = _closure2_slot5;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0030_ip = 193; continue _fun0030 }
+                    if(!(var2 != var3)) { _fun0030_ip = 194; continue _fun0030 }
 case 198:
                     var4 = _closure2_slot5;
                     var3 = var4.handleScrollPosition;
@@ -3579,7 +3579,7 @@ case 198:
                     var2['firstVisibleMessageRowIndex'] = var6;
                     var2['lastVisibleMessageRowIndex'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 193:
+case 194:
                     return var1;
                 }
             };
@@ -8300,7 +8300,7 @@ case 958:
 case 736:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                         if(var4) { _fun0042_ip = 159; continue _fun0042 }
-case 959:
+case 193:
                         return var3;
 case 159:
                         return var2;
@@ -8403,20 +8403,20 @@ case 0:
                     var4 = var1.lastVisibleMessagePercentVisible;
                     var2 = null;
                     var1 = var2 != var7;
-                    if(!var1) { _fun0044_ip = 2; continue _fun0044 }
-case 56:
+                    if(!var1) { _fun0044_ip = 959; continue _fun0044 }
+case 105:
                     var1 = var2 != var6;
-case 2:
-                    if(!var1) { _fun0044_ip = 94; continue _fun0044 }
-case 5:
+case 959:
+                    if(!var1) { _fun0044_ip = 67; continue _fun0044 }
+case 76:
                     var1 = var2 != var5;
-case 94:
-                    if(!var1) { _fun0044_ip = 83; continue _fun0044 }
-case 28:
+case 67:
+                    if(!var1) { _fun0044_ip = 165; continue _fun0044 }
+case 4:
                     var1 = var2 != var4;
-case 83:
-                    if(!var1) { _fun0044_ip = 382; continue _fun0044 }
-case 86:
+case 165:
+                    if(!var1) { _fun0044_ip = 85; continue _fun0044 }
+case 161:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 85;
@@ -8463,7 +8463,7 @@ case 86:
                     var9 = var5;
                     var8 = var4;
                     var1 = var13[var2](var12, var11, var10, var9, var8, var7);
-case 382:
+case 85:
                     var1 = undefined;
                     return var1;
                 }
@@ -8504,20 +8504,20 @@ case 0:
                     var4 = var1.lastVisibleMessagePercentVisible;
                     var2 = null;
                     var1 = var2 != var7;
-                    if(!var1) { _fun0045_ip = 2; continue _fun0045 }
-case 56:
+                    if(!var1) { _fun0045_ip = 959; continue _fun0045 }
+case 105:
                     var1 = var2 != var6;
-case 2:
-                    if(!var1) { _fun0045_ip = 94; continue _fun0045 }
-case 5:
+case 959:
+                    if(!var1) { _fun0045_ip = 67; continue _fun0045 }
+case 76:
                     var1 = var2 != var5;
-case 94:
-                    if(!var1) { _fun0045_ip = 83; continue _fun0045 }
-case 28:
+case 67:
+                    if(!var1) { _fun0045_ip = 165; continue _fun0045 }
+case 4:
                     var1 = var2 != var4;
-case 83:
-                    if(!var1) { _fun0045_ip = 382; continue _fun0045 }
-case 86:
+case 165:
+                    if(!var1) { _fun0045_ip = 85; continue _fun0045 }
+case 161:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 85;
@@ -8564,7 +8564,7 @@ case 86:
                     var9 = var5;
                     var8 = var4;
                     var1 = var13[var2](var12, var11, var10, var9, var8, var7);
-case 382:
+case 85:
                     var1 = undefined;
                     return var1;
                 }

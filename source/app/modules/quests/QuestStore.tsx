@@ -2460,8 +2460,8 @@ case 0:
             var7 = var5.quest_id;
             var9 = var8.bind(var9)(var7);
             var7 = null;
-            if(!(var7 != var9)) { _fun0028_ip = 136; continue _fun0028 }
-case 69:
+            if(!(var7 != var9)) { _fun0028_ip = 53; continue _fun0028 }
+case 136:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 12;
@@ -2473,7 +2473,7 @@ case 69:
             var8 = var10.get;
             var7 = var5.quest_id;
             var7 = var8.bind(var10)(var7);
-            if(!(var7 !== var9)) { _fun0028_ip = 136; continue _fun0028 }
+            if(!(var7 !== var9)) { _fun0028_ip = 53; continue _fun0028 }
 case 137:
             var10 = var4.Map;
             var13 = _closure1_slot36;
@@ -2486,7 +2486,7 @@ case 137:
             var5 = var5.quest_id;
             var5 = var7.bind(var8)(var5, var9);
             _closure1_slot36 = var5;
-case 136:
+case 53:
             var8 = var4.Object;
             var7 = var8.keys;
             var5 = var2.progress;
@@ -2495,14 +2495,14 @@ case 136:
             var5 = 0;
             var5 = var5 === var7;
             if(!var5) { _fun0028_ip = 138; continue _fun0028 }
-case 139:
+case 64:
             var9 = _closure1_slot41;
             var8 = var9.has;
             var7 = var2.questId;
             var5 = var8.bind(var9)(var7);
 case 138:
-            if(!var5) { _fun0028_ip = 140; continue _fun0028 }
-case 141:
+            if(!var5) { _fun0028_ip = 139; continue _fun0028 }
+case 140:
             var5 = var6.log;
             var8 = var2.questId;
             var4 = var4.HermesInternal;
@@ -2514,7 +2514,7 @@ case 141:
             var3 = var4.delete;
             var2 = var2.questId;
             var2 = var3.bind(var4)(var2);
-case 140:
+case 139:
             return var1;
         }
     };
@@ -2567,7 +2567,7 @@ case 9:
 case 65:
             var5 = var2.enrolledAt;
             if(!(var4 == var5)) { _fun0029_ip = 118; continue _fun0029 }
-case 142:
+case 141:
             var5 = global;
             var7 = var5.Map;
             var9 = _closure1_slot33;
@@ -2592,7 +2592,7 @@ case 118:
             var5 = var2.questId;
             var6 = var6.bind(var7)(var5);
             if(!(var4 != var6)) { _fun0029_ip = 31; continue _fun0029 }
-case 143:
+case 142:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 12;
@@ -2605,7 +2605,7 @@ case 143:
             var4 = var2.questId;
             var4 = var5.bind(var7)(var4);
             if(!(var4 !== var6)) { _fun0029_ip = 31; continue _fun0029 }
-case 144:
+case 143:
             var4 = global;
             var7 = var4.Map;
             var9 = _closure1_slot36;
@@ -2630,10 +2630,10 @@ case 0:
             var3 = var1.questId;
             var4 = _closure1_slot32;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0030_ip = 145; continue _fun0030 }
-case 146:
-            var1 = var3;
+            if(!(var4 !== var3)) { _fun0030_ip = 144; continue _fun0030 }
 case 145:
+            var1 = var3;
+case 144:
             _closure1_slot32 = var1;
             var1 = undefined;
             return var1;
@@ -2656,13 +2656,13 @@ case 0:
             var2 = var2 instanceof Object ? var2 : var4;
             _closure1_slot33 = var2;
             var2 = null;
-            if(!(var2 != var5)) { _fun0031_ip = 147; continue _fun0031 }
-case 148:
+            if(!(var2 != var5)) { _fun0031_ip = 146; continue _fun0031 }
+case 147:
             var4 = _closure1_slot33;
             var2 = var4.set;
             var2 = var2.bind(var4)(var3, var5);
             _fun0031_ip = 86; continue _fun0031;
-case 147:
+case 146:
             var2 = _closure1_slot33;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
@@ -2711,12 +2711,12 @@ case 0:
             var4 = _closure1_slot41;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(!var2) { _fun0033_ip = 149; continue _fun0033 }
+            if(!var2) { _fun0033_ip = 148; continue _fun0033 }
 case 99:
             var4 = _closure1_slot41;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
-case 149:
+case 148:
             var2 = _closure1_slot9;
             var1 = var2.getState;
             var2 = var1.bind(var2)();

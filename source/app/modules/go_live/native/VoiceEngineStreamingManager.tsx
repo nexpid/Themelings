@@ -492,7 +492,7 @@ case 26:
                     var7 = var6.platform;
                     var6 = 'android';
                     if(!(var6 === var7)) { _fun0006_ip = 27; continue _fun0006 }
-case 8:
+case 28:
                     var8 = _closure1_slot24;
                     var7 = var8.start;
                     var6 = 15000;
@@ -550,7 +550,7 @@ case 8:
                     var4 = var7.bind(var8)(var6, var4);
 case 27:
                     if(!(var3 != var5)) { _fun0006_ip = 25; continue _fun0006 }
-case 28:
+case 29:
                     var4 = _closure1_slot10;
                     var3 = var4.openURL;
                     var2 = _closure1_slot18;
@@ -596,24 +596,24 @@ case 0:
                     var2 = 'Broadcast Annotated:';
                     var2 = var4.bind(var5)(var2, var3);
                     var2 = _closure1_slot17;
-                    if(!(var3 !== var2)) { _fun0007_ip = 29; continue _fun0007 }
-case 21:
+                    if(!(var3 !== var2)) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                     var5 = _closure1_slot25;
                     var4 = var5.indexOf;
                     var2 = 0;
                     var6 = var4.bind(var5)(var3, var2);
                     var2 = -1;
-                    if(!(var6 > var2)) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+                    if(!(var6 > var2)) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var5 = _closure1_slot25;
                     var4 = var5.splice;
                     var2 = 1;
                     var2 = var4.bind(var5)(var6, var2);
-case 30:
+case 32:
                     var2 = _closure1_slot25;
                     var1 = var2.push;
                     var1 = var1.bind(var2)(var3);
-case 29:
+case 30:
                     var1 = undefined;
                     return var1;
                 }
@@ -682,8 +682,8 @@ case 0:
                 var3 = var4.getVoiceEngine;
                 var5 = var3.bind(var4)();
                 var3 = null;
-                if(!(var3 != var5)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+                if(!(var3 != var5)) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
                 var3 = var5.setBroadcastRequestCallback;
                 var4 = _closure1_slot16;
                 var3 = var3.bind(var5)(var4);
@@ -693,7 +693,7 @@ case 33:
                 var3 = var3.bind(var5)(var4);
                 var3 = var5.setBroadcastBlockedCallback;
                 var3 = var3.bind(var5)(var4);
-case 32:
+case 34:
                 var4 = _closure1_slot23;
                 var3 = var4.stop;
                 var3 = var3.bind(var4)();
