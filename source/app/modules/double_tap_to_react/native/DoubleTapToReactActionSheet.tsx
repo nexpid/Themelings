@@ -209,10 +209,6 @@ case 6:
         var10 = var10.PX_24;
         var9['marginBottom'] = var10;
         var4['emojiName'] = var9;
-        var9 = {};
-        var10 = 'relative';
-        var9['position'] = var10;
-        var4['emojiWrapper'] = var9;
         var9 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'zIndex': 0};
         var4['burstContainer'] = var9;
         var4 = var7.bind(var8)(var4);

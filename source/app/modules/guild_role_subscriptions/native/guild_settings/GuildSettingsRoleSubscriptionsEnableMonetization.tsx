@@ -742,9 +742,6 @@ case 42:
     var4['button'] = var9;
     var9 = {'paddingHorizontal': 16, 'marginBottom': 16};
     var4['description'] = var9;
-    var9 = {};
-    var9['marginTop'] = var10;
-    var4['teamDropdown'] = var9;
     var9 = {'marginTop': 16, 'marginHorizontal': 16};
     var4['nonOwnerNotice'] = var9;
     var4 = var7.bind(var8)(var4);

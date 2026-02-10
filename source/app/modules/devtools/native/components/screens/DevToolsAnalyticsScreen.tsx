@@ -478,8 +478,6 @@ case 9:
     var4['commonPropertiesContainer'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'marginVertical': 8, 'height': 20};
     var4['commonProperty'] = var9;
-    var9 = {'flexGrow': 0, 'height': 22};
-    var4['commonPropertyDiscordTag'] = var9;
     var9 = {'paddingHorizontal': 10, 'paddingVertical': 4};
     var4['customPropertiesContainer'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'flexWrap': 'wrap', 'justifyContent': 'flex-start', 'marginVertical': 4};

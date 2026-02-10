@@ -32,15 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var11 = 3;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var13;
-    var4['container'] = var9;
     var9 = {'tintColor': null, 'marginLeft': 4, 'width': 20, 'height': 20};
+    var11 = 3;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;

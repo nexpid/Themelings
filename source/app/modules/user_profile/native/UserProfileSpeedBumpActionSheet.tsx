@@ -137,8 +137,8 @@ case 4:
     var1 = undefined;
     var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var14 = 1;
-    var7 = var6[var14];
+    var4 = 1;
+    var7 = var6[var4];
     var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
@@ -229,16 +229,6 @@ case 4:
     var10 = {};
     var10['textAlign'] = var13;
     var4['headerText'] = var10;
-    var10 = {};
-    var10['flex'] = var14;
-    var4['container'] = var10;
-    var10 = {};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var10['paddingHorizontal'] = var14;
-    var4['list'] = var10;
     var10 = {};
     var10['alignSelf'] = var13;
     var4['avatar'] = var10;

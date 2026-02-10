@@ -366,19 +366,12 @@ case 12:
         var12 = 32;
 case 11:
         var9['lineHeight'] = var12;
-        var12 = var6[var10];
-        var12 = var11.bind(var1)(var12);
-        var12 = var12.colors;
-        var12 = var12.INTERACTIVE_TEXT_DEFAULT;
-        var9['color'] = var12;
-        var4['textEmoji'] = var9;
-        var9 = {};
         var10 = var6[var10];
         var10 = var11.bind(var1)(var10);
         var10 = var10.colors;
-        var10 = var10.WHITE;
-        var9['tintColor'] = var10;
-        var4['icon'] = var9;
+        var10 = var10.INTERACTIVE_TEXT_DEFAULT;
+        var9['color'] = var10;
+        var4['textEmoji'] = var9;
         var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 6};
         var4['header'] = var9;
         var9 = {};

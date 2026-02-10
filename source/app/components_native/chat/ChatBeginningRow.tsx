@@ -1007,9 +1007,6 @@ case 45:
     var9['paddingRight'] = var18;
     var4['ctaAddRoles'] = var9;
     var9 = {};
-    var9['marginTop'] = var17;
-    var4['channelIcon'] = var9;
-    var9 = {};
     var9['marginBottom'] = var17;
     var4['avatar'] = var9;
     var9 = {};
@@ -1030,8 +1027,6 @@ case 45:
     var4['provisionalAccountExplainer'] = var9;
     var9 = {'marginTop': 8, 'marginLeft': 8, 'height': 26};
     var4['mutualGuildsLabel'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var4['mutualGuildsIcons'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 6};
     var4['mutualGuildsContainer'] = var9;
     var9 = {'width': 64, 'height': 64, 'borderRadius': null, 'backgroundColor': null, 'justifyContent': 'center', 'alignItems': 'center'};
@@ -1059,13 +1054,6 @@ case 45:
     var4['spamButton'] = var9;
     var9 = {'flexGrow': 0, 'paddingHorizontal': 0, 'marginRight': 8};
     var4['spamButtonNoPadding'] = var9;
-    var9 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.INTERACTIVE_TEXT_ACTIVE;
-    var9['color'] = var13;
-    var4['forumPostIconColor'] = var9;
     var9 = {'borderRadius': null, 'backgroundColor': null, 'height': 24, 'width': 24, 'padding': 4, 'alignContent': 'center'};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

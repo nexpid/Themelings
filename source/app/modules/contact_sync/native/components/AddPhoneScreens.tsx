@@ -82,8 +82,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'center';
     var9['alignItems'] = var10;
     var4['header'] = var9;
-    var9 = {'height': 144, 'width': 300, 'marginVertical': 16};
-    var4['art'] = var9;
     var9 = {};
     var9['textAlign'] = var10;
     var4['title'] = var9;

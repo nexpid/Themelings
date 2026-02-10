@@ -81,8 +81,6 @@ case 6:
             var11 = var2;
             var4 = copyDataProperties(var11, var10);
             var1['profileContainer'] = var2;
-            var2 = {'flex': 1, 'marginTop': 12};
-            var1['aboutMeCard'] = var2;
             var2 = {};
             var2['zIndex'] = var3;
             var1['profileEffect'] = var2;

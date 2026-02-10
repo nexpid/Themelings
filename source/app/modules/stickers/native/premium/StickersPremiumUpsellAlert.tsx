@@ -1,11 +1,11 @@
 // app/modules/stickers/native/premium/StickersPremiumUpsellAlert.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -15,8 +15,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var13 = 0;
-    var7 = var6[var13];
+    var11 = 0;
+    var7 = var6[var11];
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var4 = 6;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var7['icon'] = var4;
     var4 = function description() {
         var5 = _closure1_slot0;
@@ -79,9 +79,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7['description'] = var4;
-    var11 = 8;
-    var4 = var6[var11];
-    var4 = var12.bind(var1)(var4);
+    var12 = 8;
+    var4 = var6[var12];
+    var4 = var13.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
     var4 = var4.PREMIUM_PERK_PURPLE;
     var7['color'] = var4;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var8 = 9;
     var8 = var6[var8];
-    var8 = var12.bind(var1)(var8);
+    var8 = var13.bind(var1)(var8);
     var7['icon'] = var8;
     var8 = function description() {
         var6 = _closure1_slot0;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var8 = 10;
     var8 = var6[var8];
-    var8 = var12.bind(var1)(var8);
+    var8 = var13.bind(var1)(var8);
     var7['icon'] = var8;
     var8 = function description() {
         var5 = _closure1_slot0;
@@ -135,8 +135,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7['description'] = var8;
-    var8 = var6[var11];
-    var8 = var12.bind(var1)(var8);
+    var8 = var6[var12];
+    var8 = var13.bind(var1)(var8);
     var8 = var8.unsafe_rawColors;
     var8 = var8.PREMIUM_PERK_GREEN;
     var7['color'] = var8;
@@ -164,39 +164,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'textAlign': 'center', 'lineHeight': 20};
     var4['description'] = var9;
     var9 = {'backgroundColor': null, 'borderRadius': null, 'marginTop': 16, 'marginBottom': 0, 'paddingHorizontal': 12, 'paddingVertical': 8, 'width': '100%'};
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
+    var10 = var6[var12];
+    var10 = var13.bind(var1)(var10);
     var10 = var10.colors;
     var10 = var10.BACKGROUND_SURFACE_HIGH;
     var9['backgroundColor'] = var10;
-    var10 = var6[var11];
-    var10 = var12.bind(var1)(var10);
+    var10 = var6[var12];
+    var10 = var13.bind(var1)(var10);
     var10 = var10.radii;
     var10 = var10.sm;
     var9['borderRadius'] = var10;
     var10 = 12;
     var4['perks'] = var9;
     var9 = {'paddingVertical': 10, 'borderBottomColor': null, 'borderBottomWidth': 1, 'flexDirection': 'row', 'alignItems': 'center'};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.unsafe_rawColors;
-    var14 = var14.PRIMARY_560;
-    var9['borderBottomColor'] = var14;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.unsafe_rawColors;
+    var12 = var12.PRIMARY_560;
+    var9['borderBottomColor'] = var12;
     var4['perkRow'] = var9;
     var9 = {};
-    var9['borderBottomWidth'] = var13;
+    var9['borderBottomWidth'] = var11;
     var4['lastPerkRow'] = var9;
     var9 = {'width': 24, 'marginRight': 20};
     var4['perkIcon'] = var9;
     var9 = {'lineHeight': 20, 'flexShrink': 1};
     var4['perkText'] = var9;
-    var9 = {'color': null, 'marginTop': 16, 'fontSize': 12, 'lineHeight': 16};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.TEXT_DEFAULT;
-    var9['color'] = var11;
-    var4['disclaimer'] = var9;
     var9 = {};
     var9['marginBottom'] = var10;
     var4['imageHeader'] = var9;

@@ -1,7 +1,6 @@
 // app/modules/user_settings/native/design_system/UserSettingsDesignSystemFormPrimitives.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -13,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = _closure1_slot6;
         var11 = _closure1_slot0;
         var13 = _closure1_slot1;
-        var6 = 7;
+        var6 = 6;
         var5 = var13[var6];
         var1 = undefined;
         var5 = var11.bind(var1)(var5);
@@ -30,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8.bind(var1)(var7, var6);
         var5[1] = var6;
         var8 = _closure1_slot7;
-        var6 = 8;
+        var6 = 7;
         var6 = var13[var6];
         var6 = var11.bind(var1)(var6);
         var7 = var6.TableRadioGroup;
@@ -38,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = _closure1_slot5;
         var6['onChange'] = var9;
         var15 = _closure1_slot6;
-        var10 = 9;
+        var10 = 8;
         var9 = var13[var10];
         var9 = var11.bind(var1)(var9);
         var14 = var9.TableRadioRow;
@@ -92,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = _closure1_slot6;
         var11 = _closure1_slot0;
         var14 = _closure1_slot1;
-        var6 = 7;
+        var6 = 6;
         var5 = var14[var6];
         var5 = var11.bind(var4)(var5);
         var7 = var5.Text;
@@ -108,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
         var9 = _closure1_slot6;
-        var6 = 10;
+        var6 = 9;
         var7 = var14[var6];
         var7 = var11.bind(var4)(var7);
         var8 = var7.TableRowGroup;
@@ -116,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = 'Emoji';
         var7['title'] = var10;
         var19 = _closure1_slot6;
-        var10 = 11;
+        var10 = 10;
         var12 = var14[var10];
         var12 = var11.bind(var4)(var12);
         var15 = var12.TableSwitchRow;
@@ -246,7 +245,7 @@ case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var1 = 12;
+            var1 = 11;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Checkbox;
@@ -268,7 +267,7 @@ case 4:
         var8 = _closure1_slot6;
         var7 = _closure1_slot0;
         var5 = _closure1_slot1;
-        var1 = 7;
+        var1 = 6;
         var5 = var5[var1];
         var1 = undefined;
         var5 = var7.bind(var1)(var5);
@@ -304,7 +303,7 @@ case 4:
         var8 = _closure1_slot6;
         var11 = _closure1_slot0;
         var14 = _closure1_slot1;
-        var6 = 7;
+        var6 = 6;
         var5 = var14[var6];
         var1 = undefined;
         var5 = var11.bind(var1)(var5);
@@ -321,7 +320,7 @@ case 4:
         var6 = var8.bind(var1)(var7, var6);
         var5[1] = var6;
         var8 = _closure1_slot7;
-        var6 = 10;
+        var6 = 9;
         var6 = var14[var6];
         var6 = var11.bind(var1)(var6);
         var7 = var6.TableRowGroup;
@@ -329,7 +328,7 @@ case 4:
         var9 = 'Who can send you a friend request?';
         var6['title'] = var9;
         var15 = _closure1_slot6;
-        var10 = 13;
+        var10 = 12;
         var9 = var14[var10];
         var9 = var11.bind(var1)(var9);
         var12 = var9.TableCheckboxRow;
@@ -372,7 +371,7 @@ case 4:
         var7 = _closure1_slot6;
         var14 = _closure1_slot0;
         var16 = _closure1_slot1;
-        var1 = 7;
+        var1 = 6;
         var5 = var16[var1];
         var1 = undefined;
         var5 = var14.bind(var1)(var5);
@@ -382,19 +381,19 @@ case 4:
         var5 = new Array(2);
         var5[0] = var6;
         var8 = _closure1_slot6;
-        var6 = 14;
+        var6 = 13;
         var6 = var16[var6];
         var6 = var14.bind(var1)(var6);
         var7 = var6.TableRow;
         var6 = {'start': true, 'end': true, 'label': 'Volume'};
         var11 = _closure1_slot6;
-        var9 = 15;
+        var9 = 14;
         var9 = var16[var9];
         var9 = var14.bind(var1)(var9);
         var10 = var9.Slider;
         var9 = {};
         var17 = _closure1_slot6;
-        var13 = 16;
+        var13 = 15;
         var13 = var16[var13];
         var13 = var14.bind(var1)(var13);
         var15 = var13.VoiceXIcon;
@@ -402,7 +401,7 @@ case 4:
         var13 = var17.bind(var1)(var15, var13);
         var9['startIcon'] = var13;
         var15 = _closure1_slot6;
-        var13 = 17;
+        var13 = 16;
         var13 = var16[var13];
         var13 = var14.bind(var1)(var13);
         var14 = var13.VoiceNormalIcon;
@@ -429,9 +428,10 @@ case 4:
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var7 = var6[var1];
+    var4 = metroImportDefault;
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -464,19 +464,6 @@ case 4:
     var4 = {};
     var9 = {'padding': 16, 'paddingBottom': 32};
     var4['container'] = var9;
-    var9 = {};
-    var10 = 6;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var12;
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.radii;
-    var10 = var10.xl;
-    var9['borderRadius'] = var10;
-    var4['sample'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = function useSwitchState() {
@@ -518,7 +505,7 @@ case 4:
         }
     };
     var _closure1_slot10 = var4;
-    var4 = 19;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -534,7 +521,7 @@ case 4:
         var7 = _closure1_slot7;
         var6 = _closure1_slot0;
         var10 = _closure1_slot1;
-        var5 = 18;
+        var5 = 17;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Stack;

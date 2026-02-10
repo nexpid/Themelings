@@ -1,11 +1,11 @@
 // app/modules/video_calls/native/components/UserVideoFailed.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -41,19 +41,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'alignItems': 'center', 'justifyContent': 'center', 'backgroundColor': null, 'padding': 8};
-    var10 = 'center';
-    var11 = 4;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.unsafe_rawColors;
-    var11 = var11.PRIMARY_700;
-    var9['backgroundColor'] = var11;
+    var10 = 4;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.unsafe_rawColors;
+    var10 = var10.PRIMARY_700;
+    var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {'marginBottom': 8, 'width': '100%', 'resizeMode': 'contain'};
     var4['placeholderImage'] = var9;
-    var9 = {};
-    var9['textAlign'] = var10;
-    var4['placeholderText'] = var9;
     var9 = {'marginTop': 16, 'alignSelf': 'center'};
     var4['button'] = var9;
     var4 = var7.bind(var8)(var4);

@@ -79,13 +79,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 'hidden';
     var9['overflow'] = var12;
     var4['videoContainer'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var12;
-    var4['video'] = var9;
     var9 = {'marginTop': 16, 'alignItems': 'center'};
     var4['info'] = var9;
     var9 = {'marginTop': 24, 'textAlign': 'center'};

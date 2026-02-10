@@ -1,29 +1,29 @@
 // app/modules/guild_antiraid/native/GuildIncidentActionsActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
+    var8 = var6[var1];
     var2 = metroImportAll;
     var1 = undefined;
-    var2 = var2.bind(var1)(var7);
+    var2 = var2.bind(var1)(var8);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
-    var2 = var11.bind(var1)(var2);
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var6[var2];
@@ -62,45 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var2);
     var7 = var8.createStyles;
     var2 = {};
-    var9 = {'paddingVertical': 24, 'paddingHorizontal': 16, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center'};
-    var2['container'] = var9;
-    var9 = {'marginBottom': 12, 'textAlign': 'center', 'display': 'flex', 'flexDirection': 'row'};
-    var2['title'] = var9;
     var9 = {};
     var10 = -12;
     var9['marginLeft'] = var10;
     var2['beta'] = var9;
-    var9 = {'marginBottom': 16, 'textAlign': 'center'};
-    var2['subtitle'] = var9;
-    var9 = {'backgroundColor': null, 'padding': 12, 'borderRadius': null, 'width': '100%', 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
-    var10 = 7;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INPUT_BACKGROUND_DEFAULT;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.sm;
-    var9['borderRadius'] = var12;
-    var2['dropdown'] = var9;
-    var9 = {'width': 20, 'height': 20};
-    var2['dropdownIcon'] = var9;
-    var9 = {'width': '100%', 'position': 'relative'};
-    var2['invitesOptionContainer'] = var9;
-    var9 = {'borderColor': null, 'borderWidth': 1, 'marginBottom': 12};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BORDER_SUBTLE;
-    var9['borderColor'] = var12;
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.radii;
-    var10 = var10.xs;
-    var9['borderRadius'] = var10;
-    var2['optionContainer'] = var9;
     var2 = var7.bind(var8)(var2);
     var _closure1_slot15 = var2;
     var2 = function DurationSelectionActionSheet(arg1) {
@@ -113,18 +78,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot14;
         var7 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var1 = var10[var1];
         var1 = var7.bind(var4)(var1);
         var2 = var1.ActionSheet;
         var1 = {};
         var8 = _closure1_slot13;
-        var5 = 9;
+        var5 = 8;
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
         var6 = var5.BottomSheetTitleHeader;
         var5 = {};
-        var12 = 10;
+        var12 = 9;
         var13 = var10[var12];
         var13 = var7.bind(var4)(var13);
         var14 = var13.intl;
@@ -138,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var6 = 11;
+        var6 = 10;
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
         var6 = var6.ActionSheetRow;
@@ -153,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot13;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var4[var2];
             var4 = undefined;
             var2 = var3.bind(var4)(var2);
@@ -209,7 +174,7 @@ case 0:
             var17 = var3.hasTimeChanges;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 12;
+            var3 = 11;
             var3 = var7[var3];
             var9 = var5.bind(var4)(var3);
             var8 = var9.useStateFromStores;
@@ -225,7 +190,7 @@ case 0:
                 return var1;
             };
             var6 = var8.bind(var9)(var6, var3);
-            var3 = 13;
+            var3 = 12;
             var8 = var7[var3];
             var9 = var5.bind(var4)(var8);
             var8 = var9.hasInvitesDisabled;
@@ -294,7 +259,7 @@ case 4:
             var1 = function onDurationSelectorClose() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -318,7 +283,7 @@ case 4:
             var15 = function handleClose() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -333,7 +298,7 @@ case 4:
             var3 = _closure1_slot14;
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var10[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.ActionSheet;
@@ -341,12 +306,12 @@ case 4:
             var8 = true;
             var1['startExpanded'] = var8;
             var7 = _closure1_slot13;
-            var5 = 9;
+            var5 = 8;
             var5 = var10[var5];
             var5 = var12.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
-            var18 = 10;
+            var18 = 9;
             var23 = var10[var18];
             var23 = var12.bind(var4)(var23);
             var26 = var23.intl;
@@ -358,7 +323,7 @@ case 4:
             var23 = var24.bind(var26)(var23);
             var5['title'] = var23;
             var24 = _closure1_slot1;
-            var26 = 15;
+            var26 = 14;
             var23 = var10[var26];
             var24 = var24.bind(var4)(var23);
             var23 = {};
@@ -373,7 +338,7 @@ case 4:
             var5['leading'] = var23;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;
-            var26 = 16;
+            var26 = 15;
             var5 = var10[var26];
             var5 = var12.bind(var4)(var5);
             var6 = var5.TableRow;
@@ -407,7 +372,7 @@ case 6:
             var10 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -441,7 +406,7 @@ case 6:
             var5 = new Array(4);
             var5[0] = var6;
             var10 = _closure1_slot14;
-            var6 = 17;
+            var6 = 16;
             var6 = var24[var6];
             var6 = var28.bind(var4)(var6);
             var9 = var6.TableRowGroup;
@@ -449,7 +414,7 @@ case 6:
             var6 = false;
             var7['hasIcons'] = var6;
             var23 = _closure1_slot13;
-            var6 = 18;
+            var6 = 17;
             var12 = var24[var6];
             var12 = var28.bind(var4)(var12);
             var14 = var12.TableSwitchRow;
@@ -508,11 +473,11 @@ case 11:
             var27 = var26.Icon;
             var26 = {};
             var30 = _closure1_slot1;
-            var29 = 19;
+            var29 = 18;
             var29 = var25[var29];
             var29 = var30.bind(var4)(var29);
             var26['source'] = var29;
-            var29 = 20;
+            var29 = 19;
             var29 = var25[var29];
             var29 = var28.bind(var4)(var29);
             var29 = var29.WarningIcon;
@@ -579,12 +544,12 @@ case 10:
             var6 = var14.bind(var4)(var7, var6);
             var5[2] = var6;
             var8 = _closure1_slot14;
-            var6 = 21;
+            var6 = 20;
             var6 = var13[var6];
             var6 = var24.bind(var4)(var6);
             var7 = var6.ButtonGroup;
             var6 = {};
-            var10 = 22;
+            var10 = 21;
             var9 = var13[var10];
             var9 = var24.bind(var4)(var9);
             var12 = var9.Button;
@@ -594,7 +559,7 @@ case 10:
 case 0:
                     var10 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 22;
                     var2 = var13[var1];
                     var1 = undefined;
                     var4 = var10.bind(var1)(var2);
@@ -616,7 +581,7 @@ case 0:
                     var7 = var2.alertType;
                     var14 = var2.messageId;
                     var3 = _closure1_slot1;
-                    var2 = 24;
+                    var2 = 23;
                     var2 = var13[var2];
                     var6 = var3.bind(var1)(var2);
                     var4 = var6.track;
@@ -628,7 +593,7 @@ case 0:
                     var2['source'] = var15;
                     var2['raid_alert_id'] = var14;
                     var2['raid_alert_type'] = var7;
-                    var7 = 13;
+                    var7 = 12;
                     var14 = var13[var7];
                     var15 = var10.bind(var1)(var14);
                     var14 = var15.getEnabledInterventions;
@@ -662,14 +627,14 @@ case 16:
 case 19:
                     var3 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 13;
                     var2 = var9[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.showActionSheet;
                     var2 = {};
                     var7 = _closure1_slot13;
                     var6 = _closure1_slot1;
-                    var5 = 25;
+                    var5 = 24;
                     var5 = var9[var5];
                     var6 = var6.bind(var1)(var5);
                     var5 = {};
@@ -746,7 +711,7 @@ case 22:
         }
     };
     var _closure1_slot17 = var2;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

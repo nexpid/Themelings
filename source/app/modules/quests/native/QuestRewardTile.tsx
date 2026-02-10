@@ -33,19 +33,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var8 = var4.AppState;
     var _closure1_slot6 = var8;
-    var8 = var4.View;
-    var _closure1_slot7 = var8;
-    var4 = var4.StyleSheet;
-    var _closure1_slot8 = var4;
+    var4 = var4.View;
+    var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -53,35 +51,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = {};
         var2 = {'borderRadius': null, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
-        var6 = _closure1_slot1;
-        var5 = _closure1_slot2;
-        var4 = 6;
-        var5 = var5[var4];
-        var4 = undefined;
-        var4 = var6.bind(var4)(var5);
-        var4 = var4.radii;
-        var4 = var4.sm;
-        var2['borderRadius'] = var4;
-        var4 = 'center';
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var3 = 6;
+        var4 = var4[var3];
+        var3 = undefined;
+        var3 = var5.bind(var3)(var4);
+        var3 = var3.radii;
+        var3 = var3.sm;
+        var2['borderRadius'] = var3;
         var1['container'] = var2;
         var2 = {'overflow': 'hidden', 'height': '100%', 'width': '100%'};
         var1['video'] = var2;
         var2 = {'height': '100%', 'width': '100%'};
         var1['image'] = var2;
-        var2 = {};
-        var3 = _closure1_slot8;
-        var7 = var3.absoluteFillObject;
-        var8 = var2;
-        var3 = copyDataProperties(var8, var7);
-        var3 = 'justifyContent';
-        var2[var3] = var4;
-        var3 = 'alignItems';
-        var2[var3] = var4;
-        var1['loader'] = var2;
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -124,11 +111,11 @@ case 4:
             var3 = var9[var3];
             var10 = var7.bind(var4)(var3);
             var9 = var10.useStateFromStores;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var7 = new Array(1);
             var7[0] = var3;
             var3 = function() {
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot8;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
@@ -184,7 +171,7 @@ case 8:
             };
             var14 = var9.bind(var4)(var2, var3);
             _closure2_slot3 = var14;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var9 = var2.bind(var4)();
             var13 = _closure1_slot4;
             var3 = var13.useState;
@@ -283,7 +270,7 @@ case 9:
                 return var1;
             };
             var13 = var3.bind(var13)(var1, var2);
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var2 = _closure1_slot7;
             var1 = {};
             var1['accessibilityLabel'] = var7;
@@ -301,7 +288,7 @@ case 9:
 case 12:
             if(var5) { _fun0001_ip = 13; continue _fun0001 }
 case 11:
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
             var5 = 13;
@@ -316,7 +303,7 @@ case 11:
             var5 = var8.bind(var4)(var7, var5);
             _fun0001_ip = 14; continue _fun0001;
 case 13:
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot9;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
             var6 = 12;

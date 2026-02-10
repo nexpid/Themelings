@@ -18,9 +18,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot25 = var1;
     var1 = function GradientBackground(arg1) {
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot19;
         var4 = undefined;
         var1 = false;
         var8 = var2.bind(var4)(var1);
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot26 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -70,38 +70,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.Platform;
     var4 = 3;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var4 = var9.ACTION_SHEET_BACKGROUND_COLOR;
-    var _closure1_slot7 = var4;
-    var4 = var9.ACTION_SHEET_START_HEIGHT_RATIO;
-    var _closure1_slot8 = var4;
-    var4 = var9.ACTION_SHEET_MAX_WIDTH;
-    var _closure1_slot9 = var4;
-    var4 = var9.ACTION_SHEET_SPRING_CONFIG;
-    var _closure1_slot10 = var4;
-    var4 = var9.ACTION_SHEET_SPRING_CONFIG_REDUCED_MOTION;
-    var _closure1_slot11 = var4;
-    var8 = var9.ACTION_SHEET_HANDLE_SPACING;
-    var4 = var9.ACTION_SHEET_GRADIENT_BORDER_WIDTH;
-    var _closure1_slot12 = var4;
-    var4 = var9.ACTION_SHEET_GRADIENT_BORDER_RADIUS;
-    var _closure1_slot13 = var4;
-    var4 = var9.ACTION_SHEET_HANDLE_OVERHANG_REDESIGN;
-    var10 = var9.ACTION_SHEET_BORDER_RADIUS;
-    var _closure1_slot14 = var10;
-    var10 = var9.ACTION_SHEET_INNER_BORDER_RADIUS;
-    var _closure1_slot15 = var10;
-    var9 = var9.ACTION_SHEET_MINIMUM_BOTTOM_PADDING;
-    var _closure1_slot16 = var9;
-    var9 = 4;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var10 = var9.jsx;
-    var _closure1_slot17 = var10;
-    var9 = var9.jsxs;
-    var _closure1_slot18 = var9;
-    var4 = var8 - var4;
-    var _closure1_slot19 = var4;
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.ACTION_SHEET_BACKGROUND_COLOR;
+    var _closure1_slot7 = var8;
+    var8 = var4.ACTION_SHEET_START_HEIGHT_RATIO;
+    var _closure1_slot8 = var8;
+    var8 = var4.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot9 = var8;
+    var8 = var4.ACTION_SHEET_SPRING_CONFIG;
+    var _closure1_slot10 = var8;
+    var8 = var4.ACTION_SHEET_SPRING_CONFIG_REDUCED_MOTION;
+    var _closure1_slot11 = var8;
+    var8 = var4.ACTION_SHEET_GRADIENT_BORDER_WIDTH;
+    var _closure1_slot12 = var8;
+    var8 = var4.ACTION_SHEET_GRADIENT_BORDER_RADIUS;
+    var _closure1_slot13 = var8;
+    var8 = var4.ACTION_SHEET_BORDER_RADIUS;
+    var _closure1_slot14 = var8;
+    var8 = var4.ACTION_SHEET_INNER_BORDER_RADIUS;
+    var _closure1_slot15 = var8;
+    var4 = var4.ACTION_SHEET_MINIMUM_BOTTOM_PADDING;
+    var _closure1_slot16 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot17 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot18 = var4;
     var4 = 5;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -180,10 +176,6 @@ case 12:
             var2['borderTopRightRadius'] = var4;
             var1['gradient'] = var2;
             var2 = {};
-            var4 = _closure1_slot19;
-            var2['paddingTop'] = var4;
-            var1['themedContentPadding'] = var2;
-            var2 = {};
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 6;
@@ -216,7 +208,7 @@ case 12:
         }
     };
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var8 = var7.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -422,7 +414,7 @@ case 28:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot21 = var4;
+    var _closure1_slot20 = var4;
     var8 = var7.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -456,7 +448,7 @@ case 0:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
-            var8 = _closure1_slot20;
+            var8 = _closure1_slot19;
             var15 = false;
             var13 = var8.bind(var4)(var15);
             var16 = _closure1_slot1;
@@ -641,19 +633,19 @@ case 45:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot22 = var4;
+    var _closure1_slot21 = var4;
     var4 = {};
     var8 = 'function BottomSheetNativeTsx1(){const{animatedIndex}=this.__closure;return animatedIndex.get()<=-1;}';
     var4['code'] = var8;
-    var _closure1_slot23 = var4;
+    var _closure1_slot22 = var4;
     var4 = {};
     var8 = 'function BottomSheetNativeTsx2(){const{animatedIsVisuallyClosed}=this.__closure;return animatedIsVisuallyClosed.get();}';
     var4['code'] = var8;
-    var _closure1_slot24 = var4;
+    var _closure1_slot23 = var4;
     var4 = {};
     var8 = "function BottomSheetNativeTsx3(isVisuallyClosed){const{transitionState,runOnJS,onLeave}=this.__closure;if(isVisuallyClosed&&transitionState==='exiting'){runOnJS(onLeave)();}}";
     var4['code'] = var8;
-    var _closure1_slot25 = var4;
+    var _closure1_slot24 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -740,7 +732,7 @@ case 49:
             var18 = var20.bind(var5)(var18);
             var18 = var18.bind(var5)();
             var32 = var18.bottom;
-            var20 = _closure1_slot20;
+            var20 = _closure1_slot19;
             var18 = global;
             var30 = var18.Math;
             var29 = var30.max;
@@ -979,7 +971,7 @@ case 68:
             var14['__closure'] = var26;
             var26 = 4341912681188.0;
             var14['__workletHash'] = var26;
-            var26 = _closure1_slot23;
+            var26 = _closure1_slot22;
             var14['__initData'] = var26;
             var39 = var15.bind(var18)(var14);
             _closure2_slot14 = var39;
@@ -997,7 +989,7 @@ case 68:
             var15['__closure'] = var14;
             var14 = 6995719052506.0;
             var15['__workletHash'] = var14;
-            var14 = _closure1_slot24;
+            var14 = _closure1_slot23;
             var15['__initData'] = var14;
             var14 = function ce(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -1036,7 +1028,7 @@ case 71:
             var14['__closure'] = var39;
             var39 = 77590951197.0;
             var14['__workletHash'] = var39;
-            var39 = _closure1_slot25;
+            var39 = _closure1_slot24;
             var14['__initData'] = var39;
             var14 = var18.bind(var26)(var15, var14);
             var26 = _closure1_slot4;
@@ -1189,10 +1181,10 @@ case 60:
             var26 = var1.bind(var5)(var31);
             if(var27) { _fun0009_ip = 75; continue _fun0009 }
 case 76:
-            var8 = _closure1_slot21;
+            var8 = _closure1_slot20;
             _fun0009_ip = 77; continue _fun0009;
 case 75:
-            var8 = _closure1_slot22;
+            var8 = _closure1_slot21;
 case 77:
             var6 = _closure1_slot1;
             var40 = _closure1_slot2;
@@ -1269,10 +1261,10 @@ case 84:
             var1['backdropComponent'] = var15;
             if(var4) { _fun0009_ip = 88; continue _fun0009 }
 case 89:
-            var15 = _closure1_slot26;
+            var15 = _closure1_slot25;
             _fun0009_ip = 90; continue _fun0009;
 case 88:
-            var15 = _closure1_slot27;
+            var15 = _closure1_slot26;
 case 90:
             var1['backgroundComponent'] = var15;
             var1['renderFooter'] = var14;

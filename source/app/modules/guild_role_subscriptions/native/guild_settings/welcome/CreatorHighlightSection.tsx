@@ -439,8 +439,8 @@ case 5:
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var4 = var6[var10];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot4 = var7;
@@ -458,9 +458,6 @@ case 5:
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var9['flex'] = var10;
-    var4['container'] = var9;
     var9 = {};
     var10 = 'row';
     var9['flexDirection'] = var10;

@@ -88,17 +88,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['headerContainer'] = var9;
     var9 = {'borderBottomWidth': 0, 'shadowColor': 'transparent', 'backgroundColor': 'transparent'};
     var4['header'] = var9;
-    var9 = {};
-    var12 = 'center';
-    var9['textAlign'] = var12;
-    var4['title'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
-    var9['color'] = var12;
-    var4['button'] = var9;
     var9 = {'flex': 1, 'display': 'flex'};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

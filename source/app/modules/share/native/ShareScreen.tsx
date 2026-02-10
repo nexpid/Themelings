@@ -132,10 +132,6 @@ case 5:
         var7 = var8.createStyles;
         var4 = {};
         var9 = {};
-        var13 = 'center';
-        var9['textAlign'] = var13;
-        var4['title'] = var9;
-        var9 = {};
         var9['flex'] = var12;
         var4['content'] = var9;
         var9 = {};

@@ -62,13 +62,6 @@ case 2:
         var8 = var5.bind(var1)(var4);
         var7 = var8.createStyles;
         var4 = {};
-        var9 = {};
-        var14 = var6[var10];
-        var14 = var11.bind(var1)(var14);
-        var14 = var14.spacing;
-        var14 = var14.PX_16;
-        var9['padding'] = var14;
-        var4['headerContainer'] = var9;
         var9 = {'width': 250, 'marginEnd': null, 'flex': 1};
         var9['marginEnd'] = var13;
         var4['cardContainer'] = var9;

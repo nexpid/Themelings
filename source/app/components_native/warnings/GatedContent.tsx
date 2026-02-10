@@ -44,16 +44,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['textAlign'] = var10;
     var4['title'] = var9;
-    var9 = {'width': 300, 'height': 200, 'resizeMode': 'contain'};
-    var4['emptyImage'] = var9;
-    var9 = {};
-    var9['textAlign'] = var10;
-    var4['emptyTitle'] = var9;
     var9 = {};
     var9['textAlign'] = var10;
     var4['description'] = var9;
-    var9 = {'marginBottom': 8, 'marginHorizontal': 4, 'alignItems': 'center', 'flexGrow': 0};
-    var4['button'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = 9;

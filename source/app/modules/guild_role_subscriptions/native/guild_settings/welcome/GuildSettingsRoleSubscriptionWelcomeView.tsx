@@ -717,8 +717,6 @@ case 41:
     var11 = {};
     var11['flex'] = var12;
     var6['container'] = var11;
-    var11 = {'flex': 1, 'flexDirection': 'row'};
-    var6['horizontalContainer'] = var11;
     var12 = 24;
     var11 = {'flex': 1, 'padding': 24};
     var6['contentContainer'] = var11;

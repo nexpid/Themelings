@@ -72,9 +72,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var12 = 'center';
     var9['textAlign'] = var12;
-    var4['ratingsHeader'] = var9;
-    var9 = {};
-    var9['textAlign'] = var12;
     var4['ratingsBody'] = var9;
     var9 = {};
     var10 = var6[var10];

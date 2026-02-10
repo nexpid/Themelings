@@ -248,16 +248,10 @@ case 2:
     var9 = {};
     var9['flex'] = var10;
     var4['container'] = var9;
-    var10 = 8;
     var9 = {'marginBottom': 8, 'textAlign': 'center'};
     var4['title'] = var9;
     var9 = {'alignItems': 'center', 'justifyContent': 'center', 'padding': 16};
     var4['header'] = var9;
-    var9 = {};
-    var9['marginLeft'] = var10;
-    var4['closeIcon'] = var9;
-    var9 = {'backgroundColor': 'transparent', 'borderBottomWidth': 0};
-    var4['navbar'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = 'EDIT_DESCRIPTION';

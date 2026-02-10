@@ -48,10 +48,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 32;
     var9['marginBottom'] = var10;
     var4['image'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginTop'] = var10;
-    var4['title'] = var9;
     var9 = {'marginTop': 24, 'maxWidth': '100%'};
     var4['valueProps'] = var9;
     var4 = var7.bind(var8)(var4);

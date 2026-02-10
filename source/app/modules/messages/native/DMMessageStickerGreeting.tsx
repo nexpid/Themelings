@@ -98,23 +98,16 @@ case 2:
             var7 = var7.colors;
             var7 = var7.BACKGROUND_BASE_LOWEST;
             var2['backgroundColor'] = var7;
-            var7 = var6[var3];
-            var7 = var5.bind(var4)(var7);
-            var7 = var7.radii;
-            var7 = var7.xxl;
-            var2['borderRadius'] = var7;
-            var1['toastContainer'] = var2;
-            var2 = {};
-            var7 = 20;
-            var2['lineHeight'] = var7;
-            var1['toastContent'] = var2;
-            var2 = {'color': null, 'marginTop': 16, 'fontSize': 14, 'lineHeight': 16};
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var3 = var3.unsafe_rawColors;
-            var3 = var3.RED_400;
-            var2['color'] = var3;
-            var1['error'] = var2;
+            var3 = var3.radii;
+            var3 = var3.xxl;
+            var2['borderRadius'] = var3;
+            var1['toastContainer'] = var2;
+            var2 = {};
+            var3 = 20;
+            var2['lineHeight'] = var3;
+            var1['toastContent'] = var2;
             var2 = {'position': 'absolute', 'right': 0, 'left': 0, 'top': 0, 'height': 30};
             var1['gradient'] = var2;
             return var1;
@@ -514,7 +507,7 @@ case 10:
             var9 = var7[var2];
             var11 = var4.bind(var5)(var9);
             var9 = var11.useAnimatedStyle;
-            var8 = function x() {
+            var8 = function M() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot2;

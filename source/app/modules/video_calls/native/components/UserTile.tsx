@@ -104,13 +104,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var15.bind(var17)(var14, var16);
     var10['backgroundColor'] = var14;
     var4['autoDisabledVideo'] = var10;
-    var10 = {'borderRadius': null, 'width': 24, 'justifyContent': 'center'};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.md;
-    var10['borderRadius'] = var14;
-    var4['autoDisabledVideoIconWrapper'] = var10;
     var10 = {'borderRadius': null, 'flexDirection': 'row', 'justifyContent': 'space-evenly', 'paddingHorizontal': 8, 'paddingVertical': 4, 'alignItems': 'center'};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);

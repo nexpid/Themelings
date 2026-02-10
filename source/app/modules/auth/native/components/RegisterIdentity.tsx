@@ -470,8 +470,6 @@ case 17:
     var9 = {};
     var9['marginTop'] = var10;
     var4['errors'] = var9;
-    var9 = {'paddingRight': 16, 'marginTop': 16};
-    var4['marketingOptInCheckbox'] = var9;
     var9 = {'height': 45, 'marginBottom': 24};
     var4['segmentedControl'] = var9;
     var9 = {};

@@ -50,10 +50,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['marginRight'] = var10;
     var4['nitroWheel'] = var9;
-    var9 = {};
-    var10 = 12;
-    var9['marginTop'] = var10;
-    var4['upsellButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = 11;

@@ -247,8 +247,6 @@ case 2:
     var2 = 54;
     var11 = {'position': 'relative', 'height': 54};
     var5['headerContainer'] = var11;
-    var11 = {'margin': 0, 'marginHorizontal': 16, 'marginBottom': 8};
-    var5['ptbButton'] = var11;
     var5 = var9.bind(var10)(var5);
     var _closure1_slot9 = var5;
     var5 = {};

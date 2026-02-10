@@ -85,8 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['flex'] = var11;
     var4['page'] = var10;
-    var10 = {'position': 'absolute', 'bottom': 100, 'paddingLeft': 16, 'paddingRight': 16};
-    var4['bottom'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot15 = var4;
     var4 = 10;

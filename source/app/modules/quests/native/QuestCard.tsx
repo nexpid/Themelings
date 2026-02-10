@@ -286,13 +286,6 @@ case 9:
     var20 = var20.PX_12;
     var15['marginRight'] = var20;
     var9['rewardImgContainer'] = var15;
-    var15 = {'height': '100%', 'width': '100%'};
-    var20 = var6[var16];
-    var20 = var17.bind(var1)(var20);
-    var20 = var20.radii;
-    var20 = var20.sm;
-    var15['borderRadius'] = var20;
-    var9['rewardImg'] = var15;
     var15 = {'display': 'flex', 'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'space-between', 'alignItems': 'flex-end'};
     var9['heroFooterContainer'] = var15;
     var15 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'flex-start'};

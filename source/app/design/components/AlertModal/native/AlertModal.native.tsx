@@ -388,8 +388,8 @@ case 13:
     var5 = var7.bind(var1)(var5);
     var10 = var5.View;
     var _closure1_slot7 = var10;
-    var15 = var5.StyleSheet;
-    var _closure1_slot8 = var15;
+    var10 = var5.StyleSheet;
+    var _closure1_slot8 = var10;
     var10 = var5.Dimensions;
     var _closure1_slot9 = var10;
     var5 = var5.ScrollView;
@@ -413,11 +413,6 @@ case 13:
     var14 = 'center';
     var13 = {'flex': 1, 'position': 'relative', 'justifyContent': 'center', 'alignItems': 'center', 'paddingHorizontal': 16};
     var5['root'] = var13;
-    var13 = {};
-    var19 = var15.absoluteFillObject;
-    var20 = var13;
-    var15 = copyDataProperties(var20, var19);
-    var5['overlay'] = var13;
     var13 = {'backgroundColor': null, 'margin': 16, 'width': '100%', 'height': '100%'};
     var15 = 8;
     var17 = var8[var15];

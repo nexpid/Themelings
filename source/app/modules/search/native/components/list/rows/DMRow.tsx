@@ -122,10 +122,6 @@ case 4:
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {};
-    var12 = 12;
-    var10['marginRight'] = var12;
-    var4['avatar'] = var10;
     var10 = {'width': 14, 'height': 14};
     var4['activityStatusIcon'] = var10;
     var10 = {'color': null, 'fontSize': 14, 'lineHeight': 18, 'fontWeight': '400'};

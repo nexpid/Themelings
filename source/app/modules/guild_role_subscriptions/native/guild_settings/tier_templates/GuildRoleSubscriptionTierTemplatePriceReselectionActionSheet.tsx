@@ -216,10 +216,6 @@ case 6:
     var10 = 'center';
     var9['alignSelf'] = var10;
     var4['backToTemplates'] = var9;
-    var9 = {};
-    var10 = 0.5;
-    var9['opacity'] = var10;
-    var4['disabled'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 22;

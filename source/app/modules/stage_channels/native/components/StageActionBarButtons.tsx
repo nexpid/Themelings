@@ -294,13 +294,6 @@ case 8:
     var16 = var16.BLUE_345;
     var15['tintColor'] = var16;
     var7['continueIcon'] = var15;
-    var15 = {};
-    var16 = var9[var12];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.ICON_FEEDBACK_CRITICAL;
-    var15['tintColor'] = var16;
-    var7['ageVerificationIcon'] = var15;
     var7 = var10.bind(var11)(var7);
     var _closure1_slot14 = var7;
     var6 = var9[var6];
@@ -322,8 +315,6 @@ case 8:
     var11 = {};
     var11['alignItems'] = var14;
     var6['header'] = var11;
-    var11 = {'width': 120, 'height': 120};
-    var6['headerImage'] = var11;
     var11 = {};
     var15 = var9[var12];
     var15 = var13.bind(var1)(var15);

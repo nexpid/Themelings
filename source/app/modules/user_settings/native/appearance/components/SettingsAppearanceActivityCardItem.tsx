@@ -78,11 +78,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = 'center';
     var9['alignItems'] = var15;
     var4['card'] = var9;
-    var9 = var6[var10];
-    var9 = var11.bind(var1)(var9);
-    var9 = var9.shadows;
-    var9 = var9.SHADOW_MEDIUM;
-    var4['shadow'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'right': 0};
     var4['cardBadgeWrapper'] = var9;
     var9 = {};

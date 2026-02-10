@@ -400,10 +400,6 @@ case 2:
     var10 = var10.PX_8;
     var9['padding'] = var10;
     var4['doneButton'] = var9;
-    var9 = {};
-    var10 = '#fff';
-    var9['tintColor'] = var10;
-    var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = {};

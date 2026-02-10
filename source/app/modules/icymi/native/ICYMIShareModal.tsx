@@ -922,10 +922,6 @@ case 42:
     var10['borderColor'] = var14;
     var5['preview'] = var10;
     var10 = {};
-    var14 = 0.5;
-    var10['opacity'] = var14;
-    var5['loading'] = var10;
-    var10 = {};
     var14 = 'relative';
     var10['position'] = var14;
     var5['base'] = var10;

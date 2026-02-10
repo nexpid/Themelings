@@ -66,8 +66,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['title'] = var10;
     var10 = {'textAlign': 'center', 'marginTop': 4, 'marginHorizontal': 20};
     var4['subtext'] = var10;
-    var10 = {'width': 32, 'height': 32};
-    var4['spinner'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
     var4 = var7.memo;

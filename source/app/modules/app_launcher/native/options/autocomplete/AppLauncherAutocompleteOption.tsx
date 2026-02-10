@@ -61,8 +61,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderColor'] = var14;
     var9['padding'] = var13;
     var4['hasError'] = var9;
-    var9 = {'overflow': 'hidden', 'maxHeight': 100, 'flex': 1, 'padding': 0, 'paddingTop': 0};
-    var4['stringOptionInput'] = var9;
     var9 = {'fontSize': 16, 'alignSelf': 'center'};
     var12 = var12.PRIMARY_MEDIUM;
     var9['fontFamily'] = var12;
@@ -72,10 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.TEXT_DEFAULT;
     var9['color'] = var10;
     var4['inputText'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginBottom'] = var10;
-    var4['labelText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
     var4 = 13;

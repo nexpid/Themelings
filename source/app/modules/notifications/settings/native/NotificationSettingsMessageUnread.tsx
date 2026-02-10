@@ -224,11 +224,9 @@ case 4:
     var11 = var11.BACKGROUND_MOD_SUBTLE;
     var9['borderColor'] = var11;
     var4['card'] = var9;
-    var11 = 8;
-    var9 = {'flex': 1, 'marginTop': 8, 'alignItems': 'center'};
-    var4['information'] = var9;
     var9 = {'marginTop': 4, 'textAlign': 'center'};
     var4['cta'] = var9;
+    var11 = 8;
     var9 = {'marginTop': 8, 'textAlign': 'center'};
     var4['label'] = var9;
     var9 = {};

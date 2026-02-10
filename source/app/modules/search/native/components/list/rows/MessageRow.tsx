@@ -660,8 +660,6 @@ case 34:
     var10 = {};
     var10['marginLeft'] = var12;
     var4['timestamp'] = var10;
-    var10 = {'marginLeft': 8, 'opacity': 0.8};
-    var4['timestampMuted'] = var10;
     var10 = {'flexDirection': 'row', 'marginRight': 16, 'marginBottom': 12};
     var4['header'] = var10;
     var10 = {};

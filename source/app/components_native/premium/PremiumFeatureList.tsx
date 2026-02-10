@@ -59,8 +59,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var19 = var10;
     var13 = copyDataProperties(var19, var18);
     var7['label'] = var10;
-    var10 = {'width': 24, 'height': 24};
-    var7['icon'] = var10;
     var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

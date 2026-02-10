@@ -154,6 +154,8 @@ case 4:
             var8['children'] = var10;
             var8 = var4.bind(var5)(var9, var8);
             var2['riveComponent'] = var8;
+            var8 = 'beta';
+            var2['badge'] = var8;
             var2['status'] = var7;
             var2['onPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);

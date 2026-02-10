@@ -2023,17 +2023,7 @@ case 121:
     var10 = {'position': 'absolute', 'width': '100%', 'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
     var4['user'] = var10;
     var10 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
-    var4['stream'] = var10;
-    var10 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
     var4['video'] = var10;
-    var10 = {};
-    var16 = {};
-    var11 = -1;
-    var16['scaleX'] = var11;
-    var11 = new Array(1);
-    var11[0] = var16;
-    var10['transform'] = var11;
-    var4['flip'] = var10;
     var10 = {'position': 'relative', 'width': '56%', 'height': '56%', 'alignItems': 'center', 'justifyContent': 'center'};
     var4['avatarWrapper'] = var10;
     var10 = {'width': 22, 'height': 22, 'backgroundColor': 'rgba(78, 80, 88, 0.48)', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'position': 'absolute', 'top': 6, 'left': 6};

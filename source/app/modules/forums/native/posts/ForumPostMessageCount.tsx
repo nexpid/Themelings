@@ -79,9 +79,6 @@ case 4:
         var4['iconUnread'] = var9;
         var9 = {};
         var9['marginStart'] = var10;
-        var4['messageCount'] = var9;
-        var9 = {};
-        var9['marginStart'] = var10;
         var4['messageUnreadCount'] = var9;
         var9 = {'flexDirection': 'row', 'alignItems': 'center'};
         var4['container'] = var9;

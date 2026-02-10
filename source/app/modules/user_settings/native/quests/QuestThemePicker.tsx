@@ -492,13 +492,6 @@ case 13:
     var10['marginBottom'] = var13;
     var4['themeSection'] = var10;
     var10 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_8;
-    var10['marginBottom'] = var13;
-    var4['themeSectionTitle'] = var10;
-    var10 = {};
     var13 = 'row';
     var10['flexDirection'] = var13;
     var13 = var6[var11];

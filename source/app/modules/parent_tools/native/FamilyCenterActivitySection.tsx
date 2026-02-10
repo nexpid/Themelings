@@ -188,10 +188,6 @@ case 15:
     var13 = 'flex';
     var9['display'] = var13;
     var4['container'] = var9;
-    var9 = {};
-    var13 = 'hidden';
-    var9['overflow'] = var13;
-    var4['actionContainer'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'flex': 1, 'alignItems': 'center', 'justifyContent': 'center', 'width': '100%'};
     var4['loadMoreContainer'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};

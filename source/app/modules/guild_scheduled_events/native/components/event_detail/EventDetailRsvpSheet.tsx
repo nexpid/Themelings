@@ -397,8 +397,8 @@ case 17:
     var1 = undefined;
     var9 = var2.bind(var1)(var8);
     var _closure1_slot3 = var9;
-    var12 = 1;
-    var2 = var7[var12];
+    var2 = 1;
+    var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var8 = var2.ActivityIndicator;
     var _closure1_slot4 = var8;
@@ -428,9 +428,6 @@ case 17:
     var10 = var6.bind(var1)(var2);
     var8 = var10.createStyles;
     var2 = {};
-    var11 = {};
-    var11['flex'] = var12;
-    var2['flex'] = var11;
     var15 = 16;
     var11 = {'flex': 1, 'padding': 16};
     var2['staticMessageContentContainer'] = var11;

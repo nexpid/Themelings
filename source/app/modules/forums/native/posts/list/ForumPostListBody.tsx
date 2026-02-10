@@ -48,10 +48,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['flex'] = var10;
     var4['contentContainer'] = var9;
     var9 = {};
-    var10 = 'italic';
-    var9['fontStyle'] = var10;
-    var4['contentBlocked'] = var9;
-    var9 = {};
     var10 = 12;
     var9['marginLeft'] = var10;
     var4['thumbnailContainer'] = var9;

@@ -973,13 +973,6 @@ case 42:
     var14 = 80;
     var10['width'] = var14;
     var4['placeholder'] = var10;
-    var10 = {};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOW;
-    var10['backgroundColor'] = var14;
-    var4['youRowClientTheme'] = var10;
     var10 = {'position': 'relative', 'borderRadius': null, 'overflow': 'hidden'};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);
@@ -989,13 +982,6 @@ case 42:
     var4['buttonContainer'] = var10;
     var10 = {'width': 20, 'height': 20};
     var4['largeButtonIcon'] = var10;
-    var10 = {};
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_FEEDBACK_NOTIFICATION;
-    var10['backgroundColor'] = var14;
-    var4['settingsBadge'] = var10;
     var10 = {};
     var14 = var6[var11];
     var14 = var12.bind(var1)(var14);

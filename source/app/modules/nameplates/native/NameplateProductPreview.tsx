@@ -59,13 +59,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.PX_8;
     var9['paddingVertical'] = var12;
     var4['memberListTitle'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var12;
-    var4['memberListUser'] = var9;
     var9 = {'position': 'absolute', 'right': 0, 'left': 0, 'top': 0, 'bottom': 0};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

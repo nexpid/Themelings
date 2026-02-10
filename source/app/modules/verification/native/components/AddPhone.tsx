@@ -85,8 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 'center';
     var9['textAlign'] = var13;
     var4['title'] = var9;
-    var9 = {'marginTop': 8, 'lineHeight': 18, 'textAlign': 'center'};
-    var4['subtitle'] = var9;
     var9 = {};
     var13 = 24;
     var9['marginTop'] = var13;

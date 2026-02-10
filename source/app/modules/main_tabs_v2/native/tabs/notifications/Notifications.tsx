@@ -337,8 +337,6 @@ case 11:
     var13['backgroundColor'] = var17;
     var13['flexGrow'] = var16;
     var7['container'] = var13;
-    var13 = {'zIndex': 100, 'width': '100%', 'marginBottom': 12};
-    var7['header'] = var13;
     var16 = 'center';
     var13 = {'height': 56, 'marginHorizontal': 16, 'flexDirection': 'row', 'alignItems': 'center'};
     var7['headerTitle'] = var13;

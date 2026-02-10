@@ -427,7 +427,7 @@ case 27:
             var7 = var19[var18];
             var13 = var17.bind(var5)(var7);
             var11 = var13.useAnimatedStyle;
-            var7 = function H() {
+            var7 = function G() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = _closure2_slot5;
@@ -999,13 +999,6 @@ case 37:
     var13 = var13.BACKGROUND_BASE_LOWEST;
     var10['backgroundColor'] = var13;
     var4['container'] = var10;
-    var10 = {};
-    var13 = var7[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWEST;
-    var10['backgroundColor'] = var13;
-    var4['bottomPaddingContainer'] = var10;
     var10 = {'flexGrow': 1, 'flexShrink': 1, 'marginLeft': 8};
     var4['text'] = var10;
     var10 = {'flexShrink': 1, 'flexWrap': 'wrap'};

@@ -652,14 +652,6 @@ case 53:
         var3 = arg1;
         var2['paddingBottom'] = var3;
         var1['footer'] = var2;
-        var2 = {};
-        var3 = 0.8;
-        var2['opacity'] = var3;
-        var1['platformSelectClaiming'] = var2;
-        var2 = {};
-        var3 = 'relative';
-        var2['position'] = var3;
-        var1['platformSelectWrapper'] = var2;
         var2 = {'position': 'absolute', 'left': '50%', 'top': '50%', 'marginLeft': 4294967284, 'marginTop': 4294967284};
         var1['claimingIndicator'] = var2;
         var2 = {};

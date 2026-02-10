@@ -1,11 +1,11 @@
 // app/modules/action_sheet/native/components/EmojiRow.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -51,11 +51,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
-    var10 = 6;
-    var4 = var6[var10];
-    var4 = var11.bind(var1)(var4);
+    var11 = 6;
+    var4 = var6[var11];
+    var4 = var12.bind(var1)(var4);
     var4 = var4.colors;
-    var12 = var4.BACKGROUND_MOD_STRONG;
+    var10 = var4.BACKGROUND_MOD_STRONG;
     var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -64,11 +64,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'width': 28, 'height': 28};
     var4['emojiImage'] = var9;
     var9 = {'paddingTop': 5, 'lineHeight': 28, 'fontSize': 28, 'color': null, 'textAlign': 'center', 'width': 28, 'height': 28};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
-    var9['color'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
+    var9['color'] = var11;
     var4['emojiText'] = var9;
     var9 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
     var4['emojiRowContainer'] = var9;
@@ -77,18 +77,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'borderRadius': 24, 'overflow': 'hidden'};
     var4['emojiWrapper'] = var9;
     var9 = {'width': 48, 'height': 48, 'alignItems': 'center', 'justifyContent': 'center'};
-    var9['backgroundColor'] = var12;
+    var9['backgroundColor'] = var10;
     var4['emojiContainer'] = var9;
     var9 = {};
-    var9['backgroundColor'] = var12;
+    var9['backgroundColor'] = var10;
     var4['addReaction'] = var9;
-    var9 = {};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.INTERACTIVE_TEXT_DEFAULT;
-    var9['color'] = var10;
-    var4['icon'] = var9;
     var9 = {'marginLeft': 6, 'marginTop': 6};
     var4['sparklingIcon'] = var9;
     var4 = var7.bind(var8)(var4);

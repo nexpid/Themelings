@@ -110,10 +110,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['opacity'] = var14;
     var4['disclaimer'] = var9;
     var9 = {};
-    var14 = 40;
-    var9['height'] = var14;
-    var4['unlockWithNitroButton'] = var9;
-    var9 = {};
     var14 = 'row';
     var9['flexDirection'] = var14;
     var11 = var6[var11];
@@ -866,7 +862,7 @@ case 38:
             var3 = var13[var1];
             var24 = var14.bind(var4)(var3);
             var14 = var24.useAnimatedStyle;
-            var3 = function h() {
+            var3 = function y() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};

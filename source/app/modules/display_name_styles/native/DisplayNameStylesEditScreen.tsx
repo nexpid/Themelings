@@ -306,13 +306,6 @@ case 14:
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_8;
-    var9['marginBottom'] = var13;
-    var4['sectionTitle'] = var9;
-    var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.BACKGROUND_MOD_MUTED;
     var9['backgroundColor'] = var13;

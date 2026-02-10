@@ -59,10 +59,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 'row';
     var9['flexDirection'] = var12;
     var4['applicationNameWrapper'] = var9;
-    var9 = {};
-    var12 = 8;
-    var9['marginLeft'] = var12;
-    var4['logoutLink'] = var9;
     var9 = {'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'space-between', 'marginBottom': 24};
     var4['headerIcons'] = var9;
     var9 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'marginHorizontal': 24};

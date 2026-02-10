@@ -66,9 +66,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['formRow'] = var10;
     var10 = {};
     var11 = 8;
-    var10['marginBottom'] = var11;
-    var7['formDivider'] = var10;
-    var10 = {};
     var10['gap'] = var11;
     var7['formSection'] = var10;
     var10 = {};

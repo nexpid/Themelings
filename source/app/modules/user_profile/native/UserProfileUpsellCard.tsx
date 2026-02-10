@@ -60,13 +60,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['upsellButton'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'marginBottom': 4};
     var4['titleContainer'] = var9;
-    var9 = {'tintColor': null, 'width': 20, 'height': 20};
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
-    var9['tintColor'] = var14;
-    var4['premiumWheelHeader'] = var9;
     var9 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
     var4['linearGradient'] = var9;
     var9 = {};

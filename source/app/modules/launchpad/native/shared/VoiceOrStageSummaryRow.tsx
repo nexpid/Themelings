@@ -87,13 +87,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['height'] = var7;
         var1['badge'] = var2;
         var2 = {};
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.colors;
-        var7 = var7.BACKGROUND_FEEDBACK_NOTIFICATION;
-        var2['backgroundColor'] = var7;
-        var1['liveBadge'] = var2;
-        var2 = {};
         var3 = var6[var3];
         var3 = var5.bind(var4)(var3);
         var3 = var3.colors;

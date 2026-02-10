@@ -178,8 +178,6 @@ case 2:
     var12 = var12.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var12;
     var4['container'] = var9;
-    var9 = {'position': 'absolute', 'height': 48, 'width': '100%', 'left': 0};
-    var4['scrollContainerGradient'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -1073,7 +1071,7 @@ case 32:
             var2 = var10[var8];
             var18 = var6.bind(var4)(var2);
             var3 = var18.useAnimatedStyle;
-            var2 = function dt() {
+            var2 = function ct() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                     var2 = _closure2_slot12;
@@ -1139,7 +1137,7 @@ case 32:
             var2 = var10[var8];
             var26 = var6.bind(var4)(var2);
             var3 = var26.useAnimatedStyle;
-            var2 = function ct() {
+            var2 = function dt() {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     var2 = _closure2_slot12;

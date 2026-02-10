@@ -38,10 +38,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 16;
     var9['marginBottom'] = var10;
     var4['activity'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginBottom'] = var10;
-    var4['sectionTitle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot4 = var4;
     var4 = 5;

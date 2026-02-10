@@ -389,8 +389,6 @@ case 18:
     var4['expiredTitle'] = var9;
     var9 = {'backgroundColor': 'transparent', 'marginBottom': 24};
     var4['expiredBody'] = var9;
-    var9 = {'flex': 1, 'width': '100%', 'flexGrow': 0, 'paddingHorizontal': 8, 'marginVertical': 8};
-    var4['button'] = var9;
     var9 = {'justifyContent': 'center', 'alignItems': 'center'};
     var4['disabledView'] = var9;
     var9 = {'position': 'absolute', 'alignSelf': 'center', 'tintColor': null, 'width': 42, 'height': 42};
@@ -412,8 +410,6 @@ case 18:
     var4['disabledTitle'] = var9;
     var9 = {'textAlign': 'center', 'marginBottom': 16};
     var4['disabledBody'] = var9;
-    var9 = {'flex': 1, 'width': '100%', 'marginVertical': 0};
-    var4['disabledButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 20;

@@ -57,8 +57,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['featuredContainer'] = var9;
-    var9 = {'display': 'flex', 'flexDirection': 'column', 'height': '100%'};
-    var4['feedContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
     var4 = 14;

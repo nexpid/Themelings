@@ -203,16 +203,6 @@ case 5:
     var9['flex'] = var12;
     var4['container'] = var9;
     var9 = {};
-    var9['flex'] = var12;
-    var4['headerTitle'] = var9;
-    var9 = {};
-    var13 = 'center';
-    var9['alignSelf'] = var13;
-    var4['actionContainer'] = var9;
-    var9 = {};
-    var9['flex'] = var12;
-    var4['createEventButton'] = var9;
-    var9 = {};
     var12 = 9;
     var12 = var6[var12];
     var13 = var11.bind(var1)(var12);

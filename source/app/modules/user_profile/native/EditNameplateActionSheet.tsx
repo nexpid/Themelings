@@ -153,8 +153,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['fontSize'] = var11;
     var2['ctaTextStyle'] = var10;
-    var10 = {'flexDirection': 'row', 'width': '100%', 'justifyContent': 'center', 'alignItems': 'center', 'marginBottom': 24};
-    var2['avatarDisplayContainer'] = var10;
     var2 = var5.bind(var8)(var2);
     var _closure1_slot18 = var2;
     var2 = function EditNameplateInner(arg1) {
@@ -800,7 +798,7 @@ case 42:
             var6 = var15[var5];
             var14 = var23.bind(var4)(var6);
             var7 = var14.useAnimatedStyle;
-            var6 = function x() {
+            var6 = function C() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot6;

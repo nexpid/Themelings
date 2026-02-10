@@ -1182,10 +1182,6 @@ case 94:
 case 93:
         var9['alignItems'] = var13;
         var4['header'] = var9;
-        var9 = {};
-        var13 = 24;
-        var9['marginTop'] = var13;
-        var4['loading'] = var9;
         var9 = {'flexGrow': 1, 'justifyContent': 'center'};
         var4['emptyContainer'] = var9;
         var9 = {};

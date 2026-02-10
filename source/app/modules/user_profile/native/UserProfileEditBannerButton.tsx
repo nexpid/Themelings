@@ -215,8 +215,6 @@ case 6:
     var12 = var12.round;
     var9['borderRadius'] = var12;
     var4['editButton'] = var9;
-    var9 = {'width': 28, 'height': 28};
-    var4['editIcon'] = var9;
     var9 = {'position': 'absolute', 'justifyContent': 'center', 'minHeight': 28, 'top': 12, 'right': 48, 'paddingVertical': 4, 'paddingHorizontal': 12, 'borderRadius': null, 'backgroundColor': null, 'zIndex': 1};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

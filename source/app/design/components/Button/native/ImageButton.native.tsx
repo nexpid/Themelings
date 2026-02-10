@@ -99,10 +99,6 @@ case 7:
 case 6:
             var2['flexGrow'] = var7;
             var1['labelPressable'] = var2;
-            var2 = {};
-            var2['width'] = var4;
-            var2['height'] = var4;
-            var1['button'] = var2;
             var2 = {'paddingHorizontal': 0, 'paddingVertical': 0};
             var2['minHeight'] = var4;
             var2['minWidth'] = var4;

@@ -317,8 +317,6 @@ case 14:
     var18 = var13;
     var15 = copyDataProperties(var18, var17);
     var7['container'] = var13;
-    var13 = {'width': 20, 'height': 20};
-    var7['formIcon'] = var13;
     var13 = {};
     var15 = var6[var14];
     var15 = var5.bind(var1)(var15);

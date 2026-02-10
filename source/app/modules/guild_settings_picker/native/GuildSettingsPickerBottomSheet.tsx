@@ -39,9 +39,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = {};
     var10 = 16;
-    var9['paddingVertical'] = var10;
-    var2['container'] = var9;
-    var9 = {};
     var9['paddingHorizontal'] = var10;
     var2['content'] = var9;
     var2 = var7.bind(var8)(var2);

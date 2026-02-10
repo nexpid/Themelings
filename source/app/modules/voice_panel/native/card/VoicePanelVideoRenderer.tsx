@@ -124,8 +124,6 @@ case 2:
     var10 = {};
     var10['position'] = var11;
     var4['animatedWrapperStyles'] = var10;
-    var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'width': '100%', 'height': '100%'};
-    var4['videoRenderer'] = var10;
     var10 = {'width': '100%', 'height': '100%'};
     var4['video'] = var10;
     var10 = {'position': 'absolute', 'top': '50%', 'left': '50%', 'marginTop': 4294967280, 'marginLeft': 4294967280, 'height': 32, 'width': 32};

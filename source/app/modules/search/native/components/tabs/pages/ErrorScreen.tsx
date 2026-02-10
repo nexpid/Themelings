@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot2 = var7;
-    var11 = 1;
-    var4 = var6[var11];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
@@ -38,9 +38,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var10 = {'justifyContent': 'center', 'alignItems': 'center', 'top': '10%'};
     var4['container'] = var10;
-    var10 = {};
-    var10['flex'] = var11;
-    var4['pressable'] = var10;
     var10 = {'textAlign': 'center', 'marginTop': 16, 'width': '75%'};
     var4['text'] = var10;
     var4 = var8.bind(var9)(var4);

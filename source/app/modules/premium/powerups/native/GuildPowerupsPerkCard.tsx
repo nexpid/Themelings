@@ -195,7 +195,7 @@ case 7:
             var9[1] = var11;
             var5['children'] = var9;
             var6 = var3.bind(var4)(var6, var5);
-            var5 = new Array(3);
+            var5 = new Array(4);
             var5[0] = var6;
             var11 = _closure1_slot5;
             var9 = _closure1_slot3;
@@ -249,30 +249,63 @@ case 7:
             var6 = var6 === var8;
             if(!var6) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
+            var12 = _closure1_slot4;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var9 = 12;
+            var9 = var17[var9];
+            var9 = var16.bind(var4)(var9);
+            var11 = var9.TextBadge;
+            var9 = {};
+            var13 = 13;
+            var14 = var17[var13];
+            var14 = var16.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var13 = var17[var13];
+            var13 = var16.bind(var4)(var13);
+            var13 = var13.t;
+            var13 = var13.y2b7CA;
+            var13 = var14.bind(var15)(var13);
+            var9['text'] = var13;
+            var13 = var10.badge;
+            var9['style'] = var13;
+            var6 = var12.bind(var4)(var11, var9);
+case 11:
+            var5[2] = var6;
+            var6 = 'beta';
+            var6 = var6 === var8;
+            if(!var6) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var9 = _closure1_slot4;
-            var14 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var7 = 12;
-            var7 = var15[var7];
-            var7 = var14.bind(var4)(var7);
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 12;
+            var7 = var13[var11];
+            var7 = var12.bind(var4)(var7);
             var8 = var7.TextBadge;
             var7 = {};
-            var11 = 13;
-            var12 = var15[var11];
-            var12 = var14.bind(var4)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
-            var11 = var15[var11];
-            var11 = var14.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.y2b7CA;
-            var11 = var12.bind(var13)(var11);
-            var7['text'] = var11;
+            var14 = 13;
+            var15 = var13[var14];
+            var15 = var12.bind(var4)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
+            var14 = var13[var14];
+            var14 = var12.bind(var4)(var14);
+            var14 = var14.t;
+            var14 = var14.oW0eUd;
+            var14 = var15.bind(var16)(var14);
+            var7['text'] = var14;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.BadgeColors;
+            var11 = var11.BRAND;
+            var7['color'] = var11;
             var10 = var10.badge;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 11:
-            var5[2] = var6;
+case 13:
+            var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

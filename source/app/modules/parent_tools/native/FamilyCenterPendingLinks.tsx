@@ -355,8 +355,6 @@ case 2:
     var13 = var13.md;
     var12['borderRadius'] = var13;
     var7['content'] = var12;
-    var12 = {'padding': 20, 'alignSelf': 'center'};
-    var7['empty'] = var12;
     var12 = {};
     var13 = 10;
     var12['marginBottom'] = var13;

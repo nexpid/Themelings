@@ -66,8 +66,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['color'] = var14;
     var14 = 8;
     var7['warningCaption'] = var10;
-    var10 = {'lineHeight': 20, 'textAlign': 'center', 'marginTop': 8, 'marginBottom': 32};
-    var7['caption'] = var10;
     var10 = {};
     var10['flexGrow'] = var15;
     var7['button'] = var10;

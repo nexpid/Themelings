@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,13 +181,14 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var4 = function buildPowerupListings(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var7 = arg2;
             var4 = arg3;
             var3 = new Array(0);
+            var _closure2_slot0 = var3;
             var6 = var7.reduce;
             var5 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -199,7 +200,7 @@ case 0:
                     var3 = var3.PERK;
                     if(!(var5 === var3)) { _fun0005_ip = 36; continue _fun0005 }
 case 34:
-                    var3 = _closure1_slot6;
+                    var3 = _closure1_slot7;
                     var2 = var4.skuId;
                     var2 = var3[var2];
                     var5 = null;
@@ -221,70 +222,100 @@ case 36:
                 }
             };
             var2 = {};
-            var15 = var6.bind(var7)(var5, var2);
-            var6 = _closure1_slot8;
-            var2 = undefined;
-            var14 = var6.bind(var2)(var7);
-            var7 = var14.bind(var2)();
-            var6 = var7.done;
-            var13 = 'singlePerk';
-            var12 = 'multiPerk';
-            var11 = null;
-            var10 = 'singleLevel';
-            var9 = var7;
-            var8 = undefined;
-            var7 = undefined;
-            if(var6) { _fun0004_ip = 40; continue _fun0004 }
+            var2 = var6.bind(var7)(var5, var2);
+            var _closure2_slot1 = var2;
+            var9 = function _loop() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var2 = _closure2_slot2;
+                    var3 = var2.type;
+                    var2 = _closure1_slot5;
+                    var2 = var2.LEVEL;
+                    if(!(var3 !== var2)) { _fun0006_ip = 40; continue _fun0006 }
 case 41:
-            var19 = var9.value;
-            var16 = var19.type;
-            var6 = _closure1_slot5;
-            var6 = var6.LEVEL;
-            if(!(var16 === var6)) { _fun0004_ip = 42; continue _fun0004 }
+                    var3 = _closure1_slot7;
+                    var2 = _closure2_slot2;
+                    var2 = var2.skuId;
+                    var3 = var3[var2];
+                    var2 = null;
+                    if(!(var2 == var3)) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
-            var16 = var3.push;
-            var6 = {};
-            var6['type'] = var10;
-            var6['powerup'] = var19;
-            var6 = var16.bind(var3)(var6);
-            var16 = var7;
-            _fun0004_ip = 44; continue _fun0004;
+                    var7 = _closure2_slot0;
+                    var6 = var7.push;
+                    var2 = {};
+                    var8 = 'singlePerk';
+                    var2['type'] = var8;
+                    var8 = _closure2_slot2;
+                    var2['powerup'] = var8;
+                    var2 = var6.bind(var7)(var2);
+                    var2 = undefined;
+                    return var2;
 case 42:
-            var17 = _closure1_slot6;
-            var6 = var19.skuId;
-            var6 = var17[var6];
-            if(!(var11 != var6)) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
-            var17 = var15[var6];
-            var8 = var6;
-            var16 = var17;
-            if(!(var2 !== var17)) { _fun0004_ip = 44; continue _fun0004 }
-case 47:
-            var20 = var3.push;
-            var18 = {};
-            var18['type'] = var12;
-            var18['group'] = var6;
-            var18['powerups'] = var17;
-            var18 = var20.bind(var3)(var18);
-            var15[var6] = var2;
-            var8 = var6;
-            var16 = var17;
-            _fun0004_ip = 44; continue _fun0004;
+                    var2 = _closure2_slot1;
+                    var7 = var2[var3];
+                    var2 = undefined;
+                    if(!(var2 !== var7)) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
-            var18 = var3.push;
-            var17 = {};
-            var17['type'] = var13;
-            var17['powerup'] = var19;
-            var17 = var18.bind(var3)(var17);
-            var8 = var6;
-            var16 = var7;
+                    var5 = _closure1_slot6;
+                    var5 = var5[var3];
+                    var _closure3_slot0 = var5;
+                    var5 = var7.sort;
+                    var1 = function(arg1, arg2) {
+                        var4 = _closure3_slot0;
+                        var3 = var4.indexOf;
+                        var2 = arg1;
+                        var2 = var2.skuId;
+                        var2 = var3.bind(var4)(var2);
+                        var4 = _closure3_slot0;
+                        var3 = var4.indexOf;
+                        var1 = arg2;
+                        var1 = var1.skuId;
+                        var1 = var3.bind(var4)(var1);
+                        var1 = var2 - var1;
+                        return var1;
+                    };
+                    var1 = var5.bind(var7)(var1);
+                    var6 = _closure2_slot0;
+                    var5 = var6.push;
+                    var1 = {};
+                    var8 = 'multiPerk';
+                    var1['type'] = var8;
+                    var1['group'] = var3;
+                    var1['powerups'] = var7;
+                    var1 = var5.bind(var6)(var1);
+                    var1 = _closure2_slot1;
+                    var1[var3] = var2;
 case 44:
-            var17 = var14.bind(var2)();
-            var6 = var17.done;
-            var7 = var16;
-            var9 = var17;
-            if(!var6) { _fun0004_ip = 41; continue _fun0004 }
+                    var1 = 0;
+                    return var1;
 case 40:
+                    var3 = _closure2_slot0;
+                    var2 = var3.push;
+                    var1 = {};
+                    var5 = 'singleLevel';
+                    var1['type'] = var5;
+                    var4 = _closure2_slot2;
+                    var1['powerup'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = 0;
+                    return var1;
+                }
+            };
+            var6 = _closure1_slot9;
+            var2 = undefined;
+            var8 = var6.bind(var2)(var7);
+            var7 = var8.bind(var2)();
+            var6 = var7.done;
+            if(var6) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
+            var6 = var7.value;
+            var _closure2_slot2 = var6;
+            var6 = var9.bind(var2)();
+            var10 = var8.bind(var2)();
+            var6 = var10.done;
+            var7 = var10;
+            if(!var6) { _fun0004_ip = 47; continue _fun0004 }
+case 46:
             if(!var4) { _fun0004_ip = 48; continue _fun0004 }
 case 49:
             var5 = _closure1_slot5;
@@ -301,18 +332,18 @@ case 51:
             var4 = var5.bind(var3)(var4);
 case 50:
             var1 = function orderPowerupListings(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = arg1;
                     var4 = var3.findIndex;
                     var1 = function(arg1) {
-                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                             var2 = arg1;
                             var3 = var2.type;
                             var1 = 'singlePerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0007_ip = 52; continue _fun0007 }
+                            if(!var1) { _fun0008_ip = 52; continue _fun0008 }
 case 53:
                             var2 = var2.powerup;
                             var3 = var2.skuId;
@@ -331,13 +362,13 @@ case 52:
                     var1 = var4.bind(var3)(var1);
                     var5 = var3.findIndex;
                     var4 = function(arg1) {
-                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                             var2 = arg1;
                             var3 = var2.type;
                             var1 = 'multiPerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0008_ip = 54; continue _fun0008 }
+                            if(!var1) { _fun0009_ip = 54; continue _fun0009 }
 case 53:
                             var3 = var2.group;
                             var2 = 'guildTagsBadgePacks';
@@ -348,13 +379,13 @@ case 54:
                     };
                     var4 = var5.bind(var3)(var4);
                     var5 = -1;
-                    if(!(var5 !== var1)) { _fun0006_ip = 55; continue _fun0006 }
+                    if(!(var5 !== var1)) { _fun0007_ip = 55; continue _fun0007 }
 case 56:
-                    if(!(var5 !== var4)) { _fun0006_ip = 55; continue _fun0006 }
+                    if(!(var5 !== var4)) { _fun0007_ip = 55; continue _fun0007 }
 case 4:
                     var6 = 1;
                     var1 = var1 + var6;
-                    if(!(var4 === var1)) { _fun0006_ip = 52; continue _fun0006 }
+                    if(!(var4 === var1)) { _fun0007_ip = 52; continue _fun0007 }
 case 55:
                     return var3;
 case 52:
@@ -372,13 +403,13 @@ case 52:
                     var4 = var3[var5];
                     var3 = var1.findIndex;
                     var2 = function(arg1) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var2 = arg1;
                             var3 = var2.type;
                             var1 = 'singlePerk';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0009_ip = 52; continue _fun0009 }
+                            if(!var1) { _fun0010_ip = 52; continue _fun0010 }
 case 53:
                             var2 = var2.powerup;
                             var3 = var2.skuId;
@@ -405,7 +436,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var6 = global;
     var11 = var6.Object;
     var10 = var11.defineProperty;
@@ -437,12 +468,12 @@ case 52:
     var11 = 4;
     var10 = var8[var11];
     var10 = var7.bind(var1)(var10);
-    var12 = var10.GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID;
+    var12 = var10.GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES_POWERUP_SKU_ID;
     var10 = new Array(4);
     var10[0] = var12;
     var12 = var8[var11];
     var12 = var7.bind(var1)(var12);
-    var12 = var12.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
+    var12 = var12.GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID;
     var10[1] = var12;
     var12 = var8[var11];
     var12 = var7.bind(var1)(var12);
@@ -450,15 +481,16 @@ case 52:
     var10[2] = var12;
     var11 = var8[var11];
     var11 = var7.bind(var1)(var11);
-    var11 = var11.GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES_POWERUP_SKU_ID;
+    var11 = var11.GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID;
     var10[3] = var11;
     var5['guildTagsBadgePacks'] = var10;
+    var _closure1_slot6 = var5;
     var10 = var6.Object;
     var6 = var10.entries;
     var12 = var6.bind(var10)(var5);
     var11 = var12.reduce;
     var10 = function(arg1, arg2) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var7 = arg2;
@@ -469,52 +501,52 @@ case 0:
             var6 = undefined;
             var4 = var4 === var6;
             var5 = undefined;
-            if(var4) { _fun0010_ip = 3; continue _fun0010 }
+            if(var4) { _fun0011_ip = 3; continue _fun0011 }
 case 57:
             var5 = var3;
 case 3:
             var3 = undefined;
-            if(var4) { _fun0010_ip = 58; continue _fun0010 }
+            if(var4) { _fun0011_ip = 58; continue _fun0011 }
 case 59:
             var8 = var7().value;
             var7 = var2;
             var7 = var7 === var6;
             var3 = undefined;
             var4 = var7;
-            if(var7) { _fun0010_ip = 58; continue _fun0010 }
+            if(var7) { _fun0011_ip = 58; continue _fun0011 }
 case 60:
             var3 = var8;
             var4 = var7;
 case 58:
-            if(var4) { _fun0010_ip = 55; continue _fun0010 }
+            if(var4) { _fun0011_ip = 55; continue _fun0011 }
 case 61:
             var2.return();
 case 55:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var4 = var2.bind(var6)(var3);
             var3 = var4.bind(var6)();
             var2 = var3.done;
-            if(var2) { _fun0010_ip = 62; continue _fun0010 }
+            if(var2) { _fun0011_ip = 62; continue _fun0011 }
 case 63:
             var2 = var3.value;
             var1[var2] = var5;
             var7 = var4.bind(var6)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0010_ip = 63; continue _fun0010 }
+            if(!var2) { _fun0011_ip = 63; continue _fun0011 }
 case 62:
             return var1;
         }
     };
     var6 = {};
     var6 = var11.bind(var12)(var10, var6);
-    var _closure1_slot6 = var6;
+    var _closure1_slot7 = var6;
     var10 = var9.LEVEL;
     var6 = new Array(2);
     var6[0] = var10;
     var9 = var9.PERK;
     var6[1] = var9;
-    var _closure1_slot7 = var6;
+    var _closure1_slot8 = var6;
     var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -524,7 +556,7 @@ case 62:
     var3['POWERUP_GROUP_TO_SKU_IDS'] = var5;
     var3['buildPowerupListings'] = var4;
     var2 = function useBuildGuildPowerupsSections(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var5 = arg2;
             var2 = arg1;
@@ -553,7 +585,7 @@ case 0:
             var3 = var4.useMemo;
             var7 = null;
             var7 = var7 == var2;
-            if(var7) { _fun0011_ip = 64; continue _fun0011 }
+            if(var7) { _fun0012_ip = 64; continue _fun0012 }
 case 65:
             var6 = var2.powerupCatalog;
 case 64:
@@ -561,10 +593,10 @@ case 64:
             var2[0] = var6;
             var2[1] = var5;
             var1 = function() {
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var3 = var4.reduce;
                 var2 = function(arg1, arg2) {
-                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                         var1 = arg1;
                         var5 = arg2;
@@ -573,15 +605,15 @@ case 0:
                         var7 = var3 == var4;
                         var6 = undefined;
                         var4 = undefined;
-                        if(var7) { _fun0012_ip = 66; continue _fun0012 }
+                        if(var7) { _fun0013_ip = 66; continue _fun0013 }
 case 67:
                         var7 = _closure2_slot2;
                         var7 = var7.powerupCatalog;
                         var4 = var7[var5];
 case 66:
-                        if(!(var3 != var4)) { _fun0012_ip = 68; continue _fun0012 }
+                        if(!(var3 != var4)) { _fun0013_ip = 68; continue _fun0013 }
 case 69:
-                        var3 = _closure1_slot10;
+                        var3 = _closure1_slot11;
                         var2 = _closure2_slot1;
                         var4 = var3.bind(var6)(var5, var4, var2);
                         var3 = var1.push;

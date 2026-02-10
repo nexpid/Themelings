@@ -140,12 +140,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['termsRow'] = var9;
     var9 = {'flex': 1, 'lineHeight': 20};
     var4['termsRowContent'] = var9;
-    var11 = 8;
     var9 = {'paddingRight': 8, 'width': 20, 'height': 20};
     var4['termsRowNumber'] = var9;
-    var9 = {};
-    var9['marginBottom'] = var11;
-    var4['countText'] = var9;
     var9 = {};
     var9['marginBottom'] = var10;
     var4['title'] = var9;

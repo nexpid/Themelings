@@ -34,10 +34,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'space-between';
     var9['justifyContent'] = var10;
     var4['title'] = var9;
-    var9 = {};
-    var10 = 4;
-    var9['marginBottom'] = var10;
-    var4['heading'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot4 = var4;
     var4 = 13;

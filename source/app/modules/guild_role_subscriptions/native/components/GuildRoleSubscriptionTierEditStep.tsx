@@ -189,16 +189,8 @@ case 4:
     var4 = {};
     var4['flexGrow'] = var10;
     var7['scrollContainer'] = var4;
-    var10 = 48;
     var4 = {'position': 'relative', 'paddingTop': 48, 'paddingBottom': 8, 'paddingHorizontal': 16, 'alignItems': 'center'};
     var7['headerContainer'] = var4;
-    var4 = {};
-    var11 = 6;
-    var4['right'] = var11;
-    var7['closeButtonContainer'] = var4;
-    var4 = {};
-    var4['height'] = var10;
-    var7['stepContainer'] = var4;
     var4 = 12;
     var10 = {'marginTop': 12, 'textAlign': 'center'};
     var7['title'] = var10;

@@ -42,8 +42,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'paddingLeft': 24, 'paddingRight': 24, 'paddingTop': 24};
-    var4['container'] = var9;
     var9 = {'marginTop': 24, 'textAlign': 'center'};
     var4['title'] = var9;
     var9 = {'marginTop': 8, 'marginBottom': 24, 'textAlign': 'center'};

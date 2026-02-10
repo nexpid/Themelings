@@ -101,8 +101,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'hidden';
         var2['overflow'] = var7;
         var1['imageContainer'] = var2;
-        var2 = {'height': '100%', 'width': '100%'};
-        var1['image'] = var2;
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);

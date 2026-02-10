@@ -68,8 +68,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['content'] = var9;
     var9 = {'flexDirection': 'row', 'alignItems': 'center'};
     var4['contextRow'] = var9;
-    var9 = {'width': 16, 'height': 16, 'marginStart': 8};
-    var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = 14;

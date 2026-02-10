@@ -74,8 +74,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'flexWrap': 'wrap', 'flexDirection': 'row', 'alignItems': 'center'};
-    var4['container'] = var9;
     var9 = {};
     var10 = 5;
     var12 = var6[var10];

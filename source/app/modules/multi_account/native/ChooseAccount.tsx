@@ -94,13 +94,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.sm;
     var9['borderRadius'] = var12;
     var4['mainCard'] = var9;
-    var9 = {'marginTop': 8, 'marginLeft': 0};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWEST;
-    var9['backgroundColor'] = var12;
-    var4['divider'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

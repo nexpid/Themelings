@@ -247,9 +247,6 @@ case 8:
     var4['title'] = var9;
     var9 = {'textAlign': 'center', 'marginBottom': 16};
     var4['description'] = var9;
-    var9 = {};
-    var9['marginBottom'] = var10;
-    var4['button'] = var9;
     var9 = {'width': '100%', 'backgroundColor': null, 'paddingHorizontal': 16, 'paddingVertical': 8};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);

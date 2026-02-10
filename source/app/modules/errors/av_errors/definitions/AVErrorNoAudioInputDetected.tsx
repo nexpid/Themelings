@@ -27,6 +27,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.InputModes;
+    var _closure1_slot5 = var7;
+    var2 = var2.RTCConnectionStates;
+    var _closure1_slot6 = var2;
     var2 = {};
     var7 = function getActiveErrors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -64,28 +71,54 @@ case 9:
             if(!(var5 != var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 10:
             var5 = _closure1_slot3;
+            var4 = var5.getInputDetectedThisConnection;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
+            var5 = _closure1_slot4;
+            var4 = var5.getState;
+            var5 = var4.bind(var5)();
+            var4 = _closure1_slot6;
+            var4 = var4.RTC_CONNECTED;
+            if(!(var5 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 12:
+            var5 = _closure1_slot3;
+            var4 = var5.getSettings;
+            var4 = var4.bind(var5)();
+            var5 = var4.mode;
+            var4 = _closure1_slot5;
+            var4 = var4.VOICE_ACTIVITY;
+            if(!(var5 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 13:
+            var5 = _closure1_slot3;
+            var4 = var5.getSettings;
+            var4 = var4.bind(var5)();
+            var4 = var4.silenceWarning;
+            if(!var4) { _fun0001_ip = 8; continue _fun0001 }
+case 14:
+            var5 = _closure1_slot3;
             var4 = var5.getInputDetected;
             var5 = var4.bind(var5)();
             var4 = false;
             if(!(var4 === var5)) { _fun0001_ip = 8; continue _fun0001 }
-case 11:
+case 15:
             if(var3) { _fun0001_ip = 8; continue _fun0001 }
-case 12:
+case 16:
             var4 = _closure1_slot3;
             var3 = var4.isSelfMute;
             var3 = var3.bind(var4)();
             if(var3) { _fun0001_ip = 8; continue _fun0001 }
-case 13:
+case 17:
             var3 = {};
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 3;
+            var2 = 4;
             var2 = var5[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.AVError;
             var2 = var2.NO_AUDIO_INPUT_DETECTED;
             var3['type'] = var2;
-            var2 = 4;
+            var2 = 5;
             var2 = var5[var2];
             var4 = var4.bind(var1)(var2);
             var2 = var4.getVoiceChannelErrorContext;
@@ -113,7 +146,7 @@ case 8:
         return var1;
     };
     var2['makeErrorContextKey'] = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

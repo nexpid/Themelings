@@ -101,8 +101,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PX_16;
     var9['paddingHorizontal'] = var10;
     var4['redesignSubmit'] = var9;
-    var9 = {'flexGrow': 0, 'marginBottom': 8};
-    var4['submit'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 20;

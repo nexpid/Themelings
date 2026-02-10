@@ -43,23 +43,19 @@ case 0:
         var7 = var8.createStyles;
         var4 = {};
         var9 = {};
-        var12 = 16;
-        var9['paddingHorizontal'] = var12;
-        var11 = 5;
-        var11 = var6[var11];
-        var13 = var5.bind(var1)(var11);
-        var11 = var13.isAndroid;
-        var13 = var11.bind(var13)();
-        var11 = 0;
-        if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+        var11 = 16;
+        var9['paddingHorizontal'] = var11;
+        var12 = 5;
+        var12 = var6[var12];
+        var13 = var5.bind(var1)(var12);
+        var12 = var13.isAndroid;
+        var12 = var12.bind(var13)();
+        if(!var12) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-        var11 = var12;
+        var10 = var11;
 case 2:
-        var9['paddingBottom'] = var11;
+        var9['paddingBottom'] = var10;
         var4['contentWrapper'] = var9;
-        var9 = {};
-        var9['paddingTop'] = var10;
-        var4['content'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot6 = var4;
         var4 = function MessageStandardEmojiActionSheet(arg1) {

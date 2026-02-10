@@ -88,8 +88,6 @@ case 6:
         var9 = var2;
         var3 = copyDataProperties(var9, var8);
         var1['container'] = var2;
-        var2 = {};
-        var1['containerPressed'] = var2;
         var2 = {'flexShrink': 1, 'flexGrow': 1, 'flexBasis': '30%'};
         var1['label'] = var2;
         var2 = {'flexGrow': 0, 'marginRight': 16};

@@ -694,8 +694,6 @@ case 17:
     var10 = {'display': 'flex', 'flexDirection': 'column', 'rowGap': 16, 'alignItems': 'center'};
     var2['featureCardsContainer'] = var10;
     var10 = {'zIndex': 3, 'paddingHorizontal': 16};
-    var2['segmentedControl'] = var10;
-    var10 = {'zIndex': 3, 'paddingHorizontal': 16};
     var2['segmentedControlActual'] = var10;
     var10 = {'position': 'absolute', 'top': 0, 'left': 16, 'right': 16};
     var11 = var7[var12];

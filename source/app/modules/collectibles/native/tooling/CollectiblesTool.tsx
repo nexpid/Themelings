@@ -121,13 +121,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);
     var15 = var15.spacing;
-    var15 = var15.PX_8;
-    var4['marginRight'] = var15;
-    var7['sectionIcon'] = var4;
-    var4 = {};
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
     var15 = var15.PX_16;
     var4['marginBottom'] = var15;
     var7['inputContainer'] = var4;

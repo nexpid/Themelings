@@ -44,10 +44,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 'black';
-    var9['backgroundColor'] = var10;
-    var4['mediaBackground'] = var9;
-    var9 = {};
     var10 = 5;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

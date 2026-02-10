@@ -175,8 +175,6 @@ case 2:
     var10 = var10.CONTROL_BRAND_FOREGROUND;
     var9['borderColor'] = var10;
     var4['effectCardSelected'] = var9;
-    var9 = {'textAlign': 'center', 'textAlignVertical': 'center'};
-    var4['effectText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
     var4 = 19;

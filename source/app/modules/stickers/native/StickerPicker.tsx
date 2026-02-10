@@ -73,9 +73,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['flex'] = var12;
     var4['container'] = var10;
     var10 = {};
-    var10['flex'] = var12;
-    var4['list'] = var10;
-    var10 = {};
     var12 = 9;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
@@ -83,8 +80,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.PX_8;
     var10['paddingVertical'] = var12;
     var4['header'] = var10;
-    var10 = {'position': 'absolute', 'bottom': 100};
-    var4['popoutContainer'] = var10;
     var10 = {'alignItems': 'center', 'justifyContent': 'center', 'flex': 1};
     var4['loadingIndicator'] = var10;
     var10 = {'marginTop': null, 'alignItems': 'center', 'justifyContent': 'center', 'flex': 1};

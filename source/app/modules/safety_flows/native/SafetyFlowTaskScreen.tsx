@@ -36,9 +36,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'center';
     var9['textAlign'] = var10;
     var4['header'] = var9;
-    var9 = {};
-    var9['textAlign'] = var10;
-    var4['disclaimer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
     var4 = 10;

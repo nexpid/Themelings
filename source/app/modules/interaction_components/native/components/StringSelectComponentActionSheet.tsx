@@ -40,10 +40,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['minHeight'] = var12;
     var4['selectionOptionItemWithDescription'] = var9;
     var9 = {};
-    var12 = 56;
-    var9['paddingLeft'] = var12;
-    var4['selectionOptionItemWithEmoji'] = var9;
-    var9 = {};
     var9['marginTop'] = var10;
     var4['selectionOptionItemDescription'] = var9;
     var9 = {'flexShrink': 0, 'borderRadius': null, 'overflow': 'hidden'};

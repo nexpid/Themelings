@@ -96,15 +96,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['buttonWrapper'] = var9;
     var9 = {'height': 38, 'alignSelf': 'stretch'};
     var4['button'] = var9;
-    var9 = {'fontSize': 14, 'textAlign': 'center', 'marginTop': 4};
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
-    var9['color'] = var14;
-    var14 = var12.PRIMARY_SEMIBOLD;
-    var9['fontFamily'] = var14;
-    var4['ctaTitle'] = var9;
     var9 = {'fontSize': 14, 'textAlign': 'center', 'marginTop': 4, 'marginHorizontal': 16};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);

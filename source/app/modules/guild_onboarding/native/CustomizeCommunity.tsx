@@ -1468,13 +1468,6 @@ case 56:
     var25 = var9;
     var14 = copyDataProperties(var25, var24);
     var4['prompt'] = var9;
-    var9 = {};
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_STRONG;
-    var9['backgroundColor'] = var14;
-    var4['required'] = var9;
     var14 = 'absolute';
     var9 = {'position': 'absolute', 'top': 4294967290, 'right': 4294967290};
     var4['badge'] = var9;

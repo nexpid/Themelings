@@ -52,10 +52,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.NAV_BAR_HEIGHT;
     var9['marginTop'] = var10;
     var4['contentContainer'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginLeft'] = var10;
-    var4['backButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = 13;

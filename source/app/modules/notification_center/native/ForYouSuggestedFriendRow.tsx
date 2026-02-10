@@ -128,10 +128,6 @@ case 2:
             var3 = 'marginRight';
             var2[var3] = var4;
             var1['avatar'] = var2;
-            var2 = {};
-            var3 = 0.8;
-            var2['opacity'] = var3;
-            var1['subtitle'] = var2;
             return var1;
         }
     };

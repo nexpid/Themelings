@@ -189,13 +189,13 @@ case 21: // try_start_0 // try_start_1
                     var10 = var11.createProxyTicket;
                     var3 = var7;
                     var3 = var10.bind(var11)(var3);
-                    SaveGenerator(address=131);
-case 22:
+                    SaveGenerator(address=127);
+case 10:
                     return var3;
-case 12:
+case 22:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(var10) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+                    if(var10) { _fun0002_ip = 11; continue _fun0002 }
+case 23:
                     var11 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var10 = var10[var8];
@@ -208,7 +208,7 @@ case 24:
                     var10['applicationId'] = var13;
                     var10['proxyTicket'] = var3;
                     var10 = var11.bind(var12)(var10);
-case 25: // try_end0 // try_end1
+case 24: // try_end0 // try_end1
                     var11 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var10 = var10[var8];
@@ -219,7 +219,7 @@ case 25: // try_end0 // try_end1
                     var10['applicationId'] = var13;
                     var10 = var11.bind(var12)(var10);
                     return var9;
-case 23:
+case 11:
                     var10 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var9 = var9[var8];
@@ -230,7 +230,7 @@ case 23:
                     var9['applicationId'] = var12;
                     var9 = var10.bind(var11)(var9);
                     return var3;
-case 26: // try_start_2 // catch_target0
+case 25: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=10);
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -245,18 +245,18 @@ case 26: // try_start_2 // catch_target0
                     var9 = var10.getActivityLaunchErrorInfo;
                     var3 = var7;
                     var3 = var9.bind(var10)(var11, var3);
-                    SaveGenerator(address=355);
-case 27:
+                    SaveGenerator(address=343);
+case 26:
                     return var3;
-case 28:
+case 27:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(var9) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+                    if(var9) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
                     var10 = var5;
                     var9 = var10.showLaunchErrorModal;
                     var5 = var3.message;
                     var5 = var9.bind(var10)(var5);
-case 2: // try_end2
+case 30: // try_end2
                     var9 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var5 = var5[var8];
@@ -268,7 +268,7 @@ case 2: // try_end2
                     var5 = false;
                     var9 = var10.bind(var11)(var9);
                     return var5;
-case 29:
+case 28:
                     var9 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var5 = var5[var8];

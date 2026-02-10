@@ -313,7 +313,6 @@ case 6:
     var8 = var6.bind(var1)(var8);
     var15 = var8.DEFAULT_CONTENT_PADDING;
     var _closure1_slot9 = var15;
-    var16 = var8.SCREEN_BACKGROUND_COLOR;
     var8 = var8.useAppLauncherNavigation;
     var _closure1_slot10 = var8;
     var8 = 5;
@@ -340,10 +339,6 @@ case 6:
     var13 = var6.bind(var1)(var8);
     var10 = var13.createStyles;
     var8 = {};
-    var14 = {};
-    var14['backgroundColor'] = var16;
-    var14['flex'] = var11;
-    var8['container'] = var14;
     var14 = {};
     var16 = 9;
     var17 = var7[var16];

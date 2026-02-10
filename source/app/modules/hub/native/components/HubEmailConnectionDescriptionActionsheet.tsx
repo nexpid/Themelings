@@ -31,10 +31,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 16;
-    var9['padding'] = var10;
-    var4['container'] = var9;
-    var9 = {};
     var10 = 8;
     var9['marginBottom'] = var10;
     var4['description'] = var9;

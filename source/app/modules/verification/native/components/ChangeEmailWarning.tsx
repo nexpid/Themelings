@@ -63,8 +63,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['padding'] = var12;
     var12 = 'center';
     var4['container'] = var9;
-    var9 = {'height': 190, 'width': 220, 'resizeMode': 'contain'};
-    var4['image'] = var9;
     var9 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

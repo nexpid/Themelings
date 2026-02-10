@@ -713,8 +713,6 @@ case 45:
     var4 = {};
     var10 = {'flex': 1, 'flexGrow': 1};
     var4['container'] = var10;
-    var10 = {'flex': 1, 'flexGrow': 1};
-    var4['searchContainer'] = var10;
     var10 = {};
     var11 = 'transparent';
     var10['backgroundColor'] = var11;

@@ -58,8 +58,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['headerText'] = var9;
     var9 = {'textAlign': 'center', 'marginBottom': 16, 'paddingHorizontal': 16};
     var4['infoText'] = var9;
-    var9 = {'marginTop': 8, 'marginBottom': 16};
-    var4['form'] = var9;
     var9 = {};
     var9['marginTop'] = var12;
     var4['dismissButtonContainer'] = var9;

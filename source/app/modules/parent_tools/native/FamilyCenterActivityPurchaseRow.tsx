@@ -85,17 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.PREVIEW_SIZE;
     var9['height'] = var14;
     var9['marginRight'] = var13;
-    var4['previewImage'] = var9;
-    var9 = {};
-    var14 = var6[var10];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.PREVIEW_SIZE;
-    var9['width'] = var14;
-    var14 = var6[var10];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.PREVIEW_SIZE;
-    var9['height'] = var14;
-    var9['marginRight'] = var13;
     var4['avatarDecorationPreview'] = var9;
     var9 = {'width': null, 'height': null, 'marginRight': 12, 'borderRadius': null, 'overflow': 'hidden', 'position': 'relative'};
     var13 = var6[var10];

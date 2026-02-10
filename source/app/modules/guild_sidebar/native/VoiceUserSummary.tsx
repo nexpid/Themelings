@@ -58,13 +58,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var11['height'] = var2;
     var5['iconContainer'] = var11;
-    var11 = {'width': 20, 'height': 20, 'marginRight': 8};
-    var13 = 5;
-    var13 = var7[var13];
-    var13 = var6.bind(var1)(var13);
-    var13 = var13.DARK_PRIMARY_360_LIGHT_PRIMARY_400;
-    var11['tintColor'] = var13;
-    var5['channelIcon'] = var11;
     var11 = {};
     var11['marginRight'] = var12;
     var5['redesignChannelIcon'] = var11;
@@ -93,7 +86,7 @@ case 0:
             var15 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -104,7 +97,7 @@ case 3:
 case 2:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useClientThemesOverride;
@@ -130,7 +123,7 @@ case 8:
 case 7:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 9;
+            var5 = 8;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.VoiceNormalIcon;
@@ -138,7 +131,7 @@ case 7:
 case 9:
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 8;
+            var5 = 7;
             var5 = var12[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.StageIcon;
@@ -152,7 +145,7 @@ case 10:
             var8 = _closure1_slot4;
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var12 = 10;
+            var12 = 9;
             var6 = var14[var12];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -213,7 +206,7 @@ case 11:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 11;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

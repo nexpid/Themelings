@@ -673,27 +673,27 @@ case 62:
             var12 = var8 == var11;
             var1 = undefined;
             if(var12) { _fun0003_ip = 64; continue _fun0003 }
-case 65:
+case 19:
             var1 = var11.priceString;
 case 64:
             var11 = var8 != var1;
             var17 = '$...';
             var23 = var17;
-            if(!var11) { _fun0003_ip = 66; continue _fun0003 }
-case 67:
-            var23 = var1;
+            if(!var11) { _fun0003_ip = 65; continue _fun0003 }
 case 66:
+            var23 = var1;
+case 65:
             var11 = var8 == var3;
             var1 = undefined;
-            if(var11) { _fun0003_ip = 68; continue _fun0003 }
-case 69:
-            var1 = var3.priceString;
+            if(var11) { _fun0003_ip = 67; continue _fun0003 }
 case 68:
+            var1 = var3.priceString;
+case 67:
             var3 = var8 != var1;
-            if(!var3) { _fun0003_ip = 70; continue _fun0003 }
-case 71:
-            var17 = var1;
+            if(!var3) { _fun0003_ip = 69; continue _fun0003 }
 case 70:
+            var17 = var1;
+case 69:
             var27 = _closure1_slot0;
             var26 = _closure1_slot2;
             var3 = 20;
@@ -761,17 +761,17 @@ case 70:
             var26 = var26.bind(var27)(var24);
             var28 = _closure1_slot1;
             var29 = _closure1_slot2;
-            if(var26) { _fun0003_ip = 72; continue _fun0003 }
-case 73:
+            if(var26) { _fun0003_ip = 71; continue _fun0003 }
+case 72:
             var26 = 25;
             var26 = var29[var26];
             var26 = var28.bind(var4)(var26);
-            _fun0003_ip = 74; continue _fun0003;
-case 72:
+            _fun0003_ip = 73; continue _fun0003;
+case 71:
             var27 = 24;
             var27 = var29[var27];
             var26 = var28.bind(var4)(var27);
-case 74:
+case 73:
             var12['source'] = var26;
             var12 = var16.bind(var4)(var13, var12);
             var1['column1'] = var12;
@@ -801,13 +801,13 @@ case 74:
             var16 = var16.bind(var21)(var24);
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            if(var16) { _fun0003_ip = 75; continue _fun0003 }
-case 45:
+            if(var16) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
             var16 = 27;
             var16 = var25[var16];
             var16 = var24.bind(var4)(var16);
             _fun0003_ip = 76; continue _fun0003;
-case 75:
+case 74:
             var21 = 26;
             var21 = var25[var21];
             var16 = var24.bind(var4)(var21);

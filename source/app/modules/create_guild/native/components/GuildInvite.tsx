@@ -282,9 +282,6 @@ case 2:
     var9['borderRadius'] = var15;
     var4['linkButton'] = var9;
     var9 = {};
-    var9['marginLeft'] = var13;
-    var4['searchButton'] = var9;
-    var9 = {};
     var9['marginLeft'] = var14;
     var15 = var6[var11];
     var15 = var12.bind(var1)(var15);

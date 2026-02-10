@@ -56,9 +56,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var4 = {'flex': 1, 'paddingTop': 12};
     var7['wrapper'] = var4;
-    var15 = 16;
-    var4 = {'flex': 0, 'marginHorizontal': 16};
-    var7['rowButton'] = var4;
     var14 = 'center';
     var4 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center', 'paddingHorizontal': 48};
     var7['content'] = var4;
@@ -73,6 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 18;
     var12 = 'fontSize';
     var11[var12] = var4;
+    var15 = 16;
     var12 = 'marginTop';
     var11[var12] = var15;
     var12 = 8;

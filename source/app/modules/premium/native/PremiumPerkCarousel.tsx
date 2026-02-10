@@ -43,10 +43,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 'flex';
-    var9['display'] = var10;
-    var4['container'] = var9;
-    var9 = {};
     var10 = 24;
     var9['marginLeft'] = var10;
     var4['title'] = var9;

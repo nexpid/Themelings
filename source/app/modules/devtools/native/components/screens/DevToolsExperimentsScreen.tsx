@@ -1198,10 +1198,6 @@ case 80:
     var14 = var14.PX_16;
     var11['marginTop'] = var14;
     var4['debugContainer'] = var11;
-    var11 = {'marginLeft': 20, 'marginBottom': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
-    var4['debugLine'] = var11;
-    var11 = {'marginLeft': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
-    var4['exposure'] = var11;
     var11 = {};
     var12 = var7[var12];
     var12 = var13.bind(var1)(var12);

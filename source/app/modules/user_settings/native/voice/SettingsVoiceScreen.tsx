@@ -157,14 +157,10 @@ case 4:
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var10 = 8;
     var9 = {'marginTop': 8, 'flexDirection': 'row', 'alignItems': 'center'};
     var4['krisp'] = var9;
     var9 = {'marginRight': 8, 'height': 30, 'width': 67};
     var4['logo'] = var9;
-    var9 = {};
-    var9['marginTop'] = var10;
-    var4['slider'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 17;

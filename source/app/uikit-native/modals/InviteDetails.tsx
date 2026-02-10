@@ -956,8 +956,6 @@ case 22:
     var14 = var14.PRIMARY_400;
     var11['backgroundColor'] = var14;
     var4['dotOffline'] = var11;
-    var11 = {'flex': 1, 'marginTop': 8, 'width': '100%'};
-    var4['button'] = var11;
     var11 = {'width': '100%', 'backgroundColor': null, 'padding': 16, 'borderRadius': null, 'marginTop': 16, 'marginBottom': 8};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);

@@ -361,15 +361,8 @@ case 13:
     var10 = var5.bind(var1)(var4);
     var9 = var10.createStyles;
     var4 = {};
-    var11 = {};
-    var12 = 7;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
-    var11['color'] = var14;
-    var4['backButton'] = var11;
     var11 = {'flex': 1, 'backgroundColor': null, 'justifyContent': 'center', 'paddingBottom': 44};
+    var12 = 7;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;

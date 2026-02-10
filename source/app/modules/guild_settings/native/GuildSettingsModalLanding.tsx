@@ -1405,10 +1405,6 @@ case 53:
     var9 = {};
     var9['flex'] = var10;
     var4['container'] = var9;
-    var9 = {};
-    var10 = -2;
-    var9['marginTop'] = var10;
-    var4['emptySectionHeader'] = var9;
     var9 = {'position': 'absolute', 'width': 8, 'height': 8, 'backgroundColor': null, 'borderRadius': null, 'right': 4, 'bottom': 4};
     var10 = 14;
     var12 = var6[var10];

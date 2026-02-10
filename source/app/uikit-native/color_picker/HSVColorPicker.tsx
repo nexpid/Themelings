@@ -41,10 +41,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'center';
     var9['alignItems'] = var10;
     var4['hsvColorPicker'] = var9;
-    var9 = {};
-    var10 = 12;
-    var9['marginTop'] = var10;
-    var4['huePicker'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
     var4 = 7;

@@ -64,10 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.PX_24;
     var9['gap'] = var13;
     var4['container'] = var9;
-    var9 = {};
-    var13 = 'relative';
-    var9['position'] = var13;
-    var4['codeContainer'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'justifyContent': 'center', 'alignItems': 'center'};
     var4['iconContainer'] = var9;
     var9 = {};

@@ -137,8 +137,6 @@ case 2:
     var12 = var12.PX_16;
     var9['paddingBottom'] = var12;
     var4['container'] = var9;
-    var9 = {'alignItems': 'center', 'justifyContent': 'center'};
-    var4['save'] = var9;
     var9 = {'minWidth': 32, 'height': 32};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

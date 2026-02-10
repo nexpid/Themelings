@@ -562,13 +562,6 @@ case 22:
     var11 = {};
     var11['textAlign'] = var15;
     var4['subtitle'] = var11;
-    var11 = {};
-    var15 = var6[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
-    var11['color'] = var15;
-    var4['skipButton'] = var11;
     var11 = {'alignSelf': 'center', 'paddingTop': 24};
     var4['errorContainer'] = var11;
     var11 = {};

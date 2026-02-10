@@ -47,8 +47,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var9 = {'marginVertical': 12, 'flexDirection': 'column'};
     var4['container'] = var9;
-    var9 = {};
-    var4['fieldDescription'] = var9;
     var9 = {'padding': 8, 'width': '100%', 'borderRadius': null, 'lineHeight': 20};
     var10 = 6;
     var13 = var6[var10];

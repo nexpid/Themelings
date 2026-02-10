@@ -82,9 +82,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['marginBottom'] = var11;
     var4['checkboxContainer'] = var10;
-    var10 = {};
-    var10['marginTop'] = var11;
-    var4['button'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot11 = var4;
     var4 = var7.memo;

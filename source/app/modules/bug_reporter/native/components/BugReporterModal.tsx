@@ -1699,8 +1699,6 @@ case 89:
     var16 = var16.bind(var17)();
     var14['backgroundColor'] = var16;
     var10['closeContainer'] = var14;
-    var14 = {'resizeMode': 'contain', 'height': 280, 'width': 134};
-    var10['image'] = var14;
     var16 = 24;
     var14 = {'width': 24, 'height': 24};
     var10['priorityIcon'] = var14;

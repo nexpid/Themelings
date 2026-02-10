@@ -180,13 +180,6 @@ case 0:
             var3 = var3.BACKGROUND_MOD_MUTED;
             var2['backgroundColor'] = var3;
             var1['rowSelected'] = var2;
-            var2 = {};
-            var3 = var6[var7];
-            var3 = var10.bind(var8)(var3);
-            var3 = var3.radii;
-            var3 = var3.md;
-            var2['borderRadius'] = var3;
-            var1['rowSelectedThemed'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
             var3 = 1;
             var11 = var6[var7];

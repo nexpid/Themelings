@@ -87,18 +87,15 @@ case 5:
         var12 = 28;
 case 4:
         var11['lineHeight'] = var12;
-        var16 = 'center';
-        var11['textAlign'] = var16;
+        var12 = 'center';
+        var11['textAlign'] = var12;
         var12 = 8;
-        var17 = var6[var12];
-        var17 = var13.bind(var1)(var17);
-        var17 = var17.colors;
-        var17 = var17.INTERACTIVE_TEXT_DEFAULT;
-        var11['color'] = var17;
+        var16 = var6[var12];
+        var16 = var13.bind(var1)(var16);
+        var16 = var16.colors;
+        var16 = var16.INTERACTIVE_TEXT_DEFAULT;
+        var11['color'] = var16;
         var7['textEmoji'] = var11;
-        var11 = {};
-        var11['textAlign'] = var16;
-        var7['alignCenter'] = var11;
         var11 = {};
         var16 = 'row';
         var11['flexDirection'] = var16;

@@ -93,10 +93,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.PX_8;
     var10['paddingVertical'] = var11;
     var4['containerSearchBar'] = var10;
-    var10 = {};
-    var11 = 70;
-    var10['marginLeft'] = var11;
-    var4['userRowDivider'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot16 = var4;
     var4 = var7.memo;

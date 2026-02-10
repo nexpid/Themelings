@@ -163,8 +163,6 @@ case 2:
     var9['width'] = var10;
     var4['cardGrid'] = var9;
     var9 = {'width': '100%', 'alignItems': 'center'};
-    var4['cardGridContentContainer'] = var9;
-    var9 = {'width': '100%', 'alignItems': 'center'};
     var10 = 6;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);

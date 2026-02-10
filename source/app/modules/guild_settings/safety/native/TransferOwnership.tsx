@@ -76,9 +76,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var14;
     var4['background'] = var9;
-    var9 = {};
-    var9['flex'] = var10;
-    var4['body'] = var9;
     var9 = {'alignItems': 'center', 'paddingVertical': 16};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);

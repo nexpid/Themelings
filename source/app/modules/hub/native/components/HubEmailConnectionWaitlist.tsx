@@ -64,8 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['description'] = var9;
     var9 = {'paddingHorizontal': 16, 'width': '100%'};
     var4['redesignButton'] = var9;
-    var9 = {'marginHorizontal': 16, 'flexGrow': 0};
-    var4['button'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = 13;

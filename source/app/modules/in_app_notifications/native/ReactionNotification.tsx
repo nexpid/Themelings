@@ -72,8 +72,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 'column';
     var9['flexDirection'] = var10;
     var4['container'] = var9;
-    var9 = {'marginTop': 4, 'flexGrow': 0, 'flexShrink': 1, 'alignSelf': 'flex-start'};
-    var4['reactionContainer'] = var9;
     var9 = {};
     var10 = 12;
     var9['fontSize'] = var10;

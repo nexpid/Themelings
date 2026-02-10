@@ -90,10 +90,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var12;
     var4['form'] = var9;
     var9 = {};
-    var12 = '100%';
-    var9['width'] = var12;
-    var4['button'] = var9;
-    var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;

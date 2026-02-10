@@ -1,11 +1,11 @@
 // app/modules/quests/native/VideoQuestModal/VideoQuestTranscriptActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -45,20 +45,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var10 = 'center';
-    var9 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center'};
-    var4['container'] = var9;
     var9 = {};
-    var11 = 5;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_8;
-    var9['paddingBottom'] = var11;
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_8;
+    var9['paddingBottom'] = var10;
     var4['content'] = var9;
-    var9 = {};
-    var9['textAlign'] = var10;
-    var4['headerText'] = var9;
     var9 = {};
     var10 = 100;
     var9['height'] = var10;

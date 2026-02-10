@@ -85,8 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['bottomContent'] = var9;
-    var9 = {'flex': 0, 'width': 40, 'height': 40, 'tintColor': 'white', 'alignSelf': 'center', 'marginBottom': 24};
-    var4['spinner'] = var9;
     var9 = {'width': 80, 'height': 80, 'alignSelf': 'center'};
     var4['logo'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'alignItems': 'center', 'marginBottom': 48};

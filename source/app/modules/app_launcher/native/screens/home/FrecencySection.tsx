@@ -516,13 +516,6 @@ case 12:
     var20 = var11;
     var14 = copyDataProperties(var20, var19);
     var2['commandContainer'] = var11;
-    var11 = {'width': 36, 'height': 36};
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.sm;
-    var11['borderRadius'] = var14;
-    var2['commandIcon'] = var11;
     var11 = {'width': 60, 'height': 60};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);

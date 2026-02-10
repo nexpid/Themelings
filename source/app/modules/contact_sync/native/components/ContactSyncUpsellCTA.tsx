@@ -1,11 +1,11 @@
 // app/modules/contact_sync/native/components/ContactSyncUpsellCTA.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var8 = var4.bind(var1)(var7);
-    var12 = 1;
-    var4 = var6[var12];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.dismissUpsellCTA;
     var _closure1_slot3 = var4;
@@ -45,21 +45,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var4 = 12;
     var11['padding'] = var4;
-    var13 = 5;
-    var15 = var6[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.sm;
-    var11['borderRadius'] = var15;
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var11['backgroundColor'] = var13;
+    var12 = 5;
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.sm;
+    var11['borderRadius'] = var14;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var11['backgroundColor'] = var12;
     var7['container'] = var11;
-    var11 = {};
-    var11['flex'] = var12;
-    var7['textContainer'] = var11;
     var7 = var9.bind(var10)(var7);
     var _closure1_slot7 = var7;
     var7 = var8.memo;

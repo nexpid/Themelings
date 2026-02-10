@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var13 = 1;
-    var4 = var6[var13];
+    var4 = 1;
+    var4 = var6[var4];
     var4 = var11.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var12 = 2;
@@ -67,13 +67,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 9;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.NAV_BAR_HEIGHT;
-    var9['marginTop'] = var10;
-    var4['safeArea'] = var9;
-    var9 = {};
     var10 = 16;
     var9['paddingHorizontal'] = var10;
     var4['container'] = var9;
@@ -91,16 +84,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginBottom'] = var10;
     var4['input'] = var9;
     var9 = {};
-    var10 = 10;
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.lg;
-    var9['borderRadius'] = var14;
+    var10 = 9;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.lg;
+    var9['borderRadius'] = var13;
     var4['textInput'] = var9;
-    var9 = {};
-    var9['flex'] = var13;
-    var4['flex'] = var9;
     var9 = {};
     var9['flexGrow'] = var12;
     var12 = var6[var10];
@@ -118,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['buttonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -137,7 +127,7 @@ case 0:
             var13 = var1.bind(var4)();
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var1[var2];
             var3 = var5.bind(var4)(var2);
             var2 = var3.useNavigation;
@@ -170,7 +160,7 @@ case 0:
             var2 = var2[var7];
             var _closure2_slot5 = var2;
             var7 = _closure1_slot1;
-            var2 = 12;
+            var2 = 11;
             var2 = var1[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -266,7 +256,7 @@ case 19:
 case 18:
                             var6 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var8 = 13;
+                            var8 = 12;
                             var2 = var2[var8];
                             var13 = var6.bind(var5)(var2);
                             var10 = var13.sendVerificationEmail;
@@ -383,7 +373,7 @@ case 37: // try_start_4 // catch_target0 // catch_target1
                             var4 = _closure2_slot5;
                             var6 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var2 = 14;
+                            var2 = 13;
                             var2 = var8[var2];
                             var2 = var6.bind(var5)(var2);
                             var2 = var2.APIError;
@@ -426,7 +416,7 @@ case 2:
                 return var1;
             };
             var15 = var2.bind(var4)();
-            var20 = 15;
+            var20 = 14;
             var2 = var1[var20];
             var2 = var5.bind(var4)(var2);
             var3 = var2.intl;
@@ -481,7 +471,7 @@ case 40:
             var3 = _closure1_slot13;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var1 = var23[var1];
             var1 = var22.bind(var4)(var1);
             var2 = var1.HubEmailConnectionScreen;
@@ -496,7 +486,7 @@ case 40:
             var9 = {};
             var11 = var10.bottom;
             var16 = _closure1_slot1;
-            var10 = 10;
+            var10 = 9;
             var10 = var23[var10];
             var10 = var16.bind(var4)(var10);
             var10 = var10.spacing;
@@ -511,7 +501,7 @@ case 40:
             var8['style'] = var10;
             var11 = _closure1_slot7;
             var10 = {};
-            var25 = 17;
+            var25 = 16;
             var25 = var23[var25];
             var25 = var16.bind(var4)(var25);
             var10['source'] = var25;
@@ -520,7 +510,7 @@ case 40:
             var11 = var3.bind(var4)(var11, var10);
             var10 = new Array(4);
             var10[0] = var11;
-            var11 = 18;
+            var11 = 17;
             var11 = var23[var11];
             var11 = var22.bind(var4)(var11);
             var25 = var11.Text;
@@ -530,7 +520,7 @@ case 40:
             var11['children'] = var26;
             var11 = var3.bind(var4)(var25, var11);
             var10[1] = var11;
-            var11 = 19;
+            var11 = 18;
             var11 = var23[var11];
             var11 = var22.bind(var4)(var11);
             var25 = var11.TextWithIOSLinkWorkaround;
@@ -549,16 +539,16 @@ case 40:
             var30 = function onClick() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 20;
+                var1 = 19;
                 var4 = var2[var1];
                 var1 = undefined;
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.openLazy;
                 var6 = _closure1_slot0;
-                var3 = 22;
+                var3 = 21;
                 var3 = var2[var3];
                 var6 = var6.bind(var1)(var3);
-                var3 = 21;
+                var3 = 20;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var6.bind(var1)(var3, var2);
@@ -571,7 +561,7 @@ case 40:
             var11['children'] = var26;
             var11 = var3.bind(var4)(var25, var11);
             var10[2] = var11;
-            var11 = 23;
+            var11 = 22;
             var11 = var23[var11];
             var16 = var16.bind(var4)(var11);
             var11 = {'label': null, 'placeholder': null, 'value': null, 'textContentType': 'emailAddress', 'autoCapitalize': 'none', 'keyboardType': 'email-address'};
@@ -617,7 +607,7 @@ case 40:
             var11['onChangeText'] = var19;
             var19 = var13.input;
             var11['style'] = var19;
-            var19 = 24;
+            var19 = 23;
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.ClearButtonVisibility;
@@ -697,7 +687,7 @@ case 48:
             var9['style'] = var13;
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var12 = 25;
+            var12 = 24;
             var12 = var16[var12];
             var12 = var19.bind(var4)(var12);
             var13 = var12.Button;

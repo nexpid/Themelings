@@ -237,10 +237,6 @@ case 6:
     var10 = {'opacity': 1, 'width': 32, 'height': 32, 'marginLeft': 4, 'marginRight': 4};
     var4['iconPlaceholder'] = var10;
     var10 = {};
-    var18 = 'rgba(255, 255, 255, .1)';
-    var10['backgroundColor'] = var18;
-    var4['noBlurBackground'] = var10;
-    var10 = {};
     var10['flex'] = var15;
     var15 = 14;
     var15 = var9[var15];

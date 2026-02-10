@@ -91,10 +91,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['noResults'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginTop'] = var10;
-    var4['searchWithPadding'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 18;

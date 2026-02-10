@@ -50,15 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var10 = 7;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var13;
-    var4['background'] = var9;
     var9 = {'marginVertical': 8, 'borderRadius': null, 'overflow': 'hidden'};
+    var10 = 7;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.radii;

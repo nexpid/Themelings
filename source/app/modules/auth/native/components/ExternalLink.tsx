@@ -47,8 +47,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'width': '100%', 'marginTop': 16};
     var4['button'] = var9;
     var9 = {};
-    var4['continue'] = var9;
-    var9 = {};
     var4['backToLogin'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;

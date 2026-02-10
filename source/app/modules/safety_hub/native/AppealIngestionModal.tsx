@@ -105,8 +105,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['header'] = var9;
     var9 = {'lineHeight': 20, 'marginBottom': 8, 'textAlign': 'center'};
     var4['subheader'] = var9;
-    var9 = {'lineHeight': 16, 'marginBottom': 8, 'textAlign': 'center'};
-    var4['description'] = var9;
     var9 = {'height': 1, 'backgroundColor': null, 'marginVertical': 24};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);

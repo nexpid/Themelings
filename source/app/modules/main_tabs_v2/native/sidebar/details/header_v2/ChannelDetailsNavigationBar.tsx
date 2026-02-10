@@ -139,9 +139,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['position'] = var11;
     var4['searchHeader'] = var10;
-    var10 = {};
-    var10['position'] = var11;
-    var4['navItem'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot17 = var4;
     var4 = {};

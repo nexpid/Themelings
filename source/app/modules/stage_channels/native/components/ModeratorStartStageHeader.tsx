@@ -44,8 +44,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.NAV_BAR_HEIGHT;
     var10['height'] = var11;
     var4['header'] = var10;
-    var10 = {'marginRight': 4, 'marginLeft': 4};
-    var4['chatButton'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot6 = var4;
     var4 = var7.memo;

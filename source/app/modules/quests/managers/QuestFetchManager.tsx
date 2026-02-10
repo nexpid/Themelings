@@ -113,7 +113,7 @@ case 4:
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var4 = var4.HOUR;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -161,6 +161,7 @@ case 8:
                 var1['instantiatedAt'] = var4;
                 var4 = null;
                 var1['initialFetchTimerId'] = var4;
+                var1['initialTakeoverFetchTimerId'] = var4;
                 var1['recurringFetchTimerId'] = var4;
                 var1['lastFetchAttemptedAt'] = var3;
                 var1['lastFetchedQuestForLocaleChangeAt'] = var3;
@@ -176,102 +177,180 @@ case 8:
                 };
                 var1['handleQuestsFetchCurrentQuestsBegin'] = var3;
                 var3 = function() {
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 8;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var6 = var4.bind(var1)(var3);
-                    var4 = var6.getIsEligibleForFetchQuestOnPostConnectionOpen;
-                    var3 = {};
-                    var7 = _closure1_slot9;
-                    var7 = var7.QUESTS_MANAGER;
-                    var3['location'] = var7;
-                    var3 = var4.bind(var6)(var3);
-                    var _closure4_slot0 = var3;
-                    var4 = global;
-                    var8 = var4.window;
-                    var7 = var8.clearTimeout;
-                    var3 = _closure3_slot0;
-                    var6 = var3.initialFetchTimerId;
-                    var6 = var7.bind(var8)(var6);
-                    var8 = var4.window;
-                    var7 = var8.clearTimeout;
-                    var6 = var3.recurringFetchTimerId;
-                    var6 = var7.bind(var8)(var6);
-                    var9 = var4.window;
-                    var8 = var9.setInterval;
-                    var7 = _closure1_slot11;
-                    var6 = function() {
-                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                            var1 = global;
-                            var2 = var1.Date;
-                            var1 = var2.now;
-                            var3 = var1.bind(var2)();
-                            var2 = _closure3_slot0;
-                            var2 = var2.lastFetchAttemptedAt;
-                            var3 = var3 - var2;
-                            var2 = _closure1_slot10;
-                            if(!(var3 > var2)) { _fun0003_ip = 9; continue _fun0003 }
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var1 = 8;
+                        var3 = var10[var1];
+                        var1 = undefined;
+                        var6 = var9.bind(var1)(var3);
+                        var4 = var6.getIsEligibleForFetchQuestOnPostConnectionOpen;
+                        var3 = {};
+                        var11 = _closure1_slot9;
+                        var7 = var11.QUESTS_MANAGER;
+                        var3['location'] = var7;
+                        var3 = var4.bind(var6)(var3);
+                        var _closure4_slot0 = var3;
+                        var4 = global;
+                        var12 = var4.window;
+                        var7 = var12.clearTimeout;
+                        var8 = _closure3_slot0;
+                        var6 = var8.initialFetchTimerId;
+                        var6 = var7.bind(var12)(var6);
+                        var12 = var4.window;
+                        var7 = var12.clearTimeout;
+                        var6 = var8.initialTakeoverFetchTimerId;
+                        var6 = var7.bind(var12)(var6);
+                        var12 = var4.window;
+                        var7 = var12.clearTimeout;
+                        var6 = var8.recurringFetchTimerId;
+                        var6 = var7.bind(var12)(var6);
+                        var13 = var4.window;
+                        var12 = var13.setInterval;
+                        var7 = _closure1_slot11;
+                        var6 = function() {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                                var1 = global;
+                                var2 = var1.Date;
+                                var1 = var2.now;
+                                var3 = var1.bind(var2)();
+                                var2 = _closure3_slot0;
+                                var2 = var2.lastFetchAttemptedAt;
+                                var3 = var3 - var2;
+                                var2 = _closure1_slot10;
+                                if(!(var3 > var2)) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
-                            var3 = _closure3_slot0;
-                            var2 = var3._fetch;
-                            var1 = 'post_connect_recurring';
-                            var1 = var2.bind(var3)(var1);
+                                var3 = _closure3_slot0;
+                                var2 = var3._fetch;
+                                var1 = 'post_connect_recurring';
+                                var1 = var2.bind(var3)(var1);
 case 9:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
-                    var6 = var8.bind(var9)(var6, var7);
-                    var3['recurringFetchTimerId'] = var6;
-                    var7 = var4.Math;
-                    var6 = var7.floor;
-                    var9 = var4.Math;
-                    var8 = var9.random;
-                    var8 = var8.bind(var9)();
-                    var5 = _closure1_slot12;
-                    var5 = var8 * var5;
-                    var6 = var6.bind(var7)(var5);
-                    var _closure4_slot1 = var6;
-                    var5 = var4.window;
-                    var4 = var5.setTimeout;
-                    var2 = function() {
-                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                                var1 = undefined;
+                                return var1;
+                            }
+                        };
+                        var6 = var12.bind(var13)(var6, var7);
+                        var8['recurringFetchTimerId'] = var6;
+                        var12 = var4.Math;
+                        var7 = var12.floor;
+                        var13 = var4.Math;
+                        var6 = var13.random;
+                        var13 = var6.bind(var13)();
+                        var6 = _closure1_slot12;
+                        var6 = var13 * var6;
+                        var6 = var7.bind(var12)(var6);
+                        var _closure4_slot1 = var6;
+                        var13 = var4.window;
+                        var12 = var13.setTimeout;
+                        var7 = function() {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                            var1 = global;
-                            var2 = var1.Date;
-                            var1 = var2.now;
-                            var3 = var1.bind(var2)();
-                            var2 = _closure4_slot1;
-                            var4 = var3 - var2;
-                            var3 = _closure1_slot8;
-                            var3 = var3.lastFetchedCurrentQuests;
-                            if(!(!(var4 < var3))) { _fun0004_ip = 11; continue _fun0004 }
+                                var1 = global;
+                                var2 = var1.Date;
+                                var1 = var2.now;
+                                var3 = var1.bind(var2)();
+                                var2 = _closure4_slot1;
+                                var4 = var3 - var2;
+                                var3 = _closure1_slot8;
+                                var3 = var3.lastFetchedCurrentQuests;
+                                if(!(!(var4 < var3))) { _fun0005_ip = 11; continue _fun0005 }
 case 10:
-                            var1 = _closure4_slot0;
-                            if(var1) { _fun0004_ip = 12; continue _fun0004 }
+                                var1 = _closure4_slot0;
+                                if(var1) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
-                            var2 = _closure1_slot8;
-                            var3 = var2.lastFetchedCurrentQuests;
-                            var2 = 0;
-                            var1 = var2 === var3;
+                                var2 = _closure1_slot8;
+                                var3 = var2.lastFetchedCurrentQuests;
+                                var2 = 0;
+                                var1 = var2 === var3;
 case 12:
-                            if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+                                if(!var1) { _fun0005_ip = 11; continue _fun0005 }
 case 14:
-                            var3 = _closure3_slot0;
-                            var2 = var3._fetch;
-                            var1 = 'post_connect_initial';
-                            var1 = var2.bind(var3)(var1);
+                                var3 = _closure3_slot0;
+                                var2 = var3._fetch;
+                                var1 = 'post_connect_initial';
+                                var1 = var2.bind(var3)(var1);
 case 11:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
-                    var2 = var4.bind(var5)(var2, var6);
-                    var3['initialFetchTimerId'] = var2;
-                    return var1;
+                                var1 = undefined;
+                                return var1;
+                            }
+                        };
+                        var7 = var12.bind(var13)(var7, var6);
+                        var8['initialFetchTimerId'] = var7;
+                        var7 = 9;
+                        var8 = var10[var7];
+                        var8 = var9.bind(var1)(var8);
+                        var13 = var8.QuestHomeTakeoverRolloutExperiment;
+                        var12 = var13.getConfig;
+                        var8 = {};
+                        var14 = var11.QUESTS_MANAGER;
+                        var8['location'] = var14;
+                        var8 = var12.bind(var13)(var8);
+                        var8 = var8.enabled;
+                        var7 = var10[var7];
+                        var7 = var9.bind(var1)(var7);
+                        var10 = var7.FetchQuestHomeTakeoverOnConnectionOpenExperiment;
+                        var9 = var10.getConfig;
+                        var7 = {};
+                        var11 = var11.QUESTS_MANAGER;
+                        var7['location'] = var11;
+                        var7 = var9.bind(var10)(var7);
+                        var7 = var7.enabled;
+                        if(!var8) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+                        if(!var7) { _fun0003_ip = 15; continue _fun0003 }
+case 17:
+                        var8 = _closure1_slot0;
+                        var9 = _closure1_slot2;
+                        var7 = 10;
+                        var7 = var9[var7];
+                        var9 = var8.bind(var1)(var7);
+                        var8 = var9.getIsEligibleForQuests;
+                        var7 = {};
+                        var10 = _closure1_slot9;
+                        var10 = var10.QUESTS_MANAGER;
+                        var7['location'] = var10;
+                        var7 = var8.bind(var9)(var7);
+                        if(!var7) { _fun0003_ip = 15; continue _fun0003 }
+case 18:
+                        var8 = var4.Math;
+                        var7 = var8.floor;
+                        var10 = var4.Math;
+                        var9 = var10.random;
+                        var9 = var9.bind(var10)();
+                        var5 = _closure1_slot12;
+                        var5 = var9 * var5;
+                        var5 = var7.bind(var8)(var5);
+                        var6 = var6 + var5;
+                        var3 = _closure3_slot0;
+                        var5 = var4.window;
+                        var4 = var5.setTimeout;
+                        var2 = function() {
+                            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0: // try_start_0
+                                var3 = _closure1_slot0;
+                                var2 = _closure1_slot2;
+                                var1 = 11;
+                                var2 = var2[var1];
+                                var1 = undefined;
+                                var2 = var3.bind(var1)(var2);
+                                var1 = var2.fetchQuestHomeTakeover;
+                                var1 = var1.bind(var2)();
+case 19: // try_end0
+                                _fun0006_ip = 20; continue _fun0006;
+case 21: // catch_target0
+                                CatchBlockStart(arg_register=0);
+case 20:
+                                var1 = undefined;
+                                return var1;
+                            }
+                        };
+                        var2 = var4.bind(var5)(var2, var6);
+                        var3['initialTakeoverFetchTimerId'] = var2;
+case 15:
+                        return var1;
+                    }
                 };
                 var1['handlePostConnectionOpen'] = var3;
                 var3 = function() {
@@ -280,7 +359,7 @@ case 11:
                 };
                 var1['handleRunningGamesChange'] = var3;
                 var3 = function(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var2 = arg1;
                         var3 = var2.partial;
@@ -290,16 +369,16 @@ case 0:
                         var1 = 'localization';
                         var4 = var1 in var4;
                         var1 = !var4;
-                        if(!var4) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                        if(!var4) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                         var1 = !var3;
-case 15:
-                        if(var1) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+case 22:
+                        if(var1) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                         var1 = var2;
-case 17:
-                        if(var1) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+case 24:
+                        if(var1) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                         var2 = global;
                         var3 = var2.Date;
                         var2 = var3.now;
@@ -309,9 +388,9 @@ case 20:
                         var3 = var3 - var2;
                         var2 = _closure1_slot13;
                         var1 = var3 <= var2;
-case 19:
-                        if(var1) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+case 26:
+                        if(var1) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
                         var3 = _closure3_slot0;
                         var1 = global;
                         var2 = var1.Date;
@@ -321,7 +400,7 @@ case 22:
                         var2 = var3._fetch;
                         var1 = 'user_settings';
                         var1 = var2.bind(var3)(var1);
-case 21:
+case 28:
                         var1 = undefined;
                         return var1;
                     }
@@ -333,6 +412,10 @@ case 21:
                     var4 = var5.clearTimeout;
                     var2 = _closure3_slot0;
                     var3 = var2.initialFetchTimerId;
+                    var3 = var4.bind(var5)(var3);
+                    var5 = var1.window;
+                    var4 = var5.clearTimeout;
+                    var3 = var2.initialTakeoverFetchTimerId;
                     var3 = var4.bind(var5)(var3);
                     var4 = var1.window;
                     var3 = var4.clearTimeout;
@@ -372,11 +455,11 @@ case 21:
         var6 = '_fetch';
         var5['key'] = var6;
         var1 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -387,23 +470,23 @@ case 0:
                 var2['location'] = var6;
                 var2 = var3.bind(var5)(var2);
                 var2 = !var2;
-                if(var2) { _fun0006_ip = 12; continue _fun0006 }
-case 23:
+                if(var2) { _fun0008_ip = 12; continue _fun0008 }
+case 30:
                 var3 = _closure1_slot8;
                 var2 = var3.isFetchingCurrentQuests;
 case 12:
-                if(var2) { _fun0006_ip = 22; continue _fun0006 }
+                if(var2) { _fun0008_ip = 29; continue _fun0008 }
 case 14:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 10;
+                var3 = 12;
                 var3 = var6[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMetaQuest;
                 var2 = var3.bind(var5)();
-case 22:
-                if(var2) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+case 29:
+                if(var2) { _fun0008_ip = 31; continue _fun0008 }
+case 32:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 11;
@@ -411,28 +494,28 @@ case 25:
                 var7 = var5.bind(var1)(var3);
                 var3 = var7.fetchCurrentQuests;
                 var3 = var3.bind(var7)();
-                var3 = 12;
+                var3 = 13;
                 var3 = var6[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.isMac;
                 var3 = var3.bind(var5)();
-                if(!var3) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+                if(!var3) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 13;
+                var5 = 14;
                 var5 = var7[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.getState;
                 var6 = var5.bind(var6)();
                 var5 = 'focused';
                 var3 = var5 !== var6;
-case 26:
-                if(var3) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+case 33:
+                if(var3) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 14;
+                var5 = 15;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.getConfig;
@@ -441,22 +524,22 @@ case 29:
                 var5['location'] = var8;
                 var5 = var6.bind(var7)(var5);
                 var3 = var5.enableNewRequestBehavior;
-case 28:
-                if(var3) { _fun0006_ip = 24; continue _fun0006 }
-case 30:
+case 35:
+                if(var3) { _fun0008_ip = 31; continue _fun0008 }
+case 37:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = var6[var2];
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.fetchQuestToDeliver;
-                var2 = 15;
+                var2 = 16;
                 var2 = var6[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.QuestPlacement;
                 var3 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = arg1;
                 var2 = var4.bind(var5)(var3, var2);
-case 24:
+case 31:
                 return var1;
             }
         };
@@ -472,7 +555,7 @@ case 24:
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

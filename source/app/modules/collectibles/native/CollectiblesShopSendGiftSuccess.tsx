@@ -79,10 +79,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PX_24;
     var9['marginBottom'] = var10;
     var4['description'] = var9;
-    var9 = {};
-    var10 = '100%';
-    var9['width'] = var10;
-    var4['closeButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
     var4 = 12;

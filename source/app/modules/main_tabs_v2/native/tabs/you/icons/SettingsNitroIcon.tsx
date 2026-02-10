@@ -1,7 +1,6 @@
 // app/modules/main_tabs_v2/native/tabs/you/icons/SettingsNitroIcon.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -39,20 +38,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'height': '100%', 'position': 'relative', 'overflow': 'hidden'};
     var7['container'] = var4;
     var4 = {};
-    var12 = 4;
-    var4['marginLeft'] = var12;
+    var11 = 4;
+    var4['marginLeft'] = var11;
     var7['spacing'] = var4;
     var4 = {'height': '200%', 'backgroundColor': null, 'opacity': 0.15, 'position': 'absolute'};
-    var11 = var6[var12];
-    var11 = var13.bind(var1)(var11);
+    var12 = var6[var11];
+    var11 = metroImportDefault;
+    var11 = var11.bind(var1)(var12);
     var11 = var11.colors;
     var11 = var11.WHITE;
     var4['backgroundColor'] = var11;
-    var14 = {};
+    var12 = {};
     var11 = '30deg';
-    var14['rotate'] = var11;
+    var12['rotate'] = var11;
     var11 = new Array(1);
-    var11[0] = var14;
+    var11[0] = var12;
     var4['transform'] = var11;
     var7['slant'] = var4;
     var4 = {'width': 12, 'left': 36};
@@ -60,13 +60,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 8;
     var11 = {'width': 8, 'left': 20};
     var7['small'] = var11;
-    var11 = {};
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.WHITE;
-    var11['color'] = var12;
-    var7['icon'] = var11;
     var7 = var9.bind(var10)(var7);
     var _closure1_slot5 = var7;
     var7 = var8.memo;

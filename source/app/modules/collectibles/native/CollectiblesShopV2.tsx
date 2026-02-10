@@ -256,10 +256,6 @@ case 35:
     var4['rootContainer'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'zIndex': 5};
     var4['blur'] = var9;
-    var9 = {};
-    var10 = 48;
-    var9['height'] = var10;
-    var4['header'] = var9;
     var9 = {'position': 'absolute', 'top': '50%', 'left': '50%', 'marginTop': 4294967288, 'marginLeft': 4294967288};
     var4['spinner'] = var9;
     var4 = var7.bind(var8)(var4);

@@ -47,10 +47,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var10 = {'flexGrow': 0, 'flexShrink': 0, 'position': 'absolute'};
     var4['unreadBadge'] = var10;
-    var10 = {};
-    var11 = -16;
-    var10['marginLeft'] = var11;
-    var4['unreadBadgePanel'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot7 = var4;
     var4 = var7.memo;

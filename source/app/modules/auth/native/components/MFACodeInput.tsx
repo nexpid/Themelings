@@ -56,14 +56,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.createStyles;
     var4 = {};
     var11 = 20;
-    var12 = 'center';
     var10 = {'marginTop': 20, 'flexDirection': 'row', 'justifyContent': 'center', 'alignSelf': 'stretch'};
     var4['inputContainer'] = var10;
     var10 = {'flex': 1, 'maxWidth': 336, 'flexDirection': 'row', 'alignSelf': 'stretch'};
     var4['input'] = var10;
-    var10 = {};
-    var10['justifyContent'] = var12;
-    var4['title'] = var10;
     var10 = {'flex': 1, 'maxHeight': 20, 'alignItems': 'center', 'marginTop': 8};
     var4['status'] = var10;
     var10 = {};

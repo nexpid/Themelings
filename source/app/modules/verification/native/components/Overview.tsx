@@ -70,8 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 20;
     var11 = {'flex': 1, 'padding': 20, 'justifyContent': 'center', 'alignItems': 'center'};
     var7['containerInner'] = var11;
-    var11 = {'height': 190, 'width': 220, 'resizeMode': 'contain'};
-    var7['image'] = var11;
     var11 = {'marginTop': 20, 'fontSize': 17, 'textAlign': 'center'};
     var14 = var6[var13];
     var14 = var8.bind(var1)(var14);

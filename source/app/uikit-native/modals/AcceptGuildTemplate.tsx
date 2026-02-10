@@ -745,10 +745,6 @@ case 19:
     var4['createButton'] = var9;
     var9 = {'alignItems': 'center', 'flex': 1, 'justifyContent': 'center'};
     var4['resolvingContainer'] = var9;
-    var9 = {'alignSelf': 'stretch', 'padding': 16};
-    var4['buttonWrapper'] = var9;
-    var9 = {'flexGrow': 0, 'paddingHorizontal': 8};
-    var4['button'] = var9;
     var9 = {};
     var9['marginTop'] = var11;
     var4['divider'] = var9;

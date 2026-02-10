@@ -434,98 +434,103 @@ case 45:
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.activeErrors;
-            var1 = global;
-            var3 = var1.Map;
-            var3 = var2 instanceof var3;
-            if(!var3) { _fun0009_ip = 52; continue _fun0009 }
-case 53:
+            var3 = var1.activeErrors;
+            var2 = global;
+            var1 = var2.Map;
+            var1 = var3 instanceof var1;
+            if(var1) { _fun0009_ip = 34; continue _fun0009 }
+case 52:
+            var1 = false;
+            return var1;
+case 34:
             var4 = _closure1_slot8;
-            var3 = var1.Map;
-            var3 = var4 instanceof var3;
-            if(var3) { _fun0009_ip = 54; continue _fun0009 }
-case 55:
-            var3 = var1.Map;
-            var4 = var3.prototype;
-            var4 = Object.create(var4, {constructor: {value: var3}});
-            var16 = var4;
-            var3 = new var16[var3](var15);
-            var3 = var3 instanceof Object ? var3 : var4;
-            _closure1_slot8 = var3;
+            var1 = var2.Map;
+            var1 = var4 instanceof var1;
+            if(var1) { _fun0009_ip = 53; continue _fun0009 }
 case 54:
-            var5 = var1.Set;
-            var3 = var2.keys;
-            var15 = var3.bind(var2)();
-            var4 = var5.prototype;
-            var4 = Object.create(var4, {constructor: {value: var5}});
+            var1 = var2.Map;
+            var4 = var1.prototype;
+            var4 = Object.create(var4, {constructor: {value: var1}});
             var16 = var4;
-            var3 = new var16[var5](var15, var14);
-            var6 = var3 instanceof Object ? var3 : var4;
-            var5 = var1.Set;
-            var4 = _closure1_slot8;
-            var3 = var4.keys;
-            var15 = var3.bind(var4)();
-            var4 = var5.prototype;
-            var4 = Object.create(var4, {constructor: {value: var5}});
-            var16 = var4;
-            var3 = new var16[var5](var15, var14);
-            var5 = var3 instanceof Object ? var3 : var4;
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 7;
-            var3 = var7[var3];
-            var8 = undefined;
-            var4 = var4.bind(var8)(var3);
-            var3 = var4.areSetsEqual;
-            var3 = var3.bind(var4)(var6, var5);
-            if(var3) { _fun0009_ip = 52; continue _fun0009 }
-case 56:
-            _closure1_slot8 = var2;
-            var1 = var1.Map;
-            var2 = var1.prototype;
-            var2 = Object.create(var2, {constructor: {value: var1}});
-            var16 = var2;
             var1 = new var16[var1](var15);
-            var1 = var1 instanceof Object ? var1 : var2;
-            _closure1_slot9 = var1;
-            var2 = _closure1_slot10;
-            var3 = _closure1_slot8;
-            var1 = var3.entries;
-            var1 = var1.bind(var3)();
-            var7 = var2.bind(var8)(var1);
-            var2 = var7.bind(var8)();
-            var1 = var2.done;
-            var6 = 2;
-            var5 = 0;
-            var4 = 1;
-            var3 = null;
-            if(var1) { _fun0009_ip = 52; continue _fun0009 }
-case 12:
-            var10 = var2.value;
-            var1 = _closure1_slot2;
-            var1 = var1.bind(var8)(var10, var6);
-            var11 = var1[var5];
-            var1 = var1[var4];
+            var1 = var1 instanceof Object ? var1 : var4;
+            _closure1_slot8 = var1;
+case 53:
+            var5 = var2.Set;
+            var1 = var3.keys;
+            var15 = var1.bind(var3)();
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var16 = var4;
+            var1 = new var16[var5](var15, var14);
+            var7 = var1 instanceof Object ? var1 : var4;
+            var5 = var2.Set;
+            var4 = _closure1_slot8;
+            var1 = var4.keys;
+            var15 = var1.bind(var4)();
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var16 = var4;
+            var1 = new var16[var5](var15, var14);
+            var6 = var1 instanceof Object ? var1 : var4;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 7;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.areSetsEqual;
+            var4 = var4.bind(var5)(var7, var6);
+            if(var4) { _fun0009_ip = 55; continue _fun0009 }
+case 56:
+            _closure1_slot8 = var3;
+            var2 = var2.Map;
+            var3 = var2.prototype;
+            var3 = Object.create(var3, {constructor: {value: var2}});
+            var16 = var3;
+            var2 = new var16[var2](var15);
+            var2 = var2 instanceof Object ? var2 : var3;
+            _closure1_slot9 = var2;
+            var3 = _closure1_slot10;
+            var4 = _closure1_slot8;
+            var2 = var4.entries;
+            var2 = var2.bind(var4)();
+            var8 = var3.bind(var1)(var2);
+            var3 = var8.bind(var1)();
+            var2 = var3.done;
+            var7 = 2;
+            var6 = 0;
+            var5 = 1;
+            var4 = null;
+            if(var2) { _fun0009_ip = 57; continue _fun0009 }
+case 58:
+            var10 = var3.value;
+            var2 = _closure1_slot2;
+            var2 = var2.bind(var1)(var10, var7);
+            var11 = var2[var6];
+            var2 = var2[var5];
             var13 = _closure1_slot9;
             var12 = var13.get;
-            var10 = var1.type;
+            var10 = var2.type;
             var12 = var12.bind(var13)(var10);
-            if(!(var3 == var12)) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+            if(!(var4 == var12)) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
             var12 = new Array(0);
-case 57:
+case 59:
             var10 = var12.push;
             var10 = var10.bind(var12)(var11);
             var11 = _closure1_slot9;
             var10 = var11.set;
-            var1 = var1.type;
-            var1 = var10.bind(var11)(var1, var12);
-            var10 = var7.bind(var8)();
-            var1 = var10.done;
-            var2 = var10;
-            if(!var1) { _fun0009_ip = 12; continue _fun0009 }
-case 52:
-            var1 = undefined;
+            var2 = var2.type;
+            var2 = var10.bind(var11)(var2, var12);
+            var10 = var8.bind(var1)();
+            var2 = var10.done;
+            var3 = var10;
+            if(!var2) { _fun0009_ip = 58; continue _fun0009 }
+case 57:
+            return var1;
+case 55:
+            var1 = false;
             return var1;
         }
     };

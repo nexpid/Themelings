@@ -1556,13 +1556,6 @@ case 88:
     var10 = {};
     var10['marginBottom'] = var17;
     var4['activityInfoHeader'] = var10;
-    var10 = {'borderRadius': null, 'width': '100%', 'aspectRatio': 1.7777777777777777};
-    var17 = var6[var11];
-    var17 = var12.bind(var1)(var17);
-    var17 = var17.radii;
-    var17 = var17.lg;
-    var10['borderRadius'] = var17;
-    var4['activityImage'] = var10;
     var10 = {};
     var21 = var15.absoluteFillObject;
     var22 = var10;

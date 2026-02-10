@@ -384,13 +384,6 @@ case 16:
     var10 = {};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.GUILD_BOOSTING_PINK;
-    var10['backgroundColor'] = var13;
-    var5['progressFull'] = var10;
-    var10 = {};
-    var13 = var7[var11];
-    var13 = var12.bind(var1)(var13);
     var13 = var13.spacing;
     var13 = var13.PX_16;
     var10['marginStart'] = var13;

@@ -136,7 +136,7 @@ case 0:
             var1 = var16[var7];
             var3 = var18.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function h() {
+            var1 = function c() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -1454,13 +1454,6 @@ case 75:
         var9 = var9.PX_4;
         var2['padding'] = var9;
         var1['muteIcon'] = var2;
-        var2 = {};
-        var9 = var6[var3];
-        var9 = var5.bind(var4)(var9);
-        var9 = var9.colors;
-        var9 = var9.INTERACTIVE_TEXT_ACTIVE;
-        var2['backgroundColor'] = var9;
-        var1['muteIconActive'] = var2;
         var2 = {};
         var9 = var6[var3];
         var9 = var5.bind(var4)(var9);

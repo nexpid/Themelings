@@ -65,12 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['marginTop'] = var15;
     var2['guildList'] = var9;
-    var15 = '100%';
     var9 = {'resizeMode': 'contain', 'width': '100%', 'height': 34, 'maxWidth': 320, 'marginTop': 16};
     var2['logoPremiumGuild'] = var9;
-    var9 = {};
-    var9['width'] = var15;
-    var2['shortWidthLogoPremiumGuild'] = var9;
     var9 = {'width': 95, 'height': 65};
     var2['imgPremiumGuild'] = var9;
     var9 = {'width': 178, 'height': 112, 'marginTop': 32};

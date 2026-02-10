@@ -549,8 +549,6 @@ case 33:
     var13 = var13.BACKGROUND_MOD_MUTED;
     var11['backgroundColor'] = var13;
     var5['cardDivider'] = var11;
-    var11 = {'position': 'absolute', 'right': 16, 'zIndex': 10};
-    var5['actionButton'] = var11;
     var11 = {'marginHorizontal': 4294967284, 'marginVertical': 4294967287};
     var5['messagePreview'] = var11;
     var11 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};

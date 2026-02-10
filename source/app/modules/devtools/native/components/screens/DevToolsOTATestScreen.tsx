@@ -317,10 +317,6 @@ case 16:
     var9['padding'] = var13;
     var4['contentContainer'] = var9;
     var9 = {};
-    var13 = var10.CODE_BOLD;
-    var9['fontFamily'] = var13;
-    var4['path'] = var9;
-    var9 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.spacing;

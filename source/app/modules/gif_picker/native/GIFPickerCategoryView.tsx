@@ -61,9 +61,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['flex'] = var13;
     var4['container'] = var9;
     var9 = {};
-    var9['flex'] = var13;
-    var4['gifButton'] = var9;
-    var9 = {};
     var14 = var6[var10];
     var14 = var11.bind(var1)(var14);
     var14 = var14.radii;

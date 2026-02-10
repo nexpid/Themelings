@@ -1,11 +1,11 @@
 // app/modules/voice_panel/native/shared/VoicePanelStreamPreview.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -23,7 +23,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.StyleSheet;
     var9 = var4.Pressable;
     var4 = 2;
     var4 = var6[var4];
@@ -34,12 +33,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 3;
     var7 = var6[var4];
-    var8 = var13.bind(var1)(var7);
+    var8 = var11.bind(var1)(var7);
     var7 = var8.createAnimatedComponent;
     var7 = var7.bind(var8)(var9);
     var _closure1_slot5 = var7;
     var4 = var6[var4];
-    var8 = var13.bind(var1)(var4);
+    var8 = var11.bind(var1)(var4);
     var7 = var8.createAnimatedComponent;
     var4 = 4;
     var4 = var6[var4];
@@ -57,23 +56,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'position': 'absolute', 'alignItems': 'center', 'justifyContent': 'center', 'width': '100%', 'height': '100%'};
-    var11 = 'center';
-    var12 = 6;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.VOICE_VIDEO_VIDEO_TILE_BACKGROUND;
-    var9['backgroundColor'] = var12;
+    var10 = 6;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.VOICE_VIDEO_VIDEO_TILE_BACKGROUND;
+    var9['backgroundColor'] = var10;
     var4['roundedCard'] = var9;
-    var9 = {};
-    var15 = var10.absoluteFillObject;
-    var16 = var9;
-    var10 = copyDataProperties(var16, var15);
-    var10 = 'alignItems';
-    var9[var10] = var11;
-    var10 = 'justifyContent';
-    var9[var10] = var11;
-    var4['streamPreviewImageContainer'] = var9;
     var9 = {'position': 'absolute', 'width': '100%', 'height': '100%', 'opacity': 0.5};
     var4['streamPreviewImage'] = var9;
     var9 = {'position': 'absolute', 'width': '75%', 'opacity': 0.5};
@@ -135,7 +124,7 @@ case 6:
             var2 = var15[var5];
             var3 = var9.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function p() {
+            var1 = function y() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot0;

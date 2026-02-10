@@ -78,8 +78,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['gap'] = var13;
     var9['flex'] = var12;
     var4['getStartedContainer'] = var9;
-    var9 = {'width': 73, 'height': 85};
-    var4['getStartedSafetyShieldIcon'] = var9;
     var9 = {};
     var12 = 'center';
     var9['alignItems'] = var12;

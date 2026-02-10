@@ -63,10 +63,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var11 = 16;
-    var9['marginBottom'] = var11;
-    var4['emptyImage'] = var9;
     var9 = {'marginBottom': 8, 'textAlign': 'center'};
     var4['header'] = var9;
     var9 = {'lineHeight': 18, 'textAlign': 'center', 'marginBottom': 12};

@@ -70,13 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var13;
     var4['searchBarContainer'] = var9;
     var9 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_8;
-    var9['paddingTop'] = var13;
-    var4['searchBarRowContainer'] = var9;
-    var9 = {};
     var9['flex'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
@@ -84,10 +77,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.BACKGROUND_BASE_LOWER;
     var9['backgroundColor'] = var10;
     var4['noResults'] = var9;
-    var9 = {};
-    var10 = 8;
-    var9['marginTop'] = var10;
-    var4['searchWithPadding'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 18;

@@ -1,24 +1,24 @@
 // app/modules/stickers/native/StickerPackDetailActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -61,26 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'marginHorizontal': 16, 'marginVertical': 8, 'backgroundColor': 'transparent'};
     var10['height'] = var1;
     var4['header'] = var10;
-    var10 = {'padding': 16, 'paddingBottom': 16};
-    var11 = 7;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOW;
-    var10['backgroundColor'] = var11;
-    var4['footer'] = var10;
     var10 = {'paddingHorizontal': 16, 'marginBottom': 16};
     var4['stickers'] = var10;
     var10 = {'position': 'absolute', 'bottom': 50};
     var4['popoutContainer'] = var10;
-    var10 = {};
-    var11 = 40;
-    var10['height'] = var11;
-    var4['upsellButton'] = var10;
-    var10 = {};
-    var11 = 32;
-    var10['width'] = var11;
-    var4['nitroWheel'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot12 = var4;
     var4 = var7.memo;
@@ -99,7 +83,7 @@ case 0:
             var11 = var3.bind(var4)();
             var17 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var21[var3];
             var3 = var17.bind(var4)(var3);
             var3 = var3.bind(var4)();
@@ -127,7 +111,7 @@ case 0:
             var3 = var5.useRef;
             var3 = var3.bind(var5)(var8);
             var _closure2_slot6 = var3;
-            var3 = 9;
+            var3 = 8;
             var3 = var21[var3];
             var3 = var17.bind(var4)(var3);
             var3 = var3.bind(var4)();
@@ -145,7 +129,7 @@ case 0:
             var3 = var13 / var3;
             var13 = var9.bind(var10)(var3);
             var _closure2_slot7 = var13;
-            var3 = 10;
+            var3 = 9;
             var3 = var21[var3];
             var10 = var17.bind(var4)(var3);
             var9 = var10.chunk;
@@ -243,7 +227,7 @@ case 6:
             var1 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 11;
+                var1 = 10;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -265,21 +249,21 @@ case 6:
             var1 = {};
             var14 = _closure1_slot9;
             var24 = _closure1_slot0;
-            var5 = 12;
+            var5 = 11;
             var5 = var21[var5];
             var5 = var24.bind(var4)(var5);
             var9 = var5.BottomSheet;
             var5 = {'scrollable': true, 'startExpanded': true, 'handleDisabled': true};
             var20 = true;
             var15 = {};
-            var13 = 13;
+            var13 = 12;
             var13 = var21[var13];
             var19 = var17.bind(var4)(var13);
             var17 = {};
             var17['stickerPack'] = var12;
             var13 = var11.header;
             var17['style'] = var13;
-            var13 = 14;
+            var13 = 13;
             var21 = var21[var13];
             var24 = var24.bind(var4)(var21);
             var21 = var24.doesStickerPackHavePopoutInformation;
@@ -298,12 +282,12 @@ case 8:
             var19 = _closure1_slot9;
             var17 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var24 = 15;
+            var24 = 14;
             var24 = var20[var24];
             var24 = var17.bind(var4)(var24);
             var25 = var24.ActionSheetHeaderBar;
             var24 = {};
-            var26 = 16;
+            var26 = 15;
             var26 = var20[var26];
             var26 = var17.bind(var4)(var26);
             var26 = var26.ActionSheetHeaderBarVariants;
@@ -314,7 +298,7 @@ case 8:
             var15['children'] = var21;
             var15 = var3.bind(var4)(var2, var15);
             var5['header'] = var15;
-            var15 = 17;
+            var15 = 16;
             var15 = var20[var15];
             var15 = var17.bind(var4)(var15);
             var17 = var15.BottomSheetScrollView;
@@ -331,7 +315,7 @@ case 8:
                 var5 = _closure1_slot9;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 18;
+                var1 = 17;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -362,7 +346,7 @@ case 11:
             var15 = _closure1_slot9;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var9 = 19;
+            var9 = 18;
             var9 = var19[var9];
             var9 = var14.bind(var4)(var9);
             var14 = var9.PressableOpacity;
@@ -380,7 +364,7 @@ case 11:
             };
             var9['onPress'] = var16;
             var17 = _closure1_slot1;
-            var16 = 20;
+            var16 = 19;
             var16 = var19[var16];
             var17 = var17.bind(var4)(var16);
             var16 = {};
@@ -413,7 +397,7 @@ case 12:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

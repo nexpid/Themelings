@@ -1,25 +1,25 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardActivitySubtitle.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var7 = var6[var1];
+    var8 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
+    var4 = var4.bind(var1)(var8);
     var10 = 1;
     var4 = var6[var10];
     var4 = var5.bind(var1)(var4);
@@ -27,15 +27,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ActivityTypes;
     var _closure1_slot5 = var4;
-    var11 = 4;
-    var4 = var6[var11];
+    var4 = 4;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
@@ -47,22 +47,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'marginTop': 2, 'flexDirection': 'row', 'alignItems': 'center'};
     var4['cardDetails'] = var9;
     var9 = {};
-    var9['marginRight'] = var11;
-    var4['cardDetailsIcon'] = var9;
-    var9 = {};
-    var11 = 6;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
-    var9['color'] = var11;
-    var4['cardDetailsIconColor'] = var9;
-    var9 = {};
     var9['flexShrink'] = var10;
     var4['cardDetailsText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -79,7 +68,7 @@ case 0:
             var8 = var2.bind(var4)();
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var10[var2];
             var5 = var6.bind(var4)(var2);
             var3 = var5.useStateFromStores;
@@ -96,7 +85,7 @@ case 0:
             };
             var11 = var3.bind(var5)(var2, var1);
             var2 = _closure1_slot1;
-            var1 = 8;
+            var1 = 7;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var7 = var1.bind(var4)(var11);
@@ -105,7 +94,7 @@ case 0:
             var1 = {};
             var5 = var8.cardDetails;
             var1['style'] = var5;
-            var5 = 9;
+            var5 = 8;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.HappeningNowCardSubtitle;
@@ -121,7 +110,7 @@ case 0:
 case 3:
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 10;
+            var9 = 9;
             var9 = var12[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -168,7 +157,7 @@ case 9:
 case 12:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 12;
+            var7 = 11;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.bind(var4)(var3);
@@ -176,7 +165,7 @@ case 12:
 case 14:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 13;
+            var7 = 12;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.bind(var4)(var3);
@@ -232,7 +221,7 @@ case 28:
 case 26:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var8 = 11;
+            var8 = 10;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -261,7 +250,7 @@ case 30:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.HappeningNowCardSubtitle;

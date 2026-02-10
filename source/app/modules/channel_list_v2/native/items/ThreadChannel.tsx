@@ -647,8 +647,6 @@ case 35:
     var11 = var11.SPINE_DEFAULT;
     var10['backgroundColor'] = var11;
     var4['threadLineSegment'] = var10;
-    var10 = {'position': 'absolute', 'left': 23};
-    var4['threadSpineCurve'] = var10;
     var4 = var7.bind(var9)(var4);
     var _closure1_slot20 = var4;
     var7 = var8.memo;

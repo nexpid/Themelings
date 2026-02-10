@@ -55,8 +55,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = {};
     var13['flex'] = var10;
     var2['zoomLayoutAndroid'] = var13;
-    var13 = {'position': 'absolute', 'right': 8, 'top': 8};
-    var2['liveTag'] = var13;
     var2 = var5.bind(var12)(var2);
     var _closure1_slot11 = var2;
     var2 = {};

@@ -97,8 +97,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 8;
     var9['marginTop'] = var10;
     var4['reconnectButton'] = var9;
-    var9 = {'alignSelf': 'center', 'marginLeft': 16};
-    var4['upsellImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
     var4 = function OneWayToTwoWayNewTag(arg1) {

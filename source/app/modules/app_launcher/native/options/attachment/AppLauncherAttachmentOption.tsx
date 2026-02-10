@@ -85,15 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {};
-    var10 = 6;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
-    var9['tintColor'] = var12;
-    var4['imageIcon'] = var9;
     var9 = {'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': null, 'width': 32, 'height': 32};
+    var10 = 6;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;

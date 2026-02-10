@@ -504,9 +504,6 @@ case 27:
     var8 = var9.createStyles;
     var4 = {};
     var10 = {};
-    var10['flex'] = var14;
-    var4['searchField'] = var10;
-    var10 = {};
     var12 = 5;
     var15 = var6[var12];
     var15 = var13.bind(var1)(var15);

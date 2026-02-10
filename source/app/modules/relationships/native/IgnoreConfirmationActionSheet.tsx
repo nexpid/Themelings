@@ -152,9 +152,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['otherOptions'] = var11;
     var11 = {};
     var11['textAlign'] = var13;
-    var4['bodyText'] = var11;
-    var11 = {};
-    var11['textAlign'] = var13;
     var4['subTitle'] = var11;
     var11 = {};
     var11['textAlign'] = var13;

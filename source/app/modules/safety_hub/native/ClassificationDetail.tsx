@@ -31,7 +31,7 @@ case 0:
                     var5 = _closure1_slot13;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 9;
                     var1 = var3[var1];
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
@@ -52,7 +52,7 @@ case 0:
 case 3:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 12;
+                var1 = 11;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -76,7 +76,7 @@ case 6:
 case 5:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var2 = var6[var2];
                 var2 = var5.bind(var8)(var2);
                 var2 = var2.MemberType;
@@ -85,7 +85,7 @@ case 5:
 case 8:
                 var4 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var2 = 12;
+                var2 = 11;
                 var5 = var11[var2];
                 var5 = var4.bind(var8)(var5);
                 var6 = var5.intl;
@@ -113,7 +113,7 @@ case 9:
 case 7:
                 var4 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var3 = 12;
+                var3 = 11;
                 var5 = var11[var3];
                 var5 = var4.bind(var8)(var5);
                 var6 = var5.intl;
@@ -152,7 +152,7 @@ case 4:
         var7 = _closure1_slot13;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var5 = 10;
+        var5 = 9;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.Text;
@@ -174,7 +174,7 @@ case 0:
             var26 = var1.classificationExpiration;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var4[var1];
             var5 = undefined;
             var6 = var2.bind(var5)(var1);
@@ -216,12 +216,12 @@ case 14:
             var8 = _closure1_slot13;
             var15 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var16 = 10;
+            var16 = 9;
             var6 = var9[var16];
             var6 = var15.bind(var5)(var6);
             var7 = var6.Text;
             var6 = {'variant': 'eyebrow', 'color': 'text-muted'};
-            var23 = 12;
+            var23 = 11;
             var11 = var9[var23];
             var11 = var15.bind(var5)(var11);
             var14 = var11.intl;
@@ -342,7 +342,7 @@ case 16:
             var12 = _closure1_slot14;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 10;
+            var6 = 9;
             var1 = var10[var6];
             var2 = undefined;
             var1 = var7.bind(var2)(var1);
@@ -394,12 +394,12 @@ case 16:
         var9 = _closure1_slot13;
         var14 = _closure1_slot0;
         var19 = _closure1_slot2;
-        var5 = 10;
+        var5 = 9;
         var5 = var19[var5];
         var5 = var14.bind(var4)(var5);
         var8 = var5.Text;
         var5 = {'variant': 'eyebrow', 'color': 'text-muted'};
-        var13 = 12;
+        var13 = 11;
         var12 = var19[var13];
         var12 = var14.bind(var4)(var12);
         var16 = var12.intl;
@@ -414,7 +414,7 @@ case 16:
         var5 = new Array(4);
         var5[0] = var8;
         var12 = _closure1_slot13;
-        var8 = 14;
+        var8 = 13;
         var8 = var19[var8];
         var8 = var14.bind(var4)(var8);
         var9 = var8.TextWithIOSLinkWorkaround;
@@ -463,14 +463,14 @@ case 16:
         var7 = _closure1_slot14;
         var18 = _closure1_slot1;
         var20 = _closure1_slot2;
-        var5 = 15;
+        var5 = 14;
         var5 = var20[var5];
         var6 = var18.bind(var4)(var5);
         var5 = {};
         var8 = function onPress() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -491,7 +491,7 @@ case 16:
         var8['style'] = var11;
         var15 = _closure1_slot13;
         var16 = _closure1_slot0;
-        var11 = 17;
+        var11 = 16;
         var11 = var20[var11];
         var11 = var16.bind(var4)(var11);
         var14 = var11.ShieldIcon;
@@ -515,12 +515,12 @@ case 16:
         var13 = var13.classificationPolicyCardContent;
         var9['style'] = var13;
         var14 = _closure1_slot13;
-        var12 = 10;
+        var12 = 9;
         var12 = var20[var12];
         var12 = var16.bind(var4)(var12);
         var13 = var12.Text;
         var12 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
-        var15 = 12;
+        var15 = 11;
         var17 = var20[var15];
         var17 = var16.bind(var4)(var17);
         var18 = var17.intl;
@@ -553,7 +553,7 @@ case 16:
         var3 = _closure1_slot13;
         var8 = _closure1_slot1;
         var10 = _closure1_slot2;
-        var7 = 18;
+        var7 = 17;
         var1 = var10[var7];
         var2 = var8.bind(var4)(var1);
         var1 = {};
@@ -565,7 +565,7 @@ case 16:
         var7 = var7.MEDIUM;
         var1['size'] = var7;
         var9 = _closure1_slot0;
-        var6 = 12;
+        var6 = 11;
         var7 = var10[var6];
         var7 = var9.bind(var4)(var7);
         var8 = var7.intl;
@@ -688,15 +688,6 @@ case 16:
     var13 = var13.PX_8;
     var9['gap'] = var13;
     var4['sectionContainer'] = var9;
-    var9 = 9;
-    var13 = var6[var9];
-    var14 = var5.bind(var1)(var13);
-    var13 = var14.generateBoxShadowStyle;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.FOUR_DP_ELEVATION_SHADOW_PARAMS;
-    var9 = var13.bind(var14)(var9);
-    var4['cardShadow'] = var9;
     var9 = {'display': 'flex', 'paddingLeft': null, 'flexDirection': 'column'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -709,23 +700,6 @@ case 16:
     var13 = var13.PX_8;
     var9['gap'] = var13;
     var4['actionsTaken'] = var9;
-    var9 = {'display': 'flex', 'padding': null, 'flexDirection': 'column'};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_12;
-    var9['padding'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var13;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.sm;
-    var9['borderRadius'] = var13;
-    var4['policy'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'column'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
@@ -773,13 +747,6 @@ case 16:
     var9 = {};
     var9['flex'] = var12;
     var4['classificationPolicyCardContent'] = var9;
-    var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_8;
-    var9['gap'] = var12;
-    var4['classificationActionsTakenRow'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -787,25 +754,6 @@ case 16:
     var12 = var12.PX_8;
     var9['gap'] = var12;
     var4['classificationActionDescription'] = var9;
-    var9 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': 24, 'height': 24};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.xxl;
-    var9['borderRadius'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOWEST;
-    var9['backgroundColor'] = var12;
-    var4['actionRowIconBackground'] = var9;
-    var9 = {'width': 12, 'height': 12};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.sm;
-    var9['borderRadius'] = var12;
-    var4['actionRowIcon'] = var9;
     var9 = {'borderRadius': null, 'width': 300, 'alignSelf': 'center'};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -824,13 +772,13 @@ case 16:
         var4 = _closure1_slot13;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var1 = var9[var1];
         var3 = undefined;
         var1 = var8.bind(var3)(var1);
         var2 = var1.Text;
         var1 = {'variant': 'text-md/normal', 'color': 'text-muted'};
-        var5 = 12;
+        var5 = 11;
         var6 = var9[var5];
         var6 = var8.bind(var3)(var6);
         var7 = var6.intl;
@@ -851,13 +799,13 @@ case 16:
         var4 = _closure1_slot13;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var1 = var10[var1];
         var3 = undefined;
         var1 = var6.bind(var3)(var1);
         var2 = var1.Text;
         var1 = {'variant': 'text-sm/normal', 'color': 'text-muted'};
-        var5 = 12;
+        var5 = 11;
         var7 = var10[var5];
         var7 = var6.bind(var3)(var7);
         var8 = var7.intl;
@@ -871,7 +819,7 @@ case 16:
             var5 = _closure1_slot13;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
@@ -926,7 +874,7 @@ case 21:
         }
     };
     var _closure1_slot19 = var4;
-    var4 = 29;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -945,7 +893,7 @@ case 0:
             var4 = var1.onError;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var1 = var7[var1];
             var3 = undefined;
             var2 = var6.bind(var3)(var1);
@@ -958,7 +906,7 @@ case 0:
             var _closure2_slot5 = var2;
             var2 = _closure1_slot16;
             var14 = var2.bind(var3)();
-            var2 = 13;
+            var2 = 12;
             var2 = var7[var2];
             var9 = var6.bind(var3)(var2);
             var7 = var9.useStateFromStores;
@@ -995,7 +943,7 @@ case 24:
             var _closure2_slot6 = var6;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 20;
+            var7 = 19;
             var7 = var10[var7];
             var9 = var9.bind(var3)(var7);
             var7 = var9.useSafetyHubAccountStanding;
@@ -1013,7 +961,7 @@ case 29:
             var12 = var13.includes;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var10 = 11;
+            var10 = 10;
             var10 = var16[var10];
             var10 = var15.bind(var3)(var10);
             var10 = var10.AppealEligibility;
@@ -1033,7 +981,7 @@ case 33:
             var12 = var13.includes;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var10 = 11;
+            var10 = 10;
             var10 = var16[var10];
             var10 = var15.bind(var3)(var10);
             var10 = var10.AppealEligibility;
@@ -1082,7 +1030,7 @@ case 35:
                     var7 = var1.source;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 20;
                     var1 = var3[var1];
                     var11 = undefined;
                     var4 = var2.bind(var11)(var1);
@@ -1124,7 +1072,7 @@ case 39:
             var5 = var1.classificationRequestState;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);
             var1 = var1.ClassificationRequestState;
@@ -1139,7 +1087,7 @@ case 38:
             var9 = _closure1_slot13;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 22;
+            var7 = 21;
             var7 = var10[var7];
             var7 = var8.bind(var3)(var7);
             var8 = var7.SafeAreaPaddingView;
@@ -1170,7 +1118,7 @@ case 42:
             var17 = _closure1_slot13;
             var16 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var15 = 23;
+            var15 = 22;
             var15 = var19[var15];
             var16 = var16.bind(var3)(var15);
             var15 = {};
@@ -1189,7 +1137,7 @@ case 43:
             var15['actions'] = var19;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var19 = 24;
+            var19 = 23;
             var19 = var21[var19];
             var20 = var20.bind(var3)(var19);
             var19 = var20.getClassificationExpiration;
@@ -1222,7 +1170,7 @@ case 43:
 case 0:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 20;
                     var2 = var2[var1];
                     var1 = undefined;
                     var7 = var4.bind(var1)(var2);
@@ -1273,7 +1221,7 @@ case 26:
                     var6 = _closure1_slot2;
                     if(var4) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
-                    var4 = 16;
+                    var4 = 15;
                     var4 = var6[var4];
                     var8 = var5.bind(var1)(var4);
                     var7 = var8.openURL;
@@ -1282,20 +1230,20 @@ case 52:
                     var4 = var7.bind(var8)(var4);
                     _fun0006_ip = 53; continue _fun0006;
 case 51:
-                    var4 = 26;
+                    var4 = 25;
                     var4 = var6[var4];
                     var8 = var5.bind(var1)(var4);
                     var7 = var8.increment;
                     var4 = {};
                     var10 = _closure1_slot0;
-                    var9 = 27;
+                    var9 = 26;
                     var9 = var6[var9];
                     var9 = var10.bind(var1)(var9);
                     var9 = var9.MetricEvents;
                     var9 = var9.APPEAL_INGESTION_VIEW;
                     var4['name'] = var9;
                     var4 = var7.bind(var8)(var4);
-                    var4 = 28;
+                    var4 = 27;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.open;
@@ -1307,7 +1255,7 @@ case 51:
 case 50:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 25;
+                    var4 = 24;
                     var4 = var6[var4];
                     var7 = var5.bind(var1)(var4);
                     var6 = var7.open;
@@ -1318,7 +1266,7 @@ case 50:
 case 48:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 25;
+                    var3 = 24;
                     var3 = var5[var3];
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.openV2;

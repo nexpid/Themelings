@@ -59,10 +59,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['borderRadius'] = var12;
     var4['container'] = var9;
     var9 = {};
-    var12 = 'currentColor';
-    var9['tintColor'] = var12;
-    var4['icon'] = var9;
-    var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;

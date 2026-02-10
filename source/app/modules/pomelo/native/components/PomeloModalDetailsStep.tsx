@@ -65,10 +65,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 16;
     var4['marginBottom'] = var10;
     var7['marginBottom16'] = var4;
-    var4 = {};
-    var10 = 8;
-    var4['marginBottom'] = var10;
-    var7['marginBottom8'] = var4;
     var4 = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 20};
     var7['infoItem'] = var4;
     var4 = {'width': 40, 'height': 40, 'backgroundColor': null, 'borderRadius': 20, 'alignItems': 'center', 'justifyContent': 'center'};

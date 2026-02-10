@@ -81,12 +81,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['flex'] = var14;
     var4['guildWrapper'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};
-    var4['guildCountsWrapper'] = var10;
-    var10 = {};
-    var15 = 'visible';
-    var10['overflow'] = var15;
-    var4['guildBadgeIcon'] = var10;
     var10 = {};
     var10['flex'] = var14;
     var4['guildName'] = var10;

@@ -34,15 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 4;
     var9['marginVertical'] = var12;
     var4['actionBarCTAContainer'] = var9;
-    var9 = {};
-    var10 = 3;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.WHITE;
-    var9['tintColor'] = var13;
-    var4['imageStyle'] = var9;
     var9 = {'tintColor': null, 'width': 20, 'height': 20};
+    var10 = 3;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;

@@ -71,12 +71,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['marginBottom'] = var10;
     var4['formHeader'] = var9;
-    var9 = {};
-    var9['marginTop'] = var10;
-    var4['shareDescription'] = var9;
-    var9 = {};
-    var9['marginStart'] = var10;
-    var4['badge'] = var9;
     var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 8};
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);

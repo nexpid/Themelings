@@ -318,9 +318,6 @@ case 0:
         var10 = {'paddingVertical': 20, 'gap': 16};
         var4['scrollContainer'] = var10;
         var10 = {};
-        var10['flex'] = var13;
-        var4['container'] = var10;
-        var10 = {};
         var11 = 5;
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);

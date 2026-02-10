@@ -98,10 +98,6 @@ case 2:
     var7 = {};
     var10 = {'display': 'flex', 'flexDirection': 'row'};
     var7['container'] = var10;
-    var10 = {};
-    var11 = 16;
-    var10['marginTop'] = var11;
-    var7['parent'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot7 = var7;
     var4 = var6[var4];

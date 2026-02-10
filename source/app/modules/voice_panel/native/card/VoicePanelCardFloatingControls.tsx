@@ -517,8 +517,6 @@ case 20:
         var4['iconContainer'] = var10;
         var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'overflow': 'hidden', 'flexShrink': 1};
         var4['floatingContainer'] = var10;
-        var10 = {'flexDirection': 'row', 'alignItems': 'center', 'overflow': 'hidden', 'flexShrink': 1};
-        var4['floatingTextContainer'] = var10;
         var10 = {'overflow': 'hidden', 'paddingStart': 4, 'paddingEnd': 4, 'flexShrink': 1, 'lineHeight': 14};
         var4['floatingText'] = var10;
         var10 = {'position': 'absolute', 'top': 8, 'right': 8, 'padding': 6};

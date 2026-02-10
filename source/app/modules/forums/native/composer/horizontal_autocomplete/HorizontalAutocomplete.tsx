@@ -1,11 +1,11 @@
 // app/modules/forums/native/composer/horizontal_autocomplete/HorizontalAutocomplete.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = function HorizontalAutocompleteOption(arg1) {
         var2 = arg1;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var2.bind(var4)();
         var3 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var5 = 12;
+        var5 = 11;
         var2 = var11[var5];
         var10 = var3.bind(var4)(var2);
         var6 = var10.useSharedValue;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var6.bind(var10)(var2);
         var _closure2_slot0 = var13;
         var6 = _closure1_slot1;
-        var2 = 13;
+        var2 = 12;
         var2 = var11[var2];
         var10 = var6.bind(var4)(var2);
         var2 = function() {
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var2 = var2[var1];
             var1 = undefined;
             var6 = var5.bind(var1)(var2);
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var11[var5];
         var3 = var3.bind(var4)(var2);
         var2 = var3.useAnimatedStyle;
-        var1 = function s() {
+        var1 = function c() {
             var1 = {};
             var3 = _closure2_slot0;
             var2 = var3.get;
@@ -85,147 +85,115 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var1;
     var1 = global;
     var8 = var1.Object;
-    var4 = var8.defineProperty;
+    var7 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
-    var10 = 0;
-    var4 = var6[var10];
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var7 = var6[var1];
     var2 = metroImportAll;
     var1 = undefined;
-    var2 = var2.bind(var1)(var4);
+    var2 = var2.bind(var1)(var7);
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var15 = var2.StyleSheet;
-    var4 = var2.TouchableOpacity;
-    var _closure1_slot3 = var4;
+    var14 = var2.StyleSheet;
+    var7 = var2.TouchableOpacity;
+    var _closure1_slot3 = var7;
     var2 = var2.View;
     var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var6[var2];
-    var2 = var14.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 3;
     var2 = var6[var2];
-    var2 = var14.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot6 = var2;
-    var12 = 4;
-    var2 = var6[var12];
-    var2 = var14.bind(var1)(var2);
+    var11 = 4;
+    var2 = var6[var11];
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 5;
     var2 = var6[var2];
-    var2 = var14.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot8 = var2;
     var2 = 6;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.ChannelTypes;
-    var _closure1_slot9 = var4;
-    var16 = var2.Fonts;
+    var7 = var2.ChannelTypes;
+    var _closure1_slot9 = var7;
+    var12 = var2.Fonts;
     var2 = 7;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var13 = var2.AUTOCOMPLETE_ROW_HEIGHT;
-    var11 = 8;
-    var2 = var6[var11];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.jsx;
-    var _closure1_slot10 = var4;
+    var7 = var2.jsx;
+    var _closure1_slot10 = var7;
     var2 = var2.jsxs;
     var _closure1_slot11 = var2;
-    var2 = 9;
-    var2 = var6[var2];
-    var9 = var5.bind(var1)(var2);
-    var8 = var9.createStyles;
+    var10 = 8;
+    var2 = var6[var10];
+    var8 = var5.bind(var1)(var2);
+    var7 = var8.createStyles;
     var2 = {};
-    var4 = {};
-    var4['height'] = var13;
-    var4['paddingVertical'] = var10;
-    var13 = 10;
-    var10 = var6[var13];
-    var10 = var14.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BACKGROUND_SURFACE_HIGH;
-    var4['backgroundColor'] = var10;
-    var2['row'] = var4;
-    var17 = 11;
-    var4 = var6[var17];
-    var19 = var14.bind(var1)(var4);
-    var18 = var16.PRIMARY_SEMIBOLD;
-    var4 = var6[var13];
-    var4 = var14.bind(var1)(var4);
-    var4 = var4.colors;
-    var10 = var4.INTERACTIVE_TEXT_ACTIVE;
-    var4 = 16;
-    var4 = var19.bind(var1)(var18, var10, var4);
-    var2['leading'] = var4;
-    var4 = {};
-    var19 = 14;
-    var4['fontSize'] = var19;
-    var10 = var6[var13];
-    var10 = var14.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.TEXT_MUTED;
-    var4['color'] = var10;
-    var2['trailing'] = var4;
-    var4 = {'width': 32, 'height': 32};
-    var2['emoji'] = var4;
-    var4 = {};
-    var10 = 'contain';
-    var4['resizeMode'] = var10;
-    var2['emojiImage'] = var4;
-    var4 = 27;
-    var10 = {'lineHeight': 32, 'fontSize': 27, 'textAlign': 'center'};
-    var2['emojiText'] = var10;
-    var10 = {};
-    var10['marginLeft'] = var11;
-    var2['emojiName'] = var10;
-    var10 = {};
-    var17 = var6[var17];
-    var18 = var14.bind(var1)(var17);
-    var17 = var16.PRIMARY_SEMIBOLD;
-    var16 = var6[var13];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.TEXT_DEFAULT;
-    var21 = var18.bind(var1)(var17, var16, var19);
-    var22 = var10;
-    var16 = copyDataProperties(var22, var21);
-    var2['nickname'] = var10;
-    var10 = {};
-    var16 = var6[var13];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.BACKGROUND_BASE_LOW;
-    var10['backgroundColor'] = var16;
-    var2['status'] = var10;
-    var10 = {'paddingHorizontal': 8, 'flex': 1, 'flexDirection': 'row', 'height': 56, 'alignItems': 'center'};
-    var15 = var15.hairlineWidth;
-    var10['borderRightWidth'] = var15;
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BORDER_SUBTLE;
-    var10['borderRightColor'] = var13;
-    var2['horizontalAutocompleteOption'] = var10;
-    var10 = {};
-    var10['marginRight'] = var12;
-    var2['roleIcon'] = var10;
-    var10 = {};
-    var10['marginLeft'] = var11;
-    var2['channelName'] = var10;
-    var2 = var8.bind(var9)(var2);
+    var9 = {'width': 32, 'height': 32};
+    var2['emoji'] = var9;
+    var9 = {};
+    var15 = 'contain';
+    var9['resizeMode'] = var15;
+    var2['emojiImage'] = var9;
+    var9 = {'lineHeight': 32, 'fontSize': 27, 'textAlign': 'center'};
+    var2['emojiText'] = var9;
+    var9 = {};
+    var9['marginLeft'] = var10;
+    var2['emojiName'] = var9;
+    var9 = {};
+    var15 = 9;
+    var15 = var6[var15];
+    var18 = var13.bind(var1)(var15);
+    var17 = var12.PRIMARY_SEMIBOLD;
+    var12 = 10;
+    var15 = var6[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var16 = var15.TEXT_DEFAULT;
+    var15 = 14;
+    var20 = var18.bind(var1)(var17, var16, var15);
+    var21 = var9;
+    var15 = copyDataProperties(var21, var20);
+    var2['nickname'] = var9;
+    var9 = {};
+    var15 = var6[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_BASE_LOW;
+    var9['backgroundColor'] = var15;
+    var2['status'] = var9;
+    var9 = {'paddingHorizontal': 8, 'flex': 1, 'flexDirection': 'row', 'height': 56, 'alignItems': 'center'};
+    var14 = var14.hairlineWidth;
+    var9['borderRightWidth'] = var14;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BORDER_SUBTLE;
+    var9['borderRightColor'] = var12;
+    var2['horizontalAutocompleteOption'] = var9;
+    var9 = {};
+    var9['marginRight'] = var11;
+    var2['roleIcon'] = var9;
+    var9 = {};
+    var9['marginLeft'] = var10;
+    var2['channelName'] = var9;
+    var2 = var7.bind(var8)(var2);
     var _closure1_slot12 = var2;
     var2 = {};
-    var8 = 'function HorizontalAutocompleteTsx1(){const{opacity}=this.__closure;return{opacity:opacity.get()};}';
-    var2['code'] = var8;
+    var7 = 'function HorizontalAutocompleteTsx1(){const{opacity}=this.__closure;return{opacity:opacity.get()};}';
+    var2['code'] = var7;
     var _closure1_slot13 = var2;
     var2 = {};
-    var8 = function User(arg1) {
+    var7 = function User(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -244,7 +212,7 @@ case 0:
             var7 = _closure1_slot10;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var11 = 15;
+            var11 = 14;
             var5 = var8[var11];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -269,7 +237,7 @@ case 0:
             var9 = {'marginLeft': 8, 'height': 56, 'flex': 1, 'flexDirection': 'column', 'justifyContent': 'center'};
             var6['style'] = var9;
             var11 = _closure1_slot10;
-            var9 = 16;
+            var9 = 15;
             var8 = var8[var9];
             var8 = var10.bind(var4)(var8);
             var10 = var8.Text;
@@ -285,7 +253,7 @@ case 0:
 case 3:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var14 = 17;
+            var14 = 16;
             var14 = var17[var14];
             var16 = var16.bind(var4)(var14);
             var14 = var16.getName;
@@ -303,7 +271,7 @@ case 2:
             var10 = var9.Text;
             var9 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
             var13 = _closure1_slot1;
-            var12 = 17;
+            var12 = 16;
             var12 = var14[var12];
             var14 = var13.bind(var4)(var12);
             var13 = var14.getUserTag;
@@ -324,8 +292,8 @@ case 2:
             return var1;
         }
     };
-    var2['User'] = var8;
-    var8 = function Role(arg1) {
+    var2['User'] = var7;
+    var7 = function Role(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -341,7 +309,7 @@ case 0:
             var9 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var7[var2];
             var7 = var3.bind(var4)(var2);
             var3 = var7.useStateFromStores;
@@ -364,7 +332,7 @@ case 0:
 case 5:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.getRoleIconData;
@@ -387,7 +355,7 @@ case 7:
             var16 = _closure1_slot10;
             var15 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var14 = 20;
+            var14 = 19;
             var14 = var18[var14];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -416,7 +384,7 @@ case 6:
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 21;
+            var6 = 20;
             var6 = var12[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.LegacyText;
@@ -447,8 +415,8 @@ case 10:
             return var1;
         }
     };
-    var2['Role'] = var8;
-    var8 = function Channel(arg1) {
+    var2['Role'] = var7;
+    var7 = function Channel(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
@@ -460,7 +428,7 @@ case 0:
             var10 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var7[var2];
             var8 = var3.bind(var4)(var2);
             var7 = var8.useStateFromStores;
@@ -486,7 +454,7 @@ case 0:
 case 13:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 23;
+            var1 = 22;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.getChannelIconWithGuild;
@@ -495,21 +463,21 @@ case 13:
 case 12:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 22;
+            var1 = 21;
             var1 = var3[var1];
             var7 = var2.bind(var4)(var1);
 case 14:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 24;
+            var1 = 23;
             var1 = var11[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['source'] = var7;
             var8 = var3.bind(var4)(var2, var1);
             var7 = _closure1_slot0;
-            var1 = 25;
+            var1 = 24;
             var1 = var11[var1];
             var9 = var7.bind(var4)(var1);
             var3 = var9.computeChannelName;
@@ -523,7 +491,7 @@ case 14:
             var5 = new Array(2);
             var5[0] = var8;
             var8 = _closure1_slot10;
-            var6 = 16;
+            var6 = 15;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
@@ -540,8 +508,8 @@ case 14:
             return var1;
         }
     };
-    var2['Channel'] = var8;
-    var7 = function Emoji(arg1) {
+    var2['Channel'] = var7;
+    var4 = function Emoji(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -558,7 +526,7 @@ case 16:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 21;
+            var1 = 20;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.LegacyText;
@@ -578,7 +546,7 @@ case 15:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 26;
+            var1 = 25;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -607,7 +575,7 @@ case 17:
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 16;
+            var6 = 15;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
@@ -629,7 +597,8 @@ case 17:
             return var1;
         }
     };
-    var2['Emoji'] = var7;
+    var2['Emoji'] = var4;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

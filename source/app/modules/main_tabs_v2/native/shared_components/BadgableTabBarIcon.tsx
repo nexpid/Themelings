@@ -401,8 +401,6 @@ case 30:
     var11 = 0.5;
     var10['opacity'] = var11;
     var7['tabBarIconUnselected'] = var10;
-    var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'backgroundColor': 'rgba(0, 0, 0, 0.33)', 'zIndex': 4294967286};
-    var7['dimOverlay'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot16 = var7;
     var4 = var6[var4];

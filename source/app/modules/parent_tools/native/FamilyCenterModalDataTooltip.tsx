@@ -287,13 +287,6 @@ case 9:
     var12['borderRadius'] = var14;
     var7['row'] = var12;
     var12 = {};
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOW;
-    var12['backgroundColor'] = var14;
-    var7['primary'] = var12;
-    var12 = {};
     var12['flexShrink'] = var13;
     var7['content'] = var12;
     var12 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center', 'width': 40, 'height': 40, 'backgroundColor': null, 'borderRadius': null, 'flexShrink': 0};
@@ -313,13 +306,6 @@ case 9:
     var13 = var13.PX_12;
     var12['marginRight'] = var13;
     var7['iconContainer'] = var12;
-    var12 = {};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_MOD_MUTED;
-    var12['backgroundColor'] = var13;
-    var7['iconContainerAccent'] = var12;
     var12 = {};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);

@@ -1,11 +1,11 @@
 // app/modules/search/native/components/list/rows/LinkGridItem.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = function getLinkNodeAtIndex(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -93,7 +93,7 @@ case 0:
             var _closure2_slot6 = var22;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var13 = var12[var2];
             var17 = var7.bind(var4)(var13);
             var16 = var17.useStateFromStores;
@@ -166,12 +166,12 @@ case 0:
 case 12:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 10;
                     var1 = var9[var1];
                     var4 = undefined;
                     var8 = var6.bind(var4)(var1);
                     var7 = var8.renderMessageMarkupWithParser;
-                    var1 = 12;
+                    var1 = 11;
                     var1 = var9[var1];
                     var1 = var6.bind(var4)(var1);
                     var3 = var1.NativeSearchResultLinkPreviewParser;
@@ -187,7 +187,7 @@ case 12:
                     var7 = 'none';
                     var1['pointerEvents'] = var7;
                     var7 = _closure1_slot11;
-                    var5 = 13;
+                    var5 = 12;
                     var5 = var9[var5];
                     var5 = var6.bind(var4)(var5);
                     var6 = var5.Text;
@@ -200,7 +200,7 @@ case 12:
 case 11:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 9;
                     var2 = var6[var1];
                     var4 = undefined;
                     var2 = var5.bind(var4)(var2);
@@ -260,7 +260,7 @@ case 18:
                     var6 = _closure1_slot11;
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 12;
                     var2 = var11[var2];
                     var4 = undefined;
                     var2 = var10.bind(var4)(var2);
@@ -269,7 +269,7 @@ case 18:
                     var7 = _closure2_slot6;
                     var7 = var7.tapToSee;
                     var2['style'] = var7;
-                    var7 = 10;
+                    var7 = 9;
                     var8 = var11[var7];
                     var8 = var10.bind(var4)(var8);
                     var9 = var8.intl;
@@ -288,7 +288,7 @@ case 22:
                     var4 = _closure1_slot11;
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 12;
                     var2 = var7[var2];
                     var2 = var3.bind(var5)(var2);
                     var3 = var2.Text;
@@ -302,7 +302,7 @@ case 17:
                     var4 = _closure1_slot11;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 12;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -353,7 +353,7 @@ case 31:
                     var5 = _closure1_slot11;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var1 = var6[var1];
                     var1 = var3.bind(var4)(var1);
                     var3 = var1.LinkIcon;
@@ -365,7 +365,7 @@ case 31:
 case 30:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 15;
+                    var3 = 14;
                     var3 = var6[var3];
                     var5 = var5.bind(var4)(var3);
                     var3 = var5.getUrlIcon;
@@ -382,7 +382,7 @@ case 29:
                     var3 = _closure1_slot11;
                     var2 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 13;
                     var1 = var5[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.ChatIcon;
@@ -441,7 +441,7 @@ case 33:
                     var3['url'] = var2;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 17;
+                    var2 = 16;
                     var5 = var5[var2];
                     var2 = undefined;
                     var6 = var6.bind(var2)(var5);
@@ -520,7 +520,7 @@ case 38:
             var3 = _closure1_slot12;
             var10 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var9 = 18;
+            var9 = 17;
             var1 = var15[var9];
             var1 = var10.bind(var4)(var1);
             var2 = var1.SearchListCardContainer;
@@ -556,7 +556,7 @@ case 38:
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var8 = _closure1_slot11;
-            var6 = 19;
+            var6 = 18;
             var6 = var15[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableHighlight;
@@ -608,7 +608,7 @@ case 0:
             var _closure2_slot8 = var3;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 9;
+            var5 = 8;
             var10 = var9[var5];
             var18 = var6.bind(var4)(var10);
             var13 = var18.useStateFromStores;
@@ -679,7 +679,7 @@ case 44:
                 var4 = _closure1_slot11;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 20;
+                var1 = 19;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -712,7 +712,7 @@ case 44:
                     var7 = _closure1_slot11;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var5 = var5[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
@@ -781,7 +781,7 @@ case 38:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 21;
+                var1 = 20;
                 var2 = var7[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -794,7 +794,7 @@ case 38:
                 var2 = {};
                 var2['url'] = var8;
                 var6 = _closure1_slot0;
-                var5 = 22;
+                var5 = 21;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.isLinkTrusted;
@@ -830,7 +830,7 @@ case 38:
             var3 = _closure1_slot12;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var15 = 18;
+            var15 = 17;
             var1 = var6[var15];
             var1 = var7.bind(var4)(var1);
             var2 = var1.SearchListCardContainer;
@@ -855,7 +855,7 @@ case 38:
 case 49:
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var10 = 10;
+            var10 = 9;
             var17 = var22[var10];
             var17 = var21.bind(var4)(var17);
             var20 = var17.intl;
@@ -870,7 +870,7 @@ case 48:
             var17 = _closure1_slot11;
             var10 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var9 = 13;
+            var9 = 12;
             var9 = var20[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
@@ -879,7 +879,7 @@ case 48:
 case 51:
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var19 = 10;
+            var19 = 9;
             var20 = var23[var19];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -898,7 +898,7 @@ case 50:
             var8 = _closure1_slot11;
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 19;
+            var6 = 18;
             var6 = var9[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableHighlight;
@@ -923,37 +923,37 @@ case 50:
     };
     var _closure1_slot16 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var11 = 1;
-    var7 = var6[var11];
+    var4 = 1;
+    var7 = var6[var4];
     var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.View;
-    var _closure1_slot5 = var8;
+    var9 = var4.View;
+    var _closure1_slot5 = var9;
     var4 = var4.useWindowDimensions;
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -974,22 +974,6 @@ case 50:
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {};
-    var10['flex'] = var11;
-    var4['container'] = var10;
-    var10 = {};
-    var11 = 8;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.sm;
-    var10['borderTopLeftRadius'] = var13;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.sm;
-    var10['borderTopRightRadius'] = var11;
-    var4['imageContainer'] = var10;
     var10 = {'alignItems': 'center', 'justifyContent': 'center'};
     var4['iconContainer'] = var10;
     var10 = {};
@@ -1064,7 +1048,7 @@ case 52:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 23;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

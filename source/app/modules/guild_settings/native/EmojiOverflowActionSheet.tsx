@@ -1,7 +1,6 @@
 // app/modules/guild_settings/native/EmojiOverflowActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
     var7 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
@@ -17,9 +16,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var8 = var6[var1];
+    var4 = metroImportDefault;
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
@@ -47,24 +47,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['header'] = var9;
     var9 = {'width': 30, 'height': 30, 'resizeMode': 'contain'};
     var4['emojiImage'] = var9;
-    var9 = {};
-    var10 = 5;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.TEXT_FEEDBACK_CRITICAL;
-    var9['tintColor'] = var12;
-    var4['destructiveIcon'] = var9;
-    var9 = {};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.TEXT_FEEDBACK_CRITICAL;
-    var9['color'] = var10;
-    var4['destructiveText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -90,7 +75,7 @@ case 0:
             var3 = _closure1_slot7;
             var26 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var23[var1];
             var1 = var26.bind(var4)(var1);
             var2 = var1.ActionSheet;
@@ -106,7 +91,7 @@ case 0:
             var7['style'] = var9;
             var9 = {};
             var15 = _closure1_slot1;
-            var13 = 7;
+            var13 = 6;
             var13 = var23[var13];
             var16 = var15.bind(var4)(var13);
             var15 = var16.getEmojiURL;
@@ -123,7 +108,7 @@ case 0:
             var8 = var17.bind(var4)(var8, var7);
             var7 = new Array(2);
             var7[0] = var8;
-            var13 = 8;
+            var13 = 7;
             var8 = var23[var13];
             var8 = var26.bind(var4)(var8);
             var9 = var8.Text;
@@ -142,17 +127,17 @@ case 0:
             var6 = var3.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var6 = 9;
+            var6 = 8;
             var6 = var23[var6];
             var6 = var26.bind(var4)(var6);
             var7 = var6.TableRowGroup;
             var6 = {};
-            var9 = 10;
+            var9 = 9;
             var8 = var23[var9];
             var8 = var26.bind(var4)(var8);
             var11 = var8.TableRow;
             var8 = {};
-            var15 = 11;
+            var15 = 10;
             var15 = var23[var15];
             var15 = var26.bind(var4)(var15);
             var19 = var15.TrashIcon;
@@ -165,7 +150,7 @@ case 0:
             var15 = var26.bind(var4)(var15);
             var20 = var15.Text;
             var15 = {'variant': 'text-md/semibold', 'color': 'text-feedback-critical'};
-            var19 = 12;
+            var19 = 11;
             var21 = var23[var19];
             var21 = var26.bind(var4)(var21);
             var24 = var21.intl;
@@ -181,7 +166,7 @@ case 0:
             var15 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 13;
+                var1 = 12;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -202,7 +187,7 @@ case 0:
             var11 = var26.bind(var4)(var11);
             var15 = var11.TableRow;
             var11 = {};
-            var20 = 14;
+            var20 = 13;
             var21 = var23[var20];
             var21 = var26.bind(var4)(var21);
             var22 = var21.PencilIcon;
@@ -295,7 +280,7 @@ case 8:
 case 10:
                         var5 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var4 = 13;
+                        var4 = 12;
                         var4 = var8[var4];
                         var8 = var5.bind(var2)(var4);
                         var5 = var8.updateEmoji;
@@ -324,7 +309,7 @@ case 16: // catch_target0
                         var7 = var5;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var4 = 15;
+                        var4 = 14;
                         var4 = var9[var4];
                         var4 = var8.bind(var2)(var4);
                         var4 = var4.APIError;
@@ -333,7 +318,7 @@ case 16: // catch_target0
 case 17:
                         var5 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var4 = 16;
+                        var4 = 15;
                         var4 = var8[var4];
                         var5 = var5.bind(var2)(var4);
                         var4 = var5.presentError;
@@ -346,7 +331,7 @@ case 17:
 case 19:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var3 = 12;
+                        var3 = 11;
                         var7 = var10[var3];
                         var7 = var9.bind(var2)(var7);
                         var8 = var7.intl;
@@ -383,7 +368,7 @@ case 2:
             var9 = var18.bind(var4)(var9);
             var10 = var9.TableRow;
             var9 = {};
-            var14 = 17;
+            var14 = 16;
             var14 = var15[var14];
             var14 = var18.bind(var4)(var14);
             var17 = var14.XSmallIcon;

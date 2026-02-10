@@ -687,8 +687,6 @@ case 47:
     var10 = 'transparent';
     var9['shadowColor'] = var10;
     var4['navbar'] = var9;
-    var9 = {'backgroundColor': 'transparent', 'borderBottomColor': 'transparent'};
-    var4['fullscreen'] = var9;
     var9 = {'paddingLeft': 16, 'marginRight': 4294967280};
     var4['headerLeftContainerStyle'] = var9;
     var9 = {'paddingRight': 16, 'marginLeft': 4294967280};
