@@ -28,36 +28,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function isSocialLayerApplication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = arg1;
-            var2 = var4.flags;
-            var1 = null;
-            var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var4 = var3.bind(var6)(var1);
+            var3 = var4.hasApplicationFlag;
+            var1 = _closure1_slot2;
+            var1 = var1.SOCIAL_LAYER_INTEGRATION_LIMITED;
+            var1 = var3.bind(var4)(var5, var1);
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var8 = 1;
-            var2 = var2[var8];
-            var7 = undefined;
-            var9 = var5.bind(var7)(var2);
-            var6 = var9.hasFlag;
-            var5 = var4.flags;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.hasApplicationFlag;
             var2 = _closure1_slot2;
-            var2 = var2.SOCIAL_LAYER_INTEGRATION_LIMITED;
-            var2 = var6.bind(var9)(var5, var2);
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var5 = var5[var8];
-            var6 = var6.bind(var7)(var5);
-            var5 = var6.hasFlag;
-            var4 = var4.flags;
-            var3 = _closure1_slot2;
-            var3 = var3.SOCIAL_LAYER_INTEGRATION;
-            var2 = var5.bind(var6)(var4, var3);
-case 4:
-            var1 = var2;
+            var2 = var2.SOCIAL_LAYER_INTEGRATION;
+            var1 = var3.bind(var4)(var5, var2);
 case 2:
             return var1;
         }

@@ -207,9 +207,7 @@ case 0:
             var6 = var18[var9];
             var6 = var23.bind(var4)(var6);
             var7 = var6.Text;
-            var6 = {};
-            var20 = 'heading-lg/semibold';
-            var6['variant'] = var20;
+            var6 = {'variant': 'heading-lg/semibold', 'accessibilityRole': 'header'};
             var22 = 15;
             var20 = var18[var22];
             var20 = var23.bind(var4)(var20);
@@ -278,9 +276,7 @@ case 2:
             var9 = var18[var9];
             var9 = var21.bind(var4)(var9);
             var13 = var9.Text;
-            var9 = {};
-            var14 = 'text-lg/bold';
-            var9['variant'] = var14;
+            var9 = {'variant': 'text-lg/bold', 'accessibilityRole': 'header'};
             var14 = var18[var22];
             var14 = var21.bind(var4)(var14);
             var23 = var14.intl;

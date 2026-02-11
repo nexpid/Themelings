@@ -94,7 +94,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    var19 = new Array(9);
+    var19 = new Array(10);
     var19[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -136,6 +136,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.GAME_SHOP_ANNOUNCEMENT_MODAL;
     var19[8] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.COLLECTIBLES_SHOP_MARVEL_RIVALS_ORBS_REWARD;
+    var19[9] = var14;
     var _closure1_slot0 = var19;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -218,7 +223,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.THIRD_PARTY_OUTBOUND_PROMO_NAGBAR;
-    var17 = new Array(7);
+    var17 = new Array(8);
     var17[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -250,6 +255,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.PREMIUM_ORBS_REWARDS_DROP_POPOVER;
     var17[6] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.QUEST_HOME_ENTRYPOINT_TAKEOVER_BADGE;
+    var17[7] = var14;
     var _closure1_slot2 = var17;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

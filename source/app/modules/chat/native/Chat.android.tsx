@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot5;
         var9 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var1 = var11[var1];
         var3 = undefined;
         var1 = var9.bind(var3)(var1);
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['gesture'] = var5;
         var7 = _closure1_slot5;
         var6 = _closure1_slot1;
-        var5 = 6;
+        var5 = 5;
         var5 = var11[var5];
         var6 = var6.bind(var3)(var5);
         var5 = {};
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var10.chatList;
         var5['style'] = var10;
         var10 = _closure1_slot5;
-        var8 = 7;
+        var8 = 6;
         var8 = var11[var8];
         var8 = var9.bind(var3)(var8);
         var9 = var8.TTIFirstContentfulPaint;
@@ -90,9 +90,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
     var _closure1_slot5 = var8;
     var4 = var4.jsxs;
@@ -109,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = arg1;
         var2 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var1 = var7[var1];
         var4 = undefined;
         var8 = var2.bind(var4)(var1);
@@ -125,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var3.bind(var8)(var2, var1);
         var3 = _closure1_slot6;
         var2 = _closure1_slot1;
-        var1 = 9;
+        var1 = 8;
         var1 = var7[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -151,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

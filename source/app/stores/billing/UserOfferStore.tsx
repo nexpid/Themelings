@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot20;
+            var9 = _closure1_slot22;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot20;
+            var7 = _closure1_slot22;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -214,29 +214,29 @@ case 37:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot21 = var2;
+            _closure1_slot23 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot23 = var1;
     var4 = function handleReset() {
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot19;
         var1 = {};
         var3['userTrialOffers'] = var1;
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot19;
         var1 = {};
         var3['userDiscountOffers'] = var1;
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot19;
         var1 = undefined;
         var3['userOffersLastFetchedAtDate'] = var1;
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot19;
         var2 = false;
         var3['isFetching'] = var2;
         return var1;
     };
-    var _closure1_slot22 = var4;
+    var _closure1_slot24 = var4;
     var1 = function handleSubscriptionStoreUpdate() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -247,24 +247,34 @@ case 0:
             var1 = var4 != var1;
             if(!var1) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-            var3 = _closure1_slot17;
-            var5 = var3.userDiscountOffers;
-            var3 = _closure1_slot12;
-            var3 = var5[var3];
-            if(!(var4 == var3)) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot19;
             var5 = var3.userDiscountOffers;
             var3 = _closure1_slot13;
             var3 = var5[var3];
+            if(!(var4 == var3)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
+            var3 = _closure1_slot19;
+            var5 = var3.userDiscountOffers;
+            var3 = _closure1_slot14;
+            var3 = var5[var3];
             if(!(var4 == var3)) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot19;
             var3 = {};
             var4['userDiscountOffers'] = var3;
             _fun0005_ip = 45; continue _fun0005;
 case 43:
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot19;
+            var3 = {};
+            var6 = _closure1_slot14;
+            var7 = var4.userDiscountOffers;
+            var5 = _closure1_slot14;
+            var5 = var7[var5];
+            var3[var6] = var5;
+            var4['userDiscountOffers'] = var3;
+            _fun0005_ip = 45; continue _fun0005;
+case 41:
+            var4 = _closure1_slot19;
             var3 = {};
             var6 = _closure1_slot13;
             var7 = var4.userDiscountOffers;
@@ -272,18 +282,8 @@ case 43:
             var5 = var7[var5];
             var3[var6] = var5;
             var4['userDiscountOffers'] = var3;
-            _fun0005_ip = 45; continue _fun0005;
-case 41:
-            var4 = _closure1_slot17;
-            var3 = {};
-            var6 = _closure1_slot12;
-            var7 = var4.userDiscountOffers;
-            var5 = _closure1_slot12;
-            var5 = var7[var5];
-            var3[var6] = var5;
-            var4['userDiscountOffers'] = var3;
 case 45:
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot19;
             var2 = {};
             var3['userTrialOffers'] = var2;
             var1 = true;
@@ -291,7 +291,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot25 = var1;
     var9 = function handlePaymentSourceChange() {
         var2 = _closure1_slot8;
         var1 = var2.getCurrentUser;
@@ -303,7 +303,7 @@ case 39:
         var1 = false;
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot26 = var1;
     var1 = global;
     var11 = var1.Object;
     var8 = var11.defineProperty;
@@ -354,14 +354,18 @@ case 39:
     var2 = var5.bind(var1)(var2);
     var8 = var2.ANNUAL_DISCOUNT_IDS;
     var _closure1_slot11 = var8;
-    var8 = var2.PREMIUM_TIER_2_CHURN_1_MONTH_DISCOUNT_ID;
+    var8 = var2.DISCOUNT_OFFERS_REQUIRES_REMINDER_ROLLOUT;
     var _closure1_slot12 = var8;
-    var8 = var2.PREMIUM_TIER_2_CHURN_3_MONTH_DISCOUNT_ID;
+    var8 = var2.PREMIUM_TIER_2_CHURN_1_MONTH_DISCOUNT_ID;
     var _closure1_slot13 = var8;
-    var8 = var2.SubscriptionPlanInfo;
+    var8 = var2.PREMIUM_TIER_2_CHURN_3_MONTH_DISCOUNT_ID;
     var _closure1_slot14 = var8;
-    var2 = var2.SubscriptionTrials;
-    var _closure1_slot15 = var2;
+    var8 = var2.SubscriptionPlanInfo;
+    var _closure1_slot15 = var8;
+    var8 = var2.SubscriptionTrials;
+    var _closure1_slot16 = var8;
+    var2 = var2.TRIAL_OFFERS_REQUIRES_REMINDER_ROLLOUT;
+    var _closure1_slot17 = var2;
     var2 = {};
     var2['userOffersLastFetchedAtDate'] = var1;
     var8 = {};
@@ -372,14 +376,14 @@ case 39:
     var8 = false;
     var2['isFetching'] = var8;
     var2['lastFetchSuccessful'] = var8;
-    var _closure1_slot16 = var2;
-    var _closure1_slot17 = var2;
+    var _closure1_slot18 = var2;
+    var _closure1_slot19 = var2;
     var2 = function emitChanges() {
         var1 = true;
         return var1;
     };
-    var _closure1_slot18 = var2;
-    var2 = 11;
+    var _closure1_slot20 = var2;
+    var2 = 12;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -396,7 +400,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot21;
+                var1 = _closure1_slot23;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0006_ip = 46; continue _fun0006 }
 case 42:
@@ -436,9 +440,9 @@ case 0:
                 var1 = null;
                 if(!(var1 == var2)) { _fun0007_ip = 48; continue _fun0007 }
 case 49:
-                var2 = _closure1_slot16;
+                var2 = _closure1_slot18;
 case 48:
-                _closure1_slot17 = var2;
+                _closure1_slot19 = var2;
                 var7 = var4.waitFor;
                 var11 = _closure1_slot9;
                 var5 = _closure1_slot7;
@@ -451,25 +455,25 @@ case 48:
                 var2 = _closure1_slot8;
                 var3 = new Array(1);
                 var3[0] = var2;
-                var2 = _closure1_slot18;
+                var2 = _closure1_slot20;
                 var2 = var6.bind(var4)(var3, var2);
                 var6 = var4.syncWith;
                 var2 = _closure1_slot10;
                 var3 = new Array(1);
                 var3[0] = var2;
-                var2 = _closure1_slot23;
+                var2 = _closure1_slot25;
                 var2 = var6.bind(var4)(var3, var2);
                 var3 = var4.syncWith;
                 var2 = new Array(1);
                 var2[0] = var5;
-                var1 = _closure1_slot24;
+                var1 = _closure1_slot26;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(19);
+        var1 = new Array(21);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserTrialOffer';
@@ -484,7 +488,7 @@ case 51:
                 var1 = undefined;
                 return var1;
 case 50:
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot19;
                 var1 = var1.userTrialOffers;
                 var1 = var1[var2];
                 return var1;
@@ -505,7 +509,7 @@ case 51:
                 var1 = undefined;
                 return var1;
 case 50:
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot19;
                 var1 = var1.userDiscountOffers;
                 var1 = var1[var2];
                 return var1;
@@ -519,7 +523,7 @@ case 50:
         var7 = function value(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var2 = _closure1_slot19;
+                var2 = _closure1_slot21;
                 var6 = undefined;
                 var1 = arg1;
                 var5 = var2.bind(var6)(var1);
@@ -530,7 +534,7 @@ case 0:
                 if(var2) { _fun0010_ip = 52; continue _fun0010 }
 case 53:
                 var2 = var4.value;
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot19;
                 var3 = var3.userTrialOffers;
                 var3 = var3[var2];
                 if(!(var1 == var3)) { _fun0010_ip = 37; continue _fun0010 }
@@ -555,7 +559,7 @@ case 52:
         var7 = function value() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot19;
                 var2 = var1.isFetching;
                 var1 = null;
                 var1 = var1 != var2;
@@ -572,7 +576,7 @@ case 55:
         var7 = 'hasFetchedOffer';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var2 = var1.userOffersLastFetchedAtDate;
             var1 = null;
             var1 = var1 != var2;
@@ -587,9 +591,9 @@ case 55:
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var6 = arg1;
-                var2 = _closure1_slot17;
+                var2 = _closure1_slot19;
                 var5 = var2.userOffersLastFetchedAtDate;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot19;
                 var2 = var1.isFetching;
                 var4 = null;
                 var1 = var4 != var2;
@@ -630,18 +634,50 @@ case 59:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
-        var7 = 'getAlmostExpiringTrialOffers';
+        var7 = 'shouldShowTrialOfferReminder';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                var5 = this;
+                var4 = _closure1_slot17;
+                var3 = var4.includes;
                 var1 = arg1;
-                var _closure3_slot0 = var1;
+                var1 = var1.trial_id;
+                var1 = var3.bind(var4)(var1);
+                var1 = !var1;
+                if(var1) { _fun0013_ip = 67; continue _fun0013 }
+case 68:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.isPremiumOfferReminderExperimentEnabled;
+                var2 = {};
+                var5 = 'user_offer_store';
+                var2['location'] = var5;
+                var1 = var3.bind(var4)(var2);
+case 67:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[7] = var5;
+        var5 = {};
+        var7 = 'getAlmostExpiringTrialOffersForReminder';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                var5 = this;
+                var _closure3_slot0 = var5;
+                var1 = arg1;
+                var _closure3_slot1 = var1;
                 var4 = global;
                 var7 = var4.Object;
                 var6 = var7.values;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot16;
                 var7 = var6.bind(var7)(var1);
                 var6 = var7.map;
                 var1 = function(arg1) {
@@ -650,193 +686,237 @@ case 0:
                     return var1;
                 };
                 var1 = var6.bind(var7)(var1);
-                var _closure3_slot1 = var1;
+                var _closure3_slot2 = var1;
                 var6 = _closure1_slot8;
                 var1 = var6.getCurrentUser;
                 var7 = var1.bind(var6)();
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var1 = 10;
+                var1 = 11;
                 var6 = var6[var1];
                 var1 = undefined;
                 var6 = var8.bind(var1)(var6);
                 var1 = var6.isPremium;
                 var1 = var1.bind(var6)(var7);
-                if(!var1) { _fun0013_ip = 41; continue _fun0013 }
-case 47:
+                if(!var1) { _fun0014_ip = 69; continue _fun0014 }
+case 70:
                 var1 = var5.canFractionalPremiumUserUseOffer;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0013_ip = 41; continue _fun0013 }
-case 67:
+                if(var1) { _fun0014_ip = 69; continue _fun0014 }
+case 71:
                 var1 = new Array(0);
-                _fun0013_ip = 68; continue _fun0013;
-case 41:
+                _fun0014_ip = 17; continue _fun0014;
+case 69:
                 var5 = var4.Object;
                 var4 = var5.values;
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot19;
                 var3 = var3.userTrialOffers;
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.filter;
                 var2 = function(arg1) {
-                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
-                        var6 = arg1;
-                        var4 = _closure3_slot1;
-                        var3 = var4.includes;
-                        var1 = var6.trial_id;
-                        var1 = var3.bind(var4)(var1);
-                        if(!var1) { _fun0014_ip = 69; continue _fun0014 }
+                        var4 = arg1;
+                        var5 = _closure3_slot2;
+                        var3 = var5.includes;
+                        var1 = var4.trial_id;
+                        var1 = var3.bind(var5)(var1);
+                        if(!var1) { _fun0015_ip = 72; continue _fun0015 }
 case 40:
-                        var4 = var6.expires_at;
+                        var5 = var4.expires_at;
                         var3 = null;
-                        var1 = var3 != var4;
-case 69:
-                        if(!var1) { _fun0014_ip = 28; continue _fun0014 }
-case 70:
-                        var4 = var6.subscription_trial;
-                        var3 = null;
-                        var1 = var3 != var4;
-case 28:
-                        if(!var1) { _fun0014_ip = 71; continue _fun0014 }
+                        var1 = var3 != var5;
 case 72:
-                        var4 = _closure3_slot0;
-                        var3 = var4.includes;
-                        var2 = var6.subscription_trial;
-                        var2 = var2.sku_id;
-                        var1 = var3.bind(var4)(var2);
-case 71:
-                        if(!var1) { _fun0014_ip = 73; continue _fun0014 }
-case 74:
-                        var2 = global;
-                        var5 = var2.Date;
-                        var4 = var5.parse;
-                        var3 = var6.expires_at;
-                        var3 = var4.bind(var5)(var3);
-                        var4 = var2.Date;
-                        var2 = var4.now;
-                        var4 = var2.bind(var4)();
-                        var7 = _closure1_slot0;
-                        var5 = _closure1_slot1;
-                        var2 = 10;
-                        var5 = var5[var2];
-                        var2 = undefined;
-                        var5 = var7.bind(var2)(var5);
-                        var2 = var5.getOfferNoticeThreshold;
-                        var2 = var2.bind(var5)(var6);
-                        var2 = var4 + var2;
-                        var1 = var3 < var2;
+                        if(!var1) { _fun0015_ip = 28; continue _fun0015 }
 case 73:
-                        return var1;
-                    }
-                };
-                var1 = var3.bind(var4)(var2);
-case 68:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[7] = var5;
-        var5 = {};
-        var7 = 'getAlmostExpiringDiscountOffers';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-                var4 = this;
-                var1 = arg1;
-                var _closure3_slot0 = var1;
-                var5 = _closure1_slot8;
-                var1 = var5.getCurrentUser;
-                var6 = var1.bind(var5)();
-                var7 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var1 = 10;
-                var5 = var5[var1];
-                var1 = undefined;
-                var5 = var7.bind(var1)(var5);
-                var1 = var5.isPremium;
-                var1 = var1.bind(var5)(var6);
-                if(!var1) { _fun0015_ip = 75; continue _fun0015 }
-case 76:
-                var1 = var4.canFractionalPremiumUserUseOffer;
-                var1 = var1.bind(var4)();
-                if(var1) { _fun0015_ip = 75; continue _fun0015 }
-case 77:
-                var1 = new Array(0);
-                _fun0015_ip = 78; continue _fun0015;
-case 75:
-                var4 = global;
-                var5 = var4.Object;
-                var4 = var5.values;
-                var3 = _closure1_slot17;
-                var3 = var3.userDiscountOffers;
-                var4 = var4.bind(var5)(var3);
-                var3 = var4.filter;
-                var2 = function(arg1) {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
-case 0:
-                        var6 = arg1;
-                        var1 = var6.expires_at;
+                        var5 = var4.subscription_trial;
                         var3 = null;
-                        var1 = var3 != var1;
-                        if(!var1) { _fun0016_ip = 34; continue _fun0016 }
-case 79:
-                        var2 = var6.discount;
-                        var1 = var3 != var2;
-case 34:
-                        if(!var1) { _fun0016_ip = 7; continue _fun0016 }
-case 80:
-                        var2 = var6.discount;
-                        var4 = var2.plan_ids;
-                        var3 = var4.some;
-                        var2 = function(arg1) {
-                            var3 = _closure3_slot0;
-                            var2 = var3.includes;
-                            var4 = _closure1_slot14;
-                            var1 = arg1;
-                            var1 = var4[var1];
-                            var1 = var1.skuId;
-                            var1 = var2.bind(var3)(var1);
-                            return var1;
-                        };
-                        var1 = var3.bind(var4)(var2);
-case 7:
-                        if(!var1) { _fun0016_ip = 81; continue _fun0016 }
+                        var1 = var3 != var5;
+case 28:
+                        if(!var1) { _fun0015_ip = 74; continue _fun0015 }
+case 75:
+                        var6 = _closure3_slot1;
+                        var5 = var6.includes;
+                        var3 = var4.subscription_trial;
+                        var3 = var3.sku_id;
+                        var1 = var5.bind(var6)(var3);
+case 74:
+                        if(!var1) { _fun0015_ip = 76; continue _fun0015 }
+case 77:
+                        var3 = global;
+                        var7 = var3.Date;
+                        var6 = var7.parse;
+                        var5 = var4.expires_at;
+                        var5 = var6.bind(var7)(var5);
+                        var6 = var3.Date;
+                        var3 = var6.now;
+                        var6 = var3.bind(var6)();
+                        var8 = _closure1_slot0;
+                        var7 = _closure1_slot1;
+                        var3 = 11;
+                        var7 = var7[var3];
+                        var3 = undefined;
+                        var7 = var8.bind(var3)(var7);
+                        var3 = var7.getOfferNoticeThreshold;
+                        var3 = var3.bind(var7)(var4);
+                        var3 = var6 + var3;
+                        var1 = var5 < var3;
 case 76:
-                        var2 = global;
-                        var5 = var2.Date;
-                        var4 = var5.parse;
-                        var3 = var6.expires_at;
-                        var3 = var4.bind(var5)(var3);
-                        var4 = var2.Date;
-                        var2 = var4.now;
-                        var4 = var2.bind(var4)();
-                        var7 = _closure1_slot0;
-                        var5 = _closure1_slot1;
-                        var2 = 10;
-                        var5 = var5[var2];
-                        var2 = undefined;
-                        var5 = var7.bind(var2)(var5);
-                        var2 = var5.getOfferNoticeThreshold;
-                        var2 = var2.bind(var5)(var6);
-                        var2 = var4 + var2;
-                        var1 = var3 < var2;
-case 81:
+                        if(!var1) { _fun0015_ip = 78; continue _fun0015 }
+case 79:
+                        var3 = _closure3_slot0;
+                        var2 = var3.shouldShowTrialOfferReminder;
+                        var1 = var2.bind(var3)(var4);
+case 78:
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var2);
-case 78:
+case 17:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[8] = var5;
         var5 = {};
-        var7 = 'getAcknowledgedOffers';
+        var7 = 'shouldShowDiscountOfferReminder';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                var4 = _closure1_slot12;
+                var3 = var4.includes;
+                var1 = arg1;
+                var1 = var1.discount_id;
+                var1 = var3.bind(var4)(var1);
+                var1 = !var1;
+                if(var1) { _fun0016_ip = 67; continue _fun0016 }
+case 68:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.isPremiumOfferReminderExperimentEnabled;
+                var2 = {};
+                var5 = 'user_offer_store';
+                var2['location'] = var5;
+                var1 = var3.bind(var4)(var2);
+case 67:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
+        var7 = 'getAlmostExpiringDiscountOffersForReminder';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                var4 = this;
+                var _closure3_slot0 = var4;
+                var1 = arg1;
+                var _closure3_slot1 = var1;
+                var5 = _closure1_slot8;
+                var1 = var5.getCurrentUser;
+                var6 = var1.bind(var5)();
+                var7 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 11;
+                var5 = var5[var1];
+                var1 = undefined;
+                var5 = var7.bind(var1)(var5);
+                var1 = var5.isPremium;
+                var1 = var1.bind(var5)(var6);
+                if(!var1) { _fun0017_ip = 43; continue _fun0017 }
+case 80:
+                var1 = var4.canFractionalPremiumUserUseOffer;
+                var1 = var1.bind(var4)();
+                if(var1) { _fun0017_ip = 43; continue _fun0017 }
+case 81:
+                var1 = new Array(0);
+                _fun0017_ip = 82; continue _fun0017;
+case 43:
+                var4 = global;
+                var5 = var4.Object;
+                var4 = var5.values;
+                var3 = _closure1_slot19;
+                var3 = var3.userDiscountOffers;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                        var4 = arg1;
+                        var1 = var4.expires_at;
+                        var3 = null;
+                        var1 = var3 != var1;
+                        if(!var1) { _fun0018_ip = 34; continue _fun0018 }
+case 83:
+                        var2 = var4.discount;
+                        var1 = var3 != var2;
+case 34:
+                        if(!var1) { _fun0018_ip = 7; continue _fun0018 }
+case 84:
+                        var2 = var4.discount;
+                        var5 = var2.plan_ids;
+                        var3 = var5.some;
+                        var2 = function(arg1) {
+                            var3 = _closure3_slot1;
+                            var2 = var3.includes;
+                            var4 = _closure1_slot15;
+                            var1 = arg1;
+                            var1 = var4[var1];
+                            var1 = var1.skuId;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var1 = var3.bind(var5)(var2);
+case 7:
+                        if(!var1) { _fun0018_ip = 85; continue _fun0018 }
+case 86:
+                        var2 = global;
+                        var6 = var2.Date;
+                        var5 = var6.parse;
+                        var3 = var4.expires_at;
+                        var3 = var5.bind(var6)(var3);
+                        var5 = var2.Date;
+                        var2 = var5.now;
+                        var5 = var2.bind(var5)();
+                        var7 = _closure1_slot0;
+                        var6 = _closure1_slot1;
+                        var2 = 11;
+                        var6 = var6[var2];
+                        var2 = undefined;
+                        var6 = var7.bind(var2)(var6);
+                        var2 = var6.getOfferNoticeThreshold;
+                        var2 = var2.bind(var6)(var4);
+                        var2 = var5 + var2;
+                        var1 = var3 < var2;
+case 85:
+                        if(!var1) { _fun0018_ip = 87; continue _fun0018 }
+case 88:
+                        var3 = _closure3_slot0;
+                        var2 = var3.shouldShowDiscountOfferReminder;
+                        var1 = var2.bind(var3)(var4);
+case 87:
+                        return var1;
+                    }
+                };
+                var1 = var3.bind(var4)(var2);
+case 82:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[10] = var5;
+        var5 = {};
+        var7 = 'getAcknowledgedOffers';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var4 = this;
                 var1 = arg1;
@@ -846,57 +926,57 @@ case 0:
                 var6 = var1.bind(var5)();
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var1 = 10;
+                var1 = 11;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var7.bind(var1)(var5);
                 var1 = var5.isPremium;
                 var1 = var1.bind(var5)(var6);
-                if(!var1) { _fun0017_ip = 75; continue _fun0017 }
-case 76:
+                if(!var1) { _fun0019_ip = 89; continue _fun0019 }
+case 86:
                 var1 = var4.canFractionalPremiumUserUseOffer;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0017_ip = 75; continue _fun0017 }
-case 77:
+                if(var1) { _fun0019_ip = 89; continue _fun0019 }
+case 67:
                 var1 = new Array(0);
-                _fun0017_ip = 78; continue _fun0017;
-case 75:
+                _fun0019_ip = 90; continue _fun0019;
+case 89:
                 var4 = global;
                 var5 = var4.Object;
                 var4 = var5.values;
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot19;
                 var3 = var3.userTrialOffers;
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.filter;
                 var2 = function(arg1) {
-                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                    _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                         var2 = arg1;
                         var4 = _closure3_slot0;
                         var3 = var4.includes;
                         var1 = var2.trial_id;
                         var1 = var3.bind(var4)(var1);
-                        if(!var1) { _fun0018_ip = 69; continue _fun0018 }
+                        if(!var1) { _fun0020_ip = 72; continue _fun0020 }
 case 40:
                         var3 = var2.expires_at;
                         var2 = null;
                         var1 = var2 != var3;
-case 69:
+case 72:
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var2);
-case 78:
+case 90:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getUnacknowledgedDiscountOffers';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var3 = this;
                 var4 = _closure1_slot8;
@@ -904,63 +984,63 @@ case 0:
                 var5 = var1.bind(var4)();
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var1 = 10;
+                var1 = 11;
                 var4 = var4[var1];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var4);
                 var1 = var4.isPremium;
                 var1 = var1.bind(var4)(var5);
-                if(!var1) { _fun0019_ip = 37; continue _fun0019 }
+                if(!var1) { _fun0021_ip = 37; continue _fun0021 }
 case 4:
                 var1 = var3.canFractionalPremiumUserUseOffer;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0019_ip = 37; continue _fun0019 }
-case 82:
+                if(var1) { _fun0021_ip = 37; continue _fun0021 }
+case 80:
                 var1 = new Array(0);
-                _fun0019_ip = 83; continue _fun0019;
+                _fun0021_ip = 91; continue _fun0021;
 case 37:
                 var3 = global;
                 var4 = var3.Object;
                 var3 = var4.values;
-                var2 = _closure1_slot17;
+                var2 = _closure1_slot19;
                 var2 = var2.userDiscountOffers;
                 var5 = null;
-                if(!(var5 == var2)) { _fun0019_ip = 47; continue _fun0019 }
+                if(!(var5 == var2)) { _fun0021_ip = 47; continue _fun0021 }
 case 59:
                 var2 = {};
 case 47:
                 var4 = var3.bind(var4)(var2);
                 var3 = var4.filter;
                 var2 = function(arg1) {
-                    _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                         var2 = arg1;
                         var3 = var2.expires_at;
                         var1 = null;
                         var1 = var1 == var3;
-                        if(!var1) { _fun0020_ip = 70; continue _fun0020 }
-case 79:
+                        if(!var1) { _fun0022_ip = 73; continue _fun0022 }
+case 83:
                         var4 = _closure1_slot11;
                         var3 = var4.includes;
                         var2 = var2.discount_id;
                         var2 = var3.bind(var4)(var2);
                         var1 = !var2;
-case 70:
+case 73:
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var2);
-case 83:
+case 91:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getUnacknowledgedOffers';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var4 = this;
                 var1 = arg1;
@@ -970,52 +1050,52 @@ case 0:
                 var6 = var1.bind(var5)();
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var1 = 10;
+                var1 = 11;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var7.bind(var1)(var5);
                 var1 = var5.isPremium;
                 var1 = var1.bind(var5)(var6);
-                if(!var1) { _fun0021_ip = 75; continue _fun0021 }
-case 76:
+                if(!var1) { _fun0023_ip = 89; continue _fun0023 }
+case 86:
                 var1 = var4.canFractionalPremiumUserUseOffer;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0021_ip = 75; continue _fun0021 }
-case 77:
+                if(var1) { _fun0023_ip = 89; continue _fun0023 }
+case 67:
                 var1 = new Array(0);
-                _fun0021_ip = 78; continue _fun0021;
-case 75:
+                _fun0023_ip = 90; continue _fun0023;
+case 89:
                 var4 = global;
                 var5 = var4.Object;
                 var4 = var5.values;
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot19;
                 var3 = var3.userTrialOffers;
                 var4 = var4.bind(var5)(var3);
                 var3 = var4.filter;
                 var2 = function(arg1) {
-                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+                    _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
                         var2 = arg1;
                         var4 = _closure3_slot0;
                         var3 = var4.includes;
                         var1 = var2.trial_id;
                         var1 = var3.bind(var4)(var1);
-                        if(!var1) { _fun0022_ip = 69; continue _fun0022 }
+                        if(!var1) { _fun0024_ip = 72; continue _fun0024 }
 case 40:
                         var3 = var2.expires_at;
                         var2 = null;
                         var1 = var2 == var3;
-case 69:
+case 72:
                         return var1;
                     }
                 };
                 var1 = var3.bind(var4)(var2);
-case 78:
+case 90:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'hasAnyUnexpiredOffer';
         var5['key'] = var7;
@@ -1023,19 +1103,19 @@ case 78:
             var1 = global;
             var3 = var1.Object;
             var2 = var3.values;
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var1 = var1.userTrialOffers;
             var3 = var2.bind(var3)(var1);
             var2 = var3.some;
             var1 = function(arg1) {
-                _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+                _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
                     var3 = arg1;
                     var2 = var3.expires_at;
                     var1 = null;
                     var1 = var1 == var2;
-                    if(var1) { _fun0023_ip = 84; continue _fun0023 }
-case 79:
+                    if(var1) { _fun0025_ip = 92; continue _fun0025 }
+case 83:
                     var2 = global;
                     var5 = var2.Date;
                     var4 = var5.parse;
@@ -1045,7 +1125,7 @@ case 79:
                     var2 = var4.now;
                     var2 = var2.bind(var4)();
                     var1 = var3 > var2;
-case 84:
+case 92:
                     return var1;
                 }
             };
@@ -1053,7 +1133,7 @@ case 84:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'hasAnyUnexpiredDiscountOffer';
         var5['key'] = var7;
@@ -1061,19 +1141,19 @@ case 84:
             var1 = global;
             var3 = var1.Object;
             var2 = var3.values;
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var1 = var1.userDiscountOffers;
             var3 = var2.bind(var3)(var1);
             var2 = var3.some;
             var1 = function(arg1) {
-                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
                     var3 = arg1;
                     var2 = var3.expires_at;
                     var1 = null;
                     var1 = var1 == var2;
-                    if(var1) { _fun0024_ip = 84; continue _fun0024 }
-case 79:
+                    if(var1) { _fun0026_ip = 92; continue _fun0026 }
+case 83:
                     var2 = global;
                     var5 = var2.Date;
                     var4 = var5.parse;
@@ -1083,7 +1163,7 @@ case 79:
                     var2 = var4.now;
                     var2 = var2.bind(var4)();
                     var1 = var3 > var2;
-case 84:
+case 92:
                     return var1;
                 }
             };
@@ -1091,12 +1171,12 @@ case 84:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'canFractionalPremiumUserUseOffer';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
                 var4 = _closure1_slot9;
                 var3 = var4.isFractionalPremiumActive;
@@ -1104,38 +1184,38 @@ case 0:
                 var5 = true;
                 var1['excludeReverseTrial'] = var5;
                 var1 = var3.bind(var4)(var1);
-                if(!var1) { _fun0025_ip = 85; continue _fun0025 }
+                if(!var1) { _fun0027_ip = 93; continue _fun0027 }
 case 3:
                 var3 = _closure1_slot10;
                 var2 = var3.getPremiumTypeSubscription;
                 var3 = var2.bind(var3)();
                 var2 = null;
                 var1 = var2 == var3;
-case 85:
+case 93:
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getReferrer';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var4 = arg1;
                 var2 = null;
                 var3 = var2 == var4;
                 var1 = null;
-                if(var3) { _fun0026_ip = 5; continue _fun0026 }
+                if(var3) { _fun0028_ip = 5; continue _fun0028 }
 case 32:
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot19;
                 var3 = var3.userTrialOffers;
                 var3 = var3[var4];
                 var4 = var2 == var3;
                 var2 = undefined;
-                if(var4) { _fun0026_ip = 2; continue _fun0026 }
-case 86:
+                if(var4) { _fun0028_ip = 2; continue _fun0028 }
+case 94:
                 var2 = var3.referrer;
 case 2:
                 var1 = var2;
@@ -1144,37 +1224,37 @@ case 5:
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'forceReset';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot24;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'lastFetchSuccessful';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var1 = var1.lastFetchSuccessful;
             return var1;
         };
         var5['value'] = var6;
-        var1[18] = var5;
+        var1[20] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1184,19 +1264,19 @@ case 5:
     var8['persistKey'] = var2;
     var2 = new Array(3);
     var11 = function(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var2 = arg1;
             var4 = null;
             var5 = var4 == var2;
             var1 = undefined;
             var3 = undefined;
-            if(var5) { _fun0027_ip = 56; continue _fun0027 }
-case 87:
+            if(var5) { _fun0029_ip = 56; continue _fun0029 }
+case 95:
             var3 = var2.userDiscounts;
 case 56:
-            if(!(var4 == var3)) { _fun0027_ip = 34; continue _fun0027 }
-case 88:
+            if(!(var4 == var3)) { _fun0029_ip = 34; continue _fun0029 }
+case 96:
             return var1;
 case 34:
             var1 = {};
@@ -1210,11 +1290,11 @@ case 34:
     };
     var2[0] = var11;
     var11 = function(arg1) {
-        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 == var1)) { _fun0028_ip = 50; continue _fun0028 }
+            if(!(var2 == var1)) { _fun0030_ip = 50; continue _fun0030 }
 case 51:
             var2 = undefined;
             return var2;
@@ -1224,7 +1304,7 @@ case 50:
             var3 = var4.hasOwn;
             var2 = 'userAnnualOfferLastFetchedAtDate';
             var2 = var3.bind(var4)(var1, var2);
-            if(!var2) { _fun0028_ip = 5; continue _fun0028 }
+            if(!var2) { _fun0030_ip = 5; continue _fun0030 }
 case 60:
             var2 = delete var1.userAnnualOfferLastFetchedAtDate;
 case 5:
@@ -1233,23 +1313,23 @@ case 5:
     };
     var2[1] = var11;
     var11 = function(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var3 = arg1;
             var4 = null;
-            if(!(var4 == var3)) { _fun0029_ip = 50; continue _fun0029 }
+            if(!(var4 == var3)) { _fun0031_ip = 50; continue _fun0031 }
 case 51:
             var1 = undefined;
             return var1;
 case 50:
             var1 = var4 == var3;
             var2 = undefined;
-            if(var1) { _fun0029_ip = 34; continue _fun0029 }
+            if(var1) { _fun0031_ip = 34; continue _fun0031 }
 case 56:
             var2 = var3.isFetching;
 case 34:
             var1 = var3;
-            if(!(var4 == var2)) { _fun0029_ip = 7; continue _fun0029 }
+            if(!(var4 == var2)) { _fun0031_ip = 7; continue _fun0031 }
 case 58:
             var2 = {};
             var6 = var2;
@@ -1265,12 +1345,12 @@ case 7:
     };
     var2[2] = var11;
     var8['migrations'] = var2;
-    var2 = 12;
+    var2 = 13;
     var2 = var6[var2];
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var11 = function handleUserOfferFetchStart() {
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot19;
         var1 = true;
         var2['isFetching'] = var1;
         var1 = undefined;
@@ -1278,30 +1358,30 @@ case 7:
     };
     var2['BILLING_USER_OFFER_FETCH_START'] = var11;
     var11 = function handleUserTrialOfferFetchSuccess(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userTrialOffer;
             var1 = null;
-            if(!(var1 == var3)) { _fun0030_ip = 3; continue _fun0030 }
-case 89:
-            var2 = _closure1_slot22;
+            if(!(var1 == var3)) { _fun0032_ip = 3; continue _fun0032 }
+case 97:
+            var2 = _closure1_slot24;
             var1 = undefined;
             var1 = var2.bind(var1)();
-            _fun0030_ip = 90; continue _fun0030;
+            _fun0032_ip = 98; continue _fun0032;
 case 3:
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot19;
             var2 = var1.userTrialOffers;
             var1 = var3.trial_id;
             var2[var1] = var3;
-case 90:
-            var3 = _closure1_slot17;
+case 98:
+            var3 = _closure1_slot19;
             var2 = global;
             var4 = var2.Date;
             var2 = var4.now;
             var2 = var2.bind(var4)();
             var3['userOffersLastFetchedAtDate'] = var2;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = false;
             var2['isFetching'] = var1;
             var1 = undefined;
@@ -1310,24 +1390,24 @@ case 90:
     };
     var2['BILLING_USER_TRIAL_OFFER_FETCH_SUCCESS'] = var11;
     var11 = function handleUserTrialOfferAcknowledgedSuccess(arg1) {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.userTrialOffer;
             var1 = null;
-            if(!(var1 == var3)) { _fun0031_ip = 91; continue _fun0031 }
-case 89:
-            var2 = _closure1_slot17;
+            if(!(var1 == var3)) { _fun0033_ip = 68; continue _fun0033 }
+case 97:
+            var2 = _closure1_slot19;
             var1 = {};
             var2['userTrialOffers'] = var1;
-            _fun0031_ip = 4; continue _fun0031;
-case 91:
-            var1 = _closure1_slot17;
+            _fun0033_ip = 4; continue _fun0033;
+case 68:
+            var1 = _closure1_slot19;
             var2 = var1.userTrialOffers;
             var1 = var3.trial_id;
             var2[var1] = var3;
 case 4:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = global;
             var3 = var1.Date;
             var1 = var3.now;
@@ -1339,7 +1419,7 @@ case 4:
     };
     var2['BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS'] = var11;
     var11 = function handleUserOfferFetchSuccess(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.userTrialOffer;
@@ -1347,62 +1427,62 @@ case 0:
             var6 = var1.userDiscountOffer;
             var1 = null;
             var2 = var1 == var4;
-            if(!var2) { _fun0032_ip = 53; continue _fun0032 }
+            if(!var2) { _fun0034_ip = 53; continue _fun0034 }
 case 3:
             var2 = var1 == var5;
 case 53:
-            if(!var2) { _fun0032_ip = 69; continue _fun0032 }
-case 92:
+            if(!var2) { _fun0034_ip = 72; continue _fun0034 }
+case 99:
             var2 = var1 == var6;
-case 69:
-            if(!var2) { _fun0032_ip = 54; continue _fun0032 }
-case 70:
-            var3 = _closure1_slot22;
+case 72:
+            if(!var2) { _fun0034_ip = 54; continue _fun0034 }
+case 73:
+            var3 = _closure1_slot24;
             var2 = undefined;
             var2 = var3.bind(var2)();
 case 54:
-            if(!(var1 == var4)) { _fun0032_ip = 93; continue _fun0032 }
+            if(!(var1 == var4)) { _fun0034_ip = 100; continue _fun0034 }
 case 7:
-            if(!(var1 == var5)) { _fun0032_ip = 94; continue _fun0032 }
-case 95:
-            if(!(var1 != var6)) { _fun0032_ip = 96; continue _fun0032 }
+            if(!(var1 == var5)) { _fun0034_ip = 101; continue _fun0034 }
+case 102:
+            if(!(var1 != var6)) { _fun0034_ip = 103; continue _fun0034 }
 case 46:
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var3 = var2.userDiscountOffers;
             var2 = var6.discount_id;
             var3[var2] = var6;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = {};
             var2['userTrialOffers'] = var1;
-            _fun0032_ip = 96; continue _fun0032;
-case 94:
-            var2 = _closure1_slot17;
+            _fun0034_ip = 103; continue _fun0034;
+case 101:
+            var2 = _closure1_slot19;
             var3 = var2.userDiscountOffers;
             var2 = var5.discount_id;
             var3[var2] = var5;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = {};
             var2['userTrialOffers'] = var1;
-            _fun0032_ip = 96; continue _fun0032;
-case 93:
-            var2 = _closure1_slot17;
+            _fun0034_ip = 103; continue _fun0034;
+case 100:
+            var2 = _closure1_slot19;
             var3 = var2.userTrialOffers;
             var2 = var4.trial_id;
             var3[var2] = var4;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = {};
             var2['userDiscountOffers'] = var1;
-case 96:
-            var3 = _closure1_slot17;
+case 103:
+            var3 = _closure1_slot19;
             var2 = global;
             var4 = var2.Date;
             var2 = var4.now;
             var2 = var2.bind(var4)();
             var3['userOffersLastFetchedAtDate'] = var2;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot19;
             var2 = false;
             var3['isFetching'] = var2;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot19;
             var1 = true;
             var2['lastFetchSuccessful'] = var1;
             var1 = undefined;
@@ -1411,46 +1491,46 @@ case 96:
     };
     var2['BILLING_USER_OFFER_FETCH_SUCCESS'] = var11;
     var11 = function handleUserOfferAcknowledgedSuccess(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.userTrialOffer;
             var3 = var1.userDiscount;
             var4 = var1.userDiscountOffer;
             var1 = null;
-            if(!(var1 == var6)) { _fun0033_ip = 70; continue _fun0033 }
-case 97:
-            var5 = _closure1_slot17;
+            if(!(var1 == var6)) { _fun0035_ip = 73; continue _fun0035 }
+case 104:
+            var5 = _closure1_slot19;
             var2 = {};
             var5['userTrialOffers'] = var2;
-            _fun0033_ip = 30; continue _fun0033;
-case 70:
-            var2 = _closure1_slot17;
+            _fun0035_ip = 30; continue _fun0035;
+case 73:
+            var2 = _closure1_slot19;
             var5 = var2.userTrialOffers;
             var2 = var6.trial_id;
             var5[var2] = var6;
 case 30:
-            if(!(var1 == var3)) { _fun0033_ip = 98; continue _fun0033 }
-case 99:
-            if(!(var1 == var4)) { _fun0033_ip = 100; continue _fun0033 }
-case 101:
-            var2 = _closure1_slot17;
+            if(!(var1 == var3)) { _fun0035_ip = 105; continue _fun0035 }
+case 106:
+            if(!(var1 == var4)) { _fun0035_ip = 107; continue _fun0035 }
+case 108:
+            var2 = _closure1_slot19;
             var1 = {};
             var2['userDiscountOffers'] = var1;
-            _fun0033_ip = 102; continue _fun0033;
-case 100:
-            var1 = _closure1_slot17;
+            _fun0035_ip = 109; continue _fun0035;
+case 107:
+            var1 = _closure1_slot19;
             var2 = var1.userDiscountOffers;
             var1 = var4.discount_id;
             var2[var1] = var4;
-            _fun0033_ip = 102; continue _fun0033;
-case 98:
-            var1 = _closure1_slot17;
+            _fun0035_ip = 109; continue _fun0035;
+case 105:
+            var1 = _closure1_slot19;
             var2 = var1.userDiscountOffers;
             var1 = var3.discount_id;
             var2[var1] = var3;
-case 102:
-            var2 = _closure1_slot17;
+case 109:
+            var2 = _closure1_slot19;
             var1 = global;
             var3 = var1.Date;
             var1 = var3.now;
@@ -1462,19 +1542,19 @@ case 102:
     };
     var2['BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS'] = var11;
     var10 = function handleUserOfferFetchFail() {
-        var3 = _closure1_slot22;
+        var3 = _closure1_slot24;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot19;
         var3 = global;
         var5 = var3.Date;
         var3 = var5.now;
         var3 = var3.bind(var5)();
         var4['userOffersLastFetchedAtDate'] = var3;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot19;
         var3 = false;
         var4['isFetching'] = var3;
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot19;
         var2['lastFetchSuccessful'] = var3;
         return var1;
     };
@@ -1489,7 +1569,7 @@ case 102:
     var13 = var2;
     var2 = new var15[var8](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

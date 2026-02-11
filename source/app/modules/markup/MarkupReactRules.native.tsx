@@ -1898,17 +1898,18 @@ case 120:
             var8 = var7.CUSTOM_EMOJI;
             var7 = {};
             var12 = function react(arg1, arg2, arg3) {
-                var4 = _closure1_slot13;
-                var3 = _closure1_slot25;
-                var2 = {};
                 var1 = arg3;
-                var2['state'] = var1;
-                var1 = arg1;
-                var2['node'] = var1;
-                var1 = _closure2_slot0;
-                var2['styles'] = var1;
+                var5 = _closure1_slot13;
+                var4 = _closure1_slot25;
+                var3 = {};
+                var3['state'] = var1;
+                var2 = arg1;
+                var3['node'] = var2;
+                var2 = _closure2_slot0;
+                var3['styles'] = var2;
+                var2 = var1.key;
                 var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
+                var1 = var5.bind(var1)(var4, var3, var2);
                 return var1;
             };
             var7['react'] = var12;

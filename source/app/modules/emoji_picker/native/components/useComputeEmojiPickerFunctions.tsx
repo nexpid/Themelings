@@ -188,21 +188,22 @@ case 35:
 case 0:
             var1 = arg1;
             var3 = var1.categories;
-            var19 = var1.rowSize;
-            var18 = var1.isNativeEmojiPickerEnabled;
+            var20 = var1.rowSize;
+            var19 = var1.isNativeEmojiPickerEnabled;
             var1 = new Array(0);
             var2 = _closure1_slot8;
-            var16 = undefined;
-            var15 = var2.bind(var16)(var3);
-            var3 = var15.bind(var16)();
+            var17 = undefined;
+            var16 = var2.bind(var17)(var3);
+            var3 = var16.bind(var17)();
             var2 = var3.done;
-            var14 = 0;
-            var13 = 4;
-            var12 = global;
-            var11 = null;
-            var10 = 6;
-            var9 = 5;
-            var8 = var3;
+            var15 = 0;
+            var14 = 4;
+            var13 = global;
+            var12 = null;
+            var11 = 6;
+            var10 = 5;
+            var9 = var3;
+            var8 = undefined;
             var7 = undefined;
             var6 = undefined;
             var5 = undefined;
@@ -210,306 +211,325 @@ case 0:
             var3 = undefined;
             if(var2) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-            var27 = var8.value;
-            var25 = var27.type;
+            var29 = var9.value;
+            var27 = var29.type;
             var2 = _closure1_slot6;
             var2 = var2.TOP_GUILD_EMOJI;
-            if(!(var2 !== var25)) { _fun0004_ip = 38; continue _fun0004 }
+            if(!(var2 !== var27)) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
             var2 = _closure1_slot6;
             var2 = var2.FAVORITES;
-            if(!(var2 !== var25)) { _fun0004_ip = 40; continue _fun0004 }
+            if(!(var2 !== var27)) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
             var2 = _closure1_slot6;
             var2 = var2.RECENT;
-            if(!(var2 !== var25)) { _fun0004_ip = 42; continue _fun0004 }
+            if(!(var2 !== var27)) { _fun0004_ip = 42; continue _fun0004 }
 case 43:
             var2 = _closure1_slot6;
             var2 = var2.GUILD;
-            if(!(var2 !== var25)) { _fun0004_ip = 44; continue _fun0004 }
+            if(!(var2 !== var27)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
             var2 = _closure1_slot6;
             var2 = var2.UNICODE;
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var4;
-            var20 = var3;
-            if(!(var2 === var25)) { _fun0004_ip = 46; continue _fun0004 }
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var4;
+            var21 = var3;
+            if(!(var2 === var27)) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-            var25 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var9];
-            var26 = var25.bind(var16)(var2);
-            var25 = var26.getByCategory;
-            var2 = var27.name;
-            var25 = var25.bind(var26)(var2);
-            if(var18) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-            var26 = _closure1_slot12;
-            var2 = {};
-            var2['emojiSections'] = var1;
-            var28 = {};
-            var29 = _closure1_slot7;
-            var29 = var29.EMOJI;
-            var28['type'] = var29;
-            var29 = var25;
-            if(!(var11 == var25)) { _fun0004_ip = 50; continue _fun0004 }
-case 24:
-            var29 = new Array(0);
-case 50:
-            var28['emojis'] = var29;
-            var29 = var12.Set;
-            var30 = var29.prototype;
-            var30 = Object.create(var30, {constructor: {value: var29}});
-            var34 = var30;
-            var29 = new var34[var29](var33);
-            var29 = var29 instanceof Object ? var29 : var30;
-            var28['emojisDisabled'] = var29;
-            var30 = _closure1_slot1;
-            var29 = _closure1_slot2;
-            var29 = var29[var10];
-            var31 = var30.bind(var16)(var29);
-            var30 = var31.capitalize;
-            var29 = var27.name;
-            var29 = var30.bind(var31)(var29);
-            var28['label'] = var29;
-            var29 = _closure1_slot6;
-            var29 = var29.UNICODE;
-            var28['footer'] = var29;
-            var2['renderingData'] = var28;
-            var2['rowSize'] = var19;
-            var2 = var26.bind(var16)(var2);
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var25;
-            var20 = var3;
-            _fun0004_ip = 46; continue _fun0004;
-case 48:
-            var28 = _closure1_slot13;
-            var26 = {};
-            var26['emojiSections'] = var1;
-            var29 = {};
-            var2 = _closure1_slot7;
-            var2 = var2.NATIVE_SECTION;
-            var29['type'] = var2;
-            var30 = _closure1_slot1;
+            var27 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var10];
-            var31 = var30.bind(var16)(var2);
-            var30 = var31.capitalize;
-            var2 = var27.name;
-            var2 = var30.bind(var31)(var2);
-            var29['label'] = var2;
-            var30 = var11 == var25;
-            var2 = undefined;
-            if(var30) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-            var2 = var25.length;
-case 51:
-            var31 = var11 != var2;
-            var30 = 0;
-            if(!var31) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
-            var30 = var2;
-case 53:
-            var29['emojiCount'] = var30;
-            var30 = var12.Set;
-            var31 = var30.prototype;
-            var31 = Object.create(var31, {constructor: {value: var30}});
-            var34 = var31;
-            var30 = new var34[var30](var33);
-            var30 = var30 instanceof Object ? var30 : var31;
-            var29['emojisDisabled'] = var30;
-            var26['renderingData'] = var29;
-            var26 = var28.bind(var16)(var26);
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var25;
-            var20 = var2;
-            _fun0004_ip = 46; continue _fun0004;
-case 44:
-            var26 = var27.guild;
-            var25 = var27.emojis;
-            var2 = var27.emojisDisabled;
-            if(var18) { _fun0004_ip = 55; continue _fun0004 }
-case 56:
-            var29 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var28 = var28[var13];
-            var30 = var29.bind(var16)(var28);
-            var29 = var30.shouldNSFWGateGuild;
-            var28 = var26.id;
-            var28 = var29.bind(var30)(var28);
-            if(var28) { _fun0004_ip = 57; continue _fun0004 }
-case 58:
-            var29 = _closure1_slot12;
-            var28 = {};
-            var28['emojiSections'] = var1;
+            var28 = var27.bind(var17)(var2);
+            var27 = var28.getByCategory;
+            var2 = var29.name;
+            var27 = var27.bind(var28)(var2);
+            if(var19) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
+            var28 = _closure1_slot12;
+            var2 = {};
+            var2['emojiSections'] = var1;
             var30 = {};
             var31 = _closure1_slot7;
             var31 = var31.EMOJI;
             var30['type'] = var31;
-            var30['emojis'] = var25;
-            var30['emojisDisabled'] = var2;
-            var31 = var26.name;
+            var31 = var27;
+            if(!(var12 == var27)) { _fun0004_ip = 50; continue _fun0004 }
+case 12:
+            var31 = new Array(0);
+case 50:
+            var30['emojis'] = var31;
+            var31 = var13.Set;
+            var32 = var31.prototype;
+            var32 = Object.create(var32, {constructor: {value: var31}});
+            var37 = var32;
+            var31 = new var37[var31](var36);
+            var31 = var31 instanceof Object ? var31 : var32;
+            var30['emojisDisabled'] = var31;
+            var32 = _closure1_slot1;
+            var31 = _closure1_slot2;
+            var31 = var31[var11];
+            var33 = var32.bind(var17)(var31);
+            var32 = var33.capitalize;
+            var31 = var29.name;
+            var31 = var32.bind(var33)(var31);
             var30['label'] = var31;
             var31 = _closure1_slot6;
-            var31 = var31.GUILD;
+            var31 = var31.UNICODE;
             var30['footer'] = var31;
-            var31 = var27.isNitroLocked;
-            var30['isSectionNitroLocked'] = var31;
-            var28['renderingData'] = var30;
-            var28['rowSize'] = var19;
-            var28 = var29.bind(var16)(var28);
-            var24 = var26;
-            var23 = var25;
-            var22 = var2;
-            var21 = var4;
-            var20 = var3;
+            var2['renderingData'] = var30;
+            var2['rowSize'] = var20;
+            var2 = var28.bind(var17)(var2);
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var27;
+            var21 = var3;
+            _fun0004_ip = 46; continue _fun0004;
+case 48:
+            var30 = _closure1_slot13;
+            var28 = {};
+            var28['emojiSections'] = var1;
+            var31 = {};
+            var2 = _closure1_slot7;
+            var2 = var2.NATIVE_SECTION;
+            var31['type'] = var2;
+            var32 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var11];
+            var33 = var32.bind(var17)(var2);
+            var32 = var33.capitalize;
+            var2 = var29.name;
+            var2 = var32.bind(var33)(var2);
+            var31['label'] = var2;
+            var32 = var12 == var27;
+            var2 = undefined;
+            if(var32) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
+            var2 = var27.length;
+case 51:
+            var33 = var12 != var2;
+            var32 = 0;
+            if(!var33) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
+            var32 = var2;
+case 53:
+            var31['emojiCount'] = var32;
+            var32 = var13.Set;
+            var33 = var32.prototype;
+            var33 = Object.create(var33, {constructor: {value: var32}});
+            var37 = var33;
+            var32 = new var37[var32](var36);
+            var32 = var32 instanceof Object ? var32 : var33;
+            var31['emojisDisabled'] = var32;
+            var32 = var13.Set;
+            var33 = var32.prototype;
+            var33 = Object.create(var33, {constructor: {value: var32}});
+            var37 = var33;
+            var32 = new var37[var32](var36);
+            var32 = var32 instanceof Object ? var32 : var33;
+            var31['emojisHidden'] = var32;
+            var28['renderingData'] = var31;
+            var28 = var30.bind(var17)(var28);
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var27;
+            var21 = var2;
+            _fun0004_ip = 46; continue _fun0004;
+case 44:
+            var30 = var29.guild;
+            var28 = var29.emojis;
+            var27 = var29.emojisDisabled;
+            var2 = var29.emojisHidden;
+            if(var19) { _fun0004_ip = 55; continue _fun0004 }
+case 56:
+            var32 = _closure1_slot0;
+            var31 = _closure1_slot2;
+            var31 = var31[var14];
+            var33 = var32.bind(var17)(var31);
+            var32 = var33.shouldNSFWGateGuild;
+            var31 = var30.id;
+            var31 = var32.bind(var33)(var31);
+            if(var31) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
+            var32 = _closure1_slot12;
+            var31 = {};
+            var31['emojiSections'] = var1;
+            var33 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.EMOJI;
+            var33['type'] = var34;
+            var33['emojis'] = var28;
+            var33['emojisDisabled'] = var27;
+            var34 = var30.name;
+            var33['label'] = var34;
+            var34 = _closure1_slot6;
+            var34 = var34.GUILD;
+            var33['footer'] = var34;
+            var34 = var29.isNitroLocked;
+            var33['isSectionNitroLocked'] = var34;
+            var31['renderingData'] = var33;
+            var31['rowSize'] = var20;
+            var31 = var32.bind(var17)(var31);
+            var26 = var30;
+            var25 = var28;
+            var24 = var27;
+            var23 = var2;
+            var22 = var4;
+            var21 = var3;
             _fun0004_ip = 46; continue _fun0004;
 case 57:
-            var28 = {};
-            var28['emojiSections'] = var1;
-            var29 = {};
-            var30 = _closure1_slot7;
-            var30 = var30.NSFW;
-            var29['type'] = var30;
-            var30 = var26.name;
-            var29['label'] = var30;
-            var30 = _closure1_slot6;
-            var30 = var30.GUILD;
-            var29['footer'] = var30;
-            var30 = new Array(0);
-            var29['emojis'] = var30;
-            var30 = var27.isNitroLocked;
-            var29['isSectionNitroLocked'] = var30;
-            var28['renderingData'] = var29;
-            var30 = var28.emojiSections;
-            var29 = var30.push;
-            var28 = var28.renderingData;
-            var28 = var29.bind(var30)(var28);
-            var24 = var26;
-            var23 = var25;
-            var22 = var2;
-            var21 = var4;
-            var20 = var3;
+            var31 = {};
+            var31['emojiSections'] = var1;
+            var32 = {};
+            var33 = _closure1_slot7;
+            var33 = var33.NSFW;
+            var32['type'] = var33;
+            var33 = var30.name;
+            var32['label'] = var33;
+            var33 = _closure1_slot6;
+            var33 = var33.GUILD;
+            var32['footer'] = var33;
+            var33 = new Array(0);
+            var32['emojis'] = var33;
+            var33 = var29.isNitroLocked;
+            var32['isSectionNitroLocked'] = var33;
+            var31['renderingData'] = var32;
+            var33 = var31.emojiSections;
+            var32 = var33.push;
+            var31 = var31.renderingData;
+            var31 = var32.bind(var33)(var31);
+            var26 = var30;
+            var25 = var28;
+            var24 = var27;
+            var23 = var2;
+            var22 = var4;
+            var21 = var3;
             _fun0004_ip = 46; continue _fun0004;
 case 55:
-            var29 = _closure1_slot13;
-            var28 = {};
-            var28['emojiSections'] = var1;
-            var30 = {};
-            var31 = _closure1_slot7;
-            var31 = var31.NATIVE_SECTION;
-            var30['type'] = var31;
-            var31 = var26.name;
-            var30['label'] = var31;
-            var31 = var26.id;
-            var30['guildId'] = var31;
-            var31 = var25.length;
-            var30['emojiCount'] = var31;
-            var30['emojisDisabled'] = var2;
-            var31 = var27.isNitroLocked;
-            var30['isSectionNitroLocked'] = var31;
-            var28['renderingData'] = var30;
-            var28 = var29.bind(var16)(var28);
-            var24 = var26;
-            var23 = var25;
-            var22 = var2;
-            var21 = var4;
-            var20 = var3;
+            var32 = _closure1_slot13;
+            var31 = {};
+            var31['emojiSections'] = var1;
+            var33 = {};
+            var34 = _closure1_slot7;
+            var34 = var34.NATIVE_SECTION;
+            var33['type'] = var34;
+            var34 = var30.name;
+            var33['label'] = var34;
+            var34 = var30.id;
+            var33['guildId'] = var34;
+            var34 = var28.length;
+            var33['emojiCount'] = var34;
+            var33['emojisDisabled'] = var27;
+            var33['emojisHidden'] = var2;
+            var34 = var29.isNitroLocked;
+            var33['isSectionNitroLocked'] = var34;
+            var31['renderingData'] = var33;
+            var31 = var32.bind(var17)(var31);
+            var26 = var30;
+            var25 = var28;
+            var24 = var27;
+            var23 = var2;
+            var22 = var4;
+            var21 = var3;
             _fun0004_ip = 46; continue _fun0004;
 case 42:
-            var25 = _closure1_slot12;
+            var27 = _closure1_slot12;
             var2 = {};
             var2['emojiSections'] = var1;
-            var26 = {};
-            var28 = _closure1_slot7;
-            var28 = var28.EMOJI;
-            var26['type'] = var28;
-            var28 = var27.emojisDisabled;
-            var26['emojisDisabled'] = var28;
-            var28 = var27.emojis;
-            var26['emojis'] = var28;
-            var28 = var27.name;
-            var26['label'] = var28;
-            var28 = _closure1_slot6;
-            var28 = var28.RECENT;
-            var26['footer'] = var28;
-            var2['renderingData'] = var26;
-            var2['rowSize'] = var19;
-            var2 = var25.bind(var16)(var2);
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var4;
-            var20 = var3;
+            var28 = {};
+            var30 = _closure1_slot7;
+            var30 = var30.EMOJI;
+            var28['type'] = var30;
+            var30 = var29.emojisDisabled;
+            var28['emojisDisabled'] = var30;
+            var30 = var29.emojis;
+            var28['emojis'] = var30;
+            var30 = var29.name;
+            var28['label'] = var30;
+            var30 = _closure1_slot6;
+            var30 = var30.RECENT;
+            var28['footer'] = var30;
+            var2['renderingData'] = var28;
+            var2['rowSize'] = var20;
+            var2 = var27.bind(var17)(var2);
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var4;
+            var21 = var3;
             _fun0004_ip = 46; continue _fun0004;
 case 40:
-            var25 = _closure1_slot12;
+            var27 = _closure1_slot12;
             var2 = {};
             var2['emojiSections'] = var1;
-            var26 = {};
-            var28 = _closure1_slot7;
-            var28 = var28.EMOJI;
-            var26['type'] = var28;
-            var28 = var27.emojis;
-            var26['emojis'] = var28;
-            var28 = var27.emojisDisabled;
-            var26['emojisDisabled'] = var28;
-            var28 = var27.name;
-            var26['label'] = var28;
-            var28 = _closure1_slot6;
-            var28 = var28.FAVORITES;
-            var26['footer'] = var28;
-            var2['renderingData'] = var26;
-            var2['rowSize'] = var19;
-            var2 = var25.bind(var16)(var2);
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var4;
-            var20 = var3;
+            var28 = {};
+            var30 = _closure1_slot7;
+            var30 = var30.EMOJI;
+            var28['type'] = var30;
+            var30 = var29.emojis;
+            var28['emojis'] = var30;
+            var30 = var29.emojisDisabled;
+            var28['emojisDisabled'] = var30;
+            var30 = var29.name;
+            var28['label'] = var30;
+            var30 = _closure1_slot6;
+            var30 = var30.FAVORITES;
+            var28['footer'] = var30;
+            var2['renderingData'] = var28;
+            var2['rowSize'] = var20;
+            var2 = var27.bind(var17)(var2);
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var4;
+            var21 = var3;
             _fun0004_ip = 46; continue _fun0004;
 case 38:
-            var25 = var27.emojis;
-            var2 = var25.slice;
-            var28 = var2.bind(var25)(var14, var19);
-            var25 = _closure1_slot12;
+            var27 = var29.emojis;
+            var2 = var27.slice;
+            var30 = var2.bind(var27)(var15, var20);
+            var27 = _closure1_slot12;
             var2 = {};
             var2['emojiSections'] = var1;
-            var26 = {};
-            var29 = _closure1_slot7;
-            var29 = var29.EMOJI;
-            var26['type'] = var29;
-            var26['emojis'] = var28;
-            var28 = var27.emojisDisabled;
-            var26['emojisDisabled'] = var28;
-            var27 = var27.name;
-            var26['label'] = var27;
-            var27 = _closure1_slot6;
-            var27 = var27.TOP_GUILD_EMOJI;
-            var26['footer'] = var27;
-            var2['renderingData'] = var26;
-            var2['rowSize'] = var19;
-            var2 = var25.bind(var16)(var2);
-            var24 = var7;
-            var23 = var6;
-            var22 = var5;
-            var21 = var4;
-            var20 = var3;
+            var28 = {};
+            var31 = _closure1_slot7;
+            var31 = var31.EMOJI;
+            var28['type'] = var31;
+            var28['emojis'] = var30;
+            var30 = var29.emojisDisabled;
+            var28['emojisDisabled'] = var30;
+            var29 = var29.name;
+            var28['label'] = var29;
+            var29 = _closure1_slot6;
+            var29 = var29.TOP_GUILD_EMOJI;
+            var28['footer'] = var29;
+            var2['renderingData'] = var28;
+            var2['rowSize'] = var20;
+            var2 = var27.bind(var17)(var2);
+            var26 = var8;
+            var25 = var7;
+            var24 = var6;
+            var23 = var5;
+            var22 = var4;
+            var21 = var3;
 case 46:
-            var25 = var15.bind(var16)();
-            var2 = var25.done;
-            var7 = var24;
-            var6 = var23;
-            var5 = var22;
-            var4 = var21;
-            var3 = var20;
-            var8 = var25;
+            var27 = var16.bind(var17)();
+            var2 = var27.done;
+            var8 = var26;
+            var7 = var25;
+            var6 = var24;
+            var5 = var23;
+            var4 = var22;
+            var3 = var21;
+            var9 = var27;
             if(!var2) { _fun0004_ip = 37; continue _fun0004 }
 case 36:
             return var1;
@@ -542,12 +562,12 @@ case 59:
             var9['type'] = var2;
             var11 = var13.length;
             var2 = var13;
-            if(!(var11 > var10)) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
+            if(!(var11 > var10)) { _fun0005_ip = 39; continue _fun0005 }
+case 61:
             var12 = var13.slice;
             var11 = 0;
             var2 = var12.bind(var13)(var11, var10);
-case 61:
+case 39:
             var9['emojis'] = var2;
             var2 = global;
             var11 = var2.Set;
@@ -567,12 +587,12 @@ case 61:
             var6 = var8.bind(var4)(var6);
             var6 = var3.length;
             var9 = var3;
-            if(!(var6 > var10)) { _fun0005_ip = 63; continue _fun0005 }
-case 64:
+            if(!(var6 > var10)) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
             var8 = var3.slice;
             var6 = 0;
             var9 = var8.bind(var3)(var6, var10);
-case 63:
+case 62:
             var2 = var2.Set;
             var6 = var2.prototype;
             var6 = Object.create(var6, {constructor: {value: var2}});
@@ -584,21 +604,21 @@ case 63:
             var3 = var10.bind(var4)();
             var2 = var3.done;
             var6 = null;
-            if(var2) { _fun0005_ip = 65; continue _fun0005 }
-case 66:
+            if(var2) { _fun0005_ip = 64; continue _fun0005 }
+case 65:
             var2 = var3.value;
             var11 = var2.id;
-            if(!(var6 != var11)) { _fun0005_ip = 67; continue _fun0005 }
-case 68:
+            if(!(var6 != var11)) { _fun0005_ip = 66; continue _fun0005 }
+case 67:
             var11 = var8.add;
             var2 = var2.id;
             var2 = var11.bind(var8)(var2);
-case 67:
+case 66:
             var11 = var10.bind(var4)();
             var2 = var11.done;
             var3 = var11;
-            if(!var2) { _fun0005_ip = 66; continue _fun0005 }
-case 65:
+            if(!var2) { _fun0005_ip = 65; continue _fun0005 }
+case 64:
             var3 = _closure1_slot12;
             var2 = {};
             var2['emojiSections'] = var1;
@@ -636,19 +656,19 @@ case 0:
             var3 = var2.emojis;
             var2 = null;
             var2 = var2 != var3;
-            if(!var2) { _fun0006_ip = 69; continue _fun0006 }
-case 70:
+            if(!var2) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
             var4 = var3.length;
             var3 = 0;
             var2 = var3 !== var4;
-case 69:
-            if(!var2) { _fun0006_ip = 71; continue _fun0006 }
+case 68:
+            if(!var2) { _fun0006_ip = 70; continue _fun0006 }
 case 60:
             var3 = var1.emojiSections;
             var2 = var3.push;
             var1 = var1.renderingData;
             var1 = var2.bind(var3)(var1);
-case 71:
+case 70:
             var1 = undefined;
             return var1;
         }

@@ -238,9 +238,11 @@ case 0:
             var12['fallbackBackground'] = var18;
             var12['primaryColor'] = var17;
             var12['secondaryColor'] = var17;
-            var18 = var29.profileContent;
-            var17 = new Array(2);
+            var18 = var29.profileContentWrapper;
+            var17 = new Array(3);
             var17[0] = var18;
+            var18 = var29.profileContent;
+            var17[1] = var18;
             var18 = '';
             var19 = var18 !== var26;
             if(var19) { _fun0002_ip = 7; continue _fun0002 }
@@ -259,7 +261,7 @@ case 12:
             var19['paddingTop'] = var20;
             var18 = var19;
 case 11:
-            var17[1] = var18;
+            var17[2] = var18;
             var12['containerStyle'] = var17;
             var20 = _closure1_slot7;
             var19 = _closure1_slot1;

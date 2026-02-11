@@ -161,7 +161,7 @@ case 9:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(10);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -322,7 +322,7 @@ case 9:
         var5 = {};
         var7 = 'getCurrentGame';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var1 = _closure1_slot5;
@@ -336,8 +336,17 @@ case 13:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[9] = var5;
+        var5 = {};
+        var7 = 'getSuggestedGuilds';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = new Array(0);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

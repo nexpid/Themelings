@@ -3337,7 +3337,7 @@ case 0:
                 var3['enumerable'] = var11;
                 var3['value'] = var4;
                 var3 = var9.bind(var10)(var1, var8, var3);
-                if(!(var6 !== var5)) { _fun0031_ip = 100; continue _fun0031 }
+                if(!(var6 !== var5)) { _fun0031_ip = 132; continue _fun0031 }
 case 169:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -3345,7 +3345,7 @@ case 169:
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.reflectionMergePartial;
                 var2 = var2.bind(var3)(var4, var1, var5);
-case 100:
+case 132:
                 return var1;
             }
         };
@@ -3562,7 +3562,7 @@ case 16:
                 var2 = var5.recentUses;
                 var2 = var2.length;
                 if(!var2) { _fun0033_ip = 187; continue _fun0033 }
-case 169:
+case 188:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -3580,7 +3580,7 @@ case 169:
                 var2 = var2.length;
                 var2 = var3 < var2;
                 var4 = 0;
-                if(!var2) { _fun0033_ip = 188; continue _fun0033 }
+                if(!var2) { _fun0033_ip = 189; continue _fun0033 }
 case 181:
                 var6 = var1.uint64;
                 var2 = var5.recentUses;
@@ -3590,13 +3590,13 @@ case 181:
                 var2 = var5.recentUses;
                 var2 = var2.length;
                 if(var4 < var2) { _fun0033_ip = 181; continue _fun0033 }
-case 188:
+case 189:
                 var2 = var1.join;
                 var2 = var2.bind(var1)();
 case 187:
                 var2 = var5.frecency;
-                if(!(var3 !== var2)) { _fun0033_ip = 189; continue _fun0033 }
-case 190:
+                if(!(var3 !== var2)) { _fun0033_ip = 190; continue _fun0033 }
+case 191:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -3611,10 +3611,10 @@ case 190:
                 var4 = var6.int32;
                 var2 = var5.frecency;
                 var2 = var4.bind(var6)(var2);
-case 189:
+case 190:
                 var2 = var5.score;
-                if(!(var3 !== var2)) { _fun0033_ip = 191; continue _fun0033 }
-case 192:
+                if(!(var3 !== var2)) { _fun0033_ip = 192; continue _fun0033 }
+case 193:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -3629,15 +3629,15 @@ case 192:
                 var3 = var4.int32;
                 var2 = var5.score;
                 var2 = var3.bind(var4)(var2);
-case 191:
+case 192:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0033_ip = 193; continue _fun0033 }
-case 194:
+                if(!(var2 !== var4)) { _fun0033_ip = 194; continue _fun0033 }
+case 195:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0033_ip = 195; continue _fun0033 }
-case 196:
+                if(!(var2 == var4)) { _fun0033_ip = 196; continue _fun0033 }
+case 197:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -3646,12 +3646,12 @@ case 196:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 195:
+case 196:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 193:
+case 194:
                 return var1;
             }
         };

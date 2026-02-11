@@ -1359,7 +1359,7 @@ case 0:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    if(!var1) { _fun0013_ip = 127; continue _fun0013 }
+                    if(!var1) { _fun0013_ip = 40; continue _fun0013 }
 case 3:
                     var3 = var4.markDirty;
                     var2 = var4.ProtoClass;
@@ -1369,7 +1369,7 @@ case 3:
                     var5 = arg1;
                     var1['cleanup'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 127:
+case 40:
                     var1 = undefined;
                     return var1;
                 }
@@ -1542,8 +1542,8 @@ case 0:
                     var1 = _closure1_slot7;
                     var1 = var1.PRELOADED_USER_SETTINGS;
                     var1 = var2.bind(var3)(var1);
-                    if(var1) { _fun0014_ip = 128; continue _fun0014 }
-case 129:
+                    if(var1) { _fun0014_ip = 127; continue _fun0014 }
+case 128:
                     var1 = _closure1_slot6;
                     var1 = var1.settings;
                     var3 = var1.userContent;
@@ -1556,8 +1556,8 @@ case 39:
                     var5 = var3.dismissedContents;
 case 41:
                     var2 = var2 != var5;
-                    if(!var2) { _fun0014_ip = 130; continue _fun0014 }
-case 127:
+                    if(!var2) { _fun0014_ip = 129; continue _fun0014 }
+case 130:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 17;
@@ -1565,7 +1565,7 @@ case 127:
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hasBit;
                     var2 = var3.bind(var4)(var5, var7);
-case 130:
+case 129:
                     if(var2) { _fun0014_ip = 131; continue _fun0014 }
 case 132:
                     var3 = _closure1_slot1;
@@ -1588,7 +1588,7 @@ case 132:
                     return var1;
 case 131:
                     return var1;
-case 128:
+case 127:
                     var1 = undefined;
                     return var1;
                 }

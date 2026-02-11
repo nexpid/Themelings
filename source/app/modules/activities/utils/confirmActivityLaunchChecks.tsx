@@ -562,12 +562,11 @@ case 83:
                     var11 = _closure1_slot2;
                     var7 = 12;
                     var7 = var11[var7];
-                    var11 = var9.bind(var10)(var7);
-                    var10 = var11.hasFlag;
-                    var9 = var4.flags;
+                    var10 = var9.bind(var10)(var7);
+                    var9 = var10.hasApplicationFlag;
                     var7 = _closure1_slot6;
                     var7 = var7.EMBEDDED_RELEASED;
-                    var7 = var10.bind(var11)(var9, var7);
+                    var7 = var9.bind(var10)(var4, var7);
                     var7 = !var7;
                     if(!var7) { _fun0006_ip = 84; continue _fun0006 }
 case 85:
@@ -583,7 +582,7 @@ case 87:
                     var7 = !var5;
                     var5 = !var7;
                     if(!var7) { _fun0006_ip = 88; continue _fun0006 }
-case 45:
+case 71:
                     var7 = global;
                     var8 = var7.Promise;
                     var7 = var8.prototype;

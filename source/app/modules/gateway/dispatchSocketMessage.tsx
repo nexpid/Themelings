@@ -5239,16 +5239,8 @@ case 189:
         var2['animationId'] = var4;
         var4 = var1.sound_id;
         var2['soundId'] = var4;
-        var4 = var1.sound_volume;
-        var2['soundVolume'] = var4;
-        var4 = var1.points;
-        var2['points'] = var4;
-        var4 = var1.streamer_id;
-        var2['streamerId'] = var4;
-        var4 = var1.line_id;
-        var2['lineId'] = var4;
-        var1 = var1.emoji_hose;
-        var2['emojiHose'] = var1;
+        var1 = var1.sound_volume;
+        var2['soundVolume'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

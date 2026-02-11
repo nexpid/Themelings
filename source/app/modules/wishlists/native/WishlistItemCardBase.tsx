@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.radii;
-    var14 = var14.sm;
+    var14 = var14.lg;
     var10['borderRadius'] = var14;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderColor'] = var12;
     var4['card'] = var10;
     var12 = 'center';
-    var10 = {'width': '100%', 'height': '100%', 'justifyContent': 'center', 'alignItems': 'center'};
+    var10 = {'width': '100%', 'height': '100%', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
     var4['cardContent'] = var10;
     var4 = var7.bind(var9)(var4);
     var _closure1_slot7 = var4;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ownedCard'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -97,7 +97,6 @@ case 0:
             var9 = var1.onPress;
             var15 = var1.renderPreview;
             var17 = var1.backgroundColor;
-            var3 = var1.width;
             var8 = var1.accessibilityHidden;
             var12 = var1.isOwned;
             var5 = undefined;
@@ -107,6 +106,14 @@ case 3:
 case 2:
             var1 = _closure1_slot7;
             var7 = var1.bind(var5)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useCardLayout;
+            var1 = var1.bind(var3)();
+            var3 = var1.cardWidth;
             var1 = null;
             var4 = var1 != var3;
             var10 = 170;
@@ -124,7 +131,7 @@ case 4:
             var3['pointerEvents'] = var4;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var4 = 5;
+            var4 = 6;
             var4 = var20[var4];
             var4 = var19.bind(var5)(var4);
             var11 = var4.CheckmarkLargeBoldIcon;
@@ -140,7 +147,7 @@ case 4:
             var4['size'] = var13;
             var13 = {'width': 40, 'height': 40};
             var4['style'] = var13;
-            var13 = 6;
+            var13 = 7;
             var16 = var20[var13];
             var16 = var19.bind(var5)(var16);
             var18 = var16.intl;

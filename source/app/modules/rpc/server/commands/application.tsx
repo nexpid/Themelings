@@ -112,30 +112,18 @@ case 3:
 case 2:
             var7 = _closure1_slot4;
             var4 = var7.getApplication;
-            var7 = var4.bind(var7)(var9);
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var12 = var4.bind(var7)(var9);
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var4 = 8;
-            var4 = var12[var4];
-            var12 = var11.bind(var1)(var4);
-            var11 = var12.hasFlag;
-            var13 = var3 == var7;
-            var4 = undefined;
-            if(var13) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var4 = var7.flags;
-case 4:
-            var13 = var3 != var4;
-            var7 = 0;
-            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var7 = var4;
-case 6:
+            var4 = var11[var4];
+            var11 = var7.bind(var1)(var4);
+            var7 = var11.hasApplicationFlag;
             var4 = _closure1_slot6;
             var4 = var4.EMBEDDED_FIRST_PARTY;
-            var4 = var11.bind(var12)(var7, var4);
-            if(var4) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            var4 = var7.bind(var11)(var12, var4);
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
             var4 = 9;
@@ -147,13 +135,13 @@ case 9:
             var11['errorCode'] = var4;
             var4 = var12.prototype;
             var7 = Object.create(var4, {constructor: {value: var12}});
-            var14 = 'This application cannot access this API';
-            var16 = var7;
-            var15 = var11;
-            var4 = new var16[var12](var15, var14, var13);
+            var13 = 'This application cannot access this API';
+            var15 = var7;
+            var14 = var11;
+            var4 = new var15[var12](var14, var13, var12);
             var4 = var4 instanceof Object ? var4 : var7;
             throw var4;
-case 8:
+case 4:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 10;
@@ -165,18 +153,18 @@ case 8:
             var7['activity_application_id'] = var9;
             var11 = var3 == var10;
             var9 = undefined;
-            if(var11) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var10.type;
-case 10:
+case 6:
             var7['activity_channel_type'] = var9;
             var7['activity_guild_id'] = var8;
             var8 = var3 == var4;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4.activityUserSessionId;
-case 12:
+case 8:
             var7['activity_user_session_id'] = var3;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -185,12 +173,12 @@ case 12:
             var4 = var3.bind(var1)(var2);
             var3 = var4.track;
             var2 = {};
-            var15 = var2;
-            var14 = var7;
-            var7 = copyDataProperties(var15, var14);
-            var15 = var2;
-            var14 = var6;
-            var6 = copyDataProperties(var15, var14);
+            var14 = var2;
+            var13 = var7;
+            var7 = copyDataProperties(var14, var13);
+            var14 = var2;
+            var13 = var6;
+            var6 = copyDataProperties(var14, var13);
             var2 = var3.bind(var4)(var5, var2);
             return var1;
         }
@@ -208,8 +196,8 @@ case 0:
             var1 = var1.application;
             var8 = var1.id;
             var1 = null;
-            if(!(var1 != var8)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!(var1 != var8)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 12;
@@ -227,12 +215,12 @@ case 15:
             var7 = _closure1_slot5;
             var5 = var7.inTestModeForApplication;
             var5 = var5.bind(var7)(var8);
-            if(var5) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(var5) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var7 = _closure1_slot3;
             var6 = var7.inDevModeForApplication;
             var5 = var6.bind(var7)(var8);
-case 16:
+case 12:
             var4['test_mode'] = var5;
             var1['body'] = var4;
             var3 = var2.bind(var3)(var1);
@@ -244,7 +232,7 @@ case 16:
             };
             var1 = var2.bind(var3)(var1);
             return var1;
-case 14:
+case 10:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 9;

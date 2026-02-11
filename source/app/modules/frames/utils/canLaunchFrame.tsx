@@ -8,57 +8,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function _canLaunchFrame(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = arg1;
-            var5 = null;
-            var1 = var5 != var3;
+            var7 = arg1;
+            var1 = null;
+            var1 = var1 != var7;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 2;
-            var2 = var7[var2];
+            var2 = var5[var2];
             var8 = undefined;
-            var6 = var6.bind(var8)(var2);
-            var2 = var6.isRealApplication;
-            var6 = var2.bind(var6)(var3);
+            var3 = var3.bind(var8)(var2);
+            var2 = var3.isRealApplication;
+            var3 = var2.bind(var3)(var7);
             var2 = false;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var3 = var3.flags;
-            var5 = var5 != var3;
-            var7 = 0;
-            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var7 = var3;
-case 6:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 3;
             var3 = var9[var5];
             var11 = var6.bind(var8)(var3);
-            var10 = var11.hasFlag;
+            var10 = var11.hasApplicationFlag;
             var3 = _closure1_slot3;
             var3 = var3.EMBEDDED;
             var3 = var10.bind(var11)(var7, var3);
             var5 = var9[var5];
             var6 = var6.bind(var8)(var5);
-            var5 = var6.hasFlag;
+            var5 = var6.hasApplicationFlag;
             var4 = _closure1_slot3;
             var4 = var4.CONTEXTLESS_ACTIVITY;
             var4 = var5.bind(var6)(var7, var4);
-            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4;
-case 8:
+case 6:
             var2 = var3;
 case 4:
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = arg2;
             var2 = var3.enabled;
-case 10:
+case 8:
             var1 = var2;
 case 2:
             return var1;

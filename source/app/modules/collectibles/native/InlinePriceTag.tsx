@@ -561,6 +561,8 @@ case 47:
             var15['onPress'] = var16;
             var16 = var17.subscribeNowPressable;
             var15['style'] = var16;
+            var16 = 'button';
+            var15['accessibilityRole'] = var16;
             var23 = _closure1_slot7;
             var22 = _closure1_slot0;
             var24 = _closure1_slot2;

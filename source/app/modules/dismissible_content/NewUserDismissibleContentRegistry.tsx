@@ -210,10 +210,15 @@ case 2:
     var11 = var11.DismissibleContent;
     var11 = var11.NITRO_DROP_REWARD;
     var5[var11] = var10;
+    var11 = var7[var9];
+    var11 = var6.bind(var1)(var11);
+    var11 = var11.DismissibleContent;
+    var11 = var11.QUEST_HOME_ENTRYPOINT_ONBOARDING;
+    var5[var11] = var10;
     var9 = var7[var9];
     var9 = var6.bind(var1)(var9);
     var9 = var9.DismissibleContent;
-    var9 = var9.QUEST_HOME_ENTRYPOINT_ONBOARDING;
+    var9 = var9.QUEST_HOME_ENTRYPOINT_TAKEOVER_BADGE;
     var5[var9] = var10;
     var _closure1_slot5 = var5;
     var5 = 3;

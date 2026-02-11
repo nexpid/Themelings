@@ -294,9 +294,11 @@ case 19:
             var18['fallbackBackground'] = var15;
             var18['primaryColor'] = var22;
             var18['secondaryColor'] = var11;
-            var15 = var10.profileContent;
-            var11 = new Array(2);
+            var15 = var10.profileContentWrapper;
+            var11 = new Array(3);
             var11[0] = var15;
+            var15 = var10.profileContent;
+            var11[1] = var15;
             var15 = {};
             var25 = var1 != var23;
             var21 = 0;
@@ -308,7 +310,7 @@ case 21:
             var21 = _closure1_slot6;
             var21 = var24 + var21;
             var15['paddingBottom'] = var21;
-            var11[1] = var15;
+            var11[2] = var15;
             var18['containerStyle'] = var11;
             var25 = _closure1_slot9;
             var15 = _closure1_slot1;

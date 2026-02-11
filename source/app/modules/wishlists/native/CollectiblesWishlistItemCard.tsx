@@ -35,24 +35,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = arg1;
         var6 = var4.item;
         var _closure2_slot0 = var6;
-        var10 = var4.onPress;
-        var8 = var4.backgroundColor;
-        var _closure2_slot1 = var8;
-        var7 = var4.width;
-        var3 = {'item': 0, 'onPress': 0, 'backgroundColor': 0, 'width': 0};
-        var13 = null;
-        var14 = var3;
-        var1 = silentSetPrototypeOf(var14, var13);
-        var14 = {};
-        var13 = var4;
-        var12 = var3;
-        var5 = copyDataProperties(var14, var13, var12);
-        var9 = _closure1_slot2;
-        var4 = var9.useCallback;
-        var11 = var6.sku;
+        var9 = var4.onPress;
+        var7 = var4.backgroundColor;
+        var _closure2_slot1 = var7;
+        var3 = {'item': 0, 'onPress': 0, 'backgroundColor': 0};
+        var12 = null;
+        var13 = var3;
+        var1 = silentSetPrototypeOf(var13, var12);
+        var13 = {};
+        var12 = var4;
+        var11 = var3;
+        var5 = copyDataProperties(var13, var12, var11);
+        var8 = _closure1_slot2;
+        var4 = var8.useCallback;
+        var10 = var6.sku;
         var3 = new Array(2);
-        var3[0] = var11;
-        var3[1] = var8;
+        var3[0] = var10;
+        var3[1] = var7;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -80,7 +79,7 @@ case 2:
                 return var1;
             }
         };
-        var9 = var4.bind(var9)(var2, var3);
+        var8 = var4.bind(var8)(var2, var3);
         var4 = _closure1_slot3;
         var2 = _closure1_slot0;
         var3 = _closure1_slot1;
@@ -89,15 +88,14 @@ case 2:
         var3 = undefined;
         var2 = var2.bind(var3)(var1);
         var1 = {};
-        var1['onPress'] = var10;
-        var1['renderPreview'] = var9;
-        var1['backgroundColor'] = var8;
-        var1['width'] = var7;
+        var1['onPress'] = var9;
+        var1['renderPreview'] = var8;
+        var1['backgroundColor'] = var7;
         var6 = var6.isOwned;
         var1['isOwned'] = var6;
-        var14 = var1;
-        var13 = var5;
-        var5 = copyDataProperties(var14, var13);
+        var13 = var1;
+        var12 = var5;
+        var5 = copyDataProperties(var13, var12);
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

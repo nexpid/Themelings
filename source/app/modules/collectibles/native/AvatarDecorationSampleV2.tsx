@@ -149,6 +149,8 @@ case 7:
             var8 = var16.bind(var4)(var10);
 case 6:
             var5['source'] = var8;
+            var8 = false;
+            var5['accessible'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;

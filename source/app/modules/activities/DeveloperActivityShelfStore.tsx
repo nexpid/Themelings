@@ -437,28 +437,18 @@ case 21:
         _closure1_slot10 = var1;
         var3 = var4.filter;
         var1 = function(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-                var3 = arg1;
-                var2 = var3.flags;
-                var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0011_ip = 6; continue _fun0011 }
-case 23:
-                var6 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var4 = 6;
-                var5 = var5[var4];
-                var4 = undefined;
-                var5 = var6.bind(var4)(var5);
-                var4 = var5.hasFlag;
-                var3 = var3.flags;
-                var2 = _closure1_slot7;
-                var2 = var2.EMBEDDED;
-                var1 = var4.bind(var5)(var3, var2);
-case 6:
-                return var1;
-            }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 6;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.hasApplicationFlag;
+            var1 = _closure1_slot7;
+            var2 = var1.EMBEDDED;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
         var1 = var3.bind(var4)(var1);
         _closure1_slot11 = var1;

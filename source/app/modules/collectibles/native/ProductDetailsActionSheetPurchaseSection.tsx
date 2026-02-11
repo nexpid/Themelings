@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['gap'] = var14;
     var4['purchaseSection'] = var9;
     var9 = {};
-    var14 = 0.5;
+    var14 = 0.75;
     var9['opacity'] = var14;
     var4['disclaimer'] = var9;
     var9 = {};

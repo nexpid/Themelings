@@ -399,7 +399,7 @@ case 62:
             if(!(var2 === var7)) { _fun0007_ip = 63; continue _fun0007 }
 case 64:
             var9 = _closure1_slot8;
-            var8 = var9.getAlmostExpiringTrialOffers;
+            var8 = var9.getAlmostExpiringTrialOffersForReminder;
             var7 = _closure1_slot9;
             var10 = var7.TIER_0;
             var7 = new Array(1);
@@ -418,7 +418,7 @@ case 65:
             _fun0007_ip = 59; continue _fun0007;
 case 61:
             var9 = _closure1_slot8;
-            var8 = var9.getAlmostExpiringTrialOffers;
+            var8 = var9.getAlmostExpiringTrialOffersForReminder;
             var7 = _closure1_slot9;
             var10 = var7.TIER_2;
             var7 = new Array(1);

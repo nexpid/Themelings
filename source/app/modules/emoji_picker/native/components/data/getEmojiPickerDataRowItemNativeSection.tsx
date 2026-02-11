@@ -24,13 +24,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var6 = var1.label;
-            var5 = var1.guildId;
-            var4 = var1.emojiCount;
-            var7 = var1.emojisDisabled;
+            var7 = var1.label;
+            var6 = var1.guildId;
+            var5 = var1.emojiCount;
+            var4 = var1.emojisDisabled;
+            var8 = var1.emojisHidden;
             var2 = var1.isSectionNitroLocked;
-            var9 = undefined;
-            if(!(var2 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+            var10 = undefined;
+            if(!(var2 === var10)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = false;
 case 2:
@@ -39,24 +40,29 @@ case 5:
             var1 = global;
             var3 = var1.Array;
             var1 = var3.from;
-            var3 = var1.bind(var3)(var7);
+            var4 = var1.bind(var3)(var4);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var3 = new Array(0);
+            var4 = new Array(0);
 case 6:
+            var1 = global;
+            var3 = var1.Array;
+            var1 = var3.from;
+            var3 = var1.bind(var3)(var8);
             var1 = {};
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var7 = 0;
-            var7 = var10[var7];
-            var7 = var8.bind(var9)(var7);
-            var7 = var7.EmojiPickerItemType;
-            var7 = var7.NATIVE_SECTION;
-            var1['type'] = var7;
-            var1['title'] = var6;
-            var1['guildId'] = var5;
-            var1['emojiCount'] = var4;
-            var1['emojisDisabled'] = var3;
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var8 = 0;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.EmojiPickerItemType;
+            var8 = var8.NATIVE_SECTION;
+            var1['type'] = var8;
+            var1['title'] = var7;
+            var1['guildId'] = var6;
+            var1['emojiCount'] = var5;
+            var1['emojisDisabled'] = var4;
+            var1['emojisHidden'] = var3;
             var1['isSectionNitroLocked'] = var2;
             var2 = arg2;
             var1['hasPremiumInlineRoadblockHeader'] = var2;

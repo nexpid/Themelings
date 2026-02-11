@@ -84,7 +84,7 @@ case 5:
         }
     };
     var3['useNewPerkAvailableCoachmarkDCF'] = var4;
-    var2 = function useGuildPowerupNotificationDCF(arg1) {
+    var4 = function useGuildPowerupNotificationDCF(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = _closure1_slot0;
@@ -118,6 +118,16 @@ case 8:
             return var1;
         }
     };
-    var3['useGuildPowerupNotificationDCF'] = var2;
+    var3['useGuildPowerupNotificationDCF'] = var4;
+    var2 = function useBoostToUnlockCoachmarkDCF() {
+        var1 = [null];
+        var2 = function() {
+            var1 = undefined;
+            return var1;
+        };
+        var1[1] = var2;
+        return var1;
+    };
+    var3['useBoostToUnlockCoachmarkDCF'] = var2;
     return var1;
 })();

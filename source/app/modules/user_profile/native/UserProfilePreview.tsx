@@ -377,9 +377,11 @@ case 24:
             var17['fallbackBackground'] = var23;
             var17['primaryColor'] = var22;
             var17['secondaryColor'] = var19;
-            var22 = var35.profileContent;
-            var19 = new Array(3);
+            var22 = var35.profileContentWrapper;
+            var19 = new Array(4);
             var19[0] = var22;
+            var22 = var35.profileContent;
+            var19[1] = var22;
             var22 = !var21;
             if(var21) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
@@ -388,7 +390,7 @@ case 27:
             var23['paddingTop'] = var39;
             var22 = var23;
 case 26:
-            var19[1] = var22;
+            var19[2] = var22;
             var22 = {};
             var23 = undefined;
             if(!var38) { _fun0002_ip = 28; continue _fun0002 }
@@ -396,7 +398,7 @@ case 29:
             var23 = '100%';
 case 28:
             var22['height'] = var23;
-            var19[2] = var22;
+            var19[3] = var22;
             var17['containerStyle'] = var19;
             if(!var21) { _fun0002_ip = 30; continue _fun0002 }
 case 31:

@@ -542,25 +542,18 @@ case 0:
             var5 = null;
             if(!(var5 != var6)) { _fun0005_ip = 31; continue _fun0005 }
 case 32:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 20;
-            var6 = var8[var6];
-            var7 = var7.bind(var4)(var6);
-            var6 = var7.hasFlag;
-            var3 = var3.application;
-            var3 = var3.flags;
-            var8 = var5 != var3;
-            var5 = 0;
-            if(!var8) { _fun0005_ip = 6; continue _fun0005 }
-case 33:
-            var5 = var3;
-case 6:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 20;
+            var5 = var7[var5];
+            var7 = var6.bind(var4)(var5);
+            var6 = var7.hasApplicationFlag;
+            var5 = var3.application;
             var3 = _closure1_slot6;
             var3 = var3.EMBEDDED;
             var3 = var6.bind(var7)(var5, var3);
-            if(var3) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(var3) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 17;
@@ -578,7 +571,7 @@ case 35:
             var3 = new var13[var7](var12, var11, var10);
             var3 = var3 instanceof Object ? var3 : var5;
             throw var3;
-case 34:
+case 33:
             var3 = global;
             var5 = var3.Promise;
             var3 = var5.prototype;
@@ -610,10 +603,10 @@ case 0:
                         var3 = _closure3_slot0;
                         var2 = {};
                         var5 = var4;
-                        if(var5) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
-                        var5 = var1;
+                        if(var5) { _fun0006_ip = 35; continue _fun0006 }
 case 36:
+                        var5 = var1;
+case 35:
                         var2['success'] = var5;
                         var2['didCopyLink'] = var4;
                         var2['didSendMessage'] = var1;

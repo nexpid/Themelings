@@ -597,74 +597,65 @@ case 23:
             var13 = var12.bind(var11)(var9, var2);
             var _closure2_slot10 = var13;
             var9 = function(arg1, arg2, arg3) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                    var4 = arguments[3];
-                    var1 = arg3;
-                    var _closure3_slot0 = var1;
-                    var3 = undefined;
-                    if(!(var4 === var3)) { _fun0005_ip = 2; continue _fun0005 }
-case 63:
-                    var4 = false;
-case 2:
-                    var2 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var1 = 12;
-                    var1 = var6[var1];
-                    var3 = var2.bind(var3)(var1);
-                    var2 = var3.redeemVirtualCurrencyForSKU;
-                    var1 = {};
-                    var6 = arg1;
-                    var1['skuId'] = var6;
-                    var6 = arg2;
-                    var1['loadId'] = var6;
-                    var6 = function onRedeemStart() {
-                        var4 = _closure2_slot5;
-                        var1 = undefined;
-                        var3 = true;
-                        var3 = var4.bind(var1)(var3);
-                        var3 = _closure2_slot4;
-                        var2 = null;
-                        var2 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var1['onRedeemStart'] = var6;
-                    var6 = function onRedeemSucceed(arg1) {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-                            var3 = arg1;
-                            var4 = _closure2_slot2;
-                            var1 = undefined;
-                            var4 = var4.bind(var1)(var3);
-                            var4 = _closure2_slot5;
-                            var2 = false;
-                            var2 = var4.bind(var1)(var2);
-                            var5 = _closure3_slot0;
-                            var4 = null;
-                            if(!(var4 != var5)) { _fun0006_ip = 64; continue _fun0006 }
-case 65:
-                            var2 = _closure3_slot0;
-                            var2 = var2.bind(var1)(var3);
-case 64:
-                            return var1;
-                        }
-                    };
-                    var1['onRedeemSucceed'] = var6;
-                    var5 = function onRedeemFail(arg1) {
-                        var4 = _closure2_slot4;
-                        var1 = undefined;
-                        var3 = arg1;
-                        var3 = var4.bind(var1)(var3);
-                        var3 = _closure2_slot5;
-                        var2 = false;
-                        var2 = var3.bind(var1)(var2);
-                        return var1;
-                    };
-                    var1['onRedeemFail'] = var5;
-                    var1['isRental'] = var4;
-                    var1 = var2.bind(var3)(var1);
+                var1 = arg3;
+                var _closure3_slot0 = var1;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 12;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.redeemVirtualCurrencyForSKU;
+                var1 = {};
+                var5 = arg1;
+                var1['skuId'] = var5;
+                var5 = arg2;
+                var1['loadId'] = var5;
+                var5 = function onRedeemStart() {
+                    var4 = _closure2_slot5;
+                    var1 = undefined;
+                    var3 = true;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot4;
+                    var2 = null;
+                    var2 = var3.bind(var1)(var2);
                     return var1;
-                }
+                };
+                var1['onRedeemStart'] = var5;
+                var5 = function onRedeemSucceed(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var3 = arg1;
+                        var4 = _closure2_slot2;
+                        var1 = undefined;
+                        var4 = var4.bind(var1)(var3);
+                        var4 = _closure2_slot5;
+                        var2 = false;
+                        var2 = var4.bind(var1)(var2);
+                        var5 = _closure3_slot0;
+                        var4 = null;
+                        if(!(var4 != var5)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
+                        var2 = _closure3_slot0;
+                        var2 = var2.bind(var1)(var3);
+case 63:
+                        return var1;
+                    }
+                };
+                var1['onRedeemSucceed'] = var5;
+                var4 = function onRedeemFail(arg1) {
+                    var4 = _closure2_slot4;
+                    var1 = undefined;
+                    var3 = arg1;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot5;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var1['onRedeemFail'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
             var2 = new Array(0);
             var2 = var12.bind(var11)(var9, var2);
@@ -674,52 +665,23 @@ case 64:
             var9[1] = var13;
             var9[2] = var2;
             var2 = function(arg1, arg2, arg3) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var6 = arg1;
-                    var5 = arg2;
-                    var4 = arg3;
-                    var2 = arguments[3];
-                    var3 = undefined;
-                    if(!(var2 === var3)) { _fun0007_ip = 2; continue _fun0007 }
-case 63:
-                    var2 = false;
-case 2:
-                    var7 = _closure2_slot7;
-                    if(var7) { _fun0007_ip = 66; continue _fun0007 }
-case 67:
-                    var7 = _closure2_slot11;
-                    var12 = undefined;
-                    var11 = var6;
-                    var10 = var5;
-                    var9 = var4;
-                    var8 = var2;
-                    var7 = var12[var7](var11, var10, var9, var8, var7);
-                    _fun0007_ip = 14; continue _fun0007;
+                    var5 = arg1;
+                    var4 = arg2;
+                    var3 = arg3;
+                    var2 = _closure2_slot7;
+                    if(var2) { _fun0006_ip = 65; continue _fun0006 }
 case 66:
-                    if(var2) { _fun0007_ip = 68; continue _fun0007 }
-case 69:
+                    var6 = _closure2_slot11;
+                    var2 = undefined;
+                    var2 = var6.bind(var2)(var5, var4, var3);
+                    _fun0006_ip = 67; continue _fun0006;
+case 65:
                     var2 = _closure2_slot10;
-                    var2 = var2.bind(var3)(var6, var5, var4);
-case 14:
-                    return var3;
-case 68:
-                    var4 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var5[var2];
-                    var5 = var4.bind(var3)(var2);
-                    var2 = var5.prototype;
-                    var4 = Object.create(var2, {constructor: {value: var5}});
-                    var11 = 'Rental orders are not supported via Orders API yet';
-                    var12 = var4;
-                    var2 = new var12[var5](var11, var10);
-                    var4 = var2 instanceof Object ? var2 : var4;
-                    var2 = _closure2_slot4;
-                    var2 = var2.bind(var3)(var4);
-                    var2 = _closure2_slot5;
-                    var1 = false;
-                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var5, var4, var3);
+case 67:
                     var1 = undefined;
                     return var1;
                 }
@@ -729,12 +691,12 @@ case 68:
             var9[0] = var8;
             var9[1] = var7;
             var1 = function() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var2 = _closure2_slot3;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0008_ip = 70; continue _fun0008 }
-case 71:
+                    if(!(var3 != var2)) { _fun0007_ip = 68; continue _fun0007 }
+case 69:
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var2 = 13;
@@ -756,36 +718,36 @@ case 71:
                     var4 = var6.bind(var8)(var4, var2);
                     var2 = _closure2_slot0;
                     var2 = var2.bind(var5)(var4);
-                    _fun0008_ip = 72; continue _fun0008;
-case 70:
+                    _fun0007_ip = 70; continue _fun0007;
+case 68:
                     var2 = _closure2_slot1;
-                    if(!(var3 != var2)) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
+                    if(!(var3 != var2)) { _fun0007_ip = 71; continue _fun0007 }
+case 72:
                     var2 = _closure2_slot1;
                     var3 = var2.length;
                     var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0008_ip = 18; continue _fun0008 }
-case 73:
+                    if(!(!(var3 > var2))) { _fun0007_ip = 18; continue _fun0007 }
+case 71:
                     var4 = _closure2_slot0;
                     var3 = undefined;
                     var2 = '';
                     var2 = var4.bind(var3)(var2);
-                    _fun0008_ip = 72; continue _fun0008;
+                    _fun0007_ip = 70; continue _fun0007;
 case 18:
                     var4 = _closure2_slot1;
                     var3 = var4.map;
                     var2 = function(arg1) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                             var1 = arg1;
                             var2 = var1.sku;
                             var1 = null;
                             var3 = var1 == var2;
                             var1 = undefined;
-                            if(var3) { _fun0009_ip = 75; continue _fun0009 }
+                            if(var3) { _fun0008_ip = 73; continue _fun0008 }
 case 2:
                             var1 = var2.name;
-case 75:
+case 73:
                             return var1;
                         }
                     };
@@ -808,20 +770,20 @@ case 75:
                     var8 = var11.length;
                     var14 = 'SKUs';
                     var10 = 1;
-                    if(!(var10 === var8)) { _fun0008_ip = 76; continue _fun0008 }
-case 77:
+                    if(!(var10 === var8)) { _fun0007_ip = 74; continue _fun0007 }
+case 75:
                     var14 = 'SKU';
-case 76:
+case 74:
                     var8 = var11.join;
                     var9 = ', ';
                     var13 = var8.bind(var11)(var9);
                     var8 = _closure2_slot1;
                     var8 = var8.length;
                     var12 = 'IDs';
-                    if(!(var10 === var8)) { _fun0008_ip = 78; continue _fun0008 }
-case 79:
+                    if(!(var10 === var8)) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
                     var12 = 'ID';
-case 78:
+case 76:
                     var10 = _closure2_slot1;
                     var8 = var10.map;
                     var7 = function(arg1) {
@@ -848,7 +810,7 @@ case 78:
                     var2 = var5.bind(var6)(var4, var2);
                     var1 = _closure2_slot0;
                     var1 = var1.bind(var3)(var2);
-case 72:
+case 70:
                     var1 = undefined;
                     return var1;
                 }
@@ -857,14 +819,14 @@ case 72:
             var1 = {};
             var1['entitlements'] = var8;
             var1['error'] = var7;
-            if(var4) { _fun0001_ip = 80; continue _fun0001 }
+            if(var4) { _fun0001_ip = 78; continue _fun0001 }
+case 79:
+            if(!var5) { _fun0001_ip = 80; continue _fun0001 }
 case 81:
-            if(!var5) { _fun0001_ip = 82; continue _fun0001 }
-case 83:
             var5 = var6;
-case 82:
-            var4 = var5;
 case 80:
+            var4 = var5;
+case 78:
             var1['isSubmitting'] = var4;
             var1['responseMessage'] = var3;
             var1['redeemVirtualCurrency'] = var2;

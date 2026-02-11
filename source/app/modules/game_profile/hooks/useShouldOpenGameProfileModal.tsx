@@ -54,24 +54,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = arg2;
+            var8 = arg2;
             var2 = new Array(0);
             var5 = null;
             if(!(var5 != var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!(var5 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var5 != var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 5;
-            var6 = var8[var6];
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 5;
+            var4 = var7[var4];
             var9 = undefined;
-            var8 = var7.bind(var9)(var6);
-            var7 = var8.hasFlag;
-            var6 = var4.flags;
+            var7 = var6.bind(var9)(var4);
+            var6 = var7.hasApplicationFlag;
             var4 = _closure1_slot7;
             var4 = var4.GAME_PROFILE_DISABLED;
-            var4 = var7.bind(var8)(var6, var4);
+            var4 = var6.bind(var7)(var8, var4);
             if(!var4) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var6 = var2.push;
@@ -212,7 +211,7 @@ case 24:
             var11 = '';
             var4 = null;
             if(!(var11 !== var2)) { _fun0002_ip = 23; continue _fun0002 }
-case 25:
+case 10:
             var4 = var2;
 case 23:
             var4 = var6.bind(var10)(var4);
@@ -252,19 +251,19 @@ case 0:
                     var4 = null;
                     var3 = var4 != var1;
                     var1 = null;
-                    if(!var3) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                    if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var3 = _closure2_slot6;
                     var3 = var4 != var3;
                     var1 = null;
-                    if(!var3) { _fun0003_ip = 26; continue _fun0003 }
-case 28:
+                    if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+case 27:
                     var5 = _closure1_slot10;
                     var4 = _closure2_slot5;
                     var3 = _closure2_slot6;
                     var2 = undefined;
                     var1 = var5.bind(var2)(var4, var3);
-case 26:
+case 25:
                     return var1;
                 }
             };
@@ -283,28 +282,28 @@ case 26:
 case 0:
                     var2 = _closure2_slot3;
                     var2 = var2.current;
-                    if(var2) { _fun0004_ip = 29; continue _fun0004 }
-case 27:
+                    if(var2) { _fun0004_ip = 28; continue _fun0004 }
+case 26:
                     var2 = _closure2_slot4;
-                    if(!var2) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+                    if(!var2) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0004_ip = 29; continue _fun0004 }
-case 31:
+                    if(!var2) { _fun0004_ip = 28; continue _fun0004 }
+case 30:
                     var5 = _closure1_slot5;
                     var4 = var5.isFetching;
                     var3 = _closure2_slot0;
                     var4 = var4.bind(var5)(var3);
                     var3 = false;
-                    if(!(var3 === var4)) { _fun0004_ip = 29; continue _fun0004 }
-case 32:
+                    if(!(var3 === var4)) { _fun0004_ip = 28; continue _fun0004 }
+case 31:
                     var4 = _closure2_slot5;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0004_ip = 29; continue _fun0004 }
-case 33:
+                    if(!(var3 != var4)) { _fun0004_ip = 28; continue _fun0004 }
+case 32:
                     var4 = _closure2_slot7;
-                    if(!(var3 != var4)) { _fun0004_ip = 29; continue _fun0004 }
-case 34:
+                    if(!(var3 != var4)) { _fun0004_ip = 28; continue _fun0004 }
+case 33:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var4 = 11;
@@ -320,10 +319,10 @@ case 34:
                     var7 = var4.bind(var5)(var3);
                     var9 = _closure2_slot7;
                     var8 = _closure2_slot0;
-                    if(!(var7 === var5)) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-                    var7 = new Array(0);
+                    if(!(var7 === var5)) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
+                    var7 = new Array(0);
+case 34:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var3 = 4;
@@ -341,18 +340,18 @@ case 35:
                     var2 = _closure2_slot3;
                     var1 = true;
                     var2['current'] = var1;
-case 29:
+case 28:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1 = var6.bind(var7)(var1, var4);
             var1 = {};
-            if(!var3) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!var3) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var4 = true;
             var3 = var4 === var5;
-case 37:
+case 36:
             var1['shouldOpenGameProfile'] = var3;
             var1['applicationId'] = var2;
             return var1;

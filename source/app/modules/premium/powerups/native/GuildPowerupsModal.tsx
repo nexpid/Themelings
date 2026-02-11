@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 8;
         var1 = var13[var1];
         var2 = var11.bind(var4)(var1);
-        var1 = var2.useDismissGuildPowerupsNotifications;
+        var1 = var2.useAutoDismissGuildPowerupsNotifications;
         var1 = var1.bind(var2)(var12);
         var1 = 9;
         var1 = var13[var1];
