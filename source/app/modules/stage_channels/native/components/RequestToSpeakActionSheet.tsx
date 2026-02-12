@@ -1,11 +1,11 @@
 // app/modules/stage_channels/native/components/RequestToSpeakActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var10 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var10;
     var _closure1_slot2 = var6;
     var1 = function RequestToSpeakHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -119,7 +119,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = function ManageSelfSpeakerButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -133,7 +133,7 @@ case 0:
             var11 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 13;
+            var2 = 15;
             var2 = var1[var2];
             var9 = var3.bind(var4)(var2);
             var5 = var9.useStateFromStores;
@@ -148,7 +148,7 @@ case 0:
             };
             var3 = var5.bind(var9)(var3, var2);
             var2 = _closure1_slot1;
-            var5 = 14;
+            var5 = 16;
             var1 = var1[var5];
             var2 = var2.bind(var4)(var1);
             var1 = null;
@@ -190,13 +190,13 @@ case 9:
             var3 = _closure1_slot2;
             if(var1) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var1 = 16;
+            var1 = 18;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var22 = var1.MicrophoneArrowRightIcon;
             _fun0002_ip = 12; continue _fun0002;
 case 10:
-            var1 = 15;
+            var1 = 17;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var22 = var1.GroupArrowDownIcon;
@@ -206,7 +206,7 @@ case 12:
             var1 = {};
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 17;
+            var5 = 19;
             var5 = var9[var5];
             var5 = var10.bind(var4)(var5);
             var8 = var5.PressableOpacity;
@@ -222,7 +222,7 @@ case 0:
 case 14:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 18;
+                    var2 = 20;
                     var2 = var5[var2];
                     var5 = undefined;
                     var6 = var4.bind(var5)(var2);
@@ -234,20 +234,20 @@ case 14:
 case 15:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 19;
+                    var2 = 21;
                     var2 = var6[var2];
                     var8 = var4.bind(var5)(var2);
                     var7 = var8.showAgeVerificationGetStartedModal;
                     var2 = {};
                     var10 = _closure1_slot0;
-                    var9 = 20;
+                    var9 = 22;
                     var9 = var6[var9];
                     var9 = var10.bind(var5)(var9);
                     var9 = var9.AgeVerificationModalEntryPoint;
                     var9 = var9.STAGE_CHANNEL_RAISE_HAND;
                     var2['entryPoint'] = var9;
                     var2 = var7.bind(var8)(var2);
-                    var2 = 21;
+                    var2 = 23;
                     var2 = var6[var2];
                     var4 = var4.bind(var5)(var2);
                     var2 = var4.hideActionSheet;
@@ -258,7 +258,7 @@ case 15:
 case 13:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 24;
                     var4 = var5[var1];
                     var1 = undefined;
                     var7 = var6.bind(var1)(var4);
@@ -267,7 +267,7 @@ case 13:
                     var3 = _closure2_slot1;
                     var3 = var6.bind(var7)(var4, var3);
                     var4 = _closure1_slot1;
-                    var3 = 21;
+                    var3 = 23;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.hideActionSheet;
@@ -309,17 +309,7 @@ case 13:
             var14 = var16.bind(var4)(var14, var12);
             var12 = new Array(2);
             var12[0] = var14;
-            var17 = _closure1_slot9;
-            var19 = _closure1_slot1;
-            var14 = 23;
-            var14 = var9[var14];
-            var16 = var19.bind(var4)(var14);
-            var14 = {};
-            var18 = 24;
-            var18 = var9[var18];
-            var18 = var19.bind(var4)(var18);
-            var14['source'] = var18;
-            var14 = var17.bind(var4)(var16, var14);
+            var14 = _closure1_slot13;
             var12[1] = var14;
             var5['children'] = var12;
             var8 = var3.bind(var4)(var8, var5);
@@ -356,7 +346,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -365,10 +355,10 @@ case 13:
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var10 = 0;
-    var4 = var6[var10];
+    var12 = 0;
+    var4 = var6[var12];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var10.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -382,11 +372,11 @@ case 13:
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var10.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var10.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -396,58 +386,68 @@ case 13:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot9 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot9 = var8;
     var7 = var4.jsxs;
     var _closure1_slot10 = var7;
     var4 = var4.Fragment;
     var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {};
-    var9['padding'] = var10;
-    var11 = 8;
-    var10 = var6[var11];
-    var10 = var13.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var10;
-    var4['container'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'padding': 12};
-    var10 = var6[var11];
-    var10 = var13.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOWEST;
-    var9['backgroundColor'] = var10;
-    var4['header'] = var9;
-    var9 = {'marginTop': 0, 'marginBottom': 0};
-    var4['headerTitle'] = var9;
-    var10 = 16;
-    var9 = {'display': 'flex', 'flexDirection': 'row', 'padding': 16, 'alignItems': 'center', 'justifyContent': 'space-between'};
-    var4['selfSpeakerButton'] = var9;
-    var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-    var4['selfSpeakerCTA'] = var9;
-    var9 = {};
-    var12 = var6[var11];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.round;
-    var9['borderRadius'] = var12;
-    var12 = var6[var11];
-    var12 = var13.bind(var1)(var12);
+    var11 = {};
+    var11['padding'] = var12;
+    var13 = 8;
+    var12 = var6[var13];
+    var12 = var10.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var11['backgroundColor'] = var12;
+    var4['container'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'padding': 12};
+    var12 = var6[var13];
+    var12 = var10.bind(var1)(var12);
     var12 = var12.colors;
     var12 = var12.BACKGROUND_BASE_LOWEST;
-    var9['backgroundColor'] = var12;
-    var9['padding'] = var11;
-    var9['marginEnd'] = var10;
-    var4['selfSpeakerIcon'] = var9;
-    var9 = {'paddingHorizontal': 16, 'marginTop': 8};
-    var4['participantTitle'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11['backgroundColor'] = var12;
+    var4['header'] = var11;
+    var11 = {'marginTop': 0, 'marginBottom': 0};
+    var4['headerTitle'] = var11;
+    var12 = 16;
+    var11 = {'display': 'flex', 'flexDirection': 'row', 'padding': 16, 'alignItems': 'center', 'justifyContent': 'space-between'};
+    var4['selfSpeakerButton'] = var11;
+    var11 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    var4['selfSpeakerCTA'] = var11;
+    var11 = {};
+    var14 = var6[var13];
+    var14 = var10.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.round;
+    var11['borderRadius'] = var14;
+    var14 = var6[var13];
+    var14 = var10.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BASE_LOWEST;
+    var11['backgroundColor'] = var14;
+    var11['padding'] = var13;
+    var11['marginEnd'] = var12;
+    var4['selfSpeakerIcon'] = var11;
+    var11 = {'paddingHorizontal': 16, 'marginTop': 8};
+    var4['participantTitle'] = var11;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot12 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var7 = var10.bind(var1)(var4);
+    var4 = {};
+    var9 = 14;
+    var9 = var6[var9];
+    var9 = var10.bind(var1)(var9);
+    var4['source'] = var9;
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot13 = var4;
     var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -484,7 +484,7 @@ case 0:
             var1 = var6.bind(var5)(var1);
             var6 = var1.analyticsLocations;
             var10 = _closure1_slot0;
-            var1 = 13;
+            var1 = 15;
             var1 = var11[var1];
             var15 = var10.bind(var5)(var1);
             var8 = var15.useStateFromStores;
@@ -578,14 +578,14 @@ case 20:
             };
             var9['onLayout'] = var12;
             var15 = _closure1_slot9;
-            var14 = _closure1_slot13;
+            var14 = _closure1_slot14;
             var12 = {};
             var12['channel'] = var17;
             var14 = var15.bind(var5)(var14, var12);
             var12 = new Array(3);
             var12[0] = var14;
             var19 = _closure1_slot9;
-            var15 = _closure1_slot14;
+            var15 = _closure1_slot15;
             var14 = {};
             var14['channel'] = var17;
             var14['numRequestsToSpeak'] = var20;

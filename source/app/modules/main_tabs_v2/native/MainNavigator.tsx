@@ -3,65 +3,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var6 = require;
-        var11 = metroImportDefault;
+        var13 = metroImportDefault;
         var3 = exports;
         var7 = dependencyMap;
         var _closure1_slot0 = var6;
-        var _closure1_slot1 = var11;
+        var _closure1_slot1 = var13;
         var _closure1_slot2 = var7;
-        var1 = function getAuthComponent() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 12;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.default;
-            return var1;
-        };
-        var _closure1_slot20 = var1;
-        var1 = function getOldMainComponent() {
-            var1 = global;
-            var3 = var1.Error;
-            var1 = var3.prototype;
-            var2 = Object.create(var1, {constructor: {value: var3}});
-            var4 = 'Deprecated mobile UI, slated for deletion.';
-            var5 = var2;
-            var1 = new var5[var3](var4, var3);
-            var1 = var1 instanceof Object ? var1 : var2;
-            throw var1;
-        };
-        var _closure1_slot21 = var1;
-        var1 = function getTabsComponent() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 13;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.default;
-            return var1;
-        };
-        var _closure1_slot22 = var1;
         var1 = function getChannelComponent() {
             var1 = _closure1_slot5;
             return var1;
         };
-        var _closure1_slot23 = var1;
-        var1 = function WrappedAutoAnalytics() {
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 14;
-            var2 = var4[var2];
-            var4 = undefined;
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.default;
-            var2 = _closure1_slot11;
-            var1 = {};
-            var1 = var2.bind(var4)(var3, var1);
-            return var1;
-        };
-        var _closure1_slot24 = var1;
+        var _closure1_slot25 = var1;
         var1 = function getMemberVerificationComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -72,7 +24,7 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot25 = var1;
+        var _closure1_slot26 = var1;
         var1 = function getFriendsNavigatorComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -83,22 +35,11 @@ case 0:
             var1 = var1.default;
             return var1;
         };
-        var _closure1_slot26 = var1;
+        var _closure1_slot27 = var1;
         var1 = function getChannelDetailsComponent() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 17;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.default;
-            return var1;
-        };
-        var _closure1_slot27 = var1;
-        var1 = function getSearchComponent() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 18;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -277,44 +218,44 @@ case 11:
                     return var1;
                 };
                 var1['options'] = var6;
-                var5 = _closure1_slot23;
+                var5 = _closure1_slot25;
                 var1['getComponent'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             }
         };
         var _closure1_slot34 = var2;
-        var9 = global;
-        var10 = var9.Object;
-        var8 = var10.defineProperty;
+        var11 = global;
+        var9 = var11.Object;
+        var8 = var9.defineProperty;
         var5 = {};
         var1 = true;
         var5['value'] = var1;
         var1 = '__esModule';
-        var1 = var8.bind(var10)(var3, var1, var5);
+        var1 = var8.bind(var9)(var3, var1, var5);
         var1 = 0;
         var5 = var7[var1];
         var1 = undefined;
-        var5 = var11.bind(var1)(var5);
+        var5 = var13.bind(var1)(var5);
         var _closure1_slot3 = var5;
-        var15 = 1;
-        var8 = var7[var15];
+        var16 = 1;
+        var8 = var7[var16];
         var5 = metroImportAll;
         var8 = var5.bind(var1)(var8);
         var _closure1_slot4 = var8;
         var5 = 2;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
-        var12 = var5.Platform;
+        var9 = var5.Platform;
         var5 = var5.View;
         var _closure1_slot5 = var5;
         var5 = 3;
         var5 = var7[var5];
-        var5 = var11.bind(var1)(var5);
+        var5 = var13.bind(var1)(var5);
         var _closure1_slot6 = var5;
         var5 = 4;
         var5 = var7[var5];
-        var5 = var11.bind(var1)(var5);
+        var5 = var13.bind(var1)(var5);
         var _closure1_slot7 = var5;
         var5 = 5;
         var5 = var7[var5];
@@ -333,63 +274,151 @@ case 11:
         var5 = var6.bind(var1)(var5);
         var10 = var5.jsx;
         var _closure1_slot11 = var10;
-        var10 = var5.jsxs;
-        var _closure1_slot12 = var10;
+        var12 = var5.jsxs;
+        var _closure1_slot12 = var12;
         var5 = var5.Fragment;
         var _closure1_slot13 = var5;
         var5 = 8;
         var5 = var7[var5];
-        var13 = var6.bind(var1)(var5);
-        var10 = var13.createStyles;
+        var14 = var6.bind(var1)(var5);
+        var12 = var14.createStyles;
         var5 = {};
-        var14 = {};
-        var14['flex'] = var15;
-        var5['flex'] = var14;
-        var5 = var10.bind(var13)(var5);
+        var15 = {};
+        var15['flex'] = var16;
+        var5['flex'] = var15;
+        var5 = var12.bind(var14)(var5);
         var _closure1_slot14 = var5;
-        var5 = 9;
-        var10 = var7[var5];
-        var13 = var6.bind(var1)(var10);
-        var10 = var13.isIOS;
-        var10 = var10.bind(var13)();
-        if(!var10) { _fun0001_ip = 12; continue _fun0001 }
+        var12 = 9;
+        var5 = var7[var12];
+        var14 = var6.bind(var1)(var5);
+        var5 = var14.isIOS;
+        var5 = var5.bind(var14)();
+        if(!var5) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-        var14 = var9.parseInt;
-        var15 = var12.Version;
-        var12 = var9.HermesInternal;
-        var13 = var12.concat;
-        var12 = '';
-        var13 = var13.bind(var12)(var15);
-        var12 = 10;
-        var12 = var14.bind(var1)(var13, var12);
-        var13 = var12 | 0;
-        var12 = 15;
-        var10 = var13 <= var12;
+        var15 = var11.parseInt;
+        var16 = var9.Version;
+        var9 = var11.HermesInternal;
+        var14 = var9.concat;
+        var9 = '';
+        var14 = var14.bind(var9)(var16);
+        var9 = 10;
+        var9 = var15.bind(var1)(var14, var9);
+        var14 = var9 | 0;
+        var9 = 15;
+        var5 = var14 <= var9;
 case 12:
-        var _closure1_slot15 = var10;
-        var10 = 10;
-        var10 = var7[var10];
-        var12 = var6.bind(var1)(var10);
-        var10 = var12.createNativeStackNavigator;
-        var10 = var10.bind(var12)();
-        var _closure1_slot16 = var10;
-        var10 = 11;
-        var10 = var7[var10];
-        var10 = var11.bind(var1)(var10);
-        var10 = var10.bind(var1)();
-        var _closure1_slot17 = var10;
-        var11 = var9.Object;
-        var10 = var11.freeze;
-        var9 = {};
-        var12 = 'none';
-        var9['animation'] = var12;
-        var9 = var10.bind(var11)(var9);
-        var _closure1_slot18 = var9;
+        var _closure1_slot15 = var5;
+        var5 = 10;
         var5 = var7[var5];
         var9 = var6.bind(var1)(var5);
-        var5 = var9.isAndroid;
+        var5 = var9.createNativeStackNavigator;
         var5 = var5.bind(var9)();
-        var _closure1_slot19 = var5;
+        var _closure1_slot16 = var5;
+        var9 = 11;
+        var9 = var7[var9];
+        var9 = var13.bind(var1)(var9);
+        var9 = var9.bind(var1)();
+        var _closure1_slot17 = var9;
+        var14 = var11.Object;
+        var13 = var14.freeze;
+        var11 = {};
+        var15 = 'none';
+        var11['animation'] = var15;
+        var11 = var13.bind(var14)(var11);
+        var _closure1_slot18 = var11;
+        var12 = var7[var12];
+        var13 = var6.bind(var1)(var12);
+        var12 = var13.isAndroid;
+        var12 = var12.bind(var13)();
+        var _closure1_slot19 = var12;
+        var13 = function WrappedAutoAnalytics() {
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.default;
+            var2 = _closure1_slot11;
+            var1 = {};
+            var1 = var2.bind(var4)(var3, var1);
+            return var1;
+        };
+        var12 = {};
+        var12 = var10.bind(var1)(var13, var12);
+        var _closure1_slot20 = var12;
+        var12 = var9.Screen;
+        var9 = {};
+        var13 = 'tabs';
+        var9['name'] = var13;
+        var13 = function getTabsComponent() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 13;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.default;
+            return var1;
+        };
+        var9['getComponent'] = var13;
+        var9['options'] = var11;
+        var9 = var10.bind(var1)(var12, var9);
+        var _closure1_slot21 = var9;
+        var12 = var5.Screen;
+        var9 = {};
+        var13 = 'search';
+        var9['name'] = var13;
+        var13 = function getSearchComponent() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 18;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.default;
+            return var1;
+        };
+        var9['getComponent'] = var13;
+        var9 = var10.bind(var1)(var12, var9);
+        var _closure1_slot22 = var9;
+        var12 = var5.Screen;
+        var9 = {};
+        var13 = 'auth';
+        var9['name'] = var13;
+        var13 = function getAuthComponent() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 12;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.default;
+            return var1;
+        };
+        var9['getComponent'] = var13;
+        var9['options'] = var11;
+        var9 = var10.bind(var1)(var12, var9);
+        var _closure1_slot23 = var9;
+        var9 = var5.Screen;
+        var5 = {};
+        var12 = 'panels';
+        var5['name'] = var12;
+        var12 = function getOldMainComponent() {
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = 'Deprecated mobile UI, slated for deletion.';
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+        };
+        var5['getComponent'] = var12;
+        var5['options'] = var11;
+        var5 = var10.bind(var1)(var9, var5);
+        var _closure1_slot24 = var5;
         var5 = var8.memo;
         var4 = function StackNavigator() {
             var3 = _closure1_slot14;
@@ -560,10 +589,7 @@ case 0:
                     var18 = null;
                     if(!var17) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
-                    var20 = _closure1_slot11;
-                    var19 = _closure1_slot24;
-                    var17 = {};
-                    var18 = var20.bind(var3)(var19, var17);
+                    var18 = _closure1_slot20;
 case 17:
                     var17 = new Array(2);
                     var17[0] = var18;
@@ -616,7 +642,7 @@ case 0:
                             var5 = {};
                             var1 = 'tabs';
                             var5['id'] = var1;
-                            var8 = function screenOptions(arg1) {
+                            var1 = function screenOptions(arg1) {
                                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                                     var1 = arg1;
@@ -650,34 +676,25 @@ case 19:
                                     return var1;
                                 }
                             };
-                            var5['screenOptions'] = var8;
-                            var10 = _closure1_slot11;
-                            var8 = _closure1_slot17;
-                            var9 = var8.Screen;
-                            var8 = {};
-                            var8['name'] = var1;
-                            var1 = _closure1_slot22;
-                            var8['getComponent'] = var1;
-                            var1 = _closure1_slot18;
-                            var8['options'] = var1;
-                            var1 = undefined;
-                            var9 = var10.bind(var1)(var9, var8);
+                            var5['screenOptions'] = var1;
+                            var1 = _closure1_slot21;
                             var8 = new Array(4);
-                            var8[0] = var9;
+                            var8[0] = var1;
                             var14 = _closure1_slot11;
-                            var9 = _closure1_slot17;
-                            var13 = var9.Screen;
+                            var1 = _closure1_slot17;
+                            var13 = var1.Screen;
                             var10 = {};
-                            var9 = 'member-verification';
-                            var10['name'] = var9;
-                            var9 = _closure1_slot25;
-                            var10['getComponent'] = var9;
-                            var15 = {'presentation': 'transparentModal', 'animation': 'slide_from_bottom'};
+                            var1 = 'member-verification';
+                            var10['name'] = var1;
+                            var1 = _closure1_slot26;
+                            var10['getComponent'] = var1;
+                            var1 = {'presentation': 'transparentModal', 'animation': 'slide_from_bottom'};
                             var9 = _closure2_slot6;
-                            var18 = var15;
-                            var17 = var9;
-                            var16 = copyDataProperties(var18, var17);
-                            var10['options'] = var15;
+                            var17 = var1;
+                            var16 = var9;
+                            var15 = copyDataProperties(var17, var16);
+                            var10['options'] = var1;
+                            var1 = undefined;
                             var10 = var14.bind(var1)(var13, var10);
                             var8[1] = var10;
                             var10 = _closure1_slot34;
@@ -685,14 +702,14 @@ case 19:
                             var14 = var13 == var9;
                             var9 = undefined;
                             if(var14) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+case 17:
                             var14 = _closure2_slot6;
                             var9 = var14.animation;
 case 21:
-                            if(!(var13 == var9)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-                            var9 = _closure2_slot2;
+                            if(!(var13 == var9)) { _fun0006_ip = 22; continue _fun0006 }
 case 23:
+                            var9 = _closure2_slot2;
+case 22:
                             var9 = var10.bind(var1)(var9);
                             var8[2] = var9;
                             var11 = _closure1_slot11;
@@ -712,18 +729,18 @@ case 0:
                                     var5 = var2 != var3;
                                     var4 = 'slide_from_right';
                                     var2 = var4;
-                                    if(!var5) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
+                                    if(!var5) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
                                     var3 = var3.isRootScreen;
                                     var2 = var4;
-                                    if(!var3) { _fun0008_ip = 25; continue _fun0008 }
-case 27:
+                                    if(!var3) { _fun0008_ip = 24; continue _fun0008 }
+case 26:
                                     var3 = _closure2_slot4;
                                     var2 = var4;
-                                    if(var3) { _fun0008_ip = 25; continue _fun0008 }
-case 28:
+                                    if(var3) { _fun0008_ip = 24; continue _fun0008 }
+case 27:
                                     var2 = 'slide_from_bottom';
-case 25:
+case 24:
                                     var1['animation'] = var2;
                                     var2 = false;
                                     var1['headerShown'] = var2;
@@ -761,27 +778,9 @@ case 25:
                     var13 = var25.bind(var3)(var24, var13);
                     var24 = new Array(10);
                     var24[0] = var13;
-                    var26 = _closure1_slot11;
-                    var13 = _closure1_slot16;
-                    var25 = var13.Screen;
-                    var13 = {};
-                    var27 = 'search';
-                    var13['name'] = var27;
-                    var27 = _closure1_slot28;
-                    var13['getComponent'] = var27;
-                    var13 = var26.bind(var3)(var25, var13);
+                    var13 = _closure1_slot22;
                     var24[1] = var13;
-                    var26 = _closure1_slot11;
-                    var13 = _closure1_slot16;
-                    var25 = var13.Screen;
-                    var13 = {};
-                    var27 = 'auth';
-                    var13['name'] = var27;
-                    var27 = _closure1_slot20;
-                    var13['getComponent'] = var27;
-                    var27 = _closure1_slot18;
-                    var13['options'] = var27;
-                    var13 = var26.bind(var3)(var25, var13);
+                    var13 = _closure1_slot23;
                     var24[2] = var13;
                     var26 = _closure1_slot11;
                     var13 = _closure1_slot16;
@@ -798,17 +797,7 @@ case 25:
                     var13['options'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
                     var24[3] = var13;
-                    var26 = _closure1_slot11;
-                    var13 = _closure1_slot16;
-                    var25 = var13.Screen;
-                    var13 = {};
-                    var27 = 'panels';
-                    var13['name'] = var27;
-                    var27 = _closure1_slot21;
-                    var13['getComponent'] = var27;
-                    var27 = _closure1_slot18;
-                    var13['options'] = var27;
-                    var13 = var26.bind(var3)(var25, var13);
+                    var13 = _closure1_slot24;
                     var24[4] = var13;
                     var26 = _closure1_slot11;
                     var13 = _closure1_slot16;
@@ -833,21 +822,21 @@ case 0:
                             var4 = null;
                             var9 = var4 == var7;
                             var8 = undefined;
-                            if(var9) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
+                            if(var9) { _fun0009_ip = 28; continue _fun0009 }
+case 29:
                             var7 = var7.params;
                             var9 = var4 == var7;
                             var8 = undefined;
-                            if(var9) { _fun0009_ip = 29; continue _fun0009 }
-case 31:
+                            if(var9) { _fun0009_ip = 28; continue _fun0009 }
+case 30:
                             var8 = var7.presentation;
-case 29:
+case 28:
                             var9 = var4 != var8;
                             var7 = 'modal';
-                            if(!var9) { _fun0009_ip = 32; continue _fun0009 }
-case 33:
-                            var7 = var8;
+                            if(!var9) { _fun0009_ip = 31; continue _fun0009 }
 case 32:
+                            var7 = var8;
+case 31:
                             var3['presentation'] = var7;
                             var10 = var6.bind(var5)(var3);
                             var11 = var1;
@@ -855,15 +844,15 @@ case 32:
                             var2 = var2.params;
                             var6 = var4 == var2;
                             var3 = undefined;
-                            if(var6) { _fun0009_ip = 34; continue _fun0009 }
-case 35:
+                            if(var6) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
                             var2 = var2.params;
                             var4 = var4 == var2;
                             var3 = undefined;
-                            if(var4) { _fun0009_ip = 34; continue _fun0009 }
-case 36:
+                            if(var4) { _fun0009_ip = 33; continue _fun0009 }
+case 35:
                             var3 = var2.presentation;
-case 34:
+case 33:
                             var2 = 'card';
                             var3 = var2 === var3;
                             var2 = 'fullScreenGestureEnabled';
@@ -879,8 +868,8 @@ case 34:
                     var29 = var30.isAndroid;
                     var30 = var29.bind(var30)();
                     var29 = undefined;
-                    if(var30) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                    if(var30) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                     var29 = function() {
                         var3 = _closure2_slot3;
                         var1 = undefined;
@@ -901,10 +890,10 @@ case 38:
                         var2 = var4.bind(var1)(var2, var3);
                         return var1;
                     };
-case 37:
+case 36:
                     var27['beforeRemove'] = var29;
                     var13['listeners'] = var27;
-                    var27 = _closure1_slot26;
+                    var27 = _closure1_slot27;
                     var13['getComponent'] = var27;
                     var13 = var26.bind(var3)(var25, var13);
                     var24[5] = var13;
@@ -914,7 +903,7 @@ case 37:
                     var13 = {};
                     var27 = 'sidebar';
                     var13['name'] = var27;
-                    var27 = _closure1_slot27;
+                    var27 = _closure1_slot28;
                     var13['getComponent'] = var27;
                     var27 = function options() {
                         var1 = {};
@@ -986,10 +975,10 @@ case 0:
                             var7 = null;
                             var4 = var7 != var3;
                             var2 = 'slide_from_bottom';
-                            if(!var4) { _fun0010_ip = 39; continue _fun0010 }
-case 30:
+                            if(!var4) { _fun0010_ip = 38; continue _fun0010 }
+case 29:
                             var2 = var3;
-case 39:
+case 38:
                             var1['animation'] = var2;
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
@@ -1003,16 +992,16 @@ case 39:
                             var8 = 'transparentModal';
                             var9 = 'card';
                             var5 = var8;
-                            if(!(var9 !== var10)) { _fun0010_ip = 40; continue _fun0010 }
+                            if(!(var9 !== var10)) { _fun0010_ip = 39; continue _fun0010 }
 case 7:
                             var6 = var6.params;
                             var6 = var6.presentation;
                             var7 = var7 != var6;
                             var5 = var8;
-                            if(!var7) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
-                            var5 = var6;
+                            if(!var7) { _fun0010_ip = 39; continue _fun0010 }
 case 40:
+                            var5 = var6;
+case 39:
                             var2['presentation'] = var5;
                             var11 = var3.bind(var4)(var2);
                             var12 = var1;
@@ -1047,19 +1036,19 @@ case 40:
                     var13 = var13.APP_EXTRA_COMPONENTS_NEVER_FREEZE;
                     var8[2] = var13;
                     var13 = _closure1_slot19;
-                    if(!var13) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+                    if(!var13) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                     var12 = _closure2_slot7;
                     var10 = null;
-                    if(var12) { _fun0005_ip = 44; continue _fun0005 }
-case 42:
+                    if(var12) { _fun0005_ip = 43; continue _fun0005 }
+case 41:
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var12 = 42;
                     var12 = var14[var12];
                     var12 = var13.bind(var3)(var12);
                     var10 = var12.MOVED_TO_ACTION_SHEET_ON_ANDROID_COMPONENTS;
-case 44:
+case 43:
                     var8[3] = var10;
                     var10 = _closure1_slot0;
                     var9 = _closure1_slot2;

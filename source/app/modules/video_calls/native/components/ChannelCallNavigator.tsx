@@ -10,19 +10,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getScreens(arg1) {
         var1 = arg1;
         var1 = var1.channel;
+        var6 = _closure1_slot13;
+        var5 = _closure1_slot22;
+        var3 = {};
+        var3['channel'] = var1;
+        var1 = undefined;
+        var1 = var6.bind(var1)(var5, var3);
         var _closure2_slot0 = var1;
         var1 = {};
         var2 = _closure1_slot10;
         var3 = var2.MAIN_CALL_SCREEN;
         var2 = {'headerShown': false, 'ignoreKeyboard': true, 'gestureEnabled': false, 'title': ''};
         var4 = function render() {
-            var4 = _closure1_slot13;
-            var3 = _closure1_slot22;
-            var2 = {};
             var1 = _closure2_slot0;
-            var2['channel'] = var1;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3, var2);
             return var1;
         };
         var2['render'] = var4;

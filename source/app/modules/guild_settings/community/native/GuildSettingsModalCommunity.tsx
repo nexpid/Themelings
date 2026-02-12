@@ -21,8 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var4 = var6[var10];
+    var11 = 1;
+    var4 = var6[var11];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -68,22 +68,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot16 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot16 = var8;
     var7 = var4.Fragment;
     var _closure1_slot17 = var7;
     var4 = var4.jsxs;
     var _closure1_slot18 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {};
-    var9['flex'] = var10;
-    var4['overview'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {};
+    var10['flex'] = var11;
+    var4['overview'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot19 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.HeaderSubmittingIndicator;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot20 = var4;
     var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -106,13 +113,13 @@ case 0:
             var9 = var1.bind(var5)();
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var7[var1];
             var4 = var6.bind(var5)(var1);
             var1 = var4.useNavigation;
             var15 = var1.bind(var4)();
             var _closure2_slot2 = var15;
-            var4 = 12;
+            var4 = 13;
             var1 = var7[var4];
             var11 = var6.bind(var5)(var1);
             var10 = var11.useStateFromStoresObject;
@@ -242,7 +249,7 @@ case 10:
 case 13:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 14;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -291,7 +298,7 @@ case 11:
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -312,7 +319,7 @@ case 14:
             var23 = var10 != var1;
             var16 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var24 = 14;
+            var24 = 15;
             var6 = var4[var24];
             var6 = var16.bind(var5)(var6);
             var7 = var6.intl;
@@ -349,7 +356,7 @@ case 0:
 case 19:
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 13;
+                            var2 = 14;
                             var4 = var4[var2];
                             var2 = undefined;
                             var5 = var5.bind(var2)(var4);
@@ -386,7 +393,7 @@ case 19:
                             var8 = var1.safetyAlertsChannelId;
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 13;
+                            var1 = 14;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -418,7 +425,7 @@ case 26:
                         var4 = _closure1_slot16;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 16;
                         var1 = var9[var1];
                         var3 = undefined;
                         var1 = var8.bind(var3)(var1);
@@ -426,7 +433,7 @@ case 26:
                         var1 = {};
                         var5 = _closure3_slot0;
                         var1['onPress'] = var5;
-                        var5 = 14;
+                        var5 = 15;
                         var6 = var9[var5];
                         var6 = var8.bind(var3)(var6);
                         var7 = var6.intl;
@@ -460,7 +467,7 @@ case 31:
                         var4 = _closure1_slot16;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 16;
                         var1 = var9[var1];
                         var3 = undefined;
                         var1 = var8.bind(var3)(var1);
@@ -468,7 +475,7 @@ case 31:
                         var1 = {};
                         var5 = _closure3_slot1;
                         var1['onPress'] = var5;
-                        var5 = 14;
+                        var5 = 15;
                         var6 = var9[var5];
                         var6 = var8.bind(var3)(var6);
                         var7 = var6.intl;
@@ -486,16 +493,7 @@ case 30:
                     _fun0006_ip = 32; continue _fun0006;
 case 28:
                     var4 = function() {
-                        var4 = _closure1_slot16;
-                        var2 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var1 = 16;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var1 = var2.bind(var3)(var1);
-                        var2 = var1.HeaderSubmittingIndicator;
-                        var1 = {};
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure1_slot20;
                         return var1;
                     };
 case 32:
@@ -586,7 +584,7 @@ case 0:
                     var2 = var10.paths;
                     var4 = var4.bind(var1)(var3, var2);
                     var3 = {};
-                    var2 = 14;
+                    var2 = 15;
                     var7 = var10[var2];
                     var7 = var9.bind(var1)(var7);
                     var8 = var7.intl;
@@ -603,7 +601,7 @@ case 0:
                     var2 = function onItemSelect(arg1) {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var4[var1];
                         var1 = undefined;
                         var6 = var3.bind(var1)(var2);
@@ -659,7 +657,7 @@ case 0:
                     var2 = var10.paths;
                     var4 = var4.bind(var1)(var3, var2);
                     var3 = {};
-                    var2 = 14;
+                    var2 = 15;
                     var7 = var10[var2];
                     var7 = var9.bind(var1)(var7);
                     var8 = var7.intl;
@@ -676,7 +674,7 @@ case 0:
                     var2 = function onItemSelect(arg1) {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var4[var1];
                         var1 = undefined;
                         var6 = var3.bind(var1)(var2);
@@ -737,7 +735,7 @@ case 37:
                 var3 = var11.paths;
                 var4 = var7.bind(var1)(var4, var3);
                 var3 = {};
-                var7 = 14;
+                var7 = 15;
                 var8 = var11[var7];
                 var8 = var10.bind(var1)(var8);
                 var9 = var8.intl;
@@ -754,7 +752,7 @@ case 37:
                 var2 = function onItemSelect(arg1) {
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 14;
                     var2 = var4[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -975,7 +973,7 @@ case 45:
                     var5 = var9.bind(var4)(var5);
                     var6 = var5.FormHint;
                     var5 = {};
-                    var12 = 14;
+                    var12 = 15;
                     var13 = var11[var12];
                     var13 = var9.bind(var4)(var13);
                     var15 = var13.intl;

@@ -450,8 +450,8 @@ case 0:
             var1 = var1.membershipData;
             var1 = var1.isFetching;
             var1 = !var1;
-            if(!var1) { _fun0006_ip = 6; continue _fun0006 }
-case 15:
+            if(!var1) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 8;
@@ -475,7 +475,7 @@ case 15:
             };
             var2 = var3.bind(var4)(var2);
             var1 = true;
-case 6:
+case 15:
             return var1;
         }
     };
@@ -550,13 +550,13 @@ case 0:
             var _closure2_slot0 = var1;
             var3 = _closure1_slot9;
             var3 = var3.BILLING_SUBSCRIPTION_GROUP_INVITE_ALREADY_ACCEPTED;
-            if(!(var4 !== var3)) { _fun0007_ip = 16; continue _fun0007 }
-case 17:
+            if(!(var4 !== var3)) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
             var4 = _closure1_slot14;
             var3 = undefined;
             var4 = var4.bind(var3)();
             return var3;
-case 16:
+case 17:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 8;

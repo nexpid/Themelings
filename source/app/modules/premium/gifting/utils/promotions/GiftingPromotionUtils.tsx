@@ -274,7 +274,7 @@ case 18:
             var2 = var2.defaultAngle;
             var10 = 78.98;
             if(!(var5 !== var2)) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+case 10:
             var10 = var2;
 case 20:
             var2 = global;
@@ -282,38 +282,38 @@ case 20:
             var5 = var8.isArray;
             var8 = var5.bind(var8)(var7);
             var5 = var7;
-            if(var8) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-            var5 = var7.gradient;
+            if(var8) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+            var5 = var7.gradient;
+case 21:
             var9 = var2.Array;
             var8 = var9.isArray;
             var9 = var8.bind(var9)(var7);
             var8 = var10;
-            if(var9) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(var9) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var9 = var7.angle;
             var8 = var10;
-            if(!(var6 != var9)) { _fun0005_ip = 24; continue _fun0005 }
-case 26:
+            if(!(var6 != var9)) { _fun0005_ip = 23; continue _fun0005 }
+case 25:
             var8 = var7.angle;
-case 24:
+case 23:
             var7 = var8;
-            if(!var1) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+            if(!var1) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var1 = 180;
             var8 = var8 + var1;
             var1 = 360;
             var7 = var8 % var1;
-case 27:
+case 26:
             var1 = {};
-            if(!(var6 == var4)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(!(var6 == var4)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
             var6 = var5.join;
             var4 = ', ';
             var6 = var6.bind(var5)(var4);
-            _fun0005_ip = 31; continue _fun0005;
-case 29:
+            _fun0005_ip = 30; continue _fun0005;
+case 28:
             var4 = var5.map;
             var3 = function(arg1, arg2) {
                 var2 = _closure2_slot0;
@@ -333,7 +333,7 @@ case 29:
             var4 = var5.join;
             var3 = ', ';
             var6 = var4.bind(var5)(var3);
-case 31:
+case 30:
             var2 = var2.HermesInternal;
             var5 = var2.concat;
             var15 = 'linear-gradient(';
@@ -352,11 +352,11 @@ case 31:
 case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 == var5)) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+            if(!(var1 == var5)) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
             var1 = undefined;
             return var1;
-case 32:
+case 31:
             var1 = {'backgroundImage': null, 'backgroundSize': 'cover', 'backgroundPosition': 'center', 'backgroundRepeat': 'no-repeat'};
             var2 = global;
             var2 = var2.HermesInternal;
@@ -375,20 +375,20 @@ case 0:
             var1 = arg1;
             var2 = arg2;
             var3 = null;
-            if(!(var3 != var1)) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
-            if(!(var3 == var2)) { _fun0007_ip = 7; continue _fun0007 }
+            if(!(var3 != var1)) { _fun0007_ip = 33; continue _fun0007 }
 case 34:
+            if(!(var3 == var2)) { _fun0007_ip = 7; continue _fun0007 }
+case 33:
             var4 = var1;
-            if(!(var3 == var4)) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+            if(!(var3 == var4)) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
             var5 = var2;
             if(!(var3 == var5)) { _fun0007_ip = 12; continue _fun0007 }
-case 38:
+case 37:
             var5 = {};
 case 12:
             var4 = var5;
-case 36:
+case 35:
             return var4;
 case 7:
             var7 = var2.background;
@@ -405,17 +405,17 @@ case 7:
             var2 = 'no-repeat, no-repeat';
             var1['backgroundRepeat'] = var2;
             var2 = var1.backgroundSize;
-            if(!(var3 == var2)) { _fun0007_ip = 25; continue _fun0007 }
-case 39:
+            if(!(var3 == var2)) { _fun0007_ip = 24; continue _fun0007 }
+case 38:
             var2 = 'auto 110%, auto';
             var1['backgroundSize'] = var2;
-case 25:
+case 24:
             var2 = var1.backgroundPosition;
-            if(!(var3 == var2)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(!(var3 == var2)) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
             var2 = 'right 90% center, 0% 0%';
             var1['backgroundPosition'] = var2;
-case 40:
+case 39:
             return var1;
         }
     };

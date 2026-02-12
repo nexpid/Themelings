@@ -166,16 +166,12 @@ case 8:
                 var9 = _closure2_slot4;
                 var2 = function getScreens(arg1, arg2, arg3, arg4, arg5, arg6) {
                     var10 = arg1;
-                    var1 = arg2;
-                    var _closure4_slot0 = var1;
+                    var11 = arg2;
+                    var6 = arg4;
                     var1 = arg3;
-                    var _closure4_slot1 = var1;
-                    var1 = arg4;
-                    var _closure4_slot2 = var1;
-                    var1 = arg5;
-                    var _closure4_slot3 = var1;
+                    var _closure4_slot0 = var1;
                     var1 = arg6;
-                    var _closure4_slot4 = var1;
+                    var _closure4_slot1 = var1;
                     var7 = function closeModal() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -187,24 +183,55 @@ case 8:
                         var1 = var1.bind(var2)();
                         return var1;
                     };
-                    var _closure4_slot5 = var7;
-                    var1 = function closeModalWithOnComplete() {
+                    var _closure4_slot2 = var7;
+                    var5 = _closure1_slot5;
+                    var3 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var1 = 6;
+                    var1 = var9[var1];
+                    var8 = undefined;
+                    var12 = var3.bind(var8)(var1);
+                    var1 = {};
+                    var1['onClose'] = var7;
+                    var1['modalSessionId'] = var11;
+                    var1 = var5.bind(var8)(var12, var1);
+                    var _closure4_slot3 = var1;
+                    var1 = 7;
+                    var1 = var9[var1];
+                    var12 = var3.bind(var8)(var1);
+                    var1 = {};
+                    var1['onClose'] = var7;
+                    var1['modalSessionId'] = var11;
+                    var1['entryPoint'] = var6;
+                    var1 = var5.bind(var8)(var12, var1);
+                    var _closure4_slot4 = var1;
+                    var1 = 8;
+                    var1 = var9[var1];
+                    var3 = var3.bind(var8)(var1);
+                    var1 = {};
+                    var12 = function onClose() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                            var3 = _closure4_slot5;
+                            var3 = _closure4_slot2;
                             var1 = undefined;
                             var3 = var3.bind(var1)();
-                            var4 = _closure4_slot4;
+                            var4 = _closure4_slot1;
                             var3 = null;
                             if(!(var3 != var4)) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-                            var2 = _closure4_slot4;
+                            var2 = _closure4_slot1;
                             var2 = var2.bind(var1)();
 case 10:
                             return var1;
                         }
                     };
-                    var _closure4_slot6 = var1;
+                    var1['onClose'] = var12;
+                    var1['modalSessionId'] = var11;
+                    var11 = arg5;
+                    var1['classificationId'] = var11;
+                    var1['entryPoint'] = var6;
+                    var1 = var5.bind(var8)(var3, var1);
+                    var _closure4_slot5 = var1;
                     var1 = {};
                     var3 = _closure1_slot7;
                     var11 = var3.INTRO;
@@ -216,27 +243,25 @@ case 10:
                         return var1;
                     };
                     var3['headerTitle'] = var5;
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var5 = 6;
+                    var6 = _closure1_slot0;
+                    var5 = 9;
                     var12 = var9[var5];
-                    var6 = undefined;
-                    var14 = var8.bind(var6)(var12);
+                    var14 = var6.bind(var8)(var12);
                     var13 = var14.getHeaderCloseButton;
                     var12 = function() {
-                        var2 = _closure4_slot5;
+                        var2 = _closure4_slot2;
                         var1 = undefined;
                         var2 = var2.bind(var1)();
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 7;
+                        var2 = 10;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.maybeOpenAgeVerificationUserFeedback;
                         var2 = {};
                         var6 = 'age_verification_get_started_modal';
                         var2['location'] = var6;
-                        var5 = _closure4_slot1;
+                        var5 = _closure4_slot0;
                         var2['visibleContent'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
@@ -244,21 +269,7 @@ case 10:
                     var12 = var13.bind(var14)(var12);
                     var3['headerLeft'] = var12;
                     var12 = function render() {
-                        var4 = _closure1_slot5;
-                        var2 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var1 = 8;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
-                        var1 = {};
-                        var6 = _closure4_slot5;
-                        var1['onClose'] = var6;
-                        var6 = _closure4_slot0;
-                        var1['modalSessionId'] = var6;
-                        var5 = _closure4_slot2;
-                        var1['entryPoint'] = var5;
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure4_slot4;
                         return var1;
                     };
                     var3['render'] = var12;
@@ -274,24 +285,12 @@ case 10:
                     };
                     var3['headerTitle'] = var12;
                     var12 = var9[var5];
-                    var13 = var8.bind(var6)(var12);
+                    var13 = var6.bind(var8)(var12);
                     var12 = var13.getHeaderCloseButton;
                     var12 = var12.bind(var13)(var7);
                     var3['headerLeft'] = var12;
                     var12 = function render() {
-                        var4 = _closure1_slot5;
-                        var2 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var1 = 9;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
-                        var1 = {};
-                        var6 = _closure4_slot5;
-                        var1['onClose'] = var6;
-                        var5 = _closure4_slot0;
-                        var1['modalSessionId'] = var5;
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure4_slot3;
                         return var1;
                     };
                     var3['render'] = var12;
@@ -307,28 +306,12 @@ case 10:
                     };
                     var2['headerTitle'] = var10;
                     var5 = var9[var5];
-                    var6 = var8.bind(var6)(var5);
+                    var6 = var6.bind(var8)(var5);
                     var5 = var6.getHeaderCloseButton;
                     var5 = var5.bind(var6)(var7);
                     var2['headerLeft'] = var5;
                     var4 = function render() {
-                        var4 = _closure1_slot5;
-                        var2 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var1 = 10;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
-                        var1 = {};
-                        var6 = _closure4_slot6;
-                        var1['onClose'] = var6;
-                        var6 = _closure4_slot0;
-                        var1['modalSessionId'] = var6;
-                        var6 = _closure4_slot3;
-                        var1['classificationId'] = var6;
-                        var5 = _closure4_slot2;
-                        var1['entryPoint'] = var5;
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure4_slot5;
                         return var1;
                     };
                     var2['render'] = var4;

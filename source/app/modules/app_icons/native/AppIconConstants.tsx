@@ -680,7 +680,7 @@ case 0:
             var1 = var4.bind(var5)(var1);
             var4 = null;
             if(!(var4 == var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+case 2:
             var2 = _closure1_slot5;
             var1 = var2.bind(var3)();
 case 4:

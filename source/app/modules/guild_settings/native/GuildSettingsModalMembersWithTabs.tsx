@@ -66,17 +66,25 @@ case 0:
             var2 = var2.guildId;
             var _closure2_slot0 = var2;
             var4 = undefined;
-            var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var9 = _closure1_slot6;
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 6;
+            var3 = var7[var3];
+            var8 = var5.bind(var4)(var3);
+            var3 = {};
+            var3['guildId'] = var2;
+            var3 = var9.bind(var4)(var8, var3);
+            var _closure2_slot1 = var3;
+            var3 = 7;
             var3 = var7[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.bind(var4)();
             var11 = var3.width;
             var5 = _closure1_slot0;
-            var3 = 7;
+            var3 = 8;
             var3 = var7[var3];
             var7 = var5.bind(var4)(var3);
             var5 = var7.useSubmittedGuildJoinRequestTotal;
@@ -91,7 +99,7 @@ case 0:
 case 3:
             var9 = var3;
 case 2:
-            _closure2_slot1 = var9;
+            _closure2_slot2 = var9;
             var3 = _closure1_slot8;
             var8 = var3.bind(var4)();
             var10 = _closure1_slot3;
@@ -105,7 +113,7 @@ case 0:
                     var2 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var12 = 8;
+                    var12 = 9;
                     var1 = var3[var12];
                     var6 = undefined;
                     var1 = var4.bind(var6)(var1);
@@ -117,21 +125,13 @@ case 0:
                     var1 = var1.NOOm1Z;
                     var1 = var5.bind(var8)(var1);
                     var2['label'] = var1;
-                    var11 = 9;
+                    var11 = 10;
                     var1 = var3[var11];
                     var1 = var4.bind(var6)(var1);
                     var1 = var1.MemberSafetyPageTab;
                     var1 = var1.ALL_MEMBERS;
                     var2['id'] = var1;
-                    var9 = _closure1_slot6;
-                    var5 = _closure1_slot1;
-                    var1 = 10;
-                    var1 = var3[var1];
-                    var5 = var5.bind(var6)(var1);
-                    var1 = {};
-                    var10 = _closure2_slot0;
-                    var1['guildId'] = var10;
-                    var1 = var9.bind(var6)(var5, var1);
+                    var1 = _closure2_slot1;
                     var2['page'] = var1;
                     var1 = new Array(4);
                     var1[0] = var2;
@@ -151,13 +151,13 @@ case 0:
                     var3 = var3.MemberSafetyPageTab;
                     var3 = var3.PENDING;
                     var2['id'] = var3;
-                    var4 = _closure2_slot1;
+                    var4 = _closure2_slot2;
                     var3 = 0;
                     var4 = var4 > var3;
                     var3 = undefined;
                     if(!var4) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var3 = _closure2_slot1;
+                    var3 = _closure2_slot2;
 case 4:
                     var2['count'] = var3;
                     var5 = _closure1_slot6;
@@ -246,7 +246,7 @@ case 4:
             var12 = var3.bind(var4)(var2);
             var2 = var12.useNavigation;
             var2 = var2.bind(var12)();
-            _closure2_slot2 = var2;
+            _closure2_slot3 = var2;
             var2 = 14;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
@@ -268,7 +268,7 @@ case 0:
                     var1 = arg1;
                     if(!(var2 !== var1)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var3 = _closure2_slot2;
+                    var3 = _closure2_slot3;
                     var2 = var3.setOptions;
                     var1 = {};
                     var5 = function headerRight() {
@@ -277,14 +277,14 @@ case 9:
                     };
                     var1['headerRight'] = var5;
                     var1 = var2.bind(var3)(var1);
-                    _fun0003_ip = 3; continue _fun0003;
+                    _fun0003_ip = 10; continue _fun0003;
 case 8:
                     var5 = _closure1_slot5;
                     var3 = var5.getGuild;
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var5)(var2);
                     var _closure3_slot0 = var2;
-                    var3 = _closure2_slot2;
+                    var3 = _closure2_slot3;
                     var2 = var3.setOptions;
                     var1 = {};
                     var4 = function headerRight() {
@@ -301,11 +301,11 @@ case 0:
                             var1 = {};
                             var7 = _closure3_slot0;
                             var5 = null;
-                            if(!(var5 == var7)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                            if(!(var5 == var7)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                             var5 = new Array(0);
-                            _fun0004_ip = 12; continue _fun0004;
-case 10:
+                            _fun0004_ip = 13; continue _fun0004;
+case 11:
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var6 = 16;
@@ -316,7 +316,7 @@ case 10:
                             var9 = _closure3_slot0;
                             var6['guild'] = var9;
                             var5 = var7.bind(var8)(var6);
-case 12:
+case 13:
                             var1['items'] = var5;
                             var5 = function children(arg1) {
                                 var3 = arg1;
@@ -343,7 +343,7 @@ case 12:
                                 var7 = var11[var7];
                                 var7 = var8.bind(var3)(var7);
                                 var1['source'] = var7;
-                                var7 = 8;
+                                var7 = 9;
                                 var8 = var11[var7];
                                 var8 = var10.bind(var3)(var8);
                                 var9 = var8.intl;
@@ -367,7 +367,7 @@ case 12:
                     };
                     var1['headerRight'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 3:
+case 10:
                     var1 = undefined;
                     return var1;
                 }

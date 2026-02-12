@@ -15,8 +15,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var13 = 0;
-    var4 = var6[var13];
+    var14 = 0;
+    var4 = var6[var14];
     var1 = undefined;
     var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
@@ -45,8 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot9 = var8;
+    var10 = var4.jsx;
+    var _closure1_slot9 = var10;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
     var4 = {'x': 0, 'y': 0};
@@ -63,23 +63,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.PLUM_23;
     var9 = var9.bind(var1)(var4);
     var4 = var9.alpha;
-    var10 = 0.4;
-    var9 = var4.bind(var9)(var10);
+    var13 = 0.4;
+    var9 = var4.bind(var9)(var13);
     var4 = var9.hex;
     var9 = var4.bind(var9)();
     var4 = new Array(2);
     var4[0] = var9;
     var9 = var6[var8];
-    var14 = var12.bind(var1)(var9);
+    var15 = var12.bind(var1)(var9);
     var9 = var6[var11];
     var9 = var12.bind(var1)(var9);
     var9 = var9.unsafe_rawColors;
     var9 = var9.PLUM_23;
-    var14 = var14.bind(var1)(var9);
-    var9 = var14.alpha;
-    var14 = var9.bind(var14)(var13);
-    var9 = var14.hex;
-    var9 = var9.bind(var14)();
+    var15 = var15.bind(var1)(var9);
+    var9 = var15.alpha;
+    var15 = var9.bind(var15)(var14);
+    var9 = var15.hex;
+    var9 = var9.bind(var15)();
     var4[1] = var9;
     var _closure1_slot13 = var4;
     var4 = var6[var8];
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.PLUM_23;
     var9 = var9.bind(var1)(var4);
     var4 = var9.alpha;
-    var9 = var4.bind(var9)(var13);
+    var9 = var4.bind(var9)(var14);
     var4 = var9.hex;
     var9 = var4.bind(var9)();
     var4 = new Array(2);
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.PLUM_23;
     var9 = var9.bind(var1)(var8);
     var8 = var9.alpha;
-    var9 = var8.bind(var9)(var10);
+    var9 = var8.bind(var9)(var13);
     var8 = var9.hex;
     var8 = var8.bind(var9)();
     var4[1] = var8;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var4;
     var4 = 8;
     var8 = var6[var4];
-    var10 = var5.bind(var1)(var8);
-    var9 = var10.createStyles;
+    var13 = var5.bind(var1)(var8);
+    var9 = var13.createStyles;
     var8 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -344,7 +344,7 @@ case 2:
             return var1;
         }
     };
-    var8 = var9.bind(var10)(var8);
+    var8 = var9.bind(var13)(var8);
     var _closure1_slot17 = var8;
     var8 = {};
     var9 = 'function VideoQuestModalContentInProgressTsx1(){const{withDelay,LOGO_REWARD_TRANSITION_DELAY_MS,withTiming,isComponentMounted,LOGO_REWARD_TRANSITION_DURATION_MS}=this.__closure;return withDelay(LOGO_REWARD_TRANSITION_DELAY_MS,withTiming(isComponentMounted.get(),{duration:LOGO_REWARD_TRANSITION_DURATION_MS}));}';
@@ -362,6 +362,12 @@ case 2:
     var9 = "function VideoQuestModalContentInProgressTsx4(){const{animation}=this.__closure;return{pointerEvents:animation.get()>0.3?'auto':'none'};}";
     var8['code'] = var9;
     var _closure1_slot21 = var8;
+    var8 = 9;
+    var8 = var6[var8];
+    var9 = var12.bind(var1)(var8);
+    var8 = {};
+    var8 = var10.bind(var1)(var9, var8);
+    var _closure1_slot22 = var8;
     var9 = var7.memo;
     var8 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -392,7 +398,7 @@ case 0:
             var3 = _closure1_slot17;
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var20 = 9;
+            var20 = 10;
             var2 = var2[var20];
             var5 = var5.bind(var4)(var2);
             var2 = var5.isAndroid;
@@ -405,7 +411,7 @@ case 0:
             var2 = function() {
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var7[var1];
                 var5 = undefined;
                 var4 = var6.bind(var5)(var2);
@@ -432,13 +438,13 @@ case 4:
             var6 = var7.useContext;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var3 = var5[var3];
             var3 = var2.bind(var4)(var3);
             var3 = var3.QuestDockGestureContext;
             var3 = var6.bind(var7)(var3);
             var24 = var3.windowDimensions;
-            var3 = 12;
+            var3 = 13;
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useSharedValue;
@@ -460,15 +466,15 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useDerivedValue;
-            var6 = function q() {
+            var6 = function F() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var1 = var6[var1];
                 var2 = undefined;
                 var4 = var5.bind(var2)(var1);
                 var3 = var4.withDelay;
-                var1 = 13;
+                var1 = 14;
                 var1 = var6[var1];
                 var6 = var5.bind(var2)(var1);
                 var5 = var6.withTiming;
@@ -490,7 +496,7 @@ case 4:
             var12['withDelay'] = var14;
             var14 = 3000;
             var12['LOGO_REWARD_TRANSITION_DELAY_MS'] = var14;
-            var14 = 13;
+            var14 = 14;
             var14 = var5[var14];
             var14 = var2.bind(var4)(var14);
             var14 = var14.withTiming;
@@ -508,7 +514,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function F() {
+            var6 = function G() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -527,7 +533,7 @@ case 4:
             var6 = var5[var3];
             var11 = var2.bind(var4)(var6);
             var10 = var11.useAnimatedStyle;
-            var6 = function G() {
+            var6 = function j() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -548,7 +554,7 @@ case 4:
             var3 = var5[var3];
             var10 = var2.bind(var4)(var3);
             var6 = var10.useAnimatedProps;
-            var3 = function j() {
+            var3 = function X() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -575,7 +581,7 @@ case 6:
             var3['__initData'] = var11;
             var30 = var6.bind(var10)(var3);
             var6 = _closure1_slot1;
-            var3 = 14;
+            var3 = 15;
             var3 = var5[var3];
             var3 = var6.bind(var4)(var3);
             var25 = var3.bind(var4)();
@@ -609,7 +615,7 @@ case 10:
             };
             var21 = var6.bind(var7)(var1, var3);
             var3 = _closure1_slot9;
-            var1 = 15;
+            var1 = 16;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -636,7 +642,7 @@ case 12:
             var11 = _closure1_slot10;
             var13 = _closure1_slot0;
             var41 = _closure1_slot2;
-            var8 = 16;
+            var8 = 17;
             var8 = var41[var8];
             var8 = var13.bind(var4)(var8);
             var10 = var8.ThemeContextProvider;
@@ -645,7 +651,7 @@ case 12:
             var12 = var12.DARKER;
             var8['theme'] = var12;
             var14 = _closure1_slot9;
-            var12 = 17;
+            var12 = 18;
             var12 = var41[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.VideoQuestPlayer;
@@ -686,7 +692,7 @@ case 16:
             var15 = _closure1_slot9;
             var14 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var13 = 18;
+            var13 = 19;
             var13 = var17[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
@@ -732,7 +738,7 @@ case 23:
             var25 = _closure1_slot9;
             var16 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var15 = 19;
+            var15 = 20;
             var14 = var21[var15];
             var17 = var16.bind(var4)(var14);
             var14 = {};
@@ -742,11 +748,7 @@ case 23:
             var32[1] = var34;
             var14['style'] = var32;
             var14['animatedProps'] = var30;
-            var30 = 20;
-            var30 = var21[var30];
-            var32 = var16.bind(var4)(var30);
-            var30 = {};
-            var30 = var25.bind(var4)(var32, var30);
+            var30 = _closure1_slot22;
             var14['children'] = var30;
             var17 = var25.bind(var4)(var17, var14);
             var14 = new Array(2);
@@ -802,7 +804,7 @@ case 26:
             var20 = var38.bind(var4)(var18);
             var18 = {};
             var41 = _closure1_slot0;
-            var21 = 10;
+            var21 = 11;
             var25 = var40[var21];
             var32 = var41.bind(var4)(var25);
             var30 = var32.getQuestAsset;
@@ -1062,7 +1064,16 @@ case 22:
         }
     };
     var8 = var9.bind(var7)(var8);
-    var _closure1_slot22 = var8;
+    var _closure1_slot23 = var8;
+    var8 = 34;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var9 = var8.ArrowSmallRightIcon;
+    var8 = {};
+    var13 = 'sm';
+    var8['size'] = var13;
+    var8 = var10.bind(var1)(var9, var8);
+    var _closure1_slot24 = var8;
     var9 = var7.memo;
     var8 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -1092,7 +1103,7 @@ case 0:
             var _closure2_slot4 = var4;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 34;
+            var1 = 35;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useQuestTaskDetails;
@@ -1110,7 +1121,7 @@ case 34:
             var3 = var22.useContext;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.QuestDockGestureContext;
@@ -1143,7 +1154,7 @@ case 34:
             var1 = new Array(0);
             var31 = var8.bind(var22)(var3, var1);
             var3 = _closure1_slot1;
-            var1 = 14;
+            var1 = 15;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -1210,7 +1221,7 @@ case 34:
             var1 = var6 < var1;
             var24 = var3.bind(var4)(var1);
             var3 = _closure1_slot10;
-            var1 = 15;
+            var1 = 16;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -1243,7 +1254,7 @@ case 38:
             var37 = _closure1_slot9;
             var7 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var6 = 16;
+            var6 = 17;
             var6 = var19[var6];
             var6 = var7.bind(var4)(var6);
             var8 = var6.ThemeContextProvider;
@@ -1251,7 +1262,7 @@ case 38:
             var21 = _closure1_slot8;
             var21 = var21.DARKER;
             var6['theme'] = var21;
-            var21 = 17;
+            var21 = 18;
             var21 = var19[var21];
             var21 = var7.bind(var4)(var21);
             var22 = var21.VideoQuestPlayer;
@@ -1276,7 +1287,7 @@ case 38:
             var27 = new Array(4);
             var27[0] = var6;
             var21 = _closure1_slot1;
-            var6 = 35;
+            var6 = 36;
             var8 = var19[var6];
             var30 = var21.bind(var4)(var8);
             var8 = {};
@@ -1310,7 +1321,7 @@ case 38:
             var22 = var24.videoContentWrapperPortrait;
             var6[1] = var22;
             var29['style'] = var6;
-            var6 = 36;
+            var6 = 37;
             var6 = var19[var6];
             var31 = var21.bind(var4)(var6);
             var6 = {};
@@ -1392,7 +1403,7 @@ case 38:
             var39 = {};
             var40 = var24.questDetailsSecondary;
             var39['style'] = var40;
-            var40 = 37;
+            var40 = 38;
             var40 = var19[var40];
             var41 = var21.bind(var4)(var40);
             var40 = {};
@@ -1457,19 +1468,12 @@ case 40:
             var9['style'] = var26;
             var31 = _closure1_slot0;
             var32 = _closure1_slot2;
-            var26 = 38;
+            var26 = 39;
             var26 = var32[var26];
             var26 = var31.bind(var4)(var26);
             var27 = var26.Button;
             var26 = {'icon': null, 'iconPosition': 'end', 'onPress': null, 'variant': 'secondary', 'size': 'sm'};
-            var29 = 39;
-            var29 = var32[var29];
-            var29 = var31.bind(var4)(var29);
-            var30 = var29.ArrowSmallRightIcon;
-            var29 = {};
-            var33 = 'sm';
-            var29['size'] = var33;
-            var29 = var21.bind(var4)(var30, var29);
+            var29 = _closure1_slot24;
             var26['icon'] = var29;
             var26['onPress'] = var28;
             var28 = 31;
@@ -1492,7 +1496,7 @@ case 39:
             if(!var12) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
             var21 = _closure1_slot9;
-            var19 = _closure1_slot25;
+            var19 = _closure1_slot27;
             var17 = {};
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -1524,7 +1528,7 @@ case 41:
             if(!var11) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
             var19 = _closure1_slot9;
-            var17 = _closure1_slot25;
+            var17 = _closure1_slot27;
             var12 = {};
             var21 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -1563,7 +1567,7 @@ case 43:
             if(!var10) { _fun0005_ip = 48; continue _fun0005 }
 case 49:
             var17 = _closure1_slot9;
-            var12 = _closure1_slot25;
+            var12 = _closure1_slot27;
             var11 = {};
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -1619,7 +1623,7 @@ case 48:
                 var13 = var2;
                 var14 = copyDataProperties(var15, var14, var13);
                 var4 = _closure1_slot9;
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot27;
                 var2 = {};
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -1668,7 +1672,7 @@ case 48:
         }
     };
     var8 = var9.bind(var7)(var8);
-    var _closure1_slot23 = var8;
+    var _closure1_slot25 = var8;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -1681,10 +1685,10 @@ case 48:
     var10['padding'] = var11;
     var4['footerButton'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot24 = var4;
+    var _closure1_slot26 = var4;
     var8 = var7.forwardRef;
     var4 = function FooterButton(arg1, arg2) {
-        var2 = _closure1_slot24;
+        var2 = _closure1_slot26;
         var4 = undefined;
         var5 = var2.bind(var4)();
         var3 = _closure1_slot9;
@@ -1709,7 +1713,7 @@ case 48:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot25 = var4;
+    var _closure1_slot27 = var4;
     var4 = var7.memo;
     var2 = function VideoQuestModalContentInProgress(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -1739,7 +1743,7 @@ case 0:
             var3 = function() {
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var3 = var7[var1];
                 var6 = undefined;
                 var5 = var2.bind(var6)(var3);
@@ -1763,7 +1767,7 @@ case 0:
             var3 = function() {
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var3 = var7[var1];
                 var6 = undefined;
                 var5 = var2.bind(var6)(var3);
@@ -2005,10 +2009,10 @@ case 52:
             var3 = _closure1_slot9;
             if(var2) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot23;
             _fun0006_ip = 56; continue _fun0006;
 case 54:
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot25;
 case 56:
             var1 = {};
             var1['quest'] = var22;

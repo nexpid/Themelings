@@ -739,11 +739,12 @@ case 0:
             var1 = arg1;
             var1 = var1.questId;
             var _closure2_slot0 = var1;
+            var5 = undefined;
+            var _closure2_slot1 = var5;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 9;
             var1 = var4[var1];
-            var5 = undefined;
             var7 = var3.bind(var5)(var1);
             var4 = var7.useStateFromStores;
             var1 = _closure1_slot6;
@@ -757,11 +758,15 @@ case 0:
                 return var1;
             };
             var7 = var4.bind(var7)(var3, var1);
-            var _closure2_slot1 = var7;
             var1 = null;
-            var3 = var1 == var7;
-            if(var3) { _fun0003_ip = 27; continue _fun0003 }
+            if(!(var1 != var7)) { _fun0003_ip = 27; continue _fun0003 }
 case 10:
+            var8 = _closure1_slot9;
+            var4 = _closure1_slot14;
+            var3 = {};
+            var3['quest'] = var7;
+            var3 = var8.bind(var5)(var4, var3);
+            _closure2_slot1 = var3;
             var4 = _closure1_slot9;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -785,17 +790,12 @@ case 10:
             var7 = var7.RUNNING_ACTIVITY;
             var2['sourceQuestContent'] = var7;
             var6 = function children() {
-                var4 = _closure1_slot9;
-                var3 = _closure1_slot14;
-                var2 = {};
                 var1 = _closure2_slot1;
-                var2['quest'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
 case 27:
             return var1;
         }

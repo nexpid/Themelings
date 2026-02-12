@@ -53,10 +53,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot13 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot13 = var8;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.SettingsCircleIcon;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot15 = var4;
     var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -71,7 +78,7 @@ case 0:
             var _closure2_slot0 = var1;
             var12 = _closure1_slot0;
             var8 = _closure1_slot3;
-            var2 = 7;
+            var2 = 8;
             var2 = var8[var2];
             var4 = undefined;
             var3 = var12.bind(var4)(var2);
@@ -79,17 +86,17 @@ case 0:
             var2 = var2.bind(var3)(var1);
             var9 = var2.canAccessSettings;
             var3 = _closure1_slot1;
-            var2 = 8;
+            var2 = 9;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var15 = var2.bind(var4)(var1);
-            var2 = 9;
+            var2 = 10;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var1.id;
             var2 = var3.bind(var4)(var2);
             var23 = var2.total;
-            var2 = 10;
+            var2 = 11;
             var2 = var8[var2];
             var6 = var12.bind(var4)(var2);
             var5 = var6.useStateFromStores;
@@ -106,7 +113,7 @@ case 0:
             };
             var6 = var5.bind(var6)(var3, var2);
             var _closure2_slot1 = var6;
-            var2 = 11;
+            var2 = 12;
             var2 = var8[var2];
             var3 = var12.bind(var4)(var2);
             var2 = var3.shouldRenderInvite;
@@ -126,7 +133,7 @@ case 0:
                     var7 = var4.bind(var5)(var1);
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var1 = 11;
+                    var1 = 12;
                     var4 = var4[var1];
                     var1 = undefined;
                     var6 = var5.bind(var1)(var4);
@@ -149,7 +156,7 @@ case 2:
 case 5:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var5 = 12;
+                    var5 = 13;
                     var5 = var7[var5];
                     var7 = var6.bind(var1)(var5);
                     var6 = var7.handleOpenInviteActionsheet;
@@ -176,14 +183,14 @@ case 4:
             var5['minWidth'] = var6;
             var1['contentContainerStyle'] = var5;
             var7 = _closure1_slot14;
-            var5 = 13;
+            var5 = 14;
             var5 = var8[var5];
             var5 = var12.bind(var4)(var5);
             var6 = var5.ButtonGroup;
             var5 = {};
             var10 = 'horizontal';
             var5['direction'] = var10;
-            var10 = 14;
+            var10 = 15;
             var8 = var8[var10];
             var8 = var12.bind(var4)(var8);
             var12 = var8.IconButton;
@@ -195,7 +202,7 @@ case 4:
 case 7:
             var21 = _closure1_slot0;
             var22 = _closure1_slot3;
-            var17 = 15;
+            var17 = 16;
             var19 = var22[var17];
             var19 = var21.bind(var4)(var19);
             var20 = var19.intl;
@@ -209,7 +216,7 @@ case 7:
 case 6:
             var20 = _closure1_slot0;
             var24 = _closure1_slot3;
-            var19 = 15;
+            var19 = 16;
             var21 = var24[var19];
             var21 = var20.bind(var4)(var21);
             var22 = var21.intl;
@@ -226,13 +233,13 @@ case 8:
             var20 = _closure1_slot13;
             var19 = _closure1_slot0;
             var23 = _closure1_slot3;
-            var17 = 16;
+            var17 = 17;
             var17 = var23[var17];
             var17 = var19.bind(var4)(var17);
             var19 = var17.BoostGemIcon;
             var17 = {};
             var22 = _closure1_slot1;
-            var21 = 17;
+            var21 = 18;
             var21 = var23[var21];
             var21 = var22.bind(var4)(var21);
             var21 = var21.unsafe_rawColors;
@@ -244,7 +251,7 @@ case 8:
             var17 = function onPress() {
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var1 = 18;
+                var1 = 19;
                 var3 = var4[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var3);
@@ -261,13 +268,13 @@ case 8:
                 var9['object'] = var10;
                 var3['location'] = var9;
                 var3 = var7.bind(var8)(var6, var3);
-                var3 = 19;
+                var3 = 20;
                 var3 = var4[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = var5.hideActionSheet;
                 var3 = var3.bind(var5)();
                 var3 = _closure1_slot2;
-                var2 = 20;
+                var2 = 21;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openApplyBoostModal;
@@ -290,7 +297,7 @@ case 10:
             var17 = var12.IconButton;
             var12 = {};
             var12['variant'] = var18;
-            var20 = 15;
+            var20 = 16;
             var21 = var22[var20];
             var21 = var24.bind(var4)(var21);
             var23 = var21.intl;
@@ -302,7 +309,7 @@ case 10:
             var20 = var21.bind(var23)(var20);
             var12['label'] = var20;
             var21 = _closure1_slot1;
-            var20 = 21;
+            var20 = 22;
             var20 = var22[var20];
             var20 = var21.bind(var4)(var20);
             var12['icon'] = var20;
@@ -310,7 +317,7 @@ case 10:
             var20 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 19;
+                var1 = 20;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -332,7 +339,7 @@ case 9:
             var12 = var11.IconButton;
             var11 = {};
             var11['variant'] = var18;
-            var21 = 15;
+            var21 = 16;
             var19 = var22[var21];
             var19 = var24.bind(var4)(var19);
             var23 = var19.intl;
@@ -344,7 +351,7 @@ case 9:
             var19 = var20.bind(var23)(var19);
             var11['label'] = var19;
             var20 = _closure1_slot1;
-            var19 = 22;
+            var19 = 23;
             var19 = var22[var19];
             var19 = var20.bind(var4)(var19);
             var11['icon'] = var19;
@@ -352,13 +359,13 @@ case 9:
             var19 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var1 = 19;
+                var1 = 20;
                 var2 = var4[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
                 var2 = var5.hideActionSheet;
                 var2 = var2.bind(var5)();
-                var2 = 23;
+                var2 = 24;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.open;
@@ -399,22 +406,14 @@ case 14:
             var15 = var17.bind(var4)(var15);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var18 = _closure1_slot13;
-            var17 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var16 = 24;
-            var16 = var19[var16];
-            var16 = var17.bind(var4)(var16);
-            var17 = var16.SettingsCircleIcon;
-            var16 = {};
-            var15 = var18.bind(var4)(var17, var16);
+            var15 = _closure1_slot15;
 case 15:
             var10['icon'] = var15;
             var10['grow'] = var14;
             var13 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var1 = 19;
+                var1 = 20;
                 var2 = var4[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);

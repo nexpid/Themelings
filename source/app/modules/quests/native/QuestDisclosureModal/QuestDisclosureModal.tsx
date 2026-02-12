@@ -75,17 +75,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestDisclosureModal(arg1) {
         var1 = arg1;
-        var2 = var1.isTargetedDisclosure;
-        var _closure2_slot0 = var2;
-        var2 = var1.gamePublisher;
-        var _closure2_slot1 = var2;
-        var2 = var1.gameTitle;
-        var _closure2_slot2 = var2;
-        var2 = var1.cosponsorName;
-        var _closure2_slot3 = var2;
-        var1 = var1.isVideoQuest;
-        var _closure2_slot4 = var1;
-        var1 = function onClose() {
+        var12 = var1.isTargetedDisclosure;
+        var11 = var1.gamePublisher;
+        var10 = var1.gameTitle;
+        var8 = var1.cosponsorName;
+        var6 = var1.isVideoQuest;
+        var5 = _closure1_slot3;
+        var3 = _closure1_slot1;
+        var9 = _closure1_slot2;
+        var2 = 5;
+        var2 = var9[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = {};
+        var2['isTargetedDisclosure'] = var12;
+        var2['gamePublisher'] = var11;
+        var2['gameTitle'] = var10;
+        var10 = function onClose() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -96,23 +102,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)();
             return var1;
         };
-        var _closure2_slot5 = var1;
+        var2['onClose'] = var10;
+        var2['cosponsorName'] = var8;
+        var2['isVideoQuest'] = var6;
+        var2 = var5.bind(var4)(var3, var2);
+        var _closure2_slot0 = var2;
         var6 = {};
         var5 = _closure1_slot4;
         var3 = var5.DISCLOSURE;
         var2 = {};
-        var7 = _closure1_slot5;
-        var2['headerLeft'] = var7;
-        var7 = function headerRight() {
+        var8 = _closure1_slot5;
+        var2['headerLeft'] = var8;
+        var8 = function headerRight() {
             var1 = null;
             return var1;
         };
-        var2['headerRight'] = var7;
-        var7 = function headerTitle() {
+        var2['headerRight'] = var8;
+        var8 = function headerTitle() {
             var4 = _closure1_slot3;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var1 = var9[var1];
             var3 = undefined;
             var1 = var8.bind(var3)(var1);
@@ -132,40 +142,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var2['headerTitle'] = var7;
-        var4 = function render() {
-            var4 = _closure1_slot3;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var6 = _closure2_slot0;
-            var1['isTargetedDisclosure'] = var6;
-            var6 = _closure2_slot1;
-            var1['gamePublisher'] = var6;
-            var6 = _closure2_slot2;
-            var1['gameTitle'] = var6;
-            var6 = _closure2_slot5;
-            var1['onClose'] = var6;
-            var6 = _closure2_slot3;
-            var1['cosponsorName'] = var6;
-            var5 = _closure2_slot4;
-            var1['isVideoQuest'] = var5;
-            var1 = var4.bind(var3)(var2, var1);
+        var2['headerTitle'] = var8;
+        var7 = function render() {
+            var1 = _closure2_slot0;
             return var1;
         };
-        var2['render'] = var4;
+        var2['render'] = var7;
         var6[var3] = var2;
-        var4 = _closure1_slot3;
+        var3 = _closure1_slot3;
         var8 = _closure1_slot0;
-        var9 = _closure1_slot2;
         var1 = 7;
         var1 = var9[var1];
-        var3 = undefined;
-        var1 = var8.bind(var3)(var1);
+        var1 = var8.bind(var4)(var1);
         var2 = var1.Navigator;
         var1 = {};
         var1['screens'] = var6;
@@ -173,16 +161,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['initialRouteName'] = var5;
         var5 = 4;
         var6 = var9[var5];
-        var6 = var8.bind(var3)(var6);
+        var6 = var8.bind(var4)(var6);
         var7 = var6.intl;
         var6 = var7.string;
         var5 = var9[var5];
-        var5 = var8.bind(var3)(var5);
+        var5 = var8.bind(var4)(var5);
         var5 = var5.t;
         var5 = var5.13/7kX;
         var5 = var6.bind(var7)(var5);
         var1['headerBackTitle'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var3['default'] = var2;

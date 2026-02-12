@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var8 = var4.View;
     var _closure1_slot3 = var8;
-    var8 = var4.StyleSheet;
+    var10 = var4.StyleSheet;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -33,14 +33,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot5 = var4;
-    var7 = var8.create;
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
+    var9 = var10.create;
     var4 = {};
-    var9 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'center'};
-    var4['wrapper'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'center'};
+    var4['wrapper'] = var11;
+    var4 = var9.bind(var10)(var4);
     var _closure1_slot6 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
+    var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -75,10 +78,7 @@ case 0:
                 return var1;
             };
             var6 = var6.bind(var9)(var4, var1);
-            var9 = _closure1_slot5;
-            var4 = _closure1_slot3;
-            var1 = {};
-            var9 = var9.bind(var5)(var4, var1);
+            var9 = _closure1_slot7;
             var4 = null;
             var1 = var9;
             if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }

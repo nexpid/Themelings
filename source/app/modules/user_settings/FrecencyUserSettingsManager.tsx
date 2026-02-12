@@ -39,27 +39,27 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot23 = var2;
+            _closure1_slot22 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function handleConnectionOpen() {
         var4 = true;
-        _closure1_slot22 = var4;
-        var3 = _closure1_slot29;
-        var2 = _closure1_slot19;
+        _closure1_slot21 = var4;
+        var3 = _closure1_slot28;
+        var2 = _closure1_slot18;
         var1 = undefined;
         var2 = var3.bind(var1)(var2, var4);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var1 = function handleAppStateUpdate(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot21;
             if(!var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var3 = arg1;
@@ -71,12 +71,12 @@ case 6:
 case 9:
             var2 = global;
             var4 = var2.clearTimeout;
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot20;
             var3 = undefined;
             var2 = var4.bind(var3)(var2);
             var2 = null;
-            _closure1_slot21 = var2;
-            var2 = _closure1_slot27;
+            _closure1_slot20 = var2;
+            var2 = _closure1_slot26;
             var1 = false;
             var1 = var2.bind(var3)(var1);
 case 8:
@@ -84,21 +84,21 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var1 = function handleConnectionClosed() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var2 = _closure1_slot22;
+            var2 = _closure1_slot21;
             if(!var2) { _fun0003_ip = 10; continue _fun0003 }
 case 7:
             var2 = global;
             var4 = var2.clearTimeout;
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot20;
             var3 = undefined;
             var2 = var4.bind(var3)(var2);
             var2 = null;
-            _closure1_slot21 = var2;
-            var2 = _closure1_slot27;
+            _closure1_slot20 = var2;
+            var2 = _closure1_slot26;
             var1 = false;
             var1 = var2.bind(var3)(var1);
 case 10:
@@ -106,10 +106,10 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot25 = var1;
     var1 = function saveProtos() {
         var1 = undefined;
-        var4 = _closure1_slot28;
+        var4 = _closure1_slot27;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -117,7 +117,7 @@ case 10:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot26 = var1;
     var1 = function _saveProtos() {
         var5 = undefined;
         var1 = undefined;
@@ -130,19 +130,19 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 11; continue _fun0004 }
 case 7:
-                    var6 = _closure1_slot29;
-                    var5 = _closure1_slot20;
+                    var6 = _closure1_slot28;
+                    var5 = _closure1_slot19;
                     var2 = undefined;
                     var4 = false;
                     var4 = var6.bind(var2)(var5, var4);
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var4 = var5.bind(var6)(var4);
                     if(var4) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot12;
                     var4 = var5.hasPendingUsage;
                     var4 = var4.bind(var5)();
                     if(var4) { _fun0004_ip = 14; continue _fun0004 }
@@ -165,7 +165,7 @@ case 19:
 case 18:
                     if(var4) { _fun0004_ip = 20; continue _fun0004 }
 case 21:
-                    var6 = _closure1_slot14;
+                    var6 = _closure1_slot13;
                     var5 = var6.hasPendingUsage;
                     var5 = var5.bind(var6)();
                     if(!var5) { _fun0004_ip = 22; continue _fun0004 }
@@ -179,7 +179,7 @@ case 20:
 case 24:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 16;
+                    var4 = 15;
                     var7 = var6[var4];
                     var8 = var5.bind(var2)(var7);
                     var7 = var8.markUserSettingsLoadOkayForDevelopment;
@@ -205,7 +205,7 @@ case 12:
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.forEach;
                     var4 = _closure1_slot0;
-                    var3 = 16;
+                    var3 = 15;
                     var3 = var7[var3];
                     var3 = var4.bind(var2)(var3);
                     var4 = var3.UserSettingsActionCreatorsByType;
@@ -225,7 +225,7 @@ case 11:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot28 = var4;
+        _closure1_slot27 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -233,19 +233,19 @@ case 11:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot27 = var1;
     var1 = function resetTimer(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg2;
             var _closure2_slot0 = var1;
-            var4 = _closure1_slot21;
+            var4 = _closure1_slot20;
             var1 = null;
             if(!(var1 != var4)) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
             var1 = global;
             var5 = var1.clearTimeout;
-            var4 = _closure1_slot21;
+            var4 = _closure1_slot20;
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
 case 28:
@@ -253,7 +253,7 @@ case 28:
             var5 = var1.setTimeout;
             var1 = undefined;
             var4 = function() {
-                var3 = _closure1_slot27;
+                var3 = _closure1_slot26;
                 var2 = _closure2_slot0;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -261,11 +261,11 @@ case 28:
             };
             var2 = arg1;
             var2 = var5.bind(var1)(var4, var2);
-            _closure1_slot21 = var2;
+            _closure1_slot20 = var2;
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot28 = var1;
     var11 = global;
     var9 = var11.Object;
     var8 = var9.defineProperty;
@@ -319,32 +319,28 @@ case 28:
     var4 = var6[var12];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot13 = var4;
-    var4 = 11;
-    var8 = var6[var4];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot14 = var8;
-    var4 = var6[var4];
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MAX_NUM_SELECTED_ITEMS;
+    var _closure1_slot14 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot15 = var4;
     var4 = 12;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsTypes;
     var _closure1_slot16 = var4;
     var4 = 13;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.UserSettingsTypes;
-    var _closure1_slot17 = var4;
-    var4 = 14;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.FREQUENCY_ITEM_LIMIT;
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var8 = var11.Math;
     var4 = var8.random;
     var10 = var4.bind(var8)();
-    var4 = 15;
+    var4 = 14;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
@@ -352,7 +348,7 @@ case 28:
     var8 = var12 * var8;
     var8 = var10 * var8;
     var8 = var12 + var8;
-    var _closure1_slot19 = var8;
+    var _closure1_slot18 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
@@ -371,12 +367,12 @@ case 28:
     var4 = var11 * var4;
     var4 = var9.bind(var10)(var4);
     var4 = var8 + var4;
-    var _closure1_slot20 = var4;
+    var _closure1_slot19 = var4;
     var4 = null;
-    var _closure1_slot21 = var4;
+    var _closure1_slot20 = var4;
     var4 = false;
-    var _closure1_slot22 = var4;
-    var4 = 20;
+    var _closure1_slot21 = var4;
+    var4 = 18;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -398,7 +394,7 @@ case 0:
                 var1 = _closure1_slot7;
                 var9 = var1.bind(var4)(var2);
                 var2 = _closure1_slot6;
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot22;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
@@ -416,12 +412,12 @@ case 30:
 case 32:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
-                var4 = _closure1_slot24;
+                var4 = _closure1_slot23;
                 var2['POST_CONNECTION_OPEN'] = var4;
                 var2['CONNECTION_RESUMED'] = var4;
-                var4 = _closure1_slot26;
+                var4 = _closure1_slot25;
                 var2['CONNECTION_CLOSED'] = var4;
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot24;
                 var2['APP_STATE_UPDATE'] = var3;
                 var1['actions'] = var2;
                 return var1;
@@ -439,7 +435,7 @@ case 32:
         var1 = function value() {
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 16;
+            var2 = 15;
             var6 = var4[var2];
             var1 = undefined;
             var6 = var3.bind(var1)(var6);
@@ -453,8 +449,8 @@ case 32:
             };
             var6['hasChanges'] = var9;
             var9 = function processProto() {
-                var4 = _closure1_slot29;
-                var3 = _closure1_slot20;
+                var4 = _closure1_slot28;
+                var3 = _closure1_slot19;
                 var1 = undefined;
                 var2 = false;
                 var2 = var4.bind(var1)(var3, var2);
@@ -471,14 +467,14 @@ case 32:
             var9 = function hasChanges() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var3 = _closure1_slot13;
+                    var3 = _closure1_slot12;
                     var1 = var3.hasPendingUsage;
                     var1 = var1.bind(var3)();
                     if(!var1) { _fun0007_ip = 33; continue _fun0007 }
 case 34:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot16;
                     var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
                     var1 = var3.bind(var4)(var2);
 case 33:
@@ -490,14 +486,14 @@ case 33:
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = _closure1_slot13;
+                    var4 = _closure1_slot12;
                     var3 = var4.hasPendingUsage;
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0008_ip = 35; continue _fun0008 }
 case 36:
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var3 = var5.bind(var6)(var4);
 case 35:
@@ -505,7 +501,7 @@ case 35:
 case 38:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
                     var4 = undefined;
                     var3 = var5.bind(var4)(var3);
@@ -514,11 +510,11 @@ case 38:
                     var3 = var3.bind(var7)();
                     var2['stickerFrecency'] = var3;
                     var2 = var2.stickerFrecency;
-                    var3 = 18;
+                    var3 = 17;
                     var3 = var6[var3];
                     var5 = var5.bind(var4)(var3);
                     var4 = var5.serializeUsageHistory;
-                    var1 = _closure1_slot13;
+                    var1 = _closure1_slot12;
                     var1 = var1.stickerFrecencyWithoutFetchingLatest;
                     var3 = var1.usageHistory;
                     var1 = 100;
@@ -545,9 +541,9 @@ case 0:
                     var1 = var1.bind(var3)();
                     if(!var1) { _fun0009_ip = 33; continue _fun0009 }
 case 34:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot16;
                     var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
                     var1 = var3.bind(var4)(var2);
 case 33:
@@ -564,9 +560,9 @@ case 0:
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0010_ip = 35; continue _fun0010 }
 case 36:
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var3 = var5.bind(var6)(var4);
 case 35:
@@ -574,7 +570,7 @@ case 35:
 case 40:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var5 = var7[var3];
                     var4 = undefined;
                     var5 = var6.bind(var4)(var5);
@@ -589,7 +585,7 @@ case 40:
                     var3 = var3.bind(var5)();
                     var2['emojiReactionFrecency'] = var3;
                     var9 = var2.emojiFrecency;
-                    var3 = 18;
+                    var3 = 17;
                     var5 = var7[var3];
                     var11 = var6.bind(var4)(var5);
                     var10 = var11.serializeUsageHistory;
@@ -624,14 +620,14 @@ case 39:
             var9 = function hasChanges() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                    var3 = _closure1_slot12;
+                    var3 = _closure1_slot9;
                     var1 = var3.hasPendingUsage;
                     var1 = var1.bind(var3)();
                     if(!var1) { _fun0011_ip = 33; continue _fun0011 }
 case 34:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot16;
                     var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
                     var1 = var3.bind(var4)(var2);
 case 33:
@@ -643,50 +639,41 @@ case 33:
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = _closure1_slot12;
+                    var4 = _closure1_slot9;
                     var3 = var4.hasPendingUsage;
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0012_ip = 35; continue _fun0012 }
 case 36:
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var3 = var5.bind(var6)(var4);
 case 35:
                     if(!var3) { _fun0012_ip = 41; continue _fun0012 }
-case 40:
-                    var4 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var3 = 19;
-                    var3 = var5[var3];
-                    var5 = undefined;
-                    var6 = var4.bind(var5)(var3);
-                    var4 = var6.isEmpty;
-                    var3 = _closure1_slot12;
-                    var3 = var3.playedSoundHistory;
-                    var3 = var4.bind(var6)(var3);
-                    if(var3) { _fun0012_ip = 41; continue _fun0012 }
-case 42:
-                    var4 = _closure1_slot0;
+case 38:
+                    var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
-                    var3 = var4.bind(var5)(var3);
-                    var7 = var3.PlayedSoundFrecency;
+                    var4 = undefined;
+                    var3 = var5.bind(var4)(var3);
+                    var7 = var3.ApplicationCommandFrecency;
                     var3 = var7.create;
                     var3 = var3.bind(var7)();
-                    var2['playedSoundFrecency'] = var3;
-                    var2 = var2.playedSoundFrecency;
-                    var3 = 18;
+                    var2['applicationCommandFrecency'] = var3;
+                    var2 = var2.applicationCommandFrecency;
+                    var3 = 17;
                     var3 = var6[var3];
-                    var5 = var4.bind(var5)(var3);
+                    var5 = var5.bind(var4)(var3);
                     var4 = var5.serializeUsageHistory;
-                    var1 = _closure1_slot12;
-                    var3 = var1.playedSoundHistory;
-                    var1 = 100;
+                    var3 = _closure1_slot9;
+                    var1 = var3.getCommandFrecencyWithoutLoadingLatest;
+                    var1 = var1.bind(var3)();
+                    var3 = var1.usageHistory;
+                    var1 = 500;
                     var1 = var4.bind(var5)(var3, var1);
-                    var2['playedSounds'] = var1;
+                    var2['applicationCommands'] = var1;
 case 41:
                     var1 = undefined;
                     return var1;
@@ -703,14 +690,14 @@ case 41:
             var9 = function hasChanges() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                    var3 = _closure1_slot9;
+                    var3 = _closure1_slot10;
                     var1 = var3.hasPendingUsage;
                     var1 = var1.bind(var3)();
                     if(!var1) { _fun0013_ip = 33; continue _fun0013 }
 case 34:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot16;
                     var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
                     var1 = var3.bind(var4)(var2);
 case 33:
@@ -722,92 +709,22 @@ case 33:
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = _closure1_slot9;
+                    var4 = _closure1_slot10;
                     var3 = var4.hasPendingUsage;
                     var3 = var3.bind(var4)();
                     if(!var3) { _fun0014_ip = 35; continue _fun0014 }
 case 36:
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
-                    var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
-                    var3 = var5.bind(var6)(var4);
-case 35:
-                    if(!var3) { _fun0014_ip = 43; continue _fun0014 }
-case 38:
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 17;
-                    var3 = var6[var3];
-                    var4 = undefined;
-                    var3 = var5.bind(var4)(var3);
-                    var7 = var3.ApplicationCommandFrecency;
-                    var3 = var7.create;
-                    var3 = var3.bind(var7)();
-                    var2['applicationCommandFrecency'] = var3;
-                    var2 = var2.applicationCommandFrecency;
-                    var3 = 18;
-                    var3 = var6[var3];
-                    var5 = var5.bind(var4)(var3);
-                    var4 = var5.serializeUsageHistory;
-                    var3 = _closure1_slot9;
-                    var1 = var3.getCommandFrecencyWithoutLoadingLatest;
-                    var1 = var1.bind(var3)();
-                    var3 = var1.usageHistory;
-                    var1 = 500;
-                    var1 = var4.bind(var5)(var3, var1);
-                    var2['applicationCommands'] = var1;
-case 43:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var6['processProto'] = var9;
-            var6 = var7.bind(var8)(var6);
-            var6 = var4[var2];
-            var6 = var3.bind(var1)(var6);
-            var6 = var6.FrecencyUserSettingsActionCreators;
-            var8 = var6.beforeSendCallbacks;
-            var7 = var8.push;
-            var6 = {};
-            var9 = function hasChanges() {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
-case 0:
-                    var3 = _closure1_slot10;
-                    var1 = var3.hasPendingUsage;
-                    var1 = var1.bind(var3)();
-                    if(!var1) { _fun0015_ip = 33; continue _fun0015 }
-case 34:
                     var4 = _closure1_slot16;
-                    var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
-                    var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
-                    var1 = var3.bind(var4)(var2);
-case 33:
-                    return var1;
-                }
-            };
-            var6['hasChanges'] = var9;
-            var9 = function processProto(arg1) {
-                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
-case 0:
-                    var2 = arg1;
-                    var4 = _closure1_slot10;
-                    var3 = var4.hasPendingUsage;
-                    var3 = var3.bind(var4)();
-                    if(!var3) { _fun0016_ip = 35; continue _fun0016 }
-case 36:
-                    var6 = _closure1_slot16;
-                    var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var3 = var5.bind(var6)(var4);
 case 35:
-                    if(!var3) { _fun0016_ip = 44; continue _fun0016 }
+                    if(!var3) { _fun0014_ip = 42; continue _fun0014 }
 case 38:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
                     var4 = undefined;
                     var3 = var5.bind(var4)(var3);
@@ -816,7 +733,7 @@ case 38:
                     var3 = var3.bind(var7)();
                     var2['applicationFrecency'] = var3;
                     var2 = var2.applicationFrecency;
-                    var3 = 18;
+                    var3 = 17;
                     var3 = var6[var3];
                     var5 = var5.bind(var4)(var3);
                     var4 = var5.serializeUsageHistory;
@@ -824,10 +741,10 @@ case 38:
                     var3 = var6.getApplicationFrecencyWithoutLoadingLatest;
                     var3 = var3.bind(var6)();
                     var3 = var3.usageHistory;
-                    var1 = _closure1_slot18;
+                    var1 = _closure1_slot17;
                     var1 = var4.bind(var5)(var3, var1);
                     var2['applications'] = var1;
-case 44:
+case 42:
                     var1 = undefined;
                     return var1;
                 }
@@ -841,16 +758,16 @@ case 44:
             var3 = var4.push;
             var2 = {};
             var6 = function hasChanges() {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot13;
                     var1 = var3.hasPendingUsage;
                     var1 = var1.bind(var3)();
-                    if(!var1) { _fun0017_ip = 33; continue _fun0017 }
+                    if(!var1) { _fun0015_ip = 33; continue _fun0015 }
 case 34:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot15;
                     var3 = var4.hasLoaded;
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot16;
                     var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
                     var1 = var3.bind(var4)(var2);
 case 33:
@@ -859,25 +776,25 @@ case 33:
             };
             var2['hasChanges'] = var6;
             var5 = function processProto(arg1) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                     var2 = arg1;
-                    var4 = _closure1_slot14;
+                    var4 = _closure1_slot13;
                     var3 = var4.hasPendingUsage;
                     var3 = var3.bind(var4)();
-                    if(!var3) { _fun0018_ip = 35; continue _fun0018 }
+                    if(!var3) { _fun0016_ip = 35; continue _fun0016 }
 case 36:
-                    var6 = _closure1_slot16;
+                    var6 = _closure1_slot15;
                     var5 = var6.hasLoaded;
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot16;
                     var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
                     var3 = var5.bind(var6)(var4);
 case 35:
-                    if(!var3) { _fun0018_ip = 45; continue _fun0018 }
+                    if(!var3) { _fun0016_ip = 43; continue _fun0016 }
 case 38:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var6[var3];
                     var4 = undefined;
                     var3 = var5.bind(var4)(var3);
@@ -886,17 +803,17 @@ case 38:
                     var3 = var3.bind(var7)();
                     var2['guildAndChannelFrecency'] = var3;
                     var2 = var2.guildAndChannelFrecency;
-                    var3 = 18;
+                    var3 = 17;
                     var3 = var6[var3];
                     var5 = var5.bind(var4)(var3);
                     var4 = var5.serializeUsageHistory;
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot13;
                     var3 = var3.frecencyWithoutFetchingLatest;
                     var3 = var3.usageHistory;
-                    var1 = _closure1_slot15;
+                    var1 = _closure1_slot14;
                     var1 = var4.bind(var5)(var3, var1);
                     var2['guildAndChannels'] = var1;
-case 45:
+case 43:
                     var1 = undefined;
                     return var1;
                 }
@@ -917,7 +834,7 @@ case 45:
     var17 = var4;
     var2 = new var17[var2](var16);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1,11 +1,11 @@
 // app/components_native/ChangeLogModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var13 = metroImportDefault;
+    var15 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var8;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -17,7 +17,7 @@ case 0:
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot5;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot19;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -41,7 +41,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -74,13 +74,13 @@ case 9:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var2 = function ChangeLogScreen(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -347,8 +347,7 @@ case 29:
             return var1;
         }
     };
-    var _closure1_slot19 = var2;
-    var1 = function hideChangeLog() {
+    var10 = function hideChangeLog() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 31;
@@ -360,7 +359,7 @@ case 29:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot20 = var10;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -372,29 +371,29 @@ case 29:
     var1 = 0;
     var4 = var8[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var8[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var8[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var8[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var8[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var6 = var8[var4];
     var4 = metroImportAll;
-    var9 = var4.bind(var1)(var6);
-    var _closure1_slot8 = var9;
+    var11 = var4.bind(var1)(var6);
+    var _closure1_slot8 = var11;
     var4 = 6;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
@@ -405,85 +404,85 @@ case 29:
     var4 = var7.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot10 = var4;
-    var14 = 8;
-    var4 = var8[var14];
+    var16 = 8;
+    var4 = var8[var16];
     var4 = var7.bind(var1)(var4);
     var4 = var4.CHANGELOG_MODAL_KEY;
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var6 = var4.jsx;
-    var _closure1_slot12 = var6;
+    var9 = var4.jsx;
+    var _closure1_slot12 = var9;
     var4 = var4.jsxs;
     var _closure1_slot13 = var4;
     var4 = 10;
     var6 = var8[var4];
-    var11 = var7.bind(var1)(var6);
-    var10 = var11.createLegacyClassComponentStyles;
+    var13 = var7.bind(var1)(var6);
+    var12 = var13.createLegacyClassComponentStyles;
     var6 = {};
-    var12 = {};
-    var15 = 'stretch';
-    var12['alignSelf'] = var15;
-    var6['video'] = var12;
-    var12 = {};
-    var12['marginBottom'] = var14;
-    var6['videoWrapper'] = var12;
     var14 = {};
-    var12 = 11;
-    var15 = var8[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.xs;
-    var14['borderRadius'] = var15;
-    var15 = 'hidden';
-    var14['overflow'] = var15;
-    var6['videoSpecial'] = var14;
-    var14 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
-    var6['videoOverlay'] = var14;
-    var14 = {'position': 'absolute', 'top': '50%', 'left': '50%', 'marginLeft': 4294967268, 'marginTop': 4294967268, 'borderRadius': null, 'backgroundColor': null, 'width': 56, 'height': 56};
-    var15 = var8[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.round;
-    var14['borderRadius'] = var15;
-    var15 = var8[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_SURFACE_HIGH;
-    var14['backgroundColor'] = var15;
-    var6['playButton'] = var14;
-    var14 = {'width': 21, 'height': 21};
-    var6['playIcon'] = var14;
-    var14 = {'width': '100%', 'height': 240, 'alignItems': 'center', 'paddingTop': 48};
-    var6['empty'] = var14;
-    var6 = var10.bind(var11)(var6);
+    var17 = 'stretch';
+    var14['alignSelf'] = var17;
+    var6['video'] = var14;
+    var14 = {};
+    var14['marginBottom'] = var16;
+    var6['videoWrapper'] = var14;
+    var16 = {};
+    var14 = 11;
+    var17 = var8[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.xs;
+    var16['borderRadius'] = var17;
+    var17 = 'hidden';
+    var16['overflow'] = var17;
+    var6['videoSpecial'] = var16;
+    var16 = {'position': 'absolute', 'width': '100%', 'height': '100%'};
+    var6['videoOverlay'] = var16;
+    var16 = {'position': 'absolute', 'top': '50%', 'left': '50%', 'marginLeft': 4294967268, 'marginTop': 4294967268, 'borderRadius': null, 'backgroundColor': null, 'width': 56, 'height': 56};
+    var17 = var8[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.round;
+    var16['borderRadius'] = var17;
+    var17 = var8[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.BACKGROUND_SURFACE_HIGH;
+    var16['backgroundColor'] = var17;
+    var6['playButton'] = var16;
+    var16 = {'width': 21, 'height': 21};
+    var6['playIcon'] = var16;
+    var16 = {'width': '100%', 'height': 240, 'alignItems': 'center', 'paddingTop': 48};
+    var6['empty'] = var16;
+    var6 = var12.bind(var13)(var6);
     var _closure1_slot14 = var6;
     var4 = var8[var4];
-    var10 = var7.bind(var1)(var4);
-    var6 = var10.createLegacyClassComponentStyles;
+    var12 = var7.bind(var1)(var4);
+    var6 = var12.createLegacyClassComponentStyles;
     var4 = {};
-    var11 = {'width': 7, 'height': 7, 'borderRadius': 3.5, 'marginRight': 13, 'marginTop': 7};
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
+    var13 = {'width': 7, 'height': 7, 'borderRadius': 3.5, 'marginRight': 13, 'marginTop': 7};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BACKGROUND_MOD_STRONG;
+    var13['backgroundColor'] = var16;
+    var4['bulletPoint'] = var13;
+    var13 = {'flexDirection': 'row', 'marginLeft': 4, 'marginBottom': 8};
+    var4['listItem'] = var13;
+    var13 = {'color': null, 'fontSize': 14, 'lineHeight': 18, 'flex': 1};
+    var14 = var8[var14];
+    var14 = var15.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_STRONG;
-    var11['backgroundColor'] = var14;
-    var4['bulletPoint'] = var11;
-    var11 = {'flexDirection': 'row', 'marginLeft': 4, 'marginBottom': 8};
-    var4['listItem'] = var11;
-    var11 = {'color': null, 'fontSize': 14, 'lineHeight': 18, 'flex': 1};
-    var12 = var8[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.TEXT_DEFAULT;
-    var11['color'] = var12;
-    var4['listText'] = var11;
-    var11 = {'flexDirection': 'column', 'flex': 1};
-    var4['listItemContent'] = var11;
-    var4 = var6.bind(var10)(var4);
+    var14 = var14.TEXT_DEFAULT;
+    var13['color'] = var14;
+    var4['listText'] = var13;
+    var13 = {'flexDirection': 'column', 'flex': 1};
+    var4['listItemContent'] = var13;
+    var4 = var6.bind(var12)(var4);
     var _closure1_slot15 = var4;
-    var6 = var9.PureComponent;
+    var6 = var11.PureComponent;
     var4 = function(arg1) {
         var4 = function ListItem() {
             var5 = this;
@@ -492,7 +491,7 @@ case 29:
             var6 = _closure1_slot3;
             var3 = _closure2_slot0;
             var6 = var6.bind(var4)(var5, var3);
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot18;
             var1 = arguments;
             var1 = var2.bind(var4)(var5, var3, var1);
             return var1;
@@ -560,12 +559,12 @@ case 30:
     };
     var4 = var4.bind(var1)(var6);
     var6 = 12;
-    var10 = var8[var6];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.ThemeContext;
-    var4['contextType'] = var10;
-    var10 = var9.PureComponent;
-    var9 = function(arg1) {
+    var12 = var8[var6];
+    var12 = var7.bind(var1)(var12);
+    var12 = var12.ThemeContext;
+    var4['contextType'] = var12;
+    var12 = var11.PureComponent;
+    var11 = function(arg1) {
         var4 = function ChangeLog(arg1) {
             var8 = this;
             var3 = 0;
@@ -575,7 +574,7 @@ case 30:
             var7 = _closure2_slot0;
             var6 = undefined;
             var1 = var1.bind(var6)(var8, var7);
-            var5 = _closure1_slot17;
+            var5 = _closure1_slot18;
             var1 = new Array(0);
             var12 = var1;
             var11 = var9;
@@ -1034,12 +1033,16 @@ case 53:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var9 = var9.bind(var1)(var10);
-    var _closure1_slot16 = var9;
+    var11 = var11.bind(var1)(var12);
+    var _closure1_slot16 = var11;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.ThemeContext;
-    var9['contextType'] = var6;
+    var11['contextType'] = var6;
+    var6 = {};
+    var6['onClose'] = var10;
+    var6 = var9.bind(var1)(var2, var6);
+    var _closure1_slot17 = var6;
     var6 = 33;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -1065,13 +1068,7 @@ case 53:
             var3 = var4.bind(var5)(var3);
             var2['headerLeft'] = var3;
             var3 = function render() {
-                var4 = _closure1_slot12;
-                var3 = _closure1_slot19;
-                var2 = {};
-                var1 = _closure1_slot20;
-                var2['onClose'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
+                var1 = _closure1_slot17;
                 return var1;
             };
             var2['render'] = var3;

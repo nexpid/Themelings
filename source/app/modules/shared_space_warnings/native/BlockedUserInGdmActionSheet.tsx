@@ -1,11 +1,11 @@
 // app/modules/shared_space_warnings/native/BlockedUserInGdmActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var1 = global;
     var8 = var1.Object;
@@ -30,11 +30,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var2;
     var2 = 2;
     var2 = var7[var2];
-    var2 = var12.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 3;
     var2 = var7[var2];
-    var2 = var12.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 4;
     var2 = var7[var2];
@@ -51,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 6;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var5 = var2.jsx;
-    var _closure1_slot11 = var5;
+    var9 = var2.jsx;
+    var _closure1_slot11 = var9;
     var5 = var2.Fragment;
     var _closure1_slot12 = var5;
     var2 = var2.jsxs;
@@ -62,39 +62,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var2);
     var5 = var8.createStyles;
     var2 = {};
-    var9 = {};
-    var10 = 8;
-    var11 = var7[var10];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_12;
-    var9['paddingTop'] = var11;
-    var11 = var7[var10];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_8;
-    var9['gap'] = var11;
-    var11 = 'center';
-    var9['textAlign'] = var11;
-    var2['container'] = var9;
-    var9 = {'alignSelf': 'center', 'width': 73, 'height': 86};
-    var2['headerImage'] = var9;
-    var9 = {'textAlign': 'center', 'alignSelf': 'center'};
-    var2['title'] = var9;
-    var9 = {'textAlign': 'center', 'alignSelf': 'center'};
-    var2['description'] = var9;
-    var9 = {};
-    var11 = var7[var10];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_24;
-    var9['paddingVertical'] = var11;
-    var2['tableGroup'] = var9;
-    var9 = {};
-    var9['gap'] = var10;
-    var2['buttons'] = var9;
-    var9 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'minWidth': 32};
-    var2['icon'] = var9;
+    var10 = {};
+    var11 = 8;
+    var12 = var7[var11];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_12;
+    var10['paddingTop'] = var12;
+    var12 = var7[var11];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var10['gap'] = var12;
+    var12 = 'center';
+    var10['textAlign'] = var12;
+    var2['container'] = var10;
+    var10 = {'alignSelf': 'center', 'width': 73, 'height': 86};
+    var2['headerImage'] = var10;
+    var10 = {'textAlign': 'center', 'alignSelf': 'center'};
+    var2['title'] = var10;
+    var10 = {'textAlign': 'center', 'alignSelf': 'center'};
+    var2['description'] = var10;
+    var10 = {};
+    var12 = var7[var11];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_24;
+    var10['paddingVertical'] = var12;
+    var2['tableGroup'] = var10;
+    var10 = {};
+    var10['gap'] = var11;
+    var2['buttons'] = var10;
+    var10 = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'minWidth': 32};
+    var2['icon'] = var10;
     var2 = var5.bind(var8)(var2);
     var _closure1_slot14 = var2;
     var2 = function getUserCalloutRowText(arg1) {
@@ -299,6 +299,13 @@ case 10:
         }
     };
     var _closure1_slot15 = var2;
+    var5 = 12;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.UserIcon;
+    var5 = {};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot16 = var5;
     var5 = function UserCalloutAvatars(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -308,7 +315,7 @@ case 0:
             var10 = var3.guildId;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var7[var3];
             var6 = undefined;
             var11 = var5.bind(var6)(var3);
@@ -333,7 +340,7 @@ case 0:
             };
             var4 = var9.bind(var11)(var4, var1, var3);
             var3 = var4.filter;
-            var1 = 13;
+            var1 = 14;
             var1 = var7[var1];
             var1 = var5.bind(var6)(var1);
             var1 = var1.isNotNullish;
@@ -351,7 +358,7 @@ case 12:
             var3 = var1.FacepileGroupDMAvatar;
             var1 = {};
             var1['users'] = var12;
-            var5 = 14;
+            var5 = 15;
             var5 = var9[var5];
             var5 = var7.bind(var6)(var5);
             var5 = var5.AvatarSizes;
@@ -368,21 +375,13 @@ case 11:
             var2 = null;
             if(!(var2 == var3)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var4 = _closure1_slot11;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 15;
-            var2 = var5[var2];
-            var2 = var3.bind(var6)(var2);
-            var3 = var2.UserIcon;
-            var2 = {};
-            var2 = var4.bind(var6)(var3, var2);
+            var2 = _closure1_slot16;
             _fun0002_ip = 16; continue _fun0002;
 case 14:
             var5 = _closure1_slot11;
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 14;
+            var7 = 15;
             var3 = var9[var7];
             var4 = var4.bind(var6)(var3);
             var3 = {};
@@ -404,7 +403,7 @@ case 13:
             return var1;
         }
     };
-    var _closure1_slot16 = var5;
+    var _closure1_slot17 = var5;
     var5 = function BlockedUserInGDMDescription(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -533,7 +532,21 @@ case 25:
             return var1;
         }
     };
-    var _closure1_slot17 = var5;
+    var _closure1_slot18 = var5;
+    var5 = 17;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.CircleCheckIcon;
+    var5 = {};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot19 = var5;
+    var5 = 18;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.CircleInformationIcon;
+    var5 = {};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot20 = var5;
     var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -600,36 +613,25 @@ case 0:
             var6 = var2.length;
             var6 = var6 > var3;
             var9 = {};
-            var16 = _closure1_slot11;
+            var11 = _closure1_slot19;
+            var9['icon'] = var11;
             var15 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var12 = 17;
-            var12 = var11[var12];
-            var12 = var15.bind(var4)(var12);
-            var13 = var12.CircleCheckIcon;
-            var12 = {};
-            var12 = var16.bind(var4)(var13, var12);
-            var9['icon'] = var12;
             var17 = 11;
             var12 = var11[var17];
             var12 = var15.bind(var4)(var12);
-            var19 = var12.intl;
-            var13 = var19.string;
+            var16 = var12.intl;
+            var13 = var16.string;
             var12 = var11[var17];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
             var12 = var12.RIMw54;
-            var12 = var13.bind(var19)(var12);
+            var12 = var13.bind(var16)(var12);
             var9['label'] = var12;
             var19 = new Array(2);
             var19[0] = var9;
             var9 = {};
-            var12 = 18;
-            var12 = var11[var12];
-            var12 = var15.bind(var4)(var12);
-            var13 = var12.CircleInformationIcon;
-            var12 = {};
-            var12 = var16.bind(var4)(var13, var12);
+            var12 = _closure1_slot20;
             var9['icon'] = var12;
             var12 = var11[var17];
             var12 = var15.bind(var4)(var12);
@@ -656,7 +658,7 @@ case 30:
             var9 = var11.slice;
             var6 = 2;
             var15 = var9.bind(var11)(var3, var6);
-            _fun0004_ip = 31; continue _fun0004;
+            _fun0004_ip = 9; continue _fun0004;
 case 29:
             var27 = var11;
             var26 = var1;
@@ -665,27 +667,27 @@ case 29:
             var9 = var11.slice;
             var6 = 2;
             var15 = var9.bind(var11)(var3, var6);
-case 31:
-            if(var5) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-            var13 = var2.length;
-            _fun0004_ip = 34; continue _fun0004;
+case 9:
+            if(var5) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
+            var13 = var2.length;
+            _fun0004_ip = 33; continue _fun0004;
+case 31:
             var13 = var1.length;
-case 34:
+case 33:
             var6 = var19.unshift;
             var5 = {};
             var16 = _closure1_slot11;
-            var11 = _closure1_slot16;
+            var11 = _closure1_slot17;
             var9 = {};
             var9['userIds'] = var15;
             var12 = null;
             var23 = var12 == var7;
             var20 = undefined;
-            if(var23) { _fun0004_ip = 35; continue _fun0004 }
-case 36:
-            var20 = var7.guild_id;
+            if(var23) { _fun0004_ip = 34; continue _fun0004 }
 case 35:
+            var20 = var7.guild_id;
+case 34:
             var9['guildId'] = var20;
             var9 = var16.bind(var4)(var11, var9);
             var5['icon'] = var9;
@@ -696,15 +698,15 @@ case 35:
             var9['channelId'] = var8;
             var13 = var12 == var7;
             var12 = undefined;
-            if(var13) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
-            var12 = var7.guild_id;
+            if(var13) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
+            var12 = var7.guild_id;
+case 36:
             var9['guildId'] = var12;
             var9 = var11.bind(var4)(var9);
             var5['label'] = var9;
             var5 = var6.bind(var19)(var5);
-            _fun0004_ip = 39; continue _fun0004;
+            _fun0004_ip = 38; continue _fun0004;
 case 28:
             var9 = new Array(0);
             var27 = var9;
@@ -720,16 +722,16 @@ case 28:
             var2 = var19.unshift;
             var1 = {};
             var12 = _closure1_slot11;
-            var5 = _closure1_slot16;
+            var5 = _closure1_slot17;
             var3 = {};
             var3['userIds'] = var11;
             var6 = null;
             var15 = var6 == var7;
             var13 = undefined;
-            if(var15) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-            var13 = var7.guild_id;
+            if(var15) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+            var13 = var7.guild_id;
+case 39:
             var3['guildId'] = var13;
             var3 = var12.bind(var4)(var5, var3);
             var1['icon'] = var3;
@@ -741,15 +743,15 @@ case 40:
             var3['channelId'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
-            var6 = var7.guild_id;
+            if(var8) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
+            var6 = var7.guild_id;
+case 41:
             var3['guildId'] = var6;
             var3 = var5.bind(var4)(var3);
             var1['label'] = var3;
             var1 = var2.bind(var19)(var1);
-case 39:
+case 38:
             var3 = _closure1_slot11;
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -804,7 +806,7 @@ case 39:
             var12 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var20 = var10.description;
             var12['style'] = var20;
-            var20 = _closure1_slot17;
+            var20 = _closure1_slot18;
             var18 = {};
             var22 = var22.length;
             var18['numOfBlockedUsers'] = var22;

@@ -59,10 +59,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot13 = var8;
+    var9 = var4.jsx;
+    var _closure1_slot13 = var9;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.NavScrim;
+    var4 = {};
+    var4 = var9.bind(var1)(var8, var4);
+    var _closure1_slot15 = var4;
     var4 = var7.memo;
     var2 = function MediaKeyboard(arg1) {
         var2 = arg1;
@@ -82,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -108,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var15;
         var13 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var2 = 9;
+        var2 = 10;
         var6 = var10[var2];
         var4 = undefined;
         var8 = var13.bind(var4)(var6);
@@ -122,18 +129,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 0;
         var16 = var6.bind(var7)(var2);
         var _closure2_slot4 = var16;
-        var2 = 10;
+        var2 = 11;
         var2 = var10[var2];
         var7 = var13.bind(var4)(var2);
         var6 = var7.useKeyboardContextForType;
-        var2 = 11;
+        var2 = 12;
         var2 = var10[var2];
         var2 = var13.bind(var4)(var2);
         var2 = var2.KeyboardTypes;
         var2 = var2.MEDIA;
         var2 = var6.bind(var7)(var2);
         var _closure2_slot5 = var2;
-        var6 = 12;
+        var6 = 13;
         var6 = var10[var6];
         var8 = var13.bind(var4)(var6);
         var7 = var8.useAppLauncherActionSheet;
@@ -143,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var8)(var6);
         var12 = var6.appLauncherActionSheet;
         var6 = _closure1_slot1;
-        var7 = 13;
+        var7 = 14;
         var7 = var10[var7];
         var8 = var6.bind(var4)(var7);
         var7 = {};
@@ -175,7 +182,7 @@ case 3:
                     var1 = {};
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var5 = 11;
+                    var5 = 12;
                     var6 = var6[var5];
                     var5 = undefined;
                     var5 = var7.bind(var5)(var6);
@@ -210,7 +217,7 @@ case 5:
 case 7:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 14;
+                    var3 = 15;
                     var6 = var6[var3];
                     var3 = undefined;
                     var10 = var7.bind(var3)(var6);
@@ -228,7 +235,7 @@ case 7:
 case 4:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var6.bind(var2)(var3);
@@ -254,7 +261,7 @@ case 6:
                 var3 = function onDismissKeyboard() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -286,7 +293,7 @@ case 0:
                     var5 = var1.isIncluded;
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 9;
                     var3 = var3[var1];
                     var1 = undefined;
                     var9 = var4.bind(var1)(var3);
@@ -312,7 +319,7 @@ case 9:
 case 11:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var4 = 14;
+                    var4 = 15;
                     var8 = var13[var4];
                     var9 = var12.bind(var1)(var8);
                     var8 = var9.mediaNodeToUploadItem;
@@ -322,7 +329,7 @@ case 11:
                     var9 = var10.addAttachmentForCommand;
                     var17 = _closure2_slot1;
                     var15 = _closure2_slot5;
-                    var3 = 16;
+                    var3 = 17;
                     var3 = var13[var3];
                     var3 = var12.bind(var1)(var3);
                     var3 = var3.UploadOrigin;
@@ -334,7 +341,7 @@ case 11:
 case 8:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 14;
+                    var2 = 15;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.handleSelectKeyboardItem;
@@ -353,14 +360,14 @@ case 10:
             var3 = function onAttachPress() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var8[var1];
                 var1 = undefined;
                 var4 = var7.bind(var1)(var2);
                 var3 = var4.handleAttachFile;
                 var2 = {};
                 var6 = _closure3_slot2;
-                var5 = 16;
+                var5 = 17;
                 var5 = var8[var5];
                 var5 = var7.bind(var1)(var5);
                 var5 = var5.UploadOrigin;
@@ -381,7 +388,7 @@ case 0:
                     var2 = {};
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 12;
                     var5 = var9[var1];
                     var1 = undefined;
                     var5 = var8.bind(var1)(var5);
@@ -392,7 +399,7 @@ case 0:
                     var7 = _closure1_slot11;
                     var7 = var7.HOME;
                     var5['initialRouteName'] = var7;
-                    var7 = 17;
+                    var7 = 18;
                     var7 = var9[var7];
                     var8 = var8.bind(var1)(var7);
                     var7 = var8.getAppDMApplication;
@@ -419,7 +426,7 @@ case 12:
                 var1 = var1.bind(var2)();
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -436,7 +443,7 @@ case 12:
                 var1 = var1.bind(var3)();
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 18;
+                var1 = 19;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -450,14 +457,14 @@ case 12:
             var3 = function onPressCamera(arg1) {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var8[var1];
                 var1 = undefined;
                 var4 = var7.bind(var1)(var2);
                 var3 = var4.handleCameraDialog;
                 var2 = {};
                 var6 = _closure3_slot2;
-                var5 = 16;
+                var5 = 17;
                 var5 = var8[var5];
                 var5 = var7.bind(var1)(var5);
                 var5 = var5.UploadOrigin;
@@ -508,14 +515,14 @@ case 16:
 case 0:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 15;
                     var2 = var5[var1];
                     var1 = undefined;
                     var7 = var4.bind(var1)(var2);
                     var6 = var7.handleViewAllDialog;
                     var3 = {};
                     var8 = _closure3_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var2 = var5[var2];
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.UploadOrigin;
@@ -528,7 +535,7 @@ case 0:
                     var8 = 'draftType';
                     var3[var8] = var9;
                     var3 = var6.bind(var7)(var3);
-                    var3 = 19;
+                    var3 = 20;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isAndroid;
@@ -576,12 +583,12 @@ case 0:
                     var _closure4_slot3 = var1;
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 14;
+                    var4 = 15;
                     var4 = var8[var4];
                     var7 = var6.bind(var1)(var4);
                     var4 = var7.mediaNodeToUploadItem;
                     var7 = var4.bind(var7)(var10);
-                    var4 = 20;
+                    var4 = 21;
                     var4 = var8[var4];
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.CloudUpload;
@@ -610,7 +617,7 @@ case 25:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 15;
                         var2 = var2[var1];
                         var1 = undefined;
                         var6 = var3.bind(var1)(var2);
@@ -627,7 +634,7 @@ case 24:
                     _closure4_slot3 = var4;
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 22;
                     var2 = var10[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = {};
@@ -677,7 +684,7 @@ case 30:
                             var3[0] = var1;
                             var5 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 16;
+                            var1 = 17;
                             var2 = var2[var1];
                             var1 = undefined;
                             var2 = var5.bind(var1)(var2);
@@ -697,7 +704,7 @@ case 30:
             var3 = function onPollsPress() {
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var3 = var4[var1];
                 var1 = undefined;
                 var9 = var5.bind(var1)(var3);
@@ -719,7 +726,7 @@ case 30:
                 var3 = var6.closeCustomKeyboard;
                 var3 = var3.bind(var6)();
                 var3 = _closure1_slot0;
-                var2 = 22;
+                var2 = 23;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.openCreatePollModal;
@@ -755,7 +762,7 @@ case 32:
         };
         var8 = var19.bind(var14)(var2, var8);
         var _closure2_slot7 = var8;
-        var2 = 23;
+        var2 = 24;
         var19 = var10[var2];
         var19 = var13.bind(var4)(var19);
         var22 = var19.ChatInputIaMobileExperiment;
@@ -783,7 +790,7 @@ case 32:
             var4 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 24;
+            var6 = 25;
             var2 = var9[var6];
             var7 = undefined;
             var2 = var8.bind(var7)(var2);
@@ -795,7 +802,7 @@ case 32:
             var2 = var2.RgIi2B;
             var2 = var5.bind(var10)(var2);
             var4['text'] = var2;
-            var2 = 25;
+            var2 = 26;
             var2 = var9[var2];
             var2 = var8.bind(var7)(var2);
             var2 = var2.PollsIcon;
@@ -819,7 +826,7 @@ case 32:
             var11 = var11.8Hvr3+;
             var11 = var12.bind(var13)(var11);
             var4['text'] = var11;
-            var11 = 26;
+            var11 = 27;
             var11 = var9[var11];
             var11 = var8.bind(var7)(var11);
             var11 = var11.AttachmentIcon;
@@ -840,7 +847,7 @@ case 32:
             var11 = var11.PHjkRE;
             var11 = var12.bind(var13)(var11);
             var4['text'] = var11;
-            var11 = 27;
+            var11 = 28;
             var11 = var9[var11];
             var11 = var8.bind(var7)(var11);
             var11 = var11.AppsIcon;
@@ -862,7 +869,7 @@ case 32:
             var11 = var11.7Xm5QI;
             var11 = var12.bind(var13)(var11);
             var4['text'] = var11;
-            var11 = 28;
+            var11 = 29;
             var11 = var9[var11];
             var11 = var8.bind(var7)(var11);
             var11 = var11.ThreadPlusIcon;
@@ -884,7 +891,7 @@ case 32:
             var11 = var11.Ve9Ge6;
             var11 = var12.bind(var13)(var11);
             var4['text'] = var11;
-            var11 = 29;
+            var11 = 30;
             var11 = var9[var11];
             var11 = var8.bind(var7)(var11);
             var11 = var11.GiftIcon;
@@ -905,7 +912,7 @@ case 32:
             var11 = var11.Zmm6dN;
             var11 = var12.bind(var13)(var11);
             var4['text'] = var11;
-            var11 = 30;
+            var11 = 31;
             var11 = var9[var11];
             var11 = var8.bind(var7)(var11);
             var11 = var11.ImageIcon;
@@ -926,7 +933,7 @@ case 32:
             var6 = var6.uje3P9;
             var6 = var10.bind(var11)(var6);
             var4['text'] = var6;
-            var6 = 31;
+            var6 = 32;
             var6 = var9[var6];
             var6 = var8.bind(var7)(var6);
             var6 = var6.CameraIcon;
@@ -987,7 +994,7 @@ case 0:
                 var4 = _closure1_slot2;
                 if(var1) { _fun0010_ip = 34; continue _fun0010 }
 case 35:
-                var1 = 33;
+                var1 = 34;
                 var1 = var4[var1];
                 var8 = undefined;
                 var2 = var3.bind(var8)(var1);
@@ -1048,7 +1055,7 @@ case 36:
                 var1 = var5.bind(var8)(var2, var1);
                 _fun0010_ip = 37; continue _fun0010;
 case 34:
-                var2 = 32;
+                var2 = 33;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -1088,7 +1095,7 @@ case 38:
                 var3 = _closure1_slot14;
                 var6 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var1 = 34;
+                var1 = 35;
                 var1 = var11[var1];
                 var2 = var6.bind(var4)(var1);
                 var1 = {};
@@ -1099,7 +1106,7 @@ case 38:
                 var1['animatedPosition'] = var9;
                 var1['initialPosition'] = var5;
                 var9 = _closure1_slot13;
-                var5 = 35;
+                var5 = 36;
                 var5 = var11[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = {};
@@ -1125,7 +1132,7 @@ case 41:
                 var12 = _closure1_slot13;
                 var11 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var10 = 36;
+                var10 = 37;
                 var10 = var13[var10];
                 var11 = var11.bind(var4)(var10);
                 var10 = {};
@@ -1161,15 +1168,7 @@ case 40:
                 var6 = null;
                 if(var8) { _fun0012_ip = 42; continue _fun0012 }
 case 43:
-                var9 = _closure1_slot13;
-                var8 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var7 = 37;
-                var7 = var10[var7];
-                var7 = var8.bind(var4)(var7);
-                var8 = var7.NavScrim;
-                var7 = {};
-                var6 = var9.bind(var4)(var8, var7);
+                var6 = _closure1_slot15;
 case 42:
                 var5[2] = var6;
                 var1['children'] = var5;

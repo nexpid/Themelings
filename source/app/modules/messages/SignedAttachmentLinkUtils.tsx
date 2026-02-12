@@ -151,11 +151,11 @@ case 15:
                 var2 = var2.bind(var5)(var4);
                 var6 = !var2;
                 var2 = !var6;
-                if(var6) { _fun0006_ip = 2; continue _fun0006 }
-case 16:
+                if(var6) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var3 = _closure1_slot12;
                 var2 = var3.bind(var5)(var4);
-case 2:
+case 16:
                 var1 = var2;
 case 14:
                 return var1;
@@ -173,26 +173,26 @@ case 0:
                 var1 = var2.image;
                 var4 = undefined;
                 var1 = var5.bind(var4)(var1);
-                if(var1) { _fun0007_ip = 17; continue _fun0007 }
+                if(var1) { _fun0007_ip = 18; continue _fun0007 }
 case 9:
                 var8 = var2.images;
                 var5 = null;
                 var6 = var5 == var8;
                 var5 = undefined;
-                if(var6) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
+                if(var6) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
                 var7 = var8.some;
                 var6 = _closure1_slot14;
                 var5 = var7.bind(var8)(var6);
-case 18:
+case 19:
                 var1 = var5;
-case 17:
-                if(var1) { _fun0007_ip = 20; continue _fun0007 }
+case 18:
+                if(var1) { _fun0007_ip = 3; continue _fun0007 }
 case 21:
                 var3 = _closure1_slot14;
                 var2 = var2.video;
                 var1 = var3.bind(var4)(var2);
-case 20:
+case 3:
                 return var1;
             }
         };
@@ -288,14 +288,14 @@ case 23:
                         var5 = var6.toURLSafe;
                         var6 = var5.bind(var6)(var2);
                         var5 = null;
-                        if(!(var5 != var6)) { _fun0009_ip = 27; continue _fun0009 }
-case 31:
+                        if(!(var5 != var6)) { _fun0009_ip = 31; continue _fun0009 }
+case 32:
                         var3 = _closure1_slot12;
                         var3 = var3.bind(var4)(var6);
-                        if(var3) { _fun0009_ip = 32; continue _fun0009 }
+                        if(var3) { _fun0009_ip = 33; continue _fun0009 }
 case 21:
                         return var2;
-case 32:
+case 33:
                         var3 = function refreshAttachmentUrl() {
                             var1 = undefined;
                             var4 = _closure1_slot16;
@@ -307,22 +307,22 @@ case 32:
                             return var1;
                         };
                         var3 = var3.bind(var4)(var2);
-                        SaveGenerator(address=85);
-case 33:
-                        return var3;
+                        SaveGenerator(address=83);
 case 34:
+                        return var3;
+case 35:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(var4) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
+                        if(var4) { _fun0009_ip = 36; continue _fun0009 }
+case 12:
                         var4 = var2;
-                        if(!(var5 != var3)) { _fun0009_ip = 25; continue _fun0009 }
+                        if(!(var5 != var3)) { _fun0009_ip = 24; continue _fun0009 }
 case 37:
                         var4 = var3;
-case 25:
+case 24:
                         return var4;
-case 35:
+case 36:
                         return var3;
-case 27:
+case 31:
                         return var2;
 case 30:
                         return var1;

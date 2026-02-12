@@ -1,12 +1,12 @@
 // app/lib/native/FastList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var9 = require;
-    var8 = metroImportDefault;
+    var10 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var10 = dependencyMap;
-    var _closure1_slot0 = var9;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var10;
+    var11 = dependencyMap;
+    var _closure1_slot0 = var10;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var11;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -253,57 +253,57 @@ case 3:
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var7)(var3, var1, var2);
-    var7 = 0;
-    var2 = var10[var7];
+    var8 = 0;
+    var2 = var11[var8];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 1;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var11[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 2;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var11[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 3;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var11[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 4;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var11[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot8 = var2;
-    var2 = 5;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var7 = 5;
+    var2 = var11[var7];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot9 = var2;
     var2 = 6;
-    var2 = var10[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var11[var2];
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot10 = var2;
     var2 = 7;
-    var5 = var10[var2];
+    var5 = var11[var2];
     var2 = metroImportAll;
     var2 = var2.bind(var1)(var5);
     var _closure1_slot11 = var2;
     var5 = 8;
-    var5 = var10[var5];
-    var5 = var9.bind(var1)(var5);
-    var11 = var5.PixelRatio;
-    var _closure1_slot12 = var11;
-    var11 = var5.ScrollView;
-    var _closure1_slot13 = var11;
-    var11 = var5.StyleSheet;
+    var5 = var11[var5];
+    var5 = var10.bind(var1)(var5);
+    var12 = var5.PixelRatio;
+    var _closure1_slot12 = var12;
+    var12 = var5.ScrollView;
+    var _closure1_slot13 = var12;
+    var12 = var5.StyleSheet;
     var5 = var5.findNodeHandle;
     var _closure1_slot14 = var5;
     var5 = 9;
-    var5 = var10[var5];
-    var5 = var9.bind(var1)(var5);
-    var11 = var5.jsxs;
-    var _closure1_slot15 = var11;
-    var11 = var5.jsx;
-    var _closure1_slot16 = var11;
+    var5 = var11[var5];
+    var5 = var10.bind(var1)(var5);
+    var12 = var5.jsxs;
+    var _closure1_slot15 = var12;
+    var12 = var5.jsx;
+    var _closure1_slot16 = var12;
     var5 = var5.Fragment;
     var _closure1_slot17 = var5;
     var5 = {'top': 0, 'right': 0, 'left': 0, 'bottom': 0};
@@ -311,8 +311,8 @@ case 3:
     var4 = var4.Map;
     var5 = var4.prototype;
     var5 = Object.create(var5, {constructor: {value: var4}});
-    var15 = var5;
-    var4 = new var15[var4](var14);
+    var16 = var5;
+    var4 = new var16[var4](var15);
     var4 = var4 instanceof Object ? var4 : var5;
     var _closure1_slot19 = var4;
     var5 = {};
@@ -623,7 +623,7 @@ case 53:
     };
     var4 = var4.bind(var1)();
     var _closure1_slot21 = var4;
-    var4['_LAST_KEY'] = var7;
+    var4['_LAST_KEY'] = var8;
     var4 = function() {
         var4 = _closure1_slot10;
         var3 = function FastListComputer(arg1) {
@@ -2806,12 +2806,12 @@ case 40:
     };
     var4 = var4.bind(var1)();
     var _closure1_slot22 = var4;
-    var7 = {};
-    var11 = 'function FastListTsx1(){const{scrollPosValue,interpolate,inputRange,outputRange,horizontal}=this.__closure;const interpolatedValue=scrollPosValue!=null?interpolate(scrollPosValue.get(),inputRange,outputRange):null;return{transform:interpolatedValue!=null?[horizontal?{translateX:interpolatedValue}:{translateY:interpolatedValue}]:undefined};}';
-    var7['code'] = var11;
-    var _closure1_slot23 = var7;
-    var11 = var2.memo;
-    var7 = function FastListStickySectionRendererComponent(arg1) {
+    var8 = {};
+    var12 = 'function FastListTsx1(){const{scrollPosValue,interpolate,inputRange,outputRange,horizontal}=this.__closure;const interpolatedValue=scrollPosValue!=null?interpolate(scrollPosValue.get(),inputRange,outputRange):null;return{transform:interpolatedValue!=null?[horizontal?{translateX:interpolatedValue}:{translateY:interpolatedValue}]:undefined};}';
+    var8['code'] = var12;
+    var _closure1_slot23 = var8;
+    var12 = var2.memo;
+    var8 = function FastListStickySectionRendererComponent(arg1) {
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var3 = arg1;
@@ -3018,10 +3018,10 @@ case 320:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot24 = var7;
-    var11 = var2.memo;
-    var7 = function _FastListSectionRenderer(arg1) {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot24 = var8;
+    var12 = var2.memo;
+    var8 = function _FastListSectionRenderer(arg1) {
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var3 = arg1;
@@ -3076,10 +3076,10 @@ case 287:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot25 = var7;
-    var11 = var2.memo;
-    var7 = function _FastListSectionFooterRenderer(arg1) {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot25 = var8;
+    var12 = var2.memo;
+    var8 = function _FastListSectionFooterRenderer(arg1) {
         _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var3 = arg1;
@@ -3135,10 +3135,10 @@ case 20:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot26 = var7;
-    var11 = var2.memo;
-    var7 = function _FastListItemRenderer(arg1) {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot26 = var8;
+    var12 = var2.memo;
+    var8 = function _FastListItemRenderer(arg1) {
         _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var3 = arg1;
@@ -3202,10 +3202,10 @@ case 306:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot27 = var7;
-    var11 = var2.memo;
-    var7 = function _FastListHeaderFooterRenderer(arg1) {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot27 = var8;
+    var12 = var2.memo;
+    var8 = function _FastListHeaderFooterRenderer(arg1) {
         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var3 = arg1;
@@ -3259,10 +3259,10 @@ case 286:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot28 = var7;
-    var11 = var2.memo;
-    var7 = function _FastListSpacer(arg1) {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot28 = var8;
+    var12 = var2.memo;
+    var8 = function _FastListSpacer(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
@@ -3293,9 +3293,9 @@ case 4:
             return var1;
         }
     };
-    var7 = var11.bind(var2)(var7);
-    var _closure1_slot29 = var7;
-    var7 = function() {
+    var8 = var12.bind(var2)(var8);
+    var _closure1_slot29 = var8;
+    var8 = function() {
         var4 = _closure1_slot10;
         var3 = function FastListScrollAnchor(arg1) {
             var3 = this;
@@ -3513,13 +3513,13 @@ case 337:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var7 = var7.bind(var1)();
-    var _closure1_slot30 = var7;
-    var7 = {};
-    var11 = 'function FastListTsx2(event){const{horizontal,workletMounted,scrollPosValue}=this.__closure;const scrollPosition=!horizontal?event.contentOffset.y:event.contentOffset.x;const contentSize=!horizontal?event.contentSize.height:event.contentSize.width;if(contentSize===0&&!workletMounted.get())return;workletMounted.set(true);scrollPosValue.set(Math.min(scrollPosition,contentSize));}';
-    var7['code'] = var11;
-    var _closure1_slot31 = var7;
-    var7 = var2.PureComponent;
+    var8 = var8.bind(var1)();
+    var _closure1_slot30 = var8;
+    var8 = {};
+    var12 = 'function FastListTsx2(event){const{horizontal,workletMounted,scrollPosValue}=this.__closure;const scrollPosition=!horizontal?event.contentOffset.y:event.contentOffset.x;const contentSize=!horizontal?event.contentSize.height:event.contentSize.width;if(contentSize===0&&!workletMounted.get())return;workletMounted.set(true);scrollPosValue.set(Math.min(scrollPosition,contentSize));}';
+    var8['code'] = var12;
+    var _closure1_slot31 = var8;
+    var8 = var2.PureComponent;
     var2 = function(arg1) {
         var5 = function FastList(arg1) {
             _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
@@ -4174,39 +4174,39 @@ case 41:
                         var4 = var3.hasReachedEndBefore;
                         var3 = var8.nativeEvent;
                         var3 = var3.layoutMeasurement;
-                        if(var9) { _fun0047_ip = 357; continue _fun0047 }
-case 70:
-                        var10 = var3.height;
-                        _fun0047_ip = 387; continue _fun0047;
-case 357:
-                        var10 = var3.width;
+                        if(var9) { _fun0047_ip = 80; continue _fun0047 }
 case 387:
-                        if(var9) { _fun0047_ip = 334; continue _fun0047 }
-case 340:
+                        var10 = var3.height;
+                        _fun0047_ip = 342; continue _fun0047;
+case 80:
+                        var10 = var3.width;
+case 342:
+                        if(var9) { _fun0047_ip = 245; continue _fun0047 }
+case 388:
                         var16 = var7.top;
-                        _fun0047_ip = 53; continue _fun0047;
-case 334:
+                        _fun0047_ip = 304; continue _fun0047;
+case 245:
                         var16 = var7.left;
-case 53:
+case 304:
                         var13 = null;
                         var17 = var13 != var16;
                         var5 = 0;
                         var3 = 0;
-                        if(!var17) { _fun0047_ip = 388; continue _fun0047 }
-case 74:
+                        if(!var17) { _fun0047_ip = 309; continue _fun0047 }
+case 84:
                         var3 = var16;
-case 388:
-                        if(var9) { _fun0047_ip = 389; continue _fun0047 }
-case 248:
+case 309:
+                        if(var9) { _fun0047_ip = 244; continue _fun0047 }
+case 75:
                         var16 = var7.bottom;
-                        _fun0047_ip = 250; continue _fun0047;
-case 389:
+                        _fun0047_ip = 389; continue _fun0047;
+case 244:
                         var16 = var7.right;
-case 250:
+case 389:
                         var17 = var13 != var16;
                         var7 = 0;
                         if(!var17) { _fun0047_ip = 390; continue _fun0047 }
-case 368:
+case 252:
                         var7 = var16;
 case 390:
                         var16 = _closure3_slot0;
@@ -4227,30 +4227,30 @@ case 390:
                         var7 = var20 - var7;
                         var7 = var18.bind(var19)(var17, var7);
                         var16['scrollPos'] = var7;
-                        if(!(var13 != var15)) { _fun0047_ip = 373; continue _fun0047 }
-case 391:
+                        if(!(var13 != var15)) { _fun0047_ip = 391; continue _fun0047 }
+case 374:
                         var15 = var15.bind(var1)(var8);
-case 373:
+case 391:
                         var15 = _closure3_slot0;
                         var16 = var15.deferNextCompute;
                         var15 = _closure3_slot0;
-                        if(var16) { _fun0047_ip = 392; continue _fun0047 }
-case 347:
+                        if(var16) { _fun0047_ip = 85; continue _fun0047 }
+case 392:
                         var16 = var15.computeBlocks;
                         var16 = var16.bind(var15)();
-                        _fun0047_ip = 226; continue _fun0047;
-case 392:
+                        _fun0047_ip = 393; continue _fun0047;
+case 85:
                         var16 = false;
                         var15['deferNextCompute'] = var16;
                         var16 = var15.deferredCompute;
                         var15 = -1;
-                        if(!(var15 !== var16)) { _fun0047_ip = 393; continue _fun0047 }
-case 394:
+                        if(!(var15 !== var16)) { _fun0047_ip = 394; continue _fun0047 }
+case 395:
                         var16 = var3.cancelAnimationFrame;
                         var15 = _closure3_slot0;
                         var15 = var15.deferredCompute;
                         var15 = var16.bind(var1)(var15);
-case 393:
+case 394:
                         var16 = _closure3_slot0;
                         var17 = var3.requestAnimationFrame;
                         var15 = function() {
@@ -4261,9 +4261,9 @@ case 393:
                         };
                         var15 = var17.bind(var1)(var15);
                         var16['deferredCompute'] = var15;
-case 226:
-                        if(var14) { _fun0047_ip = 395; continue _fun0047 }
-case 396:
+case 393:
+                        if(var14) { _fun0047_ip = 396; continue _fun0047 }
+case 397:
                         var16 = var3.clearTimeout;
                         var14 = _closure3_slot0;
                         var15 = var14.disableAnchoringTimeout;
@@ -4282,26 +4282,26 @@ case 396:
                         var11 = 100;
                         var11 = var16.bind(var1)(var15, var11);
                         var14['disableAnchoringTimeout'] = var11;
-case 395:
-                        if(!(var13 != var6)) { _fun0047_ip = 397; continue _fun0047 }
-case 283:
+case 396:
+                        if(!(var13 != var6)) { _fun0047_ip = 398; continue _fun0047 }
+case 367:
                         var8 = var8.nativeEvent;
                         var8 = var8.contentSize;
-                        if(var9) { _fun0047_ip = 281; continue _fun0047 }
-case 398:
+                        if(var9) { _fun0047_ip = 399; continue _fun0047 }
+case 400:
                         var11 = var8.height;
-                        _fun0047_ip = 399; continue _fun0047;
-case 281:
-                        var11 = var8.width;
+                        _fun0047_ip = 401; continue _fun0047;
 case 399:
+                        var11 = var8.width;
+case 401:
                         var9 = var3.Math;
                         var8 = var9.ceil;
                         var13 = var13 != var12;
                         var5 = 0;
-                        if(!var13) { _fun0047_ip = 400; continue _fun0047 }
-case 401:
+                        if(!var13) { _fun0047_ip = 313; continue _fun0047 }
+case 402:
                         var5 = var12;
-case 400:
+case 313:
                         var5 = var11 - var5;
                         var5 = var5 - var10;
                         var8 = var8.bind(var9)(var5);
@@ -4309,10 +4309,10 @@ case 400:
                         var3 = var5.ceil;
                         var7 = var3.bind(var5)(var7);
                         var5 = var7 >= var8;
-                        if(!var5) { _fun0047_ip = 402; continue _fun0047 }
-case 403:
-                        if(var4) { _fun0047_ip = 402; continue _fun0047 }
-case 90:
+                        if(!var5) { _fun0047_ip = 403; continue _fun0047 }
+case 404:
+                        if(var4) { _fun0047_ip = 403; continue _fun0047 }
+case 405:
                         var10 = _closure3_slot0;
                         var9 = var10.setState;
                         var3 = {};
@@ -4323,22 +4323,22 @@ case 90:
                         var7 = var7 - var8;
                         var3['distanceFromEnd'] = var7;
                         var3 = var6.bind(var1)(var3);
-                        _fun0047_ip = 397; continue _fun0047;
-case 402:
+                        _fun0047_ip = 398; continue _fun0047;
+case 403:
                         var3 = !var5;
-                        if(var5) { _fun0047_ip = 404; continue _fun0047 }
-case 405:
-                        var3 = var4;
-case 404:
-                        if(!var3) { _fun0047_ip = 397; continue _fun0047 }
+                        if(var5) { _fun0047_ip = 355; continue _fun0047 }
 case 406:
+                        var3 = var4;
+case 355:
+                        if(!var3) { _fun0047_ip = 398; continue _fun0047 }
+case 354:
                         var5 = _closure3_slot0;
                         var4 = var5.setState;
                         var3 = {};
                         var6 = false;
                         var3['hasReachedEndBefore'] = var6;
                         var3 = var4.bind(var5)(var3);
-case 397:
+case 398:
                         var3 = _closure3_slot0;
                         var2 = var3.queueViewabilityChange;
                         var2 = var2.bind(var3)();
@@ -4358,78 +4358,78 @@ case 0:
                         var4 = var1.props;
                         var13 = var4.contentInset;
                         var1 = undefined;
-                        if(!(var1 === var13)) { _fun0048_ip = 32; continue _fun0048 }
-case 9:
+                        if(!(var1 === var13)) { _fun0048_ip = 56; continue _fun0048 }
+case 51:
                         var13 = _closure1_slot18;
-case 32:
+case 56:
                         var7 = var4.onLayout;
                         var10 = var4.horizontal;
                         var4 = var4.chunkBase;
                         var3 = var3.layout;
-                        if(var10) { _fun0048_ip = 407; continue _fun0048 }
-case 303:
-                        var12 = var3.height;
-                        _fun0048_ip = 332; continue _fun0048;
+                        if(var10) { _fun0048_ip = 341; continue _fun0048 }
 case 407:
+                        var12 = var3.height;
+                        _fun0048_ip = 15; continue _fun0048;
+case 341:
                         var12 = var3.width;
-case 332:
-                        if(var10) { _fun0048_ip = 408; continue _fun0048 }
-case 68:
-                        var14 = var13.top;
-                        _fun0048_ip = 17; continue _fun0048;
+case 15:
+                        if(var10) { _fun0048_ip = 243; continue _fun0048 }
 case 408:
+                        var14 = var13.top;
+                        _fun0048_ip = 409; continue _fun0048;
+case 243:
                         var14 = var13.left;
-case 17:
+case 409:
                         var3 = null;
                         var15 = var3 != var14;
                         var6 = 0;
-                        if(!var15) { _fun0048_ip = 409; continue _fun0048 }
-case 264:
+                        if(!var15) { _fun0048_ip = 73; continue _fun0048 }
+case 340:
                         var6 = var14;
-case 409:
-                        if(var10) { _fun0048_ip = 53; continue _fun0048 }
-case 82:
+case 73:
+                        if(var10) { _fun0048_ip = 304; continue _fun0048 }
+case 265:
                         var10 = var13.bottom;
-                        _fun0048_ip = 366; continue _fun0048;
-case 53:
+                        _fun0048_ip = 72; continue _fun0048;
+case 304:
                         var10 = var13.right;
-case 366:
+case 72:
                         var13 = var3 != var10;
                         var11 = 0;
-                        if(!var13) { _fun0048_ip = 309; continue _fun0048 }
-case 84:
+                        if(!var13) { _fun0048_ip = 305; continue _fun0048 }
+case 268:
                         var11 = var10;
-case 309:
+case 305:
                         var10 = _closure3_slot0;
                         var6 = var12 - var6;
                         var6 = var6 - var11;
                         var10['containerSize'] = var6;
-                        if(!(var3 == var4)) { _fun0048_ip = 254; continue _fun0048 }
-case 410:
+                        if(!(var3 == var4)) { _fun0048_ip = 24; continue _fun0048 }
+case 368:
                         var10 = var8.setInfo;
                         var6 = _closure3_slot0;
                         var6 = var6.containerSize;
                         var6 = var10.bind(var8)(var6);
-case 254:
-                        if(!(var3 != var7)) { _fun0048_ip = 336; continue _fun0048 }
-case 302:
+case 24:
+                        if(!(var3 != var7)) { _fun0048_ip = 410; continue _fun0048 }
+case 411:
                         var6 = _closure3_slot0;
                         var6 = var7.bind(var1)(var9, var6);
-case 336:
-                        if(var5) { _fun0048_ip = 246; continue _fun0048 }
-case 369:
+case 410:
+                        if(var5) { _fun0048_ip = 412; continue _fun0048 }
+case 256:
                         var6 = _closure3_slot0;
                         var5 = var6.computeBlocks;
                         var5 = var5.bind(var6)();
-                        _fun0048_ip = 14; continue _fun0048;
-case 246:
-                        if(!(var3 != var4)) { _fun0048_ip = 27; continue _fun0048 }
-case 86:
+                        _fun0048_ip = 413; continue _fun0048;
+case 412:
+                        if(!(var3 != var4)) { _fun0048_ip = 242; continue _fun0048 }
+case 213:
                         var4 = _closure3_slot0;
                         var3 = var4.restoreScrollPosition;
                         var3 = var3.bind(var4)();
-                        _fun0048_ip = 14; continue _fun0048;
-case 27:
+                        _fun0048_ip = 413; continue _fun0048;
+case 242:
                         var5 = _closure3_slot0;
                         var4 = var5.setState;
                         var7 = var5.getInitialState;
@@ -4437,7 +4437,7 @@ case 27:
                         var3 = false;
                         var3 = var7.bind(var5)(var6, var8, var3);
                         var3 = var4.bind(var5)(var3);
-case 14:
+case 413:
                         var3 = _closure3_slot0;
                         var2 = var3.queueViewabilityChange;
                         var2 = var2.bind(var3)();
@@ -4489,23 +4489,23 @@ case 49:
                 var2 = var1.props;
                 var5 = var2.batchesToRender;
                 var7 = 12;
-                if(!(var6 !== var5)) { _fun0039_ip = 411; continue _fun0039 }
-case 412:
+                if(!(var6 !== var5)) { _fun0039_ip = 414; continue _fun0039 }
+case 415:
                 var7 = var5;
-case 411:
+case 414:
                 var5 = var2.getAnchorIdFromIndex;
                 var2 = var2.getAnchorIndexFromId;
                 var6 = 5;
-                if(!(!(var7 < var6))) { _fun0039_ip = 413; continue _fun0039 }
-case 414:
-                if(!(var3 == var5)) { _fun0039_ip = 415; continue _fun0039 }
-case 416:
-                if(!(var3 != var2)) { _fun0039_ip = 417; continue _fun0039 }
-case 415:
-                if(!(var3 != var5)) { _fun0039_ip = 418; continue _fun0039 }
+                if(!(!(var7 < var6))) { _fun0039_ip = 416; continue _fun0039 }
+case 417:
+                if(!(var3 == var5)) { _fun0039_ip = 418; continue _fun0039 }
 case 419:
-                if(!(var3 == var2)) { _fun0039_ip = 417; continue _fun0039 }
+                if(!(var3 != var2)) { _fun0039_ip = 420; continue _fun0039 }
 case 418:
+                if(!(var3 != var5)) { _fun0039_ip = 421; continue _fun0039 }
+case 422:
+                if(!(var3 == var2)) { _fun0039_ip = 420; continue _fun0039 }
+case 421:
                 var2 = global;
                 var5 = var2.Error;
                 var2 = var5.prototype;
@@ -4515,21 +4515,21 @@ case 418:
                 var2 = new var24[var5](var23, var22);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 417:
+case 420:
                 var2 = var1.getViewabilityConfig;
                 var2 = var2.bind(var1)();
                 var3 = var2.minimumViewTime;
-                if(!(!(var3 <= var4))) { _fun0039_ip = 420; continue _fun0039 }
-case 421:
+                if(!(!(var3 <= var4))) { _fun0039_ip = 423; continue _fun0039 }
+case 424:
                 var3 = var2.visibilityThreshold;
-                if(!(!(var3 <= var4))) { _fun0039_ip = 422; continue _fun0039 }
-case 423:
+                if(!(!(var3 <= var4))) { _fun0039_ip = 425; continue _fun0039 }
+case 426:
                 var3 = var2.visibilityThreshold;
                 var2 = 1;
-                if(!(!(var3 > var2))) { _fun0039_ip = 422; continue _fun0039 }
-case 424:
+                if(!(!(var3 > var2))) { _fun0039_ip = 425; continue _fun0039 }
+case 427:
                 return var1;
-case 422:
+case 425:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -4539,7 +4539,7 @@ case 422:
                 var1 = new var24[var3](var23, var22);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 420:
+case 423:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -4549,7 +4549,7 @@ case 420:
                 var1 = new var24[var3](var23, var22);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
-case 413:
+case 416:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -4603,10 +4603,10 @@ case 40:
                 var3 = var1.initialScrollSection;
                 var8 = 0;
                 var22 = 0;
-                if(!(var14 !== var3)) { _fun0051_ip = 425; continue _fun0051 }
+                if(!(var14 !== var3)) { _fun0051_ip = 428; continue _fun0051 }
 case 300:
                 var22 = var3;
-case 425:
+case 428:
                 var20 = var1.initialScrollItem;
                 var3 = var1.initialScrollOrientation;
                 var21 = 'visible';
@@ -4619,7 +4619,7 @@ case 34:
                 var23 = 'default';
                 var15 = var23;
                 if(!(var14 !== var3)) { _fun0051_ip = 45; continue _fun0051 }
-case 407:
+case 429:
                 var15 = var3;
 case 45:
                 var3 = var1.horizontal;
@@ -4644,7 +4644,7 @@ case 305:
                 if(!(var13 == var18)) { _fun0051_ip = 380; continue _fun0051 }
 case 18:
                 if(!(!(var22 > var8))) { _fun0051_ip = 306; continue _fun0051 }
-case 426:
+case 430:
                 var19 = var13 != var20;
                 var6 = var17;
                 var5 = var16;
@@ -4677,12 +4677,12 @@ case 345:
                 var19['paddingEnd'] = var21;
                 var21 = var20.bind(var9)(var19);
                 var20 = var21;
-                if(!(var13 == var20)) { _fun0051_ip = 427; continue _fun0051 }
-case 428:
+                if(!(var13 == var20)) { _fun0051_ip = 431; continue _fun0051 }
+case 432:
                 var19 = var15.scrollPosition;
                 var15 = var15.sectionOffset;
                 var20 = var19 - var15;
-case 427:
+case 431:
                 var19 = var20 + var2;
                 var15 = var13 != var21;
                 var6 = var20;
@@ -4701,17 +4701,17 @@ case 380:
                 var6 = var17;
                 var5 = var16;
 case 382:
-                if(!(var13 == var3)) { _fun0051_ip = 429; continue _fun0051 }
-case 430:
+                if(!(var13 == var3)) { _fun0051_ip = 433; continue _fun0051 }
+case 434:
                 var3 = {'x': 0, 'y': 0};
-case 429:
-                if(var12) { _fun0051_ip = 431; continue _fun0051 }
+case 433:
+                if(var12) { _fun0051_ip = 435; continue _fun0051 }
 case 226:
                 var12 = var3.y;
-                _fun0051_ip = 432; continue _fun0051;
-case 431:
+                _fun0051_ip = 436; continue _fun0051;
+case 435:
                 var12 = var3.x;
-case 432:
+case 436:
                 if(!(var13 == var1)) { _fun0051_ip = 294; continue _fun0051 }
 case 227:
                 var13 = _closure1_slot0;
@@ -4722,20 +4722,20 @@ case 227:
                 var11 = var13.makeMutable;
                 var11 = var11.bind(var13)(var12);
                 var9['scrollPosValue'] = var11;
-                _fun0051_ip = 398; continue _fun0051;
+                _fun0051_ip = 437; continue _fun0051;
 case 294:
                 var11 = var1.set;
                 var11 = var11.bind(var1)(var12);
                 var9['scrollPosValue'] = var1;
-case 398:
+case 437:
                 var1 = {};
                 if(!(!(var2 > var8))) { _fun0051_ip = 298; continue _fun0051 }
-case 433:
+case 438:
                 var2 = {};
                 var2['size'] = var8;
                 var8 = new Array(0);
                 var2['items'] = var8;
-                _fun0051_ip = 434; continue _fun0051;
+                _fun0051_ip = 439; continue _fun0051;
 case 298:
                 var9 = var4.compute;
                 var24 = true;
@@ -4744,7 +4744,7 @@ case 298:
                 var26 = var5;
                 var25 = var10;
                 var2 = var28[var9](var27, var26, var25, var24, var23);
-case 434:
+case 439:
                 var27 = var1;
                 var26 = var2;
                 var2 = copyDataProperties(var27, var26);
@@ -4811,7 +4811,7 @@ case 301:
                         var3 = _closure3_slot2;
                         var2 = var2.contentSize;
                         if(var3) { _fun0053_ip = 64; continue _fun0053 }
-case 425:
+case 428:
                         var5 = var2.height;
                         _fun0053_ip = 32; continue _fun0053;
 case 64:
@@ -4819,12 +4819,12 @@ case 64:
 case 32:
                         var2 = 0;
                         var2 = var2 !== var5;
-                        if(var2) { _fun0053_ip = 435; continue _fun0053 }
+                        if(var2) { _fun0053_ip = 440; continue _fun0053 }
 case 49:
                         var4 = _closure3_slot1;
                         var3 = var4.get;
                         var2 = var3.bind(var4)();
-case 435:
+case 440:
                         if(!var2) { _fun0053_ip = 245; continue _fun0053 }
 case 54:
                         var4 = _closure3_slot1;
@@ -4890,10 +4890,10 @@ case 0:
                 var3 = var1.EXPERIMENTAL_enableAnchorWhileScrolling;
                 var1 = undefined;
                 var1 = var1 !== var3;
-                if(!var1) { _fun0054_ip = 436; continue _fun0054 }
-case 437:
+                if(!var1) { _fun0054_ip = 441; continue _fun0054 }
+case 442:
                 var1 = var3;
-case 436:
+case 441:
                 var3 = var2.state;
                 var8 = var3.isFirstLayout;
                 if(var1) { _fun0054_ip = 34; continue _fun0054 }
@@ -4905,15 +4905,15 @@ case 322:
 case 34:
                 var3 = null;
                 var5 = var3 == var7;
-                if(var5) { _fun0054_ip = 438; continue _fun0054 }
+                if(var5) { _fun0054_ip = 443; continue _fun0054 }
 case 41:
                 var5 = var8;
-case 438:
-                if(var5) { _fun0054_ip = 439; continue _fun0054 }
+case 443:
+                if(var5) { _fun0054_ip = 444; continue _fun0054 }
 case 324:
                 var6 = var4.isFirstLayout;
                 var5 = var8 !== var6;
-case 439:
+case 444:
                 if(var5) { _fun0054_ip = 342; continue _fun0054 }
 case 332:
                 var6 = var2.scrollAnchor;
@@ -4952,20 +4952,20 @@ case 0:
 case 60:
                 var4 = var2.state;
                 var4 = var4.isFirstLayout;
-                if(var4) { _fun0055_ip = 440; continue _fun0055 }
+                if(var4) { _fun0055_ip = 445; continue _fun0055 }
 case 46:
                 var4 = var1.isFirstLayout;
-                if(!var4) { _fun0055_ip = 440; continue _fun0055 }
+                if(!var4) { _fun0055_ip = 445; continue _fun0055 }
 case 338:
                 var4 = var2.props;
                 var5 = var4.chunkBase;
                 var4 = null;
                 if(!(var4 == var5)) { _fun0055_ip = 245; continue _fun0055 }
-case 438:
+case 443:
                 var5 = var2.scrollView;
                 var5 = var5.current;
                 if(!(var4 != var5)) { _fun0055_ip = 245; continue _fun0055 }
-case 441:
+case 446:
                 var4 = var5.measure;
                 var3 = function() {
                     var2 = _closure3_slot0;
@@ -4975,10 +4975,10 @@ case 441:
                 };
                 var3 = var4.bind(var5)(var3);
                 _fun0055_ip = 245; continue _fun0055;
-case 440:
+case 445:
                 var3 = arg3;
                 if(!var3) { _fun0055_ip = 245; continue _fun0055 }
-case 442:
+case 447:
                 var3 = var2.anchorScroll;
                 var3 = var3.bind(var2)();
 case 245:
@@ -5038,10 +5038,10 @@ case 364:
 case 81:
                 var4 = var2 != var3;
                 var2 = 0.5;
-                if(!var4) { _fun0056_ip = 443; continue _fun0056 }
+                if(!var4) { _fun0056_ip = 448; continue _fun0056 }
 case 13:
                 var2 = var3;
-case 443:
+case 448:
                 var1['visibilityThreshold'] = var2;
                 return var1;
             }
@@ -5126,12 +5126,12 @@ case 0:
                 var1 = this;
                 var4 = var1.worklet;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0059_ip = 444; continue _fun0059 }
+                if(!(var2 != var4)) { _fun0059_ip = 449; continue _fun0059 }
 case 299:
                 var3 = var4.unregisterFromEvents;
                 var2 = var1.viewTag;
                 var2 = var3.bind(var4)(var2);
-case 444:
+case 449:
                 var2 = var1.deferredCompute;
                 var3 = -1;
                 if(!(var3 !== var2)) { _fun0059_ip = 81; continue _fun0059 }
@@ -5144,7 +5144,7 @@ case 363:
 case 81:
                 var2 = var1.viewabilityDebounce;
                 if(!(var3 !== var2)) { _fun0059_ip = 386; continue _fun0059 }
-case 438:
+case 443:
                 var2 = global;
                 var3 = var2.clearTimeout;
                 var2 = var1.viewabilityDebounce;
@@ -5187,7 +5187,7 @@ case 81:
                 var6 = var7.getAnchorIndex;
                 var6 = var6.bind(var7)(var8);
                 if(!(var3 != var6)) { _fun0060_ip = 335; continue _fun0060 }
-case 439:
+case 444:
                 var8 = var9.computeScrollPosition;
                 var7 = var6.section;
                 var6 = var6.item;
@@ -5240,13 +5240,13 @@ case 0:
                 var2 = arg1;
                 var2 = var2.nativeEvent;
                 var2 = var2.contentOffset;
-                if(var1) { _fun0061_ip = 436; continue _fun0061 }
-case 301:
+                if(var1) { _fun0061_ip = 60; continue _fun0061 }
+case 449:
                 var1 = var2.y;
-                _fun0061_ip = 59; continue _fun0061;
-case 436:
+                _fun0061_ip = 428; continue _fun0061;
+case 60:
                 var1 = var2.x;
-case 59:
+case 428:
                 return var1;
             }
         };
@@ -5278,13 +5278,13 @@ case 46:
 case 32:
                 var5 = var5.initialScrollStart;
                 var7 = null;
-                if(!(var7 == var11)) { _fun0062_ip = 438; continue _fun0062 }
-case 445:
-                if(!(var10 <= var9)) { _fun0062_ip = 438; continue _fun0062 }
+                if(!(var7 == var11)) { _fun0062_ip = 443; continue _fun0062 }
+case 450:
+                if(!(var10 <= var9)) { _fun0062_ip = 443; continue _fun0062 }
 case 5:
-                if(!(var7 != var5)) { _fun0062_ip = 446; continue _fun0062 }
-case 438:
-                if(!(var7 == var5)) { _fun0062_ip = 447; continue _fun0062 }
+                if(!(var7 != var5)) { _fun0062_ip = 451; continue _fun0062 }
+case 443:
+                if(!(var7 == var5)) { _fun0062_ip = 412; continue _fun0062 }
 case 13:
                 var8 = var3.scrollToLocation;
                 var6 = {};
@@ -5326,19 +5326,19 @@ case 254:
                 };
                 var4 = var6.bind(var1)(var4);
                 var3['deferredCompute'] = var4;
-                _fun0062_ip = 448; continue _fun0062;
+                _fun0062_ip = 452; continue _fun0062;
 case 216:
                 var3['deferNextCompute'] = var2;
-                _fun0062_ip = 448; continue _fun0062;
-case 447:
+                _fun0062_ip = 452; continue _fun0062;
+case 412:
                 var4 = var3.scrollTo;
                 var2 = false;
                 var2 = var4.bind(var3)(var5, var2);
-                _fun0062_ip = 448; continue _fun0062;
-case 446:
+                _fun0062_ip = 452; continue _fun0062;
+case 451:
                 var2 = var3.computeBlocks;
                 var2 = var2.bind(var3)();
-case 448:
+case 452:
                 return var1;
             }
         };
@@ -5370,7 +5370,7 @@ case 209:
 case 55:
                 var7 = var4.scrollPos;
                 var10 = 0;
-                if(!(var10 !== var11)) { _fun0063_ip = 449; continue _fun0063 }
+                if(!(var10 !== var11)) { _fun0063_ip = 453; continue _fun0063 }
 case 67:
                 var3 = global;
                 var5 = var3.Math;
@@ -5401,7 +5401,7 @@ case 67:
                 var2 = var3 + var2;
                 var5['blockEnd'] = var2;
                 _fun0063_ip = 331; continue _fun0063;
-case 449:
+case 453:
                 var5 = {'batchSize': 0, 'blockStart': 0, 'blockEnd': 0};
 case 331:
                 var3 = var5.batchSize;
@@ -5415,13 +5415,13 @@ case 242:
                 var3 = var3.blockStart;
                 var2 = var6 === var3;
 case 372:
-                if(!var2) { _fun0063_ip = 450; continue _fun0063 }
+                if(!var2) { _fun0063_ip = 454; continue _fun0063 }
 case 87:
                 var6 = var5.blockEnd;
                 var3 = var4.state;
                 var3 = var3.blockEnd;
                 var2 = var6 === var3;
-case 450:
+case 454:
                 if(var2) { _fun0063_ip = 382; continue _fun0063 }
 case 347:
                 var3 = var4.setState;
@@ -5457,10 +5457,10 @@ case 0:
                 var21 = 'default';
                 var20 = undefined;
                 var19 = var21;
-                if(!(var20 !== var2)) { _fun0064_ip = 444; continue _fun0064 }
+                if(!(var20 !== var2)) { _fun0064_ip = 449; continue _fun0064 }
 case 52:
                 var19 = var2;
-case 444:
+case 449:
                 var18 = var1.renderHeader;
                 if(!(var20 === var18)) { _fun0064_ip = 9; continue _fun0064 }
 case 61:
@@ -5475,7 +5475,7 @@ case 3:
                 var _closure3_slot1 = var17;
                 var16 = var1.renderSection;
                 if(!(var20 === var16)) { _fun0064_ip = 341; continue _fun0064 }
-case 451:
+case 407:
                 var16 = _closure1_slot35;
 case 341:
                 var _closure3_slot2 = var16;
@@ -5489,10 +5489,10 @@ case 340:
                 var _closure3_slot4 = var14;
                 var2 = var1.optimizeListItemRender;
                 var13 = var20 !== var2;
-                if(!var13) { _fun0064_ip = 452; continue _fun0064 }
+                if(!var13) { _fun0064_ip = 455; continue _fun0064 }
 case 366:
                 var13 = var2;
-case 452:
+case 455:
                 var2 = var1.disableContentWrappers;
                 var12 = var20 !== var2;
                 if(!var12) { _fun0064_ip = 19; continue _fun0064 }
@@ -5506,10 +5506,10 @@ case 19:
                 var1 = var1.horizontal;
                 var2 = null;
                 var11 = var2 != var1;
-                if(!var11) { _fun0064_ip = 453; continue _fun0064 }
+                if(!var11) { _fun0064_ip = 456; continue _fun0064 }
 case 254:
                 var11 = var1;
-case 453:
+case 456:
                 var10 = new Array(0);
                 var _closure3_slot5 = var10;
                 var2 = var3.forEach;
@@ -5541,8 +5541,8 @@ case 363:
                 var6 = '';
                 var5 = false;
                 var4 = 0;
-                if(var2) { _fun0064_ip = 454; continue _fun0064 }
-case 455:
+                if(var2) { _fun0064_ip = 457; continue _fun0064 }
+case 458:
                 var26 = var3.value;
                 var29 = var26.type;
                 var28 = var26.key;
@@ -5551,32 +5551,32 @@ case 455:
                 var2 = var26.layoutSize;
                 var25 = var26.section;
                 var26 = var26.item;
-                if(!(var4 !== var2)) { _fun0064_ip = 456; continue _fun0064 }
-case 457:
+                if(!(var4 !== var2)) { _fun0064_ip = 459; continue _fun0064 }
+case 460:
                 var27 = _closure1_slot20;
                 var27 = var27.SPACER;
-                if(!(var27 !== var29)) { _fun0064_ip = 458; continue _fun0064 }
+                if(!(var27 !== var29)) { _fun0064_ip = 461; continue _fun0064 }
 case 349:
                 var27 = _closure1_slot20;
                 var27 = var27.HEADER;
-                if(!(var27 !== var29)) { _fun0064_ip = 459; continue _fun0064 }
+                if(!(var27 !== var29)) { _fun0064_ip = 462; continue _fun0064 }
 case 380:
                 var27 = _closure1_slot20;
                 var27 = var27.FOOTER;
-                if(!(var27 !== var29)) { _fun0064_ip = 460; continue _fun0064 }
+                if(!(var27 !== var29)) { _fun0064_ip = 463; continue _fun0064 }
 case 382:
                 var27 = _closure1_slot20;
                 var27 = var27.SECTION;
-                if(!(var27 !== var29)) { _fun0064_ip = 461; continue _fun0064 }
+                if(!(var27 !== var29)) { _fun0064_ip = 464; continue _fun0064 }
 case 226:
                 var27 = _closure1_slot20;
                 var27 = var27.ITEM;
-                if(!(var27 !== var29)) { _fun0064_ip = 462; continue _fun0064 }
-case 463:
+                if(!(var27 !== var29)) { _fun0064_ip = 465; continue _fun0064 }
+case 466:
                 var27 = _closure1_slot20;
                 var27 = var27.SECTION_FOOTER;
-                if(!(var27 === var29)) { _fun0064_ip = 456; continue _fun0064 }
-case 464:
+                if(!(var27 === var29)) { _fun0064_ip = 459; continue _fun0064 }
+case 467:
                 var29 = var1.push;
                 var33 = _closure1_slot16;
                 var32 = _closure1_slot26;
@@ -5589,7 +5589,7 @@ case 464:
                 var30['section'] = var25;
                 var30['debug'] = var5;
                 var27 = var14;
-                if(var13) { _fun0064_ip = 465; continue _fun0064 }
+                if(var13) { _fun0064_ip = 468; continue _fun0064 }
 case 314:
                 var27 = function(arg1) {
                     var7 = 0;
@@ -5605,15 +5605,15 @@ case 314:
                     var1 = apply(var7, var6, var5);
                     return var1;
                 };
-case 465:
+case 468:
                 var30['children'] = var27;
                 var27 = var7.HermesInternal;
                 var27 = var27.concat;
                 var27 = var27.bind(var6)(var28);
                 var27 = var33.bind(var20)(var32, var30, var27);
                 var27 = var29.bind(var1)(var27);
-                _fun0064_ip = 456; continue _fun0064;
-case 462:
+                _fun0064_ip = 459; continue _fun0064;
+case 465:
                 var27 = var1.push;
                 var32 = _closure1_slot16;
                 var30 = _closure1_slot27;
@@ -5627,58 +5627,12 @@ case 462:
                 var29['item'] = var26;
                 var29['debug'] = var5;
                 var26 = var15;
-                if(var13) { _fun0064_ip = 466; continue _fun0064 }
-case 467:
-                var26 = function(arg1) {
-                    var7 = 0;
-                    var6 = copyRestArgs(var7);
-                    var3 = _closure3_slot3;
-                    var2 = new Array(0);
-                    var7 = var2;
-                    var5 = 0;
-                    var1 = arraySpread(var7, var6, var5);
-                    var5 = undefined;
-                    var7 = var3;
-                    var6 = var2;
-                    var1 = apply(var7, var6, var5);
-                    return var1;
-                };
-case 466:
-                var29['children'] = var26;
-                var26 = var7.HermesInternal;
-                var26 = var26.concat;
-                var26 = var26.bind(var6)(var28);
-                var26 = var32.bind(var20)(var30, var29, var26);
-                var26 = var27.bind(var1)(var26);
-                _fun0064_ip = 456; continue _fun0064;
-case 461:
-                var26 = var10.shift;
-                var26 = var26.bind(var10)();
-                if(!(var21 === var19)) { _fun0064_ip = 415; continue _fun0064 }
-case 468:
-                var27 = var1.push;
-                var32 = _closure1_slot16;
-                var30 = _closure1_slot24;
-                var29 = {};
-                var29['recyclerKey'] = var24;
-                var29['horizontal'] = var11;
-                var29['disableWrapper'] = var12;
-                var29['layoutStart'] = var31;
-                var29['layoutSize'] = var2;
-                var26 = var10[var4];
-                var29['nextSectionLayoutPosition'] = var26;
-                var26 = var22.scrollPosValue;
-                var29['scrollPosValue'] = var26;
-                var29['fastListInstance'] = var22;
-                var29['section'] = var25;
-                var29['debug'] = var5;
-                var26 = var16;
                 if(var13) { _fun0064_ip = 469; continue _fun0064 }
 case 470:
                 var26 = function(arg1) {
                     var7 = 0;
                     var6 = copyRestArgs(var7);
-                    var3 = _closure3_slot2;
+                    var3 = _closure3_slot3;
                     var2 = new Array(0);
                     var7 = var2;
                     var5 = 0;
@@ -5696,8 +5650,54 @@ case 469:
                 var26 = var26.bind(var6)(var28);
                 var26 = var32.bind(var20)(var30, var29, var26);
                 var26 = var27.bind(var1)(var26);
-                _fun0064_ip = 456; continue _fun0064;
-case 415:
+                _fun0064_ip = 459; continue _fun0064;
+case 464:
+                var26 = var10.shift;
+                var26 = var26.bind(var10)();
+                if(!(var21 === var19)) { _fun0064_ip = 418; continue _fun0064 }
+case 471:
+                var27 = var1.push;
+                var32 = _closure1_slot16;
+                var30 = _closure1_slot24;
+                var29 = {};
+                var29['recyclerKey'] = var24;
+                var29['horizontal'] = var11;
+                var29['disableWrapper'] = var12;
+                var29['layoutStart'] = var31;
+                var29['layoutSize'] = var2;
+                var26 = var10[var4];
+                var29['nextSectionLayoutPosition'] = var26;
+                var26 = var22.scrollPosValue;
+                var29['scrollPosValue'] = var26;
+                var29['fastListInstance'] = var22;
+                var29['section'] = var25;
+                var29['debug'] = var5;
+                var26 = var16;
+                if(var13) { _fun0064_ip = 472; continue _fun0064 }
+case 473:
+                var26 = function(arg1) {
+                    var7 = 0;
+                    var6 = copyRestArgs(var7);
+                    var3 = _closure3_slot2;
+                    var2 = new Array(0);
+                    var7 = var2;
+                    var5 = 0;
+                    var1 = arraySpread(var7, var6, var5);
+                    var5 = undefined;
+                    var7 = var3;
+                    var6 = var2;
+                    var1 = apply(var7, var6, var5);
+                    return var1;
+                };
+case 472:
+                var29['children'] = var26;
+                var26 = var7.HermesInternal;
+                var26 = var26.concat;
+                var26 = var26.bind(var6)(var28);
+                var26 = var32.bind(var20)(var30, var29, var26);
+                var26 = var27.bind(var1)(var26);
+                _fun0064_ip = 459; continue _fun0064;
+case 418:
                 var26 = var1.push;
                 var30 = _closure1_slot16;
                 var29 = _closure1_slot25;
@@ -5711,8 +5711,8 @@ case 415:
                 var27['section'] = var25;
                 var27['debug'] = var5;
                 var25 = var16;
-                if(var13) { _fun0064_ip = 471; continue _fun0064 }
-case 472:
+                if(var13) { _fun0064_ip = 474; continue _fun0064 }
+case 475:
                 var25 = function(arg1) {
                     var7 = 0;
                     var6 = copyRestArgs(var7);
@@ -5727,15 +5727,15 @@ case 472:
                     var1 = apply(var7, var6, var5);
                     return var1;
                 };
-case 471:
+case 474:
                 var27['children'] = var25;
                 var25 = var7.HermesInternal;
                 var25 = var25.concat;
                 var25 = var25.bind(var6)(var28);
                 var25 = var30.bind(var20)(var29, var27, var25);
                 var25 = var26.bind(var1)(var25);
-                _fun0064_ip = 456; continue _fun0064;
-case 460:
+                _fun0064_ip = 459; continue _fun0064;
+case 463:
                 var26 = var1.push;
                 var30 = _closure1_slot16;
                 var29 = _closure1_slot28;
@@ -5747,8 +5747,8 @@ case 460:
                 var27['layoutSize'] = var2;
                 var27['debug'] = var5;
                 var25 = var17;
-                if(var13) { _fun0064_ip = 473; continue _fun0064 }
-case 474:
+                if(var13) { _fun0064_ip = 476; continue _fun0064 }
+case 477:
                 var25 = function(arg1) {
                     var7 = 0;
                     var6 = copyRestArgs(var7);
@@ -5763,15 +5763,15 @@ case 474:
                     var1 = apply(var7, var6, var5);
                     return var1;
                 };
-case 473:
+case 476:
                 var27['children'] = var25;
                 var25 = var7.HermesInternal;
                 var25 = var25.concat;
                 var25 = var25.bind(var6)(var28);
                 var25 = var30.bind(var20)(var29, var27, var25);
                 var25 = var26.bind(var1)(var25);
-                _fun0064_ip = 456; continue _fun0064;
-case 459:
+                _fun0064_ip = 459; continue _fun0064;
+case 462:
                 var25 = var1.push;
                 var29 = _closure1_slot16;
                 var27 = _closure1_slot28;
@@ -5783,8 +5783,8 @@ case 459:
                 var26['layoutSize'] = var2;
                 var26['debug'] = var5;
                 var24 = var18;
-                if(var13) { _fun0064_ip = 475; continue _fun0064 }
-case 476:
+                if(var13) { _fun0064_ip = 478; continue _fun0064 }
+case 479:
                 var24 = function(arg1) {
                     var7 = 0;
                     var6 = copyRestArgs(var7);
@@ -5799,15 +5799,15 @@ case 476:
                     var1 = apply(var7, var6, var5);
                     return var1;
                 };
-case 475:
+case 478:
                 var26['children'] = var24;
                 var24 = var7.HermesInternal;
                 var24 = var24.concat;
                 var24 = var24.bind(var6)(var28);
                 var24 = var29.bind(var20)(var27, var26, var24);
                 var24 = var25.bind(var1)(var24);
-                _fun0064_ip = 456; continue _fun0064;
-case 458:
+                _fun0064_ip = 459; continue _fun0064;
+case 461:
                 var24 = var1.push;
                 var27 = _closure1_slot16;
                 var26 = _closure1_slot29;
@@ -5819,12 +5819,12 @@ case 458:
                 var2 = var2.bind(var6)(var28);
                 var2 = var27.bind(var20)(var26, var25, var2);
                 var2 = var24.bind(var1)(var2);
-case 456:
+case 459:
                 var24 = var8.bind(var20)();
                 var2 = var24.done;
                 var3 = var24;
-                if(!var2) { _fun0064_ip = 455; continue _fun0064 }
-case 454:
+                if(!var2) { _fun0064_ip = 458; continue _fun0064 }
+case 457:
                 return var1;
             }
         };
@@ -5917,7 +5917,7 @@ case 0:
                 var11 = var5.removeClippedSubviews;
                 var4 = undefined;
                 if(!(var4 === var11)) { _fun0066_ip = 292; continue _fun0066 }
-case 477:
+case 480:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 14;
@@ -5930,18 +5930,18 @@ case 292:
                 var3 = _closure1_slot4;
                 var2 = _closure1_slot3;
                 var12 = var3.bind(var4)(var5, var2);
-                if(var1) { _fun0066_ip = 478; continue _fun0066 }
-case 479:
+                if(var1) { _fun0066_ip = 481; continue _fun0066 }
+case 482:
                 var9 = _closure1_slot13;
-                _fun0066_ip = 393; continue _fun0066;
-case 478:
+                _fun0066_ip = 483; continue _fun0066;
+case 481:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 18;
                 var1 = var3[var1];
                 var1 = var2.bind(var4)(var1);
                 var9 = var1.BottomSheetScrollView;
-case 393:
+case 483:
                 var3 = _closure1_slot15;
                 var2 = _closure1_slot17;
                 var1 = {};
@@ -5992,10 +5992,10 @@ case 393:
                 var5[0] = var6;
                 var6 = null;
                 var9 = var6 != var7;
-                if(!var9) { _fun0066_ip = 480; continue _fun0066 }
+                if(!var9) { _fun0066_ip = 484; continue _fun0066 }
 case 355:
                 var6 = var7.bind(var4)(var8);
-case 480:
+case 484:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -6035,7 +6035,7 @@ case 0:
                 var6 = null;
                 var4 = var6 != var7;
                 if(!var4) { _fun0067_ip = 311; continue _fun0067 }
-case 481:
+case 388:
                 var4 = var7;
 case 311:
                 var1['stickyHeaderFooter'] = var4;
@@ -6046,7 +6046,7 @@ case 311:
                 var7 = var5.disableRecyclingOnFullCompute;
                 var4 = var6 != var7;
                 if(!var4) { _fun0067_ip = 21; continue _fun0067 }
-case 482:
+case 389:
                 var4 = var7;
 case 21:
                 var1['disableRecyclingOnFullCompute'] = var4;
@@ -6054,12 +6054,12 @@ case 21:
                 var1 = var3.batchSize;
                 var4 = 0;
                 if(!(var4 !== var1)) { _fun0067_ip = 310; continue _fun0067 }
-case 483:
+case 485:
                 var1 = var11.isDirty;
                 var2 = var1.bind(var11)();
                 var1 = null;
                 if(!var2) { _fun0067_ip = 241; continue _fun0067 }
-case 484:
+case 486:
                 var2 = {};
                 var15 = var2;
                 var14 = var3;
@@ -6093,10 +6093,10 @@ case 356:
                 var5 = var5.insetEnd;
                 var6 = var6 != var5;
                 var4 = 0;
-                if(!var6) { _fun0067_ip = 485; continue _fun0067 }
-case 486:
+                if(!var6) { _fun0067_ip = 487; continue _fun0067 }
+case 488:
                 var4 = var5;
-case 485:
+case 487:
                 var4 = var3 + var4;
                 var3 = 'size';
                 var2[var3] = var4;
@@ -6114,19 +6114,22 @@ case 380:
         var1 = var3.bind(var4)(var5, var2, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var7);
+    var8 = var2.bind(var1)(var8);
     var2 = 15;
-    var2 = var10[var2];
-    var8 = var8.bind(var1)(var2);
-    var2 = var8.createAnimatedComponent;
-    var2 = var2.bind(var8)(var7);
-    var8 = 20;
-    var8 = var10[var8];
-    var10 = var9.bind(var1)(var8);
-    var9 = var10.fileFinishedImporting;
-    var8 = 'lib/native/FastList.tsx';
-    var8 = var9.bind(var10)(var8);
-    var3['default'] = var7;
+    var2 = var11[var2];
+    var9 = var9.bind(var1)(var2);
+    var2 = var9.createAnimatedComponent;
+    var2 = var2.bind(var9)(var8);
+    var9 = 20;
+    var9 = var11[var9];
+    var11 = var10.bind(var1)(var9);
+    var10 = var11.fileFinishedImporting;
+    var9 = 'lib/native/FastList.tsx';
+    var9 = var10.bind(var11)(var9);
+    var3['default'] = var8;
+    var8 = 12;
+    var3['DEFAULT_BATCHES_TO_RENDER'] = var8;
+    var3['MINIMUM_BATCHES_TO_RENDER'] = var7;
     var6 = function getItemSizeOverrideKey(arg1, arg2, arg3) {
         var1 = global;
         var1 = var1.HermesInternal;

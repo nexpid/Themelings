@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot23;
+            var9 = _closure1_slot24;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot23;
+            var7 = _closure1_slot24;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function GuildChannelMemberCount(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -209,7 +209,7 @@ case 34:
             var4 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var4 = _closure1_slot22;
+                    var4 = _closure1_slot23;
                     var7 = _closure1_slot9;
                     var6 = var7.getProps;
                     var3 = _closure2_slot0;
@@ -344,7 +344,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function ChannelLinkedLobbyCoachmark(arg1) {
         var2 = arg1;
         var4 = var2.iconRef;
@@ -395,7 +395,7 @@ case 0:
                 var1 = {};
                 var3 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var5 = var10[var2];
                 var6 = undefined;
                 var5 = var3.bind(var6)(var5);
@@ -483,7 +483,7 @@ case 59:
         var1 = null;
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -561,12 +561,19 @@ case 59:
     var4 = 14;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot19 = var8;
+    var9 = var4.jsx;
+    var _closure1_slot19 = var9;
     var8 = var4.Fragment;
     var _closure1_slot20 = var8;
     var4 = var4.jsxs;
     var _closure1_slot21 = var4;
+    var4 = 17;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.ChannelHeaderLoadingIndicator;
+    var4 = {};
+    var4 = var9.bind(var1)(var8, var4);
+    var _closure1_slot22 = var4;
     var4 = var7.memo;
     var2 = function GuildChannelHeader(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -719,7 +726,7 @@ case 0:
 case 73:
                     var13 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var4 = 18;
+                    var4 = 19;
                     var8 = var16[var4];
                     var8 = var13.bind(var3)(var8);
                     var10 = var8.intl;
@@ -733,7 +740,7 @@ case 73:
 case 72:
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var4 = 17;
+                    var4 = 18;
                     var4 = var10[var4];
                     var13 = var8.bind(var3)(var4);
                     var10 = var13.computeChannelName;
@@ -743,7 +750,7 @@ case 72:
 case 57:
                     var8 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var20 = 18;
+                    var20 = 19;
                     var4 = var13[var20];
                     var4 = var8.bind(var3)(var4);
                     var19 = var4.intl;
@@ -755,7 +762,7 @@ case 57:
                     var4 = {};
                     var4['channelName'] = var17;
                     var10 = var16.bind(var19)(var10, var4);
-                    var4 = 19;
+                    var4 = 20;
                     var4 = var13[var4];
                     var8 = var8.bind(var3)(var4);
                     var4 = var8.shouldNSFWGateGuild;
@@ -935,14 +942,14 @@ case 99:
                     var15 = !var2;
 case 98:
                     var7 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var10 = 20;
-                    var2 = var2[var10];
+                    var9 = _closure1_slot2;
+                    var2 = 17;
+                    var2 = var9[var2];
                     var9 = var7.bind(var3)(var2);
                     var7 = var9.useShouldChannelShowLoadingIndicator;
-                    var11 = var12 == var18;
+                    var10 = var12 == var18;
                     var2 = undefined;
-                    if(var11) { _fun0009_ip = 100; continue _fun0009 }
+                    if(var10) { _fun0009_ip = 100; continue _fun0009 }
 case 101:
                     var2 = var18.id;
 case 100:
@@ -955,14 +962,7 @@ case 103:
 case 102:
                     if(!var2) { _fun0009_ip = 104; continue _fun0009 }
 case 105:
-                    var9 = _closure1_slot19;
-                    var7 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var10];
-                    var2 = var7.bind(var3)(var2);
-                    var7 = var2.ChannelHeaderLoadingIndicator;
-                    var2 = {};
-                    var7 = var9.bind(var3)(var7, var2);
+                    var7 = _closure1_slot22;
                     _fun0009_ip = 106; continue _fun0009;
 case 104:
                     var10 = _closure1_slot21;
@@ -971,7 +971,7 @@ case 104:
                     if(!var15) { _fun0009_ip = 107; continue _fun0009 }
 case 108:
                     var17 = _closure1_slot19;
-                    var16 = _closure1_slot24;
+                    var16 = _closure1_slot25;
                     var11 = {};
                     var11['channel'] = var18;
                     var18 = var12 != var13;
@@ -1083,7 +1083,7 @@ case 116:
             if(!var13) { _fun0007_ip = 114; continue _fun0007 }
 case 118:
             var15 = _closure1_slot19;
-            var14 = _closure1_slot25;
+            var14 = _closure1_slot26;
             var13 = {};
             var13['iconRef'] = var18;
             var13['guild'] = var17;
@@ -1110,7 +1110,7 @@ case 120:
             var6 = var14[var6];
             var8 = var13.bind(var5)(var6);
             var7 = var8.renderTitleWrapper;
-            var6 = 18;
+            var6 = 19;
             var11 = var14[var6];
             var11 = var13.bind(var5)(var11);
             var12 = var11.intl;

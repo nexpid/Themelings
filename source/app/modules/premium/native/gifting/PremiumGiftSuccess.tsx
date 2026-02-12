@@ -1,11 +1,11 @@
 // app/modules/premium/native/gifting/PremiumGiftSuccess.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -34,16 +34,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
     var7 = var4.Fragment;
     var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var10 = var5.bind(var1)(var4);
+    var7 = var10.createStyles;
     var4 = function(arg1) {
         var1 = {};
         var2 = {'backgroundColor': null, 'paddingHorizontal': null, 'flex': 1, 'alignContent': 'center', 'justifyContent': 'center', 'flexGrow': 1};
@@ -99,8 +99,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['actionContainer'] = var2;
         return var1;
     };
-    var4 = var7.bind(var8)(var4);
+    var4 = var7.bind(var10)(var4);
     var _closure1_slot9 = var4;
+    var4 = 6;
+    var7 = var6[var4];
+    var9 = var9.bind(var1)(var7);
+    var7 = {};
+    var7 = var8.bind(var1)(var9, var7);
+    var _closure1_slot10 = var7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PremiumGiftDMSuccessActions;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot11 = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -112,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var13 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var9[var1];
             var4 = undefined;
             var1 = var13.bind(var4)(var1);
@@ -121,7 +133,7 @@ case 0:
             var1 = _closure1_slot9;
             var10 = var1.bind(var4)(var2);
             var7 = _closure1_slot0;
-            var1 = 7;
+            var1 = 8;
             var1 = var9[var1];
             var2 = var7.bind(var4)(var1);
             var1 = var2.useNativeGiftContext;
@@ -129,24 +141,24 @@ case 0:
             var2 = var1.recipientUser;
             var8 = var1.giftCodeRecord;
             var11 = var1.selectedGiftingPromotionReward;
-            var1 = 8;
+            var1 = 9;
             var1 = var9[var1];
             var14 = var13.bind(var4)(var1);
             var1 = null;
             var12 = var1 != var8;
             var6 = 'Gift code record cannot be null on success screen';
             var6 = var14.bind(var4)(var12, var6);
-            var6 = 9;
+            var6 = 10;
             var6 = var9[var6];
             var6 = var13.bind(var4)(var6);
             var12 = var6.bind(var4)();
             var _closure2_slot0 = var12;
-            var6 = 10;
+            var6 = 11;
             var6 = var9[var6];
             var6 = var13.bind(var4)(var6);
             var13 = var6.bind(var4)();
             var _closure2_slot1 = var13;
-            var6 = 11;
+            var6 = 12;
             var6 = var9[var6];
             var9 = var7.bind(var4)(var6);
             var7 = var9.useGetOrFetchPurchase;
@@ -177,17 +189,17 @@ case 4:
 case 7:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 12;
+                    var1 = 13;
                     var1 = var8[var1];
                     var2 = undefined;
                     var5 = var7.bind(var2)(var1);
                     var4 = var5.markVersionedDismissibleContentAsDismissed;
-                    var1 = 13;
+                    var1 = 14;
                     var1 = var8[var1];
                     var1 = var7.bind(var2)(var1);
                     var1 = var1.DismissibleContent;
                     var3 = var1.GIFTING_PROMOTION_REMINDER;
-                    var1 = 14;
+                    var1 = 15;
                     var1 = var8[var1];
                     var2 = var7.bind(var2)(var1);
                     var1 = var2.getGiftingPromotionDismissibleContentVersion;
@@ -205,20 +217,13 @@ case 6:
             var3 = var9.bind(var11)(var3, var6);
             if(!(var1 != var2)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var9 = _closure1_slot6;
-            var6 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var3 = 16;
-            var3 = var11[var3];
-            var6 = var6.bind(var4)(var3);
-            var3 = {};
-            var6 = var9.bind(var4)(var6, var3);
+            var6 = _closure1_slot10;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var11 = _closure1_slot6;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var3 = 15;
+            var3 = 16;
             var3 = var12[var3];
             var9 = var9.bind(var4)(var3);
             var3 = {};
@@ -229,21 +234,13 @@ case 10:
 case 12:
             if(!(var1 != var2)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 16;
-            var1 = var9[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.PremiumGiftDMSuccessActions;
-            var1 = {};
-            var9 = var3.bind(var4)(var2, var1);
+            var9 = _closure1_slot11;
             _fun0001_ip = 15; continue _fun0001;
 case 13:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 15;
+            var1 = 16;
             var1 = var11[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PremiumGiftSuccessActions;

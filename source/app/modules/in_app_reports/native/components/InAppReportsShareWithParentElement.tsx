@@ -28,8 +28,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var8 = var4.jsx;
+    var _closure1_slot5 = var8;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ShareIcon;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot6 = var4;
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -61,7 +68,7 @@ case 0:
             var1 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 3;
+                var1 = 4;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -73,12 +80,12 @@ case 0:
 case 0:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var1 = 4;
+                        var1 = 5;
                         var2 = var4[var1];
                         var1 = undefined;
                         var6 = var3.bind(var1)(var2);
                         var5 = var6.showSafetySuccess;
-                        var2 = 5;
+                        var2 = 6;
                         var7 = var4[var2];
                         var7 = var3.bind(var1)(var7);
                         var8 = var7.intl;
@@ -129,7 +136,7 @@ case 4:
                 var2 = function() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 6;
+                    var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -146,7 +153,7 @@ case 4:
 case 7:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var11 = 5;
+            var11 = 6;
             var3 = var1[var11];
             var3 = var2.bind(var4)(var3);
             var8 = var3.intl;
@@ -182,7 +189,7 @@ case 10:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -220,16 +227,10 @@ case 14:
             var8['parent3'] = var13;
             var8 = var10.bind(var12)(var9, var8);
             var1['disabledTitle'] = var8;
-            var12 = _closure1_slot5;
+            var8 = _closure1_slot6;
+            var1['icon'] = var8;
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var8 = 8;
-            var8 = var7[var8];
-            var8 = var10.bind(var4)(var8);
-            var9 = var8.ShareIcon;
-            var8 = {};
-            var8 = var12.bind(var4)(var9, var8);
-            var1['icon'] = var8;
             var8 = var7[var11];
             var8 = var10.bind(var4)(var8);
             var9 = var8.intl;

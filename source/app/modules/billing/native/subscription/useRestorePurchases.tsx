@@ -89,7 +89,7 @@ case 8: // try_start_0 // try_start_1
                             var5 = var5.bind(var6)(var2);
                             var2 = var5.restoreAndApplyPurchases;
                             var2 = var2.bind(var5)();
-                            SaveGenerator(address=84);
+                            SaveGenerator(address=83);
 case 9:
                             return var2;
 case 10:

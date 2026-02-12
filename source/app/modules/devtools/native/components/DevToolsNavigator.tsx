@@ -28,8 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot4 = var7;
+    var9 = var4.jsx;
+    var _closure1_slot4 = var9;
     var4 = var4.jsxs;
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -38,6 +38,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.createNativeStackNavigator;
     var4 = var4.bind(var7)();
     var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.HammerIcon;
+    var4 = {};
+    var10 = 'sm';
+    var4['size'] = var10;
+    var4 = var9.bind(var1)(var7, var4);
+    var _closure1_slot7 = var4;
     var7 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -46,7 +55,7 @@ case 0:
             var8 = var1.screenKey;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var1 = var3[var1];
             var4 = undefined;
             var2 = var2.bind(var4)(var1);
@@ -84,7 +93,7 @@ case 2:
                     var4 = _closure1_slot4;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -99,7 +108,7 @@ case 2:
                 var1['headerTitle'] = var2;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 5;
+                var2 = 6;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -121,7 +130,7 @@ case 2:
             var5['name'] = var10;
             var12 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var10 = 6;
+            var10 = 7;
             var10 = var11[var10];
             var10 = var12.bind(var4)(var10);
             var5['component'] = var10;
@@ -135,22 +144,15 @@ case 2:
                     var5 = 'row';
                     var1['flexDirection'] = var5;
                     var2['style'] = var1;
+                    var1 = _closure1_slot7;
+                    var5 = new Array(2);
+                    var5[0] = var1;
                     var8 = _closure1_slot4;
                     var7 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var1 = 7;
-                    var5 = var12[var1];
+                    var1 = 8;
+                    var6 = var12[var1];
                     var1 = undefined;
-                    var5 = var7.bind(var1)(var5);
-                    var6 = var5.HammerIcon;
-                    var5 = {};
-                    var9 = 'sm';
-                    var5['size'] = var9;
-                    var6 = var8.bind(var1)(var6, var5);
-                    var5 = new Array(2);
-                    var5[0] = var6;
-                    var6 = 8;
-                    var6 = var12[var6];
                     var6 = var7.bind(var1)(var6);
                     var7 = var6.Text;
                     var6 = {'style': null, 'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary', 'children': 'DevTools'};
@@ -263,7 +265,7 @@ case 15:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -297,7 +299,7 @@ case 17:
                 var1 = global;
                 var3 = var1.Promise;
                 var2 = var3.resolve;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };

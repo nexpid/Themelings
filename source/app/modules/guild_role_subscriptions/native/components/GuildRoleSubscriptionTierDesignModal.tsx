@@ -1,12 +1,12 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionTierDesignModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var13 = metroImportDefault;
     var7 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
     var1 = function MemberPreviews(arg1) {
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
-    var1 = function Content() {
+    var _closure1_slot15 = var1;
+    var8 = function Content() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot1;
@@ -210,7 +210,7 @@ case 4:
             var2 = _closure1_slot11;
             var1 = {};
             var8 = _closure1_slot9;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot15;
             var5 = {};
             var5['role'] = var13;
             var7 = var8.bind(var4)(var7, var5);
@@ -310,19 +310,18 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 1;
     var4 = var6[var4];
@@ -348,36 +347,42 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
     var _closure1_slot9 = var7;
-    var7 = var4.jsxs;
-    var _closure1_slot10 = var7;
+    var9 = var4.jsxs;
+    var _closure1_slot10 = var9;
     var4 = var4.Fragment;
     var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
     var4 = {};
-    var9 = {'paddingHorizontal': 16, 'paddingTop': 26};
-    var4['memberPreviews'] = var9;
-    var9 = {'padding': 16, 'borderRadius': null, 'borderWidth': 0, 'borderLeftWidth': 1, 'borderRightWidth': 1};
-    var10 = 7;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.none;
-    var9['borderRadius'] = var12;
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BORDER_STRONG;
-    var9['borderColor'] = var10;
-    var4['member'] = var9;
-    var9 = {'borderTopLeftRadius': 8, 'borderTopRightRadius': 8, 'borderTopWidth': 1};
-    var4['memberLight'] = var9;
-    var9 = {'borderBottomLeftRadius': 8, 'borderBottomRightRadius': 8, 'borderBottomWidth': 1};
-    var4['memberDark'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11 = {'paddingHorizontal': 16, 'paddingTop': 26};
+    var4['memberPreviews'] = var11;
+    var11 = {'padding': 16, 'borderRadius': null, 'borderWidth': 0, 'borderLeftWidth': 1, 'borderRightWidth': 1};
+    var12 = 7;
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.none;
+    var11['borderRadius'] = var14;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BORDER_STRONG;
+    var11['borderColor'] = var12;
+    var4['member'] = var11;
+    var11 = {'borderTopLeftRadius': 8, 'borderTopRightRadius': 8, 'borderTopWidth': 1};
+    var4['memberLight'] = var11;
+    var11 = {'borderBottomLeftRadius': 8, 'borderBottomRightRadius': 8, 'borderBottomWidth': 1};
+    var4['memberDark'] = var11;
+    var4 = var9.bind(var10)(var4);
     var _closure1_slot12 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
+    var _closure1_slot13 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
+    var _closure1_slot14 = var4;
     var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -423,10 +428,7 @@ case 4:
         var12 = arg1;
         var13 = var1;
         var6 = copyDataProperties(var13, var12);
-        var7 = _closure1_slot9;
         var6 = _closure1_slot14;
-        var5 = {};
-        var6 = var7.bind(var3)(var6, var5);
         var5 = 'children';
         var1[var5] = var6;
         var1 = var4.bind(var3)(var2, var1);
@@ -434,11 +436,7 @@ case 4:
     };
     var3['default'] = var4;
     var2 = function GuildRoleSubscriptionTierDesignTab() {
-        var4 = _closure1_slot9;
-        var3 = _closure1_slot14;
-        var2 = undefined;
-        var1 = {};
-        var1 = var4.bind(var2)(var3, var1);
+        var1 = _closure1_slot13;
         return var1;
     };
     var3['GuildRoleSubscriptionTierDesignTab'] = var2;

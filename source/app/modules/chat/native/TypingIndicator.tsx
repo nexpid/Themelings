@@ -1,11 +1,11 @@
 // app/modules/chat/native/TypingIndicator.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = function TypingIndicatorInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -19,7 +19,7 @@ case 0:
             var _closure2_slot1 = var10;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var6[var1];
             var4 = undefined;
             var5 = var2.bind(var4)(var1);
@@ -32,7 +32,7 @@ case 0:
             var1['typingUserIds'] = var7;
             var15 = var5.bind(var4)(var1);
             var12 = _closure1_slot0;
-            var1 = 8;
+            var1 = 9;
             var5 = var6[var1];
             var7 = var12.bind(var4)(var5);
             var5 = var7.useSharedValue;
@@ -58,7 +58,7 @@ case 0:
             var7 = var6[var1];
             var8 = var12.bind(var4)(var7);
             var7 = var8.useAnimatedStyle;
-            var3 = function I() {
+            var3 = function f() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var2 = _closure2_slot2;
@@ -82,7 +82,7 @@ case 5:
                     var3 = _closure2_slot0;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var6 = var6[var1];
                     var1 = undefined;
                     var1 = var7.bind(var1)(var6);
@@ -108,7 +108,7 @@ case 8:
                     var3 = {};
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var6 = 10;
+                    var6 = 11;
                     var6 = var9[var6];
                     var7 = var7.bind(var13)(var6);
                     var6 = var7.withSpring;
@@ -120,7 +120,7 @@ case 11:
 case 10:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 12;
                     var4 = var14[var4];
                     var4 = var12.bind(var13)(var4);
                     var17 = var4.springStandard;
@@ -133,7 +133,7 @@ case 13:
                             var3 = _closure2_slot0;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var2 = 9;
+                            var2 = 10;
                             var4 = var4[var2];
                             var2 = undefined;
                             var2 = var5.bind(var2)(var4);
@@ -145,7 +145,7 @@ case 12:
 case 15:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 8;
+                            var1 = 9;
                             var1 = var2[var1];
                             var2 = undefined;
                             var4 = var3.bind(var2)(var1);
@@ -161,12 +161,12 @@ case 14:
                     var9 = {};
                     var11 = _closure2_slot0;
                     var9['transitionState'] = var11;
-                    var11 = 9;
+                    var11 = 10;
                     var11 = var14[var11];
                     var11 = var12.bind(var13)(var11);
                     var11 = var11.TransitionStates;
                     var9['TransitionStates'] = var11;
-                    var11 = 8;
+                    var11 = 9;
                     var11 = var14[var11];
                     var11 = var12.bind(var13)(var11);
                     var11 = var11.runOnJS;
@@ -193,17 +193,17 @@ case 14:
             var9 = {};
             var9['typingIndicatorLayout'] = var14;
             var9['transitionState'] = var11;
-            var11 = 9;
+            var11 = 10;
             var11 = var6[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.TransitionStates;
             var9['TransitionStates'] = var11;
-            var11 = 10;
+            var11 = 11;
             var11 = var6[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.withSpring;
             var9['withSpring'] = var11;
-            var11 = 11;
+            var11 = 12;
             var11 = var6[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.springStandard;
@@ -245,14 +245,7 @@ case 14:
             var12 = null;
             if(!var11) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var18 = _closure1_slot7;
-            var17 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var11 = 12;
-            var11 = var20[var11];
-            var17 = var17.bind(var4)(var11);
-            var11 = {};
-            var12 = var18.bind(var4)(var17, var11);
+            var12 = _closure1_slot12;
 case 16:
             var11 = new Array(2);
             var11[0] = var12;
@@ -303,10 +296,10 @@ case 18:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function renderTypingIndicator(arg1, arg2, arg3, arg4) {
         var5 = _closure1_slot7;
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot13;
         var3 = {};
         var7 = arg2;
         var8 = var3;
@@ -322,23 +315,23 @@ case 18:
         var1 = var5.bind(var2)(var4, var3, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var11 = 1;
-    var4 = var6[var11];
+    var13 = 1;
+    var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot4 = var4;
@@ -355,46 +348,52 @@ case 18:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var9 = var4.jsx;
+    var _closure1_slot7 = var9;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
+    var11 = var5.bind(var1)(var4);
+    var10 = var11.createStyles;
     var7 = {};
-    var10 = {'paddingVertical': 4, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
+    var12 = {'paddingVertical': 4, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
     var4 = 16;
-    var12 = 6;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT;
-    var10['backgroundColor'] = var14;
-    var7['typingWrapper'] = var10;
-    var10 = {'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};
-    var7['wrapperHoriz'] = var10;
-    var10 = {'marginRight': null, 'alignItems': 'center', 'flexDirection': 'row', 'flex': 1};
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_8;
-    var10['marginRight'] = var12;
-    var7['horiz'] = var10;
-    var10 = {};
-    var10['flex'] = var11;
-    var7['text'] = var10;
-    var7 = var8.bind(var9)(var7);
+    var14 = 6;
+    var15 = var6[var14];
+    var15 = var8.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.MOBILE_TYPING_INDICATOR_BACKGROUND_DEFAULT;
+    var12['backgroundColor'] = var15;
+    var7['typingWrapper'] = var12;
+    var12 = {'justifyContent': 'space-between', 'flexDirection': 'row', 'alignItems': 'center'};
+    var7['wrapperHoriz'] = var12;
+    var12 = {'marginRight': null, 'alignItems': 'center', 'flexDirection': 'row', 'flex': 1};
+    var14 = var6[var14];
+    var14 = var8.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var12['marginRight'] = var14;
+    var7['horiz'] = var12;
+    var12 = {};
+    var12['flex'] = var13;
+    var7['text'] = var12;
+    var7 = var10.bind(var11)(var7);
     var _closure1_slot9 = var7;
     var7 = {};
-    var8 = "function TypingIndicatorTsx1(){const{typingIndicatorLayout,transitionState,TransitionStates,withSpring,springStandard,runOnJS,cleanUp}=this.__closure;const layout=typingIndicatorLayout.get();const laidOutAndTransitioned=layout!=null&&layout.y.toFixed(2)===layout.height.toFixed(2)&&transitionState!==TransitionStates.YEETED;return{opacity:!laidOutAndTransitioned?0:1,top:layout===null||layout===void 0?void 0:layout.height,transform:[{translateY:withSpring(laidOutAndTransitioned?-layout.height:0,springStandard,'respect-motion-settings',function(finished){if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}})}]};}";
-    var7['code'] = var8;
+    var10 = "function TypingIndicatorTsx1(){const{typingIndicatorLayout,transitionState,TransitionStates,withSpring,springStandard,runOnJS,cleanUp}=this.__closure;const layout=typingIndicatorLayout.get();const laidOutAndTransitioned=layout!=null&&layout.y.toFixed(2)===layout.height.toFixed(2)&&transitionState!==TransitionStates.YEETED;return{opacity:!laidOutAndTransitioned?0:1,top:layout===null||layout===void 0?void 0:layout.height,transform:[{translateY:withSpring(laidOutAndTransitioned?-layout.height:0,springStandard,'respect-motion-settings',function(finished){if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}})}]};}";
+    var7['code'] = var10;
     var _closure1_slot10 = var7;
     var7 = {};
-    var8 = 'function TypingIndicatorTsx2(finished){const{transitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
-    var7['code'] = var8;
+    var10 = 'function TypingIndicatorTsx2(finished){const{transitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
+    var7['code'] = var10;
     var _closure1_slot11 = var7;
+    var7 = 7;
+    var7 = var6[var7];
+    var8 = var8.bind(var1)(var7);
+    var7 = {};
+    var7 = var9.bind(var1)(var8, var7);
+    var _closure1_slot12 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -455,13 +454,13 @@ case 22:
         };
         var6 = var6.bind(var8)(var1, var3);
         var3 = _closure1_slot7;
-        var1 = 9;
+        var1 = 10;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.TransitionItem;
         var1 = {};
         var1['item'] = var6;
-        var5 = _closure1_slot13;
+        var5 = _closure1_slot14;
         var1['renderItem'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

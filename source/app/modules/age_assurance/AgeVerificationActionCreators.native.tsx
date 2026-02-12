@@ -258,44 +258,43 @@ case 17:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 11; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 21; continue _fun0004 }
 case 12:
-                        var6 = undefined;
-                        var _closure4_slot0 = var6;
-                        var5 = _closure1_slot0;
+                        var7 = undefined;
+                        var _closure4_slot0 = var7;
+                        var6 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var4 = 9;
-                        var4 = var2[var4];
-                        var5 = var5.bind(var6)(var4);
-                        var4 = 13;
-                        var4 = var2[var4];
+                        var5 = 9;
+                        var5 = var2[var5];
+                        var6 = var6.bind(var7)(var5);
+                        var5 = 13;
+                        var5 = var2[var5];
                         var2 = var2.paths;
-                        var2 = var5.bind(var6)(var4, var2);
+                        var2 = var6.bind(var7)(var5, var2);
                         SaveGenerator(address=60);
 case 13:
                         return var2;
 case 14:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0004_ip = 15; continue _fun0004 }
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0004_ip = 22; continue _fun0004 }
 case 16:
-                        var4 = var2.default;
+                        var6 = var2.default;
+                        var5 = _closure1_slot8;
+                        var4 = {};
+                        var9 = _closure2_slot0;
+                        var4['entryPoint'] = var9;
+                        var8 = _closure2_slot1;
+                        var4['isRetry'] = var8;
+                        var4 = var5.bind(var7)(var6, var4);
                         _closure4_slot0 = var4;
                         var3 = function() {
-                            var4 = _closure1_slot8;
-                            var3 = _closure4_slot0;
-                            var2 = {};
-                            var5 = _closure2_slot0;
-                            var2['entryPoint'] = var5;
-                            var1 = _closure2_slot1;
-                            var2['isRetry'] = var1;
-                            var1 = undefined;
-                            var1 = var4.bind(var1)(var3, var2);
+                            var1 = _closure4_slot0;
                             return var1;
                         };
                         return var3;
-case 15:
+case 22:
                         return var2;
-case 11:
+case 21:
                         return var1;
                     }
                 };

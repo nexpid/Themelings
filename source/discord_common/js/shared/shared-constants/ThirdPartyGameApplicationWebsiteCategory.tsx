@@ -1,4 +1,4 @@
-// discord_common/js/shared/shared-constants/IGDBWebsiteCategory.tsx
+// discord_common/js/shared/shared-constants/ThirdPartyGameApplicationWebsiteCategory.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -82,6 +82,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BLUESKY'] = var4;
     var1 = 'BLUESKY';
     var2[var4] = var1;
+    var4 = 20;
+    var2['BATTLENET'] = var4;
+    var1 = 'BATTLENET';
+    var2[var4] = var1;
+    var4 = 21;
+    var2['RIOT'] = var4;
+    var1 = 'RIOT';
+    var2[var4] = var1;
+    var4 = 22;
+    var2['ROBLOX'] = var4;
+    var1 = 'ROBLOX';
+    var2[var4] = var1;
+    var4 = 23;
+    var2['MINECRAFT'] = var4;
+    var1 = 'MINECRAFT';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];
@@ -89,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = '../discord_common/js/shared/shared-constants/IGDBWebsiteCategory.tsx';
+    var4 = '../discord_common/js/shared/shared-constants/ThirdPartyGameApplicationWebsiteCategory.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['IGDBWebsiteCategory'] = var2;
+    var3['ThirdPartyGameApplicationWebsiteCategory'] = var2;
     return var1;
 })();

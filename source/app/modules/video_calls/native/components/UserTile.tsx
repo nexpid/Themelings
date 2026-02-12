@@ -713,16 +713,16 @@ case 47:
 case 46:
             var3 = var10 == var6;
             var2 = undefined;
-            if(var3) { _fun0006_ip = 33; continue _fun0006 }
-case 48:
+            if(var3) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var3 = var6.isVoiceDeafened;
             var2 = var3.bind(var6)();
-case 33:
+case 48:
             var14 = var10 != var2;
-            if(!var14) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+            if(!var14) { _fun0006_ip = 50; continue _fun0006 }
+case 51:
             var14 = var2;
-case 49:
+case 50:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var11 = 14;
@@ -744,8 +744,8 @@ case 0:
                     var3 = var1.id;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0010_ip = 51; continue _fun0010 }
-case 52:
+                    if(!var1) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                     var5 = _closure1_slot10;
                     var4 = var5.isLocalVideoDisabled;
                     var3 = _closure2_slot4;
@@ -760,7 +760,7 @@ case 52:
                     var2 = var2.type;
                     var2 = var6.bind(var7)(var2);
                     var1 = var4.bind(var5)(var3, var2);
-case 51:
+case 52:
                     return var1;
                 }
             };
@@ -772,17 +772,17 @@ case 51:
             var2 = var2.bind(var3)();
             var6 = var10 == var2;
             var3 = undefined;
-            if(var6) { _fun0006_ip = 53; continue _fun0006 }
-case 54:
+            if(var6) { _fun0006_ip = 54; continue _fun0006 }
+case 55:
             var3 = var2.swipeDismissRef;
-case 53:
+case 54:
             var2 = var1.user;
             var6 = var10 == var2;
             var19 = undefined;
-            if(var6) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
+            if(var6) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var19 = var2.id;
-case 55:
+case 56:
             _closure2_slot5 = var19;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -798,13 +798,13 @@ case 0:
                     var3 = _closure2_slot5;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+                    if(!var3) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
                     var4 = _closure1_slot6;
                     var3 = var4.getEffectForUserId;
                     var2 = _closure2_slot5;
                     var1 = var3.bind(var4)(var2);
-case 57:
+case 58:
                     return var1;
                 }
             };
@@ -813,14 +813,14 @@ case 57:
             var1 = _closure1_slot12;
             var1 = var1.USER;
             var11 = var2 === var1;
-            if(!var11) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
-            var11 = var10 != var19;
-case 59:
-            if(!var11) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
-            var11 = var10 != var21;
+            if(!var11) { _fun0006_ip = 60; continue _fun0006 }
 case 61:
+            var11 = var10 != var19;
+case 60:
+            if(!var11) { _fun0006_ip = 62; continue _fun0006 }
+case 63:
+            var11 = var10 != var21;
+case 62:
             var6 = _closure1_slot1;
             var1 = _closure1_slot2;
             var2 = 30;
@@ -843,11 +843,11 @@ case 61:
             var1 = 800;
             var2 = var2.bind(var5)(var1);
             var7 = var2;
-            if(!(var10 != var3)) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
+            if(!(var10 != var3)) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
             var1 = var2.requireExternalGestureToFail;
             var7 = var1.bind(var2)(var3);
-case 63:
+case 64:
             var3 = _closure1_slot14;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -872,10 +872,10 @@ case 63:
             var16 = _closure1_slot18;
             var8 = {};
             var8['guildId'] = var29;
-            if(!var27) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
+            if(!var27) { _fun0006_ip = 66; continue _fun0006 }
+case 67:
             var27 = !var28;
-case 65:
+case 66:
             var8['hasVideo'] = var27;
             var8['streamId'] = var26;
             var8['user'] = var13;
@@ -888,8 +888,8 @@ case 65:
             var8 = new Array(3);
             var8[0] = var16;
             var10 = null;
-            if(!var11) { _fun0006_ip = 67; continue _fun0006 }
-case 68:
+            if(!var11) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
             var17 = _closure1_slot14;
             var16 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -909,7 +909,7 @@ case 68:
             var11['userId'] = var19;
             var11['hasNotch'] = var18;
             var10 = var17.bind(var4)(var16, var11);
-case 67:
+case 68:
             var8[1] = var10;
             var11 = _closure1_slot14;
             var10 = _closure1_slot19;

@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/shared_components/BadgableTabBarIcon.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var17 = metroImportDefault;
+    var18 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var17;
+    var _closure1_slot1 = var18;
     var _closure1_slot2 = var6;
     var1 = function BadgeContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -97,7 +97,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function useIconContentStyle(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -164,7 +164,7 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function useIconBadgeCutout(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -266,7 +266,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -281,33 +281,33 @@ case 30:
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
-    var12 = 1;
-    var4 = var6[var12];
+    var13 = 1;
+    var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot4 = var7;
     var4 = var4.Image;
     var _closure1_slot5 = var4;
-    var15 = 2;
-    var4 = var6[var15];
-    var4 = var17.bind(var1)(var4);
+    var16 = 2;
+    var4 = var6[var16];
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var14 = var4.BADGE_SIZE;
+    var15 = var4.BADGE_SIZE;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -321,8 +321,8 @@ case 30:
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot12 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot12 = var8;
     var4 = var4.jsxs;
     var _closure1_slot13 = var4;
     var4 = 10;
@@ -334,78 +334,78 @@ case 30:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AvatarSizes;
     var4 = var4.NORMAL;
-    var13 = var7[var4];
-    var _closure1_slot14 = var13;
-    var16 = 12;
-    var4 = var6[var16];
-    var4 = var17.bind(var1)(var4);
+    var14 = var7[var4];
+    var _closure1_slot14 = var14;
+    var17 = 12;
+    var4 = var6[var17];
+    var4 = var18.bind(var1)(var4);
     var4 = var4.spacing;
-    var11 = var4.PX_4;
-    var _closure1_slot15 = var11;
+    var12 = var4.PX_4;
+    var _closure1_slot15 = var12;
     var4 = 13;
     var7 = var6[var4];
-    var9 = var5.bind(var1)(var7);
-    var8 = var9.createStyles;
+    var10 = var5.bind(var1)(var7);
+    var9 = var10.createStyles;
     var7 = {};
-    var10 = {};
-    var18 = 'relative';
-    var10['position'] = var18;
-    var7['container'] = var10;
-    var10 = {};
-    var18 = 'absolute';
-    var10['position'] = var18;
-    var7['content'] = var10;
-    var10 = {};
-    var16 = var6[var16];
-    var16 = var17.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var16 = var16.PRIMARY_400;
-    var10['backgroundColor'] = var16;
-    var7['lowPriorityBadge'] = var10;
-    var10 = {'height': 22, 'width': 22};
-    var14 = var14 / var15;
-    var10['borderRadius'] = var14;
-    var7['unread'] = var10;
-    var10 = {};
-    var10['width'] = var13;
-    var10['height'] = var13;
-    var7['avatarTablet'] = var10;
-    var10 = {};
-    var10['padding'] = var11;
-    var7['avatarCutoutWrapper'] = var10;
-    var10 = {};
-    var11 = 14;
-    var13 = var6[var11];
+    var11 = {};
+    var19 = 'relative';
+    var11['position'] = var19;
+    var7['container'] = var11;
+    var11 = {};
+    var19 = 'absolute';
+    var11['position'] = var19;
+    var7['content'] = var11;
+    var11 = {};
+    var17 = var6[var17];
+    var17 = var18.bind(var1)(var17);
+    var17 = var17.unsafe_rawColors;
+    var17 = var17.PRIMARY_400;
+    var11['backgroundColor'] = var17;
+    var7['lowPriorityBadge'] = var11;
+    var11 = {'height': 22, 'width': 22};
+    var15 = var15 / var16;
+    var11['borderRadius'] = var15;
+    var7['unread'] = var11;
+    var11 = {};
+    var11['width'] = var14;
+    var11['height'] = var14;
+    var7['avatarTablet'] = var11;
+    var11 = {};
+    var11['padding'] = var12;
+    var7['avatarCutoutWrapper'] = var11;
+    var11 = {};
+    var12 = 14;
+    var14 = var6[var12];
+    var14 = var5.bind(var1)(var14);
+    var14 = var14.ICON_SIZE;
+    var14 = var14.md;
+    var11['width'] = var14;
+    var14 = var6[var12];
+    var14 = var5.bind(var1)(var14);
+    var14 = var14.ICON_SIZE;
+    var14 = var14.md;
+    var11['height'] = var14;
+    var11['opacity'] = var13;
+    var7['tabBarIconSelected'] = var11;
+    var11 = {};
+    var13 = var6[var12];
     var13 = var5.bind(var1)(var13);
     var13 = var13.ICON_SIZE;
     var13 = var13.md;
-    var10['width'] = var13;
-    var13 = var6[var11];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.ICON_SIZE;
-    var13 = var13.md;
-    var10['height'] = var13;
-    var10['opacity'] = var12;
-    var7['tabBarIconSelected'] = var10;
-    var10 = {};
-    var12 = var6[var11];
+    var11['width'] = var13;
+    var12 = var6[var12];
     var12 = var5.bind(var1)(var12);
     var12 = var12.ICON_SIZE;
     var12 = var12.md;
-    var10['width'] = var12;
-    var11 = var6[var11];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.ICON_SIZE;
-    var11 = var11.md;
-    var10['height'] = var11;
-    var11 = 0.5;
-    var10['opacity'] = var11;
-    var7['tabBarIconUnselected'] = var10;
-    var7 = var8.bind(var9)(var7);
+    var11['height'] = var12;
+    var12 = 0.5;
+    var11['opacity'] = var12;
+    var7['tabBarIconUnselected'] = var11;
+    var7 = var9.bind(var10)(var7);
     var _closure1_slot16 = var7;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = function(arg1) {
         var8 = arg1;
         var1 = {};
@@ -444,12 +444,19 @@ case 30:
         var1['usernameTablet'] = var2;
         return var1;
     };
-    var4 = var7.bind(var8)(var4);
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot17 = var4;
     var4 = {};
     var7 = 'function BadgableTabBarIconTsx1(){const{scaleDownAnimation,rotationAnimation,wobbleAnimationX,wobbleAnimationY}=this.__closure;return{transform:[{scale:scaleDownAnimation.get()},{rotate:rotationAnimation.get()+"deg"},{scaleX:wobbleAnimationX.get()},{scaleY:wobbleAnimationY.get()}]};}';
     var4['code'] = var7;
     var _closure1_slot18 = var4;
+    var4 = 20;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MobileTrialUserSettingsAvatarBadge;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot19 = var4;
     var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -494,7 +501,7 @@ case 33:
 case 31:
             var21 = var6.tabBarIconSelected;
 case 34:
-            var9 = _closure1_slot20;
+            var9 = _closure1_slot21;
             var7 = {};
             var7['iconSize'] = var11;
             var9 = var9.bind(var4)(var7);
@@ -502,7 +509,7 @@ case 34:
             var23 = var1.value;
             var19 = var1.showDot;
             var18 = var1.lowPriority;
-            var7 = _closure1_slot21;
+            var7 = _closure1_slot22;
             var1 = {};
             var1['iconSize'] = var11;
             var11 = 11;
@@ -585,7 +592,7 @@ case 45:
             var8[1] = var9;
             var2['style'] = var8;
             var16 = _closure1_slot12;
-            var9 = _closure1_slot19;
+            var9 = _closure1_slot20;
             var8 = {};
             var8['value'] = var23;
             var8['countA11yLabel'] = var22;
@@ -718,7 +725,7 @@ case 0:
             var _closure2_slot10 = var4;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 20;
+            var2 = 21;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useTabletIconYouWidth;
@@ -739,7 +746,7 @@ case 57:
 case 34:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var9 = 21;
+            var9 = 22;
             var3 = var1[var9];
             var12 = var2.bind(var4)(var3);
             var8 = var12.useStateFromStores;
@@ -754,7 +761,7 @@ case 34:
             };
             var14 = var8.bind(var12)(var7, var3);
             var7 = _closure1_slot1;
-            var3 = 22;
+            var3 = 23;
             var3 = var1[var3];
             var7 = var7.bind(var4)(var3);
             var3 = var7.useName;
@@ -782,7 +789,7 @@ case 59:
 case 58:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 23;
+            var2 = 24;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useIsEligibleForPomelo;
@@ -812,7 +819,7 @@ case 60:
             var15 = _closure1_slot3;
             var12 = var15.useRef;
             var15 = var12.bind(var15)(var7);
-            var12 = 24;
+            var12 = 25;
             var2 = var2[var12];
             var16 = var3.bind(var4)(var2);
             var3 = var16.useGuildTagAvailableCoachmark;
@@ -872,14 +879,14 @@ case 70:
             var2 = var3.useRef;
             var33 = var2.bind(var3)(var7);
             _closure2_slot2 = var33;
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot21;
             var2 = {};
             var2['iconSize'] = var9;
             var12 = _closure1_slot15;
             var2['offset'] = var12;
             var2['adjustForYouTab'] = var6;
             var21 = var3.bind(var4)(var2);
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot22;
             var2 = {'iconSize': null, 'cutoutRadius': 11, 'badgeCount': 0};
             var2['iconSize'] = var9;
             var39 = 11;
@@ -888,7 +895,7 @@ case 70:
             var2 = var3.bind(var4)(var2);
             var12 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var28 = 25;
+            var28 = 26;
             var9 = var3[var28];
             var16 = var12.bind(var4)(var9);
             var9 = var16.useSharedValue;
@@ -922,12 +929,12 @@ case 70:
                 var3 = var4.set;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 25;
+                var1 = 26;
                 var2 = var9[var1];
                 var1 = undefined;
                 var7 = var8.bind(var1)(var2);
                 var6 = var7.withSequence;
-                var2 = 26;
+                var2 = 27;
                 var5 = var9[var2];
                 var12 = var8.bind(var1)(var5);
                 var11 = var12.withSpring;
@@ -953,7 +960,7 @@ case 70:
                 var3 = var4.set;
                 var12 = _closure1_slot0;
                 var15 = _closure1_slot2;
-                var2 = 25;
+                var2 = 26;
                 var5 = var15[var2];
                 var1 = undefined;
                 var7 = var12.bind(var1)(var5);
@@ -961,11 +968,11 @@ case 70:
                 var2 = var15[var2];
                 var11 = var12.bind(var1)(var2);
                 var10 = var11.withSequence;
-                var13 = 26;
+                var13 = 27;
                 var2 = var15[var13];
                 var14 = var12.bind(var1)(var2);
                 var9 = var14.withSpring;
-                var2 = 27;
+                var2 = 28;
                 var5 = var15[var2];
                 var5 = var12.bind(var1)(var5);
                 var8 = var5.springStandard;
@@ -1016,7 +1023,7 @@ case 70:
                 var5 = var6.set;
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var8 = 25;
+                var8 = 26;
                 var2 = var20[var8];
                 var1 = undefined;
                 var10 = var19.bind(var1)(var2);
@@ -1024,11 +1031,11 @@ case 70:
                 var2 = var20[var8];
                 var22 = var19.bind(var1)(var2);
                 var21 = var22.withSequence;
-                var16 = 26;
+                var16 = 27;
                 var2 = var20[var16];
                 var12 = var19.bind(var1)(var2);
                 var11 = var12.withSpring;
-                var2 = 27;
+                var2 = 28;
                 var4 = var20[var2];
                 var4 = var19.bind(var1)(var4);
                 var7 = var4.springStandard;
@@ -1191,7 +1198,7 @@ case 40:
             var9 = var3[var28];
             var18 = var12.bind(var4)(var9);
             var16 = var18.useAnimatedStyle;
-            var9 = function U() {
+            var9 = function X() {
                 var1 = {};
                 var3 = {};
                 var5 = _closure2_slot3;
@@ -1383,7 +1390,7 @@ case 90:
 case 92:
             var38 = _closure1_slot1;
             var39 = _closure1_slot2;
-            var37 = 29;
+            var37 = 30;
             var37 = var39[var37];
             var36 = var38.bind(var4)(var37);
 case 91:
@@ -1404,7 +1411,7 @@ case 93:
 case 78:
             var30 = _closure1_slot0;
             var34 = _closure1_slot2;
-            var29 = 28;
+            var29 = 29;
             var29 = var34[var29];
             var29 = var30.bind(var4)(var29);
             var30 = var29.YouTabLottie;
@@ -1444,7 +1451,7 @@ case 99:
             var22 = _closure1_slot12;
             var21 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var20 = 30;
+            var20 = 31;
             var20 = var25[var20];
             var21 = var21.bind(var4)(var20);
             var20 = {};
@@ -1473,7 +1480,7 @@ case 103:
             var15 = _closure1_slot12;
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var9 = 31;
+            var9 = 32;
             var9 = var18[var9];
             var12 = var17.bind(var4)(var9);
             var9 = {};
@@ -1483,22 +1490,14 @@ case 103:
             var16 = var16.colors;
             var16 = var16.STATUS_WARNING;
             var9['themedColor'] = var16;
-            var16 = 32;
+            var16 = 33;
             var16 = var18[var16];
             var16 = var17.bind(var4)(var16);
             var9['source'] = var16;
             var8 = var15.bind(var4)(var12, var9);
 case 102:
             var5[1] = var8;
-            var12 = _closure1_slot12;
-            var9 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var8 = 33;
-            var8 = var15[var8];
-            var8 = var9.bind(var4)(var8);
-            var9 = var8.MobileTrialUserSettingsAvatarBadge;
-            var8 = {};
-            var8 = var12.bind(var4)(var9, var8);
+            var8 = _closure1_slot19;
             var5[2] = var8;
             if(!var6) { _fun0009_ip = 104; continue _fun0009 }
 case 105:

@@ -1,15 +1,15 @@
 // app/modules/guild_role_subscriptions/native/components/FormImagePicker.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var14 = metroImportDefault;
+    var15 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var8;
     var1 = function pickImage() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _pickImage() {
         var5 = undefined;
         var1 = undefined;
@@ -67,7 +67,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -75,7 +75,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
     var2 = function ImagePickerIcon(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -153,7 +153,7 @@ case 24:
                     var4 = var3.uri;
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 9;
                     var5 = var10[var1];
                     var6 = var8.bind(var9)(var5);
                     var5 = var6.getBestMediaProxySize;
@@ -183,14 +183,14 @@ case 25:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var1 = 8;
+            var1 = 10;
             var1 = var15[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var6 = 'button';
             var1['accessibilityRole'] = var6;
             var14 = _closure1_slot0;
-            var6 = 9;
+            var6 = 11;
             var9 = var15[var6];
             var9 = var14.bind(var4)(var9);
             var11 = var9.intl;
@@ -205,7 +205,7 @@ case 25:
             var6['disabled'] = var7;
             var1['accessibilityState'] = var6;
             var5 = function onPress() {
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot12;
                 var3 = _closure2_slot1;
                 var2 = _closure2_slot2;
                 var1 = undefined;
@@ -231,21 +231,13 @@ case 26:
             var6 = null;
             if(!(var6 == var8)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-            var11 = _closure1_slot6;
-            var9 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var5 = 11;
-            var5 = var14[var5];
-            var5 = var9.bind(var4)(var5);
-            var9 = var5.ImagePlusIcon;
-            var5 = {};
-            var9 = var11.bind(var4)(var9, var5);
+            var9 = _closure1_slot10;
             _fun0002_ip = 30; continue _fun0002;
 case 28:
             var14 = _closure1_slot6;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var5 = 10;
+            var5 = 12;
             var5 = var15[var5];
             var11 = var11.bind(var4)(var5);
             var5 = {};
@@ -287,15 +279,7 @@ case 38:
 case 37:
             var11[1] = var12;
             var7['style'] = var11;
-            var12 = _closure1_slot6;
-            var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var10 = 12;
-            var10 = var13[var10];
-            var10 = var11.bind(var4)(var10);
-            var11 = var10.PencilIcon;
-            var10 = {'color': '#292b30', 'size': 'sm'};
-            var10 = var12.bind(var4)(var11, var10);
+            var10 = _closure1_slot11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 35:
@@ -305,7 +289,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot12 = var2;
+    var _closure1_slot14 = var2;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -314,10 +298,10 @@ case 35:
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var6.bind(var9)(var3, var1, var4);
-    var10 = 0;
-    var4 = var8[var10];
+    var11 = 0;
+    var4 = var8[var11];
     var1 = undefined;
-    var4 = var14.bind(var1)(var4);
+    var4 = var15.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var9 = 1;
     var6 = var8[var9];
@@ -332,72 +316,86 @@ case 35:
     var4 = 3;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var6 = var4.jsx;
-    var _closure1_slot6 = var6;
+    var10 = var4.jsx;
+    var _closure1_slot6 = var10;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var8[var4];
-    var11 = var7.bind(var1)(var4);
-    var6 = var11.createStyles;
+    var12 = var7.bind(var1)(var4);
+    var6 = var12.createStyles;
     var4 = {};
-    var12 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'marginHorizontal': 16};
-    var4['imageSelectionRow'] = var12;
-    var12 = {'flex': 1, 'flexDirection': 'column', 'marginEnd': 16};
-    var4['buttonColumn'] = var12;
-    var12 = {'flexWrap': 'wrap', 'marginBottom': 16};
-    var4['imageDescription'] = var12;
-    var12 = {'alignSelf': 'center', 'width': 84, 'height': 84};
-    var4['image'] = var12;
-    var12 = {'alignSelf': 'center', 'width': 20, 'height': 20};
-    var4['imageCentered'] = var12;
-    var12 = {};
-    var13 = 42;
-    var12['borderRadius'] = var13;
-    var4['imageCircle'] = var12;
-    var12 = {};
-    var13 = 5;
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.sm;
-    var12['borderRadius'] = var15;
-    var4['imageSquircle'] = var12;
-    var12 = {};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOWEST;
-    var12['backgroundColor'] = var15;
-    var4['imageContainerEmpty'] = var12;
-    var12 = {'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'top': 0, 'height': 24, 'justifyContent': 'center', 'right': 0, 'padding': 4, 'position': 'absolute', 'width': 24};
-    var15 = var8[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.INTERACTIVE_TEXT_DEFAULT;
-    var12['backgroundColor'] = var15;
-    var13 = var8[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.lg;
-    var12['borderRadius'] = var13;
-    var4['editImageIcon'] = var12;
-    var12 = {'top': 4294967292, 'right': 4294967292};
-    var4['standaloneIcon'] = var12;
-    var12 = {};
-    var13 = 0.3;
-    var12['opacity'] = var13;
-    var4['disabled'] = var12;
-    var4 = var6.bind(var11)(var4);
+    var13 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'marginHorizontal': 16};
+    var4['imageSelectionRow'] = var13;
+    var13 = {'flex': 1, 'flexDirection': 'column', 'marginEnd': 16};
+    var4['buttonColumn'] = var13;
+    var13 = {'flexWrap': 'wrap', 'marginBottom': 16};
+    var4['imageDescription'] = var13;
+    var13 = {'alignSelf': 'center', 'width': 84, 'height': 84};
+    var4['image'] = var13;
+    var13 = {'alignSelf': 'center', 'width': 20, 'height': 20};
+    var4['imageCentered'] = var13;
+    var13 = {};
+    var14 = 42;
+    var13['borderRadius'] = var14;
+    var4['imageCircle'] = var13;
+    var13 = {};
+    var14 = 5;
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.sm;
+    var13['borderRadius'] = var16;
+    var4['imageSquircle'] = var13;
+    var13 = {};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BACKGROUND_BASE_LOWEST;
+    var13['backgroundColor'] = var16;
+    var4['imageContainerEmpty'] = var13;
+    var13 = {'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'top': 0, 'height': 24, 'justifyContent': 'center', 'right': 0, 'padding': 4, 'position': 'absolute', 'width': 24};
+    var16 = var8[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.INTERACTIVE_TEXT_DEFAULT;
+    var13['backgroundColor'] = var16;
+    var14 = var8[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.lg;
+    var13['borderRadius'] = var14;
+    var4['editImageIcon'] = var13;
+    var13 = {'top': 4294967292, 'right': 4294967292};
+    var4['standaloneIcon'] = var13;
+    var13 = {};
+    var14 = 0.3;
+    var13['opacity'] = var14;
+    var4['disabled'] = var13;
+    var4 = var6.bind(var12)(var4);
     var _closure1_slot8 = var4;
     var4 = {};
-    var4['CIRCLE'] = var10;
+    var4['CIRCLE'] = var11;
     var6 = 'CIRCLE';
-    var4[var10] = var6;
+    var4[var11] = var6;
     var4['SQUIRCLE'] = var9;
     var6 = 'SQUIRCLE';
     var4[var9] = var6;
     var _closure1_slot9 = var4;
+    var6 = 7;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.ImagePlusIcon;
+    var6 = {};
+    var6 = var10.bind(var1)(var9, var6);
+    var _closure1_slot10 = var6;
+    var6 = 8;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.PencilIcon;
+    var6 = {'color': '#292b30', 'size': 'sm'};
+    var6 = var10.bind(var1)(var9, var6);
+    var _closure1_slot11 = var6;
     var6 = 15;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -431,7 +429,7 @@ case 0:
 case 40:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 11;
             var2 = var7[var1];
             var2 = var5.bind(var4)(var2);
             var3 = var2.intl;
@@ -445,7 +443,7 @@ case 40:
 case 39:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 11;
             var2 = var7[var1];
             var2 = var5.bind(var4)(var2);
             var3 = var2.intl;
@@ -498,7 +496,7 @@ case 41:
             var22 = var22.FILLED;
             var15['look'] = var22;
             var21 = function onPress() {
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot12;
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
                 var1 = undefined;
@@ -519,7 +517,7 @@ case 41:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot6;
-            var7 = _closure1_slot12;
+            var7 = _closure1_slot14;
             var6 = {};
             var25 = var6;
             var24 = var9;

@@ -1,11 +1,11 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionBenefitPreview.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var10 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var10;
     var _closure1_slot2 = var6;
     var1 = function BaseBenefitRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -36,7 +36,7 @@ case 2:
             var15 = _closure1_slot5;
             var14 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var10 = 5;
+            var10 = 7;
             var10 = var18[var10];
             var14 = var14.bind(var4)(var10);
             var10 = {};
@@ -62,18 +62,7 @@ case 2:
             var6 = var6 === var8;
             if(!var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var9 = _closure1_slot5;
-            var11 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var7 = 6;
-            var7 = var12[var7];
-            var8 = var11.bind(var4)(var7);
-            var7 = {};
-            var10 = 7;
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var7['source'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
+            var6 = _closure1_slot8;
 case 4:
             var5[2] = var6;
             var1['children'] = var5;
@@ -81,7 +70,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function DescriptiveBenefitRow(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -134,7 +123,7 @@ case 10:
             var9 = var2;
 case 8:
             var3 = _closure1_slot6;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var1 = {};
             var1['emoji'] = var9;
             var1['guildId'] = var8;
@@ -147,7 +136,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function ChannelBenefitRow(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +171,7 @@ case 12:
             if(!(var1 != var13)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
             var4 = _closure1_slot5;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var1 = {};
             var1['benefit'] = var8;
             var1['guildId'] = var7;
@@ -195,7 +184,7 @@ case 15:
             var11 = _closure1_slot5;
             var16 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var15 = 6;
+            var15 = 5;
             var9 = var14[var15];
             var10 = var16.bind(var5)(var9);
             var9 = {};
@@ -257,14 +246,14 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function IntangibleBenefitRow(arg1) {
         var1 = arg1;
         var8 = var1.benefit;
         var6 = var1.guildId;
         var5 = var1.isInteractive;
         var4 = _closure1_slot5;
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot10;
         var2 = {};
         var2['benefit'] = var8;
         var2['guildId'] = var6;
@@ -285,7 +274,7 @@ case 16:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function EmojiBenefitRow(arg1) {
         var1 = arg1;
         var14 = var1.benefit;
@@ -295,7 +284,7 @@ case 16:
         var4 = undefined;
         var9 = var1.bind(var4)();
         var3 = _closure1_slot6;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot9;
         var1 = {};
         var7 = var14.id;
         var1['emoji'] = var7;
@@ -338,7 +327,7 @@ case 16:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -357,42 +346,52 @@ case 16:
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
-    var10 = 2;
-    var4 = var6[var10];
+    var12 = 2;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildRoleSubscriptionBenefitTypes;
     var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot5 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot5 = var8;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {'flexDirection': 'row', 'justifyContent': 'flex-start'};
-    var4['container'] = var9;
-    var9 = {'width': 24, 'height': 24, 'alignSelf': 'flex-start', 'alignItems': 'center', 'justifyContent': 'center', 'marginEnd': 16};
-    var4['emojiContainer'] = var9;
-    var9 = {'flexDirection': 'column', 'flexGrow': 1, 'flex': 1, 'alignItems': 'flex-start', 'justifyContent': 'center'};
-    var4['benefitColumn'] = var9;
-    var9 = {'flex': 1, 'marginTop': 2};
-    var4['benefitDescription'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};
-    var4['channelRow'] = var9;
-    var9 = {'width': 16, 'height': 16, 'marginEnd': 8};
-    var4['channelIcon'] = var9;
-    var9 = {'flexDirection': 'row', 'justifyContent': 'flex-start', 'alignItems': 'center'};
-    var4['emojiRow'] = var9;
-    var9 = {};
-    var9['paddingHorizontal'] = var10;
-    var4['emojiColons'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-start'};
+    var4['container'] = var11;
+    var11 = {'width': 24, 'height': 24, 'alignSelf': 'flex-start', 'alignItems': 'center', 'justifyContent': 'center', 'marginEnd': 16};
+    var4['emojiContainer'] = var11;
+    var11 = {'flexDirection': 'column', 'flexGrow': 1, 'flex': 1, 'alignItems': 'flex-start', 'justifyContent': 'center'};
+    var4['benefitColumn'] = var11;
+    var11 = {'flex': 1, 'marginTop': 2};
+    var4['benefitDescription'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};
+    var4['channelRow'] = var11;
+    var11 = {'width': 16, 'height': 16, 'marginEnd': 8};
+    var4['channelIcon'] = var11;
+    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-start', 'alignItems': 'center'};
+    var4['emojiRow'] = var11;
+    var11 = {};
+    var11['paddingHorizontal'] = var12;
+    var4['emojiColons'] = var11;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var7 = var10.bind(var1)(var4);
+    var4 = {};
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var10.bind(var1)(var9);
+    var4['source'] = var9;
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot8 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -416,7 +415,7 @@ case 18:
             if(!(var4 !== var1)) { _fun0004_ip = 19; continue _fun0004 }
 case 7:
             var8 = _closure1_slot5;
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot12;
             var4 = {};
             var4['benefit'] = var7;
             var4['guildId'] = var6;
@@ -426,7 +425,7 @@ case 7:
             _fun0004_ip = 20; continue _fun0004;
 case 19:
             var9 = _closure1_slot5;
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot11;
             var5 = {};
             var5['benefit'] = var7;
             var5['guildId'] = var6;
@@ -437,7 +436,7 @@ case 20:
             _fun0004_ip = 21; continue _fun0004;
 case 17:
             var5 = _closure1_slot5;
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var3 = {};
             var3['benefit'] = var7;
             var3['guildId'] = var6;

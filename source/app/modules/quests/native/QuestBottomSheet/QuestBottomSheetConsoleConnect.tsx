@@ -1,11 +1,11 @@
 // app/modules/quests/native/QuestBottomSheet/QuestBottomSheetConsoleConnect.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function NonInlineConsoleConnection(arg1) {
         var1 = arg1;
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function(arg1) {
             var1 = arg1;
             var5 = _closure1_slot6;
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot10;
             var3 = {};
             var9 = var3;
             var8 = var1;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot9 = var1;
     var1 = function ConsoleRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -73,7 +73,7 @@ case 4:
             var4 = _closure1_slot6;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 17;
+            var1 = 19;
             var1 = var9[var1];
             var3 = undefined;
             var1 = var12.bind(var3)(var1);
@@ -81,15 +81,9 @@ case 4:
             var1 = {};
             var10 = true;
             var1['arrow'] = var10;
-            var13 = _closure1_slot6;
-            var10 = 20;
-            var10 = var9[var10];
-            var10 = var12.bind(var3)(var10);
-            var11 = var10.XboxNeutralIcon;
-            var10 = {};
-            var10 = var13.bind(var3)(var11, var10);
+            var10 = _closure1_slot8;
             var1['icon'] = var10;
-            var14 = 19;
+            var14 = 20;
             var10 = var9[var14];
             var10 = var12.bind(var3)(var10);
             var11 = var10.intl;
@@ -132,7 +126,7 @@ case 2:
             var4 = _closure1_slot6;
             var13 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 17;
+            var1 = 19;
             var1 = var9[var1];
             var3 = undefined;
             var1 = var13.bind(var3)(var1);
@@ -140,15 +134,9 @@ case 2:
             var1 = {};
             var10 = true;
             var1['arrow'] = var10;
-            var12 = _closure1_slot6;
-            var10 = 18;
-            var10 = var9[var10];
-            var10 = var13.bind(var3)(var10);
-            var11 = var10.PlaystationNeutralIcon;
-            var10 = {};
-            var10 = var12.bind(var3)(var11, var10);
+            var10 = _closure1_slot7;
             var1['icon'] = var10;
-            var11 = 19;
+            var11 = 20;
             var10 = var9[var11];
             var10 = var13.bind(var3)(var10);
             var12 = var10.intl;
@@ -189,7 +177,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -218,34 +206,48 @@ case 8:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
     var7 = var4.jsxs;
     var4 = var4.Fragment;
-    var10 = 4;
-    var4 = var6[var10];
-    var4 = var11.bind(var1)(var4);
+    var11 = 4;
+    var4 = var6[var11];
+    var4 = var12.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
     var4 = var4.XBOX;
-    var4 = var6[var10];
-    var4 = var11.bind(var1)(var4);
+    var4 = var6[var11];
+    var4 = var12.bind(var1)(var4);
     var4 = var4.unsafe_rawColors;
     var4 = var4.PLAYSTATION;
     var4 = 5;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'justifyContent': 'space-between'};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_16;
-    var9['gap'] = var10;
-    var4['platformButtonsContainer'] = var9;
-    var9 = {'flex': 1, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
-    var4['platformButton'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {'display': 'flex', 'flexDirection': 'row', 'gap': null, 'justifyContent': 'space-between'};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_16;
+    var10['gap'] = var11;
+    var4['platformButtonsContainer'] = var10;
+    var10 = {'flex': 1, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
+    var4['platformButton'] = var10;
+    var4 = var7.bind(var9)(var4);
+    var4 = 17;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PlaystationNeutralIcon;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot7 = var4;
+    var4 = 18;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.XboxNeutralIcon;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot8 = var4;
     var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -344,7 +346,7 @@ case 8:
         };
         var _closure2_slot5 = var2;
         var3 = _closure1_slot6;
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot9;
         var1 = {};
         var1['consoles'] = var6;
         var5 = function onConsoleSelect(arg1) {

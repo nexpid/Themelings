@@ -40,8 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.jsx;
-    var _closure1_slot8 = var5;
+    var9 = var4.jsx;
+    var _closure1_slot8 = var9;
     var4 = var4.jsxs;
     var _closure1_slot9 = var4;
     var4 = 5;
@@ -49,12 +49,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var4);
     var5 = var8.createStyles;
     var4 = {};
-    var9 = {'flex': 1, 'height': '100%'};
-    var4['container'] = var9;
-    var9 = {'height': '100%', 'flex': 1, 'justifyContent': 'space-between'};
-    var4['modal'] = var9;
-    var9 = {'flexGrow': 0, 'paddingLeft': 16, 'paddingTop': 16, 'paddingRight': 16};
-    var4['button'] = var9;
+    var10 = {'flex': 1, 'height': '100%'};
+    var4['container'] = var10;
+    var10 = {'height': '100%', 'flex': 1, 'justifyContent': 'space-between'};
+    var4['modal'] = var10;
+    var10 = {'flexGrow': 0, 'paddingLeft': 16, 'paddingTop': 16, 'paddingRight': 16};
+    var4['button'] = var10;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = {};
@@ -65,6 +65,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'STEP_3';
     var4['STEP_3'] = var5;
     var _closure1_slot11 = var4;
+    var5 = 6;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.SceneLoadingIndicator;
+    var5 = {};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot12 = var5;
     var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -90,7 +97,7 @@ case 0:
             var13 = var1.bind(var5)();
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var4[var1];
             var6 = var3.bind(var5)(var1);
             var4 = var6.useStateFromStoresObject;
@@ -120,7 +127,7 @@ case 2:
             _closure2_slot3 = var3;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 7;
+            var4 = 8;
             var4 = var7[var4];
             var6 = var6.bind(var5)(var4);
             var4 = var6.useNavigation;
@@ -138,7 +145,7 @@ case 0:
 case 5:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -146,7 +153,7 @@ case 5:
                     var1 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -272,15 +279,7 @@ case 14:
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 16; continue _fun0001;
 case 6:
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 10;
-            var2 = var6[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.SceneLoadingIndicator;
-            var2 = {};
-            var1 = var4.bind(var5)(var3, var2);
+            var1 = _closure1_slot12;
 case 16:
             return var1;
         }

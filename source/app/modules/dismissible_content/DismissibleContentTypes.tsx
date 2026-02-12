@@ -309,8 +309,13 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var20 = var14.BOOST_TO_UNLOCK_COACHMARK;
-    var14 = new Array(1);
+    var14 = new Array(2);
     var14[0] = var20;
+    var20 = var22[var2];
+    var20 = var21.bind(var1)(var20);
+    var20 = var20.DismissibleContent;
+    var20 = var20.EXPIRING_POWERUP_COACHMARK;
+    var14[1] = var20;
     var _closure1_slot5 = var14;
     var20 = var4.Object;
     var4 = var20.keys;

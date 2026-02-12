@@ -1,11 +1,11 @@
 // app/uikit-native/AutocompleteUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var4 = function getMentionTextWithUser(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -47,24 +47,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
-    var1 = function AutocompleteFormDivider() {
-        var2 = _closure1_slot13;
-        var4 = undefined;
-        var5 = var2.bind(var4)();
-        var3 = _closure1_slot11;
-        var2 = _closure1_slot1;
-        var6 = _closure1_slot2;
-        var1 = 13;
-        var1 = var6[var1];
-        var2 = var2.bind(var4)(var1);
-        var1 = {};
-        var5 = var5.itemDivider;
-        var1['style'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot15 = var1;
+    var _closure1_slot15 = var4;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -89,7 +72,7 @@ case 4:
     var _closure1_slot3 = var8;
     var8 = 3;
     var8 = var7[var8];
-    var8 = var12.bind(var1)(var8);
+    var8 = var13.bind(var1)(var8);
     var _closure1_slot4 = var8;
     var8 = 4;
     var8 = var7[var8];
@@ -115,27 +98,46 @@ case 4:
     var8 = 7;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
-    var8 = var8.jsx;
-    var _closure1_slot11 = var8;
+    var9 = var8.jsx;
+    var _closure1_slot11 = var9;
     var5 = var5.hairlineWidth;
     var _closure1_slot12 = var5;
     var5 = 8;
     var5 = var7[var5];
-    var9 = var6.bind(var1)(var5);
-    var8 = var9.createStyles;
+    var10 = var6.bind(var1)(var5);
+    var8 = var10.createStyles;
     var5 = {};
-    var10 = {};
-    var11 = 16;
-    var10['marginLeft'] = var11;
-    var11 = 9;
-    var11 = var7[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BORDER_SUBTLE;
-    var10['backgroundColor'] = var11;
-    var5['itemDivider'] = var10;
-    var5 = var8.bind(var9)(var5);
+    var11 = {};
+    var12 = 16;
+    var11['marginLeft'] = var12;
+    var12 = 9;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BORDER_SUBTLE;
+    var11['backgroundColor'] = var12;
+    var5['itemDivider'] = var11;
+    var5 = var8.bind(var10)(var5);
     var _closure1_slot13 = var5;
+    var8 = function AutocompleteFormDivider() {
+        var2 = _closure1_slot13;
+        var4 = undefined;
+        var5 = var2.bind(var4)();
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var1 = 13;
+        var1 = var6[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = {};
+        var5 = var5.itemDivider;
+        var1['style'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var5 = {};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot14 = var5;
     var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -358,7 +360,7 @@ case 15:
             var3 = var1.text;
             return var3;
 case 13:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var3 = var1.user;
             var2 = undefined;
             var1 = arg2;
@@ -369,11 +371,7 @@ case 13:
     var3['getAutocompleteResultText'] = var5;
     var3['getMentionTextWithUser'] = var4;
     var4 = function() {
-        var4 = _closure1_slot11;
-        var3 = _closure1_slot15;
-        var2 = undefined;
-        var1 = {};
-        var1 = var4.bind(var2)(var3, var1);
+        var1 = _closure1_slot14;
         return var1;
     };
     var3['getItemSeparator'] = var4;

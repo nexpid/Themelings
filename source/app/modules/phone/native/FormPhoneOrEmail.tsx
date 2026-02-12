@@ -183,14 +183,12 @@ case 0:
             var10 = var4.hint;
             var1 = var4.onChangeText;
             var _closure2_slot0 = var1;
-            var1 = var4.alpha2;
-            var _closure2_slot1 = var1;
+            var12 = var4.alpha2;
             var1 = var4.countryCode;
-            var _closure2_slot2 = var1;
-            var2 = var4.onPressCountrySelector;
-            var _closure2_slot3 = var2;
+            var _closure2_slot1 = var1;
+            var9 = var4.onPressCountrySelector;
             var17 = var4.forceMode;
-            var _closure2_slot4 = var17;
+            var _closure2_slot2 = var17;
             var3 = {'style': 0, 'textInputStyle': 0, 'label': 0, 'error': 0, 'value': 0, 'hint': 0, 'onChangeText': 0, 'alpha2': 0, 'countryCode': 0, 'onPressCountrySelector': 0, 'forceMode': 0};
             var6 = null;
             var25 = var3;
@@ -211,12 +209,12 @@ case 0:
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
                     var5 = var6.shouldShowCountryCodeSelector;
-                    var3 = _closure2_slot4;
+                    var3 = _closure2_slot2;
                     var5 = var5.bind(var6)(var3, var4);
                     var3 = '';
                     if(!var5) { _fun0003_ip = 2; continue _fun0003 }
 case 6:
-                    var3 = _closure2_slot2;
+                    var3 = _closure2_slot1;
 case 2:
                     var6 = _closure2_slot0;
                     var5 = null;
@@ -237,20 +235,28 @@ case 7:
             var2 = var2[var18];
             var3 = var3.bind(var4)(var2);
             var2 = var3.shouldShowCountryCodeSelector;
-            var2 = var2.bind(var3)(var17, var21);
-            var _closure2_slot5 = var2;
+            var13 = var2.bind(var3)(var17, var21);
+            var8 = _closure1_slot5;
+            var3 = _closure1_slot8;
+            var2 = {};
+            var2['show'] = var13;
+            var2['alpha2'] = var12;
+            var2['countryCode'] = var1;
+            var2['onPress'] = var9;
+            var2 = var8.bind(var4)(var3, var2);
+            var _closure2_slot3 = var2;
             var3 = {};
             var3['handleChangeText'] = var19;
             var3['value'] = var21;
-            var _closure2_slot6 = var3;
+            var _closure2_slot4 = var3;
             var8 = _closure1_slot3;
             var2 = var8.useRef;
             var2 = var2.bind(var8)(var3);
-            var _closure2_slot7 = var2;
+            var _closure2_slot5 = var2;
             var3 = var8.useEffect;
             var2 = function() {
-                var2 = _closure2_slot7;
-                var1 = _closure2_slot6;
+                var2 = _closure2_slot5;
+                var1 = _closure2_slot4;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
@@ -260,7 +266,7 @@ case 7:
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                var1 = _closure2_slot7;
+                var1 = _closure2_slot5;
                 var1 = var1.current;
                 var3 = var1.value;
                 var2 = var1.handleChangeText;
@@ -302,19 +308,7 @@ case 9:
             var24 = var22;
             var22 = copyDataProperties(var25, var24);
             var22 = function renderLeadingComponent() {
-                var4 = _closure1_slot5;
-                var3 = _closure1_slot8;
-                var2 = {};
-                var5 = _closure2_slot5;
-                var2['show'] = var5;
-                var5 = _closure2_slot1;
-                var2['alpha2'] = var5;
-                var5 = _closure2_slot2;
-                var2['countryCode'] = var5;
                 var1 = _closure2_slot3;
-                var2['onPress'] = var1;
-                var1 = undefined;
-                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var20 = 'renderLeadingComponent';

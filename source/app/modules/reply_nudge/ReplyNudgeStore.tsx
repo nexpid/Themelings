@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot25 = var2;
+            _closure1_slot26 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +117,7 @@ case 26:
             var7 = undefined;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 25:
-            var9 = _closure1_slot27;
+            var9 = _closure1_slot28;
             var7 = var9.bind(var8)(var3, var8);
 case 27:
             _fun0002_ip = 28; continue _fun0002;
@@ -129,7 +129,7 @@ case 28:
             var6 = var7;
             _fun0002_ip = 14; continue _fun0002;
 case 16:
-            var7 = _closure1_slot27;
+            var7 = _closure1_slot28;
             var6 = var7.bind(var8)(var3, var8);
 case 14:
             var4 = var6;
@@ -188,7 +188,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,7 +221,7 @@ case 39:
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function pruneExpiredNudges(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -379,7 +379,7 @@ case 0:
                             var1 = undefined;
                             var5 = var3.bind(var1)(var2);
                             var4 = var5.track;
-                            var2 = _closure1_slot19;
+                            var2 = _closure1_slot20;
                             var3 = var2.REPLY_NUDGE_DISMISSED;
                             var2 = {};
                             var9 = _closure3_slot0;
@@ -463,7 +463,7 @@ case 64:
             var4 = var5.length;
             if(var6 < var4) { _fun0005_ip = 64; continue _fun0005 }
 case 63:
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot21;
             var3 = var4.info;
             var6 = var5.length;
             var7 = var2.Object;
@@ -480,7 +480,7 @@ case 63:
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function maybeDismissNudge(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -488,14 +488,14 @@ case 0:
             var _closure2_slot0 = var5;
             var2 = arg2;
             var _closure2_slot1 = var2;
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var3 = var5 in var3;
             if(var3) { _fun0008_ip = 65; continue _fun0008 }
 case 7:
             var3 = false;
             return var3;
 case 65:
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var3 = var3[var5];
             var _closure2_slot2 = var3;
             var4 = var3.isActive;
@@ -511,7 +511,7 @@ case 66:
             var3 = var3.timestamp;
             var3 = var4 - var3;
             var _closure2_slot3 = var3;
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var4 = var3[var5];
             var3 = false;
             var4['isActive'] = var3;
@@ -542,7 +542,7 @@ case 0:
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.track;
-                    var2 = _closure1_slot19;
+                    var2 = _closure1_slot20;
                     var3 = var2.REPLY_NUDGE_DISMISSED;
                     var2 = {};
                     var9 = _closure2_slot0;
@@ -600,7 +600,7 @@ case 61:
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function getActiveNudgeChannelIds() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -608,7 +608,7 @@ case 0:
             var2 = global;
             var4 = var2.Object;
             var3 = var4.entries;
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot24;
             var8 = var3.bind(var4)(var2);
             var2 = var8.length;
             var7 = 0;
@@ -637,7 +637,7 @@ case 67:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = function getDMChannelAffinity(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -677,7 +677,7 @@ case 77:
 case 62:
             return var4;
 case 74:
-            var7 = _closure1_slot20;
+            var7 = _closure1_slot21;
             var6 = var7.warn;
             var5 = {};
             var5['channelId'] = var2;
@@ -685,7 +685,7 @@ case 74:
             var4 = var6.bind(var7)(var4, var5);
             return var1;
 case 70:
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot21;
             var4 = var5.warn;
             var3 = {};
             var3['channelId'] = var2;
@@ -694,7 +694,7 @@ case 70:
             return var1;
         }
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot32 = var1;
     var1 = function handleNudgeVisibilityChange() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -725,29 +725,29 @@ case 0:
 case 78:
             var3 = var5;
 case 61:
-            var5 = _closure1_slot21;
+            var5 = _closure1_slot22;
             if(!(var5 !== var3)) { _fun0012_ip = 79; continue _fun0012 }
 case 80:
-            _closure1_slot21 = var3;
+            _closure1_slot22 = var3;
             if(!var3) { _fun0012_ip = 81; continue _fun0012 }
 case 82:
-            var7 = _closure1_slot28;
-            var5 = _closure1_slot23;
+            var7 = _closure1_slot29;
+            var5 = _closure1_slot24;
             var3 = {};
             var3['maxNudgeAge'] = var9;
             var3['maxNudgeCount'] = var8;
             var3 = var7.bind(var2)(var5, var3);
-            _closure1_slot23 = var3;
+            _closure1_slot24 = var3;
             var3 = global;
             var7 = var3.Set;
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var11 = var3.bind(var2)();
             var5 = var7.prototype;
             var5 = Object.create(var5, {constructor: {value: var7}});
             var12 = var5;
             var3 = new var12[var7](var11, var10);
             var3 = var3 instanceof Object ? var3 : var5;
-            _closure1_slot24 = var3;
+            _closure1_slot25 = var3;
 case 81:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -759,7 +759,7 @@ case 81:
             if(!(var1 === var3)) { _fun0012_ip = 83; continue _fun0012 }
 case 84:
             var3 = {};
-            _closure1_slot23 = var3;
+            _closure1_slot24 = var3;
             var3 = global;
             var3 = var3.Set;
             var5 = var3.prototype;
@@ -767,14 +767,14 @@ case 84:
             var12 = var5;
             var3 = new var12[var3](var11);
             var3 = var3 instanceof Object ? var3 : var5;
-            _closure1_slot24 = var3;
+            _closure1_slot25 = var3;
 case 83:
             return var2;
 case 79:
             return var1;
         }
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot33 = var1;
     var1 = function handleUserGuildSettingsUpdate() {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -791,7 +791,7 @@ case 0:
                     var4 = var4.bind(var6)(var5, var2);
                     if(!var4) { _fun0014_ip = 85; continue _fun0014 }
 case 37:
-                    var4 = _closure1_slot23;
+                    var4 = _closure1_slot24;
                     var4 = var4[var2];
                     var _closure3_slot1 = var4;
                     if(!(var5 != var4)) { _fun0014_ip = 86; continue _fun0014 }
@@ -826,7 +826,7 @@ case 0:
                             var1 = undefined;
                             var5 = var3.bind(var1)(var2);
                             var4 = var5.track;
-                            var2 = _closure1_slot19;
+                            var2 = _closure1_slot20;
                             var3 = var2.REPLY_NUDGE_DISMISSED;
                             var2 = {};
                             var9 = _closure3_slot0;
@@ -887,7 +887,7 @@ case 61:
                     };
                     var3 = var4.bind(var5)(var3);
 case 86:
-                    var1 = _closure1_slot23;
+                    var1 = _closure1_slot24;
                     var1 = delete var1[var2];
                     var1 = true;
                     _closure2_slot0 = var1;
@@ -899,7 +899,7 @@ case 85:
             var2 = global;
             var4 = var2.Object;
             var3 = var4.keys;
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot24;
             var5 = var3.bind(var4)(var2);
             var2 = var5.length;
             var4 = 0;
@@ -917,7 +917,7 @@ case 88:
             return var1;
         }
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot34 = var1;
     var8 = global;
     var10 = var8.Object;
     var9 = var10.defineProperty;
@@ -990,13 +990,15 @@ case 88:
     var2 = 15;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.MAX_LATEST_MESSAGE_AGE_MS;
-    var _closure1_slot18 = var2;
+    var9 = var2.MAX_LATEST_MESSAGE_AGE_MS;
+    var _closure1_slot18 = var9;
+    var2 = var2.NUDGE_TIMESTAMP_OFFSET_MS;
+    var _closure1_slot19 = var2;
     var2 = 16;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.AnalyticEvents;
-    var _closure1_slot19 = var2;
+    var _closure1_slot20 = var2;
     var2 = 17;
     var2 = var6[var2];
     var9 = var7.bind(var1)(var2);
@@ -1007,19 +1009,19 @@ case 88:
     var13 = var2;
     var9 = new var14[var9](var13, var12);
     var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot20 = var9;
-    var9 = false;
     var _closure1_slot21 = var9;
+    var9 = false;
     var _closure1_slot22 = var9;
-    var9 = {};
     var _closure1_slot23 = var9;
+    var9 = {};
+    var _closure1_slot24 = var9;
     var8 = var8.Set;
     var9 = var8.prototype;
     var9 = Object.create(var9, {constructor: {value: var8}});
     var14 = var9;
     var8 = new var14[var8](var13);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot24 = var8;
+    var _closure1_slot25 = var8;
     var8 = 23;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
@@ -1037,7 +1039,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot25;
+                var1 = _closure1_slot26;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0016_ip = 89; continue _fun0016 }
 case 75:
@@ -1086,7 +1088,7 @@ case 90:
 case 93:
                 var3 = {};
 case 92:
-                _closure1_slot23 = var3;
+                _closure1_slot24 = var3;
                 var13 = var5.waitFor;
                 var3 = _closure1_slot9;
                 var21 = _closure1_slot12;
@@ -1105,26 +1107,26 @@ case 92:
                 var4 = new Array(2);
                 var4[0] = var7;
                 var4[1] = var3;
-                var3 = _closure1_slot32;
+                var3 = _closure1_slot33;
                 var3 = var6.bind(var5)(var4, var3);
                 var4 = var5.syncWith;
                 var6 = _closure1_slot17;
                 var3 = new Array(1);
                 var3[0] = var6;
-                var2 = _closure1_slot33;
+                var2 = _closure1_slot34;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(6);
+        var1 = new Array(7);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function getState() {
             var1 = {};
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot24;
             var1['nudgedChannels'] = var2;
             return var1;
         };
@@ -1137,13 +1139,13 @@ case 92:
             _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                 var4 = arg1;
-                var1 = _closure1_slot21;
+                var1 = _closure1_slot22;
                 var5 = null;
                 if(var1) { _fun0018_ip = 94; continue _fun0018 }
 case 95:
                 return var5;
 case 94:
-                var1 = _closure1_slot23;
+                var1 = _closure1_slot24;
                 var2 = var1[var4];
                 var6 = var5 == var2;
                 var1 = null;
@@ -1152,13 +1154,13 @@ case 65:
                 var2 = var2.isActive;
                 if(var2) { _fun0018_ip = 96; continue _fun0018 }
 case 97:
-                var6 = _closure1_slot24;
+                var6 = _closure1_slot25;
                 var2 = var6.has;
                 var6 = var2.bind(var6)(var4);
                 var2 = null;
                 if(!var6) { _fun0018_ip = 98; continue _fun0018 }
 case 96:
-                var3 = _closure1_slot23;
+                var3 = _closure1_slot24;
                 var3 = var3[var4];
                 var3 = var3.timestamp;
                 var4 = var5 != var3;
@@ -1175,96 +1177,118 @@ case 76:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'isChannelNudged';
+        var7 = 'getNudgeDMTimestamp';
         var5['key'] = var7;
-        var7 = function isChannelNudged(arg1) {
+        var7 = function getNudgeDMTimestamp(arg1) {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
-                var1 = arguments[1];
-                var3 = undefined;
-                if(!(var1 === var3)) { _fun0019_ip = 99; continue _fun0019 }
-case 100:
-                var1 = {};
+                var3 = this;
+                var2 = var3.getNudgeTimestamp;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var1 = null;
+                var2 = var1 == var3;
+                if(var2) { _fun0019_ip = 99; continue _fun0019 }
+case 71:
+                var2 = _closure1_slot19;
+                var1 = var3 + var2;
 case 99:
-                var1 = var1.includeInvisible;
-                if(!(var1 === var3)) { _fun0019_ip = 35; continue _fun0019 }
-case 101:
-                var1 = false;
-case 35:
-                var4 = _closure1_slot21;
-                var4 = !var4;
-                if(!var4) { _fun0019_ip = 102; continue _fun0019 }
-case 103:
-                var4 = !var1;
-case 102:
-                var1 = !var4;
-                if(var4) { _fun0019_ip = 104; continue _fun0019 }
-case 72:
-                var4 = _closure1_slot23;
-                var2 = arg1;
-                var2 = var4[var2];
-                var4 = null;
-                var4 = var4 == var2;
-                var3 = undefined;
-                if(var4) { _fun0019_ip = 105; continue _fun0019 }
-case 34:
-                var3 = var2.isActive;
-case 105:
-                var2 = true;
-                var1 = var2 === var3;
-case 104:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'getChannelNudge';
+        var7 = 'isChannelNudged';
         var5['key'] = var7;
-        var7 = function getChannelNudge(arg1) {
+        var7 = function isChannelNudged(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
-                var2 = arguments[1];
-                var1 = undefined;
-                if(!(var2 === var1)) { _fun0020_ip = 99; continue _fun0020 }
-case 100:
-                var2 = {};
-case 99:
-                var3 = var2.includeInvisible;
-                if(!(var3 === var1)) { _fun0020_ip = 35; continue _fun0020 }
+                var1 = arguments[1];
+                var3 = undefined;
+                if(!(var1 === var3)) { _fun0020_ip = 100; continue _fun0020 }
 case 101:
-                var3 = false;
+                var1 = {};
+case 100:
+                var1 = var1.includeInvisible;
+                if(!(var1 === var3)) { _fun0020_ip = 35; continue _fun0020 }
+case 102:
+                var1 = false;
 case 35:
-                var1 = _closure1_slot21;
-                if(var1) { _fun0020_ip = 106; continue _fun0020 }
-case 37:
-                var1 = null;
-                if(!var3) { _fun0020_ip = 107; continue _fun0020 }
-case 106:
-                var3 = _closure1_slot23;
+                var4 = _closure1_slot22;
+                var4 = !var4;
+                if(!var4) { _fun0020_ip = 103; continue _fun0020 }
+case 104:
+                var4 = !var1;
+case 103:
+                var1 = !var4;
+                if(var4) { _fun0020_ip = 105; continue _fun0020 }
+case 72:
+                var4 = _closure1_slot24;
                 var2 = arg1;
-                var2 = var3[var2];
+                var2 = var4[var2];
                 var4 = null;
-                var3 = var4 != var2;
-                var1 = null;
-                if(!var3) { _fun0020_ip = 107; continue _fun0020 }
-case 108:
-                var1 = var2;
-case 107:
+                var4 = var4 == var2;
+                var3 = undefined;
+                if(var4) { _fun0020_ip = 106; continue _fun0020 }
+case 34:
+                var3 = var2.isActive;
+case 106:
+                var2 = true;
+                var1 = var2 === var3;
+case 105:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
+        var7 = 'getChannelNudge';
+        var5['key'] = var7;
+        var7 = function getChannelNudge(arg1) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+case 0:
+                var2 = arguments[1];
+                var1 = undefined;
+                if(!(var2 === var1)) { _fun0021_ip = 100; continue _fun0021 }
+case 101:
+                var2 = {};
+case 100:
+                var3 = var2.includeInvisible;
+                if(!(var3 === var1)) { _fun0021_ip = 35; continue _fun0021 }
+case 102:
+                var3 = false;
+case 35:
+                var1 = _closure1_slot22;
+                if(var1) { _fun0021_ip = 107; continue _fun0021 }
+case 37:
+                var1 = null;
+                if(!var3) { _fun0021_ip = 108; continue _fun0021 }
+case 107:
+                var3 = _closure1_slot24;
+                var2 = arg1;
+                var2 = var3[var2];
+                var4 = null;
+                var3 = var4 != var2;
+                var1 = null;
+                if(!var3) { _fun0021_ip = 108; continue _fun0021 }
+case 109:
+                var1 = var2;
+case 108:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
         var7 = 'isNudgesInitialized';
         var5['key'] = var7;
         var6 = function isNudgesInitialized() {
-            var1 = _closure1_slot22;
+            var1 = _closure1_slot23;
             return var1;
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[6] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1276,7 +1300,7 @@ case 107:
     var13 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleReplyNudgeSet(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var2 = arg1;
             var1 = var2.channelId;
@@ -1292,8 +1316,8 @@ case 0:
             var3 = var6.isChannelMuted;
             var13 = null;
             var3 = var3.bind(var6)(var13, var1);
-            if(var3) { _fun0021_ip = 109; continue _fun0021 }
-case 110:
+            if(var3) { _fun0022_ip = 110; continue _fun0022 }
+case 111:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 21;
@@ -1307,26 +1331,26 @@ case 110:
             var3 = var6.bind(var7)(var3);
             var14 = var3.maxNudgeAge;
             var6 = var3.maxNudgeCount;
-            var12 = _closure1_slot28;
-            var7 = _closure1_slot23;
+            var12 = _closure1_slot29;
+            var7 = _closure1_slot24;
             var3 = {};
             var3['maxNudgeAge'] = var14;
             var3['maxNudgeCount'] = var6;
             var3 = var12.bind(var4)(var7, var3);
-            _closure1_slot23 = var3;
+            _closure1_slot24 = var3;
             var3 = var1 in var3;
-            if(var3) { _fun0021_ip = 111; continue _fun0021 }
-case 112:
-            var3 = _closure1_slot30;
+            if(var3) { _fun0022_ip = 112; continue _fun0022 }
+case 113:
+            var3 = _closure1_slot31;
             var7 = var3.bind(var4)();
             var3 = var7.length;
-            if(!(var3 >= var6)) { _fun0021_ip = 113; continue _fun0021 }
-case 114:
+            if(!(var3 >= var6)) { _fun0022_ip = 114; continue _fun0022 }
+case 115:
             var6 = var7.at;
             var3 = -1;
             var6 = var6.bind(var7)(var3);
             _closure2_slot0 = var6;
-            var3 = _closure1_slot26;
+            var3 = _closure1_slot27;
             var17 = var3.bind(var4)(var7);
             var12 = var17.bind(var4)();
             var3 = var12.done;
@@ -1337,30 +1361,30 @@ case 114:
             var12 = var7;
             var6 = var14;
             var7 = var12;
-            if(var3) { _fun0021_ip = 115; continue _fun0021 }
+            if(var3) { _fun0022_ip = 116; continue _fun0022 }
 case 59:
             var20 = var15.value;
-            var3 = _closure1_slot31;
+            var3 = _closure1_slot32;
             var3 = var3.bind(var4)(var20);
-            if(!(var13 == var3)) { _fun0021_ip = 116; continue _fun0021 }
-case 117:
-            var21 = _closure1_slot20;
+            if(!(var13 == var3)) { _fun0022_ip = 117; continue _fun0022 }
+case 118:
+            var21 = _closure1_slot21;
             var19 = var21.warn;
             var18 = {};
             var18['nudgedChannelId'] = var20;
             var18 = var19.bind(var21)(var16, var18);
             var19 = var14;
             var18 = var12;
-            _fun0021_ip = 118; continue _fun0021;
-case 116:
+            _fun0022_ip = 119; continue _fun0022;
+case 117:
             var19 = var14;
             var18 = var12;
-            if(!(var3 < var12)) { _fun0021_ip = 118; continue _fun0021 }
-case 119:
+            if(!(var3 < var12)) { _fun0022_ip = 119; continue _fun0022 }
+case 120:
             _closure2_slot0 = var20;
             var19 = var20;
             var18 = var3;
-case 118:
+case 119:
             var20 = var17.bind(var4)();
             var3 = var20.done;
             var14 = var19;
@@ -1368,15 +1392,15 @@ case 118:
             var15 = var20;
             var6 = var14;
             var7 = var12;
-            if(!var3) { _fun0021_ip = 59; continue _fun0021 }
-case 115:
-            var3 = _closure1_slot31;
+            if(!var3) { _fun0022_ip = 59; continue _fun0022 }
+case 116:
+            var3 = _closure1_slot32;
             var3 = var3.bind(var4)(var1);
-            if(!(var13 != var3)) { _fun0021_ip = 120; continue _fun0021 }
-case 121:
-            if(!(!(var3 < var7))) { _fun0021_ip = 122; continue _fun0021 }
-case 123:
-            var16 = _closure1_slot20;
+            if(!(var13 != var3)) { _fun0022_ip = 121; continue _fun0022 }
+case 122:
+            if(!(!(var3 < var7))) { _fun0022_ip = 123; continue _fun0022 }
+case 124:
+            var16 = _closure1_slot21;
             var15 = var16.info;
             var14 = {};
             var14['channelId'] = var1;
@@ -1384,14 +1408,14 @@ case 123:
             var14['newNudgeAffinity'] = var3;
             var12 = 'handleReplyNudgeSet: Evicting nudge with lowest affinity';
             var12 = var15.bind(var16)(var12, var14);
-            var12 = _closure1_slot23;
+            var12 = _closure1_slot24;
             var12 = var12[var6];
             _closure2_slot1 = var12;
-            if(!(var13 != var12)) { _fun0021_ip = 124; continue _fun0021 }
-case 125:
-            var12 = var12.isActive;
-            if(!var12) { _fun0021_ip = 124; continue _fun0021 }
+            if(!(var13 != var12)) { _fun0022_ip = 125; continue _fun0022 }
 case 126:
+            var12 = var12.isActive;
+            if(!var12) { _fun0022_ip = 125; continue _fun0022 }
+case 127:
             var13 = _closure1_slot13;
             var12 = var13.getChannel;
             var12 = var12.bind(var13)(var6);
@@ -1407,7 +1431,7 @@ case 126:
             var13 = var14.bind(var4)(var13, var12);
             var12 = var13.then;
             var5 = function(arg1) {
-                _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+                _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                     var1 = arg1;
                     var8 = var1.default;
@@ -1418,7 +1442,7 @@ case 0:
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.track;
-                    var2 = _closure1_slot19;
+                    var2 = _closure1_slot20;
                     var3 = var2.REPLY_NUDGE_DISMISSED;
                     var2 = {};
                     var9 = _closure2_slot0;
@@ -1427,7 +1451,7 @@ case 0:
                     var10 = null;
                     var11 = var10 == var9;
                     var9 = undefined;
-                    if(var11) { _fun0022_ip = 60; continue _fun0022 }
+                    if(var11) { _fun0023_ip = 60; continue _fun0023 }
 case 4:
                     var11 = _closure2_slot2;
                     var9 = var11.type;
@@ -1436,7 +1460,7 @@ case 60:
                     var9 = _closure2_slot2;
                     var10 = var10 == var9;
                     var9 = undefined;
-                    if(var10) { _fun0022_ip = 61; continue _fun0022 }
+                    if(var10) { _fun0023_ip = 61; continue _fun0023 }
 case 62:
                     var10 = _closure2_slot2;
                     var9 = var10.guild_id;
@@ -1478,11 +1502,11 @@ case 61:
                 }
             };
             var5 = var12.bind(var13)(var5);
-case 124:
-            var5 = _closure1_slot23;
+case 125:
+            var5 = _closure1_slot24;
             var5 = delete var5[var6];
-case 113:
-            var6 = _closure1_slot23;
+case 114:
+            var6 = _closure1_slot24;
             var5 = {};
             var5['timestamp'] = var11;
             var11 = true;
@@ -1491,12 +1515,12 @@ case 113:
             var5['affinity'] = var9;
             var5['authorId'] = var8;
             var6[var1] = var5;
-            var6 = _closure1_slot24;
+            var6 = _closure1_slot25;
             var5 = var6.add;
             var5 = var5.bind(var6)(var1);
             return var4;
-case 122:
-            var6 = _closure1_slot20;
+case 123:
+            var6 = _closure1_slot21;
             var5 = var6.info;
             var4 = {};
             var4['channelId'] = var1;
@@ -1506,8 +1530,8 @@ case 122:
             var3 = var5.bind(var6)(var3, var4);
             var3 = false;
             return var3;
-case 120:
-            var4 = _closure1_slot20;
+case 121:
+            var4 = _closure1_slot21;
             var3 = var4.warn;
             var2 = {};
             var2['channelId'] = var1;
@@ -1515,10 +1539,10 @@ case 120:
             var1 = var3.bind(var4)(var1, var2);
             var1 = false;
             return var1;
-case 111:
+case 112:
             var1 = false;
             return var1;
-case 109:
+case 110:
             var1 = false;
             return var1;
         }
@@ -1527,7 +1551,7 @@ case 109:
     var9 = function handleReplyNudgeClear(arg1) {
         var1 = arg1;
         var4 = var1.channelId;
-        var3 = _closure1_slot29;
+        var3 = _closure1_slot30;
         var2 = undefined;
         var1 = 'manual';
         var1 = var3.bind(var2)(var4, var1);
@@ -1535,16 +1559,36 @@ case 109:
     };
     var2['REPLY_NUDGE_CLEAR'] = var9;
     var9 = function handleNudgesInitialized() {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
-            var1 = _closure1_slot22;
-            if(var1) { _fun0023_ip = 33; continue _fun0023 }
-case 127:
+            var1 = _closure1_slot23;
+            if(var1) { _fun0024_ip = 128; continue _fun0024 }
+case 129:
             var1 = true;
-            _closure1_slot22 = var1;
+            _closure1_slot23 = var1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 21;
+            var2 = var2[var1];
             var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var5 = var2.ReplyNudgeExperiment;
+            var4 = var5.getConfig;
+            var2 = {};
+            var6 = 'handleNudgesInitialized';
+            var2['location'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var7 = var2.maxNudgeAge;
+            var6 = var2.maxNudgeCount;
+            var5 = _closure1_slot29;
+            var4 = _closure1_slot24;
+            var2 = {};
+            var2['maxNudgeAge'] = var7;
+            var2['maxNudgeCount'] = var6;
+            var2 = var5.bind(var1)(var4, var2);
+            _closure1_slot24 = var2;
             return var1;
-case 33:
+case 128:
             var1 = false;
             return var1;
         }
@@ -1553,7 +1597,7 @@ case 33:
     var9 = function handleMessageCreate(arg1) {
         var1 = arg1;
         var1 = var1.message;
-        var4 = _closure1_slot29;
+        var4 = _closure1_slot30;
         var3 = var1.channel_id;
         var2 = undefined;
         var1 = 'message_sent';
@@ -1562,7 +1606,7 @@ case 33:
     };
     var2['MESSAGE_CREATE'] = var9;
     var9 = function handleMessageReactionAdd(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.channelId;
@@ -1571,9 +1615,9 @@ case 0:
             var1 = var4.getId;
             var1 = var1.bind(var4)();
             var1 = var3 === var1;
-            if(!var1) { _fun0024_ip = 8; continue _fun0024 }
-case 128:
-            var4 = _closure1_slot29;
+            if(!var1) { _fun0025_ip = 8; continue _fun0025 }
+case 99:
+            var4 = _closure1_slot30;
             var3 = undefined;
             var2 = 'reaction_added';
             var1 = var4.bind(var3)(var5, var2);
@@ -1583,20 +1627,20 @@ case 8:
     };
     var2['MESSAGE_REACTION_ADD'] = var9;
     var9 = function handleChannelSelect() {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var3 = _closure1_slot16;
             var1 = var3.getLastSelectedChannelId;
             var5 = var1.bind(var3)();
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0025_ip = 129; continue _fun0025 }
+            if(!var1) { _fun0026_ip = 130; continue _fun0026 }
 case 71:
-            var4 = _closure1_slot29;
+            var4 = _closure1_slot30;
             var3 = undefined;
             var2 = 'channel_opened';
             var1 = var4.bind(var3)(var5, var2);
-case 129:
+case 130:
             return var1;
         }
     };
@@ -1605,7 +1649,7 @@ case 129:
         var1 = arg1;
         var1 = var1.channel;
         var4 = var1.id;
-        var3 = _closure1_slot29;
+        var3 = _closure1_slot30;
         var2 = undefined;
         var1 = 'channel_deleted';
         var1 = var3.bind(var2)(var4, var1);
@@ -1614,7 +1658,7 @@ case 129:
     var2['CHANNEL_DELETE'] = var9;
     var4 = function handleLogout() {
         var1 = {};
-        _closure1_slot23 = var1;
+        _closure1_slot24 = var1;
         var1 = global;
         var1 = var1.Set;
         var3 = var1.prototype;
@@ -1622,10 +1666,10 @@ case 129:
         var4 = var3;
         var1 = new var4[var1](var3);
         var1 = var1 instanceof Object ? var1 : var3;
-        _closure1_slot24 = var1;
+        _closure1_slot25 = var1;
         var1 = false;
-        _closure1_slot21 = var1;
         _closure1_slot22 = var1;
+        _closure1_slot23 = var1;
         var1 = undefined;
         return var1;
     };

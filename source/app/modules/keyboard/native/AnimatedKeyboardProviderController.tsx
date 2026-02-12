@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var9];
     var2 = metroImportAll;
     var1 = undefined;
-    var10 = var2.bind(var1)(var4);
-    var _closure1_slot3 = var10;
+    var11 = var2.bind(var1)(var4);
+    var _closure1_slot3 = var11;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -29,16 +29,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.jsx;
+    var4 = var2.jsxs;
     var _closure1_slot5 = var4;
-    var2 = var2.jsxs;
-    var _closure1_slot6 = var2;
+    var10 = var2.jsx;
     var2 = 3;
     var4 = var6[var2];
     var7 = var5.bind(var1)(var4);
     var4 = var7.makeMutable;
     var7 = var4.bind(var7)(var9);
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var6[var2];
     var9 = var5.bind(var1)(var4);
     var4 = var9.makeMutable;
@@ -47,20 +46,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var2.KeyboardState;
     var2 = var2.UNKNOWN;
     var4 = var4.bind(var9)(var2);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var2 = {};
     var9 = "function AnimatedKeyboardProviderControllerTsx1(e){const{animatedKeyboardState,KeyboardState,runOnJS,KeyboardStateDebugging}=this.__closure;animatedKeyboardState.set(e.height===0?KeyboardState.CLOSED:KeyboardState.OPEN);runOnJS(KeyboardStateDebugging.keyboardControllerWorkletEvent)('onStart',e.height,true);}";
     var2['code'] = var9;
-    var _closure1_slot9 = var2;
+    var _closure1_slot8 = var2;
     var2 = {};
     var9 = 'function AnimatedKeyboardProviderControllerTsx2(e){const{animatedKeyboardHeight}=this.__closure;animatedKeyboardHeight.set(e.height);}';
     var2['code'] = var9;
-    var _closure1_slot10 = var2;
+    var _closure1_slot9 = var2;
     var2 = {};
     var9 = "function AnimatedKeyboardProviderControllerTsx3(e){const{animatedKeyboardState,KeyboardState,animatedKeyboardHeight,runOnJS,KeyboardStateDebugging}=this.__closure;animatedKeyboardState.set(e.height===0?KeyboardState.CLOSED:KeyboardState.OPEN);animatedKeyboardHeight.set(e.height);runOnJS(KeyboardStateDebugging.keyboardControllerWorkletEvent)('onEnd',e.height,true);}";
     var2['code'] = var9;
-    var _closure1_slot11 = var2;
-    var9 = var10.memo;
+    var _closure1_slot10 = var2;
+    var9 = var11.memo;
     var2 = function() {
         var13 = _closure1_slot0;
         var11 = _closure1_slot2;
@@ -74,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = arg1;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot7;
                 var4 = var5.set;
                 var6 = var2.height;
                 var1 = 0;
@@ -121,7 +120,7 @@ case 4:
             }
         };
         var7 = {};
-        var15 = _closure1_slot8;
+        var15 = _closure1_slot7;
         var7['animatedKeyboardState'] = var15;
         var12 = 3;
         var8 = var11[var12];
@@ -140,11 +139,11 @@ case 4:
         var3['__closure'] = var7;
         var7 = 12272993681399.0;
         var3['__workletHash'] = var7;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var3['__initData'] = var7;
         var4['onStart'] = var3;
         var3 = function n(arg1) {
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = var3.set;
             var1 = arg1;
             var1 = var1.height;
@@ -153,19 +152,19 @@ case 4:
             return var1;
         };
         var7 = {};
-        var14 = _closure1_slot7;
+        var14 = _closure1_slot6;
         var7['animatedKeyboardHeight'] = var14;
         var3['__closure'] = var7;
         var7 = 1398293011995.0;
         var3['__workletHash'] = var7;
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot9;
         var3['__initData'] = var7;
         var4['onMove'] = var3;
         var3 = function o(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = arg1;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot7;
                 var4 = var5.set;
                 var6 = var2.height;
                 var1 = 0;
@@ -191,7 +190,7 @@ case 2:
                 var1 = var6.CLOSED;
 case 4:
                 var1 = var4.bind(var5)(var1);
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot6;
                 var4 = var5.set;
                 var1 = var2.height;
                 var1 = var4.bind(var5)(var1);
@@ -232,7 +231,7 @@ case 4:
         var3['__closure'] = var7;
         var7 = 9979896587060.0;
         var3['__workletHash'] = var7;
-        var7 = _closure1_slot11;
+        var7 = _closure1_slot10;
         var3['__initData'] = var7;
         var4['onEnd'] = var3;
         var3 = new Array(0);
@@ -370,13 +369,15 @@ case 4:
         var1 = null;
         return var1;
     };
-    var2 = var9.bind(var10)(var2);
-    var _closure1_slot12 = var2;
+    var9 = var9.bind(var11)(var2);
+    var2 = {};
+    var2 = var10.bind(var1)(var9, var2);
+    var _closure1_slot11 = var2;
     var2 = {};
     var8 = function Component(arg1) {
         var1 = arg1;
         var7 = var1.children;
-        var4 = _closure1_slot6;
+        var4 = _closure1_slot5;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
         var1 = 4;
@@ -387,10 +388,7 @@ case 4:
         var1 = {'enabled': true, 'navigationBarTranslucent': true, 'preserveEdgeToEdge': true, 'statusBarTranslucent': true};
         var5 = new Array(2);
         var5[0] = var7;
-        var8 = _closure1_slot5;
-        var7 = _closure1_slot12;
-        var6 = {};
-        var6 = var8.bind(var3)(var7, var6);
+        var6 = _closure1_slot11;
         var5[1] = var6;
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);

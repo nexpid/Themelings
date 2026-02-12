@@ -119,7 +119,7 @@ case 16:
 case 15:
             var1['isRequest'] = var4;
             var4 = _closure1_slot10;
-            var3 = var4.getNudgeTimestamp;
+            var3 = var4.getNudgeDMTimestamp;
             var2 = var2.id;
             var2 = var3.bind(var4)(var2);
             var1['nudgeTimestamp'] = var2;

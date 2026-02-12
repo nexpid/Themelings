@@ -1064,11 +1064,11 @@ case 56:
             var2 = _closure1_slot27;
             var1 = {};
             var1['channel'] = var11;
-            var16 = var2.bind(var4)(var1);
+            var23 = var2.bind(var4)(var1);
             var2 = _closure1_slot29;
             var1 = {};
             var1['channel'] = var11;
-            var15 = var2.bind(var4)(var1);
+            var19 = var2.bind(var4)(var1);
             var1 = 34;
             var2 = var6[var1];
             var3 = var5.bind(var4)(var2);
@@ -1084,8 +1084,40 @@ case 56:
             var13 = var2.bind(var4)(var3);
             var9 = var13.useIsFiveButtonLayout;
             var3 = var11.id;
-            var17 = var9.bind(var13)(var3);
+            var22 = var9.bind(var13)(var3);
             var3 = _closure1_slot14;
+            var13 = _closure1_slot21;
+            var9 = {};
+            var9['channel'] = var11;
+            var9['isSmallSize'] = var22;
+            var17 = var3.bind(var4)(var13, var9);
+            var13 = _closure1_slot22;
+            var9 = {};
+            var9['channel'] = var11;
+            var9['isSmallSize'] = var22;
+            var15 = var3.bind(var4)(var13, var9);
+            var9 = 37;
+            var9 = var6[var9];
+            var9 = var2.bind(var4)(var9);
+            var13 = var9.DisconnectRemoteButton;
+            var9 = {};
+            var9['channel'] = var11;
+            var9['isSmallSize'] = var22;
+            var14 = var3.bind(var4)(var13, var9);
+            var13 = _closure1_slot19;
+            var9 = {};
+            var9['channel'] = var11;
+            var9['isSmallSize'] = var22;
+            var21 = var3.bind(var4)(var13, var9);
+            var13 = _closure1_slot20;
+            var9 = {};
+            var9['isSmallSize'] = var22;
+            var9['channel'] = var11;
+            var20 = var3.bind(var4)(var13, var9);
+            var13 = _closure1_slot23;
+            var9 = {};
+            var9['isSmallSize'] = var22;
+            var16 = var3.bind(var4)(var13, var9);
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.AnalyticsLocationProvider;
@@ -1095,144 +1127,110 @@ case 56:
             var5 = {};
             var9 = 'box-none';
             var5['pointerEvents'] = var9;
-            if(var17) { _fun0016_ip = 58; continue _fun0016 }
-case 59:
-            var9 = var10.container;
-            _fun0016_ip = 60; continue _fun0016;
+            if(var22) { _fun0016_ip = 49; continue _fun0016 }
 case 58:
+            var9 = var10.container;
+            _fun0016_ip = 46; continue _fun0016;
+case 49:
             var9 = var10.containerForFiveButtonLayout;
-case 60:
+case 46:
             var5['style'] = var9;
-            if(var7) { _fun0016_ip = 61; continue _fun0016 }
-case 62:
+            if(var7) { _fun0016_ip = 59; continue _fun0016 }
+case 60:
             var10 = _closure1_slot16;
             var9 = _closure1_slot15;
             var7 = {};
-            var14 = null;
-            if(var12) { _fun0016_ip = 63; continue _fun0016 }
-case 64:
-            var19 = _closure1_slot14;
-            var18 = _closure1_slot18;
+            var18 = null;
+            if(var12) { _fun0016_ip = 61; continue _fun0016 }
+case 62:
+            var25 = _closure1_slot14;
+            var24 = _closure1_slot18;
             var12 = {};
             var12['channel'] = var11;
-            var12['isSmallSize'] = var17;
-            var14 = var19.bind(var4)(var18, var12);
-case 63:
+            var12['isSmallSize'] = var22;
+            var18 = var25.bind(var4)(var24, var12);
+case 61:
             var12 = new Array(4);
-            var12[0] = var14;
-            var14 = _closure1_slot24;
-            var14 = var14.AUDIO_ROUTE;
-            if(!(var14 !== var16)) { _fun0016_ip = 65; continue _fun0016 }
+            var12[0] = var18;
+            var18 = _closure1_slot24;
+            var18 = var18.AUDIO_ROUTE;
+            if(!(var18 !== var23)) { _fun0016_ip = 63; continue _fun0016 }
+case 64:
+            var18 = _closure1_slot24;
+            var18 = var18.SCREEN_SHARE_START;
+            if(!(var18 !== var23)) { _fun0016_ip = 65; continue _fun0016 }
 case 66:
-            var14 = _closure1_slot24;
-            var14 = var14.SCREEN_SHARE_START;
-            if(!(var14 !== var16)) { _fun0016_ip = 67; continue _fun0016 }
-case 68:
-            var14 = _closure1_slot24;
-            var14 = var14.SCREEN_SHARE_END;
-            if(!(var14 !== var16)) { _fun0016_ip = 67; continue _fun0016 }
-case 69:
-            var14 = _closure1_slot24;
-            var14 = var14.NONE;
-            var14 = null;
-            _fun0016_ip = 70; continue _fun0016;
+            var18 = _closure1_slot24;
+            var18 = var18.SCREEN_SHARE_END;
+            if(!(var18 !== var23)) { _fun0016_ip = 65; continue _fun0016 }
 case 67:
-            var19 = _closure1_slot14;
-            var18 = _closure1_slot19;
-            var16 = {};
-            var16['channel'] = var11;
-            var16['isSmallSize'] = var17;
-            var14 = var19.bind(var4)(var18, var16);
-            _fun0016_ip = 70; continue _fun0016;
+            var18 = _closure1_slot24;
+            var18 = var18.NONE;
+            var18 = null;
+            _fun0016_ip = 68; continue _fun0016;
 case 65:
-            var19 = _closure1_slot14;
-            var18 = _closure1_slot20;
-            var16 = {};
-            var16['isSmallSize'] = var17;
-            var16['channel'] = var11;
-            var14 = var19.bind(var4)(var18, var16);
+            var18 = var21;
+            _fun0016_ip = 68; continue _fun0016;
+case 63:
+            var18 = var20;
+case 68:
+            var12[1] = var18;
+            var21 = _closure1_slot14;
+            var20 = _closure1_slot0;
+            var23 = _closure1_slot3;
+            var18 = 39;
+            var18 = var23[var18];
+            var18 = var20.bind(var4)(var18);
+            var20 = var18.ChannelCallMicButton;
+            var18 = {};
+            var18['channel'] = var11;
+            var18['isSmallSize'] = var22;
+            var18 = var21.bind(var4)(var20, var18);
+            var12[2] = var18;
+            var18 = _closure1_slot25;
+            var18 = var18.END_REMOTE;
+            if(!(var18 !== var19)) { _fun0016_ip = 69; continue _fun0016 }
 case 70:
-            var12[1] = var14;
-            var18 = _closure1_slot14;
-            var16 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var14 = 38;
-            var14 = var19[var14];
-            var14 = var16.bind(var4)(var14);
-            var16 = var14.ChannelCallMicButton;
-            var14 = {};
-            var14['channel'] = var11;
-            var14['isSmallSize'] = var17;
-            var14 = var18.bind(var4)(var16, var14);
-            var12[2] = var14;
-            var14 = _closure1_slot25;
-            var14 = var14.END_REMOTE;
-            if(!(var14 !== var15)) { _fun0016_ip = 71; continue _fun0016 }
+            var18 = _closure1_slot25;
+            var18 = var18.END_STREAM;
+            if(!(var18 !== var19)) { _fun0016_ip = 71; continue _fun0016 }
 case 72:
-            var14 = _closure1_slot25;
-            var14 = var14.END_STREAM;
-            if(!(var14 !== var15)) { _fun0016_ip = 73; continue _fun0016 }
+            var18 = _closure1_slot25;
+            var18 = var18.END_ACTIVITY;
+            if(!(var18 !== var19)) { _fun0016_ip = 73; continue _fun0016 }
 case 74:
-            var14 = _closure1_slot25;
-            var14 = var14.END_ACTIVITY;
-            if(!(var14 !== var15)) { _fun0016_ip = 75; continue _fun0016 }
-case 76:
-            var14 = _closure1_slot25;
-            var14 = var14.END_CALL;
+            var18 = _closure1_slot25;
+            var18 = var18.END_CALL;
             var13 = null;
-            if(!(var14 === var15)) { _fun0016_ip = 77; continue _fun0016 }
-case 78:
-            var16 = _closure1_slot14;
-            var15 = _closure1_slot21;
-            var14 = {};
-            var14['channel'] = var11;
-            var14['isSmallSize'] = var17;
-            var13 = var16.bind(var4)(var15, var14);
-            _fun0016_ip = 77; continue _fun0016;
-case 75:
-            var16 = _closure1_slot14;
-            var15 = _closure1_slot23;
-            var14 = {};
-            var14['isSmallSize'] = var17;
-            var13 = var16.bind(var4)(var15, var14);
-            _fun0016_ip = 77; continue _fun0016;
+            if(!(var18 === var19)) { _fun0016_ip = 75; continue _fun0016 }
+case 76:
+            var13 = var17;
+            _fun0016_ip = 75; continue _fun0016;
 case 73:
-            var16 = _closure1_slot14;
-            var15 = _closure1_slot22;
-            var14 = {};
-            var14['channel'] = var11;
-            var14['isSmallSize'] = var17;
-            var13 = var16.bind(var4)(var15, var14);
-            _fun0016_ip = 77; continue _fun0016;
+            var13 = var16;
+            _fun0016_ip = 75; continue _fun0016;
 case 71:
-            var16 = _closure1_slot14;
-            var15 = _closure1_slot0;
-            var18 = _closure1_slot3;
-            var14 = 39;
-            var14 = var18[var14];
-            var14 = var15.bind(var4)(var14);
-            var15 = var14.DisconnectRemoteButton;
-            var14 = {};
-            var14['channel'] = var11;
-            var14['isSmallSize'] = var17;
-            var13 = var16.bind(var4)(var15, var14);
-case 77:
+            var13 = var15;
+            _fun0016_ip = 75; continue _fun0016;
+case 69:
+            var13 = var14;
+case 75:
             var12[3] = var13;
             var7['children'] = var12;
             var7 = var10.bind(var4)(var9, var7);
-            _fun0016_ip = 79; continue _fun0016;
-case 61:
+            _fun0016_ip = 77; continue _fun0016;
+case 59:
             var10 = _closure1_slot14;
             var9 = _closure1_slot0;
             var12 = _closure1_slot3;
-            var8 = 37;
+            var8 = 38;
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.CallConnectingActionBar;
             var8 = {};
             var8['channel'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 79:
+case 77:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

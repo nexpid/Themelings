@@ -24,8 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot4 = var8;
+    var9 = var4.jsx;
+    var _closure1_slot4 = var9;
     var8 = var4.Fragment;
     var _closure1_slot5 = var8;
     var4 = var4.jsxs;
@@ -34,6 +34,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'function RadioGroupActionComponentTsx1(){const{withSpring,hasValue,SUBTLE_SPRING}=this.__closure;return{maxHeight:withSpring(hasValue?60:0,SUBTLE_SPRING),marginTop:withSpring(hasValue?8:0,SUBTLE_SPRING),opacity:withSpring(hasValue?1:0,SUBTLE_SPRING)};}';
     var4['code'] = var8;
     var _closure1_slot7 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.TableRow;
+    var8 = var4.Icon;
+    var4 = {};
+    var10 = 3;
+    var10 = var6[var10];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.XSmallIcon;
+    var4['IconComponent'] = var10;
+    var4 = var9.bind(var1)(var8, var4);
+    var _closure1_slot8 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -74,21 +87,21 @@ case 2:
                     return var1;
                 }
             };
-            var11 = var4.bind(var5)(var2, var3);
+            var10 = var4.bind(var5)(var2, var3);
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 2;
+            var2 = 4;
             var2 = var4[var2];
             var4 = undefined;
             var5 = var3.bind(var4)(var2);
             var3 = var5.useComponentState;
-            var8 = var17 != var11;
+            var8 = var17 != var10;
             var2 = undefined;
             if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var8 = {};
             var8['type'] = var1;
-            var8['value'] = var11;
+            var8['value'] = var10;
             var2 = var8;
 case 4:
             var2 = var3.bind(var5)(var7, var2);
@@ -125,21 +138,21 @@ case 8:
             };
             var18 = var3.bind(var5)(var1, var2);
             var _closure2_slot6 = var18;
-            var12 = var17 != var18;
-            var _closure2_slot7 = var12;
+            var11 = var17 != var18;
+            var _closure2_slot7 = var11;
             var7 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var14 = 3;
-            var1 = var19[var14];
+            var12 = 5;
+            var1 = var19[var12];
             var3 = var7.bind(var4)(var1);
             var2 = var3.useAnimatedStyle;
-            var1 = function p() {
+            var1 = function c() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var9 = 4;
+                    var9 = 6;
                     var3 = var3[var9];
                     var7 = undefined;
                     var13 = var4.bind(var7)(var3);
@@ -152,7 +165,7 @@ case 10:
 case 9:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var8 = 5;
+                    var8 = 7;
                     var10 = var3[var8];
                     var10 = var4.bind(var7)(var10);
                     var10 = var10.SUBTLE_SPRING;
@@ -194,13 +207,13 @@ case 13:
                 }
             };
             var5 = {};
-            var8 = 4;
+            var8 = 6;
             var8 = var19[var8];
             var8 = var7.bind(var4)(var8);
             var8 = var8.withSpring;
             var5['withSpring'] = var8;
-            var5['hasValue'] = var12;
-            var8 = 5;
+            var5['hasValue'] = var11;
+            var8 = 7;
             var8 = var19[var8];
             var8 = var7.bind(var4)(var8);
             var8 = var8.SUBTLE_SPRING;
@@ -210,7 +223,7 @@ case 13:
             var1['__workletHash'] = var5;
             var5 = _closure1_slot7;
             var1['__initData'] = var5;
-            var11 = var2.bind(var3)(var1);
+            var10 = var2.bind(var3)(var1);
             var15 = function onChange(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -259,7 +272,7 @@ case 15:
             var2 = _closure1_slot5;
             var1 = {};
             var8 = _closure1_slot4;
-            var5 = 6;
+            var5 = 8;
             var5 = var19[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.TableRadioGroup;
@@ -281,7 +294,7 @@ case 22:
                 var5 = _closure1_slot4;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 7;
+                var2 = 9;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -308,38 +321,28 @@ case 25:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var7 = var7[var14];
+            var7 = var7[var12];
             var7 = var8.bind(var4)(var7);
             var8 = var7.View;
             var7 = {};
-            var7['style'] = var11;
-            var11 = !var12;
-            var7['accessibilityElementsHidden'] = var11;
-            var11 = 'no-hide-descendants';
-            if(!var12) { _fun0001_ip = 26; continue _fun0001 }
+            var7['style'] = var10;
+            var10 = !var11;
+            var7['accessibilityElementsHidden'] = var10;
+            var10 = 'no-hide-descendants';
+            if(!var11) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var11 = 'auto';
+            var10 = 'auto';
 case 26:
-            var7['importantForAccessibility'] = var11;
+            var7['importantForAccessibility'] = var10;
             var12 = _closure1_slot4;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var14 = 8;
-            var10 = var18[var14];
+            var10 = 2;
+            var10 = var18[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.TableRow;
             var10 = {};
-            var14 = var18[var14];
-            var14 = var17.bind(var4)(var14);
-            var14 = var14.TableRow;
-            var15 = var14.Icon;
-            var14 = {};
-            var16 = 9;
-            var16 = var18[var16];
-            var16 = var17.bind(var4)(var16);
-            var16 = var16.XSmallIcon;
-            var14['IconComponent'] = var16;
-            var14 = var12.bind(var4)(var15, var14);
+            var14 = _closure1_slot8;
             var10['icon'] = var14;
             var14 = 10;
             var15 = var18[var14];

@@ -13,7 +13,7 @@ case 0:
             var2 = arg1;
             var2 = var2.guildId;
             var _closure2_slot0 = var2;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var5 = undefined;
             var7 = var3.bind(var5)();
             var4 = _closure1_slot0;
@@ -22,11 +22,11 @@ case 0:
             var3 = var6[var3];
             var6 = var4.bind(var5)(var3);
             var4 = var6.useStateFromStores;
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot4;
             var3 = new Array(1);
             var3[0] = var8;
             var1 = function() {
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot4;
                 var2 = var3.getGuild;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
@@ -40,7 +40,7 @@ case 0:
 case 3:
             var9 = var8.features;
             var6 = var9.has;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot5;
             var3 = var3.CREATOR_MONETIZABLE_RESTRICTED;
             var4 = var6.bind(var9)(var3);
 case 2:
@@ -50,7 +50,7 @@ case 2:
 case 5:
             var10 = var8.features;
             var9 = var10.has;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot5;
             var3 = var3.CREATOR_MONETIZABLE_PENDING_NEW_OWNER_ONBOARDING;
             var6 = var9.bind(var10)(var3);
 case 4:
@@ -80,7 +80,7 @@ case 15:
             var6 = null;
             if(!(var3 === var4)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var18 = _closure1_slot2;
             var3 = 9;
@@ -102,7 +102,7 @@ case 17:
             var6 = var8.bind(var5)(var4, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 14:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var18 = _closure1_slot2;
             var3 = 9;
@@ -124,7 +124,7 @@ case 14:
             var6 = var8.bind(var5)(var4, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 12:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var17 = _closure1_slot2;
             var3 = 9;
@@ -149,7 +149,7 @@ case 12:
             var6 = var8.bind(var5)(var4, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 10:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var15 = _closure1_slot2;
             var3 = 9;
@@ -171,7 +171,7 @@ case 10:
             var6 = var8.bind(var5)(var4, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 8:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var11 = _closure1_slot2;
             var3 = 9;
@@ -182,7 +182,7 @@ case 8:
             var6 = var8.bind(var5)(var4, var3);
             _fun0001_ip = 16; continue _fun0001;
 case 6:
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 8;
@@ -198,8 +198,8 @@ case 16:
             var1 = null;
             if(!var3) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot4;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot3;
             var2 = {};
             var7 = var7.warningBlockContainer;
             var2['style'] = var7;
@@ -216,7 +216,7 @@ case 0:
             var1 = arg1;
             var10 = var1.guildId;
             var7 = var1.children;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var5 = undefined;
             var8 = var1.bind(var5)();
             var2 = _closure1_slot0;
@@ -228,25 +228,22 @@ case 0:
             var1 = var1.bind(var2)();
             if(var1) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot4;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
             var1 = {};
             var4 = var8.spinner;
             var1['style'] = var4;
-            var11 = _closure1_slot7;
-            var9 = _closure1_slot3;
-            var4 = {};
-            var4 = var11.bind(var5)(var9, var4);
+            var4 = _closure1_slot9;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
             _fun0002_ip = 22; continue _fun0002;
 case 20:
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot4;
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot3;
             var2 = {};
             var8 = var8.container;
             var2['style'] = var8;
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var8 = _closure1_slot10;
             var6 = {};
             var6['guildId'] = var10;
@@ -274,44 +271,46 @@ case 22:
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
-    var10 = 1;
-    var4 = var6[var10];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var8 = var4.ActivityIndicator;
-    var _closure1_slot3 = var8;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildFeatures;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
     var4 = {};
-    var9 = {};
-    var9['flex'] = var10;
-    var4['container'] = var9;
-    var9 = {'marginHorizontal': 16, 'marginTop': 16};
-    var4['warningBlockContainer'] = var9;
-    var9 = {};
-    var10 = 12;
-    var9['marginTop'] = var10;
-    var4['spinner'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11 = {};
+    var11['flex'] = var12;
+    var4['container'] = var11;
+    var11 = {'marginHorizontal': 16, 'marginTop': 16};
+    var4['warningBlockContainer'] = var11;
+    var11 = {};
+    var12 = 12;
+    var11['marginTop'] = var12;
+    var4['spinner'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot8 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
     var _closure1_slot9 = var4;
     var4 = 13;
     var4 = var6[var4];
@@ -321,7 +320,7 @@ case 22:
     var4 = var5.bind(var6)(var4);
     var2 = function GuildSettingsRoleSubscriptionContainer(arg1) {
         var11 = arg1;
-        var4 = _closure1_slot7;
+        var4 = _closure1_slot6;
         var6 = _closure1_slot0;
         var9 = _closure1_slot2;
         var1 = 11;
@@ -334,7 +333,7 @@ case 22:
         var1['guildId'] = var5;
         var5 = true;
         var1['refetchOnMount'] = var5;
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var5 = 12;
         var5 = var9[var5];
         var5 = var6.bind(var3)(var5);
@@ -342,7 +341,7 @@ case 22:
         var5 = {};
         var9 = var11.guildId;
         var5['guildId'] = var9;
-        var10 = _closure1_slot7;
+        var10 = _closure1_slot6;
         var9 = _closure1_slot11;
         var8 = {};
         var13 = var8;

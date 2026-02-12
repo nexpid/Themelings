@@ -1,11 +1,11 @@
 // app/modules/icymi/native/NewContentPill.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function CutoutGuildIcon(arg1) {
         var1 = arg1;
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -89,47 +89,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot9 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot9 = var8;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {'alignSelf': 'center', 'alignItems': 'center', 'flexDirection': 'row', 'paddingRight': 12, 'paddingLeft': 8, 'paddingVertical': 6};
-    var10 = 7;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.round;
-    var9['borderRadius'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BRAND;
-    var9['backgroundColor'] = var12;
-    var4['container'] = var9;
-    var9 = {};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOWER;
-    var9['backgroundColor'] = var10;
-    var4['guildIconBG'] = var9;
-    var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'height': 32, 'width': '100%', 'zIndex': 100};
-    var4['refreshMorePillContainer'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {'alignSelf': 'center', 'alignItems': 'center', 'flexDirection': 'row', 'paddingRight': 12, 'paddingLeft': 8, 'paddingVertical': 6};
+    var11 = 7;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.round;
+    var10['borderRadius'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BRAND;
+    var10['backgroundColor'] = var13;
+    var4['container'] = var10;
+    var10 = {};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_BASE_LOWER;
+    var10['backgroundColor'] = var11;
+    var4['guildIconBG'] = var10;
+    var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'height': 32, 'width': '100%', 'zIndex': 100};
+    var4['refreshMorePillContainer'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot11 = var4;
     var4 = {'overshootClamping': true, 'stiffness': 20, 'damping': 15, 'mass': 0.03};
     var _closure1_slot12 = var4;
@@ -141,6 +141,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = "function NewContentPillTsx2(){const{showingPill}=this.__closure;return{pointerEvents:showingPill?'box-none':'none'};}";
     var4['code'] = var7;
     var _closure1_slot14 = var4;
+    var4 = 10;
+    var7 = var6[var4];
+    var7 = var5.bind(var1)(var7);
+    var9 = var7.ArrowSmallUpIcon;
+    var7 = {'size': 'md', 'color': 'interactive-text-active'};
+    var7 = var8.bind(var1)(var9, var7);
+    var _closure1_slot15 = var7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ArrowSmallUpIcon;
+    var4 = {'size': 'md', 'color': 'interactive-text-active'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot16 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -164,7 +177,7 @@ case 0:
             var9 = var2.bind(var5)();
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var3 = var8[var2];
             var12 = var7.bind(var5)(var3);
             var11 = var12.useStateFromStoresArray;
@@ -206,7 +219,7 @@ case 0:
             var16 = var16[var25];
             var _closure2_slot5 = var16;
             var17 = _closure1_slot1;
-            var16 = 11;
+            var16 = 12;
             var16 = var8[var16];
             var16 = var17.bind(var5)(var16);
             var22 = var16.bind(var5)();
@@ -226,7 +239,7 @@ case 0:
                         var6 = var1.length;
                         var7 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 12;
+                        var1 = 13;
                         var5 = var5[var1];
                         var1 = undefined;
                         var5 = var7.bind(var1)(var5);
@@ -235,7 +248,7 @@ case 0:
 case 3:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 13;
+                        var4 = 14;
                         var4 = var6[var4];
                         var5 = var5.bind(var1)(var4);
                         var4 = var5.isGuildItem;
@@ -304,18 +317,18 @@ case 7:
             _closure2_slot8 = var20;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var4 = var16[var2];
             var8 = var7.bind(var5)(var4);
             var6 = var8.useAnimatedStyle;
-            var4 = function y() {
+            var4 = function I() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
                     var5 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var8 = 15;
+                    var8 = 16;
                     var3 = var3[var8];
                     var7 = undefined;
                     var11 = var4.bind(var7)(var3);
@@ -351,7 +364,7 @@ case 11:
                 }
             };
             var17 = {};
-            var19 = 15;
+            var19 = 16;
             var19 = var16[var19];
             var19 = var7.bind(var5)(var19);
             var19 = var19.withSpring;
@@ -368,7 +381,7 @@ case 11:
             var4 = var16[var2];
             var17 = var7.bind(var5)(var4);
             var6 = var17.useAnimatedProps;
-            var4 = function C() {
+            var4 = function v() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -390,7 +403,7 @@ case 13:
             var19 = _closure1_slot14;
             var4['__initData'] = var19;
             var6 = var6.bind(var17)(var4);
-            var4 = 16;
+            var4 = 17;
             var4 = var16[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.useIsFocused;
@@ -502,7 +515,7 @@ case 25:
             var1['animatedProps'] = var6;
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
-            var7 = 17;
+            var7 = 18;
             var7 = var16[var7];
             var7 = var12.bind(var5)(var7);
             var12 = var7.PressableOpacity;
@@ -510,19 +523,12 @@ case 25:
             var7['onPress'] = var11;
             var16 = var9.container;
             var7['style'] = var16;
-            var19 = _closure1_slot9;
             if(var14) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var14 = 18;
-            var14 = var17[var14];
-            var14 = var16.bind(var5)(var14);
-            var16 = var14.ArrowSmallUpIcon;
-            var14 = {'size': 'md', 'color': 'interactive-text-active'};
-            var16 = var19.bind(var5)(var16, var14);
+            var16 = _closure1_slot16;
             _fun0001_ip = 28; continue _fun0001;
 case 26:
+            var19 = _closure1_slot9;
             var17 = _closure1_slot5;
             var14 = {};
             var21 = _closure1_slot0;
@@ -574,7 +580,7 @@ case 15:
                     var6['marginLeft'] = var7;
                     var3['style'] = var6;
                     var8 = _closure1_slot9;
-                    var7 = _closure1_slot15;
+                    var7 = _closure1_slot17;
                     var6 = {};
                     var6['guild'] = var1;
                     var2 = undefined;
@@ -644,7 +650,7 @@ case 24:
             var2['animatedProps'] = var6;
             var8 = _closure1_slot10;
             var16 = _closure1_slot0;
-            var6 = 17;
+            var6 = 18;
             var6 = var17[var6];
             var6 = var16.bind(var5)(var6);
             var7 = var6.PressableOpacity;
@@ -652,13 +658,7 @@ case 24:
             var6['onPress'] = var11;
             var9 = var9.container;
             var6['style'] = var9;
-            var12 = _closure1_slot9;
-            var9 = 18;
-            var9 = var17[var9];
-            var9 = var16.bind(var5)(var9);
-            var11 = var9.ArrowSmallUpIcon;
-            var9 = {'size': 'md', 'color': 'interactive-text-active'};
-            var11 = var12.bind(var5)(var11, var9);
+            var11 = _closure1_slot15;
             var9 = new Array(2);
             var9[0] = var11;
             var12 = _closure1_slot9;

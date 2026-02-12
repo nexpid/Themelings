@@ -33,8 +33,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot6 = var4;
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.LinkIcon;
+    var4 = {'size': 'lg', 'color': 'text-subtle'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot7 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -55,7 +62,7 @@ case 0:
             var _closure2_slot4 = var4;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 4;
+            var3 = 5;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var14 = var3.bind(var4)();
@@ -68,7 +75,7 @@ case 0:
 case 3:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var5 = 5;
+            var5 = 6;
             var5 = var7[var5];
             var7 = var6.bind(var4)(var5);
             var6 = var7.get;
@@ -86,7 +93,7 @@ case 2:
 case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 6;
+            var3 = 7;
             var5 = var8[var3];
             var5 = var7.bind(var4)(var5);
             var6 = var5.intl;
@@ -99,7 +106,7 @@ case 7:
 case 6:
             var5 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 7;
+            var3 = 8;
             var3 = var12[var3];
             var6 = var5.bind(var4)(var3);
             var5 = var6.useStartProviderConnection;
@@ -123,7 +130,7 @@ case 0:
 case 9:
                         var5 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var3 = 8;
+                        var3 = 9;
                         var4 = var9[var3];
                         var3 = undefined;
                         var7 = var5.bind(var3)(var4);
@@ -132,7 +139,7 @@ case 9:
                         var5 = var4.GUILD_ONBOARDING_CONNECTION_CLICKED;
                         var4 = {};
                         var8 = _closure1_slot0;
-                        var2 = 9;
+                        var2 = 10;
                         var2 = var9[var2];
                         var10 = var8.bind(var3)(var2);
                         var9 = var10.collectGuildAnalyticsMetadata;
@@ -198,21 +205,12 @@ case 0:
                     var5 = null;
                     if(!(var5 == var1)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
-                    var4 = _closure1_slot6;
-                    var2 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 13;
-                    var1 = var3[var1];
-                    var3 = undefined;
-                    var1 = var2.bind(var3)(var1);
-                    var2 = var1.LinkIcon;
-                    var1 = {'size': 'lg', 'color': 'text-subtle'};
-                    var1 = var4.bind(var3)(var2, var1);
+                    var1 = _closure1_slot7;
                     return var1;
 case 16:
                     var3 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var2 = 5;
+                    var2 = 6;
                     var2 = var8[var2];
                     var4 = undefined;
                     var7 = var3.bind(var4)(var2);
@@ -221,7 +219,7 @@ case 16:
                     var2 = var2.provider_id;
                     var7 = var3.bind(var7)(var2);
                     var3 = _closure1_slot0;
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var8[var2];
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.makeSource;
@@ -237,7 +235,7 @@ case 18:
 case 21:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 11;
+                    var8 = 12;
                     var8 = var10[var8];
                     var9 = var9.bind(var4)(var8);
                     var8 = var9.isThemeDark;
@@ -247,17 +245,17 @@ case 21:
                     if(var6) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
                     var6 = var7.lightPNG;
-                    _fun0003_ip = 24; continue _fun0003;
+                    _fun0003_ip = 12; continue _fun0003;
 case 22:
                     var6 = var7.darkPNG;
-case 24:
+case 12:
                     var5 = var6;
 case 20:
                     var5 = var2.bind(var3)(var5);
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var1 = 12;
+                    var1 = 13;
                     var1 = var6[var1];
                     var2 = var2.bind(var4)(var1);
                     var1 = {};

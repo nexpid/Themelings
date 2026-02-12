@@ -230,15 +230,26 @@ case 0:
             var _closure2_slot0 = var13;
             var11 = var1.renderForScreenshot;
             var5 = undefined;
-            var _closure2_slot2 = var5;
+            var _closure2_slot3 = var5;
+            var7 = _closure1_slot7;
+            var3 = _closure1_slot2;
+            var6 = _closure1_slot3;
+            var1 = 4;
+            var1 = var6[var1];
+            var1 = var3.bind(var5)(var1);
+            var4 = var1.TopGameBadge;
+            var3 = {};
+            var3['entry'] = var13;
+            var1 = 'topgame';
+            var1 = var7.bind(var5)(var4, var3, var1);
+            var _closure2_slot1 = var1;
             var1 = _closure1_slot11;
             var27 = var1.bind(var5)();
             var1 = var13.extra;
             var4 = var1.application_id;
             var8 = var13.author_id;
-            var _closure2_slot1 = var8;
+            var _closure2_slot2 = var8;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot3;
             var1 = 9;
             var1 = var6[var1];
             var10 = var3.bind(var5)(var1);
@@ -249,7 +260,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getUser;
-                var1 = _closure2_slot1;
+                var1 = _closure2_slot2;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -306,18 +317,18 @@ case 8:
 case 0:
                     var1 = _closure2_slot0;
                     var4 = var1.content_type;
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot3;
-                    var1 = 14;
-                    var1 = var6[var1];
-                    var6 = undefined;
-                    var1 = var5.bind(var6)(var1);
-                    var1 = var1.ContentInventoryEntryType;
-                    var1 = var1.TOP_GAME;
-                    if(!(var4 !== var1)) { _fun0004_ip = 10; continue _fun0004 }
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot3;
+                    var3 = 14;
+                    var5 = var5[var3];
+                    var3 = undefined;
+                    var3 = var6.bind(var3)(var5);
+                    var3 = var3.ContentInventoryEntryType;
+                    var3 = var3.TOP_GAME;
+                    if(!(var4 !== var3)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
-                    var5 = _closure1_slot10;
-                    var4 = var5.map;
+                    var4 = _closure1_slot10;
+                    var3 = var4.map;
                     var1 = function(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -340,25 +351,14 @@ case 12:
                             return var1;
                         }
                     };
-                    var5 = var4.bind(var5)(var1);
-                    var4 = var5.filter;
+                    var4 = var3.bind(var4)(var1);
+                    var3 = var4.filter;
                     var1 = global;
                     var1 = var1.Boolean;
-                    var1 = var4.bind(var5)(var1);
+                    var1 = var3.bind(var4)(var1);
                     _fun0004_ip = 14; continue _fun0004;
 case 10:
-                    var5 = _closure1_slot7;
-                    var4 = _closure1_slot2;
-                    var7 = _closure1_slot3;
-                    var3 = 4;
-                    var3 = var7[var3];
-                    var3 = var4.bind(var6)(var3);
-                    var4 = var3.TopGameBadge;
-                    var3 = {};
-                    var2 = _closure2_slot0;
-                    var3['entry'] = var2;
-                    var2 = 'topgame';
-                    var3 = var5.bind(var6)(var4, var3, var2);
+                    var3 = _closure2_slot1;
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
@@ -454,7 +454,7 @@ case 15:
             var3['content'] = var13;
             var3 = var4.bind(var7)(var3);
             var15 = var3.openReplyActionSheet;
-            _closure2_slot2 = var15;
+            _closure2_slot3 = var15;
             var4 = var6.useCallback;
             var3 = new Array(2);
             var3[0] = var13;
@@ -482,7 +482,7 @@ case 15:
                 var6 = {'actionGestureType': 'press', 'actionTargetElement': 'item_container', 'actionIntentType': 'open', 'actionDestinationType': null};
                 var3['actionParameters'] = var6;
                 var3 = var4.bind(var5)(var3);
-                var2 = _closure2_slot2;
+                var2 = _closure2_slot3;
                 var2 = var2.bind(var1)();
                 return var1;
             };

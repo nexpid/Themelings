@@ -51,7 +51,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var8 = var4.jsx;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ChatCheckIcon;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
     var _closure1_slot10 = var4;
     var4 = 26;
     var4 = var6[var4];
@@ -72,7 +78,7 @@ case 0:
             var _closure2_slot6 = var5;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var7 = 8;
+            var7 = 9;
             var2 = var1[var7];
             var11 = var8.bind(var5)(var2);
             var10 = var11.useStateFromStores;
@@ -92,7 +98,7 @@ case 0:
             var2 = 'unknown';
             var _closure2_slot2 = var2;
             var6 = var9.content_type;
-            var11 = 9;
+            var11 = 10;
             var1 = var1[var11];
             var1 = var8.bind(var5)(var1);
             var1 = var1.ContentInventoryEntryType;
@@ -181,7 +187,7 @@ case 11:
 case 0:
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var1 = 10;
+                            var1 = 11;
                             var3 = var3[var1];
                             var1 = undefined;
                             var5 = var4.bind(var1)(var3);
@@ -225,7 +231,7 @@ case 8:
 case 17:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 11;
+                            var2 = 12;
                             var2 = var4[var2];
                             var11 = undefined;
                             var4 = var3.bind(var11)(var2);
@@ -249,7 +255,7 @@ case 23:
                             var6 = var4.content_type;
                             var8 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var4 = 9;
+                            var4 = 10;
                             var4 = var9[var4];
                             var4 = var8.bind(var11)(var4);
                             var4 = var4.ContentInventoryEntryType;
@@ -258,7 +264,7 @@ case 23:
 case 25:
                             var6 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var4 = 16;
+                            var4 = 17;
                             var4 = var8[var4];
                             var8 = var6.bind(var11)(var4);
                             var6 = var8.sendMessageWithEmbed;
@@ -285,7 +291,7 @@ case 28:
 case 24:
                             var6 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var4 = 12;
+                            var4 = 13;
                             var4 = var8[var4];
                             var9 = var6.bind(var11)(var4);
                             var8 = var9.getStatusReplyContent;
@@ -339,7 +345,7 @@ case 29:
                             var4['reply'] = var5;
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var12 = 13;
+                            var12 = 14;
                             var12 = var6[var12];
                             var14 = var5.bind(var11)(var12);
                             var13 = var14.getName;
@@ -351,12 +357,12 @@ case 29:
                             var10 = var10.attachments;
                             var4['attachments'] = var10;
                             var9 = var8.bind(var9)(var4);
-                            var4 = 14;
+                            var4 = 15;
                             var4 = var6[var4];
                             var8 = var5.bind(var11)(var4);
                             var4 = var8.parse;
                             var19 = var4.bind(var8)(var3, var9);
-                            var4 = 15;
+                            var4 = 16;
                             var4 = var6[var4];
                             var8 = var5.bind(var11)(var4);
                             var6 = var8.sendMessage;
@@ -378,12 +384,12 @@ case 36:
 case 22:
                             var5 = _closure1_slot1;
                             var12 = _closure1_slot2;
-                            var4 = 17;
+                            var4 = 18;
                             var4 = var12[var4];
                             var6 = var5.bind(var11)(var4);
                             var4 = var6.hideActionSheet;
                             var4 = var4.bind(var6)();
-                            var4 = 18;
+                            var4 = 19;
                             var4 = var12[var4];
                             var6 = var5.bind(var11)(var4);
                             var5 = var6.open;
@@ -391,7 +397,7 @@ case 22:
                             var8 = 'content_inventory_message_sent';
                             var4['key'] = var8;
                             var10 = _closure1_slot0;
-                            var7 = 19;
+                            var7 = 20;
                             var8 = var12[var7];
                             var8 = var10.bind(var11)(var8);
                             var9 = var8.intl;
@@ -403,16 +409,7 @@ case 22:
                             var7 = var8.bind(var9)(var7);
                             var4['content'] = var7;
                             var7 = function icon() {
-                                var4 = _closure1_slot10;
-                                var2 = _closure1_slot0;
-                                var3 = _closure1_slot2;
-                                var1 = 20;
-                                var1 = var3[var1];
-                                var3 = undefined;
-                                var1 = var2.bind(var3)(var1);
-                                var2 = var1.ChatCheckIcon;
-                                var1 = {};
-                                var1 = var4.bind(var3)(var2, var1);
+                                var1 = _closure1_slot10;
                                 return var1;
                             };
                             var4['icon'] = var7;
@@ -564,7 +561,7 @@ case 44:
                     var4 = var2.content_type;
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var6 = 9;
+                    var6 = 10;
                     var2 = var2[var6];
                     var8 = undefined;
                     var2 = var5.bind(var8)(var2);
@@ -612,7 +609,7 @@ case 45:
                     var10 = {'actionGestureType': 'press', 'actionTargetElement': 'item_container', 'actionIntentType': 'open', 'actionDestinationType': null};
                     var4['actionParameters'] = var10;
                     var4 = var7.bind(var9)(var4);
-                    var4 = 17;
+                    var4 = 18;
                     var4 = var2[var4];
                     var5 = var5.bind(var8)(var4);
                     var4 = var5.openLazy;

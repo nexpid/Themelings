@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouExpiringTrialOfferCard.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = function getNoticeCTAColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -41,7 +41,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function getNoticeCopy(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -123,7 +123,7 @@ case 10:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -145,7 +145,7 @@ case 10:
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -160,23 +160,23 @@ case 10:
     var _closure1_slot9 = var7;
     var4 = var4.NoticeTypes;
     var _closure1_slot10 = var4;
-    var10 = 4;
-    var4 = var6[var10];
+    var11 = 4;
+    var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
     var4 = var4.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
     var _closure1_slot11 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot12 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot12 = var8;
     var7 = var4.Fragment;
     var _closure1_slot13 = var7;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var4 = var4.Millis;
     var7 = var4.SECOND;
     var4 = 10;
@@ -184,33 +184,40 @@ case 10:
     var _closure1_slot15 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {'flexDirection': 'row', 'alignItems': 'flex-start', 'marginBottom': 16, 'marginRight': 32};
-    var4['header'] = var9;
-    var9 = {'position': 'absolute', 'top': 16, 'right': 16};
-    var4['closeButton'] = var9;
-    var9 = {};
-    var11 = 8;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
-    var9['color'] = var13;
-    var4['closeIcon'] = var9;
-    var9 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
-    var4['linearGradient'] = var9;
-    var9 = {};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.round;
-    var9['borderRadius'] = var11;
-    var9['gap'] = var10;
-    var4['primaryCTA'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {'flexDirection': 'row', 'alignItems': 'flex-start', 'marginBottom': 16, 'marginRight': 32};
+    var4['header'] = var10;
+    var10 = {'position': 'absolute', 'top': 16, 'right': 16};
+    var4['closeButton'] = var10;
+    var10 = {};
+    var12 = 8;
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.INTERACTIVE_TEXT_DEFAULT;
+    var10['color'] = var14;
+    var4['closeIcon'] = var10;
+    var10 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
+    var4['linearGradient'] = var10;
+    var10 = {};
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.round;
+    var10['borderRadius'] = var12;
+    var10['gap'] = var11;
+    var4['primaryCTA'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot16 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.NitroWheelIcon;
+    var4 = {'color': 'white', 'size': 'sm'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot17 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -228,7 +235,7 @@ case 0:
             var _closure2_slot5 = var5;
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var9 = var1.bind(var5)();
@@ -241,7 +248,7 @@ case 0:
             var15 = var1.bind(var5)();
             var _closure2_slot2 = var15;
             var8 = _closure1_slot0;
-            var1 = 13;
+            var1 = 14;
             var1 = var6[var1];
             var10 = var8.bind(var5)(var1);
             var9 = var10.useStateFromStores;
@@ -256,13 +263,13 @@ case 0:
             };
             var2 = var9.bind(var10)(var2, var1);
             var _closure2_slot3 = var2;
-            var1 = 14;
+            var1 = 15;
             var1 = var6[var1];
             var8 = var8.bind(var5)(var1);
             var1 = var8.usePremiumTrialOffer;
             var21 = var1.bind(var8)();
             var _closure2_slot4 = var21;
-            var1 = 15;
+            var1 = 16;
             var1 = var6[var1];
             var8 = var4.bind(var5)(var1);
             var1 = null;
@@ -285,7 +292,7 @@ case 11:
             var18 = var8.bind(var5)(var6, var4);
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 16;
+            var4 = 17;
             var4 = var8[var4];
             var6 = var6.bind(var5)(var4);
             var4 = var6.useShouldShowExpiringTrialOfferCard;
@@ -347,7 +354,7 @@ case 22:
 case 23:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 17;
+            var2 = 18;
             var2 = var6[var2];
             var6 = var4.bind(var5)(var2);
             var4 = var6.getArticleURL;
@@ -373,13 +380,13 @@ case 26:
             var4['style'] = var11;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var11 = 18;
+            var11 = 19;
             var11 = var20[var11];
             var11 = var19.bind(var5)(var11);
             var12 = var11.Text;
             var11 = {'variant': 'heading-sm/medium', 'color': 'text-default'};
-            var16 = _closure1_slot18;
-            var14 = 19;
+            var16 = _closure1_slot19;
+            var14 = 20;
             var14 = var20[var14];
             var20 = var19.bind(var5)(var14);
             var19 = var20.formatIntervalDuration;
@@ -411,7 +418,7 @@ case 29:
             var4 = _closure1_slot12;
             var17 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var11 = 20;
+            var11 = 21;
             var11 = var8[var11];
             var11 = var17.bind(var5)(var11);
             var12 = var11.PressableOpacity;
@@ -472,7 +479,7 @@ case 31:
             };
             var11['onPress'] = var16;
             var3 = _closure1_slot1;
-            var16 = 21;
+            var16 = 22;
             var16 = var8[var16];
             var18 = var3.bind(var5)(var16);
             var16 = {'width': 16, 'height': 16};
@@ -483,7 +490,7 @@ case 31:
             var11['children'] = var16;
             var11 = var4.bind(var5)(var12, var11);
             var10[1] = var11;
-            var11 = 22;
+            var11 = 23;
             var11 = var8[var11];
             var12 = var3.bind(var5)(var11);
             var11 = {};
@@ -530,16 +537,7 @@ case 31:
             };
             var11['onPress'] = var14;
             var14 = function renderIcon() {
-                var4 = _closure1_slot12;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 23;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.NitroWheelIcon;
-                var1 = {'color': 'white', 'size': 'sm'};
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure1_slot17;
                 return var1;
             };
             var11['renderIcon'] = var14;
@@ -562,7 +560,7 @@ case 31:
                 var1['start'] = var8;
                 var7 = var7.END;
                 var1['end'] = var7;
-                var6 = _closure1_slot17;
+                var6 = _closure1_slot18;
                 var5 = _closure2_slot3;
                 var5 = var6.bind(var3)(var5);
                 var1['colors'] = var5;

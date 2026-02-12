@@ -1,11 +1,11 @@
 // app/modules/devtools/native/components/screens/DevToolsDataStorageScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var15 = metroImportDefault;
+    var16 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var16;
     var _closure1_slot2 = var6;
     var1 = function DevToolsPersistedStoresActionSheet(arg1) {
         var1 = arg1;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -79,18 +79,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var10 = 0;
-    var4 = var6[var10];
+    var15 = 0;
+    var4 = var6[var15];
     var1 = undefined;
-    var4 = var15.bind(var1)(var4);
+    var4 = var16.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var9 = 1;
-    var7 = var6[var9];
+    var14 = 1;
+    var7 = var6[var14];
     var4 = metroImportAll;
-    var11 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var11;
-    var8 = 2;
-    var4 = var6[var8];
+    var12 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var12;
+    var13 = 2;
+    var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot5 = var4;
@@ -101,42 +101,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var16.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot8 = var4;
+    var8 = var4.jsx;
+    var _closure1_slot8 = var8;
     var4 = 6;
     var4 = var6[var4];
-    var12 = var5.bind(var1)(var4);
-    var7 = var12.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var13 = {};
-    var14 = 7;
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.BACKGROUND_BASE_LOW;
-    var13['backgroundColor'] = var16;
-    var16 = var6[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.spacing;
-    var16 = var16.PX_12;
-    var13['paddingHorizontal'] = var16;
-    var13['flex'] = var9;
-    var4['container'] = var13;
-    var13 = {'backgroundColor': null, 'verticalAlign': 'middle', 'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};
-    var14 = var6[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOW;
-    var13['backgroundColor'] = var14;
-    var4['sectionHeader'] = var13;
-    var4 = var7.bind(var12)(var4);
+    var10 = {};
+    var11 = 7;
+    var17 = var6[var11];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var17;
+    var17 = var6[var11];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.spacing;
+    var17 = var17.PX_12;
+    var10['paddingHorizontal'] = var17;
+    var10['flex'] = var14;
+    var4['container'] = var10;
+    var10 = {'backgroundColor': null, 'verticalAlign': 'middle', 'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};
+    var11 = var6[var11];
+    var11 = var16.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var11;
+    var4['sectionHeader'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot9 = var4;
-    var7 = var11.memo;
+    var7 = var12.memo;
     var4 = function() {
         var4 = _closure1_slot8;
         var2 = _closure1_slot0;
@@ -180,9 +180,8 @@ case 2:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var4 = var7.bind(var11)(var4);
-    var _closure1_slot10 = var4;
-    var7 = var11.memo;
+    var11 = var7.bind(var12)(var4);
+    var7 = var12.memo;
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -246,9 +245,8 @@ case 6:
             return var1;
         }
     };
-    var4 = var7.bind(var11)(var4);
-    var _closure1_slot11 = var4;
-    var7 = var11.memo;
+    var7 = var7.bind(var12)(var4);
+    var9 = var12.memo;
     var4 = function() {
         var4 = _closure1_slot8;
         var2 = _closure1_slot0;
@@ -283,9 +281,8 @@ case 6:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var4 = var7.bind(var11)(var4);
-    var _closure1_slot12 = var4;
-    var7 = var11.memo;
+    var10 = var9.bind(var12)(var4);
+    var9 = var12.memo;
     var4 = function() {
         var2 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -314,19 +311,37 @@ case 6:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4 = var7.bind(var11)(var4);
+    var9 = var9.bind(var12)(var4);
+    var4 = {};
+    var4['DATABASE_CONTROLS'] = var15;
+    var12 = 'DATABASE_CONTROLS';
+    var4[var15] = var12;
+    var4['DATABASE_CURRENT'] = var14;
+    var12 = 'DATABASE_CURRENT';
+    var4[var14] = var12;
+    var4['PERSISTED_STORES'] = var13;
+    var12 = 'PERSISTED_STORES';
+    var4[var13] = var12;
+    var _closure1_slot10 = var4;
+    var4 = {};
+    var4 = var8.bind(var1)(var11, var4);
+    var _closure1_slot11 = var4;
+    var4 = {};
+    var4 = var8.bind(var1)(var10, var4);
+    var _closure1_slot12 = var4;
+    var4 = {};
+    var4 = var8.bind(var1)(var9, var4);
     var _closure1_slot13 = var4;
     var4 = {};
-    var4['DATABASE_CONTROLS'] = var10;
-    var7 = 'DATABASE_CONTROLS';
-    var4[var10] = var7;
-    var4['DATABASE_CURRENT'] = var9;
-    var7 = 'DATABASE_CURRENT';
-    var4[var9] = var7;
-    var4['PERSISTED_STORES'] = var8;
-    var7 = 'PERSISTED_STORES';
-    var4[var8] = var7;
+    var4 = var8.bind(var1)(var7, var4);
     var _closure1_slot14 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.TableRow;
+    var4 = {'label': 'No results found.', 'end': true};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot15 = var4;
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -399,7 +414,7 @@ case 8:
             var2 = var2.bind(var5)(var1);
             var _closure3_slot1 = var2;
             var1 = {};
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot10;
             var6 = var4.DATABASE_CONTROLS;
             var5 = new Array(3);
             var5[0] = var6;
@@ -412,15 +427,15 @@ case 8:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = arg1;
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot10;
                     var3 = var3.DATABASE_CONTROLS;
                     if(!(var3 !== var2)) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
-                    var3 = _closure1_slot14;
+                    var3 = _closure1_slot10;
                     var3 = var3.DATABASE_CURRENT;
                     if(!(var3 !== var2)) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
-                    var1 = _closure1_slot14;
+                    var1 = _closure1_slot10;
                     var1 = var1.PERSISTED_STORES;
                     if(!(var1 !== var2)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
@@ -486,15 +501,15 @@ case 0:
                 var4 = arg1;
                 var3 = arg2;
                 var _closure3_slot0 = var3;
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot10;
                 var2 = var2.DATABASE_CONTROLS;
                 if(!(var2 !== var4)) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot10;
                 var2 = var2.DATABASE_CURRENT;
                 if(!(var2 !== var4)) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot10;
                 var2 = var2.PERSISTED_STORES;
                 if(!(var2 !== var4)) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
@@ -541,7 +556,7 @@ case 10:
                     var4 = var2.Promise;
                     var3 = var4.resolve;
                     var2 = {};
-                    var7 = _closure1_slot15;
+                    var7 = _closure1_slot16;
                     var2['default'] = var7;
                     var4 = var3.bind(var4)(var2);
                     var3 = {};
@@ -572,16 +587,7 @@ case 10:
                 var2 = var6.bind(var5)(var4, var2);
                 return var2;
 case 27:
-                var6 = _closure1_slot8;
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 8;
-                var2 = var5[var2];
-                var5 = undefined;
-                var2 = var4.bind(var5)(var2);
-                var4 = var2.TableRow;
-                var2 = {'label': 'No results found.', 'end': true};
-                var2 = var6.bind(var5)(var4, var2);
+                var2 = _closure1_slot15;
                 return var2;
 case 24:
                 var6 = _closure1_slot8;
@@ -622,11 +628,7 @@ case 20:
                 var2 = null;
                 if(!(var4 === var3)) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
-                var7 = _closure1_slot8;
-                var6 = _closure1_slot11;
-                var5 = undefined;
-                var4 = {};
-                var2 = var7.bind(var5)(var6, var4);
+                var2 = _closure1_slot14;
 case 28:
                 return var2;
 case 18:
@@ -642,25 +644,13 @@ case 35:
                 var2 = null;
                 return var2;
 case 34:
-                var5 = _closure1_slot8;
-                var4 = _closure1_slot13;
-                var3 = undefined;
-                var2 = {};
-                var2 = var5.bind(var3)(var4, var2);
+                var2 = _closure1_slot13;
                 return var2;
 case 32:
-                var5 = _closure1_slot8;
-                var4 = _closure1_slot12;
-                var3 = undefined;
-                var2 = {};
-                var2 = var5.bind(var3)(var4, var2);
+                var2 = _closure1_slot12;
                 return var2;
 case 30:
-                var4 = _closure1_slot8;
-                var3 = _closure1_slot10;
-                var2 = undefined;
-                var1 = {};
-                var1 = var4.bind(var2)(var3, var1);
+                var1 = _closure1_slot11;
                 return var1;
             }
         };
@@ -684,17 +674,17 @@ case 0:
                 var5 = _closure2_slot0;
                 var5 = var5.sectionHeader;
                 var1['style'] = var5;
-                var5 = _closure1_slot14;
+                var5 = _closure1_slot10;
                 var8 = var5.DATABASE_CONTROLS;
                 var5 = 'Database Controls';
                 if(!(var8 !== var7)) { _fun0006_ip = 36; continue _fun0006 }
 case 37:
-                var8 = _closure1_slot14;
+                var8 = _closure1_slot10;
                 var8 = var8.DATABASE_CURRENT;
                 var5 = 'Database (Current)';
                 if(!(var8 !== var7)) { _fun0006_ip = 36; continue _fun0006 }
 case 38:
-                var6 = _closure1_slot14;
+                var6 = _closure1_slot10;
                 var6 = var6.PERSISTED_STORES;
                 var5 = undefined;
                 if(!(var6 === var7)) { _fun0006_ip = 36; continue _fun0006 }

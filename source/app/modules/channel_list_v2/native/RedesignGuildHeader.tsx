@@ -1,11 +1,11 @@
 // app/modules/channel_list_v2/native/RedesignGuildHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var5 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var5;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
     var1 = function GuildInfoHeader(arg1) {
         var2 = arg1;
@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var2.bind(var4)();
         var3 = _closure1_slot0;
         var13 = _closure1_slot2;
-        var2 = 21;
+        var2 = 22;
         var5 = var13[var2];
         var10 = var3.bind(var4)(var5);
         var7 = var10.useAnimatedStyle;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var2.bind(var3)(var1);
         var3 = _closure1_slot15;
         var10 = _closure1_slot1;
-        var5 = 22;
+        var5 = 23;
         var1 = var13[var5];
         var2 = var10.bind(var4)(var1);
         var1 = {};
@@ -100,12 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10.bind(var4)(var5);
         var5 = {};
         var5['style'] = var8;
-        var15 = _closure1_slot14;
-        var8 = 23;
-        var8 = var13[var8];
-        var14 = var10.bind(var4)(var8);
-        var8 = {'absolute': true, 'tall': true};
-        var8 = var15.bind(var4)(var14, var8);
+        var8 = _closure1_slot22;
         var5['children'] = var8;
         var6 = var7.bind(var4)(var6, var5);
         var5 = new Array(2);
@@ -129,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function ReanimatedGuildBanner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -184,7 +179,7 @@ case 0:
             var4 = var9.useIsFocused;
             var4 = var4.bind(var9)();
             var _closure2_slot6 = var1;
-            var15 = 21;
+            var15 = 22;
             var9 = var21[var15];
             var11 = var22.bind(var5)(var9);
             var10 = var11.useSharedValue;
@@ -281,7 +276,7 @@ case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var10 = 21;
+                    var10 = 22;
                     var2 = var2[var10];
                     var9 = undefined;
                     var8 = var3.bind(var9)(var2);
@@ -352,7 +347,7 @@ case 7:
             var6['__closure'] = var14;
             var14 = 16532496584630.0;
             var6['__workletHash'] = var14;
-            var14 = _closure1_slot22;
+            var14 = _closure1_slot23;
             var6['__initData'] = var14;
             var6 = var10.bind(var11)(var6);
             var10 = var21[var15];
@@ -362,7 +357,7 @@ case 7:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 21;
+                var2 = 22;
                 var3 = var3[var2];
                 var2 = undefined;
                 var6 = var4.bind(var2)(var3);
@@ -385,7 +380,7 @@ case 7:
             var10['__closure'] = var18;
             var18 = 13777976622560.0;
             var10['__workletHash'] = var18;
-            var18 = _closure1_slot23;
+            var18 = _closure1_slot24;
             var10['__initData'] = var18;
             var14 = var11.bind(var14)(var10);
             var18 = _closure1_slot3;
@@ -463,7 +458,7 @@ case 15:
             };
             var18 = var3.bind(var4)(var7, var2);
             var4 = _closure1_slot14;
-            var2 = 22;
+            var2 = 23;
             var2 = var10[var2];
             var3 = var11.bind(var5)(var2);
             var2 = {};
@@ -507,39 +502,39 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var5 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var5.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var7[var1];
+    var5 = var7[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var8 = var4.bind(var1)(var8);
-    var _closure1_slot3 = var8;
+    var10 = var4.bind(var1)(var5);
+    var _closure1_slot3 = var10;
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var9 = var4.useWindowDimensions;
-    var _closure1_slot4 = var9;
-    var9 = var4.StyleSheet;
-    var _closure1_slot5 = var9;
-    var9 = var4.View;
-    var _closure1_slot6 = var9;
+    var5 = var4.useWindowDimensions;
+    var _closure1_slot4 = var5;
+    var5 = var4.StyleSheet;
+    var _closure1_slot5 = var5;
+    var5 = var4.View;
+    var _closure1_slot6 = var5;
     var4 = var4.Pressable;
     var _closure1_slot7 = var4;
     var4 = 2;
     var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 3;
     var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 4;
     var4 = var7[var4];
@@ -558,14 +553,14 @@ case 9:
     var4 = 6;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.jsx;
-    var _closure1_slot14 = var5;
+    var9 = var4.jsx;
+    var _closure1_slot14 = var9;
     var4 = var4.jsxs;
     var _closure1_slot15 = var4;
     var4 = 15;
     var5 = var7[var4];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.createStyles;
+    var12 = var6.bind(var1)(var5);
+    var11 = var12.createStyles;
     var5 = function() {
         var1 = {};
         var2 = {};
@@ -574,11 +569,11 @@ case 9:
         var1['guildHeaderWrapper'] = var2;
         return var1;
     };
-    var5 = var9.bind(var10)(var5);
+    var5 = var11.bind(var12)(var5);
     var _closure1_slot16 = var5;
     var5 = var7[var4];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.createStyles;
+    var12 = var6.bind(var1)(var5);
+    var11 = var12.createStyles;
     var5 = function(arg1) {
         var1 = {};
         var2 = {};
@@ -613,11 +608,11 @@ case 9:
         var1['bannerOverlay'] = var2;
         return var1;
     };
-    var5 = var9.bind(var10)(var5);
+    var5 = var11.bind(var12)(var5);
     var _closure1_slot17 = var5;
     var5 = var7[var4];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.experimental_createToken;
+    var12 = var6.bind(var1)(var5);
+    var11 = var12.experimental_createToken;
     var5 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -648,11 +643,11 @@ case 19:
             return var1;
         }
     };
-    var5 = var9.bind(var10)(var5);
+    var5 = var11.bind(var12)(var5);
     var _closure1_slot18 = var5;
     var4 = var7[var4];
-    var9 = var6.bind(var1)(var4);
-    var5 = var9.createStyles;
+    var11 = var6.bind(var1)(var4);
+    var5 = var11.createStyles;
     var4 = function() {
         var1 = {};
         var2 = {};
@@ -661,9 +656,9 @@ case 19:
         var1['headerWrapper'] = var2;
         return var1;
     };
-    var4 = var5.bind(var9)(var4);
+    var4 = var5.bind(var11)(var4);
     var _closure1_slot19 = var4;
-    var5 = var8.memo;
+    var5 = var10.memo;
     var4 = function RedesignGuildHeader(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -740,7 +735,7 @@ case 24:
             var5 = true;
             var1['preventClipping'] = var5;
             var9 = _closure1_slot14;
-            var6 = _closure1_slot25;
+            var6 = _closure1_slot26;
             var5 = {};
             var5['guild'] = var15;
             var5['scrollPosition'] = var11;
@@ -751,7 +746,7 @@ case 24:
             var5 = new Array(3);
             var5[0] = var6;
             var17 = _closure1_slot14;
-            var9 = _closure1_slot24;
+            var9 = _closure1_slot25;
             var6 = {};
             var6['guild'] = var15;
             var6['scrollPosition'] = var11;
@@ -794,23 +789,29 @@ case 28:
             return var1;
         }
     };
-    var4 = var5.bind(var8)(var4);
+    var4 = var5.bind(var10)(var4);
     var5 = {};
-    var8 = 'function RedesignGuildHeaderTsx1(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.max(0,scrollPosition.get()-bannerHeight)}]};}';
-    var5['code'] = var8;
+    var10 = 'function RedesignGuildHeaderTsx1(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.max(0,scrollPosition.get()-bannerHeight)}]};}';
+    var5['code'] = var10;
     var _closure1_slot20 = var5;
     var5 = {};
-    var8 = 'function RedesignGuildHeaderTsx2(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.min(0,scrollPosition.get()-bannerHeight)}]};}';
-    var5['code'] = var8;
+    var10 = 'function RedesignGuildHeaderTsx2(){const{scrollPosition,bannerHeight}=this.__closure;return{transform:[{translateY:Math.min(0,scrollPosition.get()-bannerHeight)}]};}';
+    var5['code'] = var10;
     var _closure1_slot21 = var5;
+    var5 = 21;
+    var5 = var7[var5];
+    var8 = var8.bind(var1)(var5);
+    var5 = {'absolute': true, 'tall': true};
+    var5 = var9.bind(var1)(var8, var5);
+    var _closure1_slot22 = var5;
     var5 = {};
     var8 = "function RedesignGuildHeaderTsx3(){const{scrollPosition,interpolate,maxScrollPosition,bannerHeight}=this.__closure;const scrollPosValue=scrollPosition.get();return{opacity:interpolate(scrollPosValue,[0,maxScrollPosition],[1,0],'clamp'),transform:[{translateY:scrollPosValue>=0?interpolate(-scrollPosValue,[0,bannerHeight],[0,-bannerHeight],'clamp'):scrollPosValue/2},{scale:scrollPosValue>=0?1:(bannerHeight-scrollPosValue)/bannerHeight}]};}";
     var5['code'] = var8;
-    var _closure1_slot22 = var5;
+    var _closure1_slot23 = var5;
     var5 = {};
     var8 = 'function RedesignGuildHeaderTsx4(){const{interpolate,pressed}=this.__closure;return{opacity:interpolate(pressed.get(),[0,1],[0,0.3])};}';
     var5['code'] = var8;
-    var _closure1_slot23 = var5;
+    var _closure1_slot24 = var5;
     var5 = 32;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

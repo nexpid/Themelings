@@ -64,7 +64,7 @@ case 0:
             var1 = var6[var1];
             var5 = undefined;
             var4 = var3.bind(var5)(var1);
-            var1 = var4.getAppContainerDimensions;
+            var1 = var4.getBaseAppContainerDimensions;
             var1 = var1.bind(var4)();
             var4 = var1.width;
             var1 = 2;

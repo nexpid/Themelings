@@ -1,11 +1,11 @@
 // app/modules/video_calls/native/components/ChannelCallHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var17 = metroImportDefault;
+    var18 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var17;
+    var _closure1_slot1 = var18;
     var _closure1_slot2 = var9;
     var1 = function UsersButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -149,10 +149,10 @@ case 6:
     var1 = 0;
     var4 = var9[var1];
     var1 = undefined;
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var15 = 1;
-    var5 = var9[var15];
+    var16 = 1;
+    var5 = var9[var16];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var5);
     var _closure1_slot4 = var4;
@@ -163,33 +163,33 @@ case 6:
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var9[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var11 = 4;
-    var4 = var9[var11];
+    var12 = 4;
+    var4 = var9[var12];
     var4 = var8.bind(var1)(var4);
     var4 = var4.isGuildScheduledEventActive;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var9[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var9[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var9[var4];
-    var4 = var17.bind(var1)(var4);
+    var4 = var18.bind(var1)(var4);
     var _closure1_slot10 = var4;
-    var12 = 8;
-    var4 = var9[var12];
+    var13 = 8;
+    var4 = var9[var13];
     var4 = var8.bind(var1)(var4);
     var5 = var4.AnalyticEvents;
     var _closure1_slot11 = var5;
     var5 = var4.ChannelTypes;
     var _closure1_slot12 = var5;
-    var14 = var4.Fonts;
+    var15 = var4.Fonts;
     var4 = 9;
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
@@ -198,8 +198,8 @@ case 6:
     var4 = 10;
     var4 = var9[var4];
     var4 = var8.bind(var1)(var4);
-    var5 = var4.jsx;
-    var _closure1_slot14 = var5;
+    var11 = var4.jsx;
+    var _closure1_slot14 = var11;
     var5 = var4.jsxs;
     var _closure1_slot15 = var5;
     var4 = var4.Fragment;
@@ -210,54 +210,54 @@ case 6:
     var5 = var7.createStyles;
     var4 = {};
     var10 = {'height': null, 'flexDirection': 'row', 'alignItems': 'center', 'paddingHorizontal': 12};
-    var13 = 12;
-    var13 = var9[var13];
-    var13 = var8.bind(var1)(var13);
-    var13 = var13.NAV_BAR_HEIGHT;
-    var10['height'] = var13;
+    var14 = 12;
+    var14 = var9[var14];
+    var14 = var8.bind(var1)(var14);
+    var14 = var14.NAV_BAR_HEIGHT;
+    var10['height'] = var14;
     var4['header'] = var10;
     var10 = {};
-    var10['flex'] = var15;
+    var10['flex'] = var16;
     var4['leftTitleButton'] = var10;
     var10 = {'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'flex-start', 'marginRight': 2};
     var4['channelTitleIconContainer'] = var10;
-    var16 = 18;
+    var17 = 18;
     var10 = {'height': 18, 'width': 18, 'marginTop': 0, 'marginRight': 8, 'tintColor': 'white'};
     var4['channelIcon'] = var10;
     var10 = {'height': 18, 'width': 18, 'marginTop': 0, 'marginRight': 8};
-    var13 = 13;
-    var18 = var9[var13];
-    var18 = var17.bind(var1)(var18);
-    var18 = var18.colors;
-    var18 = var18.TEXT_MUTED;
-    var10['tintColor'] = var18;
+    var14 = 13;
+    var19 = var9[var14];
+    var19 = var18.bind(var1)(var19);
+    var19 = var19.colors;
+    var19 = var19.TEXT_MUTED;
+    var10['tintColor'] = var19;
     var4['channelIconConnecting'] = var10;
     var10 = {'marginLeft': 12, 'flexDirection': 'column'};
     var4['leftTitleContainer'] = var10;
     var10 = {'opacity': 1, 'width': 32, 'height': 32, 'marginLeft': 4, 'marginRight': 4};
     var4['iconPlaceholder'] = var10;
     var10 = {};
-    var10['flex'] = var15;
-    var15 = 14;
-    var15 = var9[var15];
-    var15 = var17.bind(var1)(var15);
-    var14 = var14.DISPLAY_EXTRABOLD;
-    var13 = var9[var13];
-    var13 = var17.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
-    var20 = var15.bind(var1)(var14, var13, var16);
-    var21 = var10;
-    var13 = copyDataProperties(var21, var20);
+    var10['flex'] = var16;
+    var16 = 14;
+    var16 = var9[var16];
+    var16 = var18.bind(var1)(var16);
+    var15 = var15.DISPLAY_EXTRABOLD;
+    var14 = var9[var14];
+    var14 = var18.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
+    var21 = var16.bind(var1)(var15, var14, var17);
+    var22 = var10;
+    var14 = copyDataProperties(var22, var21);
     var4['leftTitle'] = var10;
     var10 = {};
     var10['width'] = var1;
-    var10['paddingHorizontal'] = var12;
+    var10['paddingHorizontal'] = var13;
     var4['navigatorIcon'] = var10;
     var10 = {'width': 32, 'paddingHorizontal': 0};
     var4['defaultNavigatorIcon'] = var10;
     var10 = {};
-    var10['marginHorizontal'] = var11;
+    var10['marginHorizontal'] = var12;
     var4['liveTag'] = var10;
     var4 = var5.bind(var7)(var4);
     var _closure1_slot17 = var4;
@@ -680,7 +680,6 @@ case 21:
             return var1;
         }
     };
-    var _closure1_slot20 = var5;
     var4 = function GridButton(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -751,8 +750,11 @@ case 25:
             return var1;
         }
     };
-    var _closure1_slot21 = var4;
-    var7 = function ChannelCallHeaderChatButtonPlaceholder() {
+    var _closure1_slot20 = var4;
+    var7 = {};
+    var7 = var11.bind(var1)(var5, var7);
+    var _closure1_slot21 = var7;
+    var10 = function ChannelCallHeaderChatButtonPlaceholder() {
         var2 = _closure1_slot17;
         var4 = undefined;
         var5 = var2.bind(var4)();
@@ -764,6 +766,8 @@ case 25:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
+    var7 = {};
+    var7 = var11.bind(var1)(var10, var7);
     var _closure1_slot22 = var7;
     var7 = 46;
     var7 = var9[var7];
@@ -855,15 +859,12 @@ case 35:
             var10 = new Array(5);
             var10[0] = var13;
             var15 = _closure1_slot14;
-            var14 = _closure1_slot21;
+            var14 = _closure1_slot20;
             var13 = {};
             var13['channel'] = var9;
             var13 = var15.bind(var4)(var14, var13);
             var10[1] = var13;
-            var15 = _closure1_slot14;
-            var14 = _closure1_slot20;
-            var13 = {};
-            var13 = var15.bind(var4)(var14, var13);
+            var13 = _closure1_slot21;
             var10[2] = var13;
             var15 = _closure1_slot14;
             var14 = _closure1_slot23;
@@ -874,10 +875,7 @@ case 35:
             var11 = null;
             if(!var12) { _fun0009_ip = 37; continue _fun0009 }
 case 38:
-            var14 = _closure1_slot14;
-            var13 = _closure1_slot22;
-            var12 = {};
-            var11 = var14.bind(var4)(var13, var12);
+            var11 = _closure1_slot22;
 case 37:
             var10[4] = var11;
             var5['children'] = var10;

@@ -7,41 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = function NotificationsContainer() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 8;
-            var1 = var3[var1];
-            var5 = undefined;
-            var1 = var2.bind(var5)(var1);
-            var1 = var1.bind(var5)();
-            var2 = var1.isChatBesideChannelList;
-            var1 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot4;
-            var2 = {};
-            var7 = _closure1_slot12;
-            var7 = var7.container;
-            var2['style'] = var7;
-            var8 = _closure1_slot10;
-            var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var6 = 9;
-            var6 = var9[var6];
-            var7 = var7.bind(var5)(var6);
-            var6 = {};
-            var6 = var8.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 2:
-            return var1;
-        }
-    };
-    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -59,7 +24,7 @@ case 2:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.StyleSheet;
+    var11 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -87,16 +52,52 @@ case 2:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot10 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot10 = var8;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
-    var7 = var8.create;
+    var10 = var11.create;
+    var9 = {};
+    var4 = 8;
+    var12 = {'position': 'absolute', 'left': 0, 'right': 0, 'backgroundColor': 'transparent', 'marginTop': 8};
+    var9['container'] = var12;
+    var9 = var10.bind(var11)(var9);
+    var _closure1_slot12 = var9;
+    var4 = var6[var4];
+    var7 = var7.bind(var1)(var4);
     var4 = {};
-    var9 = {'position': 'absolute', 'left': 0, 'right': 0, 'backgroundColor': 'transparent', 'marginTop': 8};
-    var4['container'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot13 = var4;
+    var7 = function NotificationsContainer() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var2 = var1.isChatBesideChannelList;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot10;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var7 = _closure1_slot12;
+            var7 = var7.container;
+            var2['style'] = var7;
+            var6 = _closure1_slot13;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 2:
+            return var1;
+        }
+    };
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot14 = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -332,10 +333,7 @@ case 27:
             var7 = var3.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var8 = _closure1_slot10;
-            var7 = _closure1_slot13;
-            var6 = {};
-            var6 = var8.bind(var4)(var7, var6);
+            var6 = _closure1_slot14;
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

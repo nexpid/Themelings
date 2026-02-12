@@ -1,11 +1,11 @@
 // app/modules/user_profile/native/UserProfileConnections.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var1 = function VerifiedIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -115,7 +115,7 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -124,14 +124,14 @@ case 9:
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var8)(var3, var1, var4);
-    var15 = 0;
-    var5 = var7[var15];
+    var16 = 0;
+    var5 = var7[var16];
     var4 = metroImportAll;
     var1 = undefined;
     var8 = var4.bind(var1)(var5);
     var _closure1_slot3 = var8;
-    var13 = 1;
-    var4 = var7[var13];
+    var14 = 1;
+    var4 = var7[var14];
     var4 = var6.bind(var1)(var4);
     var5 = var4.Pressable;
     var _closure1_slot4 = var5;
@@ -139,17 +139,17 @@ case 9:
     var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var7[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var7[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var17 = var4.CARD_PADDING;
-    var14 = var4.CARD_ROWS_COLUMN_GAP;
+    var18 = var4.CARD_PADDING;
+    var15 = var4.CARD_ROWS_COLUMN_GAP;
     var4 = var4.CARD_ROWS_ICON_SIZE_VARIANT;
     var _closure1_slot8 = var4;
     var4 = 5;
@@ -167,61 +167,70 @@ case 9:
     var4 = 7;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.jsx;
-    var _closure1_slot12 = var5;
+    var9 = var4.jsx;
+    var _closure1_slot12 = var9;
     var4 = var4.jsxs;
     var _closure1_slot13 = var4;
     var4 = 8;
     var5 = var7[var4];
-    var5 = var12.bind(var1)(var5);
+    var5 = var13.bind(var1)(var5);
     var5 = var5.Sizes;
-    var9 = var5.REFRESH_SMALL_16;
-    var _closure1_slot14 = var9;
+    var10 = var5.REFRESH_SMALL_16;
+    var _closure1_slot14 = var10;
     var4 = var7[var4];
     var5 = var6.bind(var1)(var4);
     var4 = var5.getIconSize;
-    var11 = var4.bind(var5)(var9);
+    var12 = var4.bind(var5)(var10);
     var4 = 9;
     var4 = var7[var4];
-    var9 = var6.bind(var1)(var4);
-    var5 = var9.createStyles;
+    var10 = var6.bind(var1)(var4);
+    var5 = var10.createStyles;
     var4 = {};
-    var10 = {};
-    var16 = 12;
-    var16 = var17 - var16;
-    var10['paddingBottom'] = var16;
-    var4['cardContainer'] = var10;
-    var10 = {};
-    var10['marginBottom'] = var15;
-    var4['cardTitle'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': null, 'paddingVertical': 12, 'minHeight': 60};
-    var10['columnGap'] = var14;
-    var4['connectionRow'] = var10;
-    var10 = {};
-    var10['flexGrow'] = var13;
-    var4['connectionInfoContainer'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': 4};
-    var4['connectedAccountName'] = var10;
-    var10 = {};
-    var10['height'] = var11;
-    var10['width'] = var11;
-    var4['verifiedIconContainer'] = var10;
-    var10 = {'position': 'absolute', 'left': 0, 'top': 0};
-    var4['verifiedIcon'] = var10;
-    var10 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'alignItems': 'center', 'overflow': 'hidden'};
-    var4['connectionMetadata'] = var10;
-    var10 = {};
-    var11 = 10;
-    var11 = var7[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.INTERACTIVE_TEXT_ACTIVE;
-    var10['color'] = var11;
-    var4['metadataItem'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 6};
-    var4['poweredByContainer'] = var10;
-    var4 = var5.bind(var9)(var4);
+    var11 = {};
+    var17 = 12;
+    var17 = var18 - var17;
+    var11['paddingBottom'] = var17;
+    var4['cardContainer'] = var11;
+    var11 = {};
+    var11['marginBottom'] = var16;
+    var4['cardTitle'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': null, 'paddingVertical': 12, 'minHeight': 60};
+    var11['columnGap'] = var15;
+    var4['connectionRow'] = var11;
+    var11 = {};
+    var11['flexGrow'] = var14;
+    var4['connectionInfoContainer'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'columnGap': 4};
+    var4['connectedAccountName'] = var11;
+    var11 = {};
+    var11['height'] = var12;
+    var11['width'] = var12;
+    var4['verifiedIconContainer'] = var11;
+    var11 = {'position': 'absolute', 'left': 0, 'top': 0};
+    var4['verifiedIcon'] = var11;
+    var11 = {'flexDirection': 'row', 'flexWrap': 'wrap', 'alignItems': 'center', 'overflow': 'hidden'};
+    var4['connectionMetadata'] = var11;
+    var11 = {};
+    var12 = 10;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_TEXT_ACTIVE;
+    var11['color'] = var12;
+    var4['metadataItem'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'marginTop': 6};
+    var4['poweredByContainer'] = var11;
+    var4 = var5.bind(var10)(var4);
     var _closure1_slot15 = var4;
+    var4 = 16;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.LinkExternalSmallIcon;
+    var4 = {};
+    var10 = 'sm';
+    var4['size'] = var10;
+    var4 = var9.bind(var1)(var5, var4);
+    var _closure1_slot16 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -247,7 +256,7 @@ case 10:
             var18 = var3.bind(var4)();
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var3 = var8[var3];
             var6 = var6.bind(var4)(var3);
             var3 = var6.useUserProfileAnalyticsContext;
@@ -265,7 +274,7 @@ case 12:
 case 15:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 17;
+            var6 = 18;
             var6 = var11[var6];
             var11 = var9.bind(var4)(var6);
             var9 = var11.getCreatedAtDate;
@@ -384,7 +393,7 @@ case 33:
 case 32:
             var6 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 18;
+            var2 = 19;
             var2 = var13[var2];
             var9 = var6.bind(var4)(var2);
             var6 = var9.get;
@@ -392,7 +401,7 @@ case 32:
             var2 = var6.bind(var9)(var2);
             _closure2_slot4 = var2;
             var12 = _closure1_slot0;
-            var6 = 19;
+            var6 = 20;
             var6 = var13[var6];
             var11 = var12.bind(var4)(var6);
             var9 = var11.makeSource;
@@ -469,7 +478,7 @@ case 47:
                     var1 = var2.bind(var3)(var1);
                     var2 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var1 = var6[var1];
                     var3 = var2.bind(var3)(var1);
                     var2 = var3.handleClick;
@@ -485,7 +494,7 @@ case 47:
                     var4 = function onConfirm() {
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var2 = var5[var1];
                         var1 = undefined;
                         var8 = var4.bind(var1)(var2);
@@ -500,7 +509,7 @@ case 47:
                         var4['other_user_id'] = var9;
                         var4 = var7.bind(var8)(var6, var4);
                         var4 = _closure1_slot1;
-                        var3 = 22;
+                        var3 = 23;
                         var3 = var5[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.openURL;
@@ -530,7 +539,7 @@ case 46:
                 var3 = var4.bind(var1)(var3);
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var5 = 23;
+                var5 = 24;
                 var6 = var4[var5];
                 var7 = var3.bind(var1)(var6);
                 var6 = var7.triggerHapticFeedback;
@@ -539,14 +548,14 @@ case 46:
                 var5 = var5.HapticFeedbackTypes;
                 var5 = var5.IMPACT_LIGHT;
                 var5 = var6.bind(var7)(var5);
-                var5 = 24;
+                var5 = 25;
                 var5 = var4[var5];
                 var6 = var3.bind(var1)(var5);
                 var5 = var6.copy;
                 var2 = _closure2_slot1;
                 var2 = var2.name;
                 var2 = var5.bind(var6)(var2);
-                var2 = 25;
+                var2 = 26;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.presentCopiedToClipboard;
@@ -598,7 +607,7 @@ case 55:
                     var2 = var3.push;
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 27;
                     var5 = var9[var1];
                     var5 = var4.bind(var8)(var5);
                     var6 = var5.intl;
@@ -640,7 +649,7 @@ case 0:
 case 47:
                     var2 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 27;
                     var3 = var8[var1];
                     var6 = undefined;
                     var3 = var2.bind(var6)(var3);
@@ -670,7 +679,7 @@ case 60:
 case 5:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 27;
                     var3 = var7[var2];
                     var5 = undefined;
                     var3 = var6.bind(var5)(var3);
@@ -693,7 +702,7 @@ case 64:
 case 63:
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 27;
+            var1 = 28;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.PressableOpacity;
@@ -717,7 +726,7 @@ case 66:
             var10 = _closure1_slot12;
             var21 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var5 = 28;
+            var5 = 29;
             var5 = var19[var5];
             var5 = var21.bind(var4)(var5);
             var9 = var5.BaseIconImage;
@@ -739,7 +748,7 @@ case 66:
             var15 = var18.connectedAccountName;
             var12['style'] = var15;
             var22 = _closure1_slot12;
-            var15 = 29;
+            var15 = 30;
             var19 = var19[var15];
             var19 = var21.bind(var4)(var19);
             var21 = var19.Text;
@@ -754,7 +763,7 @@ case 66:
             if(!var21) { _fun0002_ip = 68; continue _fun0002 }
 case 69:
             var23 = _closure1_slot12;
-            var22 = _closure1_slot18;
+            var22 = _closure1_slot19;
             var21 = {};
             var21['theme'] = var26;
             var21['isTwitterVerifiedAccount'] = var25;
@@ -776,7 +785,7 @@ case 71:
             var15 = var21.bind(var4)(var15);
             var16 = var15.Text;
             var15 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            var20 = 26;
+            var20 = 27;
             var22 = var25[var20];
             var22 = var21.bind(var4)(var22);
             var23 = var22.intl;
@@ -810,17 +819,7 @@ case 72:
             var6 = var8 != var6;
             if(!var6) { _fun0002_ip = 74; continue _fun0002 }
 case 75:
-            var9 = _closure1_slot12;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var7 = 30;
-            var7 = var10[var7];
-            var7 = var8.bind(var4)(var7);
-            var8 = var7.LinkExternalSmallIcon;
-            var7 = {};
-            var10 = 'sm';
-            var7['size'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
+            var6 = _closure1_slot16;
 case 74:
             var5[2] = var6;
             var1['children'] = var5;
@@ -829,7 +828,7 @@ case 74:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -848,7 +847,7 @@ case 0:
             var1 = var2.generateRoleConnectionMetadataItems;
             var16 = var1.bind(var2)(var18);
             var10 = _closure1_slot1;
-            var1 = 19;
+            var1 = 20;
             var1 = var11[var1];
             var3 = var10.bind(var4)(var1);
             var2 = var3.getApplicationIconSource;
@@ -895,7 +894,7 @@ case 77:
             var15 = _closure1_slot12;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var9 = 29;
+            var9 = 30;
             var9 = var17[var9];
             var9 = var11.bind(var4)(var9);
             var11 = var9.Text;
@@ -914,7 +913,7 @@ case 25:
             var17 = _closure1_slot12;
             var15 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var11 = 29;
+            var11 = 30;
             var11 = var19[var11];
             var11 = var15.bind(var4)(var11);
             var15 = var11.Text;
@@ -951,12 +950,12 @@ case 79:
             var15 = _closure1_slot12;
             var17 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var13 = 29;
+            var13 = 30;
             var13 = var21[var13];
             var13 = var17.bind(var4)(var13);
             var14 = var13.Text;
             var13 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            var16 = 26;
+            var16 = 27;
             var18 = var21[var16];
             var18 = var17.bind(var4)(var18);
             var19 = var18.intl;
@@ -988,7 +987,7 @@ case 79:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var5 = 36;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -1067,7 +1066,7 @@ case 84:
             var7[1] = var13;
             var2['style'] = var7;
             var7 = _closure1_slot0;
-            var13 = 26;
+            var13 = 27;
             var14 = var10[var13];
             var14 = var7.bind(var5)(var14);
             var15 = var14.intl;
@@ -1089,7 +1088,7 @@ case 84:
             var9 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot12;
-                var4 = _closure1_slot16;
+                var4 = _closure1_slot17;
                 var3 = {};
                 var3['account'] = var1;
                 var6 = _closure2_slot1;
@@ -1163,7 +1162,7 @@ case 46:
             var7[1] = var13;
             var2['style'] = var7;
             var7 = _closure1_slot0;
-            var13 = 26;
+            var13 = 27;
             var14 = var10[var13];
             var14 = var7.bind(var5)(var14);
             var15 = var14.intl;
@@ -1185,7 +1184,7 @@ case 46:
             var9 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot12;
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var3 = {};
                 var3['applicationRoleConnection'] = var1;
                 var1 = var1.application;

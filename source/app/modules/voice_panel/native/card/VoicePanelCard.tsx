@@ -1,11 +1,11 @@
 // app/modules/voice_panel/native/card/VoicePanelCard.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = function SelfStreamCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -219,7 +219,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot58 = var1;
+    var _closure1_slot60 = var1;
     var1 = function SpeakingIndicator(arg1) {
         var2 = arg1;
         var19 = var2.id;
@@ -655,7 +655,7 @@ case 38:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot59 = var1;
+    var _closure1_slot61 = var1;
     var1 = function AnimatedWrapper(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -2130,19 +2130,19 @@ case 129:
             return var1;
         }
     };
-    var _closure1_slot60 = var1;
+    var _closure1_slot62 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var8 = 0;
-    var4 = var6[var8];
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var10 = 0;
+    var4 = var6[var10];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -2152,27 +2152,27 @@ case 129:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var14 = var4.StyleSheet;
-    var _closure1_slot5 = var14;
+    var15 = var4.StyleSheet;
+    var _closure1_slot5 = var15;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
@@ -2215,157 +2215,157 @@ case 129:
     var4 = 14;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.SCALE_PHYSICS;
-    var _closure1_slot21 = var9;
+    var11 = var4.SCALE_PHYSICS;
+    var _closure1_slot21 = var11;
     var4 = 15;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.jsx;
-    var _closure1_slot22 = var10;
-    var10 = var4.Fragment;
-    var _closure1_slot23 = var10;
+    var9 = var4.jsx;
+    var _closure1_slot22 = var9;
+    var12 = var4.Fragment;
+    var _closure1_slot23 = var12;
     var4 = var4.jsxs;
     var _closure1_slot24 = var4;
     var4 = 16;
     var4 = var6[var4];
-    var11 = var13.bind(var1)(var4);
-    var10 = var11.createAnimatedComponent;
+    var13 = var8.bind(var1)(var4);
+    var12 = var13.createAnimatedComponent;
     var4 = 17;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Text;
-    var4 = var10.bind(var11)(var4);
+    var4 = var12.bind(var13)(var4);
     var _closure1_slot25 = var4;
     var4 = 18;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.AVATAR_SIZE_MAP;
+    var12 = var4.AVATAR_SIZE_MAP;
     var4 = 19;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AvatarSizes;
     var4 = var4.XXLARGE;
-    var12 = var10[var4];
+    var14 = var12[var4];
     var4 = {};
-    var20 = var4;
-    var19 = var9;
-    var9 = copyDataProperties(var20, var19);
-    var10 = 150;
-    var9 = 'stiffness';
-    var4[var9] = var10;
+    var21 = var4;
+    var20 = var11;
+    var11 = copyDataProperties(var21, var20);
+    var12 = 150;
+    var11 = 'stiffness';
+    var4[var11] = var12;
     var _closure1_slot26 = var4;
     var4 = {};
-    var9 = 200;
-    var4['duration'] = var9;
+    var11 = 200;
+    var4['duration'] = var11;
     var _closure1_slot27 = var4;
     var4 = {};
-    var4['duration'] = var8;
+    var4['duration'] = var10;
     var _closure1_slot28 = var4;
     var4 = 0.75;
     var _closure1_slot29 = var4;
     var4 = 20;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
+    var11 = var5.bind(var1)(var4);
+    var10 = var11.createStyles;
     var4 = {};
-    var10 = {'position': 'absolute', 'top': 0, 'left': 0, 'overflow': 'hidden'};
-    var15 = 'hidden';
-    var11 = 21;
-    var16 = var6[var11];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.BLACK;
-    var10['backgroundColor'] = var16;
-    var4['positionWrapper'] = var10;
-    var10 = {'position': 'absolute', 'top': 4294967292, 'left': 4294967292, 'bottom': 4294967292, 'right': 4294967292, 'alignItems': 'center', 'justifyContent': 'center'};
-    var16 = var6[var11];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var16 = var16.PRIMARY_800;
-    var10['backgroundColor'] = var16;
-    var4['userRoundedCard'] = var10;
-    var10 = {'position': 'absolute', 'alignItems': 'center', 'justifyContent': 'center', 'width': '100%', 'height': '100%'};
-    var16 = var6[var11];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.VOICE_VIDEO_VIDEO_TILE_BACKGROUND;
-    var10['backgroundColor'] = var16;
-    var4['nonUserRoundedCard'] = var10;
-    var10 = {};
-    var19 = var14.absoluteFillObject;
-    var20 = var10;
-    var16 = copyDataProperties(var20, var19);
-    var17 = 'black';
-    var16 = 'backgroundColor';
-    var10[var16] = var17;
-    var4['blackBackground'] = var10;
-    var10 = {'width': 200, 'marginBottom': 40};
-    var4['selfStreamHeaderImage'] = var10;
-    var10 = {'textAlign': 'center', 'marginTop': 4, 'marginBottom': 40};
-    var4['selfStreamFocusedSubtitle'] = var10;
-    var10 = {'position': 'relative', 'borderRadius': null, 'overflow': 'hidden'};
-    var16 = var6[var11];
-    var16 = var13.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.round;
-    var10['borderRadius'] = var16;
-    var4['avatarImageMaskStyles'] = var10;
-    var10 = {};
-    var10['width'] = var12;
-    var10['height'] = var12;
-    var12 = var6[var11];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.round;
-    var10['borderRadius'] = var12;
-    var12 = 'rgba(0,0,0,0.3)';
-    var10['backgroundColor'] = var12;
-    var4['avatarPlaceholder'] = var10;
-    var10 = {'maxWidth': 80, 'maxHeight': 80};
-    var4['image'] = var10;
-    var10 = {};
-    var19 = var14.absoluteFillObject;
-    var20 = var10;
-    var12 = copyDataProperties(var20, var19);
-    var12 = 'overflow';
-    var10[var12] = var15;
-    var4['speakingIndicatorWrapper'] = var10;
-    var10 = {};
-    var19 = var14.absoluteFillObject;
-    var20 = var10;
-    var12 = copyDataProperties(var20, var19);
-    var12 = var6[var11];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var15 = var12.BLACK;
-    var12 = 'borderColor';
-    var10[var12] = var15;
-    var4['speakingIndicatorUnderlay'] = var10;
-    var10 = {};
-    var19 = var14.absoluteFillObject;
-    var20 = var10;
-    var14 = copyDataProperties(var20, var19);
-    var11 = var6[var11];
-    var11 = var13.bind(var1)(var11);
-    var11 = var11.unsafe_rawColors;
-    var11 = var11.GREEN_360;
-    var10[var12] = var11;
-    var4['speakingIndicatorGreenBar'] = var10;
-    var4 = var8.bind(var9)(var4);
+    var12 = {'position': 'absolute', 'top': 0, 'left': 0, 'overflow': 'hidden'};
+    var16 = 'hidden';
+    var13 = 21;
+    var17 = var6[var13];
+    var17 = var8.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.BLACK;
+    var12['backgroundColor'] = var17;
+    var4['positionWrapper'] = var12;
+    var12 = {'position': 'absolute', 'top': 4294967292, 'left': 4294967292, 'bottom': 4294967292, 'right': 4294967292, 'alignItems': 'center', 'justifyContent': 'center'};
+    var17 = var6[var13];
+    var17 = var8.bind(var1)(var17);
+    var17 = var17.unsafe_rawColors;
+    var17 = var17.PRIMARY_800;
+    var12['backgroundColor'] = var17;
+    var4['userRoundedCard'] = var12;
+    var12 = {'position': 'absolute', 'alignItems': 'center', 'justifyContent': 'center', 'width': '100%', 'height': '100%'};
+    var17 = var6[var13];
+    var17 = var8.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.VOICE_VIDEO_VIDEO_TILE_BACKGROUND;
+    var12['backgroundColor'] = var17;
+    var4['nonUserRoundedCard'] = var12;
+    var12 = {};
+    var20 = var15.absoluteFillObject;
+    var21 = var12;
+    var17 = copyDataProperties(var21, var20);
+    var18 = 'black';
+    var17 = 'backgroundColor';
+    var12[var17] = var18;
+    var4['blackBackground'] = var12;
+    var12 = {'width': 200, 'marginBottom': 40};
+    var4['selfStreamHeaderImage'] = var12;
+    var12 = {'textAlign': 'center', 'marginTop': 4, 'marginBottom': 40};
+    var4['selfStreamFocusedSubtitle'] = var12;
+    var12 = {'position': 'relative', 'borderRadius': null, 'overflow': 'hidden'};
+    var17 = var6[var13];
+    var17 = var8.bind(var1)(var17);
+    var17 = var17.radii;
+    var17 = var17.round;
+    var12['borderRadius'] = var17;
+    var4['avatarImageMaskStyles'] = var12;
+    var12 = {};
+    var12['width'] = var14;
+    var12['height'] = var14;
+    var14 = var6[var13];
+    var14 = var8.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.round;
+    var12['borderRadius'] = var14;
+    var14 = 'rgba(0,0,0,0.3)';
+    var12['backgroundColor'] = var14;
+    var4['avatarPlaceholder'] = var12;
+    var12 = {'maxWidth': 80, 'maxHeight': 80};
+    var4['image'] = var12;
+    var12 = {};
+    var20 = var15.absoluteFillObject;
+    var21 = var12;
+    var14 = copyDataProperties(var21, var20);
+    var14 = 'overflow';
+    var12[var14] = var16;
+    var4['speakingIndicatorWrapper'] = var12;
+    var12 = {};
+    var20 = var15.absoluteFillObject;
+    var21 = var12;
+    var14 = copyDataProperties(var21, var20);
+    var14 = var6[var13];
+    var14 = var8.bind(var1)(var14);
+    var14 = var14.colors;
+    var16 = var14.BLACK;
+    var14 = 'borderColor';
+    var12[var14] = var16;
+    var4['speakingIndicatorUnderlay'] = var12;
+    var12 = {};
+    var20 = var15.absoluteFillObject;
+    var21 = var12;
+    var15 = copyDataProperties(var21, var20);
+    var13 = var6[var13];
+    var13 = var8.bind(var1)(var13);
+    var13 = var13.unsafe_rawColors;
+    var13 = var13.GREEN_360;
+    var12[var14] = var13;
+    var4['speakingIndicatorGreenBar'] = var12;
+    var4 = var10.bind(var11)(var4);
     var _closure1_slot30 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx1(){const{isFocused,sharedCoords}=this.__closure;return{textAlign:'center',paddingHorizontal:16,paddingVertical:isFocused?0:16,width:isFocused?'auto':sharedCoords.get().width};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx1(){const{isFocused,sharedCoords}=this.__closure;return{textAlign:'center',paddingHorizontal:16,paddingVertical:isFocused?0:16,width:isFocused?'auto':sharedCoords.get().width};}";
+    var4['code'] = var10;
     var _closure1_slot31 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx2(){const{focused,id}=this.__closure;var _focused$get;return((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx2(){const{focused,id}=this.__closure;var _focused$get;return((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;}';
+    var4['code'] = var10;
     var _closure1_slot32 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx3(isFocused,lastIsFocused){const{runOnJS,setIsFocused}=this.__closure;if(isFocused!==lastIsFocused){runOnJS(setIsFocused)(isFocused);}}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx3(isFocused,lastIsFocused){const{runOnJS,setIsFocused}=this.__closure;if(isFocused!==lastIsFocused){runOnJS(setIsFocused)(isFocused);}}';
+    var4['code'] = var10;
     var _closure1_slot33 = var4;
-    var8 = var7.memo;
+    var10 = var7.memo;
     var4 = function(arg1) {
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
@@ -2741,7 +2741,7 @@ case 134:
             return var2;
 case 132:
             var3 = _closure1_slot22;
-            var2 = _closure1_slot58;
+            var2 = _closure1_slot60;
             var1 = {};
             var1['sharedCoords'] = var7;
             var1['stream'] = var6;
@@ -2750,17 +2750,17 @@ case 132:
             return var1;
         }
     };
-    var4 = var8.bind(var7)(var4);
+    var4 = var10.bind(var7)(var4);
     var _closure1_slot34 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx4(){const{withTiming,isRinging,CONNECTING_OPACITY,backgroundColor}=this.__closure;return{opacity:withTiming(isRinging?CONNECTING_OPACITY:1,{duration:100},'animate-always'),backgroundColor:backgroundColor};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx4(){const{withTiming,isRinging,CONNECTING_OPACITY,backgroundColor}=this.__closure;return{opacity:withTiming(isRinging?CONNECTING_OPACITY:1,{duration:100},'animate-always'),backgroundColor:backgroundColor};}";
+    var4['code'] = var10;
     var _closure1_slot35 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx5(){const{withSpring,mode,VoicePanelModes,layoutPhysics}=this.__closure;return{transform:[{scale:withSpring(mode.get()===VoicePanelModes.PIP?64/80:1,layoutPhysics)}]};}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx5(){const{withSpring,mode,VoicePanelModes,layoutPhysics}=this.__closure;return{transform:[{scale:withSpring(mode.get()===VoicePanelModes.PIP?64/80:1,layoutPhysics)}]};}';
+    var4['code'] = var10;
     var _closure1_slot36 = var4;
-    var8 = var7.memo;
+    var10 = var7.memo;
     var4 = function AnimatedUserCardInner(arg1) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
@@ -2987,21 +2987,21 @@ case 158:
             return var1;
         }
     };
-    var4 = var8.bind(var7)(var4);
+    var4 = var10.bind(var7)(var4);
     var _closure1_slot37 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx6(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()!==VoicePanelModes.PIP&&((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{opacity:disable?0:1,borderRadius:withSpring(disable?0:computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}),SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx6(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()!==VoicePanelModes.PIP&&((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{opacity:disable?0:1,borderRadius:withSpring(disable?0:computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}),SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
+    var4['code'] = var10;
     var _closure1_slot38 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx7(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS,speaking,roundToNearestPixel,SPEAKING_BORDER_SIZE,SPEAKING_INSET}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()===VoicePanelModes.PIP||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{borderRadius:withSpring(!disable?computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never'),borderWidth:withSpring(!disable&&speaking.get()?roundToNearestPixel(SPEAKING_BORDER_SIZE+SPEAKING_INSET):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx7(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS,speaking,roundToNearestPixel,SPEAKING_BORDER_SIZE,SPEAKING_INSET}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()===VoicePanelModes.PIP||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{borderRadius:withSpring(!disable?computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never'),borderWidth:withSpring(!disable&&speaking.get()?roundToNearestPixel(SPEAKING_BORDER_SIZE+SPEAKING_INSET):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
+    var4['code'] = var10;
     var _closure1_slot39 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx8(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS,speaking,SPEAKING_BORDER_SIZE}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()===VoicePanelModes.PIP||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{borderRadius:withSpring(!disable?computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never'),borderWidth:withSpring(!disable&&speaking.get()?SPEAKING_BORDER_SIZE:0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx8(){const{mode,VoicePanelModes,focused,id,withSpring,computeCardBorderRadius,isSelf,SPEAKING_PHYSICS,speaking,SPEAKING_BORDER_SIZE}=this.__closure;var _focused$get,_focused$get2;const disable=mode.get()===VoicePanelModes.PIP||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;return{borderRadius:withSpring(!disable?computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf}):0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never'),borderWidth:withSpring(!disable&&speaking.get()?SPEAKING_BORDER_SIZE:0,SPEAKING_PHYSICS,!disable?'animate-always':'animate-never')};}";
+    var4['code'] = var10;
     var _closure1_slot40 = var4;
-    var8 = var7.memo;
+    var10 = var7.memo;
     var4 = function(arg1) {
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
@@ -3074,7 +3074,7 @@ case 46:
             if(!var3) { _fun0030_ip = 159; continue _fun0030 }
 case 160:
             var4 = _closure1_slot22;
-            var3 = _closure1_slot59;
+            var3 = _closure1_slot61;
             var2 = {};
             var12 = var2;
             var11 = var6;
@@ -3084,32 +3084,32 @@ case 159:
             return var1;
         }
     };
-    var4 = var8.bind(var7)(var4);
+    var4 = var10.bind(var7)(var4);
     var _closure1_slot41 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx9(){const{focused}=this.__closure;var _focused$get;return(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx9(){const{focused}=this.__closure;var _focused$get;return(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id;}';
+    var4['code'] = var10;
     var _closure1_slot42 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx10(focusedId,previous){const{runOnJS,handleFocusedParticipantChange}=this.__closure;if(focusedId===previous)return;runOnJS(handleFocusedParticipantChange)(focusedId);}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx10(focusedId,previous){const{runOnJS,handleFocusedParticipantChange}=this.__closure;if(focusedId===previous)return;runOnJS(handleFocusedParticipantChange)(focusedId);}';
+    var4['code'] = var10;
     var _closure1_slot43 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx11(){const{mode,focused,sharedTransitionState}=this.__closure;return{mode:mode.get(),focused:focused.get(),transitionState:sharedTransitionState.get()};}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx11(){const{mode,focused,sharedTransitionState}=this.__closure;return{mode:mode.get(),focused:focused.get(),transitionState:sharedTransitionState.get()};}';
+    var4['code'] = var10;
     var _closure1_slot44 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx12(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,TransitionStates,sharedVisible,isScrollVisible,runOnJS,cleanUp,id}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:mode,focused:focused,transitionState:transitionState}=props;const isPIPMode=mode===VoicePanelModes.PIP;const manuallyFocusedId=focused===null||focused===void 0?void 0:focused.id;if(previous==null&&transitionState!==TransitionStates.YEETED){sharedVisible.set(1);}else if(transitionState===TransitionStates.YEETED){if(sharedVisible.get()===1&&isScrollVisible.get()){sharedVisible.set(0);}else{runOnJS(cleanUp)();}}else if((previous===null||previous===void 0?void 0:previous.transitionState)===TransitionStates.YEETED){sharedVisible.set(1);}else if(!isPIPMode){if(manuallyFocusedId==null){sharedVisible.set(1);}else{if(manuallyFocusedId!==id){sharedVisible.set(0);}else{sharedVisible.set(1);}}}}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx12(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,TransitionStates,sharedVisible,isScrollVisible,runOnJS,cleanUp,id}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:mode,focused:focused,transitionState:transitionState}=props;const isPIPMode=mode===VoicePanelModes.PIP;const manuallyFocusedId=focused===null||focused===void 0?void 0:focused.id;if(previous==null&&transitionState!==TransitionStates.YEETED){sharedVisible.set(1);}else if(transitionState===TransitionStates.YEETED){if(sharedVisible.get()===1&&isScrollVisible.get()){sharedVisible.set(0);}else{runOnJS(cleanUp)();}}else if((previous===null||previous===void 0?void 0:previous.transitionState)===TransitionStates.YEETED){sharedVisible.set(1);}else if(!isPIPMode){if(manuallyFocusedId==null){sharedVisible.set(1);}else{if(manuallyFocusedId!==id){sharedVisible.set(0);}else{sharedVisible.set(1);}}}}';
+    var4['code'] = var10;
     var _closure1_slot45 = var4;
     var4 = {'isSelf': false, 'hasVideo': false};
-    var8 = {};
-    var8['id'] = var1;
-    var4['user'] = var8;
+    var10 = {};
+    var10['id'] = var1;
+    var4['user'] = var10;
     var _closure1_slot46 = var4;
     var4 = {};
-    var8 = "function layoutTransitionFunction_VoicePanelCardTsx13(values,physics,disableAnimation=false){const{withSpring}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,physics,!disableAnimation?'animate-always':'animate-never'),originY:withSpring(values.targetOriginY,physics,!disableAnimation?'animate-always':'animate-never'),width:withSpring(values.targetWidth,physics,!disableAnimation?'animate-always':'animate-never'),height:withSpring(values.targetHeight,physics,!disableAnimation?'animate-always':'animate-never')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
-    var4['code'] = var8;
+    var10 = "function layoutTransitionFunction_VoicePanelCardTsx13(values,physics,disableAnimation=false){const{withSpring}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,physics,!disableAnimation?'animate-always':'animate-never'),originY:withSpring(values.targetOriginY,physics,!disableAnimation?'animate-always':'animate-never'),width:withSpring(values.targetWidth,physics,!disableAnimation?'animate-always':'animate-never'),height:withSpring(values.targetHeight,physics,!disableAnimation?'animate-always':'animate-never')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
+    var4['code'] = var10;
     var _closure1_slot47 = var4;
     var4 = function() {
         var1 = function layoutTransitionFunction(arg1, arg2) {
@@ -3211,47 +3211,59 @@ case 166:
     var4 = var4.bind(var1)();
     var _closure1_slot48 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx14(){const{id,pipState,mode,VoicePanelModes}=this.__closure;if(id===pipState.id&&mode.get()===VoicePanelModes.PIP){return true;}return false;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx14(){const{id,pipState,mode,VoicePanelModes}=this.__closure;if(id===pipState.id&&mode.get()===VoicePanelModes.PIP){return true;}return false;}';
+    var4['code'] = var10;
     var _closure1_slot49 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx15(){const{focused,id,mode,VoicePanelModes,scrollPosition}=this.__closure;var _focused$get;return((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id||mode.get()===VoicePanelModes.PIP?scrollPosition.get():0;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx15(){const{focused,id,mode,VoicePanelModes,scrollPosition}=this.__closure;var _focused$get;return((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id||mode.get()===VoicePanelModes.PIP?scrollPosition.get():0;}';
+    var4['code'] = var10;
     var _closure1_slot50 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx16(){const{connected,EDGE_GUTTER,safeArea,windowDimensions,contentDimensions,wrapperDimensions}=this.__closure;return connected.get()?Math.max(EDGE_GUTTER,safeArea.get().left,(windowDimensions.get().width-contentDimensions.get().width)/2):wrapperDimensions.get().drawerWidth/2;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx16(){const{connected,EDGE_GUTTER,safeArea,windowDimensions,contentDimensions,wrapperDimensions}=this.__closure;return connected.get()?Math.max(EDGE_GUTTER,safeArea.get().left,(windowDimensions.get().width-contentDimensions.get().width)/2):wrapperDimensions.get().drawerWidth/2;}';
+    var4['code'] = var10;
     var _closure1_slot51 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx17(){const{coords,focused,id,isPIP,pipState,getClampedPIPPosition,wrapperDimensions,windowDimensions,safeArea,pipAvoidanceSpecs,derivedScrollValue,xOffset,calculateContentCenterOffset,contentDimensions,sharedTransitionState,TransitionStates,zIndexOverride,computeCardBorderRadius,mode,isSelf,sharedVisible,isRTCConnected,CONNECTING_OPACITY,withDelay,withTiming,ZINDEX_TIMING,OPACITY_TIMING,isScrollVisible,runOnJS,cleanUp,withSpring,SCALE_PHYSICS}=this.__closure;var _focused$get,_focused$get2,_focused$get3;let{zIndex:zIndex,width:width,height:height,x:x,y:y}=coords.get();const isFocused=((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;if(isPIP){width=pipState.width;height=pipState.height;const pipHeight=!pipState.showSecondaryPIP?pipState.height:pipState.containerHeight;const pipPosition=getClampedPIPPosition({pipX:wrapperDimensions.get().pipX,pipY:wrapperDimensions.get().pipY,width:width,height:pipHeight,windowDimensions:windowDimensions.get(),safeArea:safeArea.get(),bottomAvoidanceRegion:pipAvoidanceSpecs.get().bottom,topAvoidanceRegion:pipAvoidanceSpecs.get().top});x=pipPosition.x;y=derivedScrollValue.get()+pipPosition.y;}else if(focused.get()!=null){if(isFocused){zIndex=1;width=windowDimensions.get().width;height=windowDimensions.get().height;x=0;y=derivedScrollValue.get();}else{zIndex=0;}}else{x+=xOffset.get();y+=calculateContentCenterOffset({contentHeight:contentDimensions.get().height,windowHeight:windowDimensions.get().height,safeArea:safeArea.get()});if(sharedTransitionState.get()===TransitionStates.YEETED){y+=height/4;}}if(zIndexOverride.get()){zIndex=9001;}const borderRadius=computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf});const opacity=sharedVisible.get()===0&&((_focused$get3=focused.get())===null||_focused$get3===void 0?void 0:_focused$get3.id)!==id?0:!isFocused&&!isRTCConnected?CONNECTING_OPACITY:1;return{zIndex:withDelay(zIndexOverride.get()?0:100,withTiming(zIndex,ZINDEX_TIMING)),opacity:withTiming(opacity,OPACITY_TIMING,isScrollVisible.get()?'animate-always':'animate-never',function(finished){if(finished&&sharedVisible.get()===0&&sharedTransitionState.get()===TransitionStates.YEETED){runOnJS(cleanUp)();}}),width:width,height:height,top:y,left:x,borderRadius:withSpring(borderRadius,SCALE_PHYSICS)};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx17(){const{coords,focused,id,isPIP,pipState,getClampedPIPPosition,wrapperDimensions,windowDimensions,safeArea,pipAvoidanceSpecs,derivedScrollValue,xOffset,calculateContentCenterOffset,contentDimensions,sharedTransitionState,TransitionStates,zIndexOverride,computeCardBorderRadius,mode,isSelf,sharedVisible,isRTCConnected,CONNECTING_OPACITY,withDelay,withTiming,ZINDEX_TIMING,OPACITY_TIMING,isScrollVisible,runOnJS,cleanUp,withSpring,SCALE_PHYSICS}=this.__closure;var _focused$get,_focused$get2,_focused$get3;let{zIndex:zIndex,width:width,height:height,x:x,y:y}=coords.get();const isFocused=((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id;if(isPIP){width=pipState.width;height=pipState.height;const pipHeight=!pipState.showSecondaryPIP?pipState.height:pipState.containerHeight;const pipPosition=getClampedPIPPosition({pipX:wrapperDimensions.get().pipX,pipY:wrapperDimensions.get().pipY,width:width,height:pipHeight,windowDimensions:windowDimensions.get(),safeArea:safeArea.get(),bottomAvoidanceRegion:pipAvoidanceSpecs.get().bottom,topAvoidanceRegion:pipAvoidanceSpecs.get().top});x=pipPosition.x;y=derivedScrollValue.get()+pipPosition.y;}else if(focused.get()!=null){if(isFocused){zIndex=1;width=windowDimensions.get().width;height=windowDimensions.get().height;x=0;y=derivedScrollValue.get();}else{zIndex=0;}}else{x+=xOffset.get();y+=calculateContentCenterOffset({contentHeight:contentDimensions.get().height,windowHeight:windowDimensions.get().height,safeArea:safeArea.get()});if(sharedTransitionState.get()===TransitionStates.YEETED){y+=height/4;}}if(zIndexOverride.get()){zIndex=9001;}const borderRadius=computeCardBorderRadius({id:id,mode:mode.get(),focused:(_focused$get2=focused.get())===null||_focused$get2===void 0?void 0:_focused$get2.id,isSelf:isSelf});const opacity=sharedVisible.get()===0&&((_focused$get3=focused.get())===null||_focused$get3===void 0?void 0:_focused$get3.id)!==id?0:!isFocused&&!isRTCConnected?CONNECTING_OPACITY:1;return{zIndex:withDelay(zIndexOverride.get()?0:100,withTiming(zIndex,ZINDEX_TIMING)),opacity:withTiming(opacity,OPACITY_TIMING,isScrollVisible.get()?'animate-always':'animate-never',function(finished){if(finished&&sharedVisible.get()===0&&sharedTransitionState.get()===TransitionStates.YEETED){runOnJS(cleanUp)();}}),width:width,height:height,top:y,left:x,borderRadius:withSpring(borderRadius,SCALE_PHYSICS)};}";
+    var4['code'] = var10;
     var _closure1_slot52 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx18(finished){const{sharedVisible,sharedTransitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&sharedVisible.get()===0&&sharedTransitionState.get()===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx18(finished){const{sharedVisible,sharedTransitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&sharedVisible.get()===0&&sharedTransitionState.get()===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
+    var4['code'] = var10;
     var _closure1_slot53 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx19(){const{withSpring,sharedVisible,focused,id,CARD_SCALE_PHYSICS}=this.__closure;var _focused$get;return{transform:[{scale:withSpring(sharedVisible.get()===1||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id?1:0.8,CARD_SCALE_PHYSICS)}]};}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx19(){const{withSpring,sharedVisible,focused,id,CARD_SCALE_PHYSICS}=this.__closure;var _focused$get;return{transform:[{scale:withSpring(sharedVisible.get()===1||((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)===id?1:0.8,CARD_SCALE_PHYSICS)}]};}';
+    var4['code'] = var10;
     var _closure1_slot54 = var4;
     var4 = {};
-    var8 = "function VoicePanelCardTsx20(values){const{wasPip,isPIP,pipContainerRef,measure,scrollPosition,getClampedPIPPosition,wrapperDimensions,windowDimensions,safeArea,pipAvoidanceSpecs,withSpring,layoutPhysics,wrapperOffset}=this.__closure;const initialValues=function(){if(wasPip.get()&&!isPIP){const viewTag=pipContainerRef();if(viewTag!=null&&viewTag!==-1){const data=measure(pipContainerRef);if(data!=null){return{originX:data.pageX,originY:scrollPosition.get()+data.pageY,width:data.width,height:data.height};}}const{x:x,y:y}=getClampedPIPPosition({pipX:wrapperDimensions.get().pipX,pipY:wrapperDimensions.get().pipY,width:values.currentWidth,height:values.currentHeight,windowDimensions:windowDimensions.get(),safeArea:safeArea.get(),bottomAvoidanceRegion:pipAvoidanceSpecs.get().bottom,topAvoidanceRegion:pipAvoidanceSpecs.get().top,positionOffset:undefined});return{originX:x,originY:scrollPosition.get()+y,width:values.currentWidth,height:values.currentHeight};}else if(!wasPip.get()&&isPIP){return{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight};}return{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight};}();wasPip.set(isPIP);return{animations:{originX:withSpring(values.targetOriginX,layoutPhysics,'animate-always'),originY:withSpring(values.targetOriginY,layoutPhysics,'animate-always'),width:withSpring(values.targetWidth,layoutPhysics,'animate-always'),height:withSpring(values.targetHeight,layoutPhysics,'animate-always')},initialValues:initialValues,callback:function(){const _wrapperOffset=wrapperOffset.get();if(!_wrapperOffset.gestureActive&&_wrapperOffset.y!==0){wrapperOffset.set({gestureActive:false,x:0,y:0});}}};}";
-    var4['code'] = var8;
+    var10 = "function VoicePanelCardTsx20(values){const{wasPip,isPIP,pipContainerRef,measure,scrollPosition,getClampedPIPPosition,wrapperDimensions,windowDimensions,safeArea,pipAvoidanceSpecs,withSpring,layoutPhysics,wrapperOffset}=this.__closure;const initialValues=function(){if(wasPip.get()&&!isPIP){const viewTag=pipContainerRef();if(viewTag!=null&&viewTag!==-1){const data=measure(pipContainerRef);if(data!=null){return{originX:data.pageX,originY:scrollPosition.get()+data.pageY,width:data.width,height:data.height};}}const{x:x,y:y}=getClampedPIPPosition({pipX:wrapperDimensions.get().pipX,pipY:wrapperDimensions.get().pipY,width:values.currentWidth,height:values.currentHeight,windowDimensions:windowDimensions.get(),safeArea:safeArea.get(),bottomAvoidanceRegion:pipAvoidanceSpecs.get().bottom,topAvoidanceRegion:pipAvoidanceSpecs.get().top,positionOffset:undefined});return{originX:x,originY:scrollPosition.get()+y,width:values.currentWidth,height:values.currentHeight};}else if(!wasPip.get()&&isPIP){return{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight};}return{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight};}();wasPip.set(isPIP);return{animations:{originX:withSpring(values.targetOriginX,layoutPhysics,'animate-always'),originY:withSpring(values.targetOriginY,layoutPhysics,'animate-always'),width:withSpring(values.targetWidth,layoutPhysics,'animate-always'),height:withSpring(values.targetHeight,layoutPhysics,'animate-always')},initialValues:initialValues,callback:function(){const _wrapperOffset=wrapperOffset.get();if(!_wrapperOffset.gestureActive&&_wrapperOffset.y!==0){wrapperOffset.set({gestureActive:false,x:0,y:0});}}};}";
+    var4['code'] = var10;
     var _closure1_slot55 = var4;
     var4 = {};
-    var8 = 'function VoicePanelCardTsx21(){const{EDGE_GUTTER,coords,scrollPosition,windowDimensions}=this.__closure;const yPos=EDGE_GUTTER+coords.get().y;return yPos>scrollPosition.get()-coords.get().height&&yPos<scrollPosition.get()+windowDimensions.get().height;}';
-    var4['code'] = var8;
+    var10 = 'function VoicePanelCardTsx21(){const{EDGE_GUTTER,coords,scrollPosition,windowDimensions}=this.__closure;const yPos=EDGE_GUTTER+coords.get().y;return yPos>scrollPosition.get()-coords.get().height&&yPos<scrollPosition.get()+windowDimensions.get().height;}';
+    var4['code'] = var10;
     var _closure1_slot56 = var4;
     var4 = {};
-    var8 = 'function layoutTransition_VoicePanelCardTsx22(values,disableAnimation=false){const{layoutTransitionFunction,physics}=this.__closure;return layoutTransitionFunction(values,physics,disableAnimation);}';
-    var4['code'] = var8;
+    var10 = 'function layoutTransition_VoicePanelCardTsx22(values,disableAnimation=false){const{layoutTransitionFunction,physics}=this.__closure;return layoutTransitionFunction(values,physics,disableAnimation);}';
+    var4['code'] = var10;
     var _closure1_slot57 = var4;
+    var4 = 54;
+    var4 = var6[var4];
+    var10 = var8.bind(var1)(var4);
+    var4 = {};
+    var4 = var9.bind(var1)(var10, var4);
+    var _closure1_slot58 = var4;
+    var4 = 55;
+    var4 = var6[var4];
+    var8 = var8.bind(var1)(var4);
+    var4 = {};
+    var4 = var9.bind(var1)(var8, var4);
+    var _closure1_slot59 = var4;
     var4 = var7.memo;
     var2 = function VoicePanelCard(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var3 = arg1;
-            var1 = var3.item;
+            var2 = var3.item;
             var8 = var3.transitionState;
             var23 = var3.cleanUp;
             var4 = undefined;
@@ -3259,7 +3271,7 @@ case 0:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
-            var12 = var1.id;
+            var12 = var2.id;
             var10 = _closure1_slot4;
             var9 = var10.useContext;
             var6 = _closure1_slot1;
@@ -3268,21 +3280,21 @@ case 0:
             var5 = var3[var5];
             var5 = var6.bind(var4)(var5);
             var5 = var9.bind(var10)(var5);
-            var31 = var5.channelId;
-            var _closure2_slot0 = var31;
-            var30 = var5.focused;
-            var36 = var5.guildId;
-            var26 = var5.isCall;
-            var27 = var5.layoutManager;
-            var16 = var5.mountedCards;
+            var30 = var5.channelId;
+            var _closure2_slot0 = var30;
+            var31 = var5.focused;
+            var37 = var5.guildId;
+            var27 = var5.isCall;
+            var26 = var5.layoutManager;
+            var15 = var5.mountedCards;
             var25 = var5.scrollPosition;
             var _closure2_slot1 = var25;
-            var24 = var5.windowDimensions;
-            var _closure2_slot2 = var24;
+            var16 = var5.windowDimensions;
+            var _closure2_slot2 = var16;
             var14 = 48;
             var5 = var3[var14];
             var5 = var6.bind(var4)(var5);
-            var9 = var5.bind(var4)(var12, var31, var36);
+            var9 = var5.bind(var4)(var12, var30, var37);
             var5 = _closure1_slot0;
             var3 = var3[var14];
             var5 = var5.bind(var4)(var3);
@@ -3295,123 +3307,123 @@ case 23:
 case 168:
             var11 = var3.isSelf;
             var3 = var3.user;
-            var6 = var3.id;
-            _closure2_slot3 = var6;
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var10 = 30;
-            var13 = var3[var10];
-            var18 = var5.bind(var4)(var13);
-            var17 = var18.useStateFromStores;
+            var3 = var3.id;
+            _closure2_slot3 = var3;
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var6 = 30;
+            var13 = var5[var6];
+            var19 = var10.bind(var4)(var13);
+            var18 = var19.useStateFromStores;
             var13 = _closure1_slot9;
-            var15 = new Array(1);
-            var15[0] = var13;
+            var17 = new Array(1);
+            var17[0] = var13;
             var13 = function() {
                 var2 = _closure1_slot9;
                 var1 = var2.isConnected;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var20 = var17.bind(var18)(var15, var13);
-            var3 = var3[var14];
-            var5 = var5.bind(var4)(var3);
-            var3 = var5.isStableUserParticipant;
-            var22 = var3.bind(var5)(var9);
+            var20 = var18.bind(var19)(var17, var13);
+            var5 = var5[var14];
+            var10 = var10.bind(var4)(var5);
+            var5 = var10.isStableUserParticipant;
+            var22 = var5.bind(var10)(var9);
             if(!var22) { _fun0034_ip = 169; continue _fun0034 }
 case 170:
             var22 = var9.ringing;
 case 169:
             var17 = null;
-            var3 = var17 != var9;
+            var5 = var17 != var9;
             var13 = '';
-            var5 = var13;
-            if(!var3) { _fun0034_ip = 171; continue _fun0034 }
+            var10 = var13;
+            if(!var5) { _fun0034_ip = 171; continue _fun0034 }
 case 172:
-            var3 = 'user';
-            var3 = var3 in var9;
-            var5 = var13;
-            if(!var3) { _fun0034_ip = 171; continue _fun0034 }
+            var5 = 'user';
+            var5 = var5 in var9;
+            var10 = var13;
+            if(!var5) { _fun0034_ip = 171; continue _fun0034 }
 case 173:
-            var3 = var9.user;
-            var5 = var3.id;
+            var5 = var9.user;
+            var10 = var5.id;
 case 171:
             var13 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var3 = 31;
-            var3 = var15[var3];
-            var13 = var13.bind(var4)(var3);
-            var3 = var17 == var9;
-            var15 = undefined;
-            if(var3) { _fun0034_ip = 10; continue _fun0034 }
-case 174:
-            var15 = var9.type;
-case 10:
-            var3 = _closure1_slot20;
-            var3 = var3.STREAM;
-            if(!(var15 !== var3)) { _fun0034_ip = 175; continue _fun0034 }
-case 176:
-            var15 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var3 = 32;
-            var3 = var18[var3];
-            var3 = var15.bind(var4)(var3);
-            var3 = var3.MediaEngineContextTypes;
-            var3 = var3.DEFAULT;
-            _fun0034_ip = 177; continue _fun0034;
-case 175:
+            var5 = 31;
+            var5 = var18[var5];
+            var13 = var13.bind(var4)(var5);
+            var5 = var17 == var9;
+            var18 = undefined;
+            if(var5) { _fun0034_ip = 10; continue _fun0034 }
+case 174:
+            var18 = var9.type;
+case 10:
+            var5 = _closure1_slot20;
+            var5 = var5.STREAM;
+            if(!(var18 !== var5)) { _fun0034_ip = 175; continue _fun0034 }
+case 176:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var15 = 32;
-            var15 = var19[var15];
-            var15 = var18.bind(var4)(var15);
-            var15 = var15.MediaEngineContextTypes;
-            var3 = var15.STREAM;
+            var5 = 32;
+            var5 = var19[var5];
+            var5 = var18.bind(var4)(var5);
+            var5 = var5.MediaEngineContextTypes;
+            var5 = var5.DEFAULT;
+            _fun0034_ip = 177; continue _fun0034;
+case 175:
+            var19 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var18 = 32;
+            var18 = var21[var18];
+            var18 = var19.bind(var4)(var18);
+            var18 = var18.MediaEngineContextTypes;
+            var5 = var18.STREAM;
 case 177:
-            var28 = var13.bind(var4)(var3, var5);
-            var13 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var3 = 54;
-            var3 = var15[var3];
-            var3 = var13.bind(var4)(var3);
-            var3 = var3.bind(var4)(var5);
-            var13 = _closure1_slot0;
-            var5 = 55;
-            var5 = var15[var5];
-            var15 = var13.bind(var4)(var5);
-            var13 = var15.useHangStatusExperiment;
+            var29 = var13.bind(var4)(var5, var10);
+            var18 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var5 = 56;
+            var5 = var13[var5];
+            var5 = var18.bind(var4)(var5);
+            var24 = var5.bind(var4)(var10);
+            var10 = _closure1_slot0;
+            var5 = 57;
+            var5 = var13[var5];
+            var13 = var10.bind(var4)(var5);
+            var10 = var13.useHangStatusExperiment;
             var5 = {};
-            var5['guildId'] = var36;
+            var5['guildId'] = var37;
             var18 = 'VoicePanelCard';
             var5['location'] = var18;
-            var5 = var13.bind(var15)(var5);
+            var5 = var10.bind(var13)(var5);
             var19 = var5.enableHangStatus;
             var5 = var17 == var9;
-            var15 = undefined;
+            var13 = undefined;
             if(var5) { _fun0034_ip = 178; continue _fun0034 }
 case 179:
-            var15 = var9.type;
+            var13 = var9.type;
 case 178:
             var5 = _closure1_slot20;
-            var13 = var5.USER;
+            var10 = var5.USER;
             var5 = undefined;
-            if(!(var15 === var13)) { _fun0034_ip = 180; continue _fun0034 }
+            if(!(var13 === var10)) { _fun0034_ip = 180; continue _fun0034 }
 case 181:
             var5 = var9.user;
 case 180:
             _closure2_slot4 = var5;
             var21 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var10 = var29[var10];
-            var18 = var21.bind(var4)(var10);
-            var15 = var18.useStateFromStores;
-            var10 = _closure1_slot7;
-            var13 = new Array(2);
-            var13[0] = var10;
-            var10 = _closure1_slot8;
-            var13[1] = var10;
+            var28 = _closure1_slot2;
+            var6 = var28[var6];
+            var18 = var21.bind(var4)(var6);
+            var13 = var18.useStateFromStores;
+            var6 = _closure1_slot7;
             var10 = new Array(2);
-            var10[0] = var31;
-            var10[1] = var5;
+            var10[0] = var6;
+            var6 = _closure1_slot8;
+            var10[1] = var6;
+            var6 = new Array(2);
+            var6[0] = var30;
+            var6[1] = var5;
             var5 = function() {
                 var5 = _closure1_slot7;
                 var4 = var5.getChannel;
@@ -3419,7 +3431,7 @@ case 180:
                 var6 = var4.bind(var5)(var3);
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 56;
+                var3 = 58;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -3432,46 +3444,46 @@ case 180:
                 var1 = var11[var4](var10, var9, var8, var7, var6);
                 return var1;
             };
-            var18 = var15.bind(var18)(var13, var5, var10);
-            var15 = 16;
-            var5 = var29[var15];
+            var18 = var13.bind(var18)(var10, var5, var6);
+            var10 = 16;
+            var5 = var28[var10];
             var13 = var21.bind(var4)(var5);
-            var10 = var13.useSharedValue;
+            var6 = var13.useSharedValue;
             var5 = 45;
-            var5 = var29[var5];
+            var5 = var28[var5];
             var5 = var21.bind(var4)(var5);
             var5 = var5.TransitionStates;
             var5 = var5.MOUNTED;
             if(!(var8 !== var5)) { _fun0034_ip = 182; continue _fun0034 }
 case 183:
-            var5 = var16.has;
-            var16 = var5.bind(var16)(var12);
+            var5 = var15.has;
+            var15 = var5.bind(var15)(var12);
             var5 = 0;
-            if(!var16) { _fun0034_ip = 184; continue _fun0034 }
+            if(!var15) { _fun0034_ip = 184; continue _fun0034 }
 case 182:
             var5 = 1;
 case 184:
-            var5 = var10.bind(var13)(var5);
+            var5 = var6.bind(var13)(var5);
             var13 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var10 = var10[var15];
-            var16 = var13.bind(var4)(var10);
-            var13 = var16.useSharedValue;
-            var10 = var17 != var6;
-            if(!var10) { _fun0034_ip = 185; continue _fun0034 }
+            var6 = _closure1_slot2;
+            var6 = var6[var10];
+            var15 = var13.bind(var4)(var6);
+            var13 = var15.useSharedValue;
+            var6 = var17 != var3;
+            if(!var6) { _fun0034_ip = 185; continue _fun0034 }
 case 91:
-            var29 = _closure1_slot10;
-            var21 = var29.isSpeaking;
-            var10 = var21.bind(var29)(var6);
+            var28 = _closure1_slot10;
+            var21 = var28.isSpeaking;
+            var6 = var21.bind(var28)(var3);
 case 185:
-            var13 = var13.bind(var16)(var10);
+            var13 = var13.bind(var15)(var6);
             _closure2_slot5 = var13;
             var21 = _closure1_slot4;
-            var16 = var21.useLayoutEffect;
-            var10 = new Array(2);
-            var10[0] = var6;
-            var10[1] = var13;
-            var6 = function() {
+            var15 = var21.useLayoutEffect;
+            var6 = new Array(2);
+            var6[0] = var3;
+            var6[1] = var13;
+            var3 = function() {
                 var4 = function handleChange() {
                     _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
@@ -3508,19 +3520,19 @@ case 48:
                 };
                 return var1;
             };
-            var6 = var16.bind(var21)(var6, var10);
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var16 = 57;
-            var16 = var6[var16];
-            var21 = var10.bind(var4)(var16);
-            var16 = var21.useCardLayoutCoordsSubscription;
-            var21 = var16.bind(var21)(var12, var27);
+            var3 = var15.bind(var21)(var3, var6);
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var15 = 59;
+            var15 = var3[var15];
+            var21 = var6.bind(var4)(var15);
+            var15 = var21.useCardLayoutCoordsSubscription;
+            var21 = var15.bind(var21)(var12, var26);
             _closure2_slot6 = var21;
-            var6 = var6[var15];
-            var15 = var10.bind(var4)(var6);
-            var10 = var15.useDerivedValue;
-            var6 = function Z() {
+            var3 = var3[var10];
+            var10 = var6.bind(var4)(var3);
+            var6 = var10.useDerivedValue;
+            var3 = function Z() {
                 _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
                     var3 = _closure1_slot18;
@@ -3553,28 +3565,28 @@ case 186:
                     return var1;
                 }
             };
-            var16 = {};
-            var27 = _closure1_slot18;
-            var16['EDGE_GUTTER'] = var27;
-            var16['coords'] = var21;
-            var16['scrollPosition'] = var25;
-            var16['windowDimensions'] = var24;
-            var6['__closure'] = var16;
-            var16 = 11720551113486.0;
-            var6['__workletHash'] = var16;
-            var16 = _closure1_slot56;
-            var6['__initData'] = var16;
-            var16 = var10.bind(var15)(var6);
-            var15 = _closure1_slot4;
-            var10 = var15.useMemo;
-            var6 = function() {
+            var15 = {};
+            var26 = _closure1_slot18;
+            var15['EDGE_GUTTER'] = var26;
+            var15['coords'] = var21;
+            var15['scrollPosition'] = var25;
+            var15['windowDimensions'] = var16;
+            var3['__closure'] = var15;
+            var15 = 11720551113486.0;
+            var3['__workletHash'] = var15;
+            var15 = _closure1_slot56;
+            var3['__initData'] = var15;
+            var16 = var6.bind(var10)(var3);
+            var10 = _closure1_slot4;
+            var6 = var10.useMemo;
+            var3 = function() {
                 var4 = {};
                 var1 = _closure1_slot13;
                 var5 = var1.mass;
                 var4['mass'] = var5;
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 58;
+                var5 = 60;
                 var8 = var7[var5];
                 var3 = undefined;
                 var10 = var6.bind(var3)(var8);
@@ -3630,202 +3642,12 @@ case 188:
                 var1['layoutTransition'] = var2;
                 return var1;
             };
-            var2 = new Array(0);
-            var2 = var10.bind(var15)(var6, var2);
-            var15 = var2.physics;
-            var10 = var2.layoutTransition;
-            var6 = var1.type;
-            var2 = _closure1_slot15;
-            var2 = var2.CTA;
-            if(!(var6 !== var2)) { _fun0034_ip = 190; continue _fun0034 }
-case 191:
-            var6 = var1.type;
-            var2 = _closure1_slot15;
-            var2 = var2.PARTICIPANT;
-            if(!(var6 === var2)) { _fun0034_ip = 192; continue _fun0034 }
-case 193:
-            if(!(var17 != var9)) { _fun0034_ip = 192; continue _fun0034 }
-case 194:
-            var6 = var9.type;
-            var2 = _closure1_slot20;
-            var2 = var2.USER;
-            if(!(var2 !== var6)) { _fun0034_ip = 195; continue _fun0034 }
-case 196:
-            var2 = _closure1_slot20;
-            var2 = var2.STREAM;
-            if(!(var2 !== var6)) { _fun0034_ip = 197; continue _fun0034 }
-case 198:
-            var2 = _closure1_slot20;
-            var2 = var2.ACTIVITY;
-            if(!(var2 === var6)) { _fun0034_ip = 192; continue _fun0034 }
-case 199:
-            var25 = _closure1_slot22;
-            var6 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var2 = 62;
-            var2 = var24[var2];
-            var24 = var6.bind(var4)(var2);
-            var6 = {};
-            var6['sharedVisible'] = var5;
-            var2 = var9.applicationId;
-            var6['applicationId'] = var2;
-            var6['layout'] = var10;
-            var2 = var9.id;
-            var6 = var25.bind(var4)(var24, var6, var2);
-            _fun0034_ip = 200; continue _fun0034;
-case 197:
-            var33 = var9.user;
-            var32 = var9.id;
-            var31 = var9.streamGuildId;
-            var29 = var9.streamId;
-            var27 = var9.userNick;
-            var25 = _closure1_slot22;
-            var24 = _closure1_slot34;
-            var2 = {};
-            var33 = var33.id;
-            var2['userId'] = var33;
-            var2['id'] = var32;
-            var2['streamGuildId'] = var31;
-            var2['streamId'] = var29;
-            var2['userNick'] = var27;
-            var2['isSelf'] = var11;
-            var2['sharedCoords'] = var21;
-            var2['isScrollVisible'] = var16;
-            var2['layout'] = var10;
-            var6 = var25.bind(var4)(var24, var2);
-            _fun0034_ip = 200; continue _fun0034;
-case 195:
-            var29 = var9.id;
-            var33 = var9.streamId;
-            var27 = var9.user;
-            var31 = var9.hasVideo;
-            var2 = var9.canRenderVideo;
-            if(!var31) { _fun0034_ip = 201; continue _fun0034 }
-case 202:
-            if(!var20) { _fun0034_ip = 201; continue _fun0034 }
-case 203:
-            if(var2) { _fun0034_ip = 204; continue _fun0034 }
-case 201:
-            var25 = _closure1_slot22;
-            var24 = _closure1_slot37;
-            var2 = {};
-            var2['isRTCConnected'] = var20;
-            var2['isRinging'] = var22;
-            var35 = var27.getAvatarURL;
-            var34 = 80;
-            var32 = false;
-            var32 = var35.bind(var27)(var36, var34, var32);
-            var2['avatarURI'] = var32;
-            var34 = var9.userAvatarDecoration;
-            var35 = var17 != var34;
-            var32 = undefined;
-            if(!var35) { _fun0034_ip = 205; continue _fun0034 }
-case 206:
-            var32 = var34;
-case 205:
-            var2['avatarDecoration'] = var32;
-            var2['layout'] = var10;
-            var2['layoutPhysics'] = var15;
-            var2 = var25.bind(var4)(var24, var2);
-            _fun0034_ip = 207; continue _fun0034;
-case 204:
-            if(!(var17 != var28)) { _fun0034_ip = 208; continue _fun0034 }
-case 209:
-            if(!(var17 != var3)) { _fun0034_ip = 210; continue _fun0034 }
-case 208:
-            var25 = _closure1_slot22;
-            var24 = _closure1_slot1;
-            var32 = _closure1_slot2;
-            var3 = 36;
-            var3 = var32[var3];
-            var24 = var24.bind(var4)(var3);
-            var3 = {};
-            var3['id'] = var29;
-            var32 = var27.id;
-            var3['userId'] = var32;
-            var34 = var17 != var33;
-            var32 = null;
-            if(!var34) { _fun0034_ip = 211; continue _fun0034 }
-case 212:
-            var32 = var33;
-case 211:
-            var3['streamId'] = var32;
-            var3['isScrollVisible'] = var16;
-            if(!var11) { _fun0034_ip = 213; continue _fun0034 }
-case 214:
-            if(var31) { _fun0034_ip = 215; continue _fun0034 }
-case 213:
-            var32 = _closure1_slot0;
-            var33 = _closure1_slot2;
-            var31 = 37;
-            var31 = var33[var31];
-            var31 = var32.bind(var4)(var31);
-            var31 = var31.VideoSpinnerContext;
-            var31 = var31.REMOTE_VIDEO;
-            _fun0034_ip = 216; continue _fun0034;
-case 215:
-            var33 = _closure1_slot0;
-            var34 = _closure1_slot2;
-            var32 = 37;
-            var32 = var34[var32];
-            var32 = var33.bind(var4)(var32);
-            var32 = var32.VideoSpinnerContext;
-            var31 = var32.SELF_VIDEO;
-case 216:
-            var3['videoSpinnerContext'] = var31;
-            var3['sharedCoords'] = var21;
-            var31 = true;
-            var3['isCamera'] = var31;
-            if(!var26) { _fun0034_ip = 217; continue _fun0034 }
-case 218:
-            var26 = !var11;
-case 217:
-            var3['focusOnReady'] = var26;
-            var3['layout'] = var10;
-            var3 = var25.bind(var4)(var24, var3);
-            _fun0034_ip = 219; continue _fun0034;
-case 210:
-            var26 = _closure1_slot22;
-            var25 = _closure1_slot1;
-            var31 = _closure1_slot2;
-            var24 = 61;
-            var24 = var31[var24];
-            var25 = var25.bind(var4)(var24);
-            var24 = {};
-            var24['avError'] = var28;
-            var28 = var30.get;
-            var30 = var28.bind(var30)();
-            var31 = var17 == var30;
-            var28 = undefined;
-            if(var31) { _fun0034_ip = 220; continue _fun0034 }
-case 221:
-            var28 = var30.id;
-case 220:
-            var28 = var28 !== var29;
-            var24['removeSplashImage'] = var28;
-            var27 = var27.id;
-            var24['userId'] = var27;
-            var27 = _closure1_slot5;
-            var27 = var27.absoluteFill;
-            var24['style'] = var27;
-            var3 = var26.bind(var4)(var25, var24);
-case 219:
-            var2 = var3;
-case 207:
-            var6 = var2;
-            _fun0034_ip = 200; continue _fun0034;
-case 190:
-            var2 = var1.id;
-            var1 = _closure1_slot11;
-            var1 = var1.NO_VIDEO_PARTICIPANTS;
-            if(!(var1 !== var2)) { _fun0034_ip = 222; continue _fun0034 }
-case 223:
-            var1 = _closure1_slot11;
-            var1 = var1.CALLER_DISCONNECTED;
-            if(!(var1 !== var2)) { _fun0034_ip = 224; continue _fun0034 }
-case 192:
-            var3 = _closure1_slot22;
-            var2 = _closure1_slot37;
+            var1 = new Array(0);
+            var1 = var6.bind(var10)(var3, var1);
+            var15 = var1.physics;
+            var10 = var1.layoutTransition;
+            var6 = _closure1_slot22;
+            var3 = _closure1_slot37;
             var1 = {};
             var1['isRinging'] = var22;
             var1['avatarURI'] = var4;
@@ -3833,30 +3655,207 @@ case 192:
             var1['layout'] = var10;
             var1['isRTCConnected'] = var20;
             var1['layoutPhysics'] = var15;
-            var6 = var3.bind(var4)(var2, var1);
+            var1 = var6.bind(var4)(var3, var1);
+            var6 = var2.type;
+            var3 = _closure1_slot15;
+            var3 = var3.CTA;
+            if(!(var6 !== var3)) { _fun0034_ip = 190; continue _fun0034 }
+case 191:
+            var6 = var2.type;
+            var3 = _closure1_slot15;
+            var3 = var3.PARTICIPANT;
+            if(!(var6 === var3)) { _fun0034_ip = 192; continue _fun0034 }
+case 193:
+            if(!(var17 != var9)) { _fun0034_ip = 192; continue _fun0034 }
+case 194:
+            var6 = var9.type;
+            var3 = _closure1_slot20;
+            var3 = var3.USER;
+            if(!(var3 !== var6)) { _fun0034_ip = 195; continue _fun0034 }
+case 196:
+            var3 = _closure1_slot20;
+            var3 = var3.STREAM;
+            if(!(var3 !== var6)) { _fun0034_ip = 197; continue _fun0034 }
+case 198:
+            var3 = _closure1_slot20;
+            var3 = var3.ACTIVITY;
+            if(!(var3 === var6)) { _fun0034_ip = 192; continue _fun0034 }
+case 199:
+            var26 = _closure1_slot22;
+            var6 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var3 = 62;
+            var3 = var25[var3];
+            var25 = var6.bind(var4)(var3);
+            var6 = {};
+            var6['sharedVisible'] = var5;
+            var3 = var9.applicationId;
+            var6['applicationId'] = var3;
+            var6['layout'] = var10;
+            var3 = var9.id;
+            var6 = var26.bind(var4)(var25, var6, var3);
+            _fun0034_ip = 200; continue _fun0034;
+case 197:
+            var34 = var9.user;
+            var33 = var9.id;
+            var32 = var9.streamGuildId;
+            var30 = var9.streamId;
+            var28 = var9.userNick;
+            var26 = _closure1_slot22;
+            var25 = _closure1_slot34;
+            var3 = {};
+            var34 = var34.id;
+            var3['userId'] = var34;
+            var3['id'] = var33;
+            var3['streamGuildId'] = var32;
+            var3['streamId'] = var30;
+            var3['userNick'] = var28;
+            var3['isSelf'] = var11;
+            var3['sharedCoords'] = var21;
+            var3['isScrollVisible'] = var16;
+            var3['layout'] = var10;
+            var6 = var26.bind(var4)(var25, var3);
+            _fun0034_ip = 200; continue _fun0034;
+case 195:
+            var30 = var9.id;
+            var34 = var9.streamId;
+            var28 = var9.user;
+            var32 = var9.hasVideo;
+            var3 = var9.canRenderVideo;
+            if(!var32) { _fun0034_ip = 201; continue _fun0034 }
+case 202:
+            if(!var20) { _fun0034_ip = 201; continue _fun0034 }
+case 203:
+            if(var3) { _fun0034_ip = 204; continue _fun0034 }
+case 201:
+            var26 = _closure1_slot22;
+            var25 = _closure1_slot37;
+            var3 = {};
+            var3['isRTCConnected'] = var20;
+            var3['isRinging'] = var22;
+            var36 = var28.getAvatarURL;
+            var35 = 80;
+            var33 = false;
+            var33 = var36.bind(var28)(var37, var35, var33);
+            var3['avatarURI'] = var33;
+            var35 = var9.userAvatarDecoration;
+            var36 = var17 != var35;
+            var33 = undefined;
+            if(!var36) { _fun0034_ip = 205; continue _fun0034 }
+case 206:
+            var33 = var35;
+case 205:
+            var3['avatarDecoration'] = var33;
+            var3['layout'] = var10;
+            var3['layoutPhysics'] = var15;
+            var3 = var26.bind(var4)(var25, var3);
+            _fun0034_ip = 207; continue _fun0034;
+case 204:
+            if(!(var17 != var29)) { _fun0034_ip = 208; continue _fun0034 }
+case 209:
+            if(!(var17 != var24)) { _fun0034_ip = 210; continue _fun0034 }
+case 208:
+            var26 = _closure1_slot22;
+            var25 = _closure1_slot1;
+            var33 = _closure1_slot2;
+            var24 = 36;
+            var24 = var33[var24];
+            var25 = var25.bind(var4)(var24);
+            var24 = {};
+            var24['id'] = var30;
+            var33 = var28.id;
+            var24['userId'] = var33;
+            var35 = var17 != var34;
+            var33 = null;
+            if(!var35) { _fun0034_ip = 211; continue _fun0034 }
+case 212:
+            var33 = var34;
+case 211:
+            var24['streamId'] = var33;
+            var24['isScrollVisible'] = var16;
+            if(!var11) { _fun0034_ip = 213; continue _fun0034 }
+case 214:
+            if(var32) { _fun0034_ip = 215; continue _fun0034 }
+case 213:
+            var33 = _closure1_slot0;
+            var34 = _closure1_slot2;
+            var32 = 37;
+            var32 = var34[var32];
+            var32 = var33.bind(var4)(var32);
+            var32 = var32.VideoSpinnerContext;
+            var32 = var32.REMOTE_VIDEO;
+            _fun0034_ip = 216; continue _fun0034;
+case 215:
+            var34 = _closure1_slot0;
+            var35 = _closure1_slot2;
+            var33 = 37;
+            var33 = var35[var33];
+            var33 = var34.bind(var4)(var33);
+            var33 = var33.VideoSpinnerContext;
+            var32 = var33.SELF_VIDEO;
+case 216:
+            var24['videoSpinnerContext'] = var32;
+            var24['sharedCoords'] = var21;
+            var32 = true;
+            var24['isCamera'] = var32;
+            if(!var27) { _fun0034_ip = 217; continue _fun0034 }
+case 218:
+            var27 = !var11;
+case 217:
+            var24['focusOnReady'] = var27;
+            var24['layout'] = var10;
+            var24 = var26.bind(var4)(var25, var24);
+            _fun0034_ip = 219; continue _fun0034;
+case 210:
+            var27 = _closure1_slot22;
+            var26 = _closure1_slot1;
+            var32 = _closure1_slot2;
+            var25 = 61;
+            var25 = var32[var25];
+            var26 = var26.bind(var4)(var25);
+            var25 = {};
+            var25['avError'] = var29;
+            var29 = var31.get;
+            var31 = var29.bind(var31)();
+            var32 = var17 == var31;
+            var29 = undefined;
+            if(var32) { _fun0034_ip = 220; continue _fun0034 }
+case 221:
+            var29 = var31.id;
+case 220:
+            var29 = var29 !== var30;
+            var25['removeSplashImage'] = var29;
+            var28 = var28.id;
+            var25['userId'] = var28;
+            var28 = _closure1_slot5;
+            var28 = var28.absoluteFill;
+            var25['style'] = var28;
+            var24 = var27.bind(var4)(var26, var25);
+case 219:
+            var3 = var24;
+case 207:
+            var6 = var3;
+            _fun0034_ip = 200; continue _fun0034;
+case 190:
+            var3 = var2.id;
+            var2 = _closure1_slot11;
+            var2 = var2.NO_VIDEO_PARTICIPANTS;
+            if(!(var2 !== var3)) { _fun0034_ip = 222; continue _fun0034 }
+case 223:
+            var2 = _closure1_slot11;
+            var2 = var2.CALLER_DISCONNECTED;
+            if(!(var2 !== var3)) { _fun0034_ip = 224; continue _fun0034 }
+case 192:
+            var6 = var1;
             _fun0034_ip = 200; continue _fun0034;
 case 224:
-            var3 = _closure1_slot22;
-            var2 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var1 = 60;
-            var1 = var24[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var6 = var3.bind(var4)(var2, var1);
+            var6 = _closure1_slot59;
             _fun0034_ip = 200; continue _fun0034;
 case 222:
-            var3 = _closure1_slot22;
-            var2 = _closure1_slot1;
-            var24 = _closure1_slot2;
-            var1 = 59;
-            var1 = var24[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var6 = var3.bind(var4)(var2, var1);
+            var6 = _closure1_slot58;
 case 200:
             var3 = _closure1_slot24;
-            var2 = _closure1_slot60;
+            var2 = _closure1_slot62;
             var1 = {};
             var1['cleanUp'] = var23;
             var1['coords'] = var21;

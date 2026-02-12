@@ -130,10 +130,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOUNDBOARD_WHEEL'] = var1;
     var1 = 'soundboard favorites section';
     var2['SOUNDBOARD_FAVORITES_SECTION'] = var1;
-    var1 = 'soundboard recently heard section';
-    var2['SOUNDBOARD_RECENTLY_HEARD_SECTION'] = var1;
-    var1 = 'soundboard frequently used section';
-    var2['SOUNDBOARD_FREQUENTLY_USED_SECTION'] = var1;
     var1 = 'soundboard guild sounds section';
     var2['SOUNDBOARD_GUILD_SOUNDS_SECTION'] = var1;
     var1 = 'soundboard default sounds section';
@@ -1067,6 +1063,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLAYER_STOREFRONT_PRODUCT_DETAILS_EMBED'] = var1;
     var1 = 'cloudflare warp settings';
     var2['CF_WARP_SETTINGS'] = var1;
+    var1 = 'age group';
+    var2['AGE_GROUP'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

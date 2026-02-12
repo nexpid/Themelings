@@ -1,20 +1,20 @@
 // app/modules/quests/native/QuestDock/QuestDockContentCollapsed.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
     var4 = metroImportAll;
@@ -24,9 +24,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var11 = var4.StyleSheet;
-    var12 = 2;
-    var4 = var6[var12];
+    var13 = var4.StyleSheet;
+    var14 = 2;
+    var4 = var6[var14];
     var4 = var5.bind(var1)(var4);
     var4 = var4.QuestDockMode;
     var _closure1_slot4 = var4;
@@ -38,34 +38,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
-    var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var9 = var4.jsxs;
+    var _closure1_slot6 = var9;
+    var9 = var4.jsx;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
+    var11 = var5.bind(var1)(var4);
+    var10 = var11.createStyles;
     var4 = {};
-    var10 = {};
-    var14 = var11.absoluteFillObject;
-    var15 = var10;
-    var11 = copyDataProperties(var15, var14);
-    var11 = 'bottom';
-    var10[var11] = var1;
-    var11 = 'zIndex';
-    var10[var11] = var12;
-    var4['questDockContentCollapsed'] = var10;
-    var4 = var8.bind(var9)(var4);
+    var12 = {};
+    var16 = var13.absoluteFillObject;
+    var17 = var12;
+    var13 = copyDataProperties(var17, var16);
+    var13 = 'bottom';
+    var12[var13] = var1;
+    var13 = 'zIndex';
+    var12[var13] = var14;
+    var4['questDockContentCollapsed'] = var12;
+    var4 = var10.bind(var11)(var4);
+    var _closure1_slot7 = var4;
+    var4 = {};
+    var10 = 'function QuestDockContentCollapsedTsx1(){const{withSpring,activeQuestDockMode,QuestDockMode,hideOnExpand,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
+    var4['code'] = var10;
     var _closure1_slot8 = var4;
     var4 = {};
-    var8 = 'function QuestDockContentCollapsedTsx1(){const{withSpring,activeQuestDockMode,QuestDockMode,hideOnExpand,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
-    var4['code'] = var8;
+    var10 = "function QuestDockContentCollapsedTsx2(){const{activeQuestDockMode,QuestDockMode,hideOnExpand}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?'auto':'none'};}";
+    var4['code'] = var10;
     var _closure1_slot9 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var10 = var8.bind(var1)(var4);
     var4 = {};
-    var8 = "function QuestDockContentCollapsedTsx2(){const{activeQuestDockMode,QuestDockMode,hideOnExpand}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?'auto':'none'};}";
-    var4['code'] = var8;
+    var4 = var9.bind(var1)(var10, var4);
     var _closure1_slot10 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var8 = var8.bind(var1)(var4);
+    var4 = {};
+    var4 = var9.bind(var1)(var8, var4);
+    var _closure1_slot11 = var4;
     var4 = var7.memo;
     var2 = function QuestDockContentCollapsed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -83,12 +94,12 @@ case 2:
             var3 = var5.useContext;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 6;
+            var2 = 8;
             var2 = var8[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var3.bind(var5)(var2);
             var2 = var2.quest;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var8 = var3.bind(var4)();
             var5 = var2.userStatus;
             var3 = null;
@@ -103,24 +114,24 @@ case 4:
             var5 = var9.useContext;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 7;
+            var2 = 9;
             var2 = var10[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.QuestDockGestureContext;
             var2 = var5.bind(var9)(var2);
             var13 = var2.activeQuestDockMode;
             var _closure2_slot1 = var13;
-            var2 = 8;
+            var2 = 10;
             var5 = var10[var2];
             var14 = var3.bind(var4)(var5);
             var9 = var14.useAnimatedStyle;
-            var5 = function p() {
+            var5 = function l() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 11;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -147,7 +158,7 @@ case 6:
                 }
             };
             var15 = {};
-            var12 = 9;
+            var12 = 11;
             var12 = var10[var12];
             var12 = var3.bind(var4)(var12);
             var12 = var12.withSpring;
@@ -161,13 +172,13 @@ case 6:
             var5['__closure'] = var15;
             var15 = 13361221764426.0;
             var5['__workletHash'] = var15;
-            var15 = _closure1_slot9;
+            var15 = _closure1_slot8;
             var5['__initData'] = var15;
             var9 = var9.bind(var14)(var5);
             var2 = var10[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useAnimatedProps;
-            var1 = function S() {
+            var1 = function E() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -197,12 +208,12 @@ case 9:
             var1['__closure'] = var5;
             var5 = 14339269503421.0;
             var1['__workletHash'] = var5;
-            var5 = _closure1_slot10;
+            var5 = _closure1_slot9;
             var1['__initData'] = var5;
             var5 = var2.bind(var3)(var1);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot1;
-            var1 = 10;
+            var1 = 12;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -215,27 +226,13 @@ case 9:
             var8 = !var6;
             if(var6) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var10 = _closure1_slot6;
-            var9 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var5 = 11;
-            var5 = var11[var5];
-            var9 = var9.bind(var4)(var5);
-            var5 = {};
-            var8 = var10.bind(var4)(var9, var5);
+            var8 = _closure1_slot10;
 case 12:
             var5 = new Array(2);
             var5[0] = var8;
             if(!var6) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var9 = _closure1_slot6;
-            var8 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var7 = 12;
-            var7 = var10[var7];
-            var8 = var8.bind(var4)(var7);
-            var7 = {};
-            var6 = var9.bind(var4)(var8, var7);
+            var6 = _closure1_slot11;
 case 14:
             var5[1] = var6;
             var1['children'] = var5;

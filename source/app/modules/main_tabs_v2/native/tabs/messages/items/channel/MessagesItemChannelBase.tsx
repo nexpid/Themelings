@@ -483,31 +483,47 @@ case 0:
                     var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var6 = var3.bind(var1)(var2);
-                    var5 = var6.transitionToChannel;
-                    var3 = _closure2_slot0;
-                    var4 = var3.id;
-                    var4 = var5.bind(var6)(var4);
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.transitionToChannel;
+                    var2 = _closure2_slot0;
+                    var3 = var2.id;
+                    var3 = var4.bind(var5)(var3);
                     var5 = _closure1_slot6;
                     var4 = var5.isChannelNudged;
-                    var3 = var3.id;
-                    var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0008_ip = 24; continue _fun0008 }
+                    var3 = var2.id;
+                    var2 = {};
+                    var6 = true;
+                    var2['includeInvisible'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    if(!var2) { _fun0008_ip = 24; continue _fun0008 }
 case 25:
+                    var5 = _closure1_slot6;
+                    var4 = var5.getNudgeTimestamp;
+                    var2 = _closure2_slot0;
+                    var3 = var2.id;
+                    var12 = var4.bind(var5)(var3);
+                    var4 = _closure1_slot13;
+                    var3 = var4.getPrivateChannelIds;
+                    var7 = var3.bind(var4)();
+                    var4 = var7.indexOf;
+                    var3 = var2.id;
+                    var11 = var4.bind(var7)(var3);
+                    var4 = var5.getChannelNudge;
+                    var3 = var2.id;
+                    var2 = {};
+                    var2['includeInvisible'] = var6;
+                    var8 = var4.bind(var5)(var3, var2);
+                    var7 = null;
+                    var6 = var7 != var8;
+                    if(!var6) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                     var4 = _closure1_slot6;
-                    var3 = var4.getNudgeTimestamp;
-                    var6 = _closure2_slot0;
-                    var2 = var6.id;
-                    var11 = var3.bind(var4)(var2);
-                    var3 = _closure1_slot13;
-                    var2 = var3.getPrivateChannelIds;
-                    var5 = var2.bind(var3)();
-                    var3 = var5.indexOf;
-                    var2 = var6.id;
-                    var10 = var3.bind(var5)(var2);
                     var3 = var4.getChannelNudge;
-                    var2 = var6.id;
-                    var7 = var3.bind(var4)(var2);
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var2 = var3.bind(var4)(var2);
+                    var6 = var7 == var2;
+case 26:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 19;
@@ -517,64 +533,65 @@ case 25:
                     var2 = _closure1_slot15;
                     var3 = var2.REPLY_NUDGE_OPENED;
                     var2 = {};
-                    var6 = var6.id;
-                    var2['channel_id'] = var6;
-                    var6 = 0;
-                    var12 = var10 >= var6;
-                    var6 = null;
-                    var8 = null;
-                    if(!var12) { _fun0008_ip = 26; continue _fun0008 }
-case 27:
-                    var8 = var10;
-case 26:
-                    var2['channel_dm_list_index'] = var8;
-                    var10 = var6 != var11;
-                    var8 = null;
-                    if(!var10) { _fun0008_ip = 28; continue _fun0008 }
+                    var9 = _closure2_slot0;
+                    var9 = var9.id;
+                    var2['channel_id'] = var9;
+                    var9 = 0;
+                    var13 = var11 >= var9;
+                    var9 = null;
+                    if(!var13) { _fun0008_ip = 28; continue _fun0008 }
 case 29:
-                    var10 = global;
-                    var12 = var10.Date;
-                    var10 = var12.now;
-                    var10 = var10.bind(var12)();
-                    var8 = var10 - var11;
+                    var9 = var11;
 case 28:
-                    var2['nudge_age_ms'] = var8;
-                    var10 = var6 == var7;
-                    var8 = undefined;
-                    if(var10) { _fun0008_ip = 30; continue _fun0008 }
+                    var2['channel_dm_list_index'] = var9;
+                    var11 = var7 != var12;
+                    var9 = null;
+                    if(!var11) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
-                    var8 = var7.affinity;
+                    var11 = global;
+                    var13 = var11.Date;
+                    var11 = var13.now;
+                    var11 = var11.bind(var13)();
+                    var9 = var11 - var12;
 case 30:
-                    var2['nudge_author_affinity'] = var8;
-                    var10 = var6 == var7;
-                    var8 = undefined;
-                    if(var10) { _fun0008_ip = 32; continue _fun0008 }
+                    var2['nudge_age_ms'] = var9;
+                    var11 = var7 == var8;
+                    var9 = undefined;
+                    if(var11) { _fun0008_ip = 32; continue _fun0008 }
 case 33:
-                    var8 = var7.authorId;
+                    var9 = var8.affinity;
 case 32:
-                    var2['nudge_author_id'] = var8;
-                    var10 = var6 == var7;
-                    var8 = undefined;
-                    if(var10) { _fun0008_ip = 34; continue _fun0008 }
+                    var2['nudge_author_affinity'] = var9;
+                    var11 = var7 == var8;
+                    var9 = undefined;
+                    if(var11) { _fun0008_ip = 34; continue _fun0008 }
 case 35:
-                    var8 = var7.authorId;
+                    var9 = var8.authorId;
 case 34:
-                    var8 = var6 != var8;
-                    if(!var8) { _fun0008_ip = 36; continue _fun0008 }
+                    var2['nudge_author_id'] = var9;
+                    var11 = var7 == var8;
+                    var9 = undefined;
+                    if(var11) { _fun0008_ip = 36; continue _fun0008 }
 case 37:
-                    var11 = _closure1_slot9;
-                    var10 = var11.isFriend;
-                    var9 = var7.authorId;
-                    var8 = var10.bind(var11)(var9);
+                    var9 = var8.authorId;
 case 36:
-                    var2['nudge_author_is_friend'] = var8;
-                    var8 = var6 == var7;
-                    var6 = undefined;
-                    if(var8) { _fun0008_ip = 38; continue _fun0008 }
+                    var9 = var7 != var9;
+                    if(!var9) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
-                    var6 = var7.lastMessageId;
+                    var12 = _closure1_slot9;
+                    var11 = var12.isFriend;
+                    var10 = var8.authorId;
+                    var9 = var11.bind(var12)(var10);
 case 38:
-                    var2['nudge_message_id'] = var6;
+                    var2['nudge_author_is_friend'] = var9;
+                    var9 = var7 == var8;
+                    var7 = undefined;
+                    if(var9) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
+                    var7 = var8.lastMessageId;
+case 40:
+                    var2['nudge_message_id'] = var7;
+                    var2['invisible'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
 case 24:
                     return var1;
@@ -645,22 +662,22 @@ case 24:
             var9 = var9.bind(var4)(var8);
             var8 = {};
             var11 = undefined;
-            if(!var12) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(!var12) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var11 = var25;
-case 40:
+case 42:
             var8['nameplate'] = var11;
             var8['isFocused'] = var23;
             var8['isPressed'] = var10;
             var11 = var21;
-            if(var11) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
-            var11 = var20;
-case 42:
             if(var11) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-            var11 = var18;
+            var11 = var20;
 case 44:
+            if(var11) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
+            var11 = var18;
+case 46:
             var8['isMuted'] = var11;
             var8['fadeIn'] = var10;
             var10 = var26.nameplate;
@@ -669,8 +686,8 @@ case 44:
             var8 = new Array(5);
             var8[0] = var9;
             var9 = var23;
-            if(!var9) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(!var9) { _fun0001_ip = 48; continue _fun0001 }
+case 49:
             var25 = _closure1_slot16;
             var11 = _closure1_slot5;
             var10 = {};
@@ -679,7 +696,7 @@ case 47:
             var26 = 'none';
             var10['pointerEvents'] = var26;
             var9 = var25.bind(var4)(var11, var10);
-case 46:
+case 48:
             var8[1] = var9;
             var11 = _closure1_slot16;
             var10 = _closure1_slot1;
@@ -732,8 +749,8 @@ case 46:
             var9['blocked'] = var18;
             var18 = var15 == var19;
             var15 = undefined;
-            if(var18) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
+            if(var18) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
             var18 = var19.some;
             var17 = function(arg1) {
                 var1 = arg1;
@@ -744,7 +761,7 @@ case 49:
                 return var1;
             };
             var15 = var18.bind(var19)(var17);
-case 48:
+case 50:
             var15 = var16 === var15;
             var9['hasActivity'] = var15;
             var9['hasUnreadMessages'] = var14;

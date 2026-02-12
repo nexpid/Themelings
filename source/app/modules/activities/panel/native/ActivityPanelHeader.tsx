@@ -1,11 +1,11 @@
 // app/modules/activities/panel/native/ActivityPanelHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var15 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var9;
     var5 = function useBaseActivityPanelHeaderContent(arg1) {
         var1 = arg1;
@@ -189,7 +189,7 @@ case 14:
         var1['styles'] = var2;
         return var1;
     };
-    var _closure1_slot17 = var5;
+    var _closure1_slot18 = var5;
     var4 = function BaseActivityPanelContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -208,9 +208,9 @@ case 0:
 case 17:
             var4 = _closure1_slot12;
             var7 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var2 = 12;
-            var2 = var19[var2];
+            var10 = _closure1_slot2;
+            var2 = 13;
+            var2 = var10[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.ThemeContextProvider;
             var2 = {};
@@ -218,8 +218,8 @@ case 17:
             var6 = var6.DARK;
             var2['theme'] = var6;
             var8 = _closure1_slot12;
-            var6 = 13;
-            var6 = var19[var6];
+            var6 = 14;
+            var6 = var10[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.GestureDetector;
             var6 = {};
@@ -228,13 +228,7 @@ case 17:
             var10 = _closure1_slot5;
             var9 = {};
             var9['style'] = var12;
-            var18 = _closure1_slot12;
-            var15 = _closure1_slot1;
-            var12 = 14;
-            var12 = var19[var12];
-            var15 = var15.bind(var5)(var12);
-            var12 = {};
-            var15 = var18.bind(var5)(var15, var12);
+            var15 = _closure1_slot16;
             var12 = new Array(3);
             var12[0] = var15;
             var14 = !var14;
@@ -265,7 +259,7 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var2 = function useBaseActivityPanelHeader(arg1) {
         var1 = arg1;
         var3 = var1.context;
@@ -330,19 +324,19 @@ case 22:
         var1['pipState'] = var2;
         return var1;
     };
-    var _closure1_slot19 = var2;
+    var _closure1_slot20 = var2;
     var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
+    var12 = var1.Object;
+    var10 = var12.defineProperty;
     var7 = {};
     var1 = true;
     var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var7);
+    var1 = var10.bind(var12)(var3, var1, var7);
     var1 = 0;
     var7 = var9[var1];
     var1 = undefined;
-    var7 = var15.bind(var1)(var7);
+    var7 = var11.bind(var1)(var7);
     var _closure1_slot3 = var7;
     var7 = 1;
     var10 = var9[var7];
@@ -352,21 +346,21 @@ case 22:
     var7 = 2;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
-    var11 = var7.View;
-    var _closure1_slot5 = var11;
-    var14 = var7.StyleSheet;
-    var _closure1_slot6 = var14;
+    var12 = var7.View;
+    var _closure1_slot5 = var12;
+    var16 = var7.StyleSheet;
+    var _closure1_slot6 = var16;
     var7 = 3;
     var7 = var9[var7];
-    var7 = var15.bind(var1)(var7);
+    var7 = var11.bind(var1)(var7);
     var _closure1_slot7 = var7;
     var7 = 4;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
-    var11 = var7.ACTIVITY_PANEL_PORTRAIT_HEADER_HEIGHT;
-    var _closure1_slot8 = var11;
-    var11 = var7.LANDSCAPE_IFRAME_HORIZONTAL_MARGIN;
-    var _closure1_slot9 = var11;
+    var12 = var7.ACTIVITY_PANEL_PORTRAIT_HEADER_HEIGHT;
+    var _closure1_slot8 = var12;
+    var12 = var7.LANDSCAPE_IFRAME_HORIZONTAL_MARGIN;
+    var _closure1_slot9 = var12;
     var7 = var7.ActivityPanelModes;
     var _closure1_slot10 = var7;
     var7 = 5;
@@ -377,56 +371,62 @@ case 22:
     var7 = 6;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
-    var11 = var7.jsx;
-    var _closure1_slot12 = var11;
+    var12 = var7.jsx;
+    var _closure1_slot12 = var12;
     var7 = var7.jsxs;
     var _closure1_slot13 = var7;
     var7 = 7;
     var7 = var9[var7];
-    var12 = var8.bind(var1)(var7);
-    var11 = var12.createStyles;
+    var14 = var8.bind(var1)(var7);
+    var13 = var14.createStyles;
     var7 = {};
-    var13 = {};
-    var18 = var14.absoluteFillObject;
-    var19 = var13;
-    var14 = copyDataProperties(var19, var18);
-    var16 = 'space-between';
-    var14 = 'justifyContent';
-    var13[var14] = var16;
-    var16 = 'center';
-    var14 = 'alignItems';
-    var13[var14] = var16;
-    var16 = 'row';
-    var14 = 'flexDirection';
-    var13[var14] = var16;
-    var14 = 8;
-    var16 = 'gap';
-    var13[var16] = var14;
-    var7['panelHeader'] = var13;
-    var13 = {};
-    var16 = 'column-reverse';
-    var13['flexDirection'] = var16;
-    var7['panelLandscape'] = var13;
-    var13 = {'position': 'absolute', 'top': 0};
-    var7['headerContainer'] = var13;
-    var13 = {'backgroundColor': null, 'borderRadius': null, 'width': 32, 'height': 4, 'alignSelf': 'center', 'marginTop': 4, 'opacity': 0.3};
-    var16 = var9[var14];
-    var16 = var15.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.WHITE;
-    var13['backgroundColor'] = var16;
-    var14 = var9[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.sm;
-    var13['borderRadius'] = var14;
-    var7['pullIndicator'] = var13;
-    var7 = var11.bind(var12)(var7);
+    var15 = {};
+    var19 = var16.absoluteFillObject;
+    var20 = var15;
+    var16 = copyDataProperties(var20, var19);
+    var17 = 'space-between';
+    var16 = 'justifyContent';
+    var15[var16] = var17;
+    var17 = 'center';
+    var16 = 'alignItems';
+    var15[var16] = var17;
+    var17 = 'row';
+    var16 = 'flexDirection';
+    var15[var16] = var17;
+    var16 = 8;
+    var17 = 'gap';
+    var15[var17] = var16;
+    var7['panelHeader'] = var15;
+    var15 = {};
+    var17 = 'column-reverse';
+    var15['flexDirection'] = var17;
+    var7['panelLandscape'] = var15;
+    var15 = {'position': 'absolute', 'top': 0};
+    var7['headerContainer'] = var15;
+    var15 = {'backgroundColor': null, 'borderRadius': null, 'width': 32, 'height': 4, 'alignSelf': 'center', 'marginTop': 4, 'opacity': 0.3};
+    var17 = var9[var16];
+    var17 = var11.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.WHITE;
+    var15['backgroundColor'] = var17;
+    var16 = var9[var16];
+    var16 = var11.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.sm;
+    var15['borderRadius'] = var16;
+    var7['pullIndicator'] = var15;
+    var7 = var13.bind(var14)(var7);
     var _closure1_slot14 = var7;
     var7 = {};
-    var11 = 'function ActivityPanelHeaderTsx1(){const{runOnJS,setMode,ActivityPanelModes}=this.__closure;runOnJS(setMode)(ActivityPanelModes.PIP);}';
-    var7['code'] = var11;
+    var13 = 'function ActivityPanelHeaderTsx1(){const{runOnJS,setMode,ActivityPanelModes}=this.__closure;runOnJS(setMode)(ActivityPanelModes.PIP);}';
+    var7['code'] = var13;
     var _closure1_slot15 = var7;
+    var7 = 12;
+    var7 = var9[var7];
+    var11 = var11.bind(var1)(var7);
+    var7 = {};
+    var7 = var12.bind(var1)(var11, var7);
+    var _closure1_slot16 = var7;
     var11 = var10.memo;
     var7 = function ActivityPanelHeaderContentInner(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -440,7 +440,7 @@ case 0:
             var7 = var2.wrapperOffset;
             var5 = undefined;
             var _closure2_slot6 = var5;
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot18;
             var3 = {};
             var3['landscape'] = var9;
             var3['setMode'] = var8;
@@ -521,7 +521,7 @@ case 27:
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var4 = _closure1_slot13;
-                    var3 = _closure1_slot18;
+                    var3 = _closure1_slot19;
                     var2 = {};
                     var1 = _closure2_slot5;
                     var11 = null;
@@ -588,10 +588,10 @@ case 32:
                     var10 = _closure2_slot5;
                     var11 = var11 != var10;
                     var10 = undefined;
-                    if(!var11) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
-                    var10 = _closure2_slot5;
+                    if(!var11) { _fun0006_ip = 16; continue _fun0006 }
 case 34:
+                    var10 = _closure2_slot5;
+case 16:
                     var6['selfEmbeddedActivity'] = var10;
                     var9 = _closure2_slot1;
                     var6['setMode'] = var9;
@@ -607,10 +607,10 @@ case 34:
         }
     };
     var7 = var11.bind(var10)(var7);
-    var _closure1_slot16 = var7;
+    var _closure1_slot17 = var7;
     var7 = var10.memo;
     var6 = function() {
-        var2 = _closure1_slot19;
+        var2 = _closure1_slot20;
         var1 = {};
         var6 = _closure1_slot1;
         var4 = _closure1_slot2;
@@ -630,7 +630,7 @@ case 34:
         var1 = {};
         var1['style'] = var6;
         var7 = _closure1_slot12;
-        var6 = _closure1_slot16;
+        var6 = _closure1_slot17;
         var5 = {};
         var11 = var11.isWindowLandscape;
         var5['landscape'] = var11;

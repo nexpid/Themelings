@@ -11,19 +11,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var2 = var1.user;
-            var _closure2_slot0 = var2;
+            var7 = var1.user;
             var13 = var1.source;
-            var _closure2_slot1 = var13;
-            var2 = var1.onCloseModal;
-            var _closure2_slot2 = var2;
+            var10 = var1.onCloseModal;
             var12 = var1.oneClickFlow;
             var4 = undefined;
             if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var12 = false;
 case 2:
-            var _closure2_slot3 = var12;
+            var _closure2_slot0 = var4;
+            var _closure2_slot1 = var4;
+            var _closure2_slot2 = var4;
+            var9 = _closure1_slot8;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 6;
+            var1 = var8[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['onCloseModal'] = var10;
+            var1 = var9.bind(var4)(var5, var1);
+            _closure2_slot0 = var1;
+            var9 = _closure1_slot8;
+            var1 = 7;
+            var1 = var8[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['onCloseModal'] = var10;
+            var1['user'] = var7;
+            var1['source'] = var13;
+            var1['oneClickFlow'] = var12;
+            var1 = var9.bind(var4)(var5, var1);
+            _closure2_slot1 = var1;
+            var5 = _closure1_slot8;
+            var1 = 8;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['user'] = var7;
+            var1 = var5.bind(var4)(var2, var1);
+            _closure2_slot2 = var1;
             var5 = _closure1_slot4;
             var2 = var5.useState;
             var7 = {};
@@ -52,7 +80,7 @@ case 6:
             var1['headerShown'] = var8;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var14 = 6;
+            var14 = 9;
             var10 = var9[var14];
             var10 = var8.bind(var4)(var10);
             var10 = var10.ImpressionNames;
@@ -68,17 +96,7 @@ case 6:
             var10['one_click_flow'] = var12;
             var1['impressionProperties'] = var10;
             var10 = function render() {
-                var4 = _closure1_slot8;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var5 = _closure2_slot0;
-                var1['user'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot2;
                 return var1;
             };
             var1['render'] = var10;
@@ -103,23 +121,7 @@ case 6:
             var11['one_click_flow'] = var12;
             var1['impressionProperties'] = var11;
             var11 = function render() {
-                var4 = _closure1_slot8;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 8;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var6 = _closure2_slot2;
-                var1['onCloseModal'] = var6;
-                var6 = _closure2_slot0;
-                var1['user'] = var6;
-                var6 = _closure2_slot1;
-                var1['source'] = var6;
-                var5 = _closure2_slot3;
-                var1['oneClickFlow'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot1;
                 return var1;
             };
             var1['render'] = var11;
@@ -129,17 +131,7 @@ case 6:
             var2 = var1.REMINDER;
             var1 = {'title': '', 'render': null, 'fullscreen': true};
             var3 = function render() {
-                var4 = _closure1_slot8;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 9;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var5 = _closure2_slot2;
-                var1['onCloseModal'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot0;
                 return var1;
             };
             var1['render'] = var3;

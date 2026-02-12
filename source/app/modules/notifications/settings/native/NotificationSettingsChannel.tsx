@@ -81,11 +81,11 @@ case 0:
             var3 = var2.bind(var4)(var3);
             var3 = var3.t;
             var3 = var3.h850Ss;
-            var3 = var5.bind(var8)(var3);
-            var _closure2_slot1 = var3;
+            var12 = var5.bind(var8)(var3);
+            var _closure2_slot1 = var12;
             var3 = var14.channel;
-            var3 = var3.name;
-            var _closure2_slot2 = var3;
+            var11 = var3.name;
+            var _closure2_slot2 = var11;
             var3 = 8;
             var3 = var7[var3];
             var5 = var2.bind(var4)(var3);
@@ -94,6 +94,16 @@ case 0:
             var _closure2_slot3 = var3;
             var3 = _closure1_slot8;
             var5 = var3.bind(var4)();
+            var9 = _closure1_slot6;
+            var3 = 9;
+            var3 = var7[var3];
+            var3 = var2.bind(var4)(var3);
+            var8 = var3.NavigatorHeader;
+            var3 = {};
+            var3['title'] = var12;
+            var3['subtitle'] = var11;
+            var3 = var9.bind(var4)(var8, var3);
+            var _closure2_slot4 = var3;
             var11 = _closure1_slot3;
             var8 = var11.useLayoutEffect;
             var3 = function() {
@@ -113,20 +123,7 @@ case 0:
                     var6 = var16[var9](var15, var14, var13, var12, var11);
                     var2['title'] = var6;
                     var6 = function headerTitle() {
-                        var4 = _closure1_slot6;
-                        var2 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var1 = 9;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var1 = var2.bind(var3)(var1);
-                        var2 = var1.NavigatorHeader;
-                        var1 = {};
-                        var6 = _closure2_slot1;
-                        var1['title'] = var6;
-                        var5 = _closure2_slot2;
-                        var1['subtitle'] = var5;
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure2_slot4;
                         return var1;
                     };
                     var2['headerTitle'] = var6;

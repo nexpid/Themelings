@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var13 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var7;
     var2 = function useHasSettingsBadge() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -30,7 +30,7 @@ case 0:
             var4 = var9[var4];
             var5 = var8.bind(var7)(var4);
             var4 = var5.useTrialOffer;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var4 = var4.bind(var5)(var2);
             var2 = null;
             var4 = var2 != var4;
@@ -60,15 +60,15 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot11 = var2;
+    var _closure1_slot12 = var2;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var8.bind(var10)(var3, var1, var5);
     var1 = 0;
     var8 = var7[var1];
     var5 = metroImportAll;
@@ -78,73 +78,83 @@ case 6:
     var5 = 1;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.View;
-    var _closure1_slot4 = var9;
-    var9 = var5.ActivityIndicator;
-    var _closure1_slot5 = var9;
-    var12 = var5.StyleSheet;
+    var10 = var5.View;
+    var _closure1_slot4 = var10;
+    var11 = var5.ActivityIndicator;
+    var15 = var5.StyleSheet;
     var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
-    var _closure1_slot6 = var5;
+    var _closure1_slot5 = var5;
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.QuestsExperimentLocations;
-    var _closure1_slot7 = var5;
+    var _closure1_slot6 = var5;
     var5 = 4;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot8 = var9;
+    var10 = var5.jsx;
+    var _closure1_slot7 = var10;
     var5 = var5.jsxs;
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var5 = 5;
     var5 = var7[var5];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.createStyles;
+    var13 = var6.bind(var1)(var5);
+    var12 = var13.createStyles;
     var5 = {};
-    var11 = {};
-    var16 = var12.absoluteFillObject;
-    var17 = var11;
-    var12 = copyDataProperties(var17, var16);
-    var14 = 10;
-    var12 = 'zIndex';
-    var11[var12] = var14;
-    var5['container'] = var11;
-    var11 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'top': 4294967292, 'right': 8};
-    var5['buttons'] = var11;
-    var11 = {'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
-    var12 = 6;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.lg;
-    var11['borderRadius'] = var14;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
-    var11['backgroundColor'] = var14;
-    var5['button'] = var11;
-    var11 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};
-    var5['nitroButton'] = var11;
-    var11 = {'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
-    var5['loading'] = var11;
-    var11 = {};
-    var12 = var7[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.WHITE;
-    var11['color'] = var12;
-    var5['icon'] = var11;
-    var11 = {'marginVertical': 8, 'marginHorizontal': 4};
-    var5['nitroPressable'] = var11;
-    var11 = {'marginVertical': 8, 'marginLeft': 4, 'marginRight': 8};
-    var5['settingsPressable'] = var11;
-    var5 = var9.bind(var10)(var5);
+    var14 = {};
+    var18 = var15.absoluteFillObject;
+    var19 = var14;
+    var15 = copyDataProperties(var19, var18);
+    var16 = 10;
+    var15 = 'zIndex';
+    var14[var15] = var16;
+    var5['container'] = var14;
+    var14 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'top': 4294967292, 'right': 8};
+    var5['buttons'] = var14;
+    var14 = {'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
+    var15 = 6;
+    var16 = var7[var15];
+    var16 = var9.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.lg;
+    var14['borderRadius'] = var16;
+    var16 = var7[var15];
+    var16 = var9.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.CONTROL_OVERLAY_SECONDARY_BACKGROUND_DEFAULT;
+    var14['backgroundColor'] = var16;
+    var5['button'] = var14;
+    var14 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};
+    var5['nitroButton'] = var14;
+    var14 = {'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
+    var5['loading'] = var14;
+    var14 = {};
+    var15 = var7[var15];
+    var15 = var9.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.WHITE;
+    var14['color'] = var15;
+    var5['icon'] = var14;
+    var14 = {'marginVertical': 8, 'marginHorizontal': 4};
+    var5['nitroPressable'] = var14;
+    var14 = {'marginVertical': 8, 'marginLeft': 4, 'marginRight': 8};
+    var5['settingsPressable'] = var14;
+    var5 = var12.bind(var13)(var5);
+    var _closure1_slot9 = var5;
+    var5 = {};
+    var12 = 'large';
+    var5['size'] = var12;
+    var5 = var10.bind(var1)(var11, var5);
     var _closure1_slot10 = var5;
+    var5 = 12;
+    var5 = var7[var5];
+    var9 = var9.bind(var1)(var5);
+    var5 = {};
+    var5 = var10.bind(var1)(var9, var5);
+    var _closure1_slot11 = var5;
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -166,24 +176,24 @@ case 9:
 case 8:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var18 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var5[var2];
             var8 = var3.bind(var4)(var2);
             var2 = var8.useHasPremiumSubscriptionToDisplay;
             var10 = var2.bind(var8)();
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var17 = var2.bind(var4)();
             _closure2_slot2 = var17;
-            var2 = 13;
+            var2 = 14;
             var2 = var5[var2];
             var9 = var3.bind(var4)(var2);
             var8 = var9.useIsEligibleForQuests;
             var2 = {};
-            var12 = _closure1_slot7;
+            var12 = _closure1_slot6;
             var12 = var12.YOU_TAB_PROFILE_HEADER;
             var2['location'] = var12;
             var9 = var8.bind(var9)(var2);
@@ -191,7 +201,7 @@ case 8:
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.useTrialOffer;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var3 = var3.bind(var5)(var2);
             var2 = null;
             var2 = var2 != var3;
@@ -207,7 +217,7 @@ case 8:
 case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 15;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -260,7 +270,7 @@ case 12:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -271,7 +281,7 @@ case 12:
                 return var1;
             };
             var19 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
             var7 = var18.container;
@@ -285,22 +295,18 @@ case 12:
             var1['pointerEvents'] = var11;
             if(!var6) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot7;
             var7 = _closure1_slot4;
             var5 = {};
             var12 = var18.loading;
             var5['style'] = var12;
-            var16 = _closure1_slot5;
-            var12 = {};
-            var23 = 'large';
-            var12['size'] = var23;
-            var12 = var8.bind(var4)(var16, var12);
+            var12 = _closure1_slot10;
             var5['children'] = var12;
             var6 = var8.bind(var4)(var7, var5);
 case 14:
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = _closure1_slot9;
+            var8 = _closure1_slot8;
             var7 = _closure1_slot4;
             var6 = {};
             var16 = var18.buttons;
@@ -316,7 +322,7 @@ case 14:
 case 17:
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var9 = 15;
+            var9 = 16;
             var9 = var16[var9];
             var12 = var12.bind(var4)(var9);
             var9 = var12.isMetaQuest;
@@ -325,18 +331,11 @@ case 17:
 case 16:
             if(!var11) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-            var16 = _closure1_slot8;
-            var12 = _closure1_slot1;
-            var22 = _closure1_slot2;
-            var9 = 16;
-            var9 = var22[var9];
-            var12 = var12.bind(var4)(var9);
-            var9 = {};
-            var11 = var16.bind(var4)(var12, var9);
+            var11 = _closure1_slot11;
 case 18:
             var9 = new Array(4);
             var9[0] = var11;
-            var16 = _closure1_slot8;
+            var16 = _closure1_slot7;
             var12 = _closure1_slot1;
             var22 = _closure1_slot2;
             var11 = 17;
@@ -350,7 +349,7 @@ case 18:
             var10 = !var10;
             if(!var10) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-            var16 = _closure1_slot8;
+            var16 = _closure1_slot7;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
             var11 = 18;
@@ -402,7 +401,7 @@ case 21:
             var10 = var16.bind(var4)(var12, var11);
 case 20:
             var9[2] = var10;
-            var12 = _closure1_slot8;
+            var12 = _closure1_slot7;
             var21 = _closure1_slot0;
             var19 = _closure1_slot2;
             var10 = 18;

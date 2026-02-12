@@ -17,27 +17,26 @@ case 0:
         var2['value'] = var1;
         var1 = '__esModule';
         var1 = var5.bind(var8)(var3, var1, var2);
-        var13 = 0;
-        var5 = var7[var13];
+        var15 = 0;
+        var5 = var7[var15];
         var2 = metroImportAll;
         var1 = undefined;
         var9 = var2.bind(var1)(var5);
         var _closure1_slot3 = var9;
-        var12 = 1;
+        var14 = 1;
+        var2 = var7[var14];
+        var2 = var6.bind(var1)(var2);
+        var11 = var2.ActivityIndicator;
+        var13 = var2.StyleSheet;
+        var2 = var2.View;
+        var _closure1_slot4 = var2;
+        var12 = 2;
         var2 = var7[var12];
         var2 = var6.bind(var1)(var2);
-        var5 = var2.ActivityIndicator;
-        var _closure1_slot4 = var5;
-        var11 = var2.StyleSheet;
-        var2 = var2.View;
-        var _closure1_slot5 = var2;
-        var10 = 2;
-        var2 = var7[var10];
-        var2 = var6.bind(var1)(var2);
-        var5 = var2.jsx;
-        var _closure1_slot6 = var5;
+        var10 = var2.jsx;
+        var _closure1_slot5 = var10;
         var2 = var2.jsxs;
-        var _closure1_slot7 = var2;
+        var _closure1_slot6 = var2;
         var8 = 3;
         var2 = var7[var8];
         var5 = var6.bind(var1)(var2);
@@ -48,17 +47,17 @@ case 0:
 case 3:
         var2 = "\n  window.addEventListener('click', function(event) {\n    window.ReactNativeWebView.postMessage(JSON.stringify({event: 'click'}));\n  });\n";
 case 2:
-        var _closure1_slot8 = var2;
+        var _closure1_slot7 = var2;
         var2 = {};
-        var2['UNREADY'] = var13;
+        var2['UNREADY'] = var15;
         var5 = 'UNREADY';
-        var2[var13] = var5;
-        var2['READY'] = var12;
+        var2[var15] = var5;
+        var2['READY'] = var14;
         var5 = 'READY';
-        var2[var12] = var5;
-        var2['ERRORED'] = var10;
+        var2[var14] = var5;
+        var2['ERRORED'] = var12;
         var5 = 'ERRORED';
-        var2[var10] = var5;
+        var2[var12] = var5;
         var2['UNSTARTED'] = var8;
         var5 = 'UNSTARTED';
         var2[var8] = var5;
@@ -82,20 +81,23 @@ case 2:
         var2['VIDEO_CUED'] = var5;
         var8 = 'VIDEO_CUED';
         var2[var5] = var8;
-        var _closure1_slot9 = var2;
-        var10 = var11.create;
+        var _closure1_slot8 = var2;
+        var12 = var13.create;
         var8 = {};
-        var12 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'position': 'absolute', 'alignItems': 'center', 'justifyContent': 'center'};
-        var8['loading'] = var12;
-        var8 = var10.bind(var11)(var8);
+        var14 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'position': 'absolute', 'alignItems': 'center', 'justifyContent': 'center'};
+        var8['loading'] = var14;
+        var8 = var12.bind(var13)(var8);
+        var _closure1_slot9 = var8;
+        var8 = {};
+        var12 = 'function MediaModalWebViewTsx1(){const{withTiming,webviewOpacity}=this.__closure;return{opacity:withTiming(webviewOpacity.get())};}';
+        var8['code'] = var12;
         var _closure1_slot10 = var8;
         var8 = {};
-        var10 = 'function MediaModalWebViewTsx1(){const{withTiming,webviewOpacity}=this.__closure;return{opacity:withTiming(webviewOpacity.get())};}';
-        var8['code'] = var10;
+        var12 = 'function MediaModalWebViewTsx2(){const{withTiming,loaderOpacity}=this.__closure;return{opacity:withTiming(loaderOpacity.get())};}';
+        var8['code'] = var12;
         var _closure1_slot11 = var8;
-        var8 = {};
-        var10 = 'function MediaModalWebViewTsx2(){const{withTiming,loaderOpacity}=this.__closure;return{opacity:withTiming(loaderOpacity.get())};}';
-        var8['code'] = var10;
+        var8 = {'color': 'white', 'size': 'large'};
+        var8 = var10.bind(var1)(var11, var8);
         var _closure1_slot12 = var8;
         var8 = var9.forwardRef;
         var4 = function(arg1, arg2) {
@@ -165,7 +167,7 @@ case 0:
                 var6['__closure'] = var15;
                 var15 = 2179142865986.0;
                 var6['__workletHash'] = var15;
-                var15 = _closure1_slot11;
+                var15 = _closure1_slot10;
                 var6['__initData'] = var15;
                 var17 = var9.bind(var12)(var6);
                 var6 = var16[var11];
@@ -196,7 +198,7 @@ case 0:
                 var6['__closure'] = var15;
                 var15 = 7752174298017.0;
                 var6['__workletHash'] = var15;
-                var15 = _closure1_slot12;
+                var15 = _closure1_slot11;
                 var6['__initData'] = var15;
                 var12 = var9.bind(var12)(var6);
                 var6 = _closure1_slot3;
@@ -209,20 +211,20 @@ case 0:
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var4 = _closure2_slot0;
-                        var2 = _closure1_slot9;
+                        var2 = _closure1_slot8;
                         var2 = var2.BUFFERING;
                         var2 = var4 !== var2;
                         if(!var2) { _fun0003_ip = 4; continue _fun0003 }
 case 5:
                         var5 = _closure2_slot0;
-                        var4 = _closure1_slot9;
+                        var4 = _closure1_slot8;
                         var4 = var4.PLAYING;
                         var2 = var5 !== var4;
 case 4:
                         if(!var2) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
                         var4 = _closure2_slot0;
-                        var3 = _closure1_slot9;
+                        var3 = _closure1_slot8;
                         var3 = var3.ERRORED;
                         var2 = var4 !== var3;
 case 6:
@@ -315,7 +317,7 @@ case 18:
 case 16:
                         var1 = !var1;
                         if(var1) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+case 12:
                         var5 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var3 = 6;
@@ -331,11 +333,11 @@ case 20:
                     }
                 };
                 var15 = var3.bind(var6)(var1, var2);
-                var3 = _closure1_slot7;
-                var2 = _closure1_slot5;
+                var3 = _closure1_slot6;
+                var2 = _closure1_slot4;
                 var1 = {};
                 var1['style'] = var5;
-                var7 = _closure1_slot6;
+                var7 = _closure1_slot5;
                 var13 = _closure1_slot1;
                 var5 = var16[var11];
                 var5 = var13.bind(var4)(var5);
@@ -354,7 +356,7 @@ case 20:
                 var25 = var9;
                 var24 = var14;
                 var14 = copyDataProperties(var25, var24);
-                var19 = _closure1_slot8;
+                var19 = _closure1_slot7;
                 var14 = global;
                 var14 = var14.HermesInternal;
                 var17 = var14.concat;
@@ -387,18 +389,18 @@ case 20:
                 var6 = var7.bind(var4)(var6, var5);
                 var5 = new Array(2);
                 var5[0] = var6;
-                var6 = _closure1_slot9;
+                var6 = _closure1_slot8;
                 var6 = var6.PLAYING;
                 var6 = var8 !== var6;
-                if(!var6) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-                var7 = _closure1_slot9;
+                if(!var6) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+                var7 = _closure1_slot8;
                 var7 = var7.PAUSED;
                 var6 = var8 !== var7;
-case 22:
-                if(!var6) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-                var9 = _closure1_slot6;
+case 21:
+                if(!var6) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
+                var9 = _closure1_slot5;
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var7 = var7[var11];
@@ -407,16 +409,14 @@ case 25:
                 var7 = {};
                 var11 = new Array(2);
                 var11[0] = var12;
-                var12 = _closure1_slot10;
+                var12 = _closure1_slot9;
                 var12 = var12.loading;
                 var11[1] = var12;
                 var7['style'] = var11;
-                var11 = _closure1_slot4;
-                var10 = {'color': 'white', 'size': 'large'};
-                var10 = var9.bind(var4)(var11, var10);
+                var10 = _closure1_slot12;
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 24:
+case 23:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

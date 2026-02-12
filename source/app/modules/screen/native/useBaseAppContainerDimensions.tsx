@@ -1,4 +1,4 @@
-// app/modules/screen/native/useAppContainerDimensions.tsx
+// app/modules/screen/native/useBaseAppContainerDimensions.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -25,9 +25,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/screen/native/useAppContainerDimensions.tsx';
+    var4 = 'modules/screen/native/useBaseAppContainerDimensions.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function useAppContainerDimensions() {
+    var4 = function useBaseAppContainerDimensions() {
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
         var3 = 1;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['default'] = var4;
-    var2 = function getAppContainerDimensions() {
+    var2 = function getBaseAppContainerDimensions() {
         var4 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 1;
@@ -95,6 +95,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['height'] = var2;
         return var1;
     };
-    var3['getAppContainerDimensions'] = var2;
+    var3['getBaseAppContainerDimensions'] = var2;
     return var1;
 })();

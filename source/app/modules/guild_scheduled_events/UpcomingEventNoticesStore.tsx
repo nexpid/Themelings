@@ -290,13 +290,13 @@ case 16:
             var4 = var4.COMPLETED;
             var3 = var5 !== var4;
 case 15:
-            if(var3) { _fun0004_ip = 5; continue _fun0004 }
+            if(var3) { _fun0004_ip = 3; continue _fun0004 }
 case 17:
             var3 = _closure1_slot14;
             var2 = var1.id;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
-case 5:
+case 3:
             var1 = undefined;
             return var1;
         }

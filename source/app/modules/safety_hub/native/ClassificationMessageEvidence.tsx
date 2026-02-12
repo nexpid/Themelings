@@ -1,95 +1,97 @@
 // app/modules/safety_hub/native/ClassificationMessageEvidence.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var9;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
+    var4 = var9.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var8 = var6[var4];
+    var7 = var6[var4];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var8);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.View;
-    var _closure1_slot5 = var8;
-    var8 = var4.findNodeHandle;
-    var _closure1_slot6 = var8;
-    var8 = var4.Image;
-    var _closure1_slot7 = var8;
-    var4 = var4.ActivityIndicator;
-    var _closure1_slot8 = var4;
+    var7 = var4.View;
+    var _closure1_slot5 = var7;
+    var7 = var4.findNodeHandle;
+    var _closure1_slot6 = var7;
+    var7 = var4.Image;
+    var _closure1_slot7 = var7;
+    var8 = var4.ActivityIndicator;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var4 = var9.bind(var1)(var4);
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot10 = var4;
+    var4 = var9.bind(var1)(var4);
+    var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot11 = var4;
+    var4 = var9.bind(var1)(var4);
+    var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.DEFAULT_MEDIA_MAX_WIDTH;
-    var _closure1_slot12 = var8;
-    var8 = var4.DEFAULT_MEDIA_MAX_HEIGHT;
-    var _closure1_slot13 = var8;
-    var8 = var4.VIDEO_PLACEHOLDER_WIDTH;
-    var _closure1_slot14 = var8;
-    var8 = var4.VIDEO_PLACEHOLDER_HEIGHT;
-    var _closure1_slot15 = var8;
+    var7 = var4.DEFAULT_MEDIA_MAX_WIDTH;
+    var _closure1_slot11 = var7;
+    var7 = var4.DEFAULT_MEDIA_MAX_HEIGHT;
+    var _closure1_slot12 = var7;
+    var7 = var4.VIDEO_PLACEHOLDER_WIDTH;
+    var _closure1_slot13 = var7;
+    var7 = var4.VIDEO_PLACEHOLDER_HEIGHT;
+    var _closure1_slot14 = var7;
     var4 = var4.VIDEO_PLACEHOLDER_FILENAME;
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageTypes;
-    var _closure1_slot17 = var4;
+    var _closure1_slot16 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot18 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot17 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var4 = 9;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var7 = var4.prototype;
-    var7 = Object.create(var7, {constructor: {value: var4}});
-    var13 = var7;
-    var4 = new var13[var4](var12);
-    var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot20 = var4;
+    var4 = var9.bind(var1)(var4);
+    var9 = var4.prototype;
+    var9 = Object.create(var9, {constructor: {value: var4}});
+    var15 = var9;
+    var4 = new var15[var4](var14);
+    var4 = var4 instanceof Object ? var4 : var9;
+    var _closure1_slot19 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
     var4 = {};
-    var9 = {'width': 0, 'height': 0};
-    var4['dummyVideoAttachments'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var11 = {'width': 0, 'height': 0};
+    var4['dummyVideoAttachments'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot20 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
     var _closure1_slot21 = var4;
     var4 = 23;
     var4 = var6[var4];
@@ -102,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var2 = var1.flaggedContent;
-            var1 = _closure1_slot21;
+            var1 = _closure1_slot20;
             var5 = undefined;
             var13 = var1.bind(var5)();
             var4 = _closure1_slot0;
@@ -111,11 +113,11 @@ case 0:
             var1 = var3[var14];
             var9 = var4.bind(var5)(var1);
             var7 = var9.useStateFromStores;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             var6 = new Array(1);
             var6[0] = var1;
             var1 = function() {
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -148,7 +150,7 @@ case 0:
             var3 = var3[var14];
             var12 = var4.bind(var5)(var3);
             var7 = var12.useStateFromStores;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var4 = new Array(1);
             var4[0] = var3;
             var3 = function() {
@@ -159,7 +161,7 @@ case 0:
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
                 var2 = var3.isThemeLight;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot8;
                 var1 = var1.theme;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -201,11 +203,11 @@ case 4:
             var4 = var4[var14];
             var16 = var9.bind(var5)(var4);
             var14 = var16.useStateFromStores;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot10;
             var9 = new Array(1);
             var9[0] = var4;
             var4 = function() {
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = var2.getUsername;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -269,16 +271,16 @@ case 8:
                         var12 = var2;
                         var11 = var5;
                         var7 = copyDataProperties(var12, var11);
-                        var10 = _closure1_slot14;
+                        var10 = _closure1_slot13;
                         var7 = 'width';
                         var2[var7] = var10;
-                        var10 = _closure1_slot15;
+                        var10 = _closure1_slot14;
                         var7 = 'height';
                         var2[var7] = var10;
                         var7 = _closure2_slot5;
                         var7 = var7.uri;
                         var2[var9] = var7;
-                        var7 = _closure1_slot16;
+                        var7 = _closure1_slot15;
                         var2[var8] = var7;
                         var1 = var2;
 case 7:
@@ -300,7 +302,7 @@ case 11:
 case 10:
                         if(!(var5 == var9)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                        var9 = _closure1_slot12;
+                        var9 = _closure1_slot11;
 case 12:
                         var8 = 'width';
                         var2[var8] = var9;
@@ -315,7 +317,7 @@ case 15:
 case 14:
                         if(!(var5 == var4)) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                        var4 = _closure1_slot13;
+                        var4 = _closure1_slot12;
 case 16:
                         var3 = 'height';
                         var2[var3] = var4;
@@ -384,9 +386,9 @@ case 18:
                         if(!var8) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
                         var8 = {};
-                        var9 = _closure1_slot14;
+                        var9 = _closure1_slot13;
                         var8['width'] = var9;
-                        var9 = _closure1_slot15;
+                        var9 = _closure1_slot14;
                         var8['height'] = var9;
                         var9 = _closure2_slot5;
                         var9 = var9.uri;
@@ -411,7 +413,7 @@ case 23:
 case 22:
                         if(!(var5 == var7)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-                        var7 = _closure1_slot12;
+                        var7 = _closure1_slot11;
 case 24:
                         var1['width'] = var7;
                         var7 = _closure2_slot3;
@@ -425,7 +427,7 @@ case 26:
 case 13:
                         if(!(var5 == var3)) { _fun0003_ip = 27; continue _fun0003 }
 case 12:
-                        var3 = _closure1_slot13;
+                        var3 = _closure1_slot12;
 case 27:
                         var1['height'] = var3;
                         var3 = 'attachment';
@@ -598,12 +600,12 @@ case 31:
             var1 = null;
             if(!(var6 !== var3)) { _fun0001_ip = 32; continue _fun0001 }
 case 30:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = _closure1_slot5;
             if(!(!(var2 > var6))) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
             var2 = {};
-            var10 = _closure1_slot18;
+            var10 = _closure1_slot17;
             var23 = _closure1_slot1;
             var25 = _closure1_slot2;
             var6 = 19;
@@ -621,7 +623,7 @@ case 34:
             var7 = var25[var7];
             var9 = var23.bind(var5)(var7);
             var7 = {};
-            var15 = _closure1_slot20;
+            var15 = _closure1_slot19;
             var7['rowGenerator'] = var15;
             var16 = _closure1_slot0;
             var15 = 21;
@@ -649,7 +651,7 @@ case 34:
             var15['timestamp'] = var22;
             var22 = '1';
             var15['channel_id'] = var22;
-            var22 = _closure1_slot17;
+            var22 = _closure1_slot16;
             var22 = var22.DEFAULT;
             var15['type'] = var22;
             if(!(var20 == var19)) { _fun0001_ip = 35; continue _fun0001 }
@@ -671,12 +673,10 @@ case 35:
             _fun0001_ip = 37; continue _fun0001;
 case 33:
             var6 = {};
-            var10 = _closure1_slot18;
-            var9 = _closure1_slot8;
-            var7 = {};
-            var9 = var10.bind(var5)(var9, var7);
+            var9 = _closure1_slot21;
             var7 = new Array(2);
             var7[0] = var9;
+            var10 = _closure1_slot17;
             var9 = _closure1_slot5;
             var8 = {};
             var13 = var13.dummyVideoAttachments;
@@ -701,7 +701,7 @@ case 33:
             var11 = function(arg1, arg2) {
                 var7 = arg1;
                 var _closure3_slot0 = var7;
-                var5 = _closure1_slot18;
+                var5 = _closure1_slot17;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 18;

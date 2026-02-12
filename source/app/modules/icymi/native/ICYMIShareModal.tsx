@@ -331,22 +331,32 @@ case 8:
 case 0:
             var1 = arg1;
             var26 = var1.title;
-            var _closure2_slot0 = var26;
             var14 = var1.originDestinationId;
             var2 = var1.linkText;
-            var _closure2_slot1 = var2;
+            var _closure2_slot0 = var2;
             var18 = var1.render;
-            var _closure2_slot2 = var18;
+            var _closure2_slot1 = var18;
             var2 = var1.forwardToChannel;
-            var _closure2_slot3 = var2;
+            var _closure2_slot2 = var2;
             var1 = var1.onShare;
+            var _closure2_slot3 = var1;
+            var3 = _closure1_slot13;
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var1 = 31;
+            var1 = var25[var1];
+            var4 = undefined;
+            var1 = var24.bind(var4)(var1);
+            var2 = var1.GenericHeaderTitle;
+            var1 = {};
+            var1['title'] = var26;
+            var1 = var3.bind(var4)(var2, var1);
             var _closure2_slot4 = var1;
             var3 = _closure1_slot5;
             var2 = var3.useState;
             var1 = new Array(0);
             var2 = var2.bind(var3)(var1);
             var1 = _closure1_slot3;
-            var4 = undefined;
             var5 = 2;
             var3 = var1.bind(var4)(var2, var5);
             var22 = 0;
@@ -378,7 +388,7 @@ case 0:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 31;
+                var1 = 32;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -405,7 +415,7 @@ case 13:
                             var3 = undefined;
                             var2 = true;
                             var2 = var5.bind(var3)(var2);
-                            var2 = _closure2_slot2;
+                            var2 = _closure2_slot1;
                             var6 = null;
                             var2 = var6 == var2;
                             if(var2) { _fun0004_ip = 14; continue _fun0004 }
@@ -422,7 +432,7 @@ case 17:
                             var10 = var11.map;
                             var12 = _closure1_slot0;
                             var13 = _closure1_slot2;
-                            var2 = 32;
+                            var2 = 33;
                             var2 = var13[var2];
                             var2 = var12.bind(var3)(var2);
                             var2 = var2.getOrResolveChannelIdFromDestinationId;
@@ -447,7 +457,7 @@ case 21:
                             var10 = var11.filter;
                             var12 = _closure1_slot0;
                             var8 = _closure1_slot2;
-                            var9 = 33;
+                            var9 = 34;
                             var9 = var8[var9];
                             var9 = var12.bind(var3)(var9);
                             var9 = var9.isNotNullish;
@@ -477,11 +487,11 @@ case 25:
                                             var5 = 0;
                                             if(!(!(var6 > var5))) { _fun0005_ip = 26; continue _fun0005 }
 case 24:
-                                            var8 = _closure2_slot1;
+                                            var8 = _closure2_slot0;
                                             _fun0005_ip = 27; continue _fun0005;
 case 26:
                                             var10 = _closure5_slot0;
-                                            var9 = _closure2_slot1;
+                                            var9 = _closure2_slot0;
                                             var3 = global;
                                             var3 = var3.HermesInternal;
                                             var6 = var3.concat;
@@ -491,20 +501,20 @@ case 26:
 case 27:
                                             var6 = _closure1_slot1;
                                             var5 = _closure1_slot2;
-                                            var3 = 34;
+                                            var3 = 35;
                                             var5 = var5[var3];
                                             var3 = undefined;
                                             var6 = var6.bind(var3)(var5);
                                             var5 = var6.parse;
                                             var8 = var5.bind(var6)(var4, var8);
-                                            var5 = _closure2_slot3;
+                                            var5 = _closure2_slot2;
                                             if(!(var7 != var5)) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
-                                            var5 = _closure2_slot3;
+                                            var5 = _closure2_slot2;
                                             var5 = var5.bind(var3)(var4);
                                             _fun0005_ip = 30; continue _fun0005;
 case 28:
-                                            var5 = _closure2_slot2;
+                                            var5 = _closure2_slot1;
                                             var5 = var7 != var5;
                                             if(!var5) { _fun0005_ip = 31; continue _fun0005 }
 case 32:
@@ -516,7 +526,7 @@ case 31:
 case 34:
                                             var7 = _closure1_slot1;
                                             var11 = _closure1_slot2;
-                                            var6 = 35;
+                                            var6 = 36;
                                             var5 = var11[var6];
                                             var13 = var7.bind(var3)(var5);
                                             var12 = var13.addFile;
@@ -528,13 +538,13 @@ case 34:
                                             var14['uri'] = var15;
                                             var14['originalUri'] = var15;
                                             var16 = _closure1_slot0;
-                                            var15 = 36;
+                                            var15 = 37;
                                             var15 = var11[var15];
                                             var17 = var16.bind(var3)(var15);
                                             var15 = var17.v4;
                                             var15 = var15.bind(var17)();
                                             var14['id'] = var15;
-                                            var15 = 37;
+                                            var15 = 38;
                                             var15 = var11[var15];
                                             var15 = var16.bind(var3)(var15);
                                             var15 = var15.UploadPlatform;
@@ -561,7 +571,7 @@ case 34:
 case 33:
                                             var6 = _closure1_slot1;
                                             var7 = _closure1_slot2;
-                                            var5 = 38;
+                                            var5 = 39;
                                             var5 = var7[var5];
                                             var7 = var6.bind(var3)(var5);
                                             var6 = var7.sendMessage;
@@ -574,7 +584,7 @@ case 33:
                                             var2 = function onAttachmentUploadError(arg1, arg2, arg3) {
                                                 var3 = _closure1_slot0;
                                                 var2 = _closure1_slot2;
-                                                var1 = 39;
+                                                var1 = 40;
                                                 var2 = var2[var1];
                                                 var1 = undefined;
                                                 var4 = var3.bind(var1)(var2);
@@ -634,15 +644,15 @@ case 22:
                             var7 = var7.bind(var3)();
                             var7 = var9.bind(var10)(var7);
                             var7 = _closure1_slot1;
-                            var5 = 31;
+                            var5 = 32;
                             var5 = var8[var5];
                             var7 = var7.bind(var3)(var5);
                             var5 = var7.pop;
                             var5 = var5.bind(var7)();
-                            var5 = _closure2_slot4;
+                            var5 = _closure2_slot3;
                             if(!(var6 != var5)) { _fun0004_ip = 16; continue _fun0004 }
 case 38:
-                            var4 = _closure2_slot4;
+                            var4 = _closure2_slot3;
                             var4 = var4.bind(var3)();
 case 16:
                             return var3;
@@ -672,8 +682,7 @@ case 12:
             var1 = _closure1_slot15;
             var15 = var1.bind(var4)();
             var2 = _closure1_slot1;
-            var25 = _closure1_slot2;
-            var1 = 40;
+            var1 = 41;
             var1 = var25[var1];
             var1 = var2.bind(var4)(var1);
             var13 = var1.bind(var4)();
@@ -696,7 +705,7 @@ case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 41;
+                    var2 = 42;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var4.bind(var2)(var3);
@@ -725,32 +734,20 @@ case 26:
             var15 = var15.headerContainer;
             var5['style'] = var15;
             var20 = _closure1_slot13;
-            var24 = _closure1_slot0;
-            var15 = 42;
+            var15 = 43;
             var15 = var25[var15];
             var15 = var24.bind(var4)(var15);
             var19 = var15.Header;
             var15 = {};
             var15['title'] = var26;
             var21 = function headerTitle() {
-                var4 = _closure1_slot13;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 43;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.GenericHeaderTitle;
-                var1 = {};
-                var5 = _closure2_slot0;
-                var1['title'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot4;
                 return var1;
             };
             var15['headerTitle'] = var21;
             var21 = 'center';
             var15['headerTitleAlign'] = var21;
-            var21 = 41;
+            var21 = 42;
             var21 = var25[var21];
             var24 = var24.bind(var4)(var21);
             var21 = var24.isIOS;
@@ -1165,8 +1162,21 @@ case 0:
             var9 = var1.item;
             var _closure2_slot0 = var9;
             var5 = var1.onShare;
-            var4 = _closure1_slot5;
-            var3 = var4.useMemo;
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var1 = 17;
+            var1 = var13[var1];
+            var4 = undefined;
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['item'] = var9;
+            var7 = true;
+            var1['disableInteractions'] = var7;
+            var1 = var3.bind(var4)(var2, var1);
+            var _closure2_slot1 = var1;
+            var7 = _closure1_slot5;
+            var3 = var7.useMemo;
             var1 = var9.guild_id;
             var2 = new Array(3);
             var2[0] = var1;
@@ -1179,7 +1189,7 @@ case 0:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -1200,17 +1210,15 @@ case 58:
                     return var1;
                 }
             };
-            var7 = var3.bind(var4)(var1, var2);
-            var4 = _closure1_slot13;
-            var3 = _closure1_slot18;
-            var2 = {};
+            var7 = var3.bind(var7)(var1, var2);
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot18;
+            var1 = {};
             var11 = var9.type;
             var12 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 18;
-            var8 = var8[var1];
-            var1 = undefined;
-            var8 = var12.bind(var1)(var8);
+            var8 = 19;
+            var8 = var13[var8];
+            var8 = var12.bind(var4)(var8);
             var8 = var8.GeneratedCandidateType;
             var8 = var8.TRENDING_TOPIC;
             if(!(var11 !== var8)) { _fun0009_ip = 60; continue _fun0009 }
@@ -1219,11 +1227,11 @@ case 61:
             var14 = _closure1_slot2;
             var8 = 14;
             var11 = var14[var8];
-            var11 = var13.bind(var1)(var11);
+            var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
             var11 = var12.string;
             var8 = var14[var8];
-            var8 = var13.bind(var1)(var8);
+            var8 = var13.bind(var4)(var8);
             var8 = var8.t;
             var8 = var8.NPVawp;
             var8 = var11.bind(var12)(var8);
@@ -1233,42 +1241,30 @@ case 60:
             var14 = _closure1_slot2;
             var10 = 14;
             var11 = var14[var10];
-            var11 = var13.bind(var1)(var11);
+            var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
             var11 = var12.string;
             var10 = var14[var10];
-            var10 = var13.bind(var1)(var10);
+            var10 = var13.bind(var4)(var10);
             var10 = var10.t;
             var10 = var10.F2Smni;
             var8 = var11.bind(var12)(var10);
 case 62:
-            var2['title'] = var8;
+            var1['title'] = var8;
             var8 = {};
             var10 = 'channel';
             var8['type'] = var10;
             var9 = var9.channel_id;
             var8['id'] = var9;
-            var2['originDestinationId'] = var8;
-            var2['linkText'] = var7;
+            var1['originDestinationId'] = var8;
+            var1['linkText'] = var7;
             var6 = function render() {
-                var4 = _closure1_slot13;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 19;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var5 = _closure2_slot0;
-                var1['item'] = var5;
-                var5 = true;
-                var1['disableInteractions'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot1;
                 return var1;
             };
-            var2['render'] = var6;
-            var2['onShare'] = var5;
-            var1 = var4.bind(var1)(var3, var2);
+            var1['render'] = var6;
+            var1['onShare'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };

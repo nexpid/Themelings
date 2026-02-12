@@ -150,7 +150,6 @@ case 9:
             var3 = var7.getTieredTenureBadgeData;
             var10 = var3.bind(var7)(var8);
 case 8:
-            _closure2_slot0 = var10;
             if(!(var1 == var10)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
             var11 = new Array(0);
@@ -179,10 +178,16 @@ case 12:
             var9 = var9.bind(var6)(var11, var8);
             var8 = 0;
             var11 = var9[var8];
-            _closure2_slot1 = var11;
+            _closure2_slot0 = var11;
             var8 = 1;
             var12 = var9[var8];
-            _closure2_slot2 = var12;
+            _closure2_slot1 = var12;
+            var13 = _closure1_slot8;
+            var9 = _closure1_slot10;
+            var8 = {};
+            var8['badge'] = var10;
+            var8 = var13.bind(var6)(var9, var8);
+            _closure2_slot2 = var8;
             var9 = _closure1_slot4;
             var8 = var9.useMemo;
             var4 = new Array(3);
@@ -218,7 +223,7 @@ case 12:
                 var1['description'] = var4;
                 var4 = 'bottom';
                 var1['position'] = var4;
-                var8 = _closure2_slot1;
+                var8 = _closure2_slot0;
                 var4 = 10;
                 var4 = var2[var4];
                 var4 = var6.bind(var5)(var4);
@@ -227,7 +232,7 @@ case 12:
                 var4 = var8 === var4;
                 var1['visible'] = var4;
                 var4 = function onDismiss() {
-                    var3 = _closure2_slot2;
+                    var3 = _closure2_slot1;
                     var1 = _closure1_slot7;
                     var2 = var1.USER_DISMISS;
                     var1 = undefined;
@@ -236,18 +241,12 @@ case 12:
                 };
                 var1['onDismiss'] = var4;
                 var4 = function renderImgComponent() {
-                    var4 = _closure1_slot8;
-                    var3 = _closure1_slot10;
-                    var2 = {};
-                    var1 = _closure2_slot0;
-                    var2['badge'] = var1;
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3, var2);
+                    var1 = _closure2_slot2;
                     return var1;
                 };
                 var1['renderImgComponent'] = var4;
                 var3 = function onButtonPress() {
-                    var3 = _closure2_slot2;
+                    var3 = _closure2_slot1;
                     var1 = _closure1_slot7;
                     var2 = var1.TAKE_ACTION;
                     var1 = undefined;

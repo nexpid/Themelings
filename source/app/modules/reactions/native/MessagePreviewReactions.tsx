@@ -27,10 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot4 = var4;
+    var8 = var4.jsx;
+    var _closure1_slot4 = var8;
     var4 = new Array(0);
     var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MessageReactionsEmpty;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot6 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -84,10 +91,10 @@ case 4:
             var9 = var1.bind(var4)(var11);
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var2 = var7[var1];
             var3 = var5.bind(var4)(var2);
-            var2 = 5;
+            var2 = 6;
             var2 = var7[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.MESSAGE_PREVIEW_REACTIONS;
@@ -104,21 +111,13 @@ case 4:
             var5 = 0;
             if(!(!(var7 > var5))) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var8 = _closure1_slot4;
-            var7 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var5 = 6;
-            var5 = var13[var5];
-            var5 = var7.bind(var4)(var5);
-            var7 = var5.MessageReactionsEmpty;
-            var5 = {};
-            var5 = var8.bind(var4)(var7, var5);
+            var5 = _closure1_slot6;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 6;
+            var6 = 4;
             var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.MessageReactionsContent;

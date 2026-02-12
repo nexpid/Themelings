@@ -8,14 +8,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function getScreens(arg1, arg2, arg3, arg4, arg5) {
-        var1 = arg2;
-        var _closure2_slot0 = var1;
-        var1 = arg3;
-        var _closure2_slot1 = var1;
         var1 = arg4;
-        var _closure2_slot2 = var1;
+        var _closure2_slot0 = var1;
         var1 = function handleClose() {
-            var2 = _closure2_slot2;
+            var2 = _closure2_slot0;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var3 = _closure1_slot1;
@@ -27,7 +23,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)();
             return var1;
         };
-        var _closure2_slot3 = var1;
+        var _closure2_slot1 = var1;
+        var6 = _closure1_slot5;
+        var5 = _closure1_slot7;
+        var3 = {};
+        var7 = arg2;
+        var3['webviewUrl'] = var7;
+        var7 = arg3;
+        var3['onComplete'] = var7;
+        var3['onClose'] = var1;
+        var1 = undefined;
+        var1 = var6.bind(var1)(var5, var3);
+        var _closure2_slot2 = var1;
         var1 = {};
         var2 = _closure1_slot6;
         var3 = var2.VERIFY_AGE;
@@ -47,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8.bind(var3)(var1);
             var2 = var1.HeaderActionButton;
             var1 = {};
-            var5 = _closure2_slot3;
+            var5 = _closure2_slot1;
             var1['onPress'] = var5;
             var5 = 11;
             var6 = var9[var5];
@@ -65,17 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2['headerLeft'] = var5;
         var4 = function render() {
-            var4 = _closure1_slot5;
-            var3 = _closure1_slot7;
-            var2 = {};
-            var5 = _closure2_slot0;
-            var2['webviewUrl'] = var5;
-            var5 = _closure2_slot1;
-            var2['onComplete'] = var5;
-            var1 = _closure2_slot3;
-            var2['onClose'] = var1;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3, var2);
+            var1 = _closure2_slot2;
             return var1;
         };
         var2['render'] = var4;

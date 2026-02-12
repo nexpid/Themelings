@@ -104,9 +104,8 @@ case 0:
                 var7 = {};
                 var9 = function CONNECTION_OPEN(arg1) {
                     var3 = _closure3_slot0;
-                    var2 = var3.setExperimentAssignments;
+                    var2 = var3.handleConnectionOpen;
                     var1 = arg1;
-                    var1 = var1.apexExperiments;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
@@ -120,6 +119,14 @@ case 0:
                     return var1;
                 };
                 var7['CONNECTION_OPEN_STATE_UPDATE'] = var9;
+                var9 = function GUILD_CREATE(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleGuildCreate;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var7['GUILD_CREATE'] = var9;
                 var9 = function APEX_EXPERIMENT_OVERRIDE_CREATE(arg1) {
                     var1 = arg1;
                     var4 = _closure3_slot0;
@@ -273,14 +280,14 @@ case 8:
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot7;
+        var5 = _closure1_slot7;
         var3 = undefined;
-        var5 = arg1;
-        var5 = var6.bind(var3)(var4, var5);
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var6 = 'initialize';
-        var5['key'] = var6;
+        var1 = 'initialize';
+        var5['key'] = var1;
         var1 = function value(arg1) {
             var5 = this;
             var3 = var5.waitFor;
@@ -300,8 +307,68 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(1);
+        var1 = new Array(3);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'handleConnectionOpen';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var1 = arg1;
+            var4 = this;
+            var6 = var1.guilds;
+            var5 = var6.reduce;
+            var3 = function(arg1, arg2) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = arg2;
+                    var4 = var2.experiments;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                    var3 = var2.id;
+                    var2 = var2.experiments;
+                    var1[var3] = var2;
+case 9:
+                    return var1;
+                }
+            };
+            var2 = {};
+            var3 = var5.bind(var6)(var3, var2);
+            var2 = var4.setExperimentAssignments;
+            var1 = var1.apexExperiments;
+            var1 = var2.bind(var4)(var1, var3);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'handleGuildCreate';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var1 = arg1;
+                var3 = this;
+                var2 = var1.guild;
+                var4 = var2.experiments;
+                var2 = null;
+                if(!(var2 != var4)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                var2 = {};
+                var1 = var1.guild;
+                var1 = var1.id;
+                var2[var1] = var4;
+                var1 = var3.setGuildExperimentAssignments;
+                var1 = var1.bind(var3)(var2);
+                return var1;
+case 11:
+                var1 = true;
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

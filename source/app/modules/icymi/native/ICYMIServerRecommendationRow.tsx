@@ -169,7 +169,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function FeaturedServer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -416,7 +416,7 @@ case 9:
             var5 = var9.featuredServerContainer;
             var1['style'] = var5;
             var7 = _closure1_slot14;
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot19;
             var5 = {};
             var5['guild'] = var20;
             var6 = var7.bind(var4)(var6, var5);
@@ -499,7 +499,7 @@ case 32:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function RecommendedGuildsRow(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -521,7 +521,7 @@ case 0:
                     if(var3) { _fun0006_ip = 33; continue _fun0006 }
 case 34:
                     var5 = _closure1_slot14;
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot20;
                     var3 = {};
                     var3['guild'] = var2;
                     var2 = undefined;
@@ -575,7 +575,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -629,16 +629,16 @@ case 35:
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot14 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot14 = var8;
     var7 = var4.jsxs;
     var _closure1_slot15 = var7;
     var4 = var4.Fragment;
     var _closure1_slot16 = var4;
     var4 = 9;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createICYMIStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createICYMIStyles;
     var4 = function(arg1) {
         var7 = arg1;
         var1 = {};
@@ -731,8 +731,15 @@ case 35:
         var1['featuredServerContainer'] = var2;
         return var1;
     };
-    var4 = var7.bind(var8)(var4);
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot17 = var4;
+    var4 = 23;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Separator;
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot18 = var4;
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -758,10 +765,10 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var15 = var3.bind(var4)(var2, var1);
+            var13 = var3.bind(var4)(var2, var1);
             var1 = _closure1_slot17;
-            var17 = var1.bind(var5)();
-            var3 = var15.length;
+            var15 = var1.bind(var5)();
+            var3 = var13.length;
             var2 = 0;
             var1 = null;
             if(!(var2 !== var3)) { _fun0007_ip = 37; continue _fun0007 }
@@ -769,70 +776,64 @@ case 38:
             var4 = _closure1_slot15;
             var3 = _closure1_slot16;
             var2 = {};
-            var9 = _closure1_slot6;
+            var8 = _closure1_slot6;
             var6 = {};
-            var8 = var17.container;
-            var6['style'] = var8;
-            var14 = _closure1_slot14;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var12 = 21;
-            var11 = var10[var12];
-            var11 = var8.bind(var5)(var11);
-            var13 = var11.Text;
-            var11 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
-            var16 = var17.title;
-            var11['style'] = var16;
-            var16 = 19;
-            var18 = var10[var16];
-            var18 = var8.bind(var5)(var18);
-            var20 = var18.intl;
+            var9 = var15.container;
+            var6['style'] = var9;
+            var12 = _closure1_slot14;
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var10 = 21;
+            var9 = var18[var10];
+            var9 = var17.bind(var5)(var9);
+            var11 = var9.Text;
+            var9 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'mobile-text-heading-primary'};
+            var14 = var15.title;
+            var9['style'] = var14;
+            var14 = 19;
+            var16 = var18[var14];
+            var16 = var17.bind(var5)(var16);
+            var20 = var16.intl;
             var19 = var20.string;
-            var18 = var10[var16];
-            var18 = var8.bind(var5)(var18);
-            var18 = var18.t;
-            var18 = var18.lv1tce;
-            var18 = var19.bind(var20)(var18);
-            var11['children'] = var18;
-            var13 = var14.bind(var5)(var13, var11);
-            var11 = new Array(3);
-            var11[0] = var13;
-            var14 = _closure1_slot14;
-            var12 = var10[var12];
-            var12 = var8.bind(var5)(var12);
-            var13 = var12.Text;
-            var12 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'text-muted'};
-            var17 = var17.subtitle;
-            var12['style'] = var17;
-            var17 = var10[var16];
-            var17 = var8.bind(var5)(var17);
-            var18 = var17.intl;
-            var17 = var18.string;
-            var16 = var10[var16];
-            var16 = var8.bind(var5)(var16);
+            var16 = var18[var14];
+            var16 = var17.bind(var5)(var16);
             var16 = var16.t;
-            var16 = var16.x4OezN;
-            var16 = var17.bind(var18)(var16);
-            var12['children'] = var16;
-            var12 = var14.bind(var5)(var13, var12);
-            var11[1] = var12;
-            var14 = _closure1_slot14;
-            var13 = _closure1_slot20;
-            var12 = {};
-            var12['discoverableGuilds'] = var15;
-            var12 = var14.bind(var5)(var13, var12);
-            var11[2] = var12;
-            var6['children'] = var11;
-            var9 = var4.bind(var5)(var9, var6);
+            var16 = var16.lv1tce;
+            var16 = var19.bind(var20)(var16);
+            var9['children'] = var16;
+            var11 = var12.bind(var5)(var11, var9);
+            var9 = new Array(3);
+            var9[0] = var11;
+            var12 = _closure1_slot14;
+            var10 = var18[var10];
+            var10 = var17.bind(var5)(var10);
+            var11 = var10.Text;
+            var10 = {'style': null, 'variant': 'heading-sm/normal', 'color': 'text-muted'};
+            var15 = var15.subtitle;
+            var10['style'] = var15;
+            var15 = var18[var14];
+            var15 = var17.bind(var5)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
+            var14 = var18[var14];
+            var14 = var17.bind(var5)(var14);
+            var14 = var14.t;
+            var14 = var14.x4OezN;
+            var14 = var15.bind(var16)(var14);
+            var10['children'] = var14;
+            var10 = var12.bind(var5)(var11, var10);
+            var9[1] = var10;
+            var12 = _closure1_slot14;
+            var11 = _closure1_slot21;
+            var10 = {};
+            var10['discoverableGuilds'] = var13;
+            var10 = var12.bind(var5)(var11, var10);
+            var9[2] = var10;
+            var6['children'] = var9;
+            var8 = var4.bind(var5)(var8, var6);
             var6 = new Array(2);
-            var6[0] = var9;
-            var9 = _closure1_slot14;
-            var7 = 23;
-            var7 = var10[var7];
-            var7 = var8.bind(var5)(var7);
-            var8 = var7.Separator;
-            var7 = {};
-            var7 = var9.bind(var5)(var8, var7);
+            var6[0] = var8;
+            var7 = _closure1_slot18;
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

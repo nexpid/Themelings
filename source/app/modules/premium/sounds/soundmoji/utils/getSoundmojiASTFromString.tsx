@@ -196,7 +196,7 @@ case 29:
             var12 = var10 == var11;
             var10 = undefined;
             if(var12) { _fun0002_ip = 30; continue _fun0002 }
-case 15:
+case 10:
             var10 = var11.emojiId;
 case 30:
             var7['id'] = var10;

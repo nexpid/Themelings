@@ -1025,11 +1025,11 @@ case 64:
 case 37:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
                             if(var6) { _fun0012_ip = 65; continue _fun0012 }
-case 66: // try_end0
+case 44: // try_end0
                             _fun0012_ip = 62; continue _fun0012;
 case 65:
                             return var5;
-case 67: // catch_target0
+case 66: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var6 = _closure1_slot0;
                             var8 = _closure1_slot2;
@@ -1149,7 +1149,7 @@ case 0:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.isAndroid;
                     var2 = var2.bind(var3)();
-                    if(!var2) { _fun0013_ip = 12; continue _fun0013 }
+                    if(!var2) { _fun0013_ip = 67; continue _fun0013 }
 case 48:
                     var9 = function handleGPlayUpdatePurchaseAction(arg1) {
                         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -1190,7 +1190,7 @@ case 68:
                     var3 = var8.subscribe;
                     var2 = 'GPLAY_UPDATE_PURCHASE_STATE';
                     var2 = var3.bind(var8)(var2, var9);
-case 12:
+case 67:
                     var3 = _closure2_slot3;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;

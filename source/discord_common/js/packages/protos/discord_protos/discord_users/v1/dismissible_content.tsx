@@ -1934,6 +1934,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['COLLECTIBLES_SHOP_MARVEL_RIVALS_ORBS_REWARD'] = var2;
     var1 = 'COLLECTIBLES_SHOP_MARVEL_RIVALS_ORBS_REWARD';
     var4[var2] = var1;
+    var2 = 684;
+    var4['EXPIRING_POWERUP_COACHMARK'] = var2;
+    var1 = 'EXPIRING_POWERUP_COACHMARK';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

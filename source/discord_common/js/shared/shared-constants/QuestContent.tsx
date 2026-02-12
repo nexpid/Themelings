@@ -198,6 +198,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ACTIVITY_SUGGESTION'] = var6;
     var2 = 'ACTIVITY_SUGGESTION';
     var4[var6] = var2;
+    var6 = 47;
+    var4['QUEST_HOME_ENTRYPOINT'] = var6;
+    var2 = 'QUEST_HOME_ENTRYPOINT';
+    var4[var6] = var2;
+    var6 = 48;
+    var4['QUEST_HOME_ENTRYPOINT_THEMED'] = var6;
+    var2 = 'QUEST_HOME_ENTRYPOINT_THEMED';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

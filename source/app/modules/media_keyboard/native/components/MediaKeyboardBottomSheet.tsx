@@ -211,7 +211,7 @@ case 4:
         var3['__workletHash'] = var2;
         var2 = _closure1_slot12;
         var3['__initData'] = var2;
-        var2 = function v(arg1, arg2) {
+        var2 = function x(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var3 = arg1;
@@ -307,6 +307,13 @@ case 9:
             }
         };
         var1 = var3.bind(var5)(var1, var2);
+        var1 = 17;
+        var1 = var16[var1];
+        var2 = var12.bind(var4)(var1);
+        var1 = var2.useLocalHorizontalSafeArea;
+        var1 = var1.bind(var2)();
+        var30 = var1.left;
+        var29 = var1.right;
         var3 = _closure1_slot10;
         var2 = _closure1_slot9;
         var1 = {};
@@ -315,6 +322,10 @@ case 9:
         var5 = var16[var5];
         var9 = var28.bind(var4)(var5);
         var5 = {};
+        var27 = {};
+        var27['marginLeft'] = var30;
+        var27['marginRight'] = var29;
+        var5['style'] = var27;
         var27 = 9;
         var27 = var16[var27];
         var27 = var28.bind(var4)(var27);
@@ -338,7 +349,7 @@ case 9:
         var32 = var5;
         var31 = var7;
         var11 = copyDataProperties(var32, var31);
-        var11 = 17;
+        var11 = 18;
         var11 = var16[var11];
         var11 = var12.bind(var4)(var11);
         var12 = var11.AccessibilityViewAnimated;
@@ -377,7 +388,7 @@ case 14:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -79,98 +79,108 @@ case 8:
         }
     };
     var _closure1_slot10 = var1;
-    var1 = function getCommonProperties(arg1, arg2, arg3) {
-        var5 = arg2;
-        var4 = _closure1_slot0;
-        var6 = _closure1_slot2;
+    var1 = function getCommonProperties(arg1, arg2, arg3, arg4) {
+        var5 = arg1;
+        var4 = arg2;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
         var1 = 8;
-        var1 = var6[var1];
+        var1 = var7[var1];
         var3 = undefined;
-        var8 = var4.bind(var3)(var1);
-        var7 = var8.getOrRefreshAdSession;
-        var1 = arg3;
-        var1 = var7.bind(var8)(var1);
-        var9 = var1.uuid;
+        var9 = var6.bind(var3)(var1);
+        var8 = var9.getOrRefreshAdSession;
+        var1 = arg4;
+        var1 = var8.bind(var9)(var1);
+        var10 = var1.uuid;
         var1 = {};
-        var1['client_ad_session_id'] = var9;
-        var8 = _closure1_slot10;
+        var1['client_ad_session_id'] = var10;
+        var9 = _closure1_slot10;
         var2 = 9;
-        var7 = var6[var2];
-        var10 = var4.bind(var3)(var7);
-        var7 = var10.isBillableQuestContent;
-        var7 = var7.bind(var10)(var5);
-        var7 = var8.bind(var3)(var9, var7);
-        var1['billing_session_id'] = var7;
-        var2 = var6[var2];
-        var4 = var4.bind(var3)(var2);
-        var3 = var4.getAdDecisionData;
-        var2 = arg1;
-        var11 = var3.bind(var4)(var2, var5);
-        var12 = var1;
-        var2 = copyDataProperties(var12, var11);
+        var8 = var7[var2];
+        var11 = var6.bind(var3)(var8);
+        var8 = var11.isBillableQuestContent;
+        var8 = var8.bind(var11)(var4);
+        var8 = var9.bind(var3)(var10, var8);
+        var1['billing_session_id'] = var8;
+        var1['ad_content_id'] = var5;
+        var8 = arg3;
+        var1['creative_type'] = var8;
+        var2 = var7[var2];
+        var3 = var6.bind(var3)(var2);
+        var2 = var3.getAdDecisionData;
+        var12 = var2.bind(var3)(var5, var4);
+        var13 = var1;
+        var2 = copyDataProperties(var13, var12);
         return var1;
     };
     var _closure1_slot11 = var1;
     var1 = function getCommonQuestProperties(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = arg1;
+            var3 = arg1;
             var1 = {};
-            var3 = var2.id;
-            var1['quest_id'] = var3;
+            var2 = var3.id;
+            var1['quest_id'] = var2;
             var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var4 = 10;
-            var4 = var7[var4];
-            var6 = undefined;
-            var9 = var5.bind(var6)(var4);
+            var4 = var6[var4];
+            var7 = undefined;
+            var9 = var5.bind(var7)(var4);
             var8 = var9.getQuestType;
-            var4 = var2.config;
+            var4 = var3.config;
             var4 = var8.bind(var9)(var4);
             var1['quest_type'] = var4;
-            var4 = var2.config;
+            var4 = var3.config;
             var4 = var4.application;
             var4 = var4.id;
             var1['game_id'] = var4;
-            var4 = var2.config;
+            var4 = var3.config;
             var4 = var4.application;
             var4 = var4.name;
             var1['game_name'] = var4;
             var4 = 11;
-            var4 = var7[var4];
-            var5 = var5.bind(var6)(var4);
+            var4 = var6[var4];
+            var5 = var5.bind(var7)(var4);
             var4 = var5.getAllApplicationIds;
-            var4 = var4.bind(var5)(var2);
+            var4 = var4.bind(var5)(var3);
             var5 = null;
             if(!(var5 == var4)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
             var4 = new Array(0);
 case 15:
             var1['application_ids'] = var4;
-            var5 = _closure1_slot11;
-            var4 = var2.id;
-            var3 = arg2;
-            var2 = arg3;
-            var11 = var5.bind(var6)(var4, var3, var2);
-            var12 = var1;
-            var2 = copyDataProperties(var12, var11);
+            var6 = _closure1_slot11;
+            var5 = var3.id;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 12;
+            var2 = var4[var2];
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.AdCreativeType;
+            var11 = var2.QUEST;
+            var12 = arg2;
+            var10 = arg3;
+            var14 = undefined;
+            var13 = var5;
+            var12 = var14[var6](var13, var12, var11, var10, var9);
+            var13 = var1;
+            var2 = copyDataProperties(var13, var12);
             return var1;
         }
     };
     var _closure1_slot12 = var1;
     var1 = function getCommonAdContentProperties(arg1, arg2, arg3, arg4) {
-        var6 = arg1;
         var1 = {};
-        var1['ad_content_id'] = var6;
-        var2 = arg2;
-        var1['creative_type'] = var2;
-        var5 = _closure1_slot11;
-        var4 = undefined;
-        var3 = arg3;
-        var2 = arg4;
-        var8 = var5.bind(var4)(var6, var3, var2);
-        var9 = var1;
-        var2 = copyDataProperties(var9, var8);
+        var7 = _closure1_slot11;
+        var12 = undefined;
+        var11 = arg1;
+        var10 = arg3;
+        var9 = arg2;
+        var8 = arg4;
+        var10 = var12[var7](var11, var10, var9, var8, var7);
+        var11 = var1;
+        var2 = copyDataProperties(var11, var10);
         return var1;
     };
     var _closure1_slot13 = var1;
@@ -187,7 +197,7 @@ case 18:
 case 17:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 12;
+            var3 = 13;
             var3 = var8[var3];
             var8 = var4.bind(var1)(var3);
             var4 = var8.isQuestPreviewToolEnabled;
@@ -219,7 +229,7 @@ case 7:
             var7 = _closure1_slot2;
             if(var2) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-            var2 = 14;
+            var2 = 15;
             var2 = var7[var2];
             var9 = var3.bind(var1)(var2);
             var8 = var9.track;
@@ -228,7 +238,7 @@ case 24:
             var2 = var8.bind(var9)(var6, var5, var2);
             _fun0003_ip = 22; continue _fun0003;
 case 23:
-            var2 = 13;
+            var2 = 14;
             var2 = var7[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.trackWithMetadata;
@@ -336,12 +346,12 @@ case 32:
                     var3 = {};
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 16;
                     var2 = var10[var2];
                     var7 = undefined;
                     var8 = var9.bind(var7)(var2);
                     var5 = var8.getAdUser;
-                    var2 = 16;
+                    var2 = 17;
                     var2 = var10[var2];
                     var9 = var9.bind(var7)(var2);
                     var2 = var9.getQuestContentName;
@@ -448,7 +458,7 @@ case 21:
                     var4 = {};
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var6 = 16;
+                    var6 = 17;
                     var6 = var14[var6];
                     var13 = var13.bind(var10)(var6);
                     var6 = var13.getContentProperties;
@@ -456,7 +466,7 @@ case 21:
                     var20 = var4;
                     var6 = copyDataProperties(var20, var19);
                     var13 = _closure1_slot1;
-                    var6 = 17;
+                    var6 = 18;
                     var6 = var14[var6];
                     var6 = var13.bind(var10)(var6);
                     var19 = var6.bind(var10)();
@@ -473,7 +483,7 @@ case 21:
 case 44:
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var11 = 18;
+                    var11 = 19;
                     var11 = var14[var11];
                     var13 = var13.bind(var10)(var11);
                     var11 = var13.isIOS;
@@ -491,7 +501,7 @@ case 43:
 case 47:
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var12 = 18;
+                    var12 = 19;
                     var12 = var14[var12];
                     var13 = var13.bind(var10)(var12);
                     var12 = var13.isAndroid;
@@ -505,7 +515,7 @@ case 46:
                     var4[var9] = var11;
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var8 = 19;
+                    var8 = 20;
                     var8 = var11[var8];
                     var9 = var9.bind(var10)(var8);
                     var8 = var9.v4;
@@ -626,7 +636,7 @@ case 60:
 case 62:
                     var18 = _closure1_slot0;
                     var20 = _closure1_slot2;
-                    var16 = 16;
+                    var16 = 17;
                     var16 = var20[var16];
                     var18 = var18.bind(var4)(var16);
                     var16 = var18.getQuestStatus;
@@ -819,7 +829,7 @@ case 67:
     var6 = new var16[var10](var15, var14);
     var6 = var6 instanceof Object ? var6 : var9;
     var _closure1_slot9 = var6;
-    var6 = 20;
+    var6 = 21;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -858,7 +868,7 @@ case 67:
         var6 = var1.prevMode;
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 16;
+        var1 = 17;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -886,7 +896,7 @@ case 67:
     var2 = function trackQuestEmbedFallbackViewed(arg1, arg2) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 13;
+        var1 = 14;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);

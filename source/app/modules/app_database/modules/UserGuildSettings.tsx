@@ -285,7 +285,7 @@ case 38:
                     return var2;
 case 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 40; continue _fun0004 }
+                    if(var5) { _fun0004_ip = 15; continue _fun0004 }
 case 9:
                     var6 = var3.performance;
                     var5 = var6.now;
@@ -302,7 +302,7 @@ case 9:
                     var3 = var15[var8](var14, var13, var12, var11, var10);
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 40:
+case 15:
                     return var2;
 case 36:
                     return var1;
@@ -345,8 +345,8 @@ case 0:
                 var4 = this;
                 var2 = var1.userGuildSettings;
                 var2 = var2.partial;
-                if(var2) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(var2) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 5;
@@ -357,7 +357,7 @@ case 42:
                 var3 = var2.bind(var3)(var5);
                 var2 = var3.delete;
                 var2 = var2.bind(var3)();
-case 41:
+case 40:
                 var3 = var4.write;
                 var2 = var1.userGuildSettings;
                 var2 = var2.entries;
@@ -395,23 +395,23 @@ case 0:
                         var1 = null;
                         var3 = var1 != var2;
                         var1 = -1;
-                        if(!var3) { _fun0007_ip = 43; continue _fun0007 }
-case 42:
+                        if(!var3) { _fun0007_ip = 42; continue _fun0007 }
+case 41:
                         var1 = var2;
-case 43:
+case 42:
                         return var1;
                     }
                 };
                 var3 = var7.bind(var8)(var3);
                 var5 = var4.bind(var5)(var3);
                 var3 = null;
-                if(!(var3 != var5)) { _fun0006_ip = 44; continue _fun0006 }
+                if(!(var3 != var5)) { _fun0006_ip = 43; continue _fun0006 }
 case 35:
                 var4 = var6.write;
                 var3 = var2.userGuildSettings;
                 var2 = arg2;
                 var2 = var4.bind(var6)(var3, var5, var2);
-case 44:
+case 43:
                 return var1;
             }
         };
@@ -440,8 +440,8 @@ case 0:
                 var9 = 'channel_overrides';
                 var8 = null;
                 var7 = 'dm-sentinel';
-                if(var3) { _fun0008_ip = 45; continue _fun0008 }
-case 46:
+                if(var3) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
                 var3 = var6.value;
                 var13 = {};
                 var14 = _closure1_slot6;
@@ -460,16 +460,16 @@ case 46:
                 var14 = var3.guild_id;
                 var15 = var8 != var14;
                 var3 = var7;
-                if(!var15) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
-                var3 = var14;
+                if(!var15) { _fun0008_ip = 46; continue _fun0008 }
 case 47:
+                var3 = var14;
+case 46:
                 var3 = var12.bind(var11)(var3, var13);
                 var12 = var10.bind(var1)();
                 var3 = var12.done;
                 var6 = var12;
-                if(!var3) { _fun0008_ip = 46; continue _fun0008 }
-case 45:
+                if(!var3) { _fun0008_ip = 45; continue _fun0008 }
+case 44:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var5];

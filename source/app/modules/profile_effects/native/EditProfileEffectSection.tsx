@@ -173,7 +173,7 @@ case 13:
             var5 = copyDataProperties(var19, var18);
             var7 = _closure1_slot9;
             var6 = _closure1_slot4;
-            var5 = {};
+            var5 = {'style': null, 'accessible': false, 'importantForAccessibility': 'no'};
             var10 = var15.profileEffect;
             var9 = new Array(2);
             var9[0] = var10;
@@ -433,12 +433,12 @@ case 26:
                         var3 = var3[var7];
                         var3 = var4.bind(var5)(var3);
                         var3 = var3.SHOP_ITEM;
-                        if(!(var2 !== var3)) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+                        if(!(var2 !== var3)) { _fun0006_ip = 13; continue _fun0006 }
+case 27:
                         var3 = _closure1_slot6;
                         var3 = var3.bind(var5)(var2);
-                        if(var3) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+                        if(var3) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                         var8 = _closure1_slot8;
                         var7 = _closure1_slot4;
                         var4 = {};
@@ -450,16 +450,16 @@ case 30:
                         var3 = arg2;
                         var3 = var8.bind(var5)(var7, var4, var3);
                         return var3;
-case 29:
+case 28:
                         var4 = _closure2_slot0;
                         var3 = null;
                         var3 = var3 == var4;
                         var10 = undefined;
-                        if(var3) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                        if(var3) { _fun0006_ip = 30; continue _fun0006 }
+case 5:
                         var3 = _closure2_slot0;
                         var10 = var3.skuId;
-case 31:
+case 30:
                         var9 = var2.skuId;
                         var7 = _closure1_slot8;
                         var4 = _closure1_slot11;
@@ -482,7 +482,7 @@ case 31:
                         var2 = var2.skuId;
                         var2 = var7.bind(var5)(var4, var3, var2);
                         return var2;
-case 27:
+case 13:
                         var7 = _closure1_slot8;
                         var3 = _closure1_slot0;
                         var9 = _closure1_slot2;

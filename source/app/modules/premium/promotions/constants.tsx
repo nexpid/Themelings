@@ -18,6 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['BOGO'] = var4;
     var2 = 'BOGO';
     var7[var4] = var2;
+    var4 = 2;
+    var7['THIRD_PARTY_DIRECT_FULFILLMENT'] = var4;
+    var2 = 'THIRD_PARTY_DIRECT_FULFILLMENT';
+    var7[var4] = var2;
     var4 = 3;
     var7['THIRD_PARTY_INBOUND'] = var4;
     var2 = 'THIRD_PARTY_INBOUND';

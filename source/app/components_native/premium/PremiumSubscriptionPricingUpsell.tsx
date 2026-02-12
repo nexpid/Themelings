@@ -73,34 +73,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot18 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot18 = var8;
     var7 = var4.Fragment;
     var _closure1_slot19 = var7;
     var4 = var4.jsxs;
     var _closure1_slot20 = var4;
     var4 = 11;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {};
-    var10 = 16;
-    var9['marginTop'] = var10;
-    var4['title'] = var9;
-    var9 = {};
-    var10 = 'center';
-    var9['alignItems'] = var10;
-    var4['pricingSection'] = var9;
-    var9 = {};
-    var10 = 'line-through';
-    var9['textDecorationLine'] = var10;
-    var4['originalPrice'] = var9;
-    var9 = {'lineHeight': 20, 'marginTop': 8, 'textAlign': 'center'};
-    var4['cardText'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {};
+    var11 = 16;
+    var10['marginTop'] = var11;
+    var4['title'] = var10;
+    var10 = {};
+    var11 = 'center';
+    var10['alignItems'] = var11;
+    var4['pricingSection'] = var10;
+    var10 = {};
+    var11 = 'line-through';
+    var10['textDecorationLine'] = var11;
+    var4['originalPrice'] = var10;
+    var10 = {'lineHeight': 20, 'marginTop': 8, 'textAlign': 'center'};
+    var4['cardText'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot21 = var4;
-    var4 = function PricingSubheadingCopy() {
+    var7 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot21;
@@ -695,6 +695,8 @@ case 8:
             return var1;
         }
     };
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
     var _closure1_slot22 = var4;
     var4 = 24;
     var4 = var6[var4];
@@ -745,10 +747,7 @@ case 0:
             var6 = null;
             if(!var8) { _fun0005_ip = 57; continue _fun0005 }
 case 58:
-            var9 = _closure1_slot18;
-            var8 = _closure1_slot22;
-            var7 = {};
-            var6 = var9.bind(var4)(var8, var7);
+            var6 = _closure1_slot22;
 case 57:
             var5[1] = var6;
             var1['children'] = var5;

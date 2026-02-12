@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -24,16 +22,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.InviteModalScenes;
-    var _closure1_slot3 = var7;
+    var _closure1_slot2 = var7;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var9 = var4.jsx;
+    var _closure1_slot3 = var9;
+    var4 = 4;
+    var8 = var6[var4];
+    var4 = metroImportDefault;
+    var8 = var4.bind(var1)(var8);
+    var4 = {};
+    var4 = var9.bind(var1)(var8, var4);
     var _closure1_slot4 = var4;
     var4 = {};
     var8 = var7.ADVANCED;
     var7 = {};
-    var9 = 4;
+    var9 = 5;
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);
     var9 = var9.ImpressionNames;
@@ -51,15 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.bind(var11)(var9);
     var7['title'] = var9;
     var9 = function render() {
-        var4 = _closure1_slot4;
-        var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 5;
-        var1 = var3[var1];
-        var3 = undefined;
-        var2 = var2.bind(var3)(var1);
-        var1 = {};
-        var1 = var4.bind(var3)(var2, var1);
+        var1 = _closure1_slot4;
         return var1;
     };
     var7['render'] = var9;
@@ -72,9 +69,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'components_native/InviteSettingsModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function InviteSettingsModal() {
-        var4 = _closure1_slot4;
+        var4 = _closure1_slot3;
         var2 = _closure1_slot0;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot1;
         var1 = 6;
         var1 = var3[var1];
         var3 = undefined;
@@ -83,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = _closure1_slot5;
         var1['screens'] = var6;
-        var5 = _closure1_slot3;
+        var5 = _closure1_slot2;
         var5 = var5.ADVANCED;
         var1['initialRouteName'] = var5;
         var1 = var4.bind(var3)(var2, var1);

@@ -69,176 +69,50 @@ case 25:
             var1 = var1.FITNESS_AND_HEALTH;
             if(!(var1 !== var3)) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var5 = undefined;
             var1 = 16;
             var6 = undefined;
             if(!(var1 === var3)) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 20;
-            var1 = var9[var1];
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.PencilSparkleIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var4.bind(var5)(var3, var1);
+            var6 = _closure1_slot26;
             _fun0001_ip = 28; continue _fun0001;
 case 26:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 19;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.BicycleIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot25;
             _fun0001_ip = 28; continue _fun0001;
 case 24:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 18;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.PaintbrushThinIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot24;
             _fun0001_ip = 28; continue _fun0001;
 case 22:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 17;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.FoodIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot23;
             _fun0001_ip = 28; continue _fun0001;
 case 20:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 16;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.MedalIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot22;
             _fun0001_ip = 28; continue _fun0001;
 case 18:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 15;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.RobotIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot21;
             _fun0001_ip = 28; continue _fun0001;
 case 16:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 14;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.PiggyBankIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot20;
             _fun0001_ip = 28; continue _fun0001;
 case 14:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 13;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.PaintPaletteIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot19;
             _fun0001_ip = 28; continue _fun0001;
 case 12:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 12;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.BookCheckIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot18;
             _fun0001_ip = 28; continue _fun0001;
 case 10:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 11;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.MusicIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot17;
             _fun0001_ip = 28; continue _fun0001;
 case 8:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 10;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.ScienceIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot16;
             _fun0001_ip = 28; continue _fun0001;
 case 6:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 9;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.ForumIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot15;
             _fun0001_ip = 28; continue _fun0001;
 case 4:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 8;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.TvIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot14;
             _fun0001_ip = 28; continue _fun0001;
 case 2:
-            var5 = _closure1_slot10;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 7;
-            var1 = var4[var1];
-            var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.GameControllerIcon;
-            var1 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
-            var6 = var5.bind(var4)(var3, var1);
+            var6 = _closure1_slot13;
 case 28:
             var1 = null;
             var3 = var1 == var6;
@@ -279,7 +153,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot28 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -322,12 +196,110 @@ case 30:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot10 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot10 = var8;
     var7 = var4.Fragment;
     var _closure1_slot11 = var7;
     var4 = var4.jsxs;
     var _closure1_slot12 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GameControllerIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot13 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.TvIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot14 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ForumIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot15 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ScienceIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot16 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MusicIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot17 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.BookCheckIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot18 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PaintPaletteIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot19 = var4;
+    var4 = 14;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PiggyBankIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot20 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.RobotIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot21 = var4;
+    var4 = 16;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MedalIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot22 = var4;
+    var4 = 17;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.FoodIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot23 = var4;
+    var4 = 18;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PaintbrushThinIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot24 = var4;
+    var4 = 19;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.BicycleIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot25 = var4;
+    var4 = 20;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PencilSparkleIcon;
+    var4 = {'size': 'md', 'color': 'redesign-button-tertiary-text'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot26 = var4;
     var4 = 21;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -419,7 +391,7 @@ case 30:
     var9['paddingTop'] = var10;
     var4['scrollContentContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot27 = var4;
     var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -429,7 +401,7 @@ case 30:
     var2 = function ICYMITopicsScreen() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot27;
             var4 = undefined;
             var12 = var1.bind(var4)();
             var21 = _closure1_slot1;
@@ -522,8 +494,8 @@ case 41:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
                         if(var7) { _fun0003_ip = 42; continue _fun0003 }
 case 43:
-                        if(var3) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+                        if(var3) { _fun0003_ip = 29; continue _fun0003 }
+case 44:
                         var8 = _closure1_slot1;
                         var14 = _closure1_slot2;
                         var7 = 29;
@@ -546,13 +518,13 @@ case 45:
                         var10 = var11.bind(var12)(var10);
                         var7['content'] = var10;
                         var7 = var8.bind(var9)(var7);
-                        _fun0003_ip = 29; continue _fun0003;
-case 44:
+                        _fun0003_ip = 45; continue _fun0003;
+case 29:
                         var8 = _closure2_slot3;
                         var7 = var8.push;
                         var6 = 'join_guilds';
                         var6 = var7.bind(var8)(var6);
-case 29:
+case 45:
                         var7 = var5.setTimeout;
                         var6 = function() {
                             var3 = _closure2_slot2;
@@ -738,7 +710,7 @@ case 48:
             var20 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot10;
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot28;
                 var3 = {};
                 var8 = _closure2_slot0;
                 var7 = var8.has;

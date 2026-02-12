@@ -32,12 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var8 = var4.jsx;
+    var _closure1_slot5 = var8;
     var4 = 4;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
     var4 = function() {
         var1 = {};
         var2 = {};
@@ -46,8 +46,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['channelInfoContainer'] = var2;
         return var1;
     };
-    var4 = var7.bind(var8)(var4);
+    var4 = var9.bind(var10)(var4);
     var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var7 = var7.bind(var1)(var4);
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot7 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -68,7 +74,7 @@ case 0:
             var7 = var3.bind(var5)();
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var3 = var10[var3];
             var11 = var4.bind(var5)(var3);
             var10 = var11.useStateFromStores;
@@ -134,13 +140,7 @@ case 5:
             var2 = {};
             var10 = var7.channelInfoContainer;
             var2['style'] = var10;
-            var11 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var10 = 7;
-            var10 = var12[var10];
-            var11 = var11.bind(var5)(var10);
-            var10 = {};
-            var10 = var4.bind(var5)(var11, var10);
+            var10 = _closure1_slot7;
             var2['children'] = var10;
             var1 = var4.bind(var5)(var3, var2);
 case 12:
@@ -153,7 +153,7 @@ case 4:
             var2['style'] = var7;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var6 = 6;
+            var6 = 7;
             var6 = var10[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};

@@ -675,10 +675,10 @@ case 26:
             var2 = var2.bind(var4)(var1);
             var1 = var2.useSubscriptionPlaceholderPatternSource;
             var22 = var1.bind(var2)();
-            if(!(var16 != var17)) { _fun0009_ip = 29; continue _fun0009 }
-case 30:
-            var22 = var17;
+            if(!(var16 != var17)) { _fun0009_ip = 5; continue _fun0009 }
 case 29:
+            var22 = var17;
+case 5:
             var3 = _closure1_slot12;
             var2 = _closure1_slot5;
             var1 = {};
@@ -703,10 +703,10 @@ case 29:
             var22[0] = var23;
             var24 = var16 == var17;
             var23 = null;
-            if(!var24) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
-            var23 = var21.subscriptionImageFallback;
+            if(!var24) { _fun0009_ip = 30; continue _fun0009 }
 case 31:
+            var23 = var21.subscriptionImageFallback;
+case 30:
             var22[1] = var23;
             var14['style'] = var22;
             var18 = var20.bind(var4)(var18, var14);
@@ -714,15 +714,15 @@ case 31:
             var14[0] = var18;
             var17 = var16 != var17;
             var16 = null;
-            if(!var17) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
+            if(!var17) { _fun0009_ip = 32; continue _fun0009 }
+case 33:
             var20 = _closure1_slot11;
             var18 = _closure1_slot5;
             var17 = {};
             var21 = var21.subscriptionImageOverlay;
             var17['style'] = var21;
             var16 = var20.bind(var4)(var18, var17);
-case 33:
+case 32:
             var14[1] = var16;
             var18 = _closure1_slot11;
             var17 = _closure1_slot1;
@@ -1031,10 +1031,10 @@ case 0:
                     var1 = null;
                     var3 = var1 != var2;
                     var1 = '0';
-                    if(!var3) { _fun0011_ip = 35; continue _fun0011 }
-case 36:
-                    var1 = var2.guildId;
+                    if(!var3) { _fun0011_ip = 34; continue _fun0011 }
 case 35:
+                    var1 = var2.guildId;
+case 34:
                     return var1;
                 }
             };
@@ -1057,17 +1057,17 @@ case 35:
             };
             var14 = var3.bind(var4)(var1);
             var1 = var14.length;
-            if(!(var9 === var1)) { _fun0010_ip = 37; continue _fun0010 }
-case 38:
+            if(!(var9 === var1)) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
             var1 = null;
             var3 = var1 == var15;
-            if(var3) { _fun0010_ip = 39; continue _fun0010 }
-case 37:
+            if(var3) { _fun0010_ip = 38; continue _fun0010 }
+case 36:
             var7 = null;
             var2 = var7 == var2;
             var1 = null;
-            if(var2) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
+            if(var2) { _fun0010_ip = 38; continue _fun0010 }
+case 15:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
             var2 = {};
@@ -1075,26 +1075,26 @@ case 40:
             var2['style'] = var6;
             var6 = var7 != var15;
             var8 = null;
-            if(!var6) { _fun0010_ip = 41; continue _fun0010 }
-case 42:
+            if(!var6) { _fun0010_ip = 39; continue _fun0010 }
+case 40:
             var6 = var15.length;
             var6 = var6 > var9;
             var8 = null;
-            if(!var6) { _fun0010_ip = 41; continue _fun0010 }
-case 43:
+            if(!var6) { _fun0010_ip = 39; continue _fun0010 }
+case 41:
             var13 = _closure1_slot11;
             var10 = _closure1_slot18;
             var6 = {};
             var6['unusedSlots'] = var15;
             var8 = var13.bind(var5)(var10, var6);
-case 41:
+case 39:
             var6 = new Array(2);
             var6[0] = var8;
             var8 = var14.length;
             var8 = var8 > var9;
             var7 = null;
-            if(!var8) { _fun0010_ip = 44; continue _fun0010 }
-case 45:
+            if(!var8) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
             var10 = _closure1_slot12;
             var9 = _closure1_slot13;
             var8 = {};
@@ -1140,11 +1140,11 @@ case 45:
             var11[1] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
-case 44:
+case 42:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 39:
+case 38:
             return var1;
         }
     };

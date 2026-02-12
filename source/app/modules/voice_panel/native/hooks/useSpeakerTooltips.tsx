@@ -79,15 +79,15 @@ case 4:
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var7 = var6[var4];
+    var8 = var6[var4];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
+    var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.setVoiceUpsellDismissed;
-    var _closure1_slot5 = var7;
+    var8 = var4.setVoiceUpsellDismissed;
+    var _closure1_slot5 = var8;
     var4 = var4.useConsoleVoiceUpsellStore;
     var _closure1_slot6 = var4;
     var4 = 3;
@@ -103,15 +103,20 @@ case 4:
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var8 = var4.jsx;
+    var4 = {};
+    var9 = 'function useSpeakerTooltipsTsx1(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().mode;}';
+    var4['code'] = var9;
     var _closure1_slot9 = var4;
     var4 = {};
-    var7 = 'function useSpeakerTooltipsTsx1(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().mode;}';
-    var4['code'] = var7;
+    var9 = 'function useSpeakerTooltipsTsx2(currentControlsMode,previous){const{runOnJS,setIsShowingControls,VoicePanelControlsModes}=this.__closure;if(currentControlsMode===previous)return;runOnJS(setIsShowingControls)(currentControlsMode===VoicePanelControlsModes.FLOATING_DEFAULT);}';
+    var4['code'] = var9;
     var _closure1_slot10 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var7 = var7.bind(var1)(var4);
     var4 = {};
-    var7 = 'function useSpeakerTooltipsTsx2(currentControlsMode,previous){const{runOnJS,setIsShowingControls,VoicePanelControlsModes}=this.__closure;if(currentControlsMode===previous)return;runOnJS(setIsShowingControls)(currentControlsMode===VoicePanelControlsModes.FLOATING_DEFAULT);}';
-    var4['code'] = var7;
+    var4 = var8.bind(var1)(var7, var4);
     var _closure1_slot11 = var4;
     var4 = 17;
     var4 = var6[var4];
@@ -127,7 +132,7 @@ case 0:
             var _closure2_slot0 = var4;
             var13 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var3 = var22[var1];
             var1 = undefined;
             var3 = var13.bind(var1)(var3);
@@ -137,20 +142,20 @@ case 0:
             var3 = var3.bind(var1)();
             var3 = var3.voiceUpsellDismissed;
             var _closure2_slot2 = var3;
-            var6 = 7;
+            var6 = 8;
             var6 = var22[var6];
             var6 = var13.bind(var1)(var6);
             var8 = var6.bind(var1)(var1);
             var _closure2_slot3 = var8;
             var21 = _closure1_slot0;
-            var6 = 8;
+            var6 = 9;
             var6 = var22[var6];
             var9 = var21.bind(var1)(var6);
             var6 = var9.useIsVoicePanelFullscreen;
             var11 = var6.bind(var9)();
             var10 = _closure1_slot4;
             var9 = var10.useContext;
-            var6 = 9;
+            var6 = 10;
             var6 = var22[var6];
             var6 = var13.bind(var1)(var6);
             var6 = var9.bind(var10)(var6);
@@ -168,7 +173,7 @@ case 0:
             var9 = 1;
             var19 = var14[var9];
             var _closure2_slot5 = var19;
-            var20 = 10;
+            var20 = 11;
             var14 = var22[var20];
             var17 = var21.bind(var1)(var14);
             var16 = var17.useAnimatedReaction;
@@ -184,7 +189,7 @@ case 0:
             var15['__closure'] = var14;
             var14 = 13952338295275.0;
             var15['__workletHash'] = var14;
-            var14 = _closure1_slot10;
+            var14 = _closure1_slot9;
             var15['__initData'] = var14;
             var14 = function S(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -195,7 +200,7 @@ case 0:
 case 5:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var3[var2];
                     var3 = undefined;
                     var6 = var5.bind(var3)(var2);
@@ -222,7 +227,7 @@ case 6:
             var14['__closure'] = var18;
             var18 = 5084069556209.0;
             var14['__workletHash'] = var18;
-            var18 = _closure1_slot11;
+            var18 = _closure1_slot10;
             var14['__initData'] = var18;
             var14 = var16.bind(var17)(var15, var14);
             if(!var4) { _fun0003_ip = 7; continue _fun0003 }
@@ -256,7 +261,7 @@ case 4:
             var14 = var11.bind(var14)(var8, var10);
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 11;
+            var8 = 12;
             var8 = var10[var8];
             var11 = var11.bind(var1)(var8);
             var8 = var11.useSelectedDismissibleContent;
@@ -268,7 +273,7 @@ case 4:
             var13 = var8[var9];
             var _closure2_slot7 = var13;
             var9 = _closure1_slot1;
-            var8 = 12;
+            var8 = 13;
             var8 = var10[var8];
             var8 = var9.bind(var1)(var8);
             var11 = var8.bind(var1)();
@@ -287,7 +292,7 @@ case 0:
                     var1['position'] = var3;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var3 = 13;
+                    var3 = 14;
                     var5 = var9[var3];
                     var7 = undefined;
                     var5 = var8.bind(var7)(var5);
@@ -315,7 +320,7 @@ case 12:
                     var5 = _closure2_slot6;
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 14;
+                    var4 = 15;
                     var4 = var8[var4];
                     var4 = var6.bind(var7)(var4);
                     var4 = var4.DismissibleContent;
@@ -324,15 +329,7 @@ case 12:
 case 11:
                     var1['visible'] = var3;
                     var3 = function renderImgComponent() {
-                        var4 = _closure1_slot9;
-                        var2 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var1 = 15;
-                        var1 = var3[var1];
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var1);
-                        var1 = {};
-                        var1 = var4.bind(var3)(var2, var1);
+                        var1 = _closure1_slot11;
                         return var1;
                     };
                     var1['renderImgComponent'] = var3;
@@ -371,7 +368,7 @@ case 0:
 case 14:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 6;
                     var5 = var5[var2];
                     var2 = undefined;
                     var6 = var6.bind(var2)(var5);

@@ -1,4 +1,4 @@
-// app/modules/app_database/background_sync/native/BackgroundSyncFixExperiment.tsx
+// app/modules/media_keyboard/native/MediaKeyboardSkipFullImageLoadingExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'name': '2026-01-background-sync-fix', 'kind': 'user'};
+    var2 = {'name': '2026-02-media-keyboard-skip-full-image-loading', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/app_database/background_sync/native/BackgroundSyncFixExperiment.tsx';
+    var4 = 'modules/media_keyboard/native/MediaKeyboardSkipFullImageLoadingExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['BackgroundSyncFixExperiment'] = var2;
+    var3['MediaKeyboardSkipFullImageLoadingExperiment'] = var2;
     return var1;
 })();

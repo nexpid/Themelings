@@ -1,11 +1,11 @@
 // app/modules/message_request/native/spam/SpamMessageList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function PendingSpamMessageRequestRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -28,7 +28,7 @@ case 0:
             var _closure2_slot4 = var12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var6 = 7;
+            var6 = 8;
             var6 = var3[var6];
             var10 = var2.bind(var4)(var6);
             var9 = var10.useLongestChannelMessageBeforeReply;
@@ -41,7 +41,7 @@ case 0:
             var9 = function() {
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var7[var1];
                 var1 = undefined;
                 var4 = var6.bind(var1)(var2);
@@ -61,7 +61,7 @@ case 0:
                 var5 = var5.pIQ3h4;
                 var5 = var8.bind(var9)(var5);
                 var2['content'] = var5;
-                var5 = 9;
+                var5 = 10;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var2['icon'] = var5;
@@ -83,7 +83,7 @@ case 0:
 case 3:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 10;
+                    var3 = 11;
                     var5 = var4[var3];
                     var3 = undefined;
                     var6 = var6.bind(var3)(var5);
@@ -91,7 +91,7 @@ case 3:
                     var2 = _closure2_slot4;
                     var2 = var5.bind(var6)(var2);
                     var2 = _closure1_slot1;
-                    var1 = 11;
+                    var1 = 12;
                     var1 = var4[var1];
                     var2 = var2.bind(var3)(var1);
                     var1 = var2.pop;
@@ -102,7 +102,7 @@ case 2:
                 }
             };
             var9 = var10.bind(var11)(var1, var9);
-            var1 = 12;
+            var1 = 13;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useMessageRequestActions;
@@ -141,7 +141,7 @@ case 2:
             var9 = function handleSelectRow() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var3 = var3[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var3);
@@ -183,7 +183,7 @@ case 10:
             var3 = _closure1_slot9;
             var31 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var16 = 14;
+            var16 = 15;
             var1 = var6[var16];
             var1 = var31.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -286,7 +286,7 @@ case 12:
             var5['style'] = var11;
             var13 = _closure1_slot8;
             var12 = _closure1_slot1;
-            var11 = 15;
+            var11 = 16;
             var11 = var6[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
@@ -345,7 +345,7 @@ case 23:
             var27 = _closure1_slot8;
             var31 = _closure1_slot1;
             var32 = _closure1_slot2;
-            var29 = 16;
+            var29 = 17;
             var24 = var32[var29];
             var25 = var31.bind(var4)(var24);
             var24 = {};
@@ -356,7 +356,7 @@ case 23:
             var24['size'] = var29;
             var29 = true;
             var24['disableColor'] = var29;
-            var29 = 17;
+            var29 = 18;
             var29 = var32[var29];
             var29 = var31.bind(var4)(var29);
             var24['source'] = var29;
@@ -412,7 +412,7 @@ case 29:
             var21 = _closure1_slot8;
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var22 = 16;
+            var22 = 17;
             var19 = var25[var22];
             var20 = var24.bind(var4)(var19);
             var19 = {};
@@ -423,7 +423,7 @@ case 29:
             var19['size'] = var22;
             var22 = true;
             var19['disableColor'] = var22;
-            var22 = 18;
+            var22 = 19;
             var22 = var25[var22];
             var22 = var24.bind(var4)(var22);
             var19['source'] = var22;
@@ -450,15 +450,7 @@ case 30:
             var6 = null;
             if(var8) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
-            var9 = _closure1_slot8;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var7 = 19;
-            var7 = var10[var7];
-            var7 = var8.bind(var4)(var7);
-            var8 = var7.FormDivider;
-            var7 = {'iconPush': true, 'outer': true};
-            var6 = var9.bind(var4)(var8, var7);
+            var6 = _closure1_slot12;
 case 31:
             var5[1] = var6;
             var1['children'] = var5;
@@ -466,7 +458,7 @@ case 31:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -498,65 +490,65 @@ case 31:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot8 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot8 = var8;
     var4 = var4.jsxs;
     var _closure1_slot9 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {'backgroundColor': null, 'flexDirection': 'row', 'justifyContent': 'space-between', 'marginTop': 6, 'marginBottom': 10};
-    var10 = 5;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var12;
-    var4['sectionContainer'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'marginTop': 14, 'marginBottom': 12};
-    var4['rowContainer'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'flex-start', 'height': '100%'};
-    var4['actionContainer'] = var9;
-    var9 = {'backgroundColor': null, 'tintColor': null, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center', 'height': 32, 'width': 32};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_SURFACE_HIGH;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
-    var9['tintColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
-    var9['borderRadius'] = var12;
-    var4['actionButton'] = var9;
-    var9 = {};
-    var12 = 16;
-    var9['marginRight'] = var12;
-    var4['acceptButton'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.md;
-    var9['borderRadius'] = var12;
-    var4['pressableRow'] = var9;
-    var9 = {'height': 16, 'width': 16};
-    var4['activityIndicator'] = var9;
-    var9 = {'flex': 1, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.colors;
-    var10 = var10.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var10;
-    var4['list'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {'backgroundColor': null, 'flexDirection': 'row', 'justifyContent': 'space-between', 'marginTop': 6, 'marginBottom': 10};
+    var11 = 5;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var13;
+    var4['sectionContainer'] = var10;
+    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'marginTop': 14, 'marginBottom': 12};
+    var4['rowContainer'] = var10;
+    var10 = {'flexDirection': 'row', 'alignItems': 'flex-start', 'height': '100%'};
+    var4['actionContainer'] = var10;
+    var10 = {'backgroundColor': null, 'tintColor': null, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center', 'height': 32, 'width': 32};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_SURFACE_HIGH;
+    var10['backgroundColor'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.INTERACTIVE_TEXT_DEFAULT;
+    var10['tintColor'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.lg;
+    var10['borderRadius'] = var13;
+    var4['actionButton'] = var10;
+    var10 = {};
+    var13 = 16;
+    var10['marginRight'] = var13;
+    var4['acceptButton'] = var10;
+    var10 = {};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.md;
+    var10['borderRadius'] = var13;
+    var4['pressableRow'] = var10;
+    var10 = {'height': 16, 'width': 16};
+    var4['activityIndicator'] = var10;
+    var10 = {'flex': 1, 'paddingHorizontal': 16, 'alignSelf': 'stretch'};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var11;
+    var4['list'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot10 = var4;
     var4 = {};
     var7 = 'accept-spam-message-request';
@@ -566,6 +558,13 @@ case 31:
     var7 = 'preview-spam-message-request';
     var4['PREVIEW_SPAM_MESSAGE'] = var7;
     var _closure1_slot11 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.FormDivider;
+    var4 = {'iconPush': true, 'outer': true};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot12 = var4;
     var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -613,7 +612,7 @@ case 0:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var7[var1];
                 var1 = undefined;
                 var8 = var3.bind(var1)(var2);
@@ -691,7 +690,7 @@ case 0:
                     if(!(var4 !== var3)) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
                     var5 = _closure1_slot8;
-                    var4 = _closure1_slot12;
+                    var4 = _closure1_slot13;
                     var3 = {};
                     var3['messageRequest'] = var1;
                     var2 = function goToMessageRequestPreview() {

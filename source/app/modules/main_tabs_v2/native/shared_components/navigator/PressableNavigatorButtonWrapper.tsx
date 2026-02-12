@@ -69,9 +69,7 @@ case 2:
             var7 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var2 = _closure1_slot0;
-            var1 = {};
-            var8 = false;
-            var1['collapsable'] = var8;
+            var1 = {'collapsable': false, 'style': null, 'importantForAccessibility': 'yes'};
             if(var6) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var6 = var7.buttonWrapper;

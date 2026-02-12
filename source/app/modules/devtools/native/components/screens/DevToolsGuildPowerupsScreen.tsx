@@ -1,15 +1,15 @@
 // app/modules/devtools/native/components/screens/DevToolsGuildPowerupsScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function setWarningBoosts() {
         var1 = undefined;
-        var4 = _closure1_slot22;
+        var4 = _closure1_slot23;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _setWarningBoosts() {
         var5 = undefined;
         var1 = undefined;
@@ -102,7 +102,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot22 = var4;
+        _closure1_slot23 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -110,7 +110,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function _sendPowerupsSystemMessage() {
         var5 = undefined;
         var1 = undefined;
@@ -157,7 +157,7 @@ case 10:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot23 = var4;
+        _closure1_slot24 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -165,7 +165,7 @@ case 10:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function UserDCSwitchRow(arg1) {
         var1 = arg1;
         var8 = var1.dc;
@@ -193,7 +193,7 @@ case 10:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function GuildDCSwitchRow(arg1) {
         var2 = arg1;
         var8 = var2.dc;
@@ -266,7 +266,7 @@ case 18:
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -278,10 +278,10 @@ case 18:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var12 = 1;
-    var7 = var6[var12];
+    var13 = 1;
+    var7 = var6[var13];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
@@ -294,19 +294,19 @@ case 18:
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 7;
     var4 = var6[var4];
@@ -331,45 +331,52 @@ case 18:
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot18 = var7;
+    var8 = var4.jsx;
+    var _closure1_slot18 = var8;
     var4 = var4.jsxs;
     var _closure1_slot19 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var9 = {};
-    var10 = 11;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
-    var9['backgroundColor'] = var13;
-    var9['flex'] = var12;
-    var4['container'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['padding'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var9['gap'] = var12;
-    var4['scrollContainer'] = var9;
-    var9 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center'};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_32;
-    var9['padding'] = var10;
-    var4['noGuildContainer'] = var9;
-    var4 = var7.bind(var8)(var4);
+    var10 = {};
+    var11 = 11;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var14;
+    var10['flex'] = var13;
+    var4['container'] = var10;
+    var10 = {};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['padding'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['gap'] = var13;
+    var4['scrollContainer'] = var10;
+    var10 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center'};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_32;
+    var10['padding'] = var11;
+    var4['noGuildContainer'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot20 = var4;
+    var4 = 21;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Text;
+    var4 = {'variant': 'heading-md/semibold', 'color': 'text-muted', 'children': 'No guild selected'};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot21 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -384,12 +391,12 @@ case 0:
             var8 = var1.bind(var5)();
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var1 = var7[var1];
             var1 = var2.bind(var5)(var1);
             var4 = var1.bind(var5)();
             var3 = _closure1_slot0;
-            var2 = 22;
+            var2 = 23;
             var1 = var7[var2];
             var11 = var3.bind(var5)(var1);
             var10 = var11.useStateFromStores;
@@ -589,7 +596,7 @@ case 29:
             var19 = 'Set Half Boosts expiring in 1 day';
             var16['label'] = var19;
             var19 = function onPress() {
-                var5 = _closure1_slot21;
+                var5 = _closure1_slot22;
                 var4 = _closure2_slot0;
                 var3 = _closure2_slot2;
                 var2 = var3.slice;
@@ -618,7 +625,7 @@ case 29:
             var20 = 'Reset End Date';
             var17['label'] = var20;
             var20 = function onPress() {
-                var5 = _closure1_slot21;
+                var5 = _closure1_slot22;
                 var4 = _closure2_slot0;
                 var3 = _closure2_slot2;
                 var2 = undefined;
@@ -644,7 +651,7 @@ case 29:
             var16 = function(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot18;
-                var3 = _closure1_slot24;
+                var3 = _closure1_slot25;
                 var2 = {};
                 var2['dc'] = var5;
                 var1 = undefined;
@@ -667,7 +674,7 @@ case 29:
             var16 = function(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot18;
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot26;
                 var2 = {};
                 var2['dc'] = var5;
                 var6 = _closure2_slot0;
@@ -696,7 +703,7 @@ case 29:
             var16 = function(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot18;
-                var3 = _closure1_slot25;
+                var3 = _closure1_slot26;
                 var2 = {};
                 var2['dc'] = var5;
                 var6 = _closure2_slot0;
@@ -725,7 +732,7 @@ case 29:
             var16 = function(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot18;
-                var3 = _closure1_slot24;
+                var3 = _closure1_slot25;
                 var2 = {};
                 var2['dc'] = var5;
                 var1 = undefined;
@@ -754,7 +761,7 @@ case 29:
                 var3 = _closure2_slot0;
                 var2 = function sendPowerupsSystemMessage() {
                     var1 = undefined;
-                    var4 = _closure1_slot23;
+                    var4 = _closure1_slot24;
                     var3 = var4.apply;
                     var1 = arguments;
                     var2 = var1;
@@ -784,15 +791,7 @@ case 27:
             var8 = var8.noGuildContainer;
             var7[1] = var8;
             var2['style'] = var7;
-            var8 = _closure1_slot18;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 23;
-            var6 = var9[var6];
-            var6 = var7.bind(var5)(var6);
-            var7 = var6.Text;
-            var6 = {'variant': 'heading-md/semibold', 'color': 'text-muted', 'children': 'No guild selected'};
-            var6 = var8.bind(var5)(var7, var6);
+            var6 = _closure1_slot21;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 31:

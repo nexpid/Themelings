@@ -938,7 +938,7 @@ case 18:
                     return var4;
 case 71:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0009_ip = 72; continue _fun0009 }
+                    if(var6) { _fun0009_ip = 20; continue _fun0009 }
 case 53:
                     var12 = var4.body;
                     var10 = _closure1_slot1;
@@ -953,9 +953,9 @@ case 53:
                     var6['subscriptionGroupMemberId'] = var13;
                     var6['invite'] = var12;
                     var6 = var10.bind(var11)(var6);
-case 21: // try_end0
+case 72: // try_end0
                     _fun0009_ip = 73; continue _fun0009;
-case 72:
+case 20:
                     return var4;
 case 74: // catch_target0
                     CatchBlockStart(arg_register=5);

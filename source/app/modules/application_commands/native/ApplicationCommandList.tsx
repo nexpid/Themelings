@@ -1,26 +1,26 @@
 // app/modules/application_commands/native/ApplicationCommandList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportAll;
+    var7 = metroImportDefault;
+    var8 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var7;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var8;
     var _closure1_slot3 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 1;
     var4 = var6[var4];
@@ -30,14 +30,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.AUTOCOMPLETE_ROW_HEIGHT;
+    var9 = var4.AUTOCOMPLETE_ROW_HEIGHT;
     var4 = 3;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.jsx;
     var _closure1_slot6 = var8;
-    var4 = var4 * var7;
+    var4 = var4 * var9;
     var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var7 = var7.bind(var1)(var4);
+    var4 = {};
+    var4 = var8.bind(var1)(var7, var4);
+    var _closure1_slot8 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -60,7 +66,7 @@ case 0:
             var _closure2_slot2 = var3;
             var9 = _closure1_slot2;
             var17 = _closure1_slot3;
-            var4 = 4;
+            var4 = 5;
             var8 = var17[var4];
             var4 = undefined;
             var13 = var9.bind(var4)(var8);
@@ -72,7 +78,7 @@ case 0:
             var8 = {};
             var8['text'] = var2;
             var16 = _closure1_slot0;
-            var2 = 5;
+            var2 = 6;
             var2 = var17[var2];
             var2 = var16.bind(var4)(var2);
             var2 = var2.ApplicationCommandType;
@@ -81,7 +87,7 @@ case 0:
             var2[0] = var15;
             var8['commandTypes'] = var2;
             var2 = {'placeholderCount': 3, 'limit': 7};
-            var15 = 6;
+            var15 = 7;
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.ScoreMethod;
@@ -108,14 +114,14 @@ case 0:
                     var10 = var1.item;
                     var _closure3_slot0 = var10;
                     var7 = var1.index;
-                    var4 = undefined;
-                    var _closure3_slot1 = var4;
+                    var5 = undefined;
+                    var _closure3_slot1 = var5;
                     var3 = var10.inputType;
-                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var2 = 7;
+                    var2 = 8;
                     var2 = var6[var2];
-                    var2 = var5.bind(var4)(var2);
+                    var2 = var4.bind(var5)(var2);
                     var2 = var2.ApplicationCommandInputType;
                     var2 = var2.PLACEHOLDER;
                     if(!(var3 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
@@ -126,8 +132,8 @@ case 3:
                     var9 = undefined;
                     if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var5 = _closure2_slot4;
-                    var3 = var5.find;
+                    var4 = _closure2_slot4;
+                    var3 = var4.find;
                     var2 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.id;
@@ -136,15 +142,15 @@ case 5:
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var9 = var3.bind(var5)(var2);
+                    var9 = var3.bind(var4)(var2);
 case 4:
                     _closure3_slot1 = var9;
-                    var5 = _closure1_slot6;
+                    var4 = _closure1_slot6;
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot3;
                     var2 = 9;
                     var2 = var11[var2];
-                    var3 = var3.bind(var4)(var2);
+                    var3 = var3.bind(var5)(var2);
                     var2 = {};
                     var2['command'] = var10;
                     var2['section'] = var9;
@@ -163,17 +169,10 @@ case 4:
                     var6 = 0;
                     var6 = var6 === var7;
                     var2['highlighted'] = var6;
-                    var2 = var5.bind(var4)(var3, var2);
+                    var2 = var4.bind(var5)(var3, var2);
                     return var2;
 case 2:
-                    var3 = _closure1_slot6;
-                    var2 = _closure1_slot1;
-                    var5 = _closure1_slot3;
-                    var1 = 8;
-                    var1 = var5[var1];
-                    var2 = var2.bind(var4)(var1);
-                    var1 = {};
-                    var1 = var3.bind(var4)(var2, var1);
+                    var1 = _closure1_slot8;
                     return var1;
                 }
             };
@@ -237,12 +236,12 @@ case 0:
                     var3 = var1.height;
                     var1 = _closure1_slot7;
                     var1 = var3 - var1;
-                    if(!(var2 >= var1)) { _fun0004_ip = 3; continue _fun0004 }
-case 14:
+                    if(!(var2 >= var1)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 3:
+case 14:
                     var1 = undefined;
                     return var1;
                 }

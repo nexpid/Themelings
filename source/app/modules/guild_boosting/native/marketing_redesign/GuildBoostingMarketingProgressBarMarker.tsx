@@ -23,12 +23,12 @@ case 0:
             var10 = var6.bind(var5)();
             var9 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var7 = 9;
+            var7 = 10;
             var7 = var6[var7];
             var7 = var9.bind(var5)(var7);
             var19 = var7.bind(var5)();
             var7 = _closure1_slot0;
-            var16 = 10;
+            var16 = 11;
             var6 = var6[var16];
             var7 = var7.bind(var5)(var6);
             var6 = var7.useSharedValue;
@@ -58,7 +58,7 @@ case 5:
                     var2 = var3.set;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 12;
                     var5 = var5[var4];
                     var4 = undefined;
                     var6 = var6.bind(var4)(var5);
@@ -78,7 +78,7 @@ case 4:
             var4 = var4[var16];
             var6 = var6.bind(var5)(var4);
             var4 = var6.useAnimatedStyle;
-            var3 = function y() {
+            var3 = function x() {
                 var1 = {};
                 var3 = {};
                 var4 = _closure2_slot0;
@@ -103,14 +103,14 @@ case 4:
             var7 = null;
             if(!(var8 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var6 = _closure1_slot7;
             if(var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var4 = _closure1_slot7;
             var3 = _closure1_slot5;
             var2 = {};
-            var4 = _closure1_slot10;
-            var4 = var4[var8];
-            var2['source'] = var4;
+            var6 = _closure1_slot10;
+            var6 = var6[var8];
+            var2['source'] = var6;
             if(var14) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var8 = var10.progressBarMarkerInnerCircleIcon;
@@ -118,8 +118,8 @@ case 11:
 case 10:
             var8 = var10.progressBarMarkerInnerCircleIconUnlocked;
 case 12:
-            var4 = new Array(2);
-            var4[0] = var8;
+            var6 = new Array(2);
+            var6[0] = var8;
             var8 = {};
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -135,19 +135,12 @@ case 13:
             var9 = var17.WHITE;
 case 15:
             var8['tintColor'] = var9;
-            var4[1] = var8;
-            var2['style'] = var4;
-            var2 = var6.bind(var5)(var3, var2);
+            var6[1] = var8;
+            var2['style'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
             _fun0001_ip = 16; continue _fun0001;
 case 8:
-            var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 12;
-            var3 = var8[var3];
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.BoostGemSlashIcon;
-            var3 = {'size': 'xxs', 'color': 'currentColor'};
-            var2 = var6.bind(var5)(var4, var3);
+            var2 = _closure1_slot14;
 case 16:
             var7 = var2;
 case 6:
@@ -231,7 +224,7 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var6 = var1.Object;
     var4 = var6.defineProperty;
@@ -240,8 +233,8 @@ case 19:
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var4.bind(var6)(var3, var1, var2);
-    var10 = 0;
-    var4 = var8[var10];
+    var11 = 0;
+    var4 = var8[var11];
     var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
@@ -261,33 +254,33 @@ case 19:
     var2 = 3;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var4 = var2.jsx;
-    var _closure1_slot7 = var4;
+    var10 = var2.jsx;
+    var _closure1_slot7 = var10;
     var2 = var2.jsxs;
     var _closure1_slot8 = var2;
     var2 = {};
     var4 = var6.NONE;
-    var2[var4] = var10;
-    var10 = var6.TIER_1;
+    var2[var4] = var11;
+    var11 = var6.TIER_1;
     var4 = 0.3333333333333333;
-    var2[var10] = var4;
-    var10 = var6.TIER_2;
+    var2[var11] = var4;
+    var11 = var6.TIER_2;
     var4 = 0.6666666666666666;
-    var2[var10] = var4;
+    var2[var11] = var4;
     var4 = var6.TIER_3;
     var2[var4] = var9;
     var _closure1_slot9 = var2;
     var4 = {};
-    var10 = var6.TIER_1;
+    var11 = var6.TIER_1;
     var9 = 4;
     var9 = var8[var9];
     var9 = var13.bind(var1)(var9);
-    var4[var10] = var9;
-    var10 = var6.TIER_2;
+    var4[var11] = var9;
+    var11 = var6.TIER_2;
     var9 = 5;
     var9 = var8[var9];
     var9 = var13.bind(var1)(var9);
-    var4[var10] = var9;
+    var4[var11] = var9;
     var9 = var6.TIER_3;
     var6 = 6;
     var6 = var8[var6];
@@ -296,24 +289,24 @@ case 19:
     var _closure1_slot10 = var4;
     var4 = 7;
     var6 = var8[var4];
-    var10 = var7.bind(var1)(var6);
-    var9 = var10.createStyles;
+    var11 = var7.bind(var1)(var6);
+    var9 = var11.createStyles;
     var6 = {};
-    var11 = {'width': 17.5, 'height': 17.5, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'center'};
-    var6['progressBarMarkerInnerCircle'] = var11;
-    var11 = {'width': '100%', 'height': '100%', 'borderRadius': 17.5, 'position': 'absolute'};
-    var6['progressBarMarkerInnerCircleBackground'] = var11;
-    var11 = {'width': 16, 'height': 16};
-    var6['progressBarMarkerInnerCircleIcon'] = var11;
-    var11 = {'width': '95%', 'height': '95%'};
+    var12 = {'width': 17.5, 'height': 17.5, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'justifyContent': 'center'};
+    var6['progressBarMarkerInnerCircle'] = var12;
+    var12 = {'width': '100%', 'height': '100%', 'borderRadius': 17.5, 'position': 'absolute'};
+    var6['progressBarMarkerInnerCircleBackground'] = var12;
+    var12 = {'width': 16, 'height': 16};
+    var6['progressBarMarkerInnerCircleIcon'] = var12;
+    var14 = {'width': '95%', 'height': '95%'};
     var12 = 8;
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.WHITE;
-    var11['tintColor'] = var14;
-    var6['progressBarMarkerInnerCircleIconUnlocked'] = var11;
-    var6 = var9.bind(var10)(var6);
+    var15 = var8[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.WHITE;
+    var14['tintColor'] = var15;
+    var6['progressBarMarkerInnerCircleIconUnlocked'] = var14;
+    var6 = var9.bind(var11)(var6);
     var _closure1_slot11 = var6;
     var6 = {'stiffness': 50, 'damping': 5};
     var _closure1_slot12 = var6;
@@ -321,6 +314,13 @@ case 19:
     var9 = 'function GuildBoostingMarketingProgressBarMarkerTsx1(){const{scale}=this.__closure;return{transform:[{scale:scale.get()}]};}';
     var6['code'] = var9;
     var _closure1_slot13 = var6;
+    var6 = 9;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.BoostGemSlashIcon;
+    var6 = {'size': 'xxs', 'color': 'currentColor'};
+    var6 = var10.bind(var1)(var9, var6);
+    var _closure1_slot14 = var6;
     var4 = var8[var4];
     var10 = var7.bind(var1)(var4);
     var9 = var10.createStyles;
@@ -363,11 +363,11 @@ case 19:
     var11['tintColor'] = var12;
     var6['progressBarMarkerUnlockedIcon'] = var11;
     var6 = var9.bind(var10)(var6);
-    var _closure1_slot14 = var6;
+    var _closure1_slot15 = var6;
     var6 = {};
     var9 = 'function GuildBoostingMarketingProgressBarMarkerTsx2(){const{scale}=this.__closure;return{transform:[{scale:scale.get()}]};}';
     var6['code'] = var9;
-    var _closure1_slot15 = var6;
+    var _closure1_slot16 = var6;
     var6 = 18;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -385,16 +385,16 @@ case 0:
             var17 = var4.isDisabled;
             var4 = undefined;
             var _closure2_slot2 = var4;
-            var5 = _closure1_slot14;
+            var5 = _closure1_slot15;
             var14 = var5.bind(var4)();
             var7 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var6 = var5[var6];
             var6 = var7.bind(var4)(var6);
             var21 = var6.bind(var4)();
             var6 = _closure1_slot0;
-            var8 = 10;
+            var8 = 11;
             var5 = var5[var8];
             var7 = var6.bind(var4)(var5);
             var6 = var7.useSharedValue;
@@ -436,7 +436,7 @@ case 33:
                     var2 = var3.set;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 12;
                     var5 = var5[var4];
                     var4 = undefined;
                     var6 = var6.bind(var4)(var5);
@@ -473,7 +473,7 @@ case 32:
             var1['__closure'] = var6;
             var6 = 6884434326805.0;
             var1['__workletHash'] = var6;
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot16;
             var1['__initData'] = var6;
             var19 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
@@ -510,7 +510,7 @@ case 34:
             var18 = {};
             if(!var12) { _fun0003_ip = 36; continue _fun0003 }
 case 37:
-            if(var11) { _fun0003_ip = 22; continue _fun0003 }
+            if(var11) { _fun0003_ip = 38; continue _fun0003 }
 case 36:
             var20 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -530,19 +530,19 @@ case 36:
             var20 = var24[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.unsafe_rawColors;
-            if(var19) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+            if(var19) { _fun0003_ip = 39; continue _fun0003 }
+case 20:
             var21 = var20.PRIMARY_200;
             var19 = 0.4;
             var19 = var22.bind(var23)(var21, var19);
             _fun0003_ip = 40; continue _fun0003;
-case 38:
+case 39:
             var21 = var20.WHITE;
             var20 = 0.4;
             var19 = var22.bind(var23)(var21, var20);
 case 40:
             _fun0003_ip = 41; continue _fun0003;
-case 22:
+case 38:
             var21 = _closure1_slot1;
             var22 = _closure1_slot2;
             var20 = 8;
@@ -558,7 +558,7 @@ case 41:
             var5 = new Array(3);
             var5[0] = var6;
             var8 = _closure1_slot7;
-            var7 = _closure1_slot16;
+            var7 = _closure1_slot17;
             var6 = {};
             var6['tier'] = var16;
             var6['isDisabled'] = var17;
@@ -576,31 +576,31 @@ case 41:
             var9[0] = var12;
             var12 = !var11;
             if(var11) { _fun0003_ip = 42; continue _fun0003 }
-case 28:
+case 43:
             var12 = var14.progressBarMarkerLabelLocked;
 case 42:
             var9[1] = var12;
             var12 = var11;
-            if(!var11) { _fun0003_ip = 43; continue _fun0003 }
-case 44:
+            if(!var11) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
             var13 = _closure1_slot6;
             var13 = var13.NONE;
             var12 = var16 !== var13;
-case 43:
-            if(!var12) { _fun0003_ip = 45; continue _fun0003 }
-case 46:
+case 44:
+            if(!var12) { _fun0003_ip = 46; continue _fun0003 }
+case 47:
             var12 = var14.progressBarMarkerLabelWithIcon;
-case 45:
+case 46:
             var9[2] = var12;
             var6['style'] = var9;
-            if(!var11) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
+            if(!var11) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
             var9 = _closure1_slot6;
             var9 = var9.NONE;
             var11 = var16 !== var9;
-case 47:
-            if(!var11) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
+case 48:
+            if(!var11) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
             var13 = _closure1_slot7;
             var12 = _closure1_slot5;
             var9 = {};
@@ -613,7 +613,7 @@ case 50:
             var14 = var14.progressBarMarkerUnlockedIcon;
             var9['style'] = var14;
             var11 = var13.bind(var4)(var12, var9);
-case 49:
+case 50:
             var9 = new Array(2);
             var9[0] = var11;
             var12 = _closure1_slot7;

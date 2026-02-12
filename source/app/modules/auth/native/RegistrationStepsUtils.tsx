@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = null;
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot28 = var1;
     var1 = function _handleNextOrSubmitRegistration() {
         var5 = undefined;
         var1 = undefined;
@@ -30,12 +30,12 @@ case 3:
                     var3 = _closure1_slot9;
                     var2 = undefined;
                     var3 = var3.bind(var2)();
-                    var3 = _closure1_slot18;
+                    var3 = _closure1_slot25;
                     var4 = var3.bind(var2)(var9);
                     var3 = null;
                     if(!(var3 == var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var3 = _closure1_slot23;
+                    var3 = _closure1_slot30;
                     var3 = var3.bind(var2)(var9, var5, var6);
                     SaveGenerator(address=59);
 case 6:
@@ -68,7 +68,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot22 = var4;
+        _closure1_slot29 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -76,10 +76,10 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot29 = var1;
     var2 = function handleRegistrationSubmit() {
         var1 = undefined;
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot31;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -87,7 +87,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot23 = var2;
+    var _closure1_slot30 = var2;
     var1 = function _handleRegistrationSubmit() {
         var5 = undefined;
         var1 = undefined;
@@ -242,7 +242,7 @@ case 10:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot24 = var4;
+        _closure1_slot31 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -250,7 +250,7 @@ case 10:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot31 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -280,52 +280,95 @@ case 10:
     var5 = 4;
     var5 = var11[var5];
     var5 = var10.bind(var1)(var5);
-    var6 = var5.setRegistrationErrors;
-    var _closure1_slot6 = var6;
-    var6 = var5.setSubmitting;
-    var _closure1_slot7 = var6;
-    var6 = var5.useRegistrationUIStore;
-    var _closure1_slot8 = var6;
+    var7 = var5.setRegistrationErrors;
+    var _closure1_slot6 = var7;
+    var7 = var5.setSubmitting;
+    var _closure1_slot7 = var7;
+    var7 = var5.useRegistrationUIStore;
+    var _closure1_slot8 = var7;
     var5 = var5.clearRegistrationErrorMessage;
     var _closure1_slot9 = var5;
     var5 = 5;
     var5 = var11[var5];
     var5 = var10.bind(var1)(var5);
-    var6 = var5.authStateToRegisterTransitionStep;
-    var _closure1_slot10 = var6;
-    var6 = var5.RegisterTransitionSteps;
-    var _closure1_slot11 = var6;
-    var6 = var5.RegistrationSteps;
-    var _closure1_slot12 = var6;
+    var7 = var5.authStateToRegisterTransitionStep;
+    var _closure1_slot10 = var7;
+    var7 = var5.RegisterTransitionSteps;
+    var _closure1_slot11 = var7;
+    var7 = var5.RegistrationSteps;
+    var _closure1_slot12 = var7;
     var5 = var5.RegistrationTransitionActionTypes;
     var _closure1_slot13 = var5;
     var5 = 6;
     var5 = var11[var5];
     var5 = var10.bind(var1)(var5);
-    var6 = var5.AuthStates;
-    var _closure1_slot14 = var6;
+    var8 = var5.AuthStates;
+    var _closure1_slot14 = var8;
     var5 = 7;
     var5 = var11[var5];
     var5 = var10.bind(var1)(var5);
-    var5 = var5.jsx;
-    var _closure1_slot15 = var5;
-    var7 = var6.WELCOME;
+    var7 = var5.jsx;
+    var _closure1_slot15 = var7;
+    var9 = var8.WELCOME;
     var5 = new Array(5);
-    var5[0] = var7;
-    var7 = var6.REGISTER_IDENTITY;
-    var5[1] = var7;
-    var7 = var6.REGISTER_DISPLAY_NAME;
-    var5[2] = var7;
-    var7 = var6.REGISTER_ACCOUNT_INFORMATION;
-    var5[3] = var7;
-    var6 = var6.AGE_GATE;
-    var5[4] = var6;
+    var5[0] = var9;
+    var9 = var8.REGISTER_IDENTITY;
+    var5[1] = var9;
+    var9 = var8.REGISTER_DISPLAY_NAME;
+    var5[2] = var9;
+    var9 = var8.REGISTER_ACCOUNT_INFORMATION;
+    var5[3] = var9;
+    var8 = var8.AGE_GATE;
+    var5[4] = var8;
     var _closure1_slot16 = var5;
     var8 = function getRegistrationSteps() {
         var1 = _closure1_slot16;
         return var1;
     };
     var _closure1_slot17 = var8;
+    var5 = 8;
+    var5 = var11[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot18 = var5;
+    var5 = 9;
+    var5 = var11[var5];
+    var5 = var10.bind(var1)(var5);
+    var9 = var5.RegisterIdentity;
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot19 = var5;
+    var5 = 10;
+    var5 = var11[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot20 = var5;
+    var5 = 11;
+    var5 = var11[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot21 = var5;
+    var5 = 12;
+    var5 = var11[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot22 = var5;
+    var5 = 13;
+    var5 = var11[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var9, var5);
+    var _closure1_slot23 = var5;
+    var5 = 14;
+    var5 = var11[var5];
+    var6 = var6.bind(var1)(var5);
+    var5 = {};
+    var5 = var7.bind(var1)(var6, var5);
+    var _closure1_slot24 = var5;
     var7 = function getNextAuthState(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -350,7 +393,7 @@ case 29:
             return var1;
         }
     };
-    var _closure1_slot18 = var7;
+    var _closure1_slot25 = var7;
     var6 = function getPreviousAuthState(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -374,11 +417,11 @@ case 31:
             return var1;
         }
     };
-    var _closure1_slot19 = var6;
+    var _closure1_slot26 = var6;
     var5 = function getPreviousRegistrationTransitionStep(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot26;
             var3 = undefined;
             var2 = arg1;
             var2 = var4.bind(var3)(var2);
@@ -392,7 +435,7 @@ case 32:
             return var1;
         }
     };
-    var _closure1_slot20 = var5;
+    var _closure1_slot27 = var5;
     var9 = 28;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
@@ -408,25 +451,17 @@ case 32:
         var11 = true;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var6 = 8;
+        var6 = 15;
         var5 = var9[var6];
         var7 = undefined;
         var5 = var8.bind(var7)(var5);
         var5 = var5.ImpressionNames;
         var5 = var5.USER_WELCOME;
         var3['impressionName'] = var5;
-        var5 = _closure1_slot21;
+        var5 = _closure1_slot28;
         var3['headerTitle'] = var5;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 9;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot18;
             return var1;
         };
         var3['render'] = var12;
@@ -453,7 +488,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -462,7 +497,7 @@ case 32:
             var7 = arg1;
             var8 = var1;
             var6 = copyDataProperties(var8, var7);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot27;
             var5 = _closure1_slot14;
             var5 = var5.REGISTER_IDENTITY;
             var6 = var6.bind(var3)(var5);
@@ -473,16 +508,7 @@ case 32:
         };
         var3['headerLeft'] = var12;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 11;
-            var1 = var3[var1];
-            var3 = undefined;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.RegisterIdentity;
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot19;
             return var1;
         };
         var3['render'] = var12;
@@ -508,7 +534,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -517,7 +543,7 @@ case 32:
             var7 = arg1;
             var8 = var1;
             var6 = copyDataProperties(var8, var7);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot27;
             var5 = _closure1_slot14;
             var5 = var5.REGISTER_DISPLAY_NAME;
             var6 = var6.bind(var3)(var5);
@@ -528,15 +554,7 @@ case 32:
         };
         var3['headerLeft'] = var12;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 12;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot20;
             return var1;
         };
         var3['render'] = var12;
@@ -562,7 +580,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -571,7 +589,7 @@ case 32:
             var7 = arg1;
             var8 = var1;
             var6 = copyDataProperties(var8, var7);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot27;
             var5 = _closure1_slot14;
             var5 = var5.REGISTER_ACCOUNT_INFORMATION;
             var6 = var6.bind(var3)(var5);
@@ -582,15 +600,7 @@ case 32:
         };
         var3['headerLeft'] = var12;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 13;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot21;
             return var1;
         };
         var3['render'] = var12;
@@ -615,7 +625,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -636,7 +646,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 14;
+            var1 = 17;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -665,15 +675,7 @@ case 32:
         var3['impressionProperties'] = var12;
         var3['headerTitle'] = var5;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 15;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot22;
             return var1;
         };
         var3['render'] = var12;
@@ -682,15 +684,7 @@ case 32:
         var3 = {'fullscreen': true, 'ignoreKeyboard': true, 'headerTitle': null, 'headerShown': false};
         var3['headerTitle'] = var5;
         var12 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 16;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot23;
             return var1;
         };
         var3['render'] = var12;
@@ -702,7 +696,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -725,7 +719,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -740,7 +734,7 @@ case 32:
             var5 = function onCountrySelected(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 19;
+                var1 = 20;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -763,7 +757,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 21;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -788,7 +782,7 @@ case 32:
             var4 = _closure1_slot15;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 16;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -797,7 +791,7 @@ case 32:
             var7 = arg1;
             var8 = var1;
             var6 = copyDataProperties(var8, var7);
-            var6 = _closure1_slot20;
+            var6 = _closure1_slot27;
             var5 = _closure1_slot14;
             var5 = var5.AGE_GATE;
             var6 = var6.bind(var3)(var5);
@@ -808,15 +802,7 @@ case 32:
         };
         var3['headerLeft'] = var11;
         var11 = function render() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 21;
-            var1 = var3[var1];
-            var3 = undefined;
-            var2 = var2.bind(var3)(var1);
-            var1 = {};
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = _closure1_slot24;
             return var1;
         };
         var3['render'] = var11;
@@ -834,7 +820,7 @@ case 32:
             var1 = {};
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 8;
+            var3 = 15;
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
@@ -881,7 +867,7 @@ case 32:
     var5 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot25;
             var3 = undefined;
             var2 = arg1;
             var2 = var4.bind(var3)(var2);
@@ -898,7 +884,7 @@ case 32:
     var3['getNextRegistrationTransitionStep'] = var5;
     var4 = function handleNextOrSubmitRegistration() {
         var1 = undefined;
-        var4 = _closure1_slot22;
+        var4 = _closure1_slot29;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

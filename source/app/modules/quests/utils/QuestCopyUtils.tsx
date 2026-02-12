@@ -190,50 +190,30 @@ case 0:
             var2 = var3.isTargetedDisclosure;
             var1 = var3.isVideoQuest;
             var7 = var3.gamePublisher;
-            var10 = var3.gameTitle;
+            var8 = var3.gameTitle;
             var6 = var3.cosponsorName;
             if(var2) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-            if(!var1) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-            var3 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var9 = 1;
-            var1 = var1[var9];
-            var8 = undefined;
-            var1 = var3.bind(var8)(var1);
-            var1 = var1.intl;
-            var3 = var1.currentLocale;
-            var1 = 'en-US';
-            if(!(var1 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 24:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var1 = 1;
-            var4 = var12[var1];
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 1;
+            var4 = var10[var2];
             var3 = undefined;
-            var4 = var11.bind(var3)(var4);
+            var4 = var9.bind(var3)(var4);
             var5 = var4.intl;
             var4 = var5.formatToPlainString;
-            var1 = var12[var1];
-            var1 = var11.bind(var3)(var1);
-            var1 = var1.t;
-            var3 = var1.5bQWNG;
+            var2 = var10[var2];
+            var2 = var9.bind(var3)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+            var3 = var2.5bQWNG;
             var1 = {};
             var1['gamePublisher'] = var7;
-            var1['gameTitle'] = var10;
+            var1['gameTitle'] = var8;
             var1 = var4.bind(var5)(var3, var1);
             _fun0002_ip = 26; continue _fun0002;
-case 8:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var4 = var2[var9];
-            var4 = var3.bind(var8)(var4);
-            var5 = var4.intl;
-            var4 = var5.formatToPlainString;
-            var2 = var2[var9];
-            var2 = var3.bind(var8)(var2);
-            var2 = var2.t;
+case 24:
             var3 = var2.rctMRl;
             var2 = {};
             var2['gamePublisher'] = var7;
@@ -666,7 +646,7 @@ case 39:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.U7Xrb+;
+            var3 = var3.w6PeBF;
             var2 = var4.bind(var5)(var3);
 case 56:
             var1 = var2;

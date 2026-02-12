@@ -119,13 +119,13 @@ case 0:
             var4 = _closure1_slot1;
             var2 = var4.toLowerCase;
             var2 = var2.bind(var4)();
-            if(var1) { _fun0003_ip = 7; continue _fun0003 }
+            if(var1) { _fun0003_ip = 5; continue _fun0003 }
+case 7:
+            if(!(var3 !== var2)) { _fun0003_ip = 5; continue _fun0003 }
 case 8:
-            if(!(var3 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
-case 6:
             var2 = undefined;
             return var2;
-case 7:
+case 5:
             return var1;
         }
     };

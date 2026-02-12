@@ -529,7 +529,7 @@ case 54:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(17);
+        var1 = new Array(16);
         var1[0] = var5;
         var5 = {};
         var7 = 'getVoiceFilters';
@@ -644,68 +644,10 @@ case 63:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
-        var7 = 'isVoiceFilterDownloaded';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
-case 0:
-                var1 = global;
-                var3 = var1.Object;
-                var2 = var3.values;
-                var1 = _closure1_slot11;
-                var4 = var1.voiceFilters;
-                var1 = arg1;
-                var5 = var4[var1];
-                var4 = null;
-                var6 = var4 == var5;
-                var1 = undefined;
-                if(var6) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
-                var1 = var5.modelIds;
-case 65:
-                if(!(var4 == var1)) { _fun0010_ip = 67; continue _fun0010 }
-case 32:
-                var1 = {};
-case 67:
-                var3 = var2.bind(var3)(var1);
-                var2 = var3.every;
-                var1 = function(arg1) {
-                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
-case 0:
-                        var2 = _closure1_slot11;
-                        var3 = var2.modelState;
-                        var2 = arg1;
-                        var3 = var3[var2];
-                        var2 = null;
-                        var5 = var2 == var3;
-                        var4 = undefined;
-                        var2 = undefined;
-                        if(var5) { _fun0011_ip = 68; continue _fun0011 }
-case 37:
-                        var2 = var3.status;
-case 68:
-                        var3 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var1 = 7;
-                        var1 = var5[var1];
-                        var1 = var3.bind(var4)(var1);
-                        var1 = var1.VoiceFilterModelStatus;
-                        var1 = var1.DOWNLOADED;
-                        var1 = var2 === var1;
-                        return var1;
-                    }
-                };
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[5] = var5;
-        var5 = {};
         var7 = 'isModelDownloaded';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = _closure1_slot11;
                 var3 = var2.modelState;
@@ -715,10 +657,10 @@ case 0:
                 var5 = var2 == var3;
                 var4 = undefined;
                 var2 = undefined;
-                if(var5) { _fun0012_ip = 68; continue _fun0012 }
+                if(var5) { _fun0010_ip = 65; continue _fun0010 }
 case 37:
                 var2 = var3.status;
-case 68:
+case 65:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 7;
@@ -731,7 +673,7 @@ case 68:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getSortedVoiceFilters';
         var5['key'] = var7;
@@ -750,7 +692,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getCatalogLastFetchTime';
         var5['key'] = var7;
@@ -760,7 +702,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getCatalogUpdateTime';
         var5['key'] = var7;
@@ -770,7 +712,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getLimitedTimeVoices';
         var5['key'] = var7;
@@ -780,7 +722,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'isNativeModuleLoaded';
         var5['key'] = var7;
@@ -799,7 +741,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'isNativeModuleLoading';
         var5['key'] = var7;
@@ -818,7 +760,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'hasNativeModuleFailed';
         var5['key'] = var7;
@@ -837,7 +779,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getCatalogFetchFailed';
         var5['key'] = var7;
@@ -847,7 +789,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getError';
         var5['key'] = var7;
@@ -857,7 +799,7 @@ case 68:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getLastReportedLagTimestamp';
         var5['key'] = var7;
@@ -866,7 +808,7 @@ case 68:
             return var1;
         };
         var5['value'] = var6;
-        var1[16] = var5;
+        var1[15] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -927,7 +869,7 @@ case 68:
     };
     var4['VOICE_FILTER_DOWNLOAD_PROGRESS'] = var11;
     var11 = function handleVoiceFilterDownloadFailed(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.modelId;
@@ -939,7 +881,7 @@ case 0:
             var8 = var3 == var5;
             var1 = undefined;
             var6 = undefined;
-            if(var8) { _fun0013_ip = 9; continue _fun0013 }
+            if(var8) { _fun0011_ip = 9; continue _fun0011 }
 case 66:
             var6 = var5.status;
 case 9:
@@ -950,8 +892,8 @@ case 9:
             var5 = var8.bind(var1)(var5);
             var5 = var5.VoiceFilterModelStatus;
             var5 = var5.DOWNLOADED;
-            if(!(var6 !== var5)) { _fun0013_ip = 69; continue _fun0013 }
-case 70:
+            if(!(var6 !== var5)) { _fun0011_ip = 67; continue _fun0011 }
+case 68:
             var5 = _closure1_slot11;
             var6 = var5.modelState;
             var5 = {};
@@ -969,19 +911,19 @@ case 70:
             var8 = 'status';
             var5[var8] = var9;
             var6[var7] = var5;
-            if(!(var3 == var4)) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+            if(!(var3 == var4)) { _fun0011_ip = 69; continue _fun0011 }
+case 70:
             var4 = {};
-case 71:
+case 69:
             var3 = 'USER_CANCELED_DOWNLOAD';
             var3 = var3 in var4;
-            if(var3) { _fun0013_ip = 69; continue _fun0013 }
+            if(var3) { _fun0011_ip = 67; continue _fun0011 }
 case 20:
             var3 = _closure1_slot11;
             var2 = _closure1_slot9;
             var2 = var2.ERROR_DOWNLOADING_DEPENDENCY;
             var3['error'] = var2;
-case 69:
+case 67:
             return var1;
         }
     };
@@ -1014,7 +956,7 @@ case 69:
     };
     var4['VOICE_FILTER_FILE_READY'] = var11;
     var11 = function handleVoiceFilterCatalogFetch(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.catalog;
@@ -1028,7 +970,7 @@ case 0:
             var5 = null;
             var6 = var5 == var6;
             var7 = undefined;
-            if(var6) { _fun0014_ip = 73; continue _fun0014 }
+            if(var6) { _fun0012_ip = 71; continue _fun0012 }
 case 53:
             var8 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -1037,7 +979,7 @@ case 53:
             var8 = var6.remoteApp;
             var6 = var8.getVersion;
             var7 = var6.bind(var8)();
-case 73:
+case 71:
             var6 = '0.0.0';
             var16 = var6 === var7;
             var7 = _closure1_slot11;
@@ -1057,8 +999,8 @@ case 73:
             var8 = _closure1_slot11;
             var6 = var15.catalogUpdateTime;
             var8['catalogUpdateTime'] = var6;
-            if(!var16) { _fun0014_ip = 74; continue _fun0014 }
-case 75:
+            if(!var16) { _fun0012_ip = 72; continue _fun0012 }
+case 73:
             var6 = global;
             var9 = var6.Object;
             var8 = var9.keys;
@@ -1071,8 +1013,8 @@ case 75:
             var10 = 'modelIds';
             var9 = true;
             var8 = 'available';
-            if(!var6) { _fun0014_ip = 74; continue _fun0014 }
-case 76:
+            if(!var6) { _fun0012_ip = 72; continue _fun0012 }
+case 74:
             var14 = var13[var12];
             var6 = {};
             var17 = _closure1_slot8;
@@ -1085,8 +1027,8 @@ case 76:
             var7[var14] = var6;
             var12 = var12 + 1;
             var6 = var13.length;
-            if(var12 < var6) { _fun0014_ip = 76; continue _fun0014 }
-case 74:
+            if(var12 < var6) { _fun0012_ip = 74; continue _fun0012 }
+case 72:
             var6 = _closure1_slot14;
             var4 = var4.voices;
             var14 = var6.bind(var1)(var4);
@@ -1099,8 +1041,8 @@ case 74:
             var4 = !var16;
             var9 = !var4;
             var4 = global;
-            if(var6) { _fun0014_ip = 77; continue _fun0014 }
-case 78:
+            if(var6) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
             var6 = var8.value;
             var17 = var6.id;
             var18 = var6.models;
@@ -1109,8 +1051,8 @@ case 78:
             var20 = var21.hasOwn;
             var6 = _closure1_slot8;
             var6 = var20.bind(var21)(var6, var17);
-            if(!var6) { _fun0014_ip = 79; continue _fun0014 }
-case 80:
+            if(!var6) { _fun0012_ip = 77; continue _fun0012 }
+case 78:
             var6 = {};
             var20 = _closure1_slot8;
             var22 = var20[var17];
@@ -1119,22 +1061,22 @@ case 80:
             var6[var11] = var17;
             var6[var10] = var18;
             var18 = var9;
-            if(var16) { _fun0014_ip = 81; continue _fun0014 }
-case 82:
+            if(var16) { _fun0012_ip = 79; continue _fun0012 }
+case 80:
             var18 = var19;
-case 81:
+case 79:
             var6[var13] = var18;
             var19 = var15.currentSet;
             var18 = var19.includes;
             var18 = var18.bind(var19)(var17);
             var6[var12] = var18;
             var7[var17] = var6;
-case 79:
+case 77:
             var17 = var14.bind(var1)();
             var6 = var17.done;
             var8 = var17;
-            if(!var6) { _fun0014_ip = 78; continue _fun0014 }
-case 77:
+            if(!var6) { _fun0012_ip = 76; continue _fun0012 }
+case 75:
             var6 = _closure1_slot11;
             var6['voiceFilters'] = var7;
             var7 = _closure1_slot11;
@@ -1150,8 +1092,8 @@ case 77:
             var6 = new var24[var6](var23);
             var6 = var6 instanceof Object ? var6 : var8;
             var7['catalogLastFetchTime'] = var6;
-            if(!(var5 != var3)) { _fun0014_ip = 83; continue _fun0014 }
-case 84:
+            if(!(var5 != var3)) { _fun0012_ip = 81; continue _fun0012 }
+case 82:
             var6 = var4.Object;
             var5 = var6.keys;
             var4 = _closure1_slot11;
@@ -1159,17 +1101,17 @@ case 84:
             var4 = var5.bind(var6)(var4);
             var5 = var4.length;
             var4 = 0;
-            if(!(!(var5 > var4))) { _fun0014_ip = 85; continue _fun0014 }
-case 86:
+            if(!(!(var5 > var4))) { _fun0012_ip = 83; continue _fun0012 }
+case 84:
             var6 = _closure1_slot10;
             var5 = var6.warn;
             var4 = 'Attempted to replace existing model state with initial model state';
             var4 = var5.bind(var6)(var4);
-            _fun0014_ip = 83; continue _fun0014;
-case 85:
+            _fun0012_ip = 81; continue _fun0012;
+case 83:
             var2 = _closure1_slot11;
             var2['modelState'] = var3;
-case 83:
+case 81:
             return var1;
         }
     };
@@ -1184,7 +1126,7 @@ case 83:
     var4['VOICE_FILTER_CATALOG_FETCH_FAILED'] = var11;
     var4['VOICE_FILTER_UPDATE_LIMITED_TIME_VOICES'] = var10;
     var10 = function handleDevToolsUpdateLimitedTimeVoices(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var7 = var1.timeInSeconds;
@@ -1206,14 +1148,14 @@ case 0:
             var3 = _closure1_slot11;
             var4 = var3.limitedTimeVoices;
             var3 = null;
-            if(!(var3 == var4)) { _fun0015_ip = 87; continue _fun0015 }
-case 88:
+            if(!(var3 == var4)) { _fun0013_ip = 85; continue _fun0013 }
+case 86:
             var5 = _closure1_slot10;
             var4 = var5.warn;
             var3 = 'No limited time voices available to update';
             var3 = var4.bind(var5)(var3);
-            _fun0015_ip = 76; continue _fun0015;
-case 87:
+            _fun0013_ip = 74; continue _fun0013;
+case 85:
             var3 = _closure1_slot11;
             var4 = var3.limitedTimeVoices;
             var3 = var7.toISOString;
@@ -1238,7 +1180,7 @@ case 87:
             var4['next_set_end'] = var3;
             var2 = _closure1_slot19;
             var2 = var2.bind(var1)();
-case 76:
+case 74:
             return var1;
         }
     };

@@ -24,8 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot4 = var7;
+    var8 = var4.View;
+    var _closure1_slot4 = var8;
     var7 = var4.TouchableOpacity;
     var _closure1_slot5 = var7;
     var4 = var4.Platform;
@@ -50,6 +50,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var7;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
+    var4 = {};
+    var4 = var7.bind(var1)(var8, var4);
+    var _closure1_slot12 = var4;
     var4 = 26;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -184,7 +187,7 @@ case 2:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -315,7 +318,7 @@ case 10:
             var1 = var1.colors;
             var1 = var1.MOBILE_TEXT_HEADING_PRIMARY;
             var23 = var2.bind(var3)(var1, var5);
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot13;
             var1 = 'android';
             var15 = var2.bind(var4)(var23, var1);
             var9 = _closure1_slot3;
@@ -389,11 +392,7 @@ case 12:
             var25 = true;
             var5['startExpanded'] = var25;
             var7 = function handleComponent() {
-                var4 = _closure1_slot10;
-                var3 = _closure1_slot4;
-                var2 = undefined;
-                var1 = {};
-                var1 = var4.bind(var2)(var3, var1);
+                var1 = _closure1_slot12;
                 return var1;
             };
             var5['handleComponent'] = var7;

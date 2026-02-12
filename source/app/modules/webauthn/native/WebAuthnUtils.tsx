@@ -77,7 +77,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot7 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -85,7 +85,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot11 = var1;
     var4 = function registerSecurityKey(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -114,7 +114,7 @@ case 20:
             var2 = var6.bind(var3)(var2);
             var2 = function promptForRegisterCredential() {
                 var1 = undefined;
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot11;
                 var3 = var4.apply;
                 var1 = arguments;
                 var2 = var1;
@@ -166,7 +166,7 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot12 = var4;
     var1 = function mutateAndroidRegisterChallengeForDiscoverable(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -190,10 +190,10 @@ case 11:
         };
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot13 = var1;
     var8 = function registerAndroidCredentialManagerPasskey(arg1) {
-        var4 = _closure1_slot8;
-        var2 = _closure1_slot9;
+        var4 = _closure1_slot12;
+        var2 = _closure1_slot13;
         var1 = _closure1_slot4;
         var1 = var1.DCDSecurityKeyManager;
         var1 = var1.registerPasskey;
@@ -203,7 +203,7 @@ case 11:
         var1 = var4.bind(var3)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var8;
+    var _closure1_slot14 = var8;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -218,9 +218,9 @@ case 11:
     var2 = var9.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
-    var9 = var6[var2];
+    var10 = var6[var2];
     var2 = metroImportAll;
-    var2 = var2.bind(var1)(var9);
+    var2 = var2.bind(var1)(var10);
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -234,8 +234,32 @@ case 11:
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.jsx;
-    var _closure1_slot6 = var2;
+    var10 = var2.jsx;
+    var _closure1_slot6 = var10;
+    var2 = 8;
+    var2 = var6[var2];
+    var11 = var9.bind(var1)(var2);
+    var2 = {};
+    var2 = var10.bind(var1)(var11, var2);
+    var _closure1_slot7 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var11 = var9.bind(var1)(var2);
+    var2 = {};
+    var2 = var10.bind(var1)(var11, var2);
+    var _closure1_slot8 = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var11 = var9.bind(var1)(var2);
+    var2 = {};
+    var2 = var10.bind(var1)(var11, var2);
+    var _closure1_slot9 = var2;
+    var2 = 11;
+    var2 = var6[var2];
+    var9 = var9.bind(var1)(var2);
+    var2 = {};
+    var2 = var10.bind(var1)(var9, var2);
+    var _closure1_slot10 = var2;
     var2 = {};
     var10 = function get hasAndroidPasskeySupport() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -310,15 +334,7 @@ case 0:
             var8 = '';
             var3['title'] = var8;
             var8 = function render() {
-                var4 = _closure1_slot6;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 8;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure1_slot7;
                 return var1;
             };
             var3['render'] = var8;
@@ -340,15 +356,7 @@ case 0:
             var6 = var10.bind(var11)(var6);
             var2['title'] = var6;
             var6 = function render() {
-                var4 = _closure1_slot6;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 9;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure1_slot8;
                 return var1;
             };
             var2['render'] = var6;
@@ -357,12 +365,12 @@ case 0:
 case 28:
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 10;
+            var10 = 12;
             var10 = var14[var10];
             var12 = var11.bind(var8)(var10);
             var11 = var12.getHeaderCloseButton;
             var13 = _closure1_slot1;
-            var10 = 11;
+            var10 = 13;
             var10 = var14[var10];
             var10 = var13.bind(var8)(var10);
             var10 = var10.closePasskeyUpsellModal;
@@ -377,7 +385,7 @@ case 27:
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 12;
+                var1 = 14;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -405,15 +413,7 @@ case 27:
             var10 = var2.REGISTER;
             var3 = {};
             var11 = function render() {
-                var4 = _closure1_slot6;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 13;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure1_slot9;
                 return var1;
             };
             var3['render'] = var11;
@@ -434,7 +434,7 @@ case 27:
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -461,12 +461,12 @@ case 27:
 case 30:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var7 = 10;
+            var7 = 12;
             var7 = var13[var7];
             var11 = var10.bind(var8)(var7);
             var10 = var11.getHeaderCloseButton;
             var12 = _closure1_slot1;
-            var7 = 11;
+            var7 = 13;
             var7 = var13[var7];
             var7 = var12.bind(var8)(var7);
             var7 = var7.closePasskeyUpsellModal;
@@ -478,15 +478,7 @@ case 29:
             var3 = var2.SUCCESS;
             var2 = {};
             var5 = function render() {
-                var4 = _closure1_slot6;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 15;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var1 = {};
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure1_slot10;
                 return var1;
             };
             var2['render'] = var5;
@@ -509,8 +501,8 @@ case 29:
     var2['getScreens'] = var9;
     var2['registerAndroidCredentialManagerPasskey'] = var8;
     var8 = function registerAndroidDevicePasskey(arg1) {
-        var4 = _closure1_slot8;
-        var2 = _closure1_slot9;
+        var4 = _closure1_slot12;
+        var2 = _closure1_slot13;
         var1 = _closure1_slot4;
         var1 = var1.DCDSecurityKeyManager;
         var1 = var1.register;
@@ -535,11 +527,11 @@ case 0:
             var1 = var1.bind(var5)();
             if(var1) { _fun0007_ip = 31; continue _fun0007 }
 case 32:
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot12;
             var1 = var1.bind(var3)(var4);
             _fun0007_ip = 33; continue _fun0007;
 case 31:
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot14;
             var1 = var2.bind(var3)(var4);
 case 33:
             return var1;

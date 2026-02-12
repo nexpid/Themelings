@@ -3,56 +3,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var5 = require;
-        var13 = metroImportDefault;
+        var7 = metroImportDefault;
         var3 = exports;
         var6 = dependencyMap;
         var _closure1_slot0 = var5;
-        var _closure1_slot1 = var13;
+        var _closure1_slot1 = var7;
         var _closure1_slot2 = var6;
-        var1 = function ArchivedSection() {
-            var1 = _closure1_slot21;
-            var4 = undefined;
-            var8 = var1.bind(var4)();
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 16;
-            var1 = var12[var1];
-            var2 = var11.bind(var4)(var1);
-            var1 = var2.useClientThemesOverride;
-            var7 = var1.bind(var2)();
-            var3 = _closure1_slot17;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var9 = var8.section;
-            var6 = new Array(2);
-            var6[0] = var9;
-            var6[1] = var7;
-            var1['style'] = var6;
-            var7 = _closure1_slot17;
-            var5 = 17;
-            var5 = var12[var5];
-            var5 = var11.bind(var4)(var5);
-            var6 = var5.Text;
-            var5 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-muted'};
-            var8 = var8.divider;
-            var5['style'] = var8;
-            var8 = 18;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.3+LO1w;
-            var8 = var9.bind(var10)(var8);
-            var5['children'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var _closure1_slot25 = var1;
         var1 = function SearchSection(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -117,7 +73,7 @@ case 4:
                 return var1;
             }
         };
-        var _closure1_slot26 = var1;
+        var _closure1_slot30 = var1;
         var1 = function ArchivedMissingReadHistoryPermission(arg1) {
             var1 = arg1;
             var12 = var1.channelName;
@@ -157,7 +113,7 @@ case 4:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var _closure1_slot27 = var1;
+        var _closure1_slot31 = var1;
         var1 = function SearchMissingReadHistoryPermission(arg1) {
             var1 = arg1;
             var12 = var1.channelName;
@@ -197,7 +153,7 @@ case 4:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var _closure1_slot28 = var1;
+        var _closure1_slot32 = var1;
         var1 = function SortAndViewOptions(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -205,7 +161,7 @@ case 0:
                 var2 = var2.channel;
                 var3 = _closure1_slot21;
                 var4 = undefined;
-                var15 = var3.bind(var4)();
+                var14 = var3.bind(var4)();
                 var7 = var2.id;
                 var _closure2_slot0 = var7;
                 var6 = _closure1_slot3;
@@ -222,16 +178,16 @@ case 0:
                     var _closure3_slot0 = var6;
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 24;
                     var4 = var2[var1];
                     var1 = undefined;
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.openLazy;
                     var9 = _closure1_slot0;
-                    var3 = 25;
+                    var3 = 26;
                     var3 = var2[var3];
                     var9 = var9.bind(var1)(var3);
-                    var3 = 24;
+                    var3 = 25;
                     var3 = var2[var3];
                     var2 = var2.paths;
                     var3 = var9.bind(var1)(var3, var2);
@@ -240,7 +196,7 @@ case 0:
                     var7 = function onClose() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 23;
+                        var1 = 24;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -255,11 +211,11 @@ case 0:
                 };
                 var5 = var5.bind(var6)(var1, var3);
                 var1 = var2.isMediaChannel;
-                var14 = var1.bind(var2)();
+                var13 = var1.bind(var2)();
                 var3 = _closure1_slot17;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var1 = var6[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.PressableOpacity;
@@ -268,15 +224,15 @@ case 0:
                 var1['accessibilityRole'] = var6;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var19 = 18;
-                var8 = var6[var19];
+                var18 = 18;
+                var8 = var6[var18];
                 var8 = var7.bind(var4)(var8);
                 var10 = var8.intl;
                 var8 = var10.string;
-                var6 = var6[var19];
+                var6 = var6[var18];
                 var6 = var7.bind(var4)(var6);
                 var7 = var6.t;
-                if(var14) { _fun0003_ip = 5; continue _fun0003 }
+                if(var13) { _fun0003_ip = 5; continue _fun0003 }
 case 6:
                 var6 = var7.Iqetyr;
                 var6 = var8.bind(var10)(var6);
@@ -290,68 +246,59 @@ case 7:
                 var1['androidRippleConfig'] = var6;
                 var6 = 0.8;
                 var1['activeOpacity'] = var6;
-                var6 = var15.optionsContainer;
+                var6 = var14.optionsContainer;
                 var1['style'] = var6;
                 var1['onPress'] = var5;
                 var7 = _closure1_slot18;
                 var6 = _closure1_slot4;
                 var5 = {};
-                var8 = var15.optionsPill;
+                var8 = var14.optionsPill;
                 var5['style'] = var8;
-                var13 = _closure1_slot17;
+                var12 = _closure1_slot17;
                 var11 = _closure1_slot0;
-                var16 = _closure1_slot2;
-                var8 = 27;
-                var8 = var16[var8];
+                var15 = _closure1_slot2;
+                var8 = 28;
+                var8 = var15[var8];
                 var8 = var11.bind(var4)(var8);
                 var10 = var8.ArrowsUpDownIcon;
                 var8 = {};
-                var12 = 'xs';
-                var8['size'] = var12;
-                var17 = var15.sortOptionsIcon;
-                var8['style'] = var17;
-                var10 = var13.bind(var4)(var10, var8);
+                var16 = 'xs';
+                var8['size'] = var16;
+                var16 = var14.sortOptionsIcon;
+                var8['style'] = var16;
+                var10 = var12.bind(var4)(var10, var8);
                 var8 = new Array(3);
                 var8[0] = var10;
-                var13 = _closure1_slot17;
+                var12 = _closure1_slot17;
                 var10 = 17;
-                var10 = var16[var10];
+                var10 = var15[var10];
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.Text;
                 var10 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
-                var15 = var15.sortOptionsText;
-                var10['style'] = var15;
-                var18 = _closure1_slot0;
-                var15 = _closure1_slot2;
-                var16 = var15[var19];
-                var16 = var18.bind(var4)(var16);
-                var17 = var16.intl;
-                var16 = var17.string;
-                var15 = var15[var19];
-                var15 = var18.bind(var4)(var15);
-                var15 = var15.t;
-                if(var14) { _fun0003_ip = 8; continue _fun0003 }
+                var14 = var14.sortOptionsText;
+                var10['style'] = var14;
+                var17 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var15 = var14[var18];
+                var15 = var17.bind(var4)(var15);
+                var16 = var15.intl;
+                var15 = var16.string;
+                var14 = var14[var18];
+                var14 = var17.bind(var4)(var14);
+                var14 = var14.t;
+                if(var13) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                var14 = var15.xyYt8A;
-                var14 = var16.bind(var17)(var14);
+                var13 = var14.xyYt8A;
+                var13 = var15.bind(var16)(var13);
                 _fun0003_ip = 10; continue _fun0003;
 case 8:
-                var15 = var15.JxU0wr;
-                var14 = var16.bind(var17)(var15);
+                var14 = var14.JxU0wr;
+                var13 = var15.bind(var16)(var14);
 case 10:
-                var10['children'] = var14;
-                var10 = var13.bind(var4)(var11, var10);
+                var10['children'] = var13;
+                var10 = var12.bind(var4)(var11, var10);
                 var8[1] = var10;
-                var11 = _closure1_slot17;
-                var10 = _closure1_slot0;
-                var13 = _closure1_slot2;
-                var9 = 28;
-                var9 = var13[var9];
-                var9 = var10.bind(var4)(var9);
-                var10 = var9.ChevronSmallDownIcon;
-                var9 = {};
-                var9['size'] = var12;
-                var9 = var11.bind(var4)(var10, var9);
+                var9 = _closure1_slot22;
                 var8[2] = var9;
                 var5['children'] = var8;
                 var5 = var7.bind(var4)(var6, var5);
@@ -360,7 +307,7 @@ case 10:
                 return var1;
             }
         };
-        var _closure1_slot29 = var1;
+        var _closure1_slot33 = var1;
         var1 = function TagFilter(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -369,7 +316,7 @@ case 0:
                 var _closure2_slot0 = var1;
                 var2 = _closure1_slot21;
                 var4 = undefined;
-                var16 = var2.bind(var4)();
+                var14 = var2.bind(var4)();
                 var2 = _closure1_slot11;
                 var1 = var1.id;
                 var1 = var2.bind(var4)(var1);
@@ -377,34 +324,34 @@ case 0:
                 var3 = _closure1_slot17;
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 26;
+                var1 = 27;
                 var1 = var6[var1];
                 var1 = var10.bind(var4)(var1);
                 var2 = var1.PressableOpacity;
                 var1 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8};
-                var15 = 18;
-                var7 = var6[var15];
+                var17 = 18;
+                var7 = var6[var17];
                 var7 = var10.bind(var4)(var7);
                 var8 = var7.intl;
                 var7 = var8.string;
-                var6 = var6[var15];
+                var6 = var6[var17];
                 var6 = var10.bind(var4)(var6);
                 var6 = var6.t;
                 var6 = var6.TdqRTh;
                 var6 = var7.bind(var8)(var6);
                 var1['accessibilityLabel'] = var6;
-                var6 = var16.optionsContainer;
+                var6 = var14.optionsContainer;
                 var1['style'] = var6;
                 var5 = function onPress() {
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 24;
                     var4 = var2[var1];
                     var1 = undefined;
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.openLazy;
                     var4 = _closure1_slot0;
-                    var3 = 25;
+                    var3 = 26;
                     var3 = var2[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = 29;
@@ -422,7 +369,7 @@ case 0:
                 var7 = _closure1_slot18;
                 var6 = _closure1_slot4;
                 var5 = {};
-                var8 = var16.optionsPill;
+                var8 = var14.optionsPill;
                 var5['style'] = var8;
                 var10 = var18.size;
                 var8 = 0;
@@ -432,57 +379,49 @@ case 12:
                 var12 = _closure1_slot17;
                 var11 = _closure1_slot4;
                 var8 = {};
-                var13 = var16.countContainer;
+                var13 = var14.countContainer;
                 var8['style'] = var13;
-                var17 = _closure1_slot17;
-                var14 = _closure1_slot0;
+                var16 = _closure1_slot17;
+                var15 = _closure1_slot0;
                 var19 = _closure1_slot2;
                 var13 = 17;
                 var13 = var19[var13];
-                var13 = var14.bind(var4)(var13);
-                var14 = var13.Text;
+                var13 = var15.bind(var4)(var13);
+                var15 = var13.Text;
                 var13 = {'variant': 'text-xs/bold', 'color': 'always-white'};
-                var19 = var16.countText;
+                var19 = var14.countText;
                 var13['style'] = var19;
                 var18 = var18.size;
                 var13['children'] = var18;
-                var13 = var17.bind(var4)(var14, var13);
+                var13 = var16.bind(var4)(var15, var13);
                 var8['children'] = var13;
                 var10 = var12.bind(var4)(var11, var8);
 case 11:
                 var8 = new Array(3);
                 var8[0] = var10;
-                var14 = _closure1_slot17;
-                var10 = _closure1_slot0;
-                var12 = _closure1_slot2;
-                var11 = 17;
-                var11 = var12[var11];
-                var11 = var10.bind(var4)(var11);
-                var13 = var11.Text;
-                var11 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
-                var16 = var16.sortOptionsText;
-                var11['style'] = var16;
-                var16 = var12[var15];
-                var16 = var10.bind(var4)(var16);
-                var17 = var16.intl;
-                var16 = var17.string;
-                var15 = var12[var15];
-                var15 = var10.bind(var4)(var15);
-                var15 = var15.t;
-                var15 = var15.112vVE;
-                var15 = var16.bind(var17)(var15);
-                var11['children'] = var15;
-                var11 = var14.bind(var4)(var13, var11);
-                var8[1] = var11;
-                var11 = _closure1_slot17;
-                var9 = 28;
-                var9 = var12[var9];
-                var9 = var10.bind(var4)(var9);
-                var10 = var9.ChevronSmallDownIcon;
-                var9 = {};
-                var12 = 'xs';
-                var9['size'] = var12;
-                var9 = var11.bind(var4)(var10, var9);
+                var12 = _closure1_slot17;
+                var16 = _closure1_slot0;
+                var13 = _closure1_slot2;
+                var10 = 17;
+                var10 = var13[var10];
+                var10 = var16.bind(var4)(var10);
+                var11 = var10.Text;
+                var10 = {'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
+                var14 = var14.sortOptionsText;
+                var10['style'] = var14;
+                var14 = var13[var17];
+                var14 = var16.bind(var4)(var14);
+                var15 = var14.intl;
+                var14 = var15.string;
+                var13 = var13[var17];
+                var13 = var16.bind(var4)(var13);
+                var13 = var13.t;
+                var13 = var13.112vVE;
+                var13 = var14.bind(var15)(var13);
+                var10['children'] = var13;
+                var10 = var12.bind(var4)(var11, var10);
+                var8[1] = var10;
+                var9 = _closure1_slot23;
                 var8[2] = var9;
                 var5['children'] = var8;
                 var5 = var7.bind(var4)(var6, var5);
@@ -491,7 +430,7 @@ case 11:
                 return var1;
             }
         };
-        var _closure1_slot30 = var1;
+        var _closure1_slot34 = var1;
         var1 = function onForumViewableItemsChanged(arg1) {
             var1 = arg1;
             var3 = var1.changed;
@@ -550,225 +489,301 @@ case 6:
             var1 = undefined;
             return var1;
         };
-        var _closure1_slot31 = var1;
+        var _closure1_slot35 = var1;
         var4 = global;
-        var9 = var4.Object;
-        var8 = var9.defineProperty;
-        var7 = {};
+        var10 = var4.Object;
+        var9 = var10.defineProperty;
+        var8 = {};
         var1 = true;
-        var7['value'] = var1;
+        var8['value'] = var1;
         var1 = '__esModule';
-        var1 = var8.bind(var9)(var3, var1, var7);
-        var12 = 0;
-        var8 = var6[var12];
-        var7 = metroImportAll;
+        var1 = var9.bind(var10)(var3, var1, var8);
+        var15 = 0;
+        var9 = var6[var15];
+        var8 = metroImportAll;
         var1 = undefined;
-        var8 = var7.bind(var1)(var8);
+        var8 = var8.bind(var1)(var9);
         var _closure1_slot3 = var8;
-        var11 = 1;
-        var7 = var6[var11];
-        var7 = var5.bind(var1)(var7);
-        var9 = var7.View;
-        var _closure1_slot4 = var9;
-        var7 = var7.FlatList;
-        var _closure1_slot5 = var7;
-        var7 = 2;
-        var7 = var6[var7];
-        var7 = var13.bind(var1)(var7);
-        var _closure1_slot6 = var7;
-        var7 = 3;
-        var7 = var6[var7];
-        var7 = var13.bind(var1)(var7);
-        var _closure1_slot7 = var7;
-        var14 = 4;
-        var7 = var6[var14];
-        var7 = var13.bind(var1)(var7);
-        var _closure1_slot8 = var7;
-        var7 = 5;
-        var7 = var6[var7];
-        var7 = var13.bind(var1)(var7);
-        var _closure1_slot9 = var7;
-        var7 = 6;
-        var7 = var6[var7];
-        var7 = var13.bind(var1)(var7);
-        var _closure1_slot10 = var7;
-        var7 = 7;
-        var7 = var6[var7];
-        var7 = var5.bind(var1)(var7);
-        var9 = var7.useForumChannelStore;
-        var _closure1_slot11 = var9;
-        var7 = var7.useForumChannelStoreApi;
-        var _closure1_slot12 = var7;
-        var7 = 8;
-        var7 = var6[var7];
-        var7 = var5.bind(var1)(var7);
-        var9 = var7.AnalyticsObjects;
-        var _closure1_slot13 = var9;
-        var9 = var7.AnalyticsPages;
-        var _closure1_slot14 = var9;
-        var7 = var7.AnalyticsSections;
-        var _closure1_slot15 = var7;
-        var7 = 9;
-        var7 = var6[var7];
-        var7 = var5.bind(var1)(var7);
-        var7 = var7.ANDROID_FOREGROUND_RIPPLE;
-        var _closure1_slot16 = var7;
-        var7 = 10;
-        var7 = var6[var7];
-        var7 = var5.bind(var1)(var7);
-        var15 = var7.Fonts;
-        var7 = 11;
-        var7 = var6[var7];
-        var7 = var5.bind(var1)(var7);
-        var9 = var7.jsx;
+        var14 = 1;
+        var9 = var6[var14];
+        var9 = var5.bind(var1)(var9);
+        var10 = var9.View;
+        var _closure1_slot4 = var10;
+        var9 = var9.FlatList;
+        var _closure1_slot5 = var9;
+        var9 = 2;
+        var9 = var6[var9];
+        var9 = var7.bind(var1)(var9);
+        var _closure1_slot6 = var9;
+        var9 = 3;
+        var9 = var6[var9];
+        var9 = var7.bind(var1)(var9);
+        var _closure1_slot7 = var9;
+        var16 = 4;
+        var9 = var6[var16];
+        var9 = var7.bind(var1)(var9);
+        var _closure1_slot8 = var9;
+        var9 = 5;
+        var9 = var6[var9];
+        var9 = var7.bind(var1)(var9);
+        var _closure1_slot9 = var9;
+        var9 = 6;
+        var9 = var6[var9];
+        var9 = var7.bind(var1)(var9);
+        var _closure1_slot10 = var9;
+        var9 = 7;
+        var9 = var6[var9];
+        var9 = var5.bind(var1)(var9);
+        var10 = var9.useForumChannelStore;
+        var _closure1_slot11 = var10;
+        var9 = var9.useForumChannelStoreApi;
+        var _closure1_slot12 = var9;
+        var9 = 8;
+        var9 = var6[var9];
+        var9 = var5.bind(var1)(var9);
+        var10 = var9.AnalyticsObjects;
+        var _closure1_slot13 = var10;
+        var10 = var9.AnalyticsPages;
+        var _closure1_slot14 = var10;
+        var9 = var9.AnalyticsSections;
+        var _closure1_slot15 = var9;
+        var9 = 9;
+        var9 = var6[var9];
+        var9 = var5.bind(var1)(var9);
+        var9 = var9.ANDROID_FOREGROUND_RIPPLE;
+        var _closure1_slot16 = var9;
+        var9 = 10;
+        var9 = var6[var9];
+        var9 = var5.bind(var1)(var9);
+        var13 = var9.Fonts;
+        var9 = 11;
+        var9 = var6[var9];
+        var10 = var5.bind(var1)(var9);
+        var9 = var10.jsx;
         var _closure1_slot17 = var9;
-        var9 = var7.jsxs;
-        var _closure1_slot18 = var9;
-        var7 = var7.Fragment;
-        var _closure1_slot19 = var7;
-        var9 = var4.Set;
+        var11 = var10.jsxs;
+        var _closure1_slot18 = var11;
+        var10 = var10.Fragment;
+        var _closure1_slot19 = var10;
+        var11 = var4.Set;
         var4 = new Array(5);
-        var7 = 'archived_section';
-        var4[0] = var7;
-        var7 = 'search_section';
-        var4[1] = var7;
-        var7 = 'missing_permission_search';
-        var4[2] = var7;
-        var7 = 'missing_permission_archived_threads';
-        var4[3] = var7;
-        var7 = 'loading_section';
-        var4[4] = var7;
-        var7 = var9.prototype;
-        var7 = Object.create(var7, {constructor: {value: var9}});
-        var25 = var7;
-        var24 = var4;
-        var4 = new var25[var9](var24, var23);
-        var4 = var4 instanceof Object ? var4 : var7;
+        var10 = 'archived_section';
+        var4[0] = var10;
+        var10 = 'search_section';
+        var4[1] = var10;
+        var10 = 'missing_permission_search';
+        var4[2] = var10;
+        var10 = 'missing_permission_archived_threads';
+        var4[3] = var10;
+        var10 = 'loading_section';
+        var4[4] = var10;
+        var10 = var11.prototype;
+        var10 = Object.create(var10, {constructor: {value: var11}});
+        var26 = var10;
+        var25 = var4;
+        var4 = new var26[var11](var25, var24);
+        var4 = var4 instanceof Object ? var4 : var10;
         var _closure1_slot20 = var4;
-        var18 = 12;
-        var4 = var6[var18];
-        var9 = var5.bind(var1)(var4);
-        var7 = var9.createStyles;
+        var19 = 12;
+        var4 = var6[var19];
+        var12 = var5.bind(var1)(var4);
+        var11 = var12.createStyles;
+        var10 = {};
         var4 = {};
-        var10 = {};
-        var10['flex'] = var11;
-        var11 = 13;
-        var16 = var6[var11];
-        var16 = var13.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.BACKGROUND_BASE_LOWER;
-        var10['backgroundColor'] = var16;
-        var4['background'] = var10;
-        var10 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingHorizontal': 12, 'paddingTop': 8, 'paddingBottom': 12};
-        var4['headerRow'] = var10;
-        var10 = {'backgroundColor': null, 'width': '100%', 'height': 1};
-        var16 = var6[var11];
-        var16 = var13.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.BORDER_SUBTLE;
-        var10['backgroundColor'] = var16;
-        var4['headerDivider'] = var10;
-        var10 = {'flex': 1, 'alignSelf': 'stretch', 'alignItems': 'center', 'position': 'relative'};
-        var4['container'] = var10;
-        var10 = {};
-        var10['height'] = var12;
-        var4['noHeight'] = var10;
-        var10 = {'flex': 1, 'paddingTop': 8, 'paddingHorizontal': 12, 'alignSelf': 'stretch', 'marginBottom': 0};
-        var4['list'] = var10;
-        var10 = {'alignItems': 'flex-start', 'justifyContent': 'flex-end'};
-        var4['section'] = var10;
-        var10 = {'marginTop': 12, 'paddingStart': 4};
-        var12 = 14;
-        var16 = var6[var12];
-        var20 = var13.bind(var1)(var16);
-        var19 = var15.PRIMARY_BOLD;
-        var16 = var6[var11];
-        var16 = var13.bind(var1)(var16);
-        var16 = var16.colors;
-        var23 = var16.TEXT_MUTED;
-        var21 = {'marginBottom': 12, 'uppercase': true};
-        var25 = undefined;
-        var24 = var19;
-        var22 = var18;
-        var23 = var25[var20](var24, var23, var22, var21, var20);
-        var24 = var10;
-        var16 = copyDataProperties(var24, var23);
-        var4['divider'] = var10;
-        var10 = {'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'height': 48};
-        var16 = var6[var11];
-        var16 = var13.bind(var1)(var16);
-        var16 = var16.colors;
-        var16 = var16.BACKGROUND_BASE_LOWEST;
-        var10['backgroundColor'] = var16;
-        var16 = var6[var11];
-        var16 = var13.bind(var1)(var16);
-        var16 = var16.radii;
-        var16 = var16.xs;
-        var10['borderRadius'] = var16;
-        var4['missingPermissionContainer'] = var10;
-        var10 = {};
-        var16 = var6[var12];
-        var17 = var13.bind(var1)(var16);
-        var16 = var15.PRIMARY_NORMAL;
-        var15 = var6[var11];
-        var15 = var13.bind(var1)(var15);
-        var15 = var15.colors;
-        var15 = var15.TEXT_MUTED;
-        var23 = var17.bind(var1)(var16, var15, var18);
-        var24 = var10;
-        var15 = copyDataProperties(var24, var23);
-        var4['missingPermissionText'] = var10;
-        var10 = {};
-        var15 = 'hidden';
-        var10['overflow'] = var15;
-        var15 = var6[var11];
-        var15 = var13.bind(var1)(var15);
-        var15 = var15.radii;
-        var15 = var15.xl;
-        var10['borderRadius'] = var15;
-        var4['optionsContainer'] = var10;
-        var10 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingHorizontal': 8, 'height': 32};
-        var15 = var6[var11];
-        var15 = var13.bind(var1)(var15);
-        var15 = var15.colors;
-        var15 = var15.BACKGROUND_BASE_LOWEST;
-        var10['backgroundColor'] = var15;
-        var4['optionsPill'] = var10;
-        var10 = {};
-        var15 = var6[var11];
-        var15 = var13.bind(var1)(var15);
-        var15 = var15.colors;
-        var15 = var15.INTERACTIVE_TEXT_DEFAULT;
-        var10['color'] = var15;
-        var10['marginLeft'] = var14;
-        var4['sortOptionsIcon'] = var10;
-        var10 = {};
-        var10['marginHorizontal'] = var14;
-        var4['sortOptionsText'] = var10;
-        var10 = {'backgroundColor': null, 'borderRadius': 20, 'marginRight': 4, 'minWidth': 20, 'height': 20, 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
-        var11 = var6[var11];
-        var11 = var13.bind(var1)(var11);
-        var11 = var11.colors;
-        var11 = var11.BACKGROUND_BRAND;
-        var10['backgroundColor'] = var11;
-        var4['countContainer'] = var10;
-        var10 = {};
-        var11 = 15;
-        var11 = var6[var11];
-        var13 = var5.bind(var1)(var11);
-        var11 = var13.isAndroid;
-        var13 = var11.bind(var13)();
-        var11 = undefined;
-        if(!var13) { _fun0001_ip = 19; continue _fun0001 }
+        var4['flex'] = var14;
+        var14 = 13;
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var17 = var17.BACKGROUND_BASE_LOWER;
+        var4['backgroundColor'] = var17;
+        var10['background'] = var4;
+        var4 = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingHorizontal': 12, 'paddingTop': 8, 'paddingBottom': 12};
+        var10['headerRow'] = var4;
+        var4 = {'backgroundColor': null, 'width': '100%', 'height': 1};
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var17 = var17.BORDER_SUBTLE;
+        var4['backgroundColor'] = var17;
+        var10['headerDivider'] = var4;
+        var4 = {'flex': 1, 'alignSelf': 'stretch', 'alignItems': 'center', 'position': 'relative'};
+        var10['container'] = var4;
+        var4 = {};
+        var4['height'] = var15;
+        var10['noHeight'] = var4;
+        var4 = {'flex': 1, 'paddingTop': 8, 'paddingHorizontal': 12, 'alignSelf': 'stretch', 'marginBottom': 0};
+        var10['list'] = var4;
+        var4 = {'alignItems': 'flex-start', 'justifyContent': 'flex-end'};
+        var10['section'] = var4;
+        var4 = {'marginTop': 12, 'paddingStart': 4};
+        var15 = 14;
+        var17 = var6[var15];
+        var21 = var7.bind(var1)(var17);
+        var20 = var13.PRIMARY_BOLD;
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var24 = var17.TEXT_MUTED;
+        var22 = {'marginBottom': 12, 'uppercase': true};
+        var26 = undefined;
+        var25 = var20;
+        var23 = var19;
+        var24 = var26[var21](var25, var24, var23, var22, var21);
+        var25 = var4;
+        var17 = copyDataProperties(var25, var24);
+        var10['divider'] = var4;
+        var4 = {'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'height': 48};
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var17 = var17.BACKGROUND_BASE_LOWEST;
+        var4['backgroundColor'] = var17;
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.radii;
+        var17 = var17.xs;
+        var4['borderRadius'] = var17;
+        var10['missingPermissionContainer'] = var4;
+        var4 = {};
+        var17 = var6[var15];
+        var18 = var7.bind(var1)(var17);
+        var17 = var13.PRIMARY_NORMAL;
+        var13 = var6[var14];
+        var13 = var7.bind(var1)(var13);
+        var13 = var13.colors;
+        var13 = var13.TEXT_MUTED;
+        var24 = var18.bind(var1)(var17, var13, var19);
+        var25 = var4;
+        var13 = copyDataProperties(var25, var24);
+        var10['missingPermissionText'] = var4;
+        var4 = {};
+        var13 = 'hidden';
+        var4['overflow'] = var13;
+        var13 = var6[var14];
+        var13 = var7.bind(var1)(var13);
+        var13 = var13.radii;
+        var13 = var13.xl;
+        var4['borderRadius'] = var13;
+        var10['optionsContainer'] = var4;
+        var13 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'paddingHorizontal': 8, 'height': 32};
+        var4 = 32;
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var17 = var17.BACKGROUND_BASE_LOWEST;
+        var13['backgroundColor'] = var17;
+        var10['optionsPill'] = var13;
+        var13 = {};
+        var17 = var6[var14];
+        var17 = var7.bind(var1)(var17);
+        var17 = var17.colors;
+        var17 = var17.INTERACTIVE_TEXT_DEFAULT;
+        var13['color'] = var17;
+        var13['marginLeft'] = var16;
+        var10['sortOptionsIcon'] = var13;
+        var13 = {};
+        var13['marginHorizontal'] = var16;
+        var10['sortOptionsText'] = var13;
+        var13 = {'backgroundColor': null, 'borderRadius': 20, 'marginRight': 4, 'minWidth': 20, 'height': 20, 'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
+        var14 = var6[var14];
+        var14 = var7.bind(var1)(var14);
+        var14 = var14.colors;
+        var14 = var14.BACKGROUND_BRAND;
+        var13['backgroundColor'] = var14;
+        var10['countContainer'] = var13;
+        var13 = {};
+        var14 = 15;
+        var14 = var6[var14];
+        var16 = var5.bind(var1)(var14);
+        var14 = var16.isAndroid;
+        var16 = var14.bind(var16)();
+        var14 = undefined;
+        if(!var16) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-        var11 = var12;
+        var14 = var15;
 case 19:
-        var10['lineHeight'] = var11;
-        var4['countText'] = var10;
-        var4 = var7.bind(var9)(var4);
-        var _closure1_slot21 = var4;
-        var4 = {'waitForInteraction': false, 'viewAreaCoveragePercentThreshold': 50, 'minimumViewTime': 100};
-        var _closure1_slot22 = var4;
+        var13['lineHeight'] = var14;
+        var10['countText'] = var13;
+        var10 = var11.bind(var12)(var10);
+        var _closure1_slot21 = var10;
+        var10 = 23;
+        var11 = var6[var10];
+        var11 = var5.bind(var1)(var11);
+        var13 = var11.ChevronSmallDownIcon;
+        var11 = {};
+        var12 = 'xs';
+        var11['size'] = var12;
+        var11 = var9.bind(var1)(var13, var11);
+        var _closure1_slot22 = var11;
+        var10 = var6[var10];
+        var10 = var5.bind(var1)(var10);
+        var11 = var10.ChevronSmallDownIcon;
+        var10 = {};
+        var10['size'] = var12;
+        var10 = var9.bind(var1)(var11, var10);
+        var _closure1_slot23 = var10;
+        var12 = false;
+        var10 = {'waitForInteraction': false, 'viewAreaCoveragePercentThreshold': 50, 'minimumViewTime': 100};
+        var _closure1_slot24 = var10;
+        var11 = function ArchivedSection() {
+            var1 = _closure1_slot21;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 16;
+            var1 = var12[var1];
+            var2 = var11.bind(var4)(var1);
+            var1 = var2.useClientThemesOverride;
+            var7 = var1.bind(var2)();
+            var3 = _closure1_slot17;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var9 = var8.section;
+            var6 = new Array(2);
+            var6[0] = var9;
+            var6[1] = var7;
+            var1['style'] = var6;
+            var7 = _closure1_slot17;
+            var5 = 17;
+            var5 = var12[var5];
+            var5 = var11.bind(var4)(var5);
+            var6 = var5.Text;
+            var5 = {'style': null, 'variant': 'text-xs/bold', 'color': 'text-muted'};
+            var8 = var8.divider;
+            var5['style'] = var8;
+            var8 = 18;
+            var9 = var12[var8];
+            var9 = var11.bind(var4)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var12[var8];
+            var8 = var11.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.3+LO1w;
+            var8 = var9.bind(var10)(var8);
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        };
+        var10 = {};
+        var10 = var9.bind(var1)(var11, var10);
+        var _closure1_slot25 = var10;
+        var10 = 31;
+        var10 = var6[var10];
+        var11 = var7.bind(var1)(var10);
+        var10 = {};
+        var10['fillScreen'] = var12;
+        var10 = var9.bind(var1)(var11, var10);
+        var _closure1_slot26 = var10;
+        var4 = var6[var4];
+        var7 = var7.bind(var1)(var4);
+        var4 = {'absolute': true, 'mix': true};
+        var4 = var9.bind(var1)(var7, var4);
+        var _closure1_slot27 = var4;
         var7 = var8.forwardRef;
         var4 = function(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -792,7 +807,7 @@ case 0:
                 var26 = var1.tagSetting;
                 var10 = _closure1_slot1;
                 var13 = _closure1_slot2;
-                var1 = 31;
+                var1 = 33;
                 var1 = var13[var1];
                 var9 = var10.bind(var5)(var1);
                 var8 = var9.useForumChannelSeenManager;
@@ -1005,23 +1020,22 @@ case 23:
                 var _closure2_slot9 = var9;
                 var4 = var3.searchResults;
                 var _closure2_slot10 = var4;
-                var3 = 32;
+                var3 = 34;
                 var3 = var13[var3];
                 var3 = var10.bind(var5)(var3);
                 var3 = var3.bind(var5)(var7);
-                var _closure2_slot11 = var3;
                 var12 = _closure1_slot0;
                 var10 = 19;
                 var20 = var13[var10];
                 var21 = var12.bind(var5)(var20);
                 var20 = var21.useCanViewArchivedPosts;
                 var22 = var20.bind(var21)(var7);
-                var _closure2_slot12 = var22;
+                var _closure2_slot11 = var22;
                 var10 = var13[var10];
                 var20 = var12.bind(var5)(var10);
                 var10 = var20.useCanSearchForumPosts;
                 var21 = var10.bind(var20)(var7);
-                var _closure2_slot13 = var21;
+                var _closure2_slot12 = var21;
                 var10 = 16;
                 var10 = var13[var10];
                 var12 = var12.bind(var5)(var10);
@@ -1043,7 +1057,7 @@ case 0:
                         var2 = var2 == var3;
                         if(!var2) { _fun0009_ip = 38; continue _fun0009 }
 case 39:
-                        var2 = _closure2_slot12;
+                        var2 = _closure2_slot11;
 case 38:
                         if(!var2) { _fun0009_ip = 40; continue _fun0009 }
 case 41:
@@ -1088,14 +1102,14 @@ case 0:
                         var2 = null;
                         var2 = var2 == var6;
                         if(!var2) { _fun0010_ip = 46; continue _fun0010 }
-case 47:
-                        var2 = _closure2_slot12;
+case 15:
+                        var2 = _closure2_slot11;
 case 46:
-                        if(!var2) { _fun0010_ip = 48; continue _fun0010 }
-case 14:
+                        if(!var2) { _fun0010_ip = 47; continue _fun0010 }
+case 48:
                         var6 = _closure2_slot7;
                         var2 = !var6;
-case 48:
+case 47:
                         if(!var2) { _fun0010_ip = 49; continue _fun0010 }
 case 50:
                         var2 = _closure2_slot5;
@@ -1118,7 +1132,7 @@ case 53:
                     }
                 };
                 var8 = var12.bind(var23)(var8, var10);
-                var _closure2_slot14 = var8;
+                var _closure2_slot13 = var8;
                 var12 = _closure1_slot3;
                 var10 = var12.useMemo;
                 var8 = new Array(8);
@@ -1151,43 +1165,43 @@ case 55:
                         var9 = var3;
                         var8 = var1;
                         var3 = apply(var10, var9, var8);
-                        _fun0011_ip = 56; continue _fun0011;
+                        _fun0011_ip = 50; continue _fun0011;
 case 14:
                         var3 = 'loading_section';
                         var3 = var5.bind(var1)(var3);
-case 56:
-                        var3 = _closure2_slot12;
-                        if(var3) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+case 50:
+                        var3 = _closure2_slot11;
+                        if(var3) { _fun0011_ip = 56; continue _fun0011 }
+case 52:
                         var5 = var1.push;
                         var3 = 'archived_section';
                         var3 = var5.bind(var1)(var3);
                         var5 = var1.push;
                         var3 = 'missing_permission_archived_threads';
                         var3 = var5.bind(var1)(var3);
-                        _fun0011_ip = 59; continue _fun0011;
-case 57:
+                        _fun0011_ip = 57; continue _fun0011;
+case 56:
                         var3 = _closure2_slot4;
-                        if(!(var4 != var3)) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
+                        if(!(var4 != var3)) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
                         var3 = _closure2_slot4;
                         var3 = var3.length;
                         var6 = 0;
-                        if(!(!(var3 > var6))) { _fun0011_ip = 62; continue _fun0011 }
-case 60:
+                        if(!(!(var3 > var6))) { _fun0011_ip = 60; continue _fun0011 }
+case 58:
                         var3 = _closure2_slot9;
                         var3 = var4 == var3;
-                        if(!var3) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+                        if(!var3) { _fun0011_ip = 61; continue _fun0011 }
+case 62:
                         var3 = _closure2_slot7;
+case 61:
+                        if(!var3) { _fun0011_ip = 57; continue _fun0011 }
 case 63:
-                        if(!var3) { _fun0011_ip = 59; continue _fun0011 }
-case 65:
                         var4 = var1.push;
                         var3 = 'loading_section';
                         var3 = var4.bind(var1)(var3);
-                        _fun0011_ip = 59; continue _fun0011;
-case 62:
+                        _fun0011_ip = 57; continue _fun0011;
+case 60:
                         var4 = var1.push;
                         var3 = 'archived_section';
                         var3 = var4.bind(var1)(var3);
@@ -1201,19 +1215,19 @@ case 62:
                         var9 = var3;
                         var8 = var1;
                         var3 = apply(var10, var9, var8);
-                        _fun0011_ip = 59; continue _fun0011;
+                        _fun0011_ip = 57; continue _fun0011;
 case 4:
                         var4 = var1.push;
                         var3 = 'search_section';
                         var3 = var4.bind(var1)(var3);
-                        var4 = _closure2_slot13;
+                        var4 = _closure2_slot12;
                         var3 = var1.push;
-                        if(var4) { _fun0011_ip = 66; continue _fun0011 }
-case 67:
+                        if(var4) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
                         var4 = 'missing_permission_search';
                         var4 = var3.bind(var1)(var4);
-                        _fun0011_ip = 59; continue _fun0011;
-case 66:
+                        _fun0011_ip = 57; continue _fun0011;
+case 64:
                         var9 = _closure2_slot10;
                         var2 = new Array(0);
                         var8 = 0;
@@ -1223,20 +1237,32 @@ case 66:
                         var9 = var2;
                         var8 = var1;
                         var2 = apply(var10, var9, var8);
-case 59:
+case 57:
                         return var1;
                     }
                 };
                 var15 = var10.bind(var12)(var1, var8);
+                var10 = _closure1_slot17;
+                var8 = _closure1_slot31;
+                var1 = {};
+                var1['channelName'] = var3;
+                var1 = var10.bind(var5)(var8, var1);
+                var _closure2_slot14 = var1;
+                var10 = _closure1_slot17;
+                var8 = _closure1_slot32;
+                var1 = {};
+                var1['channelName'] = var3;
+                var1 = var10.bind(var5)(var8, var1);
+                var _closure2_slot15 = var1;
                 var10 = _closure1_slot3;
                 var8 = var10.useCallback;
                 var1 = null;
                 var16 = var1 == var4;
                 var12 = undefined;
-                if(var16) { _fun0006_ip = 68; continue _fun0006 }
-case 69:
+                if(var16) { _fun0006_ip = 66; continue _fun0006 }
+case 67:
                 var12 = var4.length;
-case 68:
+case 66:
                 var4 = new Array(3);
                 var4[0] = var12;
                 var4[1] = var11;
@@ -1247,121 +1273,88 @@ case 0:
                         var1 = arg1;
                         var5 = var1.item;
                         var1 = 'archived_section';
-                        if(!(var5 !== var1)) { _fun0012_ip = 70; continue _fun0012 }
-case 71:
+                        if(!(var5 !== var1)) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
                         var1 = 'search_section';
-                        if(!(var5 !== var1)) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
+                        if(!(var5 !== var1)) { _fun0012_ip = 70; continue _fun0012 }
+case 13:
                         var1 = 'loading_section';
-                        if(!(var5 !== var1)) { _fun0012_ip = 74; continue _fun0012 }
-case 75:
+                        if(!(var5 !== var1)) { _fun0012_ip = 71; continue _fun0012 }
+case 72:
                         var1 = 'missing_permission_archived_threads';
-                        if(!(var5 !== var1)) { _fun0012_ip = 76; continue _fun0012 }
-case 47:
+                        if(!(var5 !== var1)) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
                         var1 = 'missing_permission_search';
-                        if(!(var5 !== var1)) { _fun0012_ip = 77; continue _fun0012 }
-case 78:
+                        if(!(var5 !== var1)) { _fun0012_ip = 75; continue _fun0012 }
+case 76:
                         var4 = _closure1_slot17;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 34;
+                        var1 = 35;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
                         var1 = {};
                         var1['threadId'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
-                        _fun0012_ip = 79; continue _fun0012;
+                        _fun0012_ip = 77; continue _fun0012;
+case 75:
+                        var1 = _closure2_slot15;
 case 77:
-                        var5 = _closure1_slot17;
-                        var4 = _closure1_slot28;
-                        var3 = {};
-                        var2 = _closure2_slot11;
-                        var3['channelName'] = var2;
-                        var2 = undefined;
-                        var1 = var5.bind(var2)(var4, var3);
+                        _fun0012_ip = 78; continue _fun0012;
+case 73:
+                        var1 = _closure2_slot14;
+case 78:
+                        _fun0012_ip = 79; continue _fun0012;
+case 71:
+                        var1 = _closure1_slot26;
 case 79:
                         _fun0012_ip = 80; continue _fun0012;
-case 76:
+case 70:
                         var5 = _closure1_slot17;
-                        var4 = _closure1_slot27;
-                        var3 = {};
-                        var2 = _closure2_slot11;
-                        var3['channelName'] = var2;
-                        var2 = undefined;
-                        var1 = var5.bind(var2)(var4, var3);
-case 80:
-                        _fun0012_ip = 81; continue _fun0012;
-case 74:
-                        var5 = _closure1_slot17;
-                        var3 = _closure1_slot1;
-                        var4 = _closure1_slot2;
-                        var2 = 33;
-                        var2 = var4[var2];
-                        var4 = undefined;
-                        var3 = var3.bind(var4)(var2);
-                        var2 = {};
-                        var6 = false;
-                        var2['fillScreen'] = var6;
-                        var1 = var5.bind(var4)(var3, var2);
-case 81:
-                        _fun0012_ip = 82; continue _fun0012;
-case 72:
-                        var5 = _closure1_slot17;
-                        var4 = _closure1_slot26;
+                        var4 = _closure1_slot30;
                         var3 = {};
                         var2 = _closure2_slot10;
                         var8 = null;
                         var6 = var8 == var2;
                         var2 = undefined;
                         var9 = undefined;
-                        if(var6) { _fun0012_ip = 83; continue _fun0012 }
-case 84:
+                        if(var6) { _fun0012_ip = 5; continue _fun0012 }
+case 81:
                         var6 = _closure2_slot10;
                         var9 = var6.length;
-case 83:
+case 5:
                         var10 = var8 != var9;
                         var6 = 0;
-                        if(!var10) { _fun0012_ip = 85; continue _fun0012 }
-case 66:
+                        if(!var10) { _fun0012_ip = 82; continue _fun0012 }
+case 83:
                         var6 = var9;
-case 85:
+case 82:
                         var3['numPosts'] = var6;
                         var6 = _closure2_slot1;
                         var8 = var8 != var6;
                         var6 = '';
-                        if(!var8) { _fun0012_ip = 86; continue _fun0012 }
-case 87:
+                        if(!var8) { _fun0012_ip = 84; continue _fun0012 }
+case 85:
                         var6 = _closure2_slot1;
-case 86:
+case 84:
                         var3['searchQuery'] = var6;
                         var1 = var5.bind(var2)(var4, var3);
-case 82:
-                        _fun0012_ip = 88; continue _fun0012;
-case 70:
-                        var5 = _closure1_slot17;
-                        var4 = _closure1_slot25;
-                        var3 = undefined;
-                        var2 = {};
-                        var1 = var5.bind(var3)(var4, var2);
-case 88:
+case 80:
+                        _fun0012_ip = 86; continue _fun0012;
+case 68:
+                        var1 = _closure1_slot25;
+case 86:
                         return var1;
                     }
                 };
                 var16 = var8.bind(var10)(var3, var4);
-                if(!(var1 == var9)) { _fun0006_ip = 89; continue _fun0006 }
-case 90:
+                if(!(var1 == var9)) { _fun0006_ip = 87; continue _fun0006 }
+case 88:
                 var4 = _closure1_slot18;
                 var3 = _closure1_slot19;
                 var1 = {};
-                var11 = _closure1_slot17;
-                var10 = _closure1_slot1;
-                var12 = _closure1_slot2;
-                var8 = 36;
-                var8 = var12[var8];
-                var10 = var10.bind(var5)(var8);
-                var8 = {'absolute': true, 'mix': true};
-                var10 = var11.bind(var5)(var10, var8);
+                var10 = _closure1_slot27;
                 var8 = new Array(2);
                 var8[0] = var10;
                 var12 = _closure1_slot17;
@@ -1381,8 +1374,8 @@ case 90:
                 var17 = {};
                 var20 = var19.length;
                 var19 = 0;
-                if(!(var19 !== var20)) { _fun0006_ip = 91; continue _fun0006 }
-case 92:
+                if(!(var19 !== var20)) { _fun0006_ip = 89; continue _fun0006 }
+case 90:
                 var21 = _closure1_slot1;
                 var22 = _closure1_slot2;
                 var20 = 13;
@@ -1390,7 +1383,7 @@ case 92:
                 var20 = var21.bind(var5)(var20);
                 var20 = var20.spacing;
                 var19 = var20.PX_8;
-case 91:
+case 89:
                 var17['paddingTop'] = var19;
                 var19 = var18.bottom;
                 var20 = _closure1_slot1;
@@ -1423,34 +1416,34 @@ case 0:
                         var7 = var7.id;
                         var4['channelId'] = var7;
                         var4 = var5.bind(var6)(var4);
-                        var4 = _closure2_slot14;
+                        var4 = _closure2_slot13;
                         var4 = var4.bind(var1)(var3);
                         var5 = _closure2_slot2;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0013_ip = 93; continue _fun0013 }
-case 94:
+                        if(!(var4 != var5)) { _fun0013_ip = 91; continue _fun0013 }
+case 92:
                         var2 = _closure2_slot2;
                         var2 = var2.bind(var1)(var3);
-case 93:
+case 91:
                         return var1;
                     }
                 };
                 var10['onScroll'] = var14;
                 var10['onEndReached'] = var13;
-                var13 = _closure1_slot31;
+                var13 = _closure1_slot35;
                 var10['onViewableItemsChanged'] = var13;
-                var13 = _closure1_slot22;
+                var13 = _closure1_slot24;
                 var10['viewabilityConfig'] = var13;
                 var10 = var12.bind(var5)(var11, var10);
                 var8[1] = var10;
                 var1['children'] = var8;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0006_ip = 95; continue _fun0006;
-case 89:
+                _fun0006_ip = 93; continue _fun0006;
+case 87:
                 var4 = _closure1_slot17;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var2 = 35;
+                var2 = 36;
                 var2 = var8[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = {};
@@ -1463,12 +1456,12 @@ case 89:
                 var2['channelName'] = var7;
                 var2['tagFilter'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
-case 95:
+case 93:
                 return var1;
             }
         };
         var4 = var7.bind(var8)(var4);
-        var _closure1_slot23 = var4;
+        var _closure1_slot28 = var4;
         var4 = function onCreatePostWithoutPermission() {
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -1499,7 +1492,7 @@ case 95:
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var _closure1_slot24 = var4;
+        var _closure1_slot29 = var4;
         var4 = 58;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
@@ -1557,13 +1550,13 @@ case 0:
                 var3 = var10.topic;
                 var6 = null;
                 var17 = var6 != var3;
-                if(!var17) { _fun0014_ip = 96; continue _fun0014 }
-case 97:
+                if(!var17) { _fun0014_ip = 94; continue _fun0014 }
+case 83:
                 var3 = var10.topic;
                 var9 = var3.length;
                 var3 = 0;
                 var17 = var3 !== var9;
-case 96:
+case 94:
                 _closure2_slot3 = var17;
                 var14 = _closure1_slot1;
                 var16 = _closure1_slot2;
@@ -1639,8 +1632,8 @@ case 0:
                         var2 = var1.id;
                         var1 = _closure2_slot9;
                         var1 = var1.current;
-                        if(!(var2 !== var1)) { _fun0015_ip = 98; continue _fun0015 }
-case 99:
+                        if(!(var2 !== var1)) { _fun0015_ip = 95; continue _fun0015 }
+case 96:
                         var2 = _closure2_slot9;
                         var1 = _closure2_slot0;
                         var1 = var1.id;
@@ -1648,7 +1641,7 @@ case 99:
                         var1 = _closure2_slot6;
                         var3 = var1.current;
                         var1 = null;
-                        if(!(var1 != var3)) { _fun0015_ip = 98; continue _fun0015 }
+                        if(!(var1 != var3)) { _fun0015_ip = 95; continue _fun0015 }
 case 21:
                         var2 = var3.scrollToOffset;
                         var1 = {};
@@ -1657,7 +1650,7 @@ case 21:
                         var4 = false;
                         var1['animated'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 98:
+case 95:
                         var1 = undefined;
                         return var1;
                     }
@@ -1675,8 +1668,8 @@ case 0:
                             var2 = _closure2_slot0;
                             var3 = var2.id;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0016_ip = 100; continue _fun0016 }
-case 101:
+                            if(!(var2 != var3)) { _fun0016_ip = 97; continue _fun0016 }
+case 98:
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot2;
                             var2 = 45;
@@ -1687,7 +1680,7 @@ case 101:
                             var1 = _closure2_slot0;
                             var1 = var1.id;
                             var1 = var2.bind(var3)(var1);
-case 100:
+case 97:
                             var1 = undefined;
                             return var1;
                         }
@@ -1722,38 +1715,38 @@ case 0:
                         var9 = null;
                         var4 = var9 == var3;
                         var3 = undefined;
-                        if(var4) { _fun0017_ip = 58; continue _fun0017 }
-case 102:
+                        if(var4) { _fun0017_ip = 52; continue _fun0017 }
+case 99:
                         var4 = _closure2_slot8;
                         var3 = var4.name;
-case 58:
+case 52:
                         var3 = var9 != var3;
-                        if(!var3) { _fun0017_ip = 103; continue _fun0017 }
-case 104:
+                        if(!var3) { _fun0017_ip = 100; continue _fun0017 }
+case 101:
                         var4 = _closure2_slot8;
                         var4 = var9 == var4;
                         var7 = undefined;
-                        if(var4) { _fun0017_ip = 79; continue _fun0017 }
-case 54:
+                        if(var4) { _fun0017_ip = 102; continue _fun0017 }
+case 103:
                         var4 = _closure2_slot8;
                         var8 = var4.name;
                         var4 = var9 == var8;
                         var7 = undefined;
-                        if(var4) { _fun0017_ip = 79; continue _fun0017 }
-case 105:
+                        if(var4) { _fun0017_ip = 102; continue _fun0017 }
+case 104:
                         var4 = var8.trim;
                         var4 = var4.bind(var8)();
                         var8 = var9 == var4;
                         var7 = undefined;
-                        if(var8) { _fun0017_ip = 79; continue _fun0017 }
-case 106:
+                        if(var8) { _fun0017_ip = 102; continue _fun0017 }
+case 105:
                         var7 = var4.length;
-case 79:
+case 102:
                         var4 = 0;
                         var3 = var4 !== var7;
-case 103:
-                        if(var3) { _fun0017_ip = 107; continue _fun0017 }
-case 64:
+case 100:
+                        if(var3) { _fun0017_ip = 106; continue _fun0017 }
+case 62:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var3 = var3[var6];
@@ -1765,8 +1758,8 @@ case 64:
                         var8 = _closure2_slot5;
                         var9 = var9 != var8;
                         var8 = undefined;
-                        if(!var9) { _fun0017_ip = 108; continue _fun0017 }
-case 96:
+                        if(!var9) { _fun0017_ip = 107; continue _fun0017 }
+case 94:
                         var10 = _closure2_slot5;
                         var9 = var10.trim;
                         var9 = var9.bind(var10)();
@@ -1774,15 +1767,15 @@ case 96:
                         var9 = 0;
                         var9 = var10 > var9;
                         var8 = undefined;
-                        if(!var9) { _fun0017_ip = 108; continue _fun0017 }
-case 109:
+                        if(!var9) { _fun0017_ip = 107; continue _fun0017 }
+case 86:
                         var10 = _closure2_slot5;
                         var9 = var10.trim;
                         var8 = var9.bind(var10)();
-case 108:
+case 107:
                         var3['name'] = var8;
                         var3 = var6.bind(var7)(var4, var3);
-case 107:
+case 106:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var2 = 47;
@@ -1819,8 +1812,8 @@ case 0:
                             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                                 var2 = _closure2_slot3;
-                                if(!var2) { _fun0019_ip = 110; continue _fun0019 }
-case 111:
+                                if(!var2) { _fun0019_ip = 73; continue _fun0019 }
+case 108:
                                 var5 = _closure1_slot1;
                                 var4 = _closure1_slot2;
                                 var3 = 48;
@@ -1831,7 +1824,7 @@ case 111:
                                 var3 = _closure2_slot0;
                                 var3 = var3.id;
                                 var3 = var5.bind(var6)(var3);
-                                if(var3) { _fun0019_ip = 110; continue _fun0019 }
+                                if(var3) { _fun0019_ip = 73; continue _fun0019 }
 case 15:
                                 var3 = _closure1_slot0;
                                 var5 = _closure1_slot2;
@@ -1860,8 +1853,8 @@ case 15:
                                 };
                                 var2['onPress'] = var5;
                                 var2 = var3.bind(var4)(var2);
-                                _fun0019_ip = 72; continue _fun0019;
-case 110:
+                                _fun0019_ip = 109; continue _fun0019;
+case 73:
                                 var5 = _closure1_slot0;
                                 var8 = _closure1_slot2;
                                 var2 = 49;
@@ -1887,7 +1880,7 @@ case 110:
                                 var4 = var4.BUTTON_CTA;
                                 var1['object'] = var4;
                                 var1 = var2.bind(var3)(var1);
-case 72:
+case 109:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -1907,11 +1900,11 @@ case 72:
                         var4['channelId'] = var8;
                         var4 = var6.bind(var7)(var4);
                         var4 = _closure2_slot7;
-                        if(var4) { _fun0018_ip = 94; continue _fun0018 }
-case 112:
+                        if(var4) { _fun0018_ip = 92; continue _fun0018 }
+case 49:
                         var4 = var5.bind(var1)();
-                        _fun0018_ip = 113; continue _fun0018;
-case 94:
+                        _fun0018_ip = 110; continue _fun0018;
+case 92:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var3 = 52;
@@ -1921,21 +1914,21 @@ case 94:
                         var2 = _closure2_slot0;
                         var2 = var2.guild_id;
                         var2 = var3.bind(var4)(var2, var5);
-case 113:
+case 110:
                         return var1;
                     }
                 };
                 var16 = var14.bind(var16)(var9, var13);
                 var17 = !var8;
-                if(var17) { _fun0014_ip = 114; continue _fun0014 }
-case 115:
+                if(var17) { _fun0014_ip = 111; continue _fun0014 }
+case 112:
                 var2 = !var2;
-                if(!var2) { _fun0014_ip = 116; continue _fun0014 }
-case 117:
-                var2 = !var3;
-case 116:
-                var17 = var2;
+                if(!var2) { _fun0014_ip = 113; continue _fun0014 }
 case 114:
+                var2 = !var3;
+case 113:
+                var17 = var2;
+case 111:
                 var8 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 53;
@@ -1981,8 +1974,8 @@ case 114:
                 var8 = var12.background;
                 var1['style'] = var8;
                 var8 = null;
-                if(!var5) { _fun0014_ip = 118; continue _fun0014 }
-case 119:
+                if(!var5) { _fun0014_ip = 115; continue _fun0014 }
+case 116:
                 var11 = _closure1_slot17;
                 var9 = _closure1_slot0;
                 var21 = _closure1_slot2;
@@ -1994,7 +1987,7 @@ case 119:
                 var5['channel'] = var10;
                 var5['topBorder'] = var13;
                 var8 = var11.bind(var4)(var9, var5);
-case 118:
+case 115:
                 var5 = new Array(5);
                 var5[0] = var8;
                 var11 = _closure1_slot18;
@@ -2003,7 +1996,7 @@ case 118:
                 var13 = var12.headerRow;
                 var8['style'] = var13;
                 var22 = _closure1_slot17;
-                var21 = _closure1_slot29;
+                var21 = _closure1_slot33;
                 var13 = {};
                 var13['channel'] = var10;
                 var21 = var22.bind(var4)(var21, var13);
@@ -2013,14 +2006,14 @@ case 118:
                 var22 = var21.length;
                 var21 = 0;
                 var21 = var22 > var21;
-                if(!var21) { _fun0014_ip = 120; continue _fun0014 }
-case 121:
+                if(!var21) { _fun0014_ip = 117; continue _fun0014 }
+case 118:
                 var24 = _closure1_slot17;
-                var23 = _closure1_slot30;
+                var23 = _closure1_slot34;
                 var22 = {};
                 var22['channel'] = var10;
                 var21 = var24.bind(var4)(var23, var22);
-case 120:
+case 117:
                 var13[1] = var21;
                 var8['children'] = var13;
                 var8 = var11.bind(var4)(var9, var8);
@@ -2041,7 +2034,7 @@ case 120:
                 var12 = var12.container;
                 var8['style'] = var12;
                 var14 = _closure1_slot17;
-                var13 = _closure1_slot23;
+                var13 = _closure1_slot28;
                 var12 = {};
                 var12['channel'] = var10;
                 var12['insets'] = var18;
@@ -2085,11 +2078,11 @@ case 120:
                 var18 = var19 + var18;
                 var13['positionBottom'] = var18;
                 var13['onPress'] = var16;
-                var16 = _closure1_slot24;
+                var16 = _closure1_slot29;
                 var13['onPressDisabled'] = var16;
                 var16 = undefined;
-                if(!var17) { _fun0014_ip = 122; continue _fun0014 }
-case 123:
+                if(!var17) { _fun0014_ip = 119; continue _fun0014 }
+case 120:
                 var20 = _closure1_slot0;
                 var17 = _closure1_slot2;
                 var18 = var17[var21];
@@ -2101,7 +2094,7 @@ case 123:
                 var17 = var17.t;
                 var17 = var17.iyzwnD;
                 var16 = var18.bind(var19)(var17);
-case 122:
+case 119:
                 var13['accessibilityHint'] = var16;
                 var13 = var15.bind(var4)(var14, var13);
                 var12[1] = var13;
@@ -2111,8 +2104,8 @@ case 122:
                 var8 = var10.guild_id;
                 var8 = var6 != var8;
                 var6 = null;
-                if(!var8) { _fun0014_ip = 124; continue _fun0014 }
-case 125:
+                if(!var8) { _fun0014_ip = 121; continue _fun0014 }
+case 122:
                 var9 = _closure1_slot17;
                 var8 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -2123,7 +2116,7 @@ case 125:
                 var7 = {};
                 var7['channel'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 124:
+case 121:
                 var5[4] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

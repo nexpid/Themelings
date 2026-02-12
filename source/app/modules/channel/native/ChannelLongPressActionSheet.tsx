@@ -1568,7 +1568,7 @@ case 125:
                     var6['onPress'] = var24;
                     var6 = var21.bind(var23)(var6);
 case 124:
-                    var6 = var14.isDM;
+                    var6 = var14.isPrivate;
                     var6 = var6.bind(var14)();
                     if(!var6) { _fun0006_ip = 126; continue _fun0006 }
 case 127:

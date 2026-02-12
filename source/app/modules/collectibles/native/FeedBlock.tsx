@@ -276,7 +276,7 @@ case 2:
             var9 = var18[var9];
             var9 = var21.bind(var4)(var9);
             var13 = var9.Text;
-            var9 = {'variant': 'text-lg/bold', 'accessibilityRole': 'header'};
+            var9 = {'variant': 'heading-lg/bold', 'accessibilityRole': 'header'};
             var14 = var18[var22];
             var14 = var21.bind(var4)(var14);
             var23 = var14.intl;

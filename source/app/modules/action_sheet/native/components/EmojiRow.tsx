@@ -148,8 +148,11 @@ case 4:
             var1 = var6.bind(var4)(var1);
             var1 = var1.ADD_REACTION_ICON_COMPONENTS;
             var8 = var1[var2];
-            _closure2_slot6 = var8;
             var3 = _closure1_slot9;
+            var1 = {};
+            var1['color'] = var9;
+            var1 = var3.bind(var4)(var8, var1);
+            _closure2_slot6 = var1;
             var2 = _closure1_slot3;
             var1 = {};
             var5 = var13.emojiWrapper;
@@ -256,12 +259,7 @@ case 0:
                     var1 = var1.SUPER_REACTIONS_SPARKLES_ACTION_SHEET_MOBILE;
                     if(!(var4 !== var1)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                    var6 = _closure1_slot9;
-                    var4 = _closure2_slot6;
-                    var1 = {};
-                    var7 = _closure2_slot3;
-                    var1['color'] = var7;
-                    var1 = var6.bind(var5)(var4, var1);
+                    var1 = _closure2_slot6;
                     _fun0002_ip = 13; continue _fun0002;
 case 11:
                     var4 = global;
@@ -443,7 +441,7 @@ case 20:
             if(!(var12 == var11)) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
             var11 = var16.url;
-            _fun0003_ip = 5; continue _fun0003;
+            _fun0003_ip = 24; continue _fun0003;
 case 22:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -459,7 +457,7 @@ case 22:
             var15 = _closure1_slot7;
             var12['size'] = var15;
             var11 = var13.bind(var14)(var12);
-case 5:
+case 24:
             var8['src'] = var11;
             var7 = var10.bind(var4)(var9, var8);
 case 18:
@@ -537,13 +535,13 @@ case 0:
             var13 = var2.bind(var3)(var1);
             var1 = var13.length;
             var2 = null;
-            if(!(var1 < var10)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!(var1 < var10)) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var1 = var13.push;
             var1 = var1.bind(var13)(var2);
             var1 = var13.length;
-            if(var1 < var10) { _fun0005_ip = 25; continue _fun0005 }
-case 24:
+            if(var1 < var10) { _fun0005_ip = 26; continue _fun0005 }
+case 25:
             var3 = _closure1_slot10;
             var2 = _closure1_slot3;
             var1 = {};
@@ -570,8 +568,8 @@ case 0:
                     var2['message'] = var7;
                     var2['emoji'] = var6;
                     var7 = null;
-                    if(!(var7 != var6)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+                    if(!(var7 != var6)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
                     var7 = var6.type;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -581,15 +579,15 @@ case 27:
                     var1 = var9.bind(var1)(var8);
                     var1 = var1.EmojiTypes;
                     var1 = var1.UNICODE;
-                    if(!(var7 !== var1)) { _fun0006_ip = 11; continue _fun0006 }
-case 28:
+                    if(!(var7 !== var1)) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                     var1 = var6.id;
-                    _fun0006_ip = 29; continue _fun0006;
-case 11:
-                    var1 = var6.surrogates;
+                    _fun0006_ip = 31; continue _fun0006;
 case 29:
+                    var1 = var6.surrogates;
+case 31:
                     var5 = var1;
-case 26:
+case 27:
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2, var5);
                     return var1;
