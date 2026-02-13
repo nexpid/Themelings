@@ -6743,7 +6743,7 @@
 { "file": "app/modules/user_profile/native/UserProfileVoiceSettings.tsx", "size": 31054 }
 { "file": "app/modules/user_profile/native/UserProfileWishlistGrid.tsx", "size": 22434 }
 { "file": "app/modules/user_profile/native/UserProfileYourFriendsCard.tsx", "size": 13906 }
-{ "file": "app/modules/user_profile/native/YouScreenUserProfileContent.tsx", "size": 42124 }
+{ "file": "app/modules/user_profile/native/YouScreenUserProfileContent.tsx", "size": 41651 }
 { "file": "app/modules/user_profile/notes/NoteStore.tsx", "size": 7117 }
 { "file": "app/modules/user_profile/preloadUserBannerImage.tsx", "size": 4385 }
 { "file": "app/modules/user_profile/ProfileUpdateRequestUtils.tsx", "size": 8161 }

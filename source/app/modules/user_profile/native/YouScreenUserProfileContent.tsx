@@ -584,7 +584,7 @@ case 0:
                     var5['navigateToPremium'] = var10;
                     var5['style'] = var9;
                     var7 = var8.bind(var1)(var7, var5);
-                    var5 = new Array(10);
+                    var5 = new Array(9);
                     var5[0] = var7;
                     var7 = _closure2_slot16;
                     var7 = !var7;
@@ -657,16 +657,6 @@ case 18:
                     var13['style'] = var9;
                     var13 = var16.bind(var1)(var15, var13);
                     var5[5] = var13;
-                    var16 = _closure1_slot10;
-                    var13 = var11[var8];
-                    var13 = var12.bind(var1)(var13);
-                    var15 = var13.UserProfileApplicationRoleConnectionsCard;
-                    var13 = {};
-                    var17 = var10.id;
-                    var13['userId'] = var17;
-                    var13['style'] = var9;
-                    var13 = var16.bind(var1)(var15, var13);
-                    var5[6] = var13;
                     var13 = _closure1_slot10;
                     var8 = var11[var8];
                     var8 = var12.bind(var1)(var8);
@@ -676,7 +666,7 @@ case 18:
                     var8['userId'] = var15;
                     var8['style'] = var9;
                     var8 = var13.bind(var1)(var12, var8);
-                    var5[7] = var8;
+                    var5[6] = var8;
                     var13 = _closure1_slot10;
                     var8 = 41;
                     var8 = var11[var8];
@@ -688,7 +678,7 @@ case 18:
                     var8['navigateToFriends'] = var14;
                     var8['style'] = var9;
                     var8 = var13.bind(var1)(var12, var8);
-                    var5[8] = var8;
+                    var5[7] = var8;
                     var8 = _closure1_slot10;
                     var6 = 42;
                     var6 = var11[var6];
@@ -698,7 +688,7 @@ case 18:
                     var6['userId'] = var10;
                     var6['style'] = var9;
                     var6 = var8.bind(var1)(var7, var6);
-                    var5[9] = var6;
+                    var5[8] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
