@@ -2371,10 +2371,10 @@
   },
   "CONTROL_SECONDARY_BORDER_ACTIVE": {
     "dark": [
-      "#00000000",
+      "#ffffff08",
       {
-        "raw": "TRANSPARENT",
-        "opacity": 0
+        "raw": "WHITE",
+        "opacity": 0.03
       }
     ],
     "light": [

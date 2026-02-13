@@ -474,7 +474,7 @@
     "darker": "#383a43"
   },
   "CONTROL_SECONDARY_BORDER_ACTIVE": {
-    "dark": "#00000000",
+    "dark": "#ffffff08",
     "light": "#0000000a",
     "midnight": "#6c6f7c14",
     "darker": "#6c6f7c0f"
