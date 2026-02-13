@@ -37,7 +37,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var6;
         var9 = var4.onPress;
         var7 = var4.backgroundColor;
-        var _closure2_slot1 = var7;
         var3 = {'item': 0, 'onPress': 0, 'backgroundColor': 0};
         var12 = null;
         var13 = var3;
@@ -49,9 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = _closure1_slot2;
         var4 = var8.useCallback;
         var10 = var6.sku;
-        var3 = new Array(2);
+        var3 = new Array(1);
         var3[0] = var10;
-        var3[1] = var7;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -69,11 +67,9 @@ case 3:
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
                 var2 = {};
-                var7 = _closure2_slot0;
-                var7 = var7.sku;
-                var2['sku'] = var7;
-                var6 = _closure2_slot1;
-                var2['backgroundColor'] = var6;
+                var6 = _closure2_slot0;
+                var6 = var6.sku;
+                var2['sku'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
 case 2:
                 return var1;

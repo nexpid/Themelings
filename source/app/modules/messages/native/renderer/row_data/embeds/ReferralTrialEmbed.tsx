@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
     var _closure1_slot10 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -435,20 +435,34 @@ case 45:
             if(var1) { _fun0001_ip = 43; continue _fun0001 }
 case 46:
             var21 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var20 = var29[var8];
+            var25 = _closure1_slot2;
+            var20 = var25[var8];
             var20 = var21.bind(var7)(var20);
             var23 = var20.intl;
             var22 = var23.formatToParts;
-            var20 = var29[var8];
-            var20 = var21.bind(var7)(var20);
+            var20 = 20;
+            var20 = var25[var20];
+            var21 = var21.bind(var7)(var20);
+            var20 = var21.isMetaQuest;
+            var21 = var20.bind(var21)();
+            var25 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var20 = var20[var8];
+            var20 = var25.bind(var7)(var20);
             var20 = var20.t;
+            if(var21) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
             var21 = var20.7O7Zg3;
+            _fun0001_ip = 49; continue _fun0001;
+case 47:
+            var21 = var20.yqX4Dr;
+case 49:
             var20 = {};
             var25 = {};
             var27 = 'bindOpenUrl';
             var25['action'] = var27;
             var28 = _closure1_slot1;
+            var29 = _closure1_slot2;
             var27 = 19;
             var27 = var29[var27];
             var29 = var28.bind(var7)(var27);
@@ -459,7 +473,7 @@ case 46:
             var25['url'] = var27;
             var20['helpdeskArticle'] = var25;
             var20 = var22.bind(var23)(var21, var20);
-            _fun0001_ip = 47; continue _fun0001;
+            _fun0001_ip = 50; continue _fun0001;
 case 43:
             var22 = _closure1_slot0;
             var30 = _closure1_slot2;
@@ -487,7 +501,7 @@ case 43:
             var21['helpdeskArticle'] = var27;
             var21['username'] = var26;
             var20 = var23.bind(var25)(var22, var21);
-case 47:
+case 50:
             var17 = var20;
             var18 = undefined;
             _fun0001_ip = 37; continue _fun0001;
@@ -508,18 +522,18 @@ case 38:
             var17 = undefined;
 case 37:
             var12 = !var12;
-            if(!var12) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
-            var12 = !var19;
-case 48:
-            if(!var12) { _fun0001_ip = 50; continue _fun0001 }
-case 51:
-            var12 = var14;
-case 50:
-            if(!var12) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
-            var12 = !var1;
+            if(!var12) { _fun0001_ip = 51; continue _fun0001 }
 case 52:
+            var12 = !var19;
+case 51:
+            if(!var12) { _fun0001_ip = 53; continue _fun0001 }
+case 54:
+            var12 = var14;
+case 53:
+            if(!var12) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
+            var12 = !var1;
+case 55:
             var14 = {};
             var35 = var14;
             var34 = var4;
@@ -541,8 +555,8 @@ case 52:
             var11 = 'canBeAccepted';
             var14[var11] = var12;
             var1 = var14;
-            if(!var12) { _fun0001_ip = 54; continue _fun0001 }
-case 55:
+            if(!var12) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
             var5 = {};
             var35 = var5;
             var34 = var14;
@@ -571,14 +585,14 @@ case 55:
             var12 = var11.bind(var7)(var10);
             var11 = var12.getAssetUriForEmbed;
             var13 = _closure1_slot1;
-            var10 = 20;
+            var10 = 21;
             var10 = var14[var10];
             var10 = var13.bind(var7)(var10);
             var11 = var11.bind(var12)(var10);
             var10 = 'acceptLabelIconUrl';
             var5[var10] = var11;
             var1 = var5;
-case 54:
+case 57:
             return var1;
 case 15:
             var1 = {};
