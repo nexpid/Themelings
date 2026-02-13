@@ -9,16 +9,6 @@
         "width": 24,
         "height": 24
     },
-    "account": {
-        "file": "app/modules/pomelo/images/account.png",
-        "hash": "0cad250aad76179a146a1352e415ed67",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 36,
-        "height": 36
-    },
     "AchievementsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/AchievementsIcon.png",
         "hash": "1e1a093efa7aa201a2899d9d5477dcb3",
@@ -2429,16 +2419,6 @@
         "width": 221,
         "height": 195
     },
-    "discriminator": {
-        "file": "app/modules/pomelo/images/discriminator.png",
-        "hash": "c40b39559639db50c15042a79caddd47",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 23,
-        "height": 23
-    },
     "DoorExitIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DoorExitIcon.png",
         "hash": "85a2f27254125f3d2adf3b514ea4fbd1",
@@ -4513,7 +4493,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "app/modules/media_viewer/native/images/ic_eye.png",
+        "file": "app/modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -5033,15 +5013,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_legacy_username": {
-        "file": "app/modules/pomelo/images/ic_legacy_username.png",
-        "hash": "a7565eb730bf0d4beda27a25ad8af733",
-        "scales": [
-            1
-        ],
-        "width": 72,
-        "height": 72
     },
     "ic_link_24px": {
         "file": "app/images/native/icons/ic_link_24px.png",
@@ -10771,16 +10742,6 @@
         "width": 24,
         "height": 24
     },
-    "pomelo_cards_native": {
-        "file": "app/modules/pomelo/images/pomelo_cards_native.png",
-        "hash": "a1a0fc0c1581493075de254e2919a066",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 800,
-        "height": 445
-    },
     "poop_dark_large": {
         "file": "app/images/native/poop_dark_large.png",
         "hash": "9344f1089c1146b314e038ef9542fb46",
@@ -11370,7 +11331,7 @@
         "height": 16
     },
     "search_empty_state": {
-        "file": "app/modules/directory_channels/native/images/search_empty_state.png",
+        "file": "app/modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
