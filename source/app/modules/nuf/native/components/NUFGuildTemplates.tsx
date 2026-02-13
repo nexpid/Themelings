@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function onCreateGuild() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _onCreateGuild() {
         var5 = undefined;
         var1 = undefined;
@@ -94,7 +94,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -102,7 +102,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _onCreateServer() {
         var5 = undefined;
         var1 = undefined;
@@ -131,7 +131,7 @@ case 10:
                     var3 = var6.bind(var7)(var5, var3);
                     _fun0002_ip = 11; continue _fun0002;
 case 9:
-                    var3 = _closure1_slot17;
+                    var3 = _closure1_slot16;
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
                     SaveGenerator(address=82);
@@ -152,7 +152,7 @@ case 8:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot19 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -160,7 +160,7 @@ case 8:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var1 = function getScreens() {
         var1 = {};
         var2 = _closure1_slot11;
@@ -184,14 +184,14 @@ case 8:
             return var1;
         };
         var2['headerTitle'] = var11;
-        var11 = 16;
+        var11 = 15;
         var11 = var10[var11];
         var13 = var9.bind(var7)(var11);
         var12 = var13.getHeaderCloseButton;
         var11 = function() {
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var3 = var4[var1];
             var1 = undefined;
             var9 = var5.bind(var1)(var3);
@@ -204,7 +204,7 @@ case 8:
             var10 = true;
             var3['skip'] = var10;
             var3 = var8.bind(var9)(var7, var6, var3);
-            var3 = 18;
+            var3 = 17;
             var3 = var4[var3];
             var6 = var5.bind(var1)(var3);
             var5 = var6.transitionTo;
@@ -225,7 +225,7 @@ case 8:
             var4 = _closure1_slot14;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -260,7 +260,7 @@ case 8:
             var4 = _closure1_slot14;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -298,7 +298,7 @@ case 8:
             var4 = _closure1_slot14;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 21;
+            var1 = 20;
             var1 = var9[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -315,7 +315,7 @@ case 8:
                 var3 = var1.guildTemplate;
                 var2 = function onCreateServer() {
                     var1 = undefined;
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot18;
                     var3 = var4.apply;
                     var1 = arguments;
                     var2 = var1;
@@ -330,7 +330,7 @@ case 8:
             var6 = 'onCreate';
             var1[var6] = var7;
             var8 = _closure1_slot0;
-            var5 = 22;
+            var5 = 21;
             var6 = var9[var5];
             var6 = var8.bind(var3)(var6);
             var7 = var6.intl;
@@ -367,7 +367,7 @@ case 8:
             var4 = _closure1_slot14;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 23;
+            var1 = 22;
             var1 = var7[var1];
             var3 = undefined;
             var2 = var6.bind(var3)(var1);
@@ -411,7 +411,7 @@ case 8:
             var4 = _closure1_slot14;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 24;
+            var1 = 23;
             var1 = var7[var1];
             var3 = undefined;
             var2 = var6.bind(var3)(var1);
@@ -450,7 +450,7 @@ case 8:
             var4 = _closure1_slot14;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 25;
+            var1 = 24;
             var1 = var9[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -458,7 +458,7 @@ case 8:
             var8 = _closure1_slot9;
             var1['onCancel'] = var8;
             var7 = function onSuccess() {
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot16;
                 var2 = _closure3_slot0;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -467,7 +467,7 @@ case 8:
             var1['onSuccess'] = var7;
             var1['guildId'] = var6;
             var8 = _closure1_slot0;
-            var5 = 22;
+            var5 = 21;
             var6 = var9[var5];
             var6 = var8.bind(var3)(var6);
             var7 = var6.intl;
@@ -502,22 +502,32 @@ case 8:
         };
         var2['headerLeft'] = var5;
         var4 = function render() {
-            var1 = _closure1_slot16;
+            var4 = _closure1_slot14;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 25;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var5 = true;
+            var1['isNestedNavigator'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
         var2['render'] = var4;
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var8 = var10.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
-    var9 = true;
-    var4['value'] = var9;
+    var1 = true;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var10)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
@@ -540,10 +550,10 @@ case 8:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.AnalyticEvents;
-    var _closure1_slot7 = var8;
-    var8 = var4.AnalyticsSections;
-    var _closure1_slot8 = var8;
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot7 = var7;
+    var7 = var4.AnalyticsSections;
+    var _closure1_slot8 = var7;
     var4 = var4.NOOP;
     var _closure1_slot9 = var4;
     var4 = 5;
@@ -554,32 +564,25 @@ case 8:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.CreateGuildModalStates;
-    var _closure1_slot11 = var8;
-    var8 = var4.GuildTemplateTriggers;
-    var _closure1_slot12 = var8;
+    var7 = var4.CreateGuildModalStates;
+    var _closure1_slot11 = var7;
+    var7 = var4.GuildTemplateTriggers;
+    var _closure1_slot12 = var7;
     var4 = var4.NUXGuildTemplatesAnalytics;
     var _closure1_slot13 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot14 = var8;
+    var4 = var4.jsx;
+    var _closure1_slot14 = var4;
     var4 = {};
-    var10 = 14;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.ImpressionGroups;
-    var10 = var10.GUILD_ADD_FLOW;
-    var4['impression_group'] = var10;
+    var7 = 14;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.ImpressionGroups;
+    var7 = var7.GUILD_ADD_FLOW;
+    var4['impression_group'] = var7;
     var _closure1_slot15 = var4;
-    var4 = 15;
-    var4 = var6[var4];
-    var7 = var7.bind(var1)(var4);
-    var4 = {};
-    var4['isNestedNavigator'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot16 = var4;
     var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -599,7 +602,7 @@ case 8:
         var11 = _closure1_slot4;
         var8 = var11.useMemo;
         var7 = function() {
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot19;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
@@ -610,7 +613,7 @@ case 8:
         var6 = _closure1_slot5;
         var6 = var6.dismiss;
         var1['onWillFocus'] = var6;
-        var6 = 22;
+        var6 = 21;
         var7 = var10[var6];
         var7 = var9.bind(var3)(var7);
         var8 = var7.intl;

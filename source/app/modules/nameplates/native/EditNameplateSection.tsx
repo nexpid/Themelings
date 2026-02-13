@@ -215,7 +215,7 @@ case 8:
                     var11 = 11;
                     var11 = var13[var11];
                     var12 = var12.bind(var5)(var11);
-                    var11 = var12.getNameplateDataFromRecord;
+                    var11 = var12.getNameplateData;
                     var11 = var11.bind(var12)(var2);
                     var8['nameplate'] = var11;
                     var10 = _closure2_slot3;

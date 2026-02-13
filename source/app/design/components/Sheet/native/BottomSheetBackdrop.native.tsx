@@ -22,13 +22,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 1;
     var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.StyleSheet;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var8 = var9.create;
+    var4 = 2;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var4 = {};
     var10 = {};
     var10['flex'] = var11;
@@ -48,27 +47,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var19 = var2.animatedIndex;
-            var _closure2_slot0 = var19;
-            var16 = var2.opacity;
+            var20 = var2.animatedIndex;
+            var _closure2_slot0 = var20;
+            var17 = var2.opacity;
             var5 = undefined;
-            if(!(var16 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var17 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var16 = 1;
+            var17 = 1;
 case 2:
-            var _closure2_slot1 = var16;
-            var17 = var2.appearsOnIndex;
-            if(!(var17 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+            var _closure2_slot1 = var17;
+            var18 = var2.appearsOnIndex;
+            if(!(var18 === var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var17 = 0;
+            var18 = 0;
 case 4:
-            var _closure2_slot2 = var17;
-            var18 = var2.disappearsOnIndex;
-            if(!(var18 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+            var _closure2_slot2 = var18;
+            var19 = var2.disappearsOnIndex;
+            if(!(var19 === var5)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var18 = -1;
+            var19 = -1;
 case 6:
-            var _closure2_slot3 = var18;
+            var _closure2_slot3 = var19;
             var4 = var2.pressBehavior;
             if(!(var4 === var5)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -83,23 +82,27 @@ case 8:
             var _closure2_slot8 = var5;
             var _closure2_slot9 = var5;
             var _closure2_slot10 = var5;
+            var _closure2_slot11 = var5;
+            var3 = _closure1_slot4;
+            var9 = var3.bind(var5)();
+            _closure2_slot7 = var9;
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var8 = 3;
             var8 = var6[var8];
-            var9 = var3.bind(var5)(var8);
-            var8 = var9.useBottomSheet;
-            var8 = var8.bind(var9)();
-            var11 = var8.snapToIndex;
-            _closure2_slot7 = var11;
-            var10 = var8.close;
-            _closure2_slot8 = var10;
+            var10 = var3.bind(var5)(var8);
+            var8 = var10.useBottomSheet;
+            var8 = var8.bind(var10)();
+            var13 = var8.snapToIndex;
+            _closure2_slot8 = var13;
+            var11 = var8.close;
+            _closure2_slot9 = var11;
             var12 = _closure1_slot2;
-            var9 = var12.useCallback;
+            var10 = var12.useCallback;
             var8 = new Array(5);
-            var8[0] = var11;
-            var8[1] = var10;
-            var8[2] = var18;
+            var8[0] = var13;
+            var8[1] = var11;
+            var8[2] = var19;
             var8[3] = var4;
             var8[4] = var7;
             var7 = function() {
@@ -126,19 +129,19 @@ case 14:
                     var2 = typeof var2;
                     if(!(var3 === var2)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-                    var4 = _closure2_slot7;
+                    var4 = _closure2_slot8;
                     var3 = _closure2_slot4;
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     _fun0002_ip = 15; continue _fun0002;
 case 9:
-                    var4 = _closure2_slot7;
+                    var4 = _closure2_slot8;
                     var3 = _closure2_slot3;
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
                     _fun0002_ip = 15; continue _fun0002;
 case 12:
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot9;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
 case 15:
@@ -146,15 +149,15 @@ case 15:
                     return var1;
                 }
             };
-            var10 = var9.bind(var12)(var7, var8);
-            _closure2_slot9 = var10;
+            var10 = var10.bind(var12)(var7, var8);
+            _closure2_slot10 = var10;
             var8 = 4;
             var7 = var6[var8];
             var7 = var3.bind(var5)(var7);
-            var9 = var7.Gesture;
-            var7 = var9.Tap;
-            var11 = var7.bind(var9)();
-            var9 = var11.onEnd;
+            var11 = var7.Gesture;
+            var7 = var11.Tap;
+            var13 = var7.bind(var11)();
+            var11 = var13.onEnd;
             var7 = function I() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -163,28 +166,28 @@ case 15:
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.runOnJS;
-                var2 = _closure2_slot9;
+                var2 = _closure2_slot10;
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var13 = {};
-            var20 = 5;
-            var15 = var6[var20];
-            var15 = var3.bind(var5)(var15);
-            var15 = var15.runOnJS;
-            var13['runOnJS'] = var15;
-            var13['handleOnPress'] = var10;
-            var7['__closure'] = var13;
-            var13 = 3995467602852.0;
-            var7['__workletHash'] = var13;
-            var13 = _closure1_slot5;
-            var7['__initData'] = var13;
-            var7 = var9.bind(var11)(var7);
-            var9 = var6[var20];
-            var13 = var3.bind(var5)(var9);
-            var11 = var13.useAnimatedStyle;
-            var9 = function S() {
+            var15 = {};
+            var21 = 5;
+            var16 = var6[var21];
+            var16 = var3.bind(var5)(var16);
+            var16 = var16.runOnJS;
+            var15['runOnJS'] = var16;
+            var15['handleOnPress'] = var10;
+            var7['__closure'] = var15;
+            var15 = 3995467602852.0;
+            var7['__workletHash'] = var15;
+            var15 = _closure1_slot5;
+            var7['__initData'] = var15;
+            var7 = var11.bind(var13)(var7);
+            var11 = var6[var21];
+            var15 = var3.bind(var5)(var11);
+            var13 = var15.useAnimatedStyle;
+            var11 = function S() {
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -210,34 +213,36 @@ case 15:
                 var1['opacity'] = var2;
                 return var1;
             };
-            var15 = {};
-            var20 = var6[var20];
-            var20 = var3.bind(var5)(var20);
-            var20 = var20.interpolate;
-            var15['interpolate'] = var20;
-            var15['animatedIndex'] = var19;
-            var15['disappearsOnIndex'] = var18;
-            var15['appearsOnIndex'] = var17;
-            var15['opacity'] = var16;
-            var9['__closure'] = var15;
-            var15 = 1140766381376.0;
-            var9['__workletHash'] = var15;
-            var15 = _closure1_slot6;
-            var9['__initData'] = var15;
-            var13 = var11.bind(var13)(var9);
-            _closure2_slot10 = var13;
+            var16 = {};
+            var21 = var6[var21];
+            var21 = var3.bind(var5)(var21);
+            var21 = var21.interpolate;
+            var16['interpolate'] = var21;
+            var16['animatedIndex'] = var20;
+            var16['disappearsOnIndex'] = var19;
+            var16['appearsOnIndex'] = var18;
+            var16['opacity'] = var17;
+            var11['__closure'] = var16;
+            var16 = 1140766381376.0;
+            var11['__workletHash'] = var16;
+            var16 = _closure1_slot6;
+            var11['__initData'] = var16;
+            var13 = var13.bind(var15)(var11);
+            _closure2_slot11 = var13;
             var11 = var12.useMemo;
-            var9 = new Array(2);
-            var9[0] = var14;
-            var9[1] = var13;
+            var15 = var9.container;
+            var9 = new Array(3);
+            var9[0] = var15;
+            var9[1] = var14;
+            var9[2] = var13;
             var1 = function() {
-                var1 = _closure1_slot4;
-                var2 = var1.container;
+                var1 = _closure2_slot7;
+                var3 = var1.container;
                 var1 = new Array(3);
-                var1[0] = var2;
+                var1[0] = var3;
                 var3 = _closure2_slot6;
                 var1[1] = var3;
-                var2 = _closure2_slot10;
+                var2 = _closure2_slot11;
                 var1[2] = var2;
                 return var1;
             };

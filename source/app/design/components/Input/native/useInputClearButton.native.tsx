@@ -8,28 +8,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useInputClearButtonConfig(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = arg2;
+            var3 = arg2;
             var1 = arg1;
             var1 = var1.isClearable;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var4.hasValue;
+            var1 = var3.hasValue;
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
             var1 = undefined;
             return var1;
 case 4:
             var1 = {};
-            var2 = _closure1_slot4;
-            var1['content'] = var2;
-            var2 = {};
-            var4 = var4.clear;
-            var2['onPress'] = var4;
+            var6 = _closure1_slot3;
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
+            var2 = 3;
+            var2 = var4[var2];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var2);
+            var5 = var2.CircleXIcon;
+            var2 = {};
+            var9 = 'xs';
+            var2['size'] = var9;
+            var2 = var6.bind(var7)(var5, var2);
+            var1['content'] = var2;
+            var2 = {};
+            var3 = var3.clear;
+            var2['onPress'] = var3;
             var3 = 4;
             var5 = var4[var3];
-            var7 = undefined;
             var5 = var8.bind(var7)(var5);
             var6 = var5.intl;
             var5 = var6.string;
@@ -46,7 +54,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot5 = var2;
+    var _closure1_slot4 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -68,17 +76,8 @@ case 4:
     var5 = 2;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot3 = var9;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.CircleXIcon;
-    var5 = {};
-    var10 = 'xs';
-    var5['size'] = var10;
-    var5 = var9.bind(var1)(var8, var5);
-    var _closure1_slot4 = var5;
+    var5 = var5.jsx;
+    var _closure1_slot3 = var5;
     var5 = 5;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -88,7 +87,7 @@ case 4:
     var4 = function useInputClearButton(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot4;
             var5 = undefined;
             var3 = arg1;
             var1 = arg2;

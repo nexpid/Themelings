@@ -502,8 +502,8 @@ case 16:
             var3 = _closure2_slot0;
             var2 = function getScreens(arg1) {
                 var1 = arg1;
-                var7 = var1.guildId;
-                var _closure4_slot0 = var7;
+                var3 = var1.guildId;
+                var _closure4_slot0 = var3;
                 var1 = var1.onHide;
                 var _closure4_slot1 = var1;
                 var6 = function handleClose() {
@@ -527,23 +527,17 @@ case 16:
                     var2 = var2.bind(var3)();
                     return var1;
                 };
-                var5 = _closure1_slot10;
-                var3 = _closure1_slot13;
-                var1 = {};
-                var1['guildId'] = var7;
-                var1['handleClose'] = var6;
-                var7 = undefined;
-                var1 = var5.bind(var7)(var3, var1);
-                var _closure4_slot2 = var1;
+                var _closure4_slot2 = var6;
                 var1 = {};
                 var3 = {};
-                var5 = true;
-                var3['fullscreen'] = var5;
-                var5 = _closure1_slot0;
-                var8 = _closure1_slot2;
+                var4 = true;
+                var3['fullscreen'] = var4;
+                var7 = _closure1_slot0;
+                var5 = _closure1_slot2;
                 var4 = 22;
-                var4 = var8[var4];
-                var5 = var5.bind(var7)(var4);
+                var5 = var5[var4];
+                var4 = undefined;
+                var5 = var7.bind(var4)(var5);
                 var4 = var5.getHeaderCloseButton;
                 var4 = var4.bind(var5)(var6);
                 var3['headerLeft'] = var4;
@@ -553,7 +547,15 @@ case 16:
                 };
                 var3['headerTitle'] = var4;
                 var2 = function render() {
+                    var4 = _closure1_slot10;
+                    var3 = _closure1_slot13;
+                    var2 = {};
+                    var5 = _closure4_slot0;
+                    var2['guildId'] = var5;
                     var1 = _closure4_slot2;
+                    var2['handleClose'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
                 var3['render'] = var2;

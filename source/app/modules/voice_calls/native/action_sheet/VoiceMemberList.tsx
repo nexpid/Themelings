@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot33 = var1;
     var1 = function isEmbeddedActivity(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -54,7 +54,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot34 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -136,34 +136,34 @@ case 2:
     var4 = 14;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var12 = var4.jsx;
-    var _closure1_slot22 = var12;
+    var8 = var4.jsx;
+    var _closure1_slot22 = var8;
     var8 = var4.jsxs;
     var _closure1_slot23 = var8;
     var4 = var4.Fragment;
     var _closure1_slot24 = var4;
     var4 = 15;
     var4 = var6[var4];
-    var13 = var5.bind(var1)(var4);
-    var8 = var13.createStyles;
+    var12 = var5.bind(var1)(var4);
+    var8 = var12.createStyles;
     var4 = {};
-    var14 = {'flex': 1, 'flexShrink': 1};
-    var4['container'] = var14;
-    var15 = 16;
-    var14 = {'paddingTop': 16, 'paddingHorizontal': 16};
-    var4['sectionContainer'] = var14;
-    var14 = {};
-    var14['lineHeight'] = var15;
-    var4['sectionTitle'] = var14;
-    var14 = {'overflow': 'hidden', 'flexGrow': 1, 'flexShrink': 1, 'minHeight': 1};
-    var4['voiceChannelContainer'] = var14;
-    var14 = {};
-    var14['marginLeft'] = var11;
-    var4['headerFormDivider'] = var14;
-    var14 = {};
-    var14['marginHorizontal'] = var15;
-    var4['rowFormDivider'] = var14;
-    var4 = var8.bind(var13)(var4);
+    var13 = {'flex': 1, 'flexShrink': 1};
+    var4['container'] = var13;
+    var14 = 16;
+    var13 = {'paddingTop': 16, 'paddingHorizontal': 16};
+    var4['sectionContainer'] = var13;
+    var13 = {};
+    var13['lineHeight'] = var14;
+    var4['sectionTitle'] = var13;
+    var13 = {'overflow': 'hidden', 'flexGrow': 1, 'flexShrink': 1, 'minHeight': 1};
+    var4['voiceChannelContainer'] = var13;
+    var13 = {};
+    var13['marginLeft'] = var11;
+    var4['headerFormDivider'] = var13;
+    var13 = {};
+    var13['marginHorizontal'] = var14;
+    var4['rowFormDivider'] = var13;
+    var4 = var8.bind(var12)(var4);
     var _closure1_slot25 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
@@ -236,7 +236,10 @@ case 8:
             var2 = _closure1_slot6;
             var3 = var2.Fragment;
             var2 = {};
-            var7 = _closure1_slot29;
+            var8 = _closure1_slot22;
+            var7 = _closure1_slot28;
+            var6 = {};
+            var7 = var8.bind(var5)(var7, var6);
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot22;
@@ -338,7 +341,7 @@ case 6:
     };
     var4 = var8.bind(var7)(var4);
     var _closure1_slot27 = var4;
-    var8 = function ItemSeparator() {
+    var4 = function ItemSeparator() {
         var2 = _closure1_slot25;
         var4 = undefined;
         var5 = var2.bind(var4)();
@@ -355,10 +358,7 @@ case 6:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot28 = var8;
-    var4 = {};
-    var4 = var12.bind(var1)(var8, var4);
-    var _closure1_slot29 = var4;
+    var _closure1_slot28 = var4;
     var4 = function renderSectionHeader(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -370,7 +370,7 @@ case 0:
             if(!var3) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
             var5 = _closure1_slot22;
-            var4 = _closure1_slot34;
+            var4 = _closure1_slot33;
             var3 = {};
             var3['title'] = var2;
             var2 = undefined;
@@ -379,7 +379,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot30 = var4;
+    var _closure1_slot29 = var4;
     var4 = {};
     var4['VOICE'] = var11;
     var8 = 'VOICE';
@@ -390,7 +390,7 @@ case 12:
     var4['DISCONNECTED'] = var9;
     var8 = 'DISCONNECTED';
     var4[var9] = var8;
-    var _closure1_slot31 = var4;
+    var _closure1_slot30 = var4;
     var4 = function extractKey(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -399,7 +399,7 @@ case 0:
             var3 = var2 instanceof var3;
             if(var3) { _fun0006_ip = 14; continue _fun0006 }
 case 3:
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot34;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             if(var1) { _fun0006_ip = 15; continue _fun0006 }
@@ -417,7 +417,7 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot32 = var4;
+    var _closure1_slot31 = var4;
     var4 = function VoiceSectionRow(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -443,7 +443,7 @@ case 0:
             var3 = var3.bind(var4)();
             var3 = var3.analyticsLocations;
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot34;
             var3 = var3.bind(var4)(var8);
             if(var3) { _fun0007_ip = 18; continue _fun0007 }
 case 19:
@@ -577,7 +577,7 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot33 = var4;
+    var _closure1_slot32 = var4;
     var4 = var7.forwardRef;
     var2 = function VoiceMemberList(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -773,7 +773,7 @@ case 46:
 case 44:
             var9 = var15.push;
             var4 = {};
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot30;
             var11 = var11.VOICE;
             var4['type'] = var11;
             var4['title'] = var3;
@@ -786,7 +786,7 @@ case 44:
 case 49:
             var9 = var15.push;
             var4 = {};
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot30;
             var11 = var11.DISCONNECTED;
             var4['type'] = var11;
             var4['title'] = var3;
@@ -844,7 +844,7 @@ case 52:
 case 55:
             var9 = var15.push;
             var4 = {};
-            var18 = _closure1_slot31;
+            var18 = _closure1_slot30;
             var18 = var18.SPECTATING;
             var4['type'] = var18;
             var20 = _closure1_slot0;
@@ -870,7 +870,7 @@ case 54:
 case 57:
             var9 = var15.push;
             var4 = {};
-            var11 = _closure1_slot31;
+            var11 = _closure1_slot30;
             var11 = var11.VOICE;
             var4['type'] = var11;
             var21 = _closure1_slot0;
@@ -896,7 +896,7 @@ case 56:
 case 58:
             var7 = var15.push;
             var4 = {};
-            var9 = _closure1_slot31;
+            var9 = _closure1_slot30;
             var9 = var9.DISCONNECTED;
             var4['type'] = var9;
             var17 = _closure1_slot0;
@@ -961,15 +961,15 @@ case 0:
                     var2 = var1.item;
                     var1 = var1.section;
                     var4 = var1.type;
-                    var1 = _closure1_slot31;
+                    var1 = _closure1_slot30;
                     var1 = var1.VOICE;
                     if(!(var1 !== var4)) { _fun0012_ip = 59; continue _fun0012 }
 case 60:
-                    var1 = _closure1_slot31;
+                    var1 = _closure1_slot30;
                     var1 = var1.SPECTATING;
                     if(!(var1 !== var4)) { _fun0012_ip = 61; continue _fun0012 }
 case 62:
-                    var1 = _closure1_slot31;
+                    var1 = _closure1_slot30;
                     var1 = var1.DISCONNECTED;
                     if(!(var1 !== var4)) { _fun0012_ip = 63; continue _fun0012 }
 case 64:
@@ -1024,7 +1024,7 @@ case 59:
                     if(var4) { _fun0012_ip = 65; continue _fun0012 }
 case 66:
                     var5 = _closure1_slot22;
-                    var4 = _closure1_slot33;
+                    var4 = _closure1_slot32;
                     var3 = {};
                     var3['item'] = var2;
                     var6 = _closure2_slot0;
@@ -1050,10 +1050,10 @@ case 68:
             var8 = arg2;
             var1['ref'] = var8;
             var1['sections'] = var15;
-            var8 = _closure1_slot30;
+            var8 = _closure1_slot29;
             var1['renderSectionHeader'] = var8;
             var1['renderItem'] = var7;
-            var7 = _closure1_slot32;
+            var7 = _closure1_slot31;
             var1['keyExtractor'] = var7;
             var7 = _closure1_slot28;
             var1['ItemSeparatorComponent'] = var7;
@@ -1198,7 +1198,7 @@ case 34:
                     var1 = var8;
                     if(var5) { _fun0014_ip = 75; continue _fun0014 }
 case 76:
-                    var5 = _closure1_slot35;
+                    var5 = _closure1_slot34;
                     var6 = undefined;
                     var5 = var5.bind(var6)(var2);
                     if(var5) { _fun0014_ip = 77; continue _fun0014 }

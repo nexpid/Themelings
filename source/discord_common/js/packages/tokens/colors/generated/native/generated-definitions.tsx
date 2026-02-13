@@ -1329,7 +1329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = {};
     var8['category'] = var10;
     var15 = var9.DARK;
-    var14 = {'raw': 'TRANSPARENT', 'opacity': 0};
+    var14 = {'raw': 'WHITE', 'opacity': 0.03};
     var8[var15] = var14;
     var15 = var9.LIGHT;
     var14 = {'raw': 'BLACK', 'opacity': 0.04};

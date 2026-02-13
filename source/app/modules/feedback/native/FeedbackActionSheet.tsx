@@ -1,13 +1,13 @@
 // app/modules/feedback/native/FeedbackActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
-    var9 = function closeActionSheet() {
+    var1 = function closeActionSheet() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 7;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         return var1;
     };
-    var _closure1_slot11 = var9;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -50,44 +50,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot7 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var7 = var10.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var11 = {};
-    var12 = 6;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var11['padding'] = var14;
-    var4['container'] = var11;
-    var11 = {};
-    var14 = 'center';
-    var11['textAlign'] = var14;
-    var4['ratingsHeader'] = var11;
-    var11 = {};
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
+    var9 = {};
+    var10 = 6;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
     var12 = var12.PX_16;
-    var11['marginBottom'] = var12;
-    var4['reasonsList'] = var11;
-    var4 = var7.bind(var10)(var4);
+    var9['padding'] = var12;
+    var4['container'] = var9;
+    var9 = {};
+    var12 = 'center';
+    var9['textAlign'] = var12;
+    var4['ratingsHeader'] = var9;
+    var9 = {};
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['marginBottom'] = var10;
+    var4['reasonsList'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.ActionSheetCloseButton;
-    var4 = {};
-    var4['onPress'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot10 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -127,13 +119,13 @@ case 0:
             var _closure2_slot6 = var5;
             var16 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var15[var1];
             var1 = var16.bind(var4)(var1);
             var26 = var1.bind(var4)(var27);
             var _closure2_slot7 = var26;
             var6 = var7.useState;
-            var1 = 10;
+            var1 = 9;
             var1 = var15[var1];
             var14 = var16.bind(var4)(var1);
             var1 = var14.shuffle;
@@ -157,7 +149,7 @@ case 0:
 case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var7 = var3.bind(var1)(var2);
@@ -170,7 +162,7 @@ case 3:
                     var3 = _closure2_slot8;
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 11;
+                    var4 = 10;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.shuffleProblems;
@@ -212,7 +204,7 @@ case 2:
             var _closure2_slot15 = var14;
             var3 = var3[var6];
             var _closure2_slot16 = var3;
-            var3 = 12;
+            var3 = 11;
             var6 = var15[var3];
             var16 = var16.bind(var4)(var6);
             var6 = function() {
@@ -246,16 +238,16 @@ case 5:
 case 4:
                     var4 = _closure1_slot1;
                     var1 = _closure1_slot2;
-                    var3 = 13;
+                    var3 = 12;
                     var3 = var1[var3];
                     var5 = undefined;
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.pushLazy;
                     var6 = _closure1_slot0;
-                    var2 = 15;
+                    var2 = 14;
                     var2 = var1[var2];
                     var6 = var6.bind(var5)(var2);
-                    var2 = 14;
+                    var2 = 13;
                     var2 = var1[var2];
                     var1 = var1.paths;
                     var2 = var6.bind(var5)(var2, var1);
@@ -321,7 +313,7 @@ case 11:
                     var4 = _closure2_slot14;
                     var3 = false;
                     var3 = var4.bind(var1)(var3);
-                    var2 = _closure1_slot11;
+                    var2 = _closure1_slot10;
                     var2 = var2.bind(var1)();
 case 13:
                     return var1;
@@ -355,7 +347,7 @@ case 17:
                     var2 = true;
                     var2 = var3.bind(var1)(var2);
 case 16:
-                    var2 = _closure1_slot11;
+                    var2 = _closure1_slot10;
                     var2 = var2.bind(var1)();
                     return var1;
                 }
@@ -371,7 +363,7 @@ case 19:
 case 18:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 16;
+            var2 = 15;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -387,7 +379,7 @@ case 20:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -406,7 +398,7 @@ case 22:
             var7 = _closure1_slot7;
             var6 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var5 = 18;
+            var5 = 17;
             var5 = var16[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
@@ -415,7 +407,17 @@ case 22:
             var8 = null;
             if(!var12) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var8 = _closure1_slot10;
+            var26 = _closure1_slot7;
+            var16 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var12 = 18;
+            var12 = var27[var12];
+            var12 = var16.bind(var4)(var12);
+            var16 = var12.ActionSheetCloseButton;
+            var12 = {};
+            var27 = _closure1_slot10;
+            var12['onPress'] = var27;
+            var8 = var26.bind(var4)(var16, var12);
 case 24:
             var5['trailing'] = var8;
             var5 = var7.bind(var4)(var6, var5);

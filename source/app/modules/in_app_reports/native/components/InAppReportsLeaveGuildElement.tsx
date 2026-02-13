@@ -33,17 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.DoorExitIcon;
-    var4 = {};
-    var9 = 'text-feedback-critical';
-    var4['color'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot7 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
     var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -105,7 +96,7 @@ case 3:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 4;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -118,7 +109,7 @@ case 3:
                     var2 = var4.bind(var3)(var2);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 6;
+                    var4 = 5;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.trackWithMetadata;
@@ -144,12 +135,12 @@ case 2:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var1 = var14[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var9 = _closure1_slot0;
-            var8 = 8;
+            var8 = 7;
             var10 = var14[var8];
             var10 = var9.bind(var4)(var10);
             var15 = var10.intl;
@@ -196,14 +187,14 @@ case 4:
 case 0:
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 8;
                     var2 = var6[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.show;
                     var2 = {};
                     var7 = _closure1_slot0;
-                    var8 = 8;
+                    var8 = 7;
                     var9 = var6[var8];
                     var9 = var7.bind(var1)(var9);
                     var11 = var9.intl;
@@ -260,7 +251,7 @@ case 6:
                     var6 = _closure2_slot5;
                     var2['onConfirm'] = var6;
                     var6 = _closure1_slot1;
-                    var5 = 10;
+                    var5 = 9;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.Colors;
@@ -271,7 +262,17 @@ case 6:
                 }
             };
             var1['onPress'] = var6;
-            var5 = _closure1_slot7;
+            var7 = _closure1_slot6;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 10;
+            var5 = var8[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.DoorExitIcon;
+            var5 = {};
+            var8 = 'text-feedback-critical';
+            var5['color'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
             var1['icon'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

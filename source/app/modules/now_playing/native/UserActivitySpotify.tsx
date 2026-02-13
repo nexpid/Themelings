@@ -329,9 +329,8 @@ case 12:
     var4 = 6;
     var4 = var15[var4];
     var4 = var14.bind(var1)(var4);
-    var5 = var4.Linking;
-    var _closure1_slot9 = var5;
-    var6 = var4.StyleSheet;
+    var4 = var4.Linking;
+    var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var15[var4];
     var4 = var14.bind(var1)(var4);
@@ -348,7 +347,10 @@ case 12:
     var _closure1_slot13 = var5;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
-    var5 = var6.create;
+    var4 = 13;
+    var4 = var15[var4];
+    var6 = var14.bind(var1)(var4);
+    var5 = var6.createLegacyClassComponentStyles;
     var4 = {};
     var16 = {'height': 16, 'marginRight': 8, 'width': 16};
     var4['buttonIcon'] = var16;
@@ -443,29 +445,32 @@ case 15:
         var1 = 'renderIcon';
         var5['key'] = var1;
         var1 = function value() {
-            var4 = _closure1_slot13;
+            var3 = _closure1_slot15;
+            var2 = this;
+            var2 = var2.context;
+            var4 = undefined;
+            var5 = var3.bind(var4)(var2);
+            var3 = _closure1_slot13;
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var8 = 13;
+            var8 = 14;
             var1 = var7[var8];
-            var3 = undefined;
-            var2 = var6.bind(var3)(var1);
+            var2 = var6.bind(var4)(var1);
             var1 = {};
             var8 = var7[var8];
-            var8 = var6.bind(var3)(var8);
+            var8 = var6.bind(var4)(var8);
             var8 = var8.Sizes;
             var8 = var8.CUSTOM;
             var1['size'] = var8;
-            var5 = _closure1_slot15;
             var5 = var5.buttonIcon;
             var1['style'] = var5;
-            var5 = 14;
+            var5 = 15;
             var5 = var7[var5];
-            var5 = var6.bind(var3)(var5);
+            var5 = var6.bind(var4)(var5);
             var1['source'] = var5;
             var5 = true;
             var1['disableColor'] = var5;
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
         var5['value'] = var1;
@@ -481,7 +486,7 @@ case 15:
             var4 = _closure1_slot13;
             var7 = _closure1_slot1;
             var8 = _closure1_slot3;
-            var6 = 15;
+            var6 = 16;
             var1 = var8[var6];
             var3 = undefined;
             var2 = var7.bind(var3)(var1);
@@ -489,7 +494,7 @@ case 15:
             var10 = var5.renderIcon;
             var1['renderIcon'] = var10;
             var10 = _closure1_slot0;
-            var9 = 16;
+            var9 = 17;
             var11 = var8[var9];
             var11 = var10.bind(var3)(var11);
             var12 = var11.intl;
@@ -522,6 +527,11 @@ case 15:
         return var1;
     };
     var6 = var4.bind(var1)(var5);
+    var4 = 18;
+    var4 = var15[var4];
+    var4 = var14.bind(var1)(var4);
+    var4 = var4.ThemeContext;
+    var6['contextType'] = var4;
     var5 = var13.PureComponent;
     var4 = function(arg1) {
         var4 = function SpotifyTrack(arg1) {
@@ -571,7 +581,7 @@ case 15:
             var4 = _closure1_slot13;
             var2 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var1 = 17;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -663,7 +673,7 @@ case 0:
                 var4 = _closure1_slot14;
                 var7 = _closure1_slot0;
                 var10 = _closure1_slot3;
-                var6 = 17;
+                var6 = 19;
                 var1 = var10[var6];
                 var3 = undefined;
                 var1 = var7.bind(var3)(var1);
@@ -734,7 +744,7 @@ case 18:
             var4 = _closure1_slot13;
             var2 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var1 = 17;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -807,7 +817,7 @@ case 18:
             var4 = _closure1_slot13;
             var2 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var1 = 17;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -830,7 +840,7 @@ case 18:
         return var1;
     };
     var2 = var2.bind(var1)(var13);
-    var13 = 18;
+    var13 = 20;
     var13 = var15[var13];
     var15 = var14.bind(var1)(var13);
     var14 = var15.fileFinishedImporting;

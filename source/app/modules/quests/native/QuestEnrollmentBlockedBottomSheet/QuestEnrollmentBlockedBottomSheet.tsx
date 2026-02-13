@@ -209,24 +209,18 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.questId;
-            var _closure2_slot0 = var9;
-            var5 = var1.questEnrollmentBlockedUntil;
+            var2 = var1.questId;
+            var _closure2_slot0 = var2;
+            var2 = var1.questEnrollmentBlockedUntil;
+            var _closure2_slot1 = var2;
             var8 = var1.questContentPosition;
             var7 = var1.sourceQuestContent;
-            var4 = _closure1_slot5;
-            var3 = _closure1_slot7;
-            var1 = {};
-            var1['questId'] = var9;
-            var1['questEnrollmentBlockedUntil'] = var5;
-            var1['sourceQuestContent'] = var7;
-            var5 = undefined;
-            var1 = var4.bind(var5)(var3, var1);
-            var _closure2_slot1 = var1;
+            var _closure2_slot2 = var7;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
             var1 = var4[var1];
+            var5 = undefined;
             var9 = var3.bind(var5)(var1);
             var4 = var9.useStateFromStores;
             var1 = _closure1_slot4;
@@ -264,7 +258,17 @@ case 7:
             var2['questContentPosition'] = var8;
             var2['sourceQuestContent'] = var7;
             var6 = function children() {
-                var1 = _closure2_slot1;
+                var4 = _closure1_slot5;
+                var3 = _closure1_slot7;
+                var2 = {};
+                var5 = _closure2_slot0;
+                var2['questId'] = var5;
+                var5 = _closure2_slot1;
+                var2['questEnrollmentBlockedUntil'] = var5;
+                var1 = _closure2_slot2;
+                var2['sourceQuestContent'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var2['children'] = var6;

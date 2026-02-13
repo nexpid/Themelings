@@ -804,17 +804,6 @@ case 87:
                 var1['disabled'] = var2;
                 return var1;
             };
-            var15 = _closure1_slot24;
-            var14 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var2 = 33;
-            var2 = var20[var2];
-            var14 = var14.bind(var3)(var2);
-            var2 = {};
-            var2['message'] = var17;
-            var2['channel'] = var48;
-            var2 = var15.bind(var3)(var14, var2);
-            var _closure2_slot11 = var2;
             var2 = function render(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -830,30 +819,41 @@ case 0:
                     var1 = {};
                     var5 = _closure2_slot1;
                     var1['value'] = var5;
-                    var5 = 34;
+                    var5 = 33;
                     var5 = var11[var5];
                     var5 = var9.bind(var3)(var5);
                     var6 = var5.ActionSheet;
                     var5 = {};
                     var7 = true;
                     var5['showGradient'] = var7;
-                    var7 = 35;
-                    var7 = var11[var7];
-                    var12 = var9.bind(var3)(var7);
-                    var7 = var12.isMetaQuest;
-                    var7 = var7.bind(var12)();
-                    var5['startExpanded'] = var7;
-                    var7 = 36;
+                    var7 = 34;
                     var7 = var11[var7];
                     var13 = var9.bind(var3)(var7);
-                    var12 = var13.shouldShowEmojiRow;
+                    var7 = var13.isMetaQuest;
+                    var7 = var7.bind(var13)();
+                    var5['startExpanded'] = var7;
+                    var7 = 35;
+                    var7 = var11[var7];
+                    var14 = var9.bind(var3)(var7);
+                    var13 = var14.shouldShowEmojiRow;
                     var11 = _closure2_slot8;
                     var9 = _closure2_slot3;
                     var7 = _closure2_slot10;
-                    var7 = var12.bind(var13)(var11, var9, var7);
+                    var7 = var13.bind(var14)(var11, var9, var7);
                     if(!var7) { _fun0007_ip = 89; continue _fun0007 }
 case 90:
-                    var7 = _closure2_slot11;
+                    var11 = _closure1_slot24;
+                    var9 = _closure1_slot1;
+                    var13 = _closure1_slot2;
+                    var8 = 36;
+                    var8 = var13[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = {};
+                    var13 = _closure2_slot3;
+                    var8['message'] = var13;
+                    var12 = _closure2_slot4;
+                    var8['channel'] = var12;
+                    var7 = var11.bind(var3)(var9, var8);
 case 89:
                     var5['header'] = var7;
                     var7 = null;
@@ -1771,7 +1771,7 @@ case 108:
             var97 = var74;
             var15 = new var98[var15](var97, var96);
             var15 = var15 instanceof Object ? var15 : var73;
-            var _closure2_slot12 = var15;
+            var _closure2_slot11 = var15;
             var15 = new Array(0);
             if(var69) { _fun0004_ip = 110; continue _fun0004 }
 case 111:
@@ -2129,7 +2129,7 @@ case 206:
 case 205:
             var14 = var15.filter;
             var13 = function(arg1) {
-                var3 = _closure2_slot12;
+                var3 = _closure2_slot11;
                 var2 = var3.has;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);

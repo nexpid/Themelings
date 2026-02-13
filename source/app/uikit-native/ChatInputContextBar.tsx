@@ -88,43 +88,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function ChatInputReplyBar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var14 = var2.pendingReply;
+            var1 = arg1;
+            var14 = var1.pendingReply;
             var _closure2_slot0 = var14;
-            var1 = var2.pendingReplyAuthor;
-            var12 = var2.onTapContextBarReply;
-            var9 = var2.onCancelReplying;
-            var10 = var2.onToggleReplyMention;
-            var2 = _closure1_slot14;
+            var2 = var1.pendingReplyAuthor;
+            var12 = var1.onTapContextBarReply;
+            var9 = var1.onCancelReplying;
+            var10 = var1.onToggleReplyMention;
+            var1 = _closure1_slot14;
             var4 = undefined;
-            var17 = var2.bind(var4)();
+            var17 = var1.bind(var4)();
             var22 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var2 = 14;
-            var2 = var20[var2];
-            var6 = var22.bind(var4)(var2);
+            var1 = 14;
+            var1 = var20[var1];
+            var6 = var22.bind(var4)(var1);
             var5 = var6.useStateFromStores;
-            var2 = _closure1_slot5;
+            var1 = _closure1_slot5;
             var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
+            var3[0] = var1;
+            var1 = function() {
                 var1 = _closure1_slot5;
                 var1 = var1.roleStyle;
                 return var1;
             };
-            var11 = var5.bind(var6)(var3, var2);
-            var _closure2_slot1 = var11;
-            var7 = var1.colorString;
-            var _closure2_slot2 = var7;
-            var6 = var1.colorStrings;
-            var24 = var1.nick;
-            var _closure2_slot3 = var24;
-            var5 = var1.guildId;
+            var7 = var5.bind(var6)(var3, var1);
+            var _closure2_slot1 = var7;
+            var1 = var2.colorString;
+            var _closure2_slot2 = var1;
+            var5 = var2.colorStrings;
+            var _closure2_slot3 = var5;
+            var24 = var2.nick;
+            var _closure2_slot4 = var24;
+            var6 = var2.guildId;
+            var _closure2_slot5 = var6;
             var8 = _closure1_slot3;
             var3 = var8.useMemo;
             var2 = new Array(2);
-            var2[0] = var7;
-            var2[1] = var11;
+            var2[0] = var1;
+            var2[1] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -150,7 +152,7 @@ case 2:
                 }
             };
             var1 = var3.bind(var8)(var1, var2);
-            var _closure2_slot4 = var1;
+            var _closure2_slot6 = var1;
             var23 = _closure1_slot1;
             var1 = 15;
             var1 = var20[var1];
@@ -160,7 +162,7 @@ case 2:
             var3 = var3.author;
             var3 = var3.id;
             var1['userId'] = var3;
-            var1['guildId'] = var5;
+            var1['guildId'] = var6;
             var8 = var2.bind(var4)(var1);
             var1 = 16;
             var1 = var20[var1];
@@ -169,7 +171,7 @@ case 2:
             var1 = {};
             var1['displayNameStyles'] = var8;
             var1 = var2.bind(var3)(var1);
-            var _closure2_slot5 = var1;
+            var _closure2_slot7 = var1;
             var1 = 17;
             var1 = var20[var1];
             var3 = var22.bind(var4)(var1);
@@ -178,13 +180,13 @@ case 2:
             var8 = 'ChatInputContextBar';
             var1['location'] = var8;
             var1 = var2.bind(var3)(var1);
-            var _closure2_slot6 = var1;
+            var _closure2_slot8 = var1;
             var1 = 18;
             var2 = var20[var1];
             var3 = var22.bind(var4)(var2);
             var2 = var3.useProcessColorStringsArray;
-            var8 = var2.bind(var3)(var6);
-            var _closure2_slot7 = var8;
+            var5 = var2.bind(var3)(var5);
+            var _closure2_slot9 = var5;
             var1 = var20[var1];
             var3 = var22.bind(var4)(var1);
             var2 = var3.useIsRoleStyleAndRoleColorsEligibleForERC;
@@ -192,24 +194,11 @@ case 2:
             var1 = var1.author;
             var28 = var1.id;
             var30 = var3;
-            var29 = var5;
-            var27 = var11;
-            var26 = var8;
+            var29 = var6;
+            var27 = var7;
+            var26 = var5;
             var1 = var30[var2](var29, var28, var27, var26, var25);
-            var _closure2_slot8 = var1;
-            var3 = _closure1_slot9;
-            var1 = 19;
-            var1 = var20[var1];
-            var1 = var22.bind(var4)(var1);
-            var2 = var1.RoleDot;
-            var1 = {};
-            var1['color'] = var7;
-            var1['colors'] = var6;
-            var1['guildId'] = var5;
-            var5 = 'small';
-            var1['size'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            var _closure2_slot9 = var1;
+            var _closure2_slot10 = var1;
             var3 = _closure1_slot10;
             var2 = _closure1_slot4;
             var1 = {};
@@ -333,33 +322,33 @@ case 5:
                     var1 = var1.bind(var6)();
                     var1 = !var1;
                     var2['experimental_useNativeText'] = var1;
-                    var6 = _closure2_slot4;
+                    var6 = _closure2_slot6;
                     var1 = new Array(2);
                     var1[0] = var6;
-                    var6 = _closure2_slot6;
+                    var6 = _closure2_slot8;
                     if(!var6) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                    var8 = _closure2_slot5;
+                    var8 = _closure2_slot7;
                     var7 = null;
                     var6 = var7 != var8;
 case 8:
                     if(!var6) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
                     var7 = {};
-                    var8 = _closure2_slot5;
+                    var8 = _closure2_slot7;
                     var7['fontFamily'] = var8;
                     var6 = var7;
 case 10:
                     var1[1] = var6;
                     var2['style'] = var1;
-                    var6 = _closure2_slot8;
+                    var6 = _closure2_slot10;
                     var1 = undefined;
                     if(!var6) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                    var1 = _closure2_slot7;
+                    var1 = _closure2_slot9;
 case 12:
                     var2['gradientColors'] = var1;
-                    var1 = _closure2_slot3;
+                    var1 = _closure2_slot4;
                     var2['children'] = var1;
                     var1 = _closure2_slot0;
                     var1 = var1.message;
@@ -377,35 +366,49 @@ case 7:
                     var5 = _closure1_slot10;
                     var4 = _closure1_slot11;
                     var3 = {};
-                    var7 = _closure2_slot9;
-                    var6 = new Array(2);
-                    var6[0] = var7;
-                    var9 = _closure1_slot9;
+                    var13 = _closure1_slot9;
                     var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 13;
-                    var7 = var7[var2];
+                    var12 = _closure1_slot2;
+                    var2 = 19;
+                    var6 = var12[var2];
                     var2 = undefined;
+                    var6 = var8.bind(var2)(var6);
+                    var9 = var6.RoleDot;
+                    var6 = {};
+                    var15 = _closure2_slot2;
+                    var6['color'] = var15;
+                    var15 = _closure2_slot3;
+                    var6['colors'] = var15;
+                    var15 = _closure2_slot5;
+                    var6['guildId'] = var15;
+                    var15 = 'small';
+                    var6['size'] = var15;
+                    var9 = var13.bind(var2)(var9, var6);
+                    var6 = new Array(2);
+                    var6[0] = var9;
+                    var9 = _closure1_slot9;
+                    var7 = 13;
+                    var7 = var12[var7];
                     var7 = var8.bind(var2)(var7);
                     var8 = var7.Text;
                     var7 = {};
                     var12 = 'text-sm/semibold';
                     var7['variant'] = var12;
-                    var12 = _closure2_slot6;
+                    var12 = _closure2_slot8;
                     if(!var12) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-                    var13 = _closure2_slot5;
+                    var13 = _closure2_slot7;
                     var12 = var14 != var13;
 case 15:
                     if(!var12) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
                     var13 = {};
-                    var14 = _closure2_slot5;
+                    var14 = _closure2_slot7;
                     var13['fontFamily'] = var14;
                     var12 = var13;
 case 17:
                     var7['style'] = var12;
-                    var11 = _closure2_slot3;
+                    var11 = _closure2_slot4;
                     var7['children'] = var11;
                     var7 = var9.bind(var2)(var8, var7, var10);
                     var6[1] = var7;

@@ -1,11 +1,11 @@
 // app/modules/voice_panel/native/prejoin/VoicePanelPreJoinContent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot37;
+            var9 = _closure1_slot36;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot37;
+            var7 = _closure1_slot36;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot35 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot36 = var1;
     var1 = function StreamPreview(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -342,7 +342,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot37 = var1;
     var1 = function ActivityInfo(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -741,7 +741,7 @@ case 47:
             return var1;
         }
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot38 = var1;
     var1 = function RoomMembersSection(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -761,7 +761,7 @@ case 0:
             var1 = {};
             var1['title'] = var5;
             var5 = new Array(0);
-            var6 = _closure1_slot36;
+            var6 = _closure1_slot35;
             var10 = var6.bind(var3)(var7);
             var7 = var10.bind(var3)();
             var6 = var7.done;
@@ -805,7 +805,7 @@ case 51:
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot39 = var1;
     var1 = function RoomMembers(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -851,7 +851,7 @@ case 0:
             if(!var6) { _fun0009_ip = 55; continue _fun0009 }
 case 56:
             var9 = _closure1_slot23;
-            var7 = _closure1_slot31;
+            var7 = _closure1_slot30;
             var5 = {};
             var5['channelId'] = var21;
             var5['blockedUserIds'] = var23;
@@ -894,7 +894,7 @@ case 63:
                     var2.return();
 case 62:
                     var4 = _closure1_slot23;
-                    var3 = _closure1_slot38;
+                    var3 = _closure1_slot37;
                     var2 = {};
                     var7 = _closure2_slot0;
                     var2['channelId'] = var7;
@@ -912,7 +912,7 @@ case 62:
             if(!var6) { _fun0009_ip = 64; continue _fun0009 }
 case 65:
             var9 = _closure1_slot23;
-            var8 = _closure1_slot40;
+            var8 = _closure1_slot39;
             var7 = {};
             var18 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -941,7 +941,7 @@ case 64:
             if(!var6) { _fun0009_ip = 66; continue _fun0009 }
 case 67:
             var9 = _closure1_slot23;
-            var8 = _closure1_slot40;
+            var8 = _closure1_slot39;
             var7 = {};
             var18 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -1012,7 +1012,7 @@ case 70:
 case 72:
             var7['title'] = var10;
             var14 = new Array(0);
-            var10 = _closure1_slot36;
+            var10 = _closure1_slot35;
             var18 = var10.bind(var4)(var16);
             var16 = var18.bind(var4)();
             var10 = var16.done;
@@ -1111,7 +1111,7 @@ case 68:
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot40 = var1;
     var1 = function PreJoinTransitioner(arg1) {
         var4 = arg1;
         var17 = var4.transitionState;
@@ -1285,7 +1285,7 @@ case 88:
                 var4['__closure'] = var9;
                 var9 = 2541522666097.0;
                 var4['__workletHash'] = var9;
-                var2 = _closure1_slot35;
+                var2 = _closure1_slot34;
                 var4['__initData'] = var2;
                 var17 = 'respect-motion-settings';
                 var20 = var8;
@@ -1333,7 +1333,7 @@ case 88:
         var2['__closure'] = var7;
         var7 = 16643118377748.0;
         var2['__workletHash'] = var7;
-        var7 = _closure1_slot34;
+        var7 = _closure1_slot33;
         var2['__initData'] = var7;
         var5 = var3.bind(var5)(var2);
         var7 = _closure1_slot5;
@@ -1376,7 +1376,7 @@ case 88:
         var9 = var9.contentWrapper;
         var5['style'] = var9;
         var10 = _closure1_slot23;
-        var9 = _closure1_slot33;
+        var9 = _closure1_slot32;
         var8 = {};
         var23 = var8;
         var22 = var11;
@@ -1388,10 +1388,10 @@ case 88:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot41 = var1;
     var1 = function renderItem(arg1, arg2, arg3, arg4) {
         var5 = _closure1_slot23;
-        var4 = _closure1_slot42;
+        var4 = _closure1_slot41;
         var3 = {};
         var1 = arg3;
         var3['transitionState'] = var1;
@@ -1405,7 +1405,7 @@ case 88:
         var1 = var5.bind(var2)(var4, var3, var1);
         return var1;
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot42 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -1417,11 +1417,11 @@ case 88:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var14 = 1;
-    var4 = var6[var14];
-    var4 = var13.bind(var1)(var4);
+    var13 = 1;
+    var4 = var6[var13];
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
@@ -1431,61 +1431,61 @@ case 88:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var16 = var4.StyleSheet;
+    var15 = var4.StyleSheet;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot9 = var4;
-    var18 = 8;
-    var4 = var6[var18];
-    var4 = var13.bind(var1)(var4);
+    var17 = 8;
+    var4 = var6[var17];
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 9;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot11 = var4;
     var4 = 10;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot12 = var4;
     var4 = 11;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot13 = var4;
     var4 = 12;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot14 = var4;
     var4 = 13;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot15 = var4;
     var4 = 14;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot16 = var4;
     var4 = 15;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.MODE_CHANGE_PHYSICS;
     var _closure1_slot17 = var4;
-    var15 = 16;
-    var4 = var6[var15];
+    var14 = 16;
+    var4 = var6[var14];
     var4 = var5.bind(var1)(var4);
-    var17 = var4.EDGE_GUTTER;
-    var _closure1_slot18 = var17;
+    var16 = var4.EDGE_GUTTER;
+    var _closure1_slot18 = var16;
     var4 = 17;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -1503,112 +1503,112 @@ case 88:
     var4 = 19;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot23 = var9;
+    var8 = var4.jsx;
+    var _closure1_slot23 = var8;
     var8 = var4.jsxs;
     var _closure1_slot24 = var8;
     var4 = var4.Fragment;
     var _closure1_slot25 = var4;
     var4 = 20;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var8 = var10.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var4 = {};
-    var11 = {'paddingTop': null, 'gap': 24, 'paddingBottom': 16};
-    var12 = 21;
-    var12 = var6[var12];
-    var12 = var5.bind(var1)(var12);
-    var12 = var12.BASE_VOICE_PANEL_HEADER_HEIGHT;
-    var12 = var17 + var12;
-    var12 = var12 + var17;
-    var11['paddingTop'] = var12;
-    var4['contentWrapper'] = var11;
-    var11 = {};
-    var11['paddingHorizontal'] = var15;
-    var4['channelInfoWrapper'] = var11;
-    var17 = 'center';
-    var11 = {'textAlign': 'center', 'paddingTop': 16, 'paddingBottom': 16};
-    var4['subheading'] = var11;
-    var11 = {'position': 'relative', 'width': '100%', 'aspectRatio': 1.7777777777777777, 'borderRadius': null, 'overflow': 'hidden', 'justifyContent': 'center'};
-    var12 = 22;
-    var19 = var6[var12];
-    var19 = var13.bind(var1)(var19);
-    var19 = var19.radii;
-    var19 = var19.lg;
-    var11['borderRadius'] = var19;
-    var19 = var6[var12];
-    var19 = var13.bind(var1)(var19);
-    var19 = var19.colors;
-    var19 = var19.BLACK;
-    var11['backgroundColor'] = var19;
-    var4['previewImageWrapper'] = var11;
-    var11 = {};
-    var22 = var16.absoluteFillObject;
-    var23 = var11;
-    var19 = copyDataProperties(var23, var22);
-    var20 = 0.5;
-    var19 = 'opacity';
-    var11[var19] = var20;
-    var4['previewImage'] = var11;
-    var11 = {};
-    var11['paddingHorizontal'] = var15;
-    var4['activityInfoWrapper'] = var11;
-    var11 = {};
-    var11['marginBottom'] = var18;
-    var4['activityInfoHeader'] = var11;
-    var11 = {};
-    var22 = var16.absoluteFillObject;
-    var23 = var11;
-    var16 = copyDataProperties(var23, var22);
-    var18 = 'flex';
-    var16 = 'display';
-    var11[var16] = var18;
-    var16 = 'alignItems';
-    var11[var16] = var17;
-    var16 = 'justifyContent';
-    var11[var16] = var17;
-    var4['joinButtonWrapper'] = var11;
-    var11 = {};
-    var11['marginHorizontal'] = var15;
-    var4['optInChannelsContainer'] = var11;
-    var11 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-    var15 = var6[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_8;
-    var11['gap'] = var15;
-    var15 = var6[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_8;
-    var11['padding'] = var15;
-    var15 = var6[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.xs;
-    var11['borderRadius'] = var15;
-    var15 = var6[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.ICON_FEEDBACK_WARNING;
-    var11['borderColor'] = var15;
-    var11['borderWidth'] = var14;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
+    var10 = {'paddingTop': null, 'gap': 24, 'paddingBottom': 16};
+    var11 = 21;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.BASE_VOICE_PANEL_HEADER_HEIGHT;
+    var11 = var16 + var11;
+    var11 = var11 + var16;
+    var10['paddingTop'] = var11;
+    var4['contentWrapper'] = var10;
+    var10 = {};
+    var10['paddingHorizontal'] = var14;
+    var4['channelInfoWrapper'] = var10;
+    var16 = 'center';
+    var10 = {'textAlign': 'center', 'paddingTop': 16, 'paddingBottom': 16};
+    var4['subheading'] = var10;
+    var10 = {'position': 'relative', 'width': '100%', 'aspectRatio': 1.7777777777777777, 'borderRadius': null, 'overflow': 'hidden', 'justifyContent': 'center'};
+    var11 = 22;
+    var18 = var6[var11];
+    var18 = var12.bind(var1)(var18);
+    var18 = var18.radii;
+    var18 = var18.lg;
+    var10['borderRadius'] = var18;
+    var18 = var6[var11];
+    var18 = var12.bind(var1)(var18);
+    var18 = var18.colors;
+    var18 = var18.BLACK;
+    var10['backgroundColor'] = var18;
+    var4['previewImageWrapper'] = var10;
+    var10 = {};
+    var21 = var15.absoluteFillObject;
+    var22 = var10;
+    var18 = copyDataProperties(var22, var21);
+    var19 = 0.5;
+    var18 = 'opacity';
+    var10[var18] = var19;
+    var4['previewImage'] = var10;
+    var10 = {};
+    var10['paddingHorizontal'] = var14;
+    var4['activityInfoWrapper'] = var10;
+    var10 = {};
+    var10['marginBottom'] = var17;
+    var4['activityInfoHeader'] = var10;
+    var10 = {};
+    var21 = var15.absoluteFillObject;
+    var22 = var10;
+    var15 = copyDataProperties(var22, var21);
+    var17 = 'flex';
+    var15 = 'display';
+    var10[var15] = var17;
+    var15 = 'alignItems';
+    var10[var15] = var16;
+    var15 = 'justifyContent';
+    var10[var15] = var16;
+    var4['joinButtonWrapper'] = var10;
+    var10 = {};
+    var10['marginHorizontal'] = var14;
+    var4['optInChannelsContainer'] = var10;
+    var10 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var10['gap'] = var14;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var10['padding'] = var14;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.xs;
+    var10['borderRadius'] = var14;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_FEEDBACK_WARNING;
-    var11['backgroundColor'] = var14;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_16;
-    var11['marginHorizontal'] = var12;
-    var4['blockedMemberWarning'] = var11;
-    var11 = {};
-    var12 = 36;
-    var11['height'] = var12;
-    var4['consolePreJoinPadding'] = var11;
-    var4 = var8.bind(var10)(var4);
+    var14 = var14.ICON_FEEDBACK_WARNING;
+    var10['borderColor'] = var14;
+    var10['borderWidth'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_FEEDBACK_WARNING;
+    var10['backgroundColor'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_16;
+    var10['marginHorizontal'] = var11;
+    var4['blockedMemberWarning'] = var10;
+    var10 = {};
+    var11 = 36;
+    var10['height'] = var11;
+    var4['consolePreJoinPadding'] = var10;
+    var4 = var8.bind(var9)(var4);
     var _closure1_slot26 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
@@ -1668,15 +1668,6 @@ case 89:
     var8 = 'function VoicePanelPreJoinContentTsx2(width,previous){const{runOnJS,setActivityPreviewWidth,EDGE_GUTTER}=this.__closure;if(width===previous)return;runOnJS(setActivityPreviewWidth)(width-(EDGE_GUTTER+16)*2);}';
     var4['code'] = var8;
     var _closure1_slot29 = var4;
-    var4 = 43;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.CircleErrorIcon;
-    var4 = {};
-    var10 = 'text-feedback-warning';
-    var4['color'] = var10;
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot30 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -1690,12 +1681,12 @@ case 0:
             var5 = var1.bind(var4)();
             var7 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var6 = 44;
+            var6 = 43;
             var6 = var1[var6];
             var8 = var7.bind(var4)(var6);
             var7 = {};
             var6 = _closure1_slot0;
-            var9 = 45;
+            var9 = 44;
             var9 = var1[var9];
             var9 = var6.bind(var4)(var9);
             var9 = var9.ImpressionNames;
@@ -1784,11 +1775,19 @@ case 95:
             var1 = {};
             var5 = var5.blockedMemberWarning;
             var1['style'] = var5;
-            var7 = _closure1_slot30;
-            var5 = new Array(2);
-            var5[0] = var7;
-            var8 = _closure1_slot24;
+            var9 = _closure1_slot23;
             var7 = _closure1_slot0;
+            var5 = 45;
+            var5 = var6[var5];
+            var5 = var7.bind(var4)(var5);
+            var8 = var5.CircleErrorIcon;
+            var5 = {};
+            var12 = 'text-feedback-warning';
+            var5['color'] = var12;
+            var8 = var9.bind(var4)(var8, var5);
+            var5 = new Array(2);
+            var5[0] = var8;
+            var8 = _closure1_slot24;
             var15 = 29;
             var6 = var6[var15];
             var6 = var7.bind(var4)(var6);
@@ -1828,7 +1827,7 @@ case 96:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot31 = var4;
+    var _closure1_slot30 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
@@ -1939,7 +1938,7 @@ case 109:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot32 = var4;
+    var _closure1_slot31 = var4;
     var8 = var7.memo;
     var4 = function VoicePanelPreJoinContentInner(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -2058,7 +2057,7 @@ case 111:
             var7 = function(arg1) {
                 var1 = arg1;
                 var5 = _closure1_slot23;
-                var4 = _closure1_slot39;
+                var4 = _closure1_slot38;
                 var3 = {};
                 var3['activity'] = var1;
                 var2 = _closure2_slot2;
@@ -2085,7 +2084,7 @@ case 115:
             if(!var7) { _fun0017_ip = 117; continue _fun0017 }
 case 118:
             var11 = _closure1_slot23;
-            var10 = _closure1_slot41;
+            var10 = _closure1_slot40;
             var8 = {};
             var8['members'] = var15;
             var8['streamingMembers'] = var14;
@@ -2095,7 +2094,7 @@ case 118:
 case 117:
             var5[3] = var7;
             var8 = _closure1_slot23;
-            var7 = _closure1_slot32;
+            var7 = _closure1_slot31;
             var6 = {};
             var6['channelId'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -2106,15 +2105,15 @@ case 117:
         }
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot33 = var4;
+    var _closure1_slot32 = var4;
     var4 = {};
     var8 = "function VoicePanelPreJoinContentTsx3(){const{windowDimensions,roundToNearestPixel,controlsSpecs,safeArea,withSpring,transitionState,TransitionStates,interpolate,useReducedMotion,MODE_CHANGE_PHYSICS,runOnJS,transitionCleanUp}=this.__closure;const{height:windowHeight}=windowDimensions.get();return{paddingBottom:windowHeight-roundToNearestPixel(windowHeight*0.8)+controlsSpecs.get().height+safeArea.get().bottom,opacity:withSpring(transitionState===TransitionStates.YEETED?0:1),transform:[{translateY:withSpring(interpolate(!useReducedMotion.get()&&transitionState===TransitionStates.YEETED?1:0,[0,1],[0,400]),MODE_CHANGE_PHYSICS,'respect-motion-settings',function(finished=false){finished&&transitionState===TransitionStates.YEETED&&runOnJS(transitionCleanUp)();})}]};}";
     var4['code'] = var8;
-    var _closure1_slot34 = var4;
+    var _closure1_slot33 = var4;
     var4 = {};
     var8 = 'function VoicePanelPreJoinContentTsx4(finished=false){const{transitionState,TransitionStates,runOnJS,transitionCleanUp}=this.__closure;finished&&transitionState===TransitionStates.YEETED&&runOnJS(transitionCleanUp)();}';
     var4['code'] = var8;
-    var _closure1_slot35 = var4;
+    var _closure1_slot34 = var4;
     var4 = var7.memo;
     var2 = function VoicePanelPreJoinWrapper() {
         var8 = _closure1_slot5;
@@ -2186,7 +2185,7 @@ case 61:
                 var1 = var4.getEmbeddedActivitiesForChannel;
                 var5 = var1.bind(var4)(var5);
                 var4 = new Array(0);
-                var1 = _closure1_slot36;
+                var1 = _closure1_slot35;
                 var9 = var1.bind(var10)(var6);
                 var7 = var9.bind(var10)();
                 var1 = var7.done;
@@ -2243,7 +2242,7 @@ case 119:
         var2 = var1.TransitionItem;
         var1 = {};
         var1['item'] = var6;
-        var5 = _closure1_slot43;
+        var5 = _closure1_slot42;
         var1['renderItem'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

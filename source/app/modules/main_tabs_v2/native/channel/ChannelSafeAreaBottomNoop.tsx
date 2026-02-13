@@ -19,17 +19,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.View;
+    var4 = var4.View;
+    var _closure1_slot0 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var4 = {};
-    var4 = var8.bind(var1)(var9, var4);
-    var _closure1_slot0 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot1 = var4;
     var4 = var7.memo;
     var2 = function ChannelSafeAreaNoop() {
-        var1 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot0;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var2 = var4.bind(var7)(var2);

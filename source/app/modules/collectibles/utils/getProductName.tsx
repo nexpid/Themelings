@@ -1,4 +1,4 @@
-// app/modules/collectibles/hooks/useProductName.tsx
+// app/modules/collectibles/utils/getProductName.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var4 = function useBaseProductName(arg1) {
+    var4 = function getBaseProductName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -59,7 +59,7 @@ case 2:
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/collectibles/hooks/useProductName.tsx';
+    var5 = 'modules/collectibles/utils/getProductName.tsx';
     var5 = var6.bind(var7)(var5);
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -117,8 +117,8 @@ case 12:
             return var1;
         }
     };
-    var3['useProductName'] = var5;
-    var3['useBaseProductName'] = var4;
+    var3['getProductName'] = var5;
+    var3['getBaseProductName'] = var4;
     var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -171,7 +171,7 @@ case 19:
             return var1;
         }
     };
-    var3['usePurchasedProductName'] = var4;
+    var3['getPurchasedProductName'] = var4;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -260,6 +260,6 @@ case 23:
             return var1;
         }
     };
-    var3['useProductNameAndTypeLabel'] = var2;
+    var3['getProductNameAndTypeLabel'] = var2;
     return var1;
 })();

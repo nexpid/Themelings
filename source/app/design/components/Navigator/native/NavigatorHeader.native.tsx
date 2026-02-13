@@ -1,11 +1,11 @@
 // app/design/components/Navigator/native/NavigatorHeader.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var8;
     var4 = function HeaderBackImage() {
         var2 = _closure1_slot8;
@@ -26,6 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
+    var _closure1_slot9 = var4;
     var1 = function CloseButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -136,7 +137,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function CustomHeaderBackButton(arg1) {
         var3 = arg1;
         var7 = var3.onPress;
@@ -186,7 +187,11 @@ case 4:
         var6 = 'labelVisible';
         var1[var6] = var7;
         var6 = function backImage() {
-            var1 = _closure1_slot10;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot9;
+            var2 = undefined;
+            var1 = {};
+            var1 = var4.bind(var2)(var3, var1);
             return var1;
         };
         var5 = 'backImage';
@@ -194,7 +199,7 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function HeaderTextButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -263,7 +268,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -275,7 +280,7 @@ case 6:
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;
-    var5 = var13.bind(var1)(var5);
+    var5 = var12.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
     var6 = var8[var5];
@@ -291,83 +296,77 @@ case 6:
     var5 = 3;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var14 = var5.Fonts;
+    var13 = var5.Fonts;
     var5 = 4;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot6 = var9;
+    var6 = var5.jsx;
+    var _closure1_slot6 = var6;
     var5 = var5.jsxs;
     var _closure1_slot7 = var5;
     var5 = 5;
     var5 = var8[var5];
-    var10 = var7.bind(var1)(var5);
-    var6 = var10.createStyles;
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createStyles;
     var5 = {};
-    var11 = {};
-    var12 = 6;
-    var15 = var8[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_BASE_LOW;
-    var11['backgroundColor'] = var15;
-    var15 = 'hidden';
-    var11['overflow'] = var15;
-    var5['fauxHeaderWrapper'] = var11;
-    var11 = {};
-    var15 = 7;
-    var15 = var8[var15];
-    var15 = var7.bind(var1)(var15);
-    var15 = var15.TextStyleSheet;
-    var18 = var15.redesign/heading-18/bold;
-    var19 = var11;
-    var15 = copyDataProperties(var19, var18);
-    var15 = var8[var12];
-    var15 = var13.bind(var1)(var15);
-    var15 = var15.colors;
-    var16 = var15.MOBILE_TEXT_HEADING_PRIMARY;
-    var15 = 'color';
-    var11[var15] = var16;
-    var5['headerTitle'] = var11;
-    var11 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
-    var14 = var14.PRIMARY_MEDIUM;
-    var11['fontFamily'] = var14;
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
+    var10 = {};
+    var11 = 6;
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
-    var11['color'] = var14;
-    var5['headerBackTitleStyle'] = var11;
-    var11 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
-    var5['navigatorHeaderTitleContainer'] = var11;
-    var11 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
-    var5['navigatorHeaderContainer'] = var11;
-    var11 = {};
-    var14 = -2;
-    var11['marginTop'] = var14;
-    var5['navigatorHeaderSubtitle'] = var11;
-    var11 = {'width': 24, 'height': 24};
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
+    var14 = var14.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var14;
+    var14 = 'hidden';
+    var10['overflow'] = var14;
+    var5['fauxHeaderWrapper'] = var10;
+    var10 = {};
+    var14 = 7;
+    var14 = var8[var14];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.TextStyleSheet;
+    var17 = var14.redesign/heading-18/bold;
+    var18 = var10;
+    var14 = copyDataProperties(var18, var17);
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
-    var11['tintColor'] = var14;
-    var5['headerButtonIcon'] = var11;
-    var11 = {'width': 22, 'height': 22};
-    var12 = var8[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
-    var11['color'] = var12;
-    var5['submittingIndicator'] = var11;
-    var5 = var6.bind(var10)(var5);
+    var15 = var14.MOBILE_TEXT_HEADING_PRIMARY;
+    var14 = 'color';
+    var10[var14] = var15;
+    var5['headerTitle'] = var10;
+    var10 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
+    var13 = var13.PRIMARY_MEDIUM;
+    var10['fontFamily'] = var13;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
+    var10['color'] = var13;
+    var5['headerBackTitleStyle'] = var10;
+    var10 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderTitleContainer'] = var10;
+    var10 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderContainer'] = var10;
+    var10 = {};
+    var13 = -2;
+    var10['marginTop'] = var13;
+    var5['navigatorHeaderSubtitle'] = var10;
+    var10 = {'width': 24, 'height': 24};
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.MOBILE_TEXT_HEADING_PRIMARY;
+    var10['tintColor'] = var13;
+    var5['headerButtonIcon'] = var10;
+    var10 = {'width': 22, 'height': 22};
+    var11 = var8[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
+    var10['color'] = var11;
+    var5['submittingIndicator'] = var10;
+    var5 = var6.bind(var9)(var5);
     var _closure1_slot8 = var5;
-    var6 = {};
-    var6 = var9.bind(var1)(var4, var6);
-    var _closure1_slot9 = var6;
-    var6 = {};
-    var6 = var9.bind(var1)(var4, var6);
-    var _closure1_slot10 = var6;
     var6 = 17;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -440,7 +439,11 @@ case 10:
     var3['NavigatorHeader'] = var5;
     var3['HeaderBackImage'] = var4;
     var4 = function renderBackImage() {
-        var1 = _closure1_slot9;
+        var4 = _closure1_slot6;
+        var3 = _closure1_slot9;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var3['renderBackImage'] = var4;
@@ -449,7 +452,7 @@ case 10:
         var _closure2_slot0 = var2;
         var1 = function(arg1) {
             var4 = _closure1_slot6;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot10;
             var2 = {};
             var6 = arg1;
             var7 = var2;
@@ -535,7 +538,7 @@ case 12:
             var4 = undefined;
             var6 = var1.bind(var4)();
             var3 = _closure1_slot6;
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var1 = {};
             var9 = var1;
             var5 = copyDataProperties(var9, var8);
@@ -572,7 +575,7 @@ case 21:
                 var6 = var3;
                 var7 = copyDataProperties(var8, var7, var6);
                 var4 = _closure1_slot6;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var2 = {};
                 var8 = var2;
                 var5 = copyDataProperties(var8, var7);
@@ -619,7 +622,7 @@ case 18:
         var _closure2_slot1 = var2;
         var1 = function(arg1) {
             var4 = _closure1_slot6;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var2 = {};
             var7 = arg1;
             var8 = var2;

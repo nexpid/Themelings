@@ -110,6 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.colors;
         var2 = var2.BG_SURFACE_RAISED;
         var10 = var6.bind(var7)(var2);
+        var _closure2_slot1 = var10;
         var2 = 9;
         var2 = var19[var2];
         var11 = var18.bind(var4)(var2);
@@ -125,11 +126,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2 = new Array(0);
         var2 = var8.bind(var11)(var7, var6, var2);
-        var _closure2_slot1 = var2;
-        var7 = _closure1_slot4;
-        var8 = var7.useMemo;
-        var6 = new Array(1);
-        var6[0] = var3;
+        var _closure2_slot2 = var2;
+        var6 = _closure1_slot4;
+        var8 = var6.useMemo;
+        var7 = new Array(1);
+        var7[0] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -174,10 +175,10 @@ case 2:
                 return var1;
             }
         };
-        var8 = var8.bind(var7)(var3, var6);
-        var _closure2_slot2 = var8;
-        var11 = var7.useCallback;
-        var6 = function() {
+        var7 = var8.bind(var6)(var3, var7);
+        var _closure2_slot3 = var7;
+        var11 = var6.useCallback;
+        var8 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 11;
@@ -189,8 +190,8 @@ case 2:
             return var1;
         };
         var3 = new Array(0);
-        var16 = var11.bind(var7)(var6, var3);
-        var6 = var7.useCallback;
+        var16 = var11.bind(var6)(var8, var3);
+        var8 = var6.useCallback;
         var3 = new Array(1);
         var3[0] = var2;
         var2 = function() {
@@ -204,7 +205,7 @@ case 0:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideAllActionSheets;
                 var2 = var2.bind(var3)();
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot2;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -214,7 +215,7 @@ case 7:
                 var2 = var7[var2];
                 var3 = var6.bind(var1)(var2);
                 var2 = {};
-                var5 = _closure2_slot1;
+                var5 = _closure2_slot2;
                 var5 = var5.id;
                 var2['userId'] = var5;
                 var5 = 13;
@@ -232,35 +233,39 @@ case 6:
                 return var1;
             }
         };
-        var14 = var6.bind(var7)(var2, var3);
-        var3 = _closure1_slot8;
-        var2 = 14;
-        var2 = var19[var2];
-        var2 = var18.bind(var4)(var2);
-        var6 = var2.CollectiblesPreview;
-        var2 = {};
-        var2['collectiblesItemData'] = var8;
-        var2['backgroundColor'] = var10;
-        var2 = var3.bind(var4)(var6, var2);
-        var _closure2_slot3 = var2;
-        var6 = var7.useCallback;
+        var14 = var8.bind(var6)(var2, var3);
+        var3 = var6.useCallback;
         var2 = new Array(2);
-        var2[0] = var8;
+        var2[0] = var7;
         var2[1] = var10;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = _closure2_slot2;
+                var2 = _closure2_slot3;
                 var1 = null;
-                var3 = var1 == var3;
-                if(var3) { _fun0003_ip = 8; continue _fun0003 }
+                var2 = var1 == var2;
+                if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                var1 = _closure2_slot3;
+                var5 = _closure1_slot8;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 14;
+                var2 = var4[var2];
+                var4 = undefined;
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.CollectiblesPreview;
+                var2 = {};
+                var7 = _closure2_slot3;
+                var2['collectiblesItemData'] = var7;
+                var6 = _closure2_slot1;
+                var2['backgroundColor'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
 case 8:
                 return var1;
             }
         };
-        var11 = var6.bind(var7)(var1, var2);
+        var11 = var3.bind(var6)(var1, var2);
+        var3 = _closure1_slot8;
         var1 = 15;
         var1 = var19[var1];
         var1 = var18.bind(var4)(var1);

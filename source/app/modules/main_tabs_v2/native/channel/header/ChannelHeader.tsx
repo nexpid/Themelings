@@ -37,20 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
-    var4 = 10;
-    var4 = var6[var4];
-    var9 = var7.bind(var1)(var4);
-    var4 = {};
-    var4 = var8.bind(var1)(var9, var4);
-    var _closure1_slot7 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var7 = var7.bind(var1)(var4);
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot8 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -66,26 +54,26 @@ case 0:
             var7 = var2.screenIndex;
             var10 = var2.isNavigationScreen;
             var1 = var2.pressable;
-            var6 = undefined;
-            if(!(var1 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = undefined;
+            if(!(var1 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = true;
 case 2:
             var12 = var2.isGuildMemberCountVisible;
-            if(!(var12 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var12 === var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var12 = true;
 case 4:
-            var5 = var2.showCreateThread;
-            if(!(var5 === var6)) { _fun0001_ip = 6; continue _fun0001 }
+            var6 = var2.showCreateThread;
+            if(!(var6 === var5)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var5 = false;
+            var6 = false;
 case 6:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var11 = 12;
+            var11 = 10;
             var11 = var8[var11];
-            var14 = var4.bind(var6)(var11);
+            var14 = var4.bind(var5)(var11);
             var13 = var14.useStateFromStores;
             var15 = _closure1_slot3;
             var11 = new Array(1);
@@ -98,9 +86,9 @@ case 6:
                 return var1;
             };
             var11 = var13.bind(var14)(var11, var3);
-            var3 = 13;
+            var3 = 11;
             var3 = var8[var3];
-            var4 = var4.bind(var6)(var3);
+            var4 = var4.bind(var5)(var3);
             var3 = var4.useIsChannelContentGated;
             var3 = var3.bind(var4)(var11);
             var8 = !var3;
@@ -134,7 +122,7 @@ case 17:
             var14 = _closure1_slot2;
             var1 = 17;
             var1 = var14[var1];
-            var3 = var3.bind(var6)(var1);
+            var3 = var3.bind(var5)(var1);
             var1 = {};
             var1['channelId'] = var9;
             var15 = var13 == var11;
@@ -148,16 +136,16 @@ case 20:
             var1['isGuildMemberCountVisible'] = var12;
             var1['isNavigationScreen'] = var10;
             var1['screenIndex'] = var7;
-            var1['showCreateThread'] = var5;
-            var1 = var4.bind(var6)(var3, var1);
+            var1['showCreateThread'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 22; continue _fun0001;
 case 19:
-            var5 = _closure1_slot6;
+            var6 = _closure1_slot6;
             var4 = _closure1_slot1;
             var14 = _closure1_slot2;
             var3 = 15;
             var3 = var14[var3];
-            var4 = var4.bind(var6)(var3);
+            var4 = var4.bind(var5)(var3);
             var3 = {};
             var3['channelId'] = var9;
             var14 = var13 == var11;
@@ -180,39 +168,53 @@ case 26:
             var15 = _closure1_slot2;
             var11 = 16;
             var12 = var15[var11];
-            var12 = var14.bind(var6)(var12);
+            var12 = var14.bind(var5)(var12);
             var13 = var12.intl;
             var12 = var13.string;
             var11 = var15[var11];
-            var11 = var14.bind(var6)(var11);
+            var11 = var14.bind(var5)(var11);
             var11 = var11.t;
             var11 = var11.L9fR+P;
             var10 = var12.bind(var13)(var11);
 case 25:
             var3['searchPlaceholder'] = var10;
-            var1 = var5.bind(var6)(var4, var3);
+            var1 = var6.bind(var5)(var4, var3);
 case 22:
             _fun0001_ip = 27; continue _fun0001;
 case 16:
-            var5 = _closure1_slot6;
+            var6 = _closure1_slot6;
             var4 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 14;
             var3 = var10[var3];
-            var4 = var4.bind(var6)(var3);
+            var4 = var4.bind(var5)(var3);
             var3 = {};
             var3['channelId'] = var9;
             var3['pressable'] = var8;
             var3['screenIndex'] = var7;
-            var1 = var5.bind(var6)(var4, var3);
+            var1 = var6.bind(var5)(var4, var3);
 case 27:
             _fun0001_ip = 28; continue _fun0001;
 case 12:
-            var1 = _closure1_slot8;
+            var6 = _closure1_slot6;
+            var4 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = 13;
+            var3 = var7[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = {};
+            var1 = var6.bind(var5)(var4, var3);
 case 28:
             _fun0001_ip = 29; continue _fun0001;
 case 10:
-            var1 = _closure1_slot7;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 12;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
 case 29:
             return var1;
         }

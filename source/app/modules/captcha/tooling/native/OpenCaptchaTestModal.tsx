@@ -52,31 +52,32 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var7 = undefined;
-                    var _closure4_slot0 = var7;
-                    var6 = _closure1_slot0;
+                    var6 = undefined;
+                    var _closure4_slot0 = var6;
+                    var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var2[var5];
-                    var6 = var6.bind(var7)(var5);
-                    var5 = 4;
-                    var5 = var2[var5];
+                    var4 = 5;
+                    var4 = var2[var4];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = 4;
+                    var4 = var2[var4];
                     var2 = var2.paths;
-                    var2 = var6.bind(var7)(var5, var2);
+                    var2 = var5.bind(var6)(var4, var2);
                     SaveGenerator(address=60);
 case 4:
                     return var2;
 case 5:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var6 = var2.default;
-                    var5 = _closure1_slot4;
-                    var4 = {};
-                    var4 = var5.bind(var7)(var6, var4);
+                    var4 = var2.default;
                     _closure4_slot0 = var4;
                     var3 = function() {
-                        var1 = _closure4_slot0;
+                        var4 = _closure1_slot4;
+                        var3 = _closure4_slot0;
+                        var2 = undefined;
+                        var1 = {};
+                        var1 = var4.bind(var2)(var3, var1);
                         return var1;
                     };
                     return var3;

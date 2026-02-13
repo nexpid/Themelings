@@ -123,21 +123,14 @@ case 2:
         var _closure2_slot0 = var7;
         var5 = var2.style;
         var _closure2_slot1 = var5;
-        var8 = _closure1_slot6;
-        var6 = _closure1_slot7;
-        var3 = {};
-        var3['actions'] = var7;
-        var3['style'] = var5;
-        var4 = undefined;
-        var3 = var8.bind(var4)(var6, var3);
-        var _closure2_slot2 = var3;
         var6 = _closure1_slot1;
-        var8 = _closure1_slot2;
+        var4 = _closure1_slot2;
         var3 = 3;
-        var3 = var8[var3];
+        var3 = var4[var3];
+        var4 = undefined;
         var3 = var6.bind(var4)(var3);
         var6 = var3.bind(var4)();
-        var _closure2_slot3 = var6;
+        var _closure2_slot2 = var6;
         var4 = _closure1_slot3;
         var3 = var4.useMemo;
         var2 = new Array(3);
@@ -194,7 +187,7 @@ case 15:
 case 16:
                 var7 = _closure2_slot0;
                 var10 = var7.length;
-                var7 = _closure2_slot3;
+                var7 = _closure2_slot2;
                 var7 = var10 * var7;
                 var7 = var7 + var9;
                 var2 = var7 + var8;
@@ -212,7 +205,15 @@ case 18:
                 if(!var3) { _fun0002_ip = 17; continue _fun0002 }
 case 19:
                 var2 = function() {
-                    var1 = _closure2_slot2;
+                    var4 = _closure1_slot6;
+                    var3 = _closure1_slot7;
+                    var2 = {};
+                    var5 = _closure2_slot0;
+                    var2['actions'] = var5;
+                    var1 = _closure2_slot1;
+                    var2['style'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
 case 17:

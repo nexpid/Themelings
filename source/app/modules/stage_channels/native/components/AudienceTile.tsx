@@ -1,11 +1,11 @@
 // app/modules/stage_channels/native/components/AudienceTile.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var8;
     var1 = function RaisedHandIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -68,7 +68,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var6 = var1.Object;
     var4 = var6.defineProperty;
@@ -91,13 +91,13 @@ case 5:
     var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var8[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var12.bind(var1)(var2);
     var _closure1_slot5 = var2;
     var2 = 3;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var11 = var2.jsx;
-    var _closure1_slot6 = var11;
+    var4 = var2.jsx;
+    var _closure1_slot6 = var4;
     var2 = var2.jsxs;
     var _closure1_slot7 = var2;
     var2 = 4;
@@ -106,51 +106,51 @@ case 5:
     var4 = var6.createStyles;
     var2 = {};
     var10 = {};
-    var12 = 'visible';
-    var10['overflow'] = var12;
+    var11 = 'visible';
+    var10['overflow'] = var11;
     var2['touchableContainer'] = var10;
     var10 = {};
-    var12 = 'center';
-    var10['alignItems'] = var12;
+    var11 = 'center';
+    var10['alignItems'] = var11;
     var2['container'] = var10;
     var10 = {'position': 'relative', 'padding': 8, 'paddingTop': 0, 'paddingBottom': 4};
     var2['avatarContainer'] = var10;
     var10 = {'position': 'absolute', 'top': 4294967288, 'right': 0, 'height': 24, 'width': 24, 'alignItems': 'center', 'justifyContent': 'center', 'borderRadius': 12, 'borderWidth': 2};
-    var12 = 5;
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.unsafe_rawColors;
-    var14 = var14.PRIMARY_800;
-    var10['borderColor'] = var14;
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.WHITE;
-    var10['backgroundColor'] = var14;
+    var11 = 5;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.unsafe_rawColors;
+    var13 = var13.PRIMARY_800;
+    var10['borderColor'] = var13;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.WHITE;
+    var10['backgroundColor'] = var13;
     var2['raisedHandContainer'] = var10;
     var10 = {};
-    var14 = var8[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.unsafe_rawColors;
-    var14 = var14.GREEN_360;
-    var10['backgroundColor'] = var14;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.unsafe_rawColors;
+    var13 = var13.GREEN_360;
+    var10['backgroundColor'] = var13;
     var2['activeBackground'] = var10;
     var10 = {'height': 13, 'width': 13, 'alignItems': 'center', 'justifyContent': 'center', 'resizeMode': 'contain'};
     var2['raisedHand'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center'};
     var2['nameplateContainer'] = var10;
     var10 = {};
-    var14 = 14;
-    var10['fontSize'] = var14;
-    var12 = var8[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.WHITE;
-    var10['color'] = var12;
+    var13 = 14;
+    var10['fontSize'] = var13;
+    var11 = var8[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.WHITE;
+    var10['color'] = var11;
     var2['usernameText'] = var10;
     var10 = {};
-    var12 = 0.5;
-    var10['opacity'] = var12;
+    var11 = 0.5;
+    var10['opacity'] = var11;
     var2['faded'] = var10;
     var4 = var4.bind(var6)(var2);
     var _closure1_slot8 = var4;
@@ -163,19 +163,6 @@ case 5:
         return var1;
     };
     var _closure1_slot9 = var2;
-    var6 = 9;
-    var10 = var8[var6];
-    var10 = var7.bind(var1)(var10);
-    var12 = var10.BlockedStatus;
-    var10 = {};
-    var10 = var11.bind(var1)(var12, var10);
-    var _closure1_slot10 = var10;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var10 = var6.IgnoredStatus;
-    var6 = {};
-    var6 = var11.bind(var1)(var10, var6);
-    var _closure1_slot11 = var6;
     var6 = var9.memo;
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -203,7 +190,7 @@ case 0:
             var _closure2_slot2 = var23;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var6[var2];
             var10 = var3.bind(var4)(var2);
             var9 = var10.useStateFromStores;
@@ -244,13 +231,13 @@ case 7:
                 }
             };
             var10 = var9.bind(var10)(var8, var2, var7);
-            var2 = 11;
+            var2 = 10;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isRequestedToSpeakAll;
             var8 = var2.bind(var3)(var19);
             var3 = _closure1_slot1;
-            var2 = 12;
+            var2 = 11;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getName;
@@ -264,12 +251,12 @@ case 11:
             var3 = _closure1_slot7;
             var9 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var7[var1];
             var1 = var9.bind(var4)(var1);
             var2 = var1.Pressable;
             var1 = {};
-            var6 = 14;
+            var6 = 13;
             var14 = var7[var6];
             var14 = var9.bind(var4)(var14);
             var18 = var14.intl;
@@ -296,7 +283,7 @@ case 11:
             var5 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -318,7 +305,7 @@ case 11:
             var5['style'] = var9;
             var14 = _closure1_slot6;
             var9 = _closure1_slot1;
-            var24 = 16;
+            var24 = 15;
             var7 = var7[var24];
             var9 = var9.bind(var4)(var7);
             var7 = {};
@@ -350,7 +337,7 @@ case 15:
             if(!var8) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var18 = _closure1_slot6;
-            var14 = _closure1_slot12;
+            var14 = _closure1_slot10;
             var9 = {};
             var9['rtsState'] = var19;
             var8 = var18.bind(var4)(var14, var9);
@@ -369,13 +356,29 @@ case 17:
             var6['style'] = var9;
             if(!var13) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-            var13 = _closure1_slot10;
+            var18 = _closure1_slot6;
+            var14 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var9 = 16;
+            var9 = var19[var9];
+            var9 = var14.bind(var4)(var9);
+            var14 = var9.BlockedStatus;
+            var9 = {};
+            var13 = var18.bind(var4)(var14, var9);
 case 19:
             var9 = new Array(4);
             var9[0] = var13;
             if(!var12) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var12 = _closure1_slot11;
+            var18 = _closure1_slot6;
+            var14 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var13 = 16;
+            var13 = var19[var13];
+            var13 = var14.bind(var4)(var13);
+            var14 = var13.IgnoredStatus;
+            var13 = {};
+            var12 = var18.bind(var4)(var14, var13);
 case 21:
             var9[1] = var12;
             var14 = _closure1_slot6;

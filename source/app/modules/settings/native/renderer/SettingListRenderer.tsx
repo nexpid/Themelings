@@ -1,11 +1,11 @@
 // app/modules/settings/native/renderer/SettingListRenderer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var9 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var9;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var1 = function SearchListSectionLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -41,7 +41,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function SearchListSectionSubLabel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -82,7 +82,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function getItemType(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -128,7 +128,7 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = function renderItem(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -189,7 +189,7 @@ case 18:
             return var3;
 case 16:
             var6 = _closure1_slot9;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot12;
             var4 = {};
             var3 = var1.label;
             var4['subLabel'] = var3;
@@ -198,7 +198,7 @@ case 16:
             return var3;
 case 14:
             var4 = _closure1_slot9;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var2 = {};
             var1 = var1.label;
             var2['label'] = var1;
@@ -207,7 +207,7 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = function keyExtractor(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -273,7 +273,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -288,18 +288,18 @@ case 30:
     var1 = undefined;
     var8 = var4.bind(var1)(var5);
     var _closure1_slot3 = var8;
-    var13 = 1;
-    var4 = var7[var13];
+    var11 = 1;
+    var4 = var7[var11];
     var4 = var6.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var7[var4];
-    var4 = var9.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var7[var4];
-    var4 = var9.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var7[var4];
@@ -311,38 +311,38 @@ case 30:
     var4 = 5;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var10 = var4.jsx;
-    var _closure1_slot9 = var10;
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var7[var4];
-    var11 = var6.bind(var1)(var4);
-    var5 = var11.createStyles;
+    var9 = var6.bind(var1)(var4);
+    var5 = var9.createStyles;
     var4 = {};
-    var12 = {};
-    var14 = 7;
-    var14 = var7[var14];
-    var14 = var9.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOWER;
-    var12['backgroundColor'] = var14;
-    var12['flexGrow'] = var13;
-    var4['container'] = var12;
-    var12 = {};
-    var13 = 16;
-    var12['paddingHorizontal'] = var13;
-    var4['contentContainer'] = var12;
-    var12 = {};
-    var13 = 24;
-    var12['paddingBottom'] = var13;
-    var4['searchResultsHeader'] = var12;
-    var12 = {};
-    var12['paddingTop'] = var13;
-    var4['spacer'] = var12;
-    var12 = {};
-    var13 = 8;
-    var12['marginTop'] = var13;
-    var4['subLabel'] = var12;
-    var4 = var5.bind(var11)(var4);
+    var10 = {};
+    var12 = 7;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_BASE_LOWER;
+    var10['backgroundColor'] = var12;
+    var10['flexGrow'] = var11;
+    var4['container'] = var10;
+    var10 = {};
+    var11 = 16;
+    var10['paddingHorizontal'] = var11;
+    var4['contentContainer'] = var10;
+    var10 = {};
+    var11 = 24;
+    var10['paddingBottom'] = var11;
+    var4['searchResultsHeader'] = var10;
+    var10 = {};
+    var10['paddingTop'] = var11;
+    var4['spacer'] = var10;
+    var10 = {};
+    var11 = 8;
+    var10['marginTop'] = var11;
+    var4['subLabel'] = var10;
+    var4 = var5.bind(var9)(var4);
     var _closure1_slot10 = var4;
     var5 = var8.memo;
     var4 = function(arg1) {
@@ -426,12 +426,12 @@ case 30:
         var11 = 0.01;
         var10['right'] = var11;
         var5['scrollIndicatorInsets'] = var10;
-        var10 = _closure1_slot16;
-        var5['keyExtractor'] = var10;
         var10 = _closure1_slot15;
+        var5['keyExtractor'] = var10;
+        var10 = _closure1_slot14;
         var5['renderItem'] = var10;
         var5['data'] = var9;
-        var8 = _closure1_slot14;
+        var8 = _closure1_slot13;
         var5['getItemType'] = var8;
         var5 = var7.bind(var4)(var6, var5);
         var1['children'] = var5;
@@ -439,12 +439,6 @@ case 30:
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 15;
-    var5 = var7[var5];
-    var9 = var9.bind(var1)(var5);
-    var5 = {};
-    var5 = var10.bind(var1)(var9, var5);
-    var _closure1_slot11 = var5;
     var5 = var8.memo;
     var2 = function(arg1) {
         var2 = arg1;
@@ -462,7 +456,7 @@ case 30:
         var2 = var2.bind(var4)();
         var14 = var2.bottom;
         var8 = _closure1_slot0;
-        var2 = 16;
+        var2 = 15;
         var2 = var9[var2];
         var7 = var8.bind(var4)(var2);
         var6 = var7.useIsMobileSettingsSearchExperimentEnabled;
@@ -471,7 +465,7 @@ case 30:
         var2['location'] = var10;
         var16 = var6.bind(var7)(var2);
         var _closure2_slot2 = var16;
-        var2 = 17;
+        var2 = 16;
         var2 = var9[var2];
         var6 = var8.bind(var4)(var2);
         var2 = var6.useSettingSearchResults;
@@ -627,7 +621,15 @@ case 42:
                 var1 = null;
                 if(!(var2 === var3)) { _fun0009_ip = 39; continue _fun0009 }
 case 43:
-                var1 = _closure1_slot11;
+                var5 = _closure1_slot9;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 17;
+                var2 = var4[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = {};
+                var1 = var5.bind(var4)(var3, var2);
 case 39:
                 return var1;
             }
@@ -671,12 +673,12 @@ case 39:
         var8 = 0.01;
         var7['right'] = var8;
         var1['scrollIndicatorInsets'] = var7;
-        var7 = _closure1_slot16;
-        var1['keyExtractor'] = var7;
         var7 = _closure1_slot15;
+        var1['keyExtractor'] = var7;
+        var7 = _closure1_slot14;
         var1['renderItem'] = var7;
         var1['data'] = var6;
-        var5 = _closure1_slot14;
+        var5 = _closure1_slot13;
         var1['getItemType'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

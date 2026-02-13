@@ -1124,6 +1124,8 @@ case 65:
             var12 = var14.bind(var15)(var13);
 case 118:
             var6['collectibles'] = var12;
+            var12 = var2.private;
+            var6['private'] = var12;
             var6 = var10.bind(var11)(var9, var6);
             var9 = var5 == var7;
             var6 = undefined;

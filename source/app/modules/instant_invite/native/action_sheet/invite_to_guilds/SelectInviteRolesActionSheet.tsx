@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var11 = 1;
-    var8 = var6[var11];
+    var10 = 1;
+    var8 = var6[var10];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
@@ -37,35 +37,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot7 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot7 = var7;
     var7 = var4.jsxs;
     var _closure1_slot8 = var7;
     var4 = var4.Fragment;
     var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var10['flex'] = var11;
-    var4['list'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var4['label'] = var10;
-    var10 = {};
-    var11 = 8;
-    var10['marginEnd'] = var11;
-    var4['roleDot'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {};
+    var9['flex'] = var10;
+    var4['list'] = var9;
+    var9 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var4['label'] = var9;
+    var9 = {};
+    var10 = 8;
+    var9['marginEnd'] = var10;
+    var4['roleDot'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.FormDivider;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot11 = var4;
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -144,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot6 = var2;
         var2 = _closure1_slot0;
         var13 = _closure1_slot2;
-        var6 = 7;
+        var6 = 6;
         var6 = var13[var6];
         var9 = var2.bind(var4)(var6);
         var8 = var9.useStateFromStores;
@@ -159,11 +152,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var8.bind(var9)(var7, var6);
         var _closure2_slot7 = var17;
         var6 = _closure1_slot1;
-        var7 = 8;
+        var7 = 7;
         var7 = var13[var7];
         var7 = var6.bind(var4)(var7);
         var8 = var7.bind(var4)();
-        var7 = 9;
+        var7 = 8;
         var7 = var13[var7];
         var7 = var6.bind(var4)(var7);
         var11 = var7.bind(var4)();
@@ -212,7 +205,7 @@ case 2:
 case 0:
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var2 = var6[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -226,7 +219,7 @@ case 0:
                 var3 = var5.sort;
                 var3 = var3.bind(var5)();
                 var5 = _closure1_slot0;
-                var4 = 11;
+                var4 = 10;
                 var4 = var6[var4];
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.isEqual;
@@ -260,8 +253,8 @@ case 4:
 case 0:
                 var2 = arg2;
                 var1 = _closure2_slot0;
-                var13 = var1[var2];
-                var _closure3_slot0 = var13;
+                var14 = var1[var2];
+                var _closure3_slot0 = var14;
                 var3 = var1.length;
                 var1 = 1;
                 var1 = var3 - var1;
@@ -272,23 +265,23 @@ case 0:
                 var9 = _closure1_slot7;
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var15 = 6;
-                var5 = var1[var15];
+                var10 = 11;
+                var5 = var1[var10];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);
                 var6 = var5.FormRow;
                 var5 = {};
-                var12 = _closure1_slot5;
-                var11 = {};
+                var13 = _closure1_slot5;
+                var12 = {};
                 var16 = _closure2_slot3;
                 var16 = var16.label;
-                var11['style'] = var16;
+                var12['style'] = var16;
                 var17 = _closure2_slot7;
                 var16 = 'dot';
                 var17 = var16 === var17;
                 if(!var17) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-                var18 = var13.colorString;
+                var18 = var14.colorString;
                 var16 = null;
                 var17 = var16 != var18;
 case 6:
@@ -305,9 +298,9 @@ case 9:
                 var20 = _closure2_slot3;
                 var20 = var20.roleDot;
                 var16['containerStyles'] = var20;
-                var20 = var13.colorString;
+                var20 = var14.colorString;
                 var16['color'] = var20;
-                var20 = var13.colorStrings;
+                var20 = var14.colorStrings;
                 var16['colors'] = var20;
                 var20 = false;
                 var16['background'] = var20;
@@ -325,7 +318,7 @@ case 8:
                 var17 = {};
                 var20 = 'text-md/medium';
                 var17['variant'] = var20;
-                var21 = var13.colorString;
+                var21 = var14.colorString;
                 var20 = null;
                 var21 = var20 != var21;
                 var20 = undefined;
@@ -337,19 +330,19 @@ case 11:
                 if(!(var21 === var22)) { _fun0003_ip = 10; continue _fun0003 }
 case 12:
                 var21 = {};
-                var22 = var13.colorString;
+                var22 = var14.colorString;
                 var21['color'] = var22;
                 var20 = var21;
 case 10:
                 var17['style'] = var20;
-                var20 = var13.name;
+                var20 = var14.name;
                 var17['children'] = var20;
                 var17 = var19.bind(var1)(var18, var17);
                 var16[1] = var17;
-                var11['children'] = var16;
-                var11 = var4.bind(var1)(var12, var11);
-                var5['label'] = var11;
-                var10 = function onPress() {
+                var12['children'] = var16;
+                var12 = var4.bind(var1)(var13, var12);
+                var5['label'] = var12;
+                var11 = function onPress() {
                     var3 = _closure2_slot8;
                     var1 = _closure3_slot0;
                     var2 = var1.id;
@@ -357,29 +350,36 @@ case 10:
                     var1 = var3.bind(var1)(var2);
                     return var1;
                 };
-                var5['onPress'] = var10;
-                var12 = _closure1_slot7;
-                var11 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var10 = var10[var15];
-                var10 = var11.bind(var1)(var10);
-                var10 = var10.FormRow;
-                var11 = var10.Checkbox;
-                var10 = {};
-                var15 = _closure2_slot5;
-                var14 = var15.has;
-                var13 = var13.id;
-                var13 = var14.bind(var15)(var13);
-                var10['selected'] = var13;
-                var10 = var12.bind(var1)(var11, var10);
-                var5['trailing'] = var10;
+                var5['onPress'] = var11;
+                var13 = _closure1_slot7;
+                var12 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var11 = var11[var10];
+                var11 = var12.bind(var1)(var11);
+                var11 = var11.FormRow;
+                var12 = var11.Checkbox;
+                var11 = {};
+                var16 = _closure2_slot5;
+                var15 = var16.has;
+                var14 = var14.id;
+                var14 = var15.bind(var16)(var14);
+                var11['selected'] = var14;
+                var11 = var13.bind(var1)(var12, var11);
+                var5['trailing'] = var11;
                 var6 = var9.bind(var1)(var6, var5);
                 var5 = new Array(2);
                 var5[0] = var6;
                 var6 = !var8;
                 if(var8) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-                var6 = _closure1_slot11;
+                var9 = _closure1_slot7;
+                var8 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var7 = var8.bind(var1)(var7);
+                var8 = var7.FormDivider;
+                var7 = {};
+                var6 = var9.bind(var1)(var8, var7);
 case 13:
                 var5[1] = var6;
                 var2['children'] = var5;

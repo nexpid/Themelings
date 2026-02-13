@@ -1,11 +1,11 @@
 // app/design/components/Navigator/native/PostponeRender.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -30,38 +30,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.View;
     var _closure1_slot5 = var7;
-    var11 = var4.StyleSheet;
+    var10 = var4.StyleSheet;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var14 = var11.absoluteFillObject;
-    var15 = var10;
-    var11 = copyDataProperties(var15, var14);
-    var11 = 5;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var12 = var11.BACKGROUND_BASE_LOWER;
-    var11 = 'backgroundColor';
-    var10[var11] = var12;
-    var4['view'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {};
+    var13 = var10.absoluteFillObject;
+    var14 = var9;
+    var10 = copyDataProperties(var14, var13);
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var11 = var10.BACKGROUND_BASE_LOWER;
+    var10 = 'backgroundColor';
+    var9[var10] = var11;
+    var4['view'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.SceneLoadingIndicator;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot8 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -96,7 +89,7 @@ case 0:
             var _closure2_slot2 = var9;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var9 = 7;
+            var9 = 6;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var8 = function() {
@@ -111,7 +104,7 @@ case 2:
                     var3 = _closure2_slot2;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 7;
                     var4 = var4[var2];
                     var2 = undefined;
                     var5 = var5.bind(var2)(var4);
@@ -146,7 +139,15 @@ case 4:
             var8 = var9.bind(var4)(var8);
             if(!var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var5 = _closure1_slot8;
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 8;
+            var3 = var10[var3];
+            var3 = var8.bind(var4)(var3);
+            var8 = var3.SceneLoadingIndicator;
+            var3 = {};
+            var5 = var9.bind(var4)(var8, var3);
 case 6:
             if(var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:

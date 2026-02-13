@@ -439,15 +439,17 @@ case 13:
             var9 = var13.sectionSize;
             _closure2_slot16 = var9;
             var8 = var13.sectionFooterSize;
+            _closure2_slot17 = var8;
             var12 = var13.sectionLabels;
-            _closure2_slot17 = var12;
+            _closure2_slot18 = var12;
             var14 = var13.rowsBySection;
-            _closure2_slot18 = var14;
+            _closure2_slot19 = var14;
             var17 = var13.rowHeight;
+            _closure2_slot20 = var17;
             var15 = var13.rowSize;
-            _closure2_slot19 = var15;
+            _closure2_slot21 = var15;
             var13 = var13.packToScrollToIndex;
-            _closure2_slot20 = var13;
+            _closure2_slot22 = var13;
             var20 = var21.useEffect;
             var19 = new Array(5);
             var19[0] = var32;
@@ -458,7 +460,7 @@ case 13:
             var13 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var2 = _closure2_slot20;
+                    var2 = _closure2_slot22;
                     var1 = null;
                     var1 = var1 != var2;
                     if(!var1) { _fun0004_ip = 15; continue _fun0004 }
@@ -479,7 +481,7 @@ case 19:
                     var3 = _closure2_slot14;
                     var2 = var3.scroll;
                     var1 = {};
-                    var5 = _closure2_slot20;
+                    var5 = _closure2_slot22;
                     var1['index'] = var5;
                     var5 = _closure1_slot8;
                     var1['delay'] = var5;
@@ -489,7 +491,7 @@ case 21:
                     var3 = _closure2_slot14;
                     var2 = var3.scroll;
                     var1 = {};
-                    var4 = _closure2_slot20;
+                    var4 = _closure2_slot22;
                     var1['index'] = var4;
                     var4 = _closure1_slot9;
                     var1['delay'] = var4;
@@ -515,7 +517,7 @@ case 17:
             var12 = var24.sectionSticker;
             var13[2] = var12;
             var12 = function(arg1) {
-                var3 = _closure2_slot17;
+                var3 = _closure2_slot18;
                 var2 = arg1;
                 var5 = var3[var2];
                 var4 = _closure1_slot11;
@@ -532,25 +534,20 @@ case 17:
                 return var1;
             };
             var13 = var19.bind(var21)(var12, var13);
-            var30 = _closure1_slot11;
-            var19 = _closure1_slot16;
-            var12 = {};
-            var12['height'] = var8;
-            var12 = var30.bind(var5)(var19, var12);
-            _closure2_slot21 = var12;
             var20 = var21.useCallback;
             var19 = new Array(1);
             var19[0] = var8;
             var12 = function() {
-                var1 = _closure2_slot21;
+                var4 = _closure1_slot11;
+                var3 = _closure1_slot16;
+                var2 = {};
+                var1 = _closure2_slot17;
+                var2['height'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var12 = var20.bind(var21)(var12, var19);
-            var20 = _closure1_slot14;
-            var19 = {};
-            var19['height'] = var17;
-            var19 = var30.bind(var5)(var20, var19);
-            _closure2_slot22 = var19;
             var20 = var21.useCallback;
             var19 = new Array(8);
             var19[0] = var29;
@@ -564,7 +561,7 @@ case 17:
             var14 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                    var2 = _closure2_slot18;
+                    var2 = _closure2_slot19;
                     var1 = arg1;
                     var3 = var2[var1];
                     var1 = null;
@@ -591,7 +588,12 @@ case 24:
 case 26:
                     return var1;
 case 25:
-                    var4 = _closure2_slot22;
+                    var8 = _closure1_slot11;
+                    var7 = _closure1_slot14;
+                    var4 = {};
+                    var9 = _closure2_slot20;
+                    var4['height'] = var9;
+                    var4 = var8.bind(var5)(var7, var4);
                     return var4;
 case 23:
                     var4 = var3.stickersByRow;
@@ -607,7 +609,7 @@ case 23:
                     var8 = _closure2_slot11;
                     var2['containerWidth'] = var8;
                     var2['stickers'] = var7;
-                    var7 = _closure2_slot19;
+                    var7 = _closure2_slot21;
                     var2['rowSize'] = var7;
                     var7 = _closure2_slot3;
                     var2['onPressSticker'] = var7;
@@ -754,7 +756,7 @@ case 4:
                 var2['colorHex'] = var5;
                 var5 = 'circle';
                 var2['shape'] = var5;
-                var4 = _closure2_slot19;
+                var4 = _closure2_slot21;
                 var2['shapeCount'] = var4;
                 var3 = _closure1_slot10;
                 var2['width'] = var3;

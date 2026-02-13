@@ -23,9 +23,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot3 = var7;
-    var8 = var4.StyleSheet;
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -37,16 +36,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var4 = var4.jsxs;
     var _closure1_slot5 = var4;
-    var7 = var8.create;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {'alignSelf': 'flex-end', 'justifyContent': 'center', 'alignItems': 'center'};
     var4['button'] = var9;
     var9 = {'color': null, 'fontSize': 12, 'fontFamily': null, 'marginTop': 2, 'marginHorizontal': 2, 'textAlign': 'center'};
-    var11 = 4;
+    var11 = 5;
     var11 = var6[var11];
     var14 = var5.bind(var1)(var11);
     var13 = var14.hexWithOpacity;
-    var11 = 5;
+    var11 = 6;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.unsafe_rawColors;
@@ -73,10 +75,12 @@ case 0:
 case 3:
             var16 = 60;
 case 2:
+            var1 = _closure1_slot6;
+            var11 = var1.bind(var4)();
             var3 = _closure1_slot4;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var13[var1];
             var1 = var10.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -87,7 +91,6 @@ case 2:
             var7 = _closure1_slot5;
             var6 = _closure1_slot3;
             var5 = {};
-            var11 = _closure1_slot6;
             var15 = var11.button;
             var8 = new Array(2);
             var8[0] = var15;
@@ -100,7 +103,7 @@ case 2:
             var5['style'] = var8;
             var8 = {};
             var15 = _closure1_slot1;
-            var14 = 5;
+            var14 = 6;
             var14 = var13[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.colors;
@@ -109,7 +112,7 @@ case 2:
             var9 = var3.bind(var4)(var9, var8);
             var8 = new Array(2);
             var8[0] = var9;
-            var9 = 7;
+            var9 = 8;
             var9 = var13[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.LegacyText;
@@ -130,7 +133,7 @@ case 2:
     };
     var4 = 72;
     var2['width'] = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

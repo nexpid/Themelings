@@ -7,6 +7,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function NotificationsContainer() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = _closure1_slot12;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var2 = var1.isChatBesideChannelList;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var4 = _closure1_slot10;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var7 = var7.container;
+            var2['style'] = var7;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var6 = 10;
+            var6 = var9[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6 = var8.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -24,7 +60,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var11 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -52,53 +87,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot10 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot10 = var7;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
-    var10 = var11.create;
-    var9 = {};
     var4 = 8;
-    var12 = {'position': 'absolute', 'left': 0, 'right': 0, 'backgroundColor': 'transparent', 'marginTop': 8};
-    var9['container'] = var12;
-    var9 = var10.bind(var11)(var9);
-    var _closure1_slot12 = var9;
     var4 = var6[var4];
-    var7 = var7.bind(var1)(var4);
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot13 = var4;
-    var7 = function NotificationsContainer() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 9;
-            var1 = var3[var1];
-            var5 = undefined;
-            var1 = var2.bind(var5)(var1);
-            var1 = var1.bind(var5)();
-            var2 = var1.isChatBesideChannelList;
-            var1 = null;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot4;
-            var2 = {};
-            var7 = _closure1_slot12;
-            var7 = var7.container;
-            var2['style'] = var7;
-            var6 = _closure1_slot13;
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 2:
-            return var1;
-        }
-    };
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot14 = var4;
-    var4 = 18;
+    var9 = {'position': 'absolute', 'left': 0, 'right': 0, 'backgroundColor': 'transparent', 'marginTop': 8};
+    var4['container'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot12 = var4;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -119,7 +121,7 @@ case 0:
             var _closure2_slot4 = var4;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 10;
+            var5 = 11;
             var2 = var9[var5];
             var8 = var3.bind(var4)(var2);
             var7 = var8.useStateFromStoresObject;
@@ -164,7 +166,7 @@ case 4:
             var7 = var2.voiceChannelId;
             var3 = var2.isStageChannel;
             var8 = _closure1_slot1;
-            var2 = 11;
+            var2 = 12;
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.bind(var4)(var7);
@@ -208,7 +210,7 @@ case 10:
             _closure2_slot2 = var13;
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var7 = var3[var2];
             var7 = var5.bind(var4)(var7);
             var11 = var7.bind(var4)(var13);
@@ -252,12 +254,12 @@ case 14:
 case 21:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 14;
                     var1 = var7[var1];
                     var2 = undefined;
                     var4 = var6.bind(var2)(var1);
                     var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-                    var1 = 14;
+                    var1 = 15;
                     var1 = var7[var1];
                     var1 = var6.bind(var2)(var1);
                     var1 = var1.DismissibleContent;
@@ -274,7 +276,7 @@ case 20:
             };
             var1 = var5.bind(var7)(var1, var2);
             var2 = _closure1_slot0;
-            var1 = 15;
+            var1 = 16;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useChannelStyles;
@@ -305,7 +307,7 @@ case 26:
             var14 = _closure1_slot10;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var8 = 16;
+            var8 = 17;
             var8 = var16[var8];
             var12 = var12.bind(var4)(var8);
             var8 = {};
@@ -320,7 +322,7 @@ case 28:
             var12 = _closure1_slot10;
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var10 = 17;
+            var10 = 18;
             var10 = var14[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -333,7 +335,10 @@ case 27:
             var7 = var3.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var6 = _closure1_slot14;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot13;
+            var6 = {};
+            var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

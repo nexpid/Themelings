@@ -26,7 +26,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot9 = var2;
+    var _closure1_slot8 = var2;
     var1 = function getClientInfo() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -62,7 +62,7 @@ case 8:
             var1 = _closure1_slot7;
             var5 = var1.Manifest;
 case 7:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var7 = _closure1_slot7;
             var7 = var7.Build;
             var7 = var1.bind(var4)(var7);
@@ -73,7 +73,7 @@ case 10:
 case 9:
             var6 = var1.bind(var4)(var3);
             var1 = {};
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var8 = _closure1_slot7;
             var8 = var8.Version;
             var8 = var3.bind(var4)(var8);
@@ -88,7 +88,7 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function copyToast(arg1) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
@@ -106,26 +106,26 @@ case 9:
         var2 = var2.bind(var3)();
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function ClientClientInfoActionSheet() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var4 = _closure1_slot6;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var10[var1];
             var3 = undefined;
             var1 = var11.bind(var3)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
             var7 = _closure1_slot4;
-            var5 = 9;
+            var5 = 8;
             var5 = var10[var5];
             var5 = var11.bind(var3)(var5);
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
-            var17 = 10;
+            var17 = 9;
             var8 = var10[var17];
             var8 = var11.bind(var3)(var8);
             var13 = var8.intl;
@@ -139,7 +139,7 @@ case 0:
             var5 = var7.bind(var3)(var6, var5);
             var1['header'] = var5;
             var7 = _closure1_slot6;
-            var9 = 11;
+            var9 = 10;
             var5 = var10[var9];
             var5 = var11.bind(var3)(var5);
             var5 = var5.ActionSheetRow;
@@ -160,13 +160,13 @@ case 0:
             var16 = var16.H66MEk;
             var16 = var18.bind(var19)(var16);
             var8['label'] = var16;
-            var18 = _closure1_slot10;
+            var18 = _closure1_slot9;
             var16 = var18.bind(var3)();
             var16 = var16.appVersion;
             var8['subLabel'] = var16;
             var16 = function onPress() {
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot10;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.appVersion;
@@ -196,8 +196,8 @@ case 0:
             var19 = var19.buildNumber;
             var13['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot10;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.buildNumber;
@@ -226,8 +226,8 @@ case 0:
             var19 = var19.releaseChannel;
             var13['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot10;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.releaseChannel;
@@ -256,8 +256,8 @@ case 0:
             var19 = var19.manifest;
             var13['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot10;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.manifest;
@@ -286,8 +286,8 @@ case 0:
             var18 = var18.buildOverride;
             var13['subLabel'] = var18;
             var18 = function onPress() {
-                var3 = _closure1_slot11;
-                var2 = _closure1_slot10;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.buildOverride;
@@ -297,7 +297,7 @@ case 0:
             var13['onPress'] = var18;
             var13 = var16.bind(var3)(var15, var13);
             var8[4] = var13;
-            var24 = 12;
+            var24 = 11;
             var10 = var10[var24];
             var11 = var11.bind(var3)(var10);
             var10 = var11.isFabric;
@@ -317,7 +317,7 @@ case 12:
             var16 = {'label': 'React Native New Architecture', 'subLabel': 'Enabled'};
             var22 = 'Enabled';
             var20 = function onPress() {
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot10;
                 var1 = undefined;
                 var2 = 'React Native New Architecture is enabled.';
                 var2 = var3.bind(var1)(var2);
@@ -346,10 +346,10 @@ case 13:
             var21 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = _closure1_slot11;
+                    var3 = _closure1_slot10;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 12;
+                    var1 = 11;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
@@ -395,7 +395,13 @@ case 11:
             var9 = var16.bind(var3)(var9);
             var10 = var9.ActionSheetRow;
             var9 = {};
-            var14 = _closure1_slot8;
+            var18 = _closure1_slot4;
+            var14 = 12;
+            var14 = var13[var14];
+            var14 = var16.bind(var3)(var14);
+            var15 = var14.CopyIcon;
+            var14 = {};
+            var14 = var18.bind(var3)(var15, var14);
             var9['icon'] = var14;
             var14 = var13[var17];
             var14 = var16.bind(var3)(var14);
@@ -408,14 +414,14 @@ case 11:
             var13 = var14.bind(var15)(var13);
             var9['label'] = var13;
             var12 = function onPress() {
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot9;
                 var1 = undefined;
                 var4 = var3.bind(var1)();
                 var15 = var4.appVersion;
                 var14 = var4.buildNumber;
                 var22 = var4.releaseChannel;
                 var18 = var4.buildOverride;
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot10;
                 var20 = var4.manifest;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -460,7 +466,7 @@ case 11:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var11 = var1.Object;
     var8 = var11.defineProperty;
@@ -477,8 +483,8 @@ case 11:
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot4 = var8;
+    var5 = var4.jsx;
+    var _closure1_slot4 = var5;
     var5 = var4.Fragment;
     var _closure1_slot5 = var5;
     var4 = var4.jsxs;
@@ -490,13 +496,6 @@ case 11:
     var4 = var5.getConstants;
     var4 = var4.bind(var5)();
     var _closure1_slot7 = var4;
-    var4 = 7;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.CopyIcon;
-    var4 = {};
-    var4 = var8.bind(var1)(var5, var4);
-    var _closure1_slot8 = var4;
     var4 = 14;
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
@@ -505,7 +504,7 @@ case 11:
     var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -538,7 +537,7 @@ case 11:
         var6 = var2.Promise;
         var3 = var6.resolve;
         var2 = {};
-        var7 = _closure1_slot12;
+        var7 = _closure1_slot11;
         var2['default'] = var7;
         var3 = var3.bind(var6)(var2);
         var2 = 'ClientClientInfoActionSheet';

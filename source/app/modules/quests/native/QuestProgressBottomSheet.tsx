@@ -99,9 +99,21 @@ case 2:
             var3 = var7.bind(var4)(var2);
             var2 = var3.useQuestTaskDetails;
             var9 = var2.bind(var3)(var30);
-            var2 = var30.config;
-            var2 = var2.messages;
-            var33 = var2.questName;
+            var22 = 14;
+            var2 = var6[var22];
+            var2 = var7.bind(var4)(var2);
+            var10 = var2.intl;
+            var5 = var10.formatToPlainString;
+            var2 = var6[var22];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.t;
+            var3 = var2.EAYZAr;
+            var2 = {};
+            var11 = var30.config;
+            var11 = var11.messages;
+            var11 = var11.questName;
+            var2['questName'] = var11;
+            var33 = var5.bind(var10)(var3, var2);
             var2 = 19;
             var2 = var6[var2];
             var5 = var7.bind(var4)(var2);
@@ -277,7 +289,7 @@ case 10:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var22 = var7.bind(var9)(var3, var6);
+            var28 = var7.bind(var9)(var3, var6);
             var7 = _closure1_slot4;
             var6 = var7.useCallback;
             var3 = function() {
@@ -376,16 +388,15 @@ case 18:
             var12 = var27.bind(var4)(var12);
             var14 = var12.IconButton;
             var12 = {};
-            var28 = 31;
-            var28 = var26[var28];
-            var28 = var16.bind(var4)(var28);
-            var12['icon'] = var28;
-            var12['onPress'] = var22;
-            var22 = 'secondary-overlay';
-            var12['variant'] = var22;
-            var22 = 'sm';
-            var12['size'] = var22;
-            var22 = 14;
+            var31 = 31;
+            var31 = var26[var31];
+            var31 = var16.bind(var4)(var31);
+            var12['icon'] = var31;
+            var12['onPress'] = var28;
+            var28 = 'secondary-overlay';
+            var12['variant'] = var28;
+            var28 = 'sm';
+            var12['size'] = var28;
             var28 = var26[var22];
             var28 = var27.bind(var4)(var28);
             var34 = var28.intl;
@@ -739,12 +750,11 @@ case 0:
             var1 = arg1;
             var1 = var1.questId;
             var _closure2_slot0 = var1;
-            var5 = undefined;
-            var _closure2_slot1 = var5;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 9;
             var1 = var4[var1];
+            var5 = undefined;
             var7 = var3.bind(var5)(var1);
             var4 = var7.useStateFromStores;
             var1 = _closure1_slot6;
@@ -758,15 +768,11 @@ case 0:
                 return var1;
             };
             var7 = var4.bind(var7)(var3, var1);
+            var _closure2_slot1 = var7;
             var1 = null;
-            if(!(var1 != var7)) { _fun0003_ip = 27; continue _fun0003 }
+            var3 = var1 == var7;
+            if(var3) { _fun0003_ip = 27; continue _fun0003 }
 case 10:
-            var8 = _closure1_slot9;
-            var4 = _closure1_slot14;
-            var3 = {};
-            var3['quest'] = var7;
-            var3 = var8.bind(var5)(var4, var3);
-            _closure2_slot1 = var3;
             var4 = _closure1_slot9;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -790,12 +796,17 @@ case 10:
             var7 = var7.RUNNING_ACTIVITY;
             var2['sourceQuestContent'] = var7;
             var6 = function children() {
+                var4 = _closure1_slot9;
+                var3 = _closure1_slot14;
+                var2 = {};
                 var1 = _closure2_slot1;
+                var2['quest'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var2['children'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            return var2;
+            var1 = var4.bind(var5)(var3, var2);
 case 27:
             return var1;
         }

@@ -173,13 +173,13 @@ case 0:
                 var1 = var1.contentGenerationEnabled;
                 var3 = !var1;
                 var1 = !var3;
-                if(var3) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                if(var3) { _fun0004_ip = 4; continue _fun0004 }
+case 11:
                 var2 = _closure1_slot7;
                 var3 = var2.onlyShowRecentGeneratedCandidates;
                 var2 = true;
                 var1 = var2 === var3;
-case 11:
+case 4:
                 return var1;
             }
         };
@@ -194,8 +194,8 @@ case 0:
                 var1 = _closure1_slot7;
                 var1 = var1.doubleTapBehavior;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                if(!(var3 == var1)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -204,7 +204,7 @@ case 14:
                 var2 = var4.bind(var2)(var3);
                 var2 = var2.GravityICYMIDoubleTapBehavior;
                 var1 = var2.DEFAULT;
-case 13:
+case 12:
                 return var1;
             }
         };

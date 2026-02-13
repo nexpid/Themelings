@@ -28,28 +28,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.ActivityIndicator;
+    var4 = var4.ActivityIndicator;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DraftType;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EMOJI_URL_BASE_SIZE;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot8 = var7;
-    var4 = {};
-    var4 = var7.bind(var1)(var8, var4);
+    var4 = var4.jsx;
     var _closure1_slot9 = var4;
     var4 = 13;
     var4 = var6[var4];
@@ -77,15 +75,15 @@ case 0:
             var9 = undefined;
             var6 = var2.bind(var9)(var1);
             var3 = var6.useStateFromStores;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot7;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                var5 = _closure1_slot6;
+                var5 = _closure1_slot7;
                 var4 = var5.getUpload;
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var1 = var1.Poll;
                 var1 = var4.bind(var5)(var3, var2, var1);
                 return var1;
@@ -159,7 +157,7 @@ case 12:
 case 11:
                     var2 = _closure2_slot2;
                     var12 = var2.emoji;
-                    var5 = _closure1_slot8;
+                    var5 = _closure1_slot9;
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var2 = 10;
@@ -211,7 +209,7 @@ case 19:
                     var8['id'] = var13;
                     var12 = var12.animated;
                     var8['animated'] = var12;
-                    var11 = _closure1_slot7;
+                    var11 = _closure1_slot8;
                     var8['size'] = var11;
                     var7 = var9.bind(var10)(var8);
 case 18:
@@ -229,7 +227,7 @@ case 21:
 case 20:
                     var7 = _closure2_slot3;
 case 22:
-                    var4 = _closure1_slot8;
+                    var4 = _closure1_slot9;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 9;
@@ -248,7 +246,11 @@ case 22:
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
 case 5:
-                    var1 = _closure1_slot9;
+                    var4 = _closure1_slot9;
+                    var3 = _closure1_slot5;
+                    var2 = undefined;
+                    var1 = {};
+                    var1 = var4.bind(var2)(var3, var1);
                     return var1;
                 }
             };

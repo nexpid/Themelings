@@ -154,7 +154,7 @@ case 25:
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(21);
+        var2 = new Array(22);
         var2[0] = var1;
         var1 = {};
         var6 = 'premiumGuildSince';
@@ -179,6 +179,17 @@ case 25:
         var1['get'] = var6;
         var2[2] = var1;
         var1 = {};
+        var6 = 'private';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._userProfile;
+            var1 = var1.private;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[3] = var1;
+        var1 = {};
         var6 = 'widgets';
         var1['key'] = var6;
         var6 = function get() {
@@ -188,7 +199,7 @@ case 25:
             return var1;
         };
         var1['get'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'gameWidgets';
         var1['key'] = var6;
@@ -217,7 +228,7 @@ case 27:
             }
         };
         var1['get'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'primaryColor';
         var1['key'] = var6;
@@ -242,7 +253,7 @@ case 30:
             }
         };
         var1['get'] = var6;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = {};
         var6 = 'canUsePremiumProfileCustomization';
         var1['key'] = var6;
@@ -262,7 +273,7 @@ case 30:
             return var1;
         };
         var1['get'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'canEditThemes';
         var1['key'] = var6;
@@ -272,7 +283,7 @@ case 30:
             return var1;
         };
         var1['get'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'application';
         var1['key'] = var6;
@@ -283,7 +294,7 @@ case 30:
             return var1;
         };
         var1['get'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'isLoaded';
         var1['key'] = var6;
@@ -310,7 +321,7 @@ case 32:
             }
         };
         var1['get'] = var6;
-        var2[9] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'hasThemeColors';
         var1['key'] = var6;
@@ -344,7 +355,7 @@ case 36:
             }
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'hasPremiumCustomization';
         var1['key'] = var6;
@@ -380,7 +391,7 @@ case 45:
             }
         };
         var1['value'] = var6;
-        var2[11] = var1;
+        var2[12] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberBanner';
         var1['key'] = var6;
@@ -401,7 +412,7 @@ case 29:
             }
         };
         var1['value'] = var6;
-        var2[12] = var1;
+        var2[13] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberBio';
         var1['key'] = var6;
@@ -434,7 +445,7 @@ case 47:
             }
         };
         var1['value'] = var6;
-        var2[13] = var1;
+        var2[14] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberPronouns';
         var1['key'] = var6;
@@ -467,7 +478,7 @@ case 47:
             }
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'getBannerURL';
         var1['key'] = var6;
@@ -525,7 +536,7 @@ case 49:
             }
         };
         var1['value'] = var6;
-        var2[15] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'getPreviewBanner';
         var1['key'] = var6;
@@ -583,7 +594,7 @@ case 51:
             }
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[17] = var1;
         var1 = {};
         var6 = 'getPreviewBio';
         var1['key'] = var6;
@@ -619,7 +630,7 @@ case 57:
             }
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[18] = var1;
         var1 = {};
         var6 = 'getPreviewThemeColors';
         var1['key'] = var6;
@@ -663,7 +674,7 @@ case 7:
             }
         };
         var1['value'] = var6;
-        var2[18] = var1;
+        var2[19] = var1;
         var1 = {};
         var6 = 'getBadges';
         var1['key'] = var6;
@@ -702,7 +713,7 @@ case 65:
             }
         };
         var1['value'] = var6;
-        var2[19] = var1;
+        var2[20] = var1;
         var1 = {};
         var6 = 'getLegacyUsername';
         var1['key'] = var6;
@@ -713,7 +724,7 @@ case 65:
             return var1;
         };
         var1['value'] = var5;
-        var2[20] = var1;
+        var2[21] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

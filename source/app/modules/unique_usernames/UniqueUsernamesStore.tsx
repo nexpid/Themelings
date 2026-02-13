@@ -1,4 +1,4 @@
-// app/modules/pomelo/PomeloStore.tsx
+// app/modules/unique_usernames/UniqueUsernamesStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = metroImportDefault;
     var3 = exports;
@@ -108,7 +108,7 @@ case 4:
     var2 = var6.bind(var1)(var2);
     var7 = var2.Store;
     var2 = function(arg1) {
-        var4 = function PomeloStore() {
+        var4 = function UniqueUsernamesStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = this;
@@ -307,13 +307,13 @@ case 19:
         return var1;
     };
     var7 = var2.bind(var1)(var7);
-    var2 = 'PomeloStore';
+    var2 = 'UniqueUsernamesStore';
     var7['displayName'] = var2;
     var2 = 8;
     var2 = var5[var2];
     var14 = var6.bind(var1)(var2);
     var2 = {};
-    var8 = function handlePomeloAttemptSuccess(arg1) {
+    var8 = function handleUniqueUsernameAttemptSuccess(arg1) {
         var1 = arg1;
         var4 = var1.username;
         var5 = var1.taken;
@@ -326,8 +326,8 @@ case 19:
         var1 = undefined;
         return var1;
     };
-    var2['POMELO_ATTEMPT_SUCCESS'] = var8;
-    var8 = function handlePomeloAttemptFailure(arg1) {
+    var2['UNIQUE_USERNAME_ATTEMPT_SUCCESS'] = var8;
+    var8 = function handleUniqueUsernameAttemptFailure(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -336,8 +336,8 @@ case 0:
             var2 = var1.statusCode;
             var4 = var1.retryAfter;
             var1 = 429;
-            if(!(var1 !== var2)) { _fun0006_ip = 5; continue _fun0006 }
-case 21:
+            if(!(var1 !== var2)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var1 = _closure1_slot8;
             var3 = var1.validations;
             var2 = var3.set;
@@ -346,8 +346,8 @@ case 21:
             var1['taken'] = var5;
             var1['error'] = var8;
             var1 = var2.bind(var3)(var6, var1);
-            _fun0006_ip = 22; continue _fun0006;
-case 5:
+            _fun0006_ip = 23; continue _fun0006;
+case 21:
             var2 = _closure1_slot8;
             var5 = var2.validations;
             var3 = var5.set;
@@ -356,10 +356,10 @@ case 5:
             var2['error'] = var8;
             var8 = var7 != var4;
             var7 = 7;
-            if(!var8) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!var8) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var7 = var4;
-case 23:
+case 24:
             var9 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 6;
@@ -370,10 +370,10 @@ case 23:
             var1 = var1.SECOND;
             var1 = var7 * var1;
             var1 = var3.bind(var5)(var6, var2, var1);
-case 22:
+case 23:
             var1 = null;
-            if(!(var1 != var4)) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(!(var1 != var4)) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = _closure1_slot8;
             var3 = global;
             var5 = var3.Date;
@@ -390,13 +390,13 @@ case 26:
             var1 = var4 * var1;
             var1 = var3 + var1;
             var2['retryAfterTime'] = var1;
-case 25:
+case 26:
             var1 = undefined;
             return var1;
         }
     };
-    var2['POMELO_ATTEMPT_FAILURE'] = var8;
-    var8 = function handlePomeloSuggestionsReset() {
+    var2['UNIQUE_USERNAME_ATTEMPT_FAILURE'] = var8;
+    var8 = function handleUniqueUsernameSuggestionsReset() {
         var2 = _closure1_slot8;
         var5 = var2.suggestions;
         var3 = {'suggestion': null, 'fetched': false, 'usernameSuggestionLoading': false};
@@ -416,8 +416,8 @@ case 25:
         var3['registration'] = var2;
         return var1;
     };
-    var2['POMELO_SUGGESTIONS_RESET'] = var8;
-    var8 = function handlePomeloSuggestionsSuccess(arg1) {
+    var2['UNIQUE_USERNAME_SUGGESTIONS_RESET'] = var8;
+    var8 = function handleUniqueUsernameSuggestionsSuccess(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -432,31 +432,20 @@ case 0:
             var6 = var1 == var5;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+            if(var6) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var4 = var5.invalid_current_username;
-case 27:
-            if(!(var3 === var4)) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+case 28:
+            if(!(var3 === var4)) { _fun0007_ip = 30; continue _fun0007 }
+case 21:
             var2 = _closure1_slot8;
             var2['currentUsernameInvalid'] = var3;
-case 29:
+case 30:
             return var1;
         }
     };
-    var2['POMELO_SUGGESTIONS_SUCCESS'] = var8;
-    var8 = function handlePomeloSuggestionsFetch(arg1) {
-        var1 = arg1;
-        var2 = var1.usernameSuggestionLoading;
-        var1 = _closure1_slot8;
-        var1 = var1.suggestions;
-        var1 = var1.migration;
-        var1['usernameSuggestionLoading'] = var2;
-        var1 = undefined;
-        return var1;
-    };
-    var2['POMELO_SUGGESTIONS_FETCH'] = var8;
-    var4 = function handlePomeloRegistrationSuggestionsSuccess(arg1) {
+    var2['UNIQUE_USERNAME_SUGGESTIONS_SUCCESS'] = var8;
+    var4 = function handleUniqueUsernameRegistrationSuggestionsSuccess(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
@@ -474,12 +463,12 @@ case 0:
             var6 = var5 == var2;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0008_ip = 6; continue _fun0008 }
+            if(var6) { _fun0008_ip = 16; continue _fun0008 }
 case 31:
             var4 = var2.username;
-case 6:
+case 16:
             if(!(var5 != var4)) { _fun0008_ip = 32; continue _fun0008 }
-case 33:
+case 5:
             var3 = _closure1_slot8;
             var5 = var3.validations;
             var4 = var5.set;
@@ -492,7 +481,7 @@ case 32:
             return var1;
         }
     };
-    var2['POMELO_REGISTRATION_SUGGESTIONS_SUCCESS'] = var4;
+    var2['UNIQUE_USERNAME_REGISTRATION_SUGGESTIONS_SUCCESS'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var15 = var4;
@@ -504,7 +493,7 @@ case 32:
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/pomelo/PomeloStore.tsx';
+    var4 = 'modules/unique_usernames/UniqueUsernamesStore.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

@@ -1,12 +1,12 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionListingPreview.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var17 = metroImportDefault;
+    var15 = metroImportDefault;
     var8 = metroImportAll;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var17;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var8;
     var _closure1_slot3 = var7;
     var1 = function PriceTier(arg1) {
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot11 = var1;
     var1 = function Header(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -158,7 +158,7 @@ case 2:
             var6 = var11.bind(var4)(var7, var6);
             var5[1] = var6;
             var11 = _closure1_slot6;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot11;
             var6 = {};
             var19 = var6;
             var18 = var12;
@@ -191,7 +191,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot12 = var1;
     var1 = function Content(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -222,7 +222,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot13 = var1;
     var1 = function SectionLabel(arg1) {
         var3 = arg1;
         var8 = var3.label;
@@ -238,7 +238,7 @@ case 4:
         var4 = undefined;
         var9 = var1.bind(var4)();
         var3 = _closure1_slot6;
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot13;
         var1 = {};
         var13 = var1;
         var6 = copyDataProperties(var13, var12);
@@ -259,7 +259,7 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot14 = var1;
     var1 = function LabeledSection(arg1) {
         var3 = arg1;
         var11 = var3.label;
@@ -277,7 +277,7 @@ case 4:
         var3 = _closure1_slot8;
         var2 = {};
         var8 = _closure1_slot6;
-        var7 = _closure1_slot16;
+        var7 = _closure1_slot14;
         var5 = {};
         var14 = var5;
         var13 = var9;
@@ -289,7 +289,7 @@ case 4:
         var5 = new Array(2);
         var5[0] = var7;
         var8 = _closure1_slot6;
-        var7 = _closure1_slot15;
+        var7 = _closure1_slot13;
         var6 = {};
         var14 = var6;
         var13 = var9;
@@ -302,13 +302,13 @@ case 4:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
-    var10 = function Separator() {
+    var _closure1_slot15 = var1;
+    var1 = function Separator() {
         var1 = _closure1_slot9;
         var4 = undefined;
         var7 = var1.bind(var4)();
         var3 = _closure1_slot6;
-        var2 = _closure1_slot15;
+        var2 = _closure1_slot13;
         var1 = {};
         var6 = _closure1_slot5;
         var5 = {};
@@ -319,6 +319,7 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
+    var _closure1_slot16 = var1;
     var4 = function BenefitsSection(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -411,7 +412,7 @@ case 12:
             };
             var9 = var2.bind(var3)(var1);
             var3 = _closure1_slot6;
-            var2 = _closure1_slot17;
+            var2 = _closure1_slot15;
             var1 = {};
             var7 = _closure1_slot10;
             var7 = var7.ROUNDED;
@@ -439,22 +440,22 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
+    var _closure1_slot17 = var4;
     var1 = global;
-    var11 = var1.Object;
-    var9 = var11.defineProperty;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var11)(var3, var1, var5);
-    var13 = 0;
-    var5 = var7[var13];
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var11 = 0;
+    var5 = var7[var11];
     var1 = undefined;
-    var5 = var17.bind(var1)(var5);
+    var5 = var15.bind(var1)(var5);
     var _closure1_slot4 = var5;
-    var12 = 1;
-    var5 = var7[var12];
+    var10 = 1;
+    var5 = var7[var10];
     var5 = var8.bind(var1)(var5);
     var5 = 2;
     var5 = var7[var5];
@@ -464,91 +465,85 @@ case 8:
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot6 = var9;
+    var8 = var5.jsx;
+    var _closure1_slot6 = var8;
     var8 = var5.jsxs;
     var _closure1_slot7 = var8;
     var5 = var5.Fragment;
     var _closure1_slot8 = var5;
-    var18 = 4;
-    var5 = var7[var18];
-    var14 = var6.bind(var1)(var5);
-    var11 = var14.createStyles;
+    var16 = 4;
+    var5 = var7[var16];
+    var12 = var6.bind(var1)(var5);
+    var9 = var12.createStyles;
     var8 = {};
-    var15 = {};
+    var13 = {};
     var5 = 16;
-    var15['padding'] = var5;
-    var8['container'] = var15;
-    var15 = {'backgroundColor': null, 'borderTopStartRadius': 8, 'borderTopEndRadius': 8, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'padding': 16};
-    var16 = 5;
-    var19 = var7[var16];
-    var19 = var17.bind(var1)(var19);
-    var19 = var19.colors;
-    var19 = var19.BACKGROUND_BASE_LOWEST;
-    var15['backgroundColor'] = var19;
-    var8['header'] = var15;
-    var15 = {'width': 80, 'height': 80, 'borderRadius': 40, 'marginTop': 16};
-    var8['image'] = var15;
-    var15 = {'marginTop': 16, 'alignItems': 'center'};
-    var8['priceGroup'] = var15;
-    var15 = {};
-    var15['marginTop'] = var18;
-    var8['priceInterval'] = var15;
-    var15 = {};
-    var15['paddingHorizontal'] = var5;
-    var8['content'] = var15;
-    var15 = {};
-    var18 = var7[var16];
-    var18 = var17.bind(var1)(var18);
-    var18 = var18.colors;
-    var18 = var18.BACKGROUND_SURFACE_HIGH;
-    var15['backgroundColor'] = var18;
-    var8['contentWithBackground'] = var15;
-    var15 = {'width': '100%', 'height': 1, 'marginTop': 16};
-    var18 = var7[var16];
-    var18 = var17.bind(var1)(var18);
-    var18 = var18.colors;
-    var18 = var18.BORDER_SUBTLE;
-    var15['backgroundColor'] = var18;
-    var8['separator'] = var15;
-    var15 = {};
-    var15['paddingVertical'] = var5;
-    var8['sectionLabel'] = var15;
-    var15 = {};
-    var15['marginTop'] = var5;
-    var8['benefitSpacing'] = var15;
-    var15 = {};
-    var18 = var7[var16];
-    var18 = var17.bind(var1)(var18);
-    var18 = var18.colors;
-    var18 = var18.BACKGROUND_SURFACE_HIGH;
-    var15['backgroundColor'] = var18;
-    var16 = var7[var16];
-    var16 = var17.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.lg;
-    var15['borderRadius'] = var16;
-    var15['padding'] = var5;
-    var8['roundedBenefitsContainer'] = var15;
-    var15 = {'borderBottomStartRadius': 8, 'borderBottomEndRadius': 8, 'height': 16};
-    var8['footer'] = var15;
-    var8 = var11.bind(var14)(var8);
+    var13['padding'] = var5;
+    var8['container'] = var13;
+    var13 = {'backgroundColor': null, 'borderTopStartRadius': 8, 'borderTopEndRadius': 8, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'padding': 16};
+    var14 = 5;
+    var17 = var7[var14];
+    var17 = var15.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.BACKGROUND_BASE_LOWEST;
+    var13['backgroundColor'] = var17;
+    var8['header'] = var13;
+    var13 = {'width': 80, 'height': 80, 'borderRadius': 40, 'marginTop': 16};
+    var8['image'] = var13;
+    var13 = {'marginTop': 16, 'alignItems': 'center'};
+    var8['priceGroup'] = var13;
+    var13 = {};
+    var13['marginTop'] = var16;
+    var8['priceInterval'] = var13;
+    var13 = {};
+    var13['paddingHorizontal'] = var5;
+    var8['content'] = var13;
+    var13 = {};
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
+    var13['backgroundColor'] = var16;
+    var8['contentWithBackground'] = var13;
+    var13 = {'width': '100%', 'height': 1, 'marginTop': 16};
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BORDER_SUBTLE;
+    var13['backgroundColor'] = var16;
+    var8['separator'] = var13;
+    var13 = {};
+    var13['paddingVertical'] = var5;
+    var8['sectionLabel'] = var13;
+    var13 = {};
+    var13['marginTop'] = var5;
+    var8['benefitSpacing'] = var13;
+    var13 = {};
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.BACKGROUND_SURFACE_HIGH;
+    var13['backgroundColor'] = var16;
+    var14 = var7[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.lg;
+    var13['borderRadius'] = var14;
+    var13['padding'] = var5;
+    var8['roundedBenefitsContainer'] = var13;
+    var13 = {'borderBottomStartRadius': 8, 'borderBottomEndRadius': 8, 'height': 16};
+    var8['footer'] = var13;
+    var8 = var9.bind(var12)(var8);
     var _closure1_slot9 = var8;
     var8 = {};
-    var8['FLAT'] = var13;
-    var11 = 'FLAT';
-    var8[var13] = var11;
-    var8['ROUNDED'] = var12;
-    var11 = 'ROUNDED';
-    var8[var12] = var11;
+    var8['FLAT'] = var11;
+    var9 = 'FLAT';
+    var8[var11] = var9;
+    var8['ROUNDED'] = var10;
+    var9 = 'ROUNDED';
+    var8[var10] = var9;
     var _closure1_slot10 = var8;
     var4['Looks'] = var8;
-    var8 = {};
-    var8 = var9.bind(var1)(var10, var8);
-    var _closure1_slot11 = var8;
-    var8 = {};
-    var8 = var9.bind(var1)(var10, var8);
-    var _closure1_slot12 = var8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -593,7 +588,7 @@ case 0:
             var5 = var9.container;
             var1['style'] = var5;
             var10 = _closure1_slot6;
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot12;
             var5 = {};
             var24 = var5;
             var23 = var11;
@@ -602,7 +597,7 @@ case 0:
             var5 = new Array(5);
             var5[0] = var7;
             var11 = _closure1_slot6;
-            var10 = _closure1_slot17;
+            var10 = _closure1_slot15;
             var7 = {};
             var13 = _closure1_slot0;
             var19 = 8;
@@ -634,11 +629,14 @@ case 17:
             var12 = _closure1_slot7;
             var11 = _closure1_slot8;
             var10 = {};
-            var14 = _closure1_slot11;
+            var15 = _closure1_slot6;
+            var14 = _closure1_slot16;
+            var13 = {};
+            var14 = var15.bind(var4)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
             var20 = _closure1_slot6;
-            var15 = _closure1_slot18;
+            var15 = _closure1_slot17;
             var14 = {};
             var14['guildId'] = var18;
             var14['benefits'] = var21;
@@ -663,11 +661,14 @@ case 19:
             var11 = _closure1_slot7;
             var10 = _closure1_slot8;
             var8 = {};
-            var13 = _closure1_slot12;
+            var14 = _closure1_slot6;
+            var13 = _closure1_slot16;
+            var12 = {};
+            var13 = var14.bind(var4)(var13, var12);
             var12 = new Array(2);
             var12[0] = var13;
             var15 = _closure1_slot6;
-            var14 = _closure1_slot18;
+            var14 = _closure1_slot17;
             var13 = {};
             var13['guildId'] = var18;
             var13['benefits'] = var17;
@@ -686,7 +687,7 @@ case 19:
 case 18:
             var5[3] = var7;
             var8 = _closure1_slot6;
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot13;
             var6 = {};
             var9 = var9.footer;
             var6['style'] = var9;

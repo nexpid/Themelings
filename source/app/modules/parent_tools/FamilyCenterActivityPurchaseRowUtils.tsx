@@ -24,27 +24,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.isNameplateRecord;
+    var4 = var4.isProfileEffectRecord;
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var4 = var4.isProfileEffectRecord;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
     var5 = var4.PremiumSubscriptionSKUs;
-    var _closure1_slot6 = var5;
+    var _closure1_slot5 = var5;
     var4 = var4.SubscriptionPlanInfo;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = function getCollectibleTypeName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 4;
+            var6 = 3;
             var2 = var2[var6];
             var5 = undefined;
             var2 = var4.bind(var5)(var2);
@@ -81,13 +76,13 @@ case 9:
 case 8:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var4 = var2.intl;
             var3 = var4.string;
             var6 = _closure1_slot1;
-            var2 = 6;
+            var2 = 5;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.VS1fKo;
@@ -96,13 +91,13 @@ case 8:
 case 6:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var4 = var2.intl;
             var3 = var4.string;
             var6 = _closure1_slot1;
-            var2 = 6;
+            var2 = 5;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.nNGEHk;
@@ -111,13 +106,13 @@ case 6:
 case 4:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var4 = var2.intl;
             var3 = var4.string;
             var6 = _closure1_slot1;
-            var2 = 6;
+            var2 = 5;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.RX8BMR;
@@ -126,13 +121,13 @@ case 4:
 case 2:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.intl;
             var2 = var3.string;
             var4 = _closure1_slot1;
-            var1 = 6;
+            var1 = 5;
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.obi47v;
@@ -140,8 +135,8 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
-    var5 = 9;
+    var _closure1_slot7 = var4;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -171,7 +166,7 @@ case 11:
 case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var5[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.getAvatarDecorationURL;
@@ -200,26 +195,13 @@ case 0:
 case 11:
             var1 = var1.items;
             var2 = var1[var2];
-            var1 = _closure1_slot4;
-            var5 = undefined;
-            var4 = var1.bind(var5)(var2);
+            var3 = _closure1_slot4;
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
             var1 = null;
-            if(!var4) { _fun0003_ip = 14; continue _fun0003 }
+            if(!var3) { _fun0003_ip = 14; continue _fun0003 }
 case 3:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 8;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.getAssetCDNUrl;
-            var7 = var2.asset;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var6 = var2.concat;
-            var5 = 'collectibles/';
-            var2 = 'static.png';
-            var2 = var6.bind(var5)(var7, var2);
-            var1 = var3.bind(var4)(var2);
+            var1 = var2.thumbnailPreviewSrc;
 case 14:
             return var1;
 case 13:
@@ -227,94 +209,68 @@ case 13:
             return var1;
         }
     };
-    var3['getNameplatePreviewUrl'] = var4;
+    var3['getProfileEffectPreviewUrl'] = var4;
     var4 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var1 = arg1;
-            var2 = var1.items;
-            var3 = var2.length;
-            var2 = 0;
-            if(!(var2 !== var3)) { _fun0004_ip = 15; continue _fun0004 }
-case 11:
-            var1 = var1.items;
-            var2 = var1[var2];
-            var3 = _closure1_slot5;
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var1 = null;
-            if(!var3) { _fun0004_ip = 16; continue _fun0004 }
-case 3:
-            var1 = var2.thumbnailPreviewSrc;
-case 16:
-            return var1;
-case 15:
-            var1 = null;
-            return var1;
-        }
-    };
-    var3['getProfileEffectPreviewUrl'] = var4;
-    var4 = function(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
             var4 = arg1;
             var2 = null;
-            if(!(var2 != var4)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
-            var3 = _closure1_slot7;
+            if(!(var2 != var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+            var3 = _closure1_slot6;
             var3 = var3[var4];
             var4 = var2 == var3;
             var2 = undefined;
-            if(var4) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(var4) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var2 = var3.skuId;
-case 19:
-            var1 = _closure1_slot6;
+case 17:
+            var1 = _closure1_slot5;
             var1 = var1.GUILD;
             var1 = var2 === var1;
             return var1;
-case 17:
+case 15:
             var1 = false;
             return var1;
         }
     };
     var3['isGuildBoostSubscription'] = var4;
     var2 = function(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var8 = arg2;
             var6 = null;
             var2 = var6 != var8;
-            if(!(var6 == var1)) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+            if(!(var6 == var1)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var4 = undefined;
             var3 = undefined;
-            if(!var2) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+            if(!var2) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var7 = var6 != var8;
             var4 = undefined;
             var3 = undefined;
-            if(!var7) { _fun0006_ip = 23; continue _fun0006 }
-case 25:
-            var7 = _closure1_slot7;
+            if(!var7) { _fun0005_ip = 21; continue _fun0005 }
+case 23:
+            var7 = _closure1_slot6;
             var7 = var7[var8];
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+            if(var8) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var6 = var7.name;
-case 26:
+case 24:
             var4 = var6;
             var3 = undefined;
-            _fun0006_ip = 23; continue _fun0006;
-case 21:
+            _fun0005_ip = 21; continue _fun0005;
+case 19:
             var4 = var1.name;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var6 = var1.type;
             var1 = undefined;
             var3 = var7.bind(var1)(var6);
-case 23:
+case 21:
             var1 = {};
             var1['displayName'] = var4;
             var1['typeName'] = var3;

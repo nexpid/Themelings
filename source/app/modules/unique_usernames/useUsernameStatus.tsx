@@ -1,4 +1,4 @@
-// app/modules/pomelo/useUsernameStatus.tsx
+// app/modules/unique_usernames/useUsernameStatus.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/pomelo/useUsernameStatus.tsx';
+    var4 = 'modules/unique_usernames/useUsernameStatus.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

@@ -23,9 +23,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.StyleSheet;
-    var7 = var8.create;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {};
     var10 = 'transparent';
@@ -160,11 +159,13 @@ case 2:
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 3;
-            var4 = var4[var1];
+            var3 = _closure1_slot4;
             var1 = undefined;
+            var3 = var3.bind(var1)();
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 3;
+            var4 = var6[var4];
             var4 = var5.bind(var1)(var4);
             var4 = var4.bind(var1)();
             if(!var4) { _fun0004_ip = 4; continue _fun0004 }
@@ -172,7 +173,6 @@ case 5:
             var4 = null;
             if(!(var4 == var2)) { _fun0004_ip = 6; continue _fun0004 }
 case 7:
-            var3 = _closure1_slot4;
             var2 = var3.none;
 case 6:
             var1 = var2;

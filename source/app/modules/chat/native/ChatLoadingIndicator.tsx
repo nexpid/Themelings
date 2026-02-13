@@ -1,11 +1,11 @@
 // app/modules/chat/native/ChatLoadingIndicator.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,13 +18,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
     var4 = metroImportAll;
-    var9 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var9;
+    var8 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var8;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -32,27 +32,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
@@ -62,33 +62,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot13 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot13 = var7;
     var7 = var4.jsxs;
     var _closure1_slot14 = var7;
     var4 = var4.Fragment;
     var _closure1_slot15 = var4;
     var4 = 11;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var7 = var10.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var7 = var9.createStyles;
     var4 = {};
-    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
-    var4['container'] = var11;
-    var11 = {'height': 8, 'width': 8};
-    var12 = 12;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.round;
-    var11['borderRadius'] = var14;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_BRAND;
-    var11['backgroundColor'] = var12;
-    var4['pulse'] = var11;
-    var4 = var7.bind(var10)(var4);
+    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
+    var4['container'] = var10;
+    var10 = {'height': 8, 'width': 8};
+    var11 = 12;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.round;
+    var10['borderRadius'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_BRAND;
+    var10['backgroundColor'] = var11;
+    var4['pulse'] = var10;
+    var4 = var7.bind(var9)(var4);
     var _closure1_slot16 = var4;
     var4 = function openLoadingIndicatorDebugBody() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -139,10 +139,12 @@ case 5:
                         var6 = 'Chat Loading indicator';
                         var5 = 'title';
                         var2[var5] = var6;
-                        var5 = _closure1_slot18;
-                        var1 = 'children';
-                        var2[var1] = var5;
+                        var6 = _closure1_slot18;
                         var1 = undefined;
+                        var5 = {};
+                        var6 = var4.bind(var1)(var6, var5);
+                        var5 = 'children';
+                        var2[var5] = var6;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;
                     };
@@ -161,7 +163,7 @@ case 4:
         }
     };
     var _closure1_slot17 = var4;
-    var7 = var9.memo;
+    var7 = var8.memo;
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -322,9 +324,7 @@ case 19:
             return var1;
         }
     };
-    var7 = var7.bind(var9)(var4);
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot18 = var4;
     var4 = {};
     var7 = 'function ChatLoadingIndicatorTsx1(){const{useReducedMotion,withRepeat,withSequence,withTiming,Easing}=this.__closure;if(useReducedMotion){return{transform:[]};}return{transform:[{scale:withRepeat(withSequence(withTiming(1,{duration:0}),withTiming(0.5,{duration:1500,easing:Easing.bezier(0.4,0,0.2,1)}),withTiming(1,{duration:1500,easing:Easing.bezier(0.4,0,0.2,1)})),-1)}]};}';

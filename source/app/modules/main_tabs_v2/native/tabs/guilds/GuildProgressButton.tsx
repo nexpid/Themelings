@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/tabs/guilds/GuildProgressButton.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var10 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var10;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -29,22 +29,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot5 = var8;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.RowButton;
-    var7 = var4.Icon;
-    var4 = {};
-    var9 = 5;
-    var9 = var6[var9];
-    var9 = var10.bind(var1)(var9);
-    var4['source'] = var9;
-    var9 = 'blurple';
-    var4['variant'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot6 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -57,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var11;
         var13 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var2 = 6;
+        var2 = 4;
         var2 = var8[var2];
         var4 = undefined;
         var3 = var13.bind(var4)(var2);
@@ -67,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var2.subtitle;
         var10 = var2.completed;
         var _closure2_slot1 = var10;
-        var6 = _closure1_slot3;
-        var12 = var6.useEffect;
+        var5 = _closure1_slot3;
+        var12 = var5.useEffect;
         var3 = new Array(2);
         var3[0] = var10;
         var2 = var11.id;
@@ -81,7 +67,7 @@ case 0:
 case 3:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 7;
+                var2 = 5;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -94,8 +80,8 @@ case 2:
                 return var1;
             }
         };
-        var2 = var12.bind(var6)(var2, var3);
-        var3 = var6.useCallback;
+        var2 = var12.bind(var5)(var2, var3);
+        var3 = var5.useCallback;
         var2 = new Array(2);
         var2[0] = var11;
         var2[1] = var10;
@@ -107,7 +93,7 @@ case 0:
 case 3:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 7;
+                var1 = 5;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -118,7 +104,7 @@ case 3:
 case 2:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 6;
+                var1 = 4;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -128,14 +114,26 @@ case 2:
                 return var1;
             }
         };
-        var6 = var3.bind(var6)(var1, var2);
+        var5 = var3.bind(var5)(var1, var2);
         var3 = _closure1_slot5;
-        var1 = 4;
-        var1 = var8[var1];
+        var10 = 6;
+        var1 = var8[var10];
         var1 = var13.bind(var4)(var1);
         var2 = var1.RowButton;
         var1 = {};
-        var10 = _closure1_slot6;
+        var10 = var8[var10];
+        var10 = var13.bind(var4)(var10);
+        var10 = var10.RowButton;
+        var11 = var10.Icon;
+        var10 = {};
+        var6 = _closure1_slot1;
+        var12 = 7;
+        var12 = var8[var12];
+        var12 = var6.bind(var4)(var12);
+        var10['source'] = var12;
+        var12 = 'blurple';
+        var10['variant'] = var12;
+        var10 = var3.bind(var4)(var11, var10);
         var1['icon'] = var10;
         var10 = 8;
         var11 = var8[var10];
@@ -149,8 +147,7 @@ case 2:
         var10 = var11.bind(var12)(var10);
         var1['label'] = var10;
         var1['subLabel'] = var9;
-        var1['onPress'] = var6;
-        var6 = _closure1_slot1;
+        var1['onPress'] = var5;
         var5 = 9;
         var5 = var8[var5];
         var6 = var6.bind(var4)(var5);

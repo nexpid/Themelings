@@ -122,21 +122,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var1 = var2.quest;
-            var7 = var2.product;
-            var5 = var2.onSuccess;
-            var8 = _closure1_slot4;
-            var4 = _closure1_slot8;
-            var3 = {};
-            var3['quest'] = var1;
-            var1 = undefined;
-            var3 = var8.bind(var1)(var4, var3);
-            var _closure2_slot0 = var3;
+            var1 = arg1;
+            var2 = var1.quest;
+            var _closure2_slot0 = var2;
+            var7 = var1.product;
+            var5 = var1.onSuccess;
             var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var3 = 8;
-            var3 = var8[var3];
+            var3 = _closure1_slot2;
+            var1 = 8;
+            var3 = var3[var1];
+            var1 = undefined;
             var8 = var4.bind(var1)(var3);
             var4 = var8.getQuestLogger;
             var3 = {};
@@ -161,7 +156,13 @@ case 2:
             var2 = {};
             var2['product'] = var7;
             var6 = function renderMessages() {
+                var4 = _closure1_slot4;
+                var3 = _closure1_slot8;
+                var2 = {};
                 var1 = _closure2_slot0;
+                var2['quest'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var2['renderMessages'] = var6;

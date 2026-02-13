@@ -196,7 +196,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot9 = var4;
+        _closure1_slot10 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -204,7 +204,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _handleUploadIntlDataSettingPress() {
         var5 = undefined;
         var1 = undefined;
@@ -228,7 +228,7 @@ case 16:
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.batchUpdates;
                         var2 = function() {
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot9;
                             var2 = var3.setState;
                             var1 = {'isDisabled': true, 'isUploading': true};
                             var1 = var2.bind(var3)(var1);
@@ -245,7 +245,7 @@ case 16:
                     var6 = var6.bind(var4)(var2);
                     var2 = var6.isIOS;
                     var2 = var2.bind(var6)();
-                    var6 = _closure1_slot5;
+                    var6 = _closure1_slot6;
                     if(var2) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
                     var2 = var6.ANDROID_APP;
@@ -257,7 +257,7 @@ case 19:
 case 20: // try_start_0 // try_start_1
                     var2 = function serializeIntlData() {
                         var1 = undefined;
-                        var4 = _closure1_slot9;
+                        var4 = _closure1_slot10;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;
@@ -273,7 +273,7 @@ case 22:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                     if(var6) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-                    var9 = _closure1_slot6;
+                    var9 = _closure1_slot7;
                     var8 = var9.DEBUG_LOG;
                     var6 = var5;
                     var5 = 'intl_data';
@@ -326,7 +326,7 @@ case 27: // try_end1
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.batchUpdates;
                         var3 = function() {
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot9;
                             var2 = var3.setState;
                             var1 = {'isDisabled': true, 'isUploading': false};
                             var1 = var2.bind(var3)(var1);
@@ -344,7 +344,7 @@ case 27: // try_end1
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.batchUpdates;
                             var1 = function() {
-                                var3 = _closure1_slot7;
+                                var3 = _closure1_slot9;
                                 var2 = var3.setState;
                                 var1 = {};
                                 var4 = false;
@@ -371,7 +371,7 @@ case 23:
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.batchUpdates;
                         var3 = function() {
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot9;
                             var2 = var3.setState;
                             var1 = {'isDisabled': true, 'isUploading': false};
                             var1 = var2.bind(var3)(var1);
@@ -389,7 +389,7 @@ case 23:
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.batchUpdates;
                             var1 = function() {
-                                var3 = _closure1_slot7;
+                                var3 = _closure1_slot9;
                                 var2 = var3.setState;
                                 var1 = {};
                                 var4 = false;
@@ -432,7 +432,7 @@ case 30: // try_end2
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.batchUpdates;
                         var3 = function() {
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot9;
                             var2 = var3.setState;
                             var1 = {'isDisabled': true, 'isUploading': false};
                             var1 = var2.bind(var3)(var1);
@@ -450,7 +450,7 @@ case 30: // try_end2
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.batchUpdates;
                             var1 = function() {
-                                var3 = _closure1_slot7;
+                                var3 = _closure1_slot9;
                                 var2 = var3.setState;
                                 var1 = {};
                                 var4 = false;
@@ -478,7 +478,7 @@ case 32: // catch_target1 // catch_target2
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.batchUpdates;
                         var3 = function() {
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot9;
                             var2 = var3.setState;
                             var1 = {'isDisabled': true, 'isUploading': false};
                             var1 = var2.bind(var3)(var1);
@@ -496,7 +496,7 @@ case 32: // catch_target1 // catch_target2
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.batchUpdates;
                             var1 = function() {
-                                var3 = _closure1_slot7;
+                                var3 = _closure1_slot9;
                                 var2 = var3.setState;
                                 var1 = {};
                                 var4 = false;
@@ -520,7 +520,7 @@ case 15:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -528,7 +528,7 @@ case 15:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -545,31 +545,30 @@ case 15:
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.ActivityIndicator;
+    var2 = var2.ActivityIndicator;
+    var _closure1_slot5 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var4 = var2.DebugLogCategory;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var2 = var2.Endpoints;
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.jsx;
+    var2 = var2.jsx;
+    var _closure1_slot8 = var2;
     var2 = 4;
     var2 = var6[var2];
-    var10 = var5.bind(var1)(var2);
-    var9 = var10.create;
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.create;
     var2 = function() {
         var1 = {'isDisabled': false, 'isUploading': false};
         return var1;
     };
-    var2 = var9.bind(var10)(var2);
-    var _closure1_slot7 = var2;
-    var2 = {};
-    var2 = var4.bind(var1)(var7, var2);
-    var _closure1_slot8 = var2;
+    var2 = var4.bind(var7)(var2);
+    var _closure1_slot9 = var2;
     var2 = 14;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
@@ -589,7 +588,7 @@ case 15:
     var2['IconComponent'] = var9;
     var9 = function handleUploadIntlDataSettingPress() {
         var1 = undefined;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot11;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -606,21 +605,24 @@ case 15:
     var9 = function useUploadIntlDataTrailing() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var3 = _closure1_slot7;
-            var1 = undefined;
-            var1 = var3.bind(var1)();
+            var1 = _closure1_slot9;
+            var5 = undefined;
+            var1 = var1.bind(var5)();
             var3 = var1.isUploading;
             var1 = null;
             if(!var3) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
-            var1 = _closure1_slot8;
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
 case 33:
             return var1;
         }
     };
     var2['useTrailing'] = var9;
     var8 = function useIsUploadIntlDataDisabled() {
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot9;
         var1 = undefined;
         var1 = var2.bind(var1)();
         var1 = var1.isDisabled;

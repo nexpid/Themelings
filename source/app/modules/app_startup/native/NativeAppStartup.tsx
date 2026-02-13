@@ -1707,11 +1707,24 @@ case 142:
                                 var3 = var3.default;
                                 var6 = 51;
                                 var6 = var5[var6];
+                                var6 = var4.bind(var1)(var6);
+                                var8 = var6.isMobileVisualRefreshEnabled;
+                                var6 = 52;
+                                var6 = var5[var6];
                                 var7 = var4.bind(var1)(var6);
                                 var6 = var7.updateSaturation;
                                 var3 = var3.saturation;
                                 var3 = var6.bind(var7)(var3);
-                                var3 = 52;
+                                var3 = 53;
+                                var3 = var5[var3];
+                                var7 = var4.bind(var1)(var3);
+                                var6 = var7.updateVisualRefresh;
+                                var3 = {};
+                                var9 = 'NativeAppStartup';
+                                var3['location'] = var9;
+                                var3 = var8.bind(var1)(var3);
+                                var3 = var6.bind(var7)(var3);
+                                var3 = 54;
                                 var3 = var5[var3];
                                 var4 = var4.bind(var1)(var3);
                                 var3 = var4.updateTheme;
@@ -1731,7 +1744,7 @@ case 142:
                     var9 = new var28[var17](var27, var26);
                     var17 = var9 instanceof Object ? var9 : var14;
                     var14 = _closure1_slot2;
-                    var9 = 53;
+                    var9 = 55;
                     var9 = var16[var9];
                     var14 = var14.bind(var4)(var9);
                     var9 = var14.getToken;
@@ -1740,7 +1753,7 @@ case 142:
 case 146:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot3;
-                    var9 = 54;
+                    var9 = 56;
                     var9 = var14[var9];
                     var12 = var12.bind(var4)(var9);
                     var9 = var12.beginLoadedExperimentsTimeout;
@@ -1774,7 +1787,7 @@ case 147:
                     var14 = _closure1_slot3;
                     var3 = var14[var15];
                     var18 = var16.bind(var4)(var3);
-                    var3 = 55;
+                    var3 = 57;
                     var17 = var14[var3];
                     var3 = var14.paths;
                     var17 = var18.bind(var4)(var17, var3);
@@ -1782,28 +1795,28 @@ case 147:
                     var3[0] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 56;
+                    var17 = 58;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[1] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 57;
+                    var17 = 59;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[2] = var17;
                     var17 = var14[var15];
                     var19 = var16.bind(var4)(var17);
-                    var17 = 58;
+                    var17 = 60;
                     var18 = var14[var17];
                     var17 = var14.paths;
                     var17 = var19.bind(var4)(var18, var17);
                     var3[3] = var17;
                     var15 = var14[var15];
                     var16 = var16.bind(var4)(var15);
-                    var15 = 59;
+                    var15 = 61;
                     var15 = var14[var15];
                     var14 = var14.paths;
                     var14 = var16.bind(var4)(var15, var14);
@@ -1860,10 +1873,10 @@ case 153:
 case 152:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var5 = 60;
+                    var5 = 62;
                     var5 = var7[var5];
                     var5 = var6.bind(var4)(var5);
-                    var5 = 61;
+                    var5 = 63;
                     var5 = var7[var5];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.initSessionHeartbeatScheduler;
@@ -1943,7 +1956,7 @@ case 160:
                     var3 = var3.bind(var5)();
                     var9 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var7 = 62;
+                    var7 = 64;
                     var7 = var3[var7];
                     var7 = var9.bind(var5)(var7);
                     var7 = 42;
@@ -1986,7 +1999,7 @@ case 160:
                     var6 = var7.all;
                     var8 = var3[var8];
                     var9 = var9.bind(var5)(var8);
-                    var8 = 59;
+                    var8 = 61;
                     var8 = var3[var8];
                     var3 = var3.paths;
                     var8 = var9.bind(var5)(var8, var3);
@@ -2104,7 +2117,7 @@ case 166:
 case 165:
             var6 = _closure1_slot2;
             var4 = _closure1_slot3;
-            var3 = 53;
+            var3 = 55;
             var8 = var4[var3];
             var9 = var6.bind(var1)(var8);
             var8 = var9.init;
@@ -2265,7 +2278,7 @@ case 165:
     var8 = var5.loadIndex;
     var5 = var8.recordEnd;
     var5 = var5.bind(var8)();
-    var5 = 63;
+    var5 = 65;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

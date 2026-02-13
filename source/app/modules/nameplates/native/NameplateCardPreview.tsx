@@ -106,7 +106,7 @@ case 2:
             var1 = 6;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
-            var1 = var2.getNameplateDataFromRecord;
+            var1 = var2.getNameplateData;
             var19 = var1.bind(var2)(var3);
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;

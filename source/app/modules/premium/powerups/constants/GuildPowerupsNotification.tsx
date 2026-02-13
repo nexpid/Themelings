@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = 21600000;
     var3['GUILD_POWERUP_NOTIFICATION_COOLDOWN'] = var5;
-    var5 = 432000000;
+    var5 = 864000000;
     var3['BOOST_TO_UNLOCK_COACHMARK_COOLDOWN'] = var5;
     var3['GuildPowerupNotificationIndicatorType'] = var4;
     var3['GuildPowerupNotificationPopoutType'] = var2;

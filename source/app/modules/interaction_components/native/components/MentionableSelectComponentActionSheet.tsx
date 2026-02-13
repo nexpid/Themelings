@@ -1,11 +1,11 @@
 // app/modules/interaction_components/native/components/MentionableSelectComponentActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var15 = metroImportDefault;
+    var14 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var15;
+    var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -28,78 +28,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var11 = 4;
-    var4 = var6[var11];
-    var4 = var15.bind(var1)(var4);
+    var10 = 4;
+    var4 = var6[var10];
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var15.bind(var1)(var4);
+    var4 = var14.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var13 = var4.Fonts;
+    var12 = var4.Fonts;
     var4 = var4.DEFAULT_ROLE_COLOR_HEX;
     var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot10 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot10 = var7;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var14 = 9;
-    var12 = var6[var14];
-    var12 = var15.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.INTERACTIVE_TEXT_DEFAULT;
-    var10['color'] = var12;
-    var12 = var13.PRIMARY_MEDIUM;
-    var10['fontFamily'] = var12;
-    var12 = 12;
-    var10['fontSize'] = var12;
-    var16 = 16;
-    var10['lineHeight'] = var16;
-    var4['name'] = var10;
-    var10 = {};
-    var14 = var6[var14];
-    var14 = var15.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.TEXT_MUTED;
-    var10['color'] = var14;
-    var13 = var13.PRIMARY_MEDIUM;
-    var10['fontFamily'] = var13;
-    var10['fontSize'] = var12;
-    var4['discriminator'] = var10;
-    var10 = {'display': 'flex', 'flexDirection': 'row', 'flexGrow': 1, 'alignItems': 'center', 'justifyContent': 'flex-end', 'marginRight': 12};
-    var4['roleCountContainer'] = var10;
-    var10 = {};
-    var10['paddingRight'] = var11;
-    var4['roleCountText'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {};
+    var13 = 9;
+    var11 = var6[var13];
+    var11 = var14.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.INTERACTIVE_TEXT_DEFAULT;
+    var9['color'] = var11;
+    var11 = var12.PRIMARY_MEDIUM;
+    var9['fontFamily'] = var11;
+    var11 = 12;
+    var9['fontSize'] = var11;
+    var15 = 16;
+    var9['lineHeight'] = var15;
+    var4['name'] = var9;
+    var9 = {};
+    var13 = var6[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.TEXT_MUTED;
+    var9['color'] = var13;
+    var12 = var12.PRIMARY_MEDIUM;
+    var9['fontFamily'] = var12;
+    var9['fontSize'] = var11;
+    var4['discriminator'] = var9;
+    var9 = {'display': 'flex', 'flexDirection': 'row', 'flexGrow': 1, 'alignItems': 'center', 'justifyContent': 'flex-end', 'marginRight': 12};
+    var4['roleCountContainer'] = var9;
+    var9 = {};
+    var9['paddingRight'] = var10;
+    var4['roleCountText'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.UserIcon;
-    var4 = {};
-    var9 = 'xs';
-    var4['size'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot13 = var4;
     var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -130,7 +121,7 @@ case 0:
             var _closure2_slot4 = var19;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var8[var2];
             var8 = var7.bind(var4)(var2);
             var2 = null;
@@ -142,7 +133,7 @@ case 3:
 case 2:
             var10 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var2 = var16[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.MIN_REREQUEST_TIME;
@@ -156,7 +147,7 @@ case 2:
             var2 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -170,7 +161,7 @@ case 2:
             };
             var10 = var8.bind(var18)(var2, var7);
             var2 = _closure1_slot1;
-            var7 = 13;
+            var7 = 12;
             var7 = var16[var7];
             var8 = var2.bind(var4)(var7);
             var7 = {};
@@ -197,7 +188,7 @@ case 0:
                     var3 = var1.type;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var7 = 14;
+                    var7 = 13;
                     var2 = var2[var7];
                     var5 = undefined;
                     var2 = var4.bind(var5)(var2);
@@ -236,7 +227,7 @@ case 11:
 case 12:
                     var9 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var7 = 16;
+                    var7 = 15;
                     var4 = var4[var7];
                     var9 = var9.bind(var5)(var4);
                     var4 = var9.canGuildUseRoleIcons;
@@ -271,7 +262,7 @@ case 13:
                     var7 = _closure1_slot10;
                     var4 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var3 = 18;
+                    var3 = 17;
                     var3 = var11[var3];
                     var3 = var4.bind(var5)(var3);
                     var4 = var3.ShieldUserIcon;
@@ -293,7 +284,7 @@ case 19:
                     var7 = _closure1_slot10;
                     var4 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var3 = 17;
+                    var3 = 16;
                     var3 = var11[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = {};
@@ -328,7 +319,7 @@ case 26:
                     var4 = _closure1_slot10;
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var8 = 15;
+                    var8 = 14;
                     var2 = var2[var8];
                     var3 = var3.bind(var5)(var2);
                     var2 = {};
@@ -359,7 +350,7 @@ case 25:
             };
             var14 = var17.bind(var18)(var3, var14);
             var3 = _closure1_slot10;
-            var1 = 19;
+            var1 = 18;
             var1 = var16[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -372,7 +363,7 @@ case 0:
                     var5 = var2.type;
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 14;
+                    var3 = 13;
                     var3 = var4[var3];
                     var4 = undefined;
                     var3 = var6.bind(var4)(var3);
@@ -389,7 +380,7 @@ case 29:
                     var3 = _closure1_slot10;
                     var2 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 19;
                     var1 = var6[var1];
                     var2 = var2.bind(var4)(var1);
                     var1 = {};
@@ -411,12 +402,12 @@ case 29:
 case 0:
                     var3 = arg1;
                     var4 = var3.type;
-                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 13;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var5.bind(var1)(var2);
+                    var2 = var6.bind(var1)(var2);
                     var2 = var2.SelectOptionType;
                     var2 = var2.ROLE;
                     if(!(var4 !== var2)) { _fun0004_ip = 29; continue _fun0004 }
@@ -437,7 +428,7 @@ case 32:
                     var4 = var8.bind(var9)(var7, var3);
 case 31:
                     var3 = var2 == var4;
-                    var9 = null;
+                    var10 = null;
                     if(var3) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                     var3 = _closure2_slot5;
@@ -449,31 +440,38 @@ case 3:
                     var4 = var4.id;
                     var3 = var7[var4];
 case 35:
-                    var9 = var3;
+                    var10 = var3;
 case 33:
-                    if(!(var2 != var9)) { _fun0004_ip = 36; continue _fun0004 }
+                    if(!(var2 != var10)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
                     var4 = _closure1_slot11;
                     var3 = _closure1_slot4;
                     var2 = {};
-                    var10 = _closure2_slot3;
-                    var5 = var10.roleCountContainer;
-                    var2['style'] = var5;
+                    var11 = _closure2_slot3;
+                    var6 = var11.roleCountContainer;
+                    var2['style'] = var6;
                     var8 = _closure1_slot10;
                     var7 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var5 = 21;
-                    var5 = var11[var5];
+                    var9 = _closure1_slot2;
+                    var5 = 20;
+                    var5 = var9[var5];
                     var5 = var7.bind(var1)(var5);
-                    var7 = var5.Text;
+                    var6 = var5.Text;
                     var5 = {'style': null, 'variant': 'text-sm/medium', 'color': 'interactive-text-default'};
-                    var10 = var10.roleCountText;
-                    var5['style'] = var10;
-                    var5['children'] = var9;
-                    var7 = var8.bind(var1)(var7, var5);
+                    var11 = var11.roleCountText;
+                    var5['style'] = var11;
+                    var5['children'] = var10;
+                    var6 = var8.bind(var1)(var6, var5);
                     var5 = new Array(2);
-                    var5[0] = var7;
-                    var6 = _closure1_slot13;
+                    var5[0] = var6;
+                    var6 = 21;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var1)(var6);
+                    var7 = var6.UserIcon;
+                    var6 = {};
+                    var9 = 'xs';
+                    var6['size'] = var9;
+                    var6 = var8.bind(var1)(var7, var6);
                     var5[1] = var6;
                     var2['children'] = var5;
                     var2 = var4.bind(var1)(var3, var2);
@@ -499,7 +497,7 @@ case 0:
                     var3 = var9.type;
                     var4 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var5 = 14;
+                    var5 = 13;
                     var1 = var1[var5];
                     var6 = undefined;
                     var1 = var4.bind(var6)(var1);
@@ -562,12 +560,12 @@ case 41:
                     var11 = var8 == var7;
                     var10 = undefined;
                     if(var11) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
+case 13:
                     var10 = var7.discriminator;
 case 44:
                     var1['discriminator'] = var10;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0005_ip = 46; continue _fun0005;
+                    _fun0005_ip = 45; continue _fun0005;
 case 43:
                     var3 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -585,13 +583,13 @@ case 43:
                     var2['username'] = var9;
                     var8 = var8 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
-                    var6 = var7.discriminator;
+                    if(var8) { _fun0005_ip = 46; continue _fun0005 }
 case 47:
+                    var6 = var7.discriminator;
+case 46:
                     var2['discriminator'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
-case 46:
+case 45:
                     return var1;
                 }
             };

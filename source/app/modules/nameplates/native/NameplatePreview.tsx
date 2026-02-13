@@ -163,7 +163,7 @@ case 11:
             var2 = 7;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
-            var2 = var3.getNameplateDataFromRecord;
+            var2 = var3.getNameplateData;
             var18 = var2.bind(var3)(var5);
 case 10:
             var8 = _closure1_slot0;

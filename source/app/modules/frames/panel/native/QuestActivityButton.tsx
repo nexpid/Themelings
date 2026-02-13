@@ -40,10 +40,10 @@ case 0:
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var8 = var7.bind(var8)(var6, var1);
-            var _closure2_slot2 = var8;
-            var9 = _closure1_slot3;
-            var7 = var9.useCallback;
+            var9 = var7.bind(var8)(var6, var1);
+            var _closure2_slot2 = var9;
+            var8 = _closure1_slot3;
+            var7 = var8.useCallback;
             var1 = var5.id;
             var6 = new Array(1);
             var6[0] = var1;
@@ -71,7 +71,7 @@ case 0:
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
             };
-            var20 = var7.bind(var9)(var1, var6);
+            var20 = var7.bind(var8)(var1, var6);
             var1 = global;
             var1 = var1.Math;
             var6 = var1.PI;
@@ -92,30 +92,30 @@ case 3:
 case 4:
             var1 = var5.completedAt;
 case 2:
-            var9 = var7 != var1;
-            _closure2_slot4 = var9;
+            var13 = var7 != var1;
+            _closure2_slot4 = var13;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 6;
-            var10 = var5[var1];
-            var11 = var6.bind(var4)(var10);
-            var10 = var11.useSharedValue;
-            var18 = var10.bind(var11)(var3);
-            _closure2_slot5 = var18;
+            var8 = var5[var1];
+            var10 = var6.bind(var4)(var8);
+            var8 = var10.useSharedValue;
+            var21 = var8.bind(var10)(var3);
+            _closure2_slot5 = var21;
             var5 = var5[var1];
-            var10 = var6.bind(var4)(var5);
-            var6 = var10.useSharedValue;
+            var8 = var6.bind(var4)(var5);
+            var6 = var8.useSharedValue;
             var5 = 0;
-            if(!var9) { _fun0001_ip = 5; continue _fun0001 }
+            if(!var13) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
             var5 = 1;
 case 5:
-            var13 = var6.bind(var10)(var5);
-            _closure2_slot6 = var13;
+            var14 = var6.bind(var8)(var5);
+            _closure2_slot6 = var14;
             var6 = _closure1_slot3;
             var5 = var6.useRef;
-            var21 = var5.bind(var6)(var7);
-            _closure2_slot7 = var21;
+            var17 = var5.bind(var6)(var7);
+            _closure2_slot7 = var17;
             var5 = _closure1_slot12;
             var11 = var5.bind(var4)();
             _closure2_slot8 = var11;
@@ -137,17 +137,17 @@ case 5:
                 var1[var2] = var3;
                 return var1;
             };
-            var14 = {};
-            var14['styles'] = var11;
-            var14['glowOpacity'] = var13;
-            var5['__closure'] = var14;
-            var14 = 13949105036113.0;
-            var5['__workletHash'] = var14;
-            var14 = _closure1_slot13;
-            var5['__initData'] = var14;
+            var8 = {};
+            var8['styles'] = var11;
+            var8['glowOpacity'] = var14;
+            var5['__closure'] = var8;
+            var8 = 13949105036113.0;
+            var5['__workletHash'] = var8;
+            var8 = _closure1_slot13;
+            var5['__initData'] = var8;
             var6 = var6.bind(var7)(var5);
             var15 = _closure1_slot3;
-            var14 = var15.useMemo;
+            var8 = var15.useMemo;
             var5 = var11.confetti;
             var7 = new Array(1);
             var7[0] = var5;
@@ -172,10 +172,10 @@ case 5:
                 var1[var2] = var3;
                 return var1;
             };
-            var17 = var14.bind(var15)(var5, var7);
+            var8 = var8.bind(var15)(var5, var7);
             var5 = var19[var1];
-            var14 = var10.bind(var4)(var5);
-            var7 = var14.useAnimatedProps;
+            var15 = var10.bind(var4)(var5);
+            var7 = var15.useAnimatedProps;
             var5 = function w() {
                 var1 = {};
                 var3 = _closure2_slot3;
@@ -187,21 +187,21 @@ case 5:
                 var1['strokeDashoffset'] = var2;
                 return var1;
             };
-            var15 = {};
-            var15['circumference'] = var16;
-            var15['animatedProgress'] = var18;
-            var5['__closure'] = var15;
-            var15 = 3373122453897.0;
-            var5['__workletHash'] = var15;
-            var15 = _closure1_slot14;
-            var5['__initData'] = var15;
-            var15 = var7.bind(var14)(var5);
-            var14 = _closure1_slot3;
-            var7 = var14.useEffect;
+            var18 = {};
+            var18['circumference'] = var16;
+            var18['animatedProgress'] = var21;
+            var5['__closure'] = var18;
+            var18 = 3373122453897.0;
+            var5['__workletHash'] = var18;
+            var18 = _closure1_slot14;
+            var5['__initData'] = var18;
+            var15 = var7.bind(var15)(var5);
+            var18 = _closure1_slot3;
+            var7 = var18.useEffect;
             var5 = new Array(3);
-            var5[0] = var18;
+            var5[0] = var21;
             var5[1] = var3;
-            var5[2] = var8;
+            var5[2] = var9;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -240,13 +240,13 @@ case 7:
                     return var1;
                 }
             };
-            var3 = var7.bind(var14)(var3, var5);
+            var3 = var7.bind(var18)(var3, var5);
             var7 = _closure1_slot3;
             var5 = var7.useEffect;
             var3 = new Array(3);
-            var3[0] = var13;
-            var3[1] = var9;
-            var3[2] = var8;
+            var3[0] = var14;
+            var3[1] = var13;
+            var3[2] = var9;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -316,6 +316,7 @@ case 12:
             var7 = _closure1_slot8;
             var6 = _closure1_slot4;
             var5 = {};
+            var5['style'] = var8;
             var13 = 'none';
             var5['pointerEvents'] = var13;
             var14 = _closure1_slot8;
@@ -323,12 +324,11 @@ case 12:
             var8 = var19[var8];
             var9 = var18.bind(var4)(var8);
             var8 = {};
-            var8['ref'] = var21;
-            var21 = 16;
-            var21 = var19[var21];
-            var21 = var10.bind(var4)(var21);
-            var8['source'] = var21;
-            var8['style'] = var17;
+            var8['ref'] = var17;
+            var17 = 16;
+            var17 = var19[var17];
+            var17 = var10.bind(var4)(var17);
+            var8['source'] = var17;
             var17 = false;
             var8['autoPlay'] = var17;
             var8['loop'] = var17;

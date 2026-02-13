@@ -297,22 +297,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure2_slot0;
             var2 = function getScreens(arg1) {
-                var5 = _closure1_slot5;
-                var2 = _closure1_slot8;
-                var1 = {};
-                var6 = arg1;
-                var1['otherUser'] = var6;
-                var8 = undefined;
-                var1 = var5.bind(var8)(var2, var1);
+                var1 = arg1;
                 var _closure4_slot0 = var1;
                 var1 = {};
                 var2 = {};
-                var5 = true;
-                var2['headerShown'] = var5;
+                var4 = true;
+                var2['headerShown'] = var4;
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var5 = 21;
                 var5 = var9[var5];
+                var8 = undefined;
                 var6 = var6.bind(var8)(var5);
                 var5 = var6.getHeaderCloseButton;
                 var7 = _closure1_slot1;
@@ -328,7 +323,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['headerTitle'] = var4;
                 var3 = function render() {
+                    var4 = _closure1_slot5;
+                    var3 = _closure1_slot8;
+                    var2 = {};
                     var1 = _closure4_slot0;
+                    var2['otherUser'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 };
                 var2['render'] = var3;

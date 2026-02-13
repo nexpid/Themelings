@@ -1,7 +1,7 @@
 // app/modules/user_profile/native/UserProfileEditFormControls.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function FormControlSubtext(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -55,7 +55,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -67,7 +67,7 @@ case 2:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -84,42 +84,35 @@ case 2:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot6 = var9;
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var8 = var10.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var7 = {};
-    var11 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'padding': 12, 'borderColor': null, 'borderWidth': 1};
+    var10 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'padding': 12, 'borderColor': null, 'borderWidth': 1};
     var4 = 12;
-    var12 = 5;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BORDER_STRONG;
-    var11['borderColor'] = var14;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.md;
-    var11['borderRadius'] = var12;
-    var7['button'] = var11;
-    var11 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'column'};
-    var7['buttonTextContainer'] = var11;
-    var11 = {'marginRight': 'auto', 'flexShrink': 1};
-    var7['formControlText'] = var11;
-    var7 = var8.bind(var10)(var7);
+    var11 = 5;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BORDER_STRONG;
+    var10['borderColor'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.radii;
+    var11 = var11.md;
+    var10['borderRadius'] = var11;
+    var7['button'] = var10;
+    var10 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'column'};
+    var7['buttonTextContainer'] = var10;
+    var10 = {'marginRight': 'auto', 'flexShrink': 1};
+    var7['formControlText'] = var10;
+    var7 = var8.bind(var9)(var7);
     var _closure1_slot8 = var7;
-    var7 = 7;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var8 = var7.TableRowArrow;
-    var7 = {};
-    var7 = var9.bind(var1)(var8, var7);
-    var _closure1_slot9 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -154,7 +147,7 @@ case 6:
             var3 = _closure1_slot6;
             var6 = _closure1_slot0;
             var19 = _closure1_slot1;
-            var1 = 8;
+            var1 = 7;
             var1 = var19[var1];
             var1 = var6.bind(var4)(var1);
             var2 = var1.Input;
@@ -162,7 +155,7 @@ case 6:
             var1['label'] = var7;
             var1['labelTrailing'] = var5;
             var7 = _closure1_slot7;
-            var5 = 9;
+            var5 = 8;
             var5 = var19[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableHighlight;
@@ -185,14 +178,14 @@ case 6:
             var14 = var14.buttonTextContainer;
             var12['style'] = var14;
             var16 = _closure1_slot6;
-            var15 = _closure1_slot10;
+            var15 = _closure1_slot9;
             var14 = {};
             var14['text'] = var17;
             var15 = var16.bind(var4)(var15, var14);
             var14 = new Array(2);
             var14[0] = var15;
             var17 = _closure1_slot6;
-            var16 = _closure1_slot11;
+            var16 = _closure1_slot10;
             var15 = {};
             var15['text'] = var18;
             var15 = var17.bind(var4)(var16, var15);
@@ -204,7 +197,15 @@ case 6:
             var9 = !var9;
             if(!var9) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var9 = _closure1_slot9;
+            var12 = _closure1_slot6;
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var10 = 9;
+            var10 = var13[var10];
+            var10 = var11.bind(var4)(var10);
+            var11 = var10.TableRowArrow;
+            var10 = {};
+            var9 = var12.bind(var4)(var11, var10);
 case 8:
             var8[3] = var9;
             var5['children'] = var8;
@@ -290,7 +291,7 @@ case 15:
 case 14:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 9;
+            var1 = 8;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var7 = var1.PressableHighlight;
@@ -298,7 +299,7 @@ case 16:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var1 = 8;
+            var1 = 7;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Input;
@@ -359,7 +360,7 @@ case 21:
             var5['accessibilityState'] = var8;
             var5['disabled'] = var12;
             var11 = _closure1_slot6;
-            var10 = _closure1_slot10;
+            var10 = _closure1_slot9;
             var8 = {};
             var8['text'] = var15;
             var10 = var11.bind(var4)(var10, var8);

@@ -14,10 +14,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var7 = var6[var1];
+    var4 = metroImportAll;
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useMemo;
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -34,18 +34,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg1;
         var5 = var2.user;
         var _closure2_slot0 = var5;
-        var6 = var2.guildId;
-        var _closure2_slot1 = var6;
-        var7 = _closure1_slot0;
+        var2 = var2.guildId;
+        var _closure2_slot1 = var2;
+        var6 = _closure1_slot0;
         var4 = _closure1_slot1;
         var3 = 2;
-        var3 = var4[var3];
-        var4 = undefined;
-        var9 = var7.bind(var4)(var3);
-        var8 = var9.useStateFromStores;
+        var4 = var4[var3];
+        var3 = undefined;
+        var7 = var6.bind(var3)(var4);
+        var6 = var7.useStateFromStores;
         var3 = _closure1_slot3;
-        var7 = new Array(1);
-        var7[0] = var3;
+        var4 = new Array(1);
+        var4[0] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -70,13 +70,13 @@ case 2:
                 return var1;
             }
         };
-        var7 = var8.bind(var9)(var7, var3);
-        var _closure2_slot2 = var7;
-        var3 = _closure1_slot2;
-        var2 = new Array(3);
-        var2[0] = var7;
-        var2[1] = var6;
-        var2[2] = var5;
+        var6 = var6.bind(var7)(var4, var3);
+        var _closure2_slot2 = var6;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -108,14 +108,11 @@ case 9:
                 var1 = var6.nameplate;
 case 7:
                 var1 = var4.bind(var5)(var1);
-                var4 = _closure2_slot1;
-                if(!(var3 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+                if(!(var3 == var1)) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-                if(!(var3 == var1)) { _fun0002_ip = 12; continue _fun0002 }
-case 10:
                 var2 = _closure2_slot0;
                 var1 = var2.nameplate;
-case 12:
+case 10:
                 return var1;
             }
         };

@@ -1568,30 +1568,30 @@ case 0:
 case 30:
             var7 = var2 == var4;
             var6 = undefined;
-            if(var7) { _fun0018_ip = 11; continue _fun0018 }
+            if(var7) { _fun0018_ip = 134; continue _fun0018 }
 case 172:
             var7 = var4.bot;
             var8 = var2 == var7;
             var6 = undefined;
-            if(var8) { _fun0018_ip = 11; continue _fun0018 }
+            if(var8) { _fun0018_ip = 134; continue _fun0018 }
 case 173:
             var6 = var7.username;
-case 11:
+case 134:
             var5 = var6;
 case 171:
-            if(!(var2 == var5)) { _fun0018_ip = 174; continue _fun0018 }
-case 175:
+            if(!(var2 == var5)) { _fun0018_ip = 39; continue _fun0018 }
+case 78:
             var5 = var4.name;
-case 174:
+case 39:
             var1['name'] = var5;
             var5 = var4.icon;
             var1['icon'] = var5;
             var1['application'] = var4;
             var2 = var2 != var3;
-            if(!var2) { _fun0018_ip = 62; continue _fun0018 }
-case 176:
+            if(!var2) { _fun0018_ip = 174; continue _fun0018 }
+case 175:
             var2 = var3;
-case 62:
+case 174:
             var1['isUserApp'] = var2;
             return var1;
         }
@@ -1606,8 +1606,8 @@ case 0:
             var4 = null;
             var5 = var4 == var2;
             var6 = undefined;
-            if(var5) { _fun0019_ip = 177; continue _fun0019 }
-case 178:
+            if(var5) { _fun0019_ip = 176; continue _fun0019 }
+case 177:
             var7 = var2.find;
             var5 = function(arg1) {
                 var1 = arg1;
@@ -1624,10 +1624,10 @@ case 178:
                 return var1;
             };
             var6 = var7.bind(var2)(var5);
-case 177:
+case 176:
             var5 = var8;
-            if(!(var4 != var6)) { _fun0019_ip = 179; continue _fun0019 }
-case 180:
+            if(!(var4 != var6)) { _fun0019_ip = 178; continue _fun0019 }
+case 179:
             var11 = _closure1_slot7;
             var10 = var6.name;
             var7 = global;
@@ -1637,11 +1637,11 @@ case 180:
             var7 = var9.bind(var7)(var11, var10);
             var5 = var8 + var7;
             var2 = var6.options;
-case 179:
+case 178:
             var6 = var4 == var2;
             var1 = undefined;
             if(var6) { _fun0019_ip = 59; continue _fun0019 }
-case 181:
+case 180:
             var6 = var2.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -1660,7 +1660,7 @@ case 181:
             var1 = var6.bind(var2)(var3);
 case 59:
             var3 = var5;
-            if(!(var4 != var1)) { _fun0019_ip = 182; continue _fun0019 }
+            if(!(var4 != var1)) { _fun0019_ip = 181; continue _fun0019 }
 case 103:
             var8 = _closure1_slot7;
             var7 = var1.name;
@@ -1671,7 +1671,7 @@ case 103:
             var4 = var6.bind(var4)(var8, var7);
             var3 = var5 + var4;
             var2 = var1.options;
-case 182:
+case 181:
             var1 = {};
             var1['commandKey'] = var3;
             var1['interactionOptions'] = var2;
@@ -1705,12 +1705,12 @@ case 0:
             var15 = null;
             var17 = var15 == var16;
             var14 = undefined;
-            if(var17) { _fun0020_ip = 183; continue _fun0020 }
+            if(var17) { _fun0020_ip = 182; continue _fun0020 }
 case 39:
             var14 = var16.id;
-case 183:
+case 182:
             if(!(var15 == var14)) { _fun0020_ip = 103; continue _fun0020 }
-case 184:
+case 183:
             var14 = var10.id;
 case 103:
             var2['command_id'] = var14;
@@ -1738,17 +1738,17 @@ case 0:
             var3 = var1.interactionMetadata;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0021_ip = 185; continue _fun0021 }
+            if(var2) { _fun0021_ip = 184; continue _fun0021 }
 case 114:
             var2 = 'triggering_interaction_metadata';
             var4 = var2 in var3;
             var2 = var3;
-            if(!var4) { _fun0021_ip = 186; continue _fun0021 }
+            if(!var4) { _fun0021_ip = 185; continue _fun0021 }
 case 56:
             var2 = var3.triggering_interaction_metadata;
-case 186:
-            var1 = var2;
 case 185:
+            var1 = var2;
+case 184:
             return var1;
         }
     };
@@ -1761,10 +1761,10 @@ case 0:
             var1 = null;
             var4 = var1 == var2;
             var3 = undefined;
-            if(var4) { _fun0022_ip = 178; continue _fun0022 }
+            if(var4) { _fun0022_ip = 177; continue _fun0022 }
 case 29:
             var3 = var2.sections;
-case 178:
+case 177:
             var1 = var1 != var3;
             if(!var1) { _fun0022_ip = 131; continue _fun0022 }
 case 33:

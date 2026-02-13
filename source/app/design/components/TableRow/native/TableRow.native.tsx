@@ -80,7 +80,7 @@ case 8:
             var26 = var8;
             var8 = copyDataProperties(var27, var26);
             var12 = _closure1_slot7;
-            var9 = _closure1_slot13;
+            var9 = _closure1_slot12;
             var8 = {};
             var8['label'] = var22;
             var8['subLabel'] = var21;
@@ -352,7 +352,15 @@ case 41:
             var5[3] = var8;
             if(!var6) { _fun0002_ip = 43; continue _fun0002 }
 case 44:
-            var6 = _closure1_slot12;
+            var9 = _closure1_slot7;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var7 = 9;
+            var7 = var10[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.TableRowArrow;
+            var7 = {};
+            var6 = var9.bind(var4)(var8, var7);
 case 43:
             var5[4] = var6;
             var1['children'] = var5;
@@ -360,7 +368,7 @@ case 43:
             return var1;
         }
     };
-    var _closure1_slot13 = var2;
+    var _closure1_slot12 = var2;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -394,8 +402,8 @@ case 43:
     var5 = var6.bind(var1)(var5);
     var10 = var5.jsx;
     var _closure1_slot7 = var10;
-    var11 = var5.Fragment;
-    var _closure1_slot8 = var11;
+    var10 = var5.Fragment;
+    var _closure1_slot8 = var10;
     var5 = var5.jsxs;
     var _closure1_slot9 = var5;
     var5 = {};
@@ -403,8 +411,8 @@ case 43:
     var _closure1_slot10 = var5;
     var5 = 4;
     var5 = var7[var5];
-    var11 = var6.bind(var1)(var5);
-    var9 = var11.createStyles;
+    var10 = var6.bind(var1)(var5);
+    var9 = var10.createStyles;
     var5 = function(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -485,7 +493,7 @@ case 56:
             return var1;
         }
     };
-    var5 = var9.bind(var11)(var5);
+    var5 = var9.bind(var10)(var5);
     var _closure1_slot11 = var5;
     var5 = 8;
     var5 = var7[var5];
@@ -493,21 +501,15 @@ case 56:
     var5 = var5.TableRowIcon;
     var4['Icon'] = var5;
     var5 = 9;
-    var9 = var7[var5];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.TableRowArrow;
-    var4['Arrow'] = var9;
-    var9 = 10;
-    var9 = var7[var9];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.TableRowTrailingText;
-    var4['TrailingText'] = var9;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.TableRowArrow;
-    var5 = {};
-    var5 = var10.bind(var1)(var9, var5);
-    var _closure1_slot12 = var5;
+    var5 = var5.TableRowArrow;
+    var4['Arrow'] = var5;
+    var5 = 10;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.TableRowTrailingText;
+    var4['TrailingText'] = var5;
     var5 = 15;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

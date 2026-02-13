@@ -547,28 +547,30 @@ case 32:
     var5 = function getRenderModalBackImage(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var7 = _closure1_slot7;
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 9;
-            var4 = var5[var1];
-            var1 = undefined;
-            var6 = var6.bind(var1)(var4);
-            var4 = {};
-            var8 = arg1;
-            var4['navigation'] = var8;
-            var4 = var7.bind(var1)(var6, var4);
-            var _closure2_slot0 = var4;
+            var1 = arg1;
+            var _closure2_slot0 = var1;
             var4 = _closure1_slot0;
-            var3 = 10;
-            var3 = var5[var3];
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var3 = var3[var1];
+            var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
             if(var3) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
             var2 = function() {
-                var1 = _closure2_slot0;
+                var4 = _closure1_slot7;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 10;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['navigation'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
             return var2;
@@ -580,34 +582,36 @@ case 37:
     var5 = function getRenderModalCloseImage(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var7 = _closure1_slot7;
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 9;
-            var4 = var5[var1];
-            var1 = undefined;
-            var6 = var6.bind(var1)(var4);
-            var4 = {};
-            var8 = arg1;
-            var4['navigation'] = var8;
-            var8 = 'close';
-            var4['type'] = var8;
-            var4 = var7.bind(var1)(var6, var4);
-            var _closure2_slot0 = var4;
+            var1 = arg1;
+            var _closure2_slot0 = var1;
             var4 = _closure1_slot0;
-            var3 = 10;
-            var3 = var5[var3];
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var3 = var3[var1];
+            var1 = undefined;
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0005_ip = 39; continue _fun0005 }
-case 33:
+            if(var3) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var2 = function() {
-                var1 = _closure2_slot0;
+                var4 = _closure1_slot7;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 10;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['navigation'] = var5;
+                var5 = 'close';
+                var1['type'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
             return var2;
-case 39:
+case 37:
             return var1;
         }
     };
@@ -631,19 +635,19 @@ case 39:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var5 = arg1;
-            var8 = arg2;
-            var _closure2_slot0 = var8;
-            var3 = var8.name;
+            var1 = arg2;
+            var _closure2_slot0 = var1;
+            var4 = var1.name;
             var6 = 'none';
-            var1 = 'channel';
-            var4 = var6;
-            if(!(var1 === var3)) { _fun0006_ip = 6; continue _fun0006 }
+            var3 = 'channel';
+            var1 = var6;
+            if(!(var3 === var4)) { _fun0006_ip = 39; continue _fun0006 }
 case 40:
-            var1 = var5.getState;
-            var1 = var1.bind(var5)();
-            var7 = var1.routes;
-            var3 = var7.findIndex;
-            var1 = function(arg1) {
+            var3 = var5.getState;
+            var3 = var3.bind(var5)();
+            var7 = var3.routes;
+            var4 = var7.findIndex;
+            var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.key;
                 var1 = _closure2_slot0;
@@ -651,26 +655,19 @@ case 40:
                 var1 = var2 === var1;
                 return var1;
             };
-            var1 = var3.bind(var7)(var1);
-            var3 = null;
-            var3 = var3 != var1;
-            var4 = var6;
-            if(!var3) { _fun0006_ip = 6; continue _fun0006 }
+            var3 = var4.bind(var7)(var3);
+            var4 = null;
+            var4 = var4 != var3;
+            var1 = var6;
+            if(!var4) { _fun0006_ip = 39; continue _fun0006 }
 case 41:
-            var4 = var1;
-case 6:
-            var _closure2_slot1 = var4;
-            var7 = _closure1_slot7;
-            var6 = _closure1_slot14;
+            var1 = var3;
+case 39:
+            var _closure2_slot1 = var1;
             var1 = {};
-            var1['route'] = var8;
-            var1['screenIndex'] = var4;
-            var4 = undefined;
-            var1 = var7.bind(var4)(var6, var1);
-            var _closure2_slot2 = var1;
-            var1 = {};
-            var3 = _closure1_slot13;
-            var3 = var3.bind(var4)(var5);
+            var4 = _closure1_slot13;
+            var3 = undefined;
+            var3 = var4.bind(var3)(var5);
             var1['headerLeft'] = var3;
             var3 = function headerTitle() {
                 var4 = _closure1_slot7;
@@ -696,7 +693,15 @@ case 6:
             };
             var1['headerTitle'] = var3;
             var2 = function headerRight() {
-                var1 = _closure2_slot2;
+                var4 = _closure1_slot7;
+                var3 = _closure1_slot14;
+                var2 = {};
+                var5 = _closure2_slot0;
+                var2['route'] = var5;
+                var1 = _closure2_slot1;
+                var2['screenIndex'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var1['headerRight'] = var2;

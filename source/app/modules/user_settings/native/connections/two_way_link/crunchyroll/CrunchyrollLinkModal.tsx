@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/connections/two_way_link/crunchyroll/CrunchyrollLinkModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var9;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function CloseButton() {
         var4 = _closure1_slot6;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -76,33 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot6 = var8;
-    var4 = 8;
-    var4 = var6[var4];
-    var7 = var9.bind(var1)(var4);
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot7 = var4;
-    var4 = 9;
-    var7 = var6[var4];
-    var7 = var5.bind(var1)(var7);
-    var10 = var7.TwoWayLinkStepHeader;
-    var7 = {'idx': 1, 'total': 2};
-    var7 = var8.bind(var1)(var10, var7);
-    var _closure1_slot8 = var7;
-    var7 = 10;
-    var7 = var6[var7];
-    var9 = var9.bind(var1)(var7);
-    var7 = {};
-    var7 = var8.bind(var1)(var9, var7);
-    var _closure1_slot9 = var7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.TwoWayLinkStepHeader;
-    var4 = {'idx': 2, 'total': 2};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot10 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -129,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure2_slot0;
             var2 = function getScreens(arg1) {
                 var5 = arg1;
-                var9 = function onClose() {
+                var1 = function onClose() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -140,41 +115,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.bind(var2)();
                     return var1;
                 };
+                var _closure4_slot0 = var1;
                 var6 = function blank() {
                     var1 = null;
                     return var1;
                 };
-                var11 = _closure1_slot6;
-                var2 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var1 = 11;
-                var1 = var10[var1];
-                var8 = undefined;
-                var3 = var2.bind(var8)(var1);
-                var1 = {};
-                var1['onClose'] = var9;
-                var1 = var11.bind(var8)(var3, var1);
-                var _closure4_slot0 = var1;
-                var3 = _closure1_slot6;
-                var1 = 12;
-                var1 = var10[var1];
-                var2 = var2.bind(var8)(var1);
-                var1 = {};
-                var1['onClose'] = var9;
-                var1 = var3.bind(var8)(var2, var1);
-                var _closure4_slot1 = var1;
                 var1 = {};
                 var2 = _closure1_slot4;
                 var8 = var2.LANDING;
                 var3 = {};
                 var3['headerLeft'] = var6;
-                var7 = _closure1_slot11;
+                var7 = _closure1_slot7;
                 var3['headerRight'] = var7;
                 var3['headerTitle'] = var6;
                 var9 = var5.navHeader;
                 var3['headerStyle'] = var9;
                 var9 = function render() {
-                    var1 = _closure1_slot7;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 8;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var3['render'] = var9;
@@ -186,12 +151,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5.navHeader;
                 var3['headerStyle'] = var9;
                 var9 = function headerTitle() {
-                    var1 = _closure1_slot8;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.TwoWayLinkStepHeader;
+                    var1 = {'idx': 1, 'total': 2};
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var3['headerTitle'] = var9;
                 var9 = function render() {
-                    var1 = _closure1_slot9;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 10;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var3['render'] = var9;
@@ -203,7 +185,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5.navHeader;
                 var3['headerStyle'] = var9;
                 var9 = function headerTitle() {
-                    var1 = _closure1_slot10;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.TwoWayLinkStepHeader;
+                    var1 = {'idx': 2, 'total': 2};
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var3['headerTitle'] = var9;
@@ -214,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot6;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 11;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -234,7 +225,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5.navHeader;
                 var3['headerStyle'] = var9;
                 var9 = function render() {
-                    var1 = _closure4_slot0;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 12;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var5 = _closure4_slot0;
+                    var1['onClose'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var3['render'] = var9;
@@ -247,7 +248,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.navHeader;
                 var2['headerStyle'] = var5;
                 var4 = function render() {
-                    var1 = _closure4_slot1;
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 13;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var5 = _closure4_slot0;
+                    var1['onClose'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['render'] = var4;

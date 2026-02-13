@@ -1,12 +1,12 @@
 // app/modules/app_launcher/native/screens/application_view/activity/ActivityDetailContent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var7 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
     var1 = function Tag(arg1) {
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = function PrimaryEntryPointButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -301,7 +301,7 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = function TryItOutButton(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -475,7 +475,7 @@ case 29:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -487,11 +487,11 @@ case 29:
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var13 = 1;
-    var4 = var6[var13];
-    var4 = var14.bind(var1)(var4);
+    var12 = 1;
+    var4 = var6[var12];
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -502,13 +502,13 @@ case 29:
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot7 = var4;
-    var15 = 4;
-    var4 = var6[var15];
-    var4 = var14.bind(var1)(var4);
+    var14 = 4;
+    var4 = var6[var14];
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
@@ -518,123 +518,116 @@ case 29:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot11 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot11 = var7;
     var7 = var4.jsxs;
     var _closure1_slot12 = var7;
     var4 = var4.Fragment;
     var _closure1_slot13 = var4;
-    var11 = 8;
-    var4 = var6[var11];
-    var4 = var14.bind(var1)(var4);
+    var10 = 8;
+    var4 = var6[var10];
+    var4 = var13.bind(var1)(var4);
     var4 = var4.spacing;
-    var12 = var4.PX_12;
-    var _closure1_slot14 = var12;
+    var11 = var4.PX_12;
+    var _closure1_slot14 = var11;
     var4 = 9;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var10['flex'] = var13;
-    var4['container'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var10['backgroundColor'] = var13;
-    var13 = var6[var11];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.lg;
-    var10['borderRadius'] = var13;
-    var13 = 'hidden';
-    var10['overflow'] = var13;
-    var13 = var6[var11];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_16;
-    var10['gap'] = var13;
-    var10['paddingBottom'] = var12;
-    var4['cardContainer'] = var10;
-    var10 = {};
-    var13 = 'row';
-    var10['flexDirection'] = var13;
-    var4['activityHeroDetailsLandscape'] = var10;
-    var10 = {};
-    var13 = '65%';
-    var10['width'] = var13;
-    var4['heroMediaContainerLandscape'] = var10;
-    var10 = {};
-    var13 = '35%';
-    var10['width'] = var13;
-    var4['detailsContainerLandscape'] = var10;
-    var10 = {'marginTop': 16, 'paddingHorizontal': null, 'rowGap': 4};
-    var13 = 16;
-    var10['paddingHorizontal'] = var12;
-    var4['details'] = var10;
-    var10 = {'display': 'flex', 'flexDirection': 'row', 'flexWrap': 'wrap', 'marginTop': null, 'columnGap': 4, 'rowGap': 6};
-    var12 = var6[var11];
-    var12 = var14.bind(var1)(var12);
+    var9 = {};
+    var9['flex'] = var12;
+    var4['container'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.lg;
+    var9['borderRadius'] = var12;
+    var12 = 'hidden';
+    var9['overflow'] = var12;
+    var12 = var6[var10];
+    var12 = var13.bind(var1)(var12);
     var12 = var12.spacing;
-    var12 = var12.PX_8;
-    var10['marginTop'] = var12;
-    var4['tagList'] = var10;
-    var10 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'paddingHorizontal': 12, 'paddingVertical': 4};
-    var12 = 'center';
-    var16 = var6[var11];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.colors;
-    var16 = var16.BACKGROUND_MOD_SUBTLE;
-    var10['backgroundColor'] = var16;
-    var16 = var6[var11];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.round;
-    var10['borderRadius'] = var16;
-    var4['tag'] = var10;
-    var10 = {};
-    var16 = -1;
-    var10['top'] = var16;
-    var4['tagText'] = var10;
-    var10 = {};
-    var10['marginRight'] = var15;
-    var4['tagIcon'] = var10;
-    var10 = {};
-    var10['paddingTop'] = var13;
-    var4['buttonContainer'] = var10;
-    var10 = {};
-    var13 = -4;
-    var10['marginTop'] = var13;
-    var4['activityUrlOverrideInputContainer'] = var10;
-    var10 = {'right': 0, 'bottom': 0};
-    var4['expandDescriptionCTAStyle'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_12;
-    var10['marginTop'] = var13;
-    var13 = var6[var11];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.TEXT_MUTED;
-    var10['color'] = var13;
-    var10['textAlign'] = var12;
-    var4['primaryEntryPointButtonDisabledCTA'] = var10;
-    var10 = {};
-    var10['marginTop'] = var11;
-    var4['tryItOutButtonContainerStyle'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var12 = var12.PX_16;
+    var9['gap'] = var12;
+    var9['paddingBottom'] = var11;
+    var4['cardContainer'] = var9;
+    var9 = {};
+    var12 = 'row';
+    var9['flexDirection'] = var12;
+    var4['activityHeroDetailsLandscape'] = var9;
+    var9 = {};
+    var12 = '65%';
+    var9['width'] = var12;
+    var4['heroMediaContainerLandscape'] = var9;
+    var9 = {};
+    var12 = '35%';
+    var9['width'] = var12;
+    var4['detailsContainerLandscape'] = var9;
+    var9 = {'marginTop': 16, 'paddingHorizontal': null, 'rowGap': 4};
+    var12 = 16;
+    var9['paddingHorizontal'] = var11;
+    var4['details'] = var9;
+    var9 = {'display': 'flex', 'flexDirection': 'row', 'flexWrap': 'wrap', 'marginTop': null, 'columnGap': 4, 'rowGap': 6};
+    var11 = var6[var10];
+    var11 = var13.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_8;
+    var9['marginTop'] = var11;
+    var4['tagList'] = var9;
+    var9 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'backgroundColor': null, 'borderRadius': null, 'paddingHorizontal': 12, 'paddingVertical': 4};
+    var11 = 'center';
+    var15 = var6[var10];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_MOD_SUBTLE;
+    var9['backgroundColor'] = var15;
+    var15 = var6[var10];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.round;
+    var9['borderRadius'] = var15;
+    var4['tag'] = var9;
+    var9 = {};
+    var15 = -1;
+    var9['top'] = var15;
+    var4['tagText'] = var9;
+    var9 = {};
+    var9['marginRight'] = var14;
+    var4['tagIcon'] = var9;
+    var9 = {};
+    var9['paddingTop'] = var12;
+    var4['buttonContainer'] = var9;
+    var9 = {};
+    var12 = -4;
+    var9['marginTop'] = var12;
+    var4['activityUrlOverrideInputContainer'] = var9;
+    var9 = {'right': 0, 'bottom': 0};
+    var4['expandDescriptionCTAStyle'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_12;
+    var9['marginTop'] = var12;
+    var12 = var6[var10];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.TEXT_MUTED;
+    var9['color'] = var12;
+    var9['textAlign'] = var11;
+    var4['primaryEntryPointButtonDisabledCTA'] = var9;
+    var9 = {};
+    var9['marginTop'] = var10;
+    var4['tryItOutButtonContainerStyle'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 23;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.TableRowDivider;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot16 = var4;
     var4 = 42;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -663,23 +656,23 @@ case 0:
             var1 = var2.useRequiredAppLauncherContext;
             var1 = var1.bind(var2)();
             var33 = var1.width;
-            var1 = 24;
+            var1 = 23;
             var1 = var8[var1];
             var5 = var7.bind(var4)(var1);
             var2 = var5.useGetPrimaryAppCommand;
             var1 = var31.id;
             var18 = var2.bind(var5)(var16, var1);
             var6 = _closure1_slot1;
-            var1 = 25;
+            var1 = 24;
             var2 = var8[var1];
             var5 = var6.bind(var4)(var2);
-            var2 = 26;
+            var2 = 25;
             var2 = var8[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.APP_DETAIL;
             var2 = var5.bind(var4)(var2);
             var5 = var2.analyticsLocations;
-            var2 = 27;
+            var2 = 26;
             var2 = var8[var2];
             var6 = var7.bind(var4)(var2);
             var2 = var6.useIsScreenLandscape;
@@ -696,7 +689,7 @@ case 32:
 case 31:
             var8 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var2 = 28;
+            var2 = 27;
             var2 = var6[var2];
             var10 = var8.bind(var4)(var2);
             var9 = var10.useStateFromStoresObject;
@@ -773,12 +766,18 @@ case 43:
 case 42:
             var10['marginBottom'] = var11;
             var6['style'] = var10;
-            var11 = _closure1_slot16;
+            var15 = _closure1_slot11;
+            var32 = _closure1_slot0;
+            var20 = _closure1_slot3;
+            var10 = 28;
+            var10 = var20[var10];
+            var10 = var32.bind(var4)(var10);
+            var11 = var10.TableRowDivider;
+            var10 = {};
+            var11 = var15.bind(var4)(var11, var10);
             var10 = new Array(3);
             var10[0] = var11;
             var17 = _closure1_slot11;
-            var32 = _closure1_slot0;
-            var20 = _closure1_slot3;
             var26 = 29;
             var11 = var20[var26];
             var11 = var32.bind(var4)(var11);
@@ -807,8 +806,8 @@ case 42:
             var11 = var17.bind(var4)(var15, var11);
             var10[1] = var11;
             var11 = null;
-            if(!var12) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+            if(!var12) { _fun0006_ip = 14; continue _fun0006 }
+case 44:
             var17 = _closure1_slot11;
             var15 = _closure1_slot7;
             var12 = {};
@@ -823,10 +822,10 @@ case 45:
             var20 = {'showTopContainer': false, 'placeholder': 'e.g. http://192.168.1.1:3000'};
             var32 = var29 != var27;
             var26 = undefined;
-            if(!var32) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
-            var26 = var27;
+            if(!var32) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
+            var26 = var27;
+case 45:
             var20['value'] = var26;
             var26 = _closure1_slot2;
             var27 = _closure1_slot3;
@@ -844,7 +843,7 @@ case 46:
             var20 = var23.bind(var4)(var21, var20);
             var12['children'] = var20;
             var11 = var17.bind(var4)(var15, var12);
-case 44:
+case 14:
             var10[2] = var11;
             var6['children'] = var10;
             var22 = var9.bind(var4)(var8, var6);
@@ -859,10 +858,10 @@ case 40:
             var6 = var8.bind(var9)(var6);
             var8 = var29 == var6;
             var17 = undefined;
-            if(var8) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
-            var17 = var6.bot;
+            if(var8) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
+            var17 = var6.bot;
+case 47:
             var8 = _closure1_slot0;
             var9 = _closure1_slot3;
             var6 = 13;
@@ -898,31 +897,31 @@ case 48:
             var6['application'] = var31;
             var10 = var29 == var17;
             var9 = undefined;
-            if(var10) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
-            var9 = var17.id;
+            if(var10) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
+            var9 = var17.id;
+case 49:
             var6['botUserId'] = var9;
             var9 = var8.bind(var4)(var6);
-            if(!(var29 == var18)) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
-            if(!var2) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
-            var2 = !var3;
+            if(!(var29 == var18)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            if(!var2) { _fun0006_ip = 53; continue _fun0006 }
 case 54:
-            if(!var2) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+            var2 = !var3;
+case 53:
+            if(!var2) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
             var6 = _closure1_slot0;
             var3 = _closure1_slot3;
             var3 = var3[var7];
             var6 = var6.bind(var4)(var3);
             var3 = var6.isEmbeddedApp;
             var2 = var3.bind(var6)(var31);
-case 56:
+case 55:
             var24 = undefined;
             var23 = undefined;
-            if(!var2) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+            if(!var2) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var6 = _closure1_slot11;
             var3 = _closure1_slot7;
             var2 = {};
@@ -957,13 +956,13 @@ case 59:
             var2['children'] = var7;
             var23 = var6.bind(var4)(var3, var2);
             var24 = undefined;
-            _fun0006_ip = 58; continue _fun0006;
-case 52:
+            _fun0006_ip = 57; continue _fun0006;
+case 51:
             var6 = _closure1_slot12;
             var3 = _closure1_slot13;
             var2 = {};
             var10 = _closure1_slot11;
-            var8 = _closure1_slot18;
+            var8 = _closure1_slot17;
             var7 = {};
             var20 = var31.id;
             var7['applicationId'] = var20;
@@ -978,25 +977,25 @@ case 52:
             var7 = new Array(2);
             var7[0] = var8;
             var8 = null;
-            if(!var9) { _fun0006_ip = 60; continue _fun0006 }
-case 61:
+            if(!var9) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
             var10 = var29 == var17;
             var9 = undefined;
-            if(var10) { _fun0006_ip = 62; continue _fun0006 }
-case 63:
-            var9 = var17.id;
+            if(var10) { _fun0006_ip = 61; continue _fun0006 }
 case 62:
+            var9 = var17.id;
+case 61:
             var9 = var29 != var9;
             var8 = null;
-            if(!var9) { _fun0006_ip = 60; continue _fun0006 }
-case 64:
+            if(!var9) { _fun0006_ip = 59; continue _fun0006 }
+case 63:
             var11 = _closure1_slot11;
             var10 = _closure1_slot7;
             var9 = {};
             var13 = var40.tryItOutButtonContainerStyle;
             var9['style'] = var13;
             var15 = _closure1_slot11;
-            var14 = _closure1_slot19;
+            var14 = _closure1_slot18;
             var13 = {};
             var17 = var17.id;
             var13['botUserId'] = var17;
@@ -1007,7 +1006,7 @@ case 64:
             var13 = var15.bind(var4)(var14, var13);
             var9['children'] = var13;
             var8 = var11.bind(var4)(var10, var9);
-case 60:
+case 59:
             var7[1] = var8;
             var2['children'] = var7;
             var8 = var6.bind(var4)(var3, var2);
@@ -1019,8 +1018,8 @@ case 60:
             var7 = new Array(2);
             var7[0] = var8;
             var8 = var29 != var12;
-            if(!var8) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
+            if(!var8) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
             var11 = _closure1_slot11;
             var10 = _closure1_slot0;
             var13 = _closure1_slot3;
@@ -1035,12 +1034,12 @@ case 66:
             var9['style'] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 65:
+case 64:
             var7[1] = var8;
             var2['children'] = var7;
             var24 = var6.bind(var4)(var3, var2);
             var23 = undefined;
-case 58:
+case 57:
             var3 = _closure1_slot11;
             var6 = _closure1_slot0;
             var8 = _closure1_slot3;
@@ -1073,19 +1072,19 @@ case 58:
             var15 = _closure1_slot7;
             var14 = {};
             var17 = var25;
-            if(!var25) { _fun0006_ip = 67; continue _fun0006 }
-case 68:
-            var17 = var40.activityHeroDetailsLandscape;
+            if(!var25) { _fun0006_ip = 66; continue _fun0006 }
 case 67:
+            var17 = var40.activityHeroDetailsLandscape;
+case 66:
             var14['style'] = var17;
             var19 = _closure1_slot11;
             var18 = _closure1_slot7;
             var17 = {};
             var20 = var25;
-            if(!var25) { _fun0006_ip = 69; continue _fun0006 }
-case 70:
-            var20 = var40.heroMediaContainerLandscape;
+            if(!var25) { _fun0006_ip = 68; continue _fun0006 }
 case 69:
+            var20 = var40.heroMediaContainerLandscape;
+case 68:
             var17['style'] = var20;
             var26 = _closure1_slot11;
             var21 = _closure1_slot1;
@@ -1097,13 +1096,13 @@ case 69:
             var27 = var31.id;
             var20['applicationId'] = var27;
             var27 = var33;
-            if(!var25) { _fun0006_ip = 71; continue _fun0006 }
-case 72:
+            if(!var25) { _fun0006_ip = 70; continue _fun0006 }
+case 71:
             var32 = 65;
             var33 = var32 * var33;
             var32 = 100;
             var27 = var33 / var32;
-case 71:
+case 70:
             var20['width'] = var27;
             var20 = var26.bind(var4)(var21, var20);
             var17['children'] = var20;
@@ -1116,10 +1115,10 @@ case 71:
             var26 = var40.details;
             var21 = new Array(2);
             var21[0] = var26;
-            if(!var25) { _fun0006_ip = 73; continue _fun0006 }
-case 74:
-            var25 = var40.detailsContainerLandscape;
+            if(!var25) { _fun0006_ip = 72; continue _fun0006 }
 case 73:
+            var25 = var40.detailsContainerLandscape;
+case 72:
             var21[1] = var25;
             var18['style'] = var21;
             var26 = _closure1_slot11;
@@ -1141,7 +1140,7 @@ case 73:
             var32 = var40.tagList;
             var25['style'] = var32;
             var34 = _closure1_slot11;
-            var33 = _closure1_slot17;
+            var33 = _closure1_slot16;
             var32 = {};
             var35 = _closure1_slot0;
             var28 = 40;
@@ -1161,10 +1160,10 @@ case 73:
             var28 = var35.getItemSubtitleForMaxPlayersShort;
             var38 = var29 != var37;
             var36 = 0;
-            if(!var38) { _fun0006_ip = 75; continue _fun0006 }
-case 76:
-            var36 = var37;
+            if(!var38) { _fun0006_ip = 74; continue _fun0006 }
 case 75:
+            var36 = var37;
+case 74:
             var28 = var28.bind(var35)(var36);
             var32['tagName'] = var28;
             var28 = 'participants';
@@ -1174,13 +1173,13 @@ case 75:
             var32 = var31.tags;
             var31 = var29 == var32;
             var29 = undefined;
-            if(var31) { _fun0006_ip = 77; continue _fun0006 }
-case 78:
+            if(var31) { _fun0006_ip = 76; continue _fun0006 }
+case 77:
             var31 = var32.map;
             var30 = function(arg1) {
                 var5 = arg1;
                 var4 = _closure1_slot11;
-                var3 = _closure1_slot17;
+                var3 = _closure1_slot16;
                 var2 = {};
                 var2['tagName'] = var5;
                 var1 = undefined;
@@ -1188,7 +1187,7 @@ case 78:
                 return var1;
             };
             var29 = var31.bind(var32)(var30);
-case 77:
+case 76:
             var28[1] = var29;
             var25['children'] = var28;
             var25 = var27.bind(var4)(var26, var25);

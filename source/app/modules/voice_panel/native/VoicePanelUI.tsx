@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot68 = var1;
+    var _closure1_slot64 = var1;
     var1 = function AnimatedWrapper(arg1) {
         var1 = arg1;
         var2 = var1.wrapperOffset;
@@ -687,7 +687,7 @@ case 53:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot69 = var1;
+    var _closure1_slot65 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -696,24 +696,24 @@ case 53:
     var2['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var8)(var3, var1, var2);
-    var16 = 0;
-    var2 = var7[var16];
+    var15 = 0;
+    var2 = var7[var15];
     var1 = undefined;
     var2 = var9.bind(var1)(var2);
     var _closure1_slot3 = var2;
-    var15 = 1;
-    var5 = var7[var15];
+    var14 = 1;
+    var5 = var7[var14];
     var2 = metroImportAll;
     var8 = var2.bind(var1)(var5);
     var _closure1_slot4 = var8;
     var11 = 2;
     var2 = var7[var11];
     var2 = var6.bind(var1)(var2);
-    var18 = var2.StyleSheet;
-    var _closure1_slot5 = var18;
+    var17 = var2.StyleSheet;
+    var _closure1_slot5 = var17;
     var5 = var2.Pressable;
     var _closure1_slot6 = var5;
-    var12 = var2.ScrollView;
+    var10 = var2.ScrollView;
     var2 = 3;
     var2 = var7[var2];
     var2 = var9.bind(var1)(var2);
@@ -731,20 +731,20 @@ case 53:
     var2 = var6.bind(var1)(var2);
     var5 = var2.BORDER_RADIUS_PHYSICS;
     var _closure1_slot10 = var5;
-    var19 = var2.DEFAULT_BORDER_RADIUS;
-    var _closure1_slot11 = var19;
+    var18 = var2.DEFAULT_BORDER_RADIUS;
+    var _closure1_slot11 = var18;
     var5 = var2.DEFAULT_BORDER_RADIUS_PIP;
     var _closure1_slot12 = var5;
     var5 = var2.DRAWER_SPRING_PHYSICS;
-    var10 = var2.IS_IOS;
-    var _closure1_slot13 = var10;
-    var13 = var2.MODE_CHANGE_PHYSICS;
-    var10 = var2.VOICE_PANEL_CHUNK_DIVISOR;
-    var _closure1_slot14 = var10;
-    var10 = var2.VoicePanelModes;
-    var _closure1_slot15 = var10;
-    var14 = var2.LAYOUT_PHYSICS;
-    var _closure1_slot16 = var14;
+    var12 = var2.IS_IOS;
+    var _closure1_slot13 = var12;
+    var12 = var2.MODE_CHANGE_PHYSICS;
+    var13 = var2.VOICE_PANEL_CHUNK_DIVISOR;
+    var _closure1_slot14 = var13;
+    var13 = var2.VoicePanelModes;
+    var _closure1_slot15 = var13;
+    var13 = var2.LAYOUT_PHYSICS;
+    var _closure1_slot16 = var13;
     var2 = var2.DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE;
     var _closure1_slot17 = var2;
     var2 = 7;
@@ -765,13 +765,13 @@ case 53:
     var2 = 10;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var10 = var2.jsx;
-    var _closure1_slot21 = var10;
+    var16 = var2.jsx;
+    var _closure1_slot21 = var16;
     var2 = var2.jsxs;
     var _closure1_slot22 = var2;
     var2 = {};
-    var17 = "function layoutTransition_VoicePanelUITsx1(values){const{withSpring,LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
-    var2['code'] = var17;
+    var16 = "function layoutTransition_VoicePanelUITsx1(values){const{withSpring,LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
+    var2['code'] = var16;
     var _closure1_slot23 = var2;
     var2 = function() {
         var1 = function layoutTransition(arg1) {
@@ -842,15 +842,15 @@ case 53:
     var2 = var2.bind(var1)();
     var _closure1_slot24 = var2;
     var2 = {};
-    var23 = var2;
-    var22 = var14;
-    var14 = copyDataProperties(var23, var22);
-    var14 = 'damping';
-    var2[var14] = var16;
+    var22 = var2;
+    var21 = var13;
+    var13 = copyDataProperties(var22, var21);
+    var13 = 'damping';
+    var2[var13] = var15;
     var _closure1_slot25 = var2;
     var2 = {};
-    var17 = "function scrollViewLayoutTransition_VoicePanelUITsx2(values){const{withSpring,LAYOUT_PHYSICS,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
-    var2['code'] = var17;
+    var16 = "function scrollViewLayoutTransition_VoicePanelUITsx2(values){const{withSpring,LAYOUT_PHYSICS,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS}=this.__closure;return{animations:{originX:withSpring(values.targetOriginX,LAYOUT_PHYSICS,'animate-always'),originY:withSpring(values.targetOriginY,LAYOUT_PHYSICS,'animate-always'),width:withSpring(values.targetWidth,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always'),height:withSpring(values.targetHeight,EMBEDDED_ACTIVITY_ORIENTATION_UPDATE_SAFE_LAYOUT_PHYSICS,'animate-always')},initialValues:{originX:values.currentOriginX,originY:values.currentOriginY,width:values.currentWidth,height:values.currentHeight}};}";
+    var2['code'] = var16;
     var _closure1_slot26 = var2;
     var2 = function() {
         var1 = function scrollViewLayoutTransition(arg1) {
@@ -924,21 +924,21 @@ case 53:
     var2 = var2.bind(var1)();
     var _closure1_slot27 = var2;
     var2 = {};
-    var23 = var2;
-    var22 = var5;
-    var5 = copyDataProperties(var23, var22);
-    var17 = 0.3;
+    var22 = var2;
+    var21 = var5;
+    var5 = copyDataProperties(var22, var21);
+    var16 = 0.3;
     var5 = 'mass';
-    var2[var5] = var17;
-    var17 = 100;
-    var2[var14] = var17;
-    var14 = 'stiffness';
-    var2[var14] = var17;
+    var2[var5] = var16;
+    var16 = 100;
+    var2[var13] = var16;
+    var13 = 'stiffness';
+    var2[var13] = var16;
     var _closure1_slot28 = var2;
     var2 = {};
-    var23 = var2;
-    var22 = var13;
-    var13 = copyDataProperties(var23, var22);
+    var22 = var2;
+    var21 = var12;
+    var12 = copyDataProperties(var22, var21);
     var2[var5] = var11;
     var5 = {};
     var11 = 'function computeViewableChunksFromScrollPosition_VoicePanelUITsx3(scrollPosition,windowHeight,contentHeight,extraChunks=1){const{VOICE_PANEL_CHUNK_DIVISOR}=this.__closure;const chunkSize=Math.ceil(windowHeight/VOICE_PANEL_CHUNK_DIVISOR);let start=Math.max(Math.floor(scrollPosition/chunkSize)-extraChunks,0);const end=Math.min(start+VOICE_PANEL_CHUNK_DIVISOR+extraChunks*2,Math.ceil(contentHeight/chunkSize));start=Math.max(end-VOICE_PANEL_CHUNK_DIVISOR-extraChunks*2,0);return{start:start,end:end};}';
@@ -1009,151 +1009,151 @@ case 55:
     var _closure1_slot30 = var5;
     var5 = 12;
     var5 = var7[var5];
-    var13 = var6.bind(var1)(var5);
-    var11 = var13.createStyles;
+    var12 = var6.bind(var1)(var5);
+    var11 = var12.createStyles;
     var5 = {};
-    var14 = {};
-    var22 = var18.absoluteFillObject;
-    var23 = var14;
-    var17 = copyDataProperties(var23, var22);
-    var20 = 'hidden';
-    var17 = 'overflow';
-    var14[var17] = var20;
-    var5['accessibilityView'] = var14;
-    var14 = {};
-    var22 = var18.absoluteFillObject;
-    var23 = var14;
-    var17 = copyDataProperties(var23, var22);
-    var17 = 'zIndex';
-    var14[var17] = var15;
-    var5['wrapper'] = var14;
-    var14 = {};
-    var17 = 13;
-    var20 = var7[var17];
-    var20 = var9.bind(var1)(var20);
-    var20 = var20.colors;
-    var20 = var20.BACKGROUND_BASE_LOWER;
-    var14['backgroundColor'] = var20;
-    var5['maskDefaultBackground'] = var14;
-    var14 = {};
-    var22 = var18.absoluteFillObject;
-    var23 = var14;
-    var18 = copyDataProperties(var23, var22);
-    var18 = 'borderTopLeftRadius';
-    var14[var18] = var19;
-    var18 = 'borderTopRightRadius';
-    var14[var18] = var19;
-    var5['scrollView'] = var14;
-    var14 = {'flexGrow': 1, 'flexShrink': 0};
-    var5['scrollViewContent'] = var14;
-    var14 = {};
-    var17 = var7[var17];
-    var17 = var9.bind(var1)(var17);
-    var17 = var17.colors;
-    var17 = var17.MOBILE_BACKGROUND_SCRIM_OPAQUE;
-    var14['backgroundColor'] = var17;
-    var14['zIndex'] = var16;
-    var5['shade'] = var14;
-    var14 = {};
-    var14['flexGrow'] = var15;
-    var5['shadePressable'] = var14;
-    var5 = var11.bind(var13)(var5);
+    var13 = {};
+    var21 = var17.absoluteFillObject;
+    var22 = var13;
+    var16 = copyDataProperties(var22, var21);
+    var19 = 'hidden';
+    var16 = 'overflow';
+    var13[var16] = var19;
+    var5['accessibilityView'] = var13;
+    var13 = {};
+    var21 = var17.absoluteFillObject;
+    var22 = var13;
+    var16 = copyDataProperties(var22, var21);
+    var16 = 'zIndex';
+    var13[var16] = var14;
+    var5['wrapper'] = var13;
+    var13 = {};
+    var16 = 13;
+    var19 = var7[var16];
+    var19 = var9.bind(var1)(var19);
+    var19 = var19.colors;
+    var19 = var19.BACKGROUND_BASE_LOWER;
+    var13['backgroundColor'] = var19;
+    var5['maskDefaultBackground'] = var13;
+    var13 = {};
+    var21 = var17.absoluteFillObject;
+    var22 = var13;
+    var17 = copyDataProperties(var22, var21);
+    var17 = 'borderTopLeftRadius';
+    var13[var17] = var18;
+    var17 = 'borderTopRightRadius';
+    var13[var17] = var18;
+    var5['scrollView'] = var13;
+    var13 = {'flexGrow': 1, 'flexShrink': 0};
+    var5['scrollViewContent'] = var13;
+    var13 = {};
+    var16 = var7[var16];
+    var16 = var9.bind(var1)(var16);
+    var16 = var16.colors;
+    var16 = var16.MOBILE_BACKGROUND_SCRIM_OPAQUE;
+    var13['backgroundColor'] = var16;
+    var13['zIndex'] = var15;
+    var5['shade'] = var13;
+    var13 = {};
+    var13['flexGrow'] = var14;
+    var5['shadePressable'] = var13;
+    var5 = var11.bind(var12)(var5);
     var _closure1_slot31 = var5;
     var5 = 14;
     var5 = var7[var5];
-    var11 = var9.bind(var1)(var5);
-    var5 = var11.createAnimatedComponent;
-    var5 = var5.bind(var11)(var12);
+    var9 = var9.bind(var1)(var5);
+    var5 = var9.createAnimatedComponent;
+    var5 = var5.bind(var9)(var10);
     var _closure1_slot32 = var5;
     var5 = 15;
     var5 = var7[var5];
-    var11 = var6.bind(var1)(var5);
-    var5 = var11.isMetaQuest;
-    var5 = var5.bind(var11)();
+    var9 = var6.bind(var1)(var5);
+    var5 = var9.isMetaQuest;
+    var5 = var5.bind(var9)();
     var _closure1_slot33 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx4(){const{gestureState,connected,mode}=this.__closure;return{gestureActive:gestureState.get().active,connected:connected.get(),mode:mode.get()};}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx4(){const{gestureState,connected,mode}=this.__closure;return{gestureActive:gestureState.get().active,connected:connected.get(),mode:mode.get()};}';
+    var5['code'] = var9;
     var _closure1_slot34 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx5(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,runOnJS,setPanelFullscreen,setPanelOpen,setPanelPIP}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{gestureActive:gestureActive,connected:connected,mode:mode}=props;if(!connected||gestureActive||mode!==VoicePanelModes.PANEL){runOnJS(setPanelFullscreen)(false);}else{runOnJS(setPanelFullscreen)(true);}if(mode===VoicePanelModes.PANEL){runOnJS(setPanelOpen)(true);}else{runOnJS(setPanelOpen)(false);}if(mode===VoicePanelModes.PIP){runOnJS(setPanelPIP)(true);}else{runOnJS(setPanelPIP)(false);}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx5(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,runOnJS,setPanelFullscreen,setPanelOpen,setPanelPIP}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{gestureActive:gestureActive,connected:connected,mode:mode}=props;if(!connected||gestureActive||mode!==VoicePanelModes.PANEL){runOnJS(setPanelFullscreen)(false);}else{runOnJS(setPanelFullscreen)(true);}if(mode===VoicePanelModes.PANEL){runOnJS(setPanelOpen)(true);}else{runOnJS(setPanelOpen)(false);}if(mode===VoicePanelModes.PIP){runOnJS(setPanelPIP)(true);}else{runOnJS(setPanelPIP)(false);}}';
+    var5['code'] = var9;
     var _closure1_slot35 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx6(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx6(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
+    var5['code'] = var9;
     var _closure1_slot36 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx7(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx7(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
+    var5['code'] = var9;
     var _closure1_slot37 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx8(){const{connected,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes,runOnJS,showControls,hideControls}=this.__closure;if(!connected.get())return;if(mode.get()===VoicePanelModes.PIP){}else if(controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN){runOnJS(showControls)({debounce:true});}else{runOnJS(hideControls)({debounce:true});}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx8(){const{connected,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes,runOnJS,showControls,hideControls}=this.__closure;if(!connected.get())return;if(mode.get()===VoicePanelModes.PIP){}else if(controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN){runOnJS(showControls)({debounce:true});}else{runOnJS(hideControls)({debounce:true});}}';
+    var5['code'] = var9;
     var _closure1_slot38 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx9(){const{updateSharedValueIfChanged,gestureState}=this.__closure;updateSharedValueIfChanged(gestureState,{cancel:false,active:false});}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx9(){const{updateSharedValueIfChanged,gestureState}=this.__closure;updateSharedValueIfChanged(gestureState,{cancel:false,active:false});}';
+    var5['code'] = var9;
     var _closure1_slot39 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx10(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,MIN_DISMISS_MOVE_PERCENTAGE,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{const panelHeight=wrapperDimensions.get().drawerHeight-wrapperDimensions.get().drawerY;const dismissThreshold=panelHeight*MIN_DISMISS_MOVE_PERCENTAGE;if(wrapperOffset.get().y>dismissThreshold){updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx10(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,MIN_DISMISS_MOVE_PERCENTAGE,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{const panelHeight=wrapperDimensions.get().drawerHeight-wrapperDimensions.get().drawerY;const dismissThreshold=panelHeight*MIN_DISMISS_MOVE_PERCENTAGE;if(wrapperOffset.get().y>dismissThreshold){updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
+    var5['code'] = var9;
     var _closure1_slot40 = var5;
     var5 = {};
-    var11 = "function VoicePanelUITsx11(_e){const{lockScrolling,updateSharedValueIfChanged,gestureState,wrapperOffset}=this.__closure;lockScrolling.set(false);updateSharedValueIfChanged(gestureState,{cancel:false,active:false});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});console.log('onTouchesCancelled');}";
-    var5['code'] = var11;
+    var9 = "function VoicePanelUITsx11(_e){const{lockScrolling,updateSharedValueIfChanged,gestureState,wrapperOffset}=this.__closure;lockScrolling.set(false);updateSharedValueIfChanged(gestureState,{cancel:false,active:false});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});console.log('onTouchesCancelled');}";
+    var5['code'] = var9;
     var _closure1_slot41 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx12(event){const{gestureState,mode,VoicePanelModes,connected,lockScrolling,scrollPosition,POP_RESISTANCE,PIP_POP_HEIGHT,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,updateSharedValueIfChanged,wrapperOffset}=this.__closure;if(gestureState.get().cancel)return;if(mode.get()!==VoicePanelModes.PIP){const minYOffset=0;let newYOffset=(gestureState.get().absoluteYStart-event.absoluteY)*-1;if(connected.get()&&!gestureState.get().requiresPop&&newYOffset<=minYOffset){gestureState.set({...gestureState.get(),requiresPop:true});}if(lockScrolling.get()&&newYOffset<minYOffset){lockScrolling.set(false);}else if(!lockScrolling.get()&&scrollPosition.get()<=0){lockScrolling.set(true);}if(gestureState.get().requiresPop){const distance=Math.max(newYOffset,0);const resistance=distance*POP_RESISTANCE;if(distance<=PIP_POP_HEIGHT){newYOffset=distance-resistance;}else{gestureState.set({...gestureState.get(),requiresPop:false});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}}updateSharedValueIfChanged(wrapperOffset,{y:newYOffset,x:0});}else{updateSharedValueIfChanged(wrapperOffset,{x:(gestureState.get().absoluteXStart-event.absoluteX)*-1,y:(gestureState.get().absoluteYStart-event.absoluteY)*-1});}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx12(event){const{gestureState,mode,VoicePanelModes,connected,lockScrolling,scrollPosition,POP_RESISTANCE,PIP_POP_HEIGHT,runOnJS,triggerHapticFeedback,HapticFeedbackTypes,updateSharedValueIfChanged,wrapperOffset}=this.__closure;if(gestureState.get().cancel)return;if(mode.get()!==VoicePanelModes.PIP){const minYOffset=0;let newYOffset=(gestureState.get().absoluteYStart-event.absoluteY)*-1;if(connected.get()&&!gestureState.get().requiresPop&&newYOffset<=minYOffset){gestureState.set({...gestureState.get(),requiresPop:true});}if(lockScrolling.get()&&newYOffset<minYOffset){lockScrolling.set(false);}else if(!lockScrolling.get()&&scrollPosition.get()<=0){lockScrolling.set(true);}if(gestureState.get().requiresPop){const distance=Math.max(newYOffset,0);const resistance=distance*POP_RESISTANCE;if(distance<=PIP_POP_HEIGHT){newYOffset=distance-resistance;}else{gestureState.set({...gestureState.get(),requiresPop:false});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}}updateSharedValueIfChanged(wrapperOffset,{y:newYOffset,x:0});}else{updateSharedValueIfChanged(wrapperOffset,{x:(gestureState.get().absoluteXStart-event.absoluteX)*-1,y:(gestureState.get().absoluteYStart-event.absoluteY)*-1});}}';
+    var5['code'] = var9;
     var _closure1_slot42 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx13(event,manager){const{State,gestureState,mode,VoicePanelModes,scrollPosition,isQuest,MIN_GESTURE_MOVE,focused,runOnJS,triggerIOSHaptic,updateSharedValueIfChanged,wrapperOffset,lockScrolling}=this.__closure;if(event.state!==State.BEGAN||gestureState.get().active||gestureState.get().cancel)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=gestureState.get().absoluteYStart-absoluteY;const xDiff=gestureState.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;let startGesture=false;if(mode.get()===VoicePanelModes.PANEL){var _focused$get;const scrollPos=Math.floor(scrollPosition.get());if(yDiff<0&&scrollPos<=0){if(isQuest){startGesture=absoluteMovement>MIN_GESTURE_MOVE;}else{startGesture=true;}}else if(((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)!=null&&isNotPullDownGesture){manager.fail();}}else if(mode.get()===VoicePanelModes.PIP&&absoluteMovement>MIN_GESTURE_MOVE){startGesture=true;runOnJS(triggerIOSHaptic)();}if(startGesture){updateSharedValueIfChanged(wrapperOffset,{gestureActive:true});gestureState.set({absoluteXStart:absoluteX,absoluteYStart:absoluteY+scrollPosition.get(),cancel:false,active:true,requiresPop:gestureState.get().requiresPop});lockScrolling.set(true);manager.activate();}else{updateSharedValueIfChanged(gestureState,{absoluteYStart:absoluteY,absoluteXStart:absoluteX});}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx13(event,manager){const{State,gestureState,mode,VoicePanelModes,scrollPosition,isQuest,MIN_GESTURE_MOVE,focused,runOnJS,triggerIOSHaptic,updateSharedValueIfChanged,wrapperOffset,lockScrolling}=this.__closure;if(event.state!==State.BEGAN||gestureState.get().active||gestureState.get().cancel)return;const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=gestureState.get().absoluteYStart-absoluteY;const xDiff=gestureState.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;let startGesture=false;if(mode.get()===VoicePanelModes.PANEL){var _focused$get;const scrollPos=Math.floor(scrollPosition.get());if(yDiff<0&&scrollPos<=0){if(isQuest){startGesture=absoluteMovement>MIN_GESTURE_MOVE;}else{startGesture=true;}}else if(((_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id)!=null&&isNotPullDownGesture){manager.fail();}}else if(mode.get()===VoicePanelModes.PIP&&absoluteMovement>MIN_GESTURE_MOVE){startGesture=true;runOnJS(triggerIOSHaptic)();}if(startGesture){updateSharedValueIfChanged(wrapperOffset,{gestureActive:true});gestureState.set({absoluteXStart:absoluteX,absoluteYStart:absoluteY+scrollPosition.get(),cancel:false,active:true,requiresPop:gestureState.get().requiresPop});lockScrolling.set(true);manager.activate();}else{updateSharedValueIfChanged(gestureState,{absoluteYStart:absoluteY,absoluteXStart:absoluteX});}}';
+    var5['code'] = var9;
     var _closure1_slot43 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx14(event){const{gestureState,updateSharedValueIfChanged,wrapperOffset,connected,mode,VoicePanelModes}=this.__closure;if(gestureState.get().cancel)return;updateSharedValueIfChanged(wrapperOffset,{x:0,y:0});gestureState.set({absoluteXStart:event.absoluteX,absoluteYStart:event.absoluteY,active:false,cancel:false,requiresPop:connected.get()&&mode.get()===VoicePanelModes.PANEL});}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx14(event){const{gestureState,updateSharedValueIfChanged,wrapperOffset,connected,mode,VoicePanelModes}=this.__closure;if(gestureState.get().cancel)return;updateSharedValueIfChanged(wrapperOffset,{x:0,y:0});gestureState.set({absoluteXStart:event.absoluteX,absoluteYStart:event.absoluteY,active:false,cancel:false,requiresPop:connected.get()&&mode.get()===VoicePanelModes.PANEL});}';
+    var5['code'] = var9;
     var _closure1_slot44 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx15(event,manager){const{IS_IOS,windowDimensions,safeArea,gestureState,isFocusedVideoZoomed,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes}=this.__closure;const touch=event.allTouches[0];if(IS_IOS&&touch!=null&&touch.absoluteY>windowDimensions.get().height-safeArea.get().bottom){gestureState.set({...gestureState.get(),cancel:true});manager.activate();return;}if(isFocusedVideoZoomed.get()||mode.get()===VoicePanelModes.PANEL&&controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){gestureState.set({...gestureState.get(),cancel:true});manager.fail();}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx15(event,manager){const{IS_IOS,windowDimensions,safeArea,gestureState,isFocusedVideoZoomed,mode,VoicePanelModes,controlsSpecs,VoicePanelControlsModes}=this.__closure;const touch=event.allTouches[0];if(IS_IOS&&touch!=null&&touch.absoluteY>windowDimensions.get().height-safeArea.get().bottom){gestureState.set({...gestureState.get(),cancel:true});manager.activate();return;}if(isFocusedVideoZoomed.get()||mode.get()===VoicePanelModes.PANEL&&controlsSpecs.get().mode===VoicePanelControlsModes.DRAWER){gestureState.set({...gestureState.get(),cancel:true});manager.fail();}}';
+    var5['code'] = var9;
     var _closure1_slot45 = var5;
     var5 = {};
-    var11 = 'function onBeginDrag_VoicePanelUITsx16(event){const{scrollPosition,dragScrolling}=this.__closure;scrollPosition.set(event.contentOffset.y);dragScrolling.set(true);}';
-    var5['code'] = var11;
+    var9 = 'function onBeginDrag_VoicePanelUITsx16(event){const{scrollPosition,dragScrolling}=this.__closure;scrollPosition.set(event.contentOffset.y);dragScrolling.set(true);}';
+    var5['code'] = var9;
     var _closure1_slot46 = var5;
     var5 = {};
-    var11 = 'function onEndDrag_VoicePanelUITsx17(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
-    var5['code'] = var11;
+    var9 = 'function onEndDrag_VoicePanelUITsx17(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
+    var5['code'] = var9;
     var _closure1_slot47 = var5;
     var5 = {};
-    var11 = 'function onMomentumEnd_VoicePanelUITsx18(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
-    var5['code'] = var11;
+    var9 = 'function onMomentumEnd_VoicePanelUITsx18(){const{dragScrolling}=this.__closure;dragScrolling.set(false);}';
+    var5['code'] = var9;
     var _closure1_slot48 = var5;
     var5 = {};
-    var11 = 'function onScroll_VoicePanelUITsx19(event){const{lockScrolling,scrollPosition,scrollTo,scrollerRef,computeViewableChunksFromScrollPosition,windowDimensions,scrollableRegionSize,updateSharedValueIfChanged,viewableChunks}=this.__closure;if(lockScrolling.get()){if(scrollPosition.get()<0){scrollPosition.set(0);}const targetScrollPosition=scrollPosition.get();if(Math.abs(event.contentOffset.y-targetScrollPosition)<0.1){return;}scrollTo(scrollerRef,0,targetScrollPosition,false);}else{let newViewableChunks;if(scrollPosition.get()!==event.contentOffset.y){newViewableChunks=computeViewableChunksFromScrollPosition(scrollPosition.get(),windowDimensions.get().height,scrollableRegionSize.get());}scrollPosition.set(event.contentOffset.y);newViewableChunks!=null&&updateSharedValueIfChanged(viewableChunks,newViewableChunks);}}';
-    var5['code'] = var11;
+    var9 = 'function onScroll_VoicePanelUITsx19(event){const{lockScrolling,scrollPosition,scrollTo,scrollerRef,computeViewableChunksFromScrollPosition,windowDimensions,scrollableRegionSize,updateSharedValueIfChanged,viewableChunks}=this.__closure;if(lockScrolling.get()){if(scrollPosition.get()<0){scrollPosition.set(0);}const targetScrollPosition=scrollPosition.get();if(Math.abs(event.contentOffset.y-targetScrollPosition)<0.1){return;}scrollTo(scrollerRef,0,targetScrollPosition,false);}else{let newViewableChunks;if(scrollPosition.get()!==event.contentOffset.y){newViewableChunks=computeViewableChunksFromScrollPosition(scrollPosition.get(),windowDimensions.get().height,scrollableRegionSize.get());}scrollPosition.set(event.contentOffset.y);newViewableChunks!=null&&updateSharedValueIfChanged(viewableChunks,newViewableChunks);}}';
+    var5['code'] = var9;
     var _closure1_slot49 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx20(){const{mode}=this.__closure;return mode.get();}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx20(){const{mode}=this.__closure;return mode.get();}';
+    var5['code'] = var9;
     var _closure1_slot50 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx21(mode,previous){const{VoicePanelModes,lockScrolling}=this.__closure;if(previous==null||mode===previous)return;if(mode===VoicePanelModes.PANEL&&previous===VoicePanelModes.PIP){lockScrolling.set(false);}else if(mode===VoicePanelModes.PIP){lockScrolling.set(true);}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx21(mode,previous){const{VoicePanelModes,lockScrolling}=this.__closure;if(previous==null||mode===previous)return;if(mode===VoicePanelModes.PANEL&&previous===VoicePanelModes.PIP){lockScrolling.set(false);}else if(mode===VoicePanelModes.PIP){lockScrolling.set(true);}}';
+    var5['code'] = var9;
     var _closure1_slot51 = var5;
     var5 = {};
-    var11 = "function VoicePanelUITsx22(){const{mode,VoicePanelModes,focused,lockScrolling,calculateVoicePanelHeaderSpecs,safeArea}=this.__closure;const isPIPMode=mode.get()===VoicePanelModes.PIP;const disableScroll=isPIPMode||focused.get()!=null;return{pointerEvents:isPIPMode?'none':'auto',scrollEnabled:!disableScroll,showsVerticalScrollIndicator:lockScrolling.get()?false:!disableScroll,scrollIndicatorInsets:{top:calculateVoicePanelHeaderSpecs(safeArea.get()).height-safeArea.get().top,bottom:safeArea.get().bottom}};}";
-    var5['code'] = var11;
+    var9 = "function VoicePanelUITsx22(){const{mode,VoicePanelModes,focused,lockScrolling,calculateVoicePanelHeaderSpecs,safeArea}=this.__closure;const isPIPMode=mode.get()===VoicePanelModes.PIP;const disableScroll=isPIPMode||focused.get()!=null;return{pointerEvents:isPIPMode?'none':'auto',scrollEnabled:!disableScroll,showsVerticalScrollIndicator:lockScrolling.get()?false:!disableScroll,scrollIndicatorInsets:{top:calculateVoicePanelHeaderSpecs(safeArea.get()).height-safeArea.get().top,bottom:safeArea.get().bottom}};}";
+    var5['code'] = var9;
     var _closure1_slot52 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx23(){const{mode,VoicePanelModes,connected,gestureState,wrapperDimensions,wrapperOffset,windowDimensions}=this.__closure;switch(mode.get()){case VoicePanelModes.PIP:case VoicePanelModes.DISMISSED:return 0;default:{if(connected.get()&&gestureState.get().active&&gestureState.get().requiresPop){return 1;}const drawerTop=wrapperDimensions.get().drawerY+(wrapperOffset.get().gestureActive?wrapperOffset.get().y:0);const screenSize=windowDimensions.get().height;const percentage=(screenSize-drawerTop)/screenSize;return Math.min(Math.max(percentage,0),1);}}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx23(){const{mode,VoicePanelModes,connected,gestureState,wrapperDimensions,wrapperOffset,windowDimensions}=this.__closure;switch(mode.get()){case VoicePanelModes.PIP:case VoicePanelModes.DISMISSED:return 0;default:{if(connected.get()&&gestureState.get().active&&gestureState.get().requiresPop){return 1;}const drawerTop=wrapperDimensions.get().drawerY+(wrapperOffset.get().gestureActive?wrapperOffset.get().y:0);const screenSize=windowDimensions.get().height;const percentage=(screenSize-drawerTop)/screenSize;return Math.min(Math.max(percentage,0),1);}}}';
+    var5['code'] = var9;
     var _closure1_slot53 = var5;
     var5 = {};
-    var11 = 'function computeBorderRadii_VoicePanelUITsx24({mode:mode,connected:connected}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return!connected?DEFAULT_BORDER_RADIUS:0;}';
-    var5['code'] = var11;
+    var9 = 'function computeBorderRadii_VoicePanelUITsx24({mode:mode,connected:connected}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return!connected?DEFAULT_BORDER_RADIUS:0;}';
+    var5['code'] = var9;
     var _closure1_slot54 = var5;
     var5 = function() {
         var1 = function computeBorderRadii(arg1) {
@@ -1195,32 +1195,32 @@ case 60:
     var5 = var5.bind(var1)();
     var _closure1_slot55 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx25(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().height;}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx25(){const{controlsSpecs}=this.__closure;return controlsSpecs.get().height;}';
+    var5['code'] = var9;
     var _closure1_slot56 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx26(){const{mode,connected,windowDimensions,safeArea,focused,pipState,controlsHeight,preJoinContentSize}=this.__closure;return{modeToSet:mode.get(),connected:connected.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,safeArea:safeArea.get(),focused:focused.get(),pipState:pipState,controlsHeight:controlsHeight.get(),preJoinContentSize:preJoinContentSize.get()};}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx26(){const{mode,connected,windowDimensions,safeArea,focused,pipState,controlsHeight,preJoinContentSize}=this.__closure;return{modeToSet:mode.get(),connected:connected.get(),windowWidth:windowDimensions.get().width,windowHeight:windowDimensions.get().height,safeArea:safeArea.get(),focused:focused.get(),pipState:pipState,controlsHeight:controlsHeight.get(),preJoinContentSize:preJoinContentSize.get()};}';
+    var5['code'] = var9;
     var _closure1_slot57 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx27(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,wrapperDimensions,updateSharedValueIfChanged,wrapperOffset,getMaxPanelWidth,getPanelX,roundToNearestPixel,windowDimensions}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{modeToSet:modeToSet,connected:connected,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea,pipState:pipState,controlsHeight:controlsHeight,preJoinContentSize:preJoinContentSize}=props;if(modeToSet===VoicePanelModes.PIP&&pipState.id==null){return;}const animated=previous!=null?windowHeight===previous.windowHeight&&windowWidth===previous.windowWidth&&safeArea.top===previous.safeArea.top&&safeArea.bottom===previous.safeArea.bottom&&safeArea.left===previous.safeArea.left&&safeArea.right===previous.safeArea.right:true;let{drawerX:drawerX,drawerY:drawerY}=wrapperDimensions.get();if(modeToSet===VoicePanelModes.PANEL){if(connected){drawerX=0;drawerY=0;updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:windowWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else{const drawerWidth=getMaxPanelWidth({windowWidth:windowWidth,connected:connected,safeAreaLeft:safeArea.left,safeAreaRight:safeArea.right});drawerX=getPanelX(windowWidth,drawerWidth);drawerY=connected?0:roundToNearestPixel(Math.max(windowHeight-preJoinContentSize-controlsHeight-safeArea.bottom,windowDimensions.get().height-0.8*windowDimensions.get().height));updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:drawerWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});}}else if(modeToSet===VoicePanelModes.DISMISSED){if(connected){updateSharedValueIfChanged(wrapperDimensions,{mode:modeToSet});}else{updateSharedValueIfChanged(wrapperDimensions,{drawerY:windowDimensions.get().height+60,mode:modeToSet});}}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx27(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,wrapperDimensions,updateSharedValueIfChanged,wrapperOffset,getMaxPanelWidth,getPanelX,roundToNearestPixel,windowDimensions}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{modeToSet:modeToSet,connected:connected,windowWidth:windowWidth,windowHeight:windowHeight,safeArea:safeArea,pipState:pipState,controlsHeight:controlsHeight,preJoinContentSize:preJoinContentSize}=props;if(modeToSet===VoicePanelModes.PIP&&pipState.id==null){return;}const animated=previous!=null?windowHeight===previous.windowHeight&&windowWidth===previous.windowWidth&&safeArea.top===previous.safeArea.top&&safeArea.bottom===previous.safeArea.bottom&&safeArea.left===previous.safeArea.left&&safeArea.right===previous.safeArea.right:true;let{drawerX:drawerX,drawerY:drawerY}=wrapperDimensions.get();if(modeToSet===VoicePanelModes.PANEL){if(connected){drawerX=0;drawerY=0;updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:windowWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else{const drawerWidth=getMaxPanelWidth({windowWidth:windowWidth,connected:connected,safeAreaLeft:safeArea.left,safeAreaRight:safeArea.right});drawerX=getPanelX(windowWidth,drawerWidth);drawerY=connected?0:roundToNearestPixel(Math.max(windowHeight-preJoinContentSize-controlsHeight-safeArea.bottom,windowDimensions.get().height-0.8*windowDimensions.get().height));updateSharedValueIfChanged(wrapperDimensions,{drawerWidth:drawerWidth,drawerHeight:windowHeight,drawerX:drawerX,drawerY:drawerY,animated:animated,mode:modeToSet});}}else if(modeToSet===VoicePanelModes.DISMISSED){if(connected){updateSharedValueIfChanged(wrapperDimensions,{mode:modeToSet});}else{updateSharedValueIfChanged(wrapperDimensions,{drawerY:windowDimensions.get().height+60,mode:modeToSet});}}}';
+    var5['code'] = var9;
     var _closure1_slot58 = var5;
     var5 = {};
-    var11 = "function VoicePanelUITsx28(){const{useReducedMotion,wrapperDimensions,wrapperOffset,connected,mode,VoicePanelModes,runOnJS,updateSourceTrackingView,computeBorderRadii,withSpring,DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE,DRAWER_SIZE_PHYSICS,BORDER_RADIUS_PHYSICS,styles}=this.__closure;const animateXY=!useReducedMotion.get()&&wrapperDimensions.get().animated||wrapperOffset.get().gestureActive;let{gestureActive:gestureActive}=wrapperOffset.get();let{drawerY:y,drawerX:x}=wrapperDimensions.get();gestureActive=gestureActive&&!connected.get();if(gestureActive){y+=Math.max(gestureActive?wrapperOffset.get().y:0,0);x+=wrapperOffset.get().x;}const updateSourceTrackingViewHelper=function(finished){if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}};const borderRadius=computeBorderRadii({mode:mode.get(),connected:connected.get()});return{transform:[{translateX:withSpring(x,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)},{translateY:withSpring(y,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)}],width:wrapperDimensions.get().drawerWidth,height:wrapperDimensions.get().drawerHeight,borderRadius:withSpring(borderRadius,BORDER_RADIUS_PHYSICS),pointerEvents:mode.get()===VoicePanelModes.PANEL?'auto':'none',backgroundColor:connected.get()?'transparent':styles.maskDefaultBackground.backgroundColor};}";
-    var5['code'] = var11;
+    var9 = "function VoicePanelUITsx28(){const{useReducedMotion,wrapperDimensions,wrapperOffset,connected,mode,VoicePanelModes,runOnJS,updateSourceTrackingView,computeBorderRadii,withSpring,DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE,DRAWER_SIZE_PHYSICS,BORDER_RADIUS_PHYSICS,styles}=this.__closure;const animateXY=!useReducedMotion.get()&&wrapperDimensions.get().animated||wrapperOffset.get().gestureActive;let{gestureActive:gestureActive}=wrapperOffset.get();let{drawerY:y,drawerX:x}=wrapperDimensions.get();gestureActive=gestureActive&&!connected.get();if(gestureActive){y+=Math.max(gestureActive?wrapperOffset.get().y:0,0);x+=wrapperOffset.get().x;}const updateSourceTrackingViewHelper=function(finished){if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}};const borderRadius=computeBorderRadii({mode:mode.get(),connected:connected.get()});return{transform:[{translateX:withSpring(x,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)},{translateY:withSpring(y,wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:DRAWER_SIZE_PHYSICS,animateXY?'animate-always':'animate-never',updateSourceTrackingViewHelper)}],width:wrapperDimensions.get().drawerWidth,height:wrapperDimensions.get().drawerHeight,borderRadius:withSpring(borderRadius,BORDER_RADIUS_PHYSICS),pointerEvents:mode.get()===VoicePanelModes.PANEL?'auto':'none',backgroundColor:connected.get()?'transparent':styles.maskDefaultBackground.backgroundColor};}";
+    var5['code'] = var9;
     var _closure1_slot59 = var5;
     var5 = {};
-    var11 = 'function VoicePanelUITsx29(finished){const{mode,VoicePanelModes,runOnJS,updateSourceTrackingView}=this.__closure;if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}}';
-    var5['code'] = var11;
+    var9 = 'function VoicePanelUITsx29(finished){const{mode,VoicePanelModes,runOnJS,updateSourceTrackingView}=this.__closure;if(finished&&mode.get()!==VoicePanelModes.DISMISSED){runOnJS(updateSourceTrackingView)();}}';
+    var5['code'] = var9;
     var _closure1_slot60 = var5;
     var5 = {'mass': 0.6, 'damping': 30, 'stiffness': 400, 'overshootClamping': true};
     var _closure1_slot61 = var5;
     var5 = {};
-    var11 = "function VoicePanelUITsx30(){const{withSpring,opacity,DrawerShadeOpacityPhysics,accessibilityPreferencesSharedValue}=this.__closure;return{opacity:withSpring(opacity.get(),DrawerShadeOpacityPhysics),display:accessibilityPreferencesSharedValue.get().screenReaderEnabled&&opacity.get()===0?'none':'flex',pointerEvents:opacity.get()===0?'none':'auto'};}";
-    var5['code'] = var11;
+    var9 = "function VoicePanelUITsx30(){const{withSpring,opacity,DrawerShadeOpacityPhysics,accessibilityPreferencesSharedValue}=this.__closure;return{opacity:withSpring(opacity.get(),DrawerShadeOpacityPhysics),display:accessibilityPreferencesSharedValue.get().screenReaderEnabled&&opacity.get()===0?'none':'flex',pointerEvents:opacity.get()===0?'none':'auto'};}";
+    var5['code'] = var9;
     var _closure1_slot62 = var5;
-    var11 = var8.memo;
+    var9 = var8.memo;
     var5 = function(arg1) {
         var1 = arg1;
         var11 = var1.opacity;
@@ -1331,32 +1331,8 @@ case 64:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var5 = var11.bind(var8)(var5);
+    var5 = var9.bind(var8)(var5);
     var _closure1_slot63 = var5;
-    var5 = 31;
-    var5 = var7[var5];
-    var11 = var9.bind(var1)(var5);
-    var5 = {};
-    var5 = var10.bind(var1)(var11, var5);
-    var _closure1_slot64 = var5;
-    var5 = 32;
-    var5 = var7[var5];
-    var11 = var9.bind(var1)(var5);
-    var5 = {};
-    var5 = var10.bind(var1)(var11, var5);
-    var _closure1_slot65 = var5;
-    var5 = 33;
-    var5 = var7[var5];
-    var11 = var9.bind(var1)(var5);
-    var5 = {};
-    var5 = var10.bind(var1)(var11, var5);
-    var _closure1_slot66 = var5;
-    var5 = 34;
-    var5 = var7[var5];
-    var9 = var9.bind(var1)(var5);
-    var5 = {};
-    var5 = var10.bind(var1)(var9, var5);
-    var _closure1_slot67 = var5;
     var5 = var8.memo;
     var4 = function VoicePanelUI() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -1366,10 +1342,10 @@ case 0:
             var31 = var2.bind(var5)();
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 35;
+            var2 = 31;
             var3 = var8[var2];
             var4 = var7.bind(var5)(var3);
-            var3 = 36;
+            var3 = 32;
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.VOICE_PANEL;
@@ -1383,9 +1359,9 @@ case 0:
             var3 = var4.bind(var9)(var3);
             var11 = var3.scrollPosition;
             var10 = var3.dragScrolling;
-            var16 = var3.channelId;
-            var _closure2_slot0 = var16;
-            var14 = var3.dismissPanel;
+            var17 = var3.channelId;
+            var _closure2_slot0 = var17;
+            var15 = var3.dismissPanel;
             var4 = _closure1_slot4;
             var3 = var4.useState;
             var28 = false;
@@ -1403,10 +1379,10 @@ case 0:
             var4 = -1;
             var4 = var9.bind(var12)(var4);
             var _closure2_slot2 = var4;
-            var15 = _closure1_slot4;
-            var12 = var15.useCallback;
+            var14 = _closure1_slot4;
+            var12 = var14.useCallback;
             var9 = new Array(1);
-            var9[0] = var16;
+            var9[0] = var17;
             var4 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -1418,7 +1394,7 @@ case 0:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 37;
+                var3 = 33;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.batchUpdates;
@@ -1489,9 +1465,9 @@ case 68:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var4 = var12.bind(var15)(var4, var9);
-            var17 = _closure1_slot4;
-            var15 = var17.useLayoutEffect;
+            var4 = var12.bind(var14)(var4, var9);
+            var16 = _closure1_slot4;
+            var14 = var16.useLayoutEffect;
             var12 = function() {
                 var1 = function() {
                     var1 = global;
@@ -1505,7 +1481,7 @@ case 68:
                 return var1;
             };
             var9 = new Array(0);
-            var9 = var15.bind(var17)(var12, var9);
+            var9 = var14.bind(var16)(var12, var9);
             var9 = {};
             var9['scrollPosition'] = var11;
             var9['dragScrolling'] = var10;
@@ -1513,7 +1489,7 @@ case 68:
             var12 = _closure1_slot4;
             var11 = var12.useCallback;
             var10 = new Array(1);
-            var10[0] = var16;
+            var10[0] = var17;
             var4 = function(arg1) {
                 var2 = _closure1_slot9;
                 var1 = var2.getState;
@@ -1530,7 +1506,7 @@ case 68:
             var12 = _closure1_slot4;
             var11 = var12.useCallback;
             var10 = new Array(1);
-            var10[0] = var16;
+            var10[0] = var17;
             var4 = function(arg1) {
                 var2 = _closure1_slot9;
                 var1 = var2.getState;
@@ -2770,18 +2746,18 @@ case 57:
                             var4 = var2.bind(var3)();
                             var3 = _closure1_slot15;
                             var3 = var3.PIP;
-                            if(!(var4 !== var3)) { _fun0018_ip = 136; continue _fun0018 }
-case 137:
+                            if(!(var4 !== var3)) { _fun0018_ip = 131; continue _fun0018 }
+case 136:
                             var4 = _closure3_slot13;
                             var3 = var4.get;
                             var4 = var3.bind(var4)();
                             var3 = _closure1_slot15;
                             var3 = var3.PANEL;
                             if(!(var4 === var3)) { _fun0018_ip = 135; continue _fun0018 }
-case 138:
+case 137:
                             var3 = 0;
-                            if(!(!(var10 > var3))) { _fun0018_ip = 139; continue _fun0018 }
-case 140:
+                            if(!(!(var10 > var3))) { _fun0018_ip = 138; continue _fun0018 }
+case 139:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var3 = 20;
@@ -2796,12 +2772,12 @@ case 140:
                             var3 = var4.set;
                             var3 = var3.bind(var4)(var5);
                             _fun0018_ip = 135; continue _fun0018;
-case 139:
+case 138:
                             var4 = _closure3_slot6;
                             var3 = var4.get;
                             var3 = var3.bind(var4)();
-                            if(var3) { _fun0018_ip = 141; continue _fun0018 }
-case 142:
+                            if(var3) { _fun0018_ip = 140; continue _fun0018 }
+case 141:
                             var5 = _closure3_slot18;
                             var3 = var5.get;
                             var3 = var3.bind(var5)();
@@ -2816,8 +2792,8 @@ case 142:
                             var4 = var3.y;
                             var3 = 0.2;
                             var3 = var3 * var5;
-                            if(!(!(var4 > var3))) { _fun0018_ip = 143; continue _fun0018 }
-case 144:
+                            if(!(!(var4 > var3))) { _fun0018_ip = 142; continue _fun0018 }
+case 143:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var3 = 20;
@@ -2832,7 +2808,7 @@ case 144:
                             var3 = var4.set;
                             var3 = var3.bind(var4)(var5);
                             _fun0018_ip = 135; continue _fun0018;
-case 143:
+case 142:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 20;
@@ -2853,13 +2829,13 @@ case 143:
                             var3 = var5.bind(var6)(var3);
                             var3 = var3.bind(var4)();
                             _fun0018_ip = 135; continue _fun0018;
-case 141:
+case 140:
                             var4 = _closure3_slot28;
                             var3 = var4.get;
                             var3 = var3.bind(var4)();
                             var3 = var3.requiresPop;
-                            if(var3) { _fun0018_ip = 145; continue _fun0018 }
-case 146:
+                            if(var3) { _fun0018_ip = 117; continue _fun0018 }
+case 49:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var3 = 14;
@@ -2880,7 +2856,7 @@ case 146:
                             var3 = {'gestureActive': false, 'x': 0, 'y': 0};
                             var3 = var5.bind(var6)(var4, var3);
                             _fun0018_ip = 135; continue _fun0018;
-case 145:
+case 117:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var3 = 20;
@@ -2895,7 +2871,7 @@ case 145:
                             var3 = var4.set;
                             var3 = var3.bind(var4)(var5);
                             _fun0018_ip = 135; continue _fun0018;
-case 136:
+case 131:
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var3 = 23;
@@ -3073,13 +3049,13 @@ case 0:
                         var5 = _closure3_slot0;
                         var3 = var5.get;
                         var3 = var3.bind(var5)();
-                        if(var4) { _fun0019_ip = 147; continue _fun0019 }
-case 148:
+                        if(var4) { _fun0019_ip = 138; continue _fun0019 }
+case 144:
                         var4 = var2.contentOffset;
                         var4 = var4.y;
                         var7 = undefined;
                         var6 = undefined;
-                        if(!(var3 !== var4)) { _fun0019_ip = 149; continue _fun0019 }
+                        if(!(var3 !== var4)) { _fun0019_ip = 145; continue _fun0019 }
 case 84:
                         var9 = _closure1_slot30;
                         var5 = _closure3_slot0;
@@ -3093,15 +3069,15 @@ case 84:
                         var4 = var10.get;
                         var4 = var4.bind(var10)();
                         var6 = var9.bind(var7)(var8, var5, var4);
-case 149:
+case 145:
                         var8 = _closure3_slot0;
                         var5 = var8.set;
                         var4 = var2.contentOffset;
                         var4 = var4.y;
                         var4 = var5.bind(var8)(var4);
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0019_ip = 150; continue _fun0019 }
-case 151:
+                        if(!(var4 != var6)) { _fun0019_ip = 146; continue _fun0019 }
+case 147:
                         var5 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var4 = 20;
@@ -3109,15 +3085,15 @@ case 151:
                         var5 = var5.bind(var7)(var4);
                         var4 = _closure3_slot23;
                         var4 = var5.bind(var7)(var4, var6);
-                        _fun0019_ip = 150; continue _fun0019;
-case 147:
+                        _fun0019_ip = 146; continue _fun0019;
+case 138:
                         var6 = 0;
-                        if(!(var3 < var6)) { _fun0019_ip = 152; continue _fun0019 }
+                        if(!(var3 < var6)) { _fun0019_ip = 148; continue _fun0019 }
 case 15:
                         var4 = _closure3_slot0;
                         var3 = var4.set;
                         var3 = var3.bind(var4)(var6);
-case 152:
+case 148:
                         var4 = _closure3_slot0;
                         var3 = var4.get;
                         var5 = var3.bind(var4)();
@@ -3144,7 +3120,7 @@ case 102:
                         var13 = 0;
                         var12 = var5;
                         var1 = var15[var3](var14, var13, var12, var11, var10);
-case 150:
+case 146:
                         var1 = undefined;
                         return var1;
 case 22:
@@ -3199,35 +3175,35 @@ case 0:
                         var4 = arg2;
                         var1 = null;
                         var1 = var1 != var4;
-                        if(!var1) { _fun0020_ip = 153; continue _fun0020 }
-case 154:
+                        if(!var1) { _fun0020_ip = 149; continue _fun0020 }
+case 150:
                         var1 = var2 !== var4;
-case 153:
-                        if(!var1) { _fun0020_ip = 155; continue _fun0020 }
+case 149:
+                        if(!var1) { _fun0020_ip = 151; continue _fun0020 }
 case 30:
                         var3 = _closure1_slot15;
                         var3 = var3.PANEL;
-                        if(!(var2 === var3)) { _fun0020_ip = 156; continue _fun0020 }
+                        if(!(var2 === var3)) { _fun0020_ip = 152; continue _fun0020 }
 case 38:
                         var3 = _closure1_slot15;
                         var3 = var3.PIP;
-                        if(!(var4 !== var3)) { _fun0020_ip = 137; continue _fun0020 }
-case 156:
+                        if(!(var4 !== var3)) { _fun0020_ip = 136; continue _fun0020 }
+case 152:
                         var1 = _closure1_slot15;
                         var1 = var1.PIP;
-                        if(!(var2 === var1)) { _fun0020_ip = 155; continue _fun0020 }
+                        if(!(var2 === var1)) { _fun0020_ip = 151; continue _fun0020 }
 case 80:
                         var3 = _closure3_slot22;
                         var2 = var3.set;
                         var1 = true;
                         var1 = var2.bind(var3)(var1);
-                        _fun0020_ip = 155; continue _fun0020;
-case 137:
+                        _fun0020_ip = 151; continue _fun0020;
+case 136:
                         var3 = _closure3_slot22;
                         var2 = var3.set;
                         var1 = false;
                         var1 = var2.bind(var3)(var1);
-case 155:
+case 151:
                         var1 = undefined;
                         return var1;
                     }
@@ -3255,20 +3231,20 @@ case 0:
                         var1 = var1.PIP;
                         var6 = var2 === var1;
                         var2 = var6;
-                        if(var2) { _fun0021_ip = 157; continue _fun0021 }
+                        if(var2) { _fun0021_ip = 153; continue _fun0021 }
 case 38:
                         var5 = _closure3_slot10;
                         var1 = var5.get;
                         var5 = var1.bind(var5)();
                         var1 = null;
                         var2 = var1 != var5;
-case 157:
+case 153:
                         var1 = {};
                         var5 = 'auto';
-                        if(!var6) { _fun0021_ip = 158; continue _fun0021 }
+                        if(!var6) { _fun0021_ip = 154; continue _fun0021 }
 case 80:
                         var5 = 'none';
-case 158:
+case 154:
                         var1['pointerEvents'] = var5;
                         var5 = !var2;
                         var1['scrollEnabled'] = var5;
@@ -3276,10 +3252,10 @@ case 158:
                         var2 = var6.get;
                         var2 = var2.bind(var6)();
                         var2 = !var2;
-                        if(!var2) { _fun0021_ip = 159; continue _fun0021 }
+                        if(!var2) { _fun0021_ip = 155; continue _fun0021 }
 case 40:
                         var2 = var5;
-case 159:
+case 155:
                         var1['showsVerticalScrollIndicator'] = var2;
                         var2 = {};
                         var5 = _closure1_slot1;
@@ -3347,29 +3323,29 @@ case 0:
                         var3 = var1.bind(var3)();
                         var4 = _closure1_slot15;
                         var4 = var4.PIP;
-                        if(!(var4 !== var3)) { _fun0022_ip = 160; continue _fun0022 }
+                        if(!(var4 !== var3)) { _fun0022_ip = 156; continue _fun0022 }
 case 59:
                         var1 = _closure1_slot15;
                         var1 = var1.DISMISSED;
-                        if(!(var1 !== var3)) { _fun0022_ip = 160; continue _fun0022 }
-case 156:
+                        if(!(var1 !== var3)) { _fun0022_ip = 156; continue _fun0022 }
+case 152:
                         var3 = _closure3_slot6;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
-                        if(!var1) { _fun0022_ip = 161; continue _fun0022 }
-case 162:
+                        if(!var1) { _fun0022_ip = 157; continue _fun0022 }
+case 158:
                         var3 = _closure3_slot28;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
                         var1 = var1.active;
-                        if(!var1) { _fun0022_ip = 161; continue _fun0022 }
-case 163:
+                        if(!var1) { _fun0022_ip = 157; continue _fun0022 }
+case 159:
                         var3 = _closure3_slot28;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
                         var1 = var1.requiresPop;
                         if(var1) { _fun0022_ip = 74; continue _fun0022 }
-case 161:
+case 157:
                         var3 = _closure3_slot18;
                         var1 = var3.get;
                         var1 = var1.bind(var3)();
@@ -3380,13 +3356,13 @@ case 161:
                         var4 = var1.gestureActive;
                         var6 = 0;
                         var1 = 0;
-                        if(!var4) { _fun0022_ip = 164; continue _fun0022 }
-case 165:
+                        if(!var4) { _fun0022_ip = 160; continue _fun0022 }
+case 161:
                         var5 = _closure3_slot19;
                         var4 = var5.get;
                         var4 = var4.bind(var5)();
                         var1 = var4.y;
-case 164:
+case 160:
                         var1 = var3 + var1;
                         var3 = _closure3_slot17;
                         var2 = var3.get;
@@ -3406,7 +3382,7 @@ case 164:
 case 74:
                         var1 = 1;
                         return var1;
-case 160:
+case 156:
                         var1 = 0;
                         return var1;
                     }
@@ -3442,7 +3418,7 @@ case 160:
             };
             var4 = var4.bind(var5)(var9);
             var23 = var4.gesture;
-            var17 = var4.gestureState;
+            var19 = var4.gestureState;
             var35 = var4.handleScroll;
             var32 = var4.onContentSizeChange;
             var33 = var4.scrollViewProps;
@@ -3450,8 +3426,8 @@ case 160:
             var29 = var4.scrollNativeGesture;
             var34 = var4.viewableChunks;
             var26 = var4.wrapperOffset;
-            var15 = var4.opacity;
-            var4 = 38;
+            var20 = var4.opacity;
+            var4 = 34;
             var4 = var8[var4];
             var4 = var7.bind(var5)(var4);
             var4 = var4.bind(var5)();
@@ -3480,90 +3456,100 @@ case 160:
             var1 = new Array(0);
             var1 = var7.bind(var8)(var4, var1);
             var1 = null;
-            if(!var3) { _fun0007_ip = 166; continue _fun0007 }
-case 167:
+            if(!var3) { _fun0007_ip = 162; continue _fun0007 }
+case 163:
             var4 = _closure1_slot21;
             var27 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var2 = var18[var2];
+            var16 = _closure1_slot2;
+            var2 = var16[var2];
             var2 = var27.bind(var5)(var2);
             var3 = var2.AnalyticsLocationProvider;
             var2 = {};
             var2['value'] = var6;
             var8 = _closure1_slot22;
-            var19 = 39;
-            var6 = var18[var19];
+            var18 = 35;
+            var6 = var16[var18];
             var6 = var27.bind(var5)(var6);
             var7 = var6.LayerScope;
             var6 = {};
-            var10 = _closure1_slot64;
+            var11 = _closure1_slot21;
+            var14 = _closure1_slot1;
+            var9 = 36;
+            var9 = var16[var9];
+            var10 = var14.bind(var5)(var9);
+            var9 = {};
+            var10 = var11.bind(var5)(var10, var9);
             var9 = new Array(3);
             var9[0] = var10;
             var12 = _closure1_slot21;
             var11 = _closure1_slot63;
             var10 = {};
-            var10['opacity'] = var15;
-            var10['onPress'] = var14;
+            var10['opacity'] = var20;
+            var10['onPress'] = var15;
             var10 = var12.bind(var5)(var11, var10);
             var9[1] = var10;
-            var15 = _closure1_slot1;
-            var10 = 40;
-            var10 = var18[var10];
-            var11 = var15.bind(var5)(var10);
+            var10 = 37;
+            var10 = var16[var10];
+            var11 = var14.bind(var5)(var10);
             var10 = {};
             var12 = var31.accessibilityView;
             var10['style'] = var12;
             var12 = global;
             var12 = var12.HermesInternal;
-            var14 = var12.concat;
+            var15 = var12.concat;
             var12 = 'voice-panel-ui-';
-            var12 = var14.bind(var12)(var16);
+            var12 = var15.bind(var12)(var17);
             var10['nativeID'] = var12;
             var12 = true;
             var10['accessibilityViewIsModal'] = var12;
             var12 = _closure1_slot24;
             var10['layout'] = var12;
-            var12 = 41;
-            var12 = var18[var12];
-            var12 = var15.bind(var5)(var12);
+            var12 = 38;
+            var12 = var16[var12];
+            var12 = var14.bind(var5)(var12);
             var10['onAccessibilityEscape'] = var12;
-            var14 = _closure1_slot65;
+            var17 = _closure1_slot21;
+            var12 = 39;
+            var12 = var16[var12];
+            var15 = var14.bind(var5)(var12);
+            var12 = {};
+            var15 = var17.bind(var5)(var15, var12);
             var12 = new Array(4);
-            var12[0] = var14;
-            var16 = _closure1_slot69;
-            var14 = {};
-            var14['wrapperOffset'] = var26;
+            var12[0] = var15;
+            var17 = _closure1_slot65;
+            var15 = {};
+            var15['wrapperOffset'] = var26;
             var21 = _closure1_slot21;
-            var19 = var18[var19];
-            var19 = var27.bind(var5)(var19);
-            var20 = var19.LayerScope;
-            var19 = {};
-            var19['zIndex'] = var22;
+            var18 = var16[var18];
+            var18 = var27.bind(var5)(var18);
+            var20 = var18.LayerScope;
+            var18 = {};
+            var18['zIndex'] = var22;
             var25 = _closure1_slot21;
-            var22 = 42;
-            var22 = var18[var22];
-            var24 = var15.bind(var5)(var22);
+            var22 = 40;
+            var22 = var16[var22];
+            var24 = var14.bind(var5)(var22);
             var22 = {};
             var22['wrapperOffset'] = var26;
-            var22['gestureState'] = var17;
+            var22['gestureState'] = var19;
             var26 = _closure1_slot24;
             var22['layout'] = var26;
             var22 = var25.bind(var5)(var24, var22);
-            var19['children'] = var22;
-            var20 = var21.bind(var5)(var20, var19);
-            var19 = new Array(2);
-            var19[0] = var20;
+            var18['children'] = var22;
+            var20 = var21.bind(var5)(var20, var18);
+            var18 = new Array(2);
+            var18[0] = var20;
             var22 = _closure1_slot21;
             var26 = 18;
-            var20 = var18[var26];
+            var20 = var16[var26];
             var20 = var27.bind(var5)(var20);
             var21 = var20.GestureDetector;
             var20 = {};
             var20['gesture'] = var23;
             var25 = _closure1_slot21;
             var23 = 29;
-            var23 = var18[var23];
-            var24 = var15.bind(var5)(var23);
+            var23 = var16[var23];
+            var24 = var14.bind(var5)(var23);
             var23 = {};
             var30 = _closure1_slot5;
             var30 = var30.absoluteFill;
@@ -3572,7 +3558,7 @@ case 167:
             var23['layout'] = var30;
             var23['collapsable'] = var28;
             var28 = _closure1_slot21;
-            var26 = var18[var26];
+            var26 = var16[var26];
             var26 = var27.bind(var5)(var26);
             var27 = var26.GestureDetector;
             var26 = {};
@@ -3583,7 +3569,7 @@ case 167:
             var29['layout'] = var37;
             var29['ref'] = var36;
             var29['onScroll'] = var35;
-            var35 = _closure1_slot68;
+            var35 = _closure1_slot64;
             var29['onMomentumScrollEnd'] = var35;
             var29['animatedProps'] = var33;
             var33 = var31.scrollView;
@@ -3594,15 +3580,20 @@ case 167:
             var31 = 8.333333333333334;
             var29['scrollEventThrottle'] = var31;
             var33 = _closure1_slot21;
-            var31 = 43;
-            var31 = var18[var31];
-            var32 = var15.bind(var5)(var31);
+            var31 = 41;
+            var31 = var16[var31];
+            var32 = var14.bind(var5)(var31);
             var31 = {};
             var31['viewableChunks'] = var34;
             var32 = var33.bind(var5)(var32, var31);
             var31 = new Array(2);
             var31[0] = var32;
-            var32 = _closure1_slot66;
+            var34 = _closure1_slot21;
+            var32 = 42;
+            var32 = var16[var32];
+            var33 = var14.bind(var5)(var32);
+            var32 = {};
+            var32 = var34.bind(var5)(var33, var32);
             var31[1] = var32;
             var29['children'] = var31;
             var29 = var8.bind(var5)(var30, var29);
@@ -3612,19 +3603,24 @@ case 167:
             var23 = var25.bind(var5)(var24, var23);
             var20['children'] = var23;
             var20 = var22.bind(var5)(var21, var20);
-            var19[1] = var20;
-            var14['children'] = var19;
-            var14 = var8.bind(var5)(var16, var14);
-            var12[1] = var14;
-            var16 = _closure1_slot21;
-            var14 = 44;
-            var14 = var18[var14];
-            var15 = var15.bind(var5)(var14);
-            var14 = {};
-            var14['gestureState'] = var17;
-            var14 = var16.bind(var5)(var15, var14);
-            var12[2] = var14;
-            var13 = _closure1_slot67;
+            var18[1] = var20;
+            var15['children'] = var18;
+            var15 = var8.bind(var5)(var17, var15);
+            var12[1] = var15;
+            var18 = _closure1_slot21;
+            var15 = 43;
+            var15 = var16[var15];
+            var17 = var14.bind(var5)(var15);
+            var15 = {};
+            var15['gestureState'] = var19;
+            var15 = var18.bind(var5)(var17, var15);
+            var12[2] = var15;
+            var15 = _closure1_slot21;
+            var13 = 44;
+            var13 = var16[var13];
+            var14 = var14.bind(var5)(var13);
+            var13 = {};
+            var13 = var15.bind(var5)(var14, var13);
             var12[3] = var13;
             var10['children'] = var12;
             var10 = var8.bind(var5)(var11, var10);
@@ -3633,7 +3629,7 @@ case 167:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 166:
+case 162:
             return var1;
         }
     };

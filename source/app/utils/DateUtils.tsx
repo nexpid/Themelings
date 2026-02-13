@@ -96,39 +96,44 @@ case 10:
         return var1;
     };
     var _closure1_slot8 = var6;
-    var5 = function dateFormat(arg1, arg2) {
+    var5 = function dateFormat(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
             var8 = arg2;
+            var10 = arg3;
             var2 = _closure1_slot11;
             var3 = undefined;
             var5 = var2.bind(var3)(var4);
             var2 = var5.locale;
             var9 = var2.bind(var5)();
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var5 = null;
+            if(!(var5 == var10)) { _fun0002_ip = 12; continue _fun0002 }
+case 7:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var2 = 2;
-            var2 = var6[var2];
-            var2 = var5.bind(var3)(var2);
-            var5 = var2.TimestampHourCycle;
-            var2 = var5.getSetting;
-            var11 = var2.bind(var5)();
+            var2 = var7[var2];
+            var2 = var6.bind(var3)(var2);
+            var6 = var2.TimestampHourCycle;
+            var2 = var6.getSetting;
+            var10 = var2.bind(var6)();
+case 12:
             var2 = global;
             var2 = var2.HermesInternal;
-            var6 = var2.concat;
+            var7 = var2.concat;
             var16 = '';
             var2 = ':';
             var15 = var9;
             var14 = var2;
             var13 = var8;
             var12 = var2;
-            var7 = var16[var6](var15, var14, var13, var12, var11, var10);
+            var11 = var10;
+            var7 = var16[var7](var15, var14, var13, var12, var11, var10);
             var2 = _closure1_slot5;
             var2 = var2[var7];
-            var5 = null;
-            if(!(var5 == var2)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!(var5 == var2)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var6 = _closure1_slot5;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -138,7 +143,7 @@ case 13:
             var5 = var5.bind(var3)(var8);
             var6[var7] = var5;
             var2 = var5;
-case 12:
+case 13:
             var1 = _closure1_slot12;
             var1 = var1.bind(var3)(var4);
             var1 = var2.bind(var3)(var1);
@@ -152,8 +157,8 @@ case 0:
             var3 = arg1;
             var2 = var3.length;
             var1 = 200;
-            if(!(!(var2 >= var1))) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+            if(!(!(var2 >= var1))) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -162,7 +167,7 @@ case 15:
             var1 = var4.bind(var2)(var1);
             var1 = var1.bind(var2)(var3);
             return var1;
-case 14:
+case 15:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -188,14 +193,14 @@ case 0:
             var1 = var5.isMoment;
             var5 = var1.bind(var5)(var4);
             var1 = var4;
-            if(var5) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+            if(var5) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var1 = var2.bind(var3)(var4);
-case 16:
+case 17:
             return var1;
         }
     };
@@ -213,11 +218,11 @@ case 0:
             var1 = var2.isMoment;
             var2 = var1.bind(var2)(var3);
             var1 = var3;
-            if(!var2) { _fun0005_ip = 18; continue _fun0005 }
-case 17:
+            if(!var2) { _fun0005_ip = 19; continue _fun0005 }
+case 18:
             var2 = var3.toDate;
             var1 = var2.bind(var3)();
-case 18:
+case 19:
             return var1;
         }
     };
@@ -311,14 +316,14 @@ case 0:
             var2 = var2.bind(var5)(var1);
             var1 = 3600000;
             var1 = var2 <= var1;
-            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+            if(!var1) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var2 = var3.getHours;
             var3 = var2.bind(var3)();
             var2 = var4.getHours;
             var2 = var2.bind(var4)();
             var1 = var3 === var2;
-case 19:
+case 20:
             return var1;
         }
     };
@@ -337,14 +342,14 @@ case 0:
             var2 = var2.bind(var5)(var1);
             var1 = _closure1_slot4;
             var1 = var2 <= var1;
-            if(!var1) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+            if(!var1) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var2 = var3.getDate;
             var3 = var2.bind(var3)();
             var2 = var4.getDate;
             var2 = var2.bind(var4)();
             var1 = var3 === var2;
-case 21:
+case 22:
             return var1;
         }
     };
@@ -370,120 +375,122 @@ case 21:
     var5 = function calendarFormat(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var4 = arg1;
+            var5 = arg1;
             var2 = arguments[1];
+            var4 = arguments[2];
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0008_ip = 2; continue _fun0008 }
-case 3:
+            if(!(var2 === var3)) { _fun0008_ip = 24; continue _fun0008 }
+case 16:
             var2 = false;
-case 2:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var5 = 4;
-            var8 = var7[var5];
-            var9 = var6.bind(var3)(var8);
-            var8 = var9.localeData;
-            var9 = var8.bind(var9)();
-            var5 = var7[var5];
-            var5 = var6.bind(var3)(var5);
-            var8 = var5.bind(var3)();
-            var7 = _closure1_slot8;
-            var5 = _closure1_slot12;
-            var6 = var5.bind(var3)(var4);
-            var5 = var8.toDate;
-            var5 = var5.bind(var8)();
-            var6 = var7.bind(var3)(var6, var5);
-            var5 = -1;
-            if(!(!(var6 < var5))) { _fun0008_ip = 23; continue _fun0008 }
 case 24:
-            var5 = 0;
-            var5 = var6 < var5;
-            var7 = 'lastDay';
-            if(var5) { _fun0008_ip = 25; continue _fun0008 }
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var6 = 4;
+            var9 = var8[var6];
+            var10 = var7.bind(var3)(var9);
+            var9 = var10.localeData;
+            var10 = var9.bind(var10)();
+            var6 = var8[var6];
+            var6 = var7.bind(var3)(var6);
+            var9 = var6.bind(var3)();
+            var8 = _closure1_slot8;
+            var6 = _closure1_slot12;
+            var7 = var6.bind(var3)(var5);
+            var6 = var9.toDate;
+            var6 = var6.bind(var9)();
+            var7 = var8.bind(var3)(var7, var6);
+            var6 = -1;
+            if(!(!(var7 < var6))) { _fun0008_ip = 25; continue _fun0008 }
 case 26:
-            var5 = 1;
-            if(!(!(var6 < var5))) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
-            var5 = 2;
-            var6 = var6 < var5;
-            var5 = 'sameElse';
-            if(!var6) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
-            var5 = 'nextDay';
+            var6 = 0;
+            var6 = var7 < var6;
+            var8 = 'lastDay';
+            if(var6) { _fun0008_ip = 27; continue _fun0008 }
+case 8:
+            var6 = 1;
+            if(!(!(var7 < var6))) { _fun0008_ip = 28; continue _fun0008 }
 case 29:
-            var7 = var5;
-            _fun0008_ip = 25; continue _fun0008;
-case 27:
-            var7 = 'sameDay';
-            if(!var2) { _fun0008_ip = 25; continue _fun0008 }
+            var6 = 2;
+            var7 = var7 < var6;
+            var6 = 'sameElse';
+            if(!var7) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
-            var5 = _closure1_slot9;
+            var6 = 'nextDay';
+case 30:
+            var8 = var6;
+            _fun0008_ip = 27; continue _fun0008;
+case 28:
+            var8 = 'sameDay';
+            if(!var2) { _fun0008_ip = 27; continue _fun0008 }
+case 32:
+            var6 = _closure1_slot9;
             var2 = 'LT';
-            var2 = var5.bind(var3)(var4, var2);
+            var2 = var6.bind(var3)(var5, var2, var4);
+            return var2;
+case 27:
+            var6 = _closure1_slot9;
+            var7 = var10.calendar;
+            var2 = _closure1_slot11;
+            var2 = var2.bind(var3)(var5);
+            var2 = var7.bind(var10)(var8, var2, var9);
+            var2 = var6.bind(var3)(var5, var2, var4);
             return var2;
 case 25:
-            var5 = _closure1_slot9;
-            var6 = var9.calendar;
-            var2 = _closure1_slot11;
-            var2 = var2.bind(var3)(var4);
-            var2 = var6.bind(var9)(var7, var2, var8);
-            var2 = var5.bind(var3)(var4, var2);
-            return var2;
-case 23:
             var2 = _closure1_slot9;
             var1 = 'L LT';
-            var1 = var2.bind(var3)(var4, var1);
+            var1 = var2.bind(var3)(var5, var1, var4);
             return var1;
         }
     };
     var3['calendarFormat'] = var5;
-    var5 = function calendarFormatCompact(arg1) {
+    var5 = function calendarFormatCompact(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var4 = arg1;
+            var5 = arg1;
             var2 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var3 = _closure1_slot2;
             var1 = 4;
-            var7 = var5[var1];
-            var3 = undefined;
-            var8 = var2.bind(var3)(var7);
+            var7 = var3[var1];
+            var4 = undefined;
+            var8 = var2.bind(var4)(var7);
             var7 = var8.localeData;
             var10 = var7.bind(var8)();
-            var1 = var5[var1];
-            var1 = var2.bind(var3)(var1);
-            var9 = var1.bind(var3)();
-            var5 = _closure1_slot8;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var9 = var1.bind(var4)();
+            var3 = _closure1_slot8;
             var1 = _closure1_slot12;
-            var2 = var1.bind(var3)(var4);
+            var2 = var1.bind(var4)(var5);
             var1 = var9.toDate;
             var1 = var1.bind(var9)();
-            var7 = var5.bind(var3)(var2, var1);
-            var2 = _closure1_slot9;
-            var1 = 'LT';
-            var5 = 0;
-            if(!(var5 !== var7)) { _fun0009_ip = 32; continue _fun0009 }
-case 33:
-            var5 = -1;
-            if(!(var5 !== var7)) { _fun0009_ip = 34; continue _fun0009 }
-case 35:
-            var5 = -7;
-            var7 = var7 > var5;
-            var5 = 'L';
-            if(!var7) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
-            var5 = 'dddd';
-case 36:
-            _fun0009_ip = 38; continue _fun0009;
+            var7 = var3.bind(var4)(var2, var1);
+            var3 = _closure1_slot9;
+            var2 = 'LT';
+            var1 = 0;
+            if(!(var1 !== var7)) { _fun0009_ip = 33; continue _fun0009 }
 case 34:
+            var1 = -1;
+            if(!(var1 !== var7)) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
+            var1 = -7;
+            var7 = var7 > var1;
+            var1 = 'L';
+            if(!var7) { _fun0009_ip = 14; continue _fun0009 }
+case 37:
+            var1 = 'dddd';
+case 14:
+            _fun0009_ip = 38; continue _fun0009;
+case 35:
             var8 = var10.calendar;
             var6 = _closure1_slot11;
-            var7 = var6.bind(var3)(var4);
+            var7 = var6.bind(var4)(var5);
             var6 = 'lastDay';
-            var5 = var8.bind(var10)(var6, var7, var9);
+            var1 = var8.bind(var10)(var6, var7, var9);
 case 38:
-            var1 = var5;
-case 32:
-            var1 = var2.bind(var3)(var4, var1);
+            var2 = var1;
+case 33:
+            var1 = arg2;
+            var1 = var3.bind(var4)(var5, var2, var1);
             return var1;
         }
     };
@@ -515,31 +522,31 @@ case 0:
             var1 = var13 < var1;
             var6 = 'sameElse';
             var8 = var6;
-            if(var1) { _fun0010_ip = 12; continue _fun0010 }
-case 39:
+            if(var1) { _fun0010_ip = 39; continue _fun0010 }
+case 40:
             var1 = 0;
             var7 = var13 < var1;
             var1 = 'lastDay';
-            if(var7) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+            if(var7) { _fun0010_ip = 41; continue _fun0010 }
+case 42:
             var7 = 1;
             var11 = var13 < var7;
             var7 = 'sameDay';
-            if(var11) { _fun0010_ip = 42; continue _fun0010 }
-case 36:
+            if(var11) { _fun0010_ip = 43; continue _fun0010 }
+case 14:
             var11 = 2;
             var13 = var13 < var11;
             var11 = var6;
-            if(!var13) { _fun0010_ip = 43; continue _fun0010 }
-case 44:
+            if(!var13) { _fun0010_ip = 44; continue _fun0010 }
+case 30:
             var11 = 'nextDay';
-case 43:
+case 44:
             var7 = var11;
-case 42:
+case 43:
             var1 = var7;
-case 40:
+case 41:
             var8 = var1;
-case 12:
+case 39:
             var1 = 'LLL';
             if(!(var6 !== var8)) { _fun0010_ip = 45; continue _fun0010 }
 case 46:
@@ -567,23 +574,23 @@ case 0:
             var3 = arguments[2];
             var5 = undefined;
             if(!(var3 === var5)) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+case 24:
             var3 = false;
 case 47:
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
             var1 = {'days': 0, 'hours': 0, 'minutes': 0};
             var4 = 0;
-            if(!var3) { _fun0011_ip = 22; continue _fun0011 }
-case 49:
+            if(!var3) { _fun0011_ip = 23; continue _fun0011 }
+case 48:
             var4 = 1;
-case 22:
+case 23:
             var1['seconds'] = var4;
             _closure2_slot0 = var1;
             if(!(!(var6 > var7))) { _fun0011_ip = 46; continue _fun0011 }
-case 50:
-            if(!var3) { _fun0011_ip = 51; continue _fun0011 }
-case 52:
+case 49:
+            if(!var3) { _fun0011_ip = 50; continue _fun0011 }
+case 51:
             var3 = global;
             var4 = var3.Number;
             var8 = var4.bind(var5)(var6);
@@ -591,8 +598,8 @@ case 52:
             var4 = var8 + var4;
             var3 = var3.Number;
             var3 = var3.bind(var5)(var7);
-            if(!(!(var4 > var3))) { _fun0011_ip = 53; continue _fun0011 }
-case 51:
+            if(!(!(var4 > var3))) { _fun0011_ip = 52; continue _fun0011 }
+case 50:
             var3 = global;
             var4 = var3.Number;
             var4 = var4.bind(var5)(var7);
@@ -625,7 +632,7 @@ case 51:
             };
             var2 = var3.bind(var4)(var2);
             return var1;
-case 53:
+case 52:
             return var1;
 case 46:
             return var1;
@@ -639,11 +646,11 @@ case 0:
             var2 = arg2;
             var1 = var6.days;
             var3 = 0;
-            if(!(!(var1 > var3))) { _fun0012_ip = 54; continue _fun0012 }
-case 55:
+            if(!(!(var1 > var3))) { _fun0012_ip = 53; continue _fun0012 }
+case 54:
             var1 = var6.hours;
             if(!(!(var1 > var3))) { _fun0012_ip = 8; continue _fun0012 }
-case 56:
+case 55:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
@@ -680,8 +687,8 @@ case 8:
             var3['minutes'] = var8;
             var1 = var5.bind(var7)(var4, var3);
 case 10:
-            _fun0012_ip = 57; continue _fun0012;
-case 54:
+            _fun0012_ip = 56; continue _fun0012;
+case 53:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 5;
@@ -697,7 +704,7 @@ case 54:
             var6 = var6.hours;
             var2['hours'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 57:
+case 56:
             return var1;
         }
     };
@@ -709,15 +716,15 @@ case 0:
             var1 = null;
             var2 = var1 == var4;
             var1 = '';
-            if(var2) { _fun0013_ip = 49; continue _fun0013 }
-case 58:
+            if(var2) { _fun0013_ip = 48; continue _fun0013 }
+case 57:
             var3 = _closure1_slot10;
             var2 = undefined;
             var4 = var3.bind(var2)(var4);
             var3 = var4.format;
             var2 = 'YYYY-MM-DDTHH:mm';
             var1 = var3.bind(var4)(var2);
-case 49:
+case 48:
             return var1;
         }
     };

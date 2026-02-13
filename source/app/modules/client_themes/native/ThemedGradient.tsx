@@ -93,15 +93,15 @@ case 9:
                             var1 = _closure3_slot1;
                             var1 = var6 == var1;
                             if(var3) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+case 6:
                             var8 = undefined;
-                            if(var1) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                            if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                             var3 = _closure3_slot1;
                             var8 = var3.light;
-case 12:
-                            if(!(var6 == var8)) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+case 11:
+                            if(!(var6 == var8)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                             var7 = _closure3_slot0;
                             var3 = 100;
                             var10 = var7 / var3;
@@ -111,7 +111,7 @@ case 15:
                             var3 = var3 - var10;
                             var3 = var9 * var3;
                             var8 = var7 + var3;
-case 14:
+case 13:
                             var3 = var4.prototype;
                             var7 = Object.create(var3, {constructor: {value: var4}});
                             var3 = 255;
@@ -122,16 +122,16 @@ case 14:
                             var14 = var8;
                             var3 = new var18[var4](var17, var16, var15, var14, var13);
                             var7 = var3 instanceof Object ? var3 : var7;
-                            _fun0003_ip = 16; continue _fun0003;
+                            _fun0003_ip = 15; continue _fun0003;
 case 10:
                             var3 = undefined;
-                            if(var1) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                            if(var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                             var1 = _closure3_slot1;
                             var3 = var1.dark;
-case 17:
-                            if(!(var6 == var3)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+case 16:
+                            if(!(var6 == var3)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                             var2 = _closure3_slot0;
                             var1 = 100;
                             var9 = var2 / var1;
@@ -141,7 +141,7 @@ case 20:
                             var1 = var1 - var9;
                             var1 = var8 * var1;
                             var3 = var2 + var1;
-case 19:
+case 18:
                             var1 = var4.prototype;
                             var2 = Object.create(var1, {constructor: {value: var4}});
                             var18 = var2;
@@ -151,11 +151,11 @@ case 19:
                             var14 = var3;
                             var1 = new var18[var4](var17, var16, var15, var14, var13);
                             var7 = var1 instanceof Object ? var1 : var2;
-case 16:
-                            _fun0003_ip = 21; continue _fun0003;
+case 15:
+                            _fun0003_ip = 20; continue _fun0003;
 case 8:
                             var7 = _closure3_slot2;
-case 21:
+case 20:
                             var8 = _closure1_slot0;
                             var9 = _closure1_slot2;
                             var3 = 9;
@@ -176,42 +176,42 @@ case 21:
                             var2 = var8.bind(var9)(var2);
                             var8 = _closure3_slot1;
                             var8 = var6 == var8;
-                            if(var2) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                            if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                             var2 = undefined;
-                            if(var8) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                            if(var8) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                             var9 = _closure3_slot1;
                             var2 = var9.light;
-case 24:
+case 23:
                             var2 = var6 != var2;
                             var9 = 0.5;
-                            if(!var2) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                            if(!var2) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                             var2 = _closure3_slot1;
                             var13 = var2.light;
                             var2 = 1;
                             var9 = var2 - var13;
-case 26:
-                            _fun0003_ip = 28; continue _fun0003;
-case 22:
+case 25:
+                            _fun0003_ip = 27; continue _fun0003;
+case 21:
                             var2 = undefined;
-                            if(var8) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
+                            if(var8) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                             var8 = _closure3_slot1;
                             var2 = var8.dark;
-case 29:
+case 28:
                             var6 = var6 != var2;
                             var2 = 0.5;
-                            if(!var6) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                            if(!var6) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                             var5 = _closure3_slot1;
                             var6 = var5.dark;
                             var5 = 1;
                             var2 = var5 - var6;
-case 31:
+case 30:
                             var9 = var2;
-case 28:
+case 27:
                             var2 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var3 = var5[var3];
@@ -244,8 +244,8 @@ case 6:
                     var3 = var4.length;
                     var2 = 1;
                     var1 = var4;
-                    if(!(var2 === var3)) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+                    if(!(var2 === var3)) { _fun0002_ip = 32; continue _fun0002 }
+case 11:
                     var3 = 0;
                     var5 = var4[var3];
                     var2 = new Array(2);
@@ -253,7 +253,7 @@ case 34:
                     var3 = var4[var3];
                     var2[1] = var3;
                     var1 = var2;
-case 33:
+case 32:
                     return var1;
                 }
             };
@@ -305,8 +305,8 @@ case 0:
                     var _closure3_slot0 = var3;
                     var4 = var3.length;
                     var2 = 1;
-                    if(!(var2 !== var4)) { _fun0004_ip = 5; continue _fun0004 }
-case 35:
+                    if(!(var2 !== var4)) { _fun0004_ip = 4; continue _fun0004 }
+case 33:
                     var2 = var3.map;
                     var1 = function(arg1, arg2) {
                         var1 = _closure3_slot0;
@@ -318,10 +318,10 @@ case 35:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    _fun0004_ip = 36; continue _fun0004;
-case 5:
+                    _fun0004_ip = 34; continue _fun0004;
+case 4:
                     var1 = [0, 1];
-case 36:
+case 34:
                     return var1;
                 }
             };
@@ -337,8 +337,8 @@ case 0:
                     var1 = _closure2_slot1;
                     var2 = var1.length;
                     var1 = 2;
-                    if(!(var2 < var1)) { _fun0005_ip = 33; continue _fun0005 }
-case 37:
+                    if(!(var2 < var1)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 13;
@@ -363,7 +363,7 @@ case 37:
                     var5['gradientColors'] = var6;
                     var1['extra'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 33:
+case 35:
                     var1 = undefined;
                     return var1;
                 }
@@ -373,8 +373,8 @@ case 33:
             var1 = 2;
             var3 = var3 < var1;
             var1 = null;
-            if(var3) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+            if(var3) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -386,20 +386,20 @@ case 39:
             var2['locations'] = var15;
             var2['start'] = var14;
             var2['end'] = var6;
-            if(!var11) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(!var11) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
             var6 = {};
             var6['width'] = var13;
             var11 = var6;
-case 40:
+case 39:
             var6 = new Array(5);
             var6[0] = var11;
-            if(!var10) { _fun0001_ip = 42; continue _fun0001 }
-case 31:
+            if(!var10) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
             var11 = {};
             var11['height'] = var12;
             var10 = var11;
-case 42:
+case 41:
             var6[1] = var10;
             var10 = var9.linearGradient;
             var6[2] = var10;
@@ -411,7 +411,7 @@ case 43:
             var6[4] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 38:
+case 37:
             return var1;
         }
     };
@@ -611,11 +611,11 @@ case 62:
                     var3 = _closure2_slot1;
                     var6 = var11 == var3;
                     var3 = undefined;
-                    if(var6) { _fun0007_ip = 25; continue _fun0007 }
+                    if(var6) { _fun0007_ip = 24; continue _fun0007 }
 case 63:
                     var6 = _closure2_slot1;
                     var3 = var6.dark;
-case 25:
+case 24:
                     var6 = var11 != var3;
                     var3 = 0.3;
                     if(!var6) { _fun0007_ip = 64; continue _fun0007 }
@@ -704,33 +704,33 @@ case 72:
             var1['angle'] = var14;
             var5 = var5.angleCenter;
             if(!(var13 == var5)) { _fun0006_ip = 74; continue _fun0006 }
-case 75:
+case 60:
             var5 = {'x': 0.5, 'y': 0.5};
 case 74:
             var1['angleCenter'] = var5;
             var5 = true;
             var1['useAngle'] = var5;
-            if(!var10) { _fun0006_ip = 76; continue _fun0006 }
-case 77:
+            if(!var10) { _fun0006_ip = 75; continue _fun0006 }
+case 57:
             var5 = {};
             var5['width'] = var12;
             var10 = var5;
-case 76:
+case 75:
             var5 = new Array(5);
             var5[0] = var10;
-            if(!var9) { _fun0006_ip = 78; continue _fun0006 }
-case 79:
+            if(!var9) { _fun0006_ip = 76; continue _fun0006 }
+case 77:
             var10 = {};
             var10['height'] = var11;
             var9 = var10;
-case 78:
+case 76:
             var5[1] = var9;
             var9 = var8.linearGradient;
             var5[2] = var9;
-            if(!var7) { _fun0006_ip = 80; continue _fun0006 }
-case 81:
+            if(!var7) { _fun0006_ip = 78; continue _fun0006 }
+case 79:
             var7 = var8.absolute;
-case 80:
+case 78:
             var5[3] = var7;
             var5[4] = var6;
             var1['style'] = var5;
@@ -760,8 +760,8 @@ case 0:
             var9 = arg3;
             var2 = arg2;
             var1 = var7;
-            if(!var2) { _fun0008_ip = 82; continue _fun0008 }
-case 83:
+            if(!var2) { _fun0008_ip = 80; continue _fun0008 }
+case 81:
             var5 = _closure1_slot7;
             var4 = _closure1_slot4;
             var3 = {};
@@ -792,7 +792,7 @@ case 83:
             var6[1] = var7;
             var3['children'] = var6;
             var1 = var5.bind(var2)(var4, var3);
-case 82:
+case 80:
             return var1;
         }
     };
@@ -823,13 +823,13 @@ case 0:
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.unsafe_rawColors;
-            if(var2) { _fun0009_ip = 84; continue _fun0009 }
-case 85:
+            if(var2) { _fun0009_ip = 82; continue _fun0009 }
+case 83:
             var2 = var3.WHITE;
-            _fun0009_ip = 86; continue _fun0009;
-case 84:
+            _fun0009_ip = 84; continue _fun0009;
+case 82:
             var2 = var3.BLACK;
-case 86:
+case 84:
             var1['overlayColor'] = var2;
             return var1;
         }
@@ -847,10 +847,10 @@ case 0:
             var4 = arg1;
             var7 = var4.overlayOpacity;
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0010_ip = 87; continue _fun0010 }
-case 88:
+            if(!(var7 === var6)) { _fun0010_ip = 85; continue _fun0010 }
+case 86:
             var7 = 0.7;
-case 87:
+case 85:
             var10 = var4.gradientOverride;
             var2 = null;
             var3 = Object.create(var2);
@@ -895,18 +895,18 @@ case 87:
             var8 = var12.useCustomThemeDisplaySettings;
             var14 = var8.bind(var12)();
             var8 = var6 !== var14;
-            if(!(var2 == var10)) { _fun0010_ip = 17; continue _fun0010 }
+            if(!(var2 == var10)) { _fun0010_ip = 87; continue _fun0010 }
+case 88:
+            if(var9) { _fun0010_ip = 87; continue _fun0010 }
 case 89:
-            if(var9) { _fun0010_ip = 17; continue _fun0010 }
-case 90:
-            if(var8) { _fun0010_ip = 17; continue _fun0010 }
-case 91:
+            if(var8) { _fun0010_ip = 87; continue _fun0010 }
+case 16:
             return var2;
-case 17:
-            if(!(var2 != var10)) { _fun0010_ip = 92; continue _fun0010 }
-case 20:
-            if(!var8) { _fun0010_ip = 93; continue _fun0010 }
-case 51:
+case 87:
+            if(!(var2 != var10)) { _fun0010_ip = 90; continue _fun0010 }
+case 91:
+            if(!var8) { _fun0010_ip = 92; continue _fun0010 }
+case 93:
             var12 = var10.type;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -916,7 +916,7 @@ case 51:
             var9 = var9.ClientThemeType;
             var9 = var9.CUSTOM_BACKGROUND_GRADIENT;
             if(!(var12 !== var9)) { _fun0010_ip = 94; continue _fun0010 }
-case 93:
+case 92:
             var12 = var10.type;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -926,15 +926,15 @@ case 93:
             var9 = var9.ClientThemeType;
             var9 = var9.BACKGROUND_GRADIENT_PRESET;
             if(!(var12 !== var9)) { _fun0010_ip = 95; continue _fun0010 }
-case 92:
+case 90:
             if(!var8) { _fun0010_ip = 96; continue _fun0010 }
-case 97:
-            if(var8) { _fun0010_ip = 98; continue _fun0010 }
+case 76:
+            if(var8) { _fun0010_ip = 97; continue _fun0010 }
 case 96:
             var8 = var2 != var16;
             var2 = null;
-            if(!var8) { _fun0010_ip = 99; continue _fun0010 }
-case 100:
+            if(!var8) { _fun0010_ip = 98; continue _fun0010 }
+case 99:
             var9 = _closure1_slot11;
             var13 = _closure1_slot6;
             var12 = _closure1_slot9;
@@ -951,9 +951,9 @@ case 100:
             var18 = var4;
             var17 = var7;
             var2 = var22[var9](var21, var20, var19, var18, var17, var16);
-case 99:
-            _fun0010_ip = 101; continue _fun0010;
 case 98:
+            _fun0010_ip = 100; continue _fun0010;
+case 97:
             var9 = _closure1_slot11;
             var13 = _closure1_slot6;
             var12 = _closure1_slot13;
@@ -974,7 +974,7 @@ case 98:
             var18 = var4;
             var17 = var7;
             var2 = var22[var9](var21, var20, var19, var18, var17, var16);
-case 101:
+case 100:
             return var2;
 case 95:
             var8 = _closure1_slot11;
@@ -1027,10 +1027,10 @@ case 0:
             var3 = arg1;
             var7 = var3.overlayOpacity;
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0011_ip = 87; continue _fun0011 }
-case 88:
+            if(!(var7 === var6)) { _fun0011_ip = 85; continue _fun0011 }
+case 86:
             var7 = 0.7;
-case 87:
+case 85:
             var10 = var3.customTheme;
             var1 = null;
             var2 = Object.create(var1);

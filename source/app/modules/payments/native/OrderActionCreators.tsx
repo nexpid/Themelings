@@ -670,96 +670,97 @@ case 80:
 case 0:
                     StartGenerator();
                     var2 = arg1;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 91; continue _fun0005 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
+                    if(var5) { _fun0005_ip = 91; continue _fun0005 }
 case 4:
                     var12 = var2.orderId;
                     var8 = var2.orderLineItemId;
                     var15 = var2.subscriptionPlanId;
+                    var3 = var2.expectedRevision;
                     var6 = undefined;
                     var9 = undefined;
-                    SaveGenerator(address=39);
-case 92:
+                    var10 = undefined;
+                    SaveGenerator(address=47);
+case 17:
                     return var6;
-case 93:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 94; continue _fun0005 }
-case 95:
-                    var10 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var7 = 5;
-                    var3 = var3[var7];
-                    var11 = var10.bind(var6)(var3);
-                    var10 = var11.dispatch;
-                    var3 = {};
-                    var13 = 'ORDER_UPDATE_START';
-                    var3['type'] = var13;
-                    var3 = var10.bind(var11)(var3);
-case 8: // try_start_0
-                    var9 = {};
-                    var10 = var15;
-                    var3 = null;
-                    if(!(var3 != var10)) { _fun0005_ip = 83; continue _fun0005 }
-case 10:
-                    var10 = var9;
-                    var3 = var15;
-                    var10['subscription_plan_id'] = var3;
-case 83:
-                    var10 = _closure1_slot0;
+case 92:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0005_ip = 93; continue _fun0005 }
+case 94:
+                    var13 = _closure1_slot1;
                     var11 = _closure1_slot2;
+                    var7 = 5;
+                    var11 = var11[var7];
+                    var14 = var13.bind(var6)(var11);
+                    var13 = var14.dispatch;
+                    var11 = {};
+                    var16 = 'ORDER_UPDATE_START';
+                    var11['type'] = var16;
+                    var11 = var13.bind(var14)(var11);
+case 95: // try_start_0
+                    var14 = {};
+                    var14['expected_revision'] = var3;
+                    var3 = var15;
+                    var14['subscription_plan_id'] = var3;
+                    var9 = var14;
+                    var11 = _closure1_slot0;
+                    var13 = _closure1_slot2;
                     var3 = 3;
-                    var3 = var11[var3];
-                    var3 = var10.bind(var6)(var3);
-                    var11 = var3.HTTP;
-                    var10 = var11.patch;
+                    var3 = var13[var3];
+                    var3 = var11.bind(var6)(var3);
+                    var13 = var3.HTTP;
+                    var11 = var13.patch;
                     var3 = {};
-                    var17 = _closure1_slot4;
-                    var16 = var17.ORDER_PATCH_LINE_ITEM;
-                    var14 = var12;
-                    var13 = var8;
-                    var13 = var16.bind(var17)(var14, var13);
-                    var3['url'] = var13;
-                    var13 = var9;
-                    var3['body'] = var13;
-                    var13 = true;
-                    var3['rejectWithError'] = var13;
-                    var3 = var10.bind(var11)(var3);
+                    var19 = _closure1_slot4;
+                    var18 = var19.ORDER_PATCH_LINE_ITEM;
+                    var17 = var12;
+                    var16 = var8;
+                    var16 = var18.bind(var19)(var17, var16);
+                    var3['url'] = var16;
+                    var3['body'] = var14;
+                    var14 = true;
+                    var3['rejectWithError'] = var14;
+                    var3 = var11.bind(var13)(var3);
                     SaveGenerator(address=197);
 case 96:
                     return var3;
 case 89:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(var10) { _fun0005_ip = 97; continue _fun0005 }
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=10);
+                    if(var11) { _fun0005_ip = 97; continue _fun0005 }
 case 98:
-                    var14 = _closure1_slot5;
-                    var11 = var14.info;
-                    var10 = {};
-                    var13 = var12;
-                    var10['orderId'] = var13;
-                    var16 = var8;
-                    var10['orderLineItemId'] = var16;
-                    var10['body'] = var9;
+                    var10 = var3;
+                    var16 = _closure1_slot5;
+                    var13 = var16.info;
+                    var11 = {};
+                    var14 = var12;
+                    var11['orderId'] = var14;
+                    var17 = var8;
+                    var11['orderLineItemId'] = var17;
+                    var11['body'] = var9;
                     var9 = 'updated order line item';
-                    var9 = var11.bind(var14)(var9, var10);
-                    var10 = _closure1_slot1;
+                    var9 = var13.bind(var16)(var9, var11);
+                    var11 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var9 = var9[var7];
-                    var11 = var10.bind(var6)(var9);
-                    var10 = var11.dispatch;
+                    var13 = var11.bind(var6)(var9);
+                    var11 = var13.dispatch;
                     var9 = {};
-                    var14 = 'ORDER_UPDATE_SUCCESS';
-                    var9['type'] = var14;
-                    var9['orderId'] = var13;
-                    var9 = var10.bind(var11)(var9);
-                    SaveGenerator(address=295);
+                    var16 = 'ORDER_UPDATE_SUCCESS';
+                    var9['type'] = var16;
+                    var9['orderId'] = var14;
+                    var9 = var11.bind(var13)(var9);
+                    SaveGenerator(address=298);
 case 99:
                     return var9;
-case 100:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(var10) { _fun0005_ip = 101; continue _fun0005 }
-case 102: // try_end0
-                    return var6;
+case 55:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
+                    if(var11) { _fun0005_ip = 100; continue _fun0005 }
 case 101:
+                    var10 = var10.body;
+                    var10 = var10.revision;
+case 102: // try_end0
+                    return var10;
+case 100:
                     return var9;
 case 97:
                     return var3;
@@ -799,7 +800,7 @@ case 103: // catch_target0
                     var7 = 'ORDER_UPDATE_FAIL';
                     var3['type'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=464);
+                    SaveGenerator(address=478);
 case 104:
                     return var3;
 case 105:
@@ -809,7 +810,7 @@ case 107:
                     throw var4;
 case 106:
                     return var3;
-case 94:
+case 93:
                     return var2;
 case 91:
                     return var1;
@@ -840,163 +841,171 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 71; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 108; continue _fun0006 }
 case 4:
                     var8 = var2.orderId;
                     var14 = var2.giftInfo;
+                    var11 = var2.expectedRevision;
                     var6 = undefined;
                     var9 = undefined;
-                    var11 = undefined;
-                    SaveGenerator(address=35);
-case 15:
+                    var12 = undefined;
+                    var10 = undefined;
+                    SaveGenerator(address=43);
+case 14:
                     return var6;
-case 108:
+case 109:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 109; continue _fun0006 }
-case 110:
-                    var10 = _closure1_slot1;
+                    if(var3) { _fun0006_ip = 110; continue _fun0006 }
+case 111:
+                    var13 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var7 = 5;
                     var3 = var3[var7];
-                    var12 = var10.bind(var6)(var3);
-                    var10 = var12.dispatch;
+                    var15 = var13.bind(var6)(var3);
+                    var13 = var15.dispatch;
                     var3 = {};
-                    var13 = 'ORDER_UPDATE_START';
-                    var3['type'] = var13;
-                    var3 = var10.bind(var12)(var3);
-case 111: // try_start_0
-                    var9 = {};
+                    var16 = 'ORDER_UPDATE_START';
+                    var3['type'] = var16;
+                    var3 = var13.bind(var15)(var3);
+case 112: // try_start_0
+                    var3 = {};
+                    var3['expected_revision'] = var11;
+                    var9 = var3;
                     var3 = var14;
-                    var10 = null;
-                    if(!(var10 != var3)) { _fun0006_ip = 112; continue _fun0006 }
-case 113:
-                    var11 = {};
-                    var3 = var14;
-                    var3 = var3.recipient_id;
-                    if(!(var10 != var3)) { _fun0006_ip = 114; continue _fun0006 }
-case 84:
-                    var12 = var11;
-                    var3 = var14;
-                    var3 = var3.recipient_id;
-                    var12['recipient_id'] = var3;
+                    var11 = null;
+                    if(!(var11 != var3)) { _fun0006_ip = 113; continue _fun0006 }
 case 114:
+                    var12 = {};
                     var3 = var14;
-                    var3 = var3.gift_style;
-                    if(!(var10 != var3)) { _fun0006_ip = 115; continue _fun0006 }
-case 116:
-                    var12 = var11;
+                    var3 = var3.recipient_id;
+                    if(!(var11 != var3)) { _fun0006_ip = 115; continue _fun0006 }
+case 22:
+                    var13 = var12;
                     var3 = var14;
-                    var3 = var3.gift_style;
-                    var12['gift_style'] = var3;
+                    var3 = var3.recipient_id;
+                    var13['recipient_id'] = var3;
 case 115:
                     var3 = var14;
-                    var3 = var3.emoji_id;
-                    if(!(var10 != var3)) { _fun0006_ip = 117; continue _fun0006 }
-case 118:
-                    var12 = var11;
+                    var3 = var3.gift_style;
+                    if(!(var11 != var3)) { _fun0006_ip = 116; continue _fun0006 }
+case 41:
+                    var13 = var12;
+                    var3 = var14;
+                    var3 = var3.gift_style;
+                    var13['gift_style'] = var3;
+case 116:
                     var3 = var14;
                     var3 = var3.emoji_id;
-                    var12['emoji_id'] = var3;
+                    if(!(var11 != var3)) { _fun0006_ip = 117; continue _fun0006 }
+case 118:
+                    var13 = var12;
+                    var3 = var14;
+                    var3 = var3.emoji_id;
+                    var13['emoji_id'] = var3;
 case 117:
                     var3 = var14;
                     var3 = var3.emoji_name;
-                    if(!(var10 != var3)) { _fun0006_ip = 119; continue _fun0006 }
-case 120:
-                    var12 = var11;
+                    if(!(var11 != var3)) { _fun0006_ip = 119; continue _fun0006 }
+case 27:
+                    var13 = var12;
                     var3 = var14;
                     var3 = var3.emoji_name;
-                    var12['emoji_name'] = var3;
+                    var13['emoji_name'] = var3;
 case 119:
                     var3 = var14;
                     var3 = var3.sound_id;
-                    if(!(var10 != var3)) { _fun0006_ip = 121; continue _fun0006 }
-case 49:
-                    var12 = var11;
+                    if(!(var11 != var3)) { _fun0006_ip = 120; continue _fun0006 }
+case 121:
+                    var13 = var12;
                     var3 = var14;
                     var3 = var3.sound_id;
-                    var12['sound_id'] = var3;
-case 121:
+                    var13['sound_id'] = var3;
+case 120:
                     var3 = var14;
                     var3 = var3.reward_sku_ids;
-                    if(!(var10 != var3)) { _fun0006_ip = 122; continue _fun0006 }
-case 50:
-                    var12 = var11;
+                    if(!(var11 != var3)) { _fun0006_ip = 122; continue _fun0006 }
+case 123:
+                    var13 = var12;
                     var3 = var14;
                     var3 = var3.reward_sku_ids;
-                    var12['reward_sku_ids'] = var3;
+                    var13['reward_sku_ids'] = var3;
 case 122:
                     var3 = var14;
                     var3 = var3.custom_message_contents;
-                    if(!(var10 != var3)) { _fun0006_ip = 123; continue _fun0006 }
-case 101:
-                    var10 = var11;
+                    if(!(var11 != var3)) { _fun0006_ip = 124; continue _fun0006 }
+case 125:
+                    var11 = var12;
                     var3 = var14;
                     var3 = var3.custom_message_contents;
-                    var10['custom_message_contents'] = var3;
-case 123:
-                    var10 = var9;
-                    var3 = {};
-                    var12 = true;
-                    var3['is_gift'] = var12;
-                    var3['gift_customization'] = var11;
-                    var10['gifting_facet'] = var3;
-case 112:
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var3 = 3;
-                    var3 = var11[var3];
-                    var3 = var10.bind(var6)(var3);
-                    var11 = var3.HTTP;
-                    var10 = var11.patch;
-                    var3 = {};
-                    var15 = _closure1_slot4;
-                    var13 = var15.ORDER_UPDATE;
-                    var12 = var8;
-                    var12 = var13.bind(var15)(var12);
-                    var3['url'] = var12;
-                    var12 = var9;
-                    var3['body'] = var12;
-                    var12 = true;
-                    var3['rejectWithError'] = var12;
-                    var3 = var10.bind(var11)(var3);
-                    SaveGenerator(address=422);
+                    var11['custom_message_contents'] = var3;
 case 124:
-                    return var3;
-case 125:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(var10) { _fun0006_ip = 126; continue _fun0006 }
-case 127:
-                    var13 = _closure1_slot5;
-                    var11 = var13.info;
-                    var10 = {};
-                    var12 = var8;
-                    var10['orderId'] = var12;
-                    var10['body'] = var9;
-                    var9 = 'updated order with gift customization';
-                    var9 = var11.bind(var13)(var9, var10);
-                    var10 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var9 = var9[var7];
-                    var11 = var10.bind(var6)(var9);
-                    var10 = var11.dispatch;
-                    var9 = {};
-                    var13 = 'ORDER_UPDATE_SUCCESS';
-                    var9['type'] = var13;
-                    var9['orderId'] = var12;
-                    var9 = var10.bind(var11)(var9);
-                    SaveGenerator(address=512);
-case 128:
-                    return var9;
-case 129:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(var10) { _fun0006_ip = 130; continue _fun0006 }
-case 131: // try_end0
-                    return var6;
-case 130:
-                    return var9;
+                    var11 = var9;
+                    var3 = {};
+                    var13 = true;
+                    var3['is_gift'] = var13;
+                    var3['gift_customization'] = var12;
+                    var11['gifting_facet'] = var3;
+case 113:
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var12[var3];
+                    var3 = var11.bind(var6)(var3);
+                    var12 = var3.HTTP;
+                    var11 = var12.patch;
+                    var3 = {};
+                    var16 = _closure1_slot4;
+                    var15 = var16.ORDER_UPDATE;
+                    var13 = var8;
+                    var13 = var15.bind(var16)(var13);
+                    var3['url'] = var13;
+                    var13 = var9;
+                    var3['body'] = var13;
+                    var13 = true;
+                    var3['rejectWithError'] = var13;
+                    var3 = var11.bind(var12)(var3);
+                    SaveGenerator(address=438);
 case 126:
                     return var3;
-case 132: // catch_target0
+case 127:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=10);
+                    if(var11) { _fun0006_ip = 128; continue _fun0006 }
+case 129:
+                    var10 = var3;
+                    var15 = _closure1_slot5;
+                    var12 = var15.info;
+                    var11 = {};
+                    var13 = var8;
+                    var11['orderId'] = var13;
+                    var11['body'] = var9;
+                    var9 = 'updated order with gift customization';
+                    var9 = var12.bind(var15)(var9, var11);
+                    var11 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var7];
+                    var12 = var11.bind(var6)(var9);
+                    var11 = var12.dispatch;
+                    var9 = {};
+                    var15 = 'ORDER_UPDATE_SUCCESS';
+                    var9['type'] = var15;
+                    var9['orderId'] = var13;
+                    var9 = var11.bind(var12)(var9);
+                    SaveGenerator(address=531);
+case 130:
+                    return var9;
+case 131:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
+                    if(var11) { _fun0006_ip = 132; continue _fun0006 }
+case 133:
+                    var10 = var10.body;
+                    var10 = var10.revision;
+case 134: // try_end0
+                    return var10;
+case 132:
+                    return var9;
+case 128:
+                    return var3;
+case 135: // catch_target0
                     CatchBlockStart(arg_register=11);
                     var4 = var12;
                     var10 = _closure1_slot0;
@@ -1030,19 +1039,19 @@ case 132: // catch_target0
                     var7 = 'ORDER_UPDATE_FAIL';
                     var3['type'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=671);
-case 133:
+                    SaveGenerator(address=701);
+case 69:
                     return var3;
-case 134:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 135; continue _fun0006 }
 case 136:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0006_ip = 137; continue _fun0006 }
+case 138:
                     throw var4;
-case 135:
+case 137:
                     return var3;
-case 109:
+case 110:
                     return var2;
-case 71:
+case 108:
                     return var1;
                 }
             };
@@ -1071,13 +1080,13 @@ case 0:
                     StartGenerator();
                     var3 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 137; continue _fun0007 }
-case 138:
+                    if(var2) { _fun0007_ip = 139; continue _fun0007 }
+case 140:
                     var _closure4_slot0 = var3;
                     var6 = _closure1_slot7;
                     var5 = null;
                     if(!(var5 == var6)) { _fun0007_ip = 35; continue _fun0007 }
-case 139:
+case 141:
                     var6 = _closure1_slot3;
                     var5 = undefined;
                     var4 = function* () {
@@ -1086,7 +1095,7 @@ case 139:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0008_ip = 140; continue _fun0008 }
+                                if(var2) { _fun0008_ip = 142; continue _fun0008 }
 case 3:
                                 var6 = undefined;
                                 var10 = undefined;
@@ -1102,20 +1111,20 @@ case 3:
                                 var11 = _closure4_slot0;
                                 var2['orderId'] = var11;
                                 var2 = var5.bind(var9)(var2);
-case 141: // try_start_0 // try_start_2
+case 143: // try_start_0 // try_start_2
                                 var5 = _closure1_slot8;
                                 var2 = _closure4_slot0;
                                 var2 = var5.bind(var6)(var2);
                                 SaveGenerator(address=88);
-case 142:
+case 144:
                                 return var2;
-case 143:
-                                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0008_ip = 144; continue _fun0008 }
 case 145:
+                                ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                                if(var5) { _fun0008_ip = 146; continue _fun0008 }
+case 112:
                                 var10 = var2;
                                 var9 = null;
-                                if(!(var9 != var2)) { _fun0008_ip = 146; continue _fun0008 }
+                                if(!(var9 != var2)) { _fun0008_ip = 147; continue _fun0008 }
 case 7:
                                 var11 = _closure1_slot0;
                                 var12 = _closure1_slot2;
@@ -1139,12 +1148,12 @@ case 7:
                                 var5['rejectWithError'] = var13;
                                 var5 = var11.bind(var12)(var5);
                                 SaveGenerator(address=200);
-case 117:
+case 148:
                                 return var5;
 case 86:
                                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=10);
-                                if(var11) { _fun0008_ip = 147; continue _fun0008 }
-case 148:
+                                if(var11) { _fun0008_ip = 100; continue _fun0008 }
+case 149:
                                 var14 = _closure1_slot5;
                                 var12 = var14.info;
                                 var11 = {};
@@ -1165,7 +1174,7 @@ case 148:
                                 var10['orderId'] = var13;
                                 var10 = var11.bind(var12)(var10);
                                 SaveGenerator(address=298);
-case 149:
+case 99:
                                 return var10;
 case 55:
                                 ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
@@ -1176,10 +1185,10 @@ case 101: // try_end0 // try_end2
 case 150:
                                 _closure1_slot7 = var9;
                                 return var10;
-case 147:
+case 100:
                                 _closure1_slot7 = var9;
                                 return var5;
-case 146: // try_start_1 // try_start_3
+case 147: // try_start_1 // try_start_3
                                 var5 = global;
                                 var10 = var5.Error;
                                 var12 = _closure4_slot0;
@@ -1194,7 +1203,7 @@ case 146: // try_start_1 // try_start_3
                                 var5 = new var18[var10](var17, var16);
                                 var5 = var5 instanceof Object ? var5 : var9;
                                 throw var5;
-case 144: // try_end1 // try_end3
+case 146: // try_end1 // try_end3
                                 var5 = null;
                                 _closure1_slot7 = var5;
                                 return var2;
@@ -1259,7 +1268,7 @@ case 156: // catch_target2 // catch_target3 // catch_target4
                                 var3 = null;
                                 _closure1_slot7 = var3;
                                 throw var2;
-case 140:
+case 142:
                                 return var1;
                             }
                         };
@@ -1297,7 +1306,7 @@ case 11:
                     return var3;
 case 161:
                     return var2;
-case 137:
+case 139:
                     return var1;
                 }
             };

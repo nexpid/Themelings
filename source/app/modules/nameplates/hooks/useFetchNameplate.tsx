@@ -25,52 +25,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var8 = 0;
-            var1 = var1[var8];
-            var7 = undefined;
-            var3 = var2.bind(var7)(var1);
-            var2 = var3.useFetchCollectiblesProduct;
+            var7 = 0;
+            var1 = var1[var7];
+            var6 = undefined;
+            var4 = var2.bind(var6)(var1);
+            var2 = var4.useFetchCollectiblesProduct;
             var1 = arg1;
-            var1 = var2.bind(var3)(var1);
-            var5 = var1.product;
+            var1 = var2.bind(var4)(var1);
+            var4 = var1.product;
             var2 = var1.isFetching;
-            var3 = null;
-            var1 = var3 == var5;
-            var9 = undefined;
+            var1 = null;
+            var1 = var1 == var4;
+            var8 = undefined;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var5.items;
-            var1 = var1[var8];
-            var9 = var1.type;
+            var1 = var4.items;
+            var1 = var1[var7];
+            var8 = var1.type;
 case 2:
-            var6 = _closure1_slot0;
-            var10 = _closure1_slot1;
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot1;
             var1 = 1;
-            var1 = var10[var1];
-            var1 = var6.bind(var7)(var1);
+            var1 = var9[var1];
+            var1 = var5.bind(var6)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.NAMEPLATE;
-            var6 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+            var5 = undefined;
+            if(!(var8 === var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var5.items;
-            var6 = var1[var8];
+            var1 = var4.items;
+            var5 = var1[var7];
 case 4:
             var1 = {};
-            var1['nameplateProduct'] = var5;
-            var1['nameplateRecord'] = var6;
-            var5 = var3 != var6;
-            var3 = undefined;
-            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var4 = 2;
-            var4 = var8[var4];
-            var5 = var5.bind(var7)(var4);
-            var4 = var5.getNameplateDataFromRecord;
-            var3 = var4.bind(var5)(var6);
-case 6:
+            var1['nameplateProduct'] = var4;
+            var1['nameplateRecord'] = var5;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 2;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.getNameplateData;
+            var3 = var3.bind(var4)(var5);
             var1['nameplateData'] = var3;
             var1['isFetching'] = var2;
             return var1;

@@ -157,20 +157,21 @@ case 2:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.product;
+            var3 = var1.nameplateData;
             var8 = var1.styles;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
-            var1 = var2.getNameplatePreviewUrl;
-            var10 = var1.bind(var2)(var3);
+            var1 = var2.getNameplateAssets;
+            var1 = var1.bind(var2)(var3);
+            var10 = var1.staticImageUrl;
             var1 = null;
             var2 = var1 == var10;
             if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+case 5:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -236,8 +237,8 @@ case 0:
             var3 = var1.subscriptionPlanId;
             var5 = var1.styles;
             var1 = null;
-            if(!(var1 != var3)) { _fun0004_ip = 5; continue _fun0004 }
-case 6:
+            if(!(var1 != var3)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;
@@ -253,19 +254,19 @@ case 6:
             var1['style'] = var8;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            if(var6) { _fun0004_ip = 7; continue _fun0004 }
+            if(var6) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
+            var6 = 9;
+            var6 = var9[var6];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.NitroWheelIcon;
+            _fun0004_ip = 10; continue _fun0004;
 case 8:
             var6 = 8;
             var6 = var9[var6];
             var6 = var8.bind(var4)(var6);
-            var7 = var6.NitroWheelIcon;
-            _fun0004_ip = 9; continue _fun0004;
-case 7:
-            var6 = 7;
-            var6 = var9[var6];
-            var6 = var8.bind(var4)(var6);
             var7 = var6.BoostGemIcon;
-case 9:
+case 10:
             var6 = {};
             var8 = 'custom';
             var6['size'] = var8;
@@ -275,7 +276,7 @@ case 9:
             var1['children'] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 5:
+case 6:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -283,7 +284,7 @@ case 5:
             var2['style'] = var5;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var5 = var5[var1];
             var1 = undefined;
             var5 = var6.bind(var1)(var5);
@@ -306,73 +307,85 @@ case 0:
             var1 = arg1;
             var6 = var1.product;
             var5 = var1.styles;
-            var1 = null;
-            if(!(var1 != var6)) { _fun0005_ip = 10; continue _fun0005 }
-case 6:
-            var3 = var6.type;
-            var7 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var8 = 9;
-            var2 = var2[var8];
+            var2 = null;
+            if(!(var2 != var6)) { _fun0005_ip = 11; continue _fun0005 }
+case 7:
+            var7 = var6.type;
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var9 = 10;
+            var3 = var3[var9];
             var4 = undefined;
-            var2 = var7.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.AVATAR_DECORATION;
-            if(!(var2 !== var3)) { _fun0005_ip = 11; continue _fun0005 }
-case 12:
-            var7 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var7.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.NAMEPLATE;
-            if(!(var2 !== var3)) { _fun0005_ip = 13; continue _fun0005 }
+            var3 = var8.bind(var4)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.AVATAR_DECORATION;
+            if(!(var3 !== var7)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var3 = var8.bind(var4)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.NAMEPLATE;
+            if(!(var3 !== var7)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var3 = var8.bind(var4)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.PROFILE_EFFECT;
+            if(!(var3 !== var7)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot3;
+            var3 = {};
+            var9 = var5.purchasePlaceholder;
+            var3['style'] = var9;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 7;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var10 = var9.ShopIcon;
+            var9 = {};
+            var11 = 'custom';
+            var9['size'] = var11;
+            var11 = {'width': 20, 'height': 20};
+            var9['style'] = var11;
+            var9 = var8.bind(var4)(var10, var9);
+            var3['children'] = var9;
+            var3 = var8.bind(var4)(var7, var3);
+            return var3;
+case 16:
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot10;
+            var3 = {};
+            var3['product'] = var6;
+            var3['styles'] = var5;
+            var3 = var8.bind(var4)(var7, var3);
+            return var3;
 case 14:
             var7 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var8];
-            var2 = var7.bind(var4)(var2);
-            var2 = var2.CollectiblesItemType;
-            var2 = var2.PROFILE_EFFECT;
-            if(!(var2 !== var3)) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
-            var7 = _closure1_slot5;
-            var3 = _closure1_slot3;
-            var2 = {};
-            var8 = var5.purchasePlaceholder;
-            var2['style'] = var8;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 6;
-            var8 = var10[var8];
-            var8 = var9.bind(var4)(var8);
-            var9 = var8.ShopIcon;
-            var8 = {};
-            var10 = 'custom';
-            var8['size'] = var10;
-            var10 = {'width': 20, 'height': 20};
-            var8['style'] = var10;
-            var8 = var7.bind(var4)(var9, var8);
-            var2['children'] = var8;
-            var2 = var7.bind(var4)(var3, var2);
+            var8 = _closure1_slot2;
+            var3 = 11;
+            var3 = var8[var3];
+            var7 = var7.bind(var4)(var3);
+            var3 = var7.getNameplateDataFromProductRecord;
+            var9 = var3.bind(var7)(var6);
+            var3 = var2 != var9;
+            var2 = null;
+            if(!var3) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot9;
+            var3 = {};
+            var3['nameplateData'] = var9;
+            var3['styles'] = var5;
+            var2 = var8.bind(var4)(var7, var3);
+case 18:
             return var2;
-case 15:
-            var7 = _closure1_slot5;
-            var3 = _closure1_slot10;
-            var2 = {};
-            var2['product'] = var6;
-            var2['styles'] = var5;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
-case 13:
-            var7 = _closure1_slot5;
-            var3 = _closure1_slot9;
-            var2 = {};
-            var2['product'] = var6;
-            var2['styles'] = var5;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
-case 11:
+case 12:
             var3 = _closure1_slot5;
             var2 = _closure1_slot8;
             var1 = {};
@@ -380,7 +393,7 @@ case 11:
             var1['styles'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
-case 10:
+case 11:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -388,7 +401,7 @@ case 10:
             var2['style'] = var5;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var5 = var5[var1];
             var1 = undefined;
             var5 = var6.bind(var1)(var5);
@@ -405,7 +418,7 @@ case 10:
         }
     };
     var _closure1_slot12 = var4;
-    var4 = 13;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -424,7 +437,7 @@ case 0:
             var11 = var1.bind(var5)();
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 10;
+            var1 = 12;
             var1 = var6[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.bind(var5)(var2);
@@ -437,68 +450,68 @@ case 0:
             var1 = null;
             var8 = var1 != var13;
             var3 = null;
-            if(!var8) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+            if(!var8) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var3 = var13;
-case 17:
+case 20:
             var3 = var6.bind(var7)(var3, var12);
             var8 = var3.displayName;
             var7 = var3.typeName;
             var6 = var3.isSubscription;
-            if(!(var1 != var2)) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
-            if(var6) { _fun0006_ip = 19; continue _fun0006 }
-case 4:
-            if(!(var1 == var13)) { _fun0006_ip = 19; continue _fun0006 }
-case 21:
-            return var1;
-case 19:
-            if(!(var1 != var8)) { _fun0006_ip = 22; continue _fun0006 }
+            if(!(var1 != var2)) { _fun0006_ip = 4; continue _fun0006 }
+case 22:
+            if(var6) { _fun0006_ip = 4; continue _fun0006 }
 case 23:
+            if(!(var1 == var13)) { _fun0006_ip = 4; continue _fun0006 }
+case 24:
+            return var1;
+case 4:
+            if(!(var1 != var8)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var2 = 11;
+            var2 = 13;
             var2 = var14[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.formatPrice;
             var14 = var2.bind(var3)(var9, var4);
             var17 = var8;
-            if(!(var1 != var7)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+            if(!(var1 != var7)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = '';
             var2 = ' • ';
             var17 = var4.bind(var3)(var8, var2, var7);
-case 24:
+case 27:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
             var7 = var11.container;
             var2['style'] = var7;
             var9 = _closure1_slot5;
-            if(var6) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+            if(var6) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var7 = _closure1_slot12;
             var6 = {};
             var15 = var1 != var13;
             var8 = null;
-            if(!var15) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+            if(!var15) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
             var8 = var13;
-case 28:
+case 31:
             var6['product'] = var8;
             var6['styles'] = var11;
             var7 = var9.bind(var5)(var7, var6);
-            _fun0006_ip = 30; continue _fun0006;
-case 26:
+            _fun0006_ip = 33; continue _fun0006;
+case 29:
             var8 = _closure1_slot11;
             var6 = {};
             var6['subscriptionPlanId'] = var12;
             var6['styles'] = var11;
             var7 = var9.bind(var5)(var8, var6);
-case 30:
+case 33:
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot6;
@@ -509,7 +522,7 @@ case 30:
             var13 = _closure1_slot5;
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 12;
+            var11 = 14;
             var10 = var15[var11];
             var10 = var12.bind(var5)(var10);
             var16 = var10.Text;
@@ -531,7 +544,7 @@ case 30:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 22:
+case 25:
             return var1;
         }
     };

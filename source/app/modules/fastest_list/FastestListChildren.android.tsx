@@ -27,7 +27,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var11 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 3;
@@ -35,7 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var10 = var11.create;
+    var4 = 4;
+    var4 = var6[var4];
+    var11 = var5.bind(var1)(var4);
+    var10 = var11.createStyles;
     var4 = {};
     var12 = {'position': 'absolute', 'opacity': 0, 'height': 0, 'top': 0};
     var4['portal'] = var12;
@@ -103,13 +105,19 @@ case 6:
             var _closure2_slot15 = var4;
             var _closure2_slot16 = var4;
             var _closure2_slot17 = var4;
+            var _closure2_slot18 = var4;
+            var6 = _closure1_slot6;
+            var6 = var6.bind(var4)();
+            _closure2_slot14 = var6;
             var8 = _closure1_slot3;
             var7 = var8.useMemo;
-            var6 = new Array(2);
-            var6[0] = var9;
-            var6[1] = var5;
+            var20 = var6.portal;
+            var6 = new Array(3);
+            var6[0] = var20;
+            var6[1] = var9;
+            var6[2] = var5;
             var5 = function() {
-                var1 = _closure1_slot6;
+                var1 = _closure2_slot14;
                 var2 = var1.portal;
                 var1 = new Array(2);
                 var1[0] = var2;
@@ -126,7 +134,7 @@ case 6:
             var5 = function() {
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 4;
+                var1 = 5;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -144,10 +152,10 @@ case 6:
             var7 = var7.bind(var4)(var9, var5);
             var5 = 0;
             var9 = var7[var5];
-            _closure2_slot14 = var9;
+            _closure2_slot15 = var9;
             var5 = 1;
             var5 = var7[var5];
-            _closure2_slot15 = var5;
+            _closure2_slot16 = var5;
             var21 = var8.useImperativeHandle;
             var20 = arg2;
             var7 = function() {
@@ -155,7 +163,7 @@ case 6:
                 var2 = function setVisibleItems(arg1) {
                     var1 = arg1;
                     var _closure4_slot0 = var1;
-                    var3 = _closure2_slot15;
+                    var3 = _closure2_slot16;
                     var1 = undefined;
                     var2 = function(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -163,7 +171,7 @@ case 0:
                             var1 = arg1;
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot1;
-                            var2 = 5;
+                            var2 = 6;
                             var2 = var4[var2];
                             var5 = undefined;
                             var4 = var3.bind(var5)(var2);
@@ -187,7 +195,7 @@ case 8:
             var7 = var8.useRef;
             var5 = _closure1_slot7;
             var5 = var7.bind(var8)(var5);
-            _closure2_slot16 = var5;
+            _closure2_slot17 = var5;
             var7 = var8.useMemo;
             var5 = new Array(12);
             var5[0] = var19;
@@ -277,16 +285,16 @@ case 16:
                             return var1;
                         }
                     };
-                    var3 = _closure2_slot14;
+                    var3 = _closure2_slot15;
                     var3 = var3.sectionsId;
                     if(!(var4 === var3)) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                    var3 = _closure2_slot16;
+                    var3 = _closure2_slot17;
                     var3 = var3.current;
                     var3 = var3.keyIndex;
                     var20 = global;
                     var7 = var20.Map;
-                    var4 = _closure2_slot16;
+                    var4 = _closure2_slot17;
                     var4 = var4.current;
                     var69 = var4.keys;
                     var5 = var7.prototype;
@@ -304,18 +312,18 @@ case 19:
                     var36 = new Array(0);
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot1;
-                    var7 = 6;
+                    var7 = 7;
                     var7 = var9[var7];
                     var18 = undefined;
                     var8 = var8.bind(var18)(var7);
-                    var7 = _closure2_slot14;
+                    var7 = _closure2_slot15;
                     var7 = var8.bind(var18)(var28, var7, var31);
                     var17 = var7.sectionStart;
                     var16 = var7.sectionEnd;
                     var10 = var7.itemStart;
                     var9 = var7.itemEnd;
                     var48 = var17 <= var16;
-                    var15 = 7;
+                    var15 = 8;
                     var14 = '';
                     var13 = '-';
                     var12 = null;
@@ -764,19 +772,19 @@ case 69:
                     var2['keyIndex'] = var3;
                     return var2;
 case 18:
-                    var1 = _closure2_slot16;
+                    var1 = _closure2_slot17;
                     var1 = var1.current;
                     return var1;
                 }
             };
             var5 = var7.bind(var8)(var3, var5);
-            _closure2_slot17 = var5;
+            _closure2_slot18 = var5;
             var7 = var8.useEffect;
             var3 = new Array(1);
             var3[0] = var5;
             var2 = function() {
-                var2 = _closure2_slot16;
-                var1 = _closure2_slot17;
+                var2 = _closure2_slot17;
+                var1 = _closure2_slot18;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
@@ -797,7 +805,7 @@ case 18:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

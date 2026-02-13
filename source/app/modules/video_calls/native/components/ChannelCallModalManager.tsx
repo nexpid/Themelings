@@ -140,28 +140,28 @@ case 0:
 case 10:
                         var2 = var5 != var7;
 case 9:
-                        if(!var2) { _fun0003_ip = 4; continue _fun0003 }
-case 11:
+                        if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var10 = _closure1_slot9;
                         var9 = var10.isInChannel;
                         var8 = var6.id;
                         var7 = var7.id;
                         var2 = var9.bind(var10)(var8, var7);
-case 4:
+case 11:
                         var5 = var5 != var6;
-                        if(!var5) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                        if(!var5) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var6 = _closure3_slot0;
                         var5 = var6.inVoiceChannel;
-case 12:
-                        if(!var5) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+case 13:
+                        if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var6 = _closure3_slot0;
                         var6 = var6.inVoiceChannel;
                         var5 = var6 !== var2;
-case 14:
-                        if(!var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+case 15:
+                        if(!var5) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot2;
                         var4 = 7;
@@ -185,7 +185,7 @@ case 17:
                         var4 = _closure3_slot0;
                         var3 = var4.terminate;
                         var3 = var3.bind(var4)();
-case 16:
+case 17:
                         var1 = _closure3_slot0;
                         var1['inVoiceChannel'] = var2;
                         var1 = undefined;
@@ -216,18 +216,18 @@ case 0:
                 var4 = var3.bind(var4)();
                 var6 = null;
                 var3 = var6 != var5;
-                if(!var3) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                if(!var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                 var3 = var6 != var4;
-case 18:
-                if(!var3) { _fun0004_ip = 20; continue _fun0004 }
+case 19:
+                if(!var3) { _fun0004_ip = 3; continue _fun0004 }
 case 21:
                 var7 = _closure1_slot9;
                 var6 = var7.isInChannel;
                 var5 = var5.id;
                 var4 = var4.id;
                 var3 = var6.bind(var7)(var5, var4);
-case 20:
+case 3:
                 var1['inVoiceChannel'] = var3;
                 var3 = _closure1_slot9;
                 var2 = var3.addChangeListener;

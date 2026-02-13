@@ -36,28 +36,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var7 = var1.channel;
         var _closure2_slot0 = var7;
-        var4 = _closure1_slot4;
-        var10 = _closure1_slot1;
-        var11 = _closure1_slot2;
-        var1 = 2;
-        var1 = var11[var1];
-        var3 = undefined;
-        var2 = var10.bind(var3)(var1);
-        var1 = {};
-        var1['channel'] = var7;
-        var8 = true;
-        var1['inModal'] = var8;
-        var1 = var4.bind(var3)(var2, var1);
-        var _closure2_slot1 = var1;
-        var9 = _closure1_slot3;
-        var8 = var9.useEffect;
+        var4 = _closure1_slot3;
+        var3 = var4.useEffect;
         var1 = var7.id;
         var2 = new Array(1);
         var2[0] = var1;
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -69,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 3;
+                var1 = 2;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -82,9 +69,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             return var1;
         };
-        var1 = var8.bind(var9)(var1, var2);
-        var1 = 4;
+        var1 = var3.bind(var4)(var1, var2);
+        var4 = _closure1_slot4;
+        var10 = _closure1_slot1;
+        var11 = _closure1_slot2;
+        var1 = 3;
         var1 = var11[var1];
+        var3 = undefined;
         var2 = var10.bind(var3)(var1);
         var1 = {};
         var8 = 'StageVoiceChat';
@@ -92,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var7.name;
         var1['title'] = var7;
         var7 = _closure1_slot0;
-        var6 = 5;
+        var6 = 4;
         var6 = var11[var6];
         var6 = var7.bind(var3)(var6);
         var7 = var6.StageIcon;
@@ -100,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 'sm';
         var6['size'] = var8;
         var8 = {};
-        var9 = 6;
+        var9 = 5;
         var9 = var11[var9];
         var9 = var10.bind(var3)(var9);
         var9 = var9.spacing;
@@ -110,7 +101,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var4.bind(var3)(var7, var6);
         var1['titleIcon'] = var6;
         var5 = function render() {
-            var1 = _closure2_slot1;
+            var4 = _closure1_slot4;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var5 = _closure2_slot0;
+            var1['channel'] = var5;
+            var5 = true;
+            var1['inModal'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
         var1['render'] = var5;

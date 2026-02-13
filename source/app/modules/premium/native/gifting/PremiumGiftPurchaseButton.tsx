@@ -124,7 +124,7 @@ case 2:
             var17 = 12;
             var17 = var14[var17];
             var18 = var13.bind(var5)(var17);
-            var17 = var18.getNameplateDataFromRecord;
+            var17 = var18.getNameplateData;
             var17 = var17.bind(var18)(var20);
             var11['nameplate'] = var17;
             var17 = true;
@@ -184,7 +184,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -234,16 +234,16 @@ case 6:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot12 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot12 = var7;
     var7 = var4.Fragment;
     var _closure1_slot13 = var7;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = function(arg1) {
         var1 = {};
         var2 = {};
@@ -374,17 +374,8 @@ case 6:
         var1['nameplateWrapper'] = var2;
         return var1;
     };
-    var4 = var7.bind(var9)(var4);
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 18;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PencilIcon;
-    var4 = {};
-    var9 = 'sm';
-    var4['size'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot16 = var4;
     var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -413,13 +404,13 @@ case 0:
             var1 = var1.bottom;
             var22 = var2.bind(var4)(var1);
             var3 = _closure1_slot0;
-            var1 = 19;
+            var1 = 18;
             var1 = var5[var1];
             var2 = var3.bind(var4)(var1);
             var1 = var2.useNavigation;
             var1 = var1.bind(var2)();
             var _closure2_slot1 = var1;
-            var1 = 20;
+            var1 = 19;
             var1 = var5[var1];
             var2 = var3.bind(var4)(var1);
             var1 = var2.useNativeGiftContext;
@@ -438,7 +429,7 @@ case 0:
             var _closure2_slot6 = var1;
             var2 = var2.setCurrentAnalyticsStep;
             var _closure2_slot7 = var2;
-            var2 = 21;
+            var2 = 20;
             var7 = var5[var2];
             var14 = var3.bind(var4)(var7);
             var13 = var14.useStateFromStores;
@@ -452,7 +443,7 @@ case 0:
                 return var1;
             };
             var26 = var13.bind(var14)(var8, var7);
-            var7 = 22;
+            var7 = 21;
             var7 = var5[var7];
             var8 = var3.bind(var4)(var7);
             var7 = var8.useCanPurchaseIAP;
@@ -470,7 +461,7 @@ case 0:
                     var2 = var3.getMarketingComponentByType;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 22;
                     var4 = var4[var1];
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
@@ -516,7 +507,7 @@ case 12:
             _closure2_slot9 = var20;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 24;
+            var2 = 23;
             var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var17 = var2.bind(var4)();
@@ -536,7 +527,7 @@ case 17:
                     var3 = _closure2_slot7;
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var2 = 25;
+                    var2 = 24;
                     var2 = var7[var2];
                     var8 = undefined;
                     var2 = var4.bind(var8)(var2);
@@ -552,7 +543,7 @@ case 18:
                     var3 = var4.navigate;
                     var2 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 25;
                     var1 = var9[var1];
                     var1 = var2.bind(var8)(var1);
                     var1 = var1.PremiumGiftScreens;
@@ -586,7 +577,7 @@ case 25:
                         var3 = var4.navigate;
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var2 = 26;
+                        var2 = 25;
                         var2 = var6[var2];
                         var2 = var5.bind(var1)(var2);
                         var2 = var2.PremiumGiftScreens;
@@ -669,7 +660,7 @@ case 34:
 case 33:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 27;
+            var1 = 26;
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.useFetchCollectiblesProduct;
@@ -701,7 +692,7 @@ case 39:
 case 38:
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var18 = 28;
+            var18 = 27;
             var3 = var3[var18];
             var23 = var8.bind(var4)(var3);
             var8 = var23.useThemeAndReducedMotionAwareAssetUrl;
@@ -765,7 +756,7 @@ case 51:
             var28 = _closure1_slot12;
             var24 = _closure1_slot1;
             var29 = _closure1_slot2;
-            var21 = 29;
+            var21 = 28;
             var21 = var29[var21];
             var24 = var24.bind(var4)(var21);
             var21 = {};
@@ -786,7 +777,7 @@ case 53:
             var29 = _closure1_slot12;
             var28 = _closure1_slot1;
             var30 = _closure1_slot2;
-            var24 = 29;
+            var24 = 28;
             var24 = var30[var24];
             var28 = var28.bind(var4)(var24);
             var24 = {};
@@ -849,7 +840,7 @@ case 59:
             var22 = var22.selectedRewardBannerContainer;
             var18['style'] = var22;
             var24 = _closure1_slot12;
-            var23 = _closure1_slot17;
+            var23 = _closure1_slot16;
             var22 = {};
             var22['collectiblesItem'] = var27;
             var22['currentUser'] = var26;
@@ -865,12 +856,20 @@ case 61:
             var22 = _closure1_slot12;
             var26 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var20 = 30;
+            var20 = 29;
             var20 = var23[var20];
             var20 = var26.bind(var4)(var20);
             var21 = var20.IconButton;
             var20 = {'variant': 'tertiary', 'size': 'sm'};
-            var24 = _closure1_slot16;
+            var28 = 'sm';
+            var27 = _closure1_slot12;
+            var24 = 30;
+            var24 = var23[var24];
+            var24 = var26.bind(var4)(var24);
+            var25 = var24.PencilIcon;
+            var24 = {};
+            var24['size'] = var28;
+            var24 = var27.bind(var4)(var25, var24);
             var20['icon'] = var24;
             var24 = var23[var16];
             var24 = var26.bind(var4)(var24);
@@ -968,7 +967,7 @@ case 0:
                     if(!var3) { _fun0006_ip = 68; continue _fun0006 }
 case 69:
                     var3 = _closure2_slot8;
-                    if(var3) { _fun0006_ip = 70; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 18; continue _fun0006 }
 case 68:
                     var4 = _closure2_slot2;
                     var3 = function() {
@@ -976,7 +975,7 @@ case 68:
                         var3 = var4.navigate;
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 26;
+                        var1 = 25;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var5.bind(var1)(var2);
@@ -986,11 +985,11 @@ case 68:
                         return var1;
                     };
                     var3 = var4.bind(var1)(var3);
-                    _fun0006_ip = 71; continue _fun0006;
-case 70:
+                    _fun0006_ip = 70; continue _fun0006;
+case 18:
                     var2 = _closure2_slot11;
                     var2 = var2.bind(var1)();
-case 71:
+case 70:
                     return var1;
                 }
             };

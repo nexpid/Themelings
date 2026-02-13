@@ -169,7 +169,7 @@ case 13:
                     var14 = var6;
                     var12 = var3;
                     var2 = var15[var7](var14, var13, var12, var11, var10);
-                    _fun0002_ip = 14; continue _fun0002;
+                    _fun0002_ip = 5; continue _fun0002;
 case 12:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -183,10 +183,10 @@ case 12:
                     var6 = var6.PREMIUM;
                     var2['screen'] = var6;
                     var2 = var3.bind(var4)(var2);
-case 14:
+case 5:
                     var2 = _closure2_slot4;
-                    if(!var2) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                    if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 14;
@@ -204,17 +204,17 @@ case 16:
                     var5 = _closure2_slot3;
                     var1['premium_type'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 15:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var1, var2);
             var1 = null;
-            if(!var3) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
-            var1 = var2;
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
+            var1 = var2;
+case 16:
             return var1;
         }
     };

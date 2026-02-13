@@ -83,15 +83,17 @@ case 4:
     var7 = var5.bind(var1)(var7);
     var8 = var7.View;
     var _closure1_slot7 = var8;
-    var8 = var7.ActivityIndicator;
-    var _closure1_slot8 = var8;
-    var9 = var7.StyleSheet;
+    var7 = var7.ActivityIndicator;
+    var _closure1_slot8 = var7;
     var7 = 7;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.jsx;
     var _closure1_slot9 = var7;
-    var8 = var9.create;
+    var7 = 8;
+    var7 = var6[var7];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createLegacyClassComponentStyles;
     var7 = {};
     var10 = {'flex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
     var7['container'] = var10;
@@ -216,31 +218,33 @@ case 13:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = this;
+                var3 = _closure1_slot10;
+                var2 = var1.context;
+                var5 = undefined;
+                var6 = var3.bind(var5)(var2);
                 var1 = var1.props;
                 var2 = var1.loading;
                 var1 = null;
                 if(!var2) { _fun0005_ip = 15; continue _fun0005 }
 case 16:
-                var5 = _closure1_slot9;
-                var4 = _closure1_slot7;
-                var3 = {};
-                var6 = _closure1_slot10;
+                var4 = _closure1_slot9;
+                var3 = _closure1_slot7;
+                var2 = {};
                 var6 = var6.container;
-                var3['style'] = var6;
+                var2['style'] = var6;
                 var7 = _closure1_slot8;
                 var6 = {'animating': true, 'color': null, 'size': 'large'};
                 var9 = _closure1_slot0;
-                var8 = _closure1_slot1;
-                var2 = 8;
-                var8 = var8[var2];
-                var2 = undefined;
-                var8 = var9.bind(var2)(var8);
+                var10 = _closure1_slot1;
+                var8 = 9;
+                var8 = var10[var8];
+                var8 = var9.bind(var5)(var8);
                 var8 = var8.unsafe_rawColors;
                 var8 = var8.BRAND_500;
                 var6['color'] = var8;
-                var6 = var5.bind(var2)(var7, var6);
-                var3['children'] = var6;
-                var1 = var5.bind(var2)(var4, var3);
+                var6 = var4.bind(var5)(var7, var6);
+                var2['children'] = var6;
+                var1 = var4.bind(var5)(var3, var2);
 case 15:
                 return var1;
             }
@@ -251,7 +255,12 @@ case 15:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 9;
+    var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeContext;
+    var2['contextType'] = var4;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -47,7 +47,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure2_slot0;
             var2 = function getScreens(arg1) {
-                var7 = function onClose() {
+                var1 = arg1;
+                var _closure4_slot0 = var1;
+                var1 = function onClose() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 2;
@@ -58,20 +60,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.bind(var2)();
                     return var1;
                 };
-                var _closure4_slot0 = var7;
-                var6 = _closure1_slot4;
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 3;
-                var1 = var5[var1];
-                var5 = undefined;
-                var1 = var3.bind(var5)(var1);
-                var3 = var1.ActivateDevice;
-                var1 = {};
-                var1['onClose'] = var7;
-                var7 = arg1;
-                var1['prefilledUserCode'] = var7;
-                var1 = var6.bind(var5)(var3, var1);
                 var _closure4_slot1 = var1;
                 var1 = {};
                 var2 = _closure1_slot5;
@@ -88,20 +76,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot4;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
                     var2 = var1.HeaderActionButton;
                     var1 = {};
                     var6 = _closure1_slot1;
-                    var5 = 5;
+                    var5 = 4;
                     var5 = var9[var5];
                     var5 = var6.bind(var3)(var5);
                     var1['source'] = var5;
-                    var5 = _closure4_slot0;
+                    var5 = _closure4_slot1;
                     var1['onPress'] = var5;
-                    var5 = 6;
+                    var5 = 5;
                     var6 = var9[var5];
                     var6 = var8.bind(var3)(var6);
                     var7 = var6.intl;
@@ -122,7 +110,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['headerRight'] = var5;
                 var4 = function render() {
-                    var1 = _closure4_slot1;
+                    var4 = _closure1_slot4;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 6;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.ActivateDevice;
+                    var1 = {};
+                    var6 = _closure4_slot1;
+                    var1['onClose'] = var6;
+                    var5 = _closure4_slot0;
+                    var1['prefilledUserCode'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['render'] = var4;
@@ -147,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = _closure1_slot5;
         var5 = var5.ACTIVATE_DEVICE;
         var1['initialRouteName'] = var5;
-        var5 = 6;
+        var5 = 5;
         var6 = var9[var5];
         var6 = var8.bind(var3)(var6);
         var7 = var6.intl;

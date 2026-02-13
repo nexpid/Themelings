@@ -1,11 +1,11 @@
 // app/modules/guild_scheduled_events/native/components/event_detail/EventDetailRsvpSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var12 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var1 = function EmptyDisplay(arg1) {
         var1 = arg1;
@@ -14,7 +14,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = _closure1_slot10;
         var4 = undefined;
         var7 = var1.bind(var4)();
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot9;
         var2 = _closure1_slot5;
         var1 = {};
         var9 = var7.emptyDisplayContainer;
@@ -22,7 +22,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7[0] = var9;
         var7[1] = var8;
         var1['style'] = var7;
-        var7 = _closure1_slot11;
+        var8 = _closure1_slot8;
+        var10 = _closure1_slot1;
+        var11 = _closure1_slot2;
+        var5 = 9;
+        var5 = var11[var5];
+        var7 = var10.bind(var4)(var5);
+        var5 = {};
+        var9 = 10;
+        var9 = var11[var9];
+        var9 = var10.bind(var4)(var9);
+        var5['icon'] = var9;
+        var7 = var8.bind(var4)(var7, var5);
         var5 = new Array(2);
         var5[0] = var7;
         var5[1] = var6;
@@ -30,18 +41,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function FetchErrorDisplay(arg1) {
         var1 = arg1;
         var6 = var1.style;
         var1 = _closure1_slot10;
         var4 = undefined;
         var8 = var1.bind(var4)();
-        var3 = _closure1_slot9;
-        var2 = _closure1_slot13;
+        var3 = _closure1_slot8;
+        var2 = _closure1_slot12;
         var1 = {};
         var1['style'] = var6;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var11 = _closure1_slot0;
         var12 = _closure1_slot2;
         var5 = 11;
@@ -67,18 +78,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = function NoUsersDisplay(arg1) {
         var1 = arg1;
         var6 = var1.style;
         var1 = _closure1_slot10;
         var4 = undefined;
         var8 = var1.bind(var4)();
-        var3 = _closure1_slot9;
-        var2 = _closure1_slot13;
+        var3 = _closure1_slot8;
+        var2 = _closure1_slot12;
         var1 = {};
         var1['style'] = var6;
-        var7 = _closure1_slot9;
+        var7 = _closure1_slot8;
         var11 = _closure1_slot0;
         var12 = _closure1_slot2;
         var5 = 11;
@@ -104,14 +115,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = function RemainingUsersRow(arg1) {
         var1 = arg1;
         var9 = var1.remainingUsersGroup;
         var1 = _closure1_slot10;
         var5 = undefined;
         var14 = var1.bind(var5)();
-        var4 = _closure1_slot9;
+        var4 = _closure1_slot8;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
         var1 = 13;
@@ -121,12 +132,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var1 = var14.userListRow;
         var2['DEPRECATED_style'] = var1;
-        var8 = _closure1_slot9;
+        var8 = _closure1_slot8;
         var7 = _closure1_slot5;
         var1 = {};
         var12 = var14.remainingUsersIconContainer;
         var1['style'] = var12;
-        var13 = _closure1_slot9;
+        var13 = _closure1_slot8;
         var16 = _closure1_slot1;
         var11 = 14;
         var11 = var10[var11];
@@ -160,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var5)(var3, var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function keyExtractor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -188,7 +199,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var4 = function EventDetailRsvpSheet(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -223,10 +234,10 @@ case 0:
                     var3 = var3.bind(var5)(var1);
                     var1 = var3.isRemainingUsersGroup;
                     var1 = var1.bind(var3)(var6);
-                    var4 = _closure1_slot9;
+                    var4 = _closure1_slot8;
                     if(var1) { _fun0003_ip = 5; continue _fun0003 }
 case 6:
-                    var3 = _closure1_slot12;
+                    var3 = _closure1_slot11;
                     var1 = {};
                     var1['eventUser'] = var6;
                     var7 = _closure2_slot0;
@@ -234,7 +245,7 @@ case 6:
                     var1 = var4.bind(var5)(var3, var1);
                     _fun0003_ip = 7; continue _fun0003;
 case 5:
-                    var3 = _closure1_slot16;
+                    var3 = _closure1_slot15;
                     var2 = {};
                     var2['remainingUsersGroup'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
@@ -249,7 +260,7 @@ case 7:
                 var1 = _closure1_slot10;
                 var4 = undefined;
                 var9 = var1.bind(var4)();
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 22;
@@ -261,7 +272,7 @@ case 7:
                 var1['style'] = var6;
                 var6 = false;
                 var1['scrollEnabled'] = var6;
-                var7 = _closure1_slot9;
+                var7 = _closure1_slot8;
                 var6 = _closure1_slot5;
                 var5 = {};
                 var10 = var9.staticMessageContentContainer;
@@ -291,7 +302,7 @@ case 12:
             var1 = 0;
             if(!(var1 !== var2)) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 22;
@@ -313,14 +324,14 @@ case 14:
             var6 = var7.bind(var5)(var6);
             var6 = var6.FormDivider;
             var1['ItemSeparatorComponent'] = var6;
-            var6 = _closure1_slot17;
+            var6 = _closure1_slot16;
             var1['keyExtractor'] = var6;
             var1 = var3.bind(var5)(var2, var1);
             _fun0002_ip = 15; continue _fun0002;
 case 13:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = {};
-            var7 = _closure1_slot15;
+            var7 = _closure1_slot14;
             var6 = {};
             var12 = var8.staticMessageContent;
             var11 = new Array(2);
@@ -333,9 +344,9 @@ case 13:
 case 15:
             _fun0002_ip = 16; continue _fun0002;
 case 11:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = {};
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var6 = {};
             var12 = var8.staticMessageContent;
             var11 = new Array(2);
@@ -348,7 +359,7 @@ case 11:
 case 16:
             _fun0002_ip = 17; continue _fun0002;
 case 10:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = {};
             var7 = _closure1_slot4;
             var6 = {'animating': true, 'color': null, 'size': 'large'};
@@ -395,104 +406,94 @@ case 17:
     var _closure1_slot5 = var2;
     var2 = 2;
     var2 = var7[var2];
-    var2 = var12.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var2 = 3;
     var2 = var7[var2];
-    var2 = var12.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 4;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var17 = var2.Fonts;
+    var16 = var2.Fonts;
     var2 = 5;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var8 = var2.jsxs;
+    var8 = var2.jsx;
     var _closure1_slot8 = var8;
-    var10 = var2.jsx;
-    var _closure1_slot9 = var10;
+    var2 = var2.jsxs;
+    var _closure1_slot9 = var2;
     var2 = 6;
     var2 = var7[var2];
-    var11 = var6.bind(var1)(var2);
-    var8 = var11.createStyles;
+    var10 = var6.bind(var1)(var2);
+    var8 = var10.createStyles;
     var2 = {};
-    var16 = 16;
-    var13 = {'flex': 1, 'padding': 16};
-    var2['staticMessageContentContainer'] = var13;
-    var13 = {};
-    var13['paddingTop'] = var16;
-    var2['userList'] = var13;
-    var13 = {};
-    var15 = 8;
-    var13['paddingVertical'] = var15;
-    var2['userListRow'] = var13;
-    var13 = {};
-    var14 = 7;
-    var18 = var7[var14];
-    var18 = var12.bind(var1)(var18);
-    var18 = var18.colors;
-    var18 = var18.TEXT_DEFAULT;
-    var13['color'] = var18;
-    var18 = var17.PRIMARY_SEMIBOLD;
-    var13['fontFamily'] = var18;
-    var13['fontSize'] = var16;
-    var2['userName'] = var13;
-    var16 = 'center';
-    var13 = {'alignItems': 'center', 'justifyContent': 'center', 'minHeight': 200};
-    var2['emptyDisplayContainer'] = var13;
-    var13 = {};
-    var18 = '100%';
-    var13['height'] = var18;
-    var2['staticMessageContent'] = var13;
-    var13 = {};
-    var18 = 24;
-    var13['paddingTop'] = var18;
-    var18 = var7[var15];
-    var20 = var12.bind(var1)(var18);
-    var19 = var17.DISPLAY_EXTRABOLD;
-    var17 = var7[var14];
-    var17 = var12.bind(var1)(var17);
+    var15 = 16;
+    var11 = {'flex': 1, 'padding': 16};
+    var2['staticMessageContentContainer'] = var11;
+    var11 = {};
+    var11['paddingTop'] = var15;
+    var2['userList'] = var11;
+    var11 = {};
+    var14 = 8;
+    var11['paddingVertical'] = var14;
+    var2['userListRow'] = var11;
+    var11 = {};
+    var12 = 7;
+    var17 = var7[var12];
+    var17 = var13.bind(var1)(var17);
     var17 = var17.colors;
-    var23 = var17.MOBILE_TEXT_HEADING_PRIMARY;
-    var17 = {};
-    var17['marginBottom'] = var15;
-    var22 = 20;
-    var25 = undefined;
-    var24 = var19;
-    var21 = var17;
-    var23 = var25[var20](var24, var23, var22, var21, var20);
-    var24 = var13;
-    var15 = copyDataProperties(var24, var23);
-    var15 = 'textAlign';
-    var13[var15] = var16;
-    var2['emptyDisplayTitle'] = var13;
-    var13 = {'tintColor': null, 'height': 18, 'width': 18};
-    var15 = var7[var14];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.MOBILE_TEXT_HEADING_PRIMARY;
-    var13['tintColor'] = var15;
-    var2['remainingUsersIcon'] = var13;
-    var13 = {'backgroundColor': null, 'borderRadius': 16, 'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
-    var14 = var7[var14];
-    var14 = var12.bind(var1)(var14);
+    var17 = var17.TEXT_DEFAULT;
+    var11['color'] = var17;
+    var17 = var16.PRIMARY_SEMIBOLD;
+    var11['fontFamily'] = var17;
+    var11['fontSize'] = var15;
+    var2['userName'] = var11;
+    var15 = 'center';
+    var11 = {'alignItems': 'center', 'justifyContent': 'center', 'minHeight': 200};
+    var2['emptyDisplayContainer'] = var11;
+    var11 = {};
+    var17 = '100%';
+    var11['height'] = var17;
+    var2['staticMessageContent'] = var11;
+    var11 = {};
+    var17 = 24;
+    var11['paddingTop'] = var17;
+    var17 = var7[var14];
+    var19 = var13.bind(var1)(var17);
+    var18 = var16.DISPLAY_EXTRABOLD;
+    var16 = var7[var12];
+    var16 = var13.bind(var1)(var16);
+    var16 = var16.colors;
+    var22 = var16.MOBILE_TEXT_HEADING_PRIMARY;
+    var16 = {};
+    var16['marginBottom'] = var14;
+    var21 = 20;
+    var24 = undefined;
+    var23 = var18;
+    var20 = var16;
+    var22 = var24[var19](var23, var22, var21, var20, var19);
+    var23 = var11;
+    var14 = copyDataProperties(var23, var22);
+    var14 = 'textAlign';
+    var11[var14] = var15;
+    var2['emptyDisplayTitle'] = var11;
+    var11 = {'tintColor': null, 'height': 18, 'width': 18};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
     var14 = var14.colors;
-    var14 = var14.BACKGROUND_BASE_LOWEST;
-    var13['backgroundColor'] = var14;
-    var2['remainingUsersIconContainer'] = var13;
-    var2 = var8.bind(var11)(var2);
+    var14 = var14.MOBILE_TEXT_HEADING_PRIMARY;
+    var11['tintColor'] = var14;
+    var2['remainingUsersIcon'] = var11;
+    var11 = {'backgroundColor': null, 'borderRadius': 16, 'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_BASE_LOWEST;
+    var11['backgroundColor'] = var12;
+    var2['remainingUsersIconContainer'] = var11;
+    var2 = var8.bind(var10)(var2);
     var _closure1_slot10 = var2;
-    var2 = 9;
-    var2 = var7[var2];
-    var8 = var12.bind(var1)(var2);
-    var2 = {};
-    var11 = 10;
-    var11 = var7[var11];
-    var11 = var12.bind(var1)(var11);
-    var2['icon'] = var11;
-    var2 = var10.bind(var1)(var8, var2);
-    var _closure1_slot11 = var2;
     var8 = var9.memo;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -560,7 +561,7 @@ case 0:
             var19 = var2.isMobileOnline;
             var18 = var2.isVROnline;
             var16 = var2.status;
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot8;
             var2 = 13;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
@@ -573,7 +574,7 @@ case 0:
             var7 = null;
             if(!var8) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-            var14 = _closure1_slot9;
+            var14 = _closure1_slot8;
             var9 = _closure1_slot1;
             var17 = _closure1_slot2;
             var15 = 17;
@@ -596,7 +597,7 @@ case 19:
             var7 = var14.bind(var5)(var9, var8);
 case 18:
             var2['leading'] = var7;
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot8;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
             var7 = 18;
@@ -652,7 +653,7 @@ case 22:
         }
     };
     var2 = var8.bind(var9)(var2);
-    var _closure1_slot12 = var2;
+    var _closure1_slot11 = var2;
     var5 = 'EventDetailRsvpSheet';
     var4['displayName'] = var5;
     var5 = 23;

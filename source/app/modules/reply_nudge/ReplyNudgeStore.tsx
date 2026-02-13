@@ -1626,20 +1626,25 @@ case 8:
         }
     };
     var2['MESSAGE_REACTION_ADD'] = var9;
-    var9 = function handleChannelSelect() {
+    var9 = function handleChannelSelect(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
-            var3 = _closure1_slot16;
-            var1 = var3.getLastSelectedChannelId;
-            var5 = var1.bind(var3)();
-            var1 = null;
-            var1 = var1 != var5;
+            var1 = arg1;
+            var3 = var1.guildId;
+            var6 = var1.channelId;
+            var2 = null;
+            var1 = var2 != var6;
             if(!var1) { _fun0026_ip = 130; continue _fun0026 }
-case 71:
-            var4 = _closure1_slot30;
-            var3 = undefined;
-            var2 = 'channel_opened';
-            var1 = var4.bind(var3)(var5, var2);
+case 131:
+            var2 = var2 == var3;
+            if(!var2) { _fun0026_ip = 132; continue _fun0026 }
+case 93:
+            var5 = _closure1_slot30;
+            var4 = undefined;
+            var3 = 'channel_opened';
+            var2 = var5.bind(var4)(var6, var3);
+case 132:
+            var1 = var2;
 case 130:
             return var1;
         }

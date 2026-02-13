@@ -28,20 +28,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.StyleSheet;
-    var _closure1_slot5 = var8;
+    var4 = var4.StyleSheet;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
-    var7 = var8.create;
+    var4 = 6;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'overflow': 'hidden'};
     var4['screens'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -52,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var8 = var1.children;
-            var10 = var1.activeIndex;
-            var _closure2_slot0 = var10;
+            var11 = var1.activeIndex;
+            var _closure2_slot0 = var11;
             var7 = var1.detachInactiveScreens;
             var4 = undefined;
             if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
@@ -86,52 +89,54 @@ case 11:
 case 10:
             var _closure2_slot5 = var1;
             var _closure2_slot6 = var4;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 4;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var11 = 0;
-            var2 = var10 >= var11;
-            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
-            var1 = global;
-            var9 = var1.Array;
-            var1 = var9.isArray;
-            var9 = var1.bind(var9)(var8);
-            var1 = 1;
-            if(!var9) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var1 = var8.length;
-case 14:
-            var2 = var10 < var1;
-case 12:
-            var1 = 'NativeFreezeScreens: invalid activeIndex';
-            var1 = var3.bind(var4)(var2, var1);
-            var3 = _closure1_slot4;
-            var2 = var3.useState;
-            var1 = new Array(1);
-            var1[0] = var10;
-            var3 = var2.bind(var3)(var1);
-            var2 = _closure1_slot3;
-            var1 = 2;
-            var1 = var2.bind(var4)(var3, var1);
-            var3 = var1[var11];
-            _closure2_slot6 = var3;
-            var9 = 1;
-            var2 = var1[var9];
-            var1 = var3.includes;
-            var1 = var1.bind(var3)(var10);
-            if(var1) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            var1 = new Array(1);
-            var14 = var1;
-            var13 = var3;
+            var2 = _closure1_slot7;
+            var6 = var2.bind(var4)();
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 4;
+            var2 = var9[var2];
+            var9 = var3.bind(var4)(var2);
             var12 = 0;
-            var3 = arraySpread(var14, var13, var12);
-            var1[var3] = var10;
-            var3 = var3 + var9;
-            var1 = var2.bind(var4)(var1);
+            var3 = var11 >= var12;
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var2 = global;
+            var10 = var2.Array;
+            var2 = var10.isArray;
+            var10 = var2.bind(var10)(var8);
+            var2 = 1;
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var2 = var8.length;
+case 14:
+            var3 = var11 < var2;
+case 12:
+            var2 = 'NativeFreezeScreens: invalid activeIndex';
+            var2 = var9.bind(var4)(var3, var2);
+            var9 = _closure1_slot4;
+            var3 = var9.useState;
+            var2 = new Array(1);
+            var2[0] = var11;
+            var9 = var3.bind(var9)(var2);
+            var3 = _closure1_slot3;
+            var2 = 2;
+            var2 = var3.bind(var4)(var9, var2);
+            var9 = var2[var12];
+            _closure2_slot6 = var9;
+            var10 = 1;
+            var3 = var2[var10];
+            var2 = var9.includes;
+            var2 = var2.bind(var9)(var11);
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var2 = new Array(1);
+            var15 = var2;
+            var14 = var9;
+            var13 = 0;
+            var9 = arraySpread(var15, var14, var13);
+            var2[var9] = var11;
+            var9 = var9 + var10;
+            var2 = var3.bind(var4)(var2);
 case 16:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
@@ -144,7 +149,6 @@ case 16:
             var1['enabled'] = var7;
             var7 = true;
             var1['hasTwoStates'] = var7;
-            var6 = _closure1_slot7;
             var6 = var6.screens;
             var1['style'] = var6;
             var6 = 'native-freeze-screens-container';
@@ -214,7 +218,7 @@ case 28:
                     var9 = {};
                     var10 = -1;
                     if(!var12) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+case 13:
                     var10 = 0;
 case 30:
                     var9['zIndex'] = var10;

@@ -801,21 +801,21 @@ case 71:
                     var _closure3_slot0 = var4;
                     var6 = null;
                     if(!(var6 != var4)) { _fun0009_ip = 73; continue _fun0009 }
-case 74:
+case 72:
                     var3 = var4.isReady;
                     var3 = var3.bind(var4)();
-                    if(var3) { _fun0009_ip = 75; continue _fun0009 }
+                    if(var3) { _fun0009_ip = 74; continue _fun0009 }
 case 73:
                     return var2;
-case 75:
+case 74:
                     var3 = var4.getCurrentRoute;
                     var3 = var3.bind(var4)();
                     var6 = var6 == var3;
                     var2 = undefined;
-                    if(var6) { _fun0009_ip = 76; continue _fun0009 }
-case 77:
-                    var2 = var3.key;
+                    if(var6) { _fun0009_ip = 75; continue _fun0009 }
 case 76:
+                    var2 = var3.key;
+case 75:
                     var _closure3_slot1 = var2;
                     var3 = var4.addListener;
                     var2 = 'state';
@@ -868,8 +868,8 @@ case 76:
                 return var1;
             };
             _closure2_slot26 = var1;
-            if(!(var8 != var31)) { _fun0001_ip = 78; continue _fun0001 }
-case 79:
+            if(!(var8 != var31)) { _fun0001_ip = 77; continue _fun0001 }
+case 78:
             var4 = _closure1_slot14;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -894,24 +894,24 @@ case 79:
             var15['openedAt'] = var10;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 80; continue _fun0001 }
-case 81:
-            var17 = var9.fetchStartedAt;
+            if(var18) { _fun0001_ip = 79; continue _fun0001 }
 case 80:
+            var17 = var9.fetchStartedAt;
+case 79:
             var15['fetchStartedAt'] = var17;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 82; continue _fun0001 }
-case 83:
-            var17 = var9.fetchEndedAt;
+            if(var18) { _fun0001_ip = 81; continue _fun0001 }
 case 82:
+            var17 = var9.fetchEndedAt;
+case 81:
             var15['fetchEndedAt'] = var17;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 84; continue _fun0001 }
-case 85:
-            var17 = var9.isLoaded;
+            if(var18) { _fun0001_ip = 83; continue _fun0001 }
 case 84:
+            var17 = var9.isLoaded;
+case 83:
             var15['isLoaded'] = var17;
             var19 = _closure1_slot15;
             var18 = _closure1_slot0;
@@ -926,8 +926,8 @@ case 84:
             var20 = var35.noPadding;
             var17['contentStyles'] = var20;
             var20 = undefined;
-            if(!var28) { _fun0001_ip = 86; continue _fun0001 }
-case 87:
+            if(!var28) { _fun0001_ip = 85; continue _fun0001 }
+case 86:
             var27 = _closure1_slot14;
             var41 = _closure1_slot0;
             var42 = _closure1_slot2;
@@ -956,7 +956,7 @@ case 87:
             var32 = var27.bind(var5)(var33, var32);
             var21['children'] = var32;
             var20 = var27.bind(var5)(var22, var21);
-case 86:
+case 85:
             var17['backdropChildren'] = var20;
             var22 = _closure1_slot14;
             var21 = _closure1_slot0;
@@ -976,10 +976,10 @@ case 86:
             var20['style'] = var25;
             var25 = {};
             var27 = undefined;
-            if(!var28) { _fun0001_ip = 88; continue _fun0001 }
-case 89:
-            var27 = 'none';
+            if(!var28) { _fun0001_ip = 87; continue _fun0001 }
 case 88:
+            var27 = 'none';
+case 87:
             var25['pointerEvents'] = var27;
             var20['contentContainerStyle'] = var25;
             var20['ref'] = var23;
@@ -1062,14 +1062,14 @@ case 0:
                     var6['initialSection'] = var2;
                     var2 = var1.isNonUserBot;
                     var3 = var2.bind(var1)();
-                    if(var3) { _fun0011_ip = 90; continue _fun0011 }
-case 91:
+                    if(var3) { _fun0011_ip = 89; continue _fun0011 }
+case 67:
                     var1 = var1.bot;
                     var7 = _closure1_slot14;
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    if(var1) { _fun0011_ip = 92; continue _fun0011 }
-case 93:
+                    if(var1) { _fun0011_ip = 90; continue _fun0011 }
+case 91:
                     var1 = 45;
                     var1 = var5[var1];
                     var8 = undefined;
@@ -1079,8 +1079,8 @@ case 93:
                     var10 = var6;
                     var9 = copyDataProperties(var11, var10);
                     var1 = var7.bind(var8)(var3, var1);
-                    _fun0011_ip = 94; continue _fun0011;
-case 92:
+                    _fun0011_ip = 92; continue _fun0011;
+case 90:
                     var3 = 44;
                     var3 = var5[var3];
                     var5 = undefined;
@@ -1090,9 +1090,9 @@ case 92:
                     var10 = var6;
                     var8 = copyDataProperties(var11, var10);
                     var1 = var7.bind(var5)(var4, var3);
-case 94:
-                    _fun0011_ip = 95; continue _fun0011;
-case 90:
+case 92:
+                    _fun0011_ip = 93; continue _fun0011;
+case 89:
                     var5 = _closure1_slot14;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -1105,7 +1105,7 @@ case 90:
                     var10 = var6;
                     var6 = copyDataProperties(var11, var10);
                     var1 = var5.bind(var4)(var3, var2);
-case 95:
+case 93:
                     return var1;
                 }
             };
@@ -1113,8 +1113,8 @@ case 95:
             var30 = new Array(2);
             var30[0] = var31;
             var31 = var8 != var37;
-            if(!var31) { _fun0001_ip = 96; continue _fun0001 }
-case 97:
+            if(!var31) { _fun0001_ip = 94; continue _fun0001 }
+case 95:
             var34 = _closure1_slot14;
             var33 = _closure1_slot1;
             var38 = _closure1_slot2;
@@ -1128,7 +1128,7 @@ case 97:
             var35 = var35.profileEffect;
             var32['style'] = var35;
             var31 = var34.bind(var5)(var33, var32);
-case 96:
+case 94:
             var30[1] = var31;
             var29['children'] = var30;
             var29 = var27.bind(var5)(var25, var29);
@@ -1167,8 +1167,8 @@ case 96:
             var6 = var4.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 98; continue _fun0001;
-case 78:
+            _fun0001_ip = 96; continue _fun0001;
+case 77:
             var4 = _closure1_slot14;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1185,24 +1185,24 @@ case 78:
             var6['openedAt'] = var10;
             var12 = var8 == var9;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 99; continue _fun0001 }
-case 100:
+            if(var12) { _fun0001_ip = 97; continue _fun0001 }
+case 98:
             var10 = var9.fetchStartedAt;
-case 99:
+case 97:
             var6['fetchStartedAt'] = var10;
             var12 = var8 == var9;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 101; continue _fun0001 }
-case 102:
+            if(var12) { _fun0001_ip = 99; continue _fun0001 }
+case 100:
             var10 = var9.fetchEndedAt;
-case 101:
+case 99:
             var6['fetchEndedAt'] = var10;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 103; continue _fun0001 }
-case 104:
+            if(var10) { _fun0001_ip = 101; continue _fun0001 }
+case 102:
             var8 = var9.isLoaded;
-case 103:
+case 101:
             var6['isLoaded'] = var8;
             var10 = _closure1_slot14;
             var16 = _closure1_slot0;
@@ -1244,7 +1244,7 @@ case 103:
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 98:
+case 96:
             return var1;
         }
     };

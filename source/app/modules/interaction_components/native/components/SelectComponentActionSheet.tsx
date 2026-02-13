@@ -1,11 +1,11 @@
 // app/modules/interaction_components/native/components/SelectComponentActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function SelectionHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -222,7 +222,10 @@ case 23:
             var12 = undefined;
             if(!(var14 !== var15)) { _fun0001_ip = 22; continue _fun0001 }
 case 24:
-            var12 = _closure1_slot12;
+            var15 = _closure1_slot8;
+            var14 = _closure1_slot4;
+            var13 = {};
+            var12 = var15.bind(var4)(var14, var13);
 case 22:
             var7['icon'] = var12;
             var7['tags'] = var11;
@@ -284,7 +287,7 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot12 = var1;
     var1 = function SelectionOptionItem(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -313,7 +316,7 @@ case 0:
             var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.TableRow;
@@ -397,14 +400,24 @@ case 42:
             var9 = null;
             if(!(var11 === var13)) { _fun0005_ip = 43; continue _fun0005 }
 case 44:
-            var9 = _closure1_slot13;
+            var14 = _closure1_slot8;
+            var12 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var11 = 14;
+            var11 = var15[var11];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.CheckmarkSmallBoldIcon;
+            var11 = {};
+            var15 = 'text-brand';
+            var11['color'] = var15;
+            var9 = var14.bind(var4)(var12, var11);
 case 43:
             _fun0005_ip = 45; continue _fun0005;
 case 41:
             var12 = _closure1_slot8;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 14;
+            var10 = 13;
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.FormCheckbox;
@@ -424,7 +437,7 @@ case 45:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -442,15 +455,15 @@ case 45:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot4 = var7;
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -460,90 +473,78 @@ case 45:
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot8 = var8;
-    var9 = var4.Fragment;
-    var _closure1_slot9 = var9;
+    var7 = var4.jsx;
+    var _closure1_slot8 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var9 = var10.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var11 = {};
-    var12 = 7;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_32;
-    var11['width'] = var14;
-    var14 = 'center';
-    var11['alignItems'] = var14;
-    var4['selectionOptionItemIconWrapper'] = var11;
-    var11 = {};
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var11['width'] = var14;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var11['height'] = var14;
-    var4['tagListIconWrapper'] = var11;
-    var11 = {};
-    var15 = {};
-    var14 = 0.75;
-    var15['scale'] = var14;
-    var14 = new Array(1);
-    var14[0] = var15;
-    var11['transform'] = var14;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_4;
-    var14 = -var14;
-    var11['top'] = var14;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_4;
-    var14 = -var14;
-    var11['left'] = var14;
-    var4['tagListIcon'] = var11;
-    var11 = {};
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_4;
-    var11['paddingHorizontal'] = var14;
-    var14 = var6[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var11['marginTop'] = var14;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
+    var9 = {};
+    var10 = 7;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_32;
+    var9['width'] = var12;
+    var12 = 'center';
+    var9['alignItems'] = var12;
+    var4['selectionOptionItemIconWrapper'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
     var12 = var12.PX_16;
-    var11['marginHorizontal'] = var12;
-    var4['textInputWrapper'] = var11;
-    var4 = var9.bind(var10)(var4);
+    var9['width'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var9['height'] = var12;
+    var4['tagListIconWrapper'] = var9;
+    var9 = {};
+    var13 = {};
+    var12 = 0.75;
+    var13['scale'] = var12;
+    var12 = new Array(1);
+    var12[0] = var13;
+    var9['transform'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_4;
+    var12 = -var12;
+    var9['top'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_4;
+    var12 = -var12;
+    var9['left'] = var12;
+    var4['tagListIcon'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_4;
+    var9['paddingHorizontal'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var9['marginTop'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['marginHorizontal'] = var10;
+    var4['textInputWrapper'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot12 = var4;
-    var4 = 12;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.CheckmarkSmallBoldIcon;
-    var4 = {};
-    var9 = 'text-brand';
-    var4['color'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot13 = var4;
     var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -775,7 +776,7 @@ case 52:
                     var7 = var2 > var1;
 case 55:
                     var3 = _closure1_slot8;
-                    var2 = _closure1_slot15;
+                    var2 = _closure1_slot13;
                     var1 = {};
                     var10 = _closure2_slot9;
                     var1['itemStyle'] = var10;
@@ -853,7 +854,7 @@ case 62:
             var1['startHeight'] = var6;
             var1['startExpanded'] = var5;
             var7 = _closure1_slot8;
-            var6 = _closure1_slot14;
+            var6 = _closure1_slot12;
             var5 = {};
             var5['selectionActionComponent'] = var23;
             var5['labelComponent'] = var22;

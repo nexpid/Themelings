@@ -21,12 +21,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
-    var10 = 1;
-    var4 = var6[var10];
+    var11 = 1;
+    var4 = var6[var11];
     var4 = var5.bind(var1)(var4);
     var8 = var4.View;
     var _closure1_slot4 = var8;
-    var8 = var4.StyleSheet;
+    var10 = var4.StyleSheet;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -38,13 +38,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var7 = var8.create;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var9['flex'] = var10;
+    var9['flex'] = var11;
     var4['container'] = var9;
     var9 = {};
-    var13 = var8.absoluteFillObject;
+    var13 = var10.absoluteFillObject;
     var14 = var9;
     var10 = copyDataProperties(var14, var13);
     var11 = 'hidden';
@@ -53,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['visualEffectView'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -65,20 +68,22 @@ case 0:
             var1 = arg1;
             var11 = var1.channel;
             var _closure2_slot0 = var11;
+            var2 = _closure1_slot8;
+            var4 = undefined;
+            var16 = var2.bind(var4)();
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var7 = 4;
+            var7 = 5;
             var2 = var8[var7];
-            var4 = undefined;
             var6 = var5.bind(var4)(var2);
-            var2 = 5;
+            var2 = 6;
             var2 = var8[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.VOICE_ACTION_SHEET;
             var2 = var6.bind(var4)(var2);
             var6 = var2.analyticsLocations;
             var9 = _closure1_slot0;
-            var2 = 6;
+            var2 = 7;
             var2 = var8[var2];
             var12 = var9.bind(var4)(var2);
             var10 = var12.useStateFromStores;
@@ -105,12 +110,12 @@ case 0:
 case 0:
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 8;
                     var1 = var7[var1];
                     var4 = undefined;
                     var6 = var3.bind(var4)(var1);
                     var5 = var6.isModalOpen;
-                    var1 = 8;
+                    var1 = 9;
                     var1 = var7[var1];
                     var8 = var3.bind(var4)(var1);
                     var7 = var8.getVoiceChannelKey;
@@ -122,7 +127,7 @@ case 0:
 case 3:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 10;
                     var2 = var5[var2];
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.initialize;
@@ -132,7 +137,7 @@ case 2:
                     var1 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 10;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -144,7 +149,7 @@ case 2:
                 }
             };
             var3 = var10.bind(var12)(var3, var9);
-            var3 = 10;
+            var3 = 11;
             var3 = var8[var3];
             var5 = var5.bind(var4)(var3);
             var3 = var5.requiresVoiceChannelsOnboard;
@@ -156,7 +161,7 @@ case 7:
             var5 = _closure1_slot6;
             var3 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var15[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.ActionSheet;
@@ -164,11 +169,10 @@ case 7:
             var10 = _closure1_slot7;
             var9 = _closure1_slot4;
             var8 = {};
-            var16 = _closure1_slot8;
             var12 = var16.container;
             var8['style'] = var12;
             var14 = _closure1_slot1;
-            var12 = 15;
+            var12 = 16;
             var12 = var15[var12];
             var13 = var14.bind(var4)(var12);
             var12 = {};
@@ -179,7 +183,7 @@ case 7:
             var13 = var5.bind(var4)(var13, var12);
             var12 = new Array(2);
             var12[0] = var13;
-            var13 = 16;
+            var13 = 17;
             var13 = var15[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
@@ -195,14 +199,14 @@ case 6:
             var8 = _closure1_slot7;
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var14[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.ActionSheet;
             var2 = {};
             var13 = _closure1_slot6;
             var12 = _closure1_slot1;
-            var9 = 13;
+            var9 = 14;
             var9 = var14[var9];
             var10 = var12.bind(var4)(var9);
             var9 = {};
@@ -210,7 +214,7 @@ case 6:
             var10 = var13.bind(var4)(var10, var9);
             var9 = new Array(2);
             var9[0] = var10;
-            var10 = 14;
+            var10 = 15;
             var10 = var14[var10];
             var12 = var12.bind(var4)(var10);
             var10 = {};
@@ -225,13 +229,13 @@ case 4:
             var8 = _closure1_slot6;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var12[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.ActionSheet;
             var2 = {};
             var10 = _closure1_slot1;
-            var9 = 12;
+            var9 = 13;
             var9 = var12[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};

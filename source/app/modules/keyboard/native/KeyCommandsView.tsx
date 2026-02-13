@@ -204,20 +204,22 @@ case 35:
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
         var7 = var4.requireNativeComponent;
-        var11 = var4.StyleSheet;
         var4 = 3;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
         var4 = var4.jsx;
         var _closure1_slot2 = var4;
-        var10 = var11.create;
+        var4 = 4;
+        var4 = var6[var4];
+        var11 = var5.bind(var1)(var4);
+        var10 = var11.createStyles;
         var4 = {};
         var12 = {};
         var12['flex'] = var13;
         var4['viewDefaults'] = var12;
         var4 = var10.bind(var11)(var4);
         var _closure1_slot3 = var4;
-        var4 = 4;
+        var4 = 5;
         var4 = var6[var4];
         var10 = var5.bind(var1)(var4);
         var4 = var10.isAndroid;
@@ -228,7 +230,7 @@ case 37:
         var4 = var7.bind(var1)(var4);
         _fun0001_ip = 38; continue _fun0001;
 case 36:
-        var7 = 5;
+        var7 = 6;
         var7 = var6[var7];
         var4 = var9.bind(var1)(var7);
 case 38:
@@ -249,7 +251,7 @@ case 38:
         var4['removeKeyCommand'] = var9;
         var4 = var7.bind(var8)(var4);
         var _closure1_slot5 = var4;
-        var4 = 6;
+        var4 = 7;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -262,24 +264,26 @@ case 38:
             var3 = Object.create(var1);
             var1 = 0;
             var3['style'] = var1;
-            var15 = {};
-            var14 = var4;
-            var13 = var3;
-            var11 = copyDataProperties(var15, var14, var13);
-            var5 = _closure1_slot1;
-            var3 = var5.useState;
-            var2 = new Array(0);
-            var6 = var3.bind(var5)(var2);
-            var3 = _closure1_slot0;
+            var16 = {};
+            var15 = var4;
+            var14 = var3;
+            var11 = copyDataProperties(var16, var15, var14);
+            var2 = _closure1_slot3;
             var4 = undefined;
+            var10 = var2.bind(var4)();
+            var6 = _closure1_slot1;
+            var3 = var6.useState;
+            var2 = new Array(0);
+            var9 = var3.bind(var6)(var2);
+            var3 = _closure1_slot0;
             var2 = 2;
-            var2 = var3.bind(var4)(var6, var2);
+            var2 = var3.bind(var4)(var9, var2);
             var9 = var2[var1];
             var _closure2_slot0 = var9;
             var1 = 1;
             var1 = var2[var1];
             var _closure2_slot1 = var1;
-            var3 = var5.useCallback;
+            var3 = var6.useCallback;
             var2 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -301,9 +305,9 @@ case 38:
                 return var1;
             };
             var1 = new Array(0);
-            var6 = var3.bind(var5)(var2, var1);
-            var _closure2_slot2 = var6;
-            var3 = var5.useCallback;
+            var12 = var3.bind(var6)(var2, var1);
+            var _closure2_slot2 = var12;
+            var3 = var6.useCallback;
             var2 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -326,12 +330,12 @@ case 38:
                 return var1;
             };
             var1 = new Array(0);
-            var1 = var3.bind(var5)(var2, var1);
+            var1 = var3.bind(var6)(var2, var1);
             var _closure2_slot3 = var1;
-            var3 = var5.useMemo;
+            var3 = var6.useMemo;
             var2 = new Array(3);
             var2[0] = var9;
-            var2[1] = var6;
+            var2[1] = var12;
             var2[2] = var1;
             var1 = function() {
                 var1 = {};
@@ -343,18 +347,17 @@ case 38:
                 var1['removeKeyCommand'] = var2;
                 return var1;
             };
-            var5 = var3.bind(var5)(var1, var2);
+            var6 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot2;
             var1 = _closure1_slot5;
             var2 = var1.Provider;
             var1 = {};
-            var1['value'] = var5;
+            var1['value'] = var6;
             var6 = _closure1_slot4;
             var5 = {};
-            var15 = var5;
-            var14 = var11;
-            var11 = copyDataProperties(var15, var14);
-            var10 = _closure1_slot3;
+            var16 = var5;
+            var15 = var11;
+            var11 = copyDataProperties(var16, var15);
             var11 = var10.viewDefaults;
             var10 = new Array(2);
             var10[0] = var11;
@@ -381,11 +384,11 @@ case 0:
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 28; continue _fun0005 }
+                    if(!(var1 != var2)) { _fun0005_ip = 4; continue _fun0005 }
 case 39:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
-case 28:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

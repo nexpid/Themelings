@@ -279,7 +279,7 @@ case 13:
         return var1;
     };
     var _closure1_slot11 = var6;
-    var9 = 20;
+    var9 = 23;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
@@ -290,7 +290,7 @@ case 13:
         var _closure2_slot0 = var4;
         var7 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var3 = 15;
+        var3 = 20;
         var3 = var6[var3];
         var5 = undefined;
         var3 = var7.bind(var5)(var3);
@@ -300,7 +300,7 @@ case 13:
         var3 = var3.bind(var5)();
         var _closure2_slot2 = var3;
         var4 = _closure1_slot0;
-        var3 = 16;
+        var3 = 21;
         var3 = var6[var3];
         var4 = var4.bind(var5)(var3);
         var3 = var4.useStateFromStoresObject;
@@ -322,22 +322,44 @@ case 16:
                 var2 = var2.ACTIVE;
                 var5 = var3 === var2;
 case 15:
-                var3 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                if(var5) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                var2 = 18;
-                var2 = var6[var2];
-                _fun0004_ip = 19; continue _fun0004;
-case 17:
-                var4 = 17;
-                var2 = var6[var4];
-case 19:
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 15;
+                var2 = var4[var2];
                 var9 = undefined;
-                var2 = var3.bind(var9)(var2);
+                var3 = var3.bind(var9)(var2);
+                var2 = var3.isMetaQuest;
+                var2 = var2.bind(var3)();
+                var4 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                if(var2) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+                if(var5) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                var2 = 19;
+                var2 = var7[var2];
+                _fun0004_ip = 21; continue _fun0004;
+case 19:
+                var3 = 18;
+                var2 = var7[var3];
+case 21:
+                var2 = var4.bind(var9)(var2);
+                _fun0004_ip = 22; continue _fun0004;
+case 17:
+                if(var5) { _fun0004_ip = 10; continue _fun0004 }
+case 8:
+                var3 = 17;
+                var3 = var7[var3];
+                _fun0004_ip = 23; continue _fun0004;
+case 10:
+                var6 = 16;
+                var3 = var7[var6];
+case 23:
+                var2 = var4.bind(var9)(var3);
+case 22:
                 var4 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 19;
+                var3 = 22;
                 var6 = var8[var3];
                 var6 = var4.bind(var9)(var6);
                 var7 = var6.intl;
@@ -345,15 +367,15 @@ case 19:
                 var3 = var8[var3];
                 var3 = var4.bind(var9)(var3);
                 var3 = var3.t;
-                if(var5) { _fun0004_ip = 20; continue _fun0004 }
-case 10:
+                if(var5) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                 var4 = var3.fjBNo1;
                 var4 = var6.bind(var7)(var4);
-                _fun0004_ip = 21; continue _fun0004;
-case 20:
+                _fun0004_ip = 26; continue _fun0004;
+case 24:
                 var3 = var3.CpkXwZ;
                 var4 = var6.bind(var7)(var3);
-case 21:
+case 26:
                 var8 = _closure1_slot13;
                 var13 = _closure2_slot0;
                 var6 = _closure2_slot1;
@@ -363,10 +385,10 @@ case 21:
                 var11 = var5;
                 var3 = var14[var8](var13, var12, var11, var10, var9);
                 var1 = {};
-                if(!var6) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(!var6) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                 var6 = _closure2_slot2;
-case 22:
+case 27:
                 var1['isFeatureEnabled'] = var6;
                 var1['isActive'] = var5;
                 var1['text'] = var4;
@@ -395,15 +417,15 @@ case 0:
             var3 = var3.bind(var4)();
             var4 = var3.platform;
             var3 = 'android';
-            if(!(var3 !== var4)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            if(!(var3 !== var4)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var3 = _closure1_slot8;
             var3 = var3.bind(var1)();
-            _fun0005_ip = 26; continue _fun0005;
-case 24:
+            _fun0005_ip = 31; continue _fun0005;
+case 29:
             var2 = _closure1_slot7;
             var2 = var2.bind(var1)();
-case 26:
+case 31:
             return var1;
         }
     };
@@ -429,8 +451,8 @@ case 0:
             var3 = var3.StorageKeys;
             var3 = var3.SCREENSHARE_ONBOARD;
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0006_ip = 27; continue _fun0006 }
-case 28:
+            if(var3) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
             var1 = function() {
                 var3 = _closure1_slot11;
                 var2 = _closure2_slot0;
@@ -438,7 +460,7 @@ case 28:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-case 27:
+case 32:
             return var1;
         }
     };

@@ -26,99 +26,101 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var2 = 3;
-            var2 = var5[var2];
-            var14 = undefined;
-            var4 = var3.bind(var14)(var2);
-            var2 = var4.getGradientThemeFromFlags;
-            var9 = var2.bind(var4)(var1);
-            var8 = var1.contrast;
-            var4 = var1.saturation;
-            var6 = var1.primaryColor;
-            var2 = 4;
-            var2 = var5[var2];
-            var5 = var3.bind(var14)(var2);
-            var3 = var5.getGradientThemeMetadata;
-            var2 = var1.gradient;
-            var2 = var3.bind(var5)(var9, var2);
-            var5 = null;
-            if(!(var5 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = var6[var2];
+            var15 = undefined;
+            var3 = var4.bind(var15)(var2);
+            var2 = var3.getGradientThemeFromFlags;
+            var10 = var2.bind(var3)(var1);
+            var9 = var1.contrast;
+            var5 = var1.saturation;
+            var7 = var1.primaryColor;
+            var2 = var1.enabledExperiments;
+            var3 = 4;
+            var3 = var6[var3];
+            var6 = var4.bind(var15)(var3);
+            var4 = var6.getGradientThemeMetadata;
+            var3 = var1.gradient;
+            var3 = var4.bind(var6)(var10, var3);
+            var6 = null;
+            if(!(var6 != var7)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = var1.theme;
-            var3 = var1.primaryColor;
-            var12 = var1.secondaryColor;
-            var9 = var5 == var3;
+            var14 = var1.theme;
+            var4 = var1.primaryColor;
+            var13 = var1.secondaryColor;
+            var10 = var6 == var4;
             var1 = null;
-            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var9 = 0;
-            var10 = var15[var9];
-            var16 = var11.bind(var14)(var10);
-            var10 = var16.int2hex;
-            var10 = var10.bind(var16)(var3);
-            var9 = var15[var9];
-            var11 = var11.bind(var14)(var9);
-            var9 = var11.int2hex;
-            if(!(var5 != var12)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var3 = var12;
-case 6:
-            var9 = var9.bind(var11)(var3);
-            var11 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var3 = 1;
-            var3 = var15[var3];
-            var3 = var11.bind(var14)(var3);
-            var12 = var3.bind(var14)(var10);
-            var11 = var12.mix;
-            var3 = 0.5;
-            var11 = var11.bind(var12)(var9, var3);
-            var3 = var11.hex;
-            var11 = var3.bind(var11)();
-            var3 = {};
             var12 = _closure1_slot0;
-            var7 = 2;
-            var7 = var15[var7];
-            var12 = var12.bind(var14)(var7);
-            var7 = var12.isThemeLight;
-            var12 = var7.bind(var12)(var13);
-            var7 = 'dark';
-            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+            var16 = _closure1_slot2;
+            var10 = 0;
+            var11 = var16[var10];
+            var17 = var12.bind(var15)(var11);
+            var11 = var17.int2hex;
+            var11 = var11.bind(var17)(var4);
+            var10 = var16[var10];
+            var12 = var12.bind(var15)(var10);
+            var10 = var12.int2hex;
+            if(!(var6 != var13)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var4 = var13;
+case 6:
+            var10 = var10.bind(var12)(var4);
+            var12 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var4 = 1;
+            var4 = var16[var4];
+            var4 = var12.bind(var15)(var4);
+            var13 = var4.bind(var15)(var11);
+            var12 = var13.mix;
+            var4 = 0.5;
+            var12 = var12.bind(var13)(var10, var4);
+            var4 = var12.hex;
+            var12 = var4.bind(var12)();
+            var4 = {};
+            var13 = _closure1_slot0;
+            var8 = 2;
+            var8 = var16[var8];
+            var13 = var13.bind(var15)(var8);
+            var8 = var13.isThemeLight;
+            var13 = var8.bind(var13)(var14);
+            var8 = 'dark';
+            if(!var13) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var7 = 'light';
+            var8 = 'light';
 case 8:
-            var3['theme'] = var7;
-            var7 = {};
-            var7['gradient.start'] = var10;
-            var7['gradient.mid'] = var11;
-            var7['gradient.end'] = var9;
-            var7['gradient.primary'] = var10;
-            var7['gradient.secondary'] = var9;
-            var3['colors'] = var7;
-            var1 = var3;
+            var4['theme'] = var8;
+            var8 = {};
+            var8['gradient.start'] = var11;
+            var8['gradient.mid'] = var12;
+            var8['gradient.end'] = var10;
+            var8['gradient.primary'] = var11;
+            var8['gradient.secondary'] = var10;
+            var4['colors'] = var8;
+            var1 = var4;
 case 4:
-            var2 = var1;
+            var3 = var1;
 case 2:
             var1 = {};
-            var9 = var5 != var6;
-            var3 = 1;
-            var7 = var3;
-            if(var9) { _fun0001_ip = 10; continue _fun0001 }
+            var10 = var6 != var7;
+            var4 = 1;
+            var8 = var4;
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var7 = var8;
+            var8 = var9;
 case 10:
-            var1['contrast'] = var7;
-            var5 = var5 != var6;
-            if(var5) { _fun0001_ip = 12; continue _fun0001 }
+            var1['contrast'] = var8;
+            var6 = var6 != var7;
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var3 = var4;
+            var4 = var5;
 case 12:
-            var1['saturation'] = var3;
-            var1['gradient'] = var2;
+            var1['saturation'] = var4;
+            var1['gradient'] = var3;
+            var1['enabledExperiments'] = var2;
             return var1;
         }
     };

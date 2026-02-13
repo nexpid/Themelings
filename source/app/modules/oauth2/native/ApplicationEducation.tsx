@@ -1,11 +1,11 @@
 // app/modules/oauth2/native/ApplicationEducation.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function ApplicationEducationEntry(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -35,7 +35,7 @@ case 2:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 14;
+            var6 = 13;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
@@ -52,7 +52,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -66,8 +66,8 @@ case 2:
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var11 = 1;
-    var4 = var6[var11];
+    var10 = 1;
+    var4 = var6[var10];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
@@ -79,41 +79,34 @@ case 2:
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot5 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
     var7 = var4.jsxs;
     var _closure1_slot6 = var7;
     var4 = var4.Fragment;
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {'flexDirection': 'column', 'gap': 16};
-    var4['applicationEducation'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 12};
-    var4['entry'] = var10;
-    var10 = {};
-    var10['flex'] = var11;
-    var4['entryText'] = var10;
-    var10 = {'width': 20, 'height': 20};
-    var11 = 5;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.TEXT_MUTED;
-    var10['tintColor'] = var11;
-    var4['entryIcon'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {'flexDirection': 'column', 'gap': 16};
+    var4['applicationEducation'] = var9;
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 12};
+    var4['entry'] = var9;
+    var9 = {};
+    var9['flex'] = var10;
+    var4['entryText'] = var9;
+    var9 = {'width': 20, 'height': 20};
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.TEXT_MUTED;
+    var9['tintColor'] = var10;
+    var4['entryIcon'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.AuthorizeFormSeparator;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot9 = var4;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -132,13 +125,13 @@ case 0:
             var12 = new Array(0);
             var4 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var1[var2];
             var2 = var4.bind(var5)(var2);
             var10 = var2.bind(var5)(var8);
             var2 = var3.includes;
             var4 = _closure1_slot0;
-            var6 = 8;
+            var6 = 7;
             var1 = var1[var6];
             var1 = var4.bind(var5)(var1);
             var1 = var1.OAuth2Scopes;
@@ -159,7 +152,7 @@ case 5:
 case 7:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var17 = 9;
+            var17 = 8;
             var1 = var2[var17];
             var1 = var3.bind(var5)(var1);
             var6 = var1.intl;
@@ -187,7 +180,7 @@ case 10:
             var4 = {};
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.FriendsIcon;
@@ -220,7 +213,7 @@ case 13:
             var3 = {};
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var2 = var13[var2];
             var2 = var11.bind(var5)(var2);
             var2 = var2.GameControllerIcon;
@@ -247,7 +240,7 @@ case 16:
             var2 = {};
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 13;
+            var11 = 12;
             var11 = var15[var11];
             var11 = var13.bind(var5)(var11);
             var11 = var11.SettingsIcon;
@@ -277,7 +270,7 @@ case 19:
 case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var17 = 9;
+            var17 = 8;
             var1 = var2[var17];
             var1 = var3.bind(var5)(var1);
             var6 = var1.intl;
@@ -305,7 +298,7 @@ case 22:
             var6 = {};
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.FriendsIcon;
@@ -338,7 +331,7 @@ case 25:
             var4 = {};
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.ChatSmileIcon;
@@ -365,7 +358,7 @@ case 28:
             var3 = {};
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var2 = var13[var2];
             var2 = var11.bind(var5)(var2);
             var2 = var2.GameControllerIcon;
@@ -392,7 +385,7 @@ case 31:
             var2 = {};
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var11 = 13;
+            var11 = 12;
             var11 = var15[var11];
             var11 = var13.bind(var5)(var11);
             var11 = var11.SettingsIcon;
@@ -449,7 +442,7 @@ case 39:
             var13 = _closure1_slot5;
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var9 = 14;
+            var9 = 13;
             var9 = var15[var9];
             var9 = var11.bind(var5)(var9);
             var11 = var9.Text;
@@ -465,7 +458,7 @@ case 37:
                 var2 = var1.iconComponent;
                 var1 = var1.text;
                 var5 = _closure1_slot5;
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot9;
                 var3 = {};
                 var3['iconComponent'] = var2;
                 var3['text'] = var1;
@@ -480,7 +473,15 @@ case 37:
             var8 = var4.bind(var5)(var8, var6);
             var6 = new Array(2);
             var6[0] = var8;
-            var7 = _closure1_slot9;
+            var9 = _closure1_slot5;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 14;
+            var7 = var10[var7];
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.AuthorizeFormSeparator;
+            var7 = {};
+            var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

@@ -1,10 +1,6 @@
 // app/modules/collectibles/utils/mappers.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
     var3 = exports;
-    var4 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var4;
     var1 = function parseServerUserNameplate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -114,23 +110,25 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot2 = var1;
+    var _closure1_slot0 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var6 = {};
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
     var1 = true;
-    var6['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 1;
-    var4 = var4[var1];
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = dependencyMap;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = require;
     var1 = undefined;
-    var6 = var5.bind(var1)(var4);
+    var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/utils/mappers.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function parseServerUserCollectibles(arg1) {
+    var2 = function parseServerUserCollectibles(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
@@ -155,7 +153,7 @@ case 6:
             if(!(var5 === var3)) { _fun0002_ip = 33; continue _fun0002 }
 case 34:
             var3 = {};
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot0;
             var5 = var4.nameplate;
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
@@ -167,26 +165,6 @@ case 30:
             return var1;
         }
     };
-    var3['parseServerUserCollectibles'] = var4;
-    var2 = function getNameplateDataFromRecord(arg1) {
-        var2 = arg1;
-        var1 = {};
-        var3 = var2.asset;
-        var1['src'] = var3;
-        var3 = var2.label;
-        var1['imgAlt'] = var3;
-        var5 = _closure1_slot0;
-        var4 = _closure1_slot1;
-        var3 = 0;
-        var4 = var4[var3];
-        var3 = undefined;
-        var4 = var5.bind(var3)(var4);
-        var3 = var4.getNameplatePalette;
-        var2 = var2.palette;
-        var2 = var3.bind(var4)(var2);
-        var1['palette'] = var2;
-        return var1;
-    };
-    var3['getNameplateDataFromRecord'] = var2;
+    var3['parseServerUserCollectibles'] = var2;
     return var1;
 })();

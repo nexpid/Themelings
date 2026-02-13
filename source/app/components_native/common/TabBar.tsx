@@ -31,7 +31,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var7 = var4.TouchableWithoutFeedback;
     var _closure1_slot5 = var7;
-    var8 = var4.StyleSheet;
     var4 = var4.FlatList;
     var _closure1_slot6 = var4;
     var4 = 3;
@@ -44,7 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot8 = var4;
-    var7 = var8.create;
+    var4 = 5;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {'flexDirection': 'row', 'alignItems': 'stretch'};
     var4['innerContainer'] = var9;
@@ -55,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var11;
     var4['tabActive'] = var9;
     var9 = {};
-    var11 = 5;
+    var11 = 6;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.unsafe_rawColors;
@@ -72,33 +74,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = arg1;
             var7 = var2.children;
-            var12 = var2.index;
-            var _closure2_slot0 = var12;
+            var16 = var2.index;
+            var _closure2_slot0 = var16;
             var14 = var2.isSelected;
             var9 = var2.tabStyle;
             var10 = var2.tabStyleActive;
             var13 = var2.tabStyleSelected;
-            var16 = var2.onSelect;
-            var _closure2_slot1 = var16;
-            var5 = _closure1_slot3;
-            var3 = var5.useState;
+            var17 = var2.onSelect;
+            var _closure2_slot1 = var17;
+            var2 = _closure1_slot9;
+            var4 = undefined;
+            var15 = var2.bind(var4)();
+            var6 = _closure1_slot3;
+            var3 = var6.useState;
             var2 = function() {
                 var1 = false;
                 return var1;
             };
-            var6 = var3.bind(var5)(var2);
+            var8 = var3.bind(var6)(var2);
             var3 = _closure1_slot2;
-            var4 = undefined;
             var2 = 2;
-            var3 = var3.bind(var4)(var6, var2);
+            var3 = var3.bind(var4)(var8, var2);
             var2 = 0;
             var11 = var3[var2];
             var2 = 1;
             var2 = var3[var2];
             var _closure2_slot2 = var2;
-            var8 = var5.useCallback;
-            var6 = new Array(1);
-            var6[0] = var2;
+            var12 = var6.useCallback;
+            var8 = new Array(1);
+            var8[0] = var2;
             var3 = function() {
                 var3 = _closure2_slot2;
                 var2 = undefined;
@@ -106,8 +110,8 @@ case 0:
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var8 = var8.bind(var5)(var3, var6);
-            var6 = var5.useCallback;
+            var12 = var12.bind(var6)(var3, var8);
+            var8 = var6.useCallback;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -117,11 +121,11 @@ case 0:
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var6 = var6.bind(var5)(var2, var3);
-            var3 = var5.useCallback;
+            var8 = var8.bind(var6)(var2, var3);
+            var3 = var6.useCallback;
             var2 = new Array(2);
-            var2[0] = var16;
-            var2[1] = var12;
+            var2[0] = var17;
+            var2[1] = var16;
             var1 = function() {
                 var3 = _closure2_slot1;
                 var2 = _closure2_slot0;
@@ -129,33 +133,30 @@ case 0:
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var5 = var3.bind(var5)(var1, var2);
+            var6 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
-            var12 = 'tab';
-            var1['accessibilityRole'] = var12;
-            var1['onPressIn'] = var8;
-            var1['onPressOut'] = var6;
-            var1['onPress'] = var5;
+            var16 = 'tab';
+            var1['accessibilityRole'] = var16;
+            var1['onPressIn'] = var12;
+            var1['onPressOut'] = var8;
+            var1['onPress'] = var6;
             var6 = _closure1_slot4;
             var5 = {};
-            var8 = _closure1_slot9;
-            var12 = var8.tab;
+            var12 = var15.tab;
             var8 = new Array(6);
             var8[0] = var12;
             var8[1] = var9;
             var12 = null;
             if(!var14) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var16 = _closure1_slot9;
-            var12 = var16.tabSelected;
+            var12 = var15.tabSelected;
 case 2:
             var8[2] = var12;
             var12 = null;
             if(!var11) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = _closure1_slot9;
             var12 = var15.tabActive;
 case 4:
             var8[3] = var12;
@@ -180,7 +181,7 @@ case 8:
         }
     };
     var _closure1_slot10 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -192,12 +193,12 @@ case 0:
             var2 = arg1;
             var11 = var2.initialNumTabsToRender;
             var14 = var2.tabs;
-            var19 = var2.tabIndexSelected;
-            var _closure2_slot0 = var19;
-            var18 = var2.tabStyle;
-            var _closure2_slot1 = var18;
-            var16 = var2.tabStyleActive;
-            var _closure2_slot2 = var16;
+            var20 = var2.tabIndexSelected;
+            var _closure2_slot0 = var20;
+            var19 = var2.tabStyle;
+            var _closure2_slot1 = var19;
+            var18 = var2.tabStyleActive;
+            var _closure2_slot2 = var18;
             var13 = var2.tabStyleSelected;
             var _closure2_slot3 = var13;
             var7 = var2.onSelect;
@@ -218,17 +219,19 @@ case 12:
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
+            var2 = _closure1_slot9;
+            var16 = var2.bind(var4)();
             var5 = _closure1_slot3;
             var3 = var5.useRef;
             var2 = null;
             var2 = var3.bind(var5)(var2);
             _closure2_slot6 = var2;
             var3 = var5.useRef;
-            var3 = var3.bind(var5)(var19);
+            var3 = var3.bind(var5)(var20);
             _closure2_slot7 = var3;
             var12 = var5.useEffect;
             var6 = new Array(1);
-            var6[0] = var19;
+            var6[0] = var20;
             var3 = function() {
                 var2 = _closure2_slot7;
                 var1 = _closure2_slot0;
@@ -329,7 +332,7 @@ case 16:
                 var1 = _closure2_slot6;
                 return var1;
             };
-            var15 = var3.bind(var4)(var19);
+            var15 = var3.bind(var4)(var20);
             var12 = var5.useCallback;
             var6 = function(arg1, arg2) {
                 var1 = global;
@@ -344,9 +347,9 @@ case 16:
             var12 = var12.bind(var5)(var6, var3);
             var6 = var5.useCallback;
             var3 = new Array(7);
-            var3[0] = var19;
-            var3[1] = var18;
-            var3[2] = var16;
+            var3[0] = var20;
+            var3[1] = var19;
+            var3[2] = var18;
             var3[3] = var13;
             var3[4] = var8;
             var3[5] = var7;
@@ -390,7 +393,7 @@ case 21:
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 6;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -407,14 +410,13 @@ case 21:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
-            var16 = _closure1_slot9;
             var5 = var16.container;
             var1['style'] = var5;
             var5 = 'tablist';
             var1['accessibilityRole'] = var5;
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var18 = var8[var5];
             var18 = var6.bind(var4)(var18);
             var19 = var18.intl;
@@ -425,7 +427,7 @@ case 21:
             var5 = var5.t1qXlK;
             var5 = var18.bind(var19)(var5);
             var1['accessibilityLabel'] = var5;
-            var5 = 6;
+            var5 = 7;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.GestureDetector;

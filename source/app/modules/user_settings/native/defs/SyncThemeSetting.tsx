@@ -39,11 +39,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 5;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.AnalyticEvents;
-    var _closure1_slot7 = var4;
-    var2 = var2.ThemeTypes;
-    var _closure1_slot8 = var2;
-    var2 = 11;
+    var2 = var2.AnalyticEvents;
+    var _closure1_slot7 = var2;
+    var2 = 10;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createToggle;
@@ -152,7 +150,7 @@ case 6:
         }
     };
     var2['onValueChange'] = var9;
-    var9 = function useSyncThemeAcrossClientsDescription() {
+    var8 = function useSyncThemeAcrossClientsDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -170,78 +168,9 @@ case 6:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var2['useDescription'] = var9;
-    var8 = function useIsSyncThemeAcrossClientsDisabled() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var6 = 7;
-            var4 = var5[var6];
-            var8 = undefined;
-            var10 = var3.bind(var8)(var4);
-            var9 = var10.useStateFromStores;
-            var4 = _closure1_slot5;
-            var7 = new Array(1);
-            var7[0] = var4;
-            var4 = function() {
-                var1 = _closure1_slot5;
-                var1 = var1.theme;
-                return var1;
-            };
-            var4 = var9.bind(var10)(var7, var4);
-            var6 = var5[var6];
-            var9 = var3.bind(var8)(var6);
-            var7 = var9.useStateFromStores;
-            var10 = _closure1_slot3;
-            var6 = new Array(1);
-            var6[0] = var10;
-            var1 = function() {
-                var1 = _closure1_slot3;
-                var1 = var1.mobilePendingThemeIndex;
-                return var1;
-            };
-            var7 = var7.bind(var9)(var6, var1);
-            var1 = 10;
-            var1 = var5[var1];
-            var3 = var3.bind(var8)(var1);
-            var1 = var3.useAllMobileThemes;
-            var6 = var1.bind(var3)();
-            var1 = null;
-            var5 = var1 != var7;
-            var3 = null;
-            if(!var5) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var9 = var1 == var6;
-            var5 = undefined;
-            if(var9) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
-            var6 = var6[var7];
-            var7 = var1 == var6;
-            var5 = undefined;
-            if(var7) { _fun0002_ip = 11; continue _fun0002 }
-case 13:
-            var5 = var6.theme;
-case 11:
-            var3 = var5;
-case 9:
-            if(!(var1 == var3)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var1 = _closure1_slot8;
-            var1 = var1.MIDNIGHT;
-            var1 = var4 === var1;
-            _fun0002_ip = 16; continue _fun0002;
-case 14:
-            var2 = _closure1_slot8;
-            var2 = var2.MIDNIGHT;
-            var1 = var3 === var2;
-case 16:
-            return var1;
-        }
-    };
-    var2['useIsDisabled'] = var8;
+    var2['useDescription'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

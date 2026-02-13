@@ -1,4 +1,4 @@
-// app/modules/pomelo/PomeloTypes.tsx
+// app/modules/unique_usernames/UniqueUsernamesTypes.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/pomelo/PomeloTypes.tsx';
+    var4 = 'modules/unique_usernames/UniqueUsernamesTypes.tsx';
     var4 = var5.bind(var6)(var4);
     var3['NameValidationState'] = var2;
     return var1;

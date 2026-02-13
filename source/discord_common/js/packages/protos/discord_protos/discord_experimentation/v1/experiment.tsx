@@ -126,6 +126,9 @@ case 9:
     var14['GUILD'] = var19;
     var7 = 'GUILD';
     var14[var19] = var7;
+    var14['CUSTOM'] = var4;
+    var7 = 'CUSTOM';
+    var14[var4] = var7;
     var _closure1_slot8 = var14;
     var13 = {};
     var13['SURFACE_UNSPECIFIED'] = var18;

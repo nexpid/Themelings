@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getGuildsComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 7;
+        var1 = 8;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getNotificationsComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getSettingsComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getYouComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getICYMIComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot9;
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 19;
+        var1 = 20;
         var1 = var3[var1];
         var3 = undefined;
         var2 = var2.bind(var3)(var1);
@@ -109,7 +109,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -138,7 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var9;
     var4 = var4.Fragment;
     var _closure1_slot11 = var4;
-    var9 = var10.create;
+    var4 = 7;
+    var4 = var6[var4];
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
     var4 = {};
     var11 = {};
     var12 = 'flex';
@@ -146,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['tabBar'] = var11;
     var4 = var9.bind(var10)(var4);
     var _closure1_slot12 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var4 = var9.createBottomTabNavigator;
@@ -160,20 +162,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var11 = arg1;
+            var2 = _closure1_slot12;
+            var4 = undefined;
+            var12 = var2.bind(var4)();
             var2 = var11.state;
             var3 = var2.routes;
             var2 = var2.index;
             var6 = var3[var2];
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var3 = var15[var2];
-            var4 = undefined;
             var5 = var13.bind(var4)(var3);
             var3 = var5.useTabsVisible;
             var10 = var3.bind(var5)(var6);
             var _closure2_slot0 = var10;
-            var3 = 15;
+            var3 = 16;
             var3 = var15[var3];
             var5 = var13.bind(var4)(var3);
             var3 = var5.useLaunchWelcomeNuxVisible;
@@ -223,7 +227,7 @@ case 4:
             };
             var14 = var6.bind(var5)(var2, var3);
             var3 = _closure1_slot1;
-            var2 = 16;
+            var2 = 17;
             var2 = var15[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -248,7 +252,7 @@ case 4:
             };
             var16 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot10;
-            var1 = 17;
+            var1 = 18;
             var1 = var15[var1];
             var1 = var13.bind(var4)(var1);
             var2 = var1.LayerScope;
@@ -256,14 +260,13 @@ case 4:
             var9 = _closure1_slot9;
             var6 = _closure1_slot4;
             var5 = {};
-            var12 = _closure1_slot12;
             var17 = var12.tabBar;
             var12 = new Array(2);
             var12[0] = var17;
             var12[1] = var14;
             var5['style'] = var12;
             var14 = _closure1_slot9;
-            var12 = 12;
+            var12 = 13;
             var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.BottomTabBar;
@@ -284,7 +287,7 @@ case 7:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 18;
+            var7 = 19;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -305,13 +308,13 @@ case 6:
     var2 = function TabsNavigator() {
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 20;
+        var1 = 21;
         var1 = var3[var1];
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
         var13 = var1.bind(var4)();
         var _closure2_slot0 = var13;
-        var1 = 21;
+        var1 = 22;
         var1 = var3[var1];
         var1 = var2.bind(var4)(var1);
         var12 = var1.bind(var4)();
@@ -325,7 +328,7 @@ case 0:
                 var1 = var1.bind(var2)(var3);
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 13;
+                var2 = 14;
                 var2 = var6[var2];
                 var7 = var5.bind(var3)(var2);
                 var6 = var7.useStateFromStores;
@@ -368,17 +371,17 @@ case 10:
         };
         var11 = var1.bind(var4)();
         var _closure2_slot2 = var11;
-        var1 = 22;
+        var1 = 23;
         var1 = var3[var1];
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
-        var1 = 23;
+        var1 = 24;
         var1 = var3[var1];
         var1 = var2.bind(var4)(var1);
         var9 = var1.bind(var4)();
         var _closure2_slot3 = var9;
         var2 = _closure1_slot0;
-        var1 = 24;
+        var1 = 25;
         var1 = var3[var1];
         var3 = var2.bind(var4)(var1);
         var2 = var3.useICYMIEnabled;
@@ -526,7 +529,7 @@ case 16:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 25;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

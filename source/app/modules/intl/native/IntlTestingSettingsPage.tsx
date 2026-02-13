@@ -1,113 +1,109 @@
 // app/modules/intl/native/IntlTestingSettingsPage.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var7 = var6[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot6 = var7;
-    var4 = var4.ScrollView;
-    var _closure1_slot7 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.setAppLocale;
-    var _closure1_slot8 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.jsxs;
-    var _closure1_slot10 = var7;
-    var8 = var4.jsx;
-    var _closure1_slot11 = var8;
-    var4 = 7;
-    var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
-    var4 = {};
-    var10 = {};
-    var11 = 8;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOW;
-    var10['backgroundColor'] = var11;
-    var4['wrap'] = var10;
-    var10 = {};
-    var11 = 16;
-    var10['padding'] = var11;
-    var4['container'] = var10;
-    var4 = var7.bind(var9)(var4);
-    var _closure1_slot12 = var4;
-    var4 = 9;
-    var7 = var6[var4];
-    var7 = var5.bind(var1)(var7);
-    var9 = var7.TableRadioRow;
-    var7 = {'label': 'English', 'value': 'en-US'};
-    var7 = var8.bind(var1)(var9, var7);
-    var _closure1_slot13 = var7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.TableRadioRow;
-    var4 = {'label': 'French', 'value': 'fr'};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot14 = var4;
-    var9 = 13;
-    var4 = var6[var9];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.TableRow;
-    var4 = {};
-    var10 = 'Active System';
-    var4['label'] = var10;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.TableRow;
-    var10 = var9.TrailingText;
-    var9 = {};
-    var11 = '@discord/intl';
-    var9['text'] = var11;
-    var9 = var8.bind(var1)(var10, var9);
-    var4['trailing'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot15 = var4;
-    var7 = function LocaleInfo() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+    var1 = function TestLocaleSelector() {
+        var4 = _closure1_slot11;
+        var7 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 9;
+        var1 = var9[var1];
+        var3 = undefined;
+        var1 = var7.bind(var3)(var1);
+        var2 = var1.TableRadioGroup;
+        var1 = {'title': 'Locale', 'hasIcons': false};
+        var5 = 10;
+        var5 = var9[var5];
+        var5 = var7.bind(var3)(var5);
+        var5 = var5.intl;
+        var5 = var5.currentLocale;
+        var1['defaultValue'] = var5;
+        var5 = function() {
+            var4 = _closure1_slot4;
+            var3 = undefined;
+            var2 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+                        StartGenerator();
+                        var6 = arg1;
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                        var2 = _closure1_slot8;
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var6);
+                        SaveGenerator(address=28);
+case 4:
+                        return var2;
+case 5:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                        var5 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var4 = 11;
+                        var4 = var7[var4];
+                        var5 = var5.bind(var3)(var4);
+                        var4 = var5.updateLocale;
+                        var4 = var4.bind(var5)(var6);
+                        return var3;
+case 6:
+                        return var2;
+case 2:
+                        return var1;
+                    }
+                };
+                return var1;
+            };
+            var2 = var4.bind(var3)(var2);
+            var _closure3_slot0 = var2;
+            var1 = function() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
+            return var1;
+        };
+        var5 = var5.bind(var3)();
+        var1['onChange'] = var5;
+        var11 = _closure1_slot10;
+        var6 = 12;
+        var5 = var9[var6];
+        var5 = var7.bind(var3)(var5);
+        var10 = var5.TableRadioRow;
+        var5 = {'label': 'English', 'value': 'en-US'};
+        var10 = var11.bind(var3)(var10, var5);
+        var5 = new Array(2);
+        var5[0] = var10;
+        var8 = _closure1_slot10;
+        var6 = var9[var6];
+        var6 = var7.bind(var3)(var6);
+        var7 = var6.TableRadioRow;
+        var6 = {'label': 'French', 'value': 'fr'};
+        var6 = var8.bind(var3)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot13 = var1;
+    var1 = function LocaleInfo() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var14[var1];
             var4 = undefined;
             var6 = var12.bind(var4)(var1);
@@ -136,7 +132,7 @@ case 0:
             var10 = _closure1_slot5;
             var8 = var10.useState;
             var2 = _closure1_slot1;
-            var1 = 15;
+            var1 = 14;
             var5 = var14[var1];
             var5 = var2.bind(var4)(var5);
             var5 = var5.locale;
@@ -158,7 +154,7 @@ case 0:
                     var3 = _closure2_slot0;
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var2);
@@ -177,24 +173,41 @@ case 0:
             var1 = var2.localeData;
             var1 = var1.bind(var2)();
             var10 = var1._abbr;
-            var3 = _closure1_slot10;
-            var1 = 16;
+            var3 = _closure1_slot11;
+            var1 = 15;
             var1 = var14[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.TableRowGroup;
             var1 = {};
-            var6 = _closure1_slot15;
+            var7 = _closure1_slot10;
+            var9 = 16;
+            var5 = var14[var9];
+            var5 = var12.bind(var4)(var5);
+            var6 = var5.TableRow;
+            var5 = {};
+            var8 = 'Active System';
+            var5['label'] = var8;
+            var16 = _closure1_slot10;
+            var8 = var14[var9];
+            var8 = var12.bind(var4)(var8);
+            var8 = var8.TableRow;
+            var15 = var8.TrailingText;
+            var8 = {};
+            var17 = '@discord/intl';
+            var8['text'] = var17;
+            var8 = var16.bind(var4)(var15, var8);
+            var5['trailing'] = var8;
+            var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(5);
             var5[0] = var6;
-            var8 = _closure1_slot11;
-            var9 = 13;
+            var8 = _closure1_slot10;
             var6 = var14[var9];
             var6 = var12.bind(var4)(var6);
             var7 = var6.TableRow;
             var6 = {};
             var15 = 'App locale';
             var6['label'] = var15;
-            var17 = _closure1_slot11;
+            var17 = _closure1_slot10;
             var15 = var14[var9];
             var15 = var12.bind(var4)(var15);
             var15 = var15.TableRow;
@@ -205,14 +218,14 @@ case 0:
             var6['trailing'] = var15;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot10;
             var6 = var14[var9];
             var6 = var12.bind(var4)(var6);
             var7 = var6.TableRow;
             var6 = {};
             var15 = 'System locale';
             var6['label'] = var15;
-            var17 = _closure1_slot11;
+            var17 = _closure1_slot10;
             var15 = var14[var9];
             var15 = var12.bind(var4)(var15);
             var15 = var15.TableRow;
@@ -223,20 +236,20 @@ case 0:
             var6['trailing'] = var15;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot10;
             var6 = var14[var9];
             var6 = var12.bind(var4)(var6);
             var7 = var6.TableRow;
             var6 = {};
             var15 = '@discord/intl locale';
             var6['label'] = var15;
-            var17 = _closure1_slot11;
+            var17 = _closure1_slot10;
             var15 = var14[var9];
             var15 = var12.bind(var4)(var15);
             var15 = var15.TableRow;
             var16 = var15.TrailingText;
             var15 = {};
-            var18 = 11;
+            var18 = 10;
             var18 = var14[var18];
             var18 = var12.bind(var4)(var18);
             var18 = var18.intl;
@@ -246,14 +259,14 @@ case 0:
             var6['trailing'] = var15;
             var6 = var8.bind(var4)(var7, var6);
             var5[3] = var6;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot10;
             var6 = var14[var9];
             var6 = var12.bind(var4)(var6);
             var7 = var6.TableRow;
             var6 = {};
             var15 = 'Moment locale';
             var6['label'] = var15;
-            var13 = _closure1_slot11;
+            var13 = _closure1_slot10;
             var9 = var14[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.TableRow;
@@ -263,10 +276,10 @@ case 0:
             var9 = var13.bind(var4)(var12, var9);
             var6['trailing'] = var9;
             var9 = 'Locale data does not match';
-            if(!(var11 === var10)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var11 === var10)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var9 = 'Locale data matches current locale';
-case 2:
+case 8:
             var6['subLabel'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[4] = var6;
@@ -275,91 +288,71 @@ case 2:
             return var1;
         }
     };
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot16 = var4;
-    var7 = function TestLocaleSelector() {
-        var4 = _closure1_slot10;
-        var7 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var1 = 10;
-        var1 = var8[var1];
-        var3 = undefined;
-        var1 = var7.bind(var3)(var1);
-        var2 = var1.TableRadioGroup;
-        var1 = {'title': 'Locale', 'hasIcons': false};
-        var5 = 11;
-        var5 = var8[var5];
-        var5 = var7.bind(var3)(var5);
-        var5 = var5.intl;
-        var5 = var5.currentLocale;
-        var1['defaultValue'] = var5;
-        var5 = function() {
-            var4 = _closure1_slot4;
-            var3 = undefined;
-            var2 = function* (arg1) {
-                var1 = function* anon_0_(arg1) {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                        StartGenerator();
-                        var6 = arg1;
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                        var2 = _closure1_slot8;
-                        var3 = undefined;
-                        var2 = var2.bind(var3)(var6);
-                        SaveGenerator(address=28);
-case 6:
-                        return var2;
-case 7:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                        var5 = _closure1_slot1;
-                        var7 = _closure1_slot2;
-                        var4 = 12;
-                        var4 = var7[var4];
-                        var5 = var5.bind(var3)(var4);
-                        var4 = var5.updateLocale;
-                        var4 = var4.bind(var5)(var6);
-                        return var3;
-case 8:
-                        return var2;
-case 4:
-                        return var1;
-                    }
-                };
-                return var1;
-            };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
-            return var1;
-        };
-        var5 = var5.bind(var3)();
-        var1['onChange'] = var5;
-        var7 = _closure1_slot13;
-        var5 = new Array(2);
-        var5[0] = var7;
-        var6 = _closure1_slot14;
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var7 = var6[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot6 = var7;
+    var4 = var4.ScrollView;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.setAppLocale;
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot10 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot11 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot17 = var4;
+    var9 = {};
+    var10 = 8;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_BASE_LOW;
+    var9['backgroundColor'] = var10;
+    var4['wrap'] = var9;
+    var9 = {};
+    var10 = 16;
+    var9['padding'] = var10;
+    var4['container'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot12 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -374,7 +367,7 @@ case 4:
         var3 = var5.useSyncExternalStore;
         var15 = _closure1_slot0;
         var17 = _closure1_slot2;
-        var14 = 11;
+        var14 = 10;
         var1 = var17[var14];
         var1 = var15.bind(var4)(var1);
         var1 = var1.intl;
@@ -382,7 +375,7 @@ case 4:
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -425,12 +418,12 @@ case 4:
         };
         var1 = new Array(0);
         var1 = var3.bind(var5)(var2, var1);
-        var3 = _closure1_slot11;
+        var3 = _closure1_slot10;
         var2 = _closure1_slot7;
         var1 = {};
         var5 = var8.wrap;
         var1['style'] = var5;
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot11;
         var5 = 18;
         var5 = var17[var5];
         var5 = var15.bind(var4)(var5);
@@ -440,12 +433,18 @@ case 4:
         var5['spacing'] = var9;
         var8 = var8.container;
         var5['style'] = var8;
-        var9 = _closure1_slot16;
+        var11 = _closure1_slot10;
+        var9 = _closure1_slot14;
+        var8 = {};
+        var9 = var11.bind(var4)(var9, var8);
         var8 = new Array(8);
         var8[0] = var9;
-        var9 = _closure1_slot17;
+        var12 = _closure1_slot10;
+        var11 = _closure1_slot13;
+        var9 = {};
+        var9 = var12.bind(var4)(var11, var9);
         var8[1] = var9;
-        var20 = _closure1_slot11;
+        var20 = _closure1_slot10;
         var9 = 19;
         var11 = var17[var9];
         var11 = var15.bind(var4)(var11);
@@ -467,7 +466,7 @@ case 4:
         var11['children'] = var21;
         var11 = var20.bind(var4)(var19, var11);
         var8[2] = var11;
-        var20 = _closure1_slot11;
+        var20 = _closure1_slot10;
         var11 = var17[var9];
         var11 = var15.bind(var4)(var11);
         var19 = var11.Text;
@@ -486,7 +485,7 @@ case 4:
         var11['children'] = var21;
         var11 = var20.bind(var4)(var19, var11);
         var8[3] = var11;
-        var20 = _closure1_slot11;
+        var20 = _closure1_slot10;
         var11 = var17[var9];
         var11 = var15.bind(var4)(var11);
         var19 = var11.Text;
@@ -504,7 +503,7 @@ case 4:
         var11['children'] = var21;
         var11 = var20.bind(var4)(var19, var11);
         var8[4] = var11;
-        var20 = _closure1_slot11;
+        var20 = _closure1_slot10;
         var11 = var17[var9];
         var11 = var15.bind(var4)(var11);
         var19 = var11.Text;
@@ -527,7 +526,7 @@ case 4:
         var11['children'] = var21;
         var11 = var20.bind(var4)(var19, var11);
         var8[5] = var11;
-        var20 = _closure1_slot11;
+        var20 = _closure1_slot10;
         var11 = var17[var9];
         var11 = var15.bind(var4)(var11);
         var19 = var11.Text;
@@ -545,7 +544,7 @@ case 4:
         var11['children'] = var21;
         var11 = var20.bind(var4)(var19, var11);
         var8[6] = var11;
-        var11 = _closure1_slot11;
+        var11 = _closure1_slot10;
         var9 = var17[var9];
         var9 = var15.bind(var4)(var9);
         var10 = var9.Text;
@@ -562,12 +561,12 @@ case 4:
         var17 = 'some user';
         var12['username'] = var17;
         var16 = function usernameHook(arg1) {
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot10;
             var3 = _closure1_slot6;
             var2 = {};
             var5 = {'backgroundColor': 'green', 'borderRadius': 4, 'paddingHorizontal': 6, 'paddingVertical': 0};
             var2['style'] = var5;
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot10;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 19;

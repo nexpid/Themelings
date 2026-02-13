@@ -55,9 +55,9 @@ case 5:
             var4 = var4.bind(var5)(var2);
             var2 = var4.getConstants;
             var2 = var2.bind(var4)();
-            var3 = var2.deviceModel;
+            var3 = var2.deviceBrand;
 case 4:
-            var2 = 'Quest';
+            var2 = 'oculus';
             var1 = var2 === var3;
 case 2:
             return var1;

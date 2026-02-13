@@ -1,11 +1,11 @@
 // app/modules/contact_sync/native/components/ContactSyncNameUpdateModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,11 +18,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
+    var4 = var13.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
@@ -42,8 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot8 = var9;
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
     var11 = function onClose() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -58,27 +58,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var11;
     var4 = 7;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var8 = var10.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var4 = {};
-    var12 = {'flex': 1, 'backgroundColor': null, 'justifyContent': 'center'};
-    var13 = 8;
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOW;
-    var12['backgroundColor'] = var13;
-    var13 = 9;
-    var13 = var6[var13];
-    var13 = var5.bind(var1)(var13);
-    var14 = var13.NAV_BAR_HEIGHT;
-    var13 = 32;
-    var13 = var14 + var13;
-    var12['paddingTop'] = var13;
-    var4['container'] = var12;
-    var4 = var8.bind(var10)(var4);
+    var10 = {'flex': 1, 'backgroundColor': null, 'justifyContent': 'center'};
+    var12 = 8;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_BASE_LOW;
+    var10['backgroundColor'] = var12;
+    var12 = 9;
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var13 = var12.NAV_BAR_HEIGHT;
+    var12 = 32;
+    var12 = var13 + var12;
+    var10['paddingTop'] = var12;
+    var4['container'] = var10;
+    var4 = var8.bind(var9)(var4);
     var _closure1_slot10 = var4;
-    var8 = function ContactSyncNameInputScreen() {
+    var4 = function ContactSyncNameInputScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = _closure1_slot10;
@@ -238,14 +238,16 @@ case 14:
             return var1;
         }
     };
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
     var _closure1_slot11 = var4;
     var4 = {};
     var8 = var7.NAME_INPUT;
     var7 = {'render': null, 'ignoreKeyboard': true, 'fullscreen': true, 'headerLeft': null, 'title': ''};
     var9 = function render() {
-        var1 = _closure1_slot11;
+        var4 = _closure1_slot8;
+        var3 = _closure1_slot11;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var7['render'] = var9;

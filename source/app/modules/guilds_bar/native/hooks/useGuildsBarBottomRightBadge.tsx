@@ -28,22 +28,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.StyleSheet;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.BADGE_MASK_SIZE;
     var _closure1_slot5 = var7;
     var7 = var4.BADGE_MASK_UNREAD_SIZE;
     var _closure1_slot6 = var7;
     var4 = var4.BADGE_PADDING;
     var _closure1_slot7 = var4;
-    var4 = 4;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot8 = var4;
-    var8 = var9.create;
+    var4 = 4;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var7 = {};
     var4 = 9;
     var10 = {'position': 'absolute', 'bottom': 1, 'right': 9, 'backgroundColor': 'transparent', 'borderColor': 'transparent'};
@@ -59,23 +58,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var6 = var2.mentionCount;
-            var _closure2_slot0 = var6;
-            var5 = var2.isMentionLowImportance;
-            var _closure2_slot1 = var5;
-            var7 = var2.joinRequestState;
-            var _closure2_slot2 = var7;
-            var8 = var2.shouldShowInvitesDisabled;
-            var10 = undefined;
-            if(!(var8 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+            var7 = var2.mentionCount;
+            var _closure2_slot0 = var7;
+            var6 = var2.isMentionLowImportance;
+            var _closure2_slot1 = var6;
+            var8 = var2.joinRequestState;
+            var _closure2_slot2 = var8;
+            var9 = var2.shouldShowInvitesDisabled;
+            var11 = undefined;
+            if(!(var9 === var11)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = false;
+            var9 = false;
 case 2:
-            var _closure2_slot3 = var8;
-            var _closure2_slot4 = var10;
-            var _closure2_slot5 = var10;
+            var _closure2_slot3 = var9;
+            var _closure2_slot4 = var11;
+            var _closure2_slot5 = var11;
+            var _closure2_slot6 = var11;
+            var3 = _closure1_slot9;
+            var5 = var3.bind(var11)();
+            _closure2_slot4 = var5;
             var4 = _closure1_slot4;
-            var9 = var4.useState;
+            var10 = var4.useState;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -91,23 +94,25 @@ case 6:
                     return var1;
                 }
             };
-            var9 = var9.bind(var4)(var3);
+            var10 = var10.bind(var4)(var3);
             var3 = _closure1_slot3;
             var2 = 2;
-            var3 = var3.bind(var10)(var9, var2);
+            var3 = var3.bind(var11)(var10, var2);
             var2 = 0;
-            var9 = var3[var2];
-            _closure2_slot4 = var9;
+            var10 = var3[var2];
+            _closure2_slot5 = var10;
             var2 = 1;
             var2 = var3[var2];
-            _closure2_slot5 = var2;
+            _closure2_slot6 = var2;
             var3 = var4.useMemo;
-            var2 = new Array(5);
-            var2[0] = var9;
-            var2[1] = var8;
-            var2[2] = var7;
-            var2[3] = var6;
-            var2[4] = var5;
+            var2 = new Array(6);
+            var2[0] = var10;
+            var2[1] = var9;
+            var2[2] = var8;
+            var2[3] = var7;
+            var2[4] = var6;
+            var5 = var5.bottomRightBadge;
+            var2[5] = var5;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -130,22 +135,22 @@ case 11:
                     return var1;
 case 10:
                     var4 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var1 = 5;
-                    var1 = var9[var1];
+                    var1 = var8[var1];
                     var6 = undefined;
-                    var2 = var4.bind(var6)(var1);
+                    var3 = var4.bind(var6)(var1);
                     var1 = {};
-                    var3 = 'bottom-right';
-                    var1['position'] = var3;
-                    var3 = var2.bind(var6)(var1);
+                    var5 = 'bottom-right';
+                    var1['position'] = var5;
+                    var3 = var3.bind(var6)(var1);
                     var1 = {};
                     var5 = _closure1_slot8;
                     var2 = 8;
-                    var2 = var9[var2];
+                    var2 = var8[var2];
                     var4 = var4.bind(var6)(var2);
                     var2 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure2_slot4;
                     var8 = var8.bottomRightBadge;
                     var2['style'] = var8;
                     var2 = var5.bind(var6)(var4, var2);
@@ -157,22 +162,22 @@ case 10:
                     return var1;
 case 9:
                     var4 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var1 = 5;
-                    var1 = var9[var1];
+                    var1 = var8[var1];
                     var6 = undefined;
-                    var2 = var4.bind(var6)(var1);
+                    var3 = var4.bind(var6)(var1);
                     var1 = {};
-                    var3 = 'bottom-right';
-                    var1['position'] = var3;
-                    var3 = var2.bind(var6)(var1);
+                    var5 = 'bottom-right';
+                    var1['position'] = var5;
+                    var3 = var3.bind(var6)(var1);
                     var1 = {};
                     var5 = _closure1_slot8;
                     var2 = 7;
-                    var2 = var9[var2];
+                    var2 = var8[var2];
                     var4 = var4.bind(var6)(var2);
                     var2 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure2_slot4;
                     var8 = var8.bottomRightBadge;
                     var2['style'] = var8;
                     var8 = _closure2_slot2;
@@ -185,31 +190,31 @@ case 9:
                     var1['cutouts'] = var2;
                     return var1;
 case 7:
-                    var2 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var3 = _closure1_slot1;
+                    var8 = _closure1_slot2;
                     var1 = 5;
-                    var1 = var9[var1];
+                    var1 = var8[var1];
                     var6 = undefined;
-                    var2 = var2.bind(var6)(var1);
+                    var3 = var3.bind(var6)(var1);
                     var1 = {};
-                    var3 = 'bottom-right';
-                    var1['position'] = var3;
-                    var4 = _closure2_slot4;
-                    var5 = _closure1_slot7;
-                    var3 = 2;
-                    var3 = var3 * var5;
-                    var3 = var4 - var3;
-                    var1['width'] = var3;
-                    var3 = var2.bind(var6)(var1);
+                    var4 = 'bottom-right';
+                    var1['position'] = var4;
+                    var5 = _closure2_slot5;
+                    var9 = _closure1_slot7;
+                    var4 = 2;
+                    var4 = var4 * var9;
+                    var4 = var5 - var4;
+                    var1['width'] = var4;
+                    var3 = var3.bind(var6)(var1);
                     var1 = {};
                     var5 = _closure1_slot8;
                     var4 = _closure1_slot0;
                     var2 = 6;
-                    var2 = var9[var2];
+                    var2 = var8[var2];
                     var2 = var4.bind(var6)(var2);
                     var4 = var2.MaskedBadge;
                     var2 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure2_slot4;
                     var8 = var8.bottomRightBadge;
                     var2['maskStyle'] = var8;
                     var8 = _closure2_slot0;
@@ -226,15 +231,15 @@ case 0:
                             var1 = arg1;
                             var1 = var1.nativeEvent;
                             var1 = var1.layout;
-                            var4 = _closure2_slot4;
+                            var4 = _closure2_slot5;
                             var3 = var1.width;
-                            if(!(var4 !== var3)) { _fun0004_ip = 3; continue _fun0004 }
-case 12:
-                            var3 = _closure2_slot5;
+                            if(!(var4 !== var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                            var3 = _closure2_slot6;
                             var2 = var1.width;
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
-case 3:
+case 12:
                             var1 = undefined;
                             return var1;
                         }

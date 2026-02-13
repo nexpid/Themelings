@@ -414,38 +414,27 @@ case 12:
 case 44:
             var _closure2_slot2 = var23;
             var24 = var3.text;
+            var _closure2_slot3 = var24;
             var9 = var3.shrink;
             if(!(var9 === var5)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
             var9 = false;
 case 45:
-            var _closure2_slot3 = var9;
+            var _closure2_slot4 = var9;
             var11 = var3.disabled;
-            if(!(var11 === var5)) { _fun0006_ip = 28; continue _fun0006 }
-case 47:
-            var11 = false;
-case 28:
-            var _closure2_slot4 = var11;
-            var13 = var3.loading;
-            if(!(var13 === var5)) { _fun0006_ip = 48; continue _fun0006 }
-case 25:
-            var13 = false;
+            if(!(var11 === var5)) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
-            var _closure2_slot5 = var13;
-            var41 = var3.loadingColorDark;
-            if(!(var41 === var5)) { _fun0006_ip = 49; continue _fun0006 }
+            var11 = false;
+case 47:
+            var _closure2_slot5 = var11;
+            var13 = var3.loading;
+            if(!(var13 === var5)) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var4 = 6;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.unsafe_rawColors;
-            var41 = var4.WHITE;
+            var13 = false;
 case 49:
-            var _closure2_slot6 = var41;
-            var40 = var3.loadingColorLight;
-            if(!(var40 === var5)) { _fun0006_ip = 51; continue _fun0006 }
+            var _closure2_slot6 = var13;
+            var41 = var3.loadingColorDark;
+            if(!(var41 === var5)) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -453,26 +442,39 @@ case 52:
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.unsafe_rawColors;
-            var40 = var4.PRIMARY_500;
+            var41 = var4.WHITE;
 case 51:
-            var _closure2_slot7 = var40;
-            var42 = var3.textStyle;
-            var6 = var3.style;
-            var _closure2_slot8 = var6;
-            var33 = var3.accessibilityRole;
-            if(!(var33 === var5)) { _fun0006_ip = 53; continue _fun0006 }
+            var _closure2_slot7 = var41;
+            var40 = var3.loadingColorLight;
+            if(!(var40 === var5)) { _fun0006_ip = 53; continue _fun0006 }
 case 54:
-            var33 = 'button';
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 6;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.unsafe_rawColors;
+            var40 = var4.PRIMARY_500;
 case 53:
+            var _closure2_slot8 = var40;
+            var42 = var3.textStyle;
+            var _closure2_slot9 = var42;
+            var6 = var3.style;
+            var _closure2_slot10 = var6;
+            var33 = var3.accessibilityRole;
+            if(!(var33 === var5)) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
+            var33 = 'button';
+case 55:
             var21 = var3.accessibilityLabel;
             var20 = var3.accessibilityHint;
             var4 = var3.accessibilityState;
-            var _closure2_slot9 = var4;
+            var _closure2_slot11 = var4;
             var19 = var3.accessibilityActions;
             var18 = var3.onAccessibilityAction;
             var31 = var3.accessibilityValue;
             var39 = var3.darkenOnPress;
-            var _closure2_slot10 = var39;
+            var _closure2_slot12 = var39;
             var10 = var3.renderIcon;
             var12 = var3.renderRightIcon;
             var26 = var3.renderShine;
@@ -485,26 +487,14 @@ case 53:
             var30 = var3.onTouchEnd;
             var29 = var3.onLongPress;
             var38 = var3.foregroundRipple;
-            var _closure2_slot11 = var38;
+            var _closure2_slot13 = var38;
             var37 = var3.cornerRadius;
-            var _closure2_slot12 = var37;
-            var _closure2_slot13 = var5;
-            var _closure2_slot14 = var5;
+            var _closure2_slot14 = var37;
             var _closure2_slot15 = var5;
-            var28 = _closure1_slot8;
-            var8 = _closure1_slot21;
-            var3 = {};
-            var3['color'] = var25;
-            var3['look'] = var2;
-            var3['size'] = var23;
-            var3['disabled'] = var11;
-            var3['style'] = var42;
-            var3['children'] = var24;
-            var3 = var28.bind(var5)(var8, var3);
-            _closure2_slot13 = var3;
+            var _closure2_slot16 = var5;
             var3 = _closure1_slot11;
             var3 = var3.bind(var5)();
-            _closure2_slot14 = var3;
+            _closure2_slot15 = var3;
             var35 = _closure1_slot0;
             var36 = _closure1_slot2;
             var8 = 12;
@@ -513,7 +503,7 @@ case 53:
             var8 = var28.useThemeContext;
             var8 = var8.bind(var28)();
             var8 = var8.theme;
-            _closure2_slot15 = var8;
+            _closure2_slot16 = var8;
             var34 = _closure1_slot3;
             var32 = var34.useMemo;
             var28 = new Array(10);
@@ -530,13 +520,28 @@ case 53:
             var8 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var1 = _closure2_slot5;
-                    if(var1) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
-                    var1 = _closure2_slot13;
-                    _fun0007_ip = 57; continue _fun0007;
-case 55:
+                    var1 = _closure2_slot6;
                     var5 = _closure1_slot8;
+                    if(var1) { _fun0007_ip = 44; continue _fun0007 }
+case 41:
+                    var4 = _closure1_slot21;
+                    var3 = {};
+                    var1 = _closure2_slot1;
+                    var3['color'] = var1;
+                    var1 = _closure2_slot0;
+                    var3['look'] = var1;
+                    var1 = _closure2_slot2;
+                    var3['size'] = var1;
+                    var1 = _closure2_slot5;
+                    var3['disabled'] = var1;
+                    var1 = _closure2_slot9;
+                    var3['style'] = var1;
+                    var1 = _closure2_slot3;
+                    var3['children'] = var1;
+                    var1 = undefined;
+                    var1 = var5.bind(var1)(var4, var3);
+                    _fun0007_ip = 57; continue _fun0007;
+case 44:
                     var4 = _closure1_slot4;
                     var3 = {};
                     var8 = _closure1_slot0;
@@ -546,15 +551,15 @@ case 55:
                     var2 = undefined;
                     var9 = var8.bind(var2)(var6);
                     var8 = var9.isThemeDark;
-                    var6 = _closure2_slot15;
+                    var6 = _closure2_slot16;
                     var6 = var8.bind(var9)(var6);
                     if(var6) { _fun0007_ip = 58; continue _fun0007 }
-case 12:
-                    var6 = _closure2_slot7;
-                    _fun0007_ip = 59; continue _fun0007;
-case 58:
-                    var6 = _closure2_slot6;
 case 59:
+                    var6 = _closure2_slot8;
+                    _fun0007_ip = 49; continue _fun0007;
+case 58:
+                    var6 = _closure2_slot7;
+case 49:
                     var3['color'] = var6;
                     var1 = var5.bind(var2)(var4, var3);
 case 57:
@@ -569,10 +574,10 @@ case 57:
             var28[1] = var4;
             var4 = function() {
                 var1 = {};
-                var4 = _closure2_slot9;
+                var4 = _closure2_slot11;
                 var5 = var1;
                 var3 = copyDataProperties(var5, var4);
-                var3 = _closure2_slot4;
+                var3 = _closure2_slot5;
                 var2 = 'disabled';
                 var1[var2] = var3;
                 return var1;
@@ -598,18 +603,18 @@ case 57:
                 var3['color'] = var5;
                 var5 = _closure2_slot2;
                 var3['size'] = var5;
-                var5 = _closure2_slot4;
+                var5 = _closure2_slot5;
                 var3['disabled'] = var5;
                 var5 = _closure2_slot0;
                 var3['look'] = var5;
-                var5 = _closure2_slot3;
+                var5 = _closure2_slot4;
                 var3['shrink'] = var5;
                 var3['pressed'] = var2;
-                var2 = _closure2_slot10;
+                var2 = _closure2_slot12;
                 var3['darkenOnPress'] = var2;
-                var2 = _closure2_slot8;
+                var2 = _closure2_slot10;
                 var3['style'] = var2;
-                var2 = _closure2_slot14;
+                var2 = _closure2_slot15;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
@@ -625,15 +630,15 @@ case 57:
 case 0:
                     var3 = _closure1_slot7;
                     var2 = {};
-                    var1 = _closure2_slot11;
+                    var1 = _closure2_slot13;
                     var2['foreground'] = var1;
-                    var5 = _closure2_slot12;
+                    var5 = _closure2_slot14;
                     var1 = null;
                     var5 = var1 != var5;
                     var1 = 3;
                     if(!var5) { _fun0008_ip = 60; continue _fun0008 }
 case 61:
-                    var1 = _closure2_slot12;
+                    var1 = _closure2_slot14;
 case 60:
                     var2['cornerRadius'] = var1;
                     var1 = undefined;

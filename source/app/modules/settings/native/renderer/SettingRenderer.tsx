@@ -1,11 +1,11 @@
 // app/modules/settings/native/renderer/SettingRenderer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var7;
     var1 = function formatSettingsRowTrailing(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -521,11 +521,11 @@ case 19:
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 1;
     var4 = var7[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 2;
     var5 = var7[var4];
@@ -539,15 +539,15 @@ case 19:
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var7[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var7[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var7[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var7[var4];
@@ -564,89 +564,89 @@ case 19:
     var4 = 9;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot15 = var8;
+    var5 = var4.jsx;
+    var _closure1_slot15 = var5;
     var5 = var4.Fragment;
     var _closure1_slot16 = var5;
     var4 = var4.jsxs;
     var _closure1_slot17 = var4;
     var4 = 10;
     var4 = var7[var4];
-    var10 = var6.bind(var1)(var4);
-    var5 = var10.createStyles;
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createStyles;
     var4 = {};
-    var11 = {};
-    var12 = 11;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_16;
-    var11['marginTop'] = var14;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_8;
-    var11['marginBottom'] = var14;
-    var4['slider'] = var11;
-    var11 = {'flexDirection': 'row', 'justifyContent': 'space-between'};
-    var4['sliderTitle'] = var11;
-    var11 = {};
-    var14 = 26;
-    var11['top'] = var14;
-    var4['radioSettingHighlight'] = var11;
-    var11 = {'backgroundColor': null, 'justifyContent': 'center', 'alignItems': 'center'};
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_BRAND;
-    var11['backgroundColor'] = var14;
-    var4['defaultIcon'] = var11;
-    var11 = {};
-    var14 = 12;
-    var15 = var7[var14];
-    var15 = var6.bind(var1)(var15);
-    var16 = var15.AVATAR_SIZE_MAP;
-    var15 = var7[var14];
-    var15 = var6.bind(var1)(var15);
-    var15 = var15.AvatarSizes;
-    var15 = var15.REFRESH_MEDIUM_32;
-    var15 = var16[var15];
-    var11['width'] = var15;
-    var15 = var7[var14];
-    var15 = var6.bind(var1)(var15);
-    var15 = var15.AVATAR_SIZE_MAP;
-    var14 = var7[var14];
+    var10 = {};
+    var11 = 11;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['marginTop'] = var13;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_8;
+    var10['marginBottom'] = var13;
+    var4['slider'] = var10;
+    var10 = {'flexDirection': 'row', 'justifyContent': 'space-between'};
+    var4['sliderTitle'] = var10;
+    var10 = {};
+    var13 = 26;
+    var10['top'] = var13;
+    var4['radioSettingHighlight'] = var10;
+    var10 = {'backgroundColor': null, 'justifyContent': 'center', 'alignItems': 'center'};
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BRAND;
+    var10['backgroundColor'] = var13;
+    var4['defaultIcon'] = var10;
+    var10 = {};
+    var13 = 12;
+    var14 = var7[var13];
+    var14 = var6.bind(var1)(var14);
+    var15 = var14.AVATAR_SIZE_MAP;
+    var14 = var7[var13];
     var14 = var6.bind(var1)(var14);
     var14 = var14.AvatarSizes;
     var14 = var14.REFRESH_MEDIUM_32;
     var14 = var15[var14];
-    var11['height'] = var14;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.xl;
-    var11['borderRadius'] = var14;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_MOD_MUTED;
-    var11['backgroundColor'] = var14;
-    var4['placeholderAvatar'] = var11;
-    var11 = {};
-    var14 = 20;
-    var11['height'] = var14;
-    var14 = var7[var12];
-    var14 = var13.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.md;
-    var11['borderRadius'] = var14;
-    var12 = var7[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BACKGROUND_MOD_MUTED;
-    var11['backgroundColor'] = var12;
-    var4['placeholderUsername'] = var11;
-    var4 = var5.bind(var10)(var4);
+    var10['width'] = var14;
+    var14 = var7[var13];
+    var14 = var6.bind(var1)(var14);
+    var14 = var14.AVATAR_SIZE_MAP;
+    var13 = var7[var13];
+    var13 = var6.bind(var1)(var13);
+    var13 = var13.AvatarSizes;
+    var13 = var13.REFRESH_MEDIUM_32;
+    var13 = var14[var13];
+    var10['height'] = var13;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.xl;
+    var10['borderRadius'] = var13;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_MOD_MUTED;
+    var10['backgroundColor'] = var13;
+    var4['placeholderAvatar'] = var10;
+    var10 = {};
+    var13 = 20;
+    var10['height'] = var13;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.md;
+    var10['borderRadius'] = var13;
+    var11 = var7[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_MOD_MUTED;
+    var10['backgroundColor'] = var11;
+    var4['placeholderUsername'] = var10;
+    var4 = var5.bind(var8)(var4);
     var _closure1_slot18 = var4;
     var5 = var9.memo;
     var4 = function(arg1) {
@@ -823,9 +823,7 @@ case 34:
             return var1;
         }
     };
-    var5 = {};
-    var5 = var8.bind(var1)(var4, var5);
-    var _closure1_slot20 = var5;
+    var _closure1_slot20 = var4;
     var8 = var9.memo;
     var5 = function(arg1) {
         var5 = arg1;
@@ -952,10 +950,14 @@ case 2:
                 var5 = _closure2_slot1;
                 var1['guild'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
-                _fun0010_ip = 6; continue _fun0010;
+                _fun0010_ip = 43; continue _fun0010;
 case 42:
-                var1 = _closure1_slot20;
-case 6:
+                var5 = _closure1_slot15;
+                var4 = _closure1_slot20;
+                var3 = undefined;
+                var2 = {};
+                var1 = var5.bind(var3)(var4, var2);
+case 43:
                 return var1;
             }
         };
@@ -1009,10 +1011,10 @@ case 0:
             var15 = null;
             var5 = var15 == var3;
             var17 = undefined;
-            if(var5) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
-            var17 = var3.bind(var4)();
+            if(var5) { _fun0011_ip = 44; continue _fun0011 }
 case 43:
+            var17 = var3.bind(var4)();
+case 44:
             var3 = var15 == var2;
             var12 = undefined;
             if(var3) { _fun0011_ip = 45; continue _fun0011 }
@@ -2049,7 +2051,7 @@ case 105:
             var3 = _closure1_slot13;
             var3 = var3.ROUTE;
             if(!(var3 !== var4)) { _fun0023_ip = 106; continue _fun0023 }
-case 44:
+case 43:
             var3 = _closure1_slot13;
             var3 = var3.PRESSABLE;
             if(!(var3 !== var4)) { _fun0023_ip = 107; continue _fun0023 }

@@ -672,23 +672,23 @@ case 0:
                     var2 = var1.actionName;
                     var1 = 'viewProfile';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0006_ip = 47; continue _fun0006 }
-case 9:
+                    if(!var1) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
                     var3 = _closure2_slot2;
                     var2 = null;
                     var1 = var2 !== var3;
-case 47:
-                    if(!var1) { _fun0006_ip = 11; continue _fun0006 }
 case 57:
+                    if(!var1) { _fun0006_ip = 59; continue _fun0006 }
+case 60:
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 11; continue _fun0006 }
-case 58:
+                    if(!(var2 != var3)) { _fun0006_ip = 59; continue _fun0006 }
+case 61:
                     var3 = _closure2_slot2;
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 11:
+case 59:
                     var1 = undefined;
                     return var1;
                 }
@@ -720,16 +720,16 @@ case 42:
             var2['trailing'] = var13;
             var2['onPress'] = var12;
             var8 = var1 != var8;
-            if(var8) { _fun0001_ip = 59; continue _fun0001 }
-case 60:
+            if(var8) { _fun0001_ip = 62; continue _fun0001 }
+case 63:
             var8 = var11;
-case 59:
-            if(var8) { _fun0001_ip = 61; continue _fun0001 }
 case 62:
+            if(var8) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
             var9 = _closure1_slot11;
             var9 = var9.SENT;
             var8 = var10 === var9;
-case 61:
+case 64:
             var2['disabled'] = var8;
             var2['accessibilityActions'] = var7;
             var2['onAccessibilityAction'] = var6;

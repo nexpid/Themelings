@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/modal/ModalScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = ['impressionName', 'impressionProperties'];
     var _closure1_slot3 = var1;
@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -42,32 +42,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsxs;
+    var7 = var4.jsx;
     var _closure1_slot9 = var7;
-    var8 = var4.jsx;
+    var4 = var4.jsxs;
+    var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var11 = 6;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_BASE_LOWEST;
-    var10['backgroundColor'] = var11;
-    var4['containerWithPadding'] = var10;
-    var4 = var7.bind(var9)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PortalKeyboardRenderer;
-    var4 = {};
-    var9 = false;
-    var4['portal'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
+    var9 = {};
+    var10 = 6;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_BASE_LOWEST;
+    var9['backgroundColor'] = var10;
+    var4['containerWithPadding'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 14;
     var4 = var6[var4];
@@ -85,7 +77,7 @@ case 0:
             var _closure2_slot0 = var5;
             var4 = undefined;
             var _closure2_slot1 = var4;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var9 = var2.bind(var4)();
             var6 = var5.props;
             var12 = null;
@@ -103,7 +95,7 @@ case 2:
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -115,12 +107,12 @@ case 2:
             var11 = var11.bind(var6)(var3, var2);
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var16[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
             var15 = _closure1_slot0;
-            var14 = 10;
+            var14 = 9;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.ImpressionTypes;
@@ -187,7 +179,7 @@ case 6:
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -200,7 +192,7 @@ case 6:
             var1 = var3.bind(var6)(var2, var1);
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var3 = 12;
+            var3 = 11;
             var1 = var1[var3];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useLocalHorizontalSafeArea;
@@ -223,7 +215,7 @@ case 12:
             var1 = var5.key;
             var13 = var2.bind(var3)(var1);
 case 11:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var2 = _closure1_slot6;
             var1 = {};
             var6 = _closure1_slot7;
@@ -252,7 +244,7 @@ case 16:
 case 15:
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var8 = 8;
+            var8 = 7;
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var6 = var8.pop;
@@ -276,14 +268,24 @@ case 17:
             var5[0] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 13;
+            var6 = 12;
             var6 = var9[var6];
             var8 = var8.bind(var4)(var6);
             var6 = var8.isIOS;
             var6 = var6.bind(var8)();
             if(!var6) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var6 = _closure1_slot11;
+            var9 = _closure1_slot9;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 13;
+            var7 = var10[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.PortalKeyboardRenderer;
+            var7 = {};
+            var10 = false;
+            var7['portal'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
 case 18:
             var5[1] = var6;
             var1['children'] = var5;

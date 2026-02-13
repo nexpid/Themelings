@@ -45,6 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['RESTRICTED_ACCOUNTS_SETTING_NOTICE'] = var1;
     var1 = 'content_and_social_parental_controls_notice';
     var4['CONTENT_AND_SOCIAL_PARENTAL_CONTROLS_NOTICE'] = var1;
+    var1 = 'age_confirmation_notice';
+    var4['AGE_CONFIRMATION_NOTICE'] = var1;
     var2 = {};
     var1 = 'dismiss';
     var2['DISMISS'] = var1;
@@ -52,6 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VIEWED'] = var1;
     var1 = 'learn_more';
     var2['LEARN_MORE'] = var1;
+    var1 = 'confirm_age';
+    var2['CONFIRM_AGE'] = var1;
     var6 = dependencyMap;
     var1 = 0;
     var7 = var6[var1];

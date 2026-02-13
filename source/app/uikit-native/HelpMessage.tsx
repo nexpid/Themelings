@@ -176,15 +176,28 @@ case 10:
     var12 = var6.bind(var1)(var2);
     var5 = var12.createStyles;
     var2 = {};
-    var13 = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'row', 'alignItems': 'center', 'padding': 8, 'borderWidth': 1, 'borderStyle': 'solid'};
+    var13 = {'padding': null, 'borderWidth': 1, 'borderStyle': 'solid'};
     var14 = 4;
     var16 = var7[var14];
     var16 = var15.bind(var1)(var16);
-    var16 = var16.radii;
-    var16 = var16.xs;
-    var13['borderRadius'] = var16;
+    var16 = var16.spacing;
+    var16 = var16.PX_8;
+    var13['padding'] = var16;
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_8;
+    var13['gap'] = var16;
     var2['container'] = var13;
-    var13 = {'flex': 1, 'marginLeft': 8};
+    var13 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    var2['row'] = var13;
+    var13 = {};
+    var13['flex'] = var10;
+    var16 = var7[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_8;
+    var13['marginLeft'] = var16;
     var2['content'] = var13;
     var13 = {};
     var16 = 5;
@@ -294,49 +307,72 @@ case 10:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.children;
-            var7 = var1.messageType;
-            var10 = var1.textVariant;
+            var11 = var1.children;
+            var9 = var1.messageType;
+            var12 = var1.textVariant;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0003_ip = 17; continue _fun0003 }
+            if(!(var12 === var4)) { _fun0003_ip = 17; continue _fun0003 }
 case 18:
-            var10 = 'text-sm/medium';
+            var12 = 'text-sm/medium';
 case 17:
-            var11 = var1.textColor;
-            if(!(var11 === var4)) { _fun0003_ip = 19; continue _fun0003 }
+            var13 = var1.textColor;
+            if(!(var13 === var4)) { _fun0003_ip = 19; continue _fun0003 }
 case 5:
-            var11 = 'text-default';
+            var13 = 'text-default';
 case 19:
+            var10 = var1.borderRadius;
+            if(!(var10 === var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.radii;
+            var10 = var2.xs;
+case 20:
+            var6 = var1.button;
             var1 = _closure1_slot6;
-            var12 = var1.bind(var4)();
+            var14 = var1.bind(var4)();
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            var8 = var12.container;
-            var5 = new Array(2);
-            var5[0] = var8;
-            var8 = _closure1_slot9;
-            var8 = var8.bind(var4)(var7, var12);
-            var5[1] = var8;
+            var7 = var14.container;
+            var5 = new Array(3);
+            var5[0] = var7;
+            var7 = _closure1_slot9;
+            var7 = var7.bind(var4)(var9, var14);
+            var5[1] = var7;
+            var7 = {};
+            var7['borderRadius'] = var10;
+            var5[2] = var7;
             var1['style'] = var5;
-            var5 = _closure1_slot8;
-            var7 = var5.bind(var4)(var7);
+            var5 = {};
+            var7 = var14.row;
+            var5['style'] = var7;
+            var7 = _closure1_slot8;
+            var9 = var7.bind(var4)(var9);
+            var7 = new Array(2);
+            var7[0] = var9;
+            var10 = _closure1_slot4;
+            var9 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var8 = 10;
+            var8 = var15[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.TextWithIOSLinkWorkaround;
+            var8 = {};
+            var14 = var14.content;
+            var8['style'] = var14;
+            var8['color'] = var13;
+            var8['variant'] = var12;
+            var8['children'] = var11;
+            var8 = var10.bind(var4)(var9, var8);
+            var7[1] = var8;
+            var5['children'] = var7;
+            var7 = var3.bind(var4)(var2, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var8 = _closure1_slot4;
-            var7 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var6 = 10;
-            var6 = var13[var6];
-            var6 = var7.bind(var4)(var6);
-            var7 = var6.TextWithIOSLinkWorkaround;
-            var6 = {};
-            var12 = var12.content;
-            var6['style'] = var12;
-            var6['color'] = var11;
-            var6['variant'] = var10;
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

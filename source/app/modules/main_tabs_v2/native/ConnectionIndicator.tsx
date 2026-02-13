@@ -14,19 +14,19 @@ case 0:
             var9 = var1.style;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var8[var1];
             var6 = undefined;
             var5 = var2.bind(var6)(var1);
             var3 = var5.useToken;
             var4 = _closure1_slot1;
-            var12 = 9;
+            var12 = 8;
             var1 = var8[var12];
             var1 = var4.bind(var6)(var1);
             var1 = var1.colors;
             var1 = var1.INTERACTIVE_ICON_DEFAULT;
             var14 = var3.bind(var5)(var1);
-            var1 = 10;
+            var1 = 9;
             var1 = var8[var1];
             var5 = var2.bind(var6)(var1);
             var3 = var5.useStateFromStores;
@@ -184,7 +184,7 @@ case 7:
             var2 = null;
             var1 = var1.bind(var10)(var2);
             var _closure2_slot2 = var1;
-            var1 = 11;
+            var1 = 10;
             var1 = var8[var1];
             var8 = var4.bind(var6)(var1);
             var4 = var8.useConfig;
@@ -243,7 +243,7 @@ case 18:
 case 16:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 12;
+                    var3 = 11;
                     var4 = var4[var3];
                     var3 = undefined;
                     var6 = var5.bind(var3)(var4);
@@ -283,13 +283,13 @@ case 26:
             var5 = _closure1_slot11;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var3 = 13;
+            var3 = 12;
             var3 = var16[var3];
             var3 = var15.bind(var6)(var3);
             var4 = var3.PressableHighlight;
             var3 = {};
             var3['style'] = var9;
-            var8 = 14;
+            var8 = 13;
             var10 = var16[var8];
             var10 = var15.bind(var6)(var10);
             var13 = var10.intl;
@@ -303,7 +303,7 @@ case 26:
             var8 = function onPress() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var9[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -312,7 +312,7 @@ case 26:
                 var6 = 'connection-connecting';
                 var2['key'] = var6;
                 var8 = _closure1_slot0;
-                var5 = 14;
+                var5 = 13;
                 var6 = var9[var5];
                 var6 = var8.bind(var1)(var6);
                 var7 = var6.intl;
@@ -324,7 +324,18 @@ case 26:
                 var5 = var6.bind(var7)(var5);
                 var2['content'] = var5;
                 var5 = function icon() {
-                    var1 = _closure1_slot14;
+                    var4 = _closure1_slot11;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 15;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.ConnectionUnknownIcon;
+                    var1 = {};
+                    var5 = 'sm';
+                    var1['size'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['icon'] = var5;
@@ -347,13 +358,13 @@ case 23:
             var5 = _closure1_slot11;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 13;
+            var3 = 12;
             var3 = var10[var3];
             var3 = var8.bind(var6)(var3);
             var4 = var3.PressableHighlight;
             var3 = {};
             var3['style'] = var9;
-            var9 = 14;
+            var9 = 13;
             var13 = var10[var9];
             var13 = var8.bind(var6)(var13);
             var14 = var13.intl;
@@ -367,7 +378,7 @@ case 23:
             var7 = function onPress() {
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var9[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -376,7 +387,7 @@ case 23:
                 var6 = 'connection-offline';
                 var2['key'] = var6;
                 var8 = _closure1_slot0;
-                var5 = 14;
+                var5 = 13;
                 var6 = var9[var5];
                 var6 = var8.bind(var1)(var6);
                 var7 = var6.intl;
@@ -388,7 +399,18 @@ case 23:
                 var5 = var6.bind(var7)(var5);
                 var2['content'] = var5;
                 var5 = function icon() {
-                    var1 = _closure1_slot13;
+                    var4 = _closure1_slot11;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 15;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var1 = var2.bind(var3)(var1);
+                    var2 = var1.ConnectionUnknownIcon;
+                    var1 = {};
+                    var5 = 'sm';
+                    var1['size'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
                 var2['icon'] = var5;
@@ -397,7 +419,7 @@ case 23:
             };
             var3['onPress'] = var7;
             var9 = _closure1_slot11;
-            var7 = 7;
+            var7 = 15;
             var7 = var10[var7];
             var7 = var8.bind(var6)(var7);
             var8 = var7.ConnectionUnknownIcon;
@@ -419,7 +441,7 @@ case 20:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -465,33 +487,17 @@ case 20:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot11 = var9;
+    var4 = var4.jsx;
+    var _closure1_slot11 = var4;
     var4 = 5000;
     var _closure1_slot12 = var4;
-    var4 = 7;
-    var8 = var6[var4];
-    var8 = var5.bind(var1)(var8);
-    var11 = var8.ConnectionUnknownIcon;
-    var8 = {};
-    var10 = 'sm';
-    var8['size'] = var10;
-    var8 = var9.bind(var1)(var11, var8);
-    var _closure1_slot13 = var8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.ConnectionUnknownIcon;
-    var4 = {};
-    var4['size'] = var10;
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot14 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var4[var1];
             var5 = undefined;
             var4 = var3.bind(var5)(var1);
@@ -506,7 +512,7 @@ case 0:
             if(!var3) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
             var4 = _closure1_slot11;
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot13;
             var2 = {};
             var7 = arg1;
             var8 = var2;

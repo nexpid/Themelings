@@ -24,15 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot4 = var9;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.StarOutlineIcon;
-    var4 = {'color': 'interactive-text-default', 'size': 'md'};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot5 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
     var4 = var7.memo;
     var2 = function GIFFavButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -59,11 +52,11 @@ case 5:
             _closure2_slot1 = var12;
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 3;
+            var6 = 2;
             var6 = var8[var6];
             var9 = var4.bind(var5)(var6);
             var7 = var9.useIsFavoriteGIF;
-            var6 = 4;
+            var6 = 3;
             var6 = var8[var6];
             var11 = var4.bind(var5)(var6);
             var6 = var11.gifUrlKey;
@@ -95,7 +88,7 @@ case 0:
                     var7 = _closure1_slot2;
                     if(var3) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                    var3 = 8;
+                    var3 = 7;
                     var3 = var7[var3];
                     var10 = undefined;
                     var5 = var6.bind(var10)(var3);
@@ -107,7 +100,7 @@ case 8:
                     var9 = var8.thumbnail;
                     var3['thumbnail'] = var9;
                     var9 = var4.bind(var5)(var3);
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var5 = var6.bind(var10)(var3);
                     var4 = var5.addFavoriteGIF;
@@ -124,7 +117,7 @@ case 8:
                     var8 = var8.isGIFV;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var9 = 9;
+                    var9 = 8;
                     var9 = var12[var9];
                     var9 = var11.bind(var10)(var9);
                     var9 = var9.GIFType;
@@ -139,7 +132,7 @@ case 11:
                     var3 = var4.bind(var5)(var3);
                     var4 = _closure1_slot1;
                     var11 = _closure1_slot2;
-                    var3 = 5;
+                    var3 = 4;
                     var3 = var11[var3];
                     var5 = var4.bind(var10)(var3);
                     var4 = var5.open;
@@ -147,7 +140,7 @@ case 11:
                     var8 = 'ADDED_TO_FAVORITES';
                     var3['key'] = var8;
                     var9 = _closure1_slot0;
-                    var8 = 6;
+                    var8 = 5;
                     var12 = var11[var8];
                     var12 = var9.bind(var10)(var12);
                     var13 = var12.intl;
@@ -158,7 +151,7 @@ case 11:
                     var8 = var8.okQonm;
                     var8 = var12.bind(var13)(var8);
                     var3['content'] = var8;
-                    var8 = 7;
+                    var8 = 6;
                     var8 = var11[var8];
                     var8 = var9.bind(var10)(var8);
                     var8 = var8.GifIcon;
@@ -166,7 +159,7 @@ case 11:
                     var3 = var4.bind(var5)(var3);
                     _fun0002_ip = 12; continue _fun0002;
 case 7:
-                    var3 = 4;
+                    var3 = 3;
                     var3 = var7[var3];
                     var5 = undefined;
                     var4 = var6.bind(var5)(var3);
@@ -174,14 +167,14 @@ case 7:
                     var2 = _closure2_slot1;
                     var2 = var3.bind(var4)(var2);
                     var2 = _closure1_slot1;
-                    var1 = 5;
+                    var1 = 4;
                     var1 = var7[var1];
                     var3 = var2.bind(var5)(var1);
                     var2 = var3.open;
                     var1 = {};
                     var4 = 'REMOVED_FROM_FAVORITES';
                     var1['key'] = var4;
-                    var4 = 6;
+                    var4 = 5;
                     var8 = var7[var4];
                     var8 = var6.bind(var5)(var8);
                     var9 = var8.intl;
@@ -192,7 +185,7 @@ case 7:
                     var4 = var4.in1rga;
                     var4 = var8.bind(var9)(var4);
                     var1['content'] = var4;
-                    var4 = 7;
+                    var4 = 6;
                     var4 = var7[var4];
                     var4 = var6.bind(var5)(var4);
                     var4 = var4.GifIcon;
@@ -204,7 +197,7 @@ case 12:
                 }
             };
             var7 = var9.bind(var11)(var3, var7);
-            var3 = 10;
+            var3 = 9;
             var3 = var8[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.isAnimatedImageSource;
@@ -218,13 +211,13 @@ case 13:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var8 = 6;
+            var8 = 5;
             var11 = var13[var8];
             var11 = var9.bind(var5)(var11);
             var12 = var11.intl;
@@ -243,21 +236,26 @@ case 16:
 case 18:
             var2['accessibilityLabel'] = var8;
             var2['onPress'] = var7;
-            if(var6) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var6 = _closure1_slot5;
-            _fun0001_ip = 21; continue _fun0001;
-case 19:
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var7 = 12;
+            if(var6) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var6 = 13;
+            var6 = var12[var6];
+            var6 = var8.bind(var5)(var6);
+            var7 = var6.StarOutlineIcon;
+            var6 = {'color': 'interactive-text-default', 'size': 'md'};
+            var6 = var9.bind(var5)(var7, var6);
+            _fun0001_ip = 21; continue _fun0001;
+case 19:
+            var7 = 11;
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
             var8 = var7.StarIcon;
             var7 = {};
             var11 = _closure1_slot1;
-            var10 = 13;
+            var10 = 12;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.unsafe_rawColors;

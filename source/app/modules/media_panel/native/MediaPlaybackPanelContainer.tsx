@@ -1,11 +1,12 @@
 // app/modules/media_panel/native/MediaPlaybackPanelContainer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -22,34 +23,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var4 = 2;
-    var4 = var6[var4];
-    var8 = var11.bind(var1)(var4);
-    var4 = {};
-    var10 = 3;
-    var10 = var6[var10];
-    var11 = var11.bind(var1)(var10);
-    var10 = {};
-    var10 = var9.bind(var1)(var11, var10);
-    var4['children'] = var10;
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot2 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
     var4 = var7.memo;
     var2 = function MediaPlaybackPanelContainer() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var1 = 4;
+            var7 = _closure1_slot2;
+            var1 = 2;
             var1 = var7[var1];
             var5 = undefined;
             var4 = var6.bind(var5)(var1);
             var3 = var4.useMediaPlayerManagerStore;
-            var1 = 5;
+            var1 = 3;
             var1 = var7[var1];
-            var6 = var6.bind(var5)(var1);
-            var5 = var6.useShallow;
+            var7 = var6.bind(var5)(var1);
+            var6 = var7.useShallow;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -125,13 +115,26 @@ case 6:
                     return var1;
                 }
             };
-            var1 = var5.bind(var6)(var1);
+            var1 = var6.bind(var7)(var1);
             var3 = var3.bind(var4)(var1);
             var1 = null;
-            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var4 = _closure1_slot3;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 4;
+            var2 = var8[var2];
+            var3 = var7.bind(var5)(var2);
+            var2 = {};
+            var6 = 5;
+            var6 = var8[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
 case 21:
-            var1 = _closure1_slot2;
-case 8:
             return var1;
         }
     };

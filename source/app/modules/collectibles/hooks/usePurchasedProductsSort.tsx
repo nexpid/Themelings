@@ -28,14 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NOT_PURCHASED'] = var9;
     var7 = 'NOT_PURCHASED';
     var4[var9] = var7;
-    var4['PARTIAL_OWNED_VARIANTS_GROUP'] = var8;
-    var7 = 'PARTIAL_OWNED_VARIANTS_GROUP';
-    var4[var8] = var7;
-    var8 = 2;
     var4['PARTIAL_OWNED_BUNDLE'] = var8;
     var7 = 'PARTIAL_OWNED_BUNDLE';
     var4[var8] = var7;
-    var8 = 3;
+    var8 = 2;
     var4['PURCHASED'] = var8;
     var7 = 'PURCHASED';
     var4[var8] = var7;
@@ -43,23 +39,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function productPurchaseStatus(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var4 = arg2;
-            var _closure2_slot0 = var4;
-            var7 = var2.type;
+            var4 = arg1;
+            var6 = arg2;
+            var _closure2_slot0 = var6;
+            var5 = var4.type;
             var8 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var9 = 2;
-            var5 = var3[var9];
-            var3 = undefined;
-            var5 = var8.bind(var3)(var5);
-            var5 = var5.CollectiblesItemType;
-            var5 = var5.BUNDLE;
-            if(!(var7 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            var7 = _closure1_slot1;
+            var2 = 2;
+            var2 = var7[var2];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.BUNDLE;
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var8 = var2.items;
-            var7 = var8.some;
-            var5 = function(arg1) {
+            var8 = var4.items;
+            var5 = var8.some;
+            var2 = function(arg1) {
                 var3 = _closure2_slot0;
                 var2 = var3.includes;
                 var1 = arg1;
@@ -67,26 +63,34 @@ case 3:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var5 = var7.bind(var8)(var5);
-            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+            var2 = var5.bind(var8)(var2);
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
-            var7 = var2.type;
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var5 = var5[var9];
-            var5 = var8.bind(var3)(var5);
-            var5 = var5.CollectiblesItemType;
-            var5 = var5.VARIANTS_GROUP;
-            if(!(var7 === var5)) { _fun0001_ip = 5; continue _fun0001 }
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 3;
+            var2 = var8[var2];
+            var5 = var5.bind(var7)(var2);
+            var2 = var5.getIsVariantProduct;
+            var2 = var2.bind(var5)(var4);
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var8 = var2.variants;
-            var5 = null;
-            var7 = var5 == var8;
-            var3 = undefined;
-            if(var7) { _fun0001_ip = 7; continue _fun0001 }
+            var5 = var6.includes;
+            var2 = var4.skuId;
+            var2 = var5.bind(var6)(var2);
+            var5 = _closure1_slot4;
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var7 = var8.some;
-            var6 = function(arg1) {
+            var2 = var5.NOT_PURCHASED;
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
+            var2 = var5.PURCHASED;
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 5:
+            var5 = var4.variants;
+            var4 = var5.every;
+            var3 = function(arg1) {
                 var3 = _closure2_slot0;
                 var2 = var3.includes;
                 var1 = arg1;
@@ -94,27 +98,17 @@ case 8:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var7.bind(var8)(var6);
-case 7:
-            if(!(var5 != var3)) { _fun0001_ip = 5; continue _fun0001 }
-case 9:
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 5:
-            var3 = var4.includes;
-            var2 = var2.skuId;
-            var2 = var3.bind(var4)(var2);
-            var3 = _closure1_slot4;
-            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+            var3 = var4.bind(var5)(var3);
+            var4 = _closure1_slot4;
+            if(var3) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var2 = var3.NOT_PURCHASED;
+            var3 = var4.NOT_PURCHASED;
             _fun0001_ip = 13; continue _fun0001;
 case 11:
-            var2 = var3.PURCHASED;
+            var3 = var4.PURCHASED;
 case 13:
-            return var2;
+            var2 = var3;
 case 10:
-            var2 = _closure1_slot4;
-            var2 = var2.PARTIAL_OWNED_VARIANTS_GROUP;
             return var2;
 case 4:
             var1 = _closure1_slot4;
@@ -123,7 +117,7 @@ case 4:
         }
     };
     var _closure1_slot5 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -134,7 +128,7 @@ case 4:
         var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var2 = 3;
+        var2 = 4;
         var2 = var4[var2];
         var4 = undefined;
         var8 = var5.bind(var4)(var2);

@@ -17,17 +17,17 @@ case 0:
             var7 = undefined;
             var6 = var8.bind(var7)(var2);
             var5 = var6.useStateFromStores;
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var4 = new Array(1);
             var4[0] = var2;
             var2 = function() {
-                var2 = _closure1_slot3;
+                var2 = _closure1_slot4;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
             var6 = var5.bind(var6)(var4, var2);
-            var10 = _closure1_slot5;
+            var10 = _closure1_slot7;
             var2 = 9;
             var4 = var9[var2];
             var4 = var8.bind(var7)(var4);
@@ -38,7 +38,7 @@ case 0:
                 return var1;
             };
             var5 = var10.bind(var7)(var4, var5);
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot7;
             var2 = var9[var2];
             var2 = var8.bind(var7)(var2);
             var2 = var2.shallow;
@@ -67,7 +67,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot7 = var2;
+    var _closure1_slot8 = var2;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -80,11 +80,12 @@ case 2:
     var5 = var8[var1];
     var1 = undefined;
     var5 = var7.bind(var1)(var5);
-    var9 = var5.ActivityIndicator;
+    var5 = var5.ActivityIndicator;
+    var _closure1_slot3 = var5;
     var5 = 1;
     var5 = var8[var5];
     var5 = var6.bind(var1)(var5);
-    var _closure1_slot3 = var5;
+    var _closure1_slot4 = var5;
     var5 = 2;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
@@ -93,25 +94,23 @@ case 2:
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
     var6 = var5.REQUEST_DATA_LIMIT_DAYS;
-    var _closure1_slot4 = var6;
+    var _closure1_slot5 = var6;
     var11 = var5.UserSettingsSections;
     var5 = 4;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var6 = var5.jsx;
+    var5 = var5.jsx;
+    var _closure1_slot6 = var5;
     var5 = 5;
     var5 = var8[var5];
-    var13 = var7.bind(var1)(var5);
-    var12 = var13.createWithEqualityFn;
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createWithEqualityFn;
     var5 = function() {
         var1 = {'isRequesting': false, 'harvestRequest': null};
         return var1;
     };
-    var5 = var12.bind(var13)(var5);
-    var _closure1_slot5 = var5;
-    var5 = {};
-    var5 = var6.bind(var1)(var9, var5);
-    var _closure1_slot6 = var5;
+    var5 = var6.bind(var9)(var5);
+    var _closure1_slot7 = var5;
     var5 = 13;
     var5 = var8[var5];
     var9 = var7.bind(var1)(var5);
@@ -139,8 +138,8 @@ case 2:
     var10 = function useHarvestRequestSettingTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = function useIsRequestingHarvestState() {
-                var4 = _closure1_slot5;
+            var1 = function useIsRequestingHarvestState() {
+                var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 9;
@@ -156,12 +155,15 @@ case 0:
                 var1 = var4.bind(var3)(var1, var2);
                 return var1;
             };
-            var1 = undefined;
-            var2 = var2.bind(var1)();
+            var5 = undefined;
+            var2 = var1.bind(var5)();
             var1 = null;
             if(!var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var1 = _closure1_slot6;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
 case 6:
             return var1;
         }
@@ -171,7 +173,7 @@ case 6:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = function useHarvestRequest() {
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 9;
@@ -189,7 +191,7 @@ case 0:
             };
             var6 = undefined;
             var4 = var1.bind(var6)();
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var1 = var3.getCurrentUser;
             var5 = var1.bind(var3)();
             var1 = null;
@@ -209,7 +211,7 @@ case 13:
             var4 = var4.created_at;
             var10 = var8.bind(var6)(var4);
             var9 = var10.add;
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot5;
             var4 = 'days';
             var11 = var9.bind(var10)(var8, var4);
             var4 = var11.isBefore;
@@ -262,7 +264,7 @@ case 8:
     var5['useDescription'] = var10;
     var5['useIsDisabled'] = var2;
     var10 = function usePreNavigationAction() {
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = undefined;
         var2 = var3.bind(var2)();
         var _closure2_slot0 = var2;
@@ -328,7 +330,7 @@ case 16:
             var4 = var4.bind(var1)(var3);
             var3 = var4.batchUpdates;
             var2 = function() {
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot7;
                 var2 = var3.setState;
                 var1 = {};
                 var4 = false;
@@ -352,7 +354,7 @@ case 16:
             var4 = var3.bind(var1)(var2);
             var3 = var4.batchUpdates;
             var2 = function() {
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot7;
                 var2 = var3.setState;
                 var1 = {};
                 var4 = false;

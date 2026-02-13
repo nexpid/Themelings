@@ -214,7 +214,7 @@ case 5:
             var17 = 13;
             var17 = var20[var17];
             var22 = var19.bind(var4)(var17);
-            var17 = var22.getNameplateDataFromRecord;
+            var17 = var22.getNameplateData;
             var17 = var17.bind(var22)(var23);
             var13['nameplate'] = var17;
             var17 = true;

@@ -1062,8 +1062,6 @@ case 0:
             var1 = null;
             if(!(var2 != var1)) { _fun0006_ip = 34; continue _fun0006 }
 case 3:
-            var5 = undefined;
-            var _closure2_slot1 = var5;
             var13 = function onClose() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -1076,12 +1074,6 @@ case 3:
                 return var1;
             };
             var _closure2_slot0 = var13;
-            var6 = _closure1_slot8;
-            var3 = _closure1_slot12;
-            var1 = {};
-            var1['onClose'] = var13;
-            var1 = var6.bind(var5)(var3, var1);
-            _closure2_slot1 = var1;
             var8 = {};
             var1 = _closure1_slot11;
             var3 = var1.DOMAIN;
@@ -1090,6 +1082,7 @@ case 3:
             var10 = _closure1_slot2;
             var6 = 11;
             var11 = var10[var6];
+            var5 = undefined;
             var11 = var9.bind(var5)(var11);
             var14 = var11.intl;
             var12 = var14.string;
@@ -1106,7 +1099,13 @@ case 3:
             var12 = var12.bind(var14)(var13);
             var1['headerLeft'] = var12;
             var12 = function render() {
-                var1 = _closure2_slot1;
+                var4 = _closure1_slot8;
+                var3 = _closure1_slot12;
+                var2 = {};
+                var1 = _closure2_slot0;
+                var2['onClose'] = var1;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var1['render'] = var12;

@@ -1,27 +1,53 @@
 // app/modules/nameplates/utils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var8;
-    var5 = function isValidPalette(arg1) {
+    var _closure1_slot2 = var9;
+    var6 = function getNameplateData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var3 = arg1;
+            var1 = null;
+            var2 = var1 == var3;
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var2 = {};
+            var4 = var3.skuId;
+            var2['skuId'] = var4;
+            var4 = var3.asset;
+            var2['src'] = var4;
+            var4 = var3.label;
+            var2['imgAlt'] = var4;
+            var5 = _closure1_slot5;
+            var4 = var3.palette;
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var2['palette'] = var3;
+            var1 = var2;
+case 2:
+            return var1;
+        }
+    };
+    var _closure1_slot6 = var6;
+    var5 = function isValidPalette(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var4 = arg1;
             var2 = var4.name;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var8 = 1;
+            var8 = 2;
             var1 = var1[var8];
             var6 = undefined;
             var1 = var3.bind(var6)(var1);
             var1 = var1.INVALID_PALETTE_KEY;
             var1 = var2 !== var1;
-            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = var4.name;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -29,25 +55,25 @@ case 3:
             var2 = var7.bind(var6)(var2);
             var2 = var2.CUSTOM_PALETTE_KEY;
             var2 = var3 !== var2;
-            if(var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = _closure1_slot6;
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var7 = _closure1_slot8;
             var3 = var4.darkBackground;
             var3 = var7.bind(var6)(var3);
-            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var5 = _closure1_slot6;
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var5 = _closure1_slot8;
             var4 = var4.lightBackground;
             var3 = var5.bind(var6)(var4);
-case 6:
+case 8:
             var2 = var3;
-case 4:
+case 6:
             var1 = var2;
-case 2:
+case 4:
             return var1;
         }
     };
-    var _closure1_slot5 = var5;
+    var _closure1_slot7 = var5;
     var1 = function isValidHex(arg1) {
         var3 = /^#([0-9a-fA-F]{6})$/;
         var2 = var3.test;
@@ -55,27 +81,32 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var6 = var9.defineProperty;
+    var10 = var1.Object;
+    var7 = var10.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var10)(var3, var1, var4);
     var1 = 0;
-    var4 = var8[var1];
+    var4 = var9[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.ThemeTypes;
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.isNameplateRecord;
     var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot4 = var4;
     var4 = function getNameplatePalette(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var5 = 1;
+            var5 = 2;
             var1 = var1[var5];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
@@ -83,45 +114,73 @@ case 0:
             var1 = arg1;
             var1 = var3[var1];
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!(var3 == var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var1 = var2.INVALID_NAMEPLATE_PALETTE;
-case 8:
+case 10:
             return var1;
         }
     };
-    var _closure1_slot4 = var4;
-    var6 = 4;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/nameplates/utils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var6 = function getBackgroundGradientColors(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+    var _closure1_slot5 = var4;
+    var7 = 5;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/nameplates/utils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['getNameplateData'] = var6;
+    var6 = function getNameplateDataFromProductRecord(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
-            var4 = _closure1_slot5;
+            var2 = var1.items;
+            var3 = var2.length;
+            var2 = 0;
+            if(!(var2 !== var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+            var1 = var1.items;
+            var4 = var1[var2];
+            var1 = _closure1_slot3;
+            var3 = undefined;
+            var5 = var1.bind(var3)(var4);
+            var1 = null;
+            if(!var5) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+            var2 = _closure1_slot6;
+            var1 = var2.bind(var3)(var4);
+case 14:
+            return var1;
+case 12:
+            var1 = null;
+            return var1;
+        }
+    };
+    var3['getNameplateDataFromProductRecord'] = var6;
+    var6 = function getBackgroundGradientColors(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var1 = arg1;
+            var4 = _closure1_slot7;
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
-            if(var4) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+            if(var4) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
             return var3;
-case 10:
-            var2 = _closure1_slot3;
+case 16:
+            var2 = _closure1_slot4;
             var3 = var2.LIGHT;
             var2 = arg2;
-            if(!(var2 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+            if(!(var2 !== var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 18:
             var5 = var1.darkBackground;
-            _fun0003_ip = 14; continue _fun0003;
-case 12:
+            _fun0005_ip = 19; continue _fun0005;
+case 15:
             var5 = var1.lightBackground;
-case 14:
+case 19:
             var1 = {};
             var2 = global;
             var3 = var2.HermesInternal;
@@ -144,7 +203,7 @@ case 14:
     var4 = function parseFirstFrame(arg1) {
         var4 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var2 = 2;
+        var2 = 3;
         var1 = var5[var2];
         var3 = undefined;
         var7 = var4.bind(var3)(var1);
@@ -192,12 +251,12 @@ case 14:
         return var1;
     };
     var3['parseFirstFrame'] = var4;
-    var4 = function getNameplateSampleUsers() {
+    var2 = function getNameplateSampleUsers() {
         var1 = {};
         var2 = {};
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var3 = 3;
+        var3 = 4;
         var4 = var8[var3];
         var6 = undefined;
         var4 = var7.bind(var6)(var4);
@@ -270,30 +329,6 @@ case 14:
         var1['boom'] = var2;
         return var1;
     };
-    var3['getNameplateSampleUsers'] = var4;
-    var2 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-            var3 = arg1;
-            var1 = null;
-            var2 = var1 == var3;
-            if(var2) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-            var2 = {};
-            var4 = var3.asset;
-            var2['src'] = var4;
-            var6 = _closure1_slot4;
-            var5 = var3.palette;
-            var4 = undefined;
-            var4 = var6.bind(var4)(var5);
-            var2['palette'] = var4;
-            var3 = var3.label;
-            var2['imgAlt'] = var3;
-            var1 = var2;
-case 15:
-            return var1;
-        }
-    };
-    var3['getNameplateData'] = var2;
+    var3['getNameplateSampleUsers'] = var2;
     return var1;
 })();

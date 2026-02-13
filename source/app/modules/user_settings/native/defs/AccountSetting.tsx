@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -22,18 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2.UserSettingsSections;
     var2 = 1;
     var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.jsx;
-    var _closure1_slot3 = var2;
-    var2 = 7;
-    var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRoute;
     var2 = {};
     var8 = function title() {
         var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 8;
+        var6 = _closure1_slot1;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -49,61 +42,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var8;
     var8 = null;
     var2['parent'] = var8;
-    var8 = 9;
+    var8 = 3;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.UserCircleIcon;
     var2['IconComponent'] = var8;
-    var8 = function useAccountSettingTrailing() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 2;
-            var1 = var4[var1];
-            var5 = undefined;
-            var3 = var3.bind(var5)(var1);
-            var1 = var3.useIsEligibleForPomelo;
-            var3 = var1.bind(var3)();
-            var1 = null;
-            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot3;
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 3;
-            var2 = var8[var2];
-            var3 = var7.bind(var5)(var2);
-            var2 = {};
-            var6 = 4;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.colors;
-            var6 = var6.STATUS_WARNING;
-            var2['themedColor'] = var6;
-            var6 = 5;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.Sizes;
-            var6 = var6.SMALL_20;
-            var2['size'] = var6;
-            var6 = 6;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var2['source'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 2:
-            return var1;
-        }
-    };
-    var2['useTrailing'] = var8;
     var8 = {};
     var10 = var10.ACCOUNT;
     var8['route'] = var10;
     var9 = function getComponent() {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 10;
+        var2 = _closure1_slot1;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -113,7 +63,7 @@ case 2:
     var8['getComponent'] = var9;
     var2['screen'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 11;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

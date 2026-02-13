@@ -24,18 +24,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.StyleSheet;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.DEFAULT_ROLE_COLOR;
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var7 = var8.create;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {'marginHorizontal': 0, 'marginVertical': 0, 'marginRight': 8, 'minWidth': 24, 'height': 24, 'borderRadius': 3};
     var4['rowColorBlock'] = var9;
@@ -63,13 +62,15 @@ case 2:
 case 5:
             var6 = false;
 case 4:
-            var7 = var2.onChange;
-            var _closure2_slot1 = var7;
+            var8 = var2.onChange;
+            var _closure2_slot1 = var8;
+            var2 = _closure1_slot6;
+            var12 = var2.bind(var4)();
             var5 = _closure1_slot3;
             var3 = var5.useCallback;
             var2 = new Array(2);
             var2[0] = var9;
-            var2[1] = var7;
+            var2[1] = var8;
             var1 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -110,7 +111,6 @@ case 4:
             var11 = var11.bind(var4)(var7);
             var7 = {};
             var7['color'] = var9;
-            var12 = _closure1_slot6;
             var12 = var12.rowColorBlock;
             var7['style'] = var12;
             var7['onSelect'] = var5;

@@ -757,8 +757,8 @@ case 65:
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2._paused;
-                        if(var2) { _fun0017_ip = 7; continue _fun0017 }
-case 69:
+                        if(var2) { _fun0017_ip = 69; continue _fun0017 }
+case 70:
                         var2 = _closure3_slot0;
                         var1 = var2.getVisibleFeedItemIds;
                         var1 = var1.bind(var2)();
@@ -786,7 +786,7 @@ case 69:
                         var3 = true;
                         var2['_paused'] = var3;
                         var2['_pausedFeedItemIds'] = var1;
-case 7:
+case 69:
                         var1 = undefined;
                         return var1;
                     }
@@ -797,8 +797,8 @@ case 7:
 case 0:
                         var2 = _closure3_slot0;
                         var2 = var2._paused;
-                        if(!var2) { _fun0018_ip = 7; continue _fun0018 }
-case 69:
+                        if(!var2) { _fun0018_ip = 69; continue _fun0018 }
+case 70:
                         var2 = _closure3_slot0;
                         var1 = false;
                         var2['_paused'] = var1;
@@ -826,7 +826,7 @@ case 69:
                         var1 = var3.bind(var4)(var1);
                         var1 = var2.clearPausedFeedItemIds;
                         var1 = var1.bind(var2)();
-case 7:
+case 69:
                         var1 = undefined;
                         return var1;
                     }
@@ -841,14 +841,14 @@ case 0:
                         var1 = var1._isReactNavigationFocused;
                         var2 = _closure3_slot0;
                         if(var1) { _fun0019_ip = 60; continue _fun0019 }
-case 70:
+case 71:
                         var1 = var2.pause;
                         var1 = var1.bind(var2)();
-                        _fun0019_ip = 71; continue _fun0019;
+                        _fun0019_ip = 72; continue _fun0019;
 case 60:
                         var1 = var2.resume;
                         var1 = var1.bind(var2)();
-case 71:
+case 72:
                         var1 = undefined;
                         return var1;
                     }
@@ -865,12 +865,12 @@ case 0:
 case 59:
                         var1 = var1.focused;
                         var2 = _closure3_slot0;
-                        if(var1) { _fun0020_ip = 71; continue _fun0020 }
-case 72:
+                        if(var1) { _fun0020_ip = 72; continue _fun0020 }
+case 73:
                         var1 = var2.pause;
                         var1 = var1.bind(var2)();
                         _fun0020_ip = 7; continue _fun0020;
-case 71:
+case 72:
                         var1 = var2.resume;
                         var1 = var1.bind(var2)();
 case 7:
@@ -893,10 +893,10 @@ case 7:
                 var3['_pausedFeedItemIds'] = var4;
                 var4 = null;
                 var4 = var4 != var5;
-                if(!var4) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
+                if(!var4) { _fun0008_ip = 74; continue _fun0008 }
+case 10:
                 var4 = var5;
-case 73:
+case 74:
                 var3['_paused'] = var4;
                 var4 = true;
                 var3['_isReactNavigationFocused'] = var4;

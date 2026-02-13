@@ -33,15 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot6 = var9;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.HourglassIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot7 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
     var4 = var7.memo;
     var2 = function GuildsBarPendingGuildFolder(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -53,7 +46,7 @@ case 0:
             var10 = var1.childNodes;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var16[var1];
             var4 = undefined;
             var6 = var15.bind(var4)(var2);
@@ -62,12 +55,12 @@ case 0:
             var13 = false;
             var12 = var2.bind(var6)(var8, var13);
             var2 = _closure1_slot1;
-            var6 = 6;
+            var6 = 5;
             var6 = var16[var6];
             var6 = var2.bind(var4)(var6);
             var6 = var6.bind(var4)();
             var _closure2_slot1 = var6;
-            var6 = 7;
+            var6 = 6;
             var6 = var16[var6];
             var17 = var15.bind(var4)(var6);
             var14 = var17.useStateFromStores;
@@ -99,7 +92,7 @@ case 2:
             var6 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 8;
+                var1 = 7;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -159,7 +152,7 @@ case 6:
             var6 = var17.bind(var22)(var6, var9);
             var18 = var6.accessibilityActions;
             var17 = var6.onAccessibilityAction;
-            var6 = 9;
+            var6 = 8;
             var6 = var16[var6];
             var21 = var15.bind(var4)(var6);
             var9 = var21.useSharedValue;
@@ -177,7 +170,7 @@ case 6:
                 var2 = function onPress() {
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 10;
+                    var3 = 9;
                     var5 = var4[var3];
                     var1 = undefined;
                     var6 = var7.bind(var1)(var5);
@@ -188,7 +181,7 @@ case 6:
                     var3 = var3.IMPACT_LIGHT;
                     var3 = var5.bind(var6)(var3);
                     var3 = _closure1_slot1;
-                    var2 = 11;
+                    var2 = 10;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.toggleGuildFolderExpand;
@@ -214,7 +207,7 @@ case 6:
             var1['unread'] = var13;
             var1['circle'] = var13;
             var1['styles'] = var12;
-            var12 = 12;
+            var12 = 11;
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;
@@ -236,7 +229,7 @@ case 9:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var7 = 13;
+            var7 = 12;
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.GuildsBarGuildFolderBG;
@@ -247,7 +240,15 @@ case 9:
             var6 = var9.bind(var4)(var8, var7);
 case 8:
             var1['externalChildren'] = var6;
-            var5 = _closure1_slot7;
+            var7 = _closure1_slot6;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 13;
+            var5 = var8[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.HourglassIcon;
+            var5 = {};
+            var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -3,11 +3,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
         var5 = require;
-        var14 = metroImportDefault;
+        var13 = metroImportDefault;
         var3 = exports;
         var6 = dependencyMap;
         var _closure1_slot0 = var5;
-        var _closure1_slot1 = var14;
+        var _closure1_slot1 = var13;
         var _closure1_slot2 = var6;
         var1 = function getEmojiItemUrl(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -50,6 +50,31 @@ case 6:
                 return var1;
             }
         };
+        var _closure1_slot12 = var1;
+        var1 = function EmojiItemLockedOverlay() {
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var6 = var8.lockContainer;
+            var1['style'] = var6;
+            var7 = _closure1_slot7;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var5 = 11;
+            var5 = var9[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.LockIcon;
+            var5 = {};
+            var8 = var8.lock;
+            var5['style'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        };
         var _closure1_slot13 = var1;
         var1 = function EmojiItem(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -69,7 +94,7 @@ case 0:
                 var2 = _closure1_slot9;
                 var4 = undefined;
                 var11 = var2.bind(var4)();
-                var2 = _closure1_slot13;
+                var2 = _closure1_slot12;
                 var12 = var2.bind(var4)(var10, var3);
                 if(!var6) { _fun0003_ip = 9; continue _fun0003 }
 case 2:
@@ -179,7 +204,10 @@ case 14:
                 var5[0] = var8;
                 if(!var6) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                var6 = _closure1_slot10;
+                var9 = _closure1_slot7;
+                var8 = _closure1_slot13;
+                var7 = {};
+                var6 = var9.bind(var4)(var8, var7);
 case 18:
                 var5[1] = var6;
                 var1['children'] = var5;
@@ -206,17 +234,17 @@ case 18:
         var4 = var5.bind(var1)(var4);
         var8 = var4.View;
         var _closure1_slot3 = var8;
-        var12 = var4.StyleSheet;
+        var11 = var4.StyleSheet;
         var4 = 2;
         var4 = var6[var4];
-        var4 = var14.bind(var1)(var4);
+        var4 = var13.bind(var1)(var4);
         var _closure1_slot4 = var4;
         var4 = 3;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
-        var15 = var4.IMAGE_SIZE;
-        var _closure1_slot5 = var15;
-        var13 = var4.ROW_HEIGHT;
+        var14 = var4.IMAGE_SIZE;
+        var _closure1_slot5 = var14;
+        var12 = var4.ROW_HEIGHT;
         var4 = 4;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
@@ -225,104 +253,77 @@ case 18:
         var4 = 5;
         var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
-        var9 = var4.jsx;
-        var _closure1_slot7 = var9;
+        var8 = var4.jsx;
+        var _closure1_slot7 = var8;
         var4 = var4.jsxs;
         var _closure1_slot8 = var4;
         var4 = 6;
         var4 = var6[var4];
-        var10 = var5.bind(var1)(var4);
-        var8 = var10.createStyles;
+        var9 = var5.bind(var1)(var4);
+        var8 = var9.createStyles;
         var4 = {};
-        var11 = {};
-        var11['height'] = var15;
-        var11['width'] = var15;
-        var4['image'] = var11;
-        var11 = {};
-        var11['height'] = var15;
-        var11['width'] = var15;
-        var15 = 'center';
-        var11['alignItems'] = var15;
-        var11['justifyContent'] = var15;
-        var4['surrogatesFrame'] = var11;
-        var11 = {};
-        var15 = 7;
-        var16 = var6[var15];
-        var16 = var14.bind(var1)(var16);
-        var16 = var16.radii;
-        var16 = var16.sm;
-        var11['borderRadius'] = var16;
-        var16 = 'hidden';
-        var11['overflow'] = var16;
-        var4['disabledOverlay'] = var11;
-        var11 = {};
-        var16 = 8;
-        var16 = var6[var16];
-        var17 = var5.bind(var1)(var16);
-        var16 = var17.isAndroid;
-        var17 = var16.bind(var17)();
-        var16 = 30;
-        if(!var17) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-        var16 = 26;
-case 20:
-        var11['fontSize'] = var16;
+        var10 = {};
+        var10['height'] = var14;
+        var10['width'] = var14;
+        var4['image'] = var10;
+        var10 = {};
+        var10['height'] = var14;
+        var10['width'] = var14;
+        var14 = 'center';
+        var10['alignItems'] = var14;
+        var10['justifyContent'] = var14;
+        var4['surrogatesFrame'] = var10;
+        var10 = {};
+        var14 = 7;
+        var15 = var6[var14];
+        var15 = var13.bind(var1)(var15);
+        var15 = var15.radii;
+        var15 = var15.sm;
+        var10['borderRadius'] = var15;
+        var15 = 'hidden';
+        var10['overflow'] = var15;
+        var4['disabledOverlay'] = var10;
+        var10 = {};
+        var15 = 8;
         var15 = var6[var15];
-        var15 = var14.bind(var1)(var15);
-        var15 = var15.colors;
-        var15 = var15.TEXT_DEFAULT;
-        var11['color'] = var15;
-        var4['surrogates'] = var11;
-        var11 = {'height': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
-        var11['height'] = var13;
-        var4['row'] = var11;
-        var11 = {'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center'};
-        var13 = 9;
-        var13 = var6[var13];
-        var14 = var14.bind(var1)(var13);
-        var13 = '#000000';
-        var15 = var14.bind(var1)(var13);
-        var14 = var15.alpha;
-        var13 = 0.2;
-        var14 = var14.bind(var15)(var13);
-        var13 = var14.hex;
-        var13 = var13.bind(var14)();
-        var11['backgroundColor'] = var13;
-        var19 = var12.absoluteFillObject;
-        var20 = var11;
-        var12 = copyDataProperties(var20, var19);
-        var4['lockContainer'] = var11;
-        var11 = {'width': 16, 'height': 16, 'tintColor': 'white'};
-        var4['lock'] = var11;
-        var4 = var8.bind(var10)(var4);
+        var16 = var5.bind(var1)(var15);
+        var15 = var16.isAndroid;
+        var16 = var15.bind(var16)();
+        var15 = 30;
+        if(!var16) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+        var15 = 26;
+case 20:
+        var10['fontSize'] = var15;
+        var14 = var6[var14];
+        var14 = var13.bind(var1)(var14);
+        var14 = var14.colors;
+        var14 = var14.TEXT_DEFAULT;
+        var10['color'] = var14;
+        var4['surrogates'] = var10;
+        var10 = {'height': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
+        var10['height'] = var12;
+        var4['row'] = var10;
+        var10 = {'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center'};
+        var12 = 9;
+        var12 = var6[var12];
+        var13 = var13.bind(var1)(var12);
+        var12 = '#000000';
+        var14 = var13.bind(var1)(var12);
+        var13 = var14.alpha;
+        var12 = 0.2;
+        var13 = var13.bind(var14)(var12);
+        var12 = var13.hex;
+        var12 = var12.bind(var13)();
+        var10['backgroundColor'] = var12;
+        var18 = var11.absoluteFillObject;
+        var19 = var10;
+        var11 = copyDataProperties(var19, var18);
+        var4['lockContainer'] = var10;
+        var10 = {'width': 16, 'height': 16, 'tintColor': 'white'};
+        var4['lock'] = var10;
+        var4 = var8.bind(var9)(var4);
         var _closure1_slot9 = var4;
-        var8 = function EmojiItemLockedOverlay() {
-            var1 = _closure1_slot9;
-            var4 = undefined;
-            var8 = var1.bind(var4)();
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot3;
-            var1 = {};
-            var6 = var8.lockContainer;
-            var1['style'] = var6;
-            var7 = _closure1_slot7;
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var5 = 11;
-            var5 = var9[var5];
-            var5 = var6.bind(var4)(var5);
-            var6 = var5.LockIcon;
-            var5 = {};
-            var8 = var8.lock;
-            var5['style'] = var8;
-            var5 = var7.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var4 = {};
-        var4 = var9.bind(var1)(var8, var4);
-        var _closure1_slot10 = var4;
         var8 = var7.memo;
         var4 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -377,7 +378,7 @@ case 28:
                 var23 = var20;
 case 27:
                 var1['name'] = var23;
-                var23 = _closure1_slot13;
+                var23 = _closure1_slot12;
                 var23 = var23.bind(var4)(var24, var16);
                 var1['url'] = var23;
                 var23 = var24.animated;
@@ -493,7 +494,7 @@ case 36:
             }
         };
         var4 = var8.bind(var7)(var4);
-        var _closure1_slot11 = var4;
+        var _closure1_slot10 = var4;
         var8 = var7.memo;
         var4 = function(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -568,7 +569,7 @@ case 37:
             }
         };
         var4 = var8.bind(var7)(var4);
-        var _closure1_slot12 = var4;
+        var _closure1_slot11 = var4;
         var4 = var7.memo;
         var2 = function(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -597,10 +598,10 @@ case 44:
                 var3 = _closure1_slot7;
                 if(var2) { _fun0008_ip = 2; continue _fun0008 }
 case 46:
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 _fun0008_ip = 47; continue _fun0008;
 case 2:
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot10;
 case 47:
                 var1 = {};
                 var9 = var1;

@@ -272,7 +272,7 @@ case 16:
             return var1;
         }
     };
-    var _closure1_slot13 = var2;
+    var _closure1_slot12 = var2;
     var1 = function CollectiblesSKUPreview(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -297,7 +297,7 @@ case 0:
             if(var4) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
             var5 = _closure1_slot9;
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var3 = {};
             var3['collectiblesItemData'] = var6;
             var3['backgroundColor'] = var2;
@@ -306,6 +306,11 @@ case 19:
 case 18:
             return var1;
         }
+    };
+    var _closure1_slot13 = var1;
+    var1 = function SocialLayerStorefrontSKUPreview() {
+        var1 = null;
+        return var1;
     };
     var _closure1_slot14 = var1;
     var1 = global;
@@ -325,7 +330,7 @@ case 18:
     var5 = 1;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var12 = var5.StyleSheet;
+    var11 = var5.StyleSheet;
     var5 = var5.View;
     var _closure1_slot4 = var5;
     var5 = 2;
@@ -347,38 +352,31 @@ case 18:
     var5 = 5;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot9 = var9;
+    var8 = var5.jsx;
+    var _closure1_slot9 = var8;
     var5 = var5.jsxs;
     var _closure1_slot10 = var5;
     var5 = 6;
     var5 = var7[var5];
-    var10 = var6.bind(var1)(var5);
-    var8 = var10.createStyles;
+    var9 = var6.bind(var1)(var5);
+    var8 = var9.createStyles;
     var5 = {};
-    var11 = {'width': '100%', 'height': '100%', 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
-    var5['container'] = var11;
-    var11 = {};
-    var15 = var12.absoluteFillObject;
-    var16 = var11;
-    var12 = copyDataProperties(var16, var15);
-    var13 = '60%';
-    var12 = 'top';
-    var11[var12] = var13;
-    var5['gradient'] = var11;
-    var11 = {};
-    var12 = 20;
-    var11['marginTop'] = var12;
-    var5['bundleOffset'] = var11;
-    var5 = var8.bind(var10)(var5);
+    var10 = {'width': '100%', 'height': '100%', 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['container'] = var10;
+    var10 = {};
+    var14 = var11.absoluteFillObject;
+    var15 = var10;
+    var11 = copyDataProperties(var15, var14);
+    var12 = '60%';
+    var11 = 'top';
+    var10[var11] = var12;
+    var5['gradient'] = var10;
+    var10 = {};
+    var11 = 20;
+    var10['marginTop'] = var11;
+    var5['bundleOffset'] = var10;
+    var5 = var8.bind(var9)(var5);
     var _closure1_slot11 = var5;
-    var8 = function SocialLayerStorefrontSKUPreview() {
-        var1 = null;
-        return var1;
-    };
-    var5 = {};
-    var5 = var9.bind(var1)(var8, var5);
-    var _closure1_slot12 = var5;
     var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -434,11 +432,15 @@ case 24:
             var3 = null;
             return var3;
 case 22:
-            var3 = _closure1_slot12;
+            var7 = _closure1_slot9;
+            var6 = _closure1_slot14;
+            var4 = undefined;
+            var3 = {};
+            var3 = var7.bind(var4)(var6, var3);
             return var3;
 case 20:
             var4 = _closure1_slot9;
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot13;
             var2 = {};
             var2['sku'] = var5;
             var2['backgroundColor'] = var1;

@@ -32,10 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6.bind(var1)(var7);
     var7 = var7.RecentlyActiveCategory;
     var3['RecentlyActiveCategory'] = var7;
+    var7 = var5[var2];
+    var7 = var6.bind(var1)(var7);
+    var7 = var7.renderCategoryItem;
+    var3['renderCategoryItem'] = var7;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
-    var2 = var2.renderCategoryItem;
-    var3['renderCategoryItem'] = var2;
+    var2 = var2.useCategoryStyles;
+    var3['useCategoryStyles'] = var2;
     var2 = 2;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);

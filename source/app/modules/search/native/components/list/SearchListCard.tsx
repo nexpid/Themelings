@@ -430,20 +430,8 @@ case 7:
         var9 = var2.avatarSource;
         var8 = var2.channel;
         var _closure2_slot0 = var8;
-        var6 = _closure1_slot5;
-        var3 = _closure1_slot10;
-        var2 = {};
-        var2['channel'] = var8;
-        var4 = undefined;
-        var2 = var6.bind(var4)(var3, var2);
-        var _closure2_slot1 = var2;
-        var6 = _closure1_slot5;
-        var3 = _closure1_slot9;
-        var2 = {};
-        var2['channel'] = var8;
-        var2 = var6.bind(var4)(var3, var2);
-        var _closure2_slot2 = var2;
         var2 = _closure1_slot7;
+        var4 = undefined;
         var7 = var2.bind(var4)();
         var6 = _closure1_slot3;
         var3 = var6.useMemo;
@@ -463,10 +451,22 @@ case 10:
                 var2 = var2.bind(var5)();
                 if(!(var4 != var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                var2 = _closure2_slot1;
+                var6 = _closure1_slot5;
+                var5 = _closure1_slot10;
+                var4 = {};
+                var2 = _closure2_slot0;
+                var4['channel'] = var2;
+                var2 = undefined;
+                var2 = var6.bind(var2)(var5, var4);
                 _fun0003_ip = 13; continue _fun0003;
 case 11:
-                var2 = _closure2_slot2;
+                var6 = _closure1_slot5;
+                var5 = _closure1_slot9;
+                var4 = {};
+                var3 = _closure2_slot0;
+                var4['channel'] = var3;
+                var3 = undefined;
+                var2 = var6.bind(var3)(var5, var4);
 case 13:
                 var1 = var2;
 case 9:

@@ -75,16 +75,6 @@ case 0:
 case 3:
             var1 = 'text-md/normal';
             _closure2_slot1 = var1;
-            var8 = _closure1_slot3;
-            var2 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var1 = 4;
-            var1 = var11[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {'application': null, 'textVariant': 'text-md/normal', 'iconSize': 16};
-            var1['application'] = var4;
-            var1 = var8.bind(var4)(var2, var1);
-            _closure2_slot2 = var1;
             var1 = var7.length;
             var2 = 1;
             if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
@@ -96,13 +86,14 @@ case 7:
             var1 = var7.length;
             var1 = var1 - var2;
             var1 = var7[var1];
+            _closure2_slot2 = var1;
             var2 = var7.slice;
             var1 = -1;
             var1 = var2.bind(var7)(var3, var1);
             _closure2_slot3 = var1;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var3 = var8[var1];
             var3 = var2.bind(var4)(var3);
             var7 = var3.intl;
@@ -120,7 +111,7 @@ case 7:
                     var5 = _closure1_slot3;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var4[var2];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var2);
@@ -141,7 +132,21 @@ case 7:
             };
             var1['applications'] = var8;
             var8 = function applicationNameLast() {
-                var1 = _closure2_slot2;
+                var4 = _closure1_slot3;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 5;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var6 = _closure2_slot2;
+                var1['application'] = var6;
+                var5 = _closure2_slot1;
+                var1['textVariant'] = var5;
+                var5 = 16;
+                var1['iconSize'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
             var1['applicationNameLast'] = var8;
@@ -150,7 +155,7 @@ case 7:
 case 6:
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var3 = var11[var1];
             var3 = var2.bind(var4)(var3);
             var8 = var3.intl;
@@ -164,7 +169,7 @@ case 6:
                 var5 = _closure1_slot3;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 4;
+                var1 = 5;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -187,7 +192,7 @@ case 6:
                 var5 = _closure1_slot3;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 4;
+                var1 = 5;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -211,7 +216,7 @@ case 6:
 case 4:
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var3 = var11[var1];
             var3 = var2.bind(var4)(var3);
             var8 = var3.intl;
@@ -225,7 +230,7 @@ case 4:
                 var5 = _closure1_slot3;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 4;
+                var1 = 5;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -259,7 +264,7 @@ case 8:
             var6[1] = var9;
             var1['style'] = var6;
             var6 = _closure1_slot0;
-            var5 = 5;
+            var5 = 4;
             var9 = var8[var5];
             var9 = var6.bind(var4)(var9);
             var10 = var9.intl;

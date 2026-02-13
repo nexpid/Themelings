@@ -1234,19 +1234,6 @@ case 191:
 case 190:
             var2['source'] = var10;
             var2 = var9.bind(var3)(var2);
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 19;
-            var2 = var10[var2];
-            var2 = var9.bind(var3)(var2);
-            var10 = var2.BusinessProfileLinkingExperiment;
-            var9 = var10.getConfig;
-            var2 = {};
-            var11 = _closure1_slot7;
-            var11 = var11.QUEST_INSTRUCTIONS;
-            var2['location'] = var11;
-            var2 = var9.bind(var10)(var2);
-            var2 = var2.enabled;
             var2 = _closure1_slot17;
             var1 = {};
             var16 = var1;
@@ -1368,7 +1355,7 @@ case 208:
 case 210:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 22;
+            var3 = 21;
             var3 = var5[var3];
             var5 = undefined;
             var4 = var4.bind(var5)(var3);
@@ -1452,7 +1439,7 @@ case 207:
     var9 = 'IN_GAME';
     var6[var10] = var9;
     var _closure1_slot13 = var6;
-    var6 = 24;
+    var6 = 23;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1964,7 +1951,7 @@ case 268:
             var14 = var15.bind(var20)(var14);
             _fun0011_ip = 269; continue _fun0011;
 case 267:
-            var15 = 20;
+            var15 = 19;
             var15 = var17[var15];
             var17 = var16.bind(var6)(var15);
             var16 = var17.getContextualEntrypointHeading;
@@ -2195,7 +2182,7 @@ case 288:
 case 285:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 21;
+            var2 = 20;
             var2 = var8[var2];
             var6 = var3.bind(var5)(var2);
             var4 = var6.formatPercent;
@@ -2332,7 +2319,7 @@ case 300:
 case 295:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 23;
+            var4 = 22;
             var4 = var8[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.getVideoQuestStartCtaExperimentText;
@@ -2557,7 +2544,7 @@ case 319:
 case 199:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 20;
+            var5 = 19;
             var5 = var8[var5];
             var7 = var7.bind(var1)(var5);
             var5 = var7.getDefaultReward;

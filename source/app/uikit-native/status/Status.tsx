@@ -118,7 +118,6 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var7 = var4.Image;
     var _closure1_slot4 = var7;
-    var8 = var4.StyleSheet;
     var4 = var4.View;
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -147,13 +146,15 @@ case 2:
     var _closure1_slot11 = var7;
     var4 = var4.jsxs;
     var _closure1_slot12 = var4;
-    var7 = var8.create;
-    var4 = {};
-    var9 = {'width': '100%', 'height': '100%'};
-    var4['statusIcon'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
     var4 = 7;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = {};
+    var10 = {'width': '100%', 'height': '100%'};
+    var7['statusIcon'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot13 = var7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -304,37 +305,38 @@ case 29:
 case 28:
             var6 = var1.style;
             var9 = var1.status;
-            var12 = var1.size;
+            var13 = var1.size;
             var8 = var1.streaming;
             if(!(var8 === var4)) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
             var8 = false;
 case 30:
+            var1 = _closure1_slot13;
+            var12 = var1.bind(var4)();
             var3 = _closure1_slot11;
             var2 = _closure1_slot5;
             var1 = {};
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
             var5 = 17;
-            var5 = var14[var5];
-            var5 = var13.bind(var4)(var5);
-            var12 = var5.bind(var4)(var12, var11);
+            var5 = var15[var5];
+            var5 = var14.bind(var4)(var5);
+            var13 = var5.bind(var4)(var13, var11);
             var5 = new Array(2);
-            var5[0] = var12;
+            var5[0] = var13;
             var5[1] = var6;
             var1['style'] = var5;
             var6 = _closure1_slot4;
             var5 = {};
-            var12 = _closure1_slot13;
             var12 = var12.statusIcon;
             var5['style'] = var12;
             var7 = _closure1_slot17;
-            var19 = undefined;
-            var18 = var9;
-            var17 = var8;
-            var16 = var11;
-            var15 = var10;
-            var7 = var19[var7](var18, var17, var16, var15, var14);
+            var20 = undefined;
+            var19 = var9;
+            var18 = var8;
+            var17 = var11;
+            var16 = var10;
+            var7 = var20[var7](var19, var18, var17, var16, var15);
             var5['source'] = var7;
             var7 = 'stretch';
             var5['resizeMode'] = var7;
@@ -377,14 +379,16 @@ case 34:
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
+            var1 = _closure1_slot13;
+            var16 = var1.bind(var4)();
             var1 = _closure1_slot14;
-            var18 = var1.bind(var4)(var3, var13);
+            var19 = var1.bind(var4)(var3, var13);
             var9 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 17;
             var1 = var5[var1];
             var1 = var9.bind(var4)(var1);
-            var16 = var1.bind(var4)(var3, var15);
+            var17 = var1.bind(var4)(var3, var15);
             var3 = _closure1_slot0;
             var1 = 18;
             var1 = var5[var1];
@@ -393,70 +397,70 @@ case 34:
             var1 = null;
             var9 = var1 != var8;
             var1 = '';
-            if(!var9) { _fun0004_ip = 8; continue _fun0004 }
-case 35:
+            if(!var9) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
             var1 = var8;
-case 8:
+case 35:
             var5 = var3.bind(var5)(var1);
             var1 = _closure1_slot3;
             var3 = 2;
             var5 = var1.bind(var4)(var5, var3);
             var1 = 0;
-            var19 = var5[var1];
-            _closure2_slot0 = var19;
-            var17 = 1;
-            var22 = var5[var17];
-            _closure2_slot1 = var22;
-            if(var6) { _fun0004_ip = 36; continue _fun0004 }
+            var20 = var5[var1];
+            _closure2_slot0 = var20;
+            var18 = 1;
+            var23 = var5[var18];
+            _closure2_slot1 = var23;
+            if(var6) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
+            var25 = var17.width;
+            _fun0004_ip = 39; continue _fun0004;
 case 37:
-            var24 = var16.width;
-            _fun0004_ip = 2; continue _fun0004;
-case 36:
-            var5 = var18.ellipsis;
+            var5 = var19.ellipsis;
             var8 = var5.width;
             var5 = _closure1_slot6;
             var5 = var3 * var5;
-            var24 = var8 + var5;
-case 2:
-            _closure2_slot2 = var24;
-            if(var6) { _fun0004_ip = 38; continue _fun0004 }
+            var25 = var8 + var5;
 case 39:
-            var23 = var16.height;
-            _fun0004_ip = 40; continue _fun0004;
-case 38:
-            var5 = var18.ellipsis;
+            _closure2_slot2 = var25;
+            if(var6) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+            var24 = var17.height;
+            _fun0004_ip = 42; continue _fun0004;
+case 40:
+            var5 = var19.ellipsis;
             var8 = var5.height;
             var5 = _closure1_slot6;
             var5 = var3 * var5;
-            var23 = var8 + var5;
-case 40:
-            _closure2_slot3 = var23;
-            if(var6) { _fun0004_ip = 41; continue _fun0004 }
+            var24 = var8 + var5;
 case 42:
-            var21 = var16.borderRadius;
-            _fun0004_ip = 43; continue _fun0004;
-case 41:
-            var21 = var24 / var3;
+            _closure2_slot3 = var24;
+            if(var6) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+            var22 = var17.borderRadius;
+            _fun0004_ip = 45; continue _fun0004;
 case 43:
-            _closure2_slot4 = var21;
-            var20 = 0;
-            if(!var6) { _fun0004_ip = 44; continue _fun0004 }
+            var22 = var25 / var3;
 case 45:
+            _closure2_slot4 = var22;
+            var21 = 0;
+            if(!var6) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 8;
             var3 = var8[var3];
             var8 = var5.bind(var4)(var3);
             var5 = var8.getAnimatedTypingTranslateX;
-            var3 = var16.width;
-            var20 = var5.bind(var8)(var3);
-case 44:
-            _closure2_slot5 = var20;
-            var26 = _closure1_slot0;
-            var25 = _closure1_slot2;
+            var3 = var17.width;
+            var21 = var5.bind(var8)(var3);
+case 46:
+            _closure2_slot5 = var21;
+            var27 = _closure1_slot0;
+            var26 = _closure1_slot2;
             var10 = 19;
-            var3 = var25[var10];
-            var8 = var26.bind(var4)(var3);
+            var3 = var26[var10];
+            var8 = var27.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
             var3 = function f() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -466,7 +470,7 @@ case 0:
                     var1 = var1.bind(var3)();
                     var7 = 'animate-never';
                     if(!var1) { _fun0005_ip = 33; continue _fun0005 }
-case 46:
+case 48:
                     var7 = 'respect-motion-settings';
 case 33:
                     var1 = {};
@@ -511,34 +515,34 @@ case 33:
                 }
             };
             var9 = {};
-            var9['enableAnimation'] = var19;
-            var19 = 20;
-            var25 = var25[var19];
-            var25 = var26.bind(var4)(var25);
-            var25 = var25.withSpring;
-            var9['withSpring'] = var25;
-            var9['width'] = var24;
-            var24 = _closure1_slot10;
-            var9['CHANNEL_SPRING_CONFIG'] = var24;
-            var9['height'] = var23;
-            var9['onAnimationFinished'] = var22;
-            var9['borderRadius'] = var21;
-            var9['translateX'] = var20;
+            var9['enableAnimation'] = var20;
+            var20 = 20;
+            var26 = var26[var20];
+            var26 = var27.bind(var4)(var26);
+            var26 = var26.withSpring;
+            var9['withSpring'] = var26;
+            var9['width'] = var25;
+            var25 = _closure1_slot10;
+            var9['CHANNEL_SPRING_CONFIG'] = var25;
+            var9['height'] = var24;
+            var9['onAnimationFinished'] = var23;
+            var9['borderRadius'] = var22;
+            var9['translateX'] = var21;
             var3['__closure'] = var9;
             var9 = 2188820017597.0;
             var3['__workletHash'] = var9;
             var9 = _closure1_slot15;
             var3['__initData'] = var9;
             var8 = var5.bind(var8)(var3);
-            if(!var6) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
-            var17 = 0;
-case 47:
-            _closure2_slot6 = var17;
-            var20 = _closure1_slot0;
+            if(!var6) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
+            var18 = 0;
+case 49:
+            _closure2_slot6 = var18;
+            var21 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var10];
-            var5 = var20.bind(var4)(var3);
+            var5 = var21.bind(var4)(var3);
             var3 = var5.useAnimatedStyle;
             var2 = function O() {
                 var1 = {};
@@ -556,13 +560,13 @@ case 47:
                 return var1;
             };
             var9 = {};
-            var19 = var1[var19];
-            var19 = var20.bind(var4)(var19);
-            var19 = var19.withSpring;
-            var9['withSpring'] = var19;
-            var9['statusOpacity'] = var17;
-            var17 = _closure1_slot10;
-            var9['CHANNEL_SPRING_CONFIG'] = var17;
+            var20 = var1[var20];
+            var20 = var21.bind(var4)(var20);
+            var20 = var20.withSpring;
+            var9['withSpring'] = var20;
+            var9['statusOpacity'] = var18;
+            var18 = _closure1_slot10;
+            var9['CHANNEL_SPRING_CONFIG'] = var18;
             var2['__closure'] = var9;
             var9 = 7224613224414.0;
             var2['__workletHash'] = var9;
@@ -576,49 +580,49 @@ case 47:
             var2 = var1.View;
             var1 = {};
             var5 = new Array(3);
-            var5[0] = var16;
+            var5[0] = var17;
             var5[1] = var8;
             var5[2] = var7;
             var1['style'] = var5;
-            var16 = false;
-            var1['collapsable'] = var16;
-            if(!var6) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+            var17 = false;
+            var1['collapsable'] = var17;
+            if(!var6) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
             var8 = _closure1_slot11;
-            var17 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var5 = var19[var10];
-            var5 = var17.bind(var4)(var5);
+            var18 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var5 = var20[var10];
+            var5 = var18.bind(var4)(var5);
             var7 = var5.View;
             var5 = {};
-            var5['collapsable'] = var16;
-            var16 = _closure1_slot8;
-            var5['entering'] = var16;
-            var16 = _closure1_slot9;
-            var5['exiting'] = var16;
-            var20 = {};
-            var16 = 'absolute';
-            var20['position'] = var16;
-            var16 = _closure1_slot6;
-            var20['left'] = var16;
-            var20['top'] = var16;
-            var16 = new Array(1);
-            var16[0] = var20;
-            var5['style'] = var16;
-            var16 = 21;
-            var16 = var19[var16];
-            var17 = var17.bind(var4)(var16);
-            var16 = {};
-            var19 = var18.ellipsis;
-            var16['style'] = var19;
-            var18 = var18.ellipsisDot;
-            var16['dotStyle'] = var18;
-            var18 = true;
-            var16['disableScale'] = var18;
-            var16 = var8.bind(var4)(var17, var16);
-            var5['children'] = var16;
+            var5['collapsable'] = var17;
+            var17 = _closure1_slot8;
+            var5['entering'] = var17;
+            var17 = _closure1_slot9;
+            var5['exiting'] = var17;
+            var21 = {};
+            var17 = 'absolute';
+            var21['position'] = var17;
+            var17 = _closure1_slot6;
+            var21['left'] = var17;
+            var21['top'] = var17;
+            var17 = new Array(1);
+            var17[0] = var21;
+            var5['style'] = var17;
+            var17 = 21;
+            var17 = var20[var17];
+            var18 = var18.bind(var4)(var17);
+            var17 = {};
+            var20 = var19.ellipsis;
+            var17['style'] = var20;
+            var19 = var19.ellipsisDot;
+            var17['dotStyle'] = var19;
+            var19 = true;
+            var17['disableScale'] = var19;
+            var17 = var8.bind(var4)(var18, var17);
+            var5['children'] = var17;
             var6 = var8.bind(var4)(var7, var5);
-case 49:
+case 51:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot11;
@@ -631,16 +635,15 @@ case 49:
             var6['style'] = var9;
             var10 = _closure1_slot4;
             var9 = {};
-            var16 = _closure1_slot13;
             var16 = var16.statusIcon;
             var9['style'] = var16;
             var11 = _closure1_slot17;
-            var31 = undefined;
-            var30 = var13;
-            var29 = var12;
-            var28 = var15;
-            var27 = var14;
-            var11 = var31[var11](var30, var29, var28, var27, var26);
+            var32 = undefined;
+            var31 = var13;
+            var30 = var12;
+            var29 = var15;
+            var28 = var14;
+            var11 = var32[var11](var31, var30, var29, var28, var27);
             var9['source'] = var11;
             var11 = 'stretch';
             var9['resizeMode'] = var11;

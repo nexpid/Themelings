@@ -75,7 +75,7 @@ case 2:
                 var5 = var5.APP_LAUNCHER;
                 var2['type'] = var5;
                 var5 = {};
-                var7 = _closure1_slot6;
+                var7 = _closure1_slot7;
                 var7 = var7.APPLICATION_VIEW;
                 var5['initialRouteName'] = var7;
                 var6 = _closure2_slot0;
@@ -124,7 +124,7 @@ case 6:
                 }
             };
             var2 = var15.bind(var16)(var2, var3);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var15 = _closure1_slot2;
             var1 = 11;
@@ -160,45 +160,43 @@ case 6:
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
-    var12 = 1;
-    var4 = var6[var12];
+    var10 = 1;
+    var4 = var6[var10];
     var4 = var5.bind(var1)(var4);
     var8 = var4.ActivityIndicator;
+    var _closure1_slot4 = var8;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.AppLauncherRouteName;
-    var _closure1_slot6 = var7;
-    var13 = var4.SCREEN_BACKGROUND_COLOR;
+    var _closure1_slot7 = var7;
+    var11 = var4.SCREEN_BACKGROUND_COLOR;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.BuiltInSectionId;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot8 = var7;
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var9 = var10.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var11 = {};
-    var11['backgroundColor'] = var13;
-    var11['flex'] = var12;
-    var4['container'] = var11;
-    var4 = var9.bind(var10)(var4);
-    var _closure1_slot9 = var4;
-    var4 = {};
-    var4 = var7.bind(var1)(var8, var4);
+    var9 = {};
+    var9['backgroundColor'] = var11;
+    var9['flex'] = var10;
+    var4['container'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = 15;
     var4 = var6[var4];
@@ -241,7 +239,7 @@ case 0:
             var12 = var2.onActivityItemSelected;
             var2 = var2.keyboardCloseReasonRef;
             var _closure2_slot5 = var2;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var7 = var2.bind(var4)();
             var5 = null;
             var3 = var5 == var18;
@@ -261,7 +259,7 @@ case 11:
             var2 = var8[var2];
             var8 = var3.bind(var4)(var2);
             var3 = var8.useGetOrFetchApplication;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var17 = var2.BUILT_IN;
             var2 = null;
             if(!(var1 !== var17)) { _fun0003_ip = 13; continue _fun0003 }
@@ -269,7 +267,7 @@ case 14:
             var2 = var1;
 case 13:
             var2 = var3.bind(var8)(var2);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var3 = var3.BUILT_IN;
             if(!(var1 !== var3)) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
@@ -319,7 +317,7 @@ case 23:
 case 22:
                     if(!var2) { _fun0004_ip = 6; continue _fun0004 }
 case 24:
-                    var4 = _closure1_slot5;
+                    var4 = _closure1_slot6;
                     var3 = var4.queryInstallOnDemandApp;
                     var2 = _closure2_slot6;
                     var1 = _closure2_slot1;
@@ -332,15 +330,15 @@ case 6:
                 }
             };
             var1 = var3.bind(var8)(var1, var2);
-            var3 = _closure1_slot8;
-            var2 = _closure1_slot4;
+            var3 = _closure1_slot9;
+            var2 = _closure1_slot5;
             var1 = {};
             var7 = var7.container;
             var1['style'] = var7;
             if(!(var5 == var18)) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
-            var8 = _closure1_slot8;
-            var7 = _closure1_slot4;
+            var8 = _closure1_slot9;
+            var7 = _closure1_slot5;
             var5 = {};
             var20 = {};
             var22 = _closure1_slot0;
@@ -351,12 +349,15 @@ case 26:
             var21 = var21.EXPANDED_HEADER_HEIGHT;
             var20['paddingTop'] = var21;
             var5['style'] = var20;
-            var20 = _closure1_slot10;
+            var22 = _closure1_slot9;
+            var21 = _closure1_slot4;
+            var20 = {};
+            var20 = var22.bind(var4)(var21, var20);
             var5['children'] = var20;
             var5 = var8.bind(var4)(var7, var5);
             _fun0003_ip = 27; continue _fun0003;
 case 25:
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot9;
             var7 = _closure1_slot11;
             var6 = {};
             var6['context'] = var19;

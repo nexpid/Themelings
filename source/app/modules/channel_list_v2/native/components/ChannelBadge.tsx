@@ -23,15 +23,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot3 = var8;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.NewBadge;
-    var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot4 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -88,7 +81,7 @@ case 19:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var2 = 3;
+            var2 = 2;
             var2 = var10[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -142,14 +135,22 @@ case 13:
 case 21:
             _fun0001_ip = 22; continue _fun0001;
 case 9:
-            var1 = _closure1_slot4;
+            var4 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 3;
+            var2 = var8[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.NewBadge;
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
 case 22:
             _fun0001_ip = 23; continue _fun0001;
 case 8:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 3;
+            var2 = 2;
             var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};

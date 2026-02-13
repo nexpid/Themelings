@@ -1,235 +1,38 @@
 // app/modules/premium/roadblocks/native/views/PremiumUpsellActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function getPageContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
             var1 = 13;
-            var3 = var3[var1];
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3);
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
             var1 = var1.EntitlementFeatureNames;
             var4 = var1.INCREASED_FILE_UPLOAD_SIZE;
             var3 = arg1;
             var1 = null;
             if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = _closure1_slot22;
+            var4 = _closure1_slot18;
+            var3 = _closure1_slot23;
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
 case 2:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
-    var1 = function PremiumUpsellImage(arg1) {
+    var _closure1_slot22 = var1;
+    var1 = function AlwaysCompressImagesSwitch() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var1 = arg1;
-            var7 = var1.image;
-            var1 = _closure1_slot21;
-            var5 = undefined;
-            var6 = var1.bind(var5)();
-            var3 = 'string';
-            var1 = typeof var7;
-            if(!(var3 !== var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var4 = _closure1_slot18;
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var1 = 26;
-            var1 = var8[var1];
-            var3 = var3.bind(var5)(var1);
-            var1 = {};
-            var1['source'] = var7;
-            var8 = 'contain';
-            var1['resizeMode'] = var8;
-            var8 = var6.image;
-            var1['style'] = var8;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 6; continue _fun0002;
-case 4:
-            var4 = _closure1_slot18;
-            var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 25;
-            var2 = var8[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var2['url'] = var7;
-            var6 = var6.image;
-            var2['style'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 6:
-            return var1;
-        }
-    };
-    var _closure1_slot24 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var7 = var6[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var4;
-    var14 = 2;
-    var4 = var6[var14];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PremiumSubscriptionSKUs;
-    var _closure1_slot10 = var7;
-    var7 = var4.PremiumTypes;
-    var _closure1_slot11 = var7;
-    var4 = var4.PremiumUpsellTypes;
-    var _closure1_slot12 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.AnalyticEvents;
-    var _closure1_slot13 = var7;
-    var7 = var4.AnalyticsPages;
-    var _closure1_slot14 = var7;
-    var7 = var4.HelpdeskArticles;
-    var _closure1_slot15 = var7;
-    var4 = var4.ThemeTypes;
-    var _closure1_slot16 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.Fragment;
-    var _closure1_slot17 = var7;
-    var8 = var4.jsx;
-    var _closure1_slot18 = var8;
-    var4 = var4.jsxs;
-    var _closure1_slot19 = var4;
-    var4 = 10;
-    var7 = var6[var4];
-    var10 = var5.bind(var1)(var7);
-    var9 = var10.createStyles;
-    var7 = {};
-    var13 = {'alignSelf': 'center', 'marginTop': null, 'width': 240, 'height': 144};
-    var15 = 'center';
-    var11 = 11;
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.spacing;
-    var16 = var16.PX_16;
-    var13['marginTop'] = var16;
-    var7['image'] = var13;
-    var13 = {'alignSelf': 'center', 'textAlign': 'center'};
-    var7['text'] = var13;
-    var13 = {};
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.spacing;
-    var16 = var16.PX_16;
-    var13['marginHorizontal'] = var16;
-    var7['description'] = var13;
-    var13 = {};
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.spacing;
-    var16 = var16.PX_24;
-    var13['marginTop'] = var16;
-    var16 = var6[var11];
-    var16 = var12.bind(var1)(var16);
-    var16 = var16.spacing;
-    var16 = var16.PX_8;
-    var13['marginHorizontal'] = var16;
-    var13['alignItems'] = var15;
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_8;
-    var13['gap'] = var15;
-    var7['textContainer'] = var13;
-    var13 = {};
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_32;
-    var13['marginTop'] = var15;
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_8;
-    var13['gap'] = var15;
-    var7['buttonContainer'] = var13;
-    var13 = {};
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.radii;
-    var15 = var15.round;
-    var13['borderRadius'] = var15;
-    var7['button'] = var13;
-    var13 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
-    var7['gradient'] = var13;
-    var13 = {'width': 20, 'height': 20, 'marginEnd': 2};
-    var7['nitroWheel'] = var13;
-    var13 = {};
-    var15 = var6[var11];
-    var15 = var12.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_24;
-    var13['marginTop'] = var15;
-    var7['compressionContainer'] = var13;
-    var13 = {};
-    var13['marginTop'] = var14;
-    var7['compressionHint'] = var13;
-    var7 = var9.bind(var10)(var7);
-    var _closure1_slot20 = var7;
-    var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
-    var4 = {};
-    var10 = {'alignSelf': 'center', 'marginTop': null, 'width': 240, 'height': 144};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_16;
-    var10['marginTop'] = var11;
-    var4['image'] = var10;
-    var4 = var7.bind(var9)(var4);
-    var _closure1_slot21 = var4;
-    var7 = function AlwaysCompressImagesSwitch() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = _closure1_slot20;
             var5 = undefined;
@@ -277,8 +80,8 @@ case 0:
             var1 = 0;
             var2 = var2[var1];
             var1 = null;
-            if(!var2) { _fun0003_ip = 7; continue _fun0003 }
-case 6:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot18;
             var3 = _closure1_slot5;
             var2 = {};
@@ -330,13 +133,211 @@ case 6:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 7:
+case 4:
             return var1;
         }
     };
+    var _closure1_slot23 = var1;
+    var1 = function PremiumUpsellImage(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.image;
+            var1 = _closure1_slot21;
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var3 = 'string';
+            var1 = typeof var7;
+            if(!(var3 !== var1)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
+            var4 = _closure1_slot18;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 26;
+            var1 = var8[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = {};
+            var1['source'] = var7;
+            var8 = 'contain';
+            var1['resizeMode'] = var8;
+            var8 = var6.image;
+            var1['style'] = var8;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0003_ip = 8; continue _fun0003;
+case 6:
+            var4 = _closure1_slot18;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 25;
+            var2 = var8[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['url'] = var7;
+            var6 = var6.image;
+            var2['style'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 8:
+            return var1;
+        }
+    };
+    var _closure1_slot24 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot22 = var4;
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var13 = 2;
+    var4 = var6[var13];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PremiumSubscriptionSKUs;
+    var _closure1_slot10 = var7;
+    var7 = var4.PremiumTypes;
+    var _closure1_slot11 = var7;
+    var4 = var4.PremiumUpsellTypes;
+    var _closure1_slot12 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot13 = var7;
+    var7 = var4.AnalyticsPages;
+    var _closure1_slot14 = var7;
+    var7 = var4.HelpdeskArticles;
+    var _closure1_slot15 = var7;
+    var4 = var4.ThemeTypes;
+    var _closure1_slot16 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Fragment;
+    var _closure1_slot17 = var7;
+    var7 = var4.jsx;
+    var _closure1_slot18 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot19 = var4;
+    var4 = 10;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = {};
+    var12 = {'alignSelf': 'center', 'marginTop': null, 'width': 240, 'height': 144};
+    var14 = 'center';
+    var10 = 11;
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_16;
+    var12['marginTop'] = var15;
+    var7['image'] = var12;
+    var12 = {'alignSelf': 'center', 'textAlign': 'center'};
+    var7['text'] = var12;
+    var12 = {};
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_16;
+    var12['marginHorizontal'] = var15;
+    var7['description'] = var12;
+    var12 = {};
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_24;
+    var12['marginTop'] = var15;
+    var15 = var6[var10];
+    var15 = var11.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_8;
+    var12['marginHorizontal'] = var15;
+    var12['alignItems'] = var14;
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var12['gap'] = var14;
+    var7['textContainer'] = var12;
+    var12 = {};
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_32;
+    var12['marginTop'] = var14;
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var12['gap'] = var14;
+    var7['buttonContainer'] = var12;
+    var12 = {};
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.round;
+    var12['borderRadius'] = var14;
+    var7['button'] = var12;
+    var12 = {'width': '100%', 'height': '100%', 'position': 'absolute', 'overflow': 'hidden'};
+    var7['gradient'] = var12;
+    var12 = {'width': 20, 'height': 20, 'marginEnd': 2};
+    var7['nitroWheel'] = var12;
+    var12 = {};
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_24;
+    var12['marginTop'] = var14;
+    var7['compressionContainer'] = var12;
+    var12 = {};
+    var12['marginTop'] = var13;
+    var7['compressionHint'] = var12;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot20 = var7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'alignSelf': 'center', 'marginTop': null, 'width': 240, 'height': 144};
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['marginTop'] = var10;
+    var4['image'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot21 = var4;
     var4 = 42;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -382,12 +383,12 @@ case 0:
             var10 = null;
             var7 = var10 == var2;
             var1 = undefined;
-            if(var7) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
+            if(var7) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
             var1 = var2.initialUpsellKey;
-case 8:
-            if(!(var10 == var1)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+case 9:
+            if(!(var10 == var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var7 = 28;
@@ -395,7 +396,7 @@ case 11:
             var8 = var8.bind(var5)(var7);
             var7 = var8.getUpsellType;
             var1 = var7.bind(var8)(var11);
-case 10:
+case 11:
             var1 = var3.bind(var4)(var1);
             var18 = var1.useTier0UpsellContent;
             _closure2_slot2 = var18;
@@ -429,13 +430,13 @@ case 10:
             };
             var6 = var6.bind(var8)(var4, var3);
             var3 = _closure1_slot11;
-            if(var18) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-            var4 = var3.TIER_2;
-            _fun0004_ip = 14; continue _fun0004;
-case 12:
-            var4 = var3.TIER_0;
+            if(var18) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
+            var4 = var3.TIER_2;
+            _fun0004_ip = 15; continue _fun0004;
+case 13:
+            var4 = var3.TIER_0;
+case 15:
             var3 = function getPageConfig(arg1, arg2, arg3, arg4) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -443,10 +444,10 @@ case 0:
                     var2 = var1.LIGHT;
                     var15 = 'dark';
                     var1 = arg3;
-                    if(!(var1 === var2)) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                    if(!(var1 === var2)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                     var15 = 'light';
-case 15:
+case 16:
                     var12 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var1 = 12;
@@ -778,22 +779,22 @@ case 0:
                     var8 = null;
                     var10 = var8 == var7;
                     var7 = undefined;
-                    if(var10) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+                    if(var10) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                     var10 = _closure2_slot0;
                     var7 = var10.analyticsProperties;
-case 17:
+case 18:
                     var12 = var2;
                     var11 = var7;
                     var7 = copyDataProperties(var12, var11);
                     var7 = _closure2_slot4;
                     var7 = var8 == var7;
                     var8 = undefined;
-                    if(var7) { _fun0006_ip = 19; continue _fun0006 }
-case 20:
+                    if(var7) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                     var7 = _closure2_slot4;
                     var8 = var7.upsellType;
-case 19:
+case 20:
                     var7 = 'type';
                     var2[var7] = var8;
                     var7 = global;
@@ -811,13 +812,13 @@ case 19:
                     var7 = var8.castPremiumSubscriptionAsSkuId;
                     var6 = _closure2_slot2;
                     var9 = _closure1_slot10;
-                    if(var6) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-                    var6 = var9.TIER_2;
-                    _fun0006_ip = 23; continue _fun0006;
-case 21:
-                    var6 = var9.TIER_0;
+                    if(var6) { _fun0006_ip = 22; continue _fun0006 }
 case 23:
+                    var6 = var9.TIER_2;
+                    _fun0006_ip = 24; continue _fun0006;
+case 22:
+                    var6 = var9.TIER_0;
+case 24:
                     var7 = var7.bind(var8)(var6);
                     var6 = 'sku_id';
                     var2[var6] = var7;
@@ -864,8 +865,8 @@ case 23:
             var17 = var3.bind(var4)(var1, var2);
             var2 = var10 == var26;
             var1 = null;
-            if(var2) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+            if(var2) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var4 = _closure1_slot18;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -881,15 +882,15 @@ case 25:
             var6 = {};
             var9 = var26.image;
             var10 = var10 != var9;
-            if(!var10) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
+            if(!var10) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var13 = _closure1_slot18;
             var12 = _closure1_slot24;
             var9 = {};
             var15 = var26.image;
             var9['image'] = var15;
             var10 = var13.bind(var5)(var12, var9);
-case 26:
+case 27:
             var9 = new Array(4);
             var9[0] = var10;
             var12 = _closure1_slot19;
@@ -934,7 +935,7 @@ case 26:
             var10['children'] = var15;
             var10 = var12.bind(var5)(var13, var10);
             var9[1] = var10;
-            var10 = _closure1_slot23;
+            var10 = _closure1_slot22;
             var10 = var10.bind(var5)(var11);
             var9[2] = var10;
             var11 = _closure1_slot5;
@@ -961,15 +962,15 @@ case 26:
             var20 = var20[var22];
             var20 = var24.bind(var5)(var20);
             var20 = var20.t;
-            if(var18) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+            if(var18) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var18 = var20.8x0jKT;
             var18 = var21.bind(var23)(var18);
-            _fun0004_ip = 30; continue _fun0004;
-case 28:
+            _fun0004_ip = 31; continue _fun0004;
+case 29:
             var20 = var20.cM8bbx;
             var18 = var21.bind(var23)(var20);
-case 30:
+case 31:
             var13['text'] = var18;
             var21 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -984,8 +985,8 @@ case 30:
 case 0:
                     var1 = _closure2_slot6;
                     var1 = !var1;
-                    if(!var1) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
+                    if(!var1) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var5 = _closure1_slot18;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -998,7 +999,7 @@ case 32:
                     var6 = var6.nitroWheel;
                     var2['style'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
-case 31:
+case 32:
                     return var1;
                 }
             };
@@ -1035,13 +1036,13 @@ case 0:
                     var6 = var6[var8];
                     var6 = var7.bind(var3)(var6);
                     var6 = var6.Gradients;
-                    if(var5) { _fun0008_ip = 33; continue _fun0008 }
-case 6:
+                    if(var5) { _fun0008_ip = 9; continue _fun0008 }
+case 8:
                     var5 = var6.PREMIUM_TIER_2_TRI_COLOR;
-                    _fun0008_ip = 11; continue _fun0008;
-case 33:
+                    _fun0008_ip = 34; continue _fun0008;
+case 9:
                     var5 = var6.PREMIUM_TIER_0;
-case 11:
+case 34:
                     var1['colors'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -1079,7 +1080,7 @@ case 11:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 24:
+case 25:
             return var1;
         }
     };

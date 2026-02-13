@@ -600,30 +600,30 @@ case 71:
             var14 = var14.bind(var4)(var13);
             var13 = var14.getPendingFolderGuildIds;
             var13 = var13.bind(var14)();
-            if(var11) { _fun0004_ip = 55; continue _fun0004 }
-case 76:
+            if(var11) { _fun0004_ip = 76; continue _fun0004 }
+case 77:
             var11 = var13.includes;
             var11 = var11.bind(var13)(var9);
-            if(var11) { _fun0004_ip = 77; continue _fun0004 }
-case 78:
-            if(!(var5 != var12)) { _fun0004_ip = 79; continue _fun0004 }
-case 80:
+            if(var11) { _fun0004_ip = 78; continue _fun0004 }
+case 79:
+            if(!(var5 != var12)) { _fun0004_ip = 80; continue _fun0004 }
+case 81:
             var13 = var12.includes;
             var11 = _closure1_slot10;
             var11 = var11.MEMBER_VERIFICATION_GATE_ENABLED;
             var11 = var13.bind(var12)(var11);
-            if(!var11) { _fun0004_ip = 79; continue _fun0004 }
-case 81:
-            if(!(var5 != var12)) { _fun0004_ip = 79; continue _fun0004 }
+            if(!var11) { _fun0004_ip = 80; continue _fun0004 }
 case 82:
+            if(!(var5 != var12)) { _fun0004_ip = 80; continue _fun0004 }
+case 83:
             var13 = var12.includes;
             var11 = _closure1_slot10;
             var11 = var11.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             var11 = var13.bind(var12)(var11);
-            if(!var11) { _fun0004_ip = 79; continue _fun0004 }
-case 83:
-            if(!(var5 == var8)) { _fun0004_ip = 84; continue _fun0004 }
-case 85:
+            if(!var11) { _fun0004_ip = 80; continue _fun0004 }
+case 84:
+            if(!(var5 == var8)) { _fun0004_ip = 85; continue _fun0004 }
+case 86:
             var11 = var10.visibility;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -632,59 +632,59 @@ case 85:
             var10 = var13.bind(var4)(var10);
             var10 = var10.GuildProfileVisibility;
             var10 = var10.PUBLIC_WITH_RECRUITMENT;
-            if(!(var11 === var10)) { _fun0004_ip = 79; continue _fun0004 }
-case 84:
-            if(var7) { _fun0004_ip = 79; continue _fun0004 }
-case 86:
+            if(!(var11 === var10)) { _fun0004_ip = 80; continue _fun0004 }
+case 85:
+            if(var7) { _fun0004_ip = 80; continue _fun0004 }
+case 87:
             var7 = _closure1_slot11;
             var7 = var7.APPLY_TO_JOIN;
-            _fun0004_ip = 87; continue _fun0004;
-case 79:
-            if(!(var5 == var8)) { _fun0004_ip = 88; continue _fun0004 }
-case 89:
+            _fun0004_ip = 88; continue _fun0004;
+case 80:
+            if(!(var5 == var8)) { _fun0004_ip = 89; continue _fun0004 }
+case 90:
             var10 = var5 != var12;
             var8 = null;
-            if(!var10) { _fun0004_ip = 90; continue _fun0004 }
-case 91:
+            if(!var10) { _fun0004_ip = 91; continue _fun0004 }
+case 38:
             var11 = var12.includes;
             var10 = _closure1_slot10;
             var10 = var10.DISCOVERABLE;
             var10 = var11.bind(var12)(var10);
             var8 = null;
-            if(!var10) { _fun0004_ip = 90; continue _fun0004 }
+            if(!var10) { _fun0004_ip = 91; continue _fun0004 }
 case 92:
             var10 = _closure1_slot11;
             var8 = var10.LURK_DISCOVERABLE;
-case 90:
+case 91:
             _fun0004_ip = 93; continue _fun0004;
-case 88:
+case 89:
             var10 = _closure1_slot11;
             var8 = var10.JOIN_VIA_INVITE;
 case 93:
             var7 = var8;
-case 87:
-            _fun0004_ip = 94; continue _fun0004;
-case 77:
+case 88:
+            _fun0004_ip = 55; continue _fun0004;
+case 78:
             var8 = _closure1_slot11;
             var7 = var8.HAS_APPLICATION;
-case 94:
-            return var7;
 case 55:
+            return var7;
+case 76:
             var8 = var5 == var3;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 95; continue _fun0004 }
-case 96:
-            var7 = var3.roles;
+            if(var8) { _fun0004_ip = 94; continue _fun0004 }
 case 95:
-            if(!(var5 != var7)) { _fun0004_ip = 97; continue _fun0004 }
-case 98:
+            var7 = var3.roles;
+case 94:
+            if(!(var5 != var7)) { _fun0004_ip = 96; continue _fun0004 }
+case 97:
             var7 = var3.roles;
             var8 = var7.length;
             var7 = 0;
-            if(!(var8 > var7)) { _fun0004_ip = 97; continue _fun0004 }
+            if(!(var8 > var7)) { _fun0004_ip = 96; continue _fun0004 }
+case 98:
+            if(!(var5 != var6)) { _fun0004_ip = 96; continue _fun0004 }
 case 99:
-            if(!(var5 != var6)) { _fun0004_ip = 97; continue _fun0004 }
-case 58:
             var8 = _closure1_slot5;
             var7 = var8.getMember;
             var6 = var6.id;
@@ -721,7 +721,7 @@ case 102:
             };
             var2 = var3.bind(var4)(var2);
             if(var2) { _fun0004_ip = 104; continue _fun0004 }
-case 97:
+case 96:
             var2 = _closure1_slot11;
             var2 = var2.IS_MEMBER;
             return var2;

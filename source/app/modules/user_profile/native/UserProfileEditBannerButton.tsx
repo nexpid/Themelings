@@ -1,11 +1,11 @@
 // app/modules/user_profile/native/UserProfileEditBannerButton.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function ProfilePreviewButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -122,43 +122,51 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = function EditButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var8 = var1.onPress;
-            var9 = var1.accessibilityLabel;
-            var7 = var1.disabled;
+            var10 = var1.onPress;
+            var11 = var1.accessibilityLabel;
+            var9 = var1.disabled;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0003_ip = 6; continue _fun0003 }
+            if(!(var9 === var4)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-            var7 = false;
+            var9 = false;
 case 6:
             var1 = _closure1_slot7;
-            var6 = var1.bind(var4)();
+            var7 = var1.bind(var4)();
             var3 = _closure1_slot5;
-            var2 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var1 = 8;
-            var1 = var10[var1];
-            var1 = var2.bind(var4)(var1);
+            var1 = var8[var1];
+            var1 = var6.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
-            var10 = 'button';
-            var1['accessibilityRole'] = var10;
-            var1['accessibilityLabel'] = var9;
-            var1['onPress'] = var8;
-            var1['disabled'] = var7;
-            var6 = var6.editButton;
-            var1['style'] = var6;
-            var5 = _closure1_slot8;
+            var12 = 'button';
+            var1['accessibilityRole'] = var12;
+            var1['accessibilityLabel'] = var11;
+            var1['onPress'] = var10;
+            var1['disabled'] = var9;
+            var7 = var7.editButton;
+            var1['style'] = var7;
+            var7 = _closure1_slot5;
+            var5 = 11;
+            var5 = var8[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.PencilIcon;
+            var5 = {};
+            var8 = 'xs';
+            var5['size'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -181,55 +189,46 @@ case 6:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot5 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var11 = 'relative';
-    var10['position'] = var11;
-    var4['container'] = var10;
-    var10 = {'position': 'absolute', 'top': 12, 'right': 12, 'width': 28, 'height': 28, 'alignItems': 'center', 'justifyContent': 'center'};
-    var11 = 4;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_SURFACE_HIGH;
-    var10['backgroundColor'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.round;
-    var10['borderRadius'] = var13;
-    var4['editButton'] = var10;
-    var10 = {'position': 'absolute', 'justifyContent': 'center', 'minHeight': 28, 'top': 12, 'right': 48, 'paddingVertical': 4, 'paddingHorizontal': 12, 'borderRadius': null, 'backgroundColor': null, 'zIndex': 1};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.round;
-    var10['borderRadius'] = var13;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_SURFACE_HIGH;
-    var10['backgroundColor'] = var11;
-    var4['previewButton'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {};
+    var10 = 'relative';
+    var9['position'] = var10;
+    var4['container'] = var9;
+    var9 = {'position': 'absolute', 'top': 12, 'right': 12, 'width': 28, 'height': 28, 'alignItems': 'center', 'justifyContent': 'center'};
+    var10 = 4;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_SURFACE_HIGH;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.round;
+    var9['borderRadius'] = var12;
+    var4['editButton'] = var9;
+    var9 = {'position': 'absolute', 'justifyContent': 'center', 'minHeight': 28, 'top': 12, 'right': 48, 'paddingVertical': 4, 'paddingHorizontal': 12, 'borderRadius': null, 'backgroundColor': null, 'zIndex': 1};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.round;
+    var9['borderRadius'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_SURFACE_HIGH;
+    var9['backgroundColor'] = var10;
+    var4['previewButton'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PencilIcon;
-    var4 = {};
-    var9 = 'xs';
-    var4['size'] = var9;
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot8 = var4;
     var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -293,7 +292,7 @@ case 10:
             if(!var8) { _fun0004_ip = 12; continue _fun0004 }
 case 13:
             var14 = _closure1_slot5;
-            var13 = _closure1_slot9;
+            var13 = _closure1_slot8;
             var9 = {};
             var15 = var15.id;
             var9['userId'] = var15;
@@ -303,7 +302,7 @@ case 12:
             if(!var6) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
             var9 = _closure1_slot5;
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot9;
             var7 = {};
             var7['onPress'] = var12;
             var7['accessibilityLabel'] = var11;

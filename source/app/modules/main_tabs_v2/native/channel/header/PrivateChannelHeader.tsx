@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/channel/header/PrivateChannelHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var13 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = function GroupDmMemberCount(arg1) {
         var1 = arg1;
@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var3 = 10;
+        var3 = 9;
         var4 = var6[var3];
         var3 = undefined;
         var8 = var5.bind(var3)(var4);
@@ -96,7 +96,7 @@ case 6:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -113,19 +113,19 @@ case 6:
     var _closure1_slot3 = var7;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -137,34 +137,27 @@ case 6:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot10 = var9;
+    var8 = var4.jsx;
+    var _closure1_slot10 = var8;
     var8 = var4.Fragment;
     var _closure1_slot11 = var8;
     var4 = var4.jsxs;
     var _closure1_slot12 = var4;
     var4 = 7;
     var4 = var6[var4];
-    var10 = var5.bind(var1)(var4);
-    var8 = var10.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
     var4 = {};
-    var11 = {};
-    var12 = 8;
-    var12 = var6[var12];
-    var12 = var13.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.TEXT_MUTED;
-    var11['color'] = var12;
-    var4['activityStatusText'] = var11;
-    var4 = var8.bind(var10)(var4);
+    var10 = {};
+    var11 = 8;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.TEXT_MUTED;
+    var10['color'] = var11;
+    var4['activityStatusText'] = var10;
+    var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.ChannelHeaderLoadingIndicator;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot14 = var4;
     var4 = var7.memo;
     var2 = function PrivateChannelHeader(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -180,7 +173,7 @@ case 0:
             var8 = var3.bind(var5)();
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 10;
+            var3 = 9;
             var11 = var9[var3];
             var14 = var7.bind(var5)(var11);
             var13 = var14.useStateFromStores;
@@ -293,7 +286,7 @@ case 19:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 11;
+                var1 = 10;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var3.bind(var1)(var2);
@@ -310,7 +303,7 @@ case 19:
 case 21:
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var3 = var13[var1];
             var3 = var9.bind(var5)(var3);
             var7 = var3.intl;
@@ -324,7 +317,7 @@ case 21:
 case 20:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 12;
+            var1 = 11;
             var1 = var7[var1];
             var9 = var3.bind(var5)(var1);
             var7 = var9.computeChannelName;
@@ -339,7 +332,7 @@ case 24:
             var7 = _closure1_slot10;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var9[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
@@ -357,9 +350,9 @@ case 25:
             var17 = var7.bind(var5)(var3, var1);
 case 23:
             var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 9;
-            var1 = var7[var1];
+            var1 = _closure1_slot2;
+            var7 = 14;
+            var1 = var1[var7];
             var3 = var3.bind(var5)(var1);
             var1 = var3.useShouldChannelShowLoadingIndicator;
             var3 = var1.bind(var3)(var4);
@@ -374,18 +367,25 @@ case 30:
             if(!var1) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
             var4 = _closure1_slot10;
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot14;
             var1 = {};
             var1['channel'] = var16;
             var17 = var4.bind(var5)(var3, var1);
 case 31:
             _fun0003_ip = 33; continue _fun0003;
 case 29:
-            var17 = _closure1_slot14;
+            var4 = _closure1_slot10;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var7];
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.ChannelHeaderLoadingIndicator;
+            var1 = {};
+            var17 = var4.bind(var5)(var3, var1);
 case 33:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var14 = 13;
+            var14 = 12;
             var4 = var1[var14];
             var4 = var3.bind(var5)(var4);
             var7 = var4.intl;

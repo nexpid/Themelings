@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var19 = var2.user;
+            var18 = var2.user;
             var12 = var2.displayName;
             var14 = var2.guildId;
             var8 = var2.selectedFontId;
@@ -253,30 +253,22 @@ case 0:
             var _closure2_slot2 = var6;
             var2 = _closure1_slot7;
             var4 = undefined;
-            var10 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var11 = var2.bind(var4)();
+            var10 = _closure1_slot0;
+            var19 = _closure1_slot2;
             var2 = 5;
-            var2 = var5[var2];
-            var3 = var3.bind(var4)(var2);
+            var2 = var19[var2];
+            var3 = var10.bind(var4)(var2);
             var2 = var3.useGuildMemberAndUserPendingNameplate;
-            var2 = var2.bind(var3)(var19, var14);
+            var2 = var2.bind(var3)(var18, var14);
             var16 = var2.userNameplate;
             var5 = var2.guildNameplate;
             var15 = var2.pendingNameplate;
-            var18 = null;
-            var2 = var18 != var5;
-            var17 = undefined;
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var3 = _closure1_slot0;
-            var11 = _closure1_slot2;
             var2 = 6;
-            var2 = var11[var2];
-            var3 = var3.bind(var4)(var2);
+            var2 = var19[var2];
+            var3 = var10.bind(var4)(var2);
             var2 = var3.getNameplateData;
             var17 = var2.bind(var3)(var5);
-case 2:
             var5 = _closure1_slot3;
             var3 = var5.useMemo;
             var2 = new Array(3);
@@ -297,16 +289,15 @@ case 2:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
-            var5 = var10.previewSection;
+            var5 = var11.previewSection;
             var1['style'] = var5;
             var7 = _closure1_slot5;
             var6 = _closure1_slot1;
-            var20 = _closure1_slot2;
             var5 = 7;
-            var5 = var20[var5];
+            var5 = var19[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var5['user'] = var19;
+            var5['user'] = var18;
             var5['displayName'] = var12;
             var5['guildId'] = var14;
             var5['pendingDisplayNameStyles'] = var13;
@@ -320,43 +311,43 @@ case 2:
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var6 = {};
-            var11 = var10.chatPreviewWrapper;
-            var6['style'] = var11;
+            var20 = var11.chatPreviewWrapper;
+            var6['style'] = var20;
             var22 = _closure1_slot5;
             var21 = _closure1_slot8;
-            var11 = {};
-            var11['user'] = var19;
-            var11['displayName'] = var12;
-            var11['displayNameStyles'] = var13;
-            var11['guildId'] = var14;
-            var11 = var22.bind(var4)(var21, var11);
-            var6['children'] = var11;
+            var20 = {};
+            var20['user'] = var18;
+            var20['displayName'] = var12;
+            var20['displayNameStyles'] = var13;
+            var20['guildId'] = var14;
+            var20 = var22.bind(var4)(var21, var20);
+            var6['children'] = var20;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var6 = {};
-            var10 = var10.nameplatePreviewWrapper;
-            var6['style'] = var10;
+            var11 = var11.nameplatePreviewWrapper;
+            var6['style'] = var11;
             var11 = _closure1_slot5;
-            var10 = _closure1_slot0;
             var9 = 8;
-            var9 = var20[var9];
+            var9 = var19[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.NameplatePreview;
             var9 = {};
-            var9['user'] = var19;
+            var9['user'] = var18;
             var9['nameplate'] = var15;
+            var18 = null;
             var19 = var18 == var15;
             var15 = undefined;
-            if(!var19) { _fun0001_ip = 4; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var18 != var17)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            if(!(var18 != var17)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
             var16 = var17;
-case 6:
-            var15 = var16;
 case 4:
+            var15 = var16;
+case 2:
             var9['nameplateData'] = var15;
             var9['guildId'] = var14;
             var9['pendingDisplayNameStyles'] = var13;

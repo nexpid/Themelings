@@ -310,35 +310,35 @@ case 20:
             var7 = null;
             var11 = var7 == var10;
             var8 = undefined;
-            if(var11) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-            var8 = var10.skuId;
+            if(var11) { _fun0003_ip = 16; continue _fun0003 }
 case 21:
+            var8 = var10.skuId;
+case 16:
             var10 = var7 != var8;
             var7 = null;
-            if(!var10) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var7 = var8;
+            if(!var10) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
+            var7 = var8;
+case 22:
             var3['avatar_decoration_sku_id'] = var7;
 case 19:
-            if(!(var4 !== var9)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+            if(!(var4 !== var9)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var7 = null;
             var10 = var7 == var9;
             var8 = undefined;
-            if(var10) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var8 = var9.skuId;
+            if(var10) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
+            var8 = var9.skuId;
+case 26:
             var9 = var7 != var8;
             var7 = null;
-            if(!var9) { _fun0003_ip = 29; continue _fun0003 }
-case 8:
-            var7 = var8;
+            if(!var9) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
+            var7 = var8;
+case 28:
             var3['nameplate_sku_id'] = var7;
-case 25:
+case 24:
             if(!(var4 !== var6)) { _fun0003_ip = 30; continue _fun0003 }
 case 31:
             var3['primary_guild_id'] = var6;
@@ -543,7 +543,7 @@ case 49:
             var3 = var3.NstziV;
             var3 = var6.bind(var7)(var3);
             var3 = var4.bind(var5)(var3);
-            _fun0005_ip = 24; continue _fun0005;
+            _fun0005_ip = 50; continue _fun0005;
 case 48:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -563,7 +563,7 @@ case 48:
             var2 = var2.f1+oNk;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
-case 24:
+case 50:
             return var1;
         }
     };

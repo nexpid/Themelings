@@ -26,9 +26,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot3 = var7;
-    var8 = var4.StyleSheet;
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -40,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new Array(10);
     var4[0] = var7;
     var7 = [120, 40];
-    var9 = -10;
-    var7[2] = var9;
+    var8 = -10;
+    var7[2] = var8;
     var4[1] = var7;
     var7 = [100, 80, 10];
     var4[2] = var7;
@@ -52,24 +51,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = [250, 0, 0];
     var4[5] = var7;
     var7 = [250, 80];
-    var9 = -20;
-    var7[2] = var9;
+    var8 = -20;
+    var7[2] = var8;
     var4[6] = var7;
     var7 = [400, 90, 10];
     var4[7] = var7;
     var7 = [400, 20];
-    var7[2] = var9;
+    var7[2] = var8;
     var4[8] = var7;
     var7 = [410, 0, 40];
     var4[9] = var7;
     var _closure1_slot5 = var4;
-    var7 = var8.create;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {'alignItems': 'center', 'justifyContent': 'center', 'height': 250, 'width': '100%', 'position': 'absolute', 'zIndex': 1, 'paddingBottom': 210};
     var4['emojisContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -78,28 +80,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var5 = var2.emojiName;
-            var _closure2_slot0 = var5;
-            var2 = var2.randomizeSizing;
+            var1 = arg1;
+            var7 = var1.emojiName;
+            var _closure2_slot0 = var7;
+            var1 = var1.randomizeSizing;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = false;
+            var1 = false;
 case 2:
-            var _closure2_slot1 = var2;
+            var _closure2_slot1 = var1;
             var _closure2_slot2 = var4;
-            var3 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var2 = 4;
-            var2 = var7[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.getURL;
-            var2 = var2.bind(var3)(var5);
-            _closure2_slot2 = var2;
-            var3 = _closure1_slot5;
-            var2 = var3.map;
-            var1 = function(arg1, arg2) {
+            var3 = _closure1_slot6;
+            var6 = var3.bind(var4)();
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 5;
+            var3 = var8[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getURL;
+            var3 = var3.bind(var5)(var7);
+            _closure2_slot2 = var3;
+            var5 = _closure1_slot5;
+            var3 = var5.map;
+            var2 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = _closure1_slot2;
@@ -116,7 +120,7 @@ case 0:
                     var4 = _closure1_slot4;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot1;
-                    var1 = 5;
+                    var1 = 6;
                     var1 = var3[var1];
                     var3 = var2.bind(var5)(var1);
                     var2 = {};
@@ -174,11 +178,10 @@ case 4:
                     return var1;
                 }
             };
-            var5 = var2.bind(var3)(var1);
+            var5 = var3.bind(var5)(var2);
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
-            var6 = _closure1_slot6;
             var6 = var6.emojisContainer;
             var1['style'] = var6;
             var1['children'] = var5;

@@ -225,7 +225,7 @@ case 0:
             var5 = var3[var5];
             var6 = var6.bind(var4)(var5);
             var5 = var6.isPremium;
-            var22 = var5.bind(var6)(var8);
+            var25 = var5.bind(var6)(var8);
             var1 = var3[var1];
             var5 = var2.bind(var4)(var1);
             var3 = var5.useStateFromStores;
@@ -323,9 +323,9 @@ case 11:
                 }
             };
             var2 = var3.bind(var5)(var1, var2);
-            var21 = var2.isRoleSubscriptionEmoji;
+            var22 = var2.isRoleSubscriptionEmoji;
             var1 = var2.isUnusableRoleSubscriptionEmoji;
-            var20 = var2.userIsRoleSubscriber;
+            var21 = var2.userIsRoleSubscriber;
             var2 = !var1;
             if(var2) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
@@ -344,7 +344,7 @@ case 14:
             var3 = var3.GUILD;
             var2 = var5 !== var3;
 case 12:
-            var19 = !var2;
+            var20 = !var2;
             if(var2) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
             var3 = _closure1_slot0;
@@ -359,7 +359,7 @@ case 17:
 case 19:
             var2 = var7.guildId;
 case 18:
-            var19 = var3.bind(var5)(var2);
+            var20 = var3.bind(var5)(var2);
 case 16:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
@@ -417,19 +417,19 @@ case 26:
             _closure2_slot10 = var2;
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var25 = 24;
-            var2 = var6[var25];
+            var19 = 24;
+            var2 = var6[var19];
             var13 = var5.bind(var4)(var2);
             var3 = var13.getEmojiPopoutData;
             var2 = {};
             var2['sourceType'] = var27;
             var2['expressionSourceApplication'] = var26;
-            var2['isPremium'] = var22;
+            var2['isPremium'] = var25;
             var2['hasJoinedEmojiSourceGuild'] = var15;
-            var2['isRoleSubscriptionEmoji'] = var21;
+            var2['isRoleSubscriptionEmoji'] = var22;
             var2['isUnusableRoleSubscriptionEmoji'] = var1;
-            var2['userIsRoleSubscriber'] = var20;
-            var2['shouldHideRoleSubscriptionCTA'] = var19;
+            var2['userIsRoleSubscriber'] = var21;
+            var2['shouldHideRoleSubscriptionCTA'] = var20;
             var2['emojiComesFromCurrentGuild'] = var16;
             var2['isDiscoverable'] = var10;
             var16 = function onOpenPremiumSettings() {
@@ -487,9 +487,9 @@ case 27:
             var3['emojiSourceGuildId'] = var12;
             var3['nonce'] = var9;
             var3 = var5.bind(var6)(var3);
-            var32 = var2.emojiDescription;
-            var13 = var2.type;
-            _closure2_slot12 = var13;
+            var36 = var2.emojiDescription;
+            var12 = var2.type;
+            _closure2_slot12 = var12;
             var2 = function renderStarIcon(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -648,18 +648,6 @@ case 36:
 case 38:
             var9 = var15;
 case 37:
-            var3 = _closure1_slot14;
-            var2 = _closure1_slot0;
-            var1 = _closure1_slot3;
-            var36 = 29;
-            var1 = var1[var36];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.Text;
-            var1 = {};
-            var5 = 'text-sm/medium';
-            var1['variant'] = var5;
-            var1['children'] = var32;
-            var33 = var3.bind(var4)(var2, var1);
             var5 = _closure1_slot0;
             var1 = _closure1_slot3;
             var22 = 30;
@@ -673,30 +661,19 @@ case 37:
             if(var15) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
             var5 = var1.eLfh+a;
-            var19 = var2.bind(var3)(var5);
+            var26 = var2.bind(var3)(var5);
             _fun0001_ip = 41; continue _fun0001;
 case 39:
             var1 = var1.ohTzZH;
-            var19 = var2.bind(var3)(var1);
+            var26 = var2.bind(var3)(var1);
 case 41:
             var3 = _closure1_slot0;
             var1 = _closure1_slot3;
-            var2 = var1[var25];
+            var2 = var1[var19];
             var2 = var3.bind(var4)(var2);
             var2 = var2.EmojiPopoutType;
             var2 = var2.JOIN_GUILD;
-            var12 = var13 === var2;
-            var6 = _closure1_slot14;
-            var5 = _closure1_slot1;
-            var2 = 35;
-            var2 = var1[var2];
-            var5 = var5.bind(var4)(var2);
-            var2 = {};
-            var2['guild'] = var24;
-            var2['hasJoinedGuild'] = var15;
-            var2['title'] = var19;
-            var2['showingJoinGuildCta'] = var12;
-            var19 = var6.bind(var4)(var5, var2);
+            var25 = var12 === var2;
             var2 = function renderNitroWheel() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -733,7 +710,7 @@ case 48:
                     var3 = _closure1_slot14;
                     var2 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var1 = 36;
+                    var1 = 35;
                     var1 = var6[var1];
                     var2 = var2.bind(var4)(var1);
                     var1 = {};
@@ -743,20 +720,20 @@ case 48:
                 }
             };
             _closure2_slot14 = var2;
-            var28 = {};
-            var2 = var1[var25];
+            var29 = {};
+            var2 = var1[var19];
             var2 = var3.bind(var4)(var2);
             var2 = var2.EmojiPopoutType;
             var5 = var2.GET_PREMIUM;
             var2 = new Array(2);
             var2[0] = var5;
-            var1 = var1[var25];
+            var1 = var1[var19];
             var1 = var3.bind(var4)(var1);
             var1 = var1.EmojiPopoutType;
             var1 = var1.JOIN_GUILD;
             var2[1] = var1;
             var1 = var2.includes;
-            var1 = var1.bind(var2)(var13);
+            var1 = var1.bind(var2)(var12);
             if(var1) { _fun0001_ip = 49; continue _fun0001 }
 case 50:
             var1 = var14.bottomCtaButton;
@@ -764,82 +741,93 @@ case 50:
 case 49:
             var1 = var14.ctaButton;
 case 51:
-            var44 = var28;
+            var44 = var29;
             var43 = var1;
             var1 = copyDataProperties(var44, var43);
-            var26 = _closure1_slot1;
+            var21 = _closure1_slot1;
             var30 = _closure1_slot3;
             var38 = 8;
             var1 = var30[var38];
-            var1 = var26.bind(var4)(var1);
+            var1 = var21.bind(var4)(var1);
             var1 = var1.radii;
             var2 = var1.xl;
             var1 = 'borderRadius';
-            var28[var1] = var2;
-            _closure2_slot15 = var28;
-            var27 = 37;
-            var1 = var30[var27];
-            var1 = var26.bind(var4)(var1);
+            var29[var1] = var2;
+            _closure2_slot15 = var29;
+            var28 = 36;
+            var1 = var30[var28];
+            var1 = var21.bind(var4)(var1);
             var1 = var1.Sizes;
-            var21 = var1.MEDIUM;
-            _closure2_slot16 = var21;
+            var20 = var1.MEDIUM;
+            _closure2_slot16 = var20;
             var3 = _closure1_slot15;
             var2 = _closure1_slot16;
             var1 = {};
             var6 = _closure1_slot6;
             var5 = {};
-            var20 = {};
+            var13 = {};
             var43 = var14.emojiContainer;
-            var44 = var20;
-            var29 = copyDataProperties(var44, var43);
-            var29 = 'marginTop';
-            var20[var29] = var38;
-            var5['style'] = var20;
-            var35 = _closure1_slot14;
-            var20 = 38;
-            var20 = var30[var20];
-            var26 = var26.bind(var4)(var20);
-            var20 = {};
-            var29 = var14.emojiIcon;
-            var20['style'] = var29;
-            var29 = {};
-            var34 = var23.src;
-            var29['uri'] = var34;
-            var20['source'] = var29;
-            var26 = var35.bind(var4)(var26, var20);
-            var20 = new Array(2);
-            var20[0] = var26;
-            var26 = {};
-            var29 = var14.emojiDescriptionWrapperOuter;
-            var26['style'] = var29;
-            var29 = {};
-            var34 = var14.emojiDescriptionWrapper;
-            var29['style'] = var34;
-            var34 = _closure1_slot0;
-            var30 = var30[var36];
-            var30 = var34.bind(var4)(var30);
-            var34 = var30.Text;
+            var44 = var13;
+            var27 = copyDataProperties(var44, var43);
+            var27 = 'marginTop';
+            var13[var27] = var38;
+            var5['style'] = var13;
+            var33 = _closure1_slot14;
+            var13 = 37;
+            var13 = var30[var13];
+            var21 = var21.bind(var4)(var13);
+            var13 = {};
+            var27 = var14.emojiIcon;
+            var13['style'] = var27;
+            var27 = {};
+            var32 = var23.src;
+            var27['uri'] = var32;
+            var13['source'] = var27;
+            var21 = var33.bind(var4)(var21, var13);
+            var13 = new Array(2);
+            var13[0] = var21;
+            var21 = {};
+            var27 = var14.emojiDescriptionWrapperOuter;
+            var21['style'] = var27;
+            var27 = {};
+            var32 = var14.emojiDescriptionWrapper;
+            var27['style'] = var32;
+            var32 = _closure1_slot0;
+            var37 = 29;
+            var30 = var30[var37];
+            var30 = var32.bind(var4)(var30);
+            var32 = var30.Text;
             var30 = {'variant': 'text-md/bold', 'color': 'mobile-text-heading-primary'};
             var39 = var23.alt;
-            var36 = global;
-            var36 = var36.HermesInternal;
-            var37 = var36.concat;
-            var36 = ':';
-            var36 = var37.bind(var36)(var39, var36);
-            var30['children'] = var36;
-            var34 = var35.bind(var4)(var34, var30);
+            var34 = global;
+            var34 = var34.HermesInternal;
+            var35 = var34.concat;
+            var34 = ':';
+            var34 = var35.bind(var34)(var39, var34);
+            var30['children'] = var34;
+            var32 = var33.bind(var4)(var32, var30);
             var30 = new Array(2);
-            var30[0] = var34;
-            var32 = var8 != var32;
+            var30[0] = var32;
+            var32 = var8 != var36;
             if(!var32) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
-            var32 = var33;
+            var35 = _closure1_slot14;
+            var34 = _closure1_slot0;
+            var33 = _closure1_slot3;
+            var33 = var33[var37];
+            var33 = var34.bind(var4)(var33);
+            var34 = var33.Text;
+            var33 = {};
+            var37 = 'text-sm/medium';
+            var33['variant'] = var37;
+            var33['children'] = var36;
+            var32 = var35.bind(var4)(var34, var33);
 case 52:
             var30[1] = var32;
-            var29['children'] = var30;
-            var30 = var3.bind(var4)(var6, var29);
-            var29 = new Array(3);
-            var29[0] = var30;
+            var27['children'] = var30;
+            var30 = var3.bind(var4)(var6, var27);
+            var27 = new Array(3);
+            var27[0] = var30;
             var30 = null;
             if(!var9) { _fun0001_ip = 54; continue _fun0001 }
 case 55:
@@ -910,7 +898,7 @@ case 62:
             var32['children'] = var35;
             var30 = var34.bind(var4)(var33, var32);
 case 54:
-            var29[1] = var30;
+            var27[1] = var30;
             var30 = null;
             if(!var9) { _fun0001_ip = 63; continue _fun0001 }
 case 64:
@@ -980,55 +968,55 @@ case 66:
             var31['children'] = var34;
             var30 = var33.bind(var4)(var32, var31);
 case 63:
-            var29[2] = var30;
-            var26['children'] = var29;
-            var26 = var3.bind(var4)(var6, var26);
-            var20[1] = var26;
-            var5['children'] = var20;
+            var27[2] = var30;
+            var21['children'] = var27;
+            var21 = var3.bind(var4)(var6, var21);
+            var13[1] = var21;
+            var5['children'] = var13;
             var6 = var3.bind(var4)(var6, var5);
             var5 = new Array(4);
             var5[0] = var6;
-            var20 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var6 = var6[var25];
-            var6 = var20.bind(var4)(var6);
+            var6 = var6[var19];
+            var6 = var13.bind(var4)(var6);
             var6 = var6.EmojiPopoutType;
             var6 = var6.GET_PREMIUM;
-            if(!(var13 !== var6)) { _fun0001_ip = 67; continue _fun0001 }
+            if(!(var12 !== var6)) { _fun0001_ip = 67; continue _fun0001 }
 case 68:
             var6 = null;
-            if(!var12) { _fun0001_ip = 69; continue _fun0001 }
+            if(!var25) { _fun0001_ip = 69; continue _fun0001 }
 case 70:
-            var20 = _closure1_slot14;
-            var26 = _closure1_slot1;
-            var25 = _closure1_slot3;
-            var12 = var25[var27];
-            var13 = var26.bind(var4)(var12);
+            var19 = _closure1_slot14;
+            var27 = _closure1_slot1;
+            var21 = _closure1_slot3;
+            var12 = var21[var28];
+            var13 = var27.bind(var4)(var12);
             var12 = {};
-            var12['style'] = var28;
-            var31 = _closure1_slot0;
-            var28 = var25[var22];
-            var28 = var31.bind(var4)(var28);
-            var30 = var28.intl;
-            var29 = var30.string;
-            var28 = var25[var22];
-            var28 = var31.bind(var4)(var28);
-            var28 = var28.t;
-            var28 = var28.riu2R5;
-            var28 = var29.bind(var30)(var28);
-            var12['text'] = var28;
-            var25 = var25[var27];
-            var25 = var26.bind(var4)(var25);
-            var25 = var25.Colors;
-            var25 = var25.BRAND;
-            var12['color'] = var25;
-            var12['size'] = var21;
-            var21 = function onPress() {
+            var12['style'] = var29;
+            var32 = _closure1_slot0;
+            var29 = var21[var22];
+            var29 = var32.bind(var4)(var29);
+            var31 = var29.intl;
+            var30 = var31.string;
+            var29 = var21[var22];
+            var29 = var32.bind(var4)(var29);
+            var29 = var29.t;
+            var29 = var29.riu2R5;
+            var29 = var30.bind(var31)(var29);
+            var12['text'] = var29;
+            var21 = var21[var28];
+            var21 = var27.bind(var4)(var21);
+            var21 = var21.Colors;
+            var21 = var21.BRAND;
+            var12['color'] = var21;
+            var12['size'] = var20;
+            var20 = function onPress() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 39;
+                    var1 = 38;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1046,8 +1034,8 @@ case 71:
                     return var1;
                 }
             };
-            var12['onPress'] = var21;
-            var6 = var20.bind(var4)(var13, var12);
+            var12['onPress'] = var20;
+            var6 = var19.bind(var4)(var13, var12);
 case 69:
             _fun0001_ip = 72; continue _fun0001;
 case 67:
@@ -1069,7 +1057,7 @@ case 74:
                     var4 = _closure1_slot14;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var7 = 37;
+                    var7 = 36;
                     var2 = var9[var7];
                     var3 = var8.bind(var5)(var2);
                     var2 = {};
@@ -1168,18 +1156,28 @@ case 82:
             var11 = _closure1_slot16;
             var10 = {};
             var21 = _closure1_slot14;
-            var20 = _closure1_slot0;
-            var25 = _closure1_slot3;
-            var13 = 40;
-            var13 = var25[var13];
-            var13 = var20.bind(var4)(var13);
-            var20 = var13.FormDivider;
+            var19 = _closure1_slot0;
+            var27 = _closure1_slot3;
+            var13 = 39;
+            var13 = var27[var13];
+            var13 = var19.bind(var4)(var13);
+            var19 = var13.FormDivider;
             var13 = {};
-            var25 = var14.divider;
-            var13['style'] = var25;
-            var20 = var21.bind(var4)(var20, var13);
+            var20 = var14.divider;
+            var13['style'] = var20;
+            var19 = var21.bind(var4)(var19, var13);
             var13 = new Array(3);
-            var13[0] = var20;
+            var13[0] = var19;
+            var20 = _closure1_slot1;
+            var19 = 40;
+            var19 = var27[var19];
+            var20 = var20.bind(var4)(var19);
+            var19 = {};
+            var19['guild'] = var24;
+            var19['hasJoinedGuild'] = var15;
+            var19['title'] = var26;
+            var19['showingJoinGuildCta'] = var25;
+            var19 = var21.bind(var4)(var20, var19);
             var13[1] = var19;
             var15 = !var15;
             if(!var15) { _fun0001_ip = 83; continue _fun0001 }
@@ -1216,7 +1214,7 @@ case 87:
             var13 = _closure1_slot14;
             var15 = _closure1_slot0;
             var19 = _closure1_slot3;
-            var10 = 40;
+            var10 = 39;
             var10 = var19[var10];
             var10 = var15.bind(var4)(var10);
             var11 = var10.FormDivider;

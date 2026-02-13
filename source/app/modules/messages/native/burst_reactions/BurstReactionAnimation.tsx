@@ -22,18 +22,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var1)(var8);
     var4 = 1;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.StyleSheet;
-    var4 = 2;
-    var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot4 = var4;
-    var7 = var8.create;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
     var9 = {};
     var10 = '100%';
@@ -50,79 +49,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function BurstReactionAnimation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var7 = arg1;
-            var13 = var7.channelId;
-            var14 = var7.messageId;
-            var15 = var7.emoji;
-            var12 = var7.isFullscreen;
-            var3 = var7.onComplete;
-            var6 = var7.withFadeOut;
+            var4 = arg1;
+            var14 = var4.channelId;
+            var15 = var4.messageId;
+            var16 = var4.emoji;
+            var13 = var4.isFullscreen;
+            var11 = var4.onComplete;
+            var6 = var4.withFadeOut;
             var5 = undefined;
             if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = true;
 case 2:
-            var4 = {'channelId': 0, 'messageId': 0, 'emoji': 0, 'isFullscreen': 0, 'onComplete': 0, 'withFadeOut': 0};
+            var3 = {'channelId': 0, 'messageId': 0, 'emoji': 0, 'isFullscreen': 0, 'onComplete': 0, 'withFadeOut': 0};
             var1 = null;
+            var19 = var3;
+            var18 = null;
+            var2 = silentSetPrototypeOf(var19, var18);
+            var19 = {};
             var18 = var4;
-            var17 = null;
-            var2 = silentSetPrototypeOf(var18, var17);
-            var18 = {};
-            var17 = var7;
-            var16 = var4;
-            var8 = copyDataProperties(var18, var17, var16);
+            var17 = var3;
+            var8 = copyDataProperties(var19, var18, var17);
+            var3 = _closure1_slot5;
+            var9 = var3.bind(var5)();
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 4;
-            var2 = var10[var2];
-            var11 = var4.bind(var5)(var2);
-            var7 = var11.useBurstReactionAnimationSource;
-            var2 = {};
-            var2['emoji'] = var15;
-            var2['messageId'] = var14;
-            var2['channelId'] = var13;
-            var2['isFullscreen'] = var12;
-            var7 = var7.bind(var11)(var2);
-            var2 = 5;
-            var2 = var10[var2];
-            var11 = var4.bind(var5)(var2);
-            var10 = var11.useStateFromStores;
-            var2 = _closure1_slot3;
+            var3 = 4;
+            var3 = var10[var3];
+            var12 = var4.bind(var5)(var3);
+            var7 = var12.useBurstReactionAnimationSource;
+            var3 = {};
+            var3['emoji'] = var16;
+            var3['messageId'] = var15;
+            var3['channelId'] = var14;
+            var3['isFullscreen'] = var13;
+            var7 = var7.bind(var12)(var3);
+            var3 = 5;
+            var3 = var10[var3];
+            var12 = var4.bind(var5)(var3);
+            var10 = var12.useStateFromStores;
+            var3 = _closure1_slot3;
             var4 = new Array(1);
-            var4[0] = var2;
-            var2 = function() {
+            var4[0] = var3;
+            var3 = function() {
                 var1 = _closure1_slot3;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var10 = var10.bind(var11)(var4, var2);
+            var10 = var10.bind(var12)(var4, var3);
             if(!(var1 != var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var4 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var13 = _closure1_slot2;
             if(var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = 7;
-            var2 = var12[var2];
+            var3 = 7;
+            var3 = var13[var3];
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var11 = 6;
-            var2 = var12[var11];
+            var12 = 6;
+            var3 = var13[var12];
 case 8:
-            var4 = var4.bind(var5)(var2);
-            var2 = {};
+            var4 = var4.bind(var5)(var3);
+            var3 = {};
             if(var6) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var2['onAnimationFinish'] = var3;
-            var6 = var2;
+            var3['onAnimationFinish'] = var11;
+            var6 = var3;
             _fun0001_ip = 11; continue _fun0001;
 case 9:
-            var2['onComplete'] = var3;
-            var6 = var2;
+            var3['onComplete'] = var11;
+            var6 = var3;
 case 11:
             var3 = _closure1_slot4;
             var2 = {};
-            var9 = _closure1_slot5;
             var9 = var9.content;
             var2['style'] = var9;
             var9 = false;
@@ -133,12 +133,12 @@ case 13:
             var9 = 0.5;
 case 12:
             var2['speed'] = var9;
-            var18 = var2;
-            var17 = var8;
-            var8 = copyDataProperties(var18, var17);
-            var18 = var2;
-            var17 = var6;
-            var6 = copyDataProperties(var18, var17);
+            var19 = var2;
+            var18 = var8;
+            var8 = copyDataProperties(var19, var18);
+            var19 = var2;
+            var18 = var6;
+            var6 = copyDataProperties(var19, var18);
             var6 = 'source';
             var2[var6] = var7;
             var2 = var3.bind(var5)(var4, var2);

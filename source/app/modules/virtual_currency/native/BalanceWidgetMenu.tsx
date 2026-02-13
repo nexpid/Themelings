@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -254,8 +254,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 6;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
-    var9 = var2.jsx;
-    var _closure1_slot10 = var9;
+    var5 = var2.jsx;
+    var _closure1_slot10 = var5;
     var2 = var2.jsxs;
     var _closure1_slot11 = var2;
     var2 = function BalanceWidget(arg1) {
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.onPress;
         var7 = var1.style;
         var9 = var1.children;
-        var1 = _closure1_slot15;
+        var1 = _closure1_slot14;
         var4 = undefined;
         var10 = var1.bind(var4)();
         var3 = _closure1_slot11;
@@ -426,13 +426,6 @@ case 2:
         return var1;
     };
     var _closure1_slot13 = var2;
-    var5 = 22;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.Ellipsis;
-    var5 = {'variant': 'primary', 'size': 'sm'};
-    var5 = var9.bind(var1)(var8, var5);
-    var _closure1_slot14 = var5;
     var5 = 24;
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);
@@ -452,7 +445,7 @@ case 2:
     var10 = {'alignItems': 'center', 'marginLeft': 'auto'};
     var5['pill'] = var10;
     var5 = var8.bind(var9)(var5);
-    var _closure1_slot15 = var5;
+    var _closure1_slot14 = var5;
     var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -472,7 +465,7 @@ case 0:
             var1 = var2.useFetchVirtualCurrencyBalance;
             var1 = var1.bind(var2)();
             var4 = var1.balance;
-            var1 = 23;
+            var1 = 22;
             var1 = var9[var1];
             var3 = var8.bind(var5)(var1);
             var2 = var3.UNSAFE_isDismissibleContentDismissed;
@@ -494,7 +487,7 @@ case 8:
             var2 = _closure1_slot13;
             _fun0002_ip = 9; continue _fun0002;
 case 6:
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot15;
 case 9:
             var1 = {};
             var11 = var1;
@@ -513,7 +506,15 @@ case 4:
             var2['onPress'] = var8;
             var7 = var7.style;
             var2['style'] = var7;
-            var6 = _closure1_slot14;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 23;
+            var6 = var9[var6];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.Ellipsis;
+            var6 = {'variant': 'primary', 'size': 'sm'};
+            var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 10:

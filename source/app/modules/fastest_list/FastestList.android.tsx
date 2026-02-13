@@ -269,13 +269,13 @@ case 0:
                     var1 = _closure2_slot3;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+                    if(!(var1 != var3)) { _fun0004_ip = 27; continue _fun0004 }
+case 30:
                     var2 = var3.setVisibleItems;
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var1 = var2.bind(var3)(var1);
-case 30:
+case 27:
                     var1 = undefined;
                     return var1;
                 }
@@ -302,10 +302,10 @@ case 0:
                     var2 = null;
                     var2 = var2 != var3;
                     var5 = 'fst';
-                    if(!var2) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
-                    var5 = _closure2_slot1;
+                    if(!var2) { _fun0005_ip = 31; continue _fun0005 }
 case 32:
+                    var5 = _closure2_slot1;
+case 31:
                     var1 = _closure1_slot9;
                     var4 = parseFloat(var1);
                     var1 = var4 + 1;
@@ -340,27 +340,27 @@ case 32:
             var35 = var9.onScroll;
             var34 = var9.onScrollBeginDrag;
             var33 = var9.onScrollEndDrag;
-            if(var7) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(var7) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var7 = 'animatedScrollPosition';
-            if(!(var7 !== var8)) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(!(var7 !== var8)) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var7 = 'animatedCallbacks';
-            if(!(var7 !== var8)) { _fun0001_ip = 36; continue _fun0001 }
-case 38:
+            if(!(var7 !== var8)) { _fun0001_ip = 35; continue _fun0001 }
+case 37:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 4;
             var7 = var9[var7];
             var9 = var8.bind(var5)(var7);
-            _fun0001_ip = 39; continue _fun0001;
-case 36:
+            _fun0001_ip = 38; continue _fun0001;
+case 35:
             var9 = _closure1_slot7;
-case 39:
-            _fun0001_ip = 40; continue _fun0001;
-case 34:
+case 38:
+            _fun0001_ip = 39; continue _fun0001;
+case 33:
             var9 = _closure1_slot8;
-case 40:
+case 39:
             var8 = _closure1_slot4;
             var7 = {};
             var7['accessibilityLabel'] = var41;
@@ -369,11 +369,11 @@ case 40:
             var7['insetEnd'] = var38;
             var38 = 'on-drag';
             var38 = var38 === var40;
-            if(var38) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+            if(var38) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var39 = 'interactive';
             var38 = var39 === var40;
-case 41:
+case 40:
             var7['keyboardDismissOnDrag'] = var38;
             var7['onUnexpectedItemSize'] = var37;
             var7['onLayout'] = var36;
@@ -413,10 +413,10 @@ case 41:
             var7['sectionsVersioned'] = var12;
             var7['wrapChildren'] = var11;
             var7 = var10.bind(var5)(var9, var7);
-            if(!var4) { _fun0001_ip = 43; continue _fun0001 }
-case 44:
-            if(!(var1 == var3)) { _fun0001_ip = 45; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 42; continue _fun0001 }
 case 43:
+            if(!(var1 == var3)) { _fun0001_ip = 44; continue _fun0001 }
+case 42:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -428,8 +428,8 @@ case 43:
             var51 = var6;
             var6 = copyDataProperties(var52, var51);
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 46; continue _fun0001;
-case 45:
+            _fun0001_ip = 45; continue _fun0001;
+case 44:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -438,7 +438,7 @@ case 45:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 46:
+case 45:
             return var1;
         }
     };

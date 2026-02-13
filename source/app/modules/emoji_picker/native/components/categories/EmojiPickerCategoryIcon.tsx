@@ -3,6 +3,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -20,186 +22,211 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EmojiCategories;
-    var _closure1_slot0 = var4;
+    var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.TrophyIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot1 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.StarIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot2 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.ClockIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
+    var4 = var4.jsx;
     var _closure1_slot3 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.ReactionIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot4 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.NatureIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot5 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.FoodIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot6 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.GameControllerIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot7 = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.BicycleIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot8 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.ObjectIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot9 = var4;
-    var4 = 12;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.HeartIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot10 = var4;
-    var4 = 13;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.FlagIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot11 = var4;
-    var4 = 14;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.NitroWheelIcon;
-    var4 = {};
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot12 = var4;
     var4 = var7.memo;
     var2 = function EmojiPickerCategoryIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.id;
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.TOP_GUILD_EMOJI;
             if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.FAVORITES;
             if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.RECENT;
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.PEOPLE;
             if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.NATURE;
             if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.FOOD;
             if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.ACTIVITY;
             if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.TRAVEL;
             if(!(var2 !== var3)) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.OBJECTS;
             if(!(var2 !== var3)) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.SYMBOLS;
             if(!(var2 !== var3)) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.FLAGS;
             if(!(var2 !== var3)) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.CUSTOM;
             if(!(var2 !== var3)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var2 = var2.PREMIUM_UPSELL;
 case 24:
-            var2 = _closure1_slot12;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 14;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.NitroWheelIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 22:
-            var2 = _closure1_slot11;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 13;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.FlagIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 20:
-            var2 = _closure1_slot10;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 12;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.HeartIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 18:
-            var2 = _closure1_slot9;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 11;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ObjectIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 16:
-            var2 = _closure1_slot8;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 10;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.BicycleIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 14:
-            var2 = _closure1_slot7;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.GameControllerIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 12:
-            var2 = _closure1_slot6;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 8;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.FoodIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 10:
-            var2 = _closure1_slot5;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 7;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.NatureIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 8:
-            var2 = _closure1_slot4;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 6;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ReactionIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 6:
-            var2 = _closure1_slot3;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 5;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ClockIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 4:
-            var2 = _closure1_slot2;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.StarIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 2:
-            var1 = _closure1_slot1;
+            var4 = _closure1_slot3;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.TrophyIcon;
+            var1 = {};
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         }
     };

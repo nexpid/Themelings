@@ -32,17 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot5 = var9;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.VoiceNormalIcon;
-    var4 = {};
-    var10 = 'sm';
-    var4['size'] = var10;
-    var4 = var9.bind(var1)(var8, var4);
-    var _closure1_slot6 = var4;
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -56,14 +47,14 @@ case 0:
             var _closure2_slot2 = var10;
             var2 = _closure1_slot0;
             var8 = _closure1_slot1;
-            var3 = 5;
+            var3 = 4;
             var3 = var8[var3];
             var4 = undefined;
             var9 = var2.bind(var4)(var3);
             var7 = var9.useStateFromStores;
             var3 = _closure1_slot4;
-            var5 = new Array(1);
-            var5[0] = var3;
+            var6 = new Array(1);
+            var6[0] = var3;
             var3 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.isVoiceCategoryCollapsed;
@@ -71,10 +62,10 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var7 = var7.bind(var9)(var5, var3);
+            var7 = var7.bind(var9)(var6, var3);
             var _closure2_slot3 = var7;
             var9 = _closure1_slot2;
-            var5 = var9.useCallback;
+            var6 = var9.useCallback;
             var3 = new Array(4);
             var3[0] = var7;
             var3[1] = var12;
@@ -86,7 +77,7 @@ case 0:
                     var3 = _closure2_slot3;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
-                    var1 = 6;
+                    var1 = 5;
                     var4 = var4[var1];
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
@@ -146,16 +137,16 @@ case 4:
                     return var1;
                 }
             };
-            var5 = var5.bind(var9)(var1, var3);
+            var6 = var6.bind(var9)(var1, var3);
             var3 = _closure1_slot5;
-            var1 = 7;
+            var1 = 6;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Button;
             var1 = {};
             var11 = _closure1_slot0;
             var12 = _closure1_slot1;
-            var8 = 8;
+            var8 = 7;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -173,12 +164,21 @@ case 8:
             var7 = var9.bind(var10)(var8);
 case 10:
             var1['text'] = var7;
-            var6 = _closure1_slot6;
-            var1['icon'] = var6;
-            var1['onPress'] = var5;
-            var5 = 'secondary';
-            var1['variant'] = var5;
+            var9 = _closure1_slot5;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 8;
+            var5 = var8[var5];
+            var5 = var7.bind(var4)(var5);
+            var8 = var5.VoiceNormalIcon;
+            var7 = {};
             var5 = 'sm';
+            var7['size'] = var5;
+            var7 = var9.bind(var4)(var8, var7);
+            var1['icon'] = var7;
+            var1['onPress'] = var6;
+            var6 = 'secondary';
+            var1['variant'] = var6;
             var1['size'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

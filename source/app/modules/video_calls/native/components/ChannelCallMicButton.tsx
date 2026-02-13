@@ -53,7 +53,6 @@ case 2:
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var _closure2_slot4 = var4;
             var15 = _closure1_slot0;
             var16 = _closure1_slot3;
             var1 = 3;
@@ -93,60 +92,60 @@ case 2:
             _closure2_slot1 = var7;
             var2 = var2.onPress;
             _closure2_slot2 = var2;
-            var13 = _closure1_slot4;
-            var3 = var13.useRef;
+            var5 = _closure1_slot4;
+            var3 = var5.useRef;
             var2 = null;
-            var14 = var3.bind(var13)(var2);
-            _closure2_slot3 = var14;
-            var3 = _closure1_slot6;
-            var2 = 7;
-            var2 = var16[var2];
-            var2 = var15.bind(var4)(var2);
-            var5 = var2.VoicePanelRiveMicButton;
-            var2 = {};
-            var2['muted'] = var7;
-            var2 = var3.bind(var4)(var5, var2);
-            _closure2_slot4 = var2;
-            var5 = var13.useMemo;
+            var13 = var3.bind(var5)(var2);
+            _closure2_slot3 = var13;
+            var3 = var5.useMemo;
             var2 = new Array(3);
             var2[0] = var7;
-            var2[1] = var14;
+            var2[1] = var13;
             var2[2] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure2_slot0;
-                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
                     var5 = _closure1_slot6;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot3;
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = 8;
                     var1 = var4[var1];
-                    var4 = undefined;
-                    var1 = var3.bind(var4)(var1);
-                    var3 = var1.MicrophoneLottie;
+                    var7 = undefined;
+                    var1 = var3.bind(var7)(var1);
+                    var2 = var1.MicrophoneLottie;
                     var1 = {};
-                    var6 = _closure2_slot3;
-                    var1['ref'] = var6;
-                    var6 = 'md';
-                    var1['size'] = var6;
-                    var7 = _closure2_slot1;
-                    var6 = 'mute';
-                    if(!var7) { _fun0002_ip = 6; continue _fun0002 }
+                    var8 = _closure2_slot3;
+                    var1['ref'] = var8;
+                    var8 = 'md';
+                    var1['size'] = var8;
+                    var9 = _closure2_slot1;
+                    var8 = 'mute';
+                    if(!var9) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var6 = 'unmute';
+                    var8 = 'unmute';
 case 6:
-                    var1['animation'] = var6;
-                    var1 = var5.bind(var4)(var3, var1);
+                    var1['animation'] = var8;
+                    var1 = var5.bind(var7)(var2, var1);
                     _fun0002_ip = 8; continue _fun0002;
 case 4:
-                    var1 = _closure2_slot4;
+                    var2 = 7;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.VoicePanelRiveMicButton;
+                    var2 = {};
+                    var6 = _closure2_slot1;
+                    var2['muted'] = var6;
+                    var1 = var5.bind(var4)(var3, var2);
 case 8:
                     return var1;
                 }
             };
-            var5 = var5.bind(var13)(var1, var2);
+            var5 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot6;
             var2 = _closure1_slot2;
             var1 = 9;
             var1 = var16[var1];

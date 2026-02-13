@@ -257,7 +257,7 @@ case 23:
             var1 = 9;
             var1 = var7[var1];
             var3 = var3.bind(var4)(var1);
-            var1 = var3.getNameplateDataFromRecord;
+            var1 = var3.getNameplateData;
             var13 = var1.bind(var3)(var5);
 case 22:
             var1 = 'large';

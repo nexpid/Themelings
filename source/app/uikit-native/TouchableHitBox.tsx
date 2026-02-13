@@ -47,13 +47,13 @@ case 4:
     };
     var _closure1_slot11 = var1;
     var1 = global;
-    var7 = var1.Object;
-    var4 = var7.defineProperty;
+    var8 = var1.Object;
+    var4 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var7)(var3, var1, var2);
+    var1 = var4.bind(var8)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
@@ -82,7 +82,6 @@ case 4:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var10 = var4.StyleSheet;
     var4 = var4.ActivityIndicator;
     var _closure1_slot8 = var4;
     var4 = 7;
@@ -90,33 +89,36 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot9 = var4;
-    var9 = var10.create;
-    var7 = {};
-    var4 = {'flexGrow': 0, 'flexShrink': 1, 'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': 'transparent', 'alignSelf': 'flex-start'};
-    var11 = 8;
+    var4 = 8;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createLegacyClassComponentStyles;
+    var4 = {};
+    var10 = {'flexGrow': 0, 'flexShrink': 1, 'justifyContent': 'center', 'alignItems': 'center', 'backgroundColor': 'transparent', 'alignSelf': 'flex-start'};
+    var11 = 9;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.radii;
     var11 = var11.sm;
-    var4['borderRadius'] = var11;
-    var7['button'] = var4;
+    var10['borderRadius'] = var11;
+    var4['button'] = var10;
     var11 = 10;
-    var4 = {'lineHeight': 24, 'margin': 10, 'maxWidth': 60, 'fontSize': 16};
-    var7['buttonText'] = var4;
-    var4 = {};
-    var4['margin'] = var11;
-    var7['buttonIcon'] = var4;
-    var11 = {};
-    var4 = 12;
-    var11['margin'] = var4;
-    var7['buttonSpinner'] = var11;
-    var11 = {};
-    var12 = 0.6;
-    var11['opacity'] = var12;
-    var7['buttonDisabled'] = var11;
-    var7 = var9.bind(var10)(var7);
-    var _closure1_slot10 = var7;
-    var7 = var2.PureComponent;
+    var10 = {'lineHeight': 24, 'margin': 10, 'maxWidth': 60, 'fontSize': 16};
+    var4['buttonText'] = var10;
+    var10 = {};
+    var10['margin'] = var11;
+    var4['buttonIcon'] = var10;
+    var10 = {};
+    var11 = 12;
+    var10['margin'] = var11;
+    var4['buttonSpinner'] = var10;
+    var10 = {};
+    var11 = 0.6;
+    var10['opacity'] = var11;
+    var4['buttonDisabled'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot10 = var4;
+    var4 = var2.PureComponent;
     var2 = function(arg1) {
         var4 = function TouchableHitBox() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -165,144 +167,140 @@ case 8:
         var1 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var1 = this;
-                var1 = var1.props;
-                var6 = var1.disabled;
-                var17 = var1.source;
-                var16 = var1.text;
-                var7 = var1.loading;
-                var10 = var1.activeOpacity;
-                var12 = var1.onPress;
-                var11 = var1.onLongPress;
-                var9 = var1.style;
-                var3 = var1.IconComponent;
-                var23 = var1.iconSize;
-                var18 = var1.iconStyle;
-                var8 = var1.color;
-                var2 = var1.disableColor;
+                var2 = this;
+                var5 = _closure1_slot10;
+                var3 = var2.context;
                 var4 = undefined;
-                var22 = var4 !== var2;
-                if(!var22) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-                var22 = var2;
+                var8 = var5.bind(var4)(var3);
+                var2 = var2.props;
+                var6 = var2.disabled;
+                var19 = var2.source;
+                var18 = var2.text;
+                var7 = var2.loading;
+                var10 = var2.activeOpacity;
+                var12 = var2.onPress;
+                var11 = var2.onLongPress;
+                var9 = var2.style;
+                var16 = var2.IconComponent;
+                var25 = var2.iconSize;
+                var20 = var2.iconStyle;
+                var17 = var2.color;
+                var3 = var2.disableColor;
+                var24 = var4 !== var3;
+                if(!var24) { _fun0003_ip = 9; continue _fun0003 }
+case 8:
+                var24 = var3;
 case 9:
-                var14 = var1.accessibilityLabel;
-                var15 = var1.accessibilityRole;
-                var13 = var1.accessibilityState;
-                var1 = var1.children;
-                var2 = null;
-                var19 = var2 != var17;
+                var14 = var2.accessibilityLabel;
+                var15 = var2.accessibilityRole;
+                var13 = var2.accessibilityState;
+                var2 = var2.children;
+                var3 = null;
+                var21 = var3 != var19;
                 var5 = undefined;
-                if(!var19) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                var21 = _closure1_slot9;
-                var20 = _closure1_slot1;
-                var24 = _closure1_slot2;
-                var19 = 9;
-                var19 = var24[var19];
-                var20 = var20.bind(var4)(var19);
-                var19 = {};
-                var24 = _closure1_slot10;
-                var25 = var24.buttonIcon;
-                var24 = new Array(3);
-                var24[0] = var25;
-                var25 = var6;
-                if(!var6) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                var26 = _closure1_slot10;
-                var25 = var26.buttonDisabled;
-case 13:
-                var24[1] = var25;
-                var24[2] = var18;
-                var19['style'] = var24;
-                var19['source'] = var17;
-                var19['color'] = var8;
-                var19['size'] = var23;
-                var19['disableColor'] = var22;
-                var5 = var21.bind(var4)(var20, var19);
+                if(!var21) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
-                if(var7) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-                if(!(var2 == var16)) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-                if(!(var2 != var3)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-                if(!(var2 == var17)) { _fun0003_ip = 21; continue _fun0003 }
-case 19:
-                if(!(var2 == var17)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                var2 = var2 != var1;
-                var5 = undefined;
-                if(!var2) { _fun0003_ip = 22; continue _fun0003 }
-case 24:
-                var5 = var1;
-                _fun0003_ip = 22; continue _fun0003;
-case 21:
-                var2 = _closure1_slot9;
-                var1 = {};
-                var17 = 'sm';
-                var1['size'] = var17;
-                var1['color'] = var8;
-                var17 = _closure1_slot10;
-                var19 = var17.buttonIcon;
-                var17 = new Array(3);
-                var17[0] = var19;
-                var19 = var6;
-                if(!var6) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                var20 = _closure1_slot10;
-                var19 = var20.buttonDisabled;
-case 25:
-                var17[1] = var19;
-                var17[2] = var18;
-                var1['style'] = var17;
-                var5 = var2.bind(var4)(var3, var1);
-                _fun0003_ip = 22; continue _fun0003;
-case 17:
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot0;
-                var17 = _closure1_slot2;
-                var1 = 10;
-                var1 = var17[var1];
-                var1 = var2.bind(var4)(var1);
-                var2 = var1.LegacyText;
-                var1 = {};
-                var17 = 1;
-                var1['numberOfLines'] = var17;
-                var17 = _closure1_slot10;
-                var18 = var17.buttonText;
-                var17 = new Array(3);
-                var17[0] = var18;
-                var18 = var6;
-                if(!var6) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-                var19 = _closure1_slot10;
-                var18 = var19.buttonDisabled;
-case 27:
-                var17[1] = var18;
-                var18 = {};
-                var18['color'] = var8;
-                var17[2] = var18;
-                var1['style'] = var17;
-                var1['children'] = var16;
-                var5 = var3.bind(var4)(var2, var1);
-                _fun0003_ip = 22; continue _fun0003;
+                var23 = _closure1_slot9;
+                var22 = _closure1_slot1;
+                var26 = _closure1_slot2;
+                var21 = 10;
+                var21 = var26[var21];
+                var22 = var22.bind(var4)(var21);
+                var21 = {};
+                var27 = var8.buttonIcon;
+                var26 = new Array(3);
+                var26[0] = var27;
+                var27 = var6;
+                if(!var6) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                var27 = var8.buttonDisabled;
+case 12:
+                var26[1] = var27;
+                var26[2] = var20;
+                var21['style'] = var26;
+                var21['source'] = var19;
+                var21['color'] = var17;
+                var21['size'] = var25;
+                var21['disableColor'] = var24;
+                var5 = var23.bind(var4)(var22, var21);
+case 10:
+                if(var7) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
-                var1 = {};
-                var16 = _closure1_slot10;
-                var16 = var16.buttonSpinner;
-                var1['style'] = var16;
-                var16 = true;
-                var1['animating'] = var16;
-                var1['color'] = var8;
-                var5 = var3.bind(var4)(var2, var1);
+                if(!(var3 == var18)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                if(!(var3 != var16)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                if(!(var3 == var19)) { _fun0003_ip = 20; continue _fun0003 }
+case 18:
+                if(!(var3 == var19)) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
+                var3 = var3 != var2;
+                var5 = undefined;
+                if(!var3) { _fun0003_ip = 21; continue _fun0003 }
+case 23:
+                var5 = var2;
+                _fun0003_ip = 21; continue _fun0003;
+case 20:
+                var3 = _closure1_slot9;
+                var2 = {};
+                var19 = 'sm';
+                var2['size'] = var19;
+                var2['color'] = var17;
+                var21 = var8.buttonIcon;
+                var19 = new Array(3);
+                var19[0] = var21;
+                var21 = var6;
+                if(!var6) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+                var21 = var8.buttonDisabled;
+case 24:
+                var19[1] = var21;
+                var19[2] = var20;
+                var2['style'] = var19;
+                var5 = var3.bind(var4)(var16, var2);
+                _fun0003_ip = 21; continue _fun0003;
+case 16:
+                var16 = _closure1_slot9;
+                var3 = _closure1_slot0;
+                var19 = _closure1_slot2;
+                var2 = 11;
+                var2 = var19[var2];
+                var2 = var3.bind(var4)(var2);
+                var3 = var2.LegacyText;
+                var2 = {};
+                var19 = 1;
+                var2['numberOfLines'] = var19;
+                var20 = var8.buttonText;
+                var19 = new Array(3);
+                var19[0] = var20;
+                var20 = var6;
+                if(!var6) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+                var20 = var8.buttonDisabled;
+case 26:
+                var19[1] = var20;
+                var20 = {};
+                var20['color'] = var17;
+                var19[2] = var20;
+                var2['style'] = var19;
+                var2['children'] = var18;
+                var5 = var16.bind(var4)(var3, var2);
+                _fun0003_ip = 21; continue _fun0003;
+case 14:
+                var16 = _closure1_slot9;
+                var3 = _closure1_slot8;
+                var2 = {};
+                var18 = var8.buttonSpinner;
+                var2['style'] = var18;
+                var18 = true;
+                var2['animating'] = var18;
+                var2['color'] = var17;
+                var5 = var16.bind(var4)(var3, var2);
+case 21:
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot0;
                 var16 = _closure1_slot2;
-                var1 = 11;
+                var1 = 12;
                 var1 = var16[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.PressableOpacity;
@@ -313,16 +311,15 @@ case 22:
                 var1['onPress'] = var12;
                 var1['onLongPress'] = var11;
                 var1['activeOpacity'] = var10;
-                var8 = _closure1_slot10;
                 var10 = var8.button;
                 var8 = new Array(2);
                 var8[0] = var10;
                 var8[1] = var9;
                 var1['style'] = var8;
-                if(var6) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                var6 = var7;
+                if(var6) { _fun0003_ip = 28; continue _fun0003 }
 case 29:
+                var6 = var7;
+case 28:
                 var1['disabled'] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -335,14 +332,20 @@ case 29:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var2 = var2.bind(var1)(var7);
-    var7 = {};
-    var8 = function onPress() {
+    var2 = var2.bind(var1)(var4);
+    var4 = 13;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeContext;
+    var2['contextType'] = var4;
+    var4 = {};
+    var7 = function onPress() {
         var1 = undefined;
         return var1;
     };
-    var7['onPress'] = var8;
-    var2['defaultProps'] = var7;
+    var4['onPress'] = var7;
+    var2['defaultProps'] = var4;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

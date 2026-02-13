@@ -21,14 +21,14 @@ case 0:
             var11 = var2.bind(var5)();
             var12 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var20[var2];
             var3 = var12.bind(var5)(var2);
             var2 = var3.useUserProfileAnalyticsContext;
             var2 = var2.bind(var3)();
             var2 = var2.trackUserProfileAction;
             var _closure2_slot2 = var2;
-            var2 = 11;
+            var2 = 10;
             var3 = var20[var2];
             var9 = var12.bind(var5)(var3);
             var7 = var9.useStateFromStoresObject;
@@ -98,7 +98,7 @@ case 2:
             };
             var10 = var17.bind(var18)(var16, var10);
             var17 = _closure1_slot1;
-            var18 = 12;
+            var18 = 11;
             var16 = var20[var18];
             var19 = var17.bind(var5)(var16);
             var16 = var6.id;
@@ -119,7 +119,7 @@ case 2:
                 return var1;
             };
             var6 = var19.bind(var21)(var6, var2);
-            var2 = 13;
+            var2 = 12;
             var2 = var20[var2];
             var19 = var12.bind(var5)(var2);
             var12 = var19.useIsSecureFramesUIEnabled;
@@ -128,7 +128,7 @@ case 2:
             var2['channelId'] = var21;
             var2 = var12.bind(var19)(var2);
             var19 = _closure1_slot9;
-            var12 = 14;
+            var12 = 13;
             var12 = var20[var12];
             var17 = var17.bind(var5)(var12);
             var12 = {};
@@ -144,7 +144,7 @@ case 2:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 15;
+                var3 = 14;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.setLocalVolume;
@@ -182,14 +182,14 @@ case 9:
             var16 = _closure1_slot9;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var12 = 16;
+            var12 = 15;
             var12 = var17[var12];
             var12 = var14.bind(var5)(var12);
             var14 = var12.UserProfileFormRow;
             var12 = {};
             var18 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var17 = 17;
+            var17 = 16;
             var19 = var21[var17];
             var19 = var18.bind(var5)(var19);
             var20 = var19.intl;
@@ -211,13 +211,13 @@ case 12:
             var19 = _closure1_slot2;
             if(var7) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var7 = 19;
+            var7 = 18;
             var7 = var19[var7];
             var7 = var18.bind(var5)(var7);
             var7 = var7.MicrophoneIcon;
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var17 = 18;
+            var17 = 17;
             var17 = var19[var17];
             var17 = var18.bind(var5)(var17);
             var7 = var17.MicrophoneSlashIcon;
@@ -232,7 +232,7 @@ case 15:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 15;
+                var3 = 14;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.toggleLocalMute;
@@ -250,14 +250,14 @@ case 8:
             var17 = _closure1_slot9;
             var14 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var10 = 16;
+            var10 = 15;
             var12 = var12[var10];
             var12 = var14.bind(var5)(var12);
             var16 = var12.UserProfileFormRow;
             var14 = {};
             var19 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var12 = 17;
+            var12 = 16;
             var20 = var18[var12];
             var20 = var19.bind(var5)(var20);
             var21 = var20.intl;
@@ -279,13 +279,13 @@ case 18:
             var20 = _closure1_slot2;
             if(var6) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
-            var6 = 21;
+            var6 = 20;
             var6 = var20[var6];
             var6 = var19.bind(var5)(var6);
             var6 = var6.SoundboardIcon;
             _fun0001_ip = 21; continue _fun0001;
 case 19:
-            var18 = 20;
+            var18 = 19;
             var18 = var20[var18];
             var18 = var19.bind(var5)(var18);
             var6 = var18.SoundboardSlashIcon;
@@ -300,7 +300,7 @@ case 21:
                 var3 = var4.bind(var1)(var3);
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 15;
+                var3 = 14;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.toggleLocalSoundboardMute;
@@ -346,13 +346,13 @@ case 26:
             var18 = _closure1_slot2;
             if(var15) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var15 = 23;
+            var15 = 22;
             var15 = var18[var15];
             var15 = var17.bind(var5)(var15);
             var15 = var15.VideoIcon;
             _fun0001_ip = 29; continue _fun0001;
 case 27:
-            var16 = 22;
+            var16 = 21;
             var16 = var18[var16];
             var16 = var17.bind(var5)(var16);
             var15 = var16.VideoSlashIcon;
@@ -365,12 +365,18 @@ case 31:
             var15 = {};
             var18 = var11.disableVideoSublabel;
             var15['style'] = var18;
-            var19 = _closure1_slot12;
+            var20 = _closure1_slot9;
+            var25 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var18 = 23;
+            var18 = var22[var18];
+            var18 = var25.bind(var5)(var18);
+            var19 = var18.CircleErrorIcon;
+            var18 = {'size': 'xxs', 'color': 'text-feedback-warning'};
+            var19 = var20.bind(var5)(var19, var18);
             var18 = new Array(2);
             var18[0] = var19;
             var21 = _closure1_slot9;
-            var25 = _closure1_slot0;
-            var22 = _closure1_slot2;
             var19 = 24;
             var19 = var22[var19];
             var19 = var25.bind(var5)(var19);
@@ -406,7 +412,7 @@ case 0:
 case 33:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 15;
+                    var4 = 14;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.setDisableLocalVideo;
@@ -433,7 +439,7 @@ case 32:
                     var2 = function() {
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 15;
+                        var2 = 14;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -577,7 +583,7 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function CurrentUserVoiceSettings(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -591,14 +597,14 @@ case 0:
             var6 = var2.bind(var5)();
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var3[var2];
             var10 = var4.bind(var5)(var2);
             var2 = var10.useUserProfileAnalyticsContext;
             var2 = var2.bind(var10)();
             var2 = var2.trackUserProfileAction;
             var _closure2_slot1 = var2;
-            var2 = 11;
+            var2 = 10;
             var10 = var3[var2];
             var13 = var4.bind(var5)(var10);
             var12 = var13.useStateFromStores;
@@ -638,7 +644,7 @@ case 2:
             };
             var2 = var10.bind(var11)(var4, var2);
             var4 = _closure1_slot1;
-            var10 = 12;
+            var10 = 11;
             var3 = var3[var10];
             var4 = var4.bind(var5)(var3);
             var3 = var1.id;
@@ -663,7 +669,7 @@ case 44:
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var10 = 16;
+            var10 = 15;
             var2 = var15[var10];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -673,7 +679,7 @@ case 44:
             var7[1] = var8;
             var2['style'] = var7;
             var11 = _closure1_slot0;
-            var19 = 17;
+            var19 = 16;
             var7 = var15[var19];
             var7 = var11.bind(var5)(var7);
             var12 = var7.intl;
@@ -719,13 +725,13 @@ case 48:
             var16 = _closure1_slot2;
             if(var13) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
-            var13 = 19;
+            var13 = 18;
             var13 = var16[var13];
             var13 = var15.bind(var5)(var13);
             var13 = var13.MicrophoneIcon;
             _fun0004_ip = 51; continue _fun0004;
 case 49:
-            var14 = 18;
+            var14 = 17;
             var14 = var16[var14];
             var14 = var15.bind(var5)(var14);
             var13 = var14.MicrophoneSlashIcon;
@@ -740,7 +746,7 @@ case 51:
                 var2 = var3.bind(var1)(var2);
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 15;
+                var2 = 14;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.toggleSelfMute;
@@ -758,7 +764,7 @@ case 42:
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -767,8 +773,8 @@ case 42:
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
-    var11 = 0;
-    var8 = var6[var11];
+    var10 = 0;
+    var8 = var6[var10];
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
@@ -802,36 +808,29 @@ case 42:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot9 = var8;
+    var7 = var4.jsx;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
     var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var7 = var9.createStyles;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var10 = {};
-    var10['paddingBottom'] = var11;
-    var4['card'] = var10;
-    var10 = {};
-    var10['marginBottom'] = var11;
-    var4['cardTitle'] = var10;
-    var10 = {};
-    var11 = 20;
-    var10['paddingVertical'] = var11;
-    var4['volumeSlider'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
-    var4['disableVideoSublabel'] = var10;
-    var4 = var7.bind(var9)(var4);
+    var9 = {};
+    var9['paddingBottom'] = var10;
+    var4['card'] = var9;
+    var9 = {};
+    var9['marginBottom'] = var10;
+    var4['cardTitle'] = var9;
+    var9 = {};
+    var10 = 20;
+    var9['paddingVertical'] = var10;
+    var4['volumeSlider'] = var9;
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
+    var4['disableVideoSublabel'] = var9;
+    var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.CircleErrorIcon;
-    var4 = {'size': 'xxs', 'color': 'text-feedback-warning'};
-    var4 = var8.bind(var1)(var7, var4);
-    var _closure1_slot12 = var4;
     var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -851,7 +850,7 @@ case 0:
             if(!(var4 !== var3)) { _fun0006_ip = 52; continue _fun0006 }
 case 53:
             var5 = _closure1_slot9;
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot12;
             var3 = {};
             var3['user'] = var1;
             var3['channel'] = var6;
@@ -861,7 +860,7 @@ case 53:
             _fun0006_ip = 54; continue _fun0006;
 case 52:
             var5 = _closure1_slot9;
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot13;
             var3 = {};
             var3['user'] = var7;
             var3['channel'] = var6;

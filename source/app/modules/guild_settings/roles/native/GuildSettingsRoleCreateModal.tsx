@@ -1,12 +1,12 @@
 // app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var14 = metroImportDefault;
+    var13 = metroImportDefault;
     var7 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var14;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
     var1 = function logTransitionEvent(arg1, arg2, arg3, arg4) {
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot30 = var1;
     var1 = function useGuildSettingsStoreGuild() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot3;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot31 = var1;
     var1 = function useGuildSettingsStoreGuildWithRole() {
         var10 = _closure1_slot0;
         var7 = _closure1_slot3;
@@ -138,7 +138,7 @@ case 2:
         var1['role'] = var2;
         return var1;
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot32 = var1;
     var1 = function shouldSkipPermissions() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -181,504 +181,9 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
-    var1 = function ModalScene(arg1) {
+    var _closure1_slot33 = var1;
+    var1 = function RoleCreateScene() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var2 = arg1;
-            var12 = var2.children;
-            var7 = var2.hasSkipButton;
-            var20 = var2.title;
-            var17 = var2.subtitle;
-            var3 = _closure1_slot24;
-            var5 = undefined;
-            var11 = var3.bind(var5)();
-            var4 = _closure1_slot1;
-            var6 = _closure1_slot3;
-            var3 = 40;
-            var3 = var6[var3];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.bind(var5)();
-            var8 = var3.insets;
-            var4 = _closure1_slot0;
-            var3 = 22;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.useNavigation;
-            var10 = var3.bind(var4)();
-            var _closure2_slot0 = var10;
-            var3 = _closure1_slot35;
-            var9 = var3.bind(var5)();
-            var _closure2_slot1 = var9;
-            var6 = _closure1_slot6;
-            var4 = var6.useCallback;
-            var3 = new Array(2);
-            var3[0] = var10;
-            var9 = var9.id;
-            var3[1] = var9;
-            var1 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure2_slot0;
-                    var2 = var3.getState;
-                    var2 = var2.bind(var3)();
-                    var3 = var2.routes;
-                    var4 = var3.length;
-                    var2 = 1;
-                    var2 = var4 - var2;
-                    var2 = var3[var2];
-                    var4 = var2.key;
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_DISPLAY;
-                    if(!(var4 !== var3)) { _fun0004_ip = 6; continue _fun0004 }
-case 7:
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_PERMISSIONS;
-                    if(!(var4 !== var3)) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
-                    var4 = _closure1_slot26;
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_MEMBERS;
-                    var6 = var4[var3];
-                    var3 = _closure1_slot26;
-                    var5 = var3.FLOW_DISMISSED;
-                    var7 = _closure1_slot1;
-                    var8 = _closure1_slot3;
-                    var3 = 14;
-                    var3 = var8[var3];
-                    var4 = undefined;
-                    var11 = var7.bind(var4)(var3);
-                    var10 = var11.track;
-                    var3 = _closure1_slot18;
-                    var9 = var3.MODAL_DISMISSED;
-                    var3 = {};
-                    var12 = _closure1_slot19;
-                    var12 = var12.GUILD_ROLE_CREATION_MODAL;
-                    var3['type'] = var12;
-                    var3 = var10.bind(var11)(var9, var3);
-                    var3 = 18;
-                    var3 = var8[var3];
-                    var4 = var7.bind(var4)(var3);
-                    var3 = var4.close;
-                    var3 = var3.bind(var4)();
-                    _fun0004_ip = 10; continue _fun0004;
-case 8:
-                    var4 = _closure1_slot26;
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_PERMISSIONS;
-                    var6 = var4[var3];
-                    var7 = _closure1_slot26;
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_MEMBERS;
-                    var5 = var7[var3];
-                    var9 = _closure2_slot0;
-                    var8 = var9.push;
-                    var7 = _closure1_slot25;
-                    var7 = var7.STEP_MEMBERS;
-                    var7 = var8.bind(var9)(var7);
-                    _fun0004_ip = 10; continue _fun0004;
-case 6:
-                    var4 = _closure1_slot26;
-                    var3 = _closure1_slot25;
-                    var3 = var3.STEP_DISPLAY;
-                    var4 = var4[var3];
-                    var7 = _closure1_slot37;
-                    var3 = undefined;
-                    var8 = var7.bind(var3)();
-                    var7 = _closure1_slot26;
-                    var3 = _closure1_slot25;
-                    if(var8) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
-                    var8 = var3.STEP_PERMISSIONS;
-                    var5 = var7[var8];
-                    var11 = _closure2_slot0;
-                    var10 = var11.push;
-                    var9 = _closure1_slot25;
-                    var9 = var9.STEP_PERMISSIONS;
-                    var9 = var10.bind(var11)(var9);
-                    var6 = var4;
-                    _fun0004_ip = 10; continue _fun0004;
-case 11:
-                    var3 = var3.STEP_MEMBERS;
-                    var5 = var7[var3];
-                    var9 = _closure2_slot0;
-                    var8 = var9.push;
-                    var7 = _closure1_slot25;
-                    var7 = var7.STEP_MEMBERS;
-                    var7 = var8.bind(var9)(var7);
-                    var6 = var4;
-case 10:
-                    var4 = _closure1_slot34;
-                    var1 = _closure2_slot1;
-                    var13 = var1.id;
-                    var1 = undefined;
-                    var14 = true;
-                    var17 = undefined;
-                    var16 = var6;
-                    var15 = var5;
-                    var2 = var17[var4](var16, var15, var14, var13, var12);
-                    return var1;
-                }
-            };
-            var14 = var4.bind(var6)(var1, var3);
-            var1 = global;
-            var3 = var1.navigator;
-            var1 = null;
-            if(!(var1 != var3)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var4 = _closure1_slot22;
-            var3 = _closure1_slot7;
-            var1 = {};
-            var6 = {};
-            var21 = var11.container;
-            var22 = var6;
-            var9 = copyDataProperties(var22, var21);
-            var10 = var8.top;
-            var9 = 'paddingTop';
-            var6[var9] = var10;
-            var9 = var11.container;
-            var9 = var9.paddingBottom;
-            var8 = var8.bottom;
-            var9 = var9 + var8;
-            var8 = 'paddingBottom';
-            var6[var8] = var9;
-            var1['style'] = var6;
-            var9 = _closure1_slot22;
-            var8 = _closure1_slot7;
-            var6 = {};
-            var10 = var11.sceneHeader;
-            var6['style'] = var10;
-            var19 = _closure1_slot21;
-            var15 = _closure1_slot0;
-            var18 = _closure1_slot3;
-            var13 = 16;
-            var10 = var18[var13];
-            var10 = var15.bind(var5)(var10);
-            var16 = var10.Text;
-            var10 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
-            var10['children'] = var20;
-            var16 = var19.bind(var5)(var16, var10);
-            var10 = new Array(2);
-            var10[0] = var16;
-            var16 = _closure1_slot21;
-            var13 = var18[var13];
-            var13 = var15.bind(var5)(var13);
-            var15 = var13.Text;
-            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
-            var18 = var11.sceneSubtitle;
-            var13['style'] = var18;
-            var13['children'] = var17;
-            var13 = var16.bind(var5)(var15, var13);
-            var10[1] = var13;
-            var6['children'] = var10;
-            var8 = var9.bind(var5)(var8, var6);
-            var6 = new Array(3);
-            var6[0] = var8;
-            var10 = _closure1_slot21;
-            var9 = _closure1_slot7;
-            var8 = {};
-            var13 = var11.sceneContent;
-            var8['style'] = var13;
-            var8['children'] = var12;
-            var8 = var10.bind(var5)(var9, var8);
-            var6[1] = var8;
-            if(!var7) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-            var10 = _closure1_slot21;
-            var9 = _closure1_slot7;
-            var8 = {};
-            var11 = var11.sceneFooter;
-            var8['style'] = var11;
-            var13 = _closure1_slot21;
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var11 = 34;
-            var11 = var19[var11];
-            var11 = var18.bind(var5)(var11);
-            var12 = var11.Button;
-            var11 = {};
-            var15 = 17;
-            var16 = var19[var15];
-            var16 = var18.bind(var5)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
-            var15 = var19[var15];
-            var15 = var18.bind(var5)(var15);
-            var15 = var15.t;
-            var15 = var15.CJm5V5;
-            var15 = var16.bind(var17)(var15);
-            var11['text'] = var15;
-            var11['onPress'] = var14;
-            var11 = var13.bind(var5)(var12, var11);
-            var8['children'] = var11;
-            var7 = var10.bind(var5)(var9, var8);
-case 15:
-            var6[2] = var7;
-            var1['children'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 17; continue _fun0003;
-case 13:
-            var1 = _closure1_slot29;
-case 17:
-            return var1;
-        }
-    };
-    var _closure1_slot38 = var1;
-    var1 = global;
-    var10 = var1.Object;
-    var8 = var10.defineProperty;
-    var4 = {};
-    var9 = true;
-    var4['value'] = var9;
-    var1 = '__esModule';
-    var1 = var8.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var16 = 1;
-    var4 = var6[var16];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var11 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var11;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.View;
-    var _closure1_slot7 = var7;
-    var7 = var4.Keyboard;
-    var _closure1_slot8 = var7;
-    var4 = var4.Platform;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.isGuildOwner;
-    var _closure1_slot9 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var14.bind(var1)(var4);
-    var _closure1_slot12 = var4;
-    var15 = 8;
-    var4 = var6[var15];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.PermissionTemplates;
-    var _closure1_slot13 = var7;
-    var7 = var4.DEFAULT_TEMPLATE_TYPE;
-    var _closure1_slot14 = var7;
-    var4 = var4.MAX_BULK_ROLE_MEMBERS_ADD;
-    var _closure1_slot15 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.MAX_ROLE_LENGTH;
-    var _closure1_slot16 = var7;
-    var7 = var4.DEFAULT_ROLE_COLOR;
-    var _closure1_slot17 = var7;
-    var7 = var4.AnalyticEvents;
-    var _closure1_slot18 = var7;
-    var7 = var4.AnalyticsSections;
-    var _closure1_slot19 = var7;
-    var4 = var4.Permissions;
-    var _closure1_slot20 = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var10 = var4.jsx;
-    var _closure1_slot21 = var10;
-    var4 = var4.jsxs;
-    var _closure1_slot22 = var4;
-    var4 = {};
-    var7 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignContent': 'center', 'width': '100%'};
-    var4['titleContainer'] = var7;
-    var7 = {'textAlign': 'center', 'flex': 1};
-    var4['title'] = var7;
-    var _closure1_slot23 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = {};
-    var12 = {};
-    var13 = 12;
-    var13 = var6[var13];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.NAV_BAR_HEIGHT;
-    var12['marginTop'] = var13;
-    var12['flexGrow'] = var16;
-    var13 = 13;
-    var17 = var6[var13];
-    var17 = var14.bind(var1)(var17);
-    var17 = var17.spacing;
-    var17 = var17.PX_16;
-    var12['paddingBottom'] = var17;
-    var4['container'] = var12;
-    var12 = {'alignItems': 'center', 'marginBottom': 8, 'marginHorizontal': 16};
-    var4['sceneHeader'] = var12;
-    var12 = {'textAlign': 'center', 'paddingTop': 8, 'maxWidth': 400};
-    var4['sceneSubtitle'] = var12;
-    var12 = {};
-    var12['flex'] = var16;
-    var4['sceneContent'] = var12;
-    var12 = {};
-    var12['flex'] = var16;
-    var4['sceneInner'] = var12;
-    var12 = {'marginBottom': 8, 'paddingVertical': 12};
-    var4['formRow'] = var12;
-    var12 = {};
-    var16 = 24;
-    var12['marginTop'] = var16;
-    var16 = var6[var13];
-    var16 = var14.bind(var1)(var16);
-    var16 = var16.unsafe_rawColors;
-    var16 = var16.TRANSPARENT;
-    var12['backgroundColor'] = var16;
-    var4['formDivider'] = var12;
-    var12 = {'flexDirection': 'row', 'flexGrow': 1, 'justifyContent': 'space-between', 'alignItems': 'center'};
-    var4['colorRow'] = var12;
-    var12 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var4['colorValue'] = var12;
-    var12 = {'marginHorizontal': 0, 'marginVertical': 0, 'marginRight': 8, 'minWidth': 24, 'height': 24, 'borderRadius': 3};
-    var4['colorBlock'] = var12;
-    var12 = {};
-    var12['paddingBottom'] = var15;
-    var15 = var6[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.spacing;
-    var15 = var15.PX_16;
-    var12['paddingHorizontal'] = var15;
-    var4['sceneFooter'] = var12;
-    var12 = {'width': '100%', 'paddingHorizontal': 16, 'paddingVertical': 16};
-    var4['nextButton'] = var12;
-    var12 = {'paddingVertical': 0, 'paddingTop': 16};
-    var13 = var6[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BASE_LOWER;
-    var12['backgroundColor'] = var13;
-    var4['nextButtonFloating'] = var12;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot24 = var4;
-    var7 = {};
-    var4 = 'STEP_DISPLAY';
-    var7['STEP_DISPLAY'] = var4;
-    var4 = 'STEP_PERMISSIONS';
-    var7['STEP_PERMISSIONS'] = var4;
-    var4 = 'STEP_MEMBERS';
-    var7['STEP_MEMBERS'] = var4;
-    var _closure1_slot25 = var7;
-    var4 = {};
-    var12 = var7.STEP_DISPLAY;
-    var8 = 'Role Display';
-    var4[var12] = var8;
-    var12 = var7.STEP_PERMISSIONS;
-    var8 = 'Role Permissions';
-    var4[var12] = var8;
-    var12 = var7.STEP_MEMBERS;
-    var8 = 'Role Members';
-    var4[var12] = var8;
-    var12 = 'Flow Initialized';
-    var8 = 'FLOW_INITIALIZED';
-    var4[var8] = var12;
-    var12 = 'Flow Dismissed';
-    var8 = 'FLOW_DISMISSED';
-    var4[var8] = var12;
-    var12 = 'Flow Completed';
-    var8 = 'FLOW_COMPLETED';
-    var4[var8] = var12;
-    var _closure1_slot26 = var4;
-    var8 = var11.memo;
-    var4 = function(arg1) {
-        var1 = arg1;
-        var4 = var1.step;
-        var1 = global;
-        var5 = var1.Object;
-        var3 = var5.keys;
-        var2 = _closure1_slot25;
-        var3 = var3.bind(var5)(var2);
-        var12 = var3.length;
-        var2 = var3.indexOf;
-        var3 = var2.bind(var3)(var4);
-        var2 = 1;
-        var13 = var3 + var2;
-        var4 = _closure1_slot21;
-        var3 = _closure1_slot7;
-        var2 = {};
-        var8 = _closure1_slot23;
-        var5 = var8.titleContainer;
-        var2['style'] = var5;
-        var7 = _closure1_slot21;
-        var9 = _closure1_slot0;
-        var14 = _closure1_slot3;
-        var1 = 16;
-        var5 = var14[var1];
-        var1 = undefined;
-        var5 = var9.bind(var1)(var5);
-        var6 = var5.Text;
-        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
-        var8 = var8.title;
-        var5['style'] = var8;
-        var8 = 17;
-        var10 = var14[var8];
-        var10 = var9.bind(var1)(var10);
-        var11 = var10.intl;
-        var10 = var11.format;
-        var8 = var14[var8];
-        var8 = var9.bind(var1)(var8);
-        var8 = var8.t;
-        var9 = var8.8v/u0i;
-        var8 = {};
-        var8['number'] = var13;
-        var8['total'] = var12;
-        var8 = var10.bind(var11)(var9, var8);
-        var5['children'] = var8;
-        var5 = var7.bind(var1)(var6, var5);
-        var2['children'] = var5;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var4 = var8.bind(var11)(var4);
-    var _closure1_slot27 = var4;
-    var4 = function closeModal(arg1, arg2) {
-        var7 = _closure1_slot34;
-        var1 = _closure1_slot26;
-        var10 = var1.FLOW_DISMISSED;
-        var1 = undefined;
-        var11 = arg1;
-        var9 = false;
-        var8 = arg2;
-        var12 = undefined;
-        var3 = var12[var7](var11, var10, var9, var8, var7);
-        var3 = _closure1_slot1;
-        var4 = _closure1_slot3;
-        var2 = 18;
-        var2 = var4[var2];
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.close;
-        var2 = var2.bind(var3)();
-        return var1;
-    };
-    var _closure1_slot28 = var4;
-    var4 = 39;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.SceneLoadingIndicator;
-    var4 = {};
-    var4 = var10.bind(var1)(var8, var4);
-    var _closure1_slot29 = var4;
-    var8 = function RoleCreateScene() {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = _closure1_slot24;
             var4 = undefined;
@@ -691,7 +196,7 @@ case 0:
             var2 = var3.useNavigation;
             var8 = var2.bind(var3)();
             var _closure2_slot0 = var8;
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot31;
             var10 = var2.bind(var4)();
             var _closure2_slot1 = var10;
             var5 = _closure1_slot6;
@@ -802,12 +307,12 @@ case 0:
             var3 = _closure1_slot4;
             var2 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0006_ip = 18; continue _fun0006 }
-case 19: // try_start_0
+                        if(var2) { _fun0004_ip = 6; continue _fun0004 }
+case 7: // try_start_0
                         var4 = _closure2_slot5;
                         var6 = undefined;
                         var3 = true;
@@ -815,10 +320,10 @@ case 19: // try_start_0
                         var5 = _closure2_slot3;
                         var4 = _closure1_slot17;
                         var7 = 0;
-                        if(!(var5 !== var4)) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                        if(!(var5 !== var4)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                         var7 = _closure2_slot3;
-case 20:
+case 8:
                         var5 = _closure1_slot1;
                         var8 = _closure1_slot3;
                         var4 = 25;
@@ -830,16 +335,16 @@ case 20:
                         var2 = _closure2_slot2;
                         var2 = var5.bind(var6)(var4, var2, var7);
                         SaveGenerator(address=97);
-case 22:
+case 10:
                         return var2;
-case 23:
+case 11:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+                        if(var4) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                         var5 = _closure1_slot12;
                         var4 = var5.addConditionalChangeListener;
                         var3 = function() {
-                            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                                 var3 = _closure1_slot12;
                                 var1 = var3.getProps;
@@ -850,23 +355,23 @@ case 0:
                                 var7 = var3 != var1;
                                 var6 = undefined;
                                 var4 = undefined;
-                                if(!var7) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+                                if(!var7) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                                 var7 = var3 != var5;
                                 var4 = undefined;
-                                if(!var7) { _fun0007_ip = 26; continue _fun0007 }
+                                if(!var7) { _fun0005_ip = 14; continue _fun0005 }
 case 2:
                                 var9 = _closure1_slot10;
                                 var8 = var9.getRole;
                                 var7 = var1.id;
                                 var4 = var8.bind(var9)(var7, var5);
-case 26:
-                                if(!(var3 != var5)) { _fun0007_ip = 28; continue _fun0007 }
-case 9:
-                                if(!(var3 != var4)) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
-                                if(!(var3 != var1)) { _fun0007_ip = 28; continue _fun0007 }
-case 30:
+case 14:
+                                if(!(var3 != var5)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+                                if(!(var3 != var4)) { _fun0005_ip = 16; continue _fun0005 }
+case 18:
+                                if(!(var3 != var1)) { _fun0005_ip = 16; continue _fun0005 }
+case 19:
                                 var4 = _closure1_slot0;
                                 var5 = _closure1_slot3;
                                 var3 = 26;
@@ -882,17 +387,17 @@ case 30:
                                 var3 = var4.bind(var5)(var3);
                                 var3 = _closure1_slot25;
                                 var3 = var3.STEP_PERMISSIONS;
-                                var4 = _closure1_slot37;
+                                var4 = _closure1_slot33;
                                 var4 = var4.bind(var6)();
-                                if(!var4) { _fun0007_ip = 31; continue _fun0007 }
-case 14:
+                                if(!var4) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                                 var4 = _closure1_slot25;
                                 var3 = var4.STEP_MEMBERS;
-case 31:
+case 20:
                                 var5 = _closure2_slot0;
                                 var4 = var5.push;
                                 var4 = var4.bind(var5)(var3);
-                                var5 = _closure1_slot34;
+                                var5 = _closure1_slot30;
                                 var7 = _closure1_slot26;
                                 var4 = _closure1_slot25;
                                 var4 = var4.STEP_DISPLAY;
@@ -905,17 +410,17 @@ case 31:
                                 var11 = false;
                                 var2 = var14[var5](var13, var12, var11, var10, var9);
                                 return var1;
-case 28:
+case 16:
                                 var1 = true;
                                 return var1;
                             }
                         };
                         var3 = var4.bind(var5)(var3);
-case 32: // try_end0
-                        _fun0006_ip = 33; continue _fun0006;
-case 24:
+case 22: // try_end0
+                        _fun0004_ip = 23; continue _fun0004;
+case 12:
                         return var2;
-case 34: // catch_target0
+case 24: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var3 = _closure2_slot5;
                         var4 = undefined;
@@ -928,10 +433,10 @@ case 34: // catch_target0
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.roleCreateFailedToast;
                         var2 = var2.bind(var3)();
-case 33:
+case 23:
                         var2 = undefined;
                         return var2;
-case 18:
+case 6:
                         return var1;
                     }
                 };
@@ -980,7 +485,7 @@ case 18:
             };
             var32 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot22;
-            var2 = _closure1_slot38;
+            var2 = _closure1_slot37;
             var1 = {};
             var5 = var18[var17];
             var5 = var21.bind(var4)(var5);
@@ -1172,10 +677,10 @@ case 18:
             var15 = var13.nextButton;
             var10 = new Array(2);
             var10[0] = var15;
-            if(!var11) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+            if(!var11) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var11 = var13.nextButtonFloating;
-case 35:
+case 25:
             var10[1] = var11;
             var6['style'] = var10;
             var11 = _closure1_slot21;
@@ -1208,10 +713,8 @@ case 35:
             return var1;
         }
     };
-    var4 = {};
-    var4 = var10.bind(var1)(var8, var4);
-    var _closure1_slot30 = var4;
-    var8 = function RolePermissionTemplate() {
+    var _closure1_slot34 = var1;
+    var1 = function RolePermissionTemplate() {
         var2 = _closure1_slot24;
         var4 = undefined;
         var10 = var2.bind(var4)();
@@ -1223,7 +726,7 @@ case 35:
         var2 = var3.useNavigation;
         var7 = var2.bind(var3)();
         var _closure2_slot0 = var7;
-        var2 = _closure1_slot36;
+        var2 = _closure1_slot32;
         var3 = var2.bind(var4)();
         var2 = var3.role;
         var _closure2_slot1 = var2;
@@ -1303,7 +806,7 @@ case 35:
             var4 = _closure1_slot25;
             var4 = var4.STEP_MEMBERS;
             var4 = var5.bind(var6)(var4);
-            var6 = _closure1_slot34;
+            var6 = _closure1_slot30;
             var5 = _closure1_slot26;
             var4 = _closure1_slot25;
             var4 = var4.STEP_PERMISSIONS;
@@ -1336,7 +839,7 @@ case 35:
         };
         var12 = var3.bind(var5)(var1, var2);
         var3 = _closure1_slot22;
-        var2 = _closure1_slot38;
+        var2 = _closure1_slot37;
         var1 = {};
         var5 = false;
         var1['hasSkipButton'] = var5;
@@ -1406,11 +909,9 @@ case 35:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4 = {};
-    var4 = var10.bind(var1)(var8, var4);
-    var _closure1_slot31 = var4;
-    var8 = function RoleMembers() {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+    var _closure1_slot35 = var1;
+    var1 = function RoleMembers() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var2 = _closure1_slot24;
             var4 = undefined;
@@ -1423,7 +924,7 @@ case 0:
             var2 = var3.useNavigation;
             var2 = var2.bind(var3)();
             var _closure2_slot0 = var2;
-            var3 = _closure1_slot36;
+            var3 = _closure1_slot32;
             var3 = var3.bind(var4)();
             var9 = var3.role;
             var _closure2_slot1 = var9;
@@ -1541,7 +1042,7 @@ case 0:
             var3[2] = var2;
             var3[3] = var16;
             var2 = function() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = global;
                     var4 = var1.Object;
@@ -1550,8 +1051,8 @@ case 0:
                     var8 = var3.bind(var4)(var2);
                     var3 = var8.length;
                     var2 = 0;
-                    if(!(var3 > var2)) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
+                    if(!(var3 > var2)) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
                     var4 = _closure2_slot4;
                     var3 = undefined;
                     var2 = true;
@@ -1569,8 +1070,8 @@ case 38:
                     var2 = var6.bind(var7)(var5, var2, var8);
                     var2 = false;
                     var2 = var4.bind(var3)(var2);
-case 37:
-                    var7 = _closure1_slot34;
+case 27:
+                    var7 = _closure1_slot30;
                     var4 = _closure1_slot26;
                     var3 = _closure1_slot25;
                     var3 = var3.STEP_MEMBERS;
@@ -1609,7 +1110,7 @@ case 37:
             };
             var14 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot22;
-            var2 = _closure1_slot38;
+            var2 = _closure1_slot37;
             var1 = {};
             var5 = !var10;
             var1['hasSkipButton'] = var5;
@@ -1660,10 +1161,10 @@ case 37:
             var16 = var11.nextButton;
             var9 = new Array(2);
             var9[0] = var16;
-            if(!var10) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
+            if(!var10) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var10 = var11.nextButtonFloating;
-case 39:
+case 29:
             var9[1] = var10;
             var6['style'] = var9;
             var11 = _closure1_slot21;
@@ -1687,11 +1188,11 @@ case 39:
             var9['text'] = var16;
             var9['onPress'] = var15;
             var12 = var12 === var14;
-            if(var12) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
+            if(var12) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
             var13 = _closure1_slot15;
             var12 = var14 > var13;
-case 41:
+case 31:
             var9['disabled'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
@@ -1702,15 +1203,513 @@ case 41:
             return var1;
         }
     };
+    var _closure1_slot36 = var1;
+    var1 = function ModalScene(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var2 = arg1;
+            var12 = var2.children;
+            var7 = var2.hasSkipButton;
+            var20 = var2.title;
+            var17 = var2.subtitle;
+            var3 = _closure1_slot24;
+            var5 = undefined;
+            var11 = var3.bind(var5)();
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot3;
+            var3 = 39;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.bind(var5)();
+            var8 = var3.insets;
+            var4 = _closure1_slot0;
+            var3 = 22;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.useNavigation;
+            var10 = var3.bind(var4)();
+            var _closure2_slot0 = var10;
+            var3 = _closure1_slot31;
+            var9 = var3.bind(var5)();
+            var _closure2_slot1 = var9;
+            var6 = _closure1_slot6;
+            var4 = var6.useCallback;
+            var3 = new Array(2);
+            var3[0] = var10;
+            var9 = var9.id;
+            var3[1] = var9;
+            var1 = function() {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var2 = var3.getState;
+                    var2 = var2.bind(var3)();
+                    var3 = var2.routes;
+                    var4 = var3.length;
+                    var2 = 1;
+                    var2 = var4 - var2;
+                    var2 = var3[var2];
+                    var4 = var2.key;
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_DISPLAY;
+                    if(!(var4 !== var3)) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_PERMISSIONS;
+                    if(!(var4 !== var3)) { _fun0009_ip = 35; continue _fun0009 }
+case 17:
+                    var4 = _closure1_slot26;
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_MEMBERS;
+                    var6 = var4[var3];
+                    var3 = _closure1_slot26;
+                    var5 = var3.FLOW_DISMISSED;
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot3;
+                    var3 = 14;
+                    var3 = var8[var3];
+                    var4 = undefined;
+                    var11 = var7.bind(var4)(var3);
+                    var10 = var11.track;
+                    var3 = _closure1_slot18;
+                    var9 = var3.MODAL_DISMISSED;
+                    var3 = {};
+                    var12 = _closure1_slot19;
+                    var12 = var12.GUILD_ROLE_CREATION_MODAL;
+                    var3['type'] = var12;
+                    var3 = var10.bind(var11)(var9, var3);
+                    var3 = 18;
+                    var3 = var8[var3];
+                    var4 = var7.bind(var4)(var3);
+                    var3 = var4.close;
+                    var3 = var3.bind(var4)();
+                    _fun0009_ip = 36; continue _fun0009;
+case 35:
+                    var4 = _closure1_slot26;
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_PERMISSIONS;
+                    var6 = var4[var3];
+                    var7 = _closure1_slot26;
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_MEMBERS;
+                    var5 = var7[var3];
+                    var9 = _closure2_slot0;
+                    var8 = var9.push;
+                    var7 = _closure1_slot25;
+                    var7 = var7.STEP_MEMBERS;
+                    var7 = var8.bind(var9)(var7);
+                    _fun0009_ip = 36; continue _fun0009;
+case 33:
+                    var4 = _closure1_slot26;
+                    var3 = _closure1_slot25;
+                    var3 = var3.STEP_DISPLAY;
+                    var4 = var4[var3];
+                    var7 = _closure1_slot33;
+                    var3 = undefined;
+                    var8 = var7.bind(var3)();
+                    var7 = _closure1_slot26;
+                    var3 = _closure1_slot25;
+                    if(var8) { _fun0009_ip = 37; continue _fun0009 }
+case 38:
+                    var8 = var3.STEP_PERMISSIONS;
+                    var5 = var7[var8];
+                    var11 = _closure2_slot0;
+                    var10 = var11.push;
+                    var9 = _closure1_slot25;
+                    var9 = var9.STEP_PERMISSIONS;
+                    var9 = var10.bind(var11)(var9);
+                    var6 = var4;
+                    _fun0009_ip = 36; continue _fun0009;
+case 37:
+                    var3 = var3.STEP_MEMBERS;
+                    var5 = var7[var3];
+                    var9 = _closure2_slot0;
+                    var8 = var9.push;
+                    var7 = _closure1_slot25;
+                    var7 = var7.STEP_MEMBERS;
+                    var7 = var8.bind(var9)(var7);
+                    var6 = var4;
+case 36:
+                    var4 = _closure1_slot30;
+                    var1 = _closure2_slot1;
+                    var13 = var1.id;
+                    var1 = undefined;
+                    var14 = true;
+                    var17 = undefined;
+                    var16 = var6;
+                    var15 = var5;
+                    var2 = var17[var4](var16, var15, var14, var13, var12);
+                    return var1;
+                }
+            };
+            var14 = var4.bind(var6)(var1, var3);
+            var1 = global;
+            var3 = var1.navigator;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0008_ip = 39; continue _fun0008 }
+case 21:
+            var4 = _closure1_slot22;
+            var3 = _closure1_slot7;
+            var1 = {};
+            var6 = {};
+            var21 = var11.container;
+            var22 = var6;
+            var9 = copyDataProperties(var22, var21);
+            var10 = var8.top;
+            var9 = 'paddingTop';
+            var6[var9] = var10;
+            var9 = var11.container;
+            var9 = var9.paddingBottom;
+            var8 = var8.bottom;
+            var9 = var9 + var8;
+            var8 = 'paddingBottom';
+            var6[var8] = var9;
+            var1['style'] = var6;
+            var9 = _closure1_slot22;
+            var8 = _closure1_slot7;
+            var6 = {};
+            var10 = var11.sceneHeader;
+            var6['style'] = var10;
+            var19 = _closure1_slot21;
+            var15 = _closure1_slot0;
+            var18 = _closure1_slot3;
+            var13 = 16;
+            var10 = var18[var13];
+            var10 = var15.bind(var5)(var10);
+            var16 = var10.Text;
+            var10 = {'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
+            var10['children'] = var20;
+            var16 = var19.bind(var5)(var16, var10);
+            var10 = new Array(2);
+            var10[0] = var16;
+            var16 = _closure1_slot21;
+            var13 = var18[var13];
+            var13 = var15.bind(var5)(var13);
+            var15 = var13.Text;
+            var13 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
+            var18 = var11.sceneSubtitle;
+            var13['style'] = var18;
+            var13['children'] = var17;
+            var13 = var16.bind(var5)(var15, var13);
+            var10[1] = var13;
+            var6['children'] = var10;
+            var8 = var9.bind(var5)(var8, var6);
+            var6 = new Array(3);
+            var6[0] = var8;
+            var10 = _closure1_slot21;
+            var9 = _closure1_slot7;
+            var8 = {};
+            var13 = var11.sceneContent;
+            var8['style'] = var13;
+            var8['children'] = var12;
+            var8 = var10.bind(var5)(var9, var8);
+            var6[1] = var8;
+            if(!var7) { _fun0008_ip = 40; continue _fun0008 }
+case 41:
+            var10 = _closure1_slot21;
+            var9 = _closure1_slot7;
+            var8 = {};
+            var11 = var11.sceneFooter;
+            var8['style'] = var11;
+            var13 = _closure1_slot21;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot3;
+            var11 = 34;
+            var11 = var19[var11];
+            var11 = var18.bind(var5)(var11);
+            var12 = var11.Button;
+            var11 = {};
+            var15 = 17;
+            var16 = var19[var15];
+            var16 = var18.bind(var5)(var16);
+            var17 = var16.intl;
+            var16 = var17.string;
+            var15 = var19[var15];
+            var15 = var18.bind(var5)(var15);
+            var15 = var15.t;
+            var15 = var15.CJm5V5;
+            var15 = var16.bind(var17)(var15);
+            var11['text'] = var15;
+            var11['onPress'] = var14;
+            var11 = var13.bind(var5)(var12, var11);
+            var8['children'] = var11;
+            var7 = var10.bind(var5)(var9, var8);
+case 40:
+            var6[2] = var7;
+            var1['children'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0008_ip = 42; continue _fun0008;
+case 39:
+            var4 = _closure1_slot21;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var2 = 40;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.SceneLoadingIndicator;
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
+case 42:
+            return var1;
+        }
+    };
+    var _closure1_slot37 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
     var4 = {};
-    var4 = var10.bind(var1)(var8, var4);
-    var _closure1_slot32 = var4;
+    var9 = true;
+    var4['value'] = var9;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var15 = 1;
+    var4 = var6[var15];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var10 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var10;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot7 = var7;
+    var7 = var4.Keyboard;
+    var _closure1_slot8 = var7;
+    var4 = var4.Platform;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isGuildOwner;
+    var _closure1_slot9 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot11 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot12 = var4;
+    var14 = 8;
+    var4 = var6[var14];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PermissionTemplates;
+    var _closure1_slot13 = var7;
+    var7 = var4.DEFAULT_TEMPLATE_TYPE;
+    var _closure1_slot14 = var7;
+    var4 = var4.MAX_BULK_ROLE_MEMBERS_ADD;
+    var _closure1_slot15 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MAX_ROLE_LENGTH;
+    var _closure1_slot16 = var7;
+    var7 = var4.DEFAULT_ROLE_COLOR;
+    var _closure1_slot17 = var7;
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot18 = var7;
+    var7 = var4.AnalyticsSections;
+    var _closure1_slot19 = var7;
+    var4 = var4.Permissions;
+    var _closure1_slot20 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot21 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot22 = var4;
+    var4 = {};
+    var7 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignContent': 'center', 'width': '100%'};
+    var4['titleContainer'] = var7;
+    var7 = {'textAlign': 'center', 'flex': 1};
+    var4['title'] = var7;
+    var _closure1_slot23 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var11 = {};
+    var12 = 12;
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.NAV_BAR_HEIGHT;
+    var11['marginTop'] = var12;
+    var11['flexGrow'] = var15;
+    var12 = 13;
+    var16 = var6[var12];
+    var16 = var13.bind(var1)(var16);
+    var16 = var16.spacing;
+    var16 = var16.PX_16;
+    var11['paddingBottom'] = var16;
+    var4['container'] = var11;
+    var11 = {'alignItems': 'center', 'marginBottom': 8, 'marginHorizontal': 16};
+    var4['sceneHeader'] = var11;
+    var11 = {'textAlign': 'center', 'paddingTop': 8, 'maxWidth': 400};
+    var4['sceneSubtitle'] = var11;
+    var11 = {};
+    var11['flex'] = var15;
+    var4['sceneContent'] = var11;
+    var11 = {};
+    var11['flex'] = var15;
+    var4['sceneInner'] = var11;
+    var11 = {'marginBottom': 8, 'paddingVertical': 12};
+    var4['formRow'] = var11;
+    var11 = {};
+    var15 = 24;
+    var11['marginTop'] = var15;
+    var15 = var6[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.unsafe_rawColors;
+    var15 = var15.TRANSPARENT;
+    var11['backgroundColor'] = var15;
+    var4['formDivider'] = var11;
+    var11 = {'flexDirection': 'row', 'flexGrow': 1, 'justifyContent': 'space-between', 'alignItems': 'center'};
+    var4['colorRow'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var4['colorValue'] = var11;
+    var11 = {'marginHorizontal': 0, 'marginVertical': 0, 'marginRight': 8, 'minWidth': 24, 'height': 24, 'borderRadius': 3};
+    var4['colorBlock'] = var11;
+    var11 = {};
+    var11['paddingBottom'] = var14;
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_16;
+    var11['paddingHorizontal'] = var14;
+    var4['sceneFooter'] = var11;
+    var11 = {'width': '100%', 'paddingHorizontal': 16, 'paddingVertical': 16};
+    var4['nextButton'] = var11;
+    var11 = {'paddingVertical': 0, 'paddingTop': 16};
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_BASE_LOWER;
+    var11['backgroundColor'] = var12;
+    var4['nextButtonFloating'] = var11;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot24 = var4;
+    var7 = {};
+    var4 = 'STEP_DISPLAY';
+    var7['STEP_DISPLAY'] = var4;
+    var4 = 'STEP_PERMISSIONS';
+    var7['STEP_PERMISSIONS'] = var4;
+    var4 = 'STEP_MEMBERS';
+    var7['STEP_MEMBERS'] = var4;
+    var _closure1_slot25 = var7;
+    var4 = {};
+    var11 = var7.STEP_DISPLAY;
+    var8 = 'Role Display';
+    var4[var11] = var8;
+    var11 = var7.STEP_PERMISSIONS;
+    var8 = 'Role Permissions';
+    var4[var11] = var8;
+    var11 = var7.STEP_MEMBERS;
+    var8 = 'Role Members';
+    var4[var11] = var8;
+    var11 = 'Flow Initialized';
+    var8 = 'FLOW_INITIALIZED';
+    var4[var8] = var11;
+    var11 = 'Flow Dismissed';
+    var8 = 'FLOW_DISMISSED';
+    var4[var8] = var11;
+    var11 = 'Flow Completed';
+    var8 = 'FLOW_COMPLETED';
+    var4[var8] = var11;
+    var _closure1_slot26 = var4;
+    var8 = var10.memo;
+    var4 = function(arg1) {
+        var1 = arg1;
+        var4 = var1.step;
+        var1 = global;
+        var5 = var1.Object;
+        var3 = var5.keys;
+        var2 = _closure1_slot25;
+        var3 = var3.bind(var5)(var2);
+        var12 = var3.length;
+        var2 = var3.indexOf;
+        var3 = var2.bind(var3)(var4);
+        var2 = 1;
+        var13 = var3 + var2;
+        var4 = _closure1_slot21;
+        var3 = _closure1_slot7;
+        var2 = {};
+        var8 = _closure1_slot23;
+        var5 = var8.titleContainer;
+        var2['style'] = var5;
+        var7 = _closure1_slot21;
+        var9 = _closure1_slot0;
+        var14 = _closure1_slot3;
+        var1 = 16;
+        var5 = var14[var1];
+        var1 = undefined;
+        var5 = var9.bind(var1)(var5);
+        var6 = var5.Text;
+        var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
+        var8 = var8.title;
+        var5['style'] = var8;
+        var8 = 17;
+        var10 = var14[var8];
+        var10 = var9.bind(var1)(var10);
+        var11 = var10.intl;
+        var10 = var11.format;
+        var8 = var14[var8];
+        var8 = var9.bind(var1)(var8);
+        var8 = var8.t;
+        var9 = var8.8v/u0i;
+        var8 = {};
+        var8['number'] = var13;
+        var8['total'] = var12;
+        var8 = var10.bind(var11)(var9, var8);
+        var5['children'] = var8;
+        var5 = var7.bind(var1)(var6, var5);
+        var2['children'] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var4 = var8.bind(var10)(var4);
+    var _closure1_slot27 = var4;
+    var4 = function closeModal(arg1, arg2) {
+        var7 = _closure1_slot30;
+        var1 = _closure1_slot26;
+        var10 = var1.FLOW_DISMISSED;
+        var1 = undefined;
+        var11 = arg1;
+        var9 = false;
+        var8 = arg2;
+        var12 = undefined;
+        var3 = var12[var7](var11, var10, var9, var8, var7);
+        var3 = _closure1_slot1;
+        var4 = _closure1_slot3;
+        var2 = 18;
+        var2 = var4[var2];
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.close;
+        var2 = var2.bind(var3)();
+        return var1;
+    };
+    var _closure1_slot28 = var4;
     var4 = {};
     var10 = var7.STEP_DISPLAY;
     var8 = {};
     var8['fullscreen'] = var9;
     var11 = function render() {
-        var1 = _closure1_slot30;
+        var4 = _closure1_slot21;
+        var3 = _closure1_slot34;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var8['render'] = var11;
@@ -1719,7 +1718,11 @@ case 41:
     var8 = {};
     var8['fullscreen'] = var9;
     var11 = function render() {
-        var1 = _closure1_slot31;
+        var4 = _closure1_slot21;
+        var3 = _closure1_slot35;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var8['render'] = var11;
@@ -1728,12 +1731,16 @@ case 41:
     var7 = {};
     var7['fullscreen'] = var9;
     var9 = function render() {
-        var1 = _closure1_slot32;
+        var4 = _closure1_slot21;
+        var3 = _closure1_slot36;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var7['render'] = var9;
     var4[var8] = var7;
-    var _closure1_slot33 = var4;
+    var _closure1_slot29 = var4;
     var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -1741,7 +1748,7 @@ case 41:
     var4 = 'modules/guild_settings/roles/native/GuildSettingsRoleCreateModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GuildSettingsRoleCreateModal() {
-        var2 = _closure1_slot35;
+        var2 = _closure1_slot31;
         var4 = undefined;
         var2 = var2.bind(var4)();
         var _closure2_slot0 = var2;
@@ -1751,7 +1758,7 @@ case 41:
         var2 = var6[var2];
         var2 = var3.bind(var4)(var2);
         var1 = function() {
-            var6 = _closure1_slot34;
+            var6 = _closure1_slot30;
             var2 = _closure1_slot26;
             var10 = var2.FLOW_INITIALIZED;
             var2 = _closure1_slot26;
@@ -1774,7 +1781,7 @@ case 41:
         var1 = var2.bind(var4)(var1);
         var2 = var1.Navigator;
         var1 = {};
-        var6 = _closure1_slot33;
+        var6 = _closure1_slot29;
         var1['screens'] = var6;
         var5 = _closure1_slot25;
         var5 = var5.STEP_DISPLAY;

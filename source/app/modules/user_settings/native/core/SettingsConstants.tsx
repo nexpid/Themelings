@@ -288,6 +288,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SERVER_TRENDING_NOTIFICATIONS'] = var1;
     var1 = 'SUMMARY_REMINDER_NOTIFICATIONS';
     var2['SUMMARY_REMINDER_NOTIFICATIONS'] = var1;
+    var1 = 'FRIEND_GAMING_ACTIVITY_NOTIFICATIONS';
+    var2['FRIEND_GAMING_ACTIVITY_NOTIFICATIONS'] = var1;
     var1 = 'APP_ICONS';
     var2['APP_ICONS'] = var1;
     var1 = 'ADVANCED';

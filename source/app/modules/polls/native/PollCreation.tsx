@@ -685,7 +685,7 @@ case 12:
                 var2 = var2.bind(var3)(var27, var17);
                 var2 = var2.trackPollCreationCancelled;
                 var _closure2_slot16 = var2;
-                var9 = function handleCancelClose() {
+                var2 = function handleCancelClose() {
                     var2 = _closure2_slot16;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -714,18 +714,7 @@ case 12:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var _closure2_slot17 = var9;
-                var3 = _closure1_slot9;
-                var8 = _closure1_slot14;
-                var2 = {};
-                var2['onConfirm'] = var9;
-                var2 = var3.bind(var4)(var8, var2);
-                var _closure2_slot18 = var2;
-                var3 = _closure1_slot9;
-                var2 = {};
-                var2['onConfirm'] = var9;
-                var2 = var3.bind(var4)(var8, var2);
-                var _closure2_slot19 = var2;
+                var _closure2_slot17 = var2;
                 var2 = 28;
                 var2 = var21[var2];
                 var8 = var31.bind(var4)(var2);
@@ -751,7 +740,12 @@ case 15:
                         var1 = var5[var1];
                         var6 = var4.bind(var8)(var1);
                         var5 = var6.openAlert;
-                        var4 = _closure2_slot19;
+                        var7 = _closure1_slot9;
+                        var4 = _closure1_slot14;
+                        var1 = {};
+                        var9 = _closure2_slot17;
+                        var1['onConfirm'] = var9;
+                        var4 = var7.bind(var8)(var4, var1);
                         var1 = 'poll-creation-unsaved-changes';
                         var1 = var5.bind(var6)(var1, var4);
                         var1 = true;
@@ -795,7 +789,7 @@ case 16:
                 };
                 var2['onAddAnswer'] = var8;
                 var26 = var3.bind(var4)(var2);
-                var _closure2_slot20 = var26;
+                var _closure2_slot18 = var26;
                 var3 = var5.useEffect;
                 var2 = new Array(4);
                 var2[0] = var25;
@@ -840,7 +834,7 @@ case 18:
                         if(!var5) { _fun0006_ip = 17; continue _fun0006 }
 case 19:
                         var5 = var4[var2];
-                        var4 = _closure2_slot20;
+                        var4 = _closure2_slot18;
                         var2 = var4.focus;
                         var2 = var2.bind(var4)(var5);
                         var2 = _closure2_slot15;
@@ -903,13 +897,18 @@ case 0:
                         var4 = var6.bind(var7)(var5, var4);
                         if(var4) { _fun0007_ip = 20; continue _fun0007 }
 case 15:
-                        var4 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var3 = 30;
-                        var3 = var5[var3];
-                        var6 = var4.bind(var1)(var3);
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var4 = 30;
+                        var4 = var6[var4];
+                        var6 = var5.bind(var1)(var4);
                         var5 = var6.openAlert;
-                        var4 = _closure2_slot18;
+                        var7 = _closure1_slot9;
+                        var4 = _closure1_slot14;
+                        var3 = {};
+                        var8 = _closure2_slot17;
+                        var3['onConfirm'] = var8;
+                        var4 = var7.bind(var1)(var4, var3);
                         var3 = 'poll-creation-unsaved-changes';
                         var3 = var5.bind(var6)(var3, var4);
                         _fun0007_ip = 21; continue _fun0007;
@@ -1073,7 +1072,7 @@ case 0:
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
                         var2 = {};
-                        var6 = _closure2_slot20;
+                        var6 = _closure2_slot18;
                         var11 = var6.refWithKey;
                         var12 = var1.localCreationAnswerId;
                         var7 = global;
