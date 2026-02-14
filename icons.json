@@ -1874,6 +1874,16 @@
         "width": 24,
         "height": 24
     },
+    "CloudIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/CloudIcon.png",
+        "hash": "01cd25a11a733a16463d72c98cca83b7",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "clouds_background": {
         "file": "app/modules/quests/native/images/clouds_background.png",
         "hash": "e5d497e242dfffadb8102108e8df2b1a",
