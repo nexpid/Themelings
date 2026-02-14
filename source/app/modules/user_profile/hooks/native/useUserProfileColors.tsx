@@ -20,7 +20,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 8;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot4 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -30,26 +35,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.theme;
-            var6 = var1.primaryColor;
+            var8 = var1.theme;
+            var7 = var1.primaryColor;
             var15 = var1.secondaryColor;
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var1 = 1;
-            var1 = var12[var1];
-            var9 = undefined;
-            var1 = var10.bind(var9)(var1);
-            var8 = var1.bind(var9)();
-            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var10 = _closure1_slot2;
             var1 = 2;
-            var1 = var12[var1];
-            var2 = var7.bind(var9)(var1);
-            var1 = var2.useProfileThemeValues;
-            var2 = var1.bind(var2)(var4);
+            var1 = var10[var1];
+            var9 = undefined;
+            var1 = var6.bind(var9)(var1);
+            var17 = var1.bind(var9)();
+            var11 = _closure1_slot0;
             var1 = 3;
-            var1 = var12[var1];
-            var11 = var7.bind(var9)(var1);
-            var5 = var11.useStateFromStores;
+            var1 = var10[var1];
+            var2 = var11.bind(var9)(var1);
+            var1 = var2.useProfileThemeValues;
+            var2 = var1.bind(var2)(var8);
+            var1 = 4;
+            var1 = var10[var1];
+            var12 = var11.bind(var9)(var1);
+            var5 = var12.useStateFromStores;
             var1 = _closure1_slot3;
             var4 = new Array(1);
             var4[0] = var1;
@@ -58,86 +63,104 @@ case 0:
                 var1 = var1.syncProfileThemeWithUserTheme;
                 return var1;
             };
-            var11 = var5.bind(var11)(var4, var1);
+            var12 = var5.bind(var12)(var4, var1);
             var1 = {};
-            var5 = 4;
-            var4 = var12[var5];
-            var16 = var7.bind(var9)(var4);
+            var5 = 5;
+            var4 = var10[var5];
+            var16 = var11.bind(var9)(var4);
             var14 = var16.useToken;
-            var4 = 5;
-            var13 = var12[var4];
-            var13 = var10.bind(var9)(var13);
+            var4 = 6;
+            var13 = var10[var4];
+            var13 = var6.bind(var9)(var13);
             var13 = var13.colors;
             var13 = var13.BACKGROUND_BASE_LOWER;
-            var13 = var14.bind(var16)(var13, var8);
+            var13 = var14.bind(var16)(var13, var17);
             var1['gradientFallbackBackground'] = var13;
-            var13 = var12[var5];
-            var16 = var7.bind(var9)(var13);
+            var13 = var10[var5];
+            var16 = var11.bind(var9)(var13);
             var14 = var16.useToken;
-            var13 = var12[var4];
-            var13 = var10.bind(var9)(var13);
+            var13 = var10[var4];
+            var13 = var6.bind(var9)(var13);
             var13 = var13.colors;
             var13 = var13.BACKGROUND_BASE_LOWER;
-            var13 = var14.bind(var16)(var13, var8);
+            var13 = var14.bind(var16)(var13, var17);
             var1['gradientSecondaryBackground'] = var13;
-            var13 = var12[var5];
-            var16 = var7.bind(var9)(var13);
+            var13 = var10[var5];
+            var16 = var11.bind(var9)(var13);
             var14 = var16.useToken;
-            var13 = var12[var4];
-            var13 = var10.bind(var9)(var13);
+            var13 = var10[var4];
+            var13 = var6.bind(var9)(var13);
             var13 = var13.colors;
             var13 = var13.BACKGROUND_SURFACE_HIGH;
-            var13 = var14.bind(var16)(var13, var8);
+            var13 = var14.bind(var16)(var13, var17);
             var1['containerBackground'] = var13;
-            var13 = var12[var5];
-            var16 = var7.bind(var9)(var13);
+            var13 = var10[var5];
+            var16 = var11.bind(var9)(var13);
             var14 = var16.useToken;
-            var13 = var12[var4];
-            var13 = var10.bind(var9)(var13);
+            var13 = var10[var4];
+            var13 = var6.bind(var9)(var13);
             var13 = var13.colors;
             var13 = var13.BACKGROUND_BASE_LOWER;
-            var13 = var14.bind(var16)(var13, var8);
+            var13 = var14.bind(var16)(var13, var17);
             var1['avatarBackground'] = var13;
-            var5 = var12[var5];
-            var7 = var7.bind(var9)(var5);
-            var5 = var7.useToken;
-            var4 = var12[var4];
-            var4 = var10.bind(var9)(var4);
-            var4 = var4.colors;
-            var4 = var4.BACKGROUND_SURFACE_HIGH;
-            var4 = var5.bind(var7)(var4, var8);
-            var1['statusBackground'] = var4;
-            var4 = null;
-            if(!(var4 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+            var13 = var10[var5];
+            var16 = var11.bind(var9)(var13);
+            var14 = var16.useToken;
+            var13 = var10[var4];
+            var13 = var6.bind(var9)(var13);
+            var13 = var13.colors;
+            var13 = var13.BACKGROUND_SURFACE_HIGH;
+            var13 = var14.bind(var16)(var13, var17);
+            var1['statusBackground'] = var13;
+            var5 = var10[var5];
+            var13 = var11.bind(var9)(var5);
+            var11 = var13.useToken;
+            var5 = var10[var4];
+            var5 = var6.bind(var9)(var5);
+            var5 = var5.colors;
+            var5 = var5.BACKGROUND_MOD_NORMAL;
+            var5 = var11.bind(var13)(var5, var8);
+            var4 = var10[var4];
+            var4 = var6.bind(var9)(var4);
+            var4 = var4.unsafe_rawColors;
+            var4 = var4.OPACITY_WHITE_24;
+            var6 = _closure1_slot4;
+            var6 = var6.LIGHT;
+            if(!(var8 === var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            if(!(var4 != var15)) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
-            if(!(var4 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+            var5 = var4;
+case 2:
+            var4 = null;
+            if(!(var4 != var7)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
+            if(!(var4 != var15)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
+            if(!(var4 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
             var8 = var2.sectionBox;
             var14 = var2.overlay;
-            var7 = var2.overlaySyncedWithUserTheme;
+            var11 = var2.overlaySyncedWithUserTheme;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var10 = 6;
+            var10 = 7;
             var2 = var2[var10];
-            var5 = var4.bind(var9)(var2);
-            var4 = var5.calculateOverlayedColor;
+            var6 = var4.bind(var9)(var2);
+            var4 = var6.calculateOverlayedColor;
             var2 = var14;
-            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var2 = var7;
-case 6:
-            var7 = var4.bind(var5)(var6, var2);
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var2 = var11;
+case 8:
+            var7 = var4.bind(var6)(var7, var2);
             var2 = {};
-            var18 = var2;
-            var17 = var1;
-            var4 = copyDataProperties(var18, var17);
+            var19 = var2;
+            var18 = var1;
+            var4 = copyDataProperties(var19, var18);
             var4 = 'containerBackground';
-            var2[var4] = var8;
+            var2[var4] = var5;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var4 = 7;
+            var4 = 8;
             var5 = var3[var4];
             var12 = var6.bind(var9)(var5);
             var11 = var12.int2hex;
@@ -165,7 +188,7 @@ case 6:
             var3 = 'statusBackground';
             var2[var3] = var4;
             return var2;
-case 2:
+case 4:
             return var1;
         }
     };

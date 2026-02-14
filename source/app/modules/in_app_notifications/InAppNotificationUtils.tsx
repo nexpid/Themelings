@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.ChannelTypes;
     var _closure1_slot5 = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -174,55 +174,123 @@ case 12:
         }
     };
     var3['getNotificationTitle'] = var4;
-    var2 = function isReactionMilestoneNotification(arg1, arg2) {
+    var4 = function getNotificationBodyText(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arg1;
+            var4 = var2.notificationMessageContent;
+            var1 = var2.isGdmAllReactionNotification;
+            var7 = var2.messageAuthor;
+            var8 = var2.emojiHook;
+            var2 = null;
+            var2 = var2 != var4;
+            if(!var2) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+            var3 = var4.trim;
+            var4 = var3.bind(var4)();
+            var3 = '';
+            var2 = var3 !== var4;
+case 20:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 5;
+            var5 = var10[var3];
+            var4 = undefined;
+            var5 = var9.bind(var4)(var5);
+            var6 = var5.intl;
+            var5 = var6.format;
+            var3 = var10[var3];
+            var3 = var9.bind(var4)(var3);
+            var3 = var3.t;
+            if(var1) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            if(var2) { _fun0002_ip = 24; continue _fun0002 }
+case 2:
+            var4 = var3.ZOzpKt;
+            var1 = {};
+            var1['emojiHook'] = var8;
+            var1 = var5.bind(var6)(var4, var1);
+            _fun0002_ip = 25; continue _fun0002;
+case 24:
+            var9 = var3.sHV43G;
+            var4 = {};
+            var4['emojiHook'] = var8;
+            var1 = var5.bind(var6)(var9, var4);
+case 25:
+            _fun0002_ip = 26; continue _fun0002;
+case 22:
+            if(var2) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
+            var4 = var3.FpJqb0;
+            var2 = {};
+            var2['emojiHook'] = var8;
+            var9 = var7.nick;
+            var2['username'] = var9;
+            var2 = var5.bind(var6)(var4, var2);
+            _fun0002_ip = 29; continue _fun0002;
+case 27:
+            var4 = var3.MJPwfg;
+            var3 = {};
+            var3['emojiHook'] = var8;
+            var7 = var7.nick;
+            var3['username'] = var7;
+            var2 = var5.bind(var6)(var4, var3);
+case 29:
+            var1 = var2;
+case 26:
+            return var1;
+        }
+    };
+    var3['getNotificationBodyText'] = var4;
+    var2 = function isReactionMilestoneNotification(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = arg2;
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(!(var1 != var3)) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var2 = _closure1_slot5;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var3 !== var2)) { _fun0002_ip = 20; continue _fun0002 }
-case 22:
+            if(!(var3 !== var2)) { _fun0003_ip = 30; continue _fun0003 }
+case 32:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var2 = 5;
+            var2 = 6;
             var3 = var3[var2];
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
             var4 = var5.sumBy;
             var3 = arg1;
             var2 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = arg1;
                     var5 = var1.count_details;
                     var4 = null;
                     var1 = var4 == var5;
                     var6 = undefined;
-                    if(var1) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                    if(var1) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var6 = var5.burst;
-case 22:
+case 32:
                     var7 = var4 != var6;
                     var1 = 0;
-                    if(!var7) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!var7) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
                     var1 = var6;
-case 24:
+case 34:
                     var6 = var4 == var5;
                     var3 = undefined;
-                    if(var6) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                    if(var6) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var3 = var5.normal;
-case 26:
+case 36:
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                    if(!var4) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
                     var2 = var3;
-case 28:
+case 38:
                     var1 = var1 + var2;
                     return var1;
                 }
@@ -232,7 +300,7 @@ case 28:
             var1 = var2.has;
             var1 = var1.bind(var2)(var3);
             return var1;
-case 20:
+case 30:
             var1 = false;
             return var1;
         }

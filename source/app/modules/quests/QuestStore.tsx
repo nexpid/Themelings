@@ -1402,7 +1402,7 @@ case 100:
         var5['value'] = var7;
         var1[30] = var5;
         var5 = {};
-        var7 = 'isFetchingQuestHomeTakeover';
+        var7 = 'isFetchingQuestHomeHero';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot44;
@@ -1411,7 +1411,7 @@ case 100:
         var5['value'] = var7;
         var1[31] = var5;
         var5 = {};
-        var7 = 'getQuestHomeTakeoverConfig';
+        var7 = 'getQuestHomeHeroConfig';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot45;
@@ -1420,7 +1420,7 @@ case 100:
         var5['value'] = var7;
         var1[32] = var5;
         var5 = {};
-        var7 = 'getLastFetchedQuestHomeTakeover';
+        var7 = 'getLastFetchedQuestHomeHero';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot43;
@@ -2751,14 +2751,14 @@ case 9:
         }
     };
     var2['QUESTS_USER_COMPLETION_UPDATE'] = var7;
-    var7 = function handleFetchQuestHomeTakeoverBegin() {
+    var7 = function handleFetchQuestHomeHeroBegin() {
         var1 = true;
         _closure1_slot44 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_BEGIN'] = var7;
-    var7 = function handleFetchQuestHomeTakeoverSuccess(arg1) {
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_BEGIN'] = var7;
+    var7 = function handleFetchQuestHomeHeroSuccess(arg1) {
         var1 = false;
         _closure1_slot44 = var1;
         var1 = global;
@@ -2767,19 +2767,19 @@ case 9:
         var1 = var1.bind(var3)();
         _closure1_slot43 = var1;
         var1 = arg1;
-        var1 = var1.takeover;
+        var1 = var1.questHomeHero;
         _closure1_slot45 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_SUCCESS'] = var7;
-    var7 = function handleFetchQuestHomeTakeoverFailure() {
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_SUCCESS'] = var7;
+    var7 = function handleFetchQuestHomeHeroFailure() {
         var1 = false;
         _closure1_slot44 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['QUESTS_FETCH_QUEST_HOME_TAKEOVER_FAILURE'] = var7;
+    var2['QUESTS_FETCH_QUEST_HOME_HERO_FAILURE'] = var7;
     var7 = var9.prototype;
     var7 = Object.create(var7, {constructor: {value: var9}});
     var15 = var7;

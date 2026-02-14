@@ -270,14 +270,6 @@ case 10:
                 var4 = var7.bind(var5)(var6, var4);
                 var5['setOnFirstFrameCallback'] = var4;
                 var7 = var5.callbackSetter;
-                var6 = 'native-mute-toggle';
-                var4 = function() {
-                    var1 = new Array(0);
-                    return var1;
-                };
-                var4 = var7.bind(var5)(var6, var4);
-                var5['setOnNativeMuteToggleCallback'] = var4;
-                var7 = var5.callbackSetter;
                 var6 = 'native-mute-state-changed';
                 var4 = function(arg1) {
                     var1 = arg1;
@@ -886,16 +878,6 @@ case 30:
         };
         var7 = var9.bind(var1)(var10, var7);
         var8['setOnVoiceCallback'] = var7;
-        var7 = var5[var2];
-        var7 = var4.bind(var1)(var7);
-        var8 = var7.VoiceEngine;
-        var10 = 'native-mute-toggle';
-        var7 = function() {
-            var1 = new Array(0);
-            return var1;
-        };
-        var7 = var9.bind(var1)(var10, var7);
-        var8['setOnNativeMuteToggleCallback'] = var7;
         var7 = var5[var2];
         var7 = var4.bind(var1)(var7);
         var8 = var7.VoiceEngine;

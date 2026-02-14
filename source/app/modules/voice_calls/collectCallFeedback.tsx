@@ -55,87 +55,109 @@ case 0:
             var2 = var2.bind(var3)();
             var5 = _closure1_slot4;
             var3 = var5.getChannel;
-            var6 = var3.bind(var5)(var2);
+            var8 = var3.bind(var5)(var2);
             var5 = null;
             var3 = arg2;
             if(!(var5 == var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             if(!(var5 != var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            if(!(var5 == var6)) { _fun0001_ip = 5; continue _fun0001 }
+            if(!(var5 == var8)) { _fun0001_ip = 5; continue _fun0001 }
 case 2:
             var2 = undefined;
             var2 = var4.bind(var2)();
             _fun0001_ip = 6; continue _fun0001;
 case 5:
-            var7 = _closure1_slot6;
-            var2 = var7.getVoiceFilterSpeakingDurationMs;
-            var8 = var2.bind(var7)();
-            var2 = {};
-            var3 = var6.id;
-            var2['channel_id'] = var3;
-            var3 = var6.type;
-            var2['channel_type'] = var3;
-            var3 = var6.getGuildId;
-            var3 = var3.bind(var6)();
-            var2['guild_id'] = var3;
-            var3 = var7.getRTCConnectionId;
-            var3 = var3.bind(var7)();
-            var2['rtc_connection_id'] = var3;
-            var3 = var7.getDuration;
-            var3 = var3.bind(var7)();
-            var2['duration'] = var3;
-            var3 = var7.getMediaSessionId;
-            var3 = var3.bind(var7)();
-            var2['media_session_id'] = var3;
-            var9 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 6;
-            var6 = var6[var3];
+            var3 = _closure1_slot6;
+            var2 = var3.getRTCConnection;
+            var6 = var2.bind(var3)();
+            var2 = var5 == var6;
             var3 = undefined;
+            var7 = undefined;
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var2 = var6.getVoiceDurationStats;
+            var7 = var2.bind(var6)();
+case 7:
+            var2 = {};
+            var6 = var8.id;
+            var2['channel_id'] = var6;
+            var6 = var8.type;
+            var2['channel_type'] = var6;
+            var6 = var8.getGuildId;
+            var6 = var6.bind(var8)();
+            var2['guild_id'] = var6;
+            var8 = _closure1_slot6;
+            var6 = var8.getRTCConnectionId;
+            var6 = var6.bind(var8)();
+            var2['rtc_connection_id'] = var6;
+            var6 = var8.getDuration;
+            var6 = var6.bind(var8)();
+            var2['duration'] = var6;
+            var6 = var8.getMediaSessionId;
+            var6 = var6.bind(var8)();
+            var2['media_session_id'] = var6;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var6 = 6;
+            var6 = var10[var6];
             var11 = var9.bind(var3)(var6);
             var10 = var11.getVoiceStateMetadata;
-            var6 = var7.getGuildId;
-            var9 = var6.bind(var7)();
-            var6 = var7.getChannelId;
-            var7 = var6.bind(var7)();
+            var6 = var8.getGuildId;
+            var9 = var6.bind(var8)();
+            var6 = var8.getChannelId;
+            var8 = var6.bind(var8)();
             var6 = arg4;
-            var13 = var10.bind(var11)(var9, var7, var6);
+            var13 = var10.bind(var11)(var9, var8, var6);
             var14 = var2;
             var6 = copyDataProperties(var14, var13);
-            var6 = var5 != var8;
-            var7 = null;
-            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var6 = var8.keys;
-            var13 = var6.bind(var8)();
-            var6 = new Array(0);
-            var12 = 0;
-            var14 = var6;
-            var9 = arraySpread(var14, var13, var12);
-            var7 = var6;
-case 7:
-            var6 = 'duration_speaking_voice_filter_ids';
-            var2[var6] = var7;
-            var6 = var5 != var8;
-            var7 = null;
-            if(!var6) { _fun0001_ip = 9; continue _fun0001 }
+            var8 = var5 == var7;
+            var6 = undefined;
+            if(var8) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var6 = var8.values;
-            var13 = var6.bind(var8)();
-            var6 = new Array(0);
-            var12 = 0;
-            var14 = var6;
-            var8 = arraySpread(var14, var13, var12);
-            var7 = var6;
+            var6 = var7.duration_speaking_voice_filter_ids;
 case 9:
+            var9 = var5 != var6;
+            var8 = null;
+            if(!var9) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var8 = var6;
+case 11:
+            var6 = 'duration_speaking_voice_filter_ids';
+            var2[var6] = var8;
+            var8 = var5 == var7;
+            var6 = undefined;
+            if(var8) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            var6 = var7.duration_speaking_voice_filter_ms;
+case 13:
+            var9 = var5 != var6;
+            var8 = null;
+            if(!var9) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+            var8 = var6;
+case 15:
             var6 = 'duration_speaking_voice_filter_ms';
+            var2[var6] = var8;
+            var8 = var5 == var7;
+            var6 = undefined;
+            if(var8) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var6 = var7.duration_muted_ms;
+case 17:
+            var8 = var5 != var6;
+            var7 = null;
+            if(!var8) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var7 = var6;
+case 19:
+            var6 = 'duration_muted_ms';
             var2[var6] = var7;
             var4 = var4.bind(var3)();
             var4 = _closure1_slot3;
             var4 = var4.hasUsedBackgroundInCall;
-            if(var4) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(var4) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 9;
@@ -148,7 +170,7 @@ case 12:
             var4['analyticsData'] = var2;
             var4 = var6.bind(var7)(var4);
             _fun0001_ip = 6; continue _fun0001;
-case 11:
+case 21:
             var4 = {};
             var14 = var4;
             var13 = var2;
@@ -172,10 +194,10 @@ case 11:
             var6 = var7[var6];
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(var7) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var5 = var6.name;
-case 13:
+case 23:
             var2['video_device_name'] = var5;
             var6 = _closure1_slot5;
             var5 = var6.getHardwareEncoding;

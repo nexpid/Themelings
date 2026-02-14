@@ -239,7 +239,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_BANNER';
         var2['type'] = var5;
         var5 = arg1;
         var2['banner'] = var5;
@@ -487,7 +487,7 @@ case 35:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_PROFILE_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_PROFILE_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -565,7 +565,7 @@ case 41:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BIO';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_BIO';
         var2['type'] = var5;
         var5 = arg1;
         var2['bio'] = var5;
@@ -582,7 +582,7 @@ case 41:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_PRONOUNS';
         var2['type'] = var5;
         var5 = arg1;
         var2['pronouns'] = var5;
@@ -599,7 +599,7 @@ case 41:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_ACCENT_COLOR';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_ACCENT_COLOR';
         var2['type'] = var5;
         var5 = arg1;
         var2['color'] = var5;
@@ -616,7 +616,7 @@ case 41:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_THEME_COLORS';
         var2['type'] = var5;
         var5 = arg1;
         var2['themeColors'] = var5;
@@ -633,7 +633,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_AVATAR';
         var3['type'] = var6;
         var6 = arg1;
         var3['avatar'] = var6;
@@ -654,7 +654,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR_DECORATION';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_AVATAR_DECORATION';
         var3['type'] = var6;
         var6 = arg1;
         var3['avatarDecoration'] = var6;
@@ -675,7 +675,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_PROFILE_EFFECT';
         var3['type'] = var6;
         var6 = arg1;
         var3['profileEffect'] = var6;
@@ -696,7 +696,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_BANNER';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_BANNER';
         var3['type'] = var6;
         var6 = arg1;
         var3['banner'] = var6;
@@ -717,7 +717,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_THEME_COLORS';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_THEME_COLORS';
         var3['type'] = var6;
         var6 = arg1;
         var3['themeColors'] = var6;
@@ -738,7 +738,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES';
         var3['type'] = var6;
         var6 = arg1;
         var3['displayNameStyles'] = var6;
@@ -759,7 +759,7 @@ case 41:
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET';
+        var6 = 'USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_PRESET';
         var3['type'] = var6;
         var7 = arg1;
         var8 = var3;

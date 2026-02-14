@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -89,17 +89,13 @@ case 4:
     var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 9;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.LoginStates;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = false;
+    var _closure1_slot12 = var4;
     var _closure1_slot13 = var4;
-    var _closure1_slot14 = var4;
-    var4 = 18;
+    var4 = 15;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -121,7 +117,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -156,19 +152,15 @@ case 8:
                 var3 = new var14[var3](var13);
                 var6 = var3 instanceof Object ? var3 : var4;
                 var5 = var6.set;
-                var4 = _closure1_slot9;
-                var3 = var1.handlePasskeyUpsellShow;
-                var6 = var5.bind(var6)(var4, var3);
-                var5 = var6.set;
                 var4 = _closure1_slot8;
                 var3 = var1.handlePasskeyUpsellShow;
                 var6 = var5.bind(var6)(var4, var3);
                 var5 = var6.set;
-                var4 = _closure1_slot10;
+                var4 = _closure1_slot9;
                 var3 = var1.handlePasskeyUpsellShow;
                 var5 = var5.bind(var6)(var4, var3);
                 var4 = var5.set;
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot10;
                 var2 = var1.handlePasskeyUpsellShow;
                 var2 = var4.bind(var5)(var3, var2);
                 var1['stores'] = var2;
@@ -187,128 +179,94 @@ case 8:
         var1 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot13;
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 10;
+                var2 = 9;
                 var2 = var3[var2];
                 var3 = undefined;
                 var2 = var4.bind(var3)(var2);
                 var2 = var2.hasWebAuthn;
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot8;
                 var2 = var4.getLoginStatus;
                 var4 = var2.bind(var4)();
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var2 = var2.NONE;
                 if(!(var4 === var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 12:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot8;
                 var2 = var4.attemptedPasswordLogin;
                 var2 = var2.bind(var4)();
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 13:
-                var2 = _closure1_slot8;
-                var2 = var2.hasLoadedExperiments;
-                if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 14:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var2 = var7[var2];
                 var5 = var6.bind(var3)(var2);
                 var4 = var5.UNSAFE_isDismissibleContentDismissed;
-                var2 = 12;
+                var2 = 11;
                 var2 = var7[var2];
                 var2 = var6.bind(var3)(var2);
                 var2 = var2.DismissibleContent;
                 var2 = var2.PASSWORDLESS_UPSELL;
                 var2 = var4.bind(var5)(var2);
                 if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 15:
-                var4 = _closure1_slot11;
+case 14:
+                var4 = _closure1_slot10;
                 var2 = var4.hasFetchedCredentials;
                 var2 = var2.bind(var4)();
-                if(!var2) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-                var2 = _closure1_slot11;
+                if(!var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+                var2 = _closure1_slot10;
                 var2 = var2.hasCredentials;
                 if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 16:
+case 15:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 13;
+                var2 = 12;
                 var2 = var5[var2];
                 var4 = var4.bind(var3)(var2);
                 var2 = var4.isModalOpen;
                 var2 = var2.bind(var4)();
                 if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 18:
-                var4 = _closure1_slot10;
+case 17:
+                var4 = _closure1_slot9;
                 var2 = var4.getCurrentUser;
-                var2 = var2.bind(var4)();
-                if(!(var3 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+                var4 = var2.bind(var4)();
+                var2 = var3 !== var4;
+                if(!var2) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-                var2 = var2.verified;
+                var2 = var4.verified;
+case 18:
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 20:
-                var4 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var2 = 14;
-                var2 = var5[var2];
-                var6 = var4.bind(var3)(var2);
-                var5 = var6.getCurrentConfig;
-                var4 = {};
-                var2 = 'PasskeyUpsellManager';
-                var4['location'] = var2;
-                var2 = {};
-                var7 = false;
-                var2['autoTrackExposure'] = var7;
-                var2 = var5.bind(var6)(var4, var2);
-                var5 = new Array(1);
-                var5[0] = var2;
-                var4 = var5.some;
-                var2 = function(arg1) {
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 15;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    var1 = var1.PasskeyUpsellOnLoginExperimentState;
-                    var2 = var1.None;
-                    var1 = arg1;
-                    var1 = var1 !== var2;
-                    return var1;
-                };
-                var2 = var4.bind(var5)(var2);
-                if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 21:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot10;
                 var2 = var4.hasFetchedCredentials;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-                var2 = _closure1_slot13;
+                if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
+                var2 = _closure1_slot12;
                 if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 24:
+case 23:
                 var2 = true;
-                _closure1_slot13 = var2;
+                _closure1_slot12 = var2;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var2 = 16;
+                var2 = 13;
                 var2 = var5[var2];
                 var4 = var4.bind(var3)(var2);
                 var2 = var4.fetchWebAuthnCredentials;
                 var2 = var2.bind(var4)();
                 _fun0003_ip = 9; continue _fun0003;
-case 22:
+case 21:
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 17;
+                var1 = 14;
                 var1 = var4[var1];
                 var2 = var2.bind(var3)(var1);
                 var1 = var2.openPasskeyUpsell;
@@ -326,7 +284,7 @@ case 9:
         var5['key'] = var7;
         var7 = function value() {
             var1 = true;
-            _closure1_slot14 = var1;
+            _closure1_slot13 = var1;
             var1 = undefined;
             return var1;
         };
@@ -337,8 +295,8 @@ case 9:
         var5['key'] = var7;
         var7 = function value() {
             var1 = false;
+            _closure1_slot12 = var1;
             _closure1_slot13 = var1;
-            _closure1_slot14 = var1;
             var1 = undefined;
             return var1;
         };
@@ -350,12 +308,12 @@ case 9:
         var6 = function value(arg1) {
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var6[var1];
             var2 = undefined;
             var4 = var5.bind(var2)(var1);
             var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-            var1 = 12;
+            var1 = 11;
             var1 = var6[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.DismissibleContent;
@@ -379,7 +337,7 @@ case 9:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 19;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -16,11 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var4.bind(var1)(var5);
     var4 = {'name': '2026-01-you-bar', 'kind': 'user'};
-    var7 = {'enabled': false, 'animateBetweenServers': false};
+    var7 = {'enabled': false, 'animateBetweenServers': false, 'questDockEnabled': false, 'largeAvatarEnabled': false};
     var4['defaultConfig'] = var7;
     var7 = {};
-    var8 = {'enabled': true, 'animateBetweenServers': true};
+    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': true, 'largeAvatarEnabled': false};
     var7[1] = var8;
+    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': true, 'largeAvatarEnabled': true};
+    var7[2] = var8;
+    var8 = {'enabled': true, 'animateBetweenServers': true, 'questDockEnabled': false, 'largeAvatarEnabled': true};
+    var7[3] = var8;
     var4['variations'] = var7;
     var4 = var5.bind(var1)(var4);
     var _closure1_slot0 = var4;

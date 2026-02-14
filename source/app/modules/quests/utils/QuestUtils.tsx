@@ -492,7 +492,7 @@ case 58:
         }
     };
     var3['getQuestType'] = var4;
-    var2 = function isQuestFeaturedByTakeover(arg1, arg2) {
+    var2 = function isQuestFeaturedByHero(arg1, arg2) {
         var2 = arg2;
         var _closure2_slot0 = var2;
         var2 = arg1;
@@ -508,6 +508,6 @@ case 58:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isQuestFeaturedByTakeover'] = var2;
+    var3['isQuestFeaturedByHero'] = var2;
     return var1;
 })();

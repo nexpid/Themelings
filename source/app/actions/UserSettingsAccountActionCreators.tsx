@@ -183,7 +183,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_INIT';
+        var5 = 'USER_PROFILE_SETTINGS_INIT';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -198,7 +198,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_CLOSE';
+        var5 = 'USER_PROFILE_SETTINGS_CLOSE';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -290,7 +290,7 @@ case 0:
             var21 = var20.bind(var4)(var3);
             var20 = var21.dispatch;
             var3 = {};
-            var22 = 'USER_SETTINGS_ACCOUNT_SUBMIT';
+            var22 = 'USER_PROFILE_SETTINGS_SUBMIT';
             var3['type'] = var22;
             var3 = var20.bind(var21)(var3);
             var3 = {};
@@ -415,7 +415,7 @@ case 0:
                     var6 = var5.bind(var3)(var2);
                     var5 = var6.dispatch;
                     var2 = {};
-                    var7 = 'USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS';
+                    var7 = 'USER_PROFILE_SETTINGS_SUBMIT_SUCCESS';
                     var2['type'] = var7;
                     var2 = var5.bind(var6)(var2);
                     var2 = _closure2_slot0;
@@ -452,7 +452,7 @@ case 46:
                 var4 = var4.bind(var2)(var3);
                 var3 = var4.dispatch;
                 var2 = {};
-                var5 = 'USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE';
+                var5 = 'USER_PROFILE_SETTINGS_SUBMIT_FAILURE';
                 var2['type'] = var5;
                 var5 = var1.body;
                 var2['errors'] = var5;
@@ -518,7 +518,7 @@ case 0:
             var6 = var5.bind(var1)(var3);
             var5 = var6.dispatch;
             var3 = {};
-            var7 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR';
+            var7 = 'USER_PROFILE_SETTINGS_SET_PENDING_AVATAR';
             var3['type'] = var7;
             var3['avatar'] = var4;
             var3 = var5.bind(var6)(var3);
@@ -577,7 +577,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_GLOBAL_NAME';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_GLOBAL_NAME';
         var2['type'] = var5;
         var5 = arg1;
         var2['globalName'] = var5;
@@ -594,7 +594,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_LEGACY_USERNAME_DISABLED';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_LEGACY_USERNAME_DISABLED';
         var2['type'] = var5;
         var5 = arg1;
         var2['legacyUsernameDisabled'] = var5;
@@ -611,7 +611,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_COLLECTIBLES_ITEM';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM';
         var2['type'] = var5;
         var5 = arg1;
         var2['item'] = var5;
@@ -628,7 +628,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PRIMARY_GUILD_ID';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_PRIMARY_GUILD_ID';
         var2['type'] = var5;
         var5 = arg1;
         var2['primaryGuildId'] = var5;
@@ -645,7 +645,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_DISPLAY_NAME_STYLES';
+        var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES';
         var2['type'] = var5;
         var5 = arg1;
         var2['displayNameStyles'] = var5;
@@ -662,7 +662,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_CLEAR_ERRORS';
+        var5 = 'USER_PROFILE_SETTINGS_CLEAR_ERRORS';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -677,7 +677,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_ACCOUNT_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -692,7 +692,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -707,7 +707,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_TRY_IT_OUT_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_TRY_IT_OUT_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -722,7 +722,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_AND_CLOSE_FORM';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_AND_CLOSE_FORM';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -737,7 +737,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_LEGACY_USERNAME_DISABLED';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_LEGACY_USERNAME_DISABLED';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -752,7 +752,7 @@ case 50:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_PRIMARY_GUILD_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_PRIMARY_GUILD_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

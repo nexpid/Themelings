@@ -108,6 +108,8 @@ case 0:
         var19['QUEST_ACTIVITY_BOTTOM_SHEET'] = var1;
         var1 = 'quest_primary_cta';
         var19['QUEST_PRIMARY_CTA'] = var1;
+        var1 = 'quest_learn_more_cta';
+        var19['QUEST_LEARN_MORE_CTA'] = var1;
         var1 = 0;
         var6 = var21[var1];
         var5 = metroImportDefault;

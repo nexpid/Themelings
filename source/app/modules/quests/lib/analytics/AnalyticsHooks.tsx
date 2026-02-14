@@ -345,9 +345,9 @@ case 18:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.takeoverConfig;
+            var9 = var2.questHomeHeroConfig;
             var _closure2_slot0 = var9;
-            var8 = var2.shouldShowTakeoverContent;
+            var8 = var2.shouldShowQuestHomeHeroContent;
             var _closure2_slot1 = var8;
             var5 = undefined;
             var _closure2_slot2 = var5;

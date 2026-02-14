@@ -270,6 +270,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VOICE_SESSION'] = var6;
     var2 = 'VOICE_SESSION';
     var4[var6] = var2;
+    var6 = 66;
+    var4['GUILD_BOOST_UPSELL'] = var6;
+    var2 = 'GUILD_BOOST_UPSELL';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

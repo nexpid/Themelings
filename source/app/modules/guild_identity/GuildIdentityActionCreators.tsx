@@ -50,7 +50,7 @@ case 9:
                     var21 = var19.bind(var6)(var9);
                     var19 = var21.dispatch;
                     var9 = {};
-                    var22 = 'USER_SETTINGS_ACCOUNT_SUBMIT';
+                    var22 = 'USER_PROFILE_SETTINGS_SUBMIT';
                     var9['type'] = var22;
                     var22 = var7;
                     var9['guildId'] = var22;
@@ -166,7 +166,7 @@ case 36:
                     var20 = var15.bind(var6)(var16);
                     var19 = var20.dispatch;
                     var16 = {};
-                    var17 = 'USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS';
+                    var17 = 'USER_PROFILE_SETTINGS_SUBMIT_SUCCESS';
                     var16['type'] = var17;
                     var17 = var7;
                     var16['guildId'] = var17;
@@ -225,7 +225,7 @@ case 44:
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
                     var4 = {};
-                    var8 = 'USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE';
+                    var8 = 'USER_PROFILE_SETTINGS_SUBMIT_FAILURE';
                     var4['type'] = var8;
                     var4['guildId'] = var7;
                     var7 = var3.body;
@@ -310,7 +310,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_GUILD';
+        var5 = 'USER_PROFILE_SETTINGS_SET_GUILD';
         var2['type'] = var5;
         var5 = arg1;
         var2['guildId'] = var5;
@@ -327,7 +327,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_INIT';
+        var5 = 'USER_PROFILE_SETTINGS_INIT';
         var2['type'] = var5;
         var5 = arg1;
         var2['guildId'] = var5;
@@ -346,7 +346,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_AVATAR';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -366,7 +366,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_COLLECTIBLES_ITEM';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -386,7 +386,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_BANNER';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -406,7 +406,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_BIO';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_BIO';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -426,7 +426,7 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_PRONOUNS';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -451,7 +451,7 @@ case 47:
             var3 = var3.bind(var1)(var2);
             var2 = var3.dispatch;
             var1 = {};
-            var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_NICKNAME';
+            var5 = 'USER_PROFILE_SETTINGS_SET_PENDING_NICKNAME';
             var1['type'] = var5;
             var1['guildId'] = var4;
             var4 = arg1;
@@ -474,7 +474,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_THEME_COLORS';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -494,7 +494,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_DISPLAY_NAME_STYLES';
+        var6 = 'USER_PROFILE_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES';
         var2['type'] = var6;
         var2['guildId'] = var5;
         var5 = arg1;
@@ -512,7 +512,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_ACCOUNT_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -527,7 +527,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_PROFILE_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_PROFILE_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -542,7 +542,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_RESET_PENDING_CHANGES';
+        var5 = 'USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -557,7 +557,7 @@ case 46:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_CLEAR_ERRORS';
+        var5 = 'USER_PROFILE_SETTINGS_CLEAR_ERRORS';
         var2['type'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

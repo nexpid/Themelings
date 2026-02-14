@@ -63,57 +63,79 @@ case 0:
                 if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var7 = {};
-                var8 = _closure2_slot0;
-                var7['theme'] = var8;
+                var6 = _closure2_slot0;
+                var7['theme'] = var6;
                 var2 = _closure2_slot1;
                 var7['saturation'] = var2;
                 var2 = {};
                 var13 = _closure1_slot1;
-                var11 = _closure1_slot2;
+                var5 = _closure1_slot2;
                 var10 = 3;
-                var5 = var11[var10];
+                var8 = var5[var10];
                 var9 = undefined;
-                var5 = var13.bind(var9)(var5);
-                var12 = var5.internal;
-                var6 = var12.resolveSemanticColor;
-                var5 = var11[var10];
+                var8 = var13.bind(var9)(var8);
+                var12 = var8.internal;
+                var11 = var12.resolveSemanticColor;
+                var8 = var5[var10];
+                var8 = var13.bind(var9)(var8);
+                var8 = var8.colors;
+                var8 = var8.PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME;
+                var8 = var11.bind(var12)(var6, var8, var7);
+                var2['overlaySyncedWithUserTheme'] = var8;
+                var8 = var5[var10];
+                var8 = var13.bind(var9)(var8);
+                var12 = var8.internal;
+                var11 = var12.resolveSemanticColor;
+                var8 = var5[var10];
+                var8 = var13.bind(var9)(var8);
+                var8 = var8.colors;
+                var8 = var8.PROFILE_GRADIENT_OVERLAY;
+                var8 = var11.bind(var12)(var6, var8, var7);
+                var2['overlay'] = var8;
+                var8 = _closure1_slot0;
+                var11 = 4;
+                var5 = var5[var11];
+                var8 = var8.bind(var9)(var5);
+                var5 = var8.getThemes;
+                var5 = var5.bind(var8)();
+                var5 = var5.LIGHT;
+                if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var13 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var6 = var5[var10];
+                var6 = var13.bind(var9)(var6);
+                var12 = var6.internal;
+                var8 = var12.resolveSemanticColor;
+                var6 = _closure2_slot0;
+                var5 = var5[var10];
                 var5 = var13.bind(var9)(var5);
                 var5 = var5.colors;
-                var5 = var5.PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME;
-                var5 = var6.bind(var12)(var8, var5, var7);
-                var2['overlaySyncedWithUserTheme'] = var5;
-                var5 = var11[var10];
-                var5 = var13.bind(var9)(var5);
-                var12 = var5.internal;
-                var6 = var12.resolveSemanticColor;
-                var5 = var11[var10];
-                var5 = var13.bind(var9)(var5);
-                var5 = var5.colors;
-                var5 = var5.PROFILE_GRADIENT_OVERLAY;
-                var5 = var6.bind(var12)(var8, var5, var7);
-                var2['overlay'] = var5;
-                var5 = var11[var10];
-                var5 = var13.bind(var9)(var5);
-                var12 = var5.internal;
-                var6 = var12.resolveSemanticColor;
-                var5 = var11[var10];
-                var5 = var13.bind(var9)(var5);
-                var5 = var5.colors;
-                var5 = var5.PROFILE_GRADIENT_SECTION_BOX;
-                var5 = var6.bind(var12)(var8, var5, var7);
+                var5 = var5.BACKGROUND_MOD_NORMAL;
+                var5 = var8.bind(var12)(var6, var5, var7);
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
+                var8 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var6 = var6[var10];
+                var6 = var8.bind(var9)(var6);
+                var6 = var6.unsafe_rawColors;
+                var5 = var6.OPACITY_WHITE_24;
+case 6:
                 var2['sectionBox'] = var5;
+                var8 = _closure2_slot0;
                 var6 = _closure1_slot0;
-                var5 = 4;
-                var5 = var11[var5];
+                var5 = _closure1_slot2;
+                var5 = var5[var11];
                 var6 = var6.bind(var9)(var5);
                 var5 = var6.getThemes;
                 var5 = var5.bind(var6)();
                 var6 = var5.DARK;
                 var5 = 0.12;
-                if(!(var8 === var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                if(!(var8 === var6)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var5 = 0.24;
-case 4:
+case 7:
                 var2['dividerOpacity'] = var5;
                 var8 = _closure1_slot1;
                 var3 = _closure1_slot2;

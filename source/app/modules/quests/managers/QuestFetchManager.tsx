@@ -161,7 +161,7 @@ case 8:
                 var1['instantiatedAt'] = var4;
                 var4 = null;
                 var1['initialFetchTimerId'] = var4;
-                var1['initialTakeoverFetchTimerId'] = var4;
+                var1['initialQuestHomeHeroFetchTimerId'] = var4;
                 var1['recurringFetchTimerId'] = var4;
                 var1['lastFetchAttemptedAt'] = var3;
                 var1['lastFetchedQuestForLocaleChangeAt'] = var3;
@@ -200,7 +200,7 @@ case 0:
                         var6 = var7.bind(var12)(var6);
                         var12 = var4.window;
                         var7 = var12.clearTimeout;
-                        var6 = var8.initialTakeoverFetchTimerId;
+                        var6 = var8.initialQuestHomeHeroFetchTimerId;
                         var6 = var7.bind(var12)(var6);
                         var12 = var4.window;
                         var7 = var12.clearTimeout;
@@ -281,7 +281,7 @@ case 11:
                         var7 = 9;
                         var8 = var10[var7];
                         var8 = var9.bind(var1)(var8);
-                        var13 = var8.QuestHomeTakeoverRolloutExperiment;
+                        var13 = var8.QuestHomeHeroRolloutExperiment;
                         var12 = var13.getConfig;
                         var8 = {};
                         var14 = var11.QUESTS_MANAGER;
@@ -290,7 +290,7 @@ case 11:
                         var8 = var8.enabled;
                         var7 = var10[var7];
                         var7 = var9.bind(var1)(var7);
-                        var10 = var7.FetchQuestHomeTakeoverOnConnectionOpenExperiment;
+                        var10 = var7.FetchQuestHomeHeroOnConnectionOpenExperiment;
                         var9 = var10.getConfig;
                         var7 = {};
                         var11 = var11.QUESTS_MANAGER;
@@ -335,7 +335,7 @@ case 0: // try_start_0
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var2 = var3.bind(var1)(var2);
-                                var1 = var2.fetchQuestHomeTakeover;
+                                var1 = var2.fetchQuestHomeHero;
                                 var1 = var1.bind(var2)();
 case 19: // try_end0
                                 _fun0006_ip = 20; continue _fun0006;
@@ -347,7 +347,7 @@ case 20:
                             }
                         };
                         var2 = var4.bind(var5)(var2, var6);
-                        var3['initialTakeoverFetchTimerId'] = var2;
+                        var3['initialQuestHomeHeroFetchTimerId'] = var2;
 case 15:
                         return var1;
                     }
@@ -415,7 +415,7 @@ case 28:
                     var3 = var4.bind(var5)(var3);
                     var5 = var1.window;
                     var4 = var5.clearTimeout;
-                    var3 = var2.initialTakeoverFetchTimerId;
+                    var3 = var2.initialQuestHomeHeroFetchTimerId;
                     var3 = var4.bind(var5)(var3);
                     var4 = var1.window;
                     var3 = var4.clearTimeout;

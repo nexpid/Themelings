@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -20,17 +18,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.WebAuthnScreens;
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -41,14 +39,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.navigation;
-            var _closure2_slot0 = var3;
+            var2 = var1.navigation;
+            var _closure2_slot0 = var2;
             var6 = var1.initialRouteName;
             var4 = undefined;
             if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var3 = _closure1_slot4;
-            var6 = var3.INIT;
+            var2 = _closure1_slot3;
+            var6 = var2.INIT;
 case 2:
             var1 = var1.showNav;
             if(!(var1 === var4)) { _fun0001_ip = 4; continue _fun0001 }
@@ -56,19 +54,19 @@ case 5:
             var1 = false;
 case 4:
             var _closure2_slot1 = var1;
-            var5 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var3 = 3;
-            var3 = var8[var3];
-            var9 = var5.bind(var4)(var3);
-            var7 = var9.getScreens;
-            var3 = {};
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 3;
+            var5 = var8[var5];
+            var10 = var2.bind(var4)(var5);
+            var9 = var10.getScreens;
+            var7 = {};
             var5 = false;
-            var3['isModal'] = var5;
-            var7 = var7.bind(var9)(var3);
-            var9 = _closure1_slot3;
-            var3 = var9.useLayoutEffect;
-            var2 = function() {
+            var7['isModal'] = var5;
+            var7 = var9.bind(var10)(var7);
+            var10 = _closure1_slot2;
+            var9 = var10.useLayoutEffect;
+            var3 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.setOptions;
                 var1 = {};
@@ -78,9 +76,8 @@ case 4:
                 var1 = undefined;
                 return var1;
             };
-            var2 = var3.bind(var9)(var2);
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot0;
+            var3 = var9.bind(var10)(var3);
+            var3 = _closure1_slot4;
             var1 = 4;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);

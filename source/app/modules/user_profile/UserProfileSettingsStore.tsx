@@ -410,7 +410,7 @@ case 22:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_INIT'] = var13;
+    var2['USER_PROFILE_SETTINGS_INIT'] = var13;
     var13 = function handleSetGuild(arg1) {
         var1 = arg1;
         var1 = var1.guildId;
@@ -420,9 +420,9 @@ case 22:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_GUILD'] = var13;
-    var2['USER_SETTINGS_ACCOUNT_CLOSE'] = var12;
-    var2['USER_SETTINGS_ACCOUNT_RESET_AND_CLOSE_FORM'] = var4;
+    var2['USER_PROFILE_SETTINGS_SET_GUILD'] = var13;
+    var2['USER_PROFILE_SETTINGS_CLOSE'] = var12;
+    var2['USER_PROFILE_SETTINGS_RESET_AND_CLOSE_FORM'] = var4;
     var12 = function handleFormSubmit() {
         var1 = _closure1_slot8;
         var1 = var1.SUBMITTING;
@@ -432,7 +432,7 @@ case 22:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SUBMIT'] = var12;
+    var2['USER_PROFILE_SETTINGS_SUBMIT'] = var12;
     var12 = function handleFormSubmitSuccess(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -461,7 +461,7 @@ case 6:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SUBMIT_SUCCESS'] = var12;
+    var2['USER_PROFILE_SETTINGS_SUBMIT_SUCCESS'] = var12;
     var12 = function handleFormSubmitFailure(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -494,7 +494,7 @@ case 27:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SUBMIT_FAILURE'] = var12;
+    var2['USER_PROFILE_SETTINGS_SUBMIT_FAILURE'] = var12;
     var12 = function handleSetPendingAvatar(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -531,7 +531,7 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_AVATAR'] = var12;
     var12 = function handleSetPendingGlobalName(arg1) {
         var1 = arg1;
         var5 = var1.globalName;
@@ -547,7 +547,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_GLOBAL_NAME'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_GLOBAL_NAME'] = var12;
     var12 = function handleSetPendingNickname(arg1) {
         var1 = arg1;
         var3 = var1.guildId;
@@ -563,7 +563,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_NICKNAME'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_NICKNAME'] = var12;
     var12 = function handleSetPendingLegacyUsernameDisabled(arg1) {
         var1 = arg1;
         var5 = var1.legacyUsernameDisabled;
@@ -579,7 +579,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_LEGACY_USERNAME_DISABLED'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_LEGACY_USERNAME_DISABLED'] = var12;
     var12 = function handleSetPendingCollectiblesItem(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -685,7 +685,7 @@ case 40:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_COLLECTIBLES_ITEM'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM'] = var12;
     var12 = function handleSetPendingBanner(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -715,7 +715,7 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_BANNER'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_BANNER'] = var12;
     var12 = function handleSetPendingBio(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -745,7 +745,7 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_BIO'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_BIO'] = var12;
     var12 = function handleSetPendingPronouns(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -775,7 +775,7 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_PRONOUNS'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_PRONOUNS'] = var12;
     var12 = function handleSetPendingAccentColor(arg1) {
         var1 = arg1;
         var5 = var1.color;
@@ -791,7 +791,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_ACCENT_COLOR'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_ACCENT_COLOR'] = var12;
     var12 = function handleSetPendingThemeColors(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
@@ -821,7 +821,7 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_THEME_COLORS'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_THEME_COLORS'] = var12;
     var12 = function handleSetTryItOutAvatar(arg1) {
         var1 = arg1;
         var4 = var1.avatar;
@@ -835,7 +835,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_AVATAR'] = var12;
     var12 = function handleSetTryItOutAvatarDecoration(arg1) {
         var1 = arg1;
         var4 = var1.avatarDecoration;
@@ -849,7 +849,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_AVATAR_DECORATION'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_AVATAR_DECORATION'] = var12;
     var12 = function handleSetTryItOutProfileEffect(arg1) {
         var1 = arg1;
         var4 = var1.profileEffect;
@@ -863,7 +863,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_PROFILE_EFFECT'] = var12;
     var12 = function handleSetTryItOutBanner(arg1) {
         var1 = arg1;
         var4 = var1.banner;
@@ -877,7 +877,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_BANNER'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_BANNER'] = var12;
     var12 = function handleSetTryItOutThemeColors(arg1) {
         var1 = arg1;
         var4 = var1.themeColors;
@@ -891,7 +891,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_THEME_COLORS'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_THEME_COLORS'] = var12;
     var12 = function handleSetTryItOutDisplayNameStyles(arg1) {
         var1 = arg1;
         var4 = var1.displayNameStyles;
@@ -905,7 +905,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES'] = var12;
     var12 = function handleSetTryItOutPreset(arg1) {
         var1 = arg1;
         var7 = var1.banner;
@@ -928,7 +928,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PRESET'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_PRESET'] = var12;
     var12 = function handleSetPendingPrimaryGuildId(arg1) {
         var1 = arg1;
         var5 = var1.primaryGuildId;
@@ -944,7 +944,7 @@ case 34:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_PRIMARY_GUILD_ID'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_PRIMARY_GUILD_ID'] = var12;
     var12 = function handleSetPendingDisplayNameStyles(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -974,14 +974,14 @@ case 34:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_DISPLAY_NAME_STYLES'] = var12;
+    var2['USER_PROFILE_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES'] = var12;
     var12 = function handleResetErrors() {
         var1 = {};
         _closure1_slot18 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_CLEAR_ERRORS'] = var12;
+    var2['USER_PROFILE_SETTINGS_CLEAR_ERRORS'] = var12;
     var12 = function handleResetPendingAccountChanges() {
         var1 = global;
         var4 = var1.Object;
@@ -1051,7 +1051,7 @@ case 29:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_RESET_PENDING_ACCOUNT_CHANGES'] = var12;
+    var2['USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES'] = var12;
     var12 = function handleResetPendingProfileChanges() {
         var1 = global;
         var4 = var1.Object;
@@ -1121,9 +1121,9 @@ case 29:
         var1 = undefined;
         return var1;
     };
-    var2['USER_SETTINGS_ACCOUNT_RESET_PENDING_PROFILE_CHANGES'] = var12;
-    var2['USER_SETTINGS_ACCOUNT_RESET_PENDING_CHANGES'] = var11;
-    var2['USER_SETTINGS_ACCOUNT_RESET_TRY_IT_OUT_CHANGES'] = var10;
+    var2['USER_PROFILE_SETTINGS_RESET_PENDING_PROFILE_CHANGES'] = var12;
+    var2['USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES'] = var11;
+    var2['USER_PROFILE_SETTINGS_RESET_TRY_IT_OUT_CHANGES'] = var10;
     var10 = function handleResetPendingLegacyUsernameDisabled() {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
@@ -1159,7 +1159,7 @@ case 58:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_RESET_PENDING_LEGACY_USERNAME_DISABLED'] = var10;
+    var2['USER_PROFILE_SETTINGS_RESET_PENDING_LEGACY_USERNAME_DISABLED'] = var10;
     var10 = function handleResetPendingPrimaryGuildChanges() {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
@@ -1195,7 +1195,7 @@ case 58:
             return var1;
         }
     };
-    var2['USER_SETTINGS_ACCOUNT_RESET_PENDING_PRIMARY_GUILD_CHANGES'] = var10;
+    var2['USER_PROFILE_SETTINGS_RESET_PENDING_PRIMARY_GUILD_CHANGES'] = var10;
     var9 = function handleProfileUpdateFailure(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:

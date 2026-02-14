@@ -537,7 +537,7 @@ case 74:
             return var5;
 case 65:
             var5 = arg3;
-            var17 = var5.takeover;
+            var17 = var5.questHomeHero;
             var5 = var13 != var17;
             if(!var5) { _fun0006_ip = 77; continue _fun0006 }
 case 78:
@@ -546,7 +546,7 @@ case 78:
             var14 = 21;
             var14 = var16[var14];
             var16 = var15.bind(var11)(var14);
-            var15 = var16.isQuestFeaturedByTakeover;
+            var15 = var16.isQuestFeaturedByHero;
             var14 = var4.id;
             var5 = var15.bind(var16)(var17, var14);
 case 77:
@@ -558,7 +558,7 @@ case 80:
             var14 = 21;
             var14 = var16[var14];
             var16 = var15.bind(var11)(var14);
-            var15 = var16.isQuestFeaturedByTakeover;
+            var15 = var16.isQuestFeaturedByHero;
             var14 = var1.id;
             var13 = var15.bind(var16)(var17, var14);
 case 79:
@@ -1105,7 +1105,7 @@ case 3:
             var4[0] = var3;
             var3 = function() {
                 var2 = _closure1_slot10;
-                var1 = var2.getQuestHomeTakeoverConfig;
+                var1 = var2.getQuestHomeHeroConfig;
                 var1 = var1.bind(var2)();
                 return var1;
             };
@@ -1118,7 +1118,7 @@ case 3:
             var1 = function() {
                 var1 = {};
                 var2 = _closure3_slot0;
-                var1['takeover'] = var2;
+                var1['questHomeHero'] = var2;
                 return var1;
             };
             var1 = var3.bind(var4)(var1, var2);
@@ -2113,7 +2113,7 @@ case 112:
     var _closure1_slot25 = var4;
     var4 = {};
     var7 = null;
-    var4['takeover'] = var7;
+    var4['questHomeHero'] = var7;
     var _closure1_slot26 = var4;
     var4 = {};
     var4['DESC'] = var29;
@@ -4804,7 +4804,7 @@ case 153:
         }
     };
     var3['useShouldShowQuestBarOverride'] = var4;
-    var2 = function useFetchQuestHomeTakeoverConfig() {
+    var2 = function useFetchQuestHomeHeroConfig() {
         _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
 case 0:
             var10 = _closure1_slot0;
@@ -4813,7 +4813,7 @@ case 0:
             var2 = var11[var2];
             var6 = undefined;
             var2 = var10.bind(var6)(var2);
-            var4 = var2.QuestHomeTakeoverRolloutExperiment;
+            var4 = var2.QuestHomeHeroRolloutExperiment;
             var3 = var4.useConfig;
             var2 = {};
             var7 = _closure1_slot12;
@@ -4868,18 +4868,18 @@ case 0:
             var4 = function() {
                 var1 = {};
                 var4 = _closure1_slot10;
-                var3 = var4.isFetchingQuestHomeTakeover;
+                var3 = var4.isFetchingQuestHomeHero;
                 var3 = var3.bind(var4)();
                 var1['isFetching'] = var3;
                 var3 = _closure1_slot10;
-                var2 = var3.getQuestHomeTakeoverConfig;
+                var2 = var3.getQuestHomeHeroConfig;
                 var2 = var2.bind(var3)();
-                var1['takeoverConfig'] = var2;
+                var1['questHomeHeroConfig'] = var2;
                 return var1;
             };
             var6 = var10.bind(var11)(var6, var4);
             var4 = var6.isFetching;
-            var11 = var6.takeoverConfig;
+            var11 = var6.questHomeHeroConfig;
             var _closure2_slot5 = var11;
             var13 = _closure1_slot5;
             var12 = var13.useMemo;
@@ -4942,7 +4942,7 @@ case 203:
             var8 = function() {
                 _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
 case 0:
-                    var2 = function _fetchTakeover() {
+                    var2 = function _fetchQuestHomeHeroData() {
                         var4 = undefined;
                         var1 = undefined;
                         var3 = _closure1_slot3;
@@ -4960,7 +4960,7 @@ case 163: // try_start_0 // try_start_1
                                     var2 = var4[var2];
                                     var5 = undefined;
                                     var3 = var3.bind(var5)(var2);
-                                    var2 = var3.fetchQuestHomeTakeover;
+                                    var2 = var3.fetchQuestHomeHero;
                                     var2 = var2.bind(var3)();
                                     SaveGenerator(address=49);
 case 154:
@@ -5016,7 +5016,7 @@ case 142:
                     var2 = _closure2_slot0;
                     if(!var2) { _fun0058_ip = 136; continue _fun0058 }
 case 145:
-                    var2 = function fetchTakeover() {
+                    var2 = function fetchQuestHomeHeroData() {
                         var1 = undefined;
                         var4 = _closure3_slot0;
                         var3 = var4.apply;
@@ -5158,7 +5158,7 @@ case 285:
 case 74:
             var5 = var6;
 case 284:
-            var1['takeover'] = var5;
+            var1['questHomeHero'] = var5;
             if(var2) { _fun0056_ip = 286; continue _fun0056 }
 case 287:
             var2 = var4;
@@ -5171,6 +5171,6 @@ case 288:
             return var1;
         }
     };
-    var3['useFetchQuestHomeTakeoverConfig'] = var2;
+    var3['useFetchQuestHomeHeroConfig'] = var2;
     return var1;
 })();

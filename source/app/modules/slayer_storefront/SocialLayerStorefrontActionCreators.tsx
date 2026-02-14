@@ -225,7 +225,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot8 = var4;
+        _closure1_slot10 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -233,7 +233,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _fetchSocialLayerStorefrontSku() {
         var5 = undefined;
         var1 = undefined;
@@ -374,7 +374,7 @@ case 46:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot9 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -382,7 +382,7 @@ case 46:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _fetchSocialLayerStorefrontRecommendations() {
         var5 = undefined;
         var1 = undefined;
@@ -546,7 +546,7 @@ case 58:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -554,7 +554,7 @@ case 58:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _fetchSocialLayerStorefrontAnnouncement() {
         var5 = undefined;
         var1 = undefined;
@@ -655,7 +655,7 @@ case 78:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -663,7 +663,160 @@ case 78:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot13 = var1;
+    var1 = function _fetchSocialLayerStorefrontConfig() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0005_ip = 84; continue _fun0005 }
+case 47:
+                    var2 = undefined;
+                    var10 = undefined;
+                    var9 = undefined;
+                    var5 = undefined;
+                    var6 = _closure1_slot4;
+                    var4 = var6.getConfigFetchState;
+                    var4 = var4.bind(var6)();
+                    var7 = var4.state;
+                    var6 = 'loading';
+                    if(!(var6 !== var7)) { _fun0005_ip = 46; continue _fun0005 }
+case 85:
+                    var7 = var4.state;
+                    var6 = 'success';
+                    if(!(var6 === var7)) { _fun0005_ip = 86; continue _fun0005 }
+case 87:
+                    var6 = global;
+                    var7 = var6.Date;
+                    var6 = var7.now;
+                    var7 = var6.bind(var7)();
+                    var6 = var4.fetchedAt;
+                    var7 = var7 - var6;
+                    var6 = _closure1_slot8;
+                    if(!(!(var7 < var6))) { _fun0005_ip = 46; continue _fun0005 }
+case 86:
+                    var7 = var4.state;
+                    var6 = 'error';
+                    if(!(var6 === var7)) { _fun0005_ip = 20; continue _fun0005 }
+case 88:
+                    var6 = global;
+                    var7 = var6.Date;
+                    var6 = var7.now;
+                    var6 = var6.bind(var7)();
+                    var4 = var4.fetchedAt;
+                    var6 = var6 - var4;
+                    var4 = _closure1_slot9;
+                    if(!(!(var6 < var4))) { _fun0005_ip = 46; continue _fun0005 }
+case 20: // try_start_0
+                    var6 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var7 = 4;
+                    var4 = var8[var7];
+                    var11 = var6.bind(var2)(var4);
+                    var6 = var11.dispatch;
+                    var4 = {};
+                    var12 = 'SOCIAL_LAYER_STOREFRONT_CONFIG_FETCH_START';
+                    var4['type'] = var12;
+                    var4 = var6.bind(var11)(var4);
+                    var6 = _closure1_slot0;
+                    var4 = 5;
+                    var4 = var8[var4];
+                    var4 = var6.bind(var2)(var4);
+                    var8 = var4.HTTP;
+                    var6 = var8.get;
+                    var4 = {};
+                    var11 = _closure1_slot5;
+                    var11 = var11.SOCIAL_LAYER_STOREFRONT_CONFIG;
+                    var4['url'] = var11;
+                    var11 = true;
+                    var4['rejectWithError'] = var11;
+                    var4 = var6.bind(var8)(var4);
+                    SaveGenerator(address=254);
+case 89:
+                    return var4;
+case 90:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0005_ip = 40; continue _fun0005 }
+case 91:
+                    var6 = var4.body;
+                    var10 = var6;
+                    var8 = null;
+                    var9 = null;
+                    var6 = var6.promotion_end_datetime;
+                    if(!(var8 != var6)) { _fun0005_ip = 92; continue _fun0005 }
+case 93:
+                    var6 = global;
+                    var12 = var6.Date;
+                    var8 = var10;
+                    var13 = var8.promotion_end_datetime;
+                    var11 = var12.prototype;
+                    var11 = Object.create(var11, {constructor: {value: var12}});
+                    var14 = var11;
+                    var8 = new var14[var12](var13, var12);
+                    var12 = var8 instanceof Object ? var8 : var11;
+                    var5 = var12;
+                    var11 = var6.Number;
+                    var8 = var11.isNaN;
+                    var6 = var12.getTime;
+                    var6 = var6.bind(var12)();
+                    var6 = var8.bind(var11)(var6);
+                    if(var6) { _fun0005_ip = 92; continue _fun0005 }
+case 94:
+                    var9 = var5;
+case 92:
+                    var6 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var7];
+                    var7 = var6.bind(var2)(var5);
+                    var6 = var7.dispatch;
+                    var5 = {};
+                    var8 = 'SOCIAL_LAYER_STOREFRONT_CONFIG_FETCH_SUCCESS';
+                    var5['type'] = var8;
+                    var8 = {};
+                    var10 = var10.promotional_sku_ids;
+                    var8['promotionalSkuIds'] = var10;
+                    var8['promotionEndDatetime'] = var9;
+                    var5['config'] = var8;
+                    var5 = var6.bind(var7)(var5);
+case 95: // try_end0
+                    _fun0005_ip = 46; continue _fun0005;
+case 40:
+                    return var4;
+case 96: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var6 = 'SOCIAL_LAYER_STOREFRONT_CONFIG_FETCH_FAILURE';
+                    var3['type'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 46:
+                    return var2;
+case 84:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -694,12 +847,25 @@ case 78:
     var7 = 30;
     var9 = var7 * var9;
     var _closure1_slot6 = var9;
+    var9 = var6[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.Millis;
+    var9 = var9.MINUTE;
+    var9 = var7 * var9;
+    var _closure1_slot7 = var9;
+    var9 = var6[var4];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.Millis;
+    var10 = var9.MINUTE;
+    var9 = 60;
+    var9 = var9 * var10;
+    var _closure1_slot8 = var9;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
     var4 = var4.Millis;
-    var4 = var4.MINUTE;
+    var4 = var4.SECOND;
     var4 = var7 * var4;
-    var _closure1_slot7 = var4;
+    var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -710,7 +876,7 @@ case 78:
     var3['MAX_USERS_PER_RECOMMENDATION'] = var4;
     var4 = function fetchSocialLayerStorefront() {
         var1 = undefined;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot10;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -721,7 +887,7 @@ case 78:
     var3['fetchSocialLayerStorefront'] = var4;
     var4 = function fetchSocialLayerStorefrontSku() {
         var1 = undefined;
-        var4 = _closure1_slot9;
+        var4 = _closure1_slot11;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -753,7 +919,7 @@ case 78:
     var3['setSocialLayerStorefrontState'] = var4;
     var4 = function fetchSocialLayerStorefrontRecommendations() {
         var1 = undefined;
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -764,7 +930,7 @@ case 78:
     var3['fetchSocialLayerStorefrontRecommendations'] = var4;
     var4 = function fetchSocialLayerStorefrontAnnouncement() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot13;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -773,8 +939,19 @@ case 78:
         return var1;
     };
     var3['fetchSocialLayerStorefrontAnnouncement'] = var4;
+    var4 = function fetchSocialLayerStorefrontConfig() {
+        var1 = undefined;
+        var4 = _closure1_slot14;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchSocialLayerStorefrontConfig'] = var4;
     var2 = function fetchSocialLayerSKUPurchaseEligibility(arg1, arg2, arg3) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var9 = arg2;
             var _closure2_slot0 = var9;
@@ -789,25 +966,25 @@ case 0:
             var7 = arg3;
             var3['location'] = var7;
             var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0005_ip = 84; continue _fun0005 }
-case 85:
+            if(!var3) { _fun0006_ip = 97; continue _fun0006 }
+case 98:
             var4 = _closure1_slot4;
             var3 = var4.getSKUEligibility;
             var5 = var3.bind(var4)(var9);
             var3 = 'checking';
             var3 = var3 !== var5;
-            if(!var3) { _fun0005_ip = 86; continue _fun0005 }
+            if(!var3) { _fun0006_ip = 99; continue _fun0006 }
 case 66:
             var4 = 'eligible';
             var3 = var4 !== var5;
-case 86:
-            if(!var3) { _fun0005_ip = 87; continue _fun0005 }
-case 88:
+case 99:
+            if(!var3) { _fun0006_ip = 100; continue _fun0006 }
+case 101:
             var4 = 'ineligible';
             var3 = var4 !== var5;
-case 87:
-            if(!var3) { _fun0005_ip = 84; continue _fun0005 }
-case 89:
+case 100:
+            if(!var3) { _fun0006_ip = 97; continue _fun0006 }
+case 102:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -874,7 +1051,7 @@ case 89:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 84:
+case 97:
             return var1;
         }
     };

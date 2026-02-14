@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/quests/experiments/index.tsx';
     var8 = var9.bind(var10)(var8);
-    var3['QuestHomeTakeoverRolloutExperiment'] = var7;
+    var3['QuestHomeHeroRolloutExperiment'] = var7;
     var3['QuestBarListenForSourceErrorExperimentVariant'] = var6;
     var3['QuestBarListenForSourceErrorExperiment'] = var5;
     var3['VideoEndCardV2Experiment'] = var4;
-    var3['FetchQuestHomeTakeoverOnConnectionOpenExperiment'] = var2;
+    var3['FetchQuestHomeHeroOnConnectionOpenExperiment'] = var2;
     return var1;
 })();

@@ -35,38 +35,9 @@ case 0:
             var4 = var5.bind(var6)(var4);
             if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var4 = 2;
-            var4 = var6[var4];
-            var6 = var5.bind(var1)(var4);
-            var5 = var6.getCurrentConfig;
-            var4 = {};
-            var8 = 'PasskeyUpsellActionCreators';
-            var4['location'] = var8;
-            var4 = var5.bind(var6)(var4);
-            var6 = new Array(1);
-            var6[0] = var4;
-            var5 = var6.some;
-            var4 = function(arg1) {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 3;
-                var2 = var2[var1];
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var1 = var1.PasskeyUpsellOnLoginExperimentState;
-                var2 = var1.Sheet;
-                var1 = arg1;
-                var1 = var1 === var2;
-                return var1;
-            };
-            var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
-case 4:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var4 = 4;
+            var4 = 2;
             var4 = var2[var4];
             var5 = var6.bind(var1)(var4);
             var4 = var5.requestMarkDismissibleContentAsShown;
@@ -85,16 +56,16 @@ case 2:
     var6 = function openPasskeyUpsellModal() {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 3;
         var4 = var2[var1];
         var1 = undefined;
         var5 = var5.bind(var1)(var4);
         var4 = var5.pushLazy;
         var6 = _closure1_slot0;
-        var3 = 7;
+        var3 = 5;
         var3 = var2[var3];
         var6 = var6.bind(var1)(var3);
-        var3 = 6;
+        var3 = 4;
         var3 = var2[var3];
         var2 = var2.paths;
         var3 = var6.bind(var1)(var3, var2);
@@ -106,7 +77,7 @@ case 2:
     var6 = function closePasskeyUpsellModal() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -119,16 +90,16 @@ case 2:
     var6 = function openPasskeyUpsellPromoSheet() {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 6;
         var4 = var2[var1];
         var1 = undefined;
         var5 = var5.bind(var1)(var4);
         var4 = var5.openLazy;
         var6 = _closure1_slot0;
-        var3 = 7;
+        var3 = 5;
         var3 = var2[var3];
         var6 = var6.bind(var1)(var3);
-        var3 = 9;
+        var3 = 7;
         var3 = var2[var3];
         var2 = var2.paths;
         var3 = var6.bind(var1)(var3, var2);
@@ -140,7 +111,7 @@ case 2:
     var6 = function closePasskeyUpsellPromoSheet() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -153,16 +124,16 @@ case 2:
     var1 = function openPasskeyUpsellPromoModal(arg1) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 3;
         var4 = var2[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
         var5 = var6.pushLazy;
         var4 = _closure1_slot0;
-        var3 = 7;
+        var3 = 5;
         var3 = var2[var3];
         var4 = var4.bind(var1)(var3);
-        var3 = 10;
+        var3 = 8;
         var3 = var2[var3];
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
@@ -172,7 +143,7 @@ case 2:
         return var1;
     };
     var2['openPasskeyUpsellPromoModal'] = var1;
-    var1 = 11;
+    var1 = 9;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);

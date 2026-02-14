@@ -56,23 +56,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var9 = var2.skuId;
-            var _closure2_slot0 = var9;
-            var8 = var2.loadId;
-            var _closure2_slot1 = var8;
+            var10 = var2.skuId;
+            var _closure2_slot0 = var10;
+            var9 = var2.loadId;
+            var _closure2_slot1 = var9;
             var7 = var2.analyticsLocations;
-            var12 = var2.onCheckoutSuccess;
-            var _closure2_slot2 = var12;
-            var3 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var13 = var2.onCheckoutSuccess;
+            var _closure2_slot2 = var13;
+            var12 = undefined;
+            var _closure2_slot5 = var12;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var2 = 4;
-            var2 = var10[var2];
-            var11 = undefined;
-            var13 = var3.bind(var11)(var2);
-            var6 = var13.useStateFromStores;
+            var2 = var6[var2];
+            var11 = var5.bind(var12)(var2);
+            var8 = var11.useStateFromStores;
             var2 = _closure1_slot6;
-            var5 = new Array(1);
-            var5[0] = var2;
+            var3 = new Array(1);
+            var3[0] = var2;
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -87,19 +88,19 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var6.bind(var13)(var5, var2);
+            var2 = var8.bind(var11)(var3, var2);
             var _closure2_slot3 = var2;
-            var5 = 6;
-            var5 = var10[var5];
-            var6 = var3.bind(var11)(var5);
-            var5 = var6.useFetchCollectiblesProduct;
-            var5 = var5.bind(var6)(var9);
-            var6 = var5.product;
+            var3 = 6;
+            var3 = var6[var3];
+            var5 = var5.bind(var12)(var3);
+            var3 = var5.useFetchCollectiblesProduct;
+            var3 = var3.bind(var5)(var10);
+            var6 = var3.product;
             var _closure2_slot4 = var6;
-            var13 = _closure1_slot5;
-            var5 = new Array(2);
-            var5[0] = var6;
-            var5[1] = var2;
+            var5 = _closure1_slot5;
+            var3 = new Array(2);
+            var3[0] = var6;
+            var3[1] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -135,25 +136,49 @@ case 2:
                     return var1;
                 }
             };
-            var5 = var13.bind(var11)(var2, var5);
+            var5 = var5.bind(var12)(var2, var3);
+            var8 = null;
+            var3 = var8 == var5;
+            var2 = undefined;
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var2 = var5.orbPriceAmount;
+case 6:
+            if(!(var8 == var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var2 = 8;
-            var2 = var10[var2];
-            var10 = var3.bind(var11)(var2);
-            var3 = var10.useRedeemVirtualCurrency;
+            var2 = var11[var2];
+            var14 = var3.bind(var12)(var2);
+            var11 = var14.captureBillingMessage;
+            var3 = {};
             var2 = {};
-            var2['skuId'] = var9;
-            var2['loadId'] = var8;
-            var2 = var3.bind(var10)(var2);
-            var13 = var2.redeemVirtualCurrency;
-            var _closure2_slot5 = var13;
+            var2['sku_id'] = var10;
+            var3['tags'] = var2;
+            var2 = 'Orb price not found for product';
+            var2 = var11.bind(var14)(var2, var3);
+case 8:
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 9;
+            var2 = var11[var2];
+            var11 = var3.bind(var12)(var2);
+            var3 = var11.useRedeemVirtualCurrency;
+            var2 = {};
+            var2['skuId'] = var10;
+            var2['loadId'] = var9;
+            var2 = var3.bind(var11)(var2);
+            var14 = var2.redeemVirtualCurrency;
+            _closure2_slot5 = var14;
             var3 = var2.isSubmitting;
             var2 = var2.error;
-            var10 = _closure1_slot4;
+            var11 = _closure1_slot4;
             var4 = new Array(4);
-            var4[0] = var9;
-            var4[1] = var8;
-            var4[2] = var13;
-            var4[3] = var12;
+            var4[0] = var10;
+            var4[1] = var9;
+            var4[2] = var14;
+            var4[3] = var13;
             var1 = function(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -177,15 +202,14 @@ case 2:
                 var2 = var5.bind(var1)(var4, var3, var2);
                 return var1;
             };
-            var4 = var10.bind(var11)(var1, var4);
+            var4 = var11.bind(var12)(var1, var4);
             var1 = {};
-            var1['skuId'] = var9;
-            var1['loadId'] = var8;
-            var8 = null;
-            if(!(var8 == var7)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            var1['skuId'] = var10;
+            var1['loadId'] = var9;
+            if(!(var8 == var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = new Array(0);
-case 6:
+case 10:
             var1['analyticsLocations'] = var7;
             var1['product'] = var6;
             var1['orbProductContext'] = var5;
@@ -196,7 +220,7 @@ case 6:
         }
     };
     var _closure1_slot9 = var4;
-    var5 = 9;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -233,10 +257,10 @@ case 0:
             var6['skuId'] = var14;
             var6['loadId'] = var13;
             var13 = null;
-            if(!(var13 == var12)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+            if(!(var13 == var12)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var12 = new Array(0);
-case 8:
+case 12:
             var6['analyticsLocations'] = var12;
             var6['analyticsSourceLocation'] = var11;
             var6['orbProductContext'] = var10;

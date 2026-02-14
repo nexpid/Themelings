@@ -368,7 +368,7 @@ case 15:
         return var1;
     };
     var _closure1_slot10 = var1;
-    var1 = function questHomeTakeoverAssetFromServer(arg1) {
+    var1 = function questHomeHeroAssetFromServer(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.alt_text;
@@ -380,7 +380,7 @@ case 15:
         return var1;
     };
     var _closure1_slot11 = var1;
-    var1 = function questHomeTakeoverCtaQuestFromServer(arg1) {
+    var1 = function questHomeHeroCtaQuestFromServer(arg1) {
         var2 = arg1;
         var1 = {};
         var3 = var2.cta_type;
@@ -534,7 +534,7 @@ case 25:
         return var1;
     };
     var3['questsEntitlementsFromServer'] = var4;
-    var2 = function questHomeTakeoverConfigFromServer(arg1) {
+    var2 = function questHomeHeroConfigFromServer(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var1 = arg1;
@@ -646,6 +646,6 @@ case 27:
             return var1;
         }
     };
-    var3['questHomeTakeoverConfigFromServer'] = var2;
+    var3['questHomeHeroConfigFromServer'] = var2;
     return var1;
 })();

@@ -101,7 +101,7 @@ case 14: // catch_target0
                     var10 = var11.getActivityLaunchErrorInfo;
                     var3 = var8;
                     var3 = var10.bind(var11)(var12, var3);
-                    SaveGenerator(address=300);
+                    SaveGenerator(address=298);
 case 15:
                     return var3;
 case 16:
@@ -256,7 +256,7 @@ case 30:
                     var9 = var10.showLaunchErrorModal;
                     var5 = var3.message;
                     var5 = var9.bind(var10)(var5);
-case 2: // try_end2
+case 31: // try_end2
                     var9 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var5 = var5[var8];
@@ -279,7 +279,7 @@ case 29:
                     var5['applicationId'] = var11;
                     var5 = var9.bind(var10)(var5);
                     return var3;
-case 31: // catch_target1 // catch_target2
+case 32: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=2);
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
