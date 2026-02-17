@@ -1242,8 +1242,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['inlineRequire'] = var8;
     var2['SubscriptionManager'] = var1;
     var1 = {};
-    var8 = ['CALL_DELETE', 'CHANNEL_DELETE', 'VOICE_CHANNEL_SELECT', 'RTC_CONNECTION_STATE'];
-    var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

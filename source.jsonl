@@ -1578,13 +1578,13 @@
 { "file": "app/modules/app_launcher/native/screens/search/useTrackSearchItems.tsx", "size": 5914 }
 { "file": "app/modules/app_launcher/utils/AppLauncherBadgeUtils.tsx", "size": 2928 }
 { "file": "app/modules/app_launcher/utils/AppLauncherPlayUtils.tsx", "size": 5051 }
-{ "file": "app/modules/app_launcher/utils/AppLauncherSearchUtils.tsx", "size": 93063 }
+{ "file": "app/modules/app_launcher/utils/AppLauncherSearchUtils.tsx", "size": 93067 }
 { "file": "app/modules/app_launcher/utils/AppLauncherUtils.tsx", "size": 37165 }
 { "file": "app/modules/app_launcher/utils/useLaunchingActivityButtonState.tsx", "size": 5896 }
 { "file": "app/modules/app_startup/AllCacheStores.native.tsx", "size": 2950 }
 { "file": "app/modules/app_startup/AllGatewayConnectionStores.native.tsx", "size": 15012 }
 { "file": "app/modules/app_startup/awaitExperiments.tsx", "size": 2366 }
-{ "file": "app/modules/app_startup/ManagerRegistry.native.tsx", "size": 63671 }
+{ "file": "app/modules/app_startup/ManagerRegistry.native.tsx", "size": 63549 }
 { "file": "app/modules/app_startup/ManagerRegistryShared.tsx", "size": 13029 }
 { "file": "app/modules/app_startup/native/executeHeadlessTask.tsx", "size": 27802 }
 { "file": "app/modules/app_startup/native/executeRunnable.tsx", "size": 5972 }
@@ -1841,7 +1841,7 @@
 { "file": "app/modules/calls/mobile/CallKitManager.android.tsx", "size": 4801 }
 { "file": "app/modules/calls/mobile/useIsCallActive.tsx", "size": 4507 }
 { "file": "app/modules/calls/native/getPrivateChannelCall.tsx", "size": 7730 }
-{ "file": "app/modules/calls/native/TelecomManager.android.tsx", "size": 66568 }
+{ "file": "app/modules/calls/native/TelecomManager.android.tsx", "size": 53392 }
 { "file": "app/modules/calls/native/usePrivateChannelCall.tsx", "size": 8044 }
 { "file": "app/modules/calls/NativeMuteManager.native.tsx", "size": 10891 }
 { "file": "app/modules/calls/ParticipantFocusManager.tsx", "size": 7210 }
@@ -5623,7 +5623,7 @@
 { "file": "app/modules/profile_customization/ProfileCustomizationUtils.tsx", "size": 31123 }
 { "file": "app/modules/profile_customization/useOpenProfileSettings.tsx", "size": 4194 }
 { "file": "app/modules/profile_effects/constants.tsx", "size": 939 }
-{ "file": "app/modules/profile_effects/native/EditProfileEffectSection.tsx", "size": 23250 }
+{ "file": "app/modules/profile_effects/native/EditProfileEffectSection.tsx", "size": 23249 }
 { "file": "app/modules/profile_effects/native/getAssetWHRatio.tsx", "size": 1576 }
 { "file": "app/modules/profile_effects/native/ProfileEffect.tsx", "size": 24089 }
 { "file": "app/modules/profile_effects/native/ProfileEffectLayer.android.tsx", "size": 4115 }
@@ -5790,8 +5790,8 @@
 { "file": "app/modules/quests/utils/QuestTaskUtils.tsx", "size": 57213 }
 { "file": "app/modules/quests/utils/QuestUtils.tsx", "size": 16390 }
 { "file": "app/modules/quests/utils/VideoQuestUtils.tsx", "size": 12344 }
-{ "file": "app/modules/quests/VideoQuestUIStore.tsx", "size": 17021 }
-{ "file": "app/modules/quests/web/VideoQuest/VideoQuestTypes.tsx", "size": 2172 }
+{ "file": "app/modules/quests/VideoQuestUIStore.tsx", "size": 17268 }
+{ "file": "app/modules/quests/web/VideoQuest/VideoQuestTypes.tsx", "size": 1268 }
 { "file": "app/modules/quickswitcher/QuickSwitcherActionCreators.tsx", "size": 34183 }
 { "file": "app/modules/quickswitcher/QuickSwitcherStore.tsx", "size": 68711 }
 { "file": "app/modules/react_asset/native/native_required_assets_icons.tsx", "size": 7999 }
@@ -8658,7 +8658,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 69136 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197370 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 929638 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 929636 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14092 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 86329 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx", "size": 24633 }
@@ -8783,6 +8783,7 @@
 { "file": "discord_common/js/packages/transition-group/TransitionChildMapping.tsx", "size": 5968 }
 { "file": "discord_common/js/packages/transition-group/TransitionGroup.tsx", "size": 27424 }
 { "file": "discord_common/js/packages/type-utils/TypeUtils.tsx", "size": 2392 }
+{ "file": "discord_common/js/packages/video-player/DiscordVideoPlayerTypes.tsx", "size": 2250 }
 { "file": "discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx", "size": 2451 }
 { "file": "discord_common/js/shared/config/colors/generated/ThemeTypes.tsx", "size": 1389 }
 { "file": "discord_common/js/shared/Constants.tsx", "size": 77307 }

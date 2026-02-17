@@ -8742,10 +8742,10 @@ case 92:
 case 32:
             var1 = false;
             _closure1_slot109 = var1;
-            _fun0111_ip = 387; continue _fun0111;
+            _fun0111_ip = 386; continue _fun0111;
 case 34:
             var2 = _closure1_slot109;
-            if(var2) { _fun0111_ip = 387; continue _fun0111 }
+            if(var2) { _fun0111_ip = 386; continue _fun0111 }
 case 389:
             var2 = true;
             _closure1_slot109 = var2;
@@ -8757,7 +8757,7 @@ case 389:
 case 115:
             var2 = var3.deaf;
 case 129:
-            if(!var2) { _fun0111_ip = 387; continue _fun0111 }
+            if(!var2) { _fun0111_ip = 386; continue _fun0111 }
 case 43:
             var3 = _closure1_slot166;
             var2 = {'deaf': false, 'mute': false};
@@ -8766,7 +8766,7 @@ case 43:
             var2 = var3.eachConnection;
             var1 = _closure1_slot154;
             var1 = var2.bind(var3)(var1);
-case 387:
+case 386:
             var1 = undefined;
             return var1;
         }

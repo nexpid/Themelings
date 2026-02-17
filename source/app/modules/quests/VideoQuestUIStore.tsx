@@ -110,7 +110,7 @@ case 8:
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 4;
+                var1 = 5;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -131,7 +131,7 @@ case 10:
         var3 = function setItem(arg1, arg2) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -146,7 +146,7 @@ case 10:
         var2 = function removeItem(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 4;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -179,7 +179,15 @@ case 10:
         var _closure2_slot0 = var1;
         var1 = arg2;
         var _closure2_slot1 = var1;
-        var1 = {'volume': 0.3, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'fullScreenEnabled': false, 'videoProgress': null, 'transcript': null};
+        var1 = {'volume': null, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'fullScreenEnabled': false, 'videoProgress': null, 'transcript': null};
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var3 = var5.bind(var3)(var4);
+        var3 = var3.DEFAULT_VIDEO_VOLUME;
+        var1['volume'] = var3;
         var3 = {};
         var1['videoProgress'] = var3;
         var3 = function setVolume(arg1) {
@@ -187,7 +195,7 @@ case 10:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -210,7 +218,7 @@ case 10:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -265,7 +273,7 @@ case 14:
                 var _closure3_slot3 = var3;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var3 = 3;
+                var3 = 4;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.batchUpdates;
@@ -302,7 +310,7 @@ case 14:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -325,7 +333,7 @@ case 14:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -348,7 +356,7 @@ case 14:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -422,7 +430,7 @@ case 24:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -454,7 +462,7 @@ case 24:
         var3 = function clearState() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -477,7 +485,7 @@ case 24:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -499,7 +507,7 @@ case 24:
     };
     var2 = var10.bind(var11)(var2, var9);
     var2 = var6.bind(var1)(var2);
-    var6 = 5;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
